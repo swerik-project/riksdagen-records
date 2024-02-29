@@ -16,7 +16,7 @@ class Test(unittest.TestCase):
         For each year, randomly choose a file and check it against the ParlaClarin schema.
         """
         schema_path = "schemas/parla-clarin.xsd"
-        folder = "corpus/records/"
+        folder = "data"
         years = sorted([p.stem for p in Path(folder).glob("*") if p.is_dir()])
         
         self.assertGreaterEqual(len(years), 1, "We should have a nonempty set of data folders")
