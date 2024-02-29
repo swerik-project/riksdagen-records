@@ -89,7 +89,7 @@ class Test(unittest.TestCase):
     random.seed(429)
     # Parla-clarin generated from example OCR XML
     def test_protocols(self):
-        folder = "corpus/records/"
+        folder = "data/"
         p = Path(folder)
         auth = os.environ.get("KBLAB_USERNAME"), os.environ.get("KBLAB_PASSWORD")
 
