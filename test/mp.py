@@ -1,12 +1,12 @@
 import unittest
-
 import pandas as pd
 from lxml import etree
-from pyriksdagen.utils import validate_xml_schema, infer_metadata
+from pyriksdagen.utils import validate_xml_schema, infer_metadata, get_data_location
 from pyriksdagen.db import load_patterns, filter_db, load_ministers, load_metadata
 from pathlib import Path
 import progressbar
 import warnings
+
 
 class Test(unittest.TestCase):
 
@@ -73,8 +73,8 @@ class Test(unittest.TestCase):
             return found, false_whos, dead_whos, child_whos
 
         # new
-        folder = "corpus/records"
-        *_, mp_db, minister_db, speaker_db = load_metadata()
+        folder = "data"
+        *_, mp_db, minister_db, speaker_db = load_metadata(metadata_location=f"../{get_data_location('metadata')}")
         mp_db = pd.concat([mp_db, minister_db, speaker_db])
 
         mp_ids = {}
