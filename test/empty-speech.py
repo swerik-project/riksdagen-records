@@ -2,7 +2,7 @@
 """
 Test there are no empty speeches.
 """
-from .pytestconfig import fetch_config
+from pytest-cfg-fetcher.fetch import fetch_config
 from datetime import datetime
 from lxml import etree
 from pyriksdagen.utils import (
