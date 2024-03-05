@@ -7,7 +7,7 @@ import warnings
 def validate(parlaclarin_paths):
 
     # Official example parla-clarin 
-    schema_path = "schemas/parla-clarin.xsd"
+    schema_path = "data/schemas/parla-clarin.xsd"
     #parlaclarin_path = "input/parla-clarin/official-example.xml"
     
     parlaclarin_paths = [Path(p) for p in parlaclarin_paths]
