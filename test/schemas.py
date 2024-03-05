@@ -15,7 +15,7 @@ class Test(unittest.TestCase):
         """
         For each year, randomly choose a file and check it against the ParlaClarin schema.
         """
-        schema_path = "data/schemas/parla-clarin.xsd"
+        schema_path = "test/data/schemas/parla-clarin.xsd"
         folder = "data"
         years = sorted([p.stem for p in Path(folder).glob("*") if p.is_dir()])
         
