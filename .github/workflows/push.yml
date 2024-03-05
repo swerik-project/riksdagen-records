@@ -83,7 +83,11 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pyriksdagen
-        pip install PyPDF2
+    - name: Download metadata
+      run: |
+        git clone https://github.com/swerik-project/riksdagen-records.git
+        cd riksdagen-records && git checkout main && cd ../
+        export METADATA_PATH="riksdagen-politicians/data"
     - name: Test speaker data integrity
       run: |
         python -m unittest test.mp
