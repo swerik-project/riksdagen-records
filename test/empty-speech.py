@@ -35,7 +35,7 @@ class Test(unittest.TestCase):
         Test protocol has no empty `u` or `seg` elements
         """
         rows = []
-        protocols = sorted(list(protocol_iterators("corpus/protocols/",
+        protocols = sorted(list(protocol_iterators("data",
                                                    start=1867,
                                                    end=2022)))
         for p in tqdm(protocols, total=len(protocols)):
