@@ -28,8 +28,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyriksdagen
 
-      - name: Validate changed files
+      - name: Validate updated files
         run: |
           PYTHONPATH="$PYTHONPATH:." python test/validate_parlaclarin.py ${{steps.changedfiles.outputs.files_updated}}
+      - name: Validate created files
+        run: |
           PYTHONPATH="$PYTHONPATH:." python test/validate_parlaclarin.py ${{steps.changedfiles.outputs.files_created}}
 
