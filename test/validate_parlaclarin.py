@@ -7,7 +7,7 @@ import warnings
 def validate(parlaclarin_paths):
 
     # Official example parla-clarin 
-    schema_path = "schemas/parla-clarin.xsd"
+    schema_path = "test/data/schemas/parla-clarin.xsd"
     #parlaclarin_path = "input/parla-clarin/official-example.xml"
     
     parlaclarin_paths = [Path(p) for p in parlaclarin_paths]
@@ -25,7 +25,12 @@ def validate(parlaclarin_paths):
     print(f"Validating {len(parlaclarin_paths)} XML files...")
 
     for parlaclarin_path in progressbar.progressbar(parlaclarin_paths):
-        valid = validate_xml_schema(parlaclarin_path.absolute(), schema_path)
+        try:
+            valid = validate_xml_schema(parlaclarin_path.absolute(), schema_path)
+        except Exception as e:
+            print(e)
+            print(parlaclarin_path, "could not be validated.")
+            return 1
         if not valid:
             print(parlaclarin_path, "is not a valid parla-clarin XML file.")
             return 1
