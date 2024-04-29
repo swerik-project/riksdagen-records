@@ -26,8 +26,7 @@ class EmptyProtocol(Warning):
 class Test(unittest.TestCase):
 
     def test_not_empty(self):
-        protocols = sorted(list(protocol_iterators('data',
-                                                    start=1867, end=2025)))
+        protocols = sorted(list(protocol_iterators('data')))
         empty = 0
         for p in tqdm(protocols):
             root, ns = parse_protocol(p, get_ns=True)
