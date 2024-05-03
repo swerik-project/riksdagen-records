@@ -8,9 +8,6 @@ on:
 jobs:
   Validate-CITATION-cff:
     runs-on: ubuntu-latest
-    name: Validate CITATION.cff
-    env:
-      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout
