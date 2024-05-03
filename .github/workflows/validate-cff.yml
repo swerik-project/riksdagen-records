@@ -1,10 +1,10 @@
+name: "Riksdagen Records: Validate CITATION.cff"
+
 on:
   push:
     paths:
       - CITATION.cff
-  workflow_dispatch:
 
-name: "Riksdagen Records: Validate CITATION.cff"
 jobs:
   Validate-CITATION-cff:
     runs-on: ubuntu-latest
