@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - CITATION.cff
+      - .github/workflows/validate-cff.yml
 
 jobs:
   Validate-CITATION-cff:
