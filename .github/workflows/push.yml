@@ -88,12 +88,12 @@ jobs:
 
     - name: Download metadata
       run: |
-        git clone https://github.com/swerik-project/riksdagen-politicians.git
-        cd riksdagen-politicians && git checkout main && cd ../
+        git clone https://github.com/swerik-project/riksdagen-persons.git
+        cd riksdagen-persons && git checkout main && cd ../
 
     - name: Test speaker data integrity
       run: |
-        export METADATA_PATH="riksdagen-politicians/data"
+        export METADATA_PATH="riksdagen-persons/data"
         python -m unittest test.mp
 
   next-prev:

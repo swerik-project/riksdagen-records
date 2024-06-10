@@ -34,6 +34,12 @@ class Test(unittest.TestCase):
         canonical_tags = [f'{tei_ns}u', 'u', f'{tei_ns}note', f'{tei_ns}seg']
         parser = etree.XMLParser(remove_blank_text=True)
         root = etree.parse(protocol, parser).getroot()
+        if root.tag == f"{tei_ns}TEI":
+            if f'{xml_ns}id' not in root.attrib:
+                counter += 1
+                fails.append([protocol, "no TEI ID attr", 0])
+        else:
+            warnings.warn(f"root {protocol} ")
         for body in root.findall(".//" + tei_ns + "body"):
             for div in body.findall(tei_ns + "div"):
                 for elem in div.iter():
@@ -52,7 +58,7 @@ class Test(unittest.TestCase):
         counter = 0
         fails = []
         f_cols = ["protocol", 'reason', "line_nr"]
-        protocols = sorted(list(protocol_iterators("corpus/protocols/", start=1867, end=2022)))
+        protocols = sorted(list(protocol_iterators("data/", start=1867, end=2022)))
         for p in tqdm(protocols, total=len(protocols)):
             counter, fails = self.count_missing_ids(p, counter, fails)
 
