@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prot-202223--029">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -60,12 +60,12 @@
         <note xml:id="i-RhaY9zrocoeXWzxEEAdPrK">
           av Annika Hirvonen (MP)
         </note>
-        <u xml:id="i-TvFEQ3AaRbgR4iXG1nYYmw" next="i-V8qJTNMZmt4gtmZVVAobYa" who="unknown">
+        <u xml:id="i-TvFEQ3AaRbgR4iXG1nYYmw" who="unknown">
           <seg xml:id="i-7xtRWv9d71TATxWSUpiT6F">
             Interpellationen kommer inte hinna besvaras inom tidsfristen.
           </seg>
         </u>
-        <u xml:id="i-V8qJTNMZmt4gtmZVVAobYa" prev="i-TvFEQ3AaRbgR4iXG1nYYmw" next="i-QjfZmcyyX3UNfAgA2MdTSf" who="unknown">
+        <u xml:id="i-V8qJTNMZmt4gtmZVVAobYa" who="unknown">
           <seg xml:id="i-S6ALkVDHdPeeboCam9zX5E">
             Skälet till dröjsmålet är tjänsteresor och andra sedan tidigare
             inbokade arrangemang.
@@ -77,11 +77,9 @@
         <note xml:id="i-AeGJvtdViJRKQvNK1LviyN">
           Stockholm den 30 november 2022
         </note>
-        <u xml:id="i-QjfZmcyyX3UNfAgA2MdTSf" prev="i-V8qJTNMZmt4gtmZVVAobYa" who="unknown">
-          <seg xml:id="i-S9J2nViaoWWbY36doQAZ9a">
-            Justitiedepartementet
-          </seg>
-        </u>
+        <note xml:id="i-S9J2nViaoWWbY36doQAZ9a">
+          Justitiedepartementet
+        </note>
         <note xml:id="i-etVCi9gNBB5SY8CAq8P6D">
           Maria Malmer Stenergard (M)
         </note>
@@ -134,20 +132,16 @@
         <note xml:id="i-9muXbCv66X1xj8Vz34BDnt">
           2022/23:26 till utrikesutskottet
         </note>
-        <u xml:id="i-FGPxeJGvjB3XPTrupcYtsS" next="i-EPQPeEaC7YXvwUMPMJKEMY" who="unknown">
-          <seg xml:id="i-KPqaJkcjsmxVYPHRtU4pPi">
-            EU-dokument
-          </seg>
-        </u>
+        <note xml:id="i-KPqaJkcjsmxVYPHRtU4pPi">
+          EU-dokument
+        </note>
         <note xml:id="i-3bzxdpdXLzTxqzbbgRr78N">
           COM(2022) 666 och COM(2022) 667 till näringsutskottet
         </note>
-        <u xml:id="i-EPQPeEaC7YXvwUMPMJKEMY" prev="i-FGPxeJGvjB3XPTrupcYtsS" who="unknown">
-          <seg xml:id="i-WaBcaWmSon7W7aM96Jt2c5">
-            Åttaveckorsfristen för att avge ett motiverat yttrande skulle
-            gå ut den 15 februari 2023 .
-          </seg>
-        </u>
+        <note xml:id="i-WaBcaWmSon7W7aM96Jt2c5">
+          Åttaveckorsfristen för att avge ett motiverat yttrande skulle
+          gå ut den 15 februari 2023 .
+        </note>
       </div>
       <div type="commentSection" xml:id="i-ARf1AQrVfDviFeiX466EUr">
         <pb facs="http://data.riksdagen.se/fil/203AFAA0-44D3-4A71-BEA7-20D60652363A#page=1"/>
@@ -725,19 +719,23 @@
         <note xml:id="i-K1ZX5goX7YvGQjiYza9cbZ" type="speaker">
           Anf. 10 FÖRSTE VICE TALMANNEN:
         </note>
-        <note xml:id="i-EnAHSkYjrX1xGWWJsp6LNL">
-          Jag vill hälsa statsråden välkomna. Frågor besvaras i dag av
-          arbetsmarknads- och integrationsminister Johan Pehrson , statsrådet
-          Johan Forssell , statsrådet Niklas Wykman och statsrådet Paulina
-          Brandberg .
-        </note>
-        <note xml:id="i-SporRMfB6Y18frvL7jb2jK">
-          En fråga ska vara av övergripande och allmänpolitiskt slag eller
-          avse ett ämne som faller inom statsrådets ansvarsområde och rör
-          dennes tjänsteutövning. Arbetsmarknads- och integrationsminister
-          Johan Pehrson besvarar såväl allmänpolitiska frågor som frågor
-          inom sitt eget ansvarsområde.
-        </note>
+        <u xml:id="i-AddyWGq93KLUTkhsE9YZuB" next="i-2gFLF8D95Y54Qoc9BYDkDe" who="unknown">
+          <seg xml:id="i-EnAHSkYjrX1xGWWJsp6LNL">
+            Jag vill hälsa statsråden välkomna. Frågor besvaras i dag av
+            arbetsmarknads- och integrationsminister Johan Pehrson , statsrådet
+            Johan Forssell , statsrådet Niklas Wykman och statsrådet Paulina
+            Brandberg .
+          </seg>
+        </u>
+        <u xml:id="i-2gFLF8D95Y54Qoc9BYDkDe" prev="i-AddyWGq93KLUTkhsE9YZuB" who="unknown">
+          <seg xml:id="i-SporRMfB6Y18frvL7jb2jK">
+            En fråga ska vara av övergripande och allmänpolitiskt slag eller
+            avse ett ämne som faller inom statsrådets ansvarsområde och rör
+            dennes tjänsteutövning. Arbetsmarknads- och integrationsminister
+            Johan Pehrson besvarar såväl allmänpolitiska frågor som frågor
+            inom sitt eget ansvarsområde.
+          </seg>
+        </u>
         <note xml:id="i-zLwYQj2SVbUrxA9nFReaS">
           Regeringens arbetsmarknadspolitik
         </note>
@@ -1024,7 +1022,7 @@
           Anf. 22 Arbetsmarknads- och integrationsminister JOHAN PEHRSON
           (L):
         </note>
-        <u xml:id="i-9skESPv4jrN1zjJqX2p5zW" next="i-FZKKhY9xEhY6DqMWBD5rp6" who="i-PyYxwdbw2KYpXyCWKWHmmT">
+        <u xml:id="i-9skESPv4jrN1zjJqX2p5zW" who="i-PyYxwdbw2KYpXyCWKWHmmT">
           <seg xml:id="i-Rp33vDJdePxkS7fFn6qMsj">
             Herr talman! Jag ser mycket fram emot att prata med hela riksdagen
             om detta. Det är klart att det är någonting som är lite udda i
@@ -1039,11 +1037,9 @@
             få mer kraft i hjälpen att minska smärtan i arbetslöshet.
           </seg>
         </u>
-        <u xml:id="i-FZKKhY9xEhY6DqMWBD5rp6" prev="i-9skESPv4jrN1zjJqX2p5zW" who="i-PyYxwdbw2KYpXyCWKWHmmT">
-          <seg xml:id="i-KCXfvERj28TYXUFyF76iWq">
-            Skyddat boende
-          </seg>
-        </u>
+        <note xml:id="i-KCXfvERj28TYXUFyF76iWq">
+          Skyddat boende
+        </note>
         <pb facs="http://data.riksdagen.se/fil/203AFAA0-44D3-4A71-BEA7-20D60652363A#page=12"/>
         <note xml:id="i-TT8AjnpPcZANHxKJpitJw9" type="speaker">
           Anf. 23 HELENA VILHELMSSON (C):
@@ -1144,7 +1140,7 @@
           Anf. 26 Statsrådet PAULINA BRANDBERG (L):
         </note>
         <pb facs="http://data.riksdagen.se/fil/203AFAA0-44D3-4A71-BEA7-20D60652363A#page=13"/>
-        <u xml:id="i-JekLb569w9JpZLR8wyjqdK" next="i-8iKMm4p2BCkFwEnCCw7hwN" who="i-GAMxNriJFxoi8diZPM78s6">
+        <u xml:id="i-JekLb569w9JpZLR8wyjqdK" who="i-GAMxNriJFxoi8diZPM78s6">
           <seg xml:id="i-WWScFzweKRvUT16kaKgJD7">
             Herr talman! Vi kommer att säkerställa att skyddade boenden kommer
             att fungera för kvinnor i hela Sverige. Det finns alltid olika
@@ -1153,11 +1149,9 @@
             regering, och vi kommer att agera utifrån det.
           </seg>
         </u>
-        <u xml:id="i-8iKMm4p2BCkFwEnCCw7hwN" prev="i-JekLb569w9JpZLR8wyjqdK" who="i-GAMxNriJFxoi8diZPM78s6">
-          <seg xml:id="i-4H1HQPUoF2oSurjFxbaFzv">
-            Jämlikhetsdata
-          </seg>
-        </u>
+        <note xml:id="i-4H1HQPUoF2oSurjFxbaFzv">
+          Jämlikhetsdata
+        </note>
         <note xml:id="i-N7ZpiG7LsrdXDseZqE3n41" type="speaker">
           Anf. 27 ANNIKA HIRVONEN (MP):
         </note>
@@ -1256,7 +1250,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/203AFAA0-44D3-4A71-BEA7-20D60652363A#page=14"/>
-        <u xml:id="i-Cy2EKDeoVb2a6iD7CycXWc" prev="i-8f9tE3CD8ZJoaL5bmqHVor" next="i-4crXWgAXRCtudCjQ9yF3ag" who="i-PyYxwdbw2KYpXyCWKWHmmT">
+        <u xml:id="i-Cy2EKDeoVb2a6iD7CycXWc" prev="i-8f9tE3CD8ZJoaL5bmqHVor" who="i-PyYxwdbw2KYpXyCWKWHmmT">
           <seg xml:id="i-5iJB7M4NhJRuyo5zL2P1Kb">
             Jag vill återkomma när jag har fördjupat våra diskussioner på
             Arbetsmarknadsdepartementet. Då får vi se om det är en ny utredning
@@ -1264,11 +1258,9 @@
             Låt mig därför återkomma.
           </seg>
         </u>
-        <u xml:id="i-4crXWgAXRCtudCjQ9yF3ag" prev="i-Cy2EKDeoVb2a6iD7CycXWc" who="i-PyYxwdbw2KYpXyCWKWHmmT">
-          <seg xml:id="i-E9vk6S1ZxZRcWD7ZRHMtFG">
-            Bidragsfusk
-          </seg>
-        </u>
+        <note xml:id="i-E9vk6S1ZxZRcWD7ZRHMtFG">
+          Bidragsfusk
+        </note>
         <note xml:id="i-MajuEEHxdTpCsVRrL7BdsD" type="speaker">
           Anf. 31 OLIVER ROSENGREN (M):
         </note>
@@ -1333,10 +1325,12 @@
         <note xml:id="i-6ZSv93Fm7rD7gAjrYVLcSq" type="speaker">
           Anf. 33 OLIVER ROSENGREN (M):
         </note>
-        <note xml:id="i-WHeLbDuEtZVJ81EtbUtAW8">
-          Herr talman! Tack, statsrådet, för svaret!
-        </note>
-        <u xml:id="i-XT6JsM69tkJZ8L4L4YsT2b" next="i-2AMsKyGMBiWnj5uwbytaq3" who="i-6P8JJH1EpdwZhiQAWRjq7Z">
+        <u xml:id="i-4MQYKmTeG1LCkDJwZ47Fsn" next="i-XT6JsM69tkJZ8L4L4YsT2b" who="i-6P8JJH1EpdwZhiQAWRjq7Z">
+          <seg xml:id="i-WHeLbDuEtZVJ81EtbUtAW8">
+            Herr talman! Tack, statsrådet, för svaret!
+          </seg>
+        </u>
+        <u xml:id="i-XT6JsM69tkJZ8L4L4YsT2b" next="i-2AMsKyGMBiWnj5uwbytaq3" who="i-6P8JJH1EpdwZhiQAWRjq7Z" prev="i-4MQYKmTeG1LCkDJwZ47Fsn">
           <seg xml:id="i-Gf6x35vFezoXxF121UhZkA">
             Statsrådet berörde själv Arbetsförmedlingen. Redan 2019 konstaterade
             IAF att Arbetsförmedlingen i åtta av tio fall där en nyanländ
@@ -1371,18 +1365,16 @@
             Är det här en bra arbetsplats? Är det här okej?
           </seg>
         </u>
-        <u xml:id="i-2u4ywE2rQXEXvf8bWZzuvH" prev="i-HeETa82BTQu3UA222tNrs7" next="i-9a53pV8yE34mYK729AJQ4d" who="i-PyYxwdbw2KYpXyCWKWHmmT">
+        <u xml:id="i-2u4ywE2rQXEXvf8bWZzuvH" prev="i-HeETa82BTQu3UA222tNrs7" who="i-PyYxwdbw2KYpXyCWKWHmmT">
           <seg xml:id="i-3PXc7ZqkxAn6pQbi9aP3W5">
             Vi genomför också förstärkningar för att stötta andra aktörer
             i att kunna göra kontroller tidigt och tydligt för att ingen ska
             utnyttjas men även så att personer själva inte gör något fel.
           </seg>
         </u>
-        <u xml:id="i-9a53pV8yE34mYK729AJQ4d" prev="i-2u4ywE2rQXEXvf8bWZzuvH" who="i-PyYxwdbw2KYpXyCWKWHmmT">
-          <seg xml:id="i-QzadJ4TFr729kukWWsr2st">
-            Arbetslösheten
-          </seg>
-        </u>
+        <note xml:id="i-QzadJ4TFr729kukWWsr2st">
+          Arbetslösheten
+        </note>
         <note xml:id="i-17jQDXUe2zs72mPTmHejZw" type="speaker">
           Anf. 35 MAGNUS JACOBSSON (KD):
         </note>
@@ -1474,7 +1466,7 @@
             i kammaren i andra sammanhang.
           </seg>
         </u>
-        <u xml:id="i-WgiuxBiYgSgT9RcNaiTy9V" prev="i-WCFbvbStACCVVwNCEtCoq2" next="i-KPdsRAqbUzAPpHMnKNq2ue" who="i-PyYxwdbw2KYpXyCWKWHmmT">
+        <u xml:id="i-WgiuxBiYgSgT9RcNaiTy9V" prev="i-WCFbvbStACCVVwNCEtCoq2" who="i-PyYxwdbw2KYpXyCWKWHmmT">
           <seg xml:id="i-EmzDXiyMhGjLPUmqJTE32a">
             Det är många som måste hjälpa till, för även om det är enkelt
             sagt är detta komplicerat, och jag har hört många från i stort
@@ -1482,11 +1474,9 @@
             också ska jobba.
           </seg>
         </u>
-        <u xml:id="i-KPdsRAqbUzAPpHMnKNq2ue" prev="i-WgiuxBiYgSgT9RcNaiTy9V" who="i-PyYxwdbw2KYpXyCWKWHmmT">
-          <seg xml:id="i-6ZwKgorvq5EiixspQSncV6">
-            Sveriges arbete mot hiv
-          </seg>
-        </u>
+        <note xml:id="i-6ZwKgorvq5EiixspQSncV6">
+          Sveriges arbete mot hiv
+        </note>
         <note xml:id="i-Ct4EeWhag949HXbb8Lpwpv" type="speaker">
           Anf. 39 ANNA STARBRINK (L):
         </note>
@@ -1591,7 +1581,7 @@
             sätt.
           </seg>
         </u>
-        <u xml:id="i-9KrSmTYkbvgkkWtYQLfWRq" prev="i-Pf35QEgG18Do35KbBCpNUt" next="i-bpKpivLXrPjqAoW7XgM8u" who="i-NRWqqo7iPdzBV8QrJyKnQb">
+        <u xml:id="i-9KrSmTYkbvgkkWtYQLfWRq" prev="i-Pf35QEgG18Do35KbBCpNUt" who="i-NRWqqo7iPdzBV8QrJyKnQb">
           <seg xml:id="i-BBDGDKHcMYaJDiXfd9KZMJ">
             Flera av strategierna löper under flera år. Unaids startade för
             några år sedan och löper några år till, och där kan man få viss
@@ -1599,11 +1589,9 @@
             stöd, bland annat till dem.
           </seg>
         </u>
-        <u xml:id="i-bpKpivLXrPjqAoW7XgM8u" prev="i-9KrSmTYkbvgkkWtYQLfWRq" who="i-NRWqqo7iPdzBV8QrJyKnQb">
-          <seg xml:id="i-TcdL4g55fWQ5bNMgRij8Px">
-            Amorteringskravet
-          </seg>
-        </u>
+        <note xml:id="i-TcdL4g55fWQ5bNMgRij8Px">
+          Amorteringskravet
+        </note>
         <note xml:id="i-EKeRFbDBmKis8VYuT39Y36" type="speaker">
           Anf. 43 ADNAN DIBRANI (S):
         </note>
@@ -1662,7 +1650,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/203AFAA0-44D3-4A71-BEA7-20D60652363A#page=18"/>
-        <u xml:id="i-Pcduvg7U82GnUNvusqSuFM" prev="i-BBvMYqDUMLtzhofniv78ce" next="i-BhKL64gDrQnN96UzKC55v2" who="i-26JwMpJPh7ufEnA9hhtP9j">
+        <u xml:id="i-Pcduvg7U82GnUNvusqSuFM" prev="i-BBvMYqDUMLtzhofniv78ce" who="i-26JwMpJPh7ufEnA9hhtP9j">
           <seg xml:id="i-NPmzMoNUXo3Tbr9ufrb1XC">
             Om man ska vända en negativ utveckling som har rått under lång
             tid måste vissa fundamenta vara i god ordning. Elisabeth Svantesson
@@ -1671,11 +1659,9 @@
             om amorteringskravet. Och jag har haft mitt första möte med Finansinspektionen.
           </seg>
         </u>
-        <u xml:id="i-BhKL64gDrQnN96UzKC55v2" prev="i-Pcduvg7U82GnUNvusqSuFM" who="i-26JwMpJPh7ufEnA9hhtP9j">
-          <seg xml:id="i-XwEq2MdhdYFk3zRvcMqNgn">
-            Kvinnojourer och skyddat boende
-          </seg>
-        </u>
+        <note xml:id="i-XwEq2MdhdYFk3zRvcMqNgn">
+          Kvinnojourer och skyddat boende
+        </note>
         <note xml:id="i-4ekXFgWxPNNfroTYGxeYgT" type="speaker">
           Anf. 45 CARITA BOULWÉN (SD):
         </note>
@@ -1816,17 +1802,15 @@
             Det finns starka sådana krafter i Europa.
           </seg>
         </u>
-        <u xml:id="i-7f81oJyocWMHPrNtWNC2xt" prev="i-Vb26YtTox26cW5Gi4TjWWd" next="i-BGsJBs8zEj2k7HcHb26v1y" who="i-NRWqqo7iPdzBV8QrJyKnQb">
+        <u xml:id="i-7f81oJyocWMHPrNtWNC2xt" prev="i-Vb26YtTox26cW5Gi4TjWWd" who="i-NRWqqo7iPdzBV8QrJyKnQb">
           <seg xml:id="i-JmHy3kWAdTnZaPHuzdB17d">
             Regeringen vill inte se en sådan utveckling, utan vi driver på
             för att försöka hitta en överenskommelse med USA.
           </seg>
         </u>
-        <u xml:id="i-BGsJBs8zEj2k7HcHb26v1y" prev="i-7f81oJyocWMHPrNtWNC2xt" who="i-NRWqqo7iPdzBV8QrJyKnQb">
-          <seg xml:id="i-BwDescsRFoDXK8dxJmBRXh">
-            Gängens rekrytering av unga
-          </seg>
-        </u>
+        <note xml:id="i-BwDescsRFoDXK8dxJmBRXh">
+          Gängens rekrytering av unga
+        </note>
         <note xml:id="i-NQZy6t34i1Fr5eeAXTP5EH" type="speaker">
           Anf. 49 TORSTEN ELOFSSON (KD):
         </note>
@@ -1887,7 +1871,7 @@
             i en mindre undervisningsgrupp i skolan.
           </seg>
         </u>
-        <u xml:id="i-PF7SBFgMrbHicRXjQHGUXm" prev="i-4Z5DQkAnwdsAmd959JGHPd" next="i-NXcqC6ZWPTnxej5RvExxz2" who="i-PyYxwdbw2KYpXyCWKWHmmT">
+        <u xml:id="i-PF7SBFgMrbHicRXjQHGUXm" prev="i-4Z5DQkAnwdsAmd959JGHPd" who="i-PyYxwdbw2KYpXyCWKWHmmT">
           <seg xml:id="i-7vpUknsY1M8aHhikgUVG12">
             Vi gör också insatser för att agera tidigare och tydligare med
             lite tvång, så att säga, från socialtjänsten. Det kan handla om
@@ -1895,11 +1879,9 @@
             för barn- och ungdomspsykiatrin.
           </seg>
         </u>
-        <u xml:id="i-NXcqC6ZWPTnxej5RvExxz2" prev="i-PF7SBFgMrbHicRXjQHGUXm" who="i-PyYxwdbw2KYpXyCWKWHmmT">
-          <seg xml:id="i-E94yhL8E8RUZWcwpuj2MG4">
-            Sverigebilden
-          </seg>
-        </u>
+        <note xml:id="i-E94yhL8E8RUZWcwpuj2MG4">
+          Sverigebilden
+        </note>
         <note xml:id="i-9yA7bJ6pYVZeHxyez7t6E3" type="speaker">
           Anf. 51 AIDA BIRINXHIKU (S):
         </note>
@@ -2014,7 +1996,7 @@
             dem. Det har vi sett hända i andra länder.
           </seg>
         </u>
-        <u xml:id="i-GBRG8jY6p4ZPSeNRLUBNK" prev="i-2RRH4ipZxSmDZAf4vpw3kt" next="i-UvSxKsKeyt6t5hh2yKWxaC" who="i-26JwMpJPh7ufEnA9hhtP9j">
+        <u xml:id="i-GBRG8jY6p4ZPSeNRLUBNK" prev="i-2RRH4ipZxSmDZAf4vpw3kt" who="i-26JwMpJPh7ufEnA9hhtP9j">
           <seg xml:id="i-GaMMRygAFYeLkQyYF5mkrq">
             Det är därför inte regeringens intention att försöka lägga sig
             i kreditgivningen på ett sådant sätt att det utfärdas krediter
@@ -2025,11 +2007,9 @@
             är inte vägen framåt.
           </seg>
         </u>
-        <u xml:id="i-UvSxKsKeyt6t5hh2yKWxaC" prev="i-GBRG8jY6p4ZPSeNRLUBNK" who="i-26JwMpJPh7ufEnA9hhtP9j">
-          <seg xml:id="i-69AwyB8NEBVxrSkJd4r9Gc">
-            Kompetensbristen i besöksnäringen
-          </seg>
-        </u>
+        <note xml:id="i-69AwyB8NEBVxrSkJd4r9Gc">
+          Kompetensbristen i besöksnäringen
+        </note>
         <note xml:id="i-SP2bV6JqKbXSWZD3D9C63E" type="speaker">
           Anf. 55 CARL NORDBLOM (M):
         </note>
@@ -2226,7 +2206,7 @@
             demokrati.
           </seg>
         </u>
-        <u xml:id="i-5EEt3WPyFn3iryLR59DB8f" prev="i-3Tsaby98j8K8hN5sX2mnqA" next="i-VxBCRp313pRppfj5dMS4bb" who="i-GAMxNriJFxoi8diZPM78s6">
+        <u xml:id="i-5EEt3WPyFn3iryLR59DB8f" prev="i-3Tsaby98j8K8hN5sX2mnqA" who="i-GAMxNriJFxoi8diZPM78s6">
           <seg xml:id="i-NTAJmX9DNjd8bvJWb3iHZ8">
             Denna regering har gjort en särskild satsning i budgeten som
             jag är oerhört stolt över. Vi har satsat öronmärkta pengar på
@@ -2238,11 +2218,9 @@
             ställa krav på samhället som de har rätt att göra.
           </seg>
         </u>
-        <u xml:id="i-VxBCRp313pRppfj5dMS4bb" prev="i-5EEt3WPyFn3iryLR59DB8f" who="i-GAMxNriJFxoi8diZPM78s6">
-          <seg xml:id="i-SyH4QMCuEonagekFFS4G1">
-            Integration och krav
-          </seg>
-        </u>
+        <note xml:id="i-SyH4QMCuEonagekFFS4G1">
+          Integration och krav
+        </note>
         <note xml:id="i-SqrhPSLRbUCFcFRVJ6bzgf" type="speaker">
           Anf. 61 ANN-CHRISTINE FROM UTTERSTEDT (SD):
         </note>
@@ -2302,17 +2280,15 @@
             land utan att vilja bli en del av landet?
           </seg>
         </u>
-        <u xml:id="i-9h4FJTKjk7R1FvH9TKcpWx" prev="i-E3RNVJ75Eb7ZPvkNuHScPV" next="i-SW9cD38mgvtczKGePrFiMr" who="i-PyYxwdbw2KYpXyCWKWHmmT">
+        <u xml:id="i-9h4FJTKjk7R1FvH9TKcpWx" prev="i-E3RNVJ75Eb7ZPvkNuHScPV" who="i-PyYxwdbw2KYpXyCWKWHmmT">
           <seg xml:id="i-5bx1Yaju8VRALXfe4ECHmk">
             Vi gör stora förändringar på integrationsområdet, och det är
             jag glad för.
           </seg>
         </u>
-        <u xml:id="i-SW9cD38mgvtczKGePrFiMr" prev="i-9h4FJTKjk7R1FvH9TKcpWx" who="i-PyYxwdbw2KYpXyCWKWHmmT">
-          <seg xml:id="i-4wRwgtvw8PmXfeCaZSRPdE">
-            Biståndsstrategi för Ukraina
-          </seg>
-        </u>
+        <note xml:id="i-4wRwgtvw8PmXfeCaZSRPdE">
+          Biståndsstrategi för Ukraina
+        </note>
         <note xml:id="i-WkZaXwF9hsZpFY4jiC6VqA" type="speaker">
           Anf. 63 MAGDALENA SCHRÖDER (M):
         </note>
@@ -2368,7 +2344,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/203AFAA0-44D3-4A71-BEA7-20D60652363A#page=25"/>
-        <u xml:id="i-Q2QvAWuFz7yyr3JpohATk9" prev="i-YM7L9JeTnCVj3cmFfVRQXr" next="i-8tfYYQwheiEF8KvhWJwgh9" who="i-NRWqqo7iPdzBV8QrJyKnQb">
+        <u xml:id="i-Q2QvAWuFz7yyr3JpohATk9" prev="i-YM7L9JeTnCVj3cmFfVRQXr" who="i-NRWqqo7iPdzBV8QrJyKnQb">
           <seg xml:id="i-59pz1nb1At2XPaAnqutCkj">
             Vi har också inlett ett arbete på temat att gjuta ihop handel
             och bistånd, till exempel genom att ge Ukraina tullfrihet. Då
@@ -2376,11 +2352,9 @@
             också en återuppbyggnad av landet.
           </seg>
         </u>
-        <u xml:id="i-8tfYYQwheiEF8KvhWJwgh9" prev="i-Q2QvAWuFz7yyr3JpohATk9" who="i-NRWqqo7iPdzBV8QrJyKnQb">
-          <seg xml:id="i-TrEYo4DZmvadb8WRhoEqzm">
-            Klimatpolitiken och Sveriges EU-ordförandeskap
-          </seg>
-        </u>
+        <note xml:id="i-TrEYo4DZmvadb8WRhoEqzm">
+          Klimatpolitiken och Sveriges EU-ordförandeskap
+        </note>
         <note xml:id="i-Sfm4tQmBGYsppkpRkpcVDo" type="speaker">
           Anf. 65 JYTTE GUTELAND (S):
         </note>
@@ -2505,7 +2479,7 @@
             för personen själv.
           </seg>
         </u>
-        <u xml:id="i-LGf5UfH2W9CPv6B87GBG4L" prev="i-XaK7poVeKJw3fe9iHwVe4c" next="i-67bs6qV3HBnCbc9JgASG9W" who="i-26JwMpJPh7ufEnA9hhtP9j">
+        <u xml:id="i-LGf5UfH2W9CPv6B87GBG4L" prev="i-XaK7poVeKJw3fe9iHwVe4c" who="i-26JwMpJPh7ufEnA9hhtP9j">
           <seg xml:id="i-2SWF3RSVoznAJNk9gnxFfh">
             Det har gjorts och görs en hel del. Men här finns sällan en enda
             lösning, utan det handlar om att inom en rad olika områden, såsom
@@ -2516,11 +2490,9 @@
             ryms inte på en minut.
           </seg>
         </u>
-        <u xml:id="i-67bs6qV3HBnCbc9JgASG9W" prev="i-LGf5UfH2W9CPv6B87GBG4L" who="i-26JwMpJPh7ufEnA9hhtP9j">
-          <seg xml:id="i-BrAdLw936ZxCk5HFonwThJ">
-            Arbetslivskriminaliteten
-          </seg>
-        </u>
+        <note xml:id="i-BrAdLw936ZxCk5HFonwThJ">
+          Arbetslivskriminaliteten
+        </note>
         <note xml:id="i-GCS6qkyxTBHT4CHBoKrnoy" type="speaker">
           Anf. 69 JIM SVENSK LARM (S):
         </note>
@@ -2639,7 +2611,7 @@
             former av processer.
           </seg>
         </u>
-        <u xml:id="i-JGYczRhT6KNZE4oZKEwa8r" prev="i-9DwA9tvP4apZnvv1vLCUrJ" who="i-GAMxNriJFxoi8diZPM78s6">
+        <u xml:id="i-JGYczRhT6KNZE4oZKEwa8r" prev="i-9DwA9tvP4apZnvv1vLCUrJ" who="i-GAMxNriJFxoi8diZPM78s6" next="i-SPkMDKRfgYA5M6EHXASnCX">
           <seg xml:id="i-9EX9LgpicNjVjzPv1FzTrk">
             Regeringen har inga planer på att införa någon form av kvotering
             som lösning, utan vi kommer att jobba stenhårt med att just skapa
@@ -2648,9 +2620,11 @@
             och annat som gör oss olika som människor.
           </seg>
         </u>
-        <note xml:id="i-WWL1imGfBXkcWuEmJvQ2GG">
-          Nedskärningar i kärnstödet till FN
-        </note>
+        <u xml:id="i-SPkMDKRfgYA5M6EHXASnCX" prev="i-JGYczRhT6KNZE4oZKEwa8r" who="i-GAMxNriJFxoi8diZPM78s6">
+          <seg xml:id="i-WWL1imGfBXkcWuEmJvQ2GG">
+            Nedskärningar i kärnstödet till FN
+          </seg>
+        </u>
         <note xml:id="i-9NEu3fCeNsRyztuVaAgW2S" type="speaker">
           Anf. 73 OLLE THORELL (S):
         </note>
@@ -2709,7 +2683,7 @@
             därtill infört ett tak kopplat till just flyktingavräkningarna.
           </seg>
         </u>
-        <u xml:id="i-FUn1G8gXEMFNWr9jaom33o" prev="i-NRNBqvXN133WqgZqHK4hFH" next="i-U6APbAvXuWg9FanYB7uCi3" who="i-NRWqqo7iPdzBV8QrJyKnQb">
+        <u xml:id="i-FUn1G8gXEMFNWr9jaom33o" prev="i-NRNBqvXN133WqgZqHK4hFH" who="i-NRWqqo7iPdzBV8QrJyKnQb">
           <seg xml:id="i-7oehPHxpsNHNpUEnR3Tb8L">
             Låt mig också påpeka att även om FN är en viktig spelare finns
             det fler globala aktörer, till exempel Europeiska unionen. Jag
@@ -2717,11 +2691,9 @@
             av det fruktansvärda krig som pågår i Ukraina.
           </seg>
         </u>
-        <u xml:id="i-U6APbAvXuWg9FanYB7uCi3" prev="i-FUn1G8gXEMFNWr9jaom33o" who="i-NRWqqo7iPdzBV8QrJyKnQb">
-          <seg xml:id="i-8nAGRZUnU4uN7m98S2bvTb">
-            Äldreomsorgslyftet
-          </seg>
-        </u>
+        <note xml:id="i-8nAGRZUnU4uN7m98S2bvTb">
+          Äldreomsorgslyftet
+        </note>
         <note xml:id="i-4MEiAupZgMqJMkbCiQ8RuK" type="speaker">
           Anf. 75 MIKAEL DAHLQVIST (S):
         </note>
@@ -2836,18 +2808,16 @@
             näringslivet eftersom detta stärker kompetensen hos båda.
           </seg>
         </u>
-        <u xml:id="i-VosteWGqbcTfonmyj2eCue" prev="i-A61bQRHqWN3DnKf8uTKPWV" next="i-T9qR7NuycEeuSyBc5wnB4X" who="i-26JwMpJPh7ufEnA9hhtP9j">
+        <u xml:id="i-VosteWGqbcTfonmyj2eCue" prev="i-A61bQRHqWN3DnKf8uTKPWV" who="i-26JwMpJPh7ufEnA9hhtP9j">
           <seg xml:id="i-Pf1g6JmWWc5VfmNfMJsCMF">
             Den svenska positionen är väldigt tydlig här. Olika intressen
             står mot varandra, och man måste värna integriteten både för systemet
             och för arbetsmarknadens möjligheter generellt.
           </seg>
         </u>
-        <u xml:id="i-T9qR7NuycEeuSyBc5wnB4X" prev="i-VosteWGqbcTfonmyj2eCue" who="i-26JwMpJPh7ufEnA9hhtP9j">
-          <seg xml:id="i-MNwokeSe94cY9AgqrXkz88">
-            Arbetsförmedlingens förutsättningar
-          </seg>
-        </u>
+        <note xml:id="i-MNwokeSe94cY9AgqrXkz88">
+          Arbetsförmedlingens förutsättningar
+        </note>
         <note xml:id="i-F45QVccaU6cBSchfK2fkjm" type="speaker">
           Anf. 79 SERKAN KÖSE (S):
         </note>
@@ -2929,12 +2899,10 @@
         <note xml:id="i-JDVHZ3T9SQJ53V9fXPjy3Q">
           Skrivelse
         </note>
-        <u xml:id="i-RsFQjZ3DS8xmLdHePxqYhg" who="i-PyYxwdbw2KYpXyCWKWHmmT">
-          <seg xml:id="i-EM1mi4TMAtXuzB7k5UccgG">
-            2022/23:25 Riksrevisionens rapport om beslutsunderlag inför stora
-            reformer
-          </seg>
-        </u>
+        <note xml:id="i-EM1mi4TMAtXuzB7k5UccgG">
+          2022/23:25 Riksrevisionens rapport om beslutsunderlag inför stora
+          reformer
+        </note>
       </div>
       <div type="commentSection" xml:id="i-GNREDvPGpDeh4YHm3cN3h8">
         <pb facs="http://data.riksdagen.se/fil/203AFAA0-44D3-4A71-BEA7-20D60652363A#page=1"/>
@@ -2966,11 +2934,9 @@
         <note xml:id="i-8h2UueNzw3jkvxsDpbXD5m">
           till justitieminister Gunnar Strömmer (M)
         </note>
-        <u xml:id="i-CGA54X41f8jVbuSmW5dLnr" next="i-EenBxZCeh6b72Xe7e85G1W" who="i-PyYxwdbw2KYpXyCWKWHmmT">
-          <seg xml:id="i-BGXR1sVWfkYp97PKFrrmhB">
-            2022/23:64 Sveriges klimatpolitik under ordförandeskapet i EU
-          </seg>
-        </u>
+        <note xml:id="i-BGXR1sVWfkYp97PKFrrmhB">
+          2022/23:64 Sveriges klimatpolitik under ordförandeskapet i EU
+        </note>
         <note xml:id="i-EoiizepKA1sHChoVsWZey7">
           av Jytte Guteland (S)
         </note>
@@ -2983,11 +2949,9 @@
         <note xml:id="i-Y2idbV2sv2EbwgbU9BQFEi">
           av Jacob Risberg (MP)
         </note>
-        <u xml:id="i-EenBxZCeh6b72Xe7e85G1W" prev="i-CGA54X41f8jVbuSmW5dLnr" next="i-2c92Hjowc2KkSLrZq7o5Tk" who="i-PyYxwdbw2KYpXyCWKWHmmT">
-          <seg xml:id="i-JVZXVQ8BCGfvYZTKPejqJS">
-            till utrikesminister Tobias Billström (M)
-          </seg>
-        </u>
+        <note xml:id="i-JVZXVQ8BCGfvYZTKPejqJS">
+          till utrikesminister Tobias Billström (M)
+        </note>
         <pb facs="http://data.riksdagen.se/fil/203AFAA0-44D3-4A71-BEA7-20D60652363A#page=31"/>
         <note xml:id="i-3iT6uKpWkauY51m7J6U1c5">
           2022/23:66 Försäkringskassans resurser
@@ -2998,11 +2962,9 @@
         <note xml:id="i-WfSCz5d9C468dUGjTAXZNe">
           till statsrådet Anna Tenje (M)
         </note>
-        <u xml:id="i-2c92Hjowc2KkSLrZq7o5Tk" prev="i-EenBxZCeh6b72Xe7e85G1W" who="i-PyYxwdbw2KYpXyCWKWHmmT">
-          <seg xml:id="i-L125PrugNBNG82K54aQmC7">
-            2022/23:67 Absoluta tidsgränser i sjukförsäkringen
-          </seg>
-        </u>
+        <note xml:id="i-L125PrugNBNG82K54aQmC7">
+          2022/23:67 Absoluta tidsgränser i sjukförsäkringen
+        </note>
         <note xml:id="i-LZZWPgaRtabX9dMbkZ1vAG">
           av Åsa Eriksson (S)
         </note>
@@ -3015,19 +2977,15 @@
         <note xml:id="i-3sySQ6r4J55C3sdeGPWccD">
           § 10 Anmälan om frågor för skriftliga svar
         </note>
-        <u xml:id="i-XZYm9yMRRyiKULnUKS948E" next="i-Amy7HgncTe46meVThqja6S" who="i-PyYxwdbw2KYpXyCWKWHmmT">
-          <seg xml:id="i-Qj6nkrYbqjSCvQvM2iQABa">
-            Följande frågor för skriftliga svar hade framställts:
-          </seg>
-        </u>
+        <note xml:id="i-Qj6nkrYbqjSCvQvM2iQABa">
+          Följande frågor för skriftliga svar hade framställts:
+        </note>
         <note xml:id="i-EG9761Gfw6feNok5oAbA6o">
           den 30 november
         </note>
-        <u xml:id="i-Amy7HgncTe46meVThqja6S" prev="i-XZYm9yMRRyiKULnUKS948E" who="i-PyYxwdbw2KYpXyCWKWHmmT">
-          <seg xml:id="i-2hpwAFZK5whngEM3vWdLS8">
-            2022/23:93 Elprisernas påverkan på småföretag
-          </seg>
-        </u>
+        <note xml:id="i-2hpwAFZK5whngEM3vWdLS8">
+          2022/23:93 Elprisernas påverkan på småföretag
+        </note>
         <note xml:id="i-EAKNNMJ3SgqAbR7aiPFC7Z">
           av Lena Hallengren (S)
         </note>
@@ -3049,11 +3007,9 @@
         <note xml:id="i-RzpiJ8YDWgQDsAGnzBTMMS">
           § 11 Anmälan om skriftliga svar på frågor
         </note>
-        <u xml:id="i-Wf1x1ixxHcxPbWbKeN7onK" next="i-Mu72CMEqd7hKasgRghm1kg" who="i-PyYxwdbw2KYpXyCWKWHmmT">
-          <seg xml:id="i-8KTXeDDbneC2noZysRFstg">
-            Skriftliga svar på följande frågor hade kommit in:
-          </seg>
-        </u>
+        <note xml:id="i-8KTXeDDbneC2noZysRFstg">
+          Skriftliga svar på följande frågor hade kommit in:
+        </note>
         <note xml:id="i-PSt7XCyag2YHM5cVnAPpf5">
           den 30 november
         </note>
@@ -3084,11 +3040,9 @@
         <note xml:id="i-GNrj8E1Co3Zb4wVar1jMXK">
           till statsrådet Andreas Carlson (KD)
         </note>
-        <u xml:id="i-Mu72CMEqd7hKasgRghm1kg" prev="i-Wf1x1ixxHcxPbWbKeN7onK" next="i-5DzGNZ6MBRPfD7WHujSF2u" who="i-PyYxwdbw2KYpXyCWKWHmmT">
-          <seg xml:id="i-YcF1sfsHLmzSpyiCCwsnQg">
-            2022/23:68 Stärkt skydd för kulturutövare som är hbtq-plus
-          </seg>
-        </u>
+        <note xml:id="i-YcF1sfsHLmzSpyiCCwsnQg">
+          2022/23:68 Stärkt skydd för kulturutövare som är hbtq-plus
+        </note>
         <note xml:id="i-Eo64c5akoGgupcBCewRq9R">
           av Daniel Vencu Velasquez Castro (S)
         </note>
@@ -3113,11 +3067,9 @@
         <note xml:id="i-6Pp4wnHqqpMvdYRPYdQT83">
           till finansminister Elisabeth Svantesson (M)
         </note>
-        <u xml:id="i-5DzGNZ6MBRPfD7WHujSF2u" prev="i-Mu72CMEqd7hKasgRghm1kg" next="i-oiN1NrWAUZdnnJVZvYp4C" who="i-PyYxwdbw2KYpXyCWKWHmmT">
-          <seg xml:id="i-V9cm7YNr9ozLbgJyRem3S2">
-            2022/23:77 Beredskapsflygplatser i alla län
-          </seg>
-        </u>
+        <note xml:id="i-V9cm7YNr9ozLbgJyRem3S2">
+          2022/23:77 Beredskapsflygplatser i alla län
+        </note>
         <note xml:id="i-S7hE25haxC5j9Vhtqe82Ts">
           av Mikael Larsson (C)
         </note>
@@ -3188,22 +3140,18 @@
         <note xml:id="i-6f852tgN5Jk1rCFaKfxeYq">
           till socialminister Jakob Forssmed (KD)
         </note>
-        <u xml:id="i-oiN1NrWAUZdnnJVZvYp4C" prev="i-5DzGNZ6MBRPfD7WHujSF2u" next="i-Jm1vXrJV9FM6P8dTdNrkNv" who="i-PyYxwdbw2KYpXyCWKWHmmT">
-          <seg xml:id="i-JD7ySuKKzeVF5aje8PXiL6">
-            2022/23:81 Oro för höga elpriser
-          </seg>
-        </u>
+        <note xml:id="i-JD7ySuKKzeVF5aje8PXiL6">
+          2022/23:81 Oro för höga elpriser
+        </note>
         <note xml:id="i-AXmqUDVw9xesRUkpq7dsM2">
           av Jim Svensk Larm (S)
         </note>
         <note xml:id="i-M7E3rTKzuunYrHwDgb6Hoo">
           till energi- och näringsminister Ebba Busch (KD)
         </note>
-        <u xml:id="i-Jm1vXrJV9FM6P8dTdNrkNv" prev="i-oiN1NrWAUZdnnJVZvYp4C" who="i-PyYxwdbw2KYpXyCWKWHmmT">
-          <seg xml:id="i-RzdXGbX4VZpDuF4rJaMTY9">
-            2022/23:83 Skyddsombuds möjlighet att företräda enskilda arbetstagare
-          </seg>
-        </u>
+        <note xml:id="i-RzdXGbX4VZpDuF4rJaMTY9">
+          2022/23:83 Skyddsombuds möjlighet att företräda enskilda arbetstagare
+        </note>
         <note xml:id="i-BAw46wzxdscZSRm2TXMwLU">
           av Johanna Haraldsson (S)
         </note>
