@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prot-202223--121">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,7 +32,7 @@
     <body>
       <div type="commentSection" xml:id="i-TCKc3taySrp8coA15MFSVs">
         <pb facs="http://data.riksdagen.se/fil/5A71697F-F30F-40AC-9D48-8A9FDC78FA8F#page=1"/>
-        <note xml:id="i-QEMHwbyQzwW8ucty4cRLtc">
+        <note xml:id="i-QEMHwbyQzwW8ucty4cRLtc" type="title">
           § 1 Anmälan om faktapromemorior
         </note>
         <note xml:id="i-PEAZ8pNDUjioxxdFtnpYhC">
@@ -51,7 +51,7 @@
       </div>
       <div type="commentSection" xml:id="i-QFqQpKnZXTRRR1F5CZKKH4">
         <pb facs="http://data.riksdagen.se/fil/5A71697F-F30F-40AC-9D48-8A9FDC78FA8F#page=1"/>
-        <note xml:id="i-WeKy9QHivrEzkCFSZWVvv7">
+        <note xml:id="i-WeKy9QHivrEzkCFSZWVvv7" type="title">
           § 2 Anmälan om granskningsrapport
         </note>
         <note xml:id="i-Rm5SXxQ7vVsrs2kqDwPqir">
@@ -66,21 +66,19 @@
       </div>
       <div type="commentSection" xml:id="i-FpHna819N4bQfHbnuZo7pt">
         <pb facs="http://data.riksdagen.se/fil/5A71697F-F30F-40AC-9D48-8A9FDC78FA8F#page=1"/>
-        <note xml:id="i-Q5aGEwVye42KYPWNpPPX4e">
+        <note xml:id="i-Q5aGEwVye42KYPWNpPPX4e" type="title">
           § 3 Ärende för hänvisning till utskott
         </note>
         <note xml:id="i-YaS67n5uJAGMgSW4LhMkEg">
           Följande dokument hänvisades till utskott:
         </note>
-        <u xml:id="i-NpuAgt6UJRpcGyD76m5erw" next="i-Lhxi5YpNF4Fuiq86Fv1zn8" who="unknown">
-          <seg xml:id="i-BC9xvxPQfYDuR4dExUdgQn">
-            EU-dokument
-          </seg>
-        </u>
+        <note xml:id="i-BC9xvxPQfYDuR4dExUdgQn">
+          EU-dokument
+        </note>
         <note xml:id="i-REbRDL8361MkZRadLdUSsM">
           COM(2023) 229 till finansutskottet
         </note>
-        <u xml:id="i-Lhxi5YpNF4Fuiq86Fv1zn8" prev="i-NpuAgt6UJRpcGyD76m5erw" who="unknown">
+        <u xml:id="i-Lhxi5YpNF4Fuiq86Fv1zn8" who="unknown">
           <seg xml:id="i-LtX1tpfng2CxVdr21RF9rN">
             Åttaveckorsfristen för att avge ett motiverat yttrande skulle
             gå ut den 4 september .
@@ -89,7 +87,7 @@
       </div>
       <div type="commentSection" xml:id="i-AcqJHKHGxPizQEFLsW3EKy">
         <pb facs="http://data.riksdagen.se/fil/5A71697F-F30F-40AC-9D48-8A9FDC78FA8F#page=1"/>
-        <note xml:id="i-UAQiBCiozdcfSQzrgnLKv3">
+        <note xml:id="i-UAQiBCiozdcfSQzrgnLKv3" type="title">
           § 4 Ärenden för bordläggning
         </note>
         <note xml:id="i-52JxwZjGRML8sZY3se3n9Q">
@@ -107,7 +105,7 @@
       </div>
       <div type="debateSection" xml:id="i-THJAWPXegmmYg3eRkLGVEe">
         <pb facs="http://data.riksdagen.se/fil/5A71697F-F30F-40AC-9D48-8A9FDC78FA8F#page=1"/>
-        <note xml:id="i-MGdrYutGsJGr6cXuGEfsvq">
+        <note xml:id="i-MGdrYutGsJGr6cXuGEfsvq" type="title">
           § 5 Svar på interpellationerna 2022/23:290 och 358 om Israels
           utveckling och nakbadagen
         </note>
@@ -323,7 +321,7 @@
             senast i Gaza och östra Jerusalem.
           </seg>
         </u>
-        <u xml:id="i-A4FkXHqPyyath5cxTKZVQW" prev="i-3KGT9mDbS51AN3DgY38FKx" next="i-5L7qF6NrYK5njb5RnPUBGx" who="i-Swns2VJiq8mNPgw8cBRfJ9">
+        <u xml:id="i-A4FkXHqPyyath5cxTKZVQW" prev="i-3KGT9mDbS51AN3DgY38FKx" next="i-5gt5K6F2Da9U6jn3oiKBdM" who="i-Swns2VJiq8mNPgw8cBRfJ9">
           <seg xml:id="i-Esqm8v6kpmajBE7HPWX673">
             Vi har bokstavligen fördrivits från vårt land, och många av dem
             som flyttat dit hänvisar till religiösa berättelser som grundval
@@ -332,20 +330,24 @@
             att ge judarna ett nationellt hem i Palestina.
           </seg>
         </u>
-        <note xml:id="i-931vJiFksB5V8psGnaWqk3">
-          Palestina hade 1914 en befolkning på runt 800 000 personer varav
-          60 000, cirka 7,6 procent, var judar. Under den brittiska mandattiden
-          skedde en stor judisk invandring, och enligt FN:s undersökningskommission
-          Unscop fanns det 1946 i Palestina cirka 1,9 miljoner invånare,
-          varav 33 procent var judar, 58 procent muslimer och 8 procent
-          kristna.
-        </note>
-        <note xml:id="i-A9miX5npF4Kc6pk242koYc">
-          Enligt FN:s delningsplan 1947 skulle judarna, som utgjorde en
-          tredjedel av befolkningen, tilldelas drygt 55 procent av Palestina
-          och palestinierna, som utgjorde majoritet, knappt 45 procent.
-        </note>
-        <u xml:id="i-5L7qF6NrYK5njb5RnPUBGx" prev="i-A4FkXHqPyyath5cxTKZVQW" next="i-3jAqHtwo9Z94raASoZodGt" who="i-Swns2VJiq8mNPgw8cBRfJ9">
+        <u xml:id="i-5gt5K6F2Da9U6jn3oiKBdM" prev="i-A4FkXHqPyyath5cxTKZVQW" next="i-E69ogCxa1bBro4eTkDeown" who="i-Swns2VJiq8mNPgw8cBRfJ9">
+          <seg xml:id="i-931vJiFksB5V8psGnaWqk3">
+            Palestina hade 1914 en befolkning på runt 800 000 personer varav
+            60 000, cirka 7,6 procent, var judar. Under den brittiska mandattiden
+            skedde en stor judisk invandring, och enligt FN:s undersökningskommission
+            Unscop fanns det 1946 i Palestina cirka 1,9 miljoner invånare,
+            varav 33 procent var judar, 58 procent muslimer och 8 procent
+            kristna.
+          </seg>
+        </u>
+        <u xml:id="i-E69ogCxa1bBro4eTkDeown" prev="i-5gt5K6F2Da9U6jn3oiKBdM" next="i-5L7qF6NrYK5njb5RnPUBGx" who="i-Swns2VJiq8mNPgw8cBRfJ9">
+          <seg xml:id="i-A9miX5npF4Kc6pk242koYc">
+            Enligt FN:s delningsplan 1947 skulle judarna, som utgjorde en
+            tredjedel av befolkningen, tilldelas drygt 55 procent av Palestina
+            och palestinierna, som utgjorde majoritet, knappt 45 procent.
+          </seg>
+        </u>
+        <u xml:id="i-5L7qF6NrYK5njb5RnPUBGx" prev="i-E69ogCxa1bBro4eTkDeown" next="i-3jAqHtwo9Z94raASoZodGt" who="i-Swns2VJiq8mNPgw8cBRfJ9">
           <seg xml:id="i-5iF2dgqzZJv88re3cjUgS3">
             Krig utbröt. Omkring 750 000 palestinier fördrevs. Israel genomförde
             flera massakrer; den mest kända är Deir Yassin-massakern. I Deir
@@ -887,7 +889,7 @@
       </div>
       <div type="debateSection" xml:id="i-JmY4E58Ntfc6NNdQZFJeP2">
         <pb facs="http://data.riksdagen.se/fil/5A71697F-F30F-40AC-9D48-8A9FDC78FA8F#page=1"/>
-        <note xml:id="i-UY98rK7HdaFgWFsNZDAouf">
+        <note xml:id="i-UY98rK7HdaFgWFsNZDAouf" type="title">
           § 6 Svar på interpellation 2022/23:303 om Taiwans observatörsstatus
           i WHO
         </note>
@@ -1314,7 +1316,7 @@
       </div>
       <div type="commentSection" xml:id="i-DMfi2j9P5uQfwQ5KD5Q7zB">
         <pb facs="http://data.riksdagen.se/fil/5A71697F-F30F-40AC-9D48-8A9FDC78FA8F#page=1"/>
-        <note xml:id="i-VytwZAeivpsadUVSsTUME2">
+        <note xml:id="i-VytwZAeivpsadUVSsTUME2" type="title">
           § 7 Anmälan om interpellationer
         </note>
         <note xml:id="i-RByEE6Dw6dnjTx853D5vQP">
@@ -1344,14 +1346,12 @@
       </div>
       <div type="commentSection" xml:id="i-4BwdS9orYiPPYZQn9rRCkk">
         <pb facs="http://data.riksdagen.se/fil/5A71697F-F30F-40AC-9D48-8A9FDC78FA8F#page=1"/>
-        <note xml:id="i-rrQFK1hVExg3CgSzH5Cap">
+        <note xml:id="i-rrQFK1hVExg3CgSzH5Cap" type="title">
           § 8 Anmälan om frågor för skriftliga svar
         </note>
-        <u xml:id="i-AJxvGE6yFEJ7HTjXqVZ5BN" next="i-6gc9fbrKPZriGkDQJumFV7" who="i-KPGvtK4s6Zp3E6XH6vj18n">
-          <seg xml:id="i-JoBR3oXTatUhWXwD1hVUKe">
-            Följande frågor för skriftliga svar hade framställts:
-          </seg>
-        </u>
+        <note xml:id="i-JoBR3oXTatUhWXwD1hVUKe">
+          Följande frågor för skriftliga svar hade framställts:
+        </note>
         <note xml:id="i-5Pfq9nXFBSoVdZHRE6ZySr">
           den 8 juni
         </note>
@@ -1379,22 +1379,18 @@
         <note xml:id="i-APfqvAHyeJYTfEPT13q296">
           av Håkan Svenneling (V)
         </note>
-        <u xml:id="i-6gc9fbrKPZriGkDQJumFV7" prev="i-AJxvGE6yFEJ7HTjXqVZ5BN" next="i-HbYKXBxhWQGLxig7GVMiJ9" who="i-KPGvtK4s6Zp3E6XH6vj18n">
-          <seg xml:id="i-FeTwPkjxTS5UK5c91Bbpf4">
-            till utrikesminister Tobias Billström (M)
-          </seg>
-        </u>
+        <note xml:id="i-FeTwPkjxTS5UK5c91Bbpf4">
+          till utrikesminister Tobias Billström (M)
+        </note>
         <note xml:id="i-PEQbsGy6Pait2bCZLur1Le">
           2022/23:756 Säkerhetsaspekter vid utländska investeringar
         </note>
         <note xml:id="i-PipT7VfgzN16CJ8VaB9F3o">
           av Joar Forssell (L)
         </note>
-        <u xml:id="i-HbYKXBxhWQGLxig7GVMiJ9" prev="i-6gc9fbrKPZriGkDQJumFV7" next="i-6BbAnwtRvSB4uiJ7YaS4Gp" who="i-KPGvtK4s6Zp3E6XH6vj18n">
-          <seg xml:id="i-75odETpHpTwjkWvUmJnwK6">
-            till utrikesminister Tobias Billström (M)
-          </seg>
-        </u>
+        <note xml:id="i-75odETpHpTwjkWvUmJnwK6">
+          till utrikesminister Tobias Billström (M)
+        </note>
         <note xml:id="i-FBHcDhjjKGdeRKoBJ6KZ4e">
           2022/23:757 Säkerhetspolitiska aspekter vid inköp från kinesiska
           företag
@@ -1402,11 +1398,9 @@
         <note xml:id="i-X7fCFdgzJXaUiqyfoSoqcK">
           av Joar Forssell (L)
         </note>
-        <u xml:id="i-6BbAnwtRvSB4uiJ7YaS4Gp" prev="i-HbYKXBxhWQGLxig7GVMiJ9" who="i-KPGvtK4s6Zp3E6XH6vj18n">
-          <seg xml:id="i-9SJEZ1EFZ8uUi2ADpih5kL">
-            till utrikesminister Tobias Billström (M)
-          </seg>
-        </u>
+        <note xml:id="i-9SJEZ1EFZ8uUi2ADpih5kL">
+          till utrikesminister Tobias Billström (M)
+        </note>
         <note xml:id="i-BEexEsiYUPypWhYA6dZZNB">
           2022/23:758 Surrogatarrangemang i Sverige
         </note>
@@ -1419,7 +1413,7 @@
       </div>
       <div type="commentSection" xml:id="i-TGAZZAs9v4y9iyCNvVrTVC">
         <pb facs="http://data.riksdagen.se/fil/5A71697F-F30F-40AC-9D48-8A9FDC78FA8F#page=1"/>
-        <note xml:id="i-VeA3apjofpq2hZxNEhAy7w">
+        <note xml:id="i-VeA3apjofpq2hZxNEhAy7w" type="title">
           § 9 Kammaren åtskildes kl. 9.53.
         </note>
         <pb facs="http://data.riksdagen.se/fil/5A71697F-F30F-40AC-9D48-8A9FDC78FA8F#page=16"/>
@@ -1429,34 +1423,32 @@
         <note xml:id="i-V9WUYJLsnwTcpKaZLD5NFj">
           Vid protokollet
         </note>
-        <u xml:id="i-Sow9jNSMdBmF8xMQq5EHNb" who="i-KPGvtK4s6Zp3E6XH6vj18n">
-          <seg xml:id="i-Vrq3XsCM51eEUJSM5dAfBD">
-            GERGÖ KISCH
-          </seg>
-        </u>
+        <note xml:id="i-Vrq3XsCM51eEUJSM5dAfBD">
+          GERGÖ KISCH
+        </note>
         <note xml:id="i-7aPVUPcYhpqaazDUM52jai">
           /Olof Pilo
         </note>
         <pb facs="http://data.riksdagen.se/fil/5A71697F-F30F-40AC-9D48-8A9FDC78FA8F#page=17"/>
-        <note xml:id="i-AaLZ56QDBCeHiX21gbnBDi">
+        <note xml:id="i-AaLZ56QDBCeHiX21gbnBDi" type="title">
           Innehållsförteckning
         </note>
       </div>
       <div xml:id="i-VpTeraauUACrXZyP5LPWH5" type="commentSection" subtype="tableOfContents">
         <pb facs="http://data.riksdagen.se/fil/5A71697F-F30F-40AC-9D48-8A9FDC78FA8F#page=1"/>
-        <note xml:id="i-9v6BSL5RsBDR3DQ8vkma68">
+        <note xml:id="i-9v6BSL5RsBDR3DQ8vkma68" type="title">
           § 1 Anmälan om faktapromemorior
         </note>
-        <note xml:id="i-PnZ7ACkuVJLZAwRWHETo5b">
+        <note xml:id="i-PnZ7ACkuVJLZAwRWHETo5b" type="title">
           § 2 Anmälan om granskningsrapport
         </note>
-        <note xml:id="i-3PdxpA7WGiooCJxwKeCVt6">
+        <note xml:id="i-3PdxpA7WGiooCJxwKeCVt6" type="title">
           § 3 Ärende för hänvisning till utskott
         </note>
-        <note xml:id="i-8GqGLTwKJynyaYk6tQKhMd">
+        <note xml:id="i-8GqGLTwKJynyaYk6tQKhMd" type="title">
           § 4 Ärenden för bordläggning
         </note>
-        <note xml:id="i-33U7VERjTUGkrLkGT2hNqd">
+        <note xml:id="i-33U7VERjTUGkrLkGT2hNqd" type="title">
           § 5 Svar på interpellationerna 2022/23:290 och 358 om Israels
           utveckling och nakbadagen
         </note>
@@ -1490,11 +1482,11 @@
         <note xml:id="i-KwFEtNHF1ZFUDMrUjJuTxN">
           Anf. 10 Utrikesminister TOBIAS BILLSTRÖM (M)
         </note>
-        <note xml:id="i-Kofj5NH3thcFXDRgeFMo8z">
+        <note xml:id="i-Kofj5NH3thcFXDRgeFMo8z" type="title">
           § 6 Svar på interpellation 2022/23:303 om Taiwans observatörsstatus
           i WHO
         </note>
-        <note xml:id="i-QqaXQoVWKELP5QW4EVGc1k">
+        <note xml:id="i-QqaXQoVWKELP5QW4EVGc1k" type="title">
           Anf. 11 Utrikesminister TOBIAS BILLSTRÖM (M)
         </note>
         <note xml:id="i-CrTbauR53XvoTnczxDJ7sc">
@@ -1515,20 +1507,18 @@
         <note xml:id="i-YAHkPAwv7tDarriacY7BYg">
           Anf. 17 Utrikesminister TOBIAS BILLSTRÖM (M)
         </note>
-        <note xml:id="i-NGnjBmooqazJU6iFNsBq3E">
+        <note xml:id="i-NGnjBmooqazJU6iFNsBq3E" type="title">
           § 7 Anmälan om interpellationer
         </note>
-        <note xml:id="i-RpGGejijHEkrZWbp7Jf2ni">
+        <note xml:id="i-RpGGejijHEkrZWbp7Jf2ni" type="title">
           § 8 Anmälan om frågor för skriftliga svar
         </note>
-        <note xml:id="i-EBRA4QitLpU7ptmBqXaHMw">
+        <note xml:id="i-EBRA4QitLpU7ptmBqXaHMw" type="title">
           § 9 Kammaren åtskildes kl. 9.53.
         </note>
-        <u xml:id="i-XJbmYtR7SK2otxVrDrrwyo" who="i-KPGvtK4s6Zp3E6XH6vj18n">
-          <seg xml:id="i-4BsRMb9GSbLbJjRJsPqPC4">
-            Tryck: Elanders Sverige AB, Vällingby 2023
-          </seg>
-        </u>
+        <note xml:id="i-4BsRMb9GSbLbJjRJsPqPC4">
+          Tryck: Elanders Sverige AB, Vällingby 2023
+        </note>
       </div>
     </body>
   </text>

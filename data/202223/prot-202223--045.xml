@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prot-202223--045">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -34,7 +34,7 @@
     <body>
       <div type="commentSection" xml:id="i-SSrgMD5ncxgA66j7qk9pDt">
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=1"/>
-        <note xml:id="i-4hkUZnZdzidX21dJxxwv1k">
+        <note xml:id="i-4hkUZnZdzidX21dJxxwv1k" type="title">
           § 1 Justering av protokoll
         </note>
         <note xml:id="i-WVaajzZK3kpuFV8PaZDkgT">
@@ -43,7 +43,7 @@
       </div>
       <div type="commentSection" xml:id="i-SA8vfcp7m7vwr5bPVhJ1Q3">
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=1"/>
-        <note xml:id="i-Tcfzn4rVWgYNeopbRJaum2">
+        <note xml:id="i-Tcfzn4rVWgYNeopbRJaum2" type="title">
           § 2 Anmälan om ersättare
         </note>
         <note xml:id="i-CkJvTShqafxjCGMPpaVKB3">
@@ -62,7 +62,7 @@
       </div>
       <div type="commentSection" xml:id="i-QvMyZ8iSLRXuPofcPNtCKT">
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=1"/>
-        <note xml:id="i-MZGtgnwPYKJBhECVTun8Ki">
+        <note xml:id="i-MZGtgnwPYKJBhECVTun8Ki" type="title">
           § 3 Avsägelse
         </note>
         <note xml:id="i-QQqujwQk9Uy47deEzD3S5B">
@@ -75,20 +75,24 @@
       </div>
       <div type="commentSection" xml:id="i-U2HVWL1TvK2PW1B8Kyd6Sq">
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=1"/>
-        <note xml:id="i-CSqymoAxvY1AyNkkmti9r7">
+        <note xml:id="i-CSqymoAxvY1AyNkkmti9r7" type="title">
           § 4 Anmälan om kompletteringsval
         </note>
         <note xml:id="i-AmwE4iPq3f2knfEtybozXS">
           Tredje vice talmannen meddelade
         </note>
-        <note xml:id="i-wUUHonw1FEn9GhLsNoXfd">
-          att Socialdemokraternas partigrupp anmält Lena Bäckelin som suppleant
-          i socialförsäkringsutskottet under Kalle Olssons ledighet ,
-        </note>
-        <note xml:id="i-Po8j6Carucq9eMA7vrCLTT">
-          att Moderaternas partigrupp anmält Joanna Lewerentz som suppleant
-          i utbildningsutskottet under Josefin Malmqvists ledighet och
-        </note>
+        <u xml:id="i-PnySjenKKcyYxJrpVR589X" who="unknown">
+          <seg xml:id="i-wUUHonw1FEn9GhLsNoXfd">
+            att Socialdemokraternas partigrupp anmält Lena Bäckelin som suppleant
+            i socialförsäkringsutskottet under Kalle Olssons ledighet ,
+          </seg>
+        </u>
+        <u xml:id="i-Uq9juaGdnyfunmMqvgzqHm" who="unknown">
+          <seg xml:id="i-Po8j6Carucq9eMA7vrCLTT">
+            att Moderaternas partigrupp anmält Joanna Lewerentz som suppleant
+            i utbildningsutskottet under Josefin Malmqvists ledighet och
+          </seg>
+        </u>
         <note xml:id="i-Qx7ajpAVNvbrTpLsuhKr1q">
           att Miljöpartiets partigrupp anmält Ulf Holm som suppleant i
           riksbanksfullmäktige.
@@ -110,11 +114,9 @@
         <note xml:id="i-G5LMcjtY222VjHiNrrhf75">
           suppleant i utbildningsutskottet
         </note>
-        <u xml:id="i-3XFNpss9G7wtzJajfMq1NJ" who="unknown">
-          <seg xml:id="i-BuaxCoRDwbvfxaEAZFKWBv">
-            Joanna Lewerentz (M)
-          </seg>
-        </u>
+        <note xml:id="i-BuaxCoRDwbvfxaEAZFKWBv">
+          Joanna Lewerentz (M)
+        </note>
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=2"/>
         <note xml:id="i-KD3vT2phUpveqRmHRrbSqC">
           Tredje vice talmannen förklarade vald till
@@ -128,7 +130,7 @@
       </div>
       <div type="commentSection" xml:id="i-HWmF8Quium4cADmC3Z9mFi">
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=1"/>
-        <note xml:id="i-XPMRBJxgE4gGUzAnFBCnEf">
+        <note xml:id="i-XPMRBJxgE4gGUzAnFBCnEf" type="title">
           § 5 Meddelande om partiledardebatt
         </note>
         <note xml:id="i-NHdWbaVQ4TSqqMSued6Taz">
@@ -138,7 +140,7 @@
       </div>
       <div type="commentSection" xml:id="i-2Bt4yGshQfvpprrhS1Phmg">
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=1"/>
-        <note xml:id="i-JmMaq62ArwLyrochj2E7i9">
+        <note xml:id="i-JmMaq62ArwLyrochj2E7i9" type="title">
           § 6 Meddelande om frågestund
         </note>
         <note xml:id="i-5cPpMMhEjfUbaT2brf8CWk">
@@ -148,7 +150,7 @@
       </div>
       <div type="commentSection" xml:id="i-RMFAH9Vp2GWWuZwV8AogzC">
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=1"/>
-        <note xml:id="i-NCHQQLSnNgHtevU5k2twn3">
+        <note xml:id="i-NCHQQLSnNgHtevU5k2twn3" type="title">
           § 7 Anmälan om subsidiaritetsprövningar
         </note>
         <note xml:id="i-XDBDgApkxdArDrFNVvihn9">
@@ -165,7 +167,7 @@
       </div>
       <div type="commentSection" xml:id="i-V8HDFtYMFTGPDwTj2iVqVa">
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=1"/>
-        <note xml:id="i-QvhVjsww9xJX9ue7m7H3Sp">
+        <note xml:id="i-QvhVjsww9xJX9ue7m7H3Sp" type="title">
           § 8 Anmälan om fördröjt svar på interpellation
         </note>
         <note xml:id="i-2js2DU762VRzsMUuAeEPBD">
@@ -187,7 +189,7 @@
           Interpellationen kommer att besvaras tisdagen den 31 januari
           2023.
         </note>
-        <u xml:id="i-8Hr9N112crDMeyf4JXVHAN" next="i-7dGigur2M7hDVvS4sD49R6" who="unknown">
+        <u xml:id="i-8Hr9N112crDMeyf4JXVHAN" who="unknown">
           <seg xml:id="i-KNxmfNtfmT9XnS3yfnRvzc">
             Skälet till dröjsmålet är tidigare inbokade resor och arrangemang.
           </seg>
@@ -195,11 +197,9 @@
         <note xml:id="i-JLEnMWJCuZnwXTLmopMiyt">
           Stockholm den 29 december 2022
         </note>
-        <u xml:id="i-7dGigur2M7hDVvS4sD49R6" prev="i-8Hr9N112crDMeyf4JXVHAN" who="unknown">
-          <seg xml:id="i-WEqTBwsNpC7jHmotBwyk8n">
-            Närings departementet
-          </seg>
-        </u>
+        <note xml:id="i-WEqTBwsNpC7jHmotBwyk8n">
+          Närings departementet
+        </note>
         <note xml:id="i-FPoKzgq7Qc5jP75H3EJwYf">
           Ebba Busch (KD)
         </note>
@@ -215,7 +215,7 @@
       </div>
       <div type="commentSection" xml:id="i-5JbozaQ77bUuTnjbnHvcLj">
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=1"/>
-        <note xml:id="i-WyfLHNpvuDB1ZYpxrY6Rgd">
+        <note xml:id="i-WyfLHNpvuDB1ZYpxrY6Rgd" type="title">
           § 9 Anmälan om faktapromemorior
         </note>
         <note xml:id="i-98hwj42dBWnTs42rcmUzCm">
@@ -248,7 +248,7 @@
       </div>
       <div type="commentSection" xml:id="i-HmMFtaBkTbJZsw4aLgRrT">
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=1"/>
-        <note xml:id="i-NyUc68jenhyAMmcBCTQ4KV">
+        <note xml:id="i-NyUc68jenhyAMmcBCTQ4KV" type="title">
           § 10 Ärende för hänvisning till utskott
         </note>
         <note xml:id="i-135vx1bv5g4xMBJ4pKQbGJ">
@@ -263,7 +263,7 @@
       </div>
       <div type="commentSection" xml:id="i-YEveq6gLf7VH9C4VuZoiMQ">
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=1"/>
-        <note xml:id="i-BNvjvdysV9wb6Xi4hZ5t2p">
+        <note xml:id="i-BNvjvdysV9wb6Xi4hZ5t2p" type="title">
           § 11 Bordläggning och beslut om förkortad motionstid
         </note>
         <note xml:id="i-QY8GsMpKrJJpAAVf4RfYbb">
@@ -279,11 +279,9 @@
         <note xml:id="i-Ux98p7fqKBjqEAG7Hy9YST">
           2022/23:42 Genomförandet av tillgänglighetsdirektivet
         </note>
-        <u xml:id="i-RSEmYaNPdAV9tbvku588gE" next="i-3v7kT2rpEVFZ33L3HP5jSM" who="unknown">
-          <seg xml:id="i-2dsoh7ScZx2cPkyfKKBu8t">
-            2022/23:43 Kommuners ansvar för brottsförebyggande arbete
-          </seg>
-        </u>
+        <note xml:id="i-2dsoh7ScZx2cPkyfKKBu8t">
+          2022/23:43 Kommuners ansvar för brottsförebyggande arbete
+        </note>
         <note xml:id="i-GtnCWcZ6iHvLWMMeQh6RhV">
           2022/23:48 Sekretess vid Försäkringskassans handläggning av ärenden
           om elstöd samt slopad kontrolluppgiftsskyldighet
@@ -299,16 +297,14 @@
           2022/23:37 Riksrevisionens rapport om personalförsörjningen av
           kontinuerligt tjänstgörande gruppbefäl, soldater och sjömän
         </note>
-        <u xml:id="i-3v7kT2rpEVFZ33L3HP5jSM" prev="i-RSEmYaNPdAV9tbvku588gE" who="unknown">
-          <seg xml:id="i-PWsy1txrkuWw3F1xKZg2o6">
-            2022/23:44 Riksrevisionens rapport om skolpengen – effektivitet
-            och konsekvenser
-          </seg>
-        </u>
+        <note xml:id="i-PWsy1txrkuWw3F1xKZg2o6">
+          2022/23:44 Riksrevisionens rapport om skolpengen – effektivitet
+          och konsekvenser
+        </note>
       </div>
       <div type="commentSection" xml:id="i-RdXcpfpv287VvMeicpc3sK">
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=1"/>
-        <note xml:id="i-BjWfSj6uAPLKDt14kMk17h">
+        <note xml:id="i-BjWfSj6uAPLKDt14kMk17h" type="title">
           § 12 Anmälan om interpellationer
         </note>
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=4"/>
@@ -336,11 +332,9 @@
         <note xml:id="i-Y9VoUMYJF2tKiiya9JAitf">
           till statsrådet Lotta Edholm (L)
         </note>
-        <u xml:id="i-8yo4ev3RRXKK6zhcukGc1K" next="i-2Vfeb7tAME76Ksrzm1B5mc" who="unknown">
-          <seg xml:id="i-8ML1nnX44SYojT26fhEKDo">
-            2022/23:124 En långsiktigt hållbar infrastruktur
-          </seg>
-        </u>
+        <note xml:id="i-8ML1nnX44SYojT26fhEKDo">
+          2022/23:124 En långsiktigt hållbar infrastruktur
+        </note>
         <note xml:id="i-BxeXaPYtDUuyJ1LuYRAXjY">
           av Carina Ödebrink (S)
         </note>
@@ -350,11 +344,9 @@
         <note xml:id="i-BVvC5r7vEabDqhXDDJ7nnR">
           den 22 december
         </note>
-        <u xml:id="i-2Vfeb7tAME76Ksrzm1B5mc" prev="i-8yo4ev3RRXKK6zhcukGc1K" next="i-F8jincoc8RnT1RsnZJkZzm" who="unknown">
-          <seg xml:id="i-TbfbHU15MQFVngLvcMbWJ8">
-            2022/23:125 En stark arbetslöshetsförsäkring
-          </seg>
-        </u>
+        <note xml:id="i-TbfbHU15MQFVngLvcMbWJ8">
+          2022/23:125 En stark arbetslöshetsförsäkring
+        </note>
         <note xml:id="i-LgKBLng1yJE9JdxFYdypHn">
           av Jamal El-Haj (S)
         </note>
@@ -379,11 +371,9 @@
         <note xml:id="i-Jc7A3YJKjU3g4oQVfDH5d6">
           till arbetsmarknads- och integrationsminister Johan Pehrson (L)
         </note>
-        <u xml:id="i-F8jincoc8RnT1RsnZJkZzm" prev="i-2Vfeb7tAME76Ksrzm1B5mc" who="unknown">
-          <seg xml:id="i-6asQyZkzrbUAcXiiSsxc9q">
-            2022/23:128 Ökad kunskap om rasism i vården och omsorgen
-          </seg>
-        </u>
+        <note xml:id="i-6asQyZkzrbUAcXiiSsxc9q">
+          2022/23:128 Ökad kunskap om rasism i vården och omsorgen
+        </note>
         <note xml:id="i-ERM2q9hoUaTtBFgFo7VMfY">
           av Annika Hirvonen (MP)
         </note>
@@ -499,14 +489,12 @@
       </div>
       <div type="commentSection" xml:id="i-Vt9kUjcr78zwffu9FxvJKd">
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=1"/>
-        <note xml:id="i-Jh7WvFeZHz6RjD5sTPcUH3">
+        <note xml:id="i-Jh7WvFeZHz6RjD5sTPcUH3" type="title">
           § 13 Anmälan om frågor för skriftliga svar
         </note>
-        <u xml:id="i-DfsnsxHAMB3kLMDZF9iaPT" next="i-WEk4NBofD1PoDsyFPxn7up" who="unknown">
-          <seg xml:id="i-RP6fZi64x8FT4e7j9MGyfv">
-            Följande frågor för skriftliga svar hade framställts:
-          </seg>
-        </u>
+        <note xml:id="i-RP6fZi64x8FT4e7j9MGyfv">
+          Följande frågor för skriftliga svar hade framställts:
+        </note>
         <note xml:id="i-F1AigsjMiwsGNL1xgzGTgy">
           den 21 december
         </note>
@@ -528,11 +516,9 @@
         <note xml:id="i-NRaELK724iGW9mxPKgyZTM">
           till landsbygdsminister Peter Kullgren (KD)
         </note>
-        <u xml:id="i-WEk4NBofD1PoDsyFPxn7up" prev="i-DfsnsxHAMB3kLMDZF9iaPT" next="i-TQESDTmna1EAUsR4UY7HmY" who="unknown">
-          <seg xml:id="i-6JTAptQ7F4xo4GNJfRZ8en">
-            2022/23:209 Lagliga men skadliga utsläpp från fartygstrafiken
-          </seg>
-        </u>
+        <note xml:id="i-6JTAptQ7F4xo4GNJfRZ8en">
+          2022/23:209 Lagliga men skadliga utsläpp från fartygstrafiken
+        </note>
         <note xml:id="i-6a3NSN4xitV1ZHfkmDBoTq">
           av Linnéa Wickman (S)
         </note>
@@ -551,11 +537,9 @@
         <note xml:id="i-TgVWZHvVNqnnAVsgizTT5A">
           den 22 december
         </note>
-        <u xml:id="i-TQESDTmna1EAUsR4UY7HmY" prev="i-WEk4NBofD1PoDsyFPxn7up" next="i-RJ3VZUpjmftCsRZQc57sVN" who="unknown">
-          <seg xml:id="i-7V2GoPU9GqNXx3YiBFxq3q">
-            2022/23:211 Arbetsorsakade besvär bland anställda inom välfärden
-          </seg>
-        </u>
+        <note xml:id="i-7V2GoPU9GqNXx3YiBFxq3q">
+          2022/23:211 Arbetsorsakade besvär bland anställda inom välfärden
+        </note>
         <note xml:id="i-VLkMyVsMjXnLFL6HDVuGpz">
           av Johanna Haraldsson (S)
         </note>
@@ -580,11 +564,9 @@
         <note xml:id="i-WzCV33jLjnSv7hCXQ6qFJd">
           till statsrådet Paulina Brandberg (L)
         </note>
-        <u xml:id="i-RJ3VZUpjmftCsRZQc57sVN" prev="i-TQESDTmna1EAUsR4UY7HmY" next="i-EvSViyCkZrGh9ptyPN7Qs3" who="unknown">
-          <seg xml:id="i-BE58LNcZFtDyMmJzTmSeAz">
-            2022/23:214 Kollektivtrafiken och de höjda bränslepriserna
-          </seg>
-        </u>
+        <note xml:id="i-BE58LNcZFtDyMmJzTmSeAz">
+          2022/23:214 Kollektivtrafiken och de höjda bränslepriserna
+        </note>
         <note xml:id="i-Uc8uSJGNctvjHqzsM4TBx2">
           av Carina Ödebrink (S)
         </note>
@@ -600,11 +582,9 @@
         <note xml:id="i-W7jmWmoxVBXEqErCZf5Ztg">
           till statsrådet Maria Malmer Stenergard (M)
         </note>
-        <u xml:id="i-EvSViyCkZrGh9ptyPN7Qs3" prev="i-RJ3VZUpjmftCsRZQc57sVN" next="i-L1G74zLV6QwsWnCKCFHkB7" who="unknown">
-          <seg xml:id="i-FnASQjjShZvvACNFrDTqPD">
-            2022/23:216 En klimat- och miljöpolitik för företagens konkurrenskraft
-          </seg>
-        </u>
+        <note xml:id="i-FnASQjjShZvvACNFrDTqPD">
+          2022/23:216 En klimat- och miljöpolitik för företagens konkurrenskraft
+        </note>
         <note xml:id="i-USHXuMDqvexBzCwyV2Nv9d">
           av Carina Ödebrink (S)
         </note>
@@ -626,11 +606,9 @@
         <note xml:id="i-KoHakCUAvzg5qpC7BHdP9f">
           den 29 december
         </note>
-        <u xml:id="i-L1G74zLV6QwsWnCKCFHkB7" prev="i-EvSViyCkZrGh9ptyPN7Qs3" next="i-NqFE7CJVZvHZsJDoJw7fja" who="unknown">
-          <seg xml:id="i-T4QqTpFtfjv6AgpqBpYkPM">
-            2022/23:218 Sökbarhet för anmälningar som gäller barn
-          </seg>
-        </u>
+        <note xml:id="i-T4QqTpFtfjv6AgpqBpYkPM">
+          2022/23:218 Sökbarhet för anmälningar som gäller barn
+        </note>
         <note xml:id="i-M8eLgAr32JxrdBFAturjYe">
           av Eva Lindh (S)
         </note>
@@ -662,12 +640,10 @@
           den 2 januari
         </note>
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=6"/>
-        <u xml:id="i-NqFE7CJVZvHZsJDoJw7fja" prev="i-L1G74zLV6QwsWnCKCFHkB7" next="i-Rm7d4sUj2RmirNAxxks5c5" who="unknown">
-          <seg xml:id="i-WFReEQr36ByQCHrgBNwMH4">
-            2022/23:221 Möjligheten att frånträda förhandsavtal vid väsentligt
-            höjd avgift
-          </seg>
-        </u>
+        <note xml:id="i-WFReEQr36ByQCHrgBNwMH4">
+          2022/23:221 Möjligheten att frånträda förhandsavtal vid väsentligt
+          höjd avgift
+        </note>
         <note xml:id="i-XL4EP7oF5BRkSZZsn8XjfS">
           av Angelica Lundberg (SD)
         </note>
@@ -693,11 +669,9 @@
         <note xml:id="i-4fcu4v32EjMKdGbJpqAw8X">
           av Kadir Kasirga (S)
         </note>
-        <u xml:id="i-Rm7d4sUj2RmirNAxxks5c5" prev="i-NqFE7CJVZvHZsJDoJw7fja" next="i-SLKq8BY3BXuFAo7tAzoEKp" who="unknown">
-          <seg xml:id="i-BnPMZrPPkaXmPB9NmTL9km">
-            till utrikesminister Tobias Billström (M)
-          </seg>
-        </u>
+        <note xml:id="i-BnPMZrPPkaXmPB9NmTL9km">
+          till utrikesminister Tobias Billström (M)
+        </note>
         <note xml:id="i-EYNRfWFXgwYTijBxDfPmr7">
           2022/23:224 Användning av blyhagel
         </note>
@@ -710,22 +684,18 @@
         <note xml:id="i-7xxirXQEEN4vu6VcMs7ZPX">
           den 11 januari
         </note>
-        <u xml:id="i-SLKq8BY3BXuFAo7tAzoEKp" prev="i-Rm7d4sUj2RmirNAxxks5c5" next="i-2eW4Nj6QmFjRzgpnqU4z2N" who="unknown">
-          <seg xml:id="i-MvW1tWCgECntAmPL7iDBs8">
-            2022/23:225 Mäns ekonomiska våld mot kvinnor
-          </seg>
-        </u>
+        <note xml:id="i-MvW1tWCgECntAmPL7iDBs8">
+          2022/23:225 Mäns ekonomiska våld mot kvinnor
+        </note>
         <note xml:id="i-5sawcWkRxM7CKSj7tMsegW">
           av Aida Birinxhiku (S)
         </note>
         <note xml:id="i-GAJY7ZSTEwrUj5NfWkvXvE">
           till statsrådet Paulina Brandberg (L)
         </note>
-        <u xml:id="i-2eW4Nj6QmFjRzgpnqU4z2N" prev="i-SLKq8BY3BXuFAo7tAzoEKp" who="unknown">
-          <seg xml:id="i-9exvqnxwapamECJhGe6eEi">
-            2022/23:226 De höjda biljettpriserna på Gotlandsfärjan
-          </seg>
-        </u>
+        <note xml:id="i-9exvqnxwapamECJhGe6eEi">
+          2022/23:226 De höjda biljettpriserna på Gotlandsfärjan
+        </note>
         <note xml:id="i-D8K91fXf1tuYnV4s9rsyEw">
           av Linda Westerlund Snecker (V)
         </note>
@@ -735,14 +705,12 @@
       </div>
       <div type="commentSection" xml:id="i-13auJuP3QmqDcLNLKYJfzs">
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=1"/>
-        <note xml:id="i-HxeRbm1vEdyU43ranY57q3">
+        <note xml:id="i-HxeRbm1vEdyU43ranY57q3" type="title">
           § 14 Anmälan om skriftliga svar på frågor
         </note>
-        <u xml:id="i-Rj3UeGdNU2do4Dc3Xj4CPS" next="i-R1UVNu9Sp7d5KXFeU1xkVy" who="unknown">
-          <seg xml:id="i-FxuF6SygyqeukCgCaPSCYT">
-            Skriftliga svar på följande frågor hade kommit in:
-          </seg>
-        </u>
+        <note xml:id="i-FxuF6SygyqeukCgCaPSCYT">
+          Skriftliga svar på följande frågor hade kommit in:
+        </note>
         <note xml:id="i-EaC1FHRCprtVwPXRaDM7zW">
           den 21 december
         </note>
@@ -761,16 +729,12 @@
         <note xml:id="i-2uRT9LYwQEfjsWnGJA4YPb">
           av Björn Söder (SD)
         </note>
-        <u xml:id="i-R1UVNu9Sp7d5KXFeU1xkVy" prev="i-Rj3UeGdNU2do4Dc3Xj4CPS" next="i-8bHgSPepssirVsKoH9Pe2y" who="unknown">
-          <seg xml:id="i-6LerbxHmzd5TWzveeUtq6c">
-            till utrikesminister Tobias Billström (M)
-          </seg>
-        </u>
-        <u xml:id="i-8bHgSPepssirVsKoH9Pe2y" prev="i-R1UVNu9Sp7d5KXFeU1xkVy" next="i-rSQyoRyHGNPTanCfTAHx4" who="unknown">
-          <seg xml:id="i-2UTztgY7i2kH9byoMWKjP7">
-            2022/23:157 Möjlighet att söka uppehållstillstånd på plats
-          </seg>
-        </u>
+        <note xml:id="i-6LerbxHmzd5TWzveeUtq6c">
+          till utrikesminister Tobias Billström (M)
+        </note>
+        <note xml:id="i-2UTztgY7i2kH9byoMWKjP7">
+          2022/23:157 Möjlighet att söka uppehållstillstånd på plats
+        </note>
         <note xml:id="i-Vkgm4rwCt8knjWgyoUvoJm">
           av Tony Haddou (V)
         </note>
@@ -814,11 +778,9 @@
         <note xml:id="i-45G1g4ksZDDkphHZUPvdXd">
           till justitieminister Gunnar Strömmer (M)
         </note>
-        <u xml:id="i-rSQyoRyHGNPTanCfTAHx4" prev="i-8bHgSPepssirVsKoH9Pe2y" next="i-8B3tnXHdciP9fyJ2GYEE57" who="unknown">
-          <seg xml:id="i-MeqBXJ7ED4qP32DqBzYRi6">
-            2022/23:167 Armlängds avstånd och normbrytande personers rättigheter
-          </seg>
-        </u>
+        <note xml:id="i-MeqBXJ7ED4qP32DqBzYRi6">
+          2022/23:167 Armlängds avstånd och normbrytande personers rättigheter
+        </note>
         <note xml:id="i-HNjpAXengkxSQyPmQPLZbc">
           av Kristoffer Lindberg (S)
         </note>
@@ -853,12 +815,10 @@
         <note xml:id="i-MGWhYK2jc374ZbL3ew3jwd">
           till finansminister Elisabeth Svantesson (M)
         </note>
-        <u xml:id="i-8B3tnXHdciP9fyJ2GYEE57" prev="i-rSQyoRyHGNPTanCfTAHx4" next="i-Uy67g3LPBhLayTDqe9zR7R" who="unknown">
-          <seg xml:id="i-J6U39K8whxKRnCSVhx3bvR">
-            2022/23:171 Konsekvenser av höga elpriser på arbetsmarknaden
-            i Jönköpings län
-          </seg>
-        </u>
+        <note xml:id="i-J6U39K8whxKRnCSVhx3bvR">
+          2022/23:171 Konsekvenser av höga elpriser på arbetsmarknaden
+          i Jönköpings län
+        </note>
         <note xml:id="i-KChcrPgBGKTH2w6d6oC2y3">
           av Johanna Haraldsson (S)
         </note>
@@ -892,11 +852,9 @@
         <note xml:id="i-NE7c8KyJ928XZNLZFR4fzD">
           till justitieminister Gunnar Strömmer (M)
         </note>
-        <u xml:id="i-Uy67g3LPBhLayTDqe9zR7R" prev="i-8B3tnXHdciP9fyJ2GYEE57" next="i-TERDcNsLif2bqmBHXzubM4" who="unknown">
-          <seg xml:id="i-BAr5MimR2by6wweecyLzKP">
-            2022/23:145 Academedias ordförande som regeringens utredare
-          </seg>
-        </u>
+        <note xml:id="i-BAr5MimR2by6wweecyLzKP">
+          2022/23:145 Academedias ordförande som regeringens utredare
+        </note>
         <note xml:id="i-K4ZyytF6RNQnP9MBKWcPWi">
           av Åsa Westlund (S)
         </note>
@@ -912,11 +870,9 @@
         <note xml:id="i-Wdv7gSGLzJW3gWAM9EWQw4">
           till energi- och näringsminister Ebba Busch (KD)
         </note>
-        <u xml:id="i-TERDcNsLif2bqmBHXzubM4" prev="i-Uy67g3LPBhLayTDqe9zR7R" next="i-MTYY658G7PGkZ662kZLjKB" who="unknown">
-          <seg xml:id="i-4oBB85VyWSgXoUQk1512UK">
-            2022/23:149 Åtgärder för att rädda jakten med blyhagel i Sverige
-          </seg>
-        </u>
+        <note xml:id="i-4oBB85VyWSgXoUQk1512UK">
+          2022/23:149 Åtgärder för att rädda jakten med blyhagel i Sverige
+        </note>
         <note xml:id="i-WzXK1qLKpvfm8gRavXZkUZ">
           av Tobias Andersson (SD)
         </note>
@@ -978,22 +934,18 @@
           till statsrådet Camilla Waltersson Grönvall (M)
         </note>
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=9"/>
-        <u xml:id="i-MTYY658G7PGkZ662kZLjKB" prev="i-TERDcNsLif2bqmBHXzubM4" next="i-JoompRLRd6ZnSeYvobtTix" who="unknown">
-          <seg xml:id="i-P8XKBH2Nmy69H9GgksFLNB">
-            2022/23:155 En trygg taxibransch för alla
-          </seg>
-        </u>
+        <note xml:id="i-P8XKBH2Nmy69H9GgksFLNB">
+          2022/23:155 En trygg taxibransch för alla
+        </note>
         <note xml:id="i-TVzR5duSkRivMhZrUXZjAE">
           av Kadir Kasirga (S)
         </note>
         <note xml:id="i-psgupDXLFqenDfM4rNuVb">
           till statsrådet Andreas Carlson (KD)
         </note>
-        <u xml:id="i-JoompRLRd6ZnSeYvobtTix" prev="i-MTYY658G7PGkZ662kZLjKB" next="i-oTtuphHcmodWRsqEVgq2Z" who="unknown">
-          <seg xml:id="i-HtM5yP7XB7qz39S5HVYeF8">
-            2022/23:162 Läget för Kriminalvården ur ett brottsofferperspektiv
-          </seg>
-        </u>
+        <note xml:id="i-HtM5yP7XB7qz39S5HVYeF8">
+          2022/23:162 Läget för Kriminalvården ur ett brottsofferperspektiv
+        </note>
         <note xml:id="i-KKYxv7d3MWcrT6YVrhKuzy">
           av Sanna Backeskog (S)
         </note>
@@ -1009,11 +961,9 @@
         <note xml:id="i-Vt3HeBUzHeJfTXmRGRspSF">
           till statsrådet Maria Malmer Stenergard (M)
         </note>
-        <u xml:id="i-oTtuphHcmodWRsqEVgq2Z" prev="i-JoompRLRd6ZnSeYvobtTix" next="i-EZz3s2KH9ZMy4AGE84jdAN" who="unknown">
-          <seg xml:id="i-49Ek3T5oMxbvDgSxgzFmA6">
-            2022/23:161 Ätstörningsvården
-          </seg>
-        </u>
+        <note xml:id="i-49Ek3T5oMxbvDgSxgzFmA6">
+          2022/23:161 Ätstörningsvården
+        </note>
         <note xml:id="i-UENfN98p7jcjnAfYd91Tiw">
           av Anna Wallentheim (S)
         </note>
@@ -1048,19 +998,15 @@
         <note xml:id="i-T8jY3fXC1hQDdu7jq6HcFN">
           den 29 december
         </note>
-        <u xml:id="i-EZz3s2KH9ZMy4AGE84jdAN" prev="i-oTtuphHcmodWRsqEVgq2Z" next="i-9E22r7eKkxGWUhjJFGV66c" who="unknown">
-          <seg xml:id="i-6oqyEnHpSuk8DJ6T7rnwDz">
-            2022/23:176 Israels ökade våld mot palestinier
-          </seg>
-        </u>
+        <note xml:id="i-6oqyEnHpSuk8DJ6T7rnwDz">
+          2022/23:176 Israels ökade våld mot palestinier
+        </note>
         <note xml:id="i-ES5FiEy4em2zbL5Q9Vzk1X">
           av Håkan Svenneling (V)
         </note>
-        <u xml:id="i-9E22r7eKkxGWUhjJFGV66c" prev="i-EZz3s2KH9ZMy4AGE84jdAN" next="i-PhFtK1AguRhEniTPSyR34G" who="unknown">
-          <seg xml:id="i-PBZ8hYY5bJYXJp5dQPeUqd">
-            till utrikesminister Tobias Billström (M)
-          </seg>
-        </u>
+        <note xml:id="i-PBZ8hYY5bJYXJp5dQPeUqd">
+          till utrikesminister Tobias Billström (M)
+        </note>
         <note xml:id="i-XF8BXEJ3byuWoDQZ9kqg37">
           2022/23:174 Åtgärder för bostadsförsörjningsansvar
         </note>
@@ -1194,11 +1140,9 @@
         <note xml:id="i-68yRFd2CTTVc3BTPRV6Lqn">
           av Björn Söder (SD)
         </note>
-        <u xml:id="i-PhFtK1AguRhEniTPSyR34G" prev="i-9E22r7eKkxGWUhjJFGV66c" next="i-PacnKBVRKSqa2YFfTFd8VT" who="unknown">
-          <seg xml:id="i-N3s6CpSsxzRc3XJq3yfSzA">
-            till utrikesminister Tobias Billström (M)
-          </seg>
-        </u>
+        <note xml:id="i-N3s6CpSsxzRc3XJq3yfSzA">
+          till utrikesminister Tobias Billström (M)
+        </note>
         <note xml:id="i-QzhAJEcrkwubjbhzNJf18v">
           2022/23:205 Information om barnmorskebemanningen i förlossningsvården
         </note>
@@ -1245,11 +1189,9 @@
           till energi- och näringsminister Ebba Busch (KD)
         </note>
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=11"/>
-        <u xml:id="i-PacnKBVRKSqa2YFfTFd8VT" prev="i-PhFtK1AguRhEniTPSyR34G" next="i-YR2EWnVMkqZk2JyyNxzhBK" who="unknown">
-          <seg xml:id="i-YSj9oLtd3Vg9KJNFSypUPA">
-            2022/23:187 Ett ökat bistånd till Moldavien
-          </seg>
-        </u>
+        <note xml:id="i-YSj9oLtd3Vg9KJNFSypUPA">
+          2022/23:187 Ett ökat bistånd till Moldavien
+        </note>
         <note xml:id="i-RW6D7LDLXEhV4WPD436jyN">
           av Björn Söder (SD)
         </note>
@@ -1259,11 +1201,9 @@
         <note xml:id="i-RWzbML5dbk3RsktgbuakU4">
           den 4 januari
         </note>
-        <u xml:id="i-YR2EWnVMkqZk2JyyNxzhBK" prev="i-PacnKBVRKSqa2YFfTFd8VT" next="i-Mb2qrKiWxwAmv8ZoT4dqRh" who="unknown">
-          <seg xml:id="i-VNiEBK69g2mQ9K1VPqSjmS">
-            2022/23:209 Lagliga men skadliga utsläpp från fartygstrafiken
-          </seg>
-        </u>
+        <note xml:id="i-VNiEBK69g2mQ9K1VPqSjmS">
+          2022/23:209 Lagliga men skadliga utsläpp från fartygstrafiken
+        </note>
         <note xml:id="i-72Ku3uuuwiriTcJeZMmqvT">
           av Linnéa Wickman (S)
         </note>
@@ -1291,22 +1231,18 @@
         <note xml:id="i-FsGh6P7smFxR8LRQAn9Zac">
           den 5 januari
         </note>
-        <u xml:id="i-Mb2qrKiWxwAmv8ZoT4dqRh" prev="i-YR2EWnVMkqZk2JyyNxzhBK" next="i-BbFze3Szk8kZHoVKiDD5vS" who="unknown">
-          <seg xml:id="i-MwGH6ij2hksS9iKATh3NtY">
-            2022/23:214 Kollektivtrafiken och de höjda bränslepriserna
-          </seg>
-        </u>
+        <note xml:id="i-MwGH6ij2hksS9iKATh3NtY">
+          2022/23:214 Kollektivtrafiken och de höjda bränslepriserna
+        </note>
         <note xml:id="i-YaLDKs8spnXkEUmkjwbxbo">
           av Carina Ödebrink (S)
         </note>
         <note xml:id="i-4FFQZfWnsHjwhBarfE9pYW">
           till statsrådet Erik Slottner (KD)
         </note>
-        <u xml:id="i-BbFze3Szk8kZHoVKiDD5vS" prev="i-Mb2qrKiWxwAmv8ZoT4dqRh" next="i-9Wpq8decqH7QdwFXzi6Hg3" who="unknown">
-          <seg xml:id="i-GFmk5BCsecrxjChsgn6uTC">
-            2022/23:216 En klimat- och miljöpolitik för företagens konkurrenskraft
-          </seg>
-        </u>
+        <note xml:id="i-GFmk5BCsecrxjChsgn6uTC">
+          2022/23:216 En klimat- och miljöpolitik för företagens konkurrenskraft
+        </note>
         <note xml:id="i-BHspPctxGVWqPPsq8rHzzn">
           av Carina Ödebrink (S)
         </note>
@@ -1322,7 +1258,7 @@
         <note xml:id="i-6ySor12SjUbkbyAJdCWJTH">
           till energi- och näringsminister Ebba Busch (KD)
         </note>
-        <note xml:id="i-NpyScptWYPoKvmKAcCpS8t">
+        <note xml:id="i-NpyScptWYPoKvmKAcCpS8t" type="title">
           den 9 januari
         </note>
         <note xml:id="i-6133JmoSFgeRasMsPKxsv3">
@@ -1334,11 +1270,9 @@
         <note xml:id="i-QTpnQ7eexLiCASncnbaDxS">
           till statsrådet Niklas Wykman (M)
         </note>
-        <u xml:id="i-9Wpq8decqH7QdwFXzi6Hg3" prev="i-BbFze3Szk8kZHoVKiDD5vS" next="i-NdcEjUf5unGRgpcrNuUy6z" who="unknown">
-          <seg xml:id="i-5XJ3AgoViU67UydjmPsCm3">
-            2022/23:191 Mobiltäckning och uppkoppling i hela landet
-          </seg>
-        </u>
+        <note xml:id="i-5XJ3AgoViU67UydjmPsCm3">
+          2022/23:191 Mobiltäckning och uppkoppling i hela landet
+        </note>
         <note xml:id="i-9KFX2kEWXeZLxMZPQh8KPZ">
           av Linus Sköld (S)
         </note>
@@ -1348,11 +1282,9 @@
         <note xml:id="i-8REHW7oFfvJpbqUcCY6Azv">
           den 11 januari
         </note>
-        <u xml:id="i-NdcEjUf5unGRgpcrNuUy6z" prev="i-9Wpq8decqH7QdwFXzi6Hg3" next="i-R9Er6N41XDGa5USE5fR1NS" who="unknown">
-          <seg xml:id="i-8ktbMppu8x8Y4coyS3U3k7">
-            2022/23:182 Sexhandel på thaimassagesalonger
-          </seg>
-        </u>
+        <note xml:id="i-8ktbMppu8x8Y4coyS3U3k7">
+          2022/23:182 Sexhandel på thaimassagesalonger
+        </note>
         <note xml:id="i-QQXsRvGk5wHuyGR21jMx7y">
           av Eva Lindh (S)
         </note>
@@ -1378,11 +1310,9 @@
           till arbetsmarknads- och integrationsminister Johan Pehrson (L)
         </note>
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=12"/>
-        <u xml:id="i-R9Er6N41XDGa5USE5fR1NS" prev="i-NdcEjUf5unGRgpcrNuUy6z" next="i-EaiRdJP6jmRLxfNxaSZnZw" who="unknown">
-          <seg xml:id="i-Ku1xCEmZep4qsu3V6bqQcT">
-            2022/23:203 En arbetsmarknad för alla
-          </seg>
-        </u>
+        <note xml:id="i-Ku1xCEmZep4qsu3V6bqQcT">
+          2022/23:203 En arbetsmarknad för alla
+        </note>
         <note xml:id="i-Awa721kEA3wj2zwBaBg9cQ">
           av Jim Svensk Larm (S)
         </note>
@@ -1425,11 +1355,9 @@
         <note xml:id="i-CamnBotgRRooJS29iURWVC">
           till statsrådet Maria Malmer Stenergard (M)
         </note>
-        <u xml:id="i-EaiRdJP6jmRLxfNxaSZnZw" prev="i-R9Er6N41XDGa5USE5fR1NS" next="i-2dHys2TYpPFWS2ziahgidY" who="unknown">
-          <seg xml:id="i-XMvJKnKf6B4BfJthPFcwsp">
-            2022/23:211 Arbetsorsakade besvär bland anställda inom välfärden
-          </seg>
-        </u>
+        <note xml:id="i-XMvJKnKf6B4BfJthPFcwsp">
+          2022/23:211 Arbetsorsakade besvär bland anställda inom välfärden
+        </note>
         <note xml:id="i-4LdHQnDbqK1smXJ3PsWuko">
           av Johanna Haraldsson (S)
         </note>
@@ -1457,11 +1385,9 @@
         <note xml:id="i-9Eoxk4SVZM6z9hC14r3bat">
           till statsrådet Erik Slottner (KD)
         </note>
-        <u xml:id="i-2dHys2TYpPFWS2ziahgidY" prev="i-EaiRdJP6jmRLxfNxaSZnZw" who="unknown">
-          <seg xml:id="i-2dY5D8ESMq7wBmFt8CwM5N">
-            2022/23:218 Sökbarhet för anmälningar som gäller barn
-          </seg>
-        </u>
+        <note xml:id="i-2dY5D8ESMq7wBmFt8CwM5N">
+          2022/23:218 Sökbarhet för anmälningar som gäller barn
+        </note>
         <note xml:id="i-6thFZ7SPt98FHQ8KQVQzKK">
           av Eva Lindh (S)
         </note>
@@ -1483,7 +1409,7 @@
       </div>
       <div type="commentSection" xml:id="i-PYmAw7eiyDtSwe67551DA7">
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=1"/>
-        <note xml:id="i-MjtSToW8AxLQkg1ypGA46k">
+        <note xml:id="i-MjtSToW8AxLQkg1ypGA46k" type="title">
           § 15 Kammaren åtskildes kl. 10.03.
         </note>
         <note xml:id="i-S4zMeNk2PnmGpcYUQesKLw">
@@ -1492,71 +1418,67 @@
         <note xml:id="i-UsGgNdDgFQBpuCws7ndu3s">
           Vid protokollet
         </note>
-        <u xml:id="i-KdkAzx84LuswyLmgiL2sD6" who="unknown">
-          <seg xml:id="i-UduLK3mtLYPuKdcM9nSpTo">
-            GERGÖ KISCH
-          </seg>
-        </u>
+        <note xml:id="i-UduLK3mtLYPuKdcM9nSpTo">
+          GERGÖ KISCH
+        </note>
         <note xml:id="i-T9eh24GvB4TNqUCg86VM7b">
           /Olof Pilo
         </note>
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=13"/>
-        <note xml:id="i-D7vTKwha35QojcUNJnmbeA">
+        <note xml:id="i-D7vTKwha35QojcUNJnmbeA" type="title">
           Innehållsförteckning
         </note>
       </div>
       <div xml:id="i-GVhonkNrwJFtmL3kkrwZ98" type="commentSection" subtype="tableOfContents">
         <pb facs="http://data.riksdagen.se/fil/A6ABF245-E2D2-46D3-A9B2-19E5C749BA06#page=1"/>
-        <note xml:id="i-8EfnrADZ1VynmepCaocxx8">
+        <note xml:id="i-8EfnrADZ1VynmepCaocxx8" type="title">
           § 1 Justering av protokoll
         </note>
-        <note xml:id="i-TM7AfbwASCiSxdHRNPWjJY">
+        <note xml:id="i-TM7AfbwASCiSxdHRNPWjJY" type="title">
           § 2 Anmälan om ersättare
         </note>
-        <note xml:id="i-7vDTxaiaU8SQ4nXzQDmtFn">
+        <note xml:id="i-7vDTxaiaU8SQ4nXzQDmtFn" type="title">
           § 3 Avsägelse
         </note>
-        <note xml:id="i-TZkpqvkEHn5yS6Ngo4uNHp">
+        <note xml:id="i-TZkpqvkEHn5yS6Ngo4uNHp" type="title">
           § 4 Anmälan om kompletteringsval
         </note>
-        <note xml:id="i-TbqSWyFU5nmAnW2GgHGp4Q">
+        <note xml:id="i-TbqSWyFU5nmAnW2GgHGp4Q" type="title">
           § 5 Meddelande om partiledardebatt
         </note>
-        <note xml:id="i-4MJNqMfhard77xkNEqcFDt">
+        <note xml:id="i-4MJNqMfhard77xkNEqcFDt" type="title">
           § 6 Meddelande om frågestund
         </note>
-        <note xml:id="i-W4SizuHYGke3xmYeeC3WyT">
+        <note xml:id="i-W4SizuHYGke3xmYeeC3WyT" type="title">
           § 7 Anmälan om subsidiaritetsprövningar
         </note>
-        <note xml:id="i-FTNMmBdiG7dBynKGtP6mx6">
+        <note xml:id="i-FTNMmBdiG7dBynKGtP6mx6" type="title">
           § 8 Anmälan om fördröjt svar på interpellation
         </note>
-        <note xml:id="i-UxsjYj5obnSJLKKGUQxUki">
+        <note xml:id="i-UxsjYj5obnSJLKKGUQxUki" type="title">
           § 9 Anmälan om faktapromemorior
         </note>
-        <note xml:id="i-K5GP2bJAHSgvngPPweztpj">
+        <note xml:id="i-K5GP2bJAHSgvngPPweztpj" type="title">
           § 10 Ärende för hänvisning till utskott
         </note>
-        <note xml:id="i-ueufwxQZWHNun4Cu9jnNG">
+        <note xml:id="i-ueufwxQZWHNun4Cu9jnNG" type="title">
           § 11 Bordläggning och beslut om förkortad motionstid
         </note>
-        <note xml:id="i-BwMpPUw9xN2MUGkFCheWUC">
+        <note xml:id="i-BwMpPUw9xN2MUGkFCheWUC" type="title">
           § 12 Anmälan om interpellationer
         </note>
-        <note xml:id="i-RzakJK9x2wxdaZ5dcAVEq2">
+        <note xml:id="i-RzakJK9x2wxdaZ5dcAVEq2" type="title">
           § 13 Anmälan om frågor för skriftliga svar
         </note>
-        <note xml:id="i-YVsxmWakPB6V4ieR3Yd3cK">
+        <note xml:id="i-YVsxmWakPB6V4ieR3Yd3cK" type="title">
           § 14 Anmälan om skriftliga svar på frågor
         </note>
-        <note xml:id="i-wMwiYYc3KFzMNpuqyELrS">
+        <note xml:id="i-wMwiYYc3KFzMNpuqyELrS" type="title">
           § 15 Kammaren åtskildes kl. 10.03.
         </note>
-        <u xml:id="i-FT2AJTL6kHSSNZVmbU3CM8" who="unknown">
-          <seg xml:id="i-MKwxvqUyNiszPKQXrhjKWd">
-            Tryck: Elanders Sverige AB, Vällingby 2023
-          </seg>
-        </u>
+        <note xml:id="i-MKwxvqUyNiszPKQXrhjKWd">
+          Tryck: Elanders Sverige AB, Vällingby 2023
+        </note>
       </div>
     </body>
   </text>

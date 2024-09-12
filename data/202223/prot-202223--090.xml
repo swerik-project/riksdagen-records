@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prot-202223--090">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,10 +32,10 @@
     <body>
       <div type="debateSection" xml:id="i-5u7qQzFB1eiVZGzrbvQ6mC">
         <pb facs="http://data.riksdagen.se/fil/3A1DEF5F-A939-49C9-94A7-D41E06EE92E4#page=1"/>
-        <note xml:id="i-3sSkkKMsAVFkcgEfJUkReQ">
+        <note xml:id="i-3sSkkKMsAVFkcgEfJUkReQ" type="title">
           § 1 Debatt med anledning av vårpropositionens avlämnande
         </note>
-        <note xml:id="i-E9bZXcF3ZBBDy1G3vL6wjp">
+        <note xml:id="i-E9bZXcF3ZBBDy1G3vL6wjp" type="title">
           Proposition
         </note>
         <note xml:id="i-DAVaGwuh3EZhVTfHBwEKA6">
@@ -2364,7 +2364,7 @@
             öka risken för effektbrist i södra Sverige.
           </seg>
         </u>
-        <u xml:id="i-7r5SkCQo4o5TPUofR4dXCV" prev="i-7KibgrTLTv1EtEX2Z4HkMj" who="i-HWbn7UwLvHk93mrHB9NC2c">
+        <u xml:id="i-7r5SkCQo4o5TPUofR4dXCV" prev="i-7KibgrTLTv1EtEX2Z4HkMj" who="i-HWbn7UwLvHk93mrHB9NC2c" next="i-3zi38k66j4tvuApQEf5jJ1">
           <seg xml:id="i-ALTF7hj65KxPGoamrpnyyj">
             Konjunkturinstitutet konstaterade att skatten kommer att få effekter
             på produktionsbeslut, investeringsvilja, framtida elpriser och
@@ -2374,11 +2374,13 @@
             1 och 2.
           </seg>
         </u>
-        <note xml:id="i-K7wJj6iLv2gmVXiErw4DsE">
-          Den 22 januari 2020 röstade Socialdemokraterna igenom en förtida
-          nedläggning av just Ringhals. Min fråga till Mikael Damberg är:
-          Ångrar sig Mikael Damberg?
-        </note>
+        <u xml:id="i-3zi38k66j4tvuApQEf5jJ1" prev="i-7r5SkCQo4o5TPUofR4dXCV" who="i-HWbn7UwLvHk93mrHB9NC2c">
+          <seg xml:id="i-K7wJj6iLv2gmVXiErw4DsE">
+            Den 22 januari 2020 röstade Socialdemokraterna igenom en förtida
+            nedläggning av just Ringhals. Min fråga till Mikael Damberg är:
+            Ångrar sig Mikael Damberg?
+          </seg>
+        </u>
         <note xml:id="i-BVZ8Q8WhPzmhhp84tsKvZi" type="speaker">
           Anf. 29 MIKAEL DAMBERG (S) replik:
         </note>
@@ -3498,7 +3500,7 @@
       </div>
       <div type="commentSection" xml:id="i-6YukbvK3RUff2BBjeJWH15">
         <pb facs="http://data.riksdagen.se/fil/3A1DEF5F-A939-49C9-94A7-D41E06EE92E4#page=1"/>
-        <note xml:id="i-DWU3xVmyWSajNq4MFomj6j">
+        <note xml:id="i-DWU3xVmyWSajNq4MFomj6j" type="title">
           § 2 Meddelande om frågestund
         </note>
         <note xml:id="i-NttU3oGPE63P12W23g2n7i">
@@ -3508,22 +3510,20 @@
       </div>
       <div type="commentSection" xml:id="i-8zS3Zh3Kgh8whap4jsihiF">
         <pb facs="http://data.riksdagen.se/fil/3A1DEF5F-A939-49C9-94A7-D41E06EE92E4#page=1"/>
-        <note xml:id="i-GmSnnJFNUkqPiEiGGTgAw7">
+        <note xml:id="i-GmSnnJFNUkqPiEiGGTgAw7" type="title">
           § 3 Ärende för hänvisning till utskott
         </note>
         <pb facs="http://data.riksdagen.se/fil/3A1DEF5F-A939-49C9-94A7-D41E06EE92E4#page=38"/>
         <note xml:id="i-Cm8sTPuH7f8tptPkbZuJ1z">
           Följande dokument hänvisades till utskott:
         </note>
-        <u xml:id="i-Tucg6z9Xp41UHvBt5SLJd2" next="i-7jVxampfJviLiDGhoRuwej" who="i-Ry3pP9VZKrW87Vcxq73jQG">
-          <seg xml:id="i-2sCtQfgjGvLgyxh2Qn4zpA">
-            EU-dokument
-          </seg>
-        </u>
+        <note xml:id="i-2sCtQfgjGvLgyxh2Qn4zpA">
+          EU-dokument
+        </note>
         <note xml:id="i-HrBRqbrz5GAjNwToHVg8Ue">
           COM(2023) 127 till trafikutskottet
         </note>
-        <u xml:id="i-7jVxampfJviLiDGhoRuwej" prev="i-Tucg6z9Xp41UHvBt5SLJd2" who="i-Ry3pP9VZKrW87Vcxq73jQG">
+        <u xml:id="i-7jVxampfJviLiDGhoRuwej" who="unknown">
           <seg xml:id="i-Ebm4MWeiHyPgutDMS44buE">
             Åttaveckorsfristen för att avge ett motiverat yttrande skulle
             gå ut den 7 juni .
@@ -3532,7 +3532,7 @@
       </div>
       <div type="commentSection" xml:id="i-JnHVq626ohTFArmq5fwwRN">
         <pb facs="http://data.riksdagen.se/fil/3A1DEF5F-A939-49C9-94A7-D41E06EE92E4#page=1"/>
-        <note xml:id="i-J57gSsfmerBYhnzDHACzu7">
+        <note xml:id="i-J57gSsfmerBYhnzDHACzu7" type="title">
           § 4 Bordläggning
         </note>
         <note xml:id="i-MNe6axpFUaMQCHukXxyzKB">
@@ -3557,17 +3557,13 @@
           2022/23:113 Riksrevisionens rapport om de statliga servicekontoren
           i ny regi
         </note>
-        <u xml:id="i-LaSBqroQzw1gn9wAWNTody" next="i-EcviEhCJJAW2EoaMtQYTbA" who="i-Ry3pP9VZKrW87Vcxq73jQG">
-          <seg xml:id="i-Ww2pFGyvLBHzdhXALk5md3">
-            2022/23:114 Strategisk exportkontroll 2022 – krigsmateriel och
-            produkter med dubbla användningsområden
-          </seg>
-        </u>
-        <u xml:id="i-EcviEhCJJAW2EoaMtQYTbA" prev="i-LaSBqroQzw1gn9wAWNTody" who="i-Ry3pP9VZKrW87Vcxq73jQG">
-          <seg xml:id="i-DW6hbVjxHC6dTjvvj2DYkp">
-            EU-dokument
-          </seg>
-        </u>
+        <note xml:id="i-Ww2pFGyvLBHzdhXALk5md3">
+          2022/23:114 Strategisk exportkontroll 2022 – krigsmateriel och
+          produkter med dubbla användningsområden
+        </note>
+        <note xml:id="i-DW6hbVjxHC6dTjvvj2DYkp">
+          EU-dokument
+        </note>
         <note xml:id="i-MdziRWSn8opR8ZjJYtYHtw">
           COM(2023) 177 Förslag till Europaparlamentets och rådets direktiv
           om ändring av direktiven 2009/102/EG och (EU) 2017/1132 vad gäller
@@ -3596,22 +3592,18 @@
       </div>
       <div type="commentSection" xml:id="i-7nP3aDdWLfhThq7pNaAsjm">
         <pb facs="http://data.riksdagen.se/fil/3A1DEF5F-A939-49C9-94A7-D41E06EE92E4#page=1"/>
-        <note xml:id="i-25QcHPSxH56i8jLbDhYfCt">
+        <note xml:id="i-25QcHPSxH56i8jLbDhYfCt" type="title">
           § 5 Anmälan om fråga för skriftligt svar
         </note>
-        <u xml:id="i-P3s8VbsPjvFhmnpaKyKPqH" next="i-Lt2LhJw9WkMgd8SKgen3iV" who="i-Ry3pP9VZKrW87Vcxq73jQG">
-          <seg xml:id="i-U6fBskCw4qqZcdNyXFNLzP">
-            Följande fråga för skriftligt svar hade framställts:
-          </seg>
-        </u>
+        <note xml:id="i-U6fBskCw4qqZcdNyXFNLzP">
+          Följande fråga för skriftligt svar hade framställts:
+        </note>
         <note xml:id="i-47SWAvj4FWcpoxuAXtAGdf">
           den 14 april
         </note>
-        <u xml:id="i-Lt2LhJw9WkMgd8SKgen3iV" prev="i-P3s8VbsPjvFhmnpaKyKPqH" who="i-Ry3pP9VZKrW87Vcxq73jQG">
-          <seg xml:id="i-NtZrBfXdHwpNofiP68w2LM">
-            2022/23:556 Arbetslösas ekonomiska levnadsvillkor
-          </seg>
-        </u>
+        <note xml:id="i-NtZrBfXdHwpNofiP68w2LM">
+          2022/23:556 Arbetslösas ekonomiska levnadsvillkor
+        </note>
         <note xml:id="i-Ro3oXy9VA4Q99SNJMTV92V">
           av Teresa Carvalho (S)
         </note>
@@ -3621,15 +3613,13 @@
       </div>
       <div type="commentSection" xml:id="i-9PaosTpCbCG4XgEcuMGimw">
         <pb facs="http://data.riksdagen.se/fil/3A1DEF5F-A939-49C9-94A7-D41E06EE92E4#page=1"/>
-        <note xml:id="i-5Pk3GwFywrdxzAeyiEsCzn">
+        <note xml:id="i-5Pk3GwFywrdxzAeyiEsCzn" type="title">
           § 6 Anmälan om skriftligt svar på fråga
         </note>
         <pb facs="http://data.riksdagen.se/fil/3A1DEF5F-A939-49C9-94A7-D41E06EE92E4#page=39"/>
-        <u xml:id="i-BdajeqLAfdwqXrZh5n3nCQ" who="i-Ry3pP9VZKrW87Vcxq73jQG">
-          <seg xml:id="i-8JCNjE114uU4dUgLW3by3o">
-            Skriftligt svar på följande fråga hade kommit in:
-          </seg>
-        </u>
+        <note xml:id="i-8JCNjE114uU4dUgLW3by3o">
+          Skriftligt svar på följande fråga hade kommit in:
+        </note>
         <note xml:id="i-XDw8Px72T5J3bNHfoGsCeD">
           den 14 april
         </note>
@@ -3645,7 +3635,7 @@
       </div>
       <div type="commentSection" xml:id="i-S1UV8tCmo7HjVJ724c61qj">
         <pb facs="http://data.riksdagen.se/fil/3A1DEF5F-A939-49C9-94A7-D41E06EE92E4#page=1"/>
-        <note xml:id="i-TrM95eD3dQ2DSQs2HaKdU9">
+        <note xml:id="i-TrM95eD3dQ2DSQs2HaKdU9" type="title">
           § 7 Kammaren åtskildes kl. 15.16.
         </note>
         <note xml:id="i-2ZpeQddPDCpkudnGtLxVHv">
@@ -3668,13 +3658,13 @@
           /Olof Pilo
         </note>
         <pb facs="http://data.riksdagen.se/fil/3A1DEF5F-A939-49C9-94A7-D41E06EE92E4#page=40"/>
-        <note xml:id="i-9ptwLGZbvXc8ejPQhuExq6">
+        <note xml:id="i-9ptwLGZbvXc8ejPQhuExq6" type="title">
           Innehållsförteckning
         </note>
       </div>
       <div xml:id="i-6WcEHRsAnoqJrezGCQgiQZ" type="commentSection" subtype="tableOfContents">
         <pb facs="http://data.riksdagen.se/fil/3A1DEF5F-A939-49C9-94A7-D41E06EE92E4#page=1"/>
-        <note xml:id="i-AudXr4CPB5CLqygGxDEYmf">
+        <note xml:id="i-AudXr4CPB5CLqygGxDEYmf" type="title">
           § 1 Debatt med anledning av vårpropositionens avlämnande
         </note>
         <note xml:id="i-QGG8Q7kWfHKLr5mBH7zVty">
@@ -3860,30 +3850,28 @@
         <note xml:id="i-Bks7BnYvXGQgzNuZqrbPqw">
           Anf. 61 CARL B HAMILTON (L) replik
         </note>
-        <note xml:id="i-D1BYArLo5iTTEG4qwN1ShD">
+        <note xml:id="i-D1BYArLo5iTTEG4qwN1ShD" type="title">
           § 2 Meddelande om frågestund
         </note>
-        <note xml:id="i-91eeryGv1ccbqpqLE3eGxZ">
+        <note xml:id="i-91eeryGv1ccbqpqLE3eGxZ" type="title">
           § 3 Ärende för hänvisning till utskott
         </note>
-        <note xml:id="i-4VXXP47mQGNC5ACcVfAuXx">
+        <note xml:id="i-4VXXP47mQGNC5ACcVfAuXx" type="title">
           § 4 Bordläggning
         </note>
-        <note xml:id="i-7aG2iyzDEx2QbsEzyDKy6f">
+        <note xml:id="i-7aG2iyzDEx2QbsEzyDKy6f" type="title">
           § 5 Anmälan om fråga för skriftligt svar
         </note>
-        <note xml:id="i-DA7fxd7vXDw3ZAdQ9b28rt">
+        <note xml:id="i-DA7fxd7vXDw3ZAdQ9b28rt" type="title">
           § 6 Anmälan om skriftligt svar på fråga
         </note>
-        <note xml:id="i-SsMV4pPK1GFDjY4QgVGJJh">
+        <note xml:id="i-SsMV4pPK1GFDjY4QgVGJJh" type="title">
           § 7 Kammaren åtskildes kl. 15.16.
         </note>
         <pb facs="http://data.riksdagen.se/fil/3A1DEF5F-A939-49C9-94A7-D41E06EE92E4#page=41"/>
-        <u xml:id="i-8jQi8KNpAjLZB1ruNUp4Mw" who="i-Ry3pP9VZKrW87Vcxq73jQG">
-          <seg xml:id="i-7xG8CX2P64YagWkvQyroWA">
-            Tryck: Elanders Sverige AB, Vällingby 2023
-          </seg>
-        </u>
+        <note xml:id="i-7xG8CX2P64YagWkvQyroWA">
+          Tryck: Elanders Sverige AB, Vällingby 2023
+        </note>
       </div>
     </body>
   </text>

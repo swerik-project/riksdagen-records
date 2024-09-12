@@ -32,17 +32,17 @@
     <body>
       <div type="commentSection" xml:id="i-Lh93gLQPrU4UQiox8vCGLx">
         <pb facs="http://data.riksdagen.se/fil/336EBBD3-613A-4613-950D-83CFB7052D8D#page=1"/>
-        <note xml:id="i-ULZMLkGUMuCzgaaq7KocaA">
-          Det justerade protokollet beräknas utkomma om 3 veckor
-        </note>
-        <u xml:id="i-c9ad8d0c97401281-0" who="unknown">
-          <seg xml:id="i-GCz8kH8GytEyr33DkwWfoG">
-            _______________________________________________________________________
+        <u xml:id="i-6rwQJxPwQBn5eL41Wmh39L" who="unknown">
+          <seg xml:id="i-ULZMLkGUMuCzgaaq7KocaA">
+            Det justerade protokollet beräknas utkomma om 3 veckor
           </seg>
         </u>
+        <note xml:id="i-GCz8kH8GytEyr33DkwWfoG">
+          _______________________________________________________________________
+        </note>
       </div>
       <div type="commentSection" xml:id="i-SdFt63S9c7tG3uWY5qYTM9">
-        <note xml:id="i-KuN7qjDAsTRTrnEGmbN32s">
+        <note xml:id="i-KuN7qjDAsTRTrnEGmbN32s" type="title">
           1 § Justering av protokoll
         </note>
         <note xml:id="i-FchNGpbgxxwzhXiHwzcifz">
@@ -50,7 +50,7 @@
         </note>
       </div>
       <div type="commentSection" xml:id="i-6ZQ8V14BQHXUej27yY9LzF">
-        <note xml:id="i-5EZQyG3F4AHfRBewSYCf4N">
+        <note xml:id="i-5EZQyG3F4AHfRBewSYCf4N" type="title">
           2 § Hänvisning av ärenden till utskott
         </note>
         <note xml:id="i-BfL6ibUvtR91xD1aTts8Ci">
@@ -74,7 +74,7 @@
         </note>
       </div>
       <div type="commentSection" xml:id="i-QVLDz2UJC15BWZq9gwVmVj">
-        <note xml:id="i-E9npvpzK1KDLR6qwfwzqrw">
+        <note xml:id="i-E9npvpzK1KDLR6qwfwzqrw" type="title">
           3 § Riksdagens förvaltningskontors verksamhetsberättelse
         </note>
         <note xml:id="i-R7W9XCSfWJNNrQsSfBhDa8">
@@ -97,7 +97,7 @@
         </note>
       </div>
       <div type="debateSection" xml:id="i-Cvo5qzmAJNeuZvnZ9J5w3B">
-        <note xml:id="i-Vtgep42adq7Acg3fHEuVmt">
+        <note xml:id="i-Vtgep42adq7Acg3fHEuVmt" type="title">
           4 § Presstöd m.m.
         </note>
         <note xml:id="i-SPwa4EcvP6fqAsGUnxmtPc">
@@ -1731,7 +1731,7 @@
         </note>
       </div>
       <div type="debateSection" xml:id="i-ehMRLXHAVm5mgdeYmpJ6i">
-        <note xml:id="i-RzBZcuDZmarsnu7eGSvoNo">
+        <note xml:id="i-RzBZcuDZmarsnu7eGSvoNo" type="title">
           5 § Samhällsinformation
         </note>
         <note xml:id="i-Ty2fgaV2gtKbyTRmZa2Ccw">
@@ -2573,7 +2573,7 @@
         </note>
       </div>
       <div type="commentSection" xml:id="i-XLGLisMhwduWacBBMWVRFY">
-        <note xml:id="i-Uw9r77Zdz2QY58xUpczWoZ">
+        <note xml:id="i-Uw9r77Zdz2QY58xUpczWoZ" type="title">
           6 § Anslag till Svensk författningssamling m.m.
         </note>
         <note xml:id="i-6rtepsg9idB9SdhxvomR2z">
@@ -2596,7 +2596,7 @@
         </note>
       </div>
       <div type="commentSection" xml:id="i-4TnAo8sBBACexaLFXCv5Gp">
-        <note xml:id="i-Bwoa97YzMjmsS7bimUxgkw">
+        <note xml:id="i-Bwoa97YzMjmsS7bimUxgkw" type="title">
           7 § Anslag till Justitiekanslern
         </note>
         <note xml:id="i-CmzPKVG7dtuuCpVpVUDj2E">
@@ -2617,7 +2617,7 @@
         </note>
       </div>
       <div type="debateSection" xml:id="i-5jBvp6EQbDcpTNMQHPcQ6n">
-        <note xml:id="i-MQWMBwpeRxQW8Wbh3LZJyJ">
+        <note xml:id="i-MQWMBwpeRxQW8Wbh3LZJyJ" type="title">
           8 § Anslag på konsumentområdet för budgetåret 1995/96
         </note>
         <note xml:id="i-7ZWLjgVpbiwv6XLXTcG8rr">
@@ -2635,11 +2635,9 @@
         <note type="speaker" xml:id="i-RYnzwCGiZ8iutLJ7uxaApq">
           Anf. 29 BIRGIT HENRIKSSON (m)
         </note>
-        <u xml:id="i-N6swipcgJ1zL3wkFtRoEMB" next="i-c9ad8d0c97401281-285" who="i-XZzUqSm2eD7EPMwfDLP3Q4">
-          <seg xml:id="i-SVDFPiaGPqjSkqYnopBkhb">
-            Fru talman! Lagutskottets betänkande 1994/95:19
-          </seg>
-        </u>
+        <note xml:id="i-SVDFPiaGPqjSkqYnopBkhb">
+          Fru talman! Lagutskottets betänkande 1994/95:19
+        </note>
         <note xml:id="i-BE9ig8qdVZvjmprsVZgpjd">
           gäller anslag på konsumentområdet för budgetåret
         </note>
@@ -2649,7 +2647,7 @@
           och Allmänna reklamationsnämnden, stöd till konsumentorganisationer,
           konsumentforskning och bidrag till miljömärkning av produkter.
         </note>
-        <u xml:id="i-c9ad8d0c97401281-285" who="i-XZzUqSm2eD7EPMwfDLP3Q4" prev="i-N6swipcgJ1zL3wkFtRoEMB" next="i-VJ49b6BF5oN7G5odxVNyqh">
+        <u xml:id="i-c9ad8d0c97401281-285" who="i-XZzUqSm2eD7EPMwfDLP3Q4" next="i-VJ49b6BF5oN7G5odxVNyqh">
           <seg xml:id="i-NpSpubQbiQGgoKGPkSTpZe">
             I budgetpropositionen hänvisar man till att Sveriges ekonomi
             är ansträngd. Man hänvisar även till den konsumentpolitiska översyn
@@ -2749,7 +2747,7 @@
         </note>
       </div>
       <div type="commentSection" xml:id="i-8Jf2hymDXB2pLXhqUUg6dr">
-        <note xml:id="i-DRmXww7zKZFpwKP3bgBof3">
+        <note xml:id="i-DRmXww7zKZFpwKP3bgBof3" type="title">
           9 § Anslag till Bokföringsnämnden, m.m.
         </note>
         <note xml:id="i-R7YdF8Y9jC8kgNkAjRDRav">
@@ -2772,7 +2770,7 @@
         </note>
       </div>
       <div type="debateSection" xml:id="i-SHFXG5HRsbtYLwHobe5DRT">
-        <note xml:id="i-T1rYNjx93szpGxAdqGr3rb">
+        <note xml:id="i-T1rYNjx93szpGxAdqGr3rb" type="title">
           10 § Idrott
         </note>
         <note xml:id="i-R3uJPa9XcJXWDmUK64N1jQ">
@@ -3003,7 +3001,7 @@
             behandlats.
           </seg>
         </u>
-        <u xml:id="i-c9ad8d0c97401281-315" prev="i-c9ad8d0c97401281-314" who="i-4HwVdTBbapZ5KwNJtKs6Ux" next="i-c9ad8d0c97401281-316">
+        <u xml:id="i-c9ad8d0c97401281-315" prev="i-c9ad8d0c97401281-314" who="i-4HwVdTBbapZ5KwNJtKs6Ux" next="i-c9ad8d0c97401281-317">
           <seg xml:id="i-LttvzLf9WFwp3GMoXs3ovh">
             Jämställdheten inom idrotten är en mycket angelägen och omdiskuterad
             fråga. Färre flickor än pojkar idrottar. Samhällets satsningar
@@ -3015,12 +3013,10 @@
             fullständigt regelvidrigt.
           </seg>
         </u>
-        <u xml:id="i-c9ad8d0c97401281-316" prev="i-c9ad8d0c97401281-315" who="i-4HwVdTBbapZ5KwNJtKs6Ux" next="i-c9ad8d0c97401281-317">
-          <seg xml:id="i-GmNZQwsMurcEbC6L6bULm4">
-            Mediernas spegling av kvinnoidrotten är minimal.
-          </seg>
-        </u>
-        <u xml:id="i-c9ad8d0c97401281-317" prev="i-c9ad8d0c97401281-316" who="i-4HwVdTBbapZ5KwNJtKs6Ux" next="i-c9ad8d0c97401281-318">
+        <note xml:id="i-GmNZQwsMurcEbC6L6bULm4">
+          Mediernas spegling av kvinnoidrotten är minimal.
+        </note>
+        <u xml:id="i-c9ad8d0c97401281-317" prev="i-c9ad8d0c97401281-315" who="i-4HwVdTBbapZ5KwNJtKs6Ux" next="i-c9ad8d0c97401281-318">
           <seg xml:id="i-M1hYg6KzRbxR2XZfbZgnEj">
             Ändå har vi gång på gång fått uppleva att just kvinnor räddat
             den svenska äran i internationella tävlingar -
@@ -3368,19 +3364,21 @@
             idrottsrörelsen spelar en väldigt viktig roll.
           </seg>
         </u>
-        <u xml:id="i-c9ad8d0c97401281-359" prev="i-c9ad8d0c97401281-358" who="i-7XJQkFtojnsGkBWJ4ArrFx" next="i-c9ad8d0c97401281-361">
+        <u xml:id="i-c9ad8d0c97401281-359" prev="i-c9ad8d0c97401281-358" who="i-7XJQkFtojnsGkBWJ4ArrFx" next="i-A8Lvrqrr6GQbCoGLkgMRwq">
           <seg xml:id="i-Uhhji8xU6x6yk1nYvZygrk">
             För att komma till rätta med dessa saker måste vi snarast få
             till stånd en konstruktiv dialog, där vi tillsammans diskuterar
             hur resurserna skall fördelas.
           </seg>
         </u>
-        <note xml:id="i-BY5VpHYEE4x96cwA1v7xMT">
-          Frågan är: Vad kan staten, landstingen, idrotten och kommunerna
-          göra i en tid av minskade resurser?
-        </note>
+        <u xml:id="i-A8Lvrqrr6GQbCoGLkgMRwq" prev="i-c9ad8d0c97401281-359" next="i-c9ad8d0c97401281-361" who="i-7XJQkFtojnsGkBWJ4ArrFx">
+          <seg xml:id="i-BY5VpHYEE4x96cwA1v7xMT">
+            Frågan är: Vad kan staten, landstingen, idrotten och kommunerna
+            göra i en tid av minskade resurser?
+          </seg>
+        </u>
         <pb facs="http://data.riksdagen.se/fil/336EBBD3-613A-4613-950D-83CFB7052D8D#page=34"/>
-        <u xml:id="i-c9ad8d0c97401281-361" prev="i-c9ad8d0c97401281-359" who="i-7XJQkFtojnsGkBWJ4ArrFx" next="i-c9ad8d0c97401281-362">
+        <u xml:id="i-c9ad8d0c97401281-361" prev="i-A8Lvrqrr6GQbCoGLkgMRwq" who="i-7XJQkFtojnsGkBWJ4ArrFx" next="i-c9ad8d0c97401281-362">
           <seg xml:id="i-HT1jM8Z9pxsGA5QaBpZfLK">
             De förändringar som EU-medlemskapet medför för idrott och föreningsliv
             är också ett skäl till att det behövs en utredning.
@@ -3556,15 +3554,17 @@
             och
           </seg>
         </u>
-        <u xml:id="i-StWqAg57pABNTJtFSThDak" prev="i-c9ad8d0c97401281-382" who="i-LQkHPw9HasEs3KVdtLozXh" next="i-c9ad8d0c97401281-384">
+        <u xml:id="i-StWqAg57pABNTJtFSThDak" prev="i-c9ad8d0c97401281-382" who="i-LQkHPw9HasEs3KVdtLozXh" next="i-G9NsTY6BNFV6poiJjbmW9d">
           <seg xml:id="i-3jZRcfaATSHgPUDJ7uzsux">
             70 % av dessa kvinnor är under 25 år.
           </seg>
         </u>
-        <note xml:id="i-35rpcZKRqsn4Yma4AbM1Hq">
-          Momsen på ridsporten påverkas av EU:s regler.
-        </note>
-        <u xml:id="i-c9ad8d0c97401281-384" prev="i-StWqAg57pABNTJtFSThDak" who="i-LQkHPw9HasEs3KVdtLozXh">
+        <u xml:id="i-G9NsTY6BNFV6poiJjbmW9d" prev="i-StWqAg57pABNTJtFSThDak" next="i-c9ad8d0c97401281-384" who="i-LQkHPw9HasEs3KVdtLozXh">
+          <seg xml:id="i-35rpcZKRqsn4Yma4AbM1Hq">
+            Momsen på ridsporten påverkas av EU:s regler.
+          </seg>
+        </u>
+        <u xml:id="i-c9ad8d0c97401281-384" prev="i-G9NsTY6BNFV6poiJjbmW9d" who="i-LQkHPw9HasEs3KVdtLozXh">
           <seg xml:id="i-VcxLxYzHx1oGakK4gbxjYd">
             Låt oss i stället se till att anpassa EU:s regler till den folkrörelsetradition
             som vi har i Sverige. Jämför reglerna med de som gäller för vilken
@@ -3844,7 +3844,7 @@
         <note xml:id="i-RWFC2CGzywNVcAeyEpCCTG" type="speaker">
           Anf. 37 STIG BERTILSSON (m)replik
         </note>
-        <u xml:id="i-c9ad8d0c97401281-414" who="i-Y6FifPU59JaGH9t3J1Gxre" next="i-c9ad8d0c97401281-415">
+        <u xml:id="i-c9ad8d0c97401281-414" who="i-Y6FifPU59JaGH9t3J1Gxre" next="i-c9ad8d0c97401281-416">
           <seg xml:id="i-R6JAKQyMWKb1XuKsa6bQRT">
             Herr talman! Ingen verksamhet är helig när det gäller anslag
             från stat och kommun. Det har vi kunnat bli varse. Om Anders Nilsson
@@ -3853,12 +3853,10 @@
             sker i anslaget till idrotten. Jag vet inte vad Anders
           </seg>
         </u>
-        <u xml:id="i-c9ad8d0c97401281-415" prev="i-c9ad8d0c97401281-414" who="i-Y6FifPU59JaGH9t3J1Gxre" next="i-c9ad8d0c97401281-416">
-          <seg xml:id="i-7PQPsWTqkJaF8KPLxu4Bd4">
-            Nilsson hade hoppats på ytterligare.
-          </seg>
-        </u>
-        <u xml:id="i-c9ad8d0c97401281-416" prev="i-c9ad8d0c97401281-415" who="i-Y6FifPU59JaGH9t3J1Gxre" next="i-c9ad8d0c97401281-417">
+        <note xml:id="i-7PQPsWTqkJaF8KPLxu4Bd4">
+          Nilsson hade hoppats på ytterligare.
+        </note>
+        <u xml:id="i-c9ad8d0c97401281-416" prev="i-c9ad8d0c97401281-414" who="i-Y6FifPU59JaGH9t3J1Gxre" next="i-c9ad8d0c97401281-417">
           <seg xml:id="i-A4VwCT1CkiLfTgiZXeNU6L">
             Som jag sade tidigare i mitt anförande accepterade vi den besparingen
             därför att vi satte in denna i perspektivet att idrotten får ökade
@@ -3910,7 +3908,7 @@
             väl ingen möjlighet att riva ner något som inte finns.
           </seg>
         </u>
-        <u xml:id="i-c9ad8d0c97401281-422" prev="i-c9ad8d0c97401281-421" who="i-F8Q1QN8EmRLzQz9iUe6zgL" next="i-c9ad8d0c97401281-424">
+        <u xml:id="i-c9ad8d0c97401281-422" prev="i-c9ad8d0c97401281-421" who="i-F8Q1QN8EmRLzQz9iUe6zgL" next="i-BVj4LkV4gauwANicbe6wkZ">
           <seg xml:id="i-VJh7CkRMAu3maHjnv5ySbZ">
             Det råder ju inga tvivel om att idrottsrörelsen har förmått att
             öka sina inkomster från spel- och dobbelverksamheten, bl.a. genom
@@ -3922,10 +3920,12 @@
             höga.
           </seg>
         </u>
-        <note xml:id="i-QyzuqCHjoxrZcLRn8nVVue">
-          Sedan vill jag ställa en fråga till Stig Bertilsson. I
-        </note>
-        <u xml:id="i-c9ad8d0c97401281-424" prev="i-c9ad8d0c97401281-422" who="i-F8Q1QN8EmRLzQz9iUe6zgL">
+        <u xml:id="i-BVj4LkV4gauwANicbe6wkZ" prev="i-c9ad8d0c97401281-422" next="i-c9ad8d0c97401281-424" who="i-F8Q1QN8EmRLzQz9iUe6zgL">
+          <seg xml:id="i-QyzuqCHjoxrZcLRn8nVVue">
+            Sedan vill jag ställa en fråga till Stig Bertilsson. I
+          </seg>
+        </u>
+        <u xml:id="i-c9ad8d0c97401281-424" prev="i-BVj4LkV4gauwANicbe6wkZ" who="i-F8Q1QN8EmRLzQz9iUe6zgL">
           <seg xml:id="i-VaoJmEL1Xvo5iGksWsdsB6">
             reservationen gjorde man ett stort nummer av alla pekpinnar och
             de detaljregleringar som regeringen vill göra. Vad är det som
@@ -4572,7 +4572,7 @@
             De här två reservationerna stämmer inte överens.
           </seg>
         </u>
-        <u xml:id="i-c9ad8d0c97401281-493" prev="i-c9ad8d0c97401281-492" who="i-F8Q1QN8EmRLzQz9iUe6zgL">
+        <u xml:id="i-c9ad8d0c97401281-493" prev="i-c9ad8d0c97401281-492" who="i-F8Q1QN8EmRLzQz9iUe6zgL" next="i-LofhCWLBBasbaDbBeYHsEM">
           <seg xml:id="i-9XkDvaSnTbYwtAzyof35vU">
             Jag förstår att kds är ensamt om reservation 3. Det är möjligt
             att en sådan undersökning och verksamhet kunde vara intressant
@@ -4581,10 +4581,12 @@
             göra det.
           </seg>
         </u>
-        <note xml:id="i-TqZPkcUuRpyQWDtv2QphM4">
-          Jag vill fråga Ulla-Britt Hagström: Är det verkligen kds mening
-          att riksdagen skall besluta att idrotten skall göra en sådan undersökning?
-        </note>
+        <u xml:id="i-LofhCWLBBasbaDbBeYHsEM" prev="i-c9ad8d0c97401281-493" who="i-F8Q1QN8EmRLzQz9iUe6zgL">
+          <seg xml:id="i-TqZPkcUuRpyQWDtv2QphM4">
+            Jag vill fråga Ulla-Britt Hagström: Är det verkligen kds mening
+            att riksdagen skall besluta att idrotten skall göra en sådan undersökning?
+          </seg>
+        </u>
         <note xml:id="i-NuQbANYVRvnotER9dhiFfT" type="speaker">
           Anf. 56 ULLA-BRITT HAGSTRÖM (kds) replik
         </note>
@@ -4617,7 +4619,7 @@
         </note>
       </div>
       <div type="debateSection" xml:id="i-7r2iR7MuEaWsNTzoih61GE">
-        <note xml:id="i-U5jZVJ9H9EB3dhTHuf6WrP">
+        <note xml:id="i-U5jZVJ9H9EB3dhTHuf6WrP" type="title">
           11 § Betygssystemet i grundskolan
         </note>
         <note xml:id="i-xKGmeEjxTzcuS2LbBqqCg">
@@ -5750,17 +5752,19 @@
             betygssystem skulle träda i kraft redan hösten
           </seg>
         </u>
-        <u xml:id="i-c9ad8d0c97401281-622" prev="i-c9ad8d0c97401281-621" who="i-5XfRsyaqsbNGGG3spKFVTH" next="i-c9ad8d0c97401281-624">
+        <u xml:id="i-c9ad8d0c97401281-622" prev="i-c9ad8d0c97401281-621" who="i-5XfRsyaqsbNGGG3spKFVTH" next="i-foJPAAJuZupNVSNpzaXiL">
           <seg xml:id="i-BXfJrBbqkq2GFTeCTunC9t">
             1995. Vi diskuterade betygsfrågan inför beslutet i utskottet
             och här i riksdagen, och det fanns då tre typer av argument för
             betyg:
           </seg>
         </u>
-        <note xml:id="i-Qx4Q1uwmr3E67MPHhm8qx7">
-          Betygen används för antagning till högre utbildning.
-        </note>
-        <u xml:id="i-c9ad8d0c97401281-624" prev="i-c9ad8d0c97401281-622" who="i-5XfRsyaqsbNGGG3spKFVTH" next="i-c9ad8d0c97401281-625">
+        <u xml:id="i-foJPAAJuZupNVSNpzaXiL" prev="i-c9ad8d0c97401281-622" next="i-c9ad8d0c97401281-624" who="i-5XfRsyaqsbNGGG3spKFVTH">
+          <seg xml:id="i-Qx4Q1uwmr3E67MPHhm8qx7">
+            Betygen används för antagning till högre utbildning.
+          </seg>
+        </u>
+        <u xml:id="i-c9ad8d0c97401281-624" prev="i-foJPAAJuZupNVSNpzaXiL" who="i-5XfRsyaqsbNGGG3spKFVTH" next="i-c9ad8d0c97401281-625">
           <seg xml:id="i-SgddPibUpyMvnWRd819uLb">
             Betyg är ett instrument för utvärdering av enskilda skolor och
             kommuner.
@@ -5998,7 +6002,7 @@
         </note>
       </div>
       <div type="debateSection" xml:id="i-3VhigobE3MXKVZt2dNtoUY">
-        <note xml:id="i-8xA8Wdo2yMxVHLRfWHiqen">
+        <note xml:id="i-8xA8Wdo2yMxVHLRfWHiqen" type="title">
           12 § Vissa gymnasieskolfrågor
         </note>
         <note xml:id="i-LKyaQEHgtBKhSevjQnL9TB">
@@ -6030,7 +6034,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/336EBBD3-613A-4613-950D-83CFB7052D8D#page=61"/>
-        <u xml:id="i-c9ad8d0c97401281-655" prev="i-c9ad8d0c97401281-654" who="i-CBuK3dFLMHFNiQVSusHsaD" next="i-c9ad8d0c97401281-656">
+        <u xml:id="i-c9ad8d0c97401281-655" prev="i-c9ad8d0c97401281-654" who="i-CBuK3dFLMHFNiQVSusHsaD" next="i-Ne5hq5cZiGTQQtF7aUuvE9">
           <seg xml:id="i-4uV6Qq1je38t1NPwqJ6DEw">
             miljoner kronor genom att minska den garanterade undervisningstiden
             med 30 klocktimmar, dels 20 på det lokala tillägget, dels 10 på
@@ -6039,11 +6043,13 @@
             och estetiska programmen blir
           </seg>
         </u>
-        <note xml:id="i-NcDqw1pCZQfKxdngDvY5hj">
-          2 150 klocktimmar och på de övriga nationella programmen, de
-          yrkesförberedande, 2 370 klocktimmar.
-        </note>
-        <u xml:id="i-c9ad8d0c97401281-656" prev="i-c9ad8d0c97401281-655" who="i-CBuK3dFLMHFNiQVSusHsaD" next="i-c9ad8d0c97401281-657">
+        <u xml:id="i-Ne5hq5cZiGTQQtF7aUuvE9" prev="i-c9ad8d0c97401281-655" next="i-c9ad8d0c97401281-656" who="i-CBuK3dFLMHFNiQVSusHsaD">
+          <seg xml:id="i-NcDqw1pCZQfKxdngDvY5hj">
+            2 150 klocktimmar och på de övriga nationella programmen, de
+            yrkesförberedande, 2 370 klocktimmar.
+          </seg>
+        </u>
+        <u xml:id="i-c9ad8d0c97401281-656" prev="i-Ne5hq5cZiGTQQtF7aUuvE9" who="i-CBuK3dFLMHFNiQVSusHsaD" next="i-c9ad8d0c97401281-657">
           <seg xml:id="i-63w3Gq18ahd1qm4cdnzS7u">
             Minskningen kan vid en första anblick synas harmlös. Men den
             går stick i stäv med utvecklingen i vår omvärld, där man snarare
@@ -6285,7 +6291,7 @@
             i betänkande UbU9 i dess helhet och avslag på reservationerna.
           </seg>
         </u>
-        <u xml:id="i-c9ad8d0c97401281-682" prev="i-c9ad8d0c97401281-681" who="i-PxnWyEEEJkswzBKdKbv36K" next="i-c9ad8d0c97401281-684">
+        <u xml:id="i-c9ad8d0c97401281-682" prev="i-c9ad8d0c97401281-681" who="i-PxnWyEEEJkswzBKdKbv36K" next="i-3iCsUjiQCDkrLaA8gUWiwM">
           <seg xml:id="i-9Wu8VEGRqCCYHPxsDFDio1">
             Vad gäller ändringar av timplanen för gymnasieskolan anför regeringen
             att det statsfinansiella läget kräver att statliga besparingar
@@ -6295,26 +6301,32 @@
             regleringen av skolan.
           </seg>
         </u>
-        <note xml:id="i-HJ4PPs67H7FESzfriyLG7h">
-          För gymnasieskolans del föreslår regeringen att den minsta garanterade
-          undervisningstiden för samtliga nationella program skall minska
-          med 30 timmar. 20
-        </note>
-        <note xml:id="i-138f327m6MVCb3LMjoUJqT">
-          timmar avser minskad tid för lokalt tillägg för ämnesanknuten
-          praktik, och 10 timmar avser minskad tid för lärarhandledning
-          för specialarbete.
-        </note>
-        <note xml:id="i-MawTFofrWRn89w9Sp15nod">
-          Den nya timplanen skall enligt regeringens förslag införas fr.o.m.
-          den 1 juli 1995 och gälla de elever som börjar höstterminen 1995.
-          Besparingarna skall vara 62
-        </note>
+        <u xml:id="i-3iCsUjiQCDkrLaA8gUWiwM" prev="i-c9ad8d0c97401281-682" next="i-BsEHGHKDarRoyEERD87oRH" who="i-PxnWyEEEJkswzBKdKbv36K">
+          <seg xml:id="i-HJ4PPs67H7FESzfriyLG7h">
+            För gymnasieskolans del föreslår regeringen att den minsta garanterade
+            undervisningstiden för samtliga nationella program skall minska
+            med 30 timmar. 20
+          </seg>
+        </u>
+        <u xml:id="i-BsEHGHKDarRoyEERD87oRH" prev="i-3iCsUjiQCDkrLaA8gUWiwM" next="i-X4YyhwDSYiEnHJ2hhQ3kRt" who="i-PxnWyEEEJkswzBKdKbv36K">
+          <seg xml:id="i-138f327m6MVCb3LMjoUJqT">
+            timmar avser minskad tid för lokalt tillägg för ämnesanknuten
+            praktik, och 10 timmar avser minskad tid för lärarhandledning
+            för specialarbete.
+          </seg>
+        </u>
+        <u xml:id="i-X4YyhwDSYiEnHJ2hhQ3kRt" prev="i-BsEHGHKDarRoyEERD87oRH" next="i-c9ad8d0c97401281-684" who="i-PxnWyEEEJkswzBKdKbv36K">
+          <seg xml:id="i-MawTFofrWRn89w9Sp15nod">
+            Den nya timplanen skall enligt regeringens förslag införas fr.o.m.
+            den 1 juli 1995 och gälla de elever som börjar höstterminen 1995.
+            Besparingarna skall vara 62
+          </seg>
+        </u>
         <note xml:id="i-AQGvMNkeUgh5JevhxXVK11">
           miljoner kronor för budgetåret 1995/96, 82 miljoner budgetåret
           1997 och 125 miljoner budgetåret 1997/98.
         </note>
-        <u xml:id="i-c9ad8d0c97401281-684" prev="i-c9ad8d0c97401281-682" who="i-PxnWyEEEJkswzBKdKbv36K" next="i-c9ad8d0c97401281-685">
+        <u xml:id="i-c9ad8d0c97401281-684" prev="i-X4YyhwDSYiEnHJ2hhQ3kRt" who="i-PxnWyEEEJkswzBKdKbv36K" next="i-c9ad8d0c97401281-685">
           <seg xml:id="i-M4ZKMXMtj4rct3FtUpG8e">
             Ulf Melin sade att besparingarna har gått ljudlöst förbi. Det
             kanske beror på att man inom gymnasieskolan förstår att man också
@@ -6336,7 +6348,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/336EBBD3-613A-4613-950D-83CFB7052D8D#page=64"/>
-        <u xml:id="i-WhPCxT2qc6UovHuwt2rYKz" prev="i-c9ad8d0c97401281-685" who="i-PxnWyEEEJkswzBKdKbv36K" next="i-c9ad8d0c97401281-687">
+        <u xml:id="i-WhPCxT2qc6UovHuwt2rYKz" prev="i-c9ad8d0c97401281-685" who="i-PxnWyEEEJkswzBKdKbv36K" next="i-LttYNWspWFeq8tXUiNbucB">
           <seg xml:id="i-53o1Nmjw7SUa359Zpatcmy">
             Herr talman! Ungdomar som är svårt rörelsehindrade har enligt
             5 kap. 28 § skollagen rätt att efter fullgjord skolplikt få utbildning
@@ -6347,11 +6359,13 @@
             anordnas i de kommuner som regeringen bestämmer.
           </seg>
         </u>
-        <note xml:id="i-FU3832xaFjWncqgZzYbXUZ">
-          Skolorna är riksrekryterande. Antalet elever beräknas läsåret
-          1995/96 till totalt 125 stycken.
-        </note>
-        <u xml:id="i-c9ad8d0c97401281-687" prev="i-WhPCxT2qc6UovHuwt2rYKz" who="i-PxnWyEEEJkswzBKdKbv36K" next="i-c9ad8d0c97401281-688">
+        <u xml:id="i-LttYNWspWFeq8tXUiNbucB" prev="i-WhPCxT2qc6UovHuwt2rYKz" next="i-c9ad8d0c97401281-687" who="i-PxnWyEEEJkswzBKdKbv36K">
+          <seg xml:id="i-FU3832xaFjWncqgZzYbXUZ">
+            Skolorna är riksrekryterande. Antalet elever beräknas läsåret
+            1995/96 till totalt 125 stycken.
+          </seg>
+        </u>
+        <u xml:id="i-c9ad8d0c97401281-687" prev="i-LttYNWspWFeq8tXUiNbucB" who="i-PxnWyEEEJkswzBKdKbv36K" next="i-c9ad8d0c97401281-688">
           <seg xml:id="i-7p9BBbqwW4EMbicKaP72rR">
             Den Rh-anpassade utbildningen omfattar som nämnts enbart de nationella
             programmen. I nu föreliggande proposition erinrar regeringen om
@@ -6369,7 +6383,7 @@
             program.
           </seg>
         </u>
-        <u xml:id="i-c9ad8d0c97401281-688" prev="i-c9ad8d0c97401281-687" who="i-PxnWyEEEJkswzBKdKbv36K" next="i-c9ad8d0c97401281-689">
+        <u xml:id="i-c9ad8d0c97401281-688" prev="i-c9ad8d0c97401281-687" who="i-PxnWyEEEJkswzBKdKbv36K" next="i-ERBRxFKuRjZcVJB1kbMDVE">
           <seg xml:id="i-6ubReoH7MGZ9Wp3GDpcHCw">
             Enligt regeringens uppfattning vore det olyckligt att i den lilla
             gruppen svårt rörelsehindrade elever med rätt till Rh-anpassad
@@ -6378,22 +6392,22 @@
             med annan kompetens, etc.
           </seg>
         </u>
-        <note xml:id="i-VVzx1PXuXKBYaDD6x33G17">
-          Mot denna bakgrund föreslår regeringen att bestämmelserna i 5
-          kap. 28 § skollagen om rätt till Rhanpassad utbildning ändras
-          så att rätten tillkommer svårt rörelsehindrade ungdomar efter
-          avslutad grundutbildning eller motsvarande.
-        </note>
+        <u xml:id="i-ERBRxFKuRjZcVJB1kbMDVE" prev="i-c9ad8d0c97401281-688" next="i-c9ad8d0c97401281-690" who="i-PxnWyEEEJkswzBKdKbv36K">
+          <seg xml:id="i-VVzx1PXuXKBYaDD6x33G17">
+            Mot denna bakgrund föreslår regeringen att bestämmelserna i 5
+            kap. 28 § skollagen om rätt till Rhanpassad utbildning ändras
+            så att rätten tillkommer svårt rörelsehindrade ungdomar efter
+            avslutad grundutbildning eller motsvarande.
+          </seg>
+        </u>
         <note xml:id="i-XGeyibr4Eh1Pyi9LFSM3CN">
           Av förarbetena till bestämmelsen, prop.
         </note>
-        <u xml:id="i-c9ad8d0c97401281-689" prev="i-c9ad8d0c97401281-688" who="i-PxnWyEEEJkswzBKdKbv36K" next="i-c9ad8d0c97401281-690">
-          <seg xml:id="i-A9ggszHGUp4hiVoFRMTm1M">
-            1990/91:85 s. 180, framgår att särskoleutbildning inte kan anses
-            motsvara grundskoleutbildning.
-          </seg>
-        </u>
-        <u xml:id="i-c9ad8d0c97401281-690" prev="i-c9ad8d0c97401281-689" who="i-PxnWyEEEJkswzBKdKbv36K" next="i-c9ad8d0c97401281-691">
+        <note xml:id="i-A9ggszHGUp4hiVoFRMTm1M">
+          1990/91:85 s. 180, framgår att särskoleutbildning inte kan anses
+          motsvara grundskoleutbildning.
+        </note>
+        <u xml:id="i-c9ad8d0c97401281-690" prev="i-ERBRxFKuRjZcVJB1kbMDVE" who="i-PxnWyEEEJkswzBKdKbv36K" next="i-c9ad8d0c97401281-691">
           <seg xml:id="i-8iU5pwNg7YV6q1U89DVn8z">
             Utskottet konstaterar att den Rh-anpassade gymnasieutbildningen
             är avsedd för den mycket begränsade grupp svårt rörelsehindrade
@@ -6402,16 +6416,18 @@
             behov av social omvårdnad och habilitering.
           </seg>
         </u>
-        <u xml:id="i-c9ad8d0c97401281-691" prev="i-c9ad8d0c97401281-690" who="i-PxnWyEEEJkswzBKdKbv36K" next="i-TBThaV5jsZoLJyZF6t1vj">
+        <u xml:id="i-c9ad8d0c97401281-691" prev="i-c9ad8d0c97401281-690" who="i-PxnWyEEEJkswzBKdKbv36K" next="i-QUPzDmDg9WfRgYRs3k7Jws">
           <seg xml:id="i-4Hin7Dk2fBb7jKW669wpZe">
             Utbildningen på de nationella programmen inom denna skolform
             är i realiteten också specialanpassad efter varje elevs förutsättningar.
           </seg>
         </u>
-        <note xml:id="i-7zmAx8GxuSPiKw3d1BbaUC">
-          Utskottet erinrar om bestämmelserna i 10 kap.
-        </note>
-        <u xml:id="i-TBThaV5jsZoLJyZF6t1vj" prev="i-c9ad8d0c97401281-691" who="i-PxnWyEEEJkswzBKdKbv36K" next="i-Tqxgm2p7N7wMDkLATReb3B">
+        <u xml:id="i-QUPzDmDg9WfRgYRs3k7Jws" prev="i-c9ad8d0c97401281-691" next="i-TBThaV5jsZoLJyZF6t1vj" who="i-PxnWyEEEJkswzBKdKbv36K">
+          <seg xml:id="i-7zmAx8GxuSPiKw3d1BbaUC">
+            Utskottet erinrar om bestämmelserna i 10 kap.
+          </seg>
+        </u>
+        <u xml:id="i-TBThaV5jsZoLJyZF6t1vj" prev="i-QUPzDmDg9WfRgYRs3k7Jws" who="i-PxnWyEEEJkswzBKdKbv36K" next="i-Tqxgm2p7N7wMDkLATReb3B">
           <seg xml:id="i-RrV1zT5YdtmvmFCikKhHXQ">
             gymnasieförordningen som inom den Rh-anpassade utbildningen ger
             möjligheter till en jämkning av timplanen och undervisningen enligt
@@ -6682,7 +6698,7 @@
         </note>
       </div>
       <div type="debateSection" xml:id="i-8wC15d5AHMAnxedZfAdams">
-        <note xml:id="i-MairiH6W5fZzuDqJJAPwQs">
+        <note xml:id="i-MairiH6W5fZzuDqJJAPwQs" type="title">
           13 § Vattenrätt m.m.
         </note>
         <note xml:id="i-2UnZYtRKyXarNwxGi6RsKg">
@@ -6827,7 +6843,7 @@
         </note>
       </div>
       <div type="debateSection" xml:id="i-3RjXtSDuHopoKKWwcRFaeF">
-        <note xml:id="i-HyQ4cuF1yoGnTYpQNkkq4">
+        <note xml:id="i-HyQ4cuF1yoGnTYpQNkkq4" type="title">
           14 § Arbetslivspolitik
         </note>
         <note xml:id="i-39oRWkn7s2bnELMBpSXfD2">
@@ -7135,7 +7151,7 @@
             denna försämring.
           </seg>
         </u>
-        <u xml:id="i-c9ad8d0c97401281-760" prev="i-c9ad8d0c97401281-759" who="i-M583eVDoBTdnLPkDa6XLNx" next="i-c9ad8d0c97401281-762">
+        <u xml:id="i-c9ad8d0c97401281-760" prev="i-c9ad8d0c97401281-759" who="i-M583eVDoBTdnLPkDa6XLNx" next="i-Ubz5re4N4ZMyuhjTtHT9oN">
           <seg xml:id="i-GTnCBuo6aWZRdGpMUtbZDY">
             Vi kan alltså konstatera att funktionshindrade över lag har det
             betydligt svårare på arbetsmarknaden än andra grupper i samhället.
@@ -7146,10 +7162,12 @@
             Det är inte minst ur denna aspekt som Folkpartiet förordar att
           </seg>
         </u>
-        <note xml:id="i-Wkh2X8HvjicY3ZL1vXkpG3">
-          Samhall ges möjlighet att anställa ytterligare 1 500
-        </note>
-        <u xml:id="i-c9ad8d0c97401281-762" prev="i-c9ad8d0c97401281-760" who="i-M583eVDoBTdnLPkDa6XLNx" next="i-c9ad8d0c97401281-763">
+        <u xml:id="i-Ubz5re4N4ZMyuhjTtHT9oN" prev="i-c9ad8d0c97401281-760" next="i-c9ad8d0c97401281-762" who="i-M583eVDoBTdnLPkDa6XLNx">
+          <seg xml:id="i-Wkh2X8HvjicY3ZL1vXkpG3">
+            Samhall ges möjlighet att anställa ytterligare 1 500
+          </seg>
+        </u>
+        <u xml:id="i-c9ad8d0c97401281-762" prev="i-Ubz5re4N4ZMyuhjTtHT9oN" who="i-M583eVDoBTdnLPkDa6XLNx" next="i-c9ad8d0c97401281-763">
           <seg xml:id="i-7aUL9ttdF6FDPWVfaXP76K">
             personer. Samhall har visat sig vara ett bra alternativ för de
             psykiskt funktionshindrade. Här kan arbetstempo, arbetsuppgifter
@@ -7177,17 +7195,19 @@
         <note type="speaker" xml:id="i-A1mfzD1evqphLFpLDxj5Cg">
           Anf. 97 INGRID BURMAN (v)
         </note>
-        <u xml:id="i-c9ad8d0c97401281-765" next="i-c9ad8d0c97401281-766" who="i-6nbWfYQYwqJtM2XLoDTFkR">
+        <u xml:id="i-c9ad8d0c97401281-765" next="i-GVfmfjudKbEGBf5DXK5ZX6" who="i-6nbWfYQYwqJtM2XLoDTFkR">
           <seg xml:id="i-C2KskMJE32MuJ34PmqoXxz">
             Herr talman! Antalet förtidspensionärer har ökat kraftigt. De
             utgör i dag över 400 000 personer. Det motsvarar mer än 9 % av
             arbetskraften.
           </seg>
         </u>
-        <note xml:id="i-NfgYQGdrS1nCc4YLodrz3W">
-          Under 1993 förtidspensionerades 62 500 personer.
-        </note>
-        <u xml:id="i-c9ad8d0c97401281-766" prev="i-c9ad8d0c97401281-765" who="i-6nbWfYQYwqJtM2XLoDTFkR" next="i-c9ad8d0c97401281-767">
+        <u xml:id="i-GVfmfjudKbEGBf5DXK5ZX6" prev="i-c9ad8d0c97401281-765" next="i-c9ad8d0c97401281-766" who="i-6nbWfYQYwqJtM2XLoDTFkR">
+          <seg xml:id="i-NfgYQGdrS1nCc4YLodrz3W">
+            Under 1993 förtidspensionerades 62 500 personer.
+          </seg>
+        </u>
+        <u xml:id="i-c9ad8d0c97401281-766" prev="i-GVfmfjudKbEGBf5DXK5ZX6" who="i-6nbWfYQYwqJtM2XLoDTFkR" next="i-c9ad8d0c97401281-767">
           <seg xml:id="i-Mvjsa4qi4c8pAY5rEYRnuc">
             Lägg därtill drygt 150 000 långtidssjukskrivna, som svarar för
             hälften av kostnaderna i sjukförsäkringen eller 15 miljarder kronor
@@ -7941,19 +7961,17 @@
             och på administrationen. Jag är säker på att AMI
           </seg>
         </u>
-        <u xml:id="i-c9ad8d0c97401281-855" prev="i-c9ad8d0c97401281-854" who="i-C3fSSzQDuoh3kKasHW4AKa" next="i-c9ad8d0c97401281-856">
+        <u xml:id="i-c9ad8d0c97401281-855" prev="i-c9ad8d0c97401281-854" who="i-C3fSSzQDuoh3kKasHW4AKa" next="i-c9ad8d0c97401281-857">
           <seg xml:id="i-M775HaMFRtwHZydJP6YvSq">
             också kan bli effektivare i sättet att arbeta. Men naturligtvis
             måste man jobba vidare med en aktiv rehabilitering, för det är
             besparande för både den enskilda personen och samhällsekonomin.
           </seg>
         </u>
-        <u xml:id="i-c9ad8d0c97401281-856" prev="i-c9ad8d0c97401281-855" who="i-C3fSSzQDuoh3kKasHW4AKa" next="i-c9ad8d0c97401281-857">
-          <seg xml:id="i-4TKVnZEHrA42JNmzYvthey">
-            Ingrid Burman nämner också organisationerna.
-          </seg>
-        </u>
-        <u xml:id="i-c9ad8d0c97401281-857" prev="i-c9ad8d0c97401281-856" who="i-C3fSSzQDuoh3kKasHW4AKa">
+        <note xml:id="i-4TKVnZEHrA42JNmzYvthey">
+          Ingrid Burman nämner också organisationerna.
+        </note>
+        <u xml:id="i-c9ad8d0c97401281-857" prev="i-c9ad8d0c97401281-855" who="i-C3fSSzQDuoh3kKasHW4AKa">
           <seg xml:id="i-PpemowDL3e759LGZERhHYG">
             Det är riktigt att det kan bli problem för organisationer. De
             flesta har 90-procentigt lönebidrag i dag, men de är också medvetna
@@ -8100,7 +8118,7 @@
         <note type="speaker" xml:id="i-CittbBqEZJ8Euo2kXbaf8Z">
           Anf. 109 SONJA FRANSSON (s)
         </note>
-        <u xml:id="i-c9ad8d0c97401281-873" next="i-c9ad8d0c97401281-875" who="i-C3fSSzQDuoh3kKasHW4AKa">
+        <u xml:id="i-c9ad8d0c97401281-873" next="i-FnmwJmL5QPAaNQJAtNB2MH" who="i-C3fSSzQDuoh3kKasHW4AKa">
           <seg xml:id="i-Fx4gEykcT4S4UCxZkxkxQC">
             Herr talman! Motivet för att sänka lönebidragsprocenten är naturligtvis
             inte att arbetsförmedlingen inte har skött sitt jobb, utan motivet
@@ -8108,10 +8126,12 @@
             på 400
           </seg>
         </u>
-        <note xml:id="i-UkNE39pvuA9HeDdh9eRpyW">
-          miljoner.
-        </note>
-        <u xml:id="i-c9ad8d0c97401281-875" prev="i-c9ad8d0c97401281-873" who="i-C3fSSzQDuoh3kKasHW4AKa" next="i-c9ad8d0c97401281-876">
+        <u xml:id="i-FnmwJmL5QPAaNQJAtNB2MH" prev="i-c9ad8d0c97401281-873" next="i-c9ad8d0c97401281-875" who="i-C3fSSzQDuoh3kKasHW4AKa">
+          <seg xml:id="i-UkNE39pvuA9HeDdh9eRpyW">
+            miljoner.
+          </seg>
+        </u>
+        <u xml:id="i-c9ad8d0c97401281-875" prev="i-FnmwJmL5QPAaNQJAtNB2MH" who="i-C3fSSzQDuoh3kKasHW4AKa" next="i-c9ad8d0c97401281-876">
           <seg xml:id="i-AvG9fsNb472Hiur1k7xMVz">
             Vad jag sade tidigare är att svårigheten är att staten som är
             en stor arbetsgivare naturligtvis har en så stor tyngd. Där har
@@ -8362,7 +8382,7 @@
             Nya inriktningar har startats. Men den tydliga markeringen att
           </seg>
         </u>
-        <u xml:id="i-c9ad8d0c97401281-905" prev="i-c9ad8d0c97401281-904" who="i-QobwepBp1UESUizVa8aqhL" next="i-c9ad8d0c97401281-907">
+        <u xml:id="i-c9ad8d0c97401281-905" prev="i-c9ad8d0c97401281-904" who="i-QobwepBp1UESUizVa8aqhL" next="i-RmZyvxYoMLkU6ANhyn1rjS">
           <seg xml:id="i-C56hvEx9BsQSGVCbvaghvC">
             Samhalls insatser skall riktas mot prioriterade grupper är viktig.
             Man skall koncentrera sin rekrytering mot personer med svåra handikapp.
@@ -8370,11 +8390,13 @@
             bör ha förutsättningar att uppnås.
           </seg>
         </u>
-        <note xml:id="i-UmsrChnuaSh1Rw2athBAHV">
-          Ökade insatser på området "avknoppning" som presenteras i Hållplats
-          -94, Samhalls resa mot år
-        </note>
-        <u xml:id="i-c9ad8d0c97401281-907" prev="i-c9ad8d0c97401281-905" who="i-QobwepBp1UESUizVa8aqhL">
+        <u xml:id="i-RmZyvxYoMLkU6ANhyn1rjS" prev="i-c9ad8d0c97401281-905" next="i-c9ad8d0c97401281-907" who="i-QobwepBp1UESUizVa8aqhL">
+          <seg xml:id="i-UmsrChnuaSh1Rw2athBAHV">
+            Ökade insatser på området "avknoppning" som presenteras i Hållplats
+            -94, Samhalls resa mot år
+          </seg>
+        </u>
+        <u xml:id="i-c9ad8d0c97401281-907" prev="i-RmZyvxYoMLkU6ANhyn1rjS" who="i-QobwepBp1UESUizVa8aqhL">
           <seg xml:id="i-ExQaUuXa1amgxAZn6DkYqs">
             2000, är ett steg mot en spännande och stimulerande utveckling
             som det finns all anledning för oss att följa upp.
@@ -8584,10 +8606,10 @@
         <note xml:id="i-NzcCKrr72zANLjoSyV19Hn">
           Överläggningen var härmed avslutad.
         </note>
-        <note xml:id="i-21XmpnVt9XdhsrFNdC1myb">
+        <note xml:id="i-21XmpnVt9XdhsrFNdC1myb" type="title">
           Beslut
         </note>
-        <note xml:id="i-Pr1CRiBDdwQ6ehtzHB3dop">
+        <note xml:id="i-Pr1CRiBDdwQ6ehtzHB3dop" type="title">
           KU38 Presstöd m.m.
         </note>
         <note xml:id="i-BJ47F3pexsq1qpK9zoRoRL">
@@ -8648,43 +8670,43 @@
         <note xml:id="i-EHHbHEhsTWqt753Bs7jh4F">
           Kammaren biföll utskottets hemställan.
         </note>
-        <note xml:id="i-G33kAmiJ6gyucAYFvRoUC3">
+        <note xml:id="i-G33kAmiJ6gyucAYFvRoUC3" type="title">
           KU26 Riksdagens förvaltningskontors verksamhetsberättelse
         </note>
         <note xml:id="i-QNmzpaDps4FiS3mUXMAQa4">
           Kammaren biföll utskottets hemställan.
         </note>
-        <note xml:id="i-MfQFm1NLDZyLWSpaUi4NrG">
+        <note xml:id="i-MfQFm1NLDZyLWSpaUi4NrG" type="title">
           KU41 Samhällsinformation
         </note>
         <note xml:id="i-FRia5Kn5afATF1PjtoyHY3">
           Kammaren biföll utskottets hemställan.
         </note>
-        <note xml:id="i-X5rqDfj8UZ7wWXFv8vgwwW">
+        <note xml:id="i-X5rqDfj8UZ7wWXFv8vgwwW" type="title">
           JuU11 Anslag till Svensk författningssamling m.m.
         </note>
         <note xml:id="i-VhPh7f63ZNaMfm5ARe2VGu">
           Kammaren biföll utskottets hemställan.
         </note>
-        <note xml:id="i-9Eoe8K9kXLcugM3AYqhf1G">
+        <note xml:id="i-9Eoe8K9kXLcugM3AYqhf1G" type="title">
           JuU12 Anslag till Justitiekanslern
         </note>
         <note xml:id="i-JM1JwspFR6C1LLBLZjEzQJ">
           Kammaren biföll utskottets hemställan.
         </note>
-        <note xml:id="i-JXGSViKkbeZqntK2dkuZhq">
+        <note xml:id="i-JXGSViKkbeZqntK2dkuZhq" type="title">
           LU19 Anslag på konsumentområdet för budgetåret 1995/96
         </note>
         <note xml:id="i-LLNSyf1LD4wvTdNYPvoix3">
           Kammaren biföll utskottets hemställan.
         </note>
-        <note xml:id="i-FVypu7Vc376BJZKxq23ReY">
+        <note xml:id="i-FVypu7Vc376BJZKxq23ReY" type="title">
           LU21 Anslag till Bokföringsnämnden, m.m.
         </note>
         <note xml:id="i-FDjTv48DLv7ZFk2nPRrp7N">
           Kammaren biföll utskottets hemställan.
         </note>
-        <note xml:id="i-KDSEKS63uh3vHeEnzPEKs3">
+        <note xml:id="i-KDSEKS63uh3vHeEnzPEKs3" type="title">
           KrU14 Idrott
         </note>
         <pb facs="http://data.riksdagen.se/fil/336EBBD3-613A-4613-950D-83CFB7052D8D#page=87"/>
@@ -8821,7 +8843,7 @@
         <note xml:id="i-55s7E68SaFE1znu3hi2vXF">
           Kammaren biföll utskottets hemställan.
         </note>
-        <note xml:id="i-41PZ2KchHTjshuKBvEzqRa">
+        <note xml:id="i-41PZ2KchHTjshuKBvEzqRa" type="title">
           UbU8 Betygssystemet i grundskolan
         </note>
         <note xml:id="i-7hDPmBpHtxpTBke7cRpToU">
@@ -8923,7 +8945,7 @@
         <note xml:id="i-NJSh8AxeAwFzf7ePj2MKyj">
           Kammaren biföll utskottets hemställan.
         </note>
-        <note xml:id="i-3V7am6R9jkco8ghxiyRhea">
+        <note xml:id="i-3V7am6R9jkco8ghxiyRhea" type="title">
           UbU9 Vissa gymnasieskolfrågor
         </note>
         <pb facs="http://data.riksdagen.se/fil/336EBBD3-613A-4613-950D-83CFB7052D8D#page=89"/>
@@ -8973,7 +8995,7 @@
         <note xml:id="i-6HYCykcTPboUBHv3mBtAnv">
           Kammaren biföll utskottets hemställan.
         </note>
-        <note xml:id="i-CXpzhs72NLprwEJKx1UBSE">
+        <note xml:id="i-CXpzhs72NLprwEJKx1UBSE" type="title">
           BoU15 Vattenrätt m.m.
         </note>
         <note xml:id="i-ESm68xdogVAEyg6iAiN1Ct">
@@ -9021,7 +9043,7 @@
         <note xml:id="i-Ki4mzaV5g8zurmXSb9DS2X">
           Kammaren biföll utskottets hemställan.
         </note>
-        <note xml:id="i-EaVs2gsihsDWnDGWngPEmX">
+        <note xml:id="i-EaVs2gsihsDWnDGWngPEmX" type="title">
           AU12 Arbetslivspolitik
         </note>
         <note xml:id="i-CyXVaC2FDf5yjNHjanT1Ki">
@@ -9308,7 +9330,7 @@
         </note>
       </div>
       <div type="commentSection" xml:id="i-Nq9o15iAXVNRLBYHLvcxMp">
-        <note xml:id="i-JFHzaEzQyNpGYA5xVLcQGg">
+        <note xml:id="i-JFHzaEzQyNpGYA5xVLcQGg" type="title">
           15 § Bordläggning
         </note>
         <note xml:id="i-BeJv1QiZahW3LE2QGYACEo">
@@ -9409,7 +9431,7 @@
         </note>
       </div>
       <div type="debateSection" xml:id="i-D2SaLakRvq721rwRqqm524">
-        <note xml:id="i-AsuJRUff5pJpPRc3UUX3mL">
+        <note xml:id="i-AsuJRUff5pJpPRc3UUX3mL" type="title">
           16 § Anmälan om interpellation
         </note>
         <note xml:id="i-Dck52sVY9xXBDEAvrPHbTj">
@@ -9430,7 +9452,7 @@
         </note>
       </div>
       <div type="commentSection" xml:id="i-JrLRhA7KcyTAnaALvVroAD">
-        <note xml:id="i-5s1jSR3FCTgTw6h3KP9JWH">
+        <note xml:id="i-5s1jSR3FCTgTw6h3KP9JWH" type="title">
           17 § Anmälan om frågor
         </note>
         <pb facs="http://data.riksdagen.se/fil/336EBBD3-613A-4613-950D-83CFB7052D8D#page=93"/>
@@ -9448,7 +9470,7 @@
           1994/95:379 av Per-OIa Eriksson (c) till kommunikationsministern
           om ekonomisk redovisning för Öresundsbroprojektet
         </note>
-        <u xml:id="i-TvyMhfChAmLMiTGFvm2rdt" who="i-FaHZVPWVR2eB2WbWdES1dK">
+        <u xml:id="i-TvyMhfChAmLMiTGFvm2rdt" who="unknown">
           <seg xml:id="i-JUh8rrR8rp3uVYpxGuZcuq">
             Frågorna redovisas i bilaga som fogas till riksdagens snabbprotokoll
             tisdagen den 28 mars.
@@ -9456,7 +9478,7 @@
         </u>
       </div>
       <div type="commentSection" xml:id="i-L7R3hPod7Rov3YpoZR1mAp">
-        <note xml:id="i-K9D8QMCPuiQPRDYTvsaUUk">
+        <note xml:id="i-K9D8QMCPuiQPRDYTvsaUUk" type="title">
           18 § Kammaren åtskildes kl. 15.12.
         </note>
         <note xml:id="i-6LoENHCraqByNhSSqchUvn">
