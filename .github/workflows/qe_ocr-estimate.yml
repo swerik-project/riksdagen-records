@@ -486,5 +486,26 @@ jobs:
         branch: ${{ github.ref }}
 
 
+  summarize-decadewize-reults:
+    needs: [decade-1860, decade-1870, decade-1880, decade-1890, decade-1900, decade-1910, decade-1920, decade-1930, decade-1940, decade-1950, decade-1960, decade-1970, decade-1980]
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
 
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyriksdagen
+        pip install torchmetrics
+        pip install nltk
 
+    - name: Summarize results
+      run: |
+        python quality/qe_ocr-estimation.py --read-lev --concat-lev
