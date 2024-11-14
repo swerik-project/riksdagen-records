@@ -6,6 +6,19 @@ on:
       - 'dev'
 
 jobs:
+
+  debug:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - name: print vars
+      run: |
+        echo "ref ${{github.ref}}"
+        echo "head_ref ${{github.head_ref}}"
+        echo "head_ref ${{github.head_ref}}" | sed 's/.*\///'
+
   decade-1860:
     runs-on: ubuntu-latest
     strategy:
