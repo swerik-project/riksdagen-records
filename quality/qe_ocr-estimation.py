@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
-Calculate OCR quality estimates.
+Estimate OCR quality.
+
+.. include:: docs/qe_ocr-estimation.md
 """
 from glob import glob
 from pyriksdagen.args import (
@@ -40,12 +42,12 @@ def pathize_protocol_id(protocol_id):
         if len(spl) == 7:
             suffix = f"-{spl[-1]}"
     path_ = f"data/{py}/{pren}-{nr:0>3}{suffix}.xml"
-    print(path_)
+    #print(path_)
     if os.path.exists(path_):
         return path_
     else:
         path_ = re.sub(f'(h[^-]+st|")', '', path_)
-        print("~~~~", path_)
+    #    print("~~~~", path_)
         if os.path.exists(path_):
             return path_
     raise FileNotFoundError(f"Can't find {path_}")
@@ -188,103 +190,123 @@ def get_most_probable_line(annotated, text):
 
 
 def main(args):
-    # Load student-annotated data
-    wer_fn = WordErrorRate()
-    df = pd.concat(
-            [pd.read_csv(_, sep=';') for _ in glob(f"{args.annotated_data}/*.csv")],
-            ignore_index=True).sort_values(by=["protocol_id", "x"], ignore_index=True)
 
-    df["protocol_id"] = df["protocol_id"].apply(lambda x: pathize_protocol_id(x))
-    print(df)
+    wer_fn = WordErrorRate()
+
+    def _concat_mpl():
+        # Load student-annotated data
+        return pd.concat(
+            [pd.read_csv(_, sep='\t') for _ in glob(f"{args.estimate_path}/lev-by-decade/*.tsv")],
+            ignore_index=True).sort_values(by=["prot"], ignore_index=True)
+
+
 
     if args.read_lev:
-        mpl_df = pd.read_csv(f"{args.estimate_path}/mpl_lev.tsv", sep='\t')
+        mpl_df = _concat_mpl()
     else:
-        rows = []
-        cols = ["prot", "annotation", "NROWS", "NCOLS",
-                "row_to_check", "most_probable_line", "lev"]
-        for i, r in tqdm(df.iterrows(), total=len(df)):
-            print(f"  ~~~~~~~~  {r['protocol_id']}  ~~~~~~~~  ")
-            text = get_text(*get_pb_range(*parse_tei(r["protocol_id"]), r['facs']))
-            most_probable_line, lev = get_most_probable_line(r['content'], text)
+        # Find most probable line and calculate lev distance
+        if args.decade is not None:
+            samples = glob(f"{args.annotated_data}/sample_{args.decade}_annotated.csv")
+        else:
+            samples = glob(f"{args.annotated_data}/*.csv")
+        for sample in samples:
+            decade = sample.split("_")[-2]
+            print("---->", decade)
 
-            print(r['content'])
-            print(most_probable_line)
-            rows.append([r["protocol_id"], r['content'], r["NROWS"], r["NCOLS"], r['row_to_check'], most_probable_line, lev])
+            rows = []
+            cols = ["prot", "annotation", "NROWS", "NCOLS",
+                    "row_to_check", "most_probable_line", "lev"]
+            df = pd.read_csv(sample, sep=';')
+            df["protocol_id"] = df["protocol_id"].apply(lambda x: pathize_protocol_id(x))
+            for i, r in tqdm(df.iterrows(), total=len(df)):
+                print(f"  ~~~~~~~~  {r['protocol_id']}  ~~~~~~~~  ")
+                text = get_text(*get_pb_range(*parse_tei(r["protocol_id"]), r['facs']))
+                most_probable_line, lev = get_most_probable_line(r['content'], text)
 
-        mpl_df = pd.DataFrame(rows, columns=cols)
+                print(r['content'])
+                print(most_probable_line)
+                rows.append([r["protocol_id"], r['content'], r["NROWS"], r["NCOLS"], r['row_to_check'], most_probable_line, lev])
+
+            dec_mpl_df = pd.DataFrame(rows, columns=cols)
+            dec_mpl_df.to_csv(f"{args.estimate_path}/lev-by-decade/{decade}_mpl_lev.tsv", sep='\t', index=False)
+
+
+    if args.concat_lev:
+        if mpl_df is None:
+            mpl_df = _concat_mpl()
         mpl_df.to_csv(f"{args.estimate_path}/mpl_lev.tsv", sep='\t', index=False)
 
-        print("\n\n\nMaking further calculations...\n\n\n")
-    # make further calculations
 
-    mpl_df["year"] = None
-    mpl_df["decade"] = None
-    mpl_df['wer'] = None
-    mpl_df['cer'] = None
-    for i, r in mpl_df.iterrows():
-        year = int(r['prot'].split('/')[1])
-        mpl_df.at[i, 'year'] = year
-        mpl_df.at[i, 'decade'] = (year // 10) * 10
-        if not args.skip_second_search:
-            if r['lev'] > args.lev_threshold:
-                print("a.", r['lev'], r['most_probable_line'])
-                text = get_all_text(*parse_protocol(r['prot'], get_ns=True))
-                most_probable_line, lev = get_most_probable_line(r['annotation'], text)
-                print("b.", lev, most_probable_line)
-                df.at[i, "lev"] = lev
-                df.at[i, "most_probable_line"] = most_probable_line
-        if args.ignore_dash:
-            if r['annotation'].endswith('-'):
-                a = r['annotation'].strip()[:-1]
-                b = r['most_probable_line'].strip()[:-1]
-                mpl_df.at[i, 'annotation'] = a
-                mpl_df.at[i, 'most_probable_line'] = b
-                mpl_df.at[i, 'lev'] = nltk.edit_distance(a.lower(), b.lower())
-        mpl_df.at[i, 'wer'] = float(wer_fn(r['annotation'], r['most_probable_line']))
-        mpl_df.at[i, 'cer'] = r['lev']/len(r['annotation'])
+    if not args.lev_only:
+        # make further calculations
 
-    mpl_df.to_csv(f"{args.estimate_path}/mpl_lev+.tsv", sep='\t', index=False)
+        mpl_df["year"] = None
+        mpl_df["decade"] = None
+        mpl_df['wer'] = None
+        mpl_df['cer'] = None
+        for i, r in mpl_df.iterrows():
+            year = int(r['prot'].split('/')[1])
+            mpl_df.at[i, 'year'] = year
+            mpl_df.at[i, 'decade'] = (year // 10) * 10
+            if not args.skip_second_search:
+                if r['lev'] > args.lev_threshold:
+                    print("a.", r['lev'], r['most_probable_line'])
+                    text = get_all_text(*parse_protocol(r['prot'], get_ns=True))
+                    most_probable_line, lev = get_most_probable_line(r['annotation'], text)
+                    print("b.", lev, most_probable_line)
+                    df.at[i, "lev"] = lev
+                    df.at[i, "most_probable_line"] = most_probable_line
+            if args.ignore_dash:
+                if r['annotation'].endswith('-'):
+                    a = r['annotation'].strip()[:-1]
+                    b = r['most_probable_line'].strip()[:-1]
+                    mpl_df.at[i, 'annotation'] = a
+                    mpl_df.at[i, 'most_probable_line'] = b
+                    mpl_df.at[i, 'lev'] = nltk.edit_distance(a.lower(), b.lower())
+            mpl_df.at[i, 'wer'] = float(wer_fn(r['annotation'], r['most_probable_line']))
+            mpl_df.at[i, 'cer'] = r['lev']/len(r['annotation'])
 
-    print(f'average lev: {np.mean(mpl_df["lev"])}')
-    print(f'quantile 1 lev: {np.quantile(mpl_df["lev"], q=0.25)}')
-    print(f'quantile 3 lev: {np.quantile(mpl_df["lev"], q=0.75)}')
-    print(f'average WER: {np.mean(mpl_df["wer"])}')
-    print(f'quantile 1 WER: {np.quantile(mpl_df["wer"], q=0.25)}')
-    print(f'quantile 3 WER: {np.quantile(mpl_df["wer"], q=0.75)}')
-    print(f'average CER: {np.mean(mpl_df["cer"])}')
-    print(f'quantile 1 CER: {np.quantile(mpl_df["cer"], q=0.25)}')
-    print(f'quantile 3 CER: {np.quantile(mpl_df["cer"], q=0.75)}')
-    print(f'fraction of perfect matches: {len(mpl_df.loc[mpl_df["lev"] == 0])/len(mpl_df)}')
+        mpl_df.to_csv(f"{args.estimate_path}/mpl_lev+.tsv", sep='\t', index=False)
+
+        print(f'average lev: {np.mean(mpl_df["lev"])}')
+        print(f'quantile 1 lev: {np.quantile(mpl_df["lev"], q=0.25)}')
+        print(f'quantile 3 lev: {np.quantile(mpl_df["lev"], q=0.75)}')
+        print(f'average WER: {np.mean(mpl_df["wer"])}')
+        print(f'quantile 1 WER: {np.quantile(mpl_df["wer"], q=0.25)}')
+        print(f'quantile 3 WER: {np.quantile(mpl_df["wer"], q=0.75)}')
+        print(f'average CER: {np.mean(mpl_df["cer"])}')
+        print(f'quantile 1 CER: {np.quantile(mpl_df["cer"], q=0.25)}')
+        print(f'quantile 3 CER: {np.quantile(mpl_df["cer"], q=0.75)}')
+        print(f'fraction of perfect matches: {len(mpl_df.loc[mpl_df["lev"] == 0])/len(mpl_df)}')
 
 
-    #generate summary matricies
-    print("\n\n\nSummarizing...\n\n\n")
+        #generate summary matricies
+        print("\n\n\nSummarizing...\n\n\n")
 
-    rows = []
-    decades = mpl_df['decade'].unique()
-    for dec in decades:
-        dec_df = mpl_df.loc[mpl_df['decade'] == dec].copy()
-        rows.append([dec,
-                     np.mean(dec_df['lev']),
-                     np.quantile(dec_df["lev"], q=0.25),
-                     np.quantile(dec_df["lev"], q=0.75),
-                     np.mean(dec_df['wer']),
-                     np.quantile(dec_df["wer"], q=0.25),
-                     np.quantile(dec_df["wer"], q=0.75),
-                     np.mean(dec_df['cer']),
-                     np.quantile(dec_df["cer"], q=0.25),
-                     np.quantile(dec_df["cer"], q=0.75),
-                     len(dec_df.loc[dec_df['lev'] == 0])/ len(dec_df)
-                     ])
+        rows = []
+        decades = mpl_df['decade'].unique()
+        for dec in decades:
+            dec_df = mpl_df.loc[mpl_df['decade'] == dec].copy()
+            rows.append([dec,
+                        np.mean(dec_df['lev']),
+                        np.quantile(dec_df["lev"], q=0.25),
+                        np.quantile(dec_df["lev"], q=0.75),
+                        np.mean(dec_df['wer']),
+                        np.quantile(dec_df["wer"], q=0.25),
+                        np.quantile(dec_df["wer"], q=0.75),
+                        np.mean(dec_df['cer']),
+                        np.quantile(dec_df["cer"], q=0.25),
+                        np.quantile(dec_df["cer"], q=0.75),
+                        len(dec_df.loc[dec_df['lev'] == 0])/ len(dec_df)
+                        ])
 
-    summary = pd.DataFrame(rows, columns = ["decade",
-                                            "lev_mean", "lev_first_q", "lev_third_q",
-                                            "wer_mean", "wer_first_q", "wer_third_q",
-                                            "cer_mean", "cer_first_q", "cer_third_q",
-                                            "perfect_match"])
-    print(summary)
-    summary.to_csv(f"{args.estimate_path}/metrics.csv", index=False)
+        summary = pd.DataFrame(rows, columns = ["decade",
+                                                "lev_mean", "lev_first_q", "lev_third_q",
+                                                "wer_mean", "wer_first_q", "wer_third_q",
+                                                "cer_mean", "cer_first_q", "cer_third_q",
+                                                "perfect_match"])
+        print(summary)
+        summary.to_csv(f"{args.estimate_path}/metrics.csv", index=False)
 
 
 
@@ -295,6 +317,10 @@ if __name__ == '__main__':
                         type=str,
                         default="quality/data/ocr-estimation",
                         help="Path to annotated ocr quality-control data")
+    parser.add_argument("-D", "--decade",
+                        type=str,
+                        default=None,
+                        help="Calculate single decade")
     parser.add_argument("-o", "--estimate-path",
                         type=str,
                         default="quality/estimates/ocr-estimation",
@@ -302,11 +328,16 @@ if __name__ == '__main__':
     parser.add_argument("--read-lev",
                         action='store_true',
                         help="read most probable line and levenshtein distance from a file.")
+    parser.add_argument("--lev-only",
+                        action='store_true',
+                        help="Only calculate levenstein distances")
+    parser.add_argument("--concat-lev",
+                        action='store_true',
+                        help="save concatenated levenstein distances")
     parser.add_argument("--skip-second-search", type=bool, default=True,
                         help="skip looking for line again when lev > lev-threshold")
     parser.add_argument("--ignore-dash",
                         action='store_true',
                         help="Recalculate dev w/out line-final dash")
     args = impute_args(parser.parse_args())
-    # kick args.records items that aren't in the dataframe?
     main(args)
