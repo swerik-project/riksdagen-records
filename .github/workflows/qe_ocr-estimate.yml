@@ -35,7 +35,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1860*
         git commit -m "chore (workflow): find MPL and calculate lev for 1860s"
-        git pull origin ${{ github.head_ref }}
+        git pull --ff origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -73,7 +73,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1870*
         git commit -m "chore (workflow): find MPL and calculate lev for 1870s"
-        git pull origin ${{ github.head_ref }}
+        git pull --ff origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -111,7 +111,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1880*
         git commit -m "chore (workflow): find MPL and calculate lev for 1880s"
-        git pull origin ${{ github.head_ref }}
+        git pull --ff origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -149,7 +149,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1890*
         git commit -m "chore (workflow): find MPL and calculate lev for 1890s"
-        git pull origin ${{ github.head_ref }}
+        git pull --ff origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -187,7 +187,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1900*
         git commit -m "chore (workflow): find MPL and calculate lev for 1900s"
-        git pull origin ${{ github.head_ref }}
+        git pull --ff origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -224,7 +224,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1910*
         git commit -m "chore (workflow): find MPL and calculate lev for 1910s"
-        git pull origin ${{ github.head_ref }}
+        git pull --ff origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -262,7 +262,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1920*
         git commit -m "chore (workflow): find MPL and calculate lev for 1920s"
-        git pull origin ${{ github.head_ref }}
+        git pull --ff origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -300,7 +300,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1930*
         git commit -m "chore (workflow): find MPL and calculate lev for 1930s"
-        git pull origin ${{ github.head_ref }}
+        git pull --ff origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -338,7 +338,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1940*
         git commit -m "chore (workflow): find MPL and calculate lev for 1940s"
-        git pull origin ${{ github.head_ref }}
+        git pull --ff origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -376,7 +376,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1950*
         git commit -m "chore (workflow): find MPL and calculate lev for 1950"
-        git pull origin ${{ github.head_ref }}
+        git pull --ff origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -414,7 +414,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1960*
         git commit -m "chore (workflow): find MPL and calculate lev for 1960s"
-        git pull origin ${{ github.head_ref }}
+        git pull --ff origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -452,7 +452,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1970*
         git commit -m "chore (workflow): find MPL and calculate lev for 1970s"
-        git pull origin ${{ github.head_ref }}
+        git pull --ff origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -490,7 +490,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1980*
         git commit -m "chore (workflow): find MPL and calculate lev for 1980s"
-        git pull origin ${{ github.head_ref }}
+        git pull --ff origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
