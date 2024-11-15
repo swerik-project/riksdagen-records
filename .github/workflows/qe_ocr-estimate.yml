@@ -473,7 +473,7 @@ jobs:
         pip install nltk
 
     - name: Download artifacts from decade jobs
-      uses: actions/download-artifacts@v4
+      uses: actions/download-artifact@v4
       with:
         path: quality/estimates/ocr-estimation/lev-by-decade
         merge-multiple: true
