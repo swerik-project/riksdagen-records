@@ -2,7 +2,7 @@
 """
 Estimate accuracy of speaker-speech mapping based on a manually annotated sample.
 
-.. include:: docs/qe__speaker-mapping.md
+.. include:: docs/qe_speaker-mapping.md
 """
 from pyriksdagen.args import (
     fetch_parser,

@@ -1,4 +1,4 @@
-# Speaker mapping error
+# Speaker Mapping Accuracy
 
 ## Summary
 
@@ -33,4 +33,6 @@ The annotator should try and find a matching person in the SWERIK person catalog
 If it is impossible to find the person, add 'unknown' in the speaker column for that introduction.
 
 
+## The code
 
+The code for speaker-mapping accuracy estimation is a script that runs through several functions.
