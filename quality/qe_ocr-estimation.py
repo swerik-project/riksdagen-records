@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Estimate OCR quality.
+Estimate OCR quality based on a manually annotated sample.
 
 .. include:: docs/qe_ocr-estimation.md
 """
