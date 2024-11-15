@@ -1,6 +1,9 @@
 name: "Riksdagen Records: data integrity tests"
 
-on: [push]
+on:
+  push:
+    paths:
+      - data/
 
 jobs:
   schemas:
