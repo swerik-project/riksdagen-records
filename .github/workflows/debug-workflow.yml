@@ -20,7 +20,7 @@ jobs:
 
     - name: ls after checkout
       run: |
-      ls -la
+        ls -la
 
 
   job-a:
@@ -36,7 +36,8 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: touch a file
-      run: touch a.txt
+      run: |
+        touch a.txt
 
   job-b:
     needs: [ls-job-1]
@@ -51,7 +52,8 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: touch a file
-      run: touch b.txt
+      run: |
+        touch b.txt
 
   job-c:
     needs: [ls-job-1]
@@ -66,7 +68,8 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: touch a file
-      run: touch c.txt
+      run: |
+        touch c.txt
 
   ls-job-2:
     needs: [job-a, job-b, job-c]
@@ -81,4 +84,5 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: ls after checkout
-      run: ls -la
+      run: |
+        ls -la
