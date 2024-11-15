@@ -12,7 +12,11 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout PR source branch
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
@@ -35,7 +39,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1860*
         git commit -m "chore (workflow): find MPL and calculate lev for 1860s"
-        git pull --ff origin ${{ github.head_ref }}
+        git pull origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -50,7 +54,11 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout PR source branch
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
@@ -73,7 +81,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1870*
         git commit -m "chore (workflow): find MPL and calculate lev for 1870s"
-        git pull --ff origin ${{ github.head_ref }}
+        git pull origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -88,7 +96,11 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout PR source branch
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
@@ -111,7 +123,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1880*
         git commit -m "chore (workflow): find MPL and calculate lev for 1880s"
-        git pull --ff origin ${{ github.head_ref }}
+        git pull origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -126,7 +138,11 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout PR source branch
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
@@ -149,7 +165,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1890*
         git commit -m "chore (workflow): find MPL and calculate lev for 1890s"
-        git pull --ff origin ${{ github.head_ref }}
+        git pull origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -164,7 +180,11 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout PR source branch
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
@@ -187,7 +207,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1900*
         git commit -m "chore (workflow): find MPL and calculate lev for 1900s"
-        git pull --ff origin ${{ github.head_ref }}
+        git pull origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -201,7 +221,11 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout PR source branch
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
@@ -224,7 +248,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1910*
         git commit -m "chore (workflow): find MPL and calculate lev for 1910s"
-        git pull --ff origin ${{ github.head_ref }}
+        git pull origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -239,7 +263,11 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout PR source branch
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
@@ -262,7 +290,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1920*
         git commit -m "chore (workflow): find MPL and calculate lev for 1920s"
-        git pull --ff origin ${{ github.head_ref }}
+        git pull origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -277,7 +305,11 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout PR source branch
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
@@ -300,7 +332,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1930*
         git commit -m "chore (workflow): find MPL and calculate lev for 1930s"
-        git pull --ff origin ${{ github.head_ref }}
+        git pull origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -315,7 +347,11 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout PR source branch
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
@@ -338,7 +374,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1940*
         git commit -m "chore (workflow): find MPL and calculate lev for 1940s"
-        git pull --ff origin ${{ github.head_ref }}
+        git pull origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -353,7 +389,11 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout PR source branch
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
@@ -376,7 +416,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1950*
         git commit -m "chore (workflow): find MPL and calculate lev for 1950"
-        git pull --ff origin ${{ github.head_ref }}
+        git pull origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -391,7 +431,11 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout PR source branch
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
@@ -414,7 +458,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1960*
         git commit -m "chore (workflow): find MPL and calculate lev for 1960s"
-        git pull --ff origin ${{ github.head_ref }}
+        git pull origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -429,7 +473,11 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout PR source branch
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
@@ -452,7 +500,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1970*
         git commit -m "chore (workflow): find MPL and calculate lev for 1970s"
-        git pull --ff origin ${{ github.head_ref }}
+        git pull origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -467,7 +515,11 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout PR source branch
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
@@ -490,7 +542,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation/lev-by-decade/1980*
         git commit -m "chore (workflow): find MPL and calculate lev for 1980s"
-        git pull --ff origin ${{ github.head_ref }}
+        git pull origin ${{ github.head_ref }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -506,7 +558,11 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout PR source branch
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
