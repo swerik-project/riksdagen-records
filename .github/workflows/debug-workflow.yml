@@ -1,0 +1,46 @@
+name: "Debug workflow"
+
+on:
+  pull_request:
+    branches:
+      - 'dev'
+
+jobs:
+  ls-job-1:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: ls after checkout
+    - run: ls -la
+
+  job-a:
+    needs: [ls-job-1]
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: touch a file
+    - run: touch a.txt
+
+  job-b:
+    needs: [ls-job-1]
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: touch a file
+    - run: touch b.txt
+
+  job-c:
+    needs: [ls-job-1]
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: touch a file
+    - run: touch c.txt
+
+  ls-job-2:
+    needs: [job-a, job-b, job-c]
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: ls after checkout
+    - run: ls -la
