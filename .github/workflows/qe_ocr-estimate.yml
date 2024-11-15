@@ -33,19 +33,11 @@ jobs:
       run: |
         python quality/qe_ocr-estimation.py -D 1860 --lev-only
 
-    - name: Add and commit changes
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add quality/estimates/ocr-estimation/lev-by-decade/1860*
-        git commit -m "chore (workflow): find MPL and calculate lev for 1860s"
-        git pull --no-rebase origin ${{ github.head_ref }}
-
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+    - name: Cache result 1860s
+      uses: actions/upload-artifact@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
+        name: lev_1860
+        path: quality/estimates/ocr-estimation/lev-by-decade/1860_mpl_lev.tsv
 
 
   decade-1870:
@@ -71,23 +63,11 @@ jobs:
         pip install torchmetrics
         pip install nltk
 
-    - name: Estimate OCR Quality
-      run: |
-        python quality/qe_ocr-estimation.py -D 1870 --lev-only
-
-    - name: Add and commit changes
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add quality/estimates/ocr-estimation/lev-by-decade/1870*
-        git commit -m "chore (workflow): find MPL and calculate lev for 1870s"
-        git pull --no-rebase origin ${{ github.head_ref }}
-
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+    - name: Cache result 1870s
+      uses: actions/upload-artifact@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
+        name: lev_1870
+        path: quality/estimates/ocr-estimation/lev-by-decade/1870_mpl_lev.tsv
 
 
   decade-1880:
@@ -117,19 +97,11 @@ jobs:
       run: |
         python quality/qe_ocr-estimation.py -D 1880 --lev-only
 
-    - name: Add and commit changes
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add quality/estimates/ocr-estimation/lev-by-decade/1880*
-        git commit -m "chore (workflow): find MPL and calculate lev for 1880s"
-        git pull --no-rebase origin ${{ github.head_ref }}
-
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+    - name: Cache result 1880s
+      uses: actions/upload-artifact@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
+        name: lev_1880
+        path: quality/estimates/ocr-estimation/lev-by-decade/1880_mpl_lev.tsv
 
 
   decade-1890:
@@ -159,19 +131,11 @@ jobs:
       run: |
         python quality/qe_ocr-estimation.py -D 1890 --lev-only
 
-    - name: Add and commit changes
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add quality/estimates/ocr-estimation/lev-by-decade/1890*
-        git commit -m "chore (workflow): find MPL and calculate lev for 1890s"
-        git pull --no-rebase origin ${{ github.head_ref }}
-
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+    - name: Cache result 1880s
+      uses: actions/upload-artifact@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
+        name: lev_1890
+        path: quality/estimates/ocr-estimation/lev-by-decade/1890_mpl_lev.tsv
 
 
   decade-1900:
@@ -201,19 +165,12 @@ jobs:
       run: |
         python quality/qe_ocr-estimation.py -D 1900 --lev-only
 
-    - name: Add and commit changes
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add quality/estimates/ocr-estimation/lev-by-decade/1900*
-        git commit -m "chore (workflow): find MPL and calculate lev for 1900s"
-        git pull --no-rebase origin ${{ github.head_ref }}
-
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+    - name: Cache result 1900s
+      uses: actions/upload-artifact@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
+        name: lev_1900
+        path: quality/estimates/ocr-estimation/lev-by-decade/1900_mpl_lev.tsv
+
 
   decade-1910:
     runs-on: ubuntu-latest
@@ -242,19 +199,11 @@ jobs:
       run: |
         python quality/qe_ocr-estimation.py -D 1910 --lev-only
 
-    - name: Add and commit changes
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add quality/estimates/ocr-estimation/lev-by-decade/1910*
-        git commit -m "chore (workflow): find MPL and calculate lev for 1910s"
-        git pull --no-rebase origin ${{ github.head_ref }}
-
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+    - name: Cache result 1910s
+      uses: actions/upload-artifact@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
+        name: lev_1910
+        path: quality/estimates/ocr-estimation/lev-by-decade/1910_mpl_lev.tsv
 
 
   decade-1920:
@@ -284,19 +233,11 @@ jobs:
       run: |
         python quality/qe_ocr-estimation.py -D 1920 --lev-only
 
-    - name: Add and commit changes
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add quality/estimates/ocr-estimation/lev-by-decade/1920*
-        git commit -m "chore (workflow): find MPL and calculate lev for 1920s"
-        git pull --no-rebase origin ${{ github.head_ref }}
-
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+    - name: Cache result 1920s
+      uses: actions/upload-artifact@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
+        name: lev_1920
+        path: quality/estimates/ocr-estimation/lev-by-decade/1920_mpl_lev.tsv
 
 
   decade-1930:
@@ -326,19 +267,11 @@ jobs:
       run: |
         python quality/qe_ocr-estimation.py -D 1930 --lev-only
 
-    - name: Add and commit changes
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add quality/estimates/ocr-estimation/lev-by-decade/1930*
-        git commit -m "chore (workflow): find MPL and calculate lev for 1930s"
-        git pull --no-rebase origin ${{ github.head_ref }}
-
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+    - name: Cache result 1930s
+      uses: actions/upload-artifact@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
+        name: lev_1930
+        path: quality/estimates/ocr-estimation/lev-by-decade/1930_mpl_lev.tsv
 
 
   decade-1940:
@@ -368,19 +301,11 @@ jobs:
       run: |
         python quality/qe_ocr-estimation.py -D 1940 --lev-only
 
-    - name: Add and commit changes
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add quality/estimates/ocr-estimation/lev-by-decade/1940*
-        git commit -m "chore (workflow): find MPL and calculate lev for 1940s"
-        git pull --no-rebase origin ${{ github.head_ref }}
-
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+    - name: Cache result 1940s
+      uses: actions/upload-artifact@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
+        name: lev_1940
+        path: quality/estimates/ocr-estimation/lev-by-decade/1940_mpl_lev.tsv
 
 
   decade-1950:
@@ -410,19 +335,11 @@ jobs:
       run: |
         python quality/qe_ocr-estimation.py -D 1950 --lev-only
 
-    - name: Add and commit changes
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add quality/estimates/ocr-estimation/lev-by-decade/1950*
-        git commit -m "chore (workflow): find MPL and calculate lev for 1950"
-        git pull --no-rebase origin ${{ github.head_ref }}
-
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+    - name: Cache result 1950s
+      uses: actions/upload-artifact@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
+        name: lev_1950
+        path: quality/estimates/ocr-estimation/lev-by-decade/1950_mpl_lev.tsv
 
 
   decade-1960:
@@ -452,19 +369,11 @@ jobs:
       run: |
         python quality/qe_ocr-estimation.py -D 1960 --lev-only
 
-    - name: Add and commit changes
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add quality/estimates/ocr-estimation/lev-by-decade/1960*
-        git commit -m "chore (workflow): find MPL and calculate lev for 1960s"
-        git pull --no-rebase origin ${{ github.head_ref }}
-
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+    - name: Cache result 1960s
+      uses: actions/upload-artifact@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
+        name: lev_1960
+        path: quality/estimates/ocr-estimation/lev-by-decade/1960_mpl_lev.tsv
 
 
   decade-1970:
@@ -494,19 +403,11 @@ jobs:
       run: |
         python quality/qe_ocr-estimation.py -D 1970 --lev-only
 
-    - name: Add and commit changes
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add quality/estimates/ocr-estimation/lev-by-decade/1970*
-        git commit -m "chore (workflow): find MPL and calculate lev for 1970s"
-        git pull --no-rebase origin ${{ github.head_ref }}
-
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+    - name: Cache result 1970s
+      uses: actions/upload-artifact@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
+        name: lev_1970
+        path: quality/estimates/ocr-estimation/lev-by-decade/1970_mpl_lev.tsv
 
 
   decade-1980:
@@ -536,19 +437,11 @@ jobs:
       run: |
         python quality/qe_ocr-estimation.py -D 1980 --lev-only
 
-    - name: Add and commit changes
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add quality/estimates/ocr-estimation/lev-by-decade/1980*
-        git commit -m "chore (workflow): find MPL and calculate lev for 1980s"
-        git pull --no-rebase origin ${{ github.head_ref }}
-
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+    - name: Cache result 1980s
+      uses: actions/upload-artifact@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
+        name: lev_1980
+        path: quality/estimates/ocr-estimation/lev-by-decade/1980_mpl_lev.tsv
 
 
   summarize-decadewize-reults:
@@ -575,6 +468,26 @@ jobs:
         pip install torchmetrics
         pip install nltk
 
+    - name: Download artifacts from decade jobs
+      uses: actions/download-artifacts@v4
+      with:
+        path: quality/estimates/ocr-estimation/lev-by-decade
+        merge-multiple: true
+
     - name: Summarize results
       run: |
         python quality/qe_ocr-estimation.py --read-lev --concat-lev
+
+    - name: Add and commit changes
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add quality/estimates/ocr-estimation
+        git commit -m "chore (workflow): run OCR quality estimation"
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.head_ref }}
+
