@@ -63,6 +63,10 @@ jobs:
         pip install torchmetrics
         pip install nltk
 
+    - name: Estimate OCR Quality
+      run: |
+        python quality/qe_ocr-estimation.py -D 1880 --lev-only
+
     - name: Cache result 1870s
       uses: actions/upload-artifact@v4
       with:
