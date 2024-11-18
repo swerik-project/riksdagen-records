@@ -12,6 +12,7 @@ from pyriksdagen.utils import (
     elem_iter,
     infer_metadata,
     parse_tei,
+#    pathize_protocol_id,  # to appear in next version of pyriksdagen
 )
 from scipy.stats import beta
 from tqdm import tqdm
@@ -21,7 +22,7 @@ import re
 
 
 
-
+# rm after fn released in pyriksdagen
 def pathize_protocol_id(protocol_id):
     """
     Turn the protocol id into a path string
@@ -94,8 +95,8 @@ def main(args):
     for record in tqdm(records):
         df_p = df[df["protocol_id"] == record]
         if len(df_p) >= 1:
-            acc = estimate_accuracy(record, df_p)
             metadata=infer_metadata(record)
+            acc = estimate_accuracy(record, df_p)
             correct += acc[0]
             incorrect += acc[1]
             if acc[1] + acc[0] > 0:
