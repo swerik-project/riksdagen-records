@@ -28,7 +28,7 @@ jobs:
 
     - name: Estimate Mapping Accuracy
       run: |
-        python quality/qe_segmentation-classification.py
+        python quality/qe_segment-classification.py
 
     - name: Add and commit changes
       run: |
