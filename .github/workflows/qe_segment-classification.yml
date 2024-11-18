@@ -34,7 +34,7 @@ jobs:
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add quality/estimates/speaker-mapping
+        git add quality/estimates/segment-classification
         git commit -m "chore (workflow): run segment classification estimation"
 
     - name: Push changes
