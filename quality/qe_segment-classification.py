@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Estimate accuracy of speaker-speech mapping based on a manually annotated sample.
+Estimate quality of segment classification.
 
 .. include:: docs/qe_speaker-mapping.md
 """
@@ -12,13 +12,14 @@ from pyriksdagen.utils import (
     elem_iter,
     infer_metadata,
     parse_tei,
-#    pathize_protocol_id,  # to appear in next version of pyriksdagen
+#    pathize_protocol_id,
 )
 from scipy.stats import beta
 from tqdm import tqdm
 import os
 import pandas as pd
 import re
+
 
 
 
@@ -51,39 +52,63 @@ def pathize_protocol_id(protocol_id):
     raise FileNotFoundError(f"Can't find {path_}")
 
 
+def match_elem(elem, df, ns):
+    """
+    Check if annotated tag matches tag in protocol.
+    """
+    elem_id = elem.attrib.get(f'{ns["xml_ns"]}id', None)
+    df_elem = df[df["elem_id"] == elem_id]
+    assert len(df_elem) == 1
+
+    annotated_tag = list(df_elem["segmentation"])[0]
+
+    elem_tag = elem.tag.split("}")[-1]
+    if elem_tag == "seg":
+        elem_tag = "u"
+    if elem.attrib.get("type") == "speaker":
+        elem_tag = "intro"
+    if annotated_tag in ["title", "margin"]:
+        annotated_tag = "note"
+
+    if type(annotated_tag) == float or annotated_tag not in ["intro", "u", "note"]:
+        print("Invalid annotation:", annotated_tag)
+        return 0,0
+
+    if annotated_tag == elem_tag:
+        return 1,0
+    else:
+        print("Error:", annotated_tag, elem_tag)
+        return 0,1
+
+
+# Fix parallellization
 def estimate_accuracy(protocol, df):
     """
-    Count correct and incorrect who attribs according to the gold standard.
+    Return correct / incorrect counts of (mis)matched segments.
     """
     root, ns = parse_tei(protocol)
-
-    actual_swerik_id = None
-    found_correct_element=False
     correct, incorrect = 0, 0
     ids = set(df["elem_id"])
-
     for tag, elem in elem_iter(root):
-        if found_correct_element and 'who' in elem.attrib:
-            predicted_swerik_id = elem.attrib.get('who', None)  ## change to Swerik ID
+        if tag == "u":
+            x = None
+            for subelem in elem:
+                x = subelem.attrib.get(f'{ns["xml_ns"]}id', None)
+                if x in ids:
+                    subelem_text = " ".join(subelem.text.split())
+                    results = match_elem(subelem, df, ns)
+                    correct += results[0]
+                    incorrect += results[1]
 
-            if predicted_swerik_id==actual_swerik_id:
-                correct+=1
-            else:
-                incorrect+=1
-                if predicted_swerik_id != "unknown":
-                    print(predicted_swerik_id, actual_swerik_id)
-            #reset boolean
-            found_correct_element=False
-
-        if tag == "note" and found_correct_element==False:
+        elif tag in ["note"]:
             x = elem.attrib.get(f'{ns["xml_ns"]}id', None)
             if x in ids:
-                actual_swerik_id = df[df["elem_id"] == x]["person_id"].iloc[0]
-                found_correct_element=True
+                elem_text = " ".join(elem.text.split())
+                results = match_elem(elem, df, ns)
+                correct += results[0]
+                incorrect += results[1]
 
     return correct, incorrect
-
-
 
 
 def main(args):
@@ -95,7 +120,7 @@ def main(args):
     for record in tqdm(records):
         df_p = df[df["protocol_id"] == record]
         if len(df_p) >= 1:
-            metadata=infer_metadata(record)
+            metadata = infer_metadata(record)
             acc = estimate_accuracy(record, df_p)
             correct += acc[0]
             incorrect += acc[1]
@@ -107,10 +132,13 @@ def main(args):
     lower = beta.ppf(0.05, correct + 1, incorrect + 1)
     upper = beta.ppf(0.95, correct + 1, incorrect + 1)
     print(f"ACC: {100 * accuracy:.2f}% [{100* lower:.2f}% – {100* upper:.2f}%]")
+
+    print(correct, incorrect)
+
     df = pd.DataFrame(rows, columns=["correct", "incorrect", "accuracy", "year", "chamber"])
     df["decade"] = (df["year"] // 10) * 10
     print(df)
-    df.to_csv(f"{args.estimate_path}/mapping-accuracy-estimate.csv", index=False)
+    df.to_csv(f"{args.estimate_path}/segment-classification-estimate.csv", index=False)
 
     byyear_sum = df[["correct", "incorrect"]].groupby(df['decade']).sum()
     byyear_sum["lower"] = [beta.ppf(0.05, c + 1, i + 1) for c, i in zip(byyear_sum["correct"], byyear_sum["incorrect"])]
@@ -118,7 +146,7 @@ def main(args):
     byyear = df['accuracy'].groupby(df['decade'])
     byyear_sum = byyear_sum.merge(byyear.mean(), on="decade").reset_index()
     print(byyear_sum)
-    byyear_sum.to_csv(f"{args.estimate_path}/mapping-accuracy-estimate-byyear-sum.csv", index=False)
+    byyear_sum.to_csv(f"{args.estimate_path}/segment-classification-estimate-byyear-sum.csv", index=False)
 
 
 
@@ -127,10 +155,10 @@ if __name__ == '__main__':
     parser = fetch_parser("records", docstring=__doc__)
     parser.add_argument("-d", "--annotated-data",
                         type=str,
-                        default="quality/data/speaker-mapping/speaker-mapping-gold-standard.csv",
-                        help="Path to annotated ocr quality-control data")
+                        default="quality/data/segment-classification/segment-classification.csv",
+                        help="Path to annotated segment classification quality-control data")
     parser.add_argument("-o", "--estimate-path",
                         type=str,
-                        default="quality/estimates/speaker-mapping",
+                        default="quality/estimates/segment-classification",
                         help="Path where the current estimate will be written")
     main(impute_args(parser.parse_args()))

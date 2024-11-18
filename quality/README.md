@@ -9,6 +9,9 @@ This directory contains code and data related to estimating the quality of the R
 Python code used to estimate various quality dimensions.
 
 - `qe_ocr-estimation.py` : Estimates OCR quality
+- `qe_segment-classification.py` : Estimates segment classification quality
+- `qe_speaker-mapping.py` : Estimates quality of speeh-speaker mapping
+
 
 Support files
 

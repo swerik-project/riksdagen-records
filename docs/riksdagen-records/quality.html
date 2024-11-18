@@ -35,6 +35,7 @@
     <li><a href="#individual-quality-estimates">Individual Quality Estimates</a></li>
     <li><a href="#-2"> </a></li>
     <li><a href="#-3"> </a></li>
+    <li><a href="#-4"> </a></li>
   </ul></li>
 </ul>
 
@@ -42,6 +43,7 @@
             <h2>Submodules</h2>
             <ul>
                     <li><a href="quality/qe_ocr-estimation.html">qe_ocr-estimation</a></li>
+                    <li><a href="quality/qe_segment-classification.html">qe_segment-classification</a></li>
                     <li><a href="quality/qe_speaker-mapping.html">qe_speaker-mapping</a></li>
             </ul>
 
@@ -72,6 +74,8 @@
 
 <ul>
 <li><code>qe_ocr-estimation.py</code> : Estimates OCR quality</li>
+<li><code>qe_segment-classification.py</code> : Estimates segment classification quality</li>
+<li><code>qe_speaker-mapping.py</code> : Estimates quality of speeh-speaker mapping</li>
 </ul>
 
 <p>Support files</p>
@@ -101,11 +105,17 @@
 
 <h2 id="-2"> </h2>
 
+<h3 id="segment-classification-accuracu-qe_segment-classificationpy">Segment Classification Accuracu -- <code>qe_segment-classification.py</code></h3>
+
+<p>Each segment in the protocols belongs, according to the Parla-Clarin schema, to one type of text. This dimension estimate the proportion of correctly classified text segment.</p>
+
+<h2 id="-3"> </h2>
+
 <h3 id="speaker-mapping-accuracy-qe_speaker-mappingpy">Speaker Mapping Accuracy -- <code>qe_speaker-mapping.py</code></h3>
 
 <p>Each speech in the parliament is mapped to a member of parliament, and each speech is introduced in an introduction segment. We are interested in knowing the quality of the mapping between the speech and the true member of parliament.</p>
 
-<h2 id="-3"> </h2>
+<h2 id="-4"> </h2>
 </div>
 
                         <input id="mod-quality-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
@@ -123,14 +133,22 @@
 </span><span id="L-9"><a href="#L-9"><span class="linenos"> 9</span></a><span class="sd">    :start-after: Summary</span>
 </span><span id="L-10"><a href="#L-10"><span class="linenos">10</span></a><span class="sd">    :end-before: What is the problem</span>
 </span><span id="L-11"><a href="#L-11"><span class="linenos">11</span></a>
-</span><span id="L-12"><a href="#L-12"><span class="linenos">12</span></a><span class="sd">### Speaker Mapping Accuracy -- `qe_speaker-mapping.py`</span>
-</span><span id="L-13"><a href="#L-13"><span class="linenos">13</span></a>
-</span><span id="L-14"><a href="#L-14"><span class="linenos">14</span></a><span class="sd">.. include:: docs/qe_speaker-mapping.md</span>
-</span><span id="L-15"><a href="#L-15"><span class="linenos">15</span></a><span class="sd">    :start-after: Summary</span>
-</span><span id="L-16"><a href="#L-16"><span class="linenos">16</span></a><span class="sd">    :end-before: What is the problem</span>
-</span><span id="L-17"><a href="#L-17"><span class="linenos">17</span></a>
+</span><span id="L-12"><a href="#L-12"><span class="linenos">12</span></a>
+</span><span id="L-13"><a href="#L-13"><span class="linenos">13</span></a><span class="sd">### Segment Classification Accuracu -- `qe_segment-classification.py`</span>
+</span><span id="L-14"><a href="#L-14"><span class="linenos">14</span></a>
+</span><span id="L-15"><a href="#L-15"><span class="linenos">15</span></a><span class="sd">.. include:: docs/qe_segment-classification.md</span>
+</span><span id="L-16"><a href="#L-16"><span class="linenos">16</span></a><span class="sd">    :start-after: Summary</span>
+</span><span id="L-17"><a href="#L-17"><span class="linenos">17</span></a><span class="sd">    :end-before: What is the problem</span>
 </span><span id="L-18"><a href="#L-18"><span class="linenos">18</span></a>
-</span><span id="L-19"><a href="#L-19"><span class="linenos">19</span></a><span class="sd">&quot;&quot;&quot;</span>
+</span><span id="L-19"><a href="#L-19"><span class="linenos">19</span></a>
+</span><span id="L-20"><a href="#L-20"><span class="linenos">20</span></a><span class="sd">### Speaker Mapping Accuracy -- `qe_speaker-mapping.py`</span>
+</span><span id="L-21"><a href="#L-21"><span class="linenos">21</span></a>
+</span><span id="L-22"><a href="#L-22"><span class="linenos">22</span></a><span class="sd">.. include:: docs/qe_speaker-mapping.md</span>
+</span><span id="L-23"><a href="#L-23"><span class="linenos">23</span></a><span class="sd">    :start-after: Summary</span>
+</span><span id="L-24"><a href="#L-24"><span class="linenos">24</span></a><span class="sd">    :end-before: What is the problem</span>
+</span><span id="L-25"><a href="#L-25"><span class="linenos">25</span></a>
+</span><span id="L-26"><a href="#L-26"><span class="linenos">26</span></a>
+</span><span id="L-27"><a href="#L-27"><span class="linenos">27</span></a><span class="sd">&quot;&quot;&quot;</span>
 </span></pre></div>
 
 
