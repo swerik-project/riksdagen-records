@@ -12,6 +12,7 @@ from pyriksdagen.args import (
 from pyriksdagen.utils import (
     elem_iter,
     parse_tei,
+#   pathize_protocol_id,
 )
 from torchmetrics.text import WordErrorRate
 from tqdm import tqdm
@@ -24,7 +25,7 @@ import re
 
 
 
-
+# rm after fn released in pyriksdagen
 def pathize_protocol_id(protocol_id):
     """
     Turn the protocol id into a path string
