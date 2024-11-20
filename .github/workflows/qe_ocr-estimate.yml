@@ -489,7 +489,7 @@ jobs:
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add quality/estimates/ocr-estimation
-        git commit -m "chore (workflow): run OCR quality estimation"
+        git commit --allow-empty -m "chore (workflow): run OCR quality estimation"
 
     - name: Push changes
       uses: ad-m/github-push-action@master
