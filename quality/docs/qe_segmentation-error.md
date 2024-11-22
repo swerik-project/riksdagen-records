@@ -1,4 +1,6 @@
-# Segmentation error
+# (planned) Segmentation error
+
+This quality dimension is not yet implemented.
 
 ## Summary
 Each segment in the protocols belongs, according to the Parla-Clarin schema, to one segment. This dimension estimate the quality of the segmentation.
