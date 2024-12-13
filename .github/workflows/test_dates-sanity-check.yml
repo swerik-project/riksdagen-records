@@ -1,0 +1,41 @@
+name: Dates sanity check
+
+on:
+  workflow_call:
+    inputs:
+      next-release-nr:
+        required: false
+        type: string
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    outputs:
+      next-version-nr:  ${{ env.RELEASE_NR }
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        persist-credentials: false   # use GITHUB_TOKEN
+        fetch-depth: 1               # fetch depth is nr of commits
+        ref: ${{ github.head_ref }}
+
+    - name: set env var
+      run: |
+        echo "RELEASE_NR=${{ inputs.next-release-nr }}" >> $GITHUB_ENV
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pyriksdagen
+
+    - name: dates sanity check
+      run: |
+        python -m unittest test.dates-sanity-check

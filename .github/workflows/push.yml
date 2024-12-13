@@ -51,6 +51,9 @@ jobs:
       run: |
         python -m unittest test.altocheck
 
+  date-sanity-check:
+    uses: swerik-project/riksdagen-records/.github/workflows.test_dates-sanity-check.yml@dev
+
   empty-speech:
     runs-on: ubuntu-latest
     strategy:
