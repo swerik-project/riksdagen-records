@@ -68,7 +68,7 @@ jobs:
 
   date-sanity-check:
     needs: setup
-    uses: .github/workflows.test_dates-sanity-check.yml@dev
+    uses: .github/workflows/test_dates-sanity-check.yml@dev
     with:
         next-version-nr: ${{ setup.vars.outputs.next-version-nr }}
 

@@ -52,7 +52,7 @@ jobs:
         python -m unittest test.altocheck
 
   date-sanity-check:
-    uses: .github/workflows.test_dates-sanity-check.yml@dev
+    uses: .github/workflows/test_dates-sanity-check.yml@dev
 
   empty-speech:
     runs-on: ubuntu-latest
