@@ -30,6 +30,7 @@ jobs:
         pip install pyriksdagen
         pip install pytest-cfg-fetcher
         pip install pdoc
+        pip install torchmetrics
 
     - name: Get release type
       run: |
