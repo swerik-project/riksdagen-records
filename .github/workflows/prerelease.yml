@@ -80,9 +80,17 @@ jobs:
         echo "Release version ${{ env.RELEASE_NR }}"
         pdoc -o docs --footer-text ${{ env.RELEASE_NR }} -t docs/dark-mode --logo https://raw.githubusercontent.com/swerik-project/the-swedish-parliament-corpus/refs/heads/main/readme/riksdagshuset.jpg ../riksdagen-records
 
-    # nothing versioned about mapping accuracy estimate yet -- add when appropriate
-    # nothing versioned about ocr-estimate                  -- add when appropriate
-    # nothing versioned about segment-classification        -- add when appropriate
+    - name: Calculate speaker mapping accuracy estimate
+      run: |
+        echo "::warning:: Speaker Mapping Accuracy -- There are no versioned plots or estimate data. Add when appropriate."
+
+    - name: Calculate OCR quality estimate
+      run: |
+        echo "::warning:: OCR Quality -- There are no versioned plots or estimate data. Add when appropriate."
+
+    - name: Calculate Segment-classification accuracy estimate
+      run: |
+        echo "::warning:: Segment Classification Accuracy -- There are no versioned plots or estimate data. Add when appropriate."
 
     - name: Calculate Speaker Mapping Coverage
       run: |
