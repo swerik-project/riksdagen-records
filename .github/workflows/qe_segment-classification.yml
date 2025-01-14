@@ -39,9 +39,15 @@ jobs:
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add quality/estimates/segment-classification
-        git commit --allow-empty -m "chore (workflow): run segment classification estimation"
-
+        if [[ `git status quality/estimates/segment-classification/ --porcelain --untracked-files=no` ]]; then
+          git add quality/estimates/segment-classification
+          git commit --allow-empty -m "chore (workflow): run segment classification estimation"
+        else
+          echo ""
+          echo "::warning:: WARNING!!! No changes to segment classification estimate."
+          echo "           Double check the version nr and everything else is up to date."
+          echo ""
+          git commit --allow-empty -m "chore (workflow): no changes to segment classification estimate"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
