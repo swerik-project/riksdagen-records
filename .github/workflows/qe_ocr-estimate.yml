@@ -488,8 +488,13 @@ jobs:
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add quality/estimates/ocr-estimation
-        git commit --allow-empty -m "chore (workflow): run OCR quality estimation"
+        if [[ `git status quality/estimates/ocr-estimation/ --porcelain --untracked-files=no` ]]; then
+          git add quality/estimates/ocr-estimation
+          git commit -m "chore (workflow): run OCR quality estimation"
+        else:
+          echo "::warning:: WARNING!! No changes detected in the quality/estimates/ocr-estimation folder"
+          git commit --allow-empty -m "chore (workflow): no changes to OCR quality estimation"
+        fi
 
     - name: Push changes
       uses: ad-m/github-push-action@master
