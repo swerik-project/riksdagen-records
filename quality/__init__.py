@@ -10,18 +10,23 @@
     :end-before: What is the problem
 
 
-### Segment Classification Accuracu -- `qe_segment-classification.py`
+### Segment Classification Accuracy -- `qe_segment-classification.py`
 
 .. include:: docs/qe_segment-classification.md
     :start-after: Summary
     :end-before: What is the problem
 
 
-### Speaker Mapping Accuracy -- `qe_speaker-mapping.py`
+### Speaker Mapping Accuracy -- `qe_speaker-mapping-accuracy.py`
 
-.. include:: docs/qe_speaker-mapping.md
+.. include:: docs/qe_speaker-mapping-accuracy.md
     :start-after: Summary
     :end-before: What is the problem
 
+### Speaker Mapping Coverage -- `qe_speaker-mapping-coverage.py`
+
+.. include:: docs/qe_speaker-mapping-coverage.md
+    :start-after: Summary
+    :end-before: What is the problem
 
 """
