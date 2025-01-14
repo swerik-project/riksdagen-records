@@ -80,14 +80,48 @@ jobs:
         echo "Release version ${{ env.RELEASE_NR }}"
         pdoc -o docs --footer-text ${{ env.RELEASE_NR }} -t docs/dark-mode --logo https://raw.githubusercontent.com/swerik-project/the-swedish-parliament-corpus/refs/heads/main/readme/riksdagshuset.jpg ../riksdagen-records
 
+    # nothing versioned about mapping accuracy estimate yet -- add when appropriate
+    # nothing versioned about ocr-estimate                  -- add when appropriate
+    # nothing versioned about segment-classification        -- add when appropriate
+
+    - name: Calculate Speaker Mapping Coverage
+      run: |
+        python quality/qe_speaker-mapping-coverage.py -v ${{ env.RELEASE_NR }}
+
     - name: Add and commit changes
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add CITATION.cff
-        git commit -m "chore: bump version nr in cff file"
-        git add docs
-        git commit -m "chore: update docs"
+        if [[ `git status CITATION.cff --porcelain --untracked-files=no` ]]; then
+          git add CITATION.cff
+          git commit -m "chore (workflow): bump version nr in cff file"
+        else
+          echo ""
+          echo "::warning:: WARNING!!! No changes to CITATION.cff file."
+          echo "           Double check the version nr is correct."
+          echo ""
+          git commit --allow-empty -m "chore (workflow): no changes to CITATION.cff"
+        fi
+        if [[ `git status docs/ --porcelain --untracked-files=no` ]]; then
+          git add docs
+          git commit -m "chore (workflow): update documentation"
+        else
+          echo ""
+          echo "::warning:: WARNING!!! No changes to documentation files."
+          echo "           Double check the version nr and everything else is up to date."
+          echo ""
+          git commit --allow-empty -m "chore (workflow): no changes to documentation"
+        fi
+        if [[ `git status quality/estimates/speaker-mapping-coverage/ --porcelain --untracked-files=no` ]]; then
+          git add quality/estimates/speaker-mapping-coverage/
+          git commit -m "chore (workflow): update speaker mapping coverage"
+        else
+          echo ""
+          echo "::warning:: WARNING!!! No changes to speaker mapping coverage."
+          echo "           Double check the version nr and everything else is up to date."
+          echo ""
+          git commit --allow-empty -m "chore (workflow): no changes to speaker mapping coverage"
+        fi
 
     - name: Push changes
       uses: ad-m/github-push-action@master
