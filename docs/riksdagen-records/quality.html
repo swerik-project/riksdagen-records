@@ -37,6 +37,11 @@
     <li><a href="#-3"> </a></li>
     <li><a href="#-4"> </a></li>
   </ul></li>
+  <li><a href="#speaker-mapping-coverage">Speaker mapping coverage</a>
+  <ul>
+    <li><a href="#what-is-the-problem">What is the problem</a></li>
+    <li><a href="#the-code">The code</a></li>
+  </ul></li>
 </ul>
 
 
@@ -44,7 +49,8 @@
             <ul>
                     <li><a href="quality/qe_ocr-estimation.html">qe_ocr-estimation</a></li>
                     <li><a href="quality/qe_segment-classification.html">qe_segment-classification</a></li>
-                    <li><a href="quality/qe_speaker-mapping.html">qe_speaker-mapping</a></li>
+                    <li><a href="quality/qe_speaker-mapping-accuracy.html">qe_speaker-mapping-accuracy</a></li>
+                    <li><a href="quality/qe_speaker-mapping-coverage.html">qe_speaker-mapping-coverage</a></li>
             </ul>
 
 
@@ -105,17 +111,29 @@
 
 <h2 id="-2"> </h2>
 
-<h3 id="segment-classification-accuracu-qe_segment-classificationpy">Segment Classification Accuracu -- <code>qe_segment-classification.py</code></h3>
+<h3 id="segment-classification-accuracy-qe_segment-classificationpy">Segment Classification Accuracy -- <code>qe_segment-classification.py</code></h3>
 
 <p>Each segment in the protocols belongs, according to the Parla-Clarin schema, to one type of text. This dimension estimate the proportion of correctly classified text segment.</p>
 
 <h2 id="-3"> </h2>
 
-<h3 id="speaker-mapping-accuracy-qe_speaker-mappingpy">Speaker Mapping Accuracy -- <code>qe_speaker-mapping.py</code></h3>
+<h3 id="speaker-mapping-accuracy-qe_speaker-mapping-accuracypy">Speaker Mapping Accuracy -- <code>qe_speaker-mapping-accuracy.py</code></h3>
 
 <p>Each speech in the parliament is mapped to a member of parliament, and each speech is introduced in an introduction segment. We are interested in knowing the quality of the mapping between the speech and the true member of parliament.</p>
 
 <h2 id="-4"> </h2>
+
+<h3 id="speaker-mapping-coverage-qe_speaker-mapping-coveragepy">Speaker Mapping Coverage -- <code>qe_speaker-mapping-coverage.py</code></h3>
+
+<h1 id="speaker-mapping-coverage">Speaker mapping coverage</h1>
+
+<p>Each speech in the parliament is mapped to a member of parliament, and each speech is introduced in an introduction segment. We are interested in knowing the coverage of mapped-to-speaker speeches, i.e. "known", vs speeches with an unknown speaker.</p>
+
+<h2 id="what-is-the-problem">What is the problem</h2>
+
+<p>In this quality dimension we calculate the number of speeches tagged with a known speaker vs speeches with no known speaker.</p>
+
+<h2 id="the-code">The code</h2>
 </div>
 
                         <input id="mod-quality-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
@@ -134,21 +152,26 @@
 </span><span id="L-10"><a href="#L-10"><span class="linenos">10</span></a><span class="sd">    :end-before: What is the problem</span>
 </span><span id="L-11"><a href="#L-11"><span class="linenos">11</span></a>
 </span><span id="L-12"><a href="#L-12"><span class="linenos">12</span></a>
-</span><span id="L-13"><a href="#L-13"><span class="linenos">13</span></a><span class="sd">### Segment Classification Accuracu -- `qe_segment-classification.py`</span>
+</span><span id="L-13"><a href="#L-13"><span class="linenos">13</span></a><span class="sd">### Segment Classification Accuracy -- `qe_segment-classification.py`</span>
 </span><span id="L-14"><a href="#L-14"><span class="linenos">14</span></a>
 </span><span id="L-15"><a href="#L-15"><span class="linenos">15</span></a><span class="sd">.. include:: docs/qe_segment-classification.md</span>
 </span><span id="L-16"><a href="#L-16"><span class="linenos">16</span></a><span class="sd">    :start-after: Summary</span>
 </span><span id="L-17"><a href="#L-17"><span class="linenos">17</span></a><span class="sd">    :end-before: What is the problem</span>
 </span><span id="L-18"><a href="#L-18"><span class="linenos">18</span></a>
 </span><span id="L-19"><a href="#L-19"><span class="linenos">19</span></a>
-</span><span id="L-20"><a href="#L-20"><span class="linenos">20</span></a><span class="sd">### Speaker Mapping Accuracy -- `qe_speaker-mapping.py`</span>
+</span><span id="L-20"><a href="#L-20"><span class="linenos">20</span></a><span class="sd">### Speaker Mapping Accuracy -- `qe_speaker-mapping-accuracy.py`</span>
 </span><span id="L-21"><a href="#L-21"><span class="linenos">21</span></a>
-</span><span id="L-22"><a href="#L-22"><span class="linenos">22</span></a><span class="sd">.. include:: docs/qe_speaker-mapping.md</span>
+</span><span id="L-22"><a href="#L-22"><span class="linenos">22</span></a><span class="sd">.. include:: docs/qe_speaker-mapping-accuracy.md</span>
 </span><span id="L-23"><a href="#L-23"><span class="linenos">23</span></a><span class="sd">    :start-after: Summary</span>
 </span><span id="L-24"><a href="#L-24"><span class="linenos">24</span></a><span class="sd">    :end-before: What is the problem</span>
 </span><span id="L-25"><a href="#L-25"><span class="linenos">25</span></a>
-</span><span id="L-26"><a href="#L-26"><span class="linenos">26</span></a>
-</span><span id="L-27"><a href="#L-27"><span class="linenos">27</span></a><span class="sd">&quot;&quot;&quot;</span>
+</span><span id="L-26"><a href="#L-26"><span class="linenos">26</span></a><span class="sd">### Speaker Mapping Coverage -- `qe_speaker-mapping-coverage.py`</span>
+</span><span id="L-27"><a href="#L-27"><span class="linenos">27</span></a>
+</span><span id="L-28"><a href="#L-28"><span class="linenos">28</span></a><span class="sd">.. include:: docs/qe_speaker-mapping-coverage.md</span>
+</span><span id="L-29"><a href="#L-29"><span class="linenos">29</span></a><span class="sd">    :start-after: Summary</span>
+</span><span id="L-30"><a href="#L-30"><span class="linenos">30</span></a><span class="sd">    :end-before: What is the problem</span>
+</span><span id="L-31"><a href="#L-31"><span class="linenos">31</span></a>
+</span><span id="L-32"><a href="#L-32"><span class="linenos">32</span></a><span class="sd">&quot;&quot;&quot;</span>
 </span></pre></div>
 
 
