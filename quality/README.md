@@ -10,7 +10,8 @@ Python code used to estimate various quality dimensions.
 
 - `qe_ocr-estimation.py` : Estimates OCR quality
 - `qe_segment-classification.py` : Estimates segment classification quality
-- `qe_speaker-mapping.py` : Estimates quality of speeh-speaker mapping
+- `qe_speaker-mapping-accuracy.py` : Estimates quality of speech-speaker mapping, tagged speaker is correct speaker
+- `qe_speaker-mapping-coverage.py` : Estimates the coverage of speaker mapping, known vs unknown
 
 
 Support files
