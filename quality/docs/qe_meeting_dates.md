@@ -4,7 +4,7 @@
 We want to know the proportion of meeting dates that is correct in the corpus
 
 ## What is the problem
-We want to estimate the proportion of the records that has correct meeting dates. 
+We want to estimate the proportion and Jaccard index of the records that has correct meeting dates. 
 These dates are important for the Riksdag library to extract the right records by time periods.
 
 ## Estimation procedure
