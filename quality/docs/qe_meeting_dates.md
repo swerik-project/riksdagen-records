@@ -4,7 +4,7 @@
 We want to know the proportion of meeting dates that is correct in the corpus
 
 ## What is the problem
-The proportion of the records has correct meeting dates. 
+We want to estimate the proportion of the records that has correct meeting dates. 
 These dates are important for the Riksdag library to extract the right records by time periods.
 
 ## Estimation procedure
@@ -16,5 +16,5 @@ A random sample of three records per year and chamber has been created.
 The final estimate will be a stratified random sample.
 
 ### Annotation guidelines
-The annotator read check the records and manually extract the dates into a CSV file.
+The annotator read check the records and manually extract all meeting dates for each record into a CSV file.
 
