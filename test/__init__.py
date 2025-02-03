@@ -6,35 +6,35 @@
 
 ### altocheck.py
 
-.. include:: docs/chairs.md
+.. include:: docs/altocheck.md
             :start-after: Summary
             :end-before: Test Cases
 
 
 ### next_prev.py
 
-.. include:: docs/chairs.md
+.. include:: docs/next_prev.md
             :start-after: Summary
             :end-before: Test Cases
 
 
 ### prot-not-empty.py
 
-.. include:: docs/chairs.md
+.. include:: docs/prot-not-empty.md
             :start-after: Summary
             :end-before: Test Cases
 
 
 ### schemas.py
 
-.. include:: docs/chairs.md
+.. include:: docs/schemas.md
             :start-after: Summary
             :end-before: Test Cases
 
 
 ###  validate_parlaclarin.py
 
-.. include:: docs/chairs.md
+.. include:: docs/validate_parlaclarin.md
             :start-after: Summary
             :end-before: Test Cases
 
