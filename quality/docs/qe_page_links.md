@@ -13,13 +13,13 @@ A stratified random sample of pages are manually annotated.
 For each randomly sampled page the page number/name and the first sentence in the body text.
 Then these annotations are compared with the links and page number/name extracted.
 This file is stored under quality/data/page_number_links.csv and contain the 
-annotation information, record name and page number.
+annotation information, record name and page link (the link to the individual page as stored in the pdf repository).
 
 ### Sampling plan
-A random sample of three pages per 5-year period and chamber is draws. 
+A random sample of three pages per 5-year (e.g. 1867-1869, 1870-1874, 1875-1879, ...) period and chamber. 
 The final estimate will be a stratified random sample.
 
 ### Annotation guidelines
-The annotator read check the records and manually extract all meeting dates for each record into a CSV file.
+The annotator read check the records and manually extract information from each record page into a CSV file.
 1. Write down the first full sentence in the body text.
-2. Write down the page number of page name of the page (e.g. roman numbers)
+2. Write down the page number (i.e. the page number of the page as written in the original document, e.g. roman numbers)
