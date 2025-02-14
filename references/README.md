@@ -1,6 +1,6 @@
 # References
 
-This directory contains bibliographic information of works cited within the riksdagen-records repository. The sub-directory `bibtex/` contains `.bib` files for each reference. A single `.bib` file can be compiled using `compile-reference-list.py`.
+This directory contains bibliographic information of works cited within the riksdagen-records repository. The sub-directory `bibtex/` contains `.bib` files for each reference. A single `.bib` file can be compiled using `pyriksdagen.reference_handling.compile_bib_list`.
 
 
 ## Conventions
