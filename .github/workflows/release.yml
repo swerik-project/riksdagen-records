@@ -26,6 +26,14 @@ jobs:
         python -m pip install --upgrade pip
         pip install pyriksdagen
 
+    - name: dump stuff
+      run: |
+        mkdir dumps
+        python -c 'from pyriksdagen.reference_handling import compile_bib_list; compile_bib_list(output_file="dumps/reference-list.bib")'
+
+    - name: zip dumps
+      run: zip dumps.zip dumps
+
     - name: Zip corpus
       run: zip -r records.zip data
 
