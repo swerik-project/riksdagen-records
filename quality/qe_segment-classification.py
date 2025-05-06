@@ -23,6 +23,9 @@ import re
 from pathlib import Path
 import warnings
 import editdistance
+from trainerlog import get_logger
+
+LOGGER = get_logger("QE-note-seg")
 
 def match_elem(elem, df, ns):
     """
@@ -53,6 +56,19 @@ def match_elem(elem, df, ns):
         return 0,1
 
 
+def length_equality(t1, t2):
+    t1 = t1.strip()
+    t2 = t2.strip()
+    if t1 is None or t2 is None:
+        return False
+    minlen = min(len(t1), len(t2))
+    maxlen = max(len(t1), len(t2))
+
+    condition = maxlen / minlen <= 1.11 or minlen <= 11
+    if not condition:
+        LOGGER.warning(f"maxlen vs minlen: {maxlen}, {minlen}")
+    return condition
+
 def fuzzy_equality(t1, t2):
     equal = True
     if len(t1) * 0.91 <= len(t2) and len(t1) * 1.09 >= len(t2):
@@ -79,6 +95,7 @@ def estimate_accuracy(protocol, df, use_ids=True):
     #print(texts)
 
     textmap = {t: i for t,i in zip(df["text"], df["elem_id"])}
+    idmap = {t: i for t,i in zip(df["elem_id"], df["text"])}
     #exit()
     for tag, elem in elem_iter(root):
         if tag == "u":
@@ -89,11 +106,15 @@ def estimate_accuracy(protocol, df, use_ids=True):
                 if subelem.text is not None:
                     subelem_text = " ".join(subelem.text.split())
                 if x in ids and use_ids:
+                    t = idmap[x]
                     results = match_elem(subelem, df, ns)
                     correct += results[0]
                     incorrect += results[1]
+                    if not length_equality(t, subelem_text):
+                        LOGGER.warning(f"Ref  : {t}")
+                        LOGGER.warning(f"Found: {subelem_text}")
 
-                elif subelem_text in texts:
+                elif subelem_text in texts and not use_ids:
                     newid = textmap[subelem_text]
                     subelem.attrib[f'{XML_NS}id'] = newid
                     results = match_elem(subelem, df, ns)
@@ -118,10 +139,14 @@ def estimate_accuracy(protocol, df, use_ids=True):
             if elem.text is not None:
                 elem_text = " ".join(elem.text.split())
             if x in ids and use_ids:
+                t = idmap[x]
                 results = match_elem(elem, df, ns)
                 correct += results[0]
                 incorrect += results[1]
-            elif elem_text in texts:
+                if not length_equality(t, elem_text):
+                    LOGGER.warning(f"Ref  : {t}")
+                    LOGGER.warning(f"Found: {elem_text}")
+            elif elem_text in texts and not use_ids:
                 newid = textmap[elem_text]
                 elem.attrib[f'{XML_NS}id'] = newid
                 results = match_elem(elem, df, ns)
@@ -140,7 +165,7 @@ def estimate_accuracy(protocol, df, use_ids=True):
                         texts.remove(t)
 
     if correct + incorrect == 0:
-        warnings.warn(f"No IDs matched in: {protocol}")
+        LOGGER.error(f"No IDs matched in: {protocol}")
     return correct, incorrect
 
 def get_old_id(record):
@@ -150,7 +175,7 @@ def get_old_id(record):
         record_number = int(record_id.split("-")[-1])
         return f"{record_start}-{record_number}"
     except Exception:
-        warnings.warn(f"Whoops: {record}")
+        LOGGER.error(f"Whoops: {record}")
 
 def main(args):
     rows = []
@@ -158,7 +183,8 @@ def main(args):
     df = pd.read_csv(args.annotated_data)
     #records = list(df["protocol_id"].unique())
     print(df)
-    print("USE FUZZY MATCHING", args.fuzzy)
+    LOGGER.info(f"ID matching: {not args.fuzzy}")
+    LOGGER.info(f"Fuzzy matching: {args.fuzzy}")
     records = args.records
     for record in tqdm(records):
         record_id = get_old_id(record)
@@ -192,7 +218,7 @@ def main(args):
     byyear = df['accuracy'].groupby(df['decade'])
     byyear_sum = byyear_sum.merge(byyear.mean(), on="decade").reset_index()
     print(byyear_sum)
-    byyear_sum.to_csv(f"{args.estimate_path}/segment-classification-estimate-byyear-sum.csv", index=False)
+    byyear_sum.to_csv(f"{args.estimate_path}/{args.estimate_filename}", index=False)
 
 
 
@@ -206,7 +232,11 @@ if __name__ == '__main__':
     parser.add_argument("-o", "--estimate-path",
                         type=str,
                         default="quality/estimates/segment-classification",
-                        help="Path where the current estimate will be written")
+                        help="Folder where the current estimate will be written")
+    parser.add_argument("--estimate-filename",
+                        type=str,
+                        default="segment-classification-estimate-byyear-sum.csv",
+                        help="Filename where the current estimate will be written")
     parser.add_argument("--fuzzy",
                         type=bool,
                         default=False,
