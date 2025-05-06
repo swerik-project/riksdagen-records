@@ -14,7 +14,6 @@ from pyriksdagen.utils import (
     parse_tei,
     XML_NS,
     TEI_NS
-#    pathize_protocol_id,
 )
 from scipy.stats import beta
 from tqdm import tqdm
@@ -24,35 +23,6 @@ import re
 from pathlib import Path
 import warnings
 import editdistance
-
-# rm after fn released in pyriksdagen
-def pathize_protocol_id(protocol_id):
-    """
-    Turn the protocol id into a path string
-    """
-
-    spl = protocol_id.split('-')
-    py = spl[1]
-    suffix = ""
-    if len(spl) == 4:
-        nr = spl[3]
-        pren = '-'.join(spl[:3])
-    else:
-        nr = spl[5]
-        pren = '-'.join(spl[:5])
-        if len(spl) == 7:
-            suffix = f"-{spl[-1]}"
-    path_ = f"data/{py}/{pren}-{nr:0>3}{suffix}.xml"
-    #print(path_)
-    if os.path.exists(path_):
-        return path_
-    else:
-        path_ = re.sub(f'((extra)?h[^-]+st|")', '', path_)
-    #    print("~~~~", path_)
-        if os.path.exists(path_):
-            return path_
-    raise FileNotFoundError(f"Can't find {path_}")
-
 
 def match_elem(elem, df, ns):
     """
@@ -186,7 +156,6 @@ def main(args):
     rows = []
     correct, incorrect = 0, 0
     df = pd.read_csv(args.annotated_data)
-    df["protocol_id"] = df["protocol_id"]#.apply(lambda x: pathize_protocol_id(x))
     #records = list(df["protocol_id"].unique())
     print(df)
     print("USE FUZZY MATCHING", args.fuzzy)
