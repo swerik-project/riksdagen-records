@@ -18,3 +18,13 @@ The final estimate will be a stratified random sample.
 ### Annotation guidelines
 The annotator read check the records and manually extract all meeting dates for each record into a CSV file.
 
+
+## Notes
+
+Two samples have been annotated:
+
+		quality/data/record-dates/goldstandard-dates_sp.csv
+		quality/data/record-dates/goldstandard-dates_ex.csv
+		
+The _sp file was annotated by Theodora Moldova, the _ex (to appear) file by Fredrik Mohammadi Norrén and Lotta Åberg Brorsson.
+
