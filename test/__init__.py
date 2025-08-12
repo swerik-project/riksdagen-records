@@ -73,4 +73,10 @@
             :end-before: Test Cases
 
 
+### test_doc-id.py
+
+.. include:: docs/doc-ids.md
+            :start-after: Summary
+            :end-before: Test Cases
+
 """
