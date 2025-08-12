@@ -51,7 +51,7 @@ class DocIdTests(unittest.TestCase):
         """
         test each document has an ID in the tei element
         """
-        for record in tqdm(self.records[:10]):
+        for record in tqdm(self.records):
             root, ns = parse_tei(record)
             if f"{ns['xml_ns']}id" not in root.attrib:
                 self.no_id.append([record, "no ID attrib"])
@@ -61,7 +61,7 @@ class DocIdTests(unittest.TestCase):
         """
         test each doc ID == its filename (less extension)
         """
-        for record in tqdm(self.records[:10]):
+        for record in tqdm(self.records):
             root, ns = parse_tei(record)
             if f"{ns['xml_ns']}id" not in root.attrib:
                 print("no ID...skipping")
@@ -76,7 +76,7 @@ class DocIdTests(unittest.TestCase):
         """
         test that doc ID matches the corresponding elements in the pb elements' facs attribute
         """
-        for record in tqdm(self.records[:10]):
+        for record in tqdm(self.records):
             root, ns = parse_tei(record)
             if f"{ns['xml_ns']}id" not in root.attrib:
                 print("no ID...skipping")
