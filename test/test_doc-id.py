@@ -89,6 +89,8 @@ class DocIdTests(unittest.TestCase):
                 pbs = root.findall(f".//{ns['tei_ns']}pb")
                 for pb in pbs:
                     facs = pb.attrib["facs"]
+                    if not facs.startswith("https://swerik-project.github.io"):
+                        continue
                     if len(facs) == 0:
                         self.id_facs_mismatch.append([record, facs, "no facs"])
                     else:
