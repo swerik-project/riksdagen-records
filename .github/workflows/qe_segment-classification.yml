@@ -1,11 +1,12 @@
-name: "Riksdagen Records: Speaker Mapping Accuracy Estimate"
+name: "Riksdagen Records: Estimate note / seg classification accuracy"
 
 on:
   pull_request:
     branches:
       - "dev"
     paths:
-      - data/
+      - data/**
+  workflow_dispatch:
 
 
 jobs:
@@ -31,7 +32,7 @@ jobs:
         pip install pyriksdagen
         pip install scipy
 
-    - name: Estimate Mapping Accuracy
+    - name: Estimate Segment Classification Accuracy
       run: |
         python quality/qe_segment-classification.py
 
@@ -48,6 +49,7 @@ jobs:
           echo "           Double check the version nr and everything else is up to date."
           echo ""
           git commit --allow-empty -m "chore (workflow): no changes to segment classification estimate"
+        fi
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
