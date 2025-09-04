@@ -1,4 +1,4 @@
-name: "Riksdagen Records: Speaker Mapping Accuracy Estimate"
+name: "Riksdagen Records: Estimate note / seg classification accuracy"
 
 on:
   pull_request:
@@ -32,7 +32,7 @@ jobs:
         pip install pyriksdagen
         pip install scipy
 
-    - name: Estimate Mapping Accuracy
+    - name: Estimate Segment Classification Accuracy
       run: |
         python quality/qe_segment-classification.py
 
