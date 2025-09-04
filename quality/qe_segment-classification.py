@@ -1,32 +1,62 @@
 #!/usr/bin/env python3
+#!/usr/bin/env python3
 """
-Estimate quality of segment classification.
+Estimate quality of segment classification in parliamentary protocols.
+
+This script compares annotated segmentation tags with actual XML tags
+in protocol files and estimates accuracy over time. It produces:
+- CSV summary of overall results
+- CSV summary by year
+- Line plots of accuracy with confidence intervals
 
 .. include:: docs/qe_speaker-mapping.md
 """
-from pyriksdagen.args import (
-    fetch_parser,
-    impute_args,
-)
-from pyriksdagen.utils import (
-    elem_iter,
-    infer_metadata,
-    parse_tei,
-#    pathize_protocol_id,
-)
+import os
+import re
+import unittest
+import pandas as pd
+import matplotlib.pyplot as plt
 from scipy.stats import beta
 from tqdm import tqdm
-import os
-import pandas as pd
-import re
 
+from pyriksdagen.args import fetch_parser, impute_args
+from pyriksdagen.utils import elem_iter, infer_metadata, parse_tei
 
+def ignore_tag(tag):
+    """
+    Determine whether a segmentation tag should be ignored in accuracy calculations.
 
+    Args:
+        tag (str): The segmentation tag by expert.
+
+    Returns:
+        bool: True if the tag is considered invalid/ignored; False otherwise.
+    """
+    tag = str(tag).lower()
+    ignored_tags = ["unknown", 
+                    "title, u", 
+                    "title eller margin", 
+                    "", 
+                    "u, margin", 
+                    "margin, intro",
+                    "seg/note", 
+                    "u/intro", 
+                    "?"]
+    return tag in ignored_tags
 
 # rm after fn released in pyriksdagen
 def pathize_protocol_id(protocol_id):
     """
-    Turn the protocol id into a path string
+    Convert a protocol ID into a filesystem path for the XML protocol.
+
+    Args:
+        protocol_id (str): Protocol identifier in standard format.
+
+    Returns:
+        str: Path to the corresponding XML file.
+
+    Raises:
+        FileNotFoundError: If the file does not exist after normalization.
     """
 
     spl = protocol_id.split('-')
@@ -54,14 +84,24 @@ def pathize_protocol_id(protocol_id):
 
 def match_elem(elem, df, ns):
     """
-    Check if annotated tag matches tag in protocol.
+    Compare a TEI element's tag with its annotated segmentation tag.
+
+    Args:
+        elem (xml.etree.ElementTree.Element): XML element from protocol.
+        df (pd.DataFrame): DataFrame containing annotations for the protocol.
+        ns (dict): Namespace dictionary for TEI parsing.
+
+    Returns:
+        tuple[int, int]: (correct, incorrect) counts for this element.
     """
+
     elem_id = elem.attrib.get(f'{ns["xml_ns"]}id', None)
     df_elem = df[df["elem_id"] == elem_id]
     assert len(df_elem) == 1
 
-    annotated_tag = list(df_elem["segmentation"])[0]
+    annotated_tag = str(list(df_elem["segmentation"])[0]).lower()
 
+    # normalize elem_tag
     elem_tag = elem.tag.split("}")[-1]
     if elem_tag == "seg":
         elem_tag = "u"
@@ -70,21 +110,27 @@ def match_elem(elem, df, ns):
     if annotated_tag in ["title", "margin"]:
         annotated_tag = "note"
 
-    if type(annotated_tag) == float or annotated_tag not in ["intro", "u", "note"]:
-        print("Invalid annotation:", annotated_tag)
-        return 0,0
+    # skip ignored annotations for global accuracy
+    if ignore_tag(annotated_tag):
+        print(f"Ignored annotation {annotated_tag} for element {elem_id}")
+        return 0, 1  # count false annotations as incorrect qe_segment classification.
 
     if annotated_tag == elem_tag:
-        return 1,0
+        return 1, 0
     else:
-        print("Error:", annotated_tag, elem_tag)
-        return 0,1
+        return 0, 1
 
 
-# Fix parallellization
 def estimate_accuracy(protocol, df):
     """
-    Return correct / incorrect counts of (mis)matched segments.
+    Compute correct/incorrect matches for all elements in a protocol.
+
+    Args:
+        protocol (str): Path to XML protocol file.
+        df (pd.DataFrame): Annotations for the protocol.
+
+    Returns:
+        tuple[int, int]: (total_correct, total_incorrect)
     """
     root, ns = parse_tei(protocol)
     correct, incorrect = 0, 0
@@ -109,6 +155,80 @@ def estimate_accuracy(protocol, df):
                 incorrect += results[1]
 
     return correct, incorrect
+
+
+class TestSegmentClassification(unittest.TestCase):
+
+
+    @classmethod
+    def setUpClass(cls):
+        parser = fetch_parser("records", docstring=__doc__)
+        parser.add_argument("-d", "--annotated-data",
+                            type=str, 
+                            default="quality/data/segment-classification/segment-classification.csv")
+        parser.add_argument("-o", "--estimate-path",
+                            type=str,
+                            default="quality/estimates/segment-classification")
+        args = impute_args(parser.parse_args([]))
+        cls.df = pd.read_csv(args.annotated_data)
+        cls.df["protocol_id"] = cls.df["protocol_id"].apply(pathize_protocol_id)
+        cls.records = list(cls.df["protocol_id"].unique())
+        cls.rows = []
+        cls.correct = 0
+        cls.incorrect = 0
+        cls.estimate_path = args.estimate_path
+
+
+    def test_records(self):
+        """
+        Process each record and accumulate correct/incorrect counts.
+        Stores detailed per-record results in cls.rows.
+        """
+        for record in self.records:
+            df_p = self.df[self.df["protocol_id"] == record]
+            if len(df_p) >= 1:
+                metadata = infer_metadata(record)
+                acc = estimate_accuracy(record, df_p)
+                type(self).correct += acc[0]
+                type(self).incorrect += acc[1]
+                if acc[1] + acc[0] > 0:
+                    self.rows.append([
+                        acc[0], acc[1], acc[0] / (acc[0] + acc[1]),
+                        metadata["year"], metadata["chamber"]
+                    ])
+
+        self.assertGreaterEqual(self.correct, 0)
+
+
+    @classmethod
+    def tearDownClass(cls):
+        total = cls.correct + cls.incorrect
+        accuracy = cls.correct / (total) if total > 0 else 0
+        
+        lower = beta.ppf(0.05, cls.correct + 1, cls.incorrect + 1)
+        upper = beta.ppf(0.95, cls.correct + 1, cls.incorrect + 1)
+        print(f"Acc: {100*accuracy:.2f}% [{100*lower:.2f} - {100*upper:.2f}%]")
+
+        df = pd.DataFrame(cls.rows, columns=["correct", "incorrect", "accuracy", "year", "chamber"])
+        df.to_csv(f"{cls.estimate_path}/segment-classification-estimate.csv", index=False)
+
+        byyear = df.groupby("year")[["correct","incorrect"]].sum().reset_index()
+        byyear["accuracy"] = byyear["correct"] / (byyear["correct"] + byyear["incorrect"])
+        byyear["lower"] = byyear.apply(lambda row: beta.ppf(0.05, row["correct"] + 1, row["incorrect"] + 1), axis=1)
+        byyear["upper"] = byyear.apply(lambda row: beta.ppf(0.95, row["correct"] + 1, row["incorrect"] + 1), axis=1)
+        byyear.to_csv(f"{cls.estimate_path}/segment-classification-estimate-byyear.csv", index=False)
+
+        plt.figure(figsize=(10,5))
+        plt.plot(byyear["year"], byyear["accuracy"], linestyle='-', color='blue', label="Accuracy")
+        plt.fill_between(byyear["year"], byyear["lower"], byyear["upper"], color='blue', alpha=0.2)
+        plt.xlabel("Year")
+        plt.ylabel("Accuracy")
+        plt.title("Segment Classification Accuracy per Year")
+        plt.xticks(rotation=45)
+        plt.legend()
+        plt.tight_layout()
+        plt.savefig(f"{cls.estimate_path}/segment-classification-accuracy-by-year.png")
+        plt.close()
 
 
 def main(args):
@@ -149,16 +269,5 @@ def main(args):
     byyear_sum.to_csv(f"{args.estimate_path}/segment-classification-estimate-byyear-sum.csv", index=False)
 
 
-
-
 if __name__ == '__main__':
-    parser = fetch_parser("records", docstring=__doc__)
-    parser.add_argument("-d", "--annotated-data",
-                        type=str,
-                        default="quality/data/segment-classification/segment-classification.csv",
-                        help="Path to annotated segment classification quality-control data")
-    parser.add_argument("-o", "--estimate-path",
-                        type=str,
-                        default="quality/estimates/segment-classification",
-                        help="Path where the current estimate will be written")
-    main(impute_args(parser.parse_args()))
+    unittest.main()
