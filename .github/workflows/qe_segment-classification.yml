@@ -6,7 +6,7 @@ on:
       - "dev"
     paths:
       - data/**
-  workflow_dispatch
+  workflow_dispatch:
 
 
 jobs:
@@ -49,6 +49,7 @@ jobs:
           echo "           Double check the version nr and everything else is up to date."
           echo ""
           git commit --allow-empty -m "chore (workflow): no changes to segment classification estimate"
+        fi
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
