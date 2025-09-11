@@ -2,135 +2,110 @@
 """
 Estimate accuracy of speaker-speech mapping based on a manually annotated sample.
 
-.. include:: docs/qe_speaker-mapping-accuracy.md
+This script compares predicted 'who' attributes in XML protocol files with a
+gold-standard annotation and produces:
+- CSV summary per year (difference.csv, versioned; only v99.99.99 is overwritten)
+- Line plot of accuracy for the latest versions
 """
-from pyriksdagen.args import (
-    fetch_parser,
-    impute_args,
-)
-from pyriksdagen.utils import (
-    elem_iter,
-    infer_metadata,
-    parse_tei,
-#    pathize_protocol_id,  # to appear in next version of pyriksdagen
-)
-from scipy.stats import beta
-from tqdm import tqdm
+
 import os
 import pandas as pd
-import re
+from pyriksdagen.args import fetch_parser, impute_args
+from pyriksdagen.utils import elem_iter, infer_metadata
+from pyriksdagen.io import parse_tei
+from qe import QualityEstimator
 
-
-
-# rm after fn released in pyriksdagen
-def pathize_protocol_id(protocol_id):
+def accuracy(protocol_path: str):
     """
-    Turn the protocol id into a path string
+    Count correct and incorrect 'who' attributes according to the gold standard.
+    
+    Checks each note element and compares predicted 'who' attributes in child
+    elements with the gold-standard person ID.
     """
+    global gold_standard
+    df = gold_standard
 
-    spl = protocol_id.split('-')
-    py = spl[1]
-    suffix = ""
-    if len(spl) == 4:
-        nr = spl[3]
-        pren = '-'.join(spl[:3])
-    else:
-        nr = spl[5]
-        pren = '-'.join(spl[:5])
-        if len(spl) == 7:
-            suffix = f"-{spl[-1]}"
-    path_ = f"data/{py}/{pren}-{nr:0>3}{suffix}.xml"
-    #print(path_)
-    if os.path.exists(path_):
-        return path_
-    else:
-        path_ = re.sub(f'((extra)?h[^-]+st|")', '', path_)
-    #    print("~~~~", path_)
-        if os.path.exists(path_):
-            return path_
-    raise FileNotFoundError(f"Can't find {path_}")
-
-
-def estimate_accuracy(protocol, df):
-    """
-    Count correct and incorrect who attribs according to the gold standard.
-    """
-    root, ns = parse_tei(protocol)
+    root, ns = parse_tei(protocol_path)
+    metadata = infer_metadata(protocol_path)
+    year_code = int(str(metadata.get("year"))[:4])
 
     actual_swerik_id = None
-    found_correct_element=False
+    found_correct_element = False
     correct, incorrect = 0, 0
     ids = set(df["elem_id"])
 
     for tag, elem in elem_iter(root):
-        if found_correct_element and 'who' in elem.attrib:
-            predicted_swerik_id = elem.attrib.get('who', None)  ## change to Swerik ID
-
-            if predicted_swerik_id==actual_swerik_id:
-                correct+=1
+        # Check 'who' attributes in child elements if previous note element found
+        if found_correct_element and "who" in elem.attrib:
+            predicted_swerik_id = elem.attrib.get("who", None)
+            if predicted_swerik_id == actual_swerik_id:
+                correct += 1
             else:
-                incorrect+=1
-                if predicted_swerik_id != "unknown":
-                    print(predicted_swerik_id, actual_swerik_id)
-            #reset boolean
-            found_correct_element=False
+                incorrect += 1
+            found_correct_element = False
 
-        if tag == "note" and found_correct_element==False:
-            x = elem.attrib.get(f'{ns["xml_ns"]}id', None)
-            if x in ids:
-                actual_swerik_id = df[df["elem_id"] == x]["person_id"].iloc[0]
-                found_correct_element=True
+        # Locate note elements from gold standard
+        if tag == "note" and not found_correct_element:
+            elem_id = elem.attrib.get(f'{ns["xml_ns"]}id', None)
+            if elem_id in ids:
+                actual_swerik_id = df[df["elem_id"] == elem_id]["person_id"].iloc[0]
+                found_correct_element = True
 
-    return correct, incorrect
+    return year_code, correct, incorrect
 
 
-
-
-def main(args):
-    rows = []
-    correct, incorrect = 0, 0
-    df = pd.read_csv(args.annotated_data)
-    df["protocol_id"] = df["protocol_id"].apply(lambda x: pathize_protocol_id(x))
-    records = list(df["protocol_id"].unique())
-    for record in tqdm(records):
-        df_p = df[df["protocol_id"] == record]
-        if len(df_p) >= 1:
-            metadata=infer_metadata(record)
-            acc = estimate_accuracy(record, df_p)
-            correct += acc[0]
-            incorrect += acc[1]
-            if acc[1] + acc[0] > 0:
-                rows.append([acc[0], acc[1], acc[0] / (acc[0] + acc[1]), metadata["year"], metadata["chamber"]])
-
-    accuracy = correct / (correct + incorrect)
-
-    lower = beta.ppf(0.05, correct + 1, incorrect + 1)
-    upper = beta.ppf(0.95, correct + 1, incorrect + 1)
-    print(f"ACC: {100 * accuracy:.2f}% [{100* lower:.2f}% – {100* upper:.2f}%]")
-    df = pd.DataFrame(rows, columns=["correct", "incorrect", "accuracy", "year", "chamber"])
-    df["decade"] = (df["year"] // 10) * 10
-    print(df)
-    df.to_csv(f"{args.estimate_path}/mapping-accuracy-estimate.csv", index=False)
-
-    byyear_sum = df[["correct", "incorrect"]].groupby(df['decade']).sum()
-    byyear_sum["lower"] = [beta.ppf(0.05, c + 1, i + 1) for c, i in zip(byyear_sum["correct"], byyear_sum["incorrect"])]
-    byyear_sum["upper"] = [beta.ppf(0.95, c + 1, i + 1) for c, i in zip(byyear_sum["correct"], byyear_sum["incorrect"])]
-    byyear = df['accuracy'].groupby(df['decade'])
-    byyear_sum = byyear_sum.merge(byyear.mean(), on="decade").reset_index()
-    print(byyear_sum)
-    byyear_sum.to_csv(f"{args.estimate_path}/mapping-accuracy-estimate-byyear-sum.csv", index=False)
-
-
-
-
-if __name__ == '__main__':
+if __name__ == "__main__":
+    # -----------------------
+    # Parse command-line args
+    # -----------------------
     parser = fetch_parser("records", docstring=__doc__)
-    parser.add_argument("-d", "--annotated-data",
-                        type=str,
-                        default="quality/data/speaker-mapping/speaker-mapping-gold-standard.csv",
-                        help="Path to annotated ocr quality-control data")
-    parser.add_argument("-o", "--estimate-path",
-                        type=str,
-                        default="quality/estimates/speaker-mapping",
-                        help="Path where the current estimate will be written")
-    main(impute_args(parser.parse_args()))
+    parser.add_argument(
+        "-d", "--annotated-data",
+        type=str,
+        default="quality/data/speaker-mapping/speaker-mapping-gold-standard.csv",
+        help="Path to annotated OCR quality-control data"
+    )
+    parser.add_argument(
+        "-o", "--estimate-path",
+        type=str,
+        default="quality/estimates/speaker-mapping-accuracy",
+        help="Path where the current estimate will be written"
+    )
+    parser.add_argument("-v", "--version", type=str, default="v99.99.99")
+    parser.add_argument("--show", type=str, default="True")
+    args = parser.parse_args()
+    args.show = not args.show.lower().startswith("f")
+    args = impute_args(args)
+
+    # Ensure estimate directory exists
+    os.makedirs(args.estimate_path, exist_ok=True)
+
+    # Load gold standard once (visible to accuracy())
+    gold_standard = pd.read_csv(args.annotated_data)
+
+    # Prepare QualityEstimator
+    qe_estimator = QualityEstimator(
+        records=[],  # will be filled after path preparation
+        estimate_path=args.estimate_path,
+        version=args.version,
+        show=args.show
+    )
+
+    # Prepare records list from gold standard
+    gold_standard["protocol_id"] = gold_standard["protocol_id"].apply(qe_estimator.pathize_protocol_id)
+    qe_estimator.records = list(gold_standard["protocol_id"].unique())
+
+    # Validate version and run the accuracy pipeline
+    qe_estimator.version = qe_estimator.validate_version()
+    qe_estimator.calculate_accuracy(accuracy, column_list=["correct", "incorrect"], bounds=True)
+    qe_estimator.update_difference()
+    qe_estimator.plot_versions(f"{args.estimate_path}/speaker-mapping-accuracy.png")
+
+    # Optionally show plots
+    if args.show:
+        import matplotlib.pyplot as plt
+        plt.show()
+
+    # Clean up resources
+    qe_estimator.teardown()
+    del gold_standard
