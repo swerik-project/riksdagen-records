@@ -7,18 +7,35 @@ This module provides the `QualityEstimator` class, which handles:
 - Versioned CSV updates
 - Plotting accuracy/coverage over multiple versions
 """
-
-import os
-import re
-import sys
-import pandas as pd
+from functools import partial
 import matplotlib.pyplot as plt
-from scipy.stats import beta
-from tqdm import tqdm
-from pyriksdagen.utils import infer_metadata
 from multiprocessing import Pool
-from typing import Callable, List, Optional
+import os
+import pandas as pd
+from pyriksdagen.utils import infer_metadata
+import re
+from scipy.stats import beta
+import sys
+from tqdm import tqdm
+from typing import(
+    Callable, 
+    List, 
+    Optional
+)
 
+def version_number_is_valid(version):
+    """
+    Validate or set a default version string.
+    Returns:
+        str: Valid version string.
+    """
+    if not version:
+        version = "v99.99.99"
+    exp = re.compile(r"v\d+\.\d+\.\d+(?:b|rc\d+)?")
+    if exp.fullmatch(version) or version == "v99.99.99":
+        return version
+    print(f"{version} is not a valid version number. Exiting.")
+    sys.exit(1)
 
 class QualityEstimator:
     """
@@ -42,15 +59,14 @@ class QualityEstimator:
         self.version = version
         self.show = show
         self.estimate_path = estimate_path
+        self.gold_standard: Optional[pd.DataFrame] = None
         self.df_upper: Optional[pd.DataFrame] = None
         self.df_difference: Optional[pd.DataFrame] = None
         self.fig: Optional[plt.Figure] = None
         self.ax: Optional[plt.Axes] = None
         self.pool: Optional[Pool] = None
 
-    # ------------------------
-    # Full pipeline
-    # ------------------------
+
     def run(self, estimate_func: Callable, title: str = "Accuracy", column_list: List[str] = ["correct", "incorrect"], bounds: bool = True):
         """
         Run full estimation pipeline: calculate accuracy, update differences, and plot results.
@@ -62,19 +78,27 @@ class QualityEstimator:
             bounds (bool): Whether to compute beta confidence intervals.
         """
         self.calculate_accuracy(estimate_func, column_list=column_list, bounds=bounds)
+
+        self.df_upper.to_csv(os.path.join(self.estimate_path, "upper_bound.csv"), index=False)
+        print(f"Upper bound {title} summary:")
+        print(self.df_upper)
+        print(f"Average {title}:", self.df_upper["accuracy"].mean())
+        total_known = self.df_upper[column_list[0]].sum()
+        total = self.df_upper[[column_list[0], column_list[1]]].sum().sum()
+        print(f"Weighted average {title}:", total_known / total)
+        min_idx = self.df_upper["accuracy"].idxmin()
+        min_year = self.df_upper.loc[min_idx, "year"]
+        min_value = self.df_upper.loc[min_idx, "accuracy"]
+        print(f"Minimum {title}:", min_value, "at year:", min_year)
+
         self.update_difference()
         self.plot_versions(
             os.path.join(self.estimate_path, f"{title.replace(' ', '-')}.png"),
             n_versions=6,
             title=title
         )
+        self.teardown()
 
-        if self.show and self.fig is not None:
-            self.fig.show()
-
-    # ------------------------
-    # Cleanup
-    # ------------------------
     def teardown(self):
         """Close figures and terminate multiprocessing pool."""
         if self.fig is not None:
@@ -89,30 +113,6 @@ class QualityEstimator:
         self.df_difference = None
         print("Resources cleaned up.")
 
-    def __del__(self):
-        self.teardown()
-
-    # ------------------------
-    # Version validation
-    # ------------------------
-    def validate_version(self) -> str:
-        """
-        Validate or set a default version string.
-
-        Returns:
-            str: Valid version string.
-        """
-        if not self.version:
-            self.version = "v99.99.99"
-        exp = re.compile(r"v\d+\.\d+\.\d+(?:b|rc\d+)?")
-        if exp.fullmatch(self.version) or self.version == "v99.99.99":
-            return self.version
-        print(f"{self.version} is not a valid version number. Exiting.")
-        sys.exit(1)
-
-    # ------------------------
-    # Protocol ID to path
-    # ------------------------
     @staticmethod
     def pathize_protocol_id(protocol_id: str) -> str:
         """
@@ -145,40 +145,47 @@ class QualityEstimator:
         if os.path.exists(path_):
             return path_
         raise FileNotFoundError(f"Can't find {path_}")
-
-    # ------------------------
-    # Version sorting
-    # ------------------------
+    
     @staticmethod
     def version_key(v: str) -> List[int]:
         """Sort key for semantic versioning."""
         if v == "v99.99.99":
             return [999, 999, 999]
+        if not v.startswith("v"):
+            v = "v" + v
+        parts = v[1:].split(".")
+        if len(parts) != 3:
+            raise ValueError(f"Invalid version string: {v!r} (must be 'vX.Y.Z')")
         try:
-            return list(map(int, v[1:].split(".")))
-        except Exception:
-            return [0, 0, 0]
+            return [int(p) for p in parts]
+        except ValueError:
+            raise ValueError(f"Invalid version string: {v!r} (non-integer component)")
 
-    # ------------------------
-    # Accuracy calculation
-    # ------------------------
+
+    class _Worker:
+        """Callable wrapper so workers only need the record."""
+        def __init__(self, estimate_func, gold_standard):
+            self.estimate_func = estimate_func
+            self.gold_standard = gold_standard
+
+        def __call__(self, rec):
+            return self.estimate_func(rec, self.gold_standard)
+
+
     def calculate_accuracy(self, estimate_func: Callable, column_list: List[str] = ["correct", "incorrect"], bounds: bool = True) -> pd.DataFrame:
         """
         Compute per-year counts and accuracy.
-
-        Args:
-            estimate_func (Callable): Function returning (year, count1, count2) per record.
-            column_list (List[str]): Names for the two count columns.
-            bounds (bool): Compute beta confidence intervals if True.
-
-        Returns:
-            pd.DataFrame: Per-year metrics.
         """
         years = sorted({int(str(infer_metadata(p).get("year"))[:4]) for p in self.records})
         df_upper = pd.DataFrame(0, index=years, columns=[column_list[0], column_list[1]])
 
+        worker = QualityEstimator._Worker(estimate_func, self.gold_standard)
+
         self.pool = Pool()
-        for year, val1, val2 in tqdm(self.pool.imap(estimate_func, self.records), total=len(self.records)):
+        for year, val1, val2 in tqdm(
+            self.pool.imap_unordered(worker, self.records),
+            total=len(self.records)
+        ):
             if year in df_upper.index:
                 df_upper.loc[year, column_list[0]] += val1
                 df_upper.loc[year, column_list[1]] += val2
@@ -186,17 +193,18 @@ class QualityEstimator:
         df_upper['accuracy'] = df_upper[column_list[0]] / df_upper.sum(axis=1)
 
         if bounds:
-            df_upper['lower'] = df_upper.apply(lambda r: beta.ppf(0.05, r[column_list[0]]+1, r[column_list[1]]+1), axis=1)
-            df_upper['upper'] = df_upper.apply(lambda r: beta.ppf(0.95, r[column_list[0]]+1, r[column_list[1]]+1), axis=1)
+            df_upper['lower'] = df_upper.apply(
+                lambda r: beta.ppf(0.05, r[column_list[0]]+1, r[column_list[1]]+1), axis=1
+            )
+            df_upper['upper'] = df_upper.apply(
+                lambda r: beta.ppf(0.95, r[column_list[0]]+1, r[column_list[1]]+1), axis=1
+            )
 
         df_upper = df_upper.reset_index().rename(columns={'index': 'year'})
         df_upper.insert(0, 'version', self.version)
         self.df_upper = df_upper
         return df_upper
 
-    # ------------------------
-    # Difference CSV
-    # ------------------------
     def update_difference(self) -> pd.DataFrame:
         """
         Update or create a CSV combining all versions.
@@ -226,9 +234,6 @@ class QualityEstimator:
         self.df_difference = combined
         return combined
 
-    # ------------------------
-    # Plot versions
-    # ------------------------
     def plot_versions(self, output_path: str, ax: Optional[plt.Axes] = None, n_versions: int = 6, title: str = "Accuracy per Year", y_label: str = "Accuracy"):
         """
         Plot accuracy/coverage per version.
@@ -266,3 +271,6 @@ class QualityEstimator:
         self.ax.legend(loc="upper left")
         self.fig.tight_layout()
         self.fig.savefig(output_path)
+
+        if self.show and self.fig is not None:
+            self.fig.show()

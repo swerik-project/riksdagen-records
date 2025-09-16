@@ -7,22 +7,31 @@ gold-standard annotation and produces:
 - CSV summary per year (difference.csv, versioned; only v99.99.99 is overwritten)
 - Line plot of accuracy for the latest versions
 """
-
 import os
 import pandas as pd
-from pyriksdagen.args import fetch_parser, impute_args
-from pyriksdagen.utils import elem_iter, infer_metadata
+from pyriksdagen.args import (
+    fetch_parser,
+    impute_args
+)
 from pyriksdagen.io import parse_tei
-from qe import QualityEstimator
+from pyriksdagen.utils import (
+    elem_iter,
+    infer_metadata,
+    #version_number_is_valid - next release cycle
+)
+from qe import (
+    QualityEstimator, 
+    version_number_is_valid
+)
 
-def accuracy(protocol_path: str):
+
+def accuracy(protocol_path: str, gold_standard: pd.DataFrame):
     """
     Count correct and incorrect 'who' attributes according to the gold standard.
     
     Checks each note element and compares predicted 'who' attributes in child
     elements with the gold-standard person ID.
     """
-    global gold_standard
     df = gold_standard
 
     root, ns = parse_tei(protocol_path)
@@ -53,11 +62,26 @@ def accuracy(protocol_path: str):
 
     return year_code, correct, incorrect
 
+def main(args):
+    os.makedirs(args.estimate_path, exist_ok=True)
+
+    gold_standard = pd.read_csv(args.annotated_data)
+
+    qe_estimator = QualityEstimator(
+        records=[],
+        estimate_path=args.estimate_path,
+        version=version_number_is_valid(args.version),
+        show=args.show
+    )
+
+    gold_standard["protocol_id"] = gold_standard["protocol_id"].apply(qe_estimator.pathize_protocol_id)
+    qe_estimator.records = list(gold_standard["protocol_id"].unique())
+    qe_estimator.gold_standard = gold_standard
+
+    qe_estimator.run(estimate_func = accuracy, title="speaker-mapping-accuracy", column_list = ["correct", "incorrect"], bounds = True)
+
 
 if __name__ == "__main__":
-    # -----------------------
-    # Parse command-line args
-    # -----------------------
     parser = fetch_parser("records", docstring=__doc__)
     parser.add_argument(
         "-d", "--annotated-data",
@@ -75,37 +99,4 @@ if __name__ == "__main__":
     parser.add_argument("--show", type=str, default="True")
     args = parser.parse_args()
     args.show = not args.show.lower().startswith("f")
-    args = impute_args(args)
-
-    # Ensure estimate directory exists
-    os.makedirs(args.estimate_path, exist_ok=True)
-
-    # Load gold standard once (visible to accuracy())
-    gold_standard = pd.read_csv(args.annotated_data)
-
-    # Prepare QualityEstimator
-    qe_estimator = QualityEstimator(
-        records=[],  # will be filled after path preparation
-        estimate_path=args.estimate_path,
-        version=args.version,
-        show=args.show
-    )
-
-    # Prepare records list from gold standard
-    gold_standard["protocol_id"] = gold_standard["protocol_id"].apply(qe_estimator.pathize_protocol_id)
-    qe_estimator.records = list(gold_standard["protocol_id"].unique())
-
-    # Validate version and run the accuracy pipeline
-    qe_estimator.version = qe_estimator.validate_version()
-    qe_estimator.calculate_accuracy(accuracy, column_list=["correct", "incorrect"], bounds=True)
-    qe_estimator.update_difference()
-    qe_estimator.plot_versions(f"{args.estimate_path}/speaker-mapping-accuracy.png")
-
-    # Optionally show plots
-    if args.show:
-        import matplotlib.pyplot as plt
-        plt.show()
-
-    # Clean up resources
-    qe_estimator.teardown()
-    del gold_standard
+    main(impute_args(args))
