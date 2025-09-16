@@ -5,17 +5,23 @@ Estimate and plot the coverage of identified speakers in parliamentary protocols
 This script calculates the fraction of known versus unknown speaker attributions
 and plots coverage per year for the latest versions.
 """
-
-import os
-import pandas as pd
 import matplotlib.pyplot as plt
-from pyriksdagen.args import fetch_parser, impute_args
+import os
+from pyriksdagen.args import (
+    fetch_parser,
+    impute_args
+)
 from pyriksdagen.io import parse_tei
-from pyriksdagen.utils import infer_metadata
-from qe import QualityEstimator
+from pyriksdagen.utils import (
+    infer_metadata,
+    #version_number_is_valid - next release cycle
+) 
+from qe import (
+    QualityEstimator, 
+    version_number_is_valid
+)
 
-
-def accuracy(protocol_path: str):
+def accuracy(protocol_path: str, gold_standard = None):
     """
     Compute counts of known and unknown speaker attributions for a protocol.
 
@@ -37,11 +43,18 @@ def accuracy(protocol_path: str):
                     known += 1
     return year_code, known, unknown
 
+def main(args):
+        
+    qe_estimator = QualityEstimator(
+        records=args.records,
+        estimate_path=args.estimate_path,
+        version=version_number_is_valid(args.version),
+        show=args.show
+    )
+    qe_estimator.run(estimate_func = accuracy, title="speaker-mapping-coverage", column_list = ["known", "unknown"], bounds = False)
+
 
 if __name__ == "__main__":
-    # -----------------------
-    # Parse command-line args
-    # -----------------------
     parser = fetch_parser("records", docstring=__doc__)
     parser.add_argument(
         "-o", "--estimate-path",
@@ -53,48 +66,4 @@ if __name__ == "__main__":
     parser.add_argument("--show", type=str, default="True")
     args = parser.parse_args()
     args.show = not args.show.lower().startswith("f")
-    args = impute_args(args)
-    os.makedirs(args.estimate_path, exist_ok=True)
-
-    # -----------------------
-    # Prepare records
-    # -----------------------
-    qe_estimator = QualityEstimator(
-        records=args.records,
-        estimate_path=args.estimate_path,
-        version=args.version,
-        show=args.show
-    )
-
-    # -----------------------
-    # Run coverage calculation
-    # -----------------------
-    qe_estimator.version = qe_estimator.validate_version()
-    qe_estimator.calculate_accuracy(accuracy, column_list=["known", "unknown"], bounds=False)
-
-    # -----------------------
-    # Save and summarize
-    # -----------------------
-    df_upper = qe_estimator.df_upper
-    df_upper.to_csv(os.path.join(args.estimate_path, "upper_bound.csv"), index=False)
-    print("Upper bound coverage summary:")
-    print(df_upper)
-    print("Average coverage:", df_upper["accuracy"].mean())
-    total_known = df_upper["known"].sum()
-    total = df_upper[["known", "unknown"]].sum().sum()
-    print("Weighted average coverage:", total_known / total)
-    print("Minimum coverage:", df_upper["accuracy"].min(), "at year:", df_upper["accuracy"].idxmin())
-
-    # -----------------------
-    # Plot coverage
-    # -----------------------
-    qe_estimator.update_difference()
-    qe_estimator.plot_versions(os.path.join(args.estimate_path, "speaker-mapping-coverage.png"))
-
-    if args.show:
-        plt.show()
-
-    # -----------------------
-    # Cleanup
-    # -----------------------
-    qe_estimator.teardown()
+    main(impute_args(args))

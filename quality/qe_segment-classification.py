@@ -10,10 +10,20 @@ actual XML tags in protocol files and estimates accuracy per year. It produces:
 
 import os
 import pandas as pd
-from pyriksdagen.args import fetch_parser, impute_args
-from pyriksdagen.utils import elem_iter, infer_metadata
+from pyriksdagen.args import (
+    fetch_parser,
+    impute_args
+)
 from pyriksdagen.io import parse_tei
-from qe import QualityEstimator
+from pyriksdagen.utils import (
+    elem_iter,
+    infer_metadata,
+    #version_number_is_valid - next release cycle
+)
+from qe import (
+    QualityEstimator, 
+    version_number_is_valid
+)
 
 def match_elem(elem, df, ns) -> tuple:
     """
@@ -35,7 +45,6 @@ def match_elem(elem, df, ns) -> tuple:
     annotated_tag = str(df_elem["segmentation"].iloc[0]).lower()
     elem_tag = elem.tag.split("}")[-1]
 
-    # Normalize tags for comparison
     if elem_tag == "seg":
         elem_tag = "u"
     if elem.attrib.get("type") == "speaker":
@@ -43,7 +52,6 @@ def match_elem(elem, df, ns) -> tuple:
     if annotated_tag in ["title", "margin"]:
         annotated_tag = "note"
 
-    # Tags to ignore
     ignored_tags = [
         "unknown", "title, u", "title eller margin", "",
         "u, margin", "margin, intro", "seg/note", "u/intro", "?"
@@ -53,7 +61,7 @@ def match_elem(elem, df, ns) -> tuple:
 
     return (1, 0) if annotated_tag == elem_tag else (0, 1)
 
-def accuracy(protocol_path: str):
+def accuracy(protocol_path: str, gold_standard):
     """
     Compute correct and incorrect segment classifications for a protocol.
 
@@ -63,7 +71,6 @@ def accuracy(protocol_path: str):
     Returns:
         Tuple: (year_code, correct_count, incorrect_count)
     """
-    global gold_standard
     df = gold_standard
 
     root, ns = parse_tei(protocol_path)
@@ -73,7 +80,6 @@ def accuracy(protocol_path: str):
     correct, incorrect = 0, 0
     ids = set(df["elem_id"])
 
-    # Iterate over elements and subelements
     for tag, elem in elem_iter(root):
         elem_id = elem.attrib.get(f'{ns["xml_ns"]}id', None)
         if elem_id in ids:
@@ -89,10 +95,26 @@ def accuracy(protocol_path: str):
 
     return year_code, correct, incorrect
 
+def main(args):
+    os.makedirs(args.estimate_path, exist_ok=True)
+
+    gold_standard = pd.read_csv(args.annotated_data)
+
+    qe_estimator = QualityEstimator(
+        records=[],
+        estimate_path=args.estimate_path,
+        version=version_number_is_valid(args.version),
+        show=args.show
+    )
+
+    gold_standard["protocol_id"] = gold_standard["protocol_id"].apply(qe_estimator.pathize_protocol_id)
+    qe_estimator.records = list(gold_standard["protocol_id"].unique())
+    qe_estimator.gold_standard = gold_standard
+
+    qe_estimator.run(estimate_func = accuracy, title="segment-classification-accuracy", column_list = ["correct", "incorrect"], bounds = True)
+
+
 if __name__ == "__main__":
-    # ------------------------
-    # Argument parsing
-    # ------------------------
     parser = fetch_parser("records", docstring=__doc__)
     parser.add_argument(
         "-d", "--annotated-data",
@@ -120,49 +142,4 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     args.show = not args.show.lower().startswith("f")
-    args = impute_args(args)
-
-    # Ensure output directory exists
-    os.makedirs(args.estimate_path, exist_ok=True)
-
-    # ------------------------
-    # Load gold standard
-    # ------------------------
-    gold_standard = pd.read_csv(args.annotated_data)
-
-    # ------------------------
-    # Instantiate QualityEstimator
-    # ------------------------
-    qe_estimator = QualityEstimator(
-        records=[],
-        estimate_path=args.estimate_path,
-        version=args.version,
-        show=args.show
-    )
-
-    # Convert protocol IDs to XML paths and set records
-    gold_standard["protocol_id"] = gold_standard["protocol_id"].apply(qe_estimator.pathize_protocol_id)
-    qe_estimator.records = list(gold_standard["protocol_id"].unique())
-
-    # Validate version
-    qe_estimator.version = qe_estimator.validate_version()
-
-    # ------------------------
-    # Run accuracy estimation pipeline
-    # ------------------------
-    qe_estimator.calculate_accuracy(
-        estimate_func=accuracy,
-        column_list=["correct", "incorrect"],
-        bounds=False
-    )
-    qe_estimator.update_difference()
-    qe_estimator.plot_versions(f"{args.estimate_path}/segment-classification-accuracy.png")
-
-    # Show plot if requested
-    if args.show:
-        import matplotlib.pyplot as plt
-        plt.show()
-
-    # Clean up resources
-    qe_estimator.teardown()
-    del gold_standard
+    main(impute_args(args))
