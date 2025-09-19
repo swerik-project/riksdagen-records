@@ -51,7 +51,7 @@ class Test(unittest.TestCase):
                 if filenamedate not in p_docdates:
                     filename_date_mismatch.append([p, "filename date not in docdate"])
                 else:
-                    if len(set(p_docdates)) < 1:
+                    if len(set(p_docdates)) > 1:
                         filename_date_mismatch.append([p, "additional docdates than filename date"])
 
             last_end_date = last
