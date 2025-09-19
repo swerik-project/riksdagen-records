@@ -5,7 +5,8 @@ on:
     branches:
       - 'dev'
     paths:
-      - data/
+      - data/**
+  workflow_dispatch:
 
 jobs:
   decade-1860:

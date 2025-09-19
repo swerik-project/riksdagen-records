@@ -3,7 +3,8 @@ name: "Riksdagen Records: validate added, modified and deleted files"
 on:
   pull_request:
     paths:
-      - data/
+      - data/**
+  workflow_dispatch:
 
 jobs:
   # This workflow contains a single job called "build"

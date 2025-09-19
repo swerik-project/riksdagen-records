@@ -3,7 +3,8 @@ name: "Riksdagen Records: data integrity tests"
 on:
   push:
     paths:
-      - data/
+      - data/**
+  workflow_dispatch:
 
 jobs:
   schemas:
