@@ -81,7 +81,7 @@ def accuracy(protocol):
     """
     root, ns = parse_protocol(protocol, get_ns=True)
     for docDate in root.findall(f".//{ns['tei_ns']}docDate"):
-        date_string = docDate.text
+        date_string = docDate.text.strip()
         break
     year = int(date_string[:4])
     known, unknown = 0, 0
