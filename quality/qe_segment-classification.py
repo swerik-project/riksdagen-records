@@ -1,68 +1,50 @@
 #!/usr/bin/env python3
 """
-Estimate quality of segment classification.
+Estimate the quality of segment classification in parliamentary protocols.
 
-.. include:: docs/qe_speaker-mapping.md
+This script compares annotated segmentation tags (gold standard) with the
+actual XML tags in protocol files and estimates accuracy per year. It produces:
+- CSV summary per year (difference.csv, versioned; only v99.99.99 is overwritten)
+- Line plot of accuracy for the latest six versions
 """
+
+import os
+import pandas as pd
 from pyriksdagen.args import (
     fetch_parser,
-    impute_args,
+    impute_args
 )
+from pyriksdagen.io import parse_tei
 from pyriksdagen.utils import (
     elem_iter,
     infer_metadata,
-    parse_tei,
-#    pathize_protocol_id,
+    #version_number_is_valid - next release cycle
 )
-from scipy.stats import beta
-from tqdm import tqdm
-import os
-import pandas as pd
-import re
+from qe import (
+    QualityEstimator, 
+    version_number_is_valid
+)
 
-
-
-
-# rm after fn released in pyriksdagen
-def pathize_protocol_id(protocol_id):
+def match_elem(elem, df, ns) -> tuple:
     """
-    Turn the protocol id into a path string
-    """
+    Compare a single XML element with the annotated segmentation tag.
 
-    spl = protocol_id.split('-')
-    py = spl[1]
-    suffix = ""
-    if len(spl) == 4:
-        nr = spl[3]
-        pren = '-'.join(spl[:3])
-    else:
-        nr = spl[5]
-        pren = '-'.join(spl[:5])
-        if len(spl) == 7:
-            suffix = f"-{spl[-1]}"
-    path_ = f"data/{py}/{pren}-{nr:0>3}{suffix}.xml"
-    #print(path_)
-    if os.path.exists(path_):
-        return path_
-    else:
-        path_ = re.sub(f'((extra)?h[^-]+st|")', '', path_)
-    #    print("~~~~", path_)
-        if os.path.exists(path_):
-            return path_
-    raise FileNotFoundError(f"Can't find {path_}")
+    Args:
+        elem: XML element from the protocol.
+        df: DataFrame containing gold-standard annotations.
+        ns: Namespace dictionary for XML parsing.
 
-
-def match_elem(elem, df, ns):
-    """
-    Check if annotated tag matches tag in protocol.
+    Returns:
+        Tuple of (correct_count, incorrect_count), either (1, 0) or (0, 1),
+        or (0, 0) if the element should be ignored.
     """
     elem_id = elem.attrib.get(f'{ns["xml_ns"]}id', None)
     df_elem = df[df["elem_id"] == elem_id]
-    assert len(df_elem) == 1
+    assert len(df_elem) == 1, f"Element ID {elem_id} not found in gold standard"
 
-    annotated_tag = list(df_elem["segmentation"])[0]
-
+    annotated_tag = str(df_elem["segmentation"].iloc[0]).lower()
     elem_tag = elem.tag.split("}")[-1]
+
     if elem_tag == "seg":
         elem_tag = "u"
     if elem.attrib.get("type") == "speaker":
@@ -70,95 +52,94 @@ def match_elem(elem, df, ns):
     if annotated_tag in ["title", "margin"]:
         annotated_tag = "note"
 
-    if type(annotated_tag) == float or annotated_tag not in ["intro", "u", "note"]:
-        print("Invalid annotation:", annotated_tag)
-        return 0,0
+    ignored_tags = [
+        "unknown", "title, u", "title eller margin", "",
+        "u, margin", "margin, intro", "seg/note", "u/intro", "?"
+    ]
+    if annotated_tag in ignored_tags:
+        return 0, 0
 
-    if annotated_tag == elem_tag:
-        return 1,0
-    else:
-        print("Error:", annotated_tag, elem_tag)
-        return 0,1
+    return (1, 0) if annotated_tag == elem_tag else (0, 1)
 
-
-# Fix parallellization
-def estimate_accuracy(protocol, df):
+def accuracy(protocol_path: str, gold_standard):
     """
-    Return correct / incorrect counts of (mis)matched segments.
+    Compute correct and incorrect segment classifications for a protocol.
+
+    Args:
+        protocol_path: Path to the XML protocol file.
+
+    Returns:
+        Tuple: (year_code, correct_count, incorrect_count)
     """
-    root, ns = parse_tei(protocol)
+    df = gold_standard
+
+    root, ns = parse_tei(protocol_path)
+    metadata = infer_metadata(protocol_path)
+    year_code = int(str(metadata.get("year"))[:4])
+
     correct, incorrect = 0, 0
     ids = set(df["elem_id"])
+
     for tag, elem in elem_iter(root):
-        if tag == "u":
-            x = None
-            for subelem in elem:
-                x = subelem.attrib.get(f'{ns["xml_ns"]}id', None)
-                if x in ids:
-                    subelem_text = " ".join(subelem.text.split())
-                    results = match_elem(subelem, df, ns)
-                    correct += results[0]
-                    incorrect += results[1]
+        elem_id = elem.attrib.get(f'{ns["xml_ns"]}id', None)
+        if elem_id in ids:
+            c, i = match_elem(elem, df, ns)
+            correct += c
+            incorrect += i
+        for subelem in elem:
+            subelem_id = subelem.attrib.get(f'{ns["xml_ns"]}id', None)
+            if subelem_id in ids:
+                c, i = match_elem(subelem, df, ns)
+                correct += c
+                incorrect += i
 
-        elif tag in ["note"]:
-            x = elem.attrib.get(f'{ns["xml_ns"]}id', None)
-            if x in ids:
-                elem_text = " ".join(elem.text.split())
-                results = match_elem(elem, df, ns)
-                correct += results[0]
-                incorrect += results[1]
-
-    return correct, incorrect
-
+    return year_code, correct, incorrect
 
 def main(args):
-    rows = []
-    correct, incorrect = 0, 0
-    df = pd.read_csv(args.annotated_data)
-    df["protocol_id"] = df["protocol_id"].apply(lambda x: pathize_protocol_id(x))
-    records = list(df["protocol_id"].unique())
-    for record in tqdm(records):
-        df_p = df[df["protocol_id"] == record]
-        if len(df_p) >= 1:
-            metadata = infer_metadata(record)
-            acc = estimate_accuracy(record, df_p)
-            correct += acc[0]
-            incorrect += acc[1]
-            if acc[1] + acc[0] > 0:
-                rows.append([acc[0], acc[1], acc[0] / (acc[0] + acc[1]), metadata["year"], metadata["chamber"]])
+    os.makedirs(args.estimate_path, exist_ok=True)
 
-    accuracy = correct / (correct + incorrect)
+    gold_standard = pd.read_csv(args.annotated_data)
 
-    lower = beta.ppf(0.05, correct + 1, incorrect + 1)
-    upper = beta.ppf(0.95, correct + 1, incorrect + 1)
-    print(f"ACC: {100 * accuracy:.2f}% [{100* lower:.2f}% – {100* upper:.2f}%]")
+    qe_estimator = QualityEstimator(
+        records=[],
+        estimate_path=args.estimate_path,
+        version=version_number_is_valid(args.version),
+        show=args.show
+    )
 
-    print(correct, incorrect)
+    gold_standard["protocol_id"] = gold_standard["protocol_id"].apply(qe_estimator.pathize_protocol_id)
+    qe_estimator.records = list(gold_standard["protocol_id"].unique())
+    qe_estimator.gold_standard = gold_standard
 
-    df = pd.DataFrame(rows, columns=["correct", "incorrect", "accuracy", "year", "chamber"])
-    df["decade"] = (df["year"] // 10) * 10
-    print(df)
-    df.to_csv(f"{args.estimate_path}/segment-classification-estimate.csv", index=False)
-
-    byyear_sum = df[["correct", "incorrect"]].groupby(df['decade']).sum()
-    byyear_sum["lower"] = [beta.ppf(0.05, c + 1, i + 1) for c, i in zip(byyear_sum["correct"], byyear_sum["incorrect"])]
-    byyear_sum["upper"] = [beta.ppf(0.95, c + 1, i + 1) for c, i in zip(byyear_sum["correct"], byyear_sum["incorrect"])]
-    byyear = df['accuracy'].groupby(df['decade'])
-    byyear_sum = byyear_sum.merge(byyear.mean(), on="decade").reset_index()
-    print(byyear_sum)
-    byyear_sum.to_csv(f"{args.estimate_path}/segment-classification-estimate-byyear-sum.csv", index=False)
+    qe_estimator.run(estimate_func = accuracy, title="segment-classification-accuracy", column_list = ["correct", "incorrect"], bounds = True)
 
 
-
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     parser = fetch_parser("records", docstring=__doc__)
-    parser.add_argument("-d", "--annotated-data",
-                        type=str,
-                        default="quality/data/segment-classification/segment-classification.csv",
-                        help="Path to annotated segment classification quality-control data")
-    parser.add_argument("-o", "--estimate-path",
-                        type=str,
-                        default="quality/estimates/segment-classification",
-                        help="Path where the current estimate will be written")
-    main(impute_args(parser.parse_args()))
+    parser.add_argument(
+        "-d", "--annotated-data",
+        type=str,
+        default="quality/data/segment-classification/segment-classification-gold-standard.csv",
+        help="Path to CSV file containing gold-standard segmentation tags"
+    )
+    parser.add_argument(
+        "-o", "--estimate-path",
+        type=str,
+        default="quality/estimates/segment-classification",
+        help="Directory where results and plots will be saved"
+    )
+    parser.add_argument(
+        "-v", "--version",
+        type=str,
+        default="v99.99.99",
+        help="Version string for this run (semantic versioning)"
+    )
+    parser.add_argument(
+        "--show",
+        type=str,
+        default="True",
+        help="Whether to show the plot interactively (True/False)"
+    )
+    args = parser.parse_args()
+    args.show = not args.show.lower().startswith("f")
+    main(impute_args(args))
