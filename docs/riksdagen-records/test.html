@@ -44,6 +44,7 @@
     <li><a href="#-9"> </a></li>
     <li><a href="#-10"> </a></li>
   </ul></li>
+  <li><a href="#-11"> </a></li>
 </ul>
 
 
@@ -57,12 +58,13 @@
                     <li><a href="test/prot-not-empty.html">prot-not-empty</a></li>
                     <li><a href="test/records-in-sequence.html">records-in-sequence</a></li>
                     <li><a href="test/schemas.html">schemas</a></li>
+                    <li><a href="test/test_doc-id.html">test_doc-id</a></li>
                     <li><a href="test/unchanged.html">unchanged</a></li>
                     <li><a href="test/validate_parlaclarin.html">validate_parlaclarin</a></li>
             </ul>
 
 
-            <footer>v1.4.2</footer>
+            <footer>v1.4.3</footer>
 
         <a class="attribution" title="pdoc: Python API documentation generator" href="https://pdoc.dev" target="_blank">
             built with <span class="visually-hidden">pdoc</span><img
@@ -157,6 +159,17 @@
 <p>check that files don't change if they shouldn't</p>
 
 <h2 id="-10"> </h2>
+
+<h3 id="test_doc-idpy">test_doc-id.py</h3>
+
+<p>Check that:</p>
+
+<pre><code>- each document has an ID in the TEI element
+- ID matches the doc filename
+- URL links in the pb element use the same ID
+</code></pre>
+
+<h1 id="-11"> </h1>
 </div>
 
                         <input id="mod-test-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
@@ -238,7 +251,13 @@
 </span><span id="L-73"><a href="#L-73"><span class="linenos">73</span></a><span class="sd">            :end-before: Test Cases</span>
 </span><span id="L-74"><a href="#L-74"><span class="linenos">74</span></a>
 </span><span id="L-75"><a href="#L-75"><span class="linenos">75</span></a>
-</span><span id="L-76"><a href="#L-76"><span class="linenos">76</span></a><span class="sd">&quot;&quot;&quot;</span>
+</span><span id="L-76"><a href="#L-76"><span class="linenos">76</span></a><span class="sd">### test_doc-id.py</span>
+</span><span id="L-77"><a href="#L-77"><span class="linenos">77</span></a>
+</span><span id="L-78"><a href="#L-78"><span class="linenos">78</span></a><span class="sd">.. include:: docs/doc-ids.md</span>
+</span><span id="L-79"><a href="#L-79"><span class="linenos">79</span></a><span class="sd">            :start-after: Summary</span>
+</span><span id="L-80"><a href="#L-80"><span class="linenos">80</span></a><span class="sd">            :end-before: Test Cases</span>
+</span><span id="L-81"><a href="#L-81"><span class="linenos">81</span></a>
+</span><span id="L-82"><a href="#L-82"><span class="linenos">82</span></a><span class="sd">&quot;&quot;&quot;</span>
 </span></pre></div>
 
 
