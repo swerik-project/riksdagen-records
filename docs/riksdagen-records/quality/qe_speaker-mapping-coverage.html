@@ -46,7 +46,7 @@
     </ul>
 
 
-            <footer>v1.4.2</footer>
+            <footer>v1.4.3</footer>
 
         <a class="attribution" title="pdoc: Python API documentation generator" href="https://pdoc.dev" target="_blank">
             built with <span class="visually-hidden">pdoc</span><img
@@ -152,7 +152,7 @@
 </span><span id="L-81"><a href="#L-81"><span class="linenos"> 81</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="L-82"><a href="#L-82"><span class="linenos"> 82</span></a>    <span class="n">root</span><span class="p">,</span> <span class="n">ns</span> <span class="o">=</span> <span class="n">parse_protocol</span><span class="p">(</span><span class="n">protocol</span><span class="p">,</span> <span class="n">get_ns</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </span><span id="L-83"><a href="#L-83"><span class="linenos"> 83</span></a>    <span class="k">for</span> <span class="n">docDate</span> <span class="ow">in</span> <span class="n">root</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;.//</span><span class="si">{</span><span class="n">ns</span><span class="p">[</span><span class="s1">&#39;tei_ns&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">docDate&quot;</span><span class="p">):</span>
-</span><span id="L-84"><a href="#L-84"><span class="linenos"> 84</span></a>        <span class="n">date_string</span> <span class="o">=</span> <span class="n">docDate</span><span class="o">.</span><span class="n">text</span>
+</span><span id="L-84"><a href="#L-84"><span class="linenos"> 84</span></a>        <span class="n">date_string</span> <span class="o">=</span> <span class="n">docDate</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
 </span><span id="L-85"><a href="#L-85"><span class="linenos"> 85</span></a>        <span class="k">break</span>
 </span><span id="L-86"><a href="#L-86"><span class="linenos"> 86</span></a>    <span class="n">year</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">date_string</span><span class="p">[:</span><span class="mi">4</span><span class="p">])</span>
 </span><span id="L-87"><a href="#L-87"><span class="linenos"> 87</span></a>    <span class="n">known</span><span class="p">,</span> <span class="n">unknown</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span>
@@ -311,7 +311,7 @@
 </span><span id="accuracy-82"><a href="#accuracy-82"><span class="linenos">82</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="accuracy-83"><a href="#accuracy-83"><span class="linenos">83</span></a>    <span class="n">root</span><span class="p">,</span> <span class="n">ns</span> <span class="o">=</span> <span class="n">parse_protocol</span><span class="p">(</span><span class="n">protocol</span><span class="p">,</span> <span class="n">get_ns</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </span><span id="accuracy-84"><a href="#accuracy-84"><span class="linenos">84</span></a>    <span class="k">for</span> <span class="n">docDate</span> <span class="ow">in</span> <span class="n">root</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;.//</span><span class="si">{</span><span class="n">ns</span><span class="p">[</span><span class="s1">&#39;tei_ns&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">docDate&quot;</span><span class="p">):</span>
-</span><span id="accuracy-85"><a href="#accuracy-85"><span class="linenos">85</span></a>        <span class="n">date_string</span> <span class="o">=</span> <span class="n">docDate</span><span class="o">.</span><span class="n">text</span>
+</span><span id="accuracy-85"><a href="#accuracy-85"><span class="linenos">85</span></a>        <span class="n">date_string</span> <span class="o">=</span> <span class="n">docDate</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
 </span><span id="accuracy-86"><a href="#accuracy-86"><span class="linenos">86</span></a>        <span class="k">break</span>
 </span><span id="accuracy-87"><a href="#accuracy-87"><span class="linenos">87</span></a>    <span class="n">year</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">date_string</span><span class="p">[:</span><span class="mi">4</span><span class="p">])</span>
 </span><span id="accuracy-88"><a href="#accuracy-88"><span class="linenos">88</span></a>    <span class="n">known</span><span class="p">,</span> <span class="n">unknown</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span>
