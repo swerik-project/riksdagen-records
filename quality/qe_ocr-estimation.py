@@ -6,7 +6,7 @@ This script evaluates the quality of OCRed text against annotated reference text
 It computes metrics such as:
 - Levenshtein distance (LEV)
 - Word Error Rate (WER)
-- Character Error Rate (CER)
+- Character Error Rate (CER)  # case-sensitive
 - Perfect match ratio (percentage of exact matches)
 
 The script processes TEI XML protocols, aligns annotated lines with OCR segments,
@@ -63,14 +63,18 @@ def pathize_protocol_id(protocol_id: str) -> str:
     if candidate.exists():
         return str(candidate)
 
-    # fallback sanitisation used in original code
     sanitized = re.sub(r'((extra)?h[^-]+st|")', '', str(candidate))
     candidate2 = Path(sanitized)
     if candidate2.exists():
         return str(candidate2)
 
-    raise FileNotFoundError(f"Can't find {protocol_id} -> {candidate}")
+    year_path = Path(f"data/{py}")
+    if year_path.exists():
+        files = list(year_path.glob(f"{pren}-*.xml"))
+        if files:
+            return str(files[0])
 
+    raise FileNotFoundError(f"Can't find {protocol_id} -> {candidate}")
 
 @lru_cache(maxsize=256)
 def cached_parse_tei(path_or_id: str):
@@ -92,6 +96,7 @@ def get_pb_positions(path_or_id: str) -> List[Tuple[int, int]]:
 
 
 def unformat_text(text: Optional[str]) -> str:
+    """Clean text by stripping whitespace and joining lines."""
     if text is None:
         return ""
     parts = [p.strip() for p in str(text).splitlines() if p.strip()]
@@ -99,19 +104,23 @@ def unformat_text(text: Optional[str]) -> str:
 
 
 def get_text_from_elem(e, acc: List[str], ns) -> None:
-    """Append normalized text from element `e` into list `acc` (in place)."""
+    """Extract text from TEI element `e` recursively, according to current XML structure."""
     if e is None:
         return
     tag = e.tag
-    if tag == f"{ns['tei_ns']}note":
+    if "}" in tag:
+        tag = tag.split("}", 1)[1]
+
+    if tag in ("note", "p", "fw"):
         txt = unformat_text(e.text)
         if txt:
             acc.append(txt)
-    elif tag == f"{ns['tei_ns']}u":
-        for seg in e:
-            txt = unformat_text(getattr(seg, 'text', None))
-            if txt:
-                acc.append(txt)
+    elif tag in ("u", "div", "list", "item"):
+        txt = unformat_text(e.text)
+        if txt:
+            acc.append(txt)
+        for child in e:
+            get_text_from_elem(child, acc, ns)
     else:
         txt = unformat_text("".join(e.itertext()))
         if txt:
@@ -140,61 +149,102 @@ def get_text_range(path_or_id: str, pb_range: Tuple[Tuple[int, int], Tuple[int, 
 
 
 def get_all_text(path_or_id: str, split_lines: bool = False) -> Union[List[str], str]:
+    """Extract all text from TEI XML according to current structure."""
     root, ns = cached_parse_tei(path_or_id)
     acc: List[str] = []
+
+    # Iterate over all elements using utility
     for tag, elem in elem_iter(root):
         get_text_from_elem(elem, acc, ns)
+
     if split_lines:
-        return [p for p in acc if p]
+        lines: List[str] = []
+        for block in acc:
+            for line in block.splitlines():
+                line = line.strip()
+                if line:
+                    lines.append(line)
+        return lines
     return "\n".join(acc)
 
 
 def normalize_text(s: Optional[str], _re_space=re.compile(r"\s+")) -> str:
+    """Normalize text by removing extra spaces and normalizing dashes; case is preserved."""
     if s is None:
         return ""
-    s = str(s).lower()
+    s = str(s)
     s = s.replace('–', '-').replace('—', '-')
     s = _re_space.sub(' ', s).strip()
     return s
 
-def sliding_windows(text: str, window_len: int) -> List[str]:
-    n = len(text)
-    if n <= window_len:
-        return [text]
-    return [text[i:i+window_len] for i in range(n - window_len + 1)]
+
+def tokenize_by_whitespace(text: str) -> List[str]:
+    """Split text into tokens by whitespace."""
+    text = normalize_text(text)
+    if not text:
+        return []
+    return [t for t in re.split(r"\s+", text) if t]
 
 
-def get_most_probable_line_rq(annotation: str, segments: List[str], min_window: int = 20) -> Tuple[str, int]:
-    """Return substring from `segments` with minimal Levenshtein distance to `annotation`."""
+def get_most_probable_line_rq(annotation: str, segments: List[str]) -> Tuple[str, int, str]:
+    """
+    Return the segment that best matches the annotation.
+    Approach:
+      1. Exact substring match first
+      2. Word-token sliding window
+      3. Character sliding window
+    Returns:
+        best_match (str), lev_distance (int), method ('substring', 'token', 'char')
+    """
     ann = normalize_text(annotation)
-    best_lev = float('inf')
-    best_text = ""
-    ann_len = len(ann)
-    window_len = max(ann_len, min_window)
+    if not ann:
+        return "", 0, "none"
 
+    seg_text = " ".join([normalize_text(s) for s in segments])
+
+    # --- 1. Exact substring check ---
+    if ann in seg_text:
+        return ann, 0, "substring"
+
+    # --- 2. Token-based sliding window ---
+    ann_tokens = tokenize_by_whitespace(ann)
+    seg_tokens = []
     for seg in segments:
-        seg_norm = normalize_text(seg)
-        seg_len = len(seg_norm)
-        if seg_len == 0:
-            continue
-        if seg_len <= window_len:
-            lev = Levenshtein.distance(ann, seg_norm)
-            if lev < best_lev:
-                best_lev = lev
-                best_text = seg_norm
-        else:
-            for w in sliding_windows(seg_norm, window_len):
-                lev = Levenshtein.distance(ann, w)
-                if lev < best_lev:
-                    best_lev = lev
-                    best_text = w
-    return best_text, int(best_lev if best_lev != float('inf') else 0)
+        seg_tokens.extend(tokenize_by_whitespace(seg))
+
+    best_dist_token = float("inf")
+    best_match_token = ""
+    if ann_tokens and seg_tokens:
+        n = len(ann_tokens)
+        for i in range(len(seg_tokens) - n + 1):
+            candidate = " ".join(seg_tokens[i:i+n])
+            dist = Levenshtein.distance(ann, candidate)
+            if dist < best_dist_token:
+                best_dist_token = dist
+                best_match_token = candidate
+
+    # --- 3. Character sliding window ---
+    ann_len = len(ann)
+    best_dist_char = float("inf")
+    best_match_char = ""
+    if ann_len > 0 and len(seg_text) >= ann_len:
+        for i in range(0, len(seg_text) - ann_len + 1):
+            candidate = seg_text[i:i+ann_len+2]
+            dist = Levenshtein.distance(ann, candidate)
+            if dist < best_dist_char:
+                best_dist_char = dist
+                best_match_char = candidate
+
+    # --- Choose best approach ---
+    if best_dist_token <= best_dist_char:
+        return best_match_token, best_dist_token, "token"
+    else:
+        return best_match_char, best_dist_char, "char"
 
 
-def process_row_series(row: pd.Series) -> Tuple[str, int]:
-    """Process a single annotated row. Returns (most_probable_line, lev_distance)."""
+def process_row_series(row: pd.Series) -> Tuple[str, int, str]:
+    """Process a single annotated row. Returns (most_probable_line, lev_distance, method)."""
     protocol_id = row['protocol_id']
-
     pb_positions = get_pb_positions(protocol_id)
 
     if 'facs' in row.index and pd.notna(row.get('x')):
@@ -215,8 +265,8 @@ def process_row_series(row: pd.Series) -> Tuple[str, int]:
     else:
         segments = get_all_text(protocol_id, split_lines=True)
 
-    mp, lev = get_most_probable_line_rq(row.get('content', ''), segments)
-    return mp, lev
+    mp, lev, method = get_most_probable_line_rq(row.get('content', ''), segments)
+    return mp, lev, method
 
 
 def process_csv(sample: str) -> pd.DataFrame:
@@ -225,12 +275,14 @@ def process_csv(sample: str) -> pd.DataFrame:
     df['protocol_id'] = df['protocol_id'].apply(pathize_protocol_id)
 
     out = df.apply(lambda r: process_row_series(r), axis=1)
-    df[['most_probable_line', 'lev']] = pd.DataFrame(out.tolist(), index=df.index)
+    df[['most_probable_line', 'lev', 'method']] = pd.DataFrame(out.tolist(), index=df.index)
+    df["lev"] = pd.to_numeric(df["lev"])
 
     return df
 
 
 class OCRQualityEstimator:
+    """Handles aggregation, plotting, saving, and resource cleanup for OCR metrics."""
     def __init__(self, estimate_path: str, version: str, show: bool = False):
         self.estimate_path = estimate_path
         self.version = version
@@ -255,7 +307,7 @@ class OCRQualityEstimator:
             raise ValueError(f"Invalid version string: {v!r} (non-integer component)")
 
     def aggregate_per_year(self, df: pd.DataFrame) -> pd.DataFrame:
-        """Aggregate Levenshtein, WER, CER metrics per year with quantiles."""
+        """Aggregate Levenshtein, WER, CER metrics per year with quantiles, incl. method stats."""
         df = df.copy()
 
         def extract_year(path: str):
@@ -265,18 +317,23 @@ class OCRQualityEstimator:
         df['year'] = df['protocol_id'].apply(extract_year)
 
         def wer_levenshtein(ref: str, hyp: str) -> float:
-            ref_tokens = ref.split()
-            hyp_tokens = hyp.split()
-            if len(ref_tokens) == 0:
-                return 1.0 if len(hyp_tokens) > 0 else 0.0
-            lev = Levenshtein.distance(" ".join(ref_tokens), " ".join(hyp_tokens))
-            return lev / len(ref_tokens)
+            """Compute WER = token-level Levenshtein / reference length."""
+            ref_tokens = tokenize_by_whitespace(ref)
+            hyp_tokens = tokenize_by_whitespace(hyp)
+            if not ref_tokens:
+                return 1.0 if hyp_tokens else 0.0
+            return Levenshtein.distance(ref_tokens, hyp_tokens) / len(ref_tokens)
 
         df['wer'] = [wer_levenshtein(a, m) for a, m in zip(df['content'], df['most_probable_line'])]
-        ann_len = df['content'].str.len().replace(0, 1).to_numpy()
-        df['cer'] = df['lev'].to_numpy() / ann_len
+        df['cer'] = [
+            Levenshtein.distance(str(a), str(m)) / max(len(str(a)), 1)
+            for a, m in zip(df['content'], df['most_probable_line'])
+        ]
 
         df['perfect_match'] = (df['lev'] == 0).astype(int)
+        # --- New: method usage proportions ---
+        def method_ratio(series, method_name: str):
+            return (series == method_name).sum() / len(series) if len(series) > 0 else 0.0
 
         agg = df.groupby('year').agg(
             lev_mean=('lev', 'mean'),
@@ -288,17 +345,18 @@ class OCRQualityEstimator:
             cer_mean=('cer', 'mean'),
             cer_first_q=('cer', lambda x: x.quantile(0.25)),
             cer_third_q=('cer', lambda x: x.quantile(0.75)),
-            perfect_match=('lev', lambda x: (x == 0).sum() / len(x))
+            perfect_match=('lev', lambda x: (x == 0).sum() / len(x)),
+            token_ratio=('method', lambda x: method_ratio(x, "token")),
+            char_ratio=('method', lambda x: method_ratio(x, "char"))
         ).reset_index()
+
         agg.insert(0, 'version', self.version)
         return agg
 
+
     def save_metrics(self, df: pd.DataFrame):
         metrics_path = Path(self.estimate_path) / "metrics.csv"
-
-        # Flatten column names to avoid MultiIndex issues
-        #df.columns = [c if isinstance(c, str) else "_".join(c).strip() for c in df.columns]
-
+        
         if os.path.exists(metrics_path):
             existing = pd.read_csv(metrics_path)
 
