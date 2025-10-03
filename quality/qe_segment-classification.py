@@ -20,7 +20,7 @@ from pyriksdagen.utils import (
     infer_metadata,
     #version_number_is_valid - next release cycle
 )
-from qe import (
+from quality.qe import (
     QualityEstimator, 
     version_number_is_valid
 )
