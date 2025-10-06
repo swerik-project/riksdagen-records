@@ -7,9 +7,10 @@ actual XML tags in protocol files and estimates accuracy per year. It produces:
 - CSV summary per year (difference.csv, versioned; only v99.99.99 is overwritten)
 - Line plot of accuracy for the latest six versions
 """
-
 import os
 import pandas as pd
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from pyriksdagen.args import (
     fetch_parser,
     impute_args
@@ -20,7 +21,7 @@ from pyriksdagen.utils import (
     infer_metadata,
     #version_number_is_valid - next release cycle
 )
-from .quality.qe import (
+from quality.qe import (
     QualityEstimator, 
     version_number_is_valid
 )
@@ -119,7 +120,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "-d", "--annotated-data",
         type=str,
-        default="quality/data/segment-classification/segment-classification-gold-standard.csv",
+        default="quality/data/segment-classification/segment-classification.csv",
         help="Path to CSV file containing gold-standard segmentation tags"
     )
     parser.add_argument(
