@@ -138,7 +138,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--show",
         type=str,
-        default="True",
+        default="False",
         help="Whether to show the plot interactively (True/False)"
     )
     args = parser.parse_args()
