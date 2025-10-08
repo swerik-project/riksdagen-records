@@ -12,15 +12,9 @@ import pandas as pd
 from pyriksdagen.io import parse_tei
 from pyriksdagen.utils import get_doc_dates
 import sys
-from typing import (
-    Dict,
-    List,
-    Tuple,
-    Union
-)
 
 class ProtocolValidationRunner:
-    def __init__(self, annotated_data=None, estimate_path="quality/estimates/record_dates", num_processes=4, show=False):
+    def __init__(self, annotated_data=None, estimate_path="quality/estimates/record-dates", num_processes=4, show=False):
 
         self.annotated_data = annotated_data
         self.estimate_path = estimate_path
@@ -107,11 +101,11 @@ def process_protocol(args):
 
 def calculate_metrics(missing, extra, df):
     """
-    Compute precision, recall, and F1-score per year and overall.
+    Compute precision, recall, F1-score, and Jaccard coefficient per year and overall.
 
     Returns:
-        metrics_per_year (dict): Yearly metrics with keys 'gold', 'fp', 'fn', 'precision', 'recall', 'f1'.
-        overall_metrics (dict): Overall precision, recall, and F1-score across all years.
+        metrics_per_year (dict): Yearly metrics with keys 'gold', 'fp', 'fn', 'precision', 'recall', 'f1', 'jaccard'.
+        overall_metrics (dict): Overall precision, recall, F1-score, and Jaccard coefficient across all years.
     """
     metrics_per_year = {}
     for _, row in df.iterrows():
@@ -126,22 +120,30 @@ def calculate_metrics(missing, extra, df):
     for e in extra:
         year = int(e['file_path'].split('/')[1][:4])
         metrics_per_year[year]['fp'] += 1
+
     for year, stats in metrics_per_year.items():
         tp = max(0, stats['gold'] - stats['fn'])
         precision = tp / (tp + stats['fp']) if (tp + stats['fp']) > 0 else 0
         recall = tp / (tp + stats['fn']) if (tp + stats['fn']) > 0 else 0
         f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0
-        stats.update({'precision': precision, 'recall': recall, 'f1': f1})
+        jaccard = tp / (tp + stats['fp'] + stats['fn']) if (tp + stats['fp'] + stats['fn']) > 0 else 0  # <-- added
+        stats.update({'precision': precision, 'recall': recall, 'f1': f1, 'jaccard': jaccard})  # <-- added
+
     total_tp = sum(max(0, stats['gold'] - stats['fn']) for stats in metrics_per_year.values())
     total_fp = sum(stats['fp'] for stats in metrics_per_year.values())
     total_fn = sum(stats['fn'] for stats in metrics_per_year.values())
     overall_metrics = {
         'precision': total_tp / (total_tp + total_fp) if (total_tp + total_fp) > 0 else 0,
-        'recall': total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0
+        'recall': total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0,
+        'jaccard': total_tp / (total_tp + total_fp + total_fn) if (total_tp + total_fp + total_fn) > 0 else 0  # <-- added
     }
-    overall_metrics['f1'] = 2 * overall_metrics['precision'] * overall_metrics['recall'] / (
-        overall_metrics['precision'] + overall_metrics['recall']) if (overall_metrics['precision'] + overall_metrics['recall']) > 0 else 0
+    overall_metrics['f1'] = (
+        2 * overall_metrics['precision'] * overall_metrics['recall']
+        / (overall_metrics['precision'] + overall_metrics['recall'])
+        if (overall_metrics['precision'] + overall_metrics['recall']) > 0 else 0
+    )
     return metrics_per_year, overall_metrics
+
 
 def plot_metrics(metrics_file, output_dir, show = False):
     """
@@ -161,7 +163,7 @@ def plot_metrics(metrics_file, output_dir, show = False):
     if "version" not in df.columns:
         df["version"] = "v99.99.99"
 
-    metrics = ["precision", "recall", "f1"]
+    metrics = ["precision", "recall", "f1", "jaccard"]
     os.makedirs(output_dir, exist_ok=True)
 
     for metric in metrics:
@@ -218,6 +220,7 @@ def main(args):
     print(f"Precision: {overall_metrics['precision']:.2%}")
     print(f"Recall:    {overall_metrics['recall']:.2%}")
     print(f"F1-score:  {overall_metrics['f1']:.2%}")
+    print(f"Jaccard: {overall_metrics['jaccard']:.2%}")
 
     metrics_file = os.path.join(runner.estimate_path, "date_metrics.csv")
 
@@ -265,7 +268,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "-o", "--estimate-path",
         type=str,
-        default="quality/estimates/record_dates",
+        default="quality/estimates/record-dates",
         help="Directory to save results (default: %(default)s)"
     )
     parser.add_argument("--show", action="store_true", help="Show plots interactively")
