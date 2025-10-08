@@ -12,6 +12,7 @@ They can appear in multiple formats — sometimes within the metadata, sometimes
 Because of this variation, automatic extraction can confuse contextual mentions with actual meeting dates.  
 The quality estimation ensures that such distinctions are correctly handled, and that the date extraction logic remains robust across different years and protocol formats.
 
+---
 
 ## Problem Description
 Meeting dates are critical for the Riksdag Library’s ability to retrieve and filter records by time periods.  
@@ -44,7 +45,9 @@ All results are stored under `quality/estimates/record-dates/`.
 ---
 
 ## Sampling Plan
-Originally, three protocols per year and chamber were intended for annotation.  
+A **stratified random sampling** approach was used.  
+Originally, three protocols per **year** and **chamber** were intended for annotation, ensuring both **temporal** and **institutional** representativeness.  
+
 However, because the **parliamentary year** and **calendar year** differ — and the **chamber system** ended in 1970 —  
 the effective number of protocols per calendar year varies, but per parliament year matches.  
 The resulting combined expert and student sample remains sufficiently representative for estimating quality trends across time.  
