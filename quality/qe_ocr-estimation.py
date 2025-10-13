@@ -15,20 +15,14 @@ It also generates plots for CER, WER, and LEV over years across multiple version
 """
 from functools import lru_cache
 from glob import glob
+import matplotlib.pyplot as plt
 from multiprocessing import (
     cpu_count,
     Pool
 )
-from pathlib import Path
 import os
-import re
-from typing import (
-    List, 
-    Optional, 
-    Tuple,
-    Union
-)
-import matplotlib.pyplot as plt
+from packaging import version
+from pathlib import Path
 import pandas as pd
 from pyriksdagen.args import (
     fetch_parser, 
@@ -37,53 +31,17 @@ from pyriksdagen.args import (
 from pyriksdagen.io import parse_tei
 from pyriksdagen.utils import elem_iter
 from rapidfuzz.distance import Levenshtein
+import re
 from tqdm import tqdm
-
-def pathize_protocol_id(protocol_id: str) -> str:
-    """Resolve a protocol identifier into a file path.
-    Returns a string path if found, raises FileNotFoundError otherwise.
-    """
-    parts = protocol_id.split("-")
-    try:
-        py = parts[1]
-    except IndexError:
-        raise FileNotFoundError(f"Malformed protocol id: {protocol_id}")
-
-    suffix = ""
-    if len(parts) == 4:
-        nr = parts[3]
-        pren = "-".join(parts[:3])
-    else:
-        nr = parts[5]
-        pren = "-".join(parts[:5])
-        if len(parts) == 7:
-            suffix = f"-{parts[-1]}"
-
-    candidate = Path(f"data/{py}/{pren}-{nr:0>3}{suffix}.xml")
-    if candidate.exists():
-        return str(candidate)
-
-    sanitized = re.sub(r'((extra)?h[^-]+st|")', '', str(candidate))
-    candidate2 = Path(sanitized)
-    if candidate2.exists():
-        return str(candidate2)
-
-    year_path = Path(f"data/{py}")
-    if year_path.exists():
-        files = list(year_path.glob(f"{pren}-*.xml"))
-        if files:
-            return str(files[0])
-
-    raise FileNotFoundError(f"Can't find {protocol_id} -> {candidate}")
 
 @lru_cache(maxsize=256)
 def cached_parse_tei(path_or_id: str):
-    """Parse TEI XML and cache result per process. Returns (root, ns)."""
+    """Parse TEI XML and cache result per process to avoid repeated parsing of the same file."""
     return parse_tei(path_or_id)
 
 
 @lru_cache(maxsize=256)
-def get_pb_positions(path_or_id: str) -> List[Tuple[int, int]]:
+def get_pb_positions(path_or_id):
     """Return cached list of (div_index, elem_index) positions of <pb> tags."""
     root, ns = cached_parse_tei(path_or_id)
     positions = []
@@ -94,8 +52,34 @@ def get_pb_positions(path_or_id: str) -> List[Tuple[int, int]]:
                 positions.append((dix, eix))
     return positions
 
+import os
+import re
 
-def unformat_text(text: Optional[str]) -> str:
+def pathize_protocol_id(protocol_id: str) -> str:
+    """
+    Convert a protocol ID to a data file path.
+    """
+    spl = protocol_id.split('-')
+    py = spl[1]
+    suffix = ""
+    if len(spl) == 4:
+        nr = spl[3]
+        pren = '-'.join(spl[:3])
+    else:
+        nr = spl[5]
+        pren = '-'.join(spl[:5])
+        if len(spl) == 7:
+            suffix = f"-{spl[-1]}"
+    candidate = f"data/{py}/{pren}-{nr:0>3}{suffix}.xml"
+    if os.path.exists(candidate):
+        return candidate
+    candidate = re.sub(r'((extra)?h[^-]+st|")', '', candidate)
+    if os.path.exists(candidate):
+        return candidate
+    raise FileNotFoundError(f"Can't find {candidate}")
+
+
+def unformat_text(text):
     """Clean text by stripping whitespace and joining lines."""
     if text is None:
         return ""
@@ -103,37 +87,30 @@ def unformat_text(text: Optional[str]) -> str:
     return " ".join(parts)
 
 
-def get_text_from_elem(e, acc: List[str], ns) -> None:
-    """Extract text from TEI element `e` recursively, according to current XML structure."""
+def get_text_from_elem(e, acc, ns):
+    """Extract text from TEI element `e` recursively, preserving relevant tags."""
     if e is None:
         return
-    tag = e.tag
-    if "}" in tag:
-        tag = tag.split("}", 1)[1]
-
-    if tag in ("note", "p", "fw"):
-        txt = unformat_text(e.text)
-        if txt:
-            acc.append(txt)
-    elif tag in ("u", "div", "list", "item"):
+    
+    tag = e.tag.split("}", 1)[-1] if "}" in e.tag else e.tag
+    if tag in ("note", "p", "fw", "u", "div", "list", "item"):
         txt = unformat_text(e.text)
         if txt:
             acc.append(txt)
         for child in e:
             get_text_from_elem(child, acc, ns)
     else:
-        txt = unformat_text("".join(e.itertext()))
-        if txt:
-            acc.append(txt)
+        acc.extend([unformat_text(s) for s in e.itertext()])
 
 
-def get_text_range(path_or_id: str, pb_range: Tuple[Tuple[int, int], Tuple[int, int]]) -> str:
+
+def get_text_range(path_or_id, pb_range):
     """Extract contiguous text between two <pb> positions as a string."""
     root, ns = cached_parse_tei(path_or_id)
     divs = list(root.findall(f".//{ns['tei_ns']}div"))
     (start_div, start_elem), (end_div, end_elem) = pb_range
 
-    parts: List[str] = []
+    parts = []
     for dix in range(start_div, end_div + 1):
         div = divs[dix]
         if dix == start_div:
@@ -148,17 +125,16 @@ def get_text_range(path_or_id: str, pb_range: Tuple[Tuple[int, int], Tuple[int, 
     return "\n".join(parts)
 
 
-def get_all_text(path_or_id: str, split_lines: bool = False) -> Union[List[str], str]:
+def get_all_text(path_or_id, split_lines):
     """Extract all text from TEI XML according to current structure."""
     root, ns = cached_parse_tei(path_or_id)
-    acc: List[str] = []
+    acc = []
 
-    # Iterate over all elements using utility
     for tag, elem in elem_iter(root):
         get_text_from_elem(elem, acc, ns)
 
     if split_lines:
-        lines: List[str] = []
+        lines = []
         for block in acc:
             for line in block.splitlines():
                 line = line.strip()
@@ -168,17 +144,17 @@ def get_all_text(path_or_id: str, split_lines: bool = False) -> Union[List[str],
     return "\n".join(acc)
 
 
-def normalize_text(s: Optional[str], _re_space=re.compile(r"\s+")) -> str:
+def normalize_text(s, _re_space=re.compile(r"\s+")):
     """Normalize text by removing extra spaces and normalizing dashes; case is preserved."""
     if s is None:
         return ""
     s = str(s)
-    s = s.replace('–', '-').replace('—', '-')
+    s = s.replace('–', '-').replace('—', '-') # normalize dashes for OCR consistency
     s = _re_space.sub(' ', s).strip()
     return s
 
 
-def tokenize_by_whitespace(text: str) -> List[str]:
+def tokenize_by_whitespace(text):
     """Split text into tokens by whitespace."""
     text = normalize_text(text)
     if not text:
@@ -186,7 +162,7 @@ def tokenize_by_whitespace(text: str) -> List[str]:
     return [t for t in re.split(r"\s+", text) if t]
 
 
-def get_most_probable_line_rq(annotation: str, segments: List[str]) -> Tuple[str, int, str]:
+def get_most_probable_line_rq(annotation, segments):
     """
     Return the segment that best matches the annotation.
     Approach:
@@ -242,7 +218,7 @@ def get_most_probable_line_rq(annotation: str, segments: List[str]) -> Tuple[str
         return best_match_char, best_dist_char, "char"
 
 
-def process_row_series(row: pd.Series) -> Tuple[str, int, str]:
+def process_row_series(row):
     """Process a single annotated row. Returns (most_probable_line, lev_distance, method)."""
     protocol_id = row['protocol_id']
     pb_positions = get_pb_positions(protocol_id)
@@ -269,16 +245,19 @@ def process_row_series(row: pd.Series) -> Tuple[str, int, str]:
     return mp, lev, method
 
 
-def process_csv(sample: str) -> pd.DataFrame:
+def process_csv(sample):
     """Read annotated CSV, process rows, and return dataframe with new columns."""
     df = pd.read_csv(sample, sep=';', encoding='utf-8')
     df['protocol_id'] = df['protocol_id'].apply(pathize_protocol_id)
-
     out = df.apply(lambda r: process_row_series(r), axis=1)
     df[['most_probable_line', 'lev', 'method']] = pd.DataFrame(out.tolist(), index=df.index)
     df["lev"] = pd.to_numeric(df["lev"])
-
     return df
+
+
+def extract_year(path: str):
+    m = re.search(r'(18|19|20)\d{2}', path)
+    return int(m.group(0)) if m else 0
 
 
 class OCRQualityEstimator:
@@ -291,28 +270,9 @@ class OCRQualityEstimator:
         self.pool = None
         self.figures = []
 
-    @staticmethod
-    def version_key(v: str) -> List[int]:
-        """Convert semantic version string to integer list for sorting."""
-        if v == "v99.99.99":
-            return [999, 999, 999]
-        if not v.startswith("v"):
-            v = "v" + v
-        parts = v[1:].split(".")
-        if len(parts) != 3:
-            raise ValueError(f"Invalid version string: {v!r} (must be 'vX.Y.Z')")
-        try:
-            return [int(p) for p in parts]
-        except ValueError:
-            raise ValueError(f"Invalid version string: {v!r} (non-integer component)")
-
-    def aggregate_per_year(self, df: pd.DataFrame) -> pd.DataFrame:
+    def aggregate_per_year(self, df):
         """Aggregate Levenshtein, WER, CER metrics per year with quantiles, incl. method stats."""
         df = df.copy()
-
-        def extract_year(path: str):
-            m = re.search(r'(18|19|20)\d{2}', path)
-            return int(m.group(0)) if m else 0
 
         df['year'] = df['protocol_id'].apply(extract_year)
 
@@ -331,7 +291,7 @@ class OCRQualityEstimator:
         ]
 
         df['perfect_match'] = (df['lev'] == 0).astype(int)
-        # --- New: method usage proportions ---
+
         def method_ratio(series, method_name: str):
             return (series == method_name).sum() / len(series) if len(series) > 0 else 0.0
 
@@ -377,14 +337,14 @@ class OCRQualityEstimator:
 
 
 
-    def plot_versions(self, df: pd.DataFrame, output_path: str, y_col: str = 'cer_mean', n_versions: int = 6):
+    def plot_versions(self, df, output_path, y_col = 'cer_mean', n_versions = 6):
         """Plot a metric per year across multiple versions"""
         self.fig = plt.figure(figsize=(12, 6))
         df = df.copy()
         df["version"] = df["version"].astype(str).str.strip()
 
-        # take top n_versions by version number
-        versions_sorted = sorted(df["version"].unique(), key=OCRQualityEstimator.version_key, reverse=True)[:n_versions]
+
+        versions_sorted = sorted(set(df['version']), key=lambda s: version.parse(s.lstrip('v')), reverse=True)
         colors = list("bgrcmyk")
 
         for i, v in enumerate(versions_sorted):
@@ -451,23 +411,48 @@ def main(args):
 
 if __name__ == '__main__':
     parser = fetch_parser("records", docstring=__doc__)
-    parser.add_argument("-d", "--annotated-data", type=str, default="quality/data/ocr-estimation")
-    parser.add_argument("-D", "--decade", type=str, default=None)
-    parser.add_argument("-o", "--estimate-path", type=str, default="quality/estimates/ocr-estimation")
-    parser.add_argument("--read-lev", action='store_true')
-    parser.add_argument("--lev-only", action='store_true')
-    parser.add_argument("--concat-lev", action='store_true')
-    parser.add_argument("--skip-second-search", action='store_true')
-    parser.add_argument("--no-skip-second-search", dest="skip_second_search", action="store_false")
-    parser.set_defaults(skip_second_search=True)
-    parser.add_argument("--ignore-dash", action='store_true')
-    parser.add_argument("--lev-threshold", type=float, default=2.0)
-    parser.add_argument(
-    "-v", "--version",
-    type=str,
-    default="v99.99.99",
-    help="Version string for this run (semantic versioning)"
-    )
-    parser.add_argument("--show", type=lambda x: x.lower() in ['true', '1', 'yes'], default=True)
+    parser.add_argument("-d", "--annotated-data",
+                        type=str,
+                        default="quality/data/ocr-estimation",
+                        help="Path to annotated OCR quality-control data")
+    parser.add_argument("-D", "--decade",
+                        type=str,
+                        default=None,
+                        help="Calculate metrics for a single decade")
+    parser.add_argument("-o", "--estimate-path",
+                        type=str,
+                        default="quality/estimates/ocr-estimation",
+                        help="Path where the current estimate will be written")
+    parser.add_argument("--read-lev",
+                        action='store_true',
+                        help="Read most probable line and Levenshtein distance from a file")
+    parser.add_argument("--lev-only",
+                        action='store_true',
+                        help="Only calculate Levenshtein distances")
+    parser.add_argument("--concat-lev",
+                        action='store_true',
+                        help="Save concatenated Levenshtein distances")
+    parser.add_argument("--skip-second-search",
+                        type=bool,
+                        default=True,
+                        help="Skip looking for line again when Levenshtein > lev-threshold")
+    parser.add_argument("--no-skip-second-search",
+                        dest="skip_second_search",
+                        action="store_false",
+                        help="Do not skip second search")
+    parser.add_argument("--ignore-dash",
+                        action='store_true',
+                        help="Recalculate deviation without line-final dash")
+    parser.add_argument("--lev-threshold",
+                        type=float,
+                        default=2.0,
+                        help="Threshold for triggering second search on Levenshtein distance")
+    parser.add_argument("-v", "--version",
+                        type=str,
+                        default="v99.99.99",
+                        help="Version string for this run (semantic versioning)")
+    parser.add_argument("--show",
+                        action="store_true",
+                        help="Display plots interactively (disabled by default for CI)")
     args = impute_args(parser.parse_args())
     main(args)
