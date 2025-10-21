@@ -38,63 +38,44 @@ Automatic extraction may confuse contextual mentions with actual meeting dates.
 
 Let:
 
-- \( D \) = set of gold-standard dates in a record or protocol  
-- \( \hat{D} \) = set of automatically extracted dates  
+- $ D $ = set of gold-standard dates in a record or protocol  
+- $ \hat{D} $ = set of automatically extracted dates  
 
 We define:
 
-- **True Positives (TP):** Dates correctly extracted  
-\[
-TP = |D \cap \hat{D}|
-\]
+- **True Positives (TP):** Dates correctly extracted  $TP = |D \cap \hat{D}|.$
 
-- **False Negatives (FN):** Dates present in the gold standard but missing in extraction  
-\[
-FN = |D \setminus \hat{D}|
-\]
+- **False Negatives (FN):** Dates present in the gold standard but missing in extraction $FN = |D \setminus \hat{D}|$
 
-- **False Positives (FP):** Dates extracted but not present in the gold standard  
-\[
-FP = |\hat{D} \setminus D|
-\]
+- **False Positives (FP):** Dates extracted but not present in the gold standard  $FP = |\hat{D} \setminus D| $
 
 ### Record-level Metrics
 
 These metrics are calculated **per record** and then aggregated per year or overall:
 
-- **Precision (\(P\))**: Fraction of extracted dates that are correct  
-\[
-P = \frac{TP}{TP + FP} \quad \text{with } P = 0 \text{ if } TP + FP = 0
-\]
+- **Precision ($P$)**: Fraction of extracted dates that are correct  
+$P = \frac{TP}{TP + FP} \quad \text{with } P = 0 \text{ if } TP + FP = 0$
 
 - **Recall (\(R\))**: Fraction of gold-standard dates correctly extracted  
-\[
-R = \frac{TP}{TP + FN} \quad \text{with } R = 0 \text{ if } TP + FN = 0
-\]
+$R = \frac{TP}{TP + FN} \quad \text{with } R = 0 \text{ if } TP + FN = 0$
 
 - **F1-score (\(F_1\))**: Harmonic mean of precision and recall  
-\[
-F_1 = \frac{2 \cdot P \cdot R}{P + R} \quad \text{with } F_1 = 0 \text{ if } P + R = 0
-\]
+$F_1 = \frac{2 \cdot P \cdot R}{P + R} \quad \text{with } F_1 = 0 \text{ if } P + R = 0 $
 
 ### Protocol-level Metrics
 
 These metrics are calculated **per protocol**, treating all dates in the protocol as a set:
 
-- **Jaccard Coefficient (\(J\))**: Set-based similarity  
-\[
-J = \frac{|D \cap \hat{D}|}{|D \cup \hat{D}|}
-\]
+- **Jaccard Coefficient ($J$)**: Set-based similarity  
+$$ J = \frac{|D \cap \hat{D}|}{|D \cup \hat{D}|} $$
 
 - **Accuracy**: Fraction of protocols where all dates match exactly  
-\[
-\text{Accuracy} = \frac{\text{Number of protocols with } J = 1}{\text{Total number of protocols}}
-\]
+
+$$\text{Accuracy} = \frac{\text{Number of protocols with } J = 1}{\text{Total number of protocols}}$$
 
 - **Coverage**: Fraction of protocols where all gold-standard dates are captured (extra dates allowed)  
-\[
-\text{Coverage} = \frac{\text{Number of protocols with } D \subseteq \hat{D}}{\text{Total number of protocols}}
-\]
+
+$$\text{Coverage} = \frac{\text{Number of protocols with } D \subseteq \hat{D}}{\text{Total number of protocols}}$$
 
 > Accuracy reflects **strict matching**, coverage reflects **relaxed matching**, and Jaccard combines both perspectives.
 
@@ -137,7 +118,6 @@ Metrics are calculated **per year** and **overall**, and saved to:
 - `wrong_annotations_fp.csv` — false positives  
 
 Plots of all metrics are automatically saved under `quality/estimates/record-dates/`.  
-The `--show` flag can display plots interactively.
 
 ---
 
