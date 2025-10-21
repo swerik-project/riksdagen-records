@@ -2,103 +2,174 @@
 
 ## Summary
 This module evaluates the quality of automatically extracted **meeting dates** in the Riksdag protocol corpus.  
-It compares extracted XML dates with manually annotated gold-standard data and computes **precision**, **recall**, **F1-score**, and the **Jaccard coefficient** to assess performance of automatically identifying dates across years.
+The evaluation compares automatically extracted dates from XML against manually annotated **gold-standard dates**, computing **precision**, **recall**, **accuracy**, **coverage**, **F1-score**, and the **Jaccard coefficient** to measure date extraction quality over time.  
+
+> Note: While the current reference implementation is in Python (`qe_meeting-dates.py`), the theoretical framework can be applied independently of this code.
 
 ---
 
 ## Background
-Meeting dates in Riksdag protocols are embedded within complex TEI/XML structures.  
-They can appear in multiple formats — sometimes within the metadata, sometimes mentioned inside the text or speeches for reference.  
-Because of this variation, automatic extraction can confuse contextual mentions with actual meeting dates.  
-The quality estimation ensures that such distinctions are correctly handled, and that the date extraction logic remains robust across different years and protocol formats.
+Meeting dates in Riksdag protocols are embedded in TEI/XML structures and can appear in multiple locations:
+
+- In metadata sections  
+- Within the textual body (for reference or context)  
+
+Automatic extraction may confuse contextual mentions with actual meeting dates.  
+**Quality estimation** ensures that:
+
+1. Only true meeting dates are captured.  
+2. Extraction errors (missing or extra dates) are measured systematically.  
+3. The extraction logic can be compared across years and versions of the protocols.
 
 ---
 
-## Problem Description
-Meeting dates are critical for the Riksdag Library’s ability to retrieve and filter records by time periods.  
-To ensure reliability, we need to measure how closely the automatically extracted dates match those manually verified by annotators.
+## Definitions
 
-The estimation focuses on:
-- The **proportion of correct dates** (precision),
-- The **coverage of true dates** (recall),
-- The **balance between precision and recall** (F1-score),
-- The **overall set similarity** between extracted and gold-standard dates (Jaccard index).
+- **Record:** A single meeting date within a protocol.  
+- **Protocol:** A full XML file/document in which one or more meeting dates (records) occur.  
+
+- Metrics are calculated at two levels:
+  - **Record-level metrics**: Evaluate each record individually — precision, recall, F1-score.  
+  - **Protocol-level metrics**: Evaluate the set of all dates in the protocol — Jaccard coefficient, accuracy, coverage.
 
 ---
 
-## Data and Estimation Procedure
-The evaluation relies on **two annotated datasets**:
-- `goldstandard-dates-expert.csv`
-- `goldstandard-dates-student.csv`
+## Theoretical Framework
 
-Each record includes:
-- `pdf_url`: link to the original protocol,
-- `docDate`: manually annotated meeting date(s).
+Let:
 
-The annotations are combined and compared to dates automatically extracted from XML protocols.  
-For each protocol:
-- **False negatives (FN)** represent gold-standard dates missing from XML,
-- **False positives (FP)** represent extra XML dates not found in the gold standard.
+- \( D \) = set of gold-standard dates in a record or protocol  
+- \( \hat{D} \) = set of automatically extracted dates  
 
-All results are stored under `quality/estimates/record-dates/`.
+We define:
+
+- **True Positives (TP):** Dates correctly extracted  
+\[
+TP = |D \cap \hat{D}|
+\]
+
+- **False Negatives (FN):** Dates present in the gold standard but missing in extraction  
+\[
+FN = |D \setminus \hat{D}|
+\]
+
+- **False Positives (FP):** Dates extracted but not present in the gold standard  
+\[
+FP = |\hat{D} \setminus D|
+\]
+
+### Record-level Metrics
+
+These metrics are calculated **per record** and then aggregated per year or overall:
+
+- **Precision (\(P\))**: Fraction of extracted dates that are correct  
+\[
+P = \frac{TP}{TP + FP} \quad \text{with } P = 0 \text{ if } TP + FP = 0
+\]
+
+- **Recall (\(R\))**: Fraction of gold-standard dates correctly extracted  
+\[
+R = \frac{TP}{TP + FN} \quad \text{with } R = 0 \text{ if } TP + FN = 0
+\]
+
+- **F1-score (\(F_1\))**: Harmonic mean of precision and recall  
+\[
+F_1 = \frac{2 \cdot P \cdot R}{P + R} \quad \text{with } F_1 = 0 \text{ if } P + R = 0
+\]
+
+### Protocol-level Metrics
+
+These metrics are calculated **per protocol**, treating all dates in the protocol as a set:
+
+- **Jaccard Coefficient (\(J\))**: Set-based similarity  
+\[
+J = \frac{|D \cap \hat{D}|}{|D \cup \hat{D}|}
+\]
+
+- **Accuracy**: Fraction of protocols where all dates match exactly  
+\[
+\text{Accuracy} = \frac{\text{Number of protocols with } J = 1}{\text{Total number of protocols}}
+\]
+
+- **Coverage**: Fraction of protocols where all gold-standard dates are captured (extra dates allowed)  
+\[
+\text{Coverage} = \frac{\text{Number of protocols with } D \subseteq \hat{D}}{\text{Total number of protocols}}
+\]
+
+> Accuracy reflects **strict matching**, coverage reflects **relaxed matching**, and Jaccard combines both perspectives.
+
+---
+
+## Data and Annotation
+
+The evaluation uses **two annotated datasets**:
+
+| File | Annotator(s) |
+|------|--------------|
+| `goldstandard-dates-expert.csv` | Fredrik Mohammad Norén (´e`) and Lotta Åberg Brorsson |
+| `goldstandard-dates-student.csv` | Theodora Moldovan |
+
+Each record contains:
+
+- `pdf_url`: Link to the original protocol  
+- `docDate`: Manually annotated date(s)  
+
+> The Python code merges these datasets to form a combined gold standard.
 
 ---
 
 ## Sampling Plan
-A **stratified random sampling** approach was used.  
-Originally, three protocols per **year** and **chamber** were intended for annotation, ensuring both **temporal** and **institutional** representativeness.  
 
-However, because the **parliamentary year** and **calendar year** differ — and the **chamber system** ended in 1970 —  
-the effective number of protocols per calendar year varies, but per parliament year matches.  
-The resulting combined expert and student sample remains sufficiently representative for estimating quality trends across time.  
-This sample is used solely for **quality evaluation**, not for model training.
+A **stratified random sampling** approach ensures representativeness across:
+
+- **Years** (calendar and parliamentary years)  
+- **Chambers** (historical relevance; note that the chamber system ended in 1970)
 
 ---
 
 ## Metrics and Output
+
 Metrics are calculated **per year** and **overall**, and saved to:
 
-- `date_metrics.csv` — version, year, precision, recall, F1-score, and Jaccard  
+- `record_metrics.csv` — version, year, precision, recall, F1-score  
+- `protocol_metrics.csv` — version, year, average Jaccard, accuracy, coverage  
 - `missing_annotations_fn.csv` — false negatives  
 - `wrong_annotations_fp.csv` — false positives  
 
-Plots of all four metrics are automatically saved under `quality/estimates/record-dates/`.  
-The `--show` flag can be used to display them interactively.
-
-| Metric | Description |
-|--------|--------------|
-| **Precision** | Correctly extracted dates / All extracted dates |
-| **Recall** | Correctly extracted dates / All gold-standard dates |
-| **F1-score** | Harmonic mean of precision and recall |
-| **Jaccard coefficient** | Intersection-over-union of extracted and gold-standard date sets |
+Plots of all metrics are automatically saved under `quality/estimates/record-dates/`.  
+The `--show` flag can display plots interactively.
 
 ---
 
 ## Implementation Notes
-The quality estimation is implemented in **`qe_meeting-dates.py`**, which:
-- Merges the expert and student annotation files,
-- Compares them with XML-extracted meeting dates,
-- Computes metrics per year and overall,
-- Supports parallel processing for efficiency,
-- Allows version tagging to track reproducibility over time.
 
-The **Jaccard coefficient** was recently added.  
-In our current results, Jaccard and precision values are nearly identical — which is expected given the small number of false negatives and strong overlap between extracted and annotated dates.
+The current reference implementation is in **`qe_meeting-dates.py`**, which:
+
+- Merges gold-standard files  
+- Extracts dates from XML protocols  
+- Computes record- and protocol-level metrics  
+- Generates plots per year  
+- Supports parallel processing  
+- Allows version tagging for reproducibility  
+
+> The theoretical formulas above are independent of the code and can be implemented in other frameworks or updated if extraction logic changes.
 
 ---
 
 ## Annotation Guidelines
-Annotators should:
-1. Read each protocol and identify all meeting dates.  
-2. Record them under the `docDate` column.  
-3. Ensure that the `pdf_url` matches the correct protocol file.  
-4. Save the final CSV under `quality/data/record-dates/`.
+
+1. Read the full protocol and identify all meeting dates  
+2. Record them in the `docDate` column  
+3. Ensure the `pdf_url` corresponds to the correct protocol  
+4. Save the CSV in `quality/data/record-dates/`
 
 ---
 
 ## Example Command
+
 ```bash
-python quality/data/record-dates/qe_meeting-dates.py \
+python quality/qe_meeting-dates.py \
   --annotated-data quality/data/record-dates/goldstandard-dates-expert.csv \
-  quality/data/record-dates/goldstandard-dates-student.csv \
-  --version v99.99.99 --show```
+                   quality/data/record-dates/goldstandard-dates-student.csv \
+  --version v99.99.99 --show
+  ```
