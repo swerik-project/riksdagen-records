@@ -66,7 +66,8 @@ $F_1 = \frac{2 \cdot P \cdot R}{P + R} \quad \text{with } F_1 = 0 \text{ if } P 
 
 These metrics are calculated **per protocol**, treating all dates in the protocol as a set:
 
-- **Jaccard Coefficient ($J$)**: Set-based similarity  
+- **Jaccard Coefficient ($J$)**: Set-based similarity
+
 $$ J = \frac{|D \cap \hat{D}|}{|D \cup \hat{D}|} $$
 
 - **Accuracy**: Fraction of protocols where all dates match exactly  
@@ -87,7 +88,7 @@ The evaluation uses **two annotated datasets**:
 
 | File | Annotator(s) |
 |------|--------------|
-| `goldstandard-dates-expert.csv` | Fredrik Mohammad Norén (´e`) and Lotta Åberg Brorsson |
+| `goldstandard-dates-expert.csv` | Fredrik Mohammadi Norén and Lotta Åberg Brorsson |
 | `goldstandard-dates-student.csv` | Theodora Moldovan |
 
 Each record contains:
