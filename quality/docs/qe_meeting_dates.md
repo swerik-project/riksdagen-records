@@ -2,7 +2,7 @@
 
 ## Summary
 This module evaluates the quality of automatically extracted **meeting dates** in the Riksdag protocol corpus.  
-The evaluation compares automatically extracted dates from XML against manually annotated **gold-standard dates**, computing **precision**, **recall**, **accuracy**, **coverage**, **F1-score**, and the **Jaccard coefficient** to measure date extraction quality over time.  
+The evaluation compares automatically extracted dates from XML protocols against manually annotated **gold-standard dates**, computing **precision**, **recall**, **accuracy**, **coverage**, **F1-score**, and the **Jaccard coefficient** to measure date extraction quality over time.  
 
 > Note: While the current reference implementation is in Python (`qe_meeting-dates.py`), the theoretical framework can be applied independently of this code.
 
@@ -14,12 +14,13 @@ Meeting dates in Riksdag protocols are embedded in TEI/XML structures and can ap
 - In metadata sections  
 - Within the textual body (for reference or context)  
 
-Automatic extraction may confuse contextual mentions with actual meeting dates.  
+**Problem:** Automatic extraction may mistakenly identify contextual mentions as actual meeting dates.
+
 **Quality estimation** ensures that:
 
 1. Only true meeting dates are captured.  
-2. Extraction errors (missing or extra dates) are measured systematically.  
-3. The extraction logic can be compared across years and versions of the protocols.
+2. Missing or extra dates are systematically identified.
+3. Extraction logic can be compared consistently across years and protocol versions.
 
 ---
 
@@ -51,7 +52,7 @@ We define:
 
 ### Record-level Metrics
 
-These metrics are calculated **per record** and then aggregated per year or overall:
+These metrics are calculated **per record** and then aggregated by year and overall:
 
 - **Precision $P$**: Fraction of extracted dates that are correct  
 $P = \frac{TP}{TP + FP} \quad \text{with } P = 0 \text{ if } TP + FP = 0$
@@ -118,7 +119,7 @@ Metrics are calculated **per year** and **overall**, and saved to:
 - `missing_annotations_fn.csv` — false negatives  
 - `wrong_annotations_fp.csv` — false positives  
 
-Plots of all metrics are automatically saved under `quality/estimates/record-dates/`.  
+Plots for all metrics are automatically saved to `quality/estimates/record-dates/`.  
 
 ---
 
