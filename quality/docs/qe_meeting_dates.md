@@ -25,13 +25,13 @@ Automatic extraction may confuse contextual mentions with actual meeting dates.
 
 ## Definitions
 
-- **Record:** A single meeting date with its corresponding text within a protocol.  
-- **Protocol:** A full XML file/document in which one or more records occur. 
+- **Protocol:** A complete XML document containing one or more dates.  
+- **Record:** A section of a protocol associated with a single date and its corresponding text.  
 
-- Metrics are calculated at two levels:
-  - **Record-level metrics**: Evaluate each record individually — precision, recall, F1-score.  
-  - **Protocol-level metrics**: Evaluate the set of all dates in the protocol — Jaccard coefficient, accuracy, coverage.
-
+- **Metrics are calculated at two levels:**
+  - **Protocol level:** Evaluates the set of all dates in a protocol — Jaccard coefficient, accuracy, and coverage.
+  - **Record level:** Evaluates each record individually — precision, recall, and F1-score.
+ 
 ---
 
 ## Theoretical Framework
