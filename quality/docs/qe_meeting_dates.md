@@ -25,8 +25,8 @@ Automatic extraction may confuse contextual mentions with actual meeting dates.
 
 ## Definitions
 
-- **Record:** A single meeting date within a protocol.  
-- **Protocol:** A full XML file/document in which one or more meeting dates (records) occur.  
+- **Record:** A single meeting date with its corresponding text within a protocol.  
+- **Protocol:** A full XML file/document in which one or more records occur. 
 
 - Metrics are calculated at two levels:
   - **Record-level metrics**: Evaluate each record individually — precision, recall, F1-score.  
@@ -38,35 +38,35 @@ Automatic extraction may confuse contextual mentions with actual meeting dates.
 
 Let:
 
-- $ D $ = set of gold-standard dates in a record or protocol  
-- $ \hat{D} $ = set of automatically extracted dates  
+- $D$ = set of gold-standard dates in a record or protocol  
+- $\hat{D}$ = set of automatically extracted dates  
 
 We define:
 
-- **True Positives (TP):** Dates correctly extracted  $TP = |D \cap \hat{D}|.$
+- **True Positives $TP$:** Dates correctly extracted  $TP=|D\cap\hat{D}|.$
 
-- **False Negatives (FN):** Dates present in the gold standard but missing in extraction $FN = |D \setminus \hat{D}|$
+- **False Negatives $FN$:** Dates present in the gold standard but missing in extraction $FN = |D\setminus\hat{D}|$
 
-- **False Positives (FP):** Dates extracted but not present in the gold standard  $FP = |\hat{D} \setminus D| $
+- **False Positives $FP$:** Dates extracted but not present in the gold standard  $FP = |\hat{D}\setminus D| $
 
 ### Record-level Metrics
 
 These metrics are calculated **per record** and then aggregated per year or overall:
 
-- **Precision ($P$)**: Fraction of extracted dates that are correct  
+- **Precision $P$**: Fraction of extracted dates that are correct  
 $P = \frac{TP}{TP + FP} \quad \text{with } P = 0 \text{ if } TP + FP = 0$
 
-- **Recall (\(R\))**: Fraction of gold-standard dates correctly extracted  
+- **Recall $R$**: Fraction of gold-standard dates correctly extracted  
 $R = \frac{TP}{TP + FN} \quad \text{with } R = 0 \text{ if } TP + FN = 0$
 
-- **F1-score (\(F_1\))**: Harmonic mean of precision and recall  
+- **F1-score $F_1$**: Harmonic mean of precision and recall  
 $F_1 = \frac{2 \cdot P \cdot R}{P + R} \quad \text{with } F_1 = 0 \text{ if } P + R = 0 $
 
 ### Protocol-level Metrics
 
 These metrics are calculated **per protocol**, treating all dates in the protocol as a set:
 
-- **Jaccard Coefficient ($J$)**: Set-based similarity
+- **Jaccard Coefficient $J$**: Set-based similarity
 
 $$ J = \frac{|D \cap \hat{D}|}{|D \cup \hat{D}|} $$
 
@@ -132,8 +132,6 @@ The current reference implementation is in **`qe_meeting-dates.py`**, which:
 - Generates plots per year  
 - Supports parallel processing  
 - Allows version tagging for reproducibility  
-
-> The theoretical formulas above are independent of the code and can be implemented in other frameworks or updated if extraction logic changes.
 
 ---
 
