@@ -82,7 +82,7 @@ class ProtocolValidationRunner:
             self.pool.close()
             self.pool.join()
             self.pool = None
-        # Close all open matplotlib figures
+
         plt.close('all')
         print("Resources cleaned up.")
 
@@ -247,7 +247,6 @@ def main(args):
     df['pdf_url'] = df['pdf_url'].apply(extract_relative_path)
     grouped = [(protocol, group) for protocol, group in df.groupby('pdf_url')]
 
-    # Use runner.pool if available
     if runner.pool is not None:
         results = runner.pool.map(process_protocol, grouped)
     else:
