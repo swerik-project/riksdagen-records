@@ -52,12 +52,9 @@ def get_pb_positions(path_or_id):
                 positions.append((dix, eix))
     return positions
 
-import os
-import re
-
-def pathize_protocol_id(protocol_id: str) -> str:
+def pathize_protocol_id(protocol_id):
     """
-    Convert a protocol ID to a data file path.
+    Convert a protocol ID to its corresponding XML file path in `data/`.
     """
     spl = protocol_id.split('-')
     py = spl[1]
@@ -70,13 +67,13 @@ def pathize_protocol_id(protocol_id: str) -> str:
         pren = '-'.join(spl[:5])
         if len(spl) == 7:
             suffix = f"-{spl[-1]}"
-    candidate = f"data/{py}/{pren}-{nr:0>3}{suffix}.xml"
-    if os.path.exists(candidate):
-        return candidate
-    candidate = re.sub(r'((extra)?h[^-]+st|")', '', candidate)
-    if os.path.exists(candidate):
-        return candidate
-    raise FileNotFoundError(f"Can't find {candidate}")
+    path_ = f"data/{py}/{pren}-{nr:0>3}{suffix}.xml"
+    if os.path.exists(path_):
+        return path_
+    path_ = re.sub(r'((extra)?h[^-]+st|")', '', path_)
+    if os.path.exists(path_):
+        return path_
+    raise FileNotFoundError(f"Can't find {path_}")
 
 
 def unformat_text(text):
@@ -149,7 +146,7 @@ def normalize_text(s, _re_space=re.compile(r"\s+")):
     if s is None:
         return ""
     s = str(s)
-    s = s.replace('–', '-').replace('—', '-') # normalize dashes for OCR consistency
+    s = s.replace('–', '-').replace('—', '-')
     s = _re_space.sub(' ', s).strip()
     return s
 
@@ -211,7 +208,6 @@ def get_most_probable_line_rq(annotation, segments):
                 best_dist_char = dist
                 best_match_char = candidate
 
-    # --- Choose best approach ---
     if best_dist_token <= best_dist_char:
         return best_match_token, best_dist_token, "token"
     else:
@@ -262,7 +258,12 @@ def extract_year(path: str):
 
 class OCRQualityEstimator:
     """Handles aggregation, plotting, saving, and resource cleanup for OCR metrics."""
-    def __init__(self, estimate_path: str, version: str, show: bool = False):
+    def __init__(self, estimate_path: str, version: str, show: bool = False, use_pool: bool = False, num_processes: int = 4):
+        self.estimate_path = estimate_path
+        self.version = version
+        self.show = show
+        self.pool = Pool(num_processes) if use_pool else None
+        self.figures = []
         self.estimate_path = estimate_path
         self.version = version
         self.show = show
@@ -356,6 +357,8 @@ class OCRQualityEstimator:
         plt.title(f"{y_col.upper()} per year across versions")
         plt.legend()
         plt.tight_layout()
+
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
         plt.savefig(output_path)
         self.figures.append(self.fig)
 
@@ -369,6 +372,7 @@ class OCRQualityEstimator:
         if self.pool:
             self.pool.close()
             self.pool.join()
+            self.pool = None
         cached_parse_tei.cache_clear()
         get_pb_positions.cache_clear()
         print("Resources cleaned up.")
@@ -376,7 +380,13 @@ class OCRQualityEstimator:
 
 def main(args):
     os.makedirs(args.estimate_path, exist_ok=True)
-    estimator = OCRQualityEstimator(estimate_path=args.estimate_path, version=args.version, show = args.show)
+    estimator = OCRQualityEstimator(
+        estimate_path=args.estimate_path,
+        version=args.version,
+        show=args.show,
+        use_pool=args.use_pool,
+        num_processes=args.num_processes
+    )
 
     mpl_df = None
     if not args.read_lev:
@@ -385,15 +395,12 @@ def main(args):
         else:
             samples = glob(f"{args.annotated_data}/*.csv")
 
-        n_workers = max(1, cpu_count() - 1)
-        estimator.pool = Pool(n_workers)
-        try:
-            all_dfs = list(tqdm(estimator.pool.imap_unordered(process_csv, samples), total=len(samples), desc="All CSVs"))
-        finally:
-            estimator.pool.close()
-            estimator.pool.join()
-
-        if len(all_dfs) > 0:
+        if estimator.pool:
+            all_dfs = list(tqdm(estimator.pool.imap_unordered(process_csv, samples),
+                                total=len(samples), desc="All CSVs"))
+        else:
+            all_dfs = [process_csv(s) for s in tqdm(samples, desc="All CSVs")]
+        if all_dfs:
             mpl_df = pd.concat(all_dfs, ignore_index=True)
 
     if mpl_df is None:
@@ -454,5 +461,12 @@ if __name__ == '__main__':
     parser.add_argument("--show",
                         action="store_true",
                         help="Display plots interactively (disabled by default for CI)")
+    parser.add_argument("--use-pool", 
+                        action="store_true", 
+                        help="Process CSVs using multiprocessing Pool")
+    parser.add_argument("--num-processes", 
+                        type=int, 
+                        default=max(1, cpu_count() - 1),
+                        help="Number of processes to use if --use-pool is enabled")
     args = impute_args(parser.parse_args())
     main(args)
