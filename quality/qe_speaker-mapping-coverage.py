@@ -5,8 +5,6 @@ Estimate and plot the coverage of identified speakers in parliamentary protocols
 This script calculates the fraction of known versus unknown speaker attributions
 and plots coverage per year for the latest versions.
 """
-import matplotlib.pyplot as plt
-import os
 from pyriksdagen.args import (
     fetch_parser,
     impute_args
