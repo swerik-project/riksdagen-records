@@ -13,18 +13,13 @@ import numpy as np
 import os
 import pandas as pd
 from pyriksdagen.io import parse_tei
-from pyriksdagen.utils import get_doc_dates
+from pyriksdagen.utils import get_doc_dates, infer_metadata
 import re
-import sys
+import warnings
 
 def version_key(v):
     nums = re.findall(r'\d+', v)
     return tuple(map(int, nums))
-
-
-def get_year_from_path(path):
-    return int(path.split('/')[1][:4])
-
 
 def join_dates(dates):
     return ';'.join(str(d) for d in dates)
@@ -43,7 +38,10 @@ def extract_relative_path(pdf_url):
             relative_path = relative_path[:-4]
         return f"data/{relative_path}.xml"
     else:
-        print(f"Warning: PDF URL does not match expected prefix: {pdf_url}")
+        warnings.warn(
+            f"PDF URL does not match expected prefix: {pdf_url}",
+            category=UserWarning
+        )
         return pdf_url
 
 class ProtocolValidationRunner:
@@ -67,14 +65,20 @@ class ProtocolValidationRunner:
         dfs = []
         for path in self.annotated_data:
             if not os.path.exists(path):
-                sys.exit(f"CSV not found: {path}")
+                raise FileNotFoundError(f"CSV not found: {path}")
+
             print(f"Reading: {path}")
             df = pd.read_csv(path)
+
             if 'pdf_url' not in df.columns or 'docDate' not in df.columns:
-                sys.exit(f"CSV {path} must contain 'pdf_url' and 'docDate' columns")
+                raise ValueError(
+                    f"CSV {path} must contain 'pdf_url' and 'docDate' columns"
+                )
+
             dfs.append(df)
 
         self.df = pd.concat(dfs, ignore_index=True)
+
 
     def teardown(self):
         """Close pool to free resources."""
@@ -118,15 +122,15 @@ def calculate_record_level_metrics(missing, extra, df):
     metrics_per_year = {}
 
     for path in df['pdf_url']:
-        year = get_year_from_path(path)
+        year = infer_metadata(path)["year"]
         metrics_per_year.setdefault(year, {'gold': 0, 'fp': 0, 'fn': 0})
         metrics_per_year[year]['gold'] += 1
 
     for m in missing:
-        year = get_year_from_path(m['file_path'])
+        year = infer_metadata(m['file_path'])["year"]
         metrics_per_year[year]['fn'] += 1
     for e in extra:
-        year = get_year_from_path(e['file_path'])
+        year = infer_metadata(e['file_path'])["year"]
         metrics_per_year[year]['fp'] += 1
 
     for stats in metrics_per_year.values():
@@ -148,34 +152,32 @@ def calculate_record_level_metrics(missing, extra, df):
 
 def calculate_protocol_level_metrics(protocol_results):
     """Compute protocol-level metrics: Jaccard, avg Jaccard, accuracy (J=1), and coverage (D ⊆ hat D)."""
-    protocol_metrics = {}
-    jaccard_list = []
+    records = []
 
     for doc_path, gold_set, pred_set in protocol_results:
-        j = len(gold_set & pred_set) / len(gold_set | pred_set) if (gold_set | pred_set) else 1.0
-        jaccard_list.append(j)
-        is_accuracy = (j == 1)
-        is_coverage = (gold_set <= pred_set)
+        union_len = len(gold_set | pred_set)
+        jaccard = len(gold_set & pred_set) / union_len if union_len > 0 else 1.0
+        accuracy = int(jaccard == 1)
+        coverage = int(gold_set <= pred_set)
+        year = infer_metadata(doc_path)["year"]
 
-        year = get_year_from_path(doc_path)
-        year_stats = protocol_metrics.setdefault(year, {'jaccard_sum': 0.0, 'count': 0, 'accuracy_count': 0, 'coverage_count': 0})
-        year_stats['jaccard_sum'] += j
-        year_stats['accuracy_count'] += is_accuracy
-        year_stats['coverage_count'] += is_coverage
-        year_stats['count'] += 1
+        records.append({
+            'year': year,
+            'jaccard': jaccard,
+            'accuracy': accuracy,
+            'coverage': coverage
+        })
 
-    per_year_metrics = {
-        year: {
-            'avg_jaccard': stats['jaccard_sum'] / stats['count'],
-            'accuracy': stats['accuracy_count'] / stats['count'],
-            'coverage': stats['coverage_count'] / stats['count']
-        } for year, stats in protocol_metrics.items()
-    }
+    df = pd.DataFrame(records)
+
+    per_year_metrics = df.groupby('year')[['jaccard', 'accuracy', 'coverage']].mean().rename(
+        columns={'jaccard': 'avg_jaccard'}
+    ).to_dict(orient='index')
 
     overall_metrics = {
-        'avg_jaccard': np.mean(jaccard_list),
-        'accuracy': sum(j == 1 for j in jaccard_list) / len(protocol_results),
-        'coverage': sum(gold <= pred for _, gold, pred in protocol_results) / len(protocol_results)
+        'avg_jaccard': float(df['jaccard'].mean()),
+        'accuracy': float(df['accuracy'].mean()),
+        'coverage': float(df['coverage'].mean())
     }
 
     return per_year_metrics, overall_metrics
@@ -210,22 +212,26 @@ def plot_metrics(metrics_file, output_dir, metric_type="Metric", show=False):
         if show:
             plt.show()
 
-
 def save_metrics_with_version_check(df, path, version):
     if os.path.exists(path):
         existing = pd.read_csv(path)
+
         if version != "v99.99.99" and version in existing["version"].unique():
-            sys.exit(f"Error: version {version} already exists in {path}.")
+            raise ValueError(f"Error: version {version} already exists in {path}.")
+
         if version == "v99.99.99":
             existing = existing[existing["version"] != "v99.99.99"]
+
         df = pd.concat([existing, df], ignore_index=True)
 
     df["version_sort"] = df["version"].apply(version_key)
     df = df.sort_values("version_sort", ascending=False).drop(columns=["version_sort"])
+
     latest_versions = sorted(df["version"].unique(), key=version_key, reverse=True)[:5]
     df = df[df["version"].isin(latest_versions)]
 
     df.to_csv(path, index=False)
+
 
 def main(args):
     runner = ProtocolValidationRunner(
@@ -312,7 +318,7 @@ if __name__ == "__main__":
     )
     parser.add_argument("--show", action="store_true", help="Show plots interactively")
     parser.add_argument("--num_processes", type=int, default=4, help="Number of parallel processes")
-    parser.add_argument("--use-pool", action="store_true", help="Use multiprocessing (only if set)")    
+    parser.add_argument("--use-pool", action="store_false", help="Use multiprocessing (only if set)")    
     parser.add_argument("--version", type=str, default="v99.99.99", help="Version tag for this run (default: v99.99.99)")
     args = parser.parse_args()
 
