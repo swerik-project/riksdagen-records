@@ -492,7 +492,7 @@ jobs:
         if [[ `git status quality/estimates/ocr-estimation/ --porcelain --untracked-files=no` ]]; then
           git add quality/estimates/ocr-estimation
           git commit -m "chore (workflow): run OCR quality estimation"
-        else:
+        else
           echo "::warning:: WARNING!! No changes detected in the quality/estimates/ocr-estimation folder"
           git commit --allow-empty -m "chore (workflow): no changes to OCR quality estimation"
         fi
