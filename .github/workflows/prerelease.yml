@@ -26,7 +26,7 @@ jobs:
 
     - name: check disk usage
       run :
-        du -h /
+        du -h -d 2 /
         df -h /
 
     - name: Install dependencies
