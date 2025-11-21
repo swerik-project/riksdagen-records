@@ -24,6 +24,11 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
 
+    - name: check disk usage
+      run :
+        du -h /
+        df -h /
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
