@@ -11,8 +11,6 @@ jobs:
     strategy:
       matrix:
         python-version: [3.8]
-    - name: Add project root to PYTHONPATH
-      run: echo "PYTHONPATH=$GITHUB_WORKSPACE" >> $GITHUB_ENV
 
     steps:
     - uses: actions/checkout@v4
@@ -25,6 +23,9 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python-version }}
+
+    - name: Add project root to PYTHONPATH
+      run: echo "PYTHONPATH=$GITHUB_WORKSPACE" >> $GITHUB_ENV
 
     - name: Free up disk space
       run: |
