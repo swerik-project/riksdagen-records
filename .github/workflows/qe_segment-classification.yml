@@ -42,3 +42,6 @@ jobs:
           git commit --allow-empty -m "chore (workflow): no changes to segment classification estimate"
         fi
     - uses: ./.github/actions/push-changes
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.head_ref }}
