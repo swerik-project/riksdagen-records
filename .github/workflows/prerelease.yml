@@ -35,3 +35,6 @@ jobs:
     - uses: ./.github/actions/calculate-speaker-mapping-coverage
     - uses: ./.github/actions/prerelease-add-and-commit
     - uses: ./.github/actions/push-changes
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.head_ref }}
