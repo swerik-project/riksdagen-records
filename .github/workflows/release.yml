@@ -12,6 +12,7 @@ jobs:
         python-version: [3.8]
 
     steps:
+    - uses: actions/checkout@v4
     - uses: ./.github/actions/checkout
     - uses: ./.github/actions/setup-python
     - uses: ./.github/actions/free-up-space

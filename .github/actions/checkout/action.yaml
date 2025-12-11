@@ -5,7 +5,7 @@ runs:
   steps:
   - name: Checkout repo
     uses: actions/checkout@v4
-      with:
-        persist-credentials: false   # use GITHUB_TOKEN
-        fetch-depth: 1               # fetch depth is nr of commits
-        ref: ${{ github.head_ref }}
+    with:
+      persist-credentials: false   # use GITHUB_TOKEN
+      fetch-depth: 1               # fetch depth is nr of commits
+      ref: ${{ github.head_ref }}
