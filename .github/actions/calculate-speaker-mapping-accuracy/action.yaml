@@ -1,0 +1,8 @@
+name: "Calculate Speaker-mapping Accuracy"
+
+runs:
+  using: "composite"
+  steps:
+  - name: Calculate speaker mapping accuracy estimate
+    run: |
+      echo "::warning:: Speaker Mapping Accuracy -- There are no versioned plots or estimate data. Add when appropriate."

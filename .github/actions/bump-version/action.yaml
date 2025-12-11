@@ -1,0 +1,16 @@
+name: "Get Most Recent Release"
+
+runs:
+  using: "composite"
+  steps:
+  - name: Bump version
+    id: bump
+    uses: cbrgm/semver-bump-action@main
+    with:
+      current-version: ${{ env.LAST_RELEASE }}
+      bump-level: ${{ env.RELEASE_TYPE }}
+
+  - name: bump to env
+    run: |
+      release_nr=${{ steps.bump.outputs.new_version }}
+      echo "RELEASE_NR=$release_nr" >> $GITHUB_ENV

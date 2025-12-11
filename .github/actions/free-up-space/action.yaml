@@ -1,0 +1,18 @@
+name: "Free up space on the runner"
+
+runs:
+  using: "composite"
+  steps:
+  - name: Free up disk space
+    run: |
+      sudo rm -rf /usr/share/dotnet
+      sudo rm -rf /usr/local/lib/android
+      sudo rm -rf /opt/ghc
+      sudo rm -rf /opt/hostedtoolcache
+      sudo apt-get clean
+      sudo rm -rf /var/lib/apt/lists/*
+      sudo rm -rf /usr/lib/google-cloud-sdk
+      sudo rm -rf /usr/local/aws-cli
+      sudo rm -rf /usr/local/azure-cli
+      docker system prune -af || true
+      docker volume prune -f || true

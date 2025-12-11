@@ -13,139 +13,20 @@ jobs:
         python-version: [3.8]
 
     steps:
-    - uses: actions/checkout@v4
-      with:
-        persist-credentials: false   # use GITHUB_TOKEN
-        fetch-depth: 1               # fetch depth is nr of commits
-        ref: ${{ github.head_ref }}
-
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
-      with:
-        python-version: ${{ matrix.python-version }}
-
-    - name: Add project root to PYTHONPATH
-      run: echo "PYTHONPATH=$GITHUB_WORKSPACE" >> $GITHUB_ENV
-
-    - name: Free up disk space
-      run: |
-        sudo rm -rf /usr/share/dotnet
-        sudo rm -rf /usr/local/lib/android
-        sudo rm -rf /opt/ghc
-        sudo rm -rf /opt/hostedtoolcache
-        sudo apt-get clean
-        sudo rm -rf /var/lib/apt/lists/*
-        sudo rm -rf /usr/lib/google-cloud-sdk
-        sudo rm -rf /usr/local/aws-cli
-        sudo rm -rf /usr/local/azure-cli
-        docker system prune -af || true
-        docker volume prune -f || true
-
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-
-    - name: Get release type
-      run: |
-        release_type=$(echo ${{ github.event.pull_request.title }} | grep -Eoh '((M|m)(ajor|inor)|(P|p)atch)' | awk '{print tolower($0)}')
-        if [ -z $release_type ] ; then
-            echo "You have to indicate the release type in the title of a pr to main"
-            echo "   suggested: `prerelease: major|minor|patch` version"
-            exit 1
-        else
-            echo "Next release will be a $release_type version"
-            echo "RELEASE_TYPE=$release_type" >> $GITHUB_ENV
-        fi
-
-    - name: Install jq
-      uses: dcarbone/install-jq-action@v2
-      with:
-        version: 1.7
-        force: false
-
-    - name: Get most recent release
-      run: |
-        LATEST_RELEASE=$(echo "$(curl -L https://api.github.com/repos/swerik-project/riksdagen-records/releases/latest)" | jq -r .tag_name)
-        if [[ "$LATEST_RELEASE" == null ]] ; then LATEST_RELEASE="v0.0.0" ; fi
-        echo "LAST_RELEASE=$LATEST_RELEASE" >> $GITHUB_ENV
-
-    - name: Bump version
-      id: bump
-      uses: cbrgm/semver-bump-action@main
-      with:
-        current-version: ${{ env.LAST_RELEASE }}
-        bump-level: ${{ env.RELEASE_TYPE }}
-
-    - name: bump to env
-      run: |
-        release_nr=${{ steps.bump.outputs.new_version }}
-        echo "RELEASE_NR=$release_nr" >> $GITHUB_ENV
-        sed -i.bak -e "s/\(^version:\)\([^\"]*\)/\1 $release_nr/" CITATION.cff
-
-    - name: Validate CITATION.cff
-      uses: dieghernan/cff-validator@v3
-      with:
-        install-r: true
-
-    - name: Build documentation
-      run: |
-        echo "Release version ${{ env.RELEASE_NR }}"
-        pdoc -o docs --footer-text ${{ env.RELEASE_NR }} -t docs/dark-mode --logo https://raw.githubusercontent.com/swerik-project/the-swedish-parliament-corpus/refs/heads/main/readme/riksdagshuset.jpg ../riksdagen-records
-
-    - name: Calculate speaker mapping accuracy estimate
-      run: |
-        echo "::warning:: Speaker Mapping Accuracy -- There are no versioned plots or estimate data. Add when appropriate."
-
-    - name: Calculate OCR quality estimate
-      run: |
-        echo "::warning:: OCR Quality -- There are no versioned plots or estimate data. Add when appropriate."
-
-    - name: Calculate Segment-classification accuracy estimate
-      run: |
-        echo "::warning:: Segment Classification Accuracy -- There are no versioned plots or estimate data. Add when appropriate."
-
-    - name: Calculate Speaker Mapping Coverage
-      run: |
-        python quality/qe_speaker-mapping-coverage.py -v ${{ env.RELEASE_NR }}
-
-    - name: Add and commit changes
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        if [[ `git status CITATION.cff --porcelain --untracked-files=no` ]]; then
-          git add CITATION.cff
-          git commit -m "chore (workflow): bump version nr in cff file"
-        else
-          echo ""
-          echo "::warning:: WARNING!!! No changes to CITATION.cff file."
-          echo "           Double check the version nr is correct."
-          echo ""
-          git commit --allow-empty -m "chore (workflow): no changes to CITATION.cff"
-        fi
-        if [[ `git status docs/ --porcelain --untracked-files=no` ]]; then
-          git add docs
-          git commit -m "chore (workflow): update documentation"
-        else
-          echo ""
-          echo "::warning:: WARNING!!! No changes to documentation files."
-          echo "           Double check the version nr and everything else is up to date."
-          echo ""
-          git commit --allow-empty -m "chore (workflow): no changes to documentation"
-        fi
-        if [[ `git status quality/estimates/speaker-mapping-coverage/ --porcelain --untracked-files=no` ]]; then
-          git add quality/estimates/speaker-mapping-coverage/
-          git commit -m "chore (workflow): update speaker mapping coverage"
-        else
-          echo ""
-          echo "::warning:: WARNING!!! No changes to speaker mapping coverage."
-          echo "           Double check the version nr and everything else is up to date."
-          echo ""
-          git commit --allow-empty -m "chore (workflow): no changes to speaker mapping coverage"
-        fi
-
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
+    - uses: ./.github/actiona/checkout
+    - uses: ./.github/actions/setup-python
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - uses: ./.github/actions/get-release-type
+    - uses: ./.github/actions/install-jq
+    - uses: ./.github/actions/get-most-recent-release
+    - uses: ./.github/actions/bump-version
+    - uses: ./.github/actions/get-most-recent-version
+    - uses: ./.github/actions/update-cff
+    - uses: ./.github/actions/build-documentation
+    - uses: ./.github/actions/calculate-speaker-mapping-accuracy
+    - uses: ./.github/actions/calculate-ocr-quality-estimate
+    - uses: ./.github/actions/calculate-segment-classification-accuracy-estimate
+    - uses: ./.github/actions/calculate-speaker-mapping-coverage
+    - uses: ./.github/actions/prerelease-add-and-commit
+    - uses: ./.github/actions/push-changes

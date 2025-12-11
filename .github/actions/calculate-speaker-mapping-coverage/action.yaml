@@ -1,0 +1,8 @@
+name: "Calculate Speaker-mapping Coverage"
+
+runs:
+  using: "composite"
+  steps:
+  - name: Calculate Speaker Mapping Coverage
+    run: |
+      python quality/qe_speaker-mapping-coverage.py -v ${{ env.RELEASE_NR }}
