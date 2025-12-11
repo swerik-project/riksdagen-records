@@ -41,4 +41,4 @@ jobs:
           echo ""
           git commit --allow-empty -m "chore (workflow): no changes to speaker mapping accuracy estimate"
         fi
-    - uses: push-changes
+    - uses: ./.github/actions/push-changes
