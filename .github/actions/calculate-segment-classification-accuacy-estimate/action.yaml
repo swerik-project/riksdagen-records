@@ -1,0 +1,8 @@
+name: "Calculate Segmentation-classification Accuracy Estimate"
+
+runs:
+  using: "composite"
+  steps:
+  - name: Calculate Segment-classification accuracy estimate
+    run: |
+      echo "::warning:: Segment Classification Accuracy -- There are no versioned plots or estimate data. Add when appropriate.":
