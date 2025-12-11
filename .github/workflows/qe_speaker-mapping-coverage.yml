@@ -8,6 +8,10 @@ on:
       - data/**
   workflow_dispatch:
 
+concurrency:
+  group: artifacts-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   Estimate-speaker-accuracy:
     runs-on: ubuntu-latest
@@ -15,26 +19,13 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - name: Checkout PR source branch
-      uses: actions/checkout@v4
-      with:
-        ref: ${{ github.head_ref }}
-
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
-      with:
-        python-version: ${{ matrix.python-version }}
-
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install pyriksdagen
-        pip install scipy
-
+    - uses: ./.github/actiona/checkout
+    - uses: ./.github/actions/setup-python
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
     - name: Calculate Speaker Mapping Coverage
       run: |
         python quality/qe_speaker-mapping-coverage.py
-
     - name: Add and commit changes
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -49,9 +40,4 @@ jobs:
           echo ""
           git commit --allow-empty -m "chore (workflow): no changes to speaker mapping coverage"
         fi
-
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
+    - uses: push-changes
