@@ -8,6 +8,10 @@ on:
       - data/**
   workflow_dispatch:
 
+concurrency:
+  group: artifacts-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   decade-1860:
     runs-on: ubuntu-latest
