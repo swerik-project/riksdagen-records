@@ -16,3 +16,4 @@ runs:
       sudo rm -rf /usr/local/azure-cli
       docker system prune -af || true
       docker volume prune -f || true
+    shell: bash
