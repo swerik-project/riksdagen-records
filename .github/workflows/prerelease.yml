@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest-xl
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: [3.8]
@@ -23,6 +23,23 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python-version }}
+
+    - name: Add project root to PYTHONPATH
+      run: echo "PYTHONPATH=$GITHUB_WORKSPACE" >> $GITHUB_ENV
+
+    - name: Free up disk space
+      run: |
+        sudo rm -rf /usr/share/dotnet
+        sudo rm -rf /usr/local/lib/android
+        sudo rm -rf /opt/ghc
+        sudo rm -rf /opt/hostedtoolcache
+        sudo apt-get clean
+        sudo rm -rf /var/lib/apt/lists/*
+        sudo rm -rf /usr/lib/google-cloud-sdk
+        sudo rm -rf /usr/local/aws-cli
+        sudo rm -rf /usr/local/azure-cli
+        docker system prune -af || true
+        docker volume prune -f || true
 
     - name: Install dependencies
       run: |
