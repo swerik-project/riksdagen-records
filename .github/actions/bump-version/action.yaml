@@ -14,3 +14,4 @@ runs:
     run: |
       release_nr=${{ steps.bump.outputs.new_version }}
       echo "RELEASE_NR=$release_nr" >> $GITHUB_ENV
+    shell: bash

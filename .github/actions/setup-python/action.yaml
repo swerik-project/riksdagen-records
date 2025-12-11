@@ -10,3 +10,4 @@ runs:
 
   - name: Add project root to PYTHONPATH
     run: echo "PYTHONPATH=$GITHUB_WORKSPACE" >> $GITHUB_ENV
+    shell: bash

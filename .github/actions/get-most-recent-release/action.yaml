@@ -8,3 +8,4 @@ runs:
       LATEST_RELEASE=$(echo "$(curl -L https://api.github.com/repos/swerik-project/riksdagen-records/releases/latest)" | jq -r .tag_name)
       if [[ "$LATEST_RELEASE" == null ]] ; then LATEST_RELEASE="v0.0.0" ; fi
       echo "LAST_RELEASE=$LATEST_RELEASE" >> $GITHUB_ENV
+    shell: bash

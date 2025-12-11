@@ -14,3 +14,4 @@ runs:
           echo "Next release will be a $release_type version"
           echo "RELEASE_TYPE=$release_type" >> $GITHUB_ENV
       fi
+    shell: bash
