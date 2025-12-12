@@ -1,0 +1,10 @@
+name: "Install jq"
+
+runs:
+  using: "composite"
+  steps:
+  - name: Install jq
+    uses: dcarbone/install-jq-action@v2
+    with:
+      version: 1.7
+      force: false

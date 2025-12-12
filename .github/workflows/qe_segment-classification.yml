@@ -8,6 +8,9 @@ on:
       - data/**
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.job }}-artifacts-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   Estimate-speaker-accuracy:
@@ -16,26 +19,16 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - name: Checkout PR source branch
-      uses: actions/checkout@v4
-      with:
-        ref: ${{ github.head_ref }}
-
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
       with:
         python-version: ${{ matrix.python-version }}
-
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install pyriksdagen
-        pip install scipy
-
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
     - name: Estimate Segment Classification Accuracy
       run: |
         python quality/qe_segment-classification.py
-
     - name: Add and commit changes
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -50,8 +43,7 @@ jobs:
           echo ""
           git commit --allow-empty -m "chore (workflow): no changes to segment classification estimate"
         fi
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+    - uses: ./.github/actions/pull-push
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.head_ref }}
