@@ -1,0 +1,16 @@
+name: "Push Changes"
+
+inputs:
+  github_token:
+    required: true
+  branch:
+    required: true
+
+runs:
+  using: composite
+  steps:
+  - name: Push changes
+    uses: ad-m/github-push-action@master
+    with:
+      github_token: ${{ inputs.github_token }}
+      branch: ${{ inputs.branch }}
