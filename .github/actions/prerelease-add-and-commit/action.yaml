@@ -1,0 +1,40 @@
+name: "Prerelease: Add and Commit Changes"
+
+runs:
+  using: "composite"
+  steps:
+  - name: Add and commit changes
+    run: |
+      git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      git config --local user.name "github-actions[bot]"
+      if [[ `git status CITATION.cff --porcelain --untracked-files=no` ]]; then
+        git add CITATION.cff
+        git commit -m "chore (workflow): bump version nr in cff file"
+      else
+        echo ""
+        echo "::warning:: WARNING!!! No changes to CITATION.cff file."
+        echo "           Double check the version nr is correct."
+        echo ""
+        git commit --allow-empty -m "chore (workflow): no changes to CITATION.cff"
+      fi
+      if [[ `git status docs/ --porcelain --untracked-files=no` ]]; then
+        git add docs
+        git commit -m "chore (workflow): update documentation"
+      else
+        echo ""
+        echo "::warning:: WARNING!!! No changes to documentation files."
+        echo "           Double check the version nr and everything else is up to date."
+        echo ""
+        git commit --allow-empty -m "chore (workflow): no changes to documentation"
+      fi
+      if [[ `git status quality/estimates/speaker-mapping-coverage/ --porcelain --untracked-files=no` ]]; then
+        git add quality/estimates/speaker-mapping-coverage/
+        git commit -m "chore (workflow): update speaker mapping coverage"
+      else
+        echo ""
+        echo "::warning:: WARNING!!! No changes to speaker mapping coverage."
+        echo "           Double check the version nr and everything else is up to date."
+        echo ""
+        git commit --allow-empty -m "chore (workflow): no changes to speaker mapping coverage"
+      fi
+    shell: bash
