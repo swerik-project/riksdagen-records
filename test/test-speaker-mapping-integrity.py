@@ -1,259 +1,177 @@
 #!/usr/bin/env python3
 """
-Test suite for validating speaker propagation in TEI XML protocols.
-
-Checks:
-1. Every element assigned a speaker (<u>, <seg>, <note>) has the correct WHO attribute.
-2. Nested elements inherit the correct speaker assignment.
-3. Speaker propagation along <u next="..."> chains is consistent.
-4. Fallback to standard sibling traversal (<u> elements) works if next chains are missing.
-5. Any mismatches or missing UUIDs are logged for review.
-
-Supports sequential execution (default) or multiprocessing with --multiprocess flag.
+Check that gold-standard speaker annotations have NOT been changed
+by later processing of protocol XML files.
+Logic:
+- Read gold-standard TSVs (is-speaker / non-speaker)
+- For each row, locate the element by xml:id in the protocol file
+- Verify that:
+* is-speaker: element still has the expected concrete @who / speaker type
+* non-speaker: element is still non-speaker (no @who, no type="speaker")
 """
-import os
-import re
-import unittest
-import pandas as pd
-from lxml import etree
-from tqdm import tqdm
-import nltk
+
 import argparse
+from glob import glob
+import os
+from multiprocessing import Pool, cpu_count
+import pandas as pd
 from pyriksdagen.io import parse_tei
+from tqdm import tqdm
+from trainerlog import get_logger
+import unittest
+import sys
 
+logger = get_logger(name="goldstandard_drift_test", level="INFO")
+
+TEI_NS = "http://www.tei-c.org/ns/1.0"
 XML_NS = "http://www.w3.org/XML/1998/namespace"
-XML_ID_ATTR = f"{{{XML_NS}}}id"
-
-
-def get_xml_id(elem):
-    """Return the XML ID of an element, or a placeholder if missing."""
-    return elem.get(XML_ID_ATTR) or elem.get("id") or "[NOUUID]"
-
-
-def normalize_whitespace(s):
-    """Collapse all whitespace into single spaces."""
-    return " ".join(s.split()) if s else ""
-
-
-def tokenize_words(s):
-    """Split string into lowercase word tokens."""
-    return [w for w in re.findall(r"\w+", (s or "").lower()) if w]
-
-
-def flatten_segment_text(elem):
-    """Concatenate all text in an element and its children, normalized."""
-    parts = [elem.text.strip()] if elem.text and elem.text.strip() else []
-    for child in elem:
-        if child.text and child.text.strip():
-            parts.append(child.text.strip())
-        if child.tail and child.tail.strip():
-            parts.append(child.tail.strip())
-    return normalize_whitespace(" ".join(parts))
-
-
-def get_most_probable_line_with_uuid(annotated, root, seen_uuids):
-    """Find the element in the XML that best matches the annotated text."""
-    annotated_tokens = tokenize_words(normalize_whitespace(annotated or ""))
-    if not annotated_tokens:
-        return None, None, None
-
-    len_a = len(annotated_tokens)
-    best_text, best_dist, best_uuid = None, float("inf"), None
-
-    for elem in root.iter():
-        tag = etree.QName(elem.tag).localname
-        if tag not in {"u", "seg", "note", "s"}:
-            continue
-
-        seg_tokens = tokenize_words(flatten_segment_text(elem))
-        if not seg_tokens:
-            continue
-
-        if len(seg_tokens) >= len_a:
-            local_best = min(
-                nltk.edit_distance(annotated_tokens, seg_tokens[i:i + len_a])
-                for i in range(len(seg_tokens) - len_a + 1)
-            )
-        else:
-            local_best = nltk.edit_distance(annotated_tokens, seg_tokens)
-
-        if local_best < best_dist:
-            best_dist = local_best
-            best_text = flatten_segment_text(elem)
-            best_uuid = get_xml_id(elem)
-
-        if best_uuid in seen_uuids:
-            continue
-
-        seen_uuids.add(best_uuid)
-
-        if best_dist == 0:
-            break
-
-    return best_text, best_dist, best_uuid
 
 
 def find_element_by_xml_id(root, uuid):
-    """Return the element with the given XML ID, or None."""
-    for el in root.iter():
-        if el.get(XML_ID_ATTR) == uuid:
-            return el
-    return None
+    if not uuid:
+        return None
+    ns = {
+        'xml': XML_NS,
+        'tei': TEI_NS,
+    }
+    res = root.xpath(f".//*[@xml:id='{uuid}']", namespaces=ns)
+    return res[0] if res else None
 
 
-def is_relevant(el):
-    """Check if the element is one of the relevant types for WHO checks."""
-    return etree.QName(el.tag).localname in {"u", "seg", "note"}
+def process_row(r):
+    xml_path = r['protocol_id']
+    uuid = r['uuid']
+    folder_type = r['folder_type']
+    expected_person = r['person_id']
 
+    result = {'not_found': None, 'fail_is_speaker': None, 'fail_non_speaker': None}
 
-def get_tag(el):
-    """Return the local tag name of the element."""
-    return etree.QName(el.tag).localname
+    if not xml_path or not os.path.exists(xml_path):
+        result['not_found'] = [xml_path, uuid, "file not found"]
+        logger.error(f"File not found: {xml_path}")
+        return result
 
+    root, ns = parse_tei(xml_path)
+    el = find_element_by_xml_id(root, uuid)
 
-class TestSpeakerPropagationIntegrity(unittest.TestCase):
+    if el is None:
+        result['not_found'] = [xml_path, uuid, "uuid not found"]
+        logger.error(f"UUID not found: {uuid} in {xml_path}")
+        return result
 
-    data_dir = "data"
-    base_dir = os.path.join("test", "data", "speaker-segments", "is-speaker")
-    output_file = os.path.join("test", "output", "is_speaker_failures.tsv")
-    xml_cache = {}
-    uuid_memory = {}
-
-    def tearDown(self):
-        """Clean up cached resources after each test method."""
-        self.xml_cache.clear()
-        self.uuid_memory.clear()
-
-    def load_xml(self, protocol_id):
-        """Parse and cache the XML for a protocol."""
-        if protocol_id not in self.xml_cache:
-            xml_path = os.path.join(self.data_dir, os.path.relpath(protocol_id, "data"))
-            root, _ = parse_tei(xml_path)
-            self.xml_cache[protocol_id] = root
-            self.uuid_memory[protocol_id] = set()
-        return self.xml_cache[protocol_id]
-
-    def load_is_speaker_rows(self):
-        """Load all speaker mapping TSVs, grouped by protocol."""
-        dfs = []
-        for fname in os.listdir(self.base_dir):
-            if fname.endswith(".tsv"):
-                df = pd.read_csv(os.path.join(self.base_dir, fname),
-                                 sep="\t", dtype=str).fillna("")
-                dfs.append(df)
-        all_df = pd.concat(dfs, ignore_index=True)
-        return {pid: sub for pid, sub in all_df.groupby("protocol_id")}
-
-    def validate_recursive_children(self, el, expected_who):
-        """Check recursively that all child nodes have the correct WHO and note type."""
-        for node in el.iter():
-            if not is_relevant(node):
-                continue
-            who = node.get("who")
-            if who != expected_who:
-                return False, f"WHO mismatch: {who} != {expected_who}"
-            if get_tag(node) == "note" and node.get("type") != "speaker":
-                return False, "<note> not type='speaker'"
-        return True, None
-
-    def validate_sibling_chain(self, el, expected_who):
-        """
-        Validate that speaker propagation continues correctly.
-        1. Follow the <u next="..."> chain if present.
-        2. Otherwise, follow standard sibling <u> elements.
-        Returns False if a mismatch is found.
-        """
-        visited = set()
-        nxt = el
-
-        while nxt is not None:
-            nxt_id = nxt.get("next")
-            if not nxt_id:
-                break
-
-            root = nxt.getroottree().getroot()
-            nxt_elem = find_element_by_xml_id(root, nxt_id)
-            if nxt_elem is None or nxt_id in visited:
-                break
-            visited.add(nxt_id)
-
-            if get_tag(nxt_elem) == "u":
-                who = nxt_elem.get("who")
-                if who and who != expected_who:
-                    return False, (
-                        f"<u next> WHO mismatch: {who} != {expected_who} "
-                        f"at {nxt_elem.get(XML_ID_ATTR)}"
-                    )
-            nxt = nxt_elem
-
-        nxt = el.getnext()
-        while nxt is not None:
-            if get_tag(nxt) == "u":
-                who = nxt.get("who")
-                if who and who != expected_who:
-                    return False, (
-                        f"Sibling <u> WHO mismatch: {who} != {expected_who} "
-                        f"at {nxt.get(XML_ID_ATTR)}"
-                    )
-                break
-            nxt = nxt.getnext()
-
-        return True, None
-
-    def test_speaker_propagation_full(self):
-        """Full test: check all speaker assignments and log failures."""
-        grouped = self.load_is_speaker_rows()
-        failures = []
-
-        for protocol_id, df in tqdm(grouped.items(), desc="Validating speaker mapping"):
-            root = self.load_xml(protocol_id)
-
-            for _, row in df.iterrows():
-                uuid = row["uuid"]
-                person_id = row["person_id"]
-                annotated = row.get("intro_text", "")
-
-                el = find_element_by_xml_id(root, uuid)
-                if el is None:
-                    _, _, new_uuid = get_most_probable_line_with_uuid(
-                        annotated, root, self.uuid_memory[protocol_id]
-                    )
-                    failures.append((protocol_id, uuid, person_id,
-                                     "UUID not found in TEI",
-                                     new_uuid if new_uuid else "-"))
-                    continue
-
-                ok, reason = self.validate_recursive_children(el, person_id)
-                if not ok:
-                    failures.append((protocol_id, uuid, person_id, reason, "-"))
-                    continue
-
-                ok, reason = self.validate_sibling_chain(el, person_id)
-                if not ok:
-                    failures.append((protocol_id, uuid, person_id, reason, "-"))
-                    continue
-
-        os.makedirs(os.path.dirname(self.output_file), exist_ok=True)
-        if failures:
-            pd.DataFrame(
-                failures,
-                columns=["protocol_id", "uuid", "person_id", "reason", "new_candidate_uuid"]
-            ).to_csv(self.output_file, sep="\t", index=False)
-
-        assert not failures, f"Failures logged in {self.output_file}"
-
-
-def main(args):
-    """Run the test suite with optional multiprocessing."""
-    if args.multiprocess:
-        unittest.main(verbosity=2, failfast=False, buffer=True)
+    if folder_type == 'is-speaker':
+        if el.tag.endswith('u') and el.get('who') != expected_person:
+            result['fail_is_speaker'] = [xml_path, uuid, expected_person, el.get('who')]
+            logger.error(f"Speaker drift: {uuid} expected {expected_person}, got {el.get('who')}")
+        if el.tag.endswith('note') and el.get('type') != 'speaker':
+            result['fail_is_speaker'] = [xml_path, uuid, 'type=speaker', el.get('type')]
+            logger.error(f"Speaker note drift: {uuid}")
     else:
-        unittest.main(verbosity=2)
+        if el.get('who') or (el.tag.endswith('note') and el.get('type') == 'speaker'):
+            actual = el.get('who') if el.get('who') else 'type=speaker'
+            result['fail_non_speaker'] = [xml_path, uuid, actual]
+            logger.error(f"Non-speaker drift: {uuid} ({actual})")
+
+    return result
 
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Validate speaker propagation in TEI XML protocols.")
-    parser.add_argument("--multiprocess", action="store_true",
-                        help="Run tests using multiprocessing")
-    args = parser.parse_args()
-    main(args)
+class GoldStandardDriftTests(unittest.TestCase):
+
+    @classmethod
+    def setUpClass(cls):
+        super(GoldStandardDriftTests, cls).setUpClass()
+
+        cls.base_folder = "test/data/speaker-segments"
+        cls.fail_is_speaker = []
+        cls.fail_non_speaker = []
+        cls.not_found = []
+        cls.rows = []
+
+        for folder in ["is-speaker", "non-speaker"]:
+            folder_path = os.path.join(cls.base_folder, folder)
+            for tsv in glob(os.path.join(folder_path, "*.tsv")):
+                df = pd.read_csv(tsv, sep="\t", dtype=str).fillna('')
+                for idx, row in df.iterrows():
+                    cls.rows.append({
+                        'folder_type': folder,
+                        'protocol_id': row.get('protocol_id'),
+                        'uuid': row.get('uuid'),
+                        'person_id': row.get('person_id'),
+                        'row_index': idx,
+                        'source': tsv,
+                    })
+
+    @classmethod
+    def tearDownClass(cls):
+        print("\nMissing UUIDs:", cls.not_found[:5], "\n", len(cls.not_found), "instances")
+        print("\nGold is-speaker drift:", cls.fail_is_speaker[:5], "\n", len(cls.fail_is_speaker), "instances")
+        print("\nGold non-speaker drift:", cls.fail_non_speaker[:5], "\n", len(cls.fail_non_speaker), "instances")
+
+        if cls.not_found:
+            pd.DataFrame(cls.not_found, columns=["file", "uuid", "problem"]).to_csv(
+                "test/results/gold-uuid-not-found.tsv", sep="\t", index=False
+            )
+
+        if cls.fail_is_speaker:
+            pd.DataFrame(cls.fail_is_speaker, columns=["file", "uuid", "expected", "actual"]).to_csv(
+                "test/results/gold-is-speaker-drift.tsv", sep="\t", index=False
+            )
+
+        if cls.fail_non_speaker:
+            pd.DataFrame(cls.fail_non_speaker, columns=["file", "uuid", "actual"]).to_csv(
+                "test/results/gold-non-speaker-drift.tsv", sep="\t", index=False
+            )
+
+    def test_goldstandard_not_overwritten(self):
+        """Verify that gold-standard speaker decisions still hold in XML."""
+
+        use_mp = getattr(self, 'use_multiprocess', False)
+
+        if use_mp:
+            n_workers = min(cpu_count(), len(self.rows))
+            with Pool(n_workers) as pool:
+                results = list(tqdm(pool.imap_unordered(process_row, self.rows), total=len(self.rows)))
+        else:
+            results = [process_row(r) for r in tqdm(self.rows)]
+
+        for res in results:
+            if res['not_found']:
+                self.not_found.append(res['not_found'])
+            if res['fail_is_speaker']:
+                self.fail_is_speaker.append(res['fail_is_speaker'])
+            if res['fail_non_speaker']:
+                self.fail_non_speaker.append(res['fail_non_speaker'])
+
+        self.assertEqual(0, len(self.not_found), "Some gold UUIDs are missing")
+        self.assertEqual(0, len(self.fail_is_speaker), "Some gold speakers were overwritten")
+        self.assertEqual(0, len(self.fail_non_speaker), "Some gold non-speakers were overwritten")
+
+
+if __name__ == '__main__':
+
+    parser = argparse.ArgumentParser(description="Gold-standard speaker drift tests")
+    parser.add_argument(
+        "--base-folder",
+        default="test/data/speaker-segments",
+        help="Base folder containing is-speaker / non-speaker TSVs"
+    )
+    parser.add_argument(
+        "--loglevel",
+        default="INFO",
+        choices=["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"],
+        help="Logger level (default: INFO)"
+    )
+    parser.add_argument(
+        "--multiprocess",
+        action="store_true",
+        help="Parse XML files in parallel (read-only)"
+    )
+
+    args, remaining = parser.parse_known_args()
+
+    logger.setLevel(args.loglevel)
+    GoldStandardDriftTests.base_folder = args.base_folder
+    GoldStandardDriftTests.use_multiprocess = args.multiprocess
+
+    sys.argv = [sys.argv[0]] + remaining
+    unittest.main()
