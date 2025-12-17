@@ -4,10 +4,9 @@ runs:
   using: "composite"
   steps:
   - name: update cff
-    run: sed -i.bak -e "s/\(^version:\)\([^\"]*\)/\1 $release_nr/" CITATION.cff
+    run: sed -i.bak -e "s/\(^version:\)\([^\"]*\)/\1 $RELEASE_NR/" CITATION.cff
     shell: bash
   - name: Validate CITATION.cff
     run: |
-      cat CITATION.cff
       cffconvert --validate -i CITATION.cff --show-trace
     shell: bash
