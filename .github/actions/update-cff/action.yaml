@@ -8,5 +8,5 @@ runs:
     shell: bash
   - name: Validate CITATION.cff
     run: |
-      cffconvert --validate
+      cffconvert --validate -i CITATION.cff
     shell: bash
