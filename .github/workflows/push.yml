@@ -5,6 +5,9 @@ on:
     paths:
       - data/**
       - test/.run
+  pull_reuest:
+    branches:
+      - 'dev'
   workflow_dispatch:
 
 jobs:
