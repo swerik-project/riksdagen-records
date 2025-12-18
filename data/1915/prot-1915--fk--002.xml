@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prot-1915--fk--002">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="prot-1915--fk--002">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,6 +11,7 @@
       <sourceDesc>
         <bibl>
           <title>Protokoll</title>
+          <idno type="URI" subtype="PDF">https://swerik-project.github.io/riksdagen-records-pdf/1915/prot-1915--fk--002</idno>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -21,16 +22,42 @@
         </correction>
       </editorialDecl>
     </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <classCode>OCR</classCode>
+      </textClass>
+      <textDesc>
+        <channel mode="s"/>
+        <composition>
+          <note xml:id="i-T6TpfFmjSjfFrs553dGUd8" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-8FBgmwAAyhEwP5tha4A2AC"/>
+            </linkGrp>
+          </note>
+          <note xml:id="i-C3NKhLNhthxbYtopFQFb6b" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-3Sk4p6ugp2VYsED9Q3YapQ"/>
+              <ptr target="#i-8Suwevm5npYoTXaeeg9Awb"/>
+              <ptr target="#i-J65r5bN3sMSLAvvYC3W28f"/>
+            </linkGrp>
+          </note>
+        </composition>
+      </textDesc>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
       <div type="preface">
-        <head>prot-1915--fk--2</head>
-        <docDate when="1915-01-16">1915-01-16</docDate>
+        <head>
+          prot-1915--fk--2
+        </head>
+        <docDate when="1915-01-16">
+          1915-01-16
+        </docDate>
       </div>
     </front>
     <body>
-      <div type="debateSection" xml:id="i-7aPdy6yYBeD9NfMi9tu8Hz">
+      <div xml:id="i-7aPdy6yYBeD9NfMi9tu8Hz" type="debateSection">
         <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1915/prot-1915--fk--002/prot-1915--fk--002_000"/>
         <note xml:id="i-BmnQ9EJvVWPCGWa7KvA95h" type="title">
           RIKSDAGENS PROTOKOLL.
@@ -85,7 +112,7 @@
         <note xml:id="i-T6b5xPp4UvvwBg1ZbKi6q1" type="speaker">
           Herr talmannen framträdde därpå och yttrade:
         </note>
-        <u xml:id="i-3Sk4p6ugp2VYsED9Q3YapQ" next="i-8Suwevm5npYoTXaeeg9Awb" who="i-71XWFF9hWuo3epEz1FeAhT">
+        <u xml:id="i-3Sk4p6ugp2VYsED9Q3YapQ" who="i-71XWFF9hWuo3epEz1FeAhT" next="i-8Suwevm5npYoTXaeeg9Awb">
           <seg xml:id="i-MUzWU43NWzUHEjFWNZZn6h">
             Allernådigste Konung, Eders Majestät. När riksdagens första kammare
             i dag möter sin Konung, tarvas icke många ord för att uttrycka
@@ -102,7 +129,7 @@
         <note xml:id="i-PND4gySepAtQ8wXEA9ZwFv" type="title">
           Lördagen den 16 januari.
         </note>
-        <u xml:id="i-8Suwevm5npYoTXaeeg9Awb" prev="i-3Sk4p6ugp2VYsED9Q3YapQ" who="i-71XWFF9hWuo3epEz1FeAhT" next="i-J65r5bN3sMSLAvvYC3W28f">
+        <u xml:id="i-8Suwevm5npYoTXaeeg9Awb" who="i-71XWFF9hWuo3epEz1FeAhT" prev="i-3Sk4p6ugp2VYsED9Q3YapQ" next="i-J65r5bN3sMSLAvvYC3W28f">
           <seg xml:id="i-JEBLFzy6RrREgvgwzn8Wtp">
             folk vet, att Konungens tankar och dess egna äro ens om den väg,
             vi i denna brydsamma tid hava att gå. Den vägen är icke sorglöshetens,
@@ -117,7 +144,7 @@
             givas erkännande och aktning även av andra folk.
           </seg>
         </u>
-        <u xml:id="i-J65r5bN3sMSLAvvYC3W28f" prev="i-8Suwevm5npYoTXaeeg9Awb" who="i-71XWFF9hWuo3epEz1FeAhT">
+        <u xml:id="i-J65r5bN3sMSLAvvYC3W28f" who="i-71XWFF9hWuo3epEz1FeAhT" prev="i-8Suwevm5npYoTXaeeg9Awb">
           <seg xml:id="i-QEeiCaMtyRMW5n3EoNToU">
             Med orubblig tillit, med oföränderlig tillgivenhet frambär till
             Eders Maj:t riksdagens första kammare sin undersåtliga hälsning.

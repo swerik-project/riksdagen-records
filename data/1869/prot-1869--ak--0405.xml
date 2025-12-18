@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prot-1869--ak--0405">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="prot-1869--ak--0405">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,6 +11,7 @@
       <sourceDesc>
         <bibl>
           <title>Protokoll</title>
+          <idno type="URI" subtype="PDF">https://swerik-project.github.io/riksdagen-records-pdf/1869/prot-1869--ak--0405</idno>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -21,18 +22,58 @@
         </correction>
       </editorialDecl>
     </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <classCode>OCR</classCode>
+      </textClass>
+      <textDesc>
+        <channel mode="s"/>
+        <composition>
+          <note xml:id="i-G611koTLQsmQZs8GbNJnES" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-Qi5AMrati4qDBpJrKZNWJF"/>
+            </linkGrp>
+          </note>
+          <note xml:id="i-P6kAzoE7EWiWk8tg7zPFB1" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-9a7GSynWesJs1TmFukgWGU"/>
+              <ptr target="#i-JxPpZLZWPWWobnaSrar815"/>
+              <ptr target="#i-MAdboYMw3zWgFYjYyAosb2"/>
+            </linkGrp>
+          </note>
+          <note xml:id="i-N3PG5k6d7fo7mr2BtjDbfa" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-EKMkPKVsRznmSDzzUrysGR"/>
+              <ptr target="#i-JngwWXNEpoSQ4w49Ao4iz9"/>
+            </linkGrp>
+          </note>
+          <note xml:id="i-UXiDAV4NTXWAgXRxMLkCD6" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-KbdnBn4MoTEkir5ak1mJ5"/>
+              <ptr target="#i-RSoSLi9RXmezp8jdNAuo7Z"/>
+            </linkGrp>
+          </note>
+        </composition>
+      </textDesc>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
       <div type="preface">
-        <head>prot-1869--ak--0405</head>
-        <docDate when="1869-04-05">1869-04-05</docDate>
-        <docDate when="1869-04-07">1869-04-07</docDate>
+        <head>
+          prot-1869--ak--0405
+        </head>
+        <docDate when="1869-04-05">
+          1869-04-05
+        </docDate>
+        <docDate when="1869-04-07">
+          1869-04-07
+        </docDate>
       </div>
     </front>
     <body>
-      <div type="debateSection" xml:id="i-GJkhp1C19cPP34bv8xVVNH">
-        <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1869/prot-1869--ak--405/prot-1869--ak--405_000"/>
+      <div xml:id="i-GJkhp1C19cPP34bv8xVVNH" type="debateSection">
+        <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1869/prot-1869--ak--0405/prot-1869--ak--0405_000"/>
         <note xml:id="i-7bo8hqsZPm7xXpLTKgXRj2" type="date">
           Den 5 April. 67
         </note>
@@ -96,14 +137,14 @@
         <note xml:id="i-YLxcKiFb2J6UQWLFq5spuF" type="speaker">
           Herr Lindström begärde då ordet och yttrade:
         </note>
-        <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1869/prot-1869--ak--405/prot-1869--ak--405_001"/>
+        <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1869/prot-1869--ak--0405/prot-1869--ak--0405_001"/>
         <note xml:id="i-8WnqVMTG6iR3tf2DYKSCgs">
           68 Den 5 April. Vidare yttrade
         </note>
         <note xml:id="i-Bw1XAVK4sL4UAvKZZL2v6J" type="speaker">
           Herr Staaff:
         </note>
-        <u who="i-HvB43EUnLaSUKmFYYm2t2U" xml:id="i-Qi5AMrati4qDBpJrKZNWJF">
+        <u xml:id="i-Qi5AMrati4qDBpJrKZNWJF" who="i-HvB43EUnLaSUKmFYYm2t2U">
           <seg xml:id="i-2WLdznXSkJo62L8M9LWvQ1">
             För min del finner jag motionen vara så sammansatt, att en del
             deraf tillhör handläggning af ett tillfälligt Utskott, en del
@@ -121,7 +162,7 @@
         <note xml:id="i-5PaXJhwrdSh4MfeMNtMc2d" type="speaker">
           Herr Carl Ifvarsson:
         </note>
-        <u who="i-TF2nMgsgs9UxhzkCePtBJo" xml:id="i-9a7GSynWesJs1TmFukgWGU" next="i-JxPpZLZWPWWobnaSrar815">
+        <u xml:id="i-9a7GSynWesJs1TmFukgWGU" who="i-TF2nMgsgs9UxhzkCePtBJo" next="i-JxPpZLZWPWWobnaSrar815">
           <seg xml:id="i-WtM9TzGnVSwKokKvnCEhy">
             Ehuru jag icke, likasom den föregående talaren, anser motionen
             vara af tvåfaldigt innehåll och beskaffenhet, gil- Jar jag ändock
@@ -137,15 +178,15 @@
             af Utskott öfverlemnas.
           </seg>
         </u>
-        <u xml:id="i-JxPpZLZWPWWobnaSrar815" prev="i-9a7GSynWesJs1TmFukgWGU" who="i-TF2nMgsgs9UxhzkCePtBJo">
+        <u xml:id="i-JxPpZLZWPWWobnaSrar815" who="i-TF2nMgsgs9UxhzkCePtBJo" prev="i-9a7GSynWesJs1TmFukgWGU">
           <seg xml:id="i-85PenicvfBSAw5jyvpYxqD">
             Med anledning af hvad sålunda förekommit och särskildt hvad Herr
             Lindström anfört, ville Herr Talmannen hafva erinrat om de olika
             bestämmelser, som, i fråga om motioners hänvisande till Utskott,
-            blifvit i 55 &amp; Riksdagsordningen meddelade å ena sidan för sådana
-            ärenden, som tillhörde ständigt Utskotts behandling, samt, å den
-            andra, för sådana af motionären framställda förslag, med hvilka
-            tillfälligt Utskott borde taga befattning. Dessa bestämmelsers
+            blifvit i 55 &amp; Riksdagsordningen meddelade å ena sidan för
+            sådana ärenden, som tillhörde ständigt Utskotts behandling, samt,
+            å den andra, för sådana af motionären framställda förslag, med
+            hvilka tillfälligt Utskott borde taga befattning. Dessa bestämmelsers
             olikhet gjorde nödvändigt att först få afgjordt, huruvida ifrågavarande
             motion tillhörde ständigt eller tillfälligt Utskotts handläggning,
             och då det ständiga Utskott, hvarom här vore fråga, icke kunde
@@ -165,7 +206,7 @@
             godkänd.
           </seg>
         </u>
-        <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1869/prot-1869--ak--405/prot-1869--ak--405_002"/>
+        <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1869/prot-1869--ak--0405/prot-1869--ak--0405_002"/>
         <note xml:id="i-aThBznpLcCEC6jJ4n7g2n" type="date">
           Den 5 April. 69
         </note>
@@ -177,7 +218,7 @@
           Utlåtanden N:is 19 och 21.
         </note>
       </div>
-      <div type="commentSection" xml:id="i-RhbMnx2SaoFqA4yhGX8jJQ">
+      <div xml:id="i-RhbMnx2SaoFqA4yhGX8jJQ" type="commentSection">
         <note xml:id="i-LsjgASdZbAW54QdmezWima" type="title">
           § 4.
         </note>
@@ -209,7 +250,7 @@
           Denna skrifvelse blef på begäran bordlagd.
         </note>
       </div>
-      <div type="commentSection" xml:id="i-EnJQMQsJwhNkQcBti66kT">
+      <div xml:id="i-EnJQMQsJwhNkQcBti66kT" type="commentSection">
         <note xml:id="i-gpUaRpuajiTPPBVtf3SXV" type="title">
           § 5.
         </note>
@@ -220,7 +261,7 @@
           af åtskilliga lägenheter å Kungsörs kungsladugård.
         </note>
       </div>
-      <div type="commentSection" xml:id="i-XdhvMDREVpVi1dyzw9RYKQ">
+      <div xml:id="i-XdhvMDREVpVi1dyzw9RYKQ" type="commentSection">
         <note xml:id="i-XiZ2tBty5Rxzp8UVfwtdnf" type="title">
           § 6.
         </note>
@@ -229,14 +270,14 @@
           som finnas antecknade här ofvan under 88 1 och 5.
         </note>
       </div>
-      <div type="debateSection" xml:id="i-VhLb1yEAq3YioefRN95sys">
+      <div xml:id="i-VhLb1yEAq3YioefRN95sys" type="debateSection">
         <note xml:id="i-GiVUhntpnoa7aNk4ftGKkx" type="title">
           § 7. Herr Talmannen tillkännagaf, att ordet blifvit begärdt af
         </note>
         <note xml:id="i-6x6LqT6XnPMndFhHyVoJtg" type="speaker">
           Herr Per Nilson från Malmöhus län, hvilken anförde:
         </note>
-        <u xml:id="i-EKMkPKVsRznmSDzzUrysGR" next="i-JngwWXNEpoSQ4w49Ao4iz9" who="unknown">
+        <u xml:id="i-EKMkPKVsRznmSDzzUrysGR" who="unknown" next="i-JngwWXNEpoSQ4w49Ao4iz9">
           <seg xml:id="i-K9FU3cLfyYGf3MvVqti4Qa">
             Då Staten uppoffrat så högst betydliga summor till anskaffande
             af nya gevär för arméens behof och till anställande af öfningar
@@ -248,11 +289,11 @@
           Härefter uppläste Herr Per Nilsson det skriftligen affattade
           spörjsmålet, så lydande:
         </note>
-        <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1869/prot-1869--ak--405/prot-1869--ak--405_003"/>
+        <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1869/prot-1869--ak--0405/prot-1869--ak--0405_003"/>
         <note xml:id="i-GoBJptQ7ze7Lg9BMXBcGJU" type="date">
           70 . Den 5 April.
         </note>
-        <u xml:id="i-JngwWXNEpoSQ4w49Ao4iz9" prev="i-EKMkPKVsRznmSDzzUrysGR" who="unknown">
+        <u xml:id="i-JngwWXNEpoSQ4w49Ao4iz9" who="unknown" prev="i-EKMkPKVsRznmSDzzUrysGR">
           <seg xml:id="i-P9sLMMtpeFPmd9SszHy7gh">
             I Stats-Rådets protokoll den 35 sistlidne Januari, bilagdt Kongl.
             Maj:ts Proposition angående Statsverkets tillstånd och behof,
@@ -279,7 +320,7 @@
           Statsrådet och Chefen för Kongl. Landtförsvarsdepartementet.
         </note>
       </div>
-      <div type="debateSection" xml:id="i-FC6Rchzwgd1NwQSaUnSfbh">
+      <div xml:id="i-FC6Rchzwgd1NwQSaUnSfbh" type="debateSection">
         <note xml:id="i-CUtcnPEqpfi3K98tnhh2nw" type="title">
           § 8.
         </note>
@@ -290,7 +331,7 @@
         <note xml:id="i-B4uiFMCCEktjpy6BheWmG2" type="speaker">
           Herr vice Talmannen Mannerskantz yttrade:
         </note>
-        <u xml:id="i-KbdnBn4MoTEkir5ak1mJ5" who="unknown">
+        <u xml:id="i-KbdnBn4MoTEkir5ak1mJ5" who="i-2KQokBVhondPT8e9ZQdmem">
           <seg xml:id="i-2REYN7H2tm9RfCeKBaT8oP">
             Oaktadt den skrifvelse från Riksdagens Fullmägtige i Riksgälds-kontoret,
             som nyss upplästes, blifvit begärd på bordet, anhåller jag ändock
@@ -316,7 +357,7 @@
           under 8 4 här ofvan omförmälda och bordlagda skrifvelse.
         </note>
       </div>
-      <div type="commentSection" xml:id="i-7YneZynNCMCzL7bgWWgGAZ">
+      <div xml:id="i-7YneZynNCMCzL7bgWWgGAZ" type="commentSection">
         <note xml:id="i-KcRmFynXwgmJjT8UjTMSUA" type="title">
           § 9. Anmäldes och bordlades följande nu inkomna ärenden: Stats-Utskottets
           nedannämnda Memorial och Utlåtanden, nemligen:
@@ -325,7 +366,7 @@
           N:o 53, angående äskad godtgörelse till Statskontoret för icke
           ersatta förskott till utgifter för folkundervisningen;
         </note>
-        <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1869/prot-1869--ak--405/prot-1869--ak--405_004"/>
+        <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1869/prot-1869--ak--0405/prot-1869--ak--0405_004"/>
         <note xml:id="i-NVB3b73xajcXq9b2cjr3HS" type="date">
           Den 7 April. I
         </note>

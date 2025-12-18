@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prot-1918--fk--049">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="prot-1918--fk--049">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,6 +11,7 @@
       <sourceDesc>
         <bibl>
           <title>Protokoll</title>
+          <idno type="URI" subtype="PDF">https://swerik-project.github.io/riksdagen-records-pdf/1918/prot-1918--fk--049</idno>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -21,16 +22,41 @@
         </correction>
       </editorialDecl>
     </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <classCode>OCR</classCode>
+      </textClass>
+      <textDesc>
+        <channel mode="s"/>
+        <composition>
+          <note xml:id="i-59S21H93t573RV4xXmSZ1z" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-2Wo7a1xerGw8u7xfcxrWMk"/>
+            </linkGrp>
+          </note>
+          <note xml:id="i-Bko9eFHsMkoe561wEQ3o8z" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-7tKGoauu4aB9NY1nffqDi4"/>
+              <ptr target="#i-DZHZUrk6dpNBLoUX1nKbsg"/>
+            </linkGrp>
+          </note>
+        </composition>
+      </textDesc>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
       <div type="preface">
-        <head>prot-1918--fk--49</head>
-        <docDate when="1918-06-10">1918-06-10</docDate>
+        <head>
+          prot-1918--fk--49
+        </head>
+        <docDate when="1918-06-10">
+          1918-06-10
+        </docDate>
       </div>
     </front>
     <body>
-      <div type="debateSection" xml:id="i-F1oQ9qDz3iYF4CFGyfAX4Q">
+      <div xml:id="i-F1oQ9qDz3iYF4CFGyfAX4Q" type="debateSection">
         <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1918/prot-1918--fk--049/prot-1918--fk--049_000"/>
         <note xml:id="i-SDNNx9YetbzdX61HyYZCHe" type="title">
           RIKSDAGENS PROTOKOLL.
@@ -55,7 +81,7 @@
         <note xml:id="i-RGuVMRZ3ozr3RUEZ42Yova" type="speaker">
           Herr talmannen yttrade:
         </note>
-        <u who="i-DPSKdaCf6QjiTxUvV2sFQN" xml:id="i-2Wo7a1xerGw8u7xfcxrWMk">
+        <u xml:id="i-2Wo7a1xerGw8u7xfcxrWMk" who="i-DPSKdaCf6QjiTxUvV2sFQN">
           <seg xml:id="i-4PuThgYBR4FDiF5RWiSm5L">
             Jag skall be att få för kammaren tillkännagiva, att på grund
             av förändrade förhållanden gemensamma voteringar komma att äga
@@ -183,7 +209,7 @@
         <note xml:id="i-CBEfXCLRxeQSA5qB4z15V7" type="speaker">
           Herr vice talmannen erhöll på begäran ordet och yttrade:
         </note>
-        <u xml:id="i-7tKGoauu4aB9NY1nffqDi4" next="i-DZHZUrk6dpNBLoUX1nKbsg" who="unknown">
+        <u xml:id="i-7tKGoauu4aB9NY1nffqDi4" who="unknown" next="i-DZHZUrk6dpNBLoUX1nKbsg">
           <seg xml:id="i-Pr1UtCrNiPxFwmin7v4jQL">
             Herr talman! Jag ber att få hemställa, att samtliga ärenden,
             som nu äro två gånger bordlagda, på morgondagens föredragningslista
@@ -206,7 +232,7 @@
         <note xml:id="i-Tv7Fgzfc4kuanYUj36zFfo">
           Rättelse.
         </note>
-        <u xml:id="i-DZHZUrk6dpNBLoUX1nKbsg" prev="i-7tKGoauu4aB9NY1nffqDi4" who="unknown">
+        <u xml:id="i-DZHZUrk6dpNBLoUX1nKbsg" who="unknown" prev="i-7tKGoauu4aB9NY1nffqDi4">
           <seg xml:id="i-TvqpKREXPgzpred4QvBcx">
             I första kammarens protokoll nr 44 böra stycket nederst å sid.
             24, vilket börjar med »Gentemot herr von Kochs reservation», och

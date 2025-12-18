@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prot-1904--fk--027">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="prot-1904--fk--027">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,6 +11,7 @@
       <sourceDesc>
         <bibl>
           <title>Protokoll</title>
+          <idno type="URI" subtype="PDF">https://swerik-project.github.io/riksdagen-records-pdf/1904/prot-1904--fk--027</idno>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -21,12 +22,37 @@
         </correction>
       </editorialDecl>
     </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <classCode>OCR</classCode>
+      </textClass>
+      <textDesc>
+        <channel mode="s"/>
+        <composition>
+          <note xml:id="i-3mnkDoASadG3ck1yZD5zRg" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-3eR6741rWhQE9wbH4Yw3JL"/>
+              <ptr target="#i-NxjnWUUDxhSREWKnE4vVEn"/>
+            </linkGrp>
+          </note>
+          <note xml:id="i-TzFhPuyiHewHaEfC3ny8CQ" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-39DcaZ5FCiEyJYFuAit7fZ"/>
+            </linkGrp>
+          </note>
+        </composition>
+      </textDesc>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
       <div type="preface">
-        <head>prot-1904--fk--27</head>
-        <docDate when="1904-03-15">1904-03-15</docDate>
+        <head>
+          prot-1904--fk--27
+        </head>
+        <docDate when="1904-03-15">
+          1904-03-15
+        </docDate>
       </div>
     </front>
     <body>
@@ -100,7 +126,7 @@
         <note xml:id="i-G21FcysmGt6GeRPqdhMZ2C" type="speaker">
           Herr vice talmannen erhöll på begäran ordet och yttrade:
         </note>
-        <u xml:id="i-3eR6741rWhQE9wbH4Yw3JL" next="i-NxjnWUUDxhSREWKnE4vVEn" who="unknown">
+        <u xml:id="i-3eR6741rWhQE9wbH4Yw3JL" who="unknown" next="i-NxjnWUUDxhSREWKnE4vVEn">
           <seg xml:id="i-BqNRBxtLB59EVUym3FSUzj">
             Jag tillåter mig hemställa, att Första Kammaren behagade för
             sin del besluta, att för behandling af Kungl. Maj:ts i dag aflämnade
@@ -112,7 +138,7 @@
             må bestämmas att utgöra tre.
           </seg>
         </u>
-        <u xml:id="i-NxjnWUUDxhSREWKnE4vVEn" prev="i-3eR6741rWhQE9wbH4Yw3JL" who="unknown">
+        <u xml:id="i-NxjnWUUDxhSREWKnE4vVEn" who="unknown" prev="i-3eR6741rWhQE9wbH4Yw3JL">
           <seg xml:id="i-KZPvCcXn3khcAf9vEwvAJ7">
             På gjord propositioo beslöt kammaren för sin del, att för behandling
             af Kungl. Maj:ts ifrågavarande proposition skulle tillsättas ett
@@ -200,7 +226,7 @@
         <note xml:id="i-56F24rhPnar8EemaWjeYqZ" type="speaker">
           Herr Pettersson, Fredrik, erhöll på begäran ordet och yttrade:
         </note>
-        <u who="i-EqbawbuouJm9DWYVDB79Yw" xml:id="i-39DcaZ5FCiEyJYFuAit7fZ">
+        <u xml:id="i-39DcaZ5FCiEyJYFuAit7fZ" who="i-EqbawbuouJm9DWYVDB79Yw">
           <seg xml:id="i-4CwR34acscf5D7HpiSNkTT">
             Då jag anser, att vid hvarje förslag till rösträttsförändring
             frågan om förlängning af valperioden för Riksdagens Andra Kammare

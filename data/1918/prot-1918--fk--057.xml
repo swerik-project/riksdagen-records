@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prot-1918--fk--057">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="prot-1918--fk--057">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,6 +11,7 @@
       <sourceDesc>
         <bibl>
           <title>Protokoll</title>
+          <idno type="URI" subtype="PDF">https://swerik-project.github.io/riksdagen-records-pdf/1918/prot-1918--fk--057</idno>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -21,16 +22,35 @@
         </correction>
       </editorialDecl>
     </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <classCode>OCR</classCode>
+      </textClass>
+      <textDesc>
+        <channel mode="s"/>
+        <composition>
+          <note xml:id="i-9EHZnWzdVUi5WouR3povAf" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-JcDdoSEiLYvjp4tquiLseh"/>
+            </linkGrp>
+          </note>
+        </composition>
+      </textDesc>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
       <div type="preface">
-        <head>prot-1918--fk--57</head>
-        <docDate when="1918-06-17">1918-06-17</docDate>
+        <head>
+          prot-1918--fk--57
+        </head>
+        <docDate when="1918-06-17">
+          1918-06-17
+        </docDate>
       </div>
     </front>
     <body>
-      <div type="debateSection" xml:id="i-SUsLkdZWbmgeAUbDvD8xtp">
+      <div xml:id="i-SUsLkdZWbmgeAUbDvD8xtp" type="debateSection">
         <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1918/prot-1918--fk--057/prot-1918--fk--057_000"/>
         <note xml:id="i-JsQG15x4h7Y1SBwNQzKnuv" type="title">
           RIKSDAGENS PROTOKOLL.
@@ -146,7 +166,7 @@
         <note xml:id="i-KiXufrEv8JDcfVkHotaSW" type="speaker">
           Herr Ekman, Carl Gustaf:
         </note>
-        <u who="i-DkE8paHuWrA3pdPYEHLKoY" xml:id="i-JcDdoSEiLYvjp4tquiLseh">
+        <u xml:id="i-JcDdoSEiLYvjp4tquiLseh" who="i-DkE8paHuWrA3pdPYEHLKoY">
           <seg xml:id="i-EectTFapXBvTKhkumtFKfX">
             Då memorialet i fråga om utformningen av denna punkt förmenas
             lida av en viss ofullständighet, anhåller jag, herr vice talman,

@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prot-198990--077">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="prot-198990--077">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,6 +14,7 @@
       <sourceDesc>
         <bibl>
           <title>Protokoll</title>
+          <idno type="URI" subtype="PDF">https://swerik-project.github.io/riksdagen-records-pdf/198990/prot-198990--077</idno>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -24,16 +25,37 @@
         </correction>
       </editorialDecl>
     </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <classCode>OCR</classCode>
+      </textClass>
+      <textDesc>
+        <channel mode="s"/>
+        <composition>
+          <note xml:id="i-JqZ52WF6NJWgrdQpSRT5Rd" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-2a8095cdcb8bed1a-0"/>
+              <ptr target="#i-e6121560442d6442-1"/>
+              <ptr target="#i-D8mi21oJqp247GKZzyCk6y"/>
+            </linkGrp>
+          </note>
+        </composition>
+      </textDesc>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
       <div type="preface">
-        <head>prot-198990--77</head>
-        <docDate when="1990-02-27">1990-02-27</docDate>
+        <head>
+          prot-198990--77
+        </head>
+        <docDate when="1990-02-27">
+          1990-02-27
+        </docDate>
       </div>
     </front>
     <body>
-      <div type="debateSection" xml:id="i-HWJTM34SzgHTaG2KF6RWdM">
+      <div xml:id="i-HWJTM34SzgHTaG2KF6RWdM" type="debateSection">
         <pb facs="https://betalab.kb.se/prot-198990--77/prot_198990__77-000.jp2/_view"/>
         <note xml:id="i-QeyBhvQpogAPEeAZtvB4Bq" type="title">
           Riksdagens protokoll Ås
@@ -47,17 +69,17 @@
         <note xml:id="i-1bNNuzGuCvMkpWfdafPca" type="title">
           18 Statsministern anmäler regeringens sammansättning
         </note>
-        <note type="speaker" xml:id="i-Goz7AkmReD2mdJC9uWwGF3">
+        <note xml:id="i-Goz7AkmReD2mdJC9uWwGF3" type="speaker">
           Anf. 1 Statsminister INGVAR CARLSSON:
         </note>
-        <u who="i-WYkrZExE7jfwHjmfH1DPwg" xml:id="i-2a8095cdcb8bed1a-0" next="i-e6121560442d6442-1">
+        <u xml:id="i-2a8095cdcb8bed1a-0" who="i-WYkrZExE7jfwHjmfH1DPwg" next="i-e6121560442d6442-1">
           <seg xml:id="i-4RySCSBS8prYsnwSv2mqGQ">
             Herr talman! Enligt regeringsformens föreskrift får jag för riksdagen
             anmäla de statsråd som jag utsett att tillsammans med mig ingå
             i regeringen.
           </seg>
         </u>
-        <u xml:id="i-e6121560442d6442-1" prev="i-2a8095cdcb8bed1a-0" who="i-WYkrZExE7jfwHjmfH1DPwg" next="i-D8mi21oJqp247GKZzyCk6y">
+        <u xml:id="i-e6121560442d6442-1" who="i-WYkrZExE7jfwHjmfH1DPwg" prev="i-2a8095cdcb8bed1a-0" next="i-D8mi21oJqp247GKZzyCk6y">
           <seg xml:id="i-Vk2A8DqxDMXn2C7bJGsKb9">
             Statsråd och ställföreträdare för statsministern är Odd Engström.
             Statsråd och chef för justitiedepartementet är Laila Freivalds.
@@ -66,7 +88,7 @@
             Statsråd och chef för socialdepartementet är Ingela Thalén.
           </seg>
         </u>
-        <u xml:id="i-D8mi21oJqp247GKZzyCk6y" prev="i-e6121560442d6442-1" who="i-WYkrZExE7jfwHjmfH1DPwg">
+        <u xml:id="i-D8mi21oJqp247GKZzyCk6y" who="i-WYkrZExE7jfwHjmfH1DPwg" prev="i-e6121560442d6442-1">
           <seg xml:id="i-W5gdoDpb7MCv1j2k5pHLze">
             Statsråd och chef för kommunikationsdepartementet är Georg Andersson.
             Statsråd och chef för finansdepartementet är Allan Larsson. Statsråd
@@ -107,7 +129,7 @@
           Statsministerns anmälan lades till handlingarna.
         </note>
       </div>
-      <div type="commentSection" xml:id="i-D3RQwVtx5wu6sooTme47G9">
+      <div xml:id="i-D3RQwVtx5wu6sooTme47G9" type="commentSection">
         <note xml:id="i-E2NgC9CaJAhMKJWsZCsMBm" type="title">
           2§ Justering av protokoll
         </note>
@@ -123,7 +145,7 @@
           27 februari 1990
         </note>
       </div>
-      <div type="commentSection" xml:id="i-2X7qfGKXJnea4oVYFg19DE">
+      <div xml:id="i-2X7qfGKXJnea4oVYFg19DE" type="commentSection">
         <note xml:id="i-Povuxvj9jBuUPT1oGxtHHW" type="title">
           3§ Kammaren åtskildes kl. 9.03.
         </note>
@@ -140,15 +162,15 @@
         <note xml:id="i-JFeo6PmrzLxeKHVax4ECtv">
           o se . Prot. 1989/90:77 Innehållsförteckning 27 februari 1990
         </note>
-        <note type="title" xml:id="i-XrYA57dFfC4mJNaon3ZQZT">
+        <note xml:id="i-XrYA57dFfC4mJNaon3ZQZT" type="title">
           Tisdagen den 27 februari
         </note>
       </div>
-      <div type="commentSection" xml:id="i-NULgKe7bX5FKPvKa7sXoks">
+      <div xml:id="i-NULgKe7bX5FKPvKa7sXoks" type="commentSection">
         <note xml:id="i-J7SVKVknMkq8dgsSYhKLJ5" type="title">
           1§ Statsministern anmäler regeringens sammansättning ..........
-          1 Statsminister Ingvar Carlsson St Jullörlig av protokoll &gt;&gt; «+=
-          === ös ses böra RAA 1
+          1 Statsminister Ingvar Carlsson St Jullörlig av protokoll &gt;&gt;
+          «+= === ös ses böra RAA 1
         </note>
         <pb facs="https://betalab.kb.se/prot-198990--77/prot_198990__77-003.jp2/_view"/>
         <note xml:id="i-FPSzXCPrUoBPS9McVvnBFE">

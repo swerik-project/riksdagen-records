@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prot-1916--fk--033">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="prot-1916--fk--033">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,6 +11,7 @@
       <sourceDesc>
         <bibl>
           <title>Protokoll</title>
+          <idno type="URI" subtype="PDF">https://swerik-project.github.io/riksdagen-records-pdf/1916/prot-1916--fk--033</idno>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -21,16 +22,35 @@
         </correction>
       </editorialDecl>
     </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <classCode>OCR</classCode>
+      </textClass>
+      <textDesc>
+        <channel mode="s"/>
+        <composition>
+          <note xml:id="i-UXPSu5nhTSH3zW1s8qS2sJ" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-JuKhm3WGtyuHC6shWW5PpR"/>
+            </linkGrp>
+          </note>
+        </composition>
+      </textDesc>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
       <div type="preface">
-        <head>prot-1916--fk--33</head>
-        <docDate when="1916-03-10">1916-03-10</docDate>
+        <head>
+          prot-1916--fk--33
+        </head>
+        <docDate when="1916-03-10">
+          1916-03-10
+        </docDate>
       </div>
     </front>
     <body>
-      <div type="debateSection" xml:id="i-8iJnMqiUNFc9yomMrJ8XpA">
+      <div xml:id="i-8iJnMqiUNFc9yomMrJ8XpA" type="debateSection">
         <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1916/prot-1916--fk--033/prot-1916--fk--033_000"/>
         <note xml:id="i-7gh4v42LVrdDo6LV8CAbs5" type="title">
           RIKSDAGENS PROTOKOLL.
@@ -154,7 +174,7 @@
         <note xml:id="i-VuLjdi25YUptcAYXGY3Jaa" type="speaker">
           Herr vice talmannen erhöll -på begäran ordet och yttrade:
         </note>
-        <u who="unknown" xml:id="i-JuKhm3WGtyuHC6shWW5PpR">
+        <u xml:id="i-JuKhm3WGtyuHC6shWW5PpR" who="unknown">
           <seg xml:id="i-6yMWvXokjpsXjq3vq1Uc7s">
             Jag ber att få föreslå, att på föredragningslistan för morgondagens
             plenum måtte bland två gånger bordlagda ärenden främst

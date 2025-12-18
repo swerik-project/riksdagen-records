@@ -1,0 +1,30 @@
+name: "Push Changes"
+
+inputs:
+  github_token:
+    required: true
+  branch:
+    required: true
+
+runs:
+  using: composite
+  steps:
+  - name: Configure git auth
+    run: |
+      git config user.name "github-actions[bot]"
+      git config user.email "github-actions[bot]@users.noreply.github.com"
+      git remote set-url origin \
+        https://x-access-token:${{ inputs.github_token }}@github.com/${{ github.repository }}.git
+    shell: bash
+
+  - name: Push with rebase + retry
+    run: |
+      set -e
+      for i in 1 2 3 4 5; do
+        echo "Attempt $i to push..."
+        git fetch origin
+        git rebase origin/${{ inputs.branch }} || exit 1
+        git push origin HEAD:${{ inputs.branch }} && break
+        sleep $((RANDOM % 5 + 1))
+      done
+    shell: bash

@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prot-1915--fk--025">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="prot-1915--fk--025">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,6 +11,7 @@
       <sourceDesc>
         <bibl>
           <title>Protokoll</title>
+          <idno type="URI" subtype="PDF">https://swerik-project.github.io/riksdagen-records-pdf/1915/prot-1915--fk--025</idno>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -21,17 +22,38 @@
         </correction>
       </editorialDecl>
     </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <classCode>OCR</classCode>
+      </textClass>
+      <textDesc>
+        <channel mode="s"/>
+        <composition>
+          <note xml:id="i-3D1RyoWMrBPX6ZgScGmFD6" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-GuBK7bmToJ7SSoMywf4cLs"/>
+            </linkGrp>
+          </note>
+        </composition>
+      </textDesc>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
       <div type="preface">
-        <head>prot-1915--fk--25</head>
-        <docDate when="1915-02-25">1915-02-25</docDate>
-        <docDate when="1915-02-26">1915-02-26</docDate>
+        <head>
+          prot-1915--fk--25
+        </head>
+        <docDate when="1915-02-25">
+          1915-02-25
+        </docDate>
+        <docDate when="1915-02-26">
+          1915-02-26
+        </docDate>
       </div>
     </front>
     <body>
-      <div type="debateSection" xml:id="i-RLHKaBnGQJpANd2enJ4Tk">
+      <div xml:id="i-RLHKaBnGQJpANd2enJ4Tk" type="debateSection">
         <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1915/prot-1915--fk--025/prot-1915--fk--025_000"/>
         <note xml:id="i-GTdVdXwJR8Dv2hQDfXgxF3" type="title">
           RIKSDAGENS PROTOKOLL.
@@ -163,7 +185,7 @@
         <note xml:id="i-VNqAVcRdJDhB7m4aVRXhMD" type="speaker">
           Herr Swartz erhöll på begäran ordet och yttrade:
         </note>
-        <u who="i-4sXFDUb8CLAhRngszG89cb" xml:id="i-GuBK7bmToJ7SSoMywf4cLs">
+        <u xml:id="i-GuBK7bmToJ7SSoMywf4cLs" who="i-4sXFDUb8CLAhRngszG89cb">
           <seg xml:id="i-WT6GEeeisLW8PVuGLBdxA8">
             Jag tillåter mig hemställa, att på föredragningslistan för morgondagens
             plenum

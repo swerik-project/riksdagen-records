@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prot-1874--ak--0121">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="prot-1874--ak--0121">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,6 +11,7 @@
       <sourceDesc>
         <bibl>
           <title>Protokoll</title>
+          <idno type="URI" subtype="PDF">https://swerik-project.github.io/riksdagen-records-pdf/1874/prot-1874--ak--0121</idno>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -21,18 +22,42 @@
         </correction>
       </editorialDecl>
     </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <classCode>OCR</classCode>
+      </textClass>
+      <textDesc>
+        <channel mode="s"/>
+        <composition>
+          <note xml:id="i-378K3sPnVPkV6gAHfECq6V" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-4HmLfw4S8hgesHikHASEAr"/>
+              <ptr target="#i-KX8szE1KXKuAQFAEfwmfXN"/>
+              <ptr target="#i-FrxCfSC7Q7zNK2roozBEhu"/>
+              <ptr target="#i-H1jaevRAyyqyCkBz8niyNi"/>
+            </linkGrp>
+          </note>
+        </composition>
+      </textDesc>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
       <div type="preface">
-        <head>prot-1874--ak--0121</head>
-        <docDate when="1874-01-21">1874-01-21</docDate>
-        <docDate when="1874-01-22">1874-01-22</docDate>
+        <head>
+          prot-1874--ak--0121
+        </head>
+        <docDate when="1874-01-21">
+          1874-01-21
+        </docDate>
+        <docDate when="1874-01-22">
+          1874-01-22
+        </docDate>
       </div>
     </front>
     <body>
-      <div type="debateSection" xml:id="i-DoQwV9274WJCiA4tuh9reJ">
-        <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1874/prot-1874--ak--121/prot-1874--ak--121_000"/>
+      <div xml:id="i-DoQwV9274WJCiA4tuh9reJ" type="debateSection">
+        <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1874/prot-1874--ak--0121/prot-1874--ak--0121_000"/>
         <note xml:id="i-5XhagBWWBoVf3rD8EfJgGg" type="date">
           14 Den 21 Januari.
         </note>
@@ -50,7 +75,7 @@
         <note xml:id="i-6QDgYG6KikbjmhmFmUnPLK" type="speaker">
           Herr Hedin, som anförde:
         </note>
-        <u who="i-Qdz4d8Ykv3zsRZVZxrcte1" xml:id="i-4HmLfw4S8hgesHikHASEAr" next="i-KX8szE1KXKuAQFAEfwmfXN">
+        <u xml:id="i-4HmLfw4S8hgesHikHASEAr" who="i-Qdz4d8Ykv3zsRZVZxrcte1" next="i-KX8szE1KXKuAQFAEfwmfXN">
           <seg xml:id="i-7JqdFopdv5CxKuKLdRmzF4">
             Herr Talman! Då Kongl. Maj:ts berättelse om hvad i riket och
             dess styrelse sig tilldragit sedan sista riksdag ännu icke blifvit
@@ -61,7 +86,7 @@
             nemligen om berättelsens förnyade bordläggning.
           </seg>
         </u>
-        <u xml:id="i-KX8szE1KXKuAQFAEfwmfXN" prev="i-4HmLfw4S8hgesHikHASEAr" who="i-Qdz4d8Ykv3zsRZVZxrcte1" next="i-FrxCfSC7Q7zNK2roozBEhu">
+        <u xml:id="i-KX8szE1KXKuAQFAEfwmfXN" who="i-Qdz4d8Ykv3zsRZVZxrcte1" prev="i-4HmLfw4S8hgesHikHASEAr" next="i-FrxCfSC7Q7zNK2roozBEhu">
           <seg xml:id="i-5z3bspd2GnYbVY1swyWEPg">
             Emellertid var det ett särskildt syfte, som föranledde min i
             går framställda begäran, hvarom jag icke, såsom jag bort, hade
@@ -79,7 +104,7 @@
             riktning.
           </seg>
         </u>
-        <u xml:id="i-FrxCfSC7Q7zNK2roozBEhu" prev="i-KX8szE1KXKuAQFAEfwmfXN" next="i-H1jaevRAyyqyCkBz8niyNi" who="i-Qdz4d8Ykv3zsRZVZxrcte1">
+        <u xml:id="i-FrxCfSC7Q7zNK2roozBEhu" who="i-Qdz4d8Ykv3zsRZVZxrcte1" prev="i-KX8szE1KXKuAQFAEfwmfXN" next="i-H1jaevRAyyqyCkBz8niyNi">
           <seg xml:id="i-3wvTbQtnbapufn3suW8t9u">
             Det är af detta skäl jag tillåter mig anhålla, icke blott att
             berättelsen nu må varda för andra gången bordlagd, utan ock att
@@ -88,7 +113,7 @@
             och behof skall till det blifvande Stats-Utskottet remitteras.
           </seg>
         </u>
-        <u xml:id="i-H1jaevRAyyqyCkBz8niyNi" prev="i-FrxCfSC7Q7zNK2roozBEhu" who="i-Qdz4d8Ykv3zsRZVZxrcte1">
+        <u xml:id="i-H1jaevRAyyqyCkBz8niyNi" who="i-Qdz4d8Ykv3zsRZVZxrcte1" prev="i-FrxCfSC7Q7zNK2roozBEhu">
           <seg xml:id="i-7mg1JyQUPRQU6Yv8WFce7t">
             Med bifall till hvad sålunda blifvit yrkadt, beslöt Kammaren
             att ifrågavarande berättelse skulle för andra gången bordläggas,
@@ -98,7 +123,7 @@
             föredragas.
           </seg>
         </u>
-        <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1874/prot-1874--ak--121/prot-1874--ak--121_001"/>
+        <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1874/prot-1874--ak--0121/prot-1874--ak--0121_001"/>
         <note xml:id="i-K3vX84JPEKrZXBBsaZDwiz" type="date">
           Den 22 Januari. 15
         </note>
@@ -133,7 +158,7 @@
           Torsdagen den 22 Januari. Kl. 10 f. m.
         </note>
       </div>
-      <div type="commentSection" xml:id="i-7ZDuft1QxJbGxjhXqN6Tcm">
+      <div xml:id="i-7ZDuft1QxJbGxjhXqN6Tcm" type="commentSection">
         <note xml:id="i-9UDc9nnMRtmzRsYGKmqYMX" type="title">
           § 1.
         </note>

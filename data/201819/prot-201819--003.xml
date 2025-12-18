@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prot-201819--003">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="prot-201819--003">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,6 +11,7 @@
       <sourceDesc>
         <bibl>
           <title>Protokoll</title>
+          <idno type="URI" subtype="PDF">https://swerik-project.github.io/riksdagen-records-pdf/201819/prot-201819--003</idno>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -21,16 +22,49 @@
         </correction>
       </editorialDecl>
     </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <classCode>digital-origin</classCode>
+      </textClass>
+      <textDesc>
+        <channel mode="s"/>
+        <composition>
+          <note xml:id="i-PhWZ3LBz5dyxDuAatXnwZG" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-93d23afe5f06de64-0"/>
+            </linkGrp>
+          </note>
+          <note xml:id="i-RDfBiniD13eG7xznHBUP8Y" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-7YMEG7mQ8wfXUnvpgsWZQE"/>
+              <ptr target="#i-93d23afe5f06de64-1"/>
+              <ptr target="#i-AyKzRPrFBC31ZQbBrhJLQ8"/>
+              <ptr target="#i-93d23afe5f06de64-2"/>
+              <ptr target="#i-93d23afe5f06de64-3"/>
+              <ptr target="#i-93d23afe5f06de64-4"/>
+              <ptr target="#i-93d23afe5f06de64-5"/>
+              <ptr target="#i-93d23afe5f06de64-6"/>
+              <ptr target="#i-93d23afe5f06de64-7"/>
+              <ptr target="#i-DBJrXjrx3XFY8NVuVZ9qDo"/>
+            </linkGrp>
+          </note>
+        </composition>
+      </textDesc>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
       <div type="preface">
-        <head>prot-201819--3</head>
-        <docDate when="2018-09-25">2018-09-25</docDate>
+        <head>
+          prot-201819--3
+        </head>
+        <docDate when="2018-09-25">
+          2018-09-25
+        </docDate>
       </div>
     </front>
     <body>
-      <div type="debateSection" xml:id="i-Ho3VUzkeUyWQJWEoAqr5zk">
+      <div xml:id="i-Ho3VUzkeUyWQJWEoAqr5zk" type="debateSection">
         <pb facs="http://data.riksdagen.se/fil/5A3B0ED2-CFE7-4B42-B949-D4EEC27B01E2#page=1"/>
         <note xml:id="i-5xWKGQfnJvXXqozQAE6KhF" type="title">
           § 1 Riksmötets öppnande
@@ -38,7 +72,7 @@
         <note xml:id="i-N25rHqzXkZRa7iMdYK5qG">
           Program för öppnandet har fogats som bilaga till detta protokoll.
         </note>
-        <note type="speaker" xml:id="i-SvzUmHmuHfWAYYFxEX7Csx">
+        <note xml:id="i-SvzUmHmuHfWAYYFxEX7Csx" type="speaker">
           Anf. 1 TALMANNEN:
         </note>
         <u xml:id="i-93d23afe5f06de64-0" who="i-BZ7PcK8D1efvHXsafGEMKE">
@@ -46,7 +80,7 @@
             Jag hemställer att Ers Majestät förklarar riksmötet öppnat.
           </seg>
         </u>
-        <note type="speaker" xml:id="i-SbpU5pQyhi6BLJ8YPJervj">
+        <note xml:id="i-SbpU5pQyhi6BLJ8YPJervj" type="speaker">
           Anf. 2 HANS MAJESTÄT KONUNGEN:
         </note>
         <u xml:id="i-7YMEG7mQ8wfXUnvpgsWZQE" who="unknown" next="i-93d23afe5f06de64-1">
@@ -135,7 +169,7 @@
           </seg>
         </u>
       </div>
-      <div type="commentSection" xml:id="i-5RnMWWFTkyXP621Wnd6K6k">
+      <div xml:id="i-5RnMWWFTkyXP621Wnd6K6k" type="commentSection">
         <note xml:id="i-QVMR8Z9hK793AgJtMAudC9" type="title">
           § 2 Ceremonin avslutades kl. 14.25.
         </note>

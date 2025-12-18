@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prot-1918-urtima-fk--008">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="prot-1918-urtima-fk--008">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,6 +11,7 @@
       <sourceDesc>
         <bibl>
           <title>Protokoll</title>
+          <idno type="URI" subtype="PDF">https://swerik-project.github.io/riksdagen-records-pdf/1918/prot-1918-urtima-fk--008</idno>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -21,19 +22,45 @@
         </correction>
       </editorialDecl>
     </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <classCode>OCR</classCode>
+      </textClass>
+      <textDesc>
+        <channel mode="s"/>
+        <composition>
+          <note xml:id="i-QGvHR2fKxAmJAqYqvwdr5Z" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-YBnLHWqfgsDcPEY2g4PL8o"/>
+              <ptr target="#i-Doj8Ye5LwBwMkq6cKJvRwQ"/>
+            </linkGrp>
+          </note>
+        </composition>
+      </textDesc>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
       <div type="preface">
-        <head>prot-1918-urtima-fk--8</head>
-        <docDate when="1918-12-12">1918-12-12</docDate>
-        <docDate when="1918-12-13">1918-12-13</docDate>
-        <docDate when="1918-12-14">1918-12-14</docDate>
-        <docDate when="1918-12-15">1918-12-15</docDate>
+        <head>
+          prot-1918-urtima-fk--8
+        </head>
+        <docDate when="1918-12-12">
+          1918-12-12
+        </docDate>
+        <docDate when="1918-12-13">
+          1918-12-13
+        </docDate>
+        <docDate when="1918-12-14">
+          1918-12-14
+        </docDate>
+        <docDate when="1918-12-15">
+          1918-12-15
+        </docDate>
       </div>
     </front>
     <body>
-      <div type="debateSection" xml:id="i-X3q3Jk2gd8tZWAMXpPjy16">
+      <div xml:id="i-X3q3Jk2gd8tZWAMXpPjy16" type="debateSection">
         <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1918/prot-1918-urtima-fk--008/prot-1918-urtima-fk--008_000"/>
         <note xml:id="i-V3uZ6Cp1vn4mXq9JiH7Rsg" type="title">
           RIKSDAGENS PROTOKOLL.
@@ -434,7 +461,7 @@
         <note xml:id="i-GDdyVRYjLAdZZHWKynLWAX" type="speaker">
           Ordet lämnades på begäran till herr K varnzelius, som yttrade:
         </note>
-        <u who="unknown" xml:id="i-YBnLHWqfgsDcPEY2g4PL8o" next="i-Doj8Ye5LwBwMkq6cKJvRwQ">
+        <u xml:id="i-YBnLHWqfgsDcPEY2g4PL8o" who="unknown" next="i-Doj8Ye5LwBwMkq6cKJvRwQ">
           <seg xml:id="i-XpKstnWc9bsmpvG28SheNH">
             Herr talman! Som bekant har presidenten för Nordamerikas förenta
             stater kommit till Europa för att deltaga i arbetet för åstadkommandet

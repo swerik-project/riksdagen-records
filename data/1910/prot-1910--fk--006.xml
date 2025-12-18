@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prot-1910--fk--006">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="prot-1910--fk--006">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,6 +11,7 @@
       <sourceDesc>
         <bibl>
           <title>Protokoll</title>
+          <idno type="URI" subtype="PDF">https://swerik-project.github.io/riksdagen-records-pdf/1910/prot-1910--fk--006</idno>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -21,18 +22,52 @@
         </correction>
       </editorialDecl>
     </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <classCode>OCR</classCode>
+      </textClass>
+      <textDesc>
+        <channel mode="s"/>
+        <composition>
+          <note xml:id="i-83KynuYpJgfqiuFBJKSLKh" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-8egUaQZ4sYo1F4jEsKkP65"/>
+              <ptr target="#i-tctXRb79FWG51CoNoHYf8"/>
+            </linkGrp>
+          </note>
+          <note xml:id="i-ESTKCdTkLFNeXmXDbTZ8yw" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-9UZrrwGrxSedTF5K3c2Jp5"/>
+            </linkGrp>
+          </note>
+          <note xml:id="i-KqPYbD4EtdbFofbmfUupWG" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-kJ64xZJUNqVH63iESVVBC"/>
+            </linkGrp>
+          </note>
+        </composition>
+      </textDesc>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
       <div type="preface">
-        <head>prot-1910--fk--6</head>
-        <docDate when="1910-02-10">1910-02-10</docDate>
-        <docDate when="1910-02-11">1910-02-11</docDate>
-        <docDate when="1910-02-12">1910-02-12</docDate>
+        <head>
+          prot-1910--fk--6
+        </head>
+        <docDate when="1910-02-10">
+          1910-02-10
+        </docDate>
+        <docDate when="1910-02-11">
+          1910-02-11
+        </docDate>
+        <docDate when="1910-02-12">
+          1910-02-12
+        </docDate>
       </div>
     </front>
     <body>
-      <div type="debateSection" xml:id="i-61LiKfK2ioiNCLrAANGkvJ">
+      <div xml:id="i-61LiKfK2ioiNCLrAANGkvJ" type="debateSection">
         <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1910/prot-1910--fk--006/prot-1910--fk--006_000"/>
         <note xml:id="i-M9yTNB2JrtK18Ae4N4s5T9" type="title">
           RIKSDAGENS PROTOKOLL.
@@ -211,7 +246,7 @@
         <note xml:id="i-MRTPww1USfysWLSHSTnj1" type="speaker">
           Herr talmannen yttrade:
         </note>
-        <u xml:id="i-8egUaQZ4sYo1F4jEsKkP65" next="i-tctXRb79FWG51CoNoHYf8" who="i-LkZi3hQne6xsLtDL597mit">
+        <u xml:id="i-8egUaQZ4sYo1F4jEsKkP65" who="i-LkZi3hQne6xsLtDL597mit" next="i-tctXRb79FWG51CoNoHYf8">
           <seg xml:id="i-3Z7tMBr748HPXPw5vfhskW">
             Mina herrar! Det blef ej medgifvet vår nyss så hastigt bortryckte
             kamrat, direktören Hammarlund, att i Riksdagens Första kammare
@@ -225,7 +260,7 @@
         <note xml:id="i-VDfRcXBCNdXZExspwfps1i" type="date">
           Nr 6. 4 Lördagen den 12 Februari.
         </note>
-        <u xml:id="i-tctXRb79FWG51CoNoHYf8" prev="i-8egUaQZ4sYo1F4jEsKkP65" who="i-LkZi3hQne6xsLtDL597mit">
+        <u xml:id="i-tctXRb79FWG51CoNoHYf8" who="i-LkZi3hQne6xsLtDL597mit" prev="i-8egUaQZ4sYo1F4jEsKkP65">
           <seg xml:id="i-6RAa4dMezbvEzJtTktRuNe">
             alltför tidiga bortgång att inom vida kretsar i vårt land väcka
             sorg och saknad. Frid och tack öfver Emil Hammarlunds minnel
@@ -477,7 +512,7 @@
         <note xml:id="i-L49wpGqQ3sczNw3tGaymCe" type="speaker">
           Herr talmannen yttrade:
         </note>
-        <u who="i-LkZi3hQne6xsLtDL597mit" xml:id="i-kJ64xZJUNqVH63iESVVBC">
+        <u xml:id="i-kJ64xZJUNqVH63iESVVBC" who="i-LkZi3hQne6xsLtDL597mit">
           <seg xml:id="i-6zPyBvqJhQZWyU2tFtBw8i">
             Som herrarna finna, är anslag uppsatt för nytt plenum i eftermiddag
             kl. 7. Anledningen härtill är, att kammaren eventuellt har att
@@ -517,8 +552,8 @@
           8 Lördagen den 12 Februari.
         </note>
         <note xml:id="i-57F925AouJTWEmzeYVEFHs">
-          tion n:o 19, med förslag till lag om ändrad lydelse af &amp; 27 mom.
-          1 värnpliktslagen den 14 juni 1901.
+          tion n:o 19, med förslag till lag om ändrad lydelse af &amp;
+          27 mom. 1 värnpliktslagen den 14 juni 1901.
         </note>
         <note xml:id="i-8HGY3AUqS6qurc3GNmJcqo">
           Protokollsutdrag härom justerades.

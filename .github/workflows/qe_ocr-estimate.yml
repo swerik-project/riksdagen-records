@@ -5,7 +5,12 @@ on:
     branches:
       - 'dev'
     paths:
-      - data/
+      - data/**
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.job }}-artifacts-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   decade-1860:
@@ -14,33 +19,24 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - name: Checkout PR source branch
-      uses: actions/checkout@v4
-      with:
-        ref: ${{ github.head_ref }}
-
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
       with:
         python-version: ${{ matrix.python-version }}
-
-    - name: Install dependencies
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Install extra dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install pyriksdagen
-        pip install torchmetrics
         pip install nltk
-
     - name: Estimate OCR Quality
       run: |
         python quality/qe_ocr-estimation.py -D 1860 --lev-only
-
     - name: Cache result 1860s
       uses: actions/upload-artifact@v4
       with:
         name: lev_1860
         path: quality/estimates/ocr-estimation/lev-by-decade/1860_mpl_lev.tsv
-
 
   decade-1870:
     runs-on: ubuntu-latest
@@ -48,33 +44,24 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - name: Checkout PR source branch
-      uses: actions/checkout@v4
-      with:
-        ref: ${{ github.head_ref }}
-
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
       with:
         python-version: ${{ matrix.python-version }}
-
-    - name: Install dependencies
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Install extra dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install pyriksdagen
-        pip install torchmetrics
         pip install nltk
-
     - name: Estimate OCR Quality
       run: |
         python quality/qe_ocr-estimation.py -D 1880 --lev-only
-
     - name: Cache result 1870s
       uses: actions/upload-artifact@v4
       with:
         name: lev_1870
         path: quality/estimates/ocr-estimation/lev-by-decade/1870_mpl_lev.tsv
-
 
   decade-1880:
     runs-on: ubuntu-latest
@@ -82,33 +69,24 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - name: Checkout PR source branch
-      uses: actions/checkout@v4
-      with:
-        ref: ${{ github.head_ref }}
-
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
       with:
         python-version: ${{ matrix.python-version }}
-
-    - name: Install dependencies
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Install extra dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install pyriksdagen
-        pip install torchmetrics
         pip install nltk
-
     - name: Estimate OCR Quality
       run: |
         python quality/qe_ocr-estimation.py -D 1880 --lev-only
-
     - name: Cache result 1880s
       uses: actions/upload-artifact@v4
       with:
         name: lev_1880
         path: quality/estimates/ocr-estimation/lev-by-decade/1880_mpl_lev.tsv
-
 
   decade-1890:
     runs-on: ubuntu-latest
@@ -116,33 +94,24 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - name: Checkout PR source branch
-      uses: actions/checkout@v4
-      with:
-        ref: ${{ github.head_ref }}
-
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
       with:
         python-version: ${{ matrix.python-version }}
-
-    - name: Install dependencies
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Install extra dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install pyriksdagen
-        pip install torchmetrics
         pip install nltk
-
     - name: Estimate OCR Quality
       run: |
         python quality/qe_ocr-estimation.py -D 1890 --lev-only
-
     - name: Cache result 1880s
       uses: actions/upload-artifact@v4
       with:
         name: lev_1890
         path: quality/estimates/ocr-estimation/lev-by-decade/1890_mpl_lev.tsv
-
 
   decade-1900:
     runs-on: ubuntu-latest
@@ -150,33 +119,24 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - name: Checkout PR source branch
-      uses: actions/checkout@v4
-      with:
-        ref: ${{ github.head_ref }}
-
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
       with:
         python-version: ${{ matrix.python-version }}
-
-    - name: Install dependencies
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Install extra dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install pyriksdagen
-        pip install torchmetrics
         pip install nltk
-
     - name: Estimate OCR Quality
       run: |
         python quality/qe_ocr-estimation.py -D 1900 --lev-only
-
     - name: Cache result 1900s
       uses: actions/upload-artifact@v4
       with:
         name: lev_1900
         path: quality/estimates/ocr-estimation/lev-by-decade/1900_mpl_lev.tsv
-
 
   decade-1910:
     runs-on: ubuntu-latest
@@ -184,33 +144,24 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - name: Checkout PR source branch
-      uses: actions/checkout@v4
-      with:
-        ref: ${{ github.head_ref }}
-
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
       with:
         python-version: ${{ matrix.python-version }}
-
-    - name: Install dependencies
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Install extra dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install pyriksdagen
-        pip install torchmetrics
         pip install nltk
-
     - name: Estimate OCR Quality
       run: |
         python quality/qe_ocr-estimation.py -D 1910 --lev-only
-
     - name: Cache result 1910s
       uses: actions/upload-artifact@v4
       with:
         name: lev_1910
         path: quality/estimates/ocr-estimation/lev-by-decade/1910_mpl_lev.tsv
-
 
   decade-1920:
     runs-on: ubuntu-latest
@@ -218,33 +169,24 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - name: Checkout PR source branch
-      uses: actions/checkout@v4
-      with:
-        ref: ${{ github.head_ref }}
-
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
       with:
         python-version: ${{ matrix.python-version }}
-
-    - name: Install dependencies
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Install extra dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install pyriksdagen
-        pip install torchmetrics
         pip install nltk
-
     - name: Estimate OCR Quality
       run: |
         python quality/qe_ocr-estimation.py -D 1920 --lev-only
-
     - name: Cache result 1920s
       uses: actions/upload-artifact@v4
       with:
         name: lev_1920
         path: quality/estimates/ocr-estimation/lev-by-decade/1920_mpl_lev.tsv
-
 
   decade-1930:
     runs-on: ubuntu-latest
@@ -252,33 +194,24 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - name: Checkout PR source branch
-      uses: actions/checkout@v4
-      with:
-        ref: ${{ github.head_ref }}
-
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
       with:
         python-version: ${{ matrix.python-version }}
-
-    - name: Install dependencies
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Install extra dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install pyriksdagen
-        pip install torchmetrics
         pip install nltk
-
     - name: Estimate OCR Quality
       run: |
         python quality/qe_ocr-estimation.py -D 1930 --lev-only
-
     - name: Cache result 1930s
       uses: actions/upload-artifact@v4
       with:
         name: lev_1930
         path: quality/estimates/ocr-estimation/lev-by-decade/1930_mpl_lev.tsv
-
 
   decade-1940:
     runs-on: ubuntu-latest
@@ -286,33 +219,24 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - name: Checkout PR source branch
-      uses: actions/checkout@v4
-      with:
-        ref: ${{ github.head_ref }}
-
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
       with:
         python-version: ${{ matrix.python-version }}
-
-    - name: Install dependencies
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Install extra dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install pyriksdagen
-        pip install torchmetrics
         pip install nltk
-
     - name: Estimate OCR Quality
       run: |
         python quality/qe_ocr-estimation.py -D 1940 --lev-only
-
     - name: Cache result 1940s
       uses: actions/upload-artifact@v4
       with:
         name: lev_1940
         path: quality/estimates/ocr-estimation/lev-by-decade/1940_mpl_lev.tsv
-
 
   decade-1950:
     runs-on: ubuntu-latest
@@ -320,33 +244,24 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - name: Checkout PR source branch
-      uses: actions/checkout@v4
-      with:
-        ref: ${{ github.head_ref }}
-
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
       with:
         python-version: ${{ matrix.python-version }}
-
-    - name: Install dependencies
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Install extra dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install pyriksdagen
-        pip install torchmetrics
         pip install nltk
-
     - name: Estimate OCR Quality
       run: |
         python quality/qe_ocr-estimation.py -D 1950 --lev-only
-
     - name: Cache result 1950s
       uses: actions/upload-artifact@v4
       with:
         name: lev_1950
         path: quality/estimates/ocr-estimation/lev-by-decade/1950_mpl_lev.tsv
-
 
   decade-1960:
     runs-on: ubuntu-latest
@@ -354,33 +269,24 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - name: Checkout PR source branch
-      uses: actions/checkout@v4
-      with:
-        ref: ${{ github.head_ref }}
-
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
       with:
         python-version: ${{ matrix.python-version }}
-
-    - name: Install dependencies
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Install extra dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install pyriksdagen
-        pip install torchmetrics
         pip install nltk
-
     - name: Estimate OCR Quality
       run: |
         python quality/qe_ocr-estimation.py -D 1960 --lev-only
-
     - name: Cache result 1960s
       uses: actions/upload-artifact@v4
       with:
         name: lev_1960
         path: quality/estimates/ocr-estimation/lev-by-decade/1960_mpl_lev.tsv
-
 
   decade-1970:
     runs-on: ubuntu-latest
@@ -388,33 +294,24 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - name: Checkout PR source branch
-      uses: actions/checkout@v4
-      with:
-        ref: ${{ github.head_ref }}
-
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
       with:
         python-version: ${{ matrix.python-version }}
-
-    - name: Install dependencies
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Install extra dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install pyriksdagen
-        pip install torchmetrics
         pip install nltk
-
     - name: Estimate OCR Quality
       run: |
         python quality/qe_ocr-estimation.py -D 1970 --lev-only
-
     - name: Cache result 1970s
       uses: actions/upload-artifact@v4
       with:
         name: lev_1970
         path: quality/estimates/ocr-estimation/lev-by-decade/1970_mpl_lev.tsv
-
 
   decade-1980:
     runs-on: ubuntu-latest
@@ -422,33 +319,24 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - name: Checkout PR source branch
-      uses: actions/checkout@v4
-      with:
-        ref: ${{ github.head_ref }}
-
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
       with:
         python-version: ${{ matrix.python-version }}
-
-    - name: Install dependencies
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Install extra dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install pyriksdagen
-        pip install torchmetrics
         pip install nltk
-
     - name: Estimate OCR Quality
       run: |
         python quality/qe_ocr-estimation.py -D 1980 --lev-only
-
     - name: Cache result 1980s
       uses: actions/upload-artifact@v4
       with:
         name: lev_1980
         path: quality/estimates/ocr-estimation/lev-by-decade/1980_mpl_lev.tsv
-
 
   summarize-decadewize-reults:
     needs: [decade-1860, decade-1870, decade-1880, decade-1890, decade-1900, decade-1910, decade-1920, decade-1930, decade-1940, decade-1950, decade-1960, decade-1970, decade-1980]
@@ -457,33 +345,24 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - name: Checkout PR source branch
-      uses: actions/checkout@v4
-      with:
-        ref: ${{ github.head_ref }}
-
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
       with:
         python-version: ${{ matrix.python-version }}
-
-    - name: Install dependencies
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Install extra dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install pyriksdagen
-        pip install torchmetrics
         pip install nltk
-
     - name: Download artifacts from decade jobs
       uses: actions/download-artifact@v4
       with:
         path: quality/estimates/ocr-estimation/lev-by-decade
         merge-multiple: true
-
     - name: Summarize results
       run: |
         python quality/qe_ocr-estimation.py --read-lev --concat-lev
-
     - name: Add and commit changes
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -491,14 +370,11 @@ jobs:
         if [[ `git status quality/estimates/ocr-estimation/ --porcelain --untracked-files=no` ]]; then
           git add quality/estimates/ocr-estimation
           git commit -m "chore (workflow): run OCR quality estimation"
-        else:
+        else
           echo "::warning:: WARNING!! No changes detected in the quality/estimates/ocr-estimation folder"
           git commit --allow-empty -m "chore (workflow): no changes to OCR quality estimation"
         fi
-
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+    - uses: ./.github/actions/pull-push
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.head_ref }}
-

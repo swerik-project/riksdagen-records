@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prot-199495--003">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="prot-199495--003">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,6 +11,7 @@
       <sourceDesc>
         <bibl>
           <title>Protokoll</title>
+          <idno type="URI" subtype="PDF">https://swerik-project.github.io/riksdagen-records-pdf/199495/prot-199495--003</idno>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -21,16 +22,44 @@
         </correction>
       </editorialDecl>
     </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <classCode>OCR</classCode>
+      </textClass>
+      <textDesc>
+        <channel mode="s"/>
+        <composition>
+          <note xml:id="i-8MmGGJUmDVkMQckskeUKFx" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-oBPdJiuH6hhnJTK8u9fs4"/>
+              <ptr target="#i-KeVgULL8iMt36aswp93mWE"/>
+            </linkGrp>
+          </note>
+          <note xml:id="i-MVo6kbbn7xjGC5aukJy6ii" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-ad867a22fc3fa500-4"/>
+              <ptr target="#i-ad867a22fc3fa500-5"/>
+              <ptr target="#i-GDoBfw1uaRwB3umFvyxU4z"/>
+              <ptr target="#i-5v6jspPdzUyNGSwZ3JbN1M"/>
+            </linkGrp>
+          </note>
+        </composition>
+      </textDesc>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
       <div type="preface">
-        <head>prot-199495--3</head>
-        <docDate when="1994-10-04">1994-10-04</docDate>
+        <head>
+          prot-199495--3
+        </head>
+        <docDate when="1994-10-04">
+          1994-10-04
+        </docDate>
       </div>
     </front>
     <body>
-      <div type="commentSection" xml:id="i-Xg1BkqXRwcMQ8RFcvtLhte">
+      <div xml:id="i-Xg1BkqXRwcMQ8RFcvtLhte" type="commentSection">
         <pb facs="http://data.riksdagen.se/fil/7D48F491-4509-4CDD-9904-92749C4BEDE0#page=1"/>
         <u xml:id="i-3q7vgMH3zpT6htePZv1tmD" who="unknown">
           <seg xml:id="i-NgvwSVKTArzdE7iAj2jT6F">
@@ -44,14 +73,14 @@
           _________
         </note>
       </div>
-      <div type="debateSection" xml:id="i-R4p9WhsBkzRcAzNNoJfikZ">
+      <div xml:id="i-R4p9WhsBkzRcAzNNoJfikZ" type="debateSection">
         <note xml:id="i-BpyHcjruocEZG6FsLyz7mm" type="title">
           1 § Förslag om ny statsminister
         </note>
-        <note type="speaker" xml:id="i-6PAFTqpAEsB4MuETwXXto6">
+        <note xml:id="i-6PAFTqpAEsB4MuETwXXto6" type="speaker">
           Anf. 1 TALMANNEN:
         </note>
-        <u xml:id="i-oBPdJiuH6hhnJTK8u9fs4" next="i-KeVgULL8iMt36aswp93mWE" who="i-YUKjmPPD3LmjeCPdQWkuEh">
+        <u xml:id="i-oBPdJiuH6hhnJTK8u9fs4" who="i-YUKjmPPD3LmjeCPdQWkuEh" next="i-KeVgULL8iMt36aswp93mWE">
           <seg xml:id="i-QnX5DEfxxcdts9jaB5zzd">
             Sedan statsminister Carl Bildt den 19 september begärt att bli
             entledigad från sin befattning har han och övriga statsråd samma
@@ -62,7 +91,7 @@
           Enligt regeringsformen ankommer det på mig att för riksdagens
           godkännande avge förslag om ny statsminister.
         </note>
-        <u xml:id="i-KeVgULL8iMt36aswp93mWE" prev="i-oBPdJiuH6hhnJTK8u9fs4" who="i-YUKjmPPD3LmjeCPdQWkuEh">
+        <u xml:id="i-KeVgULL8iMt36aswp93mWE" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-oBPdJiuH6hhnJTK8u9fs4">
           <seg xml:id="i-CCAE2rcnRKUqJrq6rennnY">
             Efter samråd med företrädare för varje partigrupp inom riksdagen
             och överläggning med de vice talmännen får jag härmed föreslå
@@ -77,7 +106,7 @@
           Detta förslag bordlades.
         </note>
       </div>
-      <div type="debateSection" xml:id="i-UZXpufcVutfw8qrc8ewrwz">
+      <div xml:id="i-UZXpufcVutfw8qrc8ewrwz" type="debateSection">
         <note xml:id="i-AeE37FaFP6bDzfoYUJrKok" type="title">
           2 § Förslag om antalet ledamöter i utskotten
         </note>
@@ -87,10 +116,10 @@
           Mot beslutet hade ledamöterna från moderata samlingspartiet reserverat
           sig.
         </note>
-        <note type="speaker" xml:id="i-6eKEZQzARVspT6ZpG8zhv3">
+        <note xml:id="i-6eKEZQzARVspT6ZpG8zhv3" type="speaker">
           Anf. 2 LARS TOBISSON (m):
         </note>
-        <u xml:id="i-ad867a22fc3fa500-4" next="i-ad867a22fc3fa500-5" who="i-QKH1DSWytvVGtUZkzdboRg">
+        <u xml:id="i-ad867a22fc3fa500-4" who="i-QKH1DSWytvVGtUZkzdboRg" next="i-ad867a22fc3fa500-5">
           <seg xml:id="i-QuExusGisJbzfQBtNj42Aw">
             Fru talman! Vid valberedningens ställningstagande till frågan
             om antalet platser i utskotten har vi moderater fasthållit vid
@@ -100,7 +129,7 @@
             på bänkarna och som fogats till valberedningens protokoll.
           </seg>
         </u>
-        <u xml:id="i-ad867a22fc3fa500-5" prev="i-ad867a22fc3fa500-4" who="i-QKH1DSWytvVGtUZkzdboRg">
+        <u xml:id="i-ad867a22fc3fa500-5" who="i-QKH1DSWytvVGtUZkzdboRg" prev="i-ad867a22fc3fa500-4">
           <seg xml:id="i-2cyk1RkQtgWmmxfhU3Xcut">
             Eftersom jag inser att vi befinner oss i minoritet, avser jag
             inte att framställa ett yrkande och en dag som denna tvinga kammaren
@@ -112,7 +141,7 @@
           Kammaren biföll valberedningens förslag.
         </note>
       </div>
-      <div type="commentSection" xml:id="i-UJJ4NondFuYeaxJsekMLYD">
+      <div xml:id="i-UJJ4NondFuYeaxJsekMLYD" type="commentSection">
         <note xml:id="i-3cFkijnk5MtX5qYeVQZza6" type="title">
           3 § Anmälan om valberedningens presidium
         </note>
@@ -127,7 +156,7 @@
           (m) till vice ordförande i valberedningen.
         </note>
       </div>
-      <div type="commentSection" xml:id="i-JXKJ2xGNpqNGfapfZzoagB">
+      <div xml:id="i-JXKJ2xGNpqNGfapfZzoagB" type="commentSection">
         <note xml:id="i-G5SdkJcX7iAqFfvBxayQtK" type="title">
           4 § Ny riksdagsledamot
         </note>
@@ -172,7 +201,7 @@
           Sven-Georg Grahn
         </note>
       </div>
-      <div type="commentSection" xml:id="i-Gfx3GarpT2BhkJX9jF5fUw">
+      <div xml:id="i-Gfx3GarpT2BhkJX9jF5fUw" type="commentSection">
         <note xml:id="i-T6dfzDtiWAdZAsYaYzMiep" type="title">
           5 § Anmälan om ersättare
         </note>
@@ -184,7 +213,7 @@
           Claes-Göran Larsson.
         </note>
       </div>
-      <div type="commentSection" xml:id="i-F7GHyAJmYv44RcERKFB6NN">
+      <div xml:id="i-F7GHyAJmYv44RcERKFB6NN" type="commentSection">
         <note xml:id="i-DYKxDjsvkLJRZLe517aToE" type="title">
           6 § Bordläggning
         </note>
@@ -198,7 +227,7 @@
           1994/95:16 Den framtida konsumentpolitiken
         </note>
       </div>
-      <div type="commentSection" xml:id="i-K8eZjCsr1n7iHAdtTpM26o">
+      <div xml:id="i-K8eZjCsr1n7iHAdtTpM26o" type="commentSection">
         <note xml:id="i-Eh5wwxmgWK5xYZySa6WtRA" type="title">
           7 § Kammaren åtskildes kl. 17.04.
         </note>
@@ -207,49 +236,49 @@
           Innehållsförteckning
         </note>
       </div>
-      <div type="debateSection" xml:id="i-Tvo5aMqHWXU3BNonCksHqg">
+      <div xml:id="i-Tvo5aMqHWXU3BNonCksHqg" type="debateSection">
         <note xml:id="i-Xh643FfTFdQsC4XLE58j8B" type="title">
           1 § Förslag om ny statsminister 1
         </note>
-        <note type="speaker" xml:id="i-Y5G32kr6e7MjEgqncs8nxc">
+        <note xml:id="i-Y5G32kr6e7MjEgqncs8nxc" type="speaker">
           Anf. 1 TALMANNEN:
         </note>
         <note xml:id="i-6MBk9ez4wejTSyeKyt3HP1">
           1
         </note>
       </div>
-      <div type="debateSection" xml:id="i-UcZc16y2to5d2bFMTVFA1S">
+      <div xml:id="i-UcZc16y2to5d2bFMTVFA1S" type="debateSection">
         <note xml:id="i-DB6PpdjYcfkpsgpN77xTi2" type="title">
           2 § Förslag om antalet ledamöter i utskotten 1
         </note>
-        <note type="speaker" xml:id="i-K3nrKyMLSq2izGD7qSx6EE">
+        <note xml:id="i-K3nrKyMLSq2izGD7qSx6EE" type="speaker">
           Anf. 2 LARS TOBISSON (m):
         </note>
         <note xml:id="i-2aB45hZd7JK56gBPjn9dRL">
           1
         </note>
       </div>
-      <div type="commentSection" xml:id="i-Pwd5fyxauUK85xQA3AwCof">
+      <div xml:id="i-Pwd5fyxauUK85xQA3AwCof" type="commentSection">
         <note xml:id="i-VKDXy5WHBgyXWcvXXCdErV" type="title">
           3 § Anmälan om valberedningens presidium 1
         </note>
       </div>
-      <div type="commentSection" xml:id="i-7j9fBueaAXRCw4myJHVgjZ">
+      <div xml:id="i-7j9fBueaAXRCw4myJHVgjZ" type="commentSection">
         <note xml:id="i-CeCfqApLBFKccCdKiSV7xY" type="title">
           4 § Ny riksdagsledamot 1
         </note>
       </div>
-      <div type="commentSection" xml:id="i-6WpgXu9SD6if6DfFnzfM7T">
+      <div xml:id="i-6WpgXu9SD6if6DfFnzfM7T" type="commentSection">
         <note xml:id="i-T3cjnKHsYV1kzDbVzYjZ7K" type="title">
           5 § Anmälan om ersättare 1
         </note>
       </div>
-      <div type="commentSection" xml:id="i-NGGAmfGyz4KjE4Zj4EytrF">
+      <div xml:id="i-NGGAmfGyz4KjE4Zj4EytrF" type="commentSection">
         <note xml:id="i-7HHJ15KaWJCKDZEWo2dUmK" type="title">
           6 § Bordläggning 1
         </note>
       </div>
-      <div type="commentSection" xml:id="i-7LWXemwUsWDKFqcmVBE357">
+      <div xml:id="i-7LWXemwUsWDKFqcmVBE357" type="commentSection">
         <note xml:id="i-KGZfQjU4D8HHsKaxPKXZDM" type="title">
           7 § Kammaren åtskildes kl. 17.04. 1
         </note>

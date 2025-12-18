@@ -3,38 +3,32 @@ name: "Riksdagen Records: validate added, modified and deleted files"
 on:
   pull_request:
     paths:
-      - data/
+      - data/**
+  workflow_dispatch:
 
 jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
-
-      - name: Changed Files Exporter
-        id: changedfiles
-        uses: futuratrepadeira/changed-files@v3.3.0
-        with:
-          repo-token: ${{ github.token }}
-
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v2
-        with:
-          python-version: ${{ matrix.python-version }}
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install pyriksdagen
-
-      - name: Validate updated files
-        run: |
-          PYTHONPATH="$PYTHONPATH:." python test/validate_parlaclarin.py ${{steps.changedfiles.outputs.files_updated}}
-      - name: Validate created files
-        run: |
-          PYTHONPATH="$PYTHONPATH:." python test/validate_parlaclarin.py ${{steps.changedfiles.outputs.files_created}}
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - name: Changed Files Exporter
+      id: changedfiles
+      uses: futuratrepadeira/changed-files@v3.3.0
+      with:
+        repo-token: ${{ github.token }}
+    - uses: ./.github/actions/setup-python
+      with:
+        python-version: ${{ matrix.python-version }}
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Validate updated files
+      run: |
+        PYTHONPATH="$PYTHONPATH:." python test/validate_parlaclarin.py ${{steps.changedfiles.outputs.files_updated}}
+    - name: Validate created files
+      run: |
+        PYTHONPATH="$PYTHONPATH:." python test/validate_parlaclarin.py ${{steps.changedfiles.outputs.files_created}}
 

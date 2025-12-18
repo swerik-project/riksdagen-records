@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prot-1939--fk--002">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="prot-1939--fk--002">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,6 +14,7 @@
       <sourceDesc>
         <bibl>
           <title>Protokoll</title>
+          <idno type="URI" subtype="PDF">https://swerik-project.github.io/riksdagen-records-pdf/1939/prot-1939--fk--002</idno>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -24,14 +25,51 @@
         </correction>
       </editorialDecl>
     </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <classCode>OCR</classCode>
+      </textClass>
+      <textDesc>
+        <channel mode="s"/>
+        <composition>
+          <note xml:id="i-2VTVtZVsMNPxG1CvZ9eb6Z" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-8CaqsEYWkZLXKVoxjnsgR7"/>
+              <ptr target="#i-QqZYm2HrKpPSX84HZn2oKz"/>
+              <ptr target="#i-GsqK3nnQHctqRU8QqfyAP5"/>
+            </linkGrp>
+          </note>
+          <note xml:id="i-FmaAnnNcLBQNN3B9DwTKHT" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-3dd6c8e07e7cc85a-0"/>
+              <ptr target="#i-3dd6c8e07e7cc85a-1"/>
+              <ptr target="#i-29oVmwYqxZ7vyfScUWixRc"/>
+            </linkGrp>
+          </note>
+          <note xml:id="i-Ha6H6nfHhRJ6JCjvqTGD7C" type="speech">
+            <linkGrp type="u">
+              <ptr target="#i-3dd6c8e07e7cc85a-2"/>
+            </linkGrp>
+          </note>
+        </composition>
+      </textDesc>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
       <div type="preface">
-        <head>prot-1939--fk--2</head>
-        <docDate when="1939-01-11">1939-01-11</docDate>
-        <docDate when="1939-01-12">1939-01-12</docDate>
-        <docDate when="1939-01-13">1939-01-13</docDate>
+        <head>
+          prot-1939--fk--2
+        </head>
+        <docDate when="1939-01-11">
+          1939-01-11
+        </docDate>
+        <docDate when="1939-01-12">
+          1939-01-12
+        </docDate>
+        <docDate when="1939-01-13">
+          1939-01-13
+        </docDate>
       </div>
     </front>
     <body>
@@ -43,7 +81,7 @@
         <note xml:id="i-ygTu2ahc713v9PdXRWFHJ" type="title">
           1939. Första kammaren. Nr 2.
         </note>
-        <note type="title" xml:id="i-QZhccf7upyeKiSFwLopnVq">
+        <note xml:id="i-QZhccf7upyeKiSFwLopnVq" type="title">
           Onsdagen den 11 januari.
         </note>
         <note xml:id="i-MTRJ41mS4ubddXrbt6MUaS">
@@ -81,7 +119,7 @@
         <note xml:id="i-H2h66B2PK5nXVz3LZZEWjN" type="speaker">
           Ordet lämnades härefter till herr andre vice talmannen, som anförde:
         </note>
-        <u who="unknown" xml:id="i-8CaqsEYWkZLXKVoxjnsgR7" next="i-QqZYm2HrKpPSX84HZn2oKz">
+        <u xml:id="i-8CaqsEYWkZLXKVoxjnsgR7" who="unknown" next="i-QqZYm2HrKpPSX84HZn2oKz">
           <seg xml:id="i-Gq4indxxh6rg19rC7JYHAV">
             Jag ber att få hemställa, herr talman, att första kammaren måtte
             besluta, att antalet suppleanter i de ordinarie utskotten, förutom
@@ -98,7 +136,7 @@
           På framställning av herr talmannen beslöt kammaren nu, kl. 10,35
           f. m., att ajournera sina förhandlingar till 10.45 f. m.
         </note>
-        <u xml:id="i-QqZYm2HrKpPSX84HZn2oKz" prev="i-8CaqsEYWkZLXKVoxjnsgR7" next="i-GsqK3nnQHctqRU8QqfyAP5" who="unknown">
+        <u xml:id="i-QqZYm2HrKpPSX84HZn2oKz" who="unknown" prev="i-8CaqsEYWkZLXKVoxjnsgR7" next="i-GsqK3nnQHctqRU8QqfyAP5">
           <seg xml:id="i-Rtt1xkMVQx25JnhpEXSpGE">
             Till åtlydnad av Kungl. Maj:ts kallelse avgingo herr talmannen
             och kammarens ledamöter kl. 10.45 f. m. till slottskapellet, där
@@ -108,16 +146,16 @@
             sig.
           </seg>
         </u>
-        <u xml:id="i-GsqK3nnQHctqRU8QqfyAP5" prev="i-QqZYm2HrKpPSX84HZn2oKz" who="unknown">
+        <u xml:id="i-GsqK3nnQHctqRU8QqfyAP5" who="unknown" prev="i-QqZYm2HrKpPSX84HZn2oKz">
           <seg xml:id="i-Ab2NMzxzLYJ1f7R2K7Nug8">
             Hans Maj:t Konungen kom tillstädes och öppnade riksdagen med
             det i protokollsbihanget införda tal.
           </seg>
         </u>
-        <note type="speaker" xml:id="i-RrkLfVMmRkyZWnTogmUTcL">
+        <note xml:id="i-RrkLfVMmRkyZWnTogmUTcL" type="speaker">
           Herr talmannen framträdde därpå och yttrade:
         </note>
-        <u who="i-XLVGDGtQ7NCyXWncMFEL2t" xml:id="i-3dd6c8e07e7cc85a-0" next="i-3dd6c8e07e7cc85a-1">
+        <u xml:id="i-3dd6c8e07e7cc85a-0" who="i-XLVGDGtQ7NCyXWncMFEL2t" next="i-3dd6c8e07e7cc85a-1">
           <seg xml:id="i-4N3fRDADj8Y2WrRiSTtpxU">
             Allernådigste Konung, Eders Majestät! Tiden är inte lång mellan
             riksdagarna, men åtskilligt hinner dock hända på ett halvår. En
@@ -128,10 +166,10 @@
           Första kammarens protokoll 1939. Nr 2. 1
         </note>
         <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1939/prot-1939--fk--002/prot-1939--fk--002_001"/>
-        <note type="date" xml:id="i-8AXdJTJipsJ2JgEbiggJdg">
+        <note xml:id="i-8AXdJTJipsJ2JgEbiggJdg" type="date">
           2 ji i , Nr'2. Onsdagen den 11 januari 1939.
         </note>
-        <u who="i-XLVGDGtQ7NCyXWncMFEL2t" xml:id="i-3dd6c8e07e7cc85a-1" prev="i-3dd6c8e07e7cc85a-0" next="i-29oVmwYqxZ7vyfScUWixRc">
+        <u xml:id="i-3dd6c8e07e7cc85a-1" who="i-XLVGDGtQ7NCyXWncMFEL2t" prev="i-3dd6c8e07e7cc85a-0" next="i-29oVmwYqxZ7vyfScUWixRc">
           <seg xml:id="i-YbnMRHQSmwGfFEQQu63w66">
             tankar voro den 16 sistlidne juni samlade till hyllning för Sveriges
             konung. Imponerande var denna upplevelse, och en ståtlig symbol
@@ -163,7 +201,7 @@
             väl nödvändiga, gagneliga och eftersträvandsvärda.
           </seg>
         </u>
-        <u xml:id="i-29oVmwYqxZ7vyfScUWixRc" prev="i-3dd6c8e07e7cc85a-1" who="i-XLVGDGtQ7NCyXWncMFEL2t">
+        <u xml:id="i-29oVmwYqxZ7vyfScUWixRc" who="i-XLVGDGtQ7NCyXWncMFEL2t" prev="i-3dd6c8e07e7cc85a-1">
           <seg xml:id="i-S3Eext4nheGbTphbv6NmyT">
             Med uppriktig välönskan till Konung och konungahus anhåller jag
             nu att till es Maj:t få framföra första kammarens undersåtliga
@@ -189,10 +227,10 @@
           In fidem Eric Carlén.
         </note>
         <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1939/prot-1939--fk--002/prot-1939--fk--002_002"/>
-        <note type="date" xml:id="i-C6ymX6D1DoQzF5prxvf8E4">
+        <note xml:id="i-C6ymX6D1DoQzF5prxvf8E4" type="date">
           Torsdagen den 12 januari 1939. Nr 2. 3
         </note>
-        <note type="title" xml:id="i-UmAHJfLf1S7V1VATTWeQBD">
+        <note xml:id="i-UmAHJfLf1S7V1VATTWeQBD" type="title">
           Torsdagen den 12 januari.
         </note>
         <note xml:id="i-GpwHNtPp8Zd1kMubfJqP4a">
@@ -237,10 +275,10 @@
         <note xml:id="i-FWuMasUzdLSJZDWXoznQPF">
           Efter föredragning av denna skrivelse yttrade
         </note>
-        <note type="speaker" xml:id="i-RhXDC5kcnn1J5S3YAmnjXU">
+        <note xml:id="i-RhXDC5kcnn1J5S3YAmnjXU" type="speaker">
           Herr talmannen:
         </note>
-        <u who="i-XLVGDGtQ7NCyXWncMFEL2t" xml:id="i-3dd6c8e07e7cc85a-2">
+        <u xml:id="i-3dd6c8e07e7cc85a-2" who="i-XLVGDGtQ7NCyXWncMFEL2t">
           <seg xml:id="i-M62KCs46tkovBLaGNeFUEX">
             I anslutning till den nu föredragna skrivelsen får jag meddela,
             att det plenum, som skall hållas för mottagande av angivna meddelande,
@@ -266,7 +304,7 @@
           &gt; Velander: 3 mms cm oocsben ken ietr fer rn a a » 100 =»
         </note>
         <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1939/prot-1939--fk--002/prot-1939--fk--002_003"/>
-        <note type="date" xml:id="i-77a3a4d5LX67bbBvikzHta">
+        <note xml:id="i-77a3a4d5LX67bbBvikzHta" type="date">
           4 Nr 2. Torsdagen den 12 januari 1939.
         </note>
         <note xml:id="i-NEh1aGrfYuvAQcJgUwnJtH">
@@ -276,8 +314,9 @@
         </note>
         <note xml:id="i-XLSQcrowkXDDVC5fndsfZX">
           herr DOMÖ —sssseereererererrereerrerrr rr er rr rr rer s a med
-          80 röster, &gt; Larsson, Säl, ....ssmossebs ön eå bä RES krk » 80
-          &gt;», » Tjällgren s.ososseersserrrrrrrrr rese rr rr tres » 80 »
+          80 röster, &gt; Larsson, Säl, ....ssmossebs ön eå bä RES krk »
+          80 &gt;», » Tjällgren s.ososseersserrrrrrrrr rese rr rr tres »
+          80 »
         </note>
         <note xml:id="i-SVtcvZDVGYxqmJMT7XXqMt">
           » Åkerberg = sosssessrrerrrarsrr er rr sne rer era » 80 »
@@ -291,7 +330,7 @@
           herr Björkman, Gustaf Adolf, .......:sssloceos-ss. med 69 röster,
           » Wahlmark ..sssoooosrersrerrsrrrrr rr rr terra » 69 » .
         </note>
-        <note type="speaker" xml:id="i-UsZPmoKsRNYPyxhdcdHopu">
+        <note xml:id="i-UsZPmoKsRNYPyxhdcdHopu" type="speaker">
           Herr statsrådet Quensel avlämnade Kungl. Maj:
         </note>
         <note xml:id="i-Lu6dUMft2KxB7mvjN1bJm2">
@@ -350,7 +389,7 @@
           till innevarande riksdag avgivna ämbetsberättelse.
         </note>
         <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1939/prot-1939--fk--002/prot-1939--fk--002_004"/>
-        <note type="date" xml:id="i-RngDjJKB6pdcM9g71TbE9Y">
+        <note xml:id="i-RngDjJKB6pdcM9g71TbE9Y" type="date">
           Torsdagen den 12 januari 1939. Nr 2. 5
         </note>
         <note xml:id="i-7NYwiLKuoRKPkuAcCFL9V1">
@@ -389,10 +428,10 @@
           In fidem Eric Carlén.
         </note>
         <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1939/prot-1939--fk--002/prot-1939--fk--002_005"/>
-        <note type="date" xml:id="i-QRJTNtkNayrj2a9sJDHUAk">
+        <note xml:id="i-QRJTNtkNayrj2a9sJDHUAk" type="date">
           6 Nr 2. Fredagen den 13 januari 1939.
         </note>
-        <note type="title" xml:id="i-Bnf5kKMyF4xVd9xite1U9Y">
+        <note xml:id="i-Bnf5kKMyF4xVd9xite1U9Y" type="title">
           Fredagen den 13 januari.
         </note>
         <note xml:id="i-5y3VyCudoJLbHtv4MVpy6m">
@@ -409,19 +448,19 @@
         <note xml:id="i-5Et8ts1inR9YD3pcyEWygD">
           Herr Domö:
         </note>
-        <note type="speaker" xml:id="i-9NP2ZKS59hLTq6mwSFXj4U">
+        <note xml:id="i-9NP2ZKS59hLTq6mwSFXj4U" type="speaker">
           Herr Tarsson, Sam:
         </note>
-        <note type="speaker" xml:id="i-9Xu5bEffnKVKdR85Bv3LVg">
+        <note xml:id="i-9Xu5bEffnKVKdR85Bv3LVg" type="speaker">
           Herr andre vice talmannen:
         </note>
-        <note type="speaker" xml:id="i-RsmGGkw6qmqGFbw631Y8Jb">
+        <note xml:id="i-RsmGGkw6qmqGFbw631Y8Jb" type="speaker">
           Herr Åkerberg:
         </note>
-        <note type="speaker" xml:id="i-Hxc8r4Mgj4kZF9dfFx68kv">
+        <note xml:id="i-Hxc8r4Mgj4kZF9dfFx68kv" type="speaker">
           Herr Linderot:
         </note>
-        <note type="speaker" xml:id="i-2VkRK5YUJXE63MN5vdXfvm">
+        <note xml:id="i-2VkRK5YUJXE63MN5vdXfvm" type="speaker">
           Herr Lindhagen:
         </note>
         <note xml:id="i-MKH4QF9wg8GJgQXj8sbtKf">
