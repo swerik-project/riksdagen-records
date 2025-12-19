@@ -1,62 +1,82 @@
+#!/usr/bin/env python3
+from glob import glob
+from pyriksdagen.io import parse_tei
+from pyriksdagen.utils import corpus_iterator
+from tqdm import tqdm
+from trainerlog import get_logger
+import json
 import unittest
-import os
-from lxml import etree
-from pyriksdagen.utils import protocol_iterators
-import random
-from pathlib import Path
-import progressbar
-
-TEI_NS ="{http://www.tei-c.org/ns/1.0}"
-XML_NS = "{http://www.w3.org/XML/1998/namespace}"
 
 
-parser = etree.XMLParser(remove_blank_text=True)
-def get_root(path):
-    root = etree.parse(path, parser).getroot()
-    return root
 
-def check_next_prev_coherence(root):
-    """
-    Check that
 
-    a) all 'next' attributes point to next <u> element
-    b) all 'prev' attributes point to previous <u> element
+logger = get_logger("next-prev-logger")
 
-    """
-    
-    next_attrib = None
-    prev_id = None
 
-    for body in root.findall(f".//{TEI_NS}body"):
-        for elem in root.findall(f".//{TEI_NS}u"):
-            #for elem in div:
-                if elem.tag == f"{TEI_NS}u":
-
-                    if next_attrib is not None:
-                        if next_attrib != elem.attrib[f"{XML_NS}id"]:
-                            print(next_attrib, elem.attrib[f"{XML_NS}id"])
-                            return False
-
-                    next_attrib = elem.attrib.get("next")
-
-                    if "prev" in elem.attrib:
-                        if prev_id != elem.attrib["prev"]:
-                            print(next_attrib, elem.attrib["prev"])
-                            return False
-
-                    prev_id = elem.attrib[f"{XML_NS}id"]
-    return True
 
 
 class Test(unittest.TestCase):
 
-    def test_next_prev(self):
-        for protocol_path in progressbar.progressbar(sorted(list(protocol_iterators("data/")))):
-            root = get_root(protocol_path)
-            coherent_protocol = check_next_prev_coherence(root)
+    @classmethod
+    def setUpClass(cls):
+        cls.records = sorted(glob("data/*/*.xml"))
+        cls.incoherant_records = {}
 
-            self.assertTrue(coherent_protocol, f"Protocol {protocol_path} has incoherent 'next'/'prev' tagging")
+
+    @classmethod
+    def tearDownClass(cls):
+        if len(cls.incoherant_records) > 0:
+            with open("test/results/incoherant-next-prev.json", "w+") as outf:
+                json.dump(cls.incoherant_records, outf, indent=2, ensure_ascii=False)
+            raise Exception(f"{len(cls.incoherant_records)} records have incoherent 'next'/'prev' tagging")
+
+
+    def check_next_prev_coherence(self, record):
+        """
+        Check that:
+            a) all 'next' attributes point to next <u> element
+            b) all 'prev' attributes point to previous <u> element
+        """
+        def add_to_d(elem, type_, problem_id):
+            if record not in self.incoherant_records:
+                self.incoherant_records[record] = []
+            self.incoherant_records[record].append([elem, type_, problem_id])
+
+        next_attrib = None
+        prev_id = None
+        root, ns = parse_tei(record)
+        for body in root.findall(f".//{ns['tei_ns']}body"):
+            for elem in root.findall(f".//{ns['tei_ns']}u"):
+                #for elem in div:
+                    if elem.tag == f"{ns['tei_ns']}u":
+
+                        elem_id = elem.attrib[f"{ns['xml_ns']}id"]
+                        if next_attrib is not None:
+                            if next_attrib != elem_id:
+                                logger.warn(f"incoherent next in {record}: {next_attrib} {elem_id}")
+                                add_to_d(elem_id, "next", next_attrib)
+                                return False
+
+                        next_attrib = elem.attrib.get("next")
+
+                        if "prev" in elem.attrib:
+                            if prev_id != elem.attrib["prev"]:
+                                logger.warn(f"incoherent prev in {record}: {next_attrib} {elem.attrib['prev']}")
+                                add_to_d(elem_id, "prev", elem.attrib["prev"])
+                                return False
+
+                        prev_id = elem_id
+        return True
+
+
+    def test_next_prev(self):
+        for record in tqdm(self.records):
+            self.check_next_prev_coherence(record)
+
+
+
+
+
 
 if __name__ == '__main__':
-    # begin the unittest.main()
     unittest.main()
