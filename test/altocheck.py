@@ -95,7 +95,7 @@ def calculate_difference(root_pc, page="random", auth=None):
 class Test(unittest.TestCase):
     random.seed(429)
     # Parla-clarin generated from example OCR XML
-    @unittest.skip()
+    @unittest.skip("Links to ALTO files are not available")
     def test_protocols(self):
         PAGES_PER_DECADE = 100
         folder = "data/"
