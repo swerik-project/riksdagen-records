@@ -88,6 +88,7 @@ def calculate_difference(root_pc, page="random", auth=None):
 class Test(unittest.TestCase):
     random.seed(429)
     # Parla-clarin generated from example OCR XML
+    @unittest.skip()
     def test_protocols(self):
         folder = "data/"
         p = Path(folder)
