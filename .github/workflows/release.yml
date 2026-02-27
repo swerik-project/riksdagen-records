@@ -29,6 +29,8 @@ jobs:
       run: zip -r records.zip data
     - name: zip quality estimates
       run: zip -r quality.zip quality/estimates
+    - name: Check that the zipped files are not corrupt by checking filesize (2KB or more)
+      run: ( ! find . -type f -name '*.zip' -size -2k -print -quit | grep -q .)
     - name: Upload binaries to release
       uses: svenstaro/upload-release-action@v2
       with:
