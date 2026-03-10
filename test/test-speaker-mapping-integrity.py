@@ -39,6 +39,11 @@ def find_element_by_xml_id(root, uuid):
 
 
 def process_row(r):
+    """
+    Check gold-standard speaker annotations, including <note type="speaker"> introductions.
+    - If UUID points to <u>: check its @who.
+    - If UUID points to <note type="speaker">: find the first <u> after it and check the whole <u> chain.
+    """
     xml_path = r['protocol_id']
     uuid = r['uuid']
     folder_type = r['folder_type']
@@ -60,15 +65,43 @@ def process_row(r):
         return result
 
     if folder_type == 'is-speaker':
-        if el.tag.endswith('u') and el.get('who') != expected_person:
-            result['fail_is_speaker'] = [xml_path, uuid, expected_person, el.get('who')]
-            logger.error(f"Speaker drift: {uuid} expected {expected_person}, got {el.get('who')}")
-        if el.tag.endswith('note') and el.get('type') != 'speaker':
-            result['fail_is_speaker'] = [xml_path, uuid, 'type=speaker', el.get('type')]
-            logger.error(f"Speaker note drift: {uuid}")
+        if el.tag.endswith('u'):
+            who_attr = el.get('who')
+            if not who_attr or who_attr != expected_person:
+                result['fail_is_speaker'] = [xml_path, uuid, expected_person, who_attr]
+                logger.error(f"Speaker drift: {uuid} expected {expected_person}, got {who_attr}")
+
+        elif el.tag.endswith('note') and el.get('type') == 'speaker':
+            first_u = None
+            for sibling in el.itersiblings():
+                if sibling.tag.endswith('u'):
+                    first_u = sibling
+                    break
+
+            if first_u is None:
+                result['fail_is_speaker'] = [xml_path, uuid, "no following <u>", None]
+                logger.error(f"Speaker note {uuid} has no following <u>")
+            else:
+                u = first_u
+                while u is not None:
+                    u_who = u.get('who')
+                    if u_who != expected_person:
+                        result['fail_is_speaker'] = [xml_path, uuid, expected_person, u_who]
+                        logger.error(f"Speaker chain drift: {uuid} expected {expected_person}, got {u_who}")
+                        break
+                    next_id = u.get('next')
+                    if not next_id:
+                        break
+                    u = find_element_by_xml_id(root, next_id)
+
+        else:
+            result['fail_is_speaker'] = [xml_path, uuid, "unexpected tag", el.tag]
+            logger.error(f"Unexpected tag for is-speaker: {uuid} ({el.tag})")
+
     else:
-        if el.get('who') or (el.tag.endswith('note') and el.get('type') == 'speaker'):
-            actual = el.get('who') if el.get('who') else 'type=speaker'
+        who_attr = el.get('who')
+        if (who_attr is not None and who_attr.strip() != '') or (el.tag.endswith('note') and el.get('type') == 'speaker'):
+            actual = who_attr if who_attr else 'type=speaker'
             result['fail_non_speaker'] = [xml_path, uuid, actual]
             logger.error(f"Non-speaker drift: {uuid} ({actual})")
 
