@@ -97,7 +97,7 @@
     </ul>
 
 
-            <footer>v1.5.0</footer>
+            <footer>v1.5.1</footer>
 
         <a class="attribution" title="pdoc: Python API documentation generator" href="https://pdoc.dev" target="_blank">
             built with <span class="visually-hidden">pdoc</span><img
@@ -780,7 +780,7 @@ per year across a set of parliamentary protocol records.</p>
                             </div>
                             <div id="QualityEstimator.gold_standard" class="classattr">
                                 <div class="attr variable">
-            <span class="name">gold_standard</span><span class="annotation">: Optional[pandas.core.frame.DataFrame]</span>
+            <span class="name">gold_standard</span><span class="annotation">: Optional[pandas.DataFrame]</span>
 
         
     </div>
@@ -791,7 +791,7 @@ per year across a set of parliamentary protocol records.</p>
                             </div>
                             <div id="QualityEstimator.df_upper" class="classattr">
                                 <div class="attr variable">
-            <span class="name">df_upper</span><span class="annotation">: Optional[pandas.core.frame.DataFrame]</span>
+            <span class="name">df_upper</span><span class="annotation">: Optional[pandas.DataFrame]</span>
 
         
     </div>
@@ -802,7 +802,7 @@ per year across a set of parliamentary protocol records.</p>
                             </div>
                             <div id="QualityEstimator.df_difference" class="classattr">
                                 <div class="attr variable">
-            <span class="name">df_difference</span><span class="annotation">: Optional[pandas.core.frame.DataFrame]</span>
+            <span class="name">df_difference</span><span class="annotation">: Optional[pandas.DataFrame]</span>
 
         
     </div>
@@ -835,7 +835,7 @@ per year across a set of parliamentary protocol records.</p>
                             </div>
                             <div id="QualityEstimator.pool" class="classattr">
                                 <div class="attr variable">
-            <span class="name">pool</span><span class="annotation">: Optional[&lt;bound method BaseContext.Pool of &lt;multiprocessing.context.DefaultContext object at 0x7f1900160710&gt;&gt;]</span>
+            <span class="name">pool</span><span class="annotation">: Optional[&lt;bound method BaseContext.Pool of &lt;multiprocessing.context.DefaultContext object at 0x7fe61d391be0&gt;&gt;]</span>
 
         
     </div>
@@ -1032,7 +1032,7 @@ per year across a set of parliamentary protocol records.</p>
 <div class="attr function">
             
         <span class="def">def</span>
-        <span class="name">calculate_accuracy</span><span class="signature pdoc-code multiline">(<span class="param">	<span class="bp">self</span>,</span><span class="param">	<span class="n">estimate_func</span><span class="p">:</span> <span class="n">Callable</span>,</span><span class="param">	<span class="n">column_list</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;correct&#39;</span><span class="p">,</span> <span class="s1">&#39;incorrect&#39;</span><span class="p">]</span>,</span><span class="param">	<span class="n">bounds</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span></span><span class="return-annotation">) -> <span class="n">pandas</span><span class="o">.</span><span class="n">core</span><span class="o">.</span><span class="n">frame</span><span class="o">.</span><span class="n">DataFrame</span>:</span></span>
+        <span class="name">calculate_accuracy</span><span class="signature pdoc-code multiline">(<span class="param">	<span class="bp">self</span>,</span><span class="param">	<span class="n">estimate_func</span><span class="p">:</span> <span class="n">Callable</span>,</span><span class="param">	<span class="n">column_list</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;correct&#39;</span><span class="p">,</span> <span class="s1">&#39;incorrect&#39;</span><span class="p">]</span>,</span><span class="param">	<span class="n">bounds</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span></span><span class="return-annotation">) -> <span class="n">pandas</span><span class="o">.</span><span class="n">DataFrame</span>:</span></span>
 
                 <label class="view-source-button" for="QualityEstimator.calculate_accuracy-view-source"><span>View Source</span></label>
 
@@ -1083,7 +1083,7 @@ per year across a set of parliamentary protocol records.</p>
 <div class="attr function">
             
         <span class="def">def</span>
-        <span class="name">update_difference</span><span class="signature pdoc-code condensed">(<span class="param"><span class="bp">self</span></span><span class="return-annotation">) -> <span class="n">pandas</span><span class="o">.</span><span class="n">core</span><span class="o">.</span><span class="n">frame</span><span class="o">.</span><span class="n">DataFrame</span>:</span></span>
+        <span class="name">update_difference</span><span class="signature pdoc-code condensed">(<span class="param"><span class="bp">self</span></span><span class="return-annotation">) -> <span class="n">pandas</span><span class="o">.</span><span class="n">DataFrame</span>:</span></span>
 
                 <label class="view-source-button" for="QualityEstimator.update_difference-view-source"><span>View Source</span></label>
 
