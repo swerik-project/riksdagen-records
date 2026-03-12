@@ -19,6 +19,10 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - uses: ./.github/actions/free-up-space
     - uses: ./.github/actions/install-dependencies
+    - name: Clone scripts repo
+      run: |
+        git clone -b records-export https://github.com/swerik-project/scripts.git
+
     - name: dump stuff
       run: |
         mkdir dumps
@@ -27,6 +31,13 @@ jobs:
       run: zip -r records.zip data
     - name: zip quality estimates
       run: zip -r quality.zip quality/estimates
+    - name: Convert records to NDJSON
+      run: |
+        pip install polars
+        python scripts/src/export_records.py --data-folder data --formats ndjson
+    - name: GZIP NDJSON files
+      run: |
+        gzip *.ndjson
     - name: Check that the zipped files are not corrupt by checking filesize (2KB or more)
       run: |
         ls -lh *.zip
@@ -37,11 +48,18 @@ jobs:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: ./reference-list.bib
         tag: ${{ github.ref }}
-    - name: Upload binaries to release
+    - name: Upload ZIP archives to release
       uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: ./*.zip
+        tag: ${{ github.ref }}
+        file_glob: true
+    - name: Upload ndjson.gz files to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: ./*.ndjson.gz
         tag: ${{ github.ref }}
         file_glob: true
     - name: Update release description
