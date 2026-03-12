@@ -24,7 +24,7 @@ import pandas as pd
 import progressbar
 import unittest
 
-logger = get_logger(name="ebun", level="DEBUG")
+logger = get_logger(name="mp-test")
 
 def parse_date_start(s):
     """Parse a string into a start datetime. Returns 1800-01-01 if missing."""
