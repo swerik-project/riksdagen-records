@@ -1,10 +1,8 @@
-# Preprocessed easy-to-use formats
+# Data formats
 
-Download ```persons_csv.zip```, ```persons.xlsx``` or ```persons.sqlite``` to easily access preprocessed data.
+```records.zip``` includes the complete records in the ParlaClarin XML format.
 
-# Normal form DB for more complex processing
-
-The ```persons.zip``` archive contains the original unmerged tables as CSVs for more complex processing.
+```records_speeches_DECADE.ndjson.gz``` includes the speeches in the records in newline delimited JSON format, aggregated by decade. These are compressed via gzip.
 
 # Quality estimates
 
