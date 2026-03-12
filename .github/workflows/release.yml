@@ -22,9 +22,7 @@ jobs:
     - name: dump stuff
       run: |
         mkdir dumps
-        python -c 'from pyriksdagen.reference_handling import compile_bib_list; compile_bib_list(output_file="dumps/reference-list.bib")'
-    - name: zip dumps
-      run: zip dumps.zip dumps
+        python -c 'from pyriksdagen.reference_handling import compile_bib_list; compile_bib_list(output_file="reference-list.bib")'
     - name: Zip corpus
       run: zip -r records.zip data
     - name: zip quality estimates
@@ -33,6 +31,12 @@ jobs:
       run: |
         ls -lh *.zip
         ( ! find . -type f -name '*.zip' -size -2k -print -quit | grep -q .)
+    - name: Upload reference list to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: ./reference-list.bib
+        tag: ${{ github.ref }}
     - name: Upload binaries to release
       uses: svenstaro/upload-release-action@v2
       with:
@@ -40,3 +44,8 @@ jobs:
         file: ./*.zip
         tag: ${{ github.ref }}
         file_glob: true
+    - name: Update release description
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        gh release edit ${{ github.ref_name }} --notes-file ./.github/workflows/release_notes.md
