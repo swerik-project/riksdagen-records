@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-PvhsnSHRYhCHaAtT9KMhKm" type="speech">
             <linkGrp type="u">
               <ptr target="#i-aca8d9c918e7faa6-0"/>
@@ -110,7 +110,13 @@
               <ptr target="#i-GuFdYXYn44aU7SwR45C6X9"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -215,7 +221,7 @@
         <note xml:id="i-TVDBSCmGCKiXcSuC16z6Bz" type="speaker">
           Herr TALMANNEN anförde:
         </note>
-        <u xml:id="i-aca8d9c918e7faa6-0" who="i-9jz5ycDdUNuEbuww4Ui1YW" next="i-5UzjMhMC4hPpvrigqNrMe3">
+        <u xml:id="i-aca8d9c918e7faa6-0" who="i-9jz5ycDdUNuEbuww4Ui1YW">
           <seg xml:id="i-UMXgGrsDkiGTpQpi6FReY4">
             Härmed förklarar jag 1965 års höstsession öppnad. Jag ber att
             få hälsa kammarens ledamöter hjärtligt välkomna åter i denna plenisal
@@ -231,8 +237,6 @@
             och jag hoppas att de erfarenheter de där förvärvat har varit
             till glädje för dem och skall bli till nytta också för kammaren.
           </seg>
-        </u>
-        <u xml:id="i-5UzjMhMC4hPpvrigqNrMe3" who="i-9jz5ycDdUNuEbuww4Ui1YW" prev="i-aca8d9c918e7faa6-0">
           <seg xml:id="i-VtesKuPBiCLmAoSYSKsorP">
             Välkomna!
           </seg>
@@ -558,7 +562,7 @@
           Ordet lämnades härefter på begäran till herr LUNDSTRÖM (fp),
           som yttrade:
         </note>
-        <u xml:id="i-aca8d9c918e7faa6-7" who="i-LqZVb6hLZp6CQ14f85xa4x" next="i-GHq8GrymY8aEBHgNq45Jb8">
+        <u xml:id="i-aca8d9c918e7faa6-7" who="i-LqZVb6hLZp6CQ14f85xa4x" next="i-aca8d9c918e7faa6-9">
           <seg xml:id="i-ELQdUxcy5ipELVnsvGXQtu">
             Herr talman! I kampen mot kösamhället har folkpartiet fäst stor
             vikt vid åtgärder som skulle förbättra tillgången på tandläkare
@@ -590,8 +594,6 @@
             En utpräglad brist på tandtekniker och tandsköterskor föreligger
             också.
           </seg>
-        </u>
-        <u xml:id="i-GHq8GrymY8aEBHgNq45Jb8" who="i-LqZVb6hLZp6CQ14f85xa4x" prev="i-aca8d9c918e7faa6-7" next="i-aca8d9c918e7faa6-8">
           <seg xml:id="i-77yfeAsY5D82U9ZGh11x8v">
             Tandläkarutbildningen är för närvarande dimensionerad för en
             intagning av 260 elever om året, varav 100 vid de odontologiska
@@ -600,8 +602,6 @@
             med 75 platser vid den nya tandläkarhögskolan i Göteborg. Ett
             100-tal svenskar bedriver tandläkarstudier i Tyskland.
           </seg>
-        </u>
-        <u xml:id="i-aca8d9c918e7faa6-8" who="i-LqZVb6hLZp6CQ14f85xa4x" prev="i-GHq8GrymY8aEBHgNq45Jb8" next="i-aca8d9c918e7faa6-9">
           <seg xml:id="i-NSJA8FisKZuMRNsY1wkvvf">
             Det är uppenbart att regeringen måste visa ett avsevärt större
             engagemang när det gäller att avvärja den fara som bristen på
@@ -636,7 +636,7 @@
         <note xml:id="i-6MmTRW24GzqsFrU68J1j6x">
           Interpellation ang. en storflygplats i Öresundsregionen
         </note>
-        <u xml:id="i-aca8d9c918e7faa6-9" who="i-LqZVb6hLZp6CQ14f85xa4x" prev="i-aca8d9c918e7faa6-8" next="i-WUaav8eDuorGjP2AB9pnVc">
+        <u xml:id="i-aca8d9c918e7faa6-9" who="i-LqZVb6hLZp6CQ14f85xa4x" prev="i-aca8d9c918e7faa6-7">
           <seg xml:id="i-Uw9i5WHnMob3eCHv4AfzDb">
             det att ta innan tandvårdsförsäkringen kan fungera effektivt.
           </seg>
@@ -661,8 +661,6 @@
             tillstånd att till herr statsrådet och chefen för ecklesiastikdepartementet
             ställa följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-WUaav8eDuorGjP2AB9pnVc" who="i-LqZVb6hLZp6CQ14f85xa4x" prev="i-aca8d9c918e7faa6-9">
           <seg xml:id="i-6zCCqkUYqQ3sJSoZsCnhXy">
             Vilka åtgärder ämnar herr statsrådet vidtaga för att snarast
             möjligt förbättra tillgången på tandläkare och annan tandvårdspersonal
@@ -679,20 +677,16 @@
         <note xml:id="i-MK88Z9eek1g9yTZ9zSxubx" type="speaker">
           Herr LUNDSTRÖM (fp) erhöll ånyo ordet och anförde:
         </note>
-        <u xml:id="i-Ny7zPakH6QE8r7ugJbirbv" who="i-LqZVb6hLZp6CQ14f85xa4x" next="i-W87HLqnxSS5Begoa49jyJ4">
+        <u xml:id="i-Ny7zPakH6QE8r7ugJbirbv" who="i-LqZVb6hLZp6CQ14f85xa4x" next="i-aca8d9c918e7faa6-11">
           <seg xml:id="i-LfMkxCYkJ4pGf5QGPinAv8">
             Herr talman! Vid Nordiska rådets senaste session i februari i
             år i Reykjavik antogs en rekommendation angående en storflygplats
             i Öresundsregionen. Rekommendationen (nr 34/1965) hade följande
             lydelse:
           </seg>
-        </u>
-        <u xml:id="i-W87HLqnxSS5Begoa49jyJ4" who="i-LqZVb6hLZp6CQ14f85xa4x" prev="i-Ny7zPakH6QE8r7ugJbirbv" next="i-aca8d9c918e7faa6-10">
           <seg xml:id="i-6M7ZELgc87cCYcvW9dBtuK">
             Nordiska rådet hemställer till rege-
           </seg>
-        </u>
-        <u xml:id="i-aca8d9c918e7faa6-10" who="i-LqZVb6hLZp6CQ14f85xa4x" prev="i-W87HLqnxSS5Begoa49jyJ4" next="i-aca8d9c918e7faa6-11">
           <seg xml:id="i-K1pAc2ApsQ6rDHjmMSTsf4">
             ringarna i Danmark, Finland, Island, Norge och Sverige att undersöka
             möjligheterna för en gemensam lösning av flygplatsproblemen i
@@ -745,7 +739,7 @@
           Interpellation ang. förverkligandet av de utbildningspolitiska
           målsättningarna
         </note>
-        <u xml:id="i-aca8d9c918e7faa6-11" who="i-LqZVb6hLZp6CQ14f85xa4x" prev="i-aca8d9c918e7faa6-10">
+        <u xml:id="i-aca8d9c918e7faa6-11" who="i-LqZVb6hLZp6CQ14f85xa4x" prev="i-Ny7zPakH6QE8r7ugJbirbv">
           <seg xml:id="i-EGcuR22FKG6mwGSoNPsWJu">
             dana projekt är på gång. Vad som nu behövs är en jetflygplats
             för sydsvenskt behov, förklarade statssekreteraren.
@@ -1101,7 +1095,7 @@
         <note xml:id="i-PwKPXGN5HShp15XwioHhrM">
           Meddelande ang. enkla frågor
         </note>
-        <u xml:id="i-aca8d9c918e7faa6-16" who="i-5qJUpGuJqeTrWaukfnc12x" prev="i-aca8d9c918e7faa6-15" next="i-8Y8EVXD9W8xPtrFqAmAu3D">
+        <u xml:id="i-aca8d9c918e7faa6-16" who="i-5qJUpGuJqeTrWaukfnc12x" prev="i-aca8d9c918e7faa6-15">
           <seg xml:id="i-XRmqUrk4W5GSfz4nDQLZdS">
             utbildningspolitiken i dess helhet eventuellt bör göras till
             föremål för omprövning i syfte att anpassa verksamheten efter
@@ -1112,8 +1106,6 @@
             till statsrådet och chefen för ecklesiastikdepartementet får ställa
             följande frågor:
           </seg>
-        </u>
-        <u xml:id="i-8Y8EVXD9W8xPtrFqAmAu3D" who="i-5qJUpGuJqeTrWaukfnc12x" prev="i-aca8d9c918e7faa6-16" next="i-aca8d9c918e7faa6-17">
           <seg xml:id="i-BNbZHU9DoEpUvvurfF1QYL">
             1. Anser herr statsrådet, med beaktande av de arbetsmarknadspolitiska
             betingelser som enligt beräkningar av 1965 års långtidsbudget
@@ -1121,8 +1113,6 @@
             på det utbildningspolitiska området som riksdagen godkänt kan
             förverkligas inom planerade tidsramar?
           </seg>
-        </u>
-        <u xml:id="i-aca8d9c918e7faa6-17" who="i-5qJUpGuJqeTrWaukfnc12x" prev="i-8Y8EVXD9W8xPtrFqAmAu3D">
           <seg xml:id="i-QSsKonnED8JbNv7592tAN7">
             2. Hur bedömer herr statsrådet möjligheterna att även tillgodose
             de reformkrav som kan komma att aktualiseras på bl. a. yrkesutbildningens

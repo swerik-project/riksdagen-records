@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-SNkv3bMuADVQxaysXtnoLz" type="speech">
             <linkGrp type="u">
               <ptr target="#i-9hq4c2Bo1VMcnuQ2zyKPmZ"/>
@@ -173,7 +173,13 @@
               <ptr target="#i-EfGb2hxmUfSpaR9N75sMUT"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -369,27 +375,21 @@
         <note xml:id="i-UxBYWoeCW8rtfXj34yEhVL" type="speaker">
           Anf. 1 Arbetsmarknadsminister ANNA-GRETA LEIJON:
         </note>
-        <u xml:id="i-9hq4c2Bo1VMcnuQ2zyKPmZ" who="i-FLEUnTue6oAgyDmZZjwLh8" next="i-AeBWHAnK8k7ke6nKtEormU">
+        <u xml:id="i-9hq4c2Bo1VMcnuQ2zyKPmZ" who="i-FLEUnTue6oAgyDmZZjwLh8">
           <seg xml:id="i-3sGB8wXopR6DoHaGftDqkj">
             Herr talman! Paul Lestander har frågat jordbruksministern om
             han kommer att vidta åtgärder som innebär att skogsarbetare som
             är anställda i beredskapsarbete hos skogsvårdsstyrelserna erbjuds
             tillsvidareanställning.
           </seg>
-        </u>
-        <u xml:id="i-AeBWHAnK8k7ke6nKtEormU" who="i-FLEUnTue6oAgyDmZZjwLh8" prev="i-9hq4c2Bo1VMcnuQ2zyKPmZ" next="i-F5JFqWrRaxKzGaxMkyu2EP">
           <seg xml:id="i-WZvb6Hbaom88D2crMqbT9q">
             Frågan har överlämnats till mig.
           </seg>
-        </u>
-        <u xml:id="i-F5JFqWrRaxKzGaxMkyu2EP" who="i-FLEUnTue6oAgyDmZZjwLh8" prev="i-AeBWHAnK8k7ke6nKtEormU" next="i-TLDFQAPsgpCWds5KHxvy86">
           <seg xml:id="i-Ni6SNbFNuC2NFLQzwLAJC2">
             Eftersom skogsarbetare i allmänhet är tillsvidareförordnade,
             uppfattar jag frågan så, att den avser beredskapsarbetare vid
             skogsvårdsstyrelserna.
           </seg>
-        </u>
-        <u xml:id="i-TLDFQAPsgpCWds5KHxvy86" who="i-FLEUnTue6oAgyDmZZjwLh8" prev="i-F5JFqWrRaxKzGaxMkyu2EP" next="i-2jJXrRLFzcKSvJaWjeUyMS">
           <seg xml:id="i-MA67bu5eXRnmTFQEe63jSk">
             Beredskapsarbete är ett arbetsmarknadspolitiskt hjälpmedel som
             syftar till att de som får sådant arbete så snart som möjligt
@@ -400,8 +400,6 @@
             uppsägningstid passar därför inte för beredskapsarbeten, och dessa
             omfattas inte heller av lagen.
           </seg>
-        </u>
-        <u xml:id="i-2jJXrRLFzcKSvJaWjeUyMS" who="i-FLEUnTue6oAgyDmZZjwLh8" prev="i-TLDFQAPsgpCWds5KHxvy86" next="i-VKfPGB3vFoz7dufYjbDExP">
           <seg xml:id="i-FSgAVQDHGiWGcatHVvmaHs">
             En arbetstagare som enligt arbetsmarknadskungörelsen är anvisad
             ett beredskapsarbete inom det skogliga området med staten som
@@ -409,8 +407,6 @@
             statens arbetsgivarverk och Svenska skogsarbetareförbundet. Enligt
             detta avtal skall visstidsanställning tillämpas.
           </seg>
-        </u>
-        <u xml:id="i-VKfPGB3vFoz7dufYjbDExP" who="i-FLEUnTue6oAgyDmZZjwLh8" prev="i-2jJXrRLFzcKSvJaWjeUyMS">
           <seg xml:id="i-UtxDC5ALD6Aj4a2i7yrhuw">
             Jag vill slutligen betona att ur både sysselsättningsoch skogsvårdssynpunkt
             är det bra att skogsvårdsstyrelsen anordnar beredskapsarbeten.
@@ -458,7 +454,7 @@
         <note xml:id="i-5bvwXRrLyDR3A3uzsALwkz">
           18
         </note>
-        <u xml:id="i-QksDNtYDoJrrvuYVhHfWCn" who="i-Xncfe1szgnEB2oHPgxWhmW" prev="i-094c76e87e43b679-0" next="i-094c76e87e43b679-5">
+        <u xml:id="i-QksDNtYDoJrrvuYVhHfWCn" who="i-Xncfe1szgnEB2oHPgxWhmW" prev="i-094c76e87e43b679-0">
           <seg xml:id="i-JH8YxaYUZoMcsU168Bv8og">
             beredskapsarbetarna haft en total anställningstid på mindre än
             1 år, dock inte sammanhängande. 57 har haft en anställningstid
@@ -467,8 +463,6 @@
             en anställningstid på 10 år, 12 på 11 år, 10 på 12 år, 1 på 13
             år, 5 på 14 år, 1 på 15, 1 på 16 och 1 på 18 år.
           </seg>
-        </u>
-        <u xml:id="i-094c76e87e43b679-5" who="i-Xncfe1szgnEB2oHPgxWhmW" prev="i-QksDNtYDoJrrvuYVhHfWCn">
           <seg xml:id="i-4geqsWP48Nrp4ddwYW26HB">
             Detta visar att beredskapsarbete mera varit någon form av huvudarbetsuppgift.
             Det skulle ha varit glädjande om arbetsmarknadsministern hade
@@ -940,7 +934,7 @@
         <note xml:id="i-VCEMW6g6GECaoUDon6ujvP">
           Om ungdomsarbetslösheten
         </note>
-        <u xml:id="i-3Uuhni9QCVHseoiqCFVA6b" who="i-EYtSQeorgj7y8BCPjaqciZ" prev="i-efe2892c89edc870-6" next="i-PAjEhcRakJ4SDPqStWhLLn">
+        <u xml:id="i-3Uuhni9QCVHseoiqCFVA6b" who="i-EYtSQeorgj7y8BCPjaqciZ" prev="i-efe2892c89edc870-6" next="i-efe2892c89edc870-11">
           <seg xml:id="i-45xoe1u84jc9mfPBxaXmWQ">
             na riktiga jobb på den reguljära arbetsmarknaden.
           </seg>
@@ -976,8 +970,6 @@
             åtgärder än någonsin tidigare just för ungdomarna står fler och
             fler unga människor inför arbetslöshet vid sitt inträde på arbetsmarknaden.
           </seg>
-        </u>
-        <u xml:id="i-PAjEhcRakJ4SDPqStWhLLn" who="i-EYtSQeorgj7y8BCPjaqciZ" prev="i-3Uuhni9QCVHseoiqCFVA6b" next="i-9zYAQ9qwWD76L2B6gHuBp2">
           <seg xml:id="i-EGnHPxVjdSRiuxghJNNfRJ">
             I mars månad var fördelningen av den totala arbetslösheten bland
             ungdomar följande: Öppet arbetslösa 36 000, ungdomar i beredskapsarbeten
@@ -985,8 +977,6 @@
             i ungdomsplatser 21 000 — totalt 124 500. I april månad var det
             i stort sett lika många.
           </seg>
-        </u>
-        <u xml:id="i-9zYAQ9qwWD76L2B6gHuBp2" who="i-EYtSQeorgj7y8BCPjaqciZ" prev="i-PAjEhcRakJ4SDPqStWhLLn" next="i-efe2892c89edc870-11">
           <seg xml:id="i-4VQkD25qaocW7t5nt7w5JD">
             Regeringens och riksdagens desperation över den växande ungdomsarbetslösheten
             har tagit sig uttryck i bl. a. beslut om tvångssysselsättning
@@ -1015,7 +1005,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--142/prot_198384__142-011.jp2/_view"/>
-        <u xml:id="i-efe2892c89edc870-11" who="i-EYtSQeorgj7y8BCPjaqciZ" prev="i-9zYAQ9qwWD76L2B6gHuBp2" next="i-efe2892c89edc870-15">
+        <u xml:id="i-efe2892c89edc870-11" who="i-EYtSQeorgj7y8BCPjaqciZ" prev="i-3Uuhni9QCVHseoiqCFVA6b" next="i-efe2892c89edc870-15">
           <seg xml:id="i-sFpw2ev66pFkiq9Lzbd88">
             lagstiftning, ingångslöner och yrkesutbildningssystem de verkliga
             hindren för
@@ -2200,7 +2190,7 @@
         <note xml:id="i-7PN2pWWtS17DADBNQTFcW2">
           en viss ER hos See - var.länge SSR vi a Hos Uppskov med be-
         </note>
-        <u xml:id="i-efe2892c89edc870-57" who="i-EYtSQeorgj7y8BCPjaqciZ" prev="i-Aq9Ad2RWyLp52Ee3FBe2qN" next="i-JcQLR9fuiTRg7u3yGn9t6m">
+        <u xml:id="i-efe2892c89edc870-57" who="i-EYtSQeorgj7y8BCPjaqciZ" prev="i-Aq9Ad2RWyLp52Ee3FBe2qN">
           <seg xml:id="i-ApDqe8L65oja19osKoLGrS">
             Anna-' reta! ijon, och jag ber att få fram öra miet person iga
             tack örattvi-— svarande av fråga
@@ -2209,14 +2199,10 @@
             har sett den i dag. Behöver arbetsmarknadsministern någon hjälp
             gentemot och interpella-
           </seg>
-        </u>
-        <u xml:id="i-JcQLR9fuiTRg7u3yGn9t6m" who="i-EYtSQeorgj7y8BCPjaqciZ" prev="i-efe2892c89edc870-57" next="i-efe2892c89edc870-58">
           <seg xml:id="i-4kiMvxqDdqr9rmkce3UjmM">
             riksdagen utanförstående intressen skall vi, så länge det är
             fråga om att tioner, m. m.
           </seg>
-        </u>
-        <u xml:id="i-efe2892c89edc870-58" who="i-EYtSQeorgj7y8BCPjaqciZ" prev="i-JcQLR9fuiTRg7u3yGn9t6m">
           <seg xml:id="i-GknSdwpRooU6tufEfvKxxP">
             förstärka marknadsekonomin, alltid ställa upp och hjälpa regeringen.
           </seg>
@@ -2496,7 +2482,7 @@
         <note xml:id="i-BqVTcDNJA7YYYYK4C3UcfJ">
           42
         </note>
-        <u xml:id="i-cdd1633f56c432c5-5" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-cdd1633f56c432c5-1" next="i-QDJ5ku3qdkziqGi1uwhVRP">
+        <u xml:id="i-cdd1633f56c432c5-5" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-cdd1633f56c432c5-1">
           <seg xml:id="i-87xBpv4oHVQEHkLgz1XvFL">
             kulturliv. Förutom genom renodlad kulturpolitik finns en rad
             andra möjligheter att försämra/förbättra för dessa kulturtidskrifter.
@@ -2504,13 +2490,9 @@
             är en försämring som kommer att drabba de relativt små tidskrifterna
             i framtiden.
           </seg>
-        </u>
-        <u xml:id="i-QDJ5ku3qdkziqGi1uwhVRP" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-cdd1633f56c432c5-5" next="i-UEN3Thbt5vgJgYpF6LfHMf">
           <seg xml:id="i-JMQ1s2MFcuJMywYZzqtwk8">
             Mot bakgrund av ovanstående vill jag fråga kulturministern:
           </seg>
-        </u>
-        <u xml:id="i-UEN3Thbt5vgJgYpF6LfHMf" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-QDJ5ku3qdkziqGi1uwhVRP">
           <seg xml:id="i-M8CLJsQfq4ZNrPdAkLDsJx">
             Vad avser kulturministern att göra för att förbättra kulturtidskrifternas
             situation, och kan kulturministern garantera att just kulturtidskrifterna
@@ -2539,7 +2521,7 @@
           571 av Kenth Skårvik (fp) till socialministern om handläggningen
           vid försäkringskassorna av ärenden om yrkesskador:
         </note>
-        <u xml:id="i-9398180f2fd1460c-0" who="i-DMheKZZCYDtLzdvzFzc5vP" next="i-GuTkSmMXjtwsPZaEtNG677">
+        <u xml:id="i-9398180f2fd1460c-0" who="i-DMheKZZCYDtLzdvzFzc5vP">
           <seg xml:id="i-KFa4CWuismZ5ZTUWQQk7Mo">
             Enligt uppgifter i tidningar och radio under senare tid har försäkringskassorna
             svårt att hinna med alla ansökningar om yrkesskador som inlämnats
@@ -2547,8 +2529,6 @@
             sitt ordinarie arbete. Ända upp till två års väntetid sägs råda.
             Mot denna bakgrund vill jag ställa följande fråga till socialministern:
           </seg>
-        </u>
-        <u xml:id="i-GuTkSmMXjtwsPZaEtNG677" who="i-DMheKZZCYDtLzdvzFzc5vP" prev="i-9398180f2fd1460c-0">
           <seg xml:id="i-JuK7PBoYFnjjJVMQGJ7cRL">
             Avser regeringen att vidta några åtgärder i syfte att förkorta
             väntetiderna för besked från försäkringskassorna i ärenden som
@@ -2694,7 +2674,7 @@
         <note xml:id="i-Qyja4xNoGjPiwkHEbHWuFU" type="speaker">
           575 av Margareta Persson (s) till jordbruksministern om livsmedelsproduktionen:
         </note>
-        <u xml:id="i-b30c9138b86e0056-1" who="unknown" next="i-L6ZzAFEK2Qoy2KsadwXjxc">
+        <u xml:id="i-b30c9138b86e0056-1" who="unknown">
           <seg xml:id="i-AwK6SUVpPHmsz75VsNDLow">
             En intensiv diskussion pågår i samhället om våra livsmedel. Allt
             fler forskare konstaterar att födan har stor inverkan på cancerns
@@ -2720,13 +2700,9 @@
             kycklingar måste stimuleras. Skatter, avgifter, prisöverenskommelser
             och olika former av stöd måste förändras.
           </seg>
-        </u>
-        <u xml:id="i-L6ZzAFEK2Qoy2KsadwXjxc" who="unknown" prev="i-b30c9138b86e0056-1" next="i-EfGb2hxmUfSpaR9N75sMUT">
           <seg xml:id="i-Rre7EZEAbhmWovNu44g4JE">
             Med hänvisning till ovanstående vill jag fråga jordbruksministern:
           </seg>
-        </u>
-        <u xml:id="i-EfGb2hxmUfSpaR9N75sMUT" who="unknown" prev="i-L6ZzAFEK2Qoy2KsadwXjxc">
           <seg xml:id="i-KcA3ujCcUZfL8dM7dzSMbQ">
             Ligger det i den nu arbetande livsmedelspolitiska kommitténs
             uppgifter att se över de frågor som berörts ovan?

@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>digital-origin</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">digital-origin</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-Jt9mzpA5o3mtsMH8svWKFs" type="speech">
             <linkGrp type="u">
               <ptr target="#i-41adf9c67d7efe2d-8"/>
@@ -528,7 +528,13 @@
               <ptr target="#i-J8zoVSvdttBgCP5355Btnb"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -575,7 +581,7 @@
         <note xml:id="i-AW9zkwJkuJao6yr7W3t8GJ">
           Interpellationen kommer att besvaras den 2 februari.
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-0" who="unknown">
+        <u xml:id="i-41adf9c67d7efe2d-0" who="unknown" next="i-41adf9c67d7efe2d-1">
           <seg xml:id="i-W5a9fXTr5NbjeNGmuoe4pQ">
             Skälet till dröjsmålet är inbokade resor och engagemang som inte
             kan ändras.
@@ -614,7 +620,7 @@
         <note xml:id="i-RJJaBxXJomU2G9785cswhg">
           Interpellationen kommer att besvaras den 11 februari 2016.
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-1" who="unknown">
+        <u xml:id="i-41adf9c67d7efe2d-1" who="unknown" prev="i-41adf9c67d7efe2d-0" next="i-41adf9c67d7efe2d-3">
           <seg xml:id="i-HxcbR38sxARVJn3ZSHv7kh">
             Skälet till dröjsmålet är redan inbokade engagemang.
           </seg>
@@ -653,7 +659,7 @@
         <note xml:id="i-GwvhQbQUJ5UMYb2rkDDZXu">
           Interpellati onen kommer att besvaras den 11 februari 2016.
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-3" who="unknown">
+        <u xml:id="i-41adf9c67d7efe2d-3" who="unknown" prev="i-41adf9c67d7efe2d-1" next="i-41adf9c67d7efe2d-5">
           <seg xml:id="i-Fh3i4WzcV2dHWwi4J2eWuA">
             Skälet till dröjsmålet är redan inbokade engagemang.
           </seg>
@@ -691,7 +697,7 @@
         <note xml:id="i-7wE83DX745oCxziX3UPRV6">
           Interpellationen kommer att besvaras den 11 februari 2016.
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-5" who="unknown">
+        <u xml:id="i-41adf9c67d7efe2d-5" who="unknown" prev="i-41adf9c67d7efe2d-3">
           <seg xml:id="i-A53zozUtdGt3tT8U9VsWcs">
             Skälet till dröjsmålet är redan inbokade engagemang.
           </seg>
@@ -737,14 +743,12 @@
         <note xml:id="i-JuS3p7Zh8fSBmZRtUe3XWP" type="speaker">
           Anf. 1 Justitie- och migrationsminister MORGAN JOHANSSON (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-8" who="i-UPW2cbGnTUbMZaKTrot5Bh" next="i-41adf9c67d7efe2d-9">
+        <u xml:id="i-41adf9c67d7efe2d-8" who="i-UPW2cbGnTUbMZaKTrot5Bh" next="i-41adf9c67d7efe2d-10">
           <seg xml:id="i-7KJK2yL6KaoTjRsGtMMqN4">
             Herr talman! Edward Riedl har frågat mig vilka initiativ jag
             har tagit för att stärka och anpassa lagstiftningen för att bättre
             skydda individer som har fallit offer för till exempel hämndporrbrott.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-9" who="i-UPW2cbGnTUbMZaKTrot5Bh" prev="i-41adf9c67d7efe2d-8" next="i-41adf9c67d7efe2d-10">
           <seg xml:id="i-QmM18GzJgm94CMVdgVf1Yf">
             Jag vill börja med att betona att det naturligtvis är fullständigt
             oacceptabelt att sprida exempelvis filmade sexuella handlingar
@@ -754,7 +758,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/51F39B8A-7631-41A6-AFE4-E62EBCA58918#page=3"/>
-        <u xml:id="i-41adf9c67d7efe2d-10" who="i-UPW2cbGnTUbMZaKTrot5Bh" prev="i-41adf9c67d7efe2d-9" next="i-41adf9c67d7efe2d-11">
+        <u xml:id="i-41adf9c67d7efe2d-10" who="i-UPW2cbGnTUbMZaKTrot5Bh" prev="i-41adf9c67d7efe2d-8">
           <seg xml:id="i-MZaZBmXxc64M9rQxb3seu6">
             Det är viktigt för regeringen att säkerställa att det finns ett
             fullgott straffrättsligt skydd mot hot och kränkningar oavsett
@@ -766,8 +770,6 @@
             integriteten måste därför vara anpassat till samhällsutvecklingen
             och den moderna tekniken.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-11" who="i-UPW2cbGnTUbMZaKTrot5Bh" prev="i-41adf9c67d7efe2d-10" next="i-41adf9c67d7efe2d-12">
           <seg xml:id="i-NwqQ2ZYpP2uVcLy4DciKrh">
             Att sprida filmer med sexuellt innehåll mot någons vilja är i
             de flesta fall redan i dag straffbart som grovt förtal. Även om
@@ -775,8 +777,6 @@
             det skäl att överväga om det straffrättsliga skyddet är tillräckligt
             starkt.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-12" who="i-UPW2cbGnTUbMZaKTrot5Bh" prev="i-41adf9c67d7efe2d-11" next="i-41adf9c67d7efe2d-13">
           <seg xml:id="i-CGEg5UTR7kaCQTfz6n7s9m">
             En utredning har därför i uppdrag att bland annat lämna förslag
             till hur ett utvidgat straffrättsligt skydd mot spridning av bilder
@@ -785,8 +785,6 @@
             ska också ta ställning till om mer kvalificerade ärekränkningsbrott
             bör kunna ge rätt till brottsskadeersättning.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-13" who="i-UPW2cbGnTUbMZaKTrot5Bh" prev="i-41adf9c67d7efe2d-12">
           <seg xml:id="i-C55HaxJDB72JoeLaew2vNF">
             Utredningen ska redovisa sitt uppdrag i nästa vecka, och jag
             vill int e föregripa den redovisningen. När utredningen väl har
@@ -797,12 +795,10 @@
         <note xml:id="i-7oRMSRj6FaRYd6TcbJyzue" type="speaker">
           Anf. 2 EDWARD RIEDL (M):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-14" who="i-Kc3AcmXkcmGKhXRxHt6DUP" next="i-41adf9c67d7efe2d-15">
+        <u xml:id="i-41adf9c67d7efe2d-14" who="i-Kc3AcmXkcmGKhXRxHt6DUP" next="i-41adf9c67d7efe2d-19">
           <seg xml:id="i-THFca1fL2DhWc3swkwQJUw">
             Herr talman! Tack, ministern, för svaret!
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-15" who="i-Kc3AcmXkcmGKhXRxHt6DUP" prev="i-41adf9c67d7efe2d-14" next="i-41adf9c67d7efe2d-16">
           <seg xml:id="i-51AvWzR1eRrFanytoXUYz9">
             Hämndporr är för många fortfarande ett obekant begrepp. Precis
             som ministern beskriver handlar det oftast om att en kille eller
@@ -813,15 +809,11 @@
             Inte sällan letar sig sedan filmen eller bilden fram till någon
             porrsajt, där den sedan aldrig kommer att kunna raderas.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-16" who="i-Kc3AcmXkcmGKhXRxHt6DUP" prev="i-41adf9c67d7efe2d-15" next="i-41adf9c67d7efe2d-17">
           <seg xml:id="i-VzXYL6WyoKT8PovibGnPeH">
             I dag faller den här typen av brott under det som kallas förtalsbrott.
             Det resulterar i några tusenlappar i böter om killen eller mannen
             fälls.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-17" who="i-Kc3AcmXkcmGKhXRxHt6DUP" prev="i-41adf9c67d7efe2d-16" next="i-41adf9c67d7efe2d-18">
           <seg xml:id="i-8hU8JnnNQ44wqbUy69HY3B">
             Herr talman! Dagens lagstiftning och ministern talar om det här
             i termer av förtalsbrott. Det är en gammal lagstiftning som är
@@ -831,8 +823,6 @@
             säger sig självt att den lagstiftningen i det här sammanhanget
             är omodern och inte anpassad till dagens brottslighet på nätet.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-18" who="i-Kc3AcmXkcmGKhXRxHt6DUP" prev="i-41adf9c67d7efe2d-17" next="i-41adf9c67d7efe2d-19">
           <seg xml:id="i-QZ9NwecoVTaFto7WLGYnzp">
             Hämndporr ska vara ett sexualbrott, inte ett förtalsbrott. Att
             lägga upp en sexfilm med sin före detta flickvän för att hämnas
@@ -846,7 +836,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/51F39B8A-7631-41A6-AFE4-E62EBCA58918#page=4"/>
-        <u xml:id="i-41adf9c67d7efe2d-19" who="i-Kc3AcmXkcmGKhXRxHt6DUP" prev="i-41adf9c67d7efe2d-18" next="i-41adf9c67d7efe2d-20">
+        <u xml:id="i-41adf9c67d7efe2d-19" who="i-Kc3AcmXkcmGKhXRxHt6DUP" prev="i-41adf9c67d7efe2d-14">
           <seg xml:id="i-8Wt3TVbwHK71QceZMHySyw">
             Andra länder såsom Tyskland, Israel, Storbritannien och delar
             av USA har redan förstått hur den här typen av brottslighet skadar
@@ -854,16 +844,12 @@
             betydligt högre böter och fängelsestraff på ända upp till fem
             år.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-20" who="i-Kc3AcmXkcmGKhXRxHt6DUP" prev="i-41adf9c67d7efe2d-19" next="i-41adf9c67d7efe2d-21">
           <seg xml:id="i-CaA1xvpcD4c7vJjVnYp57T">
             Dagens unga i Sverige växer upp i en ständigt uppkopplad värld.
             Smarta telefoner och konstant tillgång till internet gör att den
             digitala världen på många sätt inte längre går att skilja från
             den verkliga, då allt är sammankopplat.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-21" who="i-Kc3AcmXkcmGKhXRxHt6DUP" prev="i-41adf9c67d7efe2d-20" next="i-41adf9c67d7efe2d-22">
           <seg xml:id="i-V9G4hki5F9yR1Vzsgbet1C">
             Dagens lagstiftning ger inte ett tillräckligt gott skydd för
             våra unga, som lever en stor del av sina liv i sociala medier.
@@ -872,8 +858,6 @@
             kalla sexualbrott på internet för just sexualbrott och se till
             att de får en straffpåföljd därefter!
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-22" who="i-Kc3AcmXkcmGKhXRxHt6DUP" prev="i-41adf9c67d7efe2d-21">
           <seg xml:id="i-4VEiBvF3V25MXeZyTzbApG">
             Herr talman! Jag vill tolka ministern som att han kan tänka sig
             att tuffa till lagstiftningen på det här området. Att förstöra
@@ -885,22 +869,18 @@
         <note xml:id="i-69Zf7xcEDZqg1SYBwg7nQi" type="speaker">
           Anf. 3 Justitie- och migrationsminister MORGAN JOHANSSON (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-23" who="i-UPW2cbGnTUbMZaKTrot5Bh" next="i-41adf9c67d7efe2d-24">
+        <u xml:id="i-41adf9c67d7efe2d-23" who="i-UPW2cbGnTUbMZaKTrot5Bh" next="i-41adf9c67d7efe2d-29">
           <seg xml:id="i-8A1nywyRkNQrBbmHfmaRsW">
             Herr talman! Jag tänker inte bara delta i detta; jag tänker försöka
             göra någonting åt det. Jag tror att vi har en gemensam strävan
             i så måtto. Jag delar Edward Riedls resonemang i de allra flesta
             delar.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-24" who="i-UPW2cbGnTUbMZaKTrot5Bh" prev="i-41adf9c67d7efe2d-23" next="i-41adf9c67d7efe2d-25">
           <seg xml:id="i-TTDwsfcoWHaMsawmKmiyPn">
             Dessutom kommer alltså interpellationen sällsynt lägligt eftersom
             jag redan på onsdag i nästa vecka tar emot en utredning som har
             sett över just den här lagstiftningen.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-25" who="i-UPW2cbGnTUbMZaKTrot5Bh" prev="i-41adf9c67d7efe2d-24" next="i-41adf9c67d7efe2d-26">
           <seg xml:id="i-5NGvESc8UDWhPs37AdHw2p">
             Det här är som Edward Riedl säger ett stort och växande problem.
             Vi har en ålderdomlig lagstiftning att förhålla oss till, tillkommen
@@ -913,15 +893,11 @@
             Edward Riedl talar om blir mycket större och gör mycket större
             skada.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-26" who="i-UPW2cbGnTUbMZaKTrot5Bh" prev="i-41adf9c67d7efe2d-25" next="i-41adf9c67d7efe2d-27">
           <seg xml:id="i-QduBrAjjXV4trAsudCLzHt">
             För det första ligger de kvar i evig tid, de här bilderna eller
             filmerna. Människor kanske kan glömma förtal i normala fall, men
             internet glömmer aldrig. Det kommer alltid att finnas där.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-27" who="i-UPW2cbGnTUbMZaKTrot5Bh" prev="i-41adf9c67d7efe2d-26" next="i-41adf9c67d7efe2d-28">
           <seg xml:id="i-DezeebKKDe87aAJDrpgEZZ">
             För det andra kan det nå dig överallt. Du kan flytta från byn
             där du kanske var utsatt för skvaller och förtal, men du kan aldrig
@@ -933,8 +909,6 @@
             inslagen, men det finns många andra inslag. Det här kan förstöra
             människors liv. Så är det.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-28" who="i-UPW2cbGnTUbMZaKTrot5Bh" prev="i-41adf9c67d7efe2d-27" next="i-41adf9c67d7efe2d-29">
           <seg xml:id="i-RcQ6m2m9ad18cZVn3cSaD">
             Vi måste modernisera, stärka och strama åt lagstiftningen. Vi
             måste se till att det här bekämpas på ett bättre sätt. Som jag
@@ -946,15 +920,13 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/51F39B8A-7631-41A6-AFE4-E62EBCA58918#page=5"/>
-        <u xml:id="i-41adf9c67d7efe2d-29" who="i-UPW2cbGnTUbMZaKTrot5Bh" prev="i-41adf9c67d7efe2d-28" next="i-41adf9c67d7efe2d-30">
+        <u xml:id="i-41adf9c67d7efe2d-29" who="i-UPW2cbGnTUbMZaKTrot5Bh" prev="i-41adf9c67d7efe2d-23">
           <seg xml:id="i-BGvTeSYwH6B27k6HpDEDiz">
             Vi behöver också en starkare lagstiftning totalt sett vad gäller
             vilka påföljder förövaren kan drabbas av. Man bör också kunna
             få brottsskadeersättning, tycker jag, om man utsätts för den här
             typen av kränkningar.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-30" who="i-UPW2cbGnTUbMZaKTrot5Bh" prev="i-41adf9c67d7efe2d-29">
           <seg xml:id="i-3GjF2MK3xtjpMMkgpAReuM">
             Vi får som sagt ett förslag i nästa vecka. Det blir sedvanlig
             remissperiod på det, och sedan kommer jag så fort som möjligt
@@ -966,7 +938,7 @@
         <note xml:id="i-PfyS8JnKqiUtaCuqr1CV5m" type="speaker">
           Anf. 4 EDWARD RIEDL (M):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-31" who="i-Kc3AcmXkcmGKhXRxHt6DUP" next="i-41adf9c67d7efe2d-32">
+        <u xml:id="i-41adf9c67d7efe2d-31" who="i-Kc3AcmXkcmGKhXRxHt6DUP">
           <seg xml:id="i-3R8RhwtaH5BLTCF7yyVp7r">
             Herr talman! Hämnd porr kan vara både rörliga bilder och stillbilder,
             smygtagna eller frivilliga. Det kan vara stulna bilder, och de
@@ -975,8 +947,6 @@
             gör materialet publikt på internet. Den typen av bilder och filmer
             hamnar sedan på porrsajter där de aldrig kan tas bort.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-32" who="i-Kc3AcmXkcmGKhXRxHt6DUP" prev="i-41adf9c67d7efe2d-31" next="i-41adf9c67d7efe2d-33">
           <seg xml:id="i-WSF2weBWbcTR67Eug9Yyj">
             Problemet är att spridning av sådana filmer och bilder i dagens
             lagstiftning behandlas som förtalsbrott – jag noterar att ministern
@@ -984,8 +954,6 @@
             att vi ska kalla sexualbrott för vad det är, nämligen just sexualbrott
             och inte förtal.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-33" who="i-Kc3AcmXkcmGKhXRxHt6DUP" prev="i-41adf9c67d7efe2d-32" next="i-41adf9c67d7efe2d-34">
           <seg xml:id="i-3bi79NNipKxLhhSP37QBxi">
             Vi måste göra om lagstiftningen, och det måste ske så fort som
             möjligt. Att förstöra en ung människas liv och det sedan resulterar
@@ -995,8 +963,6 @@
             drabba precis vilken ung människa som helst som växer upp i vårt
             samhälle i dag.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-34" who="i-Kc3AcmXkcmGKhXRxHt6DUP" prev="i-41adf9c67d7efe2d-33" next="i-41adf9c67d7efe2d-35">
           <seg xml:id="i-MHwmq8hYvNe4NYqxZnmeNJ">
             Ministern beskrev det hela på ett bra sätt. Lagstiftningen togs
             fram i en tid när den skulle hantera skvaller på bygden. Så ser
@@ -1007,23 +973,17 @@
             på gick det ryktet att flytta ifrån, även om det inte var optimalt.
             Det gick att ta sig bort från det.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-35" who="i-Kc3AcmXkcmGKhXRxHt6DUP" prev="i-41adf9c67d7efe2d-34" next="i-41adf9c67d7efe2d-36">
           <seg xml:id="i-TsJ6FR9nxh5MWwXgJSQqWc">
             Internet finns där för evigt, och allt som hamnat där finns också
             för evigt. Det gör att det hela blir så mycket värre och vittnar
             om varför vi så fort som möjligt måste göra något åt det.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-36" who="i-Kc3AcmXkcmGKhXRxHt6DUP" prev="i-41adf9c67d7efe2d-35" next="i-41adf9c67d7efe2d-37">
           <seg xml:id="i-NNmxqL4brfRk2edYeGnao">
             Den unga flickan kanske inte ens vet om att hon har blivit fotograferad
             eller filmad. Hon behöver inte ha annat riskbeteende än att vara
             tillsammans med en kille i unga år. Det kan vara nog för att råka
             ut för detta om hon har oturen att träffa fel kille.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-37" who="i-Kc3AcmXkcmGKhXRxHt6DUP" prev="i-41adf9c67d7efe2d-36" next="i-41adf9c67d7efe2d-38">
           <seg xml:id="i-RBK7omqsvkFuhHzNd6Sq3D">
             Herr talman! Jag har lämnat ett förslag till riksdagen som ska
             behandlas under innevarande riksmöte. Ingen blir gladare än jag
@@ -1032,8 +992,6 @@
             del av den lagstiftning som måste till för att hantera den nya
             typen av brottslighet som förekommer på internet.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-38" who="i-Kc3AcmXkcmGKhXRxHt6DUP" prev="i-41adf9c67d7efe2d-37">
           <seg xml:id="i-BnoQNeb65gcEuL1sMKG9cM">
             Jag vill vara tydlig med att vi måste få en lagstiftning som
             säger vad det är fråga om. Det är fråga om sexualbrott, inte förtalsbrott.
@@ -1045,13 +1003,11 @@
         <note xml:id="i-HQiVpU13fA889XwqT3i3P3" type="speaker">
           Anf. 5 Justitie- och migrationsminister MORGAN JOHANSSON (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-39" who="i-UPW2cbGnTUbMZaKTrot5Bh" next="i-41adf9c67d7efe2d-40">
+        <u xml:id="i-41adf9c67d7efe2d-39" who="i-UPW2cbGnTUbMZaKTrot5Bh">
           <seg xml:id="i-52T9uAxkHxoYxGGCAYmv9b">
             Herr talman! Jag tror inte att vi står särskilt långt ifrån varandra.
             Det är en uppgift som vi får ta oss an gemensamt.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-40" who="i-UPW2cbGnTUbMZaKTrot5Bh" prev="i-41adf9c67d7efe2d-39" next="i-41adf9c67d7efe2d-41">
           <seg xml:id="i-QQWKCK2BLMLP3M6XzZRdyH">
             Det handlar om att ta fram en ny lagstiftning som är modern och
             stramare och som ser strängare på den typen av handlingar än den
@@ -1059,8 +1015,6 @@
             gärningsman, och brottsoffret är oftast kvinna, i många fall en
             yngre kvinna.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-41" who="i-UPW2cbGnTUbMZaKTrot5Bh" prev="i-41adf9c67d7efe2d-40" next="i-41adf9c67d7efe2d-42">
           <seg xml:id="i-LQRDeD6rp5KDTyZZKbofLU">
             Det går inte bara igen i den typ av handlingar som vi nu talar
             om, att män lägger ut sexfilmer eller nakenbilder på sina tidigare
@@ -1070,15 +1024,11 @@
             för på internet i form av hotfulla och kränkande mejl och även
             skvaller, förtal och annat elände.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-42" who="i-UPW2cbGnTUbMZaKTrot5Bh" prev="i-41adf9c67d7efe2d-41" next="i-41adf9c67d7efe2d-43">
           <seg xml:id="i-9S9JZwE7McnCa6j32S229q">
             Det finns anledning att ta mycket allvarligt på detta. Det var
             bakgrunden till att utredningen tillsattes, den som jag tar emot
             nästa vecka. Då ska man även se till den typen av brott.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-43" who="i-UPW2cbGnTUbMZaKTrot5Bh" prev="i-41adf9c67d7efe2d-42" next="i-41adf9c67d7efe2d-44">
           <seg xml:id="i-Mi3WtzvyBfoEmuJwqWciw">
             Det finns inte mycket mer att säga än att vi ska modernisera
             lagstiftningen. Vi ska öppna upp för att få brott s skadeersättning
@@ -1088,8 +1038,6 @@
             dessa frågor. Det arbetet är redan inlett och går in i sitt avgörande
             skede nästa vecka.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-44" who="i-UPW2cbGnTUbMZaKTrot5Bh" prev="i-41adf9c67d7efe2d-43">
           <seg xml:id="i-RNQ2Fkf5mMAkzkVpUMEkiF">
             Jag återkommer till riksdagen så fort som möjligt med förslag
             till ny lagstiftning.
@@ -1098,7 +1046,7 @@
         <note xml:id="i-CYt6fzTUaYoJcaBWnCxmTF" type="speaker">
           Anf. 6 EDWARD RIEDL (M):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-45" who="i-Kc3AcmXkcmGKhXRxHt6DUP" next="i-41adf9c67d7efe2d-46">
+        <u xml:id="i-41adf9c67d7efe2d-45" who="i-Kc3AcmXkcmGKhXRxHt6DUP">
           <seg xml:id="i-3zHGjs8xSDheZ1wwfPRkw8">
             Herr talman! Jag vill passa på att säga att man får vara glad
             att det finns politiska frågeställningar där vi står nära varandra.
@@ -1108,8 +1056,6 @@
             har ändrat förutsättningarna för mycket av den brottslighet vi
             nu debatterar.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-46" who="i-Kc3AcmXkcmGKhXRxHt6DUP" prev="i-41adf9c67d7efe2d-45" next="i-41adf9c67d7efe2d-47">
           <seg xml:id="i-9gmg1ZJc4c11uHjpeHPLQj">
             Jag vill på intet sätt förminska de kränkningar som sker på internet,
             men som jag sagt tidigare är det viktigt att vi inser att man
@@ -1120,8 +1066,6 @@
             brott. Det handlar om att människor utsätts för gärningar som
             är svåra att läka, på samma sätt som våldtäkter i övrigt.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-47" who="i-Kc3AcmXkcmGKhXRxHt6DUP" prev="i-41adf9c67d7efe2d-46" next="i-41adf9c67d7efe2d-48">
           <seg xml:id="i-GxVGerXyCiSifMEdrFisPG">
             Jag tolkar ministern så att vi är på väg i samma riktning, och
             jag hoppas därför att man kommer att kalla sexualbrott för vad
@@ -1129,8 +1073,6 @@
             sexualbrott, och det måste tydligt framgå i lagstiftningen. Det
             har betydelse för påföljderna och för mycket annat.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-48" who="i-Kc3AcmXkcmGKhXRxHt6DUP" prev="i-41adf9c67d7efe2d-47">
           <seg xml:id="i-T9ugxc8Th4uL7WTwyU7v98">
             Jag vill tacka ministern för en bra diskussion och hoppas att
             vi kommer framåt ännu mer vad gäller dessa frågor.
@@ -1140,7 +1082,7 @@
         <note xml:id="i-QL8eR7EsCPGXPQhwCVmeAr" type="speaker">
           Anf. 7 Justitie- och migrationsminister MORGAN JOHANSSON (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-49" who="i-UPW2cbGnTUbMZaKTrot5Bh" next="i-41adf9c67d7efe2d-50">
+        <u xml:id="i-41adf9c67d7efe2d-49" who="i-UPW2cbGnTUbMZaKTrot5Bh">
           <seg xml:id="i-BK7oDKRagUpBFwQmHjC51k">
             Herr talman! Det här är frågor där vi inte har stått långt ifrån
             varandra. Tvärtom har vi jobbat till sammans med dem. Under förra
@@ -1150,8 +1092,6 @@
             något som vi arbetat länge med och som jag vet att det finns ett
             brett stöd för i riksdagen.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-50" who="i-UPW2cbGnTUbMZaKTrot5Bh" prev="i-41adf9c67d7efe2d-49">
           <seg xml:id="i-PsqHqCfAT9YpGbJ9bau1AK">
             Jag vill tacka för debatten. Vi kommer att återkomma efter sedvanlig
             remisstid och den process som vi då har framför oss. Sedan jobbar
@@ -1169,37 +1109,29 @@
         <note xml:id="i-87Swb8a6vFrPYkqpNkGvN7" type="speaker">
           Anf. 8 Försvarsminister PETER HULTQVIST (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-51" who="i-KTYc2rBrcxPNyJRR5s4dQD" next="i-41adf9c67d7efe2d-52">
+        <u xml:id="i-41adf9c67d7efe2d-51" who="i-KTYc2rBrcxPNyJRR5s4dQD">
           <seg xml:id="i-XfyN68ArxxZrhTATtxBM98">
             Herr talman! Allan Widman har frågat mig vilka åtgärder jag är
             beredd att vidta för att Veteranutredningens förslag ska omsättas
             i regeringsbeslut respektive lagstiftningsförslag.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-52" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-41adf9c67d7efe2d-51" next="i-41adf9c67d7efe2d-53">
           <seg xml:id="i-FmKMu63ZbhtuVQfCkEUVvT">
             Låt mig inledningsvis betona vikten av att alla veteraner och
             deras anhöriga ges ett anpassat och ändamålsenligt stöd. Utgångspunkten
             är att all personal som på statens uppdrag sänds ut i farlig internationell
             verksamhet bör ges ett sådant stöd före, under och efter tjänstgöringen.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-53" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-41adf9c67d7efe2d-52" next="i-41adf9c67d7efe2d-54">
           <seg xml:id="i-3E73dJrKu9AKwWxePpG6cg">
             Veteranutredningen har lagt fram sitt slutbetänkande Svensk veteranpolitik
             – Ett ansvar för hela samhället (SOU 2014:27). Remitteringen av
             betänkandet är avslutad, remissvaren är sammanställda och det
             bereds vidare i Regeringskansliet.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-54" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-41adf9c67d7efe2d-53" next="i-EMo3yzsvsXXTrftovq7XcQ">
           <seg xml:id="i-NfF3g9GAWbLay7u5ePbUn2">
             Även försvarsutskottet har betonat att ansvaret för veteranfrågor
             bör tydliggöras och ser därför att det finns behov av att inrätta
             ett centrum för veteranfrågor inom Försvarsmakten.
           </seg>
-        </u>
-        <u xml:id="i-EMo3yzsvsXXTrftovq7XcQ" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-41adf9c67d7efe2d-54" next="i-41adf9c67d7efe2d-55">
           <seg xml:id="i-JciUhuAPnAPS1oNo9R6ZSH">
             Försvarsmakten arbetar på regeringens uppdrag löpande med att
             utveckla arbetet med veteran- och anhörigfrågor inom sitt ansvar
@@ -1210,8 +1142,6 @@
             inom sitt ansvarsområde. Försvarsmakten ska även i årsredovisningen
             för 2016 redovisa genomfört arbete med veteran- och anhörigfrågor.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-55" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-EMo3yzsvsXXTrftovq7XcQ">
           <seg xml:id="i-iWv5gSJWyvNo1L2zYQNU7">
             I regleringsbrevet för 2016 har regeringen också gett Försvarsmakten
             i uppdrag att senast i samband med delårsrapporten redovisa ett
@@ -1226,12 +1156,10 @@
         <note xml:id="i-JcwZ4wiK3cgs7vuCDdCWtW" type="speaker">
           Anf. 9 ALLAN WIDMAN (L):
         </note>
-        <u xml:id="i-K7dwzYKJ6HVZWQnZSByzuM" who="i-BUYvEhrSc9gnHcd6iS4eDJ" next="i-41adf9c67d7efe2d-56">
+        <u xml:id="i-K7dwzYKJ6HVZWQnZSByzuM" who="i-BUYvEhrSc9gnHcd6iS4eDJ">
           <seg xml:id="i-XM5zG8GLF333JS6u698dwe">
             Herr talman! Tack, försvarsministern, för svaret på interpellationen!
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-56" who="i-BUYvEhrSc9gnHcd6iS4eDJ" prev="i-K7dwzYKJ6HVZWQnZSByzuM" next="i-41adf9c67d7efe2d-57">
           <seg xml:id="i-G1Axh9SXk3WbqTDGBcLZ3S">
             I det svar som försvarsministern ger betonar han att försvarsutskottet
             också har engagerat sig i frågan. Han säger att utskottet har
@@ -1239,8 +1167,6 @@
             att det finns behov av att inrätta ett centrum för veteranfrågor
             inom Försvarsmakten.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-57" who="i-BUYvEhrSc9gnHcd6iS4eDJ" prev="i-41adf9c67d7efe2d-56" next="i-41adf9c67d7efe2d-58">
           <seg xml:id="i-V5rtZHSS5VBiZ3RmyW6q8p">
             Herr talman! Jag vill hävda att detta inte är i alla delar korrekt.
             Jag nödgas därför citera ut försvarsutskottets betänkande n r
@@ -1253,15 +1179,11 @@
             militära veteraner. Detta är en viktig roll för ett veterancentrum.
             Vad utskottet angett bör ges regeringen till känna.”
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-58" who="i-BUYvEhrSc9gnHcd6iS4eDJ" prev="i-41adf9c67d7efe2d-57" next="i-41adf9c67d7efe2d-59">
           <seg xml:id="i-MGCU7ek6cXdauk8WTMz7Ah">
             Således har försvarsutskottet i sitt tillkännagivande inte pekat
             ut att ett veteranscentrum skulle ligga inom Försvarsmakten som
             myndighet. Skälen för detta är egentligen två.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-59" who="i-BUYvEhrSc9gnHcd6iS4eDJ" prev="i-41adf9c67d7efe2d-58" next="i-41adf9c67d7efe2d-60">
           <seg xml:id="i-Dy9uaYg28wdgTXtW4jMhLJ">
             Det första skälet är att veteranpolitiken nu alltså har föreslagits
             omfatta också civila veteraner. Då talar vi om räddningstjänstpersonal
@@ -1276,8 +1198,6 @@
             att se att henne s upplevelser närmast på pricken stämde överens
             med de upplevelser som soldater tar med sig hem från Afghanistan.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-60" who="i-BUYvEhrSc9gnHcd6iS4eDJ" prev="i-41adf9c67d7efe2d-59" next="i-41adf9c67d7efe2d-61">
           <seg xml:id="i-TgJft7sKKn5RUE6drLURF8">
             Problemet är att om man lägger ett veterancentrum under Försvarsmakten
             kommer få civila myndigheter och arbetsgivare att känna sig lockade
@@ -1289,8 +1209,6 @@
             sig och hur de mår. Vi vet att många av dem söker sig till personer
             och ställen där de kan vara anonyma.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-61" who="i-BUYvEhrSc9gnHcd6iS4eDJ" prev="i-41adf9c67d7efe2d-60">
           <seg xml:id="i-2k9B3Zj7dK4iGuwpS3nAWU">
             Herr talman! Sten Tolgfors lyckades med prestationen att samla
             alla berörda departement – både Försvarsdepartementet och de civila
@@ -1314,7 +1232,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/51F39B8A-7631-41A6-AFE4-E62EBCA58918#page=9"/>
-        <u xml:id="i-41adf9c67d7efe2d-63" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-41adf9c67d7efe2d-62" next="i-41adf9c67d7efe2d-64">
+        <u xml:id="i-41adf9c67d7efe2d-63" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-41adf9c67d7efe2d-62">
           <seg xml:id="i-PsZmuEGRpiNVRUkmnTHizY">
             Vi har responderat, tycker vi, på de synpunkter och förslag som
             har lagts fram genom att nu i ett regleringsbrev ställa kravet
@@ -1322,8 +1240,6 @@
             till veterancentrum. Det är för att vi ska komma i gång på något
             sätt i den här processen.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-64" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-41adf9c67d7efe2d-63" next="i-41adf9c67d7efe2d-65">
           <seg xml:id="i-TrWNLfh4oQLREjuYnFCaaN">
             Vi har också markerat att ett sådant centrum i så fall bör arbeta
             myndighetsöverskridande. Hur man väljer att driva en sådan här
@@ -1335,8 +1251,6 @@
             avvakta med utsagor, utöver hur detta eventuellt kan antas slå,
             intill dess att jag har sett ett förslag från Försvarsmakten.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-65" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-41adf9c67d7efe2d-64" next="i-41adf9c67d7efe2d-66">
           <seg xml:id="i-J8nEA1Qj9XVw7odXK4dHS5">
             När det gäller själva myndighetsdelen kan jag bara notera vad
             jag ser i remissvaren. Försvarsmakten, FMV, MSB, Socialstyrelsen,
@@ -1344,31 +1258,23 @@
             en fristående myndighet. Då vill jag analysera vad detta står
             för.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-66" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-41adf9c67d7efe2d-65" next="i-41adf9c67d7efe2d-67">
           <seg xml:id="i-LW2VoXV3w3ozNNMTGPAqvi">
             Vi måste bygga effektiva strukturer. Vi får inte skapa en situation
             där en myndighet som har skickat ut en person på ett uppdrag plötsligen
             frånträder ansvaret för det som kommer efteråt. Det är inte en
             rimlig utveckling. Detta får man väga in när man tittar på detta.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-67" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-41adf9c67d7efe2d-66" next="i-41adf9c67d7efe2d-68">
           <seg xml:id="i-EgjpHzA4667kGo6kyCReVK">
             I samband med att vi etablerar den här typen av verksamhet ska
             vi inte heller åstadkomma någon form av överflöd eller extra administration,
             utan vi måste se till att detta upplevs som nära, effektivt och
             starkt serviceinriktat.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-68" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-41adf9c67d7efe2d-67" next="i-41adf9c67d7efe2d-69">
           <seg xml:id="i-4DoXmVw9GAnyQFq1WPSj3u">
             De flesta veteraner finns trots allt inom Försvarsmakten. Det
             är ett av motiven till att vi nu begär att Försvarsmakten ska
             återkomma i den här frågan.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-69" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-41adf9c67d7efe2d-68" next="i-41adf9c67d7efe2d-70">
           <seg xml:id="i-9xADPEpiVrndgZ8D94P2jG">
             Vi kommer att jobba vidare med detta på ett konstruktivt sätt.
             Jag ser inte heller att det finns några djupare motsättningar
@@ -1377,8 +1283,6 @@
             sätt. Sedan gäller det nu att hitta fram till den organisatoriska
             formen.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-70" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-41adf9c67d7efe2d-69">
           <seg xml:id="i-hd2PjYbnqqYXTvZymr8jF">
             Vi kommer nu att avvakta det förslag som Försvarsmakten tar fram.
             Sedan får vi utifrån detta se hur vi går vidare. Jag har inga
@@ -1391,15 +1295,13 @@
         <note xml:id="i-7DnAHMLQDW7oDmGyz6hCws" type="speaker">
           Anf. 11 ALLAN WIDMAN (L):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-71" who="i-BUYvEhrSc9gnHcd6iS4eDJ" next="i-41adf9c67d7efe2d-72">
+        <u xml:id="i-41adf9c67d7efe2d-71" who="i-BUYvEhrSc9gnHcd6iS4eDJ" next="i-41adf9c67d7efe2d-73">
           <seg xml:id="i-4kL1bVGKq8uNtNsR4LFrvK">
             Herr talman! Jag tror att försvarsministern just tangerade något
             väldigt viktigt, nämligen att detta på den politiska nivån inte
             är ett konfliktfyllt område på något sätt. Men det är känsligt
             när man kommer ned på myndighetsnivå.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-72" who="i-BUYvEhrSc9gnHcd6iS4eDJ" prev="i-41adf9c67d7efe2d-71" next="i-41adf9c67d7efe2d-73">
           <seg xml:id="i-5xFgCudHNT3CzwdDUSGpFV">
             Försvarsministern sa att i remissomgången har olika myndigheter
             sagt att de inte vill frånträda ansvaret för sin personal. Det
@@ -1414,7 +1316,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/51F39B8A-7631-41A6-AFE4-E62EBCA58918#page=10"/>
-        <u xml:id="i-41adf9c67d7efe2d-73" who="i-BUYvEhrSc9gnHcd6iS4eDJ" prev="i-41adf9c67d7efe2d-72" next="i-41adf9c67d7efe2d-74">
+        <u xml:id="i-41adf9c67d7efe2d-73" who="i-BUYvEhrSc9gnHcd6iS4eDJ" prev="i-41adf9c67d7efe2d-71">
           <seg xml:id="i-9SXpo5Qz9RJJve9JzW3Hzm">
             I utredningen fanns Socialdepartementet, Justitiedepartementet,
             Utbildningsdepartementet och Försvarsdepartementet representerade,
@@ -1427,16 +1329,12 @@
             Bernadotteakademin, men då sa naturligtvis Försvarsmakten att
             det aldrig kommer på fråga.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-74" who="i-BUYvEhrSc9gnHcd6iS4eDJ" prev="i-41adf9c67d7efe2d-73" next="i-41adf9c67d7efe2d-75">
           <seg xml:id="i-C6YHgduZ4eT1rKNHRHRDsR">
             Därför landade vi i den enda praktiska lösningen i denna konfliktfyllda
             miljö, nämligen att lägga det mitt emellan alla myndigheterna
             och sedan låta de arbetsgivande myndigheterna sitta i styrelsen
             för det här centrumet.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-75" who="i-BUYvEhrSc9gnHcd6iS4eDJ" prev="i-41adf9c67d7efe2d-74" next="i-41adf9c67d7efe2d-76">
           <seg xml:id="i-TYSyt935DAKnvMAcze46Mo">
             Det tål väl att påpekas, herr talman, att just den lösningen
             med ett fristående centrum, som tyvärr av grundlagsskäl måste
@@ -1444,8 +1342,6 @@
             ingen som helst avvikande mening bland alla de myndighetsföreträdare
             eller departementsföreträdare som var representerade.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-76" who="i-BUYvEhrSc9gnHcd6iS4eDJ" prev="i-41adf9c67d7efe2d-75">
           <seg xml:id="i-CJR7KYgcgYq5MnRLSyLreJ">
             Jag lyssnar noga på vad försvarsministern säger. Jag vill gärna
             ha sagt, herr talman, att försvarsministern har gjort en mycket
@@ -1463,14 +1359,12 @@
         <note xml:id="i-PDMBzCxEESVtAoS495SMzu" type="speaker">
           Anf. 12 Försvarsminister PETER HULTQVIST (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-77" who="i-KTYc2rBrcxPNyJRR5s4dQD" next="i-41adf9c67d7efe2d-78">
+        <u xml:id="i-41adf9c67d7efe2d-77" who="i-KTYc2rBrcxPNyJRR5s4dQD">
           <seg xml:id="i-5MUu78y57cpgynqj6TkRdi">
             Herr talman! Jag vet att jag har någon extra replikmöjlighet,
             men det känns lite grann som att vi har klarat ut väsentligheterna
             i den här debatten.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-78" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-41adf9c67d7efe2d-77" next="i-41adf9c67d7efe2d-79">
           <seg xml:id="i-5Vd6EYYbqmxgCeukxUVp5h">
             Vi får nu det här förslaget från Försvarsmakten. Jag är beredd
             att därefter möta utskottet för en diskussion – eller om vi tar
@@ -1479,16 +1373,12 @@
             får vi väl på olika sätt försöka se till att vi får till stånd
             en verksamhet som fyller ändamålen.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-79" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-41adf9c67d7efe2d-78" next="i-41adf9c67d7efe2d-80">
           <seg xml:id="i-Jwc4bSCgFnehTwj5ZjrPj">
             Jag delar uppfattningen att vi måste jobba myndighetsöverskridande
             och att det vi gör måste vara öppet på bredden. Däremot har jag
             inte låst mig vid den organisatoriska formen. Vi får se hur de
             olika utfall vi har framför oss kommer att se ut.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-80" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-41adf9c67d7efe2d-79">
           <seg xml:id="i-7NG54jX5GWdPSTi8ebcf6C">
             Jag får tacka för en konstruktiv fråga. Det är en debatt som
             egentligen handlar om att vi båda vill lösa problemet på något
@@ -1545,7 +1435,7 @@
         <note xml:id="i-2ZvMRtxoXfrECcxfo7vg7F" type="speaker">
           Anf. 15 ANNA KINBERG BATRA (M):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-85" who="i-CajxChHCyySL6R6AQNT1bF" next="i-41adf9c67d7efe2d-86">
+        <u xml:id="i-41adf9c67d7efe2d-85" who="i-CajxChHCyySL6R6AQNT1bF">
           <seg xml:id="i-JRhWKueuk2QG9nGFRfLBo">
             Herr talman! Statsministern! Sverige har varit känt för sin starka
             ekonomi, men nu går utvecklingen åt fel håll. Vi ser hur underskotten
@@ -1553,8 +1443,6 @@
             personer riskerar varaktig arbetslöshet om ingenting görs åt integrationen.
             Och vi ser hur regeringen saknar en plan.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-86" who="i-CajxChHCyySL6R6AQNT1bF" prev="i-41adf9c67d7efe2d-85" next="i-41adf9c67d7efe2d-87">
           <seg xml:id="i-Gt3aN5Jme9y987g4YFCTQP">
             Sverige behöver ledarskap och reformer för att ta tag i viktiga
             utmaningar: för att få fler i arbete, för att stärka skolan och
@@ -1567,8 +1455,6 @@
             Magdalena Andersson sa att regeringen är öppen för att lyssna.
             Arbetsmarknadsminister Ylva Johansson sa att detta inte är genomtänkt.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-87" who="i-CajxChHCyySL6R6AQNT1bF" prev="i-41adf9c67d7efe2d-86">
           <seg xml:id="i-7zS7qgPBLjLGyCeoCfh3qL">
             Det är uppenbart att regeringen saknar en sammanhållen plan för
             Sverige, men jag vill passa på att fråga statsministern här och
@@ -1595,7 +1481,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/51F39B8A-7631-41A6-AFE4-E62EBCA58918#page=12"/>
-        <u xml:id="i-41adf9c67d7efe2d-89" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-88" next="i-41adf9c67d7efe2d-90">
+        <u xml:id="i-41adf9c67d7efe2d-89" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-88">
           <seg xml:id="i-J8UNeTv2K6wwexPwdtLDnx">
             Vad är det då vi har gjort? Vi har börjat med att se till att
             halvera underskottet för att ha ett handlingsutrymme. Det behöver
@@ -1609,8 +1495,6 @@
             stödet för kommunernas mottagande av asylsökande och barn som
             går i skolan. Vi har vidtagit en rad åtgärder.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-90" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-89">
           <seg xml:id="i-6wtNgDoC98ueu5mHfTmKUP">
             Men samhällsbygget kommer också i framtiden att kräva att vi
             får skatteintäkter och att vi har ordning och reda i finanserna.
@@ -1623,15 +1507,13 @@
         <note xml:id="i-UcbaWHYZMHzYCFNZU2X4qX" type="speaker">
           Anf. 17 ANNA KINBERG BATRA (M):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-91" who="i-CajxChHCyySL6R6AQNT1bF" next="i-41adf9c67d7efe2d-92">
+        <u xml:id="i-41adf9c67d7efe2d-91" who="i-CajxChHCyySL6R6AQNT1bF">
           <seg xml:id="i-5FSY2Jo5SktJnMSpZW3VRK">
             Herr talman! Jag kanske ska börja med att upplysa statsministern
             om att det i år är tio år sedan 2006. Det är också snart två år
             sedan det senast var valrörelse, den tid då den retorik som statsministern
             använder kanske hade passat lite bättre.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-92" who="i-CajxChHCyySL6R6AQNT1bF" prev="i-41adf9c67d7efe2d-91" next="i-41adf9c67d7efe2d-93">
           <seg xml:id="i-PPTtCbsT9NaGhkbsdzyxgN">
             Nu står jag här och talar om de närmaste åren. Underskotten ökar
             redan nu och ser ut att öka med över 90 miljarder. Jag har konkreta
@@ -1640,8 +1522,6 @@
             konkreta förslag, och det är därför jag undrar om statsministern
             är beredd att ta dem på större allvar.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-93" who="i-CajxChHCyySL6R6AQNT1bF" prev="i-41adf9c67d7efe2d-92">
           <seg xml:id="i-WGenipKN5qcgw61p6VB5Rj">
             Jag har en plan för Sverige – för att vi ska kunna koppla ett
             fastare grepp om statsfinanserna innan det är för sent och för
@@ -1652,15 +1532,13 @@
         <note xml:id="i-NQ1EBwgio5t2iWBd7k4fiM" type="speaker">
           Anf. 18 Statsminister STEFAN LÖFVEN (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-94" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-95">
+        <u xml:id="i-41adf9c67d7efe2d-94" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1">
           <seg xml:id="i-4AP6VywgGPLRxHPJXvCwG9">
             Herr talman! Det här är ingen retorik utan sanning. Det är dagens
             sanning att ni lämnade efter er ett underskott på ungefär 70 miljarder.
             Det fick vi ärva. Vi har halverat det, och detta har gett oss
             ett handlingsutrymme.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-95" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-94" next="i-41adf9c67d7efe2d-96">
           <seg xml:id="i-QzVjKeMEihbCuueuTW2Yuz">
             Det vi nu står inför är ett samhällsbygge som är en stor möjlighet
             för Sverige. Men det kommer att kräva investeringar. Vad har då
@@ -1669,8 +1547,6 @@
             spelar ingen roll om det är sol eller regn – det är skattesänkningar
             ni ska göra. Nu har ni nya.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-96" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-95">
           <seg xml:id="i-9nbADeYCRyz7jYGio41Wr5">
             När vi nu står inför detta samhällsbygge, vad gör ni då? Jo,
             ni föreslår nedskärningar. Ni har en lista på 25 miljarder i nedskärningar
@@ -1689,7 +1565,7 @@
         <note xml:id="i-W84tjBDzQ86mEgdFoJ3Spt" type="speaker">
           Anf. 19 JIMMIE ÅKESSON (SD):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-98" who="i-DCyBt1A1WiAhi5tm5k4A7H" next="i-41adf9c67d7efe2d-99">
+        <u xml:id="i-41adf9c67d7efe2d-98" who="i-DCyBt1A1WiAhi5tm5k4A7H">
           <seg xml:id="i-BTgU34U5iNEUP52rbxoMqC">
             Herr talman! Statsministern! Den kris som är kopplad till den
             senaste tidens flyktingsituation och regeringens ansvarslösa politik
@@ -1706,8 +1582,6 @@
             i hur många inlägg som helst och räkna upp oerhörda problem som
             regeringens ansvarslösa politik har skapat.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-99" who="i-DCyBt1A1WiAhi5tm5k4A7H" prev="i-41adf9c67d7efe2d-98" next="i-41adf9c67d7efe2d-100">
           <seg xml:id="i-LkkKVoj4nCrv7qprtpqXYa">
             Sedan ska man i ärlighetens namn säga att regeringen under den
             senaste tiden har vidtagit en del åtgärder för att minska asyltrycket
@@ -1715,8 +1589,6 @@
             ambitionen. Asyltrycket måste minska. Det måste komma färre till
             Sverige.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-100" who="i-DCyBt1A1WiAhi5tm5k4A7H" prev="i-41adf9c67d7efe2d-99" next="i-41adf9c67d7efe2d-101">
           <seg xml:id="i-T9foZKtpizkQHcvxKN7SA5">
             I rak motsats till det har regeringen i dag fattat beslut om
             en utredning om fler lagliga vägar att söka asyl. Fler lagliga
@@ -1724,8 +1596,6 @@
             om det blir lättare att söka asyl innebär det rimligen att det
             kommer fler.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-101" who="i-DCyBt1A1WiAhi5tm5k4A7H" prev="i-41adf9c67d7efe2d-100">
           <seg xml:id="i-PnH1sMJPrA2yiGgVXxvNL4">
             Jag får inte ihop det här, herr talman. Hur tänker man? Hur rimmar
             detta med den ambition som bland annat migrationsministern gett
@@ -1735,7 +1605,7 @@
         <note xml:id="i-5dH3zq2188QB7ntWkPtyFa" type="speaker">
           Anf. 20 Statsminister STEFAN LÖFVEN (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-102" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-103">
+        <u xml:id="i-41adf9c67d7efe2d-102" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-106">
           <seg xml:id="i-K4ARxjZSNArmnHeHhCux2m">
             Herr talman! Det var ett lite blandat inlägg. Låt mig börja med
             välfärden och ekonomin. Vi har i grunden i Sverige bra förutsättningar
@@ -1745,8 +1615,6 @@
             Men vi har samhällsbygget i dess helhet framför oss. Bland annat
             måste över 700 000 bostäder byggas.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-103" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-102" next="i-41adf9c67d7efe2d-104">
           <seg xml:id="i-JWPuAZqSCyfFDTfCEXrpDD">
             Till det krävs det skatteintäkter. Det krävs också resurser i
             våra kommuner. Därför haltar Sverigedemokraternas resonemang betänkligt.
@@ -1754,8 +1622,6 @@
             människa borde få korsa våra gränser. Men dessutom , Jimmie Åkesson,
             vill ni ta bort 90 miljarder kronor från kommunerna.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-104" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-103" next="i-41adf9c67d7efe2d-105">
           <seg xml:id="i-Mj7ShdqjsX92gDiW9X8HqA">
             Min fråga är: Hur tror ni att det blir bättre om man tar 90 miljarder
             kronor från kommunerna och skär ned på etableringsåtgärderna?
@@ -1764,8 +1630,6 @@
             situation? Det måste vara frågan till er. Ni är helt obsoleta
             i diskussionen, vill jag påstå.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-105" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-104" next="i-41adf9c67d7efe2d-106">
           <seg xml:id="i-HAdTBiPxbFPaEWwBzDhVZ3">
             Vi talar om lagliga vägar. Vi i Europa måste ha en annan ordning
             där människor inte behöver ta de riskfyllda resorna för att kunna
@@ -1774,7 +1638,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/51F39B8A-7631-41A6-AFE4-E62EBCA58918#page=14"/>
-        <u xml:id="i-41adf9c67d7efe2d-106" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-105">
+        <u xml:id="i-41adf9c67d7efe2d-106" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-102">
           <seg xml:id="i-FqafXNBwvqSNhUyGaqn84H">
             Vi måste kunna utreda hur vi ska kunna göra det så att människor
             har den möjligheten i stället för att göra farliga resor. Att
@@ -1786,7 +1650,7 @@
         <note xml:id="i-6KiUxCXhvLoAJGYu9DS5oq" type="speaker">
           Anf. 21 JIMMIE ÅKESSON (SD):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-107" who="i-DCyBt1A1WiAhi5tm5k4A7H" next="i-41adf9c67d7efe2d-108">
+        <u xml:id="i-41adf9c67d7efe2d-107" who="i-DCyBt1A1WiAhi5tm5k4A7H">
           <seg xml:id="i-PmrFvwub2xV24j663thf4c">
             Herr talman! Man kan någonstans ifrågasätta värdet av ett frågeinstrument
             som vi har i Sveriges riksdag om statsministern väljer att svara
@@ -1794,8 +1658,6 @@
             inte ge något direkt svar. Men det är väl upp till statsministern
             om han väljer att svara på de frågor han får.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-108" who="i-DCyBt1A1WiAhi5tm5k4A7H" prev="i-41adf9c67d7efe2d-107" next="i-41adf9c67d7efe2d-109">
           <seg xml:id="i-SYaBzxtVPETp5LLuGEfTnd">
             Det talas om samhällsbygge och att det innebär en stor möjlighet
             för Sverige. Jag har väldigt svårt se den möjligheten. Jag noterar
@@ -1803,16 +1665,12 @@
             räknar upp som har skapats av regeringens oansvariga politik.
             De finns inte. Det är som att jag hittar på problemen.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-109" who="i-DCyBt1A1WiAhi5tm5k4A7H" prev="i-41adf9c67d7efe2d-108" next="i-41adf9c67d7efe2d-110">
           <seg xml:id="i-DCNZJBxdmH2CEhLaJKyX5g">
             Det går jättebra för Sverige. Vi har hög tillväxt, arbetslösheten
             sjunker och allt möjligt. Men problemen är reella problem, herr
             talman. De finns på riktigt, och de är orsakade av den politik
             som regeringen bedriver.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-110" who="i-DCyBt1A1WiAhi5tm5k4A7H" prev="i-41adf9c67d7efe2d-109">
           <seg xml:id="i-HCj5BEE6FrziWETrvGbWgv">
             Om det nu är så att regeringens ambition är att minska asyltrycket
             på Sverige, varför tillsätter man en utredning om hur man kan
@@ -1822,7 +1680,7 @@
         <note xml:id="i-4WTNiufKccAwK7ZzBafUZH" type="speaker">
           Anf. 22 Statsminister STEFAN LÖFVEN (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-111" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-112">
+        <u xml:id="i-41adf9c67d7efe2d-111" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1">
           <seg xml:id="i-UDM6XZndmcoyR1oDxbR4nB">
             Herr talman! Jag ber Jimmie Åkesson att lyssna den här gången.
             Vad jag säger är att det är många människor som gör farliga resor
@@ -1832,8 +1690,6 @@
             en möjlighet att lagligt ta sig hit. De ska inte behöva fly och
             dö på vattnet någonstans i södra Europa. Det är skillnaden.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-112" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-111" next="i-41adf9c67d7efe2d-113">
           <seg xml:id="i-KBaWff4YrjNvXG8Atkpnjx">
             Vad gäller samhällsbygge vill jag återigen säga följande. Vi
             investerar i infrastruktur, i bostäder, i jobben, i utbildningen
@@ -1842,8 +1698,6 @@
             Ni säger: Det spelar ingen roll. Vi kommer inte att förhandla,
             men vi tänker stödja er ändå.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-113" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-112">
           <seg xml:id="i-5UsJmfpeAWabeLdvXLamXq">
             Sverigedemokraterna är ett högerparti. Nu är det äntligen avslöjat.
             Ni har lyckats dölja det i retoriken. Nu har ni gjort det klart.
@@ -1874,7 +1728,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/51F39B8A-7631-41A6-AFE4-E62EBCA58918#page=15"/>
-        <u xml:id="i-41adf9c67d7efe2d-116" who="i-PPZKpwNr5kqkWArvESGC5X" prev="i-41adf9c67d7efe2d-115" next="i-41adf9c67d7efe2d-117">
+        <u xml:id="i-41adf9c67d7efe2d-116" who="i-PPZKpwNr5kqkWArvESGC5X" prev="i-41adf9c67d7efe2d-115">
           <seg xml:id="i-N7PFggUqWYnUPHHW4dWA1Q">
             Vi har andra utmaningar på bostadsmarknaden. Vi kan se att där
             man renoverar hyresfastigheter höjs hyrorna ofta med 30, 40, 50
@@ -1884,8 +1738,6 @@
             vill tala om. Hur kan vi få fart på bostadsbyggandet? Hur kan
             vi öka hyresgästernas inflytande över sitt eget boende?
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-117" who="i-PPZKpwNr5kqkWArvESGC5X" prev="i-41adf9c67d7efe2d-116" next="i-41adf9c67d7efe2d-118">
           <seg xml:id="i-739dDWNQPQNKSbrZjXjg6m">
             Från de borgerliga partierna är det egentligen bara en sak man
             är intresserad av. Det är marknadshyror. Det är att marknaden
@@ -1895,8 +1747,6 @@
             skulle få lämna sina hem. Städerna skulle bli ännu mer uppdelade,
             och fastighetsägarna skulle kunna tjäna väldigt mycket pengar.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-118" who="i-PPZKpwNr5kqkWArvESGC5X" prev="i-41adf9c67d7efe2d-117">
           <seg xml:id="i-SY5FbjKpChsK1K6ZxXbPzX">
             Nu hoppas jag i dag få ett besked av dig, Stefan Löfven. Det
             är dags att säga till de borgerliga i Alliansen: Det blir inga
@@ -1909,22 +1759,18 @@
         <note xml:id="i-39u6XiyNc3QcDfbNBfn71Z" type="speaker">
           Anf. 24 Statsminister STEFAN LÖFVEN (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-119" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-120">
+        <u xml:id="i-41adf9c67d7efe2d-119" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-125">
           <seg xml:id="i-XJHc425Qs8sBqeJFvHoz7c">
             Herr talman! Bostadsproblematiken är precis så allvarlig som
             Jonas Sjöstedt beskriver den. Vi har bostadsbrist i mer än 180
             kommuner. Boverkets prognos är att över 700 000 bostäder måste
             byggas fram till 2025, så ackordet är gigantiskt.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-120" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-119" next="i-41adf9c67d7efe2d-121">
           <seg xml:id="i-WwEs1bvkwbbrRWfQdSXmYi">
             Det är därför som regeringen redan har påbörjat den största bostadssatsningen
             på 20 år. Vi tillskjuter 6 miljarder kronor totalt så här långt
             per år för att vi måste få i gång bostadsbyggandet.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-121" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-120" next="i-41adf9c67d7efe2d-122">
           <seg xml:id="i-Y69FQwdV19XyysCq1tBgrd">
             Det handlar om förenklade regler. Det som den förra regeringen
             hade påbörjat har vi tagit vidare. Vi ser behov av ytterligare
@@ -1932,24 +1778,18 @@
             och hoppa över detaljplaner. Jag var i går i Kalmar. De redovisade
             att det fungerade på vissa ställen. Det går att snabba på byggprocessen.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-122" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-121" next="i-41adf9c67d7efe2d-123">
           <seg xml:id="i-4VNSRCzVZCcqYXVPHZXFa8">
             Vi måste höja kapaciteten på byggmarknaden. Det gäller att utbilda
             fler i branschen och få en växande byggbransch i Sverige. Det
             kan också handla om att ta in företag från andra länder för att
             vi ska få upp kapaciteten och kunna bygga så mycket.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-123" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-122" next="i-41adf9c67d7efe2d-124">
           <seg xml:id="i-LJ1fxkBSLSviVzwg5xmJAW">
             Vi måste titta över finansieringen. Behöver vi ytterligare investeringsstöd
             eller andra finansieringsmöjligheter? Vi kan möjligtvis tillföra
             SBAB kapital för att kunna tjäna som utlåning till både kommunala
             företag och privata företag.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-124" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-123" next="i-41adf9c67d7efe2d-125">
           <seg xml:id="i-TMUQacFyRhCEyBfDitNBdz">
             Allt detta vill vi titta på, inklusive rörligheten. I allt detta
             ligger Jonas Sjöstedt s frågeställning. Argumenten för marknadshyror
@@ -1959,7 +1799,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/51F39B8A-7631-41A6-AFE4-E62EBCA58918#page=16"/>
-        <u xml:id="i-41adf9c67d7efe2d-125" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-124">
+        <u xml:id="i-41adf9c67d7efe2d-125" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-119">
           <seg xml:id="i-FVHV31fi9Xsmb3VTU3H53S">
             Jag är inte beredd att säga: Nu ska vi införa marknadshyror.
             Det svaret är klart. Den situation som vi har nu är underskott
@@ -1972,7 +1812,7 @@
         <note xml:id="i-LgHgDiiHjPz28StE67FTVC" type="speaker">
           Anf. 25 JONAS SJÖSTEDT (V):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-126" who="i-PPZKpwNr5kqkWArvESGC5X" next="i-41adf9c67d7efe2d-127">
+        <u xml:id="i-41adf9c67d7efe2d-126" who="i-PPZKpwNr5kqkWArvESGC5X">
           <seg xml:id="i-E3FenAbMTKw4xj4t6zdHTM">
             Herr talman! Statsministern går som katten runt het gröt i sitt
             svar. När han närmar sig den heta gröten marknadshyrorna blir
@@ -1980,8 +1820,6 @@
             så att frågan om marknadshyror är uppe till förhandling? Är det
             förhandlingsbart att genomföra marknadshyror?
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-127" who="i-PPZKpwNr5kqkWArvESGC5X" prev="i-41adf9c67d7efe2d-126">
           <seg xml:id="i-TmJTuobusTmAZswdUScYGJ">
             Där skulle jag vilja ha ett tydligt besked. Ni har kunnat ge
             tydligt besked om fastighetsskatt, att ni inte vill förhandla
@@ -1993,7 +1831,7 @@
         <note xml:id="i-D8JRLSwzkWK9VuSvZAhhpQ" type="speaker">
           Anf. 26 Statsminister STEFAN LÖFVEN (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-128" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-129">
+        <u xml:id="i-41adf9c67d7efe2d-128" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1">
           <seg xml:id="i-SNJ7zh1H496P5ig2is1w4t">
             Herr talman! Jag är inte beredd att införa marknadshyror. Jag
             sa precis det, och jag kan säga det en gång till. Det vill jag
@@ -2002,8 +1840,6 @@
             och släpper prissättningen fri åker priset rakt upp. Det tänker
             jag inte utsätta Sveriges hyresgäster för.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-129" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-128" next="i-41adf9c67d7efe2d-130">
           <seg xml:id="i-W1ro1ewYbHpQ8j7FLGe1AM">
             Däremot är det en legitim diskussion att ta hur de som ska bygga
             hyresrätter ska känna att det är hållbart och förutsägbart och
@@ -2012,8 +1848,6 @@
             för att fler ska bygga hyresrätter? Vi måste se ackordet framför
             oss.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-130" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-129">
           <seg xml:id="i-BL5zkCyQtGCP7iv3RiJY83">
             Jag talar om 70 000 lägenheter i snitt per år. Det är gigantiskt
             stort. Det är ett samhällsbygge som är positivt. Låt oss pröva
@@ -2028,13 +1862,11 @@
         <note xml:id="i-MBz6D5GYRZTfuiG77fZ9Ce" type="speaker">
           Anf. 27 JAN BJÖRKLUND (L):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-132" who="i-AvFShRZVEyBV61S19AKNGK" next="i-41adf9c67d7efe2d-133">
+        <u xml:id="i-41adf9c67d7efe2d-132" who="i-AvFShRZVEyBV61S19AKNGK" next="i-41adf9c67d7efe2d-135">
           <seg xml:id="i-UzPkykMXukwqsTpxKkky9g">
             Herr talman! Växthuseffekten är vår största utmaning i mänskligheten
             i dag. Vi måste klara av att kraftigt minska koldioxidutsläppen.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-133" who="i-AvFShRZVEyBV61S19AKNGK" prev="i-41adf9c67d7efe2d-132" next="i-41adf9c67d7efe2d-134">
           <seg xml:id="i-KnRY982aAyMpcj7z4zvmbV">
             En lösning är att lägga ned det moderna samhället, och så minskar
             vi koldioxidutsläppen. Men jag tror att nästan alla i denna kammare
@@ -2042,8 +1874,6 @@
             att värna jobb, välfärd och ekonomisk utveckling för framtiden.
             Det är där utmaningen finns.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-134" who="i-AvFShRZVEyBV61S19AKNGK" prev="i-41adf9c67d7efe2d-133" next="i-41adf9c67d7efe2d-135">
           <seg xml:id="i-D2TZuMVPjvQdkDG4FiRuXs">
             Det största enskilda området där denna riksdag kan påverka växthuseffekten
             handlar om energiproduktion, hur vi producerar vår energi. Det
@@ -2052,7 +1882,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/51F39B8A-7631-41A6-AFE4-E62EBCA58918#page=17"/>
-        <u xml:id="i-41adf9c67d7efe2d-135" who="i-AvFShRZVEyBV61S19AKNGK" prev="i-41adf9c67d7efe2d-134" next="i-41adf9c67d7efe2d-136">
+        <u xml:id="i-41adf9c67d7efe2d-135" who="i-AvFShRZVEyBV61S19AKNGK" prev="i-41adf9c67d7efe2d-132">
           <seg xml:id="i-Cxis99jwUB8YQmK6VfHKe2">
             Det är många som nu är oroade för vad som sker. En av dem är
             ordföranden för IF Metall, Stefan Löfvens efterträ dare Anders
@@ -2067,14 +1897,10 @@
             stryps. Han skriver att det måste vara öppet för att bygga också
             en fjärde generations reaktorer som ersättning för dem vi har.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-136" who="i-AvFShRZVEyBV61S19AKNGK" prev="i-41adf9c67d7efe2d-135" next="i-41adf9c67d7efe2d-137">
           <seg xml:id="i-EeRnvbsGUyazaw2r9mdt17">
             Jag uppfattar att detta på punkt efter punkt går i strid med
             de besked energiministern och regeringen ger.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-137" who="i-AvFShRZVEyBV61S19AKNGK" prev="i-41adf9c67d7efe2d-136">
           <seg xml:id="i-V1PGYoUAbiSp7bYoV1vqNP">
             Min fråga till Stefan Löfven är: På vilket sätt har IF Metall
             fel?
@@ -2083,15 +1909,13 @@
         <note xml:id="i-FuHYnyogWUnFxyrRhT1mjE" type="speaker">
           Anf. 28 Statsminister STEFAN LÖFVEN (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-138" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-139">
+        <u xml:id="i-41adf9c67d7efe2d-138" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1">
           <seg xml:id="i-PtyHGuYCKscAg3qHqZSLMQ">
             Herr talman! Växthuseffekten är allvarlig. Jag är glad att vi
             har fått ett Parisavtal, ett globalt avtal, som också riktar blickarna
             mot vårt eget land. Energiproduktionen är viktig; jag ska återkomma
             till den.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-139" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-138" next="i-41adf9c67d7efe2d-140">
           <seg xml:id="i-DUXQrG5THbXR6pVt7CfqWD">
             Transportsektorn är också oerhört viktig. Jag ser att det stora
             åtagandet nu är att se till att vi har en fossilfri transportsektor.
@@ -2099,8 +1923,6 @@
             och miljön. Men det handlar också om ny teknik och nya jobb. Det
             osar framtid här, och det ska vi ta till vara.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-140" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-139" next="i-41adf9c67d7efe2d-141">
           <seg xml:id="i-TfZuxe689yqvRMjQntGmVT">
             När det gäller energi och kärnkraft har vi nu en energikommission.
             Är det någonting som parterna på arbetsmarknaden, näringslivet
@@ -2108,8 +1930,6 @@
             på denna fråga. Energikommissionen jobbar precis nu med detta,
             och jag hoppas att Liberalerna deltar.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-141" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-140" next="i-41adf9c67d7efe2d-142">
           <seg xml:id="i-K3Ubxgr1g2UWfJ1ZU1jnyp">
             Det regelverk vi lever med, Jan Björklund, är det som ni gjorde.
             Uppmana nu industrin och företagen att bygga kärnkraftverk! Problemet
@@ -2118,8 +1938,6 @@
             Sverige har en säker tillgång till energi, och vi ska ha det till
             konkurrenskraftiga priser.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-142" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-141">
           <seg xml:id="i-21HnjLa62JeGz9LWukob4Y">
             Regeringens ingång i diskussionerna är dock att vi menar att
             vi ska ha 100 procent förnybar energi. Dit ska vi. Det är upp
@@ -2163,14 +1981,12 @@
         <note xml:id="i-KeizfWbNyHjNMDr32CmjmA" type="speaker">
           Anf. 30 Statsminister STEFAN LÖFVEN (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-145" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-146">
+        <u xml:id="i-41adf9c67d7efe2d-145" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1">
           <seg xml:id="i-6mnNcQQBBG3hfVdsAjF2NV">
             Herr talman! Vi ska inte strunta i Anders Ferbe. Jag kan lova
             dig att jag och Anders Ferbe diskuterar också denna fråga; vi
             känner varandra ganska väl.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-146" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-145" next="i-41adf9c67d7efe2d-147">
           <seg xml:id="i-FSXqQ1zfEAHjFYkK2rYqps">
             Det talas om överenskommelse. Varför tillsätter vi en energikommission?
             Jo, av det enkla skälet att Sverige måste ha en långsiktig överenskommelse
@@ -2179,8 +1995,6 @@
             in till. Ni hade en överenskommelse med era fyra partier. Den
             omfattade en minoritet i Sveriges riksdag. Den var inte hållbar.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-147" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-146" next="i-41adf9c67d7efe2d-148">
           <seg xml:id="i-YQjWe46X9o5QyZ62hcxSen">
             Det är detta alla vill ha. I överenskommelsen är det naturligt
             att man först bildar sig en uppfattning av hur energibehovet ser
@@ -2190,8 +2004,6 @@
             ha 100 procent förnybart eftersom det också ska vara CO 2 -fritt.
             Det är klart att detta går hand i hand.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-148" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-147">
           <seg xml:id="i-BQ6fGKhNP1QwfMWz6sXASp">
             Möt upp där, Liberalerna också, och för den diskussionen i Energikommissionen!
             Vi kommer att kunna komma i mål. Vi är skyldiga Sverige detta.
@@ -2203,7 +2015,7 @@
         <note xml:id="i-CsFnhSdYvH9A26CYeotf2d" type="speaker">
           Anf. 31 ANDREAS CARLSON (KD):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-149" who="i-V4PGuKUAKzYUXWKqj2bLeL" next="i-41adf9c67d7efe2d-150">
+        <u xml:id="i-41adf9c67d7efe2d-149" who="i-V4PGuKUAKzYUXWKqj2bLeL" next="i-41adf9c67d7efe2d-152">
           <seg xml:id="i-GtRy4BLQcXZCStkXeKX9h8">
             Herr talman! Senast statsministern och jag stod i de här två
             talarstolarna och diskuterade och debatterade tog jag upp regeringens
@@ -2213,15 +2025,11 @@
             Nu har det väl blivit några fler, men regeringens arbetsmarknadspolitik
             har havererat.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-150" who="i-V4PGuKUAKzYUXWKqj2bLeL" prev="i-41adf9c67d7efe2d-149" next="i-41adf9c67d7efe2d-151">
           <seg xml:id="i-4Z17oQnQ3cbRRx2Qoho7kb">
             Statsministern tyckte dock att jag skulle glädja mig. Med regeringens
             politik är vi på g, och målet att Sverige ska ha den lägsta arbetslösheten
             i Europa 2020 är inga problem. Det var så jag uppfattade den debatten.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-151" who="i-V4PGuKUAKzYUXWKqj2bLeL" prev="i-41adf9c67d7efe2d-150" next="i-41adf9c67d7efe2d-152">
           <seg xml:id="i-gLxaKuGKUtcTdSDRitKT6">
             Om man tittar i Finansdepartementets prognos, som har vägt in
             regeringens politik och regeringens budget, ser det dystert ut.
@@ -2231,7 +2039,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/51F39B8A-7631-41A6-AFE4-E62EBCA58918#page=19"/>
-        <u xml:id="i-41adf9c67d7efe2d-152" who="i-V4PGuKUAKzYUXWKqj2bLeL" prev="i-41adf9c67d7efe2d-151" next="i-41adf9c67d7efe2d-153">
+        <u xml:id="i-41adf9c67d7efe2d-152" who="i-V4PGuKUAKzYUXWKqj2bLeL" prev="i-41adf9c67d7efe2d-149">
           <seg xml:id="i-Hp2GZhLXGgm1THwNgk7V7i">
             Jag tog upp detta, och statsministern svarade: Ni har redan dömt
             ut ett arbetslöshetsmål som gäller för 2020. Ni tittar på en prognos
@@ -2239,16 +2047,12 @@
             det blir så om man inget gör, men inte om man fortsätter ihärdigt,
             och det tänker jag göra.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-153" who="i-V4PGuKUAKzYUXWKqj2bLeL" prev="i-41adf9c67d7efe2d-152" next="i-41adf9c67d7efe2d-154">
           <seg xml:id="i-R1GCjbtSCLMrrxVuydkhHa">
             Det är lovvärt. Vi såg en siffra. Vi såg den i regeringens eget
             finansdepartements prognos. Det är ett finansdepartement som hade
             lagt in hela regeringens politik i sina beräkningar. Det döms
             ut av statsministern.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-154" who="i-V4PGuKUAKzYUXWKqj2bLeL" prev="i-41adf9c67d7efe2d-153">
           <seg xml:id="i-9h2euvoCiRTqN5PiWFXqdQ">
             Min fråga till Stefan Löfven är: Hur kan Finansdepartementet
             ha så fel i sin prognos?
@@ -2257,7 +2061,7 @@
         <note xml:id="i-URVsxwkPSL6odnBsXtummS" type="speaker">
           Anf. 32 Statsminister STEFAN LÖFVEN (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-155" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-156">
+        <u xml:id="i-41adf9c67d7efe2d-155" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1">
           <seg xml:id="i-SSkd18RFXZTjnGrYrekE8W">
             Herr talman! Först och främst blir jag förvånad varje gång denna
             kritik mot arbetslöshetsmålet kommer upp. Detta är enligt mig
@@ -2269,15 +2073,11 @@
             går ned. Ungdomsarbetslösheten går ned. Sysselsättningen går upp.
             Jag säger inte att det är för evigt.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-156" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-155" next="i-41adf9c67d7efe2d-157">
           <seg xml:id="i-WPf5PPUXVzkfV6TKJPmFfq">
             Om vi tittar ett antal år bort är arbetslösheten där för hög
             – ja. Den ligger där för att vi nu har fattat ett antal beslut,
             men de kommer inte att räcka utan det kommer att behövas mer.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-157" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-156" next="i-41adf9c67d7efe2d-158">
           <seg xml:id="i-FR5DhVq1gmiXrXNbbchXJS">
             Jag har fortfarande samma argumentation. Om man bara tittar på
             en siffra och säger att så här blir det, då blir det så. Men man
@@ -2288,8 +2088,6 @@
             struntar i vilket, bara människor kommer i arbete – och på sjysta
             villkor.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-158" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-157" next="i-41adf9c67d7efe2d-159">
           <seg xml:id="i-CNDZcejbSQpEuK1VpFuQXz">
             Med er politik gäller att sänka skatter. Det är det som gäller
             för alla de fyra borgerliga. Ni ska sänka skatter. Sedan läser
@@ -2299,8 +2097,6 @@
             blir det då? De människor som i dag går arbetslösa k ommer inte
             att kunna komma in i arbete, för där efterfrågas viss utbildning.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-159" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-158">
           <seg xml:id="i-USi83eLPs27cgiwbnsDDPQ">
             Era nedskärningar leder till högre arbetslöshet. Ni har en nedskärningsagenda,
             och vi har en investeringsagenda. Det är det som skiljer våra
@@ -2311,7 +2107,7 @@
         <note xml:id="i-bhn7EaZezPNbXR7cceLw9" type="speaker">
           Anf. 33 ANDREAS CARLSON (KD):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-160" who="i-V4PGuKUAKzYUXWKqj2bLeL" next="i-41adf9c67d7efe2d-161">
+        <u xml:id="i-41adf9c67d7efe2d-160" who="i-V4PGuKUAKzYUXWKqj2bLeL" next="i-41adf9c67d7efe2d-162">
           <seg xml:id="i-YGHdH623aoguMybUVXWU94">
             Herr talman! I första hand är det inte arbetslöshetsmålet som
             Kristdemokraterna är kritiska till. Det vi är kritiska till är
@@ -2319,8 +2115,6 @@
             ökar trösklar in på arbetsmarknaden, och ni gör det dyrare att
             anställa.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-161" who="i-V4PGuKUAKzYUXWKqj2bLeL" prev="i-41adf9c67d7efe2d-160" next="i-41adf9c67d7efe2d-162">
           <seg xml:id="i-UVmDTzjAQJRifErxcQAZx6">
             Vi kan titta på olika siffror. Jag lyfte fram en siffra som statsministern
             verkar döma ut i sitt eget finansdepartements prognos, där man
@@ -2332,7 +2126,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/51F39B8A-7631-41A6-AFE4-E62EBCA58918#page=20"/>
-        <u xml:id="i-41adf9c67d7efe2d-162" who="i-V4PGuKUAKzYUXWKqj2bLeL" prev="i-41adf9c67d7efe2d-161">
+        <u xml:id="i-41adf9c67d7efe2d-162" who="i-V4PGuKUAKzYUXWKqj2bLeL" prev="i-41adf9c67d7efe2d-160">
           <seg xml:id="i-6Z2pM32ugpvaYFabHCdAv6">
             De enda som verkar tro på arbetslöshetsmålet är Stefan Löfven
             själv och möjligen hans talskrivare och några i regeringen. Alla
@@ -2343,7 +2137,7 @@
         <note xml:id="i-WnssqHMqtTghNPA5QnBWQu" type="speaker">
           Anf. 34 Statsminister STEFAN LÖFVEN (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-163" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-164">
+        <u xml:id="i-41adf9c67d7efe2d-163" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1">
           <seg xml:id="i-YUj7hBPKxKuLwyKFrAfDVp">
             Herr talman! När det gäller att chockhöja skatter vill jag säga
             att under den förra regeringens åtta år i regeringsställning chocksänktes
@@ -2351,16 +2145,12 @@
             er. Vad blev resultatet? Hade ni lägre arbetslöshet när ni lämnade
             än när ni tillträdde? Nej, ni hade högre arbetslöshet.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-164" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-163" next="i-41adf9c67d7efe2d-165">
           <seg xml:id="i-CndQCbcfQSjpcuuWFZd5wJ">
             En åtgärd som ni kostade på er var ungdomsarbetsgivaravgiften.
             Den har sammanlagt kostat svenska skattebetalare ungefär 110 miljarder
             kronor, och den ledde till högre ungdomsarbetslöshet. När ska
             ni lära er?
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-165" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-164">
           <seg xml:id="i-C1KYTKfBjPTgYUEvKBL3Jq">
             Vi säger: Vi måste investera i infrastrukturen så att tågen går
             i tid och människor kan förflytta sig, i bostäder så att man kan
@@ -2378,14 +2168,12 @@
         <note xml:id="i-UVgvf6eoyQhMmNeKbZpG8m" type="speaker">
           Anf. 35 EMIL KÄLLSTRÖM (C):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-167" who="i-Gmeic5tnz63335GwfzHzd9" next="i-41adf9c67d7efe2d-168">
+        <u xml:id="i-41adf9c67d7efe2d-167" who="i-Gmeic5tnz63335GwfzHzd9">
           <seg xml:id="i-SB4Jg5TW6A4Wh3izPkxmMY">
             Herr talman! Som vi alla vet, och som vi precis hörde, har Löfvenregeringen
             ett mål om att ha EU:s lägsta arbetslöshet 2020. Det är inte mycket
             att säga om det målet. Det är ett tufft och ambitiöst mål.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-168" who="i-Gmeic5tnz63335GwfzHzd9" prev="i-41adf9c67d7efe2d-167" next="i-41adf9c67d7efe2d-169">
           <seg xml:id="i-U8Ke6Z1pSUeAte8DSvJK3i">
             Vi i Centerpartiet har presenterat många förslag, såväl innan
             som efter valet, som skulle kunna ta oss en bra bit på vägen,
@@ -2393,8 +2181,6 @@
             och växande företagen, jobbskaparna, att anställa. Vi måste modernisera
             den svenska arbetsmarknaden i grunden.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-169" who="i-Gmeic5tnz63335GwfzHzd9" prev="i-41adf9c67d7efe2d-168" next="i-41adf9c67d7efe2d-170">
           <seg xml:id="i-D8buxGpz6T3zHcvb4ZJwdY">
             Problemet, som vi har varit inne på tidigare, herr talman, är
             att regeringens politik i stället tar oss längre från regeringens
@@ -2403,8 +2189,6 @@
             än i dag. Retoriken säger en sak, men politiken gör någonting
             annat.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-170" who="i-Gmeic5tnz63335GwfzHzd9" prev="i-41adf9c67d7efe2d-169">
           <seg xml:id="i-NShwaWbJKnrqRCp2rTJETb">
             Är det politiken eller retoriken du kommer att backa från, Stefan
             Löfven? I dag går orden och verkligheten inte ihop.
@@ -2423,7 +2207,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/51F39B8A-7631-41A6-AFE4-E62EBCA58918#page=21"/>
-        <u xml:id="i-41adf9c67d7efe2d-172" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-171" next="i-41adf9c67d7efe2d-173">
+        <u xml:id="i-41adf9c67d7efe2d-172" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-171">
           <seg xml:id="i-Tvkr4VkJrmqQHJeRshYtNM">
             Nu noterar jag att också Centerpartiet börjar komma med i målet.
             Kristdemokraterna och Centern tycker att det är ett bra mål, och
@@ -2435,8 +2219,6 @@
             Människor behöver ha en utbildning för att de ska kunna söka rätt
             jobb. Det här är en av de stora bristerna i dag.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-173" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-172">
           <seg xml:id="i-31BkJkqtUW64359JX8MYqE">
             Jag tänker fortsätta investera i det här. Jag tänker inte sänka
             skatterna som de borgerliga partierna vill, och jag tänker definitivt
@@ -2446,22 +2228,18 @@
         <note xml:id="i-XJtPgRJ3dBopQcsDWgnyuB" type="speaker">
           Anf. 37 EMIL KÄLLSTRÖM (C):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-174" who="i-Gmeic5tnz63335GwfzHzd9" next="i-41adf9c67d7efe2d-175">
+        <u xml:id="i-41adf9c67d7efe2d-174" who="i-Gmeic5tnz63335GwfzHzd9">
           <seg xml:id="i-MPsXbTgWCotjpd6EvMRzVy">
             Herr talman! Först och främst ska vi vara tydliga med att bara
             för att ett mål inte är dåligt innebär det inte att det är bra.
             Det finns bättre sätt att mäta framgång på det här området.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-175" who="i-Gmeic5tnz63335GwfzHzd9" prev="i-41adf9c67d7efe2d-174" next="i-41adf9c67d7efe2d-176">
           <seg xml:id="i-H6mz9KRiTxxJ3b4WrWS9VZ">
             Problemet är att det inte bara är vi i oppositionen som inte
             tror på regeringens jobbpolitik. Ingen gör det. Svenskt Näringsliv
             gör det inte, LO gör det inte, expertmyndigheterna gör det inte
             och Finansdepartementet gör det inte.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-176" who="i-Gmeic5tnz63335GwfzHzd9" prev="i-41adf9c67d7efe2d-175">
           <seg xml:id="i-Y2U6siPbSrLW7mSMruttxh">
             Om Stefan Löfven lägger om politiken och gör den bättre ska han
             se att prognoserna också ser lite bättre ut.
@@ -2470,15 +2248,13 @@
         <note xml:id="i-FAiqZcBpuNr5SAoY5LuVa6" type="speaker">
           Anf. 38 Statsminister STEFAN LÖFVEN (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-177" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-178">
+        <u xml:id="i-41adf9c67d7efe2d-177" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-W1Ko81BBp7syEb1mtDup6g">
           <seg xml:id="i-DBFuxSmyBhirreXuCDN3L5">
             Herr talman! Jag gör det som krävs för att människor ska komma
             i arbete, och det krävs investeringar. Vi måste ha tåg som går
             i tid, både för företagen och för människorna. Vi måste ha bostäder
             så att människor kan flytta dit där jobben faktiskt finns.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-178" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-177" next="i-W1Ko81BBp7syEb1mtDup6g">
           <seg xml:id="i-5w4xGfAktk7GC3gXFnfFwb">
             Jag tänker göra det som krävs för att det faktiskt sker. Då räcker
             det inte med skattesänkningar. Ni prövade den politiken i åtta
@@ -2489,7 +2265,7 @@
         <note xml:id="i-3EjVuivD765HfKpiFuz2PA">
           (Applåder)
         </note>
-        <u xml:id="i-W1Ko81BBp7syEb1mtDup6g" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-178">
+        <u xml:id="i-W1Ko81BBp7syEb1mtDup6g" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-177">
           <seg xml:id="i-KPcUe2Ny51iRJZrwFZqD9F">
             Målet om full sysselsättning
           </seg>
@@ -2497,7 +2273,7 @@
         <note xml:id="i-NWhcxSTWCmqQxVbj945m1c" type="speaker">
           Anf. 39 BERIT HÖGMAN (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-180" who="i-Ty8QCuVFBPKpfBLfr6zVqn" next="i-41adf9c67d7efe2d-181">
+        <u xml:id="i-41adf9c67d7efe2d-180" who="i-Ty8QCuVFBPKpfBLfr6zVqn">
           <seg xml:id="i-rXyCfUaoKw9j2r97KFq5X">
             Herr talman! Social tillit är en viktig byggsten i samhällsbygget
             – känslan av att vi allihop omfattas av samma regelverk och att
@@ -2508,8 +2284,6 @@
             Målet är, som statsministern har varit tydlig med här i dag, full
             sysselsättning. Det är ett centralt mål.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-181" who="i-Ty8QCuVFBPKpfBLfr6zVqn" prev="i-41adf9c67d7efe2d-180">
           <seg xml:id="i-C77myTHC6cFcUhwyYG5RKP">
             Vad gör regeringen, och vad kan regeringen göra, för att denna
             inställning ska prägla alla våra regelverk och all vår politik?
@@ -2519,7 +2293,7 @@
         <note xml:id="i-Hn4GnvzwbqaZdpmEXDTWWM" type="speaker">
           Anf. 40 Statsminister STEFAN LÖFVEN (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-182" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-183">
+        <u xml:id="i-41adf9c67d7efe2d-182" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1">
           <seg xml:id="i-8rH8vL2SNqPbHjwyY6c7MU">
             Herr talman! Det är helt rätt som Berit Högman säger att det
             är centralt i den socialdemokratiska politiken och i regeringens
@@ -2531,8 +2305,6 @@
             jag går arbetslös och får stöd från arbetslöshetsförsäkringen
             ska jag också stå till arbetsmarknadens förfogande.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-183" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-182">
           <seg xml:id="i-SwVgNzehbCQFtKpL6hjpq3">
             Ett exempel på hur vi kan addera till det är att vi nu vill ändra
             reglerna så att du när du får försörjningsstöd av kommunen också
@@ -2547,14 +2319,12 @@
         <note xml:id="i-P5xw6PvXoJRquZvDwg7xAd" type="speaker">
           Anf. 41 MARIA FERM (MP):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-185" who="i-HsGsAzKWHQY5pjyAYNXAz7" next="i-41adf9c67d7efe2d-186">
+        <u xml:id="i-41adf9c67d7efe2d-185" who="i-HsGsAzKWHQY5pjyAYNXAz7">
           <seg xml:id="i-GPbVm2VX2w7iGfDt3a69wq">
             Herr talman! Sverige tog under förra året emot över 160 000 personer
             som flytt från krig och förföljelse. Att ge de här människorna
             en god start i vårt land är en stor och viktig uppgift.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-186" who="i-HsGsAzKWHQY5pjyAYNXAz7" prev="i-41adf9c67d7efe2d-185" next="i-6o8KJgS3o66GV3go4fCcar">
           <seg xml:id="i-V9wvY9vB1Riy5hAigz7oYG">
             Regeringen har inlett ett nytt samhällsbygge för att höja kapaciteten
             i mottagandet och tidigt ge människor en möjlighet att etablera
@@ -2563,8 +2333,6 @@
             mänsklig och inkluderande och ett samhälle där alla har samma
             rättigheter och skyldigheter.
           </seg>
-        </u>
-        <u xml:id="i-6o8KJgS3o66GV3go4fCcar" who="i-HsGsAzKWHQY5pjyAYNXAz7" prev="i-41adf9c67d7efe2d-186">
           <seg xml:id="i-RAYf7SMqVDGLq13N3E1WuF">
             Därför vill jag fråga statsministern vilka åtgärder som regeringen
             vidtar för att höja kapaciteten och skapa en bättre etablering.
@@ -2573,15 +2341,13 @@
         <note xml:id="i-DxE8NiDYjK9JAUHL48Sg9m" type="speaker">
           Anf. 42 Statsminister STEFAN LÖFVEN (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-188" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-189">
+        <u xml:id="i-41adf9c67d7efe2d-188" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1">
           <seg xml:id="i-G812wFRLW3kyZMrQ3395dQ">
             Herr talman! Det är helt avgörande, som Maria Ferm här tar upp,
             att vi kan se till att de människor som kommer hit får samma delaktighet
             i vårt samhälle som alla andra. Det är en mycket viktig ideologisk
             fråga, och den är faktiskt också ekonomisk.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-189" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-188">
           <seg xml:id="i-34Gh4vacFAYbinv88mCXsJ">
             Vi har sedan en tid tillbaka jobbat mycket systematiskt med detta
             och är i full gång med att vända så att vi får tidigare aktiviteter
@@ -2604,15 +2370,13 @@
         <note xml:id="i-CPUDjd59fxBWjGpLsBej7Z" type="speaker">
           Anf. 43 MARIA STOCKHAUS (M):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-191" who="i-5kLPqJYKuXdEi7mU2QqyGZ" next="i-41adf9c67d7efe2d-192">
+        <u xml:id="i-41adf9c67d7efe2d-191" who="i-5kLPqJYKuXdEi7mU2QqyGZ">
           <seg xml:id="i-WLWawnsqQZoqrQ59a2eN74">
             Herr talman! Jag tror att jag och statsministern är överens om
             att kvaliteten i förskolan är viktig och att det behövs förskollärare
             som arbetar i förskolan för att kvaliteten i verksamheten ska
             vara hög.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-192" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-41adf9c67d7efe2d-191" next="i-41adf9c67d7efe2d-193">
           <seg xml:id="i-FzAjX6bVS3UmNueoDSzC8H">
             I Stockholms läns kommuner har alla en stor utmaning när det
             gäller att hitta förskollärare. Bristen är stor, och det leder
@@ -2620,8 +2384,6 @@
             har man stora utmaningar när det gäller att få fram platser i
             takt med att befolkningen växer.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-193" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-41adf9c67d7efe2d-192">
           <seg xml:id="i-9PsvXhjbc3U1RmXgVAK16F">
             Regeringen har beslutat att utöka antalet platser på förskollärarutbildningen
             på universitet och högskolor. Men det är pengar som tyvärr inte
@@ -2635,22 +2397,18 @@
         <note xml:id="i-HtXtPRpB8MbtLPtGwv3oWd" type="speaker">
           Anf. 44 Statsminister STEFAN LÖFVEN (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-194" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-195">
+        <u xml:id="i-41adf9c67d7efe2d-194" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1">
           <seg xml:id="i-7twnakjKNLcutBnZqzigVy">
             Herr talman! Som Maria Stockhaus mycket riktigt påpekar måste
             vi få upp antalet förskollärare. Det är därför vi höjer det antalet.
             Vi måste få fler. Vi skjuter till pengar till universiteten för
             att de ska ha den möjligheten.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-195" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-194" next="i-41adf9c67d7efe2d-196">
           <seg xml:id="i-Joz94GReoxsqY1cJLad7v2">
             Tidigare skars antalet utbildningsplatser ned. Det var precis
             vad Sverige inte behövde. Nu ser vi till att höja kapaciteten
             vid universiteten. Vi ska också höja kvaliteten på lärarutbildningen.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-196" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-195">
           <seg xml:id="i-LvevD9XBvjABcDSem3myFM">
             Det finns ingen ändring i vår politik på det området. Det gäller
             fortfarande. Men det är samma sak här som i all annan politik.
@@ -2666,7 +2424,7 @@
         <note xml:id="i-A5xGGW1vWzTkTJmf6ZQQAC" type="speaker">
           Anf. 45 KENT EKEROTH (SD):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-197" who="i-NXkJirA9Eh3xDV8PPU3eVE" next="i-41adf9c67d7efe2d-198">
+        <u xml:id="i-41adf9c67d7efe2d-197" who="i-NXkJirA9Eh3xDV8PPU3eVE">
           <seg xml:id="i-FjBqeGy9Kn1xTaTaH9r1xK">
             Herr talman! Utvisning av kriminella utlänningar har varit gravt
             eftersatt i Sverige under lång tid. Färsk statistik som jag har
@@ -2674,30 +2432,22 @@
             på anstalter har ökat snabbt, från 29 procent 2011 till hela 41
             procent 2015.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-198" who="i-NXkJirA9Eh3xDV8PPU3eVE" prev="i-41adf9c67d7efe2d-197" next="i-41adf9c67d7efe2d-199">
           <seg xml:id="i-ASGKH4rmkb1fd2HKEFgQHR">
             Samtidigt visar det sig att andelen utlänningar som döms till
             utvisning i samband med dom har minskat, från 22 procent till
             17 procent sedan 2011. Det är alltså mindre än en femtedel.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-199" who="i-NXkJirA9Eh3xDV8PPU3eVE" prev="i-41adf9c67d7efe2d-198" next="i-41adf9c67d7efe2d-200">
           <seg xml:id="i-8GdtmUvAB4hN1NxrnHSQ3Z">
             Om vi tittar specifikt på våldsbrott kan vi se att endast 8 procent
             dömdes till utvisning år 2015. Det har gått ned från 12 procent
             år 2011. Och för till exempel sexualbrott har det gått ned från
             38 procent till 22 procent.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-200" who="i-NXkJirA9Eh3xDV8PPU3eVE" prev="i-41adf9c67d7efe2d-199" next="i-41adf9c67d7efe2d-201">
           <seg xml:id="i-NHHPMaz6rmP6Z3WmY4grMR">
             Vi har alltså en situation där andelen utländska medborgare som
             tas in för brott ökar kraftigt samtidigt som de utvisas i allt
             lägre grad.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-201" who="i-NXkJirA9Eh3xDV8PPU3eVE" prev="i-41adf9c67d7efe2d-200">
           <seg xml:id="i-X43MywPKDj7gVyfKbCtceY">
             Sverigedemokraterna har i flera år krävt att detta ska ändras.
             Ämnar regeringen åtgärda reglerna så att utvisning blir huvudregel
@@ -2708,15 +2458,13 @@
         <note xml:id="i-JButRf6mRiWknW44JywnrP" type="speaker">
           Anf. 46 Statsminister STEFAN LÖFVEN (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-202" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-203">
+        <u xml:id="i-41adf9c67d7efe2d-202" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1">
           <seg xml:id="i-Jnzo6hZ47XZ1jZ1T7ZqGQ2">
             Herr talman! Det är viktigt att vi står upp för rättsstaten i
             vårt land. Vi ska ha ordning och reda och säkerhet för medborgare.
             I det ligger att man döms till straffsatser eller får påföljder
             för brott.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-203" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-202" next="i-41adf9c67d7efe2d-204">
           <seg xml:id="i-875ZwT1xYz4Z8Jkfh2MJFb">
             När det gäller kriminalitet bland de m som kommer hit och söker
             asyl, också bland de m som har fått uppehållstillstånd, är det
@@ -2726,16 +2474,12 @@
             tillräckligt grovt brott i dag kan man också utvisas på grund
             av det.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-204" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-203" next="i-41adf9c67d7efe2d-205">
           <seg xml:id="i-EPcbPTKB2tse7gd2oQAyrj">
             Regeringen har inte några förslag när det gäller huruvida de
             straffsatserna ska ändras. Vi arbetar däremot med hur vi ska förhindra
             sexualbrott och hur vi ska ta hand om sexualbrottsförbrytare.
             Kvinnor måste kunna känna sig säkra på våra gator.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-205" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-204">
           <seg xml:id="i-FzGspUioAqwZT8PfVA4YZA">
             Vi återkommer till det.
           </seg>
@@ -2746,15 +2490,13 @@
         <note xml:id="i-VvEJbG8vfhP9rp5NdHLWZj" type="speaker">
           Anf. 47 LENA EMILSSON (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-207" who="i-2s4LCeKYMJUyy8FKE3ewMN" next="i-41adf9c67d7efe2d-208">
+        <u xml:id="i-41adf9c67d7efe2d-207" who="i-2s4LCeKYMJUyy8FKE3ewMN">
           <seg xml:id="i-D5kACzZbheaTa689Fv6HML">
             Herr talman! Det finns ett stort behov av att rekrytera lärare
             i Sverige. Trots att vi nu ökar antalet utbildningsplatser kommer
             det inte att räcka. Det är ett bekymmer. Vi behöver därför andra
             vägar in i läraryrket.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-208" who="i-2s4LCeKYMJUyy8FKE3ewMN" prev="i-41adf9c67d7efe2d-207">
           <seg xml:id="i-xiA7QTaM7wkNvZu5RLLEA">
             Kan statsministern säga någonting om hur vi kan utveckla andra
             vägar in i läraryrket, utöver att utöka antalet utbildningsplatser?
@@ -2763,22 +2505,18 @@
         <note xml:id="i-AYbWUGKm7cEyHj8GAQFYLB" type="speaker">
           Anf. 48 Statsminister STEFAN LÖFVEN (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-209" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-210">
+        <u xml:id="i-41adf9c67d7efe2d-209" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1">
           <seg xml:id="i-Gqr9qheUfF5kUeUjU4E1tm">
             Herr talman! Som Lena Emilsson mycket riktigt påpekar har vi
             även här ett stort åtagande framför oss. Det handlar om att 60
             000–70 000 lärare måste till på några år.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-210" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-209" next="i-41adf9c67d7efe2d-211">
           <seg xml:id="i-XzPff3EQZeDGUX8ym8pUuD">
             En del av dem säkrar man upp genom att de som egentligen skulle
             ha gått i pension blir kvar några år till. Det är ett sätt att
             göra det. Men det är inte det hållbara sättet. Det hållbara är
             att se till att vi utbildar fler lärare. Det har vi gjort.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-211" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-210" next="i-41adf9c67d7efe2d-212">
           <seg xml:id="i-CwsbeWXKobibSxEfuixPbA">
             Ytterligare ett sätt som vi arbetar med är att se till att människor
             som har akademisk examen och erfarenhet från ett yrke och som
@@ -2787,8 +2525,6 @@
             bra på matematik men inte är lärare kan få en pedagogisk utbildning
             för att bli lärare i matematik.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-212" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-211">
           <seg xml:id="i-X6RZ38ARPoowgB2y3mSMfP">
             Det är en väg som vi vill pröva. Jag tror att den kommer att
             vara väldigt framgångsrik. Jag hoppas att många vill komma in
@@ -2808,15 +2544,13 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/51F39B8A-7631-41A6-AFE4-E62EBCA58918#page=25"/>
-        <u xml:id="i-41adf9c67d7efe2d-214" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-41adf9c67d7efe2d-213" next="i-41adf9c67d7efe2d-215">
+        <u xml:id="i-41adf9c67d7efe2d-214" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-41adf9c67d7efe2d-213">
           <seg xml:id="i-sCbkvEbpTob2FsVxDBuNE">
             Enligt nya uppgifter som kom den här veckan erbjuds Vattenfall
             ett pris på bara en tiondel av det som man tidigare har förespeglat.
             Bara ungefär 2–3 miljarder väntas man få för sina tillgångar i
             Tyskland.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-215" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-41adf9c67d7efe2d-214" next="i-41adf9c67d7efe2d-216">
           <seg xml:id="i-TWDeuizva5ey6A3KkQepj2">
             Med anledning av det bottenerbjudandet skulle jag vilja fråga
             statsministern: Vore det inte bättre att ge Vattenfall i uppdrag
@@ -2825,8 +2559,6 @@
             utsläpp, mer än Sveriges samlade utsläpp av växthusgaser på ett
             helt år.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-216" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-41adf9c67d7efe2d-215">
           <seg xml:id="i-JLNroUMYitvrtv5yAGx8zL">
             Det vore bättre för klimatet, och nu kan vi se att det också
             vore bättre för ekonomin, att successivt avveckla i stället för
@@ -2836,7 +2568,7 @@
         <note xml:id="i-4DC2Na5haGuMaqbzYxj9rZ" type="speaker">
           Anf. 50 Statsminister STEFAN LÖFVEN (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-217" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-218">
+        <u xml:id="i-41adf9c67d7efe2d-217" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1">
           <seg xml:id="i-EUm7thuUFF4gsmjLB8VyRz">
             Herr talman! Vattenfall har och ska ha ett tydligt uppdrag att
             successivt dra ned på sina fossila energikällor och gå över till
@@ -2844,15 +2576,11 @@
             riksdag, om att sköta verksamheten på ett affärsmässigt sätt.
             Det är rätt ordning. Den ska vi hålla fast vid.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-218" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-217" next="i-41adf9c67d7efe2d-219">
           <seg xml:id="i-7f3hZNA7jr47751Dtw3Ta2">
             Vi har sett till att ta ett helhetsgrepp om Vattenfalls styrelse,
             både när det gäller att tydliggöra klimatperspektivet för Vattenfall
             och när det gäller styrelsetillsättningen.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-219" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-218" next="i-41adf9c67d7efe2d-220">
           <seg xml:id="i-BqPvs2SJEXm2EMwe8v5nvC">
             Därutöver menar jag att det är helt rätt att det är styrelsen,
             företagets ledning, som ska hantera de konkreta affärssituationerna.
@@ -2860,8 +2588,6 @@
             De ska leva upp till reglerna och direktiven och göra det på ett
             affärsmässigt sätt.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-220" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-219">
           <seg xml:id="i-H3VtUDpLThh12ysimFBLH2">
             En sak är klar: Vattenfall kommer inte, och inte heller Sverige,
             att kunna styra Tysklands energipolitik.
@@ -2873,7 +2599,7 @@
         <note xml:id="i-4k5yPYkpgNn6Ren2J2gbu2" type="speaker">
           Anf. 51 EMMA HENRIKSSON (KD):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-222" who="i-WTUJB2R5FNpHU89dXa4RTX" next="i-41adf9c67d7efe2d-223">
+        <u xml:id="i-41adf9c67d7efe2d-222" who="i-WTUJB2R5FNpHU89dXa4RTX">
           <seg xml:id="i-XWvwF7ombw24tr3jXGzr1j">
             Herr talman! I förra veckan kom Socialstyrelsens kartläggning
             för januari över arbetet med ensamkommande barn. Man pekar särskilt
@@ -2881,28 +2607,20 @@
             inte hinner träffa alla barn som är i behov av placering, i HVB-hem
             eller i en familj.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-223" who="i-WTUJB2R5FNpHU89dXa4RTX" prev="i-41adf9c67d7efe2d-222" next="i-41adf9c67d7efe2d-224">
           <seg xml:id="i-GHSvNQCixRdTNAKF9LVjr3">
             Barnombudsmannen kom också med sin rapport som är baserad på
             samtal med ensamkommande barn. I rapporten lyfts bland annat samma
             saker fram men också att barn inte får en god man.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-224" who="i-WTUJB2R5FNpHU89dXa4RTX" prev="i-41adf9c67d7efe2d-223" next="i-41adf9c67d7efe2d-225">
           <seg xml:id="i-D54w8MUcC4Bvr95wPV2q4i">
             Det här innebär såklart risker, på boenden som kan bli otrygga
             men även för de enskilda barnen som inte får sina behov tillgodosedda.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-225" who="i-WTUJB2R5FNpHU89dXa4RTX" prev="i-41adf9c67d7efe2d-224" next="i-41adf9c67d7efe2d-226">
           <seg xml:id="i-6VJXvPQoNYLRNCwHt7xhSK">
             Kristdemokraterna föreslog före jul att vi behöver inrätta en
             nationell socialkrisjour för att hantera den svåra situation som
             många socialtjänster har.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-226" who="i-WTUJB2R5FNpHU89dXa4RTX" prev="i-41adf9c67d7efe2d-225">
           <seg xml:id="i-2j8tZMoz9HxviLSENCHG1G">
             Är regeringen beredd att vidta en sådan åtgärd för att avlasta,
             hjälpa till och se till att barnens rättigheter kan tillgodoses?
@@ -2921,7 +2639,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/51F39B8A-7631-41A6-AFE4-E62EBCA58918#page=26"/>
-        <u xml:id="i-41adf9c67d7efe2d-228" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-227" next="i-41adf9c67d7efe2d-229">
+        <u xml:id="i-41adf9c67d7efe2d-228" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-227">
           <seg xml:id="i-P4KBacrGrybcBVsDqyBPyP">
             Tidigare i veckan var jag i Mölndal och pratade med kommunledningen,
             Rädda Barnen och Kommunals fackliga företrädare om just det faktum
@@ -2929,28 +2647,20 @@
             landet handlar det om 30–40 procent. Det är klart att socialtjänsten
             då ansträngs.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-229" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-228" next="i-41adf9c67d7efe2d-230">
           <seg xml:id="i-GcnxaJHhzZTqujkVeVVp4n">
             Det var därför det var rätt av oss att ta ned antalet asylsökande.
             Vi måste kunna hantera situationen.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-230" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-229" next="i-41adf9c67d7efe2d-231">
           <seg xml:id="i-WGYNVEkRr3Cf2Ns1dDDBpj">
             Regeringen har tillfört 1 miljard över fyra år, under den här
             mandatperioden – 250 miljoner kronor per år – för att stärka upp
             den psykiska barn- och ungdomsvården. Vi ser nämligen att det
             finns ett större behov.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-231" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-230" next="i-CmC9kgXMxKf7CKRCqEjteM">
           <seg xml:id="i-3jsxvMd4mFfvX9Ne23eBwq">
             Om det ska vara en kommission eller inte får vi se, men ja, det
             ska finnas ett systematiskt arbete med kommunerna.
           </seg>
-        </u>
-        <u xml:id="i-CmC9kgXMxKf7CKRCqEjteM" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-231">
           <seg xml:id="i-K4pLRemVWb7jnHducCAVRr">
             Framtiden för svensk industri
           </seg>
@@ -2958,30 +2668,24 @@
         <note xml:id="i-Lo5v1YukNsEksmMhzAgQXX" type="speaker">
           Anf. 53 PER-ARNE HÅKANSSON (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-233" who="i-DfMBmwjfAwnb2JfXgJ9isk" next="i-41adf9c67d7efe2d-234">
+        <u xml:id="i-41adf9c67d7efe2d-233" who="i-DfMBmwjfAwnb2JfXgJ9isk">
           <seg xml:id="i-XKdfQWUC7JqUtdd413EJaE">
             Herr talman! Det går bra för stora delar av svensk industri.
             Det rapporteras allt oftare om nya investeringar, nya försäljningsrekord
             och nyanställningar.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-234" who="i-DfMBmwjfAwnb2JfXgJ9isk" prev="i-41adf9c67d7efe2d-233" next="i-41adf9c67d7efe2d-235">
           <seg xml:id="i-CCK2XcL12tFAUZpY2MNjAf">
             Samtidigt står industrin inför en rad utmaningar. Vi är mitt
             uppe i det som brukar benämnas den fjärde industriella revolutionen,
             och digitalisering och automatisering förändrar påtagligt förutsättningarna
             för produktionen. Konkurrensen blir allt hårdare.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-235" who="i-DfMBmwjfAwnb2JfXgJ9isk" prev="i-41adf9c67d7efe2d-234" next="i-Uy2DyjKcHy2L4jGQW82o9d">
           <seg xml:id="i-LYa8aeXVhCtmRg8BTKUziS">
             Men automatisering och robotisering i så kallade smarta fabriker
             gör det också mer attraktivt att tillverka i Sverige, och när
             jag är ute på företag möts jag ofta av en stark vilja från alla
             som jobbar att vara en påtaglig del av utvecklingen.
           </seg>
-        </u>
-        <u xml:id="i-Uy2DyjKcHy2L4jGQW82o9d" who="i-DfMBmwjfAwnb2JfXgJ9isk" prev="i-41adf9c67d7efe2d-235">
           <seg xml:id="i-xFJH473XRioabQonTU1qN">
             Min fråga till statsministern är därför: Vad avser statsministern
             att göra för att främja industriell produktion i Sverige?
@@ -2990,22 +2694,18 @@
         <note xml:id="i-4Yrxb3tEm24VKY4n1UURnj" type="speaker">
           Anf. 54 Statsminister STEFAN LÖFVEN (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-237" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-238">
+        <u xml:id="i-41adf9c67d7efe2d-237" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1">
           <seg xml:id="i-LGMqh69JDTc9kwGGW1qJp5">
             Herr talman! Per-Arne Håkansson gör rätt i att tala om hur vi
             stärker industrin. Det finns de i Sverige som tror att vi inte
             ska ha någon industri eller tillverkning kvar i landet. Jag menar
             att det är helt fel väg att gå.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-238" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-237" next="i-41adf9c67d7efe2d-239">
           <seg xml:id="i-Vys8hhFZKnAUnEDyrg2UWw">
             Det är därför regeringen nu utarbetar en ny industrialiseringsstrategi.
             Sverige kan ha en stark plats på en växande världsmarknad. Vi
             ska ha det, och då ska vi inte vara rädda för den nya tekniken.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-239" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-238" next="i-41adf9c67d7efe2d-240">
           <seg xml:id="i-TykP4H95f5msfDNZAjZ7z6">
             Jag citerar gärna Göran Johansson, legendariskt kommunalråd i
             Göteborg och före detta klubbordförande på SKF. Han fick en gång
@@ -3013,8 +2713,6 @@
             svarade: Nej, jag är rädd för den gamla tekniken, för den kommer
             att ta fler jobb.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-240" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-239">
           <seg xml:id="i-BUg94cXAx7W4WdVdNHyAiA">
             Vi hör rätt ofta domedagsprofetior: Om vi får den här utvecklingen
             försvinner alla jobb. Jag tror att vi ska ta vara på digitaliseringen
@@ -3031,7 +2729,7 @@
         <note xml:id="i-D7WV85gN5CL7BgvJDg7umR" type="speaker">
           Anf. 55 ÅSA COENRAADS (M):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-242" who="i-NU3HPSXKRWGcdWfzmr5Vhd" next="i-41adf9c67d7efe2d-243">
+        <u xml:id="i-41adf9c67d7efe2d-242" who="i-NU3HPSXKRWGcdWfzmr5Vhd">
           <seg xml:id="i-9V3FVB6kcAWeoP58CtiKPz">
             Herr talman! Matlandet Sverige var en satsning på svenska livsmedel
             ur flera olika perspektiv. Det var bra för produktionen, det var
@@ -3039,15 +2737,11 @@
             för exporten. Det ökade också intresset för svensk mat och svenska
             livsmedel.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-243" who="i-NU3HPSXKRWGcdWfzmr5Vhd" prev="i-41adf9c67d7efe2d-242" next="i-41adf9c67d7efe2d-244">
           <seg xml:id="i-UsgAXv1YeSh7c3x6kMLqBk">
             Vid regeringens tillträde utlovades en livsmedelsstrategi som
             skulle innehålla inte bara allt det Matlandet Sverige inte innehöll
             utan otroligt mycket mer.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-244" who="i-NU3HPSXKRWGcdWfzmr5Vhd" prev="i-41adf9c67d7efe2d-243" next="i-41adf9c67d7efe2d-245">
           <seg xml:id="i-7jGsRovNEdFJyrTFK52opn">
             Matlandet Sverige avslutades, men regeringens strategi fortsätter
             att lysa med sin frånvaro. Det har ordnats möten och seminarier
@@ -3055,8 +2749,6 @@
             Regeringens vision har varit att anta strategin med ett brett
             klubbslag i riksdagen.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-245" who="i-NU3HPSXKRWGcdWfzmr5Vhd" prev="i-41adf9c67d7efe2d-244">
           <seg xml:id="i-PB7gHvdWFobpC5NBKEcdVa">
             Propositionen som var utlovad till april dröjer nu till i juni.
             Jag vill därför fråga statsministern när vi i oppositionen kommer
@@ -3066,49 +2758,37 @@
         <note xml:id="i-NNaiEh4EsU4Uzf9Ky8SEPV" type="speaker">
           Anf. 56 Statsminister STEFAN LÖFVEN (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-246" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-247">
+        <u xml:id="i-41adf9c67d7efe2d-246" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1">
           <seg xml:id="i-SSHDiorzR7TgG15MAfACSe">
             Herr talman! Jag kan inte ge något direkt svar på vilket datum
             den propositionen kommer. Ansvariga statsrådet Bucht håller på
             att arbeta med den.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-247" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-246" next="i-41adf9c67d7efe2d-248">
           <seg xml:id="i-P3x67qXUqs7D5bLB85XuCG">
             Vi delar dock uppfattningen att det här är viktigt. Det ser man
             bland annat när man tittar på hur mycket livsmedel vi importerar
             i förhållande till hur mycket vi konsumerar i landet. Jag är säker
             på att vi skulle kunna ha en högre grad av tillverkning här.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-248" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-247" next="i-41adf9c67d7efe2d-249">
           <seg xml:id="i-TEoAY3C4zC8KD5wNiyGEb">
             Det gäller inte minst ekologiska livsmedel. Senast i dag kunde
             vi läsa att konsumtionen av ekologiska livsmedel ökar rätt dramatiskt.
             Det är bra för Sverige, för här tror jag att vi har en konkurrensfördel.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-249" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-248" next="i-41adf9c67d7efe2d-250">
           <seg xml:id="i-KpERQdkpHpAkQ5oBREnVwj">
             Jag tror också att vi har väldigt starka varumärken som går att
             göra mer av – ostar, inte minst, men det finns även andra livsmedel
             som är starka svenska varumärken.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-250" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-249" next="i-41adf9c67d7efe2d-251">
           <seg xml:id="i-GFRLe4i5yZ7LxXvGkhkDnV">
             Låt oss ta fram den här strategin tillsammans! Livsmedelssektorn
             behöver den, vill ha den och uppmanar oss att se till att slutföra
             den.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-251" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-250" next="i-9dGmUFzTBvc5WUtiYgrxCg">
           <seg xml:id="i-PCaJ1Ui395qbTwcmQ5TE3V">
             Däremot, Åsa Coenraads, kan jag tyvärr inte säga vilket datum
             den kommer. Ansvarigt statsråd håller på med den. Arbetet pågår.
           </seg>
-        </u>
-        <u xml:id="i-9dGmUFzTBvc5WUtiYgrxCg" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-251">
           <seg xml:id="i-RgBDrA9fVAjwsYaRnykdk2">
             Vi-och-de-tänkandet
           </seg>
@@ -3116,7 +2796,7 @@
         <note xml:id="i-6GxC3gGq3YEmph8qFXM9j6" type="speaker">
           Anf. 57 ANNA WALLENTHEIM (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-253" who="i-MfRf34x3k6xLdpPgFSUfMs" next="i-41adf9c67d7efe2d-254">
+        <u xml:id="i-41adf9c67d7efe2d-253" who="i-MfRf34x3k6xLdpPgFSUfMs" next="i-41adf9c67d7efe2d-255">
           <seg xml:id="i-WpEHFJMCGgRR8t5fh6oKR1">
             Herr talman och statsministern! I går var det Förintelsens minnesdag,
             en dag då vi kan minnas och hedra Förintelsens offer. Men det
@@ -3125,8 +2805,6 @@
             då vi kan minnas att bland annat människors tystnad kan vara förödande.
             Framför allt är det en dag att minnas så att vi aldrig glömmer.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-254" who="i-MfRf34x3k6xLdpPgFSUfMs" prev="i-41adf9c67d7efe2d-253" next="i-41adf9c67d7efe2d-255">
           <seg xml:id="i-FB52PXPM5PZe2Ej9yK9umN">
             I dag lever vi tyvärr i en tid då dessa fördomar inte bara hör
             till det förflutna. Både i Sverige och i Europa ser och hör vi
@@ -3134,7 +2812,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/51F39B8A-7631-41A6-AFE4-E62EBCA58918#page=28"/>
-        <u xml:id="i-41adf9c67d7efe2d-255" who="i-MfRf34x3k6xLdpPgFSUfMs" prev="i-41adf9c67d7efe2d-254">
+        <u xml:id="i-41adf9c67d7efe2d-255" who="i-MfRf34x3k6xLdpPgFSUfMs" prev="i-41adf9c67d7efe2d-253">
           <seg xml:id="i-5jwejwRuZ32bvwUqakUT6L">
             Människor har en tendens att dela in sig i ”vi och de”. Därför
             är min fråga till statsministern: Hur kan vi möta och förhindra
@@ -3144,22 +2822,18 @@
         <note xml:id="i-4ozKRuGTVpmCMwHN3NYuGD" type="speaker">
           Anf. 58 Statsminister STEFAN LÖFVEN (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-256" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-257">
+        <u xml:id="i-41adf9c67d7efe2d-256" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1">
           <seg xml:id="i-PQsiCyS9jgemj4tsupA4CG">
             Herr talman! Jag tackar mycket för den frågan, för den behövs.
             Vi måste diskutera splittring och motsättningar så mycket mer
             i vårt land.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-257" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-256" next="i-41adf9c67d7efe2d-258">
           <seg xml:id="i-sNbBSaL3yKDV4LR5q5xer">
             Jag är orolig. Bara att delta i synagogans högtidlighållande
             av minnet av dem som drabbades av Förintelsen är en oerhört stark
             upplevelse, likaså att förstå att människor känner rädsla för
             att de har en judisk identitet. Vi måste prata mycket mer om detta.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-258" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-257" next="i-41adf9c67d7efe2d-259">
           <seg xml:id="i-WonUae9GWrbrhQvMnv82c1">
             Det finns de som tror på detta och har det som ideologi. Men
             det finns alltför mycket som bygger på att vi inte möts över olika
@@ -3167,8 +2841,6 @@
             en mycket mer systematisk diskussion om hur Sverige faktiskt ska
             vara.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-259" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-258">
           <seg xml:id="i-5Mq8TvgSYNSmDK5rvfgCsi">
             Vi har gett ett utökat uppdrag till Forum för levande historia,
             bland annat gentemot skolorna, att prata om Förintelsen och utbilda
@@ -3182,7 +2854,7 @@
         <note xml:id="i-8Lj3syYiGP1bBKVVougiRQ" type="speaker">
           Anf. 59 MARIA ANDERSSON WILLNER (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-260" who="i-TNwrjSiAaaNSb2LNE2HejV" next="i-41adf9c67d7efe2d-261">
+        <u xml:id="i-41adf9c67d7efe2d-260" who="i-TNwrjSiAaaNSb2LNE2HejV">
           <seg xml:id="i-5pc9Yr7GDzvfRA5fEwfK93">
             Herr talman och statsministern! De 62 rikaste i världen äger
             i dag lika mycket som hälften av jordens befolkning. Att klyftorna
@@ -3191,23 +2863,17 @@
             till och med Världsbanken och IMF för att växande klyftor hämmar
             tillväxten.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-261" who="i-TNwrjSiAaaNSb2LNE2HejV" prev="i-41adf9c67d7efe2d-260" next="i-41adf9c67d7efe2d-262">
           <seg xml:id="i-BWp5955JT3VqsEeNARF4is">
             Men utvecklingen är möjlig att bryta. Det är dags för en Global
             deal, en uppgörelse mellan arbete och kapital om bland annat bättre
             arbetsmiljö och ett globalt lönelyft.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-262" who="i-TNwrjSiAaaNSb2LNE2HejV" prev="i-41adf9c67d7efe2d-261" next="i-41adf9c67d7efe2d-263">
           <seg xml:id="i-AcCEidcaY4gep8Qj5H5q4N">
             Hur tänker statsministern om Global deal? Hur skapar vi sjysta
             villkor för löntagare runt om i världen i samarbete och dialog
             mellan arbetsgivare och fackliga organisationer, mellan politik
             och samhälle?
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-263" who="i-TNwrjSiAaaNSb2LNE2HejV" prev="i-41adf9c67d7efe2d-262">
           <seg xml:id="i-JT4BfRiFt5r6HA7WVLpdUh">
             Jag vet att statsministern tog upp frågan om Global deal på Världsekonomiskt
             forum i Davos. Hur mottogs statsministerns initiativ?
@@ -3216,23 +2882,19 @@
         <note xml:id="i-B98Vv3QGf9J6Pppeghr3uz" type="speaker">
           Anf. 60 Statsminister STEFAN LÖFVEN (S):
         </note>
-        <u xml:id="i-41adf9c67d7efe2d-264" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-265">
+        <u xml:id="i-41adf9c67d7efe2d-264" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" next="i-41adf9c67d7efe2d-267">
           <seg xml:id="i-M9UZRZWAcmMvEK5vik4Qiy">
             Herr talman! Diskussionen om klyftor är helt avgörande för att
             vi ska kunna skapa ett samhälle där människor känner delaktighet.
             Då får inte klyftorna vara för stora. Det är en enorm brist i
             vårt land och ute i världen.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-265" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-264" next="i-41adf9c67d7efe2d-266">
           <seg xml:id="i-8akcXchLobQDzbC1mp5Ldg">
             Global deal bygger på att vi har en global ekonomi nu, och då
             har vi i grund och botten också en global arbetsmarknad. Då måste
             den arbetsmarknaden i det globala perspektivet kännetecknas av
             sjysta villkor.
           </seg>
-        </u>
-        <u xml:id="i-41adf9c67d7efe2d-266" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-265" next="i-41adf9c67d7efe2d-267">
           <seg xml:id="i-5fE3cib6oZQ621Qgscz2ar">
             Att åstadkomma det kräver en dialog mellan arbetsgivare, företag,
             arbetstagare, fackliga organisationer och samhället. Det är min
@@ -3244,7 +2906,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/51F39B8A-7631-41A6-AFE4-E62EBCA58918#page=29"/>
-        <u xml:id="i-41adf9c67d7efe2d-267" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-266">
+        <u xml:id="i-41adf9c67d7efe2d-267" who="i-Xzt52E3ZeNyJ9HLW4B5Sk1" prev="i-41adf9c67d7efe2d-264">
           <seg xml:id="i-TF41AbJwFbkBbdrqxYpWtL">
             Ja, jag mötte mycket positiva reaktioner. Jag för en dialog med
             både ILO och OECD och tänker fortsätta den.
@@ -4013,7 +3675,7 @@
         <note xml:id="i-D3AM1197TYAD62oXhTBz4S">
           Anf. 38 Statsminister STEFAN LÖFVEN (S)
         </note>
-        <u xml:id="i-6kj2z5qfeFmL4VLNvoBtg3" who="unknown">
+        <u xml:id="i-6kj2z5qfeFmL4VLNvoBtg3" who="unknown" next="i-CQ8xoDgh9cCBa6DUurM6C6">
           <seg xml:id="i-AFwNPUDbRZNUfNv5HJvhna">
             Målet om full sysselsättning
           </seg>
@@ -4078,7 +3740,7 @@
         <note xml:id="i-6ErH7pjjv1UQGnjUYPymwD">
           Anf. 52 Statsminister STEFAN LÖFVEN (S)
         </note>
-        <u xml:id="i-CQ8xoDgh9cCBa6DUurM6C6" who="unknown">
+        <u xml:id="i-CQ8xoDgh9cCBa6DUurM6C6" who="unknown" prev="i-6kj2z5qfeFmL4VLNvoBtg3" next="i-J8zoVSvdttBgCP5355Btnb">
           <seg xml:id="i-F3K17FrkksLatJK1Tbk7oE">
             Framtiden för svensk industri
           </seg>
@@ -4098,7 +3760,7 @@
         <note xml:id="i-SXNH13vkKRmnNpyJLFqXSe">
           Anf. 56 Statsminister STEFAN LÖFVEN (S)
         </note>
-        <u xml:id="i-J8zoVSvdttBgCP5355Btnb" who="unknown">
+        <u xml:id="i-J8zoVSvdttBgCP5355Btnb" who="unknown" prev="i-CQ8xoDgh9cCBa6DUurM6C6">
           <seg xml:id="i-Nc1by2w86DeEcaqS3pP9te">
             Vi-och-de-tänkandet
           </seg>

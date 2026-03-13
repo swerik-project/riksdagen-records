@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-AkLH3j61yeWoYi17xiVu6B" type="speech">
             <linkGrp type="u">
               <ptr target="#i-TwTKkVqJZiLfDg14cQ65x5"/>
@@ -377,7 +377,13 @@
               <ptr target="#i-KGGeLe9XPfFML2Udexeuj1"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -628,7 +634,7 @@
         <note xml:id="i-Q4x6rAjdXpZ6z6AqTuwbRE">
           stitutionens i Upsala hus. (Forts.)
         </note>
-        <u xml:id="i-DGxyZfwE64o6f2CWMwGUZK" who="unknown" prev="i-WBizL6sw3AjyueLD2YsDew" next="i-VpZyPt4NSCGhmnjHEkcVdN">
+        <u xml:id="i-DGxyZfwE64o6f2CWMwGUZK" who="unknown" prev="i-WBizL6sw3AjyueLD2YsDew" next="i-Y8q9dafJNgfZCuvtB7y1LM">
           <seg xml:id="i-H69PN7o6nm1f89ZEBC8Fof">
             propositionen inhemtas, för trång och för låg, och det är i synnerhet
             dess låghet, som gör den så otjenlig, emedan, när föreläsaren
@@ -636,8 +642,6 @@
             åhörarne höra hans ord, utan hvar och en måste se hvad föreläsaren
             demonstrerar om.
           </seg>
-        </u>
-        <u xml:id="i-VpZyPt4NSCGhmnjHEkcVdN" who="unknown" prev="i-DGxyZfwE64o6f2CWMwGUZK" next="i-5x2Yvq5uryWSf4MEE3QwRM">
           <seg xml:id="i-RjpS8H7pu2JM3qyiqEwBqY">
             Detta är icke möjligt utan att salen har den höjd, att bänkarne
             kunna anbringas i amfiteatralisk ställning, hvilket här är omöjligt,
@@ -678,8 +682,6 @@
             resultat, som visar sig vid dissektionerna, är icke sådant, som
             det skulle vara, om materialet vore friskt.
           </seg>
-        </u>
-        <u xml:id="i-5x2Yvq5uryWSf4MEE3QwRM" who="unknown" prev="i-VpZyPt4NSCGhmnjHEkcVdN" next="i-Y8q9dafJNgfZCuvtB7y1LM">
           <seg xml:id="i-5EDZ4ejFjiDtQfR1xPMqho">
             Hvad den förskämda luften angår, vill jag anföra några talande
             siffror. Den nuvarande dissektionssalen är 40 fot lång, 19!/,
@@ -699,13 +701,11 @@
         <note xml:id="i-71xZawBVT8cHoFqCdUv6N9">
           N:o 21.
         </note>
-        <u xml:id="i-Y8q9dafJNgfZCuvtB7y1LM" who="unknown" prev="i-5x2Yvq5uryWSf4MEE3QwRM" next="i-LQJMZEzPM7xgkU9Cfod1eE">
+        <u xml:id="i-Y8q9dafJNgfZCuvtB7y1LM" who="unknown" prev="i-DGxyZfwE64o6f2CWMwGUZK" next="i-QuoPhEBcF5dhYVX1nFuTVa">
           <seg xml:id="i-6mvFpABVWVhe9Hn4Q9ETF4">
             tvärtom med den mest fullständiga ventilation fordras ett utrymme
             af Tillbyggnad af
           </seg>
-        </u>
-        <u xml:id="i-LQJMZEzPM7xgkU9Cfod1eE" who="unknown" prev="i-Y8q9dafJNgfZCuvtB7y1LM" next="i-9Vk7VZbfGPpF4ace6wbb2i">
           <seg xml:id="i-9L96CJPhGqNmp35sSiZwXK">
             210 å 250 kubikfot. Då det i folkskolorna erfordras 250 kubikfot,
             har man i denna dissektionssal blott 156 kubikfot per person!
@@ -723,8 +723,6 @@
             detta trängande behof, så tror jag icke, att någon fara för statsbudgeten
             derutaf skall uppkomma.
           </seg>
-        </u>
-        <u xml:id="i-9Vk7VZbfGPpF4ace6wbb2i" who="unknown" prev="i-LQJMZEzPM7xgkU9Cfod1eE" next="i-DdACsKvhNGpiBbRwHrG6S1">
           <seg xml:id="i-X5kfTL2CsbNdazGyMoiaYh">
             Om det af Grefve Hamilton framstälda förslag att nedsätta summan
             till 40,000 kronor — hvarmed, enligt hans försäkran, flygeln åt
@@ -733,8 +731,6 @@
             förmedlingsförslag, ehuru jag tycker att skilnaden är så ringa,
             att det knappast är skäl att afvika från Kongl. Maj:ts förslag.
           </seg>
-        </u>
-        <u xml:id="i-DdACsKvhNGpiBbRwHrG6S1" who="unknown" prev="i-9Vk7VZbfGPpF4ace6wbb2i" next="i-QuoPhEBcF5dhYVX1nFuTVa">
           <seg xml:id="i-QNJBZPpeeC6TdEfhD66ZGR">
             Slutligen vill jag påpeka, att anatomien utan tvifvel är den
             nära nog vigtigaste delen af läkarestudierna, ty först derigenom
@@ -779,7 +775,7 @@
         <note xml:id="i-C2AN3sNAfjrcTXo5tTpoxa" type="date">
           6 Torsdagen den 28 Mars, e. m.
         </note>
-        <u xml:id="i-QuoPhEBcF5dhYVX1nFuTVa" who="unknown" prev="i-DdACsKvhNGpiBbRwHrG6S1" next="i-58GkhBk6Cpa41JncuEPXuo">
+        <u xml:id="i-QuoPhEBcF5dhYVX1nFuTVa" who="unknown" prev="i-Y8q9dafJNgfZCuvtB7y1LM" next="i-58GkhBk6Cpa41JncuEPXuo">
           <seg xml:id="i-VRvsC7CDmZjyYVwq68ZTbS">
             Tillbyggnad af styrka detta anslag, äfven om detta stora behof
             verkligen skulle hafva anatomiska in så, plötsligen inträffat.
@@ -789,7 +785,7 @@
         <note xml:id="i-HBmZi3G1dY1TvmiJxYBXHf">
           stitutionens i Upsala hus. (Forts.)
         </note>
-        <u xml:id="i-58GkhBk6Cpa41JncuEPXuo" who="unknown" prev="i-QuoPhEBcF5dhYVX1nFuTVa" next="i-Sfb3i1EAfhwd5qcvRKFAmJ">
+        <u xml:id="i-58GkhBk6Cpa41JncuEPXuo" who="unknown" prev="i-QuoPhEBcF5dhYVX1nFuTVa" next="i-3YpkeaX1XRZS6DVa2fzTd2">
           <seg xml:id="i-BTudFEC2vZ5ggQeuWrFYDC">
             år 1875 uppgick det till mellan 60 och 72, och oaktadt denna
             betydliga tillökning skedde icke någon framställning om ökadt
@@ -803,8 +799,6 @@
             detta kan hjelpas genom att tillgodose prosektorn på annat sätt,
             så att utrymmet för samlingarne icke må saknas.
           </seg>
-        </u>
-        <u xml:id="i-Sfb3i1EAfhwd5qcvRKFAmJ" who="unknown" prev="i-58GkhBk6Cpa41JncuEPXuo" next="i-Lwejhj9gHerwMyRQvS6WH9">
           <seg xml:id="i-WvrGY1tFmPHTXBCWbA31QP">
             En annan omständighet är den, att man har i allmänhet svårt att
             göra sig reda för, huru akademiens egna tillgångar kunna räcka
@@ -821,8 +815,6 @@
             detta, emedan deri ligger, synes mig, att det måste finnas medel
             till att göra detta.
           </seg>
-        </u>
-        <u xml:id="i-Lwejhj9gHerwMyRQvS6WH9" who="unknown" prev="i-Sfb3i1EAfhwd5qcvRKFAmJ" next="i-3a4qUWjooSP3em2NuEpMvc">
           <seg xml:id="i-6tUVsexLu6xw5rv5pJ2FUm">
             Jag har här i min hand akademiens kassaräkenskaper för år 1877
             och man kan dervid göra den observation, att akademiens tillgångar
@@ -843,8 +835,6 @@
             på, i hvilken ställning akademiens medel befinna sig, haft inflytande
             på en och annan af Stats-Utskottets ledamöter.
           </seg>
-        </u>
-        <u xml:id="i-3a4qUWjooSP3em2NuEpMvc" who="unknown" prev="i-Lwejhj9gHerwMyRQvS6WH9" next="i-3YpkeaX1XRZS6DVa2fzTd2">
           <seg xml:id="i-Hxcc6TAbo9omSSEky14nqX">
             Det har blifvit sagdt utaf en talare, att man skulle hysa bekymmer
             för att denna byggnad vore otillräcklig äfven under de tre byggnadsåren.
@@ -858,15 +848,13 @@
         <note xml:id="i-FRu7Q1TXoFpXZ7mbuVLLds" type="date">
           Torsdagen den 28 Mars, e. m. Z N:o 21.
         </note>
-        <u xml:id="i-3YpkeaX1XRZS6DVa2fzTd2" who="unknown" prev="i-3a4qUWjooSP3em2NuEpMvc" next="i-YnpGMKd3iXhqwjDMmzYRk">
+        <u xml:id="i-3YpkeaX1XRZS6DVa2fzTd2" who="unknown" prev="i-58GkhBk6Cpa41JncuEPXuo">
           <seg xml:id="i-6EiMtLrSPFTsj4coB6JNto">
             Jag har endast tillåtit mig att i korthet framlägga de skäl,
             som Tillbyggnad af bestämt mig för att biträda Stats-Utskottets
             förslag, och mitt hufvudanatomiska. ins sakliga skäl är verkligen,
             att jag finner det vara svårt att, om detta Bijugionena !
           </seg>
-        </u>
-        <u xml:id="i-YnpGMKd3iXhqwjDMmzYRk" who="unknown" prev="i-3YpkeaX1XRZS6DVa2fzTd2">
           <seg xml:id="i-WScsMGmqTk52F5UF6t9SbU">
             RR sä 5 s s . sv psala hus. anslag beviljas, vägra det för Karolinska
             institutet begärda anslags- = ”(Forts.) belopp. Jag yrkar bifall
@@ -876,7 +864,7 @@
         <note xml:id="i-NRgcjFx6fyNgrrdyMwvx1m" type="speaker">
           Herr von Kremer:
         </note>
-        <u xml:id="i-Whqvty2LrHeUukQ8TgnSkE" who="unknown" next="i-SUnmEV4aQwj6X6o9XRzwzU">
+        <u xml:id="i-Whqvty2LrHeUukQ8TgnSkE" who="unknown" next="i-NxTTjeYiHSKiPzcPayDA4V">
           <seg xml:id="i-SKmVWWwLcPrf2CWWmVPdaz">
             Jag har egentligen begärt ordet för att lugna Kammaren för den
             förskräckelse, som möjligen skulle hafva kunnat gripa en och annan
@@ -897,8 +885,6 @@
             ordspråket: den som bevisar för mycket, bevisar ingenting. Man
             kan icke undgå att märka, att i denna beskrifning ligger en öfverdrift.
           </seg>
-        </u>
-        <u xml:id="i-SUnmEV4aQwj6X6o9XRzwzU" who="unknown" prev="i-Whqvty2LrHeUukQ8TgnSkE" next="i-LA5YEYGPmbcFUDRSrdTJrM">
           <seg xml:id="i-UrQuGBpoHPRKhXm4gqKmRc">
             Att, såsom den siste talaren invände, man borde kunna reda sig
             med de nuvarande förhållandena, emedan man icke förr begärt detta
@@ -912,8 +898,6 @@
             olika ändamål, har också icke kunnat annat än tillstyrka detta
             anslag.
           </seg>
-        </u>
-        <u xml:id="i-LA5YEYGPmbcFUDRSrdTJrM" who="unknown" prev="i-SUnmEV4aQwj6X6o9XRzwzU" next="i-Bbpbzew5RoqBdidtJWXb7S">
           <seg xml:id="i-REdohDPDh2Eqocqj8bMKyJ">
             Att, på sätt den siste talaren yttrade, fakultetens bekymmer
             för utrymme särskildt under de tre byggnadsåren skulle komma deraf,
@@ -932,8 +916,6 @@
             blott fråga om ett anslag för tre år och derföre kan den nyssnämnda
             principen icke för mig gälla i detta fall.
           </seg>
-        </u>
-        <u xml:id="i-Bbpbzew5RoqBdidtJWXb7S" who="unknown" prev="i-LA5YEYGPmbcFUDRSrdTJrM" next="i-NxTTjeYiHSKiPzcPayDA4V">
           <seg xml:id="i-7cSS85E8TZjc67wCE7QXK6">
             Jag anser mig således äfven ur denna synpunkt oförhindrad att
           </seg>
@@ -945,7 +927,7 @@
         <note xml:id="i-SmXxeazvkPVmZsjpYBVe8v" type="date">
           8 Torsdagen den 28 Mars, e. m.
         </note>
-        <u xml:id="i-NxTTjeYiHSKiPzcPayDA4V" who="unknown" prev="i-Bbpbzew5RoqBdidtJWXb7S">
+        <u xml:id="i-NxTTjeYiHSKiPzcPayDA4V" who="unknown" prev="i-Whqvty2LrHeUukQ8TgnSkE">
           <seg xml:id="i-KBHprqX1fuJBe5jKRfJDk5">
             Tillbyggnad af fortfarande yrka bifall till Kongl. Maj:ts förslag
             med den af Grefve
@@ -1016,7 +998,7 @@
         <note xml:id="i-25zBoZ3dY89TXPioWFKA1v" type="date">
           Torsdagen den 28 Mars, e. m. 9 N:o 21.
         </note>
-        <u xml:id="i-GTCSH7TUs3m8abXpTkfWMH" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-THaV2LJao37rKmRqPsuFdw" next="i-2uELDWh8eqfXT5K8rTggmj">
+        <u xml:id="i-GTCSH7TUs3m8abXpTkfWMH" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-THaV2LJao37rKmRqPsuFdw">
           <seg xml:id="i-W6K3s9oY7dVcfSMovSZo3E">
             Det är sant, att med afseende å det betydliga hemmantal, uni-
             Tillbyggnad af versitetet eger, det synes vara ett obetydligt
@@ -1040,8 +1022,6 @@
             fel att de belopp, som till en sådan byggnad kunna disponeras,
             icke äro större än hvad de för närvarande äro.
           </seg>
-        </u>
-        <u xml:id="i-2uELDWh8eqfXT5K8rTggmj" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-GTCSH7TUs3m8abXpTkfWMH">
           <seg xml:id="i-9YtHadfPMHJGRdgQBK6gpy">
             Jag skall icke gå frågorna i förväg genom att för närvarande
             tala om de följande punkterna, men om Kammaren är öfvertygad om
@@ -1214,7 +1194,7 @@
         <note xml:id="i-QZ8FakD2qgWkzLZLME4jg5" type="speaker">
           Friherre von Essen:
         </note>
-        <u xml:id="i-DDDV23uVh1n4Mw23DDSVTV" who="i-RQ7DisaShnLmZ3DuVbxYXg" next="i-P65dGbt1xUAMwWYofcKuBA">
+        <u xml:id="i-DDDV23uVh1n4Mw23DDSVTV" who="i-RQ7DisaShnLmZ3DuVbxYXg" next="i-AaeVLDQYm98Y8Fzvndqiyn">
           <seg xml:id="i-Xc4J594Njf1YzJJhuh7aqt">
             Då det bör vara af intresse för Kammaren att taga i betraktande,
             uti hvilken ställning budgeten kan komma vid uppgörande af det
@@ -1224,8 +1204,6 @@
             fråga har så nära beröring med den fråga, som nu föreligger till
             afgörande, att jag tror det derföre vara skäl att taga den i öfvervägande.
           </seg>
-        </u>
-        <u xml:id="i-P65dGbt1xUAMwWYofcKuBA" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-DDDV23uVh1n4Mw23DDSVTV" next="i-AaeVLDQYm98Y8Fzvndqiyn">
           <seg xml:id="i-Uou4va6RSNkoGAUQhxQUiK">
             Jag saknar för närvarande erforderliga handlingar för att lemna
             fullt exakta uppgifter, men jag vill påminna mig att man beräknat
@@ -1244,7 +1222,7 @@
         <note xml:id="i-98AJyG2aUpG2AnYrVFAUet" type="date">
           12 Torsdagen den 28 Mars, e. m.
         </note>
-        <u xml:id="i-AaeVLDQYm98Y8Fzvndqiyn" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-P65dGbt1xUAMwWYofcKuBA" next="i-DLDWbDhUrBAy7YiMuyv8Ls">
+        <u xml:id="i-AaeVLDQYm98Y8Fzvndqiyn" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-DDDV23uVh1n4Mw23DDSVTV" next="i-DLDWbDhUrBAy7YiMuyv8Ls">
           <seg xml:id="i-VDvtAhddvRVPTpnRvodrLt">
             Tillbyggnad af vidhåller sitt förra året fattade beslut derom
             att 600,000 kronor för
@@ -1253,7 +1231,7 @@
         <note xml:id="i-Y3TqS13iorsn3sLft9i6Wt">
           anatomiska institutionens i Upsala hus. (Forts.)
         </note>
-        <u xml:id="i-DLDWbDhUrBAy7YiMuyv8Ls" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-AaeVLDQYm98Y8Fzvndqiyn" next="i-PcczQJao8Mqx1pCL3Cs4t6">
+        <u xml:id="i-DLDWbDhUrBAy7YiMuyv8Ls" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-AaeVLDQYm98Y8Fzvndqiyn">
           <seg xml:id="i-X4RPHF7BMkpnmGRfeYbptq">
             år 1879 skola af de löpande årsinkomsterna utgå till låneunderstöd
             för sjön Hjelmarens sänkning. Herr Finansministern har varit af
@@ -1270,8 +1248,6 @@
             lemnas och följaktligen äfven: det för Karolinska institutet,
             som kan anses nära nog lika trängande.
           </seg>
-        </u>
-        <u xml:id="i-PcczQJao8Mqx1pCL3Cs4t6" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-DLDWbDhUrBAy7YiMuyv8Ls">
           <seg xml:id="i-yoh2XQJYrm7CvuCHQiFy3">
             En talare har i afseende å det behof, som i Kongl. Maj:ts proposition
             framstälts angående Karolinska institutet sagt, att den skildring,
@@ -1377,70 +1353,48 @@
           för den fysiska Grefve Hamilton: Jag vet inte, huruvida Kammarens
           nyss fattade institutionen
         </note>
-        <u xml:id="i-VSwhMZTtnGd3ZJnL9qXniu" who="unknown" prev="i-K6F7ny3fWdbPumM9Wszsjb" next="i-9bnr6SX5EgFJdmKzqvgXaG">
+        <u xml:id="i-VSwhMZTtnGd3ZJnL9qXniu" who="unknown" prev="i-K6F7ny3fWdbPumM9Wszsjb" next="i-5Zaw3nF65c9o1svz9VVXuk">
           <seg xml:id="i-HurQGG2sef6QqRRLYX1FJY">
             beslut får tolkas såsom någon särskild afvoghet mot den medicinska
             vid universitet
           </seg>
-        </u>
-        <u xml:id="i-9bnr6SX5EgFJdmKzqvgXaG" who="unknown" prev="i-VSwhMZTtnGd3ZJnL9qXniu" next="i-AH1TNKpRyoeUCuMhnPFsXe">
           <seg xml:id="i-PqQQoWe3G2c7rLYcgz9SgL">
             undervisningen eller om det gäller byggnadsanslag i allmänhet.
             Under 7 Lund.
           </seg>
-        </u>
-        <u xml:id="i-AH1TNKpRyoeUCuMhnPFsXe" who="unknown" prev="i-9bnr6SX5EgFJdmKzqvgXaG" next="i-5m2GYhWLKJ6cZoq5XLpjEV">
           <seg xml:id="i-WxKfJy3YvYuRdnqgXXWxWF">
             förutsättning, att Kammaren likväl vill vid sina beslut söka
             att be-
           </seg>
-        </u>
-        <u xml:id="i-5m2GYhWLKJ6cZoq5XLpjEV" who="unknown" prev="i-AH1TNKpRyoeUCuMhnPFsXe" next="i-Esr5AFH7Vr3ptmbuCFxkcD">
           <seg xml:id="i-m3uzgrGuzr4gd1wfgxYQg">
             främja vetenskapens utveckling inom vårt land och göra det på
             det sätt,
           </seg>
-        </u>
-        <u xml:id="i-Esr5AFH7Vr3ptmbuCFxkcD" who="unknown" prev="i-5m2GYhWLKJ6cZoq5XLpjEV" next="i-EkoDGpqckrwPvecgkqaVEC">
           <seg xml:id="i-BFSpTXBQYove3CLD9vTRtV">
             som blefve för staten minst kostsamt, kan Jag icke underlåta
             att an-
           </seg>
-        </u>
-        <u xml:id="i-EkoDGpqckrwPvecgkqaVEC" who="unknown" prev="i-Esr5AFH7Vr3ptmbuCFxkcD" next="i-Py553jDUiuGfNoTz9BzMKz">
           <seg xml:id="i-V9t5n1uCBm713FNuYkc5pi">
             hålla om bifall till Kongl. Maj:ts proposition i denna punkt.
             Behofvet
           </seg>
-        </u>
-        <u xml:id="i-Py553jDUiuGfNoTz9BzMKz" who="unknown" prev="i-EkoDGpqckrwPvecgkqaVEC" next="i-STsw8TMKcC4LgNEkLqHF56">
           <seg xml:id="i-KrPfZxngGW6TTta96VrZtg">
             af den byggnad, som nu är af Kongl. Maj:t ifrågasatt, torde jag
             knap-
           </seg>
-        </u>
-        <u xml:id="i-STsw8TMKcC4LgNEkLqHF56" who="unknown" prev="i-Py553jDUiuGfNoTz9BzMKz" next="i-JowaQaFrA4bkP2Pzghbu3">
           <seg xml:id="i-CXiTFgJhCjCQv6ZWaMHubS">
             past behöfva här beröra. Det är ådagalagdt, att den fysiska institu-
           </seg>
-        </u>
-        <u xml:id="i-JowaQaFrA4bkP2Pzghbu3" who="unknown" prev="i-STsw8TMKcC4LgNEkLqHF56" next="i-93un9TMay9714jTaUvnoX7">
           <seg xml:id="i-WsGGQYzfzo9xn5YD9UY1Gs">
             tionen i Lund saknar nödigt utrymme, liksom det torde vara Kamma-
           </seg>
-        </u>
-        <u xml:id="i-93un9TMay9714jTaUvnoX7" who="unknown" prev="i-JowaQaFrA4bkP2Pzghbu3" next="i-XwRVBFVWMURuaFBGRG7ngh">
           <seg xml:id="i-JSujL489pHxFrtxafMKUzL">
             rens ledamöter väl bekant, att en mot nutidens fordringar svarande
           </seg>
-        </u>
-        <u xml:id="i-XwRVBFVWMURuaFBGRG7ngh" who="unknown" prev="i-93un9TMay9714jTaUvnoX7" next="i-HNndXYTyfah9i4gDGqSyN2">
           <seg xml:id="i-QSUiN6dJzbCa9B22r8C8Ds">
             undervisning i fysik icke kan ega rum utan tillräckligt utrymme
             för de
           </seg>
-        </u>
-        <u xml:id="i-HNndXYTyfah9i4gDGqSyN2" who="unknown" prev="i-XwRVBFVWMURuaFBGRG7ngh" next="i-5Zaw3nF65c9o1svz9VVXuk">
           <seg xml:id="i-6CTmkUj5AoyASWZtJ6V4YS">
             experiment, som dermed måste vara förenade. Med afseende å be-
           </seg>
@@ -1455,13 +1409,11 @@
         <note xml:id="i-VJM7tgkcH9vKuzZcTG9f6J" type="date">
           14 Torsdagen den 28 Mars, e. m.
         </note>
-        <u xml:id="i-5Zaw3nF65c9o1svz9VVXuk" who="unknown" prev="i-HNndXYTyfah9i4gDGqSyN2" next="i-6BzKE8xbkocXs5Wh31RJTL">
+        <u xml:id="i-5Zaw3nF65c9o1svz9VVXuk" who="unknown" prev="i-VSwhMZTtnGd3ZJnL9qXniu" next="i-WsQV6oJqgq2V4ycSGeMDSY">
           <seg xml:id="i-91X8eFGmQE5WryJ8xDxNwH">
             hofvet torde jag således icke behöfva vidare något tillägga.
             Det är blott en
           </seg>
-        </u>
-        <u xml:id="i-6BzKE8xbkocXs5Wh31RJTL" who="unknown" prev="i-5Zaw3nF65c9o1svz9VVXuk" next="i-WsQV6oJqgq2V4ycSGeMDSY">
           <seg xml:id="i-U53A5fx97FcowkVohpn3Mr">
             för den fysiska upplysning, som jag tror mig böra lemna, nemligen
             att, om detta är
@@ -1470,7 +1422,7 @@
         <note xml:id="i-TyNLZADyBfMqY2vHcC7rTE">
           institutionen i Lund. (Forts.)
         </note>
-        <u xml:id="i-WsQV6oJqgq2V4ycSGeMDSY" who="unknown" prev="i-6BzKE8xbkocXs5Wh31RJTL" next="i-TN35r3uY1FnPoXc6RNtfVS">
+        <u xml:id="i-WsQV6oJqgq2V4ycSGeMDSY" who="unknown" prev="i-5Zaw3nF65c9o1svz9VVXuk">
           <seg xml:id="i-M8yuQEa9EkGD2TNi2xVJMT">
             ett behof, som förr eller senare måste tillfredsställas, så finnes
             det två särskilda anledningar att göra det ju förr desto hellre.
@@ -1497,8 +1449,6 @@
             då en bättre konjunktur yppar sig, och att således det nu begärda
             anslaget för framtiden icke skulle blifva tillräckligt.
           </seg>
-        </u>
-        <u xml:id="i-TN35r3uY1FnPoXc6RNtfVS" who="unknown" prev="i-WsQV6oJqgq2V4ycSGeMDSY">
           <seg xml:id="i-JZuyiQGYZNzyp8Vn1m111e">
             Af dessa skäl kan jag icke annat än yrka, att Kammaren måtte
             bifalla Kongl. Maj:ts proposition i denna punkt, hvarom jag hos
@@ -1555,7 +1505,7 @@
         <note xml:id="i-91ZeKf6bF2Wh7Skrxsxixw" type="speaker">
           Grefve Horn:
         </note>
-        <u xml:id="i-TELtjgcA1wysqfg9H9epjr" who="i-L1NSsf1GiTyxTmkwUCJpg8" next="i-CxqtokrS5w8W3ruEUTWJGf">
+        <u xml:id="i-TELtjgcA1wysqfg9H9epjr" who="i-L1NSsf1GiTyxTmkwUCJpg8" next="i-N4M7Z6v3JKiLrfetcXq52i">
           <seg xml:id="i-6Uxw6c8Eg7WWMiNUHripUi">
             Hvar och en jemrar sig mer och mindre vid denna riksdag, då han
             vill hafva fram ett anslag, och sorgligt är verkligen, att ganska
@@ -1564,8 +1514,6 @@
             förhållandet med den fråga, som genom Herrar Lyths med fieres
             motion blifvit bragt under Riksdagens pröfning.
           </seg>
-        </u>
-        <u xml:id="i-CxqtokrS5w8W3ruEUTWJGf" who="i-L1NSsf1GiTyxTmkwUCJpg8" prev="i-TELtjgcA1wysqfg9H9epjr" next="i-LsZ1NsM562FsxnrfAeHZ47">
           <seg xml:id="i-H8eMAvjALfUVzVDe3cdZCS">
             Förr än Visbys nuvarande läroverksbyggnad uppfördes, funnos der
             två läroverksbyggnader, en för det lägre läroverket och en för
@@ -1586,8 +1534,6 @@
             en byggnad, som skulle rymma 200, emedan man antog, att för framtiden
             flera icke skulle komma att begagna skolan.
           </seg>
-        </u>
-        <u xml:id="i-LsZ1NsM562FsxnrfAeHZ47" who="i-L1NSsf1GiTyxTmkwUCJpg8" prev="i-CxqtokrS5w8W3ruEUTWJGf" next="i-QxUf4tFdm1wsBwPBDLDHZp">
           <seg xml:id="i-G9SXin4bXV7YhpGdDyjcX9">
             Med anledning af denna hemställan afgaf emellertid Kongl. Maj:t
             en nådig proposition till 1854 års Riksdag, och Riksdagen biföll
@@ -1598,13 +1544,9 @@
             byggnaden skulle kunna uppföras, måste derför byggnadskassan på
             sin kredit under amorteringsskyldighet upplåna ett större belopp.
           </seg>
-        </u>
-        <u xml:id="i-QxUf4tFdm1wsBwPBDLDHZp" who="i-L1NSsf1GiTyxTmkwUCJpg8" prev="i-LsZ1NsM562FsxnrfAeHZ47" next="i-95xGyoYuKvcYfZJezaHfvS">
           <seg xml:id="i-RAWznC7N9WbLEJJMfttJfg">
             Af detta lån återstår ännu obetaldt 23,985 kronor 32 öre.
           </seg>
-        </u>
-        <u xml:id="i-95xGyoYuKvcYfZJezaHfvS" who="i-L1NSsf1GiTyxTmkwUCJpg8" prev="i-QxUf4tFdm1wsBwPBDLDHZp" next="i-MZer6vRjRZ3eix56pcCRn5">
           <seg xml:id="i-5mHZohWiZZWapdwfomaBJ5">
             Stiftets byggnadskassa, som egentligen skall bygga skolhus, har
             således icke några medel att tillgå för ifrågavarande byggnad.
@@ -1612,8 +1554,6 @@
             till staden, om den frivilligt vill gå in på att bidraga, eller
             landstinget eller Riksdagen.
           </seg>
-        </u>
-        <u xml:id="i-MZer6vRjRZ3eix56pcCRn5" who="i-L1NSsf1GiTyxTmkwUCJpg8" prev="i-95xGyoYuKvcYfZJezaHfvS" next="i-N4M7Z6v3JKiLrfetcXq52i">
           <seg xml:id="i-D578kWeyYzCzgipv6Uh2fP">
             Hvad staden beträffar, så har den ansetts icke kunna förpligtas
           </seg>
@@ -1634,7 +1574,7 @@
         <note xml:id="i-LyWFTSxN7X8jGVYnGAMV8T" type="date">
           16 Torsdagen den 28 Mars, e. m.
         </note>
-        <u xml:id="i-N4M7Z6v3JKiLrfetcXq52i" who="i-L1NSsf1GiTyxTmkwUCJpg8" prev="i-MZer6vRjRZ3eix56pcCRn5" next="i-VAdHs7SfcH4pJdj25W32gP">
+        <u xml:id="i-N4M7Z6v3JKiLrfetcXq52i" who="i-L1NSsf1GiTyxTmkwUCJpg8" prev="i-TELtjgcA1wysqfg9H9epjr" next="i-HpfSn8yNbCAqrW3zb7hd5U">
           <seg xml:id="i-Vva4vw8DQQh42VK1exPkvE">
             att betala till en sådan byggnad, och i allt fall har staden
             åtagit sig stora utgifter såsom t. ex. aktier till ett belopp
@@ -1645,8 +1585,6 @@
             vatten öfver hufvudet och må rimligen icke anses kunna till ifrågavarande
             byggnadsföretag bidraga.
           </seg>
-        </u>
-        <u xml:id="i-VAdHs7SfcH4pJdj25W32gP" who="i-L1NSsf1GiTyxTmkwUCJpg8" prev="i-N4M7Z6v3JKiLrfetcXq52i" next="i-Lu69EmuYURMJ45wYh4N9Fd">
           <seg xml:id="i-Wb1kCzgBswFdP8EVS4tVVf">
             Hvad landstinget beträffar, så känna vi allt för väl, hvilka
             svårigheter det är att få landsting i allmänhet att bidraga till
@@ -1659,8 +1597,6 @@
             beräknas skola kosta 30,000 kronor, påräknar man att landstinget
             skall lemna medlen.
           </seg>
-        </u>
-        <u xml:id="i-Lu69EmuYURMJ45wYh4N9Fd" who="i-L1NSsf1GiTyxTmkwUCJpg8" prev="i-VAdHs7SfcH4pJdj25W32gP" next="i-N22zPWfrG9EBQVXoUsLCLc">
           <seg xml:id="i-J6w8PWLANfgH3yCyD5RKBm">
             Då återstår endast Riksdagen att anlita, och dess bidrag torde
             hufvudsakligen bero på och bör bero på om behof verkligen förefinnes,
@@ -1670,8 +1606,6 @@
             antal nu nära 50 9/, högre än det högsta antal, som varit beräknadt
             att rymmas i skolans byggnad.
           </seg>
-        </u>
-        <u xml:id="i-N22zPWfrG9EBQVXoUsLCLc" who="i-L1NSsf1GiTyxTmkwUCJpg8" prev="i-Lu69EmuYURMJ45wYh4N9Fd" next="i-EzsGGpLRQ7Dz58uScuJ4kk">
           <seg xml:id="i-5mdZxnqd7SCYzmVhPJBJKP">
             Vidare har i följd af senare författningar blifvit bestämdt,
             att i Visby skall finnas en särskild realklass och åtskilliga
@@ -1681,16 +1615,12 @@
             som det varit önskligt, och vidare har staden upplåtit åt skolan
             några rum i Rådhuset att begagna några timmar om dagen.
           </seg>
-        </u>
-        <u xml:id="i-EzsGGpLRQ7Dz58uScuJ4kk" who="i-L1NSsf1GiTyxTmkwUCJpg8" prev="i-N22zPWfrG9EBQVXoUsLCLc" next="i-QccfASqRyXD6jLee1UaNZV">
           <seg xml:id="i-QZrp1zZP5rdWfinKWJGr4T">
             Skolan har således sin verksamhet på tre ställen, och det säger
             sig sjelft, att en sådan verksamhet icke kan vara särdeles lycklig,
             och hvad kontrollen på skolan beträffar af den, som den åligger,
             så är den ganska svår.
           </seg>
-        </u>
-        <u xml:id="i-QccfASqRyXD6jLee1UaNZV" who="i-L1NSsf1GiTyxTmkwUCJpg8" prev="i-EzsGGpLRQ7Dz58uScuJ4kk" next="i-RyncegLEva268uf6RSKbfY">
           <seg xml:id="i-NCnrUuq9V3NA5cxCdsxD2Y">
             Jag tror derför, att förhållanden inträffat, som göra det nödigt
             för Riksdagen att mellankomma för att få skolan i det skick, att
@@ -1698,8 +1628,6 @@
             sig lärjungar, som komma för att ingå i skolan; ty allt har en
             gräns, skolan kan verkligen icke rymma flera.
           </seg>
-        </u>
-        <u xml:id="i-RyncegLEva268uf6RSKbfY" who="i-L1NSsf1GiTyxTmkwUCJpg8" prev="i-QccfASqRyXD6jLee1UaNZV" next="i-7V7foWYGqN9evcTzxGfNw1">
           <seg xml:id="i-3tHq6HUPXPaApUMVT1iUZj">
             Stats-Utskottet har bland sina motiv för afslag upptagit, att
             »staten endast undantagsvis bör betungas med kostnader för uppförande
@@ -1707,8 +1635,6 @@
             nog, men i detta fall är den icke tillämplig, då det verkligen
             är visadt, att här uppstått ett stort behof.
           </seg>
-        </u>
-        <u xml:id="i-7V7foWYGqN9evcTzxGfNw1" who="i-L1NSsf1GiTyxTmkwUCJpg8" prev="i-RyncegLEva268uf6RSKbfY" next="i-HpfSn8yNbCAqrW3zb7hd5U">
           <seg xml:id="i-F7GiXG2J5kKwfCTKQPFmbo">
             Det andra skälet, eller att Kongl. Maj:t icke framlagt frågan
             för Riksdagen, är också möjligen ganska vigtigt; och det hade
@@ -1722,7 +1648,7 @@
         <note xml:id="i-QjNRpgv6CWYbzeygvvNcF7" type="date">
           Torsdagen den 28 Mars, e. m. 17
         </note>
-        <u xml:id="i-HpfSn8yNbCAqrW3zb7hd5U" who="i-L1NSsf1GiTyxTmkwUCJpg8" prev="i-7V7foWYGqN9evcTzxGfNw1" next="i-6V52HgvAQuaw7GENX4n6Ae">
+        <u xml:id="i-HpfSn8yNbCAqrW3zb7hd5U" who="i-L1NSsf1GiTyxTmkwUCJpg8" prev="i-N4M7Z6v3JKiLrfetcXq52i" next="i-6V52HgvAQuaw7GENX4n6Ae">
           <seg xml:id="i-XgJC6wKwUA6mYbf3Q5sCMw">
             Hvad beträffar Riksdagens åtgöranden förut i dylika frågor, så
             har det varit mycket vanligt, att Riksdagen lemnat anslag. Så
@@ -1749,7 +1675,7 @@
         <note xml:id="i-Th2bFRhKqKGCwB4sPHrFZE">
           kronor.
         </note>
-        <u xml:id="i-6V52HgvAQuaw7GENX4n6Ae" who="i-L1NSsf1GiTyxTmkwUCJpg8" prev="i-HpfSn8yNbCAqrW3zb7hd5U" next="i-Hz6okGgfBeWi5swE3bCK3P">
+        <u xml:id="i-6V52HgvAQuaw7GENX4n6Ae" who="i-L1NSsf1GiTyxTmkwUCJpg8" prev="i-HpfSn8yNbCAqrW3zb7hd5U">
           <seg xml:id="i-AWqUSQcgeJPT3fY3cBSahv">
             Jag för min del tror att, om Riksdagen ville lemna något bidrag
             till denna byggnad och lemna det under sådana vilkor, som äro
@@ -1767,22 +1693,16 @@
             en lika stor summa till byggnaden; och då detta vilkor förelades
             landstinget, så gick det in derpa.
           </seg>
-        </u>
-        <u xml:id="i-Hz6okGgfBeWi5swE3bCK3P" who="i-L1NSsf1GiTyxTmkwUCJpg8" prev="i-6V52HgvAQuaw7GENX4n6Ae" next="i-9kJHgqaKPjj3RvyprnWyaA">
           <seg xml:id="i-X3bZCkDL7hb7VAKHbfZ66d">
             Så tror jag äfven det skulle blifva förhållandet, om Riksdagen
             ville lemna bidrag till tillbyggnad af elementarläroverkshuset
             i Wisby, hvarom det nu är fråga; och jag får derför vördsamt till
             Kammaren och
           </seg>
-        </u>
-        <u xml:id="i-9kJHgqaKPjj3RvyprnWyaA" who="i-L1NSsf1GiTyxTmkwUCJpg8" prev="i-Hz6okGgfBeWi5swE3bCK3P" next="i-K8u3m4W33sFY93UQHsx5A6">
           <seg xml:id="i-8Vb6kTPdyeT9mFw9GJvBMx">
             till dess behjertande hemställa, att Herrar Lyths med fleras
             motion:
           </seg>
-        </u>
-        <u xml:id="i-K8u3m4W33sFY93UQHsx5A6" who="i-L1NSsf1GiTyxTmkwUCJpg8" prev="i-9kJHgqaKPjj3RvyprnWyaA">
           <seg xml:id="i-JYdLND3QKbCqtq7thnmTps">
             måtte på det sätt bifallas, att Riksdagen till uppförande af
             två flygelbyggnader vid högre elementarläroverket i Wisby ville
@@ -1798,13 +1718,11 @@
         <note xml:id="i-Lo61931NpJSChWLMGaPBwf" type="speaker">
           Grefve Beck-Friis:
         </note>
-        <u xml:id="i-UhEhMNE4SDTV84yGu8QDuy" who="i-MkpKqs9yn98uRBF1pm57dP" next="i-GU7PmdXmpqdqQ81s38raCr">
+        <u xml:id="i-UhEhMNE4SDTV84yGu8QDuy" who="i-MkpKqs9yn98uRBF1pm57dP" next="i-QErpXuGMBC3YRndoAJMTq7">
           <seg xml:id="i-DTdhFh76WEPj7eqS951LsQ">
             Jag skall inskränka mig till att på de af Utskottet anförda skälen
             yrka bifall till Utskottets hemställan.
           </seg>
-        </u>
-        <u xml:id="i-GU7PmdXmpqdqQ81s38raCr" who="i-MkpKqs9yn98uRBF1pm57dP" prev="i-UhEhMNE4SDTV84yGu8QDuy" next="i-6ZmVcsEoHDhDgkkuz1bH1w">
           <seg xml:id="i-3FPpqoZ6JndBPB543uXtbJ">
             Det är nemligen förhållandet, såsom Herrarne känna, att, sedan
             byggnadskassor inom stiften inrättats, representationen icke velat
@@ -1813,8 +1731,6 @@
             på motsatsen, datera sig från en långt aflägsen tid, då icke dessa
             byggnadskassor funnos.
           </seg>
-        </u>
-        <u xml:id="i-6ZmVcsEoHDhDgkkuz1bH1w" who="i-MkpKqs9yn98uRBF1pm57dP" prev="i-GU7PmdXmpqdqQ81s38raCr" next="i-QErpXuGMBC3YRndoAJMTq7">
           <seg xml:id="i-XivaZexY1dijMT6z2uPZSY">
             Då frågan för öfrigt varit understäld Kongl. Maj:ts pröfning
             och Kongl. Maj:t icke funnit skäl att derom göra framställning
@@ -1837,7 +1753,7 @@
         <note xml:id="i-FPyTr3xky6VMeDbaUN9vyU" type="date">
           18 Torsdagen den 28 Mars, e. m.
         </note>
-        <u xml:id="i-QErpXuGMBC3YRndoAJMTq7" who="i-MkpKqs9yn98uRBF1pm57dP" prev="i-6ZmVcsEoHDhDgkkuz1bH1w">
+        <u xml:id="i-QErpXuGMBC3YRndoAJMTq7" who="i-MkpKqs9yn98uRBF1pm57dP" prev="i-UhEhMNE4SDTV84yGu8QDuy">
           <seg xml:id="i-A9nE2Qs36eaEBpkW7rAgg6">
             dagen, och då tillika Riksdagen funnit sig föranlåten att afslå
             anslag till åtskilliga byggnadsföretag, som af Kongl. Maj:t föreslagits,
@@ -1883,13 +1799,11 @@
         <note xml:id="i-YYJJuhYzDfTwxUyEDN9quY" type="speaker">
           Herr Falk:
         </note>
-        <u xml:id="i-8zMAKdaU5wFwcqFEsafaus" who="i-F7kGC3XVFAzms4GW6rJCFC" next="i-8xsdf4qofsUDLBs5qe4QDH">
+        <u xml:id="i-8zMAKdaU5wFwcqFEsafaus" who="i-F7kGC3XVFAzms4GW6rJCFC" next="i-91yCdCYFzDSC2XSZ89e1UL">
           <seg xml:id="i-WwkYZzbMGez7CisrbgxydQ">
             Jag kan icke annat än beklaga, att Utskottet afstyrkt Kongl.
             Majts proposition i denna punkt. ;
           </seg>
-        </u>
-        <u xml:id="i-8xsdf4qofsUDLBs5qe4QDH" who="i-F7kGC3XVFAzms4GW6rJCFC" prev="i-8zMAKdaU5wFwcqFEsafaus" next="i-HmZVMqpHGrM6Tf7v92qWSL">
           <seg xml:id="i-2NUYHXnFH3P2ztztrRgjYb">
             Såsom skäl för sitt afstyrkande har Utskottet till en början
             yttrat, att det äskade anslaget syntes Utskottet nog högt i jemförelse
@@ -1908,8 +1822,6 @@
             från länet. Jag finner således icke heller detta Utskottets skäl
             hållbart.
           </seg>
-        </u>
-        <u xml:id="i-HmZVMqpHGrM6Tf7v92qWSL" who="i-F7kGC3XVFAzms4GW6rJCFC" prev="i-8xsdf4qofsUDLBs5qe4QDH" next="i-91yCdCYFzDSC2XSZ89e1UL">
           <seg xml:id="i-R47u1uA2UhPSiLjJk76DTL">
             Derefter säger Utskottet, att hyran för den nuvarande lokalen
             är billigare än räntan på den äskade anläggningskostnaden för
@@ -1920,7 +1832,7 @@
         <note xml:id="i-W9XXkKTNKvvZf4Fs8xwd1g" type="date">
           Torsdagen den 28 Mars, e. m. 19
         </note>
-        <u xml:id="i-91yCdCYFzDSC2XSZ89e1UL" who="i-F7kGC3XVFAzms4GW6rJCFC" prev="i-HmZVMqpHGrM6Tf7v92qWSL" next="i-7ZSQzwprtD8RyhVsXRmfeU">
+        <u xml:id="i-91yCdCYFzDSC2XSZ89e1UL" who="i-F7kGC3XVFAzms4GW6rJCFC" prev="i-8zMAKdaU5wFwcqFEsafaus">
           <seg xml:id="i-9BtNgi5tJsodbiNjMAPnsE">
             hus, och häraf hemtar Utskottet ett ytterligare stöd för sitt
             afstyrkande utlåtande. Men äfven detta skäl underskattar jag,
@@ -1959,8 +1871,6 @@
             och trädgård för seminariet, men det inköpta jordområdet måste
             först dräneras innan det för trädgårdsskötsel kan användas.
           </seg>
-        </u>
-        <u xml:id="i-7ZSQzwprtD8RyhVsXRmfeU" who="i-F7kGC3XVFAzms4GW6rJCFC" prev="i-91yCdCYFzDSC2XSZ89e1UL">
           <seg xml:id="i-7J3dQJkHyrWnvGcXSPEA6p">
             Nu säger man, att ett uppskof på ett år icke är förenadt med
             någon fara, men en väsentlig olägenhet kan dock deraf uppstå.
@@ -2127,12 +2037,10 @@
         <note xml:id="i-DbrQRvjVbsHWNDoRqxNxpq" type="speaker">
           Herr Wennerberg:
         </note>
-        <u xml:id="i-DtYnPwPRqLVfdxPy63am73" who="i-U1NfXLExmstEEYumsy2WHu" next="i-9LGUm3zJ82u64DDyZS99tv">
+        <u xml:id="i-DtYnPwPRqLVfdxPy63am73" who="i-U1NfXLExmstEEYumsy2WHu" next="i-PeSsZ6LKkSkQoJLczA8Y7e">
           <seg xml:id="i-2Tsa3ZQvbVsDFTWCBZaUGG">
             I förmiddags hörde jag min granne till hö-
           </seg>
-        </u>
-        <u xml:id="i-9LGUm3zJ82u64DDyZS99tv" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-DtYnPwPRqLVfdxPy63am73" next="i-PeSsZ6LKkSkQoJLczA8Y7e">
           <seg xml:id="i-MTabGY4ezxRR6Mg8fCkvqi">
             ger säga, att detta Stats-Utskottets utlåtande vore det bästa
             han någonsin sett. Jag skall icke disputera med honom om den saken,
@@ -2158,7 +2066,7 @@
         <note xml:id="i-Xznwie1hL5wFU7S7d9iEZb" type="date">
           22 Torsdagen den 28 Mars, e. m.
         </note>
-        <u xml:id="i-PeSsZ6LKkSkQoJLczA8Y7e" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-9LGUm3zJ82u64DDyZS99tv" next="i-B61E1rDs66ZBFEpxVWzpLm">
+        <u xml:id="i-PeSsZ6LKkSkQoJLczA8Y7e" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-DtYnPwPRqLVfdxPy63am73" next="i-92dvGSxnLbjHCUUy7WR2Eq">
           <seg xml:id="i-WV4Eas7qvR7FuNSMWmqPUV">
             torde vara en smaksak; men säkert är, att många och, ganska höga
             vederbörande väl icke kunna vara af samma tanke. Afven jag kan
@@ -2183,8 +2091,6 @@
             vid en inträffande sjukdom vill låta sin egendom, som till största
             delen ligger i dessa kreatur, bero på en qvacksalfvares åtgöranden.
           </seg>
-        </u>
-        <u xml:id="i-B61E1rDs66ZBFEpxVWzpLm" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-PeSsZ6LKkSkQoJLczA8Y7e" next="i-92dvGSxnLbjHCUUy7WR2Eq">
           <seg xml:id="i-N8sQvU23Q4gX83j24MGGei">
             Vi hafva nu två veterinär-institut i landet, och ingen är villigare
             än jag att erkänna, att detta är för vårt land jemnt ett för mycket.
@@ -2221,7 +2127,7 @@
         <note xml:id="i-UDvVuPTgsEKGkxNNBjZMMH" type="date">
           Torsdagen den 28 Mars, e. m. 23
         </note>
-        <u xml:id="i-92dvGSxnLbjHCUUy7WR2Eq" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-B61E1rDs66ZBFEpxVWzpLm" next="i-AZANF7RQQh9NE2QLosshAm">
+        <u xml:id="i-92dvGSxnLbjHCUUy7WR2Eq" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-PeSsZ6LKkSkQoJLczA8Y7e" next="i-ED8vZmaL4Hz6p6jbe2ZLr3">
           <seg xml:id="i-EDZx3YCcd9pdziUhpN7DdR">
             läkare af vanligt slag. Medan Skara utskickade veterinärläkare
             med mindre elementarundervisning än den som nu fordras för institutet
@@ -2247,8 +2153,6 @@
             erkänna, att vi redan befinna oss på en högst riskabel punkt,
             om en sådan olycka skulle inträffa här.
           </seg>
-        </u>
-        <u xml:id="i-AZANF7RQQh9NE2QLosshAm" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-92dvGSxnLbjHCUUy7WR2Eq" next="i-8kUDzcYsyU1X6nMMVRJzCQ">
           <seg xml:id="i-E1N33KHNsXDRtS4B1GJ8xY">
             Det är dock icke mot Utskottets nu berörda åsigter jag egentligen
             velat vända mig, ty att vända sig mot en motivering, det vet jag
@@ -2263,8 +2167,6 @@
             att få en »anstalt» inrättad, som Konung och Riksdag förklarat
             vara den enda och säkraste hjelpen för Sveriges undervisningsväsende.
           </seg>
-        </u>
-        <u xml:id="i-8kUDzcYsyU1X6nMMVRJzCQ" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-AZANF7RQQh9NE2QLosshAm" next="i-ED8vZmaL4Hz6p6jbe2ZLr3">
           <seg xml:id="i-BcTtgAZR1iQ1b2PUp5hjyK">
             Då detta anslag flyttades på ordinarie stat, motsatte jag mig
             det icke, emedan jag väl vet, att numera skilnaden mellan ordinarie
@@ -2301,7 +2203,7 @@
         <note xml:id="i-EjggfkiJcHpLUxoj9ZBDox" type="date">
           24 Torsdagen den 28 Mars, e. m.
         </note>
-        <u xml:id="i-ED8vZmaL4Hz6p6jbe2ZLr3" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-8kUDzcYsyU1X6nMMVRJzCQ" next="i-KoENHMg3Gtwg2yZjmf7Ws6">
+        <u xml:id="i-ED8vZmaL4Hz6p6jbe2ZLr3" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-92dvGSxnLbjHCUUy7WR2Eq">
           <seg xml:id="i-GXKjvyxBkLZKpGvs5AuoRX">
             fortfarande kämpa med dessa svårigheter trots Kongl. Maj:ts och
             Riksdagens beslut att lemna. den nödigt statsbidrag. Det oaktadt
@@ -2320,8 +2222,6 @@
             som borde vara på ordinarie stat, år från år hålles på extra 'stat.
             Jag kan icke godkänna ett sådant förfarande.
           </seg>
-        </u>
-        <u xml:id="i-KoENHMg3Gtwg2yZjmf7Ws6" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-ED8vZmaL4Hz6p6jbe2ZLr3">
           <seg xml:id="i-MU4d2MaW6wXrLQqCXdUFR6">
             Nu kommer jag till min konklusion, som efter hvad jag nyss yttrat,
             kan synas något besynnerlig; men jag har lärt mig att respektera
@@ -2332,7 +2232,7 @@
         <note xml:id="i-Rucdt3soWMaunzRkSnRMnq" type="speaker">
           Herr Pehrsson, Jöns:
         </note>
-        <u xml:id="i-WP6ZEqoHseQzjE8jumqWjr" who="i-Pcwi9SzFyHM23TjThLHeMD" next="i-Trsz2nDViqBbk6EqpuCe6n">
+        <u xml:id="i-WP6ZEqoHseQzjE8jumqWjr" who="i-Pcwi9SzFyHM23TjThLHeMD" next="i-D3VjYcKmmKoAnd2rgvLCRU">
           <seg xml:id="i-HF1DgvtXNQRbsFwyEqW3KK">
             Då ingen yrkat afslag på Utskottets hemställan, skulle jag visserligen
             icke behöft bry mig om att begära ordet, men då det nu lemnats
@@ -2349,8 +2249,6 @@
             jag syftar, talade med lika mycken värme för läkarevård åt menniskor,
             som min granne nu har talat för läkarevård åt djur.
           </seg>
-        </u>
-        <u xml:id="i-Trsz2nDViqBbk6EqpuCe6n" who="i-Pcwi9SzFyHM23TjThLHeMD" prev="i-WP6ZEqoHseQzjE8jumqWjr" next="i-D3VjYcKmmKoAnd2rgvLCRU">
           <seg xml:id="i-HnmSCRVjypbuz4N1KzbXLi">
             Jag ber att i sammanhang härmed få fästa uppmärksamhet derå,
             att lagen icke stadgar något ansvar för den, som befattar sig
@@ -2374,7 +2272,7 @@
         <note xml:id="i-QaGH2QkN8WLFotHDKLpCox" type="date">
           Torsdagen den 28 Mars, e. m. 25
         </note>
-        <u xml:id="i-D3VjYcKmmKoAnd2rgvLCRU" who="i-Pcwi9SzFyHM23TjThLHeMD" prev="i-Trsz2nDViqBbk6EqpuCe6n">
+        <u xml:id="i-D3VjYcKmmKoAnd2rgvLCRU" who="i-Pcwi9SzFyHM23TjThLHeMD" prev="i-WP6ZEqoHseQzjE8jumqWjr">
           <seg xml:id="i-KmRCnjyzkzL7J4QLcRi7Hz">
             djurläkare — vi hafva tillgång på en och annan regementsveterinär
             — resultatet i allmänhet utfallit ogynsamt, hvaremot den, som
@@ -2467,7 +2365,7 @@
         <note xml:id="i-8vvkXZyLRpq8z6qXSjcw36">
           dersökningar på Björkön. (Forts.)
         </note>
-        <u xml:id="i-9ZBdEaqoFCwMhi2CurQ5tr" who="i-FBVyR2c9ZXHBjh2ETNQb8U" prev="i-CCKddX4X4NWQ5eXRcJHpn6" next="i-9DsUFYCj8RNHeP3K3UFL5S">
+        <u xml:id="i-9ZBdEaqoFCwMhi2CurQ5tr" who="i-FBVyR2c9ZXHBjh2ETNQb8U" prev="i-CCKddX4X4NWQ5eXRcJHpn6">
           <seg xml:id="i-VE9eHgjZG5bkzxmyKjPbdw">
             skola genomletas och nya graffält kunna blifva upptäckta. Det
             kan väl icke vara rigtigt, att ställa ett sådant företag så, att
@@ -2482,8 +2380,6 @@
             äfven tillsyningsarfvodet i dess helhet kunde blifva betydligt
             mindre än som nu är händelsen.
           </seg>
-        </u>
-        <u xml:id="i-9DsUFYCj8RNHeP3K3UFL5S" who="i-FBVyR2c9ZXHBjh2ETNQb8U" prev="i-9ZBdEaqoFCwMhi2CurQ5tr">
           <seg xml:id="i-S7rgpVUN2BA9Cutun5FFv6">
             För att fästa uppmärksamheten härpå och för att vederbörande
             ej må föreställa sig, att hela Riksdagen gillar det hittills följda
@@ -2633,7 +2529,7 @@
         <note xml:id="i-2fkMqQjiVG25QBKjsRbLE9" type="speaker">
           Herr Adelsköld:
         </note>
-        <u xml:id="i-GyakwkRHANQfhadmcrpMLt" who="i-PZo61ze3oe2bePYTHaDHM9" next="i-5LP4suYzqQLHtegvX6UHTv">
+        <u xml:id="i-GyakwkRHANQfhadmcrpMLt" who="i-PZo61ze3oe2bePYTHaDHM9" next="i-VA3wm3YHYkhgqEi6PGtZnF">
           <seg xml:id="i-PaV3kGaeSHRCMVqHNgFTe3">
             Då löjtnant Sandeberg vid början af denna Riksdag gjorde mig
             ett besök för att anhålla, det jag ville väcka motion om bidrag
@@ -2671,8 +2567,6 @@
             för sina resor och forskningar, utvisande på hvad sätt de der
             uppskattas.
           </seg>
-        </u>
-        <u xml:id="i-5LP4suYzqQLHtegvX6UHTv" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-GyakwkRHANQfhadmcrpMLt" next="i-VA3wm3YHYkhgqEi6PGtZnF">
           <seg xml:id="i-WZMVbTcBVbGeBNPaWAQc29">
             Han har sålunda i Ryssland hedrats med kallelse till ledamot
             af Société Impériale des Amis d Histoire Naturelle, Société Imperiale
@@ -2686,7 +2580,7 @@
         <note xml:id="i-RTnEXoS6pio9DQV7cEbZ8E">
           I Tyskland till ledamot af Geographische Gesellschaft i Bremen.
         </note>
-        <u xml:id="i-VA3wm3YHYkhgqEi6PGtZnF" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-5LP4suYzqQLHtegvX6UHTv" next="i-VAr3iAbNaZ1ZyddXSXriJv">
+        <u xml:id="i-VA3wm3YHYkhgqEi6PGtZnF" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-GyakwkRHANQfhadmcrpMLt" next="i-VAr3iAbNaZ1ZyddXSXriJv">
           <seg xml:id="i-4zkTcHEXWbbFb4nutwzgsC">
             I en ansedd tysk tidskrift »Geografische Blätter», som jag har
             här
@@ -2889,7 +2783,7 @@
         <note xml:id="i-3R1LqEwymNJw6XVMHdRARL" type="speaker">
           Herr Wallenberg:
         </note>
-        <u xml:id="i-6xvbXWb6Ydv6qmPFk1Te8K" who="i-E7aB8B6ZVrFekyhd9pNoQt" next="i-M8wJWJDnR2KhLLkg8JwLCp">
+        <u xml:id="i-6xvbXWb6Ydv6qmPFk1Te8K" who="i-E7aB8B6ZVrFekyhd9pNoQt" next="i-N5TU1waveUDHPwVW6mRjrn">
           <seg xml:id="i-LgQaPtW4E4RmK76WktZUiZ">
             Det är mycket underliga tilldragelser, som tima nu för tiden
             och bland de mest underliga är, att, der den första statsmakten
@@ -2904,8 +2798,6 @@
             Kongl. Maj:t och Riksdagen sedermera för sina behof kunna fritt
             förfoga.» |
           </seg>
-        </u>
-        <u xml:id="i-M8wJWJDnR2KhLLkg8JwLCp" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-6xvbXWb6Ydv6qmPFk1Te8K" next="i-N5TU1waveUDHPwVW6mRjrn">
           <seg xml:id="i-UnzVpqyoNGY3CEof8FdTjr">
             Jag har icke lust att vänta så länge, ty det är detsamma som
             att vänta till dess Riksdagen beviljat medel till nytt hofstall
@@ -2928,7 +2820,7 @@
         <note xml:id="i-GHGtAorXVUcATHYmb5Jyk8" type="date">
           32 Torsdagen den 28 Mars, e. m.
         </note>
-        <u xml:id="i-N5TU1waveUDHPwVW6mRjrn" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-M8wJWJDnR2KhLLkg8JwLCp" next="i-XspThcFnvdsdEVuAWGEnGD">
+        <u xml:id="i-N5TU1waveUDHPwVW6mRjrn" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-6xvbXWb6Ydv6qmPFk1Te8K" next="i-XspThcFnvdsdEVuAWGEnGD">
           <seg xml:id="i-Hs8NMCRffwP5vooNRJt1S6">
             Maj:t låtit uppbygga ett sådant. Motionären vill att man skall
             först
@@ -2941,15 +2833,13 @@
         <note xml:id="i-3JAAvAt8Gv57zwvm8h6f2N">
           Helgeandsholmen m. m. (Forts.)
         </note>
-        <u xml:id="i-XspThcFnvdsdEVuAWGEnGD" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-N5TU1waveUDHPwVW6mRjrn" next="i-M6miEsu9BXHHYd23qYh62u">
+        <u xml:id="i-XspThcFnvdsdEVuAWGEnGD" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-N5TU1waveUDHPwVW6mRjrn">
           <seg xml:id="i-K7GyLYbNYpBHbqdiQ586CK">
             byggnader på Helgeandsholmen, och när allt der blifvit jemnadt
             med marken, då får man sätta sig och fundera på hvartill holmen
             lämpligen bör användas. Svårligen kan man företaga sig något mera
             bakvändt.
           </seg>
-        </u>
-        <u xml:id="i-M6miEsu9BXHHYd23qYh62u" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-XspThcFnvdsdEVuAWGEnGD" next="i-KAPmPdoMHGvxhip4z2zd6F">
           <seg xml:id="i-91offPTxDsNkdedQVvPzoH">
             Om bifall till motionen lemnas, skall tidpunkten aflägsnas, då
             frågan kan vinna sin lösning, hvilken den, enligt min tanke, endast
@@ -2963,8 +2853,6 @@
             folkmängd i landet och i följd deraf ökadt antal representanter
             lemna erforderligt utrymme.»
           </seg>
-        </u>
-        <u xml:id="i-KAPmPdoMHGvxhip4z2zd6F" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-M6miEsu9BXHHYd23qYh62u">
           <seg xml:id="i-JcQmMk163sVWfC3Q77xoUn">
             Jag ser deremot att en annan tidpunkt närmar sig, då Riksdagsordningen
             bör förändras så, att icke representanternes antal oupphörligt
@@ -3018,7 +2906,7 @@
         <note xml:id="i-Xe6c4RNspJztnyaEm1ENTW">
           Grefve Beck-Friis: I likhet med den näst föregående talaren Hofstalletsför-
         </note>
-        <u xml:id="i-Sc6hLtdHJpSVqVYC6iWPhZ" who="i-C2VM46vRGtzGexbCmpfNpg" prev="i-6s6RzDNy3wATGseVVZ3gCL" next="i-3phH8Ymja9QSLYdL9QFQzt">
+        <u xml:id="i-Sc6hLtdHJpSVqVYC6iWPhZ" who="i-C2VM46vRGtzGexbCmpfNpg" prev="i-6s6RzDNy3wATGseVVZ3gCL">
           <seg xml:id="i-VArYpjqaMQTpv5HWx9ywwZ">
             anser jag, att något mål icke kan vinnas på den väg, som af motionärerne
             blifvit föreslagen. Det är nemligen gifvet, att om man har något
@@ -3029,14 +2917,10 @@
             i motionen, utan der sägs endast, att man skulle göra tabula rasa
             på holmen, hvarföre jag icke kan vara med om motionen. Jag tror,
           </seg>
-        </u>
-        <u xml:id="i-3phH8Ymja9QSLYdL9QFQzt" who="i-C2VM46vRGtzGexbCmpfNpg" prev="i-Sc6hLtdHJpSVqVYC6iWPhZ" next="i-HQCa4ZDjabTGLkwLHEpZck">
           <seg xml:id="i-XfbwgJ3bZGpPQz32QxHHuw">
             att denna fråga icke bort väckas från det håll, som nu skett,
             utan af
           </seg>
-        </u>
-        <u xml:id="i-HQCa4ZDjabTGLkwLHEpZck" who="i-C2VM46vRGtzGexbCmpfNpg" prev="i-3phH8Ymja9QSLYdL9QFQzt">
           <seg xml:id="i-A8Lf8LgvKDUgjD811NscWi">
             Kongl. Maj:t och då i sammanhang med frågan om hofstallets förflyttning,
             ty Riksdagen har icke annat att göra i denna sak än att gifva
@@ -3105,12 +2989,10 @@
         <note xml:id="i-Vkp4er8NC4Kn7mZW6aAD7T" type="date">
           34 Torsdagen den 28 Mars, e. m.
         </note>
-        <u xml:id="i-LaXFquyi644z53NCPqAWhA" who="unknown" prev="i-RJvPNBc5xN2bWptv7ojXku" next="i-KXEp4FHvTXcgJf95Q3KzCb">
+        <u xml:id="i-LaXFquyi644z53NCPqAWhA" who="unknown" prev="i-RJvPNBc5xN2bWptv7ojXku" next="i-9PQmhnL7oZscMwzPrhTMLb">
           <seg xml:id="i-3K3RYkkx4ajaSwS8DbGLjv">
             - hinna fattas före 1878 års slut, är nödvändigt att hålla preskriptionen
           </seg>
-        </u>
-        <u xml:id="i-KXEp4FHvTXcgJf95Q3KzCb" who="unknown" prev="i-LaXFquyi644z53NCPqAWhA" next="i-9PQmhnL7oZscMwzPrhTMLb">
           <seg xml:id="i-3Y9uwLrNURY7GRzKBgHHr8">
             flyttning från öppen på det sätt, reservanterne föreslagit, eller
             genom en anhållan
@@ -3125,7 +3007,7 @@
           och på hvilka vilkor de Hans Maj:t Konungen tillhöriga egendomar
           å samma holme skulle kunna af staten förvärfvas.
         </note>
-        <u xml:id="i-9PQmhnL7oZscMwzPrhTMLb" who="unknown" prev="i-KXEp4FHvTXcgJf95Q3KzCb">
+        <u xml:id="i-9PQmhnL7oZscMwzPrhTMLb" who="unknown" prev="i-LaXFquyi644z53NCPqAWhA">
           <seg xml:id="i-9KxxGx6CK67WpKnuNozxRX">
             Detta är kärnpunkten i reservationen. Det uttryck i slutet af
             densamma, hvarvid man mest fäst sig, eller att holmen skulle kunna
@@ -3139,7 +3021,7 @@
         <note xml:id="i-Rx3qkQNL2r9gjum8rdX7WT" type="speaker">
           Grefve Mörner, Oscar:
         </note>
-        <u xml:id="i-AV73zBekfd4RtG9yRAcVrL" who="i-Gfg9k3ZcPGNY4ee6zKKXZz" next="i-M31JQZmBoujw72QQGGLcFN">
+        <u xml:id="i-AV73zBekfd4RtG9yRAcVrL" who="i-Gfg9k3ZcPGNY4ee6zKKXZz" next="i-5FkixDApkmAcxRHVWHx5pY">
           <seg xml:id="i-MNkrmLVMit9Nrv4hYKN83L">
             I det betänkande rörande åttonde hufvudtiteln, som vi i dag genomgått,
             har varit en ständigt återkommande fras, och icke utan skäl, att
@@ -3174,8 +3056,6 @@
             en slags preskriptionstid. Så hoppas jag Riksdagen icke må gå
             till väga.
           </seg>
-        </u>
-        <u xml:id="i-M31JQZmBoujw72QQGGLcFN" who="i-Gfg9k3ZcPGNY4ee6zKKXZz" prev="i-AV73zBekfd4RtG9yRAcVrL" next="i-5FkixDApkmAcxRHVWHx5pY">
           <seg xml:id="i-U11cFcPzkK9zvQchxT76zs">
             Beslutas denna skrifvelse, så lär väl kostnaden för hofstallets
             flyttning och holmens ordnande fa lof att beviljas. Hvad angår
@@ -3190,7 +3070,7 @@
         <note xml:id="i-8k1AUTUKvULmdrfErGBhLt" type="date">
           Torsdagen den 28 Mars, e. m. 35 N:o 21.
         </note>
-        <u xml:id="i-5FkixDApkmAcxRHVWHx5pY" who="i-Gfg9k3ZcPGNY4ee6zKKXZz" prev="i-M31JQZmBoujw72QQGGLcFN" next="i-3r9Ln1izvRgBxhnqiJmAiM">
+        <u xml:id="i-5FkixDApkmAcxRHVWHx5pY" who="i-Gfg9k3ZcPGNY4ee6zKKXZz" prev="i-AV73zBekfd4RtG9yRAcVrL">
           <seg xml:id="i-Tbh1wJvD5idJG9Qd7LSkNK">
             framstäldt på sådant sätt, vore, efter det särdeles tillmötesgående
             Hans Hofstallets för- Maj:t Konungen i denna angelägenhet visat,
@@ -3200,73 +3080,49 @@
             hörigen istandsättes. Vid jemförelse med andra hufvudstäder se
             vi t.
           </seg>
-        </u>
-        <u xml:id="i-3r9Ln1izvRgBxhnqiJmAiM" who="i-Gfg9k3ZcPGNY4ee6zKKXZz" prev="i-5FkixDApkmAcxRHVWHx5pY" next="i-KGg2JBAAzzqPhBzhFYCxns">
           <seg xml:id="i-8Hu3eHoAaSWwpi4XiS5MYG">
             ex. i Berlin, huru mellan kongl. slottet och Spreefloden ligga
             en mängd vanprydliga hus. Kan Berlin fördraga en samling sådana
             hus på ena
           </seg>
-        </u>
-        <u xml:id="i-KGg2JBAAzzqPhBzhFYCxns" who="i-Gfg9k3ZcPGNY4ee6zKKXZz" prev="i-3r9Ln1izvRgBxhnqiJmAiM" next="i-A8FUP6UpjFM3KbyEnRCtUe">
           <seg xml:id="i-8ZZ3bS1Pj6zehrNDrY5Uc4">
             sidan om slottet, så måtte vi väl också kunna fördraga Helgeandshol-
           </seg>
-        </u>
-        <u xml:id="i-A8FUP6UpjFM3KbyEnRCtUe" who="i-Gfg9k3ZcPGNY4ee6zKKXZz" prev="i-KGg2JBAAzzqPhBzhFYCxns" next="i-7uAkQdQsrRpmZQD85M4sia">
           <seg xml:id="i-B3uRWSUdbgupec6kf9XxtR">
             mens tillstånd, åtminstone till dess den tid kommer, att denna
             upp-
           </seg>
-        </u>
-        <u xml:id="i-7uAkQdQsrRpmZQD85M4sia" who="i-Gfg9k3ZcPGNY4ee6zKKXZz" prev="i-A8FUP6UpjFM3KbyEnRCtUe" next="i-LK5pkGFGmv1Qhqh9FVd48r">
           <seg xml:id="i-Ur55UEBTGN4RL8KGYnLTW8">
             offring kan af staten göras utan att åsidosätta andra och vigtigare
             in- .
           </seg>
-        </u>
-        <u xml:id="i-LK5pkGFGmv1Qhqh9FVd48r" who="i-Gfg9k3ZcPGNY4ee6zKKXZz" prev="i-7uAkQdQsrRpmZQD85M4sia" next="i-GhySDcrgJF3a5qwNFzLzEy">
           <seg xml:id="i-TRUrUAKSisqkMYsDJ9VsAT">
             tressen. Jag upprepar, att vore finanserna goda och vi hade råd
             att
           </seg>
-        </u>
-        <u xml:id="i-GhySDcrgJF3a5qwNFzLzEy" who="i-Gfg9k3ZcPGNY4ee6zKKXZz" prev="i-LK5pkGFGmv1Qhqh9FVd48r" next="i-GkqDz8wEKut2m2XMA68erR">
           <seg xml:id="i-CFuGYfheijBiJ2oGDbuVjN">
             vedervaga millioner på det viset, skulle jag också tillstyrka
             utgifter
           </seg>
-        </u>
-        <u xml:id="i-GkqDz8wEKut2m2XMA68erR" who="i-Gfg9k3ZcPGNY4ee6zKKXZz" prev="i-GhySDcrgJF3a5qwNFzLzEy" next="i-9mDF9p9xwQa4qRdJ3CnRH9">
           <seg xml:id="i-V615dYg1yPtuTjs5Q1pTZZ">
             för det nu omhandlade ändamålet; men sedan jag erfarit de afslag
             å anslagsfordringar, som skett på åttonde hufvudtiteln, och sett
             hvad
           </seg>
-        </u>
-        <u xml:id="i-9mDF9p9xwQa4qRdJ3CnRH9" who="i-Gfg9k3ZcPGNY4ee6zKKXZz" prev="i-GkqDz8wEKut2m2XMA68erR" next="i-ATGWuZdmDqHRWoDT4HW5V5">
           <seg xml:id="i-WJVr2kzcJ4LBMji42MBstu">
             som Utskottet föreslår till vägran på den femte, och dervid måste
           </seg>
-        </u>
-        <u xml:id="i-ATGWuZdmDqHRWoDT4HW5V5" who="i-Gfg9k3ZcPGNY4ee6zKKXZz" prev="i-9mDF9p9xwQa4qRdJ3CnRH9" next="i-Ccynq1BLMzJ84yLzzP82x4">
           <seg xml:id="i-SrfKS8NKMvdi6fLnpeEuLH">
             medgifva, att en del rättfärdigas af brist på medel, kan jag
             icke gå
           </seg>
-        </u>
-        <u xml:id="i-Ccynq1BLMzJ84yLzzP82x4" who="i-Gfg9k3ZcPGNY4ee6zKKXZz" prev="i-ATGWuZdmDqHRWoDT4HW5V5" next="i-N6dpWuX46tRHMKLXaxTbDK">
           <seg xml:id="i-HMNPuW7jHeutYbH2aKb1B8">
             in på en sådan utgift, som, till följd af den föreslagna skrifvelsen,
           </seg>
-        </u>
-        <u xml:id="i-N6dpWuX46tRHMKLXaxTbDK" who="i-Gfg9k3ZcPGNY4ee6zKKXZz" prev="i-Ccynq1BLMzJ84yLzzP82x4" next="i-SkQQoqJFssRJudTAQm9hvi">
           <seg xml:id="i-2hK58z84v38p3RUyMmkCaa">
             inom kort maste ske, om icke Riksdagen skall bryta sitt löfte.
             För
           </seg>
-        </u>
-        <u xml:id="i-SkQQoqJFssRJudTAQm9hvi" who="i-Gfg9k3ZcPGNY4ee6zKKXZz" prev="i-N6dpWuX46tRHMKLXaxTbDK">
           <seg xml:id="i-D5r4frfHp9aoDYR6DsarfS">
             min del tillstyrker jag bifall till Utskottets förslag.
           </seg>
@@ -3319,14 +3175,12 @@
         <note xml:id="i-WvfBXrFMC4VbFvosmJtFwo" type="date">
           36 Torsdagen den 28 Mars, e. m.
         </note>
-        <u xml:id="i-ECEGBNKJ96rLxnMHgrgj9C" who="i-VJzAojg4oj9Du46UWXaaqZ" prev="i-HP5cUjbNrRXqNV9iMkigcD" next="i-Y5BN8QPik6cypWuxoXGQG3">
+        <u xml:id="i-ECEGBNKJ96rLxnMHgrgj9C" who="i-VJzAojg4oj9Du46UWXaaqZ" prev="i-HP5cUjbNrRXqNV9iMkigcD">
           <seg xml:id="i-7g6abzsLqKoM2ayoUFg7FV">
             så väl om hofstallets förflyttning med hvad dertill hörer, som
             ock om Helgeandsholmens ordnande varda af samtlige vederbörande
             fattade inom slutet af år 1878.»
           </seg>
-        </u>
-        <u xml:id="i-Y5BN8QPik6cypWuxoXGQG3" who="i-VJzAojg4oj9Du46UWXaaqZ" prev="i-ECEGBNKJ96rLxnMHgrgj9C" next="i-Q4wWVwELbnw9B5vvfUUoWt">
           <seg xml:id="i-4u58Y9Jywv8PE1XFUMA6nX">
             Om Riksdagen ingår till Kongl. Maj:t med en skrifvelse med begäran
             att till nästa riksdag få en framställning om hofstallets flyttning,
@@ -3334,8 +3188,6 @@
             Kongl. Maj:t kan komma att svara, men på grund af det nu gjorda
             uttalandet har man icke rätt att tro vidare uppskof blifva beviljadt.
           </seg>
-        </u>
-        <u xml:id="i-Q4wWVwELbnw9B5vvfUUoWt" who="i-VJzAojg4oj9Du46UWXaaqZ" prev="i-Y5BN8QPik6cypWuxoXGQG3">
           <seg xml:id="i-5ynAp1boFTWCtAyu1Wb8CZ">
             Man har vidare sagt, att det vore nödvändigt att besluta denna
             skrifvelse, emedan, om icke statsmakterna togo hand om frågan,
@@ -3355,7 +3207,7 @@
         <note xml:id="i-UoLzMWWXdrWLc1f7fn6VHA" type="speaker">
           Grefve Sparre:
         </note>
-        <u xml:id="i-MtG7ECGSLL47zKCJXp8zjZ" who="i-QzXydyaoPnVMCpzAFujWei" next="i-C8VhnMbkxQYkbiJAAExT2R">
+        <u xml:id="i-MtG7ECGSLL47zKCJXp8zjZ" who="i-QzXydyaoPnVMCpzAFujWei" next="i-AMrtUeHjBAApyunPn7MxRs">
           <seg xml:id="i-5ZEM7tkSHLGmrcKn74p44Z">
             Jag ber få förena mig med en föregående talare i den åsigten,
             att samma dag, som Riksdagen afslagit flera anslag, som synts
@@ -3367,8 +3219,6 @@
             att nu besluta en framställning, som skulle komma att föranleda
             betydliga anslag.
           </seg>
-        </u>
-        <u xml:id="i-C8VhnMbkxQYkbiJAAExT2R" who="i-QzXydyaoPnVMCpzAFujWei" prev="i-MtG7ECGSLL47zKCJXp8zjZ" next="i-KCcQqThoy6w9xMqtGJWKyx">
           <seg xml:id="i-FjuizvNQsujkPAqHdVXU9S">
             Af komiterades utredning ser man, att två planer till holmens
             ordnande äro framlagda, af hvilka den ena skulle erfordra en kostnad
@@ -3376,8 +3226,6 @@
             någon del af holmen afstodes, tror jag dock tillräckligt stort
             belopp skulle qvarstå för att väcka tvekan.
           </seg>
-        </u>
-        <u xml:id="i-KCcQqThoy6w9xMqtGJWKyx" who="i-QzXydyaoPnVMCpzAFujWei" prev="i-C8VhnMbkxQYkbiJAAExT2R" next="i-u8SH3kLXRSZJSfftwW4SY">
           <seg xml:id="i-QCJVkHDQf39LYEw52i3uPv">
             Jag tror, att frågans uppskjutande varit ganska lyckligt, emedan,
             enligt min tanke, det icke kan anses för ett godt ordnande af
@@ -3388,8 +3236,6 @@
             utlåtande, undertecknadt af Professor Scholander. Han säger deri
             bland annat:
           </seg>
-        </u>
-        <u xml:id="i-u8SH3kLXRSZJSfftwW4SY" who="i-QzXydyaoPnVMCpzAFujWei" prev="i-KCcQqThoy6w9xMqtGJWKyx" next="i-7YPQxfLzjLqr2ZHQs1Aadx">
           <seg xml:id="i-85SBLTgzpYAEG46qJ5x9cv">
             »Att väl ordnade och omsorgsfullt vårdade planteringar med tillhörande
             träd skulle komma att med ojemna afbrott skymma delar af slottsfacaden
@@ -3399,8 +3245,6 @@
             tryckta vid jemförelsen med konungaborgens kolossala fagad.&gt;
             Och vidare:
           </seg>
-        </u>
-        <u xml:id="i-7YPQxfLzjLqr2ZHQs1Aadx" who="i-QzXydyaoPnVMCpzAFujWei" prev="i-u8SH3kLXRSZJSfftwW4SY" next="i-AMrtUeHjBAApyunPn7MxRs">
           <seg xml:id="i-FsmbF81vx7RR7DukYeVjq7">
             »Helgeandsholimens frigörande från byggnader och behandling såsom
             en monumental lustgård midt inuti hufvudstaden är ej att hänföra
@@ -3410,7 +3254,7 @@
         <note xml:id="i-DHjALRez7dMLZRNY2ayYzN" type="date">
           Torsdagen den 28 Mars, e. m. 37
         </note>
-        <u xml:id="i-AMrtUeHjBAApyunPn7MxRs" who="i-QzXydyaoPnVMCpzAFujWei" prev="i-7YPQxfLzjLqr2ZHQs1Aadx" next="i-12JZJKcrhdoEJQTHRyT5dR">
+        <u xml:id="i-AMrtUeHjBAApyunPn7MxRs" who="i-QzXydyaoPnVMCpzAFujWei" prev="i-MtG7ECGSLL47zKCJXp8zjZ">
           <seg xml:id="i-UNmRTifXzeRqCfSTz3PegQ">
             till nyttiga åtgärder i vanlig mening, men likväl så önskvärdt
             från estetisk synpunkt, att bättre synes vara, derest hela frågan
@@ -3419,8 +3263,6 @@
             sedan nu varande åbyggnader blifvit rifna, dessa ersättas af nya
             större byggnader, ju ansenligare desto sämre.»
           </seg>
-        </u>
-        <u xml:id="i-12JZJKcrhdoEJQTHRyT5dR" who="i-QzXydyaoPnVMCpzAFujWei" prev="i-AMrtUeHjBAApyunPn7MxRs" next="i-VTxhPeTGBdEWSx6322Fvcz">
           <seg xml:id="i-GiymHH2JzDSsFdB4arVoPS">
             Derjemte finner jag, att han tillika yttrat sig angående framstälda
             förslag om förläggande inom en viss begränsad areal af holmen
@@ -3435,8 +3277,6 @@
             på en plats, der det ej lämpligen kan i framtiden utvidgas, torde
             ej böra i fråga komma.»
           </seg>
-        </u>
-        <u xml:id="i-VTxhPeTGBdEWSx6322Fvcz" who="i-QzXydyaoPnVMCpzAFujWei" prev="i-12JZJKcrhdoEJQTHRyT5dR">
           <seg xml:id="i-ULxCEE8EuU59KuJqzZzYkf">
             Jag tror mig på grund häraf hafva skäl att önska, att ett ordnande
             af Helgeandsholmen icke må blifva sådant, att holmens utseende
@@ -3447,7 +3287,7 @@
         <note xml:id="i-CHpp17e2RHcUyrMQ3CbNnV" type="speaker">
           Herr Wallenberg:
         </note>
-        <u xml:id="i-WNLfdx1J84YQVAe3FjXR1Y" who="i-E7aB8B6ZVrFekyhd9pNoQt" next="i-7jHPowwuekGRg6AGxAxtwN">
+        <u xml:id="i-WNLfdx1J84YQVAe3FjXR1Y" who="i-E7aB8B6ZVrFekyhd9pNoQt" next="i-DmFHQkxjRdW58ebcDMzCHo">
           <seg xml:id="i-MMDpW2MtRUmQzMKp4pgYwA">
             Den ärade representanten för Göteborgs stad har behagat med klander
             yttra sig öfver stadsfullmäktiges i Stockholm beslut att icke
@@ -3460,8 +3300,6 @@
             framlagdt för Göteborgs stadsfullmäktige, skulle de helt säkert
             betackat sig för detsamma. |
           </seg>
-        </u>
-        <u xml:id="i-7jHPowwuekGRg6AGxAxtwN" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-WNLfdx1J84YQVAe3FjXR1Y" next="i-HbscbtJLn1RaP1KSiMbtFB">
           <seg xml:id="i-AXAyE9hicrWR3GCaQYK3W2">
             Han har vidare sagt, att man borde ordna holmen så, som reservanterne
             föreslagit. Det är i min tanke ett besynnerligt ordnande att rifva
@@ -3474,8 +3312,6 @@
             som skulle likna en stor kassalåda, hvilket enligt bankofullmäktiges
             åskådningssätt skulle bidraga till hufvudstadens förskönande.
           </seg>
-        </u>
-        <u xml:id="i-HbscbtJLn1RaP1KSiMbtFB" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-7jHPowwuekGRg6AGxAxtwN" next="i-DmFHQkxjRdW58ebcDMzCHo">
           <seg xml:id="i-91NRe3FSeRMGjgkhecc4j2">
             Jag har äfven för egen del haft mina funderingar i detta afseende.
             Jag har nemligen tänkt mig såsom ett önskningsmål, att uti en
@@ -3500,7 +3336,7 @@
         <note xml:id="i-3BFGyAA5GCmMpRDixDm38Y" type="date">
           38 Torsdagen den 28 Mars, e, m.
         </note>
-        <u xml:id="i-DmFHQkxjRdW58ebcDMzCHo" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-HbscbtJLn1RaP1KSiMbtFB">
+        <u xml:id="i-DmFHQkxjRdW58ebcDMzCHo" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-WNLfdx1J84YQVAe3FjXR1Y">
           <seg xml:id="i-79Tm6mKv86V3EQWQ1a84yo">
             Att bifall till en sådan motion som den förevarande icke skulle
             närma oss frågans lösning, derom är jag öfvertygad och instämmer
@@ -3514,15 +3350,13 @@
         <note xml:id="i-73yXgf1XpY6BFPgJbYrxsy" type="speaker">
           Herr Wennerberg:
         </note>
-        <u xml:id="i-8V7f1FHJQtYJzVBXyyt6pi" who="i-U1NfXLExmstEEYumsy2WHu" next="i-JZxM2kVmaftjjQQkFyhraV">
+        <u xml:id="i-8V7f1FHJQtYJzVBXyyt6pi" who="i-U1NfXLExmstEEYumsy2WHu" next="i-VkF1JZqaBn3kMdKfVtnakN">
           <seg xml:id="i-8YeYHuk3WGVQwhHAimrY2x">
             Det lilla, jag har att säga, är redan förut sagdt af flere föregående
             talare, och jag ber derför att få omnämna endast två nya moment,
             på grund aft hvilka jag anser mig böra tillstyrka bifall till
             Utskottets förslag.
           </seg>
-        </u>
-        <u xml:id="i-JZxM2kVmaftjjQQkFyhraV" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-8V7f1FHJQtYJzVBXyyt6pi" next="i-PYi2VDFMafJmqj4h5TTpRo">
           <seg xml:id="i-Dx7GT7qZukF318pqZjWnEX">
             Det ena är, att denna Kammare i dag nödgats, troligen med föga
             tillfredsställelse, säga nej till flere Kongl. propositioner,
@@ -3548,8 +3382,6 @@
             jag icke öfverensstämmande med den värdighet, som denna Kammare
             alltid vetat att iakttaga.
           </seg>
-        </u>
-        <u xml:id="i-PYi2VDFMafJmqj4h5TTpRo" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-JZxM2kVmaftjjQQkFyhraV" next="i-SJnEjWuAYjv7i2t8viCbZU">
           <seg xml:id="i-V11UPonrt5RodzYxEraHEz">
             Ett annat skäl är, att jag anser hvarje försök att åtgöra något
             i fråga om Helgeandsholmen böra uppskjutas till den tid, då särskildt
@@ -3567,8 +3399,6 @@
             än det kan ske, är jag icke angelägen om någon skrifvelse till
             Kongl. Maj:t i fråga om platsens ordnande.
           </seg>
-        </u>
-        <u xml:id="i-SJnEjWuAYjv7i2t8viCbZU" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-PYi2VDFMafJmqj4h5TTpRo" next="i-VkF1JZqaBn3kMdKfVtnakN">
           <seg xml:id="i-KCbA8sTA2s5AKHXFqHRrzD">
             Särskildt ber jag få nämna, att en fråga sådan som denna, hvilken
             visserligen hör till de små men dock vigtiga frågorna, borde fordra
@@ -3583,7 +3413,7 @@
         <note xml:id="i-KDi9TpYRCk1cPnUY55fwXz">
           N:o 21.
         </note>
-        <u xml:id="i-VkF1JZqaBn3kMdKfVtnakN" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-SJnEjWuAYjv7i2t8viCbZU">
+        <u xml:id="i-VkF1JZqaBn3kMdKfVtnakN" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-8V7f1FHJQtYJzVBXyyt6pi">
           <seg xml:id="i-LLV5pYZ5UyzzZxMtPScFc3">
             hvarifrån den bör komma, kan jag icke annat än yrka afslag å
             den Hofstallets för-
@@ -3598,7 +3428,7 @@
         <note xml:id="i-EG4wJP9kosXbFmHb26XQ5" type="speaker">
           Herr Statsrådet Forssell:
         </note>
-        <u xml:id="i-T6Bhc1Jj1LpLXqL7WYLbn3" who="i-MTzYDq8SmLi323wQgnM8TR" next="i-87mCEPt8cuU8j7g876rvTE">
+        <u xml:id="i-T6Bhc1Jj1LpLXqL7WYLbn3" who="i-MTzYDq8SmLi323wQgnM8TR" next="i-BXMs3KmTMegqMiRoNr4cbp">
           <seg xml:id="i-MPXksFyTqtoDpKeERV3wiN">
             Med anledning af åtskilligt, som under diskussionen blifvit yttradt,
             ber jag få framhålla för Kammaren, att Riksdagen kan vara temligen
@@ -3646,8 +3476,6 @@
             komma att försiggå på ett för stadens inbyggare mindre tilltalande
             sätt.
           </seg>
-        </u>
-        <u xml:id="i-87mCEPt8cuU8j7g876rvTE" who="i-MTzYDq8SmLi323wQgnM8TR" prev="i-T6Bhc1Jj1LpLXqL7WYLbn3" next="i-BXMs3KmTMegqMiRoNr4cbp">
           <seg xml:id="i-XchEt2E417ir2gzKTTjUFc">
             Nu befinner sig frågan på den punkt, att Kongl. Maj:t har att
             svara på Riksdagens hemställan om en undersökning angående en
@@ -3666,7 +3494,7 @@
         <note xml:id="i-LgWXu2CvUQMHYPh7vABaGp" type="date">
           40 Torsdagen den 28 Mars, e. m.
         </note>
-        <u xml:id="i-BXMs3KmTMegqMiRoNr4cbp" who="i-MTzYDq8SmLi323wQgnM8TR" prev="i-87mCEPt8cuU8j7g876rvTE" next="i-KfXJzq8mGVunzsrPity6Jr">
+        <u xml:id="i-BXMs3KmTMegqMiRoNr4cbp" who="i-MTzYDq8SmLi323wQgnM8TR" prev="i-T6Bhc1Jj1LpLXqL7WYLbn3" next="i-KfXJzq8mGVunzsrPity6Jr">
           <seg xml:id="i-KRxWUyMTshJ9Uob88eViG">
             Iofstalletsförhusets tomt, emedan jag icke vet, hvar departementen
             skulle få någon Jyttning från annan vistelseort. Det skulle således
@@ -3704,7 +3532,7 @@
         <note xml:id="i-JpVrfPB2nssppF4KYob4Be" type="speaker">
           Herr Adelsköld:
         </note>
-        <u xml:id="i-3iLfbBiSZtbHazhtrNJHVt" who="i-PZo61ze3oe2bePYTHaDHM9" next="i-4JTT4qg84fnwAmZFtKEzda">
+        <u xml:id="i-3iLfbBiSZtbHazhtrNJHVt" who="i-PZo61ze3oe2bePYTHaDHM9" next="i-ARgLwF1z81uoLferk1qDEC">
           <seg xml:id="i-SmqDhpSqodniVTQpK4Vsrt">
             Enär tiden är långt framskriden, skall jag endast yttra några
             få ord. Då Rikets Ständer år 1865 antogo nu gällande riksdagsordning,
@@ -3724,14 +3552,10 @@
             och att döma af referaten i tidningarne, tyckas förhållandena
             vara
           </seg>
-        </u>
-        <u xml:id="i-4JTT4qg84fnwAmZFtKEzda" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-3iLfbBiSZtbHazhtrNJHVt" next="i-6iGxCyYnisiWpcNstCuQHB">
           <seg xml:id="i-3dCvs8SnRrWFmEgpqEZvCN">
             ännu sämre på läktarne. Att diskussionen höres och kan rigtigt
             upp-
           </seg>
-        </u>
-        <u xml:id="i-6iGxCyYnisiWpcNstCuQHB" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-4JTT4qg84fnwAmZFtKEzda" next="i-Hn9P5ZqjyX4ZhL2BURnNNw">
           <seg xml:id="i-9X5yRH5CuXrJf8K8XZE5Mr">
             fattas på åhörareoch referentplatserna är likväl en sak af icke
             obetydlig vigt; ty om riksdagsförhandlingarne skola följas med
@@ -3741,8 +3565,6 @@
             hastiga och fullständiga referat till tidningarne, så att allmänheten
             så fort som möjligt må erhålla del af de vigtiga riksdagsförhandlingarne.
           </seg>
-        </u>
-        <u xml:id="i-Hn9P5ZqjyX4ZhL2BURnNNw" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-6iGxCyYnisiWpcNstCuQHB" next="i-ARgLwF1z81uoLferk1qDEC">
           <seg xml:id="i-N49ZGuVdYAHHVP7pcEi6y8">
             Såsom exempel på huru det i detta afseende tillgår i utlandet
             må
@@ -3752,13 +3574,11 @@
         <note xml:id="i-1vuVv6L9Bx2m43fYVpUmY" type="date">
           Torsdagen den 28 Mars, e. m. 41
         </note>
-        <u xml:id="i-ARgLwF1z81uoLferk1qDEC" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-Hn9P5ZqjyX4ZhL2BURnNNw" next="i-7wTEidQwKCuoApzAdfxBZk">
+        <u xml:id="i-ARgLwF1z81uoLferk1qDEC" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-3iLfbBiSZtbHazhtrNJHVt">
           <seg xml:id="i-EuFswGjrHudzxaLAbzY6GT">
             anföras att, hvad som i engelska parlamentet talas sent på natten,
             morgonen derpå ordagrant kan läsas i »Times.»
           </seg>
-        </u>
-        <u xml:id="i-7wTEidQwKCuoApzAdfxBZk" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-ARgLwF1z81uoLferk1qDEC" next="i-Mq774WExbgFgY96HvTpg9B">
           <seg xml:id="i-AHy38jkaddDziiHSdPxQ9c">
             Såsom plats för ett nytt riksdagshus har man föreslagit dels
             Helgeandsholmen, dels den hvara det nuvarande befinner sig, å
@@ -3782,8 +3602,6 @@
             såsom nämndt är, är af vigt att beslut fattas så fort som möjligt,
             så har jag icke tvekat att väcka motion i ämnet.
           </seg>
-        </u>
-        <u xml:id="i-Mq774WExbgFgY96HvTpg9B" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-7wTEidQwKCuoApzAdfxBZk" next="i-HfvGvyix7RmXx6smcTyFzM">
           <seg xml:id="i-XvpCpkeBUvRKYPQwt7Wz23">
             En talare har yttrat, att en förändring af riksdagshuset skulle
             vara mindre behöflig och att man i stället borde söka avägabringa
@@ -3794,8 +3612,6 @@
             som finnas — och icke efter sådana som i en aflägsen framtid kunna
             uppkomma.
           </seg>
-        </u>
-        <u xml:id="i-HfvGvyix7RmXx6smcTyFzM" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-Mq774WExbgFgY96HvTpg9B">
           <seg xml:id="i-28mhDr8mzKa5diUJJu4WLt">
             Uti afgifvet utlåtande har Utskottet yttrat såsom sin åsigt,
             att det sätt för frågans lösning, som blifvit af motionären föreslaget,

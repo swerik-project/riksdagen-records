@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-XHptRUvLPiDEzbyMJst4mL" type="speech">
             <linkGrp type="u">
               <ptr target="#i-89c89558776b9828-0"/>
@@ -256,7 +256,13 @@
               <ptr target="#i-79d9ed6170741b6b-1"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -958,7 +964,7 @@
         <note xml:id="i-5dJBDQ11uXpQM8Za9CK6Pk" type="speaker">
           Herr Dahl, Adolf:
         </note>
-        <u xml:id="i-5880bf689ab905d0-0" who="i-R3ZQnERX5FRrWRvCs33Ukw" next="i-KNS8cD9RmugqQiBdHicywT">
+        <u xml:id="i-5880bf689ab905d0-0" who="i-R3ZQnERX5FRrWRvCs33Ukw" next="i-5880bf689ab905d0-2">
           <seg xml:id="i-LmiqqRUpBTMrVcFwgWTGyy">
             Herr talman! Den förste ärade talaren vädjade till utskottets
             majoritet att, eftersom majoriteten och reservanterna voro ense
@@ -971,8 +977,6 @@
             reservanterna ha framfört såsom riktlinjer för den ifrågasatta
             utredningen, kan jag för min del icke ansluta mig till.
           </seg>
-        </u>
-        <u xml:id="i-KNS8cD9RmugqQiBdHicywT" who="i-R3ZQnERX5FRrWRvCs33Ukw" prev="i-5880bf689ab905d0-0" next="i-5880bf689ab905d0-1">
           <seg xml:id="i-VAUN6po9c3EgAb9G5r2E3U">
             Utskottets ordförande har redan erinrat om de tre särskilda avseenden,
             i vilka reservanterna framställa positiva förslag. Dessa avseenden
@@ -980,8 +984,6 @@
             en i särskild författning fastställd ordning för räkenskapernas
             förande och en särskild genom statliga organ verkställd granskning.
           </seg>
-        </u>
-        <u xml:id="i-5880bf689ab905d0-1" who="i-R3ZQnERX5FRrWRvCs33Ukw" prev="i-KNS8cD9RmugqQiBdHicywT" next="i-5880bf689ab905d0-2">
           <seg xml:id="i-G8xCskEJiqAEJNmfFHK3sE">
             För min del är jag icke i någon av dessa punkter beredd att ansluta
             mig till reservanternas tankegång. Jag kan vara med om att i särskild
@@ -1016,7 +1018,7 @@
         <note xml:id="i-BfdSoxyNAAmxZyuvJrdfTH" type="date">
           Lördagen den 17 mars. 9
         </note>
-        <u xml:id="i-5880bf689ab905d0-2" who="i-R3ZQnERX5FRrWRvCs33Ukw" prev="i-5880bf689ab905d0-1">
+        <u xml:id="i-5880bf689ab905d0-2" who="i-R3ZQnERX5FRrWRvCs33Ukw" prev="i-5880bf689ab905d0-0">
           <seg xml:id="i-JVQnxJVnNmicnBMxSPJKU8">
             rande erinrat, i en mycket bjärt motsats till allt vad kommunal
             självstyrelse heter.
@@ -1112,13 +1114,11 @@
         <note xml:id="i-BGDxkkGvfTrAyYxpAm6HzM" type="date">
           10 Lördagen den 17 mars.
         </note>
-        <u xml:id="i-MT8LEZf9NkMLh9VEgFWoWL" who="i-6Z6NDHqgCBHewDph5MhJjQ" prev="i-fb1ee526900c874e-0" next="i-fb1ee526900c874e-3">
+        <u xml:id="i-MT8LEZf9NkMLh9VEgFWoWL" who="i-6Z6NDHqgCBHewDph5MhJjQ" prev="i-fb1ee526900c874e-0" next="i-fb1ee526900c874e-4">
           <seg xml:id="i-7DtW7UcmttnS2WMgoCmY69">
             kronor, kommunalkassören i S. tillgrep av allmänna medel 257,819
             kronor 0. S. V., 0. 8. V.
           </seg>
-        </u>
-        <u xml:id="i-fb1ee526900c874e-3" who="i-6Z6NDHqgCBHewDph5MhJjQ" prev="i-MT8LEZf9NkMLh9VEgFWoWL" next="i-fb1ee526900c874e-4">
           <seg xml:id="i-JrREUbgBoLgyoS6Kjh3EpS">
             Jag frågar er, mina herrar: kan man icke med dessa siffror och
             dylika siffror även för det följande året för ögonen säga sig,
@@ -1197,7 +1197,7 @@
         <note xml:id="i-QaH2Ez52X2Yavbuv561rbs" type="date">
           Lördagen den 17 mars. 11
         </note>
-        <u xml:id="i-fb1ee526900c874e-4" who="i-6Z6NDHqgCBHewDph5MhJjQ" prev="i-fb1ee526900c874e-3">
+        <u xml:id="i-fb1ee526900c874e-4" who="i-6Z6NDHqgCBHewDph5MhJjQ" prev="i-MT8LEZf9NkMLh9VEgFWoWL">
           <seg xml:id="i-Ew9HefZjt1KT84ptdRoD1y">
             kan det väl tänkas, även om det icke skulle höra till det alldagliga,
             att mer än en kommun här i landet skulle vara tacksam för ett
@@ -1499,7 +1499,7 @@
         <note xml:id="i-NqKczGiwxuhhhZ3NBjYdk" type="speaker">
           Herr Vennerström:
         </note>
-        <u xml:id="i-ba9f1b9f52375d51-0" who="i-JC4yT43VjuXRRqfGmkRoTB" next="i-3wVXdmuPvvLw4M7fjnwcfC">
+        <u xml:id="i-ba9f1b9f52375d51-0" who="i-JC4yT43VjuXRRqfGmkRoTB">
           <seg xml:id="i-KXyUjChoz2dM2W1eX5776F">
             Det har av ordföranden i utskottet och även av andra talare med
             särskild styrka gjorts gällande, att reservanterna skulle önska
@@ -1540,8 +1540,6 @@
             att något liknande även för kommunernas vidkommande borde kunna
             godkännas.
           </seg>
-        </u>
-        <u xml:id="i-3wVXdmuPvvLw4M7fjnwcfC" who="i-JC4yT43VjuXRRqfGmkRoTB" prev="i-ba9f1b9f52375d51-0">
           <seg xml:id="i-4cGa3KPT6qZRhczVrQXM4e">
             Jag yrkar för min del, herr talman, bifall till reservationen.
           </seg>
@@ -1784,7 +1782,7 @@
         <note xml:id="i-BXXap88WgN8v9Nz5JK854w" type="speaker">
           Herr Reuterskiöld:
         </note>
-        <u xml:id="i-713bdf8bfa73dc95-3" who="i-EB1wB73zmy6s7pGzn13Fg5" next="i-JmFdh29w3CAiZ4gnNFeuTV">
+        <u xml:id="i-713bdf8bfa73dc95-3" who="i-EB1wB73zmy6s7pGzn13Fg5">
           <seg xml:id="i-AmUgbx9xqsAvQoPkX2Ma7k">
             Herr talman, mina herrar! Innan motionären yttrar sig rörande
             sin motion, har j jag tillåtit mig begära ordet i denna fråga,
@@ -1820,8 +1818,6 @@
             därför att utskottet icke har annat att göra än att se efter om
             det, varom här är fråga. hör hemma i våra grundlagar eller icke.
           </seg>
-        </u>
-        <u xml:id="i-JmFdh29w3CAiZ4gnNFeuTV" who="i-EB1wB73zmy6s7pGzn13Fg5" prev="i-713bdf8bfa73dc95-3">
           <seg xml:id="i-BSYHRF8WXhUXeSTDBuwXQo">
             Jag ber, herr talman, att få yrka bifall till utskottets hemställan.
           </seg>
@@ -2283,7 +2279,7 @@
         <note xml:id="i-FZRcMBgF6nDA5pFvVE6NtL" type="date">
           Lördagen den 17 mars. 23
         </note>
-        <u xml:id="i-VizCeBSqQE6QD4FnDrxhnw" who="i-XzSzFtnrtwQBSXHVwVhrCf" prev="i-89c89558776b9828-11" next="i-89c89558776b9828-12">
+        <u xml:id="i-VizCeBSqQE6QD4FnDrxhnw" who="i-XzSzFtnrtwQBSXHVwVhrCf" prev="i-89c89558776b9828-11">
           <seg xml:id="i-36xhRtzSvvuk7CK1j849X1">
             minstone visa någon skiftning. I synnerhet smärtar det mig, att
             herr Larsén, som är en så känslosam människa, befinner sig bland
@@ -2295,8 +2291,6 @@
             och Almquist, allesammans mycket hyggliga medmänniskor, som säkerligen
             i sitt hjärta sympatisera med motionärens förslag.
           </seg>
-        </u>
-        <u xml:id="i-89c89558776b9828-12" who="i-XzSzFtnrtwQBSXHVwVhrCf" prev="i-VizCeBSqQE6QD4FnDrxhnw">
           <seg xml:id="i-8Et36K2sW4FFV4eDXi5TFf">
             Viljan är handlingens moder. Utgången ligger kanske däri, att
             viljan till handling ej förefunnits i tillräcklig grad inom utskottet
@@ -3458,7 +3452,7 @@
         <note xml:id="i-7gR2hhJRDCowHtCUiDMWxb" type="speaker">
           Herr Örne:
         </note>
-        <u xml:id="i-e95bd42e13659e1b-0" who="i-GFbGCi8kh9TEUKXENMrEeH" next="i-YPNGtnT4XwX93t9fMqfdVf">
+        <u xml:id="i-e95bd42e13659e1b-0" who="i-GFbGCi8kh9TEUKXENMrEeH" next="i-e95bd42e13659e1b-2">
           <seg xml:id="i-PGYVZ3gwqSyws5id3JpXb1">
             Herr talman, mina herrar! Min avsikt är icke att framställa något
             annat yrkande än om bifall till bevillningsutskottets hemställan.
@@ -3467,8 +3461,6 @@
             tullavgift under inga omständigheter bör beviljas för längre tid
             än nu begärts.
           </seg>
-        </u>
-        <u xml:id="i-YPNGtnT4XwX93t9fMqfdVf" who="i-GFbGCi8kh9TEUKXENMrEeH" prev="i-e95bd42e13659e1b-0" next="i-e95bd42e13659e1b-2">
           <seg xml:id="i-37hbwaSxmQehuiwYHSQ3bp">
             Den ifrågavarande bestämmelsen tillkom efter utlåtande av tulloch
             traktatkommitténs traktatavdelning, av vilken jag själv var ledamot.
@@ -3490,7 +3482,7 @@
           36 Lördagen den 17 mars. diga i handelspolitiskt hänseende och
           så ägnade att ingiva farhågor, att det var
         </note>
-        <u xml:id="i-e95bd42e13659e1b-2" who="i-GFbGCi8kh9TEUKXENMrEeH" prev="i-YPNGtnT4XwX93t9fMqfdVf" next="i-e95bd42e13659e1b-3">
+        <u xml:id="i-e95bd42e13659e1b-2" who="i-GFbGCi8kh9TEUKXENMrEeH" prev="i-e95bd42e13659e1b-0" next="i-e95bd42e13659e1b-3">
           <seg xml:id="i-7Ethz87eswTVmcagsEzNCH">
             nödvändigt, att Sveriges regering hade någon möjlighet att möta
             de nervösa

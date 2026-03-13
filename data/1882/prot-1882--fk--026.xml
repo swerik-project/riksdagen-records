@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-EGqfK4dgNjYSEoiwVLCUac" type="speech">
             <linkGrp type="u">
               <ptr target="#i-4aM5hmDTwB81y5zEPRNahi"/>
@@ -148,7 +148,13 @@
               <ptr target="#i-TG4CrFJSPoMMDuJgxkZQ1L"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -368,7 +374,7 @@
         <note xml:id="i-AFP7CtbEk6pERHJjZQuFDC">
           af Riksbanken i vissa städer. (Forts.)
         </note>
-        <u xml:id="i-3NJja5ru6i2aoWcmjX6AQs" who="i-YZEL7fGZ8MZ3sXegd3zeFp" prev="i-CmVapSD8FEecrsBZRkTDG6" next="i-NPLHy5ZnE2adiu5UJTfGLw">
+        <u xml:id="i-3NJja5ru6i2aoWcmjX6AQs" who="i-YZEL7fGZ8MZ3sXegd3zeFp" prev="i-CmVapSD8FEecrsBZRkTDG6" next="i-2Y4RBZzPcnC4jZGVNvsAuP">
           <seg xml:id="i-61zFX1tHU66XPafSJHd1Ri">
             rigtigt blefvo af Riksdagen beslutade och nu äro inrättade. Då
             Syn- "nerligen svaga skäl uti nu föreliggande betänkande blifvit
@@ -384,8 +390,6 @@
             under sina ögon, den bankkomité, på hvilken man borde kunna ställa
             de största anspråken.
           </seg>
-        </u>
-        <u xml:id="i-NPLHy5ZnE2adiu5UJTfGLw" who="i-YZEL7fGZ8MZ3sXegd3zeFp" prev="i-3NJja5ru6i2aoWcmjX6AQs" next="i-GqHv9na2AberizfQnUaaik">
           <seg xml:id="i-WNvPiviSgLMBXhZq2B3srS">
             Såsom hekant är, har Englands bank, som är en centralbank för
             hela den engelska handeln och industrien, icke något fullständigt
@@ -416,8 +420,6 @@
             att uppvisa något land, der en dylik lånerörelse faller inom en
             centralbanks och allra minst inom en statsbanks verkningskrets.
           </seg>
-        </u>
-        <u xml:id="i-GqHv9na2AberizfQnUaaik" who="i-YZEL7fGZ8MZ3sXegd3zeFp" prev="i-NPLHy5ZnE2adiu5UJTfGLw" next="i-CUpq3DwZ54Y78WgrsJnaaU">
           <seg xml:id="i-NcLtDAzsTSjdCPrrWEmZa8">
             Sedan en så kallad &gt;kommissionsanstalt» blifvit i Riksbanken
             inrättad, finner Banko-Utskottet törhända att afdelningskontor
@@ -426,8 +428,6 @@
             att, »om icke bankkontoret är lika närbeläget som ”brödboden,
             gör det icke full nytta».
           </seg>
-        </u>
-        <u xml:id="i-CUpq3DwZ54Y78WgrsJnaaU" who="i-YZEL7fGZ8MZ3sXegd3zeFp" prev="i-GqHv9na2AberizfQnUaaik" next="i-2Y4RBZzPcnC4jZGVNvsAuP">
           <seg xml:id="i-NiqCf47xyqQFHFzuUR46Y5">
             För att få veta något om Banko-Utskottets nuvarande bankpolitik
             eller åtminstone sätta Utskottet i tillfälle gifva bättre skäl
@@ -437,7 +437,7 @@
         <note xml:id="i-RKBwm4GLwLqnNNZEbPNuHb" type="date">
           Lördagen den 1 April. 5 N:o 26.
         </note>
-        <u xml:id="i-2Y4RBZzPcnC4jZGVNvsAuP" who="i-YZEL7fGZ8MZ3sXegd3zeFp" prev="i-CUpq3DwZ54Y78WgrsJnaaU">
+        <u xml:id="i-2Y4RBZzPcnC4jZGVNvsAuP" who="i-YZEL7fGZ8MZ3sXegd3zeFp" prev="i-3NJja5ru6i2aoWcmjX6AQs">
           <seg xml:id="i-GycU8UwT3XxRz88ckmvUhN">
             för sitt afstyrkande af alla afdelningskontor, anhåller jag hos
             HerrFöreslagna af-
@@ -470,7 +470,7 @@
         <note xml:id="i-5ZYnjGSDdjVGCi8dvZJSnp" type="speaker">
           Herr Wallenberg:
         </note>
-        <u xml:id="i-63EK91KchriFBrM5wMw4M5" who="i-E7aB8B6ZVrFekyhd9pNoQt" next="i-UNmUtuNE4Z34qEbZQaTkKX">
+        <u xml:id="i-63EK91KchriFBrM5wMw4M5" who="i-E7aB8B6ZVrFekyhd9pNoQt">
           <seg xml:id="i-UKiYY9nvNXz9tjcqnz6z14">
             Jag kan icke förstå annat, än att hvad jag yttrade hör till denna
             fråga, ty frågan, om en stor bank skall hafva afdelningskontor
@@ -481,14 +481,10 @@
             utarbetad plan», hvadan det är min oförgripliga tanke, att det
             aligger Banko-Utskottet att delgifva Riksdagen en sådan plan.
           </seg>
-        </u>
-        <u xml:id="i-UNmUtuNE4Z34qEbZQaTkKX" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-63EK91KchriFBrM5wMw4M5" next="i-4fo44snpHX1chFbuA1Y7Wq">
           <seg xml:id="i-Bz8wcYDWtPxqNeqhmwQKWn">
             Utskottet har haft fullt tillräcklig tid dertill, men jag vill
             bereda Utskottet ännu mera tid genom att fortfarande yrka på återremiss.
           </seg>
-        </u>
-        <u xml:id="i-4fo44snpHX1chFbuA1Y7Wq" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-UNmUtuNE4Z34qEbZQaTkKX">
           <seg xml:id="i-QH3ASFRe3g48pHLESWLG21">
             Efter härmed slutad öfverläggning gjorde Herr Grefven och Talmannen
             enligt de derunder framstälda yrkandena propositioner, först på
@@ -721,7 +717,7 @@
           vara ansvarig för den skada å konkursboet, som genom sysslomannens
           förfarande uppstått.
         </note>
-        <u xml:id="i-LouL93ku8juQSDjyVtKPsb" who="i-3DKytmgpnLCJYb8hSjHGUm" next="i-GgKQXmL2n9LVvbghCrtB7h">
+        <u xml:id="i-LouL93ku8juQSDjyVtKPsb" who="i-3DKytmgpnLCJYb8hSjHGUm" next="i-NMVPBiRfUXXQ34sP3mEySq">
           <seg xml:id="i-6F4MwiceUnkQ5nb1uY8YyF">
             Det kan icke falla mig in att uttala något omdöme, huruvida detta
             domslut var rigtigt eller icke, men det var under känslan af det
@@ -729,8 +725,6 @@
             framställning. Jag blir alltid missmodig, då man vill ändra lagen
             under intrycket af ett enstaka domslut.
           </seg>
-        </u>
-        <u xml:id="i-GgKQXmL2n9LVvbghCrtB7h" who="i-3DKytmgpnLCJYb8hSjHGUm" prev="i-LouL93ku8juQSDjyVtKPsb" next="i-NMVPBiRfUXXQ34sP3mEySq">
           <seg xml:id="i-NqJCcWnnSSYnYHmfPbEfbP">
             kEamellertid motstod förra Riksdagens Lag-Utskott manligen detta
           </seg>
@@ -739,7 +733,7 @@
         <note xml:id="i-FCt2HC7uP71p44usWpca9G">
           Löragen den 1 April. 9 N:o 26.
         </note>
-        <u xml:id="i-NMVPBiRfUXXQ34sP3mEySq" who="i-3DKytmgpnLCJYb8hSjHGUm" prev="i-GgKQXmL2n9LVvbghCrtB7h" next="i-Nbhyzbd91vKAvGUnkecCPD">
+        <u xml:id="i-NMVPBiRfUXXQ34sP3mEySq" who="i-3DKytmgpnLCJYb8hSjHGUm" prev="i-LouL93ku8juQSDjyVtKPsb" next="i-Nbhyzbd91vKAvGUnkecCPD">
           <seg xml:id="i-HSqj258GfzvRjT89ZABwaW">
             känsloanlopp af Herr Sälling och afstyrkte motionen på grunder,
             som Vörestaget Kammaren återfinner i den reservation, som nu af
@@ -752,7 +746,7 @@
         <note xml:id="i-2qHUAUdVZEXGztF264juWd">
           till Utskottet kommit.
         </note>
-        <u xml:id="i-Nbhyzbd91vKAvGUnkecCPD" who="i-3DKytmgpnLCJYb8hSjHGUm" prev="i-NMVPBiRfUXXQ34sP3mEySq" next="i-CZyiJZYsdMkpaXTtwPyVVi">
+        <u xml:id="i-Nbhyzbd91vKAvGUnkecCPD" who="i-3DKytmgpnLCJYb8hSjHGUm" prev="i-NMVPBiRfUXXQ34sP3mEySq">
           <seg xml:id="i-LWT9MzX34yQwC6LKU5vUz9">
             Jag skall nu litet beröra de grunder, på hvilka föregående Riksdags
             Lag-Utskott afstyrkte motionen och på hvilka reservanterne jemväl
@@ -778,8 +772,6 @@
             konkursförvaltningen skötes väl och att bästa resultatet deraf
             framkommer.
           </seg>
-        </u>
-        <u xml:id="i-CZyiJZYsdMkpaXTtwPyVVi" who="i-3DKytmgpnLCJYb8hSjHGUm" prev="i-Nbhyzbd91vKAvGUnkecCPD" next="i-Ldot4mPU2rVDKkDJ1sqSBv">
           <seg xml:id="i-XPBGd1aNehVCwh5U8VHC14">
             Nuvarande Lag-Utskott vågar icke bestrida giltigheten af den
             rättsgrundsats, som föregående ärs Lag-Utskott och reservanterne
@@ -801,8 +793,6 @@
             grundsats borde det väl rätteligen vara domaren, som skulle hålla
             dem skadeslösa, då han gjort ett så dåligt val.
           </seg>
-        </u>
-        <u xml:id="i-Ldot4mPU2rVDKkDJ1sqSBv" who="i-3DKytmgpnLCJYb8hSjHGUm" prev="i-CZyiJZYsdMkpaXTtwPyVVi">
           <seg xml:id="i-RVySk33jtBBe495z9h1SM7">
             Afven om man nu skulle vilja gå in på Lag-Utskottets åsigt, så
             synes mig, att den åsyftade lagförändringen icke har större betydelse,
@@ -823,7 +813,7 @@
         <note xml:id="i-58uaZFq2af5NimpnauTr5v" type="speaker">
           Herr Samzelius:
         </note>
-        <u xml:id="i-DAUE5UwrpXpCUVj7mYSbQK" who="i-LNgyvud8Ftrbv7BWjhYTvY" next="i-8XdqGtNzuGTmaN7YKf2a5p">
+        <u xml:id="i-DAUE5UwrpXpCUVj7mYSbQK" who="i-LNgyvud8Ftrbv7BWjhYTvY" next="i-WcQTVKTn9NBwnQqSq1k2zZ">
           <seg xml:id="i-7Ls6k4Hk5DpCwj6Tvsf6ka">
             På sätt den föregående talaren mycket rigtigt anmärkt, passerade
             denna fråga utan all diskussion i denna Kammare vid förra ri ksdagen.
@@ -851,8 +841,6 @@
             Han nämnös såsom den förste af de närvarande ledamöterne, som
             för öfrigt
           </seg>
-        </u>
-        <u xml:id="i-8XdqGtNzuGTmaN7YKf2a5p" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-DAUE5UwrpXpCUVj7mYSbQK" next="i-M567Z24fWjNnuq9VEBqTko">
           <seg xml:id="i-8hD1A1rvztQ9gMz2EPMZCm">
             gjorde omkring 40 personer, af hvilka det öfvervägande antalet
             var jusiter. Mötet uttalade enhälligt såsom svar på derom framstäld
@@ -861,8 +849,6 @@
             mer som borgenärerne ensamme tillsätta de män, som skola handhafva
             och utreda konkursboet.
           </seg>
-        </u>
-        <u xml:id="i-M567Z24fWjNnuq9VEBqTko" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-8XdqGtNzuGTmaN7YKf2a5p" next="i-WcQTVKTn9NBwnQqSq1k2zZ">
           <seg xml:id="i-4CZvt598VoYDsNapZvrK95">
             En juridisk förening i Skåne har äfven förehaft samma fråga och,
             enligt hvad det upplystes i Lag-Utskottet, höjdes der icke en
@@ -886,7 +872,7 @@
         <note xml:id="i-R2Z48sKynceKmiK4eccnHy" type="date">
           Lördagen den 1 April. 11 N:o 26.
         </note>
-        <u xml:id="i-WcQTVKTn9NBwnQqSq1k2zZ" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-M567Z24fWjNnuq9VEBqTko" next="i-SyREk794ZzwzM16EJuCDNk">
+        <u xml:id="i-WcQTVKTn9NBwnQqSq1k2zZ" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-DAUE5UwrpXpCUVj7mYSbQK" next="i-Ffbg2HXraYJxibZtJciHLX">
           <seg xml:id="i-LH4UB2bnTjKtGSFcZSpDgL">
             den förut varande inkasseraren först till god man och sedan till
             sysslo- Föreslaget - man i konkursen. Tillgångarne voro icke särdeles
@@ -896,77 +882,51 @@
             rymde han ort.) till Amerika och tog med sig alla medlen. En rättegång
             uppstod, i
           </seg>
-        </u>
-        <u xml:id="i-SyREk794ZzwzM16EJuCDNk" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-WcQTVKTn9NBwnQqSq1k2zZ" next="i-TPfxKaP6Zp92MdN8rphvtU">
           <seg xml:id="i-UeUsKnsD5jw1HNxCuux8yb">
             hvilken pluraliteten af domstolarnes ledamöter i alla instanser
             uttalade
           </seg>
-        </u>
-        <u xml:id="i-TPfxKaP6Zp92MdN8rphvtU" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-SyREk794ZzwzM16EJuCDNk" next="i-4DqA6yiw9nR1VjMENrGt41">
           <seg xml:id="i-HYRyFo1vqqHK4gYny9RigH">
             den åsigten, att fordringsegarne voro befogade att af gäldenären
             utfå
           </seg>
-        </u>
-        <u xml:id="i-4DqA6yiw9nR1VjMENrGt41" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-TPfxKaP6Zp92MdN8rphvtU" next="i-4GmhZTQqnz4eEPtyoCJmyb">
           <seg xml:id="i-AYhbSDr6VBLUTbWipk7rZ3">
             beloppet för andra gången, utan afseende å de medel, som förskingrats.
           </seg>
-        </u>
-        <u xml:id="i-4GmhZTQqnz4eEPtyoCJmyb" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-4DqA6yiw9nR1VjMENrGt41" next="i-Epved5Jm48RZaPkEvYB2nt">
           <seg xml:id="i-5V7ghqETh8bG3gfFoDpJ9i">
             Om förskingringen skett, innan gäldenären blifvit försatt i konkurs,
             så
           </seg>
-        </u>
-        <u xml:id="i-Epved5Jm48RZaPkEvYB2nt" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-4GmhZTQqnz4eEPtyoCJmyb" next="i-7XKPJJJegh5WBo9ToEnC6x">
           <seg xml:id="i-AEmpc5E2E4Hvpx6SuDxhqx">
             är det otvifvelaktigt att den, som lemnat inkasseraren förtroendet
             att
           </seg>
-        </u>
-        <u xml:id="i-7XKPJJJegh5WBo9ToEnC6x" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-Epved5Jm48RZaPkEvYB2nt" next="i-D7yjzffM5CoAnvsN4B6AHN">
           <seg xml:id="i-WAXYVNSm2u9xYe7qcN8xAw">
             ubttaga penningarne, äfven fått vidkännas skadan af hans oredlighet,
           </seg>
-        </u>
-        <u xml:id="i-D7yjzffM5CoAnvsN4B6AHN" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-7XKPJJJegh5WBo9ToEnC6x" next="i-6ahokDUSe6kLv2tKtXuV1Q">
           <seg xml:id="i-TDcA91cjhirJ4KQjeqMVeY">
             men derföre att denne inkasserare upphöjdes till god man och
             sysslo-
           </seg>
-        </u>
-        <u xml:id="i-6ahokDUSe6kLv2tKtXuV1Q" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-D7yjzffM5CoAnvsN4B6AHN" next="i-RMF751oh6d1bTbAopBNQmn">
           <seg xml:id="i-7Abj4NLEDCVQGzFJutLxLc">
             man i en konkurs, så skulle gäldenären ensam ansvara. Detta är
             dock
           </seg>
-        </u>
-        <u xml:id="i-RMF751oh6d1bTbAopBNQmn" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-6ahokDUSe6kLv2tKtXuV1Q" next="i-VhF3ryTqqnxD8Q3DQSEThH">
           <seg xml:id="i-9j7bxpvgDYkeFCY95nwc68">
             i viss mån upprörande för rättskänslan, och utan att nu vilja
             komma
           </seg>
-        </u>
-        <u xml:id="i-VhF3ryTqqnxD8Q3DQSEThH" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-RMF751oh6d1bTbAopBNQmn" next="i-BBFy51X7pT3yBoZcQX5Aje">
           <seg xml:id="i-EJTyu1JC7MRQALvj8BxwgK">
             till den högre stämning, om hvilken Lag-Utskottets ordförande
             talade,
           </seg>
-        </u>
-        <u xml:id="i-BBFy51X7pT3yBoZcQX5Aje" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-VhF3ryTqqnxD8Q3DQSEThH" next="i-QtL73WRg65adaFSQBcHG4F">
           <seg xml:id="i-Tjab4AnJS5kHSLNqDzKZny">
             så får man väl icke frånkänna all betydelse åt hvad den sunda
             rätts-
           </seg>
-        </u>
-        <u xml:id="i-QtL73WRg65adaFSQBcHG4F" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-BBFy51X7pT3yBoZcQX5Aje" next="i-CUEr4guVBmEsDx9hgNjMrz">
           <seg xml:id="i-BVSdXr8HEWKYm2BrD4fgsW">
             känslan säger.
           </seg>
-        </u>
-        <u xml:id="i-CUEr4guVBmEsDx9hgNjMrz" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-QtL73WRg65adaFSQBcHG4F" next="i-Ffbg2HXraYJxibZtJciHLX">
           <seg xml:id="i-KK7bwsqAEaxenAgcnDtzeo">
             Nu har af en reservant blifvit åberopadt det förhållande, att
             eganderätten till konkursboet fortfarande är gäldenärens. Det
@@ -1018,7 +978,7 @@
         <note xml:id="i-7Gv2NkxqbtgYkUQ66A6yPd" type="date">
           12 Lördagen den 1 April.
         </note>
-        <u xml:id="i-Ffbg2HXraYJxibZtJciHLX" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-CUEr4guVBmEsDx9hgNjMrz" next="i-TQw2F2NVKoZBPVcdjbp3Wb">
+        <u xml:id="i-Ffbg2HXraYJxibZtJciHLX" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-WcQTVKTn9NBwnQqSq1k2zZ">
           <seg xml:id="i-Hjw8UyH4ahR7mvkMZs2Vzc">
             domen omedelbart af gäldenären — hvarpå man velat lägga så mycken
             vigt — utan af borgenärerne, till hvilka den redan vid konkursens
@@ -1041,8 +1001,6 @@
             Det gör t. ex. staten, när en officer, som för kronans fartyg,
             genom påsättning vållar skada, som han icke sjelf kan ersätta.
           </seg>
-        </u>
-        <u xml:id="i-TQw2F2NVKoZBPVcdjbp3Wb" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-Ffbg2HXraYJxibZtJciHLX" next="i-SB5huJzc48Xt55V6iFixx8">
           <seg xml:id="i-Ep9MMgkvE275VAkc4BkX8x">
             De skäl, som för öfrigt blifvit anförda af reservanten, synas
             mig för ingen del vara öfvertygande, och det lär väl knappast
@@ -1056,8 +1014,6 @@
             allt skäl kan benämnas »olag» enligt domareregelns uttryckssätt
             och derföre bör afläggas.
           </seg>
-        </u>
-        <u xml:id="i-SB5huJzc48Xt55V6iFixx8" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-TQw2F2NVKoZBPVcdjbp3Wb">
           <seg xml:id="i-EyfFaJHJs3GmrCTtryRTMi">
             Då Lag-Utskottet icke haft tid och, jag medgifver, kanske icke
             heller förmåga att uppställa ett förslag, som haft utsigt att
@@ -1073,7 +1029,7 @@
         <note xml:id="i-3YX3nCgJ2XkeDdnuTFNvsb" type="speaker">
           Herr Forssell, Otto Herman:
         </note>
-        <u xml:id="i-BvVSX5UHqATkUcDgAcVt2G" who="i-EA8wBt8xukzeWCyU5cj94D" next="i-DquUNeZYTeqagc4AY1UqRX">
+        <u xml:id="i-BvVSX5UHqATkUcDgAcVt2G" who="i-EA8wBt8xukzeWCyU5cj94D" next="i-6JegjWaMJezet61jzMEAHq">
           <seg xml:id="i-LJ9J1H6fcpAHdF4Lif5xwQ">
             Orsaken till denna motion och till Lag-Utskottets i anledning
             deraf framstälda förslag är, såsom bekant, ett enda tillfälligt
@@ -1085,8 +1041,6 @@
             som föranledt denna i strid med rättsmedvetandet gående dom. Lag-Utskottet
             tyckes också hafva delat denna motionärens åsigt.
           </seg>
-        </u>
-        <u xml:id="i-DquUNeZYTeqagc4AY1UqRX" who="i-EA8wBt8xukzeWCyU5cj94D" prev="i-BvVSX5UHqATkUcDgAcVt2G" next="i-6JegjWaMJezet61jzMEAHq">
           <seg xml:id="i-XZLaXXaAvFeuEeDSjm9Hso">
             Hvad då först vidkommer den omständighet, att ett enda rättsfall
           </seg>
@@ -1095,7 +1049,7 @@
         <note xml:id="i-8mQFnut7qco9hGpXCHAMJL" type="date">
           Lördagen den 1 April. 13 N:o 26.
         </note>
-        <u xml:id="i-6JegjWaMJezet61jzMEAHq" who="i-EA8wBt8xukzeWCyU5cj94D" prev="i-DquUNeZYTeqagc4AY1UqRX" next="i-SgBfbLJDq2Rn6i5emGTaiv">
+        <u xml:id="i-6JegjWaMJezet61jzMEAHq" who="i-EA8wBt8xukzeWCyU5cj94D" prev="i-BvVSX5UHqATkUcDgAcVt2G">
           <seg xml:id="i-QxZaSutjdJShcTr2buFNPh">
             skulle utgöra tillräckligt skäl och motiv för den ena statsmakten
             att Föreslaget väcka förslag om ett tillägg till, en ändring i
@@ -1108,14 +1062,10 @@
             Högsta Domstolen i ett likartadt fall meddelar enahanda dom, helst
             jag hoppas och tror, att sådant skall komma att dröja ganska länge.
           </seg>
-        </u>
-        <u xml:id="i-SgBfbLJDq2Rn6i5emGTaiv" who="i-EA8wBt8xukzeWCyU5cj94D" prev="i-6JegjWaMJezet61jzMEAHq" next="i-FFFbsSkJ9g61MGWUYuzB8c">
           <seg xml:id="i-8VCoYpuw8Vr2wteGYYento">
             Innan jag lemnar ordet ber jag att isammanhang härmed få fästa
             uppmärksamhet på en biomständighet.
           </seg>
-        </u>
-        <u xml:id="i-FFFbsSkJ9g61MGWUYuzB8c" who="i-EA8wBt8xukzeWCyU5cj94D" prev="i-SgBfbLJDq2Rn6i5emGTaiv" next="i-DDR3Zc7Gf8VSDUgjFxHwNE">
           <seg xml:id="i-8P4B67tyhPUtj2F6ft8keE">
             Under diskussionen har man här åberopat ett skäl till stöd för
             den åsigt, att det, enligt gällande lag, skulle vara nödvändigt
@@ -1132,8 +1082,6 @@
             mödan att åberopa ett sådant skäl, såsom det der skulle hafva
             föranledt det nämnda domslutet.
           </seg>
-        </u>
-        <u xml:id="i-DDR3Zc7Gf8VSDUgjFxHwNE" who="i-EA8wBt8xukzeWCyU5cj94D" prev="i-FFFbsSkJ9g61MGWUYuzB8c" next="i-bVtcWr6WE7zHcRLfxBxPf">
           <seg xml:id="i-HX3DDqyxC1sMzHyrow1Jru">
             Jag behöfver icke och vill icke intränga djupare i denna grannlaga
             och ömtåliga fråga. Visserligen är det min åsigt, att vår samhällsförfattning
@@ -1141,8 +1089,6 @@
             det då i lagen utan på ett helt annat ställe, hvilket jag här
             icke vill omnämna.
           </seg>
-        </u>
-        <u xml:id="i-bVtcWr6WE7zHcRLfxBxPf" who="i-EA8wBt8xukzeWCyU5cj94D" prev="i-DDR3Zc7Gf8VSDUgjFxHwNE" next="i-9Sk2WvemvkTVSZFMfJjnbW">
           <seg xml:id="i-8NjJVpWz2NMbPcx4hMxpVG">
             Jag anser emellertid att en skrifvelse här är onödig och icke
             på sin plats, helst som jag icke tror det vara öfverensstämmande
@@ -1151,8 +1097,6 @@
             det motionär att inkomma med detaljeradt förslag att af Utskottet
             till- eller afstyrkas.
           </seg>
-        </u>
-        <u xml:id="i-9Sk2WvemvkTVSZFMfJjnbW" who="i-EA8wBt8xukzeWCyU5cj94D" prev="i-bVtcWr6WE7zHcRLfxBxPf">
           <seg xml:id="i-UD1mpc5HkiRsu6Z72EmGJC">
             Jag yrkar afslag å Lag-Utskottets hemställan.
           </seg>
@@ -1195,14 +1139,12 @@
         <note xml:id="i-SpAFGD8UdWDjsMmGHTndMi" type="date">
           14 Lördagen den 1 April.
         </note>
-        <u xml:id="i-XVvfD4xMPUeG9jsVvHiFX1" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-9eDTzYqbskZXJn96DvEjmV" next="i-ViTW5K5iHaqnTCmBGfyQ7G">
+        <u xml:id="i-XVvfD4xMPUeG9jsVvHiFX1" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-9eDTzYqbskZXJn96DvEjmV">
           <seg xml:id="i-8osE8A62UELA3cdbu7o5br">
             tro, att de ärenden, som ännu återstå för Lag-Utskottet att behandla,
             skola behöfva taga så mycken tid i anspråk, att icke någon tid
             blir öfver att taga denna fråga under förnyad ompröfning.
           </seg>
-        </u>
-        <u xml:id="i-ViTW5K5iHaqnTCmBGfyQ7G" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-XVvfD4xMPUeG9jsVvHiFX1">
           <seg xml:id="i-Y1R2iygvVjgWEnzkm3YDjV">
             Jag yrkar återremiss.
           </seg>
@@ -1210,7 +1152,7 @@
         <note xml:id="i-JJYCUtrV3Eg89iEKXxS6cw" type="speaker">
           Herr Samzelius:
         </note>
-        <u xml:id="i-QquoxxfSMHHBuiV4pmKJyx" who="i-LNgyvud8Ftrbv7BWjhYTvY" next="i-8tUVPso9UDVGtPLW2dP8vK">
+        <u xml:id="i-QquoxxfSMHHBuiV4pmKJyx" who="i-LNgyvud8Ftrbv7BWjhYTvY">
           <seg xml:id="i-SzpQQnV1jM5yHbWqGh8gTN">
             För min del finner jag frågan vara från Utskottets sida så noggrant
             och fullständigt utredd, som ske kunnat. Skäl äro anförda såväl
@@ -1223,8 +1165,6 @@
             jag för min del i det afseendet hysa misstroende till Utskottets
             krafter, hvilka för öfrigt äro mycket hårdt anlitade.
           </seg>
-        </u>
-        <u xml:id="i-8tUVPso9UDVGtPLW2dP8vK" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-QquoxxfSMHHBuiV4pmKJyx" next="i-E5jqcmeRnDS9U1NavqXuwa">
           <seg xml:id="i-FoM938TEA9ZV2sykVRowoo">
             Man säger, att denna sak är af så ringa vigt, att det icke är
             skäl att besvära Kongl. Maj:t med någon skrifvelse derom. Jag
@@ -1233,8 +1173,6 @@
             att ansvara för den försumlighet, som kan läggas gode männen eller
             sysslomannen till last.
           </seg>
-        </u>
-        <u xml:id="i-E5jqcmeRnDS9U1NavqXuwa" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-8tUVPso9UDVGtPLW2dP8vK" next="i-G9HiapRv985qbTvN5cPbWQ">
           <seg xml:id="i-V5VKxppDf8mgudwtWJ7upC">
             En ärad talare på vestmanlandsbänken uttalade den förhoppning,
             att ett dylikt domslut som det ofta åberopade, af Högsta Domstolen
@@ -1243,8 +1181,6 @@
             kan man väl tro, att Högsta Domstolen skall taga intryck af en
             diskussion i denna Kammare!
           </seg>
-        </u>
-        <u xml:id="i-G9HiapRv985qbTvN5cPbWQ" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-E5jqcmeRnDS9U1NavqXuwa">
           <seg xml:id="i-9LjqAj8nYfZsGkdSq7djUE">
             Om derför lagen förblifver sådan, som den var då nämnda dom fäldes,
             så är det väl antagligt, att likartade domslut komma att afkunnas,
@@ -1281,7 +1217,7 @@
         <note xml:id="i-Pxa99TxvEPfARtPbbe92tC" type="date">
           Lördagen den 1 April. 15
         </note>
-        <u xml:id="i-9u1AfzowAp3RbfEETm3tTL" who="i-HWWVGZcUSaZGHGdRYcnTju" prev="i-T5mijTWFo4NirkVuRYiTtZ" next="i-N4yLVo215saEqJPtiARZfs">
+        <u xml:id="i-9u1AfzowAp3RbfEETm3tTL" who="i-HWWVGZcUSaZGHGdRYcnTju" prev="i-T5mijTWFo4NirkVuRYiTtZ">
           <seg xml:id="i-SNVEgMuQ27pKSZJdZdSBUy">
             skottet har rigtigt uppfattat motionens syfte, och att detta
             är, att »från lagstiftnings synpunkt såken bör så ordnas, att
@@ -1313,8 +1249,6 @@
             stor del som i dylikt fall möjligen hade kunnat komma borgenärerne
             till godo.
           </seg>
-        </u>
-        <u xml:id="i-N4yLVo215saEqJPtiARZfs" who="i-HWWVGZcUSaZGHGdRYcnTju" prev="i-9u1AfzowAp3RbfEETm3tTL">
           <seg xml:id="i-F2ArVMbi3hU7euAPULd1Ak">
             Någon rättsgrund för att ålägga borgenärerne, såsom sådana, att
             framför gäldenären svara för konkursmassans förstöring af sysslomännen,
@@ -1337,13 +1271,11 @@
         <note xml:id="i-6acSZTfrszdoUW9t9TcnmQ" type="speaker">
           Herr Samzelius:
         </note>
-        <u xml:id="i-RBXr5zMinVY8Dy1qZU9bM1" who="i-LNgyvud8Ftrbv7BWjhYTvY" next="i-F8VdJAWuxZXnFAhJjpLsFj">
+        <u xml:id="i-RBXr5zMinVY8Dy1qZU9bM1" who="i-LNgyvud8Ftrbv7BWjhYTvY" next="i-LHa3kBa1w9Y3vao7LvH13i">
           <seg xml:id="i-WeMkrgAr8LMSbSTFQ4i1rr">
             Afven med fara att trötta Kammaren, ber jag att för några ögonblick
             få taga Kammarens tid i anspråk.
           </seg>
-        </u>
-        <u xml:id="i-F8VdJAWuxZXnFAhJjpLsFj" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-RBXr5zMinVY8Dy1qZU9bM1" next="i-LHa3kBa1w9Y3vao7LvH13i">
           <seg xml:id="i-Q2uEteU5PMusKqZJyPz4wD">
             Den siste talarens uppfattning af Lag-Utskottets mening var fullkomligt
             rigtig, då han sade, att Lag-Utskottet utgått från den åsigten,
@@ -1368,13 +1300,11 @@
         <note xml:id="i-KwgoVL7VQoPdjmJFrcCv8T" type="date">
           16 Lördagen den 1 April.
         </note>
-        <u xml:id="i-LHa3kBa1w9Y3vao7LvH13i" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-F8VdJAWuxZXnFAhJjpLsFj" next="i-CoMyFYw1bH8M8baVhwQkm5">
+        <u xml:id="i-LHa3kBa1w9Y3vao7LvH13i" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-RBXr5zMinVY8Dy1qZU9bM1" next="i-QF374JVdGerCqLq3GrXyDm">
           <seg xml:id="i-RQYy1C9RjTKxc33T82AxPm">
             frihet för så stor del af de i konkursen bevakade fordringarne,
             som
           </seg>
-        </u>
-        <u xml:id="i-CoMyFYw1bH8M8baVhwQkm5" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-LHa3kBa1w9Y3vao7LvH13i" next="i-QF374JVdGerCqLq3GrXyDm">
           <seg xml:id="i-B7Hog9kpuLfkQQTUJzXKhx">
             tillägg till 50 $ visats kunna ur de afträdda tillgångarne gäldas,
             och således icke nödgas
@@ -1383,12 +1313,10 @@
         <note xml:id="i-ShN4qfA9hV1xMU4S8ybqL7">
           Konkurslagen. (Forts.)
         </note>
-        <u xml:id="i-QF374JVdGerCqLq3GrXyDm" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-CoMyFYw1bH8M8baVhwQkm5" next="i-TpEmCPwWdRricXErsLe8cm">
+        <u xml:id="i-QF374JVdGerCqLq3GrXyDm" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-LHa3kBa1w9Y3vao7LvH13i">
           <seg xml:id="i-ULeybYxQJm3XpqvZNJRfFh">
             två gånger betala samma del at gälden.
           </seg>
-        </u>
-        <u xml:id="i-TpEmCPwWdRricXErsLe8cm" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-QF374JVdGerCqLq3GrXyDm" next="i-CJcsj5avWTJRLmJZ7uvU3F">
           <seg xml:id="i-Qn7yMn6UCr7WoeLnUuwKKi">
             Men han har sedermera omtalat, att det kan hända, att de afträdda
             tillgångarne, till belopp af hundraeller tusentals kronor, icke
@@ -1406,21 +1334,15 @@
             en allmän rättsgrundsats, som efter min uppfattning bör i förevarande
             fall blifva fallt tillämplig.
           </seg>
-        </u>
-        <u xml:id="i-CJcsj5avWTJRLmJZ7uvU3F" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-TpEmCPwWdRricXErsLe8cm" next="i-3LD1JyYzsDbDSGJRuQrfdB">
           <seg xml:id="i-CFD6Q2kvFTLfXigwoFnc3">
             Då man här talat om sympatier för den ene eller den andre, ber
             jag åtminstone att få derifrån frikalla mig. Jag har icke sympati
             för någondera, hvarken borgenär eller gäldenär; min sympati gifver
           </seg>
-        </u>
-        <u xml:id="i-3LD1JyYzsDbDSGJRuQrfdB" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-CJcsj5avWTJRLmJZ7uvU3F" next="i-NPdkPoPqFM6EagEQhY3gGM">
           <seg xml:id="i-SxCGg47cvorSk1JnzRFgxQ">
             jag endast åt rättvisa och billighet. Man bör dock icke, enligt
             mitt
           </seg>
-        </u>
-        <u xml:id="i-NPdkPoPqFM6EagEQhY3gGM" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-3LD1JyYzsDbDSGJRuQrfdB" next="i-9tAocmqExTFmJnMS9yQzYJ">
           <seg xml:id="i-YXEfwPeCBUdgXLbVN3Exd4">
             förmenande, lemna gäldenären alldeles å sido. Bland representanterne
             i denna Kammare har han visserligen icke särdeles många målsmän,
@@ -1428,8 +1350,6 @@
             rätt icke trädes allt för nära, och en sådan lagstiftningsprincip
             tror jag för min del vara sund och rigtig.
           </seg>
-        </u>
-        <u xml:id="i-9tAocmqExTFmJnMS9yQzYJ" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-NPdkPoPqFM6EagEQhY3gGM">
           <seg xml:id="i-DvBPai3AnzHJAodAk6ZaxC">
             Jag anhåller för den skull fortfarande om bifall till Utskottets
             förslag.

@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-F7wNU1uxVLru2SLy3xRBC4" type="speech">
             <linkGrp type="u">
               <ptr target="#i-CQD4uFrC48phLzgkuNahie"/>
@@ -230,7 +230,13 @@
               <ptr target="#i-7L4vp9qVF1NYZ9A1DmwZRz"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -284,7 +290,7 @@
         <note xml:id="i-BXGn897ndnnwbnWasiCwhK" type="speaker">
           Hans excellens herr statsministern Hansson, som anförde:
         </note>
-        <u xml:id="i-1dad48b6dd00a899-0" who="i-6dbbwLmze8R4p7yWmcezLY" next="i-QPD1qyJ76N7gy6zNAGoVup">
+        <u xml:id="i-1dad48b6dd00a899-0" who="i-6dbbwLmze8R4p7yWmcezLY" next="i-ChnSbVyqoeUDApgJp2L7oC">
           <seg xml:id="i-XauPvEGPewZtQHwJpS7agX">
             Herr talman! Med andra kammarens tillstånd har herr Lithander
             till mig riktat följande frågor:
@@ -294,15 +300,11 @@
             tillhandakomna uppgifter tagit under tiden sedan den koncessionerade
             tippningens tillkomst?
           </seg>
-        </u>
-        <u xml:id="i-QPD1qyJ76N7gy6zNAGoVup" who="i-6dbbwLmze8R4p7yWmcezLY" prev="i-1dad48b6dd00a899-0" next="i-LKx5QRe5wtBzpz22jkVASj">
           <seg xml:id="i-NhmHvkntVPwuCE3cbsTbW5">
             2. Vilka åtgärder ämnar regeringen vidtaga för att tillse, att
             tippningen håller sig inom ramen för regeringens förslag i fjol
             och riksdagens beslut?
           </seg>
-        </u>
-        <u xml:id="i-LKx5QRe5wtBzpz22jkVASj" who="i-6dbbwLmze8R4p7yWmcezLY" prev="i-QPD1qyJ76N7gy6zNAGoVup" next="i-ChnSbVyqoeUDApgJp2L7oC">
           <seg xml:id="i-KFSHB7jo723n9jLQrxY6Ts">
             Till svar å första frågan vill jag meddela följande.
           </seg>
@@ -348,7 +350,7 @@
           Svar å interpellation. (Forts.) medan tidigare man genom insatsbelopp
           på 10 öre och mindre sökte locka även de yngre att deltaga.
         </note>
-        <u xml:id="i-ChnSbVyqoeUDApgJp2L7oC" who="i-6dbbwLmze8R4p7yWmcezLY" prev="i-LKx5QRe5wtBzpz22jkVASj">
+        <u xml:id="i-ChnSbVyqoeUDApgJp2L7oC" who="i-6dbbwLmze8R4p7yWmcezLY" prev="i-1dad48b6dd00a899-0">
           <seg xml:id="i-BhF76rfDuzJutFdunEUcm5">
             Med anledning av interpellantens andra fråga vill jag upplysa,
             att regeringen för närvarande icke planerar några särskilda åtgärder
@@ -1030,12 +1032,10 @@
         <note xml:id="i-UMEufxNs6Bv4RHVFt9mVku" type="speaker">
           höll ordet, anförde:
         </note>
-        <u xml:id="i-QDfMxU6XkYxpCXtJccrG2G" who="unknown" next="i-R3EDUZdW4Q5RsZsYD3s7iJ">
+        <u xml:id="i-QDfMxU6XkYxpCXtJccrG2G" who="unknown" next="i-d53bfd9a5e758c6d-4">
           <seg xml:id="i-WnguywKrAghmrpAkgsmuRS">
             Herr talman! Med denna kammares tillstånd har dess interpellation.
           </seg>
-        </u>
-        <u xml:id="i-R3EDUZdW4Q5RsZsYD3s7iJ" who="unknown" prev="i-QDfMxU6XkYxpCXtJccrG2G" next="i-d53bfd9a5e758c6d-4">
           <seg xml:id="i-HKQjHNVqXauaymrd3dMq6T">
             ledamot herr Janne Nilsson till mig framställt följande spörsmål:
           </seg>
@@ -1050,7 +1050,7 @@
         <note xml:id="i-G7Ge8wjbfsDd32qTTea9fG">
           Svar å interpellation. (Forts.)
         </note>
-        <u xml:id="i-d53bfd9a5e758c6d-4" who="unknown" prev="i-R3EDUZdW4Q5RsZsYD3s7iJ" next="i-d53bfd9a5e758c6d-5">
+        <u xml:id="i-d53bfd9a5e758c6d-4" who="unknown" prev="i-QDfMxU6XkYxpCXtJccrG2G" next="i-d53bfd9a5e758c6d-5">
           <seg xml:id="i-M49VfZmbRNYT9TJnvjejuw">
             1) Anser herr statsrådet det vara önskvärt och möjligt att vid
             beslut om inköp av bussföretag för statens järnvägars räkning
@@ -2453,13 +2453,11 @@
           försöksverksamhet på träkolsbriketteringens område avsedda anslaget
           ligga outnyttjat?
         </note>
-        <u xml:id="i-JB2R8X8vdRJG2kBKucsFkQ" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-cf45f3d421102cbf-0" next="i-cf45f3d421102cbf-1">
+        <u xml:id="i-JB2R8X8vdRJG2kBKucsFkQ" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-cf45f3d421102cbf-0" next="i-cf45f3d421102cbf-3">
           <seg xml:id="i-DUdgAwfgPUfj4By6FHwfN1">
             2) Föreligger icke anledning att med utnyttjande av gjorda uppfinningar
             nu igångsätta en försöksstation i Norrland för barrträkolsbrikettering?
           </seg>
-        </u>
-        <u xml:id="i-cf45f3d421102cbf-1" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-JB2R8X8vdRJG2kBKucsFkQ" next="i-Xrsy9JVWiciatpZJ616pMj">
           <seg xml:id="i-T7sToqQjHKxaoNU2S4y4Bi">
             Vid 1933 års riksdag hemställde Kungl. Maj:t på mitt förslag
             om anvisande av 475,000 kronor till vissa åtgärder på skogshushållningens
@@ -2478,8 +2476,6 @@
             utsåg domänstyrelsen Grankullavikens sågverksområde å Böda kronopark
             på Öland.
           </seg>
-        </u>
-        <u xml:id="i-Xrsy9JVWiciatpZJ616pMj" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-cf45f3d421102cbf-1" next="i-cf45f3d421102cbf-2">
           <seg xml:id="i-XZ3HzNxu8AegrxMdKkDmuY">
             I avsikt att få fram en lämplig pressapparat för brikettering
             av träkol, tillverkat av avfall från sågverket, konsulterade domänstyrelsen
@@ -2491,8 +2487,6 @@
             fabriksinredning, kombinerad anläggning av ugnskolning och brikettillverkning,
             lämpligt bindemedel vid denna tillverkning m. m.
           </seg>
-        </u>
-        <u xml:id="i-cf45f3d421102cbf-2" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-Xrsy9JVWiciatpZJ616pMj" next="i-cf45f3d421102cbf-3">
           <seg xml:id="i-GXdDBS22kNQMRbUyn4TkWS">
             Såsom ett led i försöken att ernå en lösning av träkolsbriketteringsproblemet
             har domänstyrelsen vidare anlitat bergsingenjören H. A. Mueller
@@ -2516,7 +2510,7 @@
           Kungl. Maj:t beslöt den 12 april 1935 i enlighet med domänstyrelsens
           hemställan.
         </note>
-        <u xml:id="i-cf45f3d421102cbf-3" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-cf45f3d421102cbf-2" next="i-2vDKCG2XicSHa6NSpqaaMp">
+        <u xml:id="i-cf45f3d421102cbf-3" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-JB2R8X8vdRJG2kBKucsFkQ" next="i-2vDKCG2XicSHa6NSpqaaMp">
           <seg xml:id="i-HxcUvY4vyaBYHfydJr7NFg">
             Med denna redogörelse torde interpellantens första fråga vara
             besvarad.

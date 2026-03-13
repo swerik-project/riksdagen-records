@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-3tHHuS2sknzNUPz5pns33b" type="speech">
             <linkGrp type="u">
               <ptr target="#i-CQDA2WLrx7w6ynpj69hVbd"/>
@@ -662,7 +662,13 @@
               <ptr target="#i-68c2f32cc4e0ee44-0"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -708,14 +714,12 @@
         <note xml:id="i-SD8PGT3qoKZgLbStqsXbf5">
           Till riksdagens första kammare.
         </note>
-        <u xml:id="i-W5qfsAaRSrPAJBgKrL7K81" who="unknown" next="i-NfSUFnsvi6W7tE7umJFRmK">
+        <u xml:id="i-W5qfsAaRSrPAJBgKrL7K81" who="unknown">
           <seg xml:id="i-RBweZZ7zLG3cz6FoYeVUND">
             Åberopande bilagda läkarintyg får jag härmed vördsamt anhålla
             om ledighet från riksdagsarbetet fr. o. m. den 15 maj t. o. m.
             den 23 juni 1944. Stockholm den 15 maj 1944. Sven V. Hansson.
           </seg>
-        </u>
-        <u xml:id="i-NfSUFnsvi6W7tE7umJFRmK" who="unknown" prev="i-W5qfsAaRSrPAJBgKrL7K81">
           <seg xml:id="i-3zUVFzYRjN5XK9oVf5h1mk">
             Härmed intygas, att riksdagsman Sven Hansson vid företagna undersökningar
             har befunnits lida av en uttalad ämnesomsättningsrubbning och
@@ -739,27 +743,21 @@
           angående vissa beslag å tyska krigskartor över Sverige, över.
           Sverige. erhöll ordet och anförde:
         </note>
-        <u xml:id="i-CQDA2WLrx7w6ynpj69hVbd" who="i-myn4WFombWiaF2RH9Tqqt" next="i-7xStVGwhLfsUVmRjcE2CHS">
+        <u xml:id="i-CQDA2WLrx7w6ynpj69hVbd" who="i-myn4WFombWiaF2RH9Tqqt" next="i-S9QobG7qNQVGy1FUwu3iY7">
           <seg xml:id="i-J6eHy2kEsM2gvD6PsiBpz7">
             Herr talman! Herr Holmbäck har med kammarens tillstånd till mig
             framställt föjande frågor:
           </seg>
-        </u>
-        <u xml:id="i-7xStVGwhLfsUVmRjcE2CHS" who="i-myn4WFombWiaF2RH9Tqqt" prev="i-CQDA2WLrx7w6ynpj69hVbd" next="i-T5CLHCLNShMb1X3Y76ghns">
           <seg xml:id="i-MFRAPG3cZhWsk21irK79G5">
             1. Kan Eders Excellens på ett offentligt sammanträde lämna kammaren
             en fullständig sammanfattande redogörelse för de tre beslagen
             av tyska kartor över Sverige och vad därmed äger samband?
           </seg>
-        </u>
-        <u xml:id="i-T5CLHCLNShMb1X3Y76ghns" who="i-myn4WFombWiaF2RH9Tqqt" prev="i-7xStVGwhLfsUVmRjcE2CHS" next="i-6xiH2K1khTy4YnDBhcFLNt">
           <seg xml:id="i-GLc3u6GPsQ4mf6bP1fsX4u">
             2. Kan Eders Excellens samtidigt lämna uppgift om de åtgärder,
             som från svensk sida företagits i anledning av de beslagtagna
             sändningarna?
           </seg>
-        </u>
-        <u xml:id="i-6xiH2K1khTy4YnDBhcFLNt" who="i-myn4WFombWiaF2RH9Tqqt" prev="i-T5CLHCLNShMb1X3Y76ghns" next="i-S9QobG7qNQVGy1FUwu3iY7">
           <seg xml:id="i-5y1FUKt778DTuEmmz9Uqxk">
             Såsom redan på olika sätt bragts till offentlighetens kännedom,
             hava under den sista tiden i det tyska transitogodset till Norge
@@ -799,7 +797,7 @@
           följaktligen omkring 23 000 kartblad. Bladen voro försedda med
           teckenförklaring på tyska och svenska.
         </note>
-        <u xml:id="i-S9QobG7qNQVGy1FUwu3iY7" who="i-myn4WFombWiaF2RH9Tqqt" prev="i-6xiH2K1khTy4YnDBhcFLNt" next="i-HDhrs1btH686tEmdPFxif">
+        <u xml:id="i-S9QobG7qNQVGy1FUwu3iY7" who="i-myn4WFombWiaF2RH9Tqqt" prev="i-CQDA2WLrx7w6ynpj69hVbd" next="i-JLT6wH2PMe4piRicrN7A2a">
           <seg xml:id="i-NLfFSEN1KdBJ4ngqBxKHk8">
             Det andra kartfyndet gjordes den 24 april i Trelleborg, likaledes
             vid tullgranskningen av det för transitering till Norge avsedda
@@ -816,8 +814,6 @@
             även ett paket, som innehöll 100 kartblad i skalan 1 :300 000
             över två polska områden.
           </seg>
-        </u>
-        <u xml:id="i-HDhrs1btH686tEmdPFxif" who="i-myn4WFombWiaF2RH9Tqqt" prev="i-S9QobG7qNQVGy1FUwu3iY7" next="i-RQabVL5v2hqvXKdDRAtfFY">
           <seg xml:id="i-BYDxSXCWzNmVaqefrYHmEg">
             Det tredje kartpartiet slutligen påträffades den 29 april i Haparanda
             bland det tyska postgodset från Norge till Finland. Det konstaterades,
@@ -832,8 +828,6 @@
             hava brukats dels »Turistkartan» i skalan 1 :300 000, dels de
             svenska s. k. generalstabskartorna i skalan 1 : 200 000.
           </seg>
-        </u>
-        <u xml:id="i-RQabVL5v2hqvXKdDRAtfFY" who="i-myn4WFombWiaF2RH9Tqqt" prev="i-HDhrs1btH686tEmdPFxif" next="i-3RjLogeHmGwHpGsJdPDnyE">
           <seg xml:id="i-V7ddUCtabAbHTsyrjTyW8M">
             Beträffande samtliga de kartfynd, för vilka jag nu redogjort,
             vidtogs omedelbart den åtgärden, att expedieringen inställdes
@@ -843,8 +837,6 @@
             uppseendeväckande åtgärd, att den svenska reaktionen icke kunde
             inskränka sig enbart till detta.
           </seg>
-        </u>
-        <u xml:id="i-3RjLogeHmGwHpGsJdPDnyE" who="i-myn4WFombWiaF2RH9Tqqt" prev="i-RQabVL5v2hqvXKdDRAtfFY" next="i-KUYdQmCNsud6C3GZdDoBPj">
           <seg xml:id="i-9Hj3Ze3bAAvQ79eopYjZ4g">
             Några dagar efter det första kartfyndet begärde jag därför ett
             samtal med härvaraude tyske minister och framförde till honom
@@ -855,8 +847,6 @@
             om postoch kurirbefordran med svenska järnvägar, som Tyskland
             dittills åtnjutit, kunde därför icke för framtiden påräknas.
           </seg>
-        </u>
-        <u xml:id="i-KUYdQmCNsud6C3GZdDoBPj" who="i-myn4WFombWiaF2RH9Tqqt" prev="i-3RjLogeHmGwHpGsJdPDnyE" next="i-JLT6wH2PMe4piRicrN7A2a">
           <seg xml:id="i-WvVfjqWEL4zGRBoBWatKzt">
             I enlighet härmed har trafiken med särskilda tyska postvagnar,
             åtföljda av tysk betjäning, inställts enligt en plan, som innebar,
@@ -876,7 +866,7 @@
           har begränsats till vad som enligt internationell sedvänja plägar
           medgivas främmande beskickningar.
         </note>
-        <u xml:id="i-JLT6wH2PMe4piRicrN7A2a" who="i-myn4WFombWiaF2RH9Tqqt" prev="i-KUYdQmCNsud6C3GZdDoBPj">
+        <u xml:id="i-JLT6wH2PMe4piRicrN7A2a" who="i-myn4WFombWiaF2RH9Tqqt" prev="i-S9QobG7qNQVGy1FUwu3iY7">
           <seg xml:id="i-GHTyhnqGi34BSyd8RYeeQP">
             Från tyskt håll hava kartsändningarna förklarats såsom en generalstabsmässig
             rutinåtgärd. Att de krigförande besitta kartor över vårt land
@@ -1228,7 +1218,7 @@
         <note xml:id="i-ALiZgGQBYy1q9cVeFmbJy8">
           Om anslag till upplysningsverksamhet i befolkningsfrågan. (Forts.)
         </note>
-        <u xml:id="i-EtJgVmWRb8nYtXCpe6EtXD" who="i-4Mr7D9BCozgkT5mSiFk6Gv" prev="i-08319e7a41691a3d-59" next="i-6ad9e3dbd11f27ad-2">
+        <u xml:id="i-EtJgVmWRb8nYtXCpe6EtXD" who="i-4Mr7D9BCozgkT5mSiFk6Gv" prev="i-08319e7a41691a3d-59">
           <seg xml:id="i-2U4oivbjKXyMjU6wH1zg8m">
             Vad är anledningen till att Kungl. Maj:t ännu icke för riksdagen
             framlagt de förslag, som föranledas av en av 1941 års befolkningsutredning
@@ -1238,8 +1228,6 @@
             i befolkningsfrågan. Ämnar herr statsrådet till innevarande års
             riksdag framlägga proposition i förenämnda ärende?
           </seg>
-        </u>
-        <u xml:id="i-6ad9e3dbd11f27ad-2" who="i-4Mr7D9BCozgkT5mSiFk6Gv" prev="i-EtJgVmWRb8nYtXCpe6EtXD">
           <seg xml:id="i-UGRo6KZu57iwVnkMmtJaSh">
             Som svar på frågan vill jag meddela följande.
           </seg>
@@ -1738,21 +1726,17 @@
           herr Ströms interpellation angående åtgärder arbetslöshet. till
           förhindrande av arbetslöshet, och nu yttrade:
         </note>
-        <u xml:id="i-Ejf68Lx2h8scCKDLThC62f" who="i-4Mr7D9BCozgkT5mSiFk6Gv" next="i-RgFjbgqfPAozmJA8uvdKoc">
+        <u xml:id="i-Ejf68Lx2h8scCKDLThC62f" who="i-4Mr7D9BCozgkT5mSiFk6Gv" next="i-db7092e52d687c22-8">
           <seg xml:id="i-Vet23vNQxDrkHc84d8MSv9">
             Med kammarens tillstånd har herr Ström till mig framställt följande
             interpellation:
           </seg>
-        </u>
-        <u xml:id="i-RgFjbgqfPAozmJA8uvdKoc" who="i-4Mr7D9BCozgkT5mSiFk6Gv" prev="i-Ejf68Lx2h8scCKDLThC62f" next="i-NSQX1iqosPqn3whPGuQ2Ds">
           <seg xml:id="i-HCzV2DqwLP7PjQRDfs5FGi">
             Vilka åtgärder kan man förvänta från regeringens sida till hävande
             av nuvarande arbetslöshet och till hindrande av att en arbetslöshet
             under kommande år uppstår? Har regeringen någon generalplan eller
             eljest några planer till frågans lösning?
           </seg>
-        </u>
-        <u xml:id="i-NSQX1iqosPqn3whPGuQ2Ds" who="i-4Mr7D9BCozgkT5mSiFk6Gv" prev="i-RgFjbgqfPAozmJA8uvdKoc" next="i-8PaPoD3X3cXK3WPrwZcJp2">
           <seg xml:id="i-5EuttV6YWzvvQypYuFCSxg">
             Då interpellanten i motiveringen till sina frågor framhåller,
             att det väckt stor förvåning att man icke lyckats bemästra den
@@ -1775,8 +1759,6 @@
             i medeltal år 1943, 5,7 och år 1942 7,5 mot 11,3 1941 och 11,8
             1940. Fredstidens sista högkonjunkturår, 1939, var den 9,2 procent.
           </seg>
-        </u>
-        <u xml:id="i-8PaPoD3X3cXK3WPrwZcJp2" who="i-4Mr7D9BCozgkT5mSiFk6Gv" prev="i-NSQX1iqosPqn3whPGuQ2Ds" next="i-db7092e52d687c22-7">
           <seg xml:id="i-Y3wWNuPEbrPN9Ly46Htevv">
             Denna tendens har också karakteriserat förhållandena 1 Västernorrlands
             län. Årsmedeltalet arbetslösa var där under åren 1942 och 1943
@@ -1786,8 +1768,6 @@
             1 271 medan det — för att välja några jämförelsepunkter bland
             tidigare år — 1939 var 3 954, 1936 5072 och 1933 17 025.
           </seg>
-        </u>
-        <u xml:id="i-db7092e52d687c22-7" who="i-4Mr7D9BCozgkT5mSiFk6Gv" prev="i-8PaPoD3X3cXK3WPrwZcJp2" next="i-db7092e52d687c22-8">
           <seg xml:id="i-GiqzQUZCWGdCNLjkCAGvsN">
             Sedd mot bakgrunden av den utomordentligt goda sysselsättningen
             under de två sista åren ter sig visserligen den nu rådande arbetslösheten
@@ -1809,7 +1789,7 @@
         <note xml:id="i-PSH1zrD1G4Q1RLtCRzDLc1">
           ät.
         </note>
-        <u xml:id="i-db7092e52d687c22-8" who="i-4Mr7D9BCozgkT5mSiFk6Gv" prev="i-db7092e52d687c22-7" next="i-7RRFxnrXFixAurJ7nbRK1p">
+        <u xml:id="i-db7092e52d687c22-8" who="i-4Mr7D9BCozgkT5mSiFk6Gv" prev="i-Ejf68Lx2h8scCKDLThC62f" next="i-7RRFxnrXFixAurJ7nbRK1p">
           <seg xml:id="i-C9EAan7dRZj7VzsNQjKtdp">
             Länet har varit hårdare drabbat av arbetslöshet än något annat
             område i landet. Från krisen under 1930-talets första hälft kvarstod
@@ -1829,7 +1809,7 @@
           med all säkerhet de gynnsammaste Västernorrlands län upplevt efter
           industrialiseringen.
         </note>
-        <u xml:id="i-7RRFxnrXFixAurJ7nbRK1p" who="i-4Mr7D9BCozgkT5mSiFk6Gv" prev="i-db7092e52d687c22-8" next="i-6AURD9o74vFp4CWozp6Aq3">
+        <u xml:id="i-7RRFxnrXFixAurJ7nbRK1p" who="i-4Mr7D9BCozgkT5mSiFk6Gv" prev="i-db7092e52d687c22-8" next="i-db7092e52d687c22-11">
           <seg xml:id="i-TMfvRzi1wAAYFtFs9VL5dU">
             Den senast tilländalupna vintern visar tyvärr en sämre bild,
             som dock knappast avviker från den, som de i konjunkturavseende
@@ -1867,8 +1847,6 @@
             så att motsvarande siffror för april månad äro 2 841 respektive
             2 662.
           </seg>
-        </u>
-        <u xml:id="i-6AURD9o74vFp4CWozp6Aq3" who="i-4Mr7D9BCozgkT5mSiFk6Gv" prev="i-7RRFxnrXFixAurJ7nbRK1p" next="i-db7092e52d687c22-10">
           <seg xml:id="i-7yBv9b8ufdg5VATVdHAXvJ">
             Under tiden från och med den 1 september 1943 har hittills beslutats
             om utförande av sammalnagt 40 statliga beredskapsarbeten i Västernorrlands
@@ -1886,8 +1864,6 @@
             av maj ha ytterligare några statskommunala beredskapsarbeten igångsatts
             inom länet.
           </seg>
-        </u>
-        <u xml:id="i-db7092e52d687c22-10" who="i-4Mr7D9BCozgkT5mSiFk6Gv" prev="i-6AURD9o74vFp4CWozp6Aq3" next="i-db7092e52d687c22-11">
           <seg xml:id="i-8ZVev5MQkpvrJeE9jrRWBB">
             Inemot hälften av de hjälpsökande i länet äro nu sysselsatta
             i beredskapsarbeten. Dessa arbeten äro nu av vida större omfattning
@@ -1901,7 +1877,7 @@
         <note xml:id="i-UyGqdJFDKdkf1XbqmYggGq" type="date">
           Tisdagen den 16 maj 1944. Nr 18. 15
         </note>
-        <u xml:id="i-db7092e52d687c22-11" who="i-4Mr7D9BCozgkT5mSiFk6Gv" prev="i-db7092e52d687c22-10" next="i-db7092e52d687c22-12">
+        <u xml:id="i-db7092e52d687c22-11" who="i-4Mr7D9BCozgkT5mSiFk6Gv" prev="i-7RRFxnrXFixAurJ7nbRK1p" next="i-db7092e52d687c22-12">
           <seg xml:id="i-XwZxPgtwhmm8gFga5JqpaJ">
             Ang. åtgärder till förhindrande av arbetslöshet. (Forts.) svarande
             siffror för april i år äro 5 477 arbetslösa; härav äro 2 841,
@@ -3859,7 +3835,7 @@
           det slag som här framkommit; allra minst är det fråga om någon
           mer eller mindre grov krok i det politiska valfisket.
         </note>
-        <u xml:id="i-DE2Z6Psy32WygdyHwtYQV9" who="i-Mp9EZyDQnEWymzonKTkhPb" prev="i-2585f256f9a5fced-0" next="i-aGDF35WQCdWLSTbUeyZU2">
+        <u xml:id="i-DE2Z6Psy32WygdyHwtYQV9" who="i-Mp9EZyDQnEWymzonKTkhPb" prev="i-2585f256f9a5fced-0">
           <seg xml:id="i-thw6n97VpP4J8CSVhLBWC">
             Riksdagen får ju tillfälle att senare pröva behovet av de nu
             gällande inskränkningarna 1 tryckfriheten. Det har sagts, bland
@@ -3899,8 +3875,6 @@
             der också för framtiden må tjäna sitt syfte till demokratiens
             stärkande och bevarande.
           </seg>
-        </u>
-        <u xml:id="i-aGDF35WQCdWLSTbUeyZU2" who="i-Mp9EZyDQnEWymzonKTkhPb" prev="i-DE2Z6Psy32WygdyHwtYQV9">
           <seg xml:id="i-ENRj8NzVcxCJZM4iczXJBJ">
             Jag ber, herr talman, att få yrka bifall till utskottets utlåtande.
           </seg>
@@ -4759,7 +4733,7 @@
         <note xml:id="i-nyvGavQ4WPvYfxRUudtqF" type="speaker">
           Herr Olsson, Oscar:
         </note>
-        <u xml:id="i-ed58d1ffe299885d-0" who="i-QBPRL2CNKrTtn2M3Ea51HX" next="i-QTUwzmGJUApviSgvFAbccD">
+        <u xml:id="i-ed58d1ffe299885d-0" who="i-QBPRL2CNKrTtn2M3Ea51HX">
           <seg xml:id="i-2h4FJkATXU3F2hfUFg4Tmw">
             Herr talman! Jag instämmer med den föregående ärade talaren.
             Jag vill därtill nämna, att jag i statsutskottet gick på reservationen
@@ -4788,8 +4762,6 @@
             verken få samma rätt som enskilda arbetsgivare när det gäller
             åtgärder för personalen i detta syfte.
           </seg>
-        </u>
-        <u xml:id="i-QTUwzmGJUApviSgvFAbccD" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-ed58d1ffe299885d-0">
           <seg xml:id="i-CdJhkU1NQt3cwx7w1DKXE9">
             Jag ber, herr talman, att få yrka bifall till reservationen med
             den av herr Pauli föreslagna ändrade lydelsen.
@@ -5173,7 +5145,7 @@
           det är alldeles tydligt, att om några i detta fall skola klandras,
           är det uppdragsgivarna, som ha gått så hårdhänt fram.
         </note>
-        <u xml:id="i-5aBekUuN6hxq33mACtMC3z" who="i-rxMPrABKBDwfiUwJZxNv7" prev="i-34xZRxeThVQWf7F5rTp4Xa" next="i-JwtwoWHFPQqD7fA1hgLfZV">
+        <u xml:id="i-5aBekUuN6hxq33mACtMC3z" who="i-rxMPrABKBDwfiUwJZxNv7" prev="i-34xZRxeThVQWf7F5rTp4Xa">
           <seg xml:id="i-Fp6iMWrDCjWk98U2WUGpDn">
             Jag förstår inte, varför det skall vara så bråttom med att få
             igenom detta förslag. Vi skola ju inte nu bevilja de stora belopp,
@@ -5233,8 +5205,6 @@
             vore klokt, om här komme fram nya utredningar och förslag, som
             mera ingående kunde granskas.
           </seg>
-        </u>
-        <u xml:id="i-JwtwoWHFPQqD7fA1hgLfZV" who="i-rxMPrABKBDwfiUwJZxNv7" prev="i-5aBekUuN6hxq33mACtMC3z">
           <seg xml:id="i-LFmBJ2ogcLWFuFVtmLjcXV">
             Jag ber, herr talman, att få yrka bifall till den vid utskottets
             utlåtande fogade reservationen.
@@ -6472,12 +6442,10 @@
         <note xml:id="i-K7nT1tCtRL3Hf14u1TqGEi" type="speaker">
           exbyggnad | "HU kansli- Herr Pauli:
         </note>
-        <u xml:id="i-7e2ae4aa2471bda4-2" who="i-2y76R6jyD6SNKpRXZGGxYL" next="i-SYTn7AUdnwP2gGZQaKe6uL">
+        <u xml:id="i-7e2ae4aa2471bda4-2" who="i-2y76R6jyD6SNKpRXZGGxYL" next="i-7e2ae4aa2471bda4-3">
           <seg xml:id="i-53qG7iXxhDK6jfwxTo8Uq1">
             Herr talman! Det är en ganska egendomlig upplevelse att se,
           </seg>
-        </u>
-        <u xml:id="i-SYTn7AUdnwP2gGZQaKe6uL" who="i-2y76R6jyD6SNKpRXZGGxYL" prev="i-7e2ae4aa2471bda4-2" next="i-7e2ae4aa2471bda4-3">
           <seg xml:id="i-GP6jWH4g8zfYVYtMar9fre">
             huset m. m. att diskussionen om en så eminent praktisk fråga
             som den om nybyggnader (Forts.) — för kanslihusets behov och andra
@@ -6495,7 +6463,7 @@
         <note xml:id="i-W72tJiCHU6BFN9LTvxsJ7q">
           Anslag till annexbyggnad till kanslihuset m. m. (Forts.)
         </note>
-        <u xml:id="i-7e2ae4aa2471bda4-3" who="i-2y76R6jyD6SNKpRXZGGxYL" prev="i-SYTn7AUdnwP2gGZQaKe6uL" next="i-UcVJUQZXEmuqhW9UkJAhRv">
+        <u xml:id="i-7e2ae4aa2471bda4-3" who="i-2y76R6jyD6SNKpRXZGGxYL" prev="i-7e2ae4aa2471bda4-2" next="i-7e2ae4aa2471bda4-4">
           <seg xml:id="i-QwCeCBT6awu5nVUWtmCeY5">
             Jag hör till dem som i statsutskottet ha ställt sig på majoritetens
             sida och accepterat Kungl. Maj:ts förslag. Men detta betyder inte,
@@ -6559,8 +6527,6 @@
             Skådom nu Kolmätargränden, smal och smutsig, full med grus; rådstutaket
             syns vid änden,
           </seg>
-        </u>
-        <u xml:id="i-UcVJUQZXEmuqhW9UkJAhRv" who="i-2y76R6jyD6SNKpRXZGGxYL" prev="i-7e2ae4aa2471bda4-3" next="i-7e2ae4aa2471bda4-4">
           <seg xml:id="i-Dk8w2QdXjZhVjv7rnX7xs2">
             sen blott krog och jungfruhus; ur ett bugnat fönstergaller
           </seg>
@@ -6576,7 +6542,7 @@
           Anslag till annexbyggnad till kanslihuset m. m. (Forts.) straxt
           burdus slagsmål och skvaller, nakna hjässor, tomma krus.
         </note>
-        <u xml:id="i-7e2ae4aa2471bda4-4" who="i-2y76R6jyD6SNKpRXZGGxYL" prev="i-UcVJUQZXEmuqhW9UkJAhRv" next="i-JoZ6M2v2w6h7wjCwGZtNgS">
+        <u xml:id="i-7e2ae4aa2471bda4-4" who="i-2y76R6jyD6SNKpRXZGGxYL" prev="i-7e2ae4aa2471bda4-3" next="i-JoZ6M2v2w6h7wjCwGZtNgS">
           <seg xml:id="i-BQcy4SeukPPFkKikw5gEGu">
             Detta ger vid handen, att de ursprungliga magasinsbyggnaderna
             på Bellmans tid i viss utsträckning hade inretts till människobostäder.
@@ -8420,7 +8386,7 @@
           skattskyldigs tillgångar utan avdrag för skulder torde ej behöva
           närmare utvecklas.
         </note>
-        <u xml:id="i-62AGMSH85VN8Zn2xmveC3W" who="i-FneeHdWC4kJvq3GyuxpvWq" prev="i-08319e7a41691a3d-31" next="i-2sVsobPfRHHMDSKkM1VhoT">
+        <u xml:id="i-62AGMSH85VN8Zn2xmveC3W" who="i-FneeHdWC4kJvq3GyuxpvWq" prev="i-08319e7a41691a3d-31" next="i-08319e7a41691a3d-33">
           <seg xml:id="i-JxtfFAZ45inF9QssnKYkUG">
             Vid uttagande av ett s. k. engångsoffer ur förmögenheterna måste
             vidare enligt utskottets uppfattning beaktas, att skattebefrielse
@@ -8445,8 +8411,6 @@
             icke vara uteslutet, att även andra former för förmögenheternas
             tillskott än ett engångsoffer komma till omprövning.
           </seg>
-        </u>
-        <u xml:id="i-2sVsobPfRHHMDSKkM1VhoT" who="i-FneeHdWC4kJvq3GyuxpvWq" prev="i-62AGMSH85VN8Zn2xmveC3W" next="i-08319e7a41691a3d-33">
           <seg xml:id="i-AX7EvCDzWwdLSnSMHnEfKQ">
             Av nu anförda skäl anser sig utskottet böra avstyrka bifall till
             det i motionen IT: 383 framställda yrkandet.»
@@ -8460,7 +8424,7 @@
           visade. I det av reservanterna förordade yttrandet hade den nyss
           återgivna delen av utskottets motivering avfattats sålunda:
         </note>
-        <u xml:id="i-08319e7a41691a3d-33" who="i-FneeHdWC4kJvq3GyuxpvWq" prev="i-2sVsobPfRHHMDSKkM1VhoT" next="i-D1yY8DhHEws3r5EGtWBBMt">
+        <u xml:id="i-08319e7a41691a3d-33" who="i-FneeHdWC4kJvq3GyuxpvWq" prev="i-62AGMSH85VN8Zn2xmveC3W">
           <seg xml:id="i-U51yGeL6AGn1i3JeX5yKxt">
             »I motionen IT: 383 har yrkats, att av förmögenheter å minst
             20 000 kronor måtte uttagas en extra förmögenhetsskatt av genomsnittligt
@@ -8482,8 +8446,6 @@
             inträdande har att motse stora svårigheter, få mycket merliga
             följder.
           </seg>
-        </u>
-        <u xml:id="i-D1yY8DhHEws3r5EGtWBBMt" who="i-FneeHdWC4kJvq3GyuxpvWq" prev="i-08319e7a41691a3d-33">
           <seg xml:id="i-AvAScMZwjmvkyi1aixDzDd">
             Utskottet vill slutligen erinra därom att även vid nästlidet
             års riksdag, i anledning av Kungl. Maj:ts proposition nr 311 med
@@ -8904,7 +8866,7 @@
         <note xml:id="i-S8RLa3ToHfgWpGvsh3H6aq">
           Om uttagande av en extra förmögenhetsskatt. (Forts.)
         </note>
-        <u xml:id="i-SvDkwHH5WvcoJGXWNFABmJ" who="i-PiZWNcMn9w8S8gkcHTk71v" prev="i-732597367696f67a-2" next="i-SKVp1ZyJCV1P4sUtha75vJ">
+        <u xml:id="i-SvDkwHH5WvcoJGXWNFABmJ" who="i-PiZWNcMn9w8S8gkcHTk71v" prev="i-732597367696f67a-2">
           <seg xml:id="i-VAZhWjQHW6gkHFvs1eWeZg">
             1 fred. Men därmed har jag inte svurit på, att engångsskatten
             kan vara den bästa lösningen. Frågan får hållas öppen.
@@ -8934,8 +8896,6 @@
             väsentligen på att jag inte fick några bestämda frågor att svara
             på.
           </seg>
-        </u>
-        <u xml:id="i-SKVp1ZyJCV1P4sUtha75vJ" who="i-PiZWNcMn9w8S8gkcHTk71v" prev="i-SvDkwHH5WvcoJGXWNFABmJ">
           <seg xml:id="i-THJdVqvkNadkVLWf7aVn9d">
             Jag hemställer, herr talman, om bifall till utskottets hemställan
             även beträffande motiveringen.
@@ -9622,7 +9582,7 @@
         <note xml:id="i-2a56ZDG7pBZXBEwvofRXWg" type="date">
           Onsdagen den 17 maj 1944 em. Nr 18. 107
         </note>
-        <u xml:id="i-6168c035194a1e3a-2" who="i-8SEmi1JqbwCoJ1VPeGoz48" prev="i-6168c035194a1e3a-1" next="i-4tQXav8euWHhgDfHEut9sc">
+        <u xml:id="i-6168c035194a1e3a-2" who="i-8SEmi1JqbwCoJ1VPeGoz48" prev="i-6168c035194a1e3a-1">
           <seg xml:id="i-RchEY7MEPVC3YqHUZFkFST">
             Om uttagande av en extra förmögenhetsskatt. (Forts.) att de icke
             blivit kompenserade ens i lika hög grad som lönearbetarna, varför
@@ -9664,8 +9624,6 @@
             bördor, utan att man bör hålla den frågan öppen och sedermera
             välja såväl lämplig tidpunkt som lämpliga åtgärder.
           </seg>
-        </u>
-        <u xml:id="i-4tQXav8euWHhgDfHEut9sc" who="i-8SEmi1JqbwCoJ1VPeGoz48" prev="i-6168c035194a1e3a-2">
           <seg xml:id="i-CYoJDJHpTMqNR5BFu6QCqP">
             Jag ber, herr talman, att med denna kommentar till utskottets
             motivering få yrka bifall till denna.
@@ -10037,7 +9995,7 @@
           och vräkte ut miljarder hit och miljarder dit och sedan lade på
           folket skatter, som äro alldeles orimliga.
         </note>
-        <u xml:id="i-UgJJZMJSWEGRKecMpHFsWQ" who="i-PiZWNcMn9w8S8gkcHTk71v" prev="i-732597367696f67a-5" next="i-MZ5X55TW2HkRRtZhVPRdgT">
+        <u xml:id="i-UgJJZMJSWEGRKecMpHFsWQ" who="i-PiZWNcMn9w8S8gkcHTk71v" prev="i-732597367696f67a-5">
           <seg xml:id="i-4Z6VopgPzn5WgdsVfQdm6L">
             Jag tycker att man från högersidan likaväl som från den sida,
             som jag representerar, bör ha klart för sig, allt efter som man
@@ -10070,8 +10028,6 @@
             av vad han sade, så tror jag inte att han befinner sig särdeles
             långt från den linje, på vilken jag befinner mig.
           </seg>
-        </u>
-        <u xml:id="i-MZ5X55TW2HkRRtZhVPRdgT" who="i-PiZWNcMn9w8S8gkcHTk71v" prev="i-UgJJZMJSWEGRKecMpHFsWQ">
           <seg xml:id="i-PG1rQMkMgCEQ6WWSsrGuG8">
             Herr talman! Jag hemställer alltjämt om godkännande av utskottets
             motivering i det föreliggande ärendet.
@@ -10803,7 +10759,7 @@
         <note xml:id="i-LptbJtJuhMeuJtufD9T6tj">
           Ang. vissa ändringar i kommunalskattelagen m. m. (Forts.)
         </note>
-        <u xml:id="i-732597367696f67a-8" who="i-PiZWNcMn9w8S8gkcHTk71v" prev="i-732597367696f67a-7" next="i-4Mj4PnC2xvRciNVffCvEDD">
+        <u xml:id="i-732597367696f67a-8" who="i-PiZWNcMn9w8S8gkcHTk71v" prev="i-732597367696f67a-7">
           <seg xml:id="i-5tCWdBtRS3Ld66z48Mk8QN">
             tycktes herr Sundberg inte fästa så stort avseende vid såsom
             något så vidunderligt, utan han fäste sig i stället vid andra
@@ -10822,8 +10778,6 @@
             gjort och säkerligen också kommer att göra vid den taxering som
             nu förestår.
           </seg>
-        </u>
-        <u xml:id="i-4Mj4PnC2xvRciNVffCvEDD" who="i-PiZWNcMn9w8S8gkcHTk71v" prev="i-732597367696f67a-8">
           <seg xml:id="i-C9JGdHnGK5QozqE8qofzUy">
             Herr talman! Jag yrkar i likhet med den föregående ärade talaren
             bifall till utskottets hemställan.

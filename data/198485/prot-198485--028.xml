@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-DxCozhEaejgim9d2GAJsxs" type="speech">
             <linkGrp type="u">
               <ptr target="#i-Hjim531R67h3YcL116y7tt"/>
@@ -395,7 +395,13 @@
               <ptr target="#i-2373d6e93c01dc87-1"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -799,36 +805,28 @@
         <note xml:id="i-iUKFiS711Z4s3oQp8ciUD" type="speaker">
           Anf. 1 Kommunikationsminister CURT BOSTRÖM:
         </note>
-        <u xml:id="i-Hjim531R67h3YcL116y7tt" who="i-HGfALYBg5SLYb8z1er3XK1" next="i-EYQiYWeprdNiYKfhQwsL1S">
+        <u xml:id="i-Hjim531R67h3YcL116y7tt" who="i-HGfALYBg5SLYb8z1er3XK1" next="i-BM7uQfUvVVAaEqfUyfa19s">
           <seg xml:id="i-S5qLHUa9z9dkaKXPZ2N2uB">
             Fru talman! Per Stenmarck har frågat mig vilka åtgärder jag är
             beredd att vidta för att stärka den enskildes rätt gentemot televerket
             samt om jag är beredd att medverka till att televerkets monopol
             begränsas.
           </seg>
-        </u>
-        <u xml:id="i-EYQiYWeprdNiYKfhQwsL1S" who="i-HGfALYBg5SLYb8z1er3XK1" prev="i-Hjim531R67h3YcL116y7tt" next="i-PHPHaXLdqtC2XQyRM3xL4A">
           <seg xml:id="i-7dXFfkncYE3CX1VH5DgfgB">
             Tore Nilsson har frågat mig om någon åtgärd kan förväntas i syfte
             att garantera att mätare för telefonsamtal är tillförlitliga och
             för att underlätta och förbilliga handläggningen för abonnenten
             när denne söker rättelse.
           </seg>
-        </u>
-        <u xml:id="i-PHPHaXLdqtC2XQyRM3xL4A" who="i-HGfALYBg5SLYb8z1er3XK1" prev="i-EYQiYWeprdNiYKfhQwsL1S" next="i-KqFJ95epDCBXzJ6f9sDoH5">
           <seg xml:id="i-D24VFX2hAhzFgS5XeAtAc2">
             Margot Wallström har frågat mig om jag avser vidta några åtgärder
             för att garantera företag och enskilda personer bättre möjligheter
             att kontrollera sina teleräkningar.
           </seg>
-        </u>
-        <u xml:id="i-KqFJ95epDCBXzJ6f9sDoH5" who="i-HGfALYBg5SLYb8z1er3XK1" prev="i-PHPHaXLdqtC2XQyRM3xL4A" next="i-MESG9cNzJW2B1eSvWhbVoC">
           <seg xml:id="i-TgmdVNxLNXX6DYrU922sKY">
             Eftersom alla frågorna rör televerkets relationer till sina kunder,
             besvarar jag dem i ett sammanhang.
           </seg>
-        </u>
-        <u xml:id="i-MESG9cNzJW2B1eSvWhbVoC" who="i-HGfALYBg5SLYb8z1er3XK1" prev="i-KqFJ95epDCBXzJ6f9sDoH5" next="i-BM7uQfUvVVAaEqfUyfa19s">
           <seg xml:id="i-69xe7zSAbhyP4KabHRuWHH">
             Televerket skickar varje år ut ca 20 miljoner vanliga telefonräkningar.
             Enligt en undersökning som gjorts vid ett av de 20 teleområdena
@@ -863,13 +861,11 @@
         <note xml:id="i-TVdSCSGMjVWkXuLjBQDFVv">
           stärka den enskildes rätt gentemot televerket, m. m.
         </note>
-        <u xml:id="i-BM7uQfUvVVAaEqfUyfa19s" who="i-HGfALYBg5SLYb8z1er3XK1" prev="i-MESG9cNzJW2B1eSvWhbVoC" next="i-437rh9MmgtgNAwBmVUsA7C">
+        <u xml:id="i-BM7uQfUvVVAaEqfUyfa19s" who="i-HGfALYBg5SLYb8z1er3XK1" prev="i-Hjim531R67h3YcL116y7tt">
           <seg xml:id="i-FZSMSG4oX5ibyexVSddmmU">
             Den som inte är nöjd med ett beslut om samtalsdebitering kan
             överklaga beslutet.
           </seg>
-        </u>
-        <u xml:id="i-437rh9MmgtgNAwBmVUsA7C" who="i-HGfALYBg5SLYb8z1er3XK1" prev="i-BM7uQfUvVVAaEqfUyfa19s" next="i-R7sBAwtSgPbeVdQY87u4Ff">
           <seg xml:id="i-DwsrtJixQhqoLiYFkTgNjP">
             Det räcker med att kunderna framför klagomålen muntligt för att
             televerket skall ta upp dem till behandling. Handläggningstiden
@@ -878,8 +874,6 @@
             arbetar med att minimera klagomålen bl. a. genom att hålla högsta
             möjliga kvalitet på mätarna.
           </seg>
-        </u>
-        <u xml:id="i-R7sBAwtSgPbeVdQY87u4Ff" who="i-HGfALYBg5SLYb8z1er3XK1" prev="i-437rh9MmgtgNAwBmVUsA7C" next="i-RDR64oDHPgbWLz8JKSasBD">
           <seg xml:id="i-XiEJTf6acRpLynD6zaRQo3">
             Självfallet förekommer det ibland fel och brister i televerkets
             agerande. Som serviceföretag ligger det i televerkets eget intresse
@@ -887,8 +881,6 @@
             nu att utreda hur kundkontakterna och handläggningen av dessa
             frågor skall kunna förbättras.
           </seg>
-        </u>
-        <u xml:id="i-RDR64oDHPgbWLz8JKSasBD" who="i-HGfALYBg5SLYb8z1er3XK1" prev="i-R7sBAwtSgPbeVdQY87u4Ff" next="i-XhuoJEgpL1xHJp1xU5Gi82">
           <seg xml:id="i-NjHLqQzrKL6En9vZKqWmix">
             Mot den här bakgrunden anser jag inte att några åtgärder från
             min sida f. n. behövs. Frågan om televerkets monopol, som Per
@@ -896,8 +888,6 @@
             handläggning av klagomål på teleräkningar. Riksdagens beslut om
             reglerna för televerkets monopol ligger fast.
           </seg>
-        </u>
-        <u xml:id="i-XhuoJEgpL1xHJp1xU5Gi82" who="i-HGfALYBg5SLYb8z1er3XK1" prev="i-RDR64oDHPgbWLz8JKSasBD">
           <seg xml:id="i-AsJe4PwZ6eitytFuh5VCTd">
             Då det gäller frågan om möjligheten att kontrollera teleräkningarna
             vill jag säga att man inom televerket är medveten om de problem
@@ -1050,24 +1040,18 @@
         <note xml:id="i-FQbF4GECbYoV6HtWParo17">
           stärka den enskildes rätt gentemot televerket, m. m.
         </note>
-        <u xml:id="i-7BF86K7RgEja6etaWwWqeV" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-a59224fbedab1b51-0" next="i-a59224fbedab1b51-4">
+        <u xml:id="i-7BF86K7RgEja6etaWwWqeV" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-a59224fbedab1b51-0">
           <seg xml:id="i-EdyBkiPBiRKGFA8CUZ4bJ4">
             ändra inställning.
           </seg>
-        </u>
-        <u xml:id="i-a59224fbedab1b51-4" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-7BF86K7RgEja6etaWwWqeV" next="i-DoBz7EbjbqwGXghZdxYgUR">
           <seg xml:id="i-D9yWaULmzarC5yJiYktGpb">
             I ett berömt dagblad för november kan man under rubriken På stan
             läsa:
           </seg>
-        </u>
-        <u xml:id="i-DoBz7EbjbqwGXghZdxYgUR" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-a59224fbedab1b51-4" next="i-RSz5rBDSN2rFti716qfymv">
           <seg xml:id="i-7rmAS1GPsj3sknsbeshTVK">
             ”En glädjande vinstökning visar Grönköpings teledistrikt i år,
             meddelar hr teledir. Gottwald Ringnér.
           </seg>
-        </u>
-        <u xml:id="i-RSz5rBDSN2rFti716qfymv" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-DoBz7EbjbqwGXghZdxYgUR">
           <seg xml:id="i-UzGVp314pmrnkdeyYDwNcD">
             — Är det roligt att se, att våra små affärsknep löna sig, säger
             hr R. till GV; framför allt vill jag kanske peka å metoden att
@@ -1302,7 +1286,7 @@
         <note xml:id="i-AiRMohKXHe6cDPH9LNdFsV" type="speaker">
           Anf. 9 BARBRO NILSSON i Visby (m):
         </note>
-        <u xml:id="i-a59224fbedab1b51-9" who="i-GcretNrb4CSsqYkgqQqowA" next="i-GdVvxcHmHe15pZqt45zwfN">
+        <u xml:id="i-a59224fbedab1b51-9" who="i-GcretNrb4CSsqYkgqQqowA" next="i-a59224fbedab1b51-10">
           <seg xml:id="i-CLiGc89cUstJmBb2rymJCh">
             Fru talman! Jag tackar Curt Boström för svaret på frågan.
           </seg>
@@ -1313,14 +1297,12 @@
             om en solidarisk trafikförsörjning? I propositionen från kommunikationsdepartementet
             talar man om alla invånare, även dem som bor på Gotland.
           </seg>
-        </u>
-        <u xml:id="i-GdVvxcHmHe15pZqt45zwfN" who="i-GcretNrb4CSsqYkgqQqowA" prev="i-a59224fbedab1b51-9" next="i-a59224fbedab1b51-10">
           <seg xml:id="i-NadJGQ5w4Mqtxm4n4CB57e">
             Reser man med tåg mellan exempelvis Stockholm och Uppsala eller
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198485--28/prot_198485__28-011.jp2/_view"/>
-        <u xml:id="i-a59224fbedab1b51-10" who="i-GcretNrb4CSsqYkgqQqowA" prev="i-GdVvxcHmHe15pZqt45zwfN">
+        <u xml:id="i-a59224fbedab1b51-10" who="i-GcretNrb4CSsqYkgqQqowA" prev="i-a59224fbedab1b51-9">
           <seg xml:id="i-8TBdvbptGs4wwG7wbVUrHQ">
             mellan ett par orter i glesbygd är priset detsamma oavsett beläggning.
             Det är solidarisk trafikförsörjning.
@@ -2443,15 +2425,13 @@
           Torsdagen den 15 november 1984 Anf. 37 Justitieminister STEN
           WICKBOM:
         </note>
-        <u xml:id="i-DBoZYx1v4kzZPt6EDUHUQF" who="i-GwSWKqF8wUht9mCcC5zupF" next="i-c8683146a8468925-10">
+        <u xml:id="i-DBoZYx1v4kzZPt6EDUHUQF" who="i-GwSWKqF8wUht9mCcC5zupF">
           <seg xml:id="i-Ft4Ujb7Uwxt5DGpc1Bnt6E">
             Fru talman! Jörn Svensson har frågat mig om — och i så fall när
             — regeringen Om lagstiftning om kommer att förelägga riksdagen
             förslag till lag om friköp för t.ex. s.k. friköp av vissa arhistoriska
             arrenden. rendegårdar
           </seg>
-        </u>
-        <u xml:id="i-c8683146a8468925-10" who="i-GwSWKqF8wUht9mCcC5zupF" prev="i-DBoZYx1v4kzZPt6EDUHUQF">
           <seg xml:id="i-RrdzYa4zYwJHam29yMMb16">
             Frågan om friköpsrätt för bl. a. innehavare av s. k. historiska
             jordbruksarrenden utreds f.n. av friköpsutredningen (Ju 1984:01).
@@ -3724,7 +3704,7 @@
         <note xml:id="i-YHEvtdDARbWV9t3LSmCti5">
           "bolaget.
         </note>
-        <u xml:id="i-b90777e1a6691bf4-1" who="i-FTkwAMo13hmDoeXLXEV1N" prev="i-b90777e1a6691bf4-0" next="i-5e2LFnSBreQP8gEtsSNRcx">
+        <u xml:id="i-b90777e1a6691bf4-1" who="i-FTkwAMo13hmDoeXLXEV1N" prev="i-b90777e1a6691bf4-0" next="i-b90777e1a6691bf4-4">
           <seg xml:id="i-9ncKXKpjRX7utiahrePku3">
             Men var fanns bolagsherrarna? Var de i Stockholm och demonstrerade
             för friheten att få lägga ned fabriker med samhällsnyttig produktion
@@ -3776,7 +3756,7 @@
         <note xml:id="i-XwCfYPkLvNTpXoafDPbsfD">
           38
         </note>
-        <u xml:id="i-b90777e1a6691bf4-4" who="i-FTkwAMo13hmDoeXLXEV1N" prev="i-5e2LFnSBreQP8gEtsSNRcx">
+        <u xml:id="i-b90777e1a6691bf4-4" who="i-FTkwAMo13hmDoeXLXEV1N" prev="i-b90777e1a6691bf4-1">
           <seg xml:id="i-XGgRe86sYq5T7atGL72w4T">
             diskuterade — de äldre diskuterade, vi barn lyssnade — kapitalets
             härjningståg längs Norrlandskusten men också hur det skulle gå
@@ -4136,7 +4116,7 @@
           1984/85:206 av Kerstin Anér (fp) till statsrådet Gertrud Sigurdsen
           om åtgärder mot poliovaccin från apor:
         </note>
-        <u xml:id="i-b90777e1a6691bf4-14" who="i-FTkwAMo13hmDoeXLXEV1N" prev="i-b90777e1a6691bf4-11" next="i-U6Nf1RN9emRKbRjzuDCfwy">
+        <u xml:id="i-b90777e1a6691bf4-14" who="i-FTkwAMo13hmDoeXLXEV1N" prev="i-b90777e1a6691bf4-11">
           <seg xml:id="i-TVNMyY24rY9TkG7PWhVv3R">
             Är statsrådet beredd att införa importstopp på apor för tillverkning
             av poliovaccin vid SBL?
@@ -4145,8 +4125,6 @@
             Är statsrådet beredd att verka för import av sådant poliovaccin
             som inte tillverkats med hjälp av primära apceller?
           </seg>
-        </u>
-        <u xml:id="i-U6Nf1RN9emRKbRjzuDCfwy" who="i-FTkwAMo13hmDoeXLXEV1N" prev="i-b90777e1a6691bf4-14">
           <seg xml:id="i-RGY4npEQ7HPJt67vzaho71">
             Är statsrådet beredd att vidtaga åtgärder så att SBL slutar använda
             apor för tillverkning av poliovaccin under 1985?

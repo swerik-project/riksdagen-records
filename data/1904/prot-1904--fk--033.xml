@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-ARzg4LhKptnQK2r12SuARm" type="speech">
             <linkGrp type="u">
               <ptr target="#i-MfdKTCNLYStjMZ43FAgYUd"/>
@@ -49,7 +49,13 @@
               <ptr target="#i-E1HhZP8aR5rBF3AWPmAKWu"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -989,15 +995,13 @@
         <note xml:id="i-QSvnwjMEVuq8urg6kNzVhd" type="speaker">
           Herr Trygger:
         </note>
-        <u xml:id="i-MfdKTCNLYStjMZ43FAgYUd" who="i-YBeHR1zEBPMM35nMEreTz" next="i-MP99xNUQfTcpeMjtWWj55e">
+        <u xml:id="i-MfdKTCNLYStjMZ43FAgYUd" who="i-YBeHR1zEBPMM35nMEreTz" next="i-7XvoMTYRYmbhAXvn1Gpe9n">
           <seg xml:id="i-QgvfE87ek8eH3K5znDQ3SY">
             Innan utskottet tager under ompröfning Norge. Kungl. Maj:ts proposition
             angående bestämmande af sträckningen af viss del af sjögränsen
             mellan Sverige och Norge, skulle jag vilja yttra några ord, som
             torde få medfölja propositionen till utskottet.
           </seg>
-        </u>
-        <u xml:id="i-MP99xNUQfTcpeMjtWWj55e" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-MfdKTCNLYStjMZ43FAgYUd" next="i-7XvoMTYRYmbhAXvn1Gpe9n">
           <seg xml:id="i-623GHritrxNsJtm7xH4MHA">
             För min del kan jag icke finna, att man bör hafva något emot
             att i föreliggande fall, då det blott gäller detaljer i fråga
@@ -1030,7 +1034,7 @@
         <note xml:id="i-Xuwgzx5tKc4Tda5miSc9Fu" type="date">
           16 Torsdagen den 7 April.
         </note>
-        <u xml:id="i-7XvoMTYRYmbhAXvn1Gpe9n" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-MP99xNUQfTcpeMjtWWj55e" next="i-GUYnqUyGnpHxekNypeRRvL">
+        <u xml:id="i-7XvoMTYRYmbhAXvn1Gpe9n" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-MfdKTCNLYStjMZ43FAgYUd" next="i-GUYnqUyGnpHxekNypeRRvL">
           <seg xml:id="i-UrKbSNZPu68dbsBNYLPtHb">
             Kungl. propotillerkänna sig befogenhet att öfvervaka, att skiljedomen
             blir
@@ -1039,13 +1043,11 @@
         <note xml:id="i-2YZ3qWNxMscY1Md7TAc8o9">
           sition ang. sjögränsen mellan
         </note>
-        <u xml:id="i-GUYnqUyGnpHxekNypeRRvL" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-7XvoMTYRYmbhAXvn1Gpe9n" next="i-2gZKHdZYQL1ixgkevxUE45">
+        <u xml:id="i-GUYnqUyGnpHxekNypeRRvL" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-7XvoMTYRYmbhAXvn1Gpe9n" next="i-UfXKykbhNqv5EHL1jXaPMd">
           <seg xml:id="i-VS3mkmJzcP15Q7TRqFTCzR">
             verkställd, och följaktligen däri kan finna en anledning att
             inblanda sig i de förenade rikenas inbördes angelägenheter. Nu
           </seg>
-        </u>
-        <u xml:id="i-2gZKHdZYQL1ixgkevxUE45" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-GUYnqUyGnpHxekNypeRRvL" next="i-UfXKykbhNqv5EHL1jXaPMd">
           <seg xml:id="i-2im99gfap1T9skvZ39X3vs">
             Sverige och Svarar man kanske härpå, att, enligt öfverenskommelsen,
             parterna
@@ -1054,7 +1056,7 @@
         <note xml:id="i-Ct9e6WRBqepRYCXcQjWSKj">
           Norge. (Forts.)
         </note>
-        <u xml:id="i-UfXKykbhNqv5EHL1jXaPMd" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-2gZKHdZYQL1ixgkevxUE45" next="i-3fPgbx4gaYFnMAgn9xRbC2">
+        <u xml:id="i-UfXKykbhNqv5EHL1jXaPMd" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-GUYnqUyGnpHxekNypeRRvL" next="i-mteAHAfgMfN4kMhKj234m">
           <seg xml:id="i-7GiMXkNSzCaQe5ccGxDhP5">
             måste nöja sig med det beslut skiljedomstolen fattar, och att
             sålunda man icke kan tänka sig möjligheten af att verkställigheten
@@ -1077,8 +1079,6 @@
             denna fråga till främmande myndigheter, att låta dem på något
             sätt få befogenhet att därvid ingripa, torde väl icke vara lämpligt.
           </seg>
-        </u>
-        <u xml:id="i-3fPgbx4gaYFnMAgn9xRbC2" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-UfXKykbhNqv5EHL1jXaPMd" next="i-Wr48Y6r5mpnDjrRuZdRMem">
           <seg xml:id="i-35VX637CcU2fchFZKMPSad">
             De bägge öfriga skälen, till hvilka jag nu öfvergår, kunna visserligen
             åberopas till stöd för frågans hänskjutande till skilje-” domstol,
@@ -1091,8 +1091,6 @@
             ty hvad som i detta afseende har betydelse är precedensfallet,
             principfrågan, icke den speciella tvistefrågan.
           </seg>
-        </u>
-        <u xml:id="i-Wr48Y6r5mpnDjrRuZdRMem" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-3fPgbx4gaYFnMAgn9xRbC2" next="i-mteAHAfgMfN4kMhKj234m">
           <seg xml:id="i-LckG4tmfo5rTtBHCohP4E3">
             Slutligen har man åberopat det förhållandet, att ett likartadt
             förfarande blifvit användt i tvist emellan Österrike och Ungern.
@@ -1114,13 +1112,11 @@
         <note xml:id="i-HzvhFaMG5gJ3dFwv7PUyZf">
           N:o 33.
         </note>
-        <u xml:id="i-mteAHAfgMfN4kMhKj234m" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-Wr48Y6r5mpnDjrRuZdRMem" next="i-DgiRmijy5C6JRCcd4obDk">
+        <u xml:id="i-mteAHAfgMfN4kMhKj234m" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-UfXKykbhNqv5EHL1jXaPMd" next="i-Ne2GpDwzcgjoZVbAkxao8D">
           <seg xml:id="i-JWuB47iLSvk3VPme8wyt88">
             var icke den schweitziska förbundspresidenten — som motsvarar
             Kungl. propo-
           </seg>
-        </u>
-        <u xml:id="i-DgiRmijy5C6JRCcd4obDk" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-mteAHAfgMfN4kMhKj234m" next="i-Ne2GpDwzcgjoZVbAkxao8D">
           <seg xml:id="i-V2vFP2mYgfFefZbCycnw47">
             en suverän — utan det var den schweitziska förbundsdomstolens
             president, som af de båda andra utsågs till tredje skiljeman.
@@ -1129,13 +1125,11 @@
         <note xml:id="i-STMfAYDr89pJBWpvXM8oMh">
           silion ang. sjögränsen mellan
         </note>
-        <u xml:id="i-Ne2GpDwzcgjoZVbAkxao8D" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-DgiRmijy5C6JRCcd4obDk" next="i-29NKqdMD9aL7SDgGwcTpQM">
+        <u xml:id="i-Ne2GpDwzcgjoZVbAkxao8D" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-mteAHAfgMfN4kMhKj234m" next="i-UHWQdFMN2pi1vfQsCaBhsr">
           <seg xml:id="i-Y1Ysj8ebjjowyrxWYZkqdu">
             Slutligen har föredraganden, troligen med tanke på att de Sverige
             och
           </seg>
-        </u>
-        <u xml:id="i-29NKqdMD9aL7SDgGwcTpQM" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-Ne2GpDwzcgjoZVbAkxao8D" next="i-4R6gDf7SqCWYXBQjYvA3J4">
           <seg xml:id="i-ND8eAzCaEYzR27MQDMoPh3">
             föregående skälen icke skulle vara tillräckliga, åberopat ännu
             ett skäl, nämligen det, att det icke vore sannolikt, att de fyra
@@ -1154,8 +1148,6 @@
             att en sådan situation kommer att inträffa, om den femte får väljas
             af ett främmande statsöfverhufvud.
           </seg>
-        </u>
-        <u xml:id="i-4R6gDf7SqCWYXBQjYvA3J4" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-29NKqdMD9aL7SDgGwcTpQM" next="i-9wu5sb9owZAFx7SWXQ9Vs6">
           <seg xml:id="i-4aPtAtYWkAMVanx5T57VQk">
             Men för att nu lämna dessa saker och litet närmare granska öfverenskommelsen,
             måste man naturligtvis gilla de svenska statsrådens förfarande
@@ -1180,8 +1172,6 @@
             skulle vara afgörande, men någon gräns för parternas yrkanden
             måste finnas.
           </seg>
-        </u>
-        <u xml:id="i-9wu5sb9owZAFx7SWXQ9Vs6" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-4R6gDf7SqCWYXBQjYvA3J4" next="i-VKezoztLeQ8GgaS67kvN2C">
           <seg xml:id="i-A7YVxrGnhLVbssQ4neg6wG">
             För min del får jag slutligen hemställa, att utskottet måtte
             taga de af mig angifna synpunkter under ompröfning och tillerkänna
@@ -1207,7 +1197,7 @@
         <note xml:id="i-N781rnSMcqwV3CaphrNGAU" type="date">
           18 Torsdagen den 7 April.
         </note>
-        <u xml:id="i-UHWQdFMN2pi1vfQsCaBhsr" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-VKezoztLeQ8GgaS67kvN2C" next="i-E1HhZP8aR5rBF3AWPmAKWu">
+        <u xml:id="i-UHWQdFMN2pi1vfQsCaBhsr" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-Ne2GpDwzcgjoZVbAkxao8D" next="i-E1HhZP8aR5rBF3AWPmAKWu">
           <seg xml:id="i-HoFmHjrXw8goLGBP8pWaG">
             där de hålla sig inom rimlighetens gränser, men att man å andra
             sidan håller orubbligt fast vid unionens, såvidt jag förstår,

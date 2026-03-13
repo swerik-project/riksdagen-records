@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-4KhXgQj1Di9uCGACVRcG4Y" type="speech">
             <linkGrp type="u">
               <ptr target="#i-TUkPbB2wcudDWfqFNLjt2R"/>
@@ -386,7 +386,13 @@
               <ptr target="#i-7V1ZP6bJLWZpMM8KUNE7R4"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -637,14 +643,12 @@
         <note xml:id="i-N412KbGKg6rKSzmSpzAm7V" type="speaker">
           Anf. 1 Statsminister INGVAR CARLSSON:
         </note>
-        <u xml:id="i-TUkPbB2wcudDWfqFNLjt2R" who="i-WYkrZExE7jfwHjmfH1DPwg" next="i-FALkN8WnjnBbaSRmaSudwC">
+        <u xml:id="i-TUkPbB2wcudDWfqFNLjt2R" who="i-WYkrZExE7jfwHjmfH1DPwg">
           <seg xml:id="i-8dqhkoFNpnwX4nbugD6mQB">
             Herr talman! Per Stenmarck har frågat mig vilka diskussioner
             som förts om Raoul Wallenbergs öde under ministerrådsordföranden
             Ryzjkovs besök och vad dessa lett fram till.
           </seg>
-        </u>
-        <u xml:id="i-FALkN8WnjnBbaSRmaSudwC" who="i-WYkrZExE7jfwHjmfH1DPwg" prev="i-TUkPbB2wcudDWfqFNLjt2R">
           <seg xml:id="i-KDE8eiW1ooXUkUtQnqPzAY">
             I samband med ministerrådsordförande Ryzjkovs officiella besök
             i Sverige nyligen tog jag vid ett personligt samtal med honom
@@ -899,7 +903,7 @@
         <note xml:id="i-5YEEvdrDJMFX4poC9f2PT5" type="speaker">
           Anf. 8 Socialminister GERTRUD SIGURDSEN:
         </note>
-        <u xml:id="i-6138790547112006-5" who="i-EKAdp351JQgZiMQXg875jB" next="i-274om12WQxptoUvZCm83Wj">
+        <u xml:id="i-6138790547112006-5" who="i-EKAdp351JQgZiMQXg875jB">
           <seg xml:id="i-YJXceLoMZRcz7Tv4jbhwjc">
             Herr talman! Karin Israelsson har frågat mig om jag är beredd
             att ändra på det förhållandet att pensionstillskott till änkepension
@@ -918,8 +922,6 @@
             som för mannens egenpension, eftersom änkepensionen är avsedd
             att ge kompensation för mannens tidigare inkomst eller pension.
           </seg>
-        </u>
-        <u xml:id="i-274om12WQxptoUvZCm83Wj" who="i-EKAdp351JQgZiMQXg875jB" prev="i-6138790547112006-5" next="i-6138790547112006-6">
           <seg xml:id="i-ThmJoha7xCi189veEdrTRc">
             Mitt svar på Karin Israelssons fråga är att det framgår klart
             av regeringens proposition till riksdagen (prop. 1986/87:133)
@@ -929,8 +931,6 @@
             beredd att föreslå någon ändring av reglerna om pensionstillskott
             till änkor.
           </seg>
-        </u>
-        <u xml:id="i-6138790547112006-6" who="i-EKAdp351JQgZiMQXg875jB" prev="i-274om12WQxptoUvZCm83Wj">
           <seg xml:id="i-UNVvzzLCCN4nQPea4F6d6Z">
             Jag vill emellertid även påminna om att pensionsberedningen har
             fått i uppdrag att undersöka undantagandepensionärernas ekonomiska
@@ -1039,7 +1039,7 @@
         <note xml:id="i-pzbCVypm49BVHxd48J2i6" type="speaker">
           Anf. 12 Socialminister GERTRUD SIGURDSEN:
         </note>
-        <u xml:id="i-dd225db44924688e-4" who="i-EKAdp351JQgZiMQXg875jB" next="i-VsSjumCvsvKwSLSMGLg4mN">
+        <u xml:id="i-dd225db44924688e-4" who="i-EKAdp351JQgZiMQXg875jB">
           <seg xml:id="i-EffzWoCQ5N8nabi3w2wTKY">
             Herr talman! Ingrid Ronne-Björkqvist har frågat mig när regeringen
             avser att ge utredningen om det ofödda barnet de av riksdagen
@@ -1054,8 +1054,6 @@
             Utredningen fick år 1984 tilläggsdirektiv angående fosterdiagnostiken.
             Detta arbete påbörjades för ungefär ett halvår sedan.
           </seg>
-        </u>
-        <u xml:id="i-VsSjumCvsvKwSLSMGLg4mN" who="i-EKAdp351JQgZiMQXg875jB" prev="i-dd225db44924688e-4">
           <seg xml:id="i-2AaVujgqfjrbScdrYiDyik">
             Regeringen kommer inom kort att överlämna socialutskottets betänkanden
             (1986/87:5) om familjeplanering och abort och (1987/88:2) om vissa
@@ -1161,13 +1159,11 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198788--67/prot_198788__67-010.jp2/_view"/>
-        <u xml:id="i-RgmCuqKEs5CdwsTFZTH7Kf" who="i-Swj9MJpeW2AoQ6xU1k7jnv" prev="i-be4030c67a2ed792-2" next="i-be4030c67a2ed792-3">
+        <u xml:id="i-RgmCuqKEs5CdwsTFZTH7Kf" who="i-Swj9MJpeW2AoQ6xU1k7jnv" prev="i-be4030c67a2ed792-2" next="i-TCUipdDed3vowEnZcuwtBR">
           <seg xml:id="i-8xqYseFBCduy23Zm5vNZuc">
             och med de decentraliseringstankar som regeringen vid upprepade
             tillfällen Prot. 1987/88:67 givit uttryck för. 11 februari 1988
           </seg>
-        </u>
-        <u xml:id="i-be4030c67a2ed792-3" who="i-Swj9MJpeW2AoQ6xU1k7jnv" prev="i-RgmCuqKEs5CdwsTFZTH7Kf" next="i-TCUipdDed3vowEnZcuwtBR">
           <seg xml:id="i-7agsVJF7Q4BQYKBVADNRwx">
             Frågan är ställd mot bakgrund av att kustbevakningen skall brytas
             ut ur tullverket för att den 1 juli 1988 bli en myndighet inom
@@ -1177,7 +1173,7 @@
         <note xml:id="i-6VJDrCWZo6Vu8yDU6g6g4t">
           Om kustbevakningens organisation
         </note>
-        <u xml:id="i-TCUipdDed3vowEnZcuwtBR" who="i-Swj9MJpeW2AoQ6xU1k7jnv" prev="i-be4030c67a2ed792-3" next="i-P98GRZvbcBhhrtgVU8KsDh">
+        <u xml:id="i-TCUipdDed3vowEnZcuwtBR" who="i-Swj9MJpeW2AoQ6xU1k7jnv" prev="i-RgmCuqKEs5CdwsTFZTH7Kf">
           <seg xml:id="i-AVi4yrCLMt1VDXhi3meeUi">
             Jag har svårt att förstå vad Marianne Andersson menar med uttrycket
             militarisering. Ett av syftena med omorganisationen av kustbevakningen
@@ -1190,15 +1186,11 @@
             ha en självständig organisation utanför försvarsmakten och lyda
             direkt under regeringen.
           </seg>
-        </u>
-        <u xml:id="i-P98GRZvbcBhhrtgVU8KsDh" who="i-Swj9MJpeW2AoQ6xU1k7jnv" prev="i-TCUipdDed3vowEnZcuwtBR" next="i-be4030c67a2ed792-4">
           <seg xml:id="i-2VaLxuFUHD1jdBWUtw3GhB">
             För närvarande arbetar en organisationskommitté, kustbevakningskommittén,
             fram förslag till den nya myndighetens organisation, ledning,
             lokalisering och arbetsformer.
           </seg>
-        </u>
-        <u xml:id="i-be4030c67a2ed792-4" who="i-Swj9MJpeW2AoQ6xU1k7jnv" prev="i-P98GRZvbcBhhrtgVU8KsDh">
           <seg xml:id="i-26rdCK4xEVeAHzTsK2iCWf">
             Kommittén avser att i dagarna lämna förslag till regeringen om
             organisation och lokalisering för kustbevakningens centrala och
@@ -2303,7 +2295,7 @@
         <note xml:id="i-995c7SMdAPc1uPr7yfF2fh" type="speaker">
           Anf. 51 KARIN ISRAELSSON (c):
         </note>
-        <u xml:id="i-dd225db44924688e-9" who="i-TVpY9zEquJ2jKT7pqxS85w" next="i-U4CYxcLHEjQjkc8gKedbUr">
+        <u xml:id="i-dd225db44924688e-9" who="i-TVpY9zEquJ2jKT7pqxS85w" next="i-dd225db44924688e-13">
           <seg xml:id="i-Q7k4TQjm5fnpJtsBz1WoFJ">
             Herr talman! Jag ber att få tacka kommunikationsministern för
             svaret på min fråga. Frågan var föranledd av det rykte som gick
@@ -2333,7 +2325,7 @@
           Om persontransporterna på järnvägslinjen Storuman — Hällnäs—-
           Vännäs
         </note>
-        <u xml:id="i-dd225db44924688e-13" who="i-TVpY9zEquJ2jKT7pqxS85w" prev="i-U4CYxcLHEjQjkc8gKedbUr">
+        <u xml:id="i-dd225db44924688e-13" who="i-TVpY9zEquJ2jKT7pqxS85w" prev="i-dd225db44924688e-9">
           <seg xml:id="i-CK4fQGsdNbvJPdpbYRWjNM">
             garanterar. Det finns alltså ett förhandlingsutrymme här som
             gör det hela något mera osäkert.
@@ -2803,7 +2795,7 @@
         <note xml:id="i-MzXqgH5jbxWin1BZZ2iZCr">
           IMPORTCHEF avec
         </note>
-        <u xml:id="i-bad0c311644e807c-3" who="i-EjgCsasV3xuCur7HxqaNHA" prev="i-2yPmQg5deW5kKPxezMrEmW" next="i-A1vV2xA3pXteqMQVMrXVFe">
+        <u xml:id="i-bad0c311644e807c-3" who="i-EjgCsasV3xuCur7HxqaNHA" prev="i-2yPmQg5deW5kKPxezMrEmW">
           <seg xml:id="i-VrxcmYPAJeq6UmjvQxXa2y">
             Etiketten innehåller sedan en beskrivning av tjänsteinnehållet
             och avrundas med Vin- &amp; Spritcentralens logotype. Åtta etiketter
@@ -2815,8 +2807,6 @@
             som borde lägga stor vikt vid att följa de lagar som styr marknadsföring
             av de produkter man importerar och försäljer.
           </seg>
-        </u>
-        <u xml:id="i-A1vV2xA3pXteqMQVMrXVFe" who="i-EjgCsasV3xuCur7HxqaNHA" prev="i-bad0c311644e807c-3">
           <seg xml:id="i-Vw8R1vrBxG1Rnm3Vzih2un">
             Jag vill med anledning av detta fråga om statsrådet anser det
             vara i överensstämmelse med gällande lagar att utforma sina personalannonser
@@ -2830,14 +2820,12 @@
           184 av Berit Oscarsson (s) till industriministern om regionalpolitiska
           insatser i Skinnskatteberg:
         </note>
-        <u xml:id="i-DQpfbVVgAcYkWyKBdNWRag" who="i-998zuvZXsvbXuA7m2RRgZk" next="i-d47b6b77fd1a96e2-1">
+        <u xml:id="i-DQpfbVVgAcYkWyKBdNWRag" who="i-998zuvZXsvbXuA7m2RRgZk" next="i-R5qso3NXtjrVQU4y3Fyv7p">
           <seg xml:id="i-2ye9NzLkvBMUwTkMPZxv27">
             I proposition 1987/88:64, särskilda regionalpolitiska insatser
             i delar av Bergslagen och norra Sveriges inland, anför statsrådet
             bl. a.:
           </seg>
-        </u>
-        <u xml:id="i-d47b6b77fd1a96e2-1" who="i-998zuvZXsvbXuA7m2RRgZk" prev="i-DQpfbVVgAcYkWyKBdNWRag" next="i-R5qso3NXtjrVQU4y3Fyv7p">
           <seg xml:id="i-LpXWnBECuxyvaF16USGPAQ">
             ”Det pågående Bergslagsprogrammet innehåller främst långsiktiga
             åtgärder som syftar till att på olika sätt stärka regionens attraktionskraft
@@ -2868,7 +2856,7 @@
         <note xml:id="i-Un7ZLAZAg6hJy4gM5hxzBL">
           Meddelande om fråga
         </note>
-        <u xml:id="i-R5qso3NXtjrVQU4y3Fyv7p" who="i-998zuvZXsvbXuA7m2RRgZk" prev="i-d47b6b77fd1a96e2-1" next="i-GQaJEMALYXRKTjoXLdcQdH">
+        <u xml:id="i-R5qso3NXtjrVQU4y3Fyv7p" who="i-998zuvZXsvbXuA7m2RRgZk" prev="i-DQpfbVVgAcYkWyKBdNWRag" next="i-5iZArjtM38vWLTPgrFpttW">
           <seg xml:id="i-KjxhFUmuDzkfuGqYm2wqcN">
             Nu har ägarna till boardfabriken i Skinnskatteberg, Swanboard
             Masonite AB med familjen Wettergren i spetsen, ett stort ansvar
@@ -2878,8 +2866,6 @@
             Alla goda krafter behövs för att snabbt få till stånd nya företagsetableringar
             i Skinnskatteberg och därmed nya arbetstillfällen.
           </seg>
-        </u>
-        <u xml:id="i-GQaJEMALYXRKTjoXLdcQdH" who="i-998zuvZXsvbXuA7m2RRgZk" prev="i-R5qso3NXtjrVQU4y3Fyv7p" next="i-5iZArjtM38vWLTPgrFpttW">
           <seg xml:id="i-BXT9nCfWtuD63fUxLpU3Bs">
             Jag vill fråga industriministern:
           </seg>
@@ -2887,14 +2873,12 @@
         <note xml:id="i-GxJRvwrjwCVCPanUcNhG9F">
           1. Hur bedömer industriministern den aktuella situationen i Skinnskatteberg?
         </note>
-        <u xml:id="i-5iZArjtM38vWLTPgrFpttW" who="i-998zuvZXsvbXuA7m2RRgZk" prev="i-GQaJEMALYXRKTjoXLdcQdH" next="i-ADKL1yG6J4BLjkFVEYipux">
+        <u xml:id="i-5iZArjtM38vWLTPgrFpttW" who="i-998zuvZXsvbXuA7m2RRgZk" prev="i-R5qso3NXtjrVQU4y3Fyv7p">
           <seg xml:id="i-H75V3GPvtT2L7mYU3oDxBx">
             2. Hur avser industriministern medverka till att ägarna till
             nedlagd verksamhet tar sitt ansvar för att ersättningsindustrier
             etableras i Skinnskatteberg?
           </seg>
-        </u>
-        <u xml:id="i-ADKL1yG6J4BLjkFVEYipux" who="i-998zuvZXsvbXuA7m2RRgZk" prev="i-5iZArjtM38vWLTPgrFpttW">
           <seg xml:id="i-D9RPfTy8WD9ywbZZ5Wwtyc">
             3. Vad avser industriministern i övrigt vidta för åtgärder för
             att omedelbart skapa nya arbetstillfällen och därmed stärka ortens
@@ -2926,13 +2910,9 @@
             som önskar få i gång landsutveckling i alla medlemsländer. Industriministern
             är ordförande för landsbygdskampanjen.
           </seg>
-        </u>
-        <u xml:id="i-B9qB5VCNGJeBhXa2jhPmrc" who="unknown">
           <seg xml:id="i-UD96Sq9V5j6hu3CYnbgGgE">
             Jag vill därför fråga industriministern:
           </seg>
-        </u>
-        <u xml:id="i-7V1ZP6bJLWZpMM8KUNE7R4" who="unknown">
           <seg xml:id="i-H1nNDnadUMjfpTziVyfThR">
             Ärindustriministern beredd att omedelbart tillskjuta erforderliga
             medel så att Nationella folkrörelsekommittén kan fortsätta sitt

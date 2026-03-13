@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-J1p6aiymefbXhnQE11jdUM" type="speech">
             <linkGrp type="u">
               <ptr target="#i-PLWbHZYoJhUjhyQ6vi7WNN"/>
@@ -297,7 +297,13 @@
               <ptr target="#i-2sYffEQoTz8zhUY9UzEnKT"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -546,7 +552,7 @@
           Chefen för jordbruksdepartementet, herr statsrådet Pehrsson-Bramstorp,
           som anförde:
         </note>
-        <u xml:id="i-PLWbHZYoJhUjhyQ6vi7WNN" who="i-QSvXYSPnCaog2kVQuZMYmX" next="i-NhTM2XeLgZzsN2b8cdJdb6">
+        <u xml:id="i-PLWbHZYoJhUjhyQ6vi7WNN" who="i-QSvXYSPnCaog2kVQuZMYmX" next="i-fb5d273f6a084be9-2">
           <seg xml:id="i-R2GMRGGsi1ftbbKy3n7Pnu">
             Herr talman! Herr Holmbäck har till mig riktat en fråga, huruvida
             jag inför den föreliggande bristen på bensin och fotogen ämnar
@@ -555,8 +561,6 @@
             till elektriska distributionsföreningar för ledningarnas utdragande
             till de särskilda gårdarna.
           </seg>
-        </u>
-        <u xml:id="i-NhTM2XeLgZzsN2b8cdJdb6" who="i-QSvXYSPnCaog2kVQuZMYmX" prev="i-PLWbHZYoJhUjhyQ6vi7WNN" next="i-fb5d273f6a084be9-2">
           <seg xml:id="i-SuYdTbuRAx7T9CE3pL4kQh">
             Jag vill till en början erinra att under nionde huvudtiteln för
             vartdera av budgetåren 1939/40 och 1940/41 uppförts ett reservationsanslag
@@ -587,7 +591,7 @@
         <note xml:id="i-Wfe4zwCmQbD2FyEDUDfSCv">
           Svar på fråga. (Forts.)
         </note>
-        <u xml:id="i-fb5d273f6a084be9-2" who="i-QSvXYSPnCaog2kVQuZMYmX" prev="i-NhTM2XeLgZzsN2b8cdJdb6">
+        <u xml:id="i-fb5d273f6a084be9-2" who="i-QSvXYSPnCaog2kVQuZMYmX" prev="i-PLWbHZYoJhUjhyQ6vi7WNN">
           <seg xml:id="i-Y4n6K7bYpWXzGVdyWLv2ia">
             Hittills ha från ett par länsstyrelser inkommit utredningar av
             här ifrågavarande slag med framställningar om bidrag till genomförande
@@ -3175,15 +3179,13 @@
           i alla dessa ärenden hos arbetsmarknadskommissionen. Det är i
           den punkten vi skilja oss. I övrigt finnas inga skiljaktigheter.
         </note>
-        <u xml:id="i-73merX3dY37oF4AXhiE3WW" who="i-6FrdvvZyK8ZA14RbLEpPvF" prev="i-24ba50d1e2140a5f-5" next="i-JdrBA4jWqFit8W1FNDhAkm">
+        <u xml:id="i-73merX3dY37oF4AXhiE3WW" who="i-6FrdvvZyK8ZA14RbLEpPvF" prev="i-24ba50d1e2140a5f-5">
           <seg xml:id="i-UKXNj1kGUwSTGfkghkYkff">
             Jag har den uppfattningen, att då nu första kammaren redan beslutat
             i enlighet med reservationen och andra kammaren förstår nödvändigheten
             av ett beslut så snart som möjligt, blir det väl reservationen,
             som även denna kammare kommer att bifalla.
           </seg>
-        </u>
-        <u xml:id="i-JdrBA4jWqFit8W1FNDhAkm" who="i-6FrdvvZyK8ZA14RbLEpPvF" prev="i-73merX3dY37oF4AXhiE3WW">
           <seg xml:id="i-Wn2sSHLFSFqkUZoPCLiEBB">
             Jag skall tillåta mig, herr talman, att med dessa ord och med
             hänvisning till den motivering, som vi anfört i vår reservation,
@@ -4012,7 +4014,7 @@
           anvisa ett reservationsanslag av 3800,000 kronor. Riksdagen biföll
           denna framställan.
         </note>
-        <u xml:id="i-8UEaYCC9PYj7DB54WE5DRS" who="i-TFTCQ3KuQMj6whm8qBPj3S" prev="i-42f6a7fd49171d87-0" next="i-4UwoWcNcPAtLC1jm3iwUVR">
+        <u xml:id="i-8UEaYCC9PYj7DB54WE5DRS" who="i-TFTCQ3KuQMj6whm8qBPj3S" prev="i-42f6a7fd49171d87-0" next="i-Jcm8oZ1NHcxQuWnEaWbiWJ">
           <seg xml:id="i-AwktjRG215r1GUM35EydbE">
             För att belysa vad frågan gäller skall jag citera byggnadsstyrelsens
             i propositionen återgivna yttrande i ärendet. Byggnadsstyrelsen
@@ -4051,14 +4053,10 @@
             sin del icke hade något att erinra mot den av sökandebolaget uppgjorda
             finansieringsplanen, finge styrelsen tillstyrka bifall till framställningen.»
           </seg>
-        </u>
-        <u xml:id="i-4UwoWcNcPAtLC1jm3iwUVR" who="i-TFTCQ3KuQMj6whm8qBPj3S" prev="i-8UEaYCC9PYj7DB54WE5DRS" next="i-KBm39E1XQkYzEpZjjCRbDn">
           <seg xml:id="i-8KEsghcgSobMegzSvUbeb4">
             Framställningen hade även livligt tillstyrkts av bostadssociala
             utredningen och kommerskollegium.
           </seg>
-        </u>
-        <u xml:id="i-KBm39E1XQkYzEpZjjCRbDn" who="i-TFTCQ3KuQMj6whm8qBPj3S" prev="i-4UwoWcNcPAtLC1jm3iwUVR" next="i-SnMrveEVd3XFpEbyUy2zdh">
           <seg xml:id="i-95ZZXxn64B1HEBpgkgpvzn">
             A.-B. Betongindustri inlämnade sin framställning den 5 februari
             1940. Bolaget hade tre ingenjörer som bedrivit forskningsoch experimentarbeten
@@ -4068,8 +4066,6 @@
             skulle hemförlovas för att kunna verkställa planeringsoch konstruktionsarbeten
             för den nya fabrikationen. Den 7 juni kom avslag på denna framställan.
           </seg>
-        </u>
-        <u xml:id="i-SnMrveEVd3XFpEbyUy2zdh" who="i-TFTCQ3KuQMj6whm8qBPj3S" prev="i-KBm39E1XQkYzEpZjjCRbDn" next="i-42f6a7fd49171d87-2">
           <seg xml:id="i-DuzEpTdX9mdKgPXmkTEggt">
             Bolaget skrev en ny anhållan den 14 juni och anhöll under åberopande
             av riksdagens beslut att åtminstone få tjänstledighet under viss
@@ -4079,8 +4075,6 @@
             har i dagarna tills vidare permitterats. Den tredje ingenjören
             är fortfarande i militärtjänst.
           </seg>
-        </u>
-        <u xml:id="i-42f6a7fd49171d87-2" who="i-TFTCQ3KuQMj6whm8qBPj3S" prev="i-SnMrveEVd3XFpEbyUy2zdh" next="i-Jcm8oZ1NHcxQuWnEaWbiWJ">
           <seg xml:id="i-9U9AMGZYQkPUFvy1UWKzLo">
             Ett halvt års dyrbar tid har gått förlorad för bolaget, näringslivet
             och arbetsmarknaden. Statsmakterna ha ansett denna industri så
@@ -4103,7 +4097,7 @@
           lånet skall användas före den 1 oktober 1941. Hur skall detta
           bli möjligt, om man ej kan få konstruktionerna klara.
         </note>
-        <u xml:id="i-Jcm8oZ1NHcxQuWnEaWbiWJ" who="i-TFTCQ3KuQMj6whm8qBPj3S" prev="i-42f6a7fd49171d87-2" next="i-2sYffEQoTz8zhUY9UzEnKT">
+        <u xml:id="i-Jcm8oZ1NHcxQuWnEaWbiWJ" who="i-TFTCQ3KuQMj6whm8qBPj3S" prev="i-8UEaYCC9PYj7DB54WE5DRS">
           <seg xml:id="i-Dkk6sUzgmiGUb6b6XQJ2Q3">
             Med hänvisning till vad jag ovan anfört anhåller jag om kammarens
             tillstånd att till herr statsrådet och chefen för försvarsdepartementet
@@ -4113,8 +4107,6 @@
             Vad är anledning till att de förut omtalade ingenjörerna ej i
             rimlig tid hempermitterats?
           </seg>
-        </u>
-        <u xml:id="i-2sYffEQoTz8zhUY9UzEnKT" who="i-TFTCQ3KuQMj6whm8qBPj3S" prev="i-Jcm8oZ1NHcxQuWnEaWbiWJ">
           <seg xml:id="i-8TDgseKaM6aV8Meda1kkjc">
             Ämnar statsrådet vidtaga några åtgärder för att i fortsättningen
             på ett mera rationellt sätt fördela specialister mellan militära

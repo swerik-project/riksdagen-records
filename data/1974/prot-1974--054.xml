@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-VeFNQGYddNxZnZZT1d74vN" type="speech">
             <linkGrp type="u">
               <ptr target="#i-NPJvvDgh2Ekjj3a5843mn7"/>
@@ -602,7 +602,13 @@
               <ptr target="#i-7f6ebdae9cfd5d4d-16"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -807,7 +813,7 @@
           Herr SVEN GUSTAFSON i Göteborg (fp) erhöll på begäran ordet och
           yttrade:
         </note>
-        <u xml:id="i-NPJvvDgh2Ekjj3a5843mn7" who="i-6PeNM1B9NsCjyScL117vps" next="i-R6Yu8GiakVNCgEce72psF2">
+        <u xml:id="i-NPJvvDgh2Ekjj3a5843mn7" who="i-6PeNM1B9NsCjyScL117vps">
           <seg xml:id="i-MEJe9ibmj6inEcLZsza8oJ">
             Herr talman! Styrelsen för Stiftelsen Riksbankens jubileumsfond
             består av elva ledamöter, valda för en tid av sex år. Styrelsen
@@ -815,8 +821,6 @@
             ledamöter och följande gång av fem ledamöter. Riksdagen utser
             även ordförande i styrelsen.
           </seg>
-        </u>
-        <u xml:id="i-R6Yu8GiakVNCgEce72psF2" who="i-6PeNM1B9NsCjyScL117vps" prev="i-NPJvvDgh2Ekjj3a5843mn7" next="i-XTDRwCXpGfKDgN4SAE66gA">
           <seg xml:id="i-2iFPzkTpg4Gfo6c2qwvBA9">
             I år står sex ledamöter jämte personliga suppleanter i tur att
             avgå. Valberedningen har efter föreskrivet samråd med forskningsråden,
@@ -825,8 +829,6 @@
             ledamöter utdelad promemoria. Den gemensamma listan upptar även
             vissa fyllnadsval för valperioden 1971—1977.
           </seg>
-        </u>
-        <u xml:id="i-XTDRwCXpGfKDgN4SAE66gA" who="i-6PeNM1B9NsCjyScL117vps" prev="i-R6Yu8GiakVNCgEce72psF2">
           <seg xml:id="i-C3KiAmh2ukECejZqCVPW49">
             I egenskap av ordförande i valberedningen ber jag att få överlämna
             denna lista till herr talmannen.
@@ -1005,15 +1007,13 @@
         <note xml:id="i-PVFvGLSGJyuRzBV7P7Kde8">
           Beträffande propositionens huvudsakliga innehåll anfördes följande:
         </note>
-        <u xml:id="i-QFBDrpdRozENyDQr9iD36D" who="unknown">
+        <u xml:id="i-QFBDrpdRozENyDQr9iD36D" who="unknown" next="i-ad239c5f8172c593-6">
           <seg xml:id="i-QnfeUCQBgVcr2dzbfMd7Ed">
             ”I propositionen föreslås att lagen (1964:541) om behandling
             i fångvårdsanstalt ersätts med två särskilda lagar, nämligen lag
             om beräkning av strafftid m. m. och lag om kriminalvård i anstalt.
             Vidare föreslås i anslutning därtill vissa ändringar i brottsbalken.
           </seg>
-        </u>
-        <u xml:id="i-6GwZzQSS56fC8KDFPNzUBQ" who="unknown">
           <seg xml:id="i-RHSPt6r1HznHwNycRZz95m">
             Beträffande kriminalvården i anstalt bygger förslaget i väsentliga
             delar på kriminalvårdsberedningens betänkande (SOU 1972:64) Kriminalvård
@@ -1022,8 +1022,6 @@
             bil. 4 s. 76—164) och som i allt väsentligt godkänts av riksdagen
             (JuU 1973:15, rskr 1973:152).
           </seg>
-        </u>
-        <u xml:id="i-ad239c5f8172c593-4" who="unknown">
           <seg xml:id="i-463JoDrC4znybTaxWMVvUr">
             Enligt förslaget skall anstaltsvården redan från början inriktas
             på
@@ -1051,7 +1049,7 @@
         <note xml:id="i-D4V71DCN9o7vFszGPAejMT">
           stalt m. m.
         </note>
-        <u xml:id="i-ad239c5f8172c593-6" who="unknown">
+        <u xml:id="i-ad239c5f8172c593-6" who="unknown" prev="i-QFBDrpdRozENyDQr9iD36D" next="i-ad239c5f8172c593-7">
           <seg xml:id="i-GuWQLUB2sTvMzTz31cHEfM">
             konkreta åtgärder som förbereder den intagne för tillvaron utanför
             anstalten, allt i den utsträckning det kan ske utan att kravet
@@ -1097,8 +1095,6 @@
             Förslaget innebär också att reglerna för disciplinär bestraffning
             ändras avsevärt i förhållande till nuvarande ordning.
           </seg>
-        </u>
-        <u xml:id="i-CQjKEoMszBCkCHfCWXfDWz" who="unknown">
           <seg xml:id="i-KhNqGDeELK8pk3qHGQELoh">
             Den nya lagstiftningen föreslås träda i kraft den 1 juli 1974.”
           </seg>
@@ -1107,7 +1103,7 @@
           I förslaget till lag om beräkning av strafftid m. m. var 12 $
           så lydande:
         </note>
-        <u xml:id="i-ad239c5f8172c593-7" who="unknown">
+        <u xml:id="i-ad239c5f8172c593-7" who="unknown" prev="i-ad239c5f8172c593-6" next="i-ad239c5f8172c593-9">
           <seg xml:id="i-UxT9fVQcv57671ABCVLzwW">
             Om särskilda skäl föreligger med hänsyn till den dömdes hälsotillstånd,
             arbets- eller utbildningsförhållanden eller andra omständigheter,
@@ -1136,7 +1132,7 @@
           I förslaget till lag om kriminalvård i anstalt hade nedan angivna
           lagrum följande lydelse:
         </note>
-        <u xml:id="i-ad239c5f8172c593-9" who="unknown">
+        <u xml:id="i-ad239c5f8172c593-9" who="unknown" prev="i-ad239c5f8172c593-7">
           <seg xml:id="i-RtRNT1ATD94KDW6K6n8LXP">
             5 $ Kriminalvården i anstalt skall planläggas och genomföras
             i nära samverkan mellan kriminalvårdens olika organ. I den mån
@@ -1181,7 +1177,7 @@
           7 § Vid fördelning av de intagna mellan öppna och slutna anstalter
           iakttages följande.
         </note>
-        <u xml:id="i-ad239c5f8172c593-11" who="unknown">
+        <u xml:id="i-ad239c5f8172c593-11" who="unknown" next="i-6HE6pryNc2QzoZsB8qwQHJ">
           <seg xml:id="i-MF3gPyLj8Nhipz8mjtX7yS">
             Intagen bör placeras i öppen anstalt, om icke annan placering
             är påkallad med hänsyn till föreliggande fara för att han avviker
@@ -1212,7 +1208,7 @@
           13 $ Intagen skall såvitt det är möjligt beredas tillfälle till
           fysisk träning som är lämplig med hänsyn till hans ålder och hälsotillstånd.
         </note>
-        <u xml:id="i-6HE6pryNc2QzoZsB8qwQHJ" who="unknown">
+        <u xml:id="i-6HE6pryNc2QzoZsB8qwQHJ" who="unknown" prev="i-ad239c5f8172c593-11">
           <seg xml:id="i-3kHHsq77Wn8ZSxVnzqrt5P">
             Om ej hinder möter, skall intagen ha möjlighet att dagligen vistas
             utomhus minst en timme.
@@ -1306,15 +1302,13 @@
         <note xml:id="i-5NzBF9WwtpdHfTfA9Cn2UN">
           Åtgärd enligt första stycket 2 och 3 får vidtagas i förening.
         </note>
-        <u xml:id="i-MA8DNoMMs9nuFnLNZhG2k3" who="unknown" next="i-ad239c5f8172c593-14">
+        <u xml:id="i-MA8DNoMMs9nuFnLNZhG2k3" who="unknown" next="i-ad239c5f8172c593-16">
           <seg xml:id="i-MmWX6FLhoA3Yy1cJT4F6zX">
             Vid tillämpning av första stycket 2 skall från tid, varunder
             den intagne ålägges att vara innesluten i enrum, avräknas tid
             under vilken han enligt 50 $ hållits innesluten i enrum i samband
             med den utredning som föregått beslutet.
           </seg>
-        </u>
-        <u xml:id="i-ad239c5f8172c593-14" who="unknown" prev="i-MA8DNoMMs9nuFnLNZhG2k3" next="i-ad239c5f8172c593-16">
           <seg xml:id="i-8o7fbL4r9iXH2vpjLQ7mGa">
             50 $ För utredning av disciplinärende och i avbidan på beslut
             i frågan får intagen tillfälligt hållas innesluten i enrum. Sådant
@@ -1342,7 +1336,7 @@
           precisering av de intagnas rätt till särskild behandling, utbildning,
           utomhusvistelse osv. som föreslagits i motionen,
         </note>
-        <u xml:id="i-ad239c5f8172c593-16" who="unknown" prev="i-ad239c5f8172c593-14" next="i-76HsMXN5bg5f2uAeTfJmMK">
+        <u xml:id="i-ad239c5f8172c593-16" who="unknown" prev="i-MA8DNoMMs9nuFnLNZhG2k3" next="i-38aCm1S1X4zKe8Wew3AjcB">
           <seg xml:id="i-Q1gEX5ofVSDoY9XHmy7KBh">
             2. att i lagen om kriminalvård i anstalt skulle införas en bestämmelse
             som angav att man i de fall då störningar och indisciplinärt beteende
@@ -1351,8 +1345,6 @@
             positiva terapeutiska och andra åtgärder och inte genom repressiva
             åtgärder,
           </seg>
-        </u>
-        <u xml:id="i-76HsMXN5bg5f2uAeTfJmMK" who="unknown" prev="i-ad239c5f8172c593-16" next="i-38aCm1S1X4zKe8Wew3AjcB">
           <seg xml:id="i-Gnv9RRYAkgcJfs6owE3Ced">
             3. att som sin mening ge Kungl. Maj:t till känna vad som i övrigt
             anförts i motionen angående behovet av mer preciserade regler
@@ -1376,7 +1368,7 @@
           i anstalt, 5 $, skulle hänskjutas till socialutredningen för skyndsam
           behandling i enlighet med de synpunkter som i motionen framförts,
         </note>
-        <u xml:id="i-38aCm1S1X4zKe8Wew3AjcB" who="unknown" prev="i-76HsMXN5bg5f2uAeTfJmMK" next="i-Ee4Pw9gUY63NiWSRnAxWRK">
+        <u xml:id="i-38aCm1S1X4zKe8Wew3AjcB" who="unknown" prev="i-ad239c5f8172c593-16" next="i-Ee4Pw9gUY63NiWSRnAxWRK">
           <seg xml:id="i-M2cB23dTVCHMdeHMnpvaZi">
             3. att avskaffa isoleringsstraffet,
           </seg>
@@ -2989,7 +2981,7 @@
         <note xml:id="i-7VxMmGNHezWP8hJznqfhVf">
           28
         </note>
-        <u xml:id="i-24fe28b814e2b30e-6" who="i-CrKFd8YrUoQVBgUYnwpDY7" prev="i-24fe28b814e2b30e-5" next="i-2HeAdVW2h1KUyi5SoUR159">
+        <u xml:id="i-24fe28b814e2b30e-6" who="i-CrKFd8YrUoQVBgUYnwpDY7" prev="i-24fe28b814e2b30e-5">
           <seg xml:id="i-8UaHqA56jxpCRHNWsSkajH">
             gjord. Hur den skall ske vill vi lämna därhän; vi vill inte binda
             herr statsrådet vid någon speciell utredning, utan den frågan
@@ -3039,8 +3031,6 @@
             de synpunkter och förslag som vi kommer med skall bli till båtnad
             både för fångvårdspersonalen och för de intagna.
           </seg>
-        </u>
-        <u xml:id="i-2HeAdVW2h1KUyi5SoUR159" who="i-CrKFd8YrUoQVBgUYnwpDY7" prev="i-24fe28b814e2b30e-6">
           <seg xml:id="i-DE5VUsWn52C4hozKGXyhvm">
             Herr talman! Jag vill med detta yrka bifall till utskottets hemställan
             utom på de punkter som behandlas i reservationerna 3, 4, 5, 13
@@ -3412,7 +3402,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--54/prot_1974__54-033.jp2/_view"/>
-        <u xml:id="i-c7abef7638669332-14" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-c7abef7638669332-13" next="i-BcTWGfeXmXcbgwF8ErG2ut">
+        <u xml:id="i-c7abef7638669332-14" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-c7abef7638669332-13" next="i-c7abef7638669332-18">
           <seg xml:id="i-14EXJwq4Z1jXEz5wpd13LC">
             isolering. Utskottsmajoriteten har dock nöjt sig med en mindre
             ändring i 198 och i övrigt godkänt lagförslaget på denna punkt.
@@ -3438,13 +3428,9 @@
             sammanhang och mötas av åtgärder utan tvångsinslag. Vi föreslår
             således att isolering enligt 47 och 50 $$ utgår ur lagförslaget.
           </seg>
-        </u>
-        <u xml:id="i-BcTWGfeXmXcbgwF8ErG2ut" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-c7abef7638669332-14" next="i-c7abef7638669332-15">
           <seg xml:id="i-NZFnLC8TVfMRC6C7tXpA23">
             Jag yrkar här bifall till reservationerna 7, 9, 11, 15 och 19.
           </seg>
-        </u>
-        <u xml:id="i-c7abef7638669332-15" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-BcTWGfeXmXcbgwF8ErG2ut" next="i-7nGpWbAJe1VWn99SXcJGPC">
           <seg xml:id="i-UxAepSy2eLTCf1v1ts94wy">
             Vi kan dock inte i nuvarande läge motsätta oss att man i mycket
             allvarliga fall använder isolering. Vi hävdar att isolering enligt
@@ -3460,14 +3446,10 @@
             lagrummet tillämpas med stor restriktivitet och endast när det
             bedöms vara oundgängligen nödvändigt.
           </seg>
-        </u>
-        <u xml:id="i-7nGpWbAJe1VWn99SXcJGPC" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-c7abef7638669332-15" next="i-c7abef7638669332-16">
           <seg xml:id="i-8P74QG7qswpCoZBBaij5NN">
             Jag upprepar mitt yrkande om bifall till reservationerna 9 och
             11.
           </seg>
-        </u>
-        <u xml:id="i-c7abef7638669332-16" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-7nGpWbAJe1VWn99SXcJGPC" next="i-c7abef7638669332-18">
           <seg xml:id="i-GGkEPrtyMVnLq4dUBZm9m">
             I ett stort antal fall används i lagförslaget uttryck som ”om
             det lämpligen kan ske” och ”i den utsträckning det kan ske”. Vi
@@ -3528,7 +3510,7 @@
         <note xml:id="i-8vxNLeCGCZom3mSXAv4xTR">
           34
         </note>
-        <u xml:id="i-c7abef7638669332-18" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-c7abef7638669332-16">
+        <u xml:id="i-c7abef7638669332-18" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-c7abef7638669332-14">
           <seg xml:id="i-LJaG5zPyXKtwpW8H718pKN">
             hans ålder och hälsotillstånd samt att intagen skall ha möjlighet
             att dagligen vistas utomhus minst en timme, om inte hinder möter.
@@ -3856,12 +3838,10 @@
         <note xml:id="i-HyjoPn1eS5SmFQtVgf7ZXi">
           38
         </note>
-        <u xml:id="i-6ZJBBM495CrA9fExCGqo85" who="i-W9KJtV2o1wQ4MwHUQGNFdx" prev="i-b048871bcde582c3-2" next="i-b048871bcde582c3-3">
+        <u xml:id="i-6ZJBBM495CrA9fExCGqo85" who="i-W9KJtV2o1wQ4MwHUQGNFdx" prev="i-b048871bcde582c3-2">
           <seg xml:id="i-GeauQAqr141xmVK2akJjb7">
             avskaffas och yrkar i denna del avslag på föreliggande förslag.
           </seg>
-        </u>
-        <u xml:id="i-b048871bcde582c3-3" who="i-W9KJtV2o1wQ4MwHUQGNFdx" prev="i-6ZJBBM495CrA9fExCGqo85" next="i-Abxy4c5daPbcgkPnTvAbTW">
           <seg xml:id="i-2wh4UibFfqhW2crDGKu5Wc">
             Det bör dock — i rättvisans namn — sägas att utskottet i dess
             helhet inte har varit oberört inför den starka kritik som riktats
@@ -3913,8 +3893,6 @@
             är möjlig att ge och som kan befrämja en ny start i livet för
             dem. Också de frågorna kommer att utvecklas i ett senare anförande.
           </seg>
-        </u>
-        <u xml:id="i-Abxy4c5daPbcgkPnTvAbTW" who="i-W9KJtV2o1wQ4MwHUQGNFdx" prev="i-b048871bcde582c3-3">
           <seg xml:id="i-V9tkX7Baa7h7LdXzzZm97r">
             Herr talman! Jag vill slutligen yrka bifall till reservationerna
             2 och 6 samt följdreservationerna 8, 10, 12, 14, 17 och 18.
@@ -4031,12 +4009,10 @@
         <note xml:id="i-59qGBmyCs22QkhUrSHECtc">
           40
         </note>
-        <u xml:id="i-MkYYBVPdYvZGPLHnJZdwAx" who="i-KpoF1wWb4vZchJUXXg8UDL" prev="i-ad239c5f8172c593-30" next="i-ad239c5f8172c593-31">
+        <u xml:id="i-MkYYBVPdYvZGPLHnJZdwAx" who="i-KpoF1wWb4vZchJUXXg8UDL" prev="i-ad239c5f8172c593-30" next="i-ad239c5f8172c593-32">
           <seg xml:id="i-X7hrMUY7cqDJPwGstgv32C">
             bifall till utskottets hemställan i den delen.
           </seg>
-        </u>
-        <u xml:id="i-ad239c5f8172c593-31" who="i-KpoF1wWb4vZchJUXXg8UDL" prev="i-MkYYBVPdYvZGPLHnJZdwAx" next="i-ad239c5f8172c593-32">
           <seg xml:id="i-W9XMTKTLnFNA31D6M72bBs">
             Det finns emellertid en linje i propositionen och i utskottsbetänkandet
             som kanske inte har blivit tillräckligt uppmärksammad i diskussionen.
@@ -4098,7 +4074,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--54/prot_1974__54-041.jp2/_view"/>
-        <u xml:id="i-ad239c5f8172c593-32" who="i-KpoF1wWb4vZchJUXXg8UDL" prev="i-ad239c5f8172c593-31" next="i-NcagpMgfhTC11qQsDqM9Pw">
+        <u xml:id="i-ad239c5f8172c593-32" who="i-KpoF1wWb4vZchJUXXg8UDL" prev="i-MkYYBVPdYvZGPLHnJZdwAx" next="i-NcagpMgfhTC11qQsDqM9Pw">
           <seg xml:id="i-C9ajtWU9PHDVTRVHFSUpeo">
             Såvitt vi i utskottet kan förstå blir det hädanefter först och
             främst frigivningsförhållandena som man kommer att ta hänsyn till.
@@ -4724,7 +4700,7 @@
         <note xml:id="i-W5jR3MApDNiCbDz4pyYwcC" type="speaker">
           Herr SCHÖTT (m):
         </note>
-        <u xml:id="i-52a0ea1c0dda4387-0" who="i-2vSoREUgDMM9du3oZhTyJR" next="i-W8QZRTzu4Y19h4NtA3p63V">
+        <u xml:id="i-52a0ea1c0dda4387-0" who="i-2vSoREUgDMM9du3oZhTyJR" next="i-52a0ea1c0dda4387-1">
           <seg xml:id="i-RSmTh4VqKsKBg8jNjWeriD">
             Herr talman! Justitieutskottets ärade ordförande, fru Kristensson,
             har lämnat en klar och relativt utförlig redogörelse för utskottets
@@ -4775,8 +4751,6 @@
             att den fysiska träningen och utomhusvistelsen skall kunna äga
             rum utan stor rymningsrisk eller fara för personalens säkerhet.
           </seg>
-        </u>
-        <u xml:id="i-W8QZRTzu4Y19h4NtA3p63V" who="i-2vSoREUgDMM9du3oZhTyJR" prev="i-52a0ea1c0dda4387-0" next="i-52a0ea1c0dda4387-1">
           <seg xml:id="i-BR5wbqtorkvt2Efr1hTU8Q">
             Så några ord om reservationerna 5, 13 och 16. Bakom reservationen
             5, som gäller utformningen av 18 $, står fru Kristensson, herr
@@ -4784,7 +4758,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--54/prot_1974__54-049.jp2/_view"/>
-        <u xml:id="i-52a0ea1c0dda4387-1" who="i-2vSoREUgDMM9du3oZhTyJR" prev="i-W8QZRTzu4Y19h4NtA3p63V" next="i-AfjFkg5ibY9yJ1Jf6dKGn8">
+        <u xml:id="i-52a0ea1c0dda4387-1" who="i-2vSoREUgDMM9du3oZhTyJR" prev="i-52a0ea1c0dda4387-0">
           <seg xml:id="i-5dqttJMSaP8SPbwo7WFP8X">
             Växjö och jag. Gentemot fröken Mattson vill jag erinra om att
             vi i reservationen inte tar avstånd från tanken att anstaltsvistelsen
@@ -4821,8 +4795,6 @@
             Vi har därför på denna punkt yrkat bifall till motionen 1605 från
             representanter för moderata samlingspartiet.
           </seg>
-        </u>
-        <u xml:id="i-AfjFkg5ibY9yJ1Jf6dKGn8" who="i-2vSoREUgDMM9du3oZhTyJR" prev="i-52a0ea1c0dda4387-1">
           <seg xml:id="i-Kie98BMW9WXEEjK1xpo7Hm">
             Herr talman! Under åberopande av det anförda ber jag att få yrka
             bifall till utskottets hemställan utom i de frågor som berörs
@@ -5058,7 +5030,7 @@
         <note xml:id="i-SfvrJGRmtyT2QLDV3KB4QN">
           2
         </note>
-        <u xml:id="i-47ca8ad74365a9fb-4" who="i-3StoCMLrfUPWDrtLhXAkg1" prev="i-47ca8ad74365a9fb-3" next="i-JTDFRiver7Xg42eQGLeG5G">
+        <u xml:id="i-47ca8ad74365a9fb-4" who="i-3StoCMLrfUPWDrtLhXAkg1" prev="i-47ca8ad74365a9fb-3">
           <seg xml:id="i-LmxGdSRLAVnTqiU6GY8G54">
             kriminalvård i anstalt med de smärre ändringar som utskottet
             vill göra. I och med dagens beslut läggs ytterligare en viktig
@@ -5127,8 +5099,6 @@
             med anledning av motionen 1600, kan man bilda sig den riktiga
             uppfattningen. Det rör sig fortfarande om ett undantag.
           </seg>
-        </u>
-        <u xml:id="i-JTDFRiver7Xg42eQGLeG5G" who="i-3StoCMLrfUPWDrtLhXAkg1" prev="i-47ca8ad74365a9fb-4">
           <seg xml:id="i-FVAGzT8VToTpqA4uHh4Xrm">
             Herr talman! Med det anförda yrkar jag bifall till reservationen
             5 av fru Kristensson m. fl. och i övrigt till utskottets hemställan.
@@ -5302,7 +5272,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--54/prot_1974__54-055.jp2/_view"/>
-        <u xml:id="i-a51cfab0ea6b1ec1-3" who="i-XXBpK5wHTgKTajooKHNpZp" prev="i-a51cfab0ea6b1ec1-2" next="i-S1Hrjz1ycRXsD9rHjHyNWD">
+        <u xml:id="i-a51cfab0ea6b1ec1-3" who="i-XXBpK5wHTgKTajooKHNpZp" prev="i-a51cfab0ea6b1ec1-2">
           <seg xml:id="i-YA6ziZdL7Nc7Dwir6jmJUp">
             Vi försökte i vår motion att visa på de djupare orsakerna. Allt
             detta med tjocka betongväggar, mångdubbla lås, murar som är så
@@ -5361,8 +5331,6 @@
             bara hade de kala väggarna i en enmanskub av armerad betong att
             se på och se fram emot under en oöverskådlig följd av år.
           </seg>
-        </u>
-        <u xml:id="i-S1Hrjz1ycRXsD9rHjHyNWD" who="i-XXBpK5wHTgKTajooKHNpZp" prev="i-a51cfab0ea6b1ec1-3">
           <seg xml:id="i-YGuS5P2r9XoANBfZeQnLbZ">
             Herr talman! Jag yrkar bifall till reservationen 6.
           </seg>
@@ -5650,12 +5618,10 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--54/prot_1974__54-059.jp2/_view"/>
-        <u xml:id="i-5yDwxFdAd8e3KhGHBNeFGq" who="unknown" prev="i-ad239c5f8172c593-37" next="i-MyVYNB6oKF4umDQxg51PQT">
+        <u xml:id="i-5yDwxFdAd8e3KhGHBNeFGq" who="unknown" prev="i-ad239c5f8172c593-37" next="i-ad239c5f8172c593-39">
           <seg xml:id="i-8dF8u14nW9n4vny8kFfCfG">
             ställningstagande.
           </seg>
-        </u>
-        <u xml:id="i-MyVYNB6oKF4umDQxg51PQT" who="unknown" prev="i-5yDwxFdAd8e3KhGHBNeFGq" next="i-ad239c5f8172c593-39">
           <seg xml:id="i-UDHfjcWe4r6ufPXaaBQdnh">
             Jag skall i stället tillåta mig att ge några synpunkter på själva
             behandlingen av propositionen och uppföljningen av de beslut riksdagen
@@ -5750,7 +5716,7 @@
         <note xml:id="i-BmVMKEqUWheEYkjSWpMaXc">
           60
         </note>
-        <u xml:id="i-ad239c5f8172c593-39" who="unknown" prev="i-MyVYNB6oKF4umDQxg51PQT" next="i-ad239c5f8172c593-40">
+        <u xml:id="i-ad239c5f8172c593-39" who="unknown" prev="i-5yDwxFdAd8e3KhGHBNeFGq" next="i-ad239c5f8172c593-40">
           <seg xml:id="i-RveocyeDQ6sS8Js1G7otFX">
             helt kan undvaras. Men som andra med mig har befarat gör man
             troligen det onda än värre ont med isoleringsstraffet, och vi
@@ -5934,14 +5900,12 @@
         <note xml:id="i-CeJAgeThuFPuaMiYfLCyrt" type="speaker">
           Herr LUNDGREN (s):
         </note>
-        <u xml:id="i-UAtw8zMXeZZ7988pNS1cWw" who="i-YQKf6y27VpFtuJBLjE1Cf" next="i-ad239c5f8172c593-42">
+        <u xml:id="i-UAtw8zMXeZZ7988pNS1cWw" who="i-YQKf6y27VpFtuJBLjE1Cf" next="i-ad239c5f8172c593-43">
           <seg xml:id="i-Tenjbr436CCf4hBYzKTwCK">
             Herr talman! ”Intagen skall behandlas med aktning för hans människovärde.”
             Så står det i 2 kap. 9 $ i förslaget till lag om kriminalvård
             i anstalt.
           </seg>
-        </u>
-        <u xml:id="i-ad239c5f8172c593-42" who="i-YQKf6y27VpFtuJBLjE1Cf" prev="i-UAtw8zMXeZZ7988pNS1cWw" next="i-ad239c5f8172c593-43">
           <seg xml:id="i-Vj5e9ko7YBg1LhAouxuDSK">
             ”Intagen skall behandlas med aktning för hans människovärde.”
             Formuleringen är naturligtvis riktig. Den enskilde individens
@@ -5988,7 +5952,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--54/prot_1974__54-063.jp2/_view"/>
-        <u xml:id="i-ad239c5f8172c593-43" who="i-YQKf6y27VpFtuJBLjE1Cf" prev="i-ad239c5f8172c593-42" next="i-ad239c5f8172c593-45">
+        <u xml:id="i-ad239c5f8172c593-43" who="i-YQKf6y27VpFtuJBLjE1Cf" prev="i-UAtw8zMXeZZ7988pNS1cWw" next="i-ad239c5f8172c593-45">
           <seg xml:id="i-A1gnUhMzWX53SQWwaS7smS">
             Fru Kristensson sade tidigare i dag att den förebyggande verksamheten
             främst bedrivs av polisen. Det är verkligen ett snävt synsätt.
@@ -6454,14 +6418,12 @@
         <note xml:id="i-YactsAfimowaw2gtB8hLWs" type="speaker">
           Herr TALMANNEN yttrade:
         </note>
-        <u xml:id="i-JCDb8D7ajo7kmskp3NkVCp" who="i-Kv4hUGrgspgE3ZEpZrgHtZ" next="i-GzMbWAXj7kzUtnvaduBUXC">
+        <u xml:id="i-JCDb8D7ajo7kmskp3NkVCp" who="i-Kv4hUGrgspgE3ZEpZrgHtZ">
           <seg xml:id="i-DBaS1nZBUSjKywPzJrvndj">
             I fråga om detta betänkande hålles gemensam överläggning för
             samtliga punkter. Under den gemensamma överläggningen får yrkanden
             framställas beträffande samtliga punkter i betänkandet.
           </seg>
-        </u>
-        <u xml:id="i-GzMbWAXj7kzUtnvaduBUXC" who="i-Kv4hUGrgspgE3ZEpZrgHtZ" prev="i-JCDb8D7ajo7kmskp3NkVCp">
           <seg xml:id="i-RXiZBaN42a95EcZQ4TdSh9">
             I det följande redovisas endast de punkter, vid vilka under överläggningen
             framställts särskilda yrkanden.
@@ -6790,7 +6752,7 @@
         <note xml:id="i-Dsq9ytDrL2qRa2w87qoeFc">
           nNn
         </note>
-        <u xml:id="i-b048871bcde582c3-5" who="i-W9KJtV2o1wQ4MwHUQGNFdx" prev="i-b048871bcde582c3-4" next="i-E2DGKMn4km1F9VcGibgp9W">
+        <u xml:id="i-b048871bcde582c3-5" who="i-W9KJtV2o1wQ4MwHUQGNFdx" prev="i-b048871bcde582c3-4" next="i-b048871bcde582c3-7">
           <seg xml:id="i-JnfEA51dQWH3WqLJ8jwd5j">
             man tar steget från den onormala fängelsetillvaron och ut i livet
             som de mycket stora påfrestningarna gör sig gällande. Det skall
@@ -6821,13 +6783,9 @@
             säger jag, även om jag också noterar att skrivningen i utskottets
             betänkande är positiv.
           </seg>
-        </u>
-        <u xml:id="i-E2DGKMn4km1F9VcGibgp9W" who="i-W9KJtV2o1wQ4MwHUQGNFdx" prev="i-b048871bcde582c3-5" next="i-b048871bcde582c3-6">
           <seg xml:id="i-2tZC9XDsmJTKyKyyB7iS3D">
             Herr talman! Jag yrkar bifall till motionen 641.
           </seg>
-        </u>
-        <u xml:id="i-b048871bcde582c3-6" who="i-W9KJtV2o1wQ4MwHUQGNFdx" prev="i-E2DGKMn4km1F9VcGibgp9W" next="i-b048871bcde582c3-7">
           <seg xml:id="i-WYVLHwYsMxt12bdWYETSac">
             När jag nu ändå har ordet kan jag inte gå förbi den moderata
             reservationen som gäller KRUM. Fru Kristensson ogillar KRUM:s
@@ -6867,7 +6825,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--54/prot_1974__54-073.jp2/_view"/>
-        <u xml:id="i-b048871bcde582c3-7" who="i-W9KJtV2o1wQ4MwHUQGNFdx" prev="i-b048871bcde582c3-6">
+        <u xml:id="i-b048871bcde582c3-7" who="i-W9KJtV2o1wQ4MwHUQGNFdx" prev="i-b048871bcde582c3-5">
           <seg xml:id="i-AcTWYaoq5UbncC84vQj1CS">
             naturligtvis fru Kristensson att den skall ha hela anslaget.
             Jag tycker inte Nr 54 det, och utskottet har med det moderata
@@ -7069,7 +7027,7 @@
         <note xml:id="i-4aJJsi2f33aSd4hw38r42F" type="speaker">
           Fru BERGANDER (s):
         </note>
-        <u xml:id="i-ad239c5f8172c593-63" who="i-VHm6YMPwVufzN3xeoA3b4v" next="i-3Q39DJo9so5GLifHJhz56F">
+        <u xml:id="i-ad239c5f8172c593-63" who="i-VHm6YMPwVufzN3xeoA3b4v">
           <seg xml:id="i-KmEDr61UQQQxSw6E1P3LtY">
             Herr talman! Låt mig i enlighet med vad vår ordförande sagt konstatera
             att justitieutskottet står i stort sett enigt bakom sitt betänkande
@@ -7089,14 +7047,10 @@
             inte ifrån vår uppfattning — vi tror att kriminalvårdsstyrelsen
             är det organ som kan göra en riktig bedömning även där.
           </seg>
-        </u>
-        <u xml:id="i-3Q39DJo9so5GLifHJhz56F" who="i-VHm6YMPwVufzN3xeoA3b4v" prev="i-ad239c5f8172c593-63" next="i-ad239c5f8172c593-64">
           <seg xml:id="i-Y8UTtrievqT2HtK3VudCmJ">
             Jag vill alltså yrka avslag på den reservation som är fogad till
             utskottets betänkande och yrkar bifall till utskottets hemställan.
           </seg>
-        </u>
-        <u xml:id="i-ad239c5f8172c593-64" who="i-VHm6YMPwVufzN3xeoA3b4v" prev="i-3Q39DJo9so5GLifHJhz56F">
           <seg xml:id="i-Pw8nT2nT3j5XNABPnibs84">
             När det gäller motionen 641, som herr Lövenborg här talat för,
             har utskottet skrivit mycket positivt om vikten av att förstärka
@@ -7607,12 +7561,10 @@
         <note xml:id="i-QytX8o4CmpDuyQnvG1mHsn" type="speaker">
           Herr GERNANDT (c):
         </note>
-        <u xml:id="i-aa9185d9e291193b-0" who="i-7oBpdKNLc3LYD8YF1233E6" next="i-4NyFLefFti4ZvTLUjzwEsE">
+        <u xml:id="i-aa9185d9e291193b-0" who="i-7oBpdKNLc3LYD8YF1233E6" next="i-aa9185d9e291193b-2">
           <seg xml:id="i-NbqURh3wiCJiSUWVDYez4n">
             Herr talman! Jag ber att få säga några ord i anslutning till
           </seg>
-        </u>
-        <u xml:id="i-4NyFLefFti4ZvTLUjzwEsE" who="i-7oBpdKNLc3LYD8YF1233E6" prev="i-aa9185d9e291193b-0" next="i-aa9185d9e291193b-2">
           <seg xml:id="i-UhwUm4zRvw8W9huoQxTWpc">
             justitieutskottets betänkande nr 4. I motionen 1254 har jag framhållit
             att 81
@@ -7634,7 +7586,7 @@
         <note xml:id="i-3bPDj9vr2uRboX8B3NgPUZ">
           82
         </note>
-        <u xml:id="i-aa9185d9e291193b-2" who="i-7oBpdKNLc3LYD8YF1233E6" prev="i-4NyFLefFti4ZvTLUjzwEsE">
+        <u xml:id="i-aa9185d9e291193b-2" who="i-7oBpdKNLc3LYD8YF1233E6" prev="i-aa9185d9e291193b-0">
           <seg xml:id="i-TF8DyVdwiae6bNyMFbSYT8">
             den som gripits av polis kan helt plötsligt befinna sig i en
             ny och främmande situation, i vilken hans eller hennes såväl identitet
@@ -7851,12 +7803,10 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--54/prot_1974__54-085.jp2/_view"/>
-        <u xml:id="i-3958f6f802e11ac3-2" who="i-CMGiiZNVocLdbkuKqXgWTG" prev="i-3958f6f802e11ac3-1" next="i-YMCBZTYtmzbNYXbfJJGWF4">
+        <u xml:id="i-3958f6f802e11ac3-2" who="i-CMGiiZNVocLdbkuKqXgWTG" prev="i-3958f6f802e11ac3-1">
           <seg xml:id="i-79HrUdshLkMWZGEpmf37KQ">
             riksdagens öppnande också bevara ceremonier från en gången tid.
           </seg>
-        </u>
-        <u xml:id="i-YMCBZTYtmzbNYXbfJJGWF4" who="i-CMGiiZNVocLdbkuKqXgWTG" prev="i-3958f6f802e11ac3-2">
           <seg xml:id="i-F1tDLBmPjd5HvDNRSUAcmQ">
             Med hänvisning till vad jag här anfört ber jag, herr talman,
             att få yrka bifall till den reservation som fogats till konstitutionsutskottets
@@ -7964,7 +7914,7 @@
         <note xml:id="i-2PCyiiWm5b2dkhshMd9J6w" type="speaker">
           Herr BOO (c):
         </note>
-        <u xml:id="i-4070e56ed7c9031f-0" who="i-4Fpaw3XcFb6Gne8E62mhr1" next="i-EXzm6qMHQBXuiaFqUD1PCW">
+        <u xml:id="i-4070e56ed7c9031f-0" who="i-4Fpaw3XcFb6Gne8E62mhr1" next="i-4070e56ed7c9031f-2">
           <seg xml:id="i-J4yrFmabH1DWX4Bm4DWeD7">
             Herr talman! Det måste vara en angelägen strävan i politiskt
             arbete att bredda diskussionen och förankra besluten samt på det
@@ -8002,8 +7952,6 @@
             att man även fortsättningsvis kommer att kunna fånga allmänhetens
             intresse just vid öppnandet.
           </seg>
-        </u>
-        <u xml:id="i-EXzm6qMHQBXuiaFqUD1PCW" who="i-4Fpaw3XcFb6Gne8E62mhr1" prev="i-4070e56ed7c9031f-0" next="i-4070e56ed7c9031f-1">
           <seg xml:id="i-FQDx9i9vzpQkdw8zHJAtyL">
             Riksdagens öppnande regleras i riksdagsordningen 1 kap. 6 $ —
             detta finns redovisat i utskottets betänkande. Det framgår att
@@ -8012,8 +7960,6 @@
             ordningen. Utskottet har för sin del kompletterat detta med att
             talmannen även kan ta kontakt med partigrupperna.
           </seg>
-        </u>
-        <u xml:id="i-4070e56ed7c9031f-1" who="i-4Fpaw3XcFb6Gne8E62mhr1" prev="i-EXzm6qMHQBXuiaFqUD1PCW" next="i-4070e56ed7c9031f-2">
           <seg xml:id="i-6Qss1rTauhkFCYzsHxqjkd">
             Med tanke på möjligheterna till detta breda samråd har utskottet
             inte funnit anledning att i detalj uttala sig om olika inslag
@@ -8024,7 +7970,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--54/prot_1974__54-087.jp2/_view"/>
-        <u xml:id="i-4070e56ed7c9031f-2" who="i-4Fpaw3XcFb6Gne8E62mhr1" prev="i-4070e56ed7c9031f-1">
+        <u xml:id="i-4070e56ed7c9031f-2" who="i-4Fpaw3XcFb6Gne8E62mhr1" prev="i-4070e56ed7c9031f-0">
           <seg xml:id="i-WyX95PTnSiH49BGkJCqKUY">
             i de hittillsvarande öppningscerem onierna. Ingen kan förneka
             attt. ex. öppnandet i rikssalen har en bred förankring bland allmänheten.
@@ -8229,7 +8175,7 @@
         <note xml:id="i-DcNeyebAKE21ZHTCqSiagQ" type="speaker">
           Herr JOHANSSON i Trollhättan (s):
         </note>
-        <u xml:id="i-b350c3a322bb7f7e-0" who="i-HAgEQXXoNesSBYagiEXMea" next="i-JthtjKaz1MPiMF813Fm3o1">
+        <u xml:id="i-b350c3a322bb7f7e-0" who="i-HAgEQXXoNesSBYagiEXMea" next="i-Fqrr5mXJCFsoMbYzAk4yF8">
           <seg xml:id="i-JL6sRThtETvM4SJxhEpTvG">
             Herr talman! Låt mig till att börja med erinra om att i den antagna
             riksdagsordningen finns inskrivna bestämmelser om hur riksdagen
@@ -8249,15 +8195,11 @@
             därför att ledas av den av riksdagen valde talmannen. Man får
             även utgå från att han kommer att hälsa välkommen till detta sammanträde.
           </seg>
-        </u>
-        <u xml:id="i-JthtjKaz1MPiMF813Fm3o1" who="i-HAgEQXXoNesSBYagiEXMea" prev="i-b350c3a322bb7f7e-0" next="i-4070e56ed7c9031f-8">
           <seg xml:id="i-V1baSiGV15s5yqyqYcM4Xg">
             Därefter finns det tre obligatoriska moment: talmannen skall
             hemställa till kungen att förklara riksdagen öppnad, kungen skall
             förklara riksdagen öppnad och statsministern skall avge en regeringsförklaring.
           </seg>
-        </u>
-        <u xml:id="i-4070e56ed7c9031f-8" who="i-HAgEQXXoNesSBYagiEXMea" prev="i-JthtjKaz1MPiMF813Fm3o1" next="i-Fqrr5mXJCFsoMbYzAk4yF8">
           <seg xml:id="i-7KncJn3M3r8c7vBjXQ9gzr">
             I övrigt råder det frihet att gestalta öppningsceremonin, men
             det är självklart att dessa obligatoriska element måste vara de
@@ -8286,7 +8228,7 @@
         <note xml:id="i-V7ZAcMsxabi3mAq7wqXomH">
           RES AE ss oda RR TRE ala RN REN FÖRRE, LE ER
         </note>
-        <u xml:id="i-Fqrr5mXJCFsoMbYzAk4yF8" who="i-HAgEQXXoNesSBYagiEXMea" prev="i-4070e56ed7c9031f-8" next="i-4070e56ed7c9031f-10">
+        <u xml:id="i-Fqrr5mXJCFsoMbYzAk4yF8" who="i-HAgEQXXoNesSBYagiEXMea" prev="i-b350c3a322bb7f7e-0" next="i-4070e56ed7c9031f-10">
           <seg xml:id="i-Xuj2S3d5kcX4h4k2ujZdzb">
             Nr 54 talmannen efter hörande av vice talmännen skall bestämma
             i denna Onsdagen den angelägenhet. När det nu har väckts motioner
@@ -8652,7 +8594,7 @@
         <note xml:id="i-8Ug2vhvgDNFSUvjxTVuMXM" type="speaker">
           Herr SÖDERSTRÖM (m):
         </note>
-        <u xml:id="i-7DrYZWzC9focefCgeMVn69" who="i-YUDKZcyDKbQ3ef9oSyZaLH" next="i-90b3f3275dcadfb7-1">
+        <u xml:id="i-7DrYZWzC9focefCgeMVn69" who="i-YUDKZcyDKbQ3ef9oSyZaLH" next="i-90b3f3275dcadfb7-2">
           <seg xml:id="i-LXmx4b8XqN63kDS1eBKPKz">
             Herr talman! Kungl. Maj:t har föreslagit riksdagen att dels medge
             att datamaskinutrustning beställs till en kostnad av — utöver
@@ -8665,8 +8607,6 @@
             avslår Kungl. Maj:ts hemställan om bemyndigande att beställa datamaskinutrustning
             för 20 miljoner kronor.
           </seg>
-        </u>
-        <u xml:id="i-90b3f3275dcadfb7-1" who="i-YUDKZcyDKbQ3ef9oSyZaLH" prev="i-7DrYZWzC9focefCgeMVn69" next="i-90b3f3275dcadfb7-2">
           <seg xml:id="i-8NGFAwx7jSxtsu4fp9GcTk">
             När vi behandlade detta ärende i utskottet, framgick det att
             utskottet i höst kommer att ta upp en del andra motioner som gäller
@@ -8703,7 +8643,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--54/prot_1974__54-095.jp2/_view"/>
-        <u xml:id="i-90b3f3275dcadfb7-2" who="i-YUDKZcyDKbQ3ef9oSyZaLH" prev="i-90b3f3275dcadfb7-1">
+        <u xml:id="i-90b3f3275dcadfb7-2" who="i-YUDKZcyDKbQ3ef9oSyZaLH" prev="i-7DrYZWzC9focefCgeMVn69">
           <seg xml:id="i-N4uPsWsV8Qog5Y4s2RfcW9">
             miljoner kronor. En av anläggningarna, den i Gävle, har mycket
             dålig beläggning och gick förra året med en förlust på ungefär
@@ -8978,13 +8918,11 @@
           USDå Dune omr 500 000 kronor och att ytterligare I miljon kronor
           skulle anvisas som
         </note>
-        <u xml:id="i-GeYSvRUks7Z25gcWRGPMK7" who="i-CrKFd8YrUoQVBgUYnwpDY7" prev="i-SdwjRTgkbovXMBdRvQfGDv" next="i-LuabXHMy9oTGioXUHD6nVZ">
+        <u xml:id="i-GeYSvRUks7Z25gcWRGPMK7" who="i-CrKFd8YrUoQVBgUYnwpDY7" prev="i-SdwjRTgkbovXMBdRvQfGDv">
           <seg xml:id="i-SHx3wsAryh7bh4NsJqvtcC">
             ko fa oa bidrag till kommunernas kostnad för vård i eget hem
             av narkotika-
           </seg>
-        </u>
-        <u xml:id="i-LuabXHMy9oTGioXUHD6nVZ" who="i-CrKFd8YrUoQVBgUYnwpDY7" prev="i-GeYSvRUks7Z25gcWRGPMK7" next="i-FmcZ3yoqGSScKpU1kcprns">
           <seg xml:id="i-6w6xCKBFaigj1cQE9ucgRo">
             KORkap re BIS ke missbrukare, också det ett angeläget ändamål.
             Beträffande de två sista
@@ -8993,8 +8931,6 @@
             punkterna kan nämnas att de av naturliga skäl inte behandlas
             i skatteutskottets betänkande, utan det är enbart den första punkten.
           </seg>
-        </u>
-        <u xml:id="i-FmcZ3yoqGSScKpU1kcprns" who="i-CrKFd8YrUoQVBgUYnwpDY7" prev="i-LuabXHMy9oTGioXUHD6nVZ">
           <seg xml:id="i-8ew8itgAhJGLPcSHTkRGEw">
             Jag vill med denna motivering, herr talman, yrka bifall till
             den vid betänkandet fogade reservationen.
@@ -9007,7 +8943,7 @@
         <note xml:id="i-78VvciJbjMbEsAz1cNyW2U" type="speaker">
           Herr CARLSTEIN (s):
         </note>
-        <u xml:id="i-568f27497c69a7d3-0" who="i-Un2MPRTWRPWQ7aGPA42b56" next="i-WJSA9AtmcqVBdGrL5i7yYk">
+        <u xml:id="i-568f27497c69a7d3-0" who="i-Un2MPRTWRPWQ7aGPA42b56" next="i-568f27497c69a7d3-1">
           <seg xml:id="i-6MPV9ct3pTMrbCjMgYbv2M">
             Herr talman! Det var inte förra årets riksdag som anvisade 5
             miljoner kronor för upplysningsverksamhet om alkoholoch narkotikamissbruk,
@@ -9050,14 +8986,12 @@
           <seg xml:id="i-TiU1CdMhMqRvYD9nc4Q91e">
             Det är en direkt missuppfattning av fru Kristensson och reservanterna
           </seg>
-        </u>
-        <u xml:id="i-WJSA9AtmcqVBdGrL5i7yYk" who="i-Un2MPRTWRPWQ7aGPA42b56" prev="i-568f27497c69a7d3-0" next="i-568f27497c69a7d3-1">
           <seg xml:id="i-4bFeBtuHrB83Vy2uTAGcKC">
             98 när man i reservationen och i motionen 1329 skriver att statens
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--54/prot_1974__54-099.jp2/_view"/>
-        <u xml:id="i-568f27497c69a7d3-1" who="i-Un2MPRTWRPWQ7aGPA42b56" prev="i-WJSA9AtmcqVBdGrL5i7yYk">
+        <u xml:id="i-568f27497c69a7d3-1" who="i-Un2MPRTWRPWQ7aGPA42b56" prev="i-568f27497c69a7d3-0">
           <seg xml:id="i-ESHZpMjFjNj44MxDdpQe9P">
             ungdomsråd har haft att fördela dessa medel mellan sina medlemsorganisationer.
             Statens ungdomsråd, fru Kristensson, har inga medlemsorganisationer,
@@ -9327,19 +9261,15 @@
         <note xml:id="i-Dmhkdy49Hm4Lyw3gLGGLvL">
           102
         </note>
-        <u xml:id="i-568f27497c69a7d3-13" who="i-RjgqDp56PhuotgtqBnF1X6" prev="i-JmFyp7mZhUqSgLTSVoXNoL" next="i-P4QViSMnwEhC9a4FSw83sv">
+        <u xml:id="i-568f27497c69a7d3-13" who="i-RjgqDp56PhuotgtqBnF1X6" prev="i-JmFyp7mZhUqSgLTSVoXNoL">
           <seg xml:id="i-9TskFsWsoy5XUzH7Kpkj8r">
             befolkningen i den södra delen av Södertörn sysselsättning i
             den mån sådan saknas.
           </seg>
-        </u>
-        <u xml:id="i-P4QViSMnwEhC9a4FSw83sv" who="i-RjgqDp56PhuotgtqBnF1X6" prev="i-568f27497c69a7d3-13" next="i-568f27497c69a7d3-14">
           <seg xml:id="i-B4sgK2n7ePRVx7rV3FSBdM">
             Utskottsmajoriteten anammar motionärens tankegång angående sjöfartsverkets
             anläggningar i Norrköping och anför:
           </seg>
-        </u>
-        <u xml:id="i-568f27497c69a7d3-14" who="i-RjgqDp56PhuotgtqBnF1X6" prev="i-P4QViSMnwEhC9a4FSw83sv" next="i-DZnbJ814Zhj4kN44hoh43R">
           <seg xml:id="i-G11DNVcyFEKQdYHaJittC6">
             ”Utskottet anser för sin del att man i den uppkomna situationen
             bör ytterligare överväga behovet av en ny anläggning. Skäl kan
@@ -9388,8 +9318,6 @@
             förrådsanläggningen skulle fördröjas eller om den inte skulle
             komma till stånd i enlighet med de upprättade planerna.
           </seg>
-        </u>
-        <u xml:id="i-DZnbJ814Zhj4kN44hoh43R" who="i-RjgqDp56PhuotgtqBnF1X6" prev="i-568f27497c69a7d3-14">
           <seg xml:id="i-2SrX5Xsf7sUC2aHk5qGxZJ">
             Jag ber därför, herr talman, att få yrka bifall till den reservation
             jag har fogat till försvarsutskottets betänkande nr 15.
@@ -9404,7 +9332,7 @@
         <note xml:id="i-WUKtHktqi9t2SHt7dQfeZC" type="speaker">
           Herr STRÖMBERG i Botkyrka (fp):
         </note>
-        <u xml:id="i-568f27497c69a7d3-16" who="i-GPpMndMfbS5wqmSKDRcoh7" next="i-SQj7Hoo5nD5MxK4GcpXAjC">
+        <u xml:id="i-568f27497c69a7d3-16" who="i-GPpMndMfbS5wqmSKDRcoh7">
           <seg xml:id="i-9HrTMmXCmTbQ3ifqh4xD9t">
             Herr talman! I riksdagen är en av de stora återkommande frågorna:
             Hur skall vi finansiera nya eller ökade kostnader? Sällan talar
@@ -9456,8 +9384,6 @@
             Sådana faktorer kan tala för Norrköping, men de kan också tala
             för Muskö.
           </seg>
-        </u>
-        <u xml:id="i-SQj7Hoo5nD5MxK4GcpXAjC" who="i-GPpMndMfbS5wqmSKDRcoh7" prev="i-568f27497c69a7d3-16">
           <seg xml:id="i-MMGsmvLiMCd17BozcLYy8W">
             Herr talman! Jag yrkar bifall till utskottets hemställan.
           </seg>
@@ -9582,7 +9508,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--54/prot_1974__54-105.jp2/_view"/>
-        <u xml:id="i-90b3f3275dcadfb7-8" who="i-FpwNz9bjmeyh23RqtLzYMg" prev="i-90b3f3275dcadfb7-7" next="i-6cGuxwGtESiTZz4vBrekXi">
+        <u xml:id="i-90b3f3275dcadfb7-8" who="i-FpwNz9bjmeyh23RqtLzYMg" prev="i-90b3f3275dcadfb7-7">
           <seg xml:id="i-5uxtnAb8B4G3UQaQAKwK5X">
             kostnaderna till ungefär 3 miljoner kronor per år. Motsvarande
             kostnader för sjöfartsverket är i dag ca 200 000 kronor.
@@ -9600,8 +9526,6 @@
             bör uppföras i Norrköping menar vi att den förnyade prövningen
             får ge svar på.
           </seg>
-        </u>
-        <u xml:id="i-6cGuxwGtESiTZz4vBrekXi" who="i-FpwNz9bjmeyh23RqtLzYMg" prev="i-90b3f3275dcadfb7-8">
           <seg xml:id="i-9NymUp9a5qsgKYrdAiLYr9">
             Herr talman! Jag yrkar bifall till utskottets hemställan.
           </seg>
@@ -9756,7 +9680,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--54/prot_1974__54-107.jp2/_view"/>
-        <u xml:id="i-b489f057482a2dcc-1" who="i-FYyRXPgwp22BpTRV76t6ga" prev="i-b489f057482a2dcc-0" next="i-F7r4BGZjwYyZqMju3FQPmR">
+        <u xml:id="i-b489f057482a2dcc-1" who="i-FYyRXPgwp22BpTRV76t6ga" prev="i-b489f057482a2dcc-0">
           <seg xml:id="i-VGTn7FJdGHqSxf2fd3ohmR">
             har rätt till statligt studiestöd under utbildningstiden och
             framhåller i motionen att det är angeläget att dessa elevers studiestöd
@@ -9772,8 +9696,6 @@
             reagerar mot att Kungl. Maj:t skall bestämma huruvida man skall
             ha rätt till statligt studiestöd eller ej.
           </seg>
-        </u>
-        <u xml:id="i-F7r4BGZjwYyZqMju3FQPmR" who="i-FYyRXPgwp22BpTRV76t6ga" prev="i-b489f057482a2dcc-1">
           <seg xml:id="i-Mk91u1n1dpkn8y1oy9XBfR">
             Jag yrkar, herr talman, bifall till den reservation som är fogad
             till socialförsäkringsutskottets betänkande nr 15.
@@ -9782,7 +9704,7 @@
         <note xml:id="i-4dX4pXx1Caa5Gm7AQA3pep" type="speaker">
           Herr LINDSTRÖM (s):
         </note>
-        <u xml:id="i-c2e71e7cd847715e-0" who="i-L7WV7SG2MqZwXFjBfsC15F" next="i-KQtqrbVfqH8oqvspq3b5Fq">
+        <u xml:id="i-c2e71e7cd847715e-0" who="i-L7WV7SG2MqZwXFjBfsC15F" next="i-c2e71e7cd847715e-3">
           <seg xml:id="i-WgyL5nzgk5hbEKNnjYAAK8">
             Herr talman! I motionen som ligger till grund för det ärende
             vi nu diskuterar föreslår motionärerna att Kungl. Maj:t medger
@@ -9824,8 +9746,6 @@
             herrar reservanter, hänsynstaganden till arten av undervisning
             vid skolan utbildningspolitik.
           </seg>
-        </u>
-        <u xml:id="i-KQtqrbVfqH8oqvspq3b5Fq" who="i-L7WV7SG2MqZwXFjBfsC15F" prev="i-c2e71e7cd847715e-0" next="i-c2e71e7cd847715e-3">
           <seg xml:id="i-S7YRitp4Y6qnx2FmPNRLkH">
             1973 års riksdag behandlade en moderat motion med samma målsättning
             som den vi nu diskuterar. Motionärerna begärde då utredning om
@@ -9858,7 +9778,7 @@
         <note xml:id="i-4zB2pwcUjZzVSxyAgTGdZV">
           108
         </note>
-        <u xml:id="i-c2e71e7cd847715e-3" who="i-L7WV7SG2MqZwXFjBfsC15F" prev="i-KQtqrbVfqH8oqvspq3b5Fq">
+        <u xml:id="i-c2e71e7cd847715e-3" who="i-L7WV7SG2MqZwXFjBfsC15F" prev="i-c2e71e7cd847715e-0">
           <seg xml:id="i-BvPFNYKrB7EFSXBhdLz1a9">
             teten vill behandla årets motion i detta ärende på samma sätt.
             Herr talman! Jag yrkar bifall till utskottets hemställan.
@@ -10141,14 +10061,12 @@
         <note xml:id="i-WEMtcvUXUQaMmcS9vLqUwi" type="speaker">
           Herr ENLUND (fp):
         </note>
-        <u xml:id="i-AgmPQ8thMAJkcB8LDuD8oq" who="i-TLnEcKgBYha1pdFTVEbAvk" next="i-7f6ebdae9cfd5d4d-1">
+        <u xml:id="i-AgmPQ8thMAJkcB8LDuD8oq" who="i-TLnEcKgBYha1pdFTVEbAvk" next="i-7f6ebdae9cfd5d4d-4">
           <seg xml:id="i-W3C5eTFbX1TwjrmpCSjQF1">
             Herr talman! Vid kulturutskottets betänkande nr 7 finns fogade
             två reservationer. De gäller bidrag till Centralförbundet för
             alkoholoch narkotikaupplysning, CAN, och till nykterhetsorganisationerna.
           </seg>
-        </u>
-        <u xml:id="i-7f6ebdae9cfd5d4d-1" who="i-TLnEcKgBYha1pdFTVEbAvk" prev="i-AgmPQ8thMAJkcB8LDuD8oq" next="i-7f6ebdae9cfd5d4d-4">
           <seg xml:id="i-Js7rn1eA611QmXrGME2t3P">
             Skolöverstyrelsen föreslår en höjning till CAN med 387 000 kronor
             och till nykterhetsorganisationerna med 332 000 kronor. Vi reservanter
@@ -10234,7 +10152,7 @@
         <note xml:id="i-PRDRFJUNYaHKXPXiBkzNpK">
           112
         </note>
-        <u xml:id="i-7f6ebdae9cfd5d4d-4" who="i-TLnEcKgBYha1pdFTVEbAvk" prev="i-7f6ebdae9cfd5d4d-1" next="i-7f6ebdae9cfd5d4d-5">
+        <u xml:id="i-7f6ebdae9cfd5d4d-4" who="i-TLnEcKgBYha1pdFTVEbAvk" prev="i-AgmPQ8thMAJkcB8LDuD8oq" next="i-7f6ebdae9cfd5d4d-5">
           <seg xml:id="i-TGjWo6oKkR8rGhUSYAg5EA">
             ut genom massmedia. Mellanölet svarade år 1973 fortfarande för
             66,3 procent av hela ölförbrukningen och lättölet för bara 16,6

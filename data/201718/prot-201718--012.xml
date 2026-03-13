@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>digital-origin</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">digital-origin</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-LrjccSfZi4z8gUXpKNTraW" type="speech">
             <linkGrp type="u">
               <ptr target="#i-a3afb22800180967-3"/>
@@ -781,7 +781,13 @@
               <ptr target="#i-TDQVmDdo1AaticnyJsCnjX"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -901,8 +907,6 @@
           <seg xml:id="i-QtCjsuER2vYvByqLo5D6cW">
             Interpellationen kommer inte hinna besvaras inom tidsfristen.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-1" who="unknown">
           <seg xml:id="i-Gh3G57TStVaAyZF8Psc29K">
             Skälet till dröjsmålet är tjänsteresor och andra sedan tidigare
             inbokade arrangemang.
@@ -955,30 +959,24 @@
         <note xml:id="i-AYBo5t2HzeJSLea979cHLv" type="speaker">
           Anf. 1 Statsrådet PETER ERIKSSON (MP):
         </note>
-        <u xml:id="i-a3afb22800180967-3" who="i-9BUsH2Bn1bGihptNC5r7uq" next="i-a3afb22800180967-4">
+        <u xml:id="i-a3afb22800180967-3" who="i-9BUsH2Bn1bGihptNC5r7uq" next="i-a3afb22800180967-7">
           <seg xml:id="i-JRNFbuZakKtEySaMG7jwyH">
             Herr talman! Roger Hedlund har frågat mig om jag avser att se
             över möjligheterna att minska radonnivåerna i bostäder utifrån
             den uppmaning som WHO ger i sin handbok.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-4" who="i-9BUsH2Bn1bGihptNC5r7uq" prev="i-a3afb22800180967-3" next="i-a3afb22800180967-5">
           <seg xml:id="i-FYn7E21fKKVk1LetzKbS96">
             Jag vill börja med att understryka att förekomsten av radon i
             bostäder är en viktig och angelägen fråga som regeringen tar på
             stort allvar. Radon uppskattas leda till ca 500 cancerfall per
             år i Sverige.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-5" who="i-9BUsH2Bn1bGihptNC5r7uq" prev="i-a3afb22800180967-4" next="i-a3afb22800180967-6">
           <seg xml:id="i-P6zFNjvH9d4CP9oWJih4Qu">
             Boverket har också fastställt ett gränsvärde för radon på 200
             becquerel per kubikmeter i nya byggnader. Även Folkhälsomyndigheten
             anger i sina allmänna råd ett riktvärde på 200 becquerel per kubikmeter,
             vilket avser bostäder, skolor, förskolor samt andra allmänna lokaler.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-6" who="i-9BUsH2Bn1bGihptNC5r7uq" prev="i-a3afb22800180967-5" next="i-a3afb22800180967-7">
           <seg xml:id="i-EurbWXTKaTH8gxEfj8CMXo">
             Boverket genomförde 2011 en konsekvensanalys av vad ett sänkt
             gränsvärde skulle medföra i Sverige för att minska antalet cancerfall
@@ -991,7 +989,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/2B591883-C2DB-488E-924E-015E1A6B4FA3#page=3"/>
-        <u xml:id="i-a3afb22800180967-7" who="i-9BUsH2Bn1bGihptNC5r7uq" prev="i-a3afb22800180967-6" next="i-a3afb22800180967-8">
+        <u xml:id="i-a3afb22800180967-7" who="i-9BUsH2Bn1bGihptNC5r7uq" prev="i-a3afb22800180967-3">
           <seg xml:id="i-MkoSEDx4NWjKRJRBsXRvVG">
             När det gäller nybyggnation bedömde Boverket att knappt 5 000
             människor varje år kommer att bo i nybyggda bostäder med en radonhalt
@@ -999,8 +997,6 @@
             för nybyggda bostäder uppskattades leda till en minskning av antalet
             lungcancerfall med 0,15 fall.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-8" who="i-9BUsH2Bn1bGihptNC5r7uq" prev="i-a3afb22800180967-7" next="i-a3afb22800180967-9">
           <seg xml:id="i-6kNFeiGaCSRkJ2SUKtdh5w">
             Mot bakgrund av den stora risken med radon har det gjorts insatser
             för att minska exponeringen i bostäder. Det har kommit till uttryck
@@ -1014,8 +1010,6 @@
             att få skattereduktion för arbetskostnader för radonsanering inom
             ramen för ROT-avdraget.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-9" who="i-9BUsH2Bn1bGihptNC5r7uq" prev="i-a3afb22800180967-8">
           <seg xml:id="i-4CkFk1MZnDP3pgS1hTU74G">
             Men som jag ser det krävs ytterligare insatser för att minska
             antalet lungcancerfall i framtiden och säkra att radonhalterna
@@ -1037,50 +1031,38 @@
         <note xml:id="i-X3Q8SVq9ChZLCaNJKEb1sE" type="speaker">
           Anf. 2 ROGER HEDLUND (SD):
         </note>
-        <u xml:id="i-MRMxy8ACMXc4xa6grvHY67" who="i-4up3MKHRwxhpoLfZgub9Fu" next="i-a3afb22800180967-10">
+        <u xml:id="i-MRMxy8ACMXc4xa6grvHY67" who="i-4up3MKHRwxhpoLfZgub9Fu">
           <seg xml:id="i-HkNwRvieDHU7K8CZsNs73A">
             Herr talman! Tack, statsrådet, för svaret!
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-10" who="i-4up3MKHRwxhpoLfZgub9Fu" prev="i-MRMxy8ACMXc4xa6grvHY67" next="i-a3afb22800180967-11">
           <seg xml:id="i-RKZtGrTZtB4u3M2Jkm6rnj">
             Jag är glad att regeringen efter att jag ställde min interpellation
             i juni har tagit fram åtgärder för att sänka radonhalterna i fler
             bostäder framöver.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-11" who="i-4up3MKHRwxhpoLfZgub9Fu" prev="i-a3afb22800180967-10" next="i-a3afb22800180967-12">
           <seg xml:id="i-F7NYfrPNX1cYmo8bxBBcdP">
             Sverigedemokraterna stöder såklart återinförandet av bidraget
             för radonsanering tillsammans med det ROT-avdrag som ger bättre
             förutsättningar för att fler bostadsrättsägare, villaägare och
             andra kan sänka radonhalterna i sina bostäder.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-12" who="i-4up3MKHRwxhpoLfZgub9Fu" prev="i-a3afb22800180967-11" next="i-a3afb22800180967-13">
           <seg xml:id="i-E3NRxTMqjiuH71nhPUoHMm">
             Det visade sig att det var färre villaägare som valde att radonsanera
             när bidraget togs bort i december 2014. Därför är det glädjande
             att bidraget återinförs, som regeringen nu aviserar.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-13" who="i-4up3MKHRwxhpoLfZgub9Fu" prev="i-a3afb22800180967-12" next="i-a3afb22800180967-14">
           <seg xml:id="i-BTUYT3Z2mWGdYzrxoFfucs">
             Jag påpekade i min interpellation, och statsrådet har upprepat
             här, att 500 cancerfall uppstår varje år på grund av höga radonhalter
             i bostäderna. Det är bra att både regeringen och Sverigedemokraterna
             ser hur viktig frågan är och tar den på allvar.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-14" who="i-4up3MKHRwxhpoLfZgub9Fu" prev="i-a3afb22800180967-13" next="i-a3afb22800180967-15">
           <seg xml:id="i-64ngrhJRJ2BNyYaDmh9gNu">
             Det är också viktigt att vi och regeringen tillsammans bevakar
             den kommande handlingsplanen för att sänka radonhalterna i bostäderna
             och ser till att planen fungerar bra och att frågan inte släpps
             efter att radonbidraget har återinförts.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-15" who="i-4up3MKHRwxhpoLfZgub9Fu" prev="i-a3afb22800180967-14">
           <seg xml:id="i-YMBUSJhj8FaQhCKHcXi9pr">
             Jag är nöjd med det svar jag har fått. Vi delar åsikten att frågan
             är viktig, och regeringen återinför nu bidraget. Jag är därmed
@@ -1127,20 +1109,16 @@
         <note xml:id="i-hMoDK2HiQKPR67HRW7JfJ" type="speaker">
           Anf. 4 Statsrådet HELÉNE FRITZON (S):
         </note>
-        <u xml:id="i-a3afb22800180967-17" who="i-7M6cUJxC6g2gyqHr59NnJQ" next="i-a3afb22800180967-18">
+        <u xml:id="i-a3afb22800180967-17" who="i-7M6cUJxC6g2gyqHr59NnJQ" next="i-a3afb22800180967-22">
           <seg xml:id="i-VNnfW7xGNTbtZQLkKxocow">
             Herr talman! Sofia Fölster har frågat närings ‑ och innovationsministern
             vilka initiativ han och regeringen ämnar ta för att förenkla för
             både små och stora företag att rekrytera och behålla utländska
             talanger.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-18" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-17" next="i-a3afb22800180967-19">
           <seg xml:id="i-BLSzrEzTGci9Xe7VGtsezT">
             Frågan har överlämnats till mig.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-19" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-18" next="i-a3afb22800180967-20">
           <seg xml:id="i-3wA4zVZVKikNGfJ7E3x9nx">
             Inledningsvis vill jag säga att jag delar Sofia Fölsters uppfattning
             att det är avgörande för svensk konkurrenskraft att företag kan
@@ -1151,8 +1129,6 @@
             mot den bakgrunden problematiskt att handläggningstiderna för
             att erhålla arbetstillstånd har blivit så långa.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-20" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-19" next="i-a3afb22800180967-21">
           <seg xml:id="i-Uy3CxGis8FvsCnRAUsdLgi">
             Regeringen har därför i regleringsbrevet för 2017 gett Migrationsverket
             i uppdrag att ta fram en handlingsplan för hur handläggning av
@@ -1161,8 +1137,6 @@
             och regeringen följer nu noga myndighetens arbete med att genomföra
             handlingsplanen.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-21" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-20" next="i-a3afb22800180967-22">
           <seg xml:id="i-453cVNREbsuXcLE5DNWF6q">
             Handlingsplanen omfattar åtgärder inom flera områden, inklusive
             förbättrade rutiner och arbetssätt. Bland annat har man sedan
@@ -1175,7 +1149,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/2B591883-C2DB-488E-924E-015E1A6B4FA3#page=5"/>
-        <u xml:id="i-a3afb22800180967-22" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-21" next="i-a3afb22800180967-23">
+        <u xml:id="i-a3afb22800180967-22" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-17">
           <seg xml:id="i-KmnJZypHjrWVFmB74e1ogu">
             De regler för arbetstillstånd som vi har i dag togs fram av den
             förra borgerliga regeringen. Reglerna leder i vissa fall, precis
@@ -1187,8 +1161,6 @@
             så att arbetstagare får möjlighet att stanna och bidra med sin
             kompetens i svenska företag.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-23" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-22" next="i-a3afb22800180967-24">
           <seg xml:id="i-DMMz1dngEAoH6nm5HT5L1q">
             Regeringen lämnade därför den 22 juni en proposition om möjligheten
             att underlåta återkallelse när arbetsgivaren på eget initiativ
@@ -1199,8 +1171,6 @@
             att Migrationsverket påpekat brister i villkoren under tillståndsperioderna.
             Utredaren ska l ämna sina förslag senast den 31 december 2017.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-24" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-23">
           <seg xml:id="i-34HYhirjWua5mxL4Rzj9zf">
             Sammantaget syftar dessa åtgärder till att stärka kompetensförsörjningen
             för svenska företag och för Sverige som kunskapsnation. Detta
@@ -1212,14 +1182,12 @@
         <note xml:id="i-HXJnB5tANCac83DFMboGUa" type="speaker">
           Anf. 5 SOFIA FÖLSTER (M):
         </note>
-        <u xml:id="i-a3afb22800180967-25" who="i-7ueMHXSkJ4p8MZCwd6tvma" next="i-a3afb22800180967-26">
+        <u xml:id="i-a3afb22800180967-25" who="i-7ueMHXSkJ4p8MZCwd6tvma" next="i-a3afb22800180967-31">
           <seg xml:id="i-PWDGELTzS86Skg3Q6KEYvQ">
             Herr talman! Jag vill börja med att tacka ministern för svaret
             och även för att ministern delar min uppfattning att detta är
             en viktig fråga.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-26" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-25" next="i-a3afb22800180967-27">
           <seg xml:id="i-Qs9DHvANEYcw1HW5bnQ8SC">
             Jag skulle vilja börja i den här änden: Denna vecka har det larmats
             om ytterligare ett fall där en person blir utvisad på orimliga
@@ -1227,8 +1195,6 @@
             Clipsource, med tio anställda, som liksom många små bolag är helt
             beroende av att få rätt kompetens – varje person är oerhört viktig.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-27" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-26" next="i-a3afb22800180967-28">
           <seg xml:id="i-FmvG6Z3Uc35Do4CVcbGKoU">
             En person i detta bolag, som har bott i Sverige i fyra år, har
             nu fått besked om utvisning. Skälet till detta visar sig vara
@@ -1236,8 +1202,6 @@
             Migrationsverkets skäl för att denna familj, med tre små barn
             som är födda och uppvuxna i Sverige, ska utvisas.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-28" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-27" next="i-a3afb22800180967-29">
           <seg xml:id="i-5Dwy7MUqC5JxtCkFuLgF3S">
             Förutom att detta är uppslitande för familjen är det naturligtvis
             helt avgörande för företaget att personen får vara kvar. Detta
@@ -1246,8 +1210,6 @@
             land. Dessa techstartups är väldigt rörliga och påverkas i stor
             utsträckning av de regler vi har i Sverige.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-29" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-28" next="i-a3afb22800180967-30">
           <seg xml:id="i-GiMwLR8HLyZkJq3o2BGa8U">
             Det har under de senaste tre åren funnits många exempel på liknande
             fall. Tayyab blev ett stort fall, men det har funnits många fler
@@ -1256,8 +1218,6 @@
             rycks undan. Deras arbetsgivare har gjort något mindre fel, eller
             bedömningen kanske i slutändan var felaktig.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-30" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-29" next="i-a3afb22800180967-31">
           <seg xml:id="i-DxMJhFWraEYN3QCd824PiZ">
             Under hela denna tid, ända sedan det larmades om dessa problem
             strax efter det att regeringen tillträdde, har regeringen skjutit
@@ -1267,7 +1227,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/2B591883-C2DB-488E-924E-015E1A6B4FA3#page=6"/>
-        <u xml:id="i-a3afb22800180967-31" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-30" next="i-a3afb22800180967-32">
+        <u xml:id="i-a3afb22800180967-31" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-25">
           <seg xml:id="i-LaJ4QuWa7ZEdZzb8yrncB4">
             Mycket av den problematik vi ser i dag beror inte på de regler
             vi har utan på en dom från 2015 som förändrade tolkningen av reglerna.
@@ -1276,8 +1236,6 @@
             tillsatte regeringen då en utredning i syfte att göra det svårare
             för arbetsgivare och öka regelkrånglet och regelbördan.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-32" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-31" next="i-a3afb22800180967-33">
           <seg xml:id="i-L3CEVA4DYSrqKhc4kfDbHw">
             Först nu börjar man titta på den verkliga problematiken, det
             vill säga att människor som bor i Sverige, betalar skatt och gör
@@ -1287,29 +1245,21 @@
             få personer och helt bygger på att arbetsgivaren själv märker
             att man gjort något fel och rättar till detta.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-33" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-32" next="i-a3afb22800180967-34">
           <seg xml:id="i-LZp57gv8TeYFU2BdefZTUC">
             Därutöver kommer en ny utredning som ska lämna förslag i december,
             alltså tre och ett halvt år efter det att regeringen tillträdde.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-34" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-33" next="i-a3afb22800180967-35">
           <seg xml:id="i-6Sjpp3cZZxsDjFpcyAAwJa">
             Jag skulle vilja komma tillbaka till grundproblemet. Denna situation
             har vi nu. Familjer utvisas hela tiden. Företag blir på löpande
             band av med nyckelkompetens eller har inte möjlighet att rekrytera
             den spetskompetens man behöver.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-35" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-34" next="i-a3afb22800180967-36">
           <seg xml:id="i-9vBEeLj3YWiztmTZunK6sd">
             Handläggningstiderna på Migrationsverket är ett stort problem.
             Certifieringen är ett annat. Stora företag har en enorm förtur,
             och små företag lämnas åt sidan.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-36" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-35">
           <seg xml:id="i-7ZEHniAz9Fd1beWFxnGJ2v">
             Men det handlar inte bara om tolkningen av reglerna; det handlar
             också om reglerna i sig. Här saknas en kritisk hållning från regeringen.
@@ -1322,15 +1272,13 @@
         <note xml:id="i-HuLdrfteaKnfPyYUwcT9Bi" type="speaker">
           Anf. 6 LARS HJÄLMERED (M):
         </note>
-        <u xml:id="i-a3afb22800180967-37" who="i-9118KyeHJPwjSm2gBg9zwB" next="i-a3afb22800180967-38">
+        <u xml:id="i-a3afb22800180967-37" who="i-9118KyeHJPwjSm2gBg9zwB" next="i-a3afb22800180967-41">
           <seg xml:id="i-PRyAjt7sLNRaxCcLjZHAtP">
             Herr talman! Kompetensförsörjning är en av de allra hetaste frågorna
             för många arbetsgivare i det konjunkturläge vi befinner oss i
             just nu. En del av behovet fylls med svenskar och en annan med
             utländska medborgare som kommer hit.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-38" who="i-9118KyeHJPwjSm2gBg9zwB" prev="i-a3afb22800180967-37" next="i-a3afb22800180967-39">
           <seg xml:id="i-HhDEj4BZieUJA8QQoZE7Gm">
             Frågan om arbetskraftsinvandring och talangrekrytering är, skulle
             jag säga, en av Sveriges mer kritiska och viktiga frågor på lite
@@ -1340,8 +1288,6 @@
             både i Europa och på andra ställen, finns många riktigt duktiga
             personer.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-39" who="i-9118KyeHJPwjSm2gBg9zwB" prev="i-a3afb22800180967-38" next="i-a3afb22800180967-40">
           <seg xml:id="i-S5gw9paAGciR3EUfjV3MMj">
             Det är bra för Sverige och svenskt näringsliv att kunna locka
             fler av de talangfulla och duktiga personerna hit – som studenter
@@ -1351,8 +1297,6 @@
             kring vad vi mer kan göra för att locka fler av dessa duktiga
             personer.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-40" who="i-9118KyeHJPwjSm2gBg9zwB" prev="i-a3afb22800180967-39" next="i-a3afb22800180967-41">
           <seg xml:id="i-75NAgRDXssi7KKLo9J3DLc">
             För knappt tio år sedan infördes nya regler för arbetskraftsinvandring,
             som i allt väsentligt har tjänat Sverige väldigt väl. Rättstillämpningen
@@ -1365,7 +1309,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/2B591883-C2DB-488E-924E-015E1A6B4FA3#page=7"/>
-        <u xml:id="i-a3afb22800180967-41" who="i-9118KyeHJPwjSm2gBg9zwB" prev="i-a3afb22800180967-40" next="i-a3afb22800180967-42">
+        <u xml:id="i-a3afb22800180967-41" who="i-9118KyeHJPwjSm2gBg9zwB" prev="i-a3afb22800180967-37">
           <seg xml:id="i-VMqWxnDniWodszpNvTGWPY">
             Men vi har också ett antal andra utmaningar. Handläggningstider
             är en sådan, herr talman. Det kan emellanåt gå ganska fort och
@@ -1376,8 +1320,6 @@
             medarbetaren kan få sitt arbets- och uppehållstillstånd om en
             vecka, en månad eller sex månader, vågar man då skriva på anställningskontraktet?
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-42" who="i-9118KyeHJPwjSm2gBg9zwB" prev="i-a3afb22800180967-41" next="i-a3afb22800180967-43">
           <seg xml:id="i-EuXbPGa1VjMF4BmPQTfw1G">
             Detta är direkt dåligt för Sverige, när vi samtidigt ser att
             det alltmer blir en kamp om talanger och duktiga personer inom
@@ -1386,8 +1328,6 @@
             ett antal åtgärder. Jag tycker dock inte riktigt att de fullt
             ut råder bot på den osäkerhet som finns i dag.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-43" who="i-9118KyeHJPwjSm2gBg9zwB" prev="i-a3afb22800180967-42" next="i-a3afb22800180967-44">
           <seg xml:id="i-LMefCQ4DGHQb6qZq968XMS">
             Vi har från Moderaternas sida sagt att uppehålls- och arbetstillstånd
             borde beviljas inom 30 dagar, gärna mindre. Vi har sagt att vi
@@ -1398,16 +1338,12 @@
             regeringen beredda att vidta för ytterligare åtgärder för att
             undvika dessa olikheter i handläggningen?
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-44" who="i-9118KyeHJPwjSm2gBg9zwB" prev="i-a3afb22800180967-43" next="i-a3afb22800180967-45">
           <seg xml:id="i-ANAdaovBmFJGgwf8veYbge">
             En annan sak bortom detta är administrationen när man de facto
             kommer till Sverige. Vi har fyra magiska siffror i form av personnummer
             eller samordningsnummer. Många, både européer och utomeuropéer,
             vittnar om att det kan ta tid i administrationen.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-45" who="i-9118KyeHJPwjSm2gBg9zwB" prev="i-a3afb22800180967-44" next="i-a3afb22800180967-46">
           <seg xml:id="i-5kHY5ikRMsFw55HreQZdDh">
             Från Moderaternas sida har vi föreslagit att man ska införa ett
             slags one-stop-shop, där man samordnar myndigheter, Försäkringskassan,
@@ -1417,8 +1353,6 @@
             man kan göra jämkningar och så vidare. Är regeringen beredd att
             införa en one-stop-shop i enlighet med Moderaternas förslag?
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-46" who="i-9118KyeHJPwjSm2gBg9zwB" prev="i-a3afb22800180967-45">
           <seg xml:id="i-QVrnqnkL11BJaHCq3GzY2S">
             Sedan hoppas jag senare i diskussionen få återkomma till ett
             antal andra väsentliga frågor, till exempel att vi år 2014 införde
@@ -1433,15 +1367,13 @@
         <note xml:id="i-7fX4ZVLexUeDCgZ7uyBuUA" type="speaker">
           Anf. 7 Statsrådet HELÉNE FRITZON (S):
         </note>
-        <u xml:id="i-a3afb22800180967-47" who="i-7M6cUJxC6g2gyqHr59NnJQ" next="i-a3afb22800180967-48">
+        <u xml:id="i-a3afb22800180967-47" who="i-7M6cUJxC6g2gyqHr59NnJQ" next="i-a3afb22800180967-49">
           <seg xml:id="i-3Lgsj3a7dYxNcWUc5HDG8d">
             Herr talman! Tack för viktiga inlägg! Vi är nog på alla sätt
             överens om att frågan om rekrytering av internationell kompetens
             och arbetstillstånd för arbetskraft från tredjeland är såväl en
             näringspolitisk fråga som en fråga om Migrationsverkets prövning.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-48" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-47" next="i-a3afb22800180967-49">
           <seg xml:id="i-3LEzXvZhQmHvw62zNKXiy7">
             Jag ska inte kommentera enskilda fall, enskilda företag eller
             enskilda utvisningar. Mitt uppdrag är att redovisa det arbete
@@ -1451,7 +1383,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/2B591883-C2DB-488E-924E-015E1A6B4FA3#page=8"/>
-        <u xml:id="i-a3afb22800180967-49" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-48" next="i-a3afb22800180967-50">
+        <u xml:id="i-a3afb22800180967-49" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-47">
           <seg xml:id="i-5vp3WPm9F7Mg1RgFyArwUe">
             Regeringen presenterade en proposition före sommaren, men den
             baserades på ett förslag som hade lämnats av en utredning i ett
@@ -1461,8 +1393,6 @@
             av uppehållstillstånd när arbetsgivaren självmant har avhjälpt
             brister.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-50" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-49" next="i-a3afb22800180967-51">
           <seg xml:id="i-Lc7EAREJ4NAw4VycbbBzC2">
             Enkelt uttryckt var uppdraget att ge arbetsgivaren en möjlighet
             att själv rätta till brister innan ansökan går vidare för beslut.
@@ -1470,24 +1400,18 @@
             varje litet misstag på det här sättet har lett till att arbetstagare
             utvisas.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-51" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-50" next="i-a3afb22800180967-52">
           <seg xml:id="i-6ATmMxkVuGB8sujTwY8viV">
             Regeringen har också som ett nästa steg mycket snabbt öppnat
             för att arbetsgivare också ska kunna rätta till brister även efter
             att Migrationsverket har påtalat dem. Därför tillsattes också
             en utredning som nu vid årsskiftet ska lämna sitt betänkande.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-52" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-51" next="i-a3afb22800180967-53">
           <seg xml:id="i-DXp9jDjGSbovtVCaXP4RpH">
             Precis som antyddes här av Lars Hjälmered har det väckts en motion
             av de borgerliga partierna som jag har tagit del av. Alldeles
             nyss har jag också blivit informerad om att den har blivit upptagen
             till behandling i socialförsäkringsutskottet.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-53" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-52" next="i-a3afb22800180967-54">
           <seg xml:id="i-297Jj6E6eYtXiuJDqLLKzJ">
             Ambitionen att man vill komma snabbare fram är positiv, och det
             kan innebära en snabbare beredning. Men det måste ske i två steg
@@ -1496,8 +1420,6 @@
             utredningen förhoppningsvis komma att svara på. Därför finns det
             förberedelser för ytterligare en kompletterande proposition.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-54" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-53">
           <seg xml:id="i-3goD8p7BiotsuPre9j485b">
             Nu får vi invänta motsvarande beredning i riksdagen för att se
             om vi når framgång i sakfrågan. Jag noterar att det finns bred
@@ -1509,7 +1431,7 @@
         <note xml:id="i-WipvRx6T215r8D1YvjDspg" type="speaker">
           Anf. 8 SOFIA FÖLSTER (M):
         </note>
-        <u xml:id="i-a3afb22800180967-55" who="i-7ueMHXSkJ4p8MZCwd6tvma" next="i-a3afb22800180967-56">
+        <u xml:id="i-a3afb22800180967-55" who="i-7ueMHXSkJ4p8MZCwd6tvma" next="i-a3afb22800180967-59">
           <seg xml:id="i-NCiBfZP7tLtczUQCch6Cvi">
             Herr talman! Jag skulle vilja tacka ministern för det svaret.
             Men jag vill komma tillbaka till att jag inte tycker att det här
@@ -1517,8 +1439,6 @@
             jag har ställt till ministern. Jag tänkte ta de frågorna igen
             och hoppas på att jag kan få ett tydligt svar.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-56" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-55" next="i-a3afb22800180967-57">
           <seg xml:id="i-TkzE9FZv3FyFusGywAvHvA">
             Även om vår följdmotion är en förbättring av den proposition
             som kom är det bara ett litet steg i rätt riktning. Det finns
@@ -1527,8 +1447,6 @@
             det som har blivit utvisade eller är på väg mot utvisning trots
             att de betalar skatt och gör rätt för sig.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-57" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-56" next="i-a3afb22800180967-58">
           <seg xml:id="i-F3LRQpWVpeVNRPsWaaryJj">
             En fråga rör helhetsbedömning. Vi har sedan länge haft förslag
             om att Migrationsverket borde kunna göra en egen helhetsbedömning
@@ -1540,8 +1458,6 @@
             av det enskilda fallet. Detta har regeringen inte följt upp, och
             man har inte lagt proposition om det.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-58" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-57" next="i-a3afb22800180967-59">
           <seg xml:id="i-AVyrpZ7c429EUeCPA38dct">
             En annan fråga är reglerna i sig. Många gånger är det helt orimligt
             med de gränser som har satts. Hur kan det finnas en gräns som
@@ -1555,14 +1471,12 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/2B591883-C2DB-488E-924E-015E1A6B4FA3#page=9"/>
-        <u xml:id="i-a3afb22800180967-59" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-58" next="i-a3afb22800180967-60">
+        <u xml:id="i-a3afb22800180967-59" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-55">
           <seg xml:id="i-JDFJCKDREbMFHPv8WfhSzg">
             Självklart ska man kunna försörja sig, och självklart måste det
             finnas någon typ av grundkrav. Men de regler vi har i dag är byråkratiska
             och krångliga och sätter käppar i hjulet för människor och företag.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-60" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-59" next="i-a3afb22800180967-61">
           <seg xml:id="i-9ZUCKSiBMweWfRYk9FkhVq">
             Den tredje frågan gäller handläggningstider, som jag också tog
             upp i interpellationen. Ministern redovisar en dialog med Migrationsverket.
@@ -1570,8 +1484,6 @@
             införa en gräns för hur lång tid det ska få ta att behandla de
             här fallen? Det skulle jag vilja ha klart svar på.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-61" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-60" next="i-a3afb22800180967-62">
           <seg xml:id="i-2Q8DazCo4sD1WgwSRuKwKC">
             Den sista frågan, som kanske blir lite mer framåtblickande, rör
             den minister jag ställde interpellationen till, nämligen Mikael
@@ -1584,8 +1496,6 @@
             Det handlar om grupper som nettobidrar till skattekassan och inte
             kostar samhället en krona.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-62" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-61">
           <seg xml:id="i-G2qRxzmCjom1XoMjQspdGN">
             Denna sista fråga blir därför den viktigaste . Vad man gör är
             en sak; vad man lovar att göra är en annan. Det oroar mig med
@@ -1599,7 +1509,7 @@
         <note xml:id="i-VKs17wCebxs8z4g6Hd5P4w" type="speaker">
           Anf. 9 LARS HJÄLMERED (M):
         </note>
-        <u xml:id="i-a3afb22800180967-63" who="i-9118KyeHJPwjSm2gBg9zwB" next="i-a3afb22800180967-64">
+        <u xml:id="i-a3afb22800180967-63" who="i-9118KyeHJPwjSm2gBg9zwB" next="i-a3afb22800180967-66">
           <seg xml:id="i-VwYB8f4pKayh4d44wTGrMw">
             Herr talman! Först vill jag ta upp detta med principerna. Jag
             skulle bara vilja poängtera hur viktigt det är för Sverige att
@@ -1609,8 +1519,6 @@
             Det är ju därför vi från Moderaterna med emfas driver de här frågorna
             och har gjort det under många år.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-64" who="i-9118KyeHJPwjSm2gBg9zwB" prev="i-a3afb22800180967-63" next="i-a3afb22800180967-65">
           <seg xml:id="i-EGMQ7HddDwRv2fDPuQGA6v">
             Det finns ett par frå gor jag skulle vilja ta upp. Den första
             handlar om detta med handläggningstider. I mitt första inlägg
@@ -1624,8 +1532,6 @@
             måste vara att få detta att fungera, vilket det ju inte har gjort
             under de senaste åren.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-65" who="i-9118KyeHJPwjSm2gBg9zwB" prev="i-a3afb22800180967-64" next="i-a3afb22800180967-66">
           <seg xml:id="i-WbTE5f1JXyYdDc1goLcQQv">
             Så kommer jag till det andra. Jag nämnde förslaget om så kallad
             one-stop-shop, alltså att man enkelt ska kunna skrivas in hos
@@ -1634,15 +1540,13 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/2B591883-C2DB-488E-924E-015E1A6B4FA3#page=10"/>
-        <u xml:id="i-a3afb22800180967-66" who="i-9118KyeHJPwjSm2gBg9zwB" prev="i-a3afb22800180967-65" next="i-a3afb22800180967-67">
+        <u xml:id="i-a3afb22800180967-66" who="i-9118KyeHJPwjSm2gBg9zwB" prev="i-a3afb22800180967-63">
           <seg xml:id="i-Pq93CHCV2mAHnmrBQBM216">
             Är regeringen beredd att vidta några åtgärder på det området
             för att underlätta för människor att få de fyra magiska siffror
             som gör att de är inne i de svenska systemen och kan få bankkonto,
             A-skatt, jämkning och hela baletten?
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-67" who="i-9118KyeHJPwjSm2gBg9zwB" prev="i-a3afb22800180967-66">
           <seg xml:id="i-QY3gV8HjdoRPQz16jZti6P">
             Herr talman! Det tredje jag vill lyfta handlar om framtidsfrågorna,
             om jag får kalla dem för det. Det gäller alltså det som ligger
@@ -1659,7 +1563,7 @@
         <note xml:id="i-Uk5tq2fvjgDndxqmEAwGwQ" type="speaker">
           Anf. 10 Statsrådet HELÉNE FRITZON (S):
         </note>
-        <u xml:id="i-a3afb22800180967-68" who="i-7M6cUJxC6g2gyqHr59NnJQ" next="i-a3afb22800180967-69">
+        <u xml:id="i-a3afb22800180967-68" who="i-7M6cUJxC6g2gyqHr59NnJQ" next="i-a3afb22800180967-72">
           <seg xml:id="i-3sexQnab8mfpFexkjg3SpH">
             Herr talman! Jag börjar med att vända mig till Sofia Fölster.
             Vi är överens om det som du uppfattar som krångliga regler utifrån
@@ -1667,8 +1571,6 @@
             som vi nu tar på allvar och försöker åtgärda, dels med den proposition
             och det förslag som ligger, dels med den utredning som är tillsatt.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-69" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-68" next="i-a3afb22800180967-70">
           <seg xml:id="i-2pxjcG5rQjW46Ndo3XX9A6">
             Sedan gäller det de övriga frågorna, framför allt den om handläggningstider
             som debattörerna har framfört. Detta ger mig ett utmärkt tillfälle
@@ -1688,8 +1590,6 @@
             Det är en grupp som vi självklart ofta lyfter fram och som vi
             tycker är viktig för att vi ska ha ett konkurrenskraftigt näringsliv.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-70" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-69" next="i-a3afb22800180967-71">
           <seg xml:id="i-484YsPLTwWgjySL3SH5FXV">
             När det gäller de ärenden där det finns brister i fråga om löner
             och övriga villkor – eller där de rent av är oklara – tar det
@@ -1700,8 +1600,6 @@
             vissa ärenden. Det finns anledning att ha en hög ambition när
             det gäller att det ska vara goda villkor och löner.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-71" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-70" next="i-a3afb22800180967-72">
           <seg xml:id="i-YF582ovfn5nPhNNB2VDZ9r">
             Det bollas ett antal moderata förslag. Den debatten är viktig,
             och den är intressant. Det ger mig anledning att peka på att regeringen
@@ -1713,7 +1611,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/2B591883-C2DB-488E-924E-015E1A6B4FA3#page=11"/>
-        <u xml:id="i-a3afb22800180967-72" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-71" next="i-a3afb22800180967-73">
+        <u xml:id="i-a3afb22800180967-72" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-68">
           <seg xml:id="i-62HC7wWxyXuNXKjx4wFqZw">
             För den myndighet som ansvarar för arbetstillstånden har vi uppdraget
             att det ska vara mer effektivt och att man ska fortsätta med ett
@@ -1721,8 +1619,6 @@
             för utländsk kompetens i Sverige, och vi satsar brett på att förbättra
             tillgången till rätt kompetens och på att förbättra matchningen.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-73" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-72" next="i-a3afb22800180967-74">
           <seg xml:id="i-Mmbchy6mWkErcgdJ7VHiqc">
             Jag vill gärna nämna den omfattande satsningen på tio tusentals
             utbildningsplatser i K unskapslyftet, validering av nyanländas
@@ -1731,8 +1627,6 @@
             och branscher för att föra fördjupade samtal om kompetensförsörjning
             generellt och de utbildningssatsningar som nu ska utformas.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-74" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-73">
           <seg xml:id="i-RDW2m4emEi5vnNcnDS6RJ3">
             Det är viktigt att se en helhet i detta och se att det finns
             en rad olika politiska åtgärder för att stärka Sveriges konkurrensstyrkor
@@ -1742,7 +1636,7 @@
         <note xml:id="i-SAHQzLTo68cvWf4nQynEom" type="speaker">
           Anf. 11 SOFIA FÖLSTER (M):
         </note>
-        <u xml:id="i-a3afb22800180967-75" who="i-7ueMHXSkJ4p8MZCwd6tvma" next="i-a3afb22800180967-76">
+        <u xml:id="i-a3afb22800180967-75" who="i-7ueMHXSkJ4p8MZCwd6tvma">
           <seg xml:id="i-S6rv8BzTpaqKoQ7y6KKgPK">
             Herr talman! Jag skulle vilja komma tillbaka till det jag började
             med, det vill säga att denna fråga är en av de frågor som kanske
@@ -1753,8 +1647,6 @@
             är alltså den verklighet vi står inför. Det är så allvarlig denna
             fråga är.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-76" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-75" next="i-a3afb22800180967-77">
           <seg xml:id="i-Lc8n8hFcz5YixECk5kQ5Bi">
             Men det är också så att vår konkurrenskraft är helt avgörande
             för att vi ska kunna ha ett bra startup-klimat. Ett bra startup-klimat
@@ -1762,8 +1654,6 @@
             Startups och småföretag räknas alltså inte till de bolag som certifieras
             av Migrationsverket. Det är viktigt att komma ihåg.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-77" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-76" next="i-a3afb22800180967-78">
           <seg xml:id="i-RkzJqi1pQG8amxFyHFV8vN">
             Det finns oerhört mycket som behöver göras, mycket mer än vad
             regeringen har tagit initiativ till. Det behövs helhetsbedömningar
@@ -1780,8 +1670,6 @@
             man gör skillnad på olika människor och där man politiskt ska
             bestämma att vissa yrkesgrupper inte ska få komma hit.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-78" who="i-7ueMHXSkJ4p8MZCwd6tvma" prev="i-a3afb22800180967-77">
           <seg xml:id="i-6budQQcGXAj2XESuDc3taM">
             Det är en enorm inskränkning av de arbetskraftinvandringsregler
             vi har nu. Det är en enorm förändring jämfört med de regler vi
@@ -1795,7 +1683,7 @@
           Anf. 12 Statsrådet HELÉNE FRITZON (S):
         </note>
         <pb facs="http://data.riksdagen.se/fil/2B591883-C2DB-488E-924E-015E1A6B4FA3#page=12"/>
-        <u xml:id="i-a3afb22800180967-79" who="i-7M6cUJxC6g2gyqHr59NnJQ" next="i-a3afb22800180967-80">
+        <u xml:id="i-a3afb22800180967-79" who="i-7M6cUJxC6g2gyqHr59NnJQ">
           <seg xml:id="i-4z6CRHvwCaXWdVtX3qeXcu">
             Herr talman! Jag vill tacka Sofia Fölster men också Lars Hjälmered
             för debatten. Jag tror att det är viktigt och ser ett stort värde
@@ -1809,8 +1697,6 @@
             Inte sällan är det faktiskt spetskompetens, vilket jag också har
             hört i era inlägg.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-80" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-79" next="i-a3afb22800180967-81">
           <seg xml:id="i-2jeExEw126gMgdQiJsBb8y">
             Jag ser också att det finns goda förutsättningar att vi ska komma
             överens om vilka ändringar som krävs, och vi kommer att ha en
@@ -1822,23 +1708,17 @@
             Det innebär att vi på det sättet förenklar och underlättar i våra
             regler för rekrytering av internationell kompetens.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-81" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-80" next="i-a3afb22800180967-82">
           <seg xml:id="i-NL89fwNPDRNuAdUfztBt4v">
             Sedan ska det sägas att detta kombineras med en prövning som
             har att göra med uppehållstillstånd och så vidare. Det är viktigt
             att det får fortgå professionellt.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-82" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-81" next="i-a3afb22800180967-83">
           <seg xml:id="i-4nhAP5AGpDrDTtrjWJWftm">
             Jag vill avslutningsvis understryka värdet av att man med regelverket
             klarar balansen. Det handlar om att uppnå en skyndsam hantering
             men också om värdet av att vi har goda villkor på arbetsmarknaden
             och motverkar missbruk på arbetsmarknaden.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-83" who="i-7M6cUJxC6g2gyqHr59NnJQ" prev="i-a3afb22800180967-82">
           <seg xml:id="i-WyUMne5dmkFboVeURWDoDt">
             Med det, herr talman, tackar jag för en konstruktiv debatt och
             hoppas att vi i det fortsatta arbetet förbättrar reglerna för
@@ -1870,7 +1750,7 @@
         <note xml:id="i-ECYRoD48kELFnKHxY99B3h" type="speaker">
           Anf. 13 ANDRE VICE TALMANNEN:
         </note>
-        <u xml:id="i-CxD5ZrytzM2g7PqCVATRmn" who="unknown" next="i-B81UfpfdapbYGKVg82iApZ">
+        <u xml:id="i-CxD5ZrytzM2g7PqCVATRmn" who="unknown">
           <seg xml:id="i-64CJ8QBdL47eeFMAhFoJUu">
             Jag vill hälsa statsråden välkomna. Frågor besvaras i dag av
             närings- och innovationsminister Mikael Damberg, statsrådet Per
@@ -1879,8 +1759,6 @@
             allmänpolitiska frågor som frågor inom sitt eget ansvarsområde
             .
           </seg>
-        </u>
-        <u xml:id="i-B81UfpfdapbYGKVg82iApZ" who="unknown" prev="i-CxD5ZrytzM2g7PqCVATRmn">
           <seg xml:id="i-NikDy8gqz8jSrYQZQPmF35">
             En fråga ska vara av övergripande och allmänpolitiskt slag eller
             avse ett ämne som faller inom statsrådets ansvarsområde och rör
@@ -1894,7 +1772,7 @@
         <note xml:id="i-KjtDYEoKtzofREYmteW6DQ" type="speaker">
           Anf. 14 JESSICA ROSENCRANTZ (M):
         </note>
-        <u xml:id="i-a3afb22800180967-84" who="i-AFto3gTmjTfTgomtq31hLZ" next="i-a3afb22800180967-85">
+        <u xml:id="i-a3afb22800180967-84" who="i-AFto3gTmjTfTgomtq31hLZ">
           <seg xml:id="i-UqW6AcgP4Rwe2UA7u75VUg">
             Herr talman! Jag har en fråga till statsrådet Peter Eriksson.
             För en vecka sedan kunde vi läsa att regeringen skjuter upp införandet
@@ -1903,16 +1781,12 @@
             breven inte kommer fram i tid och att breven ibland inte kommer
             fram över huvud taget.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-85" who="i-AFto3gTmjTfTgomtq31hLZ" prev="i-a3afb22800180967-84" next="i-a3afb22800180967-86">
           <seg xml:id="i-5whtoj7XWsUczhtkEjCPaF">
             Regeringen behöver lösa allvarliga kvalitetsproblem. Då krävs
             förstås att regeringen styr bolaget bättre. Det handlar också
             om att ge Posten rätt förutsättningar och verktyg i en värld som
             blir alltmer digital och där brevvolymerna minskar.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-86" who="i-AFto3gTmjTfTgomtq31hLZ" prev="i-a3afb22800180967-85">
           <seg xml:id="i-KwLxj2uxzJkvNZUsrHCWBi">
             Det behövs därför ett uppdaterat regelverk som säkrar en god
             och pålitlig postservice i hela landet. När kommer vi att kunna
@@ -1923,7 +1797,7 @@
         <note xml:id="i-CjSG2bKNw99MfUJFHmLZtR" type="speaker">
           Anf. 15 Statsrådet PETER ERIKSSON (MP):
         </note>
-        <u xml:id="i-a3afb22800180967-87" who="i-9BUsH2Bn1bGihptNC5r7uq" next="i-a3afb22800180967-88">
+        <u xml:id="i-a3afb22800180967-87" who="i-9BUsH2Bn1bGihptNC5r7uq">
           <seg xml:id="i-S4H1UMLcrha1paMosB3NXx">
             Herr talman! Jag tackar för Jessica Rosencrantz fråga. Jag är
             glad att vi från oppositionen får höra att det är viktigt med
@@ -1931,8 +1805,6 @@
             för att vi ska kunna få mer långsiktiga förutsättningar att bedriva
             en bra postservice i hela landet. Så är ju fallet inte nu.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-88" who="i-9BUsH2Bn1bGihptNC5r7uq" prev="i-a3afb22800180967-87">
           <seg xml:id="i-CMPasoDjm4sCJsUorAhqo4">
             Bristerna är alltför stora, och så har det varit under en ganska
             lång tid. Jag kommer dock att föreslå en förändring av postlagen
@@ -1942,15 +1814,13 @@
         <note xml:id="i-QHxuLFz4wSDuYroSMGo9fC" type="speaker">
           Anf. 16 JESSICA ROSENCRANTZ (M):
         </note>
-        <u xml:id="i-a3afb22800180967-89" who="i-AFto3gTmjTfTgomtq31hLZ" next="i-a3afb22800180967-90">
+        <u xml:id="i-a3afb22800180967-89" who="i-AFto3gTmjTfTgomtq31hLZ">
           <seg xml:id="i-Lop18FxD4Yv95ZBmLc62vT">
             Herr talman! Tack, statsrådet, för svaret! Både opposition och
             regering delar oron och ser att någonting förstås behöver göras.
             Av det som statsrådet har tagit upp i medierna förstår jag att
             det pågår en del samtal med den danska sidan.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-90" who="i-AFto3gTmjTfTgomtq31hLZ" prev="i-a3afb22800180967-89">
           <seg xml:id="i-9q5QBV66JPo9UiN5kJCzRG">
             Icke desto mindre är frågan hur länge vi kan vänta i Sverige
             med att ställa om vårt eget system. Vi vill ju inte gå samma väg
@@ -1961,7 +1831,7 @@
         <note xml:id="i-Le5rnupXJSipAKoKJPjSMn" type="speaker">
           Anf. 17 Statsrådet PETER ERIKSSON (MP):
         </note>
-        <u xml:id="i-a3afb22800180967-91" who="i-9BUsH2Bn1bGihptNC5r7uq" next="i-a3afb22800180967-92">
+        <u xml:id="i-a3afb22800180967-91" who="i-9BUsH2Bn1bGihptNC5r7uq">
           <seg xml:id="i-YmKCY5ks5mQdeiRuvB9JZ">
             Herr talman! Det här handlar om olika saker. Först gäller det
             förhandlingarna som pågår om Postnord liksom relationerna mellan
@@ -1971,8 +1841,6 @@
             påverkat företaget Postnord. Vi har hamnat i förhandlingar om
             hur företaget ska kunna fortsätta framöver.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-92" who="i-9BUsH2Bn1bGihptNC5r7uq" prev="i-a3afb22800180967-91">
           <seg xml:id="i-LR32JFBtHy8ESv2vah57wo">
             Jag försöker hålla isär denna fråga från hur vi ska organisera
             Posten i Sverige. Vad gäller det bereder vi just nu en förändring,
@@ -1986,15 +1854,13 @@
         <note xml:id="i-3Cb2ZDSVTqgL2a5Hags6cc" type="speaker">
           Anf. 18 PER-ARNE HÅKANSSON (S):
         </note>
-        <u xml:id="i-a3afb22800180967-94" who="i-DfMBmwjfAwnb2JfXgJ9isk" next="i-a3afb22800180967-95">
+        <u xml:id="i-a3afb22800180967-94" who="i-DfMBmwjfAwnb2JfXgJ9isk">
           <seg xml:id="i-3duTAW66Z59GXYYC7HgXXb">
             Herr talman! Sverige utvecklas just nu starkt. Detta kan vi se
             med egna ögon om vi tittar på det stora antal lyftkranar som reser
             sig i städer och orter runt om i landet. Det är en klassisk bild
             av tillväxt.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-95" who="i-DfMBmwjfAwnb2JfXgJ9isk" prev="i-a3afb22800180967-94" next="i-a3afb22800180967-96">
           <seg xml:id="i-HWVdHwzULvihL2rx98Tiww">
             Den starka utvecklingen bekräftas också av fakta från Konjunkturinstitutets
             senaste rapport. För sjätte månaden i rad är tillväxten starkare
@@ -2003,16 +1869,12 @@
             delbranscher rapporterar om ett starkt eller mycket starkt läge.
             Också hushållen ser ljust på framtiden.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-96" who="i-DfMBmwjfAwnb2JfXgJ9isk" prev="i-a3afb22800180967-95" next="i-a3afb22800180967-97">
           <seg xml:id="i-W7p74xHTDuPABj1k1z92zP">
             Förutom Konjunkturinstitutet finns även andra mätningar på senare
             tid som visar samma situation. Tillväxtverkets rapport Företagens
             villkor och verklighet 2017 visar att sju av tio företag har ambitioner
             att växa.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-97" who="i-DfMBmwjfAwnb2JfXgJ9isk" prev="i-a3afb22800180967-96">
           <seg xml:id="i-DcP48tRhGotBYn3heWfqi">
             Mitt i allt detta hoppfulla och starka uppstår samtidigt frågan:
             Vad ser ministern som de stora utmaningarna framöver för att bygga
@@ -2022,23 +1884,19 @@
         <note xml:id="i-JTRyM8ME5B7pukTyx1XNf8" type="speaker">
           Anf. 19 Närings- och innovationsminister MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-98" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-a3afb22800180967-99">
+        <u xml:id="i-a3afb22800180967-98" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-Bz8Ti3aLdP1UTg6UUtjcfA">
             Herr talman! Tack, Per-Arne Håkansson, för frågan! Vi är inne
             i ett väldigt gynnsamt konjunkturläge. Det finns en stark efterfrågan
             i ekonomin hos små företag och glädjande även hos den starka svenska
             tillverkningsindustrin.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-99" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-98" next="i-a3afb22800180967-100">
           <seg xml:id="i-DJgTqBak1SCxWxukqNW7gw">
             Faktum är att den svenska tillverkningsindustrin inte har varit
             så här optimistisk sedan 90-talet. Det har inte gjorts så här
             stora investeringar sedan finanskrisen. Detta påverkar jobb och
             utveckling i hela landet, och det drar Sveriges ekonomi framåt.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-100" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-99">
           <seg xml:id="i-9rC3xCjiDhDFka48sQKYUW">
             Om man tittar på de analyser som har kommit, både Företagens
             villkor och verklighet 2017 och Småföretagarbarometern, ser man
@@ -2053,19 +1911,15 @@
         <note xml:id="i-BcgFD1ce4dRLz4gm8AHyDL" type="speaker">
           Anf. 20 PER-ARNE HÅKANSSON (S):
         </note>
-        <u xml:id="i-a3afb22800180967-101" who="i-DfMBmwjfAwnb2JfXgJ9isk" next="i-a3afb22800180967-102">
+        <u xml:id="i-a3afb22800180967-101" who="i-DfMBmwjfAwnb2JfXgJ9isk">
           <seg xml:id="i-D4qabha95MWLfz48yyt5CQ">
             Herr talman! Tack för svaret!
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-102" who="i-DfMBmwjfAwnb2JfXgJ9isk" prev="i-a3afb22800180967-101" next="i-a3afb22800180967-103">
           <seg xml:id="i-LUSkEw4GZGUDNUctYeAtjA">
             Kopplingen mellan tillväxt, utbildning och jobb är en viktig
             del av detta. Kunskap och kvalitet är vårt starkaste vapen för
             att konkurrera med omvärlden.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-103" who="i-DfMBmwjfAwnb2JfXgJ9isk" prev="i-a3afb22800180967-102">
           <seg xml:id="i-Rrbgr9VrAvmtvbh7ZqMQ6T">
             Samverkan lyfts upp som en viktig framgångsfaktor i arbetet med
             att nå fram med den smarta industrin, automatiseringen och digitaliseringen.
@@ -2078,7 +1932,7 @@
         <note xml:id="i-RhFGK7bg8UmRpYp4ndPV59" type="speaker">
           Anf. 21 Närings- och innovationsminister MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-104" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-a3afb22800180967-105">
+        <u xml:id="i-a3afb22800180967-104" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-22KSK3vk737YtBRJpgnAZG">
             Herr talman! Först och främst krävs mer samverkan när det gäller
             utbildning. Utbildningsystemet och näringslivet har stått för
@@ -2087,8 +1941,6 @@
             Vi vill även se mer av yrkesvux så att vuxenutbildningen knyts
             närmare arbetsmarknaden.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-105" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-104" next="i-Vamh4CcscGyNq2pzhUdcQs">
           <seg xml:id="i-XyPFeiWFvZjk4H6nUnV1jv">
             Det handlar också om samverkan om digitalisering. Vi har satt
             upp målet att nå tusen små och medelstora företag med hjälp till
@@ -2097,8 +1949,6 @@
             hjälpa små och medelstora företag att kunna satsa mer på robotar
             och automatisering och därmed driva utvecklingen vidare.
           </seg>
-        </u>
-        <u xml:id="i-Vamh4CcscGyNq2pzhUdcQs" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-105">
           <seg xml:id="i-8QrQZJpVHyg7p5BPhsrmyh">
             En hållbar konsumtion
           </seg>
@@ -2106,7 +1956,7 @@
         <note xml:id="i-SYEAccnLGH4fziZJU6yUoy" type="speaker">
           Anf. 22 ANNIKA HIRVONEN FALK (MP):
         </note>
-        <u xml:id="i-a3afb22800180967-107" who="i-X9jqcGenibr5tWEbnZgddm" next="i-a3afb22800180967-108">
+        <u xml:id="i-a3afb22800180967-107" who="i-X9jqcGenibr5tWEbnZgddm">
           <seg xml:id="i-6wZYmfDrqooFhjkpzYXfHY">
             Herr talman! I FN:s generalförsamling ekade Donald Trumps tal
             tomt när det gäller klimatet, trots de naturkatastrofer som följer
@@ -2115,8 +1965,6 @@
             klivit på för att anta klimatutmaningen, sviker är det viktigare
             än någonsin att ett land som Sverige är ett föredöme.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-108" who="i-X9jqcGenibr5tWEbnZgddm" prev="i-a3afb22800180967-107">
           <seg xml:id="i-XsGDCPoLAU9aL97sNXdrAX">
             I den senaste budgeten presenterades en rad satsningar på klimat
             och skydd av värdefull natur. Ett annat område som är minst lika
@@ -2129,7 +1977,7 @@
         <note xml:id="i-6tPVLZyBzyGWewGG2CzNsD" type="speaker">
           Anf. 23 Statsrådet PER BOLUND (MP):
         </note>
-        <u xml:id="i-a3afb22800180967-109" who="i-C2s3YhmmVmNkgvznmmnD4x" next="i-a3afb22800180967-110">
+        <u xml:id="i-a3afb22800180967-109" who="i-C2s3YhmmVmNkgvznmmnD4x">
           <seg xml:id="i-Ch5jS1vBWArVDFwFKWbcsh">
             Herr talman! Tack för en väldigt viktig fråga! När vi mäter de
             utsläpp som sker bara inom vårt eget land ser vi att vi har lyckats
@@ -2138,8 +1986,6 @@
             under tid har ökat. Detta gäller utsläpp som sker på grund av
             svensk konsumtion, även i andra länder.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-110" who="i-C2s3YhmmVmNkgvznmmnD4x" prev="i-a3afb22800180967-109" next="i-a3afb22800180967-111">
           <seg xml:id="i-UzQPVBb5Tbc8EM77hQxZLi">
             Denna utveckling måste vi såklart vända för att nå Parismålet
             och de globala hållbarhetsmålen. Regeringen har därför satt igång
@@ -2149,15 +1995,11 @@
             reparerar sin kyl, frys eller spis i stället för att slänga och
             köpa nytt.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-111" who="i-C2s3YhmmVmNkgvznmmnD4x" prev="i-a3afb22800180967-110" next="i-a3afb22800180967-112">
           <seg xml:id="i-49zByU5K2QyrdKjpmdTnyJ">
             Vi fortsätter att uppmuntra mer hållbar konsumtion, till exempel
             upplevelsenäringen. Vi gör en stor kultursatsning, som verkligen
             är en form av hållbar konsumtion.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-112" who="i-C2s3YhmmVmNkgvznmmnD4x" prev="i-a3afb22800180967-111">
           <seg xml:id="i-Mu8EQbSsj4esDuFoZhqTLb">
             Steg för steg vidtar regeringen åtgärder för att stärka den mer
             hållbara konsumtionen. De är viktiga för att skapa en hållbar
@@ -2168,15 +2010,13 @@
         <note xml:id="i-A43iED8TPRRR9nXnVRAHA9" type="speaker">
           Anf. 24 ANNIKA HIRVONEN FALK (MP):
         </note>
-        <u xml:id="i-a3afb22800180967-113" who="i-X9jqcGenibr5tWEbnZgddm" next="i-a3afb22800180967-114">
+        <u xml:id="i-a3afb22800180967-113" who="i-X9jqcGenibr5tWEbnZgddm">
           <seg xml:id="i-61QXneKdFcvKKbru7TCCZX">
             Herr talman! Det finns ett annat område som är viktigt. Statsrådet
             lyfte upp frågan om reparationer. Men det handlar också om att
             produkter ska hålla längre från början, inte tillverkas bara för
             att slitas och slängas.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-114" who="i-X9jqcGenibr5tWEbnZgddm" prev="i-a3afb22800180967-113">
           <seg xml:id="i-LTfbF2Lyr2E44zz5YsuRxi">
             Har regeringen vidtagit åtgärder eller kommer regeringen att
             vidta åtgärder i Sverige och i EU-samarbetet, där en del av detta
@@ -2186,14 +2026,12 @@
         <note xml:id="i-AiqvMQzHpSKdJJKKPF3dRD" type="speaker">
           Anf. 25 Statsrådet PER BOLUND (MP):
         </note>
-        <u xml:id="i-a3afb22800180967-115" who="i-C2s3YhmmVmNkgvznmmnD4x" next="i-a3afb22800180967-116">
+        <u xml:id="i-a3afb22800180967-115" who="i-C2s3YhmmVmNkgvznmmnD4x">
           <seg xml:id="i-JdPxLr3ma9cGbzLQg6UrJU">
             Herr talman! Även det här är ett viktigt område för att få en
             mer hållbar konsumtion. Det behövs åtgärder både internationellt
             och i Sverige.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-116" who="i-C2s3YhmmVmNkgvznmmnD4x" prev="i-a3afb22800180967-115">
           <seg xml:id="i-435iNwXpmPFABF2Ey5fynk">
             Inom EU driver Sverige på för att se över ekodesigndirektivet
             i fråga om att utforma produkter så att de håller över tid, är
@@ -2210,28 +2048,22 @@
         <note xml:id="i-AFi15qbQ9edXshYCNiQ62P" type="speaker">
           Anf. 26 CHRISTINA ÖRNEBJÄR (L):
         </note>
-        <u xml:id="i-a3afb22800180967-117" who="i-UbgZDZPBynu5dutQ3jCsDn" next="i-a3afb22800180967-118">
+        <u xml:id="i-a3afb22800180967-117" who="i-UbgZDZPBynu5dutQ3jCsDn">
           <seg xml:id="i-U9beNxUS8SK5KiithFrR2C">
             Herr talman! Det här blir en allmänpolitisk fråga till statsrådet
             Damberg.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-118" who="i-UbgZDZPBynu5dutQ3jCsDn" prev="i-a3afb22800180967-117" next="i-a3afb22800180967-119">
           <seg xml:id="i-LUJAhK8cVYVLyyq7Wj8Mym">
             Det finns just nu en stor generation unga som växer upp i samhällets
             vård, ofta i boenden. På läktaren sitter Martin. Han kom som ensamkommande
             hit för tre år sedan och har varit med mig i riksdagen i en vecka.
             Han bodde först i boende, men nu bor han i ett familjehem.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-119" who="i-UbgZDZPBynu5dutQ3jCsDn" prev="i-a3afb22800180967-118" next="i-a3afb22800180967-120">
           <seg xml:id="i-6C2FnNup77vBgfEK4v6a6e">
             Martin drömmer själv om att så småningom bli pappa – en lika
             fin pappa som den han har mött i sitt familjehem. Det han önskar
             är att hans kompisar som bor i boenden också ska få den möjligheten.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-120" who="i-UbgZDZPBynu5dutQ3jCsDn" prev="i-a3afb22800180967-119">
           <seg xml:id="i-4hBeMdkbusqjNfSRJZN7jo">
             Vi vet att de unga som växer upp i boenden inte har samma möjligheter
             och inte får samma chanser som de som bor i familjehem. Det går
@@ -2245,20 +2077,16 @@
         <note xml:id="i-PnouJanDz5HHHncQwYZsb5" type="speaker">
           Anf. 27 Närings- och innovationsminister MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-121" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-a3afb22800180967-122">
+        <u xml:id="i-a3afb22800180967-121" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-a3afb22800180967-124">
           <seg xml:id="i-Ad1VgBKjUEsc1tVxUpfRWK">
             Herr talman! Tack för frågan!
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-122" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-121" next="i-a3afb22800180967-123">
           <seg xml:id="i-ECQeTDGTs8jrbsUQpmW1HF">
             En av de stora utmaningar vi har i Sverige är att verkligen ta
             vara på alla, inte minst barn och ungdomar, som har kommit till
             vårt land de senaste åren och att ge dem de bästa förutsättningarna
             att snabbt komma in i samhället.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-123" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-122" next="i-a3afb22800180967-124">
           <seg xml:id="i-AiVFXcqkZktAvroC1o254o">
             Nu vet vi att det är en ansträngd situation. Alla kommer inte
             att få plats i familjer utan en del kommer att hamna i särskilda
@@ -2271,7 +2099,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/2B591883-C2DB-488E-924E-015E1A6B4FA3#page=17"/>
-        <u xml:id="i-a3afb22800180967-124" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-123">
+        <u xml:id="i-a3afb22800180967-124" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-121">
           <seg xml:id="i-CJkhim5QThbuRbSEDv4NFF">
             Vi står inför en samhällsutmaning tillsammans. Den här regeringen
             har bestämt sig för att ge inte minst kommuner och landsting bästa
@@ -2283,26 +2111,20 @@
         <note xml:id="i-Fe8BUH1EnXjj2meMopo4ZB" type="speaker">
           Anf. 28 CHRISTINA ÖRNEBJÄR (L):
         </note>
-        <u xml:id="i-a3afb22800180967-125" who="i-UbgZDZPBynu5dutQ3jCsDn" next="i-a3afb22800180967-126">
+        <u xml:id="i-a3afb22800180967-125" who="i-UbgZDZPBynu5dutQ3jCsDn">
           <seg xml:id="i-RogCAHtyyj9oAvjS4TEZC6">
             Herr talman! Tack för svaret! Det är svårt att inte hålla med
             om att det är precis så vi ska jobba i civilsamhället.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-126" who="i-UbgZDZPBynu5dutQ3jCsDn" prev="i-a3afb22800180967-125" next="i-a3afb22800180967-127">
           <seg xml:id="i-R1YyiJQzYadVhMBhUaDiPk">
             Den här utmaningen har funnits länge. Det är inte så att det
             har blivit en brist på boenden precis nu, utan utmaningen har
             funnits länge.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-127" who="i-UbgZDZPBynu5dutQ3jCsDn" prev="i-a3afb22800180967-126" next="i-a3afb22800180967-128">
           <seg xml:id="i-5o1j4H1kKrRAnWTHY8S97J">
             Vi från Liberalerna och jag vill se en större samverkan mellan
             socialtjänst, skola och familjehem. Skolfam är ett lysande exempel.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-128" who="i-UbgZDZPBynu5dutQ3jCsDn" prev="i-a3afb22800180967-127">
           <seg xml:id="i-UCw5fbXbqJPoodxWbVUcLo">
             Vad händer med denna generation som växer upp på boenden när
             de själva blir föräldrar, när de själva så småningom får barn?
@@ -2313,7 +2135,7 @@
         <note xml:id="i-GYyjHHu1LCr2it2h3Jt2xg" type="speaker">
           Anf. 29 Närings- och innovationsminister MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-129" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-a3afb22800180967-130">
+        <u xml:id="i-a3afb22800180967-129" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-AHHrh1MSaNVZVuUXNvWad2">
             Herr talman! Här vill jag igen tacka för engagemanget. Denna
             fråga berör många av oss mycket och djupt. Det här kan inte heller
@@ -2322,8 +2144,6 @@
             har kommit till Sverige och göra det vi kan för att ge en plats,
             visa hur det går till i Sverige och ge stöd i arbetet.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-130" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-129">
           <seg xml:id="i-MMgZyjFWs7QUnAufNcCKdd">
             Mycket av detta arbete måste ske lokalt. Det kan inte dirigeras
             centralt uppifrån. Det krävs lokalt engagemang och resurser ute
@@ -2336,14 +2156,12 @@
         <note xml:id="i-SBY3t4oRP4HsvCGARhA6hk" type="speaker">
           Anf. 30 JAKOB FORSSMED (KD):
         </note>
-        <u xml:id="i-a3afb22800180967-131" who="i-TodycJLEopZCV6uNkQANDV" next="i-a3afb22800180967-132">
+        <u xml:id="i-a3afb22800180967-131" who="i-TodycJLEopZCV6uNkQANDV" next="i-a3afb22800180967-134">
           <seg xml:id="i-Fv4au7nKFGmNW1ubHccU7s">
             Herr talman! Hushållens bolåneskuld har ökat kraftigt. En bidragande
             orsak är ränteavdragen för bolån, som har drivit på bostadspriser
             och indirekt fungerat som en subvention av bankerna.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-132" who="i-TodycJLEopZCV6uNkQANDV" prev="i-a3afb22800180967-131" next="i-a3afb22800180967-133">
           <seg xml:id="i-GRaSbiXsArR2aXSieDi9Xx">
             Samtidigt har ränteavdragen historiskt sett bidragit till att
             hushåll utan stora kapitaltillgångar har kunnat köpa och äga en
@@ -2354,8 +2172,6 @@
             inte kan komma in på ägd bostadsmarknad utan är hänvisade till
             över tid betydligt dyrare bostadsrätter.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-133" who="i-TodycJLEopZCV6uNkQANDV" prev="i-a3afb22800180967-132" next="i-a3afb22800180967-134">
           <seg xml:id="i-VzpFoNFMDJXnKZ4AodMsmK">
             Kristdemokraternas slutsats av detta är att det är dags att påbörja
             en långsam avtrappning av ränteavdragen under förutsättning att
@@ -2365,7 +2181,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/2B591883-C2DB-488E-924E-015E1A6B4FA3#page=18"/>
-        <u xml:id="i-a3afb22800180967-134" who="i-TodycJLEopZCV6uNkQANDV" prev="i-a3afb22800180967-133">
+        <u xml:id="i-a3afb22800180967-134" who="i-TodycJLEopZCV6uNkQANDV" prev="i-a3afb22800180967-131">
           <seg xml:id="i-FEHDWLMfbuuD5JpQVUNmfa">
             Regeringen har haft lite svårt att presentera en samlad syn på
             detta. Jag skulle vilja höra statsrådet Dambergs syn på frågan.
@@ -2374,14 +2190,12 @@
         <note xml:id="i-58Jh4v2GabDouAQQ4KhGAe" type="speaker">
           Anf. 31 Närings- och innovationsminister MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-135" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-a3afb22800180967-136">
+        <u xml:id="i-a3afb22800180967-135" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-NsNaETHo2TkEgHufvqfiM6">
             Herr talman! Det är väl ingen hemlighet att regeringen inte har
             något förslag i budgeten om avtrappade ränteavdrag. Det kan vem
             som helst läsa sig till.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-136" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-135" next="i-a3afb22800180967-137">
           <seg xml:id="i-GWhqMGiWTTQH8BkXmhrqy1">
             Däremot är nog alla överens om att ingen heller kan säga att
             detta inte kan behöva göras. Vi följer situationen över tid med
@@ -2389,14 +2203,10 @@
             dessa frågor i regeringen följer frågan om stabilitet med stort
             allvar.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-137" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-136" next="i-a3afb22800180967-138">
           <seg xml:id="i-4evWFAbNU1KBfwKqRG7ySu">
             Vi utesluter inga åtgärder för att värna stabiliteten i det svenska
             systemet, och inte minst se till att priserna inte drar iväg.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-138" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-137">
           <seg xml:id="i-3mdszLVooSaqYoyGbjCJpL">
             Bostäder har de senaste åren inte varit billiga att köpa, och
             de familjer som har tecknat sig för stora lån har gjort det med
@@ -2409,12 +2219,10 @@
         <note xml:id="i-RJUXX6t5boBHSxB2J4XZWg" type="speaker">
           Anf. 32 JAKOB FORSSMED (KD):
         </note>
-        <u xml:id="i-GGnLQDi3zfHyrmhp4pJW4b" who="i-TodycJLEopZCV6uNkQANDV" next="i-a3afb22800180967-139">
+        <u xml:id="i-GGnLQDi3zfHyrmhp4pJW4b" who="i-TodycJLEopZCV6uNkQANDV">
           <seg xml:id="i-2FEU3oo2gq2S8c1xFjPi9N">
             Herr talman! Tack, statsrådet, för svaret!
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-139" who="i-TodycJLEopZCV6uNkQANDV" prev="i-GGnLQDi3zfHyrmhp4pJW4b" next="i-a3afb22800180967-140">
           <seg xml:id="i-CPwFB8dw3pTG8Nmw5qZcwU">
             Anledningen till att jag ställer frågan till statsrådet är att
             det låter lite olika från olika regeringsföreträdare – från bostadsministern,
@@ -2423,8 +2231,6 @@
             Frågan beskrivs som helt hypotetisk, och det sägs att det inte
             finns någon som helst process.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-140" who="i-TodycJLEopZCV6uNkQANDV" prev="i-a3afb22800180967-139">
           <seg xml:id="i-S6EzjoNqNHbx1ZxxDPmGiT">
             Jag är glad att statsrådet öppnar lite grann för en nedtrappning.
             Är regeringen beredd att ingå en bred överenskommelse där man
@@ -2450,13 +2256,11 @@
         <note xml:id="i-QypdtwpTYoATEo68pdyn92" type="speaker">
           Anf. 34 MARKUS WIECHEL (SD):
         </note>
-        <u xml:id="i-a3afb22800180967-143" who="i-Lw92TAaAVgG8Kdf7YxhViy" next="i-a3afb22800180967-144">
+        <u xml:id="i-a3afb22800180967-143" who="i-Lw92TAaAVgG8Kdf7YxhViy" next="i-a3afb22800180967-145">
           <seg xml:id="i-35tz3pYWiAzp5uVeqzsn7A">
             Herr talman! Min fråga är av allmänpolitisk karaktär och rör
             kurdernas självständighet i Irak.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-144" who="i-Lw92TAaAVgG8Kdf7YxhViy" prev="i-a3afb22800180967-143" next="i-a3afb22800180967-145">
           <seg xml:id="i-NHTxB1SWod9DMQF4A2sc4j">
             Trots det första delningsavtalet som undertecknades i Sèvres
             1920 efter första världskriget och trots löften om ett eget land
@@ -2466,7 +2270,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/2B591883-C2DB-488E-924E-015E1A6B4FA3#page=19"/>
-        <u xml:id="i-a3afb22800180967-145" who="i-Lw92TAaAVgG8Kdf7YxhViy" prev="i-a3afb22800180967-144" next="i-a3afb22800180967-146">
+        <u xml:id="i-a3afb22800180967-145" who="i-Lw92TAaAVgG8Kdf7YxhViy" prev="i-a3afb22800180967-143">
           <seg xml:id="i-4GBvfAj5DE5m73HNaXE6zr">
             I måndags fick de irakiska kurderna som sedan 2005 styr en erkänd
             autonom region i landet, KRG-regionen, äntligen rösta om sin självständighet.
@@ -2474,8 +2278,6 @@
             som Sveriges regering har för att erkänna ett eget land och har
             i många avseenden visat sig vara ett föredöme i Mellanöstern.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-146" who="i-Lw92TAaAVgG8Kdf7YxhViy" prev="i-a3afb22800180967-145">
           <seg xml:id="i-GQSEBiJMwk6bEpZ8rFAMqL">
             Avser regeringen att erkänna de irakiska kurdernas vilja när
             frågan om deras självständighet nu finns på pränt?
@@ -2484,20 +2286,16 @@
         <note xml:id="i-SQgZ94iPKAN7ikNt4EDwCj" type="speaker">
           Anf. 35 Närings- och innovationsminister MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-147" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-a3afb22800180967-148">
+        <u xml:id="i-a3afb22800180967-147" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-56Znd2m6UjrPNpzjXQ8Gto">
             Herr talman! Tack för frågan!
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-148" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-147" next="i-a3afb22800180967-149">
           <seg xml:id="i-8aKuSPF3dQtDcZiFfXp9UF">
             Det är inte första gången det har varit folkomröstningar om den
             typen av frågor i regionen. Regeringen stöder ett enat Irak. Frågan
             om en eventuell självständighet för den kurdiska regionen måste
             lösas genom dialog mellan Erbil och Bagdad.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-149" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-148" next="i-a3afb22800180967-150">
           <seg xml:id="i-8RzrttshoWYNKDLqtGSFbC">
             Vi står bakom principen om folkens rätt till självbestämmande.
             Det är en viktig och grundläggande princip för oss i internationell
@@ -2506,8 +2304,6 @@
             av självstyre och självständighet. Där finns redan i Irak ett
             visst mått av sådant självstyre fastställt i författningen.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-150" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-149">
           <seg xml:id="i-Au1AKbfetLRnfLdZL4wdaU">
             I nuläget är regeringens bedömning att det viktiga är dialog
             mellan parterna, att vi ser till att lösa en del av de akuta problem
@@ -2520,7 +2316,7 @@
         <note xml:id="i-VZqHtyb17PjyuPW2g4KDGt" type="speaker">
           Anf. 36 MARKUS WIECHEL (SD):
         </note>
-        <u xml:id="i-a3afb22800180967-151" who="i-Lw92TAaAVgG8Kdf7YxhViy" next="i-a3afb22800180967-152">
+        <u xml:id="i-a3afb22800180967-151" who="i-Lw92TAaAVgG8Kdf7YxhViy">
           <seg xml:id="i-MvTCof9L1mLJD23TPdKY1t">
             Herr talman! Jag gläds åt att regeringen är försiktig. Samtidigt
             har den här regionen varit väldigt stabil. Precis som ministern
@@ -2529,8 +2325,6 @@
             som dessutom har varit en viktig allierad för bland annat den
             svenska insatsen i Irak.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-152" who="i-Lw92TAaAVgG8Kdf7YxhViy" prev="i-a3afb22800180967-151">
           <seg xml:id="i-85w8nr7AoVMeuSmfi4jpxU">
             Det finns alltså fortfarande mycket som tyder på att det här
             erkännandet faktiskt kan stabilisera området ytterligare. Är det
@@ -2540,21 +2334,17 @@
         <note xml:id="i-Rp7D5na2S8dMGeo4maXmXq" type="speaker">
           Anf. 37 Närings- och innovationsminister MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-153" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-a3afb22800180967-154">
+        <u xml:id="i-a3afb22800180967-153" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-DvE2DYmP2Gv49tzV8kSvxh">
             Herr talman! Det finns ingen självständighet proklamerad. Det
             finns inte heller någonting att erkänna i dag.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-154" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-153" next="i-a3afb22800180967-155">
           <seg xml:id="i-3nKcH7khs6fhXzdXa32f7m">
             Vi har haft en folkomröstning som tydligt visar att de som deltog
             i folkomröstningen vill åt det här hållet. Det är en viktig politisk
             signal som blir diskuterad och känd i hela världen och som skapar
             diskussion men också en del oro på andra håll i regionen.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-155" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-154">
           <seg xml:id="i-PWYFZKze2vb7s2a4i8y3iq">
             Den svenska regeringen kommer att stödja inte minst FN:s dialogförsök
             i regionen för att skapa en långsiktig och hållbar utveckling,
@@ -2568,12 +2358,10 @@
         <note xml:id="i-AbxCE53jcQCzm8FrMiefo9" type="speaker">
           Anf. 38 NOOSHI DADGOSTAR (V):
         </note>
-        <u xml:id="i-a3afb22800180967-157" who="i-8voj19hLWTGJHkxNP79tRb" next="i-a3afb22800180967-158">
+        <u xml:id="i-a3afb22800180967-157" who="i-8voj19hLWTGJHkxNP79tRb">
           <seg xml:id="i-4jjBXrLGvKuehuv2HEXPUM">
             Herr talman! Min fråga är riktad till bostadsminister Peter Eriksson.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-158" who="i-8voj19hLWTGJHkxNP79tRb" prev="i-a3afb22800180967-157" next="i-a3afb22800180967-159">
           <seg xml:id="i-GkVPcZsK5VXXSjpNqC4Kc">
             Jag var i Örebro i går, och en tjej kom fram till mig och ställde
             en väldigt bra fråga som jag tänkte vidarebefordra till bostadsministern.
@@ -2584,8 +2372,6 @@
             den och hyr ut den. Vissa köper till och med flera bostäder för
             att hyra ut dem.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-159" who="i-8voj19hLWTGJHkxNP79tRb" prev="i-a3afb22800180967-158" next="i-6gBV1sJeFNPeqmeUhWTfgw">
           <seg xml:id="i-BwukyW8cEkjTET4WELuNFm">
             Den borgerliga regeringen ändrade lagstiftningen på så sätt att
             man nu kan ta ut väldigt höga marknadshyror vid andrahandsuthyrning.
@@ -2593,8 +2379,6 @@
             kvar sin bostad och hyr ut den pressar upp bostadspriserna på
             ett sätt som skapar ännu mer bostadsbrist.
           </seg>
-        </u>
-        <u xml:id="i-6gBV1sJeFNPeqmeUhWTfgw" who="i-8voj19hLWTGJHkxNP79tRb" prev="i-a3afb22800180967-159">
           <seg xml:id="i-8UQyzq3hEvczQoqHyPDyr3">
             Vad är bostadsministerns tankar kring detta?
           </seg>
@@ -2602,15 +2386,13 @@
         <note xml:id="i-KJq5cbGNbHEMrZ8yjs3a6t" type="speaker">
           Anf. 39 Statsrådet PETER ERIKSSON (MP):
         </note>
-        <u xml:id="i-a3afb22800180967-161" who="i-9BUsH2Bn1bGihptNC5r7uq" next="i-a3afb22800180967-162">
+        <u xml:id="i-a3afb22800180967-161" who="i-9BUsH2Bn1bGihptNC5r7uq">
           <seg xml:id="i-AjpGMfJncCMphvvQTnufM6">
             Herr talman! I grunden är det ju så att vi i Sverige inte har
             haft erfarenheten att det är en hög grad av spekulation på bostäder.
             Det är relativt ovanligt i Sverige att man har kvar sin tidigare
             bostad när man flyttar och i stället hyr ut den.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-162" who="i-9BUsH2Bn1bGihptNC5r7uq" prev="i-a3afb22800180967-161" next="i-a3afb22800180967-163">
           <seg xml:id="i-PtH6WrjgaxdyrD7dhukCWz">
             Jag har hört att det finns en sådan tendens på vissa ställen
             i dag och att den ökar, men vi har ingen riktig bild av hur stort
@@ -2619,8 +2401,6 @@
             eller en trolig utveckling att det minskar igen, så jag är inte
             säker på att vi i dag behöver vidta några åtgärder.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-163" who="i-9BUsH2Bn1bGihptNC5r7uq" prev="i-a3afb22800180967-162">
           <seg xml:id="i-TiVevDkGFjspgvtHfb3214">
             Vad man skulle vilja komma till är ett läge där vi får bättre
             kunskap om det här är ett problem i dag eller inte.
@@ -2629,21 +2409,17 @@
         <note xml:id="i-A9DAGyMYYUzWGjFmSXHn1a" type="speaker">
           Anf. 40 NOOSHI DADGOSTAR (V):
         </note>
-        <u xml:id="i-a3afb22800180967-164" who="i-8voj19hLWTGJHkxNP79tRb" next="i-a3afb22800180967-165">
+        <u xml:id="i-a3afb22800180967-164" who="i-8voj19hLWTGJHkxNP79tRb">
           <seg xml:id="i-MqLA8B2FAmDevicUZALE1Z">
             Herr talman! Tack för svaret! Jag upplever att bostadsministern
             ändå har funderat på de här frågorna.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-165" who="i-8voj19hLWTGJHkxNP79tRb" prev="i-a3afb22800180967-164" next="i-a3afb22800180967-166">
           <seg xml:id="i-3FD5EYyqdnRxWkEUU6mDZ3">
             Jag får den här frågan ganska ofta – oftare och oftare, faktiskt.
             Jag upplever att det är många som ser i sin närhet att det finns
             en sådan här problematik och att marknadshyresmodellerna för bostadsrätter
             har gjort det ännu mer lönsamt att göra på det här sättet.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-166" who="i-8voj19hLWTGJHkxNP79tRb" prev="i-a3afb22800180967-165">
           <seg xml:id="i-Vqr1cUPCQWBwdCDvrfGgJk">
             Finns det någon fundering från bostadsministerns sida att förändra
             den lagstiftningen så att man inte kan ta ut de här höga marknadshyrorna
@@ -2653,12 +2429,10 @@
         <note xml:id="i-5DZNsjWgppso3w5equ8M6j" type="speaker">
           Anf. 41 Statsrådet PETER ERIKSSON (MP):
         </note>
-        <u xml:id="i-a3afb22800180967-167" who="i-9BUsH2Bn1bGihptNC5r7uq" next="i-a3afb22800180967-168">
+        <u xml:id="i-a3afb22800180967-167" who="i-9BUsH2Bn1bGihptNC5r7uq" next="i-a3afb22800180967-169">
           <seg xml:id="i-5wTJfhYNoTtFwPSHbw58yg">
             Herr talman! I dag har vi inga sådana förslag.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-168" who="i-9BUsH2Bn1bGihptNC5r7uq" prev="i-a3afb22800180967-167" next="i-a3afb22800180967-169">
           <seg xml:id="i-RoVevVwJGjrYV8G7S1xvca">
             Om detta nu stämmer, om vi ponerar att det kanske drar åt det
             här hållet, kan det ju bero på flera saker. Det kan bero på att
@@ -2669,7 +2443,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/2B591883-C2DB-488E-924E-015E1A6B4FA3#page=21"/>
-        <u xml:id="i-a3afb22800180967-169" who="i-9BUsH2Bn1bGihptNC5r7uq" prev="i-a3afb22800180967-168">
+        <u xml:id="i-a3afb22800180967-169" who="i-9BUsH2Bn1bGihptNC5r7uq" prev="i-a3afb22800180967-167">
           <seg xml:id="i-KUMinua3FxEf36gjA6wBPj">
             Jag tror inte att det är säkert att den här utvecklingen kommer
             att fortsätta.
@@ -2681,19 +2455,15 @@
         <note xml:id="i-SFbABTo69cj89CcY1y5hcM" type="speaker">
           Anf. 42 ISABELLA HÖKMARK (M):
         </note>
-        <u xml:id="i-a3afb22800180967-170" who="i-8D1Xb5xvLE2YRWLnmb9hGW" next="i-M8i1tSssiqAp7BRf8UKy8e">
+        <u xml:id="i-a3afb22800180967-170" who="i-8D1Xb5xvLE2YRWLnmb9hGW">
           <seg xml:id="i-G1fv7Gq6evn1hiEJbVDofa">
             Herr talman! Min fråga går till statsrådet Shekarabi.
           </seg>
-        </u>
-        <u xml:id="i-M8i1tSssiqAp7BRf8UKy8e" who="i-8D1Xb5xvLE2YRWLnmb9hGW" prev="i-a3afb22800180967-170" next="i-K24KmeaSMiq63QdEMtzhv2">
           <seg xml:id="i-NfQ5ArPALTqvE4FoEGNGMY">
             Riksdagen beslutade i mars 2015 att tillståndsplikten för LAN-spel
             skulle tas bort eller avgiftsbefrias. Samtidigt uppmanade man
             regeringen att påskynda detta arbete.
           </seg>
-        </u>
-        <u xml:id="i-K24KmeaSMiq63QdEMtzhv2" who="i-8D1Xb5xvLE2YRWLnmb9hGW" prev="i-M8i1tSssiqAp7BRf8UKy8e" next="i-T17K84LQzHQYcJDHb89R3w">
           <seg xml:id="i-9Ha7cor6GeXsT4aY9gKhgU">
             Regeringen återkom i en skrivelse i mars förra året om att en
             proposition var att vänta under hösten. Detta upprepades i en
@@ -2701,8 +2471,6 @@
             fanns ingen sådan proposition med i den propositionsförteckning
             som publicerades häromveckan.
           </seg>
-        </u>
-        <u xml:id="i-T17K84LQzHQYcJDHb89R3w" who="i-8D1Xb5xvLE2YRWLnmb9hGW" prev="i-K24KmeaSMiq63QdEMtzhv2">
           <seg xml:id="i-FPUXWFirYKtDUimsim2qXR">
             Därför frågar jag statsrådet: När avser statsrådet att återkomma
             med en proposition i frågan?
@@ -2711,19 +2479,15 @@
         <note xml:id="i-HugprUMcf411wnA9rPt27q" type="speaker">
           Anf. 43 Statsrådet ARDALAN SHEKARABI (S):
         </note>
-        <u xml:id="i-GgXvaMha1iBni5FQsV6Yae" who="i-LGnWAFHmtMWgHhZSuUL8EB" next="i-a3afb22800180967-172">
+        <u xml:id="i-GgXvaMha1iBni5FQsV6Yae" who="i-LGnWAFHmtMWgHhZSuUL8EB">
           <seg xml:id="i-3Pv9nvtc6WXuEhAAS5srQf">
             Herr talman! Tack, Isabella Hökmark, för frågan!
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-172" who="i-LGnWAFHmtMWgHhZSuUL8EB" prev="i-GgXvaMha1iBni5FQsV6Yae" next="i-a3afb22800180967-173">
           <seg xml:id="i-9P3wVeKHypgy12GG4Lrv41">
             Just nu är vi i en intensiv fas i arbetet med att reformera hela
             den svenska spellagstiftningen. I den processen har vi parallellt
             haft fokus på LAN-spel.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-173" who="i-LGnWAFHmtMWgHhZSuUL8EB" prev="i-a3afb22800180967-172">
           <seg xml:id="i-R7R3YfDfAnbXTXSSjoAvUX">
             Det finns behov av förändringar, och vi kommer att återkomma
             med detaljer om hur förslag kommer att läggas fram. Men det är
@@ -2737,14 +2501,12 @@
         <note xml:id="i-FRLA9Yzb3XprrMVDDbDdoF" type="speaker">
           Anf. 44 ISABELLA HÖKMARK (M):
         </note>
-        <u xml:id="i-a3afb22800180967-174" who="i-8D1Xb5xvLE2YRWLnmb9hGW" next="i-a3afb22800180967-175">
+        <u xml:id="i-a3afb22800180967-174" who="i-8D1Xb5xvLE2YRWLnmb9hGW">
           <seg xml:id="i-7u9VASMR29NKMPB4DX9Wge">
             Herr talman! Nu har de här företagen betalat avgift sedan 2013.
             Det är en ganska hög avgift – ett stort onlineföretag betalar
             70 000 om året. Det drabbar förstås dem som spelar: unga och barn.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-175" who="i-8D1Xb5xvLE2YRWLnmb9hGW" prev="i-a3afb22800180967-174">
           <seg xml:id="i-LktHbVNZgqtZadv8M6SJHs">
             I våras uppfattade jag att ministern var lite mer positiv till
             att bryta ut den här frågan och avskaffa den här avgiften innan
@@ -2755,7 +2517,7 @@
         <note xml:id="i-6ScmNVQVBQnpdqLj344KH2" type="speaker">
           Anf. 45 Statsrådet ARDALAN SHEKARABI (S):
         </note>
-        <u xml:id="i-a3afb22800180967-176" who="i-LGnWAFHmtMWgHhZSuUL8EB" next="i-a3afb22800180967-177">
+        <u xml:id="i-a3afb22800180967-176" who="i-LGnWAFHmtMWgHhZSuUL8EB">
           <seg xml:id="i-MgDvQPu6o2RQbpCAMmcfow">
             Herr talman! Jag vill inte föregå beredningen i Regeringskansliet.
             För vår del är det viktigt att vi så snart som möjligt får på
@@ -2764,8 +2526,6 @@
             vi beaktar och tar tag i frågor som är närliggande spelpolitiken.
             Då kommer vi också att fokusera på LAN-spel.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-177" who="i-LGnWAFHmtMWgHhZSuUL8EB" prev="i-a3afb22800180967-176">
           <seg xml:id="i-V4NtXhR9hGCZfhx8QxrUbs">
             Nordeas flytt och Sveriges finansiella attraktionskraft
           </seg>
@@ -2774,12 +2534,10 @@
         <note xml:id="i-4idhwnMiwdh2tygXTnnSyQ" type="speaker">
           Anf. 46 ROLAND UTBULT (KD):
         </note>
-        <u xml:id="i-a3afb22800180967-178" who="i-KHxTD13x4T7QRobXtjMm4K" next="i-a3afb22800180967-179">
+        <u xml:id="i-a3afb22800180967-178" who="i-KHxTD13x4T7QRobXtjMm4K">
           <seg xml:id="i-7TReE3Z9m1wkrimxhzaXDQ">
             Herr talman! Min fråga går till finansmarknadsminister Per Bolund.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-179" who="i-KHxTD13x4T7QRobXtjMm4K" prev="i-a3afb22800180967-178" next="i-a3afb22800180967-180">
           <seg xml:id="i-MeBUYbsG7smpEdR41GVrsJ">
             Nordea, Nordens största bank och e n av EU:s största banker med
             10 miljoner privatkunder, har beslutat att flytta sitt huvudkontor
@@ -2787,8 +2545,6 @@
             och resolutionsavgifter utan framför allt om att man vill tillhöra
             den bankunion som finns i EU.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-180" who="i-KHxTD13x4T7QRobXtjMm4K" prev="i-a3afb22800180967-179">
           <seg xml:id="i-89L1hVXLmJC3MnUAaz64a3">
             Nordeas beslut har av allt att döma minskat tilltron till Sverige
             som en attraktiv miljö och hemvist för finansiella institut. Vad
@@ -2798,29 +2554,23 @@
         <note xml:id="i-U4bLQUYk9sZN9iDk6zyZys" type="speaker">
           Anf. 47 Statsrådet PER BOLUND (MP):
         </note>
-        <u xml:id="i-a3afb22800180967-181" who="i-C2s3YhmmVmNkgvznmmnD4x" next="i-a3afb22800180967-182">
+        <u xml:id="i-a3afb22800180967-181" who="i-C2s3YhmmVmNkgvznmmnD4x">
           <seg xml:id="i-AKihQHPbX3SnKYJPNV5GEs">
             Herr talman! Den slutsatsen kanske är lite för tidigt dragen.
             Jag skulle snarare säga att det finns väldigt stort förtroende
             för den svenska finansmarknaden.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-182" who="i-C2s3YhmmVmNkgvznmmnD4x" prev="i-a3afb22800180967-181" next="i-a3afb22800180967-183">
           <seg xml:id="i-VWErdJq2mJEzC1Vv8zYjVS">
             Vi kan också konstatera att svenska banker och finansinstitut
             är välmående. De upplevs som stabila av omvärlden. Det finns ett
             starkt förtroende för dem. De gör också stora vinster – det gäller
             även Nordea, som gick med över 40 miljarder i vinst förra året.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-183" who="i-C2s3YhmmVmNkgvznmmnD4x" prev="i-a3afb22800180967-182" next="i-a3afb22800180967-184">
           <seg xml:id="i-HJ45p7S5vfyB6hozBYecJ6">
             Att Nordea har valt att flytta handlar som Roland Utbult själv
             pekar på om att ha samma regler som konkurrenterna, det vill säga
             de regler som gäller inom bankunionen.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-184" who="i-C2s3YhmmVmNkgvznmmnD4x" prev="i-a3afb22800180967-183">
           <seg xml:id="i-PQuNZYCbmjp3RMHQUr1ouL">
             Däremot tycker jag inte att man ska överdriva effekterna av det
             här beslutet. Nordea har själv sagt att det handlar om kanske
@@ -2833,20 +2583,16 @@
         <note xml:id="i-F5NwFo5joMjDLJvWySVmy6" type="speaker">
           Anf. 48 ROLAND UTBULT (KD):
         </note>
-        <u xml:id="i-a3afb22800180967-185" who="i-KHxTD13x4T7QRobXtjMm4K" next="i-a3afb22800180967-186">
+        <u xml:id="i-a3afb22800180967-185" who="i-KHxTD13x4T7QRobXtjMm4K">
           <seg xml:id="i-Lw2U8kp7nm8otLartfbXws">
             Herr talman! Tack för svaret! Jag tror inte heller att vi ska
             överdriva, men det finns ändå en sådan atmosfär i Stockholm.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-186" who="i-KHxTD13x4T7QRobXtjMm4K" prev="i-a3afb22800180967-185" next="i-B65pVDuUKdYBchYhU9cEzK">
           <seg xml:id="i-GABssbmSzPVfuNmi4PKp41">
             Jag tycker att jag hör på finansmarknadsministern att han har
             övergivit visionen om Finansplats Stockholm, som är en gammal
             vision om en stark finansiell sektor i Stockholm, Europa och världen.
           </seg>
-        </u>
-        <u xml:id="i-B65pVDuUKdYBchYhU9cEzK" who="i-KHxTD13x4T7QRobXtjMm4K" prev="i-a3afb22800180967-186">
           <seg xml:id="i-SfHpsNpp6HNxDyXZeJAfLk">
             Vad tänker finansmarknadsministern vidta för åtgärder för att
             återställa detta med Finansplats Stockholm?
@@ -2855,7 +2601,7 @@
         <note xml:id="i-PcJGesdz3aHtSnVgmiBvqx" type="speaker">
           Anf. 49 Statsrådet PER BOLUND (MP):
         </note>
-        <u xml:id="i-a3afb22800180967-188" who="i-C2s3YhmmVmNkgvznmmnD4x" next="i-a3afb22800180967-189">
+        <u xml:id="i-a3afb22800180967-188" who="i-C2s3YhmmVmNkgvznmmnD4x">
           <seg xml:id="i-JVVinUudPoSgRtha1RDbx">
             Herr talman! Även i denna fråga tycker jag kanske att Roland
             Utbult springer väl snabbt. Det finns fortfarande en väldigt stor
@@ -2864,8 +2610,6 @@
             som just nu pågår här i Sveriges huvudstad. Stockholm har verkligen
             blivit ett nav för fintechutveckling i världen.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-189" who="i-C2s3YhmmVmNkgvznmmnD4x" prev="i-a3afb22800180967-188">
           <seg xml:id="i-CCsV7Pmk5z3GgTpd4iZ2pn">
             Det är klart att även bankerna ser detta. Många banker vill vara
             närvarande här. Även Nordea kommer att fortsätta att vara verksamma
@@ -2881,13 +2625,11 @@
         <note xml:id="i-VEocc3hdyos8f3ysL6BjY2" type="speaker">
           Anf. 50 BORIANA ÅBERG (M):
         </note>
-        <u xml:id="i-a3afb22800180967-191" who="i-WwZzVPGhpXnyH5jyp86JB7" next="i-a3afb22800180967-192">
+        <u xml:id="i-a3afb22800180967-191" who="i-WwZzVPGhpXnyH5jyp86JB7">
           <seg xml:id="i-Fi6QhEWUYKDP7naCHREZtT">
             Herr talman! Min fråga går till närings- och innovationsminister
             Mikael Damberg.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-192" who="i-WwZzVPGhpXnyH5jyp86JB7" prev="i-a3afb22800180967-191" next="i-Ea4SABDTbhZ6cd68EKGA9q">
           <seg xml:id="i-WC1XWdmzGk2e3Ffntzarn5">
             På landsbygden i Skåne har Telia stängt flera av sina telestationer
             med motiveringen att gammal teknik kommer att ersättas med ny,
@@ -2895,8 +2637,6 @@
             stänger stationer som används av Telias konkurrenter medan de
             som enbart används av Telia får vara kvar.
           </seg>
-        </u>
-        <u xml:id="i-Ea4SABDTbhZ6cd68EKGA9q" who="i-WwZzVPGhpXnyH5jyp86JB7" prev="i-a3afb22800180967-192">
           <seg xml:id="i-7j5iZJTj2A5ySwsYRxXs9n">
             Jag vill fråga om ministern anser att det är rätt att ett företag
             som ägs av staten använder osjysta metoder för att konkurrera
@@ -2906,15 +2646,13 @@
         <note xml:id="i-Yc2Ec8VpKQPKBidRgi91d8" type="speaker">
           Anf. 51 Närings- och innovationsminister MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-194" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-a3afb22800180967-195">
+        <u xml:id="i-a3afb22800180967-194" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-Pugrx1f3wYBN4NeNfjGKhY">
             Herr talman! Om ett bolag i Sverige använder osjysta eller olagliga
             metoder finns det en lagstiftning att tillämpa, och då bör man
             göra det. Som ansvarigt statsråd tänker jag inte uttala mig om
             enskilda företags agerande.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-195" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-194">
           <seg xml:id="i-TXoGnfeKqu9ugUSmdFsi2L">
             Däremot kan jag säga att regeringen har en väldigt offensiv bredbandspolitik.
             Vi har i princip fördubblat stödet för utbyggnad av bredband i
@@ -2941,15 +2679,13 @@
         <note xml:id="i-TvjDQDWxhjyGQfJpChN6GU" type="speaker">
           Anf. 53 Närings- och innovationsminister MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-197" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-a3afb22800180967-198">
+        <u xml:id="i-a3afb22800180967-197" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-RftY7fVu2tJKu6VPkN8an3">
             Herr talman! Nej, den här regeringen har inga privatiseringsplaner
             för Telia, som är ett stort bolag som är väldigt viktigt för oss
             och gör stora investeringar inte minst i bredband och digital
             utbyggnad i vårt land.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-198" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-197">
           <seg xml:id="i-kiCUMDaT8Abmb5xn23mqN">
             Jag förstår att borgerliga företrädare gärna vill privatisera
             nästan allt de kommer åt, men man kan konstatera att frågan om
@@ -2966,14 +2702,12 @@
         <note xml:id="i-4sa3KrQgY8sMvyipQKKcWr" type="speaker">
           Anf. 54 STEFAN JAKOBSSON (SD):
         </note>
-        <u xml:id="i-a3afb22800180967-200" who="i-7j9zqwa59cSRps4Te6ek4E" next="i-a3afb22800180967-201">
+        <u xml:id="i-a3afb22800180967-200" who="i-7j9zqwa59cSRps4Te6ek4E">
           <seg xml:id="i-6pEkdVb8ajSeiimZDL1mAq">
             Herr talman! Min fråga går till minister Mikael Damberg och gäller
             skolfrågor. Det är kanske inte ministerns huvudområde, men jag
             vet i alla fall att du inte är helt oäven när det gäller de frågorna.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-201" who="i-7j9zqwa59cSRps4Te6ek4E" prev="i-a3afb22800180967-200" next="i-a3afb22800180967-202">
           <seg xml:id="i-PKzQuXw222vnHMPBn2qeXM">
             Socialdemokraterna hade ett vallöfte: Inom 100 dagar skulle man
             minska antalet elever per klass med fem stycken. Det var SVT som
@@ -2983,8 +2717,6 @@
             lågstadiet, vilket är värre egentligen, har antalet elever ökat
             från 18,9 till 19,8.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-202" who="i-7j9zqwa59cSRps4Te6ek4E" prev="i-a3afb22800180967-201" next="i-a3afb22800180967-203">
           <seg xml:id="i-Ns3PuYZhTSi1Y5t3Vr4VWc">
             Den sista budgeten är nu lagd, herr talman, och då anser man
             kanske att vallöftet är sviket. Möjligtvis återkommer man i VÅP:en
@@ -2992,8 +2724,6 @@
             infria sina vallöften. I detta fall handlar det om klasstorlek,
             något som är otroligt viktigt för arbetsmiljön.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-203" who="i-7j9zqwa59cSRps4Te6ek4E" prev="i-a3afb22800180967-202">
           <seg xml:id="i-RuHJYRm82LEHfQvKw3gqsz">
             Framför dig här står en lärare och en politiker, så jag undrar
             å mina kollegors vägnar: När får vi se detta löfte infrias?
@@ -3002,7 +2732,7 @@
         <note xml:id="i-WFwymVZaC1LqRWtrBEstYc" type="speaker">
           Anf. 55 Närings- och innovationsminister MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-204" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-a3afb22800180967-205">
+        <u xml:id="i-a3afb22800180967-204" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-GZuNdsupGXao3HrEZdg1yj">
             Herr talman! Tack för frågan! Om det är något jag är stolt över
             under denna mandatperiod är det de enorma satsn ingar vi har gjort
@@ -3011,8 +2741,6 @@
             även akademin har enats om reformer för skolan som både höjer
             kvaliteten och ökar likvärdigheten.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-205" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-204" next="i-a3afb22800180967-206">
           <seg xml:id="i-Ho1gYC8NTVbpD4q7y9xXJ3">
             Vi lägger fram ett reformprogram värt ytterligare 6 miljarder
             kronor ovanpå de satsningar vi redan har gjort på svensk skola,
@@ -3021,8 +2749,6 @@
             tack vare kommunala och fristående skolors kloka beslut men kanske
             också till viss del de statsbidrag vi har gett kommuner och landsting.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-206" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-205">
           <seg xml:id="i-UE4JC1gUtY49wsGsefCKfj">
             Det är 20 000 fler människor som jobbar i svensk skola i dag.
             Vi ser att personaltätheten har ökat i svensk skola, trots att
@@ -3034,7 +2760,7 @@
         <note xml:id="i-V1XYVRNuhinaJfye9jnB1u" type="speaker">
           Anf. 56 STEFAN JAKOBSSON (SD):
         </note>
-        <u xml:id="i-a3afb22800180967-207" who="i-7j9zqwa59cSRps4Te6ek4E" next="i-a3afb22800180967-208">
+        <u xml:id="i-a3afb22800180967-207" who="i-7j9zqwa59cSRps4Te6ek4E">
           <seg xml:id="i-JMATg9ZprJX81c3TxMD4ty">
             Herr talman! Sverigedemokraterna vill självklart också ha lite
             mindre klasser, men framför allt tror jag som lärare att det viktigaste
@@ -3044,8 +2770,6 @@
             0,05 på högskoleprovet anser jag att detta är helt fel väg att
             gå.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-208" who="i-7j9zqwa59cSRps4Te6ek4E" prev="i-a3afb22800180967-207">
           <seg xml:id="i-2avroiVJCswgJrMJrVZ65m">
             Jag vill gärna höra Mikael Dambergs tankar kring detta, herr
             talman.
@@ -3055,7 +2779,7 @@
         <note xml:id="i-VUZzp5XJXUtLM5MpFZr2fq" type="speaker">
           Anf. 57 Närings- och innovationsminister MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-209" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-a3afb22800180967-210">
+        <u xml:id="i-a3afb22800180967-209" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-MddTiz8h3ELmfuiA2Vh3Pm">
             Herr talman! Den viktigaste satsning vi har gjort den här mandatperioden
             är den på lärarna. Den gäller bland annat deras arbetsmiljö. Vi
@@ -3064,8 +2788,6 @@
             satsning på kommuner och landsting som har gjort att lärarna nu
             har fått det största lönelyftet på svensk arbetsmarknad.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-210" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-209">
           <seg xml:id="i-KLcD3PUEEzeT1EmfFeFe7n">
             Att vi dessutom ser ett ökande intresse för att välja lärarutbildningen
             är ett väldigt positivt tecken i tiden. Vi gör dessutom försök
@@ -3079,20 +2801,16 @@
         <note xml:id="i-Kre9mXoK8xDx16hXBCmU7R" type="speaker">
           Anf. 58 LARS ERIKSSON (S):
         </note>
-        <u xml:id="i-a3afb22800180967-211" who="i-L2jZQY1rmXeXy9EGfsxUKG" next="i-a3afb22800180967-212">
+        <u xml:id="i-a3afb22800180967-211" who="i-L2jZQY1rmXeXy9EGfsxUKG">
           <seg xml:id="i-U26NExZv4Xw8yg4A7zrEUK">
             Herr talman! Jag väljer att ställa min fråga till bostadsminister
             Peter Eriksson.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-212" who="i-L2jZQY1rmXeXy9EGfsxUKG" prev="i-a3afb22800180967-211" next="i-a3afb22800180967-213">
           <seg xml:id="i-4xTzqV8emhhSo1TLmJw2BN">
             Det var länge sedan Sverige hade en regering som satsade så mycket
             på bostadspolitiken som vår regering gör. Det är vi många som
             är väldigt glada över.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-213" who="i-L2jZQY1rmXeXy9EGfsxUKG" prev="i-a3afb22800180967-212" next="i-a3afb22800180967-214">
           <seg xml:id="i-3kK2V5BCfWQMH4cqvUXuAK">
             I regeringens förslag till budget finns flera olika åtgärder,
             däribland ett antal nya. En av de nya åtgärderna är att stödet
@@ -3103,14 +2821,10 @@
             Sedan har de successivt fasats ut. I dag finns ett uppdämt behov
             av fler mätningar.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-214" who="i-L2jZQY1rmXeXy9EGfsxUKG" prev="i-a3afb22800180967-213" next="i-a3afb22800180967-215">
           <seg xml:id="i-2UkseKVwSfCUdDTrGFHbtZ">
             Drabbas man av radon i huset ökar risken att drabbas av lungcancer,
             vilket är en stor tragedi för alla som råkar ut för det.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-215" who="i-L2jZQY1rmXeXy9EGfsxUKG" prev="i-a3afb22800180967-214">
           <seg xml:id="i-GnY7eyw7w8i389d1KSt5AV">
             Jag undrar helt enkelt hur Peter Eriksson ser på detta stöd och
             dess förutsättningar att åstadkomma resultat.
@@ -3119,7 +2833,7 @@
         <note xml:id="i-9vw99BjcYyZG6BrSGzdLyX" type="speaker">
           Anf. 59 Statsrådet PETER ERIKSSON (MP):
         </note>
-        <u xml:id="i-a3afb22800180967-216" who="i-9BUsH2Bn1bGihptNC5r7uq" next="i-a3afb22800180967-217">
+        <u xml:id="i-a3afb22800180967-216" who="i-9BUsH2Bn1bGihptNC5r7uq">
           <seg xml:id="i-E2gsh9snqucEDhhgrde5q5">
             Herr talman! Vi har faktiskt flera åtgärder i budgeten som inriktar
             sig på inomhusmiljön och människors hälsa när det gäller bostäder.
@@ -3128,8 +2842,6 @@
             Det handlar om kanske 500 människor varje år som får lungcancer
             på grund av radon i bostäderna.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-217" who="i-9BUsH2Bn1bGihptNC5r7uq" prev="i-a3afb22800180967-216">
           <seg xml:id="i-686jBzZzMdhPAssBuCGshJ">
             Därför är jag glad att vi nu från regeringens sida har bestämt
             oss för att göra en ny stor satsning för att minska risken för
@@ -3145,15 +2857,13 @@
         <note xml:id="i-CSznjxMTjiAWkuVhqnUnLm" type="speaker">
           Anf. 60 LARS ERIKSSON (S):
         </note>
-        <u xml:id="i-a3afb22800180967-218" who="i-L2jZQY1rmXeXy9EGfsxUKG" next="i-a3afb22800180967-219">
+        <u xml:id="i-a3afb22800180967-218" who="i-L2jZQY1rmXeXy9EGfsxUKG">
           <seg xml:id="i-2tSHy1ssVY7vWbzByYNC9W">
             Herr talman! Jag tillhör dem som har jobbat en del med dessa
             frågor, och jag tycker att det är utomordentligt bra att detta
             stöd kommer tillbaka. Många organisationer ute i landet välkomnar
             också detta.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-219" who="i-L2jZQY1rmXeXy9EGfsxUKG" prev="i-a3afb22800180967-218">
           <seg xml:id="i-EgeEfZsPdws7T7AAFgKc9s">
             Ett medskick som jag ändå vill göra till regeringen är att detta
             är en fråga som hanteras av väldigt många olika myndigheter. Jag
@@ -3166,14 +2876,12 @@
         <note xml:id="i-EZmgnyW6W2eF2vc6CwNATq" type="speaker">
           Anf. 61 Statsrådet PETER ERIKSSON (MP):
         </note>
-        <u xml:id="i-a3afb22800180967-220" who="i-9BUsH2Bn1bGihptNC5r7uq" next="i-a3afb22800180967-221">
+        <u xml:id="i-a3afb22800180967-220" who="i-9BUsH2Bn1bGihptNC5r7uq">
           <seg xml:id="i-HCYREsg1Wsitv1hTLn6q45">
             Herr talman! Exakt hur regelverket kommer att se ut kommer att
             stå klart när riksdagen har fattat beslut om budgeten. Det kommer
             att införas under nästa år. Men jag håller med om det.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-221" who="i-9BUsH2Bn1bGihptNC5r7uq" prev="i-a3afb22800180967-220">
           <seg xml:id="i-5Qz7fsk1BZ3qZGsoWjRAZW">
             En viktig fråga handlar också om att vi måste få ut så bra information
             som möjligt, så att så många som möjligt känner att de har bra
@@ -3201,7 +2909,7 @@
         <note xml:id="i-55cXqFNnQZP3vaTZgbqHdL" type="speaker">
           Anf. 63 Närings- och innovationsminister MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-224" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-a3afb22800180967-225">
+        <u xml:id="i-a3afb22800180967-224" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-7PNrZEbJLCNqQ3QwLkBX4y">
             Herr talman! Det blir lite parallella universum, Jörgen Warborn.
             Vi har nu haft ett par veckor där Sveriges största företagsorganisationer
@@ -3209,8 +2917,6 @@
             på sina möjligheter att anställa och om de är optimistiska eller
             pessimistiska. Alla dessa undersökningar visar rekordsiffror.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-225" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-224" next="i-a3afb22800180967-226">
           <seg xml:id="i-Cohv9iSixX3n9hAoWTmR3d">
             Nio av tio företag säger att de vill expandera. Sju av tio ser
             goda förutsättningar för att expandera. Fyra av tio har tackat
@@ -3219,8 +2925,6 @@
             personal. Vi har i Sverige en tillväxt på 3,1 procent. Det är
             dubbelt så hög tillväxt som Tyskland.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-226" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-225">
           <seg xml:id="i-Ut9691KjRr3dUkEjxR6t19">
             Någonstans får det ändå finnas någon form av balans i hur man
             beskriver näringslivsklimatet i Sverige. Det har skapats över
@@ -3237,14 +2941,12 @@
         <note xml:id="i-Hyw6bFSj5s3Ld8x92iHJ5n" type="speaker">
           Anf. 64 JÖRGEN WARBORN (M):
         </note>
-        <u xml:id="i-a3afb22800180967-227" who="i-4fjwccvGrtcBzgdzdxhXhs" next="i-a3afb22800180967-228">
+        <u xml:id="i-a3afb22800180967-227" who="i-4fjwccvGrtcBzgdzdxhXhs">
           <seg xml:id="i-298WgmEUxw2oj7uZeNnzwV">
             Herr talman! Jag delar bilden att det går bra för företagen,
             men det är ju högkonjunktur just nu. Det går bra för företagen
             trots regeringens agerande, inte tack vare det.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-228" who="i-4fjwccvGrtcBzgdzdxhXhs" prev="i-a3afb22800180967-227">
           <seg xml:id="i-XruCHg27ky9nJyimcKnbyN">
             En av de frågor där företagarna är kritiska mot regeringen gäller
             detta med vinster i välfärden, där regeringen driver en direkt
@@ -3256,7 +2958,7 @@
         <note xml:id="i-71Ziur9eg5zPbkJDqEyCZo" type="speaker">
           Anf. 65 Närings- och innovationsminister MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-229" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-a3afb22800180967-230">
+        <u xml:id="i-a3afb22800180967-229" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-6i1sXTopu1SC8skotjnggq">
           <seg xml:id="i-En7VMMUZ6bVjwmbw6GVHbL">
             Herr talman! Vi är ju på en internationell marknad, så vi har
             samma internationella konjunktur som Tyskland, Storbritannien,
@@ -3265,8 +2967,6 @@
             som en av världens mest snabbväxande mogna ekonomier. Något gör
             vi bevisligen rätt i Sverige, till skillnad från andra länder.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-230" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-229" next="i-6i1sXTopu1SC8skotjnggq">
           <seg xml:id="i-BS2ptbsLyPzwQW5NpdFjCe">
             Det största tillväxthot som företagen anger är kompetensbrist,
             och det är därför regeringen satsar så enormt mycket på yrkesutbildning.
@@ -3275,7 +2975,7 @@
         <note xml:id="i-Nxyqo5H2T2fE1kNNhAxxDN">
           (Applåder)
         </note>
-        <u xml:id="i-6i1sXTopu1SC8skotjnggq" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-230">
+        <u xml:id="i-6i1sXTopu1SC8skotjnggq" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-229">
           <seg xml:id="i-PMv6sEK9tEv7buQzfkAJ18">
             Åtgärder för att minska digitaliseringsklyftan
           </seg>
@@ -3283,12 +2983,10 @@
         <note xml:id="i-Ciefanewf4Tm3WbfAx8nCK" type="speaker">
           Anf. 66 ERIK OTTOSON (M):
         </note>
-        <u xml:id="i-a3afb22800180967-231" who="i-KGa34znP4SNkFTbwiVao8N" next="i-a3afb22800180967-232">
+        <u xml:id="i-a3afb22800180967-231" who="i-KGa34znP4SNkFTbwiVao8N">
           <seg xml:id="i-P9DfHTM8nivXXz2ShHT1dd">
             Herr talman! Min fråga går till statsrådet Peter Eriksson.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-232" who="i-KGa34znP4SNkFTbwiVao8N" prev="i-a3afb22800180967-231" next="i-AW32p68pv59MGDw8Vxafja">
           <seg xml:id="i-KVq7JUVbh1h2bCaYhXRj6R">
             Vårt samhälle digitaliseras i allt snabbare takt. Det är många
             saker som utvecklas till att bli mindre pappersburna och mer digitala.
@@ -3299,8 +2997,6 @@
             efter. Jag möter också personer med funktionsnedsättningar som
             känner att det är svårt för dem att ta till sig digitala lösningar.
           </seg>
-        </u>
-        <u xml:id="i-AW32p68pv59MGDw8Vxafja" who="i-KGa34znP4SNkFTbwiVao8N" prev="i-a3afb22800180967-232">
           <seg xml:id="i-AmiyUG9n9c1T7fNiAZvS8i">
             Min fråga till statsrådet blir: Vad avser statsrådet och regeringen
             konkret att göra för att minska dessa klyftor och se till att
@@ -3310,7 +3006,7 @@
         <note xml:id="i-42b29kFFzStrhHA3Kawct9" type="speaker">
           Anf. 67 Statsrådet PETER ERIKSSON (MP):
         </note>
-        <u xml:id="i-a3afb22800180967-234" who="i-9BUsH2Bn1bGihptNC5r7uq" next="i-a3afb22800180967-235">
+        <u xml:id="i-a3afb22800180967-234" who="i-9BUsH2Bn1bGihptNC5r7uq">
           <seg xml:id="i-Ri33BjP9DM7JwRC5eDsZAe">
             Herr talman! Tack, Erik Ottoson, för frågan! Jag tror att du
             sätter fingret på en mycket viktig punkt. Det är helt avgörande
@@ -3320,8 +3016,6 @@
             medverka i det nya samhället. Man ska kunna göra det på samma
             villkor oavsett om man bor i Dorotea, ute i skogen, eller i Stockholm.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-235" who="i-9BUsH2Bn1bGihptNC5r7uq" prev="i-a3afb22800180967-234">
           <seg xml:id="i-Xhf4AEpXFetgdwoWQikg6W">
             Detta var skälet till att vi för mindre än ett år sedan tillsatte
             en ny bredbandsstrategi där vi inkluderar alla, till skillnad
@@ -3352,12 +3046,10 @@
         <note xml:id="i-HBGfeje33SQi2FhVEYbCfg" type="speaker">
           Anf. 69 Statsrådet PETER ERIKSSON (MP):
         </note>
-        <u xml:id="i-a3afb22800180967-237" who="i-9BUsH2Bn1bGihptNC5r7uq" next="i-a3afb22800180967-238">
+        <u xml:id="i-a3afb22800180967-237" who="i-9BUsH2Bn1bGihptNC5r7uq">
           <seg xml:id="i-G1xamWV5sQTNJHd7Crwfcd">
             Herr talman! Jag har en halv minut till på mig.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-238" who="i-9BUsH2Bn1bGihptNC5r7uq" prev="i-a3afb22800180967-237">
           <seg xml:id="i-9qqjmjRbB2rH4NER4ueckj">
             Infrastrukturen måste ut. Vi måste också arbeta för att minska
             de digitala klyftorna. Där har vi nu fått en satsning. I budgeten
@@ -3376,13 +3068,11 @@
         <note xml:id="i-BkquuaubaZfaeGcoJg9Avp" type="speaker">
           Anf. 70 OLLE FELTEN (SD):
         </note>
-        <u xml:id="i-a3afb22800180967-239" who="i-RMyMvNY8rQGcpLy854czaK" next="i-a3afb22800180967-240">
+        <u xml:id="i-a3afb22800180967-239" who="i-RMyMvNY8rQGcpLy854czaK">
           <seg xml:id="i-GxxqbmuV6WZG9GXwo82EPJ">
             Herr talman! Min fråga går till närings- och innovationsminister
             Mikael Damberg.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-240" who="i-RMyMvNY8rQGcpLy854czaK" prev="i-a3afb22800180967-239" next="i-a3afb22800180967-241">
           <seg xml:id="i-UgyMwiHoYsKMBMgJYaSzcj">
             Regeringen föreslår i sin budgetproposition ett tillskott på
             115 miljoner kronor till Tullverket för, som man säger, utökad
@@ -3394,8 +3084,6 @@
             varor och utmaningar inom effektiv handel, till exempel i samband
             med brexit.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-241" who="i-RMyMvNY8rQGcpLy854czaK" prev="i-a3afb22800180967-240">
           <seg xml:id="i-ShCFi37sTv9rzd2sVvYXpJ">
             Utifrån dagens uppdrag, önskade utökningar och det strukturella
             underskottet i Tullverket ser man att Tullverket är kraftigt underfinansierat.
@@ -3463,13 +3151,11 @@
         <note xml:id="i-FQLxJNe7vekhpbgj81upmL" type="speaker">
           Anf. 74 MONICA GREEN (S):
         </note>
-        <u xml:id="i-a3afb22800180967-246" who="i-17NC28Tx5CZ5mzwYAUHKqv" next="i-a3afb22800180967-247">
+        <u xml:id="i-a3afb22800180967-246" who="i-17NC28Tx5CZ5mzwYAUHKqv">
           <seg xml:id="i-BESDYWa2BtPHv9UErStSP7">
             Herr talman! Jag har en fråga till statsrådet Shekarabi på temat
             hela Sverige ska leva och framtidstron i hela landet.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-247" who="i-17NC28Tx5CZ5mzwYAUHKqv" prev="i-a3afb22800180967-246" next="i-a3afb22800180967-248">
           <seg xml:id="i-9LTXTjRgWhQaKJNezBwFpL">
             På läktaren sitter min praoelev Matilda Fridell. Hon kommer från
             Götene. Götene är en liten ort i Skaraborg. Utarmningen ute i
@@ -3480,8 +3166,6 @@
             till hela landet. Då kommer kompetensen i hela landet att kunna
             tas till vara.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-248" who="i-17NC28Tx5CZ5mzwYAUHKqv" prev="i-a3afb22800180967-247">
           <seg xml:id="i-XdGtB9an492zcosDqJJiiU">
             Kommer några av de 10 000 jobben att komma Skaraborg till del?
           </seg>
@@ -3530,7 +3214,7 @@
         <note xml:id="i-Bd5S6NodEAiyiFLAMFjH6g" type="speaker">
           Anf. 77 Statsrådet ARDALAN SHEKARABI (S):
         </note>
-        <u xml:id="i-a3afb22800180967-252" who="i-LGnWAFHmtMWgHhZSuUL8EB" next="i-EXQNHyPDBPWj97AwdusLZX">
+        <u xml:id="i-a3afb22800180967-252" who="i-LGnWAFHmtMWgHhZSuUL8EB">
           <seg xml:id="i-Wmk8BGzeHEi6MxGFu1zM8g">
             Herr talman! Vi har nu i budgeten en satsning som innebär att
             vi bygger ut de statliga servicekontoren för att förstärka den
@@ -3543,8 +3227,6 @@
             förstärka den statliga servicenärvaron så att alla medborgare
             får bra tillgång till statlig service.
           </seg>
-        </u>
-        <u xml:id="i-EXQNHyPDBPWj97AwdusLZX" who="i-LGnWAFHmtMWgHhZSuUL8EB" prev="i-a3afb22800180967-252">
           <seg xml:id="i-RrhrpFg6bYzNnHoeRH8e1z">
             Regeringens kollektivavtalsutredning och konflikten i Göteborgs
             hamn
@@ -3553,7 +3235,7 @@
         <note xml:id="i-25nvdcaLcsHcof48DgzRh6" type="speaker">
           Anf. 78 LARS HJÄLMERED (M):
         </note>
-        <u xml:id="i-a3afb22800180967-254" who="i-9118KyeHJPwjSm2gBg9zwB" next="i-a3afb22800180967-255">
+        <u xml:id="i-a3afb22800180967-254" who="i-9118KyeHJPwjSm2gBg9zwB">
           <seg xml:id="i-7sE3E18EGJdWYeUy2Ef6i7">
             Herr talman! Sex av tio containrar som importeras till eller
             exporteras från Sverige har tidigare gått genom Göteborgs hamn.
@@ -3562,8 +3244,6 @@
             som påverkat hamnen, medarbetarna och ytterst svenska företag
             och svensk ekonomi.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-255" who="i-9118KyeHJPwjSm2gBg9zwB" prev="i-a3afb22800180967-254" next="i-BNhcZ2e7LdvvddimDCD1SF">
           <seg xml:id="i-DiUB3uLdctfas7PeM9Huk6">
             Regeringen har tillsatt en utredning som ska titta på konfliktregler
             i händelser som denna i hamnen, när man har ett gällande kollektivavtal.
@@ -3572,8 +3252,6 @@
             i tiden. Under tiden fortgår problemen för hamnen, för Sverige
             och för svenska företag.
           </seg>
-        </u>
-        <u xml:id="i-BNhcZ2e7LdvvddimDCD1SF" who="i-9118KyeHJPwjSm2gBg9zwB" prev="i-a3afb22800180967-255">
           <seg xml:id="i-AC7kCaaG1k7MiKsBFAUvtV">
             Då vill jag fråga statsrådet Damberg: Är regeringen beredd att
             på något sätt ändra eller snabba på hanteringen av denna utredning
@@ -3613,7 +3291,7 @@
         <note xml:id="i-LbHF1BRFNrdB57UockZkb3" type="speaker">
           Anf. 80 LARS HJÄLMERED (M):
         </note>
-        <u xml:id="i-a3afb22800180967-259" who="i-9118KyeHJPwjSm2gBg9zwB" next="i-a3afb22800180967-260">
+        <u xml:id="i-a3afb22800180967-259" who="i-9118KyeHJPwjSm2gBg9zwB">
           <seg xml:id="i-KpAxYJUYPvv8N6x35d5tSv">
             Herr talman! Ja, hamnen är helt avgörande för svenska företag
             och för svensk ekonomi. Det oroande bortom den konflikt som vi
@@ -3624,8 +3302,6 @@
             Sverige, för den svenska industrin och för näringslivet. För att
             återta detta måste man först lösa hamnproblemen.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-260" who="i-9118KyeHJPwjSm2gBg9zwB" prev="i-a3afb22800180967-259">
           <seg xml:id="i-AeTibyFiquV9t5xYcnfH1f">
             Då kommer jag tillbaka till det som egentligen är en vädjan till
             regeringen: Ser man att det finns möjlighet att snabba på denna
@@ -3635,15 +3311,13 @@
         <note xml:id="i-2Af8irjFxprJX83sauX8RE" type="speaker">
           Anf. 81 Närings- och innovationsminister MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-261" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-a3afb22800180967-262">
+        <u xml:id="i-a3afb22800180967-261" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-VXdUz1xyyNR4sPoPuJ4x2j">
             Herr talman! Utredningen har fått på si g tiden fram till senast
             den 31 maj 2018. Om utredningen är färdig snabbare skulle ingen
             vara gladare än regeringen, men det måste göras ett gediget arbete
             om denna lagstiftning och hur den kan förändras.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-262" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-261">
           <seg xml:id="i-3Qqe6rrBzgmFpdnifSaPxx">
             Jag kan konstatera att Moderaterna tar tillfället i akt och börjar
             tala om att man ska införa en proportionalitetsprincip. Det är
@@ -3658,13 +3332,11 @@
         <note xml:id="i-MuJbzMhvgsHYNp2AcGffV8" type="speaker">
           Anf. 82 HILLEVI LARSSON (S):
         </note>
-        <u xml:id="i-a3afb22800180967-264" who="i-EgqHRHVoW5y9USDYuNoYuA" next="i-a3afb22800180967-265">
+        <u xml:id="i-a3afb22800180967-264" who="i-EgqHRHVoW5y9USDYuNoYuA">
           <seg xml:id="i-Y5LZGpP6v1jJKPHAAmERqU">
             Herr talman! Jag vill ställa min fråga till konsumentminister
             Per Bolund.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-265" who="i-EgqHRHVoW5y9USDYuNoYuA" prev="i-a3afb22800180967-264" next="i-a3afb22800180967-266">
           <seg xml:id="i-4XGcA1WFsSbu6SnAC2w9qr">
             Vi har på senare tid sett en del oseriösa dejtningssajter. Ett
             av de värsta exemplen är den som kallas för Rich Meet Beautiful,
@@ -3675,8 +3347,6 @@
             en kvinna som är i det närmaste helt naken. Hon har en bh på sig
             som hon håller på att ta av sig.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-266" who="i-EgqHRHVoW5y9USDYuNoYuA" prev="i-a3afb22800180967-265">
           <seg xml:id="i-THNhyU2N1ew4Vpq3fZyea4">
             Detta misstänks nu vara koppleri, men jag tycker också att det
             är könsdiskriminerande reklam som är väldigt kränkande. Min fråga
@@ -3688,7 +3358,7 @@
         <note xml:id="i-DQFXr6CnjDrDW6QWtm8Wy2" type="speaker">
           Anf. 83 Statsrådet PER BOLUND (MP):
         </note>
-        <u xml:id="i-a3afb22800180967-267" who="i-C2s3YhmmVmNkgvznmmnD4x" next="i-a3afb22800180967-268">
+        <u xml:id="i-a3afb22800180967-267" who="i-C2s3YhmmVmNkgvznmmnD4x">
           <seg xml:id="i-CQox6sYME99dTYTX96HiC9">
             Herr talman! Detta är en fråga som är oerhört allvarlig. För
             en feministisk regering är det såklart oacceptabelt med könsdiskriminering
@@ -3698,8 +3368,6 @@
             pengar för en jämställdhetsmyndighet som kan driva dessa frågor
             så aktivt som de förtjänar att drivas.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-268" who="i-C2s3YhmmVmNkgvznmmnD4x" prev="i-a3afb22800180967-267" next="i-a3afb22800180967-269">
           <seg xml:id="i-McPsViiiZ9NbWkxca1KAe">
             Regeringen har försökt att lyfta möjligheten för unga kvinnor
             att få förebilder, till exempel genom att ha en jämställd regering
@@ -3707,15 +3375,11 @@
             försökt att snabbare genomdriva jämställdhet i bolagsstyrelser,
             just för att det ska finnas förebilder.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-269" who="i-C2s3YhmmVmNkgvznmmnD4x" prev="i-a3afb22800180967-268" next="i-a3afb22800180967-270">
           <seg xml:id="i-B4R9BtuX1FmBJfb4kHHKQo">
             Men det exempel som tas upp är snarare motsatsen. Det undergräver
             förtroendet hos unga män och kvinnor och skapar en bild av att
             vi inte kan bestämma över våra egna liv.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-270" who="i-C2s3YhmmVmNkgvznmmnD4x" prev="i-a3afb22800180967-269">
           <seg xml:id="i-Wm4Y7gJfiFmAa8NRczLYmq">
             Regeringen tittar på denna fråga väldigt aktivt. Vi håller på
             att titta på hur vi bäst hanterar den. Vi bereder frågan just
@@ -3740,14 +3404,12 @@
         <note xml:id="i-7g6CYdwBFZkkmNbKy1F433" type="speaker">
           Anf. 85 Statsrådet PER BOLUND (MP):
         </note>
-        <u xml:id="i-a3afb22800180967-272" who="i-C2s3YhmmVmNkgvznmmnD4x" next="i-a3afb22800180967-273">
+        <u xml:id="i-a3afb22800180967-272" who="i-C2s3YhmmVmNkgvznmmnD4x">
           <seg xml:id="i-7ECyuy94FWoDqrBuozAPSA">
             Herr talman! Därför är det inte minst viktigt att vi har en diskrimineringslagstiftning
             som verkligen har bett och att vi avsätter resurser till våra
             myndigheter, till exempel Diskrimineringsombudsmannen och jämställdhetsmyndigheten.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-273" who="i-C2s3YhmmVmNkgvznmmnD4x" prev="i-a3afb22800180967-272">
           <seg xml:id="i-MLvrGaMwRYUWKW2WpWwgiZ">
             Samtidigt är det ett komplext område där vi också har högt ställda
             förväntningar när det gäller våra grundlagsskyddade rättigheter,
@@ -3764,20 +3426,16 @@
         <note xml:id="i-XFRgfzRpa7ZZo1ekPRKGuL" type="speaker">
           Anf. 86 JAMAL EL-HAJ (S):
         </note>
-        <u xml:id="i-a3afb22800180967-275" who="i-Swns2VJiq8mNPgw8cBRfJ9" next="i-a3afb22800180967-276">
+        <u xml:id="i-a3afb22800180967-275" who="i-Swns2VJiq8mNPgw8cBRfJ9" next="i-a3afb22800180967-278">
           <seg xml:id="i-UEbYUfNuGU8m6mEDQXsgst">
             Herr talman! Min fråga går till statsrådet Mikael Damberg.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-276" who="i-Swns2VJiq8mNPgw8cBRfJ9" prev="i-a3afb22800180967-275" next="i-a3afb22800180967-277">
           <seg xml:id="i-NCcRV6rTzNuxqC13cbYKuL">
             Sverige är mitt uppe i den fjärde industriella revolutionen,
             där digitalisering och automatisering radikalt förändrar förutsättningarna
             för industriell produktion. Den industriella tjänstesektorn kommer
             att fortsätta att växa.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-277" who="i-Swns2VJiq8mNPgw8cBRfJ9" prev="i-a3afb22800180967-276" next="i-a3afb22800180967-278">
           <seg xml:id="i-5F3qjx3erGRiPRRhZeJ3Wi">
             Industrin är en ovärderlig tillgång för Sverige. Den står för
             en femtedel av landets ekonomi och sysselsätter omkring 1 miljon
@@ -3785,13 +3443,11 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/2B591883-C2DB-488E-924E-015E1A6B4FA3#page=33"/>
-        <u xml:id="i-a3afb22800180967-278" who="i-Swns2VJiq8mNPgw8cBRfJ9" prev="i-a3afb22800180967-277" next="i-2zkWmvdfPpbr4S2eh8DT3F">
+        <u xml:id="i-a3afb22800180967-278" who="i-Swns2VJiq8mNPgw8cBRfJ9" prev="i-a3afb22800180967-275">
           <seg xml:id="i-26yrBo25LyP9YnuifX6JuB">
             Industrin står också för 77 procent av det samlade exportvärdet,
             och vart fjärde svenskt jobb är beroende av industrisektorn.
           </seg>
-        </u>
-        <u xml:id="i-2zkWmvdfPpbr4S2eh8DT3F" who="i-Swns2VJiq8mNPgw8cBRfJ9" prev="i-a3afb22800180967-278">
           <seg xml:id="i-FSZ8fTNhmc8bYLGcheqsNC">
             Mot denna bakgrund vill jag fråga innovationsministern: Genom
             vilka initiativ kan ministern trygga jobben inom industrisektorn?
@@ -3800,19 +3456,15 @@
         <note xml:id="i-J3QQjvpBiyzs7r1uMpLYmA" type="speaker">
           Anf. 87 Närings- och innovationsminister MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-280" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-a3afb22800180967-281">
+        <u xml:id="i-a3afb22800180967-280" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-UEudva8FpShCKh3wTs7s5E">
             Herr talman! Jag tackar för frågan.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-281" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-280" next="i-a3afb22800180967-282">
           <seg xml:id="i-AwaM4dkMZJEQRtzZraFCg1">
             Regeringen har utarbetat en nyindustrialiseringsstrategi ihop
             med svensk industri. Vi har tagit en fram en första handlingsplan
             med 45 åtgärder, och vi har bockat av de allra flesta av dem.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-282" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-281" next="i-a3afb22800180967-283">
           <seg xml:id="i-QDkj6ECfonPXu3Zkcfm71F">
             Vi håller nu på att bereda en andra handlingsplan, och flera
             av de punkter som återfinns i regeringens budget finns där. Det
@@ -3820,8 +3472,6 @@
             digitalisering och automation också kopplat till små och medelstora
             företag.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-283" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-282" next="i-a3afb22800180967-284">
           <seg xml:id="i-MKFGMUkb98fo8jjt4CBM5B">
             Vi har ett spännande arbete med hållbarhetsfrågan. Här är svensk
             industri världsledande. Nu tar vi steg framåt för att byta ut
@@ -3830,8 +3480,6 @@
             Enbart detta skulle kunna minska Sveriges koldioxidutsläpp med
             10 procent.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-284" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-283">
           <seg xml:id="i-NC7bvsD8zYM4ioDXpoMcJL">
             Det ger enorma möjligheter om vi jobbar ihop med svensk industri
             för att både driva industrin framåt med innovation och ta hållbarhetsfrågorna
@@ -3841,15 +3489,13 @@
         <note xml:id="i-WH6XRdPggBKMws8peidmJe" type="speaker">
           Anf. 88 JAMAL EL-HAJ (S):
         </note>
-        <u xml:id="i-a3afb22800180967-285" who="i-Swns2VJiq8mNPgw8cBRfJ9" next="i-a3afb22800180967-286">
+        <u xml:id="i-a3afb22800180967-285" who="i-Swns2VJiq8mNPgw8cBRfJ9">
           <seg xml:id="i-QeNjXgsGf8UpyfDpWRPNTe">
             Herr talman! Inte minst i nuvarande budget läggs en god grund
             för att fylla näringspolitiken med konkreta åtgärder så att Sverige
             blir ett land med hög sysselsättning, god tillväxt och stark global
             konkurrenskraft.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-286" who="i-Swns2VJiq8mNPgw8cBRfJ9" prev="i-a3afb22800180967-285">
           <seg xml:id="i-XMLgAQnUCqHXyZjSBU1rze">
             Vad kan ministern göra mer för att fortsätta att stärka Sverige
             som industrination?
@@ -3858,7 +3504,7 @@
         <note xml:id="i-TP2bGUBCi7mYsArJwg7T8M" type="speaker">
           Anf. 89 Närings- och innovationsminister MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-287" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-a3afb22800180967-288">
+        <u xml:id="i-a3afb22800180967-287" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-K8bZt1Bj7JQTUTDMoaQVc2">
             Herr talman! Det jag alltid gör är att tala väl om Sverige som
             industrination. Sverige är en modern industrination som vi ska
@@ -3866,8 +3512,6 @@
             tack vare svensk industri, och vi kommer aldrig att klara våra
             utmaningar utan svensk industri.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-288" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-287" next="i-MY1FesuEzMctrMPyQQcgtU">
           <seg xml:id="i-WEDgXWe4QAFfNSzFTSh22t">
             Vi satsar mycket på kompetensutveckling, för svensk industri
             har inte haft så här stora vakanstal tidigare. Man har svårt att
@@ -3875,8 +3519,6 @@
             så att industrin ska kunna fortsätta att växa och utvecklas i
             vårt land.
           </seg>
-        </u>
-        <u xml:id="i-MY1FesuEzMctrMPyQQcgtU" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-288">
           <seg xml:id="i-ExxBweQHePQurY4e5GAL7v">
             Bahaiernas situation i Iran
           </seg>
@@ -3884,12 +3526,10 @@
         <note xml:id="i-6A1PhF5uKXfHsZWoR6T9Yt" type="speaker">
           Anf. 90 ANDERS ÖSTERBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-290" who="i-DseAX2z2ZzXoN1AquKvaDC" next="i-a3afb22800180967-291">
+        <u xml:id="i-a3afb22800180967-290" who="i-DseAX2z2ZzXoN1AquKvaDC" next="i-a3afb22800180967-292">
           <seg xml:id="i-4PSbXsZmQMzvuk6DNyNhfc">
             Herr talman! Min fråga går till näringsminister Mikael Damberg.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-291" who="i-DseAX2z2ZzXoN1AquKvaDC" prev="i-a3afb22800180967-290" next="i-a3afb22800180967-292">
           <seg xml:id="i-XX1VVtJRdkp4Y4A5SB8ut9">
             Regeringen har besökt Iran och säger att man vill ha en strukturerad
             dialog med Iran. Svenska företag kommer att fortsätta att etablera
@@ -3898,7 +3538,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/2B591883-C2DB-488E-924E-015E1A6B4FA3#page=34"/>
-        <u xml:id="i-a3afb22800180967-292" who="i-DseAX2z2ZzXoN1AquKvaDC" prev="i-a3afb22800180967-291" next="i-a3afb22800180967-293">
+        <u xml:id="i-a3afb22800180967-292" who="i-DseAX2z2ZzXoN1AquKvaDC" prev="i-a3afb22800180967-290">
           <seg xml:id="i-G9WRxTDnRMSdg9aaT8EBie">
             I Iran har folk i allmänhet det svårt under regimen och minoriteterna
             i synnerhet. Bahaierna är en av de största religiösa minoriteterna.
@@ -3907,14 +3547,10 @@
             115 bahaistudenter tillträde till universiteten i Iran om de inte
             skrev på ett papper där de lovade att avsäga sig sin tro.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-293" who="i-DseAX2z2ZzXoN1AquKvaDC" prev="i-a3afb22800180967-292" next="i-R6k12YWbrhg46eKQwCU2Jq">
           <seg xml:id="i-MzWNLM2rvyEkRDoE9Z9wFf">
             Många bahaier sitter fängslade, däribland flertalet i deras högsta
             råd, yaran.
           </seg>
-        </u>
-        <u xml:id="i-R6k12YWbrhg46eKQwCU2Jq" who="i-DseAX2z2ZzXoN1AquKvaDC" prev="i-a3afb22800180967-293">
           <seg xml:id="i-4tr2oSEzzatx3tny4AaLMz">
             Min fråga till näringsministern är: Tänker Sverige ta upp bahaiernas
             situation med företrädare för regimen i Iran?
@@ -3923,12 +3559,10 @@
         <note xml:id="i-STaCRM6YGFNsi6z5t59XHk" type="speaker">
           Anf. 91 Närings- och innovationsminister MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-295" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-a3afb22800180967-296">
+        <u xml:id="i-a3afb22800180967-295" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-BnAhxACgniwJYrwzGJZyd5">
             Herr talman! Jag tackar Anders Österberg för frågan.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-296" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-295" next="i-a3afb22800180967-297">
           <seg xml:id="i-JUDRQfait9t4aS6P9UYuEk">
             Frågan om mänskliga rättigheter i Iran står högt upp på regeringens
             agenda. I alla våra kontakter med Iran påpekar vi vikten av mänskliga
@@ -3937,16 +3571,12 @@
             gäller även journalister, kvinnor och poeter. Många olika gruppers
             mänskliga rättigheter kränks i Iran.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-297" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-296" next="i-a3afb22800180967-298">
           <seg xml:id="i-NCZQVrjDVDM7zW3qum5XaY">
             Vi har tagit fram en strategi för företag och mänskliga rättigheter.
             Regeringen ställer tuffa krav på svenska företag som agerar på
             den internationella marknaden, och vi förväntar oss att de respekterar
             mänskliga rättigheter. Det är också en del av vår exportpolitik.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-298" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-297" next="i-a3afb22800180967-299">
           <seg xml:id="i-7DoBpT5KN7v36DDis9rWcM">
             Det är dock viktigt med öppenhet och att vi är närvarande i Iran.
             De oppositionspolitiker som jag har träffat här och även kopplat
@@ -3954,8 +3584,6 @@
             mot omvärlden. Det är snarare de konservativa grupperna i Iran
             som vill stänga till landet.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-299" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-298">
           <seg xml:id="i-9spMyUkJGYAVmhiPpn4Nko">
             Sverige måste därför jobba för öppenhet och för handel och utbyte
             med Iran. Vi tror att det förändrar samhället på sikt.
@@ -3964,21 +3592,17 @@
         <note xml:id="i-Ct9Ue7Xx4PW5xN1wjWoJNu" type="speaker">
           Anf. 92 ANDERS ÖSTERBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-300" who="i-DseAX2z2ZzXoN1AquKvaDC" next="i-a3afb22800180967-301">
+        <u xml:id="i-a3afb22800180967-300" who="i-DseAX2z2ZzXoN1AquKvaDC">
           <seg xml:id="i-RN4yeVCQhpc3Tngva8nH2H">
             Herr talman! Jag tackar näringsministern för det positiva svaret
             och hoppas att näringsministern för fram bahaiernas situation
             i Iran och hur de behandlas där.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-301" who="i-DseAX2z2ZzXoN1AquKvaDC" prev="i-a3afb22800180967-300" next="i-a3afb22800180967-302">
           <seg xml:id="i-U2H6DrKSkTjEA2zWKTZRWu">
             Det stämmer att det är många grupper som blir förtryckta. Bland
             andra riskerar en sufistisk ledare avrättning inom ett par dagar,
             precis som ett antal fackföreningsledare med flera.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-302" who="i-DseAX2z2ZzXoN1AquKvaDC" prev="i-a3afb22800180967-301">
           <seg xml:id="i-5pUF3DjkZ6QTkkcB7pnVUS">
             Jag tackar för svaret och hoppas att det går bra i dialogen med
             Iran.
@@ -3990,19 +3614,15 @@
         <note xml:id="i-D3BJhKz3fBhs9oJZoh3rPg" type="speaker">
           Anf. 93 INGELA NYLUND WATZ (S):
         </note>
-        <u xml:id="i-a3afb22800180967-303" who="i-EjPMvKrvi7HdAPnB25iKv8" next="i-a3afb22800180967-304">
+        <u xml:id="i-a3afb22800180967-303" who="i-EjPMvKrvi7HdAPnB25iKv8" next="i-a3afb22800180967-306">
           <seg xml:id="i-4CHNw7CTdNgDPex6gttVaG">
             Herr talman! Min fråga går till statsrådet Ardalan Shekarabi.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-304" who="i-EjPMvKrvi7HdAPnB25iKv8" prev="i-a3afb22800180967-303" next="i-a3afb22800180967-305">
           <seg xml:id="i-ScWsGpB8SJm3uZy7oYVPoW">
             Precis som Monica Green sa tidigare är det glädjande att regeringen
             gör stora insatser för att hela Sverige ska leva. Ett exempel
             på detta är utlokaliseringen av statliga myndigheter.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-305" who="i-EjPMvKrvi7HdAPnB25iKv8" prev="i-a3afb22800180967-304" next="i-a3afb22800180967-306">
           <seg xml:id="i-QLb7cEMhzcEgLdhiKoKE5E">
             Det är dock viktigt att regeringen också ser de inomregionala
             skillnaderna i huvudstadsregionen, för förutsättningarna här ser
@@ -4010,7 +3630,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/2B591883-C2DB-488E-924E-015E1A6B4FA3#page=35"/>
-        <u xml:id="i-a3afb22800180967-306" who="i-EjPMvKrvi7HdAPnB25iKv8" prev="i-a3afb22800180967-305" next="i-a3afb22800180967-307">
+        <u xml:id="i-a3afb22800180967-306" who="i-EjPMvKrvi7HdAPnB25iKv8" prev="i-a3afb22800180967-303">
           <seg xml:id="i-CqvvRhauoS27EEgVmzSceQ">
             Förra mandatperioden var Försäkringskassan på väg att helt lämna
             norra Botkyrka och Södertälje. Det handlar om stora kommuner med
@@ -4018,8 +3638,6 @@
             Inte minst med hjälp av den rödgröna oppositionen i riksdagen
             avfördes dessa planer, och Försäkringskassan är kvar.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-307" who="i-EjPMvKrvi7HdAPnB25iKv8" prev="i-a3afb22800180967-306">
           <seg xml:id="i-QCfxeWFExS7MaZFveBtKSd">
             Den 1 januari 2019 ska regeringen öppna nya servicekontor. Min
             ödmjuka fråga är: Kan man tänka sig att något av dessa servicekontor
@@ -4030,12 +3648,10 @@
         <note xml:id="i-7bRQiXq2pNCWSseThhcW73" type="speaker">
           Anf. 94 Statsrådet ARDALAN SHEKARABI (S):
         </note>
-        <u xml:id="i-a3afb22800180967-308" who="i-LGnWAFHmtMWgHhZSuUL8EB" next="i-a3afb22800180967-309">
+        <u xml:id="i-a3afb22800180967-308" who="i-LGnWAFHmtMWgHhZSuUL8EB">
           <seg xml:id="i-9w5D4BjamFSo9sNfwFn1Fs">
             Herr talman! Jag tackar Ingela Nylund Watz.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-309" who="i-LGnWAFHmtMWgHhZSuUL8EB" prev="i-a3afb22800180967-308" next="i-a3afb22800180967-310">
           <seg xml:id="i-N43LNvhyA3FmgH8kEuvbkH">
             Ja, regeringen kan tänka sig det. Vi har gett i uppdrag till
             myndigheterna att identifiera var vi har störst behov. Behovet
@@ -4044,8 +3660,6 @@
             städer. Därför kommer vi att säkerställa att medborgarna har en
             god tillgång till statlig service också i storstäderna.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-310" who="i-LGnWAFHmtMWgHhZSuUL8EB" prev="i-a3afb22800180967-309">
           <seg xml:id="i-VbqjsujpaZnHtYcDbw4UeV">
             Här behövs förstärkningar. Därför är det viktigt att vi fortsätter
             att bygga ut servicekontoren och jobbar gemensamt i den svenska
@@ -4057,21 +3671,17 @@
         <note xml:id="i-WjEYPzsLnRzX1kwNdyxJcr" type="speaker">
           Anf. 95 INGELA NYLUND WATZ (S):
         </note>
-        <u xml:id="i-a3afb22800180967-311" who="i-EjPMvKrvi7HdAPnB25iKv8" next="i-a3afb22800180967-312">
+        <u xml:id="i-a3afb22800180967-311" who="i-EjPMvKrvi7HdAPnB25iKv8">
           <seg xml:id="i-7uhJKAPwBDRmGeYUsTianq">
             Herr talman! Jag tackar statsrådet. Det var glädjande att få
             ett så tydligt svar.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-312" who="i-EjPMvKrvi7HdAPnB25iKv8" prev="i-a3afb22800180967-311" next="i-a3afb22800180967-313">
           <seg xml:id="i-9WsXqqv1FFxweyvN1Gh94x">
             Vi som representerar Stockholmsregionen är väl medvetna om att
             regeringen gör stora satsningar, inte minst på de områden där
             vi har ett stort utanförskap och stora sociala klyftor. Det är
             långsiktiga miljardsatsningar, vilket är jättebra.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-313" who="i-EjPMvKrvi7HdAPnB25iKv8" prev="i-a3afb22800180967-312">
           <seg xml:id="i-3Rh35u3PWUWVhCCHDKXseK">
             Den statliga närvaron är otroligt viktig för att dessa medborgare
             ska känna närhet och tillit till staten.
@@ -4080,14 +3690,12 @@
         <note xml:id="i-2rfLHECes2JCRBYsxqFmQW" type="speaker">
           Anf. 96 Statsrådet ARDALAN SHEKARABI (S):
         </note>
-        <u xml:id="i-a3afb22800180967-314" who="i-LGnWAFHmtMWgHhZSuUL8EB" next="i-a3afb22800180967-315">
+        <u xml:id="i-a3afb22800180967-314" who="i-LGnWAFHmtMWgHhZSuUL8EB">
           <seg xml:id="i-GeRxmrkeZLAVMevRWzj2EX">
             Herr talman! Regeringen kommer att fortsätta att jobba med denna
             fråga, både i paketet som handlar om omlokalisering av myndigheter
             och i förstärkningen av servicenärvaron.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-315" who="i-LGnWAFHmtMWgHhZSuUL8EB" prev="i-a3afb22800180967-314">
           <seg xml:id="i-DrzKKn2wASJenmuuvYzieu">
             Vi har också i vår dialog med kommunerna skickat signaler om
             att det är viktigt att de tar sitt ansvar och förstärker den kommunala
@@ -4109,7 +3717,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/2B591883-C2DB-488E-924E-015E1A6B4FA3#page=36"/>
-        <u xml:id="i-a3afb22800180967-317" who="i-V94NXHxQRsQu6mMDHyZAxs" prev="i-a3afb22800180967-316" next="i-a3afb22800180967-318">
+        <u xml:id="i-a3afb22800180967-317" who="i-V94NXHxQRsQu6mMDHyZAxs" prev="i-a3afb22800180967-316">
           <seg xml:id="i-16JWHhz1DXHDxbL2gev3av">
             Den senaste tiden har vi sett en ökande närvaro av både rasistiska
             och nazistiska organisationer. Under Almedalsveckan i somras fick
@@ -4119,21 +3727,15 @@
             Förra helgen såg vi en hatmarsch på Göteborgs paradgata. Den saknade
             tillstånd, och polisen valde aktivt att inte ingripa.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-318" who="i-V94NXHxQRsQu6mMDHyZAxs" prev="i-a3afb22800180967-317" next="i-a3afb22800180967-319">
           <seg xml:id="i-53Xw14xm8jY16Erq8WU2Hg">
             I helgen firas jom kippur, en av judarnas viktigaste högtider.
             Nordiska motståndsrörelsen har då fått tillstånd av polisen att
             marschera förbi synagogan i Göteborg och sedan samlas utanför
             den pågående bokmässan.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-319" who="i-V94NXHxQRsQu6mMDHyZAxs" prev="i-a3afb22800180967-318" next="i-a3afb22800180967-320">
           <seg xml:id="i-JMmrPVg2HCfa6fZ1kFZeGn">
             Man undrar hur det här ens kan hända.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-320" who="i-V94NXHxQRsQu6mMDHyZAxs" prev="i-a3afb22800180967-319">
           <seg xml:id="i-ARNQ4sXcT5qtok4vsMCwYn">
             Min fråga till Mikael Damberg är: Ska vi ha det så här?
           </seg>
@@ -4141,7 +3743,7 @@
         <note xml:id="i-E7s9SRi9wYjgVANGgedmZ2" type="speaker">
           Anf. 98 Närings- och innovationsminister MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-321" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-a3afb22800180967-322">
+        <u xml:id="i-a3afb22800180967-321" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-APpL53eAZKymzRMaYW63mH">
             Herr talman! Jag tackar Teres Lindberg för en väldigt viktig
             fråga. Jag tror att det är många som blir provocerade av det som
@@ -4153,8 +3755,6 @@
             miljontals människor utrotades under Förintelsen, och nu reser
             sig nazisterna igen och marscherar i Sverige.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-322" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-321">
           <seg xml:id="i-86QJWjfD42DMU6D6ZDxXCS">
             Vi har alla ett ansvar för att se till att nazister inte marscherar
             på Sveriges gator. Där måste regeringen göra en del. Vi försöker
@@ -4167,12 +3767,10 @@
         <note xml:id="i-GFTHN1CP2diXFtLDzXq6UL" type="speaker">
           Anf. 99 TERES LINDBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-323" who="i-V94NXHxQRsQu6mMDHyZAxs" next="i-a3afb22800180967-324">
+        <u xml:id="i-a3afb22800180967-323" who="i-V94NXHxQRsQu6mMDHyZAxs">
           <seg xml:id="i-XmUXn3SVZJWgtWHFwJnWRZ">
             Herr talman! Jag tackar statsrådet så mycket för svaret.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-324" who="i-V94NXHxQRsQu6mMDHyZAxs" prev="i-a3afb22800180967-323">
           <seg xml:id="i-BALdHmSaMXB3qhu6A2JMR6">
             Både som riksdagsledamot och som medborgare blir man oerhört
             provocerad när vi också har myndigheter som bidrar till att skapa
@@ -4186,7 +3784,7 @@
         <note xml:id="i-PwVeEsyVFyzoAENtvu5Qn1" type="speaker">
           Anf. 100 Närings- och innovationsminister MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-a3afb22800180967-325" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-a3afb22800180967-326">
+        <u xml:id="i-a3afb22800180967-325" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-CWhYuYQTpPBkBWHvhMfHpX">
             Herr talman! Jag tror att det är otroligt viktigt att säga att
             jag och regeringen aldrig kommer att acceptera nazism i Sverige.
@@ -4194,8 +3792,6 @@
             in de borgerliga partierna och Vänsterpartiet till samtal om samhällets
             förmåga att motverka antidemokratiska rörelser i samhället.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-326" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-a3afb22800180967-325">
           <seg xml:id="i-QvGDyLeRybAMNMxvtZ9PCY">
             Vi valde att inte bjuda in Sverigedemokraterna, för Sverigedemokraterna
             har inte bara sina rötter där utan även ledande företrädare i
@@ -4211,13 +3807,11 @@
         <note xml:id="i-CNGEhTW7SQvWmjcht6ii3S" type="speaker">
           Anf. 101 KERSTIN NILSSON (S):
         </note>
-        <u xml:id="i-a3afb22800180967-327" who="i-5Eq8EMsaTFyzYQzP7AM1mR" next="i-a3afb22800180967-328">
+        <u xml:id="i-a3afb22800180967-327" who="i-5Eq8EMsaTFyzYQzP7AM1mR">
           <seg xml:id="i-GDn6aDKCeM3deMRYqkzzfQ">
             Herr talman! Min fråga gäller bosättningslagen kontra kommunernas
             möjligheter – eller vilja – att ordna boende för nyanlända.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-328" who="i-5Eq8EMsaTFyzYQzP7AM1mR" prev="i-a3afb22800180967-327" next="i-a3afb22800180967-329">
           <seg xml:id="i-NxJ1DSCjqaY2Bfm78Ec1jE">
             Bosättningslagen gäller för alla kommuner. I de fall då kommunerna
             inte längre har egna hyresbostäder används det som ett argument
@@ -4230,8 +3824,6 @@
             är inte att betrakta som ett tillfredsställande boende, och inte
             kommer det att underlätta integrationen.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-329" who="i-5Eq8EMsaTFyzYQzP7AM1mR" prev="i-a3afb22800180967-328">
           <seg xml:id="i-WBufCojDUNPfU4bFVqTZdW">
             Anser statsrådet att detta förfarande stämmer med de intentioner
             regeringen haft med bosättningslagen?
@@ -4240,7 +3832,7 @@
         <note xml:id="i-4tnDaMAT9f38GU34Lq16JM" type="speaker">
           Anf. 102 Statsrådet PETER ERIKSSON (MP):
         </note>
-        <u xml:id="i-a3afb22800180967-330" who="i-9BUsH2Bn1bGihptNC5r7uq" next="i-a3afb22800180967-331">
+        <u xml:id="i-a3afb22800180967-330" who="i-9BUsH2Bn1bGihptNC5r7uq">
           <seg xml:id="i-UeJHwwydgLxwpdEsu89brY">
             Herr talman! Jag tycker att det är oerhört viktigt att man från
             kommunernas sida tar bostadsförsörjningsansvaret på stort allvar.
@@ -4250,8 +3842,6 @@
             för att man har ett bostadsförsörjningsansvar för alla medborgare
             som bor i landet.
           </seg>
-        </u>
-        <u xml:id="i-a3afb22800180967-331" who="i-9BUsH2Bn1bGihptNC5r7uq" prev="i-a3afb22800180967-330">
           <seg xml:id="i-7CBk3RSLZAMhNt89qDFvuc">
             Här har det funnits brister under lång tid, men vi ser nu att
             frågan har skärpts. Den har kommit upp på dagordningen i kommunerna
@@ -4701,7 +4291,7 @@
         <note xml:id="i-4t9is1wfNQKhbqF5geMF9D">
           Anf. 21 Närings- och innovationsminister MIKAEL DAMBERG (S)
         </note>
-        <u xml:id="i-883tRNEJiGuXJTDCBsD2YA" who="unknown">
+        <u xml:id="i-883tRNEJiGuXJTDCBsD2YA" who="unknown" next="i-a3afb22800180967-346">
           <seg xml:id="i-HHzMjhsPVTZhE4RDGkjkod">
             En hållbar konsumtion
           </seg>
@@ -4793,7 +4383,7 @@
         <note xml:id="i-NFp3hVvvmQ9ZwYX86cNZKj">
           Anf. 45 Statsrådet ARDALAN SHEKARABI (S)
         </note>
-        <u xml:id="i-a3afb22800180967-346" who="unknown">
+        <u xml:id="i-a3afb22800180967-346" who="unknown" prev="i-883tRNEJiGuXJTDCBsD2YA" next="i-NrbL3p8SZBpYH16PbJQ9vh">
           <seg xml:id="i-GjT1hKirczcHQg3purL6bS">
             Nordeas flytt och Sveriges finansiella attraktionskraft
           </seg>
@@ -4870,7 +4460,7 @@
         <note xml:id="i-5nXbb9Zvn7EmeC3t6dofT7">
           Anf. 65 Närings- och innovationsminister MIKAEL DAMBERG (S)
         </note>
-        <u xml:id="i-NrbL3p8SZBpYH16PbJQ9vh" who="unknown">
+        <u xml:id="i-NrbL3p8SZBpYH16PbJQ9vh" who="unknown" prev="i-a3afb22800180967-346" next="i-ARByM48CfQJoqGPHGKVCBY">
           <seg xml:id="i-BFg4e94EjMM99v83z4hymo">
             Åtgärder för att minska digitaliseringsklyftan
           </seg>
@@ -4917,7 +4507,7 @@
         <note xml:id="i-QmUoaDQxt1HKp43ykvNfRm">
           Anf. 77 Statsrådet ARDALAN SHEKARABI (S)
         </note>
-        <u xml:id="i-ARByM48CfQJoqGPHGKVCBY" who="unknown">
+        <u xml:id="i-ARByM48CfQJoqGPHGKVCBY" who="unknown" prev="i-NrbL3p8SZBpYH16PbJQ9vh" next="i-TDQVmDdo1AaticnyJsCnjX">
           <seg xml:id="i-6vEc3B7rLNyP7EwEDqh7Rk">
             Regeringens kollektivavtalsutredning och konflikten i Göteborgs
             hamn
@@ -4965,7 +4555,7 @@
         <note xml:id="i-RQXtvQFWuTCNtD2VWhBMA6">
           Anf. 89 Närings- och innovationsminister MIKAEL DAMBERG (S)
         </note>
-        <u xml:id="i-TDQVmDdo1AaticnyJsCnjX" who="unknown">
+        <u xml:id="i-TDQVmDdo1AaticnyJsCnjX" who="unknown" prev="i-ARByM48CfQJoqGPHGKVCBY">
           <seg xml:id="i-LVcsDCV6DgTs3zPREPefzh">
             Bahaiernas situation i Iran
           </seg>

@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-TMsMmhQSNuDdGndy8V7urm" type="speech">
             <linkGrp type="u">
               <ptr target="#i-5n2Jx7vsK6VkLEChyqZJb4"/>
@@ -394,7 +394,13 @@
               <ptr target="#i-AiLhJ5mpRi9nKaDGH9hTsV"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -638,13 +644,11 @@
         <note xml:id="i-AJWTjCb1H82JsduHr9WRaE" type="date">
           428 Den 17 Maj.
         </note>
-        <u xml:id="i-2cYRhMgJocqiu5Jqt4DHV7" who="i-MUyEorK3Jrs76puMnBfwJQ" prev="i-KYZ9bcGuBVsWFXyvSMAajP" next="i-AQ2RYmKLxCWzRZRXfZfq12">
+        <u xml:id="i-2cYRhMgJocqiu5Jqt4DHV7" who="i-MUyEorK3Jrs76puMnBfwJQ" prev="i-KYZ9bcGuBVsWFXyvSMAajP">
           <seg xml:id="i-5BAjnwFRhUaBfquyKHbwjQ">
             skall yrka på, så vida det icke vinner anklang inom Kammaren,
             utan får jag 1 annat fall instämma med Friherre af Ugglas.
           </seg>
-        </u>
-        <u xml:id="i-AQ2RYmKLxCWzRZRXfZfq12" who="i-MUyEorK3Jrs76puMnBfwJQ" prev="i-2cYRhMgJocqiu5Jqt4DHV7">
           <seg xml:id="i-3w5gn2XpaTx4nvcC4BW625">
             Efter härmed slutad öfverläggning gjordes först roposition på
             bifall till de tre punkterna, hvarvid svarades många Nej jemte
@@ -1004,7 +1008,7 @@
         <note xml:id="i-MbcDPysiqpgjfmWBysn2Mt" type="speaker">
           Friherre von Essen:
         </note>
-        <u xml:id="i-DMAyDKDwCVV69w17f1rgsW" who="i-RQ7DisaShnLmZ3DuVbxYXg" next="i-X5PCyzCHf38PN747eYAmsy">
+        <u xml:id="i-DMAyDKDwCVV69w17f1rgsW" who="i-RQ7DisaShnLmZ3DuVbxYXg" next="i-F3nWFVi5FJP3sEGNEyvruG">
           <seg xml:id="i-J3xHF7bsFkKv8C78AsRCP6">
             I föreliggande betänkande har Utskottet efter min tanke beträdt
             den rätta vägen, att nemligen låta skjutskestyret af den resande
@@ -1013,8 +1017,6 @@
             att understödja de skjutsningsskyldige, hvilka icke fått skjutsningsbesväret
             af de resande fullt ersatt, nödgats göra betydliga uppoffringar.
           </seg>
-        </u>
-        <u xml:id="i-X5PCyzCHf38PN747eYAmsy" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-DMAyDKDwCVV69w17f1rgsW" next="i-A9p9TwcE1w6ogs9ext2AqV">
           <seg xml:id="i-12diasQy64PMWjcmA3uy5X">
             Den siste ärade talaren har emellertid ansett att skjutslegan
             borde höjas endast på de ställen, der entreprenad är inrättad,
@@ -1046,8 +1048,6 @@
             inropa entreprenadrättigheten och derefter turvis infinna sig
             vid gästgifvaregården och utgöra skjutsen.
           </seg>
-        </u>
-        <u xml:id="i-A9p9TwcE1w6ogs9ext2AqV" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-X5PCyzCHf38PN747eYAmsy" next="i-F3nWFVi5FJP3sEGNEyvruG">
           <seg xml:id="i-WLovKzSoCdrr9FAdN7ypUa">
             Samme talare yttrade vidare, att skjutsbesväret genom jernvägars
             byggande i landet uti högst väsendtlig grad minskats, och detta
@@ -1062,7 +1062,7 @@
         <note xml:id="i-S4wkGwwPeMpxxnS32ERkUz" type="date">
           434 Den 17 Maj.
         </note>
-        <u xml:id="i-F3nWFVi5FJP3sEGNEyvruG" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-A9p9TwcE1w6ogs9ext2AqV" next="i-SxfC4ifu5iW9D7rsw8PwXa">
+        <u xml:id="i-F3nWFVi5FJP3sEGNEyvruG" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-DMAyDKDwCVV69w17f1rgsW">
           <seg xml:id="i-EBwrx6BzrMXvLr75Spqndd">
             orter, der jernvägar icke gå fram, så att, om ock den stora mängden
             haft godt deraf, så ligger dock i den omständigheten icke något
@@ -1075,8 +1075,6 @@
             innefatta ett steg 1 den rätta riktningen, som icke bör väcka
             betänkligheter hos någon. —-
           </seg>
-        </u>
-        <u xml:id="i-SxfC4ifu5iW9D7rsw8PwXa" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-F3nWFVi5FJP3sEGNEyvruG">
           <seg xml:id="i-JRrHVJfuyrYw3HWNLNf6BL">
             På de skäl, jag anfört, anhåller jag om bifall till Utskottets
             förelag.
@@ -1132,15 +1130,13 @@
         <note xml:id="i-AJUsSf1tVZmU53V6YWAUFi" type="date">
           Den 17 Maj. 435
         </note>
-        <u xml:id="i-T9tmtEWGLNnKRREEz8fRFQ" who="unknown" prev="i-Dka5eBxd418qVf2v3FLeBS" next="i-B7S5HrZT9zTxtkCfgwY2ce">
+        <u xml:id="i-T9tmtEWGLNnKRREEz8fRFQ" who="unknown" prev="i-Dka5eBxd418qVf2v3FLeBS">
           <seg xml:id="i-KLFaQcXHWiv1qgJXfWLH28">
             Att legan för entreprenadskjuts behöfver höjas, är klart deraf
             att, såsom kändt är, till följd af jernvägar och förbättrade kommunikationer,
             det för skjuts utgående antal hästar numera nedgått så, att skjutshåliningen
             lemnar långt ifrån samma vinst som förr.
           </seg>
-        </u>
-        <u xml:id="i-B7S5HrZT9zTxtkCfgwY2ce" who="unknown" prev="i-T9tmtEWGLNnKRREEz8fRFQ">
           <seg xml:id="i-6FQki77ZEhJESNhmSKkjcH">
             Af de skäl, som jag nu anfört, tror jag att Kammaren skulle göra
             klokt uti att afslå Utskottets hemställan och antaga reservanternes
@@ -1218,7 +1214,7 @@
         <note xml:id="i-AKugY4wrPwjXo3iV3K1xCD" type="speaker">
           Herr Odelberg:
         </note>
-        <u xml:id="i-NdY27yoLhEGyEgJ4ZNn4Ay" who="i-5gFxxU1pzf9wxfbqY5n4JU" next="i-NwZsRu5GVhJH1YfEY23ckg">
+        <u xml:id="i-NdY27yoLhEGyEgJ4ZNn4Ay" who="i-5gFxxU1pzf9wxfbqY5n4JU">
           <seg xml:id="i-K6VnzW2TD391FedHsWLqGE">
             Jag anhåller att få ansluta mig till den åsigt, som framställts
             af Friherre af Ugglas, nemligen att detta betänkande bör afslås.
@@ -1258,8 +1254,6 @@
             få skjutsa litet oftare, då han i alla fall för sådant ändamål
             måste hålla hästar.
           </seg>
-        </u>
-        <u xml:id="i-NwZsRu5GVhJH1YfEY23ckg" who="i-5gFxxU1pzf9wxfbqY5n4JU" prev="i-NdY27yoLhEGyEgJ4ZNn4Ay">
           <seg xml:id="i-HKzdeSoVmNV3jnYUrcxE75">
             Jag yrkar afslag.
           </seg>
@@ -1454,14 +1448,12 @@
         <note xml:id="i-WsRRywMHu1yYNcShtJFrNc" type="speaker">
           Friherre Sprengtporten:
         </note>
-        <u xml:id="i-86WqrCMDye5HCXTzXFxWAm" who="i-546BZUgJkUpc5jWGYVgVef" next="i-rm22xv1hHbcJB9HWDULu5">
+        <u xml:id="i-86WqrCMDye5HCXTzXFxWAm" who="i-546BZUgJkUpc5jWGYVgVef" next="i-ACJ86H8cWyFgwVLujEoqsm">
           <seg xml:id="i-CMnHJy8vy6qqVGxidzhCcP">
             Lika med den föregående talaren är också jag öfvertygad, att
             man icke af kommunerna kan påräkna synnerligt verksamt biträde
             för inrättandet af elementarläroverk för
           </seg>
-        </u>
-        <u xml:id="i-rm22xv1hHbcJB9HWDULu5" who="i-546BZUgJkUpc5jWGYVgVef" prev="i-86WqrCMDye5HCXTzXFxWAm" next="i-ACJ86H8cWyFgwVLujEoqsm">
           <seg xml:id="i-FLCrok6yhmxMdFpZ4PCesw">
             vinlig ungdom. Derjemte anser jag det vara utom allt tvifvel,
             att e grunder för sådana läroverks inrättande, hvilka Kongl. Maj:ti
@@ -1474,7 +1466,7 @@
         <note xml:id="i-DkH8yhmkEw57gGDS8hMZHe" type="date">
           240 Den 17 Maj.
         </note>
-        <u xml:id="i-ACJ86H8cWyFgwVLujEoqsm" who="i-546BZUgJkUpc5jWGYVgVef" prev="i-rm22xv1hHbcJB9HWDULu5">
+        <u xml:id="i-ACJ86H8cWyFgwVLujEoqsm" who="i-546BZUgJkUpc5jWGYVgVef" prev="i-86WqrCMDye5HCXTzXFxWAm">
           <seg xml:id="i-7mwd4zuYJBP82sSndpTfDq">
             åldern af den ungdom, som Kongl. Maj:t afsett skola i dessa läroverk
             emottagas; och får jag derföre för min del anhålla, att Kammaren,
@@ -1487,7 +1479,7 @@
         <note xml:id="i-JbqJgZK4TPTRK6W3785jdA" type="speaker">
           Herr von Koch:
         </note>
-        <u xml:id="i-8MyMuSK9ySktq16YyWX6tz" who="i-MUyEorK3Jrs76puMnBfwJQ" next="i-YAmPvYEjscAU7DuC56FEWs">
+        <u xml:id="i-8MyMuSK9ySktq16YyWX6tz" who="i-MUyEorK3Jrs76puMnBfwJQ" next="i-SY68PkrXyBvcG3uGNFWZJb">
           <seg xml:id="i-BxyU6qv6cwcEQczkbh9nS9">
             Vid remissen af den Kongl. propositionen uttalade jag mina åsigter
             i detta ämne och yttrade dervid, attjag hufvudsakligen instämde
@@ -1513,8 +1505,6 @@
             från det ena läroverket till det andra, men ingalunda kan verka
             fördelaktigt för utvecklingen af de menskliga anlagen i allmänhet.
           </seg>
-        </u>
-        <u xml:id="i-YAmPvYEjscAU7DuC56FEWs" who="i-MUyEorK3Jrs76puMnBfwJQ" prev="i-8MyMuSK9ySktq16YyWX6tz" next="i-SY68PkrXyBvcG3uGNFWZJb">
           <seg xml:id="i-XVgAPecguXfJKUVykQKrM4">
             Det är äfven en annan fråga af ganska stor vigt, som Utskottet
             i sitt betänkande berört, då Utskottet pagina 4 yttrar: "af ålder
@@ -1545,7 +1535,7 @@
         <note xml:id="i-PYvLKenLnYwQJtY7bhm5Nm" type="date">
           Den 17 Maj. +41
         </note>
-        <u xml:id="i-SY68PkrXyBvcG3uGNFWZJb" who="i-MUyEorK3Jrs76puMnBfwJQ" prev="i-YAmPvYEjscAU7DuC56FEWs" next="i-bEEWJFRhZC4MTShMdMmf5">
+        <u xml:id="i-SY68PkrXyBvcG3uGNFWZJb" who="i-MUyEorK3Jrs76puMnBfwJQ" prev="i-8MyMuSK9ySktq16YyWX6tz" next="i-bEEWJFRhZC4MTShMdMmf5">
           <seg xml:id="i-LM3ucbFparJ7AgaSKHvWLj">
             barn, hvilka i primärskolorna visa utmärkta anlag, må hjelpas
             framåt. Jag skulle derföre önska, att äfven beträffande ordnandet
@@ -1603,12 +1593,10 @@
         <note xml:id="i-QDo2St2rJNThevKmWGYB7t">
           442 Den i7 Maj.
         </note>
-        <u xml:id="i-bEEWJFRhZC4MTShMdMmf5" who="i-MUyEorK3Jrs76puMnBfwJQ" prev="i-SY68PkrXyBvcG3uGNFWZJb" next="i-Phk3LqQos7VanDY7ZHTmTc">
+        <u xml:id="i-bEEWJFRhZC4MTShMdMmf5" who="i-MUyEorK3Jrs76puMnBfwJQ" prev="i-SY68PkrXyBvcG3uGNFWZJb">
           <seg xml:id="i-YaMYopgPyDyi9sjTn9PJN9">
             endast vissa städer må åtnjuta frukterna af de qvinliga elementarskolorna.
           </seg>
-        </u>
-        <u xml:id="i-Phk3LqQos7VanDY7ZHTmTc" who="i-MUyEorK3Jrs76puMnBfwJQ" prev="i-bEEWJFRhZC4MTShMdMmf5">
           <seg xml:id="i-AoErszDPkXbSiH6L46cntx">
             Slutligen vill jag påpeka nödvändigheten af att något snart må
             göras i detta afseende, på det vi icke måtte komma allt för långt
@@ -1672,7 +1660,7 @@
         <note xml:id="i-DxzErvJ7bbYu9PMXmzQLKW" type="date">
           Den 17 Maj. 445
         </note>
-        <u xml:id="i-4BnmgcqFir18tYavdU2BkF" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-PwTrXvuWZZXKu3GEmjFJD4" next="i-6b7UrT6M9qYfm1jHqmXKqD">
+        <u xml:id="i-4BnmgcqFir18tYavdU2BkF" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-PwTrXvuWZZXKu3GEmjFJD4">
           <seg xml:id="i-6cWwCjfiUvePzBveR4enoC">
             Utskottet vid detta tillfälle inskränkt sig till ett yttrande
             om behofvet att förbättra den redan befintliga och upprätta nya
@@ -1720,8 +1708,6 @@
             en normalskola, som vore tjenlig till grund och ledning för det
             sätt, hvarpå skolor framdeles skulle inrättas.
           </seg>
-        </u>
-        <u xml:id="i-6b7UrT6M9qYfm1jHqmXKqD" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-4BnmgcqFir18tYavdU2BkF">
           <seg xml:id="i-KCHbbUTv1gTCTrVDuum27y">
             Jag fäster således stor vigt vid sednare delen af Utskottets
             förslag, deri framhålles önskligheten af åtgärders vidtagande
@@ -1858,7 +1844,7 @@
         <note xml:id="i-C5qXoWjbxSe7WwTKYHNQDj" type="date">
           446 Den 17 Maj.
         </note>
-        <u xml:id="i-6G2z8EneaFBgVJVPWMGBMJ" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-ycb5rVbRUbjW7Cetrtbfr" next="i-9fSiye3SEabyX7rgp4SeLz">
+        <u xml:id="i-6G2z8EneaFBgVJVPWMGBMJ" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-ycb5rVbRUbjW7Cetrtbfr" next="i-Bue1b74pM9fo9GTkyckfgr">
           <seg xml:id="i-T6RTUkDpZknip4LJfx7YS3">
             heten att göra något för qvinnans allmänna bildning, då komiterade
             framställt ett förslag, som af Kongl. Maj:t i dess väsendtligaste
@@ -1871,8 +1857,6 @@
             kunde erhålla undervisning, bör på de skäl, Utskottet anfört,
             förkastas.
           </seg>
-        </u>
-        <u xml:id="i-9fSiye3SEabyX7rgp4SeLz" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-6G2z8EneaFBgVJVPWMGBMJ" next="i-HWjq3ny6kDdJtZztizocQv">
           <seg xml:id="i-2jTNZzEGc5CSvN9Sc1cwZp">
             Man säger, att den begärda summan är allt för liten, att mera
             behöfves för ändamålets vinnande, samt att det troligen bakom
@@ -1883,8 +1867,6 @@
             icke sist denna Kammare, om den kan, också vill anslå nödiga medel
             för att låta denna vigtiga angelägenhet bringas till utförande.
           </seg>
-        </u>
-        <u xml:id="i-HWjq3ny6kDdJtZztizocQv" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-9fSiye3SEabyX7rgp4SeLz" next="i-AvKTLtKg4iM5oHBjT12qs">
           <seg xml:id="i-FJQY8LfNYPFp3FsKGBbwbA">
             1 Utskottets slutpunkt heter det: "att ifrågavarande Kongl. proposition
             icke må at Riksdagen bifallas, men att Riksdagen ville i underdånighet
@@ -1907,8 +1889,6 @@
             det, att bekosta blott 1,000 R:dr årligen till en skola, blir
             för dem alltför betungande.
           </seg>
-        </u>
-        <u xml:id="i-AvKTLtKg4iM5oHBjT12qs" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-HWjq3ny6kDdJtZztizocQv" next="i-Bue1b74pM9fo9GTkyckfgr">
           <seg xml:id="i-UMReQZokjarc73wnPtbKHH">
             Utskottet bar slutligen begärt, att Kongl. Maj:t, vid afgifvande
             af förutnämnda förslag, ville i sammanhang dermed föreslå &lt;vidtagande
@@ -1929,7 +1909,7 @@
         <note xml:id="i-Nbc4VesLY41YGdTGD8ZSJv" type="date">
           Den 17 Mai. 147
         </note>
-        <u xml:id="i-Bue1b74pM9fo9GTkyckfgr" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-AvKTLtKg4iM5oHBjT12qs" next="i-M2s1aemsTQhZPUkTMWk65z">
+        <u xml:id="i-Bue1b74pM9fo9GTkyckfgr" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-6G2z8EneaFBgVJVPWMGBMJ" next="i-LbC5ELxwjpmGdf5LGkfwpx">
           <seg xml:id="i-GXfGtcstc1zTnCYJoWTSDS">
             mänhet att erhålla undervisning, derigenom att man utsträcker
             lärarinnebildningen. En lärarinna skall hafva betaldt för sitt
@@ -1940,8 +1920,6 @@
             för hennes eget behof, utan jemväl sätter henne i tillfälle att
             understödja sina närmaste.
           </seg>
-        </u>
-        <u xml:id="i-M2s1aemsTQhZPUkTMWk65z" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-Bue1b74pM9fo9GTkyckfgr" next="i-LbC5ELxwjpmGdf5LGkfwpx">
           <seg xml:id="i-KgrA58FZLQ61KRYhWvBM2A">
             En reservant, som tillstyrkt bifall till Kongl. Maj:ts förslag,
             har dock ansett, att detsamma borde i så måtto förändras, att
@@ -1974,7 +1952,7 @@
           att skolorna icke skulle blifva, såsom en ärad talare fruktade,
           stöpta alla i samma form.
         </note>
-        <u xml:id="i-LbC5ELxwjpmGdf5LGkfwpx" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-M2s1aemsTQhZPUkTMWk65z" next="i-6Fs7ZjLGMwBPtL8TzcCpim">
+        <u xml:id="i-LbC5ELxwjpmGdf5LGkfwpx" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-Bue1b74pM9fo9GTkyckfgr" next="i-6Fs7ZjLGMwBPtL8TzcCpim">
           <seg xml:id="i-J8B2Ep1nMiH4n1WMzZbvho">
             Dessa äro de väsendtliga skiljaktigheterna, men ännu återstår
             en, nemligen i afseende på inträdesåldern. Då Departements-chefen
@@ -1997,7 +1975,7 @@
         <note xml:id="i-XcN1fAB7CobPnsqt6K7jrG" type="date">
           448 Den 17 Maj.
         </note>
-        <u xml:id="i-6Fs7ZjLGMwBPtL8TzcCpim" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-LbC5ELxwjpmGdf5LGkfwpx" next="i-AqvaPPyvKQ8QytfEaAk5Fr">
+        <u xml:id="i-6Fs7ZjLGMwBPtL8TzcCpim" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-LbC5ELxwjpmGdf5LGkfwpx" next="i-EkGuE11AzGgCNMJR7AMQM7">
           <seg xml:id="i-HucGqRnnDyE6uPaegT5Lnc">
             ålder. Härförutom vill jag äfven anmärka att de af komiterade
             föreslagna läroverk äro dels femklassiga, dels högre, så kallade
@@ -2005,8 +1983,6 @@
             treklassiga läroverk, hvilka dock framdeles skulle kunna utvidgas
             till femklassiga.
           </seg>
-        </u>
-        <u xml:id="i-AqvaPPyvKQ8QytfEaAk5Fr" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-6Fs7ZjLGMwBPtL8TzcCpim" next="i-EkGuE11AzGgCNMJR7AMQM7">
           <seg xml:id="i-FqNtwLowrrbchrMcTQTxYH">
             ? Hvad den kostnadsfria undervisningen och statens direkta deltagande
             i anordnandet af undervisningen för den qvinliga ungdomen beträffar,
@@ -2062,13 +2038,11 @@
         <note xml:id="i-KFxSV6j8Ayj6uEHjy2ACYY">
           Deu I7 Mall 449
         </note>
-        <u xml:id="i-EkGuE11AzGgCNMJR7AMQM7" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-AqvaPPyvKQ8QytfEaAk5Fr" next="i-UXmfh13Y6AonAswz1ip2Gw">
+        <u xml:id="i-EkGuE11AzGgCNMJR7AMQM7" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-6Fs7ZjLGMwBPtL8TzcCpim" next="i-H9z382YJwQ9hDi9xMyv6fk">
           <seg xml:id="i-FGKXTaxFwHCVnR21cPiyfz">
             in på elementarläroverken. Och Utskottet har ansett det icke
             vara önskligt att så skedde äfven med den qvinliga ungdomen.
           </seg>
-        </u>
-        <u xml:id="i-UXmfh13Y6AonAswz1ip2Gw" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-EkGuE11AzGgCNMJR7AMQM7" next="i-LQm1WtddVqLpYSW2ioXhLm">
           <seg xml:id="i-Y7YttKUzt5kb1664MN7Jiz">
             Mot Utskottets förslag till skrifvelse har också framställts
             den anmärkning, att Riksdagen skulle lemna Kongl. Maj:t i okunnighet
@@ -2102,8 +2076,6 @@
             icke gjort sig förtjent at några förebråelser, för att det icke
             på annat sätt, än som skett, hemställt om förändrade anordningar.
           </seg>
-        </u>
-        <u xml:id="i-LQm1WtddVqLpYSW2ioXhLm" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-UXmfh13Y6AonAswz1ip2Gw" next="i-H9z382YJwQ9hDi9xMyv6fk">
           <seg xml:id="i-3TmayckKty6e5YDzwJYXKF">
             Slutligen har äfven blifvit sagdt att Utskottet gått in på en
             ny fråga, då Utskottet velat föreslå Riksdagen att anhålla, det
@@ -2132,7 +2104,7 @@
         <note xml:id="i-7VHAGQzuTbDRzLyayZcMMJ" type="date">
           450 Den 17 Maj.
         </note>
-        <u xml:id="i-H9z382YJwQ9hDi9xMyv6fk" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-LQm1WtddVqLpYSW2ioXhLm" next="i-Gxpra5QwPG56tE9xTrKL33">
+        <u xml:id="i-H9z382YJwQ9hDi9xMyv6fk" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-EkGuE11AzGgCNMJR7AMQM7">
           <seg xml:id="i-YZqZPhDiFEztGdJydb4F3N">
             vid folkskolor långt innan de äro färdiga att lemna seminariet.
             Långt ifrån att behofvet i detta afseende blifvit fyldt, se vi,
@@ -2160,14 +2132,10 @@
             det naturligt, att undervisningen hufvudsakligen måste ske genom
             lärare, men Utskottet har trott, att det vore
           </seg>
-        </u>
-        <u xml:id="i-Gxpra5QwPG56tE9xTrKL33" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-H9z382YJwQ9hDi9xMyv6fk" next="i-6TRGQJrvZbo1BwPSerAtPr">
           <seg xml:id="i-VaLhysHCjeJx3s22eaAYAS">
             af ganska mycken vigt, att i de lägre klasserna — ej endast i
             de lägsta — undervisningen hufvudsakligen bestriddes ar lärarinnor;
           </seg>
-        </u>
-        <u xml:id="i-6TRGQJrvZbo1BwPSerAtPr" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-Gxpra5QwPG56tE9xTrKL33">
           <seg xml:id="i-PYd6DZEw5UtSuUYTZX5z2M">
             och Utskottet hemtade stöd för denna sin åsigt äfven af faktiska
             förhållanden, ty Utskottet hade sig bekant, att i femklassiga
@@ -2317,12 +2285,10 @@
         <note xml:id="i-9RS1ggpoTgQwzvH8SfPC2R" type="speaker">
           Grefve Ehrensvärd:
         </note>
-        <u xml:id="i-6ESs1NXQSEAoi5UEugQUWf" who="i-9NyAqYQHXK6ctRb6HgHd9R" next="i-DxXGLqvcFy9gM79mTvT1Nb">
+        <u xml:id="i-6ESs1NXQSEAoi5UEugQUWf" who="i-9NyAqYQHXK6ctRb6HgHd9R" next="i-N3ySy29gPMuYtx9EZt1xk">
           <seg xml:id="i-Mdm3Ug5RsjwHk4TRwWAiC7">
             I mitt förra anförande glömde jag att
           </seg>
-        </u>
-        <u xml:id="i-DxXGLqvcFy9gM79mTvT1Nb" who="i-9NyAqYQHXK6ctRb6HgHd9R" prev="i-6ESs1NXQSEAoi5UEugQUWf" next="i-KQZsfsZyYNXDJ14M1WwiVz">
           <seg xml:id="i-GbLZfZnbqJ8PwxHEjwrhf7">
             framhålla en betänklighet emot bifall till Kongl. Maj:ts förslag
             med den af Herr Dahm påyvrkade förändring, som jag derföre nu
@@ -2332,8 +2298,6 @@
             i Kongl. Maj:ts proposition oförändrade. Nu innehåller tredje
             punkten:
           </seg>
-        </u>
-        <u xml:id="i-KQZsfsZyYNXDJ14M1WwiVz" who="i-9NyAqYQHXK6ctRb6HgHd9R" prev="i-DxXGLqvcFy9gM79mTvT1Nb" next="i-W2jVLyjePAC8qb6JoKirtG">
           <seg xml:id="i-Fs4tg2HysRQo1eTX3kG5zz">
             satt ordinarie lärare eller lärarinna, som fullgjort vilkoren
             för kompetens till lektorseller adjunktsbetattning vid elementarläroverken,
@@ -2341,8 +2305,6 @@
             stadgadt, ega att, efter viss tids för nit och skicklighet vitsordad
             tjenstgöring, åtnjuta rätt till löneförhöjning":
           </seg>
-        </u>
-        <u xml:id="i-W2jVLyjePAC8qb6JoKirtG" who="i-9NyAqYQHXK6ctRb6HgHd9R" prev="i-KQZsfsZyYNXDJ14M1WwiVz" next="i-N3ySy29gPMuYtx9EZt1xk">
           <seg xml:id="i-PkZbEEika7bqXBicdkCNH3">
             och fjerde punkten säger:
           </seg>
@@ -2354,7 +2316,7 @@
           lönetörhöjning, som i nästföregående moment omförmäles, dock så
           att lönen icke må öfverstiga 3,000 Rdr";
         </note>
-        <u xml:id="i-N3ySy29gPMuYtx9EZt1xk" who="i-9NyAqYQHXK6ctRb6HgHd9R" prev="i-W2jVLyjePAC8qb6JoKirtG" next="i-VGdB9xCUNLMLidCEaFVWqG">
+        <u xml:id="i-N3ySy29gPMuYtx9EZt1xk" who="i-9NyAqYQHXK6ctRb6HgHd9R" prev="i-6ESs1NXQSEAoi5UEugQUWf" next="i-VGdB9xCUNLMLidCEaFVWqG">
           <seg xml:id="i-VSUz8qvLtpvpJuWHXL3zk9">
             Vid det förhållande, att Utskottet ansett sig böra på anförda
             skäl i sin helhet afstvyrka bifall till Kongl. Maj:ts proposition,
@@ -2557,7 +2519,7 @@
         <note xml:id="i-QDzzegynujPzhFKnQF1Yh7" type="date">
           456 Den 17 Maj.
         </note>
-        <u xml:id="i-Pd8nCQmJyVyS8X1JxX6wsp" who="i-ARSF9aBhDAbqejYY3uDE6X" prev="i-U1uf9FXYMKoW2CYfhb8JWn" next="i-8tBDiHJJrHqAdTmjGB3D5H">
+        <u xml:id="i-Pd8nCQmJyVyS8X1JxX6wsp" who="i-ARSF9aBhDAbqejYY3uDE6X" prev="i-U1uf9FXYMKoW2CYfhb8JWn">
           <seg xml:id="i-8Q9vzUosY9Y9eSHC2SrweJ">
             tens och Riksgälds-kontorets kredit om man löste in så mycket
             man kunde af dessa, eller 5 precents-lånen. Vid sådant förhållande
@@ -2591,8 +2553,6 @@
             års obligationer ej få till annat ändamål än för jernvägshyggnader
             användas, och kan således icke, enligt mitt förmeénande, godkännas.
           </seg>
-        </u>
-        <u xml:id="i-8tBDiHJJrHqAdTmjGB3D5H" who="i-ARSF9aBhDAbqejYY3uDE6X" prev="i-Pd8nCQmJyVyS8X1JxX6wsp">
           <seg xml:id="i-K3Pj7QFHAkBWPqy9HBPnes">
             För den händelse mitt yrkande om afslag icke vinner understöd,
             anhäller jag derföre att Kammaren måtte fatta följande beslut,
@@ -2625,7 +2585,7 @@
         <note xml:id="i-VEuRCFiDG2atDVgk49NcTk" type="date">
           Den 17 Naj. 457
         </note>
-        <u xml:id="i-Xpqu3KovayLWgKYYgDEymG" who="i-3G3HSvSLDH6Z2Spw8nAwav" prev="i-QBkwBTZZshDiHq4UsFAjvg" next="i-JiWwPAM8wC2pyBikTstXnF">
+        <u xml:id="i-Xpqu3KovayLWgKYYgDEymG" who="i-3G3HSvSLDH6Z2Spw8nAwav" prev="i-QBkwBTZZshDiHq4UsFAjvg" next="i-5udxcieWPgjh5BCVuMFeS8">
           <seg xml:id="i-6keD5QXDjLKzDiDAGFUYso">
             verken vinner eller förlorar. För statsverket skulle det otvetydigt
             ej vara fördelaktigt att betala en skuld, som löper med 4 procents
@@ -2651,8 +2611,6 @@
             oss såsom hittills, 1872 års 4 prucents-obligationer intill den
             tiden kunna kommu att uppgå till pari.
           </seg>
-        </u>
-        <u xml:id="i-JiWwPAM8wC2pyBikTstXnF" who="i-3G3HSvSLDH6Z2Spw8nAwav" prev="i-Xpqu3KovayLWgKYYgDEymG" next="i-5udxcieWPgjh5BCVuMFeS8">
           <seg xml:id="i-Cc52VKzoDok4261hp8ik7k">
             Hvad angår den framställda anmärkningen, att dessa obligationer
             ej skulle få användas till denna liqvid, tror jag att densamma
@@ -2690,7 +2648,7 @@
         <note xml:id="i-L5AGyavV48eiAEjBHVHR9q" type="date">
           458 Den 17 Maj.
         </note>
-        <u xml:id="i-5udxcieWPgjh5BCVuMFeS8" who="i-3G3HSvSLDH6Z2Spw8nAwav" prev="i-JiWwPAM8wC2pyBikTstXnF">
+        <u xml:id="i-5udxcieWPgjh5BCVuMFeS8" who="i-3G3HSvSLDH6Z2Spw8nAwav" prev="i-Xpqu3KovayLWgKYYgDEymG">
           <seg xml:id="i-Q7na3Wv6aK6X8P35mL7Y1H">
             bankens försträckningar till 1808 och 1809 årens krigskostnader
             den 30 September 1841 utfärdade, med 4 procents ränta förskrifna
@@ -2842,7 +2800,7 @@
         <note xml:id="i-EnNJfX1UKmZC8U689h9uxK" type="speaker">
           Herr Ekman, Johan Jakob:
         </note>
-        <u xml:id="i-R9CDFCZRGwmMNjdd4UPsjw" who="i-V2X6bcEZyV6jzFBKB1Acn8" next="i-7ZJoJzcvYEi2HVxxM4Utns">
+        <u xml:id="i-R9CDFCZRGwmMNjdd4UPsjw" who="i-V2X6bcEZyV6jzFBKB1Acn8" next="i-UGNaReD2V43sPX1XLaj8jy">
           <seg xml:id="i-YZk6Xq9wDhVJdsizY1WUgH">
             Jag nekar icke, att Jag delar den åsigt, som blifvit uttalad,
             att den lämpligaste åtgärden i denna fråga vore att afslå hela
@@ -2866,8 +2824,6 @@
             samma anledning, som gör att banken behörfrer realisera dem, att
             verka till, att det blir svårt att kunna realisera dem.
           </seg>
-        </u>
-        <u xml:id="i-7ZJoJzcvYEi2HVxxM4Utns" who="i-V2X6bcEZyV6jzFBKB1Acn8" prev="i-R9CDFCZRGwmMNjdd4UPsjw" next="i-21dLV4DSXbFiihmdzXi9Eg">
           <seg xml:id="i-5bAJqsf2KybUMxuNeVTx8u">
             Jag skulle då heidre vilja instänuma I Herr J. Rundbäcks reservation,
             att dessa obligationer må tontant betalas; men då detta skulle
@@ -2878,8 +2834,6 @@
             grund, att Andra Kammaren redan antagit detsamma, och jag tinner
             frågan vara af den ringa be-
           </seg>
-        </u>
-        <u xml:id="i-21dLV4DSXbFiihmdzXi9Eg" who="i-V2X6bcEZyV6jzFBKB1Acn8" prev="i-7ZJoJzcvYEi2HVxxM4Utns" next="i-UGNaReD2V43sPX1XLaj8jy">
           <seg xml:id="i-AQgL89HyH52niRcDZqTxhG">
             vydenhet — ja den är icke af större vigt, än om jag stoppar plånboken
             uti högra eller venstra fickan — att jag gerna ville förekomma
@@ -2888,7 +2842,7 @@
         <note xml:id="i-RTGGM5gky8WbZgWW4GTn41">
           en gemensam votering 1 densamma.
         </note>
-        <u xml:id="i-UGNaReD2V43sPX1XLaj8jy" who="i-V2X6bcEZyV6jzFBKB1Acn8" prev="i-21dLV4DSXbFiihmdzXi9Eg">
+        <u xml:id="i-UGNaReD2V43sPX1XLaj8jy" who="i-V2X6bcEZyV6jzFBKB1Acn8" prev="i-R9CDFCZRGwmMNjdd4UPsjw">
           <seg xml:id="i-W9vJ3pLHRy36gSXZMRPzwN">
             Jag begagnar detta tillfälle att för Kammaren tillkännagitva,
             att jag, ehuru ledamot i det Sammansatta Statsoch Banko-Utskottet,
@@ -3085,7 +3039,7 @@
         <note xml:id="i-K1sVk7FgKf6GFA1AsDANZm" type="speaker">
           Herr Bergman:
         </note>
-        <u xml:id="i-CpuLS1KevQujvjCveZ3fuv" who="i-7Mn3sAoq9CusA9q6HjCYdB" next="i-RWgwF4GNjZ4hFyLggRKwTn">
+        <u xml:id="i-CpuLS1KevQujvjCveZ3fuv" who="i-7Mn3sAoq9CusA9q6HjCYdB" next="i-cGMyyNjwxXNATqwR2m9r1">
           <seg xml:id="i-BGpFVDZD8Ur9BwbDVaEe4T">
             Vid förlidet års riksdag väcktes inom Andra Kammaren förslag
             om införande af bevillningstaxering i Westerbottens och Norrbottens
@@ -3114,8 +3068,6 @@
             en femtedel af hvad Kammar-kollegium och två tredjedelar af hvad
             Kongl. Maj:t föreslagit.
           </seg>
-        </u>
-        <u xml:id="i-RWgwF4GNjZ4hFyLggRKwTn" who="i-7Mn3sAoq9CusA9q6HjCYdB" prev="i-CpuLS1KevQujvjCveZ3fuv" next="i-cGMyyNjwxXNATqwR2m9r1">
           <seg xml:id="i-BFbUm2gopiLjZ4gdXkYiYW">
             Om bevillning, såsom nu föreslaget är, kommer att åsättas jord-
           </seg>
@@ -3124,7 +3076,7 @@
         <note xml:id="i-Bng7MUHYd6nSoRgrzFLCUa" type="date">
           451 Den 17 Maj.
         </note>
-        <u xml:id="i-cGMyyNjwxXNATqwR2m9r1" who="i-7Mn3sAoq9CusA9q6HjCYdB" prev="i-RWgwF4GNjZ4hFyLggRKwTn" next="i-RZfpLauTd8ThhGSmvuGbdJ">
+        <u xml:id="i-cGMyyNjwxXNATqwR2m9r1" who="i-7Mn3sAoq9CusA9q6HjCYdB" prev="i-CpuLS1KevQujvjCveZ3fuv">
           <seg xml:id="i-BJWZCi2oKitotboSo4UYk2">
             bruket i lappmarken, så -- enär denna, enligt 2:dra artikeln
             Bevillningsstadgan, utgår med 3 öre för hvarje fulla 100 R:dr
@@ -3134,8 +3086,6 @@
             och uppgår således icke till högre belopp än den minskning, som
             erhålles 3 grundräntan.
           </seg>
-        </u>
-        <u xml:id="i-RZfpLauTd8ThhGSmvuGbdJ" who="i-7Mn3sAoq9CusA9q6HjCYdB" prev="i-cGMyyNjwxXNATqwR2m9r1">
           <seg xml:id="i-JEm4xxgPNmcig7XRaBrQKL">
             Under sådant förhållande verkar den nu föreslagna bevillningen
             icke någon förhöjnivg af de allmänna utskylderna för jordbruket,
@@ -3233,7 +3183,7 @@
         <note xml:id="i-ARuEbMyryDfRhF9kw2S5th" type="speaker">
           Herr Bennich:
         </note>
-        <u xml:id="i-TuFKmLw3YNqyoL3psjQQXz" who="i-YZEL7fGZ8MZ3sXegd3zeFp" next="i-W6Ua41Uh4f91k7g8tNgcgB">
+        <u xml:id="i-TuFKmLw3YNqyoL3psjQQXz" who="i-YZEL7fGZ8MZ3sXegd3zeFp" next="i-HNYBXQeVHoEXWwsdB4sXNR">
           <seg xml:id="i-BTNCoVEf8NqRMkxTaX1QGa">
             Jag ber att få fästa Kammarens uppmärksamhet derpå, att här är
             fråga om den grund, efter hvilken den af Riksdagen tillförene
@@ -3246,8 +3196,6 @@
             Jag derföre deltagit i den reservation deremot, som aforfvits
             af Friberre Fock.
           </seg>
-        </u>
-        <u xml:id="i-W6Ua41Uh4f91k7g8tNgcgB" who="i-YZEL7fGZ8MZ3sXegd3zeFp" prev="i-TuFKmLw3YNqyoL3psjQQXz" next="i-HNYBXQeVHoEXWwsdB4sXNR">
           <seg xml:id="i-UDtbJmnd2TBnZrJQ7E4SQ6">
             Under den ärendenas snabba gång, som sista tiden egt rum, är
             knappt att förvänta, att Riksdagens ledamöter mera allmänt varit
@@ -3275,7 +3223,7 @@
         <note xml:id="i-6r1YiZVXAipPTLcyaNa4RU" type="date">
           466 Den 17 Maj.
         </note>
-        <u xml:id="i-HNYBXQeVHoEXWwsdB4sXNR" who="i-YZEL7fGZ8MZ3sXegd3zeFp" prev="i-W6Ua41Uh4f91k7g8tNgcgB">
+        <u xml:id="i-HNYBXQeVHoEXWwsdB4sXNR" who="i-YZEL7fGZ8MZ3sXegd3zeFp" prev="i-TuFKmLw3YNqyoL3psjQQXz">
           <seg xml:id="i-3y4dRpyTvZNWmRFNMEfLQC">
             här är föreslagen, följts, rendementet antages utgöra ända till
             33 procent, men i verkligheten uppgått till nio. Att då nedsätta
@@ -3312,7 +3260,7 @@
         <note xml:id="i-TQpFPQxbwxH9uaYAiM9e4x" type="speaker">
           Herr Berlin:
         </note>
-        <u xml:id="i-3FoLxsprrNBRXTBQYmgZQC" who="i-xDu3FkTiXeCQiNXfMUQ3v" next="i-3eaJBWLfaJ248kWT98kn1n">
+        <u xml:id="i-3FoLxsprrNBRXTBQYmgZQC" who="i-xDu3FkTiXeCQiNXfMUQ3v" next="i-MVFhfzS4pH8xcZgQssZDDy">
           <seg xml:id="i-8FiosY1nrH3vCBPcuydG3F">
             Äfven jag finner Utskottets förslag att nedsätta accisen på råsockret
             med en sjettedel — ty sådan är tydligen följden af nedsättning
@@ -3327,8 +3275,6 @@
             man icke ens fäste något afseende på den ifrågasatta möjligheten
             att på tunnlandet producera så stort qvantum betor, att afkastningen
           </seg>
-        </u>
-        <u xml:id="i-3eaJBWLfaJ248kWT98kn1n" who="i-xDu3FkTiXeCQiNXfMUQ3v" prev="i-3FoLxsprrNBRXTBQYmgZQC" next="i-MVFhfzS4pH8xcZgQssZDDy">
           <seg xml:id="i-4bFCwuTrMjtY5momYFBHqP">
             lefve tillräckligt lönande. Nu har Utskottet, såsom det synes,
             till en del på grund af att erfarenheten icke skulle hafva bekräftat
@@ -3345,7 +3291,7 @@
         <note xml:id="i-6AScQp8M9BMM1Tf25Ap7VM" type="date">
           Den 17 Maj. 467
         </note>
-        <u xml:id="i-MVFhfzS4pH8xcZgQssZDDy" who="i-xDu3FkTiXeCQiNXfMUQ3v" prev="i-3eaJBWLfaJ248kWT98kn1n" next="i-LBvomiD1s7CXttneWjCBTw">
+        <u xml:id="i-MVFhfzS4pH8xcZgQssZDDy" who="i-xDu3FkTiXeCQiNXfMUQ3v" prev="i-3FoLxsprrNBRXTBQYmgZQC" next="i-LBvomiD1s7CXttneWjCBTw">
           <seg xml:id="i-Lq3pZERjeYzayJc4RqhFHc">
             saltrik jord, inträffat att sockerhalten gått ned till sju och
             sex procent. Utskottet har vidare velat styrka den föreslagna
@@ -3470,15 +3416,13 @@
         <note xml:id="i-4VeUUSNXfQwYuH5aJT7dQg" type="date">
           Den 17 Maj. 469
         </note>
-        <u xml:id="i-jZYjvyhnqfMZVGp4tUm8D" who="unknown" prev="i-RG3DKbUDD6aVJtefwTJVPj" next="i-Ms3rxEiANgGieU7Ea1N7m8">
+        <u xml:id="i-jZYjvyhnqfMZVGp4tUm8D" who="unknown" prev="i-RG3DKbUDD6aVJtefwTJVPj">
           <seg xml:id="i-6xAR5n3qrznBahRVF1WjPf">
             är eller 1,500 gram per hectolitre och densimetergrad. I Frankrike
             äfven sattes skatten först låg och höjdes sedermera, och rendementet
             beräknades der ursprungligen till tusen gram, men har sedan höjts
             till 1,425.
           </seg>
-        </u>
-        <u xml:id="i-Ms3rxEiANgGieU7Ea1N7m8" who="unknown" prev="i-jZYjvyhnqfMZVGp4tUm8D">
           <seg xml:id="i-8L56gBe3qViaPFFiPYYLUW">
             När Utskottet sålunda sett huru man gått tillväga i utlandet,
             nemligen att ett lägre skattebelopp blifvit bestämdt till en början
@@ -3540,7 +3484,7 @@
         <note xml:id="i-8Y1VirDhMnmRH3eBuaDT2Y" type="date">
           470 Den 17 Maj.
         </note>
-        <u xml:id="i-Tx2CxiivpdkG3ceYiD96MB" who="i-VJzAojg4oj9Du46UWXaaqZ" prev="i-79gSLQ233JcK9h6YEYTqui" next="i-GHkAEA76MVrGGpMpufGQvT">
+        <u xml:id="i-Tx2CxiivpdkG3ceYiD96MB" who="i-VJzAojg4oj9Du46UWXaaqZ" prev="i-79gSLQ233JcK9h6YEYTqui">
           <seg xml:id="i-LsSTBampYjVvgBpVxfoXbN">
             att sockerhalten vid åtskilliga fabriker varit lägre än sju procent,
             men ansett att detta varit föranledt deraf. att fabrikanterne
@@ -3559,8 +3503,6 @@
             innan man genom egen erfarenhet lyckats öfvertyga sig om den bästa
             arbetsmetoden, o. s. v.
           </seg>
-        </u>
-        <u xml:id="i-GHkAEA76MVrGGpMpufGQvT" who="i-VJzAojg4oj9Du46UWXaaqZ" prev="i-Tx2CxiivpdkG3ceYiD96MB">
           <seg xml:id="i-C5QdqzXW3tLRsaswMzED5k">
             Här har yttrats, att detta förslag skulle för hvitbetskulturen
             åstadkomma en osäkerhet i beskattningen. Man skulle framdeles
@@ -3610,7 +3552,7 @@
         <note xml:id="i-M4iDg1rWXSKFXJFz5phicx" type="date">
           Den 17 Mai. 471
         </note>
-        <u xml:id="i-MdSQGKJnTrtWSdWj8SXX5z" who="i-xDu3FkTiXeCQiNXfMUQ3v" prev="i-LdmdJwwcEJCr6n61aXfG8N" next="i-68yPhzepxc2BaDNHF1YirX">
+        <u xml:id="i-MdSQGKJnTrtWSdWj8SXX5z" who="i-xDu3FkTiXeCQiNXfMUQ3v" prev="i-LdmdJwwcEJCr6n61aXfG8N">
           <seg xml:id="i-CNj9Yq6p1Y4sA3hybEgeqW">
             gå upp ända till 8 procent. När deremot hvitbetssockerfabrikationen
             började här i landet, hade man redan från början tillgång till
@@ -3626,8 +3568,6 @@
             åtgärder hade ju varit alldeles omotiverade, om betproduktionen
             och sockerutbytet från början antagits vara fullt tillfredsställande.
           </seg>
-        </u>
-        <u xml:id="i-68yPhzepxc2BaDNHF1YirX" who="i-xDu3FkTiXeCQiNXfMUQ3v" prev="i-MdSQGKJnTrtWSdWj8SXX5z">
           <seg xml:id="i-McQ5v6mDRaEgE1G68iR2tc">
             Jag fortsätter mitt yrkande om bifall till Herr Bennichs förslag.
           </seg>
@@ -3714,7 +3654,7 @@
         <note xml:id="i-5TK7W7GnbW9hpiAn9D9JjS" type="speaker">
           Herr Bennich:
         </note>
-        <u xml:id="i-Tx8djnFrAKY7aRVQkUUD6x" who="i-YZEL7fGZ8MZ3sXegd3zeFp" next="i-VCZy1FaJw4jmyxzvoCeFLu">
+        <u xml:id="i-Tx8djnFrAKY7aRVQkUUD6x" who="i-YZEL7fGZ8MZ3sXegd3zeFp" next="i-DytLk5vub8LFe1Vb2XNLFG">
           <seg xml:id="i-EvDd6ZajTCCdgY7Xz9Gb5M">
             En talare från malmöhusbänken har fästat uppmärksamheten på den
             väsendtliga skilnaden mellan förhållandena i vårt land nu och
@@ -3726,8 +3666,6 @@
             med lika goda apparater för sockrets utdragande, som nu användas
             i Tyskland.
           </seg>
-        </u>
-        <u xml:id="i-VCZy1FaJw4jmyxzvoCeFLu" who="i-YZEL7fGZ8MZ3sXegd3zeFp" prev="i-Tx8djnFrAKY7aRVQkUUD6x" next="i-DytLk5vub8LFe1Vb2XNLFG">
           <seg xml:id="i-JHJ6Hc5vKVrkWYrtn1nwD5">
             I afseende å det verkliga rendementet äfven vid våra inhemska
             hvitbetssockerfabriker beder jag få meddela några närmare upplysningar.
@@ -3750,7 +3688,7 @@
         <note xml:id="i-Bhz9LhCPTfuts8cGnvsYAC" type="date">
           Den 17 Maj. 473
         </note>
-        <u xml:id="i-DytLk5vub8LFe1Vb2XNLFG" who="i-YZEL7fGZ8MZ3sXegd3zeFp" prev="i-VCZy1FaJw4jmyxzvoCeFLu" next="i-PAmdhQ2ojrau9pxwLoXsY3">
+        <u xml:id="i-DytLk5vub8LFe1Vb2XNLFG" who="i-YZEL7fGZ8MZ3sXegd3zeFp" prev="i-Tx8djnFrAKY7aRVQkUUD6x">
           <seg xml:id="i-Nqqg6kREkXGnLwasJmaFbJ">
             litligaste håll fått mig meddeladt, nemligen att rendementet
             der förra året utgjort 7 procent, och det af råsocker med sockerhalt
@@ -3761,8 +3699,6 @@
             man erhåller ur en centner hvitbetor, utan man måste äfven veta,
             huru mycket rent socker detta råsocker innehåller.
           </seg>
-        </u>
-        <u xml:id="i-PAmdhQ2ojrau9pxwLoXsY3" who="i-YZEL7fGZ8MZ3sXegd3zeFp" prev="i-DytLk5vub8LFe1Vb2XNLFG">
           <seg xml:id="i-QjKznQsNmxPAEpesBJCpx7">
             Den premie, som genom lagstiftningen, sådan Riksdagen förut ordnat
             den, är medgifven sockerfabrikerna, för närvarande, är lika med
@@ -3789,7 +3725,7 @@
         <note xml:id="i-45BMN7UZc1q6PMibP475jW" type="speaker">
           Herr Hallin:
         </note>
-        <u xml:id="i-3sN9GhQcpqxHCFtqidQotD" who="i-9XHDwtcK1WinGBgwCyQx4G" next="i-SwKbn4fEA4j6LCvpRuafBX">
+        <u xml:id="i-3sN9GhQcpqxHCFtqidQotD" who="i-9XHDwtcK1WinGBgwCyQx4G" next="i-UQUMqUauGHbU64R9LeCQs8">
           <seg xml:id="i-A4yPrXVAaWfYxZquQ19gH6">
             Då enligt mitt förmenande här bör vara fråga om att uppmuntra
             en ny industri, som i sig innebär så betydande fördelar icke allenast
@@ -3800,8 +3736,6 @@
             densamma. Detta skulle blifva händelsen. om man bestämde rendementet
             så högt som i den nådiga propositionen blifvit föreslaget.
           </seg>
-        </u>
-        <u xml:id="i-SwKbn4fEA4j6LCvpRuafBX" who="i-9XHDwtcK1WinGBgwCyQx4G" prev="i-3sN9GhQcpqxHCFtqidQotD" next="i-3scyRuYiPymC88RzVAiRuR">
           <seg xml:id="i-2WbdUN41rgwfe9AMYGfhzD">
             Man har sagt, att flera fabriker lemnat ett utbyte af råsocker,
             vida öfverstigande det af Utskottet antagna. Det är väl sannt
@@ -3815,8 +3749,6 @@
             åtminstone en af fabrikerna måst nedlägga sin rörelse och att
             flera af dem, enligt hvad kändt är, gått med förlust.
           </seg>
-        </u>
-        <u xml:id="i-3scyRuYiPymC88RzVAiRuR" who="i-9XHDwtcK1WinGBgwCyQx4G" prev="i-SwKbn4fEA4j6LCvpRuafBX" next="i-UQUMqUauGHbU64R9LeCQs8">
           <seg xml:id="i-C32uY2JjKhZZtU8pcWy9o5">
             Det har vidare blifvit nämndt, att förhållandena i Sverige i
             när-
@@ -3826,7 +3758,7 @@
         <note xml:id="i-J1Ps1fsDo372yYShSWUYY6" type="date">
           474 Den 17 Mai.
         </note>
-        <u xml:id="i-UQUMqUauGHbU64R9LeCQs8" who="i-9XHDwtcK1WinGBgwCyQx4G" prev="i-3scyRuYiPymC88RzVAiRuR" next="i-V5Bsdf3cNsRx3zcpg2Tndq">
+        <u xml:id="i-UQUMqUauGHbU64R9LeCQs8" who="i-9XHDwtcK1WinGBgwCyQx4G" prev="i-3sN9GhQcpqxHCFtqidQotD" next="i-zY9L1GJPZ5nqyL4FHB9MN">
           <seg xml:id="i-F6s1PWQ2HnEAfjo7YuDFXH">
             varande stund äro helt annorlunda, än de voro i Tyskland, då
             accis der lades på hvitbetssockertillverkningen. Detta är sannt
@@ -3851,8 +3783,6 @@
             resultatet för ett år vid nämnda fabrik, som jag tror eljest icke
             arbetat med synnerlig fördel, icke få anses bestämmande.
           </seg>
-        </u>
-        <u xml:id="i-V5Bsdf3cNsRx3zcpg2Tndq" who="i-9XHDwtcK1WinGBgwCyQx4G" prev="i-UQUMqUauGHbU64R9LeCQs8" next="i-AsLt6vcn5vfjNnpRMJ8T4Y">
           <seg xml:id="i-5nG6iBDquVBjmyXj3duntF">
             Man har också sagt, att fabrikanten må skylla sig sjelf, om han
             köper underhaltiga hvitbetor, eller sådana som icke hålla den
@@ -3865,8 +3795,6 @@
             produkt, jorden lemnar, och bearbeta densamma, äfven om den icke
             skulle hålla en så stor sockerhalt.
           </seg>
-        </u>
-        <u xml:id="i-AsLt6vcn5vfjNnpRMJ8T4Y" who="i-9XHDwtcK1WinGBgwCyQx4G" prev="i-V5Bsdf3cNsRx3zcpg2Tndq" next="i-469UPZXYmMGJ5M5HT53reh">
           <seg xml:id="i-VdiN6CFSbhRjTSAueefRs4">
             Man har föreställt sig, att i samma mån som, vid fortsatt hvitbetsodling,
             sockerhalten i betorna ökades, i samma mån skulle också tilloppet
@@ -3880,8 +3808,6 @@
             i ytterst ringa qvantitet, vara tillräckliga, för att nedsätta
             sockerhalten och göra rendementet mindre.
           </seg>
-        </u>
-        <u xml:id="i-469UPZXYmMGJ5M5HT53reh" who="i-9XHDwtcK1WinGBgwCyQx4G" prev="i-AsLt6vcn5vfjNnpRMJ8T4Y" next="i-zY9L1GJPZ5nqyL4FHB9MN">
           <seg xml:id="i-G37xHRS1aw1g2HTRJANoSq">
             För min del tror jag att det är af synnerlig vigt att gå midt
             tillväga i denna fråga, och jag vågar derföre anhålla om bifall
@@ -3897,7 +3823,7 @@
         <note xml:id="i-YS1NdLJPfDaebzUSdRJaCh" type="date">
           Den 17 Maj. 475
         </note>
-        <u xml:id="i-zY9L1GJPZ5nqyL4FHB9MN" who="i-9XHDwtcK1WinGBgwCyQx4G" prev="i-469UPZXYmMGJ5M5HT53reh">
+        <u xml:id="i-zY9L1GJPZ5nqyL4FHB9MN" who="i-9XHDwtcK1WinGBgwCyQx4G" prev="i-UQUMqUauGHbU64R9LeCQs8">
           <seg xml:id="i-BKQACfLijVCge7MhR1sUAB">
             bestämmelsen rörande det rendement, hvarefter beskattningen skall
             beräknas.

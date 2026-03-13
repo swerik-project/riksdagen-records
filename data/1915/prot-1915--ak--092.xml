@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-US1eMv2oHyrNNRzc7Lw1Nt" type="speech">
             <linkGrp type="u">
               <ptr target="#i-M65oUcaJYFYh15kiLNEc2L"/>
@@ -38,7 +38,13 @@
               <ptr target="#i-9wxjAYrrw9taBjR3xDbJB5"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -90,15 +96,13 @@
         <note xml:id="i-5Gdtm5R2X8uiCboAkwUMvp" type="speaker">
           Herr Branting, som yttrade:
         </note>
-        <u xml:id="i-M65oUcaJYFYh15kiLNEc2L" who="i-VM3kn4h4mTkLoFpEyrhy5t" next="i-SH65RtB5u3kUzqVBMuhzaf">
+        <u xml:id="i-M65oUcaJYFYh15kiLNEc2L" who="i-VM3kn4h4mTkLoFpEyrhy5t" next="i-D619S1nWvZvj8m37FDPQWw">
           <seg xml:id="i-TSnoKiG2B62fw51xnjd8zR">
             Detta är ju icke en situation, varunder en fruktbringande diskussion
             kan föras, men jag har dock icke ansett det vara lämpligt, att
             den beräkning utskottet i den före- Gragna punkten framlagt går
             förbi alldeles utan ett ords yttrande i kammaren.
           </seg>
-        </u>
-        <u xml:id="i-SH65RtB5u3kUzqVBMuhzaf" who="i-VM3kn4h4mTkLoFpEyrhy5t" prev="i-M65oUcaJYFYh15kiLNEc2L" next="i-D619S1nWvZvj8m37FDPQWw">
           <seg xml:id="i-Y89oQfjUph5AXFzvRTUPcU">
             Utskottet har inskränkt sig till att följa väsentligen statskontorets
             beräkning. Det måste dock sägas, att denna beräkning förefaller
@@ -131,7 +135,7 @@
         <note xml:id="i-C8nyFYxhURMDNBpNx3Bsb3" type="date">
           2 Torsdagen den 27 maj, f. m.
         </note>
-        <u xml:id="i-D619S1nWvZvj8m37FDPQWw" who="i-VM3kn4h4mTkLoFpEyrhy5t" prev="i-SH65RtB5u3kUzqVBMuhzaf" next="i-ENg3AmWvi6Zwy9wyJC6Wcv">
+        <u xml:id="i-D619S1nWvZvj8m37FDPQWw" who="i-VM3kn4h4mTkLoFpEyrhy5t" prev="i-M65oUcaJYFYh15kiLNEc2L">
           <seg xml:id="i-STbEEbrx8Q4zBadTbcJi8b">
             för det normala. Om man tänker på vad detta innebär i absoluta
             tal, är det en minskning på icke mindre än omkring 10 milj. kronor,
@@ -140,8 +144,6 @@
             år, d. v. s. ansett en ökning av 2 milj. såsom bortfallande och
             därmed tänkt sig nödig försiktighet vara iakttagen.
           </seg>
-        </u>
-        <u xml:id="i-ENg3AmWvi6Zwy9wyJC6Wcv" who="i-VM3kn4h4mTkLoFpEyrhy5t" prev="i-D619S1nWvZvj8m37FDPQWw" next="i-9wxjAYrrw9taBjR3xDbJB5">
           <seg xml:id="i-MbM2rndpeeWCyTYdBUvFjj">
             Nu är det ju i denna situation omöjligt att göra något yrkande,
             men jag har som sagt dock ansett, att det vore lämpligt att ge
@@ -160,8 +162,6 @@
             ytterligare ha verkat till en försiktighet vid beräkningarna av
             inkomsterna, som man icke nu synes ha iakttagit.
           </seg>
-        </u>
-        <u xml:id="i-9wxjAYrrw9taBjR3xDbJB5" who="i-VM3kn4h4mTkLoFpEyrhy5t" prev="i-ENg3AmWvi6Zwy9wyJC6Wcv">
           <seg xml:id="i-MA2fPMUvokyML3vp5yk2yB">
             Jag har emellertid, herr talman, av anförda skäl icke något yrkande.
           </seg>

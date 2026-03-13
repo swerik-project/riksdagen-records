@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-4jeoZChX13giL56gMgFs2f" type="speech">
             <linkGrp type="u">
               <ptr target="#i-QK2bk9cxeUZ4brZtbLaxTA"/>
@@ -402,7 +402,13 @@
               <ptr target="#i-1e0903b8f9110fcb-9"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -562,15 +568,13 @@
         <note xml:id="i-QL8v4Zh6c7SAPa96MNVQ6F" type="speaker">
           Chefen för finansdepartementet, herr statsrådet STRÄNG, som yttrade:
         </note>
-        <u xml:id="i-QK2bk9cxeUZ4brZtbLaxTA" who="i-3urySgCAk2SuFz1BB8TX5x" next="i-DheqCUrcN2vtyFyMq1rmSb">
+        <u xml:id="i-QK2bk9cxeUZ4brZtbLaxTA" who="i-3urySgCAk2SuFz1BB8TX5x">
           <seg xml:id="i-A8MwweT1P2RNbakDSy5iwu">
             Herr talman! Herr Ullsten har frågat mig om jag anser att de
             förbättringar som inträtt i vår utrikeshandelsbalans i förhållande
             till årets finansplan, skapat förutsättningar för ett högre uhjälpsanslag
             än det av regeringen föreslagna.
           </seg>
-        </u>
-        <u xml:id="i-DheqCUrcN2vtyFyMq1rmSb" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-QK2bk9cxeUZ4brZtbLaxTA">
           <seg xml:id="i-Jd7Nux1dSikLMTD9G1idJ2">
             De siffror för den svenska utrikeshandeln i december 1966, som
             publicerades i början av februari, var bättre än väntat. Handelsbalansens
@@ -754,7 +758,7 @@
         <note xml:id="i-Jq9zpSzkiYnMpKD3WrRmeG" type="speaker">
           Chefen för finansdepartementet, herr statsrådet STRÄNG:
         </note>
-        <u xml:id="i-bf43fc42574cdc70-1" who="i-3urySgCAk2SuFz1BB8TX5x">
+        <u xml:id="i-bf43fc42574cdc70-1" who="i-3urySgCAk2SuFz1BB8TX5x" next="i-888634afd9c0e1f6-4">
           <seg xml:id="i-QdxczBTsGWGD2fPS1Au3pZ">
             Herr talman! Herr Ola Ullsten har ställt en direkt frågå till
             mig: Anser finansministern att de förbättringar i förhållande
@@ -791,7 +795,7 @@
           vistelse i frihet inte utsätter andra människor eller dem själva
           för fara. Riksdagen har så sent som förra året prövat
         </note>
-        <u xml:id="i-888634afd9c0e1f6-4" who="i-6yryP5FsumcdXgD5cb8aDF" next="i-Wam381TruWB6CwBXXZqhJy">
+        <u xml:id="i-888634afd9c0e1f6-4" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-bf43fc42574cdc70-1" next="i-Wam381TruWB6CwBXXZqhJy">
           <seg xml:id="i-Wq5UGRF73JyLZ1wz6Kcyx5">
             Enligt lagen om beredande av sluten psykiatrisk vård i vissa
             fall gäller bl. a. som villkor för både försöksutskrivning och
@@ -888,7 +892,7 @@
         <note xml:id="i-WJmofS7BiTy84TaEokir7f" type="speaker">
           Chefen för socialdepartementet, herr statsrådet ASPLING:
         </note>
-        <u xml:id="i-a07ea7929df57205-0" who="i-6yryP5FsumcdXgD5cb8aDF">
+        <u xml:id="i-a07ea7929df57205-0" who="i-6yryP5FsumcdXgD5cb8aDF" next="i-888634afd9c0e1f6-6">
           <seg xml:id="i-RGM7kHdgLPq2Mp9HyopubT">
             Herr talman! Det är svårt att se hur bestämmelserna skulle kunna
             vara utformade annorlunda. Jag vill betona att bestämmelserna
@@ -917,7 +921,7 @@
           mentalsjukhus Ordet lämnades på begäran till Chefen för socialdepartementet,
           herr statsrådet ASPEING, som yttrade:
         </note>
-        <u xml:id="i-888634afd9c0e1f6-6" who="i-6yryP5FsumcdXgD5cb8aDF" next="i-LUtF87TkkdgvwWukAbfhLy">
+        <u xml:id="i-888634afd9c0e1f6-6" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-a07ea7929df57205-0" next="i-LUtF87TkkdgvwWukAbfhLy">
           <seg xml:id="i-JoktBPJkR5rdcsssrytPUr">
             Herr talman! Herr Wiklund i Stockholm har frågat när man kan
             vänta den cirkulärskrivelse om socialhjälp till anhöriga vid familjeförsörjares
@@ -937,7 +941,7 @@
           intagning på kriminalvårdsanstalt, nykterhetsvårdsanstalt eller
           mentalsjukhus
         </note>
-        <u xml:id="i-LUtF87TkkdgvwWukAbfhLy" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-888634afd9c0e1f6-6" next="i-888634afd9c0e1f6-7">
+        <u xml:id="i-LUtF87TkkdgvwWukAbfhLy" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-888634afd9c0e1f6-6">
           <seg xml:id="i-3TiyamnQEdLX6KG8jjbpKc">
             Första lagutskottet uttalade i utlåtande 1966:39 bl. a. att det
             borde kunna uppdras åt en väntad utredning angående översyn av
@@ -946,8 +950,6 @@
             har i januåri månad i år tillkallat sakkunniga för en sådan utredning
             och i direktiven hänvisat till nämnda uttalande av första lagutskottet.
           </seg>
-        </u>
-        <u xml:id="i-888634afd9c0e1f6-7" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-LUtF87TkkdgvwWukAbfhLy">
           <seg xml:id="i-Q6rtgfnhrwCPehDGVrtNwP">
             Kungl. Maj:t har den 17 februari 1967 beslutat överlämna den
             av herr Wiklund åsyftade riksdagsskrivelsen till de sakkunniga,
@@ -1158,7 +1160,7 @@
           Svar på fråga ang. utbetalning före påsk av de statsanställdas
           löner
         </note>
-        <u xml:id="i-10727c0d38fcd5ae-1" who="i-7d3TRxM4EXGPcH4Nyst5jR" prev="i-JLYDK3iGkt4wJUUrRo1aT9" next="i-FT1vXu5fGo2ZEBTo31SBs4">
+        <u xml:id="i-10727c0d38fcd5ae-1" who="i-7d3TRxM4EXGPcH4Nyst5jR" prev="i-JLYDK3iGkt4wJUUrRo1aT9">
           <seg xml:id="i-Rw97qP7k8HjGwT2qYskz8h">
             sig kan verka lugnande. Rådande förhållande talar dock ett annat
             språk. Nu är det ju ändå på det sättet här i landet, att antibiotika
@@ -1193,14 +1195,10 @@
             sjukvård och många svårbotade eller obotligt sjuka på grund av
             industriens uppträdande i detta fall.
           </seg>
-        </u>
-        <u xml:id="i-FT1vXu5fGo2ZEBTo31SBs4" who="i-7d3TRxM4EXGPcH4Nyst5jR" prev="i-10727c0d38fcd5ae-1" next="i-EjBkVNMR59zqTN5zEYaxUD">
           <seg xml:id="i-UCJDcTC7tRuxG3ZjqKfRBB">
             Jag skulle här vilja ställa en fråga till herr statsrådet: Har
             det gått så
           </seg>
-        </u>
-        <u xml:id="i-EjBkVNMR59zqTN5zEYaxUD" who="i-7d3TRxM4EXGPcH4Nyst5jR" prev="i-FT1vXu5fGo2ZEBTo31SBs4">
           <seg xml:id="i-Q8jXWhDbbBUcJbNLP2GFzb">
             långt att det är omöjligt att helt förbjuda bruket av antibiotika
             i livsmedelsoch lantbruksindustrien?
@@ -1537,7 +1535,7 @@
         <note xml:id="i-Hrc6F1CpBUZjJy5MtzgiBD" type="speaker">
           Herr NORDSTRANDH (h):
         </note>
-        <u xml:id="i-9339e41d8645a554-0" who="i-5hWJKAnAs7X9iuugADpXr7" next="i-QH5tzmtytCFxLGb3ACtbye">
+        <u xml:id="i-9339e41d8645a554-0" who="i-5hWJKAnAs7X9iuugADpXr7">
           <seg xml:id="i-963XR6QW6jG6YMTFnANpgy">
             Herr talman! Jag ber att få tacka ecklesiastikministern för det
             kortfattade svaret, som åtminstone uppräkningsvis avslöjar att
@@ -1863,7 +1861,7 @@
         <note xml:id="i-S1e5mUPyJ45RYuPA6Ufe3e" type="speaker">
           Herr GUSTAVSSON i Ängelholm (s):
         </note>
-        <u xml:id="i-fc59b03afe6c98f5-5" who="i-SgpDPpFBm7FQNSRFx4bNUa">
+        <u xml:id="i-fc59b03afe6c98f5-5" who="i-SgpDPpFBm7FQNSRFx4bNUa" next="i-17T5YGwcYxmaQGtvA97crU">
           <seg xml:id="i-F1qP71hcMVrfRd7Zi1Rwoy">
             Herr talman! Jag betvivlar inte att de uppgifter finansministern
             här lämnat är riktiga — jag har inte närmare känt till dem. Men
@@ -1904,7 +1902,7 @@
           Svar på fråga ang. arbetet med en långtidsplan för indragning
           och förflyttning av personal inom statens järnvägar
         </note>
-        <u xml:id="i-17T5YGwcYxmaQGtvA97crU" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-fc59b03afe6c98f5-7">
+        <u xml:id="i-17T5YGwcYxmaQGtvA97crU" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-fc59b03afe6c98f5-5">
           <seg xml:id="i-EBKAUWYDHgkHzgnfVGX67D">
             tid informera personalen om förändringar. För närvarande arbetar
             man inom SJ med en totalprognos över tillgång och behov av arbetskraft
@@ -2507,7 +2505,7 @@
           Chefen för ecklesiastikdepartementet, herr statsrådet EDENMAN,
           som yttrade:
         </note>
-        <u xml:id="i-f602fd1840ef9125-3" who="i-8FeKtrT5DmgTKt1JtCcHmB" next="i-VvT4vCU5WAEQoUnmkDnRY9">
+        <u xml:id="i-f602fd1840ef9125-3" who="i-8FeKtrT5DmgTKt1JtCcHmB" next="i-f602fd1840ef9125-5">
           <seg xml:id="i-4Bii2BSxWtg6MFKHKXEWQc">
             Herr talman! Fru Jäderberg har frågat, om jag anser det möjligt
             att införa bestämmelser om utbetalning av studiemedel enligt studiehjälpsreglementet
@@ -2515,8 +2513,6 @@
             en anpassning till de bestämmelser som gäller för elever vid postgymnasiala
             skolor.
           </seg>
-        </u>
-        <u xml:id="i-VvT4vCU5WAEQoUnmkDnRY9" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-f602fd1840ef9125-3" next="i-f602fd1840ef9125-4">
           <seg xml:id="i-XY7KH9JkgS7rzeim7Z4pae">
             Den studiehjälp som kan utgå enligt studiehjälpsreglementet består
             som bekant dels av förmåner som utgår utan särskild ansökan, nämligen
@@ -2525,8 +2521,6 @@
             nämligen inackorderingstillägg, resetilllägg, inkomstprövat tillägg,
             behovsprövat tillägg och studielån.
           </seg>
-        </u>
-        <u xml:id="i-f602fd1840ef9125-4" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-VvT4vCU5WAEQoUnmkDnRY9" next="i-f602fd1840ef9125-5">
           <seg xml:id="i-2YmDP7TuD3xwcNmZbyWWkp">
             I ett svar i höstas på en enkel fråga i denna kammare omtalade
             jag, att centrala studiehjälpsnämnden i syfte att få till stånd
@@ -2566,7 +2560,7 @@
           om studielån. I framställningen föreslås bl.a. en förenkling av
           nuvarande kontrollsystem. Förslaget är under behandling i ecklesiastikdepartementet.
         </note>
-        <u xml:id="i-f602fd1840ef9125-5" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-f602fd1840ef9125-4">
+        <u xml:id="i-f602fd1840ef9125-5" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-f602fd1840ef9125-3">
           <seg xml:id="i-UuZYKBPM48rGmkSsC8Z7Jw">
             Jag har erfarit, att centrala studiehjälpsnämnden i samråd med
             statskontoret överväger möjligheterna att effektivisera de administrativa
@@ -2666,15 +2660,13 @@
           Svar på interpellationer ang. praktiken för elever vid gymnasiets
           tekniska linje
         </note>
-        <u xml:id="i-6BZLZ1NZ9A5FzhpDyqtkaC" who="i-YZ7PrTPoP4SC7wVftmkUya" prev="i-3f714d3fa8758f16-0" next="i-3f714d3fa8758f16-2">
+        <u xml:id="i-6BZLZ1NZ9A5FzhpDyqtkaC" who="i-YZ7PrTPoP4SC7wVftmkUya" prev="i-3f714d3fa8758f16-0">
           <seg xml:id="i-CuK9WnmfMx44oqLT6zbeFf">
             ministern fortsatte med att säga att studiehjälp som utgår efter
             ansökan — inackorderingstillägg, resetillägg, inkomstprövat tillägg
             och behovsprövat tillägg — skall utbetalas under vårterminen senast
             i mars och under höstterminen senast i november månad.
           </seg>
-        </u>
-        <u xml:id="i-3f714d3fa8758f16-2" who="i-YZ7PrTPoP4SC7wVftmkUya" prev="i-6BZLZ1NZ9A5FzhpDyqtkaC">
           <seg xml:id="i-M5p6Q4wL29GVHKrphVgptP">
             Det har visat sig att utbetalningarna enligt ansökan om studiehjälp
             fördröjts avsevärt, vilket i hög grad försvårat studierna för
@@ -2730,7 +2722,7 @@
         <note xml:id="i-T4iMzFkx1QQCn6gPf6weiK">
           Herr Nordgrens frågor gäller,
         </note>
-        <u xml:id="i-3f714d3fa8758f16-4" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-3f714d3fa8758f16-3" next="i-HB7HEWizUHbXGt5wmewEhZ">
+        <u xml:id="i-3f714d3fa8758f16-4" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-3f714d3fa8758f16-3" next="i-DkPftok9oi1XLbvpiLYKHs">
           <seg xml:id="i-4u3m32X4vWJxxjXmi88p78">
             om jag anser det tillfredsställande, att halva läsåret förflutit
             innan skolmyndigheterna meddelat eleverna vad resp. linje innebär,
@@ -2753,14 +2745,10 @@
             rum vid teknisk linje i gymnasiet, förläggs till schemabunden
             tid under läsåret i stället för som nu till viss del under sommarferierna,
           </seg>
-        </u>
-        <u xml:id="i-HB7HEWizUHbXGt5wmewEhZ" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-3f714d3fa8758f16-4" next="i-3f714d3fa8758f16-5">
           <seg xml:id="i-MrHLwTCvvXjRem49TXgVvM">
             att sådan skolpraktik förläggs till tiden efter elevernas val
             av linje i gymnasiet samt
           </seg>
-        </u>
-        <u xml:id="i-3f714d3fa8758f16-5" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-HB7HEWizUHbXGt5wmewEhZ" next="i-DkPftok9oi1XLbvpiLYKHs">
           <seg xml:id="i-XPdkAmvfC7GYk4j6qU6kp7">
             att elev som på annat sätt erhållit likartad praktik får tillgodoräkna
             sig den och befrias från motsvarande moment i den obligatoriska
@@ -2788,7 +2776,7 @@
           Svar på interpellationer ang. praktiken för elever vid gymnasiets
           tekniska linje
         </note>
-        <u xml:id="i-DkPftok9oi1XLbvpiLYKHs" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-3f714d3fa8758f16-5">
+        <u xml:id="i-DkPftok9oi1XLbvpiLYKHs" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-3f714d3fa8758f16-4">
           <seg xml:id="i-NtcbczPiFiLmz6C3Wydz1T">
             stryka att skolpraktiken, som även omfattar två veckotimmar utanför
             timplanen under läsåret i gymnasiets första och andra årskurser,
@@ -3294,7 +3282,7 @@
         <note xml:id="i-49YanaEbdnMusYtFvwzM65">
           bosättning
         </note>
-        <u xml:id="i-9339e41d8645a554-6" who="i-MHvgjmzw3jqPLk3AHQUFKw" prev="i-9339e41d8645a554-5" next="i-EoyKQKQzJBNkanTPFYhMqT">
+        <u xml:id="i-9339e41d8645a554-6" who="i-MHvgjmzw3jqPLk3AHQUFKw" prev="i-9339e41d8645a554-5">
           <seg xml:id="i-YTbd2rqMkoWyA8uNF1K7FZ">
             Det ligger i sakens natur att en dagstidning som vill återge
             en kartskiss som illustration till en nyhetsartikel inte har tid
@@ -3330,13 +3318,9 @@
             att till statsrådet och chefen för jordbruksdepartementet få ställa
             följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-EoyKQKQzJBNkanTPFYhMqT" who="i-MHvgjmzw3jqPLk3AHQUFKw" prev="i-9339e41d8645a554-6" next="i-2EcypwTkUNtaCfrAMk99RZ">
           <seg xml:id="i-G1xUtozLHgVZgmmAhRgX2P">
             Vill statsrådet ta initiativ till att till-
           </seg>
-        </u>
-        <u xml:id="i-2EcypwTkUNtaCfrAMk99RZ" who="i-MHvgjmzw3jqPLk3AHQUFKw" prev="i-EoyKQKQzJBNkanTPFYhMqT">
           <seg xml:id="i-7wjojn1GHwcqeK4mCTxEtf">
             ståndsgivningen förenklas och reproduktionen avgiftsbefrias när
             dagspressen i syfte att illustrera nyhetsartiklar återger kartmaterial?
@@ -3355,7 +3339,7 @@
         <note xml:id="i-JFqyZXwVzb115yNVqKqdg1" type="speaker">
           Herr WIKNER (s), som yttrade:
         </note>
-        <u xml:id="i-9339e41d8645a554-7" who="i-YZ7PrTPoP4SC7wVftmkUya" next="i-CbWgPLif3wVWoA4u8mExH3">
+        <u xml:id="i-9339e41d8645a554-7" who="i-YZ7PrTPoP4SC7wVftmkUya" next="i-9339e41d8645a554-8">
           <seg xml:id="i-Xpox84gAzPBBWWahu9ymcv">
             Herr talman! I anvisningarna till 33 $ kommunalskattelagen äger
             »skattskyldig, som på grund av sitt arbete bosatt sig på annan
@@ -3380,8 +3364,6 @@
             det gäller att yrka avdrag för ökningen i levnadskostnaden respektive
             bedöma huruvida avdrag skall medges.
           </seg>
-        </u>
-        <u xml:id="i-CbWgPLif3wVWoA4u8mExH3" who="i-YZ7PrTPoP4SC7wVftmkUya" prev="i-9339e41d8645a554-7" next="i-9339e41d8645a554-8">
           <seg xml:id="i-FT5kFAjAnoQwhrpPnbL4yj">
             Av t. ex. vissa i »Handledning för arbetet i taxeringsnämnder»
             återgivna regeringsrättsutslag i taxeringsmål framgår att regeringsrätten
@@ -3402,7 +3384,7 @@
         <note xml:id="i-QStXPV4JZdtJNZjsZjQ84Q">
           bosättning
         </note>
-        <u xml:id="i-9339e41d8645a554-8" who="i-YZ7PrTPoP4SC7wVftmkUya" prev="i-CbWgPLif3wVWoA4u8mExH3">
+        <u xml:id="i-9339e41d8645a554-8" who="i-YZ7PrTPoP4SC7wVftmkUya" prev="i-9339e41d8645a554-7">
           <seg xml:id="i-2WSZM4VieERPtNiXgnioNR">
             den skattskyldiges kostnader för resor till och från sin familj,
             som är bosatt på annan ort, såsom en form av fördyrade levnadskostnader
@@ -3543,7 +3525,7 @@
           mest begärliga fastigheterna, dels den allmänna prisnivån på jordbruksoch
           skogsbruksfastigheter.
         </note>
-        <u xml:id="i-U1WaDDkLdMX6JFN83bQD8j" who="unknown" next="i-Mow7eo1jadAKBnJ2GRWzAm">
+        <u xml:id="i-U1WaDDkLdMX6JFN83bQD8j" who="unknown">
           <seg xml:id="i-VZ8pusCVpmyq51inGoSaLb">
             Vid domänverkets inköp och försäljning av skogsmark tillämpas
             de värderingsgrunder som redovisas i proposition nr 148 till 1959
@@ -3554,14 +3536,10 @@
             värderingsgrunder har riksdagen, som behandlat frågan vid upprepade
             tillfällen, ej haft någon erinran.
           </seg>
-        </u>
-        <u xml:id="i-Mow7eo1jadAKBnJ2GRWzAm" who="unknown" prev="i-U1WaDDkLdMX6JFN83bQD8j" next="i-93AEGAejrSVcNHGxcYe9Pd">
           <seg xml:id="i-XSRrFWaDhYnHDRdnT6BZ5Y">
             I det stora antal ärenden om inköp av skog för domänverkets räkning,
             som
           </seg>
-        </u>
-        <u xml:id="i-93AEGAejrSVcNHGxcYe9Pd" who="unknown" prev="i-Mow7eo1jadAKBnJ2GRWzAm">
           <seg xml:id="i-F5Cg7kqkBK1VvPfo6qvW9p">
             avgjorts på min föredragning; har jag varit i tillfälle att konstatera
             att domänstyrelsen iakttagit nyss nämnda värderingsgrunder. Det

@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-NpzhRksuvpsLeDHT1diZTw" type="speech">
             <linkGrp type="u">
               <ptr target="#i-51aba9139d870800-0"/>
@@ -472,7 +472,13 @@
               <ptr target="#i-2c3b45639814bcb4-2"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -607,7 +613,7 @@
         <note xml:id="i-Nu9R1oMvznpbsSahZTZtie">
           Upplästes följande till kammaren inkomna läkarintyg:
         </note>
-        <u xml:id="i-7d1BVnUm2WrTxkTjNHYRz6" who="unknown">
+        <u xml:id="i-7d1BVnUm2WrTxkTjNHYRz6" who="unknown" next="i-a5f9e7da3d0c4699-1">
           <seg xml:id="i-2m1EEWfCCQyxk2yqXnn5zi">
             På begäran intygas härmed, att riksdagsmannen Helge Lindström
             från Rossbol, Lockne, fr. o. m. den 18/1i 1951 är intagen å härvarande
@@ -643,7 +649,7 @@
           De grundläggande bestämmelserna om behandling av djur äro upptagna
           i lagen den 19 maj 1944 om djurskydd.
         </note>
-        <u xml:id="i-a5f9e7da3d0c4699-1" who="i-MBoQhoiPhUghQ4CXR6kcEf" prev="i-a5f9e7da3d0c4699-0" next="i-VoXa79PP61x2FDy1hSFP8j">
+        <u xml:id="i-a5f9e7da3d0c4699-1" who="i-MBoQhoiPhUghQ4CXR6kcEf" prev="i-7d1BVnUm2WrTxkTjNHYRz6" next="i-a5f9e7da3d0c4699-3">
           <seg xml:id="i-KbLkJy2JmN3ZJbfnRrSSyf">
             Huvudregeln är att djur skall behandlas väl och såvitt möjligt
             skyddas mot lidande. I anslutning härtill stadgas, att stall eller
@@ -655,8 +661,6 @@
             eller annat lidande. Närmare bestämmelser om offentlig förevisning
             av djur skola enligt djurskyddslagen meddelas av Kungl. Maj:t.
           </seg>
-        </u>
-        <u xml:id="i-VoXa79PP61x2FDy1hSFP8j" who="i-MBoQhoiPhUghQ4CXR6kcEf" prev="i-a5f9e7da3d0c4699-1" next="i-a5f9e7da3d0c4699-2">
           <seg xml:id="i-3SEhobTcdqfdNYYGbEhM6M">
             Kompletterande bestämmelser om förevisning av djur återfinnas
             i den s. k. menageriförordningen den 30 december 1916. Enligt
@@ -668,8 +672,6 @@
             föreställning, där huvudsakligen avses att visa djuren bibragt
             dressyr.
           </seg>
-        </u>
-        <u xml:id="i-a5f9e7da3d0c4699-2" who="i-MBoQhoiPhUghQ4CXR6kcEf" prev="i-VoXa79PP61x2FDy1hSFP8j" next="i-HSkynr5yHCzsM9MGRrijyM">
           <seg xml:id="i-XkSdBRXY2BWNznxWtp8FEv">
             Enligt vad interpellanten anfört brister på detta område djurskyddet
             främst i följande tre hänseenden. Dressyr av vissa djur, i synnerhet
@@ -678,8 +680,6 @@
             äro otillfredsställande. Vidare gör undantagsbestämmelsen om rätt
             att förevisa dresserade djur det möjligt att kringgå menageriförbudet.
           </seg>
-        </u>
-        <u xml:id="i-HSkynr5yHCzsM9MGRrijyM" who="i-MBoQhoiPhUghQ4CXR6kcEf" prev="i-a5f9e7da3d0c4699-2" next="i-a5f9e7da3d0c4699-3">
           <seg xml:id="i-XUQJWjD32LtjqJSdcifSek">
             I anslutning härtill vill jag nämna, att Sveriges djurskyddsföreningars
             riksförbund i skrivelse i april 1947, under åberopande av likartade
@@ -696,7 +696,7 @@
         <note xml:id="i-39hNhpNdKFGg33cf7CS89V">
           Svar på interpellation ang. omformulering av den s. k. menageriförordningen.
         </note>
-        <u xml:id="i-a5f9e7da3d0c4699-3" who="i-MBoQhoiPhUghQ4CXR6kcEf" prev="i-HSkynr5yHCzsM9MGRrijyM">
+        <u xml:id="i-a5f9e7da3d0c4699-3" who="i-MBoQhoiPhUghQ4CXR6kcEf" prev="i-a5f9e7da3d0c4699-1">
           <seg xml:id="i-X8kgmvSVvqBjd25y6HFuHW">
             som dem interpellanten nu anfört, hemställt om förbud mot förevisning
             av vilda djur såväl i cirkus som i menageri. Över framställningen
@@ -739,7 +739,7 @@
         <note xml:id="i-59Ja57S5qfiqvhSeA4kcYT" type="speaker">
           Herr DICKSON:
         </note>
-        <u xml:id="i-51aba9139d870800-0" who="i-KibauNu6CSDswgonTZCuVD" next="i-51aba9139d870800-1">
+        <u xml:id="i-51aba9139d870800-0" who="i-KibauNu6CSDswgonTZCuVD" next="i-7a85f6fab1eef0db-0">
           <seg xml:id="i-EH2pLRLVkCxKDsJDJZr17T">
             Herr talman! Jag ber först att till herr talmannen få rikta ett
             tack för att herr talmannen har medgivit, att en interpellation
@@ -836,7 +836,7 @@
           man. Därav föranledes man att rikta uppmärksamheten på frågan
           om omfatt-
         </note>
-        <u xml:id="i-7a85f6fab1eef0db-0" who="i-XD5q9S6mMdHF4YeAdX1eSp" next="i-J4UDbSDptftgpjW79bJv3S">
+        <u xml:id="i-7a85f6fab1eef0db-0" who="i-XD5q9S6mMdHF4YeAdX1eSp" prev="i-51aba9139d870800-0" next="i-51aba9139d870800-3">
           <seg xml:id="i-Pr5TotDyre3t2rjkgkWRwc">
             ningen av och betingelserna för den omfattande representation,
             formellt knuten till ryska ambassaden, som f. n. finnes i vårt
@@ -869,8 +869,6 @@
             legationsarbete formellt är knuten till ryska ambassaden, och
             sker någon prövning, då dylika personer anhålla om inreseoch uppehållstillstånd?
           </seg>
-        </u>
-        <u xml:id="i-J4UDbSDptftgpjW79bJv3S" who="i-XD5q9S6mMdHF4YeAdX1eSp" prev="i-7a85f6fab1eef0db-0" next="i-51aba9139d870800-3">
           <seg xml:id="i-KEoZz66751jr2nueZE6brM">
             2) Kan Ers Excellens meddela kammaren, vilka restriktioner som
             i fråga om verksamheten, rörelsefriheten m. m. på senare år beslutats
@@ -889,7 +887,7 @@
           sysselsatt med legationsarbete formellt är knuten till ryska ambassaden
           i Stockholm, m. m.
         </note>
-        <u xml:id="i-51aba9139d870800-3" who="i-XD5q9S6mMdHF4YeAdX1eSp" prev="i-J4UDbSDptftgpjW79bJv3S">
+        <u xml:id="i-51aba9139d870800-3" who="i-XD5q9S6mMdHF4YeAdX1eSp" prev="i-7a85f6fab1eef0db-0" next="i-Vbb63dYh6nL76bVXo1cw1V">
           <seg xml:id="i-qYLrzgWft1qxScmbwbfQJ">
             3) Om sådana restriktioner f. n. äro rådande i Moskva mot vår
             legation, kan man förvänta att till en viss grad liknande bestämmelser
@@ -987,7 +985,7 @@
           så god tid att förslag kan framläggas för beslut vid 1952 års
           riksdags vårsession.
         </note>
-        <u xml:id="i-Vbb63dYh6nL76bVXo1cw1V" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-54fdad6e21057fce-0">
+        <u xml:id="i-Vbb63dYh6nL76bVXo1cw1V" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-51aba9139d870800-3">
           <seg xml:id="i-o3LNkwQoyeFgR7SKYry8w">
             Enligt vad jag inhämtat räkna marinens underofficerssakkunniga
             med att framlägga förslag rörande kustartilleriets underofficerare
@@ -1144,7 +1142,7 @@
           Svar på interpellation ang. vissa olägenheter i samband med reservofficerarnas
           repetitionsövningar.
         </note>
-        <u xml:id="i-54fdad6e21057fce-2" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-54fdad6e21057fce-1" next="i-J6YyREu4PjRRXTssvGuJXe">
+        <u xml:id="i-54fdad6e21057fce-2" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-54fdad6e21057fce-1">
           <seg xml:id="i-AYUR8DChEi5zCkta7azBn6">
             heterna av att reservofficerare under vissa omständigheter icke
             kunna inkallas till repetitionsövningarna för de förband, på vilka
@@ -1179,8 +1177,6 @@
             till det nya systemet för repetitionsövningar, dels åstadkomma
             en allmän effektivisering av reservper-
           </seg>
-        </u>
-        <u xml:id="i-J6YyREu4PjRRXTssvGuJXe" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-54fdad6e21057fce-2">
           <seg xml:id="i-2Z1j4SewjKZcjiLjrNcEtk">
             sonalens utbildning i övrigt. Enligt vad jag inhämtat beräknas
             denna utredning föreligga färdig i början av instundande december,
@@ -1194,7 +1190,7 @@
         <note xml:id="i-TGRaoPGG1J6D6FJnMv7esK" type="speaker">
           Herr ERICSSON i Näs:
         </note>
-        <u xml:id="i-833ccb1c1df75a38-0" who="i-KneRRQTj9x28u3kKGUXgee" next="i-833ccb1c1df75a38-1">
+        <u xml:id="i-833ccb1c1df75a38-0" who="i-KneRRQTj9x28u3kKGUXgee" next="i-31107646b84e279c-0">
           <seg xml:id="i-Df7MKPWMBKG3VCaKVS9bKq">
             Herr talman! Jag ber att till herr statsrådet och chefen för
             försvarsdepartementet få framföra mitt tack för interpellationssvaret.
@@ -1244,7 +1240,7 @@
           för släckning av eld i staten tillhörig egendom. Herr JOHANSSON
           i Mysinge erhöll på begäran ordet och yttrade:
         </note>
-        <u xml:id="i-31107646b84e279c-0" who="i-4YQFYCZptEWZxiREjfJbJ6" next="i-31107646b84e279c-1">
+        <u xml:id="i-31107646b84e279c-0" who="i-4YQFYCZptEWZxiREjfJbJ6" prev="i-833ccb1c1df75a38-0" next="i-31107646b84e279c-1">
           <seg xml:id="i-5VmfpAu2PgKo9cLhgcey2d">
             Herr talman! Enligt 1 $ första stycket och 9 $ andra stycket
             brandlagen är föreskrivet dels att varje kommun i enlighet med
@@ -1426,15 +1422,13 @@
         <note xml:id="i-LnLjqnNsjFVtH67XCkipcz" type="speaker">
           Chefen för socialdepartementet, herr statsrådet STRÄNG, som yttrade:
         </note>
-        <u xml:id="i-a5f9e7da3d0c4699-4" who="i-3urySgCAk2SuFz1BB8TX5x" next="i-Xxb9EkBDorL9a7er8hMhhk">
+        <u xml:id="i-a5f9e7da3d0c4699-4" who="i-3urySgCAk2SuFz1BB8TX5x" next="i-PAqrHRj3qGmbQTuPHSSTrk">
           <seg xml:id="i-NePCZuJXqMBraXrJc5LDzz">
             Herr talman! Herr Ericsson i Näs har frågat mig när resultatet
             av den av riksdagen beslutade utredningen angående möjligheterna
             att skapa förutsättningar för en folksemester kan antas vara färdig.
             Som svar på frågan vill jag meddela följande.
           </seg>
-        </u>
-        <u xml:id="i-Xxb9EkBDorL9a7er8hMhhk" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-a5f9e7da3d0c4699-4" next="i-PAqrHRj3qGmbQTuPHSSTrk">
           <seg xml:id="i-DU7v4BeCrJ8M4zPaerbnT4">
             Arbetsmarknadsstyrelsen erhöll den 7 juli 1950 uppdrag att utreda
             möjlig-
@@ -1447,7 +1441,7 @@
         <note xml:id="i-6Sn5QGYGfunSRMbeDp1KxW" type="date">
           Onsdagen den 28 november 1951.
         </note>
-        <u xml:id="i-PAqrHRj3qGmbQTuPHSSTrk" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-Xxb9EkBDorL9a7er8hMhhk" next="i-a5f9e7da3d0c4699-5">
+        <u xml:id="i-PAqrHRj3qGmbQTuPHSSTrk" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-a5f9e7da3d0c4699-4" next="i-a5f9e7da3d0c4699-5">
           <seg xml:id="i-7kGBYmden7MmeDkmjPmmUi">
             Organ med parlamentarisk anknytning för kontinuerliga överläggningar
             i försvars-
@@ -1487,7 +1481,7 @@
         <note xml:id="i-VRGP2xuXQCtpbT4rznnF5y" type="speaker">
           Herr ERICSSON i Näs:
         </note>
-        <u xml:id="i-833ccb1c1df75a38-3" who="i-KneRRQTj9x28u3kKGUXgee" next="i-WV4Dg8eTWV4X8zaUnX2cPA">
+        <u xml:id="i-833ccb1c1df75a38-3" who="i-KneRRQTj9x28u3kKGUXgee">
           <seg xml:id="i-7vDq6bw5LWiKSQvmsZi1H6">
             Herr talman! Jag ber att få tacka för svaret som jag fått av
             socialministern. Det är ju så, att vi äro många som äro intresserade
@@ -1540,15 +1534,13 @@
         <note xml:id="i-V7B4AscY5eJRtjNFYsq8tP" type="speaker">
           Herr HJALMARSON:
         </note>
-        <u xml:id="i-f789ad8c2c224f44-0" who="i-2gvrXtH5sAT9PgXsCVpQSW" next="i-7Bk141GjeDywHr3CeycfYC">
+        <u xml:id="i-f789ad8c2c224f44-0" who="i-2gvrXtH5sAT9PgXsCVpQSW" next="i-f789ad8c2c224f44-1">
           <seg xml:id="i-YA1oxsuYfst5KNyunvZozR">
             Herr talman! Den motion, som väckts av herr Svärd i första kammaren
             och av mig i andra, har i sak ägnats en mycket välvillig behandling
             i statsutskottets utlåtande, och för detta skall jag be att få
             uttala min glädje och tillfredsställelse.
           </seg>
-        </u>
-        <u xml:id="i-7Bk141GjeDywHr3CeycfYC" who="i-2gvrXtH5sAT9PgXsCVpQSW" prev="i-f789ad8c2c224f44-0" next="i-f789ad8c2c224f44-1">
           <seg xml:id="i-Rw4VxtFa2cC176CBLPwHQH">
             Utgångspunkten för motionärernas
           </seg>
@@ -1557,7 +1549,7 @@
         <note xml:id="i-EJKRQJRX494X54Xxx31YYx" type="date">
           Onsdagen den 28 november 1951.
         </note>
-        <u xml:id="i-f789ad8c2c224f44-1" who="i-2gvrXtH5sAT9PgXsCVpQSW" prev="i-7Bk141GjeDywHr3CeycfYC" next="i-f789ad8c2c224f44-2">
+        <u xml:id="i-f789ad8c2c224f44-1" who="i-2gvrXtH5sAT9PgXsCVpQSW" prev="i-f789ad8c2c224f44-0" next="i-f789ad8c2c224f44-2">
           <seg xml:id="i-H6ak2bFJZCXXqS3UXs2zsz">
             framstöt har varit det faktum, att en markant positiv inställning
             till försvaret numera framträder hos det stora flertalet inom
@@ -2456,7 +2448,7 @@
         <note xml:id="i-48TyfxLhknSzoAFY6XDJVb" type="date">
           Onsdagen den 28 november 1951.
         </note>
-        <u xml:id="i-271b952e3df24119-3" who="i-T6dd3fn3avyoiNYJk3XNTR" prev="i-271b952e3df24119-2" next="i-3Fkhg5jmXuvQtwmZD59hh5">
+        <u xml:id="i-271b952e3df24119-3" who="i-T6dd3fn3avyoiNYJk3XNTR" prev="i-271b952e3df24119-2">
           <seg xml:id="i-924NHwnjsqrhqLyqTdnbZ6">
             ring av kostnaden. Å andra sidan är det emellertid svårt att
             hålla tillbaka en känsla av att vi här äro inne på en väg, där
@@ -2487,8 +2479,6 @@
             därför att jag hoppas att åtgärderna, såsom det skrivits, bli
             av provisorisk karaktär.
           </seg>
-        </u>
-        <u xml:id="i-3Fkhg5jmXuvQtwmZD59hh5" who="i-T6dd3fn3avyoiNYJk3XNTR" prev="i-271b952e3df24119-3">
           <seg xml:id="i-XLpZQRnQWRuKLfV4v7EfL9">
             Jag ber sålunda, herr talman, att få yrka bifall till den reservation,
             som avgivits av herr Pålsson m. fl.
@@ -2507,7 +2497,7 @@
         <note xml:id="i-BsngUqc52g5FCmG3FhiwXz" type="date">
           Onsdagen den 28 november 1951.
         </note>
-        <u xml:id="i-5cfa6ea52d01fe94-1" who="i-PxJkAua7y2xMDdFhtkakAi" prev="i-5cfa6ea52d01fe94-0" next="i-CWkjMKJk8wDBsZDmnJbwRV">
+        <u xml:id="i-5cfa6ea52d01fe94-1" who="i-PxJkAua7y2xMDdFhtkakAi" prev="i-5cfa6ea52d01fe94-0" next="i-5cfa6ea52d01fe94-2">
           <seg xml:id="i-Qwn1dLn4z9vLRhYA9JFPY">
             Här ha ju föreslagits olika subvenventionsbelopp allt eftersom
             byggnaderna påbörjats. Vad gäller flerfamiljshus, som påbörjats
@@ -2538,14 +2528,10 @@
             kronor. För nyoch ombyggnadsföretag, som påbörjats tidigast den
             1 juli 1951, skall den rän-
           </seg>
-        </u>
-        <u xml:id="i-CWkjMKJk8wDBsZDmnJbwRV" who="i-PxJkAua7y2xMDdFhtkakAi" prev="i-5cfa6ea52d01fe94-1" next="i-S89djWsW9xZ7eoAfdgxR9L">
           <seg xml:id="i-9UVWux5ZUVEvJRMxAKiSge">
             tefria, stående delen av lånet utgöra 8000 kronor. Vad gäller
             ombyggnadsföretag har
           </seg>
-        </u>
-        <u xml:id="i-S89djWsW9xZ7eoAfdgxR9L" who="i-PxJkAua7y2xMDdFhtkakAi" prev="i-CWkjMKJk8wDBsZDmnJbwRV" next="i-5cfa6ea52d01fe94-2">
           <seg xml:id="i-Mbzk3mKh5oL14Vh8GWHPyt">
             samtidigt företagits den ändringen, att den räntefria, stående
             delen ej får över-
@@ -2557,7 +2543,7 @@
         <note xml:id="i-8n9DgJ27JM1LYVEPmuM7Lp">
           Främjande av bostadsförsörjningen m. m.
         </note>
-        <u xml:id="i-5cfa6ea52d01fe94-2" who="i-PxJkAua7y2xMDdFhtkakAi" prev="i-S89djWsW9xZ7eoAfdgxR9L" next="i-5cfa6ea52d01fe94-3">
+        <u xml:id="i-5cfa6ea52d01fe94-2" who="i-PxJkAua7y2xMDdFhtkakAi" prev="i-5cfa6ea52d01fe94-1" next="i-5cfa6ea52d01fe94-3">
           <seg xml:id="i-5uQSzDT3qzExUrxE53SECm">
             stiga 30 procent av ombyggnadskostnaden. Denna procentsats är
             för närvarande 20.
@@ -2993,13 +2979,11 @@
         <note xml:id="i-L4xdH2yrZP67w7Dgmdnx5V" type="date">
           Onsdagen den 28 november 1951.
         </note>
-        <u xml:id="i-5cfa6ea52d01fe94-12" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-5cfa6ea52d01fe94-11" next="i-DQeA4hiYk98odTiz1EWcq6">
+        <u xml:id="i-5cfa6ea52d01fe94-12" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-5cfa6ea52d01fe94-11">
           <seg xml:id="i-R46uXF3JkP7HMSiD1Fa13Q">
             ma fram till ett läge som erbjuder bättre betingelser även för
             bostadsbyggandet.
           </seg>
-        </u>
-        <u xml:id="i-DQeA4hiYk98odTiz1EWcq6" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-5cfa6ea52d01fe94-12">
           <seg xml:id="i-GzStHEsz2xvi4dSQkWEpLa">
             Herr talman! Jag ber att få yrka bifall till statsutskottets
             förslag med den ändring som föranledes av bifall till reservationen
@@ -3954,14 +3938,12 @@
         <note xml:id="i-9aXovo3xBw4eoMonit5pLJ" type="date">
           Onsdagen den 28 november 1951.
         </note>
-        <u xml:id="i-a1251591b3a03245-10" who="i-DhydwP8Z8XB2zCbdWxm1YP" prev="i-a1251591b3a03245-9" next="i-8W57toxCmJAm5dPiwHUXWV">
+        <u xml:id="i-a1251591b3a03245-10" who="i-DhydwP8Z8XB2zCbdWxm1YP" prev="i-a1251591b3a03245-9">
           <seg xml:id="i-T4CxJZjADvJLnNcAA8PGia">
             arbetskraften, nämligen byggmästarna och företagarna, sörjde
             för åtgärder för att avskaffa den säsongarbetslöshet, som allt
             fortfarande förekommer inom byggnadsindustrien.
           </seg>
-        </u>
-        <u xml:id="i-8W57toxCmJAm5dPiwHUXWV" who="i-DhydwP8Z8XB2zCbdWxm1YP" prev="i-a1251591b3a03245-10">
           <seg xml:id="i-EKG8txXv8LGdHaZ9gJZMsw">
             Med dessa ord, herr talman, ber jag att få yrka bifall till motionen
             nr 655 under utskottets punkt I, till samma motion under utskottets
@@ -5277,7 +5259,7 @@
         <note xml:id="i-FLgvxWvtyHVW4KskyZSGKe" type="date">
           Onsdagen den 28 november 1951.
         </note>
-        <u xml:id="i-d499cb536cea618e-2" who="i-JgRYTBR82A6fZXYWrDDTJv" prev="i-d499cb536cea618e-1" next="i-SCW5rAtcC3BBzhzArMjxiC">
+        <u xml:id="i-d499cb536cea618e-2" who="i-JgRYTBR82A6fZXYWrDDTJv" prev="i-d499cb536cea618e-1" next="i-d499cb536cea618e-4">
           <seg xml:id="i-UGpEHU4rnk8b966ctVBKyR">
             ring har skett på det sättet, att under de första sex månaderna
             av ifrågavarande år, alltså under tiden november 1950—april 1951,
@@ -5297,15 +5279,11 @@
             att för innevarande kalenderår en prisstegring på omkring 20 procent
             väntas föreligga.
           </seg>
-        </u>
-        <u xml:id="i-SCW5rAtcC3BBzhzArMjxiC" who="i-JgRYTBR82A6fZXYWrDDTJv" prev="i-d499cb536cea618e-2" next="i-d499cb536cea618e-3">
           <seg xml:id="i-2txooV5PqYmxrj61Scn1EW">
             Mot bakgrunden av den utveckling, som jag sålunda relaterat,
             gå vi i dag till behandling av bankoutskottets utlåtande om propositionen
             nr 221 med förslag till lag om räntereglering.
           </seg>
-        </u>
-        <u xml:id="i-d499cb536cea618e-3" who="i-JgRYTBR82A6fZXYWrDDTJv" prev="i-SCW5rAtcC3BBzhzArMjxiC" next="i-d499cb536cea618e-4">
           <seg xml:id="i-KFxbYYp1RCgWK1iEef9Ttb">
             Jag skall inte uppehålla kammaren med att i detalj upprepa alla
             de argument och synpunkter, som framförts gentemot en räntereglering,
@@ -5336,7 +5314,7 @@
         <note xml:id="i-ErKmRfSqdVDWKwF5ypVBfz">
           Lag om räntereglering.
         </note>
-        <u xml:id="i-d499cb536cea618e-4" who="i-JgRYTBR82A6fZXYWrDDTJv" prev="i-d499cb536cea618e-3" next="i-GPnzJfzyVcaDxkNzznT5jE">
+        <u xml:id="i-d499cb536cea618e-4" who="i-JgRYTBR82A6fZXYWrDDTJv" prev="i-d499cb536cea618e-2" next="i-GPnzJfzyVcaDxkNzznT5jE">
           <seg xml:id="i-UFpqTrfCBFCh7aDdepvAbh">
             kens penningpolitiska verksamhet», ty om en stabilisering av
             räntenivån ingår i målsättningen kan denna vara problematisk.
@@ -5480,7 +5458,7 @@
         <note xml:id="i-RpcGKtYiVq33UTtHqpmWRg" type="date">
           Onsdagen den 28 november 1951.
         </note>
-        <u xml:id="i-d499cb536cea618e-7" who="i-JgRYTBR82A6fZXYWrDDTJv" prev="i-d499cb536cea618e-6" next="i-6s6PSDwvCr8RVoLSekbxCi">
+        <u xml:id="i-d499cb536cea618e-7" who="i-JgRYTBR82A6fZXYWrDDTJv" prev="i-d499cb536cea618e-6">
           <seg xml:id="i-XyVTd21kKQRE7t3Cej6Vqg">
             plats för andra talare. Jag vill emellertid erinra om vad jag
             sade i våras, nämligen att varje likviditetsändrande åtgärd från
@@ -5504,8 +5482,6 @@
             »Vi kunna inte lova att upprepa gamla misstag, men vi kunna lova
             att vi komma att begå nya.»
           </seg>
-        </u>
-        <u xml:id="i-6s6PSDwvCr8RVoLSekbxCi" who="i-JgRYTBR82A6fZXYWrDDTJv" prev="i-d499cb536cea618e-7">
           <seg xml:id="i-GF8sZDFTt7P9rsKdB8UDhx">
             Herr talman! Jag ber att få yrka bifall till den av herr Ewerlöf
             m. fl. avgivna reservationen.
@@ -6683,13 +6659,11 @@
         <note xml:id="i-2uq7RAQo8ojwME3BDVES7z" type="date">
           Onsdagen den 28 november 1951.
         </note>
-        <u xml:id="i-3Ptymr2AGC55kjRfMpKLoa" who="i-6PeNM1B9NsCjyScL117vps" prev="i-6b02eca3e5e65b8b-5" next="i-6b02eca3e5e65b8b-6">
+        <u xml:id="i-3Ptymr2AGC55kjRfMpKLoa" who="i-6PeNM1B9NsCjyScL117vps" prev="i-6b02eca3e5e65b8b-5" next="i-6b02eca3e5e65b8b-7">
           <seg xml:id="i-SDHE19r857F9tcmarLRTWz">
             dant med hänsyn till utomordentliga omständigheter prövas nödigt,
             må Konungen» etc.
           </seg>
-        </u>
-        <u xml:id="i-6b02eca3e5e65b8b-6" who="i-6PeNM1B9NsCjyScL117vps" prev="i-3Ptymr2AGC55kjRfMpKLoa" next="i-6b02eca3e5e65b8b-7">
           <seg xml:id="i-Hv1JdSxpFB4BChFeyHnS5X">
             Den fjärde lagrådsledamoten, den som inte helt ville tillstyrka
             förslaget, förordade att man i rättssäkerhetens intresse åtminstone
@@ -6729,7 +6703,7 @@
         <note xml:id="i-TdGD8k89bdV7XCyyTSRm9Q" type="date">
           Onsdagen den 28 november 1951.
         </note>
-        <u xml:id="i-6b02eca3e5e65b8b-7" who="i-6PeNM1B9NsCjyScL117vps" prev="i-6b02eca3e5e65b8b-6" next="i-6b02eca3e5e65b8b-8">
+        <u xml:id="i-6b02eca3e5e65b8b-7" who="i-6PeNM1B9NsCjyScL117vps" prev="i-3Ptymr2AGC55kjRfMpKLoa" next="i-6b02eca3e5e65b8b-8">
           <seg xml:id="i-7AUxQRJSkhe5ZyBrx18tfM">
             Däremot kan den ha utomordentlig betydelse ur andra synpunkter.
             Det innebär att ett arbetsutskott inom riksbanksfullmäktige får
@@ -6997,13 +6971,11 @@
         <note xml:id="i-GCzM6Ajt3c9EJCv3sL1bBr">
           Lag om räntereglering.
         </note>
-        <u xml:id="i-271b952e3df24119-9" who="i-CiY7VNsAwtDMYeA3zzhgP2" prev="i-271b952e3df24119-8" next="i-XgBFd8xezThArXkoaGNr1R">
+        <u xml:id="i-271b952e3df24119-9" who="i-CiY7VNsAwtDMYeA3zzhgP2" prev="i-271b952e3df24119-8">
           <seg xml:id="i-M7UWYaWtL7hMN5ei2fCNX1">
             andra sammanhang fått höra tidigare, men dess bättre ha de inte
             blivit besannade.
           </seg>
-        </u>
-        <u xml:id="i-XgBFd8xezThArXkoaGNr1R" who="i-CiY7VNsAwtDMYeA3zzhgP2" prev="i-271b952e3df24119-9">
           <seg xml:id="i-UwVEhg9EgJWJEgP7JLWiu1">
             Jag vill härmed, herr talman, yrka bifall till utskottets hemställan.
           </seg>
@@ -7453,7 +7425,7 @@
         <note xml:id="i-WuVfytGRZdFNF5PHQUv1zn" type="date">
           Onsdagen den 28 november 1951.
         </note>
-        <u xml:id="i-78e6d1d1ec277cab-6" who="i-BqDGKscaLhUZHhaFFmx5pf" prev="i-78e6d1d1ec277cab-5" next="i-SDd4MHBEfF5UkEeEpZn4Bp">
+        <u xml:id="i-78e6d1d1ec277cab-6" who="i-BqDGKscaLhUZHhaFFmx5pf" prev="i-78e6d1d1ec277cab-5" next="i-78e6d1d1ec277cab-7">
           <seg xml:id="i-VkwbQnkw8mRgvZnsYg1AkY">
             ring i och för sig utan på att man nu har ett annat läge. När
             man å ena sidan har en internationell konjunktur av det slag vi
@@ -7491,8 +7463,6 @@
             beakta detta en liten smula, innan man talar alltför onyanserat
             om räntehöjning.
           </seg>
-        </u>
-        <u xml:id="i-SDd4MHBEfF5UkEeEpZn4Bp" who="i-BqDGKscaLhUZHhaFFmx5pf" prev="i-78e6d1d1ec277cab-6" next="i-78e6d1d1ec277cab-7">
           <seg xml:id="i-Ro5pMb4BGVPsLBWv2PXbA">
             Beträffande skälen mot denna lag hänvisar jag i huvudsak till
             vad herrar Schmidt och Gustafson i Göteborg
@@ -7504,7 +7474,7 @@
         <note xml:id="i-4NYRJ4hiagdKK3oKWYq4gQ">
           Lag om räntereglering.
         </note>
-        <u xml:id="i-78e6d1d1ec277cab-7" who="i-BqDGKscaLhUZHhaFFmx5pf" prev="i-SDd4MHBEfF5UkEeEpZn4Bp" next="i-78e6d1d1ec277cab-8">
+        <u xml:id="i-78e6d1d1ec277cab-7" who="i-BqDGKscaLhUZHhaFFmx5pf" prev="i-78e6d1d1ec277cab-6" next="i-78e6d1d1ec277cab-8">
           <seg xml:id="i-9xk7hPyY8HUd6attMhFiKY">
             anförde och skall icke upprepa det. Men när utskottet säger,
             att det kan finnas tillstånd, då man kan behöva använda ränteförändringar,

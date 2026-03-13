@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-JzkVv5xjRZUm2ADMo1DmV5" type="speech">
             <linkGrp type="u">
               <ptr target="#i-VWnigA2q3kwYQa5WFMC8AW"/>
@@ -54,7 +54,13 @@
               <ptr target="#i-7tdsVTVwTq5umm5M2mcQ6x"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -783,7 +789,7 @@
         <note xml:id="i-Qyac3wmFnNdzjUaVWqReH3" type="speaker">
           Herr Rydén, som anförde:
         </note>
-        <u xml:id="i-VWnigA2q3kwYQa5WFMC8AW" who="i-NKRTEKkMqyNZNU9RaYZLPC" next="i-HCYiTnhVkBpkM7anSLou9t">
+        <u xml:id="i-VWnigA2q3kwYQa5WFMC8AW" who="i-NKRTEKkMqyNZNU9RaYZLPC" next="i-FdA1UDfoK4QVrBDvLQQJy8">
           <seg xml:id="i-FA3JoUzRH822ZcpkxwDXfT">
             Herr talman! En del af de grundlagsförändringar, som under 1909
             års riksdag vunno definitiv stadfästelse, afsågo som bekant att
@@ -792,8 +798,6 @@
             med afseende på tiden för motioners afgifvande, som 55 &amp; riksdagsordningen
             i dess nya lydelse innebär.
           </seg>
-        </u>
-        <u xml:id="i-HCYiTnhVkBpkM7anSLou9t" who="i-NKRTEKkMqyNZNU9RaYZLPC" prev="i-VWnigA2q3kwYQa5WFMC8AW" next="i-FdA1UDfoK4QVrBDvLQQJy8">
           <seg xml:id="i-TUPGjaGMtbhmC2Y8B3yz6q">
             Enligt förut gällande bestämmelser kunde motion, som föranleddes
             af kungl. proposition, hvilken efter riksdagens öppnande aflåtits,
@@ -821,7 +825,7 @@
         <note xml:id="i-6yb19bVsRmFyeTX4JokLkC" type="date">
           12 Onsdagen den 2 Februari.
         </note>
-        <u xml:id="i-FdA1UDfoK4QVrBDvLQQJy8" who="i-NKRTEKkMqyNZNU9RaYZLPC" prev="i-HCYiTnhVkBpkM7anSLou9t" next="i-6MhrTq3dztpH92La1AHAAT">
+        <u xml:id="i-FdA1UDfoK4QVrBDvLQQJy8" who="i-NKRTEKkMqyNZNU9RaYZLPC" prev="i-VWnigA2q3kwYQa5WFMC8AW" next="i-6MhrTq3dztpH92La1AHAAT">
           <seg xml:id="i-2NT1QdeBoMVj1J3MR2nrmz">
             Ett af villkoren för att så icke sker är, att Riksdagens ledamöter
             sättas i tillfälle att omedelbart efter en kungl. propositions
@@ -848,7 +852,7 @@
           proposition, nr 24, angående ändring af tullsatserna för kaffe
           och kaffesurrogat.
         </note>
-        <u xml:id="i-6MhrTq3dztpH92La1AHAAT" who="i-NKRTEKkMqyNZNU9RaYZLPC" prev="i-FdA1UDfoK4QVrBDvLQQJy8" next="i-WFC1Rm7k87ByRrFKBSjtpf">
+        <u xml:id="i-6MhrTq3dztpH92La1AHAAT" who="i-NKRTEKkMqyNZNU9RaYZLPC" prev="i-FdA1UDfoK4QVrBDvLQQJy8">
           <seg xml:id="i-SDUFKoBd2iRQcJG9cfndaP">
             Först i dag har riksdagstrycket angående densamma utdelats i
             denna kammare. Det blir med lördagen och denna dag icke mindre
@@ -859,8 +863,6 @@
             att bevillningsutskottet redan i går — innan propositionen remitterats
             alltså — skulle ha behandlat ifrågavarande ärende.
           </seg>
-        </u>
-        <u xml:id="i-WFC1Rm7k87ByRrFKBSjtpf" who="i-NKRTEKkMqyNZNU9RaYZLPC" prev="i-6MhrTq3dztpH92La1AHAAT" next="i-M4QCpZPuUxnRVueUvjdEhr">
           <seg xml:id="i-H7NJaZiPqanbEbrP3s5zHw">
             För att hindra upprepandet af en arbetsordning i Riksdagen, som
             i hög grad kringskär den enskilda motionsrätten, synes mig vidtagandet
@@ -870,16 +872,12 @@
             att riksdagstryck, upptagande en proposition, utdelas i Riksdagen
             omedelbart efter samma kungl. propositions aflämnande.
           </seg>
-        </u>
-        <u xml:id="i-M4QCpZPuUxnRVueUvjdEhr" who="i-NKRTEKkMqyNZNU9RaYZLPC" prev="i-WFC1Rm7k87ByRrFKBSjtpf" next="i-3yRLCdZ4YQBgGCmEt65zSH">
           <seg xml:id="i-G19m7kujTVD2KavUZ6Jemw">
             För att erfara regeringens mening om möjligheten att på detta
             sätt ordna ifrågavarande angelägenhet, anhåller jag om kammarens
             benägna tillstånd att till hans excellens herr statsministern
             framställa följande spörsmål:
           </seg>
-        </u>
-        <u xml:id="i-3yRLCdZ4YQBgGCmEt65zSH" who="i-NKRTEKkMqyNZNU9RaYZLPC" prev="i-M4QCpZPuUxnRVueUvjdEhr">
           <seg xml:id="i-GKtViCw9pUTisSM9QfCxnP">
             Kan regeringen ställa i utsikt att hädanefter, för så vidt på
             den ankommer, samma dag en kungl. proposition aflämnas i Riksdagen,
@@ -1388,14 +1386,12 @@
         <note xml:id="i-6rfraC825Jp77rWkxWCFQN" type="speaker">
           Herr Rydén, som yttrade:
         </note>
-        <u xml:id="i-AjXccJrHBUey6JgHxUnDga" who="i-NKRTEKkMqyNZNU9RaYZLPC" next="i-5MAKBKZmpmEngibz9c3k6K">
+        <u xml:id="i-AjXccJrHBUey6JgHxUnDga" who="i-NKRTEKkMqyNZNU9RaYZLPC" next="i-44fXGUJd2Ejmk5ZbpXPQQ8">
           <seg xml:id="i-JtaC46KaSyfTs4uQ6Yw641">
             Herr talman! Sedan jag i går framställde min interpellation,
             har det beredts mig tillfälle att taga del af följande promemoria
             från föreståndaren för Riksdagens tryckeriafdelning:
           </seg>
-        </u>
-        <u xml:id="i-5MAKBKZmpmEngibz9c3k6K" who="i-NKRTEKkMqyNZNU9RaYZLPC" prev="i-AjXccJrHBUey6JgHxUnDga" next="i-Qss13nj6p6tst5B6SFoxnb">
           <seg xml:id="i-SqydYKGdJ2sAUCLn3yEPL6">
             Annu på 1890-talet aflämnades en icke obetydlig del af de kungl.
             propositionerna i skrifna ex. till kamrarne och trycktes därefter
@@ -1405,8 +1401,6 @@
             förfrågan, från tryckeriexpeditionen om det nr, hvarunder närmast
             föreg. proposition är införd i dess liggare.
           </seg>
-        </u>
-        <u xml:id="i-Qss13nj6p6tst5B6SFoxnb" who="i-NKRTEKkMqyNZNU9RaYZLPC" prev="i-5MAKBKZmpmEngibz9c3k6K" next="i-44fXGUJd2Ejmk5ZbpXPQQ8">
           <seg xml:id="i-RJxhXAVYERZ6sUUKAVAJC8">
             Tryckeriet aflämnar upplagan mot kvitto till bokbindare Åkerdahl,
             som ombesörjer häftning. Därefter sändas i regel 650 ex. till
@@ -1438,7 +1432,7 @@
         <note xml:id="i-MqNvdvb4Y91PQitAFVpDQS" type="date">
           22 Torsdagen den 3 Februari.
         </note>
-        <u xml:id="i-44fXGUJd2Ejmk5ZbpXPQQ8" who="i-NKRTEKkMqyNZNU9RaYZLPC" prev="i-Qss13nj6p6tst5B6SFoxnb" next="i-A9TYywtiRBrBGhbRcRW9TF">
+        <u xml:id="i-44fXGUJd2Ejmk5ZbpXPQQ8" who="i-NKRTEKkMqyNZNU9RaYZLPC" prev="i-AjXccJrHBUey6JgHxUnDga">
           <seg xml:id="i-DQNk3VBm72ExVJodwBdgBt">
             propositionen väckts. Afven om denna anordning blefve regel,
             vore dock därmed ej trygghet vunnen för att en proposition kunde
@@ -1452,8 +1446,6 @@
             afslutande, n. b. om, såsom vanligen är fallet, propositionen
             redan finnes häftad i tryckeriexpeditionen.
           </seg>
-        </u>
-        <u xml:id="i-A9TYywtiRBrBGhbRcRW9TF" who="i-NKRTEKkMqyNZNU9RaYZLPC" prev="i-44fXGUJd2Ejmk5ZbpXPQQ8">
           <seg xml:id="i-AVmeUe7nvdtegVke9ifqNt">
             Det framgår af denna promemoria, att ett sådant missförhållande,
             som nu senast inträffat med den proposition, som jag i min interpellation

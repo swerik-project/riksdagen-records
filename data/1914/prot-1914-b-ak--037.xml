@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-6MvWCgvyc1Bu1jn9EQ5Z7L" type="speech">
             <linkGrp type="u">
               <ptr target="#i-GHqXwkXRUjuTTC6SCDc4g6"/>
@@ -99,7 +99,13 @@
               <ptr target="#i-9xGSFcgbeT8rCFDz1uiN3L"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -145,7 +151,7 @@
         <note xml:id="i-ReWWfP4JnWo9rShxJJjqN9" type="speaker">
           Chefen för civildepartementet herr statsrådet von Sydow som anförde:
         </note>
-        <u xml:id="i-GHqXwkXRUjuTTC6SCDc4g6" who="i-KgcqhjAQ4C31XVhk57y6bF" next="i-SVvqhUSSxGn3ExKCUv4eRD">
+        <u xml:id="i-GHqXwkXRUjuTTC6SCDc4g6" who="i-KgcqhjAQ4C31XVhk57y6bF" next="i-PvD2PB1iCeGFN6LfxBbdoS">
           <seg xml:id="i-GgAUtTSN1pBgQ3DeN1jc14">
             Herr talman, mina herrar! Ledamoten av denna kammare, herr J.
             Ericsson i Vallsta har med kammarens tillstånd till mig riktat
@@ -153,21 +159,15 @@
             sida uttalades vid beviljande av låneunderstöd åt Ostkustbanans
             aktiebolag.
           </seg>
-        </u>
-        <u xml:id="i-SVvqhUSSxGn3ExKCUv4eRD" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-GHqXwkXRUjuTTC6SCDc4g6" next="i-5EBhrnncVZP8vhPHgPP2uB">
           <seg xml:id="i-RjAgmBPGQj5twH6aXHQ3zM">
             Innan jag går att besvara interpellationen, ber jag få erinra
             om några för frågan belysande data och fakta.
           </seg>
-        </u>
-        <u xml:id="i-5EBhrnncVZP8vhPHgPP2uB" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-SVvqhUSSxGn3ExKCUv4eRD" next="i-EMyjJnXCABzgtFtrBG8be5">
           <seg xml:id="i-5ochRxWeF1hATyYz2K8Pyt">
             Som bekant beviljade 1913 års riksdag, i enlighet med Kungl.
             Maj:ts framställning, Ostkustbanans aktiebolag ett låneunderstöd
             av 3,000,000 kronor.
           </seg>
-        </u>
-        <u xml:id="i-EMyjJnXCABzgtFtrBG8be5" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-5EBhrnncVZP8vhPHgPP2uB" next="i-PvD2PB1iCeGFN6LfxBbdoS">
           <seg xml:id="i-MpfftUsE9a4yGBD6qABmTs">
             I den skrivelse, vari riksdagen anmälde sitt beslut i ämnet,
             anfördes bland annat, att det kommit till riksdagens kännedom,
@@ -208,12 +208,10 @@
         <note xml:id="i-EduLi1Ccn3NPhsdZyECD24">
           pellation. (Forts.)
         </note>
-        <u xml:id="i-PvD2PB1iCeGFN6LfxBbdoS" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-EMyjJnXCABzgtFtrBG8be5" next="i-HRaakqtnJGseQ53fhYyrKu">
+        <u xml:id="i-PvD2PB1iCeGFN6LfxBbdoS" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-GHqXwkXRUjuTTC6SCDc4g6" next="i-E8nQthoLft8zTPHdQrEFsG">
           <seg xml:id="i-7JVZc7phJm7PGsKfKHkTeV">
             inom beräknad tid.»
           </seg>
-        </u>
-        <u xml:id="i-HRaakqtnJGseQ53fhYyrKu" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-PvD2PB1iCeGFN6LfxBbdoS" next="i-ADCUp4MNmNmd3KqjasitxM">
           <seg xml:id="i-711APeGWNBidcARiYV2ukg">
             Nämnda riksdagsskrivelse anmäldes inför Kungl. Maj:t den 30 juni
             1913. Kungl. Maj:ts beslut expedierades genom nådigt brev till
@@ -227,8 +225,6 @@
             och plan för järnvägsanläggningen jämväl verkställa utretrng i
             det av riksdagen i dess förenämnda uttalande berörda avseende.
           </seg>
-        </u>
-        <u xml:id="i-ADCUp4MNmNmd3KqjasitxM" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-HRaakqtnJGseQ53fhYyrKu" next="i-VWMkREkcs4Sic4EHdHFWiL">
           <seg xml:id="i-AuaMFDYXzZ51QL4JYoitah">
             Redan den 19 juni 1913 hade Bergsjö, Hassela och Attmars kommuner
             inkommit med framställning om utredning angående de båda ifrågasatta
@@ -239,8 +235,6 @@
             uppdrag, som finnes angivet i nådiga brevet till Kungl. Maj:ts
             befallningshavande den 30 juni 1913.
           </seg>
-        </u>
-        <u xml:id="i-VWMkREkcs4Sic4EHdHFWiL" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-ADCUp4MNmNmd3KqjasitxM" next="i-JmDibPQhkrzkvNhFXrCToY">
           <seg xml:id="i-MZyXuuAd31Y1toR9cxBSgQ">
             Någon framställning från Ostkustbanans aktiebolag i anledning
             av nämnda uppdrag har ännu icke till civildepartementet inkommit.
@@ -249,8 +243,6 @@
             slag icke må företagas å järnvägen förrän efter ingången av år
             1915.
           </seg>
-        </u>
-        <u xml:id="i-JmDibPQhkrzkvNhFXrCToY" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-VWMkREkcs4Sic4EHdHFWiL" next="i-2KEiysdZRjojBJgrWugA2Y">
           <seg xml:id="i-X9B9U9QLu3crddJXBwF3N4">
             Herr Ericsson har nu uttalat, att enligt hans uppfattning bolaget
             vid den undersökning, som bolaget låtit föranstalta, icke tagit
@@ -266,8 +258,6 @@
             att bolagets styrelse nu avslutat de förberedande underhandlingarna
             och »hade det klart för byggande».
           </seg>
-        </u>
-        <u xml:id="i-2KEiysdZRjojBJgrWugA2Y" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-JmDibPQhkrzkvNhFXrCToY" next="i-E8nQthoLft8zTPHdQrEFsG">
           <seg xml:id="i-ByqNg3pr6Na9GXU1jhyEE9">
             Herr Ericsson har under åberopande härav till mig framställt
             följande frågor:
@@ -277,7 +267,7 @@
           1:o0) Har Kungl. Maj:t haft här omförmälda ärende under prövning?
           och
         </note>
-        <u xml:id="i-E8nQthoLft8zTPHdQrEFsG" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-2KEiysdZRjojBJgrWugA2Y" next="i-XfsPcrSvhPkbzUAXrfWv4j">
+        <u xml:id="i-E8nQthoLft8zTPHdQrEFsG" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-PvD2PB1iCeGFN6LfxBbdoS" next="i-XfsPcrSvhPkbzUAXrfWv4j">
           <seg xml:id="i-FDaqpPEjtz9zFWFS6KPNJU">
             9-0) där så icke skett, är det regeringens avsikt att oberoende
             av Ostkusthanebolagets enskilda önskemål och möjligen träffade
@@ -294,7 +284,7 @@
           Svar å interför Östkustbanans indragande till Sundsvall och statslånets
           bevil- = Pellation. jande?» (Forts.)
         </note>
-        <u xml:id="i-XfsPcrSvhPkbzUAXrfWv4j" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-E8nQthoLft8zTPHdQrEFsG" next="i-Cw4hxQEDmmvb6BU4GYq9rN">
+        <u xml:id="i-XfsPcrSvhPkbzUAXrfWv4j" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-E8nQthoLft8zTPHdQrEFsG" next="i-ChTc6Ch1HHjJttSGNKgPGT">
           <seg xml:id="i-C9a1LKiqJmwaShAfrL15YC">
             Såsom den lämnade utredningen utvisar, kan jag besvara den första
             frågan med nej. Efter det förut omförmälda, i saken inkomna framställning
@@ -302,16 +292,12 @@
             i Gävleborgs län för delgivning med bolaget, har Kungl. Maj:t
             icke förehaft ifrågavarande ärende till behandling.
           </seg>
-        </u>
-        <u xml:id="i-Cw4hxQEDmmvb6BU4GYq9rN" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-XfsPcrSvhPkbzUAXrfWv4j" next="i-Mn8RbnmNzsBjvvcXqxsEoS">
           <seg xml:id="i-816E38Ar34LFzkjNW4eufM">
             Med anledning av interpellationen har Jag emellertid i skrivelse
             den 22 nästlidna juni anmodat bolaget att till mig inkomma med
             uppgift angående de åtgärder, som av bolaget vidtagits i avseende
             å den av riksdagen förutsatta utredningen.
           </seg>
-        </u>
-        <u xml:id="i-Mn8RbnmNzsBjvvcXqxsEoS" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-Cw4hxQEDmmvb6BU4GYq9rN" next="i-WqU93oHgAMUqknSEZK1Wrg">
           <seg xml:id="i-ThimY1UJcMtCDYuhooStM4">
             På grund av denna anmodan har bolaget ingivit en promemoria i
             ämnet jämte åtskilliga därvid fogade handlingar rörande den utredning,
@@ -326,8 +312,6 @@
             med avseende på tiden för utredningens verkställande icke någon
             försumlighet.
           </seg>
-        </u>
-        <u xml:id="i-WqU93oHgAMUqknSEZK1Wrg" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-Mn8RbnmNzsBjvvcXqxsEoS" next="i-Py5Dk4vxJTdAqXP11odfYi">
           <seg xml:id="i-Rs15uvr5HSXf9yxNrs1gke">
             Vid det utredningsarbete, som hittills verkställts, har frågan,
             anför bolaget, behandlats huvudsakligen från de synpunkter, som
@@ -341,8 +325,6 @@
             (Norra Hälsinglands järnväg) underhåll och kostnaderna för omlastning
             samt 4) ortsbefolkningens behov.»
           </seg>
-        </u>
-        <u xml:id="i-Py5Dk4vxJTdAqXP11odfYi" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-WqU93oHgAMUqknSEZK1Wrg" next="i-SLnpyKoyk7u5ggV2QYpWCn">
           <seg xml:id="i-RJRD5yGCRXqUcXvAsiMfvF">
             Bolaget har bifogat jämförande beräkningar över de båda linjernas
             anläggningskostnader, grundande sig dels på en år 1910 verkställd
@@ -350,14 +332,10 @@
             Njurunda-linjen), dels en år 1912 utförd okulärundersökning av
             alternativlinjen (den så kallade Hassela-linjen).
           </seg>
-        </u>
-        <u xml:id="i-SLnpyKoyk7u5ggV2QYpWCn" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-Py5Dk4vxJTdAqXP11odfYi" next="i-Q1uhNioQZe2KgBh8jfvHRh">
           <seg xml:id="i-5QWLJgDZ5a8kB9KG3Laps9">
             Vidare har bolaget lämnat en redogörelse för aktieteckningarna,
             under förutsättning att den ena eller den andra linjen välijes.
           </seg>
-        </u>
-        <u xml:id="i-Q1uhNioQZe2KgBh8jfvHRh" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-SLnpyKoyk7u5ggV2QYpWCn" next="i-ChTc6Ch1HHjJttSGNKgPGT">
           <seg xml:id="i-VU99uVVMDDwHTNmzf3wyYx">
             Rörande de håda linjernas ekonomiska bärighet och trafikförhållanden
             med mera hava, enligt vad styrelsen meddelar, utredningar verkställts
@@ -387,7 +365,7 @@
           re, föranstaltat om utredning, vilken kommer att av bolagets
           styrelse kompletteras.
         </note>
-        <u xml:id="i-ChTc6Ch1HHjJttSGNKgPGT" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-Q1uhNioQZe2KgBh8jfvHRh" next="i-7oRUtp1bMPBdhTe2cDy6La">
+        <u xml:id="i-ChTc6Ch1HHjJttSGNKgPGT" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-XfsPcrSvhPkbzUAXrfWv4j">
           <seg xml:id="i-NGRTDu2GuVfgHboCVTKkUu">
             För bedömande av ortsbefolkningens behov föreligger utredning
             dels i en skrivelse från Hasselaintressenterna till bolagets styrelse
@@ -396,8 +374,6 @@
             Njurunda-linjen eller norr om den ifrågasatta linjeförändringen
             ända till och med Härnösand.
           </seg>
-        </u>
-        <u xml:id="i-7oRUtp1bMPBdhTe2cDy6La" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-ChTc6Ch1HHjJttSGNKgPGT" next="i-VRYvGkPpuWLrRyP3XxH6CZ">
           <seg xml:id="i-RT4FqBSFK1oQUfTE9haA2Q">
             Bolaget bestrider, att dess styrelse vid infordrandet av dessa
             yttranden lämnat anvisningar, i vilken riktning svaren borde gå.
@@ -407,8 +383,6 @@
             Bolaget har i den avgivna promemorian meddelat det huvudsakligaste
             innehållet av dessa upplysningar.
           </seg>
-        </u>
-        <u xml:id="i-VRYvGkPpuWLrRyP3XxH6CZ" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-7oRUtp1bMPBdhTe2cDy6La" next="i-APxZUNtneyYTKhF8RZszhJ">
           <seg xml:id="i-7B2o7jeA2wA5nQvYzkJmZ2">
             Beträffande det anmärkta förhållandet, att bolagets styrelse
             träffat en del preliminära avtal med städer och järnvägsförvaltningar
@@ -421,19 +395,13 @@
             är emellertid, att alla avtal av nämnda slag äro preliminära och
             beroende av vederbörande myndigheters godkännande.
           </seg>
-        </u>
-        <u xml:id="i-APxZUNtneyYTKhF8RZszhJ" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-VRYvGkPpuWLrRyP3XxH6CZ" next="i-F7m3hc7gjbCfGevemY5gHy">
           <seg xml:id="i-Y1gGxkQj64zFnMHCdALx6Q">
             Detta är i huvudsak innehållet av bolagets till mig avgivna promemoria.
           </seg>
-        </u>
-        <u xml:id="i-F7m3hc7gjbCfGevemY5gHy" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-APxZUNtneyYTKhF8RZszhJ" next="i-Bj5iqGaCZiqxWZLUA4GL9m">
           <seg xml:id="i-TcgS9Unb599tbdwxWMNfnL">
             Såsom härav framgår har åtskillig utredning i föreliggande ämne
             redan verkställts. Slutligt utförd är den dock ännu icke.
           </seg>
-        </u>
-        <u xml:id="i-Bj5iqGaCZiqxWZLUA4GL9m" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-F7m3hc7gjbCfGevemY5gHy">
           <seg xml:id="i-LqRFoLRSHofcKzKG3hYvEG">
             Till svar å den andra av interpellanten framställda frågan ber
             jag få förklara, att då slutlig utredning från bolagets sida föreligger
@@ -467,15 +435,13 @@
         <note xml:id="i-FNK8uHujBvfBGrCzCG3rss" type="date">
           Tisdagen den 14 juli. 5 Nr 87.
         </note>
-        <u xml:id="i-He5guvBkirFuUTjZq9q6WJ" who="i-A37vmFDFqtaNCP1Zn7USP4" prev="i-TvT9Tjpq9eNQScQkNWhFDy" next="i-6aBtKp3DKBBnLzAadAkpzP">
+        <u xml:id="i-He5guvBkirFuUTjZq9q6WJ" who="i-A37vmFDFqtaNCP1Zn7USP4" prev="i-TvT9Tjpq9eNQScQkNWhFDy" next="i-5kQE7KJN23XnpG87cR6iRA">
           <seg xml:id="i-8D5NGB2AQJysUT9Cdg8J9w">
             fäst bolagsstyrelsens uppmärksamhet vid de önskemål riksdagen
             Svar å interuttalat i denna fråga. Jag ber vidare att få tacka
             för det löfte Pellation. han gav, att frågan slutligen skulle
             prövas efter den utred- (Forts) ning som kommer att föreligga.
           </seg>
-        </u>
-        <u xml:id="i-6aBtKp3DKBBnLzAadAkpzP" who="i-A37vmFDFqtaNCP1Zn7USP4" prev="i-He5guvBkirFuUTjZq9q6WJ" next="i-5K5kL2PMK16XC5XtTgghvg">
           <seg xml:id="i-XcV3QTiz7mofNDj3g2woFW">
             Att interpellationen framkommit beror nog till det väsentligaste
             på ett meddelande, som stått att läsa i Nya Dagligt Allehanda,
@@ -485,8 +451,6 @@
             orolig, då den vetat, att den utredning riksdagen önskat och de
             själva även åstundat ej var verkställd.
           </seg>
-        </u>
-        <u xml:id="i-5K5kL2PMK16XC5XtTgghvg" who="i-A37vmFDFqtaNCP1Zn7USP4" prev="i-6aBtKp3DKBBnLzAadAkpzP" next="i-XhA4bV41nGdHRFjXuNMSvn">
           <seg xml:id="i-5bwrTEmcEeYuQZTXuiqJaM">
             Då det emellertid mot mig offentligen riktats klander för att
             jag framfört interpellationen, så torde det ursäktas mig, om jag
@@ -511,8 +475,6 @@
             kyrkoherde Humble gör mot mig personligen anser jag mig icke böra
             besvara, utan de få stå för hans räkning.
           </seg>
-        </u>
-        <u xml:id="i-XhA4bV41nGdHRFjXuNMSvn" who="i-A37vmFDFqtaNCP1Zn7USP4" prev="i-5K5kL2PMK16XC5XtTgghvg" next="i-5kQE7KJN23XnpG87cR6iRA">
           <seg xml:id="i-AWvveowS6y6UESSZzgeuZt">
             Tidningen Norrlandsposten i Gävle har med anledning av interpellationen
             haft ett samtal med bolagets verkställande direktör, kapten Lagergren,
@@ -540,15 +502,13 @@
         <note xml:id="i-XTQEAiTVvCyh2Mdp7gU1zw" type="date">
           6 Tisdagen den 14 juli.
         </note>
-        <u xml:id="i-5kQE7KJN23XnpG87cR6iRA" who="i-A37vmFDFqtaNCP1Zn7USP4" prev="i-XhA4bV41nGdHRFjXuNMSvn" next="i-89fzQru4jXXZbyS4ZidXFR">
+        <u xml:id="i-5kQE7KJN23XnpG87cR6iRA" who="i-A37vmFDFqtaNCP1Zn7USP4" prev="i-He5guvBkirFuUTjZq9q6WJ" next="i-WmgWqGFcJAXWTp9wUQUDnB">
           <seg xml:id="i-ACEwogrUYMWWUP2faDwRzq">
             yttrande missuppfattats av den tidning, som återgav detta yttrande.
             Jag vill tro detta, så mycket hellre som bolagets styrelse uti
             den skrivelse, i vilken Sundsvalls stadsfullmäktiges yttrande
             infordras, motiverar varför Hassela-linjen icke utstakats.
           </seg>
-        </u>
-        <u xml:id="i-89fzQru4jXXZbyS4ZidXFR" who="i-A37vmFDFqtaNCP1Zn7USP4" prev="i-5kQE7KJN23XnpG87cR6iRA" next="i-2MfSAhfXTpypakjbjQHdru">
           <seg xml:id="i-XdcoSE3mnUGwPEjiepZnYW">
             Då jag sagt att det ville synas som bolagsstyrelsen ville lägga
             hinder i vägen för Hassela-linjen, anser jag mig hava haft skäl
@@ -557,8 +517,6 @@
             en ingående kritik, och jag förmodar, att skrivelserna till övriga
             kommuner hava haft lika eller ungefär liknande lydelse.
           </seg>
-        </u>
-        <u xml:id="i-2MfSAhfXTpypakjbjQHdru" who="i-A37vmFDFqtaNCP1Zn7USP4" prev="i-89fzQru4jXXZbyS4ZidXFR" next="i-PEgJVVh3EoLcQVCezkkR32">
           <seg xml:id="i-8QdLZdt8hgZ63FeFBU5yjw">
             I detta sammanhang ber jag att få påpeka den redogörelse bolagsstyrelsen
             lämnar som svar på civilministerns frågor. Styrelsen säger, att
@@ -584,8 +542,6 @@
             då den beviljade statslånet, och därpå att det blir en noggrann
             prövning av de olika linjernas fördelar och olägenheter.
           </seg>
-        </u>
-        <u xml:id="i-PEgJVVh3EoLcQVCezkkR32" who="i-A37vmFDFqtaNCP1Zn7USP4" prev="i-2MfSAhfXTpypakjbjQHdru" next="i-JhN3kJ7NuQduVy3ZLSfqf7">
           <seg xml:id="i-Y9Gs9F24JyJN1UGDyHjHb7">
             Jag har icke med min interpellation avsett att hindra, ännu mindre
             att stjälpa företaget, utan jag har endast, som jag nyss nämnde,
@@ -597,8 +553,6 @@
             linjernas fördelar och olägenheter så väl ur bolagets som ortsbefolkningens
             synpunkter.
           </seg>
-        </u>
-        <u xml:id="i-JhN3kJ7NuQduVy3ZLSfqf7" who="i-A37vmFDFqtaNCP1Zn7USP4" prev="i-PEgJVVh3EoLcQVCezkkR32" next="i-WmgWqGFcJAXWTp9wUQUDnB">
           <seg xml:id="i-N7LwKnoxGLM6QvgTJkttNK">
             Jag vill vidare, då det sagts, att alternativlinjen icke erbjuder
             några fördelar, påpeka vad som säges i en promemoria av några
@@ -611,13 +565,11 @@
         <note xml:id="i-PNxxv5gdEFzRDgca2wkjH" type="date">
           Tisdagen den 14 jali. 7
         </note>
-        <u xml:id="i-WmgWqGFcJAXWTp9wUQUDnB" who="i-A37vmFDFqtaNCP1Zn7USP4" prev="i-JhN3kJ7NuQduVy3ZLSfqf7" next="i-XHjDfTTZaKqqcyUFPS5te">
+        <u xml:id="i-WmgWqGFcJAXWTp9wUQUDnB" who="i-A37vmFDFqtaNCP1Zn7USP4" prev="i-5kQE7KJN23XnpG87cR6iRA" next="i-BKgDPr1UGcy7E9PAHYFD8C">
           <seg xml:id="i-JjABr6SDW7s3TYGremHg1S">
             linje kommer till stånd. De framhålla, att på grund av bristan-
             $
           </seg>
-        </u>
-        <u xml:id="i-XHjDfTTZaKqqcyUFPS5te" who="i-A37vmFDFqtaNCP1Zn7USP4" prev="i-WmgWqGFcJAXWTp9wUQUDnB" next="i-3PLvYoVm3ERDt47qWxuLu8">
           <seg xml:id="i-5sobvBdao7T43P1rvqxa5F">
             de konkurrens exempelvis vid leverans å Hasselasjön för timmer
             betalats ungefär hälften och för pappersmasseved ungefär två tredjedelar
@@ -644,8 +596,6 @@
             att vid kusten skogarna äro mera skövlade än inuti landet på grund
             av de utskeppningsmöjligheter, som där vid kusten alltid förefunnits.
           </seg>
-        </u>
-        <u xml:id="i-3PLvYoVm3ERDt47qWxuLu8" who="i-A37vmFDFqtaNCP1Zn7USP4" prev="i-XHjDfTTZaKqqcyUFPS5te" next="i-JQ55EBTppmFVSjzwxchpnN">
           <seg xml:id="i-WuL2iM2CoXQHPwzUqqM9py">
             Kapten Lagergren säger också i sitt betänkande år 1912: »Att
             verkställa någon jämförelse i övrigt å båda linjesträckningarna
@@ -664,8 +614,6 @@
             erbjuda i jämförelse med huvudlinjen som motvikt mot olägenheten
             av alternativlinjens större längd».
           </seg>
-        </u>
-        <u xml:id="i-JQ55EBTppmFVSjzwxchpnN" who="i-A37vmFDFqtaNCP1Zn7USP4" prev="i-3PLvYoVm3ERDt47qWxuLu8" next="i-BKgDPr1UGcy7E9PAHYFD8C">
           <seg xml:id="i-K58HYYGDuPzvdP1wEBPog5">
             Herr talman! Jag för min personliga del har icke någon mening
             om vilken linje som bör komma till utförande, men jag har ansett,
@@ -687,7 +635,7 @@
         <note xml:id="i-JFkSVBuoaLibXKjNBwiNNm" type="date">
           8 Tisdagen den 14 juli.
         </note>
-        <u xml:id="i-BKgDPr1UGcy7E9PAHYFD8C" who="i-A37vmFDFqtaNCP1Zn7USP4" prev="i-JQ55EBTppmFVSjzwxchpnN">
+        <u xml:id="i-BKgDPr1UGcy7E9PAHYFD8C" who="i-A37vmFDFqtaNCP1Zn7USP4" prev="i-WmgWqGFcJAXWTp9wUQUDnB">
           <seg xml:id="i-5Nx51YcmZHqkgwNKcjRPWA">
             Svar å intertacksam för det löfte han givit, att denna sak skall
             noggrant
@@ -702,7 +650,7 @@
         <note xml:id="i-2rBUxCGvyby11caYvvUvfQ" type="speaker">
           Herr Palmstierna:
         </note>
-        <u xml:id="i-TMJeQrKbHV5bJikMvF1iob" who="i-PoEnkqgRthqgybjNd47ZwU" next="i-5yzh3Y7GBD5qB7T7L3jtGX">
+        <u xml:id="i-TMJeQrKbHV5bJikMvF1iob" who="i-PoEnkqgRthqgybjNd47ZwU">
           <seg xml:id="i-Y7B8xsto3HpqQju3VbVH7n">
             Herr talman! Endast ett par ord! Jag har intresserat mig mycket
             för denna fråga, då jag dels varit i trakterna där uppe, dels
@@ -716,8 +664,6 @@
             och att desslikes tillses, att de nationalekonomiska intressena
             bliva fullt betryggade.
           </seg>
-        </u>
-        <u xml:id="i-5yzh3Y7GBD5qB7T7L3jtGX" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-TMJeQrKbHV5bJikMvF1iob">
           <seg xml:id="i-ET5R3fqCFPkjtCDHAKeCdQ">
             Av det svar, som herr civilministern nu gav, synes mig, att man
             bör kunna draga vissa slutsatser och framför allt stryka under
@@ -749,13 +695,11 @@
         <note xml:id="i-Cg9a3GdC4cZp1fMLBDLoX8" type="speaker">
           Herr Lindman:
         </note>
-        <u xml:id="i-P6TTapPsJwrANfKDK1AdFy" who="i-Fnu186BGHvvTJDuB7t6zMb" next="i-FDAHF7YP8upXz4ZjSQ72h6">
+        <u xml:id="i-P6TTapPsJwrANfKDK1AdFy" who="i-Fnu186BGHvvTJDuB7t6zMb" next="i-Ca7pxBJ6EUdk985dq8F4gA">
           <seg xml:id="i-RsbiukcEV4ghWsU7mfk6Cj">
             Ja, herr talman, jag skulle icke begärt ordet i denna fråga,
             om jag icke blivit uppkallad av den siste ärade talaren.
           </seg>
-        </u>
-        <u xml:id="i-FDAHF7YP8upXz4ZjSQ72h6" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-P6TTapPsJwrANfKDK1AdFy" next="i-Ca7pxBJ6EUdk985dq8F4gA">
           <seg xml:id="i-VEChmgU7jFozfmpr1mgQ7s">
             Det är ju givet, att då det föreligger två olika förslag till
             sträckning för en järnväg, så söka naturligtvis båda förslagens
@@ -769,7 +713,7 @@
         <note xml:id="i-AG1cjiBPBEbdv7hnWte8Fy" type="date">
           Tisdagen den 14 juli. 9 Nr 387.
         </note>
-        <u xml:id="i-Ca7pxBJ6EUdk985dq8F4gA" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-FDAHF7YP8upXz4ZjSQ72h6" next="i-39uzbNLCKP2Xt1Wk7orPzC">
+        <u xml:id="i-Ca7pxBJ6EUdk985dq8F4gA" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-P6TTapPsJwrANfKDK1AdFy">
           <seg xml:id="i-L14sRi6CrXpTXG8P2E1dUe">
             bönder och bygger detta påstående på den erfarenhet han för-
             Svar å intervärvat under resor och vid besök däruppe, så är detta
@@ -777,16 +721,12 @@
             protokoll. Ty (Forts) det är icke så, att här råder någon strid
             mellan bolag och bönder.
           </seg>
-        </u>
-        <u xml:id="i-39uzbNLCKP2Xt1Wk7orPzC" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-Ca7pxBJ6EUdk985dq8F4gA" next="i-LytWLhkiWQdFNUsPfq3dvw">
           <seg xml:id="i-4urqNbz64LUPDkf9SaCTjX">
             Det gäller här två stora bygder, av vilka den ena kommer att
             genomlöpas av det ena alternativet, den andra av det andra, och
             socknarna i den ena trakten vilja lika gärna ha järnvägen till
             sig, som socknarna i den andra vilja ha den till sig. .
           </seg>
-        </u>
-        <u xml:id="i-LytWLhkiWQdFNUsPfq3dvw" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-39uzbNLCKP2Xt1Wk7orPzC" next="i-8J3UQezTRPn1ruW6gJ5T6E">
           <seg xml:id="i-2yLE52FYa6gafkh8qnSHJS">
             Herr Palmstierna förbiser dessutom helt och hållet, att det här
             icke är fråga om en lokalbana, utan om en genomgående bana Gävle—Härnösand.
@@ -806,8 +746,6 @@
             erhölle den ostliga sträckningen, hava tecknat bidrag. Det är
             vad jag skulle vilja säga om den saken.
           </seg>
-        </u>
-        <u xml:id="i-8J3UQezTRPn1ruW6gJ5T6E" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-LytWLhkiWQdFNUsPfq3dvw" next="i-TUHd1bRynhBUWXZUVXDL5U">
           <seg xml:id="i-RMVxz1rqTGDMGotJDfWm5t">
             För övrigt vill jag tillägga, att det naturligtvis icke är min
             mening att här göra något uttalande till förmån för vare sig den
@@ -817,8 +755,6 @@
             som beröras av den västliga sträckningen, föreföll mig skäligen
             obehövlig i detta sammanhang.
           </seg>
-        </u>
-        <u xml:id="i-TUHd1bRynhBUWXZUVXDL5U" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-8J3UQezTRPn1ruW6gJ5T6E" next="i-2Qo7xBNciqRq6XYKbWLpgy">
           <seg xml:id="i-5Br7raEGivF4vSNa8HLGav">
             Jag skall nu icke upptaga någon debatt om skälen varför den ena
             sträckningen bör föredragas framför den andra; den saken anser
@@ -828,8 +764,6 @@
             de villkor, som riksdagen fäst vid beviljande av 3 miljoner kronor
             i låneunderstöd till Järnvägsanläggringen, komma att noga iakttagas.
           </seg>
-        </u>
-        <u xml:id="i-2Qo7xBNciqRq6XYKbWLpgy" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-TUHd1bRynhBUWXZUVXDL5U">
           <seg xml:id="i-KNUZKtskkrzMU9XwYep7W5">
             Slutligen ber jag få tillägga, att jag lika litet som interpellanten,
             personligen har något intresse av denna järnväg i annan mån än

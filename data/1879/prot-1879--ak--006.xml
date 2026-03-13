@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-JpiT4LurbQA3MqJVGhcmYm" type="speech">
             <linkGrp type="u">
               <ptr target="#i-MtTZeYvxws9wV5kZW9sbo2"/>
@@ -47,7 +47,13 @@
               <ptr target="#i-YJLpcmq9JG2CsMytadDvpC"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -121,14 +127,12 @@
         <note xml:id="i-CzTMbDhqBPuCHgmt6LAZtu" type="speaker">
           Herr Dickson, som yttrade:
         </note>
-        <u xml:id="i-MtTZeYvxws9wV5kZW9sbo2" who="i-9Yj3oznPw2R7BCssHu4Mfe" next="i-BXSAQuMiwboEiPQQ7nWAX2">
+        <u xml:id="i-MtTZeYvxws9wV5kZW9sbo2" who="i-9Yj3oznPw2R7BCssHu4Mfe" next="i-82ezAgxsCpzXkD7TFiVNqm">
           <seg xml:id="i-KK8WiY2aa386sK2WiTJyKA">
             För min del tror jag, att Kammaren allt för strängt nagelfar
             misskrifningar. En sådan stränghet skulle kunna leda till rätt
             svåra förvecklingar.
           </seg>
-        </u>
-        <u xml:id="i-BXSAQuMiwboEiPQQ7nWAX2" who="i-9Yj3oznPw2R7BCssHu4Mfe" prev="i-MtTZeYvxws9wV5kZW9sbo2" next="i-82ezAgxsCpzXkD7TFiVNqm">
           <seg xml:id="i-TqjRfXShH44RZDYnoQgqTX">
             Enligt grundlagen skall en namnsedel kasseras, om tvetydighet
             i anseende till derå upptagna personers namn förefinnes; och om
@@ -147,7 +151,7 @@
         <note xml:id="i-MTtbipSA9iRWh3phZ27WEj" type="date">
           2 Lördagen den 8 Februari.
         </note>
-        <u xml:id="i-82ezAgxsCpzXkD7TFiVNqm" who="i-9Yj3oznPw2R7BCssHu4Mfe" prev="i-BXSAQuMiwboEiPQQ7nWAX2" next="i-Fi5dXr7Qdui3MwhMCscstA">
+        <u xml:id="i-82ezAgxsCpzXkD7TFiVNqm" who="i-9Yj3oznPw2R7BCssHu4Mfe" prev="i-MtTZeYvxws9wV5kZW9sbo2">
           <seg xml:id="i-2UgZyCAkxA99f4r4AmDgC2">
             blott en person med det angifna namnet, hemställer jag, om det
             kan uppstå tvekan om, hvem som i namnsedeln åsyftas. Då endast
@@ -155,8 +159,6 @@
             och det betyder ingenting att förnamnet angifvits med A. i stället
             för O. Någon tvetydighet kan ej uppstå genom denna misskrifning.
           </seg>
-        </u>
-        <u xml:id="i-Fi5dXr7Qdui3MwhMCscstA" who="i-9Yj3oznPw2R7BCssHu4Mfe" prev="i-82ezAgxsCpzXkD7TFiVNqm">
           <seg xml:id="i-ESNdxVDheWX2ej4g45Dmv1">
             Jag anhäller, att Kammaren måtte förklara ifrågavarande namnsedel
             för giltig.

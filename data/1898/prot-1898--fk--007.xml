@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-FiPPsEYAWT7emkngPZq58i" type="speech">
             <linkGrp type="u">
               <ptr target="#i-k6NHvGJuo9ZxmU9taXEzs"/>
@@ -183,7 +183,13 @@
               <ptr target="#i-G7JxZH5miB7QhaTkAnCdAw"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -340,12 +346,10 @@
         <note xml:id="i-RTFMtq3Pyk8pDQDo9cFKff" type="speaker">
           Herr Wieselgren:
         </note>
-        <u xml:id="i-k6NHvGJuo9ZxmU9taXEzs" who="i-3vmL5fhhYQEqZsPyUJFmjy" next="i-VpCwoiSpCPbZcFmzBoGKPn">
+        <u xml:id="i-k6NHvGJuo9ZxmU9taXEzs" who="i-3vmL5fhhYQEqZsPyUJFmjy" next="i-GZhh6m7RtjfXpdQMFnBNYm">
           <seg xml:id="i-HngVfrtQF8TdvX7dYyr9pM">
             Ehuru denna kammares representanter i
           </seg>
-        </u>
-        <u xml:id="i-VpCwoiSpCPbZcFmzBoGKPn" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-k6NHvGJuo9ZxmU9taXEzs" next="i-GZhh6m7RtjfXpdQMFnBNYm">
           <seg xml:id="i-2TmAqks5gVHGUYyAKfATJd">
             statsutskottet understödt Kongl. Maj:ts proposition, visar dock
             den på 13:de sidan af utlåtandet befintliga reservationen af Andra
@@ -355,7 +359,7 @@
         <note xml:id="i-Lv1fjetRXxatMDd2CKZKAC" type="date">
           Onsdagen den 16 Februari. 3 N;0 7.
         </note>
-        <u xml:id="i-GZhh6m7RtjfXpdQMFnBNYm" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-VpCwoiSpCPbZcFmzBoGKPn" next="i-7t8B1vvSZHJPnCvnM9ouaW">
+        <u xml:id="i-GZhh6m7RtjfXpdQMFnBNYm" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-k6NHvGJuo9ZxmU9taXEzs" next="i-Aqw428a95RrNVgBN25VNPg">
           <seg xml:id="i-F5KRgCEzgq2z28kGgVsCA7">
             Kammarens representanter i sagda utskott, att skälen för bevil-
             Ang. aflöning jande af den begärda löneförhöjningen icke hafva
@@ -369,8 +373,6 @@
             konstaplar och vaktqvinnor ökats. Något behof af höjda aflöningsförmåner
             för ifrågavarande bevakningsbefälhafvare torde derför icke förefinnas."
           </seg>
-        </u>
-        <u xml:id="i-7t8B1vvSZHJPnCvnM9ouaW" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-GZhh6m7RtjfXpdQMFnBNYm" next="i-Mg7WjuZ5AkGavbZ9rMALPN">
           <seg xml:id="i-DCCPmPZqEyUEPZEpa4PAp8">
             Man bebhöfver dock icke vara mycket hemmastadd i riksdagsspråket
             för att förstå, att bakom detta tveksamma "torde" och "lärer"
@@ -381,8 +383,6 @@
             som behöfver vara tveksam, huruvida dessa skäl äro fullt giltiga
             eller icke.
           </seg>
-        </u>
-        <u xml:id="i-Mg7WjuZ5AkGavbZ9rMALPN" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-7t8B1vvSZHJPnCvnM9ouaW" next="i-Aqw428a95RrNVgBN25VNPg">
           <seg xml:id="i-5zVJZ671KtQjpEc8hxdht9">
             Det är sant, att genom en stegring med 100 procent af fångpersonalens
             antal vid centralfängelset i Norrköping i främsta rummet bevakningspersonalen
@@ -434,7 +434,7 @@
         <note xml:id="i-KJ3rr9wpxoVT9XAyYbQbqa">
           afgiften för svenska fartyg.
         </note>
-        <u xml:id="i-Aqw428a95RrNVgBN25VNPg" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-Mg7WjuZ5AkGavbZ9rMALPN">
+        <u xml:id="i-Aqw428a95RrNVgBN25VNPg" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-GZhh6m7RtjfXpdQMFnBNYm">
           <seg xml:id="i-Sphb1U8X6ueVq39d35MSJG">
             rast, och uppgår sålunda till 15 timmar om dagen. Under sådana
             förhållanden vore underligt, om icke denne tjensteman borde lemnas
@@ -487,14 +487,12 @@
         <note xml:id="i-AFWHeCLSeJfgw2nu48kQko" type="speaker">
           Herr Fränckel:
         </note>
-        <u xml:id="i-BPLsUbsYWEJ93NTRnrPH2n" who="i-T5TQTo1x9KZiCNRXHysUZG" next="i-FC38TWCwnQNDMPnSV2TE9i">
+        <u xml:id="i-BPLsUbsYWEJ93NTRnrPH2n" who="i-T5TQTo1x9KZiCNRXHysUZG" next="i-4aWCtQrqCAn8hhpnC6Umm5">
           <seg xml:id="i-NHBfAJ9uCMN1f3dn4sEobb">
             Då jag tillåtit mig att i denna fråga uttala en från utskottets
             afvikande åsigt, skulle jag önska framlägga de skäl, som härvid
             varit för mig bestämmande. Jag skall då först
           </seg>
-        </u>
-        <u xml:id="i-FC38TWCwnQNDMPnSV2TE9i" who="i-T5TQTo1x9KZiCNRXHysUZG" prev="i-BPLsUbsYWEJ93NTRnrPH2n" next="i-4aWCtQrqCAn8hhpnC6Umm5">
           <seg xml:id="i-G2vakLydBseAQfoUWv9KC8">
             bedja, att kammarens uppmärksamhet måtte fästas på hvad motionären
             herr Brodin önskar. Han hemställer, att Riksdagen ville
@@ -504,7 +502,7 @@
         <note xml:id="i-8gjK64JeYFoM9mikCviuvt" type="date">
           Onsdagen den 16 Februari. 5 N:o 7.
         </note>
-        <u xml:id="i-4aWCtQrqCAn8hhpnC6Umm5" who="i-T5TQTo1x9KZiCNRXHysUZG" prev="i-FC38TWCwnQNDMPnSV2TE9i" next="i-DiBkPuJe3CaSi2TLjfkdrk">
+        <u xml:id="i-4aWCtQrqCAn8hhpnC6Umm5" who="i-T5TQTo1x9KZiCNRXHysUZG" prev="i-BPLsUbsYWEJ93NTRnrPH2n" next="i-DiBkPuJe3CaSi2TLjfkdrk">
           <seg xml:id="i-LhYNRJxN8uh9vBzsBBsddB">
             besluta, att "svenska fartyg från och med 1898 befrias från er-
             Om lindring läggande af den konsulatafgift af 6,35 öre per registerton,
@@ -573,12 +571,10 @@
         <note xml:id="i-ULzk5ZbWPVWwrDo9pyrXrv">
           i konsulatafgiften för svenska fartyg. (Forts.)
         </note>
-        <u xml:id="i-DiBkPuJe3CaSi2TLjfkdrk" who="i-T5TQTo1x9KZiCNRXHysUZG" prev="i-4aWCtQrqCAn8hhpnC6Umm5" next="i-57UhGqLzu7HMb9ejjVvGYJ">
+        <u xml:id="i-DiBkPuJe3CaSi2TLjfkdrk" who="i-T5TQTo1x9KZiCNRXHysUZG" prev="i-4aWCtQrqCAn8hhpnC6Umm5" next="i-JtEqVwzSZd6fHBZgREoSaj">
           <seg xml:id="i-DqWvAXjNJbGg4rKe3f4QGW">
             seende afgifvas."
           </seg>
-        </u>
-        <u xml:id="i-57UhGqLzu7HMb9ejjVvGYJ" who="i-T5TQTo1x9KZiCNRXHysUZG" prev="i-DiBkPuJe3CaSi2TLjfkdrk" next="i-UfmQ3nmS7xA4K3z7mQ6RXS">
           <seg xml:id="i-Dq1Uc1tJiha7TBGdie5vLm">
             Motionären erkänner äfven, att dessa konsulatafgifter äro genom
             lag faststälda i Norge, men anser för sin del detta ej hindra
@@ -597,8 +593,6 @@
             icke. Taxan tillämpas endast för de extra arbeten en konsul för
             något fartygs räkning har att utföra utöfver det normala.
           </seg>
-        </u>
-        <u xml:id="i-UfmQ3nmS7xA4K3z7mQ6RXS" who="i-T5TQTo1x9KZiCNRXHysUZG" prev="i-57UhGqLzu7HMb9ejjVvGYJ" next="i-6zBkUSFyk6oM8jJUoGtsdJ">
           <seg xml:id="i-TRSsuCJKptoNCRjqQVGDXK">
             Det uppgifves vidare af motionären, att en del af de belopp,
             som genom konsulatafgifterna inflyta, användas till aflöning och
@@ -617,8 +611,6 @@
             ministrar vid utländska hof, och kan derför icke finna denra uppgift
             annat än alldeles origtig. .
           </seg>
-        </u>
-        <u xml:id="i-6zBkUSFyk6oM8jJUoGtsdJ" who="i-T5TQTo1x9KZiCNRXHysUZG" prev="i-UfmQ3nmS7xA4K3z7mQ6RXS" next="i-JtEqVwzSZd6fHBZgREoSaj">
           <seg xml:id="i-KN2rRmeiDXhRnZT94j2ieH">
             Sedan motionären på detta sätt, så vidt jag kan finna, genom
             delvis origtiga motiv kommit till den slutsats, att konsulatafgifterna
@@ -641,7 +633,7 @@
         <note xml:id="i-7Tyfhqia4GDsaNFVqGGvTC" type="date">
           Onsdagen den 16 Februari. 7 N:o 7.
         </note>
-        <u xml:id="i-JtEqVwzSZd6fHBZgREoSaj" who="i-T5TQTo1x9KZiCNRXHysUZG" prev="i-6zBkUSFyk6oM8jJUoGtsdJ" next="i-MSfAcgSUtaxhMbBcZZsK1E">
+        <u xml:id="i-JtEqVwzSZd6fHBZgREoSaj" who="i-T5TQTo1x9KZiCNRXHysUZG" prev="i-DiBkPuJe3CaSi2TLjfkdrk" next="i-KdBPbUn2SRJvHhXp63RzFE">
           <seg xml:id="i-RFbj3Py5T8Mi96co5GFb3s">
             kunna å vigtigare platser hålla lönade konsuler, trott sig ej
             böra Om lindring ifrågasätta nämnda afgifts borttagande eller
@@ -651,8 +643,6 @@
             varit på tal, och Indredepartementet hade intagit (Forts.) ungefär
             samma ståndpunkt som den svenska sjöfartskomitén."
           </seg>
-        </u>
-        <u xml:id="i-MSfAcgSUtaxhMbBcZZsK1E" who="i-T5TQTo1x9KZiCNRXHysUZG" prev="i-JtEqVwzSZd6fHBZgREoSaj" next="i-YLTxm5P3wFceFhGbmJxvb2">
           <seg xml:id="i-MgW4X8rEvcAfaNdouxk2i5">
             För egen del anförde utskotten, "att föreliggande fråga utan
             tvifvel vore förtjent af stor uppmärksamhet. Den stode dock i
@@ -666,8 +656,6 @@
             hemstälde, att motionerna icke måtte föranleda någon kamrarnes
             åtgärd." — Denna hemställan bifölls af båda kamrarne.
           </seg>
-        </u>
-        <u xml:id="i-YLTxm5P3wFceFhGbmJxvb2" who="i-T5TQTo1x9KZiCNRXHysUZG" prev="i-MSfAcgSUtaxhMbBcZZsK1E" next="i-HfMrK5kTUzGoUWogYzS2E6">
           <seg xml:id="i-KQrVmAuoYhwVki5kmVg4pT">
             På grund af den utgång frågan sålunda fick har statsutskottet
             äfven sedermera vid alla tillfällen afstyrkt att närmare ingå
@@ -678,8 +666,6 @@
             icke slutligen pröfvats af Kongl. Maj:t och dels emedan man ville
             afvakta unionskomiténs uttalanden i frågan.
           </seg>
-        </u>
-        <u xml:id="i-HfMrK5kTUzGoUWogYzS2E6" who="i-T5TQTo1x9KZiCNRXHysUZG" prev="i-YLTxm5P3wFceFhGbmJxvb2" next="i-KdBPbUn2SRJvHhXp63RzFE">
           <seg xml:id="i-Ge2Z9YjirdpiSKz7KMbg2u">
             I Första Kammaren afslogs skrifvelseförslaget med 69 röster emot
             33 och i den Andra med 94 emot 81. Jag måste då fråga: hvad har
@@ -721,12 +707,10 @@
         <note xml:id="i-NgXiZFpBbTDimwDUbEjw7n">
           i konsulatafgiften för svenska fartyg. (Forts.)
         </note>
-        <u xml:id="i-KdBPbUn2SRJvHhXp63RzFE" who="i-T5TQTo1x9KZiCNRXHysUZG" prev="i-HfMrK5kTUzGoUWogYzS2E6" next="i-1xo8hb8rtNM4ssLz4dobM">
+        <u xml:id="i-KdBPbUn2SRJvHhXp63RzFE" who="i-T5TQTo1x9KZiCNRXHysUZG" prev="i-JtEqVwzSZd6fHBZgREoSaj">
           <seg xml:id="i-Yt9iam7sKwpodSGrDgzEv">
             å konsulatafgiften må kunna beredas den svenska utrikes sjöfarten."
           </seg>
-        </u>
-        <u xml:id="i-1xo8hb8rtNM4ssLz4dobM" who="i-T5TQTo1x9KZiCNRXHysUZG" prev="i-KdBPbUn2SRJvHhXp63RzFE">
           <seg xml:id="i-zTKBE9XQKXTLqJCv6uziq">
             Om nu kammaren antager, att en sådan påminnelse är för Kongl.
             Maj:t behöflig, som jag nu tagit mig friheten relatera, ehuru
@@ -739,14 +723,12 @@
         <note xml:id="i-JJ5ETCsG5WJy9SqVMTfB9Y" type="speaker">
           Herr Ljungberg:
         </note>
-        <u xml:id="i-GWwsi8bXLZ6kgEyQmBaETu" who="i-RSPNozM9XXJf6YSf7tHhCx" next="i-CkvRYu2oEwXEGoqsums9ps">
+        <u xml:id="i-GWwsi8bXLZ6kgEyQmBaETu" who="i-RSPNozM9XXJf6YSf7tHhCx" next="i-DTKe4kEMtHPEkeCp7UXm6V">
           <seg xml:id="i-QC83sbrYciN9odRz6tQqFw">
             Jag tillåter mig hemställa, att statsutskottets förslag i denna
             punkt b) måtte bifallas med en nödvändig redaktionsförändring,
             som jag sedan skall föreslå.
           </seg>
-        </u>
-        <u xml:id="i-CkvRYu2oEwXEGoqsums9ps" who="i-RSPNozM9XXJf6YSf7tHhCx" prev="i-GWwsi8bXLZ6kgEyQmBaETu" next="i-DTKe4kEMtHPEkeCp7UXm6V">
           <seg xml:id="i-8nHiBMAUjtgNGtHb3kpSgo">
             Det finnes ingen näring i vårt land, som så länge och så ihärdigt
             blifvit tillbakasatt som sjöfartsnäringen, hvilken likväl tyckes.
@@ -791,7 +773,7 @@
         <note xml:id="i-QCbvVB5bc7S34pToCBxtym" type="date">
           Onsdagen den 16 Februari. 9 N:v 70
         </note>
-        <u xml:id="i-DTKe4kEMtHPEkeCp7UXm6V" who="i-RSPNozM9XXJf6YSf7tHhCx" prev="i-CkvRYu2oEwXEGoqsums9ps" next="i-WumD2JNWG3QFMsrNxroMqz">
+        <u xml:id="i-DTKe4kEMtHPEkeCp7UXm6V" who="i-RSPNozM9XXJf6YSf7tHhCx" prev="i-GWwsi8bXLZ6kgEyQmBaETu" next="i-WumD2JNWG3QFMsrNxroMqz">
           <seg xml:id="i-XwfTBBiCYrndWXQnWvWDiB">
             jag, om han sökt väcka på saken; och då han ansett det vara Om
             lindring
@@ -802,7 +784,7 @@
           för sjöfartsfrågans upp- ? konsulat tagande i sin helhet, hvad
           är då mera naturligt, än att han kommer ofyiften för
         </note>
-        <u xml:id="i-WumD2JNWG3QFMsrNxroMqz" who="i-RSPNozM9XXJf6YSf7tHhCx" prev="i-DTKe4kEMtHPEkeCp7UXm6V" next="i-SQiEwPs7gAam5ihTdMvJ3L">
+        <u xml:id="i-WumD2JNWG3QFMsrNxroMqz" who="i-RSPNozM9XXJf6YSf7tHhCx" prev="i-DTKe4kEMtHPEkeCp7UXm6V" next="i-LkeXQhCF7963ahRKVK1tMY">
           <seg xml:id="i-4jSWFGP1PRrMoVVseDARvM">
             med denna partiella motion, som synes mig ganska anspråkslös,
             fartyg. nemligen att den lindringen skulle vederfaras handelsflottan,
@@ -810,8 +792,6 @@
             som för närvarande äro '/s;:del drygare för svenska än för norska
             skepp!
           </seg>
-        </u>
-        <u xml:id="i-SQiEwPs7gAam5ihTdMvJ3L" who="i-RSPNozM9XXJf6YSf7tHhCx" prev="i-WumD2JNWG3QFMsrNxroMqz" next="i-8rRqiDkyngxkBE2ZMr7CoJ">
           <seg xml:id="i-Fvd9TpfUr6gGLKycYtQ14Q">
             Men, säger man, det går icke an att nedsätta konsulatafgifterna,
             ty vi hafva den der förträffliga gemenskapen med Norge, som hindrar
@@ -833,8 +813,6 @@
             att anlita. Ett sådant utskott synes mig icke böra hafva den minsta
             svårighet att skaffa den erforderliga utredningen.
           </seg>
-        </u>
-        <u xml:id="i-8rRqiDkyngxkBE2ZMr7CoJ" who="i-RSPNozM9XXJf6YSf7tHhCx" prev="i-SQiEwPs7gAam5ihTdMvJ3L" next="i-FsaFqGJooNsj8eQnuM4egt">
           <seg xml:id="i-G7nCzhTiUFKU1hpgg2uZBP">
             Det har af en föregående motionär föreslagits, att för ändamålet
             skulle anvisas 175,000 kronor. Jag tror, att man borde gifva detta
@@ -844,8 +822,6 @@
             för en viss afgift och derigenom väckt , ett förslag, som lemnar
             öppet rum för summans bestämmande.
           </seg>
-        </u>
-        <u xml:id="i-FsaFqGJooNsj8eQnuM4egt" who="i-RSPNozM9XXJf6YSf7tHhCx" prev="i-8rRqiDkyngxkBE2ZMr7CoJ" next="i-LkeXQhCF7963ahRKVK1tMY">
           <seg xml:id="i-2SmqCcLJCfBP9ckgMGXH3g">
             När man emellertid nu icke kan hoppas, att kammaren skall taga
             ett så djerft steg, som att bifalla motionärens förslag, skulle
@@ -873,7 +849,7 @@
         <note xml:id="i-UyujW6r5f41mZTfEYyPBp9" type="date">
           10 Onsdagen den 16 Februari.
         </note>
-        <u xml:id="i-LkeXQhCF7963ahRKVK1tMY" who="i-RSPNozM9XXJf6YSf7tHhCx" prev="i-FsaFqGJooNsj8eQnuM4egt">
+        <u xml:id="i-LkeXQhCF7963ahRKVK1tMY" who="i-RSPNozM9XXJf6YSf7tHhCx" prev="i-WumD2JNWG3QFMsrNxroMqz">
           <seg xml:id="i-2PTrkqaRFkHLTDCy1q7oFc">
             afseende å konsulatafgiften må kunna beredas den svenska utrikessjöfarten,
             och derom till nästkommande Riksdag afgifva förslag". Jag anhåller
@@ -883,7 +859,7 @@
         <note xml:id="i-XKAgWQpQp1egaB3eXvVdNw" type="speaker">
           Herr Pettersson, Fredrik Emil:
         </note>
-        <u xml:id="i-P5Zhsj9UpXSYQ1qBbTjMY7" who="i-EqbawbuouJm9DWYVDB79Yw" next="i-BbJtk7xr4BLG9N4gjYefw3">
+        <u xml:id="i-P5Zhsj9UpXSYQ1qBbTjMY7" who="i-EqbawbuouJm9DWYVDB79Yw" next="i-Vr72HenD8hXUYATUa5C2HZ">
           <seg xml:id="i-73yf44cdx3xBuAE2AGe16T">
             Då den förste talaren grundat sina betänkligheter mot utskottets
             förslag på frågans unionella innebörd, nemligen så att det vore
@@ -903,8 +879,6 @@
             och qvittenser å erlagda konsulatafgifter företes, få dessa afgifter
             till sig restituerade".
           </seg>
-        </u>
-        <u xml:id="i-BbJtk7xr4BLG9N4gjYefw3" who="i-EqbawbuouJm9DWYVDB79Yw" prev="i-P5Zhsj9UpXSYQ1qBbTjMY7" next="i-YACgRRgyw2ALCijkr1oU5P">
           <seg xml:id="i-BFjcB55rneCCv93NDKKNkB">
             Det är nog sant, att denna fråga varit före i Riksdagen förut
             och så nyligen blifvit afslagen, men det borde icke utgöra motiv
@@ -913,8 +887,6 @@
             varit å bane, alltid behjertat sjöfartsnäringens betryckta ställning
             och dess behof af hjelp.
           </seg>
-        </u>
-        <u xml:id="i-YACgRRgyw2ALCijkr1oU5P" who="i-EqbawbuouJm9DWYVDB79Yw" prev="i-BbJtk7xr4BLG9N4gjYefw3" next="i-AWNx2n79ra4MgL33pzpJte">
           <seg xml:id="i-DMRHqybQjCDVuE9FXsomSW">
             Här hafva tid efter annan åtskilliga förslag varit å bane till
             sjöfartsnäringens upphbjelpande, men i allmänhet hafva de stannat
@@ -923,8 +895,6 @@
             i förening med en grundskatteafskrifning, har föga eller intet
             blifvit åtgjordt för afskaffande af gamla tryckande pålagor.
           </seg>
-        </u>
-        <u xml:id="i-AWNx2n79ra4MgL33pzpJte" who="i-EqbawbuouJm9DWYVDB79Yw" prev="i-YACgRRgyw2ALCijkr1oU5P" next="i-Vr72HenD8hXUYATUa5C2HZ">
           <seg xml:id="i-ET7ogSdGxqZMAJmdSCQqTJ">
             Vidare har det talats om införande af subvention åt vissa sjöförbindelser
             och af seglationspremier, men mot dessa begge sätt hafva en del
@@ -948,7 +918,7 @@
         <note xml:id="i-NZGJZuv1RRfBXra6u4A6y2" type="date">
           Onsdagen den 16 Februari. 11
         </note>
-        <u xml:id="i-Vr72HenD8hXUYATUa5C2HZ" who="i-EqbawbuouJm9DWYVDB79Yw" prev="i-AWNx2n79ra4MgL33pzpJte" next="i-TDV9Q5QQDSQ6EMuKWKDAr">
+        <u xml:id="i-Vr72HenD8hXUYATUa5C2HZ" who="i-EqbawbuouJm9DWYVDB79Yw" prev="i-P5Zhsj9UpXSYQ1qBbTjMY7">
           <seg xml:id="i-A6U3QXn85sgnW9AjjdtVVr">
             det blir fallande tider med minskadt varuutbyte, genast är det
             sjöfarten-transportmedlet, som i första hand får bära olägenheten.
@@ -957,8 +927,6 @@
             och de stora bolagen, som genom kapitalstarka insatser försöka
             att slå under sig rörelsen i stort.
           </seg>
-        </u>
-        <u xml:id="i-TDV9Q5QQDSQ6EMuKWKDAr" who="i-EqbawbuouJm9DWYVDB79Yw" prev="i-Vr72HenD8hXUYATUa5C2HZ" next="i-Vr2Wq4K5WaGFTsLHWwCN7J">
           <seg xml:id="i-3YJoNpmq64JmbQWbDoTXm6">
             Ser man vidare på de pålagor, som drabba sjöfartsnäringen, äro
             de icke små. Om man nu frånser den bevillning till stat och kommun,
@@ -970,8 +938,6 @@
             och torde dessa gamla pålagor göra sitt till, hvarför denna näring
             icke kan frodas.
           </seg>
-        </u>
-        <u xml:id="i-Vr2Wq4K5WaGFTsLHWwCN7J" who="i-EqbawbuouJm9DWYVDB79Yw" prev="i-TDV9Q5QQDSQ6EMuKWKDAr">
           <seg xml:id="i-F1AtHc1E5dFMQrVneJ41rJ">
             Jag gifver den näst föregående talaren rätt, då han sade, att
             i vårt land har denna näring alla betingelser för att kunna blomstra.
@@ -1099,13 +1065,11 @@
         <note xml:id="i-XYkBrnRpzcx7cxNDZrQzf" type="title">
           Onsdagen den 16 Februari. 13
         </note>
-        <u xml:id="i-BrjMZFzzp76tzQM7WxYeXE" who="i-5uirrc58gzjettyzn1DPCx" prev="i-RnPBCpR34RDpMwu2V3x3i7" next="i-Tk62hjjYjsyXtoogAgyK8z">
+        <u xml:id="i-BrjMZFzzp76tzQM7WxYeXE" who="i-5uirrc58gzjettyzn1DPCx" prev="i-RnPBCpR34RDpMwu2V3x3i7" next="i-MNyDds4951vh2N4inbyMUS">
           <seg xml:id="i-2kcBZnsWPvKMcigtDQniKT">
             för 2 år sedan. Jag var då reservant, och jag har icke fått någon
             anledning att frångå min uppfattning i saken.
           </seg>
-        </u>
-        <u xml:id="i-Tk62hjjYjsyXtoogAgyK8z" who="i-5uirrc58gzjettyzn1DPCx" prev="i-BrjMZFzzp76tzQM7WxYeXE" next="i-HXqCaKfMhVLYfATctqBVS5">
           <seg xml:id="i-VPkrBarrU86FTB434rbFwe">
             Lagutskottet säger, att det icke vill förneka tillvaron af de
             af motionären framhållna missbruk och olägenheter, som äro eller
@@ -1121,8 +1085,6 @@
             utredning för att söka häfva dessa missförhållanden och åstadkomma
             ordning och reda.
           </seg>
-        </u>
-        <u xml:id="i-HXqCaKfMhVLYfATctqBVS5" who="i-5uirrc58gzjettyzn1DPCx" prev="i-Tk62hjjYjsyXtoogAgyK8z" next="i-MNyDds4951vh2N4inbyMUS">
           <seg xml:id="i-8YGrUzW8hjcS3W9Bwj9jh3">
             Lagutskottet anför vidare, såsom skäl för sin hemställan om afslag,
             att det icke kan tillstyrka att genom ett lagbud våldsamt bryta
@@ -1173,7 +1135,7 @@
         <note xml:id="i-8rzG8PBK4GT7LfjMH4tyjd" type="date">
           14 Onsdagen den 16 Februari.
         </note>
-        <u xml:id="i-MNyDds4951vh2N4inbyMUS" who="i-5uirrc58gzjettyzn1DPCx" prev="i-HXqCaKfMhVLYfATctqBVS5" next="i-T4aMuz4NpKqhBubzHKRbvs">
+        <u xml:id="i-MNyDds4951vh2N4inbyMUS" who="i-5uirrc58gzjettyzn1DPCx" prev="i-BrjMZFzzp76tzQM7WxYeXE" next="i-T4aMuz4NpKqhBubzHKRbvs">
           <seg xml:id="i-SjyKpBHgzreiMnbCtoFRYe">
             Om åvägabart, att den utredning, som påvisar hvad som bör lagstiftas,
             ock bringande of kan angifva utvägar att göra lagbestämmelserna
@@ -1191,13 +1153,11 @@
         <note xml:id="i-7SEzH7n7Ntmr1owEK5MeQh" type="speaker">
           Grefve von Hallwyl:
         </note>
-        <u xml:id="i-RqPr84cY73VSqBqSiTxsKd" who="i-C9K2zQhbi7bGUXtbQLDqku" next="i-PtHEKLNhgtLHYEMk7snvap">
+        <u xml:id="i-RqPr84cY73VSqBqSiTxsKd" who="i-C9K2zQhbi7bGUXtbQLDqku" next="i-8BbFdS3Y1SYJT8NbHzwbpD">
           <seg xml:id="i-Miqkf2zqehwdUhNtRBXcmJ">
             Med anledning af herr Wieselgrens motion anser jag mig böra taga
             kammarens tid något i anspråk.
           </seg>
-        </u>
-        <u xml:id="i-PtHEKLNhgtLHYEMk7snvap" who="i-C9K2zQhbi7bGUXtbQLDqku" prev="i-RqPr84cY73VSqBqSiTxsKd" next="i-RwdMPC8ZNmiFwNe6nrjtKr">
           <seg xml:id="i-3o3sVQxEgz9biQpCF3Mysf">
             Det har väckt min stora förvåning, att lagutskottet nu för andra
             gången afslagit herr Wieselgrens välbetänkta motiou. Såvidt jag
@@ -1210,8 +1170,6 @@
             icke allenast för de gamla historiska namnen, utan äfven för alla
             andra aktade såväl adliga som borgerliga slägtnamn.
           </seg>
-        </u>
-        <u xml:id="i-RwdMPC8ZNmiFwNe6nrjtKr" who="i-C9K2zQhbi7bGUXtbQLDqku" prev="i-PtHEKLNhgtLHYEMk7snvap" next="i-211ZyBWo8xg3zw46pQHLxT">
           <seg xml:id="i-3m791iJEAzWF952c9yBmyg">
             Utskottets motivering för afslag af motionen anser jag, för min
             del, vara skäligen klen. Utskottet tyckes nemligen utgå från den
@@ -1236,8 +1194,6 @@
             utskottets åsigt, att det i detta afseende icke är bättre stäldt
             i utlandet än hos oss.
           </seg>
-        </u>
-        <u xml:id="i-211ZyBWo8xg3zw46pQHLxT" who="i-C9K2zQhbi7bGUXtbQLDqku" prev="i-RwdMPC8ZNmiFwNe6nrjtKr" next="i-8BbFdS3Y1SYJT8NbHzwbpD">
           <seg xml:id="i-8zNUbSkxGxgQUFKLSYD8bz">
             Utskottet framhåller äfven ett annat motiv för afslag å motionen,
             nemligen det på landet gängse bruket, att tillsätta "son" efter
@@ -1257,7 +1213,7 @@
         <note xml:id="i-T7NLscXcLg8PsisapxmJU1" type="title">
           Onsdagen den 16 Februari. 15
         </note>
-        <u xml:id="i-8BbFdS3Y1SYJT8NbHzwbpD" who="i-C9K2zQhbi7bGUXtbQLDqku" prev="i-211ZyBWo8xg3zw46pQHLxT" next="i-Cbqkhjekpt3oETjieeHBrV">
+        <u xml:id="i-8BbFdS3Y1SYJT8NbHzwbpD" who="i-C9K2zQhbi7bGUXtbQLDqku" prev="i-RqPr84cY73VSqBqSiTxsKd">
           <seg xml:id="i-XL8FNrh8LVdRznwnzJNSgB">
             att en sådan lag på något vis kan vara omöjlig att införa, och
             icke heller kan det ligga någon fara uti att bryta med en gammal
@@ -1276,8 +1232,6 @@
             antaga ett annat mindre farligt namn och börja samma procedur
             om igen.
           </seg>
-        </u>
-        <u xml:id="i-Cbqkhjekpt3oETjieeHBrV" who="i-C9K2zQhbi7bGUXtbQLDqku" prev="i-8BbFdS3Y1SYJT8NbHzwbpD" next="i-6dehCaJRrHsaAZSgR7fioP">
           <seg xml:id="i-5XghFMqgcfxRc3pvAvkHr5">
             För att nu fatta mig kort kan jag icke finna ett enda skäl, som
             talar emot en sådan lagstiftning, som den af herr Wieselgren föreslagna.
@@ -1287,8 +1241,6 @@
             den helt säkert rycka Sverige ur den löjliga undantagsställning,
             som landet i detta afseende intager bland de onropetska nationerna.
           </seg>
-        </u>
-        <u xml:id="i-6dehCaJRrHsaAZSgR7fioP" who="i-C9K2zQhbi7bGUXtbQLDqku" prev="i-Cbqkhjekpt3oETjieeHBrV">
           <seg xml:id="i-U3yMbpgH5tcbZaJ7AUi5WE">
             ag kan således, för min del, icke annat än på det lifligaste
             förorda herr Wieselgrens motion och yrkar derför, herr grefve
@@ -1298,7 +1250,7 @@
         <note xml:id="i-33Uopa3ramat6KLMCv9HhS" type="speaker">
           Herr Rodhe:
         </note>
-        <u xml:id="i-KZ8UyuDd7UqFnCWXuRWF2v" who="i-FDE8vHVwQL5JtnfhZTNxMP" next="i-DaSSJK2LrZyhK1L3dzjk72">
+        <u xml:id="i-KZ8UyuDd7UqFnCWXuRWF2v" who="i-FDE8vHVwQL5JtnfhZTNxMP">
           <seg xml:id="i-MhELKou8xptnib6Buf6y3Q">
             Redan för 2 år sedan, då detta förslag väcktes, var äfven jag
             af den uppfattning, att det förtjenade att vinna framgång inom
@@ -1318,8 +1270,6 @@
             också stärka känslan för de moraliska uppgifter och förpligtelser,
             hvilka i hemmet hafva sitt allra bästa värn.
           </seg>
-        </u>
-        <u xml:id="i-DaSSJK2LrZyhK1L3dzjk72" who="i-FDE8vHVwQL5JtnfhZTNxMP" prev="i-KZ8UyuDd7UqFnCWXuRWF2v">
           <seg xml:id="i-W2yvSujSFSRyp6ggryExc6">
             På dessa skäl och på de skäl, som äro af de föregående talarne
             framförda, ber jag, för min del, att på det lifligaste få tillstyrka
@@ -1342,12 +1292,10 @@
         <note xml:id="i-9Tw5cDiZBzmmA3DVFSs7j1" type="speaker">
           Herr Hasselrot:
         </note>
-        <u xml:id="i-2aVCrv8C1BVE2MTDKSCqoP" who="i-SBCzBgSFjEvWwT8Uzo139W" next="i-7T5X9eBLZAGPmLA9eaNjch">
+        <u xml:id="i-2aVCrv8C1BVE2MTDKSCqoP" who="i-SBCzBgSFjEvWwT8Uzo139W" next="i-GsxgBRSShLaBSiLd2a4eBX">
           <seg xml:id="i-CxvjJrM75Q6yPMrVbjVB1q">
             Jag erinrar mig mycket väl den diskussion
           </seg>
-        </u>
-        <u xml:id="i-7T5X9eBLZAGPmLA9eaNjch" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-2aVCrv8C1BVE2MTDKSCqoP" next="i-GsxgBRSShLaBSiLd2a4eBX">
           <seg xml:id="i-G6BCjmfn9L7CuQBz1dTY6k">
             dringande af i denna fråga, som egde rum i kammaren för 2 år
             sedan, och jag
@@ -1359,7 +1307,7 @@
         <note xml:id="i-Hw9EznsDaTywxjQF2vDxZ4">
           beträffande slägtnamn. (Forts.)
         </note>
-        <u xml:id="i-GsxgBRSShLaBSiLd2a4eBX" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-7T5X9eBLZAGPmLA9eaNjch" next="i-7CXuHGyJDA2UdZyjkMwuT9">
+        <u xml:id="i-GsxgBRSShLaBSiLd2a4eBX" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-2aVCrv8C1BVE2MTDKSCqoP" next="i-MYRT4BpDNgd5BvXezYvctb">
           <seg xml:id="i-MJisGuWn9vvJKAfMT7ucZi">
             ihågkommer också de sympatier, som då gjorde sig gällande för
             motionen. Samma sympatier hafva i år också uttalats af flere talare.
@@ -1372,8 +1320,6 @@
             fall kunde införas. Men jag tror dock icke, att förhållandena
             äro så farliga, som motionären låtit påskina.
           </seg>
-        </u>
-        <u xml:id="i-7CXuHGyJDA2UdZyjkMwuT9" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-GsxgBRSShLaBSiLd2a4eBX" next="i-W2TgFnNiBPZfuPs9qfqi8v">
           <seg xml:id="i-Vjmxr9injsh6omHRvAXK7G">
             Hvad då först beträffar denna fråga, betraktad från polishänsyn,
             så voro förhållandena förr i verlden mycket illa ordnade. En person,
@@ -1388,8 +1334,6 @@
             som i hans frejdoch flyttningsbetyg. Detta bidrager mycket att
             lätta myndigheternas bestyr med att identifiera personen i fråga.
           </seg>
-        </u>
-        <u xml:id="i-W2TgFnNiBPZfuPs9qfqi8v" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-7CXuHGyJDA2UdZyjkMwuT9" next="i-Qve1VHz8rFeG8owuYTVMux">
           <seg xml:id="i-U9DLKLmeXnBPHLksJN84br">
             Återstår då den olägenhet, som skulle drabba en familj derigenom,
             att en dålig person antager dess slägtnamn. Detta är ju mycket
@@ -1401,8 +1345,6 @@
             de andra medlemmarne af familjen till last, hvad en sådan person
             gjort.
           </seg>
-        </u>
-        <u xml:id="i-Qve1VHz8rFeG8owuYTVMux" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-W2TgFnNiBPZfuPs9qfqi8v" next="i-MYRT4BpDNgd5BvXezYvctb">
           <seg xml:id="i-QyDWNEo2UiqsEUL4Rffa4T">
             Det är emellertid icke dessa omständigheter, som för mig varit
             hufvudsakligen bestämmande, då jag yrkat afslag på herr Wieselgrens
@@ -1426,14 +1368,12 @@
         <note xml:id="i-MxiiLfzC2oscHEak8gp5mP" type="date">
           Onsdagen den 16 Februari. 17 N:o 7.
         </note>
-        <u xml:id="i-MYRT4BpDNgd5BvXezYvctb" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-Qve1VHz8rFeG8owuYTVMux" next="i-LYXVQZeFbcjbAQEEqYZdMz">
+        <u xml:id="i-MYRT4BpDNgd5BvXezYvctb" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-GsxgBRSShLaBSiLd2a4eBX">
           <seg xml:id="i-LfyDUVJTcjWfNW3LtarcGy">
             anmälan eller registrering skydda detta, hvarefter ingen, som
             ej Om dvägaförut hade samma tillnamn, skulle ega taga ett lika
             namn. Men "ringande af o - s . od rättsordning
           </seg>
-        </u>
-        <u xml:id="i-LYXVQZeFbcjbAQEEqYZdMz" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-MYRT4BpDNgd5BvXezYvctb" next="i-PhmmWmThJWxCSpLaQdr2M">
           <seg xml:id="i-A6iZ8ELUKUAn5cEUF1SECa">
             genom en sådan anmälan eller registrering skulle lagen förhindra
             beträffande dem, som vore söner till någon, som hette Johan eller
@@ -1448,16 +1388,12 @@
             underkasta sig någon inskränkning i ofvan omtalade urgamla sed,
             kan jag icke vara med om ett lagbud, som bryter denna sed.
           </seg>
-        </u>
-        <u xml:id="i-PhmmWmThJWxCSpLaQdr2M" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-LYXVQZeFbcjbAQEEqYZdMz" next="i-Ai72HN8GK1ULJyMYxVFEHH">
           <seg xml:id="i-Gix3BpgAUowPxuRJdPrnP8">
             Under diskussionen i Andra Kammaren, förra gången denna fråga
             var före, var det icke mer än en talare, en stadsrepresentant,
             som yrkade bifall till motionen, och kammaren afslog utan omröstning
             motionen Frågan torde således vara för tidigt väckt.
           </seg>
-        </u>
-        <u xml:id="i-Ai72HN8GK1ULJyMYxVFEHH" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-PhmmWmThJWxCSpLaQdr2M">
           <seg xml:id="i-AoeoH9LC5zH2fdYFhxv3HS">
             Jag yrkar bifall till lagutskottets hemställan.
           </seg>
@@ -1465,7 +1401,7 @@
         <note xml:id="i-ShK31arDPJtWmV15p7v2fm" type="speaker">
           Herr Wieselgren:
         </note>
-        <u xml:id="i-4T5NsAd3ANH4iRYwt2f8cj" who="i-3vmL5fhhYQEqZsPyUJFmjy" next="i-3TR9HNUPygyVzswspunDdy">
+        <u xml:id="i-4T5NsAd3ANH4iRYwt2f8cj" who="i-3vmL5fhhYQEqZsPyUJFmjy" next="i-JWmRRW4tT3f9R5vdchyuVW">
           <seg xml:id="i-MoVFtRxsYRoKbYkrDBpfcE">
             Jag borde ju icke trötta kammaren med att å nyo orda i denna
             fråga, då jag för ett par riksdagar sedan i densamma har uttalat
@@ -1474,8 +1410,6 @@
             jag ber ändå, att till de skäl, som blifvit af ett par föregående
             talare anförda, få lägga ännu några ord.
           </seg>
-        </u>
-        <u xml:id="i-3TR9HNUPygyVzswspunDdy" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-4T5NsAd3ANH4iRYwt2f8cj" next="i-JWmRRW4tT3f9R5vdchyuVW">
           <seg xml:id="i-uimBwSv5iht68yXuVJ1bw">
             Jag vill då först och främst bedja kammaren tillse beskaffenheten
             af den motivering, på hvilken lagutskottet afstyrkt min motion.
@@ -1512,7 +1446,7 @@
         <note xml:id="i-WXY7Mid6MxrPVH8emRSsVb" type="date">
           18 Onsdagen den 16 Februari.
         </note>
-        <u xml:id="i-JWmRRW4tT3f9R5vdchyuVW" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-3TR9HNUPygyVzswspunDdy" next="i-9zJQFkxZmEe69k9WXRnDDg">
+        <u xml:id="i-JWmRRW4tT3f9R5vdchyuVW" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-4T5NsAd3ANH4iRYwt2f8cj" next="i-9zJQFkxZmEe69k9WXRnDDg">
           <seg xml:id="i-ThyCddsg6W3hxKLht4z6MZ">
             Om åvägadenna och den afstyrkta, uppvisa skälen för att det,
             då det gäller bringande af ett handelsbolags namn, finnes en rätt
@@ -1522,7 +1456,7 @@
         <note xml:id="i-ERd1EY4ny8MyHWSXGNw8va">
           rättsordning beträffande slägtnamn. (Forts.)
         </note>
-        <u xml:id="i-9zJQFkxZmEe69k9WXRnDDg" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-JWmRRW4tT3f9R5vdchyuVW" next="i-3X7fCcSnjvc4AkqbxB8ggx">
+        <u xml:id="i-9zJQFkxZmEe69k9WXRnDDg" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-JWmRRW4tT3f9R5vdchyuVW" next="i-mNS1SSPHM1fZ1MX3HMcsA">
           <seg xml:id="i-Mkdzw6CBdYQxMRVAhHy8pe">
             då det gäller slägtnamn, då finnes ingen rätt. Hvarför då icke
             klargöra detta annars obegripliga förhållande? En firmas namn
@@ -1533,8 +1467,6 @@
             åtminstone något gjorts för att från rättslig synpunkt afstyrka
             min motion. Men af allt detta finnes ingenting.
           </seg>
-        </u>
-        <u xml:id="i-3X7fCcSnjvc4AkqbxB8ggx" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-9zJQFkxZmEe69k9WXRnDDg" next="i-XCwZuTLpVwopuaK2b8yzgz">
           <seg xml:id="i-PMyzKM6zxeaqpZnB3BEidS">
             Nu ber jag emellertid att få fråga: Om handelsfirmas namn har
             vunnit rättsskydd, hvad är då skälet dertill? Jo, erfarenheten
@@ -1565,8 +1497,6 @@
             ett värde eller någon rätt utanför gränsmärkena af bolagsnamnens
             ekonomiska intressen — då hafva vi hunnit bra långt!
           </seg>
-        </u>
-        <u xml:id="i-XCwZuTLpVwopuaK2b8yzgz" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-3X7fCcSnjvc4AkqbxB8ggx" next="i-mNS1SSPHM1fZ1MX3HMcsA">
           <seg xml:id="i-MKButhLyeQbQCn3Z3FqHc5">
             Men, mina herrar, skulle det vara så -— då har jag ju deri en
             ganska stor anledning att å nyo framlägga denna min motion. Ty
@@ -1585,14 +1515,12 @@
         <note xml:id="i-NDBaesbgozzMswqkFctboy" type="title">
           Onsdagen den 16 Februari. 19
         </note>
-        <u xml:id="i-mNS1SSPHM1fZ1MX3HMcsA" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-XCwZuTLpVwopuaK2b8yzgz" next="i-4j5oW9XHDv48VLTFzamKtE">
+        <u xml:id="i-mNS1SSPHM1fZ1MX3HMcsA" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-9zJQFkxZmEe69k9WXRnDDg" next="i-91c8Sdcew6eom2w6mNH22h">
           <seg xml:id="i-Pikyf9dVmMFFPJpmBbzAow">
             väl till bland vårt folk, om man utan att uppröras finner förbrytare
             under namnen Sture, Oxenstjerna, eller andra dylika, inregistrerade
             på fånglistorna.
           </seg>
-        </u>
-        <u xml:id="i-4j5oW9XHDv48VLTFzamKtE" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-mNS1SSPHM1fZ1MX3HMcsA" next="i-SbjKom4GS1ssGQup6oPVuC">
           <seg xml:id="i-CKXTL8oF6Q2VNewVcxtMHN">
             Men, säger lagutskottets ärade ordförande, det är icke något
             oerhördt, att någon medlem utaf en aktad slägt begått ett brott.
@@ -1614,8 +1542,6 @@
             nog för sin uppmaning till Riksdagen att icke bry sig om någon
             lagstiftning i denna sak.
           </seg>
-        </u>
-        <u xml:id="i-SbjKom4GS1ssGQup6oPVuC" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-4j5oW9XHDv48VLTFzamKtE" next="i-UjVYHow9jmaLroxXHXgtUd">
           <seg xml:id="i-GR26eUqPxsxSjLt9VHFH16">
             Men, mina herrar, det är icke endast ett jemförelsevis begränsadt
             antal riddarhusnamn, det här gäller. Frågan rör äfven ett stort
@@ -1632,8 +1558,6 @@
             nu förekomma i fångrullorna och polisuppgifterna; Tegnér, Franzén,
             Runeberg, Fogelberg m. fl. — de finnas der allesamman!
           </seg>
-        </u>
-        <u xml:id="i-UjVYHow9jmaLroxXHXgtUd" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-SbjKom4GS1ssGQup6oPVuC" next="i-91c8Sdcew6eom2w6mNH22h">
           <seg xml:id="i-X35f8YCGHZWrzxKJkJQ7iC">
             Nu erinrar man om den gamla vanan hos vår landtbefolkning att
             icke hafva efternamn, och spörjer, huru man väl kan tänka sig,
@@ -1670,13 +1594,11 @@
         <note xml:id="i-HFstEGWN5j6fEUpojSD4X4">
           bringande af rättsordning beträffande slägtnamn. (Forts.)
         </note>
-        <u xml:id="i-91c8Sdcew6eom2w6mNH22h" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-UjVYHow9jmaLroxXHXgtUd" next="i-AdNN9BpPNebvTFMWsmynya">
+        <u xml:id="i-91c8Sdcew6eom2w6mNH22h" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-mNS1SSPHM1fZ1MX3HMcsA" next="i-TvzsG219nrvpHRtBXwun5R">
           <seg xml:id="i-14FXhTdSc2zfXnnKaBFLtX">
             garne sålunda kunnat göra, tror jag att landtbefolkningen inom
             öfriga provinser äfven kan besluta sig för. De ha skäl dertill.
           </seg>
-        </u>
-        <u xml:id="i-AdNN9BpPNebvTFMWsmynya" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-91c8Sdcew6eom2w6mNH22h" next="i-68DhZyLHBV62Rkw22FcVLZ">
           <seg xml:id="i-XaqBy5YXvTesst6oLtLB2i">
             y mycket är annorlunda nu än förr, nu än under den tid, då nämnda
             sedvana insmög sig bland vårt folk. På den tiden, då största delen
@@ -1695,8 +1617,6 @@
             sig med samma rättsförhållanden, som ännu, då det utgjorde ett
             par millioner, kunde räcka till.
           </seg>
-        </u>
-        <u xml:id="i-68DhZyLHBV62Rkw22FcVLZ" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-AdNN9BpPNebvTFMWsmynya" next="i-TvzsG219nrvpHRtBXwun5R">
           <seg xml:id="i-QxjfMZBkNEuX3yk6tL37oB">
             I den mån den så att säga jordfasta befolkningen blir ett mindretal
             och den rörliga befolkningen ett flertal, inträder just behofvet
@@ -1735,7 +1655,7 @@
         <note xml:id="i-T4mGdmWGUEVKpyNoJX2FG3" type="date">
           Onsdagen den 16 Februari. 21
         </note>
-        <u xml:id="i-TvzsG219nrvpHRtBXwun5R" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-68DhZyLHBV62Rkw22FcVLZ" next="i-3xh7K3KFA1TzLtRbdGnAQj">
+        <u xml:id="i-TvzsG219nrvpHRtBXwun5R" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-91c8Sdcew6eom2w6mNH22h" next="i-FuEKZ6d4tUpfCbZPpwnMn2">
           <seg xml:id="i-2oyVHGNwRiQWBaDVoNssCn">
             in på en mark, som för dem borde varit afstängd. Så kommer det
             naturligtvis allt framgent att gå, om vi icke få en tillfredsställande
@@ -1752,8 +1672,6 @@
             att de upphört att vara för familjen karakteristiska och nu äro
             "commune bonum”.
           </seg>
-        </u>
-        <u xml:id="i-3xh7K3KFA1TzLtRbdGnAQj" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-TvzsG219nrvpHRtBXwun5R" next="i-FuEKZ6d4tUpfCbZPpwnMn2">
           <seg xml:id="i-LetXz1k6WRwtNshFKJfaLu">
             Lagutskottets ärade ordförande nämnde, huru han tänkte sig, att
             det skulle tillgå för att få till stånd en åsyftad rättsordning
@@ -1806,7 +1724,7 @@
         <note xml:id="i-AiuDMieNVGKQWbRs7miUqG" type="date">
           22 Onsdagen den 16 Februari.
         </note>
-        <u xml:id="i-FuEKZ6d4tUpfCbZPpwnMn2" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-3xh7K3KFA1TzLtRbdGnAQj" next="i-GRVWxLiEashr5urBkcLXn">
+        <u xml:id="i-FuEKZ6d4tUpfCbZPpwnMn2" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-TvzsG219nrvpHRtBXwun5R" next="i-GRVWxLiEashr5urBkcLXn">
           <seg xml:id="i-LK53xf5RiMea87xBzNEwuB">
             Om åvägaett par tre rader namn. Jag tror, att det blifvit ett
             ökadt bestyr
@@ -1815,7 +1733,7 @@
         <note xml:id="i-5SPr1xe71hmMnUsZp1j3oZ">
           bringande af rättsordning beträffande slägtnamn. (Forts.)
         </note>
-        <u xml:id="i-GRVWxLiEashr5urBkcLXn" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-FuEKZ6d4tUpfCbZPpwnMn2" next="i-A1rfRCdXfkUkno6KkoY6dF">
+        <u xml:id="i-GRVWxLiEashr5urBkcLXn" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-FuEKZ6d4tUpfCbZPpwnMn2" next="i-UwyHwTV8x95oL9KbyaaybH">
           <seg xml:id="i-YLepPWC8q62dRACExNFngz">
             för dem dermed, att de ålagts skrifva in alla de namn, en förbrytare
             olika gånger kan hafva tagit från det han utsläppts och tills
@@ -1837,8 +1755,6 @@
             råkat igenkänna honom. Men för hans identifiering hade man sannerligen
             att tacka hvarken prestbeviset eller 1894 års förordning!
           </seg>
-        </u>
-        <u xml:id="i-A1rfRCdXfkUkno6KkoY6dF" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-GRVWxLiEashr5urBkcLXn" next="i-UwyHwTV8x95oL9KbyaaybH">
           <seg xml:id="i-FRPZBiAwe1SNbRKPm6sZSG">
             Lagutskottet anser, att det här är fråga om en våldsam begränsning
             af en i vårt land käfdvunnen gammal frihet — och det låter ju
@@ -1875,7 +1791,7 @@
         <note xml:id="i-MgZQMW7UMwpn4LMHrzLG43" type="date">
           Onsdagen den 16 Februari. 238
         </note>
-        <u xml:id="i-UwyHwTV8x95oL9KbyaaybH" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-A1rfRCdXfkUkno6KkoY6dF" next="i-EFt2bCFMrnKHHwybFxd2Sf">
+        <u xml:id="i-UwyHwTV8x95oL9KbyaaybH" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-GRVWxLiEashr5urBkcLXn">
           <seg xml:id="i-5oChvremJ2QTqe1dJkKWvh">
             oss är för tidigt att lagstifta i denna sak, säger jag, att det
             ligger större fara i att vänta tills det blir för sent. Ty skall
@@ -1888,8 +1804,6 @@
             en hvar. Och Ju förr en sådan allmän uppfattning kommer till stånd,
             desto bättre och fastare blir grundvalen för den lagliga rättsordningen.
           </seg>
-        </u>
-        <u xml:id="i-EFt2bCFMrnKHHwybFxd2Sf" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-UwyHwTV8x95oL9KbyaaybH" next="i-6hw3F5QKk9hkyhHyuNSeC8">
           <seg xml:id="i-NjQnWnpt264LjDifteUxeR">
             Jag vill erinra, att vi i detta afseende icke sakna motstycken
             på andra områden af rättsordningen. Huru länge sedan är det väl,
@@ -1899,8 +1813,6 @@
             slut med friheten. Mina herrar, i det ögonblick vår familjekänsla
             gifver slägtnamnet ett ökadt värde och vi derför
           </seg>
-        </u>
-        <u xml:id="i-6hw3F5QKk9hkyhHyuNSeC8" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-EFt2bCFMrnKHHwybFxd2Sf" next="i-QUUwHw3a2DrbrR3FHT1Tk4">
           <seg xml:id="i-VyLErXyL1xnLuiqkMUQd12">
             ck känna oss tvungna att gifva namnet ett rättsskydd, hafva vi
             visserligen icke någon anledning att klaga öfver någon vår minskade
@@ -1909,8 +1821,6 @@
             och att således äfven vi hunnit dit hvarje folk bör sträfva att
             nå.
           </seg>
-        </u>
-        <u xml:id="i-QUUwHw3a2DrbrR3FHT1Tk4" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-6hw3F5QKk9hkyhHyuNSeC8" next="i-PTbyx3i2uwa75KxRcx4k9q">
           <seg xml:id="i-6yRGLGwJgPkBqKygRVNDCE">
             Jag vill icke nu gå djupare in i saken, då det ju endast är fråga
             om en förberedande åtgärd, som, om den vinner fullföljd, nog skall
@@ -1928,8 +1838,6 @@
             Frankrike i allmän odling, i aktning för den enskildes rätt; men
             i detta stycke har det hunnit längre än vi.
           </seg>
-        </u>
-        <u xml:id="i-PTbyx3i2uwa75KxRcx4k9q" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-QUUwHw3a2DrbrR3FHT1Tk4">
           <seg xml:id="i-7fkhNtj6xYn89Mtr4pF9Z8">
             På de skäl, jag anfört, och med stöd af hvad äfven föregående
             talare yttrat, beder jag att få yrka bifall till min motion och
@@ -1971,7 +1879,7 @@
         <note xml:id="i-AN5bwprCxJRvTfocsW9REb">
           rättsordning beträffande slägtnamn. (Forts.)
         </note>
-        <u xml:id="i-8XVg2eBo9vAzMjcATq9AHB" who="i-9PLN35eAW11kpHa4aVJ25k" prev="i-KhdbN2HmudixY55dnp1wx6" next="i-3eByxzfr5jGEuUhNKa7pNs">
+        <u xml:id="i-8XVg2eBo9vAzMjcATq9AHB" who="i-9PLN35eAW11kpHa4aVJ25k" prev="i-KhdbN2HmudixY55dnp1wx6">
           <seg xml:id="i-T88ZTbDq99oQBmcrjnEuvw">
             sattes för att utarbeta ett svenskt-norskt-danskt förslag till
             firmalag, yttrade i motiven till sitt 1884 afgifna betänkande
@@ -1999,8 +1907,6 @@
             En dylik procedur skulle vara synnerligen lämplig i vårt land,
             och jag kan icke inse, hvaruti svårigheterna skulle bestå.
           </seg>
-        </u>
-        <u xml:id="i-3eByxzfr5jGEuUhNKa7pNs" who="i-9PLN35eAW11kpHa4aVJ25k" prev="i-8XVg2eBo9vAzMjcATq9AHB">
           <seg xml:id="i-KQ62sfb9UZwSyAqP9Q5E9c">
             Den ärade ordföranden i lagutskottet antydde, att det skulle
             vara nödigt att upprätta ett kolossalt register öfver alla personer
@@ -2036,13 +1942,11 @@
         <note xml:id="i-7XBBuCuzGeAYWTkpMawnmq" type="date">
           Onsdagen den 16 Februari. 25
         </note>
-        <u xml:id="i-TJ1RjKUteYGht5wU6i78TP" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-E5SLjD6PXmkRga6XY1dE8P" next="i-Nr6DqhqufMCDXxR785kpCW">
+        <u xml:id="i-TJ1RjKUteYGht5wU6i78TP" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-E5SLjD6PXmkRga6XY1dE8P">
           <seg xml:id="i-VzZ8jHh94McBdDRStDdNrk">
             nämsta bergsmansfamiljer att göra efternamnet till ett slägtnamn,
             så att Anders Perssons son kallar sig icke Andersson, utan Persson.
           </seg>
-        </u>
-        <u xml:id="i-Nr6DqhqufMCDXxR785kpCW" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-TJ1RjKUteYGht5wU6i78TP" next="i-67Z943eFJWtGGchF9kB2W3">
           <seg xml:id="i-VDT17uExFBonkAecNr9eTf">
             I sammanbang härmed, vill jag fästa uppmärksamheten på, hvad
             herr Rudebeck nämnde om de svårigheter, som denna osäkerhet i
@@ -2063,8 +1967,6 @@
             eger ett annat förhållande rum. På många håll bibehåller man beväringsnamnet
             för att göra någon skilnad från de å vissa orter vanliga sonnamnen.
           </seg>
-        </u>
-        <u xml:id="i-67Z943eFJWtGGchF9kB2W3" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-Nr6DqhqufMCDXxR785kpCW">
           <seg xml:id="i-42qSYxujDC4j24paiLF29m">
             Då jag för öfrigt måste i hufvudsak instämma i hvad motionären
             anfört, hvilket är mycket behjertansvärdt, särskildt från de synpunkter
@@ -2075,7 +1977,7 @@
         <note xml:id="i-HCXoLLCB3o1ptFACULzuwa" type="speaker">
           Herr Hasselrot:
         </note>
-        <u xml:id="i-J4gLgX2TAiGvpqG4SCrcw3" who="i-SBCzBgSFjEvWwT8Uzo139W" next="i-UmXJpVHXLmAwhhxT1F5KhD">
+        <u xml:id="i-J4gLgX2TAiGvpqG4SCrcw3" who="i-SBCzBgSFjEvWwT8Uzo139W" next="i-3UB5fG1ig8gQeCh2g2mKDX">
           <seg xml:id="i-6kQGx2pHrFJ3rGizUVZp5n">
             Då jag väl vet, huru kammarens sympatier i denna fråga ligga,
             skall jag icke tillåta mig att vara vidlyftig. Endast några få
@@ -2083,8 +1985,6 @@
             sig skyldig till beträffande milt anförande, samt till svar på
             hvad han yttrade.
           </seg>
-        </u>
-        <u xml:id="i-UmXJpVHXLmAwhhxT1F5KhD" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-J4gLgX2TAiGvpqG4SCrcw3" next="i-3UB5fG1ig8gQeCh2g2mKDX">
           <seg xml:id="i-TTYg5sxbNsD4VRrBdmMu1A">
             Han hade den uppfattningen, att jag skulle hafva menat, att man
             med förslaget åsyftade, att en hvar familj i vårt land skulle
@@ -2124,12 +2024,10 @@
         <note xml:id="i-EmMJx1hrxWFXVvKAnBi5E4" type="date">
           26 Onsdagen den 16 Februari.
         </note>
-        <u xml:id="i-3UB5fG1ig8gQeCh2g2mKDX" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-UmXJpVHXLmAwhhxT1F5KhD" next="i-QSm1UP7qtJLyEx36HFhV6r">
+        <u xml:id="i-3UB5fG1ig8gQeCh2g2mKDX" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-J4gLgX2TAiGvpqG4SCrcw3" next="i-WTEjkrenXiBCXjUVcZSg7y">
           <seg xml:id="i-RioEoYjmsoUNn4sVhXDv8H">
             Vidare anmärkte motionären att långt ifrån att 1894 års för-
           </seg>
-        </u>
-        <u xml:id="i-QSm1UP7qtJLyEx36HFhV6r" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-3UB5fG1ig8gQeCh2g2mKDX" next="i-WTEjkrenXiBCXjUVcZSg7y">
           <seg xml:id="i-BjdXQzERVMTJ8KtnDVXKQN">
             bringande af ordning lättat bestyret för myndigheterna hade den
             ökat det; sär-
@@ -2138,7 +2036,7 @@
         <note xml:id="i-61yXsX5GxDM7qCYybJjYwE">
           rättsordning beträffande slägtnamn. (Forts.)
         </note>
-        <u xml:id="i-WTEjkrenXiBCXjUVcZSg7y" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-QSm1UP7qtJLyEx36HFhV6r" next="i-BLwZN7nzHP4hUKikzoARHh">
+        <u xml:id="i-WTEjkrenXiBCXjUVcZSg7y" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-3UB5fG1ig8gQeCh2g2mKDX" next="i-UXPfjAQUpXKW3qmC6YiHBa">
           <seg xml:id="i-XkPvn4obDGdk99TTcypd69">
             skildt för presterna hade det blifvit försvåradt genom skyldigheten
             för dem att i betygen anteckna två, tre kanske fyra namn på samma
@@ -2152,8 +2050,6 @@
             uppgifver ett annat namn och möjligen blir dömd under detta nya
             namn.
           </seg>
-        </u>
-        <u xml:id="i-BLwZN7nzHP4hUKikzoARHh" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-WTEjkrenXiBCXjUVcZSg7y" next="i-QMz5S2XdcfpaJkdbfCfAk1">
           <seg xml:id="i-5UzNsBKmwvyrYcQsiruMvB">
             Det har ej heller varit mig obekant, att i Norrland och vissa
             andra delar af vårt land den gamla seden, att sonen till efternamn
@@ -2162,8 +2058,6 @@
             landet, särskildt i mellersta och södra delarna, denna sed bibehållits,
             och att man önskar fortfarande vidhålla densamma.
           </seg>
-        </u>
-        <u xml:id="i-QMz5S2XdcfpaJkdbfCfAk1" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-BLwZN7nzHP4hUKikzoARHh" next="i-Bv1tmuphp2asPbek3NtzTB">
           <seg xml:id="i-3CDx3Sq155JgvrGM2H6FuK">
             Det skarpaste klandret fick lagutskottet af motionären, derför
             att vi undvikit att tala om rätt i denna sak. Lagutskottet har
@@ -2175,16 +2069,12 @@
             aktning och anseende erkänner jag, men detta hufvudsakligen ur
             synpunkten af dess ställning såsom affärsföretag.
           </seg>
-        </u>
-        <u xml:id="i-Bv1tmuphp2asPbek3NtzTB" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-QMz5S2XdcfpaJkdbfCfAk1" next="i-8AiU3Lo7KkkLbhaYjexgKc">
           <seg xml:id="i-Sb8YKb2zk1i3dVMkx6DxqU">
             Hvad beträffar lyckan att ega ett aktadt och ansedt namn, sätter
             jag den lika högt, som den ärade motionären; men jag förstår icke,
             att denna lycka förminskas i någon väsentlig mån derför, att en
             person, som tagit detta namn, till äfventyrs begår någon förbrytelse.
           </seg>
-        </u>
-        <u xml:id="i-8AiU3Lo7KkkLbhaYjexgKc" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-Bv1tmuphp2asPbek3NtzTB" next="i-UXPfjAQUpXKW3qmC6YiHBa">
           <seg xml:id="i-7u53ZXPn274sJWBzKN2UDC">
             Jag tror för min del, att de stora faror och olägenheter, som
             skulle hota, derest icke förslaget antoges, äro uppkonstruerade
@@ -2211,7 +2101,7 @@
         <note xml:id="i-Uo9rAT7YG2qPoaqZ5QsJhw" type="date">
           Onsdagen den 16 Februari. 27
         </note>
-        <u xml:id="i-UXPfjAQUpXKW3qmC6YiHBa" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-8AiU3Lo7KkkLbhaYjexgKc" next="i-G7JxZH5miB7QhaTkAnCdAw">
+        <u xml:id="i-UXPfjAQUpXKW3qmC6YiHBa" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-WTEjkrenXiBCXjUVcZSg7y">
           <seg xml:id="i-8AaBVaX7UzB5SxWM8adWTR">
             aldrig, att de bytt om namn, och först sedan en person varit
             häktad fera gånger och forslats till olika trakter, kommer man
@@ -2235,8 +2125,6 @@
             undvika offentligheten, utan det blir den hederlige mannen, som
             gör anmälan om att ändra namn.
           </seg>
-        </u>
-        <u xml:id="i-G7JxZH5miB7QhaTkAnCdAw" who="i-SBCzBgSFjEvWwT8Uzo139W" prev="i-UXPfjAQUpXKW3qmC6YiHBa">
           <seg xml:id="i-AVy6cKMzSBLsaa6T6KWWN2">
             Lagutskottets ordförande nämnde, att det vore sed i många provinser,
             att sonen toge ett annat efternamn än fadern, och att detta skulle

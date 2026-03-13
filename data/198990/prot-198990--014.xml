@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-Vp2XG5hWcXkEZvC8vhrbqh" type="speech">
             <linkGrp type="u">
               <ptr target="#i-9825c44cf504b5b9-0"/>
@@ -209,7 +209,13 @@
               <ptr target="#i-4JXMTBXvRjNSW9FPWvBpxL"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -259,7 +265,7 @@
         <note xml:id="i-EhKzrjE96W72N6jC5P8SfW" type="speaker">
           Statsrådet BENGT LINDQVIST:
         </note>
-        <u xml:id="i-9825c44cf504b5b9-0" who="i-TgNr7w5KMUTB7gX5TMgE3U" next="i-9825c44cf504b5b9-1">
+        <u xml:id="i-9825c44cf504b5b9-0" who="i-TgNr7w5KMUTB7gX5TMgE3U" next="i-9825c44cf504b5b9-4">
           <seg xml:id="i-2uUCCa76pQhmfK89wptLvL">
             Herr talman! Daniel Tarschys har frågat mig hur stor utbyggnad
             av dagvård och gruppboende för åldersdementa som behövs för att
@@ -267,16 +273,12 @@
             avser att vidta för att säkerställa att en utbyggnad kommer till
             stånd.
           </seg>
-        </u>
-        <u xml:id="i-9825c44cf504b5b9-1" who="i-TgNr7w5KMUTB7gX5TMgE3U" prev="i-9825c44cf504b5b9-0" next="i-9825c44cf504b5b9-2">
           <seg xml:id="i-N9nyoyu5JfEvD3V73entRL">
             Riksdagen anslöt sig förra året till de riktlinjer för äldreomsorgens
             fortsatta utveckling som regeringen lagt fram. Där lades stor
             vikt vid att kommuner och landsting, som är de närmast ansvariga,
             förbättrar boendet och vården för människor med åldersdemens.
           </seg>
-        </u>
-        <u xml:id="i-9825c44cf504b5b9-2" who="i-TgNr7w5KMUTB7gX5TMgE3U" prev="i-9825c44cf504b5b9-1" next="i-9825c44cf504b5b9-3">
           <seg xml:id="i-NBdjKWsQaX7rwrd2DRqQu1">
             Hit hör bl.a. att stödet till närstående måste bli bättre, t.ex.
             genom avlastning. Hemvården och dagverksamheter är ett viktigt
@@ -287,8 +289,6 @@
             för dem som vårdas på institution. Slutligen är det viktigt med
             en kvalificerad geriatrisk rehabilitering.
           </seg>
-        </u>
-        <u xml:id="i-9825c44cf504b5b9-3" who="i-TgNr7w5KMUTB7gX5TMgE3U" prev="i-9825c44cf504b5b9-2" next="i-BLRLs8xexF46fzfgXPoWSq">
           <seg xml:id="i-4dRvCxy2qtD7ya3As34BSs">
             Det är huvudmännen själva som måste bedöma vilka behov som föreligger
             lokalt och hur de bäst kan tillgodoses. En sådan lokal studie,
@@ -299,8 +299,6 @@
             kan jag inte nu redovisa någon säker bedömning av behoven av dagvård
             och gruppboende fram till år 2000.
           </seg>
-        </u>
-        <u xml:id="i-BLRLs8xexF46fzfgXPoWSq" who="i-TgNr7w5KMUTB7gX5TMgE3U" prev="i-9825c44cf504b5b9-3" next="i-9825c44cf504b5b9-4">
           <seg xml:id="i-HtC8he4qm7zt14G52sKiPY">
             Bostadsstyrelsen och socialstyrelsen kartlade år 1987 gruppboendet
             i landet. Då fanns 64 gruppboendeenheter avsedda för åldersdementa
@@ -320,7 +318,7 @@
         <note xml:id="i-Hn4kfKyAm8FotzjyEfNPog">
           Svar på interpellationerna
         </note>
-        <u xml:id="i-9825c44cf504b5b9-4" who="i-TgNr7w5KMUTB7gX5TMgE3U" prev="i-BLRLs8xexF46fzfgXPoWSq" next="i-9825c44cf504b5b9-5">
+        <u xml:id="i-9825c44cf504b5b9-4" who="i-TgNr7w5KMUTB7gX5TMgE3U" prev="i-9825c44cf504b5b9-0">
           <seg xml:id="i-Uty2cvZQrueyGC2UxgCQFt">
             knappt 500 boende. Fram t.o.m. år 1989 planerades ytterligare
             185 enheter för ca 1500 personer. En nu pågående uppföljning inom
@@ -328,8 +326,6 @@
             fanns ca 220 gruppboendeenheter i landet. Det betyder att utbyggnadstakten
             tycks vara högre än huvudmännen planerade för två år sedan.
           </seg>
-        </u>
-        <u xml:id="i-9825c44cf504b5b9-5" who="i-TgNr7w5KMUTB7gX5TMgE3U" prev="i-9825c44cf504b5b9-4">
           <seg xml:id="i-WJzzGcLp1qHrrXNfuMxF2y">
             Äldredelegationens förslag, som i hög grad berör ansvaret för
             demensvården, är för närvarande föremål för remissbehandling.
@@ -435,15 +431,13 @@
         <note xml:id="i-UZFfoiyV4esKeGseUNtMJL" type="speaker">
           MARGÖ INGVARDSSON (vpk):
         </note>
-        <u xml:id="i-VxNU1gW5gUVRjChbJ9o9od" who="i-XxMRaKyWvbxm3uJmt8WBtZ" next="i-9825c44cf504b5b9-6">
+        <u xml:id="i-VxNU1gW5gUVRjChbJ9o9od" who="i-XxMRaKyWvbxm3uJmt8WBtZ" next="i-14d9ac94ac3ecb9c-1">
           <seg xml:id="i-FY3UVckb3e7pNrEZx71AJp">
             Herr talman! Det totala behovet av gruppboende i hela landet
             fram till år 2000 har uppskattats till mellan 25 000 och 30 000
             platser. Av de platserna skulle ca 15 000 behövas för de s.k.
             senildementa.
           </seg>
-        </u>
-        <u xml:id="i-9825c44cf504b5b9-6" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-VxNU1gW5gUVRjChbJ9o9od" next="i-14d9ac94ac3ecb9c-1">
           <seg xml:id="i-TKtNpRnkv58JpinWDmBPXR">
             Statsrådet Bengt Lindqvist anförde i svaret till Daniel Tarschys
             att kommunerna ligger litet före när det gäller utbyggnaden. På
@@ -490,7 +484,7 @@
         <note xml:id="i-ViuQL57UFkh93syP4aShEg">
           Svar på interpellationerna
         </note>
-        <u xml:id="i-14d9ac94ac3ecb9c-1" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-9825c44cf504b5b9-6">
+        <u xml:id="i-14d9ac94ac3ecb9c-1" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-VxNU1gW5gUVRjChbJ9o9od">
           <seg xml:id="i-TqK64x3KZ2esWthmUYB32n">
             var någonstans. De hade ingen aning om att de bodde i det egna
             hemmet. De visste inte heller vem jag var. Jag fick tala om vem
@@ -1218,7 +1212,7 @@
         <note xml:id="i-8iHQWifxsXACnW6yPi14k2" type="speaker">
           31 av Jerry Martinger (m) till justitieministern om skärpt narkotikastrafflagstiftning:
         </note>
-        <u xml:id="i-3144be8c855bd013-1" who="i-CsPVNzn1NWKhuBqKDr2StW" next="i-Ex2LNyVFNehtJ3WhcM8Y7X">
+        <u xml:id="i-3144be8c855bd013-1" who="i-CsPVNzn1NWKhuBqKDr2StW">
           <seg xml:id="i-7dDNaaaSmF3BVeWNtj5AuE">
             Under de senaste månaderna har vi fått allt fler indikationer
             på att det aldrig har funnits så gott om narkotika i Sverige som
@@ -1247,8 +1241,6 @@
             1 juli 1988, har — såvitt jag vet — ännu inte kunnat tillämpas
             i praktiken.
           </seg>
-        </u>
-        <u xml:id="i-Ex2LNyVFNehtJ3WhcM8Y7X" who="i-CsPVNzn1NWKhuBqKDr2StW" prev="i-3144be8c855bd013-1">
           <seg xml:id="i-4R3R6zGyZYvQAZMJJ5bduw">
             Med anledning av ovanstående får jag fråga justitieministern
             om regeringen har för avsikt att föreslå några ändringar i narkotikastrafflagen.
@@ -1267,7 +1259,7 @@
           120 av Per Stenmarck (m) till utrikesministern om Raoul Wallenbergs
           försvinnande:
         </note>
-        <u xml:id="i-edda71b8c89fc921-1" who="i-L9ZkLhYiYiW2jxjciAaRcV" next="i-7UE1mNX7oJyBmHDjExGdQU">
+        <u xml:id="i-edda71b8c89fc921-1" who="i-L9ZkLhYiYiW2jxjciAaRcV">
           <seg xml:id="i-Pz12h7RW4xcBFwG69iPjnZ">
             Den senaste veckans händelseutveckling har gett nya förhoppningar
             om ett trovärdigt besked om vad som inträffade när Raoul Wallenberg
@@ -1280,8 +1272,6 @@
             för att Raoul Wallenberg lever eller är död, innebär händelsen
             dock inte.
           </seg>
-        </u>
-        <u xml:id="i-7UE1mNX7oJyBmHDjExGdQU" who="i-L9ZkLhYiYiW2jxjciAaRcV" prev="i-edda71b8c89fc921-1">
           <seg xml:id="i-QdLBJ4G1khguJpf1wxAhe6">
             Vilka åtgärder ämnar regeringen vidta mot bakgrund av den uppkomna
             situationen?
@@ -1316,7 +1306,7 @@
           121 av Karin Israelsson (c) till finansministern om alternativen
           i barnomsorgen:
         </note>
-        <u xml:id="i-3a4f2956ce422775-1" who="i-TVpY9zEquJ2jKT7pqxS85w" next="i-Btne3fBG62jNKnbzn28YQZ">
+        <u xml:id="i-3a4f2956ce422775-1" who="i-TVpY9zEquJ2jKT7pqxS85w">
           <seg xml:id="i-E9cpebeGabUEvp2b3EsU2x">
             Finansministern uttalade i samband med en konferens i Sigtuna
             den 17 oktober att reglerna för att erhålla statsbidrag inom barnomsorgen
@@ -1329,8 +1319,6 @@
             Flera alternativ och ett ökat antal platser är till klar fördel
             för alla de föräldrar som inte får del av den nuvarande barnomsorgen.
           </seg>
-        </u>
-        <u xml:id="i-Btne3fBG62jNKnbzn28YQZ" who="i-TVpY9zEquJ2jKT7pqxS85w" prev="i-3a4f2956ce422775-1">
           <seg xml:id="i-ThfPfXKFEfyUoDte95nJ3V">
             Jag vill med anledning av finansministerns utspel fråga när regeringen
             är beredd att föreslå nya regler för statsbidrag till barnsomsorgen?
@@ -1343,7 +1331,7 @@
           122 av Gudrun Norberg (fp) till finansministern om ändrade regler
           för fyllnadsinbetalning av skatt:
         </note>
-        <u xml:id="i-0e530b92aa0e08b3-0" who="i-85VtituoXaBtWGEYWBeNQ8" next="i-QNShaUnYZk5VQmGtjqH1Ys">
+        <u xml:id="i-0e530b92aa0e08b3-0" who="i-85VtituoXaBtWGEYWBeNQ8">
           <seg xml:id="i-XFEi21Puv8DVS2Uq7ZEPaw">
             Beslutet att införa en avgift på fyllnadsinbetalningar, som görs
             mellan 18 januari och 30 april och är större än 20000 kronor,
@@ -1358,14 +1346,10 @@
             sin skatt. Detta är ett orimligt krav mot bakgrund av dagens krångliga
             skattesystem.
           </seg>
-        </u>
-        <u xml:id="i-QNShaUnYZk5VQmGtjqH1Ys" who="i-85VtituoXaBtWGEYWBeNQ8" prev="i-0e530b92aa0e08b3-0" next="i-UrieV238WEy3JhjaWNqBUx">
           <seg xml:id="i-CbdXq5UBGrzqSRwR5ZkLRN">
             Med anledning av det ovan anförda anhåller jag om att till finansministern
             få ställa följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-UrieV238WEy3JhjaWNqBUx" who="i-85VtituoXaBtWGEYWBeNQ8" prev="i-QNShaUnYZk5VQmGtjqH1Ys">
           <seg xml:id="i-GfmfsizBxXJcXf6emUggR5">
             Är finansministern beredd att ändra det nu ikraftträdande beslutet
             om avgift på fyllnadsinbetalningar fr.o.m. den 18 januari, så
@@ -1380,7 +1364,7 @@
           123 av Barbro Westerholm (fp) till justitieministern om sekretesslagstiftningen
           beträffande läkemedelsmissbruk:
         </note>
-        <u xml:id="i-89d7b6e4a8f59f66-0" who="i-L3xspgThUxUN1YtSDqcmk8" next="i-A9PwyCGmSZ3EovRuptkYkS">
+        <u xml:id="i-89d7b6e4a8f59f66-0" who="i-L3xspgThUxUN1YtSDqcmk8" next="i-9825c44cf504b5b9-10">
           <seg xml:id="i-7qRq6vKJPCMZg8oUnRcNYP">
             Riksdagen beställde hösten 1988 en översyn av sekretesslagen.
             Detta beslut var bl.a. föranlett av de hinder dagens sekretesslag
@@ -1388,13 +1372,9 @@
             kommer att sekretesslagstiftningen kan medföra att patienter onödigtvis
             utsätts för en och samma undersökning vid flera tillfällen.
           </seg>
-        </u>
-        <u xml:id="i-A9PwyCGmSZ3EovRuptkYkS" who="i-L3xspgThUxUN1YtSDqcmk8" prev="i-89d7b6e4a8f59f66-0" next="i-V9kFzgUaiTB95jEJFdBm5x">
           <seg xml:id="i-DKvpUseeG9jDAfpgc2hjR2">
             Min fråga till justitieministern är:
           </seg>
-        </u>
-        <u xml:id="i-V9kFzgUaiTB95jEJFdBm5x" who="i-L3xspgThUxUN1YtSDqcmk8" prev="i-A9PwyCGmSZ3EovRuptkYkS" next="i-9825c44cf504b5b9-10">
           <seg xml:id="i-VcoFnctd5T7N2DZVq7Fh5n">
             När avser regeringen lägga fram förslag till ändringar i sekretesslagen,
             så att man kan komma till rätta med dessa problem?
@@ -1404,7 +1384,7 @@
           1989/90:124 av Rune Rydén (m) till jordbruksministern om gynnande
           av närproducerade livsmedel:
         </note>
-        <u xml:id="i-9825c44cf504b5b9-10" who="i-L3xspgThUxUN1YtSDqcmk8" prev="i-V9kFzgUaiTB95jEJFdBm5x" next="i-781e66c7122225a2-1">
+        <u xml:id="i-9825c44cf504b5b9-10" who="i-L3xspgThUxUN1YtSDqcmk8" prev="i-89d7b6e4a8f59f66-0" next="i-781e66c7122225a2-1">
           <seg xml:id="i-UpygRGFHxFnTiqNn4D1h1K">
             I Lunds kommunfullmäktige har frågan om att gynna närproducerade
             livsmedel behandlats, vilket för övrigt överensstämmer med gjorda
@@ -1430,13 +1410,11 @@
           125 av Mona Saint Cyr (m) till jordbruksministern om dispens
           för skolkonsumtion av opastöriserad mjölk:
         </note>
-        <u xml:id="i-AA6KByjyLvsgdqYUQ7aW3v" who="i-VKBXGHy4KWJbExz3QgCuVy" next="i-9825c44cf504b5b9-11">
+        <u xml:id="i-AA6KByjyLvsgdqYUQ7aW3v" who="i-VKBXGHy4KWJbExz3QgCuVy">
           <seg xml:id="i-Kg3pdtVV7zwpW5owQNsuj">
             Statens livsmedelsverk har överlämnat ärendet om Dörrödsmjölken
             till regeringens avgörande.
           </seg>
-        </u>
-        <u xml:id="i-9825c44cf504b5b9-11" who="i-VKBXGHy4KWJbExz3QgCuVy" prev="i-AA6KByjyLvsgdqYUQ7aW3v">
           <seg xml:id="i-GFTwJVZHbKzHqrjWHTrXND">
             När kommer regeringen att ge besked? Föreligger möjligheter att
             Dörrödsmjölken kan ges dispens för skolkonsumtion såsom opastöriserad
@@ -1450,21 +1428,17 @@
           126 av Margit Gennser (m) till utbildningsministern om policyn
           vid professorstillsättningar:
         </note>
-        <u xml:id="i-91363120a372846a-0" who="i-KFLLBh5CxVpZkUZaHy3pAz" next="i-V67c84fvut1XdsYtjAFsvG">
+        <u xml:id="i-91363120a372846a-0" who="i-KFLLBh5CxVpZkUZaHy3pAz">
           <seg xml:id="i-WAB9sBNum6j4dwBTDRD1LG">
             Vid en professorstillsättning i Uppsala gick regeringen ifrån
             ett enhälligt sakkunnigförslag och utsåg en kvinnlig sökande som
             var sämre meriterad. Med anledning härav ställer jag följande
             frågor till statsrådet Göransson:
           </seg>
-        </u>
-        <u xml:id="i-V67c84fvut1XdsYtjAFsvG" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-91363120a372846a-0" next="i-26aabb896d1b5bc0-1">
           <seg xml:id="i-4SLZ58yGW4B5cHi1pBw9pw">
             1. Har regeringen i och med detta tillsättningsärende knäsatt
             en ny policy vid tillsättning av vetenskapliga tjänster?
           </seg>
-        </u>
-        <u xml:id="i-26aabb896d1b5bc0-1" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-V67c84fvut1XdsYtjAFsvG">
           <seg xml:id="i-4CTi1ho4ggrgnTYCGJbNtw">
             2. Om så är fallet, har regeringen lagt fast en policy hur man
             skall väga vetenskaplig kvalitet mot andra faktorer som i princip
@@ -1478,7 +1452,7 @@
           127 av Margit Gennser (m) till industriministern om det svenska
           näringsklimatet:
         </note>
-        <u xml:id="i-91363120a372846a-1" who="i-KFLLBh5CxVpZkUZaHy3pAz" next="i-G7LvCyfgVSJ9tHuesZH3wc">
+        <u xml:id="i-91363120a372846a-1" who="i-KFLLBh5CxVpZkUZaHy3pAz" next="i-9825c44cf504b5b9-12">
           <seg xml:id="i-NWvf7QxRNCDNav7Sp5aBcp">
             Under det senaste året har de svenska börsbolagen i växande utsträckning
             gjort sina framtidssatsningar utomlands. Den politska osäkerheten
@@ -1488,14 +1462,10 @@
             egentligen varit känt för de flesta insiktsfulla bedömare — Sverige
             uppvisar alltför många nackdelar för att attrahera framtidsinvesteringar.
           </seg>
-        </u>
-        <u xml:id="i-G7LvCyfgVSJ9tHuesZH3wc" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-91363120a372846a-1" next="i-Ed3EsjetVMf8hZieVGF4gg">
           <seg xml:id="i-Hx7f6eH6CZfgvHAcGKhKZf">
             Med anledning härav ber jag att få ställa följande fråga till
             statsrådet:
           </seg>
-        </u>
-        <u xml:id="i-Ed3EsjetVMf8hZieVGF4gg" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-G7LvCyfgVSJ9tHuesZH3wc" next="i-9825c44cf504b5b9-12">
           <seg xml:id="i-2vfZdaGjBHKUEkMio4cqYQ">
             Vilka åtgärder avser industriministern vidta för att återge Sverige
             ett positivt näringsklimat, eller anser statsrådet att förhållandena
@@ -1506,7 +1476,7 @@
           1989/90:128 av Jan-Olof Ragnarsson (vpk) till socialministern
           om åtgärder mot sociala orättvisor:
         </note>
-        <u xml:id="i-9825c44cf504b5b9-12" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-Ed3EsjetVMf8hZieVGF4gg" next="i-KQWhrPXdwG8gwj9Se5hH5D">
+        <u xml:id="i-9825c44cf504b5b9-12" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-91363120a372846a-1" next="i-KQWhrPXdwG8gwj9Se5hH5D">
           <seg xml:id="i-42pCqsL7BWkFrKYXR2FBmm">
             Trots en högkonjunktur som pågått i sju år och en kapitalbildning
             större än tidigare har vi fler socialbidragstagare än någonsin.
@@ -1536,12 +1506,10 @@
         <note xml:id="i-5oQkCMwHLSZvCgFEY6od39">
           16
         </note>
-        <u xml:id="i-KQWhrPXdwG8gwj9Se5hH5D" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-9825c44cf504b5b9-12" next="i-LeDmumNPWmkM6sHU7G57fU">
+        <u xml:id="i-KQWhrPXdwG8gwj9Se5hH5D" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-9825c44cf504b5b9-12" next="i-9825c44cf504b5b9-14">
           <seg xml:id="i-8oRTw7N28zryf7hEctaZ5e">
             Jag vill fråga Sven Hulterström:
           </seg>
-        </u>
-        <u xml:id="i-LeDmumNPWmkM6sHU7G57fU" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-KQWhrPXdwG8gwj9Se5hH5D" next="i-9825c44cf504b5b9-14">
           <seg xml:id="i-U6rmtF17TAd6ET66HYY68L">
             Tänker regeringen göra något åt de i landet växande ekonomiska
             klyftorna som ger upphov till så många sociala orättvisor och
@@ -1552,7 +1520,7 @@
           1989/90:129 av Margöé Ingvardsson (vpk) till socialministern
           om åtgärder mot spridning av klamydiasmitta:
         </note>
-        <u xml:id="i-9825c44cf504b5b9-14" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-LeDmumNPWmkM6sHU7G57fU" next="i-MMh4PKQgVwxCP6FSwE46G1">
+        <u xml:id="i-9825c44cf504b5b9-14" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-KQWhrPXdwG8gwj9Se5hH5D" next="i-9825c44cf504b5b9-15">
           <seg xml:id="i-MXcDJWUS1mT5qknaKpwwx4">
             Klamydia kan betraktas som en folksjukdom. I Sverige pågår en
             epidemi. Av en halv miljon prover visade sig ca 40 000 vara positiva.
@@ -1560,13 +1528,9 @@
             infektion kan få framtida konsekvenser, eftersom den leder till
             prostataoch äggledarinflammationer, med konsekvenser för fruktsamheten.
           </seg>
-        </u>
-        <u xml:id="i-MMh4PKQgVwxCP6FSwE46G1" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-9825c44cf504b5b9-14" next="i-WDNu2oLRMx1HBywMWGwABe">
           <seg xml:id="i-HXAD4vZU9GAnEA7EGJXy8h">
             Med stöd av ovanstående vill jag fråga Sven Hulterström:
           </seg>
-        </u>
-        <u xml:id="i-WDNu2oLRMx1HBywMWGwABe" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-MMh4PKQgVwxCP6FSwE46G1" next="i-9825c44cf504b5b9-15">
           <seg xml:id="i-CqxZZrKV9mWyjikNH1pUR3">
             Kommer regeringen att göra något för att stoppa den pågående
             klamydiaepidemin?
@@ -1576,7 +1540,7 @@
           1989/90:130 av Gudrun Schyman (vpk) till finansministern om följderna
           för konstnärer m.fl. av skattereformen:
         </note>
-        <u xml:id="i-9825c44cf504b5b9-15" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-WDNu2oLRMx1HBywMWGwABe" next="i-3RHCfSWSuAF5kCw4Dzu2f9">
+        <u xml:id="i-9825c44cf504b5b9-15" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-9825c44cf504b5b9-14">
           <seg xml:id="i-Sdnj5C4WXZoXC2VJe7SVKq">
             Det nu föreslagna skattesystemet innefattar en rad förändringar
             som kommer att slå hårt mot konstnärer, författare, tonsättare
@@ -1584,13 +1548,9 @@
             på alla stipendier och att alla inkomster skall beskattas samma
             år som de betalas ut.
           </seg>
-        </u>
-        <u xml:id="i-3RHCfSWSuAF5kCw4Dzu2f9" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-9825c44cf504b5b9-15" next="i-KGQi3sM5qJukAb4ZXbCV5H">
           <seg xml:id="i-PA9einX1gjSiuy8F1z7Va9">
             Mot bakgrund av ovanstående vill jag ställa följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-KGQi3sM5qJukAb4ZXbCV5H" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-3RHCfSWSuAF5kCw4Dzu2f9">
           <seg xml:id="i-XG8KSd8k1Q7JiWjE7dVSe5">
             Avser finansministern att undanta ovanstående yrkesgrupper från
             skatteförslaget?
@@ -1602,7 +1562,7 @@
         <note xml:id="i-3UoBaz2nCczeVR2VhZxa4q" type="speaker">
           131 av Olle Östrand (s) till socialministern om luftburna sjuktransporter:
         </note>
-        <u xml:id="i-G9WRxsUQu8rgXefGC1ZPcT" who="i-5EdJCmuTNZWXW2ejgrVXUt" next="i-9825c44cf504b5b9-16">
+        <u xml:id="i-G9WRxsUQu8rgXefGC1ZPcT" who="i-5EdJCmuTNZWXW2ejgrVXUt" next="i-BSAxrk18ZQP1HRD1e2DQRK">
           <seg xml:id="i-GB1caFMiTFBHNmy7CnCd3U">
             Frågan om luftburna sjuktransporter har behandlats av riksdagen
             under lång tid och vid flera tillfällen. Första gången behandlades
@@ -1612,8 +1572,6 @@
             att frågan om luftburna sjuktransporter måste föras fram till
             en lösning.
           </seg>
-        </u>
-        <u xml:id="i-9825c44cf504b5b9-16" who="i-5EdJCmuTNZWXW2ejgrVXUt" prev="i-G9WRxsUQu8rgXefGC1ZPcT" next="i-Rxw4Db3TBjycGBGgTtQHiM">
           <seg xml:id="i-ToUcCdThiYmkp2LH5BGMdF">
             Jag har som motionär vid flera tillfällen givit uttryck för samma
             uppfattning. I en fråga till dåvarande socialministern i januari
@@ -1627,21 +1585,17 @@
             vår finns goda skäl anta att riksdagen snarast skall erhålla ett
             förslag i ärendet.
           </seg>
-        </u>
-        <u xml:id="i-Rxw4Db3TBjycGBGgTtQHiM" who="i-5EdJCmuTNZWXW2ejgrVXUt" prev="i-9825c44cf504b5b9-16" next="i-EzoGCxrtr8qSivAKE4421E">
           <seg xml:id="i-99rL3EJkZivQQFi7X7QEPS">
             Med hänvisning till det ovan anförda vill jag ställa följande
             fråga till socialministern:
           </seg>
-        </u>
-        <u xml:id="i-EzoGCxrtr8qSivAKE4421E" who="i-5EdJCmuTNZWXW2ejgrVXUt" prev="i-Rxw4Db3TBjycGBGgTtQHiM" next="i-BSAxrk18ZQP1HRD1e2DQRK">
           <seg xml:id="i-WTghBZHcSxstFA9zvBoH7R">
             När ämnar regeringen villfara riksdagens två gånger framförda
             propå om
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--14/prot_198990__14-016.jp2/_view"/>
-        <u xml:id="i-BSAxrk18ZQP1HRD1e2DQRK" who="i-5EdJCmuTNZWXW2ejgrVXUt" prev="i-EzoGCxrtr8qSivAKE4421E">
+        <u xml:id="i-BSAxrk18ZQP1HRD1e2DQRK" who="i-5EdJCmuTNZWXW2ejgrVXUt" prev="i-G9WRxsUQu8rgXefGC1ZPcT">
           <seg xml:id="i-CjvpEA285nQWdNyScU3cy3">
             att lösa frågan om huvudmannaskapet m.m. avseende luftburna sjuktransporter?
           </seg>
@@ -1693,14 +1647,12 @@
           133 av Per Gahrton (mp) till finansministern om följderna av
           en anpassning till EG:
         </note>
-        <u xml:id="i-Da5Y23WCFWH9LwxwNCq3k3" who="i-EF4gEp1CrEwnV5AnkFU4P2" next="i-4UTVJYEE7fYzcfyfR9JYG8">
+        <u xml:id="i-Da5Y23WCFWH9LwxwNCq3k3" who="i-EF4gEp1CrEwnV5AnkFU4P2" next="i-9825c44cf504b5b9-17">
           <seg xml:id="i-8HP6wozDD5kL6twXLeWXkw">
             På 17-årsdagen av den danska folkomröstningen om EG-inträde publicerade
             tidningen Politiken en förödande summering. Från 1972 till 1989
             har
           </seg>
-        </u>
-        <u xml:id="i-4UTVJYEE7fYzcfyfR9JYG8" who="i-EF4gEp1CrEwnV5AnkFU4P2" prev="i-Da5Y23WCFWH9LwxwNCq3k3" next="i-9825c44cf504b5b9-17">
           <seg xml:id="i-MoajkUkbDUKDmBxisfDFSQ">
             a) utlandsskulden fyrdubblats från 11 till 41 90 av BNP,
           </seg>
@@ -1709,7 +1661,7 @@
           b) räntebetalningarna till utlandet fyrtiodubblats från 0,8 till
           30 miljarder kronor/år,
         </note>
-        <u xml:id="i-9825c44cf504b5b9-17" who="i-EF4gEp1CrEwnV5AnkFU4P2" prev="i-4UTVJYEE7fYzcfyfR9JYG8" next="i-2AEmXW9G7RS9YfqpCuzbSX">
+        <u xml:id="i-9825c44cf504b5b9-17" who="i-EF4gEp1CrEwnV5AnkFU4P2" prev="i-Da5Y23WCFWH9LwxwNCq3k3" next="i-a5d719c398157df6-3">
           <seg xml:id="i-Vu1fui6eXGebuzRepTppBe">
             c) arbetslösheten tiodubblats från 30 000 till nästan 300 000
             arbetslösa.
@@ -1720,13 +1672,9 @@
             ”pressats i botten”. Och andelen av dansk industriexport som går
             till EG har sjunkit!
           </seg>
-        </u>
-        <u xml:id="i-2AEmXW9G7RS9YfqpCuzbSX" who="i-EF4gEp1CrEwnV5AnkFU4P2" prev="i-9825c44cf504b5b9-17" next="i-3EBYBdkJkEWeewhNG5qkxC">
           <seg xml:id="i-HbQCT5v1rCVamUzXbJ4C7u">
             Mot denna bakgrund vill jag fråga finansministern:
           </seg>
-        </u>
-        <u xml:id="i-3EBYBdkJkEWeewhNG5qkxC" who="i-EF4gEp1CrEwnV5AnkFU4P2" prev="i-2AEmXW9G7RS9YfqpCuzbSX" next="i-a5d719c398157df6-3">
           <seg xml:id="i-5WReziMuZQh4Q8DiPY6WmC">
             Finns det några tillförlitliga sakskäl, dvs. undersökningar av
             en annan kvalitet än de lögnaktiga paradisskildringar av EG som
@@ -1759,7 +1707,7 @@
           för riksdagen att överlämna beslutsbefogenheter till mellanfolklig
           organisation i samband med anpassning till EG:
         </note>
-        <u xml:id="i-a5d719c398157df6-3" who="i-EF4gEp1CrEwnV5AnkFU4P2" prev="i-3EBYBdkJkEWeewhNG5qkxC" next="i-7fCNZjLaXGSefBzHkGrvGx">
+        <u xml:id="i-a5d719c398157df6-3" who="i-EF4gEp1CrEwnV5AnkFU4P2" prev="i-9825c44cf504b5b9-17">
           <seg xml:id="i-M4ruQkeNGbaAggg1YZ5PvC">
             Enligt grundlagen (RF 10 kap, 5$) kan riksdagen överlämna beslutsbefogenheter
             endast ”i begränsad omfattning” till ”mellanfolklig organisation
@@ -1775,8 +1723,6 @@
             ”självständigt” döma på samma sätt! Eftersom grundlagen här ställer
             upp definitiva hinder vill jag fråga justitieministern:
           </seg>
-        </u>
-        <u xml:id="i-7fCNZjLaXGSefBzHkGrvGx" who="i-EF4gEp1CrEwnV5AnkFU4P2" prev="i-a5d719c398157df6-3">
           <seg xml:id="i-Qj6tzVB4NB2RPmuFh2pUVv">
             Pågår arbete på att förändra regeringsformen i syfte att möjliggöra
             överlåtande av svensk beslutsrätt till överstatliga organ eller
@@ -1790,7 +1736,7 @@
           135 av Per Gahrton (mp) till statsrådet Margot Wallström om produktsäkerhetsnormer
           vid anpassning till EG:
         </note>
-        <u xml:id="i-a5d719c398157df6-5" who="i-EF4gEp1CrEwnV5AnkFU4P2" next="i-D9vbcFLTdDo3x3R4V56Nh6">
+        <u xml:id="i-a5d719c398157df6-5" who="i-EF4gEp1CrEwnV5AnkFU4P2">
           <seg xml:id="i-SZSzMCAwT26ZWonwA8hosi">
             I en skrivelse til miljöoch energidepartementet den 14 september
             1989 har energiverkets generaldirektör Hans Rode varnat för att
@@ -1805,13 +1751,9 @@
             ej kan släppa på de säkerhetskrav som vi i Sverige under lång
             tid tagit fram avseende olika produktslag”.
           </seg>
-        </u>
-        <u xml:id="i-D9vbcFLTdDo3x3R4V56Nh6" who="i-EF4gEp1CrEwnV5AnkFU4P2" prev="i-a5d719c398157df6-5" next="i-Q4E4JDfrwFdX81Y3jZTibb">
           <seg xml:id="i-FkoyVDfkPwskxM5skAxtx1">
             Jag vill fråga statsrådet:
           </seg>
-        </u>
-        <u xml:id="i-Q4E4JDfrwFdX81Y3jZTibb" who="i-EF4gEp1CrEwnV5AnkFU4P2" prev="i-D9vbcFLTdDo3x3R4V56Nh6">
           <seg xml:id="i-YWDkoXPbQ5nPWCVPzbjgrZ">
             Delar statsrådet energiverkschefens uppfattning att det vore
             negativt för produktsäkerheten om Sverige tvingas underordna sig
@@ -1841,21 +1783,17 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--14/prot_198990__14-018.jp2/_view"/>
-        <u xml:id="i-1e5267f3b3eafc07-2" who="i-DZnrxW2kSEVtagNyHZpyyH" prev="i-1e5267f3b3eafc07-1" next="i-QnbjWymcABPk6igGw7sCMu">
+        <u xml:id="i-1e5267f3b3eafc07-2" who="i-DZnrxW2kSEVtagNyHZpyyH" prev="i-1e5267f3b3eafc07-1">
           <seg xml:id="i-HAfbUeppuZwh2b6pUPcQUm">
             riöst arbete. Utskottet förutsatte att alternativmedicinkommittén
             (AMK) skulle återkomma med en noggrann genomlysning av naprapaternas
             verksamhet. Men någon sådan redovisning kommer uppenbarligen inte
             att lämnas i det slutbetänkande som AMK lägger fram denna månad.
           </seg>
-        </u>
-        <u xml:id="i-QnbjWymcABPk6igGw7sCMu" who="i-DZnrxW2kSEVtagNyHZpyyH" prev="i-1e5267f3b3eafc07-2" next="i-4JXMTBXvRjNSW9FPWvBpxL">
           <seg xml:id="i-Uk7cX7Pxxnt631Qzg2TNPs">
             Mot bakgrund av riksdagens tillkännagivande till regeringen vill
             jag fråga:
           </seg>
-        </u>
-        <u xml:id="i-4JXMTBXvRjNSW9FPWvBpxL" who="i-DZnrxW2kSEVtagNyHZpyyH" prev="i-QnbjWymcABPk6igGw7sCMu">
           <seg xml:id="i-DLSBKfiaiwLvbDWb6VKBax">
             Är socialministern beredd att medverka till att ta fram ett sådant
             underlag för bedömning av naprapaternas verksamhet att frågan

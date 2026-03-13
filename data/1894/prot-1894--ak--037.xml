@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-6nWorFHutJWknqT8cPGxBS" type="speech">
             <linkGrp type="u">
               <ptr target="#i-NSH6i2hMPyQoWkaYpEjdPz"/>
@@ -91,7 +91,13 @@
               <ptr target="#i-KFHxfZw6QNxpU6eVgwavfS"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -359,7 +365,7 @@
         <note xml:id="i-3QJ4488SunjGru3UuSY6YQ" type="speaker">
           Herr Forsell:
         </note>
-        <u xml:id="i-5vrGPe1Zyi44FFrS5cruQc" who="i-E8TiwWqfaYd3F9AxYvGujx" next="i-CQQk1DZzh5pbAbz7UxRMFG">
+        <u xml:id="i-5vrGPe1Zyi44FFrS5cruQc" who="i-E8TiwWqfaYd3F9AxYvGujx">
           <seg xml:id="i-9BVrS6w6KjLtTs6fd38m72">
             För min del vill jag instämma i det förslag, som herr Ljungman
             framstälde, nemligen att bevillningsutskottets betänkande n:o
@@ -370,8 +376,6 @@
             beskaffenhet, att hvarje ökad tid man kan få för läsningen deraf
             är en vinst.
           </seg>
-        </u>
-        <u xml:id="i-CQQk1DZzh5pbAbz7UxRMFG" who="i-E8TiwWqfaYd3F9AxYvGujx" prev="i-5vrGPe1Zyi44FFrS5cruQc">
           <seg xml:id="i-4G7rm2os5ujdPM33E8wS2D">
             Jag instämmer som sagdt i det yrkande, som herr Ljungman framstälde.
             ä
@@ -380,7 +384,7 @@
         <note xml:id="i-MXh12Cb1Yb1UNsXCKHvBQo" type="speaker">
           Herr Ljungman:
         </note>
-        <u xml:id="i-Ui9M6gNMbkMrdMad1eE17z" who="i-N3Bh5ViRWqhFm6dVGLEieJ" next="i-CiUjSwDXpt2BxxE2i7HprL">
+        <u xml:id="i-Ui9M6gNMbkMrdMad1eE17z" who="i-N3Bh5ViRWqhFm6dVGLEieJ">
           <seg xml:id="i-CqsDekjcy3ud59DLfNeTav">
             Till de skäl, herr Forsell nyss anförde, skall jag be att få
             tillägga, att det dock icke är en så synnerligen stor fördel att
@@ -390,8 +394,6 @@
             att åhöra diskussionen i medkammaren, hvilket ju kan vara till
             icke obetydlig nytta. ,
           </seg>
-        </u>
-        <u xml:id="i-CiUjSwDXpt2BxxE2i7HprL" who="i-N3Bh5ViRWqhFm6dVGLEieJ" prev="i-Ui9M6gNMbkMrdMad1eE17z">
           <seg xml:id="i-Jj1vEcbGf1ruXwFLLNy2s6">
             Jag vidhåller derför mitt yrkande.
           </seg>
@@ -413,14 +415,12 @@
         <note xml:id="i-2ePxNB9HkgxqaUVUiF3ov9" type="speaker">
           Herr vice talmannen Danielson:
         </note>
-        <u xml:id="i-3bA3vwvNfvwTDNtmZNnuZw" who="i-XEaguj6e5odu6YoYQ7mu5L" next="i-BbqBhZp9UDYgZFUdepnf3N">
+        <u xml:id="i-3bA3vwvNfvwTDNtmZNnuZw" who="i-XEaguj6e5odu6YoYQ7mu5L">
           <seg xml:id="i-KKvPLC8AuH4HQiUkrCpzvV">
             Det är visserligen sant, att man i talmanskonferensen haft öfverläggning
             om föredragningsordningen, men icke har man precis sagt, att föredragningen
             skulle gå i den ordning, som här föreslagits.
           </seg>
-        </u>
-        <u xml:id="i-BbqBhZp9UDYgZFUdepnf3N" who="i-XEaguj6e5odu6YoYQ7mu5L" prev="i-3bA3vwvNfvwTDNtmZNnuZw" next="i-XuZHhvhFJgxSTZEtJnq4XD">
           <seg xml:id="i-5pwaMZioau1eY3T1qf4VbR">
             Jag får för min del säga, att skall det syfte uppnås, som med
             herr Ljungmans förslag afses, vore det lämpligare att sätta bevillningsutskottets
@@ -430,8 +430,6 @@
             att Riksdagen skall vara fullt upptagen af öfriga ärenden, som
             stå på föredragningslistan.
           </seg>
-        </u>
-        <u xml:id="i-XuZHhvhFJgxSTZEtJnq4XD" who="i-XEaguj6e5odu6YoYQ7mu5L" prev="i-BbqBhZp9UDYgZFUdepnf3N">
           <seg xml:id="i-3wuA4bkLkfyax7mCpnT4uL">
             Jag föreslår derför, att kammaren rent af beslutar att sätta
             bevillningsutskottets betänkande n:o 17 främst bland två gånger

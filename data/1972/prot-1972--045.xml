@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-LLDVsJ8yegJDqrURXcnM3p" type="speech">
             <linkGrp type="u">
               <ptr target="#i-Qh7C8m5nnDq9zKPE14FDiY"/>
@@ -533,7 +533,13 @@
               <ptr target="#i-89fc9cb1895a979c-17"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -806,7 +812,7 @@
         <note xml:id="i-Vm9fctWbtFBGbVP5cyrjPQ" type="speaker">
           Herr LARSSON i Luttra (c), som yttrade:
         </note>
-        <u xml:id="i-Qh7C8m5nnDq9zKPE14FDiY" who="i-BHdk6r4gSueHaCjF4xQ9BW" next="i-3UWKnCBeuQ3wdRXGzvHLGx">
+        <u xml:id="i-Qh7C8m5nnDq9zKPE14FDiY" who="i-BHdk6r4gSueHaCjF4xQ9BW">
           <seg xml:id="i-X3QprHbq8Y8ZQ8AadBBoib">
             Herr talman! Kammaren valde den 15 mars 1972 dittillsvarande
             ställföreträdaren för riksdagens ombudsmän Bertil Wennergren till
@@ -815,16 +821,12 @@
             efter Wennergren. Samråd har därvid ägt rum med de av kammaren
             valda ledamöterna i talmanskonferensen.
           </seg>
-        </u>
-        <u xml:id="i-3UWKnCBeuQ3wdRXGzvHLGx" who="i-BHdk6r4gSueHaCjF4xQ9BW" prev="i-Qh7C8m5nnDq9zKPE14FDiY" next="i-8eALhQjc58H4w1JtA5b76N">
           <seg xml:id="i-4quqneXNkTE4f3zyRM59up">
             JO-delegationen föreslår enhälligt att riksdagen för tiden från
             valet till dess nytt val skett under fjärde året därefter till
             ställföreträdare för riksdagens ombudsmän väljer rådmannen Tor
             Sverne.
           </seg>
-        </u>
-        <u xml:id="i-8eALhQjc58H4w1JtA5b76N" who="i-BHdk6r4gSueHaCjF4xQ9BW" prev="i-3UWKnCBeuQ3wdRXGzvHLGx">
           <seg xml:id="i-LtGUdmu6sjaCrCEGgd7hEV">
             Herr talman! Jag hemställer att valet förrättas med acklamation.
           </seg>
@@ -851,23 +853,19 @@
         <note xml:id="i-FzJL6ZhtfpX2UrdNoKovUN" type="speaker">
           Herr TALMANNEN yttrade:
         </note>
-        <u xml:id="i-UXs3STYG9WAo7P7NbpSn28" who="i-Kv4hUGrgspgE3ZEpZrgHtZ" next="i-M7TUmvJmRHSGMiQDvDMqGN">
+        <u xml:id="i-UXs3STYG9WAo7P7NbpSn28" who="i-Kv4hUGrgspgE3ZEpZrgHtZ" next="i-8f3aa34d8cbccdec-4">
           <seg xml:id="i-PsTGHa7bCPHhQMokfH1S31">
             Såsom tidigare meddelats blir det ofrånkomligt att under den
             första veckan efter påskuppehållet anordna tre arbetsplena, onsdagen
             den 5 april kl. 10.00, torsdagen den 6 april kl. 13.00 och fredagen
             den 7 april kl. 10.00.
           </seg>
-        </u>
-        <u xml:id="i-M7TUmvJmRHSGMiQDvDMqGN" who="i-Kv4hUGrgspgE3ZEpZrgHtZ" prev="i-UXs3STYG9WAo7P7NbpSn28" next="i-8f3aa34d8cbccdec-2">
           <seg xml:id="i-GmGw8VUmHTT3K6uBUN7Ctt">
             Den ärendeplan som framlades i februari avsåg behandling i kammaren
             av utskottsbetänkanden under tiden t. o. m. den 7 april. En motsvarande
             plan för återstoden av vårsessionen beräknas kunna framläggas
             tisdagen den 11 april.
           </seg>
-        </u>
-        <u xml:id="i-8f3aa34d8cbccdec-2" who="i-Kv4hUGrgspgE3ZEpZrgHtZ" prev="i-M7TUmvJmRHSGMiQDvDMqGN" next="i-8f3aa34d8cbccdec-4">
           <seg xml:id="i-167PevMZLzp518uWsDjw3f">
             Åtskilliga av de i februariplanen upptagna ärendena har inte
             hunnit behandlas vid beräknad tidpunkt. Antalet nytillkommande
@@ -899,7 +897,7 @@
         <note xml:id="i-TLASbQd8iDD5bMzHYpzKT5">
           50
         </note>
-        <u xml:id="i-8f3aa34d8cbccdec-4" who="i-Kv4hUGrgspgE3ZEpZrgHtZ" prev="i-8f3aa34d8cbccdec-2">
+        <u xml:id="i-8f3aa34d8cbccdec-4" who="i-Kv4hUGrgspgE3ZEpZrgHtZ" prev="i-UXs3STYG9WAo7P7NbpSn28">
           <seg xml:id="i-NBWJceHT9ii4mtN14jRPT">
             påsk kommer att kräva att fredagarna i stor utsträckning tas
             i anspråk för kammardebatter.
@@ -2780,13 +2778,11 @@
         <note xml:id="i-GMMRVKxRHAHLsWNW5RaFLD">
           72
         </note>
-        <u xml:id="i-VHiwDVUxJp32uzaDjbsvJv" who="i-8743Lhyk8SSNk8Ne84jigz" prev="i-e5c3b861227af270-2" next="i-XA9xR7rckdrHuW9a8zsCMf">
+        <u xml:id="i-VHiwDVUxJp32uzaDjbsvJv" who="i-8743Lhyk8SSNk8Ne84jigz" prev="i-e5c3b861227af270-2" next="i-e5c3b861227af270-4">
           <seg xml:id="i-N7j1ePB8Hfqt4wFSVVTozK">
             grupper, dvs. mellan kapitalister och arbetare, mellan högre
             tjänstemannaskikt och arbetare samt med dem jämställda.
           </seg>
-        </u>
-        <u xml:id="i-XA9xR7rckdrHuW9a8zsCMf" who="i-8743Lhyk8SSNk8Ne84jigz" prev="i-VHiwDVUxJp32uzaDjbsvJv" next="i-e5c3b861227af270-4">
           <seg xml:id="i-Dha9N3nnMQzUurNEBH3CUy">
             För det andra: Inkomstöverföringar mellan olika befolkningsgrupper
             inom samma samhällsklass — mellan ogifta och gifta, mellan barnlösa
@@ -2854,7 +2850,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1972--45/prot_1972__45-029.jp2/_view"/>
-        <u xml:id="i-e5c3b861227af270-4" who="i-8743Lhyk8SSNk8Ne84jigz" prev="i-XA9xR7rckdrHuW9a8zsCMf">
+        <u xml:id="i-e5c3b861227af270-4" who="i-8743Lhyk8SSNk8Ne84jigz" prev="i-VHiwDVUxJp32uzaDjbsvJv">
           <seg xml:id="i-DugDmKndJdVmWdmghwaR6D">
             del av de nuvarande sociala problemen har sin upprinnelse. Den
             kraftiga inflyttningen till tätorterna har medfört svårlösta bostadsproblem.
@@ -6850,7 +6846,7 @@
         <note xml:id="i-8LQUtDrMEApj39amwuNvtQ" type="speaker">
           Herr GUSTAVSSON i Alvesta (c):
         </note>
-        <u xml:id="i-8f3aa34d8cbccdec-8" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" next="i-6kN82VJ6Pf6tKvm1d6FFMD">
+        <u xml:id="i-8f3aa34d8cbccdec-8" who="i-Y2s3vw3xfBnmDmMhCYX6QJ">
           <seg xml:id="i-RKobLqvwNT2yithk6Y314A">
             Herr talman! Vid punkten 2, allmänna barnbidrag, finns en reservation,
             som jag tillsammans med övriga centeroch folkpartiledamöter i
@@ -6871,8 +6867,6 @@
             haft denna fråga uppe i debatten och jag ber, herr talman, att
             få yrka bifall till reservationen 3.
           </seg>
-        </u>
-        <u xml:id="i-6kN82VJ6Pf6tKvm1d6FFMD" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-8f3aa34d8cbccdec-8">
           <seg xml:id="i-XuinoPZX9teo4pC93v8MGn">
             Under förutsättning att den reservationen vinner kammarens anslutning,
             yrkar jag bifall också till reservationen 5 under samma punkt.
@@ -7009,7 +7003,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1972--45/prot_1972__45-077.jp2/_view"/>
-        <u xml:id="i-8f3aa34d8cbccdec-12" who="i-ipmkmecEtBhFX95RnPetM" prev="i-8f3aa34d8cbccdec-11" next="i-LD386hmXYSdiX2HViNhESX">
+        <u xml:id="i-8f3aa34d8cbccdec-12" who="i-ipmkmecEtBhFX95RnPetM" prev="i-8f3aa34d8cbccdec-11">
           <seg xml:id="i-WxPfTrjfqVhSHLAD9s3ucm">
             Jag menar alltså, herr talman, att även om en reellt tvingande
             verklighet styr utvecklingen över kommande familjepolitiska insatser
@@ -7022,14 +7016,10 @@
             ha genomförts. Det faller emellertid på sin egen orimlighet, och
             det gör också, tycker jag, utskottets avslagsyrkande på vår motion.
           </seg>
-        </u>
-        <u xml:id="i-LD386hmXYSdiX2HViNhESX" who="i-ipmkmecEtBhFX95RnPetM" prev="i-8f3aa34d8cbccdec-12" next="i-8f3aa34d8cbccdec-13">
           <seg xml:id="i-Dvn8TUyc4rLGP2CrqWepRe">
             Jag vill med detta, herr talman, yrka bifall till reservationen
             1 i socialutskottets betänkande nr 5.
           </seg>
-        </u>
-        <u xml:id="i-8f3aa34d8cbccdec-13" who="i-ipmkmecEtBhFX95RnPetM" prev="i-LD386hmXYSdiX2HViNhESX">
           <seg xml:id="i-EnhkoENKB5AZ7g9rMvTRvq">
             Herr talman! Jag skall även i korthet gå in på det område för
             stöd åt barnfamiljerna, som jag i det sagda delvis varit inne
@@ -7195,15 +7185,13 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1972--45/prot_1972__45-079.jp2/_view"/>
-        <u xml:id="i-8f3aa34d8cbccdec-16" who="i-8DX2HEsXGBiY7R9ZYRTmeN" prev="i-8f3aa34d8cbccdec-15" next="i-SRhviRt7vyxwy643ZMnE1r">
+        <u xml:id="i-8f3aa34d8cbccdec-16" who="i-8DX2HEsXGBiY7R9ZYRTmeN" prev="i-8f3aa34d8cbccdec-15">
           <seg xml:id="i-PB6w3LEYNyscoGC68bWrHg">
             till barn som vistas på de statliga specialskolorna för synoch
             hörselskadade får behålla barnbidraget hela året. Vi förutsätter
             att familjepolitiska kommittén, som enligt utskottet arbetar också
             med denna fråga, kommer med ett positivt förslag.
           </seg>
-        </u>
-        <u xml:id="i-SRhviRt7vyxwy643ZMnE1r" who="i-8DX2HEsXGBiY7R9ZYRTmeN" prev="i-8f3aa34d8cbccdec-16">
           <seg xml:id="i-AvA7xBPF3J3aZz1obwmPQE">
             Jag har alltså, herr talman, inget annat yrkande än om bifall
             till utskottets hemställan under punkten 2.
@@ -7878,7 +7866,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1972--45/prot_1972__45-087.jp2/_view"/>
-        <u xml:id="i-44309a30ade42b22-27" who="i-Bx9fbNBh4ybH7H2kWavRdb" prev="i-44309a30ade42b22-26" next="i-Af4N5jzR84ybtc3TWvzH4q">
+        <u xml:id="i-44309a30ade42b22-27" who="i-Bx9fbNBh4ybH7H2kWavRdb" prev="i-44309a30ade42b22-26">
           <seg xml:id="i-SUSA1EXUxZtZWoZJUW5ruz">
             Jag tycker att det är utmärkt, detta som hände i höstas. Det
             gjordes klart att man inte bara kan hänvisa till utredningar när
@@ -7905,8 +7893,6 @@
             — med de kostnader och de allmänna ekonomiska bekymmer som man
             har.
           </seg>
-        </u>
-        <u xml:id="i-Af4N5jzR84ybtc3TWvzH4q" who="i-Bx9fbNBh4ybH7H2kWavRdb" prev="i-44309a30ade42b22-27">
           <seg xml:id="i-3LwfiCjfkRdTsqL2YxovBW">
             Herr talman! Jag yrkar bifall till reservationerna 6, 8 och 9.
           </seg>
@@ -8797,7 +8783,7 @@
         <note xml:id="i-XBAfzoAj2NjY4pTH3KVXRo">
           142
         </note>
-        <u xml:id="i-f2700ee8a325a569-9" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-f2700ee8a325a569-6" next="i-8TRMD9SRS7xZqJB9o9mzeP">
+        <u xml:id="i-f2700ee8a325a569-9" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-f2700ee8a325a569-6">
           <seg xml:id="i-Wp8SWpMCZQvgwVYg4yjMoC">
             och onödigt att tillfredsställa glesbygdsbarnens behov av en
             allmän förskola. Man har sagt att glesbygdskommunerna, kommuner
@@ -8832,8 +8818,6 @@
             som måste få ta en del av våra ekonomiska resurser i anspråk.
             Vi får inte inför detta stoppa kraven på en hög kvalitet på barntillsynen.
           </seg>
-        </u>
-        <u xml:id="i-8TRMD9SRS7xZqJB9o9mzeP" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-f2700ee8a325a569-9">
           <seg xml:id="i-EiToBS7Rzcqrp4DYpXQjFH">
             Med detta, herr talman, yrkar jag bifall till reservationen 7
             vid punkt &amp;
@@ -8871,7 +8855,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1972--45/prot_1972__45-099.jp2/_view"/>
-        <u xml:id="i-f2700ee8a325a569-11" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-eda11a805818357e-1" next="i-vwp21NQJU1Dgm65iMpP7d">
+        <u xml:id="i-f2700ee8a325a569-11" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-eda11a805818357e-1" next="i-f2700ee8a325a569-13">
           <seg xml:id="i-8cZ5vhzmqr29rAHZKGCGoL">
             Jag använder mig då av det platsantal som finns på barnstugor,
             i Nr45
@@ -8882,15 +8866,11 @@
             par tre timmar om 22 mars 1972 dagen i lekskola, eftersom den
             vistelsen inte löser tillsynsproblemet för
           </seg>
-        </u>
-        <u xml:id="i-vwp21NQJU1Dgm65iMpP7d" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-f2700ee8a325a569-11" next="i-HX9gApxj32SioDaVER8xCe">
           <seg xml:id="i-5TebBJ3Hnj3oDq8CVXpb4v">
             föräldrar som vill förvärvsarbeta. Bidrag till driften Samhället
             har inte ordnat med tillsynsplatser så att det ens räcker till
             — 2 barnstugor, m.m.
           </seg>
-        </u>
-        <u xml:id="i-HX9gApxj32SioDaVER8xCe" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-vwp21NQJU1Dgm65iMpP7d" next="i-f2700ee8a325a569-13">
           <seg xml:id="i-4W4xg29BJJv7CKctbLSYu1">
             ensam föräldrarna. Hur är då tillsynen ordnad för övriga nära
             300 000? Många gånger är det provisorier, som sliter på både barn
@@ -8964,7 +8944,7 @@
         <note xml:id="i-XppbA17wo76JB1hYpV7J6X">
           144
         </note>
-        <u xml:id="i-f2700ee8a325a569-13" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-HX9gApxj32SioDaVER8xCe" next="i-Y6tZwo9eME4Xhpbey1t2ZK">
+        <u xml:id="i-f2700ee8a325a569-13" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-f2700ee8a325a569-11">
           <seg xml:id="i-CFrqJreXgFmpJT1yz4R51i">
             sista resten av finskolan. Men är vi nu överens, hoppas jag att
             vi också inom en relativt nära framtid skall kunna få beslut om
@@ -8977,8 +8957,6 @@
             barn med förskolan måste vi — det vill jag redan nu säga inför
             det framtida beslut som vi skall ta — göra förskolan obligatorisk.
           </seg>
-        </u>
-        <u xml:id="i-Y6tZwo9eME4Xhpbey1t2ZK" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-f2700ee8a325a569-13">
           <seg xml:id="i-RRb2y6FJZzVmNw8zvbVeMq">
             Herr talman! Jag yrkar bifall till reservationerna 8 och 9.
           </seg>
@@ -9089,7 +9067,7 @@
         <note xml:id="i-QoRb3HFfrmMeppgAeubcKP" type="speaker">
           Herr ÅKERLIND (m):
         </note>
-        <u xml:id="i-52d4850c02cbe5a5-0" who="i-GLHYq1jMQHCT1zXejYWV8x" next="i-DETqmigHTAq22k7g13tCpt">
+        <u xml:id="i-52d4850c02cbe5a5-0" who="i-GLHYq1jMQHCT1zXejYWV8x">
           <seg xml:id="i-VKmZFrNwKhA8mSXvBkwQHT">
             Herr talman! Fru Sigurdsen uttryckte sin förvåning över att de
             borgerliga partierna i höstas var ense om att man skulle höja
@@ -9118,8 +9096,6 @@
             för bidrag till kommunerna just för att skapa bättre rättvisa
             mellan kommunerna.
           </seg>
-        </u>
-        <u xml:id="i-DETqmigHTAq22k7g13tCpt" who="i-GLHYq1jMQHCT1zXejYWV8x" prev="i-52d4850c02cbe5a5-0">
           <seg xml:id="i-CSiA74qnWnzZzV1tkzo43J">
             Därför, herr talman, yrkar jag bifall till reservationen 8 angående
             slopande av kvotregeln.
@@ -9648,7 +9624,7 @@
         <note xml:id="i-S7HavWGray9PJ8aiWaXcsu" type="speaker">
           Herr ÅKERLIND (m):
         </note>
-        <u xml:id="i-52d4850c02cbe5a5-5" who="i-GLHYq1jMQHCT1zXejYWV8x" next="i-GxAmshhwvpPGCTBSHyCdzZ">
+        <u xml:id="i-52d4850c02cbe5a5-5" who="i-GLHYq1jMQHCT1zXejYWV8x">
           <seg xml:id="i-2Pf9g46R5NwcyduHouXQ52">
             Herr talman! Statsbidrag utgår till driften av semesterhem med
             4 kronor per dag för utnyttjad plats samt för resor till semesterhem
@@ -9703,8 +9679,6 @@
             att dra in och yrkat att det föreslagna anslaget på 1,8 miljoner
             kronor inte skall beviljas.
           </seg>
-        </u>
-        <u xml:id="i-GxAmshhwvpPGCTBSHyCdzZ" who="i-GLHYq1jMQHCT1zXejYWV8x" prev="i-52d4850c02cbe5a5-5">
           <seg xml:id="i-EGbM1whAiTYZYyUVnYz6WA">
             Herr talman! Jag yrkar bifall till reservationen 10 vid punkten
             11.
@@ -9929,7 +9903,7 @@
         <note xml:id="i-CgUz7anNFoBFuj5Yw6kffX" type="speaker">
           Herr ÅKERLIND (m):
         </note>
-        <u xml:id="i-52d4850c02cbe5a5-8" who="i-GLHYq1jMQHCT1zXejYWV8x" next="i-6ZPvc1JinZsT65zVf2ChWg">
+        <u xml:id="i-52d4850c02cbe5a5-8" who="i-GLHYq1jMQHCT1zXejYWV8x">
           <seg xml:id="i-9N7jPdY9yykqrAEpKAerLa">
             Herr talman! Under förra året inrättades inom socialstyrelsen
             ett statligt lekmiljöråd och till det anslogs vid förra årets
@@ -9951,8 +9925,6 @@
             lekmiljörådets verksamhet inte beviljas av riksdagen för nästa
             budgetår.
           </seg>
-        </u>
-        <u xml:id="i-6ZPvc1JinZsT65zVf2ChWg" who="i-GLHYq1jMQHCT1zXejYWV8x" prev="i-52d4850c02cbe5a5-8">
           <seg xml:id="i-PZXBuPQoocGS2WG7J81aiZ">
             Herr talman! Jag yrkar bifall till min reservation nr 11 vid
             punkten 12 vilken innebär en minskning av anslaget till socialstyrelsen
@@ -10141,7 +10113,7 @@
         <note xml:id="i-RttK1r2wn9fJ1KR516UC5J" type="speaker">
           Herr STRIDSMAN (c), som yttrade:
         </note>
-        <u xml:id="i-89fc9cb1895a979c-11" who="i-4L3RupkmJsW37eGn5fppsN" next="i-GJYgwehS88REHm5sQKw5By">
+        <u xml:id="i-89fc9cb1895a979c-11" who="i-4L3RupkmJsW37eGn5fppsN" next="i-89fc9cb1895a979c-12">
           <seg xml:id="i-AZuhJNQj2fB28UrjMZpn9d">
             Herr talman! Arbetsmarknadsstyrelsens lokaliseringsdelegation
             har verkat sedan den 1 april 1971. Dess uppgift är att samråda
@@ -10160,8 +10132,6 @@
             omöjliggör en påverkan genom offentlig debatt av de frågor som
             handläggs.
           </seg>
-        </u>
-        <u xml:id="i-GJYgwehS88REHm5sQKw5By" who="i-4L3RupkmJsW37eGn5fppsN" prev="i-89fc9cb1895a979c-11" next="i-89fc9cb1895a979c-12">
           <seg xml:id="i-CHV9WmeePf1PKGfhTYjX7w">
             När samrådsskyldigheten behandlades i riksdagen väcktes motioner
             från centerpartiet där motionärerna ifrågasatte om samrådsförfarandet
@@ -10188,7 +10158,7 @@
         <note xml:id="i-TVYkqmnn9PgEGFPnyKsCxe">
           158
         </note>
-        <u xml:id="i-89fc9cb1895a979c-12" who="i-4L3RupkmJsW37eGn5fppsN" prev="i-GJYgwehS88REHm5sQKw5By">
+        <u xml:id="i-89fc9cb1895a979c-12" who="i-4L3RupkmJsW37eGn5fppsN" prev="i-89fc9cb1895a979c-11">
           <seg xml:id="i-YLDAKgQedJyF7zLEuX2ytX">
             skulle kunna få lov att tillgripas såsom etableringskontroll,
             innefattande etableringstillstånd, eller en särskild investeringsavgift.
@@ -10323,7 +10293,7 @@
           Nr 136 Herr Lothigius (m) till herr statsministern om åtgärder
           mot missförhållandena på Sergels torg:
         </note>
-        <u xml:id="i-6zKisDLFYcFy6tdM7NA3J1" who="unknown">
+        <u xml:id="i-6zKisDLFYcFy6tdM7NA3J1" who="unknown" next="i-89fc9cb1895a979c-17">
           <seg xml:id="i-4XoUWA15aBbfKDztFUSmtS">
             Vilka åtgärder avser herr statsministern vidtaga i syfte att
             komma till rätta med de missförhållanden som råder i direkt anslutning
@@ -10350,7 +10320,7 @@
           Nr 137 Herr Lorentzon (vpk) till herr kommunikationsministern
           angående klassindelningen vid SJ:
         </note>
-        <u xml:id="i-89fc9cb1895a979c-17" who="unknown">
+        <u xml:id="i-89fc9cb1895a979c-17" who="unknown" prev="i-6zKisDLFYcFy6tdM7NA3J1">
           <seg xml:id="i-EP2h8KrM6bR7qMj99NbZ8e">
             Anser statsrådet att klassindelningen vid statens järnvägar i
             förstarespektive andraklasskupéer överensstämmer med nutida jämlikhetsbegrepp,

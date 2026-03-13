@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-2ZvRCRYo7ZT7JLfruRnX8b" type="speech">
             <linkGrp type="u">
               <ptr target="#i-L5xAG7tWm58ozdzXZWZMbH"/>
@@ -391,7 +391,13 @@
               <ptr target="#i-KTZBWAxucDhNSLES8uxb2"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -1001,7 +1007,7 @@
         <note xml:id="i-D35QQRLKR6fth6tFsg2JTn">
           Allmänpolitisk debatt
         </note>
-        <u xml:id="i-JyrTJ4qWFP86vuonbgDTYP" who="i-Pe1ftVDt68xexZMLUFEKsL" prev="i-de9c26d7765e17e8-6" next="i-NgiWSCfhcsEVk5FTcLT8pD">
+        <u xml:id="i-JyrTJ4qWFP86vuonbgDTYP" who="i-Pe1ftVDt68xexZMLUFEKsL" prev="i-de9c26d7765e17e8-6" next="i-de9c26d7765e17e8-11">
           <seg xml:id="i-Cc1LqqkLthRB3sfgf8gQjg">
             måga, och det allmänna, dvs. stat och kommun, kan minska sina
             bidrag till än det ena och än det andra.
@@ -1066,15 +1072,13 @@
             Vi vill, för att anföra ytterligare ett exempel, bryta det offentliga
             monopol som växer fram inom familjepolitiken.
           </seg>
-        </u>
-        <u xml:id="i-NgiWSCfhcsEVk5FTcLT8pD" who="i-Pe1ftVDt68xexZMLUFEKsL" prev="i-JyrTJ4qWFP86vuonbgDTYP" next="i-de9c26d7765e17e8-11">
           <seg xml:id="i-4pCiPb7G71Mhz6CRwBT8w2">
             Varför skall stat och kommun bara betala för den barnomsorg som
             sköts av
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198283--71/prot_198283__71-010.jp2/_view"/>
-        <u xml:id="i-de9c26d7765e17e8-11" who="i-Pe1ftVDt68xexZMLUFEKsL" prev="i-NgiWSCfhcsEVk5FTcLT8pD" next="i-de9c26d7765e17e8-16">
+        <u xml:id="i-de9c26d7765e17e8-11" who="i-Pe1ftVDt68xexZMLUFEKsL" prev="i-JyrTJ4qWFP86vuonbgDTYP" next="i-de9c26d7765e17e8-16">
           <seg xml:id="i-WgXQAGtJ4GXjAtkcCbn8Qg">
             kommunerna? Vad finns det för rimligt skäl att med skattemedel
             göra det billigt att använda den dyraste av alla omsorgsformer
@@ -1279,7 +1283,7 @@
         <note xml:id="i-3Tfk4q2Six1eRowCrNizRm" type="speaker">
           Anf. 4 THORBJÖRN FÄLLDIN (c):
         </note>
-        <u xml:id="i-c2cf061018046e38-0" who="i-PDvEfAmYAgGTBhkGvyY7F4" next="i-H92dy6oZbB8GUCHL4wPNgD">
+        <u xml:id="i-c2cf061018046e38-0" who="i-PDvEfAmYAgGTBhkGvyY7F4" next="i-c2cf061018046e38-5">
           <seg xml:id="i-Bs7mwnXe7mBBnx8GdHT9N5">
             Herr talman! Mycket i den nya budgeten känner vi igen från socialdemokraternas
             ekonomiska höstprogram och den minibudget som riksdagen behandlade
@@ -1301,8 +1305,6 @@
             dem som skall punga ut med högre skattebelopp, från inflationssynpunkt
             eller från kostnadssynpunkt för företagen.
           </seg>
-        </u>
-        <u xml:id="i-H92dy6oZbB8GUCHL4wPNgD" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-c2cf061018046e38-0" next="i-c2cf061018046e38-5">
           <seg xml:id="i-TajsYf9VAtCNwrifYqnx4p">
             Besluten på grundval av dens. k. löftespropositionen — bl. a.
             ändringarna i pensionsindex och upphävandet av beslutet om karensdagar
@@ -1334,7 +1336,7 @@
         <note xml:id="i-L6nwPJwN2EbggAJsdRGmB8">
           70
         </note>
-        <u xml:id="i-c2cf061018046e38-5" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-H92dy6oZbB8GUCHL4wPNgD" next="i-c2cf061018046e38-6">
+        <u xml:id="i-c2cf061018046e38-5" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-c2cf061018046e38-0" next="i-c2cf061018046e38-6">
           <seg xml:id="i-Uxyyb2bUpdcSFEgH6XQUG3">
             ringen — framställs som den avgörande skillnaden mellan rättvisa
             och orättvisa i fördelningspolitiken.
@@ -4310,12 +4312,10 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198283--71/prot_198283__71-048.jp2/_view"/>
-        <u xml:id="i-XUjgaTKgurDW67fVKsinQH" who="i-5wPAQ1MDLRTsW1XngYcD46" prev="i-18bb46367c1b76da-41" next="i-H6vz3EpjT6js7NsxUrGsWM">
+        <u xml:id="i-XUjgaTKgurDW67fVKsinQH" who="i-5wPAQ1MDLRTsW1XngYcD46" prev="i-18bb46367c1b76da-41" next="i-18bb46367c1b76da-47">
           <seg xml:id="i-3nmiF1Bn3qrScvrXeffFNf">
             vi återställde ersättningen från arbetslöshetskassorna?
           </seg>
-        </u>
-        <u xml:id="i-H6vz3EpjT6js7NsxUrGsWM" who="i-5wPAQ1MDLRTsW1XngYcD46" prev="i-XUjgaTKgurDW67fVKsinQH" next="i-18bb46367c1b76da-47">
           <seg xml:id="i-KW9vQB41vhnUC6nnMHMmn2">
             Jag är klar över att Ola Ullsten har litet svårt att skilja på
             detta med vinnare och förlorare. Det beror väl på miljöskadorna
@@ -4416,7 +4416,7 @@
         <note xml:id="i-SH1nqR3BjnVv1UCJkGyxHw">
           106
         </note>
-        <u xml:id="i-18bb46367c1b76da-47" who="i-5wPAQ1MDLRTsW1XngYcD46" prev="i-H6vz3EpjT6js7NsxUrGsWM">
+        <u xml:id="i-18bb46367c1b76da-47" who="i-5wPAQ1MDLRTsW1XngYcD46" prev="i-XUjgaTKgurDW67fVKsinQH">
           <seg xml:id="i-VKdD8aKfn5GuxkjgDo2SUm">
             i mitt första anförande och nämnde att en avgörande förutsättning
             för skatteomläggningen var att de lägst avlönade i årets avtalsrörelse
@@ -8374,7 +8374,7 @@
         <note xml:id="i-JrmCytxU5e7Ev6rrnXApaW">
           154
         </note>
-        <u xml:id="i-3ef57d2d4b509d46-4" who="i-8bCQKT71VdBcHzz8yFjbEs" prev="i-3ef57d2d4b509d46-0" next="i-BzKx13L59VzK4YqSaPm5xH">
+        <u xml:id="i-3ef57d2d4b509d46-4" who="i-8bCQKT71VdBcHzz8yFjbEs" prev="i-3ef57d2d4b509d46-0" next="i-3ef57d2d4b509d46-7">
           <seg xml:id="i-YRfoBXErm9hDDarCyscCuj">
             I går kunde vi läsa på dagstidningarnas förstasidor: ”Rekordsvår
             vinter — 18 om varje jobb”, ”Värsta läget sedan kriget”. 18 sökande
@@ -8382,14 +8382,10 @@
             Allra värst drabbat är Norrbotten, där det går 37 sökande på varje
             ledigt jobb!
           </seg>
-        </u>
-        <u xml:id="i-BzKx13L59VzK4YqSaPm5xH" who="i-8bCQKT71VdBcHzz8yFjbEs" prev="i-3ef57d2d4b509d46-4" next="i-3ef57d2d4b509d46-5">
           <seg xml:id="i-RMnNf1qwcdDKbqkBpyvnML">
             I industrin fanns förra månaden endast 3 400 kvarstående lediga
             platser, medan antalet sökande var nästan 53 000.
           </seg>
-        </u>
-        <u xml:id="i-3ef57d2d4b509d46-5" who="i-8bCQKT71VdBcHzz8yFjbEs" prev="i-BzKx13L59VzK4YqSaPm5xH" next="i-V86cGc9p3g99ZAJy5XyoEq">
           <seg xml:id="i-F1RKtDD2gUSaQsLihs9MJi">
             Rubrikerna och siffrorna ger en tydlig bild av läget i landet.
             Vi har en arbetslöshetssituation som många människor upplever
@@ -8401,14 +8397,10 @@
             åtgärder upplevs av många som ett hot mot deras existens. I exempelvis
             Norrbotten är ca 5 000 människor i beredskapsarbe och, 3 300 i
           </seg>
-        </u>
-        <u xml:id="i-V86cGc9p3g99ZAJy5XyoEq" who="i-8bCQKT71VdBcHzz8yFjbEs" prev="i-3ef57d2d4b509d46-5" next="i-3ef57d2d4b509d46-6">
           <seg xml:id="i-P1eGbVF6MqRxohVaZXssvk">
             — arbetsmarknadsutbildning. Drygt 2 300 är anställda med lönebidrag
             och 850
           </seg>
-        </u>
-        <u xml:id="i-3ef57d2d4b509d46-6" who="i-8bCQKT71VdBcHzz8yFjbEs" prev="i-V86cGc9p3g99ZAJy5XyoEq" next="i-3ef57d2d4b509d46-7">
           <seg xml:id="i-BCXg1z7QPx1yXaxjtbCWW6">
             är anställda i samhällsföretag. Dessa människor är alltså föremål
             för arbetsmarknadspolitiska insatser. De frågar sig: Vad skulle
@@ -8463,7 +8455,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198283--71/prot_198283__71-098.jp2/_view"/>
-        <u xml:id="i-3ef57d2d4b509d46-7" who="i-8bCQKT71VdBcHzz8yFjbEs" prev="i-3ef57d2d4b509d46-6" next="i-3ef57d2d4b509d46-12">
+        <u xml:id="i-3ef57d2d4b509d46-7" who="i-8bCQKT71VdBcHzz8yFjbEs" prev="i-3ef57d2d4b509d46-4" next="i-3ef57d2d4b509d46-12">
           <seg xml:id="i-6CrEMLcokohhM1kTWcgXTx">
             handhavandet av landets ekonomi. För första gången sedan 1930-talet
             för en svensk regering med öppna ögon en arbetslöshetsskapande
@@ -8561,7 +8553,7 @@
         <note xml:id="i-Gqwokx1CeTr7GsYdx2e524">
           156
         </note>
-        <u xml:id="i-3ef57d2d4b509d46-12" who="i-8bCQKT71VdBcHzz8yFjbEs" prev="i-3ef57d2d4b509d46-7" next="i-DzJFtoqRJbYjRkpuMp6CvE">
+        <u xml:id="i-3ef57d2d4b509d46-12" who="i-8bCQKT71VdBcHzz8yFjbEs" prev="i-3ef57d2d4b509d46-7" next="i-3ef57d2d4b509d46-14">
           <seg xml:id="i-7fcDRcqfNZqpYme55zQmxH">
             svårare att få jobb än andra grupper. I realiteten är ungdomslönerna
             mycket olika. I vissa avtal, bl. a. de lärlingsavtal som finns,
@@ -8613,8 +8605,6 @@
             utveckling som byggdes upp under de socialdemokratiska regeringsåren
             i slutet på 1960- och början på 1970-talet.
           </seg>
-        </u>
-        <u xml:id="i-DzJFtoqRJbYjRkpuMp6CvE" who="i-8bCQKT71VdBcHzz8yFjbEs" prev="i-3ef57d2d4b509d46-12" next="i-3ef57d2d4b509d46-13">
           <seg xml:id="i-MA1r97fjt7S9VdtMukzcFi">
             Under åren 1977, 1978 och 1979 sjönk skogslänens andel av landets
             befolkningstillväxt. Under 1981 hade fem av de sju skogslänen
@@ -8624,8 +8614,6 @@
             större än vad den var i hela landet i övrigt. Tala om flyttlasspolitik!
             Och vilka var det som bedrev den?
           </seg>
-        </u>
-        <u xml:id="i-3ef57d2d4b509d46-13" who="i-8bCQKT71VdBcHzz8yFjbEs" prev="i-DzJFtoqRJbYjRkpuMp6CvE" next="i-3ef57d2d4b509d46-14">
           <seg xml:id="i-DN68FdSpnF9bgXUBmG35Vi">
             Samtidigt avfolkades glesbygden. Bara inom de sju nordligaste
             länens glesbygder minskade under åren 1975-1980 befolkningen med
@@ -8633,7 +8621,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198283--71/prot_198283__71-100.jp2/_view"/>
-        <u xml:id="i-3ef57d2d4b509d46-14" who="i-8bCQKT71VdBcHzz8yFjbEs" prev="i-3ef57d2d4b509d46-13">
+        <u xml:id="i-3ef57d2d4b509d46-14" who="i-8bCQKT71VdBcHzz8yFjbEs" prev="i-3ef57d2d4b509d46-12">
           <seg xml:id="i-VdoogQMae31HBn553bmTTN">
             Men det finns även andra mått som visar på lika nedslående siffror.
             Sysselsättningen inom jordoch skogsbruket spelar en viktig roll
@@ -8728,12 +8716,10 @@
         <note xml:id="i-QHHz72ePpUM7xjRFSFLmno">
           158
         </note>
-        <u xml:id="i-Dmto8KkH2Hr92eKCaBu6xj" who="i-XrDegv7uQGz4MSbepK4txd" prev="i-b5b9402ca97d29ff-0" next="i-b5b9402ca97d29ff-5">
+        <u xml:id="i-Dmto8KkH2Hr92eKCaBu6xj" who="i-XrDegv7uQGz4MSbepK4txd" prev="i-b5b9402ca97d29ff-0" next="i-b5b9402ca97d29ff-6">
           <seg xml:id="i-5ubp23TMet9pyGTA2qbf99">
             arbeta i — och det medgav Frida Berglund i slutet av sitt anförande.
           </seg>
-        </u>
-        <u xml:id="i-b5b9402ca97d29ff-5" who="i-XrDegv7uQGz4MSbepK4txd" prev="i-Dmto8KkH2Hr92eKCaBu6xj" next="i-b5b9402ca97d29ff-6">
           <seg xml:id="i-E19pbrMKgr67Hx17Ngqh3">
             Det har hänt mycket när det gäller decentralisering under denna
             tid, och jag tror faktiskt att Frida Berglund själv från Norrbotten
@@ -8805,7 +8791,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198283--71/prot_198283__71-102.jp2/_view"/>
-        <u xml:id="i-b5b9402ca97d29ff-6" who="i-XrDegv7uQGz4MSbepK4txd" prev="i-b5b9402ca97d29ff-5" next="i-b5b9402ca97d29ff-10">
+        <u xml:id="i-b5b9402ca97d29ff-6" who="i-XrDegv7uQGz4MSbepK4txd" prev="i-Dmto8KkH2Hr92eKCaBu6xj" next="i-b5b9402ca97d29ff-10">
           <seg xml:id="i-FcL9LUeiHEqx3JRVFyia6A">
             som jordens miljö utsätts för vill vi från centern lägga till
             ett femte mål: värnandet om jordens miljö och produktiva resurser.
@@ -9697,12 +9683,10 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198283--71/prot_198283__71-112.jp2/_view"/>
-        <u xml:id="i-98t98Vb3FNXsyaMUqyiicW" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-5e44e5f19fcb3254-0" next="i-3Y6ctwfhraztRFBo5LBqGr">
+        <u xml:id="i-98t98Vb3FNXsyaMUqyiicW" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-5e44e5f19fcb3254-0" next="i-5e44e5f19fcb3254-6">
           <seg xml:id="i-FQiuNnwrEeZ4RQ3gwaYCkr">
             Reallönesänkningen beräknas 1983 bli drygt 4 96.
           </seg>
-        </u>
-        <u xml:id="i-3Y6ctwfhraztRFBo5LBqGr" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-98t98Vb3FNXsyaMUqyiicW" next="i-5e44e5f19fcb3254-6">
           <seg xml:id="i-VbBDW6YSjvvRsZpTXygh3p">
             Det blev alltså devalvering i stället för revalvering. Det blev
             en ökning av prisstegringstakten i stället för en minskning.
@@ -9797,7 +9781,7 @@
         <note xml:id="i-2TGqXaauFrmfpFcecJs7RE">
           170
         </note>
-        <u xml:id="i-5e44e5f19fcb3254-6" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-3Y6ctwfhraztRFBo5LBqGr" next="i-5e44e5f19fcb3254-7">
+        <u xml:id="i-5e44e5f19fcb3254-6" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-98t98Vb3FNXsyaMUqyiicW" next="i-5e44e5f19fcb3254-7">
           <seg xml:id="i-CwdFVLasPt4gphjMvf6ZY4">
             terna var i opposition! Kanske kan Thage Peterson, som ivrigt
             lyssnar, förklara också den här helomvändningen. Men då var socialdemokraternas
@@ -10363,7 +10347,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198283--71/prot_198283__71-120.jp2/_view"/>
-        <u xml:id="i-24c0f41884c5058a-13" who="i-5JKt3JHcrr8pme3Wk6qvJA" prev="i-24c0f41884c5058a-12" next="i-9LZLVxNPhTiD1muDLZ2PZt">
+        <u xml:id="i-24c0f41884c5058a-13" who="i-5JKt3JHcrr8pme3Wk6qvJA" prev="i-24c0f41884c5058a-12">
           <seg xml:id="i-HrCqoksuTgcVYvQWQz2qkJ">
             gare resurser satsas för att göra det möjligt att på sikt öka
             antalet platser vid behandlingshem och i familjevård. Därtill
@@ -10398,8 +10382,6 @@
             behandlingsmöjligheter för dem som dömts till fängelse, i första
             hand narkotikamissbrukare?
           </seg>
-        </u>
-        <u xml:id="i-9LZLVxNPhTiD1muDLZ2PZt" who="i-5JKt3JHcrr8pme3Wk6qvJA" prev="i-24c0f41884c5058a-13">
           <seg xml:id="i-CuCuNNgM9sxJt6orxUSfzM">
             2. Avser justitieministern att föreslå regeringen att ge frivårdskommittén
             tilläggsdirektiv beträffande ändring av 34 $ i syfte att tillgodose
@@ -10470,13 +10452,11 @@
           252 av Gunnar Biörck i Värmdö (m) till statsrådet Gertrud Sigurdsen
           om beredskapen i fråga om reservkraft vid sjukhusen:
         </note>
-        <u xml:id="i-3dtCdhM9busazRhonWvx2c" who="i-5WchbRYCVdXodSthFK381D" next="i-RfB86cHMB22cghiwGuzbAP">
+        <u xml:id="i-3dtCdhM9busazRhonWvx2c" who="i-5WchbRYCVdXodSthFK381D">
           <seg xml:id="i-8Tb2cX2skrNuhShuW2N6Yn">
             Den 1 februari inträffade ett allvarligt strömavbrott inne på
             Karolinska sjukhuset. Bl. a. drabbades den akuta operationsverksamheten.
           </seg>
-        </u>
-        <u xml:id="i-RfB86cHMB22cghiwGuzbAP" who="i-5WchbRYCVdXodSthFK381D" prev="i-3dtCdhM9busazRhonWvx2c">
           <seg xml:id="i-JpjJgFGvrXGsULd2LvhcaM">
             Villstatsrådet Sigurdsen vänligen ge riksdagen upplysning om
             beredskapsläget i fråga om reservkraft vid detta och — om möjligt
@@ -10490,7 +10470,7 @@
           253 av Alexander Chrisopoulos (vpk) till kommunikationsministern
           om upphandlingen av sjötransporttjänster för statliga myndigheter:
         </note>
-        <u xml:id="i-18947fe605033710-1" who="i-U9We27C3x3JviFqbQPuj3d" next="i-Kut5QaC2M2Wr6S7weEFnXw">
+        <u xml:id="i-18947fe605033710-1" who="i-U9We27C3x3JviFqbQPuj3d">
           <seg xml:id="i-J6836HKg6FovjPgazQj2RS">
             Enligt den svenska upphandlingsförordningen skall statliga myndigheter
             köpa bl. a. sjötransporttjänster på sådant sätt att statligt gods
@@ -10499,13 +10479,9 @@
             bekvämlighetsflaggade fartyg, medan de egna fartygen, ägda av
             det statliga rederiet Zenit, ligger overksamma.
           </seg>
-        </u>
-        <u xml:id="i-Kut5QaC2M2Wr6S7weEFnXw" who="i-U9We27C3x3JviFqbQPuj3d" prev="i-18947fe605033710-1" next="i-KTZBWAxucDhNSLES8uxb2">
           <seg xml:id="i-71979a6WRnxnMnhpe2k2pn">
             Jag vill därför fråga kommunikationsministern:
           </seg>
-        </u>
-        <u xml:id="i-KTZBWAxucDhNSLES8uxb2" who="i-U9We27C3x3JviFqbQPuj3d" prev="i-Kut5QaC2M2Wr6S7weEFnXw">
           <seg xml:id="i-BCfy2rMTTJoUiMdqVbtjs9">
             Vad avser kommunikationsministern göra för att få till stånd
             en ändring av det påtalade förhållandet?

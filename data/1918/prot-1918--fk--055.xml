@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-9XLov2sRjn1ReJepjvKj9a" type="speech">
             <linkGrp type="u">
               <ptr target="#i-Amf6kcJnCgVwYQxMNkeKKN"/>
@@ -333,7 +333,13 @@
               <ptr target="#i-XsDEWf1rpo3fak4N3UszpD"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -404,14 +410,12 @@
         <note xml:id="i-7CLFEjH5RLtH7uHPSQoXCo" type="speaker">
           Herr Olsson, Oscar:
         </note>
-        <u xml:id="i-Amf6kcJnCgVwYQxMNkeKKN" who="i-QBPRL2CNKrTtn2M3Ea51HX" next="i-K1zKqPZ4gaTPRxjEZnmyCv">
+        <u xml:id="i-Amf6kcJnCgVwYQxMNkeKKN" who="i-QBPRL2CNKrTtn2M3Ea51HX" next="i-6ojjMaMkKApC4C7oaUWfEC">
           <seg xml:id="i-J1Ty6wD56c7uAkkQXVGYRT">
             Herr talman! Då jag begärde ordet var det för att något närmare
             till skärskådande upptaga särskilt de synpunkter, som den siste
             ärade talaren före middagsrasten gjorde gällande.
           </seg>
-        </u>
-        <u xml:id="i-K1zKqPZ4gaTPRxjEZnmyCv" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-Amf6kcJnCgVwYQxMNkeKKN" next="i-6ojjMaMkKApC4C7oaUWfEC">
           <seg xml:id="i-QdUu9CoNsisoHVc4hUC5VC">
             Det var naturligtvis en ganska solid grundval från historisk
             synpunkt, på vilken han uppbyggde sina skäl, en tradition som
@@ -437,7 +441,7 @@
         <note xml:id="i-7wQsSASwyPkW9wteQW5u4C" type="date">
           2 Fredagen den 14 juni, e. m.
         </note>
-        <u xml:id="i-6ojjMaMkKApC4C7oaUWfEC" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-K1zKqPZ4gaTPRxjEZnmyCv" next="i-VtmcR4UWGUuNAUAGHpcukX">
+        <u xml:id="i-6ojjMaMkKApC4C7oaUWfEC" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-Amf6kcJnCgVwYQxMNkeKKN" next="i-BaxZwD91BiCWjjds3XJ6t4">
           <seg xml:id="i-NLYNRymS5MfFiXzJ6qmKen">
             skäl, som alltid hava kunnat anföras till förmån för statsreligionen.
             Visserligen var herr Hjärne synnerligen angelägen om att framhäva
@@ -446,8 +450,6 @@
             försvara den ståndpunkten, att en statskyrka icke skall som sin
             bärande grundval hava en statsreligion.
           </seg>
-        </u>
-        <u xml:id="i-VtmcR4UWGUuNAUAGHpcukX" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-6ojjMaMkKApC4C7oaUWfEC" next="i-BaxZwD91BiCWjjds3XJ6t4">
           <seg xml:id="i-3hV8jpzoXpT5r3YH9CHGYd">
             Skälen för statsreligionen hava synnerligen stilfulla representanter
             ifrån början av vår tideräkning i även de främsta representanterna
@@ -496,7 +498,7 @@
         <note xml:id="i-M9TF6SCXo3MDWb7Cb1VAi6" type="date">
           Fredagen den 14 juni, e. m. (i) Nr 55.
         </note>
-        <u xml:id="i-BaxZwD91BiCWjjds3XJ6t4" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-VtmcR4UWGUuNAUAGHpcukX" next="i-Tf7P2jRgtoFgvCtwVW6MJb">
+        <u xml:id="i-BaxZwD91BiCWjjds3XJ6t4" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-6ojjMaMkKApC4C7oaUWfEC" next="i-62FDZ5jB8pcnSDhDMyGEgL">
           <seg xml:id="i-JZH7FKYBnr9rHfQUpAFFUV">
             dast därigenom uteriar kristendomen den karaktär, som från första
             Om upplösning början skiljer kristendomen från statsreligionen,
@@ -508,15 +510,11 @@
             av kristendomen hävdade rätten till en verkligt obegränsad andlig
             frihet inom det religiösa området. Jag tror emel-
           </seg>
-        </u>
-        <u xml:id="i-Tf7P2jRgtoFgvCtwVW6MJb" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-BaxZwD91BiCWjjds3XJ6t4" next="i-F4k2tKt132Vu5D8U131fVZ">
           <seg xml:id="i-UkQeLd51yQm9toKciSRtsj">
             lertid, att den svårigheten skulle kunna lösas på det sättet
             — och detta är det enda sätt varpå den egentligen kan lösas —
             att staten
           </seg>
-        </u>
-        <u xml:id="i-F4k2tKt132Vu5D8U131fVZ" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-Tf7P2jRgtoFgvCtwVW6MJb" next="i-UaXUadHyrPzErbuu7SQMoZ">
           <seg xml:id="i-2uGvJj82DJfYsQq7mTqZf9">
             respekterar den kristna principen, nämligen religionsfrihetsprincipen,
             dithän, att staten låter kristendomen verka med andliga medel
@@ -524,8 +522,6 @@
             eller som påstår sig icke vara av denna världen, införa de påtryckningsmedel,
             som våldsmakten, den världsliga makten vill ställa till förfogande.
           </seg>
-        </u>
-        <u xml:id="i-UaXUadHyrPzErbuu7SQMoZ" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-F4k2tKt132Vu5D8U131fVZ" next="i-62FDZ5jB8pcnSDhDMyGEgL">
           <seg xml:id="i-6m46qPptv4XwcXFLsbLAso">
             | Det påpekades mycket riktigt av den socialdemokratiske försvararen
             av statskyrkoprincipen idag på förmiddagen att kyrkans prästerskap
@@ -569,19 +565,15 @@
         <note xml:id="i-JUhfDM8dLt7e5FwDY457sd" type="date">
           4 Fredagen den 14 juni, e. m.
         </note>
-        <u xml:id="i-62FDZ5jB8pcnSDhDMyGEgL" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-UaXUadHyrPzErbuu7SQMoZ" next="i-3buW1SytbVN7fykuSS2E2S">
+        <u xml:id="i-62FDZ5jB8pcnSDhDMyGEgL" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-BaxZwD91BiCWjjds3XJ6t4" next="i-5yGVsDShzMAYLENphcM8yN">
           <seg xml:id="i-Sdc8qKEfieQZeRGqUohscJ">
             Om upplösning att det var på grund av inre religiös övertygelse,
             som de hade omav sambandet vänt och bättrat sig till renare lära.
             Nej, det försvaret är förfe-
           </seg>
-        </u>
-        <u xml:id="i-3buW1SytbVN7fykuSS2E2S" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-62FDZ5jB8pcnSDhDMyGEgL" next="i-3vo2AXAbFhH6c2BJVjUwDg">
           <seg xml:id="i-Sdrzg8tDqXqvmN43wsdyQh">
             mellan kyrkan och staten. (Forts.)
           </seg>
-        </u>
-        <u xml:id="i-3vo2AXAbFhH6c2BJVjUwDg" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-3buW1SytbVN7fykuSS2E2S" next="i-VfGg7eAZpbwVtYhRPTFQgE">
           <seg xml:id="i-3DKA6RU7sNSx62pfSuCNYv">
             lat, ty det dröjde icke längre än till konung Johan ILIL:s regering,
             förrän det svenska prästerskapet på den världsliga maktens bud
@@ -609,8 +601,6 @@
             såsom ett rike icke av denna världen, som hava hävdat den verkliga
             andliga friheten.
           </seg>
-        </u>
-        <u xml:id="i-VfGg7eAZpbwVtYhRPTFQgE" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-3vo2AXAbFhH6c2BJVjUwDg" next="i-5yGVsDShzMAYLENphcM8yN">
           <seg xml:id="i-EBkTCFiyRVScKTjBpgcQFD">
             Utskottets ärade ordförande talade för en stund sedan om, att
             de frikyrkliga nu icke höllo så mycket på, att staten skulle skiljas
@@ -640,7 +630,7 @@
         <note xml:id="i-HH52PEiGvV1HnSpMssPyfS" type="date">
           Fredagen den 14 juni, e. m. 5 Nr 65.
         </note>
-        <u xml:id="i-5yGVsDShzMAYLENphcM8yN" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-VfGg7eAZpbwVtYhRPTFQgE" next="i-3EULhegTHZrh33wkE1pgjp">
+        <u xml:id="i-5yGVsDShzMAYLENphcM8yN" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-62FDZ5jB8pcnSDhDMyGEgL" next="i-KWWSazKvd2RoHVct7C61Cv">
           <seg xml:id="i-EUD7wMV2qwTPxpruPH8i14">
             samhillsmakternas sida emot de svaga och fattiga, vilka de enligt
             Om upplösning sin religions bud först och främst hade till uppgift
@@ -686,8 +676,6 @@
             blan socialisterna, men väckte så mycket större tillfredsställelse
             bland teologer och kyrkans tjänare.
           </seg>
-        </u>
-        <u xml:id="i-3EULhegTHZrh33wkE1pgjp" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-5yGVsDShzMAYLENphcM8yN" next="i-KWWSazKvd2RoHVct7C61Cv">
           <seg xml:id="i-NSy8TzKk4oi7M1UQKnn15y">
             Det går icke att komma ifrån, så länge bekännandet av statens
             religion medför vissa världsliga fördelar, vissa världsliga förmåner,
@@ -708,7 +696,7 @@
         <note xml:id="i-2EPApm3yP1Ufsk4RCCbNDs" type="date">
           6 Fredagen den 14 juni, e. m.
         </note>
-        <u xml:id="i-KWWSazKvd2RoHVct7C61Cv" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-3EULhegTHZrh33wkE1pgjp" next="i-Nyxv9Zizp13FqXYpwxrfNJ">
+        <u xml:id="i-KWWSazKvd2RoHVct7C61Cv" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-5yGVsDShzMAYLENphcM8yN" next="i-Km3T3LK2PRM3S1iqpBZpgi">
           <seg xml:id="i-U3T9aqE8Ys9iBsFpvqHnYn">
             kyrkan, statsmakten icke fordrade mera av de kristna än vad statskyrkans
             prästerskap för närvarande fordrar av samhällsborgarna. Det fordrades
@@ -735,8 +723,6 @@
             undantag — och det är visst icke den namnkristna gruppen som har
             dött ut.
           </seg>
-        </u>
-        <u xml:id="i-Nyxv9Zizp13FqXYpwxrfNJ" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-KWWSazKvd2RoHVct7C61Cv" next="i-Km3T3LK2PRM3S1iqpBZpgi">
           <seg xml:id="i-KWBbpnEcti8Gvh9H8XVjiK">
             Om vi vidare slutligen se ett ögonblick på huru kyrkans prästerskap
             har sörjt för folkets religiösa uppfostran, för religiositetens
@@ -770,7 +756,7 @@
         <note xml:id="i-2Y65pKue8c7FMGquGtqMnm">
           I'redagen den 14 juni, ce. w. 7
         </note>
-        <u xml:id="i-Km3T3LK2PRM3S1iqpBZpgi" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-Nyxv9Zizp13FqXYpwxrfNJ" next="i-T8gJ7A6jPAhS11iRVUefbt">
+        <u xml:id="i-Km3T3LK2PRM3S1iqpBZpgi" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-KWWSazKvd2RoHVct7C61Cv" next="i-A6xr487DPnLBxNdpkXx8jU">
           <seg xml:id="i-K2iRP9Z8GehX4yfZUUfw6R">
             rarna mäste få den uppfattningen, att de, som läsa den, tro på
             den lekamliga uppståndelsen just i denna tros vanliga, krassa
@@ -796,8 +782,6 @@
             sig såsom en allt annat än livsbestämmande makt för människorna
             i avgörande skiften.
           </seg>
-        </u>
-        <u xml:id="i-T8gJ7A6jPAhS11iRVUefbt" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-Km3T3LK2PRM3S1iqpBZpgi" next="i-A6xr487DPnLBxNdpkXx8jU">
           <seg xml:id="i-A948JuiKwu4WpeyYtUU8or">
             Man har på sistone, under de sista årtiondena, sedan de frireliglösa
             kyrkorna visat sig för starka för att kunna nedslås med statens
@@ -850,7 +834,7 @@
         <note xml:id="i-MG49Bw7bFwhff6sye9H23E" type="date">
           8 Fredagen den 14 juni, e. m.
         </note>
-        <u xml:id="i-A6xr487DPnLBxNdpkXx8jU" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-T8gJ7A6jPAhS11iRVUefbt" next="i-Qs5BUnaZSssq5ojVYuoKMZ">
+        <u xml:id="i-A6xr487DPnLBxNdpkXx8jU" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-Km3T3LK2PRM3S1iqpBZpgi">
           <seg xml:id="i-GAwa4jQ89C4GkAhUk8MkM1">
             att i den religiösa sanningens namn, i den andliga frihetens
             namn, som bör och måste vara den innersta principen åtminstone
@@ -859,8 +843,6 @@
             den religiösa utvecklingen hindrande en verkligt bärande religiositet
             hos människorna.
           </seg>
-        </u>
-        <u xml:id="i-Qs5BUnaZSssq5ojVYuoKMZ" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-A6xr487DPnLBxNdpkXx8jU">
           <seg xml:id="i-WRhhVKUyRcrQiAQ8wWgWn9">
             Det är således, herr talman, inte minst, utan tvärtom i första
             hand på grund av de religiösa skälen, jag skulle också kunna säga
@@ -872,7 +854,7 @@
         <note xml:id="i-N4fn9vkRf9gyU86SNtV2cw" type="speaker">
           Herr Olsson, Olof:
         </note>
-        <u xml:id="i-LyDV9TtW4NUnxmRwmC97ji" who="i-AwBs4Cp83TTbZr1ZyVyniN" next="i-K6RDHQAkKursk5VY5KYkD5">
+        <u xml:id="i-LyDV9TtW4NUnxmRwmC97ji" who="i-AwBs4Cp83TTbZr1ZyVyniN" next="i-9XbvdWWiS4rTXWHjzHzuQv">
           <seg xml:id="i-Edt5U6nqXa5jtpgYbYXFJV">
             Herr talman! Det är egentligen ett par ord av professor Hjärne,
             som lockat mig fram på arenan, och så detta, att jag inte fann,
@@ -881,8 +863,6 @@
             har i denna sak, måste jag ändå också, fastän i mycket koncentrerad
             form, yttra någonting annat.
           </seg>
-        </u>
-        <u xml:id="i-K6RDHQAkKursk5VY5KYkD5" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-LyDV9TtW4NUnxmRwmC97ji" next="i-9XbvdWWiS4rTXWHjzHzuQv">
           <seg xml:id="i-J9drNhvMC9jn8Wpfx1BmzS">
             Om vi få antaga, att det finnes ungefär något mer än 1 1/5. mils
             jard människor, som gå och trampa på denna jordens yta, så skulle
@@ -921,15 +901,13 @@
         <note xml:id="i-GvzDVLwNLaK4xAPWDXLGnX" type="date">
           Fredagen den 14 juni, eo. mm. I Nr 55.
         </note>
-        <u xml:id="i-9XbvdWWiS4rTXWHjzHzuQv" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-K6RDHQAkKursk5VY5KYkD5" next="i-Bk541ieCSFxByT9dhNXChM">
+        <u xml:id="i-9XbvdWWiS4rTXWHjzHzuQv" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-LyDV9TtW4NUnxmRwmC97ji" next="i-VLEM631KbP2egozHmcHgLF">
           <seg xml:id="i-FKTaiR361N7nJNFbPNQmn2">
             otrogna, precis som nu, men allesammans voro detta, om jag så
             får Om upplösning säga, på ell kristet sätt inom samma världsåskådning.
             Men i våra ev sambandet dagar är det ju inte så. Och detta är
             inte följden av något lältsinne "Her kyrkan 3 J ol 5 äq och staten."
           </seg>
-        </u>
-        <u xml:id="i-Bk541ieCSFxByT9dhNXChM" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-9XbvdWWiS4rTXWHjzHzuQv" next="i-CgsdbWcTqK6jTNLL5us6GD">
           <seg xml:id="i-UzVNgsHttL8a3zHPbdwsR5">
             eller någon annan dålighet, utan orsaken är helt enkelt den,
             att — (rorts) mänskligheten gått förbi 15- och 1600-talen. Det
@@ -941,8 +919,6 @@
             tingen är en sak, som mer än någonting annat bör få vara hennes
             personliga angelägenhet.
           </seg>
-        </u>
-        <u xml:id="i-CgsdbWcTqK6jTNLL5us6GD" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-Bk541ieCSFxByT9dhNXChM" next="i-Tim5si2RBepKrKTwrodBje">
           <seg xml:id="i-HEePhfCNJma8YstwuNy9xX">
             Det är detta, som ligger bakom kravet på att staten skall garantera
             den enskilde medborgaren religionsfrihet, och om detta inte låter
@@ -954,8 +930,6 @@
             man bör väl slippa att vid domstol svära vid en gud, som inte
             är hans, någonting som det ju dagligen ges exempel på.
           </seg>
-        </u>
-        <u xml:id="i-Tim5si2RBepKrKTwrodBje" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-CgsdbWcTqK6jTNLL5us6GD" next="i-VLEM631KbP2egozHmcHgLF">
           <seg xml:id="i-CBWWXpSMks2insvUmtYBNG">
             Ja, det är denna bakgrund, som jag skulle vilja ha bakom det,
             som jag nu vill säga till professor Hjärne. Det var med synnerligen
@@ -1004,13 +978,11 @@
         <note xml:id="i-SpK15QfUBX272zTDNcG3QR" type="date">
           10 Fredagen den 14 juni, e. m.
         </note>
-        <u xml:id="i-VLEM631KbP2egozHmcHgLF" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-Tim5si2RBepKrKTwrodBje" next="i-XfLqiSGn4PEgXMC6g3U9p9">
+        <u xml:id="i-VLEM631KbP2egozHmcHgLF" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-9XbvdWWiS4rTXWHjzHzuQv">
           <seg xml:id="i-CNTq1eqFUeDBErC1gHHB8M">
             inte, att det kommer att spela någon synnerligen stor roll, i
             varje fall ingen för staten farlig roll.
           </seg>
-        </u>
-        <u xml:id="i-XfLqiSGn4PEgXMC6g3U9p9" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-VLEM631KbP2egozHmcHgLF">
           <seg xml:id="i-BbubagUMnDBhS6Bcqy59nQ">
             Men naturligtvis är det en invecklad historia att skilja stat
             och kyrka åt, och det göres inte enbart genom diskussioner. Att
@@ -1023,7 +995,7 @@
         <note xml:id="i-9rZhRKQ2eDjfREECdFimKK" type="speaker">
           Herr Bergqvist:
         </note>
-        <u xml:id="i-NF6bmHuzE7YZcvMXkWHAgN" who="i-Pra5AmyY3ass9UYtDcqwJR" next="i-4NHMdzENvay8VBYomkVGCD">
+        <u xml:id="i-NF6bmHuzE7YZcvMXkWHAgN" who="i-Pra5AmyY3ass9UYtDcqwJR" next="i-Wq13MxwNwLDSKhJzxw3Rao">
           <seg xml:id="i-6YDWQmDt6qaiU82cnx9XWY">
             Herr greve och talman, mina herrar! Det är ledsamt, att det icke
             sällan inträffar, att stora, viktiga och djupt ingripande frågor
@@ -1031,8 +1003,6 @@
             äro ytterst glest besatta. Detta än nu fallet med den fråga, som
             för närvarande diskuteras, och med nästa fråga, som står på föredragningslistan.
           </seg>
-        </u>
-        <u xml:id="i-4NHMdzENvay8VBYomkVGCD" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-NF6bmHuzE7YZcvMXkWHAgN" next="i-FBQAcHA1EagedKUxbrc8JL">
           <seg xml:id="i-JGffdruaBuRYKg4WNxiPNu">
             Frågan om upplösande av bandet emellan stat och kyrka i vårt
             land är utan tvivel en av de viktigaste och mest ingripande frågor,
@@ -1056,8 +1026,6 @@
             rubbning av vårt nationella liv, som komme att medföra oöverskådliga
             verkningar.
           </seg>
-        </u>
-        <u xml:id="i-FBQAcHA1EagedKUxbrc8JL" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-4NHMdzENvay8VBYomkVGCD" next="i-Wq13MxwNwLDSKhJzxw3Rao">
           <seg xml:id="i-RcauwXsmNz89aHipDEyCm1">
             Olika åsikter råda om nyttan av den här ifrågasatta reformen.
             Det är nog många, som dela motionärernas uppfattning, att en sådan
@@ -1078,7 +1046,7 @@
         <note xml:id="i-59sPj178GCypL3fjNvdvWF">
           Fredagon den 14 juni, e. m, 11
         </note>
-        <u xml:id="i-Wq13MxwNwLDSKhJzxw3Rao" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-FBQAcHA1EagedKUxbrc8JL" next="i-NELNH6BWJcGm4oub8pmNQd">
+        <u xml:id="i-Wq13MxwNwLDSKhJzxw3Rao" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-NF6bmHuzE7YZcvMXkWHAgN" next="i-GYqyaYqoHu2bhKsM7z3XrV">
           <seg xml:id="i-ReLRBM3jN8vFLyqwmQBP1X">
             skadlig än gagnelig för det religiösa livet. — Som man finner,
             äro dessa anklagelser mot vår kyrka synnerligen grava. Men det
@@ -1086,8 +1054,6 @@
             överdrivna, och jag kan icke tänka mig, att denna kammare skulle
             vilja såsom instans i målet bekräfta dem.
           </seg>
-        </u>
-        <u xml:id="i-NELNH6BWJcGm4oub8pmNQd" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-Wq13MxwNwLDSKhJzxw3Rao" next="i-5A6urqmUmTN1FNvGqQQz5x">
           <seg xml:id="i-9jzrDCZpgFDz2ipQhqowNe">
             Jag ber i detta sammanhang få beröra ett par uttalanden, som
             gJorts i andra kammaren dels vid debatten om det ämne, som nu
@@ -1106,8 +1072,6 @@
             Inför dem måste statskyrkan böja sig och förklara, att vad staten
             gör är rätt. Vi hava sett det tillräckligt under kriget.»
           </seg>
-        </u>
-        <u xml:id="i-5A6urqmUmTN1FNvGqQQz5x" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-NELNH6BWJcGm4oub8pmNQd" next="i-GYqyaYqoHu2bhKsM7z3XrV">
           <seg xml:id="i-7455YWx6jPQFzfTizSPSU5">
             Det är enligt min uppfattning nästan oförklarligt, huru sådana
             uttalanden kunnat göras av män, som äro kända för ett upplyst
@@ -1159,7 +1123,7 @@
         <note xml:id="i-SSvw3spCio3Bc6ke5tEfsx" type="date">
           12 Fredagen den 14 juni, e. m.
         </note>
-        <u xml:id="i-GYqyaYqoHu2bhKsM7z3XrV" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-5A6urqmUmTN1FNvGqQQz5x" next="i-DZDjJYGaA26EHVbXX26yyu">
+        <u xml:id="i-GYqyaYqoHu2bhKsM7z3XrV" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-Wq13MxwNwLDSKhJzxw3Rao" next="i-VSQXNEQGUTUVabojm4a73h">
           <seg xml:id="i-7n92om4Di69GW51t6Zwhqe">
             För en stor del av vårt folk skulle emellertid en upplösning
             av bandet mellan stat och kyrka vara liktydigt med en nationell
@@ -1170,8 +1134,6 @@
             för en kristen stat. Att detta för många skulle beteckna en tillbakagång,
             torde vara för var och en uppbenbart.
           </seg>
-        </u>
-        <u xml:id="i-DZDjJYGaA26EHVbXX26yyu" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-GYqyaYqoHu2bhKsM7z3XrV" next="i-TupjgRVcziffTHW7KWX6v5">
           <seg xml:id="i-S6rq4j1XLDQG5Mn9fFViM5">
             Vidare skulle upplösandet av detta band innebära, att staten
             icke längre kunde draga försorg om ungdomens kristliga undervisning
@@ -1183,8 +1145,6 @@
             i våra skolor upphöra, så skulle man därför i och med detta anse
             sig hava gjort en oerhörd förlust på det andligt kulturella området.
           </seg>
-        </u>
-        <u xml:id="i-TupjgRVcziffTHW7KWX6v5" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-DZDjJYGaA26EHVbXX26yyu" next="i-9xRcVZNMrQaSMGkD1ArL9H">
           <seg xml:id="i-EEqMsjy9K2bLVEw5CDTasx">
             Man hänvisar till att det skulle bliva kyrkans sak att taga hand
             om kristendomsundervisningen. Ja, det är mycket riktigt, men man
@@ -1195,8 +1155,6 @@
             en stor del av vår svenska ungdom skulle få växa upp utan att
             erhålla någon kristlig undervisning.
           </seg>
-        </u>
-        <u xml:id="i-9xRcVZNMrQaSMGkD1ArL9H" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-TupjgRVcziffTHW7KWX6v5" next="i-YK7A2rGoZXGTS7mXJgEzmA">
           <seg xml:id="i-BSMkduSFtse8uTdPwrwhF2">
             Vidare skulle det bliva en följd, att prästbildningen flyttades
             från universiteten. Kyrkan måste då taga hand om utbildningen
@@ -1208,8 +1166,6 @@
             det är en stor fördel för vårt folk, så länge vi hava ett universitetsbildat
             prästerskap.
           </seg>
-        </u>
-        <u xml:id="i-YK7A2rGoZXGTS7mXJgEzmA" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-9xRcVZNMrQaSMGkD1ArL9H" next="i-VSQXNEQGUTUVabojm4a73h">
           <seg xml:id="i-odH48banwXsxXzUo3SPHQ">
             Sekterismen komme att bliva härskande. Det har här framhållits,
             att den enhetlighet i religiös uppfattning, som i stort sett råder
@@ -1231,7 +1187,7 @@
         <note xml:id="i-BUuLxFTmuFpqf4rwKzjSCR" type="date">
           Fredagen den 14 juni, eo. m. 13 Nr äs,
         </note>
-        <u xml:id="i-VSQXNEQGUTUVabojm4a73h" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-YK7A2rGoZXGTS7mXJgEzmA" next="i-97NeBdwKT5tbhrQ9CDd8Jg">
+        <u xml:id="i-VSQXNEQGUTUVabojm4a73h" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-GYqyaYqoHu2bhKsM7z3XrV" next="i-PncFWXEby2TDdL7Adam8Fm">
           <seg xml:id="i-YaR7zJWoLmkLuevygRtpf4">
             tioner skulle komma att sönderfalla i lika många kyrkor, och
             vad Om upplösning detta skulle hava att betyda för vårt folks
@@ -1241,13 +1197,9 @@
             att vantron i skymning och natt drev sitt spel, under det att
             man om
           </seg>
-        </u>
-        <u xml:id="i-97NeBdwKT5tbhrQ9CDd8Jg" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-VSQXNEQGUTUVabojm4a73h" next="i-H2N1TvR2Y8ZJ7JgzXLQA2c">
           <seg xml:id="i-MLv9E58TbUoB8FzX33AJre">
             dagen ävlades att offra påupplysningens altare.
           </seg>
-        </u>
-        <u xml:id="i-H2N1TvR2Y8ZJ7JgzXLQA2c" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-97NeBdwKT5tbhrQ9CDd8Jg" next="i-SqY3B349LAaygXqMiAFruh">
           <seg xml:id="i-UtTppgnS3bxeiT1R1Am3ZP">
             Man klagar över dogmväsendet, men man kan vara viss om att detta
             dogmväsende skulle efterträdas av någonting, som vore ytltervärre,
@@ -1279,8 +1231,6 @@
             från religionsfrihetens synpunkt driva den satsen, att sambandet
             mellan stat och kyrka måste upphävas.
           </seg>
-        </u>
-        <u xml:id="i-SqY3B349LAaygXqMiAFruh" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-H2N1TvR2Y8ZJ7JgzXLQA2c" next="i-PncFWXEby2TDdL7Adam8Fm">
           <seg xml:id="i-Xzwt22yTKFuUdwVkhhEUrR">
             Man har också anmärkt, att kyrkan misslyckats i sin fostraregärning.
             Man säger, att den nu arbetat under århundraden, den har predikat
@@ -1308,7 +1258,7 @@
         <note xml:id="i-TXfwzgmPPWvrSujo3NwiTJ" type="date">
           1i Fredagen den 14 juni, e. m.
         </note>
-        <u xml:id="i-PncFWXEby2TDdL7Adam8Fm" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-SqY3B349LAaygXqMiAFruh" next="i-N4n8XEECeo1J4CwcxUWFHM">
+        <u xml:id="i-PncFWXEby2TDdL7Adam8Fm" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-VSQXNEQGUTUVabojm4a73h" next="i-U4EAPUa9Dgek2pG1fwvWeW">
           <seg xml:id="i-Do8qr5BWF6gcRBmzC5JVbb">
             Detta har medfört stora förändringar. Den sociala frågan har
             uppkommit och upptagit människornas sinnen. Allt detta har dragit
@@ -1318,8 +1268,6 @@
             kvar så mycket av kristen botten i vår svenska folksjäl, som faktiskt
             fallet är.
           </seg>
-        </u>
-        <u xml:id="i-N4n8XEECeo1J4CwcxUWFHM" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-PncFWXEby2TDdL7Adam8Fm" next="i-En7evZxL94mmquiRY7e91d">
           <seg xml:id="i-VwwVHV1LTEbi5v3VUbtWxA">
             Det finnes i vårt folk mycken kristen tro ännu. Den som kävner
             till allmogen på landet vet, hur djupt den kristna tron och kärleken
@@ -1335,8 +1283,6 @@
             erkänna, och i varje fall mycket djupare rötter, än motionärerna
             velat erkänna.
           </seg>
-        </u>
-        <u xml:id="i-En7evZxL94mmquiRY7e91d" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-N4n8XEECeo1J4CwcxUWFHM" next="i-1q6ejKSta2rKnry3CJidg">
           <seg xml:id="i-5KHHcd48KcSYw2shBYKpUj">
             Nu hava visserligen reservanterna i utskottet icke velat gå fullt
             så långt, som motionärerna föreslagit och andra kammaren beslutat,
@@ -1347,8 +1293,6 @@
             uttalade förutsättningen, att det skulle vara önskvärt, att detta
             samband bleve upplöst.
           </seg>
-        </u>
-        <u xml:id="i-1q6ejKSta2rKnry3CJidg" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-En7evZxL94mmquiRY7e91d" next="i-U4EAPUa9Dgek2pG1fwvWeW">
           <seg xml:id="i-VBdZ57K8ejZZ5FRf6BUFyU">
             Det kunde kanske sättas i fråga, huruvida det är lämpligt att
             en svenska kyrkans präst tager till orda i denna sak, då han möjligen
@@ -1377,13 +1321,11 @@
         <note xml:id="i-GRpgE7PmcCXR51dRLJnmFT" type="date">
           Fredagen den 14 juni, e. m. 15
         </note>
-        <u xml:id="i-U4EAPUa9Dgek2pG1fwvWeW" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-1q6ejKSta2rKnry3CJidg" next="i-JVftN6i2s4QGHA5FU6zfSi">
+        <u xml:id="i-U4EAPUa9Dgek2pG1fwvWeW" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-PncFWXEby2TDdL7Adam8Fm">
           <seg xml:id="i-6vRu9wf1LUq94AMBJKABWG">
             avseende, och detta under den svenska kyrkans verksamhet i hennes
             förening med den svenska staten.
           </seg>
-        </u>
-        <u xml:id="i-JVftN6i2s4QGHA5FU6zfSi" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-U4EAPUa9Dgek2pG1fwvWeW" next="i-DutJoKDhnVvmGDPPfk111e">
           <seg xml:id="i-6fwpfiag1khP5D7iXiJr1q">
             Jag skall visserligen vara den första att med herr Klefbeck erkänna,
             att den svenska kyrkan har många synder på sitt samvete, och att
@@ -1395,8 +1337,6 @@
             och söka göra sin gärning på ett bättre sätt efter en kraft, som
             kyrkans Herre kan förläna.
           </seg>
-        </u>
-        <u xml:id="i-DutJoKDhnVvmGDPPfk111e" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-JVftN6i2s4QGHA5FU6zfSi">
           <seg xml:id="i-P8K8HMfXA7PyHiQSSwT6ew">
             Med dessa ord, herr greve och talman, ber jag att få yrka bifall
             till utskottets förslag.
@@ -1405,7 +1345,7 @@
         <note xml:id="i-e61ibCMsJqVwY2SNH4j7L" type="speaker">
           Herr Bergman:
         </note>
-        <u xml:id="i-MTMQTvw72npNbc9uwNJesR" who="i-Vx6T7XXUYWdTteLg1ZSBWc" next="i-MQVwP8PQ8mrjjRwLWsNik">
+        <u xml:id="i-MTMQTvw72npNbc9uwNJesR" who="i-Vx6T7XXUYWdTteLg1ZSBWc" next="i-Sbxtp1zvB1Zj9HnbVEMsaW">
           <seg xml:id="i-9QrWQtLbgKdSDaJJf9KzLA">
             Den siste ärade talaren yttrade, att kristentendomen har djupa
             rötter bland folket, och däri ger jag honom fullkomligt rätt.
@@ -1415,8 +1355,6 @@
             som heter den nuvarande statskyrkan, bleve avlägsnad, åtminstone
             i det skick som hon nu har.
           </seg>
-        </u>
-        <u xml:id="i-MQVwP8PQ8mrjjRwLWsNik" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-MTMQTvw72npNbc9uwNJesR" next="i-8KL589CaPwTz3ZuqDtk6Xt">
           <seg xml:id="i-CJ3Gt8mRN6oY6UDNJ4UXm6">
             Vad tro herrarna att Kristus själv, i fall han deltoge i våra
             dagars kyrkodiskussioner, skulle säga i denna debatt? Han stod
@@ -1446,8 +1384,6 @@
             många synder på sitt samvete emot religionen, och hon syndar ännu
             dagligen och i mångahanda måtto låt vara i mindre brutala former.
           </seg>
-        </u>
-        <u xml:id="i-8KL589CaPwTz3ZuqDtk6Xt" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-MQVwP8PQ8mrjjRwLWsNik" next="i-Sbxtp1zvB1Zj9HnbVEMsaW">
           <seg xml:id="i-UJZLeAhZhjdJ39wwEkFgd2">
             Av de herrar, som här ha försvarat utskottets avstyrkande ut-
           </seg>
@@ -1477,7 +1413,7 @@
         <note xml:id="i-XNnBbrj3jDyXGGCbXppyWU" type="date">
           16 Fredagen den 14 juni, e. m.
         </note>
-        <u xml:id="i-Sbxtp1zvB1Zj9HnbVEMsaW" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-8KL589CaPwTz3ZuqDtk6Xt" next="i-87d5DjpHbtEZMP21LJ9Qky">
+        <u xml:id="i-Sbxtp1zvB1Zj9HnbVEMsaW" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-MTMQTvw72npNbc9uwNJesR" next="i-FsAke5vsD8YZf2PmuNPAiu">
           <seg xml:id="i-UWJ2mpVK3YpHjzA4VJs52k">
             låtande, yttrade herr Borell, utskottets ärade ordförande, att
             han troåde, att kampen emot statskyrkan ifrån kristlig och kyrklig
@@ -1506,8 +1442,6 @@
             rätt att kalla sig med Kristi namn eller skryta med den kristliga
             uppfostran den ger åt ungdomen.
           </seg>
-        </u>
-        <u xml:id="i-87d5DjpHbtEZMP21LJ9Qky" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-Sbxtp1zvB1Zj9HnbVEMsaW" next="i-6MZmSpz4oXgrPvR5THAqmE">
           <seg xml:id="i-FKDnP1fs2VwkEMGaWYe5MR">
             Nu tycktes den föregående ärade talaren förmena, att kyrkan icke
             hade förbrutit sig någonting särskilt i avseende på kriget. Jag
@@ -1526,13 +1460,9 @@
             hans vördnadsbjudande självständighet vis å vis de krigförande
             statsförbunden och intressegrupperna.
           </seg>
-        </u>
-        <u xml:id="i-6MZmSpz4oXgrPvR5THAqmE" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-87d5DjpHbtEZMP21LJ9Qky" next="i-DDpQ4DmL12qPGC187dVzqQ">
           <seg xml:id="i-45FL7eE91cfBTCsLfggzbH">
             Det har talats här förut av en annan talare om ederna.
           </seg>
-        </u>
-        <u xml:id="i-DDpQ4DmL12qPGC187dVzqQ" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-6MZmSpz4oXgrPvR5THAqmE" next="i-FsAke5vsD8YZf2PmuNPAiu">
           <seg xml:id="i-AFy9hyRmr4LWKmzDawY7DC">
             Kyrkan vördar ju som ett omedelbart Mästareord: »I skolen alls
             icke svärja; Edert tal skall vara ja, ja och nej, nej, vad därutöver
@@ -1546,15 +1476,13 @@
         <note xml:id="i-GnB2FVgRekuCNpdWrDdArj" type="date">
           Fredagen den 14 juni, e. m. 17 Nr 55.
         </note>
-        <u xml:id="i-FsAke5vsD8YZf2PmuNPAiu" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-DDpQ4DmL12qPGC187dVzqQ" next="i-8ByjiuCyL3YohJGVkiNLmh">
+        <u xml:id="i-FsAke5vsD8YZf2PmuNPAiu" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-Sbxtp1zvB1Zj9HnbVEMsaW" next="i-MRr7LfsurssYkEv2k1Lkf7">
           <seg xml:id="i-HUyhpncA7FYAfUFJEsJzTR">
             över vad han förklarat vara ett brott o. s. v., vo. s. v. Man
             skulle om upplösning kunna räkna upp en hel mängd sådana där konflikttall,
             varigenom av sambandet statskyrkoprästen måste komma i en ofrånkomlig
             inre motsägelse mellan kyrkan med sitt samvete. (Forts.)
           </seg>
-        </u>
-        <u xml:id="i-8ByjiuCyL3YohJGVkiNLmh" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-FsAke5vsD8YZf2PmuNPAiu" next="i-ETsagpactQ5U5CiCu2zQWV">
           <seg xml:id="i-7whHPYoxjwWQu1sKVikdFz">
             En av dem som i alton hava försvarat statskyrkoformen, själv
             | en kyrkans tjänare, kyrkoherde Klefbeck, yttrade dock till sist,
@@ -1568,13 +1496,9 @@
             en fullkomligt opartisk och allsidig utredning angående de eventuella
             fördelarna och olägenheterna av en skilsmässa.
           </seg>
-        </u>
-        <u xml:id="i-ETsagpactQ5U5CiCu2zQWV" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-8ByjiuCyL3YohJGVkiNLmh" next="i-GYTYtfynbxWFPyChpTfXEq">
           <seg xml:id="i-MFM69Ame8D7xh6MKSgi5RZ">
             Ja, då kan jag säga, att jag är nöjd med herr Klefbecks för-
           </seg>
-        </u>
-        <u xml:id="i-GYTYtfynbxWFPyChpTfXEq" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-ETsagpactQ5U5CiCu2zQWV" next="i-RyJYmqDRYdBzSG8mAhCwEU">
           <seg xml:id="i-Ltme4UU8uAHCgKCw95VSFf">
             klaring och jag behöver därför ej bemöta hans övriga argumentering.
             Han sade emellertid ett ord om den katolska kyrkan, som man skulle
@@ -1599,8 +1523,6 @@
             henne.» Man hade nämligen då sökt skrämma särskilt för judar och
             katoliker.
           </seg>
-        </u>
-        <u xml:id="i-RyJYmqDRYdBzSG8mAhCwEU" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-GYTYtfynbxWFPyChpTfXEq" next="i-CBAPwj7GegCYFyBGK5uDpF">
           <seg xml:id="i-KGbunmeCn59gAtLL2UBekD">
             Den tredje huvudförsvararen av utskottets utlåtande, professor
             Hjärne, har som vanligt rätt i de synpunkter, han anlägger. Han
@@ -1610,8 +1532,6 @@
             sig att säga den följande, om han i fortsättningen vill hava någon
             Talan.
           </seg>
-        </u>
-        <u xml:id="i-CBAPwj7GegCYFyBGK5uDpF" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-RyJYmqDRYdBzSG8mAhCwEU" next="i-MRr7LfsurssYkEv2k1Lkf7">
           <seg xml:id="i-TSuRxT9uQ62yDhfpKkbYyv">
             Även om det nu skulle varit oriktigt att säga A, draga konsekvenserna
             ovillkorligen B med sig — det var kontentan av vad han den gången
@@ -1634,7 +1554,7 @@
         <note xml:id="i-Hkqqc3p1TCxNEWLgrfsdhH" type="date">
           18 Fredagen den 14 juni, c. m.
         </note>
-        <u xml:id="i-MRr7LfsurssYkEv2k1Lkf7" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-CBAPwj7GegCYFyBGK5uDpF" next="i-2FWcGDhQU5kBKVG7DVGxMd">
+        <u xml:id="i-MRr7LfsurssYkEv2k1Lkf7" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-FsAke5vsD8YZf2PmuNPAiu" next="i-FT1r5dhRbucQsSgZL8PvXd">
           <seg xml:id="i-Bej954cFPCj7G9voqPwq1u">
             fessor Hjärne också alldeles rätt, då han säger, att vi knappast
             borde diskutera denna sak i riksdagen. »Herrarna skola icke diskutera
@@ -1645,8 +1565,6 @@
             och fri kyrka! Med en statskyrka bli dessa riksdagens kyrkodebatter
             tyvärr en oundviklig nödvändighet.
           </seg>
-        </u>
-        <u xml:id="i-2FWcGDhQU5kBKVG7DVGxMd" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-MRr7LfsurssYkEv2k1Lkf7" next="i-KfSDm4QdsBpj8dJvQJX7qh">
           <seg xml:id="i-MyCcDnuCzzzWnPRdL6qK2e">
             Det har antytts, att det skulle innebära en fara för folkets
             avkristning, om utredningskravet skulle bifallas. Det är ju orimligt
@@ -1681,8 +1599,6 @@
             kontrollen skulle icke innebära annat än ett övervakande att kyrkan
             ej kränkte statens rätt.
           </seg>
-        </u>
-        <u xml:id="i-KfSDm4QdsBpj8dJvQJX7qh" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-2FWcGDhQU5kBKVG7DVGxMd" next="i-FT1r5dhRbucQsSgZL8PvXd">
           <seg xml:id="i-KPZrMrhW4CmyLNpAJyxXL7">
             Häri kan även anses ligga att staten har rätt att kräva tillräcklig
             bildning hos prästerskapet, särskilt om staten skall ekonomiskt
@@ -1700,7 +1616,7 @@
         <note xml:id="i-Nt6ZrsbnYKQrE5AcyKGwbu" type="date">
           Fredagen den 14 juni, e wm. 19
         </note>
-        <u xml:id="i-FT1r5dhRbucQsSgZL8PvXd" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-KfSDm4QdsBpj8dJvQJX7qh" next="i-H4kneirr3Dfo93X5r9qfvo">
+        <u xml:id="i-FT1r5dhRbucQsSgZL8PvXd" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-MRr7LfsurssYkEv2k1Lkf7">
           <seg xml:id="i-J7tMgC39xp3w7BSGCMDs8e">
             guste livsangelägenheter. Den, som tillhör kyrkan, har nimligen
             i alt yttra sig på kyrkostämma och där deltaga i besluten, han
@@ -1724,8 +1640,6 @@
             och en verkligt allvarig utredning av vad som bör göras för att
             såväl staten som kyrkan skall må väl i framtiden.
           </seg>
-        </u>
-        <u xml:id="i-H4kneirr3Dfo93X5r9qfvo" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-FT1r5dhRbucQsSgZL8PvXd" next="i-2geD1d2Kf4jJ3k3pyyWS7B">
           <seg xml:id="i-3AgUi4NKkHHXqsGehbNGcW">
             Det är alltså ingalunda något slags åstundan att komma religionen
             till livs, som ligger bakom detta, åtminstone ej från deras sida
@@ -1745,8 +1659,6 @@
             framåt utan alt se i fjärran någon ädel syn som målet för sin
             färd, då råder jag profeten att sia olyckor.»
           </seg>
-        </u>
-        <u xml:id="i-2geD1d2Kf4jJ3k3pyyWS7B" who="i-Vx6T7XXUYWdTteLg1ZSBWc" prev="i-H4kneirr3Dfo93X5r9qfvo">
           <seg xml:id="i-2DqYa3LCQWoaCVfpZvqD2B">
             Jag tror, att det innerst sett är just sådana synpunkter, ideala
             synpunkter och strävanden till sanning, till andlig välfärd för
@@ -1792,7 +1704,7 @@
         <note xml:id="i-VXyb9QRxN6V2BF44gMaqHb">
           av sambandet I act: mellan kyrkan best och staten. (Forts.)
         </note>
-        <u xml:id="i-LeBxqEUarBaf7vp5drexDJ" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-5avtfc83irGAB2XAXLYcg4" next="i-85PinnZKQQ6RKC8nr3EoNG">
+        <u xml:id="i-LeBxqEUarBaf7vp5drexDJ" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-5avtfc83irGAB2XAXLYcg4" next="i-X67av6SBM9Ju8JnSXUMPu8">
           <seg xml:id="i-NojZnGQEAmUUbM48yZFqEE">
             imd gensaga mot det sätt, varpå han behandlade den svenska kyrkan
             under dess historia, de uppgifter den haft och den verksamhet
@@ -1808,8 +1720,6 @@
             anledning att inlägga en liknande gensaga även mot åtskilliga
             andra punkter 1 hans framställning.
           </seg>
-        </u>
-        <u xml:id="i-85PinnZKQQ6RKC8nr3EoNG" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-LeBxqEUarBaf7vp5drexDJ" next="i-5PCpzEf9C4Q7UjEvWVYKGv">
           <seg xml:id="i-Bkvuc5iuas6vUbvjtGHbfg">
             Detta sakförhållande, som framträder i den svenska kyrkans historia,
             förändras icke, om man gör, som här skett, räknar upp vissa kyrkans
@@ -1817,8 +1727,6 @@
             även från denna, men glömmer samtidigt alldeles bort dess förtjänster
             och de goda insatser som den gjort i vårt folks liv.
           </seg>
-        </u>
-        <u xml:id="i-5PCpzEf9C4Q7UjEvWVYKGv" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-85PinnZKQQ6RKC8nr3EoNG" next="i-QdRtuBncXzCA1r6mMrkxnB">
           <seg xml:id="i-GwEs3gcM3GdrbgJpB3tw5c">
             Ungefär liknande blev intrycket på mig, då jag hörde herr Olof
             Olssons framställning, som tycktes vilja göra gällande, att enligt
@@ -1832,14 +1740,10 @@
             ensam, alldeles ensam, vilket icke hindrat, att hans sanning sedan
             har blivit miljoners lycka.
           </seg>
-        </u>
-        <u xml:id="i-QdRtuBncXzCA1r6mMrkxnB" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-5PCpzEf9C4Q7UjEvWVYKGv" next="i-NqZdX1PQHHNa5gpGyLfRRj">
           <seg xml:id="i-MEexGUNsHtc96sBmrxP7u2">
             Även mot herr Bergmans framställning kunde åtskilligt vara att
             genmäla, men jag skall icke heller upptaga tiden därmed.
           </seg>
-        </u>
-        <u xml:id="i-NqZdX1PQHHNa5gpGyLfRRj" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-QdRtuBncXzCA1r6mMrkxnB" next="i-X67av6SBM9Ju8JnSXUMPu8">
           <seg xml:id="i-QBmGtY7ijTPAFGdpN548Ed">
             Vad själva saken angår, skall jag inskränka mig till endast några
             få satser. När den svenska staten för omkring 1,000 år sedan upptog
@@ -1866,7 +1770,7 @@
         <note xml:id="i-F6GyECbzzhXrLxVedxxuPC" type="date">
           Fredagen den 14 juni, e. m. 21
         </note>
-        <u xml:id="i-X67av6SBM9Ju8JnSXUMPu8" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-NqZdX1PQHHNa5gpGyLfRRj" next="i-Koi6bpgQJhgdw6wW2CCapU">
+        <u xml:id="i-X67av6SBM9Ju8JnSXUMPu8" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-LeBxqEUarBaf7vp5drexDJ">
           <seg xml:id="i-RB1gTyKwYa8NiEvF1ob1wA">
             evangeliska form, då skulle detta antingen betyda, att staten
             ställde sig likgiltig till dessa sedliga och etiska uppgifter,
@@ -1877,8 +1781,6 @@
             att uppställa dylika enande program! Redan detta är för mig alldeles
             tillräckligt skäl att yrka bifall till utskottets hemställan.
           </seg>
-        </u>
-        <u xml:id="i-Koi6bpgQJhgdw6wW2CCapU" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-X67av6SBM9Ju8JnSXUMPu8" next="i-JPsTaFABZKGZKefGPKwq9E">
           <seg xml:id="i-CozD8CbCTsKKtUZuPuGyvK">
             Men jag kan icke underlåta att säga, att då herr Klefbeck bland
             sina skäl för att bibehålla statskyrkan även, såvitt jag icke
@@ -1900,8 +1802,6 @@
             erkänt, icke bliva fri, ty staten skulle hava kontroll över vad
             som fick (rna i den kyrkan. Men hur skulle det då gå med religionsfriheten”?
           </seg>
-        </u>
-        <u xml:id="i-JPsTaFABZKGZKefGPKwq9E" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-Koi6bpgQJhgdw6wW2CCapU" next="i-HHcrmWnFwcvbUoEcfSKbk">
           <seg xml:id="i-4mFZnHzpMtQ8HihoSikv8T">
             Liksom herr Hjärne skall jag till sist be att få i detta sammanhang
             yttra ett par ord rörande det betänkande, som kommer efter detta,
@@ -1921,15 +1821,11 @@
             förmaning; det vill icke utbyta den förmånen mot de uppfostringsplaner,
             som motionärerna vilja sätta i stället.
           </seg>
-        </u>
-        <u xml:id="i-HHcrmWnFwcvbUoEcfSKbk" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-JPsTaFABZKGZKefGPKwq9E" next="i-Pecmnxmio6wdTQcgGm6nxz">
           <seg xml:id="i-Gq9SLgX6VDiKy5RmJXqTqr">
             På dessa grunder skall jag till sist be att få instämma med herr
             Bergman, då han erinrade. att om man icke vill säg. B, skall man
             icke heller säga ÅA.
           </seg>
-        </u>
-        <u xml:id="i-Pecmnxmio6wdTQcgGm6nxz" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-HHcrmWnFwcvbUoEcfSKbk">
           <seg xml:id="i-CYGw2sYiKsBLTpntYvZCsk">
             Jag ber att få yrka bifall till utskottets hemställan.
           </seg>
@@ -1983,7 +1879,7 @@
         <note xml:id="i-Q2JYBLqBV86xM66wqDofk6" type="speaker">
           Herr Olsson, Olof:
         </note>
-        <u xml:id="i-WKQmk5h2ovnLqxSEsa9Pyg" who="i-AwBs4Cp83TTbZr1ZyVyniN" next="i-qPfF3iQGBd1rZsSjXyw4o">
+        <u xml:id="i-WKQmk5h2ovnLqxSEsa9Pyg" who="i-AwBs4Cp83TTbZr1ZyVyniN" next="i-WvSyridBp7UE2N251xT4yA">
           <seg xml:id="i-XRpF5dNXSWNkmXqTQ6xF79">
             Herr talman! Endast ett par ord till herr Clason. Jag gick naturligtvis
             i mitt anförande ut ifrån att vad som gjorde, att man intog den
@@ -1993,23 +1889,17 @@
             att göra sig samvete av att även om så skulle vara med tvång söka
             uppfostra alla i denna protestan-
           </seg>
-        </u>
-        <u xml:id="i-qPfF3iQGBd1rZsSjXyw4o" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-WKQmk5h2ovnLqxSEsa9Pyg" next="i-UjFKzZtVWbhdqb9V5jTtqF">
           <seg xml:id="i-8PErvie4tUB49tJd1uwTx3">
             tism. Med de siffror jag angav — som för övrigt på grund av en
             missägning av mig, då jag råkade byta ut ordet protestant mot
             kristen, vållade litet förvirring — ville jag visa. att protestantismen
           </seg>
-        </u>
-        <u xml:id="i-UjFKzZtVWbhdqb9V5jTtqF" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-qPfF3iQGBd1rZsSjXyw4o" next="i-GAi8rK7gUmZ7A53sUX5gpm">
           <seg xml:id="i-SzBBbdppk1ytnerwK7u4un">
             som salighetsmedel inte spelade den stora roll, som man kanske
             trodde. Jag sade detta huvudsakligen för att mana protestanterna
             till en viss självbesinning. Jag finner nu, att jag blivit alldeles
             missförstådd i den punkten. — Detta till herr Clason.
           </seg>
-        </u>
-        <u xml:id="i-GAi8rK7gUmZ7A53sUX5gpm" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-UjFKzZtVWbhdqb9V5jTtqF" next="i-WvSyridBp7UE2N251xT4yA">
           <seg xml:id="i-XWHAJ7igd7i1CrdVxPWH94">
             Till herr Bergqvist vill jag också endast säga ett par ord; tiden
             lämpar sig ju inte för långa diskussioner. Hans anförande var
@@ -2143,7 +2033,7 @@
           i skolorna samt för riksdagen framlägga de förslag, vartill en
           sådan utredning kunde föranleda.
         </note>
-        <u xml:id="i-WvSyridBp7UE2N251xT4yA" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-GAi8rK7gUmZ7A53sUX5gpm" next="i-AATVn4AJYctJQRKVAkoq8f">
+        <u xml:id="i-WvSyridBp7UE2N251xT4yA" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-WKQmk5h2ovnLqxSEsa9Pyg" next="i-AATVn4AJYctJQRKVAkoq8f">
           <seg xml:id="i-CvR11pQH2WuEWzXo8go6TF">
             Detta beslut har delgivits första kammaren, som hänvisat ärendet
             till sitt första tillfälliga utskott, vilket behandlat frågan
@@ -2182,15 +2072,13 @@
         <note xml:id="i-3ruxe6eLMY4XBrUL4Xtiw1" type="date">
           Fredagen den 14 juni, e. m, 20
         </note>
-        <u xml:id="i-LrMQbq5DzQkMWMfvHy8CCM" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-AATVn4AJYctJQRKVAkoq8f" next="i-2MeP5ToPnkzARDBMc7BnsC">
+        <u xml:id="i-LrMQbq5DzQkMWMfvHy8CCM" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-AATVn4AJYctJQRKVAkoq8f" next="i-9ixxGMcSnRAqmjf52hFRRk">
           <seg xml:id="i-WVjW6htFSYURhYS8tVx9oZ">
             mare, därtill uttröttad, uttråkad, otålig och följaktligen ointresserad.
             Under sådana förhållanden kännes det just inte uppmuntrande att
             nödgas taga till orda. Jag skall emellertid så enkelt och så kort
             jag kan såsom motionär i frågan uttala min mening i densamma.
           </seg>
-        </u>
-        <u xml:id="i-2MeP5ToPnkzARDBMc7BnsC" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-LrMQbq5DzQkMWMfvHy8CCM" next="i-QmMmF5RHFJcxhz9q5MeBFV">
           <seg xml:id="i-AQuZ8Xs4RuWjfaSgcnMqME">
             Det. som vållar striden om religionsundervisningen, är naturligtvis
             väsentligen det, att denna undervisning övar en religiös påverkan.
@@ -2200,8 +2088,6 @@
             en religiös påverkan i en viss riktning, framkallar frågan om
             den strid.
           </seg>
-        </u>
-        <u xml:id="i-QmMmF5RHFJcxhz9q5MeBFV" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-2MeP5ToPnkzARDBMc7BnsC" next="i-8yY8YVMdsBWvFeF986wsoV">
           <seg xml:id="i-GVe764Vyerd6mitg2MQ91G">
             Man kan då spörja sig: bör det förekomma en sådan religiös påverkan
             i religionsundervisningen, och om den bör förekomma, 'hurudan
@@ -2217,8 +2103,6 @@
             är en andlig makt, mystisk och oförklarlig, som sätter människan
             i omedelbar förbindelse med de högsta livsvärdena.
           </seg>
-        </u>
-        <u xml:id="i-8yY8YVMdsBWvFeF986wsoV" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-QmMmF5RHFJcxhz9q5MeBFV" next="i-KMTHibt96qt8FPJNEPx8eo">
           <seg xml:id="i-3EXpRswdf3VxYkKjaxfVnw">
             Den nuvarande religionsundervisningen är väsentligen inrättad
             efter den första uppfattningen. Katekesen liksom de förslag, som
@@ -2243,8 +2127,6 @@
             det väsentliga motivet för många kyrkligt och politiskt ortodoxa
             personer, då de yrka på, att katekesen skall bevaras.
           </seg>
-        </u>
-        <u xml:id="i-KMTHibt96qt8FPJNEPx8eo" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-8yY8YVMdsBWvFeF986wsoV" next="i-9ixxGMcSnRAqmjf52hFRRk">
           <seg xml:id="i-SGonvd9eMMMrufCQdbNBgX">
             Men min övertygelse är. att de misstaga sig på dess verkan. Ty,
             såsom läroverksöverstyrelsen framhåller i det uttalande, som finnes
@@ -2267,7 +2149,7 @@
         <note xml:id="i-Cmjk3xdHKXdM3gNkiEVGwK" type="date">
           26 Fredagen den 14 juni, e. m.
         </note>
-        <u xml:id="i-9ixxGMcSnRAqmjf52hFRRk" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-KMTHibt96qt8FPJNEPx8eo" next="i-MiiSo9gA243d7in1Zc8w4A">
+        <u xml:id="i-9ixxGMcSnRAqmjf52hFRRk" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-LrMQbq5DzQkMWMfvHy8CCM" next="i-5mXdPzSWWGps7qn9E7swCS">
           <seg xml:id="i-HnvvMMvicnLiQvfWnJtvYu">
             tillnärmelsevis tala om någon folkets enhetliga världsoch livsåskådning».
             Därför blir också numera verkan av katekesen en helt annan än
@@ -2299,8 +2181,6 @@
             den kaaktärsfostrande verkan, som den borde öva, att den tvärtom
             ofta verkar rent skadlig på karaktären.
           </seg>
-        </u>
-        <u xml:id="i-MiiSo9gA243d7in1Zc8w4A" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-9ixxGMcSnRAqmjf52hFRRk" next="i-2Dfzm72pFjBzSccR6Qop6Z">
           <seg xml:id="i-4KJ7Kzvbq9p1yCXXTiYSDd">
             Hur skall nu detta kunna ändras? Jo, enligt min mening genom
             att låta den andra uppfattningen av religionen, den uppfattning,
@@ -2308,8 +2188,6 @@
             förbindelse med de högsta livsvärdena, bliva bestämmande för religionsundervisningen.
             Men hur skall detta då kunna ske?
           </seg>
-        </u>
-        <u xml:id="i-2Dfzm72pFjBzSccR6Qop6Z" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-MiiSo9gA243d7in1Zc8w4A" next="i-Gyuk1sQHU8awt6GHo75X5R">
           <seg xml:id="i-D2R8hZpSaSf5DDYYuCYy2s">
             Jo, genom att låta religionen verka på de unga inte genom mer
             eller mindre döda och torra lärosatser utan genom levande personligheter.
@@ -2324,8 +2202,6 @@
             som består i livet och som kan verka bestämmande på hela deras
             livsuppfattning och livsgärning.
           </seg>
-        </u>
-        <u xml:id="i-Gyuk1sQHU8awt6GHo75X5R" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-2Dfzm72pFjBzSccR6Qop6Z" next="i-5mXdPzSWWGps7qn9E7swCS">
           <seg xml:id="i-7ZiKwvYruSXmdVTRFmDrwT">
             Det är därför. jag framställt yrkande, att det grundläggande
             för religionsundervisningen. det första barnen i den böra få lära.
@@ -2337,7 +2213,7 @@
         <note xml:id="i-5CEMWoRp72XfUQ2DFTTPDo">
           I'redagen den 14 juni, e. m. 27
         </note>
-        <u xml:id="i-5mXdPzSWWGps7qn9E7swCS" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-Gyuk1sQHU8awt6GHo75X5R" next="i-U2tzf9WjRcBfTh7mnhBgVP">
+        <u xml:id="i-5mXdPzSWWGps7qn9E7swCS" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-9ixxGMcSnRAqmjf52hFRRk" next="i-pogWkq33GMRt44N7fJoYF">
           <seg xml:id="i-Y9kCGmf5PiYaNzPeAp4gTe">
             om den frimste av dessa, om Kristus. Jag har för min del nöjt
             mig med att yrka på detta grundläggande moment i religionsundervisningen.
@@ -2353,8 +2229,6 @@
             liv och gärning, och den skulle därigenom bliva på ett belt annat
             sätt än nu personlig och levande för dem.
           </seg>
-        </u>
-        <u xml:id="i-U2tzf9WjRcBfTh7mnhBgVP" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-5mXdPzSWWGps7qn9E7swCS" next="i-A8CZNf3h3mk8XDY9NuS69c">
           <seg xml:id="i-Hx74BtSWGucSEnK3CQ6ZhA">
             Jag kan, mina herrar, inte förstå annat än att en religionsundervisning,
             så med tyngdpunkten förlagd på all religions centrum: personligheten,
@@ -2375,8 +2249,6 @@
             sådan undervisning sedan rätt länge är praktiserad vid ett läroverk
             här i landet och såvitt jag sport med mycket stor framgång.
           </seg>
-        </u>
-        <u xml:id="i-A8CZNf3h3mk8XDY9NuS69c" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-U2tzf9WjRcBfTh7mnhBgVP" next="i-R95ap7MZ8sbrPr4m1wpmxH">
           <seg xml:id="i-JhxqBVW8tVsoexfgtkyf83">
             Men nu kan man invända, att kyrkan låter sig icke nöja med en
             sådan undervisning, och herr Clason har under den föregående debatten
@@ -2394,8 +2266,6 @@
             allt lämpar sig för en så abstrakt undervisning, frånsett andra
             brister, som vidlåda denna.
           </seg>
-        </u>
-        <u xml:id="i-R95ap7MZ8sbrPr4m1wpmxH" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-A8CZNf3h3mk8XDY9NuS69c" next="i-pogWkq33GMRt44N7fJoYF">
           <seg xml:id="i-KcCzQv2d3VpyqKDe5bVVoY">
             Efter de stora linjer, som jag nu i allra största korthet uppdragit
             borde en utredning av frågan om religionsundervisningen begä-
@@ -2417,7 +2287,7 @@
         <note xml:id="i-NxiiQHNuA9k8yH7eHH1jFv" type="date">
           25 Fredagen den 14 juni, e. m.
         </note>
-        <u xml:id="i-pogWkq33GMRt44N7fJoYF" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-R95ap7MZ8sbrPr4m1wpmxH" next="i-XiB9D3uGvCZmSyFX12k41C">
+        <u xml:id="i-pogWkq33GMRt44N7fJoYF" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-5mXdPzSWWGps7qn9E7swCS">
           <seg xml:id="i-HbrdUfAAC6Ffhgp2KCCUdi">
             ras. Utskottet anser, att det inte behöves någon annan utredning
             än den, som folkskoleöverstyrelsen håller på med såsom en förberedelse
@@ -2446,8 +2316,6 @@
             att säga sin mening och göra sin mening gällande i så viktiga
             frågor som den om religionsundervisningen.
           </seg>
-        </u>
-        <u xml:id="i-XiB9D3uGvCZmSyFX12k41C" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-pogWkq33GMRt44N7fJoYF">
           <seg xml:id="i-5ggoRq3a7d9tEQK2j2Tyyt">
             Jag känner mig visserligen inte i varje punkt fullt tillfredsställd
             med reservanternas motivering för sin framställning, men det är
@@ -2462,15 +2330,13 @@
         <note xml:id="i-BkTkWFbAH2pCLCKFqBWASS" type="speaker">
           Herr Bergqvist:
         </note>
-        <u xml:id="i-XhRpCfVfhE6iuBCp6Kx8ha" who="i-Pra5AmyY3ass9UYtDcqwJR" next="i-Q6JrGyjJ8SGD4CnKEiEpzG">
+        <u xml:id="i-XhRpCfVfhE6iuBCp6Kx8ha" who="i-Pra5AmyY3ass9UYtDcqwJR" next="i-WoA1tfVDuXnidd5GfeiwWn">
           <seg xml:id="i-GLLrLaLV2cX9L5DeGqUaDA">
             Herr talman! På grund av den långt framskridna tiden måste jag
             avstå från att vittra mig 1 denna fråga så utförligt som jag hade
             tänkt. Då jag emellertid begärt ordet, vill jag 1 alla fall säga
             något till belysande av min ståndpunkt i ärendet.
           </seg>
-        </u>
-        <u xml:id="i-Q6JrGyjJ8SGD4CnKEiEpzG" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-XhRpCfVfhE6iuBCp6Kx8ha" next="i-WoA1tfVDuXnidd5GfeiwWn">
           <seg xml:id="i-TUzmk3bto6FqLKmasFkUpH">
             Jag ber då till en början att få konstatera, att ingen av de
             många motionärerna yrkat på avskaffande av religionsundervisningen
@@ -2489,7 +2355,7 @@
         <note xml:id="i-H4mrFFUcyVit5uJNqDLB61" type="date">
           Fredagen den 14 juni, e. m. 29
         </note>
-        <u xml:id="i-WoA1tfVDuXnidd5GfeiwWn" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-Q6JrGyjJ8SGD4CnKEiEpzG" next="i-UBv5HtpRnzmLqQMyH2YuFu">
+        <u xml:id="i-WoA1tfVDuXnidd5GfeiwWn" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-XhRpCfVfhE6iuBCp6Kx8ha" next="i-L8JKpF9LNwWYVfBQmGqFpf">
           <seg xml:id="i-2mXctR8WrYgkwyZZSkxCBf">
             nöje med den religionsundervisning, som nu bedrives 1 våra skolor.
             Och visst måste man ju medgiva, att det i fråga om denna undervisning
@@ -2507,8 +2373,6 @@
             äro mycket svårlösta, ty de röra sig ju om människans allra innersta
             och högsta intressen och behov.
           </seg>
-        </u>
-        <u xml:id="i-UBv5HtpRnzmLqQMyH2YuFu" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-WoA1tfVDuXnidd5GfeiwWn" next="i-L8JKpF9LNwWYVfBQmGqFpf">
           <seg xml:id="i-LjFkrknvkG3TKvpSisq9qL">
             Om jag nu skulle helt kort beröra de olika motionerna, så innehåller
             den första framställningen, den av herr Hellberg, en hemställan
@@ -2562,13 +2426,11 @@
         <note xml:id="i-VGewRhMUwbkjofH3pgak11" type="date">
           30 Fredagen den 14 juni, e. m.
         </note>
-        <u xml:id="i-L8JKpF9LNwWYVfBQmGqFpf" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-UBv5HtpRnzmLqQMyH2YuFu" next="i-TqK1QUfJ2iPpnC2FdzNVYQ">
+        <u xml:id="i-L8JKpF9LNwWYVfBQmGqFpf" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-WoA1tfVDuXnidd5GfeiwWn" next="i-CsE9oWLmZQG2eqWma6cbR5">
           <seg xml:id="i-7xnLXgR9cuxPxJLK9cPupj">
             dervisning, i vilken det icke finns några lärosatser eller trossatser
             uttalade, är ingen religionsundervisning.
           </seg>
-        </u>
-        <u xml:id="i-TqK1QUfJ2iPpnC2FdzNVYQ" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-L8JKpF9LNwWYVfBQmGqFpf" next="i-KLzcdf3Htw8uKB29i8rAt5">
           <seg xml:id="i-5drVHoJq18r3oPgTbLTpno">
             Herr Hanssons i Mora framställning går ut på, att man skall utbyta
             katekesundervisningen mot etisk undervisning. Först och främst
@@ -2583,8 +2445,6 @@
             som kristenheten samlat sig omkring, låt vara under växlande former,
             under årtusenden.
           </seg>
-        </u>
-        <u xml:id="i-KLzcdf3Htw8uKB29i8rAt5" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-TqK1QUfJ2iPpnC2FdzNVYQ" next="i-GFzigji1gePx435mxLw1ia">
           <seg xml:id="i-FxoMuWbepcN5hDDKsu9tKW">
             Vidare mäste jag säga några ord om de motioner, däri det kräves
             en allmän konfessionslös religionsundervisning. Bland dessa motioner
@@ -2602,8 +2462,6 @@
             och i våra kyrkor, att man skall söka vinna mark för rättfärdighetsoch
             sanningskänslan och söka befästa den.
           </seg>
-        </u>
-        <u xml:id="i-GFzigji1gePx435mxLw1ia" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-KLzcdf3Htw8uKB29i8rAt5" next="i-CsE9oWLmZQG2eqWma6cbR5">
           <seg xml:id="i-8ARTmbC9jh78ZB9f81xgqH">
             I samband med detta kan jag icke underlåta att beröra vad herr
             Kjellberg yttrat om den lutherska etiken. Uti sitt mycket uppmärksammade
@@ -2633,23 +2491,19 @@
         <note xml:id="i-JihSjkzQZqgbTAkHvPxUcY" type="date">
           Fredagen den 14 juni, e. m, öl
         </note>
-        <u xml:id="i-CsE9oWLmZQG2eqWma6cbR5" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-GFzigji1gePx435mxLw1ia" next="i-QXRPz2tk2cvkiS3YzYQpmf">
+        <u xml:id="i-CsE9oWLmZQG2eqWma6cbR5" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-L8JKpF9LNwWYVfBQmGqFpf" next="i-L4W5rQhzvrjTQLyE7dQh6J">
           <seg xml:id="i-HqgTykTNW8hUfK1DKt3BLN">
             grundmotivet i hela den lutherska etiken, att det icke är förtjänsten,
             som gör, att vi skola vinna välbehag inför Gud, utan att detta
             är en nad, och att man därför skall göra det goda icke för att
             förtjäna lön, utan för att behaga Gud och för det godas egen skull.
           </seg>
-        </u>
-        <u xml:id="i-QXRPz2tk2cvkiS3YzYQpmf" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-CsE9oWLmZQG2eqWma6cbR5" next="i-6gFKjGpR9CLBEDofEC788f">
           <seg xml:id="i-Qa5NhU89vLd7LCRNiMz9Rk">
             Jag har icke kunnat underlåta att upptaga nämnda sats till bemötande,
             emedan den synes mig uppenbart strida mot hela den lutherska etiken
             och det är anmärkningsvärt, att uttalandet grundats på ett enstaka
             RA cke 1 första huvudstycket i vår katekes.
           </seg>
-        </u>
-        <u xml:id="i-6gFKjGpR9CLBEDofEC788f" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-QXRPz2tk2cvkiS3YzYQpmf" next="i-8xNsTZ9tQfj7zYf8tGHLMD">
           <seg xml:id="i-EqidgPxquof8BNz1msH3Ms">
             Jag vill också fästa mig vid den sidan av saken, att herr Kjellberg
             vill förbinda denna allmänna religionshistoriska undervisning
@@ -2663,8 +2517,6 @@
             åt de religiösa begreppen, och utan en sådan värdesättning kommer
             den etiska undervisningen fullständigt att hänga i luften.
           </seg>
-        </u>
-        <u xml:id="i-8xNsTZ9tQfj7zYf8tGHLMD" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-6gFKjGpR9CLBEDofEC788f" next="i-FNHwJBb77THm6si78WJaMy">
           <seg xml:id="i-7w5wrqp6rD1FzuidAvuzY5">
             Över huvud taget måste jag ställa mig mycket skeptisk till möjligheten
             att bedriva en fullständigt konfessionslös undervisning 1 religion.
@@ -2676,8 +2528,6 @@
             kan denna undervisning icke helt och hållet gå fri från färgläggning
             av lärarens personliga uppfattning.
           </seg>
-        </u>
-        <u xml:id="i-FNHwJBb77THm6si78WJaMy" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-8xNsTZ9tQfj7zYf8tGHLMD" next="i-YKHZ6KYo7txwh4j9v3C6as">
           <seg xml:id="i-Forqphc5URxSBmQ9PoAM7w">
             Så vitt jag för min del kunnat utröna, önskar vårt folks flertal
             icke, att kristendomsundervisningen skall ersättas med relioionshistorisk
@@ -2687,8 +2537,6 @@
             Men att denna behöver förbättras, det är man nog tämligen allmänt
             ense om.
           </seg>
-        </u>
-        <u xml:id="i-YKHZ6KYo7txwh4j9v3C6as" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-FNHwJBb77THm6si78WJaMy" next="i-L4W5rQhzvrjTQLyE7dQh6J">
           <seg xml:id="i-4CNHhZq6r1AsV478wio1Ht">
             Jag vill till sist säga några ord om reservanternas uttalande.
             De hava sammanfattat sin mening 1 åtskilliga satser. I den första
@@ -2722,7 +2570,7 @@
         <note xml:id="i-3gyLqZVYRTNtCUwvKD85iw" type="date">
           32 Fredagen den 14 juni, e. m.
         </note>
-        <u xml:id="i-L4W5rQhzvrjTQLyE7dQh6J" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-YKHZ6KYo7txwh4j9v3C6as" next="i-7HaqAEyrHfsKFjwn8dFN5N">
+        <u xml:id="i-L4W5rQhzvrjTQLyE7dQh6J" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-CsE9oWLmZQG2eqWma6cbR5">
           <seg xml:id="i-DwU8TeBC4BXHweUyWzPo79">
             åberopa en pedagogisk auktoritet, som har ett mycket gott namn
             i vårt land, men som är av annan uppfattning. Han säger, att han
@@ -2754,8 +2602,6 @@
             Det råder nämligen fullkomlig frihet i vårt land att låta konfirmera
             sig och begå nattvarden eller icke.
           </seg>
-        </u>
-        <u xml:id="i-7HaqAEyrHfsKFjwn8dFN5N" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-L4W5rQhzvrjTQLyE7dQh6J" next="i-QVxrMtTbRaEzjQZonwKTbJ">
           <seg xml:id="i-KLh8oSWQ5ASqQSeo8yTQZW">
             Beträffande omläggningen av kristendomsundervisningen ber jag,
             såsom också utskottet gjort, få fästa uppmärksamheten därpå, att
@@ -2766,8 +2612,6 @@
             Under sådana förhållanden kan det ej vara lämpligt att nu skriva
             till Kungl. Maj:t i denna sak.
           </seg>
-        </u>
-        <u xml:id="i-QVxrMtTbRaEzjQZonwKTbJ" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-7HaqAEyrHfsKFjwn8dFN5N">
           <seg xml:id="i-BzYSqDtEnAT3CY3KSNqMZd">
             Jag ber, med stöd av vad jag anfört, att få yrka bifall till
             utskottets hemställan.
@@ -2793,7 +2637,7 @@
         <note xml:id="i-9uYF9Sqvb5TntcxjCLYVPe" type="date">
           Fredagen den 14 juni, e. m. 33
         </note>
-        <u xml:id="i-YSsmoCtq5fo9PrWiVN1zX1" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-J647pnMU4vj9dA85yWbua1" next="i-8SLZvHHFDfZ2AqYMtsrJyk">
+        <u xml:id="i-YSsmoCtq5fo9PrWiVN1zX1" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-J647pnMU4vj9dA85yWbua1" next="i-3B3LFRjPU3BDPfee79XTih">
           <seg xml:id="i-XSRyaa8tsTtwbA7xJ7wZKP">
             göra »mot den rådande ofriheten på det religiösa området förefalla
             som en efterklang från den tid, då religionsfrihetens grundsatser
@@ -2815,8 +2659,6 @@
             på det här området. Det tvingar mig också att ge en liten bild
             av, huru det faktiskt är, och inte huru man tror att det är.
           </seg>
-        </u>
-        <u xml:id="i-8SLZvHHFDfZ2AqYMtsrJyk" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-YSsmoCtq5fo9PrWiVN1zX1" next="i-VZeKwBob4ZgEeiJaeek81w">
           <seg xml:id="i-VS11Ga3a2rmYr4pVgPRY3K">
             För ett par år sedan var det en folkskollärare — han hette Näsman
             — som varnades av Säbrå skolråd och Härnösands domkapitel. Hur
@@ -2836,8 +2678,6 @@
             att inte Säbrå skolnåd och Härnösands domkapitel hade samma uppfattning
             i saken.
           </seg>
-        </u>
-        <u xml:id="i-VZeKwBob4ZgEeiJaeek81w" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-8SLZvHHFDfZ2AqYMtsrJyk" next="i-LsSdziJmEArU7jAZw71Hj6">
           <seg xml:id="i-NpYtyLDGF6UpQ4Scahhiw2">
             Men detta fallet Näsman det för oss in i själva kärnpunkten av
             den fråga, vi nu ha att diskutera. Ty här tvingas lärarna att
@@ -2847,8 +2687,6 @@
             sig om på ett sätt som gör, att man inte längre kan betrakta dem
             såsom absoluta sanningar.
           </seg>
-        </u>
-        <u xml:id="i-LsSdziJmEArU7jAZw71Hj6" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-VZeKwBob4ZgEeiJaeek81w" next="i-3B3LFRjPU3BDPfee79XTih">
           <seg xml:id="i-C87rojpKWWSPjxDGRjQxc2">
             Nu förstår jag mycket väl, att stunden inte är vidare lämplig
             för långa betraktelser i detta ämne, men jag måste ändå säga,
@@ -2877,7 +2715,7 @@
         <note xml:id="i-Kb8BwuRFV8wdTmbzzR2mwa" type="date">
           34 Fredagen den 14 juni, e. m.
         </note>
-        <u xml:id="i-3B3LFRjPU3BDPfee79XTih" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-LsSdziJmEArU7jAZw71Hj6" next="i-JQN9TJE8H6bneGudmQAGbt">
+        <u xml:id="i-3B3LFRjPU3BDPfee79XTih" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-YSsmoCtq5fo9PrWiVN1zX1">
           <seg xml:id="i-TjDxucnVrMzmj6uXhimuwf">
             Noaks ark, bli också allt flera. Det växer fram ett hav av forskning,
             bildning och tvivel, som kommer Noaks ark att helt enkelt gå till
@@ -2888,8 +2726,6 @@
             i skolorna och vetenskapen i hemmen; man måste således på detta
             område ha en annan undervisning.
           </seg>
-        </u>
-        <u xml:id="i-JQN9TJE8H6bneGudmQAGbt" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-3B3LFRjPU3BDPfee79XTih" next="i-Up9okavZmXyPY15QBj9kJQ">
           <seg xml:id="i-47V6QtMqQ7xMeF3j9dAXPf">
             Huru den skall gestalta sig, det blir utredningens sak. Men denna
             utredning bör ha såsom riktpunkt, att religionsoch samvetsfriheten
@@ -2908,8 +2744,6 @@
             och att man därjämte låter barnen se, på vilken väg vårt eget
             folk vandrat fram.
           </seg>
-        </u>
-        <u xml:id="i-Up9okavZmXyPY15QBj9kJQ" who="i-AwBs4Cp83TTbZr1ZyVyniN" prev="i-JQN9TJE8H6bneGudmQAGbt">
           <seg xml:id="i-8BadtvK44mwSz2uBFv9sQa">
             Jag ber, herr talman, att få yrka bifall till reservationen.
           </seg>
@@ -2917,7 +2751,7 @@
         <note xml:id="i-3qU1hA1Ponf6prPXxVw57t" type="speaker">
           Herr Alexanderson:
         </note>
-        <u xml:id="i-KH6cERsr6FeAKuhsPjoif2" who="i-K6NtRe4xJoLnCuhYhjQkmz" next="i-3RAw5tapTpGHR8zzRdx1ce">
+        <u xml:id="i-KH6cERsr6FeAKuhsPjoif2" who="i-K6NtRe4xJoLnCuhYhjQkmz" next="i-8eiHT72Pkx9ZESDmrDomJR">
           <seg xml:id="i-YNz1aGMN9vCidvq7VXUZha">
             Då jag nyss börde herr Bergqvists anförande, kunde jag icke undgå
             att erinra mig den gamla anekdoten, som den nitiske ivraren för
@@ -2927,14 +2761,10 @@
             blomma och tjänsteflickor, och det bar sig så illa, att vagnen
             välte i diket och alla i vagnen kommo
           </seg>
-        </u>
-        <u xml:id="i-3RAw5tapTpGHR8zzRdx1ce" who="i-K6NtRe4xJoLnCuhYhjQkmz" prev="i-KH6cERsr6FeAKuhsPjoif2" next="i-9ULPVHBNqELPimnUNALViR">
           <seg xml:id="i-DgGpxjFW9g7mjmmAiqF45L">
             :i diket, men prostfar kom överst. Det började emellertid kräla
             och
           </seg>
-        </u>
-        <u xml:id="i-9ULPVHBNqELPimnUNALViR" who="i-K6NtRe4xJoLnCuhYhjQkmz" prev="i-3RAw5tapTpGHR8zzRdx1ce" next="i-8eiHT72Pkx9ZESDmrDomJR">
           <seg xml:id="i-GDvxGaDtw2FcFE6bGcSahw">
             myllra förtvivlat under honom, men då ropade prostfar: »Stilla,
             stilla, allt är bra, bara ingen rör sig»! Det var detta, som Treffenberg
@@ -2958,7 +2788,7 @@
         <note xml:id="i-X1E1WdGt8Wh3Ukf3G95aw2" type="date">
           Fredagen den 14 juni, e, m. 30
         </note>
-        <u xml:id="i-8eiHT72Pkx9ZESDmrDomJR" who="i-K6NtRe4xJoLnCuhYhjQkmz" prev="i-9ULPVHBNqELPimnUNALViR">
+        <u xml:id="i-8eiHT72Pkx9ZESDmrDomJR" who="i-K6NtRe4xJoLnCuhYhjQkmz" prev="i-KH6cERsr6FeAKuhsPjoif2">
           <seg xml:id="i-3T7WwCpNCLrzRxdqxbc3Bt">
             vändning mot att förelaga något vidare på detta område, och allt
             har fått förbliva såsom det var i slutet av förra seklet och för
@@ -3079,7 +2909,7 @@
         <note xml:id="i-QiwovRcEiSZvM2bA6J1sNt" type="speaker">
           Herr Hellberg:
         </note>
-        <u xml:id="i-HMigcm416KsdnUd21QbpA3" who="i-oVwJWpLBEMSJ3qucVYsKL" next="i-3PwCT5Gz8ooC9mAJdCoi9b">
+        <u xml:id="i-HMigcm416KsdnUd21QbpA3" who="i-oVwJWpLBEMSJ3qucVYsKL" next="i-J5xT2CSsTZJNJNpvdybHMB">
           <seg xml:id="i-UKxUJKkMoo6K1mxzdiNRH2">
             I anledning av herr Bobergs anförande vill jag säga, att jag
             inte önskar på något sätt »missbruka herraväldet över djuren»
@@ -3087,8 +2917,6 @@
             att säga ett par ord, inte till honom, ty vad han yttrade kan
             inte föranleda något svar, utan till herr Bergqvist.
           </seg>
-        </u>
-        <u xml:id="i-3PwCT5Gz8ooC9mAJdCoi9b" who="i-oVwJWpLBEMSJ3qucVYsKL" prev="i-HMigcm416KsdnUd21QbpA3" next="i-5mcg1iVCqD9UsxDweMe394">
           <seg xml:id="i-UdoBJGgWDGN7HM2UKB6ysr">
             Han anförde ur min motion uttrycket »andaktsläsning», ett uttryck
             som jag inte vill ha missförstått. Det har i motionen brukats
@@ -3098,14 +2926,10 @@
             av t. ex. bibliska berättelser skulle meddela barnen den suggestiva
             verkan, som stora religiösa personligheter utöva.
           </seg>
-        </u>
-        <u xml:id="i-5mcg1iVCqD9UsxDweMe394" who="i-oVwJWpLBEMSJ3qucVYsKL" prev="i-3PwCT5Gz8ooC9mAJdCoi9b" next="i-Kr7p5kq9Ys3YeeCKNHvbsL">
           <seg xml:id="i-68zJ8PRWSBi8SJzq3q62VS">
             Jag vill sedan helt kort säga ett par ord med anledning av vad
             herr Bergqvist vidare anförde.
           </seg>
-        </u>
-        <u xml:id="i-Kr7p5kq9Ys3YeeCKNHvbsL" who="i-oVwJWpLBEMSJ3qucVYsKL" prev="i-5mcg1iVCqD9UsxDweMe394" next="i-J5xT2CSsTZJNJNpvdybHMB">
           <seg xml:id="i-5VhaVsXULy664Mzq1E9T5q">
             Han ansåg, att man måste vädja även till barnens förstånd,
           </seg>
@@ -3114,7 +2938,7 @@
         <note xml:id="i-2JUJRBcSi6Gdvtwk122kee" type="date">
           Fredagen den 14 juni, e. m. 37
         </note>
-        <u xml:id="i-J5xT2CSsTZJNJNpvdybHMB" who="i-oVwJWpLBEMSJ3qucVYsKL" prev="i-Kr7p5kq9Ys3YeeCKNHvbsL" next="i-Gr7H1DbeDmWpqYvSmatyta">
+        <u xml:id="i-J5xT2CSsTZJNJNpvdybHMB" who="i-oVwJWpLBEMSJ3qucVYsKL" prev="i-HMigcm416KsdnUd21QbpA3">
           <seg xml:id="i-7NCJS4VaxHyYHDVDUwSeWA">
             ty de intryck, som dessa mottaga genom en sådan läsning som den
             Jag har antytt, kunna mycket lätt förflyktigas. Man skall vara
@@ -3126,8 +2950,6 @@
             deras viljeliv i rörelse, det bevara de genom åratal, under det
             att det som bara vädjar till förståndet mycket snart förflyktigas.
           </seg>
-        </u>
-        <u xml:id="i-Gr7H1DbeDmWpqYvSmatyta" who="i-oVwJWpLBEMSJ3qucVYsKL" prev="i-J5xT2CSsTZJNJNpvdybHMB" next="i-UzRtDhgM1WeZd2QZGwLXBC">
           <seg xml:id="i-FW4vTzy7i3rQEVrdqnwMhg">
             Herr Bergqvist sade också, att ingen religionsundervisning är
             möjlig utan att lärosatser meddelas. Jag skulle vilja fråga: hur
@@ -3138,8 +2960,6 @@
             synes det mig, att kassera hans undervisning, om man kasserar
             de bibliska berättelserna.
           </seg>
-        </u>
-        <u xml:id="i-UzRtDhgM1WeZd2QZGwLXBC" who="i-oVwJWpLBEMSJ3qucVYsKL" prev="i-Gr7H1DbeDmWpqYvSmatyta" next="i-Bk5HbuUHSMH6FCXaAtQpEz">
           <seg xml:id="i-31GEBSLrNws9ekCzFHREmb">
             Herr Bergqvist anförde såsom exempel på vad barnen borde uppfatta
             med förståndet trossatserna om Gud och ett liv efter detta. Jag
@@ -3149,8 +2969,6 @@
             ske genom förnimmelsen av hur en stor religiös personlighet har
             talat om och levat i uppfattningen av dem.
           </seg>
-        </u>
-        <u xml:id="i-Bk5HbuUHSMH6FCXaAtQpEz" who="i-oVwJWpLBEMSJ3qucVYsKL" prev="i-UzRtDhgM1WeZd2QZGwLXBC" next="i-NKPGJu2t1cggK7QpZjrFgo">
           <seg xml:id="i-17jq2T4FFqfbdoDPdoJRQt">
             Det är för resten intressant att iakttaga hur herr Bergqvist,
             när han ifrån sin anmärkning mot min motion gick över till en
@@ -3162,8 +2980,6 @@
             synes mig svårligen en talare kunna med ett efterföljande uttalande
             slå ihjäl ett föregående.
           </seg>
-        </u>
-        <u xml:id="i-NKPGJu2t1cggK7QpZjrFgo" who="i-oVwJWpLBEMSJ3qucVYsKL" prev="i-Bk5HbuUHSMH6FCXaAtQpEz">
           <seg xml:id="i-FEYCTnxqJtCF9DGegP4kU7">
             Men jag vill bekänna, att när jag hörde den ärade talaren, så
             kunde jag inte undgå att erinra mig ett annat uttryck ännu äldre
@@ -3206,7 +3022,7 @@
         <note xml:id="i-P2ErVStYzM255Rx8dGg5vg" type="date">
           38 Fredagen den 14 juni, e. m.
         </note>
-        <u xml:id="i-SJT4zJVNmMYRsExMXX33pu" who="i-DiWCweDTmwg5EmsqsQgiVF" prev="i-5eGooft9Gm2PrZp2J9hFBz" next="i-MSxKNZVVuaLYstxNQ3MeJb">
+        <u xml:id="i-SJT4zJVNmMYRsExMXX33pu" who="i-DiWCweDTmwg5EmsqsQgiVF" prev="i-5eGooft9Gm2PrZp2J9hFBz">
           <seg xml:id="i-QqoLsrWnCPeX8HJtomQmrZ">
             samma diskussion, som förekommit i denna fråga, att jag ser saken
             på åtskilligt annat sätt. Jag kan icke finna annat än att de många
@@ -3225,8 +3041,6 @@
             område och att därigenom bidraga till att religionen blir den
             kraft, som den bör och som den skall vara hos vårt folk.
           </seg>
-        </u>
-        <u xml:id="i-MSxKNZVVuaLYstxNQ3MeJb" who="i-DiWCweDTmwg5EmsqsQgiVF" prev="i-SJT4zJVNmMYRsExMXX33pu" next="i-Bfv5Qu1NaiGbXbMYNmubyB">
           <seg xml:id="i-6gXkrvKHCc7ydczt7x3mZX">
             Jag vill icke vidare förlänga diskussionen för min del, men önskar
             blott vädja till kammaren att vid detta tillfälle komma till ett
@@ -3234,8 +3048,6 @@
             föreligger och som tyckes mig kunna vara en utgångspunkt för ett
             verkligt gott reformarbete på detta område.
           </seg>
-        </u>
-        <u xml:id="i-Bfv5Qu1NaiGbXbMYNmubyB" who="i-DiWCweDTmwg5EmsqsQgiVF" prev="i-MSxKNZVVuaLYstxNQ3MeJb">
           <seg xml:id="i-FU4Vgbqymcf7yjdhZ7ragG">
             Jag tillåter mig, herr talman, att i detta syfte yrka bifall
             till reservationen.
@@ -3244,7 +3056,7 @@
         <note xml:id="i-JUHKUqBkSWVntTTPJMu3Bj" type="speaker">
           Herr Bergqvist:
         </note>
-        <u xml:id="i-WoituzewvtgCC5Cpr5j3Xg" who="i-Pra5AmyY3ass9UYtDcqwJR" next="i-AYZFBpNUzdxRqULgRivUiz">
+        <u xml:id="i-WoituzewvtgCC5Cpr5j3Xg" who="i-Pra5AmyY3ass9UYtDcqwJR" next="i-7FCF6CHnze171Pz3SfZNmi">
           <seg xml:id="i-6vLd6V8tH4rjuRLeSKuxUJ">
             Jag vill först och främst i anledning av herr Alexandersons yttrande
             säga det, att det ju kan vara rätt pikant att i en diskussion
@@ -3253,8 +3065,6 @@
             litet värde såsom argument i en fråga av så allvarlig natur som
             den, som här är före.
           </seg>
-        </u>
-        <u xml:id="i-AYZFBpNUzdxRqULgRivUiz" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-WoituzewvtgCC5Cpr5j3Xg" next="i-BzsT8JRQXzB7vAF56qYNGK">
           <seg xml:id="i-SgUjbCBxTVWNx6EXJ8RBeE">
             Mot herr Hellberg vill jag framhålla, att det är nog en missuppfattning,
             då man säger, att vår Frälsare vid sin undervisning icke meddelade
@@ -3269,8 +3079,6 @@
             exempel på att det ingår lärosatser i vår Frälsares undervisning,
             men jag skall icke upptaga tiden med det.
           </seg>
-        </u>
-        <u xml:id="i-BzsT8JRQXzB7vAF56qYNGK" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-AYZFBpNUzdxRqULgRivUiz" next="i-7FCF6CHnze171Pz3SfZNmi">
           <seg xml:id="i-ARDnAGUL7pZ2DNaQEzjLZZ">
             Och när slutligen herr Hellberg säger, att han sällan har hört
             en talare med ett senare yttrande mera fullständigt slå ihjäl
@@ -3286,7 +3094,7 @@
         <note xml:id="i-2R4pv5U2woyC8yS1ts8Gx8" type="date">
           Fredagen den 14 juni, e. m. 39
         </note>
-        <u xml:id="i-7FCF6CHnze171Pz3SfZNmi" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-BzsT8JRQXzB7vAF56qYNGK" next="i-KQ7XnXkpcXh7RxihjPfd7z">
+        <u xml:id="i-7FCF6CHnze171Pz3SfZNmi" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-WoituzewvtgCC5Cpr5j3Xg">
           <seg xml:id="i-YHFHTvYjify6U6sCkHXhvJ">
             sam är tillfyllestgörande. Sedan sade jag om den etiska undervisningen,
             att den också är mycket nödvändig, men den kan icke byggas på
@@ -3295,8 +3103,6 @@
             Är detta att komma i strid med sig själv, då vet jag icke, vad
             logik är.
           </seg>
-        </u>
-        <u xml:id="i-KQ7XnXkpcXh7RxihjPfd7z" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-7FCF6CHnze171Pz3SfZNmi">
           <seg xml:id="i-5a1pdSEAzUUir2GmLrovUF">
             Till sist vill jag säga, att det föreföll mig, som om något av
             temperament hade kommit över herr Hellberg, när han slutligen
@@ -3308,7 +3114,7 @@
         <note xml:id="i-E5fgju8Kd4xZkGTeoA4L3u" type="speaker">
           Herr Hellberg:
         </note>
-        <u xml:id="i-CsgpzLTxmR8iroxNQDWAz" who="i-oVwJWpLBEMSJ3qucVYsKL" next="i-V8X82hvT4DiRrqnYh2Hpft">
+        <u xml:id="i-CsgpzLTxmR8iroxNQDWAz" who="i-oVwJWpLBEMSJ3qucVYsKL">
           <seg xml:id="i-HKhfekpDMPP3TpVBSm8Cc3">
             Vad det sista beträffar, vill jag bara säga, att ett motstånd,
             som i så hög grad har karaktären av obotfärdighetens som det man
@@ -3316,8 +3122,6 @@
             komma en människa, som — gudskelov kan jag gärna säga — har en
             smula temperament i sig, att giva uttryck åt det.
           </seg>
-        </u>
-        <u xml:id="i-V8X82hvT4DiRrqnYh2Hpft" who="i-oVwJWpLBEMSJ3qucVYsKL" prev="i-CsgpzLTxmR8iroxNQDWAz">
           <seg xml:id="i-4sZ7nhEBWcvgt4yUgNWMgP">
             Och jag vill sedan endast tillägga: När herr Bergqvist försöker
             vända emot mig de lärosatser, som innehållas i evangelierna, har
@@ -3404,8 +3208,6 @@
             skall gälla fortskaffande av gods jämväl i annat fall än vid befordran
             mot vederlag.
           </seg>
-        </u>
-        <u xml:id="i-52kBjWUw6iw5dru5wVh87Z" who="unknown">
           <seg xml:id="i-8SL8euGiYdN7WM1j6KpiLS">
             Under tid, då sålunda meddelat förordnande är gällande, skola
             1 sjölagen givna stadganden, som avse befogenhet för befälhavare
@@ -3490,14 +3292,12 @@
         <note xml:id="i-5uz6KKZ2XdQy7345G7wPAW" type="speaker">
           Herr D a h 1:
         </note>
-        <u xml:id="i-536BR6k8YDX1fVrE1sUNsK" who="unknown" next="i-4kwR23pVpHGPAfina5KtBG">
+        <u xml:id="i-536BR6k8YDX1fVrE1sUNsK" who="unknown" next="i-9LGPizfkKP6Gkg1Dg3Dxud">
           <seg xml:id="i-AjmcYG36qnjKQK1UqzM77X">
             Ifrågavarande utskottsutlåtande är, som kammaren behagade finna,
             av mycket begränsad omfattning, men lagförslagets innebörd står
             i omvänd proportion till utrymmet.
           </seg>
-        </u>
-        <u xml:id="i-4kwR23pVpHGPAfina5KtBG" who="unknown" prev="i-536BR6k8YDX1fVrE1sUNsK" next="i-9tgM5GybLDVFSN44kwxqfR">
           <seg xml:id="i-MQ3MNWKLUX54DcJE8fqjX9">
             Det är en synnerligen vidsträckt befogenhet, som genom den nu
             föreslagna lagen tillmätes Kungl. Maj:t, en befogenhet att i förekommande
@@ -3509,8 +3309,6 @@
             som visserligen kortfattat men därför icke mindre allvarligt blivit
             angivna i utskottets utlåtande.
           </seg>
-        </u>
-        <u xml:id="i-9tgM5GybLDVFSN44kwxqfR" who="unknown" prev="i-4kwR23pVpHGPAfina5KtBG" next="i-9LGPizfkKP6Gkg1Dg3Dxud">
           <seg xml:id="i-ECtFM1aqKHpDTv95xuAjSL">
             Den förra av dessa synpunkter är fastslåendet därav, att syftet
             med denna lagstifning är att betrygga tillgången på för folknäringen
@@ -3525,7 +3323,7 @@
         <note xml:id="i-4hH71b4qe4w7zmSwamp21A" type="date">
           Nr 55. = 42 Fredagen den 14 juni, e. m,
         </note>
-        <u xml:id="i-9LGPizfkKP6Gkg1Dg3Dxud" who="unknown" prev="i-9tgM5GybLDVFSN44kwxqfR" next="i-BbWkwjLGmV5zzP8mwY9MuU">
+        <u xml:id="i-9LGPizfkKP6Gkg1Dg3Dxud" who="unknown" prev="i-536BR6k8YDX1fVrE1sUNsK" next="i-BbWkwjLGmV5zzP8mwY9MuU">
           <seg xml:id="i-DVaRxVxW3yD58FdHNqhJmh">
             Lagförslag Kungl. Maj:t de rättsmedel, som torde anses erforderliga
             och tillom förbud i fyllest. ortkafnda Den andra synpunkten innefattas
@@ -3630,7 +3428,7 @@
           hemställan bifölls av riksdagens båda kamrar, vadan ovannämnda
           punkt 7:0) kvarstår i det av riksdagen godkända kontraktet.
         </note>
-        <u xml:id="i-WuTSxxnzLpr4WA96xFsctX" who="unknown" prev="i-NZtxUref7Pxc7kX8EELwrW" next="i-LfhGA7f9ZVRqNKsuVWd5ug">
+        <u xml:id="i-WuTSxxnzLpr4WA96xFsctX" who="unknown" prev="i-NZtxUref7Pxc7kX8EELwrW" next="i-A5jXPD99PbFYA2jdvjC771">
           <seg xml:id="i-PQAe4MHByDQcNVsaQ5jCCw">
             Nu har emellertid Kungl. Maj:t, efter föredragning av chefen
             för sjöförsvarsdepartementet friherre Palmstierna, den 28 maj
@@ -3638,8 +3436,6 @@
             Kungl. Maj:t förklarar sig icke komma att begagna ovanberörda
             rätt för staten.
           </seg>
-        </u>
-        <u xml:id="i-LfhGA7f9ZVRqNKsuVWd5ug" who="unknown" prev="i-WuTSxxnzLpr4WA96xFsctX" next="i-A5jXPD99PbFYA2jdvjC771">
           <seg xml:id="i-NwEWQmnPCmqfbNa9PRFiDP">
             Då genom denna åtgärd riksdagens ovanberörda beslut synes hava
             blivit åsidosatt, hemställes att konstitutionsutskottet måtte
@@ -3661,7 +3457,7 @@
           Stockholms stad av den 12 mars 1917, hade utskottet i nu föredragna
           memorial anfört, bland annat:
         </note>
-        <u xml:id="i-A5jXPD99PbFYA2jdvjC771" who="unknown" prev="i-LfhGA7f9ZVRqNKsuVWd5ug" next="i-46bApzP8GrETqprAY7BbAc">
+        <u xml:id="i-A5jXPD99PbFYA2jdvjC771" who="unknown" prev="i-WuTSxxnzLpr4WA96xFsctX" next="i-46bApzP8GrETqprAY7BbAc">
           <seg xml:id="i-HWzLT8WmAATAHen2pwDtBJ">
             »Av vad i ärendet förekommit framgår, att statsrådet och chefen
             för sjöförsvarsdepartementet tillrått Kungl. Maj:t att förklara
@@ -3691,7 +3487,7 @@
         <note xml:id="i-92F8s7JbkgyERcVssL3b6z" type="date">
           44 Fredagen den 14 juni, e. m,
         </note>
-        <u xml:id="i-46bApzP8GrETqprAY7BbAc" who="unknown" prev="i-A5jXPD99PbFYA2jdvjC771" next="i-PqDSC9ZaYCxCGfDhYENBQ1">
+        <u xml:id="i-46bApzP8GrETqprAY7BbAc" who="unknown" prev="i-A5jXPD99PbFYA2jdvjC771">
           <seg xml:id="i-GoPAZD3cvGBm5rajA19noH">
             fordra tillkomsten av en överenskommelse, som enligt statsrådets
             uppfattning skulle lända staten till nytta. Statsrådet synes därvid
@@ -3714,8 +3510,6 @@
             till behandling vid innevarande års riksdag, sedan denna i anledning
             av herr Tengdahls motion redan fattat beslut i ämnet.
           </seg>
-        </u>
-        <u xml:id="i-PqDSC9ZaYCxCGfDhYENBQ1" who="unknown" prev="i-46bApzP8GrETqprAY7BbAc" next="i-DnXTtex59dyi5JfUPxe31F">
           <seg xml:id="i-M2uK1916ky8q5LH9qbFMqf">
             Utskottet underkänner icke vikten av de skäl av saklig art, som
             av statsrådet inför Konungen framhållits till stöd för det ifrågavarande
@@ -3739,8 +3533,6 @@
             utan riksdagens samtycke fatta ett beslut, varigenom kronan för
             framtiden avstår från sin i avtalet stadgade rättighet.
           </seg>
-        </u>
-        <u xml:id="i-DnXTtex59dyi5JfUPxe31F" who="unknown" prev="i-PqDSC9ZaYCxCGfDhYENBQ1">
           <seg xml:id="i-TDTBY7ybY3cSyVURghUV2T">
             På grund av vad sålunda i ärendet förekommit, har utskottet ansett
             sig böra hos riksdagen göra anmälan enligt 8 107 regeringsformen
@@ -3764,13 +3556,11 @@
         <note xml:id="i-Q1P5FLixb5Xy5oGjxakoff" type="date">
           Fredagen den 14 juni, eo. m. 45
         </note>
-        <u xml:id="i-4Xqt9wQRbR9iyYKWrjkes2" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-T1chJZH7FQeuQu4SnHkdiS" next="i-5wbDX75aM83NEXsDW46gqD">
+        <u xml:id="i-4Xqt9wQRbR9iyYKWrjkes2" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-T1chJZH7FQeuQu4SnHkdiS" next="i-DjrTXnhQmUhR775CnHMwAC">
           <seg xml:id="i-W4Vr7oLH4kdzwRCkBYNEGs">
             allsidigt den situation, vilken rådde vid det klandrade beslutets
             fattande, att jag endast behöver tillfoga några få ord.
           </seg>
-        </u>
-        <u xml:id="i-5wbDX75aM83NEXsDW46gqD" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-4Xqt9wQRbR9iyYKWrjkes2" next="i-VALzcLWcoR3QMVn6ATmkd">
           <seg xml:id="i-NnJvhW8QV36Vy1U5JhUmsA">
             Vid genomläsande av statsrådsprotokollet och vad utskottet anfört
             torde ingen ha kunnat undgå att få ett intryck av det tvångsläge,
@@ -3779,8 +3569,6 @@
             framställa några synpunkter, vilka ytterligare klargöra den verkliga
             situationen.
           </seg>
-        </u>
-        <u xml:id="i-VALzcLWcoR3QMVn6ATmkd" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-5wbDX75aM83NEXsDW46gqD" next="i-WE6zEEgPeKxv2hxnZjs4SN">
           <seg xml:id="i-9HsYJkjn3GWv793f7dL8u7">
             Upprinnelsen till att frågan togs upp var det villkor angående
             Fjäderholmarna, som riksdagen tillfogade utöver vad som innebars
@@ -3792,8 +3580,6 @@
             att därest Fjäderholmsvillkoret antogs av stadsfullmäktige, borde
             Kungl. Maj:t avstå från medgivandet att avstänga Nybroviken.
           </seg>
-        </u>
-        <u xml:id="i-WE6zEEgPeKxv2hxnZjs4SN" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-VALzcLWcoR3QMVn6ATmkd" next="i-XJBs2wbHSzaba6ueVLGLRH">
           <seg xml:id="i-995DprK1qsGdR5fkrbJTFF">
             Jag hade så mycket lättare att biträda en sådan uppgörelse, som
             marinförvaltningen i sitt yttrande över det senaste flottstationsförslaget
@@ -3801,8 +3587,6 @@
             kammaren framhållit detsamma, varjämte från vissa ledamöter av
             andra kammaren uttalanden gjorts uti enahanda riktning.
           </seg>
-        </u>
-        <u xml:id="i-XJBs2wbHSzaba6ueVLGLRH" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-WE6zEEgPeKxv2hxnZjs4SN" next="i-BUQz5SDDD35FPwZia2usbw">
           <seg xml:id="i-84zT7C9QdCvwDJiXShoBjv">
             Då jag icke uppfattat avtalets bestämmelse i fråga om banken
             såsom en integrerande del av själva markbytesaffären, något som
@@ -3811,15 +3595,11 @@
             den händelse kronan beslutar bankbygget, fann jag mig icke heller
             ur denna synpunkt böra tveka om lämpligheten av uppgörelsen.
           </seg>
-        </u>
-        <u xml:id="i-BUQz5SDDD35FPwZia2usbw" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-XJBs2wbHSzaba6ueVLGLRH" next="i-FVPiEwrXRWtk23LLxjKgNx">
           <seg xml:id="i-Cf2KE91hHbm9kZPzc81ZFK">
             Resultatet av förhandlingen blev, att stadsfullmäktiges beredningsutskott
             föreslog stadsfullmäktige att antaga den förändring i avtalet,
             som rörde Fjäderholmarna. |
           </seg>
-        </u>
-        <u xml:id="i-FVPiEwrXRWtk23LLxjKgNx" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-BUQz5SDDD35FPwZia2usbw" next="i-HuJwm8XSZZTJEELXLjieHb">
           <seg xml:id="i-HcfcQtQv8Hki7sdRiXHSFN">
             Emellertid visade det sig vid tiden för ärendets avgörande i
             stadsfullmäktige, att man på skilda håll bland dem var obenägen
@@ -3830,8 +3610,6 @@
             kunde falla, om åtgärd av önskat slag icke vidtogs från Kungl.
             Maj:ts sida.
           </seg>
-        </u>
-        <u xml:id="i-HuJwm8XSZZTJEELXLjieHb" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-FVPiEwrXRWtk23LLxjKgNx" next="i-D55YGARShNR9DzYYhc2CmG">
           <seg xml:id="i-DFCFqaeHRhkS5GAawfHc4G">
             Givetvis var det min mening att förelägga riksdagen denna sak,
             men till 1917 års riksdag var detta icke möjligt, emedan denna
@@ -3841,8 +3619,6 @@
             med Kungl. Maj:ts beslut i syfte att förelägga ärendet 1919 års
             riksdag icke heller möjligt.
           </seg>
-        </u>
-        <u xml:id="i-D55YGARShNR9DzYYhc2CmG" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-HuJwm8XSZZTJEELXLjieHb" next="i-DjrTXnhQmUhR775CnHMwAC">
           <seg xml:id="i-EhgCx23X1sSYMc588kMhgJ">
             Uti denna situation ansåg jag ingen annan utväg att förverkliga
             riksdagens vilja ifråga om Beckholmsdockan och markavtalet föreligga
@@ -3866,7 +3642,7 @@
         <note xml:id="i-RGSah8rG9jzdyW3QuMkqDY" type="date">
           46 Fredagen den 14 juni, e. m.
         </note>
-        <u xml:id="i-DjrTXnhQmUhR775CnHMwAC" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-D55YGARShNR9DzYYhc2CmG" next="i-WDEvg4RzTJKjuaUpDf16fh">
+        <u xml:id="i-DjrTXnhQmUhR775CnHMwAC" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-4Xqt9wQRbR9iyYKWrjkes2">
           <seg xml:id="i-RSyT56qXLzfMNVTYQRCqar">
             vilket skulle kosta kronan minst fyra miljoner kronor och av
             marinens ekonomiska överstyrelse ansetts obehövligt samt enligt
@@ -3877,8 +3653,6 @@
             anknyta sig, efter mångårigt förberedande arbete skulle utan vidare
             falla.
           </seg>
-        </u>
-        <u xml:id="i-WDEvg4RzTJKjuaUpDf16fh" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-DjrTXnhQmUhR775CnHMwAC">
           <seg xml:id="i-CGj6g9ofVhWVnfXBdmdNXD">
             Jag har härmed redogjort för det läge, vari ärendet kommit, då
             Kungl. Maj:ts beslut fattades, och därav torde framgå de svårigheter,
@@ -3895,21 +3669,17 @@
         <note xml:id="i-URk5iAFxfdsGwYunF1hVN5" type="speaker">
           Herr Mannheimer:
         </note>
-        <u xml:id="i-AR9TpGdXwpStaLFJwreGgD" who="i-SkXNHqRn2DrGAVbow1YqN7" next="i-6RkYHgtTrWf6ZugNGXyEvQ">
+        <u xml:id="i-AR9TpGdXwpStaLFJwreGgD" who="i-SkXNHqRn2DrGAVbow1YqN7" next="i-VubQxrxzBKPiSyF57Qbk3v">
           <seg xml:id="i-TeZZRbvAcDnCHmrb3GHPmi">
             Herr talman! Med anledning av herr statsrådets yttrande skall
             jag be att få säga några ord. Jag kan inskränka mig till att åberopa,
             vad utskottet har anfört, då detta ju lämnat en utförlig redogörelse
             för sakens läge.
           </seg>
-        </u>
-        <u xml:id="i-6RkYHgtTrWf6ZugNGXyEvQ" who="i-SkXNHqRn2DrGAVbow1YqN7" prev="i-AR9TpGdXwpStaLFJwreGgD" next="i-HpahSLjYrDLgpNgDFz4Gsx">
           <seg xml:id="i-UhMdX5ZJw7pbXYcNCNLYez">
             Utskottet har sett denna sak ur två synpunkter, från vilka det
             har funnit, att den av statsrådet tillstyrkta åtgärden varit anmärkningsvärd.
           </seg>
-        </u>
-        <u xml:id="i-HpahSLjYrDLgpNgDFz4Gsx" who="i-SkXNHqRn2DrGAVbow1YqN7" prev="i-6RkYHgtTrWf6ZugNGXyEvQ" next="i-5oLE3qa95VyCWnTy5qzyfa">
           <seg xml:id="i-QzN7FcP1w4tefi7TAL4YzU">
             För det första anser utskottet, att statsrådet icke har iakttagit
             tillbörlig hänsyn till ett av riksdagen kort förut fattat beslut,
@@ -3923,8 +3693,6 @@
             som statsrådet då ansåg föreligga, borde hava föranlett statsrådet
             att tillstyrka Kungl. Maj:ts beslut.
           </seg>
-        </u>
-        <u xml:id="i-5oLE3qa95VyCWnTy5qzyfa" who="i-SkXNHqRn2DrGAVbow1YqN7" prev="i-HpahSLjYrDLgpNgDFz4Gsx" next="i-GQTtxTLmzYj73fXd6bQWFs">
           <seg xml:id="i-mK5xt66Tyj2KQg1gaBkFF">
             Men härutöver har utskottet framhållit till stöd för sin anmärkning
             det viktiga förhållandet, att villkoret om bankens byggande var
@@ -3936,8 +3704,6 @@
             för vidtagandet av en sådan åtgärd, vilken i likhet med den av
             Kungl. Maj:t nu vidtagna medför ett upphävande av ett dylikt villkor.
           </seg>
-        </u>
-        <u xml:id="i-GQTtxTLmzYj73fXd6bQWFs" who="i-SkXNHqRn2DrGAVbow1YqN7" prev="i-5oLE3qa95VyCWnTy5qzyfa" next="i-VubQxrxzBKPiSyF57Qbk3v">
           <seg xml:id="i-2DyyhVJzAGQt2Y4HzoaeKe">
             Herr statsrådet har nu velat göra gällande, att det möjligen
             kunde ifrågasättas, huruvida verkligen detta villkor kunde anses
@@ -3949,7 +3715,7 @@
         <note xml:id="i-MDe6bcSKrmZLdHSJUEaojh" type="date">
           Fredagen den 14 juni, ce. m. 47
         </note>
-        <u xml:id="i-VubQxrxzBKPiSyF57Qbk3v" who="i-SkXNHqRn2DrGAVbow1YqN7" prev="i-GQTtxTLmzYj73fXd6bQWFs" next="i-7rg5UBn5TzeM3wjARdvu37">
+        <u xml:id="i-VubQxrxzBKPiSyF57Qbk3v" who="i-SkXNHqRn2DrGAVbow1YqN7" prev="i-AR9TpGdXwpStaLFJwreGgD">
           <seg xml:id="i-9v83Bujssr39Qj9w9UhBJT">
             såg försäljningen av Kaknäsområdet till Stockholms stad. Detta
             avtal rörde nimligen även andra saker, sålunda även ett köp av
@@ -3967,8 +3733,6 @@
             hänsyn härtill och särskilt ur den sista synpunkten, som utskottet
             har funnit den vidtagna åtgärden anmärkningsvärd.
           </seg>
-        </u>
-        <u xml:id="i-7rg5UBn5TzeM3wjARdvu37" who="i-SkXNHqRn2DrGAVbow1YqN7" prev="i-VubQxrxzBKPiSyF57Qbk3v">
           <seg xml:id="i-91V467VWRPPv2taY8atzMn">
             Jag har, herr talman, intet annat yrkande än att utskottets memorial
             måtte läggas till handlingarna.
@@ -3977,12 +3741,10 @@
         <note xml:id="i-FmL2CydXKHhQGPfyQbVtER" type="speaker">
           Herr Clason:
         </note>
-        <u xml:id="i-Xn75KgBBVFfmseXsQ91xsR" who="i-Wd3cJwboTfCJv1Ls7d8i6d" next="i-MofSh1MHwaZhFAX4MmqPuQ">
+        <u xml:id="i-Xn75KgBBVFfmseXsQ91xsR" who="i-Wd3cJwboTfCJv1Ls7d8i6d" next="i-8NYTkudvpTnNfyJ1cndoN3">
           <seg xml:id="i-EAsywa889tMCt4ggezG5gR">
             Herr talman! Även jag skall be att få yttra några ord 1 frågan.
           </seg>
-        </u>
-        <u xml:id="i-MofSh1MHwaZhFAX4MmqPuQ" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-Xn75KgBBVFfmseXsQ91xsR" next="i-XZUti97LFqFQNYqTj8LEzn">
           <seg xml:id="i-5GYpuMs5HX6ZixAY5nRss2">
             Det är naturligtvis ingen, som bestrider, att chefen för sjöförsvarsdepartementet
             trott sig främja en för staten gagnelig uppgörelse, då han tillstyrkte
@@ -4004,8 +3766,6 @@
             beslut», som han nyss sade, att det gällde, då måste det ju hava
             varit detta riksdagens beslut, som skulle hava förverkligats.
           </seg>
-        </u>
-        <u xml:id="i-XZUti97LFqFQNYqTj8LEzn" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-MofSh1MHwaZhFAX4MmqPuQ" next="i-8NYTkudvpTnNfyJ1cndoN3">
           <seg xml:id="i-HfAbLsuhmDuUzgcRAdMqkx">
             Skulle man över huvud taga några hänsyn till omdömen om affärens
             förmånlighet eller icke förmånlighet, borde man för övrigt naturligtvis
@@ -4036,7 +3796,7 @@
         <note xml:id="i-2HoTWVVNaGygUrVqr7rCMp" type="date">
           48 Fredagen den 14 juni e. m,
         </note>
-        <u xml:id="i-8NYTkudvpTnNfyJ1cndoN3" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-XZUti97LFqFQNYqTj8LEzn" next="i-48aHJdqzJJXLVi7uhW4mXG">
+        <u xml:id="i-8NYTkudvpTnNfyJ1cndoN3" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-Xn75KgBBVFfmseXsQ91xsR" next="i-UFpTSpvh63Xyuedtsi7QpN">
           <seg xml:id="i-T11k5GuUaMD8zj1nhQz6G5">
             damöter, vilken tillhört flottstationskommittén, att enligt hans
             uppfattning denna bank var en ovillkorlig förutsättning för flottstationens
@@ -4046,8 +3806,6 @@
             för en eljest genomgående sjöfart och av nödtvånget att skaffa
             snabba och säkra förbindelser mellan de olika delarna av stationsområdet.
           </seg>
-        </u>
-        <u xml:id="i-48aHJdqzJJXLVi7uhW4mXG" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-8NYTkudvpTnNfyJ1cndoN3" next="i-UYasDiB1abJyuDqr5txMSS">
           <seg xml:id="i-V3ZKyBP2sUPWgE6B1xcmyF">
             Nu /har hänvisats till marinförvaltningens förklaring i dess
             utlåtande, att enligt marinförvaltningens uppfattning man skulle
@@ -4062,8 +3820,6 @@
             hade avgivit denna förklaring, riksdagen vid sin behandling av
             frågan höll på att banken skulle vara med i uppgörelsen.
           </seg>
-        </u>
-        <u xml:id="i-UYasDiB1abJyuDqr5txMSS" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-48aHJdqzJJXLVi7uhW4mXG" next="i-V6xtyGqhuSqEEzyW7Fdvkt">
           <seg xml:id="i-NYe8TfmuA4wtPUC6FYd7RW">
             Herr statsrådet sade, att han icke på något vis hade velat träda
             riksdagens rätt för nära; han hade sedermera velat framlägga frågan
@@ -4087,8 +3843,6 @@
             däremot icke, huru de konsultativa statsråden också kunnat förbise
             samma sak.
           </seg>
-        </u>
-        <u xml:id="i-V6xtyGqhuSqEEzyW7Fdvkt" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-UYasDiB1abJyuDqr5txMSS" next="i-UFpTSpvh63Xyuedtsi7QpN">
           <seg xml:id="i-BPsD6mhsHCM9ucWwPs5Z6L">
             Till sist vill jag påpeka, att man konstitutionellt icke har
             rätt att betrakta en sådan sak som denna som en så obetydlig fråga.
@@ -4106,7 +3860,7 @@
         <note xml:id="i-CgtroGRTsKDPBEQxzKZvac" type="date">
           Fredagen den 14 juni, e. im. 49
         </note>
-        <u xml:id="i-UFpTSpvh63Xyuedtsi7QpN" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-V6xtyGqhuSqEEzyW7Fdvkt" next="i-HN22UsQNyxvCTyxVuWnZ9d">
+        <u xml:id="i-UFpTSpvh63Xyuedtsi7QpN" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-8NYTkudvpTnNfyJ1cndoN3">
           <seg xml:id="i-7Ap38s8Qxjysd2hdjfRbX9">
             när de inskrevo det i regeringsformen, framgår såväl av regeringsformens
             stadganden som av ansvarighetslagen för statsrådets ledamöter.
@@ -4124,8 +3878,6 @@
             rätt». Således är detta så att säga ett kvalificerat avsteg från
             de regler, som ett statsråd har att följa i sin ämbetsutövning.
           </seg>
-        </u>
-        <u xml:id="i-HN22UsQNyxvCTyxVuWnZ9d" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-UFpTSpvh63Xyuedtsi7QpN" next="i-4THCgJru8ukQ8wNkWohZSb">
           <seg xml:id="i-5BoRfG1AwPt9NSvDmj8DDd">
             Kammaren behagade således finna, att både grundlagen och ansvarighetslagen
             icke betrakta detta som någon likgiltig eller obetydlig sak, och
@@ -4134,8 +3886,6 @@
             beslut förelåg, måste det hava varit statsrådets skyldighet att
             avvakta ett nytt riksdagens beslut, innan uppgörelsen träffades.
           </seg>
-        </u>
-        <u xml:id="i-4THCgJru8ukQ8wNkWohZSb" who="i-Wd3cJwboTfCJv1Ls7d8i6d" prev="i-HN22UsQNyxvCTyxVuWnZ9d">
           <seg xml:id="i-MzbwfJXtVFmqCetSYmHsGh">
             Jag har, herr greve och talman, naturligtvis icke något annat
             yrkande än att memorialet lägges till handlingarna.
@@ -4144,14 +3894,12 @@
         <note xml:id="i-CeSweJjsxKvnKHBJQPWLsA" type="speaker">
           Herr Trygger:
         </note>
-        <u xml:id="i-TmdCX12dAguTyZGhBbFSQF" who="i-YBeHR1zEBPMM35nMEreTz" next="i-HZawGwTUsXipy3baBEhm68">
+        <u xml:id="i-TmdCX12dAguTyZGhBbFSQF" who="i-YBeHR1zEBPMM35nMEreTz" next="i-JQDC1sSsuEUJicVsb26oe3">
           <seg xml:id="i-FVyVD9dswgn8YfUU6uEhme">
             Herr greve och talman, mina herrar! Sedan herr Clason yttrat
             sig, är det egentligen obehövligt för mig att säga något, men
             eftersom jag begärt ordet, skall jag be att få göra ett par anmärkningar.
           </seg>
-        </u>
-        <u xml:id="i-HZawGwTUsXipy3baBEhm68" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-TmdCX12dAguTyZGhBbFSQF" next="i-8W2VXrbTA2KsHqMM4S7Hq7">
           <seg xml:id="i-AZb7YEZmJF72FNh4ZzDWBW">
             Jag kan visserligen tänka mig, att fall kunna förekomma, då Kungl.
             Maj:t kan finna sig hava skäl att gå ifrån ett riksdagens beslut
@@ -4163,8 +3911,6 @@
             måste jag följaktligen uppfatta som en försvårande omständighet
             vid fallets bedömande.
           </seg>
-        </u>
-        <u xml:id="i-8W2VXrbTA2KsHqMM4S7Hq7" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-HZawGwTUsXipy3baBEhm68" next="i-JQDC1sSsuEUJicVsb26oe3">
           <seg xml:id="i-U3jMHHoEzeyukrbmiaj2WQ">
             Som en förmildrande omständighet återigen finner jag, att friherre
             Palmstierna, enligt vad han här uppgivit, utgått från en tolkning
@@ -4199,13 +3945,11 @@
         <note xml:id="i-84NNnPMjtGd1EgUvAiQV4q" type="date">
           50 Fredagen den 14 juni, e. m.
         </note>
-        <u xml:id="i-JQDC1sSsuEUJicVsb26oe3" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-8W2VXrbTA2KsHqMM4S7Hq7" next="i-THNvhy5bEaiau7ed9YXQn9">
+        <u xml:id="i-JQDC1sSsuEUJicVsb26oe3" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-TmdCX12dAguTyZGhBbFSQF">
           <seg xml:id="i-AtYLsr9AXbvJqXGohDiNs3">
             rist, en förmildrande omständighet, när man har att bedöma föredragandens
             handlingssätt.
           </seg>
-        </u>
-        <u xml:id="i-THNvhy5bEaiau7ed9YXQn9" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-JQDC1sSsuEUJicVsb26oe3" next="i-8AGxgiztYeznsBmvKAUDej">
           <seg xml:id="i-FjjvamTYoYd4yuvnVScLzA">
             I dag har statsrådet till sitt försvar åberopat, vilket av herr
             Clason också påpekats, att han varit besjälad av en livlig önskan
@@ -4215,8 +3959,6 @@
             dess förmenta ne på det sätt, att han sätter sig över riksdagens
             uttryckliga be slut.
           </seg>
-        </u>
-        <u xml:id="i-8AGxgiztYeznsBmvKAUDej" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-THNvhy5bEaiau7ed9YXQn9">
           <seg xml:id="i-LHZvhDFfvWxofNvjSducjR">
             Jag har intet annat yrkande att göra än att memorialet lägges
             till handlingarna.
@@ -4225,7 +3967,7 @@
         <note xml:id="i-VtvfT3cfbxzBc1yRiZNUdE" type="speaker">
           Herr Klefbeck:
         </note>
-        <u xml:id="i-EfT4yGHQPYj99vvEMpx3ZK" who="i-2TWbQYA8ZvveMrG4prL575" next="i-XmaXR1KDpW4TX2mUUA7ZbP">
+        <u xml:id="i-EfT4yGHQPYj99vvEMpx3ZK" who="i-2TWbQYA8ZvveMrG4prL575" next="i-MjPPV8MTKVHi1ATSt52ZJG">
           <seg xml:id="i-AZDSF522MRuDvMUmKeMS3p">
             Herr talman! Det var ett yttrande av herr Trygger, som uppkallade
             mig. Han sade, att det icke hade tillkommit några nya faktiska
@@ -4234,8 +3976,6 @@
             meddela, att enligt min mening åtminstone verkligen en mycket
             betydelsefull omständighet tillkommit.
           </seg>
-        </u>
-        <u xml:id="i-XmaXR1KDpW4TX2mUUA7ZbP" who="i-2TWbQYA8ZvveMrG4prL575" prev="i-EfT4yGHQPYj99vvEMpx3ZK" next="i-9n2yH9vL1oP2F1KXtiNAW">
           <seg xml:id="i-NZLQJpi9V3kdcoRf4i6LzW">
             Denna fråga behandlades i Stockholms stadsfullmäktige på två
             olika sammanträden. Vid det första av dessa restes mot förslaget
@@ -4246,8 +3986,6 @@
             följande sammanträde. Hade den blivit avgjord, hade den av allt
             att döma den gången fallit.
           </seg>
-        </u>
-        <u xml:id="i-9n2yH9vL1oP2F1KXtiNAW" who="i-2TWbQYA8ZvveMrG4prL575" prev="i-XmaXR1KDpW4TX2mUUA7ZbP" next="i-FvttvSQVrZpznKassDkme1">
           <seg xml:id="i-6EmiRk65qLxdBMoqRfB5cA">
             Jag kan då tänka mig, att statsrådet stod inför den situationen,
             att han å ena sidan ville tillmötesgå riksdagens önskan om att
@@ -4269,8 +4007,6 @@
             vari ärendet befann sig, då hade, såvitt man kan bedöma saken.
             förkastat uppgörelsen.
           </seg>
-        </u>
-        <u xml:id="i-FvttvSQVrZpznKassDkme1" who="i-2TWbQYA8ZvveMrG4prL575" prev="i-9n2yH9vL1oP2F1KXtiNAW" next="i-MjPPV8MTKVHi1ATSt52ZJG">
           <seg xml:id="i-TDoRxWNNWzRuc9iezKEjDc">
             Jag vill för övrigt icke alls giva mig in på den formella historien.
             Det inser jag, att statsrådet icke har förfarit formellt riktigt,
@@ -4282,7 +4018,7 @@
         <note xml:id="i-Akhx47d8evgABA1LDSFLXo" type="date">
           Fredagen den 14 juni, e. m. 51
         </note>
-        <u xml:id="i-MjPPV8MTKVHi1ATSt52ZJG" who="i-2TWbQYA8ZvveMrG4prL575" prev="i-FvttvSQVrZpznKassDkme1">
+        <u xml:id="i-MjPPV8MTKVHi1ATSt52ZJG" who="i-2TWbQYA8ZvveMrG4prL575" prev="i-EfT4yGHQPYj99vvEMpx3ZK">
           <seg xml:id="i-6w6a4p5mw4Aq9ahxshed8p">
             kande, än att anhålla att kammaren -behagade lägga anmärkningen
             till handlingarna.

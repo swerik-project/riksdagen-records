@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-CTb7oZJCUQLRFrHtFFG6YE" type="speech">
             <linkGrp type="u">
               <ptr target="#i-SfsgkyzdKGeYUreWy3cSm6"/>
@@ -447,7 +447,13 @@
               <ptr target="#i-KVJMZL5oDG9SUNrqu7qRdo"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -856,7 +862,7 @@
           tidigare meddelats, skola fattas vid det sammanträde som tar sin
           början kl. 11.00 i morgon, fredagen den 2 februari.
         </note>
-        <u xml:id="i-SfsgkyzdKGeYUreWy3cSm6" who="i-W7utyZVptwNBqUURdBKkmv" next="i-Mmkv4nqG4X2NyHTtKQVQKy">
+        <u xml:id="i-SfsgkyzdKGeYUreWy3cSm6" who="i-W7utyZVptwNBqUURdBKkmv" next="i-a1de6b0969aba662-2">
           <seg xml:id="i-KVA6VpQXr3zZegmTW87FvU">
             Om kamrarna fattar olika beslut i någon av de frågor som behandlas
             i nämnda betänkande, kommer plena att ajourneras för att bereda
@@ -883,7 +889,7 @@
           sprida kännedom om den möjlighet som ett begränsat antal utlandssvenskar
           genom 1967 års riksdagsbeslut erhållit att deltaga i årets andrakammarval».
         </note>
-        <u xml:id="i-a1de6b0969aba662-2" who="i-BSEtbZG4ePv3rfebXQWRkd">
+        <u xml:id="i-a1de6b0969aba662-2" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-SfsgkyzdKGeYUreWy3cSm6">
           <seg xml:id="i-HWotbUWiNAeaMSkSanzpGJ">
             Som svar vill jag meddela att utrikesdepartementet den 15 december
             1967 sände ut en instruktionsskrivelse till ambassaderna om utlandssvenskarnas
@@ -1734,7 +1740,7 @@
         <note xml:id="i-L695c4FUTR6H6iE1d8qAJQ" type="speaker">
           Herr JANSSON (vpk):
         </note>
-        <u xml:id="i-65e17983029494a4-1" who="i-Dzkp4nRZwEKZzM6evjKdoq" next="i-yEyp9MmV6FCinvEyPu3LF">
+        <u xml:id="i-65e17983029494a4-1" who="i-Dzkp4nRZwEKZzM6evjKdoq">
           <seg xml:id="i-3D7DCYkequfpCU7dcHE7Nu">
             Herr talman! Naturligtvis är jag för en frihandelsvänlig politik
             utifrån principen om handel med alla till ömsesidig nytia. Beträffande
@@ -1748,13 +1754,9 @@
             inte direkt om försvarsindustri, men vi vet att militärer också
             måste ha kläder på sig, i varje fall på dessa breddgrader.
           </seg>
-        </u>
-        <u xml:id="i-yEyp9MmV6FCinvEyPu3LF" who="i-Dzkp4nRZwEKZzM6evjKdoq" prev="i-65e17983029494a4-1" next="i-2WxKaxBNLw1MsyjcFXig4n">
           <seg xml:id="i-E2y2xp9Q53FotFSwkYWHSL">
             Försvarsministern sade att procenten
           </seg>
-        </u>
-        <u xml:id="i-2WxKaxBNLw1MsyjcFXig4n" who="i-Dzkp4nRZwEKZzM6evjKdoq" prev="i-yEyp9MmV6FCinvEyPu3LF">
           <seg xml:id="i-GJJdv9eWVQaxsJpxiuJye7">
             av beställningar i utlandet har ökat — från 7 till 10 procent,
             om jag fattade rätt. Och detta vid en tidpunkt när vi har större
@@ -1845,7 +1847,7 @@
           Chefen för justitiedepartementet, herr statsrådet KLING, som
           yttrade:
         </note>
-        <u xml:id="i-c0e9b07106cdd99c-6" who="i-U22vAKBq8RA2Ji6KCU4j6Z" next="i-DMnsAr33Gg2rBURdqAeM7d">
+        <u xml:id="i-c0e9b07106cdd99c-6" who="i-U22vAKBq8RA2Ji6KCU4j6Z">
           <seg xml:id="i-HRSar4p3jCxDHceeCbmBv5">
             Herr talman! Herr Nyberg har frågat mig om några åtgärder har
             vidtagits eller kommer att vidtas med anledning av riksdagens
@@ -1854,15 +1856,11 @@
             i vallokalerna skulle komma att övervägas under det fortsatta
             arbetet på en total författningsreform.
           </seg>
-        </u>
-        <u xml:id="i-DMnsAr33Gg2rBURdqAeM7d" who="i-U22vAKBq8RA2Ji6KCU4j6Z" prev="i-c0e9b07106cdd99c-6" next="i-c0e9b07106cdd99c-7">
           <seg xml:id="i-SDoTaPhZ1yHfqnYL3zdjoH">
             I motioner till 1967 års riksdag hemställdes om utredning i de
             hänseenden som herr Nyberg har nämnt i sin fråga. I sina av riksdagen
             godkända utlåtanden över motionerna framhöll kon-
           </seg>
-        </u>
-        <u xml:id="i-c0e9b07106cdd99c-7" who="i-U22vAKBq8RA2Ji6KCU4j6Z" prev="i-DMnsAr33Gg2rBURdqAeM7d">
           <seg xml:id="i-TcBtrYh7a2wGHYG42gg6p8">
             stitutionsutskottet att grundlagberedningen kommer att göra en
             fullständig översyn av vallagstiftningen och att valtekniska utredningen
@@ -1890,7 +1888,7 @@
         <note xml:id="i-XQinjnWaqT5BATBWgabvY7" type="speaker">
           Herr NYBERG (fp):
         </note>
-        <u xml:id="i-510b5fcc105e8a85-0" who="i-LhYyN2c3mQaesyUNSPg5Uq" next="i-Ej5hRpsiA4NmdTtFW2keM5">
+        <u xml:id="i-510b5fcc105e8a85-0" who="i-LhYyN2c3mQaesyUNSPg5Uq" next="i-510b5fcc105e8a85-1">
           <seg xml:id="i-RuCwtQyksxAuri3Absn4u8">
             Herr talman! Jag ber att få tacka justitieministern för svaret
             på min fråga.
@@ -1918,7 +1916,7 @@
           Svar på fråga ang. hänsynstagandet till rörelsehindrade vid utformningen
           av byggnader
         </note>
-        <u xml:id="i-510b5fcc105e8a85-1" who="i-LhYyN2c3mQaesyUNSPg5Uq" prev="i-Ej5hRpsiA4NmdTtFW2keM5">
+        <u xml:id="i-510b5fcc105e8a85-1" who="i-LhYyN2c3mQaesyUNSPg5Uq" prev="i-510b5fcc105e8a85-0">
           <seg xml:id="i-SZgmqeCNYARrw5udD7L4v1">
             redningsdirektiv. Det kunde sålunda tänkas att direktiven för
             utredningarna borde kompletteras.
@@ -1999,7 +1997,7 @@
           Chefen för kommunikationsdepartementet, herr statsrådet LUNDKVIST,
           som yttrade:
         </note>
-        <u xml:id="i-510b5fcc105e8a85-2" who="i-2pEgGvjfozTyRxyzmLZFo2" next="i-Gbgjtgynpoy2Nb8XQV6sSK">
+        <u xml:id="i-510b5fcc105e8a85-2" who="i-2pEgGvjfozTyRxyzmLZFo2" next="i-510b5fcc105e8a85-3">
           <seg xml:id="i-PmZf5sLD8eKzbzDyTtjXWz">
             Herr talman! Fru Renström-Ingenäs har frågat mig vilka erfarenheter
             man har av tillämpningen av den bestämmelse i byggnadsstadgan
@@ -2007,8 +2005,6 @@
             till vilka allmänheten äger tillträde i skälig omfattning skall
             utformas så att de blir tillgängliga även för rörelsehindrade.
           </seg>
-        </u>
-        <u xml:id="i-Gbgjtgynpoy2Nb8XQV6sSK" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-510b5fcc105e8a85-2" next="i-TEGKsn4GyA4gEYvib2MGe3">
           <seg xml:id="i-YBvWMLUVTwgo1i7krj8QCS">
             Den bestämmelse, som fru Renström-
           </seg>
@@ -2024,7 +2020,7 @@
           Svar på fråga ang. hänsynstagandet till rörelsehindrade vid utformningen
           av byggnader
         </note>
-        <u xml:id="i-510b5fcc105e8a85-3" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-TEGKsn4GyA4gEYvib2MGe3">
+        <u xml:id="i-510b5fcc105e8a85-3" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-510b5fcc105e8a85-2">
           <seg xml:id="i-JTmNz24CnvcrPmzvWPqz2J">
             Ingenäs avser, finns i 42 a $ byggnadsstadgan. Från statens planverk
             — den myndighet som har att närmare följa tillämpningen av byggnadslagstiftningen
@@ -2049,7 +2045,7 @@
         <note xml:id="i-MSsQoqA5PwkbUtMAvotbay" type="speaker">
           Fru RENSTRÖM-INGENAS (ss):
         </note>
-        <u xml:id="i-a1de6b0969aba662-3" who="unknown" next="i-K17GHoj1gEeFKLwLKsUwyX">
+        <u xml:id="i-a1de6b0969aba662-3" who="unknown" next="i-a1de6b0969aba662-5">
           <seg xml:id="i-DV2hA2gCUQTCLQGTUcAHwR">
             Herr talman! Jag ber att få tacka herr statsrådet och chefen
             för kommunikationsdepartementet för svaret på min fråga. Jag instämmer
@@ -2104,8 +2100,6 @@
             speciella fall. Men det är en missräkning för en rörelsehindrad
             att bli utestängd från sådana lokaler.
           </seg>
-        </u>
-        <u xml:id="i-K17GHoj1gEeFKLwLKsUwyX" who="unknown" prev="i-a1de6b0969aba662-3" next="i-a1de6b0969aba662-5">
           <seg xml:id="i-YNDsP6XijLponfpP1xi2P7">
             Jag vill sluta med att fråga statsrådet: Har man diskuterat möjligheterna
           </seg>
@@ -2124,7 +2118,7 @@
           Svar på fråga ang. vidareutbildning av icke kompetenta vikarier
           på lågoch mellanstadiet
         </note>
-        <u xml:id="i-a1de6b0969aba662-5" who="unknown" prev="i-K17GHoj1gEeFKLwLKsUwyX">
+        <u xml:id="i-a1de6b0969aba662-5" who="unknown" prev="i-a1de6b0969aba662-3">
           <seg xml:id="i-Vgeb4XnydHLKKuXo8VpJjd">
             att i föreskrifterna rekommendera anordningar vid garage, kontorsbyggnader,
             livsmedelsbutiker och industribyggnader på samma sätt som man
@@ -2171,7 +2165,7 @@
         <note xml:id="i-ATUiq2cTSWesnnY7gSLH8p" type="speaker">
           Fru RENSTRÖM-INGENÄS (s):
         </note>
-        <u xml:id="i-a1de6b0969aba662-7" who="i-UhzCkFKqHHheZQRgcWU185" next="i-UT3SbxW4mBYPBv7Qxw9Por">
+        <u xml:id="i-a1de6b0969aba662-7" who="i-UhzCkFKqHHheZQRgcWU185" next="i-a1de6b0969aba662-9">
           <seg xml:id="i-3qyY64WgGhbdpS8ZYCZeEB">
             Herr talman! De önskemål jag framförde har jag i min tur fått
             från en i de rörelsehindrades organisation mycket aktiv person,
@@ -2196,7 +2190,7 @@
           om utbildning av oexaminerade lärare på grundskolans lågoch mellanstadium
           kommer att behandlas i
         </note>
-        <u xml:id="i-a1de6b0969aba662-9" who="i-QPZoWKCvCmfTAWBDnrZkyr">
+        <u xml:id="i-a1de6b0969aba662-9" who="i-QPZoWKCvCmfTAWBDnrZkyr" prev="i-a1de6b0969aba662-7">
           <seg xml:id="i-Bk86wn7Euc1fcm88ejgTge">
             Skolöverstyrelsen har i anslagsframställning för budgetåret 1968/69
             angående klassoch ämneslärarutbildning begärt medel för utbildning
@@ -3269,7 +3263,7 @@
         <note xml:id="i-2Ad4QGp2xLpY1w7djpeRQq">
           Beträffande propositionens huvudsakliga innehåll anfördes följande.
         </note>
-        <u xml:id="i-QYbScwStQqtXSN2cEZLfqp" who="i-QXiGidLhFr3yVPmDxRSa4h" prev="i-GmEovERAxg14RKgJKZ6KMF" next="i-962ebf25affd7865-10">
+        <u xml:id="i-QYbScwStQqtXSN2cEZLfqp" who="i-QXiGidLhFr3yVPmDxRSa4h" prev="i-GmEovERAxg14RKgJKZ6KMF">
           <seg xml:id="i-3a1pyp9w42G4Ht6g4dg7MA">
             I propositionen föreslås i enlighet med vad som förutskickats
             i finansplanen höjning av skatten på sprit och vin med 10 2 den
@@ -3277,8 +3271,6 @@
             med i genomsnitt 9 7 för spritdrycker, 870 för starkvin och 79
             för lättvin.
           </seg>
-        </u>
-        <u xml:id="i-962ebf25affd7865-10" who="i-QXiGidLhFr3yVPmDxRSa4h" prev="i-QYbScwStQqtXSN2cEZLfqp">
           <seg xml:id="i-8cfCPRz4g7p2jBfpdE9rG">
             Vidare föreslås i propositionen en ytterligare differentiering
             av tobaksskatten på cigarretter, varigenom skatten på cigarretter
@@ -3452,7 +3444,7 @@
         <note xml:id="i-7PjWrUeAPT4kgRtcwro2qi" type="speaker">
           Fru NETTELBRANDT (fp):
         </note>
-        <u xml:id="i-962ebf25affd7865-11" who="i-QXiGidLhFr3yVPmDxRSa4h" next="i-39yeJJK4ZrunxZnTp6C8sW">
+        <u xml:id="i-962ebf25affd7865-11" who="i-QXiGidLhFr3yVPmDxRSa4h" next="i-962ebf25affd7865-13">
           <seg xml:id="i-YVCT4WvHXHjTSeNBWDHDvY">
             Herr talman! Jag måste tillstå att det för mig känns allmänt
             motbjudande att tala för högre skatter, särskilt som jag är av
@@ -3505,14 +3497,10 @@
             i det stillasittande liv som vi så mycket lever i bilar och framför
             TV- apparater.
           </seg>
-        </u>
-        <u xml:id="i-39yeJJK4ZrunxZnTp6C8sW" who="i-QXiGidLhFr3yVPmDxRSa4h" prev="i-962ebf25affd7865-11" next="i-962ebf25affd7865-12">
           <seg xml:id="i-xZt15bbFd8i2pkd7k9pZY">
             Jag yrkar bifall till reservationen 3 av herr Erik Filip Petersson
             m. fl.
           </seg>
-        </u>
-        <u xml:id="i-962ebf25affd7865-12" who="i-QXiGidLhFr3yVPmDxRSa4h" prev="i-39yeJJK4ZrunxZnTp6C8sW" next="i-962ebf25affd7865-13">
           <seg xml:id="i-GhzRZ3g6CDBKdsfL7Gg7pN">
             Till sist några ord om reservationen 2. Samtliga ledamöter i
             utskottet har förordat att tobaksbeskattningen i dess helhet bör
@@ -3537,7 +3525,7 @@
           Ändrad lydelse av 2 8 1 mom. förordningen om skatt på sprit och
           vin, m. m.
         </note>
-        <u xml:id="i-962ebf25affd7865-13" who="i-QXiGidLhFr3yVPmDxRSa4h" prev="i-962ebf25affd7865-12" next="i-PomUeLuTUmKkmyR3cmUwiZ">
+        <u xml:id="i-962ebf25affd7865-13" who="i-QXiGidLhFr3yVPmDxRSa4h" prev="i-962ebf25affd7865-11">
           <seg xml:id="i-FWtVQznPjSt4BX9yMV89Pk">
             med ett system med skatt efter mängd tobak. Då slipper man också
             de besvärliga tröskelproblem som alltid måste infinna sig när
@@ -3546,8 +3534,6 @@
             med småjusteringar när en mera genomgripande förändring kan vara
             så nära förestående.
           </seg>
-        </u>
-        <u xml:id="i-PomUeLuTUmKkmyR3cmUwiZ" who="i-QXiGidLhFr3yVPmDxRSa4h" prev="i-962ebf25affd7865-13">
           <seg xml:id="i-Gmy4kSzCnXETyVxgiAMi9M">
             Herr talman! Jag yrkar bifall till reservationen 2 av herr Tistad
             och mig själv.
@@ -3559,7 +3545,7 @@
         <note xml:id="i-WdQ14CEyWSGXJGUcq9fyBi" type="speaker">
           Herr VIGELSBO (cp):
         </note>
-        <u xml:id="i-89778892b27c627f-0" who="i-F8bSD7JcePAy5c3DWYPLRs" next="i-Y7aSsBr5Wgj62begLEiu8Q">
+        <u xml:id="i-89778892b27c627f-0" who="i-F8bSD7JcePAy5c3DWYPLRs">
           <seg xml:id="i-MHT7yxig6ec7a6z7nX6xpx">
             Herr talman! Vi hade för mycket länge sedan en finansminister
             som hette Fredrik Vilhelm Thorsson. Han hade vid något tillfälle
@@ -3607,8 +3593,6 @@
             neutral. Jag kommer att biträda den linje, som ligger i mitten,
             nämligen om en 15- procentig höjning.
           </seg>
-        </u>
-        <u xml:id="i-Y7aSsBr5Wgj62begLEiu8Q" who="i-F8bSD7JcePAy5c3DWYPLRs" prev="i-89778892b27c627f-0">
           <seg xml:id="i-5fz8YStHhXKSCP8Hz2YqSE">
             Jag ber följaktligen, herr talman, att helt kort få yrka bifall
             till den vid förevarande betänkande fogade reservationen nr 3.
@@ -3617,14 +3601,12 @@
         <note xml:id="i-AFakVkAEdWjZaCEyCDRbiU" type="speaker">
           Herr ENGKVIST (s):
         </note>
-        <u xml:id="i-CUgUA1ypPr2HXGEHQGRcMN" who="i-HGewsaYuRmtBByFFwA97fB" next="i-ab3acaa983102a0f-1">
+        <u xml:id="i-CUgUA1ypPr2HXGEHQGRcMN" who="i-HGewsaYuRmtBByFFwA97fB" next="i-ab3acaa983102a0f-2">
           <seg xml:id="i-59NiFNYCSWR1h4mFoT6n1v">
             Herr talman! Det betänkande från bevillningsutskottet, som vi
             nu behandlar, innefattar utskottets ställningstagande till propositionen
             nr 12 till årets riksdag samt i anledning därav väckta motioner.
           </seg>
-        </u>
-        <u xml:id="i-ab3acaa983102a0f-1" who="i-HGewsaYuRmtBByFFwA97fB" prev="i-CUgUA1ypPr2HXGEHQGRcMN" next="i-ab3acaa983102a0f-2">
           <seg xml:id="i-N5KqQQXBoLjJtdfdzB2CbA">
             I propositionen föreslås höjning av skatten på vissa rusdrycker
             med 10 procent, vilket vid ett genomförande skulle innebära att
@@ -3645,7 +3627,7 @@
           Ändrad lydelse av 2 8 I mom. förordningen om skatt på sprit och
           vin, m. m.
         </note>
-        <u xml:id="i-ab3acaa983102a0f-2" who="i-HGewsaYuRmtBByFFwA97fB" prev="i-ab3acaa983102a0f-1" next="i-2XXBCuDA6GrPyGQ4k8Z1hL">
+        <u xml:id="i-ab3acaa983102a0f-2" who="i-HGewsaYuRmtBByFFwA97fB" prev="i-CUgUA1ypPr2HXGEHQGRcMN">
           <seg xml:id="i-QrWL1oNWJxrXJ6VponkiYB">
             Tillsammans med några medmotionärer har jag därför i motion II:595
             yrkat på en större höjning av spritskatten, nämligen med 8 öre
@@ -3696,8 +3678,6 @@
             skiljer den sig från det nykterhetspolitiska ställningstagande
             jag anser man bör göra.
           </seg>
-        </u>
-        <u xml:id="i-2XXBCuDA6GrPyGQ4k8Z1hL" who="i-HGewsaYuRmtBByFFwA97fB" prev="i-ab3acaa983102a0f-2">
           <seg xml:id="i-RbADRXEMfGNbaZJKgPUDGn">
             Herr talman! Med dessa kortfattade motiveringar vill jag således
             yrka bifall till reservation nr 1 av herrar Tage Johansson och
@@ -3751,7 +3731,7 @@
           Ändrad lydelse av 2 8 1 mom. förordningen om skatt på sprit och
           vin, m. m.
         </note>
-        <u xml:id="i-a1de6b0969aba662-22" who="unknown" prev="i-a1de6b0969aba662-21" next="i-Bu5QWnAPnFX7WfFqUT6FRB">
+        <u xml:id="i-a1de6b0969aba662-22" who="unknown" prev="i-a1de6b0969aba662-21" next="i-a1de6b0969aba662-24">
           <seg xml:id="i-TnZ6KdRu7nn5gegGdjKWVY">
             sprit och tobak har större kapacitet att betala en skattehöjning
             på ytterligare 300 miljoner än de människor som inte konsumerar
@@ -3818,8 +3798,6 @@
             cigarretter på varje paket. Det är denna lägre skattebetalning
             som utskottet genom sitt förslag vill avskaffa.
           </seg>
-        </u>
-        <u xml:id="i-Bu5QWnAPnFX7WfFqUT6FRB" who="unknown" prev="i-a1de6b0969aba662-22" next="i-a1de6b0969aba662-23">
           <seg xml:id="i-JvwJ7fZwbTFeCGi8frGHgu">
             Fru Nettelbrandt och herr Tistad yrkar i sin reservation 2 att
             denna nya gruppering ej skall införas. Samtidigt har dessa reservanter
@@ -3827,8 +3805,6 @@
             bör i klärhetens intresse tala om för kammaren vilken åsikt hon
             egentligen företräder.
           </seg>
-        </u>
-        <u xml:id="i-a1de6b0969aba662-23" who="unknown" prev="i-Bu5QWnAPnFX7WfFqUT6FRB" next="i-a1de6b0969aba662-24">
           <seg xml:id="i-CX5gRDPHDake33b8GgzBSm">
             I vissa motioner om avslag på den föreslagna viktgrupperingen
             har det angivits att skälet för detta förslag från finansministern
@@ -3848,15 +3824,13 @@
           Ändrad lydelse av 2 8 1 mom. förordningen om skatt på sprit och
           vin, m, m.
         </note>
-        <u xml:id="i-a1de6b0969aba662-24" who="unknown" prev="i-a1de6b0969aba662-23" next="i-Hewpk1NzAx779UzEsC2iJF">
+        <u xml:id="i-a1de6b0969aba662-24" who="unknown" prev="i-a1de6b0969aba662-22">
           <seg xml:id="i-QXhenVpvHBofm4rL9AxGv7">
             varit lojalt mot det av riksdagen fattade beslutet om en utredning.
             Företaget skulle ha kunnat tillverka en superlång cigarrett och
             börjat försäljningen i september månad 1967 men avstod från detta
             i avvaktan på riksdagens ställningstagande.
           </seg>
-        </u>
-        <u xml:id="i-Hewpk1NzAx779UzEsC2iJF" who="unknown" prev="i-a1de6b0969aba662-24">
           <seg xml:id="i-LHVtKEXsUARiTV4k3uQ5TZ">
             Med hänvisning till bl. a. dessa argument och till utskottets
             motiveringar i övrigt yrkar jag, herr talman, bifall till bevillningsutskottets
@@ -4152,7 +4126,7 @@
           Ändrad lydelse av 2 8 1 mom. förordningen om skatt på sprit och
           vin, m. m.
         </note>
-        <u xml:id="i-a1de6b0969aba662-28" who="i-QoeFZWNQgLDU6t6B6RuPtd" prev="i-b781fab3400d2f42-0" next="i-MzNJJuvrSBxuhtZcf3ehNg">
+        <u xml:id="i-a1de6b0969aba662-28" who="i-QoeFZWNQgLDU6t6B6RuPtd" prev="i-b781fab3400d2f42-0" next="i-a1de6b0969aba662-30">
           <seg xml:id="i-XQfgCFTBXikNPYv1ztmqYg">
             ken i stort utreds inom den Lindholmska: kommittén... Han föreslår
             alltså höjning av skatten på alla rusdrycker utom starköl. Och
@@ -4210,14 +4184,10 @@
             av skatteinstrumentet som ett av flera medel i alkoholpolitiken.
             Även om resultatet av denna un-
           </seg>
-        </u>
-        <u xml:id="i-MzNJJuvrSBxuhtZcf3ehNg" who="i-QoeFZWNQgLDU6t6B6RuPtd" prev="i-a1de6b0969aba662-28" next="i-a1de6b0969aba662-29">
           <seg xml:id="i-P8PcwkbJuUuivZG83TNdn4">
             dersökning — liksom av alla andra opinionsundersökningar — måste
             be-
           </seg>
-        </u>
-        <u xml:id="i-a1de6b0969aba662-29" who="i-QoeFZWNQgLDU6t6B6RuPtd" prev="i-MzNJJuvrSBxuhtZcf3ehNg" next="i-a1de6b0969aba662-30">
           <seg xml:id="i-TKJ9f6Pr9na2wkcJBwBQN1">
             dömas med största försiktighet och inte kan ge mer än på sin
             höjd en antydan om en tendens, vågar jag ändå i mycket koncentrerad
@@ -4245,7 +4215,7 @@
           Ändrad lydelse av 2 8 1 mom. förordningen om skatt på sprit och
           vin, m. m.
         </note>
-        <u xml:id="i-a1de6b0969aba662-30" who="i-QoeFZWNQgLDU6t6B6RuPtd" prev="i-a1de6b0969aba662-29" next="i-TdVH7abMT3muiJyq8jhQgu">
+        <u xml:id="i-a1de6b0969aba662-30" who="i-QoeFZWNQgLDU6t6B6RuPtd" prev="i-a1de6b0969aba662-28" next="i-a1de6b0969aba662-31">
           <seg xml:id="i-HKh786fwqsYgWtsLHokkua">
             träffande skatten. Därmed är inte sagt att man lika allmänt accepterar
             prismedlet, om det gäller att pressa tillbaka den totala alkoholkonsumtionen.
@@ -4314,8 +4284,6 @@
             dock en bättre bild av den ekonomiska verklighetens förändring
             än vad prisutvecklingen gör.
           </seg>
-        </u>
-        <u xml:id="i-TdVH7abMT3muiJyq8jhQgu" who="i-QoeFZWNQgLDU6t6B6RuPtd" prev="i-a1de6b0969aba662-30" next="i-a1de6b0969aba662-31">
           <seg xml:id="i-DMhue4BPxjjgTjppaFDjoP">
             Enligt finansplanen ökade den totala lönesumman, som omfattade
             alla an-
@@ -4332,7 +4300,7 @@
           Ändrad lydelse av 2 8 1 mom. förordningen om skatt på sprit och
           vin, m. m.
         </note>
-        <u xml:id="i-a1de6b0969aba662-31" who="i-QoeFZWNQgLDU6t6B6RuPtd" prev="i-TdVH7abMT3muiJyq8jhQgu" next="i-XktypLA988sTbmCSXLYb8j">
+        <u xml:id="i-a1de6b0969aba662-31" who="i-QoeFZWNQgLDU6t6B6RuPtd" prev="i-a1de6b0969aba662-30">
           <seg xml:id="i-WG12BdGwmGMnXzxroFhPKS">
             ställdas kontantlöner före skatt — och det är väl detsamma som
             konsumtionsförmågan eller köpkraften — med 10,8 procent mellan
@@ -4358,8 +4326,6 @@
             vägen till en effektivare skattepolitik på detta område i väntan
             på resultatet av alkoholpolitiska utredningens arbete.
           </seg>
-        </u>
-        <u xml:id="i-XktypLA988sTbmCSXLYb8j" who="i-QoeFZWNQgLDU6t6B6RuPtd" prev="i-a1de6b0969aba662-31">
           <seg xml:id="i-312JdMgSCGxjkyrqDr3X6S">
             Jag ber, herr talman, att få yrka bifall till reservationen 1
             i föreliggande betänkande.
@@ -4651,14 +4617,12 @@
         <note xml:id="i-PCu7gvGyuxCeLXTyoN8re4" type="speaker">
           Herr HAMRIN i Kalmar (fp):
         </note>
-        <u xml:id="i-6447ce20c7e49895-5" who="i-Hu7hKPMf4mxcMxbTcp28NL" next="i-S1hp5HDVcF5aei5NrNNPLy">
+        <u xml:id="i-6447ce20c7e49895-5" who="i-Hu7hKPMf4mxcMxbTcp28NL" next="i-6447ce20c7e49895-7">
           <seg xml:id="i-JbzsDYqXFNdVrUSppjJ2px">
             Herr talman! Jag skall endast uppehålla mig vid en enda fråga
             som delvis har berörts tidigare i debatten. Det gäller principerna
             för beskattningen av cigarretter.
           </seg>
-        </u>
-        <u xml:id="i-S1hp5HDVcF5aei5NrNNPLy" who="i-Hu7hKPMf4mxcMxbTcp28NL" prev="i-6447ce20c7e49895-5" next="i-6447ce20c7e49895-6">
           <seg xml:id="i-TmqG5GUt2vjZQuZrtoAWX9">
             I motionsparet I: 390 och II: 472 — väckt av herr Tistad m. fl.
             i första kammaren och av mig själv m. fl. i denna kammare — yrkas
@@ -4666,8 +4630,6 @@
             av cigarretterna. Finansministern redovisar i propositionen den
             utredning som riksdagen
           </seg>
-        </u>
-        <u xml:id="i-6447ce20c7e49895-6" who="i-Hu7hKPMf4mxcMxbTcp28NL" prev="i-S1hp5HDVcF5aei5NrNNPLy" next="i-6447ce20c7e49895-7">
           <seg xml:id="i-9bRQXc6EDvf6gnMPKQR9uc">
             i fjol begärde rörande en omläggning av denna beskattning, föranledd
             av att allt längre cigarretter kommit ut i marknaden. Jag kan
@@ -4717,7 +4679,7 @@
           Ändrad lydelse av 2 8 1 mom. förordningen om skatt på sprit och
           vin, m. m.
         </note>
-        <u xml:id="i-6447ce20c7e49895-7" who="i-Hu7hKPMf4mxcMxbTcp28NL" prev="i-6447ce20c7e49895-6">
+        <u xml:id="i-6447ce20c7e49895-7" who="i-Hu7hKPMf4mxcMxbTcp28NL" prev="i-6447ce20c7e49895-5">
           <seg xml:id="i-BgBUXAZnjCs4SfzfsSESVo">
             för är nödvändigt att vid höstriksdagen ändra på principerna
             för denna beskattning. Liksom de som avgivit reservationen 2 undrar
@@ -5772,7 +5734,7 @@
         <note xml:id="i-997mwawJFWNT4ctGgnqXKi">
           Interpellation ang. beskattningen av folkpensionärernas sidoinkomster
         </note>
-        <u xml:id="i-a1de6b0969aba662-43" who="i-Dzkp4nRZwEKZzM6evjKdoq" prev="i-a1de6b0969aba662-55" next="i-VscwkShYzKpM2dFLZPpkeh">
+        <u xml:id="i-a1de6b0969aba662-43" who="i-Dzkp4nRZwEKZzM6evjKdoq" prev="i-a1de6b0969aba662-55">
           <seg xml:id="i-PmwxPcLJB3oDsByCbwasKE">
             politiska förvecklingar. Till detta kommer att katastrofen kan
             få följder för människornas hälsa som ännu inte går att överblicka.
@@ -5798,28 +5760,20 @@
             okänd omfattning kan infekteras. De som arbetar med fisket i dessa
             områden får även sätta liv och hälsa på spel.
           </seg>
-        </u>
-        <u xml:id="i-VscwkShYzKpM2dFLZPpkeh" who="i-Dzkp4nRZwEKZzM6evjKdoq" prev="i-a1de6b0969aba662-43" next="i-a1de6b0969aba662-44">
           <seg xml:id="i-C44hg1g2dBRzVhqtcWGCAY">
             Med hänvisning till vad i interpellationen anförts, anhåller
             jag om kammarens tillstånd att till hans excellens herr statsministern
             få ställa följande frågor:
           </seg>
-        </u>
-        <u xml:id="i-a1de6b0969aba662-44" who="i-Dzkp4nRZwEKZzM6evjKdoq" prev="i-VscwkShYzKpM2dFLZPpkeh" next="i-6Sedp6MTQw8ne448DsaABX">
           <seg xml:id="i-Qtb2Aj98tfwxAP8sDuAuuk">
             1. Har Sveriges regering varit informerad om, att amerikanska
             bombplan med vätebombslaster har permanent flygroute över nordiskt
             område och finns några medgivanden om att dessa i vissa fall även
             får beträda svenskt luftrum?
           </seg>
-        </u>
-        <u xml:id="i-6Sedp6MTQw8ne448DsaABX" who="i-Dzkp4nRZwEKZzM6evjKdoq" prev="i-a1de6b0969aba662-44" next="i-a1de6b0969aba662-45">
           <seg xml:id="i-M5ynCdsQHQXQywhBXQNk2Q">
             2. Finns på svensk sida upplysning-
           </seg>
-        </u>
-        <u xml:id="i-a1de6b0969aba662-45" who="i-Dzkp4nRZwEKZzM6evjKdoq" prev="i-6Sedp6MTQw8ne448DsaABX">
           <seg xml:id="i-TwC9BEZPF9EmgydKhps4qe">
             ar om de fyra vätebombernas radioaktiva strålningskraft och energiutveckling
             och vilka sannolika konsekvenser som spridning av plutonium med
@@ -5843,7 +5797,7 @@
         <note xml:id="i-AGMd8Zx4JBDozh5k5szrT8" type="speaker">
           Herr WEDÉN (fp), som yttrade:
         </note>
-        <u xml:id="i-a1de6b0969aba662-46" who="i-BtszRKWKgFfiTcr2r2Ek6j" next="i-5QWYh4bixvnU1PigFDVqTX">
+        <u xml:id="i-a1de6b0969aba662-46" who="i-BtszRKWKgFfiTcr2r2Ek6j" next="i-a1de6b0969aba662-47">
           <seg xml:id="i-KktMWKNb5MPx8ymJ7SjN3f">
             Herr talman! Folkpartiet har under en följd av år krävt en översyn
             av de skatteoch bidragsregler som medför att orimliga avbränningar
@@ -5857,15 +5811,11 @@
             De påtalade effekterna beror på att följande för pensionärernas
             extrainkomster ogynnsamma verkningar inträffar ungefär samtidigt:
           </seg>
-        </u>
-        <u xml:id="i-5QWYh4bixvnU1PigFDVqTX" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-a1de6b0969aba662-46" next="i-RzbYn3QzAZvRMKUaLWW9Lu">
           <seg xml:id="i-2djC4SaDAJUQvTVhLygLRM">
             1) De inkomstprövade folkpensionsförmånerna (kommunalt bostadstillägg
             och i förekommande fall hustrutillägg och s. k. äldre änkepensioner)
             avtrappas och försvinner.
           </seg>
-        </u>
-        <u xml:id="i-RzbYn3QzAZvRMKUaLWW9Lu" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-5QWYh4bixvnU1PigFDVqTX" next="i-Nms94yi5PyMkVZHmzzQ8RY">
           <seg xml:id="i-NzuNLrKvDzgjDhCUr7F3FG">
             2) Folkpensionärernas extra avdrag för nedsatt skatteförmåga
             urholkas och upphör. |
@@ -5875,8 +5825,6 @@
             erläggas. Vid något högre sidoinkomster träder statsskatten till.
             |
           </seg>
-        </u>
-        <u xml:id="i-Nms94yi5PyMkVZHmzzQ8RY" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-RzbYn3QzAZvRMKUaLWW9Lu" next="i-a1de6b0969aba662-47">
           <seg xml:id="i-A9AAGbDTqxNrwSX2hnfadh">
             Finansministern föreslog till 1967 års riksdag vissa lättnader
             för dessa hårt
@@ -5892,7 +5840,7 @@
         <note xml:id="i-XzF1kVD1dTBunaWdnqiyi8">
           Interpellation ang. beskattningen av folkpensionärernas sidoinkomster
         </note>
-        <u xml:id="i-a1de6b0969aba662-47" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-Nms94yi5PyMkVZHmzzQ8RY" next="i-2ifDSYTx3RwWcT978jnJU6">
+        <u xml:id="i-a1de6b0969aba662-47" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-a1de6b0969aba662-46">
           <seg xml:id="i-KyEvnxXAqCAeMAB1gLc527">
             drabbade pensionärer. Som vi emellertid påpekade i en motion
             var de inte tillfredsställande. Även med den nya ordningen kommer
@@ -5941,8 +5889,6 @@
             och på försök tillämpa en dylik källskatt i fråga om folkpensionärerna.»
             (AK 22/2 -67.)
           </seg>
-        </u>
-        <u xml:id="i-2ifDSYTx3RwWcT978jnJU6" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-a1de6b0969aba662-47" next="i-a1de6b0969aba662-48">
           <seg xml:id="i-3A7T9xbQ47Bu79B6urKUpD">
             Riksdagens beslut blev också att i skrivelse till Kungl. Maj:t
             hemställa om skyndsam utredning av frågan om folkpensionärernas
@@ -5950,8 +5896,6 @@
             en definitiv källskatt för folkpensionärer. Detta beslut fattades
             den 22 februari 1967.
           </seg>
-        </u>
-        <u xml:id="i-a1de6b0969aba662-48" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-2ifDSYTx3RwWcT978jnJU6">
           <seg xml:id="i-WHePbRaFVvmBT4nDXNc95F">
             Vissa frågor med anknytning till detta problem behandlas av pensionsförsäkringskommittén.
             Vad gäller den här berörda skattefrågan har emellertid regeringen
@@ -6041,7 +5985,7 @@
         <note xml:id="i-NsULBRW17Lzb64WFhnJCs2" type="speaker">
           Herr FREDRIKSSON (s), rade:
         </note>
-        <u xml:id="i-XAiBmeThtFyfLPnkeytjGD" who="i-Ba5pk2rGL4rDrzoirW3mNb" next="i-a1de6b0969aba662-51">
+        <u xml:id="i-XAiBmeThtFyfLPnkeytjGD" who="i-Ba5pk2rGL4rDrzoirW3mNb" next="i-HidpmBqfXDAsfZrQiksarD">
           <seg xml:id="i-WGgXJVdSL1vwGHrSvevxxx">
             Herr talman! Genom beslut vid 1962 års riksdag hemställdes till
             Kungl. Maj:t, att det skulle uppdras åt statens institut för folkhälsan
@@ -6056,8 +6000,6 @@
             få påbörjas. Under de därpå följande åren har riksdagen anvisat
             medel för undersökningarnas bedrivande.
           </seg>
-        </u>
-        <u xml:id="i-a1de6b0969aba662-51" who="i-Ba5pk2rGL4rDrzoirW3mNb" prev="i-XAiBmeThtFyfLPnkeytjGD" next="i-2dJ4BEe1oKeSEc9TLxSnd7">
           <seg xml:id="i-UQVMJxJYQJCja6seQg7juB">
             Som ett resultat av institutets och styrelsens arbete framlades
             i början av 1967 en redogörelse rubricerad »Silikos i Sverige»
@@ -6069,8 +6011,6 @@
             arbetare befinner sig således i vad som kan kallas riskzonen.
             Hur många av dem som kommer att få si-
           </seg>
-        </u>
-        <u xml:id="i-2dJ4BEe1oKeSEc9TLxSnd7" who="i-Ba5pk2rGL4rDrzoirW3mNb" prev="i-a1de6b0969aba662-51" next="i-HidpmBqfXDAsfZrQiksarD">
           <seg xml:id="i-9DGfPZuqSwf1g1kC7uc16u">
             som ytt-
           </seg>
@@ -6082,7 +6022,7 @@
         <note xml:id="i-KhkayHX8c7cQX7LyVVfvPS">
           Interpellation ang. åtgärder mot silikos
         </note>
-        <u xml:id="i-HidpmBqfXDAsfZrQiksarD" who="i-Ba5pk2rGL4rDrzoirW3mNb" prev="i-2dJ4BEe1oKeSEc9TLxSnd7" next="i-7JJzhScCWJBMwECgPPfmsX">
+        <u xml:id="i-HidpmBqfXDAsfZrQiksarD" who="i-Ba5pk2rGL4rDrzoirW3mNb" prev="i-XAiBmeThtFyfLPnkeytjGD" next="i-KVJMZL5oDG9SUNrqu7qRdo">
           <seg xml:id="i-99bQmv6KvTsjp4p4TdRLEm">
             likos kan inte med bestämdhet förutses. Däremot vet vi att det
             de senaste tio åren har anmälts drygt 900 fall av silikos till
@@ -6113,8 +6053,6 @@
             medgivande att till statsrådet och chefen för socialdepartementet
             få framställa följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-7JJzhScCWJBMwECgPPfmsX" who="i-Ba5pk2rGL4rDrzoirW3mNb" prev="i-HidpmBqfXDAsfZrQiksarD" next="i-KVJMZL5oDG9SUNrqu7qRdo">
           <seg xml:id="i-16Lbj58jHLiJaK2Zkj5Miw">
             Vilka åtgärder avser statsrådet att vidta i anledning av de resultat
             som framkommit i silikosundersökningen?
@@ -6192,7 +6130,7 @@
           § 13 Upplästes följande till kammaren inkomna ansökan: Till Riksdagens
           andra kammare
         </note>
-        <u xml:id="i-KVJMZL5oDG9SUNrqu7qRdo" who="i-Ba5pk2rGL4rDrzoirW3mNb" prev="i-7JJzhScCWJBMwECgPPfmsX">
+        <u xml:id="i-KVJMZL5oDG9SUNrqu7qRdo" who="i-Ba5pk2rGL4rDrzoirW3mNb" prev="i-HidpmBqfXDAsfZrQiksarD">
           <seg xml:id="i-81jDGrMkEXQenJJGLvhEgp">
             Jndertecknad anhåller härmed om ledighet från riksdagsarbetet
             under tiden den 9 febr.—23 febr. 1968 för att

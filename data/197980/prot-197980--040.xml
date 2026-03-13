@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-ENY6aCgLSe1A3UzN9LGs8N" type="speech">
             <linkGrp type="u">
               <ptr target="#i-TpZGSqw13iCE8gWW4uc6CZ"/>
@@ -697,7 +697,13 @@
               <ptr target="#i-Hyv2cPf8oHEwYLw5xgrLTc"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -1201,22 +1207,18 @@
         <note xml:id="i-2d8andNRZwiBkJH181tDar">
           123, och anförde:
         </note>
-        <u xml:id="i-TpZGSqw13iCE8gWW4uc6CZ" who="i-Pe1ftVDt68xexZMLUFEKsL" next="i-6QoJwVACLpeMXYKGh1XMXj">
+        <u xml:id="i-TpZGSqw13iCE8gWW4uc6CZ" who="i-Pe1ftVDt68xexZMLUFEKsL">
           <seg xml:id="i-N58S55aHqFPE8GioThTq5a">
             Herr talman! Lennart Nilsson har frågat mig om regeringen är
             villig att medverka till att människor i glesbygd inte får högre
             kostnader per mil i samband med bussresor än tågresenärerna.
           </seg>
-        </u>
-        <u xml:id="i-6QoJwVACLpeMXYKGh1XMXj" who="i-Pe1ftVDt68xexZMLUFEKsL" prev="i-TpZGSqw13iCE8gWW4uc6CZ" next="i-Ks9DUEop6bfkaL4PLUNNmW">
           <seg xml:id="i-M2184X1peyL5gJMfaCaiFL">
             Jag håller helt med Lennart Nilsson om att de olika taxorna i
             kollektivtrafiken kan innebära problem för resenärerna. Det är
             angeläget att personer som bor i glesbygd erbjuds kollektivtrafik
             till rimlig kostnad och med rimlig standard.
           </seg>
-        </u>
-        <u xml:id="i-Ks9DUEop6bfkaL4PLUNNmW" who="i-Pe1ftVDt68xexZMLUFEKsL" prev="i-6QoJwVACLpeMXYKGh1XMXj" next="i-4GQQuSozTGx68CpX6ERwNp">
           <seg xml:id="i-GCduPwZZBGxTjEmUTn8MWB">
             Bakgrunden till SJ:s lågprissatsning är det trafikpolitiska beslutet
             och den avlastning av fasta kostnader som det medförde. Beslutet
@@ -1230,8 +1232,6 @@
             öka subventionerna till busstrafiken. Däremot kan det av trafikpolitiska
             skäl behövas stöd till speciella former av busstrafik.
           </seg>
-        </u>
-        <u xml:id="i-4GQQuSozTGx68CpX6ERwNp" who="i-Pe1ftVDt68xexZMLUFEKsL" prev="i-Ks9DUEop6bfkaL4PLUNNmW" next="i-KtJ3AXt1wYJEcQZsPYzCMh">
           <seg xml:id="i-LmK6rV8ez8WuXXS9Le2w9Y">
             I årets statsbudget finns anslag på ca 135 milj. kr. upptagna
             för stöd till busstrafik som i stor utsträckning går i glesbygder.
@@ -1244,8 +1244,6 @@
             rabatter som kan prövas. Staten eller SJ bör inte föregripa dessa
             bedömningar.
           </seg>
-        </u>
-        <u xml:id="i-KtJ3AXt1wYJEcQZsPYzCMh" who="i-Pe1ftVDt68xexZMLUFEKsL" prev="i-4GQQuSozTGx68CpX6ERwNp">
           <seg xml:id="i-BSYSvxmNdwQoZZEPKTtAAo">
             Då det gäller den kollektivtrafik som går mellan olika regioner
             har regeringen tillkallat en särskild utredare med uppdrag att
@@ -1259,7 +1257,7 @@
         <note xml:id="i-5PospWLeD3wUHPtrm21kT4" type="speaker">
           LENNART NILSSON (s):
         </note>
-        <u xml:id="i-7d399504c635618c-0" who="i-YF5JHvUxbZuJPxR6pCDeHg" next="i-CtwkGXBhwHmW8XsodRX4mq">
+        <u xml:id="i-7d399504c635618c-0" who="i-YF5JHvUxbZuJPxR6pCDeHg" next="i-PpApQcuCJy5R1GmMJecoX2">
           <seg xml:id="i-5uPc8ss9UyotQhTfb4GsgR">
             Herr talman! Jag ber att få tacka kommunikationsministern för
             svaret på min fråga. Det andas i varje fall en positiv syn på
@@ -1269,15 +1267,13 @@
             Låt mig ge några exempel som belyser bakgrunden till min fråga.
             Dessa exempel kan gälla överallt i detta land.
           </seg>
-        </u>
-        <u xml:id="i-CtwkGXBhwHmW8XsodRX4mq" who="i-YF5JHvUxbZuJPxR6pCDeHg" prev="i-7d399504c635618c-0" next="i-PpApQcuCJy5R1GmMJecoX2">
           <seg xml:id="i-EZkNUmVx7BxN6BWLDyt18p">
             Om man åker tur och retur Uddevalla-Göteborg, kostar det med
             lågpris 32
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197980--40/prot_197980__40-006.jp2/_view"/>
-        <u xml:id="i-PpApQcuCJy5R1GmMJecoX2" who="i-YF5JHvUxbZuJPxR6pCDeHg" prev="i-CtwkGXBhwHmW8XsodRX4mq" next="i-NA2z9ADKjibnTaZJ7K7X5h">
+        <u xml:id="i-PpApQcuCJy5R1GmMJecoX2" who="i-YF5JHvUxbZuJPxR6pCDeHg" prev="i-7d399504c635618c-0">
           <seg xml:id="i-5wtRDtB1DveCLcPhbSwTDM">
             kr. Om resenären åker buss tillbaka till Uddevalla vid en tidpunkt
             då det tidigare fanns tågförbindelse gäller lågpriskortet. Om
@@ -1285,15 +1281,11 @@
             gäller inte lågpriskortet. Då blir kostnaden i stället 36 kr.
             för en enkel resa mot 32 kr. för tur och retur från Uddevalla.
           </seg>
-        </u>
-        <u xml:id="i-NA2z9ADKjibnTaZJ7K7X5h" who="i-YF5JHvUxbZuJPxR6pCDeHg" prev="i-PpApQcuCJy5R1GmMJecoX2" next="i-3xS4FKJBahEvVi95uf4vKa">
           <seg xml:id="i-4H9aDAMRSE6Va3WkdowbCm">
             Om en resenär exempelvis skall åka från Strömstad till Stockholm
             gäller lågpriset från Uddevalla om det saknas tågförbindelse från
             Strömstad. På bussen får resenären däremot betala fullpristaxa.
           </seg>
-        </u>
-        <u xml:id="i-3xS4FKJBahEvVi95uf4vKa" who="i-YF5JHvUxbZuJPxR6pCDeHg" prev="i-NA2z9ADKjibnTaZJ7K7X5h">
           <seg xml:id="i-4rqp6KVVqQ3Ztye3HS2Z6d">
             Dessa exempel visar att det blir dyrare för människor i glesbygd
             att ta sig fram med kollektivtrafiken. Det borde naturligtvis
@@ -1957,13 +1949,11 @@
         <note xml:id="i-42YHq4KPDt71qK2kWxAsLb" type="speaker">
           Socialministern KARIN SÖDER:
         </note>
-        <u xml:id="i-XfztMV3Pv17cBh1RgDusFC" who="i-XrDegv7uQGz4MSbepK4txd" next="i-42838b8369296e5a-13">
+        <u xml:id="i-XfztMV3Pv17cBh1RgDusFC" who="i-XrDegv7uQGz4MSbepK4txd">
           <seg xml:id="i-3vSCJEMEbkM1mKsaqibabm">
             Herr talman! Med hänvisning till 6 kap. 1$ riksdagsordningen
             vill jag meddela följande.
           </seg>
-        </u>
-        <u xml:id="i-42838b8369296e5a-13" who="i-XrDegv7uQGz4MSbepK4txd" prev="i-XfztMV3Pv17cBh1RgDusFC">
           <seg xml:id="i-YVwu9N7NATxcmfm5rnHtqn">
             Min avsikt är att besvara interpellationen av Stina Andersson
             om åtgärder mot missbruk av alkohol samtidigt med en fråga av
@@ -2017,12 +2007,10 @@
           sammanhang. Torsdagen den Huvudprincipen inom sjukförsäkringen
           är att sjukpenning utgår vid 29 november 1979
         </note>
-        <u xml:id="i-2ePteSvYztLZyiyBJCyFeV" who="i-XrDegv7uQGz4MSbepK4txd" prev="i-42838b8369296e5a-15" next="i-42838b8369296e5a-17">
+        <u xml:id="i-2ePteSvYztLZyiyBJCyFeV" who="i-XrDegv7uQGz4MSbepK4txd" prev="i-42838b8369296e5a-15">
           <seg xml:id="i-JRgArbb7U5KbeTjhR1togC">
             sjukdom, oberoende av sjukdomsorsak.
           </seg>
-        </u>
-        <u xml:id="i-42838b8369296e5a-17" who="i-XrDegv7uQGz4MSbepK4txd" prev="i-2ePteSvYztLZyiyBJCyFeV">
           <seg xml:id="i-44sy1zvcJYQQyTevnBhPLm">
             Enligt lagen om allmän försäkring är den grundläggande förutsättningen
             för att sjukpenning skall utgå att arbetsförmågan på grund av
@@ -2585,15 +2573,13 @@
           har det totala arbetsgivaransvaret oberoende av arbetsplatsens
           förläggning,
         </note>
-        <u xml:id="i-WdK9Eahty56ybUDzRJCkAh" who="i-BDUhpvcffbkaomdPDBeK8T" prev="i-c7fb2256514971cf-0" next="i-c7fb2256514971cf-1">
+        <u xml:id="i-WdK9Eahty56ybUDzRJCkAh" who="i-BDUhpvcffbkaomdPDBeK8T" prev="i-c7fb2256514971cf-0" next="i-c7fb2256514971cf-5">
           <seg xml:id="i-XXjvsMNawypFg6wtxyfAKR">
             2. att — om denna hemställan ej bifalls — riksdagen beslutar
             om ändring i lagen om arbetsförmedling av den innebörden att kontorsserviceföretagens
             uppdragsverksamhet på kunders kontor undantas från det generella
             förbudet mot arbetsförmedling.
           </seg>
-        </u>
-        <u xml:id="i-c7fb2256514971cf-1" who="i-BDUhpvcffbkaomdPDBeK8T" prev="i-WdK9Eahty56ybUDzRJCkAh" next="i-JzMkjB9H6T5vmwiKWdgFmw">
           <seg xml:id="i-LGTyxciZPoVCfGm5uB4poy">
             Den borgerliga majoriteten i utskottet tycker att de här tankegångarna
             är så intressanta att en utredning är nödvändig. Från socialdemokratiskt
@@ -2616,8 +2602,6 @@
             offentliga arbetsförmedlingen att tillgodose behovet av arbetsförmedling
             inom alla sektorer av arbetsmarknaden.”
           </seg>
-        </u>
-        <u xml:id="i-JzMkjB9H6T5vmwiKWdgFmw" who="i-BDUhpvcffbkaomdPDBeK8T" prev="i-c7fb2256514971cf-1" next="i-c7fb2256514971cf-5">
           <seg xml:id="i-AYvxAEP2Bv2vthC7rv7q43">
             Vidare säger TCO: 2 95
           </seg>
@@ -2635,7 +2619,7 @@
         <note xml:id="i-GKt1nLCgTxPBnAbjch31gh">
           96
         </note>
-        <u xml:id="i-c7fb2256514971cf-5" who="i-BDUhpvcffbkaomdPDBeK8T" prev="i-JzMkjB9H6T5vmwiKWdgFmw" next="i-d2uyCa6rnr9v7ra827ZAL">
+        <u xml:id="i-c7fb2256514971cf-5" who="i-BDUhpvcffbkaomdPDBeK8T" prev="i-WdK9Eahty56ybUDzRJCkAh">
           <seg xml:id="i-E79b863C87yWCjhXcKBeDU">
             ”Mot bl.a. den bakgrunden är det enligt TCO:s mening omöjligt
             att acceptera den försvagning av den offentliga arbetsförmedlingen
@@ -2658,8 +2642,6 @@
             En utredning har alltid till syfte att förändra rådande situation.
             Och det motsätter vi oss bestämt.
           </seg>
-        </u>
-        <u xml:id="i-d2uyCa6rnr9v7ra827ZAL" who="i-BDUhpvcffbkaomdPDBeK8T" prev="i-c7fb2256514971cf-5">
           <seg xml:id="i-SyeWnud5EhXXKJqUkbiUnL">
             Jag yrkar, herr talman, bifall till s-reservationen i betänkandet.
           </seg>
@@ -2667,7 +2649,7 @@
         <note xml:id="i-rLs1pcTbPmDEoEquzqgLM" type="speaker">
           STEN SVENSSON (m):
         </note>
-        <u xml:id="i-667c7046e05eeb13-0" who="i-GTDxf4NudVQ4es4EhotQR1" next="i-7L82zxbbURTQ4urgziWwP1">
+        <u xml:id="i-667c7046e05eeb13-0" who="i-GTDxf4NudVQ4es4EhotQR1" next="i-667c7046e05eeb13-2">
           <seg xml:id="i-8DrKPEJw6zr1YLEqExBpgK">
             Herr talman! Kontorsserviceföretagen sysselsätter — enligt vad
             branschorganisationen själv uppger — ca 4 000 personer under ett
@@ -2678,8 +2660,6 @@
             Den ökande frånvaron är vid sidan av sjukfrånvaron en direkt följd
             av nya lagar, och detta förhållande tenderar att öka i omfattning.
           </seg>
-        </u>
-        <u xml:id="i-7L82zxbbURTQ4urgziWwP1" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-667c7046e05eeb13-0" next="i-667c7046e05eeb13-1">
           <seg xml:id="i-FBE1E6xmye7UPP1wcY4Ho2">
             Inom kort skall vi här i kammaren ta ställning till ett regeringsförslag
             till lag om rätt till ledighet för vissa föreningsuppdrag inom
@@ -2691,8 +2671,6 @@
             har undergått en snabb förändring i dessa hänseenden under en
             relativt kort tidsperiod.
           </seg>
-        </u>
-        <u xml:id="i-667c7046e05eeb13-1" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-7L82zxbbURTQ4urgziWwP1" next="i-667c7046e05eeb13-2">
           <seg xml:id="i-Co7kxDJgfELANAr7PwqsjA">
             Min avsikt är inte att uttrycka några värderingar om dessa lagar.
             Jag vill i stället rikta uppmärksamheten på de konsekvenser som
@@ -2715,7 +2693,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197980--40/prot_197980__40-022.jp2/_view"/>
-        <u xml:id="i-667c7046e05eeb13-2" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-667c7046e05eeb13-1">
+        <u xml:id="i-667c7046e05eeb13-2" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-667c7046e05eeb13-0">
           <seg xml:id="i-FMmTPCMcAAp9xUrmz4cYgg">
             Att behovet på marknaden är stort bekräftas av det förhållandet
             att Nr 40 byråerna kan redovisa ett flertal kunder bland såväl
@@ -3230,15 +3208,13 @@
           2. att riksdagen beslutade att vidta av motionärerna föreslagna
           förändringar i lagen om medbestämmande i arbetslivet, innebärande
         </note>
-        <u xml:id="i-AYRtVApv8vMJATH2X8Mn5r" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-667c7046e05eeb13-15" next="i-XaoRkE2woJTd1yd4X59sFv">
+        <u xml:id="i-AYRtVApv8vMJATH2X8Mn5r" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-667c7046e05eeb13-15" next="i-HVM7Mo3VzFXttzZ6HnQT7x">
           <seg xml:id="i-CniGuibsoxYjRRv3LV85DP">
             a) att fackförening skulle ha obegränsad förhandlingsrätt i alla
             frågor och att arbetsköparen hade primär förhandlingsskyldighet
             i alla frågor innan ändring fick vidtas och därmed att 10-12 $$
             ändrades,
           </seg>
-        </u>
-        <u xml:id="i-XaoRkE2woJTd1yd4X59sFv" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-AYRtVApv8vMJATH2X8Mn5r" next="i-HVM7Mo3VzFXttzZ6HnQT7x">
           <seg xml:id="i-FmYEbA3jNGUw9EWGUXMgw8">
             bjatt den lokala och centrala fackföreningen skulle ha obegränsad
             strejkrätt genom att fredsplikten utgick ur lagen, och därmed
@@ -3266,7 +3242,7 @@
         <note xml:id="i-XVhTQkw93zFexiEsBnKaN">
           — vid avsked och permitteringar
         </note>
-        <u xml:id="i-HVM7Mo3VzFXttzZ6HnQT7x" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-XaoRkE2woJTd1yd4X59sFv" next="i-jUGtZd8LngUVqNCxwj2L7">
+        <u xml:id="i-HVM7Mo3VzFXttzZ6HnQT7x" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-AYRtVApv8vMJATH2X8Mn5r" next="i-jUGtZd8LngUVqNCxwj2L7">
           <seg xml:id="i-FEEU5DZSoufwEGDiRfgAg8">
             — vid rationaliseringar och mot utslagning
           </seg>
@@ -3309,7 +3285,7 @@
         <note xml:id="i-ViGPRSNZdq73NtsPhsYGfb">
           3. att 3 kap. skulle utgå ur lagen om offentlig anställning,
         </note>
-        <u xml:id="i-8esMuZJyub5Yy6vVXZo5vm" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-YUFoiixyyzAqatd29j3Hm5" next="i-667c7046e05eeb13-23">
+        <u xml:id="i-8esMuZJyub5Yy6vVXZo5vm" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-YUFoiixyyzAqatd29j3Hm5" next="i-CmZkqufR65xPJMBwvj8Puz">
           <seg xml:id="i-mQGVoZb8ciyEfc1cMmAP2">
             4. att riksdagen hemställde hos regeringen om förslag att lagen
             om medbestämmande i arbetslivet (MBL) och lagen om offentlig anställning
@@ -3317,15 +3293,11 @@
             - att facklig organisation skulle äga obegränsad rätt till politiska
             strejker och internationella fackliga solidaritetsaktioner,
           </seg>
-        </u>
-        <u xml:id="i-667c7046e05eeb13-23" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-8esMuZJyub5Yy6vVXZo5vm" next="i-KFpXdtigp7B4AEtyNWU1s1">
           <seg xml:id="i-Vp5AbrsSu53FB55JQgCVig">
             — att lokal facklig organisation ägde rätt att på arbetsplatsen
             genomföra möten på betald arbetstid, bedriva forskning och ha
             fritt tillträde för sina fackliga förtroendemän och forskare,
           </seg>
-        </u>
-        <u xml:id="i-KFpXdtigp7B4AEtyNWU1s1" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-667c7046e05eeb13-23" next="i-CmZkqufR65xPJMBwvj8Puz">
           <seg xml:id="i-4kNgWKCkWCP5i2kiNZGAW8">
             — att anställda hos företag och myndigheter hade rätt till politisk
             verksamhet på arbetsplatsen,
@@ -3339,13 +3311,11 @@
           1978/79:2070 av Lars Werner m. fl. (vpk), vari yrkats att riksdagen
           hos regeringen begärde förslag till lagstiftning innebärande
         </note>
-        <u xml:id="i-CmZkqufR65xPJMBwvj8Puz" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-KFpXdtigp7B4AEtyNWU1s1" next="i-667c7046e05eeb13-24">
+        <u xml:id="i-CmZkqufR65xPJMBwvj8Puz" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-8esMuZJyub5Yy6vVXZo5vm" next="i-FBVM9hDpLrnHpcrXFyhgMi">
           <seg xml:id="i-VYien9K4ATSuPFjNKJuKxb">
             1. vetorätt för de anställdas lokala fackliga organisationer
             vid införande av datorsystem i arbetslivet,
           </seg>
-        </u>
-        <u xml:id="i-667c7046e05eeb13-24" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-CmZkqufR65xPJMBwvj8Puz" next="i-FBVM9hDpLrnHpcrXFyhgMi">
           <seg xml:id="i-NnQtGsr64wfkr6NRqQbFgf">
             2. rätt för lokal facklig organisation att för egna bearbetningar
             på arbetsköparens bekostnad utnyttja den dator som denne hade
@@ -3398,7 +3368,7 @@
           a) att strejkrätten för lokal och central facklig organisation
           lagfästes utan inskränkningar,
         </note>
-        <u xml:id="i-FBVM9hDpLrnHpcrXFyhgMi" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-667c7046e05eeb13-24">
+        <u xml:id="i-FBVM9hDpLrnHpcrXFyhgMi" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-CmZkqufR65xPJMBwvj8Puz">
           <seg xml:id="i-433oXGJDGL4J1F9sWGudtq">
             b) att den lokala fackliga organisationen gavs vetorätt i alla
             avgörande frågor på arbetsplatsen,
@@ -4077,14 +4047,12 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197980--40/prot_197980__40-038.jp2/_view"/>
-        <u xml:id="i-5oEAwKcBFCaZZLKwHQWcPX" who="i-GaozvGLNGCb9Vstyp2PrQH" prev="i-b3647f01493da402-6" next="i-b3647f01493da402-8">
+        <u xml:id="i-5oEAwKcBFCaZZLKwHQWcPX" who="i-GaozvGLNGCb9Vstyp2PrQH" prev="i-b3647f01493da402-6" next="i-b3647f01493da402-9">
           <seg xml:id="i-HycdNyYiLq14825425peLj">
             fullständig informationsoch förhandlingsrätt, lokal och central
             strejkrätt, Nr 40 vetorätt i avgörande frågor och även rätt till
             internationella solidaritetsaktioner.
           </seg>
-        </u>
-        <u xml:id="i-b3647f01493da402-8" who="i-GaozvGLNGCb9Vstyp2PrQH" prev="i-5oEAwKcBFCaZZLKwHQWcPX" next="i-b3647f01493da402-9">
           <seg xml:id="i-Mp5A32hAqhc9rRzbYjLzT7">
             De här förslagen upptog vänsterpartiet kommunisterna i sin partimotion
             år 1976. Vi föreslår även i dag att grunden för den arbetslagstiftning
@@ -4105,7 +4073,7 @@
           hos regeringen begära förslag innebärande att följande sociala
           målsättningar förs in i Lagen om medbestämmande i arbetslivet:
         </note>
-        <u xml:id="i-b3647f01493da402-9" who="i-GaozvGLNGCb9Vstyp2PrQH" prev="i-b3647f01493da402-8" next="i-b3647f01493da402-10">
+        <u xml:id="i-b3647f01493da402-9" who="i-GaozvGLNGCb9Vstyp2PrQH" prev="i-5oEAwKcBFCaZZLKwHQWcPX" next="i-b3647f01493da402-10">
           <seg xml:id="i-ATfCMtfzD6cmfiWMfC6A8A">
             överordnade målsättningar vid reformering av arbetsrätten och
             arbetslivets villkor skall vara trygghet i anställning, allas
@@ -4250,13 +4218,11 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197980--40/prot_197980__40-040.jp2/_view"/>
-        <u xml:id="i-8eVRMzoW347dqdqLPYP6F2" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-a2362de6ed1be73c-0" next="i-a2362de6ed1be73c-2">
+        <u xml:id="i-8eVRMzoW347dqdqLPYP6F2" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-a2362de6ed1be73c-0" next="i-NadT2UDahzF5WvgkBwhBsL">
           <seg xml:id="i-B4ZRe8gFHkDsewFrfTSPYV">
             innehållet i de anställdas medinflytande skall regleras genom
             avtal. Den Nr 40
           </seg>
-        </u>
-        <u xml:id="i-a2362de6ed1be73c-2" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-8eVRMzoW347dqdqLPYP6F2" next="i-NadT2UDahzF5WvgkBwhBsL">
           <seg xml:id="i-N3vRFnMyZugdUfV9FML2fj">
             saken berörs inte av motionärerna. Men självfallet är det effekterna
             av Torsdagen den avtalsregleringen som är det intressanta. Det
@@ -4333,7 +4299,7 @@
         <note xml:id="i-FCXSie4YDScYF9jgiJ6Jqr">
           116
         </note>
-        <u xml:id="i-NadT2UDahzF5WvgkBwhBsL" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-a2362de6ed1be73c-2" next="i-a2362de6ed1be73c-6">
+        <u xml:id="i-NadT2UDahzF5WvgkBwhBsL" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-8eVRMzoW347dqdqLPYP6F2" next="i-a2362de6ed1be73c-7">
           <seg xml:id="i-PuzKcAuj1PUuz9meyCLxUP">
             mer sedan i motionen 2467 som kommunisterna väckte med anledning
             av regeringens proposition om åtgärder mot krångel och onödig
@@ -4341,8 +4307,6 @@
             vpk frågor om datateknik och om tillträdesrätten till arbetsplatsen
             som i mer programmatisk form redan har behandlats i motionen 2069.
           </seg>
-        </u>
-        <u xml:id="i-a2362de6ed1be73c-6" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-NadT2UDahzF5WvgkBwhBsL" next="i-a2362de6ed1be73c-7">
           <seg xml:id="i-F9979cF6rmMoLYRcbDgTqz">
             Kommunisterna var från början motståndare till medbestämmandelagen
             i det skick den förelades riksdagen på våren 1976, och det gör
@@ -4400,7 +4364,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197980--40/prot_197980__40-042.jp2/_view"/>
-        <u xml:id="i-a2362de6ed1be73c-7" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-a2362de6ed1be73c-6" next="i-4jtsZG6DVgTd1vS1devfX2">
+        <u xml:id="i-a2362de6ed1be73c-7" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-NadT2UDahzF5WvgkBwhBsL" next="i-a2362de6ed1be73c-10">
           <seg xml:id="i-QqcQcjATJGKjsaDMRnC8uQ">
             Med hänvisning till de skäl jag nu sammanfattningsvis framfört
             avstyrker Nr 40 vi utskottets samtliga fem motioner från vpk.
@@ -4418,8 +4382,6 @@
             till att parterna avtalsvägen kan närmare ange den tidrymd som
             skall gälla. Med hänvisning till detta avstyrker vi motionen.
           </seg>
-        </u>
-        <u xml:id="i-4jtsZG6DVgTd1vS1devfX2" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-a2362de6ed1be73c-7" next="i-a2362de6ed1be73c-8">
           <seg xml:id="i-XpcYh6ztmDkWK1hRMHnreh">
             Även Bo Siegbahn m. fl. upprepar i motionen 2062 krav som framställdes
             förra året. Motionärerna vill liksom i fjol att den fackliga vetorätten
@@ -4429,8 +4391,6 @@
             vid medbestämmandelagens tillkomst och avvisades redan då. På
             denna punkt är utskottet enigt.
           </seg>
-        </u>
-        <u xml:id="i-a2362de6ed1be73c-8" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-4jtsZG6DVgTd1vS1devfX2" next="i-a2362de6ed1be73c-10">
           <seg xml:id="i-7D9atUzVQ9FhodvKJD4WSy">
             Motionärerna begär i andra hand att motionen skall överlämnas
             till nya arbetsrättskommittén för beaktande. I den delen har motionärerna
@@ -4487,7 +4447,7 @@
         <note xml:id="i-JJckMX2Hg2vdRRhBR654Ym">
           118
         </note>
-        <u xml:id="i-a2362de6ed1be73c-10" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-a2362de6ed1be73c-8">
+        <u xml:id="i-a2362de6ed1be73c-10" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-a2362de6ed1be73c-7">
           <seg xml:id="i-VLWPpTY4NojFEAdVxkZP8k">
             Alla torde vara överens om att skadeståndets uppgift i huvudsak
             är att stryka under principen att avtal skall hållas och att det
@@ -4738,7 +4698,7 @@
         <note xml:id="i-b5RMHbZtieAUja3dZXjtA" type="speaker">
           ELVER JONSSON (fp) replik:
         </note>
-        <u xml:id="i-a2362de6ed1be73c-11" who="i-Gcjbk3nJyjWXPaa2dm3MFR" next="i-W8f6BLYtzzAEkZUBV5bqiy">
+        <u xml:id="i-a2362de6ed1be73c-11" who="i-Gcjbk3nJyjWXPaa2dm3MFR" next="i-a2362de6ed1be73c-14">
           <seg xml:id="i-4AZ5xY8LaHFYqvdB3Dn65Y">
             Herr talman! Bengt Wittbom säger att reservation 1 ligger nära
             motionen och att det inte finns någon spänning dem emellan. Då
@@ -4792,8 +4752,6 @@
             hemställer om förslag till avskaffande av kollektivavtalslagen
             och lagen om arbetsdomstol”.
           </seg>
-        </u>
-        <u xml:id="i-W8f6BLYtzzAEkZUBV5bqiy" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-a2362de6ed1be73c-11" next="i-a2362de6ed1be73c-14">
           <seg xml:id="i-WoQNr7v7Qb4aBazp3zA6ye">
             Men dessa lagar är ju redan upphävda. Kollektivavtalslagen försvann
             i och med att MBL trädde i kraft, och lagen om arbetsdomstol upphävdes
@@ -4814,7 +4772,7 @@
         <note xml:id="i-288v36G8NGQLwanLoHscxe">
           122
         </note>
-        <u xml:id="i-a2362de6ed1be73c-14" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-W8f6BLYtzzAEkZUBV5bqiy">
+        <u xml:id="i-a2362de6ed1be73c-14" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-a2362de6ed1be73c-11">
           <seg xml:id="i-2eyi56LLFXhQSnsxuQz8Z8">
             tror, Lars-Ove Hagberg, att det kan vara skäl i att överväga
             en del saker och kanske rent av utreda dem innan man här i riksdagen
@@ -4984,7 +4942,7 @@
         <note xml:id="i-YPGE2SceHgmPX9JZR4No8X">
           124
         </note>
-        <u xml:id="i-9d16f3c6be9b654e-2" who="i-FYyRXPgwp22BpTRV76t6ga" prev="i-9d16f3c6be9b654e-0" next="i-XXMvTiKrvsJj7wceQ16PhC">
+        <u xml:id="i-9d16f3c6be9b654e-2" who="i-FYyRXPgwp22BpTRV76t6ga" prev="i-9d16f3c6be9b654e-0">
           <seg xml:id="i-6EcuLDTsGfAHXtZP3gEyfH">
             fastställde 200 kr. som en övre gräns menade man naturligtvis
             att beloppet skulle stå i viss proportion till den skada som en
@@ -5027,8 +4985,6 @@
             förnuftig och borde få stöd av riksdagsmän även på den socialistiska
             sidan, om de tänker sig för.
           </seg>
-        </u>
-        <u xml:id="i-XXMvTiKrvsJj7wceQ16PhC" who="i-FYyRXPgwp22BpTRV76t6ga" prev="i-9d16f3c6be9b654e-2">
           <seg xml:id="i-HyunmgnCSAA4aMBJJ7dBA9">
             Jag yrkar, herr talman, bifall till utskottets hemställan på
             denna punkt och i övrigt till de reservationer som moderaterna
@@ -5976,7 +5932,7 @@
         <note xml:id="i-2pbJmurkWdE6GZrB5y39st">
           136
         </note>
-        <u xml:id="i-1ef39885c9031299-3" who="i-VtWQs1mfimPMyjw5HVXR4i" prev="i-1ef39885c9031299-0" next="i-Jqs2qKvcNSoJxL65otQGdn">
+        <u xml:id="i-1ef39885c9031299-3" who="i-VtWQs1mfimPMyjw5HVXR4i" prev="i-1ef39885c9031299-0">
           <seg xml:id="i-C48kT2Hn4JYJGXdjSXxNXG">
             t. ex. läkarbesök eller besök på mödravårdscentral. SAF säger
             att kvinnan kan begära permission. Men någon ledighet kan man
@@ -6037,8 +5993,6 @@
             — graviditeten alltså. Sådan är synen på kvinnorna och på kvinnornas
             krav och behov.
           </seg>
-        </u>
-        <u xml:id="i-Jqs2qKvcNSoJxL65otQGdn" who="i-VtWQs1mfimPMyjw5HVXR4i" prev="i-1ef39885c9031299-3">
           <seg xml:id="i-BeJj83sXGvXtFjkJXZvk6W">
             Herr talman! Jag yrkar bifall till motionen 1647 från vänsterpartiet
             kommunisterna.
@@ -6055,7 +6009,7 @@
         <note xml:id="i-6ub7iss2HwuL4rXhykYTNM">
           Nr 40
         </note>
-        <u xml:id="i-L2PxgccpvwNedeqCzGgTTN" who="i-Gcjbk3nJyjWXPaa2dm3MFR" next="i-Vrfiyx4k7ZzTAtL2BnDLtG">
+        <u xml:id="i-L2PxgccpvwNedeqCzGgTTN" who="i-Gcjbk3nJyjWXPaa2dm3MFR">
           <seg xml:id="i-51FCZyjeapMHgEKRKniab6">
             Herr talman! Inga Lantz talade engagerat om och för jämställdhet
             och — Torsdagen den påstod att utskottet motarbetar jämställdheten.
@@ -6076,8 +6030,6 @@
             tillagt att vi kan visa på att den statliga sektorn har reglerats
             just på detta område.
           </seg>
-        </u>
-        <u xml:id="i-Vrfiyx4k7ZzTAtL2BnDLtG" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-L2PxgccpvwNedeqCzGgTTN">
           <seg xml:id="i-JXsq5efPBaNRQHPZhw3Sc9">
             Herr talman! Jag yrkar bifall till arbetsmarknadsutskottets hemställan.
           </seg>
@@ -6372,13 +6324,11 @@
         <note xml:id="i-GfgGuqXA1FhAvqv9CGZi7Z" type="speaker">
           KNUT WACHTMEISTER (m):
         </note>
-        <u xml:id="i-a6d1c61790dfb33a-0" who="i-F6Qp4bx3aMVLN2vuCyMK7D" next="i-JbcG7i5QFRZFN1MjFxM4wi">
+        <u xml:id="i-a6d1c61790dfb33a-0" who="i-F6Qp4bx3aMVLN2vuCyMK7D" next="i-a6d1c61790dfb33a-2">
           <seg xml:id="i-8L7bCk4a9oeMznUHUg7qsT">
             Herr talman! Jag ber att få tacka statsrådet Petri för svaret
             på min fråga.
           </seg>
-        </u>
-        <u xml:id="i-JbcG7i5QFRZFN1MjFxM4wi" who="i-F6Qp4bx3aMVLN2vuCyMK7D" prev="i-a6d1c61790dfb33a-0" next="i-a6d1c61790dfb33a-2">
           <seg xml:id="i-9id2fw59MdHp3UJB7PWgTq">
             Frågan om valkretsindelningen i Malmöhus län har stötts och blötts
             under många år. Redan i början av 1960-talet föreslog Per Edvin
@@ -6396,7 +6346,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197980--40/prot_197980__40-066.jp2/_view"/>
-        <u xml:id="i-a6d1c61790dfb33a-2" who="i-F6Qp4bx3aMVLN2vuCyMK7D" prev="i-JbcG7i5QFRZFN1MjFxM4wi">
+        <u xml:id="i-a6d1c61790dfb33a-2" who="i-F6Qp4bx3aMVLN2vuCyMK7D" prev="i-a6d1c61790dfb33a-0">
           <seg xml:id="i-DKgAnYVUCK9KAQTjphyKrR">
             Av en egendomlig tillfällighet har regeringen just i dag bemyndigat
             Nr 40 statsrådet Petri att tillkalla en särskild utredare för
@@ -6783,7 +6733,7 @@
         <note xml:id="i-pBw7VQXfy6YZQ4ukAvLVX" type="speaker">
           Handelsministern STAFFAN BURENSTAM LINDER:
         </note>
-        <u xml:id="i-4osys1MEugTqPSkrxzDwEa" who="i-9DETYuf2xa4o1AQ7HpbNMT" next="i-KNAPmsK3N8HPDpZXqqgdrW">
+        <u xml:id="i-4osys1MEugTqPSkrxzDwEa" who="i-9DETYuf2xa4o1AQ7HpbNMT" next="i-a65a5ef11ffae884-5">
           <seg xml:id="i-H1DeKjJwaY5DAADHXv6wWe">
             Herr talman! Till Maja Bäckström vill jag säga att om hon vill
             ha svar på de frågor som hon ställde, får hon väl framställa en
@@ -6824,7 +6774,7 @@
         <note xml:id="i-Qiyth5peNijj2wDutPstF7">
           146
         </note>
-        <u xml:id="i-a65a5ef11ffae884-5" who="i-9DETYuf2xa4o1AQ7HpbNMT" prev="i-KNAPmsK3N8HPDpZXqqgdrW">
+        <u xml:id="i-a65a5ef11ffae884-5" who="i-9DETYuf2xa4o1AQ7HpbNMT" prev="i-4osys1MEugTqPSkrxzDwEa">
           <seg xml:id="i-E4AVyM52nf13SqmL3F6huq">
             bra att i stället upprätthålla en levande produktion, eftersom
             då även andra syften än de rent beredskapsmässiga kan fyllas.
@@ -6945,7 +6895,7 @@
         <note xml:id="i-7wXEYpQw6T6rzVzv6iChBY" type="speaker">
           MAJ-LIS LÖÖW (s):
         </note>
-        <u xml:id="i-d1576150cf714977-0" who="i-3kAjBmVsLrV8XDTkSBhmB8" next="i-22vXNrqh83bvpiUmoLZ7Sy">
+        <u xml:id="i-d1576150cf714977-0" who="i-3kAjBmVsLrV8XDTkSBhmB8" next="i-d1576150cf714977-5">
           <seg xml:id="i-AZr28VmsEbnw9AevAq5U9N">
             Herr talman! Jag ber att få tacka handelsministern för att han
             svarat på min fråga.
@@ -6997,7 +6947,7 @@
         <note xml:id="i-Ndx2Ye7JpnmWJaPKph5NZe">
           148
         </note>
-        <u xml:id="i-d1576150cf714977-5" who="i-3kAjBmVsLrV8XDTkSBhmB8" prev="i-22vXNrqh83bvpiUmoLZ7Sy">
+        <u xml:id="i-d1576150cf714977-5" who="i-3kAjBmVsLrV8XDTkSBhmB8" prev="i-d1576150cf714977-0">
           <seg xml:id="i-9Q96zMULFJm7gYrT5gNMgw">
             Överstyrelsen för ekonomiskt försvar har också ansett — och anser
             fortfarande — att en produktion inom landet av dessa varor är
@@ -7120,7 +7070,7 @@
         <note xml:id="i-3sMUwLAstZDjkyBLty6RSt" type="speaker">
           Handelsministern STAFFAN BURENSTAM LINDER:
         </note>
-        <u xml:id="i-G1UXiN1yikQPHkwzC1Ca8x" who="i-9DETYuf2xa4o1AQ7HpbNMT" next="i-GhWyYZrzwuCycV6zyZf8Ut">
+        <u xml:id="i-G1UXiN1yikQPHkwzC1Ca8x" who="i-9DETYuf2xa4o1AQ7HpbNMT" next="i-d1576150cf714977-13">
           <seg xml:id="i-SgBb1vd3PsXz5pesehjNLs">
             Herr talman! Jag vill bara göra det tillägget att även jag har
             hört uppgifter om vad man kan kalla för dumping. Det tål att undersökas.
@@ -7162,7 +7112,7 @@
         <note xml:id="i-9SC7b4R7p7xZvJXCUR7XjQ">
           150
         </note>
-        <u xml:id="i-d1576150cf714977-13" who="i-9DETYuf2xa4o1AQ7HpbNMT" prev="i-GhWyYZrzwuCycV6zyZf8Ut">
+        <u xml:id="i-d1576150cf714977-13" who="i-9DETYuf2xa4o1AQ7HpbNMT" prev="i-G1UXiN1yikQPHkwzC1Ca8x">
           <seg xml:id="i-HUKSk7TxbKQXgtEWcywA2G">
             önska att det blev — utan mera är fråga om ren förlusttäckning.
             Det är bekymmersamt med tanke på att pengarna måste tas från andra
@@ -7277,7 +7227,7 @@
           87 av Sven Henricsson (vpk) till industriministern om sysselsättningen
           i Jämtlands län:
         </note>
-        <u xml:id="i-58c3bb26abedf3e0-1" who="i-FTkwAMo13hmDoeXLXEV1N" next="i-LM8JBCuazDFcGSBbCTzidp">
+        <u xml:id="i-58c3bb26abedf3e0-1" who="i-FTkwAMo13hmDoeXLXEV1N" next="i-58c3bb26abedf3e0-4">
           <seg xml:id="i-6tGyDpfivmfxHepA77FUQJ">
             Den regionala krisen i Jämtlands län leder till en fortgående
             utarmning. I länets ytterområden är nu ålderssammansättningen
@@ -7327,8 +7277,6 @@
             omfattning. Procentandelen förtidspensionerade i Jämtland är 8,1
             96, medan övriga
           </seg>
-        </u>
-        <u xml:id="i-LM8JBCuazDFcGSBbCTzidp" who="i-FTkwAMo13hmDoeXLXEV1N" prev="i-58c3bb26abedf3e0-1" next="i-58c3bb26abedf3e0-4">
           <seg xml:id="i-3yuHn11pw91z9btcCUzuF8">
             Norrlandslän har mellan 5,9 och 6,4 96 och riket som helhet 4,9
             26 av 151
@@ -7347,7 +7295,7 @@
         <note xml:id="i-L2ZRc46NKXfS7Wi5R6TX3e">
           152
         </note>
-        <u xml:id="i-58c3bb26abedf3e0-4" who="i-FTkwAMo13hmDoeXLXEV1N" prev="i-LM8JBCuazDFcGSBbCTzidp" next="i-9W1LrS2WocqxqVxGh19RuQ">
+        <u xml:id="i-58c3bb26abedf3e0-4" who="i-FTkwAMo13hmDoeXLXEV1N" prev="i-58c3bb26abedf3e0-1">
           <seg xml:id="i-8nVYmxRPsqBKNCWCiDW92N">
             befolkningen i åldern 15-64 år. Förhållandet kan knappast vara
             ett uttryck för att Jämtlands befolkning skulle vara i sämre hälsotillstånd
@@ -7377,13 +7325,9 @@
             regeringen. Detta program förutsätter särskilt finansiellt stöd
             från staten för att kunna förverkligas.
           </seg>
-        </u>
-        <u xml:id="i-9W1LrS2WocqxqVxGh19RuQ" who="i-FTkwAMo13hmDoeXLXEV1N" prev="i-58c3bb26abedf3e0-4" next="i-375p1fjomF3zycRHrqPPgf">
           <seg xml:id="i-XDs5XyxtTq6WsVPnFH2tBE">
             Jag hemställer nu att få ställa följande frågor till industriministern:
           </seg>
-        </u>
-        <u xml:id="i-375p1fjomF3zycRHrqPPgf" who="i-FTkwAMo13hmDoeXLXEV1N" prev="i-9W1LrS2WocqxqVxGh19RuQ">
           <seg xml:id="i-HHLDbSkiAuwAoZNNeq4Nuv">
             Delar industriministern uppfattningen att den regionala utvecklingen
             i stora delar av Jämtlands län är oacceptabel?
@@ -7426,7 +7370,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197980--40/prot_197980__40-078.jp2/_view"/>
-        <u xml:id="i-afcae42b3abad428-2" who="i-LVSrKT2aR65q25Ew8fu5dw" prev="i-afcae42b3abad428-1" next="i-8jXuVg4op1HYVoDvLT7ZmK">
+        <u xml:id="i-afcae42b3abad428-2" who="i-LVSrKT2aR65q25Ew8fu5dw" prev="i-afcae42b3abad428-1" next="i-GyTRmHJYpUSNuqSJMJCRA1">
           <seg xml:id="i-Fkxbs9qZax8Fw84fZToN1y">
             års nivå, har Flygsfors glasbruk därefter lagts ner. Flera glasbruk
             är hotade, men någon plan har regeringen inte presterat.
@@ -7487,8 +7431,6 @@
             sänkning med 5 000, dvs. en sänkning av befolkningstalet med 10
             000 på tre år!
           </seg>
-        </u>
-        <u xml:id="i-8jXuVg4op1HYVoDvLT7ZmK" who="i-LVSrKT2aR65q25Ew8fu5dw" prev="i-afcae42b3abad428-2" next="i-GyTRmHJYpUSNuqSJMJCRA1">
           <seg xml:id="i-AF4TTnLPyHyGxtZhpPtpGF">
             Med hänvisning till det anförda önskar jag ställa följande frågor
             till industriministern:
@@ -7498,7 +7440,7 @@
           1. Vilket syfte anser industriministern att länsplaneringen har
           för Kalmar län?
         </note>
-        <u xml:id="i-GyTRmHJYpUSNuqSJMJCRA1" who="i-LVSrKT2aR65q25Ew8fu5dw" prev="i-8jXuVg4op1HYVoDvLT7ZmK" next="i-UNpUtB6eS4rKr7FTrWG8na">
+        <u xml:id="i-GyTRmHJYpUSNuqSJMJCRA1" who="i-LVSrKT2aR65q25Ew8fu5dw" prev="i-afcae42b3abad428-2" next="i-UNpUtB6eS4rKr7FTrWG8na">
           <seg xml:id="i-5aouMfUU1Hyd13DuwWy2EP">
             2. Vilka åtgärder avser industriministern att vidta för att säkerställa
             skogsindustrins råvarubehov?
@@ -7584,21 +7526,17 @@
         <note xml:id="i-Aia69eo9rjsCn7z2cQsMDi" type="speaker">
           170 av Inga Lantz (vpk) till kommunikationsministern om alkoholreklamen:
         </note>
-        <u xml:id="i-6d5668b44e38be55-0" who="i-VtWQs1mfimPMyjw5HVXR4i" next="i-QYbum8dVj3bjENXvEhKohc">
+        <u xml:id="i-6d5668b44e38be55-0" who="i-VtWQs1mfimPMyjw5HVXR4i">
           <seg xml:id="i-qbs76gncpgx3RDE8J7QMc">
             Just nu pågår en reklamkampanj för Centralens restaurang. På
             annonserna står det ”Vi är stolta över vår personal”, och en interiörbild
             från restaurangen visar en äldre man som tar emot ett glas från
             en kvinna. Samtidigt som man gör reklam för alkohol.
           </seg>
-        </u>
-        <u xml:id="i-QYbum8dVj3bjENXvEhKohc" who="i-VtWQs1mfimPMyjw5HVXR4i" prev="i-6d5668b44e38be55-0" next="i-NVn8AhZ4cfU7P5ayKd9p2W">
           <seg xml:id="i-Y9RWxfn6Ko71zouATcQaPf">
             Mot bakgrund av det anförda vill jag ställa följande fråga till
             kommunikationsministern:
           </seg>
-        </u>
-        <u xml:id="i-NVn8AhZ4cfU7P5ayKd9p2W" who="i-VtWQs1mfimPMyjw5HVXR4i" prev="i-QYbum8dVj3bjENXvEhKohc">
           <seg xml:id="i-JuVgE96tUmzUmLrYqZUwUT">
             Anser kommunikationsministern, mot bakgrund av den debatt som
             just nu förs om alkoholens skador och alkoholbrukets omfattning,
@@ -7644,7 +7582,7 @@
         <note xml:id="i-Jgi7P17yrPUpqzyqsxLTCq">
           säkra sysselsättningen i Norrbotten:
         </note>
-        <u xml:id="i-KbdgvKC9iRgTiXkGGj9LsE" who="i-967Q9DmWbuMgaG62XNQNDR" prev="i-c1fd6efdd20cf449-2" next="i-HeFLe1zqar7zaaqt6huksd">
+        <u xml:id="i-KbdgvKC9iRgTiXkGGj9LsE" who="i-967Q9DmWbuMgaG62XNQNDR" prev="i-c1fd6efdd20cf449-2">
           <seg xml:id="i-TUA8H89bFyYrcNsxfgp9vb">
             I en interpellationsdebatt den 10 december 1976 om stålindustrin
             sade industriministern: ”Vi måste i stället styra över de resurser
@@ -7662,14 +7600,10 @@
             och fler människor i beredskapsarbeten, och utflyttningen kom
             i gång.
           </seg>
-        </u>
-        <u xml:id="i-HeFLe1zqar7zaaqt6huksd" who="i-967Q9DmWbuMgaG62XNQNDR" prev="i-KbdgvKC9iRgTiXkGGj9LsE" next="i-Tbd2VoBgkv3UGMXBxbYsDH">
           <seg xml:id="i-5qMEyV5mVfaENxZwUBBtk2">
             Med hänvisning till det anförda ställer jag följande fråga till
             industriministern:
           </seg>
-        </u>
-        <u xml:id="i-Tbd2VoBgkv3UGMXBxbYsDH" who="i-967Q9DmWbuMgaG62XNQNDR" prev="i-HeFLe1zqar7zaaqt6huksd">
           <seg xml:id="i-D8Tu6UWpC6Aeyp8mSzna2H">
             Vilka åtgärder ämnar regeringen vidta för att säkra sysselsättningen
             i Norrbotten i enlighet med den av industriminister Åsling 1976
@@ -7683,7 +7617,7 @@
           173 av Eva Hjelmström (vpk) till utrikesministern om regeringsåtgärder
           med anledning av vissa krigshandlingar av Sydafrika och Zimbabwe:
         </note>
-        <u xml:id="i-6dd13c6ddcd9ee33-1" who="i-RPvXiWoVbPvNZBh8bxVvbB" next="i-NdWQfDLwbDh6jJqgUJAXng">
+        <u xml:id="i-6dd13c6ddcd9ee33-1" who="i-RPvXiWoVbPvNZBh8bxVvbB">
           <seg xml:id="i-Ar4VejirWEntpth98exBZf">
             Samtidigt som Londonkonferensen om Zimbabwe började, ökade attackerna
             från Sydafrika och Rhodesia mot frontstaterna Mogambique, Zambia
@@ -7700,8 +7634,6 @@
             anförda hemställer jag att till utrikesministern få ställa följande
             fråga:
           </seg>
-        </u>
-        <u xml:id="i-NdWQfDLwbDh6jJqgUJAXng" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-6dd13c6ddcd9ee33-1">
           <seg xml:id="i-GhPoQrGvJf52hfmFdkipcN">
             Vilka initiativ har regeringen vidtagit med anledning av Rhodesias
             och Sydafrikas terrorbombningar mot civila mål, och vilka ytterligare
@@ -7731,7 +7663,7 @@
           174 av Inga Lantz (vpk) till budgetministern om åtgärder för
           att minska orättvisorna i skattesystemet:
         </note>
-        <u xml:id="i-6d5668b44e38be55-1" who="i-VtWQs1mfimPMyjw5HVXR4i" next="i-Xknpq4QJVL3yp4joTJ5hEu">
+        <u xml:id="i-6d5668b44e38be55-1" who="i-VtWQs1mfimPMyjw5HVXR4i">
           <seg xml:id="i-RAC5L2iprVYhKANP5fntf9">
             Det har återigen kommit en redovisning av orättvisorna i det
             svenska skattesystemet. Det sker i en bok av Göran Skytte, De
@@ -7746,13 +7678,9 @@
             orättfärdigt, särskilt som det är de som får betala denna legala
             skattesmitning genom höjda pålagor.
           </seg>
-        </u>
-        <u xml:id="i-Xknpq4QJVL3yp4joTJ5hEu" who="i-VtWQs1mfimPMyjw5HVXR4i" prev="i-6d5668b44e38be55-1" next="i-Jzfa1KA3FHVn3C12g1ZQY5">
           <seg xml:id="i-5PRfVTwQoQYVdwvMjg8YLD">
             Jag vill därför ställa följande fråga till budgetministern:
           </seg>
-        </u>
-        <u xml:id="i-Jzfa1KA3FHVn3C12g1ZQY5" who="i-VtWQs1mfimPMyjw5HVXR4i" prev="i-Xknpq4QJVL3yp4joTJ5hEu">
           <seg xml:id="i-9zYxYeKpg8cyMNBEiq9cXK">
             Vilka åtgärder kommer regeringen att vidta för att minska orättvisorna
             i skattesystemet?
@@ -7765,7 +7693,7 @@
           175 av Eivor Marklund (vpk) till utbildningsministern om åtgärder
           för att garantera synskadade tillgång till dagspressen:
         </note>
-        <u xml:id="i-60984db67898ced8-0" who="i-8743Lhyk8SSNk8Ne84jigz" next="i-39i2FHG9tDRKrx5HQZGRjs">
+        <u xml:id="i-60984db67898ced8-0" who="i-8743Lhyk8SSNk8Ne84jigz">
           <seg xml:id="i-FXhDKGwRyCRH6ghBmrdHAi">
             Under valrörelsen 1979 anordnades en utfrågning med samtliga
             riksdagspartier inför Synskadades riksförbund. Vid denna utfrågning
@@ -7774,8 +7702,6 @@
             att frågan om synskadades tillgång till dagspressen skall lösas
             under 1979/80 års riksmöte. Jag vill därför fråga utbildningsministern:
           </seg>
-        </u>
-        <u xml:id="i-39i2FHG9tDRKrx5HQZGRjs" who="i-8743Lhyk8SSNk8Ne84jigz" prev="i-60984db67898ced8-0">
           <seg xml:id="i-gW7aYHkWwB4b9ZXiwHQYd">
             När kommer regeringen att för riksdagen framlägga förslag som
             garanterar de synskadade tillgång till dagspressen?
@@ -7788,7 +7714,7 @@
           176 av Roland Sundgren (5) till statsrådet Britt Mogård om avskaffande
           av de graderade betygen inom lärarutbildningen:
         </note>
-        <u xml:id="i-badb8e49644f4b0d-1" who="i-GiSwrvRSNBMuuGVLLZE3L9" next="i-48iArkqtFfwG8XU76YtTrb">
+        <u xml:id="i-badb8e49644f4b0d-1" who="i-GiSwrvRSNBMuuGVLLZE3L9">
           <seg xml:id="i-XBcv5jEkNF8Wi2Y8Fw2jW8">
             Det är mer än två år sedan 1974 års lärarutbildningsutredning
             överlämnade sitt förslag om ett avskaffande av de graderade betygen
@@ -7803,14 +7729,10 @@
             är berett att — sedan SÖ fastställt nya meritvärderingsregler
             — utfärda nya bestämmelser för betygsättningen i lärarutbildningen.”
           </seg>
-        </u>
-        <u xml:id="i-48iArkqtFfwG8XU76YtTrb" who="i-GiSwrvRSNBMuuGVLLZE3L9" prev="i-badb8e49644f4b0d-1" next="i-K6NUqRjcRGSMHxqptAehYf">
           <seg xml:id="i-NipanNj9TevKc58SxDcvSr">
             Ännu har frågan inte lösts. Jag vill därför fråga statsrådet
             Mogård:
           </seg>
-        </u>
-        <u xml:id="i-K6NUqRjcRGSMHxqptAehYf" who="i-GiSwrvRSNBMuuGVLLZE3L9" prev="i-48iArkqtFfwG8XU76YtTrb">
           <seg xml:id="i-RHD1XkiM5x8qZ81ZDWNCtB">
             Vad ämnar statsrådet göra för att påskynda denna frågas lösning?
           </seg>
@@ -7859,7 +7781,7 @@
           178 av Lennart Pettersson (s) till statsrådet Carl Axel Petri
           om brandskyddskostnaderna för kärnkraftverket Barsebäck:
         </note>
-        <u xml:id="i-8038ad42a12def14-1" who="i-4sZMUTZ58TFSSwfWoaTdDi" next="i-NWiguLWM55ujVdvAJazM8v">
+        <u xml:id="i-8038ad42a12def14-1" who="i-4sZMUTZ58TFSSwfWoaTdDi">
           <seg xml:id="i-BNuiLxh3r2SCYzM1AEFtp6">
             Kävlinge är en mindre kommun som inom sina gränser rymmer kärnkraftverket
             Barsebäck. För att klara de stränga brandförsvarskrav som följer
@@ -7879,13 +7801,9 @@
             att kostnaden för detta brandskydd i stället bör bäras av Sydkraft
             eller eventuellt av staten.
           </seg>
-        </u>
-        <u xml:id="i-NWiguLWM55ujVdvAJazM8v" who="i-4sZMUTZ58TFSSwfWoaTdDi" prev="i-8038ad42a12def14-1" next="i-7pyytpkafJNQLZ3ZADhnmH">
           <seg xml:id="i-VAPZ4ykfFC7C1VStKQGVvh">
             Med anledning härav ber jag att få fråga energiministern:
           </seg>
-        </u>
-        <u xml:id="i-7pyytpkafJNQLZ3ZADhnmH" who="i-4sZMUTZ58TFSSwfWoaTdDi" prev="i-NWiguLWM55ujVdvAJazM8v">
           <seg xml:id="i-58rEihe6cxyF8FLUT7XbnR">
             Är statsrådet beredd att medverka till att kraftverksföretaget
             Barsebäck får bära de extra brandskyddskostnader som detta orsakar
@@ -7921,7 +7839,7 @@
         <note xml:id="i-RHc6u2TqSBAbbBPxrRwK7U">
           158
         </note>
-        <u xml:id="i-2bd9db619662084d-3" who="i-PEJ1DBMnG7sGMU8qh8QjnF" prev="i-2bd9db619662084d-1" next="i-9GaheHse3nv9nVXn7rtX5r">
+        <u xml:id="i-2bd9db619662084d-3" who="i-PEJ1DBMnG7sGMU8qh8QjnF" prev="i-2bd9db619662084d-1">
           <seg xml:id="i-CTTpPqyVqXB2VQkZXqRLVx">
             International AB är bekymmersamt.
           </seg>
@@ -7933,13 +7851,9 @@
             har företag med kunnande, utrustning och kapacitet för att klara
             tillverkning av denna typ för svensk och utländsk gruvhantering.
           </seg>
-        </u>
-        <u xml:id="i-9GaheHse3nv9nVXn7rtX5r" who="i-PEJ1DBMnG7sGMU8qh8QjnF" prev="i-2bd9db619662084d-3" next="i-EMm84n68scV1MDBzpSrRgB">
           <seg xml:id="i-QUYFukUiirzodH3gpp34eg">
             Med hänvisning till detta ber jag att få fråga industriministern:
           </seg>
-        </u>
-        <u xml:id="i-EMm84n68scV1MDBzpSrRgB" who="i-PEJ1DBMnG7sGMU8qh8QjnF" prev="i-9GaheHse3nv9nVXn7rtX5r">
           <seg xml:id="i-J5S7hhZYigkCxJrkDBkBr8">
             Hur ser industriministern på möjligheterna för Allis-Chalmers
             svenska dotterbolag, Svedala-Arbrå och Sala International, att
@@ -7954,7 +7868,7 @@
           180 av Olle Göransson (5) till industriministern om upphandlingen
           för utbyggnad av LKAB:s kulsinterverk i Kiruna:
         </note>
-        <u xml:id="i-810440bb78c3f285-1" who="i-YSbqmgxvoUpXhwosS1J39k" next="i-XCqCFhdoGfpeoNNKPR1S7d">
+        <u xml:id="i-810440bb78c3f285-1" who="i-YSbqmgxvoUpXhwosS1J39k">
           <seg xml:id="i-NSzHgRqSHNUVDJVzqDxeai">
             Den amerikanska koncernen Allis-Chalmers Corporation har nu fått
             order på utbyggnad i en första etapp av LKAB:s kulsinterverk i
@@ -7968,13 +7882,9 @@
             har företag med kunnande, utrustning och kapacitet för att klara
             tillverkning av denna typ för svensk och utländsk gruvhantering.
           </seg>
-        </u>
-        <u xml:id="i-XCqCFhdoGfpeoNNKPR1S7d" who="i-YSbqmgxvoUpXhwosS1J39k" prev="i-810440bb78c3f285-1" next="i-5AtCNaRAvDXVV7pxBb74Gx">
           <seg xml:id="i-RrDhvLfkA9HZXMRnvpb25m">
             Med hänvisning till detta ber jag att få fråga industriministern:
           </seg>
-        </u>
-        <u xml:id="i-5AtCNaRAvDXVV7pxBb74Gx" who="i-YSbqmgxvoUpXhwosS1J39k" prev="i-XCqCFhdoGfpeoNNKPR1S7d">
           <seg xml:id="i-KjaCFBSLZooqYa5ewkmnK6">
             Hur ser industriministern på möjligheterna för Allis-Chalmers
             svenska dotterbolag, Svedala-Arbrå och Sala International, att
@@ -8022,7 +7932,7 @@
           gripande ansvaret för beredskap och ledning av verksamheten vid
           större katastrofer och olyckor.
         </note>
-        <u xml:id="i-EyrpUE9XeZoScLrQRvcPB6" who="i-KHHwukqC5Q8kiR5DXHY3hJ" prev="i-ed945026f408f13f-1" next="i-Wm2WGYbNg2U9C5vaC4XyLd">
+        <u xml:id="i-EyrpUE9XeZoScLrQRvcPB6" who="i-KHHwukqC5Q8kiR5DXHY3hJ" prev="i-ed945026f408f13f-1">
           <seg xml:id="i-P6XfYRcugaE71NHN8L8Z3C">
             Behov, av ingripanden från länsstyrelsen vid katastrofsituationer
             kan uppkomma mycket snabbt beroende på olyckans art. För att erforderliga
@@ -8036,16 +7946,12 @@
             av två mellanliggande dagar och uttagande av tre semesterdagar.
             Ett flertal nyckelpersoner kan då väntas lämna residensstaden.
           </seg>
-        </u>
-        <u xml:id="i-Wm2WGYbNg2U9C5vaC4XyLd" who="i-KHHwukqC5Q8kiR5DXHY3hJ" prev="i-EyrpUE9XeZoScLrQRvcPB6" next="i-ed945026f408f13f-3">
           <seg xml:id="i-3fZF1WkFWKzR61HgBzH7tB">
             Länsstyrelsen har med denna bakgrund i skrivelse till regeringen
             den 28 september 1979 hemställt om erforderliga medel för inrättande
             av jourtjänst. Regeringen har ännu ej fattat något beslut i anledning
             av denna framställning.
           </seg>
-        </u>
-        <u xml:id="i-ed945026f408f13f-3" who="i-KHHwukqC5Q8kiR5DXHY3hJ" prev="i-Wm2WGYbNg2U9C5vaC4XyLd">
           <seg xml:id="i-8ETyXC9z4Jm6QwRgM2NFaH">
             Med tanke på de katastrofrisker som länet måste vara berett att
             möta och med hänsyn till vad jag nu senast påpekat om svårigheterna
@@ -8063,33 +7969,25 @@
           183 av Ove Karlsson (s) till industriministern om skinnoch läderindustrins
           framtid:
         </note>
-        <u xml:id="i-53qApBzX18SHp8UYKPMkcD" who="i-QXf2YRbFUcZE7jDnU6Y7tU" next="i-4aa4387de86b6aa9-1">
+        <u xml:id="i-53qApBzX18SHp8UYKPMkcD" who="i-QXf2YRbFUcZE7jDnU6Y7tU">
           <seg xml:id="i-9vcY24eBHUUcsqn8TNT6YG">
             Riksdagen beslutade under våren 1979 att den svenska skinnoch
             läderindustrins framtida dimensionering skulle utredas.
           </seg>
-        </u>
-        <u xml:id="i-4aa4387de86b6aa9-1" who="i-QXf2YRbFUcZE7jDnU6Y7tU" prev="i-53qApBzX18SHp8UYKPMkcD" next="i-TFmANkwqyEESnKzfZCRDKJ">
           <seg xml:id="i-RDBgDPzgpZVULdANrcrUDL">
             Enligt uppgifter i massmedia har en ny konkurrent, Indien, uppträtt
             på den svenska marknaden. Inom skinnindustrin ser man med stor
             oro på den nuvarande utvecklingen, med ytterligare en lågpriskonkurrent
             på den svenska marknaden.
           </seg>
-        </u>
-        <u xml:id="i-TFmANkwqyEESnKzfZCRDKJ" who="i-QXf2YRbFUcZE7jDnU6Y7tU" prev="i-4aa4387de86b6aa9-1" next="i-RrBskuFwHmn9EetvLTw9nv">
           <seg xml:id="i-V9W9vdabhw2QkEUnJ6BmEV">
             Därför vill jag fråga industriministern:
           </seg>
-        </u>
-        <u xml:id="i-RrBskuFwHmn9EetvLTw9nv" who="i-QXf2YRbFUcZE7jDnU6Y7tU" prev="i-TFmANkwqyEESnKzfZCRDKJ" next="i-Hyv2cPf8oHEwYLw5xgrLTc">
           <seg xml:id="i-V6gtDFkC6oxCCoqkQVSze6">
             1. Vilken produktionsvolym anser regeringen att den svenska skinnoch
             läderindustrin skall ha i avvaktan på att utredningen om denna
             industrigren blir klar med sina förslag?
           </seg>
-        </u>
-        <u xml:id="i-Hyv2cPf8oHEwYLw5xgrLTc" who="i-QXf2YRbFUcZE7jDnU6Y7tU" prev="i-RrBskuFwHmn9EetvLTw9nv">
           <seg xml:id="i-Du6WrRVPHqQhzejGj5q2c8">
             2.Vilka insatser är regeringen beredd att sätta in för att upprätthålla
             denna produktionsvolym?

@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-QPy4v7u9nFYvPEzxyDGXYZ" type="speech">
             <linkGrp type="u">
               <ptr target="#i-53caacff68a7b882-0"/>
@@ -117,7 +117,13 @@
               <ptr target="#i-eb9943d50457a6f6-8"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -506,15 +512,13 @@
         <note xml:id="i-5SWEQW6Avgv6EfmYDDVL1e" type="date">
           Lördagen den 31 januari. 5
         </note>
-        <u xml:id="i-5dnmwNwcR1SF6UEJcbxf6x" who="i-VLFbe1qZbz5p1pR3RneKtw" prev="i-eb9943d50457a6f6-0" next="i-eb9943d50457a6f6-1">
+        <u xml:id="i-5dnmwNwcR1SF6UEJcbxf6x" who="i-VLFbe1qZbz5p1pR3RneKtw" prev="i-eb9943d50457a6f6-0" next="i-eb9943d50457a6f6-2">
           <seg xml:id="i-HHicSQoQToSP45kSc7BSBP">
             kommissionen i Sydsverige och spannmålsbyrån i Malmö m. fl. krigstidsstyrelser.
             Dessutom har förrådet förnyats därigenom, att länsstyrelsen fått
             övertaga möbler från Tekniska läroverket i Malmö, vilka där kasserats
             men ansetts duga i länsstyrelsen.
           </seg>
-        </u>
-        <u xml:id="i-eb9943d50457a6f6-1" who="i-VLFbe1qZbz5p1pR3RneKtw" prev="i-5dnmwNwcR1SF6UEJcbxf6x" next="i-eb9943d50457a6f6-2">
           <seg xml:id="i-LGV3AbbEhnMc6LtTxdBAXh">
             På grund härav måste ju möblemanget, sådant det för närvarande
             finnes, verka i hög grad oenhetligt och hoprafsat. Det hade säkerligen
@@ -597,7 +601,7 @@
         <note xml:id="i-BoUNFL8iLV6VRdXWTNdasY" type="title">
           6 Lördagen den 31 januari.
         </note>
-        <u xml:id="i-eb9943d50457a6f6-2" who="i-VLFbe1qZbz5p1pR3RneKtw" prev="i-eb9943d50457a6f6-1">
+        <u xml:id="i-eb9943d50457a6f6-2" who="i-VLFbe1qZbz5p1pR3RneKtw" prev="i-5dnmwNwcR1SF6UEJcbxf6x">
           <seg xml:id="i-EV387yXpELmQ4g7V8ZeDHK">
             nya byggnaden eller mer än dubbelt så många. Det är att märka,
             att länsarkitekten med sina biträden samt vägingenjören och biträdande
@@ -963,7 +967,7 @@
         <note xml:id="i-L6waovxXRnW9eZYT4sAtvP" type="title">
           10 Lördagen den 31 januari.
         </note>
-        <u xml:id="i-761204658292bdf0-1" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-761204658292bdf0-0" next="i-Ne4YByUUZzQDXkpKReim1C">
+        <u xml:id="i-761204658292bdf0-1" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-761204658292bdf0-0">
           <seg xml:id="i-3NKvR63yJh7QW7mgPN69nC">
             gärde. Alt länsstyrelsen, då den gjorde sina petita, räknade
             med ett något rikligt belopp, får man väl betrakta såsom tämligen
@@ -1004,8 +1008,6 @@
             att det i sinom tid kommer att reda sig, även om kammaren följer
             utskottet och beslutar att bevilja 90,000 kronor.
           </seg>
-        </u>
-        <u xml:id="i-Ne4YByUUZzQDXkpKReim1C" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-761204658292bdf0-1">
           <seg xml:id="i-5tZTHiSkyrWmn8pqNrkkKm">
             Jag får sålunda, herr talman, yrka bifall till utskottets förslag.
           </seg>

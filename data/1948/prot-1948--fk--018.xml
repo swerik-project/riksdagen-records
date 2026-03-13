@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-HvpsghGnJhmotv6hNFfRRM" type="speech">
             <linkGrp type="u">
               <ptr target="#i-86429a424a865a90-1"/>
@@ -535,7 +535,13 @@
               <ptr target="#i-43973ecec043258f-5"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -728,7 +734,7 @@
         <note xml:id="i-TS5ss9GAfJymKAayHTFjZW" type="speaker">
           Herr ANDRE VICE TALMANNEN erhöll på begäran ordet och anförde:
         </note>
-        <u xml:id="i-86429a424a865a90-1" who="i-NwFsYdDsyNBsSsUhXsXfnr" next="i-K42hzeEeAWP32dVdmkbhGM">
+        <u xml:id="i-86429a424a865a90-1" who="i-NwFsYdDsyNBsSsUhXsXfnr">
           <seg xml:id="i-QEbzo8U4xshgzXGkhz8MDe">
             Herr talman! Jag hemställer, att kammaren för sin del ville besluta,
             att ett särskilt utskott, bestående av tjugu ledamöter, tio från
@@ -736,8 +742,6 @@
             Kungl. Maj:ts proposition nr 244, med förslag till ändringar i
             regeringsformen och = riksdagsordningen,
           </seg>
-        </u>
-        <u xml:id="i-K42hzeEeAWP32dVdmkbhGM" who="i-NwFsYdDsyNBsSsUhXsXfnr" prev="i-86429a424a865a90-1" next="i-CTdD4y4CfcKToJBqMBxWUn">
           <seg xml:id="i-LsaKN7mBHdmCjTuZsaEBx">
             m. m., än även de ytterligare framställningar, som kunna komma
             att av Kungl. Maj:t eller i enskilda motioner göras i detta ämne
@@ -745,8 +749,6 @@
             att andra kammaren inbjudes att i detta beslut förena sig med
             första kammaren.
           </seg>
-        </u>
-        <u xml:id="i-CTdD4y4CfcKToJBqMBxWUn" who="i-NwFsYdDsyNBsSsUhXsXfnr" prev="i-K42hzeEeAWP32dVdmkbhGM">
           <seg xml:id="i-JrgktmG2j5bDPZnAmgPQHN">
             Under förutsättning att denna inbjudan bifalles av andra kammaren,
             hemställer jag, alt första kammaren för sin del måtte besluta,
@@ -779,19 +781,15 @@
           som tillkännagivit, att han hade för avsikt att vid detta sammanträde
           besvara nämnda fråga, erhöll ordet och anförde:
         </note>
-        <u xml:id="i-VhcXPWLTuwbhkCiqD6S9NY" who="i-UEUWoCh2SPr4UTMWyDHVXA" next="i-LL61PSYUGoo4o2umttzydd">
+        <u xml:id="i-VhcXPWLTuwbhkCiqD6S9NY" who="i-UEUWoCh2SPr4UTMWyDHVXA" next="i-86429a424a865a90-3">
           <seg xml:id="i-VBEoouJ4WvwsbXgZGbnbo">
             Herr talman! Herr Osvald har frågat mig följande:
           </seg>
-        </u>
-        <u xml:id="i-LL61PSYUGoo4o2umttzydd" who="i-UEUWoCh2SPr4UTMWyDHVXA" prev="i-VhcXPWLTuwbhkCiqD6S9NY" next="i-7ox5KjooEAg9LwVYWGVyyH">
           <seg xml:id="i-UJqnQ8qUXgrc2eboxxezwo">
             Är herr statsrådet i tillfälle att meddela, hur bestämmelserna
             angående doktorandoch licentiandstipendiaters rätt att ha biinkomster
             tillämpats?
           </seg>
-        </u>
-        <u xml:id="i-7ox5KjooEAg9LwVYWGVyyH" who="i-UEUWoCh2SPr4UTMWyDHVXA" prev="i-LL61PSYUGoo4o2umttzydd" next="i-86429a424a865a90-3">
           <seg xml:id="i-KzgnQv6BW2iBC6Fxn3GmL1">
             De av herr Osvald åsyftade bestämmelserna ha följande lydelse:
             »Studeran-
@@ -807,7 +805,7 @@
         <note xml:id="i-BxPLszqwKCsePgVq4X1pH7">
           Ang. doktorandoch licentiandstipendiaters rätt att ha biinkomster.
         </note>
-        <u xml:id="i-86429a424a865a90-3" who="i-UEUWoCh2SPr4UTMWyDHVXA" prev="i-7ox5KjooEAg9LwVYWGVyyH" next="i-GAf888NTceK9DsookHrV76">
+        <u xml:id="i-86429a424a865a90-3" who="i-UEUWoCh2SPr4UTMWyDHVXA" prev="i-VhcXPWLTuwbhkCiqD6S9NY">
           <seg xml:id="i-U1dgjvev93iFwGRJgh1BjG">
             de, som innehar stipendium, må därmed icke förena avlönad befattning
             som underläkare (klinikamanuens), förste assistent, andre assistent,
@@ -840,15 +838,11 @@
             närmare bestämmelser borde meddelas av Kungl. Maj:t. Mot vad som
             anfördes i propositionen hade riksdagen ingen erinran.
           </seg>
-        </u>
-        <u xml:id="i-GAf888NTceK9DsookHrV76" who="i-UEUWoCh2SPr4UTMWyDHVXA" prev="i-86429a424a865a90-3" next="i-86429a424a865a90-4">
           <seg xml:id="i-8HmmQ9jpqoUoejVBAW1sSM">
             Såsom framgår av gällande bestämmelser överlämnades det i enlighet
             med universitetsberedningens förslag till de stipendieutdelande
             myndigheterna, d. v. s.
           </seg>
-        </u>
-        <u xml:id="i-86429a424a865a90-4" who="i-UEUWoCh2SPr4UTMWyDHVXA" prev="i-GAf888NTceK9DsookHrV76">
           <seg xml:id="i-Kcc2cHsQ7FpxzZQHAGmMgB">
             fakulteterna, att själva inom ramen för bestämmelserna fastställa
             omfattningen av den förvärvsverksamhet, som kan anses vara förenlig
@@ -1315,41 +1309,29 @@
         <note xml:id="i-P6F8Lri3Qmqd3g2PLS27AS">
           Tisdagen den
         </note>
-        <u xml:id="i-3693507a46b66880-5" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-867a8bbd6cd9a169-0" next="i-TmhQBJ3R7H6JboaNqRFq5h">
+        <u xml:id="i-3693507a46b66880-5" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-867a8bbd6cd9a169-0" next="i-Sd74qvZqD5GQrsyVBX7efD">
           <seg xml:id="i-6basQD5o2KpUwvZNMNv8Fu">
             gits. Den gör från början ransoneringen missriktad till sina
             verkningar.
           </seg>
-        </u>
-        <u xml:id="i-TmhQBJ3R7H6JboaNqRFq5h" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-3693507a46b66880-5" next="i-2CcGDTMuTJNrKtANfT7FTS">
           <seg xml:id="i-SM2HFUHCPi9aM9ivwChMQV">
             En månad före ransoneringens införande höjdes priset på bensin
             avsevärt
           </seg>
-        </u>
-        <u xml:id="i-2CcGDTMuTJNrKtANfT7FTS" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-TmhQBJ3R7H6JboaNqRFq5h" next="i-BgVJvJurZ4ZL2nvCfjeWiL">
           <seg xml:id="i-AveqyvDPamMP5PsEJzRLaL">
             genom en höjning av skatten med 27 öre per liter. även denna
             prishöjning före-:
           </seg>
-        </u>
-        <u xml:id="i-BgVJvJurZ4ZL2nvCfjeWiL" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-2CcGDTMuTJNrKtANfT7FTS" next="i-KbLCfLYuZdZLEwaYZLfMwL">
           <seg xml:id="i-G9fq4zDhqErd8AG6wkjJra">
             gicks av en omfattande hamstring. Om bensinransoneringen införts
             med kortare varsel och före prishöjningen, tor-
           </seg>
-        </u>
-        <u xml:id="i-KbLCfLYuZdZLEwaYZLfMwL" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-BgVJvJurZ4ZL2nvCfjeWiL" next="i-6cGdxjEcexeNvKSKL8FXFw">
           <seg xml:id="i-Sj3fCQmc4tsLVfg7btdoV5">
             de hamstringen till väsentliga delar kun- ;
           </seg>
-        </u>
-        <u xml:id="i-6cGdxjEcexeNvKSKL8FXFw" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-KbLCfLYuZdZLEwaYZLfMwL" next="i-3693507a46b66880-6">
           <seg xml:id="i-6rYssa7SyTuZegF3aaxCVe">
             nat undvikas. 1944 års trafikutredning, som avläm-
           </seg>
-        </u>
-        <u xml:id="i-3693507a46b66880-6" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-6cGdxjEcexeNvKSKL8FXFw" next="i-UMvg3iiTUTzRrrRLCKFTgr">
           <seg xml:id="i-QQcsfAYCx594uXJEroHTJa">
             nade sitt betänkande till chefen för kom- |
           </seg>
@@ -1362,13 +1344,9 @@
             omöjliggöra nu gällande bestämmelser för en personbilägare att
             med någon grad av regelbundenhet medtaga
           </seg>
-        </u>
-        <u xml:id="i-UMvg3iiTUTzRrrRLCKFTgr" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-3693507a46b66880-6" next="i-HEaLc1uqqFBfYLX46cm21o">
           <seg xml:id="i-XqwenYQPshQPBujLsQWkey">
             annan i sin bil, om det sker mot ersätt-
           </seg>
-        </u>
-        <u xml:id="i-HEaLc1uqqFBfYLX46cm21o" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-UMvg3iiTUTzRrrRLCKFTgr" next="i-VVqo4KUgXg7VtDWLtCS4Tp">
           <seg xml:id="i-Exo41bhbKbPCBz1sPPAqrd">
             ning. Detta även om ersättningen är så låg, att det ej sker som
             näringsfång eller bisyssla, utan endast avser att göra passageraren
@@ -1382,13 +1360,9 @@
             bestämmelser. Häremot ha framförts vissa betänkligheter från företrädare
             för den yrkesmässiga trafiken, som befara en inskränk-.
           </seg>
-        </u>
-        <u xml:id="i-VVqo4KUgXg7VtDWLtCS4Tp" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-HEaLc1uqqFBfYLX46cm21o" next="i-3693507a46b66880-7">
           <seg xml:id="i-Tf1wmX4ZdCnxu1oBvHuyFm">
             ning i sin verksamhet. Genom nu införd
           </seg>
-        </u>
-        <u xml:id="i-3693507a46b66880-7" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-VVqo4KUgXg7VtDWLtCS4Tp" next="i-Sd74qvZqD5GQrsyVBX7efD">
           <seg xml:id="i-KzTZZ9QavgFhozmd412wgZ">
             bensinransonering har den yrkesmässiga » trafiken drabbats av
             en given begräns-; ning, och bortfalla då tills vidare de;
@@ -1412,12 +1386,10 @@
         <note xml:id="i-BVxof1t17XF7CTKAJNxmxo">
           a. beträffande lastbiltrafiken, :
         </note>
-        <u xml:id="i-Sd74qvZqD5GQrsyVBX7efD" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-3693507a46b66880-7" next="i-JTid2b6FcK4ySnrLeBJjyu">
+        <u xml:id="i-Sd74qvZqD5GQrsyVBX7efD" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-3693507a46b66880-5" next="i-3693507a46b66880-9">
           <seg xml:id="i-XZyDexvYyUVwiMZ4xf5thB">
             Beträffande person-'
           </seg>
-        </u>
-        <u xml:id="i-JTid2b6FcK4ySnrLeBJjyu" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-Sd74qvZqD5GQrsyVBX7efD" next="i-3693507a46b66880-9">
           <seg xml:id="i-SynWg1i8hefFQE7nHDRUfH">
             att en tilläggsranson framstår '
           </seg>
@@ -1428,7 +1400,7 @@
         <note xml:id="i-2H5ktzNdNvaU6V2CCkqVfP">
           Interpellation ang. bensinransoneringen.
         </note>
-        <u xml:id="i-3693507a46b66880-9" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-JTid2b6FcK4ySnrLeBJjyu" next="i-SeBjHpidhLrx1sv3ahzJW5">
+        <u xml:id="i-3693507a46b66880-9" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-Sd74qvZqD5GQrsyVBX7efD" next="i-SeBjHpidhLrx1sv3ahzJW5">
           <seg xml:id="i-W4t9cqQw4SUFWiB6c9FTnY">
             rationellt skola kunna utnyttja den till-
           </seg>
@@ -1501,27 +1473,21 @@
         <note xml:id="i-3ieNMLNW2QtyrRYkZqThwq">
           Om snabbare handläggning av importlicensärenden.
         </note>
-        <u xml:id="i-SeBjHpidhLrx1sv3ahzJW5" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-3693507a46b66880-9" next="i-MKDHbV7jK74R8RxZptf72b">
+        <u xml:id="i-SeBjHpidhLrx1sv3ahzJW5" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-3693507a46b66880-9">
           <seg xml:id="i-VwUJz1UFNcACaLdevDBfgZ">
             Är herr statsrådet beredd att i nuvarande ransoneringsläge tillfälligt
             vidtaga sådana av 1944 års trafikutredning föreslagna ändringar
             i automobilförordningen, som kunna verka i bensinbesparande syfte?
           </seg>
-        </u>
-        <u xml:id="i-MKDHbV7jK74R8RxZptf72b" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-SeBjHpidhLrx1sv3ahzJW5" next="i-3693507a46b66880-11">
           <seg xml:id="i-PtRWsyqxMxWj2K1AMzNBqP">
             Kunna upplysningar lämnas rörande statsmakternas inställning
             till frågan om tryggande av brännoljeförsörjningen för dieselmotordrivna
             bilar?
           </seg>
-        </u>
-        <u xml:id="i-3693507a46b66880-11" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-MKDHbV7jK74R8RxZptf72b" next="i-4WYuDT3irGQgDvNWtFmJLX">
           <seg xml:id="i-LsjM7tTuR6Wi4yp9FggfT7">
             Kan en sådan ändring av beräkningsgrunderna för bensintilldelningen
             förväntas, att även de s. k. långtradarbilarna erhålla viss bensintilldelning?
           </seg>
-        </u>
-        <u xml:id="i-4WYuDT3irGQgDvNWtFmJLX" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-3693507a46b66880-11">
           <seg xml:id="i-WdsyD2chPakq4MZz3k172A">
             Vilka åtgärder kunna förväntas för en snabbare handläggning av
             ansökningarna om tilläggsranson?
@@ -1747,7 +1713,7 @@
         <note xml:id="i-2uW7H1FPDtwPGJNVY4Dk4A" type="speaker">
           Herr PETRÉN:
         </note>
-        <u xml:id="i-867a8bbd6cd9a169-1" who="i-ERZdkAwWUNZZFepETj5sb1" next="i-RQZKFGPRi8iFjisCEyW7sN">
+        <u xml:id="i-867a8bbd6cd9a169-1" who="i-ERZdkAwWUNZZFepETj5sb1" next="i-H8A2Nk2qsSYcp6oFdvBsav">
           <seg xml:id="i-8m6wiKXqUAyMS51A5cERxe">
             Herr talman! Till herr statsrådet och chefen för handelsdepartementet
             ber jag att få framföra ett tack för svaret å min interpellation
@@ -1774,13 +1740,9 @@
             Såsom två andra väsentliga skäl till dröjsmålen anger handelsministern
             brist på lämplig arbetskraft och lokaler och
           </seg>
-        </u>
-        <u xml:id="i-RQZKFGPRi8iFjisCEyW7sN" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-867a8bbd6cd9a169-1" next="i-3693507a46b66880-16">
           <seg xml:id="i-UGX9JAP9yUk7m6SmNpEqPZ">
             den omständigheten, att de inlämnade
           </seg>
-        </u>
-        <u xml:id="i-3693507a46b66880-16" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-RQZKFGPRi8iFjisCEyW7sN" next="i-H8A2Nk2qsSYcp6oFdvBsav">
           <seg xml:id="i-VJsrmvRZ4giE4WWtGT58ov">
             Sammanfattningsvis kan följande sä- ,ansökningarna äro ofullständiga.
             Det gas. Tidigare ha dröjsmål med handläggförvånar mig mycket,
@@ -1804,7 +1766,7 @@
         <note xml:id="i-PZ23gg9EinxwaJ16MNyr1h">
           Om snabbare handläggning av importlicensärenden.
         </note>
-        <u xml:id="i-H8A2Nk2qsSYcp6oFdvBsav" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-3693507a46b66880-16" next="i-G7nRPkynhB3nmAce7YFiKo">
+        <u xml:id="i-H8A2Nk2qsSYcp6oFdvBsav" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-867a8bbd6cd9a169-1" next="i-G7nRPkynhB3nmAce7YFiKo">
           <seg xml:id="i-8CmLRGRvE7kG5GPftGfkSV">
             utåt, viktiga område. Jag vill se det nuvarande licenstvånget
             som en övergående historia och dristar mig att föreslå herr statsrådet
@@ -2373,7 +2335,7 @@
         <note xml:id="i-LH6fJnpRXtK5XDQewBx9GM">
           Om snabbare handläggning av importlicensärenden.
         </note>
-        <u xml:id="i-GxNt7ejSvMBivpZ98mVyZB" who="i-SCmtRC4XiJBcB9MFdduV2W" prev="i-SyStVBGHNdBSXJnjdBFagc" next="i-G7Tt1WPJFk5ZXUF3LwtjKG">
+        <u xml:id="i-GxNt7ejSvMBivpZ98mVyZB" who="i-SCmtRC4XiJBcB9MFdduV2W" prev="i-SyStVBGHNdBSXJnjdBFagc">
           <seg xml:id="i-UW8XuzhKWBm5QeUT7PXtSh">
             tuation, vari vi nu befinna oss, är den iyska produktionens långvariga
             förlamning. Vi kunna inte längre i större omfattning hämta varor
@@ -2428,8 +2390,6 @@
             intryck av hur maskinförsörjningen i detta nu faktiskt ser ut
             och kan antagas komma att gestalta sig.
           </seg>
-        </u>
-        <u xml:id="i-G7Tt1WPJFk5ZXUF3LwtjKG" who="i-SCmtRC4XiJBcB9MFdduV2W" prev="i-GxNt7ejSvMBivpZ98mVyZB">
           <seg xml:id="i-Xt8jaUyi4CgasGadqhraaJ">
             Överläggningen blev nu för en stund avbruten för att begärt tillfälle
             skulle beredas herr statsrådet Möller att avlämna kungl. propositioner.
@@ -2841,7 +2801,7 @@
         <note xml:id="i-H7KJ2n4bYm2SSzyaKzGEK7">
           I motiveringen hade utskottet yttrat bland annat:
         </note>
-        <u xml:id="i-UhCQkRGkupKALs3EQfDXkf" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-SNgLenw4XAjPgLDRRZmrgQ" next="i-DhfthLWZF2msYc6d3RYQJv">
+        <u xml:id="i-UhCQkRGkupKALs3EQfDXkf" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-SNgLenw4XAjPgLDRRZmrgQ" next="i-0b3b09d502fbc11b-5">
           <seg xml:id="i-AEm2wWYrJmhQ4UBZKXQZJt">
             »Enligt Kungl. Maj:ts i propositionen nr 146 framlagda förslag
             skulle befordran till lönegrad Ce 27 kunna äga rum efter 17/2.
@@ -2850,8 +2810,6 @@
             förslag innebär i denna del att lönegrad Ce 27 ej skulle uppnås
             tidigare än efter 3 års tjänstgöring i lönegrad Ce 25.
           </seg>
-        </u>
-        <u xml:id="i-DhfthLWZF2msYc6d3RYQJv" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-UhCQkRGkupKALs3EQfDXkf" next="i-0b3b09d502fbc11b-5">
           <seg xml:id="i-LpsFD6NWLkGuT8K7nxg1Cy">
             Utskottet vill i och för sig icke motsätta sig införande av lönegrad
             Ce 27 i domaraspiranternas befordringsgång. Med hänsyn till bland
@@ -2876,7 +2834,7 @@
           »Utskottet vill» och slutade med orden »efter 3 år» bort hava
           följande lydelse:
         </note>
-        <u xml:id="i-0b3b09d502fbc11b-5" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-DhfthLWZF2msYc6d3RYQJv">
+        <u xml:id="i-0b3b09d502fbc11b-5" who="i-ERZdkAwWUNZZFepETj5sb1" prev="i-UhCQkRGkupKALs3EQfDXkf">
           <seg xml:id="i-WhsvQxWHFwohu15PYV7E3z">
             »Departementschefen har upplyst, att personal med domarutbildning
             under senare år varit mycket eftersökt och att den konkurrens,
@@ -2934,7 +2892,7 @@
         <note xml:id="i-DA6EqqfLWeFTj24eVyrgLT">
           Ang. befordringsgången för domstolsjurister.
         </note>
-        <u xml:id="i-43973ecec043258f-1" who="i-5jvc79PehcxtyUuivZivQ5" prev="i-43973ecec043258f-0" next="i-R82BuW7CQDygAgU4UnXPRN">
+        <u xml:id="i-43973ecec043258f-1" who="i-5jvc79PehcxtyUuivZivQ5" prev="i-43973ecec043258f-0">
           <seg xml:id="i-Dq3ZEg3MezohsWCTPCCCnw">
             sa avseenden är inte så lätt. Man kan inte utan vidare säga,
             att befordringsgången skall vara lika för dessa båda kategorier,
@@ -2980,16 +2938,12 @@
             Jag har av dessa skäl inte kunnat föl- "ja utskottet, som går
             på personalutred-
           </seg>
-        </u>
-        <u xml:id="i-R82BuW7CQDygAgU4UnXPRN" who="i-5jvc79PehcxtyUuivZivQ5" prev="i-43973ecec043258f-1" next="i-43973ecec043258f-2">
           <seg xml:id="i-5HsaxQyhew8TvHAwC4GCXA">
             ningens linje, utan har ansett att hovrättsfiskalerna i enlighet
             med Kungl. Maj:ts förslag böra beredas möjlighet att redan efter
             ett och ett halvt års tjänstgöring i lönegrad Ce 25 erhålla placering
             i lönegrad Ce 27.
           </seg>
-        </u>
-        <u xml:id="i-43973ecec043258f-2" who="i-5jvc79PehcxtyUuivZivQ5" prev="i-R82BuW7CQDygAgU4UnXPRN">
           <seg xml:id="i-KCeH7oPtJ46nm8JqwaW3EG">
             Jag har, herr talman, därmed i korthet redogjort för de skäl,
             som ligga till grund för reservationen, och det är det sista skälet
@@ -3143,7 +3097,7 @@
         <note xml:id="i-Fy3D24rZhVLC7UGMUBUmeX">
           Ang. befordringsgången för domstolsjurister.
         </note>
-        <u xml:id="i-724b4eaf0d8e7e70-1" who="i-3sSCP4SpHEXgVm8b7P6qGE" prev="i-724b4eaf0d8e7e70-0" next="i-XoRZwXpjy44Bu9X5Gtpgpb">
+        <u xml:id="i-724b4eaf0d8e7e70-1" who="i-3sSCP4SpHEXgVm8b7P6qGE" prev="i-724b4eaf0d8e7e70-0">
           <seg xml:id="i-5AVotcbpFiKeWxFiqNLBBG">
             fiskalstjänsternas innehavare. Jag måste då fråga justitieministern,
             om inte denna uppflyttning i en högre lönegrad, eller till lönegrad
@@ -3180,8 +3134,6 @@
             emot Kungl. Maj:t på denna punkt. I övrigt har ju Kungl. Maj:ts
             förslag godkänts av utskottet på detta avsnitt.
           </seg>
-        </u>
-        <u xml:id="i-XoRZwXpjy44Bu9X5Gtpgpb" who="i-3sSCP4SpHEXgVm8b7P6qGE" prev="i-724b4eaf0d8e7e70-1">
           <seg xml:id="i-3KidBJkP5Z65fqLG2L6qHt">
             Jag yrkar således bifall till utskottets hemställan.
           </seg>
@@ -3449,18 +3401,14 @@
         <note xml:id="i-AwBVKPTx97JUCe6Q1eAaWU">
           Ang.
         </note>
-        <u xml:id="i-9z39e5Rf8aemYbQ7cq7WHk" who="i-PRkToj2ss6C9sjWtUtqNNh" prev="i-5d06cf1181fb6ebb-0" next="i-MyGsRaXhUa7R4Bca6G8cH4">
+        <u xml:id="i-9z39e5Rf8aemYbQ7cq7WHk" who="i-PRkToj2ss6C9sjWtUtqNNh" prev="i-5d06cf1181fb6ebb-0" next="i-64ya3kerNtXG8RCyDUjTas">
           <seg xml:id="i-43Ep1BGfHTfC3Tb55jPgfh">
             tid varit i tillämpning. I dessa ord ligger utskottets hela visdom
             — gömd såsom de vises sten under lager av den obotfärdiges förhinder.
           </seg>
-        </u>
-        <u xml:id="i-MyGsRaXhUa7R4Bca6G8cH4" who="i-PRkToj2ss6C9sjWtUtqNNh" prev="i-9z39e5Rf8aemYbQ7cq7WHk" next="i-5d06cf1181fb6ebb-1">
           <seg xml:id="i-E5gcW7AYXdN4wGwbVHuyiT">
             » Varit i tillämpning under någon tid»
           </seg>
-        </u>
-        <u xml:id="i-5d06cf1181fb6ebb-1" who="i-PRkToj2ss6C9sjWtUtqNNh" prev="i-MyGsRaXhUa7R4Bca6G8cH4" next="i-64ya3kerNtXG8RCyDUjTas">
           <seg xml:id="i-36aNAFR9kZLhD61afkhWu3">
             — vad menas härmed? Ett år, två år eller tio år? Är bevillningsutskottets
             majoritet alldeles omedveten om att näringsliv och enskilda under
@@ -3500,7 +3448,7 @@
         <note xml:id="i-WceqycCUHXeRAMxD8ttEPo">
           det gällande skattesystemets verkningar.
         </note>
-        <u xml:id="i-64ya3kerNtXG8RCyDUjTas" who="i-PRkToj2ss6C9sjWtUtqNNh" prev="i-5d06cf1181fb6ebb-1" next="i-5d06cf1181fb6ebb-3">
+        <u xml:id="i-64ya3kerNtXG8RCyDUjTas" who="i-PRkToj2ss6C9sjWtUtqNNh" prev="i-9z39e5Rf8aemYbQ7cq7WHk" next="i-5d06cf1181fb6ebb-3">
           <seg xml:id="i-TeqPQJSFyU268qJk1fRM9j">
             tiva och erfarenhetsmässigt grundade förutsättningar? Om statsmakterna
             se sig tvungna att gissa sig fram när de diktera, hur tunga bördorna
@@ -4253,7 +4201,7 @@
         <note xml:id="i-9D3ZiR3tiDgvw9aRQ88aft">
           det gällande skattesystemets verkningar.
         </note>
-        <u xml:id="i-Lfn1uP73Ge5RjoDAZxv4Xb" who="i-SfDZtdC5fgukcXJsiu8J9U" prev="i-86429a424a865a90-12" next="i-QGmmPNJzYSu5UmfnQoXq7B">
+        <u xml:id="i-Lfn1uP73Ge5RjoDAZxv4Xb" who="i-SfDZtdC5fgukcXJsiu8J9U" prev="i-86429a424a865a90-12">
           <seg xml:id="i-YL9ZPK3RWU2ndDBT2EYfdv">
             nomiska liv, att de inte få behandlas hur som helst.
           </seg>
@@ -4275,8 +4223,6 @@
             att alla krafter sporras till gemensamma ansträngningar för att
             trygga vårt folks välstånd och vårt lands ekonomiska framtidsmöjligheter.
           </seg>
-        </u>
-        <u xml:id="i-QGmmPNJzYSu5UmfnQoXq7B" who="i-SfDZtdC5fgukcXJsiu8J9U" prev="i-Lfn1uP73Ge5RjoDAZxv4Xb">
           <seg xml:id="i-RSNevWRW6Vzjw2VWwGNioR">
             Herr talman! Från dessa utgångspunkter och med denna motivering
             anser jag det vara riktigt att redan nu komma fram med krav på
@@ -4691,7 +4637,7 @@
         <note xml:id="i-CeY5RjMQ5yStRrJn33oiaw">
           Ang. det gällande skattesystemets verkningar.
         </note>
-        <u xml:id="i-c37c36cce6c7316b-6" who="i-J2xUVh35Vb6NMJLSX57Ge1" prev="i-XcUBtAPg6WbaL2p3u12wJ2" next="i-FvygsZ5vJKg1UUZ9DsZSdU">
+        <u xml:id="i-c37c36cce6c7316b-6" who="i-J2xUVh35Vb6NMJLSX57Ge1" prev="i-XcUBtAPg6WbaL2p3u12wJ2" next="i-c37c36cce6c7316b-9">
           <seg xml:id="i-Ny9a8QSmDiBA8K2LLQnWfZ">
             på exempelvis kvarlåtenskapsskatten eller på någonting annat,
             därför att det gällde att få budgeten att gå ihop. Men det löpande
@@ -4732,29 +4678,21 @@
             är en möjlighet som vi räkna med att kunna undvika. Vi behöva
             inte i denna dag ta den starka medicin,
           </seg>
-        </u>
-        <u xml:id="i-FvygsZ5vJKg1UUZ9DsZSdU" who="i-J2xUVh35Vb6NMJLSX57Ge1" prev="i-c37c36cce6c7316b-6" next="i-c37c36cce6c7316b-7">
           <seg xml:id="i-SqwNcGjXbAgLnBGhwuPpAh">
             som herr Ivar Anderson här rekommenderar.»
           </seg>
-        </u>
-        <u xml:id="i-c37c36cce6c7316b-7" who="i-J2xUVh35Vb6NMJLSX57Ge1" prev="i-FvygsZ5vJKg1UUZ9DsZSdU" next="i-Tv9NRwkDH9n2C22qaCgFmZ">
           <seg xml:id="i-D9rh8ZLE81fwQo5pjXiS7a">
             Jag är angelägen att även för egen del något återfalla på detta
             yttrande, därför att jag då liksom vid många andra tillfällen,
             när det gällt betydelsefulla skattefrågor, har sökt att hävda
             de penningpolitiska synpunkterna.
           </seg>
-        </u>
-        <u xml:id="i-Tv9NRwkDH9n2C22qaCgFmZ" who="i-J2xUVh35Vb6NMJLSX57Ge1" prev="i-c37c36cce6c7316b-7" next="i-c37c36cce6c7316b-8">
           <seg xml:id="i-yGmMWMJJavh9yabX7Mwvh">
             Detta uttalande av herr Sjödahl gjordes den 14 juli 1947. Vid
             denna tidpunkt var alltså inflationen för honom endast en möjlighet
             — den var ingen verklighet — och en möjlighet som han räknade
             med att kunna undvika.
           </seg>
-        </u>
-        <u xml:id="i-c37c36cce6c7316b-8" who="i-J2xUVh35Vb6NMJLSX57Ge1" prev="i-Tv9NRwkDH9n2C22qaCgFmZ" next="i-c37c36cce6c7316b-9">
           <seg xml:id="i-XRoibUR7q29vr5KU5feuwW">
             Det verkar nästan beklämmande, när man tänker på att det just
             är personer med den antydda inställningen, som ha spelat en så
@@ -4792,7 +4730,7 @@
         <note xml:id="i-3avXPoz77JURzt88KNqpb1">
           Ang.
         </note>
-        <u xml:id="i-c37c36cce6c7316b-9" who="i-J2xUVh35Vb6NMJLSX57Ge1" prev="i-c37c36cce6c7316b-8">
+        <u xml:id="i-c37c36cce6c7316b-9" who="i-J2xUVh35Vb6NMJLSX57Ge1" prev="i-c37c36cce6c7316b-6">
           <seg xml:id="i-W7jfDHqW2RWciKwmEBnn4r">
             års tillämpning eller praktik av det nya skattesystemet för att
             man skall kunna diskutera och klarlägga sådana ting!
@@ -5514,7 +5452,7 @@
         <note xml:id="i-N3davzcwQHEtzN7WfqNWUj">
           Om avskaffande av kvarlåtenskapsskatten m. m.
         </note>
-        <u xml:id="i-5d06cf1181fb6ebb-7" who="i-PRkToj2ss6C9sjWtUtqNNh" prev="i-5d06cf1181fb6ebb-6" next="i-ShrWz1H8KAfjR5st7DuXHx">
+        <u xml:id="i-5d06cf1181fb6ebb-7" who="i-PRkToj2ss6C9sjWtUtqNNh" prev="i-5d06cf1181fb6ebb-6">
           <seg xml:id="i-DnuuDnYQyJiHqykX8ABSr4">
             andra, att man inte är å jour med händelserna, och det gäller
             inte bara bevillningsutskottet, utan denna brist tycker jag vidlåder
@@ -5554,8 +5492,6 @@
             bara en minoritet. Kvarlåtenskapsskatten, herr talman, måste
             bort!
           </seg>
-        </u>
-        <u xml:id="i-ShrWz1H8KAfjR5st7DuXHx" who="i-PRkToj2ss6C9sjWtUtqNNh" prev="i-5d06cf1181fb6ebb-7">
           <seg xml:id="i-GL8WBXADYpoqFDzuM7C277">
             Jag tillåter mig yrka bifall till den av herr Velander m. fl.
             avgivna reservationen.
@@ -5611,7 +5547,7 @@
         <note xml:id="i-FenqFwzhsQAwvD9jS3Bxnq">
           Om avskaffande av kvarlåtenskapsskatten m. m.
         </note>
-        <u xml:id="i-31309aaf0aa1d224-1" who="i-S8aCynzawb1F4NqNExnsVg" prev="i-31309aaf0aa1d224-0" next="i-4n7WXbP2dy9U4bL2w284Fb">
+        <u xml:id="i-31309aaf0aa1d224-1" who="i-S8aCynzawb1F4NqNExnsVg" prev="i-31309aaf0aa1d224-0">
           <seg xml:id="i-2SBJiuyQBXGnxCRTHAfb58">
             oundgängligen behöva. Resten blir innestående i företaget — det
             må sedan vara ett jordbruk eller ett hantverk eller en småindustri.
@@ -5645,8 +5581,6 @@
             med ett sjunkande penningvärde tränger kvarlåtenskapsskatten allt
             djupare och djupare ned i förmögenhetsskikten.
           </seg>
-        </u>
-        <u xml:id="i-4n7WXbP2dy9U4bL2w284Fb" who="i-S8aCynzawb1F4NqNExnsVg" prev="i-31309aaf0aa1d224-1">
           <seg xml:id="i-2TxEzdrkA9LbHt32KJ1cKk">
             Jag skall inte vidare fördjupa mig i den här saken, men jag vill
             yrka bifall till den vid utskottsbetänkandet fogade reservationen
@@ -5788,7 +5722,7 @@
         <note xml:id="i-No6gRbJYcnFDBwiHon76q9">
           Om avskaffande av kvarlåtenskapsskatten m. m.
         </note>
-        <u xml:id="i-0938e8a7394343a2-5" who="i-GZhoFvTfhRXJNWt7FFbiuE" prev="i-0938e8a7394343a2-4" next="i-EtYYGyQCv65UQ3Z6uUZtu9">
+        <u xml:id="i-0938e8a7394343a2-5" who="i-GZhoFvTfhRXJNWt7FFbiuE" prev="i-0938e8a7394343a2-4">
           <seg xml:id="i-EZVw5UziQjjPk4BVLPetRT">
             hänsyn till de samhällsekonomiska värden som man har att bevara.
             Den statsfinansiella synpunkten är viktig, men den får inte vara
@@ -5858,8 +5792,6 @@
             kommer att bli fördelaktigare för det allmänna än ett behållande
             av kvarlåtenskapsskatten.
           </seg>
-        </u>
-        <u xml:id="i-EtYYGyQCv65UQ3Z6uUZtu9" who="i-GZhoFvTfhRXJNWt7FFbiuE" prev="i-0938e8a7394343a2-5">
           <seg xml:id="i-9daKUW1NW29oAZdc4bnYrB">
             Med den argumenteringen, herr talman, ber jag att få hemställa
             om bifall till den reservation, som är fogad till utskottets betänkande
@@ -6348,13 +6280,11 @@
         <note xml:id="i-KXFVGQ7t1kXxY2FusrESuH">
           Om avskaffande av kvarlåtenskapsskatten m. m.
         </note>
-        <u xml:id="i-4HWMZ7D5CjBiEKJQFKtDb3" who="i-J1t9h26sQkG9Da62Wr45W6" prev="i-86429a424a865a90-23" next="i-86429a424a865a90-24">
+        <u xml:id="i-4HWMZ7D5CjBiEKJQFKtDb3" who="i-J1t9h26sQkG9Da62Wr45W6" prev="i-86429a424a865a90-23" next="i-86429a424a865a90-25">
           <seg xml:id="i-YDgqd3oEV6Gmq8MawVXyMf">
             knyta till den diskussion som förekom i samband med kvarlåtenskapsskattens
             införande vid förra årets riksdag.
           </seg>
-        </u>
-        <u xml:id="i-86429a424a865a90-24" who="i-J1t9h26sQkG9Da62Wr45W6" prev="i-4HWMZ7D5CjBiEKJQFKtDb3" next="i-86429a424a865a90-25">
           <seg xml:id="i-AZVQg7s8pLg2c5TZXTcsii">
             Frågan om kvarlåtenskapsskatten intog då en mycket framskjuten
             plats i diskussionen om de nya skatterna såväl före riksdagsbehandlingen
@@ -6440,7 +6370,7 @@
         <note xml:id="i-KrJT7vFTcLvc7iW96Sz5Ab">
           Om avskaffande av kvarlåtenskapsskatten m. m.
         </note>
-        <u xml:id="i-86429a424a865a90-25" who="i-J1t9h26sQkG9Da62Wr45W6" prev="i-86429a424a865a90-24" next="i-86429a424a865a90-26">
+        <u xml:id="i-86429a424a865a90-25" who="i-J1t9h26sQkG9Da62Wr45W6" prev="i-4HWMZ7D5CjBiEKJQFKtDb3" next="i-86429a424a865a90-26">
           <seg xml:id="i-Pmqudr8NFxGAAwqx4TndtE">
             skatt, en ständigt växande skuld. I högermotionen erinras om
             detta resonemang, varjämte man anknyter till de synpunkter som
@@ -6531,7 +6461,7 @@
         <note xml:id="i-6XvM4mxDwJhnf4dgnqYZ6Q">
           Om avskaffande av kvarlåtenskapsskatten m. m.
         </note>
-        <u xml:id="i-86429a424a865a90-26" who="i-J1t9h26sQkG9Da62Wr45W6" prev="i-86429a424a865a90-25" next="i-VAm6orJgLiPkYtCwJfwZ63">
+        <u xml:id="i-86429a424a865a90-26" who="i-J1t9h26sQkG9Da62Wr45W6" prev="i-86429a424a865a90-25">
           <seg xml:id="i-KzfMDGdBAq32UXXP5h5aoK">
             kommer att minska med skattens belopp. Men överbalanseringen
             kommer inte att minska med 40 miljoner kronor, utan med cirka
@@ -6592,8 +6522,6 @@
             för den händelse årets aktioner för kvarlåtenskapsskattens avskaffande
             skulle stjälpas.
           </seg>
-        </u>
-        <u xml:id="i-VAm6orJgLiPkYtCwJfwZ63" who="i-J1t9h26sQkG9Da62Wr45W6" prev="i-86429a424a865a90-26">
           <seg xml:id="i-Cr1mt6SrrJyB7h1UZvXUzR">
             Jag ber, herr talman, att med dessa ord få ansluta mig till yrkandet
             om bifall till den av herr Velander m. fl. avgivna reservationen.
@@ -6823,7 +6751,7 @@
         <note xml:id="i-7UafUW8BDeQzD4hyqwv5KR">
           Om avskaffande av kvarlåtenskapsskatten m. m.
         </note>
-        <u xml:id="i-c37c36cce6c7316b-14" who="i-J2xUVh35Vb6NMJLSX57Ge1" prev="i-c37c36cce6c7316b-13" next="i-PmUA6AfJ6QhQLuM143zpdT">
+        <u xml:id="i-c37c36cce6c7316b-14" who="i-J2xUVh35Vb6NMJLSX57Ge1" prev="i-c37c36cce6c7316b-13" next="i-S3xx29ibMprvxSvsdacwuk">
           <seg xml:id="i-TrjCjjmU5JeyJ9oFAtDdEc">
             Även om detta resonemang inte i och för sig är särskilt överraskande
             med hänsyn till varifrån det kommer, är det dock ganska uppseendeväckande
@@ -6858,13 +6786,9 @@
             som herr Elon Andersson visserligen inte vill ha nu, men som han
             kanske kan vara med om att besluta nästa år.
           </seg>
-        </u>
-        <u xml:id="i-PmUA6AfJ6QhQLuM143zpdT" who="i-J2xUVh35Vb6NMJLSX57Ge1" prev="i-c37c36cce6c7316b-14" next="i-c37c36cce6c7316b-15">
           <seg xml:id="i-UJF9kGSDj8RzHMULzJKCnH">
             Herr Siödahl talade som vanligt om
           </seg>
-        </u>
-        <u xml:id="i-c37c36cce6c7316b-15" who="i-J2xUVh35Vb6NMJLSX57Ge1" prev="i-PmUA6AfJ6QhQLuM143zpdT" next="i-S3xx29ibMprvxSvsdacwuk">
           <seg xml:id="i-Jz1bWy21sQykBW9xZXZ8em">
             för oss att kvarlåtenskapsskatten icke var så mycket att tala
             om och att den betyder så förfärligt litet i förhållande till
@@ -6912,14 +6836,12 @@
         <note xml:id="i-UhYkFh3VzWqM1SgQ1dwfAd">
           Om avskaffande av kvarlåtenskapsskatten m. m.
         </note>
-        <u xml:id="i-S3xx29ibMprvxSvsdacwuk" who="i-J2xUVh35Vb6NMJLSX57Ge1" prev="i-c37c36cce6c7316b-15" next="i-FwqeCiBtRuAM4KmFxxsYTD">
+        <u xml:id="i-S3xx29ibMprvxSvsdacwuk" who="i-J2xUVh35Vb6NMJLSX57Ge1" prev="i-c37c36cce6c7316b-14" next="i-c37c36cce6c7316b-17">
           <seg xml:id="i-KA5v5a2BpmTrNX6qMXhYRd">
             mögenhet på 200 000 resp. 3 195 000 kronor, hade en behållen
             inkomst av förmögenheten efter verkställd skattebetalning på 1180
             kronor; ett lika stort belopp alltså.
           </seg>
-        </u>
-        <u xml:id="i-FwqeCiBtRuAM4KmFxxsYTD" who="i-J2xUVh35Vb6NMJLSX57Ge1" prev="i-S3xx29ibMprvxSvsdacwuk" next="i-c37c36cce6c7316b-17">
           <seg xml:id="i-ADku5oZufWT7cjQ2ox44dT">
             Nu skall jag fullfölja exemplet, med hänsyn till att vi äro inne
             på frågan om kvarlåtenskapsskattens obetydlighet. Låt oss antaga,
@@ -6960,7 +6882,7 @@
         <note xml:id="i-So8bPbVoH3PdXwSBomaoWk">
           5 Första kammarens protokoll 1948. Nr 18.
         </note>
-        <u xml:id="i-c37c36cce6c7316b-17" who="i-J2xUVh35Vb6NMJLSX57Ge1" prev="i-FwqeCiBtRuAM4KmFxxsYTD" next="i-c37c36cce6c7316b-18">
+        <u xml:id="i-c37c36cce6c7316b-17" who="i-J2xUVh35Vb6NMJLSX57Ge1" prev="i-S3xx29ibMprvxSvsdacwuk" next="i-c37c36cce6c7316b-18">
           <seg xml:id="i-La2GWvBQSmVtbP4yLSNPMr">
             tillhöra högern inta, motverkades sparandet och skrämdes spararna
             bort. Det är ett allvarligt tal, att intresset för sparandet elimineras,
@@ -7571,7 +7493,7 @@
         <note xml:id="i-VtzGhP2UmRYp79ZTVqtDrV" type="speaker">
           Herr VELANDER:
         </note>
-        <u xml:id="i-c37c36cce6c7316b-24" who="i-J2xUVh35Vb6NMJLSX57Ge1" next="i-WpFobgVHDEJN5iDrzdxuux">
+        <u xml:id="i-c37c36cce6c7316b-24" who="i-J2xUVh35Vb6NMJLSX57Ge1" next="i-c37c36cce6c7316b-25">
           <seg xml:id="i-UhhHAYryHp9kQB4HRdrCEL">
             Herr talman! Jag är glad åt det uttalande, som här gjordes av
             utskottets vice ordförande, därför att det innefattar en uppmjukning
@@ -7584,8 +7506,6 @@
             i händelse av besvär över val av taxeringsnämndseller prövningsnämndsledamot.
             Jag har alltså ingen anledning att återtaga mitt yrkande om
           </seg>
-        </u>
-        <u xml:id="i-WpFobgVHDEJN5iDrzdxuux" who="i-J2xUVh35Vb6NMJLSX57Ge1" prev="i-c37c36cce6c7316b-24" next="i-c37c36cce6c7316b-25">
           <seg xml:id="i-8RK3SVpzeZuVAGjfsmWuw2">
             viss omformulering av utskottets yttrande. Efter det överläggningen
             förklarats
@@ -7600,7 +7520,7 @@
           om sålunda» och slutade med »den föreliggande motionen» avfattades
           sålunda:
         </note>
-        <u xml:id="i-c37c36cce6c7316b-25" who="i-J2xUVh35Vb6NMJLSX57Ge1" prev="i-WpFobgVHDEJN5iDrzdxuux" next="i-5jNi66zrGjyFwbV6jFpiaB">
+        <u xml:id="i-c37c36cce6c7316b-25" who="i-J2xUVh35Vb6NMJLSX57Ge1" prev="i-c37c36cce6c7316b-24" next="i-5jNi66zrGjyFwbV6jFpiaB">
           <seg xml:id="i-3YWVixX1aX5RXPW1D1F4Yu">
             »Även om sålunda värdet av förefintliga möjligheter att utesluta
             valda personer, vilka dömts för falskdeklaration, från ledamotskap
@@ -9335,7 +9255,7 @@
         <note xml:id="i-QiiRA85nzdiLDn7p4szNtB" type="speaker">
           Herr NÄSLUND:
         </note>
-        <u xml:id="i-b782177f8250d1c0-0" who="i-MSjNBHZMhSJTRmVbnBc4VR" next="i-Mzr6yEYqgZm8SiTPAhvnKz">
+        <u xml:id="i-b782177f8250d1c0-0" who="i-MSjNBHZMhSJTRmVbnBc4VR">
           <seg xml:id="i-RzZLm4PSot6G2Wd2atrx12">
             Herr talman! Jag skall inte upptaga någon dispyt med herr Mannerskantz
             i denna punkt. Det kan ju hända att veterinärerna på Öland och
@@ -9344,8 +9264,6 @@
             utlåtande i ämnet, och då anser sig utskottet ha ganska god grund
             för sitt skrivsätt.
           </seg>
-        </u>
-        <u xml:id="i-Mzr6yEYqgZm8SiTPAhvnKz" who="i-MSjNBHZMhSJTRmVbnBc4VR" prev="i-b782177f8250d1c0-0">
           <seg xml:id="i-GXBNHm7ZudwiPN2BFeebAf">
             Jag hemställer, herr talman, om bifall till utskottets förslag.
           </seg>

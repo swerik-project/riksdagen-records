@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>digital-origin</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">digital-origin</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-FUhV6Lbvs1PvTSoDi9V4Gw" type="speech">
             <linkGrp type="u">
               <ptr target="#i-9MqkZUbQM59mi14FHRBteJ"/>
@@ -444,7 +444,13 @@
               <ptr target="#i-SGNpyukkdEGih6CvqKkjE8"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -575,8 +581,6 @@
           <seg xml:id="i-9U7ABwU4jnBA2AT8exYUKr">
             Interpellationen kommer inte hinna besvaras inom tidsfristen.
           </seg>
-        </u>
-        <u xml:id="i-Y3SZeA7tAPamcduUCpxmWn" who="unknown">
           <seg xml:id="i-QLh6eC33qXnCuMs6wm8F4A">
             Skälet till dröjsmålet är andra sedan tidigare inbokade arrangemang.
           </seg>
@@ -659,7 +663,7 @@
         <note xml:id="i-6FfkcaUfUm61APeBmMGgWh" type="speaker">
           Anf. 1 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-9MqkZUbQM59mi14FHRBteJ" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-WbBoDFKHt1Z3pYmRewNoh7">
+        <u xml:id="i-9MqkZUbQM59mi14FHRBteJ" who="i-G8564CqEnhC5PBjZSwUxsE">
           <seg xml:id="i-DbPTLqR1nTC2Ce6kXMzPAX">
             Fru talman! Thomas Morell har frågat mig om jag avser att vidta
             åtgärder för att säkerställa en rimlig standard på vinterväghållningen
@@ -668,8 +672,6 @@
             avser att vidta för att säkerställa en god snöröjning i hela landet.
             Jag väljer att svara på frågorna i ett sammanhang .
           </seg>
-        </u>
-        <u xml:id="i-WbBoDFKHt1Z3pYmRewNoh7" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-9MqkZUbQM59mi14FHRBteJ" next="i-C6DWtmXZToCxEMaXQdooeN">
           <seg xml:id="i-S3RWpsbXa4UGSmeBfrdHzP">
             Jag har så sent som den 7 december 2021 besvarat en skriftlig
             fråga om vinterväghållningen från Thomas Morell. I svaret redogör
@@ -678,8 +680,6 @@
             Trafikverket har de resurser som krävs för att kunna genomföra
             sitt uppdrag. Jag upprepar därför inte just detta här i dag.
           </seg>
-        </u>
-        <u xml:id="i-C6DWtmXZToCxEMaXQdooeN" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-WbBoDFKHt1Z3pYmRewNoh7" next="i-CAjbDdj7tzqGgPMyLvwiYd">
           <seg xml:id="i-FLCztEfG4qKTj2TCSJbfEp">
             Jag kan dock konstatera att Trafikverket har tillräckliga ekonomiska
             resurser, framtagna krav för vinterväghållningens standard samt
@@ -687,8 +687,6 @@
             så att det utförs på ett korrekt sätt. Det skapar förutsättningar
             för en fungerande vinterväghållning.
           </seg>
-        </u>
-        <u xml:id="i-CAjbDdj7tzqGgPMyLvwiYd" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-C6DWtmXZToCxEMaXQdooeN">
           <seg xml:id="i-PDmweoAuJ8XWDEpEPXKcGS">
             I egenskap av infrastrukturminister är en av mina viktiga uppgifter
             att skapa goda förutsättningar för våra expertmyndigheter att
@@ -703,12 +701,10 @@
         <note xml:id="i-4ghij56t3YRe3zzjDq7jXc" type="speaker">
           Anf. 2 THOMAS MORELL (SD):
         </note>
-        <u xml:id="i-HbPcH9F2PfVFwBTzWoZG3C" who="i-G9Ze2ayHon2kkwVgXWott8" next="i-2niwcSRzLtfuuh4EbTmh6v">
+        <u xml:id="i-HbPcH9F2PfVFwBTzWoZG3C" who="i-G9Ze2ayHon2kkwVgXWott8" next="i-AxYWQjGysmQiu54FERPNkk">
           <seg xml:id="i-VzVRgGAokWyZTWDX6oQE4Y">
             Fru talman! Tack för svaret, statsrådet!
           </seg>
-        </u>
-        <u xml:id="i-2niwcSRzLtfuuh4EbTmh6v" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-HbPcH9F2PfVFwBTzWoZG3C" next="i-AxYWQjGysmQiu54FERPNkk">
           <seg xml:id="i-TnXKcvbhXqKJumvxJDhEfg">
             Det här med vinterväghållning har vi ställt både skriftliga frågor
             och interpellationer om tidigare. Vi kan konstatera att vinterväghållningen
@@ -719,7 +715,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=4"/>
-        <u xml:id="i-AxYWQjGysmQiu54FERPNkk" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-2niwcSRzLtfuuh4EbTmh6v" next="i-U8ku8yHLJm315r657KsrdV">
+        <u xml:id="i-AxYWQjGysmQiu54FERPNkk" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-HbPcH9F2PfVFwBTzWoZG3C">
           <seg xml:id="i-E8quzn5WC3bRD5d9WAZG3">
             Jag vill först och främst säga att det inte är hos dem som är
             ute på vägen, alltså utförarna, som problemet ligger. Det handlar
@@ -730,15 +726,11 @@
             en viss förmåga att sova över. De vaknar väldigt sent. När de
             väl larmar för att det är halt har det varit halt i flera timmar.
           </seg>
-        </u>
-        <u xml:id="i-U8ku8yHLJm315r657KsrdV" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-AxYWQjGysmQiu54FERPNkk" next="i-MsPUpSDSSyYCodwtDrrjJ8">
           <seg xml:id="i-QkFEepdDH59qJvpB4W2nnR">
             Detta har vi diskuterat tidigare. Det är nu dags att man gör
             ett omtag. Regeringen måste se till att Trafikverket ser över
             sina rutiner för hur man sköter vinterväghållningen.
           </seg>
-        </u>
-        <u xml:id="i-MsPUpSDSSyYCodwtDrrjJ8" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-U8ku8yHLJm315r657KsrdV" next="i-Fu8Cb9Q71aGpLjZNV2cUGC">
           <seg xml:id="i-A2jZMhTq3MW38F9GF16L3Y">
             Denna vinter inleddes ju dramatiskt när ett sextiotal lastbilar
             blev stående på E4:an uppe vid Sundsvall. Det var också två allvarliga
@@ -747,8 +739,6 @@
             Lyckligtvis gick dessa olyckor bra. Visserligen blev människor
             skadade, men det var ingen som omkom.
           </seg>
-        </u>
-        <u xml:id="i-Fu8Cb9Q71aGpLjZNV2cUGC" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-MsPUpSDSSyYCodwtDrrjJ8" next="i-QjPRmQVKTAbWvNzpEawe8t">
           <seg xml:id="i-Wptwrge7fyaV1azn7mXEV">
             Det är detta som är problemet. Jag var nu på morgonen, inför
             denna debatt, inne och tittade på Facebooksidan Vägen är vår arbetsplats.
@@ -760,15 +750,11 @@
             skridskobana, trots att det var plusgrader och uppehåll. Det var
             många olyckor utanför Nyköping.
           </seg>
-        </u>
-        <u xml:id="i-QjPRmQVKTAbWvNzpEawe8t" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-Fu8Cb9Q71aGpLjZNV2cUGC" next="i-PeV34HbvWCYj62E28fKfoP">
           <seg xml:id="i-UyFVEcbZTx3CmmmB3AEL5F">
             Nu pratar vi om en Europaväg, Europaväg 4, en av de viktiga pulsådror
             vi har i landet, som alltså inte håller en rimlig standard för
             att vara säker.
           </seg>
-        </u>
-        <u xml:id="i-PeV34HbvWCYj62E28fKfoP" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-QjPRmQVKTAbWvNzpEawe8t" next="i-UZqVsNfH2nzMZmcymssdf3">
           <seg xml:id="i-D8mvMEqfM1CeBiYkRapgPN">
             Att det kan vara svårt att upprätthålla en god standard just
             när ett vinterväder är väldigt intensivt och ligger på har jag
@@ -779,8 +765,6 @@
             som står utmed vägkanten och som reagerar alldeles för saktfärdigt.
             Här måste det bli en annan tingens ordning.
           </seg>
-        </u>
-        <u xml:id="i-UZqVsNfH2nzMZmcymssdf3" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-PeV34HbvWCYj62E28fKfoP">
           <seg xml:id="i-SBNeCDd9mWT3TLkPrnGcjj">
             Förr i tiden – jag är så gammal att jag har upplevt det – fanns
             det vägmästare som åkte ut och tittade hur vägarna såg ut i deras
@@ -796,7 +780,7 @@
         <note xml:id="i-VTYmurC4gUd6GSbrWQBj1e" type="speaker">
           Anf. 3 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-NiVcUfFTHWEG1Yi9U96yem" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-3k9pieNvGoSSoAAQuuhVDb">
+        <u xml:id="i-NiVcUfFTHWEG1Yi9U96yem" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-RKxdVwnEwg4kznCtPfyrbt">
           <seg xml:id="i-QqK2f1qe6ygdR5WsMVwuXT">
             Fru talman! Tack, Thomas Morell, för engagemanget när det gäller
             våra vägar och halkbekämpningen! Jag tycker att det är viktigt
@@ -806,8 +790,6 @@
             den här debatten, att Trafikverket inte har någon egen flotta.
             Allting ligger utlagt på åkerier och andra som sköter vinterväghållningen.
           </seg>
-        </u>
-        <u xml:id="i-3k9pieNvGoSSoAAQuuhVDb" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-NiVcUfFTHWEG1Yi9U96yem" next="i-RKxdVwnEwg4kznCtPfyrbt">
           <seg xml:id="i-DWUXGUMkaMNi6GW7CT37L3">
             Thomas Morell beskriver en tid när vägmästare och andra åkte
             ut och tittade på vägarna – de vägar de hade tid och möjlighet
@@ -819,7 +801,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=5"/>
-        <u xml:id="i-RKxdVwnEwg4kznCtPfyrbt" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-3k9pieNvGoSSoAAQuuhVDb" next="i-2k9YLCovZcemyFt4MnUJiv">
+        <u xml:id="i-RKxdVwnEwg4kznCtPfyrbt" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-NiVcUfFTHWEG1Yi9U96yem">
           <seg xml:id="i-TYpb5wojcfKGVrYqcLiPC4">
             Det är klart att detta är en utmaning, men det är också därför
             jag har varit väldigt noga med att Trafikverket inte ska se någon
@@ -831,8 +813,6 @@
             färre olyckor, säkrare fordon och i stor utsträckning effektivare
             trafiksäkerhetssystem.
           </seg>
-        </u>
-        <u xml:id="i-2k9YLCovZcemyFt4MnUJiv" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-RKxdVwnEwg4kznCtPfyrbt" next="i-Jbpc6cdQXLSqCY4MAct7B7">
           <seg xml:id="i-FPQ7DgnS6AP2PUEYX8Hzwt">
             Naturligtvis finns det dock alltid möjlighet att göra saker bättre.
             Jag gillar tanken på att Trafikverket pratar inte bara med åkerier
@@ -843,8 +823,6 @@
             hur snödjupet, halkan eller vägtemperaturen är samlar in ungefär
             200 miljoner mätpunkter.
           </seg>
-        </u>
-        <u xml:id="i-Jbpc6cdQXLSqCY4MAct7B7" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-2k9YLCovZcemyFt4MnUJiv" next="i-Dk7yxApDcAYmG6upmifzBg">
           <seg xml:id="i-2aiTHv2xJCi4CFPwK1WvZG">
             Det är ett samarbete som man har med bland annat Volvo Cars där
             Volvos egna bilar levererar in hur halkan är och på vilka ställen
@@ -854,15 +832,11 @@
             ännu effektivare halkbekämpning och möjlighet att kunna begränsa
             skadorna.
           </seg>
-        </u>
-        <u xml:id="i-Dk7yxApDcAYmG6upmifzBg" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-Jbpc6cdQXLSqCY4MAct7B7" next="i-PTfH4SHKSUE1ZmfnxqtRVd">
           <seg xml:id="i-UbjuyeqLhzPNUNFGQENDc2">
             För dem som inte följt debatten, och jag vet att Thomas Morell
             känner till det, kan det vara bra att veta att det finns ganska
             tydligt upplagda kriterier för när insatser ska göras.
           </seg>
-        </u>
-        <u xml:id="i-PTfH4SHKSUE1ZmfnxqtRVd" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-Dk7yxApDcAYmG6upmifzBg" next="i-UTKb3PHWs2wCez7Qfe1Sv7">
           <seg xml:id="i-UJVVTQqa5D1YNbi4JZSQp8">
             Standardklass 1 är till exempel 2 200 kilometer. Det är 14 procent
             av trafiken. När det har fallit en centimeter snö har plogbilen
@@ -870,24 +844,18 @@
             snöa ska vägen vara snö- och isfri inom två timmar. Det är oftast
             halkbekämpning med salt.
           </seg>
-        </u>
-        <u xml:id="i-UTKb3PHWs2wCez7Qfe1Sv7" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-PTfH4SHKSUE1ZmfnxqtRVd" next="i-62UzdmEd24ZbTmBsUDEUd8">
           <seg xml:id="i-9YsWS2sKHwiTmnhq9ewDSX">
             Standardklass 4, som är 23 600 kilometer, är också 14 procent
             av trafiken. När det har kommit två centimeter snö har plogbilen
             normalt fem timmar på sig att ploga sträckan. Fem timmar efter
             avslutat snöfall får det ligga högst två centimeter snö på vägen.
           </seg>
-        </u>
-        <u xml:id="i-62UzdmEd24ZbTmBsUDEUd8" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-UTKb3PHWs2wCez7Qfe1Sv7" next="i-7pBCymS5sEkcnibt4xEH2a">
           <seg xml:id="i-TGCc7rHhYuEFaCoVdgoqth">
             Det här är att sätt att försöka strukturera så att det på vägar
             med mycket trafik är snabba insatser. På vägar med mindre trafik
             kan det ta lite längre tid. Det är ett sätt att använda resurserna
             på bästa sätt.
           </seg>
-        </u>
-        <u xml:id="i-7pBCymS5sEkcnibt4xEH2a" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-62UzdmEd24ZbTmBsUDEUd8">
           <seg xml:id="i-6wZunJvbQoXyXJbPhU5Kqt">
             Jag är ändå optimistisk när det gäller den tekniska utvecklingen.
             Jag inser att det fanns fördelar med den yrkeskunskap som fanns
@@ -900,12 +868,10 @@
         <note xml:id="i-Uv6QvK8SSvuxfBxzXZaNC3" type="speaker">
           Anf. 4 THOMAS MORELL (SD):
         </note>
-        <u xml:id="i-MMjj249KznbFFs3ruzfpyn" who="i-G9Ze2ayHon2kkwVgXWott8" next="i-8rfw8RA9XJKm4xouc9P6R7">
+        <u xml:id="i-MMjj249KznbFFs3ruzfpyn" who="i-G9Ze2ayHon2kkwVgXWott8" next="i-PdESepJQtzUSexxqVvCRJh">
           <seg xml:id="i-R7sVqT2GHXK2KPHVPfvRmD">
             Fru talman! Tack för svaret, statsrådet!
           </seg>
-        </u>
-        <u xml:id="i-8rfw8RA9XJKm4xouc9P6R7" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-MMjj249KznbFFs3ruzfpyn" next="i-PdESepJQtzUSexxqVvCRJh">
           <seg xml:id="i-AdzrprCTYRaXQb6ATKRF8Z">
             Det vi diskuterar nu är en världsbild som regeringen och Trafikverket
             beskriver. Men vi har också en världsbild där ute där de som nyttjar
@@ -913,7 +879,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=6"/>
-        <u xml:id="i-PdESepJQtzUSexxqVvCRJh" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-8rfw8RA9XJKm4xouc9P6R7" next="i-paauXRaZyyLF7eUZdtuFa">
+        <u xml:id="i-PdESepJQtzUSexxqVvCRJh" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-MMjj249KznbFFs3ruzfpyn">
           <seg xml:id="i-EUY8dEkhYVBYGKbYitFPgJ">
             Det är människor som sitter och kör 8 000–10 000 mil om året
             och kanske har 20–30 års yrkeserfarenhet bakom sig. Många av dem
@@ -921,15 +887,11 @@
             säga att deras intryck av väghållningen inte stämmer är direkt
             att undervärdera deras kunskap.
           </seg>
-        </u>
-        <u xml:id="i-paauXRaZyyLF7eUZdtuFa" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-PdESepJQtzUSexxqVvCRJh" next="i-GtBa4PeRFfxG21gJXEQc8o">
           <seg xml:id="i-ABPSQ4RUAhcy4LnuoyeNtT">
             Trafikverket slår ifrån sig. Deras presschef vill inte ens kännas
             vid den kritik som finns där ute. Det har varit åtskilliga inlägg
             där både yrkesförare och andra har påtalat att det inte fungerar.
           </seg>
-        </u>
-        <u xml:id="i-GtBa4PeRFfxG21gJXEQc8o" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-paauXRaZyyLF7eUZdtuFa" next="i-C7y2kjtURJXmEWoJkgdPcs">
           <seg xml:id="i-MFQRQWi3xSJTSRGHZSKGsv">
             Man hänger upp alltihop på den elektroniska meteorologen som
             står i diket. Den är oftast alldeles för sen. Det må vara att
@@ -937,8 +899,6 @@
             tar till sig informationen vid en dataskärm inte förstår att läsa
             ut vad som faktiskt händer.
           </seg>
-        </u>
-        <u xml:id="i-C7y2kjtURJXmEWoJkgdPcs" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-GtBa4PeRFfxG21gJXEQc8o" next="i-WWWLJSwFWFgd7NR9Epb4aa">
           <seg xml:id="i-QB5d7S6ZYGPPTc1htCNK2">
             Som statsrådet säkerligen förstår får jag många kommentarer från
             yrkesförare där ute som ser hurdant det är, och det får jag även
@@ -949,8 +909,6 @@
             är jättebra. Men det är alldeles uppenbart att de inte reder ut
             det rent praktiskt för att hålla en god standard.
           </seg>
-        </u>
-        <u xml:id="i-WWWLJSwFWFgd7NR9Epb4aa" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-C7y2kjtURJXmEWoJkgdPcs" next="i-8gn2SXYQx8rbuGbriudX4x">
           <seg xml:id="i-LVQSpH68q9282tUpRJYC5Z">
             Så här skriver en av dem som plogar, och det var kvällen före
             julafton: Cirka klockan 18.00 ringde jag till jourhavande gällande
@@ -966,16 +924,12 @@
             varv. Det resulterade i att allt frös till is på vägen. Vi var
             chanslösa till att lösa bra körbara vägar innan jul.
           </seg>
-        </u>
-        <u xml:id="i-8gn2SXYQx8rbuGbriudX4x" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-WWWLJSwFWFgd7NR9Epb4aa" next="i-7TMTJ6w5z7DtLq9kcYrcxa">
           <seg xml:id="i-KYzLen8cXenm1SDKssuiG2">
             Det är så det går till där ute. Det är den verkligheten som utförarna
             tampas med varje dag. Det är något som inte fungerar hos Trafikverket.
             Här måste regeringen peka med hela handen och säga: Vi måste få
             en bättre ordning på vinterväghållningen.
           </seg>
-        </u>
-        <u xml:id="i-7TMTJ6w5z7DtLq9kcYrcxa" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-8gn2SXYQx8rbuGbriudX4x" next="i-3BGdMvTzRx53q8rdh1FMW3">
           <seg xml:id="i-UD4HFdyccdxiyEsX8m3wJR">
             Vi talar om människor där ute som riskerar att dö. Yrkesförare
             som har vägen som sin arbetsplats måste ha rimliga villkor. Vägen
@@ -983,8 +937,6 @@
             styra och bromsa. De ska inte beskriva sin arbetsplats – för det
             är en arbetsplats – som en skridskobana.
           </seg>
-        </u>
-        <u xml:id="i-3BGdMvTzRx53q8rdh1FMW3" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-7TMTJ6w5z7DtLq9kcYrcxa">
           <seg xml:id="i-5kxUTqo3T88PoUjTrG4XEq">
             Det hjälper inte att sätta på alldeles nya vinterdäck, för det
             biter inte på ett sådant underlag. Man kan säga: Fine, då ställer
@@ -1004,15 +956,13 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=7"/>
-        <u xml:id="i-QeLaP7J5YmT8g5KNWoS1CB" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-B8JvmJ57PPw5u7QBtg418t" next="i-2CwvimgfHRX1QAMVL7M2Ca">
+        <u xml:id="i-QeLaP7J5YmT8g5KNWoS1CB" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-B8JvmJ57PPw5u7QBtg418t">
           <seg xml:id="i-2foUD5Dvh5KannZeZqdQN6">
             Ibland är det ett väglag som till och med den mest sofistikerade
             halkbekämpning har stora utmaningar med. Så är det när vi lever
             i ett nordligt land som Sverige. Vi får ibland lyssna på Trafikverkets
             signaler som säger: Håll er borta från vägarna just nu !
           </seg>
-        </u>
-        <u xml:id="i-2CwvimgfHRX1QAMVL7M2Ca" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-QeLaP7J5YmT8g5KNWoS1CB" next="i-JPEj2jTU6zhVPkXbqJhJBt">
           <seg xml:id="i-X2dXgQEoQ4a8efKymJaspD">
             Det är en oro jag kan känna när vi talar om arbetsförhållanden
             för landets yrkeschaufförer. Med alltmer slimmade tider, kör-
@@ -1020,16 +970,12 @@
             risk att man stressas att ändå köra för att hinna fram i tid eftersom
             leverantörerna ska ha fram godset.
           </seg>
-        </u>
-        <u xml:id="i-JPEj2jTU6zhVPkXbqJhJBt" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-2CwvimgfHRX1QAMVL7M2Ca" next="i-QtswFX6Z5kiXLQLbdevezU">
           <seg xml:id="i-Fa5krmGc1wyVQn8RHwUvFb">
             Jag har själv jobbat med godsleveranser på ett industriföretag
             hemma i Småland. Jag kommer ihåg hur ivrig jag själv var. Godset
             måste fram. Vi har ju lovat att det ska komma till Läreda i Hässleholm.
             Och så skjutsade vi i väg det.
           </seg>
-        </u>
-        <u xml:id="i-QtswFX6Z5kiXLQLbdevezU" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-JPEj2jTU6zhVPkXbqJhJBt" next="i-X8LbLZjKfrHGu1AzQepYqp">
           <seg xml:id="i-evbabBtUqwfuT9bbU7rz8">
             Det är viktigt att vi inser att det ibland finns begränsningar
             och att liv och hälsa måste komma främst. Det synsättet har lett
@@ -1037,31 +983,23 @@
             på 70-talet. Då hade vi 1 300 döda i trafiken. I dag är antalet
             nere i under 200 enligt de senaste siffrorna.
           </seg>
-        </u>
-        <u xml:id="i-X8LbLZjKfrHGu1AzQepYqp" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-QtswFX6Z5kiXLQLbdevezU" next="i-Gg4CYqDqr5jb3eRyURKuSZ">
           <seg xml:id="i-QVZ1qZb5cPAdnurbpgZ5w9">
             Det har varit ett framgångsrikt arbete. Det är i kombination
             med mer resurser för halkbekämpning och användning av modern teknik.
             Men det handlar också om att göra rätt prioriteringar.
           </seg>
-        </u>
-        <u xml:id="i-Gg4CYqDqr5jb3eRyURKuSZ" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-X8LbLZjKfrHGu1AzQepYqp" next="i-54UTWv1R7ZYXaMv8r6KF2a">
           <seg xml:id="i-5nDTG6ao5jNgeBkvLHJfZm">
             Jag säger inte att man inte ska ta till vara den gedigna erfarenhet
             som finns. Man ska lyssna in inte minst erfarenheter från yrkeschaufförer
             och åkerier. Det är viktigt att Trafikverket har en väldigt bra
             dialog.
           </seg>
-        </u>
-        <u xml:id="i-54UTWv1R7ZYXaMv8r6KF2a" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-Gg4CYqDqr5jb3eRyURKuSZ" next="i-FgG4qHAgGuNJXfDo2jBp6S">
           <seg xml:id="i-4wGqvwXr7x3PvRFuH3r3VT">
             Men vi ska akta oss för en ordning där riksdagen eller regeringen
             börjar gå in i detalj och tala om hur halkbekämpningen ska vara.
             Vi tillskjuter resurser och är tydliga med vilka krav som ska
             finnas.
           </seg>
-        </u>
-        <u xml:id="i-FgG4qHAgGuNJXfDo2jBp6S" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-54UTWv1R7ZYXaMv8r6KF2a" next="i-Kmz6VEjYuz6QU4FUA2WesZ">
           <seg xml:id="i-ThqR1X5sMwGYbHWqsZ9Erw">
             Det finns tydliga krav på vilka mål som ska finnas för alla olika
             typer av vägsträckor. Det uppdraget har man. Det är till och med
@@ -1069,8 +1007,6 @@
             mellan Trafikverket och de enskilda åkeriföretagen är, att det
             finns tredjepartskontroller.
           </seg>
-        </u>
-        <u xml:id="i-Kmz6VEjYuz6QU4FUA2WesZ" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-FgG4qHAgGuNJXfDo2jBp6S" next="i-RTvSzVsGpzTQJQsr8zmKra">
           <seg xml:id="i-3fY1jMLgYgFLrfYVBvfQ4Z">
             Där går en helt oberoende aktör in och kontrollerar: Hur ser
             det ut? Har man gjort rätt avvägningar? Det är mycket pengar vi
@@ -1078,15 +1014,11 @@
             1 696 miljarder år 2020. Det är lite beroende på hur mycket snö,
             is och halka det är.
           </seg>
-        </u>
-        <u xml:id="i-RTvSzVsGpzTQJQsr8zmKra" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-Kmz6VEjYuz6QU4FUA2WesZ" next="i-HiscH9Hgse7v4prn3gC5PB">
           <seg xml:id="i-GB7ohSHKG8fy4krYv1FJHu">
             Det viktiga är att vi har en så bra halkbekämpning som möjligt.
             Den ska vara väl fungerande i hela landet och särskilt på de stråk
             där det är mycket trafik.
           </seg>
-        </u>
-        <u xml:id="i-HiscH9Hgse7v4prn3gC5PB" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-RTvSzVsGpzTQJQsr8zmKra" next="i-H2p4FrgALQavAUenFZzMHk">
           <seg xml:id="i-7JYqFWeWJAWFhAk63m59mq">
             Den här vintern har det varit flera tillfällen med temperaturer
             kring 0 grader och ganska svårbedömt. Vi har också alla, som Thomas
@@ -1094,8 +1026,6 @@
             även de tunga fordonen och lastbilarna ha vinterdäck. Sådana krav
             fanns inte förr i tiden.
           </seg>
-        </u>
-        <u xml:id="i-H2p4FrgALQavAUenFZzMHk" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-HiscH9Hgse7v4prn3gC5PB" next="i-SjTZL8kSMvCQYknG6EhZdK">
           <seg xml:id="i-LekWjjrFMERDiqHmsqBsSj">
             När vi drev fram det från regeringens sida vad det flera som
             var motståndare. De tyckte att vi nu lade på ekonomiska bördor.
@@ -1104,8 +1034,6 @@
             krav även på utländska lastbilar som kommer på svenska vägar.
             De ska ha vinterdäck för att köra.
           </seg>
-        </u>
-        <u xml:id="i-SjTZL8kSMvCQYknG6EhZdK" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-H2p4FrgALQavAUenFZzMHk">
           <seg xml:id="i-PiUF3cZu1a9cxhjhkeVtqH">
             Det finns säkert mer att göra. Det är ett fantastiskt utvecklingsarbete
             som Trafikverket har. Jag förutsätter att det gör det tillsammans
@@ -1119,12 +1047,10 @@
         <note xml:id="i-RYoMWqKoYb1fau4VCWxgzv" type="speaker">
           Anf. 6 THOMAS MORELL (SD):
         </note>
-        <u xml:id="i-XVHZuFUNgjZLEeT8jgEun2" who="i-G9Ze2ayHon2kkwVgXWott8" next="i-2kkRpCRm1LoHMPY2FMwDsB">
+        <u xml:id="i-XVHZuFUNgjZLEeT8jgEun2" who="i-G9Ze2ayHon2kkwVgXWott8">
           <seg xml:id="i-Bp7SJGLmWozcBwjkrfgTf4">
             Fru talman! Tack för svaret, statsrådet!
           </seg>
-        </u>
-        <u xml:id="i-2kkRpCRm1LoHMPY2FMwDsB" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-XVHZuFUNgjZLEeT8jgEun2" next="i-8nre2GxXQgYoosRQ9wc4St">
           <seg xml:id="i-Ui1LRg6c1J3Je3u7tumieP">
             Självklart kan riksdag och regering ha synpunkter om vinterväghållningen
             inte fungerar. När en hel bransch berättar hur illa ställt det
@@ -1134,8 +1060,6 @@
             på det . Vi pratar ju ändå om människor s liv och hälsa ute på
             vägen.
           </seg>
-        </u>
-        <u xml:id="i-8nre2GxXQgYoosRQ9wc4St" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-2kkRpCRm1LoHMPY2FMwDsB" next="i-T6c9JgwrHv98WZc6bWAGn6">
           <seg xml:id="i-4AHKbnspiP9JAKKWBBMa7K">
             Att det sedan var betydligt fler människor som omkom i trafikolyckor
             på 70-talet är inte så konstigt; då hade vi ju just infört bälteskrav,
@@ -1146,8 +1070,6 @@
             har bälte på sig. De förutsättningarna fanns inte på 70-talet
             och inte heller in på 80-talet förrän ungefär i mitten av det.
           </seg>
-        </u>
-        <u xml:id="i-T6c9JgwrHv98WZc6bWAGn6" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-8nre2GxXQgYoosRQ9wc4St" next="i-HwsE4fK49ea9UHBUTmmy9U">
           <seg xml:id="i-8ux5RXRefsKpJK9L191NYM">
             Det innebär inte att vi på något sätt ska tycka att vi nu har
             kommit så långt att vi inte behöver göra mer. Jag tycker att det
@@ -1155,8 +1077,6 @@
             som utför jobbet på vägen säger att vinterväghållningen inte fungerar.
             Då måste man agera.
           </seg>
-        </u>
-        <u xml:id="i-HwsE4fK49ea9UHBUTmmy9U" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-T6c9JgwrHv98WZc6bWAGn6">
           <seg xml:id="i-G8EJKcWhYFM4zUaexizFR3">
             Man måste ta de yrkesförare som är där ute och berättar hur deras
             vardag är på fullaste allvar. Man kan inte säga som Trafikverkets
@@ -1170,7 +1090,7 @@
         <note xml:id="i-3q9FZgLVcu4wMp4qH7814T" type="speaker">
           Anf. 7 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-DvK3quzmZX6Xmnoueukk3D" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-EXp3D6cUTm9bAAQ5h89qnf">
+        <u xml:id="i-DvK3quzmZX6Xmnoueukk3D" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-HVQSBo8af2WbUuPtYErA4c">
           <seg xml:id="i-8AJWrJ6n4kMqmi4uwdNyDF">
             Fru talman! Jag tror att vi båda, Thomas Morell, har utgångspunkten
             att det ska vara en så bra halkbekämpning som möjligt. Det tycker
@@ -1179,8 +1099,6 @@
             över det starka engagemang som finns i trafiksäkerhetsarbetet
             i Sverige.
           </seg>
-        </u>
-        <u xml:id="i-EXp3D6cUTm9bAAQ5h89qnf" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-DvK3quzmZX6Xmnoueukk3D" next="i-KAsM2WwNfv2NXXWEkXvr7x">
           <seg xml:id="i-UDFE88vRuE7E8D2YnSjHsx">
             Det är därför jag tycker att det är bra när nu Trafikverket har
             projekt tillsammans med Volvo. Jag vet att också Scania har lastbilar
@@ -1189,8 +1107,6 @@
             få reda på hur vägarna faktiskt ser ut. Det är helt andra mätmöjligheter
             än vad vi någonsin tidigare har haft.
           </seg>
-        </u>
-        <u xml:id="i-KAsM2WwNfv2NXXWEkXvr7x" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-EXp3D6cUTm9bAAQ5h89qnf" next="i-L2pn6j3fLMiu9rXxwqRzjd">
           <seg xml:id="i-Mo897LnJX82wHwp9Qt7F3B">
             Jag tror att man ska akta sig för att idyllisera hur det var
             förut, när en vägmästare åkte ut och kände på vägen och gjorde
@@ -1201,8 +1117,6 @@
             om: att så effektivt som möjligt använda både ny teknik och beprövad
             erfarenhet för att göra en bra halkbekämpning.
           </seg>
-        </u>
-        <u xml:id="i-L2pn6j3fLMiu9rXxwqRzjd" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-KAsM2WwNfv2NXXWEkXvr7x" next="i-HVQSBo8af2WbUuPtYErA4c">
           <seg xml:id="i-4CYQv89zmyAxEgjbNnKMSL">
             Jag är optimist. Jag är optimist utifrån att det faktiskt är
             färre döda i trafiken än tidigare. Det är en tryggare trafiksituation.
@@ -1214,7 +1128,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=9"/>
-        <u xml:id="i-HVQSBo8af2WbUuPtYErA4c" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-L2pn6j3fLMiu9rXxwqRzjd">
+        <u xml:id="i-HVQSBo8af2WbUuPtYErA4c" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-DvK3quzmZX6Xmnoueukk3D">
           <seg xml:id="i-R8GDvVVkegB1sdRVnmLYb9">
             Det kan säkert finnas olika synpunkter på i vilken utsträckning
             och hur mycket man ska använda digitala mätstationer. Jag har
@@ -1236,19 +1150,15 @@
         <note xml:id="i-7YFyYiK34V12ptQcaCzf6i" type="speaker">
           Anf. 8 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-JE9YUMqcX8nyZsceZEX7xv" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-BQuTbDwFeMTvb3VHP4c8Z1">
+        <u xml:id="i-JE9YUMqcX8nyZsceZEX7xv" who="i-G8564CqEnhC5PBjZSwUxsE">
           <seg xml:id="i-5aC7rHSudUwF7jXVB5wuyU">
             Fru talman! Bengt Eliasson har ställt flera frågor till mig om
             reglerna för rätt en till färdtjänst.
           </seg>
-        </u>
-        <u xml:id="i-BQuTbDwFeMTvb3VHP4c8Z1" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-JE9YUMqcX8nyZsceZEX7xv" next="i-Vja52Wtmv6gsLUoVpXnCfh">
           <seg xml:id="i-PBZQKuRmgAhRmd9NmoWtq6">
             Jag vill inledningsvis påpeka att ett statsråd inte bör uttala
             sig om en domstols bedömning av tillämpningen av en lag.
           </seg>
-        </u>
-        <u xml:id="i-Vja52Wtmv6gsLUoVpXnCfh" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-BQuTbDwFeMTvb3VHP4c8Z1" next="i-5ZcyK4bdEM9zcQc3kbzjLv">
           <seg xml:id="i-JuNmBc58CQmzig1mkrhX3Q">
             En färdtjänst av god kvalitet är ett kommunalt och regionalt
             ansvar. Färdtjänstlagen ställer inte upp något hinder för en mer
@@ -1256,8 +1166,6 @@
             kollektivtrafikmyndigheter. K ommunen eller den regionala kollektivtrafikmyndigheten
             svarar gentemot invånarna för att färdtjänst av god kvalitet anordnas.
           </seg>
-        </u>
-        <u xml:id="i-5ZcyK4bdEM9zcQc3kbzjLv" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-Vja52Wtmv6gsLUoVpXnCfh">
           <seg xml:id="i-Dwtjy9pXJ6PNp6HE7daBTS">
             Jag noterar dock med viss oro de rapporter som inkommit gällande
             nekad rätt till färdtjänst för synskadade, och jag följer mycket
@@ -1269,7 +1177,7 @@
         <note xml:id="i-DHEEp1KBDPqC9TKNFZNcVq" type="speaker">
           Anf. 9 BENGT ELIASSON (L):
         </note>
-        <u xml:id="i-MA2SnxnM3gBDjAyxsmGqVg" who="i-VGvz17reDhSXFdrtvk1pwq" next="i-8MRxFVXk24fSQwCUi5MrWH">
+        <u xml:id="i-MA2SnxnM3gBDjAyxsmGqVg" who="i-VGvz17reDhSXFdrtvk1pwq" next="i-XfJTjgH7dsLfKz8mVtNioT">
           <seg xml:id="i-M1tcJphBSEwwcXRDDSF5QL">
             Fru talman! Tack, infrastrukturministern, för svaret! Enligt
             färdtjänstlagen beviljas tillstånd till färdtjänst för personer
@@ -1277,8 +1185,6 @@
             har väsentliga svårigheter att förflytta sig på egen hand eller
             att resa med allmänna kommunikationsmedel.
           </seg>
-        </u>
-        <u xml:id="i-8MRxFVXk24fSQwCUi5MrWH" who="i-VGvz17reDhSXFdrtvk1pwq" prev="i-MA2SnxnM3gBDjAyxsmGqVg" next="i-KqdNrgpmboUJWhkJN3ZzYK">
           <seg xml:id="i-XeuCX9rGodw5tRc6Nu9vvH">
             Det är just orden ”väsentliga svårigheter” som är grunden och
             kärnan i debatten i dag. Den handlar om en ung man som heter Vilmer
@@ -1289,8 +1195,6 @@
             att det i vissa fall är förenat med livsfara för honom att röra
             sig ute i trafikmiljön.
           </seg>
-        </u>
-        <u xml:id="i-KqdNrgpmboUJWhkJN3ZzYK" who="i-VGvz17reDhSXFdrtvk1pwq" prev="i-8MRxFVXk24fSQwCUi5MrWH" next="i-Wn4RaEixrhGLVJ96FTAbtc">
           <seg xml:id="i-JZkcTAdiCKgijW5WEMFV6n">
             Förvaltningsrätten påstår att det inte är uteslutet att han skulle
             kunna lära sig alla sträckor som han behöver utantill. Nu har
@@ -1298,8 +1202,6 @@
             Vilmer Bäckman prövningstillstånd. Högsta förvaltningsdomstolen
             kommer alltså inte att ta upp fallet.
           </seg>
-        </u>
-        <u xml:id="i-Wn4RaEixrhGLVJ96FTAbtc" who="i-VGvz17reDhSXFdrtvk1pwq" prev="i-KqdNrgpmboUJWhkJN3ZzYK" next="i-XfJTjgH7dsLfKz8mVtNioT">
           <seg xml:id="i-AXy2YZX3RSnr7QHPNr75wp">
             Jag instämmer helt och hållet i statsrådets bedömning att det
             inte är vår sak att recensera eller ha synpunkter på hur domstolar
@@ -1311,14 +1213,12 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=10"/>
-        <u xml:id="i-XfJTjgH7dsLfKz8mVtNioT" who="i-VGvz17reDhSXFdrtvk1pwq" prev="i-Wn4RaEixrhGLVJ96FTAbtc" next="i-5auR2195PK2QjiJ2VQ6JeU">
+        <u xml:id="i-XfJTjgH7dsLfKz8mVtNioT" who="i-VGvz17reDhSXFdrtvk1pwq" prev="i-MA2SnxnM3gBDjAyxsmGqVg">
           <seg xml:id="i-cB8SJ5xoN3xBYuJcZBXsd">
             Vilmers fall har redan fått konsekvenser. En rad kommuner har
             tagit det till intäkt för att avslå ansökningar eller dra in färdtjänsttillstånd.
             Domen har alltså fått orimliga konsekvenser.
           </seg>
-        </u>
-        <u xml:id="i-5auR2195PK2QjiJ2VQ6JeU" who="i-VGvz17reDhSXFdrtvk1pwq" prev="i-XfJTjgH7dsLfKz8mVtNioT" next="i-MsCxLoyemdUyUCQB1yhkCp">
           <seg xml:id="i-GQmJ4p7cLqFnKpUehFhduU">
             I landet finns tusentals synskadade som redan nu är ganska rädda
             för att deras färdtjänsttillstånd är i farozonen. Än så länge
@@ -1329,24 +1229,18 @@
             är alltså överhängande att en ny rätts- och beslutspraxis snabbt
             växer fram som allvarligt kan skada tilltron till systemet.
           </seg>
-        </u>
-        <u xml:id="i-MsCxLoyemdUyUCQB1yhkCp" who="i-VGvz17reDhSXFdrtvk1pwq" prev="i-5auR2195PK2QjiJ2VQ6JeU" next="i-CrBM5wZjr3g94zipHJwwp1">
           <seg xml:id="i-TKoiHMwhvmTEAyzzh2UZ6T">
             Frågan behandlas dessutom just nu i trafikutskottet, och där
             gör ett gott samarbete mellan riksdagens partier det möjligt att
             nå fram till ett beslut som är gynnande i de här delarna och att
             en översyn görs av lagstiftningen.
           </seg>
-        </u>
-        <u xml:id="i-CrBM5wZjr3g94zipHJwwp1" who="i-VGvz17reDhSXFdrtvk1pwq" prev="i-MsCxLoyemdUyUCQB1yhkCp" next="i-BJQNUphW5dU4mgxEGvniTe">
           <seg xml:id="i-XcqaWnimSv2dcEXVycp7oV">
             När jag hör statsrådets svar kan jag få intrycket att detta är
             kommuners och regioners fel och att de kan fatta vilka goda beslut
             de vill och alltid fatta bättre beslut än vad som görs. Men det
             är faktiskt lagstiftarens sak att följa lagstift ningen .
           </seg>
-        </u>
-        <u xml:id="i-BJQNUphW5dU4mgxEGvniTe" who="i-VGvz17reDhSXFdrtvk1pwq" prev="i-CrBM5wZjr3g94zipHJwwp1">
           <seg xml:id="i-Pik5B9HEp9xuyXKU8r74cQ">
             Därför ställer jag frågan återigen till statsrådet: Avser statsrådet
             att vidta åtgärder från nu gällande beslutspraxis, som ytterligare
@@ -1366,14 +1260,12 @@
         <note xml:id="i-2qs8Y6n1gHS7JobV6pYHdM" type="speaker">
           Anf. 11 PIA STEENSLAND (KD):
         </note>
-        <u xml:id="i-28UL9jeyoqdzgib2NRubRS" who="i-Fnk9Zpnk5sS5WYPNBLTPx3" next="i-AZeXrUnivEnFR45nw1SHSK">
+        <u xml:id="i-28UL9jeyoqdzgib2NRubRS" who="i-Fnk9Zpnk5sS5WYPNBLTPx3" next="i-MotmBbTpjRQg4JpxGp34w9">
           <seg xml:id="i-RffHb21W3rui4LsyrkBqGd">
             Fru talman! Jag tackar ledamoten Bengt Eliasson för att han väckt
             denna väldigt angelägna interpellation om färdtjänsten och den
             rättspraxis som utvecklas.
           </seg>
-        </u>
-        <u xml:id="i-AZeXrUnivEnFR45nw1SHSK" who="i-Fnk9Zpnk5sS5WYPNBLTPx3" prev="i-28UL9jeyoqdzgib2NRubRS" next="i-BxpzYRKobmqJzvV9tEjHVm">
           <seg xml:id="i-RkWMsBBzHsf9UqL9Lwyctu">
             Det är ju så att människor med funktionsnedsättning och då i
             synnerhet människor som har en synskada eller som är blinda är
@@ -1383,8 +1275,6 @@
             och handla, besöka vänner – helt enkelt göra det som vi tar för
             givet och som berikar våra liv.
           </seg>
-        </u>
-        <u xml:id="i-BxpzYRKobmqJzvV9tEjHVm" who="i-Fnk9Zpnk5sS5WYPNBLTPx3" prev="i-AZeXrUnivEnFR45nw1SHSK" next="i-AXZvtbpGaNmV8RmKhGa89T">
           <seg xml:id="i-SVVDHeHVoDY7UbJcCrafCF">
             Det är precis så som statsrådet beskriver det i sitt svar – ansvaret
             ligger fördelat på kommuner och regioner. Samtidigt är det vårt
@@ -1394,15 +1284,11 @@
             i samhället, menar jag att det är vår skyldighet att göra en översyn
             av detta.
           </seg>
-        </u>
-        <u xml:id="i-AXZvtbpGaNmV8RmKhGa89T" who="i-Fnk9Zpnk5sS5WYPNBLTPx3" prev="i-BxpzYRKobmqJzvV9tEjHVm" next="i-DXh3Hw8s4uHD6wzoszUDVd">
           <seg xml:id="i-3rNHd2U17MihpASa9qZkkk">
             Jag noterar att ministern säger att han är djupt orolig över
             situationen, och jag uppskattar det. Jag ser det som en möjlighet
             att hitta en väg framåt.
           </seg>
-        </u>
-        <u xml:id="i-DXh3Hw8s4uHD6wzoszUDVd" who="i-Fnk9Zpnk5sS5WYPNBLTPx3" prev="i-AXZvtbpGaNmV8RmKhGa89T" next="i-MotmBbTpjRQg4JpxGp34w9">
           <seg xml:id="i-7CCU7GL3fFgXJDXzJDZT4U">
             Jag kan bara föreställa mig hur det känns om man är blind att
             få höra att det inte går att utesluta att man kan lära sig alla
@@ -1414,7 +1300,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=11"/>
-        <u xml:id="i-MotmBbTpjRQg4JpxGp34w9" who="i-Fnk9Zpnk5sS5WYPNBLTPx3" prev="i-DXh3Hw8s4uHD6wzoszUDVd" next="i-VY9okz14LZZcULy1snZpx9">
+        <u xml:id="i-MotmBbTpjRQg4JpxGp34w9" who="i-Fnk9Zpnk5sS5WYPNBLTPx3" prev="i-28UL9jeyoqdzgib2NRubRS">
           <seg xml:id="i-MqmrN2mbRZbyY6dP8v34Lg">
             Jag menar också att inlärningsprocessen blir svårare och svårare,
             fru talman, i och med att vi ser en rättspraxis inom ledsagning
@@ -1422,15 +1308,11 @@
             Jag har svårt att se framför mig hur man ska kunna lära sig sträckorna
             utantill om man kanske därtill inte får ledsagning under den processen.
           </seg>
-        </u>
-        <u xml:id="i-VY9okz14LZZcULy1snZpx9" who="i-Fnk9Zpnk5sS5WYPNBLTPx3" prev="i-MotmBbTpjRQg4JpxGp34w9" next="i-LtELpEcsFqnxxK4TcqKtuF">
           <seg xml:id="i-Nw7CfEHcL6TmQcCn8ZwSB3">
             Från Kristdemokraternas sida tycker vi att det är oerhört angeläget
             att se över den rättspraxis som nu håller på att utvecklas och
             som drabbar de här människorna hårt.
           </seg>
-        </u>
-        <u xml:id="i-LtELpEcsFqnxxK4TcqKtuF" who="i-Fnk9Zpnk5sS5WYPNBLTPx3" prev="i-VY9okz14LZZcULy1snZpx9">
           <seg xml:id="i-NEmi6D9vYSpj41NDnmkjns">
             Utifrån svaret att regeringen inte utesluter att agera undrar
             jag om regeringen och statsrådet är villiga att ta initiativ till
@@ -1443,14 +1325,12 @@
         <note xml:id="i-6dsDGMRHDXWzt4gqNRnFCH" type="speaker">
           Anf. 12 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-MJxcDEkoJBQT2eYv3GSPZD" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-LeZfmcZAqfnvMR4NQyd74C">
+        <u xml:id="i-MJxcDEkoJBQT2eYv3GSPZD" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-3dobS47ksARM6ScA4A5Cry">
           <seg xml:id="i-QCuXW3iqSLY3xjdusDthd7">
             Fru talman! Tack till Bengt Eliasson och Pia Steensland! Inte
             minst Bengt Eliassons engagemang i de här frågorna är väl känt.
             Jag uppskattar det verkligen.
           </seg>
-        </u>
-        <u xml:id="i-LeZfmcZAqfnvMR4NQyd74C" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-MJxcDEkoJBQT2eYv3GSPZD" next="i-8Bq5wm3jaumb8GzSt5eRiG">
           <seg xml:id="i-SdyNVbrVHco3f1dJ3bWTDf">
             Det här är frågor som ligger också mig varmt om hjärtat. Det
             är så otroligt viktigt att det här är rättigheter som ska komma
@@ -1461,8 +1341,6 @@
             och som vi ska vara stolta över. Här skiljer sig Sverige från
             många andra länder.
           </seg>
-        </u>
-        <u xml:id="i-8Bq5wm3jaumb8GzSt5eRiG" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-LeZfmcZAqfnvMR4NQyd74C" next="i-2M3fzitaGvzpgWsdSoT7LZ">
           <seg xml:id="i-Qs3AobHfAH8gcQwKzM4wRc">
             När de första domarna med den hårdare tillämpningen kom reagerade
             också jag. Det är ju inte en tillfällighet, om jag ska vara lite
@@ -1474,8 +1352,6 @@
             större möjligheter. Men i dessa två stora regioner har man valt
             en mycket tuffare tillämpning.
           </seg>
-        </u>
-        <u xml:id="i-2M3fzitaGvzpgWsdSoT7LZ" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-8Bq5wm3jaumb8GzSt5eRiG" next="i-U3Ks4KkfWMqwpSR7VPNd28">
           <seg xml:id="i-SMVK2AZhkj2z4qRcbdQH3y">
             Det här är regioner där Liberalerna och Kristdemokraterna faktiskt
             är ansvariga. Jag hoppas att ni vid sidan av den diskussion vi
@@ -1484,8 +1360,6 @@
             med de partikamrater till er som styr i Skåneregionen och i Stockholmsregionen,
             där man nu valt att göra en väldigt mycket tuffare tillämpning.
           </seg>
-        </u>
-        <u xml:id="i-U3Ks4KkfWMqwpSR7VPNd28" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-2M3fzitaGvzpgWsdSoT7LZ" next="i-5dpoEob6GMLQj63pkh9QRS">
           <seg xml:id="i-Xik1ormPPzqmqFjTwBZR1h">
             Vi ska också komma ihåg att det inte är pengar det handlar om
             här. Kommuner och regioner hade förra året ett överskott på 51
@@ -1494,8 +1368,6 @@
             under pandemin, så det handlar inte om stora pengar om man nu
             vill göra en generösare tillämpning.
           </seg>
-        </u>
-        <u xml:id="i-5dpoEob6GMLQj63pkh9QRS" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-U3Ks4KkfWMqwpSR7VPNd28" next="i-3dobS47ksARM6ScA4A5Cry">
           <seg xml:id="i-XGhiDjCxWrbRhQw1ggJwM3">
             Jag är orolig att det i stället handlar om en mycket njuggare
             syn på funktionshindrades rätt i samhället. Jag tycker att det
@@ -1507,7 +1379,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=12"/>
-        <u xml:id="i-3dobS47ksARM6ScA4A5Cry" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-5dpoEob6GMLQj63pkh9QRS" next="i-VhHXx5KbZ4r3zRZkXgPEec">
+        <u xml:id="i-3dobS47ksARM6ScA4A5Cry" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-MJxcDEkoJBQT2eYv3GSPZD">
           <seg xml:id="i-BZk3KF6TF1b7NCAKva7cH1">
             Med det sagt ska man också ge en annan bild. Jag tror att det
             är viktigt för dem som följer den här debatten. När vi t ittar
@@ -1519,8 +1391,6 @@
             personer med synskador som i detta fall, som kanske får dåligt
             bemötande och inte får den grundläggande rätten till tillgänglighet.
           </seg>
-        </u>
-        <u xml:id="i-VhHXx5KbZ4r3zRZkXgPEec" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-3dobS47ksARM6ScA4A5Cry" next="i-7VAMyUDGXZPnmRYMu8kSYF">
           <seg xml:id="i-2ioyMMwfhsSvzwVGGEmsQt">
             Man kan ännu inte säga att det utvecklats en rättspraxis utifrån
             en enskild dom; det tror jag att alla här förstår. Men det är
@@ -1528,8 +1398,6 @@
             sida säger att jag inte utesluter att vi kan komma att behöva
             vidta ytterligare åtgärder för att förtydliga detta.
           </seg>
-        </u>
-        <u xml:id="i-7VAMyUDGXZPnmRYMu8kSYF" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-VhHXx5KbZ4r3zRZkXgPEec" next="i-3MAtaKfnFqzZgjmF1QP3e7">
           <seg xml:id="i-PD8hompK8GwRqkMx9AmMNo">
             Jag tycker att det är beklagligt när det är så uppenbart tydligt
             att det är i två regioner som man går fram och har en striktare
@@ -1541,8 +1409,6 @@
             eller i Skåneregionen, utan vi ska se till att man har en likartad
             tillämpning.
           </seg>
-        </u>
-        <u xml:id="i-3MAtaKfnFqzZgjmF1QP3e7" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-7VAMyUDGXZPnmRYMu8kSYF">
           <seg xml:id="i-WZpS5ukeJAq8R8ZJRFjYEh">
             Jag uppskattar engagemanget och vill signalera tydligt till er
             att vi naturligtvis har beredskap att ytterligare stärka funktionshindrades
@@ -1554,7 +1420,7 @@
         <note xml:id="i-2eo7YkT3SL3xYZgmkJFdwZ" type="speaker">
           Anf. 13 BENGT ELIASSON (L):
         </note>
-        <u xml:id="i-PuCgb1aDaBRwHUwirN28gr" who="i-VGvz17reDhSXFdrtvk1pwq" next="i-6LgSZzwjSuFi68Sif8umSg">
+        <u xml:id="i-PuCgb1aDaBRwHUwirN28gr" who="i-VGvz17reDhSXFdrtvk1pwq" next="i-5o4LKBcbyNVxuEqoBYRxSN">
           <seg xml:id="i-KVxXrYBt497RoLVCTAQMgM">
             Fru talman! Tack, statsrådet, för svaret! Jag kan försäkra statsrådet
             att i alla fall jag för en levande dialog med både kommunala och
@@ -1562,15 +1428,11 @@
             frågor för människors väl och ve, så den interna partidebatten
             för vi.
           </seg>
-        </u>
-        <u xml:id="i-6LgSZzwjSuFi68Sif8umSg" who="i-VGvz17reDhSXFdrtvk1pwq" prev="i-PuCgb1aDaBRwHUwirN28gr" next="i-YKmezP8ht3Wt2oSzbeAAkn">
           <seg xml:id="i-B7D3upEfpRrEosbHMZzo9t">
             Vi kan vara eniga, för jag märker ju att statsrådet håller med,
             om att den utveckling som är på väg att ske faktiskt går på tvärs
             mot regeringens och riksdagens funktionshinderspolitiska mål.
           </seg>
-        </u>
-        <u xml:id="i-YKmezP8ht3Wt2oSzbeAAkn" who="i-VGvz17reDhSXFdrtvk1pwq" prev="i-6LgSZzwjSuFi68Sif8umSg" next="i-G5kfjnXCFz33wDqRH5nN9n">
           <seg xml:id="i-Pom61Mfkc3AhA6zcJkVePi">
             Den går också emot FN:s konvention för människor med funktionsnedsättning,
             som formulerar just det vi diskuterar nu – rätten till rörlighet,
@@ -1581,8 +1443,6 @@
             tillgång till bra och användbara hjälpmedel, assistans och personlig
             service.
           </seg>
-        </u>
-        <u xml:id="i-G5kfjnXCFz33wDqRH5nN9n" who="i-VGvz17reDhSXFdrtvk1pwq" prev="i-YKmezP8ht3Wt2oSzbeAAkn" next="i-NYWynf8ZKHfwZTENSS5N95">
           <seg xml:id="i-QAb9kbsDQxprTkJ5kPreYv">
             Här är färdtjänsten en pusselbit, och man kanske har färdtjänst
             som är funktionell. Man kan ske till och med har kollektivtrafik
@@ -1590,8 +1450,6 @@
             och universellt utformad så att den är funktionell och bra för
             väldigt många, kanske till och med de allra flesta.
           </seg>
-        </u>
-        <u xml:id="i-NYWynf8ZKHfwZTENSS5N95" who="i-VGvz17reDhSXFdrtvk1pwq" prev="i-G5kfjnXCFz33wDqRH5nN9n" next="i-5o4LKBcbyNVxuEqoBYRxSN">
           <seg xml:id="i-Ca8txMc4EcEnQxVopEcGWX">
             Men så kommer de andra pusselbitarna: att man ska ta sig till
             och från, att man ska ha möjlighet att ha ledsagning, som kollegan
@@ -1602,7 +1460,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=13"/>
-        <u xml:id="i-5o4LKBcbyNVxuEqoBYRxSN" who="i-VGvz17reDhSXFdrtvk1pwq" prev="i-NYWynf8ZKHfwZTENSS5N95" next="i-VASzokiYdzvJ3o54sMC6sx">
+        <u xml:id="i-5o4LKBcbyNVxuEqoBYRxSN" who="i-VGvz17reDhSXFdrtvk1pwq" prev="i-PuCgb1aDaBRwHUwirN28gr">
           <seg xml:id="i-WqRstC88fDDkFqiJZwaQ31">
             Den verklighet som beskrivs i de avslagsbeslut som nu börjar
             komma in från flera platser i landet, inte bara i de två stora
@@ -1610,8 +1468,6 @@
             av är väldigt märklig. Målsättningen att det ska finnas en tillgänglig
             kollektivtrafik är inte alltid verklighet. Det är här det brister.
           </seg>
-        </u>
-        <u xml:id="i-VASzokiYdzvJ3o54sMC6sx" who="i-VGvz17reDhSXFdrtvk1pwq" prev="i-5o4LKBcbyNVxuEqoBYRxSN" next="i-FzihrbSuJizdfUED9Dsmcu">
           <seg xml:id="i-KqmZ9Tw8W9fjgQEFaPsFx7">
             Det har hänt väldigt mycket i form av universell utformning och
             tillgänglighetsarbete inom kollektivtrafiken som är väldigt bra;
@@ -1619,8 +1475,6 @@
             väljer helt klart att bortse från helheten, till exempel att personer
             behöver ta sig till och från kollektivtrafiken.
           </seg>
-        </u>
-        <u xml:id="i-FzihrbSuJizdfUED9Dsmcu" who="i-VGvz17reDhSXFdrtvk1pwq" prev="i-VASzokiYdzvJ3o54sMC6sx">
           <seg xml:id="i-CwXWWchMcadYUgsGa6kjE6">
             Att ta sig till okända platser på föränderliga vägar handlar
             återigen, fru talman, om lagtextens ”väsentliga svårigheter”.
@@ -1634,7 +1488,7 @@
         <note xml:id="i-BwtaVQqLWdf6rH4ThJiFZi" type="speaker">
           Anf. 14 PIA STEENSLAND (KD):
         </note>
-        <u xml:id="i-GuyfdYqaD8k74NYLGpBdSw" who="i-Fnk9Zpnk5sS5WYPNBLTPx3" next="i-QYEeWYQkWwLg4KmU29Lytw">
+        <u xml:id="i-GuyfdYqaD8k74NYLGpBdSw" who="i-Fnk9Zpnk5sS5WYPNBLTPx3">
           <seg xml:id="i-ToCh3FvhWbYSjngXw56siN">
             Fru talman! Tack, statsrådet, för svaret! Jag uppskattar verkligen
             att vi kan ha en dialog kring dessa väldigt angelägna frågor.
@@ -1642,8 +1496,6 @@
             har ständiga kontakter med våra partivänner ute i regioner och
             kommuner i dessa frågor.
           </seg>
-        </u>
-        <u xml:id="i-QYEeWYQkWwLg4KmU29Lytw" who="i-Fnk9Zpnk5sS5WYPNBLTPx3" prev="i-GuyfdYqaD8k74NYLGpBdSw" next="i-77Nf1nzJcBzYCGbVLvyLT3">
           <seg xml:id="i-Sp8jABviLwBgqKT6iS4xBD">
             Men jag vill ändå understryka vårt ansvar. Just när det gäller
             extra sårbara människor med funktionsnedsättningar som synskador
@@ -1655,8 +1507,6 @@
             av den praxis som har utvecklats väldigt snabbt, menar jag, fru
             talman, på flera håll i landet.
           </seg>
-        </u>
-        <u xml:id="i-77Nf1nzJcBzYCGbVLvyLT3" who="i-Fnk9Zpnk5sS5WYPNBLTPx3" prev="i-QYEeWYQkWwLg4KmU29Lytw" next="i-TpAbSbpWVXo2d5h5kgeqgK">
           <seg xml:id="i-Rn5iEK1GtAmPEJuVGCUhGM">
             Jag väljer att tolka statsrådets svar positivt och kommer att
             bevaka frågan noga. Precis som min kollega Bengt Eliasson sa har
@@ -1664,8 +1514,6 @@
             samarbete som är partiöverskridande, så jag är hoppfull om att
             vi kanske kan få lite stöd därifrån.
           </seg>
-        </u>
-        <u xml:id="i-TpAbSbpWVXo2d5h5kgeqgK" who="i-Fnk9Zpnk5sS5WYPNBLTPx3" prev="i-77Nf1nzJcBzYCGbVLvyLT3">
           <seg xml:id="i-AcQkyaDLyFpjFCcDKvY8rU">
             Jag tar alltså med mig ett hopp från denna debatt och kommer
             att följa frågan noga. Det är min förhoppning att människor som
@@ -1692,7 +1540,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=14"/>
-        <u xml:id="i-SqCaxtdLSQxo61rJ1DPRAE" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-2o7zaNjCAL8mnxsDPSDoET" next="i-2NNP2PrGTm6d6MvB5KQevV">
+        <u xml:id="i-SqCaxtdLSQxo61rJ1DPRAE" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-2o7zaNjCAL8mnxsDPSDoET">
           <seg xml:id="i-QZZPtN9ioNLVLveB1i3iYE">
             Men ibland kan jag tycka att det vore otroligt mycket mer värt
             om man i regionerna och kommunerna, där man har ansvaret för färdtjänsten,
@@ -1703,8 +1551,6 @@
             synskadade ska nekas rättigheter? Måste ni in i minsta detalj
             göra den striktaste tillämpningen?
           </seg>
-        </u>
-        <u xml:id="i-2NNP2PrGTm6d6MvB5KQevV" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-SqCaxtdLSQxo61rJ1DPRAE" next="i-QGuLYcx1behjSm2VfoiSV9">
           <seg xml:id="i-2c3TAUxDj7GxV2S8H89v8Y">
             Det är nämligen detta vi sett de senaste åren: en skärpning i
             tillämpningen som jag har väldigt svårt att förstå . Det grundläggande
@@ -1716,8 +1562,6 @@
             borde i stället komma till en folklig opinion för att tillförsäkra
             grundläggande rättigheter.
           </seg>
-        </u>
-        <u xml:id="i-QGuLYcx1behjSm2VfoiSV9" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-2NNP2PrGTm6d6MvB5KQevV" next="i-9MdED2AZJKuEYPzTvQZmy7">
           <seg xml:id="i-Fi2osyRZSYe5HPwU2GNMTD">
             Men, som sagt, för mig och regeringen är detta otroligt viktiga
             frågor. Det är också därför jag har tagit emot synpunkter från
@@ -1726,8 +1570,6 @@
             innebär att vi även på nationell nivå får stärka de synskadades
             eller funktionshindrades tillgång till transportsystemet.
           </seg>
-        </u>
-        <u xml:id="i-9MdED2AZJKuEYPzTvQZmy7" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-QGuLYcx1behjSm2VfoiSV9" next="i-Q4GBwZaZGfZDvmQBTr5avM">
           <seg xml:id="i-9gEFTJ7YzhDfGjzFMvLP3n">
             Men jag tycker också att vi som nationella politiker här har
             ett ansvar att se till att man i de regioner där man har utmanat
@@ -1735,16 +1577,12 @@
             det skett utifrån politiska signaler, eller handlar det om något
             annat slags tillämpning, som är striktare?
           </seg>
-        </u>
-        <u xml:id="i-Q4GBwZaZGfZDvmQBTr5avM" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-9MdED2AZJKuEYPzTvQZmy7" next="i-Wb7CLA3wZwZdMRVeDKmnQ5">
           <seg xml:id="i-FsiqoVPEE8ytYs6mf4d8i5">
             I grunden handlar detta inte bara om ett enskilt fall eller ärende
             eller om en person har rätt till färdtjänst eller inte. I grunden
             handlar det om vår människosyn och om möjligheten till tillgänglighet
             i hela samhället. Där har Sverige gjort en resa som är fantastisk.
           </seg>
-        </u>
-        <u xml:id="i-Wb7CLA3wZwZdMRVeDKmnQ5" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-Q4GBwZaZGfZDvmQBTr5avM" next="i-Cdf9ZPjDAr4d6zGDsSqnvX">
           <seg xml:id="i-BmZxUki79EMqmcUh9txRxg">
             Jag utredde själv funkisfrågorna en gång i tiden, på 90-talet,
             och kan bara se hur långt vi har kommit i samhället sedan dess
@@ -1754,8 +1592,6 @@
             resa kvar att göra, och vi måste vara noga med att reagera när
             det sker en förändring i tillämpningen.
           </seg>
-        </u>
-        <u xml:id="i-Cdf9ZPjDAr4d6zGDsSqnvX" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-Wb7CLA3wZwZdMRVeDKmnQ5">
           <seg xml:id="i-DjoTP3x9k9CL7EDcBsaJjf">
             Därför är jag också glad över debatten och hoppas att den som
             sådan påverkar diskussionen i kommuner och regioner, där man har
@@ -1784,7 +1620,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=15"/>
-        <u xml:id="i-QmFJUgzv9JsRzxD7VkxL3z" who="i-VGvz17reDhSXFdrtvk1pwq" prev="i-5kp2izEJ6t4pykQ3atA492" next="i-8a7aKuQUHSc8JfMkXtt5o">
+        <u xml:id="i-QmFJUgzv9JsRzxD7VkxL3z" who="i-VGvz17reDhSXFdrtvk1pwq" prev="i-5kp2izEJ6t4pykQ3atA492">
           <seg xml:id="i-XUE3eWTNofMp6DaboW8PM3">
             Att kommunerna har beslutsansvaret innebär inte att vi undgår
             ansvaret som lagstiftare. Det är vi som ska se till att vi har
@@ -1794,8 +1630,6 @@
             Det går inte, menar jag, att skylla på kommunerna. Man måste titta
             på lagstiftningen.
           </seg>
-        </u>
-        <u xml:id="i-8a7aKuQUHSc8JfMkXtt5o" who="i-VGvz17reDhSXFdrtvk1pwq" prev="i-QmFJUgzv9JsRzxD7VkxL3z">
           <seg xml:id="i-3X9R12sXvrazGXA4EMWeji">
             Fru talman! Att få sin tillvaro inskränkt genom beslut om neddragning
             eller rädsla för att själv drabbas innebär en stressande livssituation
@@ -1806,12 +1640,10 @@
         <note xml:id="i-Mj2c6QkzcyFfRvWEeRe1po" type="speaker">
           Anf. 17 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-F2fHUsyNHJqczUDTpfWfej" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-Nv5aqvTckXqxyP2nsxq3zg">
+        <u xml:id="i-F2fHUsyNHJqczUDTpfWfej" who="i-G8564CqEnhC5PBjZSwUxsE">
           <seg xml:id="i-XdM4xHT4Lp39S5JST3CrJH">
             Fru talman! Tack, Bengt Eliasson, för en bra interpellationsdebatt!
           </seg>
-        </u>
-        <u xml:id="i-Nv5aqvTckXqxyP2nsxq3zg" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-F2fHUsyNHJqczUDTpfWfej" next="i-PzkdNJ8xrARhSmbQWws2SP">
           <seg xml:id="i-W8sTLfrBNNM1f576ZvBWYF">
             Jag vill bara invända mot det sista som Bengt Eliasson sa. I
             väldigt mycket delar vi uppfattning här, det känner jag. Men skälet
@@ -1823,8 +1655,6 @@
             ganska ny företeelse att man har börjat pröva regelverken mer
             restriktivt än tidigare.
           </seg>
-        </u>
-        <u xml:id="i-PzkdNJ8xrARhSmbQWws2SP" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-Nv5aqvTckXqxyP2nsxq3zg" next="i-5EBdBg21A3cLwa3ZkMB6H1">
           <seg xml:id="i-QNdk1rrU9z8EB5fzP7rU2u">
             Jo, ansvaret vilar alltså på kommuner och regioner, för det är
             de som har ansvaret för färdtjänsten. Det var ju riksdagen som
@@ -1838,8 +1668,6 @@
             förfogande bör man ställa sig frågan: Varför sker det nu en striktare
             tillämpning och prövning? Vilka politiska signaler ligger bakom?
           </seg>
-        </u>
-        <u xml:id="i-5EBdBg21A3cLwa3ZkMB6H1" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-PzkdNJ8xrARhSmbQWws2SP">
           <seg xml:id="i-WYo9bxmMyVEs7aVZJ6y4KS">
             Även om vi kan önska, hoppas och tro att alla partier står bakom
             den syn på funktionshindrade som vi har kommer vi inte ifrån det
@@ -1865,7 +1693,7 @@
         <note xml:id="i-TyRsCPzUn9j8d3aA4GXRVw" type="speaker">
           Anf. 18 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-2JJgZ6j3eEAZb61tdoHoXZ" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-4KoWLh9qy9yfhsnnPzHFub">
+        <u xml:id="i-2JJgZ6j3eEAZb61tdoHoXZ" who="i-G8564CqEnhC5PBjZSwUxsE">
           <seg xml:id="i-Tqo4BzN7REL8PUrniPCHMk">
             Fru talman! Ulrik Bergman har frågat mig om jag kommer att ta
             några initiativ för att länsplaner som haft god framdrift i sitt
@@ -1875,8 +1703,6 @@
             till länsplanen så att väg 70 Särnaheden–Idre kan breddas och
             bli trafiksäkrare under planperioden 2022–2033.
           </seg>
-        </u>
-        <u xml:id="i-4KoWLh9qy9yfhsnnPzHFub" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-2JJgZ6j3eEAZb61tdoHoXZ" next="i-H1g1wzjcnsHFrrv4nbvthN">
           <seg xml:id="i-LepQz5tQPE79cQPpyNuBcM">
             Det finns många viktiga och angelägna åtgärder i transportinfrastrukturen
             att genomföra runt om i landet. I våras presenterade regeringen
@@ -1885,8 +1711,6 @@
             beräknas ramen uppgå till 881 miljarder kronor under den kommande
             planperioden 2022 – 2033.
           </seg>
-        </u>
-        <u xml:id="i-H1g1wzjcnsHFrrv4nbvthN" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-4KoWLh9qy9yfhsnnPzHFub" next="i-RSUmmMPqBXRvpPFDBcJPZb">
           <seg xml:id="i-FpN3hCF7mznvG4SqoccPPU">
             När regeringen gav Trafikverket och de nationella länsplaneupprättarna
             i uppdrag att ta fram förslag till nationell plan och länsplaner
@@ -1894,8 +1718,6 @@
             ska uppgå till drygt 42 miljarder kronor. Det är en ökning med
             8 procent jämfört med nuvarande planperiod.
           </seg>
-        </u>
-        <u xml:id="i-RSUmmMPqBXRvpPFDBcJPZb" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-H1g1wzjcnsHFrrv4nbvthN" next="i-LjeZkgeiN4tGXCMLBShbE7">
           <seg xml:id="i-Ua1LctnZLq8AneXbKGyPCj">
             Regeringen beslutar om ramarna till länen , och Trafikverket
             har i uppdrag att genomföra justeringar i samband med revidering
@@ -1904,8 +1726,6 @@
             den nationella planen och länsplanerna kommer att fastställas
             av regeringen genom beslut i nationell plan nu i vår.
           </seg>
-        </u>
-        <u xml:id="i-LjeZkgeiN4tGXCMLBShbE7" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-RSUmmMPqBXRvpPFDBcJPZb">
           <seg xml:id="i-to6vKyignV9MMe9zLEGRE">
             Prioriteringen av åtgärder på väg 70 mellan Särnaheden och Idre
             är en fråga för Region Dalarna. Det handlar om vilka prioriteringar
@@ -1915,15 +1735,13 @@
         <note xml:id="i-EHcU3exS1K9cJBC7zYV8ec" type="speaker">
           Anf. 19 ULRIK BERGMAN (M):
         </note>
-        <u xml:id="i-KBCnVnogRVEJwNhkXAKkEF" who="i-XBxAbUXD6Qpc9KmdA853AP" next="i-FSq1d7Mx5frAdpXYKhgp7h">
+        <u xml:id="i-KBCnVnogRVEJwNhkXAKkEF" who="i-XBxAbUXD6Qpc9KmdA853AP" next="i-BbfL4hVeiZ3e6WoTbPFGqx">
           <seg xml:id="i-NWmDgZe2bWDJyr1Fd1jQse">
             Fru talman! Bakgrunden till interpellationen är det faktum att
             de beslutade medlen till länsplanerna är en tunn strimma i totalen.
             Länsplanernas förverkligande är grundade i prioriteringar som
             görs på regional nivå.
           </seg>
-        </u>
-        <u xml:id="i-FSq1d7Mx5frAdpXYKhgp7h" who="i-XBxAbUXD6Qpc9KmdA853AP" prev="i-KBCnVnogRVEJwNhkXAKkEF" next="i-FdrQV9qGUFzi9vHw4Jgg7k">
           <seg xml:id="i-HoSj9oUzk49pvHRaufD6Bj">
             Näringsliv och boende måste funka i hela landet, och då har staten
             ett stort ansvar för att säkerställa att förutsättningarna blir
@@ -1935,8 +1753,6 @@
             Det är ett mastodontprojekt som beräknas kosta flera hundra miljarder
             kronor.
           </seg>
-        </u>
-        <u xml:id="i-FdrQV9qGUFzi9vHw4Jgg7k" who="i-XBxAbUXD6Qpc9KmdA853AP" prev="i-FSq1d7Mx5frAdpXYKhgp7h" next="i-BbfL4hVeiZ3e6WoTbPFGqx">
           <seg xml:id="i-WknnC4dKVS5gRvuoyqknq3">
             Väg 70 Särnaheden–Idre är ett konkret exempel som nu riskerar
             att inte genomföras under kommande planperiod. I området är det
@@ -1948,7 +1764,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=17"/>
-        <u xml:id="i-BbfL4hVeiZ3e6WoTbPFGqx" who="i-XBxAbUXD6Qpc9KmdA853AP" prev="i-FdrQV9qGUFzi9vHw4Jgg7k" next="i-FPbjkVc1ssv9RPA8Jv46Z3">
+        <u xml:id="i-BbfL4hVeiZ3e6WoTbPFGqx" who="i-XBxAbUXD6Qpc9KmdA853AP" prev="i-KBCnVnogRVEJwNhkXAKkEF">
           <seg xml:id="i-PAT8h4wSvXXdtNU7oapvcT">
             Väg 70 är mycket smal på det aktuella avsnittet, och tunga fordon
             har svårigheter att mötas på ett säkert sätt. Den 16 december
@@ -1965,8 +1781,6 @@
             ”Det är märkligt att beslutsfattarna inte tar situationen på allvar,
             med all byggtrafik och den ökade turistströmmen.”
           </seg>
-        </u>
-        <u xml:id="i-FPbjkVc1ssv9RPA8Jv46Z3" who="i-XBxAbUXD6Qpc9KmdA853AP" prev="i-BbfL4hVeiZ3e6WoTbPFGqx">
           <seg xml:id="i-4Zop1DTGE5qxMGLpnf6rPP">
             Fru talman! När vi får väckarklockor serverade är det dags att
             vakna. Min fråga är: Kommer statsrådet att dra några slutsatser
@@ -1977,23 +1791,19 @@
         <note xml:id="i-HPJ5dZcHh1e8FgxykFkTXJ" type="speaker">
           Anf. 20 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-17nBDMoCApai7gfdPAJugy" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-YGi1nTYTk1uCaPBijj9WYQ">
+        <u xml:id="i-17nBDMoCApai7gfdPAJugy" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-48B8rnTdXdEjJTREDqrzUo">
           <seg xml:id="i-DRJN6utdRw6aYq34w5jm1Y">
             Fru talman! Som jag avslutade mitt tidigare inlägg med är prioriteringarna
             inom länsplanens ram – den omfattar över 1 miljard – något som
             görs av Region Dalarna. Regeringen går inte in och omprioriterar
             medlen där.
           </seg>
-        </u>
-        <u xml:id="i-YGi1nTYTk1uCaPBijj9WYQ" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-17nBDMoCApai7gfdPAJugy" next="i-KRnBhPpcGyrd9VBRbAcr8h">
           <seg xml:id="i-Q7c9rCGkE6PJXnixJ7CwbV">
             I förslaget har nu regeringen höjt anslagen med 8 procent, så
             att Region Dalarna får över 1 miljard i anslag. Då har man möjlighet
             att inom ramen för det göra omfördelningar om man vill. Det är
             ett regionalt ansvar där staten inte går in och pekar.
           </seg>
-        </u>
-        <u xml:id="i-KRnBhPpcGyrd9VBRbAcr8h" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-YGi1nTYTk1uCaPBijj9WYQ" next="i-VY4Ch3V8vULzYLvPjXz3RN">
           <seg xml:id="i-X2ryNBbwPPh7mZ4hvDKazX">
             När det gäller resurserna totalt har vi aldrig någonsin tidigare
             lagt så mycket pengar på vägar och järnvägar i det här landet.
@@ -2001,8 +1811,6 @@
             är 197 miljarder. Det är en ordentlig satsning, vida överstigande
             de resurser som fanns på den tiden då vi hade en moderatledd regering.
           </seg>
-        </u>
-        <u xml:id="i-VY4Ch3V8vULzYLvPjXz3RN" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-KRnBhPpcGyrd9VBRbAcr8h" next="i-ajVUhS8xgT142bM74EBsy">
           <seg xml:id="i-5csGNgxkGhVQvxuqmKsFGW">
             Jag noterar att Ulrik Bergman ger en släng åt höghastighetstågen
             och menar att pengarna går dit. Det är ju inte sant! Jag tycker
@@ -2011,8 +1819,6 @@
             Göteborg–Borås, Lund–Hässleholm och Ostlänken, som är järnvägen
             från Linköping och Norrköping upp till Järna .
           </seg>
-        </u>
-        <u xml:id="i-ajVUhS8xgT142bM74EBsy" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-VY4Ch3V8vULzYLvPjXz3RN" next="i-5cFjhkvGhegunFVs6stwJA">
           <seg xml:id="i-MjFbrUUVH5surcHuQcNTRm">
             Det är sträckor som har stark förankring hos Moderaterna i Västsverige,
             i Skåne och i Östergötland. Jag måste i så fall fråga Ulrik Bergman
@@ -2020,8 +1826,6 @@
             Göteborg och Borås och mellan Lund och Hässleholm eller för den
             delen Ostlänken.
           </seg>
-        </u>
-        <u xml:id="i-5cFjhkvGhegunFVs6stwJA" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-ajVUhS8xgT142bM74EBsy" next="i-8TceCQRBoZEwvWypyuZ1Po">
           <seg xml:id="i-6Rx78GRKYRvkTZFfeVzcoQ">
             Vi ser till att ge utrymme för de viktiga satsningarna för att
             de regionerna ska kunna stärkas och få bättre järnvägstrafik,
@@ -2029,8 +1833,6 @@
             för att lägga mer pengar än någonsin på vägar. Vi ökar då länsplaneanslagen
             med 8 procent.
           </seg>
-        </u>
-        <u xml:id="i-8TceCQRBoZEwvWypyuZ1Po" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-5cFjhkvGhegunFVs6stwJA" next="i-48B8rnTdXdEjJTREDqrzUo">
           <seg xml:id="i-WNXEvvFXe9xi4YKXVdrsir">
             Regeringen och jag som infrastrukturminister har en utmaning
             i att prioritera mellan alla de önskemål som finns i hela landet,
@@ -2041,7 +1843,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=18"/>
-        <u xml:id="i-48B8rnTdXdEjJTREDqrzUo" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-8TceCQRBoZEwvWypyuZ1Po" next="i-VnENgRTEFKkKTAeqGgDHV7">
+        <u xml:id="i-48B8rnTdXdEjJTREDqrzUo" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-17nBDMoCApai7gfdPAJugy">
           <seg xml:id="i-QV1w7ss2aRZ5gsyqrxpKmj">
             Jag önskar att vi tidigare hade haft regeringar som hade skjutit
             till mer pengar till vägarna så att bristerna i Dalarna inte hade
@@ -2052,8 +1854,6 @@
             bärigheten och tjälsäkringen på vägarna på landsbygden så att
             skogsindustrins tunga transporter kan komma fram.
           </seg>
-        </u>
-        <u xml:id="i-VnENgRTEFKkKTAeqGgDHV7" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-48B8rnTdXdEjJTREDqrzUo" next="i-GUCVNtmb9XmRk5wE6aGmKo">
           <seg xml:id="i-DbU4DB4n1Wp6F4xMQJqhov">
             Sedan kan man i och för sig ställa sig frågan om vi inte skulle
             behöva ännu mer pengar. Och det finns ett förslag om en vägslitageavgift,
@@ -2062,8 +1862,6 @@
             Det är rumänska, litauiska och polska lastbilar som kör i så kallad
             cabotagetrafik eller för den delen internationell trafik.
           </seg>
-        </u>
-        <u xml:id="i-GUCVNtmb9XmRk5wE6aGmKo" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-VnENgRTEFKkKTAeqGgDHV7">
           <seg xml:id="i-C3HHDGsZSDKNSZU7mHGbwK">
             Vi socialdemokrater har tidigare tyckt att vi kan ha en vägslitageavgift
             så att de också får vara med och betala. Sverige är nämligen det
@@ -2080,7 +1878,7 @@
         <note xml:id="i-DvBM296n4Dr2BjnZEPwSai" type="speaker">
           Anf. 21 ULRIK BERGMAN (M):
         </note>
-        <u xml:id="i-F864PuWxXbYoMkDsc2BDpB" who="i-XBxAbUXD6Qpc9KmdA853AP" next="i-9pD2UocyKzXnidjKJniiFg">
+        <u xml:id="i-F864PuWxXbYoMkDsc2BDpB" who="i-XBxAbUXD6Qpc9KmdA853AP" next="i-HmsVsxbCNM6wSpD4QhozwH">
           <seg xml:id="i-Rx3HLNro52cshxVWWydfrK">
             Fru talman! Tack för det svaret, infrastrukturministern! I Trafikverkets
             förslag till nationell plan, sidan 12, blir det tydligt för alla
@@ -2093,14 +1891,10 @@
             Det är en svindlande summa i sammanhanget. Samtidigt är länsplanernas
             andel nära nog oförändrad. Det är en tunn strimma, som jag sa.
           </seg>
-        </u>
-        <u xml:id="i-9pD2UocyKzXnidjKJniiFg" who="i-XBxAbUXD6Qpc9KmdA853AP" prev="i-F864PuWxXbYoMkDsc2BDpB" next="i-DZxv5CsbWPRwyWKLtvHZKM">
           <seg xml:id="i-FfECP4vj6ouM3M8BudkEum">
             Visst, man kan argumentera för höghastighetsjärnväg. Frågan är
             om man inte ska lyfta ut detta och finansiera det i särskild ordning.
           </seg>
-        </u>
-        <u xml:id="i-DZxv5CsbWPRwyWKLtvHZKM" who="i-XBxAbUXD6Qpc9KmdA853AP" prev="i-9pD2UocyKzXnidjKJniiFg" next="i-KfebAafiwmZxuT71ZN3Ti1">
           <seg xml:id="i-TWt49SkJ95m2Zqqjo7H9Te">
             Med det sagt är detta mycket beklagligt. Det är ett höghastighetsprojekt
             som ska underlätta resande för boende i Stockholm, Göteborg och
@@ -2109,8 +1903,6 @@
             De som får stå för notan är resten av Sverige, som får se nödvändiga
             projekt försenas och befintlig infrastruktur bli allt sämre.
           </seg>
-        </u>
-        <u xml:id="i-KfebAafiwmZxuT71ZN3Ti1" who="i-XBxAbUXD6Qpc9KmdA853AP" prev="i-DZxv5CsbWPRwyWKLtvHZKM" next="i-HmsVsxbCNM6wSpD4QhozwH">
           <seg xml:id="i-2V7WpT4XurbP8o2AmuPMRR">
             Trafikverket konstaterar följande i sin plan: ”Tillståndet på
             det statliga vägnätet har under en längre tid gradvis försämrats,
@@ -2121,15 +1913,13 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=19"/>
-        <u xml:id="i-HmsVsxbCNM6wSpD4QhozwH" who="i-XBxAbUXD6Qpc9KmdA853AP" prev="i-KfebAafiwmZxuT71ZN3Ti1" next="i-7deEU7kmtRjkWQGFW7ADKA">
+        <u xml:id="i-HmsVsxbCNM6wSpD4QhozwH" who="i-XBxAbUXD6Qpc9KmdA853AP" prev="i-F864PuWxXbYoMkDsc2BDpB">
           <seg xml:id="i-K2ABWq7C7ptypdgZ2DF7si">
             Det är mycket allvarligt att vårt gemensamma kapital gradvis
             förstörs och blir sämre vid utgången av planperioden. Anser statsrådet
             att detta är en rimlig prioritering av våra skattemedel och en
             önskvärd utveckling?
           </seg>
-        </u>
-        <u xml:id="i-7deEU7kmtRjkWQGFW7ADKA" who="i-XBxAbUXD6Qpc9KmdA853AP" prev="i-HmsVsxbCNM6wSpD4QhozwH" next="i-5RNfrM2J6sSeqmixEzap4C">
           <seg xml:id="i-DxT8Z1L7ckQrktuE5N4ZVS">
             I det aktuella fallet handlar det om de nya länsplaner som har
             tagits fram. Det konstateras att Dalarna har haft en väldigt hög
@@ -2141,8 +1931,6 @@
             minskad ram, vilket gör att planperioden blir baktung 2026–2033,
             eftersom inte alla projekt kan inrymmas i den planen.
           </seg>
-        </u>
-        <u xml:id="i-5RNfrM2J6sSeqmixEzap4C" who="i-XBxAbUXD6Qpc9KmdA853AP" prev="i-7deEU7kmtRjkWQGFW7ADKA">
           <seg xml:id="i-r5B8ChxMEcgXfGZ7Xh1Fo">
             Fru talman! Nollvisionen firar 25 år i dagarna. Att bygga säkrare
             vägar har varit prioriterat, och vi har fått se allt färre allvarligt
@@ -2158,7 +1946,7 @@
         <note xml:id="i-JrF5t2fV1xQBWr4TFrDs45" type="speaker">
           Anf. 22 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-Rm4tSvLfPAmjPkc3UtHB5B" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-PjCDJH87RXrecfVao7Ls3e">
+        <u xml:id="i-Rm4tSvLfPAmjPkc3UtHB5B" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-CgUc3pPThjBbW2bCPTeZ1p">
           <seg xml:id="i-dNBcfm2ySK6r9CmUMqCAp">
             Fru talman! Jag kan försäkra Ulrik Bergman om att det nog inte
             finns någon region, vare sig det gäller Dalarna, Småland, Norrbotten
@@ -2166,15 +1954,11 @@
             Alla säger att just de är särskilt missgynnade för att de har
             mer vägar eller mer trafik eller större andel av bnp.
           </seg>
-        </u>
-        <u xml:id="i-PjCDJH87RXrecfVao7Ls3e" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-Rm4tSvLfPAmjPkc3UtHB5B" next="i-76ZkFUMQPp6xh6wTNb2a8t">
           <seg xml:id="i-NtUfrGJ6cZrj6M15q4ae27">
             Utgångspunkten är naturligtvis att vi har sett till att skjuta
             till mer resurser än någonsin, så att alla får ordentliga ökningar.
             Det är det första. Sedan kommer det ändå att vara ett tufft prioriteringsarbete.
           </seg>
-        </u>
-        <u xml:id="i-76ZkFUMQPp6xh6wTNb2a8t" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-PjCDJH87RXrecfVao7Ls3e" next="i-AE1T4EezRj32TYYs17QBDR">
           <seg xml:id="i-4C7RYiobrASRKK223R4mcW">
             När det gäller just nollvisionen och trafiksäkerheten ska vi
             ändå konstatera att det verkligen går åt rätt håll. På 70-talet
@@ -2188,8 +1972,6 @@
             slapp man hastighetssänkningar. I stället kunde man öka hastigheten
             och få en säkrare trafik.
           </seg>
-        </u>
-        <u xml:id="i-AE1T4EezRj32TYYs17QBDR" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-76ZkFUMQPp6xh6wTNb2a8t" next="i-EtRpW8nrUgRo2QaNRWb3y6">
           <seg xml:id="i-DGhbdXwhiJJUZL98Cj1g86">
             På samma sätt tror jag att jämförelsen med hur resurserna fördelas
             kan halta lite, för Dalarna är också ett av de län där det görs
@@ -2199,8 +1981,6 @@
             där vi behöver öka bärigheten och tjälsäkringen för till exempel
             skogsindustrins transporter. Det sker alltså en viktig omfördelning.
           </seg>
-        </u>
-        <u xml:id="i-EtRpW8nrUgRo2QaNRWb3y6" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-AE1T4EezRj32TYYs17QBDR" next="i-CgUc3pPThjBbW2bCPTeZ1p">
           <seg xml:id="i-PtT4FmjJKyoXPH1uNprpG7">
             Men i grunden handlar det naturligtvis om att se till att skjuta
             till resurser. Då konstaterar jag att det är under socialdemokratiskt
@@ -2209,7 +1989,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=20"/>
-        <u xml:id="i-CgUc3pPThjBbW2bCPTeZ1p" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-EtRpW8nrUgRo2QaNRWb3y6" next="i-8tmgcmxds68u7d8cW3n7rm">
+        <u xml:id="i-CgUc3pPThjBbW2bCPTeZ1p" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-Rm4tSvLfPAmjPkc3UtHB5B">
           <seg xml:id="i-YWhA3vDSk9DXyiYv33v6Ps">
             Jag noterar att Ulrik Bergman inte svarar på frågan om vägslitageavgift.
             Jag tycker att det är lite besvärande att Sverige ska vara det
@@ -2221,8 +2001,6 @@
             bland annat, har bestämt sig för att det inte ska tas ut någon
             vägslitageavgift.
           </seg>
-        </u>
-        <u xml:id="i-8tmgcmxds68u7d8cW3n7rm" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-CgUc3pPThjBbW2bCPTeZ1p" next="i-Vmich4Dto5HazmTCR5ic4Z">
           <seg xml:id="i-4td78uMvppwN8AkPUeTmTt">
             Fru talman! Avslutningsvis ska jag säga något om höghastighetståg
             och stambanor, eftersom Ulrik Bergman nämner den frågan. Jag vill
@@ -2233,8 +2011,6 @@
             lång över de orter som kommer att gynnas av att vi nu får nya
             stambanor.
           </seg>
-        </u>
-        <u xml:id="i-Vmich4Dto5HazmTCR5ic4Z" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-8tmgcmxds68u7d8cW3n7rm" next="i-MbQ76EzvchvBJ8ad61mTxY">
           <seg xml:id="i-VzCjNU6qCRCNzQ6LuVT7oZ">
             Men detta innebär också att trycket minskar på andra delar av
             järnvägsnätet – Södra stambanan och Västra stambanan. Det innebär
@@ -2242,8 +2018,6 @@
             men också nationell tågtrafik. Det blir mer utrymme för att lägga
             gods på järnväg och minska trycket på vägarna.
           </seg>
-        </u>
-        <u xml:id="i-MbQ76EzvchvBJ8ad61mTxY" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-Vmich4Dto5HazmTCR5ic4Z" next="i-MjtNh8gNdjpQnyJ4Q92PzQ">
           <seg xml:id="i-WMHfX2fAZWAKDQYuWdyZER">
             Ett bekymmer vi har är att det är ett ganska tungt tryck på vägarna.
             Jag har här i kammaren tidigare tagit upp exemplet väg 40 mellan
@@ -2252,8 +2026,6 @@
             Göteborg och Borås. Det tycker Moderaterna regionalt, men nationellt
             är det uppenbart så att Moderaterna inte tycker detta.
           </seg>
-        </u>
-        <u xml:id="i-MjtNh8gNdjpQnyJ4Q92PzQ" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-MbQ76EzvchvBJ8ad61mTxY">
           <seg xml:id="i-GePLmjzJ5AXoPvipByn7em">
             Jag tycker att det är olyckligt. Sverige behöver satsa både på
             vägar i hela landet, inte minst i Dalarna, och naturligtvis också
@@ -2263,7 +2035,7 @@
         <note xml:id="i-KkjiSuv2WajjN7HdzmWwwN" type="speaker">
           Anf. 23 ULRIK BERGMAN (M):
         </note>
-        <u xml:id="i-3tLBLuBtjRxJGzPsEXn6mm" who="i-XBxAbUXD6Qpc9KmdA853AP" next="i-UZ3koAX9GEwrjPaMUs9ceJ">
+        <u xml:id="i-3tLBLuBtjRxJGzPsEXn6mm" who="i-XBxAbUXD6Qpc9KmdA853AP">
           <seg xml:id="i-C7AzBH4xxnRgRr9V5fPGB9">
             Fru talman! Statsrådet kan naturligtvis peka på att regionerna
             har ett ansvar att göra egna prioriteringar, vilket även görs.
@@ -2271,8 +2043,6 @@
             trafikmängderna ökar och då är det inte okej att vi har så små
             resurser till förfogande.
           </seg>
-        </u>
-        <u xml:id="i-UZ3koAX9GEwrjPaMUs9ceJ" who="i-XBxAbUXD6Qpc9KmdA853AP" prev="i-3tLBLuBtjRxJGzPsEXn6mm" next="i-5yf2ytUV9UGmr4iFvKhz2b">
           <seg xml:id="i-Eo9rAg5wauCAyE8Gt9Tfan">
             Dalarna har ett näringsliv som tar marknadsandelar och växer
             på världsmarknaden. Exemplen är många på företag som är med och
@@ -2284,8 +2054,6 @@
             på väg 66. Tycker statsrådet att vi ska svika dessa satsningar
             genom att inte växla upp infrastrukturen?
           </seg>
-        </u>
-        <u xml:id="i-5yf2ytUV9UGmr4iFvKhz2b" who="i-XBxAbUXD6Qpc9KmdA853AP" prev="i-UZ3koAX9GEwrjPaMUs9ceJ">
           <seg xml:id="i-4ULGoqZQYxrBKDr8CAEVLM">
             Avslutningsvis vill jag peka på de vädjanden som kommer från
             lärare och föräldrar i norra Dalarna. Vi måste agera när vi ser
@@ -2300,13 +2068,11 @@
         <note xml:id="i-ED9Nx4NPqVKoPbkZ8oBdqT" type="speaker">
           Anf. 24 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-67cnzxhAEpNixAPTyZvTtP" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-U4VgDFSYCuFbCa9sukE8gD">
+        <u xml:id="i-67cnzxhAEpNixAPTyZvTtP" who="i-G8564CqEnhC5PBjZSwUxsE">
           <seg xml:id="i-M8yqHJHjLBzg9pbeknQ6ug">
             Fru talman! Tack, Ulrik Bergman, för engagemanget! Jag uppskattar
             det.
           </seg>
-        </u>
-        <u xml:id="i-U4VgDFSYCuFbCa9sukE8gD" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-67cnzxhAEpNixAPTyZvTtP" next="i-T9rWcd4Ehdb4GL6EznPc4q">
           <seg xml:id="i-PdR3URqLXSM7GeRyTv6tMz">
             Jag noterar att ledamoten sa att det är för lite resurser. När
             vi hade en moderatledd regering var det 522 miljarder kronor i
@@ -2314,8 +2080,6 @@
             planen som jag hade förmånen att presentera för landet 2018 innehöll
             100 miljarder mer. Nu är det ytterligare 200 miljarder mer.
           </seg>
-        </u>
-        <u xml:id="i-T9rWcd4Ehdb4GL6EznPc4q" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-U4VgDFSYCuFbCa9sukE8gD" next="i-Vd9GrHvwpiatgTUXAZKzS5">
           <seg xml:id="i-WYVhKCErWRi6VNj9su2rTo">
             Vi satsar mer än någonsin på infrastruktur. Moderaterna vill
             däremot i sitt förslag till infrastrukturpropositionen dra bort
@@ -2323,8 +2087,6 @@
             till nya vägar och ny järnväg. Här har Moderaterna en hemläxa
             att göra.
           </seg>
-        </u>
-        <u xml:id="i-Vd9GrHvwpiatgTUXAZKzS5" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-T9rWcd4Ehdb4GL6EznPc4q" next="i-iYyJNkKCaUQgXv8uzN8G5">
           <seg xml:id="i-FRZhNhJU3FT2XQMp5kSrrd">
             Sedan måste man inse att det är tuffa prioriteringar i Region
             Dalarna precis som i alla regioner och i hela landet, eftersom
@@ -2332,8 +2094,6 @@
             på vägsidan. Det är därför vi satsar mer än någonsin på inte minst
             vägunderhåll.
           </seg>
-        </u>
-        <u xml:id="i-iYyJNkKCaUQgXv8uzN8G5" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-Vd9GrHvwpiatgTUXAZKzS5" next="i-um8PFyTRiKWf8zwLpc4iL">
           <seg xml:id="i-8sBKmLMp8QYtmGDW7Tykgu">
             Om man vill tillföra mer resurser blir frågan om vägslitageavgift
             lite speciell, och jag noterar att Ulrik Bergman inte kommenterar
@@ -2345,8 +2105,6 @@
             vara med och betala för infrastrukturen, precis som svenska åkare
             får göra i Tyskland och Frankrike när man åker ute i Europa.
           </seg>
-        </u>
-        <u xml:id="i-um8PFyTRiKWf8zwLpc4iL" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-iYyJNkKCaUQgXv8uzN8G5">
           <seg xml:id="i-9q49LJbRda1FGwsyH1yMSq">
             Vi höjer som sagt länsplaneanslagen med 8 procent i den proposition
             som riksdagen ställer sig bakom. Det är en ordentlig ökning, men
@@ -2366,15 +2124,13 @@
         <note xml:id="i-3kCbUYBvYZAi69UmnAc6ad" type="speaker">
           Anf. 25 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-HyH4c21MyAhP99TniWorqZ" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-KAqqeV95vZJNkHExgNrYT3">
+        <u xml:id="i-HyH4c21MyAhP99TniWorqZ" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-94RooouUD3qSoVkYdyt5PX">
           <seg xml:id="i-RESKo87ZJv5ujJW7MaDiBm">
             Fru talman! Thomas Morell har frågat mig hur jag avser att agera
             utifrån Trafikverkets förslag till infrastrukturplan gällande
             hur nödvändigt underhåll av befintligt väg- och järnvägsnät ska
             genomföras och hur satsningar i norra Sverige finansieras.
           </seg>
-        </u>
-        <u xml:id="i-KAqqeV95vZJNkHExgNrYT3" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-HyH4c21MyAhP99TniWorqZ" next="i-94RooouUD3qSoVkYdyt5PX">
           <seg xml:id="i-6yEctSuCXnn35pBhAuEWdL">
             Regeringen har systematiskt satsat på underhåll av vägar och
             järnvägar både i nu gällande infrastrukturplan, i infrastrukturpropositionen
@@ -2386,7 +2142,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=22"/>
-        <u xml:id="i-94RooouUD3qSoVkYdyt5PX" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-KAqqeV95vZJNkHExgNrYT3" next="i-GVBCqTfn5LHE1Hb9Gfomzx">
+        <u xml:id="i-94RooouUD3qSoVkYdyt5PX" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-HyH4c21MyAhP99TniWorqZ">
           <seg xml:id="i-HpYfrrfb9YUpT7WkzwTiBU">
             Transportsektorn står inför stora utmaningar. U tsläppen av växthusgaser
             från transporter behöver minska. Regeringen har under flera år
@@ -2395,8 +2151,6 @@
             några exempel har regeringen infört den så kallade ekobonusen
             för sjöfarten och miljökompensation för järnvägen.
           </seg>
-        </u>
-        <u xml:id="i-GVBCqTfn5LHE1Hb9Gfomzx" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-94RooouUD3qSoVkYdyt5PX" next="i-TyJSt1HFiqGbHVq9o4PojS">
           <seg xml:id="i-RcuWspPRPve77ZUYZJnD1V">
             Regeringen arbetar också med att öka transporteffektiviteten.
             Regeringen har till exempel satsat på att öka vägnätets bärighet,
@@ -2405,8 +2159,6 @@
             att främja elektrifiering, hållbara förnybara drivmedel samt energieffektiva
             fordon och fartyg.
           </seg>
-        </u>
-        <u xml:id="i-TyJSt1HFiqGbHVq9o4PojS" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-GVBCqTfn5LHE1Hb9Gfomzx">
           <seg xml:id="i-TPSuxhX3vY7uphYbeTCiUS">
             Klimatomställningen måste fortsätta i ett högt tempo, både i
             Sverige och globalt. Omställningen måste ske utifrån de förutsättningar
@@ -2417,20 +2169,16 @@
         <note xml:id="i-NcpvCt8CPkxzSBvJ9ipiym" type="speaker">
           Anf. 26 THOMAS MORELL (SD):
         </note>
-        <u xml:id="i-JDR7qG2ouS3BQn7BQ9pXQN" who="i-G9Ze2ayHon2kkwVgXWott8" next="i-Pr1J38MLrTKLRFnLvV2B6G">
+        <u xml:id="i-JDR7qG2ouS3BQn7BQ9pXQN" who="i-G9Ze2ayHon2kkwVgXWott8" next="i-9UirFy4ayeyaxdHnnumnW2">
           <seg xml:id="i-7BUHB5gS8SEAn4jrazxxZL">
             Fru talman! Tack för svaret, statsrådet!
           </seg>
-        </u>
-        <u xml:id="i-Pr1J38MLrTKLRFnLvV2B6G" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-JDR7qG2ouS3BQn7BQ9pXQN" next="i-8ArpTYKg3TsvPFa2E93jST">
           <seg xml:id="i-QxKUhGTBpsHpyq4o1gEGSM">
             Jag satt och lyssnade på den förra interpellationsdebatten, som
             handlade om riksväg 70 i Dalarna. Riksväg 70 är inte den enda
             vägen som behöver investeringar för att klara transporterna i
             framtiden.
           </seg>
-        </u>
-        <u xml:id="i-8ArpTYKg3TsvPFa2E93jST" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-Pr1J38MLrTKLRFnLvV2B6G" next="i-X1gvTLBKQkZveRrFsQdUkZ">
           <seg xml:id="i-MbDG3JvvJcpBiK98JwFhc">
             I slutet av svaret på min interpellation säger statsrådet att
             det är viktigt att klimatomställningen fortsätter i oförminskad
@@ -2440,8 +2188,6 @@
             ingen som har ifrågasatt, men vi kan ju inte låta vägarna eller
             för all del järnvägarna förfalla.
           </seg>
-        </u>
-        <u xml:id="i-X1gvTLBKQkZveRrFsQdUkZ" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-8ArpTYKg3TsvPFa2E93jST" next="i-99rDFNLETWfhFuQNofKgnT">
           <seg xml:id="i-FSLaXnd9m7dJoQNCWUWUMG">
             Statsrådet säger också i svaret att det aldrig tidigare har varit
             så mycket pengar till underhåll av väg och järnväg. Det är ändå
@@ -2451,8 +2197,6 @@
             vissa perioder på året i dagsläget, och då kommer det att vara
             etter värre 2033.
           </seg>
-        </u>
-        <u xml:id="i-99rDFNLETWfhFuQNofKgnT" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-X1gvTLBKQkZveRrFsQdUkZ" next="i-LmyQ4LiU3jtVf2kwC8yzQC">
           <seg xml:id="i-CadZ2Pbd264rGk5f6bDXm7">
             Vi har utvecklat vårt samhälle. Ända sedan vi uppfann hjulet
             har rörligheten varit viktig för att mänskligheten ska kunna utveckla
@@ -2461,8 +2205,6 @@
             kan flytta varor och gods så att också människor kan förflytta
             sig. Det är oerhört viktigt.
           </seg>
-        </u>
-        <u xml:id="i-LmyQ4LiU3jtVf2kwC8yzQC" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-99rDFNLETWfhFuQNofKgnT" next="i-WXpBoH4NBJ22itLTSPYREm">
           <seg xml:id="i-XKSCefrWtpKKc8tPFJp6AV">
             En gång i tiden var det järnvägen som innebar den stora utvecklingen
             i samhället. Där järnvägen drogs fram utvecklades städerna. Nu
@@ -2470,8 +2212,6 @@
             måste vi ha järnväg och ett fungerande vägsystem liksom sjöfart
             och flyg. Alla dessa olika former av infrastruktur måste fungera.
           </seg>
-        </u>
-        <u xml:id="i-WXpBoH4NBJ22itLTSPYREm" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-LmyQ4LiU3jtVf2kwC8yzQC" next="i-9UirFy4ayeyaxdHnnumnW2">
           <seg xml:id="i-9kVEBDpumB2FL4oN8o3Zvp">
             Då blir det lite märkligt att se den infrastrukturplan som Trafikverket
             lägger fram där man med berått mod gör så att vi kommer att ha
@@ -2481,7 +2221,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=23"/>
-        <u xml:id="i-9UirFy4ayeyaxdHnnumnW2" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-WXpBoH4NBJ22itLTSPYREm" next="i-5ns5jRWBUR4mztuLuqXdxK">
+        <u xml:id="i-9UirFy4ayeyaxdHnnumnW2" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-JDR7qG2ouS3BQn7BQ9pXQN">
           <seg xml:id="i-Me2hCg3Y6trEgCXT34JKmc">
             Samtidigt hör vi statsrådet säga att vi måste utveckla järnvägen
             för att minska miljöpåverkan. Det är precis rakt motsatt det som
@@ -2492,8 +2232,6 @@
             och framtida underhåll i den infrastruktur vi redan har. Det är
             jätteviktigt att både järnvägen och vägen fungerar tillsammans.
           </seg>
-        </u>
-        <u xml:id="i-5ns5jRWBUR4mztuLuqXdxK" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-9UirFy4ayeyaxdHnnumnW2" next="i-SRw4W6rQTptYSgV7oFGjeo">
           <seg xml:id="i-DGmELzw7pqKRJbVHRW2BTw">
             En gång i tiden var de svenska åkarna järnvägens utan jämförelse
             största kunder. I dag flyttas godset i stället över på olaglig
@@ -2503,8 +2241,6 @@
             har med Mauten. Då får varenda en som kommer in i landet vara
             med och betala på de vägar de kör på.
           </seg>
-        </u>
-        <u xml:id="i-SRw4W6rQTptYSgV7oFGjeo" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-5ns5jRWBUR4mztuLuqXdxK">
           <seg xml:id="i-DkeZiJn9BCTBL1599bbfr5">
             Statsrådet och hans partikamrater är välkomna att ansluta sig
             till vår motion.
@@ -2513,13 +2249,11 @@
         <note xml:id="i-S9AuD1gdoJTHgTq1k37Cts" type="speaker">
           Anf. 27 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-A1SpMuiisztyYGTY9G4vUZ" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-3BWTDYqQHvwq9CK1hpkCSY">
+        <u xml:id="i-A1SpMuiisztyYGTY9G4vUZ" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-Qo9x2Vc1zU6Nw2G8odHU1X">
           <seg xml:id="i-3nj1qMuzELqFu5KGWwVr72">
             Fru talman! Jag tackar Thomas Morell för redovisningen av Sverigedemokraternas
             syn på infrastruktursatsningarna.
           </seg>
-        </u>
-        <u xml:id="i-3BWTDYqQHvwq9CK1hpkCSY" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-A1SpMuiisztyYGTY9G4vUZ" next="i-MwVTDv6bm7DFgWAFkSKaNj">
           <seg xml:id="i-KypUtuP6ALvGffmLbPAyRh">
             Jag har respekt för att man kan ha olika viktning av hur man
             prioriterar. Trafikverket utgår från det riksdagsbeslut som finns
@@ -2529,8 +2263,6 @@
             47 procent mer på järnvägsunderhåll. Nu ökar både järnvägs- och
             vägunderhållet.
           </seg>
-        </u>
-        <u xml:id="i-MwVTDv6bm7DFgWAFkSKaNj" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-3BWTDYqQHvwq9CK1hpkCSY" next="i-XP65SguM4VnNB1mUEgHPLZ">
           <seg xml:id="i-RK5vfEk1MtJhCPnnMrB2nk">
             Ibland blir det så att ju mer pengar vi lägger fram, desto mer
             satsningar görs. Men jag tycker också att det är viktigt att både
@@ -2544,15 +2276,11 @@
             som gör att vi inte får rätt valuta för de resurser vi satsar
             på vägunderhåll. Och vi har aldrig satsat så mycket som nu.
           </seg>
-        </u>
-        <u xml:id="i-XP65SguM4VnNB1mUEgHPLZ" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-MwVTDv6bm7DFgWAFkSKaNj" next="i-QFiCEHb1xS5PVFjYnkQpSt">
           <seg xml:id="i-BGktk1gbJYpnoxZCSLfCh9">
             Låt mig ändå ställa en fråga till Thomas Morell. Han nämner svepande
             höghastighetstågen, på samma sätt som tidigare debattörer i interpellationsdebatter
             har gjort.
           </seg>
-        </u>
-        <u xml:id="i-QFiCEHb1xS5PVFjYnkQpSt" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-XP65SguM4VnNB1mUEgHPLZ" next="i-Qo9x2Vc1zU6Nw2G8odHU1X">
           <seg xml:id="i-8zg1tqtJTqXstUPcvW6ktv">
             Det vi talar om i nationell plan är 107 miljarder kronor, som
             i huvudsak handlar om Göteborg–Borås, Lund–Hässleholm och Ostlänken.
@@ -2566,7 +2294,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=24"/>
-        <u xml:id="i-Qo9x2Vc1zU6Nw2G8odHU1X" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-QFiCEHb1xS5PVFjYnkQpSt" next="i-EwK1L6ogQNQvh6fzGpZPXk">
+        <u xml:id="i-Qo9x2Vc1zU6Nw2G8odHU1X" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-A1SpMuiisztyYGTY9G4vUZ">
           <seg xml:id="i-NFRgEFcfiRJKtQX5mGmwqT">
             Är Sverigedemokraterna mot dessa satsningar? Tycker ni att vi
             inte ska bygga? Det finns ju en stark regional uppslutning. Näringslivet,
@@ -2574,8 +2302,6 @@
             jätteviktigt för personalförsörjningen, för att pendla, och för
             att transportera mer gods.
           </seg>
-        </u>
-        <u xml:id="i-EwK1L6ogQNQvh6fzGpZPXk" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-Qo9x2Vc1zU6Nw2G8odHU1X" next="i-PVtCyL12md6ndXt2HbaMpF">
           <seg xml:id="i-QmXj4jetn1EQh2vuYcd3dE">
             Vi får återkommande rapporter om att det är trångt på spåren.
             När alla regioner vill ha ännu mer regiontrafik, SJ vill trafikera
@@ -2588,8 +2314,6 @@
             en moderatledd regering som faktiskt stoppade bygget av Norrbotniabanan.
             Man ville inte satsa så mycket på infrastruktur.
           </seg>
-        </u>
-        <u xml:id="i-PVtCyL12md6ndXt2HbaMpF" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-EwK1L6ogQNQvh6fzGpZPXk" next="i-W5f7i7YpkJkTivZoUZXVCy">
           <seg xml:id="i-6LXiLpr2BucUFsiVVEh6Vg">
             Nu gör vi det. Nu moderniserar vi Sverige. Vi renoverar och reparerar,
             men vi bygger också nytt. Vi bygger nya järnvägar, men vi bygger
@@ -2597,8 +2321,6 @@
             vara så effektivt som möjligt och som skjuter till resurser i
             en utsträckning vi inte har varit med om tidigare.
           </seg>
-        </u>
-        <u xml:id="i-W5f7i7YpkJkTivZoUZXVCy" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-PVtCyL12md6ndXt2HbaMpF">
           <seg xml:id="i-Fj1ka8RmXBeTWPEqwcGN3i">
             Det är en utmaning, och det är helt rätt att både riksdagen och
             regeringen har uppmärksammat ansvaret att se till att de resurser
@@ -2610,12 +2332,10 @@
         <note xml:id="i-4QG6zeeLxr6yiR4REUH6jZ" type="speaker">
           Anf. 28 THOMAS MORELL (SD):
         </note>
-        <u xml:id="i-AcUyCbLKdejE9hcebb9xW6" who="i-G9Ze2ayHon2kkwVgXWott8" next="i-HFbqjBdR38qerTSNGDZ62u">
+        <u xml:id="i-AcUyCbLKdejE9hcebb9xW6" who="i-G9Ze2ayHon2kkwVgXWott8" next="i-WeR5hrTnZDfdnd1jMci9F1">
           <seg xml:id="i-9zLZnBvH1XrX7vrw57X2ho">
             Fru talman! Jag tackar för statsrådets svar.
           </seg>
-        </u>
-        <u xml:id="i-HFbqjBdR38qerTSNGDZ62u" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-AcUyCbLKdejE9hcebb9xW6" next="i-DdksAAg6suAcNdT91BHn4W">
           <seg xml:id="i-Rio4X8vqVfmUVjHDVD1b3U">
             I den förra interpellationsdebatten räknade statsrådet upp ett
             antal orter som skulle ha nytta av höghastighetståg. Jag noterade
@@ -2625,8 +2345,6 @@
             och järnväg så att industrin kan utvecklas så att människor kan
             leva, bo och verka i dessa områden.
           </seg>
-        </u>
-        <u xml:id="i-DdksAAg6suAcNdT91BHn4W" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-HFbqjBdR38qerTSNGDZ62u" next="i-N2bmRakZasVv2vNNukz5cu">
           <seg xml:id="i-K7vXDtdvyydRCjwQ8Bqzn2">
             Det är lite lustigt när vi exempelvis pratar om sträckan Borås–Göteborg.
             Vi är inte alls emot att bygga en järnväg där, men det vi är emot
@@ -2639,8 +2357,6 @@
             Jag tycker att statsrådet ska ta en diskussion med Västsvenska
             Handelskammaren. Då kanske det blir en lite mer saklig diskussion.
           </seg>
-        </u>
-        <u xml:id="i-N2bmRakZasVv2vNNukz5cu" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-DdksAAg6suAcNdT91BHn4W" next="i-WeR5hrTnZDfdnd1jMci9F1">
           <seg xml:id="i-83Aia9cgUyEWVaFj9L55tP">
             Låt oss titta på Västra stambanan. De största problemen på Västra
             stambanan finns på sträckan Alingsås–Göteborg. Problemen där fortplantar
@@ -2653,7 +2369,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=25"/>
-        <u xml:id="i-WeR5hrTnZDfdnd1jMci9F1" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-N2bmRakZasVv2vNNukz5cu" next="i-8kktriAq5RUaw1GibVaLXh">
+        <u xml:id="i-WeR5hrTnZDfdnd1jMci9F1" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-AcUyCbLKdejE9hcebb9xW6">
           <seg xml:id="i-RTSmtmZMUXimijTjyAFPFu">
             Detta kommer inte att stanna vid de 107 miljarder man tänker
             investera i höghastighetstågen. Då blir det bara små snuttar av
@@ -2661,8 +2377,6 @@
             fortsätta, och då landar vi någonstans vid 400 miljarder eller
             mer.
           </seg>
-        </u>
-        <u xml:id="i-8kktriAq5RUaw1GibVaLXh" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-WeR5hrTnZDfdnd1jMci9F1" next="i-Y9T6KTQ6wKKDxCuCcnHngw">
           <seg xml:id="i-5vJBGYzDN5338JLPt5NFpq">
             Vad som oroar mig är det som står i den plan som Trafikverket
             upprättat. Där framgår att risken för mindre störningar och tillfälliga
@@ -2670,8 +2384,6 @@
             kommer att säkerställa att vägarna inte blir så dåliga att framkomligheten
             för lätt trafik påverkas.
           </seg>
-        </u>
-        <u xml:id="i-Y9T6KTQ6wKKDxCuCcnHngw" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-8kktriAq5RUaw1GibVaLXh" next="i-XRKmCNtFEzsLGfNVPJZFyz">
           <seg xml:id="i-5pxw9ZRARnwrCTeFWTnqR1">
             Nu pratar vi alltså om personbilar och mindre lätta lastbilar.
             Men hur ska man då klara industriproduktion och jordbruksproduktion
@@ -2683,15 +2395,11 @@
             bli allvarliga problem med matförsörjning och industriell verksamhet
             ute i det finmaskiga vägnätet.
           </seg>
-        </u>
-        <u xml:id="i-XRKmCNtFEzsLGfNVPJZFyz" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-Y9T6KTQ6wKKDxCuCcnHngw" next="i-Uy18csykGURkTpTtJwfzNb">
           <seg xml:id="i-HNB9JtmfGsVC1bugfF4RGP">
             Jag tvivlar inte ett ögonblick på att E4 och E20 kommer att hållas
             trafikdugliga, men problemen uppstår på länsvägarna. Det är där
             som en stor del av den industriella verksamheten finns.
           </seg>
-        </u>
-        <u xml:id="i-Uy18csykGURkTpTtJwfzNb" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-XRKmCNtFEzsLGfNVPJZFyz">
           <seg xml:id="i-J5razh1G7xuvHsHoyJrhkC">
             Det är dags att agera även i denna fråga.
           </seg>
@@ -2699,15 +2407,13 @@
         <note xml:id="i-69kChtt4eBsi1bQkwpk9iV" type="speaker">
           Anf. 29 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-3tooBKruazY3maSV5CgjWL" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-MiahB4V2kHfnLeGoMkXQiw">
+        <u xml:id="i-3tooBKruazY3maSV5CgjWL" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-VxRK2hLh9seLzFor8epS1Q">
           <seg xml:id="i-2psEvGqSu8i9esofhWxHLG">
             Fru talman! Det blir lite fånigt när Thomas Morell säger att
             det inte sker några satsningar norr om Stockholm. Det är för att
             vi talar om stambanor som går mellan Stockholm, Göteborg och Malmö
             via Norrköping, Linköping, Lund, Hässleholm och så vidare.
           </seg>
-        </u>
-        <u xml:id="i-MiahB4V2kHfnLeGoMkXQiw" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-3tooBKruazY3maSV5CgjWL" next="i-PzzRb7D4eNJR5Es8mqi4bp">
           <seg xml:id="i-6nZvzxtqLeaYevhS75M7mf">
             Då nämner inte Thomas Morell Norrbotniabanan, Ostkustbanan, Malmbanan,
             Mittbanan och Ådalsbanan. Det görs satsningar på järnväg även
@@ -2722,8 +2428,6 @@
             Steel, LKAB och andra satsar på framtidens industriella produktion
             i norra Sverige.
           </seg>
-        </u>
-        <u xml:id="i-PzzRb7D4eNJR5Es8mqi4bp" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-MiahB4V2kHfnLeGoMkXQiw" next="i-VxRK2hLh9seLzFor8epS1Q">
           <seg xml:id="i-Ni9s3qJ3a8jS2srVLwC8SV">
             Det är därför jag beklagar att Norrbotniabanan stoppades av en
             moderatledd regering 2006. Om man inte hade gjort det hade banan
@@ -2737,7 +2441,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=26"/>
-        <u xml:id="i-VxRK2hLh9seLzFor8epS1Q" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-PzzRb7D4eNJR5Es8mqi4bp" next="i-PhCWWicsgRGX4pgPDvmHeT">
+        <u xml:id="i-VxRK2hLh9seLzFor8epS1Q" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-3tooBKruazY3maSV5CgjWL">
           <seg xml:id="i-QEf1hJdqq96fR6kwhzm7Pv">
             Sedan har jag väldigt svårt att förstå argumentet från Thomas
             Morell och Sverigedemokraterna om att man gärna ska bygga järnväg
@@ -2749,8 +2453,6 @@
             ger möjlighet till bra persontrafik mellan Göteborg och Borås
             – gärna då förbi Landvetter.
           </seg>
-        </u>
-        <u xml:id="i-PhCWWicsgRGX4pgPDvmHeT" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-VxRK2hLh9seLzFor8epS1Q" next="i-CqLjdMLGZD54YbtqekuHZF">
           <seg xml:id="i-9fiZQQtxX2dEL7sXZaDiYC">
             Från Sverigedemokraterna och många andra förs det ibland fram
             tankar om att lyfta ur detta ur den nationella planen, som om
@@ -2762,8 +2464,6 @@
             och finansierar åtaganden. Det är det jag tycker åligger alla
             partier i Sveriges riksdag.
           </seg>
-        </u>
-        <u xml:id="i-CqLjdMLGZD54YbtqekuHZF" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-PhCWWicsgRGX4pgPDvmHeT" next="i-LrRAr4ZPiwHsfjKa1Mt86g">
           <seg xml:id="i-Y2sWRMgq5b4FVxL2cL3KSk">
             Vill man då inte, som Sverigedemokraterna säger, finansiera Göteborg–Borås,
             Lund–Hässleholm eller en järnväg mellan Norrköping, Linköping
@@ -2777,8 +2477,6 @@
             än att lite svepande säga: ”Ta bort en satsning på höghastighetståg
             i allmänhet, så blir det mer pengar till vägar!” Så är det inte.
           </seg>
-        </u>
-        <u xml:id="i-LrRAr4ZPiwHsfjKa1Mt86g" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-CqLjdMLGZD54YbtqekuHZF">
           <seg xml:id="i-8q29Z6ymGpZXbhUWC9kzc6">
             Det finns mer pengar till vägar och vägunderhåll än någonsin,
             men det finns också mer pengar till nyinvesteringar i både väginfrastruktur
@@ -2793,12 +2491,10 @@
         <note xml:id="i-5ixCVPNXz1KrW7dbyao5P8" type="speaker">
           Anf. 30 THOMAS MORELL (SD):
         </note>
-        <u xml:id="i-D49z1FAyuGQhwVNVYSxgUz" who="i-G9Ze2ayHon2kkwVgXWott8" next="i-Tu4VVqMZU4WgpzHoh5JSSr">
+        <u xml:id="i-D49z1FAyuGQhwVNVYSxgUz" who="i-G9Ze2ayHon2kkwVgXWott8" next="i-86PtHK8XZP11nY9zXoNpFk">
           <seg xml:id="i-EdLDoWBXNTJrS1rbmcNWL2">
             Fru talman! Tack för svaret, statsrådet!
           </seg>
-        </u>
-        <u xml:id="i-Tu4VVqMZU4WgpzHoh5JSSr" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-D49z1FAyuGQhwVNVYSxgUz" next="i-L1yitDTjQFzQYPTy2gTtwt">
           <seg xml:id="i-DrTFuSW4NpQ7gybqb5BiAR">
             Jag sa aldrig att vi inte ska bygga järnväg mellan Göteborg och
             Borås, och jag sa heller inte att det var ett problem om tågen
@@ -2810,8 +2506,6 @@
             av de tåg som behöver gå där – snabba tåg, regiontåg eller möjligen
             godståg!
           </seg>
-        </u>
-        <u xml:id="i-L1yitDTjQFzQYPTy2gTtwt" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-Tu4VVqMZU4WgpzHoh5JSSr" next="i-86PtHK8XZP11nY9zXoNpFk">
           <seg xml:id="i-GtFKft1Pz2n4BWQqRp5vLR">
             Det blir ändå lite märkligt när man fokuserar debatten på höghastighetstågen
             och släpper allt annat runt om i landet. Trafikverket skriver
@@ -2825,7 +2519,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=27"/>
-        <u xml:id="i-86PtHK8XZP11nY9zXoNpFk" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-L1yitDTjQFzQYPTy2gTtwt" next="i-8Ua3YaDbbogXiQBeDuC2mo">
+        <u xml:id="i-86PtHK8XZP11nY9zXoNpFk" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-D49z1FAyuGQhwVNVYSxgUz">
           <seg xml:id="i-A1NZYEdWcDqv6777xzYAYn">
             Man måste se till att hela Sveriges infrastruktur fungerar. Den
             ska fungera oavsett var jag bor och oavsett om jag åker på väg
@@ -2834,8 +2528,6 @@
             som äter upp alla möjligheter att ha en väl fungerande infrastruktur
             runt om i landet.
           </seg>
-        </u>
-        <u xml:id="i-8Ua3YaDbbogXiQBeDuC2mo" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-86PtHK8XZP11nY9zXoNpFk">
           <seg xml:id="i-6jT8KoJbUxGUNEciuPKUd2">
             Man ska också vara klar över att en stor del av vår industriella
             verksamhet sker ute på landsbygden. Det är inte enbart Volvo,
@@ -2846,7 +2538,7 @@
         <note xml:id="i-Ww2E68xtUsLyS7ywP82Voy" type="speaker">
           Anf. 31 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-TP5SsRKZGsDjrFzV6AKj2" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-AgwLHepnAwG9FvEJgcV2ut">
+        <u xml:id="i-TP5SsRKZGsDjrFzV6AKj2" who="i-G8564CqEnhC5PBjZSwUxsE">
           <seg xml:id="i-756ug4TRrVg8zAtEVHkFok">
             Fru talman! Jag tycker ändå att det är sorgligt att Thomas Morell
             i detta läge inte håller sig till sanningen. Det är faktiskt så
@@ -2856,8 +2548,6 @@
             är det med vägar: Vi ser till att förstärka vägnätet både i högtrafikerade
             delar av landet och i lågtrafikerade delar.
           </seg>
-        </u>
-        <u xml:id="i-AgwLHepnAwG9FvEJgcV2ut" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-TP5SsRKZGsDjrFzV6AKj2" next="i-62DDPf4x6C4khrNBnsNYY1">
           <seg xml:id="i-CzcznoX8dFViVLTYr5nsx9">
             I den senaste budgetpropositionen var det också så att vi öronmärkte
             1 ½ miljard kronor till vägar i landsbygd, just för att säkerställa
@@ -2871,8 +2561,6 @@
             är därför vi satsar. Utgångspunkten är alltså att vi gör satsningar
             i hela landet.
           </seg>
-        </u>
-        <u xml:id="i-62DDPf4x6C4khrNBnsNYY1" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-AgwLHepnAwG9FvEJgcV2ut" next="i-88aDgWDt3w25LoNUCFMbQM">
           <seg xml:id="i-X87C3BoTAai2J2B7aaCrhM">
             Sedan har jag bara en kort passus om det där med renodling. Jag
             noterar att Thomas Morell vill att vi ska blanda trafik i stor
@@ -2885,8 +2573,6 @@
             när det är trångt på spåren: Då ska godstågen, regiontågen och
             fjärrtågen samsas, och det är trångt. Alla vill nämligen åka mer.
           </seg>
-        </u>
-        <u xml:id="i-88aDgWDt3w25LoNUCFMbQM" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-62DDPf4x6C4khrNBnsNYY1">
           <seg xml:id="i-RHgErAyKkAckPHKBkAvdwo">
             Genom att öka kapaciteten – men kanske också genom att i större
             utsträckning renodla och skapa mer utrymme för persontrafik på
@@ -2909,14 +2595,12 @@
         <note xml:id="i-C3NC6pYtBjTVCXner2iycr" type="speaker">
           Anf. 32 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-RiTTctpMYtPUFqWURX1xfV" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-BfBgxWbPiqEi16MBskki7X">
+        <u xml:id="i-RiTTctpMYtPUFqWURX1xfV" who="i-G8564CqEnhC5PBjZSwUxsE">
           <seg xml:id="i-4j8HXnFLibWxfB8K6aKPga">
             Fru talman! Maria Stockhaus har frågat mig hur jag ska införliva
             de tillkännagivanden som riksdagen beslutat rörande finansiering
             av nya isbrytare och Sjöfartsverkets verksamhets- och finansieringsform.
           </seg>
-        </u>
-        <u xml:id="i-BfBgxWbPiqEi16MBskki7X" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-RiTTctpMYtPUFqWURX1xfV" next="i-176kR8zF3CyWzYd34b41xi">
           <seg xml:id="i-6rf1yx11CJn2GenmmmTWga">
             Förnyelsen av isbrytarflottan är ett arbete som pågått under
             ett antal år. Regeringen har både 2016 och 2020 gett Sjöfartsverket
@@ -2928,16 +2612,12 @@
             , och r egeringen avser att först därefter återkomma till hur
             denna investering ska finansieras .
           </seg>
-        </u>
-        <u xml:id="i-176kR8zF3CyWzYd34b41xi" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-BfBgxWbPiqEi16MBskki7X" next="i-V3Dz4QekvTwuwFE2Bf3ePq">
           <seg xml:id="i-NJcNyubQ1niEAxJAym6XyU">
             Anskaffning av isbrytare ingår i Sjöfartsverkets investeringsplan
             för 2022–2024, som riksdagen har godkänt. Dessutom har ändamålet
             för utvecklingsanslaget på utgiftsområde 22 utvidgats i budgeten
             till att även omfatta investeringar i isbrytarflottan.
           </seg>
-        </u>
-        <u xml:id="i-V3Dz4QekvTwuwFE2Bf3ePq" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-176kR8zF3CyWzYd34b41xi">
           <seg xml:id="i-S8Tk1TsHXdKGfQWCHBXngZ">
             Vad gäller tillkännagivandet om att utreda Sjöfartsverkets verksamhets-
             och finansieringsform kommer regeringen i närtid att återkomma
@@ -2947,12 +2627,10 @@
         <note xml:id="i-JZW64KyFokoW4ZafEdkpEY" type="speaker">
           Anf. 33 MARIA STOCKHAUS (M):
         </note>
-        <u xml:id="i-4BYAL2yw82ESiKdME5Ywzw" who="i-5kLPqJYKuXdEi7mU2QqyGZ" next="i-6yszRHQs2EDL9Usb575rZK">
+        <u xml:id="i-4BYAL2yw82ESiKdME5Ywzw" who="i-5kLPqJYKuXdEi7mU2QqyGZ" next="i-Eom3bbfQzAZRSRDHxsugJ9">
           <seg xml:id="i-NMacK4D1FBcgx3bVZvWooJ">
             Fru talman! Tack för svaret, statsrådet!
           </seg>
-        </u>
-        <u xml:id="i-6yszRHQs2EDL9Usb575rZK" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-4BYAL2yw82ESiKdME5Ywzw" next="i-BmWeVxiF3yGYXxYYfVWyT3">
           <seg xml:id="i-63E9Th2QmiBEQP5MQq8VFm">
             Så många som 130 dagar om året kan det finnas behov av isbrytning
             från Gävle och norrut. Redan i dag går mycket gods både ut och
@@ -2964,8 +2642,6 @@
             I fartyg räknat innebär det en ökning från mellan 600–700 fartyg
             upp till 1 000 fartyg per år.
           </seg>
-        </u>
-        <u xml:id="i-BmWeVxiF3yGYXxYYfVWyT3" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-6yszRHQs2EDL9Usb575rZK" next="i-T7VmUa8wcmVbp6a9PmPHNR">
           <seg xml:id="i-7M89UNZjTnanZLHvMAwcMR">
             De isbrytare som i dag är i tjänst har många år på nacken och
             borde enligt ursprungskalkylen från när de inköptes vara uttjänta
@@ -2976,8 +2652,6 @@
             Skulle det behövas reservdelar måste dessa specialtillverkas,
             vilket tar tid. Då ligger isbrytarna stilla.
           </seg>
-        </u>
-        <u xml:id="i-T7VmUa8wcmVbp6a9PmPHNR" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-BmWeVxiF3yGYXxYYfVWyT3" next="i-Eom3bbfQzAZRSRDHxsugJ9">
           <seg xml:id="i-8sF75n3WwqQiVPrSYBJXJD">
             Frågan om nya isbrytare är ju inte ny, precis som infrastrukturministern
             tog upp i sitt anförande. Den 30 oktober 2017 presenterade Sjöfartsverket
@@ -2990,7 +2664,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=29"/>
-        <u xml:id="i-Eom3bbfQzAZRSRDHxsugJ9" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-T7VmUa8wcmVbp6a9PmPHNR" next="i-KErFqdYPXyzMi7d9SYi6sm">
+        <u xml:id="i-Eom3bbfQzAZRSRDHxsugJ9" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-4BYAL2yw82ESiKdME5Ywzw">
           <seg xml:id="i-37UrJiREhJdYRffL865Ki5">
             Fru talman! De investeringar vi ser i norra Sverige är fantastiska
             och spännande ur många aspekter, men de är naturligtvis också
@@ -3000,16 +2674,12 @@
             lita på sjöfarten för viktiga transporter måste de vara säkra
             på att isbrytningen fungerar.
           </seg>
-        </u>
-        <u xml:id="i-KErFqdYPXyzMi7d9SYi6sm" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-Eom3bbfQzAZRSRDHxsugJ9" next="i-Ar53KajVbz5yDA5HQrhcP5">
           <seg xml:id="i-Jzw7iguh6U4mq7aZCuWXrd">
             När företag står inför stora investeringar är en viktig faktor
             att logistiken fungerar. I dagsläget har transportköpare och näringsliv
             vid ett flertal tillfällen signalerat att de är oroliga för hur
             isbrytningen ska lösas i framtiden.
           </seg>
-        </u>
-        <u xml:id="i-Ar53KajVbz5yDA5HQrhcP5" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-KErFqdYPXyzMi7d9SYi6sm" next="i-RJBPTMkW7TG9ZVXvakwSnA">
           <seg xml:id="i-81YNSQgUuaAZjVktQfmYnF">
             Med de högt ställda klimatmål som vi är överens om i Sverige
             är investeringar i nya och betydligt mer klimatvänliga isbrytare
@@ -3017,8 +2687,6 @@
             nya isbrytarna kommer också att bryta bredare rännor, vilket möjliggör
             för större fartyg.
           </seg>
-        </u>
-        <u xml:id="i-RJBPTMkW7TG9ZVXvakwSnA" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-Ar53KajVbz5yDA5HQrhcP5">
           <seg xml:id="i-FQEyvYn8HYjnsKCH84Dsc9">
             Det svar jag fick från statsrådet gav fortfarande inget tydligt
             besked om hur finansieringen av nya isbrytare ska lösas. Vad är
@@ -3030,15 +2698,13 @@
         <note xml:id="i-3yAvu4vbGjVvEBhPE5WohU" type="speaker">
           Anf. 34 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-DgtJ1qngEGjWUhcsFcRntM" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-H3Yd1EzzeTwtvG2RFqmRR4">
+        <u xml:id="i-DgtJ1qngEGjWUhcsFcRntM" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-4KZXgzadTV6QhdnfDkYUBy">
           <seg xml:id="i-EHYMGE2efqerFma2o1z3oE">
             Fru talman! När det gäller näringslivets tillförsikt får jag
             säga att den är väldigt god. Man hade inte investerat närmare
             1 000 miljarder i norra Sverige om det hade funnits en väldigt
             stor oro i den här frågan.
           </seg>
-        </u>
-        <u xml:id="i-H3Yd1EzzeTwtvG2RFqmRR4" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-DgtJ1qngEGjWUhcsFcRntM" next="i-VYXPLHCAPmP2p8oqPpDpfT">
           <seg xml:id="i-5pui99zn8gGg27zrsVCdA2">
             Faktum är att det nu görs investeringar i en utsträckning vi
             inte sett motstycke till tack vare att regeringen har bedrivit
@@ -3049,8 +2715,6 @@
             i den industriella produktionen i Sverige och tusentals arbetslösa
             inom bilindustrin.
           </seg>
-        </u>
-        <u xml:id="i-VYXPLHCAPmP2p8oqPpDpfT" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-H3Yd1EzzeTwtvG2RFqmRR4" next="i-W5AwKjDTY8Sve1Shbg7tYP">
           <seg xml:id="i-RQjYGsEnuKDZYM6S28Jw7x">
             Sedan dess har vi, efter regeringsskiftet 2014, systematiskt
             satsat på att utveckla Sveriges industriella kapacitet. Nu har
@@ -3059,8 +2723,6 @@
             även i övriga Sverige. Detta är bra; det skapar jobb, hopp och
             framtidstro.
           </seg>
-        </u>
-        <u xml:id="i-W5AwKjDTY8Sve1Shbg7tYP" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-VYXPLHCAPmP2p8oqPpDpfT" next="i-EfZSwJNYBkGHhEe6vUCrXt">
           <seg xml:id="i-5wzjAHzNMTUo2y12X7qXjn">
             Då är infrastrukturförutsättningarna förstås jätteviktiga. Det
             handlar till exempel om Norrbotniabanan, som en moderatledd regering
@@ -3068,8 +2730,6 @@
             den är viktig. Jag förutsätter att vi i nationell plan behöver
             titta extra på hur vi kan utveckla Malmbanan och annan infrastruktur.
           </seg>
-        </u>
-        <u xml:id="i-EfZSwJNYBkGHhEe6vUCrXt" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-W5AwKjDTY8Sve1Shbg7tYP" next="i-Q1H71BCxmeyqEX6zKxxTg4">
           <seg xml:id="i-NDVa8p6pQjKKQMYNAWThSG">
             Vi har nyligen gett klartecken för byggstart för Malmporten i
             Luleå hamn, som nu i samarbete med Luleå kommun och LKAB blir
@@ -3077,8 +2737,6 @@
             valt att prioritera en sådan investering vid sidan av satsningarna
             i Göteborgs hamn.
           </seg>
-        </u>
-        <u xml:id="i-Q1H71BCxmeyqEX6zKxxTg4" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-EfZSwJNYBkGHhEe6vUCrXt" next="i-4KZXgzadTV6QhdnfDkYUBy">
           <seg xml:id="i-QQmWDmCXcmWG5MVD949kvN">
             Kvar finns naturligtvis frågan om isbrytarkapaciteten, där vi
             sedan länge har gett tydliga besked: Vi ska förnya isbrytarflottan.
@@ -3087,14 +2745,12 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=30"/>
-        <u xml:id="i-4KZXgzadTV6QhdnfDkYUBy" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-Q1H71BCxmeyqEX6zKxxTg4" next="i-7ghHh3dMGd3Pe8kniUd7yC">
+        <u xml:id="i-4KZXgzadTV6QhdnfDkYUBy" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-DgtJ1qngEGjWUhcsFcRntM">
           <seg xml:id="i-VvLTYzXVuA5fdp9S9n9eBH">
             Detta är också ett samarbete med Finland. När arbetet med designfasen
             är klart får vi se vilka kostnadsberäkningar som ska ligga till
             grund för finansieringsmodellen.
           </seg>
-        </u>
-        <u xml:id="i-7ghHh3dMGd3Pe8kniUd7yC" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-4KZXgzadTV6QhdnfDkYUBy" next="i-PH6GNXUKZk2HU1wVa2R7AU">
           <seg xml:id="i-8mrmxRg2XYQK2FmbjgfE6a">
             I det här läget har en del uttalat sig tvärsäkert om hur finansieringsmodellen
             ska vara – pengarna ska tas från nationell plan eller genom att
@@ -3102,32 +2758,24 @@
             som regeringen ger: Vi ska förnya isbrytarflottan. Det är ingen
             tvekan om detta.
           </seg>
-        </u>
-        <u xml:id="i-PH6GNXUKZk2HU1wVa2R7AU" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-7ghHh3dMGd3Pe8kniUd7yC" next="i-WnMBL2YzK9BTApWnAWaJ34">
           <seg xml:id="i-8DLtTN7iNcYcMdp3qqCKWW">
             Jag har själv färdats med en av de äldre isbrytarna, och även
             om det är fascinerande att åka och se hur isen bryts inser man
             att detta är fartyg som börjar bli ordentligt daterade. Det är
             också skälet till att vi nu behöver förnya isbrytarflottan.
           </seg>
-        </u>
-        <u xml:id="i-WnMBL2YzK9BTApWnAWaJ34" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-PH6GNXUKZk2HU1wVa2R7AU" next="i-PWu8Prr1jCmTfqMoHxeoq">
           <seg xml:id="i-EacUNrWjxTFv9G1btQn5aD">
             Tack och lov finns det ett väl fungerande samarbete med Finland
             och Estland, så det har hittills – vad vi känner till – inte uppstått
             några bristsituationer. Men det är klart att alla inser att vi
             behöver förnya isbrytarflottan.
           </seg>
-        </u>
-        <u xml:id="i-PWu8Prr1jCmTfqMoHxeoq" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-WnMBL2YzK9BTApWnAWaJ34" next="i-VbvzBkbLrGJb6XZvZStMB9">
           <seg xml:id="i-HKeZjt12KfsLPgQjBEPCq7">
             En viktig del är att hålla kostnadskontrollen och att se till
             att det är rätt kvalitet och rätt underlag som gäller för de beställningar
             som sedan ska göras. Här finns ett flertal olika intressenter
             som vill vara med och bidra.
           </seg>
-        </u>
-        <u xml:id="i-VbvzBkbLrGJb6XZvZStMB9" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-PWu8Prr1jCmTfqMoHxeoq">
           <seg xml:id="i-CRbSdREkwwCCJM5angNZFv">
             Jag kan försäkra Maria Stockhaus om att det här är ett arbete
             som pågår för fullt. Vi väntar nu på slutunderlaget från Sjöfartsverket
@@ -3138,7 +2786,7 @@
         <note xml:id="i-YAcT24iVBZqZx6htXzrzm2" type="speaker">
           Anf. 35 MARIA STOCKHAUS (M):
         </note>
-        <u xml:id="i-VMXDsy5ZJp2WmfiZXAPvZa" who="i-5kLPqJYKuXdEi7mU2QqyGZ" next="i-Q3JBf5KD65Tk4haRQhaAgb">
+        <u xml:id="i-VMXDsy5ZJp2WmfiZXAPvZa" who="i-5kLPqJYKuXdEi7mU2QqyGZ" next="i-FajyWPvSKCaoteCX2WvtVu">
           <seg xml:id="i-WA8VNuZPm45UDi8piKJBfH">
             Fru talman! Infrastrukturministerns eventuella tydlighet verkar
             inte ha gått fram, för det har ju kommit ett antal skrivelser
@@ -3147,8 +2795,6 @@
             massa pengar i Luleå hamn om man inte kommer att kunna köra båtar
             dit på grund av att isbrytningen inte fungerar.
           </seg>
-        </u>
-        <u xml:id="i-Q3JBf5KD65Tk4haRQhaAgb" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-VMXDsy5ZJp2WmfiZXAPvZa" next="i-C3i3Us9G9B6V8jDZJg1U6L">
           <seg xml:id="i-P92d6Kcue6K527UURA8bgG">
             Det finns som sagt ett tillkännagivande, och det finns en majoritet
             i riksdagen som tycker att det är rimligt att isbrytarna finansieras
@@ -3158,16 +2804,12 @@
             hoppet är väl inte ute om att man ska kunna lösa finansieringen
             på det här sättet.
           </seg>
-        </u>
-        <u xml:id="i-C3i3Us9G9B6V8jDZJg1U6L" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-Q3JBf5KD65Tk4haRQhaAgb" next="i-LyBvzBXh5UJnEWrMrwhZBh">
           <seg xml:id="i-DQBrmABtsTFg37kRpdNWm2">
             Fru talman! Vi är överens om att vårt transportsystem behöver
             utnyttjas mer effektivt. Där finns det mycket att göra, till exempel
             att bygga så att det går att köra längre tåg på järnväg och längre
             och tyngre lastbilar på våra vägar.
           </seg>
-        </u>
-        <u xml:id="i-LyBvzBXh5UJnEWrMrwhZBh" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-C3i3Us9G9B6V8jDZJg1U6L" next="i-XWgV9gTL4spA9zyNEqUAJk">
           <seg xml:id="i-WDSn1dLTK6cuGpzwYracEx">
             Sjöfarten är ett underutnyttjat trafikslag. Vi har alla förutsättningar
             att utnyttja allt det vatten som omger oss på ett mycket bättre
@@ -3175,8 +2817,6 @@
             Detta är ett både klimatsmart och effektivt sätt att transportera
             gods på.
           </seg>
-        </u>
-        <u xml:id="i-XWgV9gTL4spA9zyNEqUAJk" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-LyBvzBXh5UJnEWrMrwhZBh" next="i-FajyWPvSKCaoteCX2WvtVu">
           <seg xml:id="i-TEJfTYu5RmmqJRAKhBSsHu">
             Här i riksdagen är det tydligt att en majoritet av partierna
             ser sjöfartens potential, men man kan undra hur det ser ut på
@@ -3189,15 +2829,13 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=31"/>
-        <u xml:id="i-FajyWPvSKCaoteCX2WvtVu" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-XWgV9gTL4spA9zyNEqUAJk" next="i-P3h6Nw2jaUVbx9YNcyMwYN">
+        <u xml:id="i-FajyWPvSKCaoteCX2WvtVu" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-VMXDsy5ZJp2WmfiZXAPvZa">
           <seg xml:id="i-9jAwk3smgAaMnihbUFSbnS">
             Sjöfartsverket finansieras i dag helt och hållet av avgifter.
             Det har gjort att vi i dagsläget har höga avgifter som riskerar
             att avskräcka från överflytt av godstransporter från land till
             sjö och hav.
           </seg>
-        </u>
-        <u xml:id="i-P3h6Nw2jaUVbx9YNcyMwYN" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-FajyWPvSKCaoteCX2WvtVu" next="i-U9XHbnk9i2a38mADq89qKr">
           <seg xml:id="i-3gQAMeTaUjg1UkUN6FrVwp">
             Fru talman! En majoritet i den här kammaren har slagit fast att
             Sjöfartsverkets organisation och finansiering behöver ses över.
@@ -3208,23 +2846,17 @@
             tillkännagivande om Sjöfartsverkets finansiering beslutades det
             om i här kammaren för cirka två år sedan.
           </seg>
-        </u>
-        <u xml:id="i-U9XHbnk9i2a38mADq89qKr" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-P3h6Nw2jaUVbx9YNcyMwYN" next="i-7m2EpaiLZU87z2xme8Wzp3">
           <seg xml:id="i-MSpKgSQHX61WBDvSYxgNLp">
             Fru talman! I ärlighetens namn upplever jag att Socialdemokraterna
             i synnerhet bortser från det faktum att den här regeringen, liksom
             den förra, inte har majoritet här i riksdagen.
           </seg>
-        </u>
-        <u xml:id="i-7m2EpaiLZU87z2xme8Wzp3" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-U9XHbnk9i2a38mADq89qKr" next="i-CDHptdiy91ETUGVxz2c2ke">
           <seg xml:id="i-LDQMkULXsWs93DnTmEKYPo">
             Många har fått till svar att de tillkännagivanden som finns om
             Sjöfartsverket bereds på Regeringskansliet, trots att tillkännagivandet
             kom för snart två år sedan. Det har inte ens kommit så mycket
             som direktiv till en utredning.
           </seg>
-        </u>
-        <u xml:id="i-CDHptdiy91ETUGVxz2c2ke" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-7m2EpaiLZU87z2xme8Wzp3" next="i-uzN5ckYCmGeyfKwYiVwiS">
           <seg xml:id="i-4UrJYTUxetDJbV71fpqtRZ">
             Sverige skulle kunna ha en ljus framtid som sjöfartsnation och
             ännu bättre utnyttja potentialen i allt vatten som redan finns
@@ -3232,15 +2864,11 @@
             lämnar besked och tar tag i de problem som branschen och transportköpare
             lyfter.
           </seg>
-        </u>
-        <u xml:id="i-uzN5ckYCmGeyfKwYiVwiS" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-CDHptdiy91ETUGVxz2c2ke" next="i-T1tX8g9WMySPq4oB79WhQz">
           <seg xml:id="i-DgTTghasfkjoDcXN2kJqCf">
             Nu sa infrastrukturministern i sitt svar att han ber att få återkomma
             i närtid med besked kring Sjöfartsverket. Det är ju alltid något
             jämfört med att bara säga att ärendet bereds.
           </seg>
-        </u>
-        <u xml:id="i-T1tX8g9WMySPq4oB79WhQz" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-uzN5ckYCmGeyfKwYiVwiS">
           <seg xml:id="i-7tcX7nciBJ76yGVVjkGPPN">
             Jag och många med mig väntar på besked, och jag undrar därför
             när infrastrukturministern avser att återkomma. Vad menas med
@@ -3250,15 +2878,13 @@
         <note xml:id="i-AsxNAxzNg3LhuK8t3Whuby" type="speaker">
           Anf. 36 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-CspZJSpEdQR5iqGbCDu6kG" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-S3ie3xMkG83sAvK4KSsZLd">
+        <u xml:id="i-CspZJSpEdQR5iqGbCDu6kG" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-BWruXNbFAVxgC7KYnB8SGg">
           <seg xml:id="i-LDzQo73yDwjrUaPAgFyQjg">
             Fru talman! Jag tackar Maria Stockhaus för engagemanget och för
             ständigt bra diskussioner och debatter. Jag är övertygad om att
             Maria Stockhaus och jag är överens om vikten och behovet av att
             förnya isbrytarflottan. Detta är viktigt.
           </seg>
-        </u>
-        <u xml:id="i-S3ie3xMkG83sAvK4KSsZLd" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-CspZJSpEdQR5iqGbCDu6kG" next="i-Nv1qtqHL1cx43BuJfeeH16">
           <seg xml:id="i-HSPruT7jigHQftFVkqYwUj">
             Närtid är närtid. Det råder ju en pandemi, men vi arbetar så
             intensivt vi kan i Regeringskansliet med ett flertal olika insatser,
@@ -3269,8 +2895,6 @@
             mån om att hålla en god relation med riksdagen och följa de tillkännagivanden
             som finns. För mig är detta väldigt viktigt.
           </seg>
-        </u>
-        <u xml:id="i-Nv1qtqHL1cx43BuJfeeH16" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-S3ie3xMkG83sAvK4KSsZLd" next="i-BWruXNbFAVxgC7KYnB8SGg">
           <seg xml:id="i-WwqCaDVGo9nqtipMYLN3QC">
             Låt mig däremot säga att jag blev förvånad när företrädare i
             riksdagen så tydligt sa att finansieringen ska ske i nationell
@@ -3285,7 +2909,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=32"/>
-        <u xml:id="i-BWruXNbFAVxgC7KYnB8SGg" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-Nv1qtqHL1cx43BuJfeeH16" next="i-MjgPrTbfYkMM5XLKdVxHNE">
+        <u xml:id="i-BWruXNbFAVxgC7KYnB8SGg" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-CspZJSpEdQR5iqGbCDu6kG">
           <seg xml:id="i-8swxZVAsyt7EhxDvgkxtAU">
             Det viktigaste – och det är väl det som är regeringens utgångspunkt
             – är att vi behöver se till att vi får ett ordentligt underlag
@@ -3296,8 +2920,6 @@
             att se till att så pass starka motorer samtidigt kan drivas på
             hållbara bränslen.
           </seg>
-        </u>
-        <u xml:id="i-MjgPrTbfYkMM5XLKdVxHNE" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-BWruXNbFAVxgC7KYnB8SGg" next="i-KpKPei7tQPsGZJsrHNK3Lx">
           <seg xml:id="i-M7NZxkb2t76wJAA1yQu4y6">
             Naturligtvis handlar det också om vilka funktionskrav som ska
             finnas givet klimatförändringarna. Jag vill vara tydlig. En del
@@ -3308,8 +2930,6 @@
             för isbrytning, när isen både smälter och fryser lite tuffare
             än tidigare. Det talar för vikten av att ha en bra isbrytarkapacitet.
           </seg>
-        </u>
-        <u xml:id="i-KpKPei7tQPsGZJsrHNK3Lx" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-MjgPrTbfYkMM5XLKdVxHNE" next="i-3KySWs8FaYZqtxiLLhcXfd">
           <seg xml:id="i-4izGXasff1anXeP1NaWkoA">
             Detta är självklart. Inte skulle regeringen lägga så stora resurser
             som vi nu gör, inte minst på fördjupningen i Luleå hamn och Malmporten,
@@ -3321,8 +2941,6 @@
             det är trångt på spåren och fullt på vägarna är sjöfarten en fantastisk
             resurs.
           </seg>
-        </u>
-        <u xml:id="i-3KySWs8FaYZqtxiLLhcXfd" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-KpKPei7tQPsGZJsrHNK3Lx" next="i-Mgq7WkV8g1wmAjfSWtSucB">
           <seg xml:id="i-7v4QArPnUFf4sJz8p3NeXy">
             Därför gläds jag åt det starka engagemang som har funnits för
             sjöfarten under ett antal år. Från regeringens sida har vi gjort
@@ -3334,8 +2952,6 @@
             nyligen kunde vi anta Clydebank-deklarationen, som innebär gröna
             korridorer i Europa för sjöfarten. Låt oss fortsätta det engagemanget!
           </seg>
-        </u>
-        <u xml:id="i-Mgq7WkV8g1wmAjfSWtSucB" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-3KySWs8FaYZqtxiLLhcXfd">
           <seg xml:id="i-R8KyZfr2iBxMHZBsXDVbfq">
             Jag har all respekt och förståelse för att det ibland är frustrerande
             att vara i opposition och inte i regeringsställning. Men jag är
@@ -3347,7 +2963,7 @@
         <note xml:id="i-LK3YTZncfZt9CFv9k7775T" type="speaker">
           Anf. 37 MARIA STOCKHAUS (M):
         </note>
-        <u xml:id="i-4zuLCLxCHoXV3GtmC5smZ6" who="i-5kLPqJYKuXdEi7mU2QqyGZ" next="i-HBe9Pk7VWiyR2hXshmvhVq">
+        <u xml:id="i-4zuLCLxCHoXV3GtmC5smZ6" who="i-5kLPqJYKuXdEi7mU2QqyGZ" next="i-NpW54pwaQehHG3J4QaQmMV">
           <seg xml:id="i-Q4HmE9tUgzTHWVHJfb5uKp">
             Fru talman! Jag tycker att det är intressant att infrastrukturministern
             försäkrar att han är mån om en dialog med riksdagen och trafikutskottet.
@@ -3356,8 +2972,6 @@
             vi har haft några diskussioner på den nivå som infrastrukturministern
             hänvisar till.
           </seg>
-        </u>
-        <u xml:id="i-HBe9Pk7VWiyR2hXshmvhVq" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-4zuLCLxCHoXV3GtmC5smZ6" next="i-NpW54pwaQehHG3J4QaQmMV">
           <seg xml:id="i-3HdghQ1kKCk9eP8dE95CyJ">
             Det vi delar är ett engagemang för sjöfarten. Det är väl en bra
             utgångspunkt, för potentialen är stor. Vi har väldigt mycket vatten,
@@ -3369,7 +2983,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/00F4CA25-B2DC-471E-A96A-F41F0D09D483#page=33"/>
-        <u xml:id="i-NpW54pwaQehHG3J4QaQmMV" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-HBe9Pk7VWiyR2hXshmvhVq" next="i-PySo6de7WqcTeQQCBkNosL">
+        <u xml:id="i-NpW54pwaQehHG3J4QaQmMV" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-4zuLCLxCHoXV3GtmC5smZ6">
           <seg xml:id="i-WxkdJPbEPg2iCUp1BnSds9">
             På Näringslivets Transportråds vårmöte 2021 diskuterades isbrytarna.
             Då var Miljöpartiets representant ärlig med att Miljöpartiet i
@@ -3378,8 +2992,6 @@
             inom ramen för infrastrukturplanen men att det var något som Socialdemokraterna
             inte var intresserade av.
           </seg>
-        </u>
-        <u xml:id="i-PySo6de7WqcTeQQCBkNosL" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-NpW54pwaQehHG3J4QaQmMV" next="i-CSg1PTGcWdsnoef8FxaQo2">
           <seg xml:id="i-MT3q8wzeopoPMLhEYXEC93">
             En majoritet här i riksdagen har varit tydlig med att vi anser
             att de nya isbrytarna ska finansieras i den nationella planen.
@@ -3388,8 +3000,6 @@
             håller med Miljöpartiet, men just i det här fallet hade jag önskat
             att infrastrukturministern valt att lyssna på dem.
           </seg>
-        </u>
-        <u xml:id="i-CSg1PTGcWdsnoef8FxaQo2" who="i-5kLPqJYKuXdEi7mU2QqyGZ" prev="i-PySo6de7WqcTeQQCBkNosL">
           <seg xml:id="i-A8UYC4aDE6VCJw83cx7Lmg">
             Vid samma tillfälle fick infrastrukturministern frågor kring
             detta med isbrytarna i plan. Då sa han att riksdagen bara tar
@@ -3402,7 +3012,7 @@
         <note xml:id="i-Ewd1JwJY3H2qWEMhBzxFQD" type="speaker">
           Anf. 38 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-Ufk7yhGs2L3j7at7tG1tSv" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-U9NsUf8idcykwjG2C4keTx">
+        <u xml:id="i-Ufk7yhGs2L3j7at7tG1tSv" who="i-G8564CqEnhC5PBjZSwUxsE">
           <seg xml:id="i-LEPFc59T4jWXEFDPCy3Z57">
             Fru talman! Jag noterar att Moderaterna vill lyfta ur stambanorna
             men lyfta in isbrytarna. Det är ju ett intressant ställningstagande.
@@ -3414,8 +3024,6 @@
             är det viktigaste utan det faktum att vi har ett bra underlag
             och att vi förnyar isbrytarflottan. Det är det som är viktigt.
           </seg>
-        </u>
-        <u xml:id="i-U9NsUf8idcykwjG2C4keTx" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-Ufk7yhGs2L3j7at7tG1tSv" next="i-SGNpyukkdEGih6CvqKkjE8">
           <seg xml:id="i-8mDmQ4pjwqHefpF2ANVkMA">
             Jag har själv varit och tittat på det som jag tror är den modernaste
             isbrytaren i världen, den finländska Polaris. Det är en fantastisk
@@ -3428,8 +3036,6 @@
             inte bara höfta fram ett ställningstagande, utan man måste veta
             alla kostnadsberäkningar. Det är viktigt.
           </seg>
-        </u>
-        <u xml:id="i-SGNpyukkdEGih6CvqKkjE8" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-U9NsUf8idcykwjG2C4keTx">
           <seg xml:id="i-SyCHoRtPnPy79G6rXurfAi">
             Jag tar detta som ett erbjudande från Maria Stockhaus och Moderaterna
             om en än tätare samverkan i ett antal frågor. Jag har inga bekymmer

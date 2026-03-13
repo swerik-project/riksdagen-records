@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-5p747iNv5y22hy9e9bgXpx" type="speech">
             <linkGrp type="u">
               <ptr target="#i-WRhzvCXiCutsiWh4QTn4DR"/>
@@ -475,7 +475,13 @@
               <ptr target="#i-4AqsbzQzQeEUPHYg5HM3uj"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -509,7 +515,7 @@
           Svar på enkla frågor av: herr Molin (fp) om ändrade regler för
           beskattning av
         </note>
-        <u xml:id="i-8SoqG5sFbmDAoj8kmXwBoE" who="unknown">
+        <u xml:id="i-8SoqG5sFbmDAoj8kmXwBoE" who="unknown" next="i-B4S8L48K6ryLyaxX66V5Mq">
           <seg xml:id="i-XznRoKN6ohvCrCUu9dbt2N">
             UDP: «sla salg e a bl Hj4lRENA RS LEE NN » herr Börjesson i Falköping
             (c) om ökad skattebefrielse för INNOIDA FÖRDOM 29 6 äga älg erg
@@ -540,7 +546,7 @@
           Svar på enkla frågor av: herr Petersson i Röstånga (fp) ang.
           tendensen bland polis-
         </note>
-        <u xml:id="i-B4S8L48K6ryLyaxX66V5Mq" who="unknown">
+        <u xml:id="i-B4S8L48K6ryLyaxX66V5Mq" who="unknown" prev="i-8SoqG5sFbmDAoj8kmXwBoE">
           <seg xml:id="i-EYMksV5VvwZJQqrujWpWo4">
             männen i Stockholm att söka sig till andra orter ...... 90 herr
             Lothigius (m) om åtgärder mot missförhållandena på
@@ -859,14 +865,12 @@
         <note xml:id="i-Dmtp1cSikV61wahPvdqgAt" type="speaker">
           Herr TALMANNEN yttrade:
         </note>
-        <u xml:id="i-SiVge7PT5RckTwpiH7aHzq" who="i-Kv4hUGrgspgE3ZEpZrgHtZ" next="i-3EZdrwQcU61VqAXrRFSShr">
+        <u xml:id="i-SiVge7PT5RckTwpiH7aHzq" who="i-Kv4hUGrgspgE3ZEpZrgHtZ">
           <seg xml:id="i-Q3YGfbCcduYNhK9mCmW2N6">
             I fråga om detta betänkande hålles gemensam överläggning för
             samtliga punkter. Under den gemensamma överläggningen framställs
             yrkanden beträffande samtliga punkter i betänkandet.
           </seg>
-        </u>
-        <u xml:id="i-3EZdrwQcU61VqAXrRFSShr" who="i-Kv4hUGrgspgE3ZEpZrgHtZ" prev="i-SiVge7PT5RckTwpiH7aHzq">
           <seg xml:id="i-3B2A4Bq5q36vJmUR8FY1BT">
             I det följande redovisas endast de punkter i justitieutskottets
             betänkande nr 6, vid vilka under överläggningen framställts särskilda
@@ -1873,7 +1877,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1972--54/prot_1972__54-018.jp2/_view"/>
-        <u xml:id="i-bfaa4bd6f8778d04-12" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-bfaa4bd6f8778d04-11" next="i-7ZRSbgHwi6gXpEWQ9vxicG">
+        <u xml:id="i-bfaa4bd6f8778d04-12" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-bfaa4bd6f8778d04-11" next="i-bfaa4bd6f8778d04-17">
           <seg xml:id="i-5SmGs6re8nwbgm5eGizYC5">
             Frågan om fångvårdspersonalens arbetssituation har i år bl. a.
             tagits upp i motionen 313. Förra året motionerade vi från vårt
@@ -1886,14 +1890,10 @@
             arbetssituationen för de anställda. Jag yrkar därför bifall till
             reservationen 7.
           </seg>
-        </u>
-        <u xml:id="i-7ZRSbgHwi6gXpEWQ9vxicG" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-bfaa4bd6f8778d04-12" next="i-bfaa4bd6f8778d04-13">
           <seg xml:id="i-UVDitrmJ9Sds1GsmKmsUG4">
             Frågan om frivårdens organisation och rekryteringen av övervakare
             har tagits upp i bl. a. motionerna 110, 903 och 904.
           </seg>
-        </u>
-        <u xml:id="i-bfaa4bd6f8778d04-13" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-7ZRSbgHwi6gXpEWQ9vxicG" next="i-3x1Y6JEDj4pyWNGLJiSDJ3">
           <seg xml:id="i-Am3ex66uLX21EJfFo3zWva">
             I motionen 110 framhålles bl. a. behovet av en förnyad, noggrann
             genomgång av eftervårdens hela uppläggning och ett utökat och
@@ -1911,16 +1911,12 @@
             att överväga och framlägga förslag angående rekrytering och utbildning
             av övervakare.
           </seg>
-        </u>
-        <u xml:id="i-3x1Y6JEDj4pyWNGLJiSDJ3" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-bfaa4bd6f8778d04-13" next="i-bfaa4bd6f8778d04-14">
           <seg xml:id="i-6vWpqcVd9AWCJNSr1uEZsN">
             Motionen 904 har i huvudsak samma innehåll som en motion som
             väcktes förra året. Motionärerna återkommer nu med begäran om
             utredning och förslag om former för en av staten stödd utökad
             övervakarverksamhet inom de religiösa och i övrigt ideella organisationerna.
           </seg>
-        </u>
-        <u xml:id="i-bfaa4bd6f8778d04-14" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-3x1Y6JEDj4pyWNGLJiSDJ3" next="i-H3wSkC9ttHUY6Jz76mopes">
           <seg xml:id="i-TuD9JxJpaMeVckXMtZVpVP">
             Motionärerna anser det vara lämpligt att ytterligare aktivera
             religiösa och övriga ideella organisationer i ansvarstagande för
@@ -1939,8 +1935,6 @@
             inom kriminalvården i ett större sammanhang i anslutning till
             reservationen 6, till vilken jag redan nu yrkar bifall.
           </seg>
-        </u>
-        <u xml:id="i-H3wSkC9ttHUY6Jz76mopes" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-bfaa4bd6f8778d04-14" next="i-bfaa4bd6f8778d04-15">
           <seg xml:id="i-Y49ZwiHUWU5DLgCY6N7Qxj">
             Reservanterna, som finner det angeläget att alla möjligheter
             att stärka frivårdens rehabiliteringseffekt tillvaratas, föreslår
@@ -1949,8 +1943,6 @@
             om frivårdens organisation, om rekrytering och utbildning av övervakare
             och om de ideella organisationernas övervakningsverksamhet.
           </seg>
-        </u>
-        <u xml:id="i-bfaa4bd6f8778d04-15" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-H3wSkC9ttHUY6Jz76mopes" next="i-bfaa4bd6f8778d04-17">
           <seg xml:id="i-9Pt2t6o7vcH4nQwm612stX">
             Med hänvisning till det anförda ber jag att få yrka bifall till
           </seg>
@@ -1983,7 +1975,7 @@
         <note xml:id="i-Mvn9N4KNXYHDB2juRFQNS1">
           reservationen 9.
         </note>
-        <u xml:id="i-bfaa4bd6f8778d04-17" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-bfaa4bd6f8778d04-15">
+        <u xml:id="i-bfaa4bd6f8778d04-17" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-bfaa4bd6f8778d04-12">
           <seg xml:id="i-H59Krk5KWZfvMTybrokVjD">
             Så några ord om den kriminologiska forskningen. Kunskaperna om
             olika behandlingsformers effektivitet är ännu ytterst begränsade.
@@ -2142,7 +2134,7 @@
         <note xml:id="i-V3RBYHhfa2KWSNnTkmUvNd">
           136
         </note>
-        <u xml:id="i-3518de96c2e1b05d-3" who="i-Gj2kViB6AWtCKXHbZsn7C5" prev="i-3518de96c2e1b05d-1" next="i-J4fevF32Ryjhhs16bb1BFo">
+        <u xml:id="i-3518de96c2e1b05d-3" who="i-Gj2kViB6AWtCKXHbZsn7C5" prev="i-3518de96c2e1b05d-1">
           <seg xml:id="i-JfcPELohzKc4HC1HrHrWuV">
             resultat för våra insatser. Som jag tidigare sagt tror jag att
             de frivilliga insatserna här är mycket betydelsefulla.
@@ -2176,8 +2168,6 @@
             ett anslag. Jag menar nog att kriminalvårdsstyrelsen skall ha
             detta ansvar, och därför bör vi inte göra något uttalande.
           </seg>
-        </u>
-        <u xml:id="i-J4fevF32Ryjhhs16bb1BFo" who="i-Gj2kViB6AWtCKXHbZsn7C5" prev="i-3518de96c2e1b05d-3">
           <seg xml:id="i-TWPsXS9htHrZWVbQdFV4uy">
             Herr talman! Jag vill med detta avsluta mitt anförande. Jag yrkar
             bifall till reservationerna 1—5, 7, 8, 9 och 11 samt i övrigt
@@ -2874,12 +2864,10 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1972--54/prot_1972__54-030.jp2/_view"/>
-        <u xml:id="i-609d8ab202247175-3" who="i-91SAXsUbmLaUj8YfQKHZ1n" prev="i-609d8ab202247175-2" next="i-2VXpA2vsYkzwVKWk7kKqHC">
+        <u xml:id="i-609d8ab202247175-3" who="i-91SAXsUbmLaUj8YfQKHZ1n" prev="i-609d8ab202247175-2">
           <seg xml:id="i-AbRnRkD76fhnj2cW2x5rSY">
             svårt att differentiera då. Nr 54
           </seg>
-        </u>
-        <u xml:id="i-2VXpA2vsYkzwVKWk7kKqHC" who="i-91SAXsUbmLaUj8YfQKHZ1n" prev="i-609d8ab202247175-3" next="i-609d8ab202247175-4">
           <seg xml:id="i-BxkDuPccUs4cMZWPt8v7WW">
             Jag skall citera vad andre förbundsordförande Lars Sandberg i
             Fredagen den Statsanställdas förbund, den organisation som denna
@@ -2887,8 +2875,6 @@
             vid fullbeläggning på anstalterna. Sätt stopp i tid för ytterligare
             anstaltsmyterier med gisslan! ”
           </seg>
-        </u>
-        <u xml:id="i-609d8ab202247175-4" who="i-91SAXsUbmLaUj8YfQKHZ1n" prev="i-2VXpA2vsYkzwVKWk7kKqHC">
           <seg xml:id="i-P95Uf678rFWipJSUtJRPKS">
             I en tidningsartikel heter det om den uppvaktning som förbundets
             representanter gjorde hos justitieministern den 18 februari: ”Man
@@ -3790,7 +3776,7 @@
         <note xml:id="i-3ooHfwFXBeLgUsCmbfpGn5" type="speaker">
           Herr NISSER (m):
         </note>
-        <u xml:id="i-a5498e03f2440143-0" who="i-Lb6TJhMAdirNrTer6HSGyJ" next="i-6wBXV1tuLD7osJwKQdoJLZ">
+        <u xml:id="i-a5498e03f2440143-0" who="i-Lb6TJhMAdirNrTer6HSGyJ">
           <seg xml:id="i-TZqfexDzxYdRb43ow8An4w">
             Värdet av en god och effektiv skyddskonsulentverksamhet torde
             vara helt fastslaget. Alla torde vi vara överens om att på platser
@@ -3834,8 +3820,6 @@
             är så att säga förebyggande mot brott till en viss grad. Det vore
             därför mycket olyckligt att draga in distriktet i Arvika.
           </seg>
-        </u>
-        <u xml:id="i-6wBXV1tuLD7osJwKQdoJLZ" who="i-Lb6TJhMAdirNrTer6HSGyJ" prev="i-a5498e03f2440143-0">
           <seg xml:id="i-5oZ7EdXEEb6t8UFKfWCoKY">
             Med detta, herr talman, vill jag yrka bifall till reservationen
             10 i justitieutskottets betänkande nr 6.
@@ -4504,7 +4488,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1972--54/prot_1972__54-050.jp2/_view"/>
-        <u xml:id="i-e492608f2121a4de-1" who="i-PyiwQBpejCpREAaq6BBAgf" prev="i-e492608f2121a4de-0" next="i-RBYZBZ5MSwwT7M382GEazz">
+        <u xml:id="i-e492608f2121a4de-1" who="i-PyiwQBpejCpREAaq6BBAgf" prev="i-e492608f2121a4de-0">
           <seg xml:id="i-HifR5s6VH7yQX5ibJrKF84">
             Med stöd 5 8 i radiolagen har Sveriges Radio nekat tillstånd
             till utsändning av en del idrottsevenemang, bl. a. kvalmatcher
@@ -4524,8 +4508,6 @@
             av de gällande reglerna för trådoch länköverföring av radiooch
             TV- program bör föreläggas riksdagen redan under innevarande år.
           </seg>
-        </u>
-        <u xml:id="i-RBYZBZ5MSwwT7M382GEazz" who="i-PyiwQBpejCpREAaq6BBAgf" prev="i-e492608f2121a4de-1">
           <seg xml:id="i-LFjxQVfZdjLSrK8FWKC9Pi">
             Jag ber, herr talman, att få yrka bifall till den vid betänkandet
             fogade reservationen av herr Ahlmark och mig.
@@ -5309,7 +5291,7 @@
         <note xml:id="i-SwMZWaUkmV3PxULq1utSkC" type="speaker">
           Herr RYDÉN (fp):
         </note>
-        <u xml:id="i-c4d9fcaf3ccbf052-18" who="unknown" next="i-N6uW9bZ7wpNQKMLjrc8V9">
+        <u xml:id="i-c4d9fcaf3ccbf052-18" who="unknown">
           <seg xml:id="i-GcBp6FtecbkoAEppTh93tF">
             Herr talman! I sakfrågan hade jag kunnat nöja mig med att instämma
             med herrar Nelander och Ahlmark. Jag antecknade mig på talarlistan
@@ -5339,8 +5321,6 @@
             yttrandefriheten. Jag tror många från idrottsrörelsen ställer
             sig bakom folkpartiets krav.
           </seg>
-        </u>
-        <u xml:id="i-N6uW9bZ7wpNQKMLjrc8V9" who="unknown" prev="i-c4d9fcaf3ccbf052-18">
           <seg xml:id="i-4KY7mh6QdBoCbZNocMeJfc">
             Jag vill med detta yrka bifall till den reservation som avgivits
             av herrar Nelander och Ahlmark.
@@ -5594,7 +5574,7 @@
         <note xml:id="i-4jGYANNACRrRkNqzeyqHWZ" type="speaker">
           Herr BRUNDIN (m):
         </note>
-        <u xml:id="i-6582118c3e2f53e8-0" who="i-7oTnqapnshRg18qXWm1AaJ" next="i-3YuBh8d5zUYMbYjTbnSXop">
+        <u xml:id="i-6582118c3e2f53e8-0" who="i-7oTnqapnshRg18qXWm1AaJ" next="i-6582118c3e2f53e8-3">
           <seg xml:id="i-YzRQHocei7ajrP9qMJS2A">
             Herr talman! Det här betänkandet behandlar frågan om den statliga
             städverksamheten. Det kan kanske förefalla som en mindre väsentlig
@@ -5644,7 +5624,7 @@
         <note xml:id="i-QiAqXDFxob1SCoLAAAWgr3">
           178
         </note>
-        <u xml:id="i-6582118c3e2f53e8-3" who="i-7oTnqapnshRg18qXWm1AaJ" prev="i-3YuBh8d5zUYMbYjTbnSXop">
+        <u xml:id="i-6582118c3e2f53e8-3" who="i-7oTnqapnshRg18qXWm1AaJ" prev="i-6582118c3e2f53e8-0">
           <seg xml:id="i-Pa2XAd24fUKqRSr6gon6Th">
             besparingar genom att övergå till anlitande av städföretag, har
             den socialdemokratiska majoriteten i finansutskottet inte velat
@@ -5777,7 +5757,7 @@
         <note xml:id="i-GPHb7fZdkvJvArkoojAYzv" type="speaker">
           Herr BRUNDIN (m):
         </note>
-        <u xml:id="i-6582118c3e2f53e8-5" who="i-7oTnqapnshRg18qXWm1AaJ" next="i-4Ty9KA6jBmWfyiFGtbdehZ">
+        <u xml:id="i-6582118c3e2f53e8-5" who="i-7oTnqapnshRg18qXWm1AaJ" next="i-6582118c3e2f53e8-9">
           <seg xml:id="i-KjrAZw7Tb1qQGimKEhLDxh">
             Herr talman! Jag måste än en gång säga till herr Ekström att
             den avgörande skillnaden mellan oss är att ni förordar en lösning
@@ -5817,7 +5797,7 @@
         <note xml:id="i-EhsHfz1rgNoGW6MFBGdcf3">
           180
         </note>
-        <u xml:id="i-6582118c3e2f53e8-9" who="i-7oTnqapnshRg18qXWm1AaJ" prev="i-4Ty9KA6jBmWfyiFGtbdehZ">
+        <u xml:id="i-6582118c3e2f53e8-9" who="i-7oTnqapnshRg18qXWm1AaJ" prev="i-6582118c3e2f53e8-5">
           <seg xml:id="i-57iXVgLGJfJYQ1mwyPhifv">
             att försöka få hjälp, därför att de vid 63 års ålder hade sagts
             upp från sin anställning med mycket, mycket blygsamma pensionsbelopp.

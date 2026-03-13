@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-JfVqJoAdqbfJLUa4qHKBqz" type="speech">
             <linkGrp type="u">
               <ptr target="#i-HP1VLHnEALAvrSSyrUfhML"/>
@@ -169,7 +169,13 @@
               <ptr target="#i-Ky8dn2HsV877vgd5xqhRnQ"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -616,15 +622,13 @@
         <note xml:id="i-NDmULEiEq3fVytKcuh9jpZ" type="speaker">
           Herr SVANBERG (s):
         </note>
-        <u xml:id="i-EnfjEBjaUWFpHafuBiTHqW" who="i-SMtXkX9rqc6Nj3SiUsn8gT" next="i-8wXXErgWzm1nNp4NZMCdDb">
+        <u xml:id="i-EnfjEBjaUWFpHafuBiTHqW" who="i-SMtXkX9rqc6Nj3SiUsn8gT">
           <seg xml:id="i-2vFrcU43BdBa2aF6xKn7fg">
             Herr talman! Valberedningen har enhälligt godkänt gemensamma
             listor för valen av ledamöter och suppleanter i utskotten, medlemmar
             och suppleanter i Nordiska rådet samt ledamöter vilka får delta
             i bolagsstämmor med Statsföretag AB.
           </seg>
-        </u>
-        <u xml:id="i-8wXXErgWzm1nNp4NZMCdDb" who="i-SMtXkX9rqc6Nj3SiUsn8gT" prev="i-EnfjEBjaUWFpHafuBiTHqW">
           <seg xml:id="i-G35WH5f1koJ7afERVQu8tt">
             I egenskap av vice ordförande i valberedningen ber jag att till
             herr talmannen få överlämna de gemensamma listorna.
@@ -2073,15 +2077,13 @@
         <note xml:id="i-9NKqXQRtSgqSLiCaSsMgqn" type="speaker">
           Herr förste vice talmannen BENGTSON (c):
         </note>
-        <u xml:id="i-87KcXWKeob64JYwPrvNmQ8" who="i-XxxhK5cXr2wqWtUSsWnphS" next="i-a0cc56bda14351a3-17">
+        <u xml:id="i-87KcXWKeob64JYwPrvNmQ8" who="i-XxxhK5cXr2wqWtUSsWnphS">
           <seg xml:id="i-PCbnM2GnnESWVw2phNL2Ej">
             Herr talman! Stadgandet i 1866 års riksdagsordning $ 55 om motionsrätt
             med anledning av under riksdagen inträffad händelse har i praxis
             tilllämpats mycket restriktivt, och doktrinen har ställt sig bakom
             denna praxis.
           </seg>
-        </u>
-        <u xml:id="i-a0cc56bda14351a3-17" who="i-XxxhK5cXr2wqWtUSsWnphS" prev="i-87KcXWKeob64JYwPrvNmQ8" next="i-BFBoGPDKU8utNyGCbNHs7">
           <seg xml:id="i-MVrrahvtMNRRrUCaBdoCtL">
             Under förarbetena till författningsreformen diskuterades ingående
             huruvida den nya riksdagsordningen skulle innehålla ett motsvarande
@@ -2101,8 +2103,6 @@
             ett sådant sätt att regeln om tidsbegränsning av rätten att väcka
             fristående motioner inte urholkas.
           </seg>
-        </u>
-        <u xml:id="i-BFBoGPDKU8utNyGCbNHs7" who="i-XxxhK5cXr2wqWtUSsWnphS" prev="i-a0cc56bda14351a3-17">
           <seg xml:id="i-AR1JhWQGFygsgfC42tag4b">
             De i den nu föreliggande motionen åberopade händelserna kan inte
             anses vara av sådan art att de utgör grund för motionsrätt enligt
@@ -2819,7 +2819,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197576--5/prot_197576__5-032.jp2/_view"/>
-        <u xml:id="i-dd672870b054942c-5" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-dd672870b054942c-4" next="i-H5NCyGSxdxVPCKZMWJUxvx">
+        <u xml:id="i-dd672870b054942c-5" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-dd672870b054942c-4">
           <seg xml:id="i-WzdDpav3RdBmJjcwAuMoUB">
             varande finansieringssystem blott två möjligheter: antingen skatteoch
             avgiftshöjningar eller direkta nedskärningar i befintlig verksamhet.
@@ -2845,8 +2845,6 @@
             Med hänvisning till vad här anförts anhåller jag om kammarens
             medgivande att till herr finansministern ställa följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-H5NCyGSxdxVPCKZMWJUxvx" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-dd672870b054942c-5">
           <seg xml:id="i-DpsfZdzZDJZ7jTrrQYikBr">
             Vilka åtgärder är regeringen beredd att vidtaga för att snabbt
             bemästra de ekonomiska svårigheter vilka drabbat kommuner och
@@ -2860,7 +2858,7 @@
           29 av herr Ångström (fp) till herr socialministern om åtgärder
           mot läkarbristen:
         </note>
-        <u xml:id="i-9966460978744ef4-1" who="i-6yryP5FsumcdXgD5cb8aDF" next="i-QptoPFuyFG9Frv8cDBkLdD">
+        <u xml:id="i-9966460978744ef4-1" who="i-6yryP5FsumcdXgD5cb8aDF" next="i-9966460978744ef4-2">
           <seg xml:id="i-6umJttiLbGo5rqRQvcF2Rj">
             Bristen på läkare i Sverige är ett svårt hinder för de ansträngningar
             som görs för att åstadkomma en väl fungerande sjukvård. Bristsituationen
@@ -2879,8 +2877,6 @@
             röntgen. Företagshälsovården kan inte heller fungera på grund
             av läkarbristen.
           </seg>
-        </u>
-        <u xml:id="i-QptoPFuyFG9Frv8cDBkLdD" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-9966460978744ef4-1" next="i-9966460978744ef4-2">
           <seg xml:id="i-NWRAsAWE1Wy2ncLxLejFcs">
             Med hänvisning till det anförda beträffande läkarbristen ställer
             jag följande frågor till herr socialministern:
@@ -2890,7 +2886,7 @@
           1. Vill statsrådet lämna en övergripande redogörelse för läkarsituationen
           i Sverige?
         </note>
-        <u xml:id="i-9966460978744ef4-2" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-QptoPFuyFG9Frv8cDBkLdD" next="i-Vf7yUXDABoLxVQzZ7dWxsN">
+        <u xml:id="i-9966460978744ef4-2" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-9966460978744ef4-1">
           <seg xml:id="i-QpDJA2sKvjaa462vFXoKvu">
             2. Hur skall den nuvarande bristen på läkare hävas?
           </seg>
@@ -2898,8 +2894,6 @@
             3. Hur vill statsrådet stimulera rekryteringen till de specialiteter
             där bristen är störst?
           </seg>
-        </u>
-        <u xml:id="i-Vf7yUXDABoLxVQzZ7dWxsN" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-9966460978744ef4-2">
           <seg xml:id="i-VZwNxhLy8QfhyAFdvWjJin">
             4. Hur vill statsrådet häva bristen på läkare vid läkarstationer
             i Norrland och landets övriga glesbygdsområden?
@@ -2940,7 +2934,7 @@
           30 av herr Nilsson i Tvärålund (c) till herr utbildningsministern
           om utlokalisering av delar av Sveriges Radios utbildningsverksamhet:
         </note>
-        <u xml:id="i-c60cc77cf6e92b4d-1" who="i-NNg3rVUKuVF2eKT1NULEhB" next="i-AhvCQNcPR4SEHojyjJ3ZoD">
+        <u xml:id="i-c60cc77cf6e92b4d-1" who="i-NNg3rVUKuVF2eKT1NULEhB" next="i-c60cc77cf6e92b4d-4">
           <seg xml:id="i-VYJtV3Z6Fwc69HbakV7sR">
             År 1970 föreslog delegationen för utlokalisering av statlig verksamhet
             att TRU och Sveriges Radios utbildningsverksamhet skulle lokaliseras
@@ -2958,15 +2952,11 @@
             utredning. Även andra lokaliseringsalternativ bör emellertid kunna
             övervägas.”
           </seg>
-        </u>
-        <u xml:id="i-AhvCQNcPR4SEHojyjJ3ZoD" who="i-NNg3rVUKuVF2eKT1NULEhB" prev="i-c60cc77cf6e92b4d-1" next="i-c60cc77cf6e92b4d-2">
           <seg xml:id="i-Fm3JvNGVW6UhuTiY6rDVB4">
             Riksdagen beslöt i enlighet med utskottets förslag. Delegationen
             för utlokalisering av statlig verksamhet fick på nytt ärendet
             för prövning och fick i uppdrag att lägga fram förslag i lokaliseringsfrågan.
           </seg>
-        </u>
-        <u xml:id="i-c60cc77cf6e92b4d-2" who="i-NNg3rVUKuVF2eKT1NULEhB" prev="i-AhvCQNcPR4SEHojyjJ3ZoD" next="i-L2ATic8b4M92sd9fSeAB11">
           <seg xml:id="i-PUTMtdXaxyP9Jd5caamFsc">
             1973 övertog TRU II, som tillkallades i december 1971 och som
             haft i uppdrag att utreda den fortsatta verksamheten för TV och
@@ -2990,16 +2980,12 @@
             som tidigare. Enligt min mening synes TRU II helt ha missuppfattat
             denna situation.
           </seg>
-        </u>
-        <u xml:id="i-L2ATic8b4M92sd9fSeAB11" who="i-NNg3rVUKuVF2eKT1NULEhB" prev="i-c60cc77cf6e92b4d-2" next="i-c60cc77cf6e92b4d-3">
           <seg xml:id="i-9wWwgkGhWtVHoDZdGSEtX9">
             Av SOU 1975:28 framgår att TRU II inte prövat en partiell utlokalisering
             av TRU till Umeå och/eller Norrköping. Med hänsyn bl. a. till
             riksdagens beslut att decentralisera TV- och radioverksamheten
             borde, enligt min mening, detta gälla även TRU.
           </seg>
-        </u>
-        <u xml:id="i-c60cc77cf6e92b4d-3" who="i-NNg3rVUKuVF2eKT1NULEhB" prev="i-L2ATic8b4M92sd9fSeAB11" next="i-c60cc77cf6e92b4d-4">
           <seg xml:id="i-AMdpCvac9TNVZFBq2SzYkt">
             Det kan knappast anses önskvärt ur principiell och praktisk synpunkt
             med hundraprocentig centralisering till Stockholm av produktion
@@ -3016,7 +3002,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197576--5/prot_197576__5-034.jp2/_view"/>
-        <u xml:id="i-c60cc77cf6e92b4d-4" who="i-NNg3rVUKuVF2eKT1NULEhB" prev="i-c60cc77cf6e92b4d-3" next="i-SScxvXSKtyUJwxDhLUVchn">
+        <u xml:id="i-c60cc77cf6e92b4d-4" who="i-NNg3rVUKuVF2eKT1NULEhB" prev="i-c60cc77cf6e92b4d-1" next="i-GCUKQhzJ54QebaRD5AHBpd">
           <seg xml:id="i-VzfJ2DAEvPbrQvR6qHZAhE">
             tydande kostnader vid produktion utanför Stockholmsområdet. Det
             finns exempel på hur distrikten kunnat göra motsvarande program
@@ -3031,14 +3017,10 @@
             orter i landet prövas. Umeå och Norrköping har kvaliteter som
             möjliggör produktion av program för undervisning.
           </seg>
-        </u>
-        <u xml:id="i-SScxvXSKtyUJwxDhLUVchn" who="i-NNg3rVUKuVF2eKT1NULEhB" prev="i-c60cc77cf6e92b4d-4" next="i-c60cc77cf6e92b4d-5">
           <seg xml:id="i-XmrvsUWDkR3c4GQhaJofDH">
             Med hänvisning till det anförda anhålles om kammarens tillstånd
             att till herr utbildningsministern ställa följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-c60cc77cf6e92b4d-5" who="i-NNg3rVUKuVF2eKT1NULEhB" prev="i-SScxvXSKtyUJwxDhLUVchn" next="i-GCUKQhzJ54QebaRD5AHBpd">
           <seg xml:id="i-VkiRaDneQdaUKvwAcDoE3V">
             Är statsrådet beredd pröva frågan om lokalisering av delar av
             utbildningsprogramproduktionen till andra orter än Stockholm,
@@ -3049,7 +3031,7 @@
           1975/76:31 av herr Larsson i Staffanstorp (c) till herr utbildningsministern
           om lärarutbildningen:
         </note>
-        <u xml:id="i-GCUKQhzJ54QebaRD5AHBpd" who="i-NNg3rVUKuVF2eKT1NULEhB" prev="i-c60cc77cf6e92b4d-5" next="i-c60cc77cf6e92b4d-6">
+        <u xml:id="i-GCUKQhzJ54QebaRD5AHBpd" who="i-NNg3rVUKuVF2eKT1NULEhB" prev="i-c60cc77cf6e92b4d-4" next="i-c60cc77cf6e92b4d-8">
           <seg xml:id="i-CTRyBUq9QTQNg4PjVDpWXj">
             I en promemoria (Ds U 1975:12) föreslår arbetsgruppen för vissa
             lärarhögskolefrågor att klasslärarutbildningen skall koncentreras
@@ -3058,8 +3040,6 @@
             utbildning avvecklas i Falun, Härnösand, Kristianstad, Luleå,
             Uppsala och Växjö.
           </seg>
-        </u>
-        <u xml:id="i-c60cc77cf6e92b4d-6" who="i-NNg3rVUKuVF2eKT1NULEhB" prev="i-GCUKQhzJ54QebaRD5AHBpd" next="i-c60cc77cf6e92b4d-8">
           <seg xml:id="i-TNnTDwa4BNbqU1K59LAj4N">
             Arbetsgruppens dimensioneringsförslag bygger på prognosmaterial
             från år 1972. Osäkerheten i prognosen har redan visat sig i och
@@ -3118,7 +3098,7 @@
         <note xml:id="i-J2nfB7zo4UB1a5hfTZVtVP">
           94
         </note>
-        <u xml:id="i-c60cc77cf6e92b4d-8" who="i-NNg3rVUKuVF2eKT1NULEhB" prev="i-c60cc77cf6e92b4d-6" next="i-c60cc77cf6e92b4d-10">
+        <u xml:id="i-c60cc77cf6e92b4d-8" who="i-NNg3rVUKuVF2eKT1NULEhB" prev="i-GCUKQhzJ54QebaRD5AHBpd" next="i-c60cc77cf6e92b4d-10">
           <seg xml:id="i-8tNr2ojQx5AarYoaBPwR1X">
             inte beaktar de av politiska beslut föranledda förändringar som
             rör exempelvis förlängningen av ersättningstiden för föräldrapenning,
@@ -3216,7 +3196,7 @@
           31 av herr Claeson (vpk) till herr statsrådet Lidbom om åtgärder
           mot svartabörshandeln med lägenheter:
         </note>
-        <u xml:id="i-2504c7f8d83cc86b-1" who="unknown" next="i-YPvQ5cQ2YcQMgLWFRTg98v">
+        <u xml:id="i-2504c7f8d83cc86b-1" who="unknown">
           <seg xml:id="i-WLgB6RS4StuU3MWig2gR9M">
             Bl. a. Sveriges Radio har på sistone informerat om en fortgående
             trafik med uppskörtning av bostadssökande, som avkrävts pengar
@@ -3232,8 +3212,6 @@
             Mot bakgrund av det anförda får jag till herr statsrådet Lidbom
             rikta frågan:
           </seg>
-        </u>
-        <u xml:id="i-YPvQ5cQ2YcQMgLWFRTg98v" who="unknown" prev="i-2504c7f8d83cc86b-1">
           <seg xml:id="i-2uPnAfdcJUGLC1pt5Lxd1K">
             Hur ser statsrådet på möjligheterna att genom straffskärpning
             eller andra insatser komma till rätta med svartabörshandeln med

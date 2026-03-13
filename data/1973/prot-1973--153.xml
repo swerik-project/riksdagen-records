@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-LHc8MrvdZ1jag29HydTgM5" type="speech">
             <linkGrp type="u">
               <ptr target="#i-d4fc20735f612824-0"/>
@@ -292,7 +292,13 @@
               <ptr target="#i-997efb1258f04a93-0"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -526,7 +532,7 @@
         <note xml:id="i-9N5tx1xE2GR2iURcBbFH8H" type="speaker">
           Herr TAKMAN (vpk):
         </note>
-        <u xml:id="i-d4fc20735f612824-0" who="i-XXBpK5wHTgKTajooKHNpZp" next="i-XPVxfE8KS9VML422Ks2TDC">
+        <u xml:id="i-d4fc20735f612824-0" who="i-XXBpK5wHTgKTajooKHNpZp" next="i-d4fc20735f612824-3">
           <seg xml:id="i-7NKpQ4J3ksYxL1E5UNgSBA">
             Herr talman! Näringsutskottets betänkande nr 65 har viss anknytning
             till det aktuella betänkandet. Med talmannens benägna tillstånd
@@ -583,7 +589,7 @@
         <note xml:id="i-P6ejhy6eGfQqBLmnVK1b58">
           120
         </note>
-        <u xml:id="i-d4fc20735f612824-3" who="i-XXBpK5wHTgKTajooKHNpZp" prev="i-XPVxfE8KS9VML422Ks2TDC" next="i-d4fc20735f612824-4">
+        <u xml:id="i-d4fc20735f612824-3" who="i-XXBpK5wHTgKTajooKHNpZp" prev="i-d4fc20735f612824-0" next="i-d4fc20735f612824-4">
           <seg xml:id="i-H6jUmh63HyxzJGmEPNkfML">
             enkla juridiska grepp skulle kunna stoppa en för ett underutvecklat
             land livsviktig export under ett par år. Vi kan för vår del inte
@@ -663,7 +669,7 @@
         <note xml:id="i-SFLj4BdxXoDAZbnDpo26gS" type="speaker">
           Herr WIRMARK (fp):
         </note>
-        <u xml:id="i-58fa73700da24611-0" who="i-SbLWGacqbXdAxWwom9Xqs4" next="i-2vf9koxLFNMFv77xRrsAkK">
+        <u xml:id="i-58fa73700da24611-0" who="i-SbLWGacqbXdAxWwom9Xqs4" next="i-58fa73700da24611-2">
           <seg xml:id="i-P4LnsRTYfAZrScv3b3HF7g">
             Herr talman! Det är angeläget att Sverige står fast vid den målsättning
             som angavs i avtalet om utvecklingssamarbetet med Chile, nämligen
@@ -740,7 +746,7 @@
         <note xml:id="i-PuCR4NUSUepgjo1dqebREk">
           122
         </note>
-        <u xml:id="i-58fa73700da24611-2" who="i-SbLWGacqbXdAxWwom9Xqs4" prev="i-2vf9koxLFNMFv77xRrsAkK">
+        <u xml:id="i-58fa73700da24611-2" who="i-SbLWGacqbXdAxWwom9Xqs4" prev="i-58fa73700da24611-0">
           <seg xml:id="i-7nNCmxfcmBNmR17d4WwWH5">
             politisk förföljelse — t.ex. de många framstående latinamerikanska
             forskare som nu måste få en ny hemvist — tror jag att vi måste
@@ -809,7 +815,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1973--153/prot_1973__153-007.jp2/_view"/>
-        <u xml:id="i-58fa73700da24611-3" who="i-NAHMZkNVjgTNFXpWo6iwb2" prev="i-059f5471eb9c5c93-0" next="i-PgXFjAN5BfhtdQf9dRsmmd">
+        <u xml:id="i-58fa73700da24611-3" who="i-NAHMZkNVjgTNFXpWo6iwb2" prev="i-059f5471eb9c5c93-0" next="i-58fa73700da24611-6">
           <seg xml:id="i-W4sHSwJMjmKC84ZEH66HrP">
             Jag tror inte att det är någon överdrift om jag säger att det
             som har hänt i Chile sedan juntan tog makten i september är det
@@ -904,7 +910,7 @@
         <note xml:id="i-5yoDntyMFNtfABNC6xeoNR">
           124
         </note>
-        <u xml:id="i-58fa73700da24611-6" who="i-NAHMZkNVjgTNFXpWo6iwb2" prev="i-PgXFjAN5BfhtdQf9dRsmmd" next="i-P84b8PBhbPpv7RmcHeaRjL">
+        <u xml:id="i-58fa73700da24611-6" who="i-NAHMZkNVjgTNFXpWo6iwb2" prev="i-58fa73700da24611-3">
           <seg xml:id="i-DsoHSiV5pci9m5mSxaJYs5">
             att hjälpa ett antal flyktingar som har kommit hit. Det har uppgivits
             att ungefär 2600 flyktingar från andra länder har registrerats
@@ -951,8 +957,6 @@
             även om den geografiskt sett har försiggått långt från vårt eget
             land, ändå framstår som en tragedi av stora mått.
           </seg>
-        </u>
-        <u xml:id="i-P84b8PBhbPpv7RmcHeaRjL" who="i-NAHMZkNVjgTNFXpWo6iwb2" prev="i-58fa73700da24611-6">
           <seg xml:id="i-MqqR7SSMzVFV2GgkawKNzx">
             Herr talman! Jag yrkar bifall till utskottets hemställan.
           </seg>
@@ -1594,7 +1598,7 @@
         <note xml:id="i-DXga6tixqhdp2i7S1ZJG4">
           132
         </note>
-        <u xml:id="i-d37ac907887da4fc-8" who="i-7oBpdKNLc3LYD8YF1233E6" prev="i-d37ac907887da4fc-7" next="i-ASGpspV2bihihMrKwcMWua">
+        <u xml:id="i-d37ac907887da4fc-8" who="i-7oBpdKNLc3LYD8YF1233E6" prev="i-d37ac907887da4fc-7">
           <seg xml:id="i-2LDXEWfmJmdM7CPxFWibQF">
             Jag vill alltså särskilt betona att socialstyrelsens utredning
             endast avser att ta ställning till om en avgränsad grupp av naturläkemedel
@@ -1611,8 +1615,6 @@
             i dessa frågor har ju sin chans vid den votering i frågan som
             jag avser att begära.
           </seg>
-        </u>
-        <u xml:id="i-ASGpspV2bihihMrKwcMWua" who="i-7oBpdKNLc3LYD8YF1233E6" prev="i-d37ac907887da4fc-8">
           <seg xml:id="i-9AGiVQssYegnJrLJZzxJpK">
             Herr talman! Jag får härmed hemställa om bifall till samtliga
             tre yrkanden i motionen 1174.
@@ -2274,7 +2276,7 @@
         <note xml:id="i-DmjEFqFnKHr3mwrKV4mY2W">
           140
         </note>
-        <u xml:id="i-24c3406d58503845-7" who="i-7ugPcnmZ6J6FiS44UnXL54" prev="i-24c3406d58503845-6" next="i-4g9TrngF7LVmwom6eKDjuj">
+        <u xml:id="i-24c3406d58503845-7" who="i-7ugPcnmZ6J6FiS44UnXL54" prev="i-24c3406d58503845-6">
           <seg xml:id="i-2qKovDUfkRz8Y22WuGur75">
             Herr talman! Det finns mycket att säga om denna sak. Jag vill
             till sist bara understryka att läkemedelslagstiftningen är en
@@ -2296,8 +2298,6 @@
             det är starkt i sak, och följer man det står man på fast grund
             i sitt arbete.
           </seg>
-        </u>
-        <u xml:id="i-4g9TrngF7LVmwom6eKDjuj" who="i-7ugPcnmZ6J6FiS44UnXL54" prev="i-24c3406d58503845-7">
           <seg xml:id="i-T5Pv2WUtxiRcJANPFuXAHv">
             Herr talman! Jag yrkar bifall till utskottets hemställan.
           </seg>
@@ -2888,19 +2888,15 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1973--153/prot_1973__153-031.jp2/_view"/>
-        <u xml:id="i-3f59443b93cc0431-3" who="i-Bx9fbNBh4ybH7H2kWavRdb" prev="i-3f59443b93cc0431-2" next="i-Gx7dyJpiL71kFJ3hJvSLQP">
+        <u xml:id="i-3f59443b93cc0431-3" who="i-Bx9fbNBh4ybH7H2kWavRdb" prev="i-3f59443b93cc0431-2" next="i-3f59443b93cc0431-5">
           <seg xml:id="i-ME2RYhRbsuwb8A5fGg6sMJ">
             skall vara underdåniga mot utskott, tvärtom. Men jag tror ändå
             att var Nr 153
           </seg>
-        </u>
-        <u xml:id="i-Gx7dyJpiL71kFJ3hJvSLQP" who="i-Bx9fbNBh4ybH7H2kWavRdb" prev="i-3f59443b93cc0431-3" next="i-3f59443b93cc0431-4">
           <seg xml:id="i-EwEXKZMXSko4FCoktLPyw9">
             och ng med något perspektiv kan hålla med am att denga motion
             Tisdagen den
           </seg>
-        </u>
-        <u xml:id="i-3f59443b93cc0431-4" who="i-Bx9fbNBh4ybH7H2kWavRdb" prev="i-Gx7dyJpiL71kFJ3hJvSLQP" next="i-3f59443b93cc0431-5">
           <seg xml:id="i-9EKpfmGhCYTWYVxVYuc7GF">
             har blivit ovanligt positivt behandlad, och det var väl också
             därför herr 11 december 1973 Lothigius uttryckte sin tacksamhet.
@@ -2982,7 +2978,7 @@
         <note xml:id="i-K3gj8qsjBr4wMN1zYfJFEh">
           148
         </note>
-        <u xml:id="i-3f59443b93cc0431-5" who="i-Bx9fbNBh4ybH7H2kWavRdb" prev="i-3f59443b93cc0431-4">
+        <u xml:id="i-3f59443b93cc0431-5" who="i-Bx9fbNBh4ybH7H2kWavRdb" prev="i-3f59443b93cc0431-3">
           <seg xml:id="i-4r1WWoU6gpWpy6vsEDkZ4Z">
             användande av naturläkemetoder, även om det här finns mycket
             som är värt att ta fasta på, framför allt när det gäller en sundare
@@ -4276,7 +4272,7 @@
         <note xml:id="i-U8jN3aivsyYTb5K5NU99g2" type="speaker">
           Herr CARLSHAMRE (m):
         </note>
-        <u xml:id="i-ccc1e02672c65e02-12" who="i-RxkptNoJYi3BWpTneSNTUn" next="i-KugADfXNv38nH6rVVFQqnQ">
+        <u xml:id="i-ccc1e02672c65e02-12" who="i-RxkptNoJYi3BWpTneSNTUn">
           <seg xml:id="i-2n7JWG3fLo1vDbfwSMkDpS">
             Herr talman! Om herr Svensson i Kungälv, som står efter mig på
             talarlistan, tycker som jag skall vi göra den återstående plågan
@@ -4311,8 +4307,6 @@
             för det är en ensam utredningsman — också kan få ett uppslag att
             arbeta med.
           </seg>
-        </u>
-        <u xml:id="i-KugADfXNv38nH6rVVFQqnQ" who="i-RxkptNoJYi3BWpTneSNTUn" prev="i-ccc1e02672c65e02-12">
           <seg xml:id="i-XDoeJJ2Tdb3k5rpMH5Hih2">
             Därför, herr talman, yrkar jag bifall till den reservation som
             är fogad till socialutskottets betänkande nr 29.

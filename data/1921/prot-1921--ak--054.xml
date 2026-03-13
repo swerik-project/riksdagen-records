@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-TrJJLW6jGmqR7gJTcqx2FU" type="speech">
             <linkGrp type="u">
               <ptr target="#i-WsJh2cfFTYhfDns5TZomtF"/>
@@ -269,7 +269,13 @@
               <ptr target="#i-dfaeb770434d1c6f-2"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -743,17 +749,13 @@
         <note xml:id="i-jqScPGKTecVZ9P9sQBHUu">
           607. band, snören och andra snörmakararbeten, fransar,
         </note>
-        <u xml:id="i-FFzZbksmTKcSBDWC9dZHPV" who="unknown" prev="i-Am7iHAmVHaKwQd68fuv3Xp" next="i-Qu4Jw6wQvo3WaGi2PxNKXv">
+        <u xml:id="i-FFzZbksmTKcSBDWC9dZHPV" who="unknown" prev="i-Am7iHAmVHaKwQd68fuv3Xp" next="i-JD75oFb9MdhvWhVV1gxPLq">
           <seg xml:id="i-RpYYvyWo46nhGydK3M5nMt">
             spetsar, spetsvävnader och tyll samt strump-
           </seg>
-        </u>
-        <u xml:id="i-Qu4Jw6wQvo3WaGi2PxNKXv" who="unknown" prev="i-FFzZbksmTKcSBDWC9dZHPV" next="i-6aEparhd5WBJLfYdS6tonH">
           <seg xml:id="i-EEvjiRiSoGA4V7hS8ar3wS">
             stolsarbeten, innehållande metalltråd eller med
           </seg>
-        </u>
-        <u xml:id="i-6aEparhd5WBJLfYdS6tonH" who="unknown" prev="i-Qu4Jw6wQvo3WaGi2PxNKXv" next="i-JD75oFb9MdhvWhVV1gxPLq">
           <seg xml:id="i-ULZvU64nu2cBR9bJKkBpPf">
             metalltråd överspunnet garn till mer än 15 pro-
           </seg>
@@ -1049,7 +1051,7 @@
         <note xml:id="i-ML6yAQKBi4QJQ7pyvMTgV7" type="title">
           Söndagen den 5 juni. 11
         </note>
-        <u xml:id="i-JD75oFb9MdhvWhVV1gxPLq" who="unknown" prev="i-6aEparhd5WBJLfYdS6tonH">
+        <u xml:id="i-JD75oFb9MdhvWhVV1gxPLq" who="unknown" prev="i-FFzZbksmTKcSBDWC9dZHPV">
           <seg xml:id="i-2rJNGWPBbAMuDpeP2kqy7u">
             ringar i tulltaxan, förklara, att de ändrade bestämmelser, som
             riksdagen kunde komma att besluta, skulle träda i kraft å dag,
@@ -1094,7 +1096,7 @@
         <note xml:id="i-JsH8nRJaL5BWSPPkjscaav" type="speaker">
           Chefea för finansdepartementet, herr statsrådet Beskow:
         </note>
-        <u xml:id="i-WsJh2cfFTYhfDns5TZomtF" who="i-JN7m5YpvpuorpXu1JgSkf1" next="i-PDR1bH4JdhqezvPzuLGnVs">
+        <u xml:id="i-WsJh2cfFTYhfDns5TZomtF" who="i-JN7m5YpvpuorpXu1JgSkf1" next="i-NuvDMJaCp2uG6cGAwkMDpa">
           <seg xml:id="i-FrAXYNUTgWcA3aCVEkdpmV">
             Herr vice talman, mina herrar! Som ett studium av Kungl. Maj:ts
             proposition ger vid handen, avser densamma endast sådana tullrubriker,
@@ -1105,8 +1107,6 @@
             utan endast kan anses såsom ett anpassande efter det lägre penningvärde,
             som kristiden fört med sig. :
           </seg>
-        </u>
-        <u xml:id="i-PDR1bH4JdhqezvPzuLGnVs" who="i-JN7m5YpvpuorpXu1JgSkf1" prev="i-WsJh2cfFTYhfDns5TZomtF" next="i-3FsCr9nTDcXSUz3GKy9j9Z">
           <seg xml:id="i-BK28ANiSgGKKnfoTvp3xVd">
             Av mitt anförande till statsrådsprotokollet, då den föreliggande
             propositionen beslöts, torde framgå, att förhöjningen beräknats
@@ -1119,8 +1119,6 @@
             få konstatera, att bevillningsutskottet har tillstyrkt Kungl.
             Maj:ts förslag.
           </seg>
-        </u>
-        <u xml:id="i-3FsCr9nTDcXSUz3GKy9j9Z" who="i-JN7m5YpvpuorpXu1JgSkf1" prev="i-PDR1bH4JdhqezvPzuLGnVs" next="i-NuvDMJaCp2uG6cGAwkMDpa">
           <seg xml:id="i-9grALeQJhsU9GFGBFeD4Zw">
             Mot den jämkning, som utskottet föreslagit i avseende på en av
           </seg>
@@ -1141,15 +1139,13 @@
         <note xml:id="i-NQXTVe7nRCw68cHpgoi9bX" type="date">
           12 Söndagen den 5 juni.
         </note>
-        <u xml:id="i-NuvDMJaCp2uG6cGAwkMDpa" who="i-JN7m5YpvpuorpXu1JgSkf1" prev="i-3FsCr9nTDcXSUz3GKy9j9Z" next="i-6cwL4USjU8ZM7mR9WPQyUA">
+        <u xml:id="i-NuvDMJaCp2uG6cGAwkMDpa" who="i-JN7m5YpvpuorpXu1JgSkf1" prev="i-WsJh2cfFTYhfDns5TZomtF">
           <seg xml:id="i-4FULicDKih8aLEgP6TNh3w">
             de i propositionen upptagna rubrikerna, nämligen den, som rör
             fickur, har jag ingen erinran att göra, och inte heller mot utskottets
             hemställan, att bland de rubriker, som skola vara föremål för
             förhöjning, skola medtagas även arbeten av guld, silver och platina.
           </seg>
-        </u>
-        <u xml:id="i-6cwL4USjU8ZM7mR9WPQyUA" who="i-JN7m5YpvpuorpXu1JgSkf1" prev="i-NuvDMJaCp2uG6cGAwkMDpa" next="i-ET4qA8Dsp5kpJ7XxphP2YD">
           <seg xml:id="i-SnysbBcG1BMw7rTJCFVwd">
             Till utskottets betänkande finnes fogad en reservation av herr
             Örne m. fl., vilken reservation vänder sig mot den ifrågasatta
@@ -1162,8 +1158,6 @@
             erbjuder en god lösning av spörsmålet, hur det angivna beloppet
             av 13 miljoner kronor skall kunna tillföras budgeten.
           </seg>
-        </u>
-        <u xml:id="i-ET4qA8Dsp5kpJ7XxphP2YD" who="i-JN7m5YpvpuorpXu1JgSkf1" prev="i-6cwL4USjU8ZM7mR9WPQyUA">
           <seg xml:id="i-WaVJmnaKhXn3gQCoyxiS7M">
             Under sådana. omständigheter och då ett bifall till reservanternas
             ifrågavarande förslag skulle minska den påräknade inkomsten med
@@ -1293,13 +1287,11 @@
         <note xml:id="i-Ecx16DsPc6Twa9fWm1tgyr" type="date">
           14 Söndagen den 5 juni.
         </note>
-        <u xml:id="i-06c8826d8f608814-1" who="i-4BcPNWjCvomd6SsbUNhuk6" prev="i-06c8826d8f608814-0" next="i-8JhfZ95vCWfCYnWuqnbBj4">
+        <u xml:id="i-06c8826d8f608814-1" who="i-4BcPNWjCvomd6SsbUNhuk6" prev="i-06c8826d8f608814-0">
           <seg xml:id="i-HWKdJTvufqPDrJ4NLZ8GBm">
             reducerade löner, och då måste man försöka undvika varje fördyring
             av levnadskostnaderna. i
           </seg>
-        </u>
-        <u xml:id="i-8JhfZ95vCWfCYnWuqnbBj4" who="i-4BcPNWjCvomd6SsbUNhuk6" prev="i-06c8826d8f608814-1">
           <seg xml:id="i-8uKEkSvG5xqoGoneWL9831">
             På grund av vad jag sålunda anfört, anhåller jag, herr talman,
             att få yrka bifall till den av herr Örne m. fl. avgivna reservationen.
@@ -1526,14 +1518,12 @@
         <note xml:id="i-HP3bu5Pvh5WQfjTVqEsi42" type="date">
           Söndagen den 5 juni. 17
         </note>
-        <u xml:id="i-27G25BMXzBNqGWnxfuiMqJ" who="i-3D7Cfk47LUcjbeGff3k8fV" prev="i-587a121194154681-0" next="i-587a121194154681-1">
+        <u xml:id="i-27G25BMXzBNqGWnxfuiMqJ" who="i-3D7Cfk47LUcjbeGff3k8fV" prev="i-587a121194154681-0">
           <seg xml:id="i-32aShR5vTydWWss4XRQ8V4">
             vande av den tull, som hitintills gällt å varuslag under rubrikerna
             109, 110 och 115 i tulltaxan. Denna motion blev då av andra kammaren
             bifallen, ehuru bevillningsutskottet avstyrkt densamma.
           </seg>
-        </u>
-        <u xml:id="i-587a121194154681-1" who="i-3D7Cfk47LUcjbeGff3k8fV" prev="i-27G25BMXzBNqGWnxfuiMqJ" next="i-WEAaXg3myqrpDJ5vNUK6LD">
           <seg xml:id="i-AmjYwCP9EoEUxN996eWJ1H">
             Jag anser, att just de varuslag, som inbegripas under dessa rubriker,
             äro av den beskaffenhet, att man alls icke bör fördyra dem på
@@ -1582,8 +1572,6 @@
             och fråndraga staten de inkomster, som den rättvisligen bör ha
             på sådant sätt som här ifrågasatts.
           </seg>
-        </u>
-        <u xml:id="i-WEAaXg3myqrpDJ5vNUK6LD" who="i-3D7Cfk47LUcjbeGff3k8fV" prev="i-587a121194154681-1">
           <seg xml:id="i-FhfZ6r7uwPQ1ZP9MV5Vazu">
             Med denna motivering, herr talman, kan jag icke underlåta att
             instämma i det yrkande på bifall till herr Örnes m. fl. reservation,
@@ -2108,7 +2096,7 @@
         <note xml:id="i-TkZayqPUbcxzuJ1dm1iknc" type="date">
           Tisdagen den 7 juni. 20
         </note>
-        <u xml:id="i-d8d38de9ec78a52c-4" who="i-EucyipYZH7KqGXP6UuKNta" prev="i-d8d38de9ec78a52c-3" next="i-HGgTp5TtFPdG8RoQp4pRXe">
+        <u xml:id="i-d8d38de9ec78a52c-4" who="i-EucyipYZH7KqGXP6UuKNta" prev="i-d8d38de9ec78a52c-3" next="i-DxDHXG9Ks7zX3R2jHpAkdG">
           <seg xml:id="i-79tZ7wGBMbrXRmu9Kd3wzb">
             under förhandenvarande brydsamma situation från det allmännas
             sida kan göras för att befordra avsättningen av kol från de svenska
@@ -2159,8 +2147,6 @@
             vissa extra fraktkostnader, icke kunna utan vidare tillmötesgå
             bolagets hemställan, utan hänsköt ärendet till Kungl. Majt:s avgörande.
           </seg>
-        </u>
-        <u xml:id="i-HGgTp5TtFPdG8RoQp4pRXe" who="i-EucyipYZH7KqGXP6UuKNta" prev="i-d8d38de9ec78a52c-4" next="i-DxDHXG9Ks7zX3R2jHpAkdG">
           <seg xml:id="i-LhuNJ85TviSWz7nhMn7imC">
             Sedan kommerskollegium härefter avgivit infordrat utlåtande,
             har Kungl. Maj:t genom beslut den 27 maj bemyndigat järnvägsstyrelsen
@@ -2185,13 +2171,11 @@
         <note xml:id="i-Wh6YVzcDM8USryfnr2sg33" type="date">
           26 Tisdagen den 7 juni.
         </note>
-        <u xml:id="i-DxDHXG9Ks7zX3R2jHpAkdG" who="i-EucyipYZH7KqGXP6UuKNta" prev="i-HGgTp5TtFPdG8RoQp4pRXe" next="i-d8d38de9ec78a52c-5">
+        <u xml:id="i-DxDHXG9Ks7zX3R2jHpAkdG" who="i-EucyipYZH7KqGXP6UuKNta" prev="i-d8d38de9ec78a52c-4" next="i-d8d38de9ec78a52c-6">
           <seg xml:id="i-FbbGoy2SxqUz5jChHftMEJ">
             som skulle utgå enligt bestämmelserna i det år 1913 mellan styrelsen
             och bolaget avslutade kontraktet.
           </seg>
-        </u>
-        <u xml:id="i-d8d38de9ec78a52c-5" who="i-EucyipYZH7KqGXP6UuKNta" prev="i-DxDHXG9Ks7zX3R2jHpAkdG" next="i-d8d38de9ec78a52c-6">
           <seg xml:id="i-RCqfEonj7QDYSQkX4wSqyT">
             Av vad nu anförts framgår alltså, att från Kungl. Maj:ts sida
             åtgärder redan vidtagits, varigenom under den återstående delen
@@ -2251,7 +2235,7 @@
         <note xml:id="i-95n8HS7ZMi3GKsgdag8sUS" type="date">
           Tisdagen den 7 juni. 27
         </note>
-        <u xml:id="i-d8d38de9ec78a52c-6" who="i-EucyipYZH7KqGXP6UuKNta" prev="i-d8d38de9ec78a52c-5">
+        <u xml:id="i-d8d38de9ec78a52c-6" who="i-EucyipYZH7KqGXP6UuKNta" prev="i-DxDHXG9Ks7zX3R2jHpAkdG">
           <seg xml:id="i-5MtoLyo1XANjCJjfN7x4e9">
             största möjliga utsträckning giva företräde åt svensk vara, men
             att, såvitt jag kan finna, Kungl. Maj:t icke äger befogenhet att
@@ -2554,13 +2538,11 @@
         <note xml:id="i-JNsg22ui8r4gxUAugjMdhP" type="date">
           Tisdagen den 7 juni. al
         </note>
-        <u xml:id="i-TmLynBdGU1PU6vLH9NhPKP" who="i-T8owFktXUZKmmAJA32jnUj" prev="i-e22f3f2f70d1e8fa-1" next="i-BgkQdkU6KcyaMX4sgSaEs4">
+        <u xml:id="i-TmLynBdGU1PU6vLH9NhPKP" who="i-T8owFktXUZKmmAJA32jnUj" prev="i-e22f3f2f70d1e8fa-1" next="i-e22f3f2f70d1e8fa-3">
           <seg xml:id="i-Y9DtKAbURMgA3mNvpMK53G">
             för kvinna med bibehållande av hittillsvarande beräkningssätt
             med avdrag av sex tiondelar av årsinkomsten.
           </seg>
-        </u>
-        <u xml:id="i-BgkQdkU6KcyaMX4sgSaEs4" who="i-T8owFktXUZKmmAJA32jnUj" prev="i-TmLynBdGU1PU6vLH9NhPKP" next="i-e22f3f2f70d1e8fa-3">
           <seg xml:id="i-31vNhuPNMVLqHevipRZMkj">
             För min del måste jag naturligtvis ur 'pensionsförsäkringens
             synpunkt beklaga, att utskottet icke kunnat gå längre än det gjort,
@@ -2635,7 +2617,7 @@
         <note xml:id="i-QbBNBPLPBt4RjUfrsAzBLy" type="date">
           32 Tisdagen den 7 juni.
         </note>
-        <u xml:id="i-e22f3f2f70d1e8fa-3" who="i-T8owFktXUZKmmAJA32jnUj" prev="i-BgkQdkU6KcyaMX4sgSaEs4">
+        <u xml:id="i-e22f3f2f70d1e8fa-3" who="i-T8owFktXUZKmmAJA32jnUj" prev="i-TmLynBdGU1PU6vLH9NhPKP">
           <seg xml:id="i-MjX2r7GvZsRXz298V32rNB">
             bättring av pensionsförmånerna sker och därmed ju också en utveckling
             av pensionsförsäkringen. Jag vågar hoppas, att denna kammare liksom
@@ -2918,20 +2900,16 @@
         <note xml:id="i-5Yp4FoC91hMMt7934YhL4t" type="date">
           36 Tisdagen den 7 juni.
         </note>
-        <u xml:id="i-AW4wWAiWuEYCV1TVE7StMz" who="i-4sfs3KUeVhC2hGZHGkHNmw" prev="i-2b46e548e25274ef-0" next="i-2b46e548e25274ef-1">
+        <u xml:id="i-AW4wWAiWuEYCV1TVE7StMz" who="i-4sfs3KUeVhC2hGZHGkHNmw" prev="i-2b46e548e25274ef-0">
           <seg xml:id="i-TrMDcBH1kxa2XRo835dro2">
             tets förslag och som ju återfinnas i den kungliga propositionen
             och i utskottets betänkande samt vilka senast utförligt framhållits
             av herr
           </seg>
-        </u>
-        <u xml:id="i-2b46e548e25274ef-1" who="i-4sfs3KUeVhC2hGZHGkHNmw" prev="i-AW4wWAiWuEYCV1TVE7StMz" next="i-GqPCWgEniMknsZTfdFF24g">
           <seg xml:id="i-Bav3nZmpxU9fBunfVeEoe5">
             . statsrådet och chefen för socialdepartementet, skall jag, herr
             talman,
           </seg>
-        </u>
-        <u xml:id="i-GqPCWgEniMknsZTfdFF24g" who="i-4sfs3KUeVhC2hGZHGkHNmw" prev="i-2b46e548e25274ef-1">
           <seg xml:id="i-53E7yzLty9ge2HEjaQjf3d">
             inskränka mig till att yrka bifall till utskottets hemställan.
           </seg>
@@ -3707,7 +3685,7 @@
         <note xml:id="i-HHNhJBgBCnsqyYPuGVTQhF" type="date">
           46 Tisdagen den 7 juni.
         </note>
-        <u xml:id="i-LkC4KjiywUCtWFiX5Vm8og" who="i-95K5z35tn37uoiYoUqCBaa" prev="i-H2kdL2dkDfPey3CKoPDvx8" next="i-UzyWPuAHU9SzccDdT47iDH">
+        <u xml:id="i-LkC4KjiywUCtWFiX5Vm8og" who="i-95K5z35tn37uoiYoUqCBaa" prev="i-H2kdL2dkDfPey3CKoPDvx8">
           <seg xml:id="i-4whVro6rwB7pyCUWSkafHD">
             den omständigheten, att besvären i stället för till sistnämnda
             myndighet ingivits eller insänts till kammarrätten, utgöra hinder
@@ -3718,8 +3696,6 @@
             befallningshavande, förfares med ärendet i enahanda ordning, som
             135 $ 1 mom. stadgas.
           </seg>
-        </u>
-        <u xml:id="i-UzyWPuAHU9SzccDdT47iDH" who="i-95K5z35tn37uoiYoUqCBaa" prev="i-LkC4KjiywUCtWFiX5Vm8og">
           <seg xml:id="i-HNURDoTDqhthcLwxQrmTKX">
             Denna lag träder i kraft dagen efter den, då lagen, enligt därå
             ESR uppgift, av trycket utkommit i Svensk författningssam-
@@ -3933,7 +3909,7 @@
         <note xml:id="i-EtbYGcEDDabxuPnEDMQLr7" type="date">
           Tisdagen den 7 juni. 49
         </note>
-        <u xml:id="i-5d15566411304824-3" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-5d15566411304824-2" next="i-HXxsicLykRdMjbqyZeKNDx">
+        <u xml:id="i-5d15566411304824-3" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-5d15566411304824-2" next="i-5d15566411304824-4">
           <seg xml:id="i-9o3DHqwF2SPFrMk28wV22Z">
             för kommunerna, för att dessa skulle veta vad de ha att röra
             sig med och för att man inte vid abnorma förhållanden fullständigt
@@ -3983,13 +3959,9 @@
             fjol — på grundvalarna av beskattningen skulle man Ju absolut
             inte få rubba — vore det väl besynnerligt, om riksdagen redan
           </seg>
-        </u>
-        <u xml:id="i-HXxsicLykRdMjbqyZeKNDx" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-5d15566411304824-3" next="i-HnmaLtWeGHUEbqeoJWX7wM">
           <seg xml:id="i-TGBbHPHkUMchF1bddUxuyX">
             nu skulle vara färdig att riva
           </seg>
-        </u>
-        <u xml:id="i-HnmaLtWeGHUEbqeoJWX7wM" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-HXxsicLykRdMjbqyZeKNDx" next="i-5d15566411304824-4">
           <seg xml:id="i-AqHUymkPPNvpmfm3fqdUqq">
             året, och riva ned det inte på det sättet, att man får något
             bättre till stånd i stället, utan så, att man bereder många kommuner,
@@ -4003,7 +3975,7 @@
           Jag kan från dessa synpunkter, herr talman, inte annat än Andra
           kammarens protokoll 1921. Nr 54. 4
         </note>
-        <u xml:id="i-5d15566411304824-4" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-HnmaLtWeGHUEbqeoJWX7wM" next="i-HkCPhDoLdo9HozS9iMtQca">
+        <u xml:id="i-5d15566411304824-4" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-5d15566411304824-3" next="i-HkCPhDoLdo9HozS9iMtQca">
           <seg xml:id="i-Bjn5ZAcAeksJVYmBJNzvg">
             ned vad som byggdes upp förra
           </seg>
@@ -4257,7 +4229,7 @@
         <note xml:id="i-FB1oZFwapmF3ffEG1N1igV" type="date">
           Tisdagen den 7 juni. 53
         </note>
-        <u xml:id="i-d1e3a24b49a06c4b-3" who="i-RNDaEQyBmXoug73iH61z2n" prev="i-d1e3a24b49a06c4b-2" next="i-BVTx9PQtUDGTgbSmkyBYJc">
+        <u xml:id="i-d1e3a24b49a06c4b-3" who="i-RNDaEQyBmXoug73iH61z2n" prev="i-d1e3a24b49a06c4b-2">
           <seg xml:id="i-8Qsv5ugg3RKXpTuH7x62a6">
             ställd för innevarande år, så är det klart, att de, som taxerats
             och få betala skogsaceis med 2 4 eller det belopp, som för närvarande
@@ -4275,8 +4247,6 @@
             erfordras och vilken är rätt enkel, då den ju endast innebär en
             halvering av de belopp, som tidigare upptagits.
           </seg>
-        </u>
-        <u xml:id="i-BVTx9PQtUDGTgbSmkyBYJc" who="i-RNDaEQyBmXoug73iH61z2n" prev="i-d1e3a24b49a06c4b-3">
           <seg xml:id="i-VaRnWWUw1oSR45mXzu5KsF">
             Av dessa skäl ber jag att få yrka bifall till utskottets hemställan
             utom i fråga om bestämmelsen angående lagens ikraftträdande, där

@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-U3uoCqyfLwSGQtjcc6aUf1" type="speech">
             <linkGrp type="u">
               <ptr target="#i-7j6yE2q7Gh9ZDmJ7GuiYdx"/>
@@ -267,7 +267,13 @@
               <ptr target="#i-XAshzo9qU1nnpeDABq57r5"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -477,7 +483,7 @@
         <note xml:id="i-94bY1CmuA2w9SHvvgN9eLZ" type="speaker">
           Herr Unger, Magnus:
         </note>
-        <u xml:id="i-WYnK3mm1g9FnYv5vTu62Fv" who="i-RHnjhwBYnTHP8AK9KrDj56" next="i-9vPGsRYnxAHtqbsbHw2FS4">
+        <u xml:id="i-WYnK3mm1g9FnYv5vTu62Fv" who="i-RHnjhwBYnTHP8AK9KrDj56" next="i-UgWUDVsKkcPcGexBM2MAbq">
           <seg xml:id="i-KhChdAqRQSKLvpiNf3wiKW">
             Jag är ense med konstitutionsutskottet deri, att antalet representanter
             bör begränsas och bestämmas, och jag har icke funnit att det skulle
@@ -487,8 +493,6 @@
             skulle förblifva desamma som nu, och med få undantag skulle de
             få välja såsom förut.
           </seg>
-        </u>
-        <u xml:id="i-9vPGsRYnxAHtqbsbHw2FS4" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-WYnK3mm1g9FnYv5vTu62Fv" next="i-UgWUDVsKkcPcGexBM2MAbq">
           <seg xml:id="i-YRJh9g5SpuwLctPZ6K4g3A">
             Enligt utskottets förslag skulle blott 5 valområden få välja
             en riksdagsman till Första Kammaren mera än nu. Det skulle vara
@@ -519,7 +523,7 @@
         <note xml:id="i-WpSmMosAb5SquiXvb2SaKS" type="date">
           4 Onsdagen den 6 Mars, f. m.
         </note>
-        <u xml:id="i-UgWUDVsKkcPcGexBM2MAbq" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-9vPGsRYnxAHtqbsbHw2FS4" next="i-LuVpPAzVAqS9m1FiFB7Fq3">
+        <u xml:id="i-UgWUDVsKkcPcGexBM2MAbq" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-WYnK3mm1g9FnYv5vTu62Fv" next="i-WLB3mtGysFqUBEJzhQryrw">
           <seg xml:id="i-AJGPuSXyWJ4fKP9zTQhvRi">
             och med äldre lagförslag om fixering af ledamöternas antal i
             svenska riksdagen. Man kan ju säga, att med förhållandena i andra
@@ -527,8 +531,6 @@
             en del, och det skulle naturligtvis bero på dels våra olika förhållanden
             och dels vårt stora territorrum i förhållande till folkmängden.
           </seg>
-        </u>
-        <u xml:id="i-LuVpPAzVAqS9m1FiFB7Fq3" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-UgWUDVsKkcPcGexBM2MAbq" next="i-F6rS7Z8SkWtczgW6TZ1UzB">
           <seg xml:id="i-KrwD7P2jH9GRoc7wSwbYKM">
             Ser man på huru många, som skulle väljas från hvarje ort, om
             hela antalet bestämdes till 350, såsom jag föreslagit, synes det
@@ -543,8 +545,6 @@
             deremot tillåter jag mig dock erinra, att vi 1840 och 1847 hade
             samma territorium som nu.
           </seg>
-        </u>
-        <u xml:id="i-F6rS7Z8SkWtczgW6TZ1UzB" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-LuVpPAzVAqS9m1FiFB7Fq3" next="i-GCjFCL5MherTktfPohPPF3">
           <seg xml:id="i-8vUcBDaDZkAag3JM4MQyRg">
             Det praktiska skälet, som talar emot ett så stort representantantal,
             som utskottet föreslagit, är, att det förlänger riksdagarne och
@@ -557,8 +557,6 @@
             från utskottsarbete. Jag föreställer mig att det skulle gå lika
             bra, om 35 voro lediga.
           </seg>
-        </u>
-        <u xml:id="i-GCjFCL5MherTktfPohPPF3" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-F6rS7Z8SkWtczgW6TZ1UzB" next="i-RLiHEYzZpQBaPE5hXBF7fE">
           <seg xml:id="i-Jgs8UAqaoc5feZFrxzevkJ">
             Hvad Andra Kammaren beträffar, så finnes der, såsom sagdt, allt
             för stor kraft, som spilles bort — om af de lediga spilles någon
@@ -573,15 +571,11 @@
             betydande verksamhetssfer i hemorten, så är dock denna årliga
             summa, 40,000 kr., hvilken till ingen nytta användes, rätt beaktansvärd.
           </seg>
-        </u>
-        <u xml:id="i-RLiHEYzZpQBaPE5hXBF7fE" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-GCjFCL5MherTktfPohPPF3" next="i-L1cj3v43CDmWPegcpyY6gg">
           <seg xml:id="i-UCXzsMMPzZTwkEkwMVAWqq">
             Det skulle vara allt för vidlyftigt att här omnämna, hvilka särskilda
             förändringar som skulle blifva en följd af det ena eller andra
             förslaget.
           </seg>
-        </u>
-        <u xml:id="i-L1cj3v43CDmWPegcpyY6gg" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-RLiHEYzZpQBaPE5hXBF7fE" next="i-WLB3mtGysFqUBEJzhQryrw">
           <seg xml:id="i-Df3vfYWkbhJaKd9VmmT2uc">
             Fnligt mitt förslag skulle det blifva 6 län, som skulle få en
             representant mindre i Första Kammaren, än hvad de nu hafva, nemligen
@@ -595,7 +589,7 @@
           </seg>
         </u>
         <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1889/prot-1889--fk--013/prot-1889--fk--013_004"/>
-        <u xml:id="i-WLB3mtGysFqUBEJzhQryrw" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-L1cj3v43CDmWPegcpyY6gg" next="i-QfCmTr7211VdwxC5HAnczX">
+        <u xml:id="i-WLB3mtGysFqUBEJzhQryrw" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-UgWUDVsKkcPcGexBM2MAbq" next="i-Qd4XFVEMCjGqvPy3WLitAY">
           <seg xml:id="i-SLiS7f23vwoY9LkByBiX9C">
             Onsdagen den 6 Mars, f. m. 5 ningen är gällande, inträder stadens
             rätt att utse riksdagsman, dock icke förr, än ledighet uppstår
@@ -615,8 +609,6 @@
             af Gefle stads folkmängd från 21,508 till 25,000 ej tages i beräkning,
             af 16,214.
           </seg>
-        </u>
-        <u xml:id="i-QfCmTr7211VdwxC5HAnczX" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-WLB3mtGysFqUBEJzhQryrw" next="i-FXTyRrBLqdQnxUQv7hv7sD">
           <seg xml:id="i-PMieFxie5VfSMTagTVVbHb">
             Gefle stad skulle alltså, med rigtig tillämpning af 3 mom., icke
             få välja, då ledighet uppstode i Gefleborgs län, utan då ledighet
@@ -625,8 +617,6 @@
             sig, Blekinge län, som, innan Gefle stad blifvit egen valkorporation,
             skolat välja för öfverskjutande folkmängd af endast 15,413.
           </seg>
-        </u>
-        <u xml:id="i-FXTyRrBLqdQnxUQv7hv7sD" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-QfCmTr7211VdwxC5HAnczX" next="i-JD7wj4QzLA7pGzeqRhriyD">
           <seg xml:id="i-N3XaRDFyBSmNWjGjuym5eV">
             Visserligen kan det gestalta sig så, att hvad utskottet i 5 mom.
             stadgat kommer att stå i öfverensstämmelse med grunderna i3 mom.,
@@ -635,8 +625,6 @@
             skulle få utöfva sin valrätt, då ledighet uppstode i det valområde,
             som utöfvade valrätt för minsta öfverskjutande folkmängd.
           </seg>
-        </u>
-        <u xml:id="i-JD7wj4QzLA7pGzeqRhriyD" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-FXTyRrBLqdQnxUQv7hv7sD" next="i-Jkguc1NmebncYpHTZhtua8">
           <seg xml:id="i-WUUwt7WgRikwcMjQyr4K8M">
             Det är ock en annan sak, som jag måste anmärka mot utskottets
             förslag, och det är, att utskottet icke lagstiftat för den casus,
@@ -656,8 +644,6 @@
             riksdagsman i hans ställe, utan den rättigheten skulle tillkomma
             Malmö stad, som har en öfverskjutande folkmängd af 14,214.
           </seg>
-        </u>
-        <u xml:id="i-Jkguc1NmebncYpHTZhtua8" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-JD7wj4QzLA7pGzeqRhriyD" next="i-Qd4XFVEMCjGqvPy3WLitAY">
           <seg xml:id="i-U8jphswtgTmP2VYNG1Dy1r">
             Det vore sålunda ej öfverflödigt att meddela närmare föreskrifter
             för den händelse, att en stad går tillbaka till landstinget. Visserligen
@@ -684,7 +670,7 @@
         <note xml:id="i-5ytyaAYU91QgJJVWSGjkCP" type="date">
           6 Onsdagen den 6 Mars, f. m.
         </note>
-        <u xml:id="i-Qd4XFVEMCjGqvPy3WLitAY" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-Jkguc1NmebncYpHTZhtua8" next="i-Kk31cL6am2wotgEryqYXRT">
+        <u xml:id="i-Qd4XFVEMCjGqvPy3WLitAY" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-WLB3mtGysFqUBEJzhQryrw" next="i-Bai3GMeQ1Vqyg4G1Jv58gU">
           <seg xml:id="i-4chmzLjx1zQq8coSYeCYQU">
             Dessa omständigheter gifva ytterligare stöd för den af mig i
             min reservation uttalade åsigten, att det är olämpligt att bestämma
@@ -697,16 +683,12 @@
             enkelt en räknefråga, för hvars lätta lösning bestämda föreskrifter
             i grundlagen meddelats.
           </seg>
-        </u>
-        <u xml:id="i-Kk31cL6am2wotgEryqYXRT" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-Qd4XFVEMCjGqvPy3WLitAY" next="i-4xZznG1gvvAwjtZ3vTEeKF">
           <seg xml:id="i-7wvAtur7ZqBf7ZTaxD2hqw">
             Olämpligheten att reglera hvart tionde år framgår äfven deraf,
             att förändringar af folkmängden i fråga om val till Första Kammaren
             kunna i vissa fall verka till förändring äfven med hänsyn till
             valkorporationernas behörighet.
           </seg>
-        </u>
-        <u xml:id="i-4xZznG1gvvAwjtZ3vTEeKF" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-Kk31cL6am2wotgEryqYXRT" next="i-Y8w3ru5ZCYDZUDoWY5uwJj">
           <seg xml:id="i-UQ4CunM6DaALwyVDRPaHA7">
             Inträffar nu att sådan förändring eger rum snart efter verkstäld
             tioårig reglering och derjemte att omval nyligen egt rum, då nästa
@@ -714,14 +696,10 @@
             att det dröjer ända till 18 år, innan ett valområde i verkligheten
             får utöfva den valrätt, som enligt grundlagen skulle området tillkomma.
           </seg>
-        </u>
-        <u xml:id="i-Y8w3ru5ZCYDZUDoWY5uwJj" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-4xZznG1gvvAwjtZ3vTEeKF" next="i-MXAY8V7MQktqsddyrH9Z3s">
           <seg xml:id="i-LE148iLdWSbaVMdkzqfyxZ">
             Ett lagstadgande, som kan hafva sådan följd, lärer väl icke vara
             antagligt.
           </seg>
-        </u>
-        <u xml:id="i-MXAY8V7MQktqsddyrH9Z3s" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-Y8w3ru5ZCYDZUDoWY5uwJj" next="i-E96M9emGGJoy9MmR6tuK1y">
           <seg xml:id="i-C4yN5sg73WUagceiqUdmG8">
             Jag kan icke heller se något skäl, hvarför man icke skulle kunna
             lemna åt Kongl. Maj:t att, så snart ändrade folkmängdsförhållanden
@@ -729,8 +707,6 @@
             Detta vore en magt, som i intet afseende skulle kunna missbrukas,
             om ock anledning funnes att förutsätta något dylikt.
           </seg>
-        </u>
-        <u xml:id="i-E96M9emGGJoy9MmR6tuK1y" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-MXAY8V7MQktqsddyrH9Z3s" next="i-VFEGWgGZsfHwra3KzQTM5R">
           <seg xml:id="i-2kNeKdc5LjHy1w4Li56Bru">
             Slutligen, och hvad angår tiden för valkretsregleringen till
             Andra Kammaren, är jag också i det hänseendet af annan åsigt än
@@ -745,8 +721,6 @@
             få kunskap om hvilken valkrets de skola tillhöra — en olägenhet,
             som ofantligt lätt
           </seg>
-        </u>
-        <u xml:id="i-VFEGWgGZsfHwra3KzQTM5R" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-E96M9emGGJoy9MmR6tuK1y" next="i-Bai3GMeQ1Vqyg4G1Jv58gU">
           <seg xml:id="i-GtTBCucYeCr7p6yJeDuEey">
             "afhjelpes genom att bestämma regleringsperioden till nio år,
             eller
@@ -755,12 +729,10 @@
         <note xml:id="i-PZ2JVuCmvbNa3cUhARTDsY">
           hvilken annan multipel af 3 som helst.
         </note>
-        <u xml:id="i-Bai3GMeQ1Vqyg4G1Jv58gU" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-VFEGWgGZsfHwra3KzQTM5R" next="i-8Kiuwpb64yuKJWJDHfDPPQ">
+        <u xml:id="i-Bai3GMeQ1Vqyg4G1Jv58gU" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-Qd4XFVEMCjGqvPy3WLitAY">
           <seg xml:id="i-Kt6Trx7JPqkBWp9G5JK3oH">
             Det är på dessa grunder som jag icke kunnat instämma med utskottet.
           </seg>
-        </u>
-        <u xml:id="i-8Kiuwpb64yuKJWJDHfDPPQ" who="i-RHnjhwBYnTHP8AK9KrDj56" prev="i-Bai3GMeQ1Vqyg4G1Jv58gU">
           <seg xml:id="i-QpRBput2ChviY8hJ4Le64K">
             För närvarande anser jag mig dock, herr grefve och talman, icke
             böra framställa något yrkande, utan vill afbida hvad som kan inhemtas
@@ -782,13 +754,11 @@
         <note xml:id="i-NKjxrVuGSDTmkcsddAKb8p" type="date">
           Onsdagen den 6 Mars, f. m. 7 N:o 13.
         </note>
-        <u xml:id="i-KHDMYzEXmm8oXP3WZR7W2g" who="i-4yKLYX6bdK5Z7rBVKCN1RT" prev="i-WdEYM1ZowEN5vvztyvrWRe" next="i-6ryHSA6k7Dfq6Bnvjbhvvr">
+        <u xml:id="i-KHDMYzEXmm8oXP3WZR7W2g" who="i-4yKLYX6bdK5Z7rBVKCN1RT" prev="i-WdEYM1ZowEN5vvztyvrWRe" next="i-KcuNXAaSSjazpaGJrrhHob">
           <seg xml:id="i-Vx4i8LTgmLmVWN6RSh3bXM">
             ning skall ske hufvudsakligen eller nästan uteslutande på städernas
             Lf» ågasatt bekostnad. ändring of
           </seg>
-        </u>
-        <u xml:id="i-6ryHSA6k7Dfq6Bnvjbhvvr" who="i-4yKLYX6bdK5Z7rBVKCN1RT" prev="i-KHDMYzEXmm8oXP3WZR7W2g" next="i-LYARddoXCTjDKHy9oooBed">
           <seg xml:id="i-DZi4MG4n3Lyi5Ky4iZQ3rR">
             Man vill enligt utskottets förslag genast minska städernas reprea
             sentanter i Andra Kammaren med en och öka landsortens med fyra,
@@ -815,8 +785,6 @@
             kronor. Detta bevisar äfven att förmögenheten är mycket mera samlad
             i städerna.
           </seg>
-        </u>
-        <u xml:id="i-LYARddoXCTjDKHy9oooBed" who="i-4yKLYX6bdK5Z7rBVKCN1RT" prev="i-6ryHSA6k7Dfq6Bnvjbhvvr" next="i-STLhCnYKGJVuGg5utFJi27">
           <seg xml:id="i-Hu4BP2JzwjKqGifyNJDxph">
             Vid representationsförändringen föranleddes en af de förnämsta
             anmärkningarna mot densamma just af det förhållande, att den samhällsklass,
@@ -832,8 +800,6 @@
             fördelaktigt, i fall öfvermagten från den sidan ännu ytterligare
             minskades.
           </seg>
-        </u>
-        <u xml:id="i-STLhCnYKGJVuGg5utFJi27" who="i-4yKLYX6bdK5Z7rBVKCN1RT" prev="i-LYARddoXCTjDKHy9oooBed" next="i-BSTNwu49aFka3XdxFYHHQv">
           <seg xml:id="i-UmsbFnvdzfumkxdABJFEPZ">
             Utskottet säger: "Vid statistiska undersökningar har det visat
             sig, att genom en dylik anordning af städernas representationsrätt
@@ -843,8 +809,6 @@
             20 riksdagsmän år 1865, 18 år 1874 samt 19 år 1883." Det skulle
             nu blifva 20, om utskottets förslag antoges.
           </seg>
-        </u>
-        <u xml:id="i-BSTNwu49aFka3XdxFYHHQv" who="i-4yKLYX6bdK5Z7rBVKCN1RT" prev="i-STLhCnYKGJVuGg5utFJi27" next="i-KcuNXAaSSjazpaGJrrhHob">
           <seg xml:id="i-RtQf2GsXVzNzXUjniBG6Pe">
             För min del kan jag ej finna det rättvist att bibehålla en sådan
             stabilitet, att, när ett stadssamhälle, såsom Stockholm nu, fått
@@ -867,7 +831,7 @@
         <note xml:id="i-TBbYhdHQQUHFjfjW6VJZ3o" type="date">
           8 Onsdagen den 6 Mars, t. m.
         </note>
-        <u xml:id="i-KcuNXAaSSjazpaGJrrhHob" who="i-4yKLYX6bdK5Z7rBVKCN1RT" prev="i-BSTNwu49aFka3XdxFYHHQv" next="i-ExMXG5sxSVMEmRLjTfM4Ai">
+        <u xml:id="i-KcuNXAaSSjazpaGJrrhHob" who="i-4yKLYX6bdK5Z7rBVKCN1RT" prev="i-KHDMYzEXmm8oXP3WZR7W2g" next="i-2R7JyTPfYekN8UrEAs4VBh">
           <seg xml:id="i-cHKpb6f2QFcHQAT76X8Yo">
             ytterligare representant, hvartill det redan efter nuvarande
             folkmängd vid nästa val är berättigadt. För de öfriga större städerna
@@ -878,8 +842,6 @@
             hvilka sålunda inom kort skulle ega att utse ännu en representant,
             skulle derom gå 1 mistning.
           </seg>
-        </u>
-        <u xml:id="i-ExMXG5sxSVMEmRLjTfM4Ai" who="i-4yKLYX6bdK5Z7rBVKCN1RT" prev="i-KcuNXAaSSjazpaGJrrhHob" next="i-MxS11ZPdEVGYCdmhnTny1x">
           <seg xml:id="i-VVpRzPJBv9nyzZtDwmZC69">
             Jag kan icke gilla utskottets förslag att frångå den gamla grund,
             på hvilken vår representation i detta fall är byggd, utan skulle
@@ -887,8 +849,6 @@
             den innebär för mig en stor betänklighet, då jag föreställer mig
             att den ej kan tydas annorledes än på följande sätt.
           </seg>
-        </u>
-        <u xml:id="i-MxS11ZPdEVGYCdmhnTny1x" who="i-4yKLYX6bdK5Z7rBVKCN1RT" prev="i-ExMXG5sxSVMEmRLjTfM4Ai" next="i-2R7JyTPfYekN8UrEAs4VBh">
           <seg xml:id="i-WKo2XwS1Cu1zDuxKm7KL6N">
             Fjerde punkten lyder: "Städer, som vid 1889 års slut hade och
             derefter fortfarande hafva en folkmängd af minst tjugutusen, ega
@@ -934,7 +894,7 @@
         <note xml:id="i-VdfZ8p8ZLcwwfxD57TV7wM" type="date">
           Onsdagen den 6 Mars, f. m. 9 N:o 13.
         </note>
-        <u xml:id="i-2R7JyTPfYekN8UrEAs4VBh" who="i-4yKLYX6bdK5Z7rBVKCN1RT" prev="i-MxS11ZPdEVGYCdmhnTny1x">
+        <u xml:id="i-2R7JyTPfYekN8UrEAs4VBh" who="i-4yKLYX6bdK5Z7rBVKCN1RT" prev="i-KcuNXAaSSjazpaGJrrhHob">
           <seg xml:id="i-XjkXmRFaVLrJJ8nQBd6pJn">
             öfver endast för hvarje nytt femtontusental välja en riksdagsman
             och Ifrågasatt icke såsom nu för hvart tiotusental. 8 Folkets
@@ -971,13 +931,11 @@
         <note xml:id="i-DbhjFmCiR2hWAstgcyyK5x" type="speaker">
           Herr Claöson:
         </note>
-        <u xml:id="i-7CLJUZcTmebVM3MwoNiHCL" who="i-EiN2R3RFmpP2Fwqrg18WSr" next="i-QZLTk9QMyb5gEuUsNWDvu2">
+        <u xml:id="i-7CLJUZcTmebVM3MwoNiHCL" who="i-EiN2R3RFmpP2Fwqrg18WSr" next="i-QRZD4PAB8fmw5Sq4sXkKV3">
           <seg xml:id="i-5z1EdD8VtVDN8HYMTvHZ2a">
             Då jag icke förut uttalat mig i denna vigtiga fraga, torde det
             ursäktas mig, att jag nu angifver min ståndpunkt i densamma.
           </seg>
-        </u>
-        <u xml:id="i-QZLTk9QMyb5gEuUsNWDvu2" who="i-EiN2R3RFmpP2Fwqrg18WSr" prev="i-7CLJUZcTmebVM3MwoNiHCL" next="i-FYBQXfPNQHEsEdCporm9rb">
           <seg xml:id="i-R6ansfhT8zKfn2zzdFUkCU">
             För att icke blifva missförstådd, vill jag förutskicka den anmärkning,
             att jag allt sedan 8 års ålder ständigt, med undantag af ett enda
@@ -986,21 +944,15 @@
             ögon eller känna mig frestad att gynna städerna på landtbefolkningens
             bekostnad.
           </seg>
-        </u>
-        <u xml:id="i-FYBQXfPNQHEsEdCporm9rb" who="i-EiN2R3RFmpP2Fwqrg18WSr" prev="i-QZLTk9QMyb5gEuUsNWDvu2" next="i-Qz8Hq2ib8gEhCAwhdfCcsH">
           <seg xml:id="i-JdSSudAAvq1fVoaBUYoJpd">
             För mig ställer sig ock frågan icke såsom ett stadseller landtintresse,
             utan såsom något vida högre och vigtigare, nemligen huru vida
             vår representation skall vara mer eller mindre ensidigt sammansatt,
             och de beslut, den fattar i följd deraf, också mera eller mindre
           </seg>
-        </u>
-        <u xml:id="i-Qz8Hq2ib8gEhCAwhdfCcsH" who="i-EiN2R3RFmpP2Fwqrg18WSr" prev="i-FYBQXfPNQHEsEdCporm9rb" next="i-A6aDHE9F8VtQoVj4KgsuNu">
           <seg xml:id="i-AtxbJgx3hjhN9V6cn5xuFd">
             ensidiga.
           </seg>
-        </u>
-        <u xml:id="i-A6aDHE9F8VtQoVj4KgsuNu" who="i-EiN2R3RFmpP2Fwqrg18WSr" prev="i-Qz8Hq2ib8gEhCAwhdfCcsH" next="i-QRZD4PAB8fmw5Sq4sXkKV3">
           <seg xml:id="i-MprBLZ6AX5XkSTNNJoJDVY">
             Vårt gamla representationsskick med alla dess fel och brister
             var dock icke så ensidigt. Borgareståndet stod der alldeles likstäldt
@@ -1019,20 +971,16 @@
         <note xml:id="i-58HBCLhYGXURNA7frYMPQP" type="date">
           10 Onsdagen den 6 Mars, f. m.
         </note>
-        <u xml:id="i-QRZD4PAB8fmw5Sq4sXkKV3" who="i-EiN2R3RFmpP2Fwqrg18WSr" prev="i-A6aDHE9F8VtQoVj4KgsuNu" next="i-QegemAyRijBUzQht1q8B9k">
+        <u xml:id="i-QRZD4PAB8fmw5Sq4sXkKV3" who="i-EiN2R3RFmpP2Fwqrg18WSr" prev="i-7CLJUZcTmebVM3MwoNiHCL" next="i-PN9MTC7HpRh5pcYbhvY8aG">
           <seg xml:id="i-2oojztWdYe2N4ithMfLsDn">
             ståndet, under det den andra, den svagare sidan, utgöres af det
             gamls. borgareständet jemte de nytillkomna elementen.
           </seg>
-        </u>
-        <u xml:id="i-QegemAyRijBUzQht1q8B9k" who="i-EiN2R3RFmpP2Fwqrg18WSr" prev="i-QRZD4PAB8fmw5Sq4sXkKV3" next="i-QuGbueWpw5AqokUStuPzBf">
           <seg xml:id="i-R9VTxm7W6N2yggRyaDzm5e">
             Enligt min tanke bör en verkligt god representation vara så sammansatt,
             att alla intressen blifva der bevakade, och att icke ett enda
             intresse har stor öfvervigt öfver alla de öfriga tillsammans.
           </seg>
-        </u>
-        <u xml:id="i-QuGbueWpw5AqokUStuPzBf" who="i-EiN2R3RFmpP2Fwqrg18WSr" prev="i-QegemAyRijBUzQht1q8B9k" next="i-GnVx66NKM55zqhPRPAjkkG">
           <seg xml:id="i-9SHmKv5gYoPszmTNA8CEKz">
             Sa vidt jag förstår, var det icke heller meningen med representationsförändringen
             för något öfver 20 år sedan, att vi skulle öfvergå från ett fyrsidigt
@@ -1046,8 +994,6 @@
             alla vigtigare politiska frågor skulle se med hemmansegareintressets
             ögon.
           </seg>
-        </u>
-        <u xml:id="i-GnVx66NKM55zqhPRPAjkkG" who="i-EiN2R3RFmpP2Fwqrg18WSr" prev="i-QuGbueWpw5AqokUStuPzBf" next="i-RpWuKVszJcKtxhxdEUzE1U">
           <seg xml:id="i-LD6CH4h2iTbFVNK6RZVZcP">
             Om det nu också var ett fel i den nya riksdagsordningen, att
             den gaf så stor öfvervigt åt hemmansegarne, var det tillika en
@@ -1060,8 +1006,6 @@
             långsamt men säkert, och i likhet med den föregående talaren anser
             jag detta vara en vinst.
           </seg>
-        </u>
-        <u xml:id="i-RpWuKVszJcKtxhxdEUzE1U" who="i-EiN2R3RFmpP2Fwqrg18WSr" prev="i-GnVx66NKM55zqhPRPAjkkG" next="i-CDjaTM6CcBZTMWhdxcgeqm">
           <seg xml:id="i-AyjE32PanazBVVkwuzn3ES">
             Låtom oss nu tillse huru utskottet förfarit, då det var fråga
             om att begränsa representantantalet. Det synes mig, att om man
@@ -1074,8 +1018,6 @@
             1 till 1!/; och då vill man nu i stället för all framtid bestämma
             det såsom 1 till 2.
           </seg>
-        </u>
-        <u xml:id="i-CDjaTM6CcBZTMWhdxcgeqm" who="i-EiN2R3RFmpP2Fwqrg18WSr" prev="i-RpWuKVszJcKtxhxdEUzE1U" next="i-2Sya5s11TeD78fAkbLLoA3">
           <seg xml:id="i-EiWLaiNuSR7HTc6BxuWu6B">
             Att, på sätt konstitutionsutskottet gjort, vinna ett sådant mål
             genom att skära af ett stycke på den mera växande parten och lägga
@@ -1083,8 +1025,6 @@
             grundlagens anda, till hvilket, enligt min tanke, utskottet icke
             bort göra sig skyldigt, och hvilket jag för min del icke kan understödja.
           </seg>
-        </u>
-        <u xml:id="i-2Sya5s11TeD78fAkbLLoA3" who="i-EiN2R3RFmpP2Fwqrg18WSr" prev="i-CDjaTM6CcBZTMWhdxcgeqm" next="i-UKYa13Qub5cgegT6piq8RW">
           <seg xml:id="i-CLeH4mo56CYvDNJMdRLcxp">
             Det, som är sagdt om konstitutionsutskottets förslag, gäller
             också i hufvudsak om herr Ungers, ehuru, om jag skulle endast
@@ -1096,8 +1036,6 @@
             och icke genom att taga från den svagare och gifva den starkare
             sidan.
           </seg>
-        </u>
-        <u xml:id="i-UKYa13Qub5cgegT6piq8RW" who="i-EiN2R3RFmpP2Fwqrg18WSr" prev="i-2Sya5s11TeD78fAkbLLoA3" next="i-PN9MTC7HpRh5pcYbhvY8aG">
           <seg xml:id="i-AMbAkpPi1KYogZvQb11bJQ">
             Kunde man tänka sig t ex. att antalet af Första Kamma-
           </seg>
@@ -1106,7 +1044,7 @@
         <note xml:id="i-EqNtUaPQbHyuKLjPbBmC9Y" type="date">
           Onsdagen den 6 Mars, f. m. 1
         </note>
-        <u xml:id="i-PN9MTC7HpRh5pcYbhvY8aG" who="i-EiN2R3RFmpP2Fwqrg18WSr" prev="i-UKYa13Qub5cgegT6piq8RW">
+        <u xml:id="i-PN9MTC7HpRh5pcYbhvY8aG" who="i-EiN2R3RFmpP2Fwqrg18WSr" prev="i-QRZD4PAB8fmw5Sq4sXkKV3">
           <seg xml:id="i-VLuNtannj6XbayRtTufzoH">
             rens ledamöter bestämdes till 150 och Andra Kammarens till 200,
             deraf 70 från städerna och 130 från landsbygden, skulle jag icke
@@ -1121,7 +1059,7 @@
         <note xml:id="i-FrmcmcxyvHWrYFeYQX4mDC" type="speaker">
           Herr Hedlund:
         </note>
-        <u xml:id="i-EofU9RYAe52vHtRnynhCEA" who="i-YFzzFKh2NjM54cFjad2qWQ" next="i-Uyo3sGMoApoto29n46D2ai">
+        <u xml:id="i-EofU9RYAe52vHtRnynhCEA" who="i-YFzzFKh2NjM54cFjad2qWQ" next="i-F7QyQynH9MCijtk4YiQsFy">
           <seg xml:id="i-DY4Te1gy2DdDgpHF4Lk3bA">
             Det låter sig icke förnekas, att genom folkmängdsförhållandenas
             förändring på senare tider en förskjutning egt rum i förhållandet
@@ -1148,15 +1086,11 @@
             heller vid den tid, då jag lifligt deltog i främjandet af den
             stora och af många med så mycken glädje helsade representationsförändringen.
           </seg>
-        </u>
-        <u xml:id="i-Uyo3sGMoApoto29n46D2ai" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-EofU9RYAe52vHtRnynhCEA" next="i-XtMN5o8uMa8H3Lwnaa9cHk">
           <seg xml:id="i-NTy8Jcvf8B46i6qUMLQSba">
             Man ser dock, att sedan intressena väl kommit i rörelse, falla
             alla konsiderationer; och derpå hafva de sist hållna landstingsmannavalen
             lemnat mer än ett påfallande bevis.
           </seg>
-        </u>
-        <u xml:id="i-XtMN5o8uMa8H3Lwnaa9cHk" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-Uyo3sGMoApoto29n46D2ai" next="i-4XCkCeerxcb1bgzYtt9wCt">
           <seg xml:id="i-XYDWWij1qczP48aFsUdDy3">
             Då man sammanslår städernas valrätt inom båda kamrarne, visar
             det sig, att den för närvarande utgör ungefär en fjerdedel af
@@ -1171,8 +1105,6 @@
             menniskor flyttat in dit från landsbygden, men det är dock ingalunda
             sagdt, att det skall fortgå på samma sätt allt framgent.
           </seg>
-        </u>
-        <u xml:id="i-4XCkCeerxcb1bgzYtt9wCt" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-XtMN5o8uMa8H3Lwnaa9cHk" next="i-F7QyQynH9MCijtk4YiQsFy">
           <seg xml:id="i-5q5yPT44y4QJXGQJqGNkdp">
             I många landsändar har en stark rörelse börjat att på lands-
           </seg>
@@ -1196,7 +1128,7 @@
         <note xml:id="i-SubkWpUiVbz9GpUXCkpw1u" type="date">
           12 Onsdagen den 6 Mars, f. m.
         </note>
-        <u xml:id="i-F7QyQynH9MCijtk4YiQsFy" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-4XCkCeerxcb1bgzYtt9wCt" next="i-GsgdovkgXNh58admR11mFk">
+        <u xml:id="i-F7QyQynH9MCijtk4YiQsFy" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-EofU9RYAe52vHtRnynhCEA">
           <seg xml:id="i-SFuhk5jGXFh9CmLXQ2AwgB">
             bygden inrätta industriella verk och inrättningar. Kapitalstarka
             mär från städerna sätta in sina kapital i dylika företag och bidraga
@@ -1209,8 +1141,6 @@
             en sinnesstämning, som torde hafva sin grund i gamla förhållanden,
             hvilka dock icke ega giltighet nu mera.
           </seg>
-        </u>
-        <u xml:id="i-GsgdovkgXNh58admR11mFk" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-F7QyQynH9MCijtk4YiQsFy" next="i-67VoEn5KGk6BD7vVHfWgim">
           <seg xml:id="i-Boxqv39CqhJVthcWgFreMJ">
             Vare dermed huru som helst, vill jag dock gerna medgifva, att
             den större tillväxt i befolkningen, som visat sig i städerna på
@@ -1221,8 +1151,6 @@
             till det mått, som vid föregående riksdagar blifvit föreslaget
             af herr von Ehrenheim m. fl. och nu senast af herr Alin.
           </seg>
-        </u>
-        <u xml:id="i-67VoEn5KGk6BD7vVHfWgim" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-GsgdovkgXNh58admR11mFk">
           <seg xml:id="i-FEye6YPQV9yikRYB1dsSAd">
             Jag ämnar således, när vi komma till denna punkt, yrka bifall
             till herr Alins förslag, dock med den förändring, till undvikande
@@ -1232,7 +1160,7 @@
         <note xml:id="i-W4uonvZho3SB6v2y6pk3uR" type="speaker">
           Herr Alin:
         </note>
-        <u xml:id="i-QZU5MsHEH7xSadAwCts8hk" who="i-Y9YbqDh3YmC3zyXjWiT1re" next="i-kg5F7uZPdxP6t9XcRiSsE">
+        <u xml:id="i-QZU5MsHEH7xSadAwCts8hk" who="i-Y9YbqDh3YmC3zyXjWiT1re" next="i-16bq5jJMxgiCVwVhEoDTY1">
           <seg xml:id="i-QMDL6At5yJ5FurR1jMkaeY">
             Det kan synas förmätet af mig, som endast är en tillfällig ledamot
             af konstitutionsutskottet, att mot hela utskottet i öfrigt hafva
@@ -1260,8 +1188,6 @@
             i sitt representantantal, som de här ifrågavarande städerna enligt
             nu gällande bestämmelser ega.
           </seg>
-        </u>
-        <u xml:id="i-kg5F7uZPdxP6t9XcRiSsE" who="i-Y9YbqDh3YmC3zyXjWiT1re" prev="i-QZU5MsHEH7xSadAwCts8hk" next="i-16bq5jJMxgiCVwVhEoDTY1">
           <seg xml:id="i-CePomLFykjKnVPUjLMHjz1">
             Sedan jag nu sökt angifva min uppfattning af det förslag, jag
             tagit mig friheten upptaga, och på samma gång som jag förklarar,
@@ -1272,14 +1198,12 @@
         <note xml:id="i-QJvoyuTQtEmVXBpujdZWaY" type="date">
           Onsdagen den 6 Mars, f. m. 13
         </note>
-        <u xml:id="i-16bq5jJMxgiCVwVhEoDTY1" who="i-Y9YbqDh3YmC3zyXjWiT1re" prev="i-kg5F7uZPdxP6t9XcRiSsE" next="i-EBZqbLcmPDt9zL9EjKcFDB">
+        <u xml:id="i-16bq5jJMxgiCVwVhEoDTY1" who="i-Y9YbqDh3YmC3zyXjWiT1re" prev="i-QZU5MsHEH7xSadAwCts8hk" next="i-U1Wb9RKp7sd58zLGCT1A4o">
           <seg xml:id="i-UmayyYsDvqfU4Xn8XMcbY1">
             deraf uppstått, om det affattades på sätt herr Björnstjerna angifvit,
             ber jag att få yttra några ord om konstitutionsutskottets föreliggande
             förslag.
           </seg>
-        </u>
-        <u xml:id="i-EBZqbLcmPDt9zL9EjKcFDB" who="i-Y9YbqDh3YmC3zyXjWiT1re" prev="i-16bq5jJMxgiCVwVhEoDTY1" next="i-NxcuKZqE6w9p6Nr7XMoLgP">
           <seg xml:id="i-NUpWnRxX1csuByZZ3ccwvW">
             Då konstitutionsutskottet endast eger att föreslå sådana grundlagsändringar,
             som äro högst nödiga eller nyttiga, måste man naturligtvis antaga,
@@ -1305,8 +1229,6 @@
             Spanien och Grekland, kan jag icke inse bevisar något i afseende
             å den förändring, hvarom nu är fråga.
           </seg>
-        </u>
-        <u xml:id="i-NxcuKZqE6w9p6Nr7XMoLgP" who="i-Y9YbqDh3YmC3zyXjWiT1re" prev="i-EBZqbLcmPDt9zL9EjKcFDB" next="i-QxkXDxuvHLjnQ8zLjTKHBA">
           <seg xml:id="i-QHCgSBYeD3nfVZ4MgJXKhU">
             För öfrigt anser jag det vara origtigt att, då man vill söka
             få fram, huru stort representanternas antal bör vara, hålla sig
@@ -1329,8 +1251,6 @@
             skall vara så lämplig som den bör vara, blifva talrikare än 1
             ett till arealen mindre och folkrikare land.
           </seg>
-        </u>
-        <u xml:id="i-QxkXDxuvHLjnQ8zLjTKHBA" who="i-Y9YbqDh3YmC3zyXjWiT1re" prev="i-NxcuKZqE6w9p6Nr7XMoLgP" next="i-U1Wb9RKp7sd58zLGCT1A4o">
           <seg xml:id="i-QdYfUSQdeuzPSkWjmMNXc5">
             Hvad åter angår frågan, huruvida ögonblicket nu är inne att begränsa
             antalet representanter, så är jag derom alldeles icke öfvertygad
@@ -1355,7 +1275,7 @@
         <note xml:id="i-9x7bGZcpQgkV2ZVCDntF9k" type="date">
           14 Onsdagen den 6 Mars, f. m.
         </note>
-        <u xml:id="i-U1Wb9RKp7sd58zLGCT1A4o" who="i-Y9YbqDh3YmC3zyXjWiT1re" prev="i-QxkXDxuvHLjnQ8zLjTKHBA" next="i-Ab8qwrZ64hDaP2ovDd2dLR">
+        <u xml:id="i-U1Wb9RKp7sd58zLGCT1A4o" who="i-Y9YbqDh3YmC3zyXjWiT1re" prev="i-16bq5jJMxgiCVwVhEoDTY1" next="i-KZSLA3z3P8fJGiuKSDkSS6">
           <seg xml:id="i-6VLeb8CEXDWDCzQb1vmX1Q">
             framgår, att han icke ansåg antalet riksdagsmän ännu vara för
             stort. Men skulle det befinnas nödvändigt att nu inskränka antalet
@@ -1381,8 +1301,6 @@
             onödigtvis upptager en annan princip än den, hvarpå bestämmelserna
             äro byggda.
           </seg>
-        </u>
-        <u xml:id="i-Ab8qwrZ64hDaP2ovDd2dLR" who="i-Y9YbqDh3YmC3zyXjWiT1re" prev="i-U1Wb9RKp7sd58zLGCT1A4o" next="i-Hfh4CuTZyajDYwnxzxHEVd">
           <seg xml:id="i-JLZXS4LYRDyV8py23jwfiA">
             Hvad åter angår de siffror, utskottet föreslagit, synas mig bestämmelserna
             rörande antalet ledamöter för landsbygden och städerna i Andra
@@ -1398,8 +1316,6 @@
             här finna, att någon anledning föreligger att afvika från den
             princip, som i riksdagsordningen finnes nedlagd.
           </seg>
-        </u>
-        <u xml:id="i-Hfh4CuTZyajDYwnxzxHEVd" who="i-Y9YbqDh3YmC3zyXjWiT1re" prev="i-Ab8qwrZ64hDaP2ovDd2dLR" next="i-KZSLA3z3P8fJGiuKSDkSS6">
           <seg xml:id="i-Ee1x2qkhjt721kf9as3nRH">
             Deremot synes mig, som om man skulle handla 1 öfverensstämmelse
             med riksdagsordningens anda och mening, om man på annat sätt vidtoge
@@ -1421,7 +1337,7 @@
         <note xml:id="i-R5E3yByGHzdVicF8PfigK1" type="date">
           Onsdagen den 6 Mars, f. m. 15
         </note>
-        <u xml:id="i-KZSLA3z3P8fJGiuKSDkSS6" who="i-Y9YbqDh3YmC3zyXjWiT1re" prev="i-Hfh4CuTZyajDYwnxzxHEVd" next="i-P1FvGsyR3sz2oUEjtptrVN">
+        <u xml:id="i-KZSLA3z3P8fJGiuKSDkSS6" who="i-Y9YbqDh3YmC3zyXjWiT1re" prev="i-U1Wb9RKp7sd58zLGCT1A4o">
           <seg xml:id="i-B6D92f5CifLyw2pXwGyui7">
             des, och tänkte jag endast på de förhållanden, han berörde, skulle
             Jag utan betänkande förena mig med honom, men det finnes äfven
@@ -1437,8 +1353,6 @@
             något af det medgifvande, man gjorde dem år 1866, och minska möjligheten
             af tillväxt i deras representantantal. |
           </seg>
-        </u>
-        <u xml:id="i-P1FvGsyR3sz2oUEjtptrVN" who="i-Y9YbqDh3YmC3zyXjWiT1re" prev="i-KZSLA3z3P8fJGiuKSDkSS6" next="i-LZZiiNvv1DhgKLJtwEYfwF">
           <seg xml:id="i-S5a7gPmE8vc5scZCAnoCbu">
             För att sammanfatta mitt omdöme om konstitutionsutskottets nu
             föreliggande förslag vill jag säga, att det synes mig, som om
@@ -1451,8 +1365,6 @@
             äro rigtiga, synas de De vara af beskaffenhet att böra döda det
             förslag, som af dem träffas.
           </seg>
-        </u>
-        <u xml:id="i-LZZiiNvv1DhgKLJtwEYfwF" who="i-Y9YbqDh3YmC3zyXjWiT1re" prev="i-P1FvGsyR3sz2oUEjtptrVN">
           <seg xml:id="i-Wq7Tkd1HzvXNQMGFcud6Qg">
             Ingen af dessa anmärkningar synes mig drabba det förslag jag
             framstält, hvilket söker jemka bestämmelserna med hänsyn till
@@ -1568,18 +1480,14 @@
         <note xml:id="i-4CjA4vKJWYMARJgqhwcsSG" type="date">
           Onsdagen den 6 Mars, f. m. 17
         </note>
-        <u xml:id="i-9nCun48B3z8rsg31ywiHWW" who="i-QJiZi6vyDbrovpwYNe12in" prev="i-8mZU9jFdoNcZETefRPMha2" next="i-FcJGHMH2atUxQ3hfPh7UTA">
+        <u xml:id="i-9nCun48B3z8rsg31ywiHWW" who="i-QJiZi6vyDbrovpwYNe12in" prev="i-8mZU9jFdoNcZETefRPMha2">
           <seg xml:id="i-VbBxrTfsLogDoBWWhgB8qT">
             landsorts representationsrätt skola bibehållas vid samma inbördes
             förhållanden till hvarandra, och stadens folkmängd växer men landsortens
           </seg>
-        </u>
-        <u xml:id="i-FcJGHMH2atUxQ3hfPh7UTA" who="i-QJiZi6vyDbrovpwYNe12in" prev="i-9nCun48B3z8rsg31ywiHWW" next="i-DQQFN1Gv473L3kdT9KyB79">
           <seg xml:id="i-RUfhqSA5zfJvQZTS41ncYw">
             magthållandet af en dylik jemnvigt.
           </seg>
-        </u>
-        <u xml:id="i-DQQFN1Gv473L3kdT9KyB79" who="i-QJiZi6vyDbrovpwYNe12in" prev="i-FcJGHMH2atUxQ3hfPh7UTA" next="i-NKsyWEAXmjEnk8PGUUJoU9">
           <seg xml:id="i-PJjeL3hFe356jYu4gA86n8">
             Konseqvensen af hvad jag nu sagt blir således den, att sjelfva
             grunden, den grund, på hvilken 1866 års lagstiftare byggt och
@@ -1597,8 +1505,6 @@
             eljest en ständigt växande folkmängd måste medföra; och till en
             dylik insigt böra 1 sanning äfven vi numera hafva kommit.
           </seg>
-        </u>
-        <u xml:id="i-NKsyWEAXmjEnk8PGUUJoU9" who="i-QJiZi6vyDbrovpwYNe12in" prev="i-DQQFN1Gv473L3kdT9KyB79" next="i-QJhqX12kjZESTR6dfdHELN">
           <seg xml:id="i-Np5MwfyCdKVrrkybw8kUDp">
             Jag har nu egentligen blott talat om disproportionen mellan landsbygdens
             och städernas representationsrätt och nödvändigheten af att rätta
@@ -1609,8 +1515,6 @@
             uppdrifva vår representation till en för vårt lilla land och våra
             ringa tillgångar alltför vidlyftig och alltför dyrbar apparat.
           </seg>
-        </u>
-        <u xml:id="i-QJhqX12kjZESTR6dfdHELN" who="i-QJiZi6vyDbrovpwYNe12in" prev="i-NKsyWEAXmjEnk8PGUUJoU9">
           <seg xml:id="i-32GhbJAFmN4nPAgweppCTw">
             På de grunder jag nu anfört och till undvikande af en dylik utvidgning
             af riksdagen, till förhindrande af städernas öfver handen tagande
@@ -1625,7 +1529,7 @@
         <note xml:id="i-MJrPYfrPypzMTznLidqnB9" type="speaker">
           Herr Bergius:
         </note>
-        <u xml:id="i-E3v73zSRjEjVhNCEULFU4z" who="i-WYKYyMpgmry8fYiHcFNTZN" next="i-KS8aabftRLfWhnSprwv6eF">
+        <u xml:id="i-E3v73zSRjEjVhNCEULFU4z" who="i-WYKYyMpgmry8fYiHcFNTZN" next="i-Knb5JcVDDyU4uvYDsHmHdb">
           <seg xml:id="i-XmoAKdHANvgjc2t3ggNW93">
             Då man påstår, att städerna för närvarande icke hafva större
             andel i representationen än som vid representationsförändringens
@@ -1636,8 +1540,6 @@
             yttrade justitiestatsministern, beträffande sammansättningen af
             Andra Kammarens följande:
           </seg>
-        </u>
-        <u xml:id="i-KS8aabftRLfWhnSprwv6eF" who="i-WYKYyMpgmry8fYiHcFNTZN" prev="i-E3v73zSRjEjVhNCEULFU4z" next="i-Knb5JcVDDyU4uvYDsHmHdb">
           <seg xml:id="i-GTWY9YP5HXMiRqQUbct89j">
             "I afseende å antalsförhållandet emellan landets och städernas
             representanter är antagen enahanda grund, som följts vid landstingens
@@ -1656,7 +1558,7 @@
         <note xml:id="i-ByAbaESTrGSguAYTbxsrxQ">
           Ifrågasatt ändring af
         </note>
-        <u xml:id="i-Knb5JcVDDyU4uvYDsHmHdb" who="i-WYKYyMpgmry8fYiHcFNTZN" prev="i-KS8aabftRLfWhnSprwv6eF" next="i-3BGYHd2UpRJKZ9qe9Vnbtx">
+        <u xml:id="i-Knb5JcVDDyU4uvYDsHmHdb" who="i-WYKYyMpgmry8fYiHcFNTZN" prev="i-E3v73zSRjEjVhNCEULFU4z" next="i-3BGYHd2UpRJKZ9qe9Vnbtx">
           <seg xml:id="i-K8WzxxL3634f76pvuTt6SN">
             ej, så är ju folkmängden det sista man bör lägga till grund för
             vid- Y / viksdags-
@@ -1678,7 +1580,7 @@
         <note xml:id="i-bRbVFXHoGnNQphwtY8u3B" type="date">
           18 Onsdagen den 6 Mars, f. m.
         </note>
-        <u xml:id="i-3BGYHd2UpRJKZ9qe9Vnbtx" who="i-WYKYyMpgmry8fYiHcFNTZN" prev="i-Knb5JcVDDyU4uvYDsHmHdb" next="i-MCCZVKmLHHR6HZiroXwtqM">
+        <u xml:id="i-3BGYHd2UpRJKZ9qe9Vnbtx" who="i-WYKYyMpgmry8fYiHcFNTZN" prev="i-Knb5JcVDDyU4uvYDsHmHdb" next="i-K1vZRQTYCBrg3rhFY4bNQp">
           <seg xml:id="i-EQAPBVzTspkxqgtpS34ctk">
             get, och enligt hvilket hvarje domsaga på landet utgör ett distrikt,
             derest ej dess folkmängd öfverstiger 40,000 och de mindre städerna
@@ -1686,8 +1588,6 @@
             afseende på nuvarande folkmängdsförhållanden, komma att utses
             omkring 130 representanter för landet och 50 för städerna."
           </seg>
-        </u>
-        <u xml:id="i-MCCZVKmLHHR6HZiroXwtqM" who="i-WYKYyMpgmry8fYiHcFNTZN" prev="i-3BGYHd2UpRJKZ9qe9Vnbtx" next="i-Q4Y46PgWiJNp2GoewNUGTA">
           <seg xml:id="i-Fe7NJuBNFCzGPz78UGyh6N">
             Denna beräkning grundades på 1861 års folkmängd, men i följd
             af städernas hastigare tillväxande folkmängd stälde sig förhållandet
@@ -1700,8 +1600,6 @@
             I Första Kammaren är, såsom bekant, antalet ledamöter nu 20 mera
             än det var år 1867.
           </seg>
-        </u>
-        <u xml:id="i-Q4Y46PgWiJNp2GoewNUGTA" who="i-WYKYyMpgmry8fYiHcFNTZN" prev="i-MCCZVKmLHHR6HZiroXwtqM" next="i-GpgTtXrokaNVVECs84PRn7">
           <seg xml:id="i-C8hcBXwffU2pwd5zis2XH1">
             Den stora tillökning af antalet riksdagsmän i Andra Kammaren,
             som sålunda egt rum, har, såsom i konstitutionsutskottets betänkande
@@ -1720,8 +1618,6 @@
             och dels antalet röstberättigade. Jag skall be att härvidlag få
             anföra endast några få siffror.
           </seg>
-        </u>
-        <u xml:id="i-GpgTtXrokaNVVECs84PRn7" who="i-WYKYyMpgmry8fYiHcFNTZN" prev="i-Q4Y46PgWiJNp2GoewNUGTA" next="i-9FNfVJGAgBbf6EJEtoVAmX">
           <seg xml:id="i-GMA7D86JVehcmz3psPkDRF">
             Vid sista allmänna valen år 1887 utsågs i Stockholm en riksdagsman
             för 10,139 invånare. I de medelstora städerna eller de, som hade
@@ -1736,8 +1632,6 @@
             städerna och i synnerhet landsbygden, icke kan vara billigt och
             rättvist.
           </seg>
-        </u>
-        <u xml:id="i-9FNfVJGAgBbf6EJEtoVAmX" who="i-WYKYyMpgmry8fYiHcFNTZN" prev="i-GpgTtXrokaNVVECs84PRn7" next="i-A4ZHgHtWR9WxYpVyqqKp8H">
           <seg xml:id="i-CASPnDV9xhPZPSASzJhQf3">
             Under den sista treårsperioden 1884—1887 ökades antalet riksdagsmän
             för Stockholm med 3. Det är antagligt att ökningen kommer att
@@ -1745,8 +1639,6 @@
             vara lämpligt att ett samhälle får ett så stort antal riksdagsmän
             inom representationen och i följd deraf ett så stort inflytande.
           </seg>
-        </u>
-        <u xml:id="i-A4ZHgHtWR9WxYpVyqqKp8H" who="i-WYKYyMpgmry8fYiHcFNTZN" prev="i-9FNfVJGAgBbf6EJEtoVAmX" next="i-K1vZRQTYCBrg3rhFY4bNQp">
           <seg xml:id="i-R88fGFEewJ56pSGkCsvnza">
             En förändring i nu gällande stadganden synes derför vara nöd-
           </seg>
@@ -1755,7 +1647,7 @@
         <note xml:id="i-Vwvu16saNKPBdmrygdNPRK" type="date">
           Onsdagen den 6 Mars, f. m. 19
         </note>
-        <u xml:id="i-K1vZRQTYCBrg3rhFY4bNQp" who="i-WYKYyMpgmry8fYiHcFNTZN" prev="i-A4ZHgHtWR9WxYpVyqqKp8H" next="i-2h2Kg77CRbwzaXqrfwNSsB">
+        <u xml:id="i-K1vZRQTYCBrg3rhFY4bNQp" who="i-WYKYyMpgmry8fYiHcFNTZN" prev="i-3BGYHd2UpRJKZ9qe9Vnbtx">
           <seg xml:id="i-CXEbz4b2cj6EAgkGFJUKPj">
             vändig. Jag har visserligen trott, att en sådan ändring skulle
             kunna ske på det enkla sättet, att man, utan att rubba de nu varande
@@ -1778,8 +1670,6 @@
             af Riksdagen gynsammare mottaget än om utskottets ledamöter omfattade
             flera meningar.
           </seg>
-        </u>
-        <u xml:id="i-2h2Kg77CRbwzaXqrfwNSsB" who="i-WYKYyMpgmry8fYiHcFNTZN" prev="i-K1vZRQTYCBrg3rhFY4bNQp" next="i-2W2hGxMA53CQA4yWnYKaQi">
           <seg xml:id="i-Mmth3SEGsj9QvmhCXfbP3K">
             Grundprincipen i detta förslag är, att det skulle utses ett visst
             antal riksdagsmän i Första och ett visst antal i Andra Kammaren
@@ -1805,8 +1695,6 @@
             Nu hafva de emellertid afstått från sitt förslag och förenat gig
             med utskottet.
           </seg>
-        </u>
-        <u xml:id="i-2W2hGxMA53CQA4yWnYKaQi" who="i-WYKYyMpgmry8fYiHcFNTZN" prev="i-2h2Kg77CRbwzaXqrfwNSsB" next="i-47XvrSfvD3HWwwNz1Rr7ja">
           <seg xml:id="i-HLrujZ3CCgnLtGPWSjvjmZ">
             fAvad herr Alins reservation beträffar, har jag icke kunnat biträda
             den samma, särskildt med afseende å fjerde punkten, hvilken jag
@@ -1814,8 +1702,6 @@
             till förmån för de städer, som hafva öfver 20,000 invånare, men
             icke för dem, som hafva mindre.
           </seg>
-        </u>
-        <u xml:id="i-47XvrSfvD3HWwwNz1Rr7ja" who="i-WYKYyMpgmry8fYiHcFNTZN" prev="i-2W2hGxMA53CQA4yWnYKaQi">
           <seg xml:id="i-C8hiLU5tYTEa2U49Zz6oAu">
             Jag hemställer derför, att Första Kammaren måtte antaga den nu
             föredragna sjette paragrafen till hvilande i grundlagsenlig ordning.
@@ -1847,7 +1733,7 @@
         <note xml:id="i-EGkuhJfvwmdLCDM8n74cUt" type="speaker">
           Herr vice talmannen:
         </note>
-        <u xml:id="i-5pm1Ma5qPSZYAwYDC7WnZq" who="unknown" next="i-DJBuqt2zQgaibJD5a4mGUM">
+        <u xml:id="i-5pm1Ma5qPSZYAwYDC7WnZq" who="unknown" next="i-7F2HQ2y9UoC6N5Vimyifos">
           <seg xml:id="i-99MtSajYYi8mnVgir2CT5m">
             Då endast den 6 8 är för närvarande föredragen, kunna naturligtvis
             de yrkanden, som framstälts, icke gälla annat än denna $, under
@@ -1857,8 +1743,6 @@
             på det närmaste sammanhänga, skall äfven jag tillåta mig att betrakta
             frågan 1 hela dess omfång.
           </seg>
-        </u>
-        <u xml:id="i-DJBuqt2zQgaibJD5a4mGUM" who="unknown" prev="i-5pm1Ma5qPSZYAwYDC7WnZq" next="i-QBXTK5bjwpZhArxjsXBFbg">
           <seg xml:id="i-8qRFSoiB2ExF6joaMzPDW7">
             Jag vill till en början med tacksamhet erkänna, att konstitutionsutskottets
             nu föreliggande förslag utmärker sig för en större benägenhet
@@ -1888,8 +1772,6 @@
             tillhöra landet, tillväxa, nya städer uppstå och förflyttas från
             landsbygden in uti den en gång för alla bestämda stadsrepresentationen.
           </seg>
-        </u>
-        <u xml:id="i-QBXTK5bjwpZhArxjsXBFbg" who="unknown" prev="i-DJBuqt2zQgaibJD5a4mGUM" next="i-7F2HQ2y9UoC6N5Vimyifos">
           <seg xml:id="i-BH48gYXkybqmjTEjvHToe">
             Min uppfattning är således den, att man fortfarande bör vårda
             den grund, hvilken, med afseende å representanternas antal, finnes
@@ -1910,7 +1792,7 @@
         <note xml:id="i-3D3pn3hzEKxu4rsgxmeuvE" type="date">
           Onsdagen den 6 Mars, f. m. 21
         </note>
-        <u xml:id="i-7F2HQ2y9UoC6N5Vimyifos" who="unknown" prev="i-QBXTK5bjwpZhArxjsXBFbg" next="i-DUobxKyGaqZBEQNK6GBei6">
+        <u xml:id="i-7F2HQ2y9UoC6N5Vimyifos" who="unknown" prev="i-5pm1Ma5qPSZYAwYDC7WnZq" next="i-2zpD83zB1WJDnCMM1zfKbd">
           <seg xml:id="i-GmrxL9QNmXo3oQpCbfZ2FA">
             är detta, anser jag frågan vara af en allt för stor vigt för
             framtiden, för att man skulle skilja sig ifrån den med ett enkelt
@@ -1939,8 +1821,6 @@
             det är följaktligen icke skäl att sätta de siffror, som berättiga
             dertill, högre, än som äro bestämda 1 vår nuvarande riksdagsordning.
           </seg>
-        </u>
-        <u xml:id="i-DUobxKyGaqZBEQNK6GBei6" who="unknown" prev="i-7F2HQ2y9UoC6N5Vimyifos" next="i-2zpD83zB1WJDnCMM1zfKbd">
           <seg xml:id="i-2WjmyCp9vNarxi7yaVShRJ">
             Annorlunda förhåller det sig med att skicka två eller tre. Stigningen
             blir allt för hastig och stark efter den nuvarande normen, men
@@ -1985,7 +1865,7 @@
         <note xml:id="i-DbGo8qHs5AUBXxQnde8Ggw" type="date">
           22 Onsdagen den 6 Mars, f. m.
         </note>
-        <u xml:id="i-2zpD83zB1WJDnCMM1zfKbd" who="unknown" prev="i-DUobxKyGaqZBEQNK6GBei6">
+        <u xml:id="i-2zpD83zB1WJDnCMM1zfKbd" who="unknown" prev="i-7F2HQ2y9UoC6N5Vimyifos">
           <seg xml:id="i-S687dva6Fm772Nx2x4rLrv">
             sentant för hvarje 10,000 af nämnda antal, skulle, då deras folkmängd
             ökats med 15,000 öfver det antal, som jemt svarar mot 1 på 10,000,
@@ -2048,7 +1928,7 @@
         <note xml:id="i-TQA29EzwtUgm16YAJH4Smg" type="date">
           Onsdagen den 6 Mars, f. m. 23
         </note>
-        <u xml:id="i-4Ebc8jFdTAP5giGbrwaGkd" who="i-E62dRxYV1gQK174YmcQa9s" prev="i-MLNczaJ7XnuFZHbXavprRd" next="i-6PqqR48bCFXq41AG8yiGyN">
+        <u xml:id="i-4Ebc8jFdTAP5giGbrwaGkd" who="i-E62dRxYV1gQK174YmcQa9s" prev="i-MLNczaJ7XnuFZHbXavprRd" next="i-C2ake9SmjNrCoG2oeoKcwV">
           <seg xml:id="i-MLE3YGD3rd43LnBwvEpGfH">
             samma. Hvad jag anser vara den största underlåtenheten i detta
             förslag är, att det icke tillräckligt afväger proportionen mellan
@@ -2075,8 +1955,6 @@
             i dessa vigtiga frågor Första Kammarens myndighet och behörighet
             ofta kommer att trampas under fötterna.
           </seg>
-        </u>
-        <u xml:id="i-6PqqR48bCFXq41AG8yiGyN" who="i-E62dRxYV1gQK174YmcQa9s" prev="i-4Ebc8jFdTAP5giGbrwaGkd" next="i-C2ake9SmjNrCoG2oeoKcwV">
           <seg xml:id="i-QCBTPDZ2YjiXH8MJHC7P8Y">
             Den andra vigtiga anmärkningen mot utskottets förslag har blifvit
             berörd af flera föregående talare. Den gäller nemligen proportionen
@@ -2125,7 +2003,7 @@
         <note xml:id="i-N2d9X45XmeFNcSzkWrz8VX" type="date">
           24 Onsdagen den 6 Mars, f. m.
         </note>
-        <u xml:id="i-C2ake9SmjNrCoG2oeoKcwV" who="i-E62dRxYV1gQK174YmcQa9s" prev="i-6PqqR48bCFXq41AG8yiGyN">
+        <u xml:id="i-C2ake9SmjNrCoG2oeoKcwV" who="i-E62dRxYV1gQK174YmcQa9s" prev="i-4Ebc8jFdTAP5giGbrwaGkd">
           <seg xml:id="i-NV5CQ7gos16vckdThj63y3">
             dagen icke blifvit behandlad i sammanhang med de stora och vigtiga.
             frågorna om ändrad valrätt och ändrad valbarhet, som tränga sig
@@ -2150,7 +2028,7 @@
         <note xml:id="i-JvX6mAMPcFyr9gQAngqxRB" type="speaker">
           Herr Samzelius:
         </note>
-        <u xml:id="i-BMVCtSaVC8TU5oTRqr1L7r" who="i-LNgyvud8Ftrbv7BWjhYTvY" next="i-3DEppfff1Wxy7AaoVh7DjN">
+        <u xml:id="i-BMVCtSaVC8TU5oTRqr1L7r" who="i-LNgyvud8Ftrbv7BWjhYTvY" next="i-4vvHoMkcYUt5qeRKWzsXhF">
           <seg xml:id="i-7wBTp2XjbvvmVByhYbuYFm">
             Vi stå utan tvifvel inför en ytterst vigtig fråga. Jag har med
             tillfredsställelse hört det åtminstone från ett hall erkännas,
@@ -2161,8 +2039,6 @@
             och att sålunda den yttersta varsamhet iakttagits vid en så delikat
             fråga som den förevarande.
           </seg>
-        </u>
-        <u xml:id="i-3DEppfff1Wxy7AaoVh7DjN" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-BMVCtSaVC8TU5oTRqr1L7r" next="i-DRbVQbkBYiPp6oDYPEv5xi">
           <seg xml:id="i-DvWMJFx61pePoPVzPromYg">
             Utskottets förslag innefattar, såsom Kammaren lätteligen finner,
             dere särskilda frågor. Den första är bestämmandet af ett visst
@@ -2173,8 +2049,6 @@
             vid hvart och ett af dessa förslag, och jag ber att få särskildt
             bemöta dessa.
           </seg>
-        </u>
-        <u xml:id="i-DRbVQbkBYiPp6oDYPEv5xi" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-3DEppfff1Wxy7AaoVh7DjN" next="i-4vvHoMkcYUt5qeRKWzsXhF">
           <seg xml:id="i-FGRkAqsqUxja1ZajWSzjfG">
             Hvad först beträffar antalet af samtliga representanter, har
             af den förste talaren framkastats den anmärkningen, att antalet
@@ -2198,7 +2072,7 @@
         <note xml:id="i-2ML5VLqZsPQ6tQhkGiAgg6" type="date">
           Onsdagen den 6 Mars, f. m. 25
         </note>
-        <u xml:id="i-4vvHoMkcYUt5qeRKWzsXhF" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-DRbVQbkBYiPp6oDYPEv5xi" next="i-GR97iN7Z83Peb6sntmtF9D">
+        <u xml:id="i-4vvHoMkcYUt5qeRKWzsXhF" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-BMVCtSaVC8TU5oTRqr1L7r" next="i-GR97iN7Z83Peb6sntmtF9D">
           <seg xml:id="i-NCPeZeh1hAXeq2rmmaNYiz">
             värda dagarne i december 1865 uppträdde ridderskapet och adeln
             och nedlade vid den slutliga voteringen 659 röster. Presteståndeträknade
@@ -2272,7 +2146,7 @@
         <note xml:id="i-UGs5rrKqYGUrZNURBLEcbg" type="date">
           26 Onsdagen den 6 Mars, f. m.
         </note>
-        <u xml:id="i-GR97iN7Z83Peb6sntmtF9D" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-4vvHoMkcYUt5qeRKWzsXhF" next="i-6KFp62hQMDt7uoqbn3Sh9z">
+        <u xml:id="i-GR97iN7Z83Peb6sntmtF9D" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-4vvHoMkcYUt5qeRKWzsXhF" next="i-AikkHgNg2qJbnZDZkPXnrZ">
           <seg xml:id="i-VEq4Ag46h354mcWug9SBE6">
             representationsrätt. Det måste således vara en mycket talrik
             representation för dessa två små storhertigdömen med en sammanräknad
@@ -2281,8 +2155,6 @@
             i den än mindre småstaden Sternberg, — en stad ungefär så stor
             som Vaxholm.
           </seg>
-        </u>
-        <u xml:id="i-6KFp62hQMDt7uoqbn3Sh9z" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-GR97iN7Z83Peb6sntmtF9D" next="i-Dv1mvEp8JYEdYbLiBRuCJ8">
           <seg xml:id="i-RLutTjWLnPYtjUu73vFHz4">
             Hvad beträffar förhållandet mellan de båda kamrarne inbördes,
             så anmärkte den siste talaren, att riksdagsordningens föreskrift,
@@ -2301,8 +2173,6 @@
             presterskapet 30 ledamöter eller lika många, som ridderskapet
             och adeln.
           </seg>
-        </u>
-        <u xml:id="i-Dv1mvEp8JYEdYbLiBRuCJ8" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-6KFp62hQMDt7uoqbn3Sh9z" next="i-MSNUzMUFf61MdFZYPMbGwM">
           <seg xml:id="i-8AeMvR2H8J6KmnAGhk9R9w">
             Det kunde ju hafva varit tänkbart, att, när kamrarne stannat
             i olika beslut i sådana anslagsfrågor, de skulle kunnat afgöras
@@ -2330,8 +2200,6 @@
             för gemensam votering hafva Första Kammarens åsigter gjort sig
             gällande emot Andra Kammarens.
           </seg>
-        </u>
-        <u xml:id="i-MSNUzMUFf61MdFZYPMbGwM" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-Dv1mvEp8JYEdYbLiBRuCJ8" next="i-AikkHgNg2qJbnZDZkPXnrZ">
           <seg xml:id="i-QecuQvwqcu8vmFSagmU32F">
             Att försöka rubba detta förhållande i antal, tror jag numera
             icke vara möjligt, då man icke tänkt derpå, när representationsförslaget
@@ -2344,15 +2212,13 @@
         <note xml:id="i-Q2GRwA6TLopinWihU6QUsw" type="date">
           Onsdagen den 6 Mars, f. m. 27
         </note>
-        <u xml:id="i-AikkHgNg2qJbnZDZkPXnrZ" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-MSNUzMUFf61MdFZYPMbGwM" next="i-4osHU3mSgE3hyP3pHaU7Sa">
+        <u xml:id="i-AikkHgNg2qJbnZDZkPXnrZ" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-GR97iN7Z83Peb6sntmtF9D" next="i-NvVJFGvBrroco8aMEkA5Hi">
           <seg xml:id="i-GEPLn72XYZWMNmRdFhZ45J">
             än underhusets, och särskildt hvad Nederländerna angår, hvars
             författning lär till någon del hafva tagits till mönster för vår,
             så är antalet ledamöter i Första Kammaren 50 och i Andra Kammaren
             100, således jemnt dubbelt så många som i Första Kammaren.
           </seg>
-        </u>
-        <u xml:id="i-4osHU3mSgE3hyP3pHaU7Sa" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-AikkHgNg2qJbnZDZkPXnrZ" next="i-5Bnr1WW77xT9ZEESXAdXjq">
           <seg xml:id="i-FcsqB6PynoUVegm56ubH8n">
             Hvad åter angår den andra frågan, eller bestämmandet af förhållandet
             mellan antalet representanter för landsbygd och städer i Andra
@@ -2386,8 +2252,6 @@
             städernas representanter skulle till antalet vara landsbygdens
             öfverlägsna. Det hgger icke någon rättvisa deri.
           </seg>
-        </u>
-        <u xml:id="i-5Bnr1WW77xT9ZEESXAdXjq" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-4osHU3mSgE3hyP3pHaU7Sa" next="i-NvVJFGvBrroco8aMEkA5Hi">
           <seg xml:id="i-6ZJ3udMpyTeupdoLYyafJ4">
             Hade man icke haft att konstruera en författning efter historiska
             förhållanden, skulle man hafva gått till väga här på samma sätt
@@ -2423,7 +2287,7 @@
         <note xml:id="i-47ZkiUxjpHH1MjMz76JeoW" type="date">
           28 Onsdagen den 6 Mars, f. m.
         </note>
-        <u xml:id="i-NvVJFGvBrroco8aMEkA5Hi" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-5Bnr1WW77xT9ZEESXAdXjq" next="i-9ZKL7CVpyS2dkymZt3Rm3T">
+        <u xml:id="i-NvVJFGvBrroco8aMEkA5Hi" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-AikkHgNg2qJbnZDZkPXnrZ" next="i-8zSnyTsty8Z21q6LoadEaN">
           <seg xml:id="i-TdADHHf5o2rtzdd5H7LJUN">
             görande, och när borgareståndet gaf sitt medgifvande till representationsreformens
             genomförande, fruktar jag, att det icke hade tänkt på, hvad det
@@ -2431,8 +2295,6 @@
             der det alltid skulle komma att bilda minoritet, när landsbygd
             och städer komma att stå emot hvarandra.
           </seg>
-        </u>
-        <u xml:id="i-9ZKL7CVpyS2dkymZt3Rm3T" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-NvVJFGvBrroco8aMEkA5Hi" next="i-8zSnyTsty8Z21q6LoadEaN">
           <seg xml:id="i-5n4BR4KXfT2QB2SPu6NGoL">
             När man tager dessa historiska förhållanden i betraktande, får
             man icke gå för hårdt åt städerna, och jag har derför också vid
@@ -2486,7 +2348,7 @@
         <note xml:id="i-SmU1xdGTmco5Sxk315gcuo" type="date">
           Onsdagen den 6 Mars, f. m. 29
         </note>
-        <u xml:id="i-8zSnyTsty8Z21q6LoadEaN" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-9ZKL7CVpyS2dkymZt3Rm3T" next="i-9jtvuXX82hs9xvWZdwBeAV">
+        <u xml:id="i-8zSnyTsty8Z21q6LoadEaN" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-NvVJFGvBrroco8aMEkA5Hi" next="i-JYgCXaEGwbRJLyhn9QqCGC">
           <seg xml:id="i-BUZ5ztHR97ZQcXxQRaDoiv">
             andra, Då den ärade talaren på göteborgsbänken, hvilken talare
             eljest plägar se sakerna i stort, framkastade, att det icke funnes
@@ -2500,8 +2362,6 @@
             men är boende i stad, dock kan utse honom till representant för
             en landsort.
           </seg>
-        </u>
-        <u xml:id="i-9jtvuXX82hs9xvWZdwBeAV" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-8zSnyTsty8Z21q6LoadEaN" next="i-KMpviitiXkkVPtcFxxYMY6">
           <seg xml:id="i-HLosih1wHoRjyGS6XxWxCb">
             Den siste ärade talaren yttrade något, hvari jag icke rätt förstod
             logiken. Han ville rösta för, att det framlagda förslaget skulle
@@ -2539,8 +2399,6 @@
             derför, att det är ganska tillfredsställande att veta, att tyngdpunkten
             ligger der och icke hos socialistanförarne i städerna.
           </seg>
-        </u>
-        <u xml:id="i-KMpviitiXkkVPtcFxxYMY6" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-9jtvuXX82hs9xvWZdwBeAV" next="i-JYgCXaEGwbRJLyhn9QqCGC">
           <seg xml:id="i-6tMqpic3SvfsrkaGX44evx">
             Jag har kanske något länge upptagit tiden med mitt anförande,
             men frågan är af yttersta vigt. Jag lägger på Kammarens hjerta
@@ -2568,7 +2426,7 @@
         <note xml:id="i-BaKvas8nLZkNSKA6u3NzZN" type="date">
           30 Onsdagen den 6 Mars, f. m.
         </note>
-        <u xml:id="i-JYgCXaEGwbRJLyhn9QqCGC" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-KMpviitiXkkVPtcFxxYMY6">
+        <u xml:id="i-JYgCXaEGwbRJLyhn9QqCGC" who="i-LNgyvud8Ftrbv7BWjhYTvY" prev="i-8zSnyTsty8Z21q6LoadEaN">
           <seg xml:id="i-5YKEX8F2ABfsWWhrnrYLPb">
             tror jag är villig att nu i dag bevilja hvad utskottet här föreslagit,
             men det är icke sagdt, att den hvilken dag som helst är villig
@@ -2633,7 +2491,7 @@
         <note xml:id="i-CJ5HnFwv4kvMpFKGvbF72d" type="date">
           Onsdagen den 6 Mars, f. m. 31
         </note>
-        <u xml:id="i-D1eQKAs1Mm1YzTwQPFphFp" who="i-XR2oVxSMgrpcHqDqNW2bkk" prev="i-DembBMSip49sLyqwuJEzwM" next="i-FLMZZ1mKG1dukBXwauP9Az">
+        <u xml:id="i-D1eQKAs1Mm1YzTwQPFphFp" who="i-XR2oVxSMgrpcHqDqNW2bkk" prev="i-DembBMSip49sLyqwuJEzwM">
           <seg xml:id="i-CZFnzZicHqJTaox7rQ2V7j">
             lång följd af år en bestämd gräns mot det ständiga ökandet af
             riksdagsmännens antal, och för det andra, att det blir faststäldt
@@ -2644,8 +2502,6 @@
             för hvad följden skall blifva af det ständigt sig ökande antalet
             af stadsrepresentanter i Andra Kammaren.
           </seg>
-        </u>
-        <u xml:id="i-FLMZZ1mKG1dukBXwauP9Az" who="i-XR2oVxSMgrpcHqDqNW2bkk" prev="i-D1eQKAs1Mm1YzTwQPFphFp" next="i-BtPASX8SDzdjAr7AdTsWTM">
           <seg xml:id="i-CXbGgsxKP5TZNhunULYBRq">
             Den föregående talaren har redan erinrat, att utom de representanter
             för städerna, som finnas i Andra Kammaren, hafva vi i Första Kammaren,
@@ -2657,8 +2513,6 @@
             vara fiendtlig mot städernas intressen, hvilket äfven torde bestyrkas
             af den nu förda diskussionen.
           </seg>
-        </u>
-        <u xml:id="i-BtPASX8SDzdjAr7AdTsWTM" who="i-XR2oVxSMgrpcHqDqNW2bkk" prev="i-FLMZZ1mKG1dukBXwauP9Az">
           <seg xml:id="i-99v2tWFfRSmx1PqbY5oyMq">
             Jag har härmed velat tillkännagifva, att jag röstar för att förslaget
             förklaras hvilande.
@@ -2723,7 +2577,7 @@
         <note xml:id="i-8m4NX42MULA6mFeYr85djD" type="date">
           32 Onsdagen den 6 Mars, f. m.
         </note>
-        <u xml:id="i-GmX5FHCb3ikRiNxhVXNCWq" who="i-2sXH8re5NKjPFTXLjjke7b" prev="i-6XykCeW4Zh6g6qLgiqF18U" next="i-Y1hwHQsZXFbz4AukbBrewe">
+        <u xml:id="i-GmX5FHCb3ikRiNxhVXNCWq" who="i-2sXH8re5NKjPFTXLjjke7b" prev="i-6XykCeW4Zh6g6qLgiqF18U">
           <seg xml:id="i-LXuw78yKwsdXPruWHbBMJr">
             yrkanden om att i allt snäfvare kretsar binda städernas deltagande
             i riksdagen. Ettdera af de två skall hända: antingen ökas städernas
@@ -2737,8 +2591,6 @@
             att städerna skulle förlora allt för mycket, om man antoge detta
             förslag.
           </seg>
-        </u>
-        <u xml:id="i-Y1hwHQsZXFbz4AukbBrewe" who="i-2sXH8re5NKjPFTXLjjke7b" prev="i-GmX5FHCb3ikRiNxhVXNCWq">
           <seg xml:id="i-J32WCkGUR3kSfEoSc76a6u">
             Huru de förslag, som otvifvelaktigt komma att se dagen, i fall
             denna fråga faller, blifva behandlade af Riksdag och regering,
@@ -2753,7 +2605,7 @@
         <note xml:id="i-PuzmpyW6ME5Frci312N2tH" type="speaker">
           Herr Gilljam:
         </note>
-        <u xml:id="i-N7iejdgNpZqnoAvuWqbQv4" who="i-E87PtNrvf5D9mPbn59wpkU" next="i-HYxAeQuxRzMs6ZWbFCgUVv">
+        <u xml:id="i-N7iejdgNpZqnoAvuWqbQv4" who="i-E87PtNrvf5D9mPbn59wpkU" next="i-5WEoNhGyXeNC6CdeBeC2h4">
           <seg xml:id="i-Fe1hwh3AX1KARLMNMRLe74">
             Ehuru det egentligen är blott 6 8, som nu direkt är föremål för
             öfverläggning, vill jag begagna mig af den rättighet, som äfven
@@ -2767,8 +2619,6 @@
             vara. På grund deraf kommer jag också att yrka afslag å konstitutionsutskottets
             förslag till ändring af 6 $.
           </seg>
-        </u>
-        <u xml:id="i-HYxAeQuxRzMs6ZWbFCgUVv" who="i-E87PtNrvf5D9mPbn59wpkU" prev="i-N7iejdgNpZqnoAvuWqbQv4" next="i-LMrfZQwqeAb6a6bBSDk15v">
           <seg xml:id="i-NoBYjmco7nsXJkr2LNr5Vg">
             Hvad deremot beträffar 13 8, är jag lifligt öfvertygad om, att
             en stor och verkligt betydande olägenhet förefinnes i det alltjemt
@@ -2784,8 +2634,6 @@
             bra, som de: först införda och ännu gällande bestämmelserna motsvarade
             sin tids.
           </seg>
-        </u>
-        <u xml:id="i-LMrfZQwqeAb6a6bBSDk15v" who="i-E87PtNrvf5D9mPbn59wpkU" prev="i-HYxAeQuxRzMs6ZWbFCgUVv" next="i-5WEoNhGyXeNC6CdeBeC2h4">
           <seg xml:id="i-5t9XTnUf4caWz9rWv8mrsb">
             Vi veta, att vid representationsordningens införande faststäldes
             två, hvad jag vill kalla normaltal, 10,000 för städerna och 20,000
@@ -2800,7 +2648,7 @@
         <note xml:id="i-N5kfwFYgWjndAMNzEipXPA" type="date">
           Onsdagen den 6 Mars, f. m. 33
         </note>
-        <u xml:id="i-5WEoNhGyXeNC6CdeBeC2h4" who="i-E87PtNrvf5D9mPbn59wpkU" prev="i-LMrfZQwqeAb6a6bBSDk15v" next="i-426B4M61nWLjarZMogfNDf">
+        <u xml:id="i-5WEoNhGyXeNC6CdeBeC2h4" who="i-E87PtNrvf5D9mPbn59wpkU" prev="i-N7iejdgNpZqnoAvuWqbQv4" next="i-QpNYHSMse2vMktSnPDFxCX">
           <seg xml:id="i-NsTmcyrPpCizNh76cJzYge">
             ifna förutsättningarne för vår representationsordnings tillkomst
             — Jag tänker särskildt på bondeoch borgarestånden — som äfven
@@ -2824,8 +2672,6 @@
             räknadt ett förhållande nära nog af 1 till 3 i stället för 1 till
             2.
           </seg>
-        </u>
-        <u xml:id="i-426B4M61nWLjarZMogfNDf" who="i-E87PtNrvf5D9mPbn59wpkU" prev="i-5WEoNhGyXeNC6CdeBeC2h4" next="i-SVr99KeVFCCQm9hQkfXHcX">
           <seg xml:id="i-L7chfsp1g1CGz3pyUdSyfB">
             Man svarar mig nu, och, såsom jag anser med allt skäl, att detta
             var af riksens ständer förutsedt. När riksens ständer godkände
@@ -2851,8 +2697,6 @@
             uppgörande, har städernas folkmängd ökats med 87, procent, då
             deremot landsbygdens befolkning ökats med endast om-
           </seg>
-        </u>
-        <u xml:id="i-SVr99KeVFCCQm9hQkfXHcX" who="i-E87PtNrvf5D9mPbn59wpkU" prev="i-426B4M61nWLjarZMogfNDf" next="i-QpNYHSMse2vMktSnPDFxCX">
           <seg xml:id="i-SX71g6SB67Nr3Nkd28aQza">
             ring 121!/, procent. Dertill kommer, att städerna ega större
             lätthet att göra sig till godo sitt ökade invånareantal för ökande
@@ -2886,7 +2730,7 @@
         <note xml:id="i-TpEGMMjqcmhPw63CtzZ2Cr" type="date">
           34 Onsdagen den 6 Mars, f. m.
         </note>
-        <u xml:id="i-QpNYHSMse2vMktSnPDFxCX" who="i-E87PtNrvf5D9mPbn59wpkU" prev="i-SVr99KeVFCCQm9hQkfXHcX" next="i-23U9DrHdiZDGoyHzfCDqwH">
+        <u xml:id="i-QpNYHSMse2vMktSnPDFxCX" who="i-E87PtNrvf5D9mPbn59wpkU" prev="i-5WEoNhGyXeNC6CdeBeC2h4" next="i-JXPiwhortBBC8LSbbNE7EN">
           <seg xml:id="i-5jbmpNeVDAenYXU3dmqMFh">
             mare ställning. De folkrikaste domsagorna kunna, då de hunnit
             öfver ett antal af 40,000 invånare, icke få representantantalet
@@ -2908,8 +2752,6 @@
             skulle vinna en så rask tillväxt, man icke gjort valrättsbestämmelserna
             för dem så fördelaktiga, som de blefvo.
           </seg>
-        </u>
-        <u xml:id="i-23U9DrHdiZDGoyHzfCDqwH" who="i-E87PtNrvf5D9mPbn59wpkU" prev="i-QpNYHSMse2vMktSnPDFxCX" next="i-JXPiwhortBBC8LSbbNE7EN">
           <seg xml:id="i-JQsY4GSibUid56QGkvtkSM">
             Det förslag, som synes mig på det enklaste och naturligaste sättet
             lösa den för handen varande svårigheten, det är det förslag, som
@@ -2949,7 +2791,7 @@
         <note xml:id="i-KfrNWwUbRKMvp7NUVy6Qw8" type="date">
           Onsdagen den 6 Mars, f. m. 30
         </note>
-        <u xml:id="i-JXPiwhortBBC8LSbbNE7EN" who="i-E87PtNrvf5D9mPbn59wpkU" prev="i-23U9DrHdiZDGoyHzfCDqwH" next="i-SsmBmFhAW2kpibBetgEMHM">
+        <u xml:id="i-JXPiwhortBBC8LSbbNE7EN" who="i-E87PtNrvf5D9mPbn59wpkU" prev="i-QpNYHSMse2vMktSnPDFxCX">
           <seg xml:id="i-4nzebmrR1DNJuQYQY8Cx2Y">
             Blott i ett enda afseende kan berr Alins reservation förefalla
             något hårdhändt, nemligen derutinnan, att inskränkningarna i städernas
@@ -2983,8 +2825,6 @@
             12,000 invånare, men vi hafva dock hunnit så långt, att de i medeltal
             måste prestera 10,300 invånare för att få sända en representant.
           </seg>
-        </u>
-        <u xml:id="i-SsmBmFhAW2kpibBetgEMHM" who="i-E87PtNrvf5D9mPbn59wpkU" prev="i-JXPiwhortBBC8LSbbNE7EN">
           <seg xml:id="i-KUTE6y93EP13XKeJXbmPAH">
             De anmärkningar, som i öfrigt framstälts mot herr Alins förslag,
             synas mig vara mindre betydande, och derför instämmer jag tills
@@ -3096,7 +2936,7 @@
         <note xml:id="i-7iLWzTFdJ95BuhxUVLCSEq" type="date">
           Onsdagen den 6 Mars, f. m. | 37
         </note>
-        <u xml:id="i-JkP7mp9rxVT4mwVFhaDVCn" who="i-Ufknq4rc7s6czPFqkd6RXu" prev="i-NoEREjvy2RAa5GCUn3sev9" next="i-MxYSrehzn7oLKvSfJBygDQ">
+        <u xml:id="i-JkP7mp9rxVT4mwVFhaDVCn" who="i-Ufknq4rc7s6czPFqkd6RXu" prev="i-NoEREjvy2RAa5GCUn3sev9" next="i-NXa5mBLoYDC1oWyqvvxzRb">
           <seg xml:id="i-XN5evX6qKwuHNMsq5Ns7KG">
             skall man icke länge få behålla dem der. När de varit bär några
             år och blifvit väl varma i kläderna ooh kunna användas för riksdagsarbetet,
@@ -3111,8 +2951,6 @@
             Det inflytande, som städerna vunnit under dessa 20 år, det skulle
             de sålunda få nästan oqvaldt behålla.
           </seg>
-        </u>
-        <u xml:id="i-MxYSrehzn7oLKvSfJBygDQ" who="i-Ufknq4rc7s6czPFqkd6RXu" prev="i-JkP7mp9rxVT4mwVFhaDVCn" next="i-HyHtcMn9U75bgPqXoAqU3T">
           <seg xml:id="i-U4QHtaSEL8UayBjHrt3PS5">
             Sedan var den andra punkten, att man skulle försöka att rätta
             den missproportion, som utvecklat sig under dessa 20 år mellan
@@ -3143,8 +2981,6 @@
             komma att utgöra 20 procent. Således icke på något håll en hel
             procent, som komme att undergå förändring.
           </seg>
-        </u>
-        <u xml:id="i-HyHtcMn9U75bgPqXoAqU3T" who="i-Ufknq4rc7s6czPFqkd6RXu" prev="i-MxYSrehzn7oLKvSfJBygDQ" next="i-NXa5mBLoYDC1oWyqvvxzRb">
           <seg xml:id="i-DmtnLKM5hefEPNcAzjVKCd">
             Slutligen, i afseende på förhållandet mellan de största och de
             mindre städerna, beder jag att få fästa uppmärksamheten på några
@@ -3180,7 +3016,7 @@
         <note xml:id="i-FUina3yENH2gq2SSDa9L4b" type="date">
           38 Onsdagen den 6 Mars, e. m.
         </note>
-        <u xml:id="i-NXa5mBLoYDC1oWyqvvxzRb" who="i-Ufknq4rc7s6czPFqkd6RXu" prev="i-HyHtcMn9U75bgPqXoAqU3T" next="i-QEnUMYaqCzPiYizwWvqKCX">
+        <u xml:id="i-NXa5mBLoYDC1oWyqvvxzRb" who="i-Ufknq4rc7s6czPFqkd6RXu" prev="i-JkP7mp9rxVT4mwVFhaDVCn" next="i-MJG7FKMNcQ8t1vb5vVCfFn">
           <seg xml:id="i-Q1zdE7wq1zGSW7fJdX7k2x">
             ten, och nu har antalet för de tre städerna gått upp till något
             öfver 40 procent af hela representationen för städerna. Hvad åter
@@ -3198,8 +3034,6 @@
             så nära antalet 12,000, att den vid första valet under den nya
             tioårsperioden öfversteg denna maximisiffra.
           </seg>
-        </u>
-        <u xml:id="i-QEnUMYaqCzPiYizwWvqKCX" who="i-Ufknq4rc7s6czPFqkd6RXu" prev="i-NXa5mBLoYDC1oWyqvvxzRb" next="i-TT3JLTvysQacf4w5ixCboC">
           <seg xml:id="i-M7Xa3pD1aKSuUcAkY71B9Q">
             Dessa missförhållanden skulle nu äfven afhjelpas genom utskottets
             förslag. Visserligen skulle de största städerna fortfarande få
@@ -3208,15 +3042,11 @@
             punkt af politiskt inflytande som nu, och icke vidare kunna väsentligen
             öfverflygla de andra städerna.
           </seg>
-        </u>
-        <u xml:id="i-TT3JLTvysQacf4w5ixCboC" who="i-Ufknq4rc7s6czPFqkd6RXu" prev="i-QEnUMYaqCzPiYizwWvqKCX" next="i-J82y45X6mHDeoUb9H36M33">
           <seg xml:id="i-FoGUPpt3VZbf8geQ4PEJCw">
             Efter att sålunda hafva redogjort för de väsentligaste skälen
             för utskottets förslag, skall jag be att med några få ord få bemöta
             några af de argument, som mot förslaget i dag här framkommit.
           </seg>
-        </u>
-        <u xml:id="i-J82y45X6mHDeoUb9H36M33" who="i-Ufknq4rc7s6czPFqkd6RXu" prev="i-TT3JLTvysQacf4w5ixCboC" next="i-MJG7FKMNcQ8t1vb5vVCfFn">
           <seg xml:id="i-CoH9jGLPvELHXMG8KPhbcX">
             Ett af de vigtigaste framstäldes genast af herr Björnstjerna,
             då han befarade, att man genom att antaga utskottets förslag skulle
@@ -3254,14 +3084,12 @@
         <note xml:id="i-5qN319Yp2ZUrkWvZew38fQ">
           N:o 18.
         </note>
-        <u xml:id="i-MJG7FKMNcQ8t1vb5vVCfFn" who="i-Ufknq4rc7s6czPFqkd6RXu" prev="i-J82y45X6mHDeoUb9H36M33" next="i-F6oWQTdh4t94BCbnjW1KJo">
+        <u xml:id="i-MJG7FKMNcQ8t1vb5vVCfFn" who="i-Ufknq4rc7s6czPFqkd6RXu" prev="i-NXa5mBLoYDC1oWyqvvxzRb">
           <seg xml:id="i-gR9rQXCWvq5i3xLwnuBNs">
             skulle enligt reservantens förslag stå qvar på sin nuvarande
             stånd- Ifrågasatt punkt, utan rätt att få öka sitt representantantal,
             förrän dess folkav af
           </seg>
-        </u>
-        <u xml:id="i-F6oWQTdh4t94BCbnjW1KJo" who="i-Ufknq4rc7s6czPFqkd6RXu" prev="i-MJG7FKMNcQ8t1vb5vVCfFn" next="i-BKhKbKf6xtcrTwUYq3m5v1">
           <seg xml:id="i-DGxiV7PDa3YAVbUcF8FS4D">
             mängd ökats med ungefär 115,000 personer utöfver hvad den nu
             utgör. Och då denna stad under de 22 åren från 1865 ökat sin folkmängd
@@ -3278,8 +3106,6 @@
             ställning till landsbygden inom representationen, än de skulle
             göra, derest utskottets förslag antages.
           </seg>
-        </u>
-        <u xml:id="i-BKhKbKf6xtcrTwUYq3m5v1" who="i-Ufknq4rc7s6czPFqkd6RXu" prev="i-F6oWQTdh4t94BCbnjW1KJo" next="i-9UTQvEQoMaRhb7BU4rFd1k">
           <seg xml:id="i-UdvB3hQHvf9gNNU751jLxT">
             Dessutom har man här till förmån för herr Alins reservation påpekat,
             att den hvilar på den grund, som i riksdagsordningen är lagd,
@@ -3299,8 +3125,6 @@
             af 15,000, så innebär väl detta en ännu betydligare förbrytelse
             mot 13 8 och mot det inflytande, som är städerna garanteradt.
           </seg>
-        </u>
-        <u xml:id="i-9UTQvEQoMaRhb7BU4rFd1k" who="i-Ufknq4rc7s6czPFqkd6RXu" prev="i-BKhKbKf6xtcrTwUYq3m5v1">
           <seg xml:id="i-Jg4eCLZKufzw3Nd1RQ97P2">
             Jag har åtskilligt mera här antecknadt. Men de föregående talarne
             hafva talat så länge och så nu äfven jag, hvarför jag skall afstå
@@ -3347,7 +3171,7 @@
         <note xml:id="i-HDtpn4LHzc2VHCMmpbc4SY" type="date">
           40 Onsdagen den 6 Mars, f. m.
         </note>
-        <u xml:id="i-6vvujZWPoaG1swtVxzxkQw" who="i-4dpPiR5vPaudMdw81CyiYW" next="i-FxCNSUj1jmZMawqdh4VKjb">
+        <u xml:id="i-6vvujZWPoaG1swtVxzxkQw" who="i-4dpPiR5vPaudMdw81CyiYW">
           <seg xml:id="i-3vpSUkLemSZNGimhxQvMrt">
             dringar i grundlagen, innehåller icke blott föreskriften att
             utskottet skall föreslå sådana förändringar, som kunna finnas
@@ -3360,8 +3184,6 @@
             någon utsigt vara för handen, att det förslag, som utskottet framställer,
             kan komma att af kamrarna antagas.
           </seg>
-        </u>
-        <u xml:id="i-FxCNSUj1jmZMawqdh4VKjb" who="i-4dpPiR5vPaudMdw81CyiYW" prev="i-6vvujZWPoaG1swtVxzxkQw" next="i-JGcKXgfA1mE28EwVxbaLCK">
           <seg xml:id="i-HLxyicVnUPgybGLur6N24n">
             Hvad det beträffar, att den nu föreslagna förändringen är nödvändig,
             så torde det vara bevisadt icke blott genom motioner om ändring
@@ -3370,8 +3192,6 @@
             hvarvid nästan ingen kunnat bestämdt förklara, att förändringen
             icke är nödig och behöfig.
           </seg>
-        </u>
-        <u xml:id="i-JGcKXgfA1mE28EwVxbaLCK" who="i-4dpPiR5vPaudMdw81CyiYW" prev="i-FxCNSUj1jmZMawqdh4VKjb" next="i-NaZBZZgKbk9k1xf7MG8CiV">
           <seg xml:id="i-PQdmPYeZge2KsDy1iPCUyj">
             I fråga om den af: herr Alin gjorda reservationen tror jag, att
             många inom utskottet skulle varit med om densamma, om de kunnat
@@ -3381,8 +3201,6 @@
             har jag förenat mig med dem inom utskottet, som framlagt det förslag,
             hvilket nu utgör föremål för öfverläggning.
           </seg>
-        </u>
-        <u xml:id="i-NaZBZZgKbk9k1xf7MG8CiV" who="i-4dpPiR5vPaudMdw81CyiYW" prev="i-JGcKXgfA1mE28EwVxbaLCK" next="i-Agybbf3F74a9E2zkTSpRz2">
           <seg xml:id="i-Y4ps2NP7Gk65vWhLoCVzvj">
             Den väsentliga invändning, som gjorts deremot, har varit att
             städernas intresse icke skulle blifva vederbörligen tillgodosedt.
@@ -3397,8 +3215,6 @@
             och 32 i 25 af rikets öfriga städer. Således utgöres halfva antalet
             af Första Kammarens ledamöter af personer, bosatta i städerna.
           </seg>
-        </u>
-        <u xml:id="i-Agybbf3F74a9E2zkTSpRz2" who="i-4dpPiR5vPaudMdw81CyiYW" prev="i-NaZBZZgKbk9k1xf7MG8CiV" next="i-3YdZej5TuRxduhXKaNy4Kx">
           <seg xml:id="i-DwYUWE4RNeQd7sp6drnUp8">
             Jag befarar, att, om detta förslag icke af Riksdagen antages,
             utan i framtiden nya förslag skola framställas om ändring i nu
@@ -3409,8 +3225,6 @@
             slut möjligen beröfvas det inflytande, som de för en längre tid
             skulle kunna behålla, i fall föreliggande förslag antages.
           </seg>
-        </u>
-        <u xml:id="i-3YdZej5TuRxduhXKaNy4Kx" who="i-4dpPiR5vPaudMdw81CyiYW" prev="i-Agybbf3F74a9E2zkTSpRz2">
           <seg xml:id="i-K7e8xS66pzgN8Nb959H2jp">
             Det är på grund häraf, som jag förenar mig med dem, hvilka bemstält,
             att Kammaren måtte godkänna detta förslag såsom hvilande till
@@ -3430,7 +3244,7 @@
         <note xml:id="i-SmEnJEmcy4rCXw4icPCEXx" type="date">
           Onsdagen den 6 Mars, f. m. 41
         </note>
-        <u xml:id="i-kG1dpQXnxiispgNm8KeCD" who="i-3DKytmgpnLCJYb8hSjHGUm" prev="i-MEJsUXaHQ5qMbWzLvncJD5" next="i-KMqsyN3L5Q8UWnVBUQmxNy">
+        <u xml:id="i-kG1dpQXnxiispgNm8KeCD" who="i-3DKytmgpnLCJYb8hSjHGUm" prev="i-MEJsUXaHQ5qMbWzLvncJD5" next="i-ECvkFZ2sbVp6PjLmQV7H3G">
           <seg xml:id="i-2u7W2qFBfSdTWpkKZKP5xp">
             af svenska folkets representanter redan i förhållande till landets
             folkmängd är större än det borde vara. Man fruktar för att detta
@@ -3474,8 +3288,6 @@
             och vi kunna således gifva oss tid, att äfven då taga denna fråga
             1 öfvervägande, om så skulle erfordras.
           </seg>
-        </u>
-        <u xml:id="i-KMqsyN3L5Q8UWnVBUQmxNy" who="i-3DKytmgpnLCJYb8hSjHGUm" prev="i-kG1dpQXnxiispgNm8KeCD" next="i-ECvkFZ2sbVp6PjLmQV7H3G">
           <seg xml:id="i-AspaQqfYPnTYMY35YgAQYN">
             Nu ber jag att få bemärka, att utskottet i sjelfva verket medgifvit,
             att siffran 12,936, svarande emot 1 representant, icke är så synnerligen
@@ -3511,7 +3323,7 @@
         <note xml:id="i-CnfCXW8U5aMhpfdAJx9hig" type="date">
           42 Onsdagen den 6 Mars, f. m.
         </note>
-        <u xml:id="i-ECvkFZ2sbVp6PjLmQV7H3G" who="i-3DKytmgpnLCJYb8hSjHGUm" prev="i-KMqsyN3L5Q8UWnVBUQmxNy" next="i-6bK4165gUJ5FMr58govvRQ">
+        <u xml:id="i-ECvkFZ2sbVp6PjLmQV7H3G" who="i-3DKytmgpnLCJYb8hSjHGUm" prev="i-kG1dpQXnxiispgNm8KeCD" next="i-XAshzo9qU1nnpeDABq57r5">
           <seg xml:id="i-YPetugJkdjpkqbeMtWQTRY">
             land, hvilken omständighet också betingat olikheter till och
             med i lagstiftningen. Jag åberopar i detta hänseende, huruledes
@@ -3519,8 +3331,6 @@
             sina särskilda skogslagar, hvilka icke blifvit utsträckta till
             de öfriga delarne af riket.
           </seg>
-        </u>
-        <u xml:id="i-6bK4165gUJ5FMr58govvRQ" who="i-3DKytmgpnLCJYb8hSjHGUm" prev="i-ECvkFZ2sbVp6PjLmQV7H3G" next="i-LiXhx2cAsatrzynAkFkBZ7">
           <seg xml:id="i-5MHJ6JqQ8NXoGcnsGyK8YY">
             I den föredragna punkten är egentligen fråga om Första Kammaren.
             Jag skall, med afseende på den långt framskridna tiden, hålla
@@ -3529,8 +3339,6 @@
             angår antalet ledamöter i Första Kammaren, finner några nya föreskrifter
             ännu icke vara af behofvet påkallade.
           </seg>
-        </u>
-        <u xml:id="i-LiXhx2cAsatrzynAkFkBZ7" who="i-3DKytmgpnLCJYb8hSjHGUm" prev="i-6bK4165gUJ5FMr58govvRQ" next="i-JjSQEd8HkUhfE9iYf3QHmn">
           <seg xml:id="i-5eZuPrh7FSEjBJB7AqLgyz">
             Man har sagt, och det är ju så, att antalet ledamöter i Första
             Kammaren för närvarande utgör 145, men likasom, då det är fråga
@@ -3546,13 +3354,9 @@
             i sakens natur, att ledamöterna i Första Kammaren icke kunna vara
             så flitigt tillstädes här
           </seg>
-        </u>
-        <u xml:id="i-JjSQEd8HkUhfE9iYf3QHmn" who="i-3DKytmgpnLCJYb8hSjHGUm" prev="i-LiXhx2cAsatrzynAkFkBZ7" next="i-HEkMDpq2wN666rpP18KLXX">
           <seg xml:id="i-EpcPSdbua2Xb6ac7axcJzh">
             i Kammaren som man skulle önska. Dessa stora arbetsgifvare, dessa
           </seg>
-        </u>
-        <u xml:id="i-HEkMDpq2wN666rpP18KLXX" who="i-3DKytmgpnLCJYb8hSjHGUm" prev="i-JjSQEd8HkUhfE9iYf3QHmn" next="i-GXrzTK7ydT3d78caQU3X7D">
           <seg xml:id="i-WcVe2F54N2wv5BXQpgtRyu">
             stora jorddrottar och framstående landtbrukare måste tillse sina
             affärers gång och det är sannerligen ett stort offer på fäderneslandets
@@ -3567,8 +3371,6 @@
             vara fri från att sköta sitt embete, men sådant oaktadt sällan
             eller aldrig ens syntes i riksdagen.
           </seg>
-        </u>
-        <u xml:id="i-GXrzTK7ydT3d78caQU3X7D" who="i-3DKytmgpnLCJYb8hSjHGUm" prev="i-HEkMDpq2wN666rpP18KLXX" next="i-PH5hUUbpzVZGgCSdjEvC8E">
           <seg xml:id="i-9Tnsij77TQurFivPF7dCUD">
             Jag tror således, att man icke kan säga, att antalet ledamöter
             inom Första Kammaren, sådant som det i verkligheten förefinnesg,
@@ -3580,8 +3382,6 @@
             fullt. Man kan icke fordra, och för min del fordrar jag det minst,
             att de skola ligga här dag ut och dag in och öfvervara alla förhandlingar.
           </seg>
-        </u>
-        <u xml:id="i-PH5hUUbpzVZGgCSdjEvC8E" who="i-3DKytmgpnLCJYb8hSjHGUm" prev="i-GXrzTK7ydT3d78caQU3X7D" next="i-XAshzo9qU1nnpeDABq57r5">
           <seg xml:id="i-7HJ1X41J41fhhpUY2XygP7">
             Såsom jag nyss nämnde, kunde jag hafva haft lust att yttra mig
             öfver frågan i hela dess utsträckning, men med afseende på den
@@ -3594,7 +3394,7 @@
         <note xml:id="i-GH5uE1aPQyQTVF3NLZfRR1" type="date">
           Onsdagen den 6 Mars, f. m. 43
         </note>
-        <u xml:id="i-XAshzo9qU1nnpeDABq57r5" who="i-3DKytmgpnLCJYb8hSjHGUm" prev="i-PH5hUUbpzVZGgCSdjEvC8E">
+        <u xml:id="i-XAshzo9qU1nnpeDABq57r5" who="i-3DKytmgpnLCJYb8hSjHGUm" prev="i-ECvkFZ2sbVp6PjLmQV7H3G">
           <seg xml:id="i-9nWpbtEUnZXZvrsMon1efB">
             Jag yrkar afslag på den nu föredragna punkten. Jag vill nemligen,
             att Första Kammaren, hvilka förändringar man än må företaga med

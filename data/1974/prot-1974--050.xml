@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-9HZTZTRRkbDy3K3ENRfUor" type="speech">
             <linkGrp type="u">
               <ptr target="#i-Sq3ipWrPkEMfoNmbzZ295W"/>
@@ -298,7 +298,13 @@
               <ptr target="#i-6E1Nx2zFhhyYNrYwjWXCZ5"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -806,13 +812,11 @@
         <note xml:id="i-Kpi1vpw8XYK1LUsxJpyjBV" type="speaker">
           Herr WENNERFORS (m):
         </note>
-        <u xml:id="i-Sq3ipWrPkEMfoNmbzZ295W" who="i-B1QAmZ6hd8iYYbZ4y9ee12" next="i-90a810c2e404bb86-1">
+        <u xml:id="i-Sq3ipWrPkEMfoNmbzZ295W" who="i-B1QAmZ6hd8iYYbZ4y9ee12" next="i-90a810c2e404bb86-2">
           <seg xml:id="i-R2aDnqwcQJ1A9Qg4sWDUd6">
             Fru talman! Vi skall nu behandla civilutskottets betänkande nr
             11 beträffande anslag till statistiska centralbyrån.
           </seg>
-        </u>
-        <u xml:id="i-90a810c2e404bb86-1" who="i-B1QAmZ6hd8iYYbZ4y9ee12" prev="i-Sq3ipWrPkEMfoNmbzZ295W" next="i-90a810c2e404bb86-2">
           <seg xml:id="i-3L8M36sXek7hxzaGPXLqqy">
             Det är klart att många i detta sammanhang frågar sig vad vi egentligen
             skall ha statistik till och varför den är så omfattande. Det är
@@ -832,7 +836,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--50/prot_1974__50-007.jp2/_view"/>
-        <u xml:id="i-90a810c2e404bb86-2" who="i-B1QAmZ6hd8iYYbZ4y9ee12" prev="i-90a810c2e404bb86-1">
+        <u xml:id="i-90a810c2e404bb86-2" who="i-B1QAmZ6hd8iYYbZ4y9ee12" prev="i-Sq3ipWrPkEMfoNmbzZ295W">
           <seg xml:id="i-DWP2N1MfcUB1KwTe2mphu8">
             tillbaka i tiden. De äldsta uppgifterna berättar ju om folkräkningar
             i Babylonien 3 800 år före Kristi födelse. I Kina har de förekommit
@@ -1097,7 +1101,7 @@
         <note xml:id="i-Ukae2tCUzK8H3g9CALd9Mp" type="speaker">
           Herr STRÖMBERG i Botkyrka (fp):
         </note>
-        <u xml:id="i-90a810c2e404bb86-8" who="i-GPpMndMfbS5wqmSKDRcoh7" next="i-Pv2zhsw1hvjtT2MWGwL3n2">
+        <u xml:id="i-90a810c2e404bb86-8" who="i-GPpMndMfbS5wqmSKDRcoh7">
           <seg xml:id="i-D2Eho61prXsr6UEGa8LgQP">
             Fru talman! Genom den strikta uppdelning av frågor som riksdagen
             har mellan olika utskott kan en motion ibland delas upp mellan
@@ -1114,8 +1118,6 @@
             att representanter för riksdagspartierna bör få möjlighet att
             påverka valet av komponenter.
           </seg>
-        </u>
-        <u xml:id="i-Pv2zhsw1hvjtT2MWGwL3n2" who="i-GPpMndMfbS5wqmSKDRcoh7" prev="i-90a810c2e404bb86-8">
           <seg xml:id="i-YHFgtbSiMkTVSwJvo3LQiM">
             Fru talman! Jag yrkar bifall till reservationen 1.
           </seg>
@@ -1267,7 +1269,7 @@
         <note xml:id="i-MjifFnhgAEfLBtiRqpec8t">
           142
         </note>
-        <u xml:id="i-90a810c2e404bb86-13" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-efd3274d730a0f48-0" next="i-HgVxr7e1k3YMRNjRaMeDRD">
+        <u xml:id="i-90a810c2e404bb86-13" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-efd3274d730a0f48-0">
           <seg xml:id="i-7a426qhy1msDKBEUHmR1qb">
             motionerna väcktes har institutet för social forskning fått Kungl.
             Maj:ts uppdrag att genomföra en ny levnadsnivåundersökning. Tanken
@@ -1325,8 +1327,6 @@
             att samhället har reda på hur många som skulle ta ett jobb om
             det fanns något att få.
           </seg>
-        </u>
-        <u xml:id="i-HgVxr7e1k3YMRNjRaMeDRD" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-90a810c2e404bb86-13">
           <seg xml:id="i-MffcoTxwtuRt2zF6PvpjvK">
             Fru talman! Med detta yrkar jag bifall till civilutskottets hemställan
             i dess betänkande nr 11.
@@ -1895,14 +1895,12 @@
           1. att för år 1974 fastställa en bostadsbyggnadsplan för maximalt
           80 000 lägenheter,
         </note>
-        <u xml:id="i-545ZoKvaQC1iKNnkcd7F9L" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-90a810c2e404bb86-30" next="i-M47tZL2kZLkmo9kYjrmciY">
+        <u xml:id="i-545ZoKvaQC1iKNnkcd7F9L" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-90a810c2e404bb86-30" next="i-NTxLSKqdEeUVhzvNqJqJFi">
           <seg xml:id="i-9QnEigVxpSsxGsNgjQ9jNB">
             2. att ramen för bostadslån inom bostadsbyggnadsplanen för vart
             och ett av åren 1975 och 1976 fastställdes till en våningsyta
             i m? motsvarande maximalt 75 000 lägenheter,
           </seg>
-        </u>
-        <u xml:id="i-M47tZL2kZLkmo9kYjrmciY" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-545ZoKvaQC1iKNnkcd7F9L" next="i-NTxLSKqdEeUVhzvNqJqJFi">
           <seg xml:id="i-259EuvNxLBHfRRSpHPc49w">
             3. att medge att ramarna för bostadslån och byggnadstillstånd
             för nybyggnad under år 1974 fick tas i anspråk för ombyggnadsoch
@@ -1946,7 +1944,7 @@
           när bristen var till påtaglig olägenhet för övriga fastigheter
           i kvarteret,
         </note>
-        <u xml:id="i-NTxLSKqdEeUVhzvNqJqJFi" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-M47tZL2kZLkmo9kYjrmciY" next="i-9whoHSsie5oVN1w5mg7uTo">
+        <u xml:id="i-NTxLSKqdEeUVhzvNqJqJFi" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-545ZoKvaQC1iKNnkcd7F9L" next="i-9whoHSsie5oVN1w5mg7uTo">
           <seg xml:id="i-PgutGzHcZQXG9ou3nGwTV">
             2. att bestämmelser utfärdades om att saneringslagen i detta
             fall även skulle vara tillämplig på fastighet som ägdes av kommun
@@ -2007,13 +2005,11 @@
         <note xml:id="i-NAEPgJ4r6S52HGGp2mAUVr">
           150
         </note>
-        <u xml:id="i-GvcskYDAU2iFzkuvJE8Q3z" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-9whoHSsie5oVN1w5mg7uTo" next="i-NTfEEgrA9sRYf9FHDMzuZR">
+        <u xml:id="i-GvcskYDAU2iFzkuvJE8Q3z" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-9whoHSsie5oVN1w5mg7uTo" next="i-Wtzgyxs1AfmD7VJyjrPDJh">
           <seg xml:id="i-LZcHPmdxmfANAzfQZSWnrU">
             2. att lånetiden för kommunala markförvärvslån fastställdes till
             minst 15 år, varav de första 5 åren var amorteringsfria,
           </seg>
-        </u>
-        <u xml:id="i-NTfEEgrA9sRYf9FHDMzuZR" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-GvcskYDAU2iFzkuvJE8Q3z" next="i-Wtzgyxs1AfmD7VJyjrPDJh">
           <seg xml:id="i-A35XGwbEywQLs3eBjrZfT9">
             3. att tomträttslån, när marken bebyggdes med statliga lån, utbetalades
             året efter det att preliminärt beslut om bostadslån meddelats,
@@ -2217,7 +2213,7 @@
         <note xml:id="i-HQPAuA6sEaJ4Mmv18Rg7Bx">
           152
         </note>
-        <u xml:id="i-Wtzgyxs1AfmD7VJyjrPDJh" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-NTfEEgrA9sRYf9FHDMzuZR">
+        <u xml:id="i-Wtzgyxs1AfmD7VJyjrPDJh" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-GvcskYDAU2iFzkuvJE8Q3z">
           <seg xml:id="i-Qd1d6q56D45uSiRVR6B9di">
             samma omfattning som den under 26 b förordade ramen för år 1974,
           </seg>
@@ -2493,7 +2489,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--50/prot_1974__50-025.jp2/_view"/>
-        <u xml:id="i-90a810c2e404bb86-53" who="i-B1QAmZ6hd8iYYbZ4y9ee12" prev="i-90a810c2e404bb86-52" next="i-6nd4GpqRHPr9SFRsc3TtuM">
+        <u xml:id="i-90a810c2e404bb86-53" who="i-B1QAmZ6hd8iYYbZ4y9ee12" prev="i-90a810c2e404bb86-52" next="i-90a810c2e404bb86-56">
           <seg xml:id="i-72k6Mye7xDRjUVkehSqeSA">
             För tio år sedan väcktes socialdemokratiska motioner bl. a. av
             Carl Albert Anderson i Stockholm. Men har då inte majoriteten
@@ -2516,19 +2512,13 @@
             här sanering till stånd. Jag yrkar således bifall till reservationen
             6. —
           </seg>
-        </u>
-        <u xml:id="i-6nd4GpqRHPr9SFRsc3TtuM" who="i-B1QAmZ6hd8iYYbZ4y9ee12" prev="i-90a810c2e404bb86-53" next="i-TJHLyXU8izUkKd52G82JQU">
           <seg xml:id="i-LmWDcdKwgZsbZ7hXM6JEey">
             Reservationen 7 gäller besparingar på förslagsanslagen till bostadsstyrelsen
             och till länsbostadsnämnden, vilket jag yrkar bifall till.
           </seg>
-        </u>
-        <u xml:id="i-TJHLyXU8izUkKd52G82JQU" who="i-B1QAmZ6hd8iYYbZ4y9ee12" prev="i-6nd4GpqRHPr9SFRsc3TtuM" next="i-90a810c2e404bb86-54">
           <seg xml:id="i-VuxrXyJTBpnqD6fmBz5Evp">
             Reservation 8 a är en följdreservation.
           </seg>
-        </u>
-        <u xml:id="i-90a810c2e404bb86-54" who="i-B1QAmZ6hd8iYYbZ4y9ee12" prev="i-TJHLyXU8izUkKd52G82JQU" next="i-90a810c2e404bb86-56">
           <seg xml:id="i-ChSk3mRAAkczsiWAnz51jg">
             Fru talman! Den som i dag har bespetsat sig på en större bostadspolitisk
             debatt blir nog en smula besviken. Kanske de övriga talarna på
@@ -2595,7 +2585,7 @@
         <note xml:id="i-Gn1W5jmUXsMxhoijrFqydP">
           156
         </note>
-        <u xml:id="i-90a810c2e404bb86-56" who="i-B1QAmZ6hd8iYYbZ4y9ee12" prev="i-90a810c2e404bb86-54">
+        <u xml:id="i-90a810c2e404bb86-56" who="i-B1QAmZ6hd8iYYbZ4y9ee12" prev="i-90a810c2e404bb86-53">
           <seg xml:id="i-DaW63B8uagHXuJvAviXVwq">
             Den misslyckade socialdemokratiska bostadspolitiken skall alltså
             reformeras. Det är inte utan att det är litet komiskt. Att döma
@@ -2608,7 +2598,7 @@
         <note xml:id="i-YQFC7r51ZBg1MAeUh1wmt3" type="speaker">
           Herr CLAESON (vpk):
         </note>
-        <u xml:id="i-46ab926395e5f91a-0" who="i-Eoor7chig2KkpNDt6f9K2V" next="i-UPRrhzquGCUrDK6DMhTs3q">
+        <u xml:id="i-46ab926395e5f91a-0" who="i-Eoor7chig2KkpNDt6f9K2V" next="i-46ab926395e5f91a-2">
           <seg xml:id="i-KSZ2xzopzQVKgYbgmDvMEo">
             Fru talman! Vänsterpartiet kommunisternas inställning och förslag
             då det gäller bostadspolitiken grundar sig på vad som borde vara
@@ -2663,8 +2653,6 @@
             avskaffande av bostadsbrist, trångboddhet och undermåliga lägenheter
             samt en jämn sysselsättning för byggnadsarbetarna.
           </seg>
-        </u>
-        <u xml:id="i-UPRrhzquGCUrDK6DMhTs3q" who="i-Eoor7chig2KkpNDt6f9K2V" prev="i-46ab926395e5f91a-0" next="i-46ab926395e5f91a-2">
           <seg xml:id="i-7zFv7SRqos5VuYk6UZVgqk">
             Fru talman! Våra ställningstaganden och förslag i de vpk-motioner
             som behandlas i civilutskottets betänkande nr 14, liksom i vpk-reservationerna
@@ -2672,7 +2660,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--50/prot_1974__50-027.jp2/_view"/>
-        <u xml:id="i-46ab926395e5f91a-2" who="i-Eoor7chig2KkpNDt6f9K2V" prev="i-UPRrhzquGCUrDK6DMhTs3q" next="i-46ab926395e5f91a-3">
+        <u xml:id="i-46ab926395e5f91a-2" who="i-Eoor7chig2KkpNDt6f9K2V" prev="i-46ab926395e5f91a-0" next="i-46ab926395e5f91a-3">
           <seg xml:id="i-E5C5hvU4YZ1nEnSfd3brCi">
             delproblem då det gäller bostadspolitiken hänger mer eller mindre
             samman, och jag har därför ansett det motiverat att något kommentera
@@ -2770,7 +2758,7 @@
         <note xml:id="i-D13Uv2xzCC7q9Q6TCMdmSX">
           158
         </note>
-        <u xml:id="i-46ab926395e5f91a-3" who="i-Eoor7chig2KkpNDt6f9K2V" prev="i-46ab926395e5f91a-2" next="i-6XEU1tM2gL5FbxMhBduAqJ">
+        <u xml:id="i-46ab926395e5f91a-3" who="i-Eoor7chig2KkpNDt6f9K2V" prev="i-46ab926395e5f91a-2">
           <seg xml:id="i-VskoeHaGUXhE1JGnkUDhin">
             bostadslån meddelats, gör man det med hänvisning till dess budgetkonsekvenser.
             Man hänvisar även till de förhandlingar som förts mellan delegationen
@@ -2794,8 +2782,6 @@
             i enlighet med motionen 1583 och reservationen 4, så att den föreslagna
             tidigare utbetalningen av tomträttslån kan ske.
           </seg>
-        </u>
-        <u xml:id="i-6XEU1tM2gL5FbxMhBduAqJ" who="i-Eoor7chig2KkpNDt6f9K2V" prev="i-46ab926395e5f91a-3">
           <seg xml:id="i-FtiSJEE4h3LCXoKH1h6QxJ">
             Fru talman! Jag yrkar bifall till reservationerna 3, 4 och 8b
             vid civilutskottets betänkande nr 14.
@@ -3019,7 +3005,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--50/prot_1974__50-031.jp2/_view"/>
-        <u xml:id="i-46ab926395e5f91a-7" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-63b2dd388791c588-1" next="i-XAoNBNbVw9sR2uTfNLzo45">
+        <u xml:id="i-46ab926395e5f91a-7" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-63b2dd388791c588-1" next="i-46ab926395e5f91a-8">
           <seg xml:id="i-VhsL9getMSrFi9Xrf2EkCe">
             tiden varit tolkningen av låneavtalets innebörd. Det är klart
             att vi därvidlag kan ha olika meningar, men moderaterna är nu
@@ -3083,8 +3069,6 @@
             än det anslag som herr Wennerfors pläderar för. Det är ett förslag
             som jag också kan anföra principiella erinringar emot.
           </seg>
-        </u>
-        <u xml:id="i-XAoNBNbVw9sR2uTfNLzo45" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-46ab926395e5f91a-7" next="i-46ab926395e5f91a-8">
           <seg xml:id="i-AfZHW7qxdw31aQmGqJwU2P">
             Reservationen 6 svarar mot ett av två yrkanden i en motion som
             herr
@@ -3118,7 +3102,7 @@
         <note xml:id="i-WVp9R1hyaDTEsFeuUi9k38">
           162
         </note>
-        <u xml:id="i-46ab926395e5f91a-8" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-XAoNBNbVw9sR2uTfNLzo45" next="i-46ab926395e5f91a-9">
+        <u xml:id="i-46ab926395e5f91a-8" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-46ab926395e5f91a-7" next="i-46ab926395e5f91a-9">
           <seg xml:id="i-DUXWCxGYEsn5Zei47c6aW2">
             Adolfsson har väckt. Reservationens begränsning beror på att
             herr Adolfsson när det gäller det ena yrkandet har fått inte bara
@@ -3716,15 +3700,13 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--50/prot_1974__50-039.jp2/_view"/>
-        <u xml:id="i-DnNp3Hqgj8NPYi3Te6hde6" who="i-WYkrZExE7jfwHjmfH1DPwg" prev="i-28e3c23f251ee4bd-3" next="i-MscWSomRhVT4vUrocxNu1c">
+        <u xml:id="i-DnNp3Hqgj8NPYi3Te6hde6" who="i-WYkrZExE7jfwHjmfH1DPwg" prev="i-28e3c23f251ee4bd-3">
           <seg xml:id="i-EcfaVGxwMrWcXzPfRqEoQM">
             Gällande tillämpningsföreskrifter i detta avseende grundar sig
             på vissa uttalanden av statsutskottet, bl.a. det av interpellanten
             åberopade utlåtandet år 1964 (SU 1964:42) beträffande lån för
             småhusbyggandet på landsbygden.
           </seg>
-        </u>
-        <u xml:id="i-MscWSomRhVT4vUrocxNu1c" who="i-WYkrZExE7jfwHjmfH1DPwg" prev="i-DnNp3Hqgj8NPYi3Te6hde6">
           <seg xml:id="i-2sX4WfoznXzXjvJecsR3Yg">
             I detta utlåtande understryks att det inte kan anses föreligga
             någon förpliktelse för staten att för den enskildes räkning ikläda
@@ -4417,7 +4399,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--50/prot_1974__50-047.jp2/_view"/>
-        <u xml:id="i-46ab926395e5f91a-14" who="i-Eoor7chig2KkpNDt6f9K2V" prev="i-46ab926395e5f91a-13" next="i-6rzA1DUXeqi1zpNvGhZDrh">
+        <u xml:id="i-46ab926395e5f91a-14" who="i-Eoor7chig2KkpNDt6f9K2V" prev="i-46ab926395e5f91a-13">
           <seg xml:id="i-MAXqwLDqUGMaTeDhUNw76e">
             otillfredsställande att bara hälften av kommunerna medger omprövning
             av bostadstilläggen under löpande bidragsår, trots att hyresgästerna
@@ -4440,8 +4422,6 @@
             att ändra nu gällande regler så att kommunerna blir skyldiga att
             ompröva tilläggen vid hyreshöjningar under bidragsåret.
           </seg>
-        </u>
-        <u xml:id="i-6rzA1DUXeqi1zpNvGhZDrh" who="i-Eoor7chig2KkpNDt6f9K2V" prev="i-46ab926395e5f91a-14">
           <seg xml:id="i-WPJae7Sq5gpmrNk95JRZzj">
             Herr talman! Jag yrkar bifall till reservationerna 1 och 2 av
             fru Marklund i socialutskottets betänkande nr 6.
@@ -4518,7 +4498,7 @@
         <note xml:id="i-E5RAYyqQqfqS3Tpm9hnJgz">
           178
         </note>
-        <u xml:id="i-46ab926395e5f91a-16" who="i-7ugPcnmZ6J6FiS44UnXL54" prev="i-46ab926395e5f91a-15" next="i-DLB4LxAMWB8kMXeXMSa81H">
+        <u xml:id="i-46ab926395e5f91a-16" who="i-7ugPcnmZ6J6FiS44UnXL54" prev="i-46ab926395e5f91a-15">
           <seg xml:id="i-B3eXRwzu7HBSvL1PRQg3zQ">
             dess att denna utredning är klar. Eftersom herr Claeson tog upp
             saken, vill jag klart deklarera att denna utredning har alla möjligheter
@@ -4564,8 +4544,6 @@
             skapa förbättringar åt hyresgästerna utan att riksdagen fördenskull
             skall behöva göra ett uttalande.
           </seg>
-        </u>
-        <u xml:id="i-DLB4LxAMWB8kMXeXMSa81H" who="i-7ugPcnmZ6J6FiS44UnXL54" prev="i-46ab926395e5f91a-16">
           <seg xml:id="i-JfJ96osdwEK1XxpjfM1gWT">
             Jag yrkar bifall till utskottets förslag.
           </seg>
@@ -5244,7 +5222,7 @@
         <note xml:id="i-VptpyK3K8Hm1fBSV7cYc1f" type="speaker">
           Fröken ANDERSSON (c):
         </note>
-        <u xml:id="i-SPzBooqApx8GQQcRHF9RbQ" who="unknown" next="i-415541946966db30-1">
+        <u xml:id="i-SPzBooqApx8GQQcRHF9RbQ" who="unknown" next="i-SZbdeknB3TprfZ2CrGP8f7">
           <seg xml:id="i-FC8skwVriP61afQb7hyHQh">
             Herr talman! Jag vill bara med tillfredställelse notera att den
             ändrade inställning till ett gammalt centerkrav som kommer till
@@ -5252,8 +5230,6 @@
             för inkomstprövning av bostadstillägg. Frågan har i år tagits
             upp i motionen 1309 av fru Söder m. fl.
           </seg>
-        </u>
-        <u xml:id="i-415541946966db30-1" who="unknown" prev="i-SPzBooqApx8GQQcRHF9RbQ" next="i-SZbdeknB3TprfZ2CrGP8f7">
           <seg xml:id="i-DgMrW95NMrTfab73F1Lg72">
             Enligt gällande regler läggs vid inkomstberäkningen till inkomsten
             20 procent av den taxerade förmögenhet som överstiger 50 000 kronor.
@@ -5275,12 +5251,10 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--50/prot_1974__50-057.jp2/_view"/>
-        <u xml:id="i-SZbdeknB3TprfZ2CrGP8f7" who="unknown" prev="i-415541946966db30-1" next="i-CoKmHeCEWdUugA3u54T7Ex">
+        <u xml:id="i-SZbdeknB3TprfZ2CrGP8f7" who="unknown" prev="i-SPzBooqApx8GQQcRHF9RbQ">
           <seg xml:id="i-AZB1NEcWHyH9CwsJfJHih4">
             i denna fråga.” Det fanns då en reservation i ärendet. Nr 50
           </seg>
-        </u>
-        <u xml:id="i-CoKmHeCEWdUugA3u54T7Ex" who="unknown" prev="i-SZbdeknB3TprfZ2CrGP8f7" next="i-415541946966db30-3">
           <seg xml:id="i-YD8R1TXd7rViBhhBRCUQm">
             I år har utskottet, som tidigare sagts här, kunnat ena sig om
             att Onsdagen den bostadstilläggens regelsystem skall göras till
@@ -5288,8 +5262,6 @@
             av fru Söder m. fl. upptagna frågan om storleken av förmögenhetsfaktorn
             vid inkomstprövningen.
           </seg>
-        </u>
-        <u xml:id="i-415541946966db30-3" who="unknown" prev="i-CoKmHeCEWdUugA3u54T7Ex">
           <seg xml:id="i-QycsKEuaoPyQwUNTpCi7qy">
             Jag noterar bara den sinnesförändring som skett i utskottet sedan
             förra året. Herr Carlshamre ansåg att den berodde på det nya parlamentariska
@@ -5539,7 +5511,7 @@
         <note xml:id="i-TMNoauA9AeAgNKz24f9an7">
           190
         </note>
-        <u xml:id="i-6ffcffd104154f5d-4" who="i-BjNiod8wotUabh41ByfhRU" prev="i-6ffcffd104154f5d-1" next="i-6E1Nx2zFhhyYNrYwjWXCZ5">
+        <u xml:id="i-6ffcffd104154f5d-4" who="i-BjNiod8wotUabh41ByfhRU" prev="i-6ffcffd104154f5d-1">
           <seg xml:id="i-DgrrzJgeHT7Q36ZToPP5ut">
             Nu har civilutskottet med anledning av den motion som jag har
             försökt antyda bakgrunden till föreslagit, att man skall kunna
@@ -5551,8 +5523,6 @@
             ställningstagande är som jag i korthet har velat ge bakgrunden
             till motionen 585.
           </seg>
-        </u>
-        <u xml:id="i-6E1Nx2zFhhyYNrYwjWXCZ5" who="i-BjNiod8wotUabh41ByfhRU" prev="i-6ffcffd104154f5d-4">
           <seg xml:id="i-DorcJkj9TGcomF1JKeXgin">
             Herr talman! Jag yrkar bifall till utskottets hemställan.
           </seg>

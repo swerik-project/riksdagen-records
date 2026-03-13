@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-Kxa2LNF63R6BWaJs3zGWUk" type="speech">
             <linkGrp type="u">
               <ptr target="#i-b67b3042d515c6f1-0"/>
@@ -314,7 +314,13 @@
               <ptr target="#i-b67b3042d515c6f1-33"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -439,7 +445,7 @@
         <note xml:id="i-YLVDcFP8fCY79aJHnXXLzS" type="speaker">
           Herr Holmberg erhöll på begäran ordet och anförde:
         </note>
-        <u xml:id="i-b67b3042d515c6f1-0" who="i-F5LBsm5aabFnfCnsq47XrV" next="i-3UWRBuqT5vC9YQekBYvmJm">
+        <u xml:id="i-b67b3042d515c6f1-0" who="i-F5LBsm5aabFnfCnsq47XrV" next="i-RGV7fytjEwdva6E8UpxD2Z">
           <seg xml:id="i-4rmf8cUuQChbqLGghTc5Kt">
             Herr talman! Den sedan flera år tillbaka rådande bristen på byggnadsmaterial
             har i många av landets städer och tätorter framkallat en allvarlig
@@ -472,8 +478,6 @@
             det ohejdade profiterande på byggnadsmaterialen, som för närvarande
             bedrives av vissa monopolföretag eller monopolistiska sammanslutningar.
           </seg>
-        </u>
-        <u xml:id="i-3UWRBuqT5vC9YQekBYvmJm" who="i-F5LBsm5aabFnfCnsq47XrV" prev="i-b67b3042d515c6f1-0" next="i-b67b3042d515c6f1-1">
           <seg xml:id="i-NRRhBp85hpfEc99GMxWwfW">
             Önskemål om åtgärder i denna riktning framkom redan vid 1944
             års riksdag. Kamrarna beslutade då i anslutning till en motion
@@ -484,8 +488,6 @@
             som begärde att regeringen snarast skulle tillmötesgå riksdagens
             ovan nämnda hemställan av år 1944.
           </seg>
-        </u>
-        <u xml:id="i-b67b3042d515c6f1-1" who="i-F5LBsm5aabFnfCnsq47XrV" prev="i-3UWRBuqT5vC9YQekBYvmJm" next="i-RGV7fytjEwdva6E8UpxD2Z">
           <seg xml:id="i-WXauj3MYGPy53vR92oy6b8">
             Tyvärr har man hittills icke märkt något större intresse från
             regeringens sida för att öka tillgången eller minska priserna
@@ -509,7 +511,7 @@
           äro en hjälp för dem som i Sverige sträva att hålla priserna på
           byggnadsmaterial på högsta möjliga nivå.
         </note>
-        <u xml:id="i-RGV7fytjEwdva6E8UpxD2Z" who="i-F5LBsm5aabFnfCnsq47XrV" prev="i-b67b3042d515c6f1-1" next="i-EwTJPw4n1yPWBir3sdnq9q">
+        <u xml:id="i-RGV7fytjEwdva6E8UpxD2Z" who="i-F5LBsm5aabFnfCnsq47XrV" prev="i-b67b3042d515c6f1-0">
           <seg xml:id="i-FcgL3AMSAmzUWpepLDkxGN">
             Ur allmänhetens synpunkt torde det vara av intresse att få besked
             huruvida från regeringens sida några initiativ äro att vänta i
@@ -520,14 +522,10 @@
             om kammarens tillstånd att till statsrådet och chefen för socialdepartementet
             få rikta följande interpellation.
           </seg>
-        </u>
-        <u xml:id="i-EwTJPw4n1yPWBir3sdnq9q" who="i-F5LBsm5aabFnfCnsq47XrV" prev="i-RGV7fytjEwdva6E8UpxD2Z" next="i-UFMWSwQo1gFme5GavNPcjn">
           <seg xml:id="i-UL6UnRefC2AU5sYro192ww">
             1. Har regeringen för avsikt att vidtaga några åtgärder i syfte
             att åstadkomma en stegrad produktion inom byggnadsmaterialindustrien?
           </seg>
-        </u>
-        <u xml:id="i-UFMWSwQo1gFme5GavNPcjn" who="i-F5LBsm5aabFnfCnsq47XrV" prev="i-EwTJPw4n1yPWBir3sdnq9q">
           <seg xml:id="i-8iRhnQWAxAsFoGTinv9myi">
             2. Ämnar regeringen genom tillsättande av den av riksdagen år
             1944 begärda utredningen eller på annat sätt, och i så fall på
@@ -561,7 +559,7 @@
           herr Karl Perssons interpellation angående tilldelhönsfoder. ningen
           av hönsfoder, erhöll ordet och anförde:
         </note>
-        <u xml:id="i-N9vBeKLwFrDLt4NkavQhMy" who="unknown" next="i-HQ5ymgXyiJWwcuEFLXmMyr">
+        <u xml:id="i-N9vBeKLwFrDLt4NkavQhMy" who="unknown" next="i-b67b3042d515c6f1-4">
           <seg xml:id="i-26zNhiWd3HTUbSpqJRmdBx">
             Herr talman! Med första kammarens tillstånd har dess ledamot
             herr Karl Persson till chefen för folkhushållningsdepartementet
@@ -613,8 +611,6 @@
             29 000 ton, tilldelning till arméns hästar 15 000 ton och övergångslager
             den ”/s 1947 20 000 ton.
           </seg>
-        </u>
-        <u xml:id="i-HQ5ymgXyiJWwcuEFLXmMyr" who="unknown" prev="i-N9vBeKLwFrDLt4NkavQhMy" next="i-b67b3042d515c6f1-4">
           <seg xml:id="i-94ndGyCWc2xGaJ5cF5SXTU">
             Sedan de nu nämnda särskilda behoven fyllts, skulle av den beräknade
             totalkvantiteten 500 000 ton återstå 276 000 ton för allmänna
@@ -625,7 +621,7 @@
         <note xml:id="i-BB7THGiFjyDXvPJeLK9Gej" type="date">
           Onsdagen den 20 november 1946. Nr 37. 5
         </note>
-        <u xml:id="i-b67b3042d515c6f1-4" who="unknown" prev="i-HQ5ymgXyiJWwcuEFLXmMyr" next="i-b67b3042d515c6f1-5">
+        <u xml:id="i-b67b3042d515c6f1-4" who="unknown" prev="i-N9vBeKLwFrDLt4NkavQhMy" next="i-b67b3042d515c6f1-5">
           <seg xml:id="i-2aJ777uyoPECwTXihKdozU">
             Ang. tilldelningen av hönsfoder. (Forts.) husdjur av olika slag,
             d. v. s. i runt tal 10 000 ton mindre än som åtgick föregående
@@ -1714,7 +1710,7 @@
           Ang. den ekonomiska försvarsberedskapens framtida organisation
           m. m. (Forts.)
         </note>
-        <u xml:id="i-fa5fecd418284f72-2" who="i-Ww8VV8hxCYiEXY5qDTZs5Z" prev="i-fa5fecd418284f72-1" next="i-VLmLPL6Zt8ZjwPgiEubPk2">
+        <u xml:id="i-fa5fecd418284f72-2" who="i-Ww8VV8hxCYiEXY5qDTZs5Z" prev="i-fa5fecd418284f72-1">
           <seg xml:id="i-DMsKGdn5Tdui8UsscdkztR">
             detta ämbetsverk sådant det skapar sig självt och som regeringen
             kommer att godkänna det och låta det träda i funktion och eventuellt
@@ -1734,8 +1730,6 @@
             vara generaldirektör i lönegraden C 15; ty första tiden blir han
             ingenting annat än utredningsordförande.
           </seg>
-        </u>
-        <u xml:id="i-VLmLPL6Zt8ZjwPgiEubPk2" who="i-Ww8VV8hxCYiEXY5qDTZs5Z" prev="i-fa5fecd418284f72-2">
           <seg xml:id="i-CWofraCaVkGX5EPms9ptQp">
             Jag yrkar bifall till reservationen.
           </seg>
@@ -1983,7 +1977,7 @@
           Ang. den ekonomiska försvarsberedskapens framtida organisation.
           m. yn Orts;
         </note>
-        <u xml:id="i-08a76b65613e2952-2" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-5xSnfG4Db1HMNiDR8L8eXM" next="i-J7TNM7oY8J8MVttPySijtU">
+        <u xml:id="i-08a76b65613e2952-2" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-5xSnfG4Db1HMNiDR8L8eXM">
           <seg xml:id="i-Rc4nTzk4tUYm4HoBPvue4A">
             vanligt under kristiden; här var det, menade han, fråga om en
             sådan fullmakt. Jag vet inte, om herr Andersson i Södergård misstänkte
@@ -2016,8 +2010,6 @@
             statsutskottets förelig- Sand förslag. Alla praktiska hänsyn tala
             dessutom för bifall till detta förslag.
           </seg>
-        </u>
-        <u xml:id="i-J7TNM7oY8J8MVttPySijtU" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-08a76b65613e2952-2">
           <seg xml:id="i-QMsJ3mXFKrohs1SDux3YJ9">
             ; På grund härav ber jag, herr talman, att få yrka bifall till
             statsutskottets örslag. :
@@ -2620,7 +2612,7 @@
           2 den ekonomiska försvarsberedskapens framtida organisation m.
           m. Forts.)
         </note>
-        <u xml:id="i-2n1Dxt7icc6pKXtFL1AthY" who="i-L31knc1H7Q8uzLgTZoFx7A" prev="i-66267730603b9c78-0" next="i-66267730603b9c78-1">
+        <u xml:id="i-2n1Dxt7icc6pKXtFL1AthY" who="i-L31knc1H7Q8uzLgTZoFx7A" prev="i-66267730603b9c78-0" next="i-B2RSSVHoZkhMJjHQVK1h2d">
           <seg xml:id="i-J6uDsKEex3Dwu55AySpd9V">
             står det följande: »Av dessa befattningar äro avdelningschefsoch
             kanslibeträdesbefattningarna ävensom den extra ordinarie förste
@@ -2631,8 +2623,6 @@
             till Arvoden och särskilda ersättningar, bestämda av Kungl. Maj:t.
             .
           </seg>
-        </u>
-        <u xml:id="i-66267730603b9c78-1" who="i-L31knc1H7Q8uzLgTZoFx7A" prev="i-2n1Dxt7icc6pKXtFL1AthY" next="i-B2RSSVHoZkhMJjHQVK1h2d">
           <seg xml:id="i-Mq9YzQM8qG9SsbGMNn2Gau">
             Med anledning av nu anförda förhållanden ha avlöningsoch omkostnadsanslagen
             till rikskommissionen från och med budgetåret 1942/43 anvisats
@@ -2724,7 +2714,7 @@
         <note xml:id="i-DKYyM7eqZbv8Hu5U8Guebd">
           Utskottet hade i det nu föreliggande utlåtandet anfört:
         </note>
-        <u xml:id="i-B2RSSVHoZkhMJjHQVK1h2d" who="i-L31knc1H7Q8uzLgTZoFx7A" prev="i-66267730603b9c78-1" next="i-66267730603b9c78-3">
+        <u xml:id="i-B2RSSVHoZkhMJjHQVK1h2d" who="i-L31knc1H7Q8uzLgTZoFx7A" prev="i-2n1Dxt7icc6pKXtFL1AthY" next="i-NKhTTr5mrjUC15chhdi5da">
           <seg xml:id="i-RC8ZWUB4nzcts3bL2N4GUX">
             »Förra året under höstsessionen fastställde riksdagen vissa grunder
             för statsbidrag till kuratorsverksamhet i abortförebyggande syfte.
@@ -2736,8 +2726,6 @@
             av statsmedel och därjämte skulle statsbidrag utgå till kursdeltagarnas
             uppehälle och bostad med 100 kronor per elev och månad.
           </seg>
-        </u>
-        <u xml:id="i-66267730603b9c78-3" who="i-L31knc1H7Q8uzLgTZoFx7A" prev="i-B2RSSVHoZkhMJjHQVK1h2d" next="i-HytJJ6RrPhyi7aZLoW4dLE">
           <seg xml:id="i-WLe7VofeLzZZippHqN16Tt">
             Kungl. Maj:ts nu föreliggande förslag innebär, att minimilönen
             höjes till att motsvara förmånerna i lönegrad A 15 och att statsbidraget
@@ -2767,8 +2755,6 @@
             att lönefrågans läge motiverar den ökning av statsbidragets belopp,
             som Kungl. Maj:ts förslag innebär.
           </seg>
-        </u>
-        <u xml:id="i-HytJJ6RrPhyi7aZLoW4dLE" who="i-L31knc1H7Q8uzLgTZoFx7A" prev="i-66267730603b9c78-3" next="i-NKhTTr5mrjUC15chhdi5da">
           <seg xml:id="i-RBkouaicexNSqtg7CdWRMn">
             Under åberopande av det anförda får utskottet hemställa, att
             riksdagen må
@@ -2789,14 +2775,12 @@
           Olsson, Gustaf Iwar Anderson och Hoppe ansett, att utskottet med
           tillstyrkande av Kungl. Maj:ts förslag oförändrat bort
         </note>
-        <u xml:id="i-NKhTTr5mrjUC15chhdi5da" who="i-L31knc1H7Q8uzLgTZoFx7A" prev="i-HytJJ6RrPhyi7aZLoW4dLE" next="i-66267730603b9c78-4">
+        <u xml:id="i-NKhTTr5mrjUC15chhdi5da" who="i-L31knc1H7Q8uzLgTZoFx7A" prev="i-B2RSSVHoZkhMJjHQVK1h2d">
           <seg xml:id="i-KWk3xwXUskZ9pgHCDh3cLV">
             dels göra följande uttalande i stället för det stycke av utskottets
             yttrande, som började med orden »Vidkommande frågan» och slutade
             med orden »förslag innebär»:
           </seg>
-        </u>
-        <u xml:id="i-66267730603b9c78-4" who="i-L31knc1H7Q8uzLgTZoFx7A" prev="i-NKhTTr5mrjUC15chhdi5da">
           <seg xml:id="i-RgiVhuWeLJFwLjrNuTBdVt">
             »Det förefaller även motiverat att höja minimilönen för kuratorstjänsterna.
             Då det här ifrågavarande kuratorsarbetet kommer att bli synnerligen
@@ -2904,7 +2888,7 @@
           Ang. statsbidrag till kuratorsverksamhet i abortförebyggande
           syfte. (Forts.)
         </note>
-        <u xml:id="i-b67b3042d515c6f1-20" who="i-Ww8VV8hxCYiEXY5qDTZs5Z" prev="i-b67b3042d515c6f1-19" next="i-WSezFjKLF6sfLxgDP76TYz">
+        <u xml:id="i-b67b3042d515c6f1-20" who="i-Ww8VV8hxCYiEXY5qDTZs5Z" prev="i-b67b3042d515c6f1-19">
           <seg xml:id="i-BdyjeB97eEYbzmphvsuuX7">
             Utskottsmajoritetens förslag innebär således i realiteten att
             hela frågans lösande uppskjutes till en oviss framtid. Det finns
@@ -2925,8 +2909,6 @@
             kammaren, som tillhöra befolkningsutredningen, ha att andraga
             i denna sak.
           </seg>
-        </u>
-        <u xml:id="i-WSezFjKLF6sfLxgDP76TYz" who="i-Ww8VV8hxCYiEXY5qDTZs5Z" prev="i-b67b3042d515c6f1-20">
           <seg xml:id="i-YFfigjXYfELRYYoAmyMM45">
             Jag ber, herr talman, att få yrka bifall till den vid utskottets
             utlåtande fogade reservationen.
@@ -2939,7 +2921,7 @@
         <note xml:id="i-MVZXcVv1LvptqE1qUn8vVt" type="speaker">
           Herr Johansson, Johan Bernhard:
         </note>
-        <u xml:id="i-514b840e960624f1-3" who="i-SHyoXz8eVs5NhxbFZxmFre" next="i-7EyXWwdaJky6HSEJ63VBLr">
+        <u xml:id="i-514b840e960624f1-3" who="i-SHyoXz8eVs5NhxbFZxmFre" next="i-GwbJkv2pPe2MDBJRWnvZeE">
           <seg xml:id="i-LzfcESTj7gxmqC26sYmXNN">
             Herr talman! Vid förra årets höstsession fastställde riksdagen
             vissa grunder för statsbidrag till kuratorsverksamhet i abortförebyggande
@@ -2989,8 +2971,6 @@
             komma att få en ingalunda obetydlig löneförhöjning enligt det
             nya förslag, som kommer att framläggas.
           </seg>
-        </u>
-        <u xml:id="i-7EyXWwdaJky6HSEJ63VBLr" who="i-SHyoXz8eVs5NhxbFZxmFre" prev="i-514b840e960624f1-3" next="i-GwbJkv2pPe2MDBJRWnvZeE">
           <seg xml:id="i-SJaVfus2QnutF37HJKXjff">
             Den nuvarande sammanlagda lönen i lönegrad A 11 är i lägsta dyrort:
             begynnelselön 4787 kronor och slutlön 5 780 kronor. I högsta dyrort
@@ -3009,7 +2989,7 @@
           dyrort: begynnelselön 5 880 kronor och slutlön 6 612 kronor, och
           i högsta dyrort: begynnelselön 6 996 kronor och slutlön 7872 kronor.
         </note>
-        <u xml:id="i-GwbJkv2pPe2MDBJRWnvZeE" who="i-SHyoXz8eVs5NhxbFZxmFre" prev="i-7EyXWwdaJky6HSEJ63VBLr" next="i-HfMs9tHBYpkzuvg7giLBue">
+        <u xml:id="i-GwbJkv2pPe2MDBJRWnvZeE" who="i-SHyoXz8eVs5NhxbFZxmFre" prev="i-514b840e960624f1-3">
           <seg xml:id="i-CADdxPb2W1tyeF6C5wTMsU">
             Enligt den nu föreliggande propositionen, nr 319, skulle kuratorerna
             uppflyttas till lönegrad A 15. Lönerna äro nu i lägsta dyrort:
@@ -3019,8 +2999,6 @@
             begynnelselön 6 924 kronor och slutlön 8136 kronor samt i högsta
             dyrort: begynnelselön 8 244 kronor och slutlön 9 696 kronor.
           </seg>
-        </u>
-        <u xml:id="i-HfMs9tHBYpkzuvg7giLBue" who="i-SHyoXz8eVs5NhxbFZxmFre" prev="i-GwbJkv2pPe2MDBJRWnvZeE" next="i-2Erqayj5BwXFaTeBMHSPQn">
           <seg xml:id="i-9dTrvP5oKULSVdeyvNkaj8">
             Om propositionen nr 319, som vi nu behandla, bifalles, få kuratorerna
             från och med den 1 juli 1947 löneökningar i jämförelse med nuvarande
@@ -3029,8 +3007,6 @@
             I högsta dyrort få de en löneökning i begynnelselönen med 2 071
             kronor och i slutlönen med 2 278 kronor.
           </seg>
-        </u>
-        <u xml:id="i-2Erqayj5BwXFaTeBMHSPQn" who="i-SHyoXz8eVs5NhxbFZxmFre" prev="i-HfMs9tHBYpkzuvg7giLBue" next="i-514b840e960624f1-4">
           <seg xml:id="i-7QhwTyhNRUzHk8YSQjxWtr">
             Om den nuvarande lönegradsplaceringen i lönegrad A 11 bibehålles,
             blir löneökningen från den 1 juli 1947 icke obetydlig, såsom jag
@@ -3038,8 +3014,6 @@
             kronor och i slutlönen 832 kronor. I lägsta dyrort få de i begynnelselönen
             en ökning med 823 kronor och i slutlönen en ökning med 454 kronor.
           </seg>
-        </u>
-        <u xml:id="i-514b840e960624f1-4" who="i-SHyoXz8eVs5NhxbFZxmFre" prev="i-2Erqayj5BwXFaTeBMHSPQn" next="i-YPaSbGeoaupMuHTxaXnp7i">
           <seg xml:id="i-7PZ8ULBDqcsuEZd592cpwy">
             Det har synts oss inom utskottet dels med hänsyn till konsekvenserna
             i fråga om andra befattningshavare, dels ock med hänsyn till att
@@ -3072,8 +3046,6 @@
             av statsmakterna, ett beslut fattat utan jämförelser med övriga
             befattningshavares löner.
           </seg>
-        </u>
-        <u xml:id="i-YPaSbGeoaupMuHTxaXnp7i" who="i-SHyoXz8eVs5NhxbFZxmFre" prev="i-514b840e960624f1-4">
           <seg xml:id="i-9WNq888cWyreHEjvwJf9B9">
             Jag ber, herr talman, att få yrka bifall till utskottets hemställan.
           </seg>
@@ -4405,7 +4377,7 @@
           Ang. ändring i förordningen om erkända arbetslöshetskassor m.
           m. (Forts.)
         </note>
-        <u xml:id="i-f07fb58dc7944313-1" who="i-RrjGQ4JkvbLp6aWhwnzu9q" prev="i-f07fb58dc7944313-0" next="i-DTCVNmpVWzAQsZr2UM8kcF">
+        <u xml:id="i-f07fb58dc7944313-1" who="i-RrjGQ4JkvbLp6aWhwnzu9q" prev="i-f07fb58dc7944313-0">
           <seg xml:id="i-HrGUoiv5vzc2J1LKrvpds7">
             Vad reservanterna här föreslå är ju en föreskrift för att kunna
             kontrollera, att husföreståndarinnan varaktigt har gemensam bostad
@@ -4447,8 +4419,6 @@
             kan en sådan snäv formulering medföra, att medlem går miste om
             husföreståndarinnetillägg, trots att behov därav föreligger.
           </seg>
-        </u>
-        <u xml:id="i-DTCVNmpVWzAQsZr2UM8kcF" who="i-RrjGQ4JkvbLp6aWhwnzu9q" prev="i-f07fb58dc7944313-1">
           <seg xml:id="i-QrQou2rWNYqTWCqiQv6bNG">
             Jag hemställer om bifall till utskottets utlåtande.
           </seg>
@@ -4592,7 +4562,7 @@
           Interpellation ang. ändring i kommunallagarna för möjliggörande
           av personaldemokrati m. m. (Forts.)
         </note>
-        <u xml:id="i-E6hjMyDcRW8799NdVYKPc5" who="unknown" prev="i-b67b3042d515c6f1-30" next="i-b67b3042d515c6f1-31">
+        <u xml:id="i-E6hjMyDcRW8799NdVYKPc5" who="unknown" prev="i-b67b3042d515c6f1-30">
           <seg xml:id="i-RYPjvTk4HcDjdpj9HG43zy">
             ett sådant utvidgat samarbete och medinflytande kan komma att
             erfordra ändringar i gällande kommunallagar. Den 22 mars i år
@@ -4604,8 +4574,6 @@
             huruvida icke de sakkunniga även borde erhålla i uppdrag att utreda
             och framlägga förslag rörande sådana lagändringar.
           </seg>
-        </u>
-        <u xml:id="i-b67b3042d515c6f1-31" who="unknown" prev="i-E6hjMyDcRW8799NdVYKPc5" next="i-VxHTPQQtu5hkWuwvkKkKKQ">
           <seg xml:id="i-QMc5UyjtycW5VQtnqyuGPG">
             För en grupp av de kommunalanställda ha den senaste tidens händelser
             särskilt visat behovet av personaldemokrati, nämligen polismännen.
@@ -4617,28 +4585,20 @@
             med rum för rådslag i frågor, där den enskilde polismannens erfarenheter
             kunna förutsättas vara av värde.
           </seg>
-        </u>
-        <u xml:id="i-VxHTPQQtu5hkWuwvkKkKKQ" who="unknown" prev="i-b67b3042d515c6f1-31" next="i-b67b3042d515c6f1-32">
           <seg xml:id="i-9rMNpWZatmMCfbM1vBWQGV">
             På grund av vad sålunda anförts får jag hemställa om kammarens
             tillstånd att till statsrådet Mossberg framställa följande frågor:
           </seg>
-        </u>
-        <u xml:id="i-b67b3042d515c6f1-32" who="unknown" prev="i-VxHTPQQtu5hkWuwvkKkKKQ" next="i-Q9cpTfqE6gjQU4c4MdeC7i">
           <seg xml:id="i-J7gqJuKDRcdXCYA1ovTKUj">
             1. Har herr statsrådet uppmärksammat, att en lösning av frågan
             om de kommunalanställdas medinflytande och ökade insyn i den kommunala
             förvaltningen kan aktualisera ändringar av den kommunala lagstiftningen?
           </seg>
-        </u>
-        <u xml:id="i-Q9cpTfqE6gjQU4c4MdeC7i" who="unknown" prev="i-b67b3042d515c6f1-32" next="i-b67b3042d515c6f1-33">
           <seg xml:id="i-RQYUSSdMkDy15s8XJrrsYT">
             2. Är herr statsrådet beredd att, om så befinnes erforderligt,
             för riksdagen framlägga förslag till sådana ändringar av den kommunala
             lagstiftningen?
           </seg>
-        </u>
-        <u xml:id="i-b67b3042d515c6f1-33" who="unknown" prev="i-Q9cpTfqE6gjQU4c4MdeC7i">
           <seg xml:id="i-X9VpvWMBKoaMMhgpf5hcYZ">
             3. Har herr statsrådet för avsikt att snarast upptaga frågan
             om personaldemokrati inom polisväsendet till behandling?

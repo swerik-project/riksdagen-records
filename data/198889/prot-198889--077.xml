@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-E2Mb4fDoBJrytSeRGfYvxJ" type="speech">
             <linkGrp type="u">
               <ptr target="#i-JVWzFmioZcBoDWt5UqFbkc"/>
@@ -434,7 +434,13 @@
               <ptr target="#i-8295ae0d3c5ed68f-24"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -725,14 +731,12 @@
         <note xml:id="i-J1kNXZ3TohPFNopztBH8v9" type="speaker">
           Anf. I Kommunikationsminister GEORG ANDERSSON:
         </note>
-        <u xml:id="i-JVWzFmioZcBoDWt5UqFbkc" who="i-Xrj5P46hsif4EVQjEQc8eH" next="i-WEjEuFAYabKUN6HCfJEduD">
+        <u xml:id="i-JVWzFmioZcBoDWt5UqFbkc" who="i-Xrj5P46hsif4EVQjEQc8eH" next="i-Vc4LEmugQjPipHZsv11c1A">
           <seg xml:id="i-maEFi8Eom9dq64we8MkyQ">
             Herr talman! Åsa Domeij har frågat miljöoch energiministern om
             hon avser att vidta några åtgärder, eftersom naturresurslagen
             inte förefaller ge ett tillräckligt skydd för värdefulla naturområden.
           </seg>
-        </u>
-        <u xml:id="i-WEjEuFAYabKUN6HCfJEduD" who="i-Xrj5P46hsif4EVQjEQc8eH" prev="i-JVWzFmioZcBoDWt5UqFbkc" next="i-Vc4LEmugQjPipHZsv11c1A">
           <seg xml:id="i-8GPuc7BxCSozfyhrHJroQS">
             Frågan har överlämnats till mig.
           </seg>
@@ -741,27 +745,21 @@
           Därefter har hon frågat mig om ordningen för besvarande av riksdagsledamöters
           frågor till statsråd.
         </note>
-        <u xml:id="i-Vc4LEmugQjPipHZsv11c1A" who="i-Xrj5P46hsif4EVQjEQc8eH" prev="i-WEjEuFAYabKUN6HCfJEduD" next="i-Mb73TMD1zCw9EFho4zXynq">
+        <u xml:id="i-Vc4LEmugQjPipHZsv11c1A" who="i-Xrj5P46hsif4EVQjEQc8eH" prev="i-JVWzFmioZcBoDWt5UqFbkc">
           <seg xml:id="i-QjgVSaRgz7QqtTsW1QAUj5">
             Jag besvarar båda frågorna i ett sammanhang.
           </seg>
-        </u>
-        <u xml:id="i-Mb73TMD1zCw9EFho4zXynq" who="i-Xrj5P46hsif4EVQjEQc8eH" prev="i-Vc4LEmugQjPipHZsv11c1A" next="i-7zjeXNEdQEeWEUuwcP9chL">
           <seg xml:id="i-SfiRjV17NExBCjLNTUDNFT">
             Bakgrunden till Åsa Domeijs första fråga är att regeringen gjort
             en förnyad prövning av arbetsplanen för väg E 6 såvitt gäller
             ett område vid Bratteforsåns dalgång och därvid beslutat att inte
             ändra det tidigare beslutet om vägens sträckning.
           </seg>
-        </u>
-        <u xml:id="i-7zjeXNEdQEeWEUuwcP9chL" who="i-Xrj5P46hsif4EVQjEQc8eH" prev="i-Mb73TMD1zCw9EFho4zXynq" next="i-VD5PAKRWFKgD7abrzPYyyP">
           <seg xml:id="i-3VqW1Szf2k3B9si1tJX8J4">
             Först vill jag framhålla att utbyggnaden av väg E 6 tillgodoser
             ett angeläget behov av förbättrade trafikförhållanden på en hårt
             olycksdrabbad väg. Den nya vägen kommer att spara många människoliv.
           </seg>
-        </u>
-        <u xml:id="i-VD5PAKRWFKgD7abrzPYyyP" who="i-Xrj5P46hsif4EVQjEQc8eH" prev="i-7zjeXNEdQEeWEUuwcP9chL" next="i-VKGfXcNLivAtXcKqg5LMLx">
           <seg xml:id="i-PfUPAq27EPu5zqkutYtwDv">
             Det är oundvikligt att ett vägbygge medför skogsavverkning och
             intrång av olika slag. Det intrång som nu måste ske vid Bratteforsån
@@ -770,8 +768,6 @@
             ansett att det berörda riksintresset för naturvården inte utgör
             något hinder för vägbygget.
           </seg>
-        </u>
-        <u xml:id="i-VKGfXcNLivAtXcKqg5LMLx" who="i-Xrj5P46hsif4EVQjEQc8eH" prev="i-VD5PAKRWFKgD7abrzPYyyP" next="i-X61Gm12JqHkYpa6UmLGWA7">
           <seg xml:id="i-BtrwTnFjATZVNhRFhtTTAQ">
             Jag kan inte se att regeringsbeslutet om väg E 6 ger anledning
             till kritik mot naturresurslagen. Lagen är ett bra instrument
@@ -783,15 +779,11 @@
             sträckningen och utformningen av vägprojektet bäst tillgodoser
             kraven på god resurshushållning.
           </seg>
-        </u>
-        <u xml:id="i-X61Gm12JqHkYpa6UmLGWA7" who="i-Xrj5P46hsif4EVQjEQc8eH" prev="i-VKGfXcNLivAtXcKqg5LMLx" next="i-41zFw9QoCSUaq6PifU8jKC">
           <seg xml:id="i-23SqKcaV1P6uFn9wzBkThP">
             När det gäller Åsa Domeijs andra fråga är bakgrunden att hon
             inte anser sig ha fått ett tillräckligt snabbt svar på den första
             frågan.
           </seg>
-        </u>
-        <u xml:id="i-41zFw9QoCSUaq6PifU8jKC" who="i-Xrj5P46hsif4EVQjEQc8eH" prev="i-X61Gm12JqHkYpa6UmLGWA7" next="i-D6aDLtfmN68nfLWLV7BeBx">
           <seg xml:id="i-LR8mDAkpUfsTp9Y6pgs6Hm">
             Den frågan var ställd den 14 februari 1989 till miljöoch energiministern,
             som dock under den veckan var på utlandsresa. Först under veckan
@@ -802,8 +794,6 @@
             av att förra veckan var sammanträdesfri kunde frågan inte heller
             besvaras torsdagen den 2 mars.
           </seg>
-        </u>
-        <u xml:id="i-D6aDLtfmN68nfLWLV7BeBx" who="i-Xrj5P46hsif4EVQjEQc8eH" prev="i-41zFw9QoCSUaq6PifU8jKC">
           <seg xml:id="i-HRGydxzx8YUaQQFf2SWojo">
             Jag beklagar att det inte varit möjligt att besvara frågan tidigare.
           </seg>
@@ -3397,7 +3387,7 @@
           511 av Roy Ottosson (mp) till kommunikationsministern om persontrafiken
           på järnväg i Norrland:
         </note>
-        <u xml:id="i-8295ae0d3c5ed68f-18" who="i-4wzmEstkwDoqsQwqUhMe6k" next="i-SdZMUpR3nxPMLgYjgvAPeW">
+        <u xml:id="i-8295ae0d3c5ed68f-18" who="i-4wzmEstkwDoqsQwqUhMe6k" next="i-8295ae0d3c5ed68f-19">
           <seg xml:id="i-3uMQCHavvpfQ6Nz3KmEigo">
             Persontrafiken på järnväg i Norrland är akut hotad. Till sommaren
             blir det ingen Lapplandspil. Trafiken till Örnsköldsvik läggs
@@ -3407,26 +3397,20 @@
             växande metropolen Umeå riskerar att berövas sin järnvägsförbindelse
             till övriga landet!
           </seg>
-        </u>
-        <u xml:id="i-SdZMUpR3nxPMLgYjgvAPeW" who="i-4wzmEstkwDoqsQwqUhMe6k" prev="i-8295ae0d3c5ed68f-18" next="i-8295ae0d3c5ed68f-19">
           <seg xml:id="i-AdUUe4irGrzHhMUtPxvPbg">
             Orsaken är att det trafikpolitiska beslutet från 1988 inte fullföljs
             vad gäller
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198889--77/prot_198889__77-034.jp2/_view"/>
-        <u xml:id="i-8295ae0d3c5ed68f-19" who="i-4wzmEstkwDoqsQwqUhMe6k" prev="i-SdZMUpR3nxPMLgYjgvAPeW" next="i-YB7MmvxSLpmcqrVueBgPW6">
+        <u xml:id="i-8295ae0d3c5ed68f-19" who="i-4wzmEstkwDoqsQwqUhMe6k" prev="i-8295ae0d3c5ed68f-18">
           <seg xml:id="i-XgiUHGkJ7VJRc3CxSwdPA2">
             samhällets köp av samhällsnyttig, men företagsekonomiskt ej lönsam
             trafik. I stället minskar regeringen detta anslag i årets budgetförslag.
           </seg>
-        </u>
-        <u xml:id="i-YB7MmvxSLpmcqrVueBgPW6" who="i-4wzmEstkwDoqsQwqUhMe6k" prev="i-8295ae0d3c5ed68f-19" next="i-KVpjaWzSMooxMNZqyQvxS8">
           <seg xml:id="i-RjPc1eMq4cFQnfYVKZD6vJ">
             Med anledning av detta vill jag ställa följande fråga till kommunikationsministern:
           </seg>
-        </u>
-        <u xml:id="i-KVpjaWzSMooxMNZqyQvxS8" who="i-4wzmEstkwDoqsQwqUhMe6k" prev="i-YB7MmvxSLpmcqrVueBgPW6">
           <seg xml:id="i-HaJjUDGaDaLJteAM3Ag3CN">
             Är regeringen beredd att se till så att persontrafiken på järnväg
             i Norrland utvecklas och förbättras, och i så fall hur?
@@ -3439,7 +3423,7 @@
           512 av Roy Ottosson (mp) till kommunikationsministern om tunga
           lastbilstransporter:
         </note>
-        <u xml:id="i-8295ae0d3c5ed68f-21" who="i-4wzmEstkwDoqsQwqUhMe6k" next="i-3st17omHyzdWm2sd5jY8Pw">
+        <u xml:id="i-8295ae0d3c5ed68f-21" who="i-4wzmEstkwDoqsQwqUhMe6k" next="i-8295ae0d3c5ed68f-22">
           <seg xml:id="i-QhFaiVrrYEL8FrgZg2dQiX">
             Tunga lastbilstransporter sliter mycket hårt på våra vägar. Den
             försämrade vägstandarden på en del håll i vårt land, främst i
@@ -3456,13 +3440,9 @@
             Därigenom förs gods över från järnväg till väg i ökande takt.
             Detta går stick i stäv med det trafikpolitiska beslutet från 1988.
           </seg>
-        </u>
-        <u xml:id="i-3st17omHyzdWm2sd5jY8Pw" who="i-4wzmEstkwDoqsQwqUhMe6k" prev="i-8295ae0d3c5ed68f-21" next="i-4WR4wqanfKFW4N36iZmb8b">
           <seg xml:id="i-3nahaizAm9sdecDijruhNp">
             Med anledning av detta vill jag ställa följande fråga till kommunikationsministern:
           </seg>
-        </u>
-        <u xml:id="i-4WR4wqanfKFW4N36iZmb8b" who="i-4wzmEstkwDoqsQwqUhMe6k" prev="i-3st17omHyzdWm2sd5jY8Pw" next="i-8295ae0d3c5ed68f-22">
           <seg xml:id="i-4va8w3HtgqwozDkmRYWWho">
             Är regeringen beredd att inta en mer restriktiv hållning vad
             gäller dispensgivning för 60-tons lastbilar?
@@ -3472,7 +3452,7 @@
           1988/89:513 av Carl-Johan Wilson (fp) till statsministern om
           rättssäkerheten i utlänningsärenden:
         </note>
-        <u xml:id="i-8295ae0d3c5ed68f-22" who="i-4wzmEstkwDoqsQwqUhMe6k" prev="i-4WR4wqanfKFW4N36iZmb8b" next="i-8295ae0d3c5ed68f-24">
+        <u xml:id="i-8295ae0d3c5ed68f-22" who="i-4wzmEstkwDoqsQwqUhMe6k" prev="i-8295ae0d3c5ed68f-21" next="i-8295ae0d3c5ed68f-24">
           <seg xml:id="i-MMm4HVtQ5v2qskHDpv29Wx">
             I slutet av 1988 gav regeringen besked om en s.k. nollställning
             för vissa beslut i utlänningsärenden. Informationen om det beslutet

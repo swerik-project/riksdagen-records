@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-QyjVdWR4Z6pRD6AGRNzCut" type="speech">
             <linkGrp type="u">
               <ptr target="#i-017565c84aa1e7ac-0"/>
@@ -235,7 +235,13 @@
               <ptr target="#i-017565c84aa1e7ac-64"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -426,13 +432,11 @@
         <note xml:id="i-Rx7gtLckrVSnYjHAgvCgmM">
           Herr talmannen i riksdagens första kammare.
         </note>
-        <u xml:id="i-5RvmdDGCbJMPs5ofV59R2E" who="i-FneeHdWC4kJvq3GyuxpvWq" prev="i-017565c84aa1e7ac-2" next="i-S35dqMPK1PtSdHc8BAEx1j">
+        <u xml:id="i-5RvmdDGCbJMPs5ofV59R2E" who="i-FneeHdWC4kJvq3GyuxpvWq" prev="i-017565c84aa1e7ac-2">
           <seg xml:id="i-4ixgLCWwjK3MkVoRZGfog5">
             Innevarande år hava trehundra år förflutit sedan Jämtland och
             Härjedalen förenades med Sverige.
           </seg>
-        </u>
-        <u xml:id="i-S35dqMPK1PtSdHc8BAEx1j" who="i-FneeHdWC4kJvq3GyuxpvWq" prev="i-5RvmdDGCbJMPs5ofV59R2E" next="i-KQHg8YhbEFrkqNAkfyv7Hb">
           <seg xml:id="i-GMU1otjqTdCnRnzDaKRYcF">
             I enlighet med beslut av Jämtlands läns landsting kommer minnet
             härav att högtidlighållas bl. a. med en minnesutställning i Östersund
@@ -440,8 +444,6 @@
             den 14 juli komma D. D. K. K. H. H. Kronprinsen och Kronprinsessan
             att närvara.
           </seg>
-        </u>
-        <u xml:id="i-KQHg8YhbEFrkqNAkfyv7Hb" who="i-FneeHdWC4kJvq3GyuxpvWq" prev="i-S35dqMPK1PtSdHc8BAEx1j">
           <seg xml:id="i-DZ2p3LgnDdAhGwtj7uJxKY">
             Bestyrelsen för minnesutställningen får härmed vördsamt inbjuda
             riksdagens första kammare att låta sig representeras vid utställningens
@@ -718,7 +720,7 @@
         <note xml:id="i-BbWrZGK4Jwm9hSG7xSaE7Y" type="speaker">
           Herr Gärde:
         </note>
-        <u xml:id="i-017565c84aa1e7ac-8" who="i-Mp9EZyDQnEWymzonKTkhPb" next="i-8Mds7yp4VvB1tsycb8tqKB">
+        <u xml:id="i-017565c84aa1e7ac-8" who="i-Mp9EZyDQnEWymzonKTkhPb">
           <seg xml:id="i-VzoLWPacgdywpDYvCBcE4y">
             Som den föregående ärade talaren framhöll är det otvivelaktigt
             den mest goda avsikt som ligger till grund för den motion som
@@ -751,8 +753,6 @@
             utan i den goda samhällsandan, som vi med alla medel skola sträva
             efter att upprätthålla.
           </seg>
-        </u>
-        <u xml:id="i-8Mds7yp4VvB1tsycb8tqKB" who="i-Mp9EZyDQnEWymzonKTkhPb" prev="i-017565c84aa1e7ac-8">
           <seg xml:id="i-SNY5y6JCmgHjEqWcMZFxjz">
             Jag ber, herr talman, att få yrka bifall till utskottets förslag.
           </seg>
@@ -1557,7 +1557,7 @@
           (Forts.) skäl för riksdagen att begära utredning och förslag rörande
           det krav, som framföres 1 motionerna.
         </note>
-        <u xml:id="i-017565c84aa1e7ac-26" who="i-J7XJhJsmHhEcYn3LE6yXuT" prev="i-017565c84aa1e7ac-25" next="i-N7zu13L6vB6mFcN1LVZEBG">
+        <u xml:id="i-017565c84aa1e7ac-26" who="i-J7XJhJsmHhEcYn3LE6yXuT" prev="i-017565c84aa1e7ac-25" next="i-PweNNnZUbiAsYUqkcap5P8">
           <seg xml:id="i-J1A9dVVggSFuAgT7Lrb21w">
             Vi hålla alla här i landet mycket styvt på pressfriheten. Men
             vi veta också, att pressen liksom allt annat är en företeelse
@@ -1624,8 +1624,6 @@
             taget kan uppnå något med de åtgärder, som man eventuellt kunde
             föreslå.
           </seg>
-        </u>
-        <u xml:id="i-N7zu13L6vB6mFcN1LVZEBG" who="i-J7XJhJsmHhEcYn3LE6yXuT" prev="i-017565c84aa1e7ac-26" next="i-PweNNnZUbiAsYUqkcap5P8">
           <seg xml:id="i-KHRzqmGnLyX8PmbAEpmn4k">
             I utskottsmajoritetens utlåtande hänvisar man till tryckfrihetsförordningens
           </seg>
@@ -1656,7 +1654,7 @@
           området. Det är i så fall en missuppfattning av den demokratiska
           principen.
         </note>
-        <u xml:id="i-PweNNnZUbiAsYUqkcap5P8" who="i-J7XJhJsmHhEcYn3LE6yXuT" prev="i-N7zu13L6vB6mFcN1LVZEBG" next="i-017565c84aa1e7ac-28">
+        <u xml:id="i-PweNNnZUbiAsYUqkcap5P8" who="i-J7XJhJsmHhEcYn3LE6yXuT" prev="i-017565c84aa1e7ac-26" next="i-017565c84aa1e7ac-28">
           <seg xml:id="i-6FckRM6EoHavBx8Sa9Tzus">
             Utskottsmajoriteten gör även en annan invändning, som jag vill
             säga några ord om. Det förklaras, att en åtgärd i stil med den
@@ -1961,14 +1959,12 @@
           </seg>
         </u>
         <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1945/prot-1945--fk--026/prot-1945--fk--026_020"/>
-        <u xml:id="i-Tm3w4wWvKJpd3tSM6NifaA" who="i-JFfGPzij9DwmfbXD4RuxyR" prev="i-7L1wnw1ZayECXNzvpoXDP1" next="i-017565c84aa1e7ac-32">
+        <u xml:id="i-Tm3w4wWvKJpd3tSM6NifaA" who="i-JFfGPzij9DwmfbXD4RuxyR" prev="i-7L1wnw1ZayECXNzvpoXDP1">
           <seg xml:id="i-AJ9MzSWzsUs72HGtqpFZUx">
             Torsdagen den 7 juni 19435. Nr 26. 2 Om viss redovisningsskyldighet
             för utgivare av periodisk skrift. (Forts.) har intagit Berlin
             och det svenska Hestapo kan häkta några »nassar» här och
           </seg>
-        </u>
-        <u xml:id="i-017565c84aa1e7ac-32" who="i-JFfGPzij9DwmfbXD4RuxyR" prev="i-Tm3w4wWvKJpd3tSM6NifaA">
           <seg xml:id="i-5wKvgGhKrjWz6iV3ejCqaH">
             var, och den svenska demokratien går sin gång som den skall gå.
           </seg>
@@ -2116,7 +2112,7 @@
         <note xml:id="i-HxHvrWpmrdT6gr3Y1JxKKx" type="speaker">
           Herr Anderson, Axel Ivar:
         </note>
-        <u xml:id="i-017565c84aa1e7ac-35" who="i-SfDZtdC5fgukcXJsiu8J9U" next="i-DzrexAkkL11x7PmEEMGFQw">
+        <u xml:id="i-017565c84aa1e7ac-35" who="i-SfDZtdC5fgukcXJsiu8J9U" next="i-BUMjeWh4zs3NigzxJNbXen">
           <seg xml:id="i-MMX6Jwefrfrccwwd6FnjkJ">
             Herr talman! Det var mycket i herr K. J. Olssons anförande, som
             jag oreserverat kunde instämma i — bl. a. framhållandet av vikten
@@ -2128,8 +2124,6 @@
             för tidningarna att det blir klart för läsekretsen och för allmänheten,
             vilka som stå bakom och vilka krafter som dirigera.
           </seg>
-        </u>
-        <u xml:id="i-DzrexAkkL11x7PmEEMGFQw" who="i-SfDZtdC5fgukcXJsiu8J9U" prev="i-017565c84aa1e7ac-35" next="i-BUMjeWh4zs3NigzxJNbXen">
           <seg xml:id="i-7d4kDV1PSMUyN8MNTCSp3g">
             Herr K. J. Olsson vittnade också om att det vid behandlingen
             av denna fråga rådde enighet inom utskottet i det principiella.
@@ -2153,7 +2147,7 @@
           gripa; de slinka igenom och försvinna. Dessa praktiska svårigheter
           utgöra väl det ena motivet, som här talar för avslag.
         </note>
-        <u xml:id="i-BUMjeWh4zs3NigzxJNbXen" who="i-SfDZtdC5fgukcXJsiu8J9U" prev="i-DzrexAkkL11x7PmEEMGFQw" next="i-RTwLfqjckg3siZuYkvMN5A">
+        <u xml:id="i-BUMjeWh4zs3NigzxJNbXen" who="i-SfDZtdC5fgukcXJsiu8J9U" prev="i-017565c84aa1e7ac-35" next="i-RTwLfqjckg3siZuYkvMN5A">
           <seg xml:id="i-TYuQY3DiEbgwf1bZ9y4EFX">
             Det andra och viktigare är det motiv, som nyss har utvecklats
             av herr Gärde. Jag skulle vilja vitsorda, att herr Gärde har givit
@@ -3109,7 +3103,7 @@
           uh Hä Sammaniämkningsförslag ang. kvinnas behörighet till statstjänst
           m. m. (Forts.
         </note>
-        <u xml:id="i-017565c84aa1e7ac-59" who="i-4VusjuC8NvwGAqJKWikvPG" prev="i-017565c84aa1e7ac-58" next="i-YGrfGq9sUdNbvHupozYHza">
+        <u xml:id="i-017565c84aa1e7ac-59" who="i-4VusjuC8NvwGAqJKWikvPG" prev="i-017565c84aa1e7ac-58">
           <seg xml:id="i-9dFKAQsFBYaY8mqUzvWD2S">
             Herr da Herr talman! Jag förstår mycket väl den kritik, som herr
             Herlitz nyss gav uttryck åt, men att av denna kritik låta leda
@@ -3138,15 +3132,11 @@
             att undertrycka detta uttalande bakom det förhållandet, att det
             inte nu förekommer i sammanjämkningsförslaget.
           </seg>
-        </u>
-        <u xml:id="i-YGrfGq9sUdNbvHupozYHza" who="i-4VusjuC8NvwGAqJKWikvPG" prev="i-017565c84aa1e7ac-59" next="i-AgSMgT3uvACMAfwgUEZ1bb">
           <seg xml:id="i-DRHkJnZjD6GwdhDSSssRxC">
             Jag tillåter mig, herr talman, samtidigt som jag yrkar bifall
             till utskottets sammanjämkningsförslag, att stryka under detta
             uttalande i utskottets tidigare utlåtande.
           </seg>
-        </u>
-        <u xml:id="i-AgSMgT3uvACMAfwgUEZ1bb" who="i-4VusjuC8NvwGAqJKWikvPG" prev="i-YGrfGq9sUdNbvHupozYHza">
           <seg xml:id="i-Whk833gyZY3DAUA2xQ9ExE">
             Efter härmed slutad överläggning gjordes i enlighet med de yrkanden,
             som därunder framkommit, propositioner, först på bifall till samt
@@ -3341,7 +3331,7 @@
         <note xml:id="i-V5WHTPquu5ia8eNNHsHYTQ" type="speaker">
           Herr von Heland:
         </note>
-        <u xml:id="i-017565c84aa1e7ac-62" who="i-HCwEBLHjvaPyUHpWDFDcMz" next="i-88h8mw76peMjwGPbt9XN8h">
+        <u xml:id="i-017565c84aa1e7ac-62" who="i-HCwEBLHjvaPyUHpWDFDcMz">
           <seg xml:id="i-Tc8BkZBkkCxEj2D9zNNfP9">
             Herr talman! Jag önskar endast göra en formell anmärkning mot
             propositionen.
@@ -3363,8 +3353,6 @@
             propositionen, kan jag inte heller annat än uttala min tillfredsställelse
             med utskottets utlåtande.
           </seg>
-        </u>
-        <u xml:id="i-88h8mw76peMjwGPbt9XN8h" who="i-HCwEBLHjvaPyUHpWDFDcMz" prev="i-017565c84aa1e7ac-62">
           <seg xml:id="i-2hhdyP6NPZkRqaLUcPwr8A">
             Att här ingå på någon sakdebatt torde vara överflödigt, och jag
             inskränker mig, herr talman, till att med det sagda hemställa

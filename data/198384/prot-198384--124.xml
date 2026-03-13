@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-371tob8DWwhgQenJ81vaCx" type="speech">
             <linkGrp type="u">
               <ptr target="#i-J1LsokqDsM8ortzkU5RXRR"/>
@@ -729,7 +729,13 @@
               <ptr target="#i-Bsq2J18NewmvJiQcpCtr2c"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -760,7 +766,7 @@
         <note xml:id="i-6iWpqUVsf23HBjLVH6UNzx">
           Till riksdagen
         </note>
-        <u xml:id="i-7fBB34G5JfYMsZYUNGkddj" who="unknown">
+        <u xml:id="i-7fBB34G5JfYMsZYUNGkddj" who="unknown" next="i-AzEkFcXoUnnpFwK3acq8D1">
           <seg xml:id="i-Ck2DUVLt3is9USKtgtnh4R">
             Undertecknad anhåller om att få tjänstledigt från uppdraget som
             riksdagsledamot under maj månad 1984 för fullgörande av kommittéarbete
@@ -770,7 +776,7 @@
         <note xml:id="i-VsWoiJCPFFVA8H9hYFk6W7">
           Till riksdagen
         </note>
-        <u xml:id="i-AzEkFcXoUnnpFwK3acq8D1" who="unknown">
+        <u xml:id="i-AzEkFcXoUnnpFwK3acq8D1" who="unknown" prev="i-7fBB34G5JfYMsZYUNGkddj">
           <seg xml:id="i-S3365ZPESzKc24MC64UQ77">
             Med hänsyn till bl. a. internationella uppdrag hemställer jag
             om tjänstledighet från riksdagen under tiden den 2 maj till vårsessionens
@@ -794,13 +800,11 @@
         <note xml:id="i-FauuYbrUwLtQkGjSYUjWSK" type="speaker">
           Anf. 1 Utrikesminister LENNART BODSTRÖM:
         </note>
-        <u xml:id="i-J1LsokqDsM8ortzkU5RXRR" who="i-VxBS1HHcrVMPJcDXUTpFJS" next="i-SYJvbMMyp7sh8wC8AzMQdr">
+        <u xml:id="i-J1LsokqDsM8ortzkU5RXRR" who="i-VxBS1HHcrVMPJcDXUTpFJS" next="i-HryPNmMghoKaV7x1MoWUiS">
           <seg xml:id="i-YG1CmKKrtrbUt3GYpoCAgL">
             Herr talman! Eva Hjelmström har frågat mig om regeringen är beredd
             att ge ytterligare katastrofbistånd till Angola.
           </seg>
-        </u>
-        <u xml:id="i-SYJvbMMyp7sh8wC8AzMQdr" who="i-VxBS1HHcrVMPJcDXUTpFJS" prev="i-J1LsokqDsM8ortzkU5RXRR" next="i-HryPNmMghoKaV7x1MoWUiS">
           <seg xml:id="i-XT6QH9kZwCpuKYv3h8g37t">
             Regeringen beslöt i november 1983 om bidrag med 5 milj. kr. till
             Angola för katastrofhjälp till nödlidande i de centrala och södra
@@ -827,7 +831,7 @@
         <note xml:id="i-CXaMMM394qJ64G7os33syh">
           Om det politiska lägetisödra Afrika
         </note>
-        <u xml:id="i-HryPNmMghoKaV7x1MoWUiS" who="i-VxBS1HHcrVMPJcDXUTpFJS" prev="i-SYJvbMMyp7sh8wC8AzMQdr" next="i-CG8uHBdx2nPxcfJcTfz652">
+        <u xml:id="i-HryPNmMghoKaV7x1MoWUiS" who="i-VxBS1HHcrVMPJcDXUTpFJS" prev="i-J1LsokqDsM8ortzkU5RXRR">
           <seg xml:id="i-6Rm1YccFX9L555PHNYdLFY">
             säkerhetsproblem lämna sina hem och förlorade därmed sina utkomstmöjligheter.
             Sydafrikas militära aggression och ockupation av södra Angola
@@ -835,15 +839,11 @@
             Den svenska insatsen inriktades på att förbättra distributionen
             av förnödenheter genom att förstärka transportkapaciteten.
           </seg>
-        </u>
-        <u xml:id="i-CG8uHBdx2nPxcfJcTfz652" who="i-VxBS1HHcrVMPJcDXUTpFJS" prev="i-HryPNmMghoKaV7x1MoWUiS" next="i-FCuZsJ6zvJSF2RWf1k2vSQ">
           <seg xml:id="i-LeWhpYbDD5TGoJJ9G2XJzX">
             Även tidigare har svenskt katastrofbistånd lämnats till Angola.
             Särskilt stöd till flyktingar och hemlösa utgår också genom FN:s
             flyktingkommissariat och Röda korset.
           </seg>
-        </u>
-        <u xml:id="i-FCuZsJ6zvJSF2RWf1k2vSQ" who="i-VxBS1HHcrVMPJcDXUTpFJS" prev="i-CG8uHBdx2nPxcfJcTfz652">
           <seg xml:id="i-BLXeDkZJUr5vDNVcUCiUen">
             Regeringen följer kontinuerligt situationen i Angola och prövar
             fortlöpande behovet av katastrofinsatser. Det finns beredskap
@@ -898,7 +898,7 @@
         <note xml:id="i-UFYqgyNQKh1HBvkvHgeNHo" type="speaker">
           Anf. 3 Utrikesminister LENNART BODSTRÖM:
         </note>
-        <u xml:id="i-debf692cd9d8b018-20" who="i-VxBS1HHcrVMPJcDXUTpFJS" next="i-5Ed1D1sPzgE9g71X4JZZTs">
+        <u xml:id="i-debf692cd9d8b018-20" who="i-VxBS1HHcrVMPJcDXUTpFJS" next="i-2d8e87ff5c816482-3">
           <seg xml:id="i-LeJ9A6yzGWvtEjZFRGaJ9s">
             Herr talman! Eva Hjelmström har frågat mig hur regeringen bedömer
             det nya politiska läget i södra Afrika och vilka åtgärder som
@@ -908,14 +908,12 @@
             med anledning av detta. Som svar på frågan vill jag hänvisa till
             avsnittet om södra Afrika från årets
           </seg>
-        </u>
-        <u xml:id="i-5Ed1D1sPzgE9g71X4JZZTs" who="i-VxBS1HHcrVMPJcDXUTpFJS" prev="i-debf692cd9d8b018-20" next="i-2d8e87ff5c816482-3">
           <seg xml:id="i-XGqpYpEGHBFZw4DsiDbSw5">
             utrikesdeklaration, vari bl. a. sägs:
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--124/prot_198384__124-002.jp2/_view"/>
-        <u xml:id="i-2d8e87ff5c816482-3" who="i-VxBS1HHcrVMPJcDXUTpFJS" prev="i-5Ed1D1sPzgE9g71X4JZZTs">
+        <u xml:id="i-2d8e87ff5c816482-3" who="i-VxBS1HHcrVMPJcDXUTpFJS" prev="i-debf692cd9d8b018-20">
           <seg xml:id="i-EjXDq236ZYugvpLd2yYZZK">
             ”Den senaste tidens förhandlingar i södra Afrika har lett till
             att upptrappningen av våldet har avstannat — åtminstone temporärt.
@@ -1033,7 +1031,7 @@
         <note xml:id="i-ES9vBMb5rNcpyr6DMfEKpN" type="speaker">
           Anf. 5 Jordbruksminister SVANTE LUNDKVIST:
         </note>
-        <u xml:id="i-2d8e87ff5c816482-8" who="i-2pEgGvjfozTyRxyzmLZFo2" next="i-7CT2mzqB9ra7j9mef4pTA1">
+        <u xml:id="i-2d8e87ff5c816482-8" who="i-2pEgGvjfozTyRxyzmLZFo2">
           <seg xml:id="i-BeY1KKWLU18PbhWxF8rdLH">
             Herr talman! Lars Ernestam har frågat mig om jag är beredd att
             förhindra domänverkets planerade avverkning i fågelskyddsområdet
@@ -1043,16 +1041,12 @@
             Lars Ernestam har ställt sin fråga med hänvisning till att domänverket
             påbörjat ett vägbygge i området.
           </seg>
-        </u>
-        <u xml:id="i-7CT2mzqB9ra7j9mef4pTA1" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-2d8e87ff5c816482-8" next="i-2d8e87ff5c816482-9">
           <seg xml:id="i-6qWK2bsNveJ9V3e4CvEy1S">
             Behovet av skydd för Sjaunja har uppmärksammats vid flera tidigare
             riksmöten. År 1982 lämnades motionsyrkanden om inrättande av nationalpark
             utan åtgärd under hänvisning bl. a. till att länsstyrelsen i Norrbottens
             län utarbetat ett förslag till naturreservat.
           </seg>
-        </u>
-        <u xml:id="i-2d8e87ff5c816482-9" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-7CT2mzqB9ra7j9mef4pTA1">
           <seg xml:id="i-LWyjjbvWArfSCfooaMtm3M">
             Både statens naturvårdsverk och länsstyrelsen anser att de stora
             naturvärden som knyts till det aktuella fågelskyddsområdet kan
@@ -1288,23 +1282,19 @@
         <note xml:id="i-HRXSi8NBUPwyUCiaikbbjZ" type="speaker">
           Anf. 13 Jordbruksminister SVANTE LUNDKVIST:
         </note>
-        <u xml:id="i-f0d060edee0deea5-11" who="i-2pEgGvjfozTyRxyzmLZFo2" next="i-NPb7F2Qcbi3ABaQaiP9sz5">
+        <u xml:id="i-f0d060edee0deea5-11" who="i-2pEgGvjfozTyRxyzmLZFo2">
           <seg xml:id="i-5GRFzRAViNfGHjTEpQKCdJ">
             Herr talman! Tore Claeson har frågat mig vilka åtgärder regeringen
             tänker föreslå och/eller vidta för bättre beredskap och kontroll
             vid utbyte av PCB-kondensatorer inom industrin och vid förbränningen
             av PCB-haltiga produkter i samband med sophanteringen.
           </seg>
-        </u>
-        <u xml:id="i-NPb7F2Qcbi3ABaQaiP9sz5" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-f0d060edee0deea5-11" next="i-f0d060edee0deea5-12">
           <seg xml:id="i-UwUU6uRV76dDfqPfqSPe3H">
             Frågor om utbyte av PCB-kondensatorer behandlas i en arbetsgrupp
             med deltagande från naturvårdsverket, Svensk Avfallskonvertering
             AB (SAKAB) och Svenska elverksföreningen. Gruppen kommer att avlämna
             sin rapport under våren.
           </seg>
-        </u>
-        <u xml:id="i-f0d060edee0deea5-12" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-NPb7F2Qcbi3ABaQaiP9sz5">
           <seg xml:id="i-4jiCCty96NY1tvZHyu7p2g">
             Enligt vad jag inhämtat kommer naturvårdsverket, bl. a. mot bakgrund
             av vad som framkommer i arbetsgruppens rapport, att se på behovet
@@ -1837,7 +1827,7 @@
         <note xml:id="i-SsJYhbg2SQEgXJuXRSWCV" type="speaker">
           Anf. 27 MONA SAINT CYR (m):
         </note>
-        <u xml:id="i-56ec2e650c1d6d1d-0" who="i-VKBXGHy4KWJbExz3QgCuVy" next="i-TVKrV81ryA9rwXoDsyuY3F">
+        <u xml:id="i-56ec2e650c1d6d1d-0" who="i-VKBXGHy4KWJbExz3QgCuVy" next="i-56ec2e650c1d6d1d-3">
           <seg xml:id="i-TgBt3tc7qLEDmA1YTe3Hmp">
             Herr talman! Jag ber att få tacka jordbruksministern för det
             svar jag nyss har fått. Tyvärr måste jag beklaga, men jag anser
@@ -1875,7 +1865,7 @@
         <note xml:id="i-ELCc8LV4r4b49AABtpt4Ea">
           16
         </note>
-        <u xml:id="i-56ec2e650c1d6d1d-3" who="i-VKBXGHy4KWJbExz3QgCuVy" prev="i-TVKrV81ryA9rwXoDsyuY3F">
+        <u xml:id="i-56ec2e650c1d6d1d-3" who="i-VKBXGHy4KWJbExz3QgCuVy" prev="i-56ec2e650c1d6d1d-0">
           <seg xml:id="i-GCoQAC8MzT3XvU5EVWHLNd">
             jordbruksministern undviker att kontrollera vad som sker.
           </seg>
@@ -2014,7 +2004,7 @@
         <note xml:id="i-4YkyJyk7KTiWdBxXAWwBpc" type="speaker">
           Anf. 31 MONA SAINT CYR (m):
         </note>
-        <u xml:id="i-56ec2e650c1d6d1d-8" who="i-VKBXGHy4KWJbExz3QgCuVy" next="i-B58PcwJbsFugod9R9GkW8f">
+        <u xml:id="i-56ec2e650c1d6d1d-8" who="i-VKBXGHy4KWJbExz3QgCuVy" next="i-56ec2e650c1d6d1d-11">
           <seg xml:id="i-RsCwRkPDNfLdCC7VaQzVn4">
             Herr talman! Menar då jordbruksministern att de totalförbud som
             kommunerna fattar beslut om är helt i överensstämmelse med vad
@@ -2055,7 +2045,7 @@
         <note xml:id="i-W3PBSCvTVtdvGSwgiiJEJK">
           18
         </note>
-        <u xml:id="i-56ec2e650c1d6d1d-11" who="i-VKBXGHy4KWJbExz3QgCuVy" prev="i-B58PcwJbsFugod9R9GkW8f">
+        <u xml:id="i-56ec2e650c1d6d1d-11" who="i-VKBXGHy4KWJbExz3QgCuVy" prev="i-56ec2e650c1d6d1d-8">
           <seg xml:id="i-MaYNrgAVx64eHdv6SkXs1d">
             använda denna bekämpningsmetod i de få fall det är fråga om med
             de dispenser som man borde kunna få äventyrar sysselsättningen
@@ -2821,7 +2811,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--124/prot_198384__124-024.jp2/_view"/>
-        <u xml:id="i-70301020d4297aa8-4" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-70301020d4297aa8-3" next="i-ENETLwaDDDL7n2KZkeBfbo">
+        <u xml:id="i-70301020d4297aa8-4" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-70301020d4297aa8-3" next="i-70301020d4297aa8-6">
           <seg xml:id="i-CK6A5oip2WnfAMwUDTXd7h">
             och har därvid övertygande visat att finansiella, utbildningspolitiska,
             forskningspolitiska, regionalpolitiska och arbetsmarknadspolitiska
@@ -2880,8 +2870,6 @@
             sett i ett internationellt perspektiv, att ha ett intag på 40
             platser i Malmö.
           </seg>
-        </u>
-        <u xml:id="i-ENETLwaDDDL7n2KZkeBfbo" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-70301020d4297aa8-4" next="i-70301020d4297aa8-6">
           <seg xml:id="i-WuqQtSWsWkwBsDp98UAh4w">
             Lunds universitet säger i en skrivelse till riksdagens ledamöter:
           </seg>
@@ -2908,7 +2896,7 @@
         <note xml:id="i-STYaDvJ8CGAqB96tPXW6KT">
           Läkaroch tandläkarutbildningen, m. m.
         </note>
-        <u xml:id="i-70301020d4297aa8-6" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-ENETLwaDDDL7n2KZkeBfbo" next="i-7dxNNMSh8gpd3dudQi8XBe">
+        <u xml:id="i-70301020d4297aa8-6" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-70301020d4297aa8-4" next="i-70301020d4297aa8-9">
           <seg xml:id="i-Yb2BHGFb3Jpv24bBTw7WVG">
             ”Det är därför ytterst förvånande att en majoritet inom utbildningsutskottet
             enats om att man bör lägga ner all tandläkarutbildning i Malmö.
@@ -2920,8 +2908,6 @@
             I varje fall för vårdyrkesutbildningarna kan det totala samhällsekonomiska
             resultatet av en total nedläggning bli en stor förlust.”
           </seg>
-        </u>
-        <u xml:id="i-7dxNNMSh8gpd3dudQi8XBe" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-70301020d4297aa8-6" next="i-70301020d4297aa8-7">
           <seg xml:id="i-9cE9VvCV5GLPQeot5ELSC7">
             Lunds universitet påpekar också att en nedläggning av tandläkarhögskolan
             i Malmö skulle få katastrofala konsekvenser för regionens specialisttandvård,
@@ -2930,8 +2916,6 @@
             i Malmö kommun. Lunds universitet vill att frågan om total nedläggning
             i Malmö skall beredas ytterligare.
           </seg>
-        </u>
-        <u xml:id="i-70301020d4297aa8-7" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-7dxNNMSh8gpd3dudQi8XBe" next="i-Lg5CbvkeGSr1ToWK39qauf">
           <seg xml:id="i-8wdeUJjLVbogQvqeDeCDUN">
             Herr talman! Jag övergår nu till barnomsorgsutbildningarna.
           </seg>
@@ -2951,14 +2935,10 @@
             sätt integrerat dessa linjer vid universitetet än vad som skett
             vid övriga universitet.”
           </seg>
-        </u>
-        <u xml:id="i-Lg5CbvkeGSr1ToWK39qauf" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-70301020d4297aa8-7" next="i-70301020d4297aa8-8">
           <seg xml:id="i-N2aXTxgmSsofKeLQaz2VjZ">
             Uppsala universitet har skrivit till riksdagens talman och bl.
             a. framhållit följande:
           </seg>
-        </u>
-        <u xml:id="i-70301020d4297aa8-8" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-Lg5CbvkeGSr1ToWK39qauf" next="i-70301020d4297aa8-9">
           <seg xml:id="i-JtuVB72baKuuLvxFPumL2J">
             ”Med stor förvåning mottog vi [därför] inom universitetet beskedet
             om att moderater och socialdemokrater i utbildningsutskottet enats
@@ -2989,7 +2969,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--124/prot_198384__124-026.jp2/_view"/>
-        <u xml:id="i-70301020d4297aa8-9" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-70301020d4297aa8-8" next="i-70301020d4297aa8-11">
+        <u xml:id="i-70301020d4297aa8-9" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-70301020d4297aa8-6" next="i-70301020d4297aa8-11">
           <seg xml:id="i-S3vw8tpT3ptdWGQ61YDdib">
             arbetsgivarnas sida. Uppdragsutbildningen, som riktar sig till
             anställda lärare inom barnomsorgen, är efterfrågad av kommunerna
@@ -3092,7 +3072,7 @@
         <note xml:id="i-6DvEeGpuHVs1GX7v5PJRWa">
           30
         </note>
-        <u xml:id="i-70301020d4297aa8-11" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-70301020d4297aa8-9" next="i-3d7g2U2Zg1k7VMe2531phy">
+        <u xml:id="i-70301020d4297aa8-11" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-70301020d4297aa8-9" next="i-70301020d4297aa8-13">
           <seg xml:id="i-Ng4e7QgiBDvCQnSxrJuyH4">
             Hade inte moderaterna tjänstvilligt ilat till, så hade det varit
             klart att man fått en välförtjänt bakläxa också när det gäller
@@ -3135,14 +3115,10 @@
             det en sakomröstning, måste man självfallet följa upp vad man
             offentligt har sagt.
           </seg>
-        </u>
-        <u xml:id="i-3d7g2U2Zg1k7VMe2531phy" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-70301020d4297aa8-11" next="i-70301020d4297aa8-12">
           <seg xml:id="i-FLzf8881d2iuLGyQfoGswP">
             I motion 108 säger Doris Håvik och ytterligare 13 socialdemokrater
             från Västsverige om tandläkarutbildningen:
           </seg>
-        </u>
-        <u xml:id="i-70301020d4297aa8-12" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-3d7g2U2Zg1k7VMe2531phy" next="i-70301020d4297aa8-13">
           <seg xml:id="i-H5WpWHVkb61UMEHiww58ZD">
             ”Fyra fakulteter ger en god geografisk balans, både vad gäller
             utbildning och vad gäller vård.” Det var ett citat ur den socialdemokratiska
@@ -3164,7 +3140,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--124/prot_198384__124-028.jp2/_view"/>
-        <u xml:id="i-70301020d4297aa8-13" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-70301020d4297aa8-12" next="i-iaF31QmuLsijvahAV24c8">
+        <u xml:id="i-70301020d4297aa8-13" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-70301020d4297aa8-11">
           <seg xml:id="i-8cu9937ieYgAwG8DXb2Kn">
             enda socialdemokrat gör på ett annat sätt, då är man öppen för
             en förändring. Såvitt jag kan förstå av de uttalanden som gjorts
@@ -3204,8 +3180,6 @@
             innebär detta ett bevarande av utbildningarna i Uppsala, Borås
             och Malmö.
           </seg>
-        </u>
-        <u xml:id="i-iaF31QmuLsijvahAV24c8" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-70301020d4297aa8-13">
           <seg xml:id="i-EjgtXfmrcqkkDwpFc6L79K">
             I detta anförande instämde Jan-Erik Wikström, Kerstin Anér, Kjell
             Johansson, Börje Stensson, Linnea Hörlén, Eric Hägelmark, Karin
@@ -3434,7 +3408,7 @@
         <note xml:id="i-GfvGjZwiqXPPB15xswe978">
           Läkaroch tandläkarutbildningen, m. m.
         </note>
-        <u xml:id="i-17f807dbeb60747b-5" who="i-5q7m7rZyufN9RHaGjB6GHh" prev="i-17f807dbeb60747b-3" next="i-6Yf6CjbbjnCKjMkM9TFtg4">
+        <u xml:id="i-17f807dbeb60747b-5" who="i-5q7m7rZyufN9RHaGjB6GHh" prev="i-17f807dbeb60747b-3">
           <seg xml:id="i-YYzAgeNyrdtKXCdmnxBCGV">
             för avveckling av äldrestödet inom tekoindustrin, där som bekant
             många kvinnor är anställda. Jag tänker på de kvinnor som är anställda
@@ -3459,8 +3433,6 @@
             tandläkarutbildning skulle ge en god geografisk balans, vad gäller
             både utbildning och vård.
           </seg>
-        </u>
-        <u xml:id="i-6Yf6CjbbjnCKjMkM9TFtg4" who="i-5q7m7rZyufN9RHaGjB6GHh" prev="i-17f807dbeb60747b-5" next="i-17f807dbeb60747b-6">
           <seg xml:id="i-STeQorNXjeeXc3mPkoZ749">
             Jag uppmanar er, Doris Håvik, Valter Kristenson, Lisa Mattson,
             Kurt Hugosson, Jan Bergqvist, Lars-Ingvar Sörenson, Sten Östlund,
@@ -3469,8 +3441,6 @@
             Stå fast vid ert ord! — I dag gäller det tandläkarhögskolan i
             Malmö.
           </seg>
-        </u>
-        <u xml:id="i-17f807dbeb60747b-6" who="i-5q7m7rZyufN9RHaGjB6GHh" prev="i-6Yf6CjbbjnCKjMkM9TFtg4">
           <seg xml:id="i-9BqHACELDm327jTZg7GDwb">
             En annan aspekt på förslaget att lägga ned de aktuella utbildningarna
             vid högskolorna i Borås, Visby och Uppsala är frågan, för att
@@ -3688,7 +3658,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--124/prot_198384__124-034.jp2/_view"/>
-        <u xml:id="i-c008127f9f39cf2d-4" who="i-Xrj5P46hsif4EVQjEQc8eH" prev="i-c008127f9f39cf2d-3" next="i-84aKz5mesXSxZtvcehG19k">
+        <u xml:id="i-c008127f9f39cf2d-4" who="i-Xrj5P46hsif4EVQjEQc8eH" prev="i-c008127f9f39cf2d-3" next="i-c008127f9f39cf2d-8">
           <seg xml:id="i-3ozeoh3crjjbBp68EhYpb4">
             kan jag hålla med om det. Men å andra sidan har det förekommit
             tidigare att något utskott skickat ut regeringsförslag på remiss.
@@ -3754,8 +3724,6 @@
             — och två högskolerektorer. Även tre av de närvarande tjänstemännen
             i UHÄ:s ledning har tagit samma ståndpunkt.
           </seg>
-        </u>
-        <u xml:id="i-84aKz5mesXSxZtvcehG19k" who="i-Xrj5P46hsif4EVQjEQc8eH" prev="i-c008127f9f39cf2d-4" next="i-c008127f9f39cf2d-8">
           <seg xml:id="i-EqR1Kh99VtVrk1KRxAY6n4">
             2. Av UHÄ:s yttrande framgår att hela styrelsen anser att om
             utbildningen
@@ -3789,7 +3757,7 @@
         <note xml:id="i-S4tm76yc6hkBL3uoqALUNF">
           38
         </note>
-        <u xml:id="i-c008127f9f39cf2d-8" who="i-Xrj5P46hsif4EVQjEQc8eH" prev="i-84aKz5mesXSxZtvcehG19k" next="i-c008127f9f39cf2d-9">
+        <u xml:id="i-c008127f9f39cf2d-8" who="i-Xrj5P46hsif4EVQjEQc8eH" prev="i-c008127f9f39cf2d-4" next="i-c008127f9f39cf2d-9">
           <seg xml:id="i-MtLzYC67PXhF37zFq77GDg">
             skall avvecklas på en av de nuvarande utbildningsorterna. bör
             det ske i Malmö. Mot denna bakgrund är förslaget om en nedläggning
@@ -5725,7 +5693,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--124/prot_198384__124-058.jp2/_view"/>
-        <u xml:id="i-db51f8fa6b45481a-4" who="i-SD9pkoqRT5Wh44pQmYMCqD" prev="i-db51f8fa6b45481a-3" next="i-XdBMLrii23GeUPbp7eBnBa">
+        <u xml:id="i-db51f8fa6b45481a-4" who="i-SD9pkoqRT5Wh44pQmYMCqD" prev="i-db51f8fa6b45481a-3">
           <seg xml:id="i-EE9ZGuHEJVz39BTJFJ4tUQ">
             representerar en fjärdedel av landets befolkning, berövas en
             utbildning och att närmare 50 22 av utbildningskapaciteten koncentreras
@@ -5758,8 +5726,6 @@
             regionalpolitiken måste vara bestämd av strävan att decentralisera
             och sprida
           </seg>
-        </u>
-        <u xml:id="i-XdBMLrii23GeUPbp7eBnBa" who="i-SD9pkoqRT5Wh44pQmYMCqD" prev="i-db51f8fa6b45481a-4">
           <seg xml:id="i-3yup9CNG8EWUvJQuv49Fou">
             resurserna. I detta anförande instämde Sigvard Persson och Stig
             Josefson (båda c).
@@ -6069,7 +6035,7 @@
         <note xml:id="i-XVw88GRNukp1BU9GqFjN9u">
           högskolan i Malmö.
         </note>
-        <u xml:id="i-SmLHxb7qKTUemW1W61xWmp" who="i-6qjD2tsSCtsrmXQjy7mtCJ" prev="i-47404625cf017acf-5" next="i-NXPEiWLCctWsLg4rTuhN2J">
+        <u xml:id="i-SmLHxb7qKTUemW1W61xWmp" who="i-6qjD2tsSCtsrmXQjy7mtCJ" prev="i-47404625cf017acf-5">
           <seg xml:id="i-7pM4fgb2KQ6BesDQBGPPtM">
             Hade utskottet följt UHÄ:s förslag om ett begränsat intag av
             tandläkarstuderande så hade det funnits goda förutsättningar att
@@ -6084,8 +6050,6 @@
             och som reservation nr 5 knyter an till. Detta bör bli kammarens
             beslut i frågan.
           </seg>
-        </u>
-        <u xml:id="i-NXPEiWLCctWsLg4rTuhN2J" who="i-6qjD2tsSCtsrmXQjy7mtCJ" prev="i-SmLHxb7qKTUemW1W61xWmp">
           <seg xml:id="i-15CJgFAUZ5oxMA9wySCF1Y">
             I detta anförande instämde Eric Jönsson, Egon Jacobsson, Bengt
             Silfverstrand, Gunnar Nilsson i Eslöv, Kurt Ove Johansson, Birthe
@@ -7199,7 +7163,7 @@
         <note xml:id="i-WMeDyYiQAaupxpoT3qgkqV">
           178
         </note>
-        <u xml:id="i-70301020d4297aa8-28" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-70301020d4297aa8-24" next="i-Jkjz2nNV1krMgQPFW77Dtb">
+        <u xml:id="i-70301020d4297aa8-28" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-70301020d4297aa8-24">
           <seg xml:id="i-Y4h1XZdQwRUmBbbCmUV1T3">
             har någon gång sagt, att jag beundrar utbildningsministern, som
             varje gång accepterar att hennes propositioner skjuts sönder och
@@ -7232,14 +7196,10 @@
             skall ta intryck av vad en enig UHÄ-styrelse har sagt om barnomsorgsutbildningen
             i Uppsala.
           </seg>
-        </u>
-        <u xml:id="i-Jkjz2nNV1krMgQPFW77Dtb" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-70301020d4297aa8-28" next="i-70301020d4297aa8-29">
           <seg xml:id="i-MmnPPb52zcjEvKtjue2nfS">
             Vice ordföranden i Kommunförbundet, Lars Eric Ericsson, skrev
             i en artikel i Aftonbladet häromdagen:
           </seg>
-        </u>
-        <u xml:id="i-70301020d4297aa8-29" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-Jkjz2nNV1krMgQPFW77Dtb">
           <seg xml:id="i-8okgk75sVinZpnUBXwmo6T">
             ”Nej, förslaget att lägga ned barnomsorgsutbildningen är både
             intellektuellt och forskningspolitiskt undermåligt! Därför har
@@ -8085,7 +8045,7 @@
         <note xml:id="i-HTCvRS6ZbtCBJqrp1nac24" type="speaker">
           Anf. 90 GUNHILD BOLANDER (c):
         </note>
-        <u xml:id="i-61aa11b9ea59f16a-0" who="i-Wiq5749k7owcARUynxZuX7" next="i-LviU7c8eSAdQfRi3gfJxA8">
+        <u xml:id="i-61aa11b9ea59f16a-0" who="i-Wiq5749k7owcARUynxZuX7" next="i-61aa11b9ea59f16a-2">
           <seg xml:id="i-AmbD21MFpENzHSAx4Pf13A">
             Fru talman! Debatten i dag har ju hittills i mycket fokuserats
             till Malmö och Skåne. Men låt oss nu vända blicken österut, från
@@ -8126,14 +8086,12 @@
             Det är värt att notera denna mycket starkt uttalade politiska
             vilja från alla partier så sent som för precis fem år sedan.
           </seg>
-        </u>
-        <u xml:id="i-LviU7c8eSAdQfRi3gfJxA8" who="i-Wiq5749k7owcARUynxZuX7" prev="i-61aa11b9ea59f16a-0" next="i-61aa11b9ea59f16a-2">
           <seg xml:id="i-2BWuTfrPym5HYu26xRjCMS">
             Georg Danell skrev i sin motion den 22 januari 1979 följande:
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--124/prot_198384__124-086.jp2/_view"/>
-        <u xml:id="i-61aa11b9ea59f16a-2" who="i-Wiq5749k7owcARUynxZuX7" prev="i-LviU7c8eSAdQfRi3gfJxA8" next="i-TPQNYCAnrWxnuNQMwFLT7A">
+        <u xml:id="i-61aa11b9ea59f16a-2" who="i-Wiq5749k7owcARUynxZuX7" prev="i-61aa11b9ea59f16a-0" next="i-61aa11b9ea59f16a-8">
           <seg xml:id="i-TVRaeKrZFyTochEyExtXk4">
             ”Med hänsyn till de av regionstyrelsen redovisade motiven att
             det är problem med lokalsituationen i övriga regioner när det
@@ -8147,15 +8105,11 @@
             föreslagna kapaciteten. Detta borde innebära totalt 84 platser
             hösten 1980, varav 60 nybörjarplatser.”
           </seg>
-        </u>
-        <u xml:id="i-TPQNYCAnrWxnuNQMwFLT7A" who="i-Wiq5749k7owcARUynxZuX7" prev="i-61aa11b9ea59f16a-2" next="i-2siRvwj8aYnxzUTQNGiFJw">
           <seg xml:id="i-KCLSziwtFjPurRT5jmFxw4">
             Sedan hemställer Georg Danell om ett riksdagens tillkännagivande
             till regeringen att förskollärarutbildning med den omfattning
             som angivits i motionen bör förläggas till Gotland fr. o. m. 1980/81.
           </seg>
-        </u>
-        <u xml:id="i-2siRvwj8aYnxzUTQNGiFJw" who="i-Wiq5749k7owcARUynxZuX7" prev="i-TPQNYCAnrWxnuNQMwFLT7A" next="i-61aa11b9ea59f16a-3">
           <seg xml:id="i-6uFfevZHn8ji5mb35wun47">
             Även Lars Gustafsson skriver i sin motion av den 23 januari 1979
             att de utredningar som gjorts i ärendet klart talar till förmån
@@ -8166,8 +8120,6 @@
             förslag om dimensionering, lokalisering och tidpunkt för start
             av förskollärarutbildning på Gotland.
           </seg>
-        </u>
-        <u xml:id="i-61aa11b9ea59f16a-3" who="i-Wiq5749k7owcARUynxZuX7" prev="i-2siRvwj8aYnxzUTQNGiFJw" next="i-7QsnzRZKskK6tUghtMa59V">
           <seg xml:id="i-HQPZo35hENyBLd64sqkijC">
             Utbildningen startade med tre klasser hösten 1980. Under de år
             som denna utbildning varit etablerad på Gotland har den planerade
@@ -8180,8 +8132,6 @@
             alltid är mindre vid vårän vid höstintagningarna. Det gällde vid
             detta tillfälle den första vårintagningen vid högskolan.
           </seg>
-        </u>
-        <u xml:id="i-7QsnzRZKskK6tUghtMa59V" who="i-Wiq5749k7owcARUynxZuX7" prev="i-61aa11b9ea59f16a-3" next="i-RfTcaVjA8mL2vxfkHyG81K">
           <seg xml:id="i-Ctv5Y4MJ9F529gf9smVjvW">
             Under hösten 1982 diskuterades vid lärarhögskolan i Stockholm
             planer på integrerad förskoleoch lågstadieutbildning fr. o. m.
@@ -8189,8 +8139,6 @@
             dit av två klasser med integrerad utbildning och intagning till
             höstterminen 1983.
           </seg>
-        </u>
-        <u xml:id="i-RfTcaVjA8mL2vxfkHyG81K" who="i-Wiq5749k7owcARUynxZuX7" prev="i-7QsnzRZKskK6tUghtMa59V" next="i-61aa11b9ea59f16a-4">
           <seg xml:id="i-Lxfsm3t4aHjjLG9Yio2gXV">
             Förslaget vann gehör i linjenämnden. Kommun och länsstyrelse
             gick in med skrivelser, och högskolestyrelsen fattade beslut.
@@ -8199,8 +8147,6 @@
             något som skulle rymmas inom givna ekonomiska ramar. Riksdagen
             avslog dock motionen.
           </seg>
-        </u>
-        <u xml:id="i-61aa11b9ea59f16a-4" who="i-Wiq5749k7owcARUynxZuX7" prev="i-RfTcaVjA8mL2vxfkHyG81K" next="i-61aa11b9ea59f16a-8">
           <seg xml:id="i-CJ9XForhRgmQiNu1yM4Sn1">
             Detta var en historieskrivning som jag anser hör till bilden
             inför ett så viktigt beslut som det vi har framför oss i dag.
@@ -8240,7 +8186,7 @@
         <note xml:id="i-M6WASG3WCrwCSs1Abs61Qe">
           Läkaroch tandläkarutbildningen, m.m.
         </note>
-        <u xml:id="i-61aa11b9ea59f16a-8" who="i-Wiq5749k7owcARUynxZuX7" prev="i-61aa11b9ea59f16a-4" next="i-61aa11b9ea59f16a-9">
+        <u xml:id="i-61aa11b9ea59f16a-8" who="i-Wiq5749k7owcARUynxZuX7" prev="i-61aa11b9ea59f16a-2" next="i-61aa11b9ea59f16a-9">
           <seg xml:id="i-LMTDLoGYDtUzhvEFoDPTjL">
             existens bidrar starkt till att stimulera öns näringsliv, genom
             de kringfunktioner som finns i fråga om all utbildningsverksamhet.
@@ -8583,7 +8529,7 @@
         <note xml:id="i-AGCdCnRJU4CqU2RHPTG7a5">
           Läkaroch tandläkarutbildningen, m. m.
         </note>
-        <u xml:id="i-435284545282d8aa-5" who="i-DMh3exABdyie4FuycG7Nae" prev="i-435284545282d8aa-1" next="i-XRJWrk1bzjDBA4xErxkfBv">
+        <u xml:id="i-435284545282d8aa-5" who="i-DMh3exABdyie4FuycG7Nae" prev="i-435284545282d8aa-1">
           <seg xml:id="i-TBU6PY8SeUSCz9UmKto1Ny">
             citeten också med hänsyn till planerna på ett biotekniskt centrum
             vid Huddinge sjukhus. Här kan idéer från sjukvården vidareutvecklas
@@ -8604,8 +8550,6 @@
             organ. Det gäller att undvika att den nuvarande ryckigheten och
             osäkerheten upprepas.
           </seg>
-        </u>
-        <u xml:id="i-XRJWrk1bzjDBA4xErxkfBv" who="i-DMh3exABdyie4FuycG7Nae" prev="i-435284545282d8aa-5">
           <seg xml:id="i-YPBCeTKNKtsLg1z89reavc">
             I detta anförande instämde Hans Göran Franck, Lilly Bergander,
             Sören Lekberg, Sylvia Pettersson, Aina Westin, Barbro Evermo,
@@ -8719,7 +8663,7 @@
         <note xml:id="i-JcdqPGp24uwDPsLcKj235P" type="speaker">
           Anf. 98 MARGÖ INGVARDSSON (vpk):
         </note>
-        <u xml:id="i-debf692cd9d8b018-12" who="i-XxMRaKyWvbxm3uJmt8WBtZ" next="i-YXxjNQnRCek1x5BKkR3n4U">
+        <u xml:id="i-debf692cd9d8b018-12" who="i-XxMRaKyWvbxm3uJmt8WBtZ" next="i-debf692cd9d8b018-16">
           <seg xml:id="i-B659p1sBNp83w2SsFQFEve">
             Fru talman! Vpk anser att en nedskärning av antalet platser inom
             läkarutbildningen bör ske bara om det finns klara belägg för att
@@ -8730,8 +8674,6 @@
             kunde göra någon som helst bedömning av det framtida läkarbehovet
             och om det skulle bli något överskott.
           </seg>
-        </u>
-        <u xml:id="i-YXxjNQnRCek1x5BKkR3n4U" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-debf692cd9d8b018-12" next="i-debf692cd9d8b018-16">
           <seg xml:id="i-Ks7KvNup5vKR6X5XmPoMAN">
             I dag, fru talman, finns inget läkaröverskott. Vid den senaste
             översynen i september 1982 fanns det 792 obesatta tjänster i landet.
@@ -8763,7 +8705,7 @@
         <note xml:id="i-8ynZGVbg2bjNqMyJxbGw5Q">
           Läkaroch tandläkarutbildningen, m. m.
         </note>
-        <u xml:id="i-debf692cd9d8b018-16" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-YXxjNQnRCek1x5BKkR3n4U" next="i-9uyvDL9hgtUh4Ldqq1JVhV">
+        <u xml:id="i-debf692cd9d8b018-16" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-debf692cd9d8b018-12">
           <seg xml:id="i-XKPL7ZZM7yxStgX5HZ3L1j">
             kontroll i oktober 1983 som gjordes i sju län var läget oförändrat.
             Mot den bakgrunden, med nästan 800 vakanser, är det svårt att
@@ -8823,8 +8765,6 @@
             understryka att det då måste avgöras på det lokala planet vid
             vilket sjukhus minskningen skall ske.
           </seg>
-        </u>
-        <u xml:id="i-9uyvDL9hgtUh4Ldqq1JVhV" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-debf692cd9d8b018-16">
           <seg xml:id="i-QWqAKL7iHu82D7FijBWXpq">
             Fru talman! Jag instämmer i Björn Samuelsons yrkande på återremiss
             av hela ärendet om nedskärningar inom högskolan. Om kammaren inte
@@ -9282,7 +9222,7 @@
         <note xml:id="i-9Li37Q6UCR7E7MbjXTvmbf">
           102
         </note>
-        <u xml:id="i-2c48a9694c142383-4" who="i-AnrRW8P2FoZPwmfbQGBp8u" prev="i-2c48a9694c142383-1" next="i-6bAvH82YLYqtboW5JDnWEr">
+        <u xml:id="i-2c48a9694c142383-4" who="i-AnrRW8P2FoZPwmfbQGBp8u" prev="i-2c48a9694c142383-1" next="i-2c48a9694c142383-6">
           <seg xml:id="i-859Nj8nf1VRaetY1Skw23J">
             Det besparingsalternativet klarade med råge de drygt 12 miljoner
             som en nedläggning av utbildningarna i Uppsala skulle ge. Annan
@@ -9341,14 +9281,10 @@
           <seg xml:id="i-JPgdf7ArEAsCjmCT8TUdXn">
             Endast moderater har då vunnit på förslaget.
           </seg>
-        </u>
-        <u xml:id="i-6bAvH82YLYqtboW5JDnWEr" who="i-AnrRW8P2FoZPwmfbQGBp8u" prev="i-2c48a9694c142383-4" next="i-2c48a9694c142383-5">
           <seg xml:id="i-GWUyxJKpWRPDfu3LLfaeXy">
             Jag yrkar därför, fru talman, bifall till motion nr 101 av socialdemokraterna
             från Uppsala län.
           </seg>
-        </u>
-        <u xml:id="i-2c48a9694c142383-5" who="i-AnrRW8P2FoZPwmfbQGBp8u" prev="i-6bAvH82YLYqtboW5JDnWEr" next="i-2c48a9694c142383-6">
           <seg xml:id="i-B9m3kenftwbRgccaj7Ug7E">
             Så till sist ett par kommentarer till det krav som speciellt
             Jörgen Ullenhag ställt om återremiss. På något sätt är det typiskt
@@ -9365,7 +9301,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--124/prot_198384__124-100.jp2/_view"/>
-        <u xml:id="i-2c48a9694c142383-6" who="i-AnrRW8P2FoZPwmfbQGBp8u" prev="i-2c48a9694c142383-5" next="i-EoniVNR56eUXPXZMTmrEhW">
+        <u xml:id="i-2c48a9694c142383-6" who="i-AnrRW8P2FoZPwmfbQGBp8u" prev="i-2c48a9694c142383-4">
           <seg xml:id="i-7Z58oxzDWy8hYoJfaReQA1">
             Det är i och för sig inget att säga om det. Men Jörgen Ullenhag
             skall sluta upp med att hemma i Uppsala försöka framställa sig
@@ -9405,22 +9341,16 @@
             på grund av sina personliga goda egenskaper, låt mig få säga det.
             Men de räcker inte till för att försvara detta utskottsbetänkande.
           </seg>
-        </u>
-        <u xml:id="i-EoniVNR56eUXPXZMTmrEhW" who="i-AnrRW8P2FoZPwmfbQGBp8u" prev="i-2c48a9694c142383-6" next="i-2c48a9694c142383-7">
           <seg xml:id="i-GQfjPnPiPfi1z6a5WG4QwF">
             Tills vidare yrkar jag bifall till motion 101. Detta sker bäst
             genom att instämma i utskottets kläm i betänkande 22, med de ändringar
             som krävs för ett biträde av motion 101.
           </seg>
-        </u>
-        <u xml:id="i-2c48a9694c142383-7" who="i-AnrRW8P2FoZPwmfbQGBp8u" prev="i-EoniVNR56eUXPXZMTmrEhW" next="i-H6kZ2ESKfcLd8vuuieKtUY">
           <seg xml:id="i-N45FgNLvzjuuausnkMvcxA">
             På grund av utbildningsutskottets sätt att skriva sina klämmar
             har jag att till kammarens protokoll läsa in vårt yrkande i formell
             mening. Det lyder:
           </seg>
-        </u>
-        <u xml:id="i-H6kZ2ESKfcLd8vuuieKtUY" who="i-AnrRW8P2FoZPwmfbQGBp8u" prev="i-2c48a9694c142383-7">
           <seg xml:id="i-SLXmAS7AV9kMzbmoVBEasb">
             Beträffande hemställan under punkt 1 yrkas
           </seg>
@@ -9688,12 +9618,10 @@
         <note xml:id="i-C9CEJ1QjXQy8bHGrAH78rH">
           106
         </note>
-        <u xml:id="i-WpYuq9Be6qvNc8r2c13vXZ" who="i-aihY66rhb8LqCkSn8GhKt" prev="i-4f987525b291bed2-1" next="i-3fBqSqyjrMvGTGYS3e5zdj">
+        <u xml:id="i-WpYuq9Be6qvNc8r2c13vXZ" who="i-aihY66rhb8LqCkSn8GhKt" prev="i-4f987525b291bed2-1">
           <seg xml:id="i-x4yY1b4tfe4HScqbxnr4b">
             Mot denna bakgrund vill jag fråga utrikesministern:
           </seg>
-        </u>
-        <u xml:id="i-3fBqSqyjrMvGTGYS3e5zdj" who="i-aihY66rhb8LqCkSn8GhKt" prev="i-WpYuq9Be6qvNc8r2c13vXZ">
           <seg xml:id="i-VdSzoM2624j3broschtmYF">
             Har regeringen för avsikt att framföra svenska protester mot
             kärnvapenproven i Stilla havet i samband med president Mitterrands
@@ -9722,7 +9650,7 @@
           505 av Olle Östrand (s) till industriministern om nya sysselsättningsobjekt
           i Söderhamn:
         </note>
-        <u xml:id="i-874a942e8ef2dfc7-1" who="i-5EdJCmuTNZWXW2ejgrVXUt" next="i-3cJ2R2fvwM1tt7ABM3uy76">
+        <u xml:id="i-874a942e8ef2dfc7-1" who="i-5EdJCmuTNZWXW2ejgrVXUt">
           <seg xml:id="i-KKgWdYtAYmLniFSH54paRN">
             Kockums Industri AB, som är ett statligt företag, har nyligen
             sagt upp 85 anställda vid sina fabriker i Söderhamn utan att man
@@ -9731,19 +9659,13 @@
             strukturförändringar inom skogsindustrin och har en mycket omfattande
             arbetslöshet.
           </seg>
-        </u>
-        <u xml:id="i-3cJ2R2fvwM1tt7ABM3uy76" who="i-5EdJCmuTNZWXW2ejgrVXUt" prev="i-874a942e8ef2dfc7-1" next="i-8appfXbqcyYqeqP5dYT3Ue">
           <seg xml:id="i-9chQPyhfdQfTDKYPsY76Gp">
             Med det anförda vill jag ställa följande frågor till industriministern:
           </seg>
-        </u>
-        <u xml:id="i-8appfXbqcyYqeqP5dYT3Ue" who="i-5EdJCmuTNZWXW2ejgrVXUt" prev="i-3cJ2R2fvwM1tt7ABM3uy76" next="i-PrhUBVaUjh5wvT8xt3ziJz">
           <seg xml:id="i-F1nTGdFdKqM446DvQ4kbuM">
             Anser industriministern att Kockums Industri AB genom detta förfaringssätt
             har tagit sitt sociala ansvar gentemot de anställda och kommunen?
           </seg>
-        </u>
-        <u xml:id="i-PrhUBVaUjh5wvT8xt3ziJz" who="i-5EdJCmuTNZWXW2ejgrVXUt" prev="i-8appfXbqcyYqeqP5dYT3Ue">
           <seg xml:id="i-MNadoZHvUdrLCbJui5TBDi">
             Vilka åtgärder är industriministern beredd vidta för att skapa
             nya sysselsättningsobjekt i Söderhamn?
@@ -9781,7 +9703,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--124/prot_198384__124-104.jp2/_view"/>
-        <u xml:id="i-abd612370e1651ed-2" who="i-4sZMUTZ58TFSSwfWoaTdDi" prev="i-abd612370e1651ed-1" next="i-HapTA2KDM67QRG7Ak4qZqj">
+        <u xml:id="i-abd612370e1651ed-2" who="i-4sZMUTZ58TFSSwfWoaTdDi" prev="i-abd612370e1651ed-1" next="i-abd612370e1651ed-3">
           <seg xml:id="i-KLmtkXeYV66SAdvCmjbnnd">
             av den av regeringen nyligen tillsatta utredningen avseende aktiers
             olika röstvärde, som har att pröva möjligheten att ge alla aktier
@@ -9792,13 +9714,9 @@
             Volvos planer på aktieemissioner utomlands är exceptionellt stora.
             Dessutom finns utrymme kvar inom ramen för gällande 20-procentsgräns.
           </seg>
-        </u>
-        <u xml:id="i-HapTA2KDM67QRG7Ak4qZqj" who="i-4sZMUTZ58TFSSwfWoaTdDi" prev="i-abd612370e1651ed-2" next="i-JHTuctUMiA7wT43n3xsqjc">
           <seg xml:id="i-CXA7cD6tURtX36t1GRv8Eg">
             Mot den bakgrunden vill jag fråga industriminister Thage G. Peterson:
           </seg>
-        </u>
-        <u xml:id="i-JHTuctUMiA7wT43n3xsqjc" who="i-4sZMUTZ58TFSSwfWoaTdDi" prev="i-HapTA2KDM67QRG7Ak4qZqj" next="i-abd612370e1651ed-3">
           <seg xml:id="i-RbSzBLPxc7hDRhQGV1YJdJ">
             Avser industriministern att avvakta med beslutet om eventuellt
             tillstånd till ändringen i Volvos bolagsordning tills utredningen
@@ -9809,20 +9727,16 @@
           1983/84:507 av Anna Wohlin-Andersson (c) till utrikesministern
           om ökad rättstrygghet i Latinamerika:
         </note>
-        <u xml:id="i-abd612370e1651ed-3" who="i-4sZMUTZ58TFSSwfWoaTdDi" prev="i-JHTuctUMiA7wT43n3xsqjc" next="i-XR2roeMHTcY6cgsZJ2AFjk">
+        <u xml:id="i-abd612370e1651ed-3" who="i-4sZMUTZ58TFSSwfWoaTdDi" prev="i-abd612370e1651ed-2">
           <seg xml:id="i-6s3QQCwZi9LTZErYE3Q2Uu">
             I Latinamerika är i dag ca 90 000 människor försvunna. Värst
             är det i Guatemala där ca 35 000 människor saknas. Det lidande
             som förorsakas av försvinnandena är enormt. Försvinnandena måste
             förklaras vara ett brott mot de mänskliga rättigheterna.
           </seg>
-        </u>
-        <u xml:id="i-XR2roeMHTcY6cgsZJ2AFjk" who="i-4sZMUTZ58TFSSwfWoaTdDi" prev="i-abd612370e1651ed-3" next="i-ArAK2Q81KonUZ8p6AfZqob">
           <seg xml:id="i-UhPv7XRoWrCBMyamDbzQwr">
             Jag vill mot denna bakgrund fråga utrikesministern:
           </seg>
-        </u>
-        <u xml:id="i-ArAK2Q81KonUZ8p6AfZqob" who="i-4sZMUTZ58TFSSwfWoaTdDi" prev="i-XR2roeMHTcY6cgsZJ2AFjk">
           <seg xml:id="i-3yYiMn8bJ5FyEEZQE9kHYf">
             På vilka sätt anser utrikesministern att Sverige kan bidra till
             att skapa ökad rättstrygghet för dessa människor och stödja dem
@@ -9910,7 +9824,7 @@
           510 av Börje Nilsson (s) till arbetsmarknadsministern om viss
           planerad vägbyggnad i Bromölla kommun:
         </note>
-        <u xml:id="i-dfd2241fb9e8adc5-1" who="i-NFTnYj5UkhZoMmAJt9mpbq" next="i-DNRkAn6Sg957BqbGkerJA8">
+        <u xml:id="i-dfd2241fb9e8adc5-1" who="i-NFTnYj5UkhZoMmAJt9mpbq">
           <seg xml:id="i-XGwBs44ZYUS4D8PCwgiEVi">
             Nymölla AB i Bromölla kommun har långt framskridna planer på
             att göra en utbyggnad av finpapperslinjen vid företaget. En ny
@@ -9924,14 +9838,10 @@
             företagets utbyggnad fördröjs. Med hänsyn till det svåra arbetsmarknadsläget
             bör ärenden av detta slag behandlas skyndsamt.
           </seg>
-        </u>
-        <u xml:id="i-DNRkAn6Sg957BqbGkerJA8" who="i-NFTnYj5UkhZoMmAJt9mpbq" prev="i-dfd2241fb9e8adc5-1" next="i-Bsq2J18NewmvJiQcpCtr2c">
           <seg xml:id="i-TBPjwYqcfW5TD6Zgwmo7NQ">
             Mot bakgrund härav vill jag till arbetsmarknadsministern ställa
             följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-Bsq2J18NewmvJiQcpCtr2c" who="i-NFTnYj5UkhZoMmAJt9mpbq" prev="i-DNRkAn6Sg957BqbGkerJA8">
           <seg xml:id="i-BUhZV5LsBiL5vEu9rbZLZz">
             Vill statsrådet medverka till att erforderliga statliga beslut
             angående vägnätet till Nymölla AB tas omgående så att företagets

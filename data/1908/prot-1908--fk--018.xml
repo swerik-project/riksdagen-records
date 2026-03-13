@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-4N4CY5EF2czCkVYiDrC3Xs" type="speech">
             <linkGrp type="u">
               <ptr target="#i-DUdNKHKuuoLtwSFe5YDNJH"/>
@@ -233,7 +233,13 @@
               <ptr target="#i-ASy7djsAxEBv7XkkfcSxom"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -297,7 +303,7 @@
         <note xml:id="i-BzifPf2rTiuZkXD3uVo7tC" type="speaker">
           Herr Lithander erhöll på begäran ordet och yttrade:
         </note>
-        <u xml:id="i-DUdNKHKuuoLtwSFe5YDNJH" who="i-ASZGAumSZoEqnNdy4PgJAw" next="i-Bg83DQkkKpcbuB6TbGU8qD">
+        <u xml:id="i-DUdNKHKuuoLtwSFe5YDNJH" who="i-ASZGAumSZoEqnNdy4PgJAw" next="i-157WJ2VkC11NJfzQTQWRum">
           <seg xml:id="i-9BfnnrFScEizDBeGgb3WHQ">
             Då jag anhåller att till hans excellens herr statsministern få
             framställa ett par frågor, vill jag strax från början betona,
@@ -306,8 +312,6 @@
             utan endast att få, i den mån jag kan, främja fortgången af en
             angelägenhet, som jag anser vara af den största vikt.
           </seg>
-        </u>
-        <u xml:id="i-Bg83DQkkKpcbuB6TbGU8qD" who="i-ASZGAumSZoEqnNdy4PgJAw" prev="i-DUdNKHKuuoLtwSFe5YDNJH" next="i-157WJ2VkC11NJfzQTQWRum">
           <seg xml:id="i-YRXbGcXpBzP63cETPxpxs8">
             Den interpellation, jag anhåller att få framställa, har jag redan
             öfverlämnat till hans excellens herr statsministern, och den är
@@ -330,7 +334,7 @@
         <note xml:id="i-QYXEuED4WmsAcjDiMJeivW" type="date">
           2 Lördagen den 29 Februari.
         </note>
-        <u xml:id="i-157WJ2VkC11NJfzQTQWRum" who="i-ASZGAumSZoEqnNdy4PgJAw" prev="i-Bg83DQkkKpcbuB6TbGU8qD" next="i-WAi4Px22x9u8dQgSCTTDtH">
+        <u xml:id="i-157WJ2VkC11NJfzQTQWRum" who="i-ASZGAumSZoEqnNdy4PgJAw" prev="i-DUdNKHKuuoLtwSFe5YDNJH" next="i-WAi4Px22x9u8dQgSCTTDtH">
           <seg xml:id="i-Cwapr8yXeZJHPW1m6uxYBT">
             I trontalet nämndes ingenting om, att man till denna Riksdag
           </seg>
@@ -342,7 +346,7 @@
         <note xml:id="i-HrMBcbYN2T19U497JiDgqR">
           af ett nytt statsdepartement. (Forts.)
         </note>
-        <u xml:id="i-WAi4Px22x9u8dQgSCTTDtH" who="i-ASZGAumSZoEqnNdy4PgJAw" prev="i-157WJ2VkC11NJfzQTQWRum" next="i-DpxyvXnba4MQ5oBpPx4EQ3">
+        <u xml:id="i-WAi4Px22x9u8dQgSCTTDtH" who="i-ASZGAumSZoEqnNdy4PgJAw" prev="i-157WJ2VkC11NJfzQTQWRum" next="i-GAXQ7uF82KrraWzn3ZvgJ5">
           <seg xml:id="i-YN35S6XY29rbTt9CYzjpBa">
             statsdepartement för handel, industri och sjöfart. Ej heller
             har det på något annat sätt förnummits, att denna an elägenhet
@@ -351,15 +355,11 @@
             behöfver minst lika väl som andra länder från statsmakternas sida
             en allvarlig och sakkunnig omvårdnad om näringslifvet.
           </seg>
-        </u>
-        <u xml:id="i-DpxyvXnba4MQ5oBpPx4EQ3" who="i-ASZGAumSZoEqnNdy4PgJAw" prev="i-WAi4Px22x9u8dQgSCTTDtH" next="i-SukapdHWKFK3aDpiv4gd6q">
           <seg xml:id="i-L6F1Q1cXEPau3Qr5SKrDiX">
             För hvarje dag, som handeln, industrien och sjöfarten nödgas
             umbära ett särskildt stöd inom regeringen, försummas ett tillfälle
             att stärka landets ekonomiska ställning och näringarnas skatteförmåga.
           </seg>
-        </u>
-        <u xml:id="i-SukapdHWKFK3aDpiv4gd6q" who="i-ASZGAumSZoEqnNdy4PgJAw" prev="i-DpxyvXnba4MQ5oBpPx4EQ3" next="i-s3sze3qBis3iqB4AnMHCz">
           <seg xml:id="i-H1NvUdrdTEaHGeuwdtCDWy">
             Om man aktgifver på hvad som i andra länder, särskildt Tyskland,
             kunnat genom regeringens initiativ och auktoritet uträttas, så
@@ -370,24 +370,18 @@
             skaffa näringslifvet all den uppmuntran och den omvårdnad, som
             kan främja dess kraft och på samma gång garantera dess skattebärighet.
           </seg>
-        </u>
-        <u xml:id="i-s3sze3qBis3iqB4AnMHCz" who="i-ASZGAumSZoEqnNdy4PgJAw" prev="i-SukapdHWKFK3aDpiv4gd6q" next="i-W68AS9CYFmcwR2BA9ZVLZZ">
           <seg xml:id="i-7s49CdEZnWGnSKDS8Ga1Va">
             Då det skattdragande svenska folket får underkasta sig så stora
             offer, är den oundgängliga förutsättningen härför, att näringslifvet
             får arbeta under möjligast gynnsamma villkor med tillhjälp af
             statens auktoritet och kraftiga initiativ.
           </seg>
-        </u>
-        <u xml:id="i-W68AS9CYFmcwR2BA9ZVLZZ" who="i-ASZGAumSZoEqnNdy4PgJAw" prev="i-s3sze3qBis3iqB4AnMHCz" next="i-F6JrRRKVwp3KpwhpHcFsPa">
           <seg xml:id="i-WPaBQ9MhgnGotfhMxBcWXj">
             Förvaltningen måste rikta sig ej blott på sådana ändamål, som
             medföra utgifter, och alltså verka tärande, utan äfven på sådana,
             som inbringa inkomster och verka närande genom en idog verksamhet,
             förutan hvilken samhället ej i längden kan ekonomiskt existera.
           </seg>
-        </u>
-        <u xml:id="i-F6JrRRKVwp3KpwhpHcFsPa" who="i-ASZGAumSZoEqnNdy4PgJAw" prev="i-W68AS9CYFmcwR2BA9ZVLZZ" next="i-H11PqRXha29hXmZGgq2hcW">
           <seg xml:id="i-8bdWyabrvm8uZ6Nqk5kb7y">
             Före jordbruksdepartementets upprättande fanns inom regeringen
             ingen afdelning, som främjade produktiva ändamål. Nu är så till
@@ -395,30 +389,22 @@
             regeringen, men den i och med detta steg inslagna vägen måste
             fullföljas.
           </seg>
-        </u>
-        <u xml:id="i-H11PqRXha29hXmZGgq2hcW" who="i-ASZGAumSZoEqnNdy4PgJAw" prev="i-F6JrRRKVwp3KpwhpHcFsPa" next="i-8U7MHrQVG9PJML4TNhmyyo">
           <seg xml:id="i-FsACpMt61yi7RR1DNHyrmP">
             Af Preussens 9 departementschefer ägna 3 sin verksamhet uteslutande
             åt näringslifvet och hafva att tillse, att ingen enda gren af
             detsamma blir i saknad af råd, hjälp, undervisning pch uppmuntran.
           </seg>
-        </u>
-        <u xml:id="i-8U7MHrQVG9PJML4TNhmyyo" who="i-ASZGAumSZoEqnNdy4PgJAw" prev="i-H11PqRXha29hXmZGgq2hcW" next="i-WXGyE7XVqGH85jyLpSPvzE">
           <seg xml:id="i-5M5kaKfXqasH7NtiavS65X">
             Genom vaken och säker ledning af Tysklands handelspolitik har
             landet beredts fast marknad för dess industrialster icke allenast
             i hela Europa utan t. o. m. i andra världsdelar.
           </seg>
-        </u>
-        <u xml:id="i-WXGyE7XVqGH85jyLpSPvzE" who="i-ASZGAumSZoEqnNdy4PgJAw" prev="i-8U7MHrQVG9PJML4TNhmyyo" next="i-RvjXo2LZJL3Jew9jDZDufB">
           <seg xml:id="i-EQcJhRvFB6hA4zc4r1ZCtL">
             Hade man i någon väsentlig mån gått till väga på liknande sätt
             i Sverige, så skulle helt visst vår handel, vår industri och vår
             sjöfart hafva förkofrats långt mer, än hvad nu kunnat ske, och
             sannolikt inbringat en behållning af hundratals millioner kronor.
           </seg>
-        </u>
-        <u xml:id="i-RvjXo2LZJL3Jew9jDZDufB" who="i-ASZGAumSZoEqnNdy4PgJAw" prev="i-WXGyE7XVqGH85jyLpSPvzE" next="i-GAXQ7uF82KrraWzn3ZvgJ5">
           <seg xml:id="i-3TGmrngCsvnXm7vhnXRgFN">
             Jag hvarken vill eller bör trötta eders excellens och kammaren
             med några utförligare skäl för min uppfattning. Måhända kan jag
@@ -436,7 +422,7 @@
           i en tillsamman med «ef ett nytt herr Rettig m. fl. afgifven gemensam
           motion n:o 37 i januari 1905. statsdeparte
         </note>
-        <u xml:id="i-GAXQ7uF82KrraWzn3ZvgJ5" who="i-ASZGAumSZoEqnNdy4PgJAw" prev="i-RvjXo2LZJL3Jew9jDZDufB" next="i-YCqZk34n59MmDrRLvPQC5R">
+        <u xml:id="i-GAXQ7uF82KrraWzn3ZvgJ5" who="i-ASZGAumSZoEqnNdy4PgJAw" prev="i-WAi4Px22x9u8dQgSCTTDtH" next="i-DQ7n9KEBhiiJBz1X6TeoCe">
           <seg xml:id="i-PyiX2qx5anjqzdhkBRiYE6">
             Men dessutom vill jag ock erinra därom, att Riksdagen under (Forts.)
             den 19 maj 1905 ingifvit en motiverad skrifvelse n:o 182 till
@@ -445,8 +431,6 @@
             redan talat i denna fråga. Man må väl kunna hoppas, att regeringen
             lyssnar till hvad Riksdagen önskar.
           </seg>
-        </u>
-        <u xml:id="i-YCqZk34n59MmDrRLvPQC5R" who="i-ASZGAumSZoEqnNdy4PgJAw" prev="i-GAXQ7uF82KrraWzn3ZvgJ5" next="i-M1C3szAsjiTVREPcExkztq">
           <seg xml:id="i-XJUa8huPMzfWmLaGAhqezf">
             Vid innevarande riksdag har herr J. G. Richert väckt en högst
             beaktansvärd motion om ett kommunikationsdepartement. Denna torde
@@ -459,8 +443,6 @@
             som 1819 blef första gången i liknande syfte föreslagen och hvilken
             den nämnda riksdagsskrifvelsen ånyo påyrkar.
           </seg>
-        </u>
-        <u xml:id="i-M1C3szAsjiTVREPcExkztq" who="i-ASZGAumSZoEqnNdy4PgJAw" prev="i-YCqZk34n59MmDrRLvPQC5R" next="i-DQ7n9KEBhiiJBz1X6TeoCe">
           <seg xml:id="i-9zY55nxk2KGgCF5GChTjwq">
             Jag anhåller alltså att få till hans excellens herr statsministern
             vördsamt framställa följande tvenne frägor:
@@ -472,7 +454,7 @@
           till inrättande af ett särskildt statsdepartement för handel,
           industri och sjöfart — eventuellt handel, industri och kommunikationer?
         </note>
-        <u xml:id="i-DQ7n9KEBhiiJBz1X6TeoCe" who="i-ASZGAumSZoEqnNdy4PgJAw" prev="i-M1C3szAsjiTVREPcExkztq">
+        <u xml:id="i-DQ7n9KEBhiiJBz1X6TeoCe" who="i-ASZGAumSZoEqnNdy4PgJAw" prev="i-GAXQ7uF82KrraWzn3ZvgJ5">
           <seg xml:id="i-Mcmf478AV6VKMZpiNunCBu">
             2. Anser regeringen, i likhet med Sveriges hela köpmannaoch industriidkarekår,
             att en sådan åtgärd — offentligen påyrkad redan 1819, på senare
@@ -484,15 +466,13 @@
         <note xml:id="i-YJ86JzTJvznaGN6o39KSF7" type="speaker">
           Hans excellens herr statsministern Lindman:
         </note>
-        <u xml:id="i-2LiKaBXgkqWzus9nwGXZXx" who="i-Fnu186BGHvvTJDuB7t6zMb" next="i-S5tQ6pPGqgHL72KKkn9wvQ">
+        <u xml:id="i-2LiKaBXgkqWzus9nwGXZXx" who="i-Fnu186BGHvvTJDuB7t6zMb" next="i-X4d6a49KuoRCbanVWB2qc3">
           <seg xml:id="i-TSEjTB7YhVckeSY6SUXXyb">
             Till svar å den till mig nu framställda interpellationen ber
             jag att till en början få erinra om vissa förhållanden, som stå
             i nära samband med den af interpellanten väckta frågan och tillhöra
             dess förhistoria.
           </seg>
-        </u>
-        <u xml:id="i-S5tQ6pPGqgHL72KKkn9wvQ" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-2LiKaBXgkqWzus9nwGXZXx" next="i-T2FksekHG3VuSg398ZhPan">
           <seg xml:id="i-QJZwrUmP8R3nLHtsU9X4on">
             I skrifvelse den 28 april 1903 anhöll riksdagen, att Kungl. Maj:t
             ville efter verkställd utredning och pröfning af frågan om inrättande
@@ -502,15 +482,11 @@
             afgifva de förslag till grundlagsändringar, hvartill denna utredning
             och pröfning kunde föranleda.
           </seg>
-        </u>
-        <u xml:id="i-T2FksekHG3VuSg398ZhPan" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-S5tQ6pPGqgHL72KKkn9wvQ" next="i-R1dCYVpHpq3tzsnd5D5h51">
           <seg xml:id="i-4MpzayBnUhmTFzKFDpoqCn">
             I augusti 1903 uppdrog Kungl. Maj:t åt numera landshöfdingen
             Hj. L. Hammarskjöld att verkställa den af Riksdagen begärda utredningen
             och utarbeta förslag i ämnet.
           </seg>
-        </u>
-        <u xml:id="i-R1dCYVpHpq3tzsnd5D5h51" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-T2FksekHG3VuSg398ZhPan" next="i-X4d6a49KuoRCbanVWB2qc3">
           <seg xml:id="i-YNarq6MboYjfVA3onvK9ex">
             Medan detta arbete pågick, aflät Riksdagen den af interpellan-
           </seg>
@@ -530,13 +506,11 @@
         <note xml:id="i-7YMPfcGvdd91NBAoBzLQXn">
           af ett nytt statsdepartement. (Forts.)
         </note>
-        <u xml:id="i-X4d6a49KuoRCbanVWB2qc3" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-R1dCYVpHpq3tzsnd5D5h51" next="i-NPou7uZjLUrqVyMsYzT1sS">
+        <u xml:id="i-X4d6a49KuoRCbanVWB2qc3" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-2LiKaBXgkqWzus9nwGXZXx" next="i-8Sh5Dq2cYAGAk16C7ivXS">
           <seg xml:id="i-AsmxASP37puLYhQ3iDE736">
             slag till inrättande af ett nytt statsdepartement, omfattande
             handel, industri och sjöfart.
           </seg>
-        </u>
-        <u xml:id="i-NPou7uZjLUrqVyMsYzT1sS" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-X4d6a49KuoRCbanVWB2qc3" next="i-WkMBxxdKg1sdNSoFvk5oRn">
           <seg xml:id="i-X5xubDkawsXRi573tLXZXo">
             Såväl det af Riksdagen i sistnämnda skrifvelse gjorda uttalandet,
             att en slutlig pröfning af de olika förhållanden, som på förevarande
@@ -549,15 +523,11 @@
             först borde afvaktas, innan frågan om det nya näringsdepartementet
             upptogs till afgörande.
           </seg>
-        </u>
-        <u xml:id="i-WkMBxxdKg1sdNSoFvk5oRn" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-NPou7uZjLUrqVyMsYzT1sS" next="i-8ToGaQKBYyrzVQNTevDXm">
           <seg xml:id="i-PomPJCyt2bwZufSqcT74r2">
             Resultatet af berörda utredning, som varit förenad med hbetydande
             och tidkräfvande statistiska undersökningar, tramlades i ett i
             slutet af maj 1907 afgifvet betänkande.
           </seg>
-        </u>
-        <u xml:id="i-8ToGaQKBYyrzVQNTevDXm" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-WkMBxxdKg1sdNSoFvk5oRn" next="i-QFXEsXaRGn2eL22oA8BRfg">
           <seg xml:id="i-8cZghxgPeydMugNa3GfXHY">
             Ungefär samtidigt härmed infördes emellertid i frågan nya faktorer,
             till hvilka hänsyn måste tagas, men hvilka tillika gåfvo frågan
@@ -568,8 +538,6 @@
             sammanförande under detta eller annat departement, med angifvande
             i benämniag2n å departementet af detta dess verksamhetsområde.
           </seg>
-        </u>
-        <u xml:id="i-QFXEsXaRGn2eL22oA8BRfg" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-8ToGaQKBYyrzVQNTevDXm" next="i-LGDqtRZzZxFL6Zn2kG1S8W">
           <seg xml:id="i-2Fw1UnuJMarbtxp8FaETrn">
             Slutligen har tillkommit frågan om inrättandet af ännu ett departement,
             nämligen för kommunikationer och allminna arbeten, hvarom hemställan
@@ -578,16 +546,12 @@
             en af nämnda förenings andra sektion fattad resolution, framhållande
             behofvet af, bland annat, ett dylikt departement.
           </seg>
-        </u>
-        <u xml:id="i-LGDqtRZzZxFL6Zn2kG1S8W" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-QFXEsXaRGn2eL22oA8BRfg" next="i-TMkxCUYPknj2eE6o1RmnF6">
           <seg xml:id="i-GSrv4B2XT2gMqgNpHg4thc">
             Af den resumé, jag nu lämnat öfver de förevarande frågornas läge
             våren 1907, torde framgå, att ärendet i betydande mån svällt ut
             och vunnit en omfattning, som icke förefanns, då Riksdagen år
             1905 aflät sin förberörda skrifvelse.
           </seg>
-        </u>
-        <u xml:id="i-TMkxCUYPknj2eE6o1RmnF6" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-LGDqtRZzZxFL6Zn2kG1S8W" next="i-8Sh5Dq2cYAGAk16C7ivXS">
           <seg xml:id="i-QnMcbd7FkpDzicFM9rKvmL">
             Sådant ärendet då förelåg, innefattade det alltså följande hufvudmoment:
           </seg>
@@ -603,7 +567,7 @@
           3:0) frågan om inrättandet af nytt eller nya statsdepartement
           enligt de nyss nämnda framställningarna.
         </note>
-        <u xml:id="i-8Sh5Dq2cYAGAk16C7ivXS" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-TMkxCUYPknj2eE6o1RmnF6" next="i-AED9XbsATE4kCkSEsCB4wf">
+        <u xml:id="i-8Sh5Dq2cYAGAk16C7ivXS" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-X4d6a49KuoRCbanVWB2qc3" next="i-AED9XbsATE4kCkSEsCB4wf">
           <seg xml:id="i-V9w2KreVvQQki3RPLf5XT2">
             Beträffande den ordning, i hvilken dessa tre frågor borde bringas
             till afgörande, ställde det sig för regeringen själlklart, att
@@ -715,7 +679,7 @@
         <note xml:id="i-QW52HoHDzepgYyRqcUXWoC" type="speaker">
           Herr Richert:
         </note>
-        <u xml:id="i-Jo2s6U7nRarVBirze7afQp" who="i-JcJAFEi1cLdgs31fhFt53T" next="i-DoxSAddTZk1FDyrdw35Qjg">
+        <u xml:id="i-Jo2s6U7nRarVBirze7afQp" who="i-JcJAFEi1cLdgs31fhFt53T" next="i-U2jaCmc1yMhkxEa65tn4Af">
           <seg xml:id="i-5pDutqF9A1KbZSUq1FAUba">
             I motsats till utskottets majoritet är jag öfvertygad, att en
             revision af stadgan för mogenhetsexamen är synnerligen önskvärd.
@@ -730,8 +694,6 @@
             arbete, inför censorerna underkastas korsförhör i alla eller åtminstone
             de flesta skolans läroämnen.
           </seg>
-        </u>
-        <u xml:id="i-DoxSAddTZk1FDyrdw35Qjg" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-Jo2s6U7nRarVBirze7afQp" next="i-5X46i6KgGXtz35kWP46ZQi">
           <seg xml:id="i-tUUWiu7Hi6bCRkvTmFBLq">
             Detta kraftprof är utan motstycke i det svenska undervisningsväsendet.
             Vid högskolorna afslutas i lugn och ro hvarje ämne för sig och
@@ -742,8 +704,6 @@
             får sedermera, om han anställes vid ett läroverk, icke förtroende
             att godkänna studenter.
           </seg>
-        </u>
-        <u xml:id="i-5X46i6KgGXtz35kWP46ZQi" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-DoxSAddTZk1FDyrdw35Qjg" next="i-U2jaCmc1yMhkxEa65tn4Af">
           <seg xml:id="i-3Jz4ARHtptRwsrS4STbeAc">
             Om vid tekniska högskolan, där jag har min verksamhet, infördes
             en afslutningsexamen, hvarvid eleven inför främmande professorer
@@ -765,13 +725,11 @@
           examensväsendet en dyrbar damen. tid, som bättre kunnat användas
           till verkliga studier. Forts.)
         </note>
-        <u xml:id="i-U2jaCmc1yMhkxEa65tn4Af" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-5X46i6KgGXtz35kWP46ZQi" next="i-4UmNpCAew78tmwXZV3HiKe">
+        <u xml:id="i-U2jaCmc1yMhkxEa65tn4Af" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-Jo2s6U7nRarVBirze7afQp" next="i-HS1AdGMdEQMTGTL49yWVkS">
           <seg xml:id="i-CDuNso3PBzorhsbHZVdgMo">
             Botemedlet synes mig vara att i gymnasiet införa en mera högskolemässig
             undervisning, med examina fördelade på de sista studieåren.
           </seg>
-        </u>
-        <u xml:id="i-4UmNpCAew78tmwXZV3HiKe" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-U2jaCmc1yMhkxEa65tn4Af" next="i-Hxo54cBVjuiXrwm9Dok6DH">
           <seg xml:id="i-FvkUNpMREQzwEhpdwFQoMS">
             I afseende å de skriftliga examina kan en sådan förändring genomföras
             utan rubbning af den nuvarande censorsinstitutionen, men de muntliga
@@ -780,14 +738,10 @@
             i dess ställe föreslagit kontroll af skolans inspektor och ett
             par andra på platsen boende personer.
           </seg>
-        </u>
-        <u xml:id="i-Hxo54cBVjuiXrwm9Dok6DH" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-4UmNpCAew78tmwXZV3HiKe" next="i-7q3gmb2Yi5xMVisVeNAuvJ">
           <seg xml:id="i-52gM51t5eXu8wokHVfeH3e">
             Mot detta förslag ha såväl inom utskottet som inom intresserade
             kretsar framställts åtskilliga anmärkningar.
           </seg>
-        </u>
-        <u xml:id="i-7q3gmb2Yi5xMVisVeNAuvJ" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-Hxo54cBVjuiXrwm9Dok6DH" next="i-MAPuu9L9SCg1LCpk35w9Ax">
           <seg xml:id="i-C7edjDLm9Pw7RvXJjB2ig4">
             Man har sagt: ändra icke nu en stadga, som skall tillämpas först
             1910 och som redan innehåller åtskilliga förbättringar! Men stadgan
@@ -795,8 +749,6 @@
             är det väl bättre att stämma i bäcken än i ån, bättre att på förhand
             ändra ett par paragrafer än att sedermera behöfva ändra en praxis.
           </seg>
-        </u>
-        <u xml:id="i-MAPuu9L9SCg1LCpk35w9Ax" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-7q3gmb2Yi5xMVisVeNAuvJ" next="i-69pLWBmr5Ljd8Ro57tkJX2">
           <seg xml:id="i-TJa3gtGrx31CsBp5fFo9A7">
             Man har sagt, att de lokala vittnenas kontroll ej blir lika effektiv
             som censorernas. Men dels är sistnämnda kontroll skäligen illusorisk,
@@ -812,8 +764,6 @@
             viktigaste betyg. Vore det då ej tillräckligt, om hans mindre
             viktiga examina kontrollerades af inspektor och två vittnen?
           </seg>
-        </u>
-        <u xml:id="i-69pLWBmr5Ljd8Ro57tkJX2" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-MAPuu9L9SCg1LCpk35w9Ax" next="i-aSE8RNEVKLgth6WUhqapY">
           <seg xml:id="i-DxsxFPt6ASPXfGi53Et1BK">
             Det är en beklaglig brist i motiveringen till motionen, att jag
             ej berört öfverstyrelsens ställning till läroverken efter censorsinstitutionens
@@ -826,8 +776,6 @@
             och ingående kontroll öfver själfva undervisningen, som vore mera
             värd än censorernas blixtkontroll.
           </seg>
-        </u>
-        <u xml:id="i-aSE8RNEVKLgth6WUhqapY" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-69pLWBmr5Ljd8Ro57tkJX2" next="i-HS1AdGMdEQMTGTL49yWVkS">
           <seg xml:id="i-2RRRQdX8ZVDEdDcWExs38h">
             Häremot har anförts, att det vore till skada för läroverken,
             om de för rekrytering af öfverstyrelsen beröfvades sina bästa
@@ -849,29 +797,23 @@
         <note xml:id="i-GwdLC6aRY8HFnjXzgZ1f6b">
           mogenhetsexamen. (Forts.)
         </note>
-        <u xml:id="i-HS1AdGMdEQMTGTL49yWVkS" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-aSE8RNEVKLgth6WUhqapY" next="i-e9JzKYBWWLE813RszfPzd">
+        <u xml:id="i-HS1AdGMdEQMTGTL49yWVkS" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-U2jaCmc1yMhkxEa65tn4Af" next="i-K64b3axCAvSx4te5zNgyih">
           <seg xml:id="i-WnVHGbC7cnsYbJqbeLtHhu">
             och erkändt faktum, att de 20 censorernas frånvaro under vårterminernas
             sista skede är till stor skada för undervisningen vid våra högre
             läroanstalter.
           </seg>
-        </u>
-        <u xml:id="i-e9JzKYBWWLE813RszfPzd" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-HS1AdGMdEQMTGTL49yWVkS" next="i-JbN1avrRX4oQBPq3Vces3u">
           <seg xml:id="i-Re8x9zvKAUJU8vKGbFLers">
             Vid den offentliga och ännu mer vid den privata diskussionen
             har från lärarkåren uttalats åtskilliga anmärkningar mot öfverstyrelsen,
             som icke synes vara någon synnerligen populär institution.
           </seg>
-        </u>
-        <u xml:id="i-JbN1avrRX4oQBPq3Vces3u" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-e9JzKYBWWLE813RszfPzd" next="i-LHJyxUPwmhzHNQ5ZXcbTHW">
           <seg xml:id="i-R4ySnyTw2n57RrRHvWeeCD">
             Jag vill hoppas, att dessa anmärkningar ej äro berättigade, men
             om så vore, är väl anledningen öfverstyrelsens alltför isolerade
             ställning och botemedlet en mera lefvande kontakt mellan styrelsen
             och läroverken.
           </seg>
-        </u>
-        <u xml:id="i-LHJyxUPwmhzHNQ5ZXcbTHW" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-JbN1avrRX4oQBPq3Vces3u" next="i-8M96fAVfJMxVWh5o4jZ4hK">
           <seg xml:id="i-QBzddsfe8dnPGCqki1KkZ3">
             Man har vidare framhållit, att censorerna ej missbrukat sin makt
             utan i stället varit både lärjungar och lärare till nytta såsom
@@ -885,8 +827,6 @@
             är rent illusorisk; han kan hvarken hindra en orättvis kuggning
             eller ett orättvist godkännande.
           </seg>
-        </u>
-        <u xml:id="i-8M96fAVfJMxVWh5o4jZ4hK" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-LHJyxUPwmhzHNQ5ZXcbTHW" next="i-7oZeweyaTD8Jykp8wkfySh">
           <seg xml:id="i-C1BBurcfXvUgEsPAtr24TR">
             Till sist kommer den anmärkning, som alltid framställes, då det
             är fråga om reformer i undervisningsväsendet: kunskapsnivån skulle
@@ -906,8 +846,6 @@
             och karaktären; i en sådan jordmån skulle trifvas en planta, som
             håller på att kväfvas af mångläseri och minnesplugg — ungdomsglädjen.
           </seg>
-        </u>
-        <u xml:id="i-7oZeweyaTD8Jykp8wkfySh" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-8M96fAVfJMxVWh5o4jZ4hK" next="i-K64b3axCAvSx4te5zNgyih">
           <seg xml:id="i-AvmGExQdTHxyZy5hBKPiK9">
             De synpunkter, jag här hatt äran framlägga, hafva i allmänhet
             ej vunnit utskottets gillande. Emellertid har utskottet för de
@@ -921,7 +859,7 @@
         <note xml:id="i-FwA3PsoD8Va4whaLfE4cVr" type="date">
           Lördagen den 29 Februari. 9 N:o 18.
         </note>
-        <u xml:id="i-K64b3axCAvSx4te5zNgyih" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-7oZeweyaTD8Jykp8wkfySh" next="i-FtXFExHBxYZHCdyeDozo9j">
+        <u xml:id="i-K64b3axCAvSx4te5zNgyih" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-HS1AdGMdEQMTGTL49yWVkS">
           <seg xml:id="i-Wb37nyRzmyZk9SyHGsLZjV">
             torde möjligen kunna ifrågasättas, huruvida icke i vissa ämnen
             Ifrågasatt remogenhetspröfning borde äga rum redan i klassen 6:2
@@ -930,16 +868,12 @@
             Genom en sådan ”famen. anordning blefve antalet ämnen vid den
             slutliga examen väsent- — (Forts) ligen minskadt.»
           </seg>
-        </u>
-        <u xml:id="i-FtXFExHBxYZHCdyeDozo9j" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-K64b3axCAvSx4te5zNgyih" next="i-3tMCgWKjCCB23HdbUMrweE">
           <seg xml:id="i-LZz3L95TJU1TBNaDjAK36u">
             Äfven en sådan förändring skulle säkerligen hälsas med allmän
             tillfredsställelse och i afsevärd grad minska de nuvarande olägenheterna,
             men för att den skall kunna genomföras, fordras revision af stadgan
             för mogenhetsexamen.
           </seg>
-        </u>
-        <u xml:id="i-3tMCgWKjCCB23HdbUMrweE" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-FtXFExHBxYZHCdyeDozo9j">
           <seg xml:id="i-UXxy8kConAtHpgRwzzGRyd">
             På nu anförda skäl får jag vördsamt yrka bifall till min motion.
           </seg>
@@ -947,27 +881,21 @@
         <note xml:id="i-Ln57EPegyrzmYLW9QwTEDu" type="speaker">
           Herr Berg, Gustaf Axel:
         </note>
-        <u xml:id="i-Jm41nGjfV2z9b28rsD3c75" who="i-YSW8Kg6NVNWR81nXxwY7Pw" next="i-GGxGPxPpQussP5yWMW6PoS">
+        <u xml:id="i-Jm41nGjfV2z9b28rsD3c75" who="i-YSW8Kg6NVNWR81nXxwY7Pw" next="i-2zXCTMQSxdU5KnYuG8F7sA">
           <seg xml:id="i-T7oXbk7gxQU2iehEGLirkq">
             Jag skall anhålla att med några ord få bemöta den ärade motinärens
             anförande, ehuru jag naturligtvis villigt erkänner, att hos mig
             icke kan finnas någon särskild sakkunskap i det ämne, som här
             föreligger.
           </seg>
-        </u>
-        <u xml:id="i-GGxGPxPpQussP5yWMW6PoS" who="i-YSW8Kg6NVNWR81nXxwY7Pw" prev="i-Jm41nGjfV2z9b28rsD3c75" next="i-7w1YB3QGvf9BaoQAPXFgrA">
           <seg xml:id="i-N2vs5SwhdC8AK2hr15pT3c">
             Den ärade motionären utgick nyss från antagandet, att vid gymnasierna
             borde införas en mer högskolemässig anordning än
           </seg>
-        </u>
-        <u xml:id="i-7w1YB3QGvf9BaoQAPXFgrA" who="i-YSW8Kg6NVNWR81nXxwY7Pw" prev="i-GGxGPxPpQussP5yWMW6PoS" next="i-7g8EwAy3zgsLoDoDpvQ5qM">
           <seg xml:id="i-T7GbDhBwJYuLAhHjXbCAMr">
             en, som nu äger rum, hvartill enligt hans uppfattning hörde,
             att
           </seg>
-        </u>
-        <u xml:id="i-7g8EwAy3zgsLoDoDpvQ5qM" who="i-YSW8Kg6NVNWR81nXxwY7Pw" prev="i-7w1YB3QGvf9BaoQAPXFgrA" next="i-VzPKDNtfMMXS55SPSyag2S">
           <seg xml:id="i-2zy9qXSR9G4GBcJLVGoLkm">
             de kringresande censorerna icke skulle förekomma; och jag tror
             att just häri, i frågan om censoratets afskaffande, ligger, om
@@ -989,8 +917,6 @@
             att blifva student än vid en annan skola, och en sådan opinion
             skulle utbreda sig öfver vidsträckta områden.
           </seg>
-        </u>
-        <u xml:id="i-VzPKDNtfMMXS55SPSyag2S" who="i-YSW8Kg6NVNWR81nXxwY7Pw" prev="i-7g8EwAy3zgsLoDoDpvQ5qM" next="i-2zXCTMQSxdU5KnYuG8F7sA">
           <seg xml:id="i-RZEYMN8t7SBX13xWHTJj6D">
             Men det har också varit en annan synpunkt, som för utskottet
             varit bestämmande, och denna är kontrollsynpunkten. Alldeles gifvet
@@ -1010,7 +936,7 @@
         <note xml:id="i-U6vf3bec27deNdf2Aa2Umf" type="date">
           10 Lördagen den 29 Februari.
         </note>
-        <u xml:id="i-2zXCTMQSxdU5KnYuG8F7sA" who="i-YSW8Kg6NVNWR81nXxwY7Pw" prev="i-VzPKDNtfMMXS55SPSyag2S" next="i-MzzzCKqCJAa4LFvGyAz9aE">
+        <u xml:id="i-2zXCTMQSxdU5KnYuG8F7sA" who="i-YSW8Kg6NVNWR81nXxwY7Pw" prev="i-Jm41nGjfV2z9b28rsD3c75" next="i-MzzzCKqCJAa4LFvGyAz9aE">
           <seg xml:id="i-3Qgkb4W84C55FEtqKr1XFt">
             Ifrågasatt re- NEN, har ingalunda synts utskottet vara tillfredsställande.
             På alla
@@ -1019,7 +945,7 @@
         <note xml:id="i-1vG3ChQLDbmnhnajD27wK">
           vision af stadgan för mogenhetsexamen. (Forts.)
         </note>
-        <u xml:id="i-MzzzCKqCJAa4LFvGyAz9aE" who="i-YSW8Kg6NVNWR81nXxwY7Pw" prev="i-2zXCTMQSxdU5KnYuG8F7sA" next="i-R2JzMWTfrWxqpD3NTkQeuu">
+        <u xml:id="i-MzzzCKqCJAa4LFvGyAz9aE" who="i-YSW8Kg6NVNWR81nXxwY7Pw" prev="i-2zXCTMQSxdU5KnYuG8F7sA" next="i-QqHtYQf5vMBUnzGK9iAzuN">
           <seg xml:id="i-BuJmZhZsELPX16womfV8C3">
             ställen i vårt land, där studentexamen äflägges, finnes nog icke,
             om man går utanför lärarnes krets, tillräckligt antal personer
@@ -1027,8 +953,6 @@
             för att man skulle kunna få fullt tillfredsställande vittnen för
             denna.
           </seg>
-        </u>
-        <u xml:id="i-R2JzMWTfrWxqpD3NTkQeuu" who="i-YSW8Kg6NVNWR81nXxwY7Pw" prev="i-MzzzCKqCJAa4LFvGyAz9aE" next="i-LU5h2xVikGQkyLUmipHQLR">
           <seg xml:id="i-RhCzN2icJP3feFfGKcQJJs">
             Motionären har icke i motionen omnämnt en annan sak, som han
             här vidrört, nämligen utvidgande af öfverstyrelsen för att såmedelst
@@ -1038,8 +962,6 @@
             ett lika stort antal läroverksråd för att de skulle kunna hinna
             deltaga 1 mogenhetspröfningarna.
           </seg>
-        </u>
-        <u xml:id="i-LU5h2xVikGQkyLUmipHQLR" who="i-YSW8Kg6NVNWR81nXxwY7Pw" prev="i-R2JzMWTfrWxqpD3NTkQeuu" next="i-WoaEidHxqz7kzsNgUUvY2o">
           <seg xml:id="i-XBY4JF8NExRYFCgNEimCED">
             Så är det en omständighet, som den ärade motionären icke upptog
             till bemötande, nämligen, att vi utom de allmänna läroverk, där
@@ -1051,8 +973,6 @@
             föreställa sig, att vid sådana läroverk studentexamen skulle kunna
             försiggå uteslutande under uppsikt af lokala vittnen.
           </seg>
-        </u>
-        <u xml:id="i-WoaEidHxqz7kzsNgUUvY2o" who="i-YSW8Kg6NVNWR81nXxwY7Pw" prev="i-LU5h2xVikGQkyLUmipHQLR" next="i-5p6JmCnQpZtEby3a33gL4G">
           <seg xml:id="i-F4txxG9NdgBdxZ39Fbn2oN">
             Nu är det en sanning, att vid realskoleexamina för närvarande
             icke finnas censorer utan endast lokala vittnen, men det är äfven
@@ -1065,8 +985,6 @@
             sin stora betydelse, när dessa betyg äro afgörande, då det gäller
             inträde vid en del institutioner.
           </seg>
-        </u>
-        <u xml:id="i-5p6JmCnQpZtEby3a33gL4G" who="i-YSW8Kg6NVNWR81nXxwY7Pw" prev="i-WoaEidHxqz7kzsNgUUvY2o" next="i-QqHtYQf5vMBUnzGK9iAzuN">
           <seg xml:id="i-35yonCXoCsGDNy6XByoLVX">
             Nu har utskottet försökt att se till, hvad man skulle kunna göra
             af denna motion utan att rubba censorsinstitutionen, och detta
@@ -1089,7 +1007,7 @@
         <note xml:id="i-PZSTUTV1kWXruN2mYUKdTf" type="date">
           Lördagen den 29 Februari. 1 N:o 18.
         </note>
-        <u xml:id="i-QqHtYQf5vMBUnzGK9iAzuN" who="i-YSW8Kg6NVNWR81nXxwY7Pw" prev="i-5p6JmCnQpZtEby3a33gL4G" next="i-SEGxJKcVVfhYkjh7PT1Zic">
+        <u xml:id="i-QqHtYQf5vMBUnzGK9iAzuN" who="i-YSW8Kg6NVNWR81nXxwY7Pw" prev="i-MzzzCKqCJAa4LFvGyAz9aE" next="i-SEGxJKcVVfhYkjh7PT1Zic">
           <seg xml:id="i-VgcFBfcagQY3j8K6Cky8AN">
             går. Man klagar öfver nervositet hos lärjungarne redan nu; jag
             Ifrågasatt reär öfvertygad, att denna skulle genom examenstidens
@@ -1154,7 +1072,7 @@
         <note xml:id="i-6ftWS2iderEv7iJgirm8VK">
           vision af stadgan för mogenhetsexamen. (Forts.)
         </note>
-        <u xml:id="i-6oRWr9GpKkShG3Tga1P5jR" who="i-YSW8Kg6NVNWR81nXxwY7Pw" prev="i-SEGxJKcVVfhYkjh7PT1Zic" next="i-5Lmk8bjf2R8Wn4DzjC6AT6">
+        <u xml:id="i-6oRWr9GpKkShG3Tga1P5jR" who="i-YSW8Kg6NVNWR81nXxwY7Pw" prev="i-SEGxJKcVVfhYkjh7PT1Zic">
           <seg xml:id="i-FjE62Ga7mxRDUVJGyzNMap">
             innebära mycken hänsynsfullhet. Motionären har nämligen i sin
             motion framställt en motsättning mellan nuvarande gymnasister
@@ -1191,8 +1109,6 @@
             tror jag icke 60-talets ungdom stod tillbaka för nutidens ungdom,
             huru många goda egenskaper denna än må äga.
           </seg>
-        </u>
-        <u xml:id="i-5Lmk8bjf2R8Wn4DzjC6AT6" who="i-YSW8Kg6NVNWR81nXxwY7Pw" prev="i-6oRWr9GpKkShG3Tga1P5jR">
           <seg xml:id="i-CxSRKPz5N88xkUtngnC3RH">
             Herr grefve och talman, jag anhåller om bifall till utskottets
             hemställan.
@@ -1283,12 +1199,10 @@
         <note xml:id="i-PApksSnUzRBSMwNACRUwwM">
           vision af stadgan för mogenhetsexamen. (Forts.)
         </note>
-        <u xml:id="i-6XLH9vi5Dds2GBAn2dcBie" who="i-U5jAbsuy2Q4pBtMcKSGCs8" prev="i-QQUNd5A3huSRabTHpa1bV6" next="i-4sqc3NHopYDK8jD8wxrnvf">
+        <u xml:id="i-6XLH9vi5Dds2GBAn2dcBie" who="i-U5jAbsuy2Q4pBtMcKSGCs8" prev="i-QQUNd5A3huSRabTHpa1bV6" next="i-MKyQmyJU95vMqpMhLex4LQ">
           <seg xml:id="i-yq87kycGktivrpUXgaE1C">
             det examineras i allmänhet icke i tio ämnen utan blott i åtta.
           </seg>
-        </u>
-        <u xml:id="i-4sqc3NHopYDK8jD8wxrnvf" who="i-U5jAbsuy2Q4pBtMcKSGCs8" prev="i-6XLH9vi5Dds2GBAn2dcBie" next="i-6cJXW5TqUR7xv2KrGPHCei">
           <seg xml:id="i-S5TRcTh24Bw5wTBWMimX3H">
             Uttrycket »svår» är ett relativt begrepp, och det gäller också,
             om detsamma tillämpas på studentexamen. För examinander med mer
@@ -1312,8 +1226,6 @@
             mössan då vara någon äkta etikett för den högre medborgerliga
             bildning, som den i allmänhet anses utgöra.
           </seg>
-        </u>
-        <u xml:id="i-6cJXW5TqUR7xv2KrGPHCei" who="i-U5jAbsuy2Q4pBtMcKSGCs8" prev="i-4sqc3NHopYDK8jD8wxrnvf" next="i-QNu1kvjTCiuW12zDWzTy6o">
           <seg xml:id="i-HQM2FE5F6mEdBiSUxk9oEN">
             Hvad censorsinstitutionen beträffar, tyckes den ärade motionären
             hafva missuppfattat dess betydelse, då han säger, att »ett af
@@ -1332,8 +1244,6 @@
             populär, tvärtom har den vunnit alltmera förtroenie icke blott
             bland allmänheten utan särskildt vid läroverken.
           </seg>
-        </u>
-        <u xml:id="i-QNu1kvjTCiuW12zDWzTy6o" who="i-U5jAbsuy2Q4pBtMcKSGCs8" prev="i-6cJXW5TqUR7xv2KrGPHCei" next="i-MKyQmyJU95vMqpMhLex4LQ">
           <seg xml:id="i-145jUVoRgr6yjzwB26QuL1">
             I afseende å den mindre riktiga framställning motionären lämnar
             af själfva examen, skulle jag vilja påpeka, att han vill göra
@@ -1349,14 +1259,12 @@
         <note xml:id="i-MFUtACn4rAgtETwubuLGjz" type="date">
           Lördagen den 29 Februari. 15 N:o 18.
         </note>
-        <u xml:id="i-MKyQmyJU95vMqpMhLex4LQ" who="i-U5jAbsuy2Q4pBtMcKSGCs8" prev="i-QNu1kvjTCiuW12zDWzTy6o" next="i-Sng1JXSczY7LkEroCTEYny">
+        <u xml:id="i-MKyQmyJU95vMqpMhLex4LQ" who="i-U5jAbsuy2Q4pBtMcKSGCs8" prev="i-6XLH9vi5Dds2GBAn2dcBie" next="i-Sqoucz7n3aVkpG6FmD2Ywi">
           <seg xml:id="i-WaFWzhKTxznL92UPd9PsHW">
             blotta sin svaghet alltför mycket, lyckligen sluppit igenom sin
             Ifrågasatt reexamen. vision af Vidare säger motionären, att utvecklingen
             har så framskridit, stadgan för
           </seg>
-        </u>
-        <u xml:id="i-Sng1JXSczY7LkEroCTEYny" who="i-U5jAbsuy2Q4pBtMcKSGCs8" prev="i-MKyQmyJU95vMqpMhLex4LQ" next="i-AmTJndYZLgdZES6K2yrRy1">
           <seg xml:id="i-LRiHMTgPJjAMkdKNRRPbsT">
             att en kontroll af denna art numera är absolut obehöflig. Jag
             är ”Mimen. motionären tacksam för det goda vitsord han behagat
@@ -1377,8 +1285,6 @@
             hvilken skulle bestå i lokala vittnen, i afseende på hvilka icke
             finnes någon garanti vare sig för vederhäftighet eller opartiskhet.
           </seg>
-        </u>
-        <u xml:id="i-AmTJndYZLgdZES6K2yrRy1" who="i-U5jAbsuy2Q4pBtMcKSGCs8" prev="i-Sng1JXSczY7LkEroCTEYny" next="i-Sqoucz7n3aVkpG6FmD2Ywi">
           <seg xml:id="i-JmiRBAB5xCZJhajzfvCuC1">
             tskottets ärade ordförande har redan påvisat ott misstag, hvartill
             jag tror att motionären i sitt anförande gjorde sig skyldig, då
@@ -1420,17 +1326,13 @@
           Ifrågasatt re- Vittnen pröfva sina lärjungar under den sista
           terminen i sam-
         </note>
-        <u xml:id="i-Sqoucz7n3aVkpG6FmD2Ywi" who="i-U5jAbsuy2Q4pBtMcKSGCs8" prev="i-AmTJndYZLgdZES6K2yrRy1" next="i-TimWs6aemHG6aGRNNw4gMn">
+        <u xml:id="i-Sqoucz7n3aVkpG6FmD2Ywi" who="i-U5jAbsuy2Q4pBtMcKSGCs8" prev="i-MKyQmyJU95vMqpMhLex4LQ">
           <seg xml:id="i-6t5twEXBCMnNG9AMi5f4YY">
             vision af stadgan för mogenhetsezamen. (Forts.)
           </seg>
-        </u>
-        <u xml:id="i-TimWs6aemHG6aGRNNw4gMn" who="i-U5jAbsuy2Q4pBtMcKSGCs8" prev="i-Sqoucz7n3aVkpG6FmD2Ywi" next="i-5jycTsJG7s4popHeK2emWg">
           <seg xml:id="i-KhB5NTqcBdrZXhn8NceRU2">
             manhang med de i de olika ämnena fortgående repetitionerna.
           </seg>
-        </u>
-        <u xml:id="i-5jycTsJG7s4popHeK2emWg" who="i-U5jAbsuy2Q4pBtMcKSGCs8" prev="i-TimWs6aemHG6aGRNNw4gMn" next="i-2eLuXXFJzrpfxDoBD6pZ7M">
           <seg xml:id="i-K8s8rTYA8wJjt1rA1AigkA">
             Jag anser därför att, om annars det uttrycket vore riktigt, som
             motionären använder i slutet af sin motivering, nämligen att »en
@@ -1440,8 +1342,6 @@
             så kort som möjligt och att den inskränkes till en dag i stället
             för att utsträckas till en hel månad.
           </seg>
-        </u>
-        <u xml:id="i-2eLuXXFJzrpfxDoBD6pZ7M" who="i-U5jAbsuy2Q4pBtMcKSGCs8" prev="i-5jycTsJG7s4popHeK2emWg">
           <seg xml:id="i-7oDcYSjxt65KFQ73brWgwe">
             Jag yrkar, hr grefve och talman, afslag å den föreliggande motionen
             och bifall till utskottets hemställan.
@@ -1450,14 +1350,12 @@
         <note xml:id="i-7Ynf6TqbpnuCvqRUvMzdUR" type="speaker">
           Friherre Gyllenstierna:
         </note>
-        <u xml:id="i-C12W3wefwSDTyj9p4HrYik" who="i-Fwz6E1stufSMk97KKj5TyH" next="i-VMmiJmsxqnyALCkU1DxLFC">
+        <u xml:id="i-C12W3wefwSDTyj9p4HrYik" who="i-Fwz6E1stufSMk97KKj5TyH">
           <seg xml:id="i-CGHAiRqALo1rQYBkaxuYcH">
             Då jag deltagit i utskottets arbeten men icke i dess beslut,
             skall jag anhålla att endast med några få ord få yttra mig i denna
             fråga.
           </seg>
-        </u>
-        <u xml:id="i-VMmiJmsxqnyALCkU1DxLFC" who="i-Fwz6E1stufSMk97KKj5TyH" prev="i-C12W3wefwSDTyj9p4HrYik" next="i-VUUxDhmwAQdHEz5LWTYWxp">
           <seg xml:id="i-7kixmTZdUQMqsyuKEAPL4o">
             Hvad då först censorsinstitutionen angår, har visserligen motionären
             anfört åtskilliga skäl för att den skulle kunna undvaras, men
@@ -1482,8 +1380,6 @@
             allenast ibland dem, hvilka stå i begrepp att taga studentexamen
             eller dessas anhöriga, utan äfven på många andra håll.
           </seg>
-        </u>
-        <u xml:id="i-VUUxDhmwAQdHEz5LWTYWxp" who="i-Fwz6E1stufSMk97KKj5TyH" prev="i-VMmiJmsxqnyALCkU1DxLFC">
           <seg xml:id="i-TF2FDYv64iD5T6MZCsDbXi">
             I frågans nuvarande läge har jag naturligtvis intet yrkande att
             göra, utan jag har endast med några ord velat understryka utskottets
@@ -1494,13 +1390,11 @@
         <note xml:id="i-3Xbm7vTedDRwx8QiSg5BvH" type="speaker">
           Herr Juhlin:
         </note>
-        <u xml:id="i-WoSnPfzcoTVA2ha93GjJGC" who="i-5a6sVJzD6Pd62temZreNbE" next="i-XByr2csfgaACDqFaUywGQn">
+        <u xml:id="i-WoSnPfzcoTVA2ha93GjJGC" who="i-5a6sVJzD6Pd62temZreNbE" next="i-971tvTWvvJoVtoiCcvKJ7j">
           <seg xml:id="i-EDK6SZNhetvEJCUYwSHvLe">
             Då den ärade motionären enligt mitt förmenande målat studentexamen
             i något väl mörka färger, ber jag att få yttra några få ord.
           </seg>
-        </u>
-        <u xml:id="i-XByr2csfgaACDqFaUywGQn" who="i-5a6sVJzD6Pd62temZreNbE" prev="i-WoSnPfzcoTVA2ha93GjJGC" next="i-971tvTWvvJoVtoiCcvKJ7j">
           <seg xml:id="i-82FUbcNDjcf7UrmXewCy3m">
             Enligt min åsikt har censorsinstitutionen verkat synnerligen
             välgörande icke blott på de allmänna läroverken utan också på
@@ -1511,7 +1405,7 @@
         <note xml:id="i-R9Q8F2VW5S5tsRN391aezd" type="date">
           Lördagen den 29 Februari. 17 N:o 18.
         </note>
-        <u xml:id="i-971tvTWvvJoVtoiCcvKJ7j" who="i-5a6sVJzD6Pd62temZreNbE" prev="i-XByr2csfgaACDqFaUywGQn" next="i-EXW346M5zZfo6Xy8taXAUn">
+        <u xml:id="i-971tvTWvvJoVtoiCcvKJ7j" who="i-5a6sVJzD6Pd62temZreNbE" prev="i-WoSnPfzcoTVA2ha93GjJGC" next="i-Tk1sZM47y8mydwCwCuZW3K">
           <seg xml:id="i-R87hgZw8ki8kpkYhZch2Kb">
             och få reda på kunskapsnivån vid de olika läroverken och ställ-
             Ifrågasatt reningen där, kunna de därefter anpassa sin undervisning
@@ -1542,8 +1436,6 @@
             närmare i sömmarna, finner man, att de i regel äro betydligt öfverdrifna
             och utmålade.
           </seg>
-        </u>
-        <u xml:id="i-EXW346M5zZfo6Xy8taXAUn" who="i-5a6sVJzD6Pd62temZreNbE" prev="i-971tvTWvvJoVtoiCcvKJ7j" next="i-A1CFp3AF4qhNMuTZ97EycR">
           <seg xml:id="i-HehPs9KBZkYubmgRUti6me">
             Man bör också, såsom motionären ju i första hand gjort, se denna
             sak från lärjungarnas synpunkt. I regel torde det väl vara så,
@@ -1559,8 +1451,6 @@
             som under sin skoltid skött sig ordentligt och hafva medelmåttig
             begåfning, är studentexamen ingalunda svår eller pinsam.
           </seg>
-        </u>
-        <u xml:id="i-A1CFp3AF4qhNMuTZ97EycR" who="i-5a6sVJzD6Pd62temZreNbE" prev="i-EXW346M5zZfo6Xy8taXAUn" next="i-Tk1sZM47y8mydwCwCuZW3K">
           <seg xml:id="i-SNmJasvVcaqNykCuLj3jkU">
             Den skriftliga examen torde vara den svåraste och man har här
             talat om att tiden för denna borde kunna utsträckas. Ja, det är
@@ -1585,13 +1475,11 @@
         <note xml:id="i-WRVydZV6GVC5oVoCtY8tBu" type="date">
           18 Lördagen den 29 Februari.
         </note>
-        <u xml:id="i-Tk1sZM47y8mydwCwCuZW3K" who="i-5a6sVJzD6Pd62temZreNbE" prev="i-A1CFp3AF4qhNMuTZ97EycR" next="i-HE2XJftxxRu6bRwv4qYJNP">
+        <u xml:id="i-Tk1sZM47y8mydwCwCuZW3K" who="i-5a6sVJzD6Pd62temZreNbE" prev="i-971tvTWvvJoVtoiCcvKJ7j" next="i-Q3qCAqweFbnttwPcbNPEm9">
           <seg xml:id="i-9gTyHLC6GLmcFcETEyZFjv">
             e hel del lärjungar skulle föga bekymra sig om sina studier förrän
             det komme till tiden för de skriftliga profven, och att de skulle
           </seg>
-        </u>
-        <u xml:id="i-HE2XJftxxRu6bRwv4qYJNP" who="i-5a6sVJzD6Pd62temZreNbE" prev="i-Tk1sZM47y8mydwCwCuZW3K" next="i-Q3qCAqweFbnttwPcbNPEm9">
           <seg xml:id="i-wvV8d5kC4pAmcoYPQxGac">
             stadgar för under tiden mellan dessa plugga i sig det mått af
             kunskaper, som
@@ -1600,13 +1488,11 @@
         <note xml:id="i-Vt3kTdRaoyHoqmuz8JKvvL">
           mogenhetsexamen. (Forts.)
         </note>
-        <u xml:id="i-Q3qCAqweFbnttwPcbNPEm9" who="i-5a6sVJzD6Pd62temZreNbE" prev="i-HE2XJftxxRu6bRwv4qYJNP" next="i-KnKzG7xPFheBt63yVou8Vs">
+        <u xml:id="i-Q3qCAqweFbnttwPcbNPEm9" who="i-5a6sVJzD6Pd62temZreNbE" prev="i-Tk1sZM47y8mydwCwCuZW3K">
           <seg xml:id="i-Kuas9vYsxejvYPZcW99iZc">
             erfordrades för att gå igenom den skriftliga examen. Man skulle
             härigenom lätt kunna åstadkomma öfveransträngning hos lärjungarna.
           </seg>
-        </u>
-        <u xml:id="i-KnKzG7xPFheBt63yVou8Vs" who="i-5a6sVJzD6Pd62temZreNbE" prev="i-Q3qCAqweFbnttwPcbNPEm9" next="i-FFGVv2fLdP9G2fkKrCDYDG">
           <seg xml:id="i-NmBA53hqqfxbSvGThpadLU">
             Däremot är nog i våra dagar öfveransträngningen icke så stor,
             som man på många håll vill låta påskina. Det är nog i regel icke
@@ -1621,8 +1507,6 @@
             läsa mycket bredvid, och det är just dessa, som blifva öfveransträngda,
             icke de medelmåttigt begåfvade.
           </seg>
-        </u>
-        <u xml:id="i-FFGVv2fLdP9G2fkKrCDYDG" who="i-5a6sVJzD6Pd62temZreNbE" prev="i-KnKzG7xPFheBt63yVou8Vs" next="i-Fr2hiVSieRVprUyJFwkr5w">
           <seg xml:id="i-7Ht7KV46H8W1vi3VHEqcJP">
             Ati utsträcka den muntliga examen utöfver en eller högst två
             dagar anser jag icke vara tillrådligt. Denna examen är såsom nämnts
@@ -1643,8 +1527,6 @@
             lärjungar är mogenhetsexamen aldrig någon slump, ty de kunna i
             regeln vara någorlunda säkra på att gå igenom i denna examen.
           </seg>
-        </u>
-        <u xml:id="i-Fr2hiVSieRVprUyJFwkr5w" who="i-5a6sVJzD6Pd62temZreNbE" prev="i-FFGVv2fLdP9G2fkKrCDYDG">
           <seg xml:id="i-PKBBkoNxwUrkSu2mpbdQwZ">
             Ehuru jag ej till alla delar vill instämma i utskottets motivering,
             yrkar jag afslag å den föreliggande motionen.
@@ -1669,83 +1551,55 @@
         <note xml:id="i-3Pn7Ej6w3N8peXdBkEsjUa" type="date">
           Lördagen den 29 Februari. 19 N:o 18.
         </note>
-        <u xml:id="i-4ATu9oVNuo3LNkabWtp7mZ" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-9yC5itk6d5pTyo2U8Mdp2v" next="i-Lwdab6APDyYc69dafcygjh">
+        <u xml:id="i-4ATu9oVNuo3LNkabWtp7mZ" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-9yC5itk6d5pTyo2U8Mdp2v">
           <seg xml:id="i-83wtyhS5uQD9uVZnAkuWwV">
             jag har utgått från förutsättningen, att examen skulle afläggas
             Ifrågasatt re-
           </seg>
-        </u>
-        <u xml:id="i-Lwdab6APDyYc69dafcygjh" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-4ATu9oVNuo3LNkabWtp7mZ" next="i-phWjYeaJeamSCFRgciPmH">
           <seg xml:id="i-WHtzaZ7ZY7EHYeHXre9aMk">
             1 hvarje ämne på den termin, under hvilken de resp. ämnena vision
             af
           </seg>
-        </u>
-        <u xml:id="i-phWjYeaJeamSCFRgciPmH" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-Lwdab6APDyYc69dafcygjh" next="i-YF4hRVfeyjAHJerv7V337S">
           <seg xml:id="i-8WnS9SfvvkkVKHC54G7ZAv">
             afslutas, och i den förhoppning att detta må ske så, att cxamina
             stadgan Jör
           </seg>
-        </u>
-        <u xml:id="i-YF4hRVfeyjAHJerv7V337S" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-phWjYeaJeamSCFRgciPmH" next="i-Y6oxRsnoMTBcXJZMt6Xd9f">
           <seg xml:id="i-TD18t5JMwarou3GZhQUr4o">
             fördelades på de två sista åren. Den sista månaden eller april
             ””genhets
           </seg>
-        </u>
-        <u xml:id="i-Y6oxRsnoMTBcXJZMt6Xd9f" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-YF4hRVfeyjAHJerv7V337S" next="i-XahKXLhLBDxxeLUsAEo3qJ">
           <seg xml:id="i-Ehg9iFVrfjndtG44QuXaXe">
             skulle omfatta examen i de få återstående ämnena. (Forts.) Herr
             ordföranden har gifvit mig en liten admonition för
           </seg>
-        </u>
-        <u xml:id="i-XahKXLhLBDxxeLUsAEo3qJ" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-Y6oxRsnoMTBcXJZMt6Xd9f" next="i-WkQCJPkPteBSevWWaMkq4n">
           <seg xml:id="i-KY4mbnCPeYQ97j2qybtqyn">
             mitt uttryck om 60-talets studenter. Jag har sagt, att »vår tids
           </seg>
-        </u>
-        <u xml:id="i-WkQCJPkPteBSevWWaMkq4n" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-XahKXLhLBDxxeLUsAEo3qJ" next="i-5qRHtTTxVTkiUuG12YHkCt">
           <seg xml:id="i-RyhM1oEYT8qvXDgcfuLvdK">
             allvarliga gymnasister påminna bra litet om 1860-talets glada
           </seg>
-        </u>
-        <u xml:id="i-5qRHtTTxVTkiUuG12YHkCt" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-WkQCJPkPteBSevWWaMkq4n" next="i-Ltat8vUmq5YetVaejuLtw5">
           <seg xml:id="i-W7TTYnUWw5WwGs9KVWUjmA">
             och sorglösa slynglar». Därmed har jag naturligtvis icke sagt,
           </seg>
-        </u>
-        <u xml:id="i-Ltat8vUmq5YetVaejuLtw5" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-5qRHtTTxVTkiUuG12YHkCt" next="i-7568xkLe8HTU2uqz8uSTrg">
           <seg xml:id="i-zBHxv7nHv3FRRhSYf1npv">
             att alla vår tids studenter äro allvarliga, och ännu mindre att
           </seg>
-        </u>
-        <u xml:id="i-7568xkLe8HTU2uqz8uSTrg" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-Ltat8vUmq5YetVaejuLtw5" next="i-EbUBEyVdvC7nzECdifyXwm">
           <seg xml:id="i-499UGSKFk54nnu23xE1xEL">
             alla 60-talets studenter voro slynglar. Om emellertid någon af
           </seg>
-        </u>
-        <u xml:id="i-EbUBEyVdvC7nzECdifyXwm" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-7568xkLe8HTU2uqz8uSTrg" next="i-BbAtEFRytSozYbE5xPYc9m">
           <seg xml:id="i-Qn4tLYhZxfiJMj8prSPtdb">
             dessa studenter från 60-talet känner sig, om icke träffad så
           </seg>
-        </u>
-        <u xml:id="i-BbAtEFRytSozYbE5xPYc9m" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-EbUBEyVdvC7nzECdifyXwm" next="i-2czWvhuNB8NMmUMy2WneFY">
           <seg xml:id="i-YGvwu8T7v6BSk5VDsrpt8M">
             oangenämt berörd däraf, är det min skyldighet att göra afbön
           </seg>
-        </u>
-        <u xml:id="i-2czWvhuNB8NMmUMy2WneFY" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-BbAtEFRytSozYbE5xPYc9m" next="i-AKCvt9v4KhhYM9dneJPewP">
           <seg xml:id="i-D6vwkYsWXiLVNK7kqxg2SM">
             för det fällda yttrandet, och jag ber därför att genom den ärade
           </seg>
-        </u>
-        <u xml:id="i-AKCvt9v4KhhYM9dneJPewP" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-2czWvhuNB8NMmUMy2WneFY" next="i-RpNvQRPfRwAniJrzSGmaCv">
           <seg xml:id="i-Aq5JTVWzHvZcxA3LnFVSUP">
             ordföranden, hvilken gjort sig till tolk för dessa, få till dem
             fram-
           </seg>
-        </u>
-        <u xml:id="i-RpNvQRPfRwAniJrzSGmaCv" who="i-JcJAFEi1cLdgs31fhFt53T" prev="i-AKCvt9v4KhhYM9dneJPewP">
           <seg xml:id="i-U5gyHZYej8oNXxsHKh6dds">
             förd en ödmjuk och uppriktig bön om ursäkt.
           </seg>
@@ -1753,7 +1607,7 @@
         <note xml:id="i-fDbcc9t7PEMmrTWreLNML" type="speaker">
           Herr Törnebladh:
         </note>
-        <u xml:id="i-MCUq77saFekkemaxBkwv9W" who="i-MuZZJeVubv6LTYMAZhgoZK" next="i-MpVFwWdcfmD3JZ2PhaHs2R">
+        <u xml:id="i-MCUq77saFekkemaxBkwv9W" who="i-MuZZJeVubv6LTYMAZhgoZK" next="i-JZ3i5xCd3f1UY3bLXKNP6J">
           <seg xml:id="i-BoQpQWzmAVYa37anH1VkkH">
             Det har redan blifvit så mycket taladt i denna fråga, att det
             kanske skulle kunna vara onödigt att ytterligare besvära kammaren
@@ -1766,8 +1620,6 @@
             och jag har sedan under hvarje år haft tillfälle att såsom vittne
             noga följa med samt iakttaga, huru förhållandena utvecklat sig.
           </seg>
-        </u>
-        <u xml:id="i-MpVFwWdcfmD3JZ2PhaHs2R" who="i-MuZZJeVubv6LTYMAZhgoZK" prev="i-MCUq77saFekkemaxBkwv9W" next="i-JZ3i5xCd3f1UY3bLXKNP6J">
           <seg xml:id="i-82QPEikWFoKYHSsdPVkaWi">
             I början af 1860-talet, om hvars gymnasister här har talats,
             ägde ännu den gamla studentexamen rum, då lärjungarna från de
@@ -1803,7 +1655,7 @@
           Ifrågasatt re brister. är ju naturligt. Hvad lärjungarna på 60-talet
           beträffar
         </note>
-        <u xml:id="i-JZ3i5xCd3f1UY3bLXKNP6J" who="i-MuZZJeVubv6LTYMAZhgoZK" prev="i-MpVFwWdcfmD3JZ2PhaHs2R" next="i-Y4AdWEH7yKV1c3bWy1MHQp">
+        <u xml:id="i-JZ3i5xCd3f1UY3bLXKNP6J" who="i-MuZZJeVubv6LTYMAZhgoZK" prev="i-MCUq77saFekkemaxBkwv9W" next="i-Y4AdWEH7yKV1c3bWy1MHQp">
           <seg xml:id="i-ERVMR4ykTcUwE3unsQhuwg">
             vision af
           </seg>
@@ -1821,7 +1673,7 @@
         <note xml:id="i-H6gVCXRhRnNxYfbDtxmNuY">
           examen. (Forts.)
         </note>
-        <u xml:id="i-Y5jAv8TNAcvx8wCAqgs9bu" who="i-MuZZJeVubv6LTYMAZhgoZK" prev="i-Y4AdWEH7yKV1c3bWy1MHQp" next="i-CK7h3Ad6ZhGD8Yvia5GNJF">
+        <u xml:id="i-Y5jAv8TNAcvx8wCAqgs9bu" who="i-MuZZJeVubv6LTYMAZhgoZK" prev="i-Y4AdWEH7yKV1c3bWy1MHQp" next="i-Y8ZdaWa7T2xKcbWwtDTPou">
           <seg xml:id="i-LhcE7qQQrV93nN66aEqGtW">
             väl härpå motionären syftat. Detta kom sig till en icke oväsentlig
             del däraf, att åldern i de högsta klasserna var så mycket högre
@@ -1857,8 +1709,6 @@
             uttryck, som motionären begagnat. Jag tar det åtminstone på det
             sättet.
           </seg>
-        </u>
-        <u xml:id="i-CK7h3Ad6ZhGD8Yvia5GNJF" who="i-MuZZJeVubv6LTYMAZhgoZK" prev="i-Y5jAv8TNAcvx8wCAqgs9bu" next="i-Y8ZdaWa7T2xKcbWwtDTPou">
           <seg xml:id="i-B7PqebqqHt6ZSTLrrtTfvE">
             Den studentexamen, som under de första åren af 1860-talet aflades
             vid universiteten, var för visso i det hela tämligen lätt, i synnerhet.
@@ -1877,7 +1727,7 @@
         <note xml:id="i-4nKgPjK633qnncffDWj2qP" type="date">
           Lördagen den 29 Februari. 21 N:o 18,
         </note>
-        <u xml:id="i-Y8ZdaWa7T2xKcbWwtDTPou" who="i-MuZZJeVubv6LTYMAZhgoZK" prev="i-CK7h3Ad6ZhGD8Yvia5GNJF" next="i-R67qH5vqfJcebgYEVuoRD5">
+        <u xml:id="i-Y8ZdaWa7T2xKcbWwtDTPou" who="i-MuZZJeVubv6LTYMAZhgoZK" prev="i-Y5jAv8TNAcvx8wCAqgs9bu" next="i-R67qH5vqfJcebgYEVuoRD5">
           <seg xml:id="i-LkqwmnYfMFCjqJ4PhNAKDx">
             kuggas till 50 procent i skrifningarna och till 50 procent af/JI/frigasatt
             rede återstående i den muntliga examen, med full rätt, under det
@@ -1939,7 +1789,7 @@
         <note xml:id="i-MV1N5L23GQXcT8pbgpPhP" type="date">
           22 Lördagen den 29 Februari.
         </note>
-        <u xml:id="i-R67qH5vqfJcebgYEVuoRD5" who="i-MuZZJeVubv6LTYMAZhgoZK" prev="i-Y8ZdaWa7T2xKcbWwtDTPou" next="i-GRQo18aZ7oAJuLhbRWrXYT">
+        <u xml:id="i-R67qH5vqfJcebgYEVuoRD5" who="i-MuZZJeVubv6LTYMAZhgoZK" prev="i-Y8ZdaWa7T2xKcbWwtDTPou" next="i-DuqKGRrhQf2GuDQxh5F4pL">
           <seg xml:id="i-HbPD8pHgXDktz1LGK5WvZg">
             åtminstone rektorn — för att samråda om huru man skall bäst kunna
             skipa rättvisa. Men det händer också understundom, att, när lärarne
@@ -1961,8 +1811,6 @@
             därmed var den saken klar. Jag tror således, att i det hela mildhet
             och människovänlighet hafva gjort sig gällande.
           </seg>
-        </u>
-        <u xml:id="i-GRQo18aZ7oAJuLhbRWrXYT" who="i-MuZZJeVubv6LTYMAZhgoZK" prev="i-R67qH5vqfJcebgYEVuoRD5" next="i-LYgpNKfJ3KQ2Xz1XYBK7V7">
           <seg xml:id="i-Lo2NQdzQhfdtpVrtaBLsgp">
             Att pröfningen är kort, det är sant. Men hvarför är den kort?
             Det är därför, att den är en afslutning, afslutningen af en undervisning
@@ -1973,8 +1821,6 @@
             hvilka nu skola spela en roll genom sina betyg och 1 själfva verket
             spela en icke oväsentlig roll.
           </seg>
-        </u>
-        <u xml:id="i-LYgpNKfJ3KQ2Xz1XYBK7V7" who="i-MuZZJeVubv6LTYMAZhgoZK" prev="i-GRQo18aZ7oAJuLhbRWrXYT" next="i-DuqKGRrhQf2GuDQxh5F4pL">
           <seg xml:id="i-Y36UZpXqyhG27AUVJzU9nx">
             Detta är nu hvad kritiken beträffar. Hvad återigen förslaget
             till rättelser angår, vill jag först nämna hvad redan sagts, att,
@@ -2002,7 +1848,7 @@
         <note xml:id="i-9PBViCMUHTfWo2eCwD3VUg" type="date">
           Lördagen den 29 Februari. 23 N:o 158.
         </note>
-        <u xml:id="i-DuqKGRrhQf2GuDQxh5F4pL" who="i-MuZZJeVubv6LTYMAZhgoZK" prev="i-LYgpNKfJ3KQ2Xz1XYBK7V7">
+        <u xml:id="i-DuqKGRrhQf2GuDQxh5F4pL" who="i-MuZZJeVubv6LTYMAZhgoZK" prev="i-R67qH5vqfJcebgYEVuoRD5">
           <seg xml:id="i-2g7MevSkW6jeugAa48F1jn">
             motverka det goda syftemål, som däri ligger och som jag hoppas
             Ifrågasatt reskall kunna vinnas till fördel för det hela. vision
@@ -2036,7 +1882,7 @@
         <note xml:id="i-ysWtWtA9H8b8z7BTTpHKB" type="speaker">
           Herr Wieselgren:
         </note>
-        <u xml:id="i-JpECPKgwTavDx8YJnARdBH" who="i-3vmL5fhhYQEqZsPyUJFmjy" next="i-3DeMkaXo4r3iJiMvvz7JYM">
+        <u xml:id="i-JpECPKgwTavDx8YJnARdBH" who="i-3vmL5fhhYQEqZsPyUJFmjy" next="i-4uk93NPtm7KhsVfwGNpGkV">
           <seg xml:id="i-HmaPahTSsfot1SNjwYoWjT">
             Jag har icke mycket att tillägga till hvad förut blifvit sagdt
             i frågan. Men jag har ansett mig böra uttala ett omdöme från en
@@ -2048,8 +1894,6 @@
             sett dem i ett enda fall bryta mot hvad en »god ton» kräfver,
             tror jag mig hafva sagt just hvad jag haft skyldighet att säga.
           </seg>
-        </u>
-        <u xml:id="i-3DeMkaXo4r3iJiMvvz7JYM" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-JpECPKgwTavDx8YJnARdBH" next="i-4uk93NPtm7KhsVfwGNpGkV">
           <seg xml:id="i-AF4hXscJQwGXTNAMrtpKtV">
             Det är också en annan sak, som väl här bör öppet erkännas. Det
             är den, att undervisningen i våra skolor står ofantligt mycket
@@ -2076,7 +1920,7 @@
         <note xml:id="i-8v3hEgmFcC5hGKokNJB6US">
           vision af stadgan för mogenhetsexamen. (Forts.)
         </note>
-        <u xml:id="i-4uk93NPtm7KhsVfwGNpGkV" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-3DeMkaXo4r3iJiMvvz7JYM">
+        <u xml:id="i-4uk93NPtm7KhsVfwGNpGkV" who="i-3vmL5fhhYQEqZsPyUJFmjy" prev="i-JpECPKgwTavDx8YJnARdBH">
           <seg xml:id="i-EkM8S2xQiy1b2GTTwgq19G">
             själf har erkänt det oriktiga i att skära alla öfver en kam..
             Det, som i hans motion dock synes mig vara synnerligen beaktansvärdt,
@@ -2136,7 +1980,7 @@
         <note xml:id="i-Dm3Co3nHBD2AhF736PaqfB" type="date">
           Lördagen den 29 Februari. 25 N:o 18.
         </note>
-        <u xml:id="i-Uwri988WP45bLSJBP6edGr" who="i-KrDgdZwFvbfz2DRQDX9Aw6" prev="i-4ZQJtiQGTsZYMLy2eMtaSK" next="i-LvHsSAQCPv5zku3u1Vuqyr">
+        <u xml:id="i-Uwri988WP45bLSJBP6edGr" who="i-KrDgdZwFvbfz2DRQDX9Aw6" prev="i-4ZQJtiQGTsZYMLy2eMtaSK">
           <seg xml:id="i-Wu6G5gZL7VRoRudqfcExYj">
             den vägen kunde göras, vore väl rätt mycket gjordt i syfte att
             Ifrågasatu relikställa privatister med skolornas lärjungar, och
@@ -2167,8 +2011,6 @@
             inrymma en viss makt att låta eleven aflägga den muntliga examen,
             äfven om de icke blifvit fullt godkända i den skriftliga.
           </seg>
-        </u>
-        <u xml:id="i-LvHsSAQCPv5zku3u1Vuqyr" who="i-KrDgdZwFvbfz2DRQDX9Aw6" prev="i-Uwri988WP45bLSJBP6edGr">
           <seg xml:id="i-P76TKmtY2FF6LLcPscyZXo">
             Jag har intet yrkande att göra.
           </seg>
@@ -2176,7 +2018,7 @@
         <note xml:id="i-KcFztzd8HQEWPndEJEABAo" type="speaker">
           Herr Billing:
         </note>
-        <u xml:id="i-Ft6cPobh5BqSWAURyjLLFw" who="unknown" next="i-GiD2THvsuHbLkp3d6kQZZz">
+        <u xml:id="i-Ft6cPobh5BqSWAURyjLLFw" who="unknown" next="i-SAoZ8fYcQSV4Z8g71NSHCT">
           <seg xml:id="i-B6kmu5bCcfV9UEJ4kXtGo6">
             Jag vill blott yttra några få ord. Det förekommer mig, som om
             man begagnat detta tillfälle till att hufvudsakligen sjunga censorernas
@@ -2185,8 +2027,6 @@
             skött sitt kall mycket väl, 1 all synnerhet på senare år. Men
             jag tycker ändå icke, att mar skall vara orättvis mot motionären.
           </seg>
-        </u>
-        <u xml:id="i-GiD2THvsuHbLkp3d6kQZZz" who="unknown" prev="i-Ft6cPobh5BqSWAURyjLLFw" next="i-2ViYEcPPELXsGActfo6rrJ">
           <seg xml:id="i-S83cdawAdGCeA2Af6SrShN">
             Han har sagt, att denna censorsinstitution såsom kontrollerande
             icke har så ofantligt stor betydelse. Däri gifver jag honom rätt
@@ -2199,8 +2039,6 @@
             att jag velat hafva dem igenom. Icke har således kontrollen så
             ofantligt stort värde.
           </seg>
-        </u>
-        <u xml:id="i-2ViYEcPPELXsGActfo6rrJ" who="unknown" prev="i-GiD2THvsuHbLkp3d6kQZZz" next="i-SAoZ8fYcQSV4Z8g71NSHCT">
           <seg xml:id="i-Xqr2TVw88F3MAGmixXN3kX">
             Vidare har fråga varit om huruvida studentexamen är svår,
           </seg>
@@ -2219,13 +2057,11 @@
         <note xml:id="i-38SH5imS1Rq6t6Ztfixbsn">
           vision af stadgan för mogenhetsexamen. (Forts.)
         </note>
-        <u xml:id="i-SAoZ8fYcQSV4Z8g71NSHCT" who="unknown" prev="i-2ViYEcPPELXsGActfo6rrJ" next="i-3NR1ZRJ6T4sVqPKCWWW9yW">
+        <u xml:id="i-SAoZ8fYcQSV4Z8g71NSHCT" who="unknown" prev="i-Ft6cPobh5BqSWAURyjLLFw">
           <seg xml:id="i-Mwusid8agd3UAsstY8dWF4">
             den, att alldeles säkert ingen enda i denna kammare skulle kunna
             undergå den, utan att blifva kuggad.
           </seg>
-        </u>
-        <u xml:id="i-3NR1ZRJ6T4sVqPKCWWW9yW" who="unknown" prev="i-SAoZ8fYcQSV4Z8g71NSHCT">
           <seg xml:id="i-UkhFYgqqHmowV9772iyTMv">
             Men hvad jag begärde ordet för att säga var icke egentligen detta.
             Jag vill icke yrka bifall till motionärens förslag, ty jag anser,
@@ -2242,15 +2078,13 @@
         <note xml:id="i-BFi6EMQyX4jhBCxiWFonEU" type="speaker">
           Herr Säve:
         </note>
-        <u xml:id="i-NH8NJEC71827VSdErKHN4w" who="i-Cfo63qbe6LVS8fXqBpFrKy" next="i-NydQaNHkpR2AmAKRmWGYHt">
+        <u xml:id="i-NH8NJEC71827VSdErKHN4w" who="i-Cfo63qbe6LVS8fXqBpFrKy" next="i-Wi1NLoA41uem5G3mLgh2H3">
           <seg xml:id="i-6C73u8r8qKQ2DNcVMUQb2E">
             Jag hade icke tänkt yttra mig i denna fråga, där så många, särskildt
             elementarlärare, redan haft ordet, men jag skall i alla fall bedja
             att få säga några ord med anledning af de siste ärade talarnas
             anföranden.
           </seg>
-        </u>
-        <u xml:id="i-NydQaNHkpR2AmAKRmWGYHt" who="i-Cfo63qbe6LVS8fXqBpFrKy" prev="i-NH8NJEC71827VSdErKHN4w" next="i-Bvet1AcEY3Xyo7Gsb1xeKP">
           <seg xml:id="i-QGttNCbZfEfH1PZ6QjAfTs">
             Herr Håkanson fäste uppmärksamheten på det förhållandet, att
             en lärjunge på reallinjen kan blifva förklarad mogen, fastän han
@@ -2268,8 +2102,6 @@
             är detta ett i hög grad anmärkningsvärdt faktum, om hvilket åtskilligt
             skulle kunna sägas.
           </seg>
-        </u>
-        <u xml:id="i-Bvet1AcEY3Xyo7Gsb1xeKP" who="i-Cfo63qbe6LVS8fXqBpFrKy" prev="i-NydQaNHkpR2AmAKRmWGYHt" next="i-Wi1NLoA41uem5G3mLgh2H3">
           <seg xml:id="i-BqwP6dEumfdNXgPnGbRbyr">
             Biskop Billing framhöll — och detta har förut uttalats af såväl
             den ärade motionären som af en och annan föregående talare — att
@@ -2292,7 +2124,7 @@
         <note xml:id="i-4LzurLVqp2GTLMpEq54uZD" type="date">
           Lördagen den 29 Februari. 27 N:o 18.
         </note>
-        <u xml:id="i-Wi1NLoA41uem5G3mLgh2H3" who="i-Cfo63qbe6LVS8fXqBpFrKy" prev="i-Bvet1AcEY3Xyo7Gsb1xeKP" next="i-RPjdqy4q8MrxGXwsvxHAYb">
+        <u xml:id="i-Wi1NLoA41uem5G3mLgh2H3" who="i-Cfo63qbe6LVS8fXqBpFrKy" prev="i-NH8NJEC71827VSdErKHN4w" next="i-7NdSDzyebG8jKS4a8sJ3EW">
           <seg xml:id="i-87LCgXUsCxojXwyUoJv7Ld">
             annat hjälpmedel, som nu är dem betaget. Som bekant få de Ifrågasatt
             rei den svenska skrifningen icke använda något hjälpmedel, i den
@@ -2303,8 +2135,6 @@
             vid tiden för skrifningarna. och att repetitionerna i en del ämnen
             då redan böra vara gjorda.
           </seg>
-        </u>
-        <u xml:id="i-RPjdqy4q8MrxGXwsvxHAYb" who="i-Cfo63qbe6LVS8fXqBpFrKy" prev="i-Wi1NLoA41uem5G3mLgh2H3" next="i-MKY4XVsYDxzBaZ3KMQu4yp">
           <seg xml:id="i-7AKsjMk6bEjeFZ3b29nstx">
             Med afseende på censorsinstitutionen ber jag, då flere andra
             nuvarande eller f. d. elementarlärare uttalat sitt omdöme, att
@@ -2325,16 +2155,12 @@
             med universiteten, hvarjämte de i dem finna erfarna rådgifvare
             i mångt och mycket.
           </seg>
-        </u>
-        <u xml:id="i-MKY4XVsYDxzBaZ3KMQu4yp" who="i-Cfo63qbe6LVS8fXqBpFrKy" prev="i-RPjdqy4q8MrxGXwsvxHAYb" next="i-NBEoKc4QxtxYsvKGso4uno">
           <seg xml:id="i-UWFn2t64PzW4skrdfKnUSY">
             Till sist vågar jag påstå, att censorsinstitutionen är synnerligen
             fördelaktig för läroverken, därför att i denna institution ligger
             en god kontroll, som staten under inga förhållanden bör släppa
             ur sikte.
           </seg>
-        </u>
-        <u xml:id="i-NBEoKc4QxtxYsvKGso4uno" who="i-Cfo63qbe6LVS8fXqBpFrKy" prev="i-MKY4XVsYDxzBaZ3KMQu4yp" next="i-VFo4Xc62pywjHPJytWMbCs">
           <seg xml:id="i-DsBDjKU1gXNqe63HG4bGfB">
             När 1904 års Riksdag lämnade sitt samtycke till den kungl. propositionen
             om läroverksöfverstyrelsen, var det på den grund, att, såsom det
@@ -2347,8 +2173,6 @@
             till väsentlig del upphäfdes. I stället kom sålunda hela inspektionen
             att läggas på öfverstyrelsen.
           </seg>
-        </u>
-        <u xml:id="i-VFo4Xc62pywjHPJytWMbCs" who="i-Cfo63qbe6LVS8fXqBpFrKy" prev="i-NBEoKc4QxtxYsvKGso4uno" next="i-7NdSDzyebG8jKS4a8sJ3EW">
           <seg xml:id="i-JkQZciee9FqUgkhgXHrayi">
             Nu har öfverstyrelsen omöjligen tid och tillfälle till att så
             ofta som önskligt vore fullgöra denna inspektion. Första halfåret
@@ -2372,17 +2196,13 @@
           Ifrågasatt re- MÖjligt under de nu gångna åren, en tid af tre
           år åtgår för en
         </note>
-        <u xml:id="i-7NdSDzyebG8jKS4a8sJ3EW" who="i-Cfo63qbe6LVS8fXqBpFrKy" prev="i-VFo4Xc62pywjHPJytWMbCs" next="i-MPDt4J9xnJ9NHEKhaP874b">
+        <u xml:id="i-7NdSDzyebG8jKS4a8sJ3EW" who="i-Cfo63qbe6LVS8fXqBpFrKy" prev="i-Wi1NLoA41uem5G3mLgh2H3">
           <seg xml:id="i-NWevjGhhRqSLfSATunrJyX">
             vision af stadgan för mogenhetsexamen. (Forts.)
           </seg>
-        </u>
-        <u xml:id="i-MPDt4J9xnJ9NHEKhaP874b" who="i-Cfo63qbe6LVS8fXqBpFrKy" prev="i-7NdSDzyebG8jKS4a8sJ3EW" next="i-QNQuk5LNM7hb9hgCTmZS9C">
           <seg xml:id="i-HLZEqCAMc8TqUsNkHgrnT">
             inspektion af samtliga de högre allmänna läroverken i riket.
           </seg>
-        </u>
-        <u xml:id="i-QNQuk5LNM7hb9hgCTmZS9C" who="i-Cfo63qbe6LVS8fXqBpFrKy" prev="i-MPDt4J9xnJ9NHEKhaP874b" next="i-9myYa22MBDsMZoj5DmvaUH">
           <seg xml:id="i-KAYGW4UeYQ49zEkaSUc3kS">
             Att under sådana förhållanden taga bort censorsinstitutionen
             anser jag vara en misshushållning, ty 1 den ligger i själfva verket
@@ -2393,8 +2213,6 @@
             och äfven i viss mån se till att detta mått hålles uppe så att
             det motsvarar hvad staten är berättigad att fordra.
           </seg>
-        </u>
-        <u xml:id="i-9myYa22MBDsMZoj5DmvaUH" who="i-Cfo63qbe6LVS8fXqBpFrKy" prev="i-QNQuk5LNM7hb9hgCTmZS9C">
           <seg xml:id="i-L5sZgLuEoUn5Urnq6bbD3L">
             Jag ber alltså att få yrka afslag på motionen och bifall till
             utskottets hemställan.

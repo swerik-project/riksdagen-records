@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-D8ZLgyekAXpyzpRrYMXwjM" type="speech">
             <linkGrp type="u">
               <ptr target="#i-e70713b535b26f30-1"/>
@@ -691,7 +691,13 @@
               <ptr target="#i-DeXmJBH5sj4gXudGhV2CwM"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -1395,7 +1401,7 @@
         <note xml:id="i-Pqhi1Yy6V6mPRQuB9aUdzd" type="speaker">
           Herr WINBERG (m):
         </note>
-        <u xml:id="i-8609b5ce52cee879-0" who="i-Li9GYUci4aMEKpg1gPEqQi" next="i-W19zrH8Kbd4WLNwy8aB1A7">
+        <u xml:id="i-8609b5ce52cee879-0" who="i-Li9GYUci4aMEKpg1gPEqQi" next="i-8609b5ce52cee879-2">
           <seg xml:id="i-TYhhEBnTXc58d5saTPZLyC">
             Herr talman! Utfallen av de preliminära besluten i årets fastighetstaxering
             har ju under de senaste veckorna belysts ganska utförligt i den
@@ -1418,15 +1424,11 @@
             och de fastighetsvärden som man kan komma till utan hur myndigheterna
             har iakttagit dessa regler, som uppställts i den enskildes intresse.
           </seg>
-        </u>
-        <u xml:id="i-W19zrH8Kbd4WLNwy8aB1A7" who="i-Li9GYUci4aMEKpg1gPEqQi" prev="i-8609b5ce52cee879-0" next="i-8609b5ce52cee879-1">
           <seg xml:id="i-63nAPwSGwf5XR1QXbi8n2s">
             I första omgången skall fastighetsägaren underrättas om fastighetstaxeringsnämndens
             preliminära beslut den 15 februari och ha tillfälle att avge erinringar
             senast den 10 mars.
           </seg>
-        </u>
-        <u xml:id="i-8609b5ce52cee879-1" who="i-Li9GYUci4aMEKpg1gPEqQi" prev="i-W19zrH8Kbd4WLNwy8aB1A7" next="i-8609b5ce52cee879-2">
           <seg xml:id="i-4w8cMuuknH2VzPnAorhzXX">
             Nu säger finansministern i sitt svar att man i år har dröjt något
             med att sända ut underrättelser. Det kan man kanske ha haft skäl
@@ -1456,7 +1458,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1975--36/prot_1975__36-011.jp2/_view"/>
-        <u xml:id="i-8609b5ce52cee879-2" who="i-Li9GYUci4aMEKpg1gPEqQi" prev="i-8609b5ce52cee879-1">
+        <u xml:id="i-8609b5ce52cee879-2" who="i-Li9GYUci4aMEKpg1gPEqQi" prev="i-8609b5ce52cee879-0">
           <seg xml:id="i-Rx9AicoyPhWrx4h95n8a2N">
             överväga att avstå från den erinran de vill avge därför att de
             tror att de ändå kommer för sent, att de har för kort tid på sig
@@ -2049,7 +2051,7 @@
           Herr socialministern ASPLING erhöll ordet för att besvara herr
           Nilssons i Agnäs (m) den 6 mars anmälda fråga, nr 110, och anförde:
         </note>
-        <u xml:id="i-5dad6d08fbfeb422-8" who="i-6yryP5FsumcdXgD5cb8aDF" next="i-VU9R5kzytcfLN1gFnLVgD">
+        <u xml:id="i-5dad6d08fbfeb422-8" who="i-6yryP5FsumcdXgD5cb8aDF">
           <seg xml:id="i-JJxeALGraF9LE8piUpJvLg">
             Herr talman! Herr Nilsson i Agnäs har frågat mig om jag avser
             att vidta någon ytterligare åtgärd i syfte att eliminera riskerna
@@ -2064,8 +2066,6 @@
             vid brand samt att i övrigt vidta de åtgärder som behövs för att
             förebygga och bekämpa brand.
           </seg>
-        </u>
-        <u xml:id="i-VU9R5kzytcfLN1gFnLVgD" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-5dad6d08fbfeb422-8" next="i-5dad6d08fbfeb422-9">
           <seg xml:id="i-4GiFbLJsf12VRKHkFmdCiX">
             Statens brandinspektion har år 1971 i samråd med bl. a. socialstyrelsen
             och Landstingsförbundet lämnat anvisningar om brandsyn på vårdanläggningar
@@ -2073,8 +2073,6 @@
             Vidare har socialstyrelsen år 1970 givit ut råd och anvisningar
             om brandförsvar vid vissa institutioner.
           </seg>
-        </u>
-        <u xml:id="i-5dad6d08fbfeb422-9" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-VU9R5kzytcfLN1gFnLVgD">
           <seg xml:id="i-Hinf15bpEPZJnQsvDCkPF7">
             Inom sjukvårdens och socialvårdens planeringsoch rationaliseringsinstitut
             (Spri) pågår i samarbete med Svenska brandförsvarsföreningen en
@@ -2160,17 +2158,13 @@
         <note xml:id="i-WPczGEt3aEvV6nNFPa8eFF">
           20
         </note>
-        <u xml:id="i-5dad6d08fbfeb422-12" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-2e8531eb47e5c378-2" next="i-DNEpj2AAN7s5o5xWUQmYFe">
+        <u xml:id="i-5dad6d08fbfeb422-12" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-2e8531eb47e5c378-2">
           <seg xml:id="i-Nda5BuJNxzF34HyipjJ26B">
             inte gör det.
           </seg>
-        </u>
-        <u xml:id="i-DNEpj2AAN7s5o5xWUQmYFe" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-5dad6d08fbfeb422-12" next="i-5dad6d08fbfeb422-13">
           <seg xml:id="i-CsGLsdyHR16d6ftUr5Maf9">
             I det tidigare citerade uttalandet sägs det vidare:
           </seg>
-        </u>
-        <u xml:id="i-5dad6d08fbfeb422-13" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-DNEpj2AAN7s5o5xWUQmYFe">
           <seg xml:id="i-YTmaYdU4fMMkE2wQDhnLuX">
             ”Socialstyrelsen och riksbrandchefen borde kunna få till stånd
             en sådan lag. Kan man göra en lag om att man måste ha lyse på
@@ -2540,7 +2534,7 @@
         <note xml:id="i-GVfnxiGW84FzPJCRwecoy8" type="speaker">
           Herr kommunikationsministern NORLING:
         </note>
-        <u xml:id="i-f7d5c526c2611b5f-8" who="i-TRwqmRRb2L7vgDjft4i5Z" next="i-XqFwUipVA6VXj2tgmKKrxY">
+        <u xml:id="i-f7d5c526c2611b5f-8" who="i-TRwqmRRb2L7vgDjft4i5Z" next="i-f7d5c526c2611b5f-9">
           <seg xml:id="i-9HUTatuJAYqonptPRJtYD2">
             Herr talman! Jag delar herr Anderssons i Nybro uppfattning att
             vi inte skall behandla enskilda ärenden här i kammaren. Nu kan
@@ -2560,8 +2554,6 @@
             kommer att avbemannas från detta datum. SJ:s beslut om avbemanning
             har överklagats hos regeringen.
           </seg>
-        </u>
-        <u xml:id="i-XqFwUipVA6VXj2tgmKKrxY" who="i-TRwqmRRb2L7vgDjft4i5Z" prev="i-f7d5c526c2611b5f-8" next="i-f7d5c526c2611b5f-9">
           <seg xml:id="i-BEeLw6ummQL4qK4zMxKkei">
             Enligt postverkets långsiktsplan skall vid lämpligt tillfälle
             undersökas om poststationen i Örsjö bör ersättas med lantbrevbäring
@@ -2569,7 +2561,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1975--36/prot_1975__36-025.jp2/_view"/>
-        <u xml:id="i-f7d5c526c2611b5f-9" who="i-TRwqmRRb2L7vgDjft4i5Z" prev="i-XqFwUipVA6VXj2tgmKKrxY">
+        <u xml:id="i-f7d5c526c2611b5f-9" who="i-TRwqmRRb2L7vgDjft4i5Z" prev="i-f7d5c526c2611b5f-8">
           <seg xml:id="i-XNNFpZm5eMxVk1PN18uipV">
             Postdirektionen i östra distriktet har i samråd med postmästaren
             i Nybro upprättat ett förslag till dylik omorganisation av postanordningarna
@@ -3303,13 +3295,11 @@
         <note xml:id="i-6rjMvTV8AfsrzEwCGyFL2F" type="speaker">
           Herr BOO (c):
         </note>
-        <u xml:id="i-YM3zfoST36LesE3j7dyXnF" who="i-4Fpaw3XcFb6Gne8E62mhr1" next="i-fad3c502b6415f8f-1">
+        <u xml:id="i-YM3zfoST36LesE3j7dyXnF" who="i-4Fpaw3XcFb6Gne8E62mhr1" next="i-fad3c502b6415f8f-2">
           <seg xml:id="i-3L7vXh6PfjHBf1dTc7SH5P">
             Herr talman! I centerns partiprogram inleds avsnittet om kommunal
             demokrati med följande:
           </seg>
-        </u>
-        <u xml:id="i-fad3c502b6415f8f-1" who="i-4Fpaw3XcFb6Gne8E62mhr1" prev="i-YM3zfoST36LesE3j7dyXnF" next="i-fad3c502b6415f8f-2">
           <seg xml:id="i-S5Zx67pwEjbkZGnhfMTihK">
             ”Centerpartiet eftersträvar en stark självstyrelse och en levande
             demokrati i såväl primärkommuner som län. Kommunal självstyrelse
@@ -3357,7 +3347,7 @@
         <note xml:id="i-Wg1KRQUf753AZPQ7FXRJtV">
           34
         </note>
-        <u xml:id="i-fad3c502b6415f8f-2" who="i-4Fpaw3XcFb6Gne8E62mhr1" prev="i-fad3c502b6415f8f-1" next="i-fad3c502b6415f8f-3">
+        <u xml:id="i-fad3c502b6415f8f-2" who="i-4Fpaw3XcFb6Gne8E62mhr1" prev="i-YM3zfoST36LesE3j7dyXnF" next="i-fad3c502b6415f8f-3">
           <seg xml:id="i-V5kBrBKVTJN5P7iYLCRFYJ">
             Jag skall endast hänvisa till insatserna från början av 1960-talet
             och framåt.
@@ -3690,7 +3680,7 @@
         <note xml:id="i-JyaEoKmnyW9TfKSHnE6ftH" type="speaker">
           Herr BJÖRCK i Nässjö (m):
         </note>
-        <u xml:id="i-c67448a608efc83a-27" who="i-GvBe798bQfFYpnaboy7YCF" next="i-Xj8kNs8aiPu9FDYzc1Ve9Z">
+        <u xml:id="i-c67448a608efc83a-27" who="i-GvBe798bQfFYpnaboy7YCF">
           <seg xml:id="i-EgBrd3GaW2chXU4GMnAJtz">
             Herr talman! Låt mig erkänna att jag inte förstår vad herr Romanus
             menar. Han tycks vara dåligt insatt i vad som har sagts i denna
@@ -3703,16 +3693,12 @@
             längd — och jag svarade på samtliga frågor för moderata samlingspartiets
             räkning. Vi var uppenbarligen så gott som helt och hållet överens.
           </seg>
-        </u>
-        <u xml:id="i-Xj8kNs8aiPu9FDYzc1Ve9Z" who="i-GvBe798bQfFYpnaboy7YCF" prev="i-c67448a608efc83a-27" next="i-c67448a608efc83a-28">
           <seg xml:id="i-MTZkeNcr2tJNFsq9tkxLn7">
             I moderata samlingspartiets partimotion nr 93 i år heter det:
             ”Genom ändring av kommunallagen bör kommunerna ges möjlighet att
             inrätta direktvalda kommundelsråd. Kommunerna bör själva få avgöra
             mandatperiod och tidpunkt för val.”
           </seg>
-        </u>
-        <u xml:id="i-c67448a608efc83a-28" who="i-GvBe798bQfFYpnaboy7YCF" prev="i-Xj8kNs8aiPu9FDYzc1Ve9Z">
           <seg xml:id="i-JzsC3AzU6TokaZXUH7geFt">
             Såvitt jag kan förstå, herr talman, är det självfallet inte fråga
             om några avhopp. Tvärtom är det kristallklart vad moderata samlingspartiet
@@ -3760,7 +3746,7 @@
         <note xml:id="i-SshZcS5ydgYTaKWUNyPuSg" type="speaker">
           Herr ROMANUS (fp):
         </note>
-        <u xml:id="i-S53rZuinxN4F1hGHy21f5b" who="i-Bx9fbNBh4ybH7H2kWavRdb" next="i-c67448a608efc83a-30">
+        <u xml:id="i-S53rZuinxN4F1hGHy21f5b" who="i-Bx9fbNBh4ybH7H2kWavRdb">
           <seg xml:id="i-G5BTiJBYcLpfdBUSV5J48X">
             Herr talman! Den 15 januari undertecknade ett stort antal ledamöter
             av moderata samlingspartiets riksdagsgrupp med herr Bohman i spetsen
@@ -3771,8 +3757,6 @@
             skall begära ett sådant lagförslag — företräds i dag av herr Ahlmarks
             reservation.
           </seg>
-        </u>
-        <u xml:id="i-c67448a608efc83a-30" who="i-Bx9fbNBh4ybH7H2kWavRdb" prev="i-S53rZuinxN4F1hGHy21f5b">
           <seg xml:id="i-Y1nX8P8X6vZ4SHQYRzgnFT">
             Nu vill herr Björck i Nässjö inte längre stödja sin partimotion.
             Det må vara hänt. Herr Björck har väl rätt att hoppa av partimotionen.
@@ -5727,7 +5711,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1975--36/prot_1975__36-063.jp2/_view"/>
-        <u xml:id="i-2519074017270607-19" who="i-NgcEAjjDpm3FVNBxiWvS8X" prev="i-2519074017270607-18" next="i-VXca6Qv5UVTCs3cy59kUbH">
+        <u xml:id="i-2519074017270607-19" who="i-NgcEAjjDpm3FVNBxiWvS8X" prev="i-2519074017270607-18">
           <seg xml:id="i-VQJx7WxpjwMpYUt2MSJSZZ">
             uppskovsbeslut ligger tanken — som pressutredningen har framfört
             till statsrådet Anna-Greta Leijon — att vid bedömningen av behovet
@@ -5735,8 +5719,6 @@
             tas till invandrarnas och minoritetsgruppernas totalsituation
             och övriga möjligheter att få information.
           </seg>
-        </u>
-        <u xml:id="i-VXca6Qv5UVTCs3cy59kUbH" who="i-NgcEAjjDpm3FVNBxiWvS8X" prev="i-2519074017270607-19">
           <seg xml:id="i-7HeqzXo36bTXtjfEP2mTdm">
             Jag yrkar med detta bifall till utskottets hemställan på samtliga
             punkter.
@@ -6220,7 +6202,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1975--36/prot_1975__36-069.jp2/_view"/>
-        <u xml:id="i-707c461a3a4a1b0d-4" who="i-2erDJuffjtgN8bt6dbUTTo" prev="i-707c461a3a4a1b0d-3" next="i-U9XaWRHrZ7Pk1Ubh7tLzUZ">
+        <u xml:id="i-707c461a3a4a1b0d-4" who="i-2erDJuffjtgN8bt6dbUTTo" prev="i-707c461a3a4a1b0d-3">
           <seg xml:id="i-7FsiVBnXiPPEGMwL6eHkDi">
             har stor betydelse för opinionsbildning, debatt och information.
           </seg>
@@ -6261,8 +6243,6 @@
             Herr talman! Den viktiga frågan om Estniska Dagbladet kommer
             att behandlas senare av herr Nordin.
           </seg>
-        </u>
-        <u xml:id="i-U9XaWRHrZ7Pk1Ubh7tLzUZ" who="i-2erDJuffjtgN8bt6dbUTTo" prev="i-707c461a3a4a1b0d-4">
           <seg xml:id="i-KKhoakCPuyQbPpK8eTnV1B">
             Jag yrkar bifall till utskottets hemställan.
           </seg>
@@ -7085,14 +7065,12 @@
         <note xml:id="i-BZqz8dzkruQWMYwcRBCR2p" type="speaker">
           Herr HALLENIUS (c):
         </note>
-        <u xml:id="i-XJzHJpmegGsazaC4zPDYHo" who="i-LTakVqpXykZkjsWbDm4VwD" next="i-645fd23aba1b16fd-1">
+        <u xml:id="i-XJzHJpmegGsazaC4zPDYHo" who="i-LTakVqpXykZkjsWbDm4VwD" next="i-UosqMXx8kfyhaBth3e9L3C">
           <seg xml:id="i-VD3Dcf4dETVVFRHY8fhHW1">
             Herr talman! I skatteutskottets betänkande nr 7 behandlas ett
             antal motioner med krav på slopande av beskattningen av fritt
             bränsle från egen fastighet, flertalet från centern.
           </seg>
-        </u>
-        <u xml:id="i-645fd23aba1b16fd-1" who="i-LTakVqpXykZkjsWbDm4VwD" prev="i-XJzHJpmegGsazaC4zPDYHo" next="i-UosqMXx8kfyhaBth3e9L3C">
           <seg xml:id="i-PxxVntaCyS8V13hr3rCVFv">
             Jordbrukare och rörelseidkare är ju skattepliktiga för naturauttag
             från jordbruk eller rörelse. Denna form av beskattning av naturaförmåner
@@ -7127,7 +7105,7 @@
         <note xml:id="i-P3ZKc5dTA3HPFp3ntRv37D">
           Slopande av beskattningen av fritt bränsle från
         </note>
-        <u xml:id="i-UosqMXx8kfyhaBth3e9L3C" who="i-LTakVqpXykZkjsWbDm4VwD" prev="i-645fd23aba1b16fd-1" next="i-645fd23aba1b16fd-4">
+        <u xml:id="i-UosqMXx8kfyhaBth3e9L3C" who="i-LTakVqpXykZkjsWbDm4VwD" prev="i-XJzHJpmegGsazaC4zPDYHo" next="i-645fd23aba1b16fd-4">
           <seg xml:id="i-FScz8XD8QDYWYcP99hkGCj">
             egen fastighet
           </seg>
@@ -7331,7 +7309,7 @@
         <note xml:id="i-8VLrkqN7k5kpprRAbMeXzc">
           82
         </note>
-        <u xml:id="i-fee06b6f20b64ef0-3" who="i-J9WXMYt9Qw34kHhRNAoiYX" prev="i-QccrRdNSN5Ma4CYghsDM9q" next="i-Swwa1xNbuoRFmTRqZ6Rxz4">
+        <u xml:id="i-fee06b6f20b64ef0-3" who="i-J9WXMYt9Qw34kHhRNAoiYX" prev="i-QccrRdNSN5Ma4CYghsDM9q">
           <seg xml:id="i-6r5qLcgW585BvWptdFpy9F">
             I TV kunde vi för några dagar sedan se att t. ex. Hälsingebolagen
             redan har börjat använda grönmassa, som man kallar det. Detta
@@ -7347,8 +7325,6 @@
             och kan följaktligen inte tillgodogöra sig dessa avdrag. Det är
             det som är skillnaden.
           </seg>
-        </u>
-        <u xml:id="i-Swwa1xNbuoRFmTRqZ6Rxz4" who="i-J9WXMYt9Qw34kHhRNAoiYX" prev="i-fee06b6f20b64ef0-3">
           <seg xml:id="i-CyFPDEuR3DYwKKdKRaX5QK">
             Med detta, herr talman, har jag klargjort utskottets mening,
             och jag yrkar bifall till utskottets hemställan samt avslag på
@@ -8049,7 +8025,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1975--36/prot_1975__36-091.jp2/_view"/>
-        <u xml:id="i-5c7c2468bd8a2fe4-1" who="i-91SAXsUbmLaUj8YfQKHZ1n" prev="i-5c7c2468bd8a2fe4-0" next="i-QAFn57zZbSy3AiCvDeXuWb">
+        <u xml:id="i-5c7c2468bd8a2fe4-1" who="i-91SAXsUbmLaUj8YfQKHZ1n" prev="i-5c7c2468bd8a2fe4-0" next="i-4TPMPwXn7S7ETeoTf2uiPW">
           <seg xml:id="i-J9jPtTHaY43PhFbLJFYBhx">
             potten, är det självklart att det påverkar möjligheterna att
             ta ut lön. Det måste det göra. Företagare har inga egna sedelpressar
@@ -8113,8 +8089,6 @@
             mellan avgifter och pension att fundera över. Därför föreslår
             vi att motionen överlämnas till kommittén.
           </seg>
-        </u>
-        <u xml:id="i-QAFn57zZbSy3AiCvDeXuWb" who="i-91SAXsUbmLaUj8YfQKHZ1n" prev="i-5c7c2468bd8a2fe4-1" next="i-4TPMPwXn7S7ETeoTf2uiPW">
           <seg xml:id="i-LzorKKgZyoiyLicb8QV1CS">
             Jag yrkar bifall till reservationen.
           </seg>
@@ -8131,7 +8105,7 @@
         <note xml:id="i-XHSK8SGi4bKrdBGWPceEss">
           Revidering av
         </note>
-        <u xml:id="i-4TPMPwXn7S7ETeoTf2uiPW" who="i-91SAXsUbmLaUj8YfQKHZ1n" prev="i-QAFn57zZbSy3AiCvDeXuWb">
+        <u xml:id="i-4TPMPwXn7S7ETeoTf2uiPW" who="i-91SAXsUbmLaUj8YfQKHZ1n" prev="i-5c7c2468bd8a2fe4-1">
           <seg xml:id="i-8wPLGbvsDQ6naMaYDRYa69">
             inkomstbegreppet
           </seg>
@@ -8691,7 +8665,7 @@
           Nr 122 av fru Ryding (vpk) till fru statsrådet Hjelm-Wallén om
           vidgad rätt till vikariatsersättning för ämneslärarkandidater:
         </note>
-        <u xml:id="i-4b72a3a0f7928871-6" who="unknown" next="i-NVLNvJGQpBRRMS8DeMpwR3">
+        <u xml:id="i-4b72a3a0f7928871-6" who="unknown">
           <seg xml:id="i-JUzzJi4QueZJMNTiUqkoZo">
             Vid ämneslärarutbildningen gäller att när handledaren finns disponibel
             utgår ingen ersättning till kandidaterna. Men när handledaren
@@ -8699,8 +8673,6 @@
             skall ämneslärarkandidaterna undervisa som vikarier utan ersättning
             mot att i vanliga fall lön utgår till dessa som vikarier.
           </seg>
-        </u>
-        <u xml:id="i-NVLNvJGQpBRRMS8DeMpwR3" who="unknown" prev="i-4b72a3a0f7928871-6">
           <seg xml:id="i-RvMJmsV7jdTANqS61H7oTV">
             Avser statsrådet vidtaga åtgärder så att detta förhållande kan
             rättas till och lön alltid utgår till ämneslärarkandidaterna vid
@@ -8711,7 +8683,7 @@
           Nr 123 av herr Henmark (fp) till herr socialministern om pensionsförmånerna
           för statspensionär med förtidsuttag av folkpension:
         </note>
-        <u xml:id="i-94bd973c3d22429c-0" who="i-6yryP5FsumcdXgD5cb8aDF" next="i-NgSrPtGLFv6WGi8VS6ShNc">
+        <u xml:id="i-94bd973c3d22429c-0" who="i-6yryP5FsumcdXgD5cb8aDF">
           <seg xml:id="i-Dnv5X7cXaF7t6uBAAL5xR9">
             Genom sättet på vilket samordningen sker mellan tjänstepension,
             ATP och folkpension har statspensionärer med förtidsuttag av folkpension
@@ -8719,8 +8691,6 @@
             den 1 december 1974 och höjningen av folkpensionerna den 1 januari
             1975. Med anledning härav ber jag att få ställa följande frågor:
           </seg>
-        </u>
-        <u xml:id="i-NgSrPtGLFv6WGi8VS6ShNc" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-94bd973c3d22429c-0">
           <seg xml:id="i-Mpg8whwRvVbvbohzzkkvoN">
             Har statsrådet iakttagit att statspensionärer med förtida pensionsuttag
             erhållit sänkt totalpension i samband med höjningen av folkpensionerna
@@ -8733,15 +8703,13 @@
           om verkställighet av riksdagens beslut beträffande utredning av
           vissa skattefrågor:
         </note>
-        <u xml:id="i-LT9Z9vR9GS2uu4zP1cMqy4" who="i-3urySgCAk2SuFz1BB8TX5x" next="i-cfa8d86a6a51bb6d-1">
+        <u xml:id="i-LT9Z9vR9GS2uu4zP1cMqy4" who="i-3urySgCAk2SuFz1BB8TX5x">
           <seg xml:id="i-VSdypCXmbK7anNJw75cE2n">
             Riksdagen beslöt under föregående år att begära utredningar beträffande
             dels differentiering av beskattningen i regionalpolitiskt syfte,
             dels differentiering av arbetsgivaravgiften även efter andra kriterier
             än regionala, dels ock indexreglering. av skattesystemet.
           </seg>
-        </u>
-        <u xml:id="i-cfa8d86a6a51bb6d-1" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-LT9Z9vR9GS2uu4zP1cMqy4">
           <seg xml:id="i-WKHowFDqsBaAvLXHrobUX">
             När avser statsrådet effektuera dessa riksdagens beslut?
           </seg>
@@ -8751,7 +8719,7 @@
           Nr 125 av herr Sellgren (fp) till herr handelsministern om innehållet
           i visst konsumentupplysningsprojekt:
         </note>
-        <u xml:id="i-43530306fe263e38-0" who="i-QSBS4dqtsRDzm8fcNNRFaC" next="i-Dx5r1XjePo1FQuNEeZHJuc">
+        <u xml:id="i-43530306fe263e38-0" who="i-QSBS4dqtsRDzm8fcNNRFaC" next="i-QKwsJsfLPFR3pPrmScmgEm">
           <seg xml:id="i-4ngcRWub71naFxcUxbGyFT">
             Sverige har genom Nordiska ministerrådet medverkat i ett konsumentupplysningsprojekt,
             benämnt En studie i konsumentforskning. Projektmaterialet används
@@ -8760,15 +8728,11 @@
             har utarbetats av en projektgrupp i Malmö och materialet används
             i skolor, förutom i Sverige, i Danmark, Finland och Norge.
           </seg>
-        </u>
-        <u xml:id="i-Dx5r1XjePo1FQuNEeZHJuc" who="i-QSBS4dqtsRDzm8fcNNRFaC" prev="i-43530306fe263e38-0" next="i-XPkQJm7dboUq4pHe1QwoJ1">
           <seg xml:id="i-HBsNqwawWqFsy6ZGTGaGyT">
             Med anledning härav vill jag till herr handelsministern i hans
             egenskap av Sveriges representant i Nordiska ministerrådet ställa
             följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-XPkQJm7dboUq4pHe1QwoJ1" who="i-QSBS4dqtsRDzm8fcNNRFaC" prev="i-Dx5r1XjePo1FQuNEeZHJuc" next="i-QKwsJsfLPFR3pPrmScmgEm">
           <seg xml:id="i-HpWdMDcmNqsPXEYVZsJF3G">
             Svarar innehållet i konsumentupplysningsprojektet En studie i
             konsumentforskning mot de intentioner som Nordiska ministerrådet
@@ -8780,15 +8744,13 @@
           om fördelningen av det statliga stödet till ungdomsorganisationernas
           centrala verksamhet:
         </note>
-        <u xml:id="i-QKwsJsfLPFR3pPrmScmgEm" who="i-QSBS4dqtsRDzm8fcNNRFaC" prev="i-XPkQJm7dboUq4pHe1QwoJ1" next="i-DeXmJBH5sj4gXudGhV2CwM">
+        <u xml:id="i-QKwsJsfLPFR3pPrmScmgEm" who="i-QSBS4dqtsRDzm8fcNNRFaC" prev="i-43530306fe263e38-0">
           <seg xml:id="i-8H6xxeqSuvK56DLqetxV4j">
             Med anledning av tidningsartiklar föranledda av propositionen
             1975:14 om statligt stöd till ungdomsorganisationernas centrala
             verksamhet m. m. önskar jag ställa följande fråga till fru statsrådet
             Hjelm-Wallén:
           </seg>
-        </u>
-        <u xml:id="i-DeXmJBH5sj4gXudGhV2CwM" who="i-QSBS4dqtsRDzm8fcNNRFaC" prev="i-QKwsJsfLPFR3pPrmScmgEm">
           <seg xml:id="i-MBVv7PLW8ukbZQwb651h2y">
             Vilka anslag kan pingströrelsens verksamhet bland barn och ungdom
             påräkna av samhället fortsättningsvis?

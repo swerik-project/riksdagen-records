@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-TypyNfbdeoyTF1DTLNZsxn" type="speech">
             <linkGrp type="u">
               <ptr target="#i-2ap8VsUwZJZU1oNyB1gyEv"/>
@@ -39,7 +39,13 @@
               <ptr target="#i-TiC2hxjnnR53U4xnNN86XX"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -113,7 +119,7 @@
         <note xml:id="i-XpLzHoebkX5dJmJ4FgtUDu">
           4 $.
         </note>
-        <u xml:id="i-CsYqz1Mza63ZDiWA6BmhYS" who="unknown">
+        <u xml:id="i-CsYqz1Mza63ZDiWA6BmhYS" who="unknown" next="i-Q4FJtr9JfwrGssdbgJtjc7">
           <seg xml:id="i-RowSy534rZgWJrcWjXhokS">
             För taxering till krigskonjunkturskatt beräknas inkomst av varje
             inkomstkälla för sig och till det belopp, varmed den vid stad-
@@ -129,14 +135,12 @@
         <note xml:id="i-UAwfiwhMYYaqZZqWiF7x4e" type="date">
           2 Torsdagen den 8 juni, f. m.
         </note>
-        <u xml:id="i-Q4FJtr9JfwrGssdbgJtjc7" who="unknown">
+        <u xml:id="i-Q4FJtr9JfwrGssdbgJtjc7" who="unknown" prev="i-CsYqz1Mza63ZDiWA6BmhYS" next="i-SRYB2M2Bg1iPkCZE2gZcPm">
           <seg xml:id="i-Ur18eg4gDBbbQzkAAuKSCX">
             gad deklaration om inkomst och förmögenhet bör angivas under
             litt. C och D i deklarationsformuläret, dock att inkomst under
             C I beräknas allenast till den del, som utgör tantiéme.
           </seg>
-        </u>
-        <u xml:id="i-J2KueyKR7EEuvLeCYM1Syz" who="unknown">
           <seg xml:id="i-KgvMrj8sJGtGo7ABSJyDhG">
             Vid taxeringen skall hänsyn tagas till särskilda, under nyssberörda
             litt. icke gjorda avdrag för värdeminskning, såvitt de beröra
@@ -146,8 +150,6 @@
             läget, avdrag får ske för förlust, som uppkommit å annat företag
             för utnyttjande av samma läge.
           </seg>
-        </u>
-        <u xml:id="i-Lhc8iAdzp6C4d9zHErfSPx" who="unknown">
           <seg xml:id="i-YL9ZcexqE8qDhojJdmTLsC">
             Därest icke kan utrönas, med vilket belopp inkomst, som här avses,
             ingår i det till inkomstoch förmögenhetsskatt taxerade beloppet,
@@ -188,7 +190,7 @@
           bsådan — — — — — — — — — — form som helst. | Inkomst, varom —
           — — — — — — — — fan tiéme. : 4 8.
         </note>
-        <u xml:id="i-SRYB2M2Bg1iPkCZE2gZcPm" who="unknown">
+        <u xml:id="i-SRYB2M2Bg1iPkCZE2gZcPm" who="unknown" prev="i-Q4FJtr9JfwrGssdbgJtjc7">
           <seg xml:id="i-DtqybYfPeqwyk9uYjxpBDK">
             För taxering till krigskonjunkturskatt beräknas inkomst av varje
             inkomstkälla för sig och till det belopp, varmed den vid stadgad

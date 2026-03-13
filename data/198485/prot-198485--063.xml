@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-9gqM7KX1muKAAosKbSQFWC" type="speech">
             <linkGrp type="u">
               <ptr target="#i-DfzMyiv2PhpV7zwZkTfaSk"/>
@@ -445,7 +445,13 @@
               <ptr target="#i-BEPViYJwxLgaDUUD5cagSp"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -705,7 +711,7 @@
           Förhandlingarna leddes till en början av tredje vice talmannen.
           18 Upplästes följande inkomna skrivelser:
         </note>
-        <u xml:id="i-3DSnKE8JBS691CduH1GEdv" who="unknown">
+        <u xml:id="i-3DSnKE8JBS691CduH1GEdv" who="unknown" next="i-UNwPg7q5qPXPv8KpbfVvyi">
           <seg xml:id="i-RZj5FCG7q2KeK6nQSkjAx3">
             Till riksdagen Undertecknad ledamot anhåller härmed att bli befriad
             från uppdraget som suppleant i konstitutionsutskottet. Stockholm
@@ -715,20 +721,16 @@
         <note xml:id="i-SW7Qokev2PkUptH9CTVjdp">
           Till riksdagen
         </note>
-        <u xml:id="i-UNwPg7q5qPXPv8KpbfVvyi" who="unknown">
+        <u xml:id="i-UNwPg7q5qPXPv8KpbfVvyi" who="unknown" prev="i-3DSnKE8JBS691CduH1GEdv">
           <seg xml:id="i-TNb7TB6CmmJ1vnuA7pc5aw">
             Härmed får jag avsäga mig uppdraget såsom ledamot av finansutskottet.
             Stockholm den 14 januari 1985 Lennart Blom
           </seg>
-        </u>
-        <u xml:id="i-bafxWqviXUQbfKLHo2CnX" who="unknown">
           <seg xml:id="i-ViGDfw728mYtiFTA2R4WA3">
             Till riksdagen Härmed ber jag om entledigande från uppdraget
             som suppleant i finansutskottet. Stockholm den 15 januari 1985
             Rune Rydén
           </seg>
-        </u>
-        <u xml:id="i-Aj35swj8owJfR2w4DTzAMJ" who="unknown">
           <seg xml:id="i-QvzHbjwE3iyoBkLnu5jYQ">
             Till riksdagen Härmed ber jag om entledigande från uppdraget
             som ledamot i utbildningsutskottet. Stockholm den 15 januari 1985
@@ -757,22 +759,18 @@
         <note xml:id="i-YGfydYqz6GASocNVzxMrnH" type="speaker">
           Anf. 1 Kommunikationsminister CURT BOSTRÖM:
         </note>
-        <u xml:id="i-DfzMyiv2PhpV7zwZkTfaSk" who="i-HGfALYBg5SLYb8z1er3XK1" next="i-TjfPGDB7vvduAqSAE5GrTZ">
+        <u xml:id="i-DfzMyiv2PhpV7zwZkTfaSk" who="i-HGfALYBg5SLYb8z1er3XK1">
           <seg xml:id="i-GGJAiSp7tUh2NQhtf97mCU">
             Herr talman! Marianne Stålberg har erfarit att SJ lär planera
             att lägga ned sin verksamhet i Östersund och har mot den bakgrunden
             frågat mig om inte regeringens regionalpolitiska riktlinjer även
             bör gälla SJ.
           </seg>
-        </u>
-        <u xml:id="i-TjfPGDB7vvduAqSAE5GrTZ" who="i-HGfALYBg5SLYb8z1er3XK1" prev="i-DfzMyiv2PhpV7zwZkTfaSk" next="i-MKBok9HjFPGe17zRogSK4U">
           <seg xml:id="i-U6dYnMDtxrKA2cT37ooKLn">
             Jag vill först klargöra att det ligger inom SJ:s beslutsområde
             att bestämma om hur många verkstäder man behöver och var dessa
             skall ligga i landet.
           </seg>
-        </u>
-        <u xml:id="i-MKBok9HjFPGe17zRogSK4U" who="i-HGfALYBg5SLYb8z1er3XK1" prev="i-TjfPGDB7vvduAqSAE5GrTZ" next="i-9sHD5TumqZE7sgSGHHzuhY">
           <seg xml:id="i-VQ1a5iPmRrD3XChTamjBbZ">
             SJ:s verkstadsorganisation byggdes i huvudsak upp kring sekelskiftet
             och är därför anpassad till den tidens trafik och rullande materiel.
@@ -785,8 +783,6 @@
             behov. SJ har mot denna bakgrund sedan en tid övervägt verkstadsorganisationens
             framtida utformning.
           </seg>
-        </u>
-        <u xml:id="i-9sHD5TumqZE7sgSGHHzuhY" who="i-HGfALYBg5SLYb8z1er3XK1" prev="i-MKBok9HjFPGe17zRogSK4U" next="i-RJi8ywkybNZ1wbMBH8eGTq">
           <seg xml:id="i-VZDjxKDZbtsudUsXNnrQAk">
             SJ är utsatt för hård konkurrens och samtidigt skyldigt att uppfylla
             de ekonomiska krav som statsmakterna ställt upp. Det är därför
@@ -794,8 +790,6 @@
             så effektivt som möjligt. Regionalpolitiska bedömningar får i
             första hand göras av riksdag och regering.
           </seg>
-        </u>
-        <u xml:id="i-RJi8ywkybNZ1wbMBH8eGTq" who="i-HGfALYBg5SLYb8z1er3XK1" prev="i-9sHD5TumqZE7sgSGHHzuhY">
           <seg xml:id="i-8voQZ8qzHgqr5BFUPZoUX1">
             SJ har ännu inte fattat beslut om nedläggning av någon verkstad.
             Jag förutsätter att SJ innan ett eventuellt beslut fattas tar
@@ -1380,20 +1374,16 @@
           vardagsmänniskor här hemma i Sverige och av internationella rättsorgan
           — Nr 63
         </note>
-        <u xml:id="i-81c3e66b02e36c8f-1" who="i-UmGHrbipY4e5SAGvddBkzr" prev="i-81c3e66b02e36c8f-0" next="i-3F5JrZQn4NVdTjymTfcsbk">
+        <u xml:id="i-81c3e66b02e36c8f-1" who="i-UmGHrbipY4e5SAGvddBkzr" prev="i-81c3e66b02e36c8f-0">
           <seg xml:id="i-5TALejg9hNqSb9DpSPFSWN">
             anses vara ett skydd för våra gemensamma mänskliga rättigheter.
             Torsdagen den Jag är mycket väl medveten om att en fällande dom
             och en överenskom- 17 januari 1985
           </seg>
-        </u>
-        <u xml:id="i-3F5JrZQn4NVdTjymTfcsbk" who="i-UmGHrbipY4e5SAGvddBkzr" prev="i-81c3e66b02e36c8f-1" next="i-81c3e66b02e36c8f-2">
           <seg xml:id="i-UuAHHxfcFrGcurAJTb3rt4">
             melse med Folke Pudas, som möjligen kunde träffas dessförinnan,
             skulle få å
           </seg>
-        </u>
-        <u xml:id="i-81c3e66b02e36c8f-2" who="i-UmGHrbipY4e5SAGvddBkzr" prev="i-3F5JrZQn4NVdTjymTfcsbk">
           <seg xml:id="i-VbnZGSX7KyqjGoCMUxS24G">
             vida verkningar även utanför det här ärendets ram.
           </seg>
@@ -1421,7 +1411,7 @@
         <note xml:id="i-TjHttdjfetRoxXZ8T4e5Va" type="speaker">
           Anf. 15 Kommunikationsminister CURT BOSTRÖM:
         </note>
-        <u xml:id="i-81c3e66b02e36c8f-3" who="i-HGfALYBg5SLYb8z1er3XK1" next="i-8aEtPDAPMNpAj9bwpgCwFZ">
+        <u xml:id="i-81c3e66b02e36c8f-3" who="i-HGfALYBg5SLYb8z1er3XK1" next="i-81c3e66b02e36c8f-6">
           <seg xml:id="i-PmnZyugxjzMboSyBH44jA8">
             Herr talman! Sven Henricsson har frågat mig hur resandeantalet
             har utvecklats med ersättningsbusslinjer i jämförelse med den
@@ -1481,7 +1471,7 @@
         <note xml:id="i-HX5km5MHLvzWt5RTsjsenM">
           14
         </note>
-        <u xml:id="i-81c3e66b02e36c8f-6" who="i-HGfALYBg5SLYb8z1er3XK1" prev="i-8aEtPDAPMNpAj9bwpgCwFZ">
+        <u xml:id="i-81c3e66b02e36c8f-6" who="i-HGfALYBg5SLYb8z1er3XK1" prev="i-81c3e66b02e36c8f-3">
           <seg xml:id="i-2VSJYbyv7QKUokp6VjmSzx">
             tillräckligt underlag för säker beräkning av hur stor del av
             resandeökningen som kan tillskrivas en överflyttning från tågen.
@@ -1746,7 +1736,7 @@
         <note xml:id="i-T2jV2Ks5fE99az2BU24Z5Y" type="speaker">
           Anf. 24 JAN HYTTRING (c):
         </note>
-        <u xml:id="i-480ff0f30b626f03-0" who="i-CVCXfw1YgSNtfc8szARmnb" next="i-DzUGUDCYjYje49utYNXvFF">
+        <u xml:id="i-480ff0f30b626f03-0" who="i-CVCXfw1YgSNtfc8szARmnb">
           <seg xml:id="i-8WGXNqTfbvramYYgpwRPmS">
             Herr talman! Min fråga är naturligtvis föranledd av att regeringen
             helt nyligen har beslutat att lägga ned persontrafiken på sträckan
@@ -1761,15 +1751,11 @@
             att trafikera. Svaret innehåller inga besked om hur man skall
             göra med den bandelen.
           </seg>
-        </u>
-        <u xml:id="i-DzUGUDCYjYje49utYNXvFF" who="i-CVCXfw1YgSNtfc8szARmnb" prev="i-480ff0f30b626f03-0" next="i-480ff0f30b626f03-1">
           <seg xml:id="i-WhU9AQxXaJYFpjZbeujxoc">
             Jag vill citera vad trafikutskottets ordförande under perioden
             1976-1979, Sven Mellqvist, sade när frågan behandlades i riksdagen
             den 1 juni 1979:
           </seg>
-        </u>
-        <u xml:id="i-480ff0f30b626f03-1" who="i-CVCXfw1YgSNtfc8szARmnb" prev="i-DzUGUDCYjYje49utYNXvFF" next="i-XofnPKNaRv3C5KgugpYdeG">
           <seg xml:id="i-UuVMDgRyF1oT9khwCsY2nM">
             ”Vad vi eftersträvar nu är väl att skapa förbindelser till olika
             centra i vårt land och att inte utelämna något. Det är inte minst
@@ -1785,8 +1771,6 @@
             kan borttagandet av persontrafiken på sikt leda till att även
             godstrafiken dras in.
           </seg>
-        </u>
-        <u xml:id="i-XofnPKNaRv3C5KgugpYdeG" who="i-CVCXfw1YgSNtfc8szARmnb" prev="i-480ff0f30b626f03-1">
           <seg xml:id="i-R8ogegox91Sbtb4S9BNstK">
             Jag skulle vilja fråga kommunikationsministern: Vilka insatser
             avser kommunikationsministern att göra för att få till stånd en
@@ -2431,12 +2415,10 @@
         <note xml:id="i-SnVKmECZyG3K8BFMxhCYhw" type="speaker">
           Anf. 41 KARIN AHRLAND (fp):
         </note>
-        <u xml:id="i-4c9584a57324dbbb-10" who="i-DDBp1Uv1xUyCgUST4Mk7Ub" next="i-GZesW5QeZ4rJX91y7DZYp9">
+        <u xml:id="i-4c9584a57324dbbb-10" who="i-DDBp1Uv1xUyCgUST4Mk7Ub" next="i-4c9584a57324dbbb-12">
           <seg xml:id="i-TzZoMSA65ikG6QqRHpsmh3">
             Herr talman! Jag tackar justitieministern för svaret.
           </seg>
-        </u>
-        <u xml:id="i-GZesW5QeZ4rJX91y7DZYp9" who="i-DDBp1Uv1xUyCgUST4Mk7Ub" prev="i-4c9584a57324dbbb-10" next="i-4c9584a57324dbbb-11">
           <seg xml:id="i-CEBQNFZMfxhPdjNvyhwEnf">
             I hela regeringskansliet fanns det så här dags förra året 10
             96 kvinnor på chefslöneplanet och 21 96 i lönegraderna 23-26 samt
@@ -2446,8 +2428,6 @@
             Det fanns 44 sakkunniga totalt; 13 av dem eller knappt 30 96 var
             kvinnor.
           </seg>
-        </u>
-        <u xml:id="i-4c9584a57324dbbb-11" who="i-DDBp1Uv1xUyCgUST4Mk7Ub" prev="i-GZesW5QeZ4rJX91y7DZYp9" next="i-4c9584a57324dbbb-12">
           <seg xml:id="i-2dy5559XC5mdqqebVksqxm">
             Detta är inte några siffror som man blir glad över. Dess värre
             gäller väl ungefär samma siffror i dag — jag säger det även om
@@ -2458,7 +2438,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198485--63/prot_198485__63-025.jp2/_view"/>
-        <u xml:id="i-4c9584a57324dbbb-12" who="i-DDBp1Uv1xUyCgUST4Mk7Ub" prev="i-4c9584a57324dbbb-11">
+        <u xml:id="i-4c9584a57324dbbb-12" who="i-DDBp1Uv1xUyCgUST4Mk7Ub" prev="i-4c9584a57324dbbb-10">
           <seg xml:id="i-BuzVJwhCiYcPuwARuTPThV">
             verkligheten, och det borde inte vara så svårt för en justitieminister,
             eftersom riksdagen genom stadganden i regeringsformen och genom
@@ -2592,7 +2572,7 @@
         <note xml:id="i-TdsMi8rKpCH59mqy9rGAab" type="speaker">
           Anf. 44 Justitieminister STEN WICKBOM:
         </note>
-        <u xml:id="i-4c9584a57324dbbb-19" who="i-GwSWKqF8wUht9mCcC5zupF" next="i-Daah1X8Kw7Tmr13ahyVnZu">
+        <u xml:id="i-4c9584a57324dbbb-19" who="i-GwSWKqF8wUht9mCcC5zupF" next="i-4c9584a57324dbbb-21">
           <seg xml:id="i-62LZWCy1cM21dYJiQmUqKv">
             Herr talman! Bertil Fiskesjö har frågat mig dels om jag anser
             att det är acceptabelt att vanlig lag står i strid med föreskrifter
@@ -2616,8 +2596,6 @@
             och handläggare vid dessa att följa domstolsutslag och gällande
             lag. Frågan har överlämnats till mig.
           </seg>
-        </u>
-        <u xml:id="i-Daah1X8Kw7Tmr13ahyVnZu" who="i-GwSWKqF8wUht9mCcC5zupF" prev="i-4c9584a57324dbbb-19" next="i-4c9584a57324dbbb-21">
           <seg xml:id="i-S4rMG4h6sZGyZDE1ZFT9AL">
             Under förarbetena till lagstiftningen om löntagarfonder tog lagrådet
             särskilt upp frågan om det med hänsyn till 11 kap. 9 $ regeringsformen
@@ -2627,7 +2605,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198485--63/prot_198485__63-027.jp2/_view"/>
-        <u xml:id="i-4c9584a57324dbbb-21" who="i-GwSWKqF8wUht9mCcC5zupF" prev="i-Daah1X8Kw7Tmr13ahyVnZu" next="i-RNH1myn4X9VKRrJZtxFn9S">
+        <u xml:id="i-4c9584a57324dbbb-21" who="i-GwSWKqF8wUht9mCcC5zupF" prev="i-4c9584a57324dbbb-19">
           <seg xml:id="i-UigLXMw3Zf3Spb72Wo7FnB">
             institution. Även om fondens förvaltande organ, fondstyrelserna,
             skulle anses ingå i den statliga förvaltningsorganisationen, låter
@@ -2637,14 +2615,10 @@
             Grundlagsstadgandet torde därför inte hindra att också utländska
             medborgare utses till ledamöter i en löntagarfondstyrelse.”
           </seg>
-        </u>
-        <u xml:id="i-RNH1myn4X9VKRrJZtxFn9S" who="i-GwSWKqF8wUht9mCcC5zupF" prev="i-4c9584a57324dbbb-21" next="i-HqFbjiu2GLhwadTeCEFCCr">
           <seg xml:id="i-BYDpUxXRgbcDTYx2ic9wf8">
             Vid riksdagsbehandlingen av propositionen förklarade sig konstitutionsutskottet
             godta lagrådets uttalande. Riksdagen följde utskottet.
           </seg>
-        </u>
-        <u xml:id="i-HqFbjiu2GLhwadTeCEFCCr" who="i-GwSWKqF8wUht9mCcC5zupF" prev="i-RNH1myn4X9VKRrJZtxFn9S" next="i-4c9584a57324dbbb-22">
           <seg xml:id="i-7UhE5XyxRQoFf3j2GsDCSb">
             Den omständigheten att regeringsrätten i två avgöranden om utlämnande
             av allmän handling har uttalat att löntagarfondsstyrelserna är
@@ -2655,8 +2629,6 @@
             ställning vid tillämpningen av bestämmelserna i tryckfrihetsförordningen
             och sekretesslagen.
           </seg>
-        </u>
-        <u xml:id="i-4c9584a57324dbbb-22" who="i-GwSWKqF8wUht9mCcC5zupF" prev="i-HqFbjiu2GLhwadTeCEFCCr">
           <seg xml:id="i-U3jB38kWHfcjru9zN5CYGh">
             Enligt min mening föreligger det alltså inte någon sådan motsättning
             mellan grundlag och vanlig lag som Bertil Fiskesjö har gjort gällande.
@@ -3317,7 +3289,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198485--63/prot_198485__63-035.jp2/_view"/>
-        <u xml:id="i-a5249cd9d049e475-6" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-GT1jqQVUWiekiaFGdCpNGf" next="i-RNTxT75UQe8xyLBT6av9xc">
+        <u xml:id="i-a5249cd9d049e475-6" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-GT1jqQVUWiekiaFGdCpNGf">
           <seg xml:id="i-4oUhXb7kYWBgUd1nq6JXEt">
             tidtabellen när det gäller enskilda reaktorers avveckling, men
             jag är som sagt mer intresserad av principen. Är det denna princip
@@ -3327,14 +3299,10 @@
           <seg xml:id="i-BY8NAd3CEaeeye5m97UnaB">
             Det finns en rad villkor som måste tillgodoses i det här sammanhanget.
           </seg>
-        </u>
-        <u xml:id="i-RNTxT75UQe8xyLBT6av9xc" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-a5249cd9d049e475-6" next="i-a5249cd9d049e475-7">
           <seg xml:id="i-5j9VaN1MZ7dyK3uenJaqqb">
             1. Avvecklingsplanen skall fullfölja folkomröstningens och riksdagsbeslutens
             innebörd — det är självklart.
           </seg>
-        </u>
-        <u xml:id="i-a5249cd9d049e475-7" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-RNTxT75UQe8xyLBT6av9xc">
           <seg xml:id="i-HTs4oWJBQwgvn8RERTipkL">
             2. Planen måste ge klara besked, så att marknadens aktörer vet
             vad de har att rätta sig efter. Däri ligger en del av trovärdigheten.
@@ -4972,7 +4940,7 @@
           kan detta vara en logisk slutledning, men sett i ett politiskt
           perspektiv blir slutsatsen horribel, särskilt som äs
         </note>
-        <u xml:id="i-a5249cd9d049e475-63" who="unknown">
+        <u xml:id="i-a5249cd9d049e475-63" who="unknown" next="i-a5249cd9d049e475-66">
           <seg xml:id="i-KLWi2XkZQtk8QeW6nP6NYc">
             det bl. a. gäller ett statligt verks (Vattenfalls) roll i energipolitiken.
           </seg>
@@ -4990,7 +4958,7 @@
         <note xml:id="i-REQKj5MvmavBTi3ittN8Xj">
           56
         </note>
-        <u xml:id="i-a5249cd9d049e475-66" who="unknown">
+        <u xml:id="i-a5249cd9d049e475-66" who="unknown" prev="i-a5249cd9d049e475-63">
           <seg xml:id="i-GF9acTxtuM6S7bHPQXgUVj">
             Såvitt jag erfarit har inte heller Vattenfall intagit en fullt
             så negativ hållning som energiverkets rapport kan ge intryck av.
@@ -5029,14 +4997,10 @@
             anslutning till befintlig anläggning vid Näsudden på Gotland.
             Finansiering skulle delvis kunna ske med PoD-medel (oljeersättningsfonden).
           </seg>
-        </u>
-        <u xml:id="i-GJ4tvEJtte1sEaKas6YzgE" who="unknown">
           <seg xml:id="i-KZtypNn9aTNLFfsoouB4Mv">
             Med hänvisning till ovanstående anhåller jag att få ställa följande
             fråga till energiministern:
           </seg>
-        </u>
-        <u xml:id="i-3odHHSV7BCg9sTpT4CiAHJ" who="unknown">
           <seg xml:id="i-D8Lewmhr3n825kMx7d9eEE">
             Ärstatsrådet beredd att medverka till att minst en ytterligare
             vindkraftsanläggning uppförs vid Näsudden på Gotland?
@@ -5055,20 +5019,18 @@
           358 av Oskar Lindkvist (s) till utbildningsministern om svenskundervisningen
           för invandrare:
         </note>
-        <u xml:id="i-a49bce4967f95295-1" who="i-GCJVTREcJGRyYmFdeMbNaN" next="i-BBMJtCs3asGBmh9av2P6TM">
+        <u xml:id="i-a49bce4967f95295-1" who="i-GCJVTREcJGRyYmFdeMbNaN" next="i-BEPViYJwxLgaDUUD5cagSp">
           <seg xml:id="i-JTH5CTEQa68bHu3sGDvXBE">
             Behovet av svenskundervisning för invandrare har ökat under innevarande
             år. Antalet timmar inom den s.k. fria kvoten räcker inte till,
             medan det blir ett överskott av timmar på den s.k. lagbundna kvoten.
           </seg>
-        </u>
-        <u xml:id="i-BBMJtCs3asGBmh9av2P6TM" who="i-GCJVTREcJGRyYmFdeMbNaN" prev="i-a49bce4967f95295-1" next="i-BEPViYJwxLgaDUUD5cagSp">
           <seg xml:id="i-51egFAuBLPkAeAYuEy2954">
             Mot denna bakgrund vill jag fråga utbildningsministern:
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198485--63/prot_198485__63-057.jp2/_view"/>
-        <u xml:id="i-BEPViYJwxLgaDUUD5cagSp" who="i-GCJVTREcJGRyYmFdeMbNaN" prev="i-BBMJtCs3asGBmh9av2P6TM">
+        <u xml:id="i-BEPViYJwxLgaDUUD5cagSp" who="i-GCJVTREcJGRyYmFdeMbNaN" prev="i-a49bce4967f95295-1">
           <seg xml:id="i-NxAUVvBdMaL71iC3Ur7sRZ">
             Vilka möjligheter finns det att öka resurserna inom den fria
             kvoten för Nr 63

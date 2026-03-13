@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>digital-origin</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">digital-origin</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-3Ncr57VS8XPhoi76jqZzLS" type="speech">
             <linkGrp type="u">
               <ptr target="#i-6230677103c2e49c-2"/>
@@ -50,7 +50,13 @@
               <ptr target="#i-6230677103c2e49c-12"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -92,12 +98,10 @@
         <note xml:id="i-NVAtKzVTLWLbcdzXbX68eo" type="speaker">
           Anf. 1 TALMANNEN
         </note>
-        <u xml:id="i-6230677103c2e49c-2" who="i-YUKjmPPD3LmjeCPdQWkuEh" next="i-6230677103c2e49c-3">
+        <u xml:id="i-6230677103c2e49c-2" who="i-YUKjmPPD3LmjeCPdQWkuEh" next="i-6230677103c2e49c-5">
           <seg xml:id="i-Gz8vSq46nads3WXxKgiaCh">
             Jag får anmäla att jag på begäran av statsminister
           </seg>
-        </u>
-        <u xml:id="i-6230677103c2e49c-3" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-6230677103c2e49c-2" next="i-6230677103c2e49c-5">
           <seg xml:id="i-PoS9QveT9tu9ag1s1kbRPN">
             Ingvar Carlsson entledigat honom från befattningen som statsminister.
             Till följd härav har jag entledigat också övriga statsråd. Regeringens
@@ -111,7 +115,7 @@
         <note xml:id="i-FPK7QMBiSWVUDpkXCdfCTh">
           Riksdagens talman
         </note>
-        <u xml:id="i-6230677103c2e49c-5" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-6230677103c2e49c-3" next="i-PB23zv2BmHAExKA6Nv8f4J">
+        <u xml:id="i-6230677103c2e49c-5" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-6230677103c2e49c-2" next="i-PB23zv2BmHAExKA6Nv8f4J">
           <seg xml:id="i-QUeKta2Z4TF5hLv8jCrkzZ">
             Jag begär härmed att bli entledigad från befattningen som statsminister.
           </seg>
@@ -128,14 +132,12 @@
         <note xml:id="i-KQXp2Y8WYpuedCzntgFMBh">
           Till statsministern och övriga statsråd
         </note>
-        <u xml:id="i-PB23zv2BmHAExKA6Nv8f4J" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-6230677103c2e49c-5" next="i-4FqWcTD9m5nB1Y4a52KcTV">
+        <u xml:id="i-PB23zv2BmHAExKA6Nv8f4J" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-6230677103c2e49c-5">
           <seg xml:id="i-APKuZDrh9zwBBEbM86TGRc">
             Statsministern har i dag till mig överlämnat en skrivelse med
             begäran om entledigande. I anledning därav och med stöd av bestämmelserna
             i 6 kap. 6 och
           </seg>
-        </u>
-        <u xml:id="i-4FqWcTD9m5nB1Y4a52KcTV" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-PB23zv2BmHAExKA6Nv8f4J">
           <seg xml:id="i-Gya9Tvs3baCCGdtpZVvReB">
             7 §§ regeringsformen entledigar jag statsministern och övriga
             statsråd. jag erinrar om stadgandet i 8 § i samma kapitel: Har
@@ -206,13 +208,11 @@
         <note xml:id="i-NSsvWvrwpjC2T5fzVCF144">
           mars kl. 12.00.
         </note>
-        <u xml:id="i-TAZ9rZsMLvsyFPqt1Yu2a1" who="unknown">
+        <u xml:id="i-TAZ9rZsMLvsyFPqt1Yu2a1" who="unknown" next="i-6230677103c2e49c-9">
           <seg xml:id="i-NE7itEeehV6vcrQxciqNPX">
             Från regeringen skulle justitieministern delta och från Folkpartiet
             Siw Persson.
           </seg>
-        </u>
-        <u xml:id="i-6230677103c2e49c-8" who="unknown">
           <seg xml:id="i-DyGE8ajsjR8Aq2AQ44PWtx">
             En företrädare för varje parti skulle ha rätt att delta i debatten.
           </seg>
@@ -230,7 +230,7 @@
         <note xml:id="i-Rx7cqkmSZnsjCjZCRoppv">
           Begäran om aktuell debatt om mc-anknutet våld
         </note>
-        <u xml:id="i-6230677103c2e49c-9" who="unknown">
+        <u xml:id="i-6230677103c2e49c-9" who="unknown" prev="i-TAZ9rZsMLvsyFPqt1Yu2a1" next="i-6230677103c2e49c-11">
           <seg xml:id="i-XVgtjbmuvJyV2DTKwAWzdP">
             Statens kärnfunktion är att tillförsäkra medborgarna trygghet
             till liv, hälsa och egendom. Rättsväsendet måste därför garantera
@@ -238,8 +238,6 @@
             Varje medborgare måste kunna känna att rättsväsendet tillhandahåller
             såväl det effektivaste som det enda sättet att skipa rättvisa.
           </seg>
-        </u>
-        <u xml:id="i-6230677103c2e49c-10" who="unknown">
           <seg xml:id="i-2toiw4B8byq1mqCt6QKB55">
             Det allt vanligare förekommande våld som är knutet till vissa
             mc-gäng tär på den svenska rättsstatens fundament. I kretsarna
@@ -250,14 +248,12 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/9B1A2D59-0ADF-4DBA-B6ED-7F85CF368A0F#page=3"/>
-        <u xml:id="i-6230677103c2e49c-11" who="unknown">
+        <u xml:id="i-6230677103c2e49c-11" who="unknown" prev="i-6230677103c2e49c-9">
           <seg xml:id="i-EgQu3s5fB8pXgwctUq43X9">
             Det är uppenbart att inte tillräckligt gjorts från statsmakternas
             sida för att stävja det mc-anknutna våldet och den övriga kriminalitet
             som härrör från organisationer som Hells Angels och Bandidos.
           </seg>
-        </u>
-        <u xml:id="i-6230677103c2e49c-12" who="unknown">
           <seg xml:id="i-9RDtboYHzeKe72CcSpweEG">
             Mot denna bakgrund begär Folkpartiet liberalernas riksdagsgrupp
             att en aktuell debatt anordnas angående mc-anknutet våld.

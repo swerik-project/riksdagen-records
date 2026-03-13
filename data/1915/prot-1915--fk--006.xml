@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-7gb7spjMjnnwRHDRk8DecY" type="speech">
             <linkGrp type="u">
               <ptr target="#i-EA7NxXgEAP8oPBgmBuRgBS"/>
@@ -131,7 +131,13 @@
               <ptr target="#i-BktfrPjTqed1w7QjgfS6FV"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -171,7 +177,7 @@
         <note xml:id="i-Qky8qEsQ5EGHnX736qxMdr" type="speaker">
           Herr Trygger:
         </note>
-        <u xml:id="i-EA7NxXgEAP8oPBgmBuRgBS" who="i-YBeHR1zEBPMM35nMEreTz" next="i-PEFVdsCmUAS93Dhs5xesiY">
+        <u xml:id="i-EA7NxXgEAP8oPBgmBuRgBS" who="i-YBeHR1zEBPMM35nMEreTz" next="i-EAYfvASAaYx7p73AWgTyXM">
           <seg xml:id="i-B8GxpZpNULNFdmqYkj9yRu">
             Herr talman, mina herrar! Otvivelaktigt är, att man i vårt land
             med stor spänning emotsåg Kungl. Maj:ts proposition angående statsverkets
@@ -180,8 +186,6 @@
             statens inkomster och utgifter som ock på den enskildes ekonomi
             och därmed
           </seg>
-        </u>
-        <u xml:id="i-PEFVdsCmUAS93Dhs5xesiY" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-EA7NxXgEAP8oPBgmBuRgBS" next="i-EAYfvASAaYx7p73AWgTyXM">
           <seg xml:id="i-FvtHkrE51p55YAEPyqAb42">
             å hans skatteförmåga under den närmaste framtiden. Med tillfredsställelse
             finna vi av den kungl. propositionen, hurusom Kungl. Maj:t i sitt
@@ -218,7 +222,7 @@
         <note xml:id="i-Bu41XriK3JWw4WJzfPuJhM" type="title">
           2 Lördagen den 23 januari.
         </note>
-        <u xml:id="i-EAYfvASAaYx7p73AWgTyXM" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-PEFVdsCmUAS93Dhs5xesiY" next="i-6NTjttiAtodDXKWrkHf9dY">
+        <u xml:id="i-EAYfvASAaYx7p73AWgTyXM" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-EA7NxXgEAP8oPBgmBuRgBS" next="i-6NTjttiAtodDXKWrkHf9dY">
           <seg xml:id="i-QE8XeD3cgoZBY5JxurzV3n">
             Statsverksnu vilja uttala något bestämt omdöme i frågan kan jag
             dock propositionen. för min del icke undgå att påpeka, att de
@@ -228,7 +232,7 @@
         <note xml:id="i-JJ8idtAuUa6JvyAPFb3Rek">
           (Forts.)
         </note>
-        <u xml:id="i-6NTjttiAtodDXKWrkHf9dY" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-EAYfvASAaYx7p73AWgTyXM" next="i-6WBeVgP2XP2VZxNiFVuyx8">
+        <u xml:id="i-6NTjttiAtodDXKWrkHf9dY" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-EAYfvASAaYx7p73AWgTyXM" next="i-BQroxMygKpFDsNXthVkdEf">
           <seg xml:id="i-YS8rmMcPqmmMVHqiDMyVVr">
             bördor, som genom värnskatten ålagts vår industri och följaktligen
             komma att öva inverkan på vårt näringsliv, göra det till en bjudande
@@ -244,8 +248,6 @@
             den kapitaltillväxt eller rent av minska det redan samlade kapital,
             som är näringslivets kraftkälla.
           </seg>
-        </u>
-        <u xml:id="i-6WBeVgP2XP2VZxNiFVuyx8" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-6NTjttiAtodDXKWrkHf9dY" next="i-8wJjL2jEzqycCjXAYxN797">
           <seg xml:id="i-SrusyR2yVKnHQ71oWfsAAU">
             I samband härmed ber jag att få uttala min erkänsla för de i
             Konungens trontal utlovade åtgärder, som avse att främja tillgodogörandet
@@ -257,8 +259,6 @@
             arbete, som man blir i stånd att genomföra verkliga sociala förbättringar
             och därmed bidraga till lycka och trevnad för folkets olika lager.
           </seg>
-        </u>
-        <u xml:id="i-8wJjL2jEzqycCjXAYxN797" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-6WBeVgP2XP2VZxNiFVuyx8" next="i-N8umuei3JLy2AAXDS26qf">
           <seg xml:id="i-5ugJTt9aYRDYUYmsHPSKe4">
             Mina herrar! Det hotfulla världskriget icke blott kastar sin
             skugga över statens och den enskildes ekonomi, utan det har även
@@ -279,13 +279,9 @@
             opartiskt och obrottsligen upprätthållas mot alla de krigförande.
             När
           </seg>
-        </u>
-        <u xml:id="i-N8umuei3JLy2AAXDS26qf" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-8wJjL2jEzqycCjXAYxN797" next="i-AJu7gX34nHrb2gyTJ5e2gy">
           <seg xml:id="i-XujFkbmYPm7FWsqu2u5vGP">
             Affän har möjlighet att närmare blicka in i förhållandena, vin-
           </seg>
-        </u>
-        <u xml:id="i-AJu7gX34nHrb2gyTJ5e2gy" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-N8umuei3JLy2AAXDS26qf" next="i-BQroxMygKpFDsNXthVkdEf">
           <seg xml:id="i-Y22gGS6rmeSPiFb2HRhK4u">
             ner man ock den bestämda uppfattningen, att Kungl. Maj:ts regering
             i sitt handlande varit och är ledd av den tanken, att såväl Sveriges
@@ -297,7 +293,7 @@
         <note xml:id="i-5G57552sKfy9HYs7Aehb7K" type="date">
           Lördagen den 23 januari. 8
         </note>
-        <u xml:id="i-BQroxMygKpFDsNXthVkdEf" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-AJu7gX34nHrb2gyTJ5e2gy" next="i-7RgGiuEuVR3W7b5ufF5SCX">
+        <u xml:id="i-BQroxMygKpFDsNXthVkdEf" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-6NTjttiAtodDXKWrkHf9dY" next="i-5J1XVn3kAiwBCM5w1wafxe">
           <seg xml:id="i-WGm135fVV4F5YuWaV8uEC1">
             ock böra realisera denna neutralitetsförklaring i enlighet med
             de inom folkrätten erkända rättssatserna. Vid sådant förhållande
@@ -315,8 +311,6 @@
             en kränkning sker av vår ställning som suverän stat och av de
             rättigheter såsom sådan, vi äro pliktiga att bevara för våra efterkommande.
           </seg>
-        </u>
-        <u xml:id="i-7RgGiuEuVR3W7b5ufF5SCX" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-BQroxMygKpFDsNXthVkdEf" next="i-TT18QiNApUUyJnxoYCnLTc">
           <seg xml:id="i-28uc7iMcrmJUe2hBdxouWy">
             Med full insikt i de alldeles särskilda faror, för vilka ett
             lands neutralitet vid krig mellan mäktiga stater utsätter detsamma,
@@ -334,13 +328,9 @@
             hunnit längre än till ett beslut om en avsevärd förbättring i
             sina försvarsanordningar,
           </seg>
-        </u>
-        <u xml:id="i-TT18QiNApUUyJnxoYCnLTc" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-7RgGiuEuVR3W7b5ufF5SCX" next="i-Er5eQu6tz1xRiGn8PLBdCz">
           <seg xml:id="i-9GSx7ozWfex2iyxpVKTupP">
             kan förvisso icke läggas oss till Iast.
           </seg>
-        </u>
-        <u xml:id="i-Er5eQu6tz1xRiGn8PLBdCz" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-TT18QiNApUUyJnxoYCnLTc" next="i-4cDNm9KFVx8cdBfoAehQcj">
           <seg xml:id="i-5SS7pepb1AgXTGUFwBDSAH">
             När man är genomträngd av uppfattningen om den avgörande betydelsen
             för rikets tillvaro som självständig stat därav, att vår försvarskraft
@@ -358,8 +348,6 @@
             förtjänar. Sätter man icke en damm för dylika landsfördärvliga
             förehavanden, så är Sveriges olycksöde redan beseglat.
           </seg>
-        </u>
-        <u xml:id="i-4cDNm9KFVx8cdBfoAehQcj" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-Er5eQu6tz1xRiGn8PLBdCz" next="i-5J1XVn3kAiwBCM5w1wafxe">
           <seg xml:id="i-NVPuTKJuzgDFtPai5PCUDY">
             En uppenbar reflexverkan av den antimilitaristiska propa-
           </seg>
@@ -377,7 +365,7 @@
         <note xml:id="i-JbtP36Jn9yQNXDaYqkSgXj" type="title">
           4 Lördagen den 23 januari.
         </note>
-        <u xml:id="i-5J1XVn3kAiwBCM5w1wafxe" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-4cDNm9KFVx8cdBfoAehQcj" next="i-mA7XFWpArd2xw4aeRbAS2">
+        <u xml:id="i-5J1XVn3kAiwBCM5w1wafxe" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-BQroxMygKpFDsNXthVkdEf" next="i-mA7XFWpArd2xw4aeRbAS2">
           <seg xml:id="i-G5r3F64JynQzb75ccY5Skd">
             Statsverksgandan är otvivelaktigt den bristande disciplin, som
             på vissa propositionen. gtällen visat sig inom vår armé och vår
@@ -425,7 +413,7 @@
         <note xml:id="i-A79otsTFaZ6Wg1QgkZS5WJ" type="speaker">
           Herr Lindblad, Anders:
         </note>
-        <u xml:id="i-KQk1GtdKmpzX4VrHo5EFxg" who="i-9uQZPc39YosBbFHGUtpYgf" next="i-F8qD7U2FoX7VvajqzkxucX">
+        <u xml:id="i-KQk1GtdKmpzX4VrHo5EFxg" who="i-9uQZPc39YosBbFHGUtpYgf" next="i-Rm8SPAxzPUGw7rcd4xinwj">
           <seg xml:id="i-EbRYKZkN2dGZ6zqnGR51MH">
             Det har ju blivit traditionellt att vid ett tillfälle som detta
             kunna få uttrycka tankar, som ligga något vid sidan av statsverkspropositionen,
@@ -435,8 +423,6 @@
             stå fullständigt eniga om att stödja regeringen, men i fråga om
             annat kunna ju meningarna gå något i sär.
           </seg>
-        </u>
-        <u xml:id="i-F8qD7U2FoX7VvajqzkxucX" who="i-9uQZPc39YosBbFHGUtpYgf" prev="i-KQk1GtdKmpzX4VrHo5EFxg" next="i-Rm8SPAxzPUGw7rcd4xinwj">
           <seg xml:id="i-UNb8eXCaweCQ9gqPeHTbHN">
             Den nu föreliggande statsverkspropositionen bär ju, som också
             var att förutse, spår av de händelser, som satt sin prägel på
@@ -450,7 +436,7 @@
         <note xml:id="i-L9y2SyQeeYnB4MCsXArTLf" type="date">
           Lördagen den 23 januari. d
         </note>
-        <u xml:id="i-Rm8SPAxzPUGw7rcd4xinwj" who="i-9uQZPc39YosBbFHGUtpYgf" prev="i-F8qD7U2FoX7VvajqzkxucX" next="i-Gg3iXFprqPZSsbiMv9SVjz">
+        <u xml:id="i-Rm8SPAxzPUGw7rcd4xinwj" who="i-9uQZPc39YosBbFHGUtpYgf" prev="i-KQk1GtdKmpzX4VrHo5EFxg" next="i-5v9NpimPkmhqkrRHnDnFi2">
           <seg xml:id="i-2uFSnNuz9KCRwHtZBhq4mz">
             från alt bliva direkt indraget i kriget, väntades såsom följder
             av detsamma. Det är dessa åtgärder jämte den härordning, som då
@@ -484,8 +470,6 @@
             enligt min uppfattning en av anledningarna till den antimilitaristiska
             propaganda, som fått sådan utbredning i landet.
           </seg>
-        </u>
-        <u xml:id="i-Gg3iXFprqPZSsbiMv9SVjz" who="i-9uQZPc39YosBbFHGUtpYgf" prev="i-Rm8SPAxzPUGw7rcd4xinwj" next="i-5v9NpimPkmhqkrRHnDnFi2">
           <seg xml:id="i-3ErNZQ7xJEnGifTfdqK6cK">
             I den nu föreliggande statsverkspropositionen finnes en redogörelse
             för en del av de åtgärder, som regeringen vidtagit med anledning
@@ -523,7 +507,7 @@
         <note xml:id="i-Mqu17tdszkp9upG4FQ4Jm5" type="title">
           6 Lördagen den 23 januari.
         </note>
-        <u xml:id="i-5v9NpimPkmhqkrRHnDnFi2" who="i-9uQZPc39YosBbFHGUtpYgf" prev="i-Gg3iXFprqPZSsbiMv9SVjz" next="i-MqSKJbzWiW38kqVtGXs9nk">
+        <u xml:id="i-5v9NpimPkmhqkrRHnDnFi2" who="i-9uQZPc39YosBbFHGUtpYgf" prev="i-Rm8SPAxzPUGw7rcd4xinwj" next="i-U7ymsk1ci6mcKXtrfzByv7">
           <seg xml:id="i-PuuePbN4zsSUzXBeWmHvWT">
             Regeringens åtgärd att suspendera spannmålstullarna kom ej er,
             förrän betydelsen härav av samma anledning var ringa. Den rätt
@@ -572,8 +556,6 @@
             kunna obehindrat drivas, eller andra åtgärder från statens eller
             kommunernas sida vidtagas för att trygga mot hotande nöd.
           </seg>
-        </u>
-        <u xml:id="i-MqSKJbzWiW38kqVtGXs9nk" who="i-9uQZPc39YosBbFHGUtpYgf" prev="i-5v9NpimPkmhqkrRHnDnFi2" next="i-U7ymsk1ci6mcKXtrfzByv7">
           <seg xml:id="i-RoPpJaeoV9XedzhVr3KXpU">
             I samma eller nästan liknande läge, som trävaruindustrien befinner
             sig, befinna sig nog även andra industrigrenar, och det
@@ -583,7 +565,7 @@
         <note xml:id="i-HhCJbns6Th22AanHHnyKGH" type="date">
           Lördagen den 23 januari. Zz
         </note>
-        <u xml:id="i-U7ymsk1ci6mcKXtrfzByv7" who="i-9uQZPc39YosBbFHGUtpYgf" prev="i-MqSKJbzWiW38kqVtGXs9nk" next="i-HknxnLX2FtJzZE1oAGJ6xp">
+        <u xml:id="i-U7ymsk1ci6mcKXtrfzByv7" who="i-9uQZPc39YosBbFHGUtpYgf" prev="i-5v9NpimPkmhqkrRHnDnFi2">
           <seg xml:id="i-BrkNkTwKxZFzgEs9oMhVZx">
             är därför att beklaga, att regeringen i föreliggande statsverksproposition
             överallt sökt åstadkomma inskränkningar 1 sådana offentliga arbeten,
@@ -617,8 +599,6 @@
             fond genom att, så långt staten det kan, bereda möjlighet till
             arbete.
           </seg>
-        </u>
-        <u xml:id="i-HknxnLX2FtJzZE1oAGJ6xp" who="i-9uQZPc39YosBbFHGUtpYgf" prev="i-U7ymsk1ci6mcKXtrfzByv7">
           <seg xml:id="i-MgatXKz5NHq6t5xkNvXHFc">
             Det är denna vädjan till regeringen, som jag ansett mig böra
             särskilt göra vid detta tillfälle.
@@ -627,13 +607,11 @@
         <note xml:id="i-AdkPV5nTcwYKfnC1QfcPZG" type="speaker">
           s Herr Gullberg:
         </note>
-        <u xml:id="i-XhKbeabbevxmPaDZSbR2uG" who="i-9QQ4cnXFLEnLvTUUTUWU1C" next="i-5H8CdqXXEe5JzoAm9QLYfo">
+        <u xml:id="i-XhKbeabbevxmPaDZSbR2uG" who="i-9QQ4cnXFLEnLvTUUTUWU1C" next="i-JTBG7NeaNLetnnoWLZHVmi">
           <seg xml:id="i-BZvNhcHAqhsnq9SBkogA3b">
             Det är tvenne regeringsinitiativ, som jag hade väntat skulle
             ha kommit till synes under 1915 års riksdag.
           </seg>
-        </u>
-        <u xml:id="i-5H8CdqXXEe5JzoAm9QLYfo" who="i-9QQ4cnXFLEnLvTUUTUWU1C" prev="i-XhKbeabbevxmPaDZSbR2uG" next="i-AKZm81hN5gCHJCKKG1dQB2">
           <seg xml:id="i-GVsfTa2DbNWvWPp8soXNh4">
             Det första gäller lagstiftning angående de smittosamma könssjukdomarna.
             Att den nuvarande reglementeringen är såväl inhuman som illusorisk
@@ -645,8 +623,6 @@
             dock skulle kunna komma medicinalstyrelsen till hjälp med arbetskraft,
             så att en lösning av denna fråga kunde motses under denna riksdag.
           </seg>
-        </u>
-        <u xml:id="i-AKZm81hN5gCHJCKKG1dQB2" who="i-9QQ4cnXFLEnLvTUUTUWU1C" prev="i-5H8CdqXXEe5JzoAm9QLYfo" next="i-JTBG7NeaNLetnnoWLZHVmi">
           <seg xml:id="i-HW5MCve5SUXs23KHgvHQ8j">
             Det andra gäller lagstiftning om söndagsvila för vissa arbetaregrupper.
             År 1909 skrev riksdagen till Kungl. Maj:t härom.
@@ -670,7 +646,7 @@
         <note xml:id="i-82rk9sBR8BHD1fJ22TDfaB">
           (Forts.)
         </note>
-        <u xml:id="i-JTBG7NeaNLetnnoWLZHVmi" who="i-9QQ4cnXFLEnLvTUUTUWU1C" prev="i-AKZm81hN5gCHJCKKG1dQB2" next="i-UJa865cChK9XFDx44Sh6nP">
+        <u xml:id="i-JTBG7NeaNLetnnoWLZHVmi" who="i-9QQ4cnXFLEnLvTUUTUWU1C" prev="i-XhKbeabbevxmPaDZSbR2uG">
           <seg xml:id="i-2jwgjfuPJekbWMYCNUWGUV">
             delades mig, att frågan låg hos socialstyrelsen, och där ligger
             den väl ännu i ro och frid. Troligen kommer den ock att få ligga
@@ -678,8 +654,6 @@
             inom detta vårt yngsta och således väl mest moderna ämbetsverk,
             som det hittills lär ha använt.
           </seg>
-        </u>
-        <u xml:id="i-UJa865cChK9XFDx44Sh6nP" who="i-9QQ4cnXFLEnLvTUUTUWU1C" prev="i-JTBG7NeaNLetnnoWLZHVmi" next="i-kkUemVEcfdBxL8mph5p5t">
           <seg xml:id="i-HWC2ev27T2otsagZFmmeZM">
             Kungl. socialstyrelsen lär i brev och med frågeformulär vända
             sig till enskilda innehavare av sådan rörelse, där söndagsarbete
@@ -697,8 +671,6 @@
             utan några kostnader, och de skola medverka till folkets trevnad
             och bästa.
           </seg>
-        </u>
-        <u xml:id="i-kkUemVEcfdBxL8mph5p5t" who="i-9QQ4cnXFLEnLvTUUTUWU1C" prev="i-UJa865cChK9XFDx44Sh6nP">
           <seg xml:id="i-BkfRyDp6Vs6Wd8kA4ifEoN">
             Att det i vidsträckta kretsar bland vårt folk är en varm önskan
             i denna riktning är alldeles säkert, och varje år, som får förflyta
@@ -713,14 +685,12 @@
         <note xml:id="i-Y3o3njipRsYtLvFgetHXLf" type="speaker">
           Herr Kvarnzelius:
         </note>
-        <u xml:id="i-UReU2pPTGP91Q51xbYFuSV" who="i-3FXDiNFhMaD2xtLwqRVLbs" next="i-9wxQFVSuxjiQEujwgRsjrs">
+        <u xml:id="i-UReU2pPTGP91Q51xbYFuSV" who="i-3FXDiNFhMaD2xtLwqRVLbs" next="i-7s7r5XeU7NRPZTUUdWzWGp">
           <seg xml:id="i-9nK1EkzxV2JF638B78RGwP">
             Herr talman! Jag hade icke haft för avsikt att begära ordet i
             denna remissdebatt, men vissa yttranden av den förste ärade talaren
             här i dag har föranlett mig att besvära kammaren med några ord.
           </seg>
-        </u>
-        <u xml:id="i-9wxQFVSuxjiQEujwgRsjrs" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-UReU2pPTGP91Q51xbYFuSV" next="i-7s7r5XeU7NRPZTUUdWzWGp">
           <seg xml:id="i-KaQzq6W9M7YJ9jQUhuwRnF">
             Herr Trygger ifrågasatte och uttryckte såsom riktigt, att de
             extra utgifter för försvaret, som föranletts av den stora världskrisen,
@@ -742,7 +712,7 @@
         <note xml:id="i-GEpforhAZSJJ8dsdYFSM6T" type="date">
           Lördagen den 23 januari. 9
         </note>
-        <u xml:id="i-7s7r5XeU7NRPZTUUdWzWGp" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-9wxQFVSuxjiQEujwgRsjrs" next="i-T2jhfoysLHDaV36FEkYie3">
+        <u xml:id="i-7s7r5XeU7NRPZTUUdWzWGp" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-UReU2pPTGP91Q51xbYFuSV" next="i-FUbyfMVNbC5ZV4fKti2KTi">
           <seg xml:id="i-7kkMUgxacscHPhqPdvr56B">
             fälle, då det gällde att yttra sig över vissa dispositioner och
             åtgärder, som ifrågasattes av den frisinnade regeringens finansminister
@@ -767,8 +737,6 @@
             av det svenska folket, som har svag bärkraft och redan nu tryckes
             mycket hårt av skatter, därvid blir ytterligare betungad.
           </seg>
-        </u>
-        <u xml:id="i-T2jhfoysLHDaV36FEkYie3" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-7s7r5XeU7NRPZTUUdWzWGp" next="i-LLoXohpPKdPH1N9rWLDo32">
           <seg xml:id="i-F4ZtrDGujpo9MN43JajAoU">
             Den ärade talaren gav sedermera i sitt anförande det parti, han
             tillhör, beröm därför, att det städse arbetat för stärkande av
@@ -790,8 +758,6 @@
             i lika hög grad inom det parti, som jag representerar, som inom
             det parti, som den ärade talaren tillhör, det vågar jag påstå.
           </seg>
-        </u>
-        <u xml:id="i-LLoXohpPKdPH1N9rWLDo32" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-T2jhfoysLHDaV36FEkYie3" next="i-FUbyfMVNbC5ZV4fKti2KTi">
           <seg xml:id="i-DU3g18S525TSAop2qoC9vB">
             För att i någon mån reducera värdet av detta självberöm, vill
             jag fästa herrarnas uppmärksamhet på tidsperioden 1906 —1911.
@@ -816,15 +782,13 @@
         <note xml:id="i-A8RourLrjfQ6Y8NZuz6K8N" type="title">
           10 Lördagen den 23 januari.
         </note>
-        <u xml:id="i-FUbyfMVNbC5ZV4fKti2KTi" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-LLoXohpPKdPH1N9rWLDo32" next="i-DjuRp259qbWiBDsy3EMQqy">
+        <u xml:id="i-FUbyfMVNbC5ZV4fKti2KTi" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-7s7r5XeU7NRPZTUUdWzWGp">
           <seg xml:id="i-SU35JRV9uTMMkQZbJuh8Am">
             fick form i respektive statsverkspropositioner, torde kunna giva
             ett mera ojävigt vittnesbörd, i vad mån den förste ärade talaren
             hade rätt, då han ville tillerkänna sitt eget parti ensamt en
             större försvarsvilja än övriga partier.
           </seg>
-        </u>
-        <u xml:id="i-DjuRp259qbWiBDsy3EMQqy" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-FUbyfMVNbC5ZV4fKti2KTi" next="i-PUumtdJe9dGEDzL4k8QyPD">
           <seg xml:id="i-RZc9cF6hr5qNMShC2N6cgK">
             I en sak ber jag få uttala min enighet med den förste ärade talaren,
             och det är i fråga om de bekymmer, han uttalade i fråga om den
@@ -848,8 +812,6 @@
             all de föregå med sådant föredöme och behandla truppen på sådant
             sätt, att de kunna fordra disciplin.
           </seg>
-        </u>
-        <u xml:id="i-PUumtdJe9dGEDzL4k8QyPD" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-DjuRp259qbWiBDsy3EMQqy">
           <seg xml:id="i-XMEYjD6FL1bGWLXX3WFXA9">
             Slutligen ber jag att få giva min fulla anslutning till talaren
             i det förtroende, som han uttalade till regeringen, för dess neutralitetspolitik
@@ -885,15 +847,13 @@
         <note xml:id="i-5R1C1awZHx56nFYbUhcAwW" type="date">
           Lördagen den 23 januari. 1
         </note>
-        <u xml:id="i-AbccA8DBCGyJxYVB2bHY7A" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-2eZs1rMM2tqb1QBgnGkDM6" next="i-UaJqtDSGpWC5rquv1iT3qA">
+        <u xml:id="i-AbccA8DBCGyJxYVB2bHY7A" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-2eZs1rMM2tqb1QBgnGkDM6">
           <seg xml:id="i-UYPePHp8cGgWwMi5sq2Crk">
             vid ett tidigare tillfälle, och man har velat göra gällande,
             att detta uttalande skulle vara bevis för, att jag pläderat för
             en allianceeller ententepolitik utan vidare och med undanskjutande
             av varje tanke på neutralitet.
           </seg>
-        </u>
-        <u xml:id="i-UaJqtDSGpWC5rquv1iT3qA" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-AbccA8DBCGyJxYVB2bHY7A">
           <seg xml:id="i-MUbECjER815iBck3JMvHUk">
             Detta var grunden till mitt yttrande, och jag är viss på, att
             när herrarna läsa protokollet, skola ni också finna, att det förhåller
@@ -903,7 +863,7 @@
         <note xml:id="i-CtdnxGVKak2K8frDMir1BQ" type="speaker">
           Herr statsrådet H asselrot:
         </note>
-        <u xml:id="i-HSmsgiDawvobjFx9GUXE7y" who="i-U4dDzMjHHxyFXmmvH17Uz8" next="i-4o2apjsqNZgLLZdXUYLvcZ">
+        <u xml:id="i-HSmsgiDawvobjFx9GUXE7y" who="i-U4dDzMjHHxyFXmmvH17Uz8" next="i-MnixBD4HMGmmXqCSLa4r9E">
           <seg xml:id="i-WHXWMuRkRQdcW8J8LkBqZo">
             Med anledning av vad herr Trygger yttrade om den antimilitaristiska
             propagandan och om det önskemål, han uttalade, att regeringen
@@ -911,8 +871,6 @@
             jag, som har till åliggande att övervaka tryckta skrifter, tillåta
             mig att ett ögonblick taga kammarens tid i anspråk.
           </seg>
-        </u>
-        <u xml:id="i-4o2apjsqNZgLLZdXUYLvcZ" who="i-U4dDzMjHHxyFXmmvH17Uz8" prev="i-HSmsgiDawvobjFx9GUXE7y" next="i-9AYqpFpwTTeTmFUr6cEvpJ">
           <seg xml:id="i-XJnJ52x8vYCwRmfMdZuJqT">
             Jag vågar hålla före, att jag fullt ut så väl som den ärade talaren
             och någon annan inser vådorna av ifrågavarande agitation, som
@@ -926,8 +884,6 @@
             vi måste inskränka oss sill att begagna de vapen, lagen satt i
             vår hand.
           </seg>
-        </u>
-        <u xml:id="i-9AYqpFpwTTeTmFUr6cEvpJ" who="i-U4dDzMjHHxyFXmmvH17Uz8" prev="i-4o2apjsqNZgLLZdXUYLvcZ" next="i-4cDNnyFVyKQTqyKzTkYk23">
           <seg xml:id="i-4dzBUQtJThgyuCuFQ3k6QV">
             Enligt 3 $ 7 mom. i tryckfrihetsförordningen, sådant detta lagrum
             lyder efter dess år 1909 skedda utvidgning, är icke allenast uppmaning
@@ -945,8 +901,6 @@
             bedöma, men jag vågar bestämt påstå, att jag härvidlag alltid
             gjort, vad jag efter samvetsgrann prövning funnit vara det rätta.
           </seg>
-        </u>
-        <u xml:id="i-4cDNnyFVyKQTqyKzTkYk23" who="i-U4dDzMjHHxyFXmmvH17Uz8" prev="i-9AYqpFpwTTeTmFUr6cEvpJ" next="i-2tVz6jasbZDb8PT2hCteVs">
           <seg xml:id="i-XDu1cfoQ4kFDyRiZxwboiv">
             Såsom möjligen varande av intresse kan jag i samband härmed nämna,
             att efter den år 1909 gjorda utvidgningen av ifrågavarande lagrum
@@ -955,8 +909,6 @@
             år 1910 nio, år 1911 ett, år 1912 ett, år 1913 ett och år 1914
             åtta.
           </seg>
-        </u>
-        <u xml:id="i-2tVz6jasbZDb8PT2hCteVs" who="i-U4dDzMjHHxyFXmmvH17Uz8" prev="i-4cDNnyFVyKQTqyKzTkYk23" next="i-MnixBD4HMGmmXqCSLa4r9E">
           <seg xml:id="i-Dao2wbNgyuKT5mhgSw66KG">
             Att antalet kvarstadsåtgärder i förhållande till antalet antimilitaristiska
             skrifter, tidningar eller broschyrer, som spridas, är jämförelsevis
@@ -980,7 +932,7 @@
         <note xml:id="i-8eskKBN8i3ruCFnqUhESTz" type="title">
           12 Lördagen den 23 januari.
         </note>
-        <u xml:id="i-MnixBD4HMGmmXqCSLa4r9E" who="i-U4dDzMjHHxyFXmmvH17Uz8" prev="i-2tVz6jasbZDb8PT2hCteVs" next="i-Eeh28s5454BFgFqJpp7LaL">
+        <u xml:id="i-MnixBD4HMGmmXqCSLa4r9E" who="i-U4dDzMjHHxyFXmmvH17Uz8" prev="i-HSmsgiDawvobjFx9GUXE7y" next="i-2LnakJe1pAoscSWsHt7Fbr">
           <seg xml:id="i-UM1RFD1H2iJ54Tu5JDMc14">
             gott mod som god vilja. Särskilt de mera framträdande och mera
             begåvade bland dem hava visat sig äga en mycket stor färaighet
@@ -989,8 +941,6 @@
             bliva åtkomliga av lagen. Så snart de sticka ut tassarna tillräckligt,
             står emellertid myndigheterna i beredskap med saxen. |
           </seg>
-        </u>
-        <u xml:id="i-Eeh28s5454BFgFqJpp7LaL" who="i-U4dDzMjHHxyFXmmvH17Uz8" prev="i-MnixBD4HMGmmXqCSLa4r9E" next="i-4Xfu4fdoYN6e71DmkMNNXi">
           <seg xml:id="i-VMNJPjR2PCQLeTJ4eo2PB3">
             Förutom nu nämnda lagrum finnes ett annat, som är avsett att
             utgöra ett skydd mot den försvarsfientliga propagandan, nämligen
@@ -1001,16 +951,12 @@
             straffbar eller icke, indragning ske av de exemplar av skriften,
             som vid truppen eller å fartyget anträffas.
           </seg>
-        </u>
-        <u xml:id="i-4Xfu4fdoYN6e71DmkMNNXi" who="i-U4dDzMjHHxyFXmmvH17Uz8" prev="i-Eeh28s5454BFgFqJpp7LaL" next="i-V74UXR56F6VTWcHDZbcL5W">
           <seg xml:id="i-x29r4ZFVVhGgiQHvFBQ9s">
             Detta lagbud har kommit till rätt vidsträckt användning. Tryckfrihetskommittén,
             som har att i sista hand besluta om indragning, har årligen i
             en mängd fall fastställt sådan, under år 1914 i ej mindre än 29
             fall.
           </seg>
-        </u>
-        <u xml:id="i-V74UXR56F6VTWcHDZbcL5W" who="i-U4dDzMjHHxyFXmmvH17Uz8" prev="i-4Xfu4fdoYN6e71DmkMNNXi" next="i-TdNmeQQDchn19sN49vHw3S">
           <seg xml:id="i-J3eA5SE2G6kggjmr9FTXFE">
             I 4 $ 14 mom. tryckfrihetsförordningen stadgas, att den, som
             medan sådant förordnande om indragning av skrift, varom nu är
@@ -1021,8 +967,6 @@
             skillingar till och med 333 riksdaler 16 skillingar eller med
             fängelse från och med en månad till och med ett år.
           </seg>
-        </u>
-        <u xml:id="i-TdNmeQQDchn19sN49vHw3S" who="i-U4dDzMjHHxyFXmmvH17Uz8" prev="i-V74UXR56F6VTWcHDZbcL5W" next="i-f4eyNYMdRAu8dMwMgTF21">
           <seg xml:id="i-CYCtBpVrJTpeydgu718Ai1">
             Enligt 72 $ nya strafflagen för krigsmakten är straffet för ifrågavarande
             brott d. v. s. spridning av indragen skrift vid trupp eller å
@@ -1030,8 +974,6 @@
             Under viss förutsättning må emellertid dömas till straffarbete
             i högst ett år.
           </seg>
-        </u>
-        <u xml:id="i-f4eyNYMdRAu8dMwMgTF21" who="i-U4dDzMjHHxyFXmmvH17Uz8" prev="i-TdNmeQQDchn19sN49vHw3S" next="i-JgvpcpfnedJ8ecyMK91TET">
           <seg xml:id="i-9pmKyRZmKj54RJAxoBTrrX">
             Ett ytterligare lagstadgande. som är avsett att utgöra ett skvdd
             mot den antimilitaristiska faran är 71 $ i nya strafflagen för
@@ -1044,8 +986,6 @@
             csäller emellertid endast dem, som lyda under strafflagen för
             krigsmakten.
           </seg>
-        </u>
-        <u xml:id="i-JgvpcpfnedJ8ecyMK91TET" who="i-U4dDzMjHHxyFXmmvH17Uz8" prev="i-f4eyNYMdRAu8dMwMgTF21" next="i-2LnakJe1pAoscSWsHt7Fbr">
           <seg xml:id="i-ASynXkhhaReNBNgTeANAxG">
             Slutligen har man i förevarande hänseende att uppmärksamma lagen
             den 16 juni 1906 om förbud för krigsmanskap att deltaga i vissa
@@ -1063,13 +1003,11 @@
         <note xml:id="i-GYoSLbMVfKLpqYSLTNm62W" type="date">
           Lördagen den 23 januari, 13
         </note>
-        <u xml:id="i-2LnakJe1pAoscSWsHt7Fbr" who="i-U4dDzMjHHxyFXmmvH17Uz8" prev="i-JgvpcpfnedJ8ecyMK91TET" next="i-JAMdGs8vLQUpGKyZs2xe6H">
+        <u xml:id="i-2LnakJe1pAoscSWsHt7Fbr" who="i-U4dDzMjHHxyFXmmvH17Uz8" prev="i-MnixBD4HMGmmXqCSLa4r9E">
           <seg xml:id="i-8KPnphGyy8TjaDKnZtz2Mx">
             rättelse till justitiekanslern. Överträdelse av förbud skall
             anses som brott mot krigslydnaden.
           </seg>
-        </u>
-        <u xml:id="i-JAMdGs8vLQUpGKyZs2xe6H" who="i-U4dDzMjHHxyFXmmvH17Uz8" prev="i-2LnakJe1pAoscSWsHt7Fbr" next="i-UfobvYHuCeN4m7rAaySZK2">
           <seg xml:id="i-2PnahyAMD1bsiboJYinZgG">
             Jag är i tillfälle att meddela, att enligt till justitiekanslern
             inkomna underrättelser förbud av ifrågavarande art meddelats 1906
@@ -1077,20 +1015,14 @@
             gång, 1911 två gånger, 1912 tre gånger, 1913 ingen gång och 1914
             sex gånger.
           </seg>
-        </u>
-        <u xml:id="i-UfobvYHuCeN4m7rAaySZK2" who="i-U4dDzMjHHxyFXmmvH17Uz8" prev="i-JAMdGs8vLQUpGKyZs2xe6H" next="i-2D4VZbcj1VkG88mtGuUT6h">
           <seg xml:id="i-2obs6XjqMaZ7cKjDshbeme">
             Efter denna redogörelse för de försvarsvapen, lagen ger oss mot
           </seg>
-        </u>
-        <u xml:id="i-2D4VZbcj1VkG88mtGuUT6h" who="i-U4dDzMjHHxyFXmmvH17Uz8" prev="i-UfobvYHuCeN4m7rAaySZK2" next="i-EgWCL622J77hKQCFjtWTg6">
           <seg xml:id="i-FkPAR4WkcUXPP4JS6tuWGg">
             den försvarsfientliga propagandan — vilken redogörelse jag ansett
             mig böra lämna, då jag trott mig finna, att man ute i landet har
             en bristfällig kunskap i dessa ting — återstår att besvara frågan,
           </seg>
-        </u>
-        <u xml:id="i-EgWCL622J77hKQCFjtWTg6" who="i-U4dDzMjHHxyFXmmvH17Uz8" prev="i-2D4VZbcj1VkG88mtGuUT6h" next="i-DhtZt4WYNK531NGpZMe6rT">
           <seg xml:id="i-5CcGBBqLDG3sqdjNLq9Dui">
             huruvida dessa vapen, som ju synas vara ganska många och delvis
             långa, och rätt skarpa, äro till fyllest för sitt ändamål. Tyvärr
@@ -1100,8 +1032,6 @@
             frodas och växer vidare och vidare, och att dess gift tär sig
             allt längre in i samhällskroppen.
           </seg>
-        </u>
-        <u xml:id="i-DhtZt4WYNK531NGpZMe6rT" who="i-U4dDzMjHHxyFXmmvH17Uz8" prev="i-EgWCL622J77hKQCFjtWTg6">
           <seg xml:id="i-RLLJcD2xzPG7tDzADFBy24">
             Jag anser det därför vara synnerligen angeläget, att man i dessa
             allvarliga tider tager under allvarligt övervägande, huruvida
@@ -1120,7 +1050,7 @@
         <note xml:id="i-8gbjEi1PBMVMLhYRS4Cb7C" type="speaker">
           Herr Trygger:
         </note>
-        <u xml:id="i-7d2MhBv6CycZSP82c7FcGe" who="i-YBeHR1zEBPMM35nMEreTz" next="i-3chXJDxmP2rxdybs4tLryh">
+        <u xml:id="i-7d2MhBv6CycZSP82c7FcGe" who="i-YBeHR1zEBPMM35nMEreTz">
           <seg xml:id="i-DtsB6avbJj1v9MHmwNca5Q">
             Jag begärde ordet i början av herr justitieministerns anförande
             för att förklara, att man icke i mitt yttrande på något sätt skall
@@ -1130,8 +1060,6 @@
             propaganda kan bedrivas icke blott genom tryckta skrifter utan
             även på åtskilliga andra sätt, mot vilka man måste reagera.
           </seg>
-        </u>
-        <u xml:id="i-3chXJDxmP2rxdybs4tLryh" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-7d2MhBv6CycZSP82c7FcGe">
           <seg xml:id="i-UZUbrXxS4M434WZuttXHW4">
             Nu vill jag säga, att jag med stor glädje har hört, att regeringer.
             redan har denna fråga under övervägande. Men samtidigt tillåter
@@ -1162,7 +1090,7 @@
         <note xml:id="i-KfhQcCd14mDA1omA7piKZk" type="speaker">
           Herr Hellberg:
         </note>
-        <u xml:id="i-7SkFP3gZ7ycucCf7FG35Pc" who="i-oVwJWpLBEMSJ3qucVYsKL" next="i-UBeqfNjYE4T5Dk77Rx2uSW">
+        <u xml:id="i-7SkFP3gZ7ycucCf7FG35Pc" who="i-oVwJWpLBEMSJ3qucVYsKL" next="i-KjDXrn9Lcs8w7LdWmiQ8GA">
           <seg xml:id="i-Wzq2gHmSwhVNpDrxLNxh9H">
             Herr talman, mina herrar! Även i år, liksom vid föregående liknande
             tillfällen har herr Trygger så att säga åtagit sig värdskapet
@@ -1173,8 +1101,6 @@
             uppträda i dag, skall därför be att med några mycket få ord komplettera
             vad min ärade partikamrat redan yttrat.
           </seg>
-        </u>
-        <u xml:id="i-UBeqfNjYE4T5Dk77Rx2uSW" who="i-oVwJWpLBEMSJ3qucVYsKL" prev="i-7SkFP3gZ7ycucCf7FG35Pc" next="i-U4uGHfGtbnYb72ogLhRjDH">
           <seg xml:id="i-JojuYYVECsqyjRsnazVxG9">
             Herr Trygger begagnade, även här följande gammal tradition, tillfället
             att prisa sitt partis stora försvarsvillighet. Denna stora försvarsvillighet
@@ -1202,8 +1128,6 @@
             erkänna, ett ofantligt viktigt önskemål, att denna försvarsvilja
             utvecklas och befästes.
           </seg>
-        </u>
-        <u xml:id="i-U4uGHfGtbnYb72ogLhRjDH" who="i-oVwJWpLBEMSJ3qucVYsKL" prev="i-UBeqfNjYE4T5Dk77Rx2uSW" next="i-6Wii1q3hkURpZFyAqDAAhH">
           <seg xml:id="i-GHk13P6Ft1dRMqbzafUQQZ">
             Vad beträffar den beklagliga antimilitaristiska agitation, som
             herr Trygger sedan talade om, så ser man i denna agitations 'snart
@@ -1216,8 +1140,6 @@
             försvarsvilja bland folket; med strafflagsätgärder tror jag icke
             att man framkallar de resultat man vill uppnå.
           </seg>
-        </u>
-        <u xml:id="i-6Wii1q3hkURpZFyAqDAAhH" who="i-oVwJWpLBEMSJ3qucVYsKL" prev="i-U4uGHfGtbnYb72ogLhRjDH" next="i-KjDXrn9Lcs8w7LdWmiQ8GA">
           <seg xml:id="i-2K9bUB4Qwn9rT3sur6sx8N">
             Jag skall sedan be att få säga ett par ord om neutralitetsfrågan.
             Det var mycket glädjande att höra, vad herr Trygger där yttrade.
@@ -1229,7 +1151,7 @@
         <note xml:id="i-HVwtvoo5cYwm27d1mtL1DH" type="date">
           Lördagen den 23 januari. 15
         </note>
-        <u xml:id="i-KjDXrn9Lcs8w7LdWmiQ8GA" who="i-oVwJWpLBEMSJ3qucVYsKL" prev="i-6Wii1q3hkURpZFyAqDAAhH">
+        <u xml:id="i-KjDXrn9Lcs8w7LdWmiQ8GA" who="i-oVwJWpLBEMSJ3qucVYsKL" prev="i-7SkFP3gZ7ycucCf7FG35Pc">
           <seg xml:id="i-3zWrmYdPzdUYnYTJAE4hr4">
             det kan hända, att jag gör mig skyldig till ett av dessa missförstånd,
             som herr Trygger ofta inbjuder till. Det föreföll mig emellertid,

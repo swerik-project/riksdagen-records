@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-3rTftAc8ehhyZBMV9n7XPk" type="speech">
             <linkGrp type="u">
               <ptr target="#i-KA1oPTKMBWppx37WHot5ub"/>
@@ -520,7 +520,13 @@
               <ptr target="#i-7zPcs7PiMqp9UrjP6bH6a4"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -724,14 +730,12 @@
         <note xml:id="i-5ZKe9hCMp2pkDthmX4oiQA" type="speaker">
           Anf. 1 Justitieminister ANNA-GRETA LEIJON:
         </note>
-        <u xml:id="i-KA1oPTKMBWppx37WHot5ub" who="i-FLEUnTue6oAgyDmZZjwLh8" next="i-SWyCnMKBa2v2XYDX7SFMf9">
+        <u xml:id="i-KA1oPTKMBWppx37WHot5ub" who="i-FLEUnTue6oAgyDmZZjwLh8">
           <seg xml:id="i-62Pwofoij2Zxp3x38qvEvd">
             Herr talman! Jörn Svensson har frågat mig vilka instruktioner
             säkerhetspolisen har vad gäller övervakningen av palestinska flyktingar
             i Sverige.
           </seg>
-        </u>
-        <u xml:id="i-SWyCnMKBa2v2XYDX7SFMf9" who="i-FLEUnTue6oAgyDmZZjwLh8" prev="i-KA1oPTKMBWppx37WHot5ub" next="i-6BjxvWmhmZbnwdEvcWRfTJ">
           <seg xml:id="i-Wo64LDsAhPWnGaf8kTM47b">
             Säkerhetspolisen svarar för polisverksamheten rörande brott mot
             rikets säkerhet. Till arbetsuppgifterna hör framför allt att bekämpa
@@ -741,8 +745,6 @@
             gäller också i det avseende som Jörn Svenssons fråga tar sikte
             på.
           </seg>
-        </u>
-        <u xml:id="i-6BjxvWmhmZbnwdEvcWRfTJ" who="i-FLEUnTue6oAgyDmZZjwLh8" prev="i-SWyCnMKBa2v2XYDX7SFMf9">
           <seg xml:id="i-RsmDxzNAUi6DaFHZ3it9rb">
             Enligt vad jag har erfarit har säkerhetspolisen inte haft någon
             särskild övervakning vid den demonstration som Jörn Svensson syftar
@@ -2954,7 +2956,7 @@
         <note xml:id="i-3jCVCS8kyzVfVkMxqBaeY8" type="speaker">
           Anf. 63 Arbetsmarknadsminister INGELA THALÉN:
         </note>
-        <u xml:id="i-5488b876f22b16c7-10" who="i-5CGPntyQKYyZVCsCYHPNrm" next="i-S8XCQomQ4ZUbydSm8VLUks">
+        <u xml:id="i-5488b876f22b16c7-10" who="i-5CGPntyQKYyZVCsCYHPNrm" next="i-6U7mrErPu5uKhZNdtwxBGa">
           <seg xml:id="i-RD3PaoXpqesdsgnePUgqCq">
             Nils Nordh har frågat mig på vad sätt regeringen avser att agera
             för att tillförsäkra löntagarna det inflytande över bl.a. företagsköp
@@ -2978,7 +2980,7 @@
         <note xml:id="i-9aZgbF6ZWJtb6CLYojDmYA">
           Om informationen till anställda vid företagsköp och fusioner
         </note>
-        <u xml:id="i-6U7mrErPu5uKhZNdtwxBGa" who="i-5CGPntyQKYyZVCsCYHPNrm" prev="i-S8XCQomQ4ZUbydSm8VLUks">
+        <u xml:id="i-6U7mrErPu5uKhZNdtwxBGa" who="i-5CGPntyQKYyZVCsCYHPNrm" prev="i-5488b876f22b16c7-10">
           <seg xml:id="i-ErnEw5Kqod4JWoQaWoVbR9">
             arbetslivet (MBL). Frågan är ställd mot bakgrund av de på senare
             tid allt vanligare affärerna i näringslivet med företag som går
@@ -3593,7 +3595,7 @@
         <note xml:id="i-EpyXb3mLKFDSVswu4V1BHm" type="speaker">
           Anf. 77 MARTIN OLSSON (c):
         </note>
-        <u xml:id="i-68a19ded7b296cb5-0" who="i-BRbSgB6kTjTGkYknyWRHHb" next="i-LdaFFnbmGDR79TktvtBnTh">
+        <u xml:id="i-68a19ded7b296cb5-0" who="i-BRbSgB6kTjTGkYknyWRHHb" next="i-68a19ded7b296cb5-2">
           <seg xml:id="i-HoJop8Ur2Q9RHgdQUAhkir">
             Herr talman! Jag ber att få tacka finansministern för svaret
             på min fråga.
@@ -3605,15 +3607,11 @@
             extra avdraget. Marginaleffekten kan bli över 170 96 på räntan
             på sparkapital och över 200 96 om hänsyn tas till KBT.
           </seg>
-        </u>
-        <u xml:id="i-LdaFFnbmGDR79TktvtBnTh" who="i-BRbSgB6kTjTGkYknyWRHHb" prev="i-68a19ded7b296cb5-0" next="i-68a19ded7b296cb5-1">
           <seg xml:id="i-EqYCcHew3LbAdZ6BGUdShD">
             Dessa orimliga regler gjorde att jag i en motion föreslog att
             reduceringen av det extra avdraget på grund av förmögenhet skulle
             avskaffas fr. o. m. innevarande inkomstår.
           </seg>
-        </u>
-        <u xml:id="i-68a19ded7b296cb5-1" who="i-BRbSgB6kTjTGkYknyWRHHb" prev="i-LdaFFnbmGDR79TktvtBnTh" next="i-68a19ded7b296cb5-2">
           <seg xml:id="i-5LKgcPKioeoSkB5kY97e4u">
             I ett radioprogram som statssekreterare Erik Åsbrink och jag
             var medi den 13 januari framgick det, som jag och alla som lyssnade
@@ -3623,7 +3621,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198788--106/prot_198788__106-037.jp2/_view"/>
-        <u xml:id="i-68a19ded7b296cb5-2" who="i-BRbSgB6kTjTGkYknyWRHHb" prev="i-68a19ded7b296cb5-1">
+        <u xml:id="i-68a19ded7b296cb5-2" who="i-BRbSgB6kTjTGkYknyWRHHb" prev="i-68a19ded7b296cb5-0">
           <seg xml:id="i-Rqws36VrnoV8iVFMunqL3p">
             11 december, då finansministern uttalade sin förståelse för problemet
             men hänvisade till att det skulle lösas genom en helhetslösning
@@ -3695,7 +3693,7 @@
         <note xml:id="i-3YrcxU1pS1sUeZ6wNHZCV7" type="speaker">
           Anf. 79 LARS TOBISSON (m):
         </note>
-        <u xml:id="i-5afd731116a0f37f-0" who="i-QKH1DSWytvVGtUZkzdboRg" next="i-2rCwVvUVa6z55S8WGnjeH2">
+        <u xml:id="i-5afd731116a0f37f-0" who="i-QKH1DSWytvVGtUZkzdboRg" next="i-5afd731116a0f37f-5">
           <seg xml:id="i-B1HsA4WECDM83zQq7qimJ8">
             Herr talman! Jag tackar finansministern för svaret. Under den
             tid som det har dröjt, har min fråga blivit än mer berättigad.
@@ -3722,7 +3720,7 @@
         <note xml:id="i-NySrBkmcFc6oWKe6ktvtGD">
           38
         </note>
-        <u xml:id="i-5afd731116a0f37f-5" who="i-QKH1DSWytvVGtUZkzdboRg" prev="i-2rCwVvUVa6z55S8WGnjeH2" next="i-5afd731116a0f37f-6">
+        <u xml:id="i-5afd731116a0f37f-5" who="i-QKH1DSWytvVGtUZkzdboRg" prev="i-5afd731116a0f37f-0" next="i-5afd731116a0f37f-6">
           <seg xml:id="i-8BCoCGhYdhhFuNbfBmACpa">
             Till min förvåning försöker Kjell-Olof Feldt göra gällande att
             kostnadsökningen i år kan stanna under katastrofalternativets
@@ -4000,7 +3998,7 @@
         <note xml:id="i-PRvTohzhZzWyWWa9Y5H5tW" type="speaker">
           Anf. 82 LARS TOBISSON (m):
         </note>
-        <u xml:id="i-5afd731116a0f37f-7" who="i-QKH1DSWytvVGtUZkzdboRg" next="i-2HJEsPf8xVga3r2cNTaCau">
+        <u xml:id="i-5afd731116a0f37f-7" who="i-QKH1DSWytvVGtUZkzdboRg" next="i-5afd731116a0f37f-12">
           <seg xml:id="i-Bu4NbDK95KXCVsUjZjpdzT">
             Herr talman! Om finansministern har näsan över vattnet, borde
             han ju också ha hatten kvar på huvudet. Då kunde han erbjuda sig
@@ -4061,7 +4059,7 @@
         <note xml:id="i-8ahK1M1bFSt3HUGWUjU8ZQ">
           42
         </note>
-        <u xml:id="i-5afd731116a0f37f-12" who="i-QKH1DSWytvVGtUZkzdboRg" prev="i-2HJEsPf8xVga3r2cNTaCau">
+        <u xml:id="i-5afd731116a0f37f-12" who="i-QKH1DSWytvVGtUZkzdboRg" prev="i-5afd731116a0f37f-7">
           <seg xml:id="i-5gdT6tadjVU6rpdEtZ9jyg">
             talade om ett tak på 4 90. Vart tog det vägen? Kjell-Olof Feldt
             kanske svarar att kostnadsökningen 1988 ändå inte blev mer än
@@ -4168,14 +4166,12 @@
         <note xml:id="i-oAegEw27H4Hpd9wcAcuFW" type="title">
           24 8 Upplästes följande inkomna skrivelser:
         </note>
-        <u xml:id="i-TVH5SfBgxyb8GmB61TNrsA" who="i-9J1gmLVJSnGBRMzrAVvtvR" prev="i-47f46bba5cf5982f-8" next="i-Dxg1VURs1Xd3Cc7V3xHTPB">
+        <u xml:id="i-TVH5SfBgxyb8GmB61TNrsA" who="i-9J1gmLVJSnGBRMzrAVvtvR" prev="i-47f46bba5cf5982f-8">
           <seg xml:id="i-6SEnTvG66VdFwcCytjVSMC">
             Till riksdagen Jag anhåller härmed om befrielse från uppdraget
             som ersättare för ledamot av riksdagen. Karlskoga den 21 april
             1988 Per Mossberg
           </seg>
-        </u>
-        <u xml:id="i-Dxg1VURs1Xd3Cc7V3xHTPB" who="i-9J1gmLVJSnGBRMzrAVvtvR" prev="i-TVH5SfBgxyb8GmB61TNrsA">
           <seg xml:id="i-SAffR73p9HiBo8XvydvgG2">
             Till riksdagen Jag anhåller härmed om befrielse från uppdraget
             som ersättare för ledamot av riksdagen. Hjortkvarn den 21 april
@@ -4301,20 +4297,16 @@
           459 av Elving Andersson (c) till justitieministern om lokalproblemen
           för polisen i Uddevalla:
         </note>
-        <u xml:id="i-0420cc2602e89c65-0" who="i-XazZeCYyyq3u8LSAmNahPt" next="i-DgGNzg8xpmVZ1xoWpmdmyK">
+        <u xml:id="i-0420cc2602e89c65-0" who="i-XazZeCYyyq3u8LSAmNahPt">
           <seg xml:id="i-6wbbHHjnW7WZgEoJUyb3ZV">
             För en tid sedan besökte justitieministern Uddevalla. Därvid
             besöktes bl. a. Uddevallas polishus. Enligt uppgifter i massmedia
             i samband med besöket uttryckte justitieministern bestörtning
             över de dåliga lokalförhållandena i Uddevallas polishus.
           </seg>
-        </u>
-        <u xml:id="i-DgGNzg8xpmVZ1xoWpmdmyK" who="i-XazZeCYyyq3u8LSAmNahPt" prev="i-0420cc2602e89c65-0" next="i-T6pZPVHrnxBjv8PtenYLQ3">
           <seg xml:id="i-VnowgoX5RR843mCUgs4wBP">
             Jag vill därför fråga justitieministern:
           </seg>
-        </u>
-        <u xml:id="i-T6pZPVHrnxBjv8PtenYLQ3" who="i-XazZeCYyyq3u8LSAmNahPt" prev="i-DgGNzg8xpmVZ1xoWpmdmyK">
           <seg xml:id="i-2Ps7jicsCJ1aTBwxYcgpn5">
             Är justitieministern beredd att vidta åtgärder så att polisens
             lokalproblem i Uddevalla snabbt kan lösas?
@@ -4327,7 +4319,7 @@
           460 av Elving Andersson (c) till finansministern om fastighetstaxeringen
           i områden där fritidshus omvandlats till permanentbostäder:
         </note>
-        <u xml:id="i-0420cc2602e89c65-1" who="i-XazZeCYyyq3u8LSAmNahPt" next="i-3qiTWRUHUJEZNvCnWfpzcG">
+        <u xml:id="i-0420cc2602e89c65-1" who="i-XazZeCYyyq3u8LSAmNahPt">
           <seg xml:id="i-4T64tzKByjfyHXmsAPvudZ">
             I samband med den allmänna fastighetstaxeringen 1981 fick många
             skärgårdsboende sina taxeringsvärden uppräknade med 300-400 96.
@@ -4354,13 +4346,9 @@
             fordras. Eftersom förevarande problem måste lösas utanför fastighetstaxeringens
             ram avser jag att återkomma till denna fråga i ett senare sammanhang.”
           </seg>
-        </u>
-        <u xml:id="i-3qiTWRUHUJEZNvCnWfpzcG" who="i-XazZeCYyyq3u8LSAmNahPt" prev="i-0420cc2602e89c65-1" next="i-DiBpiDsTMXT9cWTS39tjCY">
           <seg xml:id="i-KbxnmKSs9Qo5qufF4eqhWx">
             Med anledning av detta vill jag fråga finansministern:
           </seg>
-        </u>
-        <u xml:id="i-DiBpiDsTMXT9cWTS39tjCY" who="i-XazZeCYyyq3u8LSAmNahPt" prev="i-3qiTWRUHUJEZNvCnWfpzcG">
           <seg xml:id="i-7Xa4GsGcJj2ASpGWEcSzEy">
             I vilket sammanhang ämnar regeringen lösa dessa problem och på
             vilket sätt, och när kan dessa åtgärder förväntas?
@@ -4389,7 +4377,7 @@
           461 av Elving Andersson (c) till kommunikationsministern om tågförbindelserna
           mellan Oslo och Köpenhamn via Göteborg:
         </note>
-        <u xml:id="i-0420cc2602e89c65-2" who="i-XazZeCYyyq3u8LSAmNahPt" next="i-M4VrD1ppxYVZsLh2GLrw9f">
+        <u xml:id="i-0420cc2602e89c65-2" who="i-XazZeCYyyq3u8LSAmNahPt">
           <seg xml:id="i-2dd3WMTk1NgupTNyNhJVtJ">
             Tidigare har man från Göteborg kunnat åka tåg till eller från
             Oslo och Köpenhamn med ett tåg som passerat Göteborg mitt i natten.
@@ -4397,20 +4385,14 @@
             ville vara i Oslo eller Köpenhamn tidigt på morgonen men inte
             kunde eller ville åka från Göteborg ett halvt dygn tidigare.
           </seg>
-        </u>
-        <u xml:id="i-M4VrD1ppxYVZsLh2GLrw9f" who="i-XazZeCYyyq3u8LSAmNahPt" prev="i-0420cc2602e89c65-2" next="i-WYNCWvQSWW2iciTj7VRTfm">
           <seg xml:id="i-BQyoCAh6YZBMYhpT6KsgDR">
             Detta tåg går fortfarande mellan Norge och Danmark och passerar
             Göteborg mitt i natten men utan att stanna. Detta har inneburit
             en kraftig försämring för tågresenärerna i Göteborgsregionen.
           </seg>
-        </u>
-        <u xml:id="i-WYNCWvQSWW2iciTj7VRTfm" who="i-XazZeCYyyq3u8LSAmNahPt" prev="i-M4VrD1ppxYVZsLh2GLrw9f" next="i-FNtTXJ7x2FE8QVKSb6dGGn">
           <seg xml:id="i-DWmrm3YFMTkFfpzbMvvegP">
             Jag vill därför fråga kommunikationsministern:
           </seg>
-        </u>
-        <u xml:id="i-FNtTXJ7x2FE8QVKSb6dGGn" who="i-XazZeCYyyq3u8LSAmNahPt" prev="i-WYNCWvQSWW2iciTj7VRTfm">
           <seg xml:id="i-MwzyQ8fkp9sPEj15ezVWMU">
             Är kommunikationsministern beredd att verka för att det ovan
             nämnda tåget återigen stannar för påoch avstigning i Göteborg?
@@ -4447,7 +4429,7 @@
           463 av Göran Ericsson (m) till finansministern om bemanningen
           vid tullen i Helsingborg:
         </note>
-        <u xml:id="i-6ff0e46cf7172fc8-1" who="i-RULC5JA5WV3y9ZKs31VLzx" next="i-YaMcsWJN5mHPZALd9azQnM">
+        <u xml:id="i-6ff0e46cf7172fc8-1" who="i-RULC5JA5WV3y9ZKs31VLzx" next="i-7zPcs7PiMqp9UrjP6bH6a4">
           <seg xml:id="i-C86pM7SHMUuUYZXz3DEAWe">
             För någon tid sedan greps i Skåne en person som smugglat in personer
             via tullen i Helsingborg. Under förhören framkom att tullstationen
@@ -4462,14 +4444,12 @@
             för att narkotika och personer med avsikt att begå brott helt
             okontrollerat kunnat komma in i landet.
           </seg>
-        </u>
-        <u xml:id="i-YaMcsWJN5mHPZALd9azQnM" who="i-RULC5JA5WV3y9ZKs31VLzx" prev="i-6ff0e46cf7172fc8-1" next="i-7zPcs7PiMqp9UrjP6bH6a4">
           <seg xml:id="i-3aYpy5Ud5AGFtJB4BoQVFh">
             Mot den bakgrunden vill jag ställa följande fråga till statsrådet:
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198788--106/prot_198788__106-047.jp2/_view"/>
-        <u xml:id="i-7zPcs7PiMqp9UrjP6bH6a4" who="i-RULC5JA5WV3y9ZKs31VLzx" prev="i-YaMcsWJN5mHPZALd9azQnM">
+        <u xml:id="i-7zPcs7PiMqp9UrjP6bH6a4" who="i-RULC5JA5WV3y9ZKs31VLzx" prev="i-6ff0e46cf7172fc8-1">
           <seg xml:id="i-5ESpgmpkdPsUpFX8Cku9Vt">
             Kan statsrådet redovisa vilka skäl som ligger bakom ovanstående
             förhållande och vilka åtgärder avser statsrådet vidta så att detta

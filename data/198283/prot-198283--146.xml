@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-H6Ls95zeZYL73bvPsDy7zB" type="speech">
             <linkGrp type="u">
               <ptr target="#i-FH7otvDBrSCZivWVwnYv9d"/>
@@ -612,7 +612,13 @@
               <ptr target="#i-DJxXzmK7wbCitxW3zZbp3H"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -969,22 +975,18 @@
         <note xml:id="i-RMMzRNMcd3zGDqQqwhj2Ct" type="speaker">
           Anf. 2 Statsminister OLOF PALME:
         </note>
-        <u xml:id="i-KzWJ84ywBcM7EhVcDGcYYt" who="i-DKX1MP4aaNtFZSpMKXCwY" next="i-V4XkqtUsoAgcYZjGayu34w">
+        <u xml:id="i-KzWJ84ywBcM7EhVcDGcYYt" who="i-DKX1MP4aaNtFZSpMKXCwY">
           <seg xml:id="i-H4rTe3YsDVPWwPZte8YvXw">
             Herr talman! Gunnar Biörck i Värmdö har frågat, i anledning av
             att en presskonferens föregick överlämnandet till riksdagen av
             kompletteringspropositionen, om regeringen avser att hädanefter
             iaktta normal hövlighet gentemot riksdagen i detta hänseende.
           </seg>
-        </u>
-        <u xml:id="i-V4XkqtUsoAgcYZjGayu34w" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-KzWJ84ywBcM7EhVcDGcYYt" next="i-2VmpRp1h6cpQgX84atjAMh">
           <seg xml:id="i-69QVz11nRMNRBRxfYcBuvy">
             Det är min uppfattning att en proposition normalt bör finnas
             tillgänglig i riksdagen när dess innehåll offentliggörs genom
             pressmeddelande eller vid presskonferens.
           </seg>
-        </u>
-        <u xml:id="i-2VmpRp1h6cpQgX84atjAMh" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-V4XkqtUsoAgcYZjGayu34w">
           <seg xml:id="i-5zytarA2a7bmccYySVWbw8">
             I fråga om kompletteringspropositionen kunde vi dock konstatera
             att det i massmedia publicerades en rad uppgifter om propositionens
@@ -1031,15 +1033,13 @@
         <note xml:id="i-Kpnq7JXpacTYcx1WWMYiLY" type="speaker">
           Anf. 3 GUNNAR BIÖRCK i Värmdö (m):
         </note>
-        <u xml:id="i-5DsWhAnFN5FSGFwRvhmRji" who="i-5WchbRYCVdXodSthFK381D" next="i-44NhXLJNiMUQa3hD1jAkEv">
+        <u xml:id="i-5DsWhAnFN5FSGFwRvhmRji" who="i-5WchbRYCVdXodSthFK381D" next="i-Q3WzsiDvahR9po9Tpuqfu3">
           <seg xml:id="i-BvQWHbbptZ2FWrcmG72xg9">
             Herr talman! Tillåt mig framföra ett tack till statsministern,
             inte bara för svaret utan också för att han svarat själv och inte
             genom ombud. Det är inte varje dag som en representant för det
             parlamentariska fotfolket står öga mot öga med landets statsminister.
           </seg>
-        </u>
-        <u xml:id="i-44NhXLJNiMUQa3hD1jAkEv" who="i-5WchbRYCVdXodSthFK381D" prev="i-5DsWhAnFN5FSGFwRvhmRji" next="i-LND8CyYjaHZj48yhqaXYSk">
           <seg xml:id="i-W489zkhKnGfrbxGasawm6k">
             Jag konstaterar med tillfredsställelse att statsministern i sitt
             svar i princip bekräftar att en proposition bör finnas tillgänglig
@@ -1049,8 +1049,6 @@
             till kammarkansliet. Det är möjligt att detta kan innebära en
             skillnad på någon dag.
           </seg>
-        </u>
-        <u xml:id="i-LND8CyYjaHZj48yhqaXYSk" who="i-5WchbRYCVdXodSthFK381D" prev="i-44NhXLJNiMUQa3hD1jAkEv" next="i-DybP4wiettwY83xejWsLk5">
           <seg xml:id="i-VBr89TFD3eDRqKGAAsD21Q">
             Min fråga till statsministern har inte haft någon partipolitisk
             innebörd. Jag ställde en motsvarande fråga till statsminister
@@ -1072,8 +1070,6 @@
             under året, måste svara att vi inte vet hur det förhåller sig
             eftersom vi inte fått propositionen.
           </seg>
-        </u>
-        <u xml:id="i-DybP4wiettwY83xejWsLk5" who="i-5WchbRYCVdXodSthFK381D" prev="i-LND8CyYjaHZj48yhqaXYSk" next="i-8VCubXYodSortew3NbR5ag">
           <seg xml:id="i-WVq251j5Ajdn6osRMuCXeG">
             Nu säger statsministern att presskonferensen anordnades därför
             att massmedia i förtid publicerat en del felaktiga uppgifter om
@@ -1082,8 +1078,6 @@
             kunna provocera regeringen att ordna presskonferenser innan propositioner
             överlämnas till riksdagen. Sådant vore inte bra.
           </seg>
-        </u>
-        <u xml:id="i-8VCubXYodSortew3NbR5ag" who="i-5WchbRYCVdXodSthFK381D" prev="i-DybP4wiettwY83xejWsLk5" next="i-Q3WzsiDvahR9po9Tpuqfu3">
           <seg xml:id="i-HuXw7wYKsnZDNntzZtsi3A">
             Vid debatten 1979 diskuterade vi också om man skulle kunna tänka
             sig att riksdagens ledamöter i varje fall skulle få ett exemplar
@@ -1102,7 +1096,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198283--146/prot_198283__146-006.jp2/_view"/>
-        <u xml:id="i-Q3WzsiDvahR9po9Tpuqfu3" who="i-5WchbRYCVdXodSthFK381D" prev="i-8VCubXYodSortew3NbR5ag" next="i-QYBimQ1cbdjpAYyg7CL9X8">
+        <u xml:id="i-Q3WzsiDvahR9po9Tpuqfu3" who="i-5WchbRYCVdXodSthFK381D" prev="i-5DsWhAnFN5FSGFwRvhmRji">
           <seg xml:id="i-MSwdWDHpuiCRRr9d2aag6W">
             När statsministern nu i princip medgett att propositioner ”normalt”
             bör finnas tillgängliga ”i riksdagen” — vilket jag tolkat som
@@ -1122,8 +1116,6 @@
             av felaktiga uppgifter i massmedia, utan att i stället, om så
             anses behövligt, dementera felaktigheterna.
           </seg>
-        </u>
-        <u xml:id="i-QYBimQ1cbdjpAYyg7CL9X8" who="i-5WchbRYCVdXodSthFK381D" prev="i-Q3WzsiDvahR9po9Tpuqfu3" next="i-DUxgKCK3Rxe5PFEHR2mtPL">
           <seg xml:id="i-7TRsvNXdhaueRYEcKw42ST">
             Herr talman! Den här incidenten kastar också ett visst ljus—
             eller skall man kanske hellre säga en skugga? — över relationerna
@@ -1145,21 +1137,15 @@
             tillfällen till nya grepp. En uppstramning av aktiviteten fram
             till 550-årsjubileet vore kanhända på sin plats.
           </seg>
-        </u>
-        <u xml:id="i-DUxgKCK3Rxe5PFEHR2mtPL" who="i-5WchbRYCVdXodSthFK381D" prev="i-QYBimQ1cbdjpAYyg7CL9X8" next="i-Nk7HQSpomehy11CYVYYmmU">
           <seg xml:id="i-Ae1Dx1NB6k634ZWfCKcA79">
             Herr talman! Min interpellation betingades, jag upprepar det,
             inte av några partipolitiska avsikter, utan av omsorg om riksdagens
             ansvar och
           </seg>
-        </u>
-        <u xml:id="i-Nk7HQSpomehy11CYVYYmmU" who="i-5WchbRYCVdXodSthFK381D" prev="i-DUxgKCK3Rxe5PFEHR2mtPL" next="i-JgdRi9MHhSfR3igf7Ys5uK">
           <seg xml:id="i-D6XMD2hZ2GxLvHKaHsJqC">
             värdighet, sådana de kan härledas ur vår författning. Kanske
             är det mera -
           </seg>
-        </u>
-        <u xml:id="i-JgdRi9MHhSfR3igf7Ys5uK" who="i-5WchbRYCVdXodSthFK381D" prev="i-Nk7HQSpomehy11CYVYYmmU">
           <seg xml:id="i-MFxHArN2PExumCdvGhxGzQ">
             naturligt för en medlem av ett oppositionsparti att slå vakt
             om detta än för ett regeringsparti. I grunden borde det emellertid
@@ -1170,7 +1156,7 @@
         <note xml:id="i-BjpEQ9BoRv5NUrja6LeizZ" type="speaker">
           Anf. 4 Statsminister OLOF PALME:
         </note>
-        <u xml:id="i-51jgiyacRbwWnWPvnCCXLY" who="i-DKX1MP4aaNtFZSpMKXCwY" next="i-5m2SM1J3mf9YdUKUY72sYe">
+        <u xml:id="i-51jgiyacRbwWnWPvnCCXLY" who="i-DKX1MP4aaNtFZSpMKXCwY" next="i-TXF2udpbQM7k7ps8Fikn76">
           <seg xml:id="i-LaELHZsP4tdveBXWZ2rUHK">
             Herr talman! Jag tycker nu att Gunnar Biörck i Värmdö har rätt
             i det mesta av vad han säger. Vi har anledning att värna om —
@@ -1179,8 +1165,6 @@
             ledamöter samtidigt med att regeringen offentligt publicerar propositionernas
             innehåll.
           </seg>
-        </u>
-        <u xml:id="i-5m2SM1J3mf9YdUKUY72sYe" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-51jgiyacRbwWnWPvnCCXLY" next="i-TXF2udpbQM7k7ps8Fikn76">
           <seg xml:id="i-6foPmrvhtHfeZ1edhASJBa">
             Principiellt har jag således absolut inga invändningar mot Gunnar
             Biörcks
@@ -1217,13 +1201,11 @@
         <note xml:id="i-N39f7th2BZ5raMyjQ3LXyX">
           114
         </note>
-        <u xml:id="i-TXF2udpbQM7k7ps8Fikn76" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-5m2SM1J3mf9YdUKUY72sYe" next="i-GS9P7QhLvKYo5hGPpbogXy">
+        <u xml:id="i-TXF2udpbQM7k7ps8Fikn76" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-51jgiyacRbwWnWPvnCCXLY">
           <seg xml:id="i-DiVPc3SK9GQwmWKS52YaTT">
             resonemang. Nu vet jag de svårigheter som i praktiken uppstår
             i vissa fall. De har att göra med den tid som här förgår.
           </seg>
-        </u>
-        <u xml:id="i-GS9P7QhLvKYo5hGPpbogXy" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-TXF2udpbQM7k7ps8Fikn76" next="i-TH78NxrXE4ZXNTRT3Fa4of">
           <seg xml:id="i-6YX5h2d8UXuWbsnPMdADRJ">
             Regeringen fattar, efter omsorgsfulla förberedelser och kollektiva
             ansträngningar, ett beslut i en fråga. Sedan går det en viss tid
@@ -1239,8 +1221,6 @@
             ut till försvar för en icke existerande ståndpunkt. Sedan kommer
             så småningom, i efterhand, äntligen en proposition.
           </seg>
-        </u>
-        <u xml:id="i-TH78NxrXE4ZXNTRT3Fa4of" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-GS9P7QhLvKYo5hGPpbogXy" next="i-C4YQNCEQosCM978pna8y1X">
           <seg xml:id="i-8VKuFQ3SZ5aSk3mLekmLad">
             Detta blir stundom en nästan outhärdlig provokation. Jag tror
             inte att någon regering i alla situationer kommer att kunna motstå
@@ -1249,8 +1229,6 @@
             Men jag delar Gunnar Biörcks mening att man bör försöka stålsätta
             sig så långt möjligt.
           </seg>
-        </u>
-        <u xml:id="i-C4YQNCEQosCM978pna8y1X" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-TH78NxrXE4ZXNTRT3Fa4of">
           <seg xml:id="i-KM93iTmXk8xFFZAStvkvVt">
             Jag skall gärna säga till Gunnar Biörck att vi sedan hans interpellation
             väcktes har gjort en genomgång av publiceringstider och tidpunkten
@@ -1303,20 +1281,16 @@
         <note xml:id="i-7nV5xwx4EvmcayacC8XGLG" type="speaker">
           Anf. 7 Utbildningsminister LENA HJELM-WALLÉN:
         </note>
-        <u xml:id="i-G4rLkPJGbTFqpJ7A6qHXGK" who="i-SySN6qMqpcrxHXHJgwvJdT" next="i-RuR9n2CqHiZaDtRfwdR3d9">
+        <u xml:id="i-G4rLkPJGbTFqpJ7A6qHXGK" who="i-SySN6qMqpcrxHXHJgwvJdT">
           <seg xml:id="i-QhKhfjfnUX7pM8y4jFq37Q">
             Herr talman! Margö Ingvardsson har frågat sjukvårdsministern
             om hon anser att det är lämpligt att det privata näringslivet
             direkt bekostar statliga tjänster.
           </seg>
-        </u>
-        <u xml:id="i-RuR9n2CqHiZaDtRfwdR3d9" who="i-SySN6qMqpcrxHXHJgwvJdT" prev="i-G4rLkPJGbTFqpJ7A6qHXGK" next="i-S7zYKYLMuupJqr6Eun7sL3">
           <seg xml:id="i-JmWrin6PQoXB92n5vwiB6i">
             Arbetet inom regeringen är så fördelat att det är jag som skall
             svara på frågan.
           </seg>
-        </u>
-        <u xml:id="i-S7zYKYLMuupJqr6Eun7sL3" who="i-SySN6qMqpcrxHXHJgwvJdT" prev="i-RuR9n2CqHiZaDtRfwdR3d9" next="i-Jkpr8hjfrLcYNu8ABghAUM">
           <seg xml:id="i-UnCc8DFqgixEwZGgPig4Pv">
             Samarbetet mellan högskolan och näringsliv bedrivs i dag i olika
             former. En av dessa är att ett företag, som har intresse av att
@@ -1328,8 +1302,6 @@
             intresse, kan då en tjänst som professor inrättas i vanlig ordning.
             Företaget täcker sedan helt eller delvis kostnaderna för tjänsten.
           </seg>
-        </u>
-        <u xml:id="i-Jkpr8hjfrLcYNu8ABghAUM" who="i-SySN6qMqpcrxHXHJgwvJdT" prev="i-S7zYKYLMuupJqr6Eun7sL3" next="i-TthRx96QmqXiinUaTUY8UY">
           <seg xml:id="i-UrtK9JyRnNzMf8DamjcPD1">
             Det förhållandet att en tjänst finansieras av delvis andra medel
             än statliga påverkar således inte gången för inrättande av tjänsten
@@ -1338,8 +1310,6 @@
             samma villkor och granskas på samma sätt som den forskning som
             bedrivs inom ramen för andra tjänster inom högskolan.
           </seg>
-        </u>
-        <u xml:id="i-TthRx96QmqXiinUaTUY8UY" who="i-SySN6qMqpcrxHXHJgwvJdT" prev="i-Jkpr8hjfrLcYNu8ABghAUM">
           <seg xml:id="i-DkW4PMjccMSywmmXiwMzKS">
             Någon skillnad beroende på finansieringsform skall således inte
             finnas i något avseende. I detta läge anser jag det naturligt
@@ -1480,7 +1450,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198283--146/prot_198283__146-010.jp2/_view"/>
-        <u xml:id="i-S7EjftZJHmKrSMXio8o55i" who="i-SySN6qMqpcrxHXHJgwvJdT" prev="i-1986fb69438a8efe-7" next="i-VfGrnezpZBMmnuQTNqgviw">
+        <u xml:id="i-S7EjftZJHmKrSMXio8o55i" who="i-SySN6qMqpcrxHXHJgwvJdT" prev="i-1986fb69438a8efe-7" next="i-1986fb69438a8efe-9">
           <seg xml:id="i-3u3ReYdmpDEKPrzhZXNpXV">
             Den aktuella ändringen har gjorts på initiativ av universitetsoch
             högskoleämbetet (UHÄ). UHÄ ansåg det otillfredsställande att en
@@ -1495,8 +1465,6 @@
             högskolestyrelsen, som i sin tur kunde inhämta förslag från en
             valförsamling.
           </seg>
-        </u>
-        <u xml:id="i-VfGrnezpZBMmnuQTNqgviw" who="i-SySN6qMqpcrxHXHJgwvJdT" prev="i-S7EjftZJHmKrSMXio8o55i" next="i-1986fb69438a8efe-9">
           <seg xml:id="i-WTAp5cSbW4qiaZyiCtohFD">
             Regeringen anslöt sig till UHÄ:s uppfattning, men ansåg med hänsyn
             till frågans principiella karaktär att denna borde anmälas för
@@ -1511,7 +1479,7 @@
           Ändringen i högskoleförordningen beslutades den 23 februari och
           trädde i kraft den 29 mars.
         </note>
-        <u xml:id="i-1986fb69438a8efe-9" who="i-SySN6qMqpcrxHXHJgwvJdT" prev="i-VfGrnezpZBMmnuQTNqgviw">
+        <u xml:id="i-1986fb69438a8efe-9" who="i-SySN6qMqpcrxHXHJgwvJdT" prev="i-S7EjftZJHmKrSMXio8o55i">
           <seg xml:id="i-KbZ8iWeDX5mgiBynKgBiY5">
             Regeringen har, sammanfattningsvis, i god tid informerat om den
             aktuella förändringen och för sin del inte haft några andra motiv
@@ -2741,7 +2709,7 @@
         <note xml:id="i-6ASyr8jYyGAgrNnbjEbZNw" type="speaker">
           Anf. 36 Justitieminister OVE RAINER:
         </note>
-        <u xml:id="i-128e09fd90160a37-34" who="i-VChpD1cxp66qPxcyfhpJrB" next="i-THZjY7HcyanT55pnkzqm7k">
+        <u xml:id="i-128e09fd90160a37-34" who="i-VChpD1cxp66qPxcyfhpJrB" next="i-128e09fd90160a37-39">
           <seg xml:id="i-RHYfbRdGkjqLrD3T4Y8k53">
             Herr talman! Med hänvisning till några uttalanden av bl. a skattecheferna
             i Stockholm och Göteborg om kontroll av bostadsbidrag och andra
@@ -2750,8 +2718,6 @@
             den typ av ingående medborgarkontroll som enligt henne har efterlysts
             i uttalandena.
           </seg>
-        </u>
-        <u xml:id="i-THZjY7HcyanT55pnkzqm7k" who="i-VChpD1cxp66qPxcyfhpJrB" prev="i-128e09fd90160a37-34" next="i-128e09fd90160a37-39">
           <seg xml:id="i-WnPTaf4YCmnUpc11pPZfD7">
             I regeringsformens inledningskapitel föreskrivs bl. a. att den
             offentliga makten skall utövas med respekt för den enskilda människans
@@ -2783,7 +2749,7 @@
         <note xml:id="i-LwzLijhnGtJC3hfrUGFSkq">
           132
         </note>
-        <u xml:id="i-128e09fd90160a37-39" who="i-VChpD1cxp66qPxcyfhpJrB" prev="i-THZjY7HcyanT55pnkzqm7k" next="i-128e09fd90160a37-40">
+        <u xml:id="i-128e09fd90160a37-39" who="i-VChpD1cxp66qPxcyfhpJrB" prev="i-128e09fd90160a37-34" next="i-128e09fd90160a37-40">
           <seg xml:id="i-27Hv7bYvQfuZY1v2hBVSNJ">
             värdighet och att det allmänna skall värna den enskildes privatliv
             och familjeliv.
@@ -3481,7 +3447,7 @@
         <note xml:id="i-9gTyGqbjVrymyzXqGhcF3A" type="speaker">
           Anf. 45 BERTIL JONASSON (c):
         </note>
-        <u xml:id="i-e414f295786289eb-0" who="i-DuMmQVGSnykDcj8ZwohCuA" next="i-PRPLnEuAiZjFrLErKgjuhp">
+        <u xml:id="i-e414f295786289eb-0" who="i-DuMmQVGSnykDcj8ZwohCuA" next="i-e414f295786289eb-2">
           <seg xml:id="i-JrRwK2Hm6eU2b1Y6C1TKum">
             Herr talman! Jag vill först tacka försvarsministern för svaret
             på min interpellation.
@@ -3509,15 +3475,11 @@
             godtyckligt utbetalat ersättning. Vi vet inte heller vilka som
             har erhållit ersättning.
           </seg>
-        </u>
-        <u xml:id="i-PRPLnEuAiZjFrLErKgjuhp" who="i-DuMmQVGSnykDcj8ZwohCuA" prev="i-e414f295786289eb-0" next="i-e414f295786289eb-1">
           <seg xml:id="i-JjSgqewXnM5426qCBFoWK1">
             Svenska insjöfiskarenas centralförbund har i anledning av riksdagens
             beslut 1978 om licensiering av yrkesfiskare begärt att ersättningsgrunderna
             skall ökas.
           </seg>
-        </u>
-        <u xml:id="i-e414f295786289eb-1" who="i-DuMmQVGSnykDcj8ZwohCuA" prev="i-PRPLnEuAiZjFrLErKgjuhp" next="i-e414f295786289eb-2">
           <seg xml:id="i-8MFwJP2Wb8hPLXzbZVLCin">
             Försvarsministern redogör för tillvägagångssättet efter 1964.
             Det synesi de delarna överensstämma med riksdagsbeslutet. Försvarsministern
@@ -3550,7 +3512,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198283--146/prot_198283__146-034.jp2/_view"/>
-        <u xml:id="i-e414f295786289eb-2" who="i-DuMmQVGSnykDcj8ZwohCuA" prev="i-e414f295786289eb-1">
+        <u xml:id="i-e414f295786289eb-2" who="i-DuMmQVGSnykDcj8ZwohCuA" prev="i-e414f295786289eb-0">
           <seg xml:id="i-PWRznTgGLwJxaeA6Uy6XK4">
             ifrågasätta om inte mycket av dessa övningar kan ske på i dag
             befintliga skjutfält på land. Detta skulle väl också kunna förbilliga
@@ -3608,18 +3570,14 @@
         <note xml:id="i-S2sJ362A3fLXZsAnsjaRAn" type="speaker">
           Anf. 46 Statsrådet GERTRUD SIGURDSEN:
         </note>
-        <u xml:id="i-e414f295786289eb-3" who="i-EKAdp351JQgZiMQXg875jB" next="i-XiMmywLjjSzGeDAPQdzKkg">
+        <u xml:id="i-e414f295786289eb-3" who="i-EKAdp351JQgZiMQXg875jB" next="i-5YAkvyNqpBU1tcn1VdYNEg">
           <seg xml:id="i-Y4Qra8fS5ojM4CaUSdMayt">
             Herr talman! Inga Lantz har ställt följande frågor till socialministern:
           </seg>
-        </u>
-        <u xml:id="i-XiMmywLjjSzGeDAPQdzKkg" who="i-EKAdp351JQgZiMQXg875jB" prev="i-e414f295786289eb-3" next="i-CaZT3fp1pDFL4F7cCT3Jf5">
           <seg xml:id="i-Uq5zyEfCvrkT2EWx5tz8hC">
             1. Avser regeringen att vidta åtgärder för att begränsa verksamheter
             med konstgjord befruktning i avvaktan på pågående utredning?
           </seg>
-        </u>
-        <u xml:id="i-CaZT3fp1pDFL4F7cCT3Jf5" who="i-EKAdp351JQgZiMQXg875jB" prev="i-XiMmywLjjSzGeDAPQdzKkg" next="i-5YAkvyNqpBU1tcn1VdYNEg">
           <seg xml:id="i-7AB3fEYJvx9U92gsaiPfMA">
             2. Är regeringen beredd att, med hänsyn till de knappa forskningsresurserna,
             ta initiativ till en genomgripande diskussion om dessa resursers
@@ -3629,7 +3587,7 @@
         <note xml:id="i-NMCFV9Mysso1YJgbTJPr1n">
           Interpellationen har överlämnats till mig för besvarande.
         </note>
-        <u xml:id="i-5YAkvyNqpBU1tcn1VdYNEg" who="i-EKAdp351JQgZiMQXg875jB" prev="i-CaZT3fp1pDFL4F7cCT3Jf5" next="i-e414f295786289eb-6">
+        <u xml:id="i-5YAkvyNqpBU1tcn1VdYNEg" who="i-EKAdp351JQgZiMQXg875jB" prev="i-e414f295786289eb-3" next="i-e414f295786289eb-6">
           <seg xml:id="i-N9FQeHNLG7jPr8z1TEk7Kj">
             Artificiell insemination och provrörsbefruktning inrymmer många
             etiska och juridiska problem.
@@ -3685,7 +3643,7 @@
           att i avvaktan på resultatet av utredningsarbetet förbjuda verksamheten
           med artificiell insemination.
         </note>
-        <u xml:id="i-e414f295786289eb-7" who="i-EKAdp351JQgZiMQXg875jB" prev="i-e414f295786289eb-6" next="i-R6QbnuUjgQgoNV8krchB7y">
+        <u xml:id="i-e414f295786289eb-7" who="i-EKAdp351JQgZiMQXg875jB" prev="i-e414f295786289eb-6" next="i-e414f295786289eb-9">
           <seg xml:id="i-Vb6BSH89UgdBHPz1KamgZp">
             Justitieministern har också i svar på två frågor i riksdagen
             om insemination förklarat att det pågående utredningsarbetet enligt
@@ -3707,8 +3665,6 @@
             bred diskussion förs om dessa frågor. Såväl juridiska som etiska,
             sociala och ekonomiska konsekvenser måste analyseras.
           </seg>
-        </u>
-        <u xml:id="i-R6QbnuUjgQgoNV8krchB7y" who="i-EKAdp351JQgZiMQXg875jB" prev="i-e414f295786289eb-7" next="i-e414f295786289eb-8">
           <seg xml:id="i-MCgcwgGavuUUBWGYu3vvd1">
             Socialstyrelsen anordnade i december 1982 en konferens om provrörsbefruktning.
             I konferensen deltog representanter för bl. a. forskningsetiska
@@ -3717,8 +3673,6 @@
             hösten 1983 kommer en uppföljande konferens om provrörsbefruktning
             att anordnas av socialstyrelsen.
           </seg>
-        </u>
-        <u xml:id="i-e414f295786289eb-8" who="i-EKAdp351JQgZiMQXg875jB" prev="i-R6QbnuUjgQgoNV8krchB7y" next="i-e414f295786289eb-9">
           <seg xml:id="i-5kKATqnbD61sgNpqEJQHsV">
             Betänkandet om artificiella inseminationer kommer att sändas
             ut på remiss under hösten.
@@ -3742,7 +3696,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198283--146/prot_198283__146-036.jp2/_view"/>
-        <u xml:id="i-e414f295786289eb-9" who="i-EKAdp351JQgZiMQXg875jB" prev="i-e414f295786289eb-8">
+        <u xml:id="i-e414f295786289eb-9" who="i-EKAdp351JQgZiMQXg875jB" prev="i-e414f295786289eb-7">
           <seg xml:id="i-JTHMqXZ1FVMZ7Md2QrvUVK">
             forskningsprojekt startas. Jag avser att ta upp en diskussion
             om frågor av detta slag inom den nyligen inrättade hälsooch sjukvårdsberedningen.
@@ -4295,7 +4249,7 @@
         <note xml:id="i-CpkDPyc1cwarQyn58VcziN" type="speaker">
           Anf. 52 SVEN HENRICSSON (vpk):
         </note>
-        <u xml:id="i-8b7f434e148e6afe-0" who="i-FTkwAMo13hmDoeXLXEV1N" next="i-JQXA9eh8vVZWbuCVx3eUj">
+        <u xml:id="i-8b7f434e148e6afe-0" who="i-FTkwAMo13hmDoeXLXEV1N" next="i-8b7f434e148e6afe-3">
           <seg xml:id="i-D1YTk3Px5dY5xW6t1u5vmM">
             Herr talman! Jag tackar för det svar jag fått, även om det snarare
             uttrycker förhoppningar än redovisar åtgärder för att komma till
@@ -4339,7 +4293,7 @@
         <note xml:id="i-HKdedx3cZcryEZBvfbGXuX">
           150
         </note>
-        <u xml:id="i-8b7f434e148e6afe-3" who="i-FTkwAMo13hmDoeXLXEV1N" prev="i-JQXA9eh8vVZWbuCVx3eUj" next="i-8b7f434e148e6afe-4">
+        <u xml:id="i-8b7f434e148e6afe-3" who="i-FTkwAMo13hmDoeXLXEV1N" prev="i-8b7f434e148e6afe-0" next="i-8b7f434e148e6afe-4">
           <seg xml:id="i-MhR6K3t3NakWTTaogSWsA4">
             sjukvårdsinsatser. En annan viktig faktor i Norrlands inland
             är den i jämförelse med landet i övrigt mycket höga andelen arbetslösa
@@ -4455,7 +4409,7 @@
         <note xml:id="i-VUS4L6KwvunG9XYVciATS7" type="speaker">
           Anf. 53 MARGARETA WINBERG (s):
         </note>
-        <u xml:id="i-2a497ab7b7fa4643-0" who="i-4qJ1WSYreoe9MGDFPCwZKy" next="i-BnPKHp5PHunrpyaoHZyNX9">
+        <u xml:id="i-2a497ab7b7fa4643-0" who="i-4qJ1WSYreoe9MGDFPCwZKy" next="i-2a497ab7b7fa4643-3">
           <seg xml:id="i-WSoRYy1TSNmeZ3ZMi1TH3G">
             Herr talman! Jag känner ett visst behov av att understryka den
             oro Sven Henricsson givit uttryck för när det gäller läkare i
@@ -4506,7 +4460,7 @@
         <note xml:id="i-2VEKUdK6CwnJNhuAv353B6">
           152
         </note>
-        <u xml:id="i-2a497ab7b7fa4643-3" who="i-4qJ1WSYreoe9MGDFPCwZKy" prev="i-BnPKHp5PHunrpyaoHZyNX9" next="i-2a497ab7b7fa4643-4">
+        <u xml:id="i-2a497ab7b7fa4643-3" who="i-4qJ1WSYreoe9MGDFPCwZKy" prev="i-2a497ab7b7fa4643-0" next="i-2a497ab7b7fa4643-4">
           <seg xml:id="i-3TyUj5K739SwiMbAQQWae6">
             resa, alltså totalt i värsta fall 60 mil fram och tillbaka för
             att få träffa en läkare.
@@ -4602,7 +4556,7 @@
         <note xml:id="i-7Zt3LsG4X7ThxFg1bnuQjZ" type="speaker">
           Anf. 54 JOHN ANDERSSON (vpk):
         </note>
-        <u xml:id="i-bfdddbb25b850fb0-0" who="i-HF1be62hHhvaXoZiyUz2HF" next="i-V1BeLcsz4go8uUb6k5K23M">
+        <u xml:id="i-bfdddbb25b850fb0-0" who="i-HF1be62hHhvaXoZiyUz2HF" next="i-bfdddbb25b850fb0-3">
           <seg xml:id="i-PxihjapR73rk2sUGELtfNo">
             Herr talman! Jag har vid tidigare tillfällen aktualiserat frågan
             om den sneda fördelningen av läkare. När den frågan nu åter är
@@ -4684,7 +4638,7 @@
         <note xml:id="i-SDuaZULQAMrm4bUReJ1Vuv">
           154
         </note>
-        <u xml:id="i-bfdddbb25b850fb0-3" who="i-HF1be62hHhvaXoZiyUz2HF" prev="i-V1BeLcsz4go8uUb6k5K23M">
+        <u xml:id="i-bfdddbb25b850fb0-3" who="i-HF1be62hHhvaXoZiyUz2HF" prev="i-bfdddbb25b850fb0-0">
           <seg xml:id="i-NVvv3nddhqAASNwYofLZxR">
             het”. Han säger också: ”Det är egentligen inte fråga om brist
             på läkare. På lasarettet har vi gott om sökande. Men tydligen
@@ -4956,7 +4910,7 @@
         <note xml:id="i-5dT3gMGu8x9jU2gxGAHm1d" type="speaker">
           Anf. 58 JOHN ANDERSSON (vpk):
         </note>
-        <u xml:id="i-bfdddbb25b850fb0-9" who="i-HF1be62hHhvaXoZiyUz2HF" next="i-YPXkhmMPWDyxRmwcn3CtzL">
+        <u xml:id="i-bfdddbb25b850fb0-9" who="i-HF1be62hHhvaXoZiyUz2HF" next="i-bfdddbb25b850fb0-12">
           <seg xml:id="i-EkKb8FMhnUBT98qVJVZQXV">
             Herr talman! Det är väl inte underligt, Gertrud Sigurdsen, om
             man ställer sig tvivlande till det lugnande besked som man gång
@@ -5024,7 +4978,7 @@
         <note xml:id="i-KKMJpjPcvi7qAh6TyX96zh">
           158
         </note>
-        <u xml:id="i-bfdddbb25b850fb0-12" who="i-HF1be62hHhvaXoZiyUz2HF" prev="i-YPXkhmMPWDyxRmwcn3CtzL">
+        <u xml:id="i-bfdddbb25b850fb0-12" who="i-HF1be62hHhvaXoZiyUz2HF" prev="i-bfdddbb25b850fb0-9">
           <seg xml:id="i-ShJeUPZJkcf9H5mzsJGYQR">
             Man kan av detta inte dra någon annan slutsats än att arbetsuppgifterna
             på de större lasaretten i tätorterna inte räcker till och att
@@ -5174,7 +5128,7 @@
         <note xml:id="i-7CmD4t2GwdFGJkKDfkPy8p" type="speaker">
           Anf. 61 Statsrådet GERTRUD SIGURDSEN:
         </note>
-        <u xml:id="i-2a497ab7b7fa4643-7" who="i-EKAdp351JQgZiMQXg875jB" next="i-VRDimoKzCR67Gp8zKPgfQC">
+        <u xml:id="i-2a497ab7b7fa4643-7" who="i-EKAdp351JQgZiMQXg875jB" next="i-2a497ab7b7fa4643-9">
           <seg xml:id="i-U5nLX4e2EfDEdXJNomGxmG">
             Herr talman! Med statistik kan man bevisa det mesta. Men det
             är väl ändå så, Gunnar Biörck i Värmdö, när det gäller tillgången
@@ -5211,7 +5165,7 @@
         <note xml:id="i-823RYS4A1jVHwex5AMYbU3">
           160
         </note>
-        <u xml:id="i-2a497ab7b7fa4643-9" who="i-EKAdp351JQgZiMQXg875jB" prev="i-VRDimoKzCR67Gp8zKPgfQC" next="i-2a497ab7b7fa4643-10">
+        <u xml:id="i-2a497ab7b7fa4643-9" who="i-EKAdp351JQgZiMQXg875jB" prev="i-2a497ab7b7fa4643-7" next="i-2a497ab7b7fa4643-10">
           <seg xml:id="i-VGpfDYnESrD8p6ZaqfmJ85">
             Det varierar starkt mellan olika län. Man har siffror som visar
             på från en läkare per 300 invånare i regionlandsting till en läkare
@@ -6065,7 +6019,7 @@
           517 av Ingvar Eriksson (m) till jordbruksministern om kontrollen
           av importerade grönsaker:
         </note>
-        <u xml:id="i-12d1eaeb9f7c9d38-1" who="i-NXNY6RqNuERrrfDVTJBFkt" next="i-Wndb1JQcsCzSFVt1hGmgiF">
+        <u xml:id="i-12d1eaeb9f7c9d38-1" who="i-NXNY6RqNuERrrfDVTJBFkt">
           <seg xml:id="i-92hgRS5U1STKxCYuRfQERA">
             Den svenska kontrollen av grönsaker tillhör den hårdaste i världen.
             Livsmedelsverket utför kontroller på såväl de i Sverige producerade
@@ -6084,14 +6038,10 @@
             i importen funnit spår av bekämpningsmedel som är förbjudna i
             Sverige.
           </seg>
-        </u>
-        <u xml:id="i-Wndb1JQcsCzSFVt1hGmgiF" who="i-NXNY6RqNuERrrfDVTJBFkt" prev="i-12d1eaeb9f7c9d38-1" next="i-54JU7URenBrWuXXKEbiT9V">
           <seg xml:id="i-W1QRM5peTkDq8aX6a9aYAa">
             Är jordbruksministern beredd att stoppa import av grönsaker,
             vilka utsatts för i Sverige förbjudna bekämpningsmedel?
           </seg>
-        </u>
-        <u xml:id="i-54JU7URenBrWuXXKEbiT9V" who="i-NXNY6RqNuERrrfDVTJBFkt" prev="i-Wndb1JQcsCzSFVt1hGmgiF">
           <seg xml:id="i-Ya9KTT8ZuHLsgc2KqaMwaY">
             Vilka slutsatser dras eller åtgärder övervägs inom regeringskansliet
             i anledning av livsmedelsverkets undersökningsresultat?
@@ -6125,7 +6075,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198283--146/prot_198283__146-064.jp2/_view"/>
-        <u xml:id="i-2028279fedc95266-2" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-2028279fedc95266-1" next="i-UFL6a8zDycffSp5FsE2bMZ">
+        <u xml:id="i-2028279fedc95266-2" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-2028279fedc95266-1" next="i-2028279fedc95266-3">
           <seg xml:id="i-HJoo6R4D2ivnfnQvngmmM6">
             inventeringen, så att resurser kan frigöras för andra ändamål.
             RRV:s rapport visar att det är möjligt att göra stora samhällsekonomiska
@@ -6134,8 +6084,6 @@
             etc., dvs. en ökad styrning av verksamheten mot högre kvalitet
             och mindre kvantitativ omfattning.
           </seg>
-        </u>
-        <u xml:id="i-UFL6a8zDycffSp5FsE2bMZ" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-2028279fedc95266-2" next="i-2028279fedc95266-3">
           <seg xml:id="i-XERpTDmDW8nGiZDjxFCPk8">
             Mot denna bakgrund vill jag fråga statsrådet Göransson om han
             vill föreslå regeringen att skyndsamt genomföra besparingsåtgärder
@@ -6146,13 +6094,11 @@
           1982/83:519 av Sven-Erik Nordin (c) till bostadsministern om
           hyreshusavgiften:
         </note>
-        <u xml:id="i-2028279fedc95266-3" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-UFL6a8zDycffSp5FsE2bMZ" next="i-DaeDF7B3P9132HmeCZfNjc">
+        <u xml:id="i-2028279fedc95266-3" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-2028279fedc95266-2" next="i-2028279fedc95266-4">
           <seg xml:id="i-CaMPEaMxt5m23SyDg59h8U">
             Riksdagsbeslutet om införandet av hyreshusavgift har skapat svåra
             komplikationer vid de pågående hyresförhandlingarna.
           </seg>
-        </u>
-        <u xml:id="i-DaeDF7B3P9132HmeCZfNjc" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-2028279fedc95266-3" next="i-2028279fedc95266-4">
           <seg xml:id="i-EzdUQBkkVW17dvHwCWqY7J">
             Jag vill därför ställa följande frågor till statsrådet Gustafsson:
           </seg>
@@ -6161,7 +6107,7 @@
           1. Ämnar statsrådet låta företa någon särskild utvärdering av
           erfarenheterna av hyreshusavgiften?
         </note>
-        <u xml:id="i-2028279fedc95266-4" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-DaeDF7B3P9132HmeCZfNjc" next="i-RubQ3cj3g3vyiFufG64vVP">
+        <u xml:id="i-2028279fedc95266-4" who="i-GTDxf4NudVQ4es4EhotQR1" prev="i-2028279fedc95266-3" next="i-RubQ3cj3g3vyiFufG64vVP">
           <seg xml:id="i-J3Wm27MfcAoQn55Ckw5UEL">
             2. Ämnar statsrådet föreslå att hyreshusavgiften slopas om denna
             utvärdering ger ett negativt resultat?
@@ -6249,19 +6195,15 @@
         <note xml:id="i-2pNfTK7RxGMVCfQmFTTU8X">
           172
         </note>
-        <u xml:id="i-29fb521253792ee2-4" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-29fb521253792ee2-1" next="i-U4cc54k4gq7NXScCyh1g4c">
+        <u xml:id="i-29fb521253792ee2-4" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-29fb521253792ee2-1">
           <seg xml:id="i-9xozbPRQkAh7GqcU8RV33T">
             tare i Klippan ur det socialdemokratiska partiet. Han hade tidigare,
             utan att ha blivit tillfrågad, mot sin vilja och sin övertygelse
             anslutits till det socialdemokratiska partiet.
           </seg>
-        </u>
-        <u xml:id="i-U4cc54k4gq7NXScCyh1g4c" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-29fb521253792ee2-4" next="i-Hifdo9rF4dKP9WdtCWprNP">
           <seg xml:id="i-8hcAKoNcotTestyqotrcL1">
             Mot denna bakgrund vill jag ställa följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-Hifdo9rF4dKP9WdtCWprNP" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-U4cc54k4gq7NXScCyh1g4c">
           <seg xml:id="i-ChSnyyubL3vC61vFWrky7v">
             Vilka åtgärder avser justitieministern att vidta för att ändra
             den ordning som på detta sätt kränker enskilda människors frihet
@@ -6275,7 +6217,7 @@
           523 av Kerstin Ekman (fp) till statsrådet Bengt Göransson om
           minskat monopol i fråga om etermedia:
         </note>
-        <u xml:id="i-449d0272ae831c2b-1" who="i-A8ft8hMHUcZDSE5fKdjGpq" next="i-6D5HRbM8wj5C8JJdan1b6T">
+        <u xml:id="i-449d0272ae831c2b-1" who="i-A8ft8hMHUcZDSE5fKdjGpq">
           <seg xml:id="i-XvAmqVxDWiS5n4BCmBxCVW">
             Med hjälp av närradio, närtelevision, kabel-TV och satelliter
             ökar möjligheterna till ett bredare informationsutbud. Det är
@@ -6284,13 +6226,9 @@
             med dessa nya medier. Detta är ett sätt att på sikt bryta det
             kraftiga monopol som i dag råder i etermedia.
           </seg>
-        </u>
-        <u xml:id="i-6D5HRbM8wj5C8JJdan1b6T" who="i-A8ft8hMHUcZDSE5fKdjGpq" prev="i-449d0272ae831c2b-1" next="i-XHfdDsfoaCV8y4wXL71AqK">
           <seg xml:id="i-WqpmeQjDnMghSb3kgJPWXe">
             Med anledning av detta vill jag fråga kulturministern följande:
           </seg>
-        </u>
-        <u xml:id="i-XHfdDsfoaCV8y4wXL71AqK" who="i-A8ft8hMHUcZDSE5fKdjGpq" prev="i-6D5HRbM8wj5C8JJdan1b6T">
           <seg xml:id="i-D5itSTZHLXPzTqy3TzAtsL">
             Avser regeringen att framlägga förslag till åtgärder som med
             hjälp av den nya tekniken kan öka friheten i etern?
@@ -6342,18 +6280,14 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198283--146/prot_198283__146-066.jp2/_view"/>
-        <u xml:id="i-5afe3ac819ab4cae-3" who="i-DDBp1Uv1xUyCgUST4Mk7Ub" prev="i-5afe3ac819ab4cae-2" next="i-WtvnrcqME21nXgrqG1ge2M">
+        <u xml:id="i-5afe3ac819ab4cae-3" who="i-DDBp1Uv1xUyCgUST4Mk7Ub" prev="i-5afe3ac819ab4cae-2">
           <seg xml:id="i-Ph2RuX6D7YkHyrZ57cgUdh">
             representerar måste en restriktiv inställning till samkörningar
             intas.
           </seg>
-        </u>
-        <u xml:id="i-WtvnrcqME21nXgrqG1ge2M" who="i-DDBp1Uv1xUyCgUST4Mk7Ub" prev="i-5afe3ac819ab4cae-3" next="i-AMyW1ajJmHJuhGTuRuhs6C">
           <seg xml:id="i-FWgXXyjFs1V6D6RbCwesT8">
             Med hänvisning härtill vill jag fråga civilministern följande:
           </seg>
-        </u>
-        <u xml:id="i-AMyW1ajJmHJuhGTuRuhs6C" who="i-DDBp1Uv1xUyCgUST4Mk7Ub" prev="i-WtvnrcqME21nXgrqG1ge2M">
           <seg xml:id="i-6M8FhfLMnvVkzhGXt4dcQ7">
             Avser regeringen att i framtiden inta en mer restriktiv inställning
             till samkörningar av dataregister?
@@ -6366,7 +6300,7 @@
           526 av Hugo Bergdahl (fp) till bostadsministern om hyresgästernas
           ställning i allmännyttiga bostadsföretag:
         </note>
-        <u xml:id="i-2cb4883143ff2bd8-1" who="i-UmGHrbipY4e5SAGvddBkzr" next="i-KMeek2jLpwTiY8LbKhfdxK">
+        <u xml:id="i-2cb4883143ff2bd8-1" who="i-UmGHrbipY4e5SAGvddBkzr">
           <seg xml:id="i-NkVUa5hwjbzjS2noqESymb">
             Bostadsrätt är en bra boendeform för att ge de boende ett större
             inflytande. Bland dem som i dag bor med hyresrätt finns många
@@ -6381,14 +6315,10 @@
             med bostadsrätt. Därmed får allmännyttans hyresgäster sämre villkor
             än vad som gäller på bostadsmarknaden i övrigt.
           </seg>
-        </u>
-        <u xml:id="i-KMeek2jLpwTiY8LbKhfdxK" who="i-UmGHrbipY4e5SAGvddBkzr" prev="i-2cb4883143ff2bd8-1" next="i-XShngQoq15ksTuFcx8pR9c">
           <seg xml:id="i-PwWHtz45a86dUPpRHps4eX">
             I anledning härav vill jag till bostadsministern ställa följande
             fråga:
           </seg>
-        </u>
-        <u xml:id="i-XShngQoq15ksTuFcx8pR9c" who="i-UmGHrbipY4e5SAGvddBkzr" prev="i-KMeek2jLpwTiY8LbKhfdxK">
           <seg xml:id="i-UrTY55dA6i32zMzXciZj6Q">
             Avser regeringen att föreslå åtgärder som syftar till att stärka
             hyresgästernas ställning i de allmännyttiga bolagen, så att de
@@ -6402,7 +6332,7 @@
         <note xml:id="i-JVXQspckHuknPHXs3X6fk7" type="speaker">
           527 av Christer Eirefelt (fp) till industriministern om näringsfriheten:
         </note>
-        <u xml:id="i-f8cd5091e8b51e02-0" who="i-TUvkLNfgGDFH5c5z5RL7Kw" next="i-893JrpXf1rSKbypH34LfcG">
+        <u xml:id="i-f8cd5091e8b51e02-0" who="i-TUvkLNfgGDFH5c5z5RL7Kw">
           <seg xml:id="i-5x5BaCc5JRpkApHm2jdkpJ">
             Principen om näringsfrihet är central för hela vårt ekonomiska
             system.
@@ -6418,13 +6348,9 @@
             för att arbeta i form av egen rörelse. Vissa branscher, bl. a.
             restaurangbranschen, har särskilt utpekats.
           </seg>
-        </u>
-        <u xml:id="i-893JrpXf1rSKbypH34LfcG" who="i-TUvkLNfgGDFH5c5z5RL7Kw" prev="i-f8cd5091e8b51e02-0" next="i-5KKMn222Bez3GhJQgBuSbn">
           <seg xml:id="i-H7VojUdcV3fDGZccTE8brD">
             Mot denna bakgrund vill jag ställa följande fråga till industriministern.
           </seg>
-        </u>
-        <u xml:id="i-5KKMn222Bez3GhJQgBuSbn" who="i-TUvkLNfgGDFH5c5z5RL7Kw" prev="i-893JrpXf1rSKbypH34LfcG">
           <seg xml:id="i-DFAN9xUgpcLGQNaDx9x28c">
             Avser regeringen att föreslå riksdagen åtgärder som utöver vad
             som i dag gäller begränsar rätten att fritt utöva näring?
@@ -6477,7 +6403,7 @@
           529 av Lars Ernestam (fp) till finansministern om skatteavdrag
           för ekonomiskt stöd till folkrörelser och ideella organisationer:
         </note>
-        <u xml:id="i-514e1b4b11e3172a-1" who="i-428Hjmwgi7AWPWkBr4Pecy" next="i-9FjcWteTYMaAYhaEHoKtY3">
+        <u xml:id="i-514e1b4b11e3172a-1" who="i-428Hjmwgi7AWPWkBr4Pecy" next="i-514e1b4b11e3172a-2">
           <seg xml:id="i-TnLgQdfps2vrJKSCuxBY5X">
             Folkrörelserna och de ideella organisationerna utgör en viktig
             grund för ett ideellt samhällsarbete. Deras insatser skapar engagemang
@@ -6490,13 +6416,9 @@
             Riksdagen har nyligen infört regler som medger rätt till skattereduktion
             för medlemsavgifter till fackliga organisationer.
           </seg>
-        </u>
-        <u xml:id="i-9FjcWteTYMaAYhaEHoKtY3" who="i-428Hjmwgi7AWPWkBr4Pecy" prev="i-514e1b4b11e3172a-1" next="i-3nbXQB3QMPjGFmxKrKJuCt">
           <seg xml:id="i-3i5q2hQ1H3cta2ru5YzsPF">
             Mot denna bakgrund vill jag fråga finansministern följande:
           </seg>
-        </u>
-        <u xml:id="i-3nbXQB3QMPjGFmxKrKJuCt" who="i-428Hjmwgi7AWPWkBr4Pecy" prev="i-9FjcWteTYMaAYhaEHoKtY3" next="i-514e1b4b11e3172a-2">
           <seg xml:id="i-NmbMvMatuCNNLEwrJY9dhH">
             Avser regeringen att vidga rätten till skatteavdrag till att
             omfatta också enskildas ekonomiska stöd till folkrörelser och
@@ -6507,33 +6429,25 @@
           1982/83:530 av tredje vice talman Karl Erik Eriksson (fp) till
           finansministern om en förenklad deklarationsblankett:
         </note>
-        <u xml:id="i-514e1b4b11e3172a-2" who="i-428Hjmwgi7AWPWkBr4Pecy" prev="i-3nbXQB3QMPjGFmxKrKJuCt" next="i-SDLmvkSMkdxBFAFXYGw4iz">
+        <u xml:id="i-514e1b4b11e3172a-2" who="i-428Hjmwgi7AWPWkBr4Pecy" prev="i-514e1b4b11e3172a-1">
           <seg xml:id="i-9BqfFpCrbE6u18LSbcDwV3">
             Enligt pressuppgifter har skatteförenklingskommittén erhållit
             direktiv om att undersöka möjligheterna att ta fram en starkt
             förenklad deklarationsblankett.
           </seg>
-        </u>
-        <u xml:id="i-SDLmvkSMkdxBFAFXYGw4iz" who="i-428Hjmwgi7AWPWkBr4Pecy" prev="i-514e1b4b11e3172a-2" next="i-24Xv1qmUx3eqM6rsTE94nm">
           <seg xml:id="i-74FSzgYHGudMduMeJGqchB">
             En sådan blankett, som införts bl. a. i Danmark, skulle användas
             av pensionärer och andra personer med endast lön eller mindre
             inkomst av kapital.
           </seg>
-        </u>
-        <u xml:id="i-24Xv1qmUx3eqM6rsTE94nm" who="i-428Hjmwgi7AWPWkBr4Pecy" prev="i-SDLmvkSMkdxBFAFXYGw4iz" next="i-WSZuqE9frmQEQUwoD3irwM">
           <seg xml:id="i-5QTtrpAJTAtSAPAmznQ749">
             Många skulle uppleva det som en lättnad att slippa den nuvarande
             krångliga deklarationsblanketten.
           </seg>
-        </u>
-        <u xml:id="i-WSZuqE9frmQEQUwoD3irwM" who="i-428Hjmwgi7AWPWkBr4Pecy" prev="i-24Xv1qmUx3eqM6rsTE94nm" next="i-FXMFu3iPbmVWWfXMd9rmvQ">
           <seg xml:id="i-6EJayJAh5WZt9194vZ6eG5">
             Med hänvisning till det anförda vill jag ställa följande fråga
             till finansminister Kjell-Olof Feldt:
           </seg>
-        </u>
-        <u xml:id="i-FXMFu3iPbmVWWfXMd9rmvQ" who="i-428Hjmwgi7AWPWkBr4Pecy" prev="i-WSZuqE9frmQEQUwoD3irwM">
           <seg xml:id="i-CAENnpb5S5zL853LP6pdy1">
             Kommer en förenklad deklarationsblankett att tas i bruk vid avgivande
             av 1984 års deklaration?
@@ -6546,7 +6460,7 @@
           531 av Olle Grahn (fp) till kommunikationsministern om reglerna
           för tillstånd till taxitrafik:
         </note>
-        <u xml:id="i-f47fe9e175f255f4-1" who="i-N6NqRjrNpzybfJmYWdhfdW" next="i-YXEYgiuMENvvQcxy6sDktB">
+        <u xml:id="i-f47fe9e175f255f4-1" who="i-N6NqRjrNpzybfJmYWdhfdW">
           <seg xml:id="i-6cf2HMJtuiCTTv7fmSPmXU">
             Enligt en ny bestämmelse skall den som har tillstånd till taxitrafik
             vara ansluten till beställningscentral, som är gemensam för ett
@@ -6560,13 +6474,9 @@
             är länsstyrelsen utan den lokala taxiföreningen som avgör om någon
             skall få driva taxirörelse eller inte.
           </seg>
-        </u>
-        <u xml:id="i-YXEYgiuMENvvQcxy6sDktB" who="i-N6NqRjrNpzybfJmYWdhfdW" prev="i-f47fe9e175f255f4-1" next="i-SynUoQa6wvz93B1rLMc3x9">
           <seg xml:id="i-UKaay5S82FYxLx8phKpH2h">
             Jag vill fråga kommunikationsministern:
           </seg>
-        </u>
-        <u xml:id="i-SynUoQa6wvz93B1rLMc3x9" who="i-N6NqRjrNpzybfJmYWdhfdW" prev="i-YXEYgiuMENvvQcxy6sDktB">
           <seg xml:id="i-G5Ld8jENXZDqabzWopfuEC">
             Avser regeringen att framlägga förslag om ändring i yrkestrafikförordningen
             så att bestämmelsen inte inkräktar på föreningsfriheten?
@@ -6581,7 +6491,7 @@
           för hyressänkning vid målningsoch tapetseringsarbete som utförs
           av hyresgäst:
         </note>
-        <u xml:id="i-c51d4f857d9605d2-1" who="i-4PWoEwRyCjKBVFFdqhmPo2" next="i-H5eVPqRHU9wGJ8yY9uuWpn">
+        <u xml:id="i-c51d4f857d9605d2-1" who="i-4PWoEwRyCjKBVFFdqhmPo2">
           <seg xml:id="i-FS78D5DXk7mZiKev5KEgW4">
             Regeringen har i proposition föreslagit att en hyresgäst — under
             förutsättning att en hyresgästorganisation träffar avtal härom
@@ -6597,14 +6507,10 @@
             underhåller sin lägenhet. Förslaget bör omarbetas på denna centrala
             punkt.
           </seg>
-        </u>
-        <u xml:id="i-H5eVPqRHU9wGJ8yY9uuWpn" who="i-4PWoEwRyCjKBVFFdqhmPo2" prev="i-c51d4f857d9605d2-1" next="i-BVJMShTTsQLpUXxyDRp42m">
           <seg xml:id="i-MmDpFckpaFX7648FjQRxJG">
             I anledning härav vill jag till bostadsministern ställa följande
             fråga:
           </seg>
-        </u>
-        <u xml:id="i-BVJMShTTsQLpUXxyDRp42m" who="i-4PWoEwRyCjKBVFFdqhmPo2" prev="i-H5eVPqRHU9wGJ8yY9uuWpn">
           <seg xml:id="i-M2JAvDDsGuKns1LbRRWZyR">
             Avser bostadsministern att utforma rätten till lägre hyra när
             hyresgästen själv utför underhåll så att varje enskild hyresgäst
@@ -6619,20 +6525,16 @@
           533 av Kjell Johansson (fp) till bostadsministern om förenklade
           byggnormer:
         </note>
-        <u xml:id="i-8463c901d6868855-1" who="i-WpdDDVBL8xRiFwxBEnVikM" next="i-LNTPNVvdiPgZrffnvSE8Nb">
+        <u xml:id="i-8463c901d6868855-1" who="i-WpdDDVBL8xRiFwxBEnVikM">
           <seg xml:id="i-LD1ed7eZvwFJbX67JCtFH3">
             Människors konsumtionsutrymme minskar genom att reallönerna sjunker
             på grund av den kraftiga devalveringen och andra prisökningar.
             Hushållssparandet sjunker och är nu rekordlågt. Detta kommer att
             göra det svårare för människor att skaffa sig ett eget hem.
           </seg>
-        </u>
-        <u xml:id="i-LNTPNVvdiPgZrffnvSE8Nb" who="i-WpdDDVBL8xRiFwxBEnVikM" prev="i-8463c901d6868855-1" next="i-HKaEubnDuQnvqYhxHME35Z">
           <seg xml:id="i-V4r9Ge1qAqGbsxswUqLH8d">
             I anledning härav vill jag fråga bostadsministern följande:
           </seg>
-        </u>
-        <u xml:id="i-HKaEubnDuQnvqYhxHME35Z" who="i-WpdDDVBL8xRiFwxBEnVikM" prev="i-LNTPNVvdiPgZrffnvSE8Nb">
           <seg xml:id="i-QadoJLRGA6fSWJsXCsK1MJ">
             Avser regeringen att föreslå förenklade byggnormer i syfte att
             åstadkomma en prispress på nybyggandet för att möjliggöra för
@@ -6646,26 +6548,20 @@
           534 av Elver Jonsson (fp) till socialministern om bilstödet till
           handikappade:
         </note>
-        <u xml:id="i-3a0f47bbafc9f612-0" who="i-Gcjbk3nJyjWXPaa2dm3MFR" next="i-2eL6yABeFvH2a742Rfh2xw">
+        <u xml:id="i-3a0f47bbafc9f612-0" who="i-Gcjbk3nJyjWXPaa2dm3MFR">
           <seg xml:id="i-Xh7cMRiSoYKJMKSUdDWATV">
             I augusti förra året överlämnade bilstödskommittén sitt betänkande
             Nytt Bilstöd till Handikappade (SOU 1982:44). Först långt in på
             detta år sände regeringen utredningen på remiss. Därmed har lång
             tid gått, vilket minskat möjligheten att snabbt få en reform förverkligad.
           </seg>
-        </u>
-        <u xml:id="i-2eL6yABeFvH2a742Rfh2xw" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-3a0f47bbafc9f612-0" next="i-MexzhcZaq6SYkqBYeXKsxH">
           <seg xml:id="i-JYkUkUtmFocHp3ijTHadx2">
             Med anledning härav vill jag fråga socialministern:
           </seg>
-        </u>
-        <u xml:id="i-MexzhcZaq6SYkqBYeXKsxH" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-2eL6yABeFvH2a742Rfh2xw" next="i-KNW6ummyxARG74ygUQHLVB">
           <seg xml:id="i-X71UxXhmpFSgixK8Q4P3MD">
             När bedömer regeringen att remissarbetet kan avslutas och förslag
             föreläggas riksdagen?
           </seg>
-        </u>
-        <u xml:id="i-KNW6ummyxARG74ygUQHLVB" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-MexzhcZaq6SYkqBYeXKsxH">
           <seg xml:id="i-PaFndGfsV7UUMuJcyxTDNt">
             Avser regeringen att vidta extra åtgärder i avsikt att snabbt
             kunna föreslå riksdagen ett reformerat och nytt bilstöd till handikappade?
@@ -6703,7 +6599,7 @@
           535 av Björn Molin (fp) till statsrådet Mats Hellström om importen
           av textilprodukter:
         </note>
-        <u xml:id="i-a0d11edf9e81a3f6-1" who="i-67kiTFbXU3qDiVNVin2wTU" next="i-KVBfdp7tWHwkEasRgtBmv3">
+        <u xml:id="i-a0d11edf9e81a3f6-1" who="i-67kiTFbXU3qDiVNVin2wTU">
           <seg xml:id="i-EqXUg8ZjJgcVcnFUEp6YHq">
             Införseln till Sverige av textilprodukter från de s.k. lågprisländerna
             regleras av olika avtal som begränsar tillflödet av billiga klädesvaror
@@ -6713,13 +6609,9 @@
             skulle kunna minska med lägst 1 500 kr. per år om Sverige medgav
             en fri tillförsel av textilvaror från utlandet.
           </seg>
-        </u>
-        <u xml:id="i-KVBfdp7tWHwkEasRgtBmv3" who="i-67kiTFbXU3qDiVNVin2wTU" prev="i-a0d11edf9e81a3f6-1" next="i-KwHSjhj3xRvuymhPvzZEko">
           <seg xml:id="i-VgY41W1Zp31s4kTAAojkyq">
             Med anledning härav vill jag ställa följande frågor:
           </seg>
-        </u>
-        <u xml:id="i-KwHSjhj3xRvuymhPvzZEko" who="i-67kiTFbXU3qDiVNVin2wTU" prev="i-KVBfdp7tWHwkEasRgtBmv3">
           <seg xml:id="i-A5ADZCwisyAEouBAKe64Fg">
             1. Är regeringen nu beredd att avskriva alla planer på att införa
             s. k. globalkontingenter för reglering av importen av textilprodukter
@@ -6752,27 +6644,21 @@
           537 av Börje Stensson (fp) till jordbruksministern om förbudet
           mot nyoch ombyggnad av djurstallar:
         </note>
-        <u xml:id="i-DAHyTgkJRuYUmcJr59F2nd" who="i-CP1NFcCA4knd73wq3oaYZW" next="i-cb389cd182a394c1-2">
+        <u xml:id="i-DAHyTgkJRuYUmcJr59F2nd" who="i-CP1NFcCA4knd73wq3oaYZW">
           <seg xml:id="i-4iC1PWQ8ySz2qQMfZ7V7VM">
             På regeringens förslag beslöt riksdagen den 23 mars i år om förbud
             under viss tid mot nybyggnad och ombyggnad av djurstallar för
             nötkreatur, svin och fjärderfä.
           </seg>
-        </u>
-        <u xml:id="i-cb389cd182a394c1-2" who="i-CP1NFcCA4knd73wq3oaYZW" prev="i-DAHyTgkJRuYUmcJr59F2nd" next="i-AVSjZYvFaoDy77P4UVCb9M">
           <seg xml:id="i-UNxs8W7w5FDWbMSYc5Z28A">
             Det har antytts att dispensgivningen skulle bli generös. I riksdagsbeslutet
             framhålls dock att dispenser främst skulle ges av regionalpolitiska
             skäl.
           </seg>
-        </u>
-        <u xml:id="i-AVSjZYvFaoDy77P4UVCb9M" who="i-CP1NFcCA4knd73wq3oaYZW" prev="i-cb389cd182a394c1-2" next="i-XLBeu7xwXKkDCUKDyxQ9SB">
           <seg xml:id="i-PgAEeLozDxyUBfPsNdumye">
             Mot bakgrund av nämnda riksdagsbesluts intrång på jordbruksnäringen
             och antydda dispensmöjligheter vill jag fråga jordbruksministern:
           </seg>
-        </u>
-        <u xml:id="i-XLBeu7xwXKkDCUKDyxQ9SB" who="i-CP1NFcCA4knd73wq3oaYZW" prev="i-AVSjZYvFaoDy77P4UVCb9M">
           <seg xml:id="i-UALg8TznXyfQ98dhSVdngP">
             1. Hur många omoch nybyggnadsföretag har stoppats upp på grund
             av ifrågavarande byggförbud?
@@ -6789,21 +6675,17 @@
           538 av Kenth Skårvik (fp) till socialministern om etableringskontrollen
           för privatpraktiserande tandläkare:
         </note>
-        <u xml:id="i-3f2b265de5549b06-0" who="i-DMheKZZCYDtLzdvzFzc5vP" next="i-NowfzHWkTz6MueWg4y6ajE">
+        <u xml:id="i-3f2b265de5549b06-0" who="i-DMheKZZCYDtLzdvzFzc5vP" next="i-9egzGMf2k6vFjTNmVnBakx">
           <seg xml:id="i-X1gCqBTBoKqoibArinupcC">
             Fritt val av tandläkare bör vara en vägledande princip för utformning
             av tandvården i landet. Den enskilda tandvården måste därför kunna
             utvecklas vid sidan av folktandvården.
           </seg>
-        </u>
-        <u xml:id="i-NowfzHWkTz6MueWg4y6ajE" who="i-DMheKZZCYDtLzdvzFzc5vP" prev="i-3f2b265de5549b06-0" next="i-9cM4q8cq7f3nPjNZairUMC">
           <seg xml:id="i-JPwWPEkrxtSjK9QB4h1twb">
             Mot bakgrund av vice statsministerns signaler om regeringens
             ökade intresse för frihetsfrågor vill jag fråga socialministern
             följande:
           </seg>
-        </u>
-        <u xml:id="i-9cM4q8cq7f3nPjNZairUMC" who="i-DMheKZZCYDtLzdvzFzc5vP" prev="i-NowfzHWkTz6MueWg4y6ajE" next="i-9egzGMf2k6vFjTNmVnBakx">
           <seg xml:id="i-Bu6shfVkXUNkPXxbMrad3V">
             Avser socialministern att avveckla den nuvarande etableringskontrollen,
             som är riktad mot privatpraktiserande tandläkare?
@@ -6814,15 +6696,13 @@
           1982/83:539 av Jan-Erik Wikström (fp) till statsrådet Ingvar
           Carlsson om programmet för ökad frihet för enskilda medborgare:
         </note>
-        <u xml:id="i-9egzGMf2k6vFjTNmVnBakx" who="i-DMheKZZCYDtLzdvzFzc5vP" prev="i-9cM4q8cq7f3nPjNZairUMC" next="i-XX36MB4kPFprPpHrYkwmvy">
+        <u xml:id="i-9egzGMf2k6vFjTNmVnBakx" who="i-DMheKZZCYDtLzdvzFzc5vP" prev="i-3f2b265de5549b06-0" next="i-7EUtfpZmfDxQpRqrWo552m">
           <seg xml:id="i-DhjmzH1v49dnXepaQEU9Pk">
             Vice statsministern har aktualiserat frågan om hur friheten för
             enskilda medborgare skall kunna ökas. Exemplifieringen synes ha
             berört många departement och ämbetsverk. Mot bakgrund av detta
             vill jag fråga vice statsministern:
           </seg>
-        </u>
-        <u xml:id="i-XX36MB4kPFprPpHrYkwmvy" who="i-DMheKZZCYDtLzdvzFzc5vP" prev="i-9egzGMf2k6vFjTNmVnBakx" next="i-7EUtfpZmfDxQpRqrWo552m">
           <seg xml:id="i-Pw5jmFp1MY5J4ExMaJ5aEq">
             Hur avser regeringen att organisera arbetet för att genomföra
             programmet för ökad frihet för den enskilde?
@@ -6832,7 +6712,7 @@
           1982/83:540 av Rolf Wirtén (fp) till finansministern om företagens
           uppgiftslämnande:
         </note>
-        <u xml:id="i-7EUtfpZmfDxQpRqrWo552m" who="i-DMheKZZCYDtLzdvzFzc5vP" prev="i-XX36MB4kPFprPpHrYkwmvy" next="i-8SxfzfgHaLdoPfbpPZoWcp">
+        <u xml:id="i-7EUtfpZmfDxQpRqrWo552m" who="i-DMheKZZCYDtLzdvzFzc5vP" prev="i-9egzGMf2k6vFjTNmVnBakx">
           <seg xml:id="i-QixCiw9KtR1Hh9svtxJDkx">
             Delegationen för företagens uppgiftslämnande, DEFU, genomförde
             ett omfattande arbete för att finna former för att begränsa företagens
@@ -6843,14 +6723,10 @@
             mellanrum vidta engångsåtgärder av typen DEFU-utredningen för
             att minska blankettfloran.
           </seg>
-        </u>
-        <u xml:id="i-8SxfzfgHaLdoPfbpPZoWcp" who="i-DMheKZZCYDtLzdvzFzc5vP" prev="i-7EUtfpZmfDxQpRqrWo552m" next="i-462iNi2CKwtRR1mo5GefQy">
           <seg xml:id="i-NZjjrGLMNdSYW3BrNYmvry">
             Med anledning av det anförda vill jag till finansministern ställa
             följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-462iNi2CKwtRR1mo5GefQy" who="i-DMheKZZCYDtLzdvzFzc5vP" prev="i-8SxfzfgHaLdoPfbpPZoWcp">
           <seg xml:id="i-GuXSh7GDFoc1ts6eu7VaMb">
             Avser regeringen att vidta åtgärder för att söka begränsa den
             nuvarande omfattningen av de uppgiftsinsamlingar som riktas framför
@@ -6864,15 +6740,13 @@
           541 av Ulla Orring (fp) till statsrådet Gertrud Sigurdsen om
           läkarnas privata akutcentraler och kvällsmottagningar:
         </note>
-        <u xml:id="i-cb940b61c273e1a2-0" who="unknown" next="i-DJxXzmK7wbCitxW3zZbp3H">
+        <u xml:id="i-cb940b61c273e1a2-0" who="unknown">
           <seg xml:id="i-MYHpX8SFy6pt5K8QGAvkP">
             Trots den stora satsning som har skett på utbyggnad av den öppna
             primärvården med flera vårdcentraler har svenska folket svårt
             att komma till tals med sin läkare. Några akutcentraler och kvällsmottagningar
             har nu öppnats i privat regi.
           </seg>
-        </u>
-        <u xml:id="i-DJxXzmK7wbCitxW3zZbp3H" who="unknown" prev="i-cb940b61c273e1a2-0">
           <seg xml:id="i-RdjUYpNMkRG2VcCwt4Aqh6">
             Ämnar statsrådet vidta några åtgärder för att begränsa eller
             förhindra den valfrihet och de komplement som de privata mottagningarna

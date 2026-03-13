@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-SJKYYokrSEeWp8SzPmmeHL" type="speech">
             <linkGrp type="u">
               <ptr target="#i-b714d1677907d6c4-2"/>
@@ -219,7 +219,13 @@
               <ptr target="#i-YQHCvNFUV2Fg8yrfLyYLLj"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -367,7 +373,7 @@
           Chefen för jordbruksdepartementet, herr statsrådet Sköld, som
           anförde:
         </note>
-        <u xml:id="i-b714d1677907d6c4-2" who="i-C35yyip4t5V4hBSBwnGD7Z" next="i-6JkWP5kYyur4jndE7oDftU">
+        <u xml:id="i-b714d1677907d6c4-2" who="i-C35yyip4t5V4hBSBwnGD7Z">
           <seg xml:id="i-8Ei4ReWtY3S421cHfFR3we">
             Med andra kammarens tillstånd har herr Lindman till mig framställt
             föl- Jande spörsmål:
@@ -378,8 +384,6 @@
             förlängd giltighet för nu tillämpade stödåtgärder äro att från
             Kungl. Maj:ts sida under den närmaste tiden förvänta?
           </seg>
-        </u>
-        <u xml:id="i-6JkWP5kYyur4jndE7oDftU" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-b714d1677907d6c4-2">
           <seg xml:id="i-PF53h6U3uiiKVbeWLsPN96">
             Med anledning härav vill jag meddela, att statens spannmålsnämnd
             den 30 januari 1933 inkommit med begärd utredning rörande förlängning
@@ -1275,7 +1279,7 @@
         <note xml:id="i-YV3zsMav4g3UnJD9zFuSyS" type="speaker">
           Herr Lindman:
         </note>
-        <u xml:id="i-6643e8025ee62744-1" who="i-Fnu186BGHvvTJDuB7t6zMb" next="i-EDjEQUHsd3KkWSvTkZZZgB">
+        <u xml:id="i-6643e8025ee62744-1" who="i-Fnu186BGHvvTJDuB7t6zMb">
           <seg xml:id="i-NLiwUAXQKK33cPQN78dLNy">
             Herr talman! Jag har icke mycket att säga efter de anföranden,
             som hållits av herr Lindskog och av dem, som talat i samma riktning
@@ -1296,8 +1300,6 @@
             absolut avgörande och övervägande i jämförelse med de andra skiljaktigheter,
             som förefinnas mellan kamrarna.
           </seg>
-        </u>
-        <u xml:id="i-EDjEQUHsd3KkWSvTkZZZgB" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-6643e8025ee62744-1">
           <seg xml:id="i-8iEB4ZXg4YN3fzFYYtLBZq">
             Jag tillåter mig därför, herr talman, att instämma med herr Lindskog
             och yrka bifall till utskottets förslag.
@@ -1832,15 +1834,13 @@
         <note xml:id="i-LB2YCVBtvdSPF7iL9oJs28" type="date">
           20 Nr 31. Lördagen den 8 april.
         </note>
-        <u xml:id="i-d8e53d242a25017c-4" who="i-SXv5Tc5coUXhzaHBJfs33a" prev="i-d8e53d242a25017c-3" next="i-3icJksELz9eVGKnqUAoBnx">
+        <u xml:id="i-d8e53d242a25017c-4" who="i-SXv5Tc5coUXhzaHBJfs33a" prev="i-d8e53d242a25017c-3">
           <seg xml:id="i-Cjr9AVYYDHf4BtcsmqgMrV">
             Ang. inrättande av en medborgarskola för värnpliktiga. (Forts.)
             kammaren skulle vilja stödja ett yrkande av denna begränsade omfattning,
             och tillåter mig i samförstånd med mina medmotionärer och reservanterna
             att redan nu framställa ett sådant yrkande.
           </seg>
-        </u>
-        <u xml:id="i-3icJksELz9eVGKnqUAoBnx" who="i-SXv5Tc5coUXhzaHBJfs33a" prev="i-d8e53d242a25017c-4">
           <seg xml:id="i-HzHD5ZwHjoPveVZ65TSA6L">
             Jag hemställer sålunda, herr talman, att andra kammaren med anledning
             av motionen IT: 403 och i anslutning till vad generalstabschefen
@@ -2581,7 +2581,7 @@
         <note xml:id="i-5rAexL6RkMiYY7WzM4rqHn" type="speaker">
           Herr Magnusson i Kalmar:
         </note>
-        <u xml:id="i-b67bb40e07435565-0" who="i-C4QS4gxWUMydutdM42dsft" next="i-3dYp1pfhZAuEib7yN3Yb5k">
+        <u xml:id="i-b67bb40e07435565-0" who="i-C4QS4gxWUMydutdM42dsft">
           <seg xml:id="i-GWGW3G84rnpHXcCE2VAMkf">
             Herr talman! Jag har undertecknat en motion, i vilken vi hemställt
             om en utredning angående upprättande av plan och kostnadsförslag
@@ -2635,8 +2635,6 @@
             sida än för närvarande varit fallet, skall jag hemställa om bifall
             till reservationen.
           </seg>
-        </u>
-        <u xml:id="i-3dYp1pfhZAuEib7yN3Yb5k" who="i-C4QS4gxWUMydutdM42dsft" prev="i-b67bb40e07435565-0">
           <seg xml:id="i-TMY963Q2zerCMfWotxmtAZ">
             I detta anförande, under vilket herr talmannen återtagit ledningen
             av förhandlingarna, instämde herr Johnsson i Kalmar.

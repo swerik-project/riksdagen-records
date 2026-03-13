@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-Pjx6FQtuyuDnB1km4CeyA3" type="speech">
             <linkGrp type="u">
               <ptr target="#i-XX7rfdFj4PTT5bp1D95YKx"/>
@@ -299,7 +299,13 @@
               <ptr target="#i-QFXfyZXvKGQvAREFi757GA"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -577,7 +583,7 @@
         <note xml:id="i-Bk8dnNc5QCzoHGev6xVVZi" type="speaker">
           Anf. 1 Statsministern THORBJÖRN FÄLLDIN:
         </note>
-        <u xml:id="i-XX7rfdFj4PTT5bp1D95YKx" who="i-PDvEfAmYAgGTBhkGvyY7F4" next="i-J6XMPV8sPqwbtNfoYPEoMB">
+        <u xml:id="i-XX7rfdFj4PTT5bp1D95YKx" who="i-PDvEfAmYAgGTBhkGvyY7F4">
           <seg xml:id="i-KSoii7tnZiU4bA3FjtsKci">
             Herr talman! Olof Palme har frågat mig om jag klart och entydigt
             kan ta avstånd från ett påstått uttalande i en tidningsintervju
@@ -585,28 +591,20 @@
             på följande sätt: ”Även om vi betraktar oss som neutrala, så vet
             vi var vi hör hemma.”
           </seg>
-        </u>
-        <u xml:id="i-J6XMPV8sPqwbtNfoYPEoMB" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-XX7rfdFj4PTT5bp1D95YKx" next="i-WyUiopsu62HzRMfYPizto9">
           <seg xml:id="i-6d9rygNunFyVjwAB1Xbtr3">
             Oswald Söderqvist har åberopat samma uttalande med tillägget:
             ”Amerika är ju den stora demokratin.” Han har frågat försvarsministern
             vad denne avser med yttrandet i fråga.
           </seg>
-        </u>
-        <u xml:id="i-WyUiopsu62HzRMfYPizto9" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-J6XMPV8sPqwbtNfoYPEoMB" next="i-Hwtj4isuk2spr8FyTAmjzp">
           <seg xml:id="i-CxAuz4rdpoCrM7vK9vfqTq">
             Efter överenskommelse med försvarsministern besvarar jag båda
             frågorna i ett sammanhang.
           </seg>
-        </u>
-        <u xml:id="i-Hwtj4isuk2spr8FyTAmjzp" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-WyUiopsu62HzRMfYPizto9" next="i-6VSbaxTk6MEw861TbqUkbG">
           <seg xml:id="i-ExDn6peGFutvfqdQDgXgon">
             De i pressen återgivna meningarna har inte godkänts av försvarsminister
             Torsten Gustafsson. Som han har framhållit i tidningen Arbetet
             innebär de en förvanskning av hans uttalande om den svenska neutralitetspolitiken.
           </seg>
-        </u>
-        <u xml:id="i-6VSbaxTk6MEw861TbqUkbG" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-Hwtj4isuk2spr8FyTAmjzp" next="i-MMQQZS9arH7tG9Wd38JStA">
           <seg xml:id="i-5VX1vSMguxSyt2DyJpjEf6">
             Regeringens syn på neutralitetspolitiken är väl känd. Alliansfriheten
             i fred, syftande till neutralitet i händelse av krig, är sedan
@@ -616,14 +614,10 @@
             undviker varje bindning till andra makter, som kan leda till att
             självständigheten beskärs.
           </seg>
-        </u>
-        <u xml:id="i-MMQQZS9arH7tG9Wd38JStA" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-6VSbaxTk6MEw861TbqUkbG" next="i-X9X1wnjdGcbz1L3UnDM8RE">
           <seg xml:id="i-DNJ5kDRQHM8nJZpRdZBd2L">
             Ett starkt folkförsvar är en förutsättning för att denna hävdvunna
             politik skall kunna upprätthållas på ett trovärdigt sätt.
           </seg>
-        </u>
-        <u xml:id="i-X9X1wnjdGcbz1L3UnDM8RE" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-MMQQZS9arH7tG9Wd38JStA">
           <seg xml:id="i-UjYbPUkEG1VFEDPb5Epss5">
             Vår säkerhetspolitik innebär däremot inte någon ideologisk neutralitet
             eller åsiktsneutralitet. Vi gör ingen hemlighet av att vi tillhör
@@ -1310,7 +1304,7 @@
         <note xml:id="i-EJsgWCh35PxXVPtS59KC5A" type="speaker">
           Anf. 13 LARS WERNER (vpk):
         </note>
-        <u xml:id="i-749d3e2ada8bea5b-7" who="i-5wPAQ1MDLRTsW1XngYcD46" next="i-XPegMv4r1uPV5XTT5VYKEx">
+        <u xml:id="i-749d3e2ada8bea5b-7" who="i-5wPAQ1MDLRTsW1XngYcD46" next="i-749d3e2ada8bea5b-11">
           <seg xml:id="i-Tv43jVsBfzJFBrFuwDAY5P">
             Herr talman! Jag är något förvånad över det besked som statsministern
             ger, därför att vi har betraktat centern som den säkraste garanten
@@ -1371,7 +1365,7 @@
         <note xml:id="i-BS51eCz7TrwBcimDci5Jf1">
           14
         </note>
-        <u xml:id="i-749d3e2ada8bea5b-11" who="i-5wPAQ1MDLRTsW1XngYcD46" prev="i-XPegMv4r1uPV5XTT5VYKEx">
+        <u xml:id="i-749d3e2ada8bea5b-11" who="i-5wPAQ1MDLRTsW1XngYcD46" prev="i-749d3e2ada8bea5b-7">
           <seg xml:id="i-BWURo8PHcHzUDRndUKkFjc">
             fasthet. Men när det gäller försvarsminister Weinbergers uttalande
             intar man en förvånansvärt passiv och svag hållning. Man säger
@@ -1510,7 +1504,7 @@
         <note xml:id="i-JiHk2nmdyrMqm9HGJzRkg5" type="speaker">
           Anf. 17 OLOF PALME (s):
         </note>
-        <u xml:id="i-cb2d9628fbd5eda3-6" who="i-DKX1MP4aaNtFZSpMKXCwY" next="i-M3SWBLQqcfbTxsfi6C7Bsy">
+        <u xml:id="i-cb2d9628fbd5eda3-6" who="i-DKX1MP4aaNtFZSpMKXCwY" next="i-cb2d9628fbd5eda3-10">
           <seg xml:id="i-K1mLHYBcG8SQ4GveW7WEW5">
             Herr talman! Jag tackar för svaret.
           </seg>
@@ -1559,7 +1553,7 @@
         <note xml:id="i-V6WQvNX9SG3HH334U7KD7R">
           16
         </note>
-        <u xml:id="i-cb2d9628fbd5eda3-10" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-M3SWBLQqcfbTxsfi6C7Bsy">
+        <u xml:id="i-cb2d9628fbd5eda3-10" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-cb2d9628fbd5eda3-6">
           <seg xml:id="i-FcupGKymgottmkk9buZ8k7">
             oppositionspartierna ta upp en debatt om vad som skulle kunna
             tänkas hända och vad den svenska regeringen skulle komma att anföra.
@@ -1671,7 +1665,7 @@
         <note xml:id="i-Y7XFKpQ7fFMfgQC1E9LrCV" type="speaker">
           Anf. 20 Statsministern THORBJÖRN FÄLLDIN:
         </note>
-        <u xml:id="i-cb2d9628fbd5eda3-14" who="i-PDvEfAmYAgGTBhkGvyY7F4" next="i-8Jg5HRzUHWfbUQeNain8Ze">
+        <u xml:id="i-cb2d9628fbd5eda3-14" who="i-PDvEfAmYAgGTBhkGvyY7F4">
           <seg xml:id="i-EDiWCSBJsCimxwveW3121q">
             Herr talman! För att inte kammaren skall tro på Olof Palmes påstående
             att jag inte kan läsa innantill ber jag att få starta med att
@@ -1879,7 +1873,7 @@
         <note xml:id="i-XFVVEkjUkfjTMqGEtH8GLA" type="speaker">
           Anf. 26 Statsministern THORBJÖRN FÄLLDIN:
         </note>
-        <u xml:id="i-cb2d9628fbd5eda3-24" who="i-PDvEfAmYAgGTBhkGvyY7F4" next="i-E5BpcZJCFLip7SzHmz7Cgc">
+        <u xml:id="i-cb2d9628fbd5eda3-24" who="i-PDvEfAmYAgGTBhkGvyY7F4" next="i-cb2d9628fbd5eda3-28">
           <seg xml:id="i-6xRYSBJryz61Y4gxfbusX8">
             Herr talman! Denna beskrivning är inte helt korrekt. I förra
             veckan tog jag bevisligen inte bara en kontakt med Olof Palme,
@@ -1918,7 +1912,7 @@
         <note xml:id="i-TLdz8DeJmy9NMjeDZRQRiZ">
           20
         </note>
-        <u xml:id="i-cb2d9628fbd5eda3-28" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-E5BpcZJCFLip7SzHmz7Cgc">
+        <u xml:id="i-cb2d9628fbd5eda3-28" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-cb2d9628fbd5eda3-24">
           <seg xml:id="i-9bXV6AC5fFebW6vJiahAFW">
             personligen skulle ta lätt på samrådsfrågorna när det gäller
             ubåten. Jag tycker att det vore fel, om den här kammardebatten
@@ -2394,7 +2388,7 @@
           71 av Anders Björck (m) till kommunikationsministern om charterflyg
           till Florida:
         </note>
-        <u xml:id="i-06ec47c0e34cd619-1" who="i-GvBe798bQfFYpnaboy7YCF" next="i-Hr3PmpKY6oFBEKHmEgdXQQ">
+        <u xml:id="i-06ec47c0e34cd619-1" who="i-GvBe798bQfFYpnaboy7YCF" next="i-06ec47c0e34cd619-2">
           <seg xml:id="i-L5iRysh8PnHcgypHMmgQtc">
             Frågan om charterflyg till bl. a. Florida från de skandinaviska
             länderna har varit föremål för långvariga diskussioner. Från allmänhetens
@@ -2409,8 +2403,6 @@
             charterflygbolag SCANAIR inte kunnat inleda den avsedda chartertrafiken
             till Florida.
           </seg>
-        </u>
-        <u xml:id="i-Hr3PmpKY6oFBEKHmEgdXQQ" who="i-GvBe798bQfFYpnaboy7YCF" prev="i-06ec47c0e34cd619-1" next="i-06ec47c0e34cd619-2">
           <seg xml:id="i-RtwDGgYnm1LVV21Gv1RsgB">
             Under 1981 har följande skett i ärendet:
           </seg>
@@ -2418,7 +2410,7 @@
         <note xml:id="i-28GTqVy8rCL5QzYb2i2BzT">
           Februari 1981
         </note>
-        <u xml:id="i-06ec47c0e34cd619-2" who="i-GvBe798bQfFYpnaboy7YCF" prev="i-Hr3PmpKY6oFBEKHmEgdXQQ" next="i-06ec47c0e34cd619-3">
+        <u xml:id="i-06ec47c0e34cd619-2" who="i-GvBe798bQfFYpnaboy7YCF" prev="i-06ec47c0e34cd619-1" next="i-06ec47c0e34cd619-3">
           <seg xml:id="i-HWYuVWys4Lwiy1juFiQo7x">
             Vid luftfartsförhandlingar mellan representanter för berörda
             myndigheter i USA och Skandinavien begärde CAB att till behandling
@@ -2443,14 +2435,12 @@
         <note xml:id="i-Cp5ZDaGWny8tLfbvyenpvc">
           Juni 1981
         </note>
-        <u xml:id="i-QRkB2kgPM4knd64C5kDdYu" who="i-GvBe798bQfFYpnaboy7YCF" prev="i-06ec47c0e34cd619-3" next="i-06ec47c0e34cd619-4">
+        <u xml:id="i-QRkB2kgPM4knd64C5kDdYu" who="i-GvBe798bQfFYpnaboy7YCF" prev="i-06ec47c0e34cd619-3" next="i-06ec47c0e34cd619-5">
           <seg xml:id="i-Y8UG4yMqM38EyZLn6ha6ht">
             SCANAIR lämnade in ansökan om tillstånd för IT-charter till Florida
             från Oslo, Köpenhamn och Stockholm. Ansökan ställdes till de skandinaviska
             myndigheterna samt till CAB i USA.
           </seg>
-        </u>
-        <u xml:id="i-06ec47c0e34cd619-4" who="i-GvBe798bQfFYpnaboy7YCF" prev="i-QRkB2kgPM4knd64C5kDdYu" next="i-06ec47c0e34cd619-5">
           <seg xml:id="i-AfPfsPHBSXPYkyhFfzhx2e">
             Redan på ett tidigt stadium lät CAB förstå att man inte i nuläget
             avsåg lämna ett positivt svar på SCANAIR:s ansökan, då man i princip
@@ -2461,7 +2451,7 @@
         <note xml:id="i-NSF3LHB6d9nJY9gxUyQQXc">
           Augusti 1981
         </note>
-        <u xml:id="i-06ec47c0e34cd619-5" who="i-GvBe798bQfFYpnaboy7YCF" prev="i-06ec47c0e34cd619-4" next="i-06ec47c0e34cd619-9">
+        <u xml:id="i-06ec47c0e34cd619-5" who="i-GvBe798bQfFYpnaboy7YCF" prev="i-QRkB2kgPM4knd64C5kDdYu" next="i-06ec47c0e34cd619-9">
           <seg xml:id="i-J2zo4WQhSx5KGs7a1oK9NR">
             CAB meddelar följande: ”Defers, without prejudice, action on
             the exemption applications of SCANAIR.” Utan att ta ställning
@@ -2517,7 +2507,7 @@
         <note xml:id="i-2qrGkuNNt1iLnvvbJ2CFhg">
           Oktober 1981
         </note>
-        <u xml:id="i-06ec47c0e34cd619-11" who="i-GvBe798bQfFYpnaboy7YCF" prev="i-06ec47c0e34cd619-10" next="i-4mrRUBQVMeXVYcmUMwd24A">
+        <u xml:id="i-06ec47c0e34cd619-11" who="i-GvBe798bQfFYpnaboy7YCF" prev="i-06ec47c0e34cd619-10">
           <seg xml:id="i-1857wrRTt655JQRjaCAdAM">
             Det danska Sterling Airways inleder som enda skandinaviska charterflygföretag
             operationer från bl. a. Sverige till Florida.
@@ -2528,14 +2518,10 @@
             på Florida. För att bryta dödläget krävs snabba initiativ från
             den svenska regeringens och luftfartsmyndigheternas sida.
           </seg>
-        </u>
-        <u xml:id="i-4mrRUBQVMeXVYcmUMwd24A" who="i-GvBe798bQfFYpnaboy7YCF" prev="i-06ec47c0e34cd619-11" next="i-QJWsf6idzsfQtK4QWZ5RYd">
           <seg xml:id="i-156tMGPAAUxpLzDAA1H6Ns">
             Med anledning av det anförda anhåller jag att till kommunikationsministern
             få ställa följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-QJWsf6idzsfQtK4QWZ5RYd" who="i-GvBe798bQfFYpnaboy7YCF" prev="i-4mrRUBQVMeXVYcmUMwd24A">
           <seg xml:id="i-JiAMuVA7AFjGJoZkucGqQA">
             Vilka initiativ avser man att ta från svensk sida för att bereda
             möjligheter för ett företag som SCANAIR att inleda charterflyg
@@ -2549,7 +2535,7 @@
           72 av Sven Johansson (c) till utrikesministern om övergrepp mot
           de mänskliga frioch rättigheterna i Iran:
         </note>
-        <u xml:id="i-9652d2d3c5b42637-1" who="i-E7dNofGGgvG7ZPBxoj8tgD" next="i-5MwSsdU96DDqAjnZXHmqGG">
+        <u xml:id="i-9652d2d3c5b42637-1" who="i-E7dNofGGgvG7ZPBxoj8tgD">
           <seg xml:id="i-Mfcw8BGSGF4nkVLnMt24nu">
             Förhållandena i Iran utvecklas på ett sätt som närmast måste
             betraktas som groteskt. Dagligen nås vi av uppgifter om att människor
@@ -2568,8 +2554,6 @@
             Med stöd av det anförda anhåller jag om kammarens tillstånd att
             till utrikesministern få ställa följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-5MwSsdU96DDqAjnZXHmqGG" who="i-E7dNofGGgvG7ZPBxoj8tgD" prev="i-9652d2d3c5b42637-1">
           <seg xml:id="i-9VNcE1Y65nFmA1x8pQRTZa">
             Vilka initiativ har den svenska regeringen tagit för att få ett
             slut på de övergrepp mot de mest elementära mänskliga frioch rättigheterna
@@ -2590,7 +2574,7 @@
           74 av Olle Östrand (s) till industriministern om åtgärder för
           att upprätthålla industrisysselsättningen i Hudiksvall:
         </note>
-        <u xml:id="i-1661714585f4e738-1" who="i-5EdJCmuTNZWXW2ejgrVXUt" next="i-PwPCn7i1Rc5hKphLWoDRLa">
+        <u xml:id="i-1661714585f4e738-1" who="i-5EdJCmuTNZWXW2ejgrVXUt">
           <seg xml:id="i-M11Uxg2ee1AmAtfYGyopNn">
             Lundberg Hymas AB avser att lägga ner sin tillverkning i Hudiksvall
             och överflytta den till Skellefteå. 170 anställda drabbas. Bakom
@@ -2605,13 +2589,9 @@
             om industriarbetsplatser är en följd av en konjunkturnedgång som
             dess värre inte mötts av en aktiv regionaloch näringspolitik.
           </seg>
-        </u>
-        <u xml:id="i-PwPCn7i1Rc5hKphLWoDRLa" who="i-5EdJCmuTNZWXW2ejgrVXUt" prev="i-1661714585f4e738-1" next="i-B6b5cB4KYjPa1vTzhaue1i">
           <seg xml:id="i-GYrJmterdns4teRYbQay32">
             Mot denna bakgrund vill jag ställa följande fråga till industriministern:
           </seg>
-        </u>
-        <u xml:id="i-B6b5cB4KYjPa1vTzhaue1i" who="i-5EdJCmuTNZWXW2ejgrVXUt" prev="i-PwPCn7i1Rc5hKphLWoDRLa">
           <seg xml:id="i-KBro7BxScBggGYf9Vgidhs">
             Vilka åtgärder avser statsrådet att vidta för att upprätthålla
             industrisysselsättningen i Hudiksvall?
@@ -2648,20 +2628,16 @@
           77 av Birgitta Johansson (s) till statsrådet Ulla Tillander om
           breddning av gymnasieutbudet i Tidaholm och Vara:
         </note>
-        <u xml:id="i-bb38ffcc328d6063-0" who="i-8kBfhXyjrBgUH1YAVjW1DD" next="i-DS61j2FgNYFDbtXpSm8g6h">
+        <u xml:id="i-bb38ffcc328d6063-0" who="i-8kBfhXyjrBgUH1YAVjW1DD">
           <seg xml:id="i-4x8s47sNirVuB3AWVXKmfd">
             Tidaholms och Vara kommuner har ansökt om att få inrätta försöksverksamhet
             med social servicelinje för att bredda gymnasieutbudet och ta
             ansvar för ungdomars sysselsättning. Regeringen har sagt nej till
             denna begäran.
           </seg>
-        </u>
-        <u xml:id="i-DS61j2FgNYFDbtXpSm8g6h" who="i-8kBfhXyjrBgUH1YAVjW1DD" prev="i-bb38ffcc328d6063-0" next="i-QFXfyZXvKGQvAREFi757GA">
           <seg xml:id="i-6EytMbDfbqW2s6ioum5wAH">
             Jag vill därför till statsrådet ställa följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-QFXfyZXvKGQvAREFi757GA" who="i-8kBfhXyjrBgUH1YAVjW1DD" prev="i-DS61j2FgNYFDbtXpSm8g6h">
           <seg xml:id="i-8946XZY5rYEZyZUueXpDEk">
             Avser statsrådet, med anledning av utredningsarbetet om flexibel
             skolplanering, att ge orter som Tidaholm och Vara möjlighet att

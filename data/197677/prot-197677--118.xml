@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-GYScYBpRJyH28DjsbTGp8i" type="speech">
             <linkGrp type="u">
               <ptr target="#i-Kw6NGV9QEMgeDex7zCvVzh"/>
@@ -379,7 +379,13 @@
               <ptr target="#i-6fa68c435d229770-18"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -581,51 +587,35 @@
         <note xml:id="i-BDrvmh1x8dt9tYv3bwqpAM" type="speaker">
           Herr NILSSON i Agnäs (m):
         </note>
-        <u xml:id="i-Kw6NGV9QEMgeDex7zCvVzh" who="i-JwrrNQarYf4sbAtWECPj6i" next="i-W9vYFZ3JG7fWS6xF7L4a87">
+        <u xml:id="i-Kw6NGV9QEMgeDex7zCvVzh" who="i-JwrrNQarYf4sbAtWECPj6i" next="i-LUn7XZAicwPhn6yiUtwJkv">
           <seg xml:id="i-TLDZyGqGzSwmGutFakvNN8">
             Herr talman! Människan behöver inte alkohol.
           </seg>
-        </u>
-        <u xml:id="i-W9vYFZ3JG7fWS6xF7L4a87" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-Kw6NGV9QEMgeDex7zCvVzh" next="i-9ouFaqRtRCTuVMeCmwmCxE">
           <seg xml:id="i-HCiGr5mQn6E2RQKw7znrjL">
             De alkoholhaltiga dryckerna är onödiga i samhället.
           </seg>
-        </u>
-        <u xml:id="i-9ouFaqRtRCTuVMeCmwmCxE" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-W9vYFZ3JG7fWS6xF7L4a87" next="i-JYs91BA5TJnDtcZssnW4C8">
           <seg xml:id="i-Q29oQHTfoa8SgCqeimn6ip">
             Alkoholen är ett gift.
           </seg>
-        </u>
-        <u xml:id="i-JYs91BA5TJnDtcZssnW4C8" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-9ouFaqRtRCTuVMeCmwmCxE" next="i-JbebKCsg9bgGxCVLA1ea3N">
           <seg xml:id="i-MesWDnp2499EoWQZcH5e7o">
             Alkoholen är skadlig. Dess verkan är nedbrytande. Alkohol för
             med sig beroende.
           </seg>
-        </u>
-        <u xml:id="i-JbebKCsg9bgGxCVLA1ea3N" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-JYs91BA5TJnDtcZssnW4C8" next="i-KamB5FGUjJ3Ey9VENoGk85">
           <seg xml:id="i-2TZrbuVMdnEvS9FhEfLyxd">
             Den som förtär alkohol löper risken att bli träl under alkoholen.
           </seg>
-        </u>
-        <u xml:id="i-KamB5FGUjJ3Ey9VENoGk85" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-JbebKCsg9bgGxCVLA1ea3N" next="i-4rSDnKKnQ8atcrRpa5Zvcw">
           <seg xml:id="i-W2jVh8DS2PS39vMAyqoL8e">
             Kan det vara möjligt att dessa enkla fakta inte är kända i Sverige
             i dag? Kan det tänkas att de är kända men icke erkända?
           </seg>
-        </u>
-        <u xml:id="i-4rSDnKKnQ8atcrRpa5Zvcw" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-KamB5FGUjJ3Ey9VENoGk85" next="i-BXWnyqGbNU1hBC2Mgc1mkZ">
           <seg xml:id="i-PWRgD4tx37r6P8kfaWd6oo">
             Vårt folk är ju ett kulturfolk — upplysta och fria människor.
           </seg>
-        </u>
-        <u xml:id="i-BXWnyqGbNU1hBC2Mgc1mkZ" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-4rSDnKKnQ8atcrRpa5Zvcw" next="i-X4MpvJa4oYoJh1azjzbmeT">
           <seg xml:id="i-3zUKRyzdfo21rx3jBCpYnu">
             Ja, jag har i dag lyssnat nästan i åtta timmar på debatten om
             det som kallas alkoholpolitik, och jag har blivit djupt förundrad
             och rätt besviken.
           </seg>
-        </u>
-        <u xml:id="i-X4MpvJa4oYoJh1azjzbmeT" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-BXWnyqGbNU1hBC2Mgc1mkZ" next="i-beMwRHKxzGUPpb2VpCM3A">
           <seg xml:id="i-JsHWadcNR7hsS3oHiZK7W2">
             Vi hade först den långa utredningen, APU, sedan beredningen och
             en tid av väntan på propositionen. Allt detta ligger som en märklig
@@ -635,23 +625,17 @@
             och att målsättningen t. o. m. är oklar. Om målsättningen verkligen
             är att nedbringa den totala konsumtionen av alkohol, är den oupphinnelig.
           </seg>
-        </u>
-        <u xml:id="i-beMwRHKxzGUPpb2VpCM3A" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-X4MpvJa4oYoJh1azjzbmeT" next="i-Cvh1DFTLX6C7i8yMJZ2XAo">
           <seg xml:id="i-Jxo7KTt4o5dpaoSCPyQpoz">
             Jag har lyssnat mig trött. Jag kan instämma i det som herr Johansson
             i Skärstad sade med anledning av vår motion nr 1515. Jag kan också
             instämma i vad flera talare från nykterhetsfolkets sida har sagt.
           </seg>
-        </u>
-        <u xml:id="i-Cvh1DFTLX6C7i8yMJZ2XAo" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-beMwRHKxzGUPpb2VpCM3A" next="i-H72E7oiREXo64b1jwinwVC">
           <seg xml:id="i-C2Y8NA1Lrxtd1ZkVXPsGfq">
             Som en av dem vilka med fruktan och smärta sett alkoholens härjningar
             och som med förvåning erfarit hur ansvariga politiker och andra
             rejäla medborgare i vårt land kan tänka och tala, vill jag anföra
             något i denna debatt.
           </seg>
-        </u>
-        <u xml:id="i-H72E7oiREXo64b1jwinwVC" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-Cvh1DFTLX6C7i8yMJZ2XAo" next="i-DD1Lfg9Sxku4pJyXe1Qoqc">
           <seg xml:id="i-WMQ4ZwfG8SZrBPK2SnWfEt">
             Först vill jag tala om min ledsnad över det dolda eller öppna
             förakt för folkrörelserna som kommer till uttryck både i kammaren
@@ -660,8 +644,6 @@
             skadorna och har pekat på botemedel och möjligheter till förbättring
             och vård. Men vem har lyssnat till dem?
           </seg>
-        </u>
-        <u xml:id="i-DD1Lfg9Sxku4pJyXe1Qoqc" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-H72E7oiREXo64b1jwinwVC" next="i-LUn7XZAicwPhn6yiUtwJkv">
           <seg xml:id="i-69mwHzJ6VL9axRKSmdYWFo">
             Riksdagens ledamöter har fått brev från dem från alla delar i
             landet
@@ -689,29 +671,23 @@
         <note xml:id="i-UY645QaBa7JyRpwAgC4BW9">
           148
         </note>
-        <u xml:id="i-LUn7XZAicwPhn6yiUtwJkv" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-DD1Lfg9Sxku4pJyXe1Qoqc" next="i-R65621SNgjuQNT86yg32oZ">
+        <u xml:id="i-LUn7XZAicwPhn6yiUtwJkv" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-Kw6NGV9QEMgeDex7zCvVzh" next="i-FEpKWxDBibjPch2zQnkj51">
           <seg xml:id="i-7SdR8LSfRhPf1BGbHpBwyH">
             under många år. Jag har bara under de senaste dagarna fått många
             skrivelser — jag har några här — från enskilda och från organisationer
             i olika delar av landet: MHF, Blå bandet, Länsnykterhetsförbundet.
           </seg>
-        </u>
-        <u xml:id="i-R65621SNgjuQNT86yg32oZ" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-LUn7XZAicwPhn6yiUtwJkv" next="i-Bu5CnBgfHh4fXBc3Vd3vYV">
           <seg xml:id="i-Gh5N5LVdSQNkFP63mvsTki">
             För någon dag sedan fick jag ett brev från en ung skribent, Ulla
             från Botsmark, där hon skriver: ”Hoppas att Du inför valet om
             mellanölets och det ev. nya folkölets vara eller inte vara, har
             ett medmänskligt och sunt förnuft och röstar Nej.”
           </seg>
-        </u>
-        <u xml:id="i-Bu5CnBgfHh4fXBc3Vd3vYV" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-R65621SNgjuQNT86yg32oZ" next="i-Fs8n4aZ6w8rVBraaTNKmmv">
           <seg xml:id="i-WuK8vEQocvqmF2NDQo8u9A">
             Alla dessa väntar, såsom det sägs i MHF:s skrivelse, att vi ”säger
             ja till åtgärder som syftar till att tränga tillbaka alkoholbruket
             bland såväl äldre som yngre”. Lyssnar vi till dem?
           </seg>
-        </u>
-        <u xml:id="i-Fs8n4aZ6w8rVBraaTNKmmv" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-Bu5CnBgfHh4fXBc3Vd3vYV" next="i-FCrZMGTbT17PUh6jCCniVM">
           <seg xml:id="i-TYqAoiUnF8ij2nwSMU3gsE">
             Under många år har vi fått en vädjan att vi skall råda bot på
             vad många kallat ”mellanölseländet bland de unga” — en vädjan
@@ -720,14 +696,10 @@
             kanske onyanserat ibland, men med en skakande bakgrund — från
             mödrar och fäder om mellanölets verkningar.
           </seg>
-        </u>
-        <u xml:id="i-FCrZMGTbT17PUh6jCCniVM" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-Fs8n4aZ6w8rVBraaTNKmmv" next="i-WudpriBohQtjSky6i8j7Jk">
           <seg xml:id="i-JNdd8ZmXjtpbQsp6YBaMPf">
             Då jag lyssnat här i dag har jag förstått att de flesta tydligen
             inte har begripit allvaret i denna vädjan.
           </seg>
-        </u>
-        <u xml:id="i-WudpriBohQtjSky6i8j7Jk" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-FCrZMGTbT17PUh6jCCniVM" next="i-AZfqok8eagc2rAkNfS7vhf">
           <seg xml:id="i-6zkqaLqaeMZZjUhb1SpYDX">
             Det var också på ett annat sätt gripande för mig att höra vittnesbörden
             till ölets försvar: ”att ta bort ett gott öl från alla dem som
@@ -735,8 +707,6 @@
             människan”. Jag har hela tiden suttit och tänkt: Var finns solidariteten
             bland oss?
           </seg>
-        </u>
-        <u xml:id="i-AZfqok8eagc2rAkNfS7vhf" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-WudpriBohQtjSky6i8j7Jk" next="i-Qx16H8XC7oNNMadAXZurjb">
           <seg xml:id="i-ScZdhEUxobZccuENxqPmxW">
             Då det gäller informationen delar jag i stort herr Carlshamres
             uppfattning. Men därtill frågar jag mig om vi verkligen ännu behöver
@@ -749,16 +719,12 @@
             mycket öl man skulle tillåta eleverna ha med sig på skolresan
             till Gotland! Jag tycker att det var en ofattlig fråga.
           </seg>
-        </u>
-        <u xml:id="i-Qx16H8XC7oNNMadAXZurjb" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-AZfqok8eagc2rAkNfS7vhf" next="i-YTdcxiSZo6D3KJ8qxLQ5iL">
           <seg xml:id="i-PPzaZZLLYnMQqdGbK4zUA">
             Då det gäller reklamen kan jag inte begripa att någon ifrågasätter
             att alkoholreklamen skall bort. Vem får i vårt land göra reklam
             för en vara som dödar eller vållar allvarliga skador på människan
             och socialt?
           </seg>
-        </u>
-        <u xml:id="i-YTdcxiSZo6D3KJ8qxLQ5iL" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-Qx16H8XC7oNNMadAXZurjb" next="i-AEkrWQmMGeEGTNqWGMqCaw">
           <seg xml:id="i-BAWQEhoV8zD4jNqaefyG29">
             Men om informationen skall ha betydelse för de unga, måste den
             kombineras med de vuxnas exempel, med samhällets egen bild, med
@@ -767,8 +733,6 @@
             normalt att ha alkoholen med -— varken till vardag eller till
             fest.
           </seg>
-        </u>
-        <u xml:id="i-AEkrWQmMGeEGTNqWGMqCaw" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-YTdcxiSZo6D3KJ8qxLQ5iL" next="i-FEpKWxDBibjPch2zQnkj51">
           <seg xml:id="i-WddE8B221CHhaL1J8jwPNx">
             Propositionens förslag om spritservering på teatrar är ohyggligt.
             Det befäster uppfattningen att alkoholen hör till festen. Glansen
@@ -780,14 +744,12 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--118/prot_197677__118-005.jp2/_view"/>
-        <u xml:id="i-FEpKWxDBibjPch2zQnkj51" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-AEkrWQmMGeEGTNqWGMqCaw" next="i-9ufsfBwGQNpDCZu4XEKoHV">
+        <u xml:id="i-FEpKWxDBibjPch2zQnkj51" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-LUn7XZAicwPhn6yiUtwJkv" next="i-32Sw3PvseK68vdiLkJhbnj">
           <seg xml:id="i-Sat46aAMd2bFqxaBNVxT8J">
             dömet, hur vi vuxna lever, är den viktigaste informationen om
             vad livet normalt bör vara. Och nu är den allmänna attityden till
             alkohol sådan att missbruket bland de unga är förståeligt.
           </seg>
-        </u>
-        <u xml:id="i-9ufsfBwGQNpDCZu4XEKoHV" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-FEpKWxDBibjPch2zQnkj51" next="i-EM2BrFZVTqS13BWxj5eLsw">
           <seg xml:id="i-5ombsH2QeHGdVuVZQtVGLd">
             Det finns motioner som belyser hur Medelsvensson tänker. Det
             här är ofattligt, tänkte jag när jag läste ett par av dem. Det
@@ -795,8 +757,6 @@
             duglig att man fått förtroendet att vara med i denna lagstiftande
             församling.
           </seg>
-        </u>
-        <u xml:id="i-EM2BrFZVTqS13BWxj5eLsw" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-9ufsfBwGQNpDCZu4XEKoHV" next="i-DB9wReuDSPofzTxj2XogG">
           <seg xml:id="i-DmFCNtQKzsEytGGGi2Z2pv">
             Inledningen i en av dessa motioner är skriven med stor begåvning.
             Det är rätt beskrivning på vissa dagliga möten med alkoholens
@@ -808,8 +768,6 @@
             på en ”för hög totalkonsumtion eller en allomfattande oförmåga
             att handskas med alkohol”.
           </seg>
-        </u>
-        <u xml:id="i-DB9wReuDSPofzTxj2XogG" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-EM2BrFZVTqS13BWxj5eLsw" next="i-3k7mdrHBJDDGiDsSfVeAXR">
           <seg xml:id="i-31k1hK6HUNwuxStmjWG8dP">
             Vad är då botemedlet enligt denna motion? Det mest angelägna
             är att avdramatisera bruket av alkohol! Jag undrar: Vad är det
@@ -823,23 +781,17 @@
             företeelse. Ja, så var det med det — naturligt att dricka men
             onaturligt att avstå från alkohol!
           </seg>
-        </u>
-        <u xml:id="i-3k7mdrHBJDDGiDsSfVeAXR" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-DB9wReuDSPofzTxj2XogG" next="i-5S4V917AyFBgC5VbWgz9sh">
           <seg xml:id="i-MQLfSRWP89HVsWaj9EtzRV">
             Hör bara — som ett eko från 1 000 års supande i Sverige och från
             många kloka, duktiga svenskar i dag, som aldrig kommer att bli
             alkoholister fastän de både hemma och offentligt super:
           </seg>
-        </u>
-        <u xml:id="i-5S4V917AyFBgC5VbWgz9sh" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-3k7mdrHBJDDGiDsSfVeAXR" next="i-9AU7rM4BWDaRPxzip9hyoh">
           <seg xml:id="i-F6gw9MPMeLA6o5LWC83Nk">
             ”Den totala avhållsamheten må visserligen vara en lämplig väg
             för den som så önskar men kan inte vara något som i information
             och samhällelig uppfostran skall framstå som det mest överlägsna
             eller föredömliga.”
           </seg>
-        </u>
-        <u xml:id="i-9AU7rM4BWDaRPxzip9hyoh" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-5S4V917AyFBgC5VbWgz9sh" next="i-NKrAvMyV7fAifdS3rXUAXN">
           <seg xml:id="i-4cBpVQ4btv4Kf7Bvffij5e">
             Har jag någonsin hört ett så tydligt språk! Ingen fostran, ingen
             undervisning får meddela att absolutism är ”överlägset” eller
@@ -849,8 +801,6 @@
             lära andra måttlighet. 2 cl alkohol per dag och person över 15
             år är normalt eller önskvärt!
           </seg>
-        </u>
-        <u xml:id="i-NKrAvMyV7fAifdS3rXUAXN" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-9AU7rM4BWDaRPxzip9hyoh" next="i-2Q96Pe2wbCdeF48WjfUa8R">
           <seg xml:id="i-4feHUmnb5sbDBWmzh6xM9q">
             Då får man gratulera dessa medelsvenskar i dag, ty antalet absolutister
             — som helt avstår från alkohol — blir mindre. Nedgången är mest
@@ -861,8 +811,6 @@
             Är det då underligt att de unga tar så litet intryck av vår information,
             som kostar så mycket pengar?
           </seg>
-        </u>
-        <u xml:id="i-2Q96Pe2wbCdeF48WjfUa8R" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-NKrAvMyV7fAifdS3rXUAXN" next="i-32Sw3PvseK68vdiLkJhbnj">
           <seg xml:id="i-M8hAPRP6mW7dKFzWub82b6">
             Vad är då att ”handskas med alkohol på ett förnuftigt sätt”?
             Jag menar:
@@ -893,15 +841,13 @@
         <note xml:id="i-EagdCde7qNdRQNzNWVicsa">
           150
         </note>
-        <u xml:id="i-32Sw3PvseK68vdiLkJhbnj" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-2Q96Pe2wbCdeF48WjfUa8R" next="i-HbLsSDUdzSoAHAoDbNjs4u">
+        <u xml:id="i-32Sw3PvseK68vdiLkJhbnj" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-FEpKWxDBibjPch2zQnkj51">
           <seg xml:id="i-UVgPQFSpYRzbpycPQvhDJE">
             förnuftigt är att aldrig använda alkohol. Alkohol skadar, förgiftar,
             dödar, minskar livets värden. Alkohol betyder ett sämre samhälle,
             olyckliga hem. Alkohol medför högre skatter, minskad produktion,
             fler sjukdagar, fler trafikolyckor.
           </seg>
-        </u>
-        <u xml:id="i-HbLsSDUdzSoAHAoDbNjs4u" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-32Sw3PvseK68vdiLkJhbnj" next="i-S3oatJUK8fiQ5SmWmVq2SH">
           <seg xml:id="i-Hj78EByxVU8mie8eKFJRr4">
             Och sysselsättningen som man ömmar för? Jag har fått en broschyr
             där det på första sidan var en bild av en storm och det stod ”I
@@ -911,15 +857,11 @@
             och för samhällets trivsel och vård om vi inte hade brännerier
             och bryggerier.
           </seg>
-        </u>
-        <u xml:id="i-S3oatJUK8fiQ5SmWmVq2SH" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-HbLsSDUdzSoAHAoDbNjs4u" next="i-GaVBThRi5e6UERudnAPvq3">
           <seg xml:id="i-YCixvfSnc99CzYwLi1FW97">
             Jag skulle för ungdomens skull vilja ha bort spriten från det
             offentliga livet, från festerna som fotograferas, filmas och sänds
             i massmedia.
           </seg>
-        </u>
-        <u xml:id="i-GaVBThRi5e6UERudnAPvq3" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-S3oatJUK8fiQ5SmWmVq2SH" next="i-CtFod4ihfHtwU8VWn2TMDa">
           <seg xml:id="i-FF8KVFCn7CkVTqFGBmRKoA">
             Och dagens föräldrar — förstår de verkligen sitt ansvar? De vill
             det bästa för sina barn. Men herr Carlshamre sade att från de
@@ -928,8 +870,6 @@
             fick den första alkoholen hemma, lärda av sina föräldrar. Föräldrarna
             betalade det första glaset och det var ett dyrt kalas.
           </seg>
-        </u>
-        <u xml:id="i-CtFod4ihfHtwU8VWn2TMDa" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-GaVBThRi5e6UERudnAPvq3" next="i-K6hrM6qoD7uSuy497KQXcx">
           <seg xml:id="i-2ae3HWwN64PwjXNobT9pKb">
             Man frågar efter något som är bättre än förbud. Ja, det menar
             jag också att vi måste ha. Och detta som är bättre än ett yttre
@@ -937,8 +877,6 @@
             ett ja som ger en inre frihet och som hjälper oss att få ut så
             mycket positivt av livet. Innerst inne behöver vi en folkväckelse.
           </seg>
-        </u>
-        <u xml:id="i-K6hrM6qoD7uSuy497KQXcx" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-CtFod4ihfHtwU8VWn2TMDa" next="i-WvaB2v1LNiLtRTKxzvz9k9">
           <seg xml:id="i-V5UiQEoNemcSJAFpunLp8G">
             Jag har i dag studerat en kopia av Crapula mundi, som jag har
             fått av en god vän som arbetar här i huset. Crapula mundi betyder
@@ -951,8 +889,6 @@
             kunde alltså kronofogde Hackzell omvittna att Tornedalen blivit
             ett annat land och att brotten försvunnit.
           </seg>
-        </u>
-        <u xml:id="i-WvaB2v1LNiLtRTKxzvz9k9" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-K6hrM6qoD7uSuy497KQXcx">
           <seg xml:id="i-2QzdBDrKTJ1pShmeKr2uM8">
             Jag tror att någonting av detta måste ske i dag. Jag är inte
             den som tror att vi klarar oss med förbud, men jag efterlyser
@@ -962,7 +898,7 @@
         <note xml:id="i-UTdGQTAd5zEoyENzYmUUd4" type="speaker">
           Herr OLLÉN (m) kort genmäle:
         </note>
-        <u xml:id="i-RD27vTmjjudVxfYUvKQ5Jk" who="i-ZyvGjLNqgpFpKbCbQnZSM" next="i-2nkhHmjKb1Vkdc9jepf5L5">
+        <u xml:id="i-RD27vTmjjudVxfYUvKQ5Jk" who="i-ZyvGjLNqgpFpKbCbQnZSM" next="i-Lx9KeHjKaAjbv9dRM2Ugsh">
           <seg xml:id="i-3gMeNjprqj4XqFmsGwLWTN">
             Herr talman! Herr Nilsson i Agnäs och jag kommer troligen inte
             heller att bli överens om målen för alkoholpolitiken efter ett
@@ -973,8 +909,6 @@
             totalt sett inte har någon hög alkoholkonsumtion, i varje fall
             inte vid en internationell jämförelse.
           </seg>
-        </u>
-        <u xml:id="i-2nkhHmjKb1Vkdc9jepf5L5" who="i-ZyvGjLNqgpFpKbCbQnZSM" prev="i-RD27vTmjjudVxfYUvKQ5Jk" next="i-Lx9KeHjKaAjbv9dRM2Ugsh">
           <seg xml:id="i-SxptYTN7EvgpvcpLV94BRE">
             Mot den bakgrunden menar jag att det är betydelsefullt att framhålla
             att målet för alkoholpolitiken borde vara att föra in alkoholbruket
@@ -982,7 +916,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--118/prot_197677__118-007.jp2/_view"/>
-        <u xml:id="i-Lx9KeHjKaAjbv9dRM2Ugsh" who="i-ZyvGjLNqgpFpKbCbQnZSM" prev="i-2nkhHmjKb1Vkdc9jepf5L5">
+        <u xml:id="i-Lx9KeHjKaAjbv9dRM2Ugsh" who="i-ZyvGjLNqgpFpKbCbQnZSM" prev="i-RD27vTmjjudVxfYUvKQ5Jk">
           <seg xml:id="i-7mn2AovpDgiLG23HafFZc8">
             rimliga vägar på ett sådant sätt att människor inte råkar in
             i svårartat missbruk. Detta är en rimlig målsättning om vi inte
@@ -1002,7 +936,7 @@
         <note xml:id="i-NBboCyvwvV2ULf2JT6jiuR" type="speaker">
           Herr NILSSON i Agnäs (m) kort genmäle:
         </note>
-        <u xml:id="i-SamNPh4AmE1t3MMXTVbu55" who="i-JwrrNQarYf4sbAtWECPj6i" next="i-XdorueU8ifsEfsPE4Md46s">
+        <u xml:id="i-SamNPh4AmE1t3MMXTVbu55" who="i-JwrrNQarYf4sbAtWECPj6i">
           <seg xml:id="i-55ERCi4dLFWiBVdxLTNpRx">
             Herr talman! Jag tror inte att ett meningsutbyte oss emellan
             är fruktbart. Vi ser så olika på den här saken. Det enda jag tyckte
@@ -1011,8 +945,6 @@
             många andra trakter har motionen liksom dragit en skugga över
             också mitt arbete.
           </seg>
-        </u>
-        <u xml:id="i-XdorueU8ifsEfsPE4Md46s" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-SamNPh4AmE1t3MMXTVbu55">
           <seg xml:id="i-FHkkUuVf6d4tQrZF7cPSLX">
             Jag vill påpeka att jag inte ropade på totalt förbud. Herr Ollén
             tyckte att den som har min uppfattning borde göra det. Jag tror
@@ -1033,7 +965,7 @@
         <note xml:id="i-4mqB7ePDz6LrnJtucSFBka" type="speaker">
           Herr OLLÉN (m) kort genmäle:
         </note>
-        <u xml:id="i-E63mBFM7gx5iUDRQshd3DT" who="i-ZyvGjLNqgpFpKbCbQnZSM" next="i-UHQ5VmdVtvtE1JuY5HJy9o">
+        <u xml:id="i-E63mBFM7gx5iUDRQshd3DT" who="i-ZyvGjLNqgpFpKbCbQnZSM">
           <seg xml:id="i-FU2t2Hwxo7y6MdQK32grBP">
             Herr talman! Jag har den största respekt för de åsikter som herr
             Nilsson i Agnäs för till torgs. Jag är inte heller rädd för att
@@ -1043,8 +975,6 @@
             ens bör förses med någon namnunderskrift. Jag menar att det är
             uppfattningar som det i högsta grad går att stå för.
           </seg>
-        </u>
-        <u xml:id="i-UHQ5VmdVtvtE1JuY5HJy9o" who="i-ZyvGjLNqgpFpKbCbQnZSM" prev="i-E63mBFM7gx5iUDRQshd3DT">
           <seg xml:id="i-TwyUQnpYTYm1KHdeYNZDsu">
             Jag vill gärna säga att även andra ledamöter än herr Nilsson
             får brev. Det finns faktiskt ett ganska betydande antal människor
@@ -1082,22 +1012,18 @@
         <note xml:id="i-SL1kErPKMvdRwUqu8UgVwf" type="speaker">
           Herr NILSSON i Agnäs (m) kort genmäle:
         </note>
-        <u xml:id="i-Mn8QHNWVXiULrn6DAZ7Udy" who="i-JwrrNQarYf4sbAtWECPj6i" next="i-FY1qttkSss5xDVxLELKEfN">
+        <u xml:id="i-Mn8QHNWVXiULrn6DAZ7Udy" who="i-JwrrNQarYf4sbAtWECPj6i">
           <seg xml:id="i-EdC4qNK2HQpWRoucojZH9F">
             Herr talman! De åsikter och uppfattningar som framförs i motionen
             har jag givetvis mött förut. Men jag trodde att de vid det här
             laget åtminstone inte skulle framföras som ett allvarligt alternativ.
             De är alltså inte nya för mig.
           </seg>
-        </u>
-        <u xml:id="i-FY1qttkSss5xDVxLELKEfN" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-Mn8QHNWVXiULrn6DAZ7Udy" next="i-BzZzdnujBH75shMy45UdvQ">
           <seg xml:id="i-GfAdHDfnxbYzujmDT8jijr">
             Jag tror inte att jag i dag kan förändra inställningen hos den
             som fortfarande hyser denna uppfattning, men jag tror att livet
             hårdhänt kommer att visa att den var felaktig.
           </seg>
-        </u>
-        <u xml:id="i-BzZzdnujBH75shMy45UdvQ" who="i-JwrrNQarYf4sbAtWECPj6i" prev="i-FY1qttkSss5xDVxLELKEfN">
           <seg xml:id="i-Jyw1cGFvKtodCNyZqEe7r8">
             Herr Ollén talar om restriktivitet. Jag menar inte bara att vi
             måste ha lagstiftning — det är helt nödvändigt med en lagstiftning
@@ -1317,13 +1243,11 @@
         <note xml:id="i-2G7fxch69DSzXSujNdyw17" type="speaker">
           Fru BERNSTRÖM (fp):
         </note>
-        <u xml:id="i-6upytNZyXtZf6poN3E6BHh" who="i-95F4sSt2W2tyXAwECzMBoc" next="i-35b7fa79ce896250-3">
+        <u xml:id="i-6upytNZyXtZf6poN3E6BHh" who="i-95F4sSt2W2tyXAwECzMBoc" next="i-35b7fa79ce896250-4">
           <seg xml:id="i-PkmoJexrpYjKTXPuFEoR8f">
             Herr talman! Jag skall säga några ord om min motion 1529 yrkandena
             1 och 3.
           </seg>
-        </u>
-        <u xml:id="i-35b7fa79ce896250-3" who="i-95F4sSt2W2tyXAwECzMBoc" prev="i-6upytNZyXtZf6poN3E6BHh" next="i-35b7fa79ce896250-4">
           <seg xml:id="i-LHRKiQuAanqakj5rVH91y9">
             Yrkande 1 innebär att all information som alkoholbolagen, Systembolaget
             och Vin- &amp; Spritcentralen, bedriver i alkoholpolitiskt syfte
@@ -1334,7 +1258,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--118/prot_197677__118-011.jp2/_view"/>
-        <u xml:id="i-35b7fa79ce896250-4" who="i-95F4sSt2W2tyXAwECzMBoc" prev="i-35b7fa79ce896250-3" next="i-35b7fa79ce896250-7">
+        <u xml:id="i-35b7fa79ce896250-4" who="i-95F4sSt2W2tyXAwECzMBoc" prev="i-6upytNZyXtZf6poN3E6BHh" next="i-35b7fa79ce896250-7">
           <seg xml:id="i-R9boNv83uVBT6ArKhD28N">
             i många av de kampanjer som exempelvis Systembolaget har drivit.
             När kampanjen för att vi skulle dricka vin i stället för starksprit
@@ -3120,7 +3044,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--118/prot_197677__118-033.jp2/_view"/>
-        <u xml:id="i-a6f5182a29e303f4-1" who="i-GNWd5uE9fySggzZr5teCwt" prev="i-a6f5182a29e303f4-0" next="i-BinBi1RTNEC8kGDzXGVz3J">
+        <u xml:id="i-a6f5182a29e303f4-1" who="i-GNWd5uE9fySggzZr5teCwt" prev="i-a6f5182a29e303f4-0">
           <seg xml:id="i-L7FR2pcPyNoakaHJ6ZUh3Z">
             lugnar mig litet och inger mig en förhoppning om att det blir
             allvar av med översynen och att utskottet kommer att följa ärendet
@@ -3133,8 +3057,6 @@
             för andra läkarkategorier, som kommer i kontakt med reumatiskt
             sjuka patienter.”
           </seg>
-        </u>
-        <u xml:id="i-BinBi1RTNEC8kGDzXGVz3J" who="i-GNWd5uE9fySggzZr5teCwt" prev="i-a6f5182a29e303f4-1">
           <seg xml:id="i-DgwjkxuafQLjXSukgW8xWr">
             Med det sagda vill jag, herr talman, yrka bifall till utskottets
             hemställan.
@@ -3654,7 +3576,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--118/prot_197677__118-039.jp2/_view"/>
-        <u xml:id="i-2609df539dc7fe54-18" who="i-EQSJnvt3y9r5wULtNbkTNu" prev="i-2609df539dc7fe54-17" next="i-BbJQurB2eWViVykN4h1utB">
+        <u xml:id="i-2609df539dc7fe54-18" who="i-EQSJnvt3y9r5wULtNbkTNu" prev="i-2609df539dc7fe54-17">
           <seg xml:id="i-N6kZwWdscdVLrcTKN2cUpC">
             per år. Tyska Demokratiska Republiken, där motsvarande lagrum
             om tvångsintagning finns i lagstiftningen, har på en befolkning
@@ -3675,8 +3597,6 @@
             Vänsterpartiet kommunisterna menar att vi har tigit alltför länge
             och att det nu bör vara slut.
           </seg>
-        </u>
-        <u xml:id="i-BbJQurB2eWViVykN4h1utB" who="i-EQSJnvt3y9r5wULtNbkTNu" prev="i-2609df539dc7fe54-18">
           <seg xml:id="i-E8YCrY7GYWU1GkftRAQsb2">
             Vi yrkar bifall till motion nr 958.
           </seg>
@@ -4228,7 +4148,7 @@
         <note xml:id="i-Q5zMHc6XWXyL4L61nvWsvV" type="speaker">
           Herr LOTHIGIUS (m):
         </note>
-        <u xml:id="i-Jy4J9tkymujYaj8ixkJ9AJ" who="i-CkprnrTz3hpNREdKrcoiAi" next="i-a601c89bb3d300d4-1">
+        <u xml:id="i-Jy4J9tkymujYaj8ixkJ9AJ" who="i-CkprnrTz3hpNREdKrcoiAi" next="i-a601c89bb3d300d4-6">
           <seg xml:id="i-FrqBuhDAQm1RRm95H7Zija">
             Herr talman! I betänkandet finns inga motioner eller reservationer
             med anledning av propositionen. Motioner har dock lämnats in i
@@ -4238,8 +4158,6 @@
             i Nennesholm. Motionerna har i stora delar tillstyrkts av utskottet
             eller behandlats mycket välvilligt.
           </seg>
-        </u>
-        <u xml:id="i-a601c89bb3d300d4-1" who="i-CkprnrTz3hpNREdKrcoiAi" prev="i-Jy4J9tkymujYaj8ixkJ9AJ" next="i-a601c89bb3d300d4-6">
           <seg xml:id="i-6R9NJmg3FShkQvh2UqMCXS">
             Anledningen till att jag tar kammarens tid i anspråk några minuter
             är att det bl. a. i vissa bussföretag har uppstått en oro över
@@ -4279,7 +4197,7 @@
         <note xml:id="i-RZTpQ9C5MW4oUho7CLxZ2T">
           190
         </note>
-        <u xml:id="i-a601c89bb3d300d4-6" who="i-CkprnrTz3hpNREdKrcoiAi" prev="i-a601c89bb3d300d4-1">
+        <u xml:id="i-a601c89bb3d300d4-6" who="i-CkprnrTz3hpNREdKrcoiAi" prev="i-Jy4J9tkymujYaj8ixkJ9AJ">
           <seg xml:id="i-8hugUXvkZ8yUovUGfBLvW9">
             förändring som sker, i varje fall som jag har uppfattat det under
             utskottsbehandlingen, går ut på att sanera de rådande förhållandena
@@ -4521,7 +4439,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--118/prot_197677__118-049.jp2/_view"/>
-        <u xml:id="i-4991fbf3e63e400f-3" who="i-Eoor7chig2KkpNDt6f9K2V" prev="i-VNZVFzsdqf6mga12iv8i6A" next="i-tAcsCFZ5nBCVNyu19tD1x">
+        <u xml:id="i-4991fbf3e63e400f-3" who="i-Eoor7chig2KkpNDt6f9K2V" prev="i-VNZVFzsdqf6mga12iv8i6A">
           <seg xml:id="i-LHZecVqDiT7fesVpJGkf8m">
             anför också att vissa resultat kan uppnås, om hyresgäster, hyresgästföreningar
             eller andra intressenter anmäler kända fall av underlåtenhet att
@@ -4539,8 +4457,6 @@
             klarar man inte detta. Man framhöll också att bl. a. sådana lgändringar
             som de vi föreslår i vpk-motionen är nödvändiga.
           </seg>
-        </u>
-        <u xml:id="i-tAcsCFZ5nBCVNyu19tD1x" who="i-Eoor7chig2KkpNDt6f9K2V" prev="i-4991fbf3e63e400f-3">
           <seg xml:id="i-Jyt8HUaPq1nQEBLin61a4j">
             Herr talman! Jag yrkar bifall till motionen 897.
           </seg>
@@ -4548,7 +4464,7 @@
         <note xml:id="i-HxiPoxjh2KT3jFm95Q4Vys" type="speaker">
           Fru NILSSON i Sunne (s):
         </note>
-        <u xml:id="i-4991fbf3e63e400f-4" who="i-7LEZYrqDXVZzSnSBmcTCn6" next="i-7DogoeZZnMHNmv4J9zzc1V">
+        <u xml:id="i-4991fbf3e63e400f-4" who="i-7LEZYrqDXVZzSnSBmcTCn6">
           <seg xml:id="i-4Z9ufmbdFEo16cjgDfFCeu">
             Herr talman! Det råder inga delade meningar om motionärens huvudsyfte,
             nämligen att komma åt problemet med spekulation och profit i fastighetsaffärer.
@@ -4565,8 +4481,6 @@
             n. inte finns anledning för riksdagen att vidta några ytterligare
             åtgärder med anledning av herr Claesons motion.
           </seg>
-        </u>
-        <u xml:id="i-7DogoeZZnMHNmv4J9zzc1V" who="i-7LEZYrqDXVZzSnSBmcTCn6" prev="i-4991fbf3e63e400f-4">
           <seg xml:id="i-RkC7SmbEJheoRqtzAoP4vF">
             Jag ber därför att få yrka bifall till lagutskottets hemställan
             i betänkandet nr 22.
@@ -4878,14 +4792,12 @@
         <note xml:id="i-SBSwrdiWmtrBAR93eZJvrt">
           skap om barnets verkliga behov och verkliga inställning.
         </note>
-        <u xml:id="i-RduvTJKwHQQTXLyT1nfnQF" who="i-EQSJnvt3y9r5wULtNbkTNu" prev="i-4991fbf3e63e400f-16" next="i-4991fbf3e63e400f-18">
+        <u xml:id="i-RduvTJKwHQQTXLyT1nfnQF" who="i-EQSJnvt3y9r5wULtNbkTNu" prev="i-4991fbf3e63e400f-16">
           <seg xml:id="i-EfDXVNbGcKYPH3Mtkpo3We">
             Jag yrkar bifall till motionen 666 med det tilläggsyrkandet att
             den däri föreslagna lagtexten skall kunna träda i kraft den 1
             januari 1978.
           </seg>
-        </u>
-        <u xml:id="i-4991fbf3e63e400f-18" who="i-EQSJnvt3y9r5wULtNbkTNu" prev="i-RduvTJKwHQQTXLyT1nfnQF">
           <seg xml:id="i-VUPNXr3njt9FYNRnm4EZy4">
             Till sist en kort kommentar till varför vpk inte avser att stödja
             herr Gahrtons motion. Herr Gahrton har kanske känt rätt, men han
@@ -5371,12 +5283,10 @@
         <note xml:id="i-NugCqPNtyuVW8yUJLPyBbX" type="speaker">
           Herr SVENSSON i Malmö (vpk):
         </note>
-        <u xml:id="i-AswXLNYh8QeaLa5Qhq5udx" who="i-EQSJnvt3y9r5wULtNbkTNu" next="i-6fa68c435d229770-3">
+        <u xml:id="i-AswXLNYh8QeaLa5Qhq5udx" who="i-EQSJnvt3y9r5wULtNbkTNu" next="i-6fa68c435d229770-4">
           <seg xml:id="i-69ZYkB68WJSSYspDLFnPg8">
             Herr talman! Några kommentarer till fru Lindquist.
           </seg>
-        </u>
-        <u xml:id="i-6fa68c435d229770-3" who="i-EQSJnvt3y9r5wULtNbkTNu" prev="i-AswXLNYh8QeaLa5Qhq5udx" next="i-6fa68c435d229770-4">
           <seg xml:id="i-AxGaxwsYYp3Hdi7iBxNgHc">
             Den vackra principen om barnets bästa är ett honnörsord som i
             synnerhet professionella politiker skjuter framför sig. Bakom
@@ -5396,7 +5306,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--118/prot_197677__118-059.jp2/_view"/>
-        <u xml:id="i-6fa68c435d229770-4" who="i-EQSJnvt3y9r5wULtNbkTNu" prev="i-6fa68c435d229770-3">
+        <u xml:id="i-6fa68c435d229770-4" who="i-EQSJnvt3y9r5wULtNbkTNu" prev="i-AswXLNYh8QeaLa5Qhq5udx">
           <seg xml:id="i-7wg1HKJbiyTKXLBUt5MAxy">
             barnets behov av att vara kvar hos den vårdnadshavare där barnet
             har rotat sig och använder andra mera allmänna fraser för att

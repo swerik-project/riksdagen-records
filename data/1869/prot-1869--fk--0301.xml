@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-SBTEMB9Es9KAT8uaEtheiu" type="speech">
             <linkGrp type="u">
               <ptr target="#i-FdrbQ5sJ71nNESpoh4aKn4"/>
@@ -56,7 +56,13 @@
               <ptr target="#i-M3vU1AmYGhXXxJdfgwvFKX"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -93,15 +99,13 @@
         <note xml:id="i-UYDuCRriimurLp836QPbP3" type="speaker">
           Hans Excellens Herr Friherre De Geer anförde skriftligen:
         </note>
-        <u xml:id="i-FdrbQ5sJ71nNESpoh4aKn4" who="unknown" next="i-HcJhquxvBFsyxwSDnUTcci">
+        <u xml:id="i-FdrbQ5sJ71nNESpoh4aKn4" who="unknown" next="i-8PKtuSfjG89v3muAeKB22s">
           <seg xml:id="i-FcicdFfBo7RUDJ3299eJGQ">
             Emot Kammarens. den 27 sistlidne Februari fattade beslut att
             afslå Stats-Utskottets Betänkande N:o 28, och dermed jemväl Kongl.
             Maj:ts Proposition N:o 3 angående Handelsoch Sjöfartsfonden, anhåller
             jag att till protokollet få anmäla min reservation.
           </seg>
-        </u>
-        <u xml:id="i-HcJhquxvBFsyxwSDnUTcci" who="unknown" prev="i-FdrbQ5sJ71nNESpoh4aKn4" next="i-8PKtuSfjG89v3muAeKB22s">
           <seg xml:id="i-UBqADs3T7SPaVewmZMgWHp">
             Handelsoch Sjöfartsfonden har, såsom vi alla veta, till en början
             uppkommit genom afgifter, som upptagits på alla inkommande och
@@ -134,7 +138,7 @@
         <note xml:id="i-K31ZAEZwRbhmUuyQaQS6iC" type="date">
           Den 1 Mars. 229
         </note>
-        <u xml:id="i-8PKtuSfjG89v3muAeKB22s" who="unknown" prev="i-HcJhquxvBFsyxwSDnUTcci" next="i-25881XRNVKx7LJkv2dvTqU">
+        <u xml:id="i-8PKtuSfjG89v3muAeKB22s" who="unknown" prev="i-FdrbQ5sJ71nNESpoh4aKn4" next="i-UV2LNCcZjFxgEy14uNF82t">
           <seg xml:id="i-CxvWrsq2gWNQhyUZYUi17j">
             förslag om denna fond. Förslaget antogs ock af Rikets Ständer.
             Sedermera har dels den särskilda förvaltningen af fonden, genom
@@ -144,8 +148,6 @@
             statsanslag; och allt detta på grund af Konungens och Riksdagens
             sammanstämmande beslut.
           </seg>
-        </u>
-        <u xml:id="i-25881XRNVKx7LJkv2dvTqU" who="unknown" prev="i-8PKtuSfjG89v3muAeKB22s" next="i-CJS4az9UNcAhiNJnjyuQNs">
           <seg xml:id="i-48dMZfnMTv79dezh1rQGKk">
             Häraf framgår, att man hittills icke ansett Handelsoch Sjöfartsfonden
             böra behandlas såsom varande af en mera oföränderlig natur än
@@ -172,8 +174,6 @@
             afstå ett öfverskott för att dermed bereda möjlighet att tillgodose
             nödvändiga statsbehof?
           </seg>
-        </u>
-        <u xml:id="i-CJS4az9UNcAhiNJnjyuQNs" who="unknown" prev="i-25881XRNVKx7LJkv2dvTqU" next="i-K1m7uqWiZs2EnX5kf41zFe">
           <seg xml:id="i-16Dujs1bJcP84PiuwC9kf4">
             Det har blifvit sagdt, att med fondens tillgångar blifvit utförda
             en mängd nyttiga arbeten, framför allt nya kommunikationslinier,
@@ -187,8 +187,6 @@
             denna gren fått stå tillbaka, så torde orsaken vida mera vara
             att söka i bristande medel, än i bristande god vilja hos Representationen.
           </seg>
-        </u>
-        <u xml:id="i-K1m7uqWiZs2EnX5kf41zFe" who="unknown" prev="i-CJS4az9UNcAhiNJnjyuQNs" next="i-UV2LNCcZjFxgEy14uNF82t">
           <seg xml:id="i-4tSpPh954ZFndyyG6xf9an">
             Man har i Regeringens förslag velat se en inkonseqvens i förhållande
             till dess uppträdande vid sista riksdagen. Ingenting kan i min
@@ -206,7 +204,7 @@
         <note xml:id="i-GovLPHF2LFnmqDgmS1PWSB" type="date">
           230 Den 1 Mars.
         </note>
-        <u xml:id="i-UV2LNCcZjFxgEy14uNF82t" who="unknown" prev="i-K1m7uqWiZs2EnX5kf41zFe">
+        <u xml:id="i-UV2LNCcZjFxgEy14uNF82t" who="unknown" prev="i-8PKtuSfjG89v3muAeKB22s">
           <seg xml:id="i-8uXMXSpbq1eZjD4yyiL4hL">
             en uppmaning till Regeringen att se till, i hvad mån önskningarne
             kunde vara billiga och så långt, men icke längre, gå dem till
@@ -234,15 +232,13 @@
         <note xml:id="i-DVycSNnFKwH1qzBeJQ4mXh" type="speaker">
           Friherre Staél von Holstein:
         </note>
-        <u xml:id="i-C8UBNNyLdB1uGcoktZrs1a" who="i-ALVd7VosM3XKaoWie25FK8" next="i-MjUY2pLpj1UVMpAgLb2H52">
+        <u xml:id="i-C8UBNNyLdB1uGcoktZrs1a" who="i-ALVd7VosM3XKaoWie25FK8">
           <seg xml:id="i-G4eyUDvDvzVniJnGdy6q8K">
             Sedan jag sistlidne Lördag aflemnat min voteringssedel rörande
             Stats-Utskottets Utlåtande N:o 28, aflägsnade jag mig härifrån
             och kunde således icke, genast efter voteringens slut, reservera
             mig emot det beslut Kammaren i denna
           </seg>
-        </u>
-        <u xml:id="i-MjUY2pLpj1UVMpAgLb2H52" who="i-ALVd7VosM3XKaoWie25FK8" prev="i-C8UBNNyLdB1uGcoktZrs1a">
           <seg xml:id="i-7B2cxmqi4GSvskXb4n1F8u">
             fråga fattat; och anhåller jag derföre att nu få min reservation
             i protokollet antecknad.

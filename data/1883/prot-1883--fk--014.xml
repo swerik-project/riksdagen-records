@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-A3LmoStyV89oenupXiBoeu" type="speech">
             <linkGrp type="u">
               <ptr target="#i-Qm67UMX33XgG9RjbnRyRpR"/>
@@ -154,7 +154,13 @@
               <ptr target="#i-7LNoaUt8L1pk6eQHZUCXCt"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -257,7 +263,7 @@
         <note xml:id="i-4jC9uBte4M3y4i7ojfzRiK" type="speaker">
           Herr Anderson, Albert:
         </note>
-        <u xml:id="i-R6fb497nYXiHy1Ywy8ydpM" who="i-XGcmQkRYP2reGmaum7rqxm" next="i-7LK7Y8nWsTy9bnMvGdYxUq">
+        <u xml:id="i-R6fb497nYXiHy1Ywy8ydpM" who="i-XGcmQkRYP2reGmaum7rqxm" next="i-T5Qr1uBszigwMTE1Rb7kt3">
           <seg xml:id="i-FvkVP7qBRnJzt4LYiLM2oZ">
             Lika med den ärade motionären är jag öfvertygad om nödvändigheten
             af att göra allt för att befordra vårt lands fredliga utveckling.
@@ -270,8 +276,6 @@
             tagit kännedom om denna historik. Jag vill derför, endast tillåta
             mig att derur anföra några data.
           </seg>
-        </u>
-        <u xml:id="i-7LK7Y8nWsTy9bnMvGdYxUq" who="i-XGcmQkRYP2reGmaum7rqxm" prev="i-R6fb497nYXiHy1Ywy8ydpM" next="i-T5Qr1uBszigwMTE1Rb7kt3">
           <seg xml:id="i-8AAjpRQtEHwnKYnSMLb5Es">
             År 1865 föreslog Kongl. Maj:t Riksdagen en förändring i grunderna
             för beväringsinrättningen samt bildande af en landtstorm. Detta
@@ -313,19 +317,15 @@
         <note xml:id="i-33uZPpcETzEDm718EJWtWG">
           N:o 14.
         </note>
-        <u xml:id="i-T5Qr1uBszigwMTE1Rb7kt3" who="i-XGcmQkRYP2reGmaum7rqxm" prev="i-7LK7Y8nWsTy9bnMvGdYxUq" next="i-NsCpmtdPuMutUe4WJHnFBh">
+        <u xml:id="i-T5Qr1uBszigwMTE1Rb7kt3" who="i-XGcmQkRYP2reGmaum7rqxm" prev="i-R6fb497nYXiHy1Ywy8ydpM">
           <seg xml:id="i-QUME43Heb9c4RYWRBcm4FG">
             I anledning af denna skrifvelse framlade Kongl. Maj:t vid 1875
             års Motion ang.
           </seg>
-        </u>
-        <u xml:id="i-NsCpmtdPuMutUe4WJHnFBh" who="i-XGcmQkRYP2reGmaum7rqxm" prev="i-T5Qr1uBszigwMTE1Rb7kt3" next="i-X5TUu7jygyQQkM34vRRVYU">
           <seg xml:id="i-U6ZLfk5LqDDydHfsZpU31V">
             Riksdag ett nytt härordningsförslag, bygdt uteslutande på grunderna
             5
           </seg>
-        </u>
-        <u xml:id="i-X5TUu7jygyQQkM34vRRVYU" who="i-XGcmQkRYP2reGmaum7rqxm" prev="i-NsCpmtdPuMutUe4WJHnFBh" next="i-H5fvrH5iJiYAMvpLrxHT9B">
           <seg xml:id="i-FWSQUn65j7eod33B3EyKW">
             af allmän värnpligt. Detta förslag blef likaledes af Riksdagen
             förkastadt. Ar 1877 framlade Kongl. Maj:t ett nytt förslag, som
@@ -342,8 +342,6 @@
             försvaret icke äro drygare, än att de utan svårighet kunna bäras
             af landet.
           </seg>
-        </u>
-        <u xml:id="i-H5fvrH5iJiYAMvpLrxHT9B" who="i-XGcmQkRYP2reGmaum7rqxm" prev="i-X5TUu7jygyQQkM34vRRVYU" next="i-Tf1Y77QHrvihEFcgxsP7BD">
           <seg xml:id="i-VuTnj68Y79YNryVmv8Ez4u">
             Just med afseende på dessa omständigheter tillåter jag mig påstå,
             att tidpunkten för framläggandet af ett förslag, afseende att
@@ -358,8 +356,6 @@
             för landets försvar och förbättrandet af detsamma. Af detta skäl
             kan jag icke vara med om en sådan skrifvelse som den nu ifrågasatta.
           </seg>
-        </u>
-        <u xml:id="i-Tf1Y77QHrvihEFcgxsP7BD" who="i-XGcmQkRYP2reGmaum7rqxm" prev="i-H5fvrH5iJiYAMvpLrxHT9B" next="i-Qk1PTymmA37MLipcR51jop">
           <seg xml:id="i-UmHfhhXfaxj1B2n6YEp2Rb">
             Det är sant att landet skulle komma i en fördelaktig ställning,
             om det kunde genom traktater med främmande makter förklaras neutralt.
@@ -374,8 +370,6 @@
             utöfva ett ganska betydligt inflytande på andra makters krigiska
             förvecklingar.
           </seg>
-        </u>
-        <u xml:id="i-Qk1PTymmA37MLipcR51jop" who="i-XGcmQkRYP2reGmaum7rqxm" prev="i-Tf1Y77QHrvihEFcgxsP7BD" next="i-N2xynX7uUFhto2GuqfRAgj">
           <seg xml:id="i-57hYVyGLivUZhtXmRLzW13">
             Vid sådant förhållande och med kännedom om huru lätt svärdet
             sönderskär traktaterna, är det icke säkert att man hade så stor
@@ -389,8 +383,6 @@
             något för landets försvar. Till dessa Herrar inom eller utom Riksdagen
             vill jag säga, att de glömma sin pligt mot fäderneslandet.
           </seg>
-        </u>
-        <u xml:id="i-N2xynX7uUFhto2GuqfRAgj" who="i-XGcmQkRYP2reGmaum7rqxm" prev="i-Qk1PTymmA37MLipcR51jop">
           <seg xml:id="i-SXM8xJNft5fjufJck7Upsx">
             Jag anhäller att detta mitt yttrande måtte åtfölja motionen.
           </seg>
@@ -411,12 +403,10 @@
         <note xml:id="i-NWtcpeeCt6qui6fH6uKkUe" type="speaker">
           Herr Stjernspetz:
         </note>
-        <u xml:id="i-3rNzdsUnzkusYUJNYtgZbU" who="i-WC8xwRLvG6phqKTvfWQqgV" next="i-CqXTcn5UFX5vDMeiEkyeJA">
+        <u xml:id="i-3rNzdsUnzkusYUJNYtgZbU" who="i-WC8xwRLvG6phqKTvfWQqgV" next="i-R2KVxmHwocURcVcmi74fwV">
           <seg xml:id="i-VbrjAXtrtWsmBiiT4JM6RR">
             Det finnes väl knappast någon som ej gillar
           </seg>
-        </u>
-        <u xml:id="i-CqXTcn5UFX5vDMeiEkyeJA" who="i-WC8xwRLvG6phqKTvfWQqgV" prev="i-3rNzdsUnzkusYUJNYtgZbU" next="i-R2KVxmHwocURcVcmi74fwV">
           <seg xml:id="i-Lvqvn5CgEiXh4U8BqrFpWN">
             Sveriges neugyftet i den afgifna motionen om än tankarne om dess
             lämplighet
@@ -425,7 +415,7 @@
         <note xml:id="i-NrdwDpXP7ZBmL3XpMPGcz1">
           tralisering. (Forts.)
         </note>
-        <u xml:id="i-R2KVxmHwocURcVcmi74fwV" who="i-WC8xwRLvG6phqKTvfWQqgV" prev="i-CqXTcn5UFX5vDMeiEkyeJA" next="i-SdmdZNiutMmUZARe8LAEfB">
+        <u xml:id="i-R2KVxmHwocURcVcmi74fwV" who="i-WC8xwRLvG6phqKTvfWQqgV" prev="i-3rNzdsUnzkusYUJNYtgZbU" next="i-YQ2upu4kLdpxmeYnhRWUvY">
           <seg xml:id="i-7wrWHHLuHSwJRYVUjfFc2W">
             kunna vara delade. Sveriges läge på sidan om hvarje tänkbar krigsskådeplats
             till lands gynnar på det högsta en neutralitetspolitik. Våra många
@@ -439,8 +429,6 @@
             hänseende fordras kunskaper, håg, armar samt materiella hjelpmedel
             och det är ensamt freden som kan skapa dessa.
           </seg>
-        </u>
-        <u xml:id="i-SdmdZNiutMmUZARe8LAEfB" who="i-WC8xwRLvG6phqKTvfWQqgV" prev="i-R2KVxmHwocURcVcmi74fwV" next="i-SnSLSocuVR5taTG23KoJJv">
           <seg xml:id="i-XoiWwKJfhRmXTV2WGs8jQp">
             På grund häraf och till följd af de sorgliga minnena från våra
             olyckliga krig önskar svenska folket med få undantag lifligt en
@@ -458,8 +446,6 @@
             upprätthålla sin neutralitet, vore han tvungen att för Frankrikes
             säkerhet besätta det med franska trupper.
           </seg>
-        </u>
-        <u xml:id="i-SnSLSocuVR5taTG23KoJJv" who="i-WC8xwRLvG6phqKTvfWQqgV" prev="i-SdmdZNiutMmUZARe8LAEfB" next="i-ULnGgxxNDpwuYJbpTPAwzN">
           <seg xml:id="i-M9xnhDG9xN7t5usxEgJMRq">
             I preussiska generalstabens berättelse om 1870—1871 års krig
             finnes en högqvartersorder, undertecknad af Moltke, hvilken i
@@ -475,8 +461,6 @@
             Helgoland på engelskt område, der de naturligtvis belades med
             qvarstad.
           </seg>
-        </u>
-        <u xml:id="i-ULnGgxxNDpwuYJbpTPAwzN" who="i-WC8xwRLvG6phqKTvfWQqgV" prev="i-SnSLSocuVR5taTG23KoJJv" next="i-YQ2upu4kLdpxmeYnhRWUvY">
           <seg xml:id="i-4NkNENF2nTgaHJ5AaZ3U2r">
             Rumänien är också ett land som åtnjuter neutralitet. Vid sista
             rysk-turkiska kriget proklamerade det högtidligt densamma, men
@@ -495,7 +479,7 @@
         <note xml:id="i-Bxw3wfYoCsp2Nqb6ABsd8M" type="date">
           Fredagen den 2 Mars. 5 N:o 14,
         </note>
-        <u xml:id="i-YQ2upu4kLdpxmeYnhRWUvY" who="i-WC8xwRLvG6phqKTvfWQqgV" prev="i-ULnGgxxNDpwuYJbpTPAwzN" next="i-UtjcR2CKg23q4erWZMgakq">
+        <u xml:id="i-YQ2upu4kLdpxmeYnhRWUvY" who="i-WC8xwRLvG6phqKTvfWQqgV" prev="i-R2KVxmHwocURcVcmi74fwV" next="i-9hkAWmoQ4y85UBu3jJva5b">
           <seg xml:id="i-FzcnT7rm3j2YBDm6FXtnLq">
             Tyskland ej på hela sin OÖstersjökust eger en enda hamn, i hvilken
             Motion ang. deras större pansarfartyg kunna inlöpa, annat än Kielerbugten,
@@ -503,20 +487,14 @@
             från en möjlig krigs- = ralsering. skådeplats. För att trygga
             förbindelsen med och skydda de gotländska (Forts.)
           </seg>
-        </u>
-        <u xml:id="i-UtjcR2CKg23q4erWZMgakq" who="i-WC8xwRLvG6phqKTvfWQqgV" prev="i-YQ2upu4kLdpxmeYnhRWUvY" next="i-NcFheNWTiKgnmuAEWLLtSD">
           <seg xml:id="i-Y5gs4TGcDiy2Pr7j1sKeWc">
             hamnarne, dit öfverföra trupper för neutralitetens upprätthållande
             samt
           </seg>
-        </u>
-        <u xml:id="i-NcFheNWTiKgnmuAEWLLtSD" who="i-WC8xwRLvG6phqKTvfWQqgV" prev="i-UtjcR2CKg23q4erWZMgakq" next="i-GEqqCAp4B3NhQCAAtSxqhB">
           <seg xml:id="i-GUCEB8322wxXNNDgJGBvTP">
             för att med qvarstad kunna belägga de krigsfartyg, som förföljda
             af
           </seg>
-        </u>
-        <u xml:id="i-GEqqCAp4B3NhQCAAtSxqhB" who="i-WC8xwRLvG6phqKTvfWQqgV" prev="i-NcFheNWTiKgnmuAEWLLtSD" next="i-9hkAWmoQ4y85UBu3jJva5b">
           <seg xml:id="i-P2CFxV4x36XbKzLPx5cN7k">
             fienden dit kunna taga sin tillflykt, fordras nödvändigt att
             vi ega en
@@ -525,7 +503,7 @@
         <note xml:id="i-3AeF7Kj6iJCTCT2YteuzVD">
           flotta.
         </note>
-        <u xml:id="i-9hkAWmoQ4y85UBu3jJva5b" who="i-WC8xwRLvG6phqKTvfWQqgV" prev="i-GEqqCAp4B3NhQCAAtSxqhB" next="i-26STXPY77y4THxmeNmWXrz">
+        <u xml:id="i-9hkAWmoQ4y85UBu3jJva5b" who="i-WC8xwRLvG6phqKTvfWQqgV" prev="i-YQ2upu4kLdpxmeYnhRWUvY" next="i-7oXu66Aqcj2bC2wXAxzhTq">
           <seg xml:id="i-TmphAjuM94Rz38DHgcCBfy">
             En neutralitetspolitik lemnar äfven en god ledning för bestämmandet
             af minimum af den flotta vi böra ega. Den måste tydligen vara
@@ -541,8 +519,6 @@
             säkerligen i fred och vilkoret härför är i första rummet en god
             fotta.
           </seg>
-        </u>
-        <u xml:id="i-26STXPY77y4THxmeNmWXrz" who="i-WC8xwRLvG6phqKTvfWQqgV" prev="i-9hkAWmoQ4y85UBu3jJva5b" next="i-TQKX3UHK3H43gfsiZeaDGF">
           <seg xml:id="i-EybW1AcWmUnVWRghH1fJn">
             Sjöförsvarets herrar komiterade säga å sid. 42 i sitt betänkande
             mycket rigtigt, att vi för närvarande ej ens till skenet kunna
@@ -553,8 +529,6 @@
             tack vare vårt hafomfiutna läge, hvarjemte det i alla händelser
             endast utgör vår andra försvarslinie.
           </seg>
-        </u>
-        <u xml:id="i-TQKX3UHK3H43gfsiZeaDGF" who="i-WC8xwRLvG6phqKTvfWQqgV" prev="i-26STXPY77y4THxmeNmWXrz" next="i-Jq9gLMRJLmpwHtWPRJKt63">
           <seg xml:id="i-XSq7AtG7YoSUn53kfkCk47">
             Talet om att vi för detta ändamål ej skulle kunna anskaffa de
             nödiga krigsskeppen eller att en flotta skulle vara så orimligt
@@ -572,8 +546,6 @@
             blott de nödiga penningemedlen, hvilka ej äro afskräckande, behöfva
             anslås.
           </seg>
-        </u>
-        <u xml:id="i-Jq9gLMRJLmpwHtWPRJKt63" who="i-WC8xwRLvG6phqKTvfWQqgV" prev="i-TQKX3UHK3H43gfsiZeaDGF" next="i-7FnB6tuCodiKeYkaRUdYPZ">
           <seg xml:id="i-3zo6FK9iGReVMzEvqPD8jW">
             Att en god fotta utgör det sanna beviset för en fredlig politik,
             framgar äfven deraf att, för att bekriga de stora fastlandsmakterna
@@ -583,8 +555,6 @@
             sidan Östersjön och sålunda komma att deltaga i de strider, som
             för dem äro afgörande.
           </seg>
-        </u>
-        <u xml:id="i-7FnB6tuCodiKeYkaRUdYPZ" who="i-WC8xwRLvG6phqKTvfWQqgV" prev="i-Jq9gLMRJLmpwHtWPRJKt63" next="i-7oXu66Aqcj2bC2wXAxzhTq">
           <seg xml:id="i-2aZfo6pK1HKR7AQdfu12xS">
             Om vår utrikes politik under nuvarande förhållanden skulle vara
             vacklande eller luta åt den starkaste Östersjömakten, förundrar
@@ -601,14 +571,12 @@
         <note xml:id="i-8DfZ1hkVHTaf4ryaR3n6MW" type="date">
           6 Fredagen den 2 Mars.
         </note>
-        <u xml:id="i-7oXu66Aqcj2bC2wXAxzhTq" who="i-WC8xwRLvG6phqKTvfWQqgV" prev="i-7FnB6tuCodiKeYkaRUdYPZ" next="i-GkXRXez4mhum6KdDuE4XHc">
+        <u xml:id="i-7oXu66Aqcj2bC2wXAxzhTq" who="i-WC8xwRLvG6phqKTvfWQqgV" prev="i-9hkAWmoQ4y85UBu3jJva5b">
           <seg xml:id="i-EwsbL3AoyjSmdj6kgNdFTy">
             det ringaste, då vi ej ens till skenet kunna militäriskt upprätthålla
             vår neutralitet. Utan att vi äro rustade kunna vi ej föra någon
             sjelfständig politik af hvad slag det vara må.
           </seg>
-        </u>
-        <u xml:id="i-GkXRXez4mhum6KdDuE4XHc" who="i-WC8xwRLvG6phqKTvfWQqgV" prev="i-7oXu66Aqcj2bC2wXAxzhTq" next="i-Rxfj8MD9PHPykq5UH9o2W">
           <seg xml:id="i-GfuvxBco1FttyS7mEUYN7D">
             Att således ensamt en neutralitetsförklaring, garanterad eller
             icke, skulle vara nog för oss för att få lefva i fred, är en mycket
@@ -622,8 +590,6 @@
             sjöförsvarets förmån skulle göra det lättare för landet att bära
             kostnaderna och bättre uttrycka och möjliggöra en fredlig neutralitetspolitik.
           </seg>
-        </u>
-        <u xml:id="i-Rxfj8MD9PHPykq5UH9o2W" who="i-WC8xwRLvG6phqKTvfWQqgV" prev="i-GkXRXez4mhum6KdDuE4XHc">
           <seg xml:id="i-Dqnczxefmemizbuy3uZJcb">
             Jag anhåller att dessa mina ord måtte få åtfölja motionen till
             vederbörligt Utskott.
@@ -632,7 +598,7 @@
         <note xml:id="i-MvDi62otBh5WBxjoKyNXh9" type="speaker">
           Herr Mankell:
         </note>
-        <u xml:id="i-U1V6jioYLRPQCHm8yG2fUZ" who="i-Svtq8XeMeQSg7jx5cENPng" next="i-RMTYooB7LLWg6eWMJ7LMsW">
+        <u xml:id="i-U1V6jioYLRPQCHm8yG2fUZ" who="i-Svtq8XeMeQSg7jx5cENPng" next="i-E92DCX9mKdpX6jgMMV9N4d">
           <seg xml:id="i-K6zyoLcGZ953ZV64vgJzqL">
             Jag har begärt ordet för att uttala mina varma och lifliga sympatier
             för den motion, som nu skall till vederbörande Utskott remitteras.
@@ -643,8 +609,6 @@
             såsom samhällets vigtigaste angelägenhet och tror att alla medel,
             som för dess bevarande kunna utfinnas, böra anlitas.
           </seg>
-        </u>
-        <u xml:id="i-RMTYooB7LLWg6eWMJ7LMsW" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-U1V6jioYLRPQCHm8yG2fUZ" next="i-DXZqioPG7JU2gzrh6Tg39w">
           <seg xml:id="i-3tTioEkShf8YDsUtSwd2bp">
             Ett dylikt medel ser jag i den nu afhandlade motionen. Jag är
             fullkomligt öfvertygad om, att derest Riksdagen skulle kunna förena
@@ -660,8 +624,6 @@
             blifva befriade från alla lockelser att deltaga i de större makternas
             tvistigheter.
           </seg>
-        </u>
-        <u xml:id="i-DXZqioPG7JU2gzrh6Tg39w" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-RMTYooB7LLWg6eWMJ7LMsW" next="i-E92DCX9mKdpX6jgMMV9N4d">
           <seg xml:id="i-JMCYwRczKjdwtj7kBf8PMF">
             Hvad åter inlandet beträffar, torde det vara klart, att ett erkändt
             neutralitetssträfvande skulle skänka ökad trygghet och säkerhet
@@ -683,7 +645,7 @@
         <note xml:id="i-KAtrvu3aqLfka6r86FX4wd" type="date">
           Fredagen den 2 Mars. 7 :0 14.
         </note>
-        <u xml:id="i-E92DCX9mKdpX6jgMMV9N4d" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-DXZqioPG7JU2gzrh6Tg39w" next="i-Bb5JgLCJ4fD8yq4NzqBXuC">
+        <u xml:id="i-E92DCX9mKdpX6jgMMV9N4d" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-U1V6jioYLRPQCHm8yG2fUZ" next="i-MA3VcaR2cG7HijTMoyNm51">
           <seg xml:id="i-J48GrEhcjjm5GRAwz869ZU">
             den ängsliga omsorg, med hvilken man i beväringslagen försöker
             inflicka Motion ang. sådana stadganden, som göra det omöjligt
@@ -693,8 +655,6 @@
             de rykten bäst vederläggas, som nu kringlöpa i landet och hvilka
             ej
           </seg>
-        </u>
-        <u xml:id="i-Bb5JgLCJ4fD8yq4NzqBXuC" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-E92DCX9mKdpX6jgMMV9N4d" next="i-MA3VcaR2cG7HijTMoyNm51">
           <seg xml:id="i-FHjhvu5mwY2SLMgY6ibx7z">
             heller för denna Kammares ledamöter torde vara obekanta, nemligen
           </seg>
@@ -703,59 +663,41 @@
           att hemliga underhandlingar skulle vara å bane angående förbund
           med
         </note>
-        <u xml:id="i-MA3VcaR2cG7HijTMoyNm51" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-Bb5JgLCJ4fD8yq4NzqBXuC" next="i-4W4SR37rbLH9GTPRgCSgWs">
+        <u xml:id="i-MA3VcaR2cG7HijTMoyNm51" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-E92DCX9mKdpX6jgMMV9N4d" next="i-Va7GCJ8vzYcwwRNhF6gs1z">
           <seg xml:id="i-YXspNfH43Lin3T3QvWV4Lb">
             någon stormakt rörande eventuelt deltagande i ett framtida krig.
             Der-
           </seg>
-        </u>
-        <u xml:id="i-4W4SR37rbLH9GTPRgCSgWs" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-MA3VcaR2cG7HijTMoyNm51" next="i-E1MEjUWUsAmbvbaWB1Q1De">
           <seg xml:id="i-27XQhfebfGWMQ2A7mzY4NG">
             igenom skulle äfven de misstankar häfvas, som blifvit framkastade
             i
           </seg>
-        </u>
-        <u xml:id="i-E1MEjUWUsAmbvbaWB1Q1De" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-4W4SR37rbLH9GTPRgCSgWs" next="i-uoAYeu7sMgwHprkxsappv">
           <seg xml:id="i-LN7WAp6iBh3KHA5XX5BgVn">
             fråga om det nya härordningsförslaget, nemligen att man med det-
           </seg>
-        </u>
-        <u xml:id="i-uoAYeu7sMgwHprkxsappv" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-E1MEjUWUsAmbvbaWB1Q1De" next="i-55wbtVwRsMaYD7L6SLoska">
           <seg xml:id="i-9gYBf2Eqcwf7zAFM6o6NzZ">
             samma åsyftade arméns användande utomlands; — misstankar, som
           </seg>
-        </u>
-        <u xml:id="i-55wbtVwRsMaYD7L6SLoska" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-uoAYeu7sMgwHprkxsappv" next="i-XPpHprH19pu9bZ18vDgn1D">
           <seg xml:id="i-Hwy2YimLiuh4RU7QhmgjJ9">
             jag anser ganska förlåtliga, då man betraktar arméns sammansättning
           </seg>
-        </u>
-        <u xml:id="i-XPpHprH19pu9bZ18vDgn1D" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-55wbtVwRsMaYD7L6SLoska" next="i-gYjxVioCxwxCu3HQEpbBY">
           <seg xml:id="i-9wr7k5Y6GE9pwUpUnMntx4">
             med afseende på förhållandet mellan infanteriet och specialvapnen,
             hvilka sistnämnda enligt min åsigt på ett obehörigt sätt blifvit
             förstärkta —
           </seg>
-        </u>
-        <u xml:id="i-gYjxVioCxwxCu3HQEpbBY" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-XPpHprH19pu9bZ18vDgn1D" next="i-LzTecxKKMq4Gu3LWDRZgfx">
           <seg xml:id="i-BkLFLpEaSgENH7pnvaP1d6">
             då man betraktar trossens uppbringande till en storlek, som öfverträffar
           </seg>
-        </u>
-        <u xml:id="i-LzTecxKKMq4Gu3LWDRZgfx" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-gYjxVioCxwxCu3HQEpbBY" next="i-WbUATqeLo1de9xzzC1AjKj">
           <seg xml:id="i-UBsvsvbkazPEVLwnhfjyA5">
             de flesta andra länders — och då man ser de icke stridandes antal
           </seg>
-        </u>
-        <u xml:id="i-WbUATqeLo1de9xzzC1AjKj" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-LzTecxKKMq4Gu3LWDRZgfx" next="i-wHQtm6DpzVjT6mjf18Qg4">
           <seg xml:id="i-ErMqf6oR3SAa4E1WC7KmZZ">
             större än, mig veterligen, något annat lands. För min del anser
             jag visserligen att dessa missförhållanden härleda sig fran en
             allt för slafvisk efterapning af den tyska krigsförfattningen.
             Men de misstankar, de framkallat, äro derföre icke mindre verkliga.
           </seg>
-        </u>
-        <u xml:id="i-wHQtm6DpzVjT6mjf18Qg4" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-WbUATqeLo1de9xzzC1AjKj" next="i-KqiVWjCr4joeT6ti5dwZn">
           <seg xml:id="i-7Q5xBAFYHDJMiRz8zxFUeQ">
             Alla dessa misstankar skulle förmodligen alldeles afklippas,
             om man kunde hoppas på ett sådant, af båda statsmakterna deladt
@@ -770,8 +712,6 @@
             genom den omständigheten att vårt land ligger alldeles utom den
             stora militära sträkvägen i det mellersta Europa.
           </seg>
-        </u>
-        <u xml:id="i-KqiVWjCr4joeT6ti5dwZn" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-wHQtm6DpzVjT6mjf18Qg4" next="i-Lv9364hvoX4ccT7g3LEyLR">
           <seg xml:id="i-3aUsZHrcT3RYN8rLtxN7XV">
             Man har mot den ifrågasatta skrifvelsen invändt, att det näppeligen
             kunde tillkomma Riksdagen att genom densamma inblanda sig i regeringens
@@ -785,8 +725,6 @@
             med den nu ifrågasatta skrifvelsen afses, skulle säkerligen i
             största delen af landet framkalla ett fördelaktigt intryck.
           </seg>
-        </u>
-        <u xml:id="i-Lv9364hvoX4ccT7g3LEyLR" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-KqiVWjCr4joeT6ti5dwZn" next="i-Va7GCJ8vzYcwwRNhF6gs1z">
           <seg xml:id="i-TPvkGd9eXvYFQGpPduVE84">
             Slutligen beder jag att på det bestämdaste få fritaga så väl
             mig sjelf som alla andra, hvilka omhulda neutralitetstanken, från
@@ -808,7 +746,7 @@
         <note xml:id="i-UeS4Y8Lxie8btjwsrvE22E" type="date">
           8 Fredagen den 2 Mars.
         </note>
-        <u xml:id="i-Va7GCJ8vzYcwwRNhF6gs1z" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-Lv9364hvoX4ccT7g3LEyLR" next="i-6EzxPjPPge87ZLu4z6qCGd">
+        <u xml:id="i-Va7GCJ8vzYcwwRNhF6gs1z" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-MA3VcaR2cG7HijTMoyNm51">
           <seg xml:id="i-Bs9sL1FdCZGaG7UekHB3LZ">
             sedda skrifvelsen än komme till stånd, regeringen i alla händelser
             icke på någon tid skulle kunna utverka neutralitet. Under denna
@@ -821,8 +759,6 @@
             på något sätt skulle kunna begagnas såsom vapen mot försvarsfrågans
             lösning,
           </seg>
-        </u>
-        <u xml:id="i-6EzxPjPPge87ZLu4z6qCGd" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-Va7GCJ8vzYcwwRNhF6gs1z">
           <seg xml:id="i-BwtCUziWUqs3GGprQjgMsb">
             På grund af hvad jag anfört beder jag slutligen att på det varmaste
             få rekommendera motionen till såväl det Utskotts, som kan komma
@@ -832,13 +768,11 @@
         <note xml:id="i-TorhaCErkWuq81bfe8GA22" type="speaker">
           Herr Wallenberg:
         </note>
-        <u xml:id="i-EWtEVXNRqw73g5V8vzUm9S" who="i-E7aB8B6ZVrFekyhd9pNoQt" next="i-QFx6BycEDFDvQaKSdHWQh7">
+        <u xml:id="i-EWtEVXNRqw73g5V8vzUm9S" who="i-E7aB8B6ZVrFekyhd9pNoQt" next="i-QnKbzf2BBNuTgWdN14weTr">
           <seg xml:id="i-JdLiYa68hNE3ec6wCHdWsJ">
             Helt oförväntadt kommer jag att åhöra en diskussion i försvarsfrågan
             eller åtminstone i ett ämne som utgör ett bihang till densamma.
           </seg>
-        </u>
-        <u xml:id="i-QFx6BycEDFDvQaKSdHWQh7" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-EWtEVXNRqw73g5V8vzUm9S" next="i-BTgh65UdPCNmaFXvSQccA8">
           <seg xml:id="i-CoM9BMGMmHvyq3iYoxBMcf">
             Den siste talaren behagade yttra, att »freden vore det främsta
             af alla våra sträfvanden». Jag tror icke att han på detta rum
@@ -852,8 +786,6 @@
             få vara i fred!» Vi vore i alla fall lika säkra eller lika litet
             säkra som förut.
           </seg>
-        </u>
-        <u xml:id="i-BTgh65UdPCNmaFXvSQccA8" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-QFx6BycEDFDvQaKSdHWQh7" next="i-FFYuGXWxMEUQSiBALu86LQ">
           <seg xml:id="i-2FfJsNGKbhcUJip9dzjKrP">
             Den historiska erfarenhet, som den siste talaren åberopat, borde
             ock hafva sträckt sig till de diplomatiska förhandlingarne och
@@ -861,8 +793,6 @@
             verlden tjenat till skydd, då det varit de mäktiges intresse att
             slita sönder den.
           </seg>
-        </u>
-        <u xml:id="i-FFYuGXWxMEUQSiBALu86LQ" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-BTgh65UdPCNmaFXvSQccA8" next="i-9jFJfqjW164ptE712TuDPr">
           <seg xml:id="i-D5J5vG9kPVUie2PjzueEUg">
             Här har åberopats exemplet af två smärre territorier, nemligen
             Belgien och Schweiz. Hvarför hafva väl de fått vara i fred? Jo,
@@ -870,8 +800,6 @@
             att angripa dem, Hade de haft det, hade neutralitetsförsäkringen
             icke gält så mycket som ett enda kompani af deras beväpnade styrka.
           </seg>
-        </u>
-        <u xml:id="i-9jFJfqjW164ptE712TuDPr" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-FFYuGXWxMEUQSiBALu86LQ" next="i-NRstiKRFtpfF798FvnY5Gn">
           <seg xml:id="i-tKCkRoCWT4vhkUwtXBbsU">
             Den ärade talaren har talat om att våra kuster lämpa sig väl
             för en sådan neutralitet. Min åsigt är alldeles motsatt hans.
@@ -881,8 +809,6 @@
             trupper. Lemnas de ostörda på sjön, kunna de komma med en ringa
             styrka; det säger mig mitt sunda förnuft.
           </seg>
-        </u>
-        <u xml:id="i-NRstiKRFtpfF798FvnY5Gn" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-9jFJfqjW164ptE712TuDPr" next="i-QnKbzf2BBNuTgWdN14weTr">
           <seg xml:id="i-4fB58kN1tGoh9QcQEdoyxw">
             Den ärade talaren har ordat om »hemliga förbund» och nödvändigheten
             att begränsa konungens rätt att ingå traktater. Jag, för min del,
@@ -896,7 +822,7 @@
         <note xml:id="i-Vrq3Wz3xWu2mEkvrPozfaJ" type="date">
           Fredagen den 2 Mars. 9 N:o 14.
         </note>
-        <u xml:id="i-QnKbzf2BBNuTgWdN14weTr" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-NRstiKRFtpfF798FvnY5Gn" next="i-U3FcJ5QvfsECcEzskHsDib">
+        <u xml:id="i-QnKbzf2BBNuTgWdN14weTr" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-EWtEVXNRqw73g5V8vzUm9S">
           <seg xml:id="i-WGgSs9wXZwwLGZLvwAtkew">
             Jag kan icke finna någon anledning att vidtaga ett vanmäktigt
             Motion ang. försök att inskränka konungens rätt gent emot utlandet,
@@ -920,8 +846,6 @@
             vara efterkommande på ett sätt, som ingen nu lefvande ens vågar
             tänka på.
           </seg>
-        </u>
-        <u xml:id="i-U3FcJ5QvfsECcEzskHsDib" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-QnKbzf2BBNuTgWdN14weTr" next="i-EHiALFmpNr2GRQVaZ2View">
           <seg xml:id="i-L5mMtcHCkbAuQ8S2HJdQ4L">
             Den ärade talaren har åberopat att i andra länder har man förbehållit
             sig »interpellationsrätt» och der hafva representationerna det
@@ -942,8 +866,6 @@
             en upplysning, hvilken jag anser vara fullt rigtig och befogad,
             hafva vi ju redan.
           </seg>
-        </u>
-        <u xml:id="i-EHiALFmpNr2GRQVaZ2View" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-U3FcJ5QvfsECcEzskHsDib">
           <seg xml:id="i-7SQqYPyUvSG7MkEmjFzFVa">
             Slutligen har den ärade talaren reserverat sig mot att vilja
             genom förordande af denna motion utöfva något tryck på försvarsfrågan.
@@ -972,12 +894,10 @@
         <note xml:id="i-WgAeNPAsqTKRZScVwAXewN" type="speaker">
           Herr Adelsköld:
         </note>
-        <u xml:id="i-T5sV1HnfdQPCpeX8hkaGoS" who="i-PZo61ze3oe2bePYTHaDHM9" next="i-72ERonX9wLg1wuXx6gcQnQ">
+        <u xml:id="i-T5sV1HnfdQPCpeX8hkaGoS" who="i-PZo61ze3oe2bePYTHaDHM9" next="i-BcLPSikdpKuqBW6FsningQ">
           <seg xml:id="i-AX6qNcVRaE4LteQUqaBriY">
             Jag hade icke ämnat att nu yttra mig rö-
           </seg>
-        </u>
-        <u xml:id="i-72ERonX9wLg1wuXx6gcQnQ" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-T5sV1HnfdQPCpeX8hkaGoS" next="i-BcLPSikdpKuqBW6FsningQ">
           <seg xml:id="i-G4shK8cU24k7dMQyhnhgCf">
             Sveriges neuvande de anmärkningar och insinuationer som blifvit
             gjorda mot min
@@ -986,7 +906,7 @@
         <note xml:id="i-PS5zks7cNRgq5i9QuN5XoB">
           tralisering. (Forts.)
         </note>
-        <u xml:id="i-BcLPSikdpKuqBW6FsningQ" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-72ERonX9wLg1wuXx6gcQnQ" next="i-Pa4rLt1ntWivmbQXadYjf4">
+        <u xml:id="i-BcLPSikdpKuqBW6FsningQ" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-T5sV1HnfdQPCpeX8hkaGoS" next="i-TvoaVdSqdReTthsgpXeQ57">
           <seg xml:id="i-J3ewnxLPXEfX7zRvHxGwTE">
             motion, men då jag icke kan undgå att svara i en så vigtig fråga
             som den föreliggande, har jag beslutat mig för att yttra några
@@ -999,8 +919,6 @@
             kunna med de medel och tillgångar landet eger åvägabringa ett
             verkligen betryggande försvar.
           </seg>
-        </u>
-        <u xml:id="i-Pa4rLt1ntWivmbQXadYjf4" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-BcLPSikdpKuqBW6FsningQ" next="i-97pKDpn1obnfPm5PXYDedu">
           <seg xml:id="i-8vDBBZdAsm3qNHXUmfC6WV">
             Jag har ock ansett, att den närvarande tidpunkten vore den mest
             lämpliga, derför att, så vidt jag rätt uppfattat den politiska
@@ -1022,8 +940,6 @@
             med mycket nöje skulle besvara de vänliga adresser, som afgåfvos
             från Sverige under Italiens frihetskamp, med en neutralitetsförklaring.
           </seg>
-        </u>
-        <u xml:id="i-97pKDpn1obnfPm5PXYDedu" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-Pa4rLt1ntWivmbQXadYjf4" next="i-TvoaVdSqdReTthsgpXeQ57">
           <seg xml:id="i-CFRDaU2tAiPBMDNcXLpJjV">
             Hvad tiden här i Sverige beträffar, har jag trott att den vore
             just den allra lämpligaste nu, då vi hålla på att ordna vårt försvar,
@@ -1051,7 +967,7 @@
         <note xml:id="i-C3WVK5Q1gRuE4TkTjkA9r6" type="date">
           Fredagen den 2 Mars. ii
         </note>
-        <u xml:id="i-TvoaVdSqdReTthsgpXeQ57" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-97pKDpn1obnfPm5PXYDedu" next="i-Q7YdBRcGHK899yJ6WVoq8N">
+        <u xml:id="i-TvoaVdSqdReTthsgpXeQ57" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-BcLPSikdpKuqBW6FsningQ">
           <seg xml:id="i-UAkBpx16vF6uKxFPJRKRYG">
             tillsammans med Norge använda. Detta är en så försvinnande liten
             del af hvad det i alla händelser otillräckliga landtförsvaret
@@ -1067,8 +983,6 @@
             och bördorna af landtförsvaret skulle derigenom kunna betydligt
             minskas.
           </seg>
-        </u>
-        <u xml:id="i-Q7YdBRcGHK899yJ6WVoq8N" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-TvoaVdSqdReTthsgpXeQ57" next="i-8CMZZc3Fxjojyx2WT9zEDG">
           <seg xml:id="i-XcnmnHhaCe5hhjjUgeY6xG">
             Jag har visst icke haft att glädja mig åt det allmännare bifall
             till motionen, hvarpå jag trott mig kunna räkna; men det är ej
@@ -1093,8 +1007,6 @@
             kom en annan tid, då man fann den hvita mön i sin oskuldsglans
             tjusande, man byggde tempel åt henne och — dyrkade henne.
           </seg>
-        </u>
-        <u xml:id="i-8CMZZc3Fxjojyx2WT9zEDG" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-Q7YdBRcGHK899yJ6WVoq8N">
           <seg xml:id="i-GrUpj2pyV8gSeCoauKbPDJ">
             Moralen af sagan är, som Herrarne torde finna, att hvad som är
             rätt och rigtigt skall förr eller senare göra sig gällande, och
@@ -1107,14 +1019,12 @@
         <note xml:id="i-DxVdNPAUT9N51VxCvABpyA" type="speaker">
           Herr Törnebladh:
         </note>
-        <u xml:id="i-DVZALU8cXVmRDT422RLZPG" who="i-MuZZJeVubv6LTYMAZhgoZK" next="i-9hEFm718auFEeFB2sxWs5a">
+        <u xml:id="i-DVZALU8cXVmRDT422RLZPG" who="i-MuZZJeVubv6LTYMAZhgoZK" next="i-DqcDMKEvqhjZdAj8g1AN7S">
           <seg xml:id="i-BUbShoJbVL1L6hbhcGuac9">
             Jag ber om ursäkt att jag några ögonblick tager Kammarens uppmärksamhet
             i anspråk; men ett och annat af hvad som blifvit sagdt har synts
             mig påkalla en belysning.
           </seg>
-        </u>
-        <u xml:id="i-9hEFm718auFEeFB2sxWs5a" who="i-MuZZJeVubv6LTYMAZhgoZK" prev="i-DVZALU8cXVmRDT422RLZPG" next="i-DqcDMKEvqhjZdAj8g1AN7S">
           <seg xml:id="i-2hrD58qEo2mmAzgGN4zwzm">
             Jag instämmer fullkomligt med den siste talaren deri, att sanningen
             nog kommer att förr eller senare taga ut sin rätt, och hvad det
@@ -1141,7 +1051,7 @@
         <note xml:id="i-FZHgqpKY8YwBtqUpZWvKe5" type="date">
           12 Fredagen den 2 Mars.
         </note>
-        <u xml:id="i-DqcDMKEvqhjZdAj8g1AN7S" who="i-MuZZJeVubv6LTYMAZhgoZK" prev="i-9hEFm718auFEeFB2sxWs5a" next="i-AuBL2do6SK53vhYoE1yAi2">
+        <u xml:id="i-DqcDMKEvqhjZdAj8g1AN7S" who="i-MuZZJeVubv6LTYMAZhgoZK" prev="i-DVZALU8cXVmRDT422RLZPG">
           <seg xml:id="i-2bsBXXFbe3SyLgn4e39kU8">
             ken i det ena eller andra afseendet. Jag har icke den ringaste
             rätt att tvifla på hvad här uttalats, nemligen att de sträfvanden,
@@ -1176,14 +1086,10 @@
             att jag ej fruktar något, ty till krig fordras nemligen — för
             att jag må uttrycka mig mycket kort, — bland annat, pennin-
           </seg>
-        </u>
-        <u xml:id="i-AuBL2do6SK53vhYoE1yAi2" who="i-MuZZJeVubv6LTYMAZhgoZK" prev="i-DqcDMKEvqhjZdAj8g1AN7S" next="i-WxFWp5RHCKkekobsbpaT31">
           <seg xml:id="i-PK7k2pobK4MsMrUbCJPKUd">
             gar, och den som beviljar dem är ju i sjelfva verket Riksdagen,
             inom
           </seg>
-        </u>
-        <u xml:id="i-WxFWp5RHCKkekobsbpaT31" who="i-MuZZJeVubv6LTYMAZhgoZK" prev="i-AuBL2do6SK53vhYoE1yAi2">
           <seg xml:id="i-CeM72bh2Whmyii9ZXzJNRA">
             hvilken helt säkert kommer att framställas många och troligen
             oöfvervinneliga betänkligheter, innan det öppnas på pungen. Jag
@@ -1215,14 +1121,12 @@
         <note xml:id="i-YCSTVz3m2zpKfsUjadFfmj" type="date">
           Fredagen den 2 Mars. : 13 N:o 14.
         </note>
-        <u xml:id="i-L385xGt339sue7royg1QcT" who="i-E62dRxYV1gQK174YmcQa9s" prev="i-9hskhFeB3qPDTNJGt6dH42" next="i-TpozR312wm3dAzCXkwrigu">
+        <u xml:id="i-L385xGt339sue7royg1QcT" who="i-E62dRxYV1gQK174YmcQa9s" prev="i-9hskhFeB3qPDTNJGt6dH42" next="i-X38SJvbCsNJorDzpFmA7FK">
           <seg xml:id="i-KowSV9LtxXyoGpdNTDWoJM">
             sagdt, oförsigtigt, då man kunde vinna målet vida bättre och
             lättare Motion ang. genom att på traktaternas väg utverka öns
             förklarande för neutralt Sveriges neuterritorium. "(Forts)" Ö
           </seg>
-        </u>
-        <u xml:id="i-TpozR312wm3dAzCXkwrigu" who="i-E62dRxYV1gQK174YmcQa9s" prev="i-L385xGt339sue7royg1QcT" next="i-NMr6m6kdkN7xBcYan1Uyxe">
           <seg xml:id="i-PeDFozN3dP3VmQyXtaZoQf">
             Uti min ofvan nämnda motion tog jag mig äfven friheten att |
             efter bästa förmåga söka bevisa, att ett så kalladt »betryggande»
@@ -1259,8 +1163,6 @@
             Belgien utgifver för arméns underhåll betydliga summor, nära tretiotvå
             millioner om året, och Sverige ungefär tretio millioner.
           </seg>
-        </u>
-        <u xml:id="i-NMr6m6kdkN7xBcYan1Uyxe" who="i-E62dRxYV1gQK174YmcQa9s" prev="i-TpozR312wm3dAzCXkwrigu" next="i-X38SJvbCsNJorDzpFmA7FK">
           <seg xml:id="i-BKDps9XFcxZYMmRpKVbHu5">
             Man finner häraf, att de herrar, som tro, att en neutralitetsförklaring
             skulle befria oss från att hafva ett fullt dugligt och starkt
@@ -1294,7 +1196,7 @@
         <note xml:id="i-8TpxskaNpFsZf8qS6J2C8s">
           tralisering. (Forts.)
         </note>
-        <u xml:id="i-X38SJvbCsNJorDzpFmA7FK" who="i-E62dRxYV1gQK174YmcQa9s" prev="i-NMr6m6kdkN7xBcYan1Uyxe">
+        <u xml:id="i-X38SJvbCsNJorDzpFmA7FK" who="i-E62dRxYV1gQK174YmcQa9s" prev="i-L385xGt339sue7royg1QcT">
           <seg xml:id="i-AJHv9DUtZzw84zev8LqB6c">
             att lägga nu varande vattensjuka marker under plogen och frambringa
             skördar der det nu finnes endast mossar och kärr o. s. v. Jag
@@ -1365,7 +1267,7 @@
         <note xml:id="i-McTz1E2BpvQtVL3CtfMHew" type="date">
           Fredagen den 2 Mars. 15
         </note>
-        <u xml:id="i-4iSJZQZe8QiyfQTCXw52Zq" who="i-2KQokBVhondPT8e9ZQdmem" prev="i-UaMjjkTBbqY3JT7q5pN2Y4" next="i-HMPZkpZbdNk81AagbXCFoC">
+        <u xml:id="i-4iSJZQZe8QiyfQTCXw52Zq" who="i-2KQokBVhondPT8e9ZQdmem" prev="i-UaMjjkTBbqY3JT7q5pN2Y4">
           <seg xml:id="i-Mkpdp1ENuMUS9ct85AwTVw">
             att detta innebär något annat än att vi vilja nedlägga gevär
             och sålunda förinta oss helt och hållet. Det skulle dock vara
@@ -1376,8 +1278,6 @@
             som man här vill be att fa aflägga, men som enligt min uppfattning
             aldrig skall tillåtas, eller kunna åstadkommas.
           </seg>
-        </u>
-        <u xml:id="i-HMPZkpZbdNk81AagbXCFoC" who="i-2KQokBVhondPT8e9ZQdmem" prev="i-4iSJZQZe8QiyfQTCXw52Zq">
           <seg xml:id="i-4ei4kHE96JnwpGHJuF3pu1">
             En ärad talare på elfsborgsbänken, som jag här förr ofta har
             stridt med, har förklarat, att vi icke kunna skaffa oss ett betryggande
@@ -1412,7 +1312,7 @@
         <note xml:id="i-FBeEKijwh7W2ho9FPFhTzB" type="speaker">
           Herr Mankell:
         </note>
-        <u xml:id="i-C4fvdqwgSh4qSQybu6ZYZc" who="i-Svtq8XeMeQSg7jx5cENPng" next="i-6fQfinwrt2fFz2cVw9PtYE">
+        <u xml:id="i-C4fvdqwgSh4qSQybu6ZYZc" who="i-Svtq8XeMeQSg7jx5cENPng" next="i-7LNoaUt8L1pk6eQHZUCXCt">
           <seg xml:id="i-UTDpwGiNgvKanThE7tVEFr">
             Det är medledsnad jag hört den besynnerliga begreppsförvillelse,
             om hvad som bör innefattas under benämningen »neutralitet» och
@@ -1431,8 +1331,6 @@
             såsom alldeles obefogade. Det är ett misstag, att något sådant
             skulle ligga under
           </seg>
-        </u>
-        <u xml:id="i-6fQfinwrt2fFz2cVw9PtYE" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-C4fvdqwgSh4qSQybu6ZYZc" next="i-7LNoaUt8L1pk6eQHZUCXCt">
           <seg xml:id="i-LvNMsPN33gbfkhvw3D6o41">
             . i o . - motionen och vara dess syfte. Ännu en gång upprepar
             jag, att med
@@ -1454,7 +1352,7 @@
         <note xml:id="i-HPid8ipiL3nnSYvMaHoubK" type="date">
           16 Fredagen den 2 Mars.
         </note>
-        <u xml:id="i-7LNoaUt8L1pk6eQHZUCXCt" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-6fQfinwrt2fFz2cVw9PtYE">
+        <u xml:id="i-7LNoaUt8L1pk6eQHZUCXCt" who="i-Svtq8XeMeQSg7jx5cENPng" prev="i-C4fvdqwgSh4qSQybu6ZYZc">
           <seg xml:id="i-2VCUWP8VU6aE3F189PnfJc">
             neutraliteten äfven följer en ovilkorlig skyldighet att försvara
             den och göra den respekterad; och detta lärer svårligen kunna

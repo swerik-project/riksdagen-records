@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-SzQPEdgukjnesuwpCQ67Tm" type="speech">
             <linkGrp type="u">
               <ptr target="#i-A7td8U42WeyE7kVbThnUbP"/>
@@ -462,7 +462,13 @@
               <ptr target="#i-61b67d936965f704-12"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -643,15 +649,13 @@
         <note xml:id="i-NZQzxKNairBKz6i1rSFvzm" type="speaker">
           Anf. 89 GULLAN LINDBLAD (m):
         </note>
-        <u xml:id="i-A7td8U42WeyE7kVbThnUbP" who="i-5sxzSZSUx9KLqvREcwz58f" next="i-d67e229775b6a83d-1">
+        <u xml:id="i-A7td8U42WeyE7kVbThnUbP" who="i-5sxzSZSUx9KLqvREcwz58f" next="i-d67e229775b6a83d-4">
           <seg xml:id="i-7KWnJM1UF92QfdtMJvPW1f">
             Herr talman! Det utskottsbetänkande vi nu skall debattera behandlar
             en rad frågor rörande studiehjälp och vissa sjukförsäkringsfrågor
             för studerande i anledning av proposition 1983/84:127 och 1983/84:100
             samt en rad motioner i hithörande frågor.
           </seg>
-        </u>
-        <u xml:id="i-d67e229775b6a83d-1" who="i-5sxzSZSUx9KLqvREcwz58f" prev="i-A7td8U42WeyE7kVbThnUbP" next="i-d67e229775b6a83d-4">
           <seg xml:id="i-TjRWfW3LiKwpqAf7Vbc4Zy">
             Vi moderater i utskottet är eniga med utskottsmajoriteten i samtliga
             frågor utom en — studiehjälpens utformning. Där har vi valt en
@@ -708,7 +712,7 @@
         <note xml:id="i-5znoNt6zjF68mgy1SQQfy6">
           116
         </note>
-        <u xml:id="i-d67e229775b6a83d-4" who="i-5sxzSZSUx9KLqvREcwz58f" prev="i-d67e229775b6a83d-1" next="i-X6oLF5CTXtU7FVwFTRfkJF">
+        <u xml:id="i-d67e229775b6a83d-4" who="i-5sxzSZSUx9KLqvREcwz58f" prev="i-A7td8U42WeyE7kVbThnUbP">
           <seg xml:id="i-KYbWg3jT34B6AnEF4abvZv">
             Vad gäller förslagen om en viss förbättring av studiestödet till
             elever i gymnasieskolan har vi moderater godkänt en höjning av
@@ -749,8 +753,6 @@
             kommer alla familjer att kunna tillgodogöra sig samma nettoeffekt
             per barn i de aktuella åldrarna.
           </seg>
-        </u>
-        <u xml:id="i-X6oLF5CTXtU7FVwFTRfkJF" who="i-5sxzSZSUx9KLqvREcwz58f" prev="i-d67e229775b6a83d-4">
           <seg xml:id="i-oVjibNS55EjNuiTExnX6N">
             Herr talman! Med det anförda yrkar jag bifall till den moderata
             reservationen nr 1.
@@ -759,13 +761,11 @@
         <note xml:id="i-94qv66CMKSVmfzogdokT47" type="speaker">
           Anf. 900 MARGÖ INGVARDSSON (vpk):
         </note>
-        <u xml:id="i-HHhQC4pWEZaiMToXrPXo8M" who="i-XxMRaKyWvbxm3uJmt8WBtZ" next="i-614dd91235ce5f33-1">
+        <u xml:id="i-HHhQC4pWEZaiMToXrPXo8M" who="i-XxMRaKyWvbxm3uJmt8WBtZ" next="i-614dd91235ce5f33-2">
           <seg xml:id="i-G3hDJFGqkjSaYu1xGgwV9u">
             Herr talman! Propositionerna nr 127 och 100 behandlar frågor
             om förbättrad studiehjälp samt vissa sjukförsäkringsfrågor.
           </seg>
-        </u>
-        <u xml:id="i-614dd91235ce5f33-1" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-HHhQC4pWEZaiMToXrPXo8M" next="i-53bBbn8PP8NWcorvQs9QaE">
           <seg xml:id="i-Ho83kmSkxyzWYymS9ktopA">
             Vad gäller sjukförsäkringsfrågor för olika studerandekategorier
             föreslås förbättringar på några punkter. Studerande som uppbär
@@ -784,15 +784,13 @@
             en förkortning av karenstiden från 14 till 7 dagar. Jag yrkar
             härmed bifall till reservation nr 2 i betänkandet.
           </seg>
-        </u>
-        <u xml:id="i-53bBbn8PP8NWcorvQs9QaE" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-614dd91235ce5f33-1" next="i-614dd91235ce5f33-2">
           <seg xml:id="i-HVFDK4iaka68Trs4XDpACp">
             Vad gäller frågan om sjukpenninggrundande inkomst, s. k. SGI,
             föreslås
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--154/prot_198384__154-005.jp2/_view"/>
-        <u xml:id="i-614dd91235ce5f33-2" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-53bBbn8PP8NWcorvQs9QaE" next="i-614dd91235ce5f33-4">
+        <u xml:id="i-614dd91235ce5f33-2" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-HHhQC4pWEZaiMToXrPXo8M" next="i-614dd91235ce5f33-4">
           <seg xml:id="i-6SVrfMP2rgc3ZMRm6xH8GZ">
             för dem som uppbär studiemedel och studiehjälp samt särskilt
             vuxenstudiestöd för arbetslösa att dessa skall ha rätt till en
@@ -883,7 +881,7 @@
         <note xml:id="i-D9rdd892LPgv5T3KgyCk47">
           118
         </note>
-        <u xml:id="i-614dd91235ce5f33-4" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-614dd91235ce5f33-2" next="i-6ekAaJcpUZfxdcepEoHw4b">
+        <u xml:id="i-614dd91235ce5f33-4" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-614dd91235ce5f33-2" next="i-614dd91235ce5f33-7">
           <seg xml:id="i-EKarW7Jhq9WdUFWMATrE3U">
             forskarstuderar är alltför liten. Det enklaste sättet att ge
             doktoranderna en tillfredsställande social situation är att utbildningsbidraget
@@ -898,13 +896,9 @@
             med en motion liknande vår. Årets motion är undertecknad Anna
             Lindh.
           </seg>
-        </u>
-        <u xml:id="i-6ekAaJcpUZfxdcepEoHw4b" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-614dd91235ce5f33-4" next="i-614dd91235ce5f33-5">
           <seg xml:id="i-5VN2dfXsVHUFS9jeHmSpBo">
             Herr talman! Jag yrkar bifall till reservation nr 4 i betänkandet.
           </seg>
-        </u>
-        <u xml:id="i-614dd91235ce5f33-5" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-6ekAaJcpUZfxdcepEoHw4b" next="i-Y8ecwDGMBqKkZ2BGiXb76m">
           <seg xml:id="i-VFp6g7wFEX4egKYsG9u2kM">
             Vad gäller frågan om tillfällig vård av barn har vpk lagt fram
             förslag med krav att studerande bör beredas möjlighet att få behålla
@@ -937,13 +931,9 @@
             betänkande i denna fråga, och vi anser att regeringen nu kan lägga
             fram ett förslag.
           </seg>
-        </u>
-        <u xml:id="i-Y8ecwDGMBqKkZ2BGiXb76m" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-614dd91235ce5f33-5" next="i-614dd91235ce5f33-6">
           <seg xml:id="i-3J1JSeun5DofdScUuc884r">
             Jag yrkar med detta bifall till reservation nr 5 i betänkandet.
           </seg>
-        </u>
-        <u xml:id="i-614dd91235ce5f33-6" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-Y8ecwDGMBqKkZ2BGiXb76m" next="i-614dd91235ce5f33-7">
           <seg xml:id="i-VMBSMspyFAwcJK7DeTKxrJ">
             Så till frågan om studerande med handikapp. Också här finns ett
             utredningsmaterial från studiestödsutredningen om vilka förbättringar
@@ -960,7 +950,7 @@
           — förbättrade reseoch inackorderingstillägg för studerande i
           gymnasial utbildning,
         </note>
-        <u xml:id="i-614dd91235ce5f33-7" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-614dd91235ce5f33-6" next="i-614dd91235ce5f33-9">
+        <u xml:id="i-614dd91235ce5f33-7" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-614dd91235ce5f33-4" next="i-614dd91235ce5f33-9">
           <seg xml:id="i-x6EPjwtRyh22svEZGDBog">
             — att handikappad studerande skall kunna uppbära studiemedel
             så länge det finns anledning att tro att studierna kommer att
@@ -976,19 +966,15 @@
         <note xml:id="i-Qzg6CKHvEWtdFNN7ce1LRd">
           sidan om studiehjälp och studiemedel.
         </note>
-        <u xml:id="i-614dd91235ce5f33-9" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-614dd91235ce5f33-7" next="i-S1G7G6C1t9TRmizSRPjeFo">
+        <u xml:id="i-614dd91235ce5f33-9" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-614dd91235ce5f33-7">
           <seg xml:id="i-3frZVgdsdnUj5xfFvG8KjV">
             Dessutom bör den nedre gränsen för rätt till sjukbidrag höjas
             från 16 till 18 år, eftersom 18-årsgränsen alltmer blir den vanliga
             i alla de olika formerna av stöd till barn.
           </seg>
-        </u>
-        <u xml:id="i-S1G7G6C1t9TRmizSRPjeFo" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-614dd91235ce5f33-9" next="i-614dd91235ce5f33-10">
           <seg xml:id="i-4JVCyWweEQTbZZzwiSEnCV">
             Jag yrkar bifall också till reservationerna 6 och 7 i betänkandet.
           </seg>
-        </u>
-        <u xml:id="i-614dd91235ce5f33-10" who="i-XxMRaKyWvbxm3uJmt8WBtZ" prev="i-S1G7G6C1t9TRmizSRPjeFo">
           <seg xml:id="i-RkLXr42Vp7BPi8udHGmeXm">
             I proposition 127 föreslås att det behovsprövade tillägget inom
             studiehjälpen ersätts med ett högre och mer schabloniserat extra
@@ -1077,7 +1063,7 @@
         <note xml:id="i-Km8mfo3vuqWtseeLXaRV5n">
           120
         </note>
-        <u xml:id="i-643cdf666beee62e-3" who="i-DMheKZZCYDtLzdvzFzc5vP" prev="i-643cdf666beee62e-0" next="i-6hytJvBYPfp31LMCBTzaKG">
+        <u xml:id="i-643cdf666beee62e-3" who="i-DMheKZZCYDtLzdvzFzc5vP" prev="i-643cdf666beee62e-0">
           <seg xml:id="i-NnXkzwZKXN5qJFNLTC27rT">
             är bara ett lätt genomskådat sätt att undvika sitt ansvar.
           </seg>
@@ -1086,8 +1072,6 @@
             är obetydlig för staten. Särskilt obetydlig är den om man jämför
             med den enskildes lidande som kan drabba oförsäkrade studenter.
           </seg>
-        </u>
-        <u xml:id="i-6hytJvBYPfp31LMCBTzaKG" who="i-DMheKZZCYDtLzdvzFzc5vP" prev="i-643cdf666beee62e-3">
           <seg xml:id="i-M8VUhiZAzz8ynvRTrdrWVT">
             Herr talman! Jag vill därför yrka bifall till motion 2682 yrkande
             1 och 2 av Jörgen Ullenhag m. fl.
@@ -1157,7 +1141,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--154/prot_198384__154-009.jp2/_view"/>
-        <u xml:id="i-2af97ec9c5f1b5c1-1" who="i-L7WV7SG2MqZwXFjBfsC15F" prev="i-2af97ec9c5f1b5c1-0" next="i-7SYGYYJEvJzxvJefh4UcGM">
+        <u xml:id="i-2af97ec9c5f1b5c1-1" who="i-L7WV7SG2MqZwXFjBfsC15F" prev="i-2af97ec9c5f1b5c1-0">
           <seg xml:id="i-CkAa6TWHKvRLwGLTrzA4wL">
             kostnadskrävande reformer. Därför skall jag begränsa mig till
             några mycket korta kommentarer till vpk-reservationerna.
@@ -1208,8 +1192,6 @@
             Om man skall göra en ekonomisk prövning, måste det finnas något
             att pröva emot.
           </seg>
-        </u>
-        <u xml:id="i-7SYGYYJEvJzxvJefh4UcGM" who="i-L7WV7SG2MqZwXFjBfsC15F" prev="i-2af97ec9c5f1b5c1-1">
           <seg xml:id="i-NZzYzggRyVgbR1bu5i6mo9">
             Herr talman! Jag yrkar bifall till utskottets hemställan och
             avslag på samtliga reservationer.
@@ -1218,14 +1200,12 @@
         <note xml:id="i-MHCx5W8KycMyJHquqYvYdt" type="speaker">
           Anf. 93 GULLAN LINDBLAD (m):
         </note>
-        <u xml:id="i-AssuSbFdjDDjQodysK7Z3v" who="i-5sxzSZSUx9KLqvREcwz58f" next="i-d67e229775b6a83d-6">
+        <u xml:id="i-AssuSbFdjDDjQodysK7Z3v" who="i-5sxzSZSUx9KLqvREcwz58f" next="i-d67e229775b6a83d-9">
           <seg xml:id="i-44jQsmHYvtfnvYJcQA43Pa">
             Herr talman! Utöver yrkandet om bifall till den moderata reservationen
             vill jag naturligtvis också yrka bifall till utskottets hemställan
             i övrigt.
           </seg>
-        </u>
-        <u xml:id="i-d67e229775b6a83d-6" who="i-5sxzSZSUx9KLqvREcwz58f" prev="i-AssuSbFdjDDjQodysK7Z3v" next="i-d67e229775b6a83d-9">
           <seg xml:id="i-YTcwSWWqMaCqpPXjeZbqB">
             Moderaterna vill spara, säger Ralf Lindström. Ja, vi vill spara
             på statens utgifter. Det är alldeles nödvändigt med hänsyn bl.
@@ -1266,7 +1246,7 @@
         <note xml:id="i-MBHwpDydfSMcDexwfmG64h">
           122
         </note>
-        <u xml:id="i-d67e229775b6a83d-9" who="i-5sxzSZSUx9KLqvREcwz58f" prev="i-d67e229775b6a83d-6">
+        <u xml:id="i-d67e229775b6a83d-9" who="i-5sxzSZSUx9KLqvREcwz58f" prev="i-AssuSbFdjDDjQodysK7Z3v">
           <seg xml:id="i-BQJRFJYDQ1qZ3L9UdqD5N8">
             milj, som har 80 000 kr. per år i inkomst, med regeringens förslag
             om barnbidragshöjning — som i det inkomstläget är dubbelt så stor
@@ -1695,12 +1675,10 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--154/prot_198384__154-015.jp2/_view"/>
-        <u xml:id="i-JWdCNSEfZKVxdztTR2js9Y" who="i-9ZfzFzDXHZKY5aBmYVFU3a" prev="i-614dd91235ce5f33-15" next="i-Q8CtC9JkfEVmDYcfjj9b12">
+        <u xml:id="i-JWdCNSEfZKVxdztTR2js9Y" who="i-9ZfzFzDXHZKY5aBmYVFU3a" prev="i-614dd91235ce5f33-15" next="i-D14e8yfnHWRg1o5ibT2TWv">
           <seg xml:id="i-CS1FPBwyPwTMykENS9jm3a">
             ven måst sänkas inom flera ämnen. Nr 154
           </seg>
-        </u>
-        <u xml:id="i-Q8CtC9JkfEVmDYcfjj9b12" who="i-9ZfzFzDXHZKY5aBmYVFU3a" prev="i-JWdCNSEfZKVxdztTR2js9Y" next="i-D14e8yfnHWRg1o5ibT2TWv">
           <seg xml:id="i-R5BWt9955U6PGzz723GHQD">
             Vi i moderata samlingspartiet har länge påtalat antagningssystemets
             Torsdagen den många fel och brister och föreslagit ett helt annorlunda
@@ -1716,7 +1694,7 @@
           dem med den lägre behörighetsnivån att söka utbildningar som kräver
           den mm.
         </note>
-        <u xml:id="i-D14e8yfnHWRg1o5ibT2TWv" who="i-9ZfzFzDXHZKY5aBmYVFU3a" prev="i-Q8CtC9JkfEVmDYcfjj9b12" next="i-614dd91235ce5f33-18">
+        <u xml:id="i-D14e8yfnHWRg1o5ibT2TWv" who="i-9ZfzFzDXHZKY5aBmYVFU3a" prev="i-JWdCNSEfZKVxdztTR2js9Y" next="i-614dd91235ce5f33-18">
           <seg xml:id="i-Fu1qge6ZoTydPfkBfxJLxS">
             högre och för dem som saknar gymnasieutbildning att skaffa sig
             kompetens vill vi inrätta en förberedande utbildning, som skall
@@ -2011,7 +1989,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--154/prot_198384__154-019.jp2/_view"/>
-        <u xml:id="i-614dd91235ce5f33-23" who="i-9ZfzFzDXHZKY5aBmYVFU3a" prev="i-614dd91235ce5f33-22" next="i-DM6EQnanoxEmTYdp8p3yVx">
+        <u xml:id="i-614dd91235ce5f33-23" who="i-9ZfzFzDXHZKY5aBmYVFU3a" prev="i-614dd91235ce5f33-22">
           <seg xml:id="i-PqAWNh5ksjU4wpxsD3zWTg">
             och kurser ingående enbart i fullständiga ekonomresp. juristutbildningar.
             Mot denna bakgrund avstyrker vi regeringens förslag vad gäller
@@ -2027,8 +2005,6 @@
             inom sektorn och är likaledes i stort behov av en förstärkning.
             Detta tycker vi att riksdagen skall ge regeringen till känna.
           </seg>
-        </u>
-        <u xml:id="i-DM6EQnanoxEmTYdp8p3yVx" who="i-9ZfzFzDXHZKY5aBmYVFU3a" prev="i-614dd91235ce5f33-23">
           <seg xml:id="i-WJSwCzTMGRST5GL8QZBcF9">
             Herr talman! Med det framförda yrkar jag bifall till samtliga
             moderata reservationer till utbildningsutskottets betänkande 1983/84:20
@@ -2183,7 +2159,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--154/prot_198384__154-021.jp2/_view"/>
-        <u xml:id="i-f8f2c0247fa0ef91-3" who="i-QD529ywv2NxNf9n1Uh7cuj" prev="i-f8f2c0247fa0ef91-2" next="i-E8FLaRHB66PJErWAahXiz4">
+        <u xml:id="i-f8f2c0247fa0ef91-3" who="i-QD529ywv2NxNf9n1Uh7cuj" prev="i-f8f2c0247fa0ef91-2">
           <seg xml:id="i-XwRwMfVDB8HGqwPkricWYW">
             preparandår, osv. Motionen mynnar ut i att vi vill ha en ordentlig
             översyn av — Nr 154 den tekniska utbildningen, där vi kan göra
@@ -2195,25 +2171,17 @@
             på, men vi vill alltså ] göra den bredare och mera genomgripande.
             Det utvecklar vi i reservation nr - z
           </seg>
-        </u>
-        <u xml:id="i-E8FLaRHB66PJErWAahXiz4" who="i-QD529ywv2NxNf9n1Uh7cuj" prev="i-f8f2c0247fa0ef91-3" next="i-P3aPRJNUKMZNa6uEnMh4rR">
           <seg xml:id="i-KG34PUqMs4ewt57dnZyiqV">
             a, Na Vissa anslag till 8, som jag yrkar bifall till. -
           </seg>
-        </u>
-        <u xml:id="i-P3aPRJNUKMZNa6uEnMh4rR" who="i-QD529ywv2NxNf9n1Uh7cuj" prev="i-E8FLaRHB66PJErWAahXiz4" next="i-2QKVH8xS1B9toanm21REcp">
           <seg xml:id="i-Y5H9ReZsZuXpZn1iDCk8NL">
             : SSR a å RS grundläggande En egentligen något märklig reservation
             är reservation nr 5. När vi i vår kööskolöutbildnin
           </seg>
-        </u>
-        <u xml:id="i-2QKVH8xS1B9toanm21REcp" who="i-QD529ywv2NxNf9n1Uh7cuj" prev="i-P3aPRJNUKMZNa6uEnMh4rR" next="i-RMM1HcedZQCcQfqzfxcVYT">
           <seg xml:id="i-Ac5LoUzjrhV15oFvqgELdB">
             motion föreslog att man skulle dubblera fördjupningskursen i
             arbetsterapi EE TT 8
           </seg>
-        </u>
-        <u xml:id="i-RMM1HcedZQCcQfqzfxcVYT" who="i-QD529ywv2NxNf9n1Uh7cuj" prev="i-2QKVH8xS1B9toanm21REcp" next="i-RmvfLZtgt5ZLWJwj66zzDq">
           <seg xml:id="i-NsH9qHNtiJqcCayswo2qdX">
             genom ytterligare 20 platser trodde vi att det egentligen bara
             var ett misstag från regeringskansliet att man inte hade föreslagit
@@ -2241,8 +2209,6 @@
             i Stockholms län har kommit fram till precis samma uppfattning.
             Jag yrkar bifall till reservation 15.
           </seg>
-        </u>
-        <u xml:id="i-RmvfLZtgt5ZLWJwj66zzDq" who="i-QD529ywv2NxNf9n1Uh7cuj" prev="i-RMM1HcedZQCcQfqzfxcVYT">
           <seg xml:id="i-8Jw1XnTZva87LjVTyULWur">
             Sammanfattningsvis, herr talman, yrkar jag bifall till alla reservationer
             på vilka Larz Johanssons och mitt namn finns med och i övrigt
@@ -2367,13 +2333,11 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--154/prot_198384__154-023.jp2/_view"/>
-        <u xml:id="i-J1smqCj89vN8GRu18LsPwW" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-815a090e36fe0799-0" next="i-K2AQB6SqhTDqoV6MRLLL5M">
+        <u xml:id="i-J1smqCj89vN8GRu18LsPwW" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-815a090e36fe0799-0" next="i-EyiGdAbB4ZtVfENQjSTKsC">
           <seg xml:id="i-JP4SJhZkuRqaF9hfe8CU2s">
             sida att antalet platser i grundläggande högskoleutbildning skall
             ökas med Nr 154
           </seg>
-        </u>
-        <u xml:id="i-K2AQB6SqhTDqoV6MRLLL5M" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-J1smqCj89vN8GRu18LsPwW" next="i-EyiGdAbB4ZtVfENQjSTKsC">
           <seg xml:id="i-mzCCDgJEgmW1nAwrbhgrM">
             700 utöver vad regeringen har föreslagit. Vi tycker att de tillkommande
             Torsdagen den platserna bör fördelas av UHA efter samråd med högskolan.
@@ -2386,13 +2350,11 @@
           la 4.0 mill k ra 5 ARR Vissa anslag till ställa 4,9 milj: kr.
           ou UR:s förfogande för att finansiera detta. : grundläggande
         </note>
-        <u xml:id="i-EyiGdAbB4ZtVfENQjSTKsC" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-K2AQB6SqhTDqoV6MRLLL5M" next="i-815a090e36fe0799-2">
+        <u xml:id="i-EyiGdAbB4ZtVfENQjSTKsC" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-J1smqCj89vN8GRu18LsPwW" next="i-815a090e36fe0799-4">
           <seg xml:id="i-B92D11VAykzMuohAw6j3eU">
             I reservation nr 1 följer vi från folkpartiets sida i utskottet
             upp motionen. högskoleutbildning
           </seg>
-        </u>
-        <u xml:id="i-815a090e36fe0799-2" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-EyiGdAbB4ZtVfENQjSTKsC" next="i-815a090e36fe0799-4">
           <seg xml:id="i-Mx8kcbsqCbFA7rAehwiDvQ">
             I reservation nr 2 tar vi upp antagningssystemet. Vi tycker att
             det M.
@@ -2468,7 +2430,7 @@
         <note xml:id="i-WRKF3yKRM2pG7fszZgUUot">
           136
         </note>
-        <u xml:id="i-815a090e36fe0799-4" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-815a090e36fe0799-2" next="i-Y41yaniZdpGZgB4D5HB5Ex">
+        <u xml:id="i-815a090e36fe0799-4" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-EyiGdAbB4ZtVfENQjSTKsC">
           <seg xml:id="i-RqSpovEZMUMWnEfQJDCQrh">
             ändras så, att det för tillträde till de längre högskoleutbildningarna
             skall krävas treårig gymnasiekompetens med minst betyget 3 i vart
@@ -2518,8 +2480,6 @@
             av resurserna. Argumenteringen för detta återfinns i reservationerna
             21 och 26.
           </seg>
-        </u>
-        <u xml:id="i-Y41yaniZdpGZgB4D5HB5Ex" who="i-NWjcGTLPrVzhsv5pBHnJbA" prev="i-815a090e36fe0799-4">
           <seg xml:id="i-C6WFoKR89aP4Q9Kqn1JTAM">
             Herr talman! Jag yrkar bifall till reservationerna 1, 2, 4, 5,
             6, 7, 19, 21 och 26.
@@ -2570,7 +2530,7 @@
           vid högskolan i Karlstad. Dessa förslag har väckts av politiska
           möm
         </note>
-        <u xml:id="i-CE4nnFwgCbFkzRJ64gpYXY" who="i-5q7m7rZyufN9RHaGjB6GHh" prev="i-b433426394dfdc71-1" next="i-Y2TmdwBnxGTvbD2JdUQLVJ">
+        <u xml:id="i-CE4nnFwgCbFkzRJ64gpYXY" who="i-5q7m7rZyufN9RHaGjB6GHh" prev="i-b433426394dfdc71-1">
           <seg xml:id="i-N3NtQwEtXYa7pxwxeDpG8M">
             partier, högskolan, fackliga organisationer och regionala organ.
             Mot denna bakgrund väckte vi från vpk:s sida en motion till detta
@@ -2619,13 +2579,9 @@
             uppfyllas finns det ingen anledning att dra ned antalet nybörjarplatser
             på sociala linjen.
           </seg>
-        </u>
-        <u xml:id="i-Y2TmdwBnxGTvbD2JdUQLVJ" who="i-5q7m7rZyufN9RHaGjB6GHh" prev="i-CE4nnFwgCbFkzRJ64gpYXY" next="i-BcA13e56xfzyEPo98T4ULm">
           <seg xml:id="i-DpumXSSrtsyB2D4zaRis94">
             Jag yrkar därför bifall till reservation 22 i detta betänkande.
           </seg>
-        </u>
-        <u xml:id="i-BcA13e56xfzyEPo98T4ULm" who="i-5q7m7rZyufN9RHaGjB6GHh" prev="i-Y2TmdwBnxGTvbD2JdUQLVJ">
           <seg xml:id="i-2gQf4DjnTugBfVCE7jJCRW">
             Jag vill slutligen, herr talman, uttrycka min tillfredsställelse
             över att utskottet, till skillnad från i budgetpropositionens
@@ -2718,7 +2674,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--154/prot_198384__154-027.jp2/_view"/>
-        <u xml:id="i-498979fca0c7af28-1" who="i-LZdNGrmmJX4wroMwK6YEa3" prev="i-498979fca0c7af28-0" next="i-7WbZh7SA2zotRq46bRxBhM">
+        <u xml:id="i-498979fca0c7af28-1" who="i-LZdNGrmmJX4wroMwK6YEa3" prev="i-498979fca0c7af28-0">
           <seg xml:id="i-5ady3R6eRHWci7xQ7vNTVy">
             Jag anser att reservanterna är mer än väl tillgodosedda. Jag
             skulle i det här fallet vilja klassificera reservationerna som
@@ -2761,8 +2717,6 @@
             biträder också regeringens förslag att minska antalet nybörjarplatser
             på psykologlinjen med 30 till 150.
           </seg>
-        </u>
-        <u xml:id="i-7WbZh7SA2zotRq46bRxBhM" who="i-LZdNGrmmJX4wroMwK6YEa3" prev="i-498979fca0c7af28-1">
           <seg xml:id="i-3b1gcyFC7XzFHH5u27igqS">
             Därmed, herr talman, yrkar jag avslag på samtliga reservationer
             i utbildningsutskottets betänkande nr 20 och bifall till utskottets
@@ -3087,14 +3041,12 @@
           RR ES : å högskoleutbildning I årets budgetproposition föreslås
           inrättande av en ny processindustriell Hr
         </note>
-        <u xml:id="i-W57VEGYyhR43r64qkhvRRj" who="i-ENka9fRWC7HrGDQTU4F2ah" prev="i-493d5171c0e2ab5c-0" next="i-BK8d96J1d7BsymVQzWeeEu">
+        <u xml:id="i-W57VEGYyhR43r64qkhvRRj" who="i-ENka9fRWC7HrGDQTU4F2ah" prev="i-493d5171c0e2ab5c-0" next="i-493d5171c0e2ab5c-3">
           <seg xml:id="i-54mkwxZyDZPSii5os3NGeb">
             linje. Den verkstadsindustriella linjen i Karlstad skall få ytterligare
             15 platser. Dessutom föreslås införande av en elektronikindustriell
             linje.
           </seg>
-        </u>
-        <u xml:id="i-BK8d96J1d7BsymVQzWeeEu" who="i-ENka9fRWC7HrGDQTU4F2ah" prev="i-W57VEGYyhR43r64qkhvRRj" next="i-493d5171c0e2ab5c-3">
           <seg xml:id="i-2H91441cSWU4CdGKtLfPqe">
             Allt detta kan tyckas väldigt bra. Man måste här ställa frågan:
             Finns det ett behov av ökad yrkesteknisk utbildning i landet?
@@ -3162,7 +3114,7 @@
         <note xml:id="i-KzpCTXQ9qcBLDYDbywzQdJ">
           144
         </note>
-        <u xml:id="i-493d5171c0e2ab5c-3" who="i-ENka9fRWC7HrGDQTU4F2ah" prev="i-BK8d96J1d7BsymVQzWeeEu">
+        <u xml:id="i-493d5171c0e2ab5c-3" who="i-ENka9fRWC7HrGDQTU4F2ah" prev="i-W57VEGYyhR43r64qkhvRRj">
           <seg xml:id="i-37bqj6f7onFytQoN7fgMv7">
             samlade utvärderingen som man bör pröva den fortsatta verksamheten.
             Innan man har utvärderat vad som nu sker, innan man har kommit
@@ -3525,12 +3477,10 @@
         <note xml:id="i-MWNT3aeDT7UUP28etp6724">
           148
         </note>
-        <u xml:id="i-WN1z2L3b7KQZtLVBEdd8RU" who="i-2ZcLNQ889BCYDFJuLZT77S" prev="i-7f4e48a2aaa7ccca-1" next="i-7f4e48a2aaa7ccca-4">
+        <u xml:id="i-WN1z2L3b7KQZtLVBEdd8RU" who="i-2ZcLNQ889BCYDFJuLZT77S" prev="i-7f4e48a2aaa7ccca-1" next="i-7f4e48a2aaa7ccca-5">
           <seg xml:id="i-S547ahfEUde6eQDdpn1XjT">
             jag avslag på reservation 4.
           </seg>
-        </u>
-        <u xml:id="i-7f4e48a2aaa7ccca-4" who="i-2ZcLNQ889BCYDFJuLZT77S" prev="i-WN1z2L3b7KQZtLVBEdd8RU" next="i-7f4e48a2aaa7ccca-5">
           <seg xml:id="i-TjJaS7TWqVJsC2R991M9uv">
             Det är en annan samlad borgerlig reservation som jag vill ta
             upp, nämligen reservation 5. Det som där berörs har diskuterats
@@ -3595,22 +3545,18 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--154/prot_198384__154-037.jp2/_view"/>
-        <u xml:id="i-7f4e48a2aaa7ccca-5" who="i-2ZcLNQ889BCYDFJuLZT77S" prev="i-7f4e48a2aaa7ccca-4" next="i-LstPXvCCSfuCjX3bjLgspg">
+        <u xml:id="i-7f4e48a2aaa7ccca-5" who="i-2ZcLNQ889BCYDFJuLZT77S" prev="i-WN1z2L3b7KQZtLVBEdd8RU" next="i-RC9eYaXm8EkD8cE2uq6cpf">
           <seg xml:id="i-PrttcMtTuynDtmnobfsuAo">
             viktigt att göra en insats för att förbättra denna utbildning.
             Men den Nr 154 ekonomiska situationen är i dag inte sådan att
             det är möjligt att förverkliga
           </seg>
-        </u>
-        <u xml:id="i-LstPXvCCSfuCjX3bjLgspg" who="i-2ZcLNQ889BCYDFJuLZT77S" prev="i-7f4e48a2aaa7ccca-5" next="i-7f4e48a2aaa7ccca-6">
           <seg xml:id="i-2qotwZWx2ZcFfsr6ep7tkW">
             Torsdagen den denna på sätt som föreslagits i motionerna och
             reservationen. Därför yrkar : SEDER g YrSar 24 maj 1984 jag avslag.
             Reservationerna 20 av moderaterna och 21 av moderaterna och folkpartis-
             : E
           </seg>
-        </u>
-        <u xml:id="i-7f4e48a2aaa7ccca-6" who="i-2ZcLNQ889BCYDFJuLZT77S" prev="i-LstPXvCCSfuCjX3bjLgspg" next="i-RC9eYaXm8EkD8cE2uq6cpf">
           <seg xml:id="i-DSNcjYWhz6mSXB8vk9HzxM">
             A ; REA SE ER Vissa anslag till terna, som rör planeringsramarna
             och resursförstärkning för ekonomoch a ora z I TRE grundläggande
@@ -3621,7 +3567,7 @@
         <note xml:id="i-X2wDQwxZWYJyvyzTKvY3Uf">
           äs : : SS z högskoleutbildning
         </note>
-        <u xml:id="i-RC9eYaXm8EkD8cE2uq6cpf" who="i-2ZcLNQ889BCYDFJuLZT77S" prev="i-7f4e48a2aaa7ccca-6" next="i-2ZJrbTPopPGkjGu2bArE9B">
+        <u xml:id="i-RC9eYaXm8EkD8cE2uq6cpf" who="i-2ZcLNQ889BCYDFJuLZT77S" prev="i-7f4e48a2aaa7ccca-5">
           <seg xml:id="i-8Dv25KoShX4NCL6YVNoDgM">
             påspädning — inte så mycket innovationer. Utskottsmajoritetens
             förslag Hm
@@ -3645,8 +3591,6 @@
             efter inom utbildningsfrågorna. Det är ju ändå kvaliteten inför
             framtiden som är viktig.
           </seg>
-        </u>
-        <u xml:id="i-2ZJrbTPopPGkjGu2bArE9B" who="i-2ZcLNQ889BCYDFJuLZT77S" prev="i-RC9eYaXm8EkD8cE2uq6cpf">
           <seg xml:id="i-K6C9GuQzexGtZt5PZZUtM6">
             Herr talman! Med det anförda vill även jag yrka bifall till alla
             punkter i utskottets hemställan och avslag på de till betänkandet
@@ -4108,7 +4052,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--154/prot_198384__154-043.jp2/_view"/>
-        <u xml:id="i-831d1252769587df-1" who="i-XReDscGERZf5yzSxFeceD3" prev="i-831d1252769587df-0" next="i-8Y2a5JYpnZ4Y9C5u1xHaG4">
+        <u xml:id="i-831d1252769587df-1" who="i-XReDscGERZf5yzSxFeceD3" prev="i-831d1252769587df-0" next="i-831d1252769587df-4">
           <seg xml:id="i-HtFMzc4puBVxdkKPTbjAk5">
             I motion 1983/84:1694 om teckenspråkstolkning för döva studerande
             inom Nr 154 den högre utbildningen har vi motionärer hemställt
@@ -4158,8 +4102,6 @@
             att bli föremål för — låt mig kalla det en positionsframflyttning
             vad beträffar budgetbehandlingen inom olika planeringsinstanser.
           </seg>
-        </u>
-        <u xml:id="i-8Y2a5JYpnZ4Y9C5u1xHaG4" who="i-XReDscGERZf5yzSxFeceD3" prev="i-831d1252769587df-1" next="i-831d1252769587df-2">
           <seg xml:id="i-HZYCo3FiFRzVeKzCeJhFmF">
             Herr talman! Jag skall nu ta upp min andra motion i dag. I januari
             väcktes också en gemensam motion av ledamöter från moderata samlingspartiet,
@@ -4169,8 +4111,6 @@
             begärdes att en sådan linje skulle inrättas i Stockholm. Regeringen
             frångick i budgetpropositionen UHÄ:s förslag.
           </seg>
-        </u>
-        <u xml:id="i-831d1252769587df-2" who="i-XReDscGERZf5yzSxFeceD3" prev="i-8Y2a5JYpnZ4Y9C5u1xHaG4" next="i-831d1252769587df-4">
           <seg xml:id="i-FKBm2kHNQeQaNVCinXEKnU">
             60-70 90 av landets dataoch elektronikindustri återfinns i dag
             i Stockholmsregionen. Förutsättningar bör finnas för ett internationellt
@@ -4200,7 +4140,7 @@
         <note xml:id="i-QyTMPfQW9JWdTaujqa1Yut">
           156
         </note>
-        <u xml:id="i-831d1252769587df-4" who="i-XReDscGERZf5yzSxFeceD3" prev="i-831d1252769587df-2">
+        <u xml:id="i-831d1252769587df-4" who="i-XReDscGERZf5yzSxFeceD3" prev="i-831d1252769587df-1">
           <seg xml:id="i-GxRJRf1fd83tsxA1UtsW5G">
             regionstyrelsen arbetsgruppens förslag till åtgärder. Det fortsatta
             planeringsarbetet försiggår med högsta prioritet inom regionstyrelsen,
@@ -4527,7 +4467,7 @@
         <note xml:id="i-3gDiYCVGviLLccz6RsofNZ" type="speaker">
           Anf. 139 OVE ERIKSSON (m):
         </note>
-        <u xml:id="i-39241ba65ad4cd44-0" who="i-RZjsvHQz5czMrGkoME6F46" next="i-TEcpyDbdQbTXXDeRz35QhL">
+        <u xml:id="i-39241ba65ad4cd44-0" who="i-RZjsvHQz5czMrGkoME6F46" next="i-39241ba65ad4cd44-2">
           <seg xml:id="i-BJDzNoiY62XENLmKiBq6kk">
             Herr talman! Den del av proposition 1983/84:142 som omfattar
             en ändring i sekretesslagen har behandlats av konstitutionsutskottet
@@ -4548,8 +4488,6 @@
             sekretessgraden som föreslås i propositionen, och jag kan i princip
             yrka bifall till hemställan i betänkandet i detta avseende.
           </seg>
-        </u>
-        <u xml:id="i-TEcpyDbdQbTXXDeRz35QhL" who="i-RZjsvHQz5czMrGkoME6F46" prev="i-39241ba65ad4cd44-0" next="i-39241ba65ad4cd44-1">
           <seg xml:id="i-EV74h8MQ8Ag9S9WEKHRZip">
             Propositionens förslag om ändrad sekretesslag har endast föranlett
             tre motioner och har i utskottet inte lett till några större meningsskiljaktigheter.
@@ -4558,8 +4496,6 @@
             av mitt anförande endast att uppehålla mig vid de synpunkter som
             framförts i reservationer av de moderata företrädarna i utskottet.
           </seg>
-        </u>
-        <u xml:id="i-39241ba65ad4cd44-1" who="i-RZjsvHQz5czMrGkoME6F46" prev="i-TEcpyDbdQbTXXDeRz35QhL" next="i-39241ba65ad4cd44-2">
           <seg xml:id="i-4VgjP6tMMBNg9CVDfTk3gN">
             I reservation 2 fastslås att beslut att lämna ut uppgifter om
             brott eller misstänkta brott skall fattas av myndigheten och inte
@@ -4593,7 +4529,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--154/prot_198384__154-049.jp2/_view"/>
-        <u xml:id="i-39241ba65ad4cd44-2" who="i-RZjsvHQz5czMrGkoME6F46" prev="i-39241ba65ad4cd44-1" next="i-39241ba65ad4cd44-3">
+        <u xml:id="i-39241ba65ad4cd44-2" who="i-RZjsvHQz5czMrGkoME6F46" prev="i-39241ba65ad4cd44-0" next="i-39241ba65ad4cd44-3">
           <seg xml:id="i-NSNTMvXCtark424xJRFPxR">
             marna lyser nu allt oftare känslig information om patienternas
             sjukdomstillstånd och behandlingsprogram. Datorerna gör det allt
@@ -4638,7 +4574,7 @@
           Med anledning av behandlingen av en liknande motion yttrade rikspolisstyrelsen
           1982 följande:
         </note>
-        <u xml:id="i-39241ba65ad4cd44-3" who="i-RZjsvHQz5czMrGkoME6F46" prev="i-39241ba65ad4cd44-2" next="i-KMLtDcKFuknmu8raUdp6BJ">
+        <u xml:id="i-39241ba65ad4cd44-3" who="i-RZjsvHQz5czMrGkoME6F46" prev="i-39241ba65ad4cd44-2" next="i-SAsMtLFPVJhUX5WdYT7UPL">
           <seg xml:id="i-T9kTek9NcMJjt6ULCAwf5J">
             ”Mot bakgrund av den oroväckande omfattning av vapenstölder som
             för närvarande råder i vårt land, anser Rikspolisstyrelsen liksom
@@ -4655,8 +4591,6 @@
             förslag på denna punkt välgrundat och yrkar bifall till reservation
             6.
           </seg>
-        </u>
-        <u xml:id="i-KMLtDcKFuknmu8raUdp6BJ" who="i-RZjsvHQz5czMrGkoME6F46" prev="i-39241ba65ad4cd44-3" next="i-SAsMtLFPVJhUX5WdYT7UPL">
           <seg xml:id="i-5jVvgFUmp9FYga4Y7jMWMS">
             I reservation 7 slutligen behandlas en motion, där jag och Birger
             Hagård påtalar den bristande sekretess som trots lagtexten råder
@@ -4696,13 +4630,11 @@
         <note xml:id="i-CGrp46shM69mXh2n8h4cqy">
           162
         </note>
-        <u xml:id="i-SAsMtLFPVJhUX5WdYT7UPL" who="i-RZjsvHQz5czMrGkoME6F46" prev="i-KMLtDcKFuknmu8raUdp6BJ" next="i-39241ba65ad4cd44-7">
+        <u xml:id="i-SAsMtLFPVJhUX5WdYT7UPL" who="i-RZjsvHQz5czMrGkoME6F46" prev="i-39241ba65ad4cd44-3">
           <seg xml:id="i-81VLbEBoqffc8E9nAjRy1a">
             eller pensionsgrundande inkomst bestäms eller underlag för bestämmande
             av skatt fastställs, — — —.”
           </seg>
-        </u>
-        <u xml:id="i-39241ba65ad4cd44-7" who="i-RZjsvHQz5czMrGkoME6F46" prev="i-SAsMtLFPVJhUX5WdYT7UPL">
           <seg xml:id="i-PRksCdHqsvFXMvRvqKqmGH">
             Det synes oss motionärer som om det senare stadgandet i väsentliga
             delar upphäver det skydd för personlig integritet som lagparagrafens
@@ -4870,7 +4802,7 @@
         <note xml:id="i-Xj27uCy3ZswSXnqi2KKuS5">
           164
         </note>
-        <u xml:id="i-cf6c6a0cc618d402-3" who="i-K5xv4oCErCZbkmjE6NDTKr" prev="i-cf6c6a0cc618d402-1" next="i-KTKsD9TPf4FJ837x9G3i4q">
+        <u xml:id="i-cf6c6a0cc618d402-3" who="i-K5xv4oCErCZbkmjE6NDTKr" prev="i-cf6c6a0cc618d402-1">
           <seg xml:id="i-3YAJyVAxtMHPajzyAAGHQo">
             Men också därför att förslaget är betydligt restriktivare än
             det ursprungliga förslaget från BRÅ. Myndigheterna åläggs således
@@ -4930,8 +4862,6 @@
             avhållsamhet härvidlag att den som vill ha tag på vapen kan gå
             till ett öppet register och se efter var han kan hämta vapen.
           </seg>
-        </u>
-        <u xml:id="i-KTKsD9TPf4FJ837x9G3i4q" who="i-K5xv4oCErCZbkmjE6NDTKr" prev="i-cf6c6a0cc618d402-3">
           <seg xml:id="i-NUpPc2yxkHtd8KkfEe331f">
             Herr talman! Med det anförda yrkar jag bifall till reservationerna
             5, 6 och 7 och i övrigt till utskottets förslag.
@@ -5087,14 +5017,12 @@
         <note xml:id="i-9w9Gp65frEj7HdJcs7eoVN" type="speaker">
           Anf. 142 JÖRN SVENSSON (vpk):
         </note>
-        <u xml:id="i-8HwXETTa1zEZ5xL3XSVT1F" who="i-EQSJnvt3y9r5wULtNbkTNu" next="i-8045c48f4bbd46ea-1">
+        <u xml:id="i-8HwXETTa1zEZ5xL3XSVT1F" who="i-EQSJnvt3y9r5wULtNbkTNu" next="i-8045c48f4bbd46ea-2">
           <seg xml:id="i-MWCb2XJ6cCp8Rvx1CtSM4w">
             Herr talman! Vpk:s representant i konstitutionsutskottet har
             avgivit två reservationer till det här betänkandet — nr 1 och
             nr 8 - som jag skall be att få kommentera.
           </seg>
-        </u>
-        <u xml:id="i-8045c48f4bbd46ea-1" who="i-EQSJnvt3y9r5wULtNbkTNu" prev="i-8HwXETTa1zEZ5xL3XSVT1F" next="i-8045c48f4bbd46ea-2">
           <seg xml:id="i-TdF53MzYWH9N9NaCNqYmyr">
             Reservation nr 1 rör den proposition som är huvudämne för betänkandet,
             nr 142. Propositionen innebär att man skall lyfta på en del av
@@ -5119,7 +5047,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--154/prot_198384__154-055.jp2/_view"/>
-        <u xml:id="i-8045c48f4bbd46ea-2" who="i-EQSJnvt3y9r5wULtNbkTNu" prev="i-8045c48f4bbd46ea-1" next="i-8045c48f4bbd46ea-4">
+        <u xml:id="i-8045c48f4bbd46ea-2" who="i-EQSJnvt3y9r5wULtNbkTNu" prev="i-8HwXETTa1zEZ5xL3XSVT1F" next="i-8045c48f4bbd46ea-4">
           <seg xml:id="i-TDuEpvWhSEwQmEbwwXMKSb">
             grövre brottslighet som har aviserats till i höst, så att man
             hade kunnat avväga den här typen av åtgärder mot andra typer och
@@ -5282,7 +5210,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--154/prot_198384__154-057.jp2/_view"/>
-        <u xml:id="i-61b67d936965f704-1" who="i-NgcEAjjDpm3FVNBxiWvS8X" prev="i-61b67d936965f704-0" next="i-CH19QikUw8kL6CZGJ1DkzH">
+        <u xml:id="i-61b67d936965f704-1" who="i-NgcEAjjDpm3FVNBxiWvS8X" prev="i-61b67d936965f704-0" next="i-61b67d936965f704-4">
           <seg xml:id="i-8nPFrhGS9xY8EafV5Xt6fe">
             Yrkandet om särskilda regler i sekretesslagen i detta avseende
             bör därför avslås.
@@ -5308,16 +5236,12 @@
             nytt område utan att det i förarbetena till sekretesslagstiftningen
             finns något underlag för den intagna ståndpunkten.
           </seg>
-        </u>
-        <u xml:id="i-CH19QikUw8kL6CZGJ1DkzH" who="i-NgcEAjjDpm3FVNBxiWvS8X" prev="i-61b67d936965f704-1" next="i-61b67d936965f704-2">
           <seg xml:id="i-LaMTPKUFQ27hWeFmx6c2Mb">
             I en gemensam borgerlig motion föreslås förstärkt skattesekretess.
             Förslaget gäller en förvaltning som redan i dag utestängs från
             offentlighet med dubbla lås — kvalificerad tystnadsplikt och sekretessbeläggning
             av handlingar.
           </seg>
-        </u>
-        <u xml:id="i-61b67d936965f704-2" who="i-NgcEAjjDpm3FVNBxiWvS8X" prev="i-CH19QikUw8kL6CZGJ1DkzH" next="i-XAe1r3Lh9DiSVsSTj36P8a">
           <seg xml:id="i-UGKj26DjTjdrXrJkL4FDKs">
             Det är otillfredsställande att en så stor och viktig förvaltningsgren
             med så utomordentliga maktbefogenheter som beskattningsväsendet
@@ -5350,8 +5274,6 @@
             — vilket vi ändå har kommit fram till — som har gjorts i utskottets
             majoritetsskrivning.
           </seg>
-        </u>
-        <u xml:id="i-XAe1r3Lh9DiSVsSTj36P8a" who="i-NgcEAjjDpm3FVNBxiWvS8X" prev="i-61b67d936965f704-2" next="i-61b67d936965f704-4">
           <seg xml:id="i-S4cJd3b1L6oJrQz5KQ4qG2">
             Vid bedömningen av frågan om något brott begåtts mot grundlag
             eller tryckfrihetsförordning — vilket gjorts gällande i motionen
@@ -5385,7 +5307,7 @@
         <note xml:id="i-YL6a9nAVtC1SHpj79FP5oV">
           170
         </note>
-        <u xml:id="i-61b67d936965f704-4" who="i-NgcEAjjDpm3FVNBxiWvS8X" prev="i-XAe1r3Lh9DiSVsSTj36P8a" next="i-LsM2HQGPLUNMfLgbqEjqoQ">
+        <u xml:id="i-61b67d936965f704-4" who="i-NgcEAjjDpm3FVNBxiWvS8X" prev="i-61b67d936965f704-1">
           <seg xml:id="i-AM7cGNQGDiHyrA5hgf7ZXU">
             betänkandet. Utan tvivel har lantbruksstyrelsen tilldelats vida
             befogenheter. Den ges rätten att meddela närmare föreskrifter
@@ -5406,8 +5328,6 @@
             Jag hörde att Jörn Svensson här redovisade jordbruksministerns
             inställning i detta avseende.
           </seg>
-        </u>
-        <u xml:id="i-LsM2HQGPLUNMfLgbqEjqoQ" who="i-NgcEAjjDpm3FVNBxiWvS8X" prev="i-61b67d936965f704-4" next="i-61b67d936965f704-5">
           <seg xml:id="i-NALshZs8tBwHPrRtEnZhzA">
             Den motion som innehöll motiveringen till det av oss behandlade
             yrkandet i motion 1982/83:1624 avslogs förra året av riksdagen
@@ -5417,8 +5337,6 @@
             av ansökningar från läkemedelsindustrin påverkar i sig inte sekretessreglernas
             tillämplighet.
           </seg>
-        </u>
-        <u xml:id="i-61b67d936965f704-5" who="i-NgcEAjjDpm3FVNBxiWvS8X" prev="i-LsM2HQGPLUNMfLgbqEjqoQ" next="i-V3vHxiFnUN3FrV5kPBkS5z">
           <seg xml:id="i-CAzYuKiYckQBTjJkE7tJpJ">
             Detta vidimeras i själva verket i vpk:s reservation 8, där det
             framhålls ”att inget hinder torde föreligga för nämndledamöter
@@ -5429,16 +5347,12 @@
             än sådana där de deltagit i besluten, bl. a. för att få en uppfattning
             om nämndens praxis.”
           </seg>
-        </u>
-        <u xml:id="i-V3vHxiFnUN3FrV5kPBkS5z" who="i-NgcEAjjDpm3FVNBxiWvS8X" prev="i-61b67d936965f704-5" next="i-61b67d936965f704-6">
           <seg xml:id="i-LGV6WYGyMpJBq2GPTbtwwi">
             Med denna motivering och med hänsyn till visad förståelse för
             synpunkter som framförts under utskottsbehandlingen yrkar jag
             avslag på reservation 8. Jörn Svensson yrkade här i dag inte bifall
             till denna reservation.
           </seg>
-        </u>
-        <u xml:id="i-61b67d936965f704-6" who="i-NgcEAjjDpm3FVNBxiWvS8X" prev="i-V3vHxiFnUN3FrV5kPBkS5z">
           <seg xml:id="i-VAWF2dJLdetJHqYFzC4Uk3">
             Därmed har jag gått igenom de olika punkterna och vill yrka bifall
             till utskottets hemställan.
@@ -5471,12 +5385,10 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--154/prot_198384__154-059.jp2/_view"/>
-        <u xml:id="i-EhS4T2LrvXZEvDLQzSp5gV" who="i-RZjsvHQz5czMrGkoME6F46" prev="i-39241ba65ad4cd44-8" next="i-39241ba65ad4cd44-10">
+        <u xml:id="i-EhS4T2LrvXZEvDLQzSp5gV" who="i-RZjsvHQz5czMrGkoME6F46" prev="i-39241ba65ad4cd44-8">
           <seg xml:id="i-QpBS1q79hVHM2zpoUDCKDJ">
             sekretessen ej gäller beslut om taxering.
           </seg>
-        </u>
-        <u xml:id="i-39241ba65ad4cd44-10" who="i-RZjsvHQz5czMrGkoME6F46" prev="i-EhS4T2LrvXZEvDLQzSp5gV" next="i-wBBhLMm8RY4feFEtzJMEv">
           <seg xml:id="i-X5mDpfGoXcoY76Xwosm1pG">
             Enligt betänkandet skall taxeringsnämndens beslut förses med
             uppgift om avvikelsen och skälen för denna. Vidare står det i
@@ -5490,14 +5402,10 @@
             finns någonting som kallas rakt skaderekvisit. Det innebär att
             presumtionen är för offentlighet.
           </seg>
-        </u>
-        <u xml:id="i-wBBhLMm8RY4feFEtzJMEv" who="i-RZjsvHQz5czMrGkoME6F46" prev="i-39241ba65ad4cd44-10" next="i-39241ba65ad4cd44-11">
           <seg xml:id="i-9QLb4bqYLdUHhUCoK3ocNb">
             I den bok om sekretesslagen som har skrivits av Corell m. fl.
             sägs på s. 221:
           </seg>
-        </u>
-        <u xml:id="i-39241ba65ad4cd44-11" who="i-RZjsvHQz5czMrGkoME6F46" prev="i-wBBhLMm8RY4feFEtzJMEv">
           <seg xml:id="i-Rz1QwRZehZ5Keux3rFg4gy">
             ”Förekommer det uppgifter om t. ex. sjukdom som grund för yrkande
             om avdrag för nedsatt skatteförmåga, får det emellertid i allmänhet

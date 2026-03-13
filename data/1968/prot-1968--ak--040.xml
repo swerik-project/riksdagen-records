@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-joGu3bE55G8jHV1Qq5sdv" type="speech">
             <linkGrp type="u">
               <ptr target="#i-GtDvjWqtKn7Sa8gLJDGToP"/>
@@ -511,7 +511,13 @@
               <ptr target="#i-2347e8edc78ef2ff-47"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -686,7 +692,7 @@
           Chefen för försvarsdepartementet, herr statsrådet ANDERSSON,
           som yttrade:
         </note>
-        <u xml:id="i-GtDvjWqtKn7Sa8gLJDGToP" who="i-ErNemW6WNsbRaNz3Q9qVQH" next="i-3KhMisXpnFyYAXaxytmnhK">
+        <u xml:id="i-GtDvjWqtKn7Sa8gLJDGToP" who="i-ErNemW6WNsbRaNz3Q9qVQH">
           <seg xml:id="i-RW4waeew2kGz92AfLWDkxu">
             Herr talman! Herr Almryd har frågat mig om jag anser att den
             förläggningsstandard, d.v.s. logementsförläggning för 10—20 man,
@@ -694,15 +700,11 @@
             vid Svea livgarde, är förenlig med de krav som i dag bör ställas
             på de svenska militärförläggningarna.
           </seg>
-        </u>
-        <u xml:id="i-3KhMisXpnFyYAXaxytmnhK" who="i-ErNemW6WNsbRaNz3Q9qVQH" prev="i-GtDvjWqtKn7Sa8gLJDGToP" next="i-6BGtwkRD2gK4zTzQNkmw1r">
           <seg xml:id="i-YRqzrzjWiEwhn2GRsoq83g">
             Logementen i de nya förläggningsbyggnaderna vid Svea livgarde
             är avsedda för högst 10 man i varje logement, varvid varje man
             disponerar en förläggningsyta av drygt 5 kvadratmeter.
           </seg>
-        </u>
-        <u xml:id="i-6BGtwkRD2gK4zTzQNkmw1r" who="i-ErNemW6WNsbRaNz3Q9qVQH" prev="i-3KhMisXpnFyYAXaxytmnhK" next="i-UctiMbWtsE3CPpNLxySLCY">
           <seg xml:id="i-7gs62em3DndZ1zyEC8Hy3V">
             Svea livgardes nya förläggning är resultatet av civila och militära
             byggnads-, planeringsoch rationaliseringsexperters strävan att
@@ -711,8 +713,6 @@
             logement för närvarande är en rimlig avvägning mellan den enskildes
             behov och tillgängliga ekonomiska resurser.
           </seg>
-        </u>
-        <u xml:id="i-UctiMbWtsE3CPpNLxySLCY" who="i-ErNemW6WNsbRaNz3Q9qVQH" prev="i-6BGtwkRD2gK4zTzQNkmw1r">
           <seg xml:id="i-Uhn5jUE73Dw3z7f4EDJwC2">
             Vid våra nybyggda förläggningar har stor vikt fästs vid att de
             värnpliktiga får rymliga och bekväma hygienutrymmen, väl utrustade
@@ -1151,15 +1151,13 @@
           Chefen för inrikesdepartementet, herr statsrådet JOHANSSON, som
           yttrade:
         </note>
-        <u xml:id="i-FLFH1fRmimZ8dq7yXXyrbK" who="i-2E2N5MpZ8PjBpuMWc4jqhz" next="i-60670a10813b4206-12">
+        <u xml:id="i-FLFH1fRmimZ8dq7yXXyrbK" who="i-2E2N5MpZ8PjBpuMWc4jqhz">
           <seg xml:id="i-2HFGFEZF9nt2t3s3mRtu4C">
             Herr talman! Herr Hamrin i Kalmar har frågat vilken betydelse
             som tillmäts det av länsindelningskommittén framlagda förslaget
             till ny länsindelning vid lokalisering av bl. a. nya organ inom
             den statliga förvaltningen.
           </seg>
-        </u>
-        <u xml:id="i-60670a10813b4206-12" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-FLFH1fRmimZ8dq7yXXyrbK">
           <seg xml:id="i-FoxWg78YDEdVAFg2MVxZFr">
             Regeringen har inte för avsikt att lägga fram förslag om en allmän
             reform av länsindelningen. Detta har bl. a. klargjorts i ett interpellationssvar
@@ -1608,7 +1606,7 @@
           Chefen för kommunikationsdepartementet, herr statsrådet LUNDKVIST,
           som yttrade:
         </note>
-        <u xml:id="i-6d3686e30d1e2f33-9" who="i-2pEgGvjfozTyRxyzmLZFo2" next="i-5ixVgBWoaf29D3omwPcM99">
+        <u xml:id="i-6d3686e30d1e2f33-9" who="i-2pEgGvjfozTyRxyzmLZFo2" next="i-6d3686e30d1e2f33-10">
           <seg xml:id="i-YJ7cnbDd78FhrffaKcJP9S">
             Herr talman! Herr Lorentzon har frågat mig om jag delar uppfattningen
             att klassindelning vid statens järnvägar inte står i överensstämmelse
@@ -1633,15 +1631,11 @@
             cirka 13 procent. Detta innebär att andelen resor i första klass
             mätt i personkilometer ökat från ca 9 till 11 procent.
           </seg>
-        </u>
-        <u xml:id="i-5ixVgBWoaf29D3omwPcM99" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-6d3686e30d1e2f33-9" next="i-PWAgUJvFzp72b1rRhaYASm">
           <seg xml:id="i-XBgnPaWSNyCtgcVnpczmAo">
             I internationell trafik erbjuds enligt överenskommelse mellan
             järnvägsförvaltningarna också två klasser. Vissa expresståg på
             kontinenten medför dock endast första klass.
           </seg>
-        </u>
-        <u xml:id="i-PWAgUJvFzp72b1rRhaYASm" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-5ixVgBWoaf29D3omwPcM99" next="i-6d3686e30d1e2f33-10">
           <seg xml:id="i-Hjer11QT3fgS5rKo6ijhfB">
             För många resenärer innebär en tågresa i första klass större
             möjligheter till arbete i form av läsning, skrivning, förberedelser
@@ -1652,7 +1646,7 @@
         <note xml:id="i-7NG1YuAt6w37CedfbYfgPe" type="date">
           Torsdagen den 28 november 1968
         </note>
-        <u xml:id="i-6d3686e30d1e2f33-10" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-PWAgUJvFzp72b1rRhaYASm">
+        <u xml:id="i-6d3686e30d1e2f33-10" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-6d3686e30d1e2f33-9">
           <seg xml:id="i-FAVtjfdT9zZ6yq91Fbmbc4">
             slopande av första klass skulle för SJ:s del medföra att en stor
             del av resenärerna övergick till bil och flyg och därmed skulle
@@ -1963,7 +1957,7 @@
         <note xml:id="i-HX9qaiGZEFsa5m4TXoQPtu" type="speaker">
           Herr JOSEFSON i Arrie (cp):
         </note>
-        <u xml:id="i-f98cd132f7085b9f-9" who="i-VqxvDoNrnRUu1E5d5ifxHG" next="i-PE6T8tuCz51g29UHTxNgxz">
+        <u xml:id="i-f98cd132f7085b9f-9" who="i-VqxvDoNrnRUu1E5d5ifxHG" next="i-f98cd132f7085b9f-10">
           <seg xml:id="i-4t1TrJ49KVrQzcmEGtgdSL">
             Herr talman! Jag tackar kommunikationsministern för svaret på
             min fråga.
@@ -2018,7 +2012,7 @@
         <note xml:id="i-8Ck7VAAcFQcPDn47j588cY">
           Svar på fråga ang. reglerna för de statliga och kommunala bostadstilläggen
         </note>
-        <u xml:id="i-f98cd132f7085b9f-10" who="i-VqxvDoNrnRUu1E5d5ifxHG" prev="i-PE6T8tuCz51g29UHTxNgxz">
+        <u xml:id="i-f98cd132f7085b9f-10" who="i-VqxvDoNrnRUu1E5d5ifxHG" prev="i-f98cd132f7085b9f-9">
           <seg xml:id="i-jeAWekxdoKmmt3q651XA6">
             har frågat socialministern om han vill medverka till en förenkling
             av reglerna för de statliga och kommunala bostadstilläggen. Eftersom
@@ -3634,7 +3628,7 @@
         <note xml:id="i-E5W8Hhmtv9qT8DhgfTBYk7" type="speaker">
           Herr JOHANSSON i Skärstad (cp):
         </note>
-        <u xml:id="i-0ae747a53c748086-11" who="i-E7dNofGGgvG7ZPBxoj8tgD">
+        <u xml:id="i-0ae747a53c748086-11" who="i-E7dNofGGgvG7ZPBxoj8tgD" next="i-0ae747a53c748086-12">
           <seg xml:id="i-WbExPtPfT6aj7wLByQSAi2">
             Herr talman! Jag ber att få tacka kommunikationsministern för
             det senaste inlägget och hoppas att det kommer att föras ut till
@@ -3658,7 +3652,7 @@
           av personer, som av åldersskäl inte är berättigade till ATP. Enligt
           fastställd ärendefördelning ankommer det på mig att besvara interpellationen.
         </note>
-        <u xml:id="i-0ae747a53c748086-12" who="i-6yryP5FsumcdXgD5cb8aDF" next="i-UDF3ViLyMEPBChvTHDMpG4">
+        <u xml:id="i-0ae747a53c748086-12" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-0ae747a53c748086-11" next="i-UDF3ViLyMEPBChvTHDMpG4">
           <seg xml:id="i-ipj9sDCf3Li3J2KZFr4vH">
             Enligt lagen om allmän försäkring kan en försäkrad anmäla undantagande
             från försäkringen för ATP, såvitt avser inkomst av annat förvärvsarbete
@@ -3695,14 +3689,12 @@
           Svar på interpellation angående återbetalning av vissa ATP-avgifter,
           m. m.
         </note>
-        <u xml:id="i-UDF3ViLyMEPBChvTHDMpG4" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-0ae747a53c748086-12" next="i-0ae747a53c748086-13">
+        <u xml:id="i-UDF3ViLyMEPBChvTHDMpG4" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-0ae747a53c748086-12">
           <seg xml:id="i-RJDzuE4LYbowyfUMuE3QDv">
             na tillgodoräknas pensionsgrundande inkomst under de tre år som
             fordras för rätt till tilläggspension. Däremot kom de givetvis
             i åtnjutande av rätten till tilläggssjukpenning.
           </seg>
-        </u>
-        <u xml:id="i-0ae747a53c748086-13" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-UDF3ViLyMEPBChvTHDMpG4" next="i-FweMU4W3PnWtn3bycspxoP">
           <seg xml:id="i-63eZJ8TW3eqjMX6rQv1Qnv">
             Med hänsyn till kommande eventuella ytterligare återkallelser
             av undantaganden fick alla personer, för vilka undantagande ägt
@@ -3723,8 +3715,6 @@
             visat — i många fall varit av betydande ekonomiskt värde för dem
             som återinträdde år 1963.
           </seg>
-        </u>
-        <u xml:id="i-FweMU4W3PnWtn3bycspxoP" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-0ae747a53c748086-13">
           <seg xml:id="i-XLfvPiHyvYYtk1zJEWLrtf">
             Återinträdet år 1963 var en engångsföreteelse föranledd av sjukförsäkringsreformen.
             För att kompensera dem som då återinträdde utan att förvärva rätt
@@ -4483,7 +4473,7 @@
         <note xml:id="i-HyaFogoWFLa53APfzrivgj">
           Ändring i förordningen om mervärdeskatt
         </note>
-        <u xml:id="i-2347e8edc78ef2ff-30" who="i-7CXHDen9y2qKcYDisT3zjQ" prev="i-2347e8edc78ef2ff-29" next="i-EZjKWqP2FGgV8Dd8k3ddKS">
+        <u xml:id="i-2347e8edc78ef2ff-30" who="i-7CXHDen9y2qKcYDisT3zjQ" prev="i-2347e8edc78ef2ff-29" next="i-2347e8edc78ef2ff-31">
           <seg xml:id="i-8hmJuhAKvo62FsWp8dQnoC">
             sultatet, att köparen av auktionsvarorna kan vägra att betala
             mervärdeskatt som är debiterad på detta sätt.
@@ -4561,8 +4551,6 @@
             blir det omöjligt att upprätthålla konkurrensneutralitet genom
             de olika finansieringsformer som förekommer i sådana här sammanhang.
           </seg>
-        </u>
-        <u xml:id="i-EZjKWqP2FGgV8Dd8k3ddKS" who="i-7CXHDen9y2qKcYDisT3zjQ" prev="i-2347e8edc78ef2ff-30" next="i-2347e8edc78ef2ff-31">
           <seg xml:id="i-FE9UmTAshsZjf5z6sKwxaA">
             Genom att räntan vid avbetalnings-
           </seg>
@@ -4574,7 +4562,7 @@
         <note xml:id="i-55rk8ENCkeZppQpVrafqn1">
           Ändring i förordningen om mervärdeskatt
         </note>
-        <u xml:id="i-2347e8edc78ef2ff-31" who="i-7CXHDen9y2qKcYDisT3zjQ" prev="i-EZjKWqP2FGgV8Dd8k3ddKS" next="i-2347e8edc78ef2ff-32">
+        <u xml:id="i-2347e8edc78ef2ff-31" who="i-7CXHDen9y2qKcYDisT3zjQ" prev="i-2347e8edc78ef2ff-30" next="i-2347e8edc78ef2ff-32">
           <seg xml:id="i-J13gFDXh3udC8eSx6PLqs1">
             kontrakt skall mervärdebeskattas måste den framräknas i underlaget
             för hela avbetalningsperioden. Säljaren tvingas alltså på fakturan
@@ -4635,15 +4623,13 @@
         <note xml:id="i-Bw9vFMqYpHnEujxtJktFRV" type="speaker">
           Herr LARSSON i Umeå (fp):
         </note>
-        <u xml:id="i-QL2KimqQxxWivyVGW9LJBM" who="i-MHvgjmzw3jqPLk3AHQUFKw" next="i-2347e8edc78ef2ff-33">
+        <u xml:id="i-QL2KimqQxxWivyVGW9LJBM" who="i-MHvgjmzw3jqPLk3AHQUFKw" next="i-2347e8edc78ef2ff-34">
           <seg xml:id="i-7FprF4fiyggpdFKjX8XL27">
             Herr talman! När riksdagen i våras antog förordningen om mervärdeskatt
             gjordes förbehåll på en del punkter som senare skulle behandlas.
             Det är dessa områden bevillningsutskottet nu har tagit ställning
             till i sitt betänkande nr 62.
           </seg>
-        </u>
-        <u xml:id="i-2347e8edc78ef2ff-33" who="i-MHvgjmzw3jqPLk3AHQUFKw" prev="i-QL2KimqQxxWivyVGW9LJBM" next="i-2347e8edc78ef2ff-34">
           <seg xml:id="i-4EvFkFDTk31QL114zuK8zp">
             De ändringsförslag som bygger på propositionen kan i stort accepteras.
             De utgör i stora delar klara förbättringar av de ursprungliga
@@ -4681,7 +4667,7 @@
         <note xml:id="i-WyEFW9DFtLaTVuHJpNw6oV">
           Ändring i förordningen om mervärdeskatt
         </note>
-        <u xml:id="i-2347e8edc78ef2ff-34" who="i-MHvgjmzw3jqPLk3AHQUFKw" prev="i-2347e8edc78ef2ff-33">
+        <u xml:id="i-2347e8edc78ef2ff-34" who="i-MHvgjmzw3jqPLk3AHQUFKw" prev="i-QL2KimqQxxWivyVGW9LJBM">
           <seg xml:id="i-VSjXrRpRXhECLx37yYQrGZ">
             kommer att medföra nya pålagor. Särskilt inom mindre företag
             tycks man tro att man, i och med detta system, blir skyldig att
@@ -4810,7 +4796,7 @@
         <note xml:id="i-Qs2VDjs6h9RETKGvdEpoJp" type="date">
           Fredagen den 29 november 1968
         </note>
-        <u xml:id="i-0ae747a53c748086-15" who="i-CkprnrTz3hpNREdKrcoiAi" prev="i-0ae747a53c748086-14" next="i-PrbESAjQr4QVenFQpZKFDx">
+        <u xml:id="i-0ae747a53c748086-15" who="i-CkprnrTz3hpNREdKrcoiAi" prev="i-0ae747a53c748086-14" next="i-0ae747a53c748086-16">
           <seg xml:id="i-V6SLC9RC75cPHML88CkYRs">
             en mera gynnsam situation än enskilda företag och människor.
             Visserligen ger mervärdeskattesystemet en något bättre situation
@@ -4845,8 +4831,6 @@
             på sina arbeten. Jag anser alltså att det är fullt befogat att
             yrka bifall till reservationen nr 3 i detta stycke.
           </seg>
-        </u>
-        <u xml:id="i-PrbESAjQr4QVenFQpZKFDx" who="i-CkprnrTz3hpNREdKrcoiAi" prev="i-0ae747a53c748086-15" next="i-0ae747a53c748086-16">
           <seg xml:id="i-SJPeZvnpLr7GnvFg2AgTdN">
             Jag skall inte, herr talman, argumentera länge beträffande reservationen
             nr
@@ -4862,7 +4846,7 @@
         <note xml:id="i-8qH2hi3VgwyosJbxUYDqLV">
           Ändring i förordningen om mervärdeskatt
         </note>
-        <u xml:id="i-0ae747a53c748086-16" who="i-CkprnrTz3hpNREdKrcoiAi" prev="i-PrbESAjQr4QVenFQpZKFDx">
+        <u xml:id="i-0ae747a53c748086-16" who="i-CkprnrTz3hpNREdKrcoiAi" prev="i-0ae747a53c748086-15">
           <seg xml:id="i-BBeHQF3KzgTcTBNi8Lye9g">
             5, då jag förstår att denna kommer att uppta en stor del av dagens
             debatt. Men öar i vårt land, som genom mervärdeskatten råkar i
@@ -4913,7 +4897,7 @@
         <note xml:id="i-BNz7XKP2MAioCJQjQcH23K" type="speaker">
           Herr BRANDT (s):
         </note>
-        <u xml:id="i-16495378ef0beb65-0" who="i-Hh9SCAcwQ6HHbjMsB1cuTy" next="i-BWRm1dhB125w6zqVAsJFrH">
+        <u xml:id="i-16495378ef0beb65-0" who="i-Hh9SCAcwQ6HHbjMsB1cuTy" next="i-16495378ef0beb65-2">
           <seg xml:id="i-3PinMcFku7QVy3ymWQP4Hu">
             Herr talman! Mervärdeskatten är ingen lätthanterlig materia.
             Detta konstaterade bevillningsutskottet redan i våras när propositionen
@@ -4927,8 +4911,6 @@
             skulle kunna träda i kraft på nyåret. Det var alltså fråga om
             ett beställningsarbete.
           </seg>
-        </u>
-        <u xml:id="i-BWRm1dhB125w6zqVAsJFrH" who="i-Hh9SCAcwQ6HHbjMsB1cuTy" prev="i-16495378ef0beb65-0" next="i-16495378ef0beb65-1">
           <seg xml:id="i-JjHHRBPcHXEV8iesVRfbFN">
             Åtskilliga motioner om ändringar av propositionen inkom liksom
             om olika tolkningar av densamma. Det förelåg även diverse skrivelser
@@ -4938,8 +4920,6 @@
             bilar. Det kanske väsentligaste var förslag om ändring av övergångsbestämmelserna
             och möjligheterna att eliminera retroaktiva verkningar av mervärdeskatten.
           </seg>
-        </u>
-        <u xml:id="i-16495378ef0beb65-1" who="i-Hh9SCAcwQ6HHbjMsB1cuTy" prev="i-BWRm1dhB125w6zqVAsJFrH" next="i-16495378ef0beb65-2">
           <seg xml:id="i-DesCAWwWnMjqPALMHk1oBK">
             Vi konstaterar nu inom utskottet med tillfredsställelse att alla
             de frågor som utskottet gjort hemställan om blivit nöjaktigt besvarade.
@@ -4957,7 +4937,7 @@
         <note xml:id="i-SLD3PF6qyCowTMQQQ7egxC">
           Ändring i förordningen om mervärdeskatt
         </note>
-        <u xml:id="i-16495378ef0beb65-2" who="i-Hh9SCAcwQ6HHbjMsB1cuTy" prev="i-16495378ef0beb65-1" next="i-16495378ef0beb65-3">
+        <u xml:id="i-16495378ef0beb65-2" who="i-Hh9SCAcwQ6HHbjMsB1cuTy" prev="i-16495378ef0beb65-0" next="i-16495378ef0beb65-3">
           <seg xml:id="i-KPxhpZ8oWbnefFY4vEcGbp">
             ligen måste bli få. Såväl allmänna skatteberedningen som &lt;departementsutredningen
             betonade detta kraftigt, och inom utskottet har vi varit helt
@@ -5228,7 +5208,7 @@
         <note xml:id="i-V5LBjutzR8eL4n1Xookfgx">
           Ändring i förordningen om mervärdeskatt
         </note>
-        <u xml:id="i-16495378ef0beb65-7" who="i-Hh9SCAcwQ6HHbjMsB1cuTy" prev="i-16495378ef0beb65-6" next="i-H4qtT9sfq1yz7oL9Fuaotw">
+        <u xml:id="i-16495378ef0beb65-7" who="i-Hh9SCAcwQ6HHbjMsB1cuTy" prev="i-16495378ef0beb65-6">
           <seg xml:id="i-X4v89c7QogFuvSa9P8V8QZ">
             mit därför att vi var medvetna om att övergången i ett så komplicerat
             system som detta med nödvändighet måste bli besvärlig. Vi har
@@ -5243,8 +5223,6 @@
             möjligt att åstadkomma en så friktionsfri och mjuk övergång som
             vi alla önskar.
           </seg>
-        </u>
-        <u xml:id="i-H4qtT9sfq1yz7oL9Fuaotw" who="i-Hh9SCAcwQ6HHbjMsB1cuTy" prev="i-16495378ef0beb65-7">
           <seg xml:id="i-KBEFRgGabf1ouL77yB9vuy">
             Jag skall, herr talman, nöja mig med denna genomgång och yrkar
             bifall till bevillningsutskottets förslag.
@@ -5394,7 +5372,7 @@
         <note xml:id="i-LXYGrKvdPRm3cPoyAuB5Yv" type="speaker">
           Herr ÖHVALL (fp):
         </note>
-        <u xml:id="i-6607f1e57ea035b0-0" who="i-N71ZHXHT1mKaokPBPw5yVQ" next="i-A5bmHqKx7JUdb351aPQNVq">
+        <u xml:id="i-6607f1e57ea035b0-0" who="i-N71ZHXHT1mKaokPBPw5yVQ" next="i-6607f1e57ea035b0-1">
           <seg xml:id="i-U6Ee5Kkbo97WxGUSmmo7uq">
             Herr talman! Jag kunde ha nöjt mig med att instämma i herr Larssons
             i Umeå yrkanden, men eftersom jag är motionär då det gäller frågan
@@ -5427,8 +5405,6 @@
             i det allmänna varuskattesystemet, eftersom det skattepliktiga
             området nu är större.
           </seg>
-        </u>
-        <u xml:id="i-A5bmHqKx7JUdb351aPQNVq" who="i-N71ZHXHT1mKaokPBPw5yVQ" prev="i-6607f1e57ea035b0-0" next="i-6607f1e57ea035b0-1">
           <seg xml:id="i-EHV9JFd3Bd5wgCcEiapZfW">
             Utskottet argumenterar mot sjöfarts-
           </seg>
@@ -5443,7 +5419,7 @@
         <note xml:id="i-KwKtBYqWiLNgNuYWCrto7x">
           Ändring i förordningen om mervärdeskatt
         </note>
-        <u xml:id="i-6607f1e57ea035b0-1" who="i-N71ZHXHT1mKaokPBPw5yVQ" prev="i-A5bmHqKx7JUdb351aPQNVq" next="i-MgwhTDEw9Fkk9Fo1TVLQQQ">
+        <u xml:id="i-6607f1e57ea035b0-1" who="i-N71ZHXHT1mKaokPBPw5yVQ" prev="i-6607f1e57ea035b0-0">
           <seg xml:id="i-UtkBXnACjJqEkhsyZk9jCf">
             styrelsens skrivelse om skattefrihet för isbrytare och vissa
             sjömätningsfartyg och skriver på s. 34: »Utskottet anser sig inte
@@ -5454,8 +5430,6 @@
             Ja, jag delar den uppfattningen; och utifrån de synpunkterna borde
             utskottet också ha tillstyrkt förslaget i vår motion.
           </seg>
-        </u>
-        <u xml:id="i-MgwhTDEw9Fkk9Fo1TVLQQQ" who="i-N71ZHXHT1mKaokPBPw5yVQ" prev="i-6607f1e57ea035b0-1">
           <seg xml:id="i-5QVfUJAx8bvcQu7qY4fjJo">
             Herr talman! Jag yrkar bifall till reservationen 1 i bevillningsutskottets
             betänkande nr 62.
@@ -6339,14 +6313,12 @@
         <note xml:id="i-2oZBrRU7ZHaKE5fcT5TP4j" type="speaker">
           Herr FRANZEÉN i Träkumla (cp):
         </note>
-        <u xml:id="i-XMnijpvPgc6Nv8enyZo53R" who="i-EnP8BTag9UkPc8S5HLtfts" next="i-a6d1bd491104727c-10">
+        <u xml:id="i-XMnijpvPgc6Nv8enyZo53R" who="i-EnP8BTag9UkPc8S5HLtfts" next="i-a6d1bd491104727c-11">
           <seg xml:id="i-T7zSDF3EM3rweGQs2C6Cg5">
             Herr talman! Jag har begärt ordet för att ge min mening till
             känna om vad utskottet skrivit i anledning av motionerna I: 1019
             och II: 1278.
           </seg>
-        </u>
-        <u xml:id="i-a6d1bd491104727c-10" who="i-EnP8BTag9UkPc8S5HLtfts" prev="i-XMnijpvPgc6Nv8enyZo53R" next="i-a6d1bd491104727c-11">
           <seg xml:id="i-EgmPcJTpNLMDxZiuukr1rm">
             Samtliga gotlandsrepresentanter, oavsett parti, har motionerat
             om att mervärdeskatt inte bör utgå på transport av bilar, avsedda
@@ -6369,7 +6341,7 @@
         <note xml:id="i-4QPM6z7d7mLU1a21kvmbmu">
           Ändring i förordningen om mervärdeskatt
         </note>
-        <u xml:id="i-a6d1bd491104727c-11" who="i-EnP8BTag9UkPc8S5HLtfts" prev="i-a6d1bd491104727c-10">
+        <u xml:id="i-a6d1bd491104727c-11" who="i-EnP8BTag9UkPc8S5HLtfts" prev="i-XMnijpvPgc6Nv8enyZo53R">
           <seg xml:id="i-PrhxFCTtxeHfR2Ffj2t73h">
             tersom frakterna mellan Gotland och fastlandet är högre än frakterna
             på fastlandet. Mervärdeskatten kommer alltså att bli betungande
@@ -6876,7 +6848,7 @@
         <note xml:id="i-Jwm1bUgeNCNrxKRNnXUXtE">
           Interpellation ang. en ny mönsterskyddslag m.m.
         </note>
-        <u xml:id="i-2347e8edc78ef2ff-45" who="i-MKtRRcpTpEb8T45YVQN8TW" prev="i-2347e8edc78ef2ff-44" next="i-5RaJif1rge4YDnNtDujg8a">
+        <u xml:id="i-2347e8edc78ef2ff-45" who="i-MKtRRcpTpEb8T45YVQN8TW" prev="i-2347e8edc78ef2ff-44">
           <seg xml:id="i-XHfSfyyTsPWmhmR1uEDkBG">
             intresse, inte minst för vårt näringsliv. Den lag vi nu har härrör
             från år 1899 och är inte bara föråldrad utan också mycket bristfällig
@@ -6884,8 +6856,6 @@
             för alster inom metallområdet och dessutom endast för en varas
             prydnadsutseende.
           </seg>
-        </u>
-        <u xml:id="i-5RaJif1rge4YDnNtDujg8a" who="i-MKtRRcpTpEb8T45YVQN8TW" prev="i-2347e8edc78ef2ff-45" next="i-2347e8edc78ef2ff-46">
           <seg xml:id="i-E472AeZWXYup2FqedvGh63">
             Med anledning av en av mig väckt motion beslutade riksdagen år
             1954 att anhålla om en utredning, vilken tillsattes år 1958. Efter
@@ -6894,8 +6864,6 @@
             avlämnade den svenska utredningen år 1965 sitt betänkande med
             förslag till ny lag.
           </seg>
-        </u>
-        <u xml:id="i-2347e8edc78ef2ff-46" who="i-MKtRRcpTpEb8T45YVQN8TW" prev="i-5RaJif1rge4YDnNtDujg8a" next="i-N35hbVgpmTwm7FBrRypPUb">
           <seg xml:id="i-BPTnRojw8BcfvBMvzrWiNf">
             Jag vill i detta sammanhang hänvisa till att den svenska utredningen
             i sitt betänkande även framlade förslag till ändrade bestämmelser
@@ -6946,15 +6914,11 @@
             med framläggandet av en proposition om ny mönsterskyddslag och
             nya bestämmelser inom upphovsrättslagens brukskonstområde?
           </seg>
-        </u>
-        <u xml:id="i-N35hbVgpmTwm7FBrRypPUb" who="i-MKtRRcpTpEb8T45YVQN8TW" prev="i-2347e8edc78ef2ff-46" next="i-2347e8edc78ef2ff-47">
           <seg xml:id="i-HsnixBbgVbz5eu1seJimkA">
             2. Kan herr statsrådet nu meddela, när proposition om ny mönsterskyddslag
             och nya bestämmelser inom upphovsrättslagens brukskonstområde
             beräknas kunna föreläggas riksdagen?
           </seg>
-        </u>
-        <u xml:id="i-2347e8edc78ef2ff-47" who="i-MKtRRcpTpEb8T45YVQN8TW" prev="i-N35hbVgpmTwm7FBrRypPUb">
           <seg xml:id="i-Jv71oSAEjByoiTACFZzgWu">
             3. Kan man förvänta att ev. andra hinder för Sveriges anslutning
             till Pariskonventionens &lt;+&lt;Lissabontext = blir uppklarade

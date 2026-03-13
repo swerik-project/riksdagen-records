@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-YaijB13PGv4Ane8Lb2QMZd" type="speech">
             <linkGrp type="u">
               <ptr target="#i-5DfadMQ4bSiNYyZ5voaiiM"/>
@@ -534,7 +534,13 @@
               <ptr target="#i-WbyhVGXcJEkmokSPKx8Sad"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -573,7 +579,7 @@
         <note xml:id="i-6Jeypiov5zFJpoVHp8xRQv" type="speaker">
           Herr Winkrans, som yttrade:
         </note>
-        <u xml:id="i-5DfadMQ4bSiNYyZ5voaiiM" who="i-3H2mSG9968n2w3bGtREUma" next="i-5qk5SbftRZHWohaCJu1V8P">
+        <u xml:id="i-5DfadMQ4bSiNYyZ5voaiiM" who="i-3H2mSG9968n2w3bGtREUma" next="i-JSc5FriwiZPA4BSN2og9hu">
           <seg xml:id="i-TZ2uvWVunJvoUxy93Ae5Rv">
             Herr Talman! Den långa diskussion, som i denna Kammare förts
             på förmiddagen 1 den nu föreliggande frågan, torde i allmänhet
@@ -587,8 +593,6 @@
             i hög grad framåt och bringa det välsignelse så väl i ekonomiskt
             som moraliskt hänseende.
           </seg>
-        </u>
-        <u xml:id="i-5qk5SbftRZHWohaCJu1V8P" who="i-3H2mSG9968n2w3bGtREUma" prev="i-5DfadMQ4bSiNYyZ5voaiiM" next="i-JSc5FriwiZPA4BSN2og9hu">
           <seg xml:id="i-TYG1ifvaxnyA5UoJoHQbQw">
             Jag vågar påstå, att, ehuru visserligen en del af de anmärkningar,
             som rigtats mot förslaget, varit grundade och befogade, den största
@@ -627,7 +631,7 @@
         <note xml:id="i-QeKNtqRs9xsDBHE1X1Ysq6">
           af en postsparbank. (Forts.)
         </note>
-        <u xml:id="i-JSc5FriwiZPA4BSN2og9hu" who="i-3H2mSG9968n2w3bGtREUma" prev="i-5qk5SbftRZHWohaCJu1V8P" next="i-GVJfF9recDMFqmFiMHKM2s">
+        <u xml:id="i-JSc5FriwiZPA4BSN2og9hu" who="i-3H2mSG9968n2w3bGtREUma" prev="i-5DfadMQ4bSiNYyZ5voaiiM" next="i-9n9WeuU1qhd3z3TABQ46pp">
           <seg xml:id="i-PWQcV1sw43cYTatXu7AqWo">
             hof af postsparbanker der icke förefinnes. Ja, detta är sant;
             i Göteborg finnas icke mindre än två sparbanker, hvilka hafva
@@ -643,8 +647,6 @@
             i Göteborg och dess omnejd och bör derföre framkalla en helt annan
             lagstiftning än den, som der kan vara behöflig.
           </seg>
-        </u>
-        <u xml:id="i-GVJfF9recDMFqmFiMHKM2s" who="i-3H2mSG9968n2w3bGtREUma" prev="i-JSc5FriwiZPA4BSN2og9hu" next="i-8qCYHpVZig2BDUg2q9AQS7">
           <seg xml:id="i-7mg3ZfZvQUPu43wbEVXvpW">
             Samme talare framhöll äfven, liksom åtskilliga andra, en fruktan
             för, att de gamla sparbankerna skulle komma att tillintetgöras
@@ -664,8 +666,6 @@
             till ett större belopp, så uttager man det sannolikt och insätter
             det mot högre ränta i den gamla sparbanken.
           </seg>
-        </u>
-        <u xml:id="i-8qCYHpVZig2BDUg2q9AQS7" who="i-3H2mSG9968n2w3bGtREUma" prev="i-GVJfF9recDMFqmFiMHKM2s" next="i-9n9WeuU1qhd3z3TABQ46pp">
           <seg xml:id="i-DaWjSCAqhYmQnBm52WZ7mF">
             En annan talare på norrlandsbänken påstod, att dessa postsparkassor
             egentligen skulle afse de mindre bemedlade klasserna, och han
@@ -692,7 +692,7 @@
           afse egentligen de arbetande klasserna och till icke oväsentlig
           del Ang.inrättande
         </note>
-        <u xml:id="i-9n9WeuU1qhd3z3TABQ46pp" who="i-3H2mSG9968n2w3bGtREUma" prev="i-8qCYHpVZig2BDUg2q9AQS7" next="i-REcDpsk522P2h5GocRqrXy">
+        <u xml:id="i-9n9WeuU1qhd3z3TABQ46pp" who="i-3H2mSG9968n2w3bGtREUma" prev="i-JSc5FriwiZPA4BSN2og9hu" next="i-REcDpsk522P2h5GocRqrXy">
           <seg xml:id="i-SBtSWjFT9ysHxUjtMP6Tzs">
             den lösa befolkningen, som vandrar från ett håll till ett annat.
             af en post- Jag skall sluta med att bedja få anföra ett yttrande
@@ -703,129 +703,85 @@
           Englands störste statsmän och onekligen dess störste historieskrif-
           = (Forts)
         </note>
-        <u xml:id="i-REcDpsk522P2h5GocRqrXy" who="i-3H2mSG9968n2w3bGtREUma" prev="i-9n9WeuU1qhd3z3TABQ46pp" next="i-KSJvBAw95zviC7tbMa5mJU">
+        <u xml:id="i-REcDpsk522P2h5GocRqrXy" who="i-3H2mSG9968n2w3bGtREUma" prev="i-9n9WeuU1qhd3z3TABQ46pp">
           <seg xml:id="i-CzgFzRyruXKApKkwYppV4B">
             vare, Macaulay. Han säger, att en af de vigtigaste orsakerna
             till
           </seg>
-        </u>
-        <u xml:id="i-KSJvBAw95zviC7tbMa5mJU" who="i-3H2mSG9968n2w3bGtREUma" prev="i-REcDpsk522P2h5GocRqrXy" next="i-BhVqNtRUM11h8r82CzxcL9">
           <seg xml:id="i-VPh5G7zTaHke8SM6P7tYtK">
             Englands välstånd var onekligen statens åtgärd att kasta sig
             in i
           </seg>
-        </u>
-        <u xml:id="i-BhVqNtRUM11h8r82CzxcL9" who="i-3H2mSG9968n2w3bGtREUma" prev="i-KSJvBAw95zviC7tbMa5mJU" next="i-C6gsiRA9Qy3fC6w5GdkwMt">
           <seg xml:id="i-AxQDERCdcUmZ8fw9xRJe7e">
             skuld, och han förklarar denna, som det vill synas, paradox på
             det
           </seg>
-        </u>
-        <u xml:id="i-C6gsiRA9Qy3fC6w5GdkwMt" who="i-3H2mSG9968n2w3bGtREUma" prev="i-BhVqNtRUM11h8r82CzxcL9" next="i-FmpRKgEwLcDyyVZMpjfLSP">
           <seg xml:id="i-YUEet3RXarQScrQsTqj9F">
             sätt, att förr än staten utgaf obligationer, fans intet eller
             nästan
           </seg>
-        </u>
-        <u xml:id="i-FmpRKgEwLcDyyVZMpjfLSP" who="i-3H2mSG9968n2w3bGtREUma" prev="i-C6gsiRA9Qy3fC6w5GdkwMt" next="i-HY8y5aVS73npNqMi5eWKJx">
           <seg xml:id="i-8EL7ry21DKYBF36XAtTHee">
             intet tillfälle för den, som ville spara, att placera sina besparingar.
           </seg>
-        </u>
-        <u xml:id="i-HY8y5aVS73npNqMi5eWKJx" who="i-3H2mSG9968n2w3bGtREUma" prev="i-FmpRKgEwLcDyyVZMpjfLSP" next="i-F2u7N6PyRiQf8yphGMr4ge">
           <seg xml:id="i-4yJCWhbYVAj2WCFcNrnF2H">
             Derigenom att staten utfärdade räntelöpande obligationer, fick
             den,
           </seg>
-        </u>
-        <u xml:id="i-F2u7N6PyRiQf8yphGMr4ge" who="i-3H2mSG9968n2w3bGtREUma" prev="i-HY8y5aVS73npNqMi5eWKJx" next="i-JYXXw3gZGsutKBcpaE6puc">
           <seg xml:id="i-XkAa7D1tHXdiG6zHqfS1JX">
             som ville spara, ett tillfälle att nedlägga sina besparingar
             i ett
           </seg>
-        </u>
-        <u xml:id="i-JYXXw3gZGsutKBcpaE6puc" who="i-3H2mSG9968n2w3bGtREUma" prev="i-F2u7N6PyRiQf8yphGMr4ge" next="i-EJp7v9wWQ3agspNAdngDj4">
           <seg xml:id="i-R7hZtW5qguLwP8nKEFk7Bn">
             lätt tillgängligt och otvifvelaktigt säkert papper, innehafvande
             så-
           </seg>
-        </u>
-        <u xml:id="i-EJp7v9wWQ3agspNAdngDj4" who="i-3H2mSG9968n2w3bGtREUma" prev="i-JYXXw3gZGsutKBcpaE6puc" next="i-TRaL58Xcxe7vhiwA9DmtB2">
           <seg xml:id="i-4FQAem2hDCvhpDJDufQ8uk">
             lunda just de egenskaper som nu ifrågavarande postsparkort och
           </seg>
-        </u>
-        <u xml:id="i-TRaL58Xcxe7vhiwA9DmtB2" who="i-3H2mSG9968n2w3bGtREUma" prev="i-EJp7v9wWQ3agspNAdngDj4" next="i-4AJzixHh5q4QDTaqpTPwg3">
           <seg xml:id="i-Y6nZYqfTUks7rA4twDiLnz">
             sparmärken skulle ega. Genom den engelska folket sålunda beredda
           </seg>
-        </u>
-        <u xml:id="i-4AJzixHh5q4QDTaqpTPwg3" who="i-3H2mSG9968n2w3bGtREUma" prev="i-TRaL58Xcxe7vhiwA9DmtB2" next="i-4v37HxAAL8xxuCFoZEpFbu">
           <seg xml:id="i-Ed2MiGn8aNinzmnH3cEnUL">
             läglighet att lätt och säkert placera sina öfverskott uppkom
             en vana
           </seg>
-        </u>
-        <u xml:id="i-4v37HxAAL8xxuCFoZEpFbu" who="i-3H2mSG9968n2w3bGtREUma" prev="i-4AJzixHh5q4QDTaqpTPwg3" next="i-AwxkZEUyW2KVXntPc94cxS">
           <seg xml:id="i-WGsEJWvHpaZV7oFXVFhk4b">
             vid sparsamhet, hvarigenom till icke ringa del åstadkoms den
             stora väl-
           </seg>
-        </u>
-        <u xml:id="i-AwxkZEUyW2KVXntPc94cxS" who="i-3H2mSG9968n2w3bGtREUma" prev="i-4v37HxAAL8xxuCFoZEpFbu" next="i-KzqgGEHMsHyE8cyURAzGuU">
           <seg xml:id="i-Jwatgai8kwdYWTSsgCaCj1">
             makt och välmåga, som på hans tid förefans i England. Jag hoppas
           </seg>
-        </u>
-        <u xml:id="i-KzqgGEHMsHyE8cyURAzGuU" who="i-3H2mSG9968n2w3bGtREUma" prev="i-AwxkZEUyW2KVXntPc94cxS" next="i-GbRapoPkqvA4hFUmbXYSZL">
           <seg xml:id="i-TY6fdyCUhcXRjYVo49NvR4">
             att dessa orsaker, som äro i någon mån likartade, nemligen att
           </seg>
-        </u>
-        <u xml:id="i-GbRapoPkqvA4hFUmbXYSZL" who="i-3H2mSG9968n2w3bGtREUma" prev="i-KzqgGEHMsHyE8cyURAzGuU" next="i-2wdvsp3aKoFzvdc8fJJs4v">
           <seg xml:id="i-RggSneYJGQ67mJor6WqM7A">
             man bereder tillfälle åt hvar och en att lätt realisera sitt
             öfver-
           </seg>
-        </u>
-        <u xml:id="i-2wdvsp3aKoFzvdc8fJJs4v" who="i-3H2mSG9968n2w3bGtREUma" prev="i-GbRapoPkqvA4hFUmbXYSZL" next="i-LbPNt4FzMpjippe6c7keLj">
           <seg xml:id="i-bqb691gNYSyZm2Ad46oGj">
             skott genom att insätta det i lätt tillgängliga sparbanker, skola
           </seg>
-        </u>
-        <u xml:id="i-LbPNt4FzMpjippe6c7keLj" who="i-3H2mSG9968n2w3bGtREUma" prev="i-2wdvsp3aKoFzvdc8fJJs4v" next="i-3gKZwix5n4kQYoMyrQD189">
           <seg xml:id="i-Hpa2VqMY1YULHCu45pv7an">
             hafva samma verkan äfven i vårt land och sålunda kraftigt bidraga
           </seg>
-        </u>
-        <u xml:id="i-3gKZwix5n4kQYoMyrQD189" who="i-3H2mSG9968n2w3bGtREUma" prev="i-LbPNt4FzMpjippe6c7keLj" next="i-NtDwRn6ejALefibDbJTsyZ">
           <seg xml:id="i-DSu76CnEMR96H4U9PfhKWn">
             till åstadkommande äfven der af ett stort välstånd. I sådant-fall
           </seg>
-        </u>
-        <u xml:id="i-NtDwRn6ejALefibDbJTsyZ" who="i-3H2mSG9968n2w3bGtREUma" prev="i-3gKZwix5n4kQYoMyrQD189" next="i-UjiHMgM3E6ALzqeuQSeJJL">
           <seg xml:id="i-8vBnB18VLPyCHhodqhadYG">
             är den lilla uppoffring, som möjligen kan drabba statsverket
             eller
           </seg>
-        </u>
-        <u xml:id="i-UjiHMgM3E6ALzqeuQSeJJL" who="i-3H2mSG9968n2w3bGtREUma" prev="i-NtDwRn6ejALefibDbJTsyZ" next="i-ArttRdr6HVDg3XqvvaSuPm">
           <seg xml:id="i-2AbFa6yiEcDtAxoFbjyBi7">
             rättare postverket, så obetydlig, att den i min tanke många gånger
           </seg>
-        </u>
-        <u xml:id="i-ArttRdr6HVDg3XqvvaSuPm" who="i-3H2mSG9968n2w3bGtREUma" prev="i-UjiHMgM3E6ALzqeuQSeJJL" next="i-Mo6v1XBPeNHidpQA2G57y1">
           <seg xml:id="i-2gFPwC6NdyrZPmkE4JjzUB">
             öfverväges af de stora fördelar, som sparsamheten medför icke
             blott
           </seg>
-        </u>
-        <u xml:id="i-Mo6v1XBPeNHidpQA2G57y1" who="i-3H2mSG9968n2w3bGtREUma" prev="i-ArttRdr6HVDg3XqvvaSuPm" next="i-KyH89wLEfLXPy7wTYdtGmx">
           <seg xml:id="i-A7TDmjJRZiPG8dX3qP2pXC">
             i moraliskt, utan äfven i ekonomiskt hänseende. Jag tillstyrker
           </seg>
-        </u>
-        <u xml:id="i-KyH89wLEfLXPy7wTYdtGmx" who="i-3H2mSG9968n2w3bGtREUma" prev="i-Mo6v1XBPeNHidpQA2G57y1">
           <seg xml:id="i-3CpXhTD76hSW26823JWVmv">
             derför på det allra lifligaste bifall till Utskottets förslag.
           </seg>
@@ -833,7 +789,7 @@
         <note xml:id="i-JNCwUjwX2FDTbri7CRmSGR" type="speaker">
           Herr Emil Key:
         </note>
-        <u xml:id="i-L5vp6kLtK6R1pJekTJRcro" who="i-XbK9QwjH3ADwitYWM1kkBW" next="i-7VoZJJNeDcjn6srgRLRwzS">
+        <u xml:id="i-L5vp6kLtK6R1pJekTJRcro" who="i-XbK9QwjH3ADwitYWM1kkBW" next="i-UAd8bqxnMZNNHGmrYQPyRy">
           <seg xml:id="i-JMWvFWAtPQMEmvj76WmgrF">
             Jag skall bedja att få börja på samma sätt som den nästföregående
             talaren, att nemligen efter den utmärkta diskussion, som här egt
@@ -844,8 +800,6 @@
             på en mycket sällsam tillfällighet, som faller mig i minnet med
             hänsyn till hvad nu tilldrager sig.
           </seg>
-        </u>
-        <u xml:id="i-7VoZJJNeDcjn6srgRLRwzS" who="i-XbK9QwjH3ADwitYWM1kkBW" prev="i-L5vp6kLtK6R1pJekTJRcro" next="i-UAd8bqxnMZNNHGmrYQPyRy">
           <seg xml:id="i-THdmUBtwGYESsVGWXKoe58">
             Mine herrar, det är just i dag jemnt på dagen 16 år sedan då
             denna samma fråga förevar i Riksdagens båda Kamrar. Det var nemligen
@@ -875,12 +829,10 @@
         <note xml:id="i-BAW19aYC35xkinF8fMLAqp">
           bank. (Forts.)
         </note>
-        <u xml:id="i-UAd8bqxnMZNNHGmrYQPyRy" who="i-XbK9QwjH3ADwitYWM1kkBW" prev="i-7VoZJJNeDcjn6srgRLRwzS" next="i-DGRy8xjabGV5c8nq8pvK3j">
+        <u xml:id="i-UAd8bqxnMZNNHGmrYQPyRy" who="i-XbK9QwjH3ADwitYWM1kkBW" prev="i-L5vp6kLtK6R1pJekTJRcro" next="i-TtCfDrV1dsY2d4yhK8Gvgw">
           <seg xml:id="i-3j6GsYBpFpzE4RV5FW6REo">
             partierna kunde tillerkänna sig segern.
           </seg>
-        </u>
-        <u xml:id="i-DGRy8xjabGV5c8nq8pvK3j" who="i-XbK9QwjH3ADwitYWM1kkBW" prev="i-UAd8bqxnMZNNHGmrYQPyRy" next="i-BNgMx8wVBCp4oQrZSiUDTE">
           <seg xml:id="i-5we4a66nocPFkFxrJLa3Q4">
             Jag har roat mig med att genomgå icke blott detta Utskotts utlåtande
             utan äfven diskussionen i frågan, och jag får säga, att det varit
@@ -894,8 +846,6 @@
             än det verkligen förtjenar att vara. Jag skall bedja att få ur
             detta betänkande uppläsa den 5:te punkten.
           </seg>
-        </u>
-        <u xml:id="i-BNgMx8wVBCp4oQrZSiUDTE" who="i-XbK9QwjH3ADwitYWM1kkBW" prev="i-DGRy8xjabGV5c8nq8pvK3j" next="i-CTzLxLFs4KjuMGT7uTe9s1">
           <seg xml:id="i-V7TP1hoZRBWUpRuWRCrW4j">
             Efter att hafva förutskickat en kortare motivering och ett resonnement
             om postsparkassor omnämnde Utskottet hvad som då var en nyhet,
@@ -905,8 +855,6 @@
             England år 1861 utfärdats en parlamentsakt för att underlätta
             insättning mot ränta af smärre besparingar under regeringsansvarighet.
           </seg>
-        </u>
-        <u xml:id="i-CTzLxLFs4KjuMGT7uTe9s1" who="i-XbK9QwjH3ADwitYWM1kkBW" prev="i-BNgMx8wVBCp4oQrZSiUDTE" next="i-XyYYwEe1zxW4WhtC7aWVHb">
           <seg xml:id="i-DfdkiimragbGsUf4HjDikg">
             Efter att hafva vidare anfört, rörande dessa sparbanksinsättningar
             å postkontoren i England, ett yttrande af en sakkunnig person,
@@ -925,8 +873,6 @@
             trängt sig fram och nu föreligger i Kongl. Maj:ts proposition
             och i detta utskottsbetänkande, som vi skola afgöra i afton.
           </seg>
-        </u>
-        <u xml:id="i-XyYYwEe1zxW4WhtC7aWVHb" who="i-XbK9QwjH3ADwitYWM1kkBW" prev="i-CTzLxLFs4KjuMGT7uTe9s1" next="i-TtCfDrV1dsY2d4yhK8Gvgw">
           <seg xml:id="i-MLyoHLSDcAbQaLMYuG3Fx1">
             Jag yttrade, att åtskilliga, som ännu äro ledamöter af denna
             Kammare, under diskussionen 1867 tillkännagåfvo sina åsigter i
@@ -944,7 +890,7 @@
         <note xml:id="i-RGANT2484hdnK3ZZF45zCh" type="date">
           Måndagen den 7 Maj, e. m. 5 N:o 39.
         </note>
-        <u xml:id="i-TtCfDrV1dsY2d4yhK8Gvgw" who="i-XbK9QwjH3ADwitYWM1kkBW" prev="i-XyYYwEe1zxW4WhtC7aWVHb" next="i-4AJrbYA1hqszsYbS8z2FQF">
+        <u xml:id="i-TtCfDrV1dsY2d4yhK8Gvgw" who="i-XbK9QwjH3ADwitYWM1kkBW" prev="i-UAd8bqxnMZNNHGmrYQPyRy" next="i-XyoqYMGnBvCKEGusvpNhGd">
           <seg xml:id="i-9RtmtsnwxLSw4Cgu3fD7N1">
             omnämna en annan dåvarande medlem af Kammaren. Ehuru nu- 4ng.inrättande
             mera icke ledamot af Riksdagen, har han gjort sig påmind genom
@@ -953,23 +899,15 @@
             som icke hör hit, ty det gäl- (Forts ler indelningsverket, men
             då frågan derom kommer före nästa vecka,
           </seg>
-        </u>
-        <u xml:id="i-4AJrbYA1hqszsYbS8z2FQF" who="i-XbK9QwjH3ADwitYWM1kkBW" prev="i-TtCfDrV1dsY2d4yhK8Gvgw" next="i-DkwSJTiVZkXCBm9EzC9nDw">
           <seg xml:id="i-TxqaQ6H1ZD5LHwQ2efUJtw">
             kunde det kanske vara intressant att erinra om hvad Herr Ridder-
           </seg>
-        </u>
-        <u xml:id="i-DkwSJTiVZkXCBm9EzC9nDw" who="i-XbK9QwjH3ADwitYWM1kkBW" prev="i-4AJrbYA1hqszsYbS8z2FQF" next="i-VE2q9MgX2PJcdGRV8uN3uD">
           <seg xml:id="i-PP2kVikezV4KMWmFmKybQb">
             stad tänkte om indelningsverket för 16 år sedan och jemföra det
           </seg>
-        </u>
-        <u xml:id="i-VE2q9MgX2PJcdGRV8uN3uD" who="i-XbK9QwjH3ADwitYWM1kkBW" prev="i-DkwSJTiVZkXCBm9EzC9nDw" next="i-U1C7m19gNrDQzxYvrj6rfX">
           <seg xml:id="i-Upv8QuBH5Ri81D2U9LoRQS">
             med hvad han tänker för närvarande.
           </seg>
-        </u>
-        <u xml:id="i-U1C7m19gNrDQzxYvrj6rfX" who="i-XbK9QwjH3ADwitYWM1kkBW" prev="i-VE2q9MgX2PJcdGRV8uN3uD" next="i-XyoqYMGnBvCKEGusvpNhGd">
           <seg xml:id="i-66HySd2ksu1wiBG5FJ8H1d">
             Jag skall nu med några ord öfvergå till sjelfva frågan. Mot det
             föreliggande förslaget hafva egentligen fyra invändningar blifvit
@@ -1016,7 +954,7 @@
         <note xml:id="i-3hw7ZsG4WjcZ3NbfW8UiUP" type="date">
           N:o 39. 6 Måndagen den 7 Maj, e. m.
         </note>
-        <u xml:id="i-XyoqYMGnBvCKEGusvpNhGd" who="i-XbK9QwjH3ADwitYWM1kkBW" prev="i-U1C7m19gNrDQzxYvrj6rfX" next="i-4ME8F8K14eRACYPobRi4QT">
+        <u xml:id="i-XyoqYMGnBvCKEGusvpNhGd" who="i-XbK9QwjH3ADwitYWM1kkBW" prev="i-TtCfDrV1dsY2d4yhK8Gvgw">
           <seg xml:id="i-7KuP15MA4aHWsd4SYPst3G">
             dng.inrättande så länge. Detta vore hela olyckan. Så att det
             argumentet tror jag af en Posiapars icke håller stånd. (Forts.)
@@ -1038,8 +976,6 @@
             och stuprör, så att dropparne fullständigas och mycket hastigare
             komma ned i de stora bankoch obligationsreservoarerna.
           </seg>
-        </u>
-        <u xml:id="i-4ME8F8K14eRACYPobRi4QT" who="i-XbK9QwjH3ADwitYWM1kkBW" prev="i-XyoqYMGnBvCKEGusvpNhGd" next="i-23JZo56khzt5ESQVSJQrLc">
           <seg xml:id="i-3daPvXfKFcF38f3kTZC9CU">
             Den tredje anmärkningen var den, att postsparbanken skulle rent
             af skada de enskilda sparbankerna. Beträffande denna anmärkning
@@ -1048,8 +984,6 @@
             tiden, så mycket mindre, som denna tredje anmärkning blifvit bemött
             på samma gång som den andra.
           </seg>
-        </u>
-        <u xml:id="i-23JZo56khzt5ESQVSJQrLc" who="i-XbK9QwjH3ADwitYWM1kkBW" prev="i-4ME8F8K14eRACYPobRi4QT" next="i-Lfcmg8dPgkDr3zkUcmHmkv">
           <seg xml:id="i-CPhf7XUKjymf9Z2DfJUwof">
             Slutligen säger man, att denna fråga är en nyhet. Nej, den är
             icke ny. Jag visade det nyss med en erinran från sexton år tillbaka.
@@ -1065,8 +999,6 @@
             som de flesta länder i Europa redan ega eller stå i begrepp att
             tillegna sig?
           </seg>
-        </u>
-        <u xml:id="i-Lfcmg8dPgkDr3zkUcmHmkv" who="i-XbK9QwjH3ADwitYWM1kkBW" prev="i-23JZo56khzt5ESQVSJQrLc">
           <seg xml:id="i-KcgMZhqNC4dczADWHo1iKb">
             För min del vågar jag hoppas och tro, att Andra Kammaren icke
             skall göra sig skyldig till ett sådant felsteg som att afsiå förslaget
@@ -1084,7 +1016,7 @@
         <note xml:id="i-AxdLhwt86JVgig5L4CVHMf" type="speaker">
           Herr Herslow:
         </note>
-        <u xml:id="i-RA2rf5JWti1djyCoAasqF9" who="i-Vzob1iVwoThSSCEU9iFJLb" next="i-9KK7EGyDhVpgUr2P6ttbmE">
+        <u xml:id="i-RA2rf5JWti1djyCoAasqF9" who="i-Vzob1iVwoThSSCEU9iFJLb" next="i-RxY7zyVgYzf3w5yKnaCoh4">
           <seg xml:id="i-8hvDTcpBoW1QatC81G3fUn">
             Herr Talman! Den siste talaren lånade sin Ang.inrättande början
             från den närmast föregående, och här har redan i denna sak af
@@ -1100,8 +1032,6 @@
             fjorton dagarne försiggått här i Kammaren, och förete alldeles
             samma karakter. som de, en för öfrigt mycket märklig karakter.
           </seg>
-        </u>
-        <u xml:id="i-9KK7EGyDhVpgUr2P6ttbmE" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-RA2rf5JWti1djyCoAasqF9" next="i-BhkdatLzru5EdKdw54wxXu">
           <seg xml:id="i-7aRwSjT7qB3wkvaESY7kdN">
             Som Kammaren minnes, hade vi för helt kort tid sedan före frågan
             om anslag till föreläsningskurser åt arbetarne. Ja, det var väl
@@ -1120,8 +1050,6 @@
             äfven till föredrag af skolläraren; och så jemkade och ändrade
             vi — 11 olika ändringar — och derpå kastade vi hela saken i backen.
           </seg>
-        </u>
-        <u xml:id="i-BhkdatLzru5EdKdw54wxXu" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-9KK7EGyDhVpgUr2P6ttbmE" next="i-RxY7zyVgYzf3w5yKnaCoh4">
           <seg xml:id="i-PhQB4eBPj1AtxsMaGEfu7C">
             Så kom Kongl. Maj:ts förslag om odlingsfonden. Nå, om någon tanke
             var vacker, om något måste väcka denna Kammares intresse, så borde
@@ -1152,7 +1080,7 @@
         <note xml:id="i-FX6KMdBaprw3YtcsSNSAw1" type="date">
           8 Måndagen den 7 Maj, e. m.
         </note>
-        <u xml:id="i-RxY7zyVgYzf3w5yKnaCoh4" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-BhkdatLzru5EdKdw54wxXu" next="i-HzV3VJeha9hqxz8gFZ1Een">
+        <u xml:id="i-RxY7zyVgYzf3w5yKnaCoh4" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-RA2rf5JWti1djyCoAasqF9" next="i-V9yPwL9CshzwjCAcpRvU7j">
           <seg xml:id="i-Fmf9UfXS5BRccXFb2CLnKw">
             Och nu i dag! Om något har ett vackert syfte, är det väl ett
             förslag, som afser att befordra sparsamhetens dygd, hindra att
@@ -1166,8 +1094,6 @@
             och så torde det komma att gå med arbetarnes sparbanker precis
             som det gick med arbetarnes föreläsningar.
           </seg>
-        </u>
-        <u xml:id="i-HzV3VJeha9hqxz8gFZ1Een" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-RxY7zyVgYzf3w5yKnaCoh4" next="i-Qh7XAsekdXHZhHsuL3wUgi">
           <seg xml:id="i-Lx54mnu1yRCCZ4hpGFs5tM">
             Vill man nu litet se på hvad mot saken anförts, skall jag be
             att få för den koncentrerade karakterens skull välja yttrandet
@@ -1189,8 +1115,6 @@
             Kongl. Maj:t! Men hvad skrifvelseförslag betyda, dermed är väl
             Kammaren nu temligen på det rena.
           </seg>
-        </u>
-        <u xml:id="i-Qh7XAsekdXHZhHsuL3wUgi" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-HzV3VJeha9hqxz8gFZ1Een" next="i-V9yPwL9CshzwjCAcpRvU7j">
           <seg xml:id="i-LuEnHwm9pdTzNmyQfhnXFf">
             Men det är icke sant att denna föreslagna sparkasseinrättning
             är öfverflödig, fast den i hufvudsak verkar i samma rigtning som
@@ -1216,7 +1140,7 @@
         <note xml:id="i-B1hoAK5hLS7xkRNTsmrnjC" type="date">
           Måndagen den 7 Maj, e. m. 9 N:o 39.
         </note>
-        <u xml:id="i-V9yPwL9CshzwjCAcpRvU7j" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-Qh7XAsekdXHZhHsuL3wUgi" next="i-Bk3NcAQpL2oBWm5d4r9DR2">
+        <u xml:id="i-V9yPwL9CshzwjCAcpRvU7j" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-RxY7zyVgYzf3w5yKnaCoh4" next="i-2cLiXyfsGqFz3njkHNgdUs">
           <seg xml:id="i-F1L4vvGk9DPtCqrWoHwbp8">
             tider, så att om jag har min sparbank i dag i Skåne, har jag
             ng.inrättande samma sparbank i morgon i Norrland, så att t. ex.
@@ -1225,82 +1149,54 @@
             norra Sverige fortsätta den kapi- (Porta talisering han påbörjade
             i det södra. Sparbankerna hafva varit för
           </seg>
-        </u>
-        <u xml:id="i-Bk3NcAQpL2oBWm5d4r9DR2" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-V9yPwL9CshzwjCAcpRvU7j" next="i-H55qTW9GKHogpVpcgLjUzL">
           <seg xml:id="i-3Ft9cA5k3Dejg4WhTCEJ6p">
             landet en vigtig institution, som gjort ofantligt mycket godt,
             men
           </seg>
-        </u>
-        <u xml:id="i-H55qTW9GKHogpVpcgLjUzL" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-Bk3NcAQpL2oBWm5d4r9DR2" next="i-LX81VUMurcN5MtyTZetHKZ">
           <seg xml:id="i-D8pUyShb2Da9Ef2JV8Zj3J">
             de kunna fulländas till en otrolig grad, och när komitébetänkandet
           </seg>
-        </u>
-        <u xml:id="i-LX81VUMurcN5MtyTZetHKZ" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-H55qTW9GKHogpVpcgLjUzL" next="i-TsHqp7L67h61Znmc4Db8ie">
           <seg xml:id="i-6X2YvtQMHVtB5Gqh6xVrCN">
             säger, att genom postsparbankerna sparplatserna ökas med 180
           </seg>
-        </u>
-        <u xml:id="i-TsHqp7L67h61Znmc4Db8ie" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-LX81VUMurcN5MtyTZetHKZ" next="i-M6vencM9NM5SHShPuK4Hcf">
           <seg xml:id="i-SrBHCSc1t2hu82nZMszAV8">
             procent, är detta icke på en hundradedel tillräckligt sagdt.
             Ty visserligen blifver det blott 180 procent flera sparbanker;
             men dessa
           </seg>
-        </u>
-        <u xml:id="i-M6vencM9NM5SHShPuK4Hcf" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-TsHqp7L67h61Znmc4Db8ie" next="i-88WLfPhcm4cvHnvgWrV1iZ">
           <seg xml:id="i-Xjokbyo7FDS7ZAE3sTCbzd">
             blifva tillgängliga snart sagdt hvarje timme på dagen, under
             det
           </seg>
-        </u>
-        <u xml:id="i-88WLfPhcm4cvHnvgWrV1iZ" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-M6vencM9NM5SHShPuK4Hcf" next="i-3abUeo23hnVD9m2qBprDwv">
           <seg xml:id="i-GaQjnuQ57r7yaS8LqYVkPH">
             att af de nuvarande många äro tillgängliga endast en gång i veckan
           </seg>
-        </u>
-        <u xml:id="i-3abUeo23hnVD9m2qBprDwv" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-88WLfPhcm4cvHnvgWrV1iZ" next="i-VexdasobZn1ZcGr6pJZbXM">
           <seg xml:id="i-FimGNw3AY1786w57UehBG3">
             eller månaden; och detta utgör en ökning af insättningsmöjligheten,
             uppgående till många, många tusen procent, ett mångtusendubbladt
           </seg>
-        </u>
-        <u xml:id="i-VexdasobZn1ZcGr6pJZbXM" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-3abUeo23hnVD9m2qBprDwv" next="i-YWtefT94nyGZ5SJMkk5bhV">
           <seg xml:id="i-EPAvhE9rFJWfNStjKoGiiG">
             tillfälle till sparsamhet, som erbjuder sig. Och, mine herrar,
             det
           </seg>
-        </u>
-        <u xml:id="i-YWtefT94nyGZ5SJMkk5bhV" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-VexdasobZn1ZcGr6pJZbXM" next="i-S41oM3jjz9mto2MyKBQKkE">
           <seg xml:id="i-8GDM2MkJAzZiceJobZStku">
             vore en härlig sak, om vi lyckades åstadkomma, att lockelserna
           </seg>
-        </u>
-        <u xml:id="i-S41oM3jjz9mto2MyKBQKkE" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-YWtefT94nyGZ5SJMkk5bhV" next="i-VDUwT58ngma2CkUaWQC5aL">
           <seg xml:id="i-NKYqzYVDW5dX9B3djVw4Dp">
             till det goda komme att ligga lika nära till hands, som frestelserna
           </seg>
-        </u>
-        <u xml:id="i-VDUwT58ngma2CkUaWQC5aL" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-S41oM3jjz9mto2MyKBQKkE" next="i-TSgRQTd4ycS98wV5iLTf91">
           <seg xml:id="i-FL5CSzVn5vuD8LspenH9fU">
             till det onda. Och det är med detta förslag fallet i fråga om
             sparsamhetens dygd. Det vore en stor lycka för så väl den fattige
             som
           </seg>
-        </u>
-        <u xml:id="i-TSgRQTd4ycS98wV5iLTf91" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-VDUwT58ngma2CkUaWQC5aL" next="i-8cQEQRY8aoSKABeZAPSc58">
           <seg xml:id="i-Hsh72k4tmtXDVK1kpuFHFa">
             burgna delen af vårt folk, om tillfället att spara mötte oss
             lika
           </seg>
-        </u>
-        <u xml:id="i-8cQEQRY8aoSKABeZAPSc58" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-TSgRQTd4ycS98wV5iLTf91" next="i-7xykdrT5551V6TeEyGoNzT">
           <seg xml:id="i-BaSd8zd8QWbBixnxFjyQAP">
             ofta som tillfället att slösa.
           </seg>
-        </u>
-        <u xml:id="i-7xykdrT5551V6TeEyGoNzT" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-8cQEQRY8aoSKABeZAPSc58" next="i-GBTAhFR91PxaoMVyi4WXc7">
           <seg xml:id="i-SJP4cf1R9xdU2diYN7Sobw">
             Det är äfven en annan följd, dessa sparkassor kunna hafva, och
             det är att draga en stor mängd inom deras krets, som besitta något.
@@ -1311,8 +1207,6 @@
             af dem som ega. Den ökningen ger ett bättre skydd för eganderätten
             än en ökning at gendarmeri och polis.
           </seg>
-        </u>
-        <u xml:id="i-GBTAhFR91PxaoMVyi4WXc7" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-7xykdrT5551V6TeEyGoNzT" next="i-MVzdy9hsGEHb24vfe2PA4f">
           <seg xml:id="i-Ny9ikqrsgEuHtUXnhusKTz">
             Denna anstalt är således icke öfverflödig, och att den icke heller
             kan blifva skadlig för de enskilda sparbankerna, har tillräckligt
@@ -1324,8 +1218,6 @@
             betydligare belopp, så att räntesatsen blir ett moment att beakta,
             och för dem öfver till de mera räntegifvande bankerna.
           </seg>
-        </u>
-        <u xml:id="i-MVzdy9hsGEHb24vfe2PA4f" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-GBTAhFR91PxaoMVyi4WXc7" next="i-2cLiXyfsGqFz3njkHNgdUs">
           <seg xml:id="i-95CMKYivPPBjzLGjFwGfUQ">
             En talare på göteborgsbänken har under förmiddagens sammanträde
             framkastat den frågan: är då sparsamheten i vårt land så ringa,
@@ -1352,7 +1244,7 @@
         <note xml:id="i-X4cU8GLdE2MQC7zpdUYuKH">
           sparbank. (Forts.)
         </note>
-        <u xml:id="i-2cLiXyfsGqFz3njkHNgdUs" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-MVzdy9hsGEHb24vfe2PA4f" next="i-RcxZQDAsecDKuL5oHzTMGW">
+        <u xml:id="i-2cLiXyfsGqFz3njkHNgdUs" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-V9yPwL9CshzwjCAcpRvU7j">
           <seg xml:id="i-DuwXJwR7ffRXkMrQETfb4z">
             Då återstår den frågan: är detta så kostsamt? Kostnaden inskränker
             sig till en provision, stigande eller fallande allt efter som
@@ -1364,8 +1256,6 @@
             lemnar ett litet förskott. År saken annars i och för sig god,
             nog är den värd denna kostnad.
           </seg>
-        </u>
-        <u xml:id="i-RcxZQDAsecDKuL5oHzTMGW" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-2cLiXyfsGqFz3njkHNgdUs" next="i-JBkLKtuX6Uwc4BULADar73">
           <seg xml:id="i-WsRxWppm3pCZS1XFg47jKL">
             Den fjerde invändningen som framstälts emot denna sak är, att
             en vidare utredning är behöflig. Men hela institutionens ställning
@@ -1381,8 +1271,6 @@
             frågan: huru stor är räntan på ett kapital, som jag icke vet huru
             stort det är? Em sådan utredning kan icke ens Kongl. Maj:t lemna.
           </seg>
-        </u>
-        <u xml:id="i-JBkLKtuX6Uwc4BULADar73" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-RcxZQDAsecDKuL5oHzTMGW">
           <seg xml:id="i-MBKhJXuGiZ2zeKHWpQAhPk">
             Herr Talman! Den sak, som här föreslås, är behöflig för vårt
             folk, ty vi äro, säga hvad man vill, icke ett sparsamt folk; den
@@ -1402,14 +1290,12 @@
         <note xml:id="i-TjqDi6u9uxa75NELwg1dNd" type="speaker">
           Herr O. B. Olsson:
         </note>
-        <u xml:id="i-D8fCZawSaiWnc8dx41hBX4" who="i-N3z4pmZCZ3L78TVwpLXAWS" next="i-JcfdLpStzrLmqD3etWKN7d">
+        <u xml:id="i-D8fCZawSaiWnc8dx41hBX4" who="i-N3z4pmZCZ3L78TVwpLXAWS" next="i-34pjF389gsFhGdcVAPyf8i">
           <seg xml:id="i-F3rvcqDPoWRGEFVP6XwUDn">
             Efter det sakrika föredrag, som Herr Chefen för Finansdepartementet
             på förmiddagen höll i denna fråga, kan det naturligtvis vara föga
             att tillägga deri. Jag skall dock anhålla att få yttra några ord.
           </seg>
-        </u>
-        <u xml:id="i-JcfdLpStzrLmqD3etWKN7d" who="i-N3z4pmZCZ3L78TVwpLXAWS" prev="i-D8fCZawSaiWnc8dx41hBX4" next="i-34pjF389gsFhGdcVAPyf8i">
           <seg xml:id="i-NLCG6UnZjvp89VGPgbgEZe">
             Jag tillhör en provins, som kanske mer än de flesta andra provinser
             är lyckligt lottad derutinnan, att den, i förhållande till sin
@@ -1423,7 +1309,7 @@
         <note xml:id="i-KQy1JqG9gQTCZf3o3Dydhk" type="date">
           Måndagen den 7 Maj, e. m. 11
         </note>
-        <u xml:id="i-34pjF389gsFhGdcVAPyf8i" who="i-N3z4pmZCZ3L78TVwpLXAWS" prev="i-JcfdLpStzrLmqD3etWKN7d" next="i-Qk6E3xvQJhhE1NroWENNAR">
+        <u xml:id="i-34pjF389gsFhGdcVAPyf8i" who="i-N3z4pmZCZ3L78TVwpLXAWS" prev="i-D8fCZawSaiWnc8dx41hBX4" next="i-YQ62ot69DGAhS5kZKPyV5W">
           <seg xml:id="i-HsMYTp99NRjUUQ2ELegUnL">
             öppna antingen blott veckovis eller blott halfmånadsvis; och
             hvad som är alldeles säkert är, att allmänheten endast få timmar
@@ -1460,8 +1346,6 @@
             vore den, att dessa arbetare kunde insätta sina medel på ett ställe
             och, då de kommit hem, uttaga dem på närmaste postanstalt.
           </seg>
-        </u>
-        <u xml:id="i-Qk6E3xvQJhhE1NroWENNAR" who="i-N3z4pmZCZ3L78TVwpLXAWS" prev="i-34pjF389gsFhGdcVAPyf8i" next="i-8u4F8oAdqXDq8xuJ6QBx4c">
           <seg xml:id="i-EQ2AKB78unFpW2s3am4sFR">
             Flere talare hafva uttalat den åsigt, att postsparbanken skulle
             verka skadligt för våra nuvarande sparbanker. Denna åsigt kan
@@ -1476,8 +1360,6 @@
             kan således icke säga, att sparbankerna skulle genom postsparbanken
             lida något intrång.
           </seg>
-        </u>
-        <u xml:id="i-8u4F8oAdqXDq8xuJ6QBx4c" who="i-N3z4pmZCZ3L78TVwpLXAWS" prev="i-Qk6E3xvQJhhE1NroWENNAR" next="i-YQ62ot69DGAhS5kZKPyV5W">
           <seg xml:id="i-87AzhLBRnGD5mwdvQUuTbZ">
             En talare har yttrat den meningen, som äfven uttalats af re-
           </seg>
@@ -1503,7 +1385,7 @@
         <note xml:id="i-GUBkTKmkEbuPb21rdPxF9T">
           sparbank. (Forts.)
         </note>
-        <u xml:id="i-YQ62ot69DGAhS5kZKPyV5W" who="i-N3z4pmZCZ3L78TVwpLXAWS" prev="i-8u4F8oAdqXDq8xuJ6QBx4c" next="i-CfqyAuAD8MCDtMNMBh8gHB">
+        <u xml:id="i-YQ62ot69DGAhS5kZKPyV5W" who="i-N3z4pmZCZ3L78TVwpLXAWS" prev="i-34pjF389gsFhGdcVAPyf8i">
           <seg xml:id="i-J6W7qrh7gXPdzxoHSttum5">
             tjenstemän, och en bland reservanterna har påstått, att till
             posttjenstemännens aflöningar skulle årligen åtgå 84,000 kronor.
@@ -1519,8 +1401,6 @@
             således på långt när icke uppgå till den summa, som reservanten
             förestält sig.
           </seg>
-        </u>
-        <u xml:id="i-CfqyAuAD8MCDtMNMBh8gHB" who="i-N3z4pmZCZ3L78TVwpLXAWS" prev="i-YQ62ot69DGAhS5kZKPyV5W">
           <seg xml:id="i-TdbeSGmc549BnuUHdsB51m">
             Jag är emellertid fullt öfvertygad om, att det enda och bästa
             medlet att tillgodogöra besparingar för den enskilde individen,
@@ -1579,7 +1459,7 @@
         <note xml:id="i-DbbdWieqQfzeTmA4CXwqn4" type="speaker">
           Herr Johannes Jonson:
         </note>
-        <u xml:id="i-Fqh95wSBkkZtLMoF611V2w" who="i-2jDQuhvFoLEMg5TXt8wPgR" next="i-HRQASjN6HWM35iabR4EeqZ">
+        <u xml:id="i-Fqh95wSBkkZtLMoF611V2w" who="i-2jDQuhvFoLEMg5TXt8wPgR">
           <seg xml:id="i-8GCBC3his53RCKwXnvDgqh">
             Då jag varit i tillfälle att vid be- Forts.) tänkandet afgifva
             min reservation, så har jag dermed gifvit mina åsigter tillkänna;
@@ -1607,8 +1487,6 @@
             Jag kan således icke finna någon fördel af. att få penningarne
             koncentrerade i Stockholm.
           </seg>
-        </u>
-        <u xml:id="i-HRQASjN6HWM35iabR4EeqZ" who="i-2jDQuhvFoLEMg5TXt8wPgR" prev="i-Fqh95wSBkkZtLMoF611V2w" next="i-UFwS5TZvfwSsSYJuVGhZWD">
           <seg xml:id="i-23xGVybDUmYjdykVT9Ruhz">
             Hvad sjelfva kostnaden angår, så tyckte jag visserligen vid första
             påseendet, att den icke skulle blifva så synnerligen stor, men
@@ -1619,8 +1497,6 @@
             någonting öfver till aflöningar och ännu mindre till räntor åt
             insättarne.
           </seg>
-        </u>
-        <u xml:id="i-UFwS5TZvfwSsSYJuVGhZWD" who="i-2jDQuhvFoLEMg5TXt8wPgR" prev="i-HRQASjN6HWM35iabR4EeqZ">
           <seg xml:id="i-Y4PXSyXysgVRShjpw5Jbn">
             Jag skall icke längre upptaga Kammarens tid. Jag har blott velat
             gifva mina åsigter i denna fråga tillkänna, och då jag icke kunnat
@@ -1633,13 +1509,11 @@
         <note xml:id="i-JznqEWabEoPHbNmc24peb4" type="speaker">
           Häruti förenade sig Herr Marcuson. Herr Borg:
         </note>
-        <u xml:id="i-Hwr2ewPnnWDsGg7uWyHgGs" who="i-FvwiuqhHW4fmCrwxpGsft7" next="i-Axj42RQgz4rkg7yzP3ED1j">
+        <u xml:id="i-Hwr2ewPnnWDsGg7uWyHgGs" who="i-FvwiuqhHW4fmCrwxpGsft7" next="i-G752ata26eCVJxYay5RHZi">
           <seg xml:id="i-BbFeKYQAMj4bszfPB9M9Tc">
             Efter den utförliga och förträffliga utredning, denna fråga fått
             i Kammaren, är det ingenting synnerligt för mig
           </seg>
-        </u>
-        <u xml:id="i-Axj42RQgz4rkg7yzP3ED1j" who="i-FvwiuqhHW4fmCrwxpGsft7" prev="i-Hwr2ewPnnWDsGg7uWyHgGs" next="i-G752ata26eCVJxYay5RHZi">
           <seg xml:id="i-8kPeWWjTGgPn63YKbFQ1vY">
             att i denna sak tillägga. Jag vill blott uttrycka min tacksamhet
             för, att detta förslag nu framkommit, och min glädje deröfver,
@@ -1661,7 +1535,7 @@
         <note xml:id="i-GVcJe1wsp4hgxXT1M7z4SX">
           sparbank. (Forts.)
         </note>
-        <u xml:id="i-G752ata26eCVJxYay5RHZi" who="i-FvwiuqhHW4fmCrwxpGsft7" prev="i-Axj42RQgz4rkg7yzP3ED1j" next="i-HhHq1rywtaArSVU9fcPsSm">
+        <u xml:id="i-G752ata26eCVJxYay5RHZi" who="i-FvwiuqhHW4fmCrwxpGsft7" prev="i-Hwr2ewPnnWDsGg7uWyHgGs">
           <seg xml:id="i-XsX4G99GeCBBe1HsJM7n8d">
             anmärkning, så vore det blott i det afseendet, att jag funnit
             en liten betänklighet vid bestämmandet af gift qvinnas och minderåriges
@@ -1671,8 +1545,6 @@
             mig likväl, att det varit önskvärdt, att Högsta Domstolen blifvit
             härom hörd.
           </seg>
-        </u>
-        <u xml:id="i-HhHq1rywtaArSVU9fcPsSm" who="i-FvwiuqhHW4fmCrwxpGsft7" prev="i-G752ata26eCVJxYay5RHZi" next="i-LkwGAqS7ZbUyLjGxQaVjN5">
           <seg xml:id="i-31RXs2K6JqUMAkPgst5Ysk">
             Vidare förefaller det mig, som om det skulle varit ändamålsenligare
             att Utskottet icke under Litt. C i klämmen hade föreslagit en
@@ -1693,8 +1565,6 @@
             Kongl. Maj:t funnit anledning att derförutan framkomma med ett
             dylikt förslag.
           </seg>
-        </u>
-        <u xml:id="i-LkwGAqS7ZbUyLjGxQaVjN5" who="i-FvwiuqhHW4fmCrwxpGsft7" prev="i-HhHq1rywtaArSVU9fcPsSm">
           <seg xml:id="i-B2v6mE3JNrGViXvSy2NDdL">
             Dessa anmärkningar har jag icke velat undanhålla Kammaren. I
             fall omröstning kommer att ega rum, ämnar jag dock rösta för bifall
@@ -1734,7 +1604,7 @@
         <note xml:id="i-RQvcr3bFz1QWEGHcbWYLbL" type="date">
           Måndagen den 7 Maj, e. m, 15 N:o 39,
         </note>
-        <u xml:id="i-GMNYAhLbQ3irKxBMYpNZsP" who="i-TYTRLcvnTBCfR2iBbM2cHU" prev="i-VYptYUvxRNME5wr64ctTHm" next="i-8ug9fdALiYyU2fJgRptefo">
+        <u xml:id="i-GMNYAhLbQ3irKxBMYpNZsP" who="i-TYTRLcvnTBCfR2iBbM2cHU" prev="i-VYptYUvxRNME5wr64ctTHm" next="i-SpcT5Ra42t8g2QEQZjthiY">
           <seg xml:id="i-QceP8af5pvP8DF8HfxYs8p">
             utom det i hvarje socken finnas inrättade så kallade »sparbanks-
             Ang.inrättande komitéer» eller filialafdelningar under länets
@@ -1743,49 +1613,31 @@
             varit behöfligt, varit tillgänglig Forts.) för allmänheten för
             insättningar af dess besparingar. Derjemte är
           </seg>
-        </u>
-        <u xml:id="i-8ug9fdALiYyU2fJgRptefo" who="i-TYTRLcvnTBCfR2iBbM2cHU" prev="i-GMNYAhLbQ3irKxBMYpNZsP" next="i-MohRjYngwfiKhCiwysoTme">
           <seg xml:id="i-TGxeuf9MdfGenfVC4Mc7AR">
             jag poststationsföreståndare i samma kommun. Skulle nu en post-
           </seg>
-        </u>
-        <u xml:id="i-MohRjYngwfiKhCiwysoTme" who="i-TYTRLcvnTBCfR2iBbM2cHU" prev="i-8ug9fdALiYyU2fJgRptefo" next="i-MXPCRpfgeFF2ceoBa7Pbyq">
           <seg xml:id="i-WLGPN1iwc6bcmVaKJYgd9r">
             sparbank der komma till stånd, så får jag förklara, att det icke
           </seg>
-        </u>
-        <u xml:id="i-MXPCRpfgeFF2ceoBa7Pbyq" who="i-TYTRLcvnTBCfR2iBbM2cHU" prev="i-MohRjYngwfiKhCiwysoTme" next="i-4vQfZufDpzqCEJsmEu5XQo">
           <seg xml:id="i-5icbpPBRMyQ6tWJc4G3Jap">
             skall vara större besvär att mottaga dessa medel än att mottaga
           </seg>
-        </u>
-        <u xml:id="i-4vQfZufDpzqCEJsmEu5XQo" who="i-TYTRLcvnTBCfR2iBbM2cHU" prev="i-MXPCRpfgeFF2ceoBa7Pbyq" next="i-RXPJZA27d15pVsGjspSFZL">
           <seg xml:id="i-Um9bqjKScpTxWTxsMNMSq2">
             dem som ordförande i komitén, och den tid, som derpå uppoffras,
           </seg>
-        </u>
-        <u xml:id="i-RXPJZA27d15pVsGjspSFZL" who="i-TYTRLcvnTBCfR2iBbM2cHU" prev="i-4vQfZufDpzqCEJsmEu5XQo" next="i-7fg3ode7GoGuVB1Y9XT5Hj">
           <seg xml:id="i-AV4BiUhb9bggnRpDjR6QSd">
             är ganska ringa. Om man tänker sig, att poststationsföreståndaren
           </seg>
-        </u>
-        <u xml:id="i-7fg3ode7GoGuVB1Y9XT5Hj" who="i-TYTRLcvnTBCfR2iBbM2cHU" prev="i-RXPJZA27d15pVsGjspSFZL" next="i-4tYUF89hQvAo2eRgvkDhpu">
           <seg xml:id="i-NhnYhksb37u5cakQebD9qz">
             har sig ålagdt att expediera postanvisningar och postförskott,
             så
           </seg>
-        </u>
-        <u xml:id="i-4tYUF89hQvAo2eRgvkDhpu" who="i-TYTRLcvnTBCfR2iBbM2cHU" prev="i-7fg3ode7GoGuVB1Y9XT5Hj" next="i-7JYgxEWEGFixPEcJksqHkf">
           <seg xml:id="i-FZ8xkJenmKqYpfxZxbVnEP">
             kan jag försäkra, att expeditionen af en postsparbok icke skall
           </seg>
-        </u>
-        <u xml:id="i-7JYgxEWEGFixPEcJksqHkf" who="i-TYTRLcvnTBCfR2iBbM2cHU" prev="i-4tYUF89hQvAo2eRgvkDhpu" next="i-513yeYqLoSxzanCBAjciwo">
           <seg xml:id="i-6ASdZRTpW8UECeR4KWMamn">
             taga längre tid än en postanvisning.
           </seg>
-        </u>
-        <u xml:id="i-513yeYqLoSxzanCBAjciwo" who="i-TYTRLcvnTBCfR2iBbM2cHU" prev="i-7JYgxEWEGFixPEcJksqHkf" next="i-Jwg5rmjY8NTn5i86VrWMLt">
           <seg xml:id="i-7BJuKnV4ZMfxi9Us6F2LZ8">
             Det är min öfvertygelse, att på postanstalter, der det förekommer
             mindre insättningar af dylika medel, kan poststationsföreståndaren
@@ -1808,8 +1660,6 @@
             utbetalningarna, och på så sätt få sina penningar säkert och lätt
             placerade.
           </seg>
-        </u>
-        <u xml:id="i-Jwg5rmjY8NTn5i86VrWMLt" who="i-TYTRLcvnTBCfR2iBbM2cHU" prev="i-513yeYqLoSxzanCBAjciwo" next="i-SpcT5Ra42t8g2QEQZjthiY">
           <seg xml:id="i-H32eypBMPCSFpHPZgwBdRr">
             En talare på skånebänken vidrörde i sitt anförande ironiskt och
             skämtsamt Herr Ola Anderssons motion i fråga om anslag till understödjande
@@ -1865,7 +1715,7 @@
           detta åter att uttagas och insättas i de vanliga sparbankerna,
           hvarigenom penningarne återkomma till orterna igen.
         </note>
-        <u xml:id="i-SpcT5Ra42t8g2QEQZjthiY" who="i-TYTRLcvnTBCfR2iBbM2cHU" prev="i-Jwg5rmjY8NTn5i86VrWMLt">
+        <u xml:id="i-SpcT5Ra42t8g2QEQZjthiY" who="i-TYTRLcvnTBCfR2iBbM2cHU" prev="i-GMNYAhLbQ3irKxBMYpNZsP">
           <seg xml:id="i-HrrugsP1ifWThtJsRXZP5c">
             För min del yrkar jag bifall till Utskottets förslag.
           </seg>
@@ -1890,7 +1740,7 @@
         <note xml:id="i-Xh25R8JzoYYYs7Y8DBNGvD" type="date">
           Måndagen den 7 Maj, e. m. 17 N:o 39.
         </note>
-        <u xml:id="i-2pdkdvXx3bf5BZVdBYWnq9" who="i-7RANi7hARJ4G79kCRF1yeQ" prev="i-VyN77qjm6N8gJ7jer1nfqr" next="i-6dsj7a3AsJQNcLaR5GLMmS">
+        <u xml:id="i-2pdkdvXx3bf5BZVdBYWnq9" who="i-7RANi7hARJ4G79kCRF1yeQ" prev="i-VyN77qjm6N8gJ7jer1nfqr" next="i-P5e1JCgQfQ7XzscxFTof2U">
           <seg xml:id="i-3pdfwqC9kLn2q22m7Ewur4">
             Jag har egentligen begärt ordet med anledning af Herr Finans-
             Ang.inrättande ministerns anförande, hvilket jag med uppmärksamhet
@@ -1908,8 +1758,6 @@
             min uppfattning, moderata begäran om en utredning i bestämdt syfte
             kan betraktas såsom en framställning om afslag.
           </seg>
-        </u>
-        <u xml:id="i-6dsj7a3AsJQNcLaR5GLMmS" who="i-7RANi7hARJ4G79kCRF1yeQ" prev="i-2pdkdvXx3bf5BZVdBYWnq9" next="i-P5e1JCgQfQ7XzscxFTof2U">
           <seg xml:id="i-DRcMbjLr1CSvXnJNxEd3Tw">
             Herr Finansministern gjorde vidare en jemförelse mellan vårt
             land och andra länder i afseende å antalet sparbanker, och han
@@ -1964,13 +1812,11 @@
         <note xml:id="i-DucAAF76MD6jdrGQg4rGj3">
           sparbank. (Forts.)
         </note>
-        <u xml:id="i-P5e1JCgQfQ7XzscxFTof2U" who="i-7RANi7hARJ4G79kCRF1yeQ" prev="i-6dsj7a3AsJQNcLaR5GLMmS" next="i-RSMbb8peZpoZfxtZLympqn">
+        <u xml:id="i-P5e1JCgQfQ7XzscxFTof2U" who="i-7RANi7hARJ4G79kCRF1yeQ" prev="i-2pdkdvXx3bf5BZVdBYWnq9" next="i-UbsXeuR5aJrtUPhAEYjdrC">
           <seg xml:id="i-NddVciHFVbqm1Z27FVBew6">
             derna skulle blifva och derför varit betänklig, innan jag lemnat
             mitt bifall.
           </seg>
-        </u>
-        <u xml:id="i-RSMbb8peZpoZfxtZLympqn" who="i-7RANi7hARJ4G79kCRF1yeQ" prev="i-P5e1JCgQfQ7XzscxFTof2U" next="i-4KFfeqqYUdAd4ytmkT9m3b">
           <seg xml:id="i-BCBEcZrFjJCwH3MC48R2RD">
             Hvad Herr Borg yttrat skall jag icke nu upptaga till närmare
             bemötande. Men jag frågar: tro herrarne att denna sak kan göras
@@ -2000,8 +1846,6 @@
             som i många afseenden omklagats. Men hvem kan veta huruvida efterföljarne
             alltid skola träda i samma fotspår.
           </seg>
-        </u>
-        <u xml:id="i-4KFfeqqYUdAd4ytmkT9m3b" who="i-7RANi7hARJ4G79kCRF1yeQ" prev="i-RSMbb8peZpoZfxtZLympqn" next="i-UbsXeuR5aJrtUPhAEYjdrC">
           <seg xml:id="i-9yP1GDUtK4V6EvZ4FasGYM">
             Medan jag har ordet, ber jag att få beröra en annan sak. Här
             har talats mycket om våra arbetares slöseri och skarpa klander
@@ -2025,7 +1869,7 @@
         <note xml:id="i-8QEtu3isBQcojeWwDprgiz" type="date">
           Måndagen den 7 Maj, e. m. 19 N:o 39.
         </note>
-        <u xml:id="i-UbsXeuR5aJrtUPhAEYjdrC" who="i-7RANi7hARJ4G79kCRF1yeQ" prev="i-4KFfeqqYUdAd4ytmkT9m3b" next="i-Spsm7NX1FYA8o2ui34VTdU">
+        <u xml:id="i-UbsXeuR5aJrtUPhAEYjdrC" who="i-7RANi7hARJ4G79kCRF1yeQ" prev="i-P5e1JCgQfQ7XzscxFTof2U">
           <seg xml:id="i-3qz8cypeWWh917w4Kfoi91">
             öfver hufvud icke kan förtjena mera än 1 krona å 1 krona 50 öre
             Ang.inrättande om dagen, för bristande sparsamhet, det kan jag
@@ -2033,8 +1877,6 @@
             goda inkomster, ingalunda göra spar- = 29rbank. samheten till
             en dygd. (Ports.)
           </seg>
-        </u>
-        <u xml:id="i-Spsm7NX1FYA8o2ui34VTdU" who="i-7RANi7hARJ4G79kCRF1yeQ" prev="i-UbsXeuR5aJrtUPhAEYjdrC" next="i-6YNPazF7zFckWUs1stPMcP">
           <seg xml:id="i-Q1yZHmvwi4paSneLos7kyz">
             Jag inser att Utskottets betänkande blifver bifallet, men, såsom
             sagdt, ett varningens ord mot tillskapande af en apparat, som
@@ -2045,8 +1887,6 @@
             lägga af litet, så att icke staten behöfde pensionera deras enkor
             och barn.
           </seg>
-        </u>
-        <u xml:id="i-6YNPazF7zFckWUs1stPMcP" who="i-7RANi7hARJ4G79kCRF1yeQ" prev="i-Spsm7NX1FYA8o2ui34VTdU">
           <seg xml:id="i-M1s89HZsGbHe3hQSKt6RQw">
             Å en talares på göteborgsbänken påstående, det skuldsättning
             bidrager till rikedom, vill jag endast svara, att i så fall borde
@@ -2106,7 +1946,7 @@
         <note xml:id="i-3SktSB8SozrXVR7u3g8GB5" type="speaker">
           Herr Gustaf Jonsson:
         </note>
-        <u xml:id="i-U2HxAWMmSAmrkRxg3S9Lif" who="i-HzMWGtfoscSfE6ogsc7Bmy" next="i-JULQSUnrcEexVZ3q9mj6m2">
+        <u xml:id="i-U2HxAWMmSAmrkRxg3S9Lif" who="i-HzMWGtfoscSfE6ogsc7Bmy">
           <seg xml:id="i-UC3m3udLPrkY3PwBBioigE">
             Såsom ledamot i det sammansatta Utskottet har jag deltagit i
             behandlingen af denna fråga. Till en början var jag mycket tveksam,
@@ -2119,8 +1959,6 @@
             Med ett ord, sedan man tagit kännedom om den utredning i ämnet,
             som komiterade lemnat, fick man en annan tanke om saken.
           </seg>
-        </u>
-        <u xml:id="i-JULQSUnrcEexVZ3q9mj6m2" who="i-HzMWGtfoscSfE6ogsc7Bmy" prev="i-U2HxAWMmSAmrkRxg3S9Lif">
           <seg xml:id="i-PUce4ePYRbhhcUZHRRqZU5">
             Här har från det ena hållet påståtts, att företaget icke skulle
             bära sig i följd af den låga räntevinst, som vore att motse, och
@@ -2167,14 +2005,12 @@
         <note xml:id="i-SV2nwMDaodX4cMCKfvFC36" type="date">
           Måndagen den 7 Maj, e. m. 21
         </note>
-        <u xml:id="i-Fn9bTt8d5QfTsUPtH5KDom" who="i-5GqnTURvMSP3hjBB327kuL" prev="i-4tXBiqvKmV8avvwBB38fhK" next="i-SfXa6raUxAGH4EXud8zpY7">
+        <u xml:id="i-Fn9bTt8d5QfTsUPtH5KDom" who="i-5GqnTURvMSP3hjBB327kuL" prev="i-4tXBiqvKmV8avvwBB38fhK" next="i-5yMeqGyTAR82HQYKkgPMtC">
           <seg xml:id="i-N1qcJWvmzGZ43PsDeTTa6e">
             då han kunde få 5—06 procent på sina penningar? Ännu mindre kunna
             de, som hafva större behof af sparsamhet än han, vara nöjde med
             denna lägre ränta.
           </seg>
-        </u>
-        <u xml:id="i-SfXa6raUxAGH4EXud8zpY7" who="i-5GqnTURvMSP3hjBB327kuL" prev="i-Fn9bTt8d5QfTsUPtH5KDom" next="i-5yMeqGyTAR82HQYKkgPMtC">
           <seg xml:id="i-GXVKKxhBzD3GKPUhqr3QTA">
             Jag skulle likväl icke nu hafva begärt ordet, om jag icke ansåge
             mig dertill uppkallad af min länskamrat Herr Hellgrén, hvars yttrande
@@ -2244,7 +2080,7 @@
         <note xml:id="i-EJAfBGv2kLUizYgFHVnJ9T">
           sparbank. (Forts.)
         </note>
-        <u xml:id="i-5yMeqGyTAR82HQYKkgPMtC" who="i-5GqnTURvMSP3hjBB327kuL" prev="i-SfXa6raUxAGH4EXud8zpY7" next="i-BvSt45n2Uj8p28uVsBTK2z">
+        <u xml:id="i-5yMeqGyTAR82HQYKkgPMtC" who="i-5GqnTURvMSP3hjBB327kuL" prev="i-Fn9bTt8d5QfTsUPtH5KDom">
           <seg xml:id="i-TUnsq4KrmzjuiKYXNiUiha">
             nöjd med de sparbanker, som redan finnas. Jag tviflar således
             på, att arbetarne skola hafva några sparpenningar öfver att sätta
@@ -2253,8 +2089,6 @@
             dessa modifikationer äro af den beskaffenhet, att jag tviflar
             på, att Kongl. Maj:t kan gå in på dem.
           </seg>
-        </u>
-        <u xml:id="i-BvSt45n2Uj8p28uVsBTK2z" who="i-5GqnTURvMSP3hjBB327kuL" prev="i-5yMeqGyTAR82HQYKkgPMtC" next="i-DspvyG285mgu6gVFyo1iKG">
           <seg xml:id="i-WwoiRYBbevciWVm5FqhTMp">
             Om herrarne se på skatteregleringskomiténs förslag, så finnen
             I, att de skatter, som förut drabbat förmögenheten, fastän äfven
@@ -2266,8 +2100,6 @@
             och dem, som äro ännu fattigare än den jordbrukande befolkningen,
             och då tror jag nog, att de sparbanker vi redan ega, äro tillräckliga.
           </seg>
-        </u>
-        <u xml:id="i-DspvyG285mgu6gVFyo1iKG" who="i-5GqnTURvMSP3hjBB327kuL" prev="i-BvSt45n2Uj8p28uVsBTK2z">
           <seg xml:id="i-7kRCqf24QgSKHbBrJLdmPr">
             Till dess denna stora fråga blifvit afgjord kan postsparbanksfrågan
             gerna hvila, och då kunna vi också erhålla närmare utredning om
@@ -2295,18 +2127,14 @@
         <note xml:id="i-XtS14emgdZKM3yHjRZj5ue" type="speaker">
           Herr Olof Jonsson:
         </note>
-        <u xml:id="i-QHn9XeCGSU76uhTffYxcjD" who="i-WFAgacpHQWjHhsNNuUmKTE" next="i-12ZK3eoQDyjnAV4Ne1K78b">
+        <u xml:id="i-QHn9XeCGSU76uhTffYxcjD" who="i-WFAgacpHQWjHhsNNuUmKTE" next="i-CRN9PKauSDxEzVrpUdxU9t">
           <seg xml:id="i-9wsHcANkDaj6adfx5ms5ua">
             Då Herr Heggström behagat ingå i saker i denna fråga, som icke
             höra hit, så tror jag att han bör hafva
           </seg>
-        </u>
-        <u xml:id="i-12ZK3eoQDyjnAV4Ne1K78b" who="i-WFAgacpHQWjHhsNNuUmKTE" prev="i-QHn9XeCGSU76uhTffYxcjD" next="i-VeNPLywZJqVJ84q2Wneqii">
           <seg xml:id="i-8py8LFrQGUfb9BR5BnWH16">
             ett svar på den saken. Tror Herr Heggström, att, om de Kongl.
           </seg>
-        </u>
-        <u xml:id="i-VeNPLywZJqVJ84q2Wneqii" who="i-WFAgacpHQWjHhsNNuUmKTE" prev="i-12ZK3eoQDyjnAV4Ne1K78b" next="i-Dsiecn7MrvzqZ13vpGNzvG">
           <seg xml:id="i-VbAC2xY9J1TqeEcQpPvpMe">
             förslagen om grundskatterna och en ny härordning gå igenom, all
             flottning och all timmerdrifning i Norrland skall upphöra? Tror
@@ -2314,14 +2142,10 @@
             varda en verklighet, arbetarne derigenom skulle undandragas all
             förtjenst? Det torde vara idéer, som han kunnat spara med, åtmin-
           </seg>
-        </u>
-        <u xml:id="i-Dsiecn7MrvzqZ13vpGNzvG" who="i-WFAgacpHQWjHhsNNuUmKTE" prev="i-VeNPLywZJqVJ84q2Wneqii" next="i-W4Sn9xS1mahfEf82dPXLzs">
           <seg xml:id="i-LHCtbvCE5Bd8wKjh6Jjqfv">
             stone har det förefallit mig underligt, att Herr Hzeggström,
             som är
           </seg>
-        </u>
-        <u xml:id="i-W4Sn9xS1mahfEf82dPXLzs" who="i-WFAgacpHQWjHhsNNuUmKTE" prev="i-Dsiecn7MrvzqZ13vpGNzvG" next="i-CRN9PKauSDxEzVrpUdxU9t">
           <seg xml:id="i-7gz6ksvHLignCjg7X4qPZr">
             norrländing och känner till, att tusentals arbetare tidtals besöka
             Norrland, icke kan inse, att postsparbankerna äro de enda inrättningar,
@@ -2334,7 +2158,7 @@
         <note xml:id="i-C4KEv2zvXuU59JA2g5Dt81" type="date">
           Måndagen den 7 Maj, e. m. 23 N:o 39,
         </note>
-        <u xml:id="i-CRN9PKauSDxEzVrpUdxU9t" who="i-WFAgacpHQWjHhsNNuUmKTE" prev="i-W4Sn9xS1mahfEf82dPXLzs">
+        <u xml:id="i-CRN9PKauSDxEzVrpUdxU9t" who="i-WFAgacpHQWjHhsNNuUmKTE" prev="i-QHn9XeCGSU76uhTffYxcjD">
           <seg xml:id="i-HkWvzF3x8PiZUj9WhidT8f">
             nader. Nu kan man säga: har han den arten att spara, så kan Ang.inrättande
             han skicka penningar hem, och då äro de skyddade; men jag frågar
@@ -2358,13 +2182,11 @@
         <note xml:id="i-5FuVN5tCidJPEzgSgu4gWe" type="speaker">
           Herr J. Andersson i Jönvik:
         </note>
-        <u xml:id="i-XgU88xoVG59TGwAx18iqSS" who="i-KNV1hybYvNRYW3UQKiyrP8" next="i-DULbCYKPpBEbHBQ3AAZ35V">
+        <u xml:id="i-XgU88xoVG59TGwAx18iqSS" who="i-KNV1hybYvNRYW3UQKiyrP8">
           <seg xml:id="i-MRU1VrkKSUZChwdWtMSCEn">
             Jag skall inskränka mig till att helt enkelt yrka afslag på Utskottets
             betänkande och bifall till reservationen.
           </seg>
-        </u>
-        <u xml:id="i-DULbCYKPpBEbHBQ3AAZ35V" who="i-KNV1hybYvNRYW3UQKiyrP8" prev="i-XgU88xoVG59TGwAx18iqSS" next="i-VTSdnadq8Ph95Yh34bXJCn">
           <seg xml:id="i-MZueeD47uWUdVhywbkaBoW">
             Jag vill blott tillägga att, då kostnaderna för postsparbanken
             beräknas till 100,000 kronor, så betviflar jag att de komma att
@@ -2377,8 +2199,6 @@
             inrättning icke stanna vid 100,000 kronor, utan gå upp till 170,000
             eller 200,000 kronor.
           </seg>
-        </u>
-        <u xml:id="i-VTSdnadq8Ph95Yh34bXJCn" who="i-KNV1hybYvNRYW3UQKiyrP8" prev="i-DULbCYKPpBEbHBQ3AAZ35V">
           <seg xml:id="i-Fidr5MYrLd66L8CsTXgtSL">
             Jag vill nu icke vidare ingå i bemötande af betänkandet; jag
             har endast velat yttra dessa ord för att få min mening till protokollet
@@ -2488,7 +2308,7 @@
           . vanliga sparbankerna ligger just deri, att den dels mångfaldigar
           in- 4ng.inrättande
         </note>
-        <u xml:id="i-29UPtcmHf8Cy99TpN97rSm" who="i-6ETHRvdQXy7JyB6UH2jtzU" prev="i-EfcAeSdPzP66EU1P8SDjs7" next="i-6oTX1fusLj3b4WjXmJ9WEL">
+        <u xml:id="i-29UPtcmHf8Cy99TpN97rSm" who="i-6ETHRvdQXy7JyB6UH2jtzU" prev="i-EfcAeSdPzP66EU1P8SDjs7" next="i-7XeLkqdkSh9sxec9Pu3Ghb">
           <seg xml:id="i-7bB812Mu5SKhtmnH67Sf7B">
             sättningsställena och dels att den mottager små belopp, som de
             ef en post andra icke kunna göra, och denna fördel förmeras ännu
@@ -2524,8 +2344,6 @@
             icke alldeles så som man af den ärade talarens uppgift skulle
             kunnat antaga.
           </seg>
-        </u>
-        <u xml:id="i-6oTX1fusLj3b4WjXmJ9WEL" who="i-6ETHRvdQXy7JyB6UH2jtzU" prev="i-29UPtcmHf8Cy99TpN97rSm" next="i-7XeLkqdkSh9sxec9Pu3Ghb">
           <seg xml:id="i-CgivpCTF3PqEuYJbPi1zVj">
             Vidare hafva de invändningar, som gjorts emot förslaget, stält
             sig på två olika linier. Sålunda har man å ena sidan sagt, att
@@ -2557,7 +2375,7 @@
         <note xml:id="i-MzEsht3Lbr3MUNiZzcQfGv">
           af en postsparbank. (Forts.)
         </note>
-        <u xml:id="i-7XeLkqdkSh9sxec9Pu3Ghb" who="i-6ETHRvdQXy7JyB6UH2jtzU" prev="i-6oTX1fusLj3b4WjXmJ9WEL" next="i-PHxo2HVyBFAkuy2FBJNbRH">
+        <u xml:id="i-7XeLkqdkSh9sxec9Pu3Ghb" who="i-6ETHRvdQXy7JyB6UH2jtzU" prev="i-29UPtcmHf8Cy99TpN97rSm" next="i-ASqThYsbyYuCExG16rPoHB">
           <seg xml:id="i-C2UbGaTwHKsLSfgCYr1quH">
             kunde lemna lägre ränta. Tvärt om är det väl alldeles uppenbart,
             att när någon samlat sig ett litet belopp på sin postsparbanksbok,
@@ -2582,8 +2400,6 @@
             skola på det mest kraftfulla sätt understödja hvarandras verksamhet.
             .
           </seg>
-        </u>
-        <u xml:id="i-PHxo2HVyBFAkuy2FBJNbRH" who="i-6ETHRvdQXy7JyB6UH2jtzU" prev="i-7XeLkqdkSh9sxec9Pu3Ghb" next="i-7YyKmrNfAtujWk5N555jyF">
           <seg xml:id="i-UXdGYCyhkNJLZK9jYf9Y2g">
             Den andra sidans invändning, som står i fullkomlig motsats till
             den förra, var att i postsparbankerna icke komme att göras några
@@ -2600,8 +2416,6 @@
             af postsparbanken sjelf och för staten blir ingen. Detta är så
             logiskt rigtigt, att ingen kan vederlägga det.
           </seg>
-        </u>
-        <u xml:id="i-7YyKmrNfAtujWk5N555jyF" who="i-6ETHRvdQXy7JyB6UH2jtzU" prev="i-PHxo2HVyBFAkuy2FBJNbRH" next="i-LtorYpyLGkogHGhqyKZNDK">
           <seg xml:id="i-VNWiF8TAsFw2rpPtdWr5EH">
             Hvad som nu föreligger rörande kostnaderna för den nya institutionen,
             afser, såsom Herr Finansministern redan påpekat, endast organisationskostnaden,
@@ -2613,8 +2427,6 @@
             är ett så litet belopp för en så stor sak, att i och för det ingen
             bör rygga tillbaka.
           </seg>
-        </u>
-        <u xml:id="i-LtorYpyLGkogHGhqyKZNDK" who="i-6ETHRvdQXy7JyB6UH2jtzU" prev="i-7YyKmrNfAtujWk5N555jyF" next="i-ASqThYsbyYuCExG16rPoHB">
           <seg xml:id="i-CEfmC5drePk6fWuy8rEfub">
             Jag har redan förut antydt, att de invändningar, som här
           </seg>
@@ -2623,7 +2435,7 @@
         <note xml:id="i-MpPgXZ4JGozAQot6gwFrmH" type="date">
           Måndagen den 7 Maj, e. m. 27 N:o 39.
         </note>
-        <u xml:id="i-ASqThYsbyYuCExG16rPoHB" who="i-6ETHRvdQXy7JyB6UH2jtzU" prev="i-LtorYpyLGkogHGhqyKZNDK">
+        <u xml:id="i-ASqThYsbyYuCExG16rPoHB" who="i-6ETHRvdQXy7JyB6UH2jtzU" prev="i-7XeLkqdkSh9sxec9Pu3Ghb">
           <seg xml:id="i-T4rjpVCHTuHQ8q6W1HNh3c">
             blifvit gjorda mot förslaget, stå i full strid med hvarandra.
             'Än Ang.inrättande säger man att det blir för stora och än att
@@ -2656,15 +2468,13 @@
         <note xml:id="i-Qc1GZTDRBy7G5QcvJLwyLZ" type="speaker">
           Herr Jöns Rundbäck:
         </note>
-        <u xml:id="i-KfwterA6Vrj5PQ2djay9X6" who="i-3ePoSaapEuMxyrxRtcXnE2" next="i-PCsHAV3VTdTwnxsKobL4vf">
+        <u xml:id="i-KfwterA6Vrj5PQ2djay9X6" who="i-3ePoSaapEuMxyrxRtcXnE2" next="i-UqWy5hHMUAy7rJjRRCr4cq">
           <seg xml:id="i-XuJd2jSUjhS4P59Uu91W4N">
             Då Hans Excellens Herr Statsministern behagat fästa särskild
             uppmärksamhet vid mitt uttalande i denna fråga och min ringa person,
             så hoppas jag Kammaren ursäktar, att jag ånyo för några ögonblick
             upptager Kammarens tid.
           </seg>
-        </u>
-        <u xml:id="i-PCsHAV3VTdTwnxsKobL4vf" who="i-3ePoSaapEuMxyrxRtcXnE2" prev="i-KfwterA6Vrj5PQ2djay9X6" next="i-UqWy5hHMUAy7rJjRRCr4cq">
           <seg xml:id="i-NjZvTmxuRRyakcinDMLaPm">
             Hans Excellens yttrade, att en talare, som yttrat sig i denna
             fråga, påstått, att uti ett län funnos sparbanker uti alla kommuner,
@@ -2699,12 +2509,10 @@
         <note xml:id="i-Cp5xKQc9pnDb9xPg1jr5e6">
           af en postsparbank. (Forts.)
         </note>
-        <u xml:id="i-UqWy5hHMUAy7rJjRRCr4cq" who="i-3ePoSaapEuMxyrxRtcXnE2" prev="i-PCsHAV3VTdTwnxsKobL4vf" next="i-9M6Ce9CQxAN7SUmNkKMeDE">
+        <u xml:id="i-UqWy5hHMUAy7rJjRRCr4cq" who="i-3ePoSaapEuMxyrxRtcXnE2" prev="i-KfwterA6Vrj5PQ2djay9X6">
           <seg xml:id="i-8TQgzUQjPmZbnscxsRKaii">
             jag sagt.
           </seg>
-        </u>
-        <u xml:id="i-9M6Ce9CQxAN7SUmNkKMeDE" who="i-3ePoSaapEuMxyrxRtcXnE2" prev="i-UqWy5hHMUAy7rJjRRCr4cq" next="i-QCixfwNEMgpzyKu4X4Gt3Q">
           <seg xml:id="i-Lzd9GFN8HU3EiZabtgQw51">
             Jag har hört att en talare, medan jag var frånvarande, yttrat
             att jag för 17 år sedan i denna fråga uttalat en annan åsigt än
@@ -2716,8 +2524,6 @@
             skall så förblifva, oberoende af om postsparbanken kommer till
             stånd eller icke.
           </seg>
-        </u>
-        <u xml:id="i-QCixfwNEMgpzyKu4X4Gt3Q" who="i-3ePoSaapEuMxyrxRtcXnE2" prev="i-9M6Ce9CQxAN7SUmNkKMeDE">
           <seg xml:id="i-VHESBocabgMLj1Gn79Ufz7">
             Herr Key har sagt, att jag affallit från landtmannapartiet. Herr
             Key! Jag har icke affallit från landtmannapartiet, men jag har
@@ -2757,12 +2563,10 @@
           Mom. 3. På en och samma motbok godtgöres icke ränta för högre
           belopp än 1,000 kronor.»
         </note>
-        <u xml:id="i-GyLG9JivXh7qktre6s5UKK" who="unknown" next="i-39sAJX3iWs9Bxip9dA28Gw">
+        <u xml:id="i-GyLG9JivXh7qktre6s5UKK" who="unknown">
           <seg xml:id="i-7PreBjePqMriGpEz4sErEd">
             I Kongl. Maj:ts förslag lydde mom. 3 af denna 8 sålunda: »På
           </seg>
-        </u>
-        <u xml:id="i-39sAJX3iWs9Bxip9dA28Gw" who="unknown" prev="i-GyLG9JivXh7qktre6s5UKK">
           <seg xml:id="i-AahTuH252bimeYYsMB1b4">
             en och samma motbok godtgöres icke ränta för högre belopp än
             2,000 kronor.»
@@ -2786,7 +2590,7 @@
         <note xml:id="i-HGTjS81JLmWgtegKaAf61B" type="date">
           Måndagen den 7 Maj, e. m. 29 N:o 39.
         </note>
-        <u xml:id="i-AEwkvJvna5etT9CdB5Fy6w" who="i-Tb3QUhGvYi4j7F3VwMLWH7" prev="i-FeHkrF3qBKVoZoERMYYHCd" next="i-46BvJbbm3Bn897ndgfrePG">
+        <u xml:id="i-AEwkvJvna5etT9CdB5Fy6w" who="i-Tb3QUhGvYi4j7F3VwMLWH7" prev="i-FeHkrF3qBKVoZoERMYYHCd">
           <seg xml:id="i-KqrmKQby25BqNxhuCh3kjL">
             men under den diskussion inom Utskottet, som föregick den första
             4ng.inrättande voteringen 1 ämnet derstädes, tillät jag mig uttala
@@ -2794,8 +2598,6 @@
             eller annan punkt i det fram- = "297bank. lagda förslaget skulle
             komma att ändras. (Forts.)
           </seg>
-        </u>
-        <u xml:id="i-46BvJbbm3Bn897ndgfrePG" who="i-Tb3QUhGvYi4j7F3VwMLWH7" prev="i-AEwkvJvna5etT9CdB5Fy6w" next="i-QvJ2PJb1ywGMV1x4Ztj8jv">
           <seg xml:id="i-GxBkLy8zAbffv9AFrKeQhQ">
             Ändringar i förslaget, sådant det af Kongl. Maj:t framlagts,
             hafva ock skett; men de ändringar, som af Utskottet deri vidtagits,
@@ -2832,8 +2634,6 @@
             af detta belopp, hvarigenom, enligt min mening, möjligheten för
             postsparbanken att kunna hära sig skulle snart sagdt tillintetgöras.
           </seg>
-        </u>
-        <u xml:id="i-QvJ2PJb1ywGMV1x4Ztj8jv" who="i-Tb3QUhGvYi4j7F3VwMLWH7" prev="i-46BvJbbm3Bn897ndgfrePG">
           <seg xml:id="i-SWaEaHFzo2Kg8rTDxKi8x4">
             Jag tillåter mig för den skull hos Herr Talmannen anhålla om
             pr oposition på det yrkandet, att det af Utskottet i paragrafens
@@ -2867,7 +2667,7 @@
         <note xml:id="i-8gJXhwjhYRETrM6CHhYf9r">
           af en postsparbank. (Forts.)
         </note>
-        <u xml:id="i-YJyT958HwtqWFy1k6tq4Ex" who="i-BqxiGcrvRSyw7vSVD9ghzT" prev="i-Lt4cBFv3iAmuBZippFTrBB" next="i-42eZNesArNSeqFvuh8LM4X">
+        <u xml:id="i-YJyT958HwtqWFy1k6tq4Ex" who="i-BqxiGcrvRSyw7vSVD9ghzT" prev="i-Lt4cBFv3iAmuBZippFTrBB" next="i-9Ai4BfGWxBnL5U3vaRNU7n">
           <seg xml:id="i-RqukHXWHFyUr93B51ko41U">
             af den anledning, att postsparbanken ansågs komma att inkräkta
             på de enskilda sparbankernas område; och Utskottet ansåg sig i
@@ -2889,8 +2689,6 @@
             är det naturligtvis ännu mindre skäl för någon att låta något
             belopp derutöfver innestå.
           </seg>
-        </u>
-        <u xml:id="i-42eZNesArNSeqFvuh8LM4X" who="i-BqxiGcrvRSyw7vSVD9ghzT" prev="i-YJyT958HwtqWFy1k6tq4Ex" next="i-CCh2PK5YLE41cGdfY41BWa">
           <seg xml:id="i-TVcSh5tR5PRBeo1ZGxnMHH">
             Vid bestämmandet af ifrågavarande belopp till 1,000 kronor hade
             Utskottet dessutom haft ledning af en annan omständighet, nemligen
@@ -2898,20 +2696,14 @@
             beloppet, som på bok får i postsparbank i nedannämnda länder insättas,
             utgör enligt uppgift som lemnades i Utskottet:
           </seg>
-        </u>
-        <u xml:id="i-CCh2PK5YLE41cGdfY41BWa" who="i-BqxiGcrvRSyw7vSVD9ghzT" prev="i-42eZNesArNSeqFvuh8LM4X" next="i-JQsi1Bzoer8VZdmt6qqbRN">
           <seg xml:id="i-NmbBHjpXH6my3epgaReqw2">
             1 Frankrike 2,000 francs, motsvarande 1,440 kronor,
           </seg>
-        </u>
-        <u xml:id="i-JQsi1Bzoer8VZdmt6qqbRN" who="i-BqxiGcrvRSyw7vSVD9ghzT" prev="i-CCh2PK5YLE41cGdfY41BWa" next="i-VKqot8zAxJLtifhimpi6pj">
           <seg xml:id="i-LwU8uVfsBvWXguiu9CZijW">
             i Italien 2,000 lire, » 1,440 =» i Holland 800 gulden, &gt; 1,200
             » i England 300 £ St., D 5,400 » i Österrike 1,000 gulden, » 1.500
             =» och i Belgien — 5,000 franes, » 3,600 »
           </seg>
-        </u>
-        <u xml:id="i-VKqot8zAxJLtifhimpi6pj" who="i-BqxiGcrvRSyw7vSVD9ghzT" prev="i-JQsi1Bzoer8VZdmt6qqbRN" next="i-9Ai4BfGWxBnL5U3vaRNU7n">
           <seg xml:id="i-ChhCaaUg62JAfVeEQ7ceZX">
             i hvilket sistnämnda land beloppet dock under vissa förhållanden
             kan höjas; och i Norge, der regeringen i Stortinget väckt förslag
@@ -2934,7 +2726,7 @@
         <note xml:id="i-9JoCJVx7BQMBhxdM6mYsyL" type="date">
           Måndagen den 7 Maj, e. m. 31 N:o 39.
         </note>
-        <u xml:id="i-9Ai4BfGWxBnL5U3vaRNU7n" who="i-BqxiGcrvRSyw7vSVD9ghzT" prev="i-VKqot8zAxJLtifhimpi6pj">
+        <u xml:id="i-9Ai4BfGWxBnL5U3vaRNU7n" who="i-BqxiGcrvRSyw7vSVD9ghzT" prev="i-YJyT958HwtqWFy1k6tq4Ex">
           <seg xml:id="i-6wBkyxAbxgHY2jarDHqVUw">
             Kongl. Maj:ts förslag. Jag anhåller emellertid för min del om
             bi- 4ng.inrättande fall till Utskottets förslag. af en post-
@@ -3027,7 +2819,7 @@
         <note xml:id="i-M3NnQPkxNJT1uweY5Bq1wg" type="speaker">
           Herr Ekenman:
         </note>
-        <u xml:id="i-WuRvjPj2i57H61Yk5FH9xL" who="i-XTQdTTGwiQ9iKGjbQTfGYs" next="i-WE3TJqDbzifJ6ENJKZAYFs">
+        <u xml:id="i-WuRvjPj2i57H61Yk5FH9xL" who="i-XTQdTTGwiQ9iKGjbQTfGYs">
           <seg xml:id="i-At1ZTZqrFnvgigYQKaVPsb">
             Saken har verkligen icke så stora dimensioner, som den siste
             talaren tyckes mena. Ty om också räntefoten icke är i lagen bestämd,
@@ -3054,8 +2846,6 @@
             lagen bestämda förhållanden oafvisligen följer att räntefoten
             måste bestämmas vida lägre än sparbankernas.
           </seg>
-        </u>
-        <u xml:id="i-WE3TJqDbzifJ6ENJKZAYFs" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-WuRvjPj2i57H61Yk5FH9xL" next="i-And6Z1uPdPdDW5Jf6gSY1d">
           <seg xml:id="i-XyUj2AVbwXqWUPk3XGY3mP">
             Det är nu visserligen sant, att i åtskilliga länder räntefoten
             är bestämd genom lag, men det finnes också andra länder, der så
@@ -3063,8 +2853,6 @@
             af finansministern för hvarje år, hvilket der befunnits vara ett
             ganska lämpligt sätt.
           </seg>
-        </u>
-        <u xml:id="i-And6Z1uPdPdDW5Jf6gSY1d" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-WE3TJqDbzifJ6ENJKZAYFs">
           <seg xml:id="i-SNAFmG5mLzzNsdUXRwbBqg">
             På grund af hvad jag anfört, och då jag icke kan inse de vådor,
             som den siste talaren befarade, får jag yrka bifall till den föredragna
@@ -3113,12 +2901,10 @@
           skall, jemte kapitalet, äfven upplupen ränta utbetalas, dervid
           motboken till postanstalten återställes.»
         </note>
-        <u xml:id="i-LdvhH8rMHdzFM6vJCBaNwd" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-L12TNkcVU552skLrovpihr" next="i-W73NCVeZoT2sacrJazDwvH">
+        <u xml:id="i-LdvhH8rMHdzFM6vJCBaNwd" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-L12TNkcVU552skLrovpihr">
           <seg xml:id="i-H1Nz6bsvfRoCzf8A2j19JF">
             Det åberopade stadgandet i 8 2 mom. 3 var så lydande:
           </seg>
-        </u>
-        <u xml:id="i-W73NCVeZoT2sacrJazDwvH" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-LdvhH8rMHdzFM6vJCBaNwd">
           <seg xml:id="i-BmwEPDUjk9MGjBKas5S4cJ">
             »Mom. 3. Första gången insättning verkställes, skall uppgift
             lemnas om namn, födelseår, månad och dag, hemvist och, der sådant
@@ -3192,7 +2978,7 @@
         <note xml:id="i-PmXaJVdRJVLHnPX9j2CNZh">
           af en postsparbank. i (Forts.)
         </note>
-        <u xml:id="i-KTcaFy2JnsD9LFEynaeCdn" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-FSnjMA99MyJDz4YNzKG9px" next="i-YDcKv2Vjjn8j6AyGVeBfCE">
+        <u xml:id="i-KTcaFy2JnsD9LFEynaeCdn" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-FSnjMA99MyJDz4YNzKG9px">
           <seg xml:id="i-X52erHh3pFfNUphMNGQucq">
             innehafvare anmäler sig i en postanstalt för att utfå sitt insatta
             belopp eller en del deraf, behöfver han endast uppgifva namn,
@@ -3220,14 +3006,10 @@
             som skall handhafva postsparbankens angelägenheter, bör hafva
             sig angeläget att tillse, att
           </seg>
-        </u>
-        <u xml:id="i-YDcKv2Vjjn8j6AyGVeBfCE" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-KTcaFy2JnsD9LFEynaeCdn" next="i-CHjwgXjaa9YQ61y2ZHrxh3">
           <seg xml:id="i-MiUFSWE9LCaQymXTCgmtSE">
             medlen uttagas af rätter man och ej af obehörig person, och att
             post-
           </seg>
-        </u>
-        <u xml:id="i-CHjwgXjaa9YQ61y2ZHrxh3" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-YDcKv2Vjjn8j6AyGVeBfCE" next="i-UUoegY3yHF7VND6T4Lm9kc">
           <seg xml:id="i-PvZn2jiJvoDuX7wWmrp5BG">
             sparbanken och staten i ifrågavarande fall icke göra några större
             eller mindre förluster. Man vet, hur svårt det mången gång är
@@ -3240,8 +3022,6 @@
             då det är fråga om att lyfta sparbanksmedel, som kunna gå till
             tusentals kronor.
           </seg>
-        </u>
-        <u xml:id="i-UUoegY3yHF7VND6T4Lm9kc" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-CHjwgXjaa9YQ61y2ZHrxh3">
           <seg xml:id="i-PueRfeAC7kN22UqHeiuaDu">
             På dessa skäl ber jag att få yrka bifall till den af Herr Nordenfelt
             föreslagna ändringen af 10 $ 1 mom. och äfven 2 mom., som endast
@@ -3251,7 +3031,7 @@
         <note xml:id="i-KhajVKykhG5Jrj9Ta5WGrT" type="speaker">
           Herr Ekenman:
         </note>
-        <u xml:id="i-LpeF5fnLfm9uaL79ny6rQN" who="i-XTQdTTGwiQ9iKGjbQTfGYs" next="i-3QgsHmYHwbnpumjDGdERNH">
+        <u xml:id="i-LpeF5fnLfm9uaL79ny6rQN" who="i-XTQdTTGwiQ9iKGjbQTfGYs" next="i-LckwKHBR4HJFueimiHfUJW">
           <seg xml:id="i-A6YGWpqcYRWBMFrrYJaTfx">
             Jag har så mycket mindre anledning att uttrycka någon förvåning
             öfver hvad den siste talaren anförde, som jag sjelf delat de betänkligheter,
@@ -3261,8 +3041,6 @@
             att få ut sina insatta medel, utan att en annan genom vilseledande
             uppgifter skulle kunna bemäktiga
           </seg>
-        </u>
-        <u xml:id="i-3QgsHmYHwbnpumjDGdERNH" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-LpeF5fnLfm9uaL79ny6rQN" next="i-LckwKHBR4HJFueimiHfUJW">
           <seg xml:id="i-WDZNPKkN8kTNcgZbvxTg3f">
             sig dem. Jag framstälde också mom Utskottet ett förslag till
             annan
@@ -3272,7 +3050,7 @@
         <note xml:id="i-VuJdLhrkciTnktvRKzJ2RU" type="date">
           Måndagen den 7 Maj, e. m. 35 N:o 39.
         </note>
-        <u xml:id="i-LckwKHBR4HJFueimiHfUJW" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-3QgsHmYHwbnpumjDGdERNH" next="i-6nxaJqoZDs2otgxeiDenJ7">
+        <u xml:id="i-LckwKHBR4HJFueimiHfUJW" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-LpeF5fnLfm9uaL79ny6rQN">
           <seg xml:id="i-TMofqcQGNh95CC2KZCa8Nk">
             redaktion af denna paragraf, hvilket dock icke vann bifall. Herr
             Ang.inrättonde Nordenfelts förslag kan jag för min del icke biträda,
@@ -3291,8 +3069,6 @@
             och lämpligt än på hvad som på papperet synes vara mer eller mindre
             tillfredsställande, låter jag min tvekan fara.
           </seg>
-        </u>
-        <u xml:id="i-6nxaJqoZDs2otgxeiDenJ7" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-LckwKHBR4HJFueimiHfUJW">
           <seg xml:id="i-QDXgiCB6HaJgaUbVfG8hQh">
             Med anledning häraf och då jag således icke tror, att det kan
             vara skäl att för denna paragrat återremittera förslaget i och
@@ -3360,7 +3136,7 @@
         <note xml:id="i-WS3rP8cM7rveDE7arYVimm">
           af en postsparbank. (Forts.)
         </note>
-        <u xml:id="i-PQo6pFLYQYZ15QWzK6yb4A" who="i-Av5iFLEVV3RMNr1v9Tf4z8" prev="i-55doqK55S3DKnUQBZ9W4WX" next="i-HSLGQWRpa6BQ5ijm9iSTTC">
+        <u xml:id="i-PQo6pFLYQYZ15QWzK6yb4A" who="i-Av5iFLEVV3RMNr1v9Tf4z8" prev="i-55doqK55S3DKnUQBZ9W4WX">
           <seg xml:id="i-R9pfgwbhdHrG1LyXpG1Xqa">
             Jag delar visserligen i viss mån Friherre Stackelbergs åsigter
             i denna fråga och anser den af honom påyrkade reformen vara mycket
@@ -3370,8 +3146,6 @@
             och det är således ett stadgande af civillags natur, rörandet
             hvilket skall lagstiftas på det sätt, som för civillag är föreskrifvet.
           </seg>
-        </u>
-        <u xml:id="i-HSLGQWRpa6BQ5ijm9iSTTC" who="i-Av5iFLEVV3RMNr1v9Tf4z8" prev="i-PQo6pFLYQYZ15QWzK6yb4A">
           <seg xml:id="i-UdViSoVLdA8kqkV1ZFhm77">
             Nu inser jag allt för väl, att ett yrkande på återremiss under
             nuvarande förhållanden skulle tjena till ingenting, men å andra
@@ -3414,14 +3188,12 @@
         <note xml:id="i-U6cbPvHgWyMtetw6EQHXve" type="speaker">
           Herr Ekenman:
         </note>
-        <u xml:id="i-DVjw366rt7XKhconpCbdur" who="i-XTQdTTGwiQ9iKGjbQTfGYs" next="i-TD2in24ihXbzCVfXvdinXp">
+        <u xml:id="i-DVjw366rt7XKhconpCbdur" who="i-XTQdTTGwiQ9iKGjbQTfGYs" next="i-KgTUdSyBAxnKcDLGDN4qQY">
           <seg xml:id="i-ExoDb9GHZebCEQzJpHATbw">
             Den förste ärade talaren var något mera sträng mot den gifta
             qvinnan än mot den minderåriga, ty mot paragrafens andra moment
             hade han ingen anmärkning att framställa.
           </seg>
-        </u>
-        <u xml:id="i-TD2in24ihXbzCVfXvdinXp" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-DVjw366rt7XKhconpCbdur" next="i-KgTUdSyBAxnKcDLGDN4qQY">
           <seg xml:id="i-5CVcACUGARMMUJf2zd34Em">
             Jag ber emellertid, med anledning af hans yttrande, att få fästa
             hans och Kammarens i öfrigt uppmärksamhet på, att här icke är
@@ -3443,7 +3215,7 @@
         <note xml:id="i-TmQJqpkkHzQ9dyjtigzj6t" type="date">
           Måndagen den 7 Maj, e. m. 37 N:o 39.
         </note>
-        <u xml:id="i-KgTUdSyBAxnKcDLGDN4qQY" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-TD2in24ihXbzCVfXvdinXp">
+        <u xml:id="i-KgTUdSyBAxnKcDLGDN4qQY" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-DVjw366rt7XKhconpCbdur">
           <seg xml:id="i-Y9VqL6pdbmAD5iKBxq9E9T">
             ringsställe som i postsparbanken för de medel, som hon sjelf
             för- Ang.inrättande värfvat eller eljest äro hennes. aj en. postsparbank.
@@ -3452,33 +3224,23 @@
         <note xml:id="i-8S4WAs3smMTeKtNnd5seAi" type="speaker">
           Herr von der Lancken:
         </note>
-        <u xml:id="i-LBrBwKD8KAnQQw25ZvcKi3" who="i-Av5iFLEVV3RMNr1v9Tf4z8" next="i-6uPA2cwZhWHFVDJUzLeaYH">
+        <u xml:id="i-LBrBwKD8KAnQQw25ZvcKi3" who="i-Av5iFLEVV3RMNr1v9Tf4z8">
           <seg xml:id="i-S4zm2ybDbrBjxCU6oBafxo">
             Jag har icke blifvit öfvertygad af (Forts.
           </seg>
-        </u>
-        <u xml:id="i-6uPA2cwZhWHFVDJUzLeaYH" who="i-Av5iFLEVV3RMNr1v9Tf4z8" prev="i-LBrBwKD8KAnQQw25ZvcKi3" next="i-TQVvVFzgeFqyZwQYXMN5hJ">
           <seg xml:id="i-NYxAVo2g8HZrYyE4EaehR2">
             talarens på vestgötabänken yttrande. Det är väl sant, att den
             gifta
           </seg>
-        </u>
-        <u xml:id="i-TQVvVFzgeFqyZwQYXMN5hJ" who="i-Av5iFLEVV3RMNr1v9Tf4z8" prev="i-6uPA2cwZhWHFVDJUzLeaYH" next="i-A81x3s6EdjNB21dKgcguwc">
           <seg xml:id="i-XD6zYy6dSHM44Ptu8p9DMD">
             qvinnan eger förvaltningsrätt öfver den egendom hon genom sitt
           </seg>
-        </u>
-        <u xml:id="i-A81x3s6EdjNB21dKgcguwc" who="i-Av5iFLEVV3RMNr1v9Tf4z8" prev="i-TQVvVFzgeFqyZwQYXMN5hJ" next="i-P4XwjDqibWe4bWLWQsFiNL">
           <seg xml:id="i-VgKdUGm75T7NqNV6hoGG2D">
             arbete förvärfvat. Men när kan man då säga, att hon förvärfvat
           </seg>
-        </u>
-        <u xml:id="i-P4XwjDqibWe4bWLWQsFiNL" who="i-Av5iFLEVV3RMNr1v9Tf4z8" prev="i-A81x3s6EdjNB21dKgcguwc" next="i-8kXAk8EwxVCinMdGeQsbVx">
           <seg xml:id="i-PGsXT1dHWeb4yu8CRhDhF3">
             egendomen eller visa, att hon gjort det. Det synes mig vara omöj-
           </seg>
-        </u>
-        <u xml:id="i-8kXAk8EwxVCinMdGeQsbVx" who="i-Av5iFLEVV3RMNr1v9Tf4z8" prev="i-P4XwjDqibWe4bWLWQsFiNL">
           <seg xml:id="i-N7hJLYhgYYd1ZwPrs6ayXY">
             ligt att afgöra den saken. Jag vidhåller derför det yrkande jag
           </seg>
@@ -3499,7 +3261,7 @@
         <note xml:id="i-X6UuqXDFoA1mh7cs1Ugtn6" type="speaker">
           Herr Berglöf:
         </note>
-        <u xml:id="i-XSHnvaEoHRLEpDbpd5FQDA" who="i-NUyYiA4FVLLPSAatcw4E1K" next="i-4dWFn3frR4v4vem7ytymLm">
+        <u xml:id="i-XSHnvaEoHRLEpDbpd5FQDA" who="i-NUyYiA4FVLLPSAatcw4E1K" next="i-NCcf8gBbxUh12CnHgqtSaE">
           <seg xml:id="i-T3LfVyq5K4FV5a8zAPZzdf">
             Man har sagt, att detta förslag endast skulle vara ett reglemente
             för en postsparbank och dess styrelse, men det har blifvit ”framlagdt
@@ -3528,8 +3290,6 @@
             dessa medel, ty då kommer man i strid med 1874 års förordning
             och 9 kap. i Giftermålsbalken.
           </seg>
-        </u>
-        <u xml:id="i-4dWFn3frR4v4vem7ytymLm" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-XSHnvaEoHRLEpDbpd5FQDA" next="i-NCcf8gBbxUh12CnHgqtSaE">
           <seg xml:id="i-LGPSmLTrRuMH7HFpzrQKug">
             Det är enligt min uppfattning origtigt, att två lagar äro stridande
             mot hvarandra. Vid tillämpningen af dessa lagbud skall domaren
@@ -3549,13 +3309,11 @@
         <note xml:id="i-GvMmtpUN3s7GGJZ9Na6nbt" type="date">
           38 Måndagen den 7 Maj, e. m.
         </note>
-        <u xml:id="i-NCcf8gBbxUh12CnHgqtSaE" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-4dWFn3frR4v4vem7ytymLm" next="i-7u4cnro69m6hy1zXTbg4ne">
+        <u xml:id="i-NCcf8gBbxUh12CnHgqtSaE" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-XSHnvaEoHRLEpDbpd5FQDA">
           <seg xml:id="i-5pZJacdyPUZi3LfPDDrBmQ">
             gifta qvinnans enskilda medel, öfver hvilka hon enligt 1874 års
             förordning disponerar, hon eger utfå dem utan denna lag.
           </seg>
-        </u>
-        <u xml:id="i-7u4cnro69m6hy1zXTbg4ne" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-NCcf8gBbxUh12CnHgqtSaE">
           <seg xml:id="i-5ts4usY5FWuEPVjofkggWD">
             I afseende på andra momentet är jag af en annan åsigt än Herr
             von der Lancken, derför att det finnes en olikhet mellan den minderårige
@@ -3574,7 +3332,7 @@
         <note xml:id="i-Kiw18arhJw6eL57Y7k6xcY" type="speaker">
           Herr Sven Nilsson:
         </note>
-        <u xml:id="i-F62p3vBXC8e6SxHujzMT5N" who="i-BqxiGcrvRSyw7vSVD9ghzT" next="i-6E9y9EyAyGFkFJiUGGW4c2">
+        <u xml:id="i-F62p3vBXC8e6SxHujzMT5N" who="i-BqxiGcrvRSyw7vSVD9ghzT">
           <seg xml:id="i-ABy8StFc5aWDAvQmkJDBfq">
             Det borde väl vara obestridligt, att den siste talaren har rätt
             deri, att, om första momentet strykes, det andra bör följa med.
@@ -3605,8 +3363,6 @@
             insatta medlen, så vida de icke blifvit insatta med förbehåll.
             att de endast få af henne disponeras.
           </seg>
-        </u>
-        <u xml:id="i-6E9y9EyAyGFkFJiUGGW4c2" who="i-BqxiGcrvRSyw7vSVD9ghzT" prev="i-F62p3vBXC8e6SxHujzMT5N">
           <seg xml:id="i-LZusGVhPY6tMsbPCU3xz3u">
             Jag kan således icke finna någon fara uti att godkänna denna
             paragraf sådan den föreligger, och jag skall derför också tillåta
@@ -3623,7 +3379,7 @@
         <note xml:id="i-DBmsebhmnfP4ZRtdLN9N4X" type="speaker">
           Grefve Sparre:
         </note>
-        <u xml:id="i-TPmHy5CVdFUZkhWQ2Kgoe8" who="i-VRHbq9433F1APDMq9jUvBB" next="i-8mh3rXjpJhbKtzWv8qrHcy">
+        <u xml:id="i-TPmHy5CVdFUZkhWQ2Kgoe8" who="i-VRHbq9433F1APDMq9jUvBB">
           <seg xml:id="i-G19LtoMCFraVb75GQC2hJ5">
             Ehuru jag är en varm vän af detta lagförslag, och ehuru jag ingalunda
             är afgjord motståndare till någon utsträckning af gift qvinnas
@@ -3657,8 +3413,6 @@
             sig man stiftar enskilda lagar eller civillag, bör väl grundprincipen
             vara densamma.
           </seg>
-        </u>
-        <u xml:id="i-8mh3rXjpJhbKtzWv8qrHcy" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-TPmHy5CVdFUZkhWQ2Kgoe8" next="i-WgL5Hm5gmzDVBRuEempMQD">
           <seg xml:id="i-BkQn9dkjcQySY264iZ3CGH">
             Jag hemställer derför om återremiss af denna paragraf, på det
             Utskottet måtte få tillfälle att taga denna sak i förnyadt öfvervägande
@@ -3673,8 +3427,6 @@
             ledamöter från Första Kawumaren reserverat sig just mot denna
             paragraf.
           </seg>
-        </u>
-        <u xml:id="i-WgL5Hm5gmzDVBRuEempMQD" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-8mh3rXjpJhbKtzWv8qrHcy">
           <seg xml:id="i-Hkd9b2etpkEZVB9uYa1Xsh">
             För min del yrkar jag således återremiss på den föredragna paragrafen.
           </seg>
@@ -3770,7 +3522,7 @@
         <note xml:id="i-VzjJnBn9gU14LCif12g8cW" type="date">
           Måndagen den 7 Maj, e. m. 41 N:o 39.
         </note>
-        <u xml:id="i-SMzaWdqvXrZDLAvzZWJqqK" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-X7otpnEdrtEjZsGtRaPNPp" next="i-WahfFJ9SBCWorViYd3Bzbi">
+        <u xml:id="i-SMzaWdqvXrZDLAvzZWJqqK" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-X7otpnEdrtEjZsGtRaPNPp">
           <seg xml:id="i-5ipmkPwLuLagGhfkM933Pw">
             öfver sin förmögenhet. Det förefaller mig syunerligen opraktiskt
             att Ang.inrättande tänka sig en sådan anordning, och jag kan icke
@@ -3779,106 +3531,70 @@
             har upprepat, att man genom an- (Ports.) tagande af denna lag
             skulle företaga en ändring i gällande civillag.
           </seg>
-        </u>
-        <u xml:id="i-WahfFJ9SBCWorViYd3Bzbi" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-SMzaWdqvXrZDLAvzZWJqqK" next="i-3AeLyM4ycpeieyzgPtsBek">
           <seg xml:id="i-HSz7o5ntEELqANJn4yp4tN">
             Jag bestrider till alla delar denna uppfattning. Om vi nu, genom
             antagande af denna paragraf, bestämma, att den gifta gvinnan har
           </seg>
-        </u>
-        <u xml:id="i-3AeLyM4ycpeieyzgPtsBek" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-WahfFJ9SBCWorViYd3Bzbi" next="i-GxsnZhaV8nzDJatsagLqxe">
           <seg xml:id="i-FTwE8R9HwtNp4tRy9mprbn">
             rätt att sjelf lyfta i postsparbank i hennes namn insatta medel,
             är dock
           </seg>
-        </u>
-        <u xml:id="i-GxsnZhaV8nzDJatsagLqxe" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-3AeLyM4ycpeieyzgPtsBek" next="i-HQoVS54uDxbdRRMEh4qzbE">
           <seg xml:id="i-URUgrYJ6R5CcxJuYQY6LGM">
             den gifta qvinnans ställning, i civilrättsligt afseende, alldeles
             den-
           </seg>
-        </u>
-        <u xml:id="i-HQoVS54uDxbdRRMEh4qzbE" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-GxsnZhaV8nzDJatsagLqxe" next="i-9qVaKAj3GcVbpp8bodX1fg">
           <seg xml:id="i-JPCcyFqRCw754U58FgjgWe">
             samma i morgon som i går. Hennes civilrättsliga ställning är
             icke
           </seg>
-        </u>
-        <u xml:id="i-9qVaKAj3GcVbpp8bodX1fg" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-HQoVS54uDxbdRRMEh4qzbE" next="i-PyEFjgKag5cJvjaA9sGNEk">
           <seg xml:id="i-EyVj8XSQKcimY8PdNDa3N2">
             det minsta förändrad. Då regering och Riksdag instiftat en postsparkank,
             hafva regering och riksdag på samma gång kommit öfver-
           </seg>
-        </u>
-        <u xml:id="i-PyEFjgKag5cJvjaA9sGNEk" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-9qVaKAj3GcVbpp8bodX1fg" next="i-JwmkSDcbjGWEdbwGkccZTA">
           <seg xml:id="i-NyRtNm62Vrt64XXn6LgUN4">
             ens derom, att penningar, som insättas på en qvinnas namn i postsparbanken,
             insättas på det vilkor, att qvinnan, när helst hon vill
           </seg>
-        </u>
-        <u xml:id="i-JwmkSDcbjGWEdbwGkccZTA" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-PyEFjgKag5cJvjaA9sGNEk" next="i-JdpkoFkMUeUtEGGzBqPDg2">
           <seg xml:id="i-VmuQrQtek3ikc5vLy6xv8f">
             lyfta dem, är dertill berättigad. En dylik bestämmelse rörande
             de
           </seg>
-        </u>
-        <u xml:id="i-JdpkoFkMUeUtEGGzBqPDg2" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-JwmkSDcbjGWEdbwGkccZTA" next="i-3kkXu3MGzMxxVUrBDt2XGd">
           <seg xml:id="i-RiUrnwm9PQY2VGwM4D2DVP">
             vilkor, på hvilka penningar få 1 banken insättas, måtte väl konung
           </seg>
-        </u>
-        <u xml:id="i-3kkXu3MGzMxxVUrBDt2XGd" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-JdpkoFkMUeUtEGGzBqPDg2" next="i-24wbGyyPymNQCVhd5ioMuh">
           <seg xml:id="i-7V3dfKGJFwkj4JAjun7Ppy">
             och Riksdag kunna öfverenskomma om, utan att derigenom ändras
           </seg>
-        </u>
-        <u xml:id="i-24wbGyyPymNQCVhd5ioMuh" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-3kkXu3MGzMxxVUrBDt2XGd" next="i-5Qbg2gaV9DJFbQTCwDUQex">
           <seg xml:id="i-4RJgGC5qC2RN4ZmVuAMgwF">
             den gifta qvinnans civilrättsliga förhållanden 1 allmänhet. Derige-
           </seg>
-        </u>
-        <u xml:id="i-5Qbg2gaV9DJFbQTCwDUQex" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-24wbGyyPymNQCVhd5ioMuh" next="i-Vvq48ZVcMWXCFRh1awevWr">
           <seg xml:id="i-QifYEfLjmMCavrYoe5oMWZ">
             nom är icke förändrad någon enda paragraf i Giftermålseller Ärfdabalkarne.
             Det har redan blifvit påpekadt, att Herr von der Lanckens
           </seg>
-        </u>
-        <u xml:id="i-Vvq48ZVcMWXCFRh1awevWr" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-5Qbg2gaV9DJFbQTCwDUQex" next="i-Fpsu7mbxgAEa1NuGLWgdAi">
           <seg xml:id="i-4xmDNhrbEyKBDeELzLUgar">
             förslag vore något haltande, då han ville taga bort det förra
             mo-
           </seg>
-        </u>
-        <u xml:id="i-Fpsu7mbxgAEa1NuGLWgdAi" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-Vvq48ZVcMWXCFRh1awevWr" next="i-MFnJDSdUntAh1A2U3K5gPS">
           <seg xml:id="i-EC6qWrF3KnucXBwhuig7Tp">
             mentet i denna paragraf, men bibehålla det senare. Han säger,
             att, ehuruväl hustrun är medgifven rätt att sjelf råda öfver de
             medel,
           </seg>
-        </u>
-        <u xml:id="i-MFnJDSdUntAh1A2U3K5gPS" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-Fpsu7mbxgAEa1NuGLWgdAi" next="i-LVe3kxC9qHYtXnz4qxoiEi">
           <seg xml:id="i-TA9xQRjN9sqUYgnqQkw11m">
             dem hon sjelf förvärfvat, man vid medlens uttagande ur postspar-
           </seg>
-        </u>
-        <u xml:id="i-LVe3kxC9qHYtXnz4qxoiEi" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-MFnJDSdUntAh1A2U3K5gPS" next="i-MWKciuaDnyr5hpD4JrFEKz">
           <seg xml:id="i-4kxH9hn3HDFd83828PPQEU">
             banken icke skulle kunna veta, huruvida hustrun sjelf förvärfvat
             desamma. Men är det då lättare att veta, huruvida en minderårig
           </seg>
-        </u>
-        <u xml:id="i-MWKciuaDnyr5hpD4JrFEKz" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-LVe3kxC9qHYtXnz4qxoiEi" next="i-LURdgvKT7FWYD1ZDrW3p2n">
           <seg xml:id="i-7CQhWWFU4bRfhh9Vh1nH7W">
             gosse sjelf förvärfvat de medel, som han vill uttaga? Nej, duger
           </seg>
-        </u>
-        <u xml:id="i-LURdgvKT7FWYD1ZDrW3p2n" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-MWKciuaDnyr5hpD4JrFEKz" next="i-H33Y6aeeHFRyVfGHJ2Z6KS">
           <seg xml:id="i-2sAgq4fp4HpSjvbUTj6SK9">
             icke det ena momentet i denna paragraf, duger icke heller det
             andra.
           </seg>
-        </u>
-        <u xml:id="i-H33Y6aeeHFRyVfGHJ2Z6KS" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-LURdgvKT7FWYD1ZDrW3p2n">
           <seg xml:id="i-RTCyAGzDKLJzCvgbUPCGFe">
             För min del finner jag icke hinder möta för paragrafens antagande
             oförändrad, och jag hoppas, att detta skall blifva Kammarens beslut.
@@ -3925,13 +3641,11 @@
         <note xml:id="i-EJ4kWv3xz4yX8R4nB4PQgz">
           sparbank. (Forts.)
         </note>
-        <u xml:id="i-NaPSTtQsqmFPtvj47svwFe" who="i-HzMWGtfoscSfE6ogsc7Bmy" prev="i-5eVcoUbatSXTRBNVgNbCE7" next="i-8DLjSvfYjvGDxgT9QtYxt">
+        <u xml:id="i-NaPSTtQsqmFPtvj47svwFe" who="i-HzMWGtfoscSfE6ogsc7Bmy" prev="i-5eVcoUbatSXTRBNVgNbCE7">
           <seg xml:id="i-3T96rhTN4mTgh7kPmFRZDS">
             lemna något annat svar, och vid sådant förhållande torde en återremiss
             icke tjena till något.
           </seg>
-        </u>
-        <u xml:id="i-8DLjSvfYjvGDxgT9QtYxt" who="i-HzMWGtfoscSfE6ogsc7Bmy" prev="i-NaPSTtQsqmFPtvj47svwFe">
           <seg xml:id="i-LM1KaHbqPuHKPDaQoNdF78">
             Jag hemställer om bifall till denna paragraf, sådan den är af
             Utskottet föreslagen.
@@ -3940,7 +3654,7 @@
         <note xml:id="i-XzHtFwNJao7jxWrTaWTrYz" type="speaker">
           Herr von der Lancken:
         </note>
-        <u xml:id="i-Ke9P2aiSJADMfuxvp1DuXK" who="i-Av5iFLEVV3RMNr1v9Tf4z8" next="i-FbxcgAAgtPNuDQ2iJFqc43">
+        <u xml:id="i-Ke9P2aiSJADMfuxvp1DuXK" who="i-Av5iFLEVV3RMNr1v9Tf4z8">
           <seg xml:id="i-L5LSrxMtjSwDUgdaW9PL4Y">
             Jag kan icke undertrycka min förvåning öfver det resonnement,
             som fördes af den siste talaren på stockholmsbänken. Han säger:
@@ -3958,8 +3672,6 @@
             enligt hvilket kapitel hon dock endast eger råda öfver hvad hon
             sig sjelf förvärfvat.
           </seg>
-        </u>
-        <u xml:id="i-FbxcgAAgtPNuDQ2iJFqc43" who="i-Av5iFLEVV3RMNr1v9Tf4z8" prev="i-Ke9P2aiSJADMfuxvp1DuXK" next="i-9Cnk4yc7uPN6iB6rxmTahv">
           <seg xml:id="i-8GCM9dyzXJJNzXS5wCvuA">
             Hvad särskildt det senare momentet beträffar, kan jag icke förneka,
             att någon inkonseqvens ligger deruti att bibehålla detta, under
@@ -3970,8 +3682,6 @@
             i en postsparbank, skulle behöfva vända sig till sin målsman för
             att utfå dessa penningar.
           </seg>
-        </u>
-        <u xml:id="i-9Cnk4yc7uPN6iB6rxmTahv" who="i-Av5iFLEVV3RMNr1v9Tf4z8" prev="i-FbxcgAAgtPNuDQ2iJFqc43">
           <seg xml:id="i-4rajvKdmyS5ZwuqNHEruNG">
             Då jag emellertid icke vunnit något understöd för mitt förslag,
             förenar jag mig med Herr Grefve Sparre i yrkandet om återremiss
@@ -4002,7 +3712,7 @@
         <note xml:id="i-SDTzWaKsxQzEwMZai31jxX" type="date">
           Måndagen den 7 Maj, e. m. 43 — N:o 39.
         </note>
-        <u xml:id="i-45yic6UW5hSUAjRC2T8T9y" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-2iRxM6u9ddwv9d46dpg71y" next="i-FYNotudBTS4wdVT7YivAQ8">
+        <u xml:id="i-45yic6UW5hSUAjRC2T8T9y" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-2iRxM6u9ddwv9d46dpg71y">
           <seg xml:id="i-5PXEMWbC2bztdoqFPS12xW">
             ändra lagen om mannens målsmansrätt. Det är det som afses med
             Ang.inrättande Friherre Stackelbergs förslag. Gå vi in på det,
@@ -4011,36 +3721,24 @@
             af Lag-Utskottet, och att — Forts.) under sådana förhållanden
             stadga en undantagslag, stridande mot
           </seg>
-        </u>
-        <u xml:id="i-FYNotudBTS4wdVT7YivAQ8" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-45yic6UW5hSUAjRC2T8T9y" next="i-Fg6t9ZqCoGzuaZkZuRNQ8p">
           <seg xml:id="i-S3238r5FtHTkkvBZeepG5S">
             den allmänna principen om mannens målsmansrätt för hustrun, det
           </seg>
-        </u>
-        <u xml:id="i-Fg6t9ZqCoGzuaZkZuRNQ8p" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-FYNotudBTS4wdVT7YivAQ8" next="i-7LNV82rKrRcj5cxXkuFeoy">
           <seg xml:id="i-KcbuEvjDsF2cG8JXCWCcMo">
             anser jag vara origtigt, och dessutom medför sådant en osäkerhet
           </seg>
-        </u>
-        <u xml:id="i-7LNV82rKrRcj5cxXkuFeoy" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-Fg6t9ZqCoGzuaZkZuRNQ8p" next="i-4rLsHBoZxTGfhJqwSNXXyH">
           <seg xml:id="i-37gghjkgVnw1ivJL9G7DaE">
             och tvekan hos folket, så att de icke veta huru de bafva det;
             i en postsparbank skulle hustrun få lyfta medel, men i en annan
             vanlig
           </seg>
-        </u>
-        <u xml:id="i-4rLsHBoZxTGfhJqwSNXXyH" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-7LNV82rKrRcj5cxXkuFeoy" next="i-Bh28EBgEg5RmJqGgS5LTKy">
           <seg xml:id="i-VReGyX13o37SciAFbDqVYG">
             sparbank icke; der gäller den allmänna lagen. Vill man vara med
           </seg>
-        </u>
-        <u xml:id="i-Bh28EBgEg5RmJqGgS5LTKy" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-4rLsHBoZxTGfhJqwSNXXyH" next="i-177ewn7QsFRrsSrYU9JbsC">
           <seg xml:id="i-JDjS347ZRL4AZznDVxjrcF">
             om att göra en sådan förändring i allmänbet, i fråga om mannens
             målsmansskap, det kan äfven jag vara med om, men att göra en
           </seg>
-        </u>
-        <u xml:id="i-177ewn7QsFRrsSrYU9JbsC" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-Bh28EBgEg5RmJqGgS5LTKy">
           <seg xml:id="i-HrWLq96u7vMrpsEDkdQsqs">
             ändring i ett särskildt fall, det kan jag deremot icke tillstyrka.
           </seg>
@@ -4048,7 +3746,7 @@
         <note xml:id="i-F7bk8ppeD6NnWmM791Q2Gw" type="speaker">
           Herr Arwidsson:
         </note>
-        <u xml:id="i-M2XHaqdb6XNgXB79ryVSJo" who="i-3sN9DMuKUv4qbPVAGpgpoG" next="i-QJJKwQDwSfCHNoFuVyBgXd">
+        <u xml:id="i-M2XHaqdb6XNgXB79ryVSJo" who="i-3sN9DMuKUv4qbPVAGpgpoG" next="i-EVvixwSCPpbdD7uaz59vMi">
           <seg xml:id="i-94frDPWyKZzHf2nve5pQQV">
             Som jag hört, att de fleste af våra lagtillänpare i Kammaren
             yttrat sig i frågan, tror jag, att det kanske kan vara en skyldighet
@@ -4080,13 +3778,9 @@
             bör och kan verkställas af den posttjensteman, som skall utlemna
             medlen, det lemnar jag osagdt.
           </seg>
-        </u>
-        <u xml:id="i-QJJKwQDwSfCHNoFuVyBgXd" who="i-3sN9DMuKUv4qbPVAGpgpoG" prev="i-M2XHaqdb6XNgXB79ryVSJo" next="i-NrJZjXbPHPTtjbNNh9y8gR">
           <seg xml:id="i-NiNBW4L9ksUurQosJVbuCU">
             Mot andra momentet hyser jag deremot mycket större betänklighet.
           </seg>
-        </u>
-        <u xml:id="i-NrJZjXbPHPTtjbNNh9y8gR" who="i-3sN9DMuKUv4qbPVAGpgpoG" prev="i-QJJKwQDwSfCHNoFuVyBgXd" next="i-EVvixwSCPpbdD7uaz59vMi">
           <seg xml:id="i-KnUx4EMvood8nP1s7uDeBm">
             Det lyder sålunda:
           </seg>
@@ -4108,13 +3802,11 @@
         <note xml:id="i-5mMAACboQkdzHSofeSEQ4a">
           af en postsparbank. (Forts:)
         </note>
-        <u xml:id="i-EVvixwSCPpbdD7uaz59vMi" who="i-3sN9DMuKUv4qbPVAGpgpoG" prev="i-NrJZjXbPHPTtjbNNh9y8gR" next="i-KSPRJm19CqceJ4q3TKLGEi">
+        <u xml:id="i-EVvixwSCPpbdD7uaz59vMi" who="i-3sN9DMuKUv4qbPVAGpgpoG" prev="i-M2XHaqdb6XNgXB79ryVSJo">
           <seg xml:id="i-VJ9GZgjrK2drhx7ntx5erW">
             motbok, som han på grund af 8 5 mom. 3 för insättning af egna
             medel utbekommit.»
           </seg>
-        </u>
-        <u xml:id="i-KSPRJm19CqceJ4q3TKLGEi" who="i-3sN9DMuKUv4qbPVAGpgpoG" prev="i-EVvixwSCPpbdD7uaz59vMi" next="i-KTkttu8D2ZFTA2dMYKWydz">
           <seg xml:id="i-97m5B65gndu4kTd7VM6TxE">
             Der står ordet »minderårig», utan att någon skilnad göres, om
             den minderårige är man eller qvinna; och momentet måste således
@@ -4124,8 +3816,6 @@
             sjelf förestå sitt arf. Kan han sig något förvärfva, deröfver
             må han sjelf råda, sedan han femton år gammal är.»
           </seg>
-        </u>
-        <u xml:id="i-KTkttu8D2ZFTA2dMYKWydz" who="i-3sN9DMuKUv4qbPVAGpgpoG" prev="i-KSPRJm19CqceJ4q3TKLGEi">
           <seg xml:id="i-3VtiyBLmUBef8toXKpF81z">
             Otvifvelaktigt afser detta lagstadgande endast man. Det är väl
             sant, att i lagen på mångfaldiga ställen begagnas ordet man, då
@@ -4178,13 +3868,11 @@
         <note xml:id="i-LuRgcxQncFB7Pdk6fQy3Z" type="date">
           Måndagen den 7 Maj, e. m. 45
         </note>
-        <u xml:id="i-Dp3DSo2wbmT7cSA6712EqS" who="i-37qgHWj8Zd858MSWDhN8Zo" prev="i-F7fEBu6tJxPApmeefBrs1A" next="i-JzD1e9yk5MinWLwk3tNPjn">
+        <u xml:id="i-Dp3DSo2wbmT7cSA6712EqS" who="i-37qgHWj8Zd858MSWDhN8Zo" prev="i-F7fEBu6tJxPApmeefBrs1A">
           <seg xml:id="i-PmfFpKHMGqrA56obmeYMxQ">
             mera behöflig, som vi just nu hört huru sjelfva lagtolkarne äro
             4
           </seg>
-        </u>
-        <u xml:id="i-JzD1e9yk5MinWLwk3tNPjn" who="i-37qgHWj8Zd858MSWDhN8Zo" prev="i-Dp3DSo2wbmT7cSA6712EqS">
           <seg xml:id="i-HFRWq8nmcTdXK3ke9vXDN">
             tveksamma om rätta tolkningen af denna lag. Somliga vilja tolka
             denna lag så, att den förstkommande, det må nu vara vare sig mannen
@@ -4266,7 +3954,7 @@
         <note xml:id="i-Wf1BJbsTCgyYaQ11PgfN8F">
           af en postsparbank. (Forts.)
         </note>
-        <u xml:id="i-E9c8kT7yFtGJkBeB3W9Zzq" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-Frn84861k6dYSSApUVYE13" next="i-4ztmvUzyTdG6a3HGkCf8Px">
+        <u xml:id="i-E9c8kT7yFtGJkBeB3W9Zzq" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-Frn84861k6dYSSApUVYE13" next="i-5yzmCfs1iT9Sw7KTigRU6H">
           <seg xml:id="i-AkBSagMqH1xLnb4MD2SyDV">
             skulle mycket skadas, om denna paragraf försvunne. Det skulle
             åstadkomma stor svårighet för posttjenstemännen, hvilka då skulle
@@ -4279,8 +3967,6 @@
             en supig och slösaktig hustru, att han insätter några penningar
             på hennes räkning och i hennes namn.
           </seg>
-        </u>
-        <u xml:id="i-4ztmvUzyTdG6a3HGkCf8Px" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-E9c8kT7yFtGJkBeB3W9Zzq" next="i-6n2xmV8JrYNiRWKjagNB6h">
           <seg xml:id="i-UPRvyGomssT9Y3wNLY5vEo">
             En talare på stockholmsbänken har yttrat sina betänkligheter
             mot paragrafen, hvilka han formulerat på det sättet, att han i
@@ -4298,8 +3984,6 @@
             de penningar, som sålunda insättas, de stå för den qvinnas räkning,
             hvilkens namn finnes påskrifvet motboken.
           </seg>
-        </u>
-        <u xml:id="i-6n2xmV8JrYNiRWKjagNB6h" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-4ztmvUzyTdG6a3HGkCf8Px" next="i-5yzmCfs1iT9Sw7KTigRU6H">
           <seg xml:id="i-4yjj2wmvsvxAWyeGyPAQj3">
             Hvad angår minderåriga, så tror jag icke heller, att vederbörande
             postanstaltsföreståndare kunna förpligtas inlåta sig på någon
@@ -4335,7 +4019,7 @@
           de medel, som blifvit för hennes enskilda räkning å hennes spar-
           9/ en post
         </note>
-        <u xml:id="i-5yzmCfs1iT9Sw7KTigRU6H" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-6n2xmV8JrYNiRWKjagNB6h">
+        <u xml:id="i-5yzmCfs1iT9Sw7KTigRU6H" who="i-9GJUYyk1FqrAw36gAt5V7H" prev="i-E9c8kT7yFtGJkBeB3W9Zzq">
           <seg xml:id="i-HVWdhh3ESiNV9t32jqRmZy">
             banksbok insatta. PA Jag yrkar fortfarande bifall till paragrafen.
             (Forts.)
@@ -4363,7 +4047,7 @@
         <note xml:id="i-KYPKorSrZGgug9Swe8bYQu" type="speaker">
           Grefve Sparre:
         </note>
-        <u xml:id="i-JzMrxemVVKeQnGWj5s5jaK" who="i-VRHbq9433F1APDMq9jUvBB" next="i-KqUKU3hsnA8SkX7CwTHzdh">
+        <u xml:id="i-JzMrxemVVKeQnGWj5s5jaK" who="i-VRHbq9433F1APDMq9jUvBB" next="i-7aYbhEa8N6V73z3h5WFDe7">
           <seg xml:id="i-2VGzVWwEMPFXNmL3MvYmpH">
             Jag ber att till besvarande af talarens på kalmarbänken yttrande
             få nämna, att lagens stadgande i 9 kap. Giftermålsbalken icke
@@ -4390,8 +4074,6 @@
             icke användas för konkursboets räkning. Man råkar alltid i svårigheter,
             då man vill stadga speciella lagar.
           </seg>
-        </u>
-        <u xml:id="i-KqUKU3hsnA8SkX7CwTHzdh" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-JzMrxemVVKeQnGWj5s5jaK" next="i-7aYbhEa8N6V73z3h5WFDe7">
           <seg xml:id="i-FfZEeop9wp4anWaSjJcffY">
             Jag har emellertid icke hört något annat skäl anföras för det
             förevarande förslaget, än det, som talaren från Skåne framhöll,
@@ -4413,7 +4095,7 @@
         <note xml:id="i-MciUD1hfzz93wERbMQJYs5">
           sparbank. (Forts.)
         </note>
-        <u xml:id="i-7aYbhEa8N6V73z3h5WFDe7" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-KqUKU3hsnA8SkX7CwTHzdh">
+        <u xml:id="i-7aYbhEa8N6V73z3h5WFDe7" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-JzMrxemVVKeQnGWj5s5jaK">
           <seg xml:id="i-Kwk8msh6ivDL8j2UqoSMB8">
             kan väl dock icke blifva svårare, än om medlen insättas af en
             ogift qvinna. Postmästaren har ju endast att fråga insättarinnan,
@@ -4436,7 +4118,7 @@
         <note xml:id="i-DanufP4sXMKCqbikUn9B46" type="speaker">
           Herr Rubenson:
         </note>
-        <u xml:id="i-HmyVTdkcer9q2LeBx2zkcQ" who="i-7GagBp2WCCwRxerke7kmjv" next="i-RcKPbLPs2xfwWrMt6h1ULE">
+        <u xml:id="i-HmyVTdkcer9q2LeBx2zkcQ" who="i-7GagBp2WCCwRxerke7kmjv">
           <seg xml:id="i-H2KQzc92eotadJ7wjna12N">
             I likhet med en kamrat på stockholmsbänken kan jag icke underlåta
             att uttala den meningen, att man gjort allt för mycket väsen af
@@ -4467,8 +4149,6 @@
             häri en stark presumtion för, att hustrun eger att sjelf råda
             öfver medlen.
           </seg>
-        </u>
-        <u xml:id="i-RcKPbLPs2xfwWrMt6h1ULE" who="i-7GagBp2WCCwRxerke7kmjv" prev="i-HmyVTdkcer9q2LeBx2zkcQ">
           <seg xml:id="i-Jr7VqYVRrUGbwzgnGp2S8S">
             Jag anhåller om bifall till den föredragna paragrafen.
           </seg>
@@ -4489,7 +4169,7 @@
         <note xml:id="i-FuMgy7zibYASuYiEShzRec" type="date">
           Måndagen den 7 Maj, e. m. 49 — N:o 39.
         </note>
-        <u xml:id="i-HXPSbPH9nD2TVR3KvdMbgZ" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-7Kf4sivFVpz8Rsc4uaqyy5" next="i-PvQzWSJDjq5qyadsEBwrEK">
+        <u xml:id="i-HXPSbPH9nD2TVR3KvdMbgZ" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-7Kf4sivFVpz8Rsc4uaqyy5" next="i-AdkpaBMna8YcrWVok5dpSf">
           <seg xml:id="i-GpW229ohjv6m5croRuU2t8">
             hafva funnit detta moment tillfredsställande, hafva tydligen
             tagit Ang.inrättande hänsyn till $ 5 mom. 3 i författningsförslaget.
@@ -4498,19 +4178,13 @@
             motbok ej ega rum; dock må (Porta.) minderårig, för hvars räkning
             medel blifvit af annan person insatta,
           </seg>
-        </u>
-        <u xml:id="i-PvQzWSJDjq5qyadsEBwrEK" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-HXPSbPH9nD2TVR3KvdMbgZ" next="i-UotobuSdgbsNuxBRpTE6rJ">
           <seg xml:id="i-MGoZ8NHATMcNVDqY7L3jai">
             kunna utbekomma särskild motbok för insättning af egna medel.»
           </seg>
-        </u>
-        <u xml:id="i-UotobuSdgbsNuxBRpTE6rJ" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-PvQzWSJDjq5qyadsEBwrEK" next="i-HpMSi6UuqCiS4BwYBdSZgQ">
           <seg xml:id="i-SGaYtaeUX2mZrUQZeNVXVg">
             Här står bestämdt markeradt, att minderårig kan insätta medel
             på
           </seg>
-        </u>
-        <u xml:id="i-HpMSi6UuqCiS4BwYBdSZgQ" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-UotobuSdgbsNuxBRpTE6rJ" next="i-AdkpaBMna8YcrWVok5dpSf">
           <seg xml:id="i-RAymPrSgXLCns6HksNpqFt">
             en särskild motbok, och detta står i sammanhang med 11 $ 2
           </seg>
@@ -4519,44 +4193,30 @@
           mom., der det stadgas: »Likaledes må minderårig, som uppnått
           15
         </note>
-        <u xml:id="i-AdkpaBMna8YcrWVok5dpSf" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-HpMSi6UuqCiS4BwYBdSZgQ" next="i-8Wj3LRLvju1DK39R9Dh2tD">
+        <u xml:id="i-AdkpaBMna8YcrWVok5dpSf" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-HXPSbPH9nD2TVR3KvdMbgZ" next="i-Prxp57UyfDB98sLnG66GkU">
           <seg xml:id="i-TduyWT34Gakudmiqv9JgEK">
             år, jemväl utan särskild tillåtelse af målsman, förfoga öfver
             medel,
           </seg>
-        </u>
-        <u xml:id="i-8Wj3LRLvju1DK39R9Dh2tD" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-AdkpaBMna8YcrWVok5dpSf" next="i-J7UYBtUXjGHwovV7DLhWLu">
           <seg xml:id="i-PqMrbCd1vLuzF7KLYMgRFz">
             insatta å sådan motbok, som han på grund af $ 5 mom. 3 för in-
           </seg>
-        </u>
-        <u xml:id="i-J7UYBtUXjGHwovV7DLhWLu" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-8Wj3LRLvju1DK39R9Dh2tD" next="i-Dq9tat8ZF5BBdTer8GCjDf">
           <seg xml:id="i-MEkWLohMcixrDbMhaP92nV">
             sättning af egna medel utbekommit.» I afseende å den minder-
           </seg>
-        </u>
-        <u xml:id="i-Dq9tat8ZF5BBdTer8GCjDf" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-J7UYBtUXjGHwovV7DLhWLu" next="i-6419Y5cxtEY75C2g9VABZA">
           <seg xml:id="i-3jQQqxCDff18tZfa8ki4W5">
             årige gossen är ju den föreslagna lagbestämmelsen fullt tillfredsställande,
             då den står i öfverensstämmelse med nu gällande lag,
           </seg>
-        </u>
-        <u xml:id="i-6419Y5cxtEY75C2g9VABZA" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-Dq9tat8ZF5BBdTer8GCjDf" next="i-3z91MfmJWBWrS36vADgbLW">
           <seg xml:id="i-ShFSZZyiHoPWXXvuGhKC3w">
             men vidkommande den minderåriga fickan, står förslaget i strid
           </seg>
-        </u>
-        <u xml:id="i-3z91MfmJWBWrS36vADgbLW" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-6419Y5cxtEY75C2g9VABZA" next="i-5SZ8eKeaHbUPmkAtvkcXZe">
           <seg xml:id="i-A6qk19mAB3mFgKoRttMETD">
             med 19 kap. Ärfdabalken. Då gossen, det nya lagbudet förutan,
           </seg>
-        </u>
-        <u xml:id="i-5SZ8eKeaHbUPmkAtvkcXZe" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-3z91MfmJWBWrS36vADgbLW" next="i-7KanvbbuuRPupzJqsyBSAu">
           <seg xml:id="i-SLSpc9g71XXRGUgoe55PFe">
             kan utfå sina medel samt flickan, utan ändring af nyss nämnda
           </seg>
-        </u>
-        <u xml:id="i-7KanvbbuuRPupzJqsyBSAu" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-5SZ8eKeaHbUPmkAtvkcXZe" next="i-Prxp57UyfDB98sLnG66GkU">
           <seg xml:id="i-KVyLPdBfu5cUzjLwVHrb55">
             lagrum, icke kan lemnas den föreslagna rättigheten, bör ifråga-
           </seg>
@@ -4564,29 +4224,21 @@
         <note xml:id="i-UsUTJXtEo1oNZtroHFWqi4">
           varande stadgande i 8 11 utgå. I förordningsförslaget förekommer
         </note>
-        <u xml:id="i-Prxp57UyfDB98sLnG66GkU" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-7KanvbbuuRPupzJqsyBSAu" next="i-EUo14nvmbUoK55kfADFYmR">
+        <u xml:id="i-Prxp57UyfDB98sLnG66GkU" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-AdkpaBMna8YcrWVok5dpSf" next="i-GFpR7MsVy9WjezWG3J5FD9">
           <seg xml:id="i-Q4nqtKvyU1uku51oDtmA6C">
             icke någon bestämmelse om, att en gift qvinna skall kunna utbe-
           </seg>
-        </u>
-        <u xml:id="i-EUo14nvmbUoK55kfADFYmR" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-Prxp57UyfDB98sLnG66GkU" next="i-nvAhiAYPfKTnFpgLmGzD4">
           <seg xml:id="i-C2RoTKfdyuvGNJU9FuD93i">
             komma särskild motbok, derå hon kan få insätta sina enskilda
             medel.
           </seg>
-        </u>
-        <u xml:id="i-nvAhiAYPfKTnFpgLmGzD4" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-EUo14nvmbUoK55kfADFYmR" next="i-NBcAy8yJFnnEkRsGVXAbCs">
           <seg xml:id="i-4h6oqq7GAxvctryGPeCUXy">
             Hade förhållandet varit det, alt i $ 5 vore stadgadt, att gift
             qvinna
           </seg>
-        </u>
-        <u xml:id="i-NBcAy8yJFnnEkRsGVXAbCs" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-nvAhiAYPfKTnFpgLmGzD4" next="i-Lb6iGB8GMVQ3HnsUbGMVaT">
           <seg xml:id="i-GAei7Z8KzA3Ycf6c3wvGSo">
             skulle få begagna en ytterligare motbok, så vidt det gälde medel,
           </seg>
-        </u>
-        <u xml:id="i-Lb6iGB8GMVQ3HnsUbGMVaT" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-NBcAy8yJFnnEkRsGVXAbCs" next="i-GFpR7MsVy9WjezWG3J5FD9">
           <seg xml:id="i-Y7dpAZcBJqw3gYSypHPS3d">
             som vore insatta för hennes enskilda räkning, så hade äfven mom.
           </seg>
@@ -4594,7 +4246,7 @@
         <note xml:id="i-RBtaqBLmkxTiGJQjhZ76Kz">
           1 i $ 11, sådant detta mom. nu lyder, låtit förklara sig.
         </note>
-        <u xml:id="i-GFpR7MsVy9WjezWG3J5FD9" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-Lb6iGB8GMVQ3HnsUbGMVaT" next="i-AAiZBhR2bjJRtJjsYV5f4k">
+        <u xml:id="i-GFpR7MsVy9WjezWG3J5FD9" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-Prxp57UyfDB98sLnG66GkU" next="i-ERbVyrEmWFYCfarpvY3n2L">
           <seg xml:id="i-TGRzmfg3PUKZRwKmXVwvof">
             Man har gjort det inkastet mot ändringsförslaget, att det skulle
             försvåra sättet att utfå medlen i postsparbanken och föranleda
@@ -4609,8 +4261,6 @@
             postsparbanken måste gälla samma grunder i fråga om eganderättsförhållanden
             som 1 allmänhet gälla.
           </seg>
-        </u>
-        <u xml:id="i-AAiZBhR2bjJRtJjsYV5f4k" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-GFpR7MsVy9WjezWG3J5FD9" next="i-JRt6vnF85ZH6M1MVRh7UTC">
           <seg xml:id="i-Vp9surkwSpL5XibNVE7aPY">
             Man har vidare sagt, att förevarande paragraf icke gör någon
             förändring i civillag. Det är mycket rigtigt. Men det är just
@@ -4621,8 +4271,6 @@
             skola qvarstå oförändrade, så kan jag för min del icke godkänna
             paragrafen.
           </seg>
-        </u>
-        <u xml:id="i-JRt6vnF85ZH6M1MVRh7UTC" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-AAiZBhR2bjJRtJjsYV5f4k" next="i-ERbVyrEmWFYCfarpvY3n2L">
           <seg xml:id="i-J1vfcLPxisLbGtdTDPZFsM">
             Man har också yttrat, att konung och Riksdag äro berättigade
             att stifta en lag af sådan betydelse, som är föreslagen. Ja, konung
@@ -4645,7 +4293,7 @@
         <note xml:id="i-Qw7Stcoobt5d2n5hp6s6cs">
           af en postsparbank. (Forts.)
         </note>
-        <u xml:id="i-ERbVyrEmWFYCfarpvY3n2L" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-JRt6vnF85ZH6M1MVRh7UTC" next="i-FM1xSksPiMxBoK191TguKs">
+        <u xml:id="i-ERbVyrEmWFYCfarpvY3n2L" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-GFpR7MsVy9WjezWG3J5FD9">
           <seg xml:id="i-BuynVTjFq6jyfKAXtaz8gY">
             turligtvis se till, att de icke stå i strid med förut bestående
             lagar, utan i harmoni med dem, så att icke en lag säger ett och
@@ -4654,8 +4302,6 @@
             reglemente, utan till en lag, som skall gälla för den ifrågavarande
             inrättningen.
           </seg>
-        </u>
-        <u xml:id="i-FM1xSksPiMxBoK191TguKs" who="i-NUyYiA4FVLLPSAatcw4E1K" prev="i-ERbVyrEmWFYCfarpvY3n2L">
           <seg xml:id="i-FKuknzEkPPzANDFyDzMsyQ">
             Jag yrkade, då jag första gången yttrade mig i frågan, rent afslag
             å den föredragna paragrafen, hvilken jag anser vara obefogad och
@@ -4710,7 +4356,7 @@
         <note xml:id="i-Y6VhwmLZySeFcNC2mGEC7K" type="date">
           Måndagen den 7 Maj, e. m. 51 N:o 39,
         </note>
-        <u xml:id="i-M5MygQuqeSm1KutzA62LvM" who="i-QiH1m576DcuGtby7dh9oxo" prev="i-7P6AFrA4mZ1gQuwdjoNwjf" next="i-DyesvLc5t22AXAgE9MkgkF">
+        <u xml:id="i-M5MygQuqeSm1KutzA62LvM" who="i-QiH1m576DcuGtby7dh9oxo" prev="i-7P6AFrA4mZ1gQuwdjoNwjf">
           <seg xml:id="i-2qxJbQpUTekeaBBWDpkXL9">
             soner för hennes räkning insatts på sparbok. Om den person, som
             4ng.inrättande vill göra henne en gåfva i form af sparbanksbok,
@@ -4719,38 +4365,26 @@
             rätt att fråntaga henne beloppet? Det (Forts) kan han icke gerna,
             utan det står henne fritt att deröfver förfoga
           </seg>
-        </u>
-        <u xml:id="i-DyesvLc5t22AXAgE9MkgkF" who="i-QiH1m576DcuGtby7dh9oxo" prev="i-M5MygQuqeSm1KutzA62LvM" next="i-J6bV89YT5huB9mUSPmW4VG">
           <seg xml:id="i-SJPY1foUfyG1whXxqjEkj1">
             huru henne behagar. Skola vi då lägga hinder i vägen för denna
           </seg>
-        </u>
-        <u xml:id="i-J6bV89YT5huB9mUSPmW4VG" who="i-QiH1m576DcuGtby7dh9oxo" prev="i-DyesvLc5t22AXAgE9MkgkF" next="i-4FToLrbkouW6L5rNE83W23">
           <seg xml:id="i-Rmng5yf9CqML15tcskFMus">
             ytterst vigtiga sak genom att med hjelp af spetsfundiga juridiska
             funderingar slå ihjel rätten för den, det vill, att för en stackars
           </seg>
-        </u>
-        <u xml:id="i-4FToLrbkouW6L5rNE83W23" who="i-QiH1m576DcuGtby7dh9oxo" prev="i-J6bV89YT5huB9mUSPmW4VG" next="i-2oCuciAbjHL1T4E1GpabmK">
           <seg xml:id="i-5KzkLHbf1oFH87GNjX8PbW">
             15-årig flicka sätta in en eller annan krona. Jag tycker att
             saken
           </seg>
-        </u>
-        <u xml:id="i-2oCuciAbjHL1T4E1GpabmK" who="i-QiH1m576DcuGtby7dh9oxo" prev="i-4FToLrbkouW6L5rNE83W23" next="i-VPZkVxCDecKwcwCSdWz8QL">
           <seg xml:id="i-W2U93xz5NsLTweXw87kCWH">
             är för obetydlig för att vi skola af juridiska betänkligheter
             söka motarbeta det goda syfte, som med denna inrättning afses.
             Jag
           </seg>
-        </u>
-        <u xml:id="i-VPZkVxCDecKwcwCSdWz8QL" who="i-QiH1m576DcuGtby7dh9oxo" prev="i-2oCuciAbjHL1T4E1GpabmK" next="i-UEpZPotegEdoJ95g8up8ME">
           <seg xml:id="i-X3KnSPw1YNA3gBBGCqyZjC">
             anser derför, att paragrafen bör oförändrad antagas, och yrkar,
             be-
           </seg>
-        </u>
-        <u xml:id="i-UEpZPotegEdoJ95g8up8ME" who="i-QiH1m576DcuGtby7dh9oxo" prev="i-VPZkVxCDecKwcwCSdWz8QL">
           <seg xml:id="i-L3tvwzTT3Myzv6jrC5Yvs7">
             träffande särskildt detta moment, bifall till Utskottets förslag.
           </seg>
@@ -4882,20 +4516,16 @@
           något Ang. inrättande högre ränta; men jag befarar, att detta
           icke kommer att visa sig af Mån tillräckligt. sparbank.
         </note>
-        <u xml:id="i-KRbxQyAKsvSjEtJmuXeXXE" who="i-Tb3QUhGvYi4j7F3VwMLWH7" prev="i-E674KQdT7ZqikjkTJXuWsx" next="i-Jr7CyFTbMnNok5GHxT6uFN">
+        <u xml:id="i-KRbxQyAKsvSjEtJmuXeXXE" who="i-Tb3QUhGvYi4j7F3VwMLWH7" prev="i-E674KQdT7ZqikjkTJXuWsx">
           <seg xml:id="i-K3AEX9frcWYMaioLhTkSPN">
             Emellertid, Herr Talman, då lagen redan är i hufvudsak anta-
             CEorts gen och då Kammarens ledamöter icke äro så pass talrikt
             samlade
           </seg>
-        </u>
-        <u xml:id="i-Jr7CyFTbMnNok5GHxT6uFN" who="i-Tb3QUhGvYi4j7F3VwMLWH7" prev="i-KRbxQyAKsvSjEtJmuXeXXE" next="i-WiLRtQTKrcKRpYvYvYB8HK">
           <seg xml:id="i-Ay1EYztUXEvMTMRJAh9CgZ">
             för närvarande, att det vore lämpligt — äfven om man eljest skulle
             anse sig dertill ega skäl — att nu framlägga ett ändringsförslag,
           </seg>
-        </u>
-        <u xml:id="i-WiLRtQTKrcKRpYvYvYB8HK" who="i-Tb3QUhGvYi4j7F3VwMLWH7" prev="i-Jr7CyFTbMnNok5GHxT6uFN">
           <seg xml:id="i-87fKAUSpvSoLsZAXvypMCT">
             så skall jag åtnöja mig med att hafva nedlagt min åsigt i Kammarens
             protokoll. Jag gör således icke något yrkande, men tillåter mig

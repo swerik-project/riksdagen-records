@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-T9C4Q4fdVCJtgVsianKUFC" type="speech">
             <linkGrp type="u">
               <ptr target="#i-a21545762bd69862-0"/>
@@ -300,7 +300,13 @@
               <ptr target="#i-KAF5QeDS6EpDpRbnYNVrAo"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -848,7 +854,7 @@
         <note xml:id="i-BiDBaxD74MZUk1KNqZ84Lp" type="speaker">
           Herr Näslund erhöll på begäran ordet och anförde:
         </note>
-        <u xml:id="i-be3becb008608d56-0" who="i-MSjNBHZMhSJTRmVbnBc4VR" next="i-Ng7vec6gUHDrW8aYFuXd32">
+        <u xml:id="i-be3becb008608d56-0" who="i-MSjNBHZMhSJTRmVbnBc4VR">
           <seg xml:id="i-XjRxrsostdykYxB31puNx8">
             Herr talman! Sedan 1934 EE
           </seg>
@@ -860,8 +866,6 @@
             haft sådana utnämningsärenden under sin granskning, tjänst: utan
             att dock detta föranlett någon majoritetsanmärkning.
           </seg>
-        </u>
-        <u xml:id="i-Ng7vec6gUHDrW8aYFuXd32" who="i-MSjNBHZMhSJTRmVbnBc4VR" prev="i-be3becb008608d56-0" next="i-be3becb008608d56-1">
           <seg xml:id="i-LGyH1aZxCydrYZtnyEDmJx">
             Nu kommenteras i dagspressen ånyo en uppseendeväckande utnämning,
             vid vilken Kungl. Maj:t avvikit från församlingens klart uttalade
@@ -871,8 +875,6 @@
             efter valet både muntligen och skriftligen bett att icke behöva
             ifrågakomma med eventuellt förord till tjänsten.
           </seg>
-        </u>
-        <u xml:id="i-be3becb008608d56-1" who="i-MSjNBHZMhSJTRmVbnBc4VR" prev="i-Ng7vec6gUHDrW8aYFuXd32" next="i-2nfC4kvbVi5HAGPbgU2z6N">
           <seg xml:id="i-AsHKBMkJQ89PDHhspZT1Ze">
             Under en debatt i andra kammaren den 7 april 1943 angående ändring
             av hithörande lagbestämmelser angav chefen för ecklesiastikdepartementet,
@@ -893,16 +895,12 @@
             tillstånd att till herr statsrådet och chefen för ecklesiastikdepartementet
             framställa följande frågor:
           </seg>
-        </u>
-        <u xml:id="i-2nfC4kvbVi5HAGPbgU2z6N" who="i-MSjNBHZMhSJTRmVbnBc4VR" prev="i-be3becb008608d56-1" next="i-QQnwDsU4ziAKdMwbKTtWh3">
           <seg xml:id="i-7zaRYjF9pXn4VcJa5qWCcn">
             1) Anser herr statsrådet bestämmelserna i 1934 års lag om tillsättning
             av prästerliga tjänster vara tillfredsställande i fråga om Kungl.
             Maj:ts rätt att tillsätta kyrkoherdetjänst var tredje gång sådan
             är ledig?
           </seg>
-        </u>
-        <u xml:id="i-QQnwDsU4ziAKdMwbKTtWh3" who="i-MSjNBHZMhSJTRmVbnBc4VR" prev="i-2nfC4kvbVi5HAGPbgU2z6N">
           <seg xml:id="i-TCKBPaaCZMrj5h488aF7Uy">
             2) För den händelse denna fråga besvaras nekande, är herr statsrådet
             beredd att föreslå Kungl. Maj:t att framlägga förslag till nya
@@ -1133,7 +1131,7 @@
         <note xml:id="i-L1QQP6MVwtZz28TzWiHMVj" type="speaker">
           Herr Källman:
         </note>
-        <u xml:id="i-8c97e6162a7a4c85-0" who="i-4LP6HUMuDi6jwv5MgHWALJ" next="i-Y9WyR2Rep5aJwT8KUD8N7w">
+        <u xml:id="i-8c97e6162a7a4c85-0" who="i-4LP6HUMuDi6jwv5MgHWALJ" next="i-4SwefRJXG4xQXySyf75Pb1">
           <seg xml:id="i-VazEGr4pkRpaLQPChp95zp">
             Herr talman! Den motion, som nu är föremål för behandling, kan
             väl betraktas såsom mycket obetydlig. Den rör ju allenast frågan,
@@ -1142,8 +1140,6 @@
             underrättelse om när och var sådana sammanträden hållas. Frågan
             har emellertid, såvitt jag förstår, en väsentligt större betydelse.
           </seg>
-        </u>
-        <u xml:id="i-Y9WyR2Rep5aJwT8KUD8N7w" who="i-4LP6HUMuDi6jwv5MgHWALJ" prev="i-8c97e6162a7a4c85-0" next="i-8c97e6162a7a4c85-1">
           <seg xml:id="i-FNVuhW5yjwRMHwD7V2LAWr">
             När 1930 års riksdag beslöt införa denna rätt för suppleanter
             att närvara vid sammanträden, skedde det i avsikt att bereda vederbörande
@@ -1154,8 +1150,6 @@
             det icke någon skyldighet för vederbörande ordförande att underrätta
             suppleanterna om sammanträdena.
           </seg>
-        </u>
-        <u xml:id="i-8c97e6162a7a4c85-1" who="i-4LP6HUMuDi6jwv5MgHWALJ" prev="i-Y9WyR2Rep5aJwT8KUD8N7w" next="i-4SwefRJXG4xQXySyf75Pb1">
           <seg xml:id="i-RrXdAYjiw7pNpxUHRxZkC7">
             I den nu väckta motionen omtalas, att praxis har varit växlande.
             I en del fall underrättas suppleanterna, men i andra och kanske
@@ -1177,7 +1171,7 @@
           har nämligen icke påvisats av motionärerna och torde ej heller
           föreligga.»
         </note>
-        <u xml:id="i-4SwefRJXG4xQXySyf75Pb1" who="i-4LP6HUMuDi6jwv5MgHWALJ" prev="i-8c97e6162a7a4c85-1" next="i-AZo81sR5Vrcbv4RRqLZfuv">
+        <u xml:id="i-4SwefRJXG4xQXySyf75Pb1" who="i-4LP6HUMuDi6jwv5MgHWALJ" prev="i-8c97e6162a7a4c85-0" next="i-8c97e6162a7a4c85-4">
           <seg xml:id="i-YExFz94dgS3bucDQenSgyu">
             Vad den första frågan beträffar, lär det väl inte vara så lätt
             för en enskild motionär att företa en undersökning i alla rikets
@@ -1197,8 +1191,6 @@
             tänka på att de ens äga rätt att utfärda lokala föreskrifter såsom
             komplettering till kommunallagarna?
           </seg>
-        </u>
-        <u xml:id="i-AZo81sR5Vrcbv4RRqLZfuv" who="i-4LP6HUMuDi6jwv5MgHWALJ" prev="i-4SwefRJXG4xQXySyf75Pb1" next="i-8c97e6162a7a4c85-3">
           <seg xml:id="i-WdGP7VkGHLaW2LdueE1KCQ">
             Generella regler om underrättande av suppleanter medföra konsekvenser,
             påstår konstitutionsutskottet. Därmed åsyftas tanken på att införa
@@ -1206,8 +1198,6 @@
             beredning och som avse suppleanter i fattigvårdsstyrelser, barnavårdsnämnder,
             pensionsnämnder och en del andra nämnder och styrelser.
           </seg>
-        </u>
-        <u xml:id="i-8c97e6162a7a4c85-3" who="i-4LP6HUMuDi6jwv5MgHWALJ" prev="i-AZo81sR5Vrcbv4RRqLZfuv" next="i-8c97e6162a7a4c85-4">
           <seg xml:id="i-BbKeMyFSHzoz61L3tgLcuo">
             Reservanterna ha också framhållit, att det vid en blivande utredning
             bör undersökas, huruvida inte samma rätt bör gälla för suppleanter
@@ -1259,7 +1249,7 @@
           nämnds eller styrelses sammanträde, kan också underlåta detta
           och därigenom göra suppleants rätt att närvara illusorisk.»
         </note>
-        <u xml:id="i-8c97e6162a7a4c85-4" who="i-4LP6HUMuDi6jwv5MgHWALJ" prev="i-8c97e6162a7a4c85-3">
+        <u xml:id="i-8c97e6162a7a4c85-4" who="i-4LP6HUMuDi6jwv5MgHWALJ" prev="i-4SwefRJXG4xQXySyf75Pb1">
           <seg xml:id="i-TR5u7fhNvaXXtc1oy5Jcn2">
             Ett verkligt behov föreligger för ändring i motionens syfte.
             Den omfattande soeiala lagstiftning, som tillkommit under de senaste
@@ -2534,14 +2524,12 @@
         <note xml:id="i-K8Bd2P7bq5iNHAd5RbnWpn" type="speaker">
           Herr Bäckström:
         </note>
-        <u xml:id="i-de9a003d536389cd-0" who="i-P4Y3BzQFMGTuxEFP63gMh9" next="i-8hGjbVU4KfnYJVJ9h53owj">
+        <u xml:id="i-de9a003d536389cd-0" who="i-P4Y3BzQFMGTuxEFP63gMh9" next="i-de9a003d536389cd-2">
           <seg xml:id="i-RBFPjmShrkR37Ryv2x1ZK9">
             Herr talman! Under förevarande punkt redovisar utskottet ett
             flertal motioner, och utskottet har i viss utsträckning beaktat
             de önskemål, som i motionerna framförts.
           </seg>
-        </u>
-        <u xml:id="i-8hGjbVU4KfnYJVJ9h53owj" who="i-P4Y3BzQFMGTuxEFP63gMh9" prev="i-de9a003d536389cd-0" next="i-de9a003d536389cd-1">
           <seg xml:id="i-PQM22L3D9rdjnacBfoR3QZ">
             I de likalydande motionerna nr 85 i denna kammare och nr 103
             i andra kammaren hemställes bl. a. om högre statsbidrag till den
@@ -2550,8 +2538,6 @@
             kan utskottet icke finna tillrådligt att redan nu vidtaga någon
             höjning av det allmänna statsbidraget.»
           </seg>
-        </u>
-        <u xml:id="i-de9a003d536389cd-1" who="i-P4Y3BzQFMGTuxEFP63gMh9" prev="i-8hGjbVU4KfnYJVJ9h53owj" next="i-de9a003d536389cd-2">
           <seg xml:id="i-Ah25s5joMmkakcgGDhBnAn">
             Vid behandlingen i statsutskottet framhölls, att den erfarenhet
             vi haft sedan 1939, då staten började lämna bidrag till den enskilda
@@ -2588,7 +2574,7 @@
         <note xml:id="i-6Kf8TnB52egbvwrUmQNRNs" type="date">
           Onsdagen den 8 mars 1944. Nr 9. 27
         </note>
-        <u xml:id="i-de9a003d536389cd-2" who="i-P4Y3BzQFMGTuxEFP63gMh9" prev="i-de9a003d536389cd-1">
+        <u xml:id="i-de9a003d536389cd-2" who="i-P4Y3BzQFMGTuxEFP63gMh9" prev="i-de9a003d536389cd-0">
           <seg xml:id="i-CnB55shRV7BfwimMEaeqDG">
             Anslag till underhåll av enskilda vägar m. m. (Forts.) avvakta
             ytterligare erfarenheter. Jag tror emellertid, att det vore rättvist
@@ -3134,7 +3120,7 @@
         <note xml:id="i-DgRK9SH1PDTxuRpw1yWpBS" type="speaker">
           Herr Johansson, Johan Bernhard:
         </note>
-        <u xml:id="i-3a009a4370d5b649-8" who="i-SHyoXz8eVs5NhxbFZxmFre" next="i-44sJZzuxh1hD2ghf8zEapW">
+        <u xml:id="i-3a009a4370d5b649-8" who="i-SHyoXz8eVs5NhxbFZxmFre">
           <seg xml:id="i-2v4dPewtfXVzSe4iM1YZPe">
             Herr talman! Det är kanske onödigt att yttra sig, eftersom intet
             yrkande har framställts. Men då jag i alla fall har begärt ordet,
@@ -3144,8 +3130,6 @@
             att man inte lämpligen borde göra en sådan omläggning, och det
             är samma resultat, som utskottet kommit till i år.
           </seg>
-        </u>
-        <u xml:id="i-44sJZzuxh1hD2ghf8zEapW" who="i-SHyoXz8eVs5NhxbFZxmFre" prev="i-3a009a4370d5b649-8">
           <seg xml:id="i-W1VskQNWkbcFG41vkkJWM3">
             Jag yrkar, herr talman, bifall till utskottets hemställan.
           </seg>
@@ -3889,7 +3873,7 @@
         <note xml:id="i-Bc28RcC2hZFZw8LptKQjhc">
           Ang. ändrade bestämmelser om lokalporto m. m. (Forts.)
         </note>
-        <u xml:id="i-2083f21922c03e47-4" who="i-8SEmi1JqbwCoJ1VPeGoz48" prev="i-B9cUguV2pidMDvZpY96TQF" next="i-RMqubhEFCN4rYRmx2GHoLD">
+        <u xml:id="i-2083f21922c03e47-4" who="i-8SEmi1JqbwCoJ1VPeGoz48" prev="i-B9cUguV2pidMDvZpY96TQF">
           <seg xml:id="i-Xe4aFyCfdiqsbmBEzPFwtn">
             Låt oss i dag, herr talman, begränsa oss till denna utvidgning
             av lokalportorätten, vilken kommer att medföra minst en fördubbling
@@ -3902,8 +3886,6 @@
             både i stad och på landet, och detta sker bäst med ett bibehållande
             av det nuvarande lokalportot.
           </seg>
-        </u>
-        <u xml:id="i-RMqubhEFCN4rYRmx2GHoLD" who="i-8SEmi1JqbwCoJ1VPeGoz48" prev="i-2083f21922c03e47-4">
           <seg xml:id="i-6A5B2CrxgUN49sDUz7yLCD">
             Jag ber, herr talman, att få yrka bifall till utskottets förslag.
           </seg>
@@ -4128,7 +4110,7 @@
         <note xml:id="i-6W8yzj8BS2HyEDLq4mkKn1" type="date">
           Onsdagen den 8 mars 1944. Nr 9. 45
         </note>
-        <u xml:id="i-d0c49a750218eb91-3" who="i-PiZWNcMn9w8S8gkcHTk71v" prev="i-3PFCEp1bYswS9s5K3eYyEM" next="i-H3LJ27K9EY83MfcJRK5TWu">
+        <u xml:id="i-d0c49a750218eb91-3" who="i-PiZWNcMn9w8S8gkcHTk71v" prev="i-3PFCEp1bYswS9s5K3eYyEM">
           <seg xml:id="i-Dwe6PtoGfKhXif1QXppn9o">
             Ang. ändrade bestämmelser om lokalporto m. m. (Forts.) kan man
             ju säga, men nog förefaller det mig naturligare och lämpligare,
@@ -4148,8 +4130,6 @@
             av en smula avundsjuka mot landsbygden för att den äntligen får
             denna förmån, det tilltalar mig mycket litet.
           </seg>
-        </u>
-        <u xml:id="i-H3LJ27K9EY83MfcJRK5TWu" who="i-PiZWNcMn9w8S8gkcHTk71v" prev="i-d0c49a750218eb91-3">
           <seg xml:id="i-3Rq3Sr3nwiXgBHdZQPH6Mc">
             Herr talman! Jag yrkar bifall till reservationen.
           </seg>
@@ -4478,7 +4458,7 @@
           gör man genom den reform, om vilken ingen meningsskiljaktighet
           råder.
         </note>
-        <u xml:id="i-2kTVZcA6sJ5CL2wePj5syi" who="i-8SEmi1JqbwCoJ1VPeGoz48" prev="i-2083f21922c03e47-5" next="i-Vb3m6ineL8ucxRaF2sLPok">
+        <u xml:id="i-2kTVZcA6sJ5CL2wePj5syi" who="i-8SEmi1JqbwCoJ1VPeGoz48" prev="i-2083f21922c03e47-5">
           <seg xml:id="i-7at5ukCXc3mXajMgHi9qqf">
             Finansministern sade, att staten bidrar till en stor del av postverkets
             inkomstöverskott — om jag uppfattade honom rätt, var det 30 miljoner
@@ -4504,8 +4484,6 @@
             syfte kommer att minskas i sådan grad som reservanternas förslag
             skulle leda till.
           </seg>
-        </u>
-        <u xml:id="i-Vb3m6ineL8ucxRaF2sLPok" who="i-8SEmi1JqbwCoJ1VPeGoz48" prev="i-2kTVZcA6sJ5CL2wePj5syi">
           <seg xml:id="i-Q9NpYH6ZSBjB8xUFFqSD6s">
             Jag vidhåller, herr talman, mitt yrkande om bifall till utskottets
             förslag.

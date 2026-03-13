@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-LD2Mo1RtsBWCFnRdCixkPt" type="speech">
             <linkGrp type="u">
               <ptr target="#i-EKzHUmLJZJbJ4GbcdXrd41"/>
@@ -161,7 +161,13 @@
               <ptr target="#i-W5i4QbUwuyELnNCvgALwkW"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -282,12 +288,10 @@
           Granskning av fullmakten företas inför chefen för justitiedepartementet
           i närvaro av vederbörande fullmäktige i riksbanken och riksgäldskontoret.
         </note>
-        <u xml:id="i-9BYKbqWpNLs28BAANyMfQz" who="unknown" next="i-LL5qzYk1WBuciBqcuwLXzL">
+        <u xml:id="i-9BYKbqWpNLs28BAANyMfQz" who="unknown">
           <seg xml:id="i-AZa4uVZdFm8Da3QPGddCRc">
             Någon anmärkning framställs ej mot fullmakten.
           </seg>
-        </u>
-        <u xml:id="i-LL5qzYk1WBuciBqcuwLXzL" who="unknown" prev="i-9BYKbqWpNLs28BAANyMfQz">
           <seg xml:id="i-SrWsU47TXQZGpZkP2j71yb">
             Detta protokoll och den granskade fullmakten skall överlämnas
             till andra kammaren.
@@ -381,7 +385,7 @@
         <note xml:id="i-REAjJEhZKXqjixnxzYoTRL">
           Interpellation ang. informationen i samhällsplaneringsfrågor
         </note>
-        <u xml:id="i-VrNdXVGmeAP5aVCrjKb8iC" who="i-KY2qFJXpwf6GTtVoW7mKo8" prev="i-EKzHUmLJZJbJ4GbcdXrd41" next="i-URrD4oAUwj6siDqryCse5N">
+        <u xml:id="i-VrNdXVGmeAP5aVCrjKb8iC" who="i-KY2qFJXpwf6GTtVoW7mKo8" prev="i-EKzHUmLJZJbJ4GbcdXrd41" next="i-7YXATmSsgYdNxuhMrN3rKF">
           <seg xml:id="i-7SjjfdUU41ABhzgfjNvPer">
             den beräknade effekten av planerade åtgärder. Man väljer av flera
             alternativ det som framstår som förmånligast ur ekonomiska och
@@ -401,8 +405,6 @@
             inte. De människor som berörs av planläggningen saknar alltså
             möjlighet att välja mellan olika utvecklingsalternativ.
           </seg>
-        </u>
-        <u xml:id="i-URrD4oAUwj6siDqryCse5N" who="i-KY2qFJXpwf6GTtVoW7mKo8" prev="i-VrNdXVGmeAP5aVCrjKb8iC" next="i-9fJMJgsFFsVuxfyV3exD3j">
           <seg xml:id="i-NhHpJkZ63gdBsVcfrSAW5g">
             Som exempel på bristande valmöjligheter kan nämnas den nu aktuella
             skissen till regionplan för stockholmstrakten. Enligt den prognos
@@ -418,8 +420,6 @@
             skapar långa reseavstånd etc. De ofullständigheter som utmärker
             de traditio-
           </seg>
-        </u>
-        <u xml:id="i-9fJMJgsFFsVuxfyV3exD3j" who="i-KY2qFJXpwf6GTtVoW7mKo8" prev="i-URrD4oAUwj6siDqryCse5N" next="i-Dvb14jLAbktXmSU4EUbjVf">
           <seg xml:id="i-PZ8GfEv9yVz3RTqBLidLxi">
             nella regionplanerna är också i stort sett utmärkande för den
             planering som försöksvis ägt rum inom ramen för länsplanering
@@ -427,8 +427,6 @@
             är alltså för bristfälligt även för de bedömningar som måste ske
             på regional nivå. Bristen blir ännu mera påtaglig centralt.
           </seg>
-        </u>
-        <u xml:id="i-Dvb14jLAbktXmSU4EUbjVf" who="i-KY2qFJXpwf6GTtVoW7mKo8" prev="i-9fJMJgsFFsVuxfyV3exD3j" next="i-E3Bx7YskT9wst3YZNXMvLr">
           <seg xml:id="i-XRq4n5PYmRsqtfRno3o9ap">
             Med »riksmodeller» för samhällsplanering skulle man alltså kunna
             bedöma den totala effekten av olika typer av planering. Av modellerna
@@ -446,8 +444,6 @@
             restider, svårigheten för många tätortsmänniskor att komma i närheten
             av berikande fritidsmiljöer och påtagliga glesbygdsproblem. |
           </seg>
-        </u>
-        <u xml:id="i-E3Bx7YskT9wst3YZNXMvLr" who="i-KY2qFJXpwf6GTtVoW7mKo8" prev="i-Dvb14jLAbktXmSU4EUbjVf" next="i-AN3TBzwr2UEf8f6cg2A7of">
           <seg xml:id="i-4xnX6QE8rcBuY19EzrMqVj">
             Den misshushållning med knappa resurser som man misstänker nu
             äger rum skulle i varje fall till en del kunna undvikas. Vi skulle
@@ -455,14 +451,10 @@
             planeringen av näringslivet, kommunikationer, bostäder, undervisning,
             sociala anordningar, fritidsliv m. m.
           </seg>
-        </u>
-        <u xml:id="i-AN3TBzwr2UEf8f6cg2A7of" who="i-KY2qFJXpwf6GTtVoW7mKo8" prev="i-E3Bx7YskT9wst3YZNXMvLr" next="i-KVgwkTdyRRL5TZ5GtKDedG">
           <seg xml:id="i-2nYKzFdbWR33iiJFF3vF8R">
             Vi skulle också få en mera stimulerande och positiv debatt i
             de så viktiga samhällsplaneringsfrågorna.
           </seg>
-        </u>
-        <u xml:id="i-KVgwkTdyRRL5TZ5GtKDedG" who="i-KY2qFJXpwf6GTtVoW7mKo8" prev="i-AN3TBzwr2UEf8f6cg2A7of" next="i-7YXATmSsgYdNxuhMrN3rKF">
           <seg xml:id="i-WjeZiYMqmad8N472egaUB6">
             Med hänvisning till det anförda anhåller jag om kammarens tillstånd
             att till statsrådet och chefen för kommuni-
@@ -478,12 +470,10 @@
         <note xml:id="i-MChGsMkpi1pd8ADNL7Cjah">
           Interpellation ang. informationen i samhällsplaneringsfrågor
         </note>
-        <u xml:id="i-7YXATmSsgYdNxuhMrN3rKF" who="i-KY2qFJXpwf6GTtVoW7mKo8" prev="i-KVgwkTdyRRL5TZ5GtKDedG" next="i-RLGr653TPWUeF52DRbbui1">
+        <u xml:id="i-7YXATmSsgYdNxuhMrN3rKF" who="i-KY2qFJXpwf6GTtVoW7mKo8" prev="i-VrNdXVGmeAP5aVCrjKb8iC" next="i-4TqjqvEh1X4AjQYwS7w5UC">
           <seg xml:id="i-4KKs9ynZQNdtwBPyCopya1">
             kationsdepartementet få ställa följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-RLGr653TPWUeF52DRbbui1" who="i-KY2qFJXpwf6GTtVoW7mKo8" prev="i-7YXATmSsgYdNxuhMrN3rKF" next="i-4TqjqvEh1X4AjQYwS7w5UC">
           <seg xml:id="i-9oFFNkFvjH6Ke7MCJPunQr">
             Vill statsrådet medverka till att riksdagen, planeringsorganen
             och allmänheten erhåller ett sådant informationsmaterial i samhällsplaneringsfrågor
@@ -521,7 +511,7 @@
           Upplästes följande till kammaren inkomna ansökan: Till Riksdagens
           andra kammare
         </note>
-        <u xml:id="i-4TqjqvEh1X4AjQYwS7w5UC" who="i-KY2qFJXpwf6GTtVoW7mKo8" prev="i-RLGr653TPWUeF52DRbbui1" next="i-VqpYRJkvEzhzfuHjuerL6x">
+        <u xml:id="i-4TqjqvEh1X4AjQYwS7w5UC" who="i-KY2qFJXpwf6GTtVoW7mKo8" prev="i-7YXATmSsgYdNxuhMrN3rKF" next="i-VqpYRJkvEzhzfuHjuerL6x">
           <seg xml:id="i-VJHJa4pB5PHomYCdgmBa4b">
             Härmed får vi anhålla om ledighet från riksdagsgöromålen under
             tiden den 21—26 oktober 1968 för deltagande i den av Europarörelsen
@@ -719,15 +709,13 @@
           Interpellation ang. transportfrågornas betydelse för näringslivet,
           m. m.
         </note>
-        <u xml:id="i-GajvPt7mfFwfVUAahEG6iS" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-QvCKQxQEW8rd2XYtiagVc5" next="i-9RsMEgixYwnvR9e7YgxrZp">
+        <u xml:id="i-GajvPt7mfFwfVUAahEG6iS" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-QvCKQxQEW8rd2XYtiagVc5" next="i-YawTXGWfyx98986sv7aDzp">
           <seg xml:id="i-cg2QnuWfrS6vNmSm33pJp">
             förefaller det som om vi i dag — trots alla utredningar och planer
             — skulle ha en viss benägenhet att på transportområdet komma några
             år för sent när det gäller att möta de nya krav på transportmedel,
             som rationaliseringens och föränderlighetens samhälle ställer.
           </seg>
-        </u>
-        <u xml:id="i-9RsMEgixYwnvR9e7YgxrZp" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-GajvPt7mfFwfVUAahEG6iS" next="i-8PZeDPEx2hBHZHcb4V2f2B">
           <seg xml:id="i-Y74fSJ4ScSrcTVsvW87X8r">
             Järnvägsstyrelsen har, som det förefaller utan hänsyn till de
             faktiska förhållandena och utan att beakta industrins och allmänhetens
@@ -743,8 +731,6 @@
             ett planlöst tänkande och handlande som förekommer i fråga om
             transportservicen.
           </seg>
-        </u>
-        <u xml:id="i-8PZeDPEx2hBHZHcb4V2f2B" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-9RsMEgixYwnvR9e7YgxrZp" next="i-DwaGENYaePoEr5VLwD6RNk">
           <seg xml:id="i-2uxrKzjzcsLvPWjTyJV49q">
             Dessa problem framträder alltmer när vi i dag ställs inför industrikoncentrationer,
             som medfört sysselsättningssvårigheter och omflyttning av arbetskraften.
@@ -758,13 +744,9 @@
             på hela vårt transportväsende, och man begär på detta håll ett
             ökat trafikgenomsläpp i stället för en begränsning.
           </seg>
-        </u>
-        <u xml:id="i-DwaGENYaePoEr5VLwD6RNk" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-8PZeDPEx2hBHZHcb4V2f2B" next="i-QsVsHpf7kQPV6QLZAtrnZR">
           <seg xml:id="i-3NyrP4J2xRobtxw38YkCTu">
             Eftersom sysselsättningsfrågorna krä-
           </seg>
-        </u>
-        <u xml:id="i-QsVsHpf7kQPV6QLZAtrnZR" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-DwaGENYaePoEr5VLwD6RNk" next="i-HhiLwLEAECe5KqD6YajKA3">
           <seg xml:id="i-6SMwb1tKivH5Xza95TTVWf">
             ver snabba och riktiga åtgärder, inte minst när det gäller en
             utbyggnad av broar och vägar, måste regeringen snabbt anslå medel
@@ -775,8 +757,6 @@
             i första hand krävs en omedelbar förstärkning eller nybyggnad
             av våra broar.
           </seg>
-        </u>
-        <u xml:id="i-HhiLwLEAECe5KqD6YajKA3" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-QsVsHpf7kQPV6QLZAtrnZR" next="i-KQ2iHEncLvus6YThKkH71F">
           <seg xml:id="i-LVtvRNsZHao6tyAw5qPz6k">
             För industrin och råvarutransporterna utgör Dalälven i dag ett
             allvarligt trafikhinder, eftersom endast en av de broar som finns
@@ -799,8 +779,6 @@
             tung industri. Vi tvingas till att tänka om i fråga om lokalisering
             etc. av vårt näringsliv.
           </seg>
-        </u>
-        <u xml:id="i-KQ2iHEncLvus6YThKkH71F" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-HhiLwLEAECe5KqD6YajKA3" next="i-YawTXGWfyx98986sv7aDzp">
           <seg xml:id="i-C9tEUi12rcju7JxDJsjqyW">
             Vi måste på transportområdet söka hinna ikapp utvecklingen i
             föränderlig-
@@ -810,7 +788,7 @@
         <note xml:id="i-GiezoK8j6xanLM7NYQyjUU">
           8 Nr 32
         </note>
-        <u xml:id="i-YawTXGWfyx98986sv7aDzp" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-KQ2iHEncLvus6YThKkH71F" next="i-9tnsKUaDZ4oGrmZkP5io6i">
+        <u xml:id="i-YawTXGWfyx98986sv7aDzp" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-GajvPt7mfFwfVUAahEG6iS" next="i-M44m4G1r46jVLSvsRRS6yS">
           <seg xml:id="i-9CNHRzrNk8G62ttRDpyBKz">
             hetens samhälle, bortse från ensidiga lönsamhetsprinciper och
             lära oss betrakta. transportfrågan som en viktig samhällelig servicefråga.
@@ -824,16 +802,12 @@
             lokalisering av näringsliv och sysselsättning i vårt långsträckta
             land.
           </seg>
-        </u>
-        <u xml:id="i-9tnsKUaDZ4oGrmZkP5io6i" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-YawTXGWfyx98986sv7aDzp" next="i-HDvzqqmsjCcYQtEmaJyBz3">
           <seg xml:id="i-QDZCxp8ZjvqyGs786kddpT">
             . En förstärkning och nybyggnad av broar i Dalälvs-systemet är
             en av de aktvella uppgifterna för att snabbt åstadkomma förbättring
             och trygghet i vår sysselsättning inom detta viktiga råvaruområde
             och industriella sysselsättningscentrum.
           </seg>
-        </u>
-        <u xml:id="i-HDvzqqmsjCcYQtEmaJyBz3" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-9tnsKUaDZ4oGrmZkP5io6i" next="i-XG7rJJ2d62Yy8bPyWghscp">
           <seg xml:id="i-Ve8zjXRNcDQNbmmCRLBsXV">
             :&gt; Omställningen inom industrin och arbetstillgången i norra
             Uppland har skapat allvarliga problem för kommuner, arbetskraft
@@ -849,8 +823,6 @@
             arbetskraften och industrin, vilket allt i sin tur skapar en beklaglig
             otrygghet för befolkningen i norra Uppland. .
           </seg>
-        </u>
-        <u xml:id="i-XG7rJJ2d62Yy8bPyWghscp" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-HDvzqqmsjCcYQtEmaJyBz3" next="i-M44m4G1r46jVLSvsRRS6yS">
           <seg xml:id="i-QnREUfLrLgbSLVwvUr4Axy">
             Med hänvisning till det anförda hemställer jag 'om 'andra kammarens
             tillstånd att till statsrådet och chefen för
@@ -862,14 +834,12 @@
         <note xml:id="i-YMV8Wtw28LuavH5P35Nq41">
           kommunikationsdepartementet få framställa följande frågor:
         </note>
-        <u xml:id="i-M44m4G1r46jVLSvsRRS6yS" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-XG7rJJ2d62Yy8bPyWghscp" next="i-SVgEEkU52ZKKCTDERv7AN6">
+        <u xml:id="i-M44m4G1r46jVLSvsRRS6yS" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-YawTXGWfyx98986sv7aDzp">
           <seg xml:id="i-QJnanV5orhhzUfkzzjY195">
             Har statsrådet uppmärksammat transportfrågornas ökade betydelse
             för det svenska näringslivets industriella verksamhet och lokalisering
             samt för tryggheten i arbetet?
           </seg>
-        </u>
-        <u xml:id="i-SVgEEkU52ZKKCTDERv7AN6" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-M44m4G1r46jVLSvsRRS6yS">
           <seg xml:id="i-EVSrvj6CBQa1uyxHRAH3ZD">
             Om så är fallet, kan man påräkna att statsrådet i detta sammanhang
             är beredd att ta initiativ till att omedelbart, och i varje fall
@@ -938,15 +908,13 @@
           Chefen för socialdepartementet, herr statsrådet ASPLING, som
           yttrade:
         </note>
-        <u xml:id="i-15hgumx51yCAahsP479yjb" who="i-6yryP5FsumcdXgD5cb8aDF" next="i-182bwN6BgMVovp4iJ4SKmV">
+        <u xml:id="i-15hgumx51yCAahsP479yjb" who="i-6yryP5FsumcdXgD5cb8aDF">
           <seg xml:id="i-46Bj5fsh43gUHZq9Z1JSg1">
             Herr talman! Fru Ryding har frågat, om jag överväger något initiativ
             i syfte att de lokala försäkringskassorna skall erhålla klarare
             instruktioner rörande förutsättningarna för en förvandling av
             utgående hel invaliditetsersättning till halv sådan.
           </seg>
-        </u>
-        <u xml:id="i-182bwN6BgMVovp4iJ4SKmV" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-15hgumx51yCAahsP479yjb">
           <seg xml:id="i-4RMi6Aj8rcJLc15HqjyfYX">
             Det av fru Ryding berörda problemet har nyligen aktualiserats
             av De handikappades riksförbund i en framställning som förbundet
@@ -1181,7 +1149,7 @@
         <note xml:id="i-WSH2FRkFcS9kvNcWiybct4" type="speaker">
           Chefen för kommunikationsdepartementet, herr statsrådet LUNDKVIST:
         </note>
-        <u xml:id="i-1a038a6172b9c7e8-1" who="i-2pEgGvjfozTyRxyzmLZFo2" next="i-CEHENLGhV7LV52XyHkGBoZ">
+        <u xml:id="i-1a038a6172b9c7e8-1" who="i-2pEgGvjfozTyRxyzmLZFo2">
           <seg xml:id="i-FxZL8frfvgbZX3d9TgxnKH">
             Herr talman! På den sista frågan kan jag svara att i varje fall
             televerket för sitt vidkommande, såvitt jag är rätt underrättad,
@@ -1327,12 +1295,10 @@
         <note xml:id="i-Nwb5VXgHHA7QvtstypE97Q" type="title">
           Meddelande ang. arbetsplenum onsdagen den 30 oktober
         </note>
-        <u xml:id="i-Hd1y77qHTohjJuRKAEovj5" who="i-2uokPe53JLYm2qWYfk8uEY" prev="i-1a038a6172b9c7e8-5" next="i-SQGL7huhvMz3mXmSxrxhYR">
+        <u xml:id="i-Hd1y77qHTohjJuRKAEovj5" who="i-2uokPe53JLYm2qWYfk8uEY" prev="i-1a038a6172b9c7e8-5">
           <seg xml:id="i-Y3SmBN1D9en6RUN1QBdJc">
             fredagen i en vecka kom först på måndagen veckan därefter.
           </seg>
-        </u>
-        <u xml:id="i-SQGL7huhvMz3mXmSxrxhYR" who="i-2uokPe53JLYm2qWYfk8uEY" prev="i-Hd1y77qHTohjJuRKAEovj5">
           <seg xml:id="i-FmvSjeUvmwB8p1Qw1r1NhD">
             Kritik har också framförts från allmänheten, och det dråpliga
             är att kritik också har framförts från medlemmar av Svenska postförbundet.
@@ -1465,7 +1431,7 @@
         <note xml:id="i-Mo1GW2MSi3Pe5UV144NF7Z" type="speaker">
           Fru RYDING (vpk), som yttrade:
         </note>
-        <u xml:id="i-17ad3467fd16d2de-0" who="i-9Y4xyA9x1QxKAxWcTDiJ57" next="i-BttMUcRA6MJuPRy7C5WZ9J">
+        <u xml:id="i-17ad3467fd16d2de-0" who="i-9Y4xyA9x1QxKAxWcTDiJ57" next="i-5880625353a19753-3">
           <seg xml:id="i-AkbSxvo3f3QjTNXjZ3bntg">
             Herr talman! »Staten en urusel arbetsgivare! Feodalandan i partsrelationerna
             ute på arbetsmarknaden, de nedpressade kvinnolönerna, de manuella
@@ -1475,8 +1441,6 @@
             skriver sekreteraren i den statliga låginkomstutredningen, Per
             Holmberg, i tidningen Statsanställd-Signalen.
           </seg>
-        </u>
-        <u xml:id="i-BttMUcRA6MJuPRy7C5WZ9J" who="i-9Y4xyA9x1QxKAxWcTDiJ57" prev="i-17ad3467fd16d2de-0" next="i-5880625353a19753-2">
           <seg xml:id="i-42kYisbQZwGZZ45f9WbRxv">
             Frågan om kvinnornas likställighet med männen vad det gäller
             tillträde till statstjänst har en lång historisk bakgrund. Den
@@ -1485,8 +1449,6 @@
             medborgare». Kvar stod vid denna tidpunkt undantaget att kvinnor
             inte fick utnämnas till prästerlig tjänst.
           </seg>
-        </u>
-        <u xml:id="i-5880625353a19753-2" who="i-9Y4xyA9x1QxKAxWcTDiJ57" prev="i-BttMUcRA6MJuPRy7C5WZ9J" next="i-5880625353a19753-3">
           <seg xml:id="i-YT77BuX5UEkVFFDoLD9B8">
             Att utreda begreppen »förtjänst» och
           </seg>
@@ -1541,7 +1503,7 @@
         <note xml:id="i-FmQDxaxdA5GW8iVvRaNSo8">
           Interpellation ang. kvinnornas ställning inom statsförvaltningen
         </note>
-        <u xml:id="i-5880625353a19753-3" who="i-9Y4xyA9x1QxKAxWcTDiJ57" prev="i-5880625353a19753-2" next="i-RodFCHk5n4QHEjM9ABzpwT">
+        <u xml:id="i-5880625353a19753-3" who="i-9Y4xyA9x1QxKAxWcTDiJ57" prev="i-17ad3467fd16d2de-0" next="i-RodFCHk5n4QHEjM9ABzpwT">
           <seg xml:id="i-7kUdQCpz3SLY4p1XeRTRbm">
             I den högre karriären är kvinnorna fåtaliga. Tidigare har omnämnts
             kvarvarande hinder för att kvinnorna skall kunna förvärvsarbeta
@@ -1652,7 +1614,7 @@
         <note xml:id="i-DDyu8b4GcfjmArUwCMZjhD" type="speaker">
           Herr WIKNER (s), som yttrade:
         </note>
-        <u xml:id="i-5880625353a19753-8" who="i-YZ7PrTPoP4SC7wVftmkUya" next="i-5oy2HbWyR4eN4g8APVqJgD">
+        <u xml:id="i-5880625353a19753-8" who="i-YZ7PrTPoP4SC7wVftmkUya">
           <seg xml:id="i-Siq1tpZZKbuo9c8eyfTGoL">
             Herr talman! De konjunkturbetonade näringsförhållandena inom
             skogsbruket och rationaliseringen på detta område skapar otrygghet
@@ -1686,8 +1648,6 @@
             Anser statsrådet att en ännu kraftigare satsning på kommunikationerna
             i Norrland skulle bidraga till ökade insatser inom näringslivet?
           </seg>
-        </u>
-        <u xml:id="i-5oy2HbWyR4eN4g8APVqJgD" who="i-YZ7PrTPoP4SC7wVftmkUya" prev="i-5880625353a19753-8">
           <seg xml:id="i-WKQ3DskZ9frNToe2kMtHbJ">
             Kommer statsrådet att vidtaga några åtgärder för att förbättra
             dessa förhållanden?
@@ -1782,7 +1742,7 @@
         <note xml:id="i-DJLbVmqPq6qLsNCbdqBNWK">
           Nr 32 17
         </note>
-        <u xml:id="i-5880625353a19753-11" who="i-SU3GVVoAF9WBfUSn5nRE5m" prev="i-5880625353a19753-10" next="i-M6WMYJJ94qQenqonHWWu1D">
+        <u xml:id="i-5880625353a19753-11" who="i-SU3GVVoAF9WBfUSn5nRE5m" prev="i-5880625353a19753-10" next="i-W5i4QbUwuyELnNCvgALwkW">
           <seg xml:id="i-NWUzdVLBG6qHPur6NJ7htn">
             o.s.v. kräver avsevärd tid. även i de fall, där man kan utnyttja
             statliga och kommunala bidrag till studiecirkelverksamhet, får
@@ -1806,8 +1766,6 @@
             att till statsrådet och chefen för finansdepartementet få ställa
             följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-M6WMYJJ94qQenqonHWWu1D" who="i-SU3GVVoAF9WBfUSn5nRE5m" prev="i-5880625353a19753-11" next="i-W5i4QbUwuyELnNCvgALwkW">
           <seg xml:id="i-Lna7ojC4yLeknBUNmVUQUJ">
             Vill statsrådet medverka till att medel ställs till förfogande
             för ökad upplysningsverksamhet genom intresseorganisationer och
@@ -1849,7 +1807,7 @@
           Upplästes följande till kammaren inkomna ansökan: Till Riksdagens
           andra kammare
         </note>
-        <u xml:id="i-W5i4QbUwuyELnNCvgALwkW" who="i-SU3GVVoAF9WBfUSn5nRE5m" prev="i-M6WMYJJ94qQenqonHWWu1D">
+        <u xml:id="i-W5i4QbUwuyELnNCvgALwkW" who="i-SU3GVVoAF9WBfUSn5nRE5m" prev="i-5880625353a19753-11">
           <seg xml:id="i-Puy3cGj7AHi8VQZkXrQWjk">
             På grund av utrikes resa anhåller undertecknad om ledighet från
             riksdagsarbetet under tiden 29 oktober—5 november 1968.

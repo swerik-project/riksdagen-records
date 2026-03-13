@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-7NAxC9nz9huZaPNZn2mkuh" type="speech">
             <linkGrp type="u">
               <ptr target="#i-HUpcJdgCXdHSaVtUqborN5"/>
@@ -426,7 +426,13 @@
               <ptr target="#i-AqCkSqtF8XR31rR4XpyXqU"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -681,14 +687,12 @@
         <note xml:id="i-NnPBnCYnoDkfLRVmggCtWF" type="speaker">
           Anf. 1 Statsrådet BIRGITTA DAHL:
         </note>
-        <u xml:id="i-HUpcJdgCXdHSaVtUqborN5" who="i-YUKjmPPD3LmjeCPdQWkuEh" next="i-BRMYAaoy1EdK8BhnWGbdRL">
+        <u xml:id="i-HUpcJdgCXdHSaVtUqborN5" who="i-YUKjmPPD3LmjeCPdQWkuEh">
           <seg xml:id="i-Mdww8zqSLw7FHx8pkpzw16">
             Herr talman! Kerstin Ekman har frågat mig vilka initiativ som
             har tagits för att följa riksdagsbeslutet om fortsatt vattenkraftsutbyggnad
             och medverka till en effektivisering av befintliga kraftverk.
           </seg>
-        </u>
-        <u xml:id="i-BRMYAaoy1EdK8BhnWGbdRL" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-HUpcJdgCXdHSaVtUqborN5" next="i-9MzDn3corakWKmzSeLfENe">
           <seg xml:id="i-AZmGfxeaWXYDGLQSSj8kZr">
             Vi är överens om att det är angeläget att ett stort antal befintliga
             vattenkraftverk byggs om och effektiviseras för att vi skall kunna
@@ -698,8 +702,6 @@
             vilket är viktigt inför avvecklingen av kärnkraften. Värdefull
             sysselsättning kan också tillskapas.
           </seg>
-        </u>
-        <u xml:id="i-9MzDn3corakWKmzSeLfENe" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-BRMYAaoy1EdK8BhnWGbdRL" next="i-AMNabGXg3uvRLxuyo5BA6C">
           <seg xml:id="i-3NTSib7VbGdxPk3F6sonqf">
             Statens energiverk har på regeringens uppdrag i rapporten (1984:1)
             Vattenkraftsutbyggnad under 1980-talet övervägt åtgärder för att
@@ -708,8 +710,6 @@
             att frågan borde övervägas närmare av statsmakterna i samråd med
             kraftindustrin och den tillverkande industrin.
           </seg>
-        </u>
-        <u xml:id="i-AMNabGXg3uvRLxuyo5BA6C" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-9MzDn3corakWKmzSeLfENe">
           <seg xml:id="i-JuRuFMwvd1j3Ff1zUmKsZa">
             I proposition 1983/84:160 om fortsatt vattenkraftsutbyggnad angav
             jag också att det finns skäl att överväga denna fråga ytterligare
@@ -891,7 +891,7 @@
         <note xml:id="i-H46NwAS3fYAZr9xkRm8a2E" type="speaker">
           Anf. 8 KERSTIN EKMAN (fp):
         </note>
-        <u xml:id="i-5bd8f5f0a9c09ca0-7" who="i-A8ft8hMHUcZDSE5fKdjGpq" next="i-4aYghUpWAyNvdD1xHCMfXf">
+        <u xml:id="i-5bd8f5f0a9c09ca0-7" who="i-A8ft8hMHUcZDSE5fKdjGpq" next="i-5bd8f5f0a9c09ca0-10">
           <seg xml:id="i-QahFnok1JZfNSTmLSmmX5z">
             Herr talman! I detta konkreta fall tycker jag inte det finns
             någon anledning att diskutera tvångsåtgärder. Är det så att företaget
@@ -918,7 +918,7 @@
         <note xml:id="i-SZo3DQo2RjjubriGTia49k">
           Om miljöproblemen i Hjälmaren
         </note>
-        <u xml:id="i-5bd8f5f0a9c09ca0-10" who="i-A8ft8hMHUcZDSE5fKdjGpq" prev="i-4aYghUpWAyNvdD1xHCMfXf">
+        <u xml:id="i-5bd8f5f0a9c09ca0-10" who="i-A8ft8hMHUcZDSE5fKdjGpq" prev="i-5bd8f5f0a9c09ca0-7">
           <seg xml:id="i-G72ykf58sdsZaxPkHuMdBc">
             över huvud taget inte diskutera en utbyggnad eller en modernisering
             av Skiffsforsen.
@@ -1043,7 +1043,7 @@
         <note xml:id="i-93WvMuiPxHrnawQ6mw7kpf" type="speaker">
           Anf. 11 Jordbruksminister SVANTE LUNDKVIST:
         </note>
-        <u xml:id="i-e9e49cc0ea473d03-2" who="i-2pEgGvjfozTyRxyzmLZFo2" next="i-UD6wDPR9CtoiXTJE3rYoDc">
+        <u xml:id="i-e9e49cc0ea473d03-2" who="i-2pEgGvjfozTyRxyzmLZFo2" next="i-e9e49cc0ea473d03-5">
           <seg xml:id="i-FVLTDmucrBeYrTw7vo3t2N">
             Herr talman! Den forskning som Lars Ernestam efterlyser prioriteras
             av naturvårdsverket. Fortlöpande sker en förstärkning av våra
@@ -1096,7 +1096,7 @@
         <note xml:id="i-BAtutmXVTQUVxKLo44tuDk">
           10
         </note>
-        <u xml:id="i-e9e49cc0ea473d03-5" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-UD6wDPR9CtoiXTJE3rYoDc">
+        <u xml:id="i-e9e49cc0ea473d03-5" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-e9e49cc0ea473d03-2">
           <seg xml:id="i-G3Fhf4UTH3ziHazEHPg9Rh">
             Hjälmaren drabbades av har den karaktären att det skulle vara
             möjligt att med hjälp av detta anslag bestrida kostnaderna.
@@ -1785,7 +1785,7 @@
         <note xml:id="i-XSETrQcxJS1g4GiYpbsp1C" type="speaker">
           Anf. 31 Jordbruksminister SVANTE LUNDKVIST:
         </note>
-        <u xml:id="i-ee557796e3534823-12" who="i-2pEgGvjfozTyRxyzmLZFo2" next="i-G4ooqEvQFvu3DodGN7D6C1">
+        <u xml:id="i-ee557796e3534823-12" who="i-2pEgGvjfozTyRxyzmLZFo2" next="i-ee557796e3534823-17">
           <seg xml:id="i-YFYAZHSEUFt1ANafLdJz46">
             Herr talman! Lantbruksstyrelsen och de som har ansvaret för detta
             område är överens om att honungsimporten som sådan icke innebär
@@ -1826,7 +1826,7 @@
         <note xml:id="i-4ijauxsD5ToMnUzePyTuPb">
           18
         </note>
-        <u xml:id="i-ee557796e3534823-17" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-G4ooqEvQFvu3DodGN7D6C1">
+        <u xml:id="i-ee557796e3534823-17" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-ee557796e3534823-12">
           <seg xml:id="i-DX4Vwos7DrtQGeqGjxkZN4">
             som ett försök från svensk sida att etablera ett handelshinder
             i syfte att skydda vår egen produktion. Skälet skulle helt enkelt
@@ -2129,7 +2129,7 @@
         <note xml:id="i-Fmy1Les6ARW9j18bqBFFWV" type="speaker">
           Anf. 40 Jordbruksminister SVANTE LUNDKVIST:
         </note>
-        <u xml:id="i-46a7f795a2ad3bbd-13" who="i-2pEgGvjfozTyRxyzmLZFo2" next="i-MPcQ4Js3H3yV6xT7K94U1r">
+        <u xml:id="i-46a7f795a2ad3bbd-13" who="i-2pEgGvjfozTyRxyzmLZFo2" next="i-46a7f795a2ad3bbd-17">
           <seg xml:id="i-MZMCo3mMbHU7L1FgvCc4TG">
             Herr talman! Bertil Jonasson har till mig ställt en fråga om
             den svensk-norska gränshandeln med hö och stråfoder.
@@ -2185,7 +2185,7 @@
         <note xml:id="i-2eY4henAxBPapnDhqT6uAt">
           22
         </note>
-        <u xml:id="i-46a7f795a2ad3bbd-17" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-A55kD4crH7w1sEHRTN84qS">
+        <u xml:id="i-46a7f795a2ad3bbd-17" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-46a7f795a2ad3bbd-13">
           <seg xml:id="i-Qb3fiS3o3XfMnXKqtwLToZ">
             är en kvantitet som väl svarar mot den export av hö som ägde
             rum under senare hälften av 1970-talet, men den ligger ca 10 000
@@ -2704,7 +2704,7 @@
         <note xml:id="i-9bDza4TQtmasXBVwp57eUH">
           Om sysselsättningen vid Avesta järnverk
         </note>
-        <u xml:id="i-onbV8HizDceTMVE9QEhof" who="i-GaozvGLNGCb9Vstyp2PrQH" prev="i-46a7f795a2ad3bbd-18" next="i-AeoNKbQmAd1Ae21yrKmfzx">
+        <u xml:id="i-onbV8HizDceTMVE9QEhof" who="i-GaozvGLNGCb9Vstyp2PrQH" prev="i-46a7f795a2ad3bbd-18">
           <seg xml:id="i-M7qixU1CSFyN8hU6c8xAX2">
             regionen — befarar att detta avskedande bara är början på någonting
             som håller på att hända, för man talar redan om nästa lågkonjunktur.
@@ -2742,8 +2742,6 @@
             a. för de 61 avskedade. Avskedandet får effekter även för andra
             människor runt omkring.
           </seg>
-        </u>
-        <u xml:id="i-AeoNKbQmAd1Ae21yrKmfzx" who="i-GaozvGLNGCb9Vstyp2PrQH" prev="i-onbV8HizDceTMVE9QEhof">
           <seg xml:id="i-HAGTVYsRY5DnB7fg2ddv2H">
             Vad skall regeringen göra? Skall regeringen se på eller ingripa
             mot ägarna — och i så fall: Hur skall man ingripa?
@@ -2752,7 +2750,7 @@
         <note xml:id="i-6WeQsu8zEZQRDnfHDF5EZh" type="speaker">
           Anf. 53 Industriminister THAGE PETERSON:
         </note>
-        <u xml:id="i-46a7f795a2ad3bbd-21" who="i-8rjVavTFp7UjLy1RbrHnia" next="i-9XGpmxB7RDbCP3zBQZWwGz">
+        <u xml:id="i-46a7f795a2ad3bbd-21" who="i-8rjVavTFp7UjLy1RbrHnia" next="i-46a7f795a2ad3bbd-22">
           <seg xml:id="i-7ki9oi5UtdqmfSa9Nw3s1w">
             Herr talman! Låt mig först säga att jag är väl medveten om den
             kraftiga avtappning av sysselsättningstillfällen som har skett
@@ -2773,13 +2771,9 @@
             . utarbetade reglerna — att arbeta för att nya verksamheter skall
             skapas i
           </seg>
-        </u>
-        <u xml:id="i-9XGpmxB7RDbCP3zBQZWwGz" who="i-8rjVavTFp7UjLy1RbrHnia" prev="i-46a7f795a2ad3bbd-21" next="i-NKWva74prSgBSxmE12uxo9">
           <seg xml:id="i-HPScSz98LtddT4yYsynaZS">
             regioner som berörs av omstruktureringen.
           </seg>
-        </u>
-        <u xml:id="i-NKWva74prSgBSxmE12uxo9" who="i-8rjVavTFp7UjLy1RbrHnia" prev="i-9XGpmxB7RDbCP3zBQZWwGz" next="i-46a7f795a2ad3bbd-22">
           <seg xml:id="i-VUVJFsVGedfvuwkZpEvMYf">
             Bolaget startade sin verksamhet den 1 juli förra året. Under
             hösten har man, enligt vad man har uppgivit för industridepartementet,
@@ -2791,7 +2785,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198485--61/prot_198485__61-029.jp2/_view"/>
-        <u xml:id="i-46a7f795a2ad3bbd-22" who="i-8rjVavTFp7UjLy1RbrHnia" prev="i-NKWva74prSgBSxmE12uxo9">
+        <u xml:id="i-46a7f795a2ad3bbd-22" who="i-8rjVavTFp7UjLy1RbrHnia" prev="i-46a7f795a2ad3bbd-21">
           <seg xml:id="i-7KDYeK9erUBoWFxUscWUHg">
             allvar. Jag utgår från att Bruksinvest då på ett kraftfullt sätt
             kommer att sätta i gång sin verksamhet.
@@ -3084,13 +3078,11 @@
         <note xml:id="i-Bng63cQA8oD8KXaKRvbnM7" type="speaker">
           Anf. 61 Utbildningsminister LENA HJELM-WALLÉN:
         </note>
-        <u xml:id="i-Uh3TywN42vkLgrz4rMs93h" who="i-SySN6qMqpcrxHXHJgwvJdT" next="i-f55861717674cc13-7">
+        <u xml:id="i-Uh3TywN42vkLgrz4rMs93h" who="i-SySN6qMqpcrxHXHJgwvJdT" next="i-f55861717674cc13-8">
           <seg xml:id="i-FyZuZcMJJxTMYFLkQtggYk">
             Herr talman! Margit Gennser har med anledning av bl. a. USA:s
             utträde ur UNESCO ställt följande tre frågor till utrikesministern:
           </seg>
-        </u>
-        <u xml:id="i-f55861717674cc13-7" who="i-SySN6qMqpcrxHXHJgwvJdT" prev="i-Uh3TywN42vkLgrz4rMs93h" next="i-f55861717674cc13-8">
           <seg xml:id="i-KSqAjoFmQ5zyjyJ8cbxr5U">
             1. Har UNESCO till följd av den samfällda västliga kritiken ändrat
             inriktningen på sin verksamhet?
@@ -3146,7 +3138,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198485--61/prot_198485__61-033.jp2/_view"/>
-        <u xml:id="i-f55861717674cc13-8" who="i-SySN6qMqpcrxHXHJgwvJdT" prev="i-f55861717674cc13-7">
+        <u xml:id="i-f55861717674cc13-8" who="i-SySN6qMqpcrxHXHJgwvJdT" prev="i-Uh3TywN42vkLgrz4rMs93h">
           <seg xml:id="i-BcbWAekvnDdTLbnUTgGtPB">
             Regeringen ser det som angeläget att få en bred diskussion om
             UNESCO Nr 61 och dess utveckling. Genom en proposition (1983/84:108)
@@ -3230,7 +3222,7 @@
         <note xml:id="i-AAsj7awBAfQXwHGfZ4kwRk">
           Om inriktningen av UNESCO:s verksamhet
         </note>
-        <u xml:id="i-TL1d9YeQ8EGS89WtoqzGUm" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-ec718df90eef9e45-0" next="i-S2C6cpAfQeEhSK8mhB4EwD">
+        <u xml:id="i-TL1d9YeQ8EGS89WtoqzGUm" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-ec718df90eef9e45-0" next="i-ec718df90eef9e45-4">
           <seg xml:id="i-7MESizMQp2iRvKBBivTjo7">
             Låt mig börja med punkt 1. Jag bygger då på Staff Summary of
             the US
@@ -3246,8 +3238,6 @@
             I rapporten framfördes bl. a. följande kritik. Vad jag här nämner
             är alltså
           </seg>
-        </u>
-        <u xml:id="i-S2C6cpAfQeEhSK8mhB4EwD" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-TL1d9YeQ8EGS89WtoqzGUm" next="i-ec718df90eef9e45-4">
           <seg xml:id="i-NHSqS9oFDBHNdkmusT1hDU">
             bara ett axplock.
           </seg>
@@ -3258,7 +3248,7 @@
         <note xml:id="i-WGo27SA9L48uAThZdrsvFG">
           an
         </note>
-        <u xml:id="i-ec718df90eef9e45-4" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-S2C6cpAfQeEhSK8mhB4EwD" next="i-ec718df90eef9e45-5">
+        <u xml:id="i-ec718df90eef9e45-4" who="i-KFLLBh5CxVpZkUZaHy3pAz" prev="i-TL1d9YeQ8EGS89WtoqzGUm" next="i-ec718df90eef9e45-5">
           <seg xml:id="i-GJmm58kCXiTVPDSu8gytVp">
             UNESCO är ”höggradigt centraliserad”. Alla beslut, från rutinbeslut
             till ytterst viktiga beslut, fattas av generalsekreteraren personligen.
@@ -4305,7 +4295,7 @@
           1984/85:84 av Carl-Henrik Hermansson (vpk) till justitieministern
           om ökat ansvar för ägare av större aktieposter:
         </note>
-        <u xml:id="i-J8bm156aVaDkKi63BTJfgn" who="unknown">
+        <u xml:id="i-J8bm156aVaDkKi63BTJfgn" who="unknown" next="i-ec718df90eef9e45-26">
           <seg xml:id="i-Sm9ot5ho8hjWrTAuUYJJJg">
             Aktiebolagen har spelat en viktig roll för den kapitalistiska
             produktionens utveckling. De har möjliggjort en oerhörd utvidgning
@@ -4379,7 +4369,7 @@
         <note xml:id="i-2gtBntAbj9kkAfe5z1j4aN">
           Meddelande om interpellation
         </note>
-        <u xml:id="i-ec718df90eef9e45-26" who="unknown">
+        <u xml:id="i-ec718df90eef9e45-26" who="unknown" prev="i-J8bm156aVaDkKi63BTJfgn">
           <seg xml:id="i-WwEyPdyX29VEmtzfmmbQXH">
             Ännu mindre råder någon jämlikhet mellan aktieägarna, särskilt
             de stora ägargrupperna, och de anställda. Vid ett fallisemang
@@ -4423,14 +4413,10 @@
             för innehavarna av större aktieposter, måste ske genom en ändring
             av gällande lagstiftning. Detta bör ske efter föregående utredning.
           </seg>
-        </u>
-        <u xml:id="i-BNs6sRK4voegqL6Z7s3eEY" who="unknown">
           <seg xml:id="i-4ysQ63wk9E41GtFgvAgYoy">
             Med hänvisning till det anförda ställer jag följande frågor till
             justitieministern:
           </seg>
-        </u>
-        <u xml:id="i-DjE2MrehV5GBrNPRCYnqvg" who="unknown">
           <seg xml:id="i-AMC4WtqpJLf6gofKR8w2H9">
             1. Delar regeringen de i interpellationen anförda synpunkterna
             om en ökad ansvarighet för aktieägarna, speciellt för innehavarna
@@ -4456,7 +4442,7 @@
           att bistå viss svensk medborgare som undergår fängelsestraff i
           USA:
         </note>
-        <u xml:id="i-5bd8f5f0a9c09ca0-13" who="i-A8ft8hMHUcZDSE5fKdjGpq" next="i-FZkGGQ9GfQHybkPy83ffNH">
+        <u xml:id="i-5bd8f5f0a9c09ca0-13" who="i-A8ft8hMHUcZDSE5fKdjGpq">
           <seg xml:id="i-QVfczmxGRM7jiteoFiaGJ5">
             Den svenske medborgaren Per Herngren avtjänar f.n. ett långvarigt
             fängelsestraff i USA, dömd för de åtgärder han vidtog i samband
@@ -4466,13 +4452,9 @@
             Inom kort kommer Herngrens straff att komma upp till prövning
             inför amerikanska myndigheter.
           </seg>
-        </u>
-        <u xml:id="i-FZkGGQ9GfQHybkPy83ffNH" who="i-A8ft8hMHUcZDSE5fKdjGpq" prev="i-5bd8f5f0a9c09ca0-13" next="i-AqCkSqtF8XR31rR4XpyXqU">
           <seg xml:id="i-3Y7ha2SHsVCNBneVKrFK5k">
             Jag vill därför fråga utrikesministern följande:
           </seg>
-        </u>
-        <u xml:id="i-AqCkSqtF8XR31rR4XpyXqU" who="i-A8ft8hMHUcZDSE5fKdjGpq" prev="i-FZkGGQ9GfQHybkPy83ffNH">
           <seg xml:id="i-YEbWVr4f7pMdQ1mGXj36RM">
             Vad avser statsrådet göra för att bistå Per Herngren inför prövningen
             av hans fortsatta straff i USA?

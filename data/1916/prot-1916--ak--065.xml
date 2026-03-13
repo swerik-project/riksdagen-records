@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-TVnuDkdpp4uwS8qqSCu8Lb" type="speech">
             <linkGrp type="u">
               <ptr target="#i-13ojrVXtzEiUWndRBxJ66n"/>
@@ -168,7 +168,13 @@
               <ptr target="#i-EvJGX2fMLeL5aH24gVmidZ"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -236,7 +242,7 @@
         <note xml:id="i-YX9KKhaXVo8XF1vXuQW8zA" type="speaker">
           Herr, Branting:
         </note>
-        <u xml:id="i-13ojrVXtzEiUWndRBxJ66n" who="unknown" next="i-Dz6LjXZsJTV6B2Xw5TniDg">
+        <u xml:id="i-13ojrVXtzEiUWndRBxJ66n" who="unknown">
           <seg xml:id="i-GH7ccudTS1wyyVyssyH564">
             Detta förslag om ett särskilt utskott för behandling av dessa
             senkomna stora frågor skulle, efter min uppfattning, verka till
@@ -248,8 +254,6 @@
             att ärendena måtte få den sedvanliga behandlingen i statsutskottet,
             dit de rätteligen höra.
           </seg>
-        </u>
-        <u xml:id="i-Dz6LjXZsJTV6B2Xw5TniDg" who="unknown" prev="i-13ojrVXtzEiUWndRBxJ66n">
           <seg xml:id="i-5h7kkpjhCi2GNXPwzN8FnB">
             Jag ber således att få hemställa, att kammaren, med avslag å
             herr Lindmans anhållan, måtte besluta att remittera ifrågavarande
@@ -287,12 +291,10 @@
         <note xml:id="i-JFNJcfMhU441ARoeXMHnEP" type="date">
           2 Onsdagen den 3 maj.
         </note>
-        <u xml:id="i-JYzEpsKLTxgqs1fk5TB2VU" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-KP7TJRBgbTEVzkURsMWex6" next="i-QCj9r3hswBLJsrbBzRj5Jo">
+        <u xml:id="i-JYzEpsKLTxgqs1fk5TB2VU" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-KP7TJRBgbTEVzkURsMWex6" next="i-EooFtQt5uEaNURfMCQJ3E6">
           <seg xml:id="i-4xUthcQbbkSUnVD6wx8S18">
             Anledningen till mitt förslag har varit, att jag vet, att
           </seg>
-        </u>
-        <u xml:id="i-QCj9r3hswBLJsrbBzRj5Jo" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-JYzEpsKLTxgqs1fk5TB2VU" next="i-EooFtQt5uEaNURfMCQJ3E6">
           <seg xml:id="i-CVuUfdvMBwo3KtGa6fJQ5H">
             särskilt utskott man inom statsutskottet, eller att åtminstone
             statsutskottets
@@ -301,7 +303,7 @@
         <note xml:id="i-BARRxhFsEEeHxMftXPoecD">
           för behandling av proposilionerna ar 218—220 m. m. (Forts.)
         </note>
-        <u xml:id="i-EooFtQt5uEaNURfMCQJ3E6" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-QCj9r3hswBLJsrbBzRj5Jo">
+        <u xml:id="i-EooFtQt5uEaNURfMCQJ3E6" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-JYzEpsKLTxgqs1fk5TB2VU">
           <seg xml:id="i-ENWbMLqFWWUbUAR9SNHBru">
             ordförande, har den. uppfattningen, att om statsutskottet skall
             behandla dessa stora frågor, skulle detta komma att hindra statsutskottets
@@ -315,7 +317,7 @@
         <note xml:id="i-BJLaF2YPaAgqvsmJam4o2Y" type="speaker">
           Herr vice talmannen D. Persson:
         </note>
-        <u xml:id="i-EorxU2rfUpoW3g8ZnycLU1" who="i-KLVdWuEH3iyC7Ws5pZeVNK" next="i-Y9B7YcrskskqZ4NPEbmgDU">
+        <u xml:id="i-EorxU2rfUpoW3g8ZnycLU1" who="i-KLVdWuEH3iyC7Ws5pZeVNK">
           <seg xml:id="i-4iqwF6DDu979CQy76HHGde">
             Herr talman! Om jag kunde dela herr Lindmans uppfattning i det
             avseendet, att riksdagsarbetet kunde förkortas genom tillsättande
@@ -327,8 +329,6 @@
             de ständiga utskotten, om vi nu skulle tillsätta ett särskilt
             utskott.
           </seg>
-        </u>
-        <u xml:id="i-Y9B7YcrskskqZ4NPEbmgDU" who="i-KLVdWuEH3iyC7Ws5pZeVNK" prev="i-EorxU2rfUpoW3g8ZnycLU1">
           <seg xml:id="i-3Pr8vACNUQjKHiHdjG76NN">
             För övrigt är väl statsutskottet det utskott, som har den största
             vanan att behandla frågor av just denna art. Jag är färdig säga,
@@ -381,7 +381,7 @@
           ö ä ling av pro- Herr Thorsson: Herr talman! Jag kan icke dela
           den siste positionerna
         </note>
-        <u xml:id="i-2XVR9r1eUmnGoxyZaVfBpV" who="i-DaGNzDugnyRMkYYfAo2AZy" prev="i-SHVZo1m8bHuqxF3e9vXGwb" next="i-U1dSdMNcCXMXxS7sVMsLAM">
+        <u xml:id="i-2XVR9r1eUmnGoxyZaVfBpV" who="i-DaGNzDugnyRMkYYfAo2AZy" prev="i-SHVZo1m8bHuqxF3e9vXGwb">
           <seg xml:id="i-7BKJyvP4nhsjWwFXcww7Fz">
             ärade talarens uppfattning, att riksdagen skulle kunna avslutas
             ar 218—220 en tidigare dag genom att remittera de nu föreliggande
@@ -407,8 +407,6 @@
             det arbete, som följer med behandlingen av de propositioner, som
             utav sin egen natur måste gå till statsutskottet.
           </seg>
-        </u>
-        <u xml:id="i-U1dSdMNcCXMXxS7sVMsLAM" who="i-DaGNzDugnyRMkYYfAo2AZy" prev="i-2XVR9r1eUmnGoxyZaVfBpV">
           <seg xml:id="i-9dcEq81TEwFqf3GCf6nA8T">
             Jag ber fördenskull, herr talman, att få yrka avslag på det av
             herr Lindman framställda yrkandet, och hemställer, att de nu föreliggande
@@ -458,12 +456,10 @@
         <note xml:id="i-7TrCoBK6QgugroTo7XrwmR">
           positionerna
         </note>
-        <u xml:id="i-QHivEJBU5Efk56gAjWDL1j" who="i-EMnZ9doEs8MQVGY2nAGkkE" prev="i-95omRTfPqrpGVvHS1p7XFM" next="i-GjuAfx1ABHjVSKfFUsHsCM">
+        <u xml:id="i-QHivEJBU5Efk56gAjWDL1j" who="i-EMnZ9doEs8MQVGY2nAGkkE" prev="i-95omRTfPqrpGVvHS1p7XFM" next="i-EEEvHiC2zTCP3sF2ATbrRK">
           <seg xml:id="i-5894puEweFx7y9fNLVUbe3">
             börda. Jag har begärt ordet för att särskilt med anledning av
           </seg>
-        </u>
-        <u xml:id="i-GjuAfx1ABHjVSKfFUsHsCM" who="i-EMnZ9doEs8MQVGY2nAGkkE" prev="i-QHivEJBU5Efk56gAjWDL1j" next="i-EEEvHiC2zTCP3sF2ATbrRK">
           <seg xml:id="i-Vwabq3GbkQyZDQrdDG72ZQ">
             är 218—220 herr Hans Anderssons anförande få yttra, att det synes
             mig vara
@@ -472,7 +468,7 @@
         <note xml:id="i-6UeBiBizXMGnUFw2R2eHoe">
           Mm. m. (Forts.)
         </note>
-        <u xml:id="i-EEEvHiC2zTCP3sF2ATbrRK" who="i-EMnZ9doEs8MQVGY2nAGkkE" prev="i-GjuAfx1ABHjVSKfFUsHsCM" next="i-U1ZUbRt5FDKLzhVkwvXVRZ">
+        <u xml:id="i-EEEvHiC2zTCP3sF2ATbrRK" who="i-EMnZ9doEs8MQVGY2nAGkkE" prev="i-QHivEJBU5Efk56gAjWDL1j">
           <seg xml:id="i-94Q8RBF92sKt5iV4nz91u8">
             alldeles självklart, att man icke får ställa saken så, som han
             gjorde, nämligen att statsutskottet redan nu har alltför tungt
@@ -485,8 +481,6 @@
             en del andra ärenden, som kunna för denna riksdag avvisas och
             icke behöva nödvändigt ävgöras i år.
           </seg>
-        </u>
-        <u xml:id="i-U1ZUbRt5FDKLzhVkwvXVRZ" who="i-EMnZ9doEs8MQVGY2nAGkkE" prev="i-EEEvHiC2zTCP3sF2ATbrRK">
           <seg xml:id="i-4ySjWFp6H2qLG6fn1pgdz5">
             Jag ber således att få uttala den bestämda förhoppningen, att
             statsutskottet icke slår in på den bogen, att denna remiss till
@@ -499,7 +493,7 @@
         <note xml:id="i-2RYzZSPdEWDGXBLTqYHUnq" type="speaker">
           Herr E. A. Nilson i Örebro:
         </note>
-        <u xml:id="i-Pm6YLPkYbxJkH2SGsmDjBb" who="i-4KJMAUW9zFRD1g1ShqsMqw" next="i-T8BpgKhq5XC9Zowz5dj634">
+        <u xml:id="i-Pm6YLPkYbxJkH2SGsmDjBb" who="i-4KJMAUW9zFRD1g1ShqsMqw">
           <seg xml:id="i-BFNAs13PyUFDxhjWJPU6FK">
             Herr talman! Jag ber att få förena mig med dem, som yrkat avslag
             å den gjorda framställningen. Det må vara sant, att statsutskottet
@@ -520,13 +514,9 @@
             ifrån Kungl. Maj:ts sida, som ha gjorts, lärer statsutskottet
             i varje fall icke under-
           </seg>
-        </u>
-        <u xml:id="i-T8BpgKhq5XC9Zowz5dj634" who="i-4KJMAUW9zFRD1g1ShqsMqw" prev="i-Pm6YLPkYbxJkH2SGsmDjBb" next="i-Qiq2cNSYHrD21DnFK5saKy">
           <seg xml:id="i-GH9XAkzspmebVeXAZ6kgcy">
             "låta att göra.
           </seg>
-        </u>
-        <u xml:id="i-Qiq2cNSYHrD21DnFK5saKy" who="i-4KJMAUW9zFRD1g1ShqsMqw" prev="i-T8BpgKhq5XC9Zowz5dj634">
           <seg xml:id="i-RJq7hLJqGX8JXpqL6LqryP">
             Utav dessa skäl ber jag, som sagt, att för min del få biträda
             yrkandet om avslag å den här gjorda framställningen.
@@ -550,14 +540,12 @@
         <note xml:id="i-DbBLGqSK99qEMsgMm8vCYE">
           Nr 65.
         </note>
-        <u xml:id="i-PBG4ExjLXue1bu5SUiarvV" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-AaNJUJG14nhuCHQ7rgNdqy" next="i-AD3k4WgZNV9v9nECNfFdxd">
+        <u xml:id="i-PBG4ExjLXue1bu5SUiarvV" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-AaNJUJG14nhuCHQ7rgNdqy" next="i-Tw7pFasnMKeTnwXgXUJXm8">
           <seg xml:id="i-RnrSz1g61NU6BCiivHE6UX">
             hel mängd ärenden, som dit remitterats. Men även om man gör 4ng.
             fråga om detta aldrig så mycket, och jag förmodar, att det i alla
             fall blir ärrisne REN
           </seg>
-        </u>
-        <u xml:id="i-AD3k4WgZNV9v9nECNfFdxd" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-PBG4ExjLXue1bu5SUiarvV" next="i-Tw7pFasnMKeTnwXgXUJXm8">
           <seg xml:id="i-J1cE4Rpc9n1nVceqQV39cy">
             en tvingande nödvändighet för riksdagen att så göra, då så ofantligt
             många propositioner inkommit till riksdagen så sent
@@ -569,13 +557,11 @@
         <note xml:id="i-p3E9UAMhnyMSiHS26rACS">
           ling av propositionerna
         </note>
-        <u xml:id="i-Tw7pFasnMKeTnwXgXUJXm8" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-AD3k4WgZNV9v9nECNfFdxd" next="i-5Sq8nKazvdmHszKKtMgvv3">
+        <u xml:id="i-Tw7pFasnMKeTnwXgXUJXm8" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-PBG4ExjLXue1bu5SUiarvV">
           <seg xml:id="i-RZ5waRVKAqjBKTXM9fAbGn">
             som nu varit fallet, så är väl icke den omständigheten, synes
             det nr 218—220
           </seg>
-        </u>
-        <u xml:id="i-5Sq8nKazvdmHszKKtMgvv3" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-Tw7pFasnMKeTnwXgXUJXm8">
           <seg xml:id="i-9NobJNPzPXAXhiUdrGQZz6">
             mig åtminstone, något starkare skäl vid detta tillfälle än vid
             alla andra tillfällen att avvisa tanken på ett särskilt utskott
@@ -726,12 +712,10 @@
         <note xml:id="i-Mh8S6JM7MX78ij5x1ZJWWT" type="speaker">
           Forts. Herr Hamilton:
         </note>
-        <u xml:id="i-TsEArn1Vvrxv4jbVuUiNMa" who="i-4kz1fC2gQwdiC7G6RzQ2SK" next="i-TaAHxuGTQXUvbCYCvs1P42">
+        <u xml:id="i-TsEArn1Vvrxv4jbVuUiNMa" who="i-4kz1fC2gQwdiC7G6RzQ2SK">
           <seg xml:id="i-CF6uXs2douKxmV1fs15YiT">
             Herr talman, mina herrar! Arbetet i (Forte)
           </seg>
-        </u>
-        <u xml:id="i-TaAHxuGTQXUvbCYCvs1P42" who="i-4kz1fC2gQwdiC7G6RzQ2SK" prev="i-TsEArn1Vvrxv4jbVuUiNMa">
           <seg xml:id="i-UxXX7FLxTTv73KEHSjHnEH">
             statsutskottet belastar väl icke i någon vidare mån utskottet
             in pleno utan huvudsakligen avdelningarna, och den avdelning,
@@ -850,7 +834,7 @@
         <note xml:id="i-AXziwRwpQGX8FpJvwvdAbo" type="speaker">
           Herr Hamilton:
         </note>
-        <u xml:id="i-QDvSVPUSQYrWty4Unnuu4q" who="i-4kz1fC2gQwdiC7G6RzQ2SK" next="i-3Gq8jmcLWNUjmXetfX6dxU">
+        <u xml:id="i-QDvSVPUSQYrWty4Unnuu4q" who="i-4kz1fC2gQwdiC7G6RzQ2SK">
           <seg xml:id="i-BE6ZDDcGMyRAo3xfHk6dg3">
             Herr talman! Med avseende å området för jordbruksutskottets verksamhet
             och gränserna för detsamma ha vi, eftersom det är vårt nyaste
@@ -862,8 +846,6 @@
             oss för den och taga upp till behandling även detta ärende, om
             det hänvisas till vårt utskott.
           </seg>
-        </u>
-        <u xml:id="i-3Gq8jmcLWNUjmXetfX6dxU" who="i-4kz1fC2gQwdiC7G6RzQ2SK" prev="i-QDvSVPUSQYrWty4Unnuu4q">
           <seg xml:id="i-NQxnLgkChg11kMYQPwEtfT">
             Jag har intet yrkande att göra.
           </seg>
@@ -948,7 +930,7 @@
         <note xml:id="i-D26tHUvvR6k1Mr19hADBGM" type="speaker">
           Herr Bengtsson i Norup:
         </note>
-        <u xml:id="i-8NMQXbDFosz3xiLXi5A5R8" who="i-4B6aJinJu5TMisrcdsM8Um" next="i-E2qxBFELkww6MNQjbRPG12">
+        <u xml:id="i-8NMQXbDFosz3xiLXi5A5R8" who="i-4B6aJinJu5TMisrcdsM8Um" next="i-EZjH3b6w666pnJAYJFtf2L">
           <seg xml:id="i-KnWPpezAHC6JdqgfokoK7k">
             Genom antagande av detta utskottsutlåtande har kammaren bidragit
             till att få till stånd en riksdagsskrivelse med begäran om utredning
@@ -958,8 +940,6 @@
             i stad och på land, och de flesta av våra kommuner torde säkerligen
             få nytta därav.
           </seg>
-        </u>
-        <u xml:id="i-E2qxBFELkww6MNQjbRPG12" who="i-4B6aJinJu5TMisrcdsM8Um" prev="i-8NMQXbDFosz3xiLXi5A5R8" next="i-EZjH3b6w666pnJAYJFtf2L">
           <seg xml:id="i-7kRLjfifbMXWEERw4tKNco">
             Jag har emellertid icke begärt ordet för att yttra mig om detta
             utskottsbetänkande, utan jag har gjort detta med anledning. av
@@ -983,34 +963,24 @@
           (Forts.) Jag undrar, om det är så lämpligt, att man i ett föredrag
           fram-
         </note>
-        <u xml:id="i-EZjH3b6w666pnJAYJFtf2L" who="i-4B6aJinJu5TMisrcdsM8Um" prev="i-E2qxBFELkww6MNQjbRPG12" next="i-BN1pT1yiowWSL4ReaUAkv5">
+        <u xml:id="i-EZjH3b6w666pnJAYJFtf2L" who="i-4B6aJinJu5TMisrcdsM8Um" prev="i-8NMQXbDFosz3xiLXi5A5R8" next="i-9BKrF9K2Gbyr3xWqh59r4G">
           <seg xml:id="i-XyKYBjyqbUmXtPBYk9F1CM">
             håller, att inom de olika partierna intresset skulle vara skilt
             i
           </seg>
-        </u>
-        <u xml:id="i-BN1pT1yiowWSL4ReaUAkv5" who="i-4B6aJinJu5TMisrcdsM8Um" prev="i-EZjH3b6w666pnJAYJFtf2L" next="i-V1MJb9ZH2j2UieEJ74QZAz">
           <seg xml:id="i-YARrL5kiFPtcadvRCYZARq">
             denna för vårt folk så betydelsefulla fråga. Det har sagts, att
           </seg>
-        </u>
-        <u xml:id="i-V1MJb9ZH2j2UieEJ74QZAz" who="i-4B6aJinJu5TMisrcdsM8Um" prev="i-BN1pT1yiowWSL4ReaUAkv5" next="i-D3xbJdLSWaqTsiiZz1rLPG">
           <seg xml:id="i-PtpVzXNEj2uMsnP5CHunR3">
             95 90 av sedlighetsbrotten här i landet begås under rusets infly-
           </seg>
-        </u>
-        <u xml:id="i-D3xbJdLSWaqTsiiZz1rLPG" who="i-4B6aJinJu5TMisrcdsM8Um" prev="i-V1MJb9ZH2j2UieEJ74QZAz" next="i-VPesKDPbH98iA8CjMSpZ1t">
           <seg xml:id="i-Pa7s11SHHzqkdLK9Yzy8Ev">
             tande. De gånger, detta ämne varit uppe i riksdagen, har det
           </seg>
-        </u>
-        <u xml:id="i-VPesKDPbH98iA8CjMSpZ1t" who="i-4B6aJinJu5TMisrcdsM8Um" prev="i-D3xbJdLSWaqTsiiZz1rLPG" next="i-NbRWNw69CZJEWrriTGUUzW">
           <seg xml:id="i-UxeUCw1rcbFHcnCcpfFc5r">
             betonats från olika håll, att just nykterhetsfrågans lösning
             skulle
           </seg>
-        </u>
-        <u xml:id="i-NbRWNw69CZJEWrriTGUUzW" who="i-4B6aJinJu5TMisrcdsM8Um" prev="i-VPesKDPbH98iA8CjMSpZ1t" next="i-9BKrF9K2Gbyr3xWqh59r4G">
           <seg xml:id="i-yNS8FHusUjbR7hNGy7RT6">
             i betydande grad inverka på lösningen av sedlighetsfrågan. Nu
           </seg>
@@ -1018,12 +988,10 @@
         <note xml:id="i-P5xbBvfhu5x2bWAhuUy3wN">
           har bevillningsutskottet framlagt sitt förslag till sammanjämk-
         </note>
-        <u xml:id="i-9BKrF9K2Gbyr3xWqh59r4G" who="i-4B6aJinJu5TMisrcdsM8Um" prev="i-NbRWNw69CZJEWrriTGUUzW" next="i-4nRgTBduhiaG8jvfEhzhuf">
+        <u xml:id="i-9BKrF9K2Gbyr3xWqh59r4G" who="i-4B6aJinJu5TMisrcdsM8Um" prev="i-EZjH3b6w666pnJAYJFtf2L" next="i-JyEmPYUH4SzuY7BXiBt4Uc">
           <seg xml:id="i-XirT3PMxWiakaVyiZsEjzg">
             ning i nykterhetsfrågan, i vilket förslag nykterhetsmännen gjort
           </seg>
-        </u>
-        <u xml:id="i-4nRgTBduhiaG8jvfEhzhuf" who="i-4B6aJinJu5TMisrcdsM8Um" prev="i-9BKrF9K2Gbyr3xWqh59r4G" next="i-JyEmPYUH4SzuY7BXiBt4Uc">
           <seg xml:id="i-PgU2pKfUc3aB2MAtpwwjSt">
             de största möjliga eftergifter, och det skall bliva intressant
             att se,
@@ -1032,12 +1000,10 @@
         <note xml:id="i-3pjW2pzktMoGUyVF7MwoFr">
           om högermännen inom första kammaren vilja biträda den före-
         </note>
-        <u xml:id="i-JyEmPYUH4SzuY7BXiBt4Uc" who="i-4B6aJinJu5TMisrcdsM8Um" prev="i-4nRgTBduhiaG8jvfEhzhuf" next="i-4763rqTcj6d4wu8AGAka5U">
+        <u xml:id="i-JyEmPYUH4SzuY7BXiBt4Uc" who="i-4B6aJinJu5TMisrcdsM8Um" prev="i-9BKrF9K2Gbyr3xWqh59r4G">
           <seg xml:id="i-5KDDUzay3Ey1ZYMcGifKfL">
             slagna lösningen, som har en så grundläggande betydelse för sedlighetsfrågan.
           </seg>
-        </u>
-        <u xml:id="i-4763rqTcj6d4wu8AGAka5U" who="i-4B6aJinJu5TMisrcdsM8Um" prev="i-JyEmPYUH4SzuY7BXiBt4Uc" next="i-2L7kicUexxvgCFZU5eoQ4W">
           <seg xml:id="i-HA2LLvwGKJzBaVT8eaV4P9">
             Vidare har det betonats under debatter i denna kammare, att den
             trångboddhet och det inneboendesystem, som är rådande i städer
@@ -1048,8 +1014,6 @@
             som nu behandlar denna fråga, och vad det lider kommer resultatet
             på riksdagens bord.
           </seg>
-        </u>
-        <u xml:id="i-2L7kicUexxvgCFZU5eoQ4W" who="i-4B6aJinJu5TMisrcdsM8Um" prev="i-4763rqTcj6d4wu8AGAka5U">
           <seg xml:id="i-3gzcCoptt4CPMcNhr6DEwE">
             Jag har med detta velat påvisa, att sedlighetsfrågan ät av icke
             mindre intresse för vänsterpartierna än för högerpartiet, och
@@ -1144,7 +1108,7 @@
         <note xml:id="i-59dpLPFoWJWfUy4SDU8oRj" type="speaker">
           Herr Hage yttrade:
         </note>
-        <u xml:id="i-GgetbLswyUztE6TkS451Bc" who="i-3139LqaoEDPArxpLRyxXT8" next="i-LK3mZvkjQ5LfKbvhnQbddg">
+        <u xml:id="i-GgetbLswyUztE6TkS451Bc" who="i-3139LqaoEDPArxpLRyxXT8" next="i-CnB4TrB1BFtcWriTkSP4Sr">
           <seg xml:id="i-B3BV5zxv6cDVr95Q3ArYVx">
             Herr talman! Jag vore synnerligen tacksam, om särskilt sådana
             ledamöter här i kammaren, som representera bygder, som ha och
@@ -1166,8 +1130,6 @@
             att det är förenat med stora risker att placera kapital på detta
             sätt, dels därför att avkastningen i många fall blir så liten.
           </seg>
-        </u>
-        <u xml:id="i-LK3mZvkjQ5LfKbvhnQbddg" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-GgetbLswyUztE6TkS451Bc" next="i-CnB4TrB1BFtcWriTkSP4Sr">
           <seg xml:id="i-DMfc6uL8Fxc9KhRHNDyZ7j">
             Det är med hänvisning till dessa förhållanden, som jag för min
             del vågat lägga fram den här motionen. Dess utgångspunkt är ju
@@ -1190,7 +1152,7 @@
         <note xml:id="i-VXRTxYjkkr1nQfLwwg1TqP">
           pliktelser för enskilda järnvägsföretag. ( Forts.)
         </note>
-        <u xml:id="i-CnB4TrB1BFtcWriTkSP4Sr" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-LK3mZvkjQ5LfKbvhnQbddg" next="i-FWBYwgPkYpfZCp2q7yXkbp">
+        <u xml:id="i-CnB4TrB1BFtcWriTkSP4Sr" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-GgetbLswyUztE6TkS451Bc">
           <seg xml:id="i-L2mPP8eBZoKpwXw1YuWPgv">
             kunde åstadkomma en ökning av fonderna och därmed ett ökat byggande
             av enskilda järnvägar. För min del, vill jag säga, att denna tankegång
@@ -1203,8 +1165,6 @@
             söka lösa frågan om förbättrade och utökade kommunikationer på
             den väg, jag här antytt.
           </seg>
-        </u>
-        <u xml:id="i-FWBYwgPkYpfZCp2q7yXkbp" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-CnB4TrB1BFtcWriTkSP4Sr" next="i-T3h3aHCVL2mq2Nmm31Twv7">
           <seg xml:id="i-WBm9Sdxciv33vgp6Hc7A2o">
             Nu är det ju dessutom så, att det med avseende på statens järnvägar
             faktiskt är ungefärligen så ordnat, som jag ifrågasatt beträffande
@@ -1215,8 +1175,6 @@
             Vad som här ifrågasättes är sålunda intet annat än att söka åstadkomma
             liknande förhållanden vid de enskilda järnvägarna.
           </seg>
-        </u>
-        <u xml:id="i-T3h3aHCVL2mq2Nmm31Twv7" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-FWBYwgPkYpfZCp2q7yXkbp">
           <seg xml:id="i-XwoVFDzDBpnv7XycG7E5oZ">
             Jag skall ej här tillåta mig att nu gå längre in på frågan, fastän
             jag skulle kunna framhålla ännu en hel del skäl för mitt yrkande.
@@ -1266,12 +1224,10 @@
           som detta, som icke kan åstadkomma (Forts) mera, icke skulle kunna
           åstadkomma de förändrade lyckliga för-
         </note>
-        <u xml:id="i-X1L5gKewTz5HHJiPXh5izU" who="i-rTJYipszwy7NHLZruxVHz" prev="i-G8HXjH5c8s2vuhkxqo2NFs" next="i-DYwhbbpcmew8SXiE8Gb2rk">
+        <u xml:id="i-X1L5gKewTz5HHJiPXh5izU" who="i-rTJYipszwy7NHLZruxVHz" prev="i-G8HXjH5c8s2vuhkxqo2NFs" next="i-5ntHttnihJk2ACSH5gjqaj">
           <seg xml:id="i-9qjGPBvsVutmGpwYUfPVqF">
             hållanden, som motionären förespeglar.
           </seg>
-        </u>
-        <u xml:id="i-DYwhbbpcmew8SXiE8Gb2rk" who="i-rTJYipszwy7NHLZruxVHz" prev="i-X1L5gKewTz5HHJiPXh5izU" next="i-GWbfX3jB6G8wa3dhh1gzNu">
           <seg xml:id="i-QTiVzCp7CWXDcngfCsr6M4">
             Emellertid, den anmärkning, som utskottet har riktat mot denna
             motion, är den, att det enligt vår uppfattning skulle innebära
@@ -1297,15 +1253,11 @@
             angripa det kapital, som är nedlagt i enskilda järnvägar, kan
             man icke finna vara förenligt med rättvisa eller klokhet.
           </seg>
-        </u>
-        <u xml:id="i-GWbfX3jB6G8wa3dhh1gzNu" who="i-rTJYipszwy7NHLZruxVHz" prev="i-DYwhbbpcmew8SXiE8Gb2rk" next="i-8XzQzRwPELdesv1vAiEta7">
           <seg xml:id="i-6Wk8SKDCg4C2Abx7zviBgJ">
             Den beskattning, som bör utgå för att erhålla medel till de enskilda
             järnvägarne, bör med fullt lika fog läggas på andra produktiva
             företag. Detta är den huvudsynpunkt, som vi haft.
           </seg>
-        </u>
-        <u xml:id="i-8XzQzRwPELdesv1vAiEta7" who="i-rTJYipszwy7NHLZruxVHz" prev="i-GWbfX3jB6G8wa3dhh1gzNu" next="i-3SX5MR8S1rR7tFAQawUVDd">
           <seg xml:id="i-AHfkYaxopbnLUDVbYSjibL">
             Jag tror icke heller, att den jämförelse, som motionären gjort
             i motionen och senast nu i sitt anförande med en eventuell beskattning
@@ -1318,8 +1270,6 @@
             förhållandet med andra industrier eller med jordbruksnäringen
             1 vårt land.
           </seg>
-        </u>
-        <u xml:id="i-3SX5MR8S1rR7tFAQawUVDd" who="i-rTJYipszwy7NHLZruxVHz" prev="i-8XzQzRwPELdesv1vAiEta7" next="i-5ntHttnihJk2ACSH5gjqaj">
           <seg xml:id="i-EBtMCGBcdUgEj1Tp9iBZxf">
             Till sist ett ord angående den likhet, som motionären ansåg förefinnas
             mellan statens och privat kapital. Under det att de olika statsjärnvägarna
@@ -1339,14 +1289,12 @@
         <note xml:id="i-XgCZMeCbZYvd2aPicPxFT2" type="date">
           14 Onsdagen den 3 maj.
         </note>
-        <u xml:id="i-5ntHttnihJk2ACSH5gjqaj" who="i-rTJYipszwy7NHLZruxVHz" prev="i-3SX5MR8S1rR7tFAQawUVDd" next="i-YF4XTgcmbK1CoqMtFeW6Na">
+        <u xml:id="i-5ntHttnihJk2ACSH5gjqaj" who="i-rTJYipszwy7NHLZruxVHz" prev="i-X1L5gKewTz5HHJiPXh5izU">
           <seg xml:id="i-2mLocBfPtS29KtAnLczfbH">
             splittrat på en mängd olika händer. Det kan då icke gärna gå
             an att täcka förluster, som träffa den ena enskilda järnvägen,
             med vinst, som åtnjutits av en annan enskild järnväg.
           </seg>
-        </u>
-        <u xml:id="i-YF4XTgcmbK1CoqMtFeW6Na" who="i-rTJYipszwy7NHLZruxVHz" prev="i-5ntHttnihJk2ACSH5gjqaj">
           <seg xml:id="i-NYsLE3kNnxBEPN6xiNX5og">
             Jag ber, herr talman, få yrka bifall till utskottets hemställan.
           </seg>
@@ -1354,7 +1302,7 @@
         <note xml:id="i-34j8hFri3wAbBc333Ko1Kh" type="speaker">
           Herr Hage:
         </note>
-        <u xml:id="i-3uGz3n8awey9wu22prZK6i" who="i-3139LqaoEDPArxpLRyxXT8" next="i-P1z53gCJNvNAohvMe2XX8S">
+        <u xml:id="i-3uGz3n8awey9wu22prZK6i" who="i-3139LqaoEDPArxpLRyxXT8">
           <seg xml:id="i-J18HgQ9TKiufD1HVXNSCfd">
             Herr talman! Endast en helt kort erinran! Herr von Sneidern frågade,
             varför man skall lägga skatt på i enskilda järnvägar nedlagt kapital,
@@ -1371,8 +1319,6 @@
             man kunna vinna, och det är möjligt, att tillskottet också kan
             bli större i framtiden. |
           </seg>
-        </u>
-        <u xml:id="i-P1z53gCJNvNAohvMe2XX8S" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-3uGz3n8awey9wu22prZK6i">
           <seg xml:id="i-3Z6oboULxKo7aSLVtzcCNp">
             Under sådana förhållanden anser jag mig fortfarande böra stå
             kvar på mitt yrkande om bifall till reservationen.

@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-FG4xVkzfprk7LsiuYZUdz6" type="speech">
             <linkGrp type="u">
               <ptr target="#i-db96653675f96b3f-0"/>
@@ -233,7 +233,13 @@
               <ptr target="#i-8cxEVDcCSb2srczEq1icjT"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -1054,7 +1060,7 @@
         <note xml:id="i-GCzVDvrxmBMURe8FrSvWBU" type="date">
           Onsdagen den 30 maj 1951.
         </note>
-        <u xml:id="i-900328f18ca85b0e-5" who="i-JQkujvaf3hdU7wTkTVzkDk" prev="i-DiRmjp863oBa2aiNCQMjDh" next="i-WMBgbELdaMoTkDad9yc9gd">
+        <u xml:id="i-900328f18ca85b0e-5" who="i-JQkujvaf3hdU7wTkTVzkDk" prev="i-DiRmjp863oBa2aiNCQMjDh">
           <seg xml:id="i-SsNzLiWbyXC34hm8mKywVN">
             Då nämnda förslag ännu icke blivit föremål för slutlig prövning
             och Kungl. Maj:ts uppmärksamhet sålunda redan blivit fäst på föreliggande
@@ -1078,8 +1084,6 @@
             härtill, skall taga under förnyad prövning frågan om en höjning
             av procentsatsen för återbäring av nöjesskatten.
           </seg>
-        </u>
-        <u xml:id="i-WMBgbELdaMoTkDad9yc9gd" who="i-JQkujvaf3hdU7wTkTVzkDk" prev="i-900328f18ca85b0e-5">
           <seg xml:id="i-EJcfrR2bvsaESif7QzHVrm">
             Jag ber, herr talman, att få yrka bifall till utskottets hemställan.
           </seg>
@@ -1745,7 +1749,7 @@
         <note xml:id="i-Wzw9P6Sgtmh7UvCGaMoA4j">
           Ang. stöd åt svensk filmproduktion.
         </note>
-        <u xml:id="i-JwFaLqZqSzio5gwSsA8q1m" who="i-76SNFscuEcje1Vek94C3va" prev="i-db96653675f96b3f-26" next="i-D1LNPxH9vQzxfkfb95LvmP">
+        <u xml:id="i-JwFaLqZqSzio5gwSsA8q1m" who="i-76SNFscuEcje1Vek94C3va" prev="i-db96653675f96b3f-26" next="i-QYkcYaGM8nBfi6dfU4f9ub">
           <seg xml:id="i-VoF1T39wTeGnnv2nYR9Hzr">
             Jag föreställer mig, att det är sådana överväganden som ligga
             bakom det förslag som här föreligger. Om inte filmen får detta
@@ -1782,8 +1786,6 @@
             reagerar sunt. Få biografägarna eller rättare sagt filmproducenterna
             detta klart för sig, akta de sig nog för att producera dylik film.
           </seg>
-        </u>
-        <u xml:id="i-D1LNPxH9vQzxfkfb95LvmP" who="i-76SNFscuEcje1Vek94C3va" prev="i-JwFaLqZqSzio5gwSsA8q1m" next="i-QYkcYaGM8nBfi6dfU4f9ub">
           <seg xml:id="i-S8LAK6AfMQAsjinVb5LmHs">
             Herr Söderquist förde det resonemang-
           </seg>
@@ -1798,7 +1800,7 @@
         <note xml:id="i-7EJZoAnm7borynSdxhzTXU">
           Ang. stöd åt svensk filmproduktion.
         </note>
-        <u xml:id="i-QYkcYaGM8nBfi6dfU4f9ub" who="i-76SNFscuEcje1Vek94C3va" prev="i-D1LNPxH9vQzxfkfb95LvmP" next="i-BmgzhVnqJDmAZjNQvNaHUa">
+        <u xml:id="i-QYkcYaGM8nBfi6dfU4f9ub" who="i-76SNFscuEcje1Vek94C3va" prev="i-JwFaLqZqSzio5gwSsA8q1m">
           <seg xml:id="i-WHVvogYjgYW2s2jEyDiCdc">
             et, att nu då statskassan är så hårt ansträngd, skall man inte
             lämna stöd åt den här produktionen. Jag har redan berört det faktum
@@ -1806,8 +1808,6 @@
             resultatet att bli att staten förlorar väsentligt mer än vad det
             stöd uppgår till som det nu är fråga om.
           </seg>
-        </u>
-        <u xml:id="i-BmgzhVnqJDmAZjNQvNaHUa" who="i-76SNFscuEcje1Vek94C3va" prev="i-QYkcYaGM8nBfi6dfU4f9ub">
           <seg xml:id="i-61NQ4UpUxgFygiez7wgkLW">
             Jag ber, herr talman, att få yrka bifall till utskottets hemställan.
           </seg>
@@ -2171,13 +2171,11 @@
         <note xml:id="i-JY3Pwms7zxB42uGYUoKwQo">
           Ang. stöd åt svensk filmproduktion.
         </note>
-        <u xml:id="i-8tzDyTQw5DTgfaBMWw3G6T" who="i-KuB4uD7nfwSkFUeqo4QMKa" prev="i-db96653675f96b3f-21" next="i-db96653675f96b3f-23">
+        <u xml:id="i-8tzDyTQw5DTgfaBMWw3G6T" who="i-KuB4uD7nfwSkFUeqo4QMKa" prev="i-db96653675f96b3f-21">
           <seg xml:id="i-D84A4KmqsqgciJdhZikiaF">
             med de tre sista orden givetvis vad som anförts i reservanternas
             förslag till yttrande och inte i utskottets förslag.
           </seg>
-        </u>
-        <u xml:id="i-db96653675f96b3f-23" who="i-KuB4uD7nfwSkFUeqo4QMKa" prev="i-8tzDyTQw5DTgfaBMWw3G6T">
           <seg xml:id="i-PhzukagGwY5sge3g6sTU6r">
             Nu har herr Sjödahl sagt till mig under hand, att han skulle
             ha kunnat vara med på att rösta för punkterna II och III i reservationen
@@ -2436,7 +2434,7 @@
         <note xml:id="i-Sif6fgP5sGuxRJTVe6KMXa" type="speaker">
           Herr SJÖDAHL:
         </note>
-        <u xml:id="i-76449895c8d54c24-3" who="i-8SEmi1JqbwCoJ1VPeGoz48" next="i-CaLvqj6rX1pBZ9EYGXwKh5">
+        <u xml:id="i-76449895c8d54c24-3" who="i-8SEmi1JqbwCoJ1VPeGoz48">
           <seg xml:id="i-GTb4bNUwuC67Mphiqo1aNA">
             Herr talman! Åberoenda vad jag förut anfört ber jag att få yrka
             bifall till motionerna 440 i första kammaren och 513 i andra kammaren.
@@ -2456,8 +2454,6 @@
             i punkt II, som nu efter vad som beslutats rörande punkt I knappast
             har någon relevans.
           </seg>
-        </u>
-        <u xml:id="i-CaLvqj6rX1pBZ9EYGXwKh5" who="i-8SEmi1JqbwCoJ1VPeGoz48" prev="i-76449895c8d54c24-3">
           <seg xml:id="i-2zfcv7WpnXfFfB7TcqmNjp">
             Herr talman! Jag yrkar alltså bifall till motionerna 440 i första
             kammaren och 313 i andra kammaren.
@@ -2542,13 +2538,11 @@
         <note xml:id="i-2LbPFrfknnWjibnRy4GUJu" type="speaker">
           Herr SÖDERQUIST:
         </note>
-        <u xml:id="i-db96653675f96b3f-24" who="i-KuB4uD7nfwSkFUeqo4QMKa" next="i-FV3rWX6oCorgyDR7L5fHQ9">
+        <u xml:id="i-db96653675f96b3f-24" who="i-KuB4uD7nfwSkFUeqo4QMKa">
           <seg xml:id="i-5Z6oB6bCvfEvwrp1X9dhPp">
             Jag ber att få yrka bifall till den under punkten III av mig
             m. fl. avgivna reservationen.
           </seg>
-        </u>
-        <u xml:id="i-FV3rWX6oCorgyDR7L5fHQ9" who="i-KuB4uD7nfwSkFUeqo4QMKa" prev="i-db96653675f96b3f-24">
           <seg xml:id="i-KT5gdgNEQ4es3S9Jkzq7VL">
             Jag vill särskilt framhålla, att då det i reservationen hemställes,
             att riksdagen skall »giva till känna vad utskottet anfört», avses
@@ -2869,14 +2863,12 @@
           besvara herr Stens interpellation angående det femte biblioteksexemplaret
           av tryckta skrifter, erhöll ordet och anförde:
         </note>
-        <u xml:id="i-RwaMFmuVRHLnHXHvUzzp8g" who="i-MBoQhoiPhUghQ4CXR6kcEf" next="i-900328f18ca85b0e-14">
+        <u xml:id="i-RwaMFmuVRHLnHXHvUzzp8g" who="i-MBoQhoiPhUghQ4CXR6kcEf" next="i-900328f18ca85b0e-15">
           <seg xml:id="i-GeFiFBZBtoZACkiLftxkf4">
             Herr talman! I en med första kammarens medgivande framställd
             interpellation har herr Sten frågat mig, vilka motiv och överväganden
             som ligga till grund för beslutet angående det s. k. femte exemplaret.
           </seg>
-        </u>
-        <u xml:id="i-900328f18ca85b0e-14" who="i-MBoQhoiPhUghQ4CXR6kcEf" prev="i-RwaMFmuVRHLnHXHvUzzp8g" next="i-900328f18ca85b0e-15">
           <seg xml:id="i-GiksjsZveck3e6bmvf9Jo1">
             Innan jag närmare ingår på denna fråga, vill jag i korthet omtala
             vad saken gäller. Sedan gammalt har allt tryck, som framställes
@@ -2908,7 +2900,7 @@
         <note xml:id="i-6nCvg9LinA3ZrzAJQhXvT7" type="date">
           Torsdagen den 31 maj 1951.
         </note>
-        <u xml:id="i-900328f18ca85b0e-15" who="i-MBoQhoiPhUghQ4CXR6kcEf" prev="i-900328f18ca85b0e-14">
+        <u xml:id="i-900328f18ca85b0e-15" who="i-MBoQhoiPhUghQ4CXR6kcEf" prev="i-RwaMFmuVRHLnHXHvUzzp8g">
           <seg xml:id="i-46D5LoYhK2dzd2JQKGdyhw">
             har föregåtts av utredning inom ecklesiastikdepartementet och
             ingående överväganden inom regeringen. Ecklesiastikministern har
@@ -3089,7 +3081,7 @@
         <note xml:id="i-PobCAvvYQAJYmSZeWBuZNr" type="speaker">
           Herr PÅLSSON:
         </note>
-        <u xml:id="i-9bf6c45d867d56bf-0" who="i-KyDG5utQmSAidq3exNCrZk" next="i-8QuGm4NH5sfgMJBi62d6LF">
+        <u xml:id="i-9bf6c45d867d56bf-0" who="i-KyDG5utQmSAidq3exNCrZk">
           <seg xml:id="i-NZfj7BRgaCXTMnKkeowrvp">
             Herr talman! Jag har inte begärt ordet för att på något sätt
             kvälja dom i det avgörande, som regeringen här fattat. Jag ville
@@ -3101,13 +3093,9 @@
             regeringens beslut, även om vi givetvis i Jämtland känna oss litet
             ledsna och besvikna.
           </seg>
-        </u>
-        <u xml:id="i-8QuGm4NH5sfgMJBi62d6LF" who="i-KyDG5utQmSAidq3exNCrZk" prev="i-9bf6c45d867d56bf-0" next="i-PLZGoUiRvnkRxapp78zDkL">
           <seg xml:id="i-FWkqAS1ER2adMKtFFxpBLG">
             Vad jag utöver herr Stens anförande
           </seg>
-        </u>
-        <u xml:id="i-PLZGoUiRvnkRxapp78zDkL" who="i-KyDG5utQmSAidq3exNCrZk" prev="i-8QuGm4NH5sfgMJBi62d6LF">
           <seg xml:id="i-RK8cBzMcXhuawgpyX46AqV">
             skulle vilja säga i det här sammanhanget och mot bakgrunden av
             vad han sade är, att det har förefallit under senare år som om
@@ -3189,15 +3177,13 @@
         <note xml:id="i-CNVFBYdnZJ5rLn1PqzwP65" type="speaker">
           Herr TALMANNEN yttrade:
         </note>
-        <u xml:id="i-db96653675f96b3f-25" who="i-XLVGDGtQ7NCyXWncMFEL2t" next="i-8cxEVDcCSb2srczEq1icjT">
+        <u xml:id="i-db96653675f96b3f-25" who="i-XLVGDGtQ7NCyXWncMFEL2t">
           <seg xml:id="i-2vpBW25sW8Um7q2eNk9dLz">
             Efter samråd med andra kammarens talman får jag tillkännagiva
             att riksdagens höstsession kommer att taga sin början tisdagen
             den 16 oktober, då kamrarna komma att kallas till sammanträde
             kl. 2 e. m.
           </seg>
-        </u>
-        <u xml:id="i-8cxEVDcCSb2srczEq1icjT" who="i-XLVGDGtQ7NCyXWncMFEL2t" prev="i-db96653675f96b3f-25">
           <seg xml:id="i-UvteXSRd1G4HffXGtowtyS">
             Kallelser komma att utfärdas genom sedvanlig annonsering i dagspressen
             och genom tillkännagivande i radio.

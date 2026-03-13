@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-GoKqpeWs39aFEFih9ExBHc" type="speech">
             <linkGrp type="u">
               <ptr target="#i-VNoZT5ZiLiRYHEbpoXGqJ3"/>
@@ -38,7 +38,13 @@
               <ptr target="#i-WVKYAJis5kaWcYHxd3er6z"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -199,7 +205,7 @@
         <note xml:id="i-2WFLnjiGrYqHupBXnNCvLb" type="speaker">
           Herr Widlund, som yttrade:
         </note>
-        <u xml:id="i-VNoZT5ZiLiRYHEbpoXGqJ3" who="i-7obXNCmoo5c3sVuUBAurF8" next="i-S3RCU5caeaAQx4UAv39u61">
+        <u xml:id="i-VNoZT5ZiLiRYHEbpoXGqJ3" who="i-7obXNCmoo5c3sVuUBAurF8">
           <seg xml:id="i-8cQDkJ4xL7AVCkC244WxsT">
             Herr talman! I den nu bordlagda motionen hemställes till sist,
             »atl riksdagen måtte besluta att i skrivelse till Kungl. Maj:t
@@ -209,14 +215,10 @@
             erhållit tillträde till statsunderstödda pensionsoch understödskassor,
             och sådana barn om ej kunnat er-
           </seg>
-        </u>
-        <u xml:id="i-S3RCU5caeaAQx4UAv39u61" who="i-7obXNCmoo5c3sVuUBAurF8" prev="i-VNoZT5ZiLiRYHEbpoXGqJ3" next="i-MfcqSVJLC8q4PyU1Yuvj7c">
           <seg xml:id="i-4SYfVHesgMs4NiB6KnQdok">
             hålla tillträde till dylika kassor». Jag hemställer, att kammaren
             måtte medgiva, att detta mitt
           </seg>
-        </u>
-        <u xml:id="i-MfcqSVJLC8q4PyU1Yuvj7c" who="i-7obXNCmoo5c3sVuUBAurF8" prev="i-S3RCU5caeaAQx4UAv39u61">
           <seg xml:id="i-JPunBYGsgWiwx7HgYHanYq">
             senare yrkande får utgå. ö
           </seg>
@@ -279,8 +281,6 @@
           <seg xml:id="i-55C1RsWacShLSiBXCS7U1D">
             Riksdagsman R. Andersson är till följd av lungkatarr och
           </seg>
-        </u>
-        <u xml:id="i-WVKYAJis5kaWcYHxd3er6z" who="unknown">
           <seg xml:id="i-33JZHudBcqZyPJwrTsMMWS">
             astma under några dägar hindrad lämna sin bostad.
           </seg>

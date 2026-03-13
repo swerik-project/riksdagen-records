@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>digital-origin</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">digital-origin</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-7qrwJFGVySjgEupgsyBRPW" type="speech">
             <linkGrp type="u">
               <ptr target="#i-fdcd8c992fcabdef-3"/>
@@ -357,7 +357,13 @@
               <ptr target="#i-LycyFv7B9pzwhfv74sNmkQ"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -404,7 +410,7 @@
         <note xml:id="i-B2i7HsVw4BJorRwdEXwSYU">
           Interpellationen kommer att besvaras onsdagen den 20 juni 2012.
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-0" who="unknown">
+        <u xml:id="i-fdcd8c992fcabdef-0" who="unknown" next="i-fdcd8c992fcabdef-1">
           <seg xml:id="i-FWNVpicPhugiKFTjjsjAW1">
             Skälet till dröjsmålet är tidigare inbokade arrangemang och resor.
           </seg>
@@ -421,7 +427,7 @@
         <note xml:id="i-PXmpA2jRqnVtZTfbSk6JUW">
           Interpellationen kommer att besvaras onsdagen den 20 juni 2012.
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-1" who="unknown">
+        <u xml:id="i-fdcd8c992fcabdef-1" who="unknown" prev="i-fdcd8c992fcabdef-0" next="i-fdcd8c992fcabdef-2">
           <seg xml:id="i-NjLw55Ai1FGmSXaie6mQjJ">
             Skälet till dröjsmålet är tidigare inbokade arrangemang och resor.
           </seg>
@@ -440,7 +446,7 @@
           2012.
         </note>
         <pb facs="http://data.riksdagen.se/fil/1A6A9B11-3F4B-43E8-90AA-55A7E22B2C14#page=2"/>
-        <u xml:id="i-fdcd8c992fcabdef-2" who="unknown">
+        <u xml:id="i-fdcd8c992fcabdef-2" who="unknown" prev="i-fdcd8c992fcabdef-1">
           <seg xml:id="i-PbEtgaTkPtPRXyGw5TVE1v">
             Skälet till dröjsmålet är redan inbokade engagemang.
           </seg>
@@ -483,7 +489,7 @@
         <note xml:id="i-AA36PTVoQiCfqjXhg68orB">
           Interpellationen har överlämnats till mig.
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-5" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-3" next="i-fdcd8c992fcabdef-6">
+        <u xml:id="i-fdcd8c992fcabdef-5" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-3" next="i-fdcd8c992fcabdef-8">
           <seg xml:id="i-U5oV8DhK1FQdQKJmKwtRXY">
             Franchising kan vara ett bra val för en person som vill starta
             näringsverksamhet. Det kan kännas tryggt att börja verksamheten
@@ -492,8 +498,6 @@
             Att franchising är ett attraktivt sätt att starta och driva företag
             visar de nära 30 000 franchisetagarna i Sverige.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-6" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-5" next="i-fdcd8c992fcabdef-7">
           <seg xml:id="i-4ZSZiu4hcpcqYRJ4aAoQT7">
             Sedan år 2006 gäller en särskild lag om franchisegivares informationsskyldighet.
             Lagen syftar till att stärka en blivande franchisetagares ställning.
@@ -503,8 +507,6 @@
             av avtalet och upplysningar om hur en tvist med anledning av avtalet
             ska prövas.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-7" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-6" next="i-fdcd8c992fcabdef-8">
           <seg xml:id="i-StxuBqN6ruuXSn5cr3vdsG">
             Genom den informationen får franchisetagaren upplysningar om
             särskilt viktiga delar av avtalet och kan på grundval av informationen
@@ -514,7 +516,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/1A6A9B11-3F4B-43E8-90AA-55A7E22B2C14#page=3"/>
-        <u xml:id="i-fdcd8c992fcabdef-8" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-7" next="i-fdcd8c992fcabdef-9">
+        <u xml:id="i-fdcd8c992fcabdef-8" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-5">
           <seg xml:id="i-VoeoTa8kdXFdLJvPUC5seF">
             Ett problem är att en franchisetagare ofta intar en underlägsen
             ställning i förhållande till franchisegivaren, vilket gör att
@@ -525,21 +527,15 @@
             hänsyn till behovet av skydd för den som intar en underlägsen
             ställning i avtalsförhållandet.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-9" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-8" next="i-fdcd8c992fcabdef-10">
           <seg xml:id="i-7hsXs8puN6nBkfjHh4FmbQ">
             Oskäliga avtalsvillkor kan också jämkas eller lämnas utan avseende
             i sin helhet.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-10" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-9" next="i-fdcd8c992fcabdef-11">
           <seg xml:id="i-MVgrRfRo5Qi7L5X4c895x8">
             Ibland rapporteras det om franchisetagare som har råkat illa
             ut, och bland annat mot den bakgrunden har det ifrågasatts om
             den gällande lagstiftningen är tillräcklig.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-11" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-10" next="i-fdcd8c992fcabdef-12">
           <seg xml:id="i-JwVEamN9X3UufCUqNxgeKx">
             Som jag har pekat på finns det redan i dag skyddsregler som kan
             tillämpas för att ge franchisetagaren ett bra underlag inför sitt
@@ -549,8 +545,6 @@
             två näringsidkare som vill ingå en affärsrelation. Jag anser att
             man ska vara försiktig med att göra sådana ingrepp.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-12" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-11" next="i-fdcd8c992fcabdef-13">
           <seg xml:id="i-323G5o7SYrnJ6daVB62fvF">
             Jag kan konstatera att inte heller riksdagen anser att det finns
             skäl att införa ny lagstiftning. Frågan har behandlats av riksdagen
@@ -558,8 +552,6 @@
             ett motionsyrkande om lagstiftning på området. Utskottet ansåg
             att det inte fanns skäl att ytterligare lagreglera avtalen.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-13" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-12">
           <seg xml:id="i-UPDswBLMgTCZU2vGTWbB55">
             Enligt min uppfattning vore det bästa om de problem som förekommer
             i stället kunde hanteras av de branschorganisationer som är verksamma
@@ -571,15 +563,13 @@
         <note xml:id="i-7ycavKXtzdpaHmbhu4C24R" type="speaker">
           Anf. 2 BÖRJE VESTLUND (S):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-14" who="i-MVzhVeKwRGmjHjHoSrReg9" next="i-fdcd8c992fcabdef-15">
+        <u xml:id="i-fdcd8c992fcabdef-14" who="i-MVzhVeKwRGmjHjHoSrReg9" next="i-fdcd8c992fcabdef-17">
           <seg xml:id="i-GgTtK32Y7jUWb1RDgJYHBu">
             Herr talman! Jag kan delvis hålla med om vad statsrådet sade
             i sitt svar. Ytterligare reglering av eller ändringar i den fria
             avtalsfriheten ska man vara försiktig med. Man ska fundera ett
             par varv innan man bestämmer sig för att göra ändringar.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-15" who="i-MVzhVeKwRGmjHjHoSrReg9" prev="i-fdcd8c992fcabdef-14" next="i-fdcd8c992fcabdef-16">
           <seg xml:id="i-51EHz1JPSLnET5BeBLp8hF">
             Från tid till annan vet vi att företag kommer i kläm på olika
             sätt. Det absolut vanligaste är att det lilla företaget inte har
@@ -589,8 +579,6 @@
             Men det finns flera sätt att frångå lagen, och det är därför jag
             har väckt interpellationen. Kraven återkommer ständigt.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-16" who="i-MVzhVeKwRGmjHjHoSrReg9" prev="i-fdcd8c992fcabdef-15" next="i-fdcd8c992fcabdef-17">
           <seg xml:id="i-Wbmk4DcwQJcDPM18cmXuqa">
             Först och främst är det oklart om Marknadsdomstolen ens i något
             fall har dömt i en sådan här fråga. Den enkla anledningen är att
@@ -603,7 +591,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/1A6A9B11-3F4B-43E8-90AA-55A7E22B2C14#page=4"/>
-        <u xml:id="i-fdcd8c992fcabdef-17" who="i-MVzhVeKwRGmjHjHoSrReg9" prev="i-fdcd8c992fcabdef-16" next="i-fdcd8c992fcabdef-18">
+        <u xml:id="i-fdcd8c992fcabdef-17" who="i-MVzhVeKwRGmjHjHoSrReg9" prev="i-fdcd8c992fcabdef-14">
           <seg xml:id="i-5BgE28XfRBGw5X5JVFDTzU">
             Det finns en rad andra saker att tänka på. En populär sak är
             att man tvingas betala till ett marknadsföringsbolag utan att
@@ -614,8 +602,6 @@
             för de insatser man de facto har gjort i sitt företag. Här kan
             man inte bara stillatigande titta på.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-18" who="i-MVzhVeKwRGmjHjHoSrReg9" prev="i-fdcd8c992fcabdef-17" next="i-fdcd8c992fcabdef-19">
           <seg xml:id="i-T96WBAD1wn5UeZpFDAKpG2">
             Visst är det viktigt att upprätthålla den fria avtalsrätten,
             men vi måste också skydda dem som inte på annat sätt kan få stöd.
@@ -625,8 +611,6 @@
             som tjänar mycket pengar på att göra en liten insats. Varför skulle
             de vilja minska sin möjlighet att tjäna pengar?
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-19" who="i-MVzhVeKwRGmjHjHoSrReg9" prev="i-fdcd8c992fcabdef-18">
           <seg xml:id="i-CzC4CYcbBb1YJGDe75UZqm">
             Det skulle vara mer ärligt av regeringen att framföra ungefär
             följande, nämligen att det är självklart att regeringen ska se
@@ -638,7 +622,7 @@
         <note xml:id="i-A1evN1zhtUC8VtjLYDJe3P" type="speaker">
           Anf. 3 MARGARETA CEDERFELT (M):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-20" who="i-GJLL78ePjJhSXVWBYyRW8t" next="i-fdcd8c992fcabdef-21">
+        <u xml:id="i-fdcd8c992fcabdef-20" who="i-GJLL78ePjJhSXVWBYyRW8t" next="i-fdcd8c992fcabdef-25">
           <seg xml:id="i-PxCsGxb4b58S98ikTJ3xv4">
             Herr talman! Börje Vestlund har ställt en i allra högsta grad
             viktig interpellation som handlar om franchisetagande och ytterst
@@ -649,15 +633,11 @@
             för beslut föreslog vi från utskottets majoritet avslag på motionen,
             och det inkom en reservation från Socialdemokraterna.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-21" who="i-GJLL78ePjJhSXVWBYyRW8t" prev="i-fdcd8c992fcabdef-20" next="i-fdcd8c992fcabdef-22">
           <seg xml:id="i-PzqpQ6Gu87UqwJCg39emhF">
             Vad jag skulle vilja lyfta upp här är, precis som justitieministern
             har sagt, att det finns en lagstiftning. Den handlar till stora
             delar om att skydda den svagare parten, i detta sammanhang franchisetagaren.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-22" who="i-GJLL78ePjJhSXVWBYyRW8t" prev="i-fdcd8c992fcabdef-21" next="i-fdcd8c992fcabdef-23">
           <seg xml:id="i-MzUVx5EmcWULyyAo8hHk9F">
             Men jag vill lyfta upp en annan fråga som är så viktig i dessa
             sammanhang, och det handlar om att franchise ger ett stort antal
@@ -669,8 +649,6 @@
             franchisesystemet och startar ett eget företag där de själva står
             som ägare.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-23" who="i-GJLL78ePjJhSXVWBYyRW8t" prev="i-fdcd8c992fcabdef-22" next="i-fdcd8c992fcabdef-24">
           <seg xml:id="i-TWAi7fB9ruQpUhXF7koCD6">
             I det stora hela uppfattar jag att systemet fungerar bra. Men
             vad jag också vill lyfta fram är att vi i Sverige, precis som
@@ -681,8 +659,6 @@
             varandra finns det möjligheter att gå vidare för att bygga på
             den svenska tradition som finns inom många områden.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-24" who="i-GJLL78ePjJhSXVWBYyRW8t" prev="i-fdcd8c992fcabdef-23" next="i-fdcd8c992fcabdef-25">
           <seg xml:id="i-TEyHjtPfY2TfPM8eWLXZQ4">
             Vad jag också vill säga och lyfta fram är att det är så viktigt
             för den som vill starta franchise att ta del av andras erfarenheter,
@@ -692,7 +668,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/1A6A9B11-3F4B-43E8-90AA-55A7E22B2C14#page=5"/>
-        <u xml:id="i-fdcd8c992fcabdef-25" who="i-GJLL78ePjJhSXVWBYyRW8t" prev="i-fdcd8c992fcabdef-24" next="i-fdcd8c992fcabdef-26">
+        <u xml:id="i-fdcd8c992fcabdef-25" who="i-GJLL78ePjJhSXVWBYyRW8t" prev="i-fdcd8c992fcabdef-20">
           <seg xml:id="i-9ppLyjAYdJgH5oF6xwnJ4A">
             Börje Vestlund nämner i sin interpellation att det finns franchisetagare
             som går i konkurs och har gjort fel bedömningar. Det är oerhört
@@ -704,8 +680,6 @@
             finns inom allt företagande. Det är angeläget att såväl den som
             startar franchise som den som erbjuder franchise har med marknadsanalyser.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-26" who="i-GJLL78ePjJhSXVWBYyRW8t" prev="i-fdcd8c992fcabdef-25">
           <seg xml:id="i-Bom8w9GfrFb8DmGK7BmeGp">
             Att gå in och reglera ytterligare är ingenting som vi från civilutskottet
             har diskuterat och tagit ställning till, och det är heller ingenting
@@ -715,7 +689,7 @@
         <note xml:id="i-EyqpwfCDVeKFrf67Z3HkDG" type="speaker">
           Anf. 4 Justitieminister BEATRICE ASK (M):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-27" who="i-PRHkYxGCaT2cbJpjjfnRtn" next="i-fdcd8c992fcabdef-28">
+        <u xml:id="i-fdcd8c992fcabdef-27" who="i-PRHkYxGCaT2cbJpjjfnRtn" next="i-fdcd8c992fcabdef-32">
           <seg xml:id="i-V1if2DNjFmxibgERs8HiFv">
             Herr talman! Jag tror att Börje Vestlund gör stor nytta genom
             att lyfta fram frågan så att vi får diskutera den. Det finns ett
@@ -727,8 +701,6 @@
             att vi är överens om en viss försiktighet när det gäller att göra
             ingrepp i avtalsfriheten.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-28" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-27" next="i-fdcd8c992fcabdef-29">
           <seg xml:id="i-FPGs5fKG9yZQJooqoeLBif">
             Det finns några saker som jag tycker att man ska komma ihåg när
             det gäller detta. Det ena är naturligtvis att denna typ av avtal
@@ -739,8 +711,6 @@
             dem. Här har branschorganisationerna ett oerhört viktigt ansvar
             och en möjlighet.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-29" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-28" next="i-fdcd8c992fcabdef-30">
           <seg xml:id="i-QYhATT16ZyQCcxtKbpv5fa">
             Sedan kan man diskutera detta med skiljeklausuler, som Börje
             Vestlund lyfte upp. Man ska ha klart för sig att det finns fördelar
@@ -752,8 +722,6 @@
             mål att pröva. Då blir det inte mycket gjort, utan här behövs
             naturligtvis någon prövning.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-30" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-29" next="i-fdcd8c992fcabdef-31">
           <seg xml:id="i-RZfmUsVrwxiqX3pr966VhS">
             Då tycker jag att det är centralt att påpeka att det inte bara
             är enskilda småföretagare, eftersom vi pratar om ganska små företag,
@@ -761,8 +729,6 @@
             göra. Det finns goda möjligheter att få specifika frågor prövade,
             och det vore väl bra om man gjorde det.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-31" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-30" next="i-fdcd8c992fcabdef-32">
           <seg xml:id="i-8rahQk5DqqERWjtLyisuZC">
             Jag tror också att det från riksdagens perspektiv är bra om den
             lagstiftning som vi har, som har tagits fram i ordnade former
@@ -772,7 +738,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/1A6A9B11-3F4B-43E8-90AA-55A7E22B2C14#page=6"/>
-        <u xml:id="i-fdcd8c992fcabdef-32" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-31" next="i-fdcd8c992fcabdef-33">
+        <u xml:id="i-fdcd8c992fcabdef-32" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-27">
           <seg xml:id="i-4v7cjskfsC1dEWCn9A8n6M">
             Jag tror att det är viktigt att ha ögonen på den problematik
             som Börje Vestlund pekar på. Det är svårt att vara liten företagare
@@ -781,8 +747,6 @@
             man kanske inte har tänkt igenom riktigt. Här behövs det stöd.
             Det är också därför reglerna är utformade på det sätt som de är.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-33" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-32">
           <seg xml:id="i-7F6LX9afXYT9yNcjdyyrXo">
             Jag tycker att vi har en tämligen bra lagstiftning. Jag tycker
             att det vore bra om den prövades. Det kan också vara så att den
@@ -795,7 +759,7 @@
         <note xml:id="i-RrMLuPJAY7mrvp3CsWksWT" type="speaker">
           Anf. 5 BÖRJE VESTLUND (S):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-34" who="i-MVzhVeKwRGmjHjHoSrReg9" next="i-fdcd8c992fcabdef-35">
+        <u xml:id="i-fdcd8c992fcabdef-34" who="i-MVzhVeKwRGmjHjHoSrReg9">
           <seg xml:id="i-LxFEC1jxc4hjm6243qDFfG">
             Herr talman! Det finns naturligtvis exempel på att franchisesystemet
             fungerar utmärkt. Det som framför allt brukar diskuteras är ett
@@ -804,8 +768,6 @@
             finns det de som har utvecklat sina företag mer och kanske skaffat
             ännu fler enheter.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-35" who="i-MVzhVeKwRGmjHjHoSrReg9" prev="i-fdcd8c992fcabdef-34" next="i-fdcd8c992fcabdef-36">
           <seg xml:id="i-K4hGKwKHPeHpnavV5Rc2gf">
             Men det finns också stora, välkända företag som tyvärr visar
             på motsatsen, där man utnyttjar varje liten del som man över huvud
@@ -813,8 +775,6 @@
             som är lagligt. Det är ju det som är det stora problemet, och
             det är för den gruppen det behövs skyddslagstiftning.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-36" who="i-MVzhVeKwRGmjHjHoSrReg9" prev="i-fdcd8c992fcabdef-35" next="i-fdcd8c992fcabdef-37">
           <seg xml:id="i-XXYoM9AFGEvKLEErDTBwog">
             Låt mig då säga två saker, först när det gäller ekonomi och varför
             det inte finns så stor kunskap om konkurser. Det går så långt
@@ -824,8 +784,6 @@
             försörja en. Det finns åtskilliga sådana fall att berätta om.
             Det är därför det inte finns så många konkurser.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-37" who="i-MVzhVeKwRGmjHjHoSrReg9" prev="i-fdcd8c992fcabdef-36" next="i-fdcd8c992fcabdef-38">
           <seg xml:id="i-9RjuBFojbbgoERRQwyWpKv">
             Sedan skulle jag vilja peka på en annan del, där man inte behöver
             gå in med lagstiftning men göra dem observanta. Det är det statliga
@@ -837,16 +795,12 @@
             kanske inte är så bra. Man kanske till och med ska kunna säga
             ifrån till vissa företag.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-38" who="i-MVzhVeKwRGmjHjHoSrReg9" prev="i-fdcd8c992fcabdef-37" next="i-fdcd8c992fcabdef-39">
           <seg xml:id="i-TxvMZNbTfvAXJVRGp4nic">
             Den största kritiken gäller väl informationsplikten. Man har
             en informationsplikt, men oftast ligger man på gränsen till vad
             man är tvungen att göra. Det är därför väldigt många franchisetagare
             hamnar i den situation som de hamnar i.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-39" who="i-MVzhVeKwRGmjHjHoSrReg9" prev="i-fdcd8c992fcabdef-38">
           <seg xml:id="i-2U8nonVfgi6yNLtrJW7RUr">
             Jag tror, herr talman, att jag får avbryta här och låta andra
             debattörer komma in, så återkommer jag i ett slutanförande sedan.
@@ -855,7 +809,7 @@
         <note xml:id="i-F3QDGPQ5JzPLkBXNrVacf8" type="speaker">
           Anf. 6 MARGARETA CEDERFELT (M):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-40" who="i-GJLL78ePjJhSXVWBYyRW8t" next="i-fdcd8c992fcabdef-41">
+        <u xml:id="i-fdcd8c992fcabdef-40" who="i-GJLL78ePjJhSXVWBYyRW8t" next="i-fdcd8c992fcabdef-42">
           <seg xml:id="i-VXm9SWz7wyyjWz2cQr1dX3">
             Herr talman! Jag instämmer i vad som har sagts här om att frågan
             är viktig, eftersom den berör en stor del av näringslivet och
@@ -863,8 +817,6 @@
             angeläget att vara försiktig med en lagstiftning som kan stjälpa
             över och reglera på ett sätt som blir negativt för hela branschen.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-41" who="i-GJLL78ePjJhSXVWBYyRW8t" prev="i-fdcd8c992fcabdef-40" next="i-fdcd8c992fcabdef-42">
           <seg xml:id="i-G7r5HBn9Pv341YbdqzMRLx">
             Precis som justitieministern nämnde är lagstiftningen inte prövad.
             Det kan vara intressant för branschorganisationen att bistå genom
@@ -875,7 +827,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/1A6A9B11-3F4B-43E8-90AA-55A7E22B2C14#page=7"/>
-        <u xml:id="i-fdcd8c992fcabdef-42" who="i-GJLL78ePjJhSXVWBYyRW8t" prev="i-fdcd8c992fcabdef-41" next="i-fdcd8c992fcabdef-43">
+        <u xml:id="i-fdcd8c992fcabdef-42" who="i-GJLL78ePjJhSXVWBYyRW8t" prev="i-fdcd8c992fcabdef-40">
           <seg xml:id="i-9m3KSsfs9kiNdBpGGt2ra8">
             Jag vill här, precis som i alla sammanhang när det gäller företagande,
             lyfta upp att det är angeläget att den enskilde företagaren gör
@@ -885,8 +837,6 @@
             den tragiska situationen där företaget inte utvecklas i den riktning
             som tankarna var och där familjen får lida men.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-43" who="i-GJLL78ePjJhSXVWBYyRW8t" prev="i-fdcd8c992fcabdef-42">
           <seg xml:id="i-7ZPdZAbjZvVECmxugF4BUb">
             Det finns flera komponenter i detta.
           </seg>
@@ -894,7 +844,7 @@
         <note xml:id="i-9gdZ81SSzs9mtgBQrawpmL" type="speaker">
           Anf. 7 Justitieminister BEATRICE ASK (M):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-44" who="i-PRHkYxGCaT2cbJpjjfnRtn" next="i-fdcd8c992fcabdef-45">
+        <u xml:id="i-fdcd8c992fcabdef-44" who="i-PRHkYxGCaT2cbJpjjfnRtn" next="i-fdcd8c992fcabdef-55">
           <seg xml:id="i-H533FpC7Cqkrio1e66EsiJ">
             Herr talman! Det är klart att det finns problem. Jag tror att
             det är viktigt att ha klart för sig det som Margareta Cederfelt
@@ -903,21 +853,15 @@
             tar risker, så att man lägger ribban på rätt nivå. Det är ett
             problem.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-45" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-44" next="i-fdcd8c992fcabdef-46">
           <seg xml:id="i-M7cugJndx2MrfxtncEheDz">
             Där är det viktigt med information till den som ska ingå avtal,
             inte minst ingå ett franchiseavtal, så att man går igenom det.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-46" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-45" next="i-fdcd8c992fcabdef-47">
           <seg xml:id="i-Cf73RSbJHMkvqwctFnzojE">
             Vi har ungefär 30 000 franchisetagare i Sverige i dag, vilket
             visar att det är en form av företagande som passar många och där
             de allra flesta uppenbarligen också tycker att det fungerar väl.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-47" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-46" next="i-fdcd8c992fcabdef-48">
           <seg xml:id="i-UjtcEszjPTKkS99gkZurrj">
             Franchiseföreningen påpekar däremot på sin hemsida att det krävs
             mycket arbete och att det inte är lätt i början. Men det är det
@@ -925,8 +869,6 @@
             De har också gjort en undersökning, där de har frågat om positiva
             och negativa saker som franchisetagare ser med det här konceptet.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-48" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-47" next="i-fdcd8c992fcabdef-49">
           <seg xml:id="i-2fQC2ebB9QPnQVQZXLyEpv">
             Det man tycker är väldigt bra är att det finns ett färdigt affärskoncept.
             Om man ska starta en firma kan det vara svårt att själv hitta
@@ -934,27 +876,19 @@
             vilket är bra. Det gör också att man snabbt kommer i gång med
             företaget, som annars kan ha en uppstartsfas som är nog så besvärlig.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-49" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-48" next="i-fdcd8c992fcabdef-50">
           <seg xml:id="i-V2hQQ5swzFrihLLTeURFoh">
             Risktagandet är mindre än om man startar ett helt eget företag
             och ska komma i gång då, dels på grund av att det går snabbare,
             dels på grund av att man har ett affärskoncept.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-50" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-49" next="i-fdcd8c992fcabdef-51">
           <seg xml:id="i-8b5k56MS5gGJRjdDW55SKw">
             Många tycker också att det är en fördel att det ingår utbildning
             i både företagande och de produkter eller den verksamhet som det
             gäller och att man kan få stöd löpande. Man ser många stordriftsfördelar.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-51" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-50" next="i-fdcd8c992fcabdef-52">
           <seg xml:id="i-E5z95xfJDoA78LYntYhezR">
             Det är sådant som franchisetagare själva framhåller som fördelar.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-52" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-51" next="i-fdcd8c992fcabdef-53">
           <seg xml:id="i-AzcKxL4vHjD8Fsn7gBabnM">
             De nackdelar som man pekar på de finns uppenbarligen är inte
             i första hand att man känner sig helt låst av avtalet, även om
@@ -964,8 +898,6 @@
             för vad man får göra och på vilket sätt man får disponera den
             idé eller det märke som man har avtalat om.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-53" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-52" next="i-fdcd8c992fcabdef-54">
           <seg xml:id="i-3RqkpMuMNGMCKYTYcT2Zqf">
             Det är naturligtvis också mindre roligt ungefär som att betala
             skatt att man får betala serviceavgifter och royalty till franchisegivaren.
@@ -975,14 +907,12 @@
             en pålaga. Men det ingår så att säga i avtalet och konceptet det
             är de villkor man har gått med på.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-54" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-53" next="i-fdcd8c992fcabdef-55">
           <seg xml:id="i-NjdFPHChLcff8yv4Gy8szy">
             Det är de nackdelar man framhåller.
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/1A6A9B11-3F4B-43E8-90AA-55A7E22B2C14#page=8"/>
-        <u xml:id="i-fdcd8c992fcabdef-55" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-54" next="i-fdcd8c992fcabdef-56">
+        <u xml:id="i-fdcd8c992fcabdef-55" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-44">
           <seg xml:id="i-KTxWdDunNiuEtBtZ9NDYm4">
             Det leder mig inte till att säga att vi inte har ett och annat
             problem som är allvarligt och att enskilda företagare kan hamna
@@ -992,15 +922,11 @@
             på olika sätt kan döma av företag och franchisegivare som inte
             lever upp till de krav som ställs.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-56" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-55" next="i-fdcd8c992fcabdef-57">
           <seg xml:id="i-Ruw7dsuSD2dQ2ErNUWwphm">
             Det har inte skett någon prövning i Marknadsdomstolen. Man använder
             i förekommande fall skiljedomsförfarande, vilket är en modell
             som är vanlig i näringslivet.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-57" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-56">
           <seg xml:id="i-TcbpiwPWPxaYy83zic8poC">
             Vi får vänta och se om vi får några prövningar innan vi kan säga
             att lagen är bra eller dålig. Men så här långt måste jag säga
@@ -1012,15 +938,13 @@
         <note xml:id="i-UqxyMxEzr4s3hk18HUyyCf" type="speaker">
           Anf. 8 BÖRJE VESTLUND (S):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-58" who="i-MVzhVeKwRGmjHjHoSrReg9" next="i-fdcd8c992fcabdef-59">
+        <u xml:id="i-fdcd8c992fcabdef-58" who="i-MVzhVeKwRGmjHjHoSrReg9">
           <seg xml:id="i-UhRQmZbAePG19PZFx78WUL">
             Herr talman! Först vill jag kommentera detta med domstolar, varför
             det inte har varit några domar. Det är just därför att man i Marknadsdomstolen
             kan utdöma viten det går inte att utdöma något annat, och man
             får inte ens tillbaka de pengar som man eventuellt har mist.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-59" who="i-MVzhVeKwRGmjHjHoSrReg9" prev="i-fdcd8c992fcabdef-58">
           <seg xml:id="i-77Y8XUd7UQ9ZeFRsnA8zH9">
             Jag tror att jag måste återkomma i den här frågan, och jag får
             väl återkomma när min röst är något bättre, för jag känner att
@@ -1030,30 +954,24 @@
         <note xml:id="i-M56RhUupi9gdFNACEEEVWg" type="speaker">
           Anf. 9 Justitieminister BEATRICE ASK (M):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-60" who="i-PRHkYxGCaT2cbJpjjfnRtn" next="i-fdcd8c992fcabdef-61">
+        <u xml:id="i-fdcd8c992fcabdef-60" who="i-PRHkYxGCaT2cbJpjjfnRtn">
           <seg xml:id="i-5U2ke2oGHGCPaCttpUCY3J">
             Herr talman! Riksdagens tid skulle disponeras mycket bättre om
             folk var förkylda i den utsträckning som Börje Vestlund visade
             upp här i dag. Men det är lite sorgligt, eftersom det är en viktig
             fråga som vi diskuterar.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-61" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-60" next="i-fdcd8c992fcabdef-62">
           <seg xml:id="i-4wvZfvcjLHkKJCx3GY5xvL">
             Om Marknadsdomstolen skulle göra en prövning är det vite som
             kan utdömas. Det är den form som vi har. Det är inte så märkvärdigt
             med det.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-62" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-61" next="i-fdcd8c992fcabdef-63">
           <seg xml:id="i-CgsPyxjhPNXdEi2E21frCm">
             Det understryker att det kanske är just branschorganisationerna
             som borde lyfta upp frågan, för det är på det sättet man kan få
             lagstiftningen prövad och se var gränserna går för hur man kan
             agera.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-63" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-62">
           <seg xml:id="i-H4rgAimzNYi4MQw7Aqs6yQ">
             Vi kommer att följa frågan, och jag är övertygad om att interpellanten
             också kommer att göra det, förhoppningsvis med lite mindre förkylning.
@@ -1071,30 +989,26 @@
         <note xml:id="i-JdPsgmtuU66yvtMLSjJhBv" type="speaker">
           Anf. 10 Justitieminister BEATRICE ASK (M):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-64" who="i-PRHkYxGCaT2cbJpjjfnRtn" next="i-fdcd8c992fcabdef-65">
+        <u xml:id="i-fdcd8c992fcabdef-64" who="i-PRHkYxGCaT2cbJpjjfnRtn" next="i-fdcd8c992fcabdef-66">
           <seg xml:id="i-XMzDSXTK5hLJkFkiy7oUJN">
             Herr talman! Elin Lundgren har frågat mig vilka åtgärder jag
             avser att vidta för att förtydliga vad som avses med bevakning
             enligt lagen om bevakningsföretag. Jag har så sent som den 3 maj
             och den 5 juni i år besvarat liknande frågor från Elin Lundgren.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-65" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-64" next="i-fdcd8c992fcabdef-66">
           <seg xml:id="i-AtexTnwE3gmuSx7rrcEDPR">
             Elin Lundgren anför att lagen om bevakningsföretag är svårtolkad
             och hänvisar bland annat till en dom från Gävle tingsrätt.
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/1A6A9B11-3F4B-43E8-90AA-55A7E22B2C14#page=9"/>
-        <u xml:id="i-fdcd8c992fcabdef-66" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-65" next="i-fdcd8c992fcabdef-67">
+        <u xml:id="i-fdcd8c992fcabdef-66" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-64">
           <seg xml:id="i-7TmJWpaLPKC15oYMDKYSWB">
             Som jag har anfört i mina tidigare svar har jag ingen möjlighet
             att uttala mig i enskilda fall eller om en domstols tolkning av
             lagen. Det pågår för närvarande inte någon översyn av lagen om
             bevakningsföretag.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-67" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-66">
           <seg xml:id="i-8JbYWNKXRWZCbj8hgnUYcz">
             Jag följer självfallet utvecklingen på rättsområdet i syfte att
             uppmärksamma eventuella brister i lagstiftningen som vi behöver
@@ -1104,7 +1018,7 @@
         <note xml:id="i-SCGQRqFcdkswbgSC8S1H3D" type="speaker">
           Anf. 11 ELIN LUNDGREN (S):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-68" who="i-MRoARQLVygJYbBWvcAjNcB" next="i-fdcd8c992fcabdef-69">
+        <u xml:id="i-fdcd8c992fcabdef-68" who="i-MRoARQLVygJYbBWvcAjNcB">
           <seg xml:id="i-4HCxozKTABYM7Yuwt9kcXB">
             Herr talman! Jag vill tacka justitieministern så mycket för svaret.
             Skälet till att det blev ganska många frågor kan man kalla olycksfall
@@ -1113,29 +1027,21 @@
             egentligen kunna besvaras före sommaren, så jag är mycket tacksam
             för att vi trots det får möjlighet att diskutera frågan i dag.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-69" who="i-MRoARQLVygJYbBWvcAjNcB" prev="i-fdcd8c992fcabdef-68" next="i-fdcd8c992fcabdef-70">
           <seg xml:id="i-U9Y2rFsmQ18vkoJgzB9a34">
             Man kan naturligtvis göra som justitieministern, tolka att frågan
             ställs utifrån endast ett rättsfall. Men faktum är att det finns
             många fler än så.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-70" who="i-MRoARQLVygJYbBWvcAjNcB" prev="i-fdcd8c992fcabdef-69" next="i-fdcd8c992fcabdef-71">
           <seg xml:id="i-MMDAi2HdvwxhVmpxxAAmbu">
             För tittarnas skull skulle jag vilja berätta lite grann om hur
             knasigt det kan bli med tillämpningen av lagen om bevakningsföretag.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-71" who="i-MRoARQLVygJYbBWvcAjNcB" prev="i-fdcd8c992fcabdef-70" next="i-fdcd8c992fcabdef-72">
           <seg xml:id="i-ATXm4mRpNMXktre12dWPy7">
             Principen är att för att få bevaka egendom åt någon annan måste
             företaget vara auktoriserat, det vill säga godkänt av länsstyrelsen.
             Det innebär bland annat att de som står bakom företaget inte har
             någon kriminell koppling och att personalen har rätt typ av utbildning.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-72" who="i-MRoARQLVygJYbBWvcAjNcB" prev="i-fdcd8c992fcabdef-71" next="i-fdcd8c992fcabdef-73">
           <seg xml:id="i-5g2LDt77bnoWZMue5x42Xv">
             Fallet i Gävle, som ministern talade om och som jag också har
             skrivit om i min interpellation, gäller den rikskända Gävlebocken.
@@ -1149,8 +1055,6 @@
             kanske inte helt irrelevant när det gäller just Gävlebocken ska
             värdarna också ringa efter hjälp.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-73" who="i-MRoARQLVygJYbBWvcAjNcB" prev="i-fdcd8c992fcabdef-72" next="i-fdcd8c992fcabdef-74">
           <seg xml:id="i-5G7bruY9v834EtH5x7uC8z">
             I ett av de skriftliga svar som jag tidigare har fått av justitieministern
             hänvisar hon till Rikspolisstyrelsens föreskrifter, som kompletterar
@@ -1159,8 +1063,6 @@
             eller liknande. Det gör att man kan tolka det som värdarna i Gävle
             gör som en vaktsyssla.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-74" who="i-MRoARQLVygJYbBWvcAjNcB" prev="i-fdcd8c992fcabdef-73" next="i-fdcd8c992fcabdef-75">
           <seg xml:id="i-PARrBt8tnY7eSvYzGnTvJz">
             Det är inte bara jag som tycker att lagen är lite luddig. Fackförbundet
             Transport uppmärksammar det här hela tiden. Branschorganisationer
@@ -1168,8 +1070,6 @@
             Om man väljer att kalla vakter för värdar, som i fallet med Gävlebocken,
             kommer man liksom runt kärnfrågan.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-75" who="i-MRoARQLVygJYbBWvcAjNcB" prev="i-fdcd8c992fcabdef-74" next="i-fdcd8c992fcabdef-76">
           <seg xml:id="i-TPkmJMSeTpjDB8DMcTnA3Z">
             Värt att notera är också att de så kallade värdarna i Gävle i
             sina egna anteckningar kallar sig själva för vakter. Det säger
@@ -1178,8 +1078,6 @@
             bransch. Bevakning, vakter och larmsystem är sådant som många
             känner ett behov av. Den situation vi har får givetvis konsekvenser.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-76" who="i-MRoARQLVygJYbBWvcAjNcB" prev="i-fdcd8c992fcabdef-75">
           <seg xml:id="i-4MmEhpSs52vCxFNQBJzn7c">
             Herr talman! Justitieministern säger att hon följer utvecklingen
             på området för att se om något behöver åtgärdas. Då vill jag fråga
@@ -1192,7 +1090,7 @@
         <note xml:id="i-UvU3r9PAFBKPHtfsYhcypD" type="speaker">
           Anf. 12 Justitieminister BEATRICE ASK (M):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-77" who="i-PRHkYxGCaT2cbJpjjfnRtn" next="i-fdcd8c992fcabdef-78">
+        <u xml:id="i-fdcd8c992fcabdef-77" who="i-PRHkYxGCaT2cbJpjjfnRtn">
           <seg xml:id="i-BvMrxFPHE176ziKp38sdYS">
             Herr talman! Vi har alla råkat ut för datastrul och konstiga
             formulär, så jag förstår naturligtvis de problem som har varit.
@@ -1202,16 +1100,12 @@
             det inlägg som Elin Lundgren nu gör blir det lite klarare, vilket
             naturligtvis underlättar.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-78" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-77" next="i-fdcd8c992fcabdef-79">
           <seg xml:id="i-6xTD695UZGzE2CUTSp2386">
             Lagen om bevakningsföretag är inte otydlig. Den reder faktiskt
             ganska noga ut hur sakläget ser ut. För auktoriserad bevakning
             krävs ett ganska omfattande godkännande från länsstyrelsen. Då
             talar vi om riktiga väktare.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-79" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-78" next="i-fdcd8c992fcabdef-80">
           <seg xml:id="i-Cr9xhWduoc7EbNYM2K7tVV">
             Sedan finns det andra typer av vakter, om man får uttrycka det
             så: entrévärdar, publikvärdar och så vidare. Det är en ganska
@@ -1222,8 +1116,6 @@
             polis och andra vid eventuella ordningsstörningar. Då har man
             ett avtal med helt andra regler.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-80" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-79" next="i-fdcd8c992fcabdef-81">
           <seg xml:id="i-GsRaSjCYSsbRXZctXZQgRa">
             Under de senaste åren har detta utretts mer än en gång. Det ligger
             i sakens natur att fackliga organisationer och andra gärna driver
@@ -1234,8 +1126,6 @@
             fram- och baklänges. Hittills har det inte lett till åtgärder.
             Skälet till det är att det hela är ganska brokigt.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-81" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-80" next="i-fdcd8c992fcabdef-82">
           <seg xml:id="i-AQwNdSNQCSuzE6wizfc13Q">
             Vid till exempel ett fotbollsevenemang använder klubbarna frivilliga
             supportrar och andra som publikvärdar. Det skulle bli helt orimligt
@@ -1245,24 +1135,18 @@
             har haft anledning att ytterligare reglera eller organisera krav
             på det som går utöver sådant som ska göras av auktoriserade väktare.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-82" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-81" next="i-fdcd8c992fcabdef-83">
           <seg xml:id="i-WGUuoLVoGpnqMXTi4iQSco">
             Det är också detta som gör att en del av bevakningsföretagen
             väljer att ha två delar i sitt företag. Dels har man de mer välutbildade
             och auktoriserade väktarna som kan ta vissa typer av uppgifter,
             dels kan man ibland tillhandahålla annan typ av personal.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-83" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-82" next="i-fdcd8c992fcabdef-84">
           <seg xml:id="i-9W2fxraPdFskT5eGRDPBfo">
             Visst kan man tycka att det blir lite rörigt när man inte vet
             vem som har vilken typ av befogenhet, men för den som är ansvarig
             företagare och anlitar hjälp med till exempel välkomnande i entrén
             är det centrala att man vet vad man efterfrågar.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-84" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-83">
           <seg xml:id="i-GNYC1tEvitZ4ZSkyH27U1p">
             Den berättigade frågan, som man också har diskuterat av och till,
             är: Innebär detta att man kan ha direkt kriminella som står i
@@ -1278,7 +1162,7 @@
         <note xml:id="i-HAVur7zKUrVwF4eizJFiYa" type="speaker">
           Anf. 13 ELIN LUNDGREN (S):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-85" who="i-MRoARQLVygJYbBWvcAjNcB" next="i-fdcd8c992fcabdef-86">
+        <u xml:id="i-fdcd8c992fcabdef-85" who="i-MRoARQLVygJYbBWvcAjNcB">
           <seg xml:id="i-LdyGtUYSU2PJ6257yr9n4P">
             Herr talman! Det har flera gånger tidigare förekommit att man
             har ändrat i lagstiftningen på det här området. Senast gjorde
@@ -1292,8 +1176,6 @@
             lagen där man lade till skrivningen bevaka sedlar, mynt eller
             annan egendom i samband med transport.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-86" who="i-MRoARQLVygJYbBWvcAjNcB" prev="i-fdcd8c992fcabdef-85" next="i-fdcd8c992fcabdef-87">
           <seg xml:id="i-94LS4PgCsqndKGbtoan3e8">
             Om man vill komma undan de luddigheter och problem som justitieministern
             själv pekar på är det fullt möjligt att göra det. Justitieministern
@@ -1303,8 +1185,6 @@
             vara prövad med avseende på laglydnad. Nog går det att styra upp
             de här delarna om man vill.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-87" who="i-MRoARQLVygJYbBWvcAjNcB" prev="i-fdcd8c992fcabdef-86" next="i-fdcd8c992fcabdef-88">
           <seg xml:id="i-3xVUk2sZRAXiarepqjtLdo">
             Jag skulle vilja tala lite om vad konsekvenserna blir om vi i
             det här fallet skulle få ett domslut som visar att företag som
@@ -1312,8 +1192,6 @@
             Då fyller lagen ingen funktion. Man kan ju då gå runt den genom
             att kalla vakter för något annat, till exempel värdar.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-88" who="i-MRoARQLVygJYbBWvcAjNcB" prev="i-fdcd8c992fcabdef-87" next="i-fdcd8c992fcabdef-89">
           <seg xml:id="i-V3Yrq8GwSXxjgnp21kdsTe">
             Ett av skälen till att lagen kom 1974 var just att man ville
             förhindra kriminell verksamhet i samband med bevakningsuppgifter.
@@ -1324,22 +1202,16 @@
             in företag från utlandet som inte alls jobbar på samma sätt som
             vi i Sverige gör.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-89" who="i-MRoARQLVygJYbBWvcAjNcB" prev="i-fdcd8c992fcabdef-88" next="i-fdcd8c992fcabdef-90">
           <seg xml:id="i-12fqvEpTSMFSwSdn7N4ZdZ">
             Man kan också fundera över medborgarperspektivet. Som medborgare
             vill jag gärna att de som ska bevaka, särskilt där det är mycket
             folk i omlopp, ska vara utbildade.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-90" who="i-MRoARQLVygJYbBWvcAjNcB" prev="i-fdcd8c992fcabdef-89" next="i-fdcd8c992fcabdef-91">
           <seg xml:id="i-9gR9HhKkqNsccYZA8fv4oC">
             Jag tycker att det är lite märkligt att Beatrice Ask, som säger
             sig följa det här noga, inte riktigt verkar se allvaret i vad
             som kan hända om lagen sätts ur spel.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-91" who="i-MRoARQLVygJYbBWvcAjNcB" prev="i-fdcd8c992fcabdef-90" next="i-fdcd8c992fcabdef-92">
           <seg xml:id="i-N9BDgQCgM5wyrVjVwzvQDE">
             Det görs en hel del anmälningar när det gäller den här typen
             av fall. Men ofta är det så att polisen lägger ned dem. Även om
@@ -1347,14 +1219,10 @@
             lägger ned skulle man kunna misstänka att en del poliser faktiskt
             inte heller förstår den här lagen och vad den säger.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-92" who="i-MRoARQLVygJYbBWvcAjNcB" prev="i-fdcd8c992fcabdef-91" next="i-fdcd8c992fcabdef-93">
           <seg xml:id="i-5otDRPJTt1dGq4U8rZrFtE">
             Jag har hört att polisen på vissa ställen faktiskt använder icke-auktoriserad
             bevakning själv, och det är naturligtvis otroligt oroväckande.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-93" who="i-MRoARQLVygJYbBWvcAjNcB" prev="i-fdcd8c992fcabdef-92">
           <seg xml:id="i-Fz2ikvf9o6b2KWHqVXfByy">
             Med det här som bakgrund undrar jag igen: Är justitieministern
             tillfreds med dagens lagstiftning och hur den tillämpas?
@@ -1375,7 +1243,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/1A6A9B11-3F4B-43E8-90AA-55A7E22B2C14#page=12"/>
-        <u xml:id="i-fdcd8c992fcabdef-95" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-94" next="i-fdcd8c992fcabdef-96">
+        <u xml:id="i-fdcd8c992fcabdef-95" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-94">
           <seg xml:id="i-WUH4QYXiKaLEUgm7ErALuh">
             Jag ska återkoppla till det jag sade i mitt tidigare inlägg om
             krogar. Ja, det är klart att man kan använda sig av auktoriserade
@@ -1388,8 +1256,6 @@
             det hela genom att tvinga fram en auktorisation den vägen. Det
             tror jag att man ska ha klart för sig.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-96" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-95" next="i-fdcd8c992fcabdef-97">
           <seg xml:id="i-3mn5s8REdHrZ6czSG8VNjx">
             Det är klart att vi har problem i olika sammanhang. Men samtidigt
             är det naturligtvis så att precis som Gävle kommun måste olika
@@ -1399,16 +1265,12 @@
             och någon typ av ordningshållande, utifrån att man inte alls är
             väktare utan att man faktiskt är värd.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-97" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-96" next="i-fdcd8c992fcabdef-98">
           <seg xml:id="i-StP9t88SJ5UNt6vbAoMNyK">
             Det är det här som jag inte tycker att vi ska begränsa och göra
             omöjligt, för det skulle göra verksamheten sämre. Det viktiga
             är att man vet när man ska använda riktiga auktoriserade väktare,
             vilken utbildning de har och att detta fungerar väl.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-98" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-97" next="i-fdcd8c992fcabdef-99">
           <seg xml:id="i-Tkiya6yG2f7PJdcLEQLZup">
             Då vill jag nog rätta till det här med utländska företag, att
             vi liksom kan få in vad som helst. Nej, så är det inte. För i
@@ -1418,23 +1280,17 @@
             arbete som gäller enligt föreskrifter och som man har meddelat
             med stöd av den lagstiftning som gäller.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-99" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-98" next="i-fdcd8c992fcabdef-100">
           <seg xml:id="i-7gzTx6TN6zBtnoeb7KQMCx">
             Det är inte så att man kan komma in och bete sig precis hur som
             helst. Det vore märkligt om riksdagen skulle ha missat en sådan
             detalj, tycker jag. Jag är alltså inte bekymrad i den delen.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-100" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-99" next="i-fdcd8c992fcabdef-101">
           <seg xml:id="i-SfJJim7937C7mbGGpNizhb">
             Jag tycker att det är viktigt att vi har auktoriserade väktare
             och att de används för de arbetsuppgifter som är nödvändiga som
             ett komplement till ordningsmakten. Det är centralt, och jag tycker
             att regelverket i den delen fungerar väl.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-101" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-100" next="i-fdcd8c992fcabdef-102">
           <seg xml:id="i-UW2SmdkZcFfuCVTt84rpuz">
             Jag tror också att vi ska vara försiktiga med att reglera bort
             eller att för mycket byråkratisera verksamhet som ligger därutöver.
@@ -1442,8 +1298,6 @@
             helt annat slag, som inte har de befogenheter som auktoriserade
             väktare har. Det är väl där någonstans som problematiken ligger.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-102" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-101" next="i-fdcd8c992fcabdef-103">
           <seg xml:id="i-FfhVpfY1G5ckFkHhPXPfHQ">
             Vad jag menar när jag säger att jag följer den här frågan är
             naturligtvis att det är centralt att hela tiden se på de olika
@@ -1452,8 +1306,6 @@
             lagstiftningen. Och där tycker jag att det hittills har hänt en
             del.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-103" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-102">
           <seg xml:id="i-SQz8erCi92YYv4QHYcLP9t">
             Ja, det har gjorts förändringar. Men 1994 är fruktansvärt länge
             sedan. Förordningar har man kanske tittat på vid fler tillfällen.
@@ -1467,15 +1319,13 @@
         <note xml:id="i-Lr9NW2MMJsdy3Rx8Ey6nqN" type="speaker">
           Anf. 15 ELIN LUNDGREN (S):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-104" who="i-MRoARQLVygJYbBWvcAjNcB" next="i-fdcd8c992fcabdef-105">
+        <u xml:id="i-fdcd8c992fcabdef-104" who="i-MRoARQLVygJYbBWvcAjNcB">
           <seg xml:id="i-RBwpJBxJj8cXywAudg2EH">
             Herr talman! Jag kan konstatera att jag och justitieministern
             är överens om att det finns problem. Vi är också överens om att
             det är viktigt att man ska veta när man ska använda så kallade
             riktiga, eller det jag skulle kalla auktoriserade, bevakningsföretag.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-105" who="i-MRoARQLVygJYbBWvcAjNcB" prev="i-fdcd8c992fcabdef-104" next="i-fdcd8c992fcabdef-106">
           <seg xml:id="i-D59Zzt1zVZzKePd9sBGqzW">
             Jag tycker att det är viktigt att man inte blandar ihop vad man
             pratar om. Det här med att lag använder sina medlemmar eller supportrar
@@ -1483,15 +1333,11 @@
             handlar om när någon utför bevakning åt någon annan, inte när
             man använder sina egna.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-106" who="i-MRoARQLVygJYbBWvcAjNcB" prev="i-fdcd8c992fcabdef-105" next="i-fdcd8c992fcabdef-107">
           <seg xml:id="i-8rNPTJhngnJ8MnxTapDiwT">
             Restauranger och liknande kan använda sin egen personal lite
             grann hur de vill. Det är en annan grej. Det här handlar om när
             man anlitar ett företag för att utföra sysslor åt en.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-107" who="i-MRoARQLVygJYbBWvcAjNcB" prev="i-fdcd8c992fcabdef-106" next="i-fdcd8c992fcabdef-108">
           <seg xml:id="i-4V5Qf7zZmYCHdox8fWqDj4">
             Det har pratats en del om just vakter och väktare nu. Men man
             ska också vara medveten om att det även gäller de företag som
@@ -1500,8 +1346,6 @@
             vilket är väldigt olyckligt. Det får naturligtvis samma konsekvenser
             som när man pratar om det personella skyddet.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-108" who="i-MRoARQLVygJYbBWvcAjNcB" prev="i-fdcd8c992fcabdef-107">
           <seg xml:id="i-HGJzqjAdt7y7t6f986iGgL">
             Det är naturligtvis jättebra att justitieministern följer den
             här frågan, som jag har sagt tidigare. Utifrån den bakgrundsbeskrivning
@@ -1515,15 +1359,13 @@
         <note xml:id="i-Bi5gxWsW4mPpKb1bBZc4gq" type="speaker">
           Anf. 16 Justitieminister BEATRICE ASK (M):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-109" who="i-PRHkYxGCaT2cbJpjjfnRtn" next="i-fdcd8c992fcabdef-110">
+        <u xml:id="i-fdcd8c992fcabdef-109" who="i-PRHkYxGCaT2cbJpjjfnRtn" next="i-fdcd8c992fcabdef-114">
           <seg xml:id="i-PzXpYPxfVGubtkUsXCvDdL">
             Herr talman! Ja, när skulle vi behöva ändra? Det påstås att lagen
             är luddig. Det är fel, för lagen är väldigt tydlig. Ett företag
             som bedriver bevakning för annans räkning omfattas av krav på
             auktorisation. Det är väldigt tydligt.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-110" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-109" next="i-fdcd8c992fcabdef-111">
           <seg xml:id="i-GtatAmBjL2oaS2on3PNHEY">
             Det Elin Lundgren egentligen är ute efter är att vi ska tvinga
             in fler verksamheter i den typ av auktorisation som bara vissa
@@ -1533,8 +1375,6 @@
             arbeta som det utan skulle tvingas byta arbetsgivare eller gå
             en längre utbildning eller vad det nu kan vara.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-111" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-110" next="i-fdcd8c992fcabdef-112">
           <seg xml:id="i-DUwu7DGqhDbhYJ8jgY43K6">
             Vad behövs då för att vi ska göra en förändring? Ja, det är ju
             en tydlig definition av vad som är skälet till att vi inte skulle
@@ -1544,15 +1384,11 @@
             annan typ av bevakning att det inte fungerar. Men det är inte
             mitt intryck.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-112" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-111" next="i-fdcd8c992fcabdef-113">
           <seg xml:id="i-AJnAf5aVGws179YNevrZ87">
             Det finns exempel på problem. Det finns också exempel på ärenden
             som prövas i domstol, för att man inte tycker att saker och ting
             har gått helt rätt till. Och det är viktigt att det prövas.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-113" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-112" next="i-fdcd8c992fcabdef-114">
           <seg xml:id="i-96uAYSys5nMpzbHpHx3bwh">
             Exakt när man bestämmer sig för att göra mer vågar jag inte svara
             på, men det faktum att vi faktiskt av och till har utrett och
@@ -1562,7 +1398,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/1A6A9B11-3F4B-43E8-90AA-55A7E22B2C14#page=14"/>
-        <u xml:id="i-fdcd8c992fcabdef-114" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-113" next="i-fdcd8c992fcabdef-115">
+        <u xml:id="i-fdcd8c992fcabdef-114" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-109">
           <seg xml:id="i-8ud1wWKmU45KUFd98N9LN3">
             Justitiekanslern inledde också ett initiativärende på det här
             området. Det gällde främst ordningsvakter. Justitiekanslern ställde
@@ -1570,8 +1406,6 @@
             ska jämställas med sådan verksamhet som omfattas av lagen om bevakningsföretag.
             Det är alltså inte en entydig synpunkt från Justitiekanslern.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-115" who="i-PRHkYxGCaT2cbJpjjfnRtn" prev="i-fdcd8c992fcabdef-114">
           <seg xml:id="i-RRkgnfzoyAKKcucLhMFpny">
             Vi har lite olika signaler, och det är det jag säger. Hittills
             har vi inte ett underlag som säger att det nu är dags att ta viktiga
@@ -1602,7 +1436,7 @@
         <note xml:id="i-47vVcieVfexWb1ACanDfMo">
           Interpellationen har överlämnats till mig för besvarande.
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-118" who="i-W9g5g3nUh3Fu7mKUtFoBFH" prev="i-fdcd8c992fcabdef-116" next="i-fdcd8c992fcabdef-119">
+        <u xml:id="i-fdcd8c992fcabdef-118" who="i-W9g5g3nUh3Fu7mKUtFoBFH" prev="i-fdcd8c992fcabdef-116">
           <seg xml:id="i-SrpmAYirdPuNQ6pgB9VL49">
             Sveriges bistånd till den palestinska myndigheten är en viktig
             byggsten i arbetet med att bidra till en hållbar lösning på den
@@ -1615,8 +1449,6 @@
             Det svenska stödet inkluderar också ett omfattande humanitärt
             stöd, särskilt till FN:s organ för palestinska flyktingar Unrwa.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-119" who="i-W9g5g3nUh3Fu7mKUtFoBFH" prev="i-fdcd8c992fcabdef-118" next="i-fdcd8c992fcabdef-120">
           <seg xml:id="i-R3WeVnZiwu1apcd4zsoBBP">
             Jag har vid ett flertal tillfällen klargjort att det är oacceptabelt
             att biståndsprojekt på de palestinska områdena, i såväl östra
@@ -1627,8 +1459,6 @@
             Liaison Committee tar Sverige och andra viktiga givare upp de
             negativa effekter som Israels ockupation har på biståndet.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-120" who="i-W9g5g3nUh3Fu7mKUtFoBFH" prev="i-fdcd8c992fcabdef-119" next="i-fdcd8c992fcabdef-121">
           <seg xml:id="i-SQ6E6LRGxjGGfTh4bMGkKk">
             Frågan tas även återkommande upp av EU-dialogen med Israel och
             diskuterades vid EU:s senaste utrikesministermöte den 14 maj.
@@ -1636,15 +1466,11 @@
             myndigheten och tillåta ökad palestinsk access och kontroll över
             område C, där Israel har fullt administrativt ansvar och säkerhetsansvar.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-121" who="i-W9g5g3nUh3Fu7mKUtFoBFH" prev="i-fdcd8c992fcabdef-120" next="i-fdcd8c992fcabdef-122">
           <seg xml:id="i-P2JDYFVk2mpXyyUFiyPYjp">
             Slutsatserna fastslår också att EU kommer att fortsätta ge finansiellt
             stöd för utvecklingsinsatser på område C och att vi förväntar
             oss att dessa skyddas för framtida bruk.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-122" who="i-W9g5g3nUh3Fu7mKUtFoBFH" prev="i-fdcd8c992fcabdef-121">
           <seg xml:id="i-FH8bYLfSJuuYRiBvKfPURa">
             Vad gäller frågan om åtgärder för redan förstörda biståndsprojekt
             är det viktigt att minnas att ägarskapet för projekt har övergått
@@ -1660,7 +1486,7 @@
         <note xml:id="i-K6GqJfW9ad4NhKdvFubFHN" type="speaker">
           Anf. 18 PETER HULTQVIST (S):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-123" who="i-KTYc2rBrcxPNyJRR5s4dQD" next="i-fdcd8c992fcabdef-124">
+        <u xml:id="i-fdcd8c992fcabdef-123" who="i-KTYc2rBrcxPNyJRR5s4dQD">
           <seg xml:id="i-Jbg4p7vFjo1kaLyizJthbm">
             Herr talman! Sedan 2011 har 62 byggprojekt finansierade av Sverige,
             Frankrike, Nederländerna, Polen, Storbritannien och EU rivits
@@ -1670,8 +1496,6 @@
             som förstördes under 2011 var biståndsfinansierad bland annat
             av EU.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-124" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-fdcd8c992fcabdef-123" next="i-fdcd8c992fcabdef-125">
           <seg xml:id="i-Ri8Z9g64SmPXCC5H7qfucW">
             De här projekten handlar om vattencisterner, förnybar energi,
             bostäder, lokaler för djurhållning, jordbruksbyggnader och vatten-
@@ -1682,8 +1506,6 @@
             allt handlar det om förstörelse av palestinsk infrastruktur och
             bostäder.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-125" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-fdcd8c992fcabdef-124" next="i-fdcd8c992fcabdef-126">
           <seg xml:id="i-7zo8siYDED4tYrzgDgyvgF">
             Det är helt oacceptabelt att en stridande ockupant förstör för
             civilbefolkningen. Det är ett brott mot den internationella folkrätten,
@@ -1693,8 +1515,6 @@
             och tuffare attityd mot denna typ av utmanande övergrepp som sker
             planerat och med kontinuitet.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-126" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-fdcd8c992fcabdef-125" next="i-fdcd8c992fcabdef-127">
           <seg xml:id="i-Xyiu1zHSi1eQEPhrb8JfZi">
             Jag tycker att det är vällovligt att regeringen har tagit upp
             frågan om det orimliga i den israeliska statens agerande direkt
@@ -1704,8 +1524,6 @@
             om det här leder till resultat. Med vilken hårdhet sätter EU tryck
             på Israel på grund av detta oerhört utmanande agerande?
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-127" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-fdcd8c992fcabdef-126" next="i-fdcd8c992fcabdef-128">
           <seg xml:id="i-V2srZrju9go3E7xegR6Q7e">
             När det inom ramen för ett biståndsprojekt i Zambia för ett antal
             år sedan förekom korruption fick man betala tillbaka 6,7 miljoner
@@ -1716,8 +1534,6 @@
             en sådan debatt. Det genomfördes omfattande revisioner av hälsoprojekten
             som var aktuella i det här fallet.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-128" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-fdcd8c992fcabdef-127" next="i-fdcd8c992fcabdef-129">
           <seg xml:id="i-WMBAbnRL8Gh5SaAMXZDfeG">
             I fallet Zambia agerade regeringen med viss tydlighet och hårdhet.
             När det gäller Israels systematiska förstörelse av biståndsprojekt
@@ -1731,8 +1547,6 @@
             område? Kommer Israel över huvud taget att bry sig om den typen
             av ersättningskrav?
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-129" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-fdcd8c992fcabdef-128">
           <seg xml:id="i-NtCrzWNPBqWgNjaNFmNELh">
             Slutligen: Har regeringen diskuterat med palestinierna om att
             göra gemensam sak med dem och tillsammans kräva ersättning och
@@ -1744,7 +1558,7 @@
         <note xml:id="i-JXf5yLk6CmzKggkd7DTU7J" type="speaker">
           Anf. 19 Statsrådet GUNILLA CARLSSON (M):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-130" who="i-W9g5g3nUh3Fu7mKUtFoBFH" next="i-fdcd8c992fcabdef-131">
+        <u xml:id="i-fdcd8c992fcabdef-130" who="i-W9g5g3nUh3Fu7mKUtFoBFH">
           <seg xml:id="i-UncCHFkXPTaBzvWbNYKYCx">
             Herr talman! Tack, Peter Hultqvist, för att vi här har möjlighet
             att diskutera så att jag också kan redogöra för hur regeringen
@@ -1753,8 +1567,6 @@
             ställer på att bistånd varaktigt och långsiktigt ska bidra till
             effekter för civilbefolkningen.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-131" who="i-W9g5g3nUh3Fu7mKUtFoBFH" prev="i-fdcd8c992fcabdef-130" next="i-fdcd8c992fcabdef-132">
           <seg xml:id="i-KJsK31V1pHo1AU94Bp4TGk">
             I grunden ligger här en konflikt mellan israelerna och palestinierna.
             För min del handlar det här väldigt mycket om hur vi ska kunna
@@ -1764,8 +1576,6 @@
             ska vi kunna få dem att ta detta mer på allvar? Det är mycket
             bra frågor.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-132" who="i-W9g5g3nUh3Fu7mKUtFoBFH" prev="i-fdcd8c992fcabdef-131" next="i-fdcd8c992fcabdef-133">
           <seg xml:id="i-YCA8TiKqNdopnqFBN2WC75">
             Rent juridiskt är det så att Sverige som biståndsgivare inte
             längre har den juridiska avtalsmöjligheten att ställa israelerna
@@ -1776,8 +1586,6 @@
             motsvarigheter för att säga att vi nu måste ställa oss den här
             typen av frågor: Ska vi fortsätta att finansiera ockupationen?
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-133" who="i-W9g5g3nUh3Fu7mKUtFoBFH" prev="i-fdcd8c992fcabdef-132" next="i-fdcd8c992fcabdef-134">
           <seg xml:id="i-15TR5h5KDTke5bMrn8jZjo">
             Som Peter Hultqvist säger var jag i samband med Zambia glasklar
             med att vi inte kan fortsätta ge bistånd om vi inte vet att pengarna
@@ -1788,8 +1596,6 @@
             och sluta med de 700 miljoner kronor per år som vi ger för att
             underlätta för palestinierna.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-134" who="i-W9g5g3nUh3Fu7mKUtFoBFH" prev="i-fdcd8c992fcabdef-133" next="i-fdcd8c992fcabdef-135">
           <seg xml:id="i-9ctHTvvNPa55UmVGEgpCoM">
             Det är just därför vi måste brottas med den här typen av frågeställningar
             givet att ockupationen fortsätter, givet att det tyvärr är så
@@ -1797,8 +1603,6 @@
             sker med det resultat som vi alla hade förväntat och önskat oss
             skulle kunna ske.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-135" who="i-W9g5g3nUh3Fu7mKUtFoBFH" prev="i-fdcd8c992fcabdef-134" next="i-fdcd8c992fcabdef-136">
           <seg xml:id="i-Sw7TNvyc8cdv5apVQg7PjQ">
             Det stämmer också att byggprojekten förstörs och att EU nu gemensamt
             och på ett helt annat sätt än tidigare trycker på politiskt. Det
@@ -1808,15 +1612,11 @@
             noterar sker det här arbetet väldigt mycket tillsammans och inom
             ramen för EU-samarbetet för att det ska vara en tillräcklig tydlighet.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-136" who="i-W9g5g3nUh3Fu7mKUtFoBFH" prev="i-fdcd8c992fcabdef-135" next="i-fdcd8c992fcabdef-137">
           <seg xml:id="i-VYjHd1NqF56paus6kBTv9w">
             Jag tycker att vi gör det här på både ett hårt och konsekvent
             sätt. Vi tar det på allra största allvar, men det är inte helt
             enkelt.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-137" who="i-W9g5g3nUh3Fu7mKUtFoBFH" prev="i-fdcd8c992fcabdef-136">
           <seg xml:id="i-H5twiS8xxHGFkK7S8uBAau">
             Jag kan också konstatera, herr talman, att efter att ha varit
             på plats i dessa områden och sett den frustration det skapar att
@@ -1832,7 +1632,7 @@
         <note xml:id="i-SJWm6PDB63v5wArT2oKu3d" type="speaker">
           Anf. 20 PETER HULTQVIST (S):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-138" who="i-KTYc2rBrcxPNyJRR5s4dQD" next="i-fdcd8c992fcabdef-139">
+        <u xml:id="i-fdcd8c992fcabdef-138" who="i-KTYc2rBrcxPNyJRR5s4dQD">
           <seg xml:id="i-9KV5ahue7GvuRE8FMzyBe4">
             Herr talman! Jag läste en artikel i går från den 13 juni där
             man säger det bör väl gälla den 12 juni att i går meddelade israeliska
@@ -1841,23 +1641,17 @@
             inom tre dagar. Det handlade om en komplett destruction, en nedmontering
             av den aktuella kommunen.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-139" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-fdcd8c992fcabdef-138" next="i-fdcd8c992fcabdef-140">
           <seg xml:id="i-AXYb8x8SroQavGWx2NonFW">
             Vid sidan av dessa ligger två andra byar där man tänker montera
             ned sex olika sol- och vindenergisystem. Det berör 500 personer.
             Dessa system ger energi till lyse, till kylskåp och till jordbruksproduktion.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-140" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-fdcd8c992fcabdef-139" next="i-fdcd8c992fcabdef-141">
           <seg xml:id="i-Hk1z95ArgA12GYRCDNd8P8">
             Det här är sådant som sker kontinuerligt, i stort sett dagligen
             och på ett planerat sätt. Det är en israelisk ockupationsmakt
             som med precision och planering driver igenom en konsekvent förstörelse.
             Det är oerhört utmanande.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-141" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-fdcd8c992fcabdef-140" next="i-fdcd8c992fcabdef-142">
           <seg xml:id="i-GwYy6UiSD46HDGAJv3rBV4">
             Jag förstår att man från regeringens sida och från EU:s jobbar
             med den här frågan, men jag har ännu icke i praktiken sett den
@@ -1872,8 +1666,6 @@
             Man måste nog flytta fram den positionen. Det de gör är ju helt
             orimligt.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-142" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-fdcd8c992fcabdef-141" next="i-fdcd8c992fcabdef-143">
           <seg xml:id="i-Dmi1X1DVePZf25VLNePsLN">
             Det är nog inte rimligt att säga att som en konsekvens av det
             här beteendet slutar vi stödja det palestinska statsbyggandet
@@ -1888,8 +1680,6 @@
             och att de inte kan prata sig ur det. De måste begripa att så
             här kan man inte bete sig.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-143" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-fdcd8c992fcabdef-142">
           <seg xml:id="i-73gaXxrELhzAbe17wSpVZ1">
             Sedan har vi hela komplexet med fredsförhandlingar och den typen
             av överläggningar och balanser, men det är ju en fråga vid sidan
@@ -1918,7 +1708,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/1A6A9B11-3F4B-43E8-90AA-55A7E22B2C14#page=18"/>
-        <u xml:id="i-fdcd8c992fcabdef-145" who="i-W9g5g3nUh3Fu7mKUtFoBFH" prev="i-fdcd8c992fcabdef-144" next="i-fdcd8c992fcabdef-146">
+        <u xml:id="i-fdcd8c992fcabdef-145" who="i-W9g5g3nUh3Fu7mKUtFoBFH" prev="i-fdcd8c992fcabdef-144">
           <seg xml:id="i-UqbSvjf2CsMJYmv33moQTv">
             Vad gäller återbetalningsskyldigheten är det viktigt att vi igen
             säger att det måste vara palestiniernas egna initiativ, att de
@@ -1928,8 +1718,6 @@
             för ockupationen nu börjar visa sig än mer tydligt, och man börjar
             diskutera vart den notan ska skickas.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-146" who="i-W9g5g3nUh3Fu7mKUtFoBFH" prev="i-fdcd8c992fcabdef-145">
           <seg xml:id="i-VHeW87ne1ehnZpsibSkTuQ">
             Jag är tacksam, herr talman, för att den här interpellationen
             också ger oss en viss vägledning i det framtida svenska biståndet
@@ -1953,7 +1741,7 @@
         <note xml:id="i-4XdU9pTk6im8PhgVDhCByc" type="speaker">
           Anf. 22 PETER HULTQVIST (S):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-147" who="i-KTYc2rBrcxPNyJRR5s4dQD" next="i-fdcd8c992fcabdef-148">
+        <u xml:id="i-fdcd8c992fcabdef-147" who="i-KTYc2rBrcxPNyJRR5s4dQD">
           <seg xml:id="i-EQqocDseSd58uCQM5vJEem">
             Herr talman! Visst är det i formell mening ett juridiskt ansvar
             för palestinierna att ta upp frågan om de vill ha ersättning för
@@ -1970,8 +1758,6 @@
             bara ett mellanhavande mellan palestinierna och Israel. Då kommer
             det att falla ut i stort sett i ingenting.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-148" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-fdcd8c992fcabdef-147" next="i-fdcd8c992fcabdef-149">
           <seg xml:id="i-SW6dXutVJro32gHYTJizjo">
             Man får ju tänka på att det är israelerna som med planerad systematik,
             och jag menar det, med planerad systematik, på ett kontinuerligt
@@ -1983,8 +1769,6 @@
             en ockupationsmakt som bryter konsekvent mot Genèvekonventionens
             ingångar.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-149" who="i-KTYc2rBrcxPNyJRR5s4dQD" prev="i-fdcd8c992fcabdef-148">
           <seg xml:id="i-CHEV3HLw8Vkvq5bTyw3XuJ">
             Om den här interpellationen i någon mening kan påverka så att
             regeringen tillsammans med palestinierna också driver frågan i
@@ -1997,7 +1781,7 @@
         <note xml:id="i-9rkurSMGXpmYTtRT14NiFq" type="speaker">
           Anf. 23 Statsrådet GUNILLA CARLSSON (M):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-150" who="i-W9g5g3nUh3Fu7mKUtFoBFH" next="i-fdcd8c992fcabdef-151">
+        <u xml:id="i-fdcd8c992fcabdef-150" who="i-W9g5g3nUh3Fu7mKUtFoBFH">
           <seg xml:id="i-5eNThdjz8tuYFcAdMFCtFc">
             Herr talman! Jag är glad att Peter Hultqvist utgår från EU:s
             gemensamma politik för att vi just ska kunna få ett starkt genomslag
@@ -2010,8 +1794,6 @@
             här tiden och i år, tar jag också upp det. Vi jobbar både med
             ett EU-spår och med ett svenskt spår.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-151" who="i-W9g5g3nUh3Fu7mKUtFoBFH" prev="i-fdcd8c992fcabdef-150" next="i-fdcd8c992fcabdef-152">
           <seg xml:id="i-EVd9boVDgRNE22hNd9rhuF">
             Rådsslutsatserna från 2009 och den gemensamma EU-förteckningen
             har nu följts upp i samband med utrikesministrarnas möte den 14
@@ -2023,8 +1805,6 @@
             Israel ser till att EU-investeringar i biståndsprojekt skyddas
             för framtida bruk.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-152" who="i-W9g5g3nUh3Fu7mKUtFoBFH" prev="i-fdcd8c992fcabdef-151" next="i-fdcd8c992fcabdef-153">
           <seg xml:id="i-RHspzUGqufsH8KbmD8J7Xx">
             Min avsikt är att verkligen följa upp och implementera dessa
             rådsslutsatser och gå Peter Hultqvist till mötes i det han ber
@@ -2038,8 +1818,6 @@
             och med de kortsiktiga humanitära behov som finns på grund av
             avsaknaden av fred.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-153" who="i-W9g5g3nUh3Fu7mKUtFoBFH" prev="i-fdcd8c992fcabdef-152">
           <seg xml:id="i-WGAur4znF7Xi4aHz49UrmT">
             Jag är tacksam för att vi fick en chans att diskutera dessa frågor
             i dag.
@@ -2057,15 +1835,13 @@
         <note xml:id="i-QEN3x2rtxuL2xHzqucBcWJ" type="speaker">
           Anf. 24 Statsrådet EWA BJÖRLING (M):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-154" who="i-Vuf2iovr2aWWgDThaeqMPN" next="i-fdcd8c992fcabdef-155">
+        <u xml:id="i-fdcd8c992fcabdef-154" who="i-Vuf2iovr2aWWgDThaeqMPN" next="i-fdcd8c992fcabdef-157">
           <seg xml:id="i-ULwaaWLBjWkDdaR1mHSvoa">
             Herr talman! Jens Holm har frågat mig vilka åtgärder jag avser
             att vidta för att inte bara garantera att Indien kan fortsätta
             att producera som i dag utan även för att underlätta framtidens
             produktion av generiska mediciner.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-155" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-154" next="i-fdcd8c992fcabdef-156">
           <seg xml:id="i-LR1fwp4wFdsj2sA7KsaBW5">
             Jens Holm har även frågat mig om jag kan redogöra för vilken
             alternativ dataskyddsmodell EU vill att Indien ska anta inom eller
@@ -2075,8 +1851,6 @@
             och i så fall hur samt om jag avser att verka för att EU lyfter
             ut alkohol och tobak ur förhandlingarna.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-156" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-155" next="i-fdcd8c992fcabdef-157">
           <seg xml:id="i-81x6DXN8Fm7kGXs3Hnbb4k">
             Regeringens linje är att EU:s frihandelsavtal med Indien, inklusive
             eventuella skrivningar om dataexklusivitet och investeringsskydd,
@@ -2090,7 +1864,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/1A6A9B11-3F4B-43E8-90AA-55A7E22B2C14#page=20"/>
-        <u xml:id="i-fdcd8c992fcabdef-157" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-156" next="i-fdcd8c992fcabdef-158">
+        <u xml:id="i-fdcd8c992fcabdef-157" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-154">
           <seg xml:id="i-HputUzNNPgPJNd8PJGSigX">
             Från svensk sida har vi under förhandlingarnas gång varit mycket
             tydliga med dessa ståndpunkter i våra kontakter med EU-kommissionen,
@@ -2098,14 +1872,10 @@
             från kommissionen vad avser risken för att avtalet ska få de negativa
             konsekvenser som Jens Holm befarar har också hittills varit tillfredsställande.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-158" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-157" next="i-fdcd8c992fcabdef-159">
           <seg xml:id="i-L3tibem84jaCfjovHu7eCm">
             I den mån dataskydd diskuteras verkar Sverige för att Indien
             inte ska tvingas anta regler som underminerar rätten till hälsa.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-159" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-158" next="i-fdcd8c992fcabdef-160">
           <seg xml:id="i-UYdHVqxTt9sETrWit9BQ8y">
             Vilka effekter en ökad handel får på miljön är inte alltid lätt
             att slå fast. Det beror i hög utsträckning på den politiska viljan
@@ -2118,8 +1888,6 @@
             snabbare bidrar också, som Jens Holm påpekar, till att förbättra
             förutsättningarna för ett effektivare miljöarbete.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-160" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-159" next="i-fdcd8c992fcabdef-161">
           <seg xml:id="i-6mfAZaWYWDSKmDJzW8ENNF">
             Samtidigt är det givetvis viktigt att vara vaksam på de utmaningar
             som en snabbare tillväxt och ett större utbyte skapar. Hållbarhetsbedömningar,
@@ -2130,8 +1898,6 @@
             av avtalen. Hållbarhetsbedömningen används sedan som grund för
             EU:s position i förhandlingarna.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-161" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-160" next="i-fdcd8c992fcabdef-162">
           <seg xml:id="i-Xz1rZm9mCAuyo8z6ESH1SW">
             I frihandelsförhandlingarna med Indien driver EU på för att ett
             särskilt kapitel om hållbar utveckling ska ingå. Inom ramen för
@@ -2142,16 +1908,12 @@
             skulle förbättra möjligheterna till samverkan, något som kan bidra
             till att möta de miljöproblem som Jens Holm tar upp.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-162" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-161" next="i-fdcd8c992fcabdef-163">
           <seg xml:id="i-2hUjz5cn1TGhSRB8eiiQaf">
             I förhandlingarna med Indien driver Sverige och EU därutöver
             även på för att miljövänliga varor, teknologier och tjänster ska
             utgöra föremål för tidig liberalisering, något som även det givetvis
             skulle bidra till positiva klimat- och miljöeffekter.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-163" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-162">
           <seg xml:id="i-GzZW7guwNM8Hc83PiFH76W">
             EU eftersträvar i sina frihandelsförhandlingar rent generellt
             regler som är icke-diskriminerande. Detta gäller även alkohol.
@@ -2168,13 +1930,11 @@
         <note xml:id="i-QEgbFdDJJMq8UQ8eSKEq2M" type="speaker">
           Anf. 25 JENS HOLM (V):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-164" who="i-HNw1w34Sd2tGfFnWtdrzZb" next="i-fdcd8c992fcabdef-165">
+        <u xml:id="i-fdcd8c992fcabdef-164" who="i-HNw1w34Sd2tGfFnWtdrzZb">
           <seg xml:id="i-QN9Ww3Tjw4VCsx1v9ERs7R">
             Herr talman! Jag vill tacka handelsministern för svaret på min
             interpellation.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-165" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-fdcd8c992fcabdef-164" next="i-fdcd8c992fcabdef-166">
           <seg xml:id="i-8KmkTYbw6EWSYJujJzpLk9">
             Det är inte så ofta vi debatterar handelspolitik i denna kammare,
             och det tycker jag är synd. Ett av skälen till min interpellation
@@ -2183,8 +1943,6 @@
             med Indien eftersom jag tycker att det är ett särskilt viktigt
             handelsavtal.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-166" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-fdcd8c992fcabdef-165" next="i-fdcd8c992fcabdef-167">
           <seg xml:id="i-2n9kZUGy2Cui5B77uT4ehb">
             Ett grundläggande misstag EU gör i förhandlingarna om detta frihandelsavtal
             är att man ser EU och Indien som två jämbördiga parter och att
@@ -2196,8 +1954,6 @@
             och Angolas. Det är alltså ett väldigt fattigt land med helt andra
             förutsättningar än dem EU har.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-167" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-fdcd8c992fcabdef-166" next="i-fdcd8c992fcabdef-168">
           <seg xml:id="i-7Bv5dxJLxsxmGg6vUN9usp">
             Vi ska också komma ihåg att det finns en asymmetri vad gäller
             relationen mellan EU och Indien. EU är Indiens absolut viktigaste
@@ -2209,8 +1965,6 @@
             därför att det är viktigt att det kommer till stånd ett handelsavtal,
             men det måste självklart baseras på sunda och rättvisa grunder.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-168" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-fdcd8c992fcabdef-167" next="i-fdcd8c992fcabdef-169">
           <seg xml:id="i-8ek7YMyfi2iXL12946ANhV">
             En av de frågor jag tar upp i min interpellation är Indiens rätt
             att fortsätta att tillverka generiska läkemedel. Indien är i dag
@@ -2221,8 +1975,6 @@
             och EU backar upp de stora läkemedelsbolagens försök att få Indien
             att minska sin produktion av generiska läkemedel.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-169" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-fdcd8c992fcabdef-168" next="i-fdcd8c992fcabdef-170">
           <seg xml:id="i-5vw18Rp5PW4UNabN1a1db2">
             Om det nu verkligen stämmer att Sverige i förhandlingarna mellan
             EU och Indien driver på för att Indien ska ha kvar det undantag
@@ -2232,16 +1984,12 @@
             ska formuleras. Är det verkligen så att vi har fått fullt gehör
             i EU på denna punkt?
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-170" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-fdcd8c992fcabdef-169" next="i-fdcd8c992fcabdef-171">
           <seg xml:id="i-6WWUGCTnd4CCT4fuLSaXva">
             Jag tar också upp frågan om alkohol och tobak. Där har Indien
             drivit att alkohol och tobak inte ska omfattas av detta frihandelsavtal.
             Vore det inte bäst att man helt enkelt lyfte ut detta? Då skulle
             man slippa frågan.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-171" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-fdcd8c992fcabdef-170">
           <seg xml:id="i-Ds8d1AXJwxS1CWVmGrE5qw">
             Avslutningsvis skulle jag också vilja fråga ministern om ministern
             kan lova att avtalstexten så som den ser ut i dag kan offentliggöras
@@ -2255,14 +2003,12 @@
         <note xml:id="i-DeNAJaEsCEoegvdYjNXWV6" type="speaker">
           Anf. 26 Statsrådet EWA BJÖRLING (M):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-172" who="i-Vuf2iovr2aWWgDThaeqMPN" next="i-fdcd8c992fcabdef-173">
+        <u xml:id="i-fdcd8c992fcabdef-172" who="i-Vuf2iovr2aWWgDThaeqMPN" next="i-fdcd8c992fcabdef-183">
           <seg xml:id="i-3H8Q81B4z3rpbs1VVF13JP">
             Herr talman! De frågor som Jens Holm tar upp är väldigt viktiga,
             och jag tror att vi i grunden är överens om det breda förhållningssätt
             som vi bör ha vid våra frihandelsförhandlingar med Indien.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-173" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-172" next="i-fdcd8c992fcabdef-174">
           <seg xml:id="i-2zWbUbN7gQjUBF9wHMZin1">
             Vi ska, som jag sade i mitt svar, vara en stark röst för att
             det framtida avtalet inte ska underminera rätten till hälsa och
@@ -2271,16 +2017,12 @@
             liberaliseringar. Det är jag övertygad om att såväl EU som Indien
             skulle tjäna på.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-174" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-173" next="i-fdcd8c992fcabdef-175">
           <seg xml:id="i-WFvn99ciwVxAgQvPALy259">
             Jag vill också varna lite för att vi hamnar i en statisk Indienbild.
             Det som Jens Holm beskriver är sant. Det finns otroligt många
             fattiga människor i Indien och mycket umbäranden, men det är inte
             hela utgångspunkten i dag.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-175" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-174" next="i-fdcd8c992fcabdef-176">
           <seg xml:id="i-A8QmQFYJ1RuLNmvkShAei4">
             Naturligtvis ska vi inte blunda för de problem som Indien har
             och står inför, men vi ska också se de enorma framsteg de har
@@ -2288,39 +2030,29 @@
             inte minst här i Sverige, av att ha kontakter, dialog och handel
             med Indien.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-176" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-175" next="i-fdcd8c992fcabdef-177">
           <seg xml:id="i-TJpb4rzkxCqE12uGXjWJ4o">
             Jens Holm säger att mer än 20 procent av Indiens handel är med
             EU och att avtalet därmed vore viktigare för Indien än för EU.
             Jag håller inte med om det. Det är viktigt för båda parter.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-177" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-176" next="i-fdcd8c992fcabdef-178">
           <seg xml:id="i-7kdbZAjikxPaLqibXgtMLN">
             Om vi själva här i Sverige ska klara vår framtid med all den
             kompetens som kommer att behövas, inte minst inom teknikområdena
             civilingenjörer i klartext kommer vi att behöva en utökad arbetskraftsinvandring.
             En stor del av den kommer att vara från Indien och från Kina.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-178" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-177" next="i-fdcd8c992fcabdef-179">
           <seg xml:id="i-YCmh9LE66vU8HPndBcpNo">
             Det är viktigt att vi underlättar så mycket som bara är möjligt
             för att vi ska kunna både handla mer med Indien och ha mer kontakter,
             dialog och utbyte med Indien, så där håller jag inte med Jens
             Holm.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-179" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-178" next="i-fdcd8c992fcabdef-180">
           <seg xml:id="i-86oafTd3JJPbDxUGxBw31g">
             Indien har världens näst största befolkning just nu. De har integrerats
             alltmer i den globala ekonomin. De har också vuxit fram som en
             viktig leverantör av it och affärstjänster. Det finns alltså en
             ganska mångfasetterad bild av Indien i dag.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-180" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-179" next="i-fdcd8c992fcabdef-181">
           <seg xml:id="i-DnA6j99sitiyQpkUPRxskZ">
             Vi kan inte heller bara tänka på hur situationen ser ut just
             nu, utan vi måste också se till hur den kommer att se ut i framtiden.
@@ -2328,8 +2060,6 @@
             skede få liberaliseringar just när det gäller miljöfrågorna, som
             Jens Holm tog upp, och gröna varor, tjänster och teknologier.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-181" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-180" next="i-fdcd8c992fcabdef-182">
           <seg xml:id="i-SxX9J9VFKap6SHZ9pV9UXZ">
             När det gäller specifikt mediciner Jens Holm tog upp hiv, malaria
             och cancer kan jag garantera att om det är någon som ser vikten
@@ -2339,8 +2069,6 @@
             rättigheter, därför att om vi inte har starka immateriella rättigheter
             kommer heller inte någon utveckling av nya mediciner att ske.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-182" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-181" next="i-fdcd8c992fcabdef-183">
           <seg xml:id="i-RLhASWGGhip1JvY7v6oVwr">
             Som Jens Holm kanske känner till är till exempel hiv ett virus
             som hela tiden förändrar sig i människokroppen, det vill säga
@@ -2353,7 +2081,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/1A6A9B11-3F4B-43E8-90AA-55A7E22B2C14#page=23"/>
-        <u xml:id="i-fdcd8c992fcabdef-183" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-182">
+        <u xml:id="i-fdcd8c992fcabdef-183" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-172">
           <seg xml:id="i-AM3F29FM4W3oUtEorDb43">
             Jag är övertygad om att de här sakerna mycket väl går att kombinera,
             ett starkt skydd för immateriella rättigheter samtidigt som vi
@@ -2365,7 +2093,7 @@
         <note xml:id="i-PmakDL4YMhMBbmFLPJyQjK" type="speaker">
           Anf. 27 JENS HOLM (V):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-184" who="i-HNw1w34Sd2tGfFnWtdrzZb" next="i-fdcd8c992fcabdef-185">
+        <u xml:id="i-fdcd8c992fcabdef-184" who="i-HNw1w34Sd2tGfFnWtdrzZb">
           <seg xml:id="i-LWXqphNpEcxspwbKPVAQRM">
             Herr talman! Tack för svaret! Jag vill börja med frågan om medicinerna.
             Jag var i Indien i februari i år. Det var samtidigt som EU-kommissionens
@@ -2375,8 +2103,6 @@
             de människor som riskerar att dö ifall Indien inte kan fortsätta
             producera billiga läkemedel.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-185" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-fdcd8c992fcabdef-184" next="i-fdcd8c992fcabdef-186">
           <seg xml:id="i-TJABiH8LtXeLndEneirfSo">
             Anledningen till att jag tar upp den här frågan är att jag är
             ersättare i EU-nämnden, och när det gäller frihandelsavtalet mellan
@@ -2387,8 +2113,6 @@
             att det nu är som handelsministern säger, att Sverige driver på
             kommissionen.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-186" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-fdcd8c992fcabdef-185" next="i-fdcd8c992fcabdef-187">
           <seg xml:id="i-WEeBWD1EdsPqmUWYNQgsU4">
             Jag skulle återigen vilja fråga handelsministern exakt hur hon
             vill att Indiens garanti för att kunna fortsätta producera billiga
@@ -2398,8 +2122,6 @@
             garanti. Ifall EU skulle driva fram en sådan avtalstext, kan då
             handelsministern lova att Sverige säger nej till avtalet?
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-187" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-fdcd8c992fcabdef-186" next="i-fdcd8c992fcabdef-188">
           <seg xml:id="i-QZX9WxMT92b3VKc2J7ov8x">
             Jag vill återupprepa min förfrågan om att få tillgång till utkastet
             till avtalstext, för det har inte vi i riksdagen fått ta del av,
@@ -2410,8 +2132,6 @@
             Jättebra! Men då vill jag som är engagerad i miljöfrågor gärna
             se förslaget till avtalstext i kapitlet om hållbar utveckling.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-188" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-fdcd8c992fcabdef-187" next="i-fdcd8c992fcabdef-189">
           <seg xml:id="i-GRXNRX2ZecGvh9k8wu8Tty">
             På tal om hur handelsavtalet kan påverka miljön är ett av skälen
             till att jag tar upp det att i EU:s egen utvärdering av frihandelsavtalet
@@ -2421,8 +2141,6 @@
             Då tycker jag att det är viktigt att Sverige spelar in konkreta
             förslag på hur vi ska få ett avtal som inte påverkar miljön negativt.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-189" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-fdcd8c992fcabdef-188">
           <seg xml:id="i-V7nrAKXkpo1U2FnwKSF5Nr">
             Jag har ytterligare en fråga till handelsministern. Jag vet att
             EU driver på för att man ska ta bort alla restriktioner och handelshinder
@@ -2439,13 +2157,11 @@
         <note xml:id="i-3JdzxgnyBAr7ffDZ9yxMit" type="speaker">
           Anf. 28 Statsrådet EWA BJÖRLING (M):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-190" who="i-Vuf2iovr2aWWgDThaeqMPN" next="i-fdcd8c992fcabdef-191">
+        <u xml:id="i-fdcd8c992fcabdef-190" who="i-Vuf2iovr2aWWgDThaeqMPN" next="i-fdcd8c992fcabdef-199">
           <seg xml:id="i-HNzcC9pvnNEb1GF24Mwao2">
             Herr talman! Jag får då återigen försöka vara väldigt tydlig
             när det handlar om generiska läkemedel och folkhälsa.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-191" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-190" next="i-fdcd8c992fcabdef-192">
           <seg xml:id="i-dpHE9nfZY37QNdkvGhRYB">
             Regeringens linje är att EU:s frihandelsavtal med Indien inte
             ska underminera rätten till hälsa och fattiga människors tillgång
@@ -2455,16 +2171,12 @@
             hänsyn till folkhälsoaspekter. Där är de flexibiliteter som följer
             av TRIPS-avtalet och Dohadeklarationen av stor betydelse.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-192" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-191" next="i-fdcd8c992fcabdef-193">
           <seg xml:id="i-Kw5Xmi6PTxssgQKxMts7Mo">
             Indien ska även fortsättningsvis ha möjligheten att använda sig
             av tvångslicenser, som ett exempel, för produktion och konsumtion
             inom landet och också kunna exportera läkemedel under tvångslicens
             till andra utvecklingsländer, som jag sade, vid akuta folkhälsoproblem.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-193" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-192" next="i-fdcd8c992fcabdef-194">
           <seg xml:id="i-NUL7S8M7j7jkK3LuHDLXoN">
             Detta har hela tiden varit vår hållning, och det kommer att fortsätta
             vara vår hållning. Vi kommer att trycka på om EU skulle tänka
@@ -2478,14 +2190,10 @@
             och transparent rakt igenom. Jag ser inte heller att det skulle
             finnas några konstigheter i det.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-194" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-193" next="i-fdcd8c992fcabdef-195">
           <seg xml:id="i-9pEvob9bgz875hYD2kpf3">
             Jag har redan varit inne på frågan om vikten av IPR. Jag tror
             att jag har varit tillräckligt tydlig mot Jens Holm där.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-195" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-194" next="i-fdcd8c992fcabdef-196">
           <seg xml:id="i-9oFZq4iZy1fLqQQ29e7yPb">
             Jag ska också gå in på det som Jens Holm tog upp om förhandlingarna
             på miljöområdet, EU:s hållbarhetsanalyser och det han oroar sig
@@ -2493,15 +2201,11 @@
             Ja, det finns det. Jag vill dock understryka att de effekter man
             har identifierat i analysen är väldigt små.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-196" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-195" next="i-fdcd8c992fcabdef-197">
           <seg xml:id="i-3uRRo5s9s7KP7oG1gAN7ca">
             Vår ambition är att ha samarbete och dialog med Indien och föra
             utvecklingen framåt på miljöområdet. Det är därför det är viktigt
             att det finns ett hållbarhetskapitel.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-197" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-196" next="i-fdcd8c992fcabdef-198">
           <seg xml:id="i-8UxhAogcqYRtxXedGHPBta">
             Det är också viktigt att det blir en tidig liberalisering av
             tjänster, varor och teknologi inom miljöområdet så att vi kan
@@ -2514,8 +2218,6 @@
             vissa morgnar. Vi vet båda vad det handlar om. Det är en situation
             som är ohållbar i längden. Här behöver mycket göras.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-198" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-197" next="i-fdcd8c992fcabdef-199">
           <seg xml:id="i-Ecwq24NkuKisGhHfSrUYu9">
             Jag ska kort också kommentera det som Jens Holm tog upp i sitt
             förra inlägg om alkohol. Inom EU värnar många medlemsstater inklusive
@@ -2525,7 +2227,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/1A6A9B11-3F4B-43E8-90AA-55A7E22B2C14#page=25"/>
-        <u xml:id="i-fdcd8c992fcabdef-199" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-198" next="i-fdcd8c992fcabdef-200">
+        <u xml:id="i-fdcd8c992fcabdef-199" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-190">
           <seg xml:id="i-4TLGfQh2YZKLnZdZauPNSC">
             De önskemål som EU har framfört i frihandelsförhandlingarna när
             det handlar om försäljning av alkoholhaltiga drycker ska främst
@@ -2533,8 +2235,6 @@
             Det handlar inte om att påverka den nationella lagstiftningen
             för folkhälsan.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-200" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-199">
           <seg xml:id="i-FNmp84D1MGCU2nRA1vPcSr">
             Tillåter man försäljning av indisk whisky, vilket man gör i dag,
             anser vi att svensk vodka inte ska ha en sämre behandling. Sedan
@@ -2545,7 +2245,7 @@
         <note xml:id="i-GuFpK5Uo1JNWVasPrpmqLP" type="speaker">
           Anf. 29 JENS HOLM (V):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-201" who="i-HNw1w34Sd2tGfFnWtdrzZb" next="i-fdcd8c992fcabdef-202">
+        <u xml:id="i-fdcd8c992fcabdef-201" who="i-HNw1w34Sd2tGfFnWtdrzZb">
           <seg xml:id="i-FunBU6T73DZqmjBv6sFRhi">
             Herr talman! Jag börjar med själva förhandlingarna och bristen
             på transparens. Nu berättar Ewa Björling för mig att jag som riksdagsledamot
@@ -2556,15 +2256,11 @@
             vi inte har något inflytande alls över handelspolitiken, och handelspolitiken
             är ett otroligt viktigt politikområde.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-202" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-fdcd8c992fcabdef-201" next="i-fdcd8c992fcabdef-203">
           <seg xml:id="i-Y7oTxbWxvv7EadTHSWa1cG">
             Har du, Ewa Björling, tagit upp detta med kommissionen och frågat
             om du kan få offentliggöra utkastet till handelsavtal för de svenska
             riksdagsledamöterna?
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-203" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-fdcd8c992fcabdef-202" next="i-fdcd8c992fcabdef-204">
           <seg xml:id="i-W4WqtkgbRSYXqfzehNKJ9T">
             När det gäller alkohol och tobak har den indiska positionen åtminstone
             tidigare varit en önskan att lyfta ut alkohol och tobak ur förhandlingen.
@@ -2573,8 +2269,6 @@
             och tobak att säljas i Indien. Om Indien ber om att inte ha med
             det i avtalet borde man lyssna på det.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-204" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-fdcd8c992fcabdef-203" next="i-fdcd8c992fcabdef-205">
           <seg xml:id="i-DSSmetYoeFTjmhnkGtVAbB">
             Det är bra att Sverige säger att man driver på för miljön. Det
             är dock djupt problematiskt att utvärderingsrapporten säger att
@@ -2583,8 +2277,6 @@
             Det ska vara konkreta skrivningar som ser till att utsläppen minskar
             och att vattenkvaliteten, jordbruket och så vidare blir bättre.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-205" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-fdcd8c992fcabdef-204">
           <seg xml:id="i-LAsdUzhwR7GEd2EwGWpX12">
             Jag tackar för svaren och diskussionen och kommer att fortsätta
             följa denna fråga noggrant.
@@ -2593,22 +2285,18 @@
         <note xml:id="i-YXZJfwGdVes94fXPi1CTDn" type="speaker">
           Anf. 30 Statsrådet EWA BJÖRLING (M):
         </note>
-        <u xml:id="i-fdcd8c992fcabdef-206" who="i-Vuf2iovr2aWWgDThaeqMPN" next="i-fdcd8c992fcabdef-207">
+        <u xml:id="i-fdcd8c992fcabdef-206" who="i-Vuf2iovr2aWWgDThaeqMPN" next="i-fdcd8c992fcabdef-210">
           <seg xml:id="i-L6wRP4uBmTGaM9spV2UBF">
             Herr talman! Jag tackar Jens Holm för en bra interpellation i
             en viktig fråga. Jag tittar gärna på om det är möjligt att få
             ut några delar och återkommer till Jens Holm.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-207" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-206" next="i-fdcd8c992fcabdef-208">
           <seg xml:id="i-8ciL1H1wxMa4ZmfbLojc7C">
             Vår svenska position i detta är inte okänd inom EU. Sverige trycker
             ständigt på för ökad transparens, och ju mer tryck som sätts från
             Sveriges riksdag, desto bättre är det för mig. Då har jag ett
             starkare stöd inom EU.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-208" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-207" next="i-fdcd8c992fcabdef-209">
           <seg xml:id="i-5rhCvzsLmaYQgk2qa1hutR">
             Man kan jämföra detta med ACTA. Vi hade precis samma problem
             där. Sverige tryckte på, och till slut blev det transparent. Det
@@ -2616,8 +2304,6 @@
             handlade om. Eftersom man inte hade tillgång till vad det verkligen
             var blev det också mycket spekulationer alldeles i onödan.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-209" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-208" next="i-fdcd8c992fcabdef-210">
           <seg xml:id="i-W1cP4nXvwANFDG2q7fhFfT">
             Jag är också glad över det stora engagemang som finns vad gäller
             tillgång till mediciner för fattiga människor och den produktion
@@ -2626,7 +2312,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/1A6A9B11-3F4B-43E8-90AA-55A7E22B2C14#page=26"/>
-        <u xml:id="i-fdcd8c992fcabdef-210" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-209" next="i-fdcd8c992fcabdef-211">
+        <u xml:id="i-fdcd8c992fcabdef-210" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-206">
           <seg xml:id="i-Jh48k4zEEaZqWHWSnu1SzP">
             Ju mer tryck vi från svenskt håll kan sätta på frågan från frivilligorganisationer
             och Sveriges riksdag, desto bättre är det. Sverige blir alltid
@@ -2634,8 +2320,6 @@
             vet att det finns ett stort tryck på kommissionen i denna fråga,
             men det gäller att hålla det kvar ända tills avtalet är färdigt.
           </seg>
-        </u>
-        <u xml:id="i-fdcd8c992fcabdef-211" who="i-Vuf2iovr2aWWgDThaeqMPN" prev="i-fdcd8c992fcabdef-210">
           <seg xml:id="i-P7XFbm3W5cLupbxVJfkVwb">
             Just nu ser det inte så ljust ut när det gäller avtalet. Indien
             går snart till val, och därför går det inte framåt i förhandlingarna.

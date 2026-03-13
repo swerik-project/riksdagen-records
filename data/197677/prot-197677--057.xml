@@ -28,11 +28,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-T5Li9EDipMawLhnJKHQrv4" type="speech">
             <linkGrp type="u">
               <ptr target="#i-9dZoGWxvgDrSy1Wh7Lb87Z"/>
@@ -660,7 +660,13 @@
               <ptr target="#i-DcDAhbJ2eMDzxH7LgJc15z"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -1082,15 +1088,13 @@
         <note xml:id="i-QtXe51grrjWHoS1GU7iNkQ">
           186, och anförde:
         </note>
-        <u xml:id="i-9dZoGWxvgDrSy1Wh7Lb87Z" who="i-PDvEfAmYAgGTBhkGvyY7F4" next="i-NUjfeZVazBtBA5SQ3mULKi">
+        <u xml:id="i-9dZoGWxvgDrSy1Wh7Lb87Z" who="i-PDvEfAmYAgGTBhkGvyY7F4">
           <seg xml:id="i-61iyCs675Ueu2hdXpSKtQY">
             Herr talman! Herr Palme har frågat, om jag står fast vid mitt
             besked på radions presskonferens den 25 augusti förra året beträffande
             möjligheterna att avstå från användning av kärnkraft i Sverige
             efter år 1985.
           </seg>
-        </u>
-        <u xml:id="i-NUjfeZVazBtBA5SQ3mULKi" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-9dZoGWxvgDrSy1Wh7Lb87Z" next="i-JF7KG8WwNCqofFKc6CcTEk">
           <seg xml:id="i-EHPgHFXWTs1a9j4A3P3EdS">
             Samma fråga har tidigare ställts av herr Carlsson i Tyresö. Regeringens
             föredragande i energifrågor, statsrådet Johansson, gav då en kortfattad
@@ -1102,8 +1106,6 @@
             att en tioårsperiod bör vara fullt tillräcklig för att man skall
             kunna övergå till en energiförsörjning utan kärnkraft.
           </seg>
-        </u>
-        <u xml:id="i-JF7KG8WwNCqofFKc6CcTEk" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-NUjfeZVazBtBA5SQ3mULKi" next="i-R4xBzKLCr3oJbDCVnEdfar">
           <seg xml:id="i-H5ybuRSEJQVErj9KbXbPYi">
             Jag utgår från att det är onödigt att upprepa hela det tidigare
             svaret till herr Carlsson i Tyresö. Sedan detta svar lämnades
@@ -1112,8 +1114,6 @@
             energiprogram, som bygger på en energiförsörjning utan kärnkraft.
             Vidare har den s. k. villkorspropositionen lämnats till riksdagen.
           </seg>
-        </u>
-        <u xml:id="i-R4xBzKLCr3oJbDCVnEdfar" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-JF7KG8WwNCqofFKc6CcTEk">
           <seg xml:id="i-NceJtNrMZJS5uSyNfCfzMG">
             Slutligen vill jag peka på de avsevärda förstärkningar av stödet
             till energibesparande åtgärder inom näringslivet som regeringen
@@ -1125,12 +1125,10 @@
         <note xml:id="i-F7twDukLJPRbqtvP5hE4Rn" type="speaker">
           Herr PALME (s):
         </note>
-        <u xml:id="i-GueynoBhVsrr6wudVw3znG" who="i-DKX1MP4aaNtFZSpMKXCwY" next="i-BG1H5PEEkwsL6UoDZTnWYW">
+        <u xml:id="i-GueynoBhVsrr6wudVw3znG" who="i-DKX1MP4aaNtFZSpMKXCwY" next="i-5jtMQ6L5GBNJE81GL1FTqQ">
           <seg xml:id="i-PqPaKYV5MR9XzazyGSdGS6">
             Herr talman! Jag ber att få tacka för svaret.
           </seg>
-        </u>
-        <u xml:id="i-BG1H5PEEkwsL6UoDZTnWYW" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-GueynoBhVsrr6wudVw3znG" next="i-4RWVs1BWFtY67ny5K6qZix">
           <seg xml:id="i-PYT36Yk5r8rh9xVwDmVTJe">
             Det innehöll, om än i väl inlindade fraser, beskedet att statsministern
             inte står fast vid uttalandet på radions presskonferens i augusti
@@ -1141,8 +1139,6 @@
             någon kärnkraft i Sverige med vår modell. Och det kan ske tidigare
             också.”
           </seg>
-        </u>
-        <u xml:id="i-4RWVs1BWFtY67ny5K6qZix" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-BG1H5PEEkwsL6UoDZTnWYW" next="i-5jtMQ6L5GBNJE81GL1FTqQ">
           <seg xml:id="i-VbcBuC7kzYrND4y3Z4fzEr">
             Nu har statsministern använt metoden att omformulera sitt uttalande
             från i fjol. Han har gjort om det till en bedömning, så att det
@@ -1159,7 +1155,7 @@
         <note xml:id="i-EnfN3oa2X2zAmeNBTVo9ik">
           68
         </note>
-        <u xml:id="i-5jtMQ6L5GBNJE81GL1FTqQ" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-4RWVs1BWFtY67ny5K6qZix" next="i-4znDCaqcEAczZytvmZrax2">
+        <u xml:id="i-5jtMQ6L5GBNJE81GL1FTqQ" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-GueynoBhVsrr6wudVw3znG">
           <seg xml:id="i-DTW5f5TAKtAsEojxtexJpi">
             skall passa dagens taktiska dispositioner inom centern. Alla
             journalister fattade vid den tidpunkten uttalandet som ett besked,
@@ -1167,8 +1163,6 @@
             nu icke ägna någon energi åt att kommentera. Låt mig i stället
             gå vidare i sak för att belysa det hela.
           </seg>
-        </u>
-        <u xml:id="i-4znDCaqcEAczZytvmZrax2" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-5jtMQ6L5GBNJE81GL1FTqQ" next="i-9xX7zgc3PfceTs6o5X3wJb">
           <seg xml:id="i-T1m4D8czyaDrqppWGpPQBS">
             Under valrörelsen sade centerledaren Fälldin vid väldigt många
             tillfällen att det pågående uppförandet av de fem reaktorerna
@@ -1177,8 +1171,6 @@
             samtliga dessa byggen, och inte nog med det. I årets budget anslås
             miljardbelopp till utbyggnaden av kärnkraft.
           </seg>
-        </u>
-        <u xml:id="i-9xX7zgc3PfceTs6o5X3wJb" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-4znDCaqcEAczZytvmZrax2" next="i-7w1iGeFPUJcaBNKjqURVZ8">
           <seg xml:id="i-D5BPx2v6TdfEGRHdhp7Xmp">
             Därmed har centern sedan valet i praktiken rört sig uppåt från
             noll till tio reaktorer. Sakligt sett är detta stora både principiella
@@ -1190,8 +1182,6 @@
             är fallet och att det är detta som måste ligga till grund för
             en bedömning?
           </seg>
-        </u>
-        <u xml:id="i-7w1iGeFPUJcaBNKjqURVZ8" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-9xX7zgc3PfceTs6o5X3wJb">
           <seg xml:id="i-MuBmWfzP3Q1iQfzcAbX3DB">
             Låt mig fråga: Om man lägger ned miljardbelopp på att bygga kärnkraftsreaktorer
             måste väl ändå, med de reservationer vi alla gör, den grundläggande
@@ -1202,7 +1192,7 @@
         <note xml:id="i-FVf3BvmcieNgHmqsmMPg3g" type="speaker">
           Herr statsministern FÄLLDIN:
         </note>
-        <u xml:id="i-HYignMxWrDbzNwmawAEsoS" who="i-PDvEfAmYAgGTBhkGvyY7F4" next="i-RcNbuDqfBJtqwo51UiDSua">
+        <u xml:id="i-HYignMxWrDbzNwmawAEsoS" who="i-PDvEfAmYAgGTBhkGvyY7F4" next="i-AMkfqqUaup4hm1TNcUXHjE">
           <seg xml:id="i-NwMWja8y6ypsaeqcedmTUi">
             Herr talman! Herr Palme vidhåller, liksom Ingvar Carlsson gjorde
             förra gången den här frågan diskuterades, att jag och Olof Johansson
@@ -1214,8 +1204,6 @@
             redogjort för vad den nya regeringen hittills har uträttat för
             att ge energipolitiken en ny inriktning.
           </seg>
-        </u>
-        <u xml:id="i-RcNbuDqfBJtqwo51UiDSua" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-HYignMxWrDbzNwmawAEsoS" next="i-JoWJWxayQRba3B8sVhkJRo">
           <seg xml:id="i-3mcL7LVfwPFBMwySug2Rqh">
             De frågor herr Palme nu tar upp kan vi lämpligen diskutera i
             anslutning till att villkorspropositionen passerar riksdagen.
@@ -1232,14 +1220,12 @@
             Det var den 21 september 1976 som man på Nya Norrlands ledarsida
             kunde läsa:
           </seg>
-        </u>
-        <u xml:id="i-JoWJWxayQRba3B8sVhkJRo" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-RcNbuDqfBJtqwo51UiDSua" next="i-AMkfqqUaup4hm1TNcUXHjE">
           <seg xml:id="i-7YohKbkMEMc3ipDkdZrd3v">
             ”I ett sånt läge måste varje partimedlem veta sin plikt. Torkskåpen
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--57/prot_197677__57-006.jp2/_view"/>
-        <u xml:id="i-AMkfqqUaup4hm1TNcUXHjE" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-JoWJWxayQRba3B8sVhkJRo">
+        <u xml:id="i-AMkfqqUaup4hm1TNcUXHjE" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-HYignMxWrDbzNwmawAEsoS">
           <seg xml:id="i-AzhM31SE71NBp2798gdHQo">
             ska stå på dag och natt. Värmeelementen kör vi för full speed
             mitt i - Nr 57 sommaren. sd badar SAnnbad varje morgon och kväll.
@@ -1278,7 +1264,7 @@
         <note xml:id="i-SkMRN1m5GNH5RmPuwQCvkr" type="speaker">
           Herr statsministern FÄLLDIN:
         </note>
-        <u xml:id="i-17se6UJGxESqeZcqu8HSvH" who="i-PDvEfAmYAgGTBhkGvyY7F4" next="i-7fA7H7hspqn7csKfvKhZWN">
+        <u xml:id="i-17se6UJGxESqeZcqu8HSvH" who="i-PDvEfAmYAgGTBhkGvyY7F4" next="i-HzHdAZ22tWaPbTqbaMJFwB">
           <seg xml:id="i-DvYDQb8HixaP4dbaa53eTS">
             Herr talman! Herr Palme vill inte ta ställning till uppmaningen
             i den socialdemokratiska tidningen utan försöker komma undan med
@@ -1287,8 +1273,6 @@
             Det är kanske ett uttryck för den inställning som herr Palme haft
             till dessa frågor från första början.
           </seg>
-        </u>
-        <u xml:id="i-7fA7H7hspqn7csKfvKhZWN" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-17se6UJGxESqeZcqu8HSvH" next="i-AsNc6zz21YMRXEUhvGcycr">
           <seg xml:id="i-85uarGTQKn7Vf6UgzwQ5aZ">
             Vad beträffar talet om omformuleringar säger jag klart och tydligt
             att den bedömning som jag gav uttryck åt helt klart var den, att
@@ -1297,8 +1281,6 @@
             kan väl inte göra mer än direkt ansluta till vad jag sade vid
             presskonferensen.
           </seg>
-        </u>
-        <u xml:id="i-AsNc6zz21YMRXEUhvGcycr" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-7fA7H7hspqn7csKfvKhZWN" next="i-HzHdAZ22tWaPbTqbaMJFwB">
           <seg xml:id="i-HJ4WQRQcXi62BqrPTka1K5">
             I vad gäller frågan om de miljarder som anslås vill jag säga:
             Läs vad 69
@@ -1317,23 +1299,19 @@
         <note xml:id="i-Q2bu4FNdCmySU2mByZn2Ne">
           70
         </note>
-        <u xml:id="i-HzHdAZ22tWaPbTqbaMJFwB" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-AsNc6zz21YMRXEUhvGcycr" next="i-CXBVFKjF2mwhD9PrNQeZ9o">
+        <u xml:id="i-HzHdAZ22tWaPbTqbaMJFwB" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-17se6UJGxESqeZcqu8HSvH">
           <seg xml:id="i-SnHs3RENzSUm1B3f9mYyqg">
             som står i tilläggspropositionen! Vi har inte beviljat medel
             i den utsträckning som herr Palme talar om. Det har angivits klara
             reservationer och redovisats tidtabeller för när besked i fortsättningen
             skall ges. Sedan skall ställning tas till dessa krediter.
           </seg>
-        </u>
-        <u xml:id="i-CXBVFKjF2mwhD9PrNQeZ9o" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-HzHdAZ22tWaPbTqbaMJFwB" next="i-MCJfqVxesW8HRuHuZTHmJf">
           <seg xml:id="i-Dwm3hiSv2XkTR1Vw3ueG2P">
             Den stora skillnaden sedan villkorspropositionen blev känd är
             att man nu börjar fundera över om man över huvud taget skall bygga
             vidare. Herr Palme kan liksom jag läsa tidningarna och finna att
             det pågår diskussioner om detta.
           </seg>
-        </u>
-        <u xml:id="i-MCJfqVxesW8HRuHuZTHmJf" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-CXBVFKjF2mwhD9PrNQeZ9o">
           <seg xml:id="i-63Duha6DMkqigctT4JqN1e">
             Hur är det i besparingsfrågan, som herr Palme reste? I valrörelsen
             fick jag veta att det var ett hot mot sysselsättningen att gå
@@ -1345,7 +1323,7 @@
         <note xml:id="i-2Cysq9xd8qNRSjsKUVmjRe" type="speaker">
           Herr PALME (s):
         </note>
-        <u xml:id="i-UyrJsTQwhj1ApvqZsLRXeV" who="i-DKX1MP4aaNtFZSpMKXCwY" next="i-EXAtuNuutZfQnpZueeboQK">
+        <u xml:id="i-UyrJsTQwhj1ApvqZsLRXeV" who="i-DKX1MP4aaNtFZSpMKXCwY">
           <seg xml:id="i-Xfj4q3chHgTxffjZbQ3HKD">
             Herr talman! Alla ledamöter här i kammaren är ändå medvetna om
             att vad den socialdemokratiska regeringen — som satsade på det
@@ -1353,8 +1331,6 @@
             till nolltillväxt i energiförbrukningen mot slutet av 1980-talet
             — ansåg icke förändras av något kåseri i en tidning.
           </seg>
-        </u>
-        <u xml:id="i-EXAtuNuutZfQnpZueeboQK" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-UyrJsTQwhj1ApvqZsLRXeV" next="i-WfgDPcGARE3t6AL59oUD2f">
           <seg xml:id="i-WaNa6UYuifpHikYSBD6h3H">
             Vi sade: Går vi fram för snabbt, hotar vi sysselsättningen. Men
             alla de fem reaktorbyggen som ni lovade att stoppa pågår för fullt,
@@ -1366,8 +1342,6 @@
             Det bör rimligen tillhöra en regeringschefs uppgift att lämna
             den typen av besked.
           </seg>
-        </u>
-        <u xml:id="i-WfgDPcGARE3t6AL59oUD2f" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-EXAtuNuutZfQnpZueeboQK">
           <seg xml:id="i-Wub6oRZf5g7LL1DaNssNCz">
             Tala om hur det ligger till! Om ni vill bygga tio reaktorer och
             släpper till miljarder för det ändamålet, måste ni väl i grunden
@@ -1381,20 +1355,16 @@
         <note xml:id="i-S8NEWaceUaYy3GsFiJtE9S" type="speaker">
           Herr statsministern FÄLLDIN:
         </note>
-        <u xml:id="i-UbtKwTuJeLW7nzAchqNDYs" who="i-PDvEfAmYAgGTBhkGvyY7F4" next="i-7GizwdQJ6JmwGTzfcdmfJF">
+        <u xml:id="i-UbtKwTuJeLW7nzAchqNDYs" who="i-PDvEfAmYAgGTBhkGvyY7F4" next="i-BCSWeeJUG9rmrpQRvQpNyw">
           <seg xml:id="i-AVKsFk9sj7AKgMC14CM96M">
             Herr talman! Mycket kort!
           </seg>
-        </u>
-        <u xml:id="i-7GizwdQJ6JmwGTzfcdmfJF" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-UbtKwTuJeLW7nzAchqNDYs" next="i-PMGPm9WPg2a8VcqiB6QUzc">
           <seg xml:id="i-4thBpzzK1vwYZ5J5MiAkRS">
             Vi har på riksdagens bord lagt en villkorsproposition, som innebär
             att vi tar bort tillstånden att driva kärnreaktorer — de tillstånd
             som Palme och hans regering lämnade — och, ställd inför detta
             faktum, håller man nu på att ompröva sin situation.
           </seg>
-        </u>
-        <u xml:id="i-PMGPm9WPg2a8VcqiB6QUzc" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-7GizwdQJ6JmwGTzfcdmfJF" next="i-BCSWeeJUG9rmrpQRvQpNyw">
           <seg xml:id="i-F8kTuUHkouSnRsARJ1VW1R">
             Vi har i tilläggsstaten sagt: Vattenfallsverket får inte utan
             regeringens medgivande efter den 31 januari 1977 disponera medel
@@ -1404,7 +1374,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--57/prot_197677__57-008.jp2/_view"/>
-        <u xml:id="i-BCSWeeJUG9rmrpQRvQpNyw" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-PMGPm9WPg2a8VcqiB6QUzc">
+        <u xml:id="i-BCSWeeJUG9rmrpQRvQpNyw" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-UbtKwTuJeLW7nzAchqNDYs">
           <seg xml:id="i-NkjZGPyhmWBvFW59UoGbYE">
             ningen om att få använda medel för sådant ändamål skall inges
             till re- — Nr 57 geringen senast den 5 januari 1977 såvitt avser
@@ -1427,12 +1397,10 @@
         <note xml:id="i-YYqLMbYPsFTtEuFS5or8YC" type="speaker">
           Herr PALME (s):
         </note>
-        <u xml:id="i-Syh6UCGusAycT4yfDqgQr9" who="i-DKX1MP4aaNtFZSpMKXCwY" next="i-4BmjCr2BBHwkbUBu4Yp9Ai">
+        <u xml:id="i-Syh6UCGusAycT4yfDqgQr9" who="i-DKX1MP4aaNtFZSpMKXCwY">
           <seg xml:id="i-5AJAdviQViv3URj8xT2MTw">
             Herr talman! Självfallet sätter också vi säkerheten främst.
           </seg>
-        </u>
-        <u xml:id="i-4BmjCr2BBHwkbUBu4Yp9Ai" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-Syh6UCGusAycT4yfDqgQr9" next="i-HY9YBssuWVtyUd7YvCvYPV">
           <seg xml:id="i-5kf3uKXkhTfSVhiDQUxmgN">
             Det kan säkert finnas många och viktiga skillnader i uppskattningarna
             om energipolitiken. Vi är starkt kritiska mot den planlöshet och
@@ -1441,8 +1409,6 @@
             till otrygghet för enskilda människor och till att arbetsledningen
             har raserats för många företag.
           </seg>
-        </u>
-        <u xml:id="i-HY9YBssuWVtyUd7YvCvYPV" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-4BmjCr2BBHwkbUBu4Yp9Ai" next="i-5CLnCQ6sWFoCVSCNRfz38m">
           <seg xml:id="i-AyyfdJoV5uatqHjU5pT3zs">
             Men just därför att ni nu bygger dessa tio reaktorer kunde ni
             väl kosta på er att erkänna, att i den specifika frågan om hur
@@ -1450,8 +1416,6 @@
             i realiteten är ganska liten, sedan centern nu på ett par månader
             gått upp från noll till tio reaktorer!
           </seg>
-        </u>
-        <u xml:id="i-5CLnCQ6sWFoCVSCNRfz38m" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-HY9YBssuWVtyUd7YvCvYPV">
           <seg xml:id="i-JbNLnnbw5fv64cbP4qKZzu">
             Det borde ha varit ett intresse för regeringschefen att komma
             bort från de moraliska övertoner i debatten som han själv inte
@@ -1467,13 +1431,11 @@
         <note xml:id="i-NT4ZkwKA78G6C8DeHWYKeH" type="speaker">
           Herr statsministern FÄLLDIN:
         </note>
-        <u xml:id="i-D5uDxXP15cTJtEu2xqFVe7" who="i-PDvEfAmYAgGTBhkGvyY7F4" next="i-yYj1Dvntd5QNd94xuSyV8">
+        <u xml:id="i-D5uDxXP15cTJtEu2xqFVe7" who="i-PDvEfAmYAgGTBhkGvyY7F4">
           <seg xml:id="i-KpZyhqQTZzhFKsAkxuW14F">
             Herr talman! Herr Palmes inställning i kärnkraftsfrågan är ju
             känd: Ni skall fortsätta att bygga kärnkraftverken.
           </seg>
-        </u>
-        <u xml:id="i-yYj1Dvntd5QNd94xuSyV8" who="i-PDvEfAmYAgGTBhkGvyY7F4" prev="i-D5uDxXP15cTJtEu2xqFVe7">
           <seg xml:id="i-BSoD4b71o8AzdoSjDMRPfm">
             Regeringens inställning är: Vi skall först vara säkra och veta
             att man kan behärska säkerhetsproblemen! Om herr Palme ställer
@@ -1508,22 +1470,18 @@
         <note xml:id="i-XCs9jSrBi7XPQHrp8Jvx6S">
           7N2
         </note>
-        <u xml:id="i-XhwAarcrNY14gZCRJHZA5s" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-Di224gbZZ3NCVcY91PxksB" next="i-Xh91SPguryJw577hVQQPg1">
+        <u xml:id="i-XhwAarcrNY14gZCRJHZA5s" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-Di224gbZZ3NCVcY91PxksB">
           <seg xml:id="i-EksWbG2ghubsoXvEB32GVL">
             ju lagrådet dömt ut såsom onödig, eftersom regeringen redan har
             alla de befogenheterna. Jag har kallat den för kejsarens nya kläder,
             och det vidhåller jag, men detta får vi som sagt diskutera senare.
           </seg>
-        </u>
-        <u xml:id="i-Xh91SPguryJw577hVQQPg1" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-XhwAarcrNY14gZCRJHZA5s" next="i-8ujr1vdaAwBdkHDKxVZMvY">
           <seg xml:id="i-5QjbbjSCXw9rezyteHoS5w">
             Vad jag har tagit fasta på här är att trots alla de åsiktsskillnader
             som vi kan ha är ju ändå alla partier — med undantag av kommunisterna
             —- överens om att bygga tio reaktorer. Fem reaktorer är i funktion
             och fem byggs f.n., och ni anslår miljardbelopp till deras byggande.
           </seg>
-        </u>
-        <u xml:id="i-8ujr1vdaAwBdkHDKxVZMvY" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-Xh91SPguryJw577hVQQPg1" next="i-72dcdydkZo1uTxEeAdfJ2z">
           <seg xml:id="i-WXTeB1Tcc8jAGhFpk1Z93">
             Först och främst skall jag konstatera att på den här punkten
             är vi överens. Allt detta byggs. Då måste väl också den grundläggande
@@ -1531,8 +1489,6 @@
             utan skall användas för att producera elektrisk ström till industrin
             och till hushållen.
           </seg>
-        </u>
-        <u xml:id="i-72dcdydkZo1uTxEeAdfJ2z" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-8ujr1vdaAwBdkHDKxVZMvY">
           <seg xml:id="i-3rQo8wWKu7kfMv1NhGiGDf">
             Försök att rensa luften! Säg ut att om detta är alla partier
             i Sveriges riksdag - möjligen med undantag av kommunisterna —
@@ -1555,13 +1511,11 @@
         <note xml:id="i-UYR4bfKfJUhseMLBVgHPsY">
           180, och anförde:
         </note>
-        <u xml:id="i-SyWfwyhseKTQJSFbRmrLsE" who="i-9DETYuf2xa4o1AQ7HpbNMT" next="i-CADrsSfUDCqFDmw18ua6rw">
+        <u xml:id="i-SyWfwyhseKTQJSFbRmrLsE" who="i-9DETYuf2xa4o1AQ7HpbNMT">
           <seg xml:id="i-EcSrUotghvSjRKktfTAKGU">
             Herr talman! Herr Sellgren har frågat mig när proposition beträffande
             reklam för alkohol och tobak avses föreläggas riksdagen.
           </seg>
-        </u>
-        <u xml:id="i-CADrsSfUDCqFDmw18ua6rw" who="i-9DETYuf2xa4o1AQ7HpbNMT" prev="i-SyWfwyhseKTQJSFbRmrLsE">
           <seg xml:id="i-Nvp2tjM6ckDbyMqEqQUA7Q">
             Tobaks- och alkoholreklamutredningen avlämnade sitt betänkande
             Reklam för alkohol och tobak i oktober 1976. Betänkandet remissbehandlas
@@ -1574,14 +1528,12 @@
         <note xml:id="i-RLLH8nkxHA1y5w3f8AoeEw" type="speaker">
           Herr SELLGREN (fp):
         </note>
-        <u xml:id="i-QruNE5WBqDXRa1n2Yar4px" who="i-y57aqt6DptStUpkWh6h5L" next="i-S4fz3TTDoSTeEthakF5Rv7">
+        <u xml:id="i-QruNE5WBqDXRa1n2Yar4px" who="i-y57aqt6DptStUpkWh6h5L" next="i-9mrqUuJ8Stybcvbq3GgcTT">
           <seg xml:id="i-NpNrzJLg9PjjFSxT5cNFeN">
             Herr talman! Jag ber att få tacka statsrådet för svaret. Det
             är många som med intresse ser fram emot den kommande propositionen,
             om ock från olika utgångspunkter.
           </seg>
-        </u>
-        <u xml:id="i-S4fz3TTDoSTeEthakF5Rv7" who="i-y57aqt6DptStUpkWh6h5L" prev="i-QruNE5WBqDXRa1n2Yar4px" next="i-9mrqUuJ8Stybcvbq3GgcTT">
           <seg xml:id="i-YH56VVWkPgMwXtaYej6wLX">
             En bred opinion är inte särskilt förtjust i utredningens förslag.
             Enligt utredningens uppfattning kan man nämligen f. n. inte hävda,
@@ -1596,13 +1548,11 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--57/prot_197677__57-010.jp2/_view"/>
-        <u xml:id="i-9mrqUuJ8Stybcvbq3GgcTT" who="i-y57aqt6DptStUpkWh6h5L" prev="i-S4fz3TTDoSTeEthakF5Rv7" next="i-T5D55qxZrFioychWUHQhWL">
+        <u xml:id="i-9mrqUuJ8Stybcvbq3GgcTT" who="i-y57aqt6DptStUpkWh6h5L" prev="i-QruNE5WBqDXRa1n2Yar4px">
           <seg xml:id="i-CZXjD9DspoiFk3LxxLYUvx">
             branschen skulle lägga ner väldiga belopp på reklam, om inte
             detta vore fallet.
           </seg>
-        </u>
-        <u xml:id="i-T5D55qxZrFioychWUHQhWL" who="i-y57aqt6DptStUpkWh6h5L" prev="i-9mrqUuJ8Stybcvbq3GgcTT" next="i-DVfpqnt3oFAED2EQuiGfoh">
           <seg xml:id="i-DEv5Ek5GdkHMviq53m3z8j">
             På vilket sätt t. ex. tobaksreklamen påverkar människor är heller
             ingen hemlighet. Det kan vara fråga om att skapa eller vidmakthålla
@@ -1612,8 +1562,6 @@
             användande av positivt värdeladdade ord om varans egenskaper,
             såsom ”fyllig, rik smak”, ”len och mild” osv.
           </seg>
-        </u>
-        <u xml:id="i-DVfpqnt3oFAED2EQuiGfoh" who="i-y57aqt6DptStUpkWh6h5L" prev="i-T5D55qxZrFioychWUHQhWL" next="i-BhaaXCFpeFANn96ResWSRE">
           <seg xml:id="i-XUFufTJqNFK6RxFmYRVTxw">
             Redan det faktum, att allmänheten i massmedia ständigt exponeras
             för stort uppslagna påminnelser om att det finns ”högklassiga”
@@ -1624,16 +1572,12 @@
             skall ålägga näringsidkarna att iaktta speciell måttfullhet vid
             marknadsföringen.
           </seg>
-        </u>
-        <u xml:id="i-BhaaXCFpeFANn96ResWSRE" who="i-y57aqt6DptStUpkWh6h5L" prev="i-DVfpqnt3oFAED2EQuiGfoh" next="i-RZ1dNSXmkFjU35uXtkDSco">
           <seg xml:id="i-CMMGDe3PN52XquoNxe9ZD2">
             Jag hoppas att statsrådet i sin proposition kommer att ta hänsyn
             även till sådana här synpunkter och i synnerhet ha i åtanke att
             i utredningen var branschintressen företrädda men inte folkrörelserna
             inom området.
           </seg>
-        </u>
-        <u xml:id="i-RZ1dNSXmkFjU35uXtkDSco" who="i-y57aqt6DptStUpkWh6h5L" prev="i-BhaaXCFpeFANn96ResWSRE">
           <seg xml:id="i-499QvQorRqKStkEhaRPCUP">
             Herr statsrådet säger till slut att det inte kommer någon proposition
             under det här riksmötet. När kommer den då under nästa — blir
@@ -1714,14 +1658,12 @@
         <note xml:id="i-5hBhXytoGo4ZwB4i4BPXUc">
           178, och anförde:
         </note>
-        <u xml:id="i-MDdc9jd1bEpcExAsCGDJVJ" who="i-TS1cfMCbC2M6YMwsFAgdXD" next="i-4ZF6qJv5oX8kHJAtmYLXp8">
+        <u xml:id="i-MDdc9jd1bEpcExAsCGDJVJ" who="i-TS1cfMCbC2M6YMwsFAgdXD">
           <seg xml:id="i-RmHGiiGGebif1ikjS6y5AR">
             Herr talman! Fru Johansson i Tidaholm har frågat mig av vilka
             skäl regeringen har beslutat överge vårens riksdagsbeslut angående
             arbetslagsfortbildningen.
           </seg>
-        </u>
-        <u xml:id="i-4ZF6qJv5oX8kHJAtmYLXp8" who="i-TS1cfMCbC2M6YMwsFAgdXD" prev="i-MDdc9jd1bEpcExAsCGDJVJ" next="i-HZG7huEHqbCm1NZPHeqsEF">
           <seg xml:id="i-CngVAQncqyBagPF1ZLYMHj">
             I propositionen (1975/76:39) om skolans inre arbete m. m. föreslogs
             att fortbildning skulle anordnas om de arbetssätt och arbetsformer
@@ -1730,8 +1672,6 @@
             rekryteras från olika verksamhetsområden, varigenom deltagarnas
             samlade erfarenhet skulle komma att berika fortbildningen.
           </seg>
-        </u>
-        <u xml:id="i-HZG7huEHqbCm1NZPHeqsEF" who="i-TS1cfMCbC2M6YMwsFAgdXD" prev="i-4ZF6qJv5oX8kHJAtmYLXp8" next="i-SsygA8czDcQNwYsh4hWe82">
           <seg xml:id="i-WvZuaMfqZTNxkYr5Tf6xxF">
             Skolöverstyrelsen började därefter planera fortbildningen. I
             oktober 1976 inkom skolöverstyrelsen med en skrivelse till regeringen,
@@ -1742,8 +1682,6 @@
             beslut eller åtgärder i övrigt som medförde att den i regeringsförslag
             och riksdagsbeslut avsedda utbildningen kunde påbörjas.
           </seg>
-        </u>
-        <u xml:id="i-SsygA8czDcQNwYsh4hWe82" who="i-TS1cfMCbC2M6YMwsFAgdXD" prev="i-HZG7huEHqbCm1NZPHeqsEF" next="i-UzpT6r8C9FLRtwuVX2tCmP">
           <seg xml:id="i-5LfTNLincWjhVZebjW8Ya3">
             I beslut den 15 december 1976 har regeringen mot denna bakgrund
             erinrat om riksdagens beslut med anledning av propositionen om
@@ -1759,8 +1697,6 @@
             utestängas från fortbildningen. Detta har inte varit avsikten
             då fortbildningen planerades.
           </seg>
-        </u>
-        <u xml:id="i-UzpT6r8C9FLRtwuVX2tCmP" who="i-TS1cfMCbC2M6YMwsFAgdXD" prev="i-SsygA8czDcQNwYsh4hWe82">
           <seg xml:id="i-Csi9oqZ2L6hWTs4h5wj3sm">
             Anledningen till regeringens beslut är en stark ambition att
             snarast få i gång fortbildningen. Endast om lärarorganisationerna
@@ -1774,25 +1710,21 @@
         <note xml:id="i-SsjLEyn334ADbPZEiFj9Nr" type="speaker">
           Fru JOHANSSON i Tidaholm (s):
         </note>
-        <u xml:id="i-BXjobpPg3DWQs3cx9u8L4m" who="i-8kBfhXyjrBgUH1YAVjW1DD" next="i-Tg4rkBYe4fwzXzEtcAxDAy">
+        <u xml:id="i-BXjobpPg3DWQs3cx9u8L4m" who="i-8kBfhXyjrBgUH1YAVjW1DD" next="i-QdXH4tyxJ3ku6QEfdXi3kR">
           <seg xml:id="i-2ELacybd4Cgcqf1ay3ugMi">
             Herr talman! Jag ber att få tacka statsrådet för svaret på min
             fråga.
           </seg>
-        </u>
-        <u xml:id="i-Tg4rkBYe4fwzXzEtcAxDAy" who="i-8kBfhXyjrBgUH1YAVjW1DD" prev="i-BXjobpPg3DWQs3cx9u8L4m" next="i-EWvPrEmphhFDGvQRQRXLw8">
           <seg xml:id="i-7it6LU5C1LHXKf7k7WGNNG">
             Det är med anledning av riksdagens tidigare beslut som jag har
             ställt frågan. Jag undrar varför regeringen frångår detta beslut?
           </seg>
-        </u>
-        <u xml:id="i-EWvPrEmphhFDGvQRQRXLw8" who="i-8kBfhXyjrBgUH1YAVjW1DD" prev="i-Tg4rkBYe4fwzXzEtcAxDAy" next="i-QdXH4tyxJ3ku6QEfdXi3kR">
           <seg xml:id="i-APp9rAr63n7dUYb8cuUQbB">
             Det räcker inte med att ha en stark ambition att lösa dessa problem,
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--57/prot_197677__57-012.jp2/_view"/>
-        <u xml:id="i-QdXH4tyxJ3ku6QEfdXi3kR" who="i-8kBfhXyjrBgUH1YAVjW1DD" prev="i-EWvPrEmphhFDGvQRQRXLw8">
+        <u xml:id="i-QdXH4tyxJ3ku6QEfdXi3kR" who="i-8kBfhXyjrBgUH1YAVjW1DD" prev="i-BXjobpPg3DWQs3cx9u8L4m">
           <seg xml:id="i-a337tJS31BAVvn2moiYmq">
             utan man behöver även ha handlingskraft inom regeringen för att
             kunna — Nr 57 genomdriva riksdagens tidigare beslut. R Torsdagen
@@ -1864,14 +1796,12 @@
         <note xml:id="i-NTzVZ8GmoxKxyD7TNiTRR1">
           76
         </note>
-        <u xml:id="i-NAArbQDrPTd85YG6tGtaVT" who="i-TS1cfMCbC2M6YMwsFAgdXD" prev="i-DcSrux8knEYUbkc4CVRZWn" next="i-KDsJBuKNCMXLGZ51tSaDiG">
+        <u xml:id="i-NAArbQDrPTd85YG6tGtaVT" who="i-TS1cfMCbC2M6YMwsFAgdXD" prev="i-DcSrux8knEYUbkc4CVRZWn">
           <seg xml:id="i-Jhv62WXjsur4gecHNduHnx">
             geläget för vad jag skulle vilja kalla SIA-andan, dvs. en känsla
             av gemensamt ansvar och samhörighet inom en skola och ett rektorsområde,
             att fortbildningen kommer till stånd.
           </seg>
-        </u>
-        <u xml:id="i-KDsJBuKNCMXLGZ51tSaDiG" who="i-TS1cfMCbC2M6YMwsFAgdXD" prev="i-NAArbQDrPTd85YG6tGtaVT" next="i-SkR9eRrUK5cxxHzx4EnUby">
           <seg xml:id="i-KJWB9kMjg8KPNx5KLkB1c4">
             De personalkategorier som fru Johansson talar om har stor betydelse
             i skolan. En huvudinvändning från lärarorganisationernas sida
@@ -1883,8 +1813,6 @@
             kommunisterna om att arbetsenheterna skulle utvidgas till att
             omfatta samtliga personalgrupper inom skolan.
           </seg>
-        </u>
-        <u xml:id="i-SkR9eRrUK5cxxHzx4EnUby" who="i-TS1cfMCbC2M6YMwsFAgdXD" prev="i-KDsJBuKNCMXLGZ51tSaDiG">
           <seg xml:id="i-FCBuSMXm9uGk8hHZpK9vuc">
             Regeringens svar på SÖ:s begäran om förtydligande av riksdagsbeslutet
             innebär att vi undanröjt varje möjlighet till missförstånd om
@@ -1910,15 +1838,13 @@
         <note xml:id="i-Pbd9sTC82vNb9Ct9sjBifZ">
           171, och anförde:
         </note>
-        <u xml:id="i-BRp6GMiyo7YfvBbQ13jqPD" who="i-M584LNfWt4DmybohxUfGwq" next="i-KWri3mPKFgan4uneq9GPM2">
+        <u xml:id="i-BRp6GMiyo7YfvBbQ13jqPD" who="i-M584LNfWt4DmybohxUfGwq" next="i-FdbmBhCxVWuiAkuDnAEcRz">
           <seg xml:id="i-7uYJ9U1WkfPiwcrmJ2Q2K9">
             Herr talman! Herr Wästberg i Stockholm har frågat mig om jag
             delar uppfattningen att polisen bör avvakta med ingående förhör
             av politiska flyktingar tills dessa fått träffa vänner och juridiskt
             ombud.
           </seg>
-        </u>
-        <u xml:id="i-KWri3mPKFgan4uneq9GPM2" who="i-M584LNfWt4DmybohxUfGwq" prev="i-BRp6GMiyo7YfvBbQ13jqPD" next="i-V2LrKfA5v3tSCAVBa2pSos">
           <seg xml:id="i-JsAw5D2nhQmt7gnxaChmtr">
             Enligt utlänningslagstiftningen skall utlänning vid inresa från
             utomnordiskt land uppvisa sitt pass för polismyndighet. Han skall
@@ -1929,16 +1855,12 @@
             om avvisning underställas invandrarverket, om inte påståendet
             om politiskt Nyktingskap är uppenbart oriktigt.
           </seg>
-        </u>
-        <u xml:id="i-V2LrKfA5v3tSCAVBa2pSos" who="i-M584LNfWt4DmybohxUfGwq" prev="i-KWri3mPKFgan4uneq9GPM2" next="i-PYBZqe7rx2Fi2ivJjtkX2j">
           <seg xml:id="i-7xFw6inhVwA8AJqC3NP4KA">
             Om en utlänning gör gällande att han är politisk flykting måste
             han ange de förhållanden som han vill åberopa för att styrka påståendet
             om flyktingskap. Detta kan inte ske utan att ett förberedande
             förhör hålls med utlänningen i omedelbar anslutning till ankomsten.
           </seg>
-        </u>
-        <u xml:id="i-PYBZqe7rx2Fi2ivJjtkX2j" who="i-M584LNfWt4DmybohxUfGwq" prev="i-V2LrKfA5v3tSCAVBa2pSos" next="i-FdbmBhCxVWuiAkuDnAEcRz">
           <seg xml:id="i-GqFCUskXSmdMypgci4quhZ">
             Det är naturligt att polisen ställer de frågor som kan behövas
             för att klarlägga sakläget. Det förberedande förhöret vid ankomsten
@@ -1947,7 +1869,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--57/prot_197677__57-014.jp2/_view"/>
-        <u xml:id="i-FdbmBhCxVWuiAkuDnAEcRz" who="i-M584LNfWt4DmybohxUfGwq" prev="i-PYBZqe7rx2Fi2ivJjtkX2j" next="i-XqNfeJFH7xoDVnUmGHU2M1">
+        <u xml:id="i-FdbmBhCxVWuiAkuDnAEcRz" who="i-M584LNfWt4DmybohxUfGwq" prev="i-BRp6GMiyo7YfvBbQ13jqPD">
           <seg xml:id="i-88H4LcmMbzrFdcYaqUhqwm">
             som ett led i den utredning som behövs som underlag för invandrar-
             = Nr 57 verkets beslut I Seger d Torsdagen den Det är naturligtvis
@@ -1957,37 +1879,25 @@
             för honom. Men - Om polisens förhör det är också viktigt att polisen
             får tillräckligt underlag för att ta ställning — av politiska
           </seg>
-        </u>
-        <u xml:id="i-XqNfeJFH7xoDVnUmGHU2M1" who="i-M584LNfWt4DmybohxUfGwq" prev="i-FdbmBhCxVWuiAkuDnAEcRz" next="i-H7dN33UxtzUaaNE3rkKDiE">
           <seg xml:id="i-C3JyJx6iYBw691x1ikpxUg">
             till frågan om utlänningen skall få tillträde hit. En rimlig
             avvägning mel- = flyktingar
           </seg>
-        </u>
-        <u xml:id="i-H7dN33UxtzUaaNE3rkKDiE" who="i-M584LNfWt4DmybohxUfGwq" prev="i-XqNfeJFH7xoDVnUmGHU2M1" next="i-Ve8NjCGPKC2reFj2PHwkR">
           <seg xml:id="i-AcnfBDnTCL9rxzcTmDMRDg">
             lan de olika intressena är enligt min mening att utlänningen
             — vare sig
           </seg>
-        </u>
-        <u xml:id="i-Ve8NjCGPKC2reFj2PHwkR" who="i-M584LNfWt4DmybohxUfGwq" prev="i-H7dN33UxtzUaaNE3rkKDiE" next="i-Cwu79kHA7EUn5seArEtTwr">
           <seg xml:id="i-Ud1qkn65MJicULRMHkLKQG">
             han i förväg aviserat sin ankomst eller inte — får finna sig
             i att preliminärt
           </seg>
-        </u>
-        <u xml:id="i-Cwu79kHA7EUn5seArEtTwr" who="i-M584LNfWt4DmybohxUfGwq" prev="i-Ve8NjCGPKC2reFj2PHwkR" next="i-XBL3JYGm9yLhi8rA4MoSvC">
           <seg xml:id="i-HeUTDdJW37yP1dQoTX6ohr">
             höras om sin situation och om sina motiv för att komma hit, innan
           </seg>
-        </u>
-        <u xml:id="i-XBL3JYGm9yLhi8rA4MoSvC" who="i-M584LNfWt4DmybohxUfGwq" prev="i-Cwu79kHA7EUn5seArEtTwr" next="i-5cujZNuBXzvkDF5Tc2qTXW">
           <seg xml:id="i-3QmcXkaq6eYzaGz5qpi7zn">
             han får tillträde till landet. Något hinder för ombud att närvara
             vid förhör
           </seg>
-        </u>
-        <u xml:id="i-5cujZNuBXzvkDF5Tc2qTXW" who="i-M584LNfWt4DmybohxUfGwq" prev="i-XBL3JYGm9yLhi8rA4MoSvC">
           <seg xml:id="i-XXHJ3nPmB9MyYTZJtmWM2P">
             föreligger inte.
           </seg>
@@ -1995,19 +1905,15 @@
         <note xml:id="i-8i6iun4WVP5wVgpAgRdR9G" type="speaker">
           Herr WÄSTBERG i Stockholm (fp):
         </note>
-        <u xml:id="i-4JzL6EjmdWJxMFy4ntJJm5" who="i-8Nc7Pi4CxrPaJswNC5hQu6" next="i-4FGVJhaxTWKJdAorp457Wa">
+        <u xml:id="i-4JzL6EjmdWJxMFy4ntJJm5" who="i-8Nc7Pi4CxrPaJswNC5hQu6" next="i-6owxYe5kxiBzLynhRpLC8V">
           <seg xml:id="i-EsbFEx2eJLMDjX4F4uHssQ">
             Herr talman! Jag vill tacka justitieministern för svaret, som
             kanske inte utmärktes av Sven Romanus sedvanliga klarhet.
           </seg>
-        </u>
-        <u xml:id="i-4FGVJhaxTWKJdAorp457Wa" who="i-8Nc7Pi4CxrPaJswNC5hQu6" prev="i-4JzL6EjmdWJxMFy4ntJJm5" next="i-71btFNjTfxDnDCzmMYEX2z">
           <seg xml:id="i-6Df2sEGgGj8GMccdG4rYeY">
             Bakgrunden till min fråga är en rad allvarliga problem som politiska
             flyktingar som kommit till Sverige haft.
           </seg>
-        </u>
-        <u xml:id="i-71btFNjTfxDnDCzmMYEX2z" who="i-8Nc7Pi4CxrPaJswNC5hQu6" prev="i-4FGVJhaxTWKJdAorp457Wa" next="i-RfoczD24qpagyaULWCNyZD">
           <seg xml:id="i-RdqwUBy46Q3ZvMywvGw6y2">
             Låt mig ta ett exempel. En politisk fånge släpptes för några
             månader sedan från ett brasilianskt fängelse efter mångårig internering.
@@ -2016,36 +1922,26 @@
             Arlanda och bad polisen att ta det lugnt. Ingen visste ju i vilken
             fysisk och psykisk kondition flyktingen befann sig.
           </seg>
-        </u>
-        <u xml:id="i-RfoczD24qpagyaULWCNyZD" who="i-8Nc7Pi4CxrPaJswNC5hQu6" prev="i-71btFNjTfxDnDCzmMYEX2z" next="i-7YKZYxuLVjoneG4m94GHMi">
           <seg xml:id="i-2FYur23swM7MNJWmsTWo6G">
             Polisen avvisade denna begäran. Man menade att man hade sina
             regler att följa. Flyktingen utsattes för en dryg timmes pressande
             förhör.
           </seg>
-        </u>
-        <u xml:id="i-7YKZYxuLVjoneG4m94GHMi" who="i-8Nc7Pi4CxrPaJswNC5hQu6" prev="i-RfoczD24qpagyaULWCNyZD" next="i-5BmPEyAAFbzN2J5xnwoyA1">
           <seg xml:id="i-KEfVA6ZAvUvzQUhvJJvXsX">
             Det finns tyvärr många andra exempel. Flera har påtalats av Amnesty
             och Svenska flyktingrådet.
           </seg>
-        </u>
-        <u xml:id="i-5BmPEyAAFbzN2J5xnwoyA1" who="i-8Nc7Pi4CxrPaJswNC5hQu6" prev="i-7YKZYxuLVjoneG4m94GHMi" next="i-8JjTTvyFak7KCL42LV1yVv">
           <seg xml:id="i-NgpaELeqzghMWRif9NFdJQ">
             Det här är ett system som alltför ofta leder till en helt meningslös
             psykisk tortyr av människor som redan har fått mer än sin beskärda
             del av ångest och lidande.
           </seg>
-        </u>
-        <u xml:id="i-8JjTTvyFak7KCL42LV1yVv" who="i-8Nc7Pi4CxrPaJswNC5hQu6" prev="i-5BmPEyAAFbzN2J5xnwoyA1" next="i-JFVVU7pyafaV2N8Dwsya53">
           <seg xml:id="i-d5qYnMJqQMVk8hNAsvy5Q">
             Dessutom är dessa omedelbara förhör ofta mer en komplikation
             än en hjälp i det fortsatta utredningsarbetet. Jag har själv träffat
             flera politiska flyktingar som när de mött den svenska polisen
             inte vågat klart tala om att de är politiska flyktingar.
           </seg>
-        </u>
-        <u xml:id="i-JFVVU7pyafaV2N8Dwsya53" who="i-8Nc7Pi4CxrPaJswNC5hQu6" prev="i-8JjTTvyFak7KCL42LV1yVv" next="i-2bBPU5ns6dGtuBPE6r6F7z">
           <seg xml:id="i-NEYUkHnFdUSFQzqK9pTkGm">
             Det är heller inte så konstigt: En människa som kommer hit som
             flykting från ett terrorvälde där polisen varit diktaturens förlängda
@@ -2054,15 +1950,11 @@
             nej. Det krävs mycket arbete och flera förhör för att få fram
             den korrekta bilden.
           </seg>
-        </u>
-        <u xml:id="i-2bBPU5ns6dGtuBPE6r6F7z" who="i-8Nc7Pi4CxrPaJswNC5hQu6" prev="i-JFVVU7pyafaV2N8Dwsya53" next="i-9GxFtvBN3Gz6tMSpYeZ3xw">
           <seg xml:id="i-tc67JrGQeEWtEFty4iDa1">
             Vad värre är: Vi vet ingenting om i hur många fall missförstånd
             av detta slag lett till att människor som varit politiska flyktingar
             avvisats från Sverige. Här kan tragedier ha skett i det tysta.
           </seg>
-        </u>
-        <u xml:id="i-9GxFtvBN3Gz6tMSpYeZ3xw" who="i-8Nc7Pi4CxrPaJswNC5hQu6" prev="i-2bBPU5ns6dGtuBPE6r6F7z" next="i-6owxYe5kxiBzLynhRpLC8V">
           <seg xml:id="i-BGh7xxuvjugkQG8TPFznRf">
             Vad som skulle behövas är en kort skriftlig information vid alla
             gränsstationer som på de flesta språk talar om vad en flykting
@@ -2083,7 +1975,7 @@
         <note xml:id="i-SNNPjqvBqwax9dp16AnTVL">
           78
         </note>
-        <u xml:id="i-6owxYe5kxiBzLynhRpLC8V" who="i-8Nc7Pi4CxrPaJswNC5hQu6" prev="i-9GxFtvBN3Gz6tMSpYeZ3xw" next="i-2NcZf54PNLBTyiDBB7EoQd">
+        <u xml:id="i-6owxYe5kxiBzLynhRpLC8V" who="i-8Nc7Pi4CxrPaJswNC5hQu6" prev="i-4JzL6EjmdWJxMFy4ntJJm5">
           <seg xml:id="i-7zhP6KjoScDG5pW8HBzyRX">
             Dessutom bör passpolisen få instruktion om att i möjligaste mån
             undvika pressande förhör med politiska flyktingar. När det gäller
@@ -2091,14 +1983,10 @@
             kommer, bör förhör helt kunna anstå tills flyktingen fått träffa
             väntande vänner.
           </seg>
-        </u>
-        <u xml:id="i-2NcZf54PNLBTyiDBB7EoQd" who="i-8Nc7Pi4CxrPaJswNC5hQu6" prev="i-6owxYe5kxiBzLynhRpLC8V" next="i-8VjKQFLatK9ybeKyqPWoET">
           <seg xml:id="i-UNiGU3erUHoVWu2B7X7EK5">
             Jag frågade justitieministern om han instämde i detta. På den
             frågan fick jag faktiskt inget svar.
           </seg>
-        </u>
-        <u xml:id="i-8VjKQFLatK9ybeKyqPWoET" who="i-8Nc7Pi4CxrPaJswNC5hQu6" prev="i-2NcZf54PNLBTyiDBB7EoQd">
           <seg xml:id="i-Fjrj19Dg35hDExTBF2UJjT">
             Justitieministern anförde att något hinder för ombud att närvara
             vid förhör inte finns. Jag vill fråga hur den ståndpunkten skall
@@ -2109,7 +1997,7 @@
         <note xml:id="i-15ofnLZ5yU9zmvEGk4yT6E" type="speaker">
           Herr justitieministern ROMANUS:
         </note>
-        <u xml:id="i-Y9kwXWWtPfEhnko6csBTPA" who="i-M584LNfWt4DmybohxUfGwq" next="i-3zdnbziVagEtfMWUsFe6hB">
+        <u xml:id="i-Y9kwXWWtPfEhnko6csBTPA" who="i-M584LNfWt4DmybohxUfGwq">
           <seg xml:id="i-PCGxn3uu4YdaTgD1QwhKu3">
             Herr talman! Jag kan hålla med herr Wästberg i Stockholm om att
             det är angeläget att man inte utsätter utlänning som kommer hit
@@ -2118,8 +2006,6 @@
             ett preliminärt förhör redan vid ankomsten. Det ytterligare förhör
             som sedan behövs kan alltså anstå.
           </seg>
-        </u>
-        <u xml:id="i-3zdnbziVagEtfMWUsFe6hB" who="i-M584LNfWt4DmybohxUfGwq" prev="i-Y9kwXWWtPfEhnko6csBTPA" next="i-SgHSnMjyDKT29fyWUujJit">
           <seg xml:id="i-8XrCWuCfcwPjBPDurqh83w">
             Jag vill i det sammanhanget nämna att under budgetarbetet har
             aktualiserats införande av särskilda utredningscentraler i de
@@ -2131,8 +2017,6 @@
             I så fall är det möjligt att de preliminära förhören, som hålls
             redan vid ankomsten, kan bli mera kortfattade.
           </seg>
-        </u>
-        <u xml:id="i-SgHSnMjyDKT29fyWUujJit" who="i-M584LNfWt4DmybohxUfGwq" prev="i-3zdnbziVagEtfMWUsFe6hB">
           <seg xml:id="i-KLDbcA35FkrZb8uEFeQ2CX">
             Vidare vill jag understryka att om utlänningens fysiska eller
             psykiska tillstånd inte medger att förhör hålls kan förhör naturligtvis
@@ -2142,7 +2026,7 @@
         <note xml:id="i-Q1ESMtxgaXotrQdnYAJivY" type="speaker">
           Herr WÄSTBERG i Stockholm (fp):
         </note>
-        <u xml:id="i-NMvpo9xvXgNKfjo4ocAhmE" who="i-8Nc7Pi4CxrPaJswNC5hQu6" next="i-C3id7Gbb85Z4vimYT1M1C2">
+        <u xml:id="i-NMvpo9xvXgNKfjo4ocAhmE" who="i-8Nc7Pi4CxrPaJswNC5hQu6">
           <seg xml:id="i-TkeimcTRJttjG5wMXKXCHW">
             Herr talman! Jag är glad över att justitieministern så klart
             har sagt att pressande förhör bör undvikas vid ankomsten. Jag
@@ -2151,8 +2035,6 @@
             ofta har varit brist på kunskap och utbildning på dessa områden
             hos polisen som har legat bakom problemen.
           </seg>
-        </u>
-        <u xml:id="i-C3id7Gbb85Z4vimYT1M1C2" who="i-8Nc7Pi4CxrPaJswNC5hQu6" prev="i-NMvpo9xvXgNKfjo4ocAhmE">
           <seg xml:id="i-FZjCaLzWBz7hULJfs8PWKk">
             Jag håller med om att det i dag sannolikt är nödvändigt med ett
             kort preliminärt förhör vid gränsen. Men då återstår två frågor:
@@ -2173,14 +2055,12 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--57/prot_197677__57-016.jp2/_view"/>
-        <u xml:id="i-DgszDadqKkt7e3Q7CaRS5z" who="i-M584LNfWt4DmybohxUfGwq" prev="i-GgkbLwHp82FvXmyjoaDyHi" next="i-7faRkmpGMR8rA7fArCZupx">
+        <u xml:id="i-DgszDadqKkt7e3Q7CaRS5z" who="i-M584LNfWt4DmybohxUfGwq" prev="i-GgkbLwHp82FvXmyjoaDyHi">
           <seg xml:id="i-Mo7b6r3FQAD3w87ssSgWoM">
             att när en flykting har uttagits och överförts till Sverige enligt
             regeringsbeslut eller kommer hit med gällande visering behöver
             han inte bli föremål för polisförhör i anslutning till inresan.
           </seg>
-        </u>
-        <u xml:id="i-7faRkmpGMR8rA7fArCZupx" who="i-M584LNfWt4DmybohxUfGwq" prev="i-DgszDadqKkt7e3Q7CaRS5z">
           <seg xml:id="i-BXfXn5aYiJSwoanTQPytE5">
             Om ett preliminärt förhör måste hållas redan vid flyktingens
             ankomst och han inte har tillgång till vänner, kan man naturligtvis
@@ -2192,7 +2072,7 @@
         <note xml:id="i-Wgat35cKfJzDkBW2SfxiAs" type="speaker">
           Herr WÄSTBERG i Stockholm (fp):
         </note>
-        <u xml:id="i-Q3sSswLExDArCNTSgs9Krf" who="i-8Nc7Pi4CxrPaJswNC5hQu6" next="i-Cm6zjbGsBZNkzNi8BeuBvM">
+        <u xml:id="i-Q3sSswLExDArCNTSgs9Krf" who="i-8Nc7Pi4CxrPaJswNC5hQu6">
           <seg xml:id="i-Gz1ou7FmJ82RsawWdVAkNM">
             Herr talman! Det är sant att svensk flyktingpolitik delvis bygger
             på ett kvoteringssystem. Men det är ett tidskrävande system, och
@@ -2202,8 +2082,6 @@
             och passpolisen får förhandsavisering om ankomsten. Då bör förhöret
             kunna göras mycket kort eller slopas.
           </seg>
-        </u>
-        <u xml:id="i-Cm6zjbGsBZNkzNi8BeuBvM" who="i-8Nc7Pi4CxrPaJswNC5hQu6" prev="i-Q3sSswLExDArCNTSgs9Krf">
           <seg xml:id="i-WPFCwrKvnxxnq8WJAVFfYn">
             Det finns fall där vänner och ombud har stått utanför grindarna
             vid gränsstationen och väntat men inte fått komma in och vara
@@ -2228,23 +2106,19 @@
         <note xml:id="i-K8391JvFc8cQdyNp1BBFBj">
           175, och anförde:
         </note>
-        <u xml:id="i-547gGD543UgHhmK2fMA4f1" who="i-M584LNfWt4DmybohxUfGwq" next="i-CGHTZ4SjerqdA3eh723B9h">
+        <u xml:id="i-547gGD543UgHhmK2fMA4f1" who="i-M584LNfWt4DmybohxUfGwq" next="i-66wwbkAAbg5EqzEdgxZkpm">
           <seg xml:id="i-42NBcfzS4ZWC6Dz3xGmyFs">
             Herr talman! Herr Jansson har frågat mig om jag anser att den
             enskildes integritet kan komma i fara genom att obehöriga avlyssnar
             polisens kommunikationsradio och om jag är beredd att vidta åtgärder
             för att skydda den enskildes integritet på detta område.
           </seg>
-        </u>
-        <u xml:id="i-CGHTZ4SjerqdA3eh723B9h" who="i-M584LNfWt4DmybohxUfGwq" prev="i-547gGD543UgHhmK2fMA4f1" next="i-6Ye41GYm4taGSvPYjncbvi">
           <seg xml:id="i-AGNSHwLLY4PSAmepgMmmcM">
             Som herr Jansson har påpekat kan man i den öppna handeln köpa
             radiomottagare med vilka man kan avlyssna polisens kommunikationsradio.
             Det är inte förbjudet enligt svensk lag att försälja och inneha
             sådana apparater.
           </seg>
-        </u>
-        <u xml:id="i-6Ye41GYm4taGSvPYjncbvi" who="i-M584LNfWt4DmybohxUfGwq" prev="i-CGHTZ4SjerqdA3eh723B9h" next="i-NCtfnpL5s7WMpDLvg2zedx">
           <seg xml:id="i-BkbVaq1jVxi6QT89AMSU8p">
             Att polisens kommunikationsradio avlyssnas av andra än poliser
             är enligt min mening otillfredsställande av flera skäl. Den brottsbekämpande
@@ -2254,8 +2128,6 @@
             att spridas bland allmänheten och således innebära risker för
             enskildas integritet.
           </seg>
-        </u>
-        <u xml:id="i-NCtfnpL5s7WMpDLvg2zedx" who="i-M584LNfWt4DmybohxUfGwq" prev="i-6Ye41GYm4taGSvPYjncbvi" next="i-66wwbkAAbg5EqzEdgxZkpm">
           <seg xml:id="i-RQJwnEsKXBJ8aHCZxWcpvQ">
             Även polisen är medveten om de risker som är förenade med att
             polisradion avlyssnas av allmänheten. I någon mån minskas riskerna
@@ -2290,7 +2162,7 @@
         <note xml:id="i-K4nX9nf4XRGbow3D7dHbGV">
           80
         </note>
-        <u xml:id="i-66wwbkAAbg5EqzEdgxZkpm" who="i-M584LNfWt4DmybohxUfGwq" prev="i-NCtfnpL5s7WMpDLvg2zedx" next="i-Vd637aD1SjnDCiqg7n8gUS">
+        <u xml:id="i-66wwbkAAbg5EqzEdgxZkpm" who="i-M584LNfWt4DmybohxUfGwq" prev="i-547gGD543UgHhmK2fMA4f1">
           <seg xml:id="i-LYnSaZpXE7LEumz5wfGysf">
             polisradion så kortfattat som möjligt. I detta sammanhang vill
             jag nämna att man i polisradion ibland använder sig av sifferbeteckningar
@@ -2298,8 +2170,6 @@
             hämtas från den blankett som används i radiocentralen för att
             dokumentera uppdrag som lämnas via polisradion.
           </seg>
-        </u>
-        <u xml:id="i-Vd637aD1SjnDCiqg7n8gUS" who="i-M584LNfWt4DmybohxUfGwq" prev="i-66wwbkAAbg5EqzEdgxZkpm" next="i-MhwoKLyneBoExi54DPCx1r">
           <seg xml:id="i-VCucVQWmaHtcEdGk4vJZwK">
             Några föreskrifter om att polisen i sina radiomeddelanden på
             detta sätt skall använda sig av koder finns inte. Det är inte
@@ -2309,8 +2179,6 @@
             som koderna måste bytas jämförelsevis ofta för att förhindra att
             kodbeteckningarna blir kända utanför polisen.
           </seg>
-        </u>
-        <u xml:id="i-MhwoKLyneBoExi54DPCx1r" who="i-M584LNfWt4DmybohxUfGwq" prev="i-Vd637aD1SjnDCiqg7n8gUS" next="i-HfqpgEmrfvD3q5D4tkUUFC">
           <seg xml:id="i-LondUevBDgzqW7yqHbpw1R">
             Det är knappast heller möjligt att förbjuda försäljning eller
             innehav utan särskilt tillstånd av radiomottagare med vilka man
@@ -2320,8 +2188,6 @@
             att själv bygga sig en sådan mottagare. Ett förbud kan därför
             inte beräknas få någon nämnvärd effekt.
           </seg>
-        </u>
-        <u xml:id="i-HfqpgEmrfvD3q5D4tkUUFC" who="i-M584LNfWt4DmybohxUfGwq" prev="i-MhwoKLyneBoExi54DPCx1r" next="i-TDCeexUJHCY7QEZhitXV5b">
           <seg xml:id="i-2RDuzAbfc4dWq1AtmPQ8ZB">
             Allmänhetens avlyssning av polisradion kan motverkas genom talkryptering.
             Därigenom blir det mycket svårt för obehöriga att avlyssna polisradion.
@@ -2332,8 +2198,6 @@
             forcera krypteringen. Polisen har utrustning för talkryptering
             i Stockholm och Göteborg.
           </seg>
-        </u>
-        <u xml:id="i-TDCeexUJHCY7QEZhitXV5b" who="i-M584LNfWt4DmybohxUfGwq" prev="i-HfqpgEmrfvD3q5D4tkUUFC" next="i-X7s3gVcaWLrsFRUXALQo3t">
           <seg xml:id="i-HCfoh9V334ymQmFQW2jy4L">
             I årets budgetproposition har regeringen beräknat medel för ett
             helt nytt radiosystem i Malmö polisdistrikt. Vidare har regeringen
@@ -2348,8 +2212,6 @@
             begär regeringen också medel för viss ytterligare krypteringsutrustning
             i det nuvarande systemet.
           </seg>
-        </u>
-        <u xml:id="i-X7s3gVcaWLrsFRUXALQo3t" who="i-M584LNfWt4DmybohxUfGwq" prev="i-TDCeexUJHCY7QEZhitXV5b">
           <seg xml:id="i-8WvJ5Np47WnFWSmguvkDB2">
             Jag har erfarit att rikspolisstyrelsen fortlöpande följer den
             tekniska utvecklingen på området för att om möjligt påskynda införandet
@@ -2359,13 +2221,11 @@
         <note xml:id="i-Sv8UxakAGSq4xZ3bC78EV" type="speaker">
           Herr JANSSON (s):
         </note>
-        <u xml:id="i-VyGYUQXSSe2hXJA7upKW5G" who="i-7iPA93ucfpYLfEjkeT9MSK" next="i-TKScorTgbnwReRgCdBk383">
+        <u xml:id="i-VyGYUQXSSe2hXJA7upKW5G" who="i-7iPA93ucfpYLfEjkeT9MSK" next="i-G3rU8rBSM5CJVHYFihW3d">
           <seg xml:id="i-6gAF3srtYBmt9osFnYkvSx">
             Herr talman! Jag ber att få tacka justitieministern för svaret
             på min fråga.
           </seg>
-        </u>
-        <u xml:id="i-TKScorTgbnwReRgCdBk383" who="i-7iPA93ucfpYLfEjkeT9MSK" prev="i-VyGYUQXSSe2hXJA7upKW5G" next="i-G3rU8rBSM5CJVHYFihW3d">
           <seg xml:id="i-32giKe4HqtqAMaRmgfQ36d">
             Svaret är ju positivt, i varje fall i så måtto att justitieministern
             känner oro för utvecklingen när det gäller avlyssningen av polisens
@@ -2374,21 +2234,17 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--57/prot_197677__57-018.jp2/_view"/>
-        <u xml:id="i-G3rU8rBSM5CJVHYFihW3d" who="i-7iPA93ucfpYLfEjkeT9MSK" prev="i-TKScorTgbnwReRgCdBk383" next="i-SEaQ1HEbQvtkJvfhjBhr3B">
+        <u xml:id="i-G3rU8rBSM5CJVHYFihW3d" who="i-7iPA93ucfpYLfEjkeT9MSK" prev="i-VyGYUQXSSe2hXJA7upKW5G" next="i-DXBGjn9jPYXLaVEQ9eom4Q">
           <seg xml:id="i-XraVarZRuHdTstjnPeDo6G">
             lyssningen tycks ha fått en sådan omfattning i vårt land att
             man har anledning att känna oro, inte minst för den enskildes
             integritet.
           </seg>
-        </u>
-        <u xml:id="i-SEaQ1HEbQvtkJvfhjBhr3B" who="i-7iPA93ucfpYLfEjkeT9MSK" prev="i-G3rU8rBSM5CJVHYFihW3d" next="i-RypWKyx6NcJdCMKH8KgTnj">
           <seg xml:id="i-VzJj7sU3L2p66HziyiHUDU">
             Inträffade händelser som exempelvis polis, läkare och annan personal
             är ålagda sträng tystnadsplikt omkring kan uppenbarligen bli allmän
             egendom och spridas till offentligheten på det här sättet.
           </seg>
-        </u>
-        <u xml:id="i-RypWKyx6NcJdCMKH8KgTnj" who="i-7iPA93ucfpYLfEjkeT9MSK" prev="i-SEaQ1HEbQvtkJvfhjBhr3B" next="i-DXBGjn9jPYXLaVEQ9eom4Q">
           <seg xml:id="i-9ypCHoMpFeAD9sjkrLiXb4">
             Jag har här i min hand en broschyr där man i bästa James Bond-stil
             gör reklam för de här anläggningarna:
@@ -2406,23 +2262,19 @@
         <note xml:id="i-6dekD1z9GcFD4cwRzDGdM4">
           ”Med rätt att avlyssna”
         </note>
-        <u xml:id="i-DXBGjn9jPYXLaVEQ9eom4Q" who="i-7iPA93ucfpYLfEjkeT9MSK" prev="i-RypWKyx6NcJdCMKH8KgTnj" next="i-EKqVvVLoDgkEah6cz8ehHk">
+        <u xml:id="i-DXBGjn9jPYXLaVEQ9eom4Q" who="i-7iPA93ucfpYLfEjkeT9MSK" prev="i-G3rU8rBSM5CJVHYFihW3d">
           <seg xml:id="i-Czrz8gPjjq5MQw9doo5dnE">
             Med den avsättning som dessa artiklar fått på marknaden är det
             klart att företagen gör ekonomiska vinster på dem. När man går
             ut med sådana här reklambroschyrer ökar naturligtvis omsättningen
             ytterligare.
           </seg>
-        </u>
-        <u xml:id="i-EKqVvVLoDgkEah6cz8ehHk" who="i-7iPA93ucfpYLfEjkeT9MSK" prev="i-DXBGjn9jPYXLaVEQ9eom4Q" next="i-J9pBasPDFEyz1FdKK1uG5x">
           <seg xml:id="i-W4xU2V29uN8aGWtBnVRran">
             I denna broschyr finns också beträffande samtliga polisdistrikt
             i landet detaljerade uppgifter om vilka kanalkoder som polisen
             använder. Man får uppgift om vilka kristaller som man skall beställa
             för att kunna lyssna på de olika polisdistriktens kommunikationsradio.
           </seg>
-        </u>
-        <u xml:id="i-J9pBasPDFEyz1FdKK1uG5x" who="i-7iPA93ucfpYLfEjkeT9MSK" prev="i-EKqVvVLoDgkEah6cz8ehHk" next="i-VDgHwx2wd2aNgVPQwB81Xm">
           <seg xml:id="i-5xdw8TBaymSSey8K4o3QZt">
             Det som är allvarligast — och som jag också tog upp i min fråga
             — är att man lämnar ut polisens förkortningar och koder beträffande
@@ -2432,8 +2284,6 @@
             kunna ta reda på att Svensson i trean har blivit så deprimerad
             att han försökt begå självmord.
           </seg>
-        </u>
-        <u xml:id="i-VDgHwx2wd2aNgVPQwB81Xm" who="i-7iPA93ucfpYLfEjkeT9MSK" prev="i-J9pBasPDFEyz1FdKK1uG5x" next="i-CmgdsbiHirCj1iZFivojfp">
           <seg xml:id="i-Cpt4WHjuSu5vmvuYdMFCJC">
             Enligt uppgifter från polisen är det tydligen så, som också justitieministern
             själv säger, att det är svårt att bedriva brottsbekämpning och
@@ -2441,14 +2291,10 @@
             med avancerad brottslig verksamhet skaffar sig sådan här utrustning.
             Det försvårar i hög grad polisens arbete.
           </seg>
-        </u>
-        <u xml:id="i-CmgdsbiHirCj1iZFivojfp" who="i-7iPA93ucfpYLfEjkeT9MSK" prev="i-VDgHwx2wd2aNgVPQwB81Xm" next="i-5VTpNRq4VCLGBVkzfgwV2d">
           <seg xml:id="i-9izJLPe1ra3BFUcfqSypqb">
             Jag har fått ett brev från polischefen i Skellefteå, Filip Gerhardsson.
             Han har låtit sig intervjuas i en tidning, där han säger följande:
           </seg>
-        </u>
-        <u xml:id="i-5VTpNRq4VCLGBVkzfgwV2d" who="i-7iPA93ucfpYLfEjkeT9MSK" prev="i-CmgdsbiHirCj1iZFivojfp" next="i-SztcUGqS7JYLsNJUGfbKYK">
           <seg xml:id="i-UJrFPPKnxcDRn3mhjevqbZ">
             ”Om vi polismän så att säga från mun till mun yppade en del saker
             som rör vårt arbete till utomstående — då skulle vi riskera att
@@ -2457,8 +2303,6 @@
             eländigt att vi i Sverige lär ha världens bästa polisradio — system
             -70 — och att vi sedan inte skall kunna utnyttja den i full utsträckning!”
           </seg>
-        </u>
-        <u xml:id="i-SztcUGqS7JYLsNJUGfbKYK" who="i-7iPA93ucfpYLfEjkeT9MSK" prev="i-5VTpNRq4VCLGBVkzfgwV2d">
           <seg xml:id="i-9FMDA8mjancVNLVMaW93Cs">
             Jag tackar för svaret, men jag tycker att de åtgärder som justitieministern
             talar om inte leder så värst långt. Jag skulle gärna vilja höra
@@ -2507,7 +2351,7 @@
         <note xml:id="i-HbyQvY2xc3Ltq1nM9wqPMJ">
           82
         </note>
-        <u xml:id="i-QSzMsjTupC1ZqHroCUtqcy" who="i-M584LNfWt4DmybohxUfGwq" prev="i-MkuEF6ymmD7wqKXZWweFfW" next="i-BDZSVmX5jNshFhyVTcPcuo">
+        <u xml:id="i-QSzMsjTupC1ZqHroCUtqcy" who="i-M584LNfWt4DmybohxUfGwq" prev="i-MkuEF6ymmD7wqKXZWweFfW">
           <seg xml:id="i-MrZU9YPSgNCMxovASmar9F">
             Man har ett behov av att genom polisradion kunna tillkalla polis
             så” fort som möjligt vid inträffade händelser. Att förhindra att
@@ -2515,8 +2359,6 @@
             skulle innebära att man införde förbud mot innehav av radiomottagare.
             Det innebär i sin tur en inskränkning i den enskildes frihet.
           </seg>
-        </u>
-        <u xml:id="i-BDZSVmX5jNshFhyVTcPcuo" who="i-M584LNfWt4DmybohxUfGwq" prev="i-QSzMsjTupC1ZqHroCUtqcy">
           <seg xml:id="i-KJpRaYdgwmYkq8RmgaY3LU">
             Den lösning som jag har nämnt i mitt svar är att man skulle skaffa
             krypteringsapparatur. Som framgår av svaret är man på god väg.
@@ -2526,7 +2368,7 @@
         <note xml:id="i-M2XisZFe84d1PMfiHfYSv6" type="speaker">
           Herr JANSSON (s):
         </note>
-        <u xml:id="i-HPSQEK5fDVDcUn7aaJ1WYM" who="i-7iPA93ucfpYLfEjkeT9MSK" next="i-MNKDHB4AWQnBb9bPsW3R1i">
+        <u xml:id="i-HPSQEK5fDVDcUn7aaJ1WYM" who="i-7iPA93ucfpYLfEjkeT9MSK">
           <seg xml:id="i-5mbcRPHTTpTFFQsBULXXuq">
             Herr talman! I likhet med justitieministern är jag medveten om
             att det säkerligen inte är möjligt att införa ett förbud mot försäljning
@@ -2534,8 +2376,6 @@
             lyssna på radio. Det är alltså inte något sådant jag egentligen
             är ute efter.
           </seg>
-        </u>
-        <u xml:id="i-MNKDHB4AWQnBb9bPsW3R1i" who="i-7iPA93ucfpYLfEjkeT9MSK" prev="i-HPSQEK5fDVDcUn7aaJ1WYM" next="i-Gvtkjd2ciuvC97nfoBqWh9">
           <seg xml:id="i-55VYfDKaYaBPQLDGfSSxd4">
             Poliserna förklarar att de har svårigheter att genomföra sitt
             jobb därför att de vet att de är avlyssnade. I stället för att
@@ -2543,8 +2383,6 @@
             sambandscentraler och ge muntliga meddelanden där, vilket i hög
             grad försvårar verksamheten.
           </seg>
-        </u>
-        <u xml:id="i-Gvtkjd2ciuvC97nfoBqWh9" who="i-7iPA93ucfpYLfEjkeT9MSK" prev="i-MNKDHB4AWQnBb9bPsW3R1i">
           <seg xml:id="i-FPqkSLz5EymEFMxxSj5FwS">
             De talkrypteringsanläggningar som justitieministern talade om
             är visserligen dyrbara men väldigt nödvändiga för att komma till
@@ -2613,7 +2451,7 @@
         <note xml:id="i-HFnbqDqoo3b6ymcJYUFH8k">
           165, och anförde:
         </note>
-        <u xml:id="i-XayysHELsemiafvu5TvLbe" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" next="i-Xdf3c2xj198oKrz625NYid">
+        <u xml:id="i-XayysHELsemiafvu5TvLbe" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" next="i-H2UCdkAqVx1WoFKwUrVpsk">
           <seg xml:id="i-AogJPpLbzqyjmxWh2mmBAr">
             Herr talman! Herr Gustavsson i Eskilstuna har frågat mig om jag
             ämnar vidta åtgärder för att snabbt undanröja alla oklarheter
@@ -2621,16 +2459,12 @@
             om omhändertagande enligt lagen om tillfälligt omhändertagande
             (LTO).
           </seg>
-        </u>
-        <u xml:id="i-Xdf3c2xj198oKrz625NYid" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-XayysHELsemiafvu5TvLbe" next="i-7XBM5ocXjMJDoUxh9Ud3Hv">
           <seg xml:id="i-9BZBu9GxfdMzSjHMuqGxtW">
             Enligt 3 $ LTO skall den omhändertas av polisman som genom sitt
             uppträdande stör allmän ordning eller utgör omedelbar fara för
             denna, om det är nödvändigt för att upprätthålla ordningen. Omhändertagande
             kan också ske när det fordras för att avvärja straffbelagd gärning.
           </seg>
-        </u>
-        <u xml:id="i-7XBM5ocXjMJDoUxh9Ud3Hv" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-Xdf3c2xj198oKrz625NYid" next="i-8T7yFyFwQ9uJD6Uebwre6g">
           <seg xml:id="i-DW2RSXEBUbi8e4hVHMmE11">
             Utredning skall göras om den omhändertagnes personliga levnadsförhållanden,
             i den mån behov av sådan utredning kan antas föreligga. Utredningen
@@ -2638,15 +2472,11 @@
             med utredningen skall vara att ta reda på, om den omhändertagne
             är i trängande behov av hjälp eller stöd från samhällets sida.
           </seg>
-        </u>
-        <u xml:id="i-8T7yFyFwQ9uJD6Uebwre6g" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-7XBM5ocXjMJDoUxh9Ud3Hv" next="i-K1qTXYDarQNjZUTmrRk6ZP">
           <seg xml:id="i-Pea8VXxk8g7qphReE2ECxZ">
             Registrering av personer som har omhändertagits enligt LTO får
             inte göras hos polisen. Detta framgår av uttalanden vid lagens
             tillkomst och av anvisningar som har utfärdats av rikspolisstyrelsen.
           </seg>
-        </u>
-        <u xml:id="i-K1qTXYDarQNjZUTmrRk6ZP" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-8T7yFyFwQ9uJD6Uebwre6g" next="i-4P5dc36SU9sshbF5PzFhdT">
           <seg xml:id="i-8v8f2LSqJsVExvz2SaZ3yi">
             Däremot finns inga föreskrifter om hur socialmyndigheterna skall
             hantera uppgifter som kommer in om personer som har omhändertagits
@@ -2655,8 +2485,6 @@
             skall ske hos de sociala myndigheterna. Det är därmed närmast
             en lämplighetsfråga vad som skall registreras hos sådan myndighet.
           </seg>
-        </u>
-        <u xml:id="i-4P5dc36SU9sshbF5PzFhdT" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-K1qTXYDarQNjZUTmrRk6ZP" next="i-GXKdf725aVYEWjD5otrzaL">
           <seg xml:id="i-UX3xeKUHDEnwDATivBoYxD">
             De sociala myndigheterna får enligt vad utvärderingarna visar
             i viss utsträckning rapporter från polisen om omhändertaganden
@@ -2698,7 +2526,7 @@
         <note xml:id="i-Et8FUKSe6UEUjaCVQ5A2hr">
           84
         </note>
-        <u xml:id="i-H2UCdkAqVx1WoFKwUrVpsk" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-GXKdf725aVYEWjD5otrzaL" next="i-95QLkWPARN5JWxQpPzdUwy">
+        <u xml:id="i-H2UCdkAqVx1WoFKwUrVpsk" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-XayysHELsemiafvu5TvLbe">
           <seg xml:id="i-Dm3xPz39ZhaRHjzvRo9Sn5">
             På sina håll lär det ha förekommit att polisen rutinmässigt har
             skickat rapporter om omhändertaganden till de sociala myndigheterna.
@@ -2707,8 +2535,6 @@
             i samband med den bearbetning av tillämpningsföreskrifterna som
             nu pågår inom rikspolisstyrelsen.
           </seg>
-        </u>
-        <u xml:id="i-95QLkWPARN5JWxQpPzdUwy" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-H2UCdkAqVx1WoFKwUrVpsk" next="i-LsHH6x4oN1obD1MW32PR7t">
           <seg xml:id="i-5LK5E5AH4p3adr5gqnWuPo">
             I det fall en inkommen rapport leder till utredning hos den sociala
             myndigheten är det naturligt att rapporten får ingå i den akt
@@ -2718,8 +2544,6 @@
             vid LTO:s tillkomst att det är olämpligt att förvara rapporterna
             på ett sådant sätt att de bildar ett register.
           </seg>
-        </u>
-        <u xml:id="i-LsHH6x4oN1obD1MW32PR7t" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-95QLkWPARN5JWxQpPzdUwy">
           <seg xml:id="i-6tKhy6U3wPHt4hq95g4a3j">
             Inom socialstyrelsen överväger man f.n. att gå ut med ett särskilt
             meddelande till de sociala myndigheterna i de frågor som jag nu
@@ -2732,13 +2556,11 @@
         <note xml:id="i-3GVgbwzRLTEPQMaQFhGtMd" type="speaker">
           Herr GUSTAVSSON i Eskilstuna (s):
         </note>
-        <u xml:id="i-CjYia7MmfHDJPDqenvR1zp" who="i-NLBMxEvbLF63U4eqdbsfQX" next="i-NMYD7A744PUhUZaaaMZNv7">
+        <u xml:id="i-CjYia7MmfHDJPDqenvR1zp" who="i-NLBMxEvbLF63U4eqdbsfQX" next="i-3TBJKiB898vHpBNQ1RtnMf">
           <seg xml:id="i-GvewoDFoZ3qKaJyvG7qHgp">
             Herr talman! Jag ber att få tacka socialministern för svaret
             på min fråga.
           </seg>
-        </u>
-        <u xml:id="i-NMYD7A744PUhUZaaaMZNv7" who="i-NLBMxEvbLF63U4eqdbsfQX" prev="i-CjYia7MmfHDJPDqenvR1zp" next="i-PkaQNdgNK81PJ39N4QxmSS">
           <seg xml:id="i-SLqXLVk38cRuWRbtWs8bDj">
             Syftet med frågan har inte varit att återigen ta upp en LTO-debatt.
             Om jag förstått saken rätt har tanken bakom lagen varit att skydda
@@ -2749,15 +2571,11 @@
             får lämnas vidare och därigenom bli till skada för den som tillfälligt
             omhändertagits.
           </seg>
-        </u>
-        <u xml:id="i-PkaQNdgNK81PJ39N4QxmSS" who="i-NLBMxEvbLF63U4eqdbsfQX" prev="i-NMYD7A744PUhUZaaaMZNv7" next="i-X3p5HGeXqaHudkPF9okSRU">
           <seg xml:id="i-8EubR8L7qVCtiFiRgRxyG">
             Som jag kunnat uppfatta saken på grundval av pressuppgifter har
             inte bestämmelserna kunnat uppfattas som tillräckligt entydiga.
             Socialministern har bekräftat detta.
           </seg>
-        </u>
-        <u xml:id="i-X3p5HGeXqaHudkPF9okSRU" who="i-NLBMxEvbLF63U4eqdbsfQX" prev="i-PkaQNdgNK81PJ39N4QxmSS" next="i-D78UgMxN5K1vuMXmgAHMae">
           <seg xml:id="i-6KwbHDauX3h25HUBG67c9M">
             Dessa bestämmelser måste vara absolut otvetydiga. Detta är ett
             oeftergivligt krav med hänsyn både till den som blivit föremål
@@ -2765,8 +2583,6 @@
             stödåtgärderna. Därför ställde jag min fråga till socialministern,
             som har verktygen för att skapa klarhet.
           </seg>
-        </u>
-        <u xml:id="i-D78UgMxN5K1vuMXmgAHMae" who="i-NLBMxEvbLF63U4eqdbsfQX" prev="i-X3p5HGeXqaHudkPF9okSRU" next="i-Kz2CwpZqboudziE5znaDfP">
           <seg xml:id="i-7Y6ZR85zTNdTwAMPTeSSFR">
             Socialministern har meddelat att socialutredningen överväger
             att komma med vissa förslag i vad gäller registerföringen. Det
@@ -2777,8 +2593,6 @@
             Det viktiga är hur man utnyttjar de uppgifter som finns och hur
             sekretessen fungerar.
           </seg>
-        </u>
-        <u xml:id="i-Kz2CwpZqboudziE5znaDfP" who="i-NLBMxEvbLF63U4eqdbsfQX" prev="i-D78UgMxN5K1vuMXmgAHMae" next="i-3TBJKiB898vHpBNQ1RtnMf">
           <seg xml:id="i-9QcEhMyDxVPEat9x3pDav">
             Får jag, herr socialminister, tolka svaret så, att man kan vänta
             ett klarläggande från utredningen inte bara i vad gäller registerföringen?
@@ -2791,7 +2605,7 @@
           saken så att — Nr 57 det blir full klarhet i fråga om uppgifters
           överlämnande från myndighet till myndighet?
         </note>
-        <u xml:id="i-3TBJKiB898vHpBNQ1RtnMf" who="i-NLBMxEvbLF63U4eqdbsfQX" prev="i-Kz2CwpZqboudziE5znaDfP">
+        <u xml:id="i-3TBJKiB898vHpBNQ1RtnMf" who="i-NLBMxEvbLF63U4eqdbsfQX" prev="i-CjYia7MmfHDJPDqenvR1zp">
           <seg xml:id="i-67GNiAjesKxQFrgV16oz8J">
             Jag hade nog varit mera till freds om socialministern kunnat
             upplysa = om innehållet i det särskilda meddelande som socialstyrelsen
@@ -2809,7 +2623,7 @@
         <note xml:id="i-NvGg6rMQJUWwuX6ueLWSXb" type="speaker">
           Herr socialministern GUSTAVSSON:
         </note>
-        <u xml:id="i-JwapzPdQwZXEoBW7cYPTVo" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" next="i-U6qDsfcm2rJ77fCyaaxpEz">
+        <u xml:id="i-JwapzPdQwZXEoBW7cYPTVo" who="i-Y2s3vw3xfBnmDmMhCYX6QJ">
           <seg xml:id="i-6GB1w1DdrepH3CnYxznopD">
             Herr talman! Jag är medveten om de svårigheter som frånvaron
             av bestämmelser på detta område innebär för de sociala myndigheterna.
@@ -2820,14 +2634,10 @@
             och lägga fram förslag till viss lagstiftning. Det är min förhoppning
             att vi därmed kommer att få en bättre ordning.
           </seg>
-        </u>
-        <u xml:id="i-U6qDsfcm2rJ77fCyaaxpEz" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-JwapzPdQwZXEoBW7cYPTVo" next="i-4ESFXRaepDmdcbP294WZDH">
           <seg xml:id="i-E1gEK3LbuugoctEwCRGQaZ">
             Som jag också nämnde i mitt svar pågår en bearbetning av tillämpningsföreskrifterna
             inom rikspolisstyrelsen.
           </seg>
-        </u>
-        <u xml:id="i-4ESFXRaepDmdcbP294WZDH" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-U6qDsfcm2rJ77fCyaaxpEz">
           <seg xml:id="i-WuPJxhPYdjzLFCWf4nfyFP">
             Frågan i övrigt, alltså vad som karakteriserar ett register,
             bör kanske besvaras i annat sammanhang. Rent allmänt kan jag emellertid
@@ -2880,13 +2690,11 @@
         <note xml:id="i-57FQMXKkQDzRZL7XUDMdze">
           86
         </note>
-        <u xml:id="i-Lq2qLo7mdRR3nGz8eR2QB3" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" next="i-DxXBFzkr2u6QpAAnvZpJbW">
+        <u xml:id="i-Lq2qLo7mdRR3nGz8eR2QB3" who="i-Y2s3vw3xfBnmDmMhCYX6QJ">
           <seg xml:id="i-BmkvuxDm3MfunH18THCHYG">
             sekvenserna av de sjunkande födelsetalen. Frågan har överlämnats
             till mig för att jag skall besvara den.
           </seg>
-        </u>
-        <u xml:id="i-DxXBFzkr2u6QpAAnvZpJbW" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-Lq2qLo7mdRR3nGz8eR2QB3" next="i-53TX4WZ8vaVi7joriVgSm2">
           <seg xml:id="i-HdbM9Di3dNPKYoCXVQx9HR">
             I Sverige föddes 98 000 barn år 1976. Det innebär en minskning
             med närmare 6 000 i förhållande till år 1975. Det allmänna födelsetalet,
@@ -2896,8 +2704,6 @@
             av ett visst födelseöverskott, dels till följd av att invandringsöverskottet
             år 1976 var förhållandevis stort.
           </seg>
-        </u>
-        <u xml:id="i-53TX4WZ8vaVi7joriVgSm2" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-DxXBFzkr2u6QpAAnvZpJbW" next="i-XfFetvJu7SNRwBSdTuBxVd">
           <seg xml:id="i-KomuGT7mEDASXgicUh71Dw">
             Enligt min mening finns det inte anledning att f.n. aktualisera
             en översyn av befolkningsutvecklingen som en fristående fråga.
@@ -2910,8 +2716,6 @@
             inriktad reformpolitik och för att värna och utveckla vårt fria
             och öppna samhälle.
           </seg>
-        </u>
-        <u xml:id="i-XfFetvJu7SNRwBSdTuBxVd" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-53TX4WZ8vaVi7joriVgSm2" next="i-SchELJfqVwdZxRzvbVrN4k">
           <seg xml:id="i-Hw2tujdMX3VGgU7Fu9JkpT">
             I regeringsdeklarationen har lagts fast att det familjepolitiska
             reformarbetet skall fortsätta i den takt som våra ekonomiska resurser
@@ -2922,8 +2726,6 @@
             ledighet motsvarande två månader på heltid. Den kompletteras med
             ett vårdnadsbidrag till småbarnsföräldrar.
           </seg>
-        </u>
-        <u xml:id="i-SchELJfqVwdZxRzvbVrN4k" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-XfFetvJu7SNRwBSdTuBxVd" next="i-LkRV56tsJaokqJ4Bfp5YQU">
           <seg xml:id="i-6LRysACmPUwHo18p1B3cXM">
             Servicen för barnfamiljerna skall förbättras. En allmän föräldrautbildning
             byggs ut av stat, landsting och kommun i samverkan. Samhällets
@@ -2931,16 +2733,12 @@
             nya fritidshemsplatser under perioden 1976-1980. Kvaliteten i
             samhällets service för barnfamiljerna förbättras.
           </seg>
-        </u>
-        <u xml:id="i-LkRV56tsJaokqJ4Bfp5YQU" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-SchELJfqVwdZxRzvbVrN4k" next="i-5JdSR4yKJy58snYX3tBHTE">
           <seg xml:id="i-NDK5zKXgB56NndsVLQZRa7">
             Rätten för alla till en god bostad och angelägenheten av att
             förbättra bristfälliga boendemiljöer har skrivits in i regeringsdeklarationen.
             Arbetet för jämställdhet mellan kvinnor och män påskyndas. Villkoren
             för deltidsarbetande förbättras.
           </seg>
-        </u>
-        <u xml:id="i-5JdSR4yKJy58snYX3tBHTE" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-LkRV56tsJaokqJ4Bfp5YQU">
           <seg xml:id="i-CrXte6HHMfTQ4cx5Hwr5Td">
             Väsentliga steg för att genomföra denna politik tas genom förslag
             i årets budgetproposition och genom förslag i särskilda propositioner
@@ -3039,7 +2837,7 @@
         <note xml:id="i-R4cMicxu2aCuz4YtkK4BXW" type="speaker">
           Herr socialministern GUSTAVSSON:
         </note>
-        <u xml:id="i-2d8pP2JAje4Lq23DAhawpS" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" next="i-7BNCqURtkER2Uz667Z6T68">
+        <u xml:id="i-2d8pP2JAje4Lq23DAhawpS" who="i-Y2s3vw3xfBnmDmMhCYX6QJ">
           <seg xml:id="i-Dp8dwF3ZXR7ykP8DiGXeJ1">
             Herr talman! Herr Biörcks i Värmdö fråga gällde om vi är beredda
             att göra en översyn av befolkningsutvecklingen i vårt land. I
@@ -3050,8 +2848,6 @@
             och goda boendemiljöer, vilket hör till det grundläggande, samhällsutvecklingen,
             bebyggelsestrukturen m. m.
           </seg>
-        </u>
-        <u xml:id="i-7BNCqURtkER2Uz667Z6T68" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-2d8pP2JAje4Lq23DAhawpS">
           <seg xml:id="i-H2eBGge8KfPMfa9FyBszHe">
             Jag underskattar inte på något sätt denna fråga, men vi har i
             dag inte velat säga ja till en speciell översyn. Jag hoppas emellertid
@@ -3063,15 +2859,13 @@
         <note xml:id="i-A2myLj8ykzM2RWJguS2XcQ" type="speaker">
           Herr BIÖRCK i Värmdö (m):
         </note>
-        <u xml:id="i-LczEGamUTuP697rTSN3Wj8" who="i-5WchbRYCVdXodSthFK381D" next="i-PEqC8NP7YuLTAoB3a78xcc">
+        <u xml:id="i-LczEGamUTuP697rTSN3Wj8" who="i-5WchbRYCVdXodSthFK381D">
           <seg xml:id="i-WUhubiiBmMacHNxTaMzZ54">
             Herr talman! Även innehållet i det senaste anförandet tar jag
             naturligtvis tacksamt emot. Det är ju en inbjudan till fortsatt
             kontakt, om utvecklingen inte skulle vända till följd av regeringens
             åtgärder.
           </seg>
-        </u>
-        <u xml:id="i-PEqC8NP7YuLTAoB3a78xcc" who="i-5WchbRYCVdXodSthFK381D" prev="i-LczEGamUTuP697rTSN3Wj8" next="i-FpSnq7kd8oAt7UDeobm823">
           <seg xml:id="i-RhniKxm9VahZheo1J993Ws">
             Herr talman! Man kan inte säga så mycket på tre eller två minuter,
             och jag koncentrerade mig därför i mitt första anförande på en
@@ -3085,8 +2879,6 @@
             och hur dessa faser, från begynnelsen till änden, likväl måste
             ses i ett sammanhang.
           </seg>
-        </u>
-        <u xml:id="i-FpSnq7kd8oAt7UDeobm823" who="i-5WchbRYCVdXodSthFK381D" prev="i-PEqC8NP7YuLTAoB3a78xcc">
           <seg xml:id="i-S5hi1EQXCUb2ErJSdLEtw9">
             Om det verkligen behöver sägas, herr talman, för att inte mitt
             första inlägg skall få en alltför stark betoning av änden snarare
@@ -3121,7 +2913,7 @@
           marknader.
         </note>
         <pb facs="https://betalab.kb.se/prot-197677--57/prot_197677__57-026.jp2/_view"/>
-        <u xml:id="i-LmKjk1eYErJG84biQ5z9za" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-Kebg4VLKPy2M8ZD7UYetKS" next="i-WjYcq1WRbRYJm79n2bkj9X">
+        <u xml:id="i-LmKjk1eYErJG84biQ5z9za" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-Kebg4VLKPy2M8ZD7UYetKS">
           <seg xml:id="i-EfwFBZK79NXUc93qrK7kUZ">
             Distributionsutredningen har i sitt betänkande (SOU 1975:69)
             Samhället och distributionen behandlat bl. a. frågan om stormarknadsetableringar.
@@ -3130,8 +2922,6 @@
             utpräglad storbutiksstruktur. Som ett led i detta föreslås kommunerna
             upprätta varuförsörjningsplaner.
           </seg>
-        </u>
-        <u xml:id="i-WjYcq1WRbRYJm79n2bkj9X" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-LmKjk1eYErJG84biQ5z9za" next="i-FqyVynEyUK6fKaRV6QF1Xm">
           <seg xml:id="i-MLifUVtPFJ6pBDZ6agvrTh">
             Utredningens förslag har remissbehandlats och bereds f. n. inom
             handelsdepartementet. Det är därför inte nu möjligt att redovisa
@@ -3139,8 +2929,6 @@
             dock att förslaget om kommunala varuförsörjningsplaner har bemötts
             positivt av så gott som samtliga remissinstanser.
           </seg>
-        </u>
-        <u xml:id="i-FqyVynEyUK6fKaRV6QF1Xm" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-WjYcq1WRbRYJm79n2bkj9X" next="i-9vQdtMAwMuFNDGPdyQJ1Pu">
           <seg xml:id="i-Q2MUFWj857uwe5LxfX77E6">
             I dagsläget gäller att samhällets prövning av stormarknadsetableringar
             görs i anslutning till att stadsplaner fastställs. Härvid gör
@@ -3150,8 +2938,6 @@
             eller inte fastställa planen eller om länsstyrelsen underställer
             regeringen planen för prövning.
           </seg>
-        </u>
-        <u xml:id="i-9vQdtMAwMuFNDGPdyQJ1Pu" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-FqyVynEyUK6fKaRV6QF1Xm">
           <seg xml:id="i-B4hLcMtn9FWCp5CoEQjLtP">
             Vilket beslutsunderlag som skall krävas vid en stormarknadsetablering
             blir självfallet delvis beroende av omständigheterna i det enskilda
@@ -3166,12 +2952,10 @@
         <note xml:id="i-KtUhWmNnpzG6Q7mtTZqsMG" type="speaker">
           Fröken ELIASSON (c):
         </note>
-        <u xml:id="i-96fF1Lyqm2AbZotWVKBKuy" who="unknown" next="i-KBUMYmGjao8KhKNAC4r8w2">
+        <u xml:id="i-96fF1Lyqm2AbZotWVKBKuy" who="unknown" next="i-PMfF9MhKv6ZzLTUFpdwkCr">
           <seg xml:id="i-LWRBFttteDd5QzcJcbnbGn">
             Herr talman! Jag ber att få tacka bostadsministern för svaret.
           </seg>
-        </u>
-        <u xml:id="i-KBUMYmGjao8KhKNAC4r8w2" who="unknown" prev="i-96fF1Lyqm2AbZotWVKBKuy" next="i-3Z3WaxqGKr3ayiQjuhNLvi">
           <seg xml:id="i-HdWwAacfw5XAnf5jvecsx8">
             Bakgrunden till min fråga är de uppmärksammade planerna på ett
             stormarknadsbygge här i Stockholm. Det finns i dag en stormarknad
@@ -3182,8 +2966,6 @@
             tänkt att bli en jätteanläggning på 27500 m? och med parkeringsutrymme
             för 1 800 bilar.
           </seg>
-        </u>
-        <u xml:id="i-3Z3WaxqGKr3ayiQjuhNLvi" who="unknown" prev="i-KBUMYmGjao8KhKNAC4r8w2" next="i-AepaHkFoSUj1MiQowbC6dM">
           <seg xml:id="i-4BAeGnQXF2wjxXgSMDc8F3">
             De myndigheter och organisationer som yttrat sig hittills om
             planerna har varit övervägande kritiska. Stormarknaden ligger
@@ -3192,8 +2974,6 @@
             sysselsättningsminskningar hotar. En ny jättestormarknad kommer
             att ytterligare allvarligt försämra läget.
           </seg>
-        </u>
-        <u xml:id="i-AepaHkFoSUj1MiQowbC6dM" who="unknown" prev="i-3Z3WaxqGKr3ayiQjuhNLvi" next="i-PMfF9MhKv6ZzLTUFpdwkCr">
           <seg xml:id="i-DrPxWtQMEzVtrBGc9gzS8T">
             Främst är det centrumhandeln i Solna, Sundbyberg, Vällingby och
             det nya Kistaområdet som drabbas. Solna och Sundbybergs kommuner
@@ -3226,13 +3006,11 @@
         <note xml:id="i-4uQbZVbv8V7vZJgCqx9TtL">
           Om svenskundervisningen för utländska universitetsstuderande
         </note>
-        <u xml:id="i-PMfF9MhKv6ZzLTUFpdwkCr" who="unknown" prev="i-AepaHkFoSUj1MiQowbC6dM" next="i-L1RvGcfH8TiKtd4DMJEJLk">
+        <u xml:id="i-PMfF9MhKv6ZzLTUFpdwkCr" who="unknown" prev="i-96fF1Lyqm2AbZotWVKBKuy">
           <seg xml:id="i-QKVDeLGqUjTeYM4M6gtpjx">
             inte någon varuförsörjningsplan. Stormarknaden kom heller inte
             till mot bakgrund av en genomtänkt regional planering.
           </seg>
-        </u>
-        <u xml:id="i-L1RvGcfH8TiKtd4DMJEJLk" who="unknown" prev="i-PMfF9MhKv6ZzLTUFpdwkCr" next="i-CgbxtZdPFzSDXeDGXUQ7ke">
           <seg xml:id="i-L32K5JyAXht5NwxWaw5gcD">
             Särskilt märkligt är att ett kommunalt bolag, Stockholms Mark
             och Lokaliseringsbolag, utlovat företaget hjälp att få bygga den
@@ -3240,22 +3018,16 @@
             att göra upp ett hemligt avtal med ett enskilt företag om en jättestormarknad
             utan att det funnits någon kommunal planering för varuförsörjningen.
           </seg>
-        </u>
-        <u xml:id="i-CgbxtZdPFzSDXeDGXUQ7ke" who="unknown" prev="i-L1RvGcfH8TiKtd4DMJEJLk" next="i-9HUtxpH8La5TV8KNwepWoz">
           <seg xml:id="i-RMA74v4ibJVmS2jf3KycfE">
             Så här bör det definitivt inte få gå till. Eller vad anser bostadsministern?
             Skall det få komma till stormarknader på det här viset?
           </seg>
-        </u>
-        <u xml:id="i-9HUtxpH8La5TV8KNwepWoz" who="unknown" prev="i-CgbxtZdPFzSDXeDGXUQ7ke" next="i-9FxVAhUkqRD2Z6ovvJNM3M">
           <seg xml:id="i-37F2BLXyBMjqQqSppGBQij">
             Jag menar att kommunens ansvariga organ måste få spela en aktiv
             roll och att det måste ske en samordning med annan samhällelig
             planering. Grannkommunerna måste i ett sådant fall som detta få
             ett ord med i laget.
           </seg>
-        </u>
-        <u xml:id="i-9FxVAhUkqRD2Z6ovvJNM3M" who="unknown" prev="i-9HUtxpH8La5TV8KNwepWoz" next="i-ASizoJYKFFvGUXs412vb39">
           <seg xml:id="i-SdK1SdEyHNqqeFYQL4L6M8">
             Fler och större stormarknader skall vi akta oss för. Jag är glad
             över det besked som bostadsministern nu gett om regeringens handlande
@@ -3267,8 +3039,6 @@
             hög grad präglats av stormarknadsetableringar, butiksdöd och bristande
             samhällelig planering.
           </seg>
-        </u>
-        <u xml:id="i-ASizoJYKFFvGUXs412vb39" who="unknown" prev="i-9FxVAhUkqRD2Z6ovvJNM3M">
           <seg xml:id="i-JRqhYZJJWJekTx8oGpMG1u">
             Mot den här bakgrunden är det inte svårt att förstå vilken allmän
             inställning regeringen kan väntas ha till de nu aktuella expansionsplanerna
@@ -3279,15 +3049,13 @@
         <note xml:id="i-B173GUhJZ5P4gNF5UshvM5" type="speaker">
           Fru bostadsministern OLSSON:
         </note>
-        <u xml:id="i-XiCtbJJuoz7RYSfdvi2i37" who="i-4UgQ2nJDsz9iU1xxKcTpmu" next="i-4XwKGHvDwPxEf73vsxet4H">
+        <u xml:id="i-XiCtbJJuoz7RYSfdvi2i37" who="i-4UgQ2nJDsz9iU1xxKcTpmu">
           <seg xml:id="i-LfC9MNjakUW7avRFBCKkFX">
             Herr talman! Jag kan inte uttala mig om den stormarknad som fröken
             Eliasson här tar upp mer än genom att säga att etableringen naturligtvis
             måste ske i vedertagna former och att besluten skall fattas av
             de förtroendevalda. Det är hos dem beslutanderätten skall ligga.
           </seg>
-        </u>
-        <u xml:id="i-4XwKGHvDwPxEf73vsxet4H" who="i-4UgQ2nJDsz9iU1xxKcTpmu" prev="i-XiCtbJJuoz7RYSfdvi2i37">
           <seg xml:id="i-RtsLXtFyyC2XFRzkLCisRc">
             I vad gäller stormarknader kommer vi att vara restriktiva i vår
             bedömning, och det minsta krav man kan ställa är naturligtvis
@@ -3312,29 +3080,23 @@
           192, och anförde:
         </note>
         <pb facs="https://betalab.kb.se/prot-197677--57/prot_197677__57-028.jp2/_view"/>
-        <u xml:id="i-CDHYSTHbHXaTndbcTmoAW4" who="i-GPpMndMfbS5wqmSKDRcoh7" next="i-X7m7kc4rQ1wS6xqZ5Tjdgk">
+        <u xml:id="i-CDHYSTHbHXaTndbcTmoAW4" who="i-GPpMndMfbS5wqmSKDRcoh7">
           <seg xml:id="i-FXEnY6erxYd5rTBUPPTSnW">
             Herr talman! Herr Strömberg i Botkyrka har frågat mig hur jag
             ser på att ett antal utländska studenter vid Stockholms universitet
             ej kunnat påbörja studier i svenska på grund av att anslag saknas.
           </seg>
-        </u>
-        <u xml:id="i-X7m7kc4rQ1wS6xqZ5Tjdgk" who="i-GPpMndMfbS5wqmSKDRcoh7" prev="i-CDHYSTHbHXaTndbcTmoAW4" next="i-3ehkJsLPyiySsjUgaTF726">
           <seg xml:id="i-2jwmNd93sVk4bngznCkDaZ">
             Medel för kurser i svenska för utländska studerande anvisas under
             ett särskilt anslag som disponeras av universitets- och högskoleämbetet.
             Ämbetet fördelar sedan medlen mellan universiteten.
           </seg>
-        </u>
-        <u xml:id="i-3ehkJsLPyiySsjUgaTF726" who="i-GPpMndMfbS5wqmSKDRcoh7" prev="i-X7m7kc4rQ1wS6xqZ5Tjdgk" next="i-Hpx9Zg2fJP9PDbvH1L52hv">
           <seg xml:id="i-V5W1qBGP2rosaHfM8TqWA2">
             Universiteten i Stockholm och Göteborg har nu begärt tilläggsanslag
             för att kunna anordna fler kurser under vårterminen 1977. Antalet
             anmälningar till kurserna har inför vårterminen varit större än
             väntat.
           </seg>
-        </u>
-        <u xml:id="i-Hpx9Zg2fJP9PDbvH1L52hv" who="i-GPpMndMfbS5wqmSKDRcoh7" prev="i-3ehkJsLPyiySsjUgaTF726">
           <seg xml:id="i-CB7SJkCqBBhngHombLwuqS">
             I samband med framställningen från Göteborgs universitet har
             universitets- och högskoleämbetet lämnat en redogörelse för förhållandena
@@ -3349,7 +3111,7 @@
         <note xml:id="i-92UiznQv2oek6UunPMXyn8" type="speaker">
           Herr STRÖMBERG i Botkyrka (fp):
         </note>
-        <u xml:id="i-98thsbvESkAA8uLBCoNccZ" who="i-GPpMndMfbS5wqmSKDRcoh7" next="i-SpzESeE1PHDe3Zg5KKThLv">
+        <u xml:id="i-98thsbvESkAA8uLBCoNccZ" who="i-GPpMndMfbS5wqmSKDRcoh7">
           <seg xml:id="i-RB1anhV8G5SPFa1PevmwkS">
             Herr talman! När det för ungefär en vecka sedan meddelades att
             ett stort antal utländska studenter inte fick plats på en kurs
@@ -3360,8 +3122,6 @@
             och andra hade fått uppehållstillstånd i Sverige just därför att
             de skulle studera.
           </seg>
-        </u>
-        <u xml:id="i-SpzESeE1PHDe3Zg5KKThLv" who="i-GPpMndMfbS5wqmSKDRcoh7" prev="i-98thsbvESkAA8uLBCoNccZ" next="i-CVD9xhDdHSut6FkFWG2BLM">
           <seg xml:id="i-GQevZMVPnWALyZkDzB2Qe5">
             Utifrån sett har planering och information ej fungerat helt tillfredsställande.
             I detta läge är det därför bra att utbildningsministern reagerat
@@ -3369,8 +3129,6 @@
             längre sikt är det dock angeläget att få till stånd en sådan administrativ
             ordning att liknande krissituationer kan undvikas.
           </seg>
-        </u>
-        <u xml:id="i-CVD9xhDdHSut6FkFWG2BLM" who="i-GPpMndMfbS5wqmSKDRcoh7" prev="i-SpzESeE1PHDe3Zg5KKThLv">
           <seg xml:id="i-RfXXDkPtRs6NpNy2b7ZNDc">
             Jag ber att få tacka utbildningsministern för det positiva svaret.
           </seg>
@@ -3378,15 +3136,13 @@
         <note xml:id="i-XV5MUGdVcHVtn3fg5qJ68C" type="speaker">
           Herr utbildningsministern WIKSTRÖM:
         </note>
-        <u xml:id="i-JmMHMYsT8bqAJD8qUVoSun" who="i-P7oVLGoBfbz4RGE5XkQtLN" next="i-64eBmom67vAoRmDTr1JKAU">
+        <u xml:id="i-JmMHMYsT8bqAJD8qUVoSun" who="i-P7oVLGoBfbz4RGE5XkQtLN">
           <seg xml:id="i-CSrxbfaP26xxBfhi1vrDYv">
             Herr talman! Jag vill tillägga till det herr Strömberg i Botkyrka
             sade att universitet- och högskoleämbetet samt skolöverstyrelsen
             har ett uppdrag att göra en översyn av den metodik som man använder
             sig av när man arrangerar dessa kurser.
           </seg>
-        </u>
-        <u xml:id="i-64eBmom67vAoRmDTr1JKAU" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-JmMHMYsT8bqAJD8qUVoSun">
           <seg xml:id="i-CVJ3XCyFc7Zff9JVqgeuCH">
             Jag delar herr Strömbergs uppfattning att det är nödvändigt att
             få ett bättre beslutsunderlag inför kommande terminer. I det här
@@ -3448,14 +3204,12 @@
         <note xml:id="i-NsfzPjqRdMe3n6TAz5eBxT">
           160, och anförde:
         </note>
-        <u xml:id="i-Gw4MtYYutxzYFHcUXqG5hi" who="i-BjNiod8wotUabh41ByfhRU" next="i-2dMjhX88VEv6vQ2Mcisnb1">
+        <u xml:id="i-Gw4MtYYutxzYFHcUXqG5hi" who="i-BjNiod8wotUabh41ByfhRU">
           <seg xml:id="i-TqUnADrfiYC6ajgghBQP28">
             Herr talman! Herr Börjesson i Falköping har frågat mig om jag
             är beredd verka för att SJ:s planer på personalbegränsning i Falköping
             inte genomförs.
           </seg>
-        </u>
-        <u xml:id="i-2dMjhX88VEv6vQ2Mcisnb1" who="i-BjNiod8wotUabh41ByfhRU" prev="i-Gw4MtYYutxzYFHcUXqG5hi" next="i-BKYR7o1d2kc5V6Q9xLbQuv">
           <seg xml:id="i-P23DtNwtLHLJimcK1CA8UU">
             SJ rationaliserar och effektiviserar fortlöpande sin verksamhet.
             Som ett led i detta arbete kommer s. k. samordnad lokledning att
@@ -3464,8 +3218,6 @@
             sysselsättningen vid olika verkstäder. Driftverkstaden i Falköping
             påverkas dock enligt vad jag har erfarit i mycket liten utsträckning.
           </seg>
-        </u>
-        <u xml:id="i-BKYR7o1d2kc5V6Q9xLbQuv" who="i-BjNiod8wotUabh41ByfhRU" prev="i-2dMjhX88VEv6vQ2Mcisnb1">
           <seg xml:id="i-23vXkgRmxSiGMGTdHa2Uah">
             Inte heller i övrigt planeras någon ändring av SJ:s verksamhet
             i Falköping som avviker från den successiva anpassning av verksamheten
@@ -3476,12 +3228,10 @@
         <note xml:id="i-N5cVJJVDaNyvu9DUY2A2p" type="speaker">
           Herr BÖRJESSON i Falköping (c):
         </note>
-        <u xml:id="i-S8ybwgX1qWFK6f7ZP45vAP" who="i-Af27F1xYCu7PKfDmUgU7Xb" next="i-2vV8JPkzyPv6KwGBJdP72c">
+        <u xml:id="i-S8ybwgX1qWFK6f7ZP45vAP" who="i-Af27F1xYCu7PKfDmUgU7Xb" next="i-TGz5Lrc3tbdyQ35N9HW4YM">
           <seg xml:id="i-9S4zZFU3qNnTVocnR7Ykdd">
             Herr talman! Allra först vill jag tacka för svaret på min fråga.
           </seg>
-        </u>
-        <u xml:id="i-2vV8JPkzyPv6KwGBJdP72c" who="i-Af27F1xYCu7PKfDmUgU7Xb" prev="i-S8ybwgX1qWFK6f7ZP45vAP" next="i-Wr6KBWMnPTggnbyAQBSBYy">
           <seg xml:id="i-ULpG8rbC1CsqYrjepiArSq">
             Vad som har gett mig anledning att rikta min fråga till kommunikationsministern
             är de av SJ varslade personalinskränkningarna. Det är helt naturligt
@@ -3495,8 +3245,6 @@
             Det är helt enkelt nödvändigt att sysselsättningsstimulerande
             åtgärder sätts in för att trygga syssélsättningen i Falköping.
           </seg>
-        </u>
-        <u xml:id="i-Wr6KBWMnPTggnbyAQBSBYy" who="i-Af27F1xYCu7PKfDmUgU7Xb" prev="i-2vV8JPkzyPv6KwGBJdP72c" next="i-TGz5Lrc3tbdyQ35N9HW4YM">
           <seg xml:id="i-K5MR4JEEh2hjdvwFXVJLEq">
             Nu säger kommunikationsministern i sitt svar att det inte är
             fråga om några större inskränkningar i sysselsättningen i de olika
@@ -3504,14 +3252,12 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--57/prot_197677__57-030.jp2/_view"/>
-        <u xml:id="i-TGz5Lrc3tbdyQ35N9HW4YM" who="i-Af27F1xYCu7PKfDmUgU7Xb" prev="i-Wr6KBWMnPTggnbyAQBSBYy" next="i-8PPNu79CxhZVVEmTqvN1bF">
+        <u xml:id="i-TGz5Lrc3tbdyQ35N9HW4YM" who="i-Af27F1xYCu7PKfDmUgU7Xb" prev="i-S8ybwgX1qWFK6f7ZP45vAP">
           <seg xml:id="i-JsCjJ17SLQRaLgbBBJxVhW">
             Min fråga är då: Vad innebär detta uttryck ”i mycket litet utsträckning”?
             Betyder det tio man eller 20 eller hur många kan det vara fråga
             om?
           </seg>
-        </u>
-        <u xml:id="i-8PPNu79CxhZVVEmTqvN1bF" who="i-Af27F1xYCu7PKfDmUgU7Xb" prev="i-TGz5Lrc3tbdyQ35N9HW4YM" next="i-H8xm3PBUGoNpod2MGY6Jef">
           <seg xml:id="i-CEfrDte3ThafPYW8ccJa7H">
             Om det är på det sättet att SJ planerar åtgärder i syfte att
             exempelvis sätta stopp för nyanställning, innebär det då en rationalisering
@@ -3519,8 +3265,6 @@
             om att föra över viss verksamhet till andra orter i landet. Jag
             vill gärna ha ett besked på den punkten.
           </seg>
-        </u>
-        <u xml:id="i-H8xm3PBUGoNpod2MGY6Jef" who="i-Af27F1xYCu7PKfDmUgU7Xb" prev="i-8PPNu79CxhZVVEmTqvN1bF" next="i-SBEr5CNe6QFcieNjd74vU1">
           <seg xml:id="i-UHW6KNuVnm7kth3SbjPam6">
             Vad som talar emot en eventuell nedskärning av verksamheten är
             att Falköping kan erbjuda ett bra rekryteringsunderlag av lämplig
@@ -3529,8 +3273,6 @@
             medelålder är ganska hög. Därmed undanröjs rekryteringssvårigheter
             i framtiden.
           </seg>
-        </u>
-        <u xml:id="i-SBEr5CNe6QFcieNjd74vU1" who="i-Af27F1xYCu7PKfDmUgU7Xb" prev="i-H8xm3PBUGoNpod2MGY6Jef">
           <seg xml:id="i-LnhCeH3EY5PAYSTz42yZYx">
             En frågedebatt ger inte möjligheter, herr talman, att gå in på
             alla de problem som man önskar få belysta i sammanhanget, och
@@ -3545,7 +3287,7 @@
         <note xml:id="i-5fTXqAt3EWMxK3X6C7WQcR" type="speaker">
           Herr kommunikationsministern TURESSON:
         </note>
-        <u xml:id="i-UoEQdSkorwGKWXNJcKnCU9" who="i-BjNiod8wotUabh41ByfhRU" next="i-2osizQc9jGKboPCUzXrUfj">
+        <u xml:id="i-UoEQdSkorwGKWXNJcKnCU9" who="i-BjNiod8wotUabh41ByfhRU">
           <seg xml:id="i-JgakLNhbxLBYYmHcnqPnDp">
             Herr talman! Jag förstår mycket väl att kommunalmännen i Falköping
             är bekymrade, om det från flera företag inom kommunen varslas
@@ -3557,8 +3299,6 @@
             Det blir alltså en minskning med två personer, och därmed skulle
             antalet anställda i verkstaden vara 30 personer.
           </seg>
-        </u>
-        <u xml:id="i-2osizQc9jGKboPCUzXrUfj" who="i-BjNiod8wotUabh41ByfhRU" prev="i-UoEQdSkorwGKWXNJcKnCU9" next="i-8TmWdtirq5iKScfptEoepd">
           <seg xml:id="i-L72tNGDZ8nc7dPhx1BNEj1">
             Härutöver kommer under de närmaste åren en viss anpassning att
             ske av storleken på den trafikavdelning som finns i Falköping.
@@ -3574,8 +3314,6 @@
             år framåt. Hur stor den blir och hur fort den går kan jag inte
             lämna något besked om i dag.
           </seg>
-        </u>
-        <u xml:id="i-8TmWdtirq5iKScfptEoepd" who="i-BjNiod8wotUabh41ByfhRU" prev="i-2osizQc9jGKboPCUzXrUfj">
           <seg xml:id="i-DNNNKZqUNRGq3NZovFrkNn">
             Slutligen: Herr Börjesson i Falköping är självfallet välkommen
             för ytterligare överläggningar på departementet.
@@ -3609,7 +3347,7 @@
         <note xml:id="i-KBF8CKAsWLH8enEbm3eQh7" type="speaker">
           Herr BÖRJESSON i Falköping (c):
         </note>
-        <u xml:id="i-7xsgyZgnLSWGGKEe2uqHPf" who="i-Af27F1xYCu7PKfDmUgU7Xb" next="i-EQJWg2cvCjwgTkuYFcDfrS">
+        <u xml:id="i-7xsgyZgnLSWGGKEe2uqHPf" who="i-Af27F1xYCu7PKfDmUgU7Xb">
           <seg xml:id="i-QMt36vhGGW7WgMGicorNLj">
             Herr talman! Visserligen säger kommunikationsministern här att
             det bara är fråga om en minskning med två personer. Men samtidigt
@@ -3617,16 +3355,12 @@
             avgång. Då är man självfallet oroad och frågar sig hur denna personalminskning
             kommer att te sig framöver.
           </seg>
-        </u>
-        <u xml:id="i-EQJWg2cvCjwgTkuYFcDfrS" who="i-Af27F1xYCu7PKfDmUgU7Xb" prev="i-7xsgyZgnLSWGGKEe2uqHPf" next="i-KrFBkPUDY2agZ1Eo8J5MEP">
           <seg xml:id="i-TKpa5aaPu8VQh8wVsDoSP5">
             Jag har också framhållit — och det är väl inte minst viktigt
             ur SJ:s synpunkt — att vi har god tillgång på bra arbetskraft
             i Falköping. Bara det bör väl utgöra en anledning för SJ att vara
             litet försiktiga med personalinskränkningarna där.
           </seg>
-        </u>
-        <u xml:id="i-KrFBkPUDY2agZ1Eo8J5MEP" who="i-Af27F1xYCu7PKfDmUgU7Xb" prev="i-EQJWg2cvCjwgTkuYFcDfrS" next="i-6tKBo5TUiyMbb6YFrsB1pr">
           <seg xml:id="i-LQ4vWuBLGTF2T6A8Zvv2fQ">
             Det är självklart att jag förstår att SJ måste anlägga företagsekonomiska
             bedömningar vid sitt handlande. Men även om man gör det, talar
@@ -3636,8 +3370,6 @@
             är oroade i Falköping för att SJ:s planer skall innebära inskränkningar
             i Falköping som går ut över sysselsättningen.
           </seg>
-        </u>
-        <u xml:id="i-6tKBo5TUiyMbb6YFrsB1pr" who="i-Af27F1xYCu7PKfDmUgU7Xb" prev="i-KrFBkPUDY2agZ1Eo8J5MEP">
           <seg xml:id="i-T1ZKVVFFdFgCmJwPhZdwAw">
             Det finns all anledning att noggrant pröva den här frågan som
             SJ nu har aktualiserat. Den bör även prövas förutsättningslöst
@@ -3647,7 +3379,7 @@
         <note xml:id="i-XUy1aYNfinsNt2JDo9Qhvg" type="speaker">
           Herr kommunikationsministern TURESSON:
         </note>
-        <u xml:id="i-8LsyYKbLET2RC4F4NJL4yp" who="i-BjNiod8wotUabh41ByfhRU" next="i-8tBuwk8kJUDY8SJT8p364Z">
+        <u xml:id="i-8LsyYKbLET2RC4F4NJL4yp" who="i-BjNiod8wotUabh41ByfhRU">
           <seg xml:id="i-HnJLuqDNHKiFKp9GqvcVXe">
             Herr talman! Låt mig bara helt kort säga att rationalisering
             av verksamheten för att möta kostnadsstegringar och en ny teknik
@@ -3655,8 +3387,6 @@
             utan detta är kanske snarare mera betonat i SJ än på många andra
             ställen därför att SJ är ett så personalintensivt företag.
           </seg>
-        </u>
-        <u xml:id="i-8tBuwk8kJUDY8SJT8p364Z" who="i-BjNiod8wotUabh41ByfhRU" prev="i-8LsyYKbLET2RC4F4NJL4yp">
           <seg xml:id="i-LWiFNvAmPg4zbZAakeRk2R">
             Men denna rationalisering, som avser att göra det möjligt för
             SJ att bedriva verksamheten på sätt riksdagen bestämt, är inte
@@ -3671,7 +3401,7 @@
         <note xml:id="i-XXrM8wyGRhuonG8NHGpGAL" type="speaker">
           Herr BÖRJESSON i Falköping (c):
         </note>
-        <u xml:id="i-H3kTPtX7awMoecgTc1ubuL" who="i-Af27F1xYCu7PKfDmUgU7Xb" next="i-9x9wsJ28NP9ZKvwLqhHrGy">
+        <u xml:id="i-H3kTPtX7awMoecgTc1ubuL" who="i-Af27F1xYCu7PKfDmUgU7Xb" next="i-QTcebZoGEoHqrTtzGobM6i">
           <seg xml:id="i-62H2653vCzDxidM5cDA7vN">
             Herr talman! För att inget missförstånd skall uppstå vill jag
             klart deklarera att jag självfallet inte är emot en nödvändig
@@ -3679,8 +3409,6 @@
             som innebär att man för över arbetskraft till orter som inte har
             några problem ur sysselsättningssynpunkt.
           </seg>
-        </u>
-        <u xml:id="i-9x9wsJ28NP9ZKvwLqhHrGy" who="i-Af27F1xYCu7PKfDmUgU7Xb" prev="i-H3kTPtX7awMoecgTc1ubuL" next="i-QTcebZoGEoHqrTtzGobM6i">
           <seg xml:id="i-W2LbxLaf2HNrwsyJ1t638i">
             Jag skall vid detta tillfälle tacka för det positiva svar jag
             har fått i fråga om inbjudan till överläggning. Nu är det bara
@@ -3690,7 +3418,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--57/prot_197677__57-032.jp2/_view"/>
-        <u xml:id="i-QTcebZoGEoHqrTtzGobM6i" who="i-Af27F1xYCu7PKfDmUgU7Xb" prev="i-9x9wsJ28NP9ZKvwLqhHrGy">
+        <u xml:id="i-QTcebZoGEoHqrTtzGobM6i" who="i-Af27F1xYCu7PKfDmUgU7Xb" prev="i-H3kTPtX7awMoecgTc1ubuL">
           <seg xml:id="i-zbEmB5t1yYrzB4mhy1DQq">
             sentanter jämväl från Falköpings kommun. Än en gång tack för
             att vi = Nr 57
@@ -3715,15 +3443,13 @@
         <note xml:id="i-BqtEeYfKsMJ8f4k7LBu8Ao">
           183, och anförde:
         </note>
-        <u xml:id="i-C1pByxLFXL6W7i2Jwkz1od" who="i-BjNiod8wotUabh41ByfhRU" next="i-LuL1zsdQTfB8mjG463tnrr">
+        <u xml:id="i-C1pByxLFXL6W7i2Jwkz1od" who="i-BjNiod8wotUabh41ByfhRU">
           <seg xml:id="i-AFbFZGAkRdkoWechrg7aCb">
             Herr talman! Herr Romanus har frågat mig om jag vill medverka
             till att frågan om en snabb spårbunden förbindelse till Arlanda
             blir allsidigt belyst inför beslutet i fråga om utflyttningen
             av all Linjeflygs trafik till Arlanda.
           </seg>
-        </u>
-        <u xml:id="i-LuL1zsdQTfB8mjG463tnrr" who="i-BjNiod8wotUabh41ByfhRU" prev="i-C1pByxLFXL6W7i2Jwkz1od" next="i-NczCBz1pkBKWdi1kzrR3YS">
           <seg xml:id="i-N3kctuoeqAAnwGJrETQoGo">
             År 1972 tillkallade dåvarande chefen för kommunikationsdepartementet
             sakkunniga med uppdrag att verkställa utredning om den fortsatta
@@ -3742,8 +3468,6 @@
             för en spårförbindelse mellan Stockholm och Arlanda göras i kommande
             regionplan.
           </seg>
-        </u>
-        <u xml:id="i-NczCBz1pkBKWdi1kzrR3YS" who="i-BjNiod8wotUabh41ByfhRU" prev="i-LuL1zsdQTfB8mjG463tnrr">
           <seg xml:id="i-8syK1p1jDVr9Khpe5X3i5y">
             I november i fjol tillkallade jag efter regeringens bemyndigande
             en särskild utredare med uppgift att överväga förutsättningarna
@@ -3779,7 +3503,7 @@
         <note xml:id="i-9tAGNNEU2CGvBaQYDeEAV7">
           Om en spårbunden förbindelse Stockholm-Arlanda
         </note>
-        <u xml:id="i-QpJ6ZRwFScvCFWPyY45FLc" who="i-Bx9fbNBh4ybH7H2kWavRdb" prev="i-8ohq7vCQ2BXSY43oBq7pkf" next="i-83V1BDhgKkUjTXcKSrGx7E">
+        <u xml:id="i-QpJ6ZRwFScvCFWPyY45FLc" who="i-Bx9fbNBh4ybH7H2kWavRdb" prev="i-8ohq7vCQ2BXSY43oBq7pkf">
           <seg xml:id="i-TcDiSTwXrdU8Ce9hX4vx8j">
             till Arlanda är restiderna dit ut. Jag anser inte att betydelsen
             av det längre avståndet skall överdrivas. För dem som åker flygbuss
@@ -3789,8 +3513,6 @@
             för att behålla inrikesflyget på Bromma rimligt att döma har minskat
             ytterligare.
           </seg>
-        </u>
-        <u xml:id="i-83V1BDhgKkUjTXcKSrGx7E" who="i-Bx9fbNBh4ybH7H2kWavRdb" prev="i-QpJ6ZRwFScvCFWPyY45FLc" next="i-Ve4H3pVRiFaXkDBesS8ERj">
           <seg xml:id="i-DtJXD7VmJ4VSoxmpwxPqMz">
             Frågan om ett snabbtåg behandlades i utredningen Brommaflyget
             1974. Om man nu skall ta fram material för ett nytt ställningstagande
@@ -3810,8 +3532,6 @@
             många skolungdomar som trängs på plattformarna där att slippa
             ha de tunga snälltågen dundrande fram på lokala linjer.
           </seg>
-        </u>
-        <u xml:id="i-Ve4H3pVRiFaXkDBesS8ERj" who="i-Bx9fbNBh4ybH7H2kWavRdb" prev="i-83V1BDhgKkUjTXcKSrGx7E" next="i-QZ3b4TpAqgBH2NM1dQtD7R">
           <seg xml:id="i-CnQYQzPg7PcgeNTJzGoP2i">
             Vad den nuvarande regeringen har gjort är att utnyttja den tidsfrist
             som har uppkommit genom förseningen av utflyttningen av Linjeflygs
@@ -3823,8 +3543,6 @@
             har varit för ensidigt, så är man ju särskilt förpliktad att själv
             se till att man lägger fram ett allsidigt material.
           </seg>
-        </u>
-        <u xml:id="i-QZ3b4TpAqgBH2NM1dQtD7R" who="i-Bx9fbNBh4ybH7H2kWavRdb" prev="i-Ve4H3pVRiFaXkDBesS8ERj" next="i-8dBoXMgZ4u2rM7J4oppFMh">
           <seg xml:id="i-8RB5LuBr43B1RPRgLpoEZs">
             Den hemska olycka som kostade 22 människor livet för mindre än
             en vecka sedan skall självfallet analyseras noga, innan man drar
@@ -3835,8 +3553,6 @@
             som Bromma. Dit hör att undersöka hur man kan förkorta tiden för
             marktransporten, t. ex. genom en spårbunden snabbförbindelse.
           </seg>
-        </u>
-        <u xml:id="i-8dBoXMgZ4u2rM7J4oppFMh" who="i-Bx9fbNBh4ybH7H2kWavRdb" prev="i-QZ3b4TpAqgBH2NM1dQtD7R">
           <seg xml:id="i-58cQPvgbJdzTSDcYedhmbk">
             Jag tackar kommunikationsministern för svaret. Jag tolkar sista
             meningen så att frågan om spårbunden förbindelse med Arlanda skall
@@ -3877,7 +3593,7 @@
         <note xml:id="i-HYet3Dzu249soFgNAKvb4M" type="speaker">
           Herr ROMANUS (fp):
         </note>
-        <u xml:id="i-2NrPPgqaNWL7YNULd3C5K4" who="i-Bx9fbNBh4ybH7H2kWavRdb" next="i-SuqVTvc1uYVYadCcqVV9Li">
+        <u xml:id="i-2NrPPgqaNWL7YNULd3C5K4" who="i-Bx9fbNBh4ybH7H2kWavRdb" next="i-AEnMVfh5fVvFiwvy9PuQkv">
           <seg xml:id="i-KY6Tqx1RLvn79nQNAy4FTk">
             Herr talman! Mitt uttalande var inte heller avsett som något
             angrepp på direktiven. Jag är angelägen att få bekräftat — och
@@ -3886,8 +3602,6 @@
             Stockholm-Arlanda, t. ex. för pendeltågtrafiken i Storstockholm,
             som är i en besvärlig situation.
           </seg>
-        </u>
-        <u xml:id="i-SuqVTvc1uYVYadCcqVV9Li" who="i-Bx9fbNBh4ybH7H2kWavRdb" prev="i-2NrPPgqaNWL7YNULd3C5K4" next="i-YQyuhYSs4DsM8YeVvnaHr4">
           <seg xml:id="i-NbC5Nb4J1g2BDzULHSFbzD">
             I utredningen sägs att en enkel resa med järnväg med en sådan
             snabb förbindelse skulle kosta 12:70. Jag tycker inte det är någon
@@ -3897,8 +3611,6 @@
             så långt fram i tiden. Man kan väl konstatera att den har kommit
             närmare genom händelserna när det gäller pendeltågtrafiken.
           </seg>
-        </u>
-        <u xml:id="i-YQyuhYSs4DsM8YeVvnaHr4" who="i-Bx9fbNBh4ybH7H2kWavRdb" prev="i-SuqVTvc1uYVYadCcqVV9Li" next="i-WfrPFxzNJCrA6i1X7tVU8e">
           <seg xml:id="i-NEz9R4rWdnYt8DcV4kysRU">
             Framför allt för dem som fäster mycket stor vikt vid att restiden
             till Arlanda är något längre än till Bromma borde det vara angeläget
@@ -3909,8 +3621,6 @@
             gör det tycker jag det borde vara angeläget att få fram ett sådant
             utredningsmaterial. Jag är tacksam för att det kommer.
           </seg>
-        </u>
-        <u xml:id="i-WfrPFxzNJCrA6i1X7tVU8e" who="i-Bx9fbNBh4ybH7H2kWavRdb" prev="i-YQyuhYSs4DsM8YeVvnaHr4" next="i-AEnMVfh5fVvFiwvy9PuQkv">
           <seg xml:id="i-79HvBy2vpTsanBLtPNRSRN">
             Man kan se det här i ett något större perspektiv. Av de, jag
             tror det är 15, flygplatser som har större passagerarantal än
@@ -3935,7 +3645,7 @@
         <note xml:id="i-UVTiqsUiWgURTpfA2s96gN">
           98
         </note>
-        <u xml:id="i-AEnMVfh5fVvFiwvy9PuQkv" who="i-Bx9fbNBh4ybH7H2kWavRdb" prev="i-WfrPFxzNJCrA6i1X7tVU8e">
+        <u xml:id="i-AEnMVfh5fVvFiwvy9PuQkv" who="i-Bx9fbNBh4ybH7H2kWavRdb" prev="i-2NrPPgqaNWL7YNULd3C5K4">
           <seg xml:id="i-BDKTx2fGW42s1FCLDfSYuv">
             Det vore inget märkligt om Sverige, som är ett tekniskt avancerat
             land, också kunde klara den saken för sin internationella flygplats.
@@ -3961,15 +3671,13 @@
         <note xml:id="i-8JbatiVMtDioptucrx6tot">
           190, och anförde:
         </note>
-        <u xml:id="i-HfysB867ihmQ7aYvTZH7pb" who="i-BjNiod8wotUabh41ByfhRU" next="i-YJp9M8ntqmABhqaQqVubvq">
+        <u xml:id="i-HfysB867ihmQ7aYvTZH7pb" who="i-BjNiod8wotUabh41ByfhRU" next="i-MMc3zMMQKveDvdRX3MVwq9">
           <seg xml:id="i-P2fd1EV1CWgbvyAYLD3nEQ">
             Herr talman! Herr Andersson i Gamleby har frågat om jag är beredd
             att pröva frågan om postområdesindelningen i Kalmar län med beaktande
             av principen att inga statsadministrativa gränser skall skära
             gällande länsgränser.
           </seg>
-        </u>
-        <u xml:id="i-YJp9M8ntqmABhqaQqVubvq" who="i-BjNiod8wotUabh41ByfhRU" prev="i-HfysB867ihmQ7aYvTZH7pb" next="i-MQS2Ud9gfFgx3rb2axyXMc">
           <seg xml:id="i-5XwSYj1U7NrmPVvHx1ibeL">
             I propositionen 1975/76:167 om ny organisation för postverket
             föreslogs att det skulle ankomma på postverket att besluta i frågor
@@ -3978,8 +3686,6 @@
             antog detta förslag. Någon vidare prövning av frågan från regeringens
             sida kan således inte bli aktuell.
           </seg>
-        </u>
-        <u xml:id="i-MQS2Ud9gfFgx3rb2axyXMc" who="i-BjNiod8wotUabh41ByfhRU" prev="i-YJp9M8ntqmABhqaQqVubvq" next="i-9J33oxkEGGM2m1uvqiVXTg">
           <seg xml:id="i-7XQwCX9SmNcrRPJGheJ9nR">
             I samband med postverkets beslut om den lokala organisationen
             bestämdes att frågan om Vimmerby och Västerviks kommuners områdestillhörighet
@@ -3991,8 +3697,6 @@
             skall information nu lämnas till de postanställda i berörda kommuner
             och förhandlingar enligt medbestämmandelagen påbörjas med personalorganisationerna.
           </seg>
-        </u>
-        <u xml:id="i-9J33oxkEGGM2m1uvqiVXTg" who="i-BjNiod8wotUabh41ByfhRU" prev="i-MQS2Ud9gfFgx3rb2axyXMc" next="i-MMc3zMMQKveDvdRX3MVwq9">
           <seg xml:id="i-5p2Jt1kxiPvGuuViD4RnJN">
             Postverkets nya organisation innebär att god samstämmighet har
             nåtts mellan verkets regiongränser och länsgränserna. Sålunda
@@ -4010,7 +3714,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--57/prot_197677__57-036.jp2/_view"/>
-        <u xml:id="i-MMc3zMMQKveDvdRX3MVwq9" who="i-BjNiod8wotUabh41ByfhRU" prev="i-9J33oxkEGGM2m1uvqiVXTg">
+        <u xml:id="i-MMc3zMMQKveDvdRX3MVwq9" who="i-BjNiod8wotUabh41ByfhRU" prev="i-HfysB867ihmQ7aYvTZH7pb">
           <seg xml:id="i-GHTaoZYuKSkamYxh9Rmu3y">
             tionsnät som utgör en grundval för den postala produktionen inte
             är utformat efter länsindelningen. Postverket, som primärt är
@@ -4021,12 +3725,10 @@
         <note xml:id="i-T59DP6FoLHDQr6cz5dX2go" type="speaker">
           Herr ANDERSSON i Gamleby (s):
         </note>
-        <u xml:id="i-Cq2XVqXNtT8sbzwJefmx3r" who="i-KHHwukqC5Q8kiR5DXHY3hJ" next="i-Qb12gnUZ445YekpUFcJ94B">
+        <u xml:id="i-Cq2XVqXNtT8sbzwJefmx3r" who="i-KHHwukqC5Q8kiR5DXHY3hJ">
           <seg xml:id="i-L1rAj5xcqw83v7HSKV4n6s">
             Herr talman! Jag tackar kommunikationsministern för svaret.
           </seg>
-        </u>
-        <u xml:id="i-Qb12gnUZ445YekpUFcJ94B" who="i-KHHwukqC5Q8kiR5DXHY3hJ" prev="i-Cq2XVqXNtT8sbzwJefmx3r" next="i-Fzae3pzM2zCFNJktjRwyfS">
           <seg xml:id="i-Fe7xNLKkuvTC38U1VyNBkJ">
             I postverkets organisationsutredning har man sedan flera år tillbaka
             bearbetat organisationsförändringen. Organisationsutredningen
@@ -4042,16 +3744,12 @@
             varit en strävan att ge så gott underlag som möjligt för en väl
             utbyggd områdesförvaltning.
           </seg>
-        </u>
-        <u xml:id="i-Fzae3pzM2zCFNJktjRwyfS" who="i-KHHwukqC5Q8kiR5DXHY3hJ" prev="i-Qb12gnUZ445YekpUFcJ94B" next="i-EpVoitzPx8Ymegig8Qo45Y">
           <seg xml:id="i-6BBRfcoZzRmkSW64eXVLVG">
             Jag vill hävda att det första förslaget väl hade tillfredsställt
             den målsättning som angavs i den första översiktliga utredningen.
             De remissyttranden som föreligger ger också belägg för synpunkten
             att det var välgrundade indelningar som presenterades.
           </seg>
-        </u>
-        <u xml:id="i-EpVoitzPx8Ymegig8Qo45Y" who="i-KHHwukqC5Q8kiR5DXHY3hJ" prev="i-Fzae3pzM2zCFNJktjRwyfS" next="i-78FncXFoPvYn5jgxfFti2h">
           <seg xml:id="i-WYDT2uNDpWRtdx6SReDiZi">
             Senare — den 21 juli 1975 — frångick postverkets organisationsutredning
             i sina förslag de grundförslag som fanns i utredningen från 1974.
@@ -4060,16 +3758,12 @@
             postområde med Kalmar som huvudort. Jag tror inte att det finns
             några andra län i landet som bara har ett postområde.
           </seg>
-        </u>
-        <u xml:id="i-78FncXFoPvYn5jgxfFti2h" who="i-KHHwukqC5Q8kiR5DXHY3hJ" prev="i-EpVoitzPx8Ymegig8Qo45Y" next="i-Na3ie42EvrWNeXb7wxPB3i">
           <seg xml:id="i-K3xoxCThjco8BN5P8n1QwM">
             Jag anser att den först avlämnade skissen borde ha minst lika
             stor relevans som den sistnämnda. Jag anser inte att de argument
             som nu förs fram har lika god grund som argumenten i det första
             förslaget.
           </seg>
-        </u>
-        <u xml:id="i-Na3ie42EvrWNeXb7wxPB3i" who="i-KHHwukqC5Q8kiR5DXHY3hJ" prev="i-78FncXFoPvYn5jgxfFti2h" next="i-QLcosBZLXbN2LgoLzrQZyu">
           <seg xml:id="i-U7qPeSYNUR3MVhbuYEzK4S">
             Om nu inte norra Kalmar län kan bilda eget postområde, borde
             självfallet Vimmerby och Västervik tillhöra Kalmar postområde.
@@ -4077,8 +3771,6 @@
             jag inte vara tillräckliga för att man skall acceptera det nu
             framlagda förslaget till postområdesindelning.
           </seg>
-        </u>
-        <u xml:id="i-QLcosBZLXbN2LgoLzrQZyu" who="i-KHHwukqC5Q8kiR5DXHY3hJ" prev="i-Na3ie42EvrWNeXb7wxPB3i">
           <seg xml:id="i-5JaKgTUKwunmReqmozdTft">
             Kommunikationsministerns uppfattning när det gäller effektivitet,
             behovet av rationalisering och annat kan jag naturligtvis dela,
@@ -4118,13 +3810,11 @@
         <note xml:id="i-UGuqTD6qVSWsLGBoLipqFW">
           Om postområdesindelningen i Kalmar län
         </note>
-        <u xml:id="i-Mjgzfzg3C919dQ6ibduWDZ" who="i-BjNiod8wotUabh41ByfhRU" prev="i-6motKYwnYajpWNhMcaDoFV" next="i-2pEQbJ8AwUWy33Ez46d1CE">
+        <u xml:id="i-Mjgzfzg3C919dQ6ibduWDZ" who="i-BjNiod8wotUabh41ByfhRU" prev="i-6motKYwnYajpWNhMcaDoFV">
           <seg xml:id="i-NX2H1nU2EgVwePNwrvRurp">
             i den från den 1 januari i år gällande medbestämmandelagen, dvs.
             efter förhandlingar med personalorganisationerna.
           </seg>
-        </u>
-        <u xml:id="i-2pEQbJ8AwUWy33Ez46d1CE" who="i-BjNiod8wotUabh41ByfhRU" prev="i-Mjgzfzg3C919dQ6ibduWDZ" next="i-RsQTKPk2GbN5EmHKoxDm48">
           <seg xml:id="i-PvNTdh9Nb1LHDghSMzkpbQ">
             Sedan skulle jag helt kort bara vilja säga att det primära för
             postverket självfallet är att ge en god service, att snabbt utföra
@@ -4135,8 +3825,6 @@
             att ge en snabb och god service åt kunderna. Det är detta som
             har varit avgörande för postområdesindelningen.
           </seg>
-        </u>
-        <u xml:id="i-RsQTKPk2GbN5EmHKoxDm48" who="i-BjNiod8wotUabh41ByfhRU" prev="i-2pEQbJ8AwUWy33Ez46d1CE">
           <seg xml:id="i-JFLJRoY3zXuxR25tbd7F8X">
             Det är inte något särskilt märkvärdigt att man, såsom i detta
             fall, går över länsgränserna. Det förekommer beträffande ett 30-tal
@@ -4147,7 +3835,7 @@
         <note xml:id="i-8wWVCwrbEB1XDaQQK9Tnbk" type="speaker">
           Herr ANDERSSON i Gamleby (s):
         </note>
-        <u xml:id="i-XdkSabTbvnQwiUTRyCMyCG" who="i-KHHwukqC5Q8kiR5DXHY3hJ" next="i-XPAXxirFKBYz9K3XwpPs9H">
+        <u xml:id="i-XdkSabTbvnQwiUTRyCMyCG" who="i-KHHwukqC5Q8kiR5DXHY3hJ">
           <seg xml:id="i-QYHm7FpZGf4n7DL5GDechD">
             Herr talman! Jag nämnde i mitt anförande att postverkets organisationsutrednings
             första förslag i detta avseende var ett helt annat än det nu presenterade.
@@ -4156,8 +3844,6 @@
             väl inte ha varit så i grunden felaktigt, att man radikalt måste
             förändra det år 1975. Det måste här finnas andra faktorer i bakgrunden.
           </seg>
-        </u>
-        <u xml:id="i-XPAXxirFKBYz9K3XwpPs9H" who="i-KHHwukqC5Q8kiR5DXHY3hJ" prev="i-XdkSabTbvnQwiUTRyCMyCG">
           <seg xml:id="i-Lua2MuUc5aCVzKVjULWNgQ">
             Jag är helt på det klara med nödvändigheten av att verksamheten
             bedrivs rationellt. Jag vill emellertid hävda att det första förslaget
@@ -4198,21 +3884,17 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--57/prot_197677__57-038.jp2/_view"/>
-        <u xml:id="i-DrTnsHexZHKYmQV4FcNbXF" who="i-KHHwukqC5Q8kiR5DXHY3hJ" prev="i-Ao6YrEAqRZd9YQDRrbwBZ4" next="i-KKCPEyKoCsaMa15zA6iQp5">
+        <u xml:id="i-DrTnsHexZHKYmQV4FcNbXF" who="i-KHHwukqC5Q8kiR5DXHY3hJ" prev="i-Ao6YrEAqRZd9YQDRrbwBZ4">
           <seg xml:id="i-2pDgJotfhAYKvXPWfHNHoU">
             som finns inskriven i den nu föreliggande utredningen vill jag
             reagera mot, nämligen:
           </seg>
-        </u>
-        <u xml:id="i-KKCPEyKoCsaMa15zA6iQp5" who="i-KHHwukqC5Q8kiR5DXHY3hJ" prev="i-DrTnsHexZHKYmQV4FcNbXF" next="i-SC5BWFUrXaPqHFkAMdWS5P">
           <seg xml:id="i-8KcpfmDW3Rz832ukbVtin6">
             ”Styrgruppen anser att övervägande skäl talar för att ett sådant
             postområde bör delas. Självklar naturlig huvudort saknas. De två
             andra kommunerna har en klar inriktning mot Linköpingsområdet
             även allmänt sett.”
           </seg>
-        </u>
-        <u xml:id="i-SC5BWFUrXaPqHFkAMdWS5P" who="i-KHHwukqC5Q8kiR5DXHY3hJ" prev="i-KKCPEyKoCsaMa15zA6iQp5">
           <seg xml:id="i-GH9YuujTkXdHDVuPymTR5b">
             Enligt min och länsstyrelsens i Kalmar län mening är det en överdrift
             att hävda någonting sådant. Det är möjligt att man kan säga att
@@ -4240,22 +3922,18 @@
         <note xml:id="i-YEnd9z7mFEFMwbWeLHfTtZ">
           58, och anförde:
         </note>
-        <u xml:id="i-JvB8Lv7jxHYvyZCF9bQyBm" who="i-BjNiod8wotUabh41ByfhRU" next="i-BFYfa25JgXSbyQjCFiJbuW">
+        <u xml:id="i-JvB8Lv7jxHYvyZCF9bQyBm" who="i-BjNiod8wotUabh41ByfhRU" next="i-XMsQ4AAUQvBfDkspYe8Ttn">
           <seg xml:id="i-KjUw1mmJMQrUM4iGcJuYLm">
             Herr talman! Herr Andersson i Ljung har - mot bakgrund av SJ:s
             tillkännagivanden att styckegodshanteringen våren 1977 kommer
             att upphöra vid ett stort antal järnvägsstationer — frågat mig
           </seg>
-        </u>
-        <u xml:id="i-BFYfa25JgXSbyQjCFiJbuW" who="i-BjNiod8wotUabh41ByfhRU" prev="i-JvB8Lv7jxHYvyZCF9bQyBm" next="i-WrR3jwv1RCeEUx92hqhti9">
           <seg xml:id="i-G7tq5v7YMSvf4Vrx5wGz5Y">
             dels om jag är beredd att verka för en sådan avvägning mellan
             bilgodstrafik å ena sidan och spårbunden godstrafik å andra sidan
             att nedläggning av stationer med godsinlämning inte aktualiseras
             av SJ:s egna åtgärder på biltransportsidan,
           </seg>
-        </u>
-        <u xml:id="i-WrR3jwv1RCeEUx92hqhti9" who="i-BjNiod8wotUabh41ByfhRU" prev="i-BFYfa25JgXSbyQjCFiJbuW" next="i-RfkVSdtGpxvncFParanoey">
           <seg xml:id="i-5YLWW45PzuM7stSMgNNcg2">
             dels om jag — såvida jag inte anser det möjligt att tillgodose
             nyssnämnda avvägning — är beredd att överväga att erbjuda alla
@@ -4263,8 +3941,6 @@
             bilgodshämtning på sådana platser där det av ekonomiska skäl är
             oundgängligen nödvändigt att lägga ned stationer med godsinlämning.
           </seg>
-        </u>
-        <u xml:id="i-RfkVSdtGpxvncFParanoey" who="i-BjNiod8wotUabh41ByfhRU" prev="i-WrR3jwv1RCeEUx92hqhti9" next="i-XMsQ4AAUQvBfDkspYe8Ttn">
           <seg xml:id="i-KdjWJfTXUc4fMJmg84sbrE">
             SJ:s styckegodshantering är driftplanerad med ett 30-tal knutpunktsområden
             med var sin knutpunktsterminal. Mellan dessa terminaler transporteras
@@ -4308,7 +3984,7 @@
           derna om direktforsling av godset till och från kunderna inom
           knutpunktsregionerna.
         </note>
-        <u xml:id="i-XMsQ4AAUQvBfDkspYe8Ttn" who="i-BjNiod8wotUabh41ByfhRU" prev="i-RfkVSdtGpxvncFParanoey" next="i-QMtMrEd9Nj5TaQLkGCYw8h">
+        <u xml:id="i-XMsQ4AAUQvBfDkspYe8Ttn" who="i-BjNiod8wotUabh41ByfhRU" prev="i-JvB8Lv7jxHYvyZCF9bQyBm">
           <seg xml:id="i-FxpDDmaTff8eEs6V7H8MFY">
             Att bryta detta transportsystem genom ökad användning av spårbundna
             transporter inom knutpunktsområdena utgör enligt min mening ingen
@@ -4318,8 +3994,6 @@
             av det beskrivna transportsystemet som förändringar på efterfrågesidan
             och strukturförändringar hos transportkonsumenterna.
           </seg>
-        </u>
-        <u xml:id="i-QMtMrEd9Nj5TaQLkGCYw8h" who="i-BjNiod8wotUabh41ByfhRU" prev="i-XMsQ4AAUQvBfDkspYe8Ttn">
           <seg xml:id="i-HjLDDTQ2r1yPMtmd2EmZ8i">
             Om SJ av företagsekonomiska skäl finner ett beslut om indragning
             av exempelvis styckegodsservicen vid någon järnvägsstation påkallat,
@@ -4345,15 +4019,13 @@
         <note xml:id="i-WVcke29aD8wDxAurvT27tm" type="speaker">
           Herr ANDERSSON i Ljung (m):
         </note>
-        <u xml:id="i-L7s3qZV3MjUt65YEtvgXY2" who="i-PjjxQYR5UbxSEEqwa2s5mr" next="i-CvghDR74qA7HbhZ7a2W4hL">
+        <u xml:id="i-L7s3qZV3MjUt65YEtvgXY2" who="i-PjjxQYR5UbxSEEqwa2s5mr" next="i-2g8wDipC2q1qMZZ5VXsEES">
           <seg xml:id="i-96645w7zidy7Dvj24y2VHe">
             Herr talman! Jag ber att få tacka statsrådet för svaret på min
             interpellation. Svaret innehåller bl. a. en teknisk beskrivning
             av hur transportsystemet är konstruerat; det är kanske i mindre
             grad ett uttömmande svar på frågan.
           </seg>
-        </u>
-        <u xml:id="i-CvghDR74qA7HbhZ7a2W4hL" who="i-PjjxQYR5UbxSEEqwa2s5mr" prev="i-L7s3qZV3MjUt65YEtvgXY2" next="i-BFcUgoyYUiPJvFUaNuwpWx">
           <seg xml:id="i-S2MbtNZrTDQpwxRGrvZNMz">
             Som alldeles riktigt inledningsvis konstateras i svaret, har
             frågorna ställts mot bakgrund av SJ:s beslut att upphöra med styckegodshantering
@@ -4368,8 +4040,6 @@
             biltransportpolitik från SJ:s sida. Med det följande skall jag
             försöka belysa problemet litet mera.
           </seg>
-        </u>
-        <u xml:id="i-BFcUgoyYUiPJvFUaNuwpWx" who="i-PjjxQYR5UbxSEEqwa2s5mr" prev="i-CvghDR74qA7HbhZ7a2W4hL" next="i-2g8wDipC2q1qMZZ5VXsEES">
           <seg xml:id="i-Uq1J6YrAWN66hZYVD2uLCo">
             Ett godsinlämningsställe anses ur lönsamhets- och personalsynpunkt
             böra ha ca 5 ton gods per dygn. Låt oss tänka oss ett mindre samhälle
@@ -4378,7 +4048,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--57/prot_197677__57-040.jp2/_view"/>
-        <u xml:id="i-2g8wDipC2q1qMZZ5VXsEES" who="i-PjjxQYR5UbxSEEqwa2s5mr" prev="i-BFcUgoyYUiPJvFUaNuwpWx" next="i-GdZYR5ZvTLM2wXkPqpkG8N">
+        <u xml:id="i-2g8wDipC2q1qMZZ5VXsEES" who="i-PjjxQYR5UbxSEEqwa2s5mr" prev="i-L7s3qZV3MjUt65YEtvgXY2" next="i-Q7tzU62EL3aR131y6QA6mi">
           <seg xml:id="i-9JbynPnWhBL5KmCpydx6JX">
             turbil utgående från godsknutpunkten. För lastbilstrafiken gäller
             då följande. Lastbilstransporter är ur flera synpunkter självfallet
@@ -4389,8 +4059,6 @@
             utan de flesta och framför allt de mindre godskunderna måste åka
             till inlämningsstället.
           </seg>
-        </u>
-        <u xml:id="i-GdZYR5ZvTLM2wXkPqpkG8N" who="i-PjjxQYR5UbxSEEqwa2s5mr" prev="i-2g8wDipC2q1qMZZ5VXsEES" next="i-UpKgQzrNmYsMYY5Bpr211e">
           <seg xml:id="i-Y8PBeZgeCpHrdtVPyvVoN">
             Är nu situationen den att inlämningsstället har en godsmängd
             som i ringa grad överstiger vad SJ anser lönsamt har SJ två vägar
@@ -4406,15 +4074,11 @@
             med ganska bred marginal kommer att hamna under den lägsta lönsamhetsnivå
             som SJ uppställt för sina inlämningsställen.
           </seg>
-        </u>
-        <u xml:id="i-UpKgQzrNmYsMYY5Bpr211e" who="i-PjjxQYR5UbxSEEqwa2s5mr" prev="i-GdZYR5ZvTLM2wXkPqpkG8N" next="i-R6hNn2HkQeQpHCjfPPjbvE">
           <seg xml:id="i-2fyqz6P6DLaEXpfQLYChWP">
             Den fråga som härvid inställer sig är: Vilken service har SJ
             kvar att erbjuda de relativt många, men kanske mindre godsavlämnarna
             på orten?
           </seg>
-        </u>
-        <u xml:id="i-R6hNn2HkQeQpHCjfPPjbvE" who="i-PjjxQYR5UbxSEEqwa2s5mr" prev="i-UpKgQzrNmYsMYY5Bpr211e" next="i-PNunQFsCmunXCKDDRMqjUf">
           <seg xml:id="i-FwMVicBEtPija6dWHgq8n9">
             Det var denna effekt jag åsyftade då jag frågade om godsinlämningen
             vid en SJ-station kan få aktualiseras av SJ:s egna åtgärder på
@@ -4428,8 +4092,6 @@
             också skall få det på de platser där godsinlämningen vid SJ-stationen
             upphört.
           </seg>
-        </u>
-        <u xml:id="i-PNunQFsCmunXCKDDRMqjUf" who="i-PjjxQYR5UbxSEEqwa2s5mr" prev="i-R6hNn2HkQeQpHCjfPPjbvE" next="i-E9LRne65Uq1VywNMLdJ7FT">
           <seg xml:id="i-6W34Nv8FGa8WkRzsVnDJuH">
             Statsrådet har i senare delen av sitt svar till mig riktat uppmärksamheten
             på kommunernas möjlighet att begära regeringens prövning av indragning
@@ -4441,16 +4103,12 @@
             garantera alla godskunder en rimlig servicenivå i förhållande
             till deras efterfrågan på SJ:s tjänster.”
           </seg>
-        </u>
-        <u xml:id="i-E9LRne65Uq1VywNMLdJ7FT" who="i-PjjxQYR5UbxSEEqwa2s5mr" prev="i-PNunQFsCmunXCKDDRMqjUf" next="i-XkaCrWdFfcABGXPaGXLnPM">
           <seg xml:id="i-VZjAM1z41k4eZGqkHCkudX">
             Svaret i denna del lämnar tyvärr utrymme för misstanken att de
             mindre godsavlämnarna kan lämnas utan service. Jag hoppas statsrådet
             finner skäl att korrigera denna dystra slutsats som jag har dragit
             av svaret.
           </seg>
-        </u>
-        <u xml:id="i-XkaCrWdFfcABGXPaGXLnPM" who="i-PjjxQYR5UbxSEEqwa2s5mr" prev="i-E9LRne65Uq1VywNMLdJ7FT" next="i-Q7tzU62EL3aR131y6QA6mi">
           <seg xml:id="i-SgmeqJp9BPY83ZC2RpVnxj">
             Jag nämnde tidigare i mitt anförande möjligheten att vidta följdåtgärder
             för att stimulera godshanteringen i fråga om volym vid inlämningsstället.
@@ -4483,7 +4141,7 @@
         <note xml:id="i-8zS9fo3eueQh73zzGAcepz">
           104
         </note>
-        <u xml:id="i-Q7tzU62EL3aR131y6QA6mi" who="i-PjjxQYR5UbxSEEqwa2s5mr" prev="i-XkaCrWdFfcABGXPaGXLnPM">
+        <u xml:id="i-Q7tzU62EL3aR131y6QA6mi" who="i-PjjxQYR5UbxSEEqwa2s5mr" prev="i-2g8wDipC2q1qMZZ5VXsEES">
           <seg xml:id="i-7hHAxxfvqt6QPoZvV9gprE">
             och vill med anledning därav ställa följande fråga: Vilka säljåtgärder
             begagnar sig SJ av för att vidga godstransportvolymen vid sina
@@ -4493,7 +4151,7 @@
         <note xml:id="i-KvxUZ7zXrhu2HdGazTU5e5" type="speaker">
           Herr kommunikationsministern TURESSON:
         </note>
-        <u xml:id="i-NHF9xTZg4W2ioQTg5D67nA" who="i-BjNiod8wotUabh41ByfhRU" next="i-WLHMhx4dWtNR2Rv1Nrd6Cu">
+        <u xml:id="i-NHF9xTZg4W2ioQTg5D67nA" who="i-BjNiod8wotUabh41ByfhRU">
           <seg xml:id="i-iEJLj81fMMHqWPAbQfxBq">
             Herr talman! Herr Andersson i Ljung uttryckte viss misstänksamhet
             gentemot SJ och kanske också mot mig. Jag vet inte om det var
@@ -4504,8 +4162,6 @@
             ramen för den ekonomi som riksdagen ålagt företaget ge bästa tänkbara
             service.
           </seg>
-        </u>
-        <u xml:id="i-WLHMhx4dWtNR2Rv1Nrd6Cu" who="i-BjNiod8wotUabh41ByfhRU" prev="i-NHF9xTZg4W2ioQTg5D67nA" next="i-WTTqaGjL44fHo3a8EerHi">
           <seg xml:id="i-6M5oqsxJgNSm8QiZs4P5X8">
             När det gäller indragningar av styckegodstrafiken vid järnvägsstationer
             vore det kanske att ta till litet för mycket om man från regeringens
@@ -4523,16 +4179,12 @@
             godsombud i en kiosk eller vid en busshållplats i direkt kontakt
             med föraren hämta eller avlämna sitt gods.
           </seg>
-        </u>
-        <u xml:id="i-WTTqaGjL44fHo3a8EerHi" who="i-BjNiod8wotUabh41ByfhRU" prev="i-WLHMhx4dWtNR2Rv1Nrd6Cu" next="i-7sACpvVrMzCRgLXkRZC9xz">
           <seg xml:id="i-CzJAc2WWM2WL6X1E9QTSjx">
             Det finns en mängd olika möjligheter att klara detta. Jag utgår
             från att SJ, lika väl som vi inom regeringen, vid uppdragandet
             av handlingslinjerna skall finna det angeläget att utnyttja de
             möjligheterna på ett för kunden fördelaktigt sätt.
           </seg>
-        </u>
-        <u xml:id="i-7sACpvVrMzCRgLXkRZC9xz" who="i-BjNiod8wotUabh41ByfhRU" prev="i-WTTqaGjL44fHo3a8EerHi">
           <seg xml:id="i-5sKdAokQjCM6yXLHEFVtCa">
             Slutligen framställde herr Andersson i Ljung följdfrågan vilka
             säljåtgärder SJ har vidtagit för att öka godsvolymerna. Jag vill
@@ -4546,7 +4198,7 @@
         <note xml:id="i-TjSxjo5mcqUz5xByM7Q6pz" type="speaker">
           Herr SELLGREN (fp):
         </note>
-        <u xml:id="i-AN7qH8eFdAvxDFmagcLnNP" who="i-y57aqt6DptStUpkWh6h5L" next="i-4V6JkAgG3mB8uPDmNKeHtG">
+        <u xml:id="i-AN7qH8eFdAvxDFmagcLnNP" who="i-y57aqt6DptStUpkWh6h5L" next="i-VKxR2HFcWBHQ3c5CkMdsh6">
           <seg xml:id="i-VS7onwBza4qLc8MgXysNLs">
             Herr talman! Jag har kommit in i denna debatt något sent och
             har tyvärr inte hunnit skaffa mig den överblick i ärendet som
@@ -4555,15 +4207,13 @@
             styckegodsrörelsen i vårt land, och den indragning av SJ:s godstransportverksamhet
             som nu pågår har väckt och väcker stor oro ute i landet.
           </seg>
-        </u>
-        <u xml:id="i-4V6JkAgG3mB8uPDmNKeHtG" who="i-y57aqt6DptStUpkWh6h5L" prev="i-AN7qH8eFdAvxDFmagcLnNP" next="i-VKxR2HFcWBHQ3c5CkMdsh6">
           <seg xml:id="i-RciNRGC2uJV2QHUf5qWrAB">
             SJ betraktar väl denna indragning som en normal rationaliseringsåtgärd
             i försöken att minska det underskott som SJ redovisar för styckegods-
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--57/prot_197677__57-042.jp2/_view"/>
-        <u xml:id="i-VKxR2HFcWBHQ3c5CkMdsh6" who="i-y57aqt6DptStUpkWh6h5L" prev="i-4V6JkAgG3mB8uPDmNKeHtG" next="i-6MzQkmv4djFVjRd84scxW1">
+        <u xml:id="i-VKxR2HFcWBHQ3c5CkMdsh6" who="i-y57aqt6DptStUpkWh6h5L" prev="i-AN7qH8eFdAvxDFmagcLnNP">
           <seg xml:id="i-TJ2auk1MqUyKTEaJWfvaAz">
             hanteringen, och enligt vad jag förstått emanerar de beslut som
             SJ här fattat från de direktiv som SJ-ledningen skickade ut till
@@ -4573,8 +4223,6 @@
             på de stationer där man haft styckegodsservice utöver ordinarie
             expeditionstid, t. ex. kört i två skift.
           </seg>
-        </u>
-        <u xml:id="i-6MzQkmv4djFVjRd84scxW1" who="i-y57aqt6DptStUpkWh6h5L" prev="i-VKxR2HFcWBHQ3c5CkMdsh6" next="i-2cMxio7F1XnUSwmQtqCkUe">
           <seg xml:id="i-MxVMuGtwf8bYWQQVEfynvS">
             Syftet var alltså att SJ skulle krympa serviceområdet därför
             att det skulle innebära svårigheter för vissa stationer att hålla
@@ -4589,8 +4237,6 @@
             kan få på intäktssidan och vad åtgärderna kan ha för negativa
             multiplikatoreffekter när det gäller servicen på andra områden.
           </seg>
-        </u>
-        <u xml:id="i-2cMxio7F1XnUSwmQtqCkUe" who="i-y57aqt6DptStUpkWh6h5L" prev="i-6MzQkmv4djFVjRd84scxW1" next="i-6GJWkB2ay9CwVrsRWRviuk">
           <seg xml:id="i-S8XXRfftvp43wJ43KBf9RX">
             Närservicen har en oerhört stor betydelse. Jag har förståelse
             för SJ:s spridning med lastbil från knutpunkter i fråga om stycke-
@@ -4603,15 +4249,11 @@
             är övertygad om att i stor utsträckning minskar SJ:s intäkter
             så mycket mera.
           </seg>
-        </u>
-        <u xml:id="i-6GJWkB2ay9CwVrsRWRviuk" who="i-y57aqt6DptStUpkWh6h5L" prev="i-2cMxio7F1XnUSwmQtqCkUe" next="i-Vy8nDJXxpjveiboHDYzmYb">
           <seg xml:id="i-2tepCX4fLqvDg2Vv5ag6kh">
             Jag ser inte den här frågeställningen, när man tar upp det i
             riksdagen, som en kritik mot kommunikationsministern, men jag
             anser att det är ett viktigt observandum gentemot SJ.
           </seg>
-        </u>
-        <u xml:id="i-Vy8nDJXxpjveiboHDYzmYb" who="i-y57aqt6DptStUpkWh6h5L" prev="i-6GJWkB2ay9CwVrsRWRviuk" next="i-CxdD56HJHXfs2hEAEp8QuV">
           <seg xml:id="i-Jsyb4iYwf5KwoinvsizPwa">
             Just nu pågår en del trafikpolitiska och andra utredningar som
             sedermera skall sammanföras i en proposition om den framtida trafikpolitiken
@@ -4620,8 +4262,6 @@
             kan man komma i det läget att man undergräver godsunderlaget så
             att det får effekter som man inte har drömt om.
           </seg>
-        </u>
-        <u xml:id="i-CxdD56HJHXfs2hEAEp8QuV" who="i-y57aqt6DptStUpkWh6h5L" prev="i-Vy8nDJXxpjveiboHDYzmYb">
           <seg xml:id="i-AyTT1T8xvxzUCvLbgVSa3Y">
             Min avsikt med det här inlägget är att fästa uppmärksamheten
             på vikten av att man inom SJ är sparsam med omfattande rationaliseringar
@@ -4663,15 +4303,13 @@
         <note xml:id="i-6TiJScqHfnwSYKK6H27vJr">
           Om avvägningen mellan SJ:s bilgodstrafik och spårbundna godstrafik
         </note>
-        <u xml:id="i-RqN4fFZnbEdomcMgRTx56" who="i-PjjxQYR5UbxSEEqwa2s5mr" prev="i-EAeDRpUdZUGHtoEL6vCyX8" next="i-US8nvBkaEkZuY5wUmqaQq">
+        <u xml:id="i-RqN4fFZnbEdomcMgRTx56" who="i-PjjxQYR5UbxSEEqwa2s5mr" prev="i-EAeDRpUdZUGHtoEL6vCyX8">
           <seg xml:id="i-Gwz6xUNo8hAiVniVNJBSPm">
             kationer, som i den nya och betydelsefulla position han innehar
             efter regeringsskiftet kommer att kunna var ytterligt värdefulla
             för den svenska transportpolitiken. Det är också en av anledningarna
             till att jag har riktat mig till honom med min interpellation.
           </seg>
-        </u>
-        <u xml:id="i-US8nvBkaEkZuY5wUmqaQq" who="i-PjjxQYR5UbxSEEqwa2s5mr" prev="i-RqN4fFZnbEdomcMgRTx56" next="i-2gWgCerRH1EyxBXLUSesA5">
           <seg xml:id="i-7p5dJBG16CKhe8K5CEUr2P">
             Att jag inte heller hyser misstänksamhet mot SJ kan jag försäkra,
             men den formulering som kommit till användning i svaret gav mig
@@ -4685,29 +4323,21 @@
             Det är en enkel och bra åtgärd som rimligen eliminerar de flesta
             av de farhågor jag har tagit upp i min interpellation.
           </seg>
-        </u>
-        <u xml:id="i-2gWgCerRH1EyxBXLUSesA5" who="i-PjjxQYR5UbxSEEqwa2s5mr" prev="i-US8nvBkaEkZuY5wUmqaQq" next="i-X2JPhp7ds3TRV2adp16vuv">
           <seg xml:id="i-A3GpMtKVyxuoacozBLUiHv">
             Jag vill emellertid återkomma ett enda ögonblick till frågan
             om de här godsinlämningsställena. Jag utesluter faktiskt inte
             i min interpellation att man rent av skulle kunna tänka sig, vid
             hot om nedläggning av
           </seg>
-        </u>
-        <u xml:id="i-X2JPhp7ds3TRV2adp16vuv" who="i-PjjxQYR5UbxSEEqwa2s5mr" prev="i-2gWgCerRH1EyxBXLUSesA5" next="i-UzKLAwr9UjX79s6bVLTGhM">
           <seg xml:id="i-XUoqMM5A4YbMr7N7zCjQXg">
             "ett inlämningsställe, att stimulera överföringen av gods från
             lastbilstrafik
           </seg>
-        </u>
-        <u xml:id="i-UzKLAwr9UjX79s6bVLTGhM" who="i-PjjxQYR5UbxSEEqwa2s5mr" prev="i-X2JPhp7ds3TRV2adp16vuv" next="i-XB6BJGRML3vmM5gptxFfaL">
           <seg xml:id="i-R9f28DvLSbpLgCHbpfj912">
             till inlämningsstället. Därmed har den lilla orten sitt inlämningsställe
             kvar, och den har förhoppningsvis också två tjänstemän kvar på
             platsen som sköter detta.
           </seg>
-        </u>
-        <u xml:id="i-XB6BJGRML3vmM5gptxFfaL" who="i-PjjxQYR5UbxSEEqwa2s5mr" prev="i-UzKLAwr9UjX79s6bVLTGhM" next="i-GXWJJMd8n9mPb53GJccfGp">
           <seg xml:id="i-H3t8xDLTwhTXvzHfvftVqn">
             Med andra ord: resonemang om en levande landsbygd ges på det
             sättet innehåll. Jag tror att den nya regeringen har haft detta
@@ -4717,8 +4347,6 @@
             kunde vinna gehör, också skulle tillgodose andra saker än ren
             transportpolitik och godsservice.
           </seg>
-        </u>
-        <u xml:id="i-GXWJJMd8n9mPb53GJccfGp" who="i-PjjxQYR5UbxSEEqwa2s5mr" prev="i-XB6BJGRML3vmM5gptxFfaL">
           <seg xml:id="i-RU9a1XxhUU8qsiRPhiVzv2">
             Jag ber att återigen få tacka statsrådet för det välvilliga svaret.
           </seg>
@@ -4726,7 +4354,7 @@
         <note xml:id="i-VWsTizWUbr9ed7e6RtmJVq" type="speaker">
           Herr kommunikationsministern TURESSON:
         </note>
-        <u xml:id="i-KMfiYXKF8wgjD6pZmetQqa" who="i-BjNiod8wotUabh41ByfhRU" next="i-UTiyVSCv4CfAARWrawghFw">
+        <u xml:id="i-KMfiYXKF8wgjD6pZmetQqa" who="i-BjNiod8wotUabh41ByfhRU" next="i-9BYbNb1brkqt3MM19db92T">
           <seg xml:id="i-NLrjEudKfzsup4pHfmLqDw">
             Herr talman! Jag tolkar herr Sellgrens uttalande ungefär så,
             att han anser att man inom SJ i nuvarande transportpolitiska läge
@@ -4741,8 +4369,6 @@
             riskerar vi att handla i blindo och vidta åtgärder som är till
             skada för framtiden.
           </seg>
-        </u>
-        <u xml:id="i-UTiyVSCv4CfAARWrawghFw" who="i-BjNiod8wotUabh41ByfhRU" prev="i-KMfiYXKF8wgjD6pZmetQqa" next="i-9BYbNb1brkqt3MM19db92T">
           <seg xml:id="i-Auvwp9mkdPvJZkHYRFLEMw">
             När departementet prövar dessa besvär som har ingivits och som
             kommer att fortsätta att strömma in, så kan man naturligtvis fråga
@@ -4751,7 +4377,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--57/prot_197677__57-044.jp2/_view"/>
-        <u xml:id="i-9BYbNb1brkqt3MM19db92T" who="i-BjNiod8wotUabh41ByfhRU" prev="i-UTiyVSCv4CfAARWrawghFw">
+        <u xml:id="i-9BYbNb1brkqt3MM19db92T" who="i-BjNiod8wotUabh41ByfhRU" prev="i-KMfiYXKF8wgjD6pZmetQqa">
           <seg xml:id="i-AxrPMr5KNBKPowsGHeHsCY">
             har visserligen inte varit i departementet så länge, men jag
             har en känsla av att man där har fått en god insyn i förhållandena.
@@ -4805,13 +4431,11 @@
         <note xml:id="i-PTKYdU83wcSzUF9cHWC45v" type="speaker">
           Fru statsrådet TROEDSSON:
         </note>
-        <u xml:id="i-SZNkpxwkfvHCC7c3z6Crx5" who="i-BkQoi6KA1EKK9EEJhT16Cz" next="i-3it3UBCf2K8ZaRRQZNe1qm">
+        <u xml:id="i-SZNkpxwkfvHCC7c3z6Crx5" who="i-BkQoi6KA1EKK9EEJhT16Cz">
           <seg xml:id="i-TktkmTCQpSFB7sxyfAbbJm">
             Herr talman! Med hänvisning till 6 kap. 1$5 riksdagsordningen
             vill jag meddela följande.
           </seg>
-        </u>
-        <u xml:id="i-3it3UBCf2K8ZaRRQZNe1qm" who="i-BkQoi6KA1EKK9EEJhT16Cz" prev="i-SZNkpxwkfvHCC7c3z6Crx5">
           <seg xml:id="i-SH7uW8dSgnu8MwkAkagQEu">
             Min avsikt var att i dag besvara interpellationen av fru Håkansson
             om åtgärder för att förebygga självmord. Fru Håkansson har emellertid
@@ -4853,28 +4477,22 @@
         <note xml:id="i-2h4GBDbDN3y7nRt35nT9Pf">
           59, till herr socialministern, och anförde:
         </note>
-        <u xml:id="i-EkGdcVrXeDEYy8y8Jj8GuD" who="i-BkQoi6KA1EKK9EEJhT16Cz" next="i-TQkuD7Y7gu5refoxH8LkLn">
+        <u xml:id="i-EkGdcVrXeDEYy8y8Jj8GuD" who="i-BkQoi6KA1EKK9EEJhT16Cz" next="i-UgMXixvSw7eHyT4fwrV1Dc">
           <seg xml:id="i-Uq4YQLzMnXRWjsgEj6DMZy">
             Herr talman! Fru Andrén har frågat socialministern om han anser
             det lämpligt att tillsätta en utredning för att klarlägga behovet
             av forskning, utbildning, information och andra åtgärder för att
             på ett mer effektivt sätt bekämpa de allergiska sjukdomarna.
           </seg>
-        </u>
-        <u xml:id="i-TQkuD7Y7gu5refoxH8LkLn" who="i-BkQoi6KA1EKK9EEJhT16Cz" prev="i-EkGdcVrXeDEYy8y8Jj8GuD" next="i-RXemp4118mSAJtTzSiKtrV">
           <seg xml:id="i-7wQs8Ybn991SAvTtEGZFXv">
             Enligt fastställd ärendefördelning är det jag som har att besvara
             interpellationen.
           </seg>
-        </u>
-        <u xml:id="i-RXemp4118mSAJtTzSiKtrV" who="i-BkQoi6KA1EKK9EEJhT16Cz" prev="i-TQkuD7Y7gu5refoxH8LkLn" next="i-4cu8xqUXjdKfk6dfKYjEF4">
           <seg xml:id="i-W18y3mrdCrDL5TujhvxQ7i">
             Allergi är en samlad benämning på olika sjukliga reaktionssätt
             mot kemiska och andra substanser, t. ex. astma, s. k. hösnuva,
             eksem och andra former av hudutslag.
           </seg>
-        </u>
-        <u xml:id="i-4cu8xqUXjdKfk6dfKYjEF4" who="i-BkQoi6KA1EKK9EEJhT16Cz" prev="i-RXemp4118mSAJtTzSiKtrV" next="i-LA37smWYTJS4nmTqzcx68T">
           <seg xml:id="i-BpkVkQkrm9tBLmnrLwhJdq">
             Såsom fru Andrén har framhållit i sin interpellation är allergiska
             problem mycket vanliga i vår tid och ofta besvärliga att komma
@@ -4891,8 +4509,6 @@
             läkare underlättas. En utbyggnad av yrkesdermatologin pågår också,
             vilket är viktigt för stora grupper av allergiker.
           </seg>
-        </u>
-        <u xml:id="i-LA37smWYTJS4nmTqzcx68T" who="i-BkQoi6KA1EKK9EEJhT16Cz" prev="i-4cu8xqUXjdKfk6dfKYjEF4" next="i-5ACAVhHYVMDPUN8GS4qe7E">
           <seg xml:id="i-G33feDWumq4kvFksPURRrE">
             Eftersom överkänslighet mot olika ämnen är ett resultat av en
             immunologisk process, är det i hög grad angeläget att få till
@@ -4900,8 +4516,6 @@
             nämna att socialdepartementets sjukvårdsdelegation stöder denna
             specialitet vid fastställande av läkarfördelningsprogram.
           </seg>
-        </u>
-        <u xml:id="i-5ACAVhHYVMDPUN8GS4qe7E" who="i-BkQoi6KA1EKK9EEJhT16Cz" prev="i-LA37smWYTJS4nmTqzcx68T" next="i-UEVFvkyA4jfsrVmmxNGNXy">
           <seg xml:id="i-MayRXKoj1Rmzj5ynKT9XAq">
             Vad beträffar resurserna för forskning och utbildning i klinisk
             immunologi vill jag erinra om att en första professur i detta
@@ -4914,8 +4528,6 @@
             vidare vid universiteten i Uppsala, Lund och Göteborg samt vid
             Karolinska institutet och statens bakteriologiska laboratorium.
           </seg>
-        </u>
-        <u xml:id="i-UEVFvkyA4jfsrVmmxNGNXy" who="i-BkQoi6KA1EKK9EEJhT16Cz" prev="i-5ACAVhHYVMDPUN8GS4qe7E" next="i-UgMXixvSw7eHyT4fwrV1Dc">
           <seg xml:id="i-7WQNJ64eCLuSy4Tdbsfz4n">
             En betydande grundforskning inom främst immunologi pågår i vårt
             land i nära samarbete med den internationella forskningen. Epokgörande
@@ -4924,7 +4536,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--57/prot_197677__57-046.jp2/_view"/>
-        <u xml:id="i-UgMXixvSw7eHyT4fwrV1Dc" who="i-BkQoi6KA1EKK9EEJhT16Cz" prev="i-UEVFvkyA4jfsrVmmxNGNXy" next="i-LhEGjcXqGR7DDvRS6vz88J">
+        <u xml:id="i-UgMXixvSw7eHyT4fwrV1Dc" who="i-BkQoi6KA1EKK9EEJhT16Cz" prev="i-EkGdcVrXeDEYy8y8Jj8GuD">
           <seg xml:id="i-61QCzwHd93dwqtmRanjmYt">
             specifika IgE-antikropparna, vilket har gett nya möjligheter
             för diagnos Nr 57 och behandling vid allergiska sjukdomar. En
@@ -4938,8 +4550,6 @@
             är givetvis viktigt att forskningen inom detta område utökas och
             breddas genom samarbete mellan företrädare för berörda specialiteter.
           </seg>
-        </u>
-        <u xml:id="i-LhEGjcXqGR7DDvRS6vz88J" who="i-BkQoi6KA1EKK9EEJhT16Cz" prev="i-UgMXixvSw7eHyT4fwrV1Dc" next="i-ULdCfatT7D3NdSH72j5Y86">
           <seg xml:id="i-JARF6bpXQzYdwS2E2w1RYs">
             När det gäller allergiska sjukdomar behövs också en bred information
             till både allergikerna själva och allmänheten. Detta gäller inte
@@ -4949,8 +4559,6 @@
             dagliga livsföring behövs liksom ökad förståelse för allergikernas
             problem.
           </seg>
-        </u>
-        <u xml:id="i-ULdCfatT7D3NdSH72j5Y86" who="i-BkQoi6KA1EKK9EEJhT16Cz" prev="i-LhEGjcXqGR7DDvRS6vz88J" next="i-PywmC4qAh4LLxhooH3PcRe">
           <seg xml:id="i-Pqi39qXpWyX9nDW4J75RXa">
             Riksförbundet mot allergi gör med ett visst statligt stöd en
             utomordentligt värdefull insats på detta område. På det lokala
@@ -4959,8 +4567,6 @@
             går att göra för att skapa symtomfria miljöer eller minska patienternas
             lidanden.
           </seg>
-        </u>
-        <u xml:id="i-PywmC4qAh4LLxhooH3PcRe" who="i-BkQoi6KA1EKK9EEJhT16Cz" prev="i-ULdCfatT7D3NdSH72j5Y86">
           <seg xml:id="i-GVHux88sH49zy7vVyQA6MB">
             Av vad jag här har sagt framgår att allergiska sjukdomar är ett
             omfattande och svårbemästrat problem. Jag vill nämna att jag avser
@@ -4975,13 +4581,11 @@
         <note xml:id="i-41KYnNoyXWEupsCLXDG3NJ" type="speaker">
           Fru ANDRÉN (fp):
         </note>
-        <u xml:id="i-DStLjQjP3vAQKrEsiuhwMM" who="i-W4KsfSh6dCbjCcJdxiZwL" next="i-Ct3n7rHqL4LDESqtqDjh9j">
+        <u xml:id="i-DStLjQjP3vAQKrEsiuhwMM" who="i-W4KsfSh6dCbjCcJdxiZwL" next="i-6Kpn689B3LAmuYurYr1hnz">
           <seg xml:id="i-NcDeMWnzY9WR4MY1BLixJD">
             Herr talman! Jag ber först att få tacka statsrådet Troedsson
             för svaret på min interpellation.
           </seg>
-        </u>
-        <u xml:id="i-Ct3n7rHqL4LDESqtqDjh9j" who="i-W4KsfSh6dCbjCcJdxiZwL" prev="i-DStLjQjP3vAQKrEsiuhwMM" next="i-CKeoALXG1SEMjtz9UZ75is">
           <seg xml:id="i-DrMHXye7PKAt73qSBKjrLw">
             Det är ett ganska utförligt svar. Statsrådet uppehåller sig främst
             vid de medicinska synpunkterna och resurserna. Även om detta är
@@ -4996,16 +4600,12 @@
             tillräckligt, trots att så många besvär debuterar i barnaåldern
             och att förebyggande åtgärder då kan åstadkomma bestående resultat.
           </seg>
-        </u>
-        <u xml:id="i-CKeoALXG1SEMjtz9UZ75is" who="i-W4KsfSh6dCbjCcJdxiZwL" prev="i-Ct3n7rHqL4LDESqtqDjh9j" next="i-HjLXDmtvu6kKJ4XATAKy7Y">
           <seg xml:id="i-LAuQ2q6GUbgE1uwAUjT1jU">
             Statsmakterna har dock observerat pediatrikens betydelse inom
             allergiområdet genom att fastlägga barnallergologin som en subspecialitet.
             Socialstyrelsen har också företagit en utredning som resulterat
             i betänkandet ”Pediatrik på 80-talet”.
           </seg>
-        </u>
-        <u xml:id="i-HjLXDmtvu6kKJ4XATAKy7Y" who="i-W4KsfSh6dCbjCcJdxiZwL" prev="i-CKeoALXG1SEMjtz9UZ75is" next="i-6Kpn689B3LAmuYurYr1hnz">
           <seg xml:id="i-FKS91RnsKfg7nm9B5rRXif">
             Man får inte bortse från att de allergiska sjukdomarna utgör
             en stor 109
@@ -5024,7 +4624,7 @@
         <note xml:id="i-Wt1M29FyQmLCW81uSXwHt2">
           110
         </note>
-        <u xml:id="i-6Kpn689B3LAmuYurYr1hnz" who="i-W4KsfSh6dCbjCcJdxiZwL" prev="i-HjLXDmtvu6kKJ4XATAKy7Y" next="i-9uVdsxJ8eoVmp4jNi1jrmK">
+        <u xml:id="i-6Kpn689B3LAmuYurYr1hnz" who="i-W4KsfSh6dCbjCcJdxiZwL" prev="i-DStLjQjP3vAQKrEsiuhwMM" next="i-GdvttcpKbDSSt4kC7iFKbp">
           <seg xml:id="i-2AcgiUGz96ymgBSFgbrFnG">
             post inom sjukvården, varför det även måste vara ekonomiskt försvarbart
             med specialbehandling av dessa annars kroniska sjukdomar. Det
@@ -5035,8 +4635,6 @@
             i stor utsträckning får ta emot allergikerna men som inte har
             någon egentlig utbildning på det här området.
           </seg>
-        </u>
-        <u xml:id="i-9uVdsxJ8eoVmp4jNi1jrmK" who="i-W4KsfSh6dCbjCcJdxiZwL" prev="i-6Kpn689B3LAmuYurYr1hnz" next="i-MyysbyUx6y9BTMJnSJmi5d">
           <seg xml:id="i-156VZGR1VmJuv9hbNKsdSQ">
             Det ser ju ut som om allergisjukdomarna är på väg att sprida
             sig ytterligare, och det poängterade också statsrådet Troedsson.
@@ -5045,8 +4643,6 @@
             utgör endast 1-2 96 av alla allergier. Men de utgör ändå en mycket
             stor andel av alla yrkessjukdomar.
           </seg>
-        </u>
-        <u xml:id="i-MyysbyUx6y9BTMJnSJmi5d" who="i-W4KsfSh6dCbjCcJdxiZwL" prev="i-9uVdsxJ8eoVmp4jNi1jrmK" next="i-U64THvfS8CdFBXmVqk5S3R">
           <seg xml:id="i-NyEFV8rQxARwTP1DkRyJ3b">
             Vi kan inte begära att t. ex. allmänläkarna, som inte har utbildning
             på det här området, skall kunna ge adekvat behandling. Tyvärr
@@ -5054,8 +4650,6 @@
             behandlingen blivit så mycket bättre just därför att så få läkare
             är utbildade inom allergin.
           </seg>
-        </u>
-        <u xml:id="i-U64THvfS8CdFBXmVqk5S3R" who="i-W4KsfSh6dCbjCcJdxiZwL" prev="i-MyysbyUx6y9BTMJnSJmi5d" next="i-JPjx8CvWJk977bNUXQqq79">
           <seg xml:id="i-KLj4KDmrSEH6yWe5AsWq9T">
             En av de vanligaste allergierna är astma. Denna sjukdom kan vara
             av olika slag och kan därför inte alltid behandlas lika. Därför
@@ -5067,8 +4661,6 @@
             är därför bl. a. mycket angelägen, och det tror jag också att
             vi är överens om.
           </seg>
-        </u>
-        <u xml:id="i-JPjx8CvWJk977bNUXQqq79" who="i-W4KsfSh6dCbjCcJdxiZwL" prev="i-U64THvfS8CdFBXmVqk5S3R" next="i-A81v779GggWG94HKFfFkjE">
           <seg xml:id="i-TVRKk52wX8uU3fJWHp3B4b">
             Det är helt riktigt, som statsrådet säger i sitt svar, att en
             bred information behövs när det gäller de allergiska sjukdomarna,
@@ -5076,16 +4668,12 @@
             till allergikerna själva, till de anhöriga och till allmänheten
             utan också till samhället.
           </seg>
-        </u>
-        <u xml:id="i-A81v779GggWG94HKFfFkjE" who="i-W4KsfSh6dCbjCcJdxiZwL" prev="i-JPjx8CvWJk977bNUXQqq79" next="i-GdBAqNPbh7xLqVnQamTBbs">
           <seg xml:id="i-Cc1927YEDfkEdKEfzbYBhX">
             Riksförbundet mot allergi, som är en synnerligen livaktig organisation,
             har ju under 1976 sökt sprida information som jag tror i viss
             mån verkligen har gått hem. Men det behövs naturligtvis ytterligare
             och större insatser på det här området.
           </seg>
-        </u>
-        <u xml:id="i-GdBAqNPbh7xLqVnQamTBbs" who="i-W4KsfSh6dCbjCcJdxiZwL" prev="i-A81v779GggWG94HKFfFkjE" next="i-TQFm9LLbdAzEdq21WrsmVH">
           <seg xml:id="i-9FtapJmUzFmbxEXyNdC4Ux">
             Visst vore det bra om distriktssköterskorna skulle kunna göra
             rejäla insatser när det gäller information om och förebyggande
@@ -5094,8 +4682,6 @@
             så fall få sådan, och deras antal måste också utökas eftersom
             de redan nu är ganska betungade av alla sina olika uppgifter.
           </seg>
-        </u>
-        <u xml:id="i-TQFm9LLbdAzEdq21WrsmVH" who="i-W4KsfSh6dCbjCcJdxiZwL" prev="i-GdBAqNPbh7xLqVnQamTBbs" next="i-GdvttcpKbDSSt4kC7iFKbp">
           <seg xml:id="i-MoBE56hDhhDvFtvPsbj7xf">
             Eftersom saneringsåtgärder av olika slag behövs, borde det därför
             vid varje sjukhus allergologiska enhet finnas en särskilt utbildad
@@ -5105,7 +4691,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197677--57/prot_197677__57-048.jp2/_view"/>
-        <u xml:id="i-GdvttcpKbDSSt4kC7iFKbp" who="i-W4KsfSh6dCbjCcJdxiZwL" prev="i-TQFm9LLbdAzEdq21WrsmVH" next="i-Nh2VrMFPt14nxetfQ2qV5C">
+        <u xml:id="i-GdvttcpKbDSSt4kC7iFKbp" who="i-W4KsfSh6dCbjCcJdxiZwL" prev="i-6Kpn689B3LAmuYurYr1hnz">
           <seg xml:id="i-4uZzLJ5SiwGz4QupsgjpaU">
             Men det är inte bara hemmet som berörs utan hela samhällets planering.
             — Nr 57 Vi medverkar nämligen i vårt samhälle till att bibehålla
@@ -5119,15 +4705,11 @@
             ämnen, varför man bör undvika t. ex. heltäckningsmattor och olämpliga
             växter. Likaså bör rökförbud råda.
           </seg>
-        </u>
-        <u xml:id="i-Nh2VrMFPt14nxetfQ2qV5C" who="i-W4KsfSh6dCbjCcJdxiZwL" prev="i-GdvttcpKbDSSt4kC7iFKbp" next="i-Pgu4c4udnrjrPER9qTy72U">
           <seg xml:id="i-GBWv8yY9Qw2oJaacUNjrqg">
             Särskilda rökrum för dem som röker bör därför finnas på sjukhus,
             i samlingslokaler, skolor o. d. Djurförbud i allmänna lokaler
             bör övervägas liksom i vissa utrymmen på våra färdmedel.
           </seg>
-        </u>
-        <u xml:id="i-Pgu4c4udnrjrPER9qTy72U" who="i-W4KsfSh6dCbjCcJdxiZwL" prev="i-Nh2VrMFPt14nxetfQ2qV5C" next="i-8PxtNNebUYB33AjFADf3ZA">
           <seg xml:id="i-Vgnk4SseisFwHt4UoN7DJp">
             Som vi alla förstår är allergiproblemen inte lösta i en handvändning,
             men jag hoppas att statsrådet Troedsson och jag är överens om
@@ -5137,8 +4719,6 @@
             naturligtvis många andra som dessutom finns — och då forskningen
             inte att förglömma.
           </seg>
-        </u>
-        <u xml:id="i-8PxtNNebUYB33AjFADf3ZA" who="i-W4KsfSh6dCbjCcJdxiZwL" prev="i-Pgu4c4udnrjrPER9qTy72U">
           <seg xml:id="i-8iQJJKputgALDNo3gkyb7H">
             Herr talman! I en utredning borde självklart representanter för
             allergikerna själva finnas med för att som experter kunna redogöra
@@ -5154,7 +4734,7 @@
         <note xml:id="i-LhBWaypyBuq3nBPkNsyHd8" type="speaker">
           Fru statsrådet TROEDSSON:
         </note>
-        <u xml:id="i-EQiuVpgswYRjK6zZLYyPhu" who="i-BkQoi6KA1EKK9EEJhT16Cz" next="i-hFG7fkc6XDVVxvhzZANig">
+        <u xml:id="i-EQiuVpgswYRjK6zZLYyPhu" who="i-BkQoi6KA1EKK9EEJhT16Cz" next="i-BtoL6F9D9moFg1BWPhhrBL">
           <seg xml:id="i-NpJ1affXxBY5zFsQ581ogy">
             Herr talman! Jag kan helt hålla med fru Andrén när det gäller
             vikten av att satsa på förebyggande åtgärder inom detta område
@@ -5163,8 +4743,6 @@
             beredd att ta ställning till dem — det vore att föregripa de rådslag
             som jag ämnar ha på detta område.
           </seg>
-        </u>
-        <u xml:id="i-hFG7fkc6XDVVxvhzZANig" who="i-BkQoi6KA1EKK9EEJhT16Cz" prev="i-EQiuVpgswYRjK6zZLYyPhu" next="i-8364QDQQyCRSb4ZtdrLHo1">
           <seg xml:id="i-9MQGJfHsuGCEZ6EYXHLuR7">
             När det gäller utbildningen tror jag att allergiska reaktioner
             i dag verkligen ägnas stor uppmärksamhet inom denna när det gäller
@@ -5178,8 +4756,6 @@
             — och kanske allra viktigast — att hos allmänheten verkligen skapa
             förståelse för de allergisjukas problem.
           </seg>
-        </u>
-        <u xml:id="i-8364QDQQyCRSb4ZtdrLHo1" who="i-BkQoi6KA1EKK9EEJhT16Cz" prev="i-hFG7fkc6XDVVxvhzZANig" next="i-BtoL6F9D9moFg1BWPhhrBL">
           <seg xml:id="i-JBzDE2HLngbSUc6H7eDRiF">
             Jag kan helt dela fru Andréns uppfattning om att astmatiker i
             stor utsträckning är allergiska mot tobaksrök. Jag tycker också
@@ -5202,13 +4778,11 @@
         <note xml:id="i-FyF6ocQiNXLn1JU2WgCBfG">
           112
         </note>
-        <u xml:id="i-BtoL6F9D9moFg1BWPhhrBL" who="i-BkQoi6KA1EKK9EEJhT16Cz" prev="i-8364QDQQyCRSb4ZtdrLHo1" next="i-7zX22UoAGH68L5bbhKzPyY">
+        <u xml:id="i-BtoL6F9D9moFg1BWPhhrBL" who="i-BkQoi6KA1EKK9EEJhT16Cz" prev="i-EQiuVpgswYRjK6zZLYyPhu">
           <seg xml:id="i-PTfeRqDuto1N3TroqvurXr">
             SJ:s restaurangvagnar och försäkringskassornas lokaler. Jag tycker
             att den inriktningen är riktig.
           </seg>
-        </u>
-        <u xml:id="i-7zX22UoAGH68L5bbhKzPyY" who="i-BkQoi6KA1EKK9EEJhT16Cz" prev="i-BtoL6F9D9moFg1BWPhhrBL" next="i-VPD2vzfJE1gNpjtzxGFZK1">
           <seg xml:id="i-LHJB9mUhtRpiirk6oo8Ngs">
             Jag skulle kanske också något beröra allergiproblemen i arbetslivet,
             eftersom allergiframkallande ämnen där kan förekomma i mycket
@@ -5227,8 +4801,6 @@
             till lagrådet för granskning. Jag är övertygad om att det i sig
             skulle ha avsevärda förebyggande effekter.
           </seg>
-        </u>
-        <u xml:id="i-VPD2vzfJE1gNpjtzxGFZK1" who="i-BkQoi6KA1EKK9EEJhT16Cz" prev="i-7zX22UoAGH68L5bbhKzPyY">
           <seg xml:id="i-LYhuEuaK7YcRsSpV5aZ19A">
             Fru Andrén var också inne på frågan om boendemiljön. Detta är
             ju inte mitt ämnesområde, utan här kommer bostadsdepartementet
@@ -5872,7 +5444,7 @@
           1976/77:80 av herr Lidgard (m) till herr statsministern om en
           kampanj mot dödsstraffet:
         </note>
-        <u xml:id="i-U2vJHqxLdyocYiquEQdYPj" who="unknown">
+        <u xml:id="i-U2vJHqxLdyocYiquEQdYPj" who="unknown" next="i-LVm2y2mSMzvGvkiTne2fLR">
           <seg xml:id="i-9TE5C6Dmb4RKnH5R57zK9C">
             Förenta nationernas generalsekreterare har tidigare årligen avgivit
             rapporter till generalförsamlingen om situationen i de olika medlemsländerna
@@ -5891,8 +5463,6 @@
             i dagstidningarna uppgifter om verkställda dödsdomar. Vi borde
             alltså vara vana.
           </seg>
-        </u>
-        <u xml:id="i-TVNfvHV28GjE4SoSQpveRc" who="unknown">
           <seg xml:id="i-XXf1zeu8BQ8U2CFoKRvcuK">
             Men ändå upplever många måndagen den 17 januari 1977 som en skammens
             dag. Det var den dag, då man i Förenta staterna efter tio års
@@ -5910,8 +5480,6 @@
             den amerikanska högsta domstolen förklarat att dödsstraff i och
             för sig inte kunde anses strida mot den amerikanska konstitutionen.
           </seg>
-        </u>
-        <u xml:id="i-H3ZrjDMss6958AdxCtEr6n" who="unknown">
           <seg xml:id="i-CQmtn56XChfEZnYcM5EKne">
             Skammen för denna oförmåga i det enskilda fallet och för att
             dödsstraff praktiseras i så många länder vidhäftar oss alla. Det
@@ -5919,8 +5487,6 @@
             de stater och de människor som fortfarande tror på våld och på
             dödsstraff som avskräckande i kampen mot den grova brottsligheten.
           </seg>
-        </u>
-        <u xml:id="i-KVh1PAFE3MiAwSmcDzZmPD" who="unknown">
           <seg xml:id="i-37iGJa56EugxNHtP9e5BGj">
             Även om man inte övertygar envåldshärskare eller stater med andra
           </seg>
@@ -5947,14 +5513,12 @@
         <note xml:id="i-GV8qqpM1m7ebEfY8FZ8Z6u">
           Meddelande om frågor
         </note>
-        <u xml:id="i-LVm2y2mSMzvGvkiTne2fLR" who="unknown">
+        <u xml:id="i-LVm2y2mSMzvGvkiTne2fLR" who="unknown" prev="i-U2vJHqxLdyocYiquEQdYPj">
           <seg xml:id="i-CvpdJYcBejft6jq8j6Xw6Z">
             samhällsideal än de västerländska demokratierna, så har man gjort
             ett gott arbete om man för framtiden lyckas säkerställa dessa
             demokratier mot framtida bruk av dödsstraffet.
           </seg>
-        </u>
-        <u xml:id="i-VCiwmCKK4X6AgnUk2XLVB4" who="unknown">
           <seg xml:id="i-G1vYBraDe7uAox3jRbtE5o">
             Skulle man inte nu omedelbart reagera mot vad som förekommit
             är risken överhängande för ett fortsatt blodbad. Sexhundra människor
@@ -5967,16 +5531,12 @@
             tillåtna beslutet att döda en människa, är förnedrande för alla,
             inte bara för den dömde, hans åklagare, hans domare eller bödel.
           </seg>
-        </u>
-        <u xml:id="i-Ph3kZLRwfoz7TftancNVBv" who="unknown">
           <seg xml:id="i-QDiE9oQg2W3aBqATcE8hJU">
             Dödsstraffets vara eller icke vara är en månghundraårig juridisk
             diskussionsfråga; de så att säga sakliga argumenten för och emot
             dödsstraffet har ventilerats och ställts emot varandra så länge
             att något nytt sannolikt inte kan vinnas på den vägen.
           </seg>
-        </u>
-        <u xml:id="i-WhoFufo6v5AJnVvDMxySaP" who="unknown">
           <seg xml:id="i-ANe33wD2hvSH33uKATtqhG">
             I det korståg mot dödsstraffet som den senaste avrättningen och
             risken för fortsättningen måste utlösa får man söka andra medel
@@ -5988,8 +5548,6 @@
             chockerande — godtagas och ger väl också vissa anvisningar om
             metoder som kan väljas.
           </seg>
-        </u>
-        <u xml:id="i-AE9Vo8YyP8iDUjhh1RTigK" who="unknown">
           <seg xml:id="i-D3xGzG2Hyn73CWjdCzErMk">
             I vårt land har vi sedan gammalt intagit en avvisande hållning
             till dödsstraffet. Vi har nu också ett direkt grundlagsbud av
@@ -6000,8 +5558,6 @@
             och jag hemställer om kammarens tillstånd att till herr statsministern
             få ställa följande fråga: :
           </seg>
-        </u>
-        <u xml:id="i-Qt5ViNyXcEbxh1wnUAo5ga" who="unknown">
           <seg xml:id="i-C75aqW1ieYWWvgbhKJc3ab">
             Är statsministern villig att på något sätt medverka till att
             vårt land tar initiativet till en kampanj mot dödsstraffet, som
@@ -6027,7 +5583,7 @@
           1976/77:207 av herr Nilsson i Agnäs (m) till herr utbildningsministern
           om tjänstebrevsrätten vid universiteten:
         </note>
-        <u xml:id="i-Mm3fxfyma3VnkHHFw2XtT7" who="unknown">
+        <u xml:id="i-Mm3fxfyma3VnkHHFw2XtT7" who="unknown" next="i-MdYDvvUDRySBdYFLD9S8yL">
           <seg xml:id="i-AivKZjLCtq6EPwqC2DfBCC">
             Vid vissa fakulteter har de inskrivna fått politisk propaganda
             sig tillsänd med tjänstepost. Många studenter upplever det som
@@ -6035,8 +5591,6 @@
             stundom med inbetalningskort och uppmaning att stödja viss politisk
             verksamhet eller någon befrielserörelse.
           </seg>
-        </u>
-        <u xml:id="i-DTnmxRxSD13zdVADvwemHN" who="unknown">
           <seg xml:id="i-EFS6Km3aXn8dFybj2gAsHT">
             Anser herr statsrådet att rätten till tjänsteförsändelse vid
             universitet omfattar även spridning av politisk skrift som icke
@@ -6047,26 +5601,20 @@
           1976/77:208 av herr Bladh (s) till fru statsrådet Mogård om åtgärder
           mot bristen på behöriga slöjd- och textillärare:
         </note>
-        <u xml:id="i-MdYDvvUDRySBdYFLD9S8yL" who="unknown">
+        <u xml:id="i-MdYDvvUDRySBdYFLD9S8yL" who="unknown" prev="i-Mm3fxfyma3VnkHHFw2XtT7">
           <seg xml:id="i-3vbn3dfDTtbHnH7Kw4LTEM">
             Det råder stor brist på slöjd- och textillärare. Enligt rapport
             från arbetsmarknadsstyrelsen inför höstterminen 1976 har bristen
             på examinerade lärare ytterligare försämrats.
           </seg>
-        </u>
-        <u xml:id="i-HceV4qZtLvYJLnhCr2hnQr" who="unknown">
           <seg xml:id="i-RcioUXzBscKh5Zkeem45oK">
             Av 289 tillsatta slöjdlärare för hela höstterminen 1976 saknar
             135 erforderlig utbildning.
           </seg>
-        </u>
-        <u xml:id="i-UcEQFFuuHLPBYAzomtxtsC" who="unknown">
           <seg xml:id="i-XEepKG6GhmMv5G3aDQqgnR">
             Vad beträffar textillärare tillsattes inför läsåret 1976/77 450
             lärare, varav 205 saknade behörighet.
           </seg>
-        </u>
-        <u xml:id="i-DcDAhbJ2eMDzxH7LgJc15z" who="unknown">
           <seg xml:id="i-6k8hLQX9fWjYUbvdgGCShN">
             Har statsrådet uppmärksammat den uppkomna situationen och kommer
             statsrådet med anledning därav att utöka utbildningen av berörda

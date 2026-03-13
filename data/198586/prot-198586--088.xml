@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-JzUQTok9L4A6g44TArEBxh" type="speech">
             <linkGrp type="u">
               <ptr target="#i-KdLrKGGJuo8hJNNuKG99yj"/>
@@ -321,7 +321,13 @@
               <ptr target="#i-85041fdb9c2882f3-1"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -614,14 +620,12 @@
         <note xml:id="i-xgM3EeXGXsupUp4T4FWcL" type="speaker">
           Anf. I TALMANNEN:
         </note>
-        <u xml:id="i-KdLrKGGJuo8hJNNuKG99yj" who="i-PiA69Zron44x5fF1pHdUBo" next="i-CdKzJUSRYhCHZ1c6V5KBeR">
+        <u xml:id="i-KdLrKGGJuo8hJNNuKG99yj" who="i-PiA69Zron44x5fF1pHdUBo">
           <seg xml:id="i-VALdeix4z3EovXCehZeamR">
             Enligt ett till kammaren inkommet protokollsutdrag har valberedningen
             föreslagit att antalet suppleanter i utrikesutskottet skall utökas
             från 20 till 21 och i socialutskottet från 16 till 17.
           </seg>
-        </u>
-        <u xml:id="i-CdKzJUSRYhCHZ1c6V5KBeR" who="i-PiA69Zron44x5fF1pHdUBo" prev="i-KdLrKGGJuo8hJNNuKG99yj">
           <seg xml:id="i-YQonbvntmLL8Lw4HFwLx9R">
             Jag hemställer att antalet suppleanter i utrikesutskottet bestäms
             till 21 och i socialutskottet till 17.
@@ -957,7 +961,7 @@
         <note xml:id="i-iFN92Kw1x91E4ZEXfwJ3N" type="speaker">
           Anf. 11 BÖRJE HÖRNLUND (c):
         </note>
-        <u xml:id="i-e937fa5b60a9a130-0" who="i-F75GdyfEGNRiwZrKbuWUGy" next="i-Jox4Hp15tgMoVpHyA3VmjJ">
+        <u xml:id="i-e937fa5b60a9a130-0" who="i-F75GdyfEGNRiwZrKbuWUGy" next="i-e937fa5b60a9a130-4">
           <seg xml:id="i-3vgmGv4Yq2pKgvs688oES7">
             Herr talman! Jag ber att få tacka finansministern för svaret.
           </seg>
@@ -975,8 +979,6 @@
             detta sätt, för nu sker faktiskt utflyttningen från stödområdena
             snabbare än på 1960-talet.
           </seg>
-        </u>
-        <u xml:id="i-Jox4Hp15tgMoVpHyA3VmjJ" who="i-F75GdyfEGNRiwZrKbuWUGy" prev="i-e937fa5b60a9a130-0" next="i-e937fa5b60a9a130-4">
           <seg xml:id="i-AXt4yNJBHbwrmFKDXktxZX">
             Jag vill fråga finansministern: Förekom det någon diskussion
             om eller
@@ -998,7 +1000,7 @@
         <note xml:id="i-Mx3H2bHoQPuWBJXCtoCd91">
           10
         </note>
-        <u xml:id="i-e937fa5b60a9a130-4" who="i-F75GdyfEGNRiwZrKbuWUGy" prev="i-Jox4Hp15tgMoVpHyA3VmjJ">
+        <u xml:id="i-e937fa5b60a9a130-4" who="i-F75GdyfEGNRiwZrKbuWUGy" prev="i-e937fa5b60a9a130-0">
           <seg xml:id="i-NHESdZ6PHgeo1KPxRhYcQM">
             ställde finansministern några krav på att större belopp skulle
             investeras inom stödområdena? Ett belopp på 5 miljarder skulle
@@ -1218,22 +1220,18 @@
         <note xml:id="i-JB2ggPUJ1YJaAaFULAssT6" type="speaker">
           Anf. 18 Finansminister KJELL-OLOF FELDT:
         </note>
-        <u xml:id="i-37803b0d9784c1c2-8" who="i-QSBS4dqtsRDzm8fcNNRFaC" next="i-2nivK4XaMCjD6riTafrisQ">
+        <u xml:id="i-37803b0d9784c1c2-8" who="i-QSBS4dqtsRDzm8fcNNRFaC">
           <seg xml:id="i-NsyRQhRGx4eM3EUKtJVLmo">
             Herr talman! Alltsedan särbeskattning av makars A-inkomster infördes
             har gällt att underskottsavdrag, liksom andra allmänna avdrag,
             i första hand avräknas från A-inkomst. Någon förändring i detta
             avseende har inte skett.
           </seg>
-        </u>
-        <u xml:id="i-2nivK4XaMCjD6riTafrisQ" who="i-QSBS4dqtsRDzm8fcNNRFaC" prev="i-37803b0d9784c1c2-8" next="i-Tio8DnGartbJcnkx69XmWq">
           <seg xml:id="i-T3iQeD2MnG71DciGQD7dVE">
             Rätten till kvittning mellan villaunderskott och kapitalinkomst
             vid beräkning av tilläggsbelopp påverkar inte uppdelningen i A-
             och B-inkomst.
           </seg>
-        </u>
-        <u xml:id="i-Tio8DnGartbJcnkx69XmWq" who="i-QSBS4dqtsRDzm8fcNNRFaC" prev="i-2nivK4XaMCjD6riTafrisQ">
           <seg xml:id="i-MprSuY6dLF1Bx88shBdgDv">
             Jag är medveten om att reglerna på området inte är lättillgängliga.
             Inom finansdepartementet prövas fortlöpande möjligheterna att
@@ -1457,13 +1455,11 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198586--88/prot_198586__88-016.jp2/_view"/>
-        <u xml:id="i-c11f8318edbda82f-7" who="i-84xpErSjuTzEi5hvTA1Jtt" prev="i-c11f8318edbda82f-6" next="i-KnXjsnuphgW9HDFWTRUdp6">
+        <u xml:id="i-c11f8318edbda82f-7" who="i-84xpErSjuTzEi5hvTA1Jtt" prev="i-c11f8318edbda82f-6">
           <seg xml:id="i-se415dFpqSTU6dG8MVyVq">
             kommer att få en sådan utbildning och sådana vapen att de kan
             fungera som Prot. 1985/86:88
           </seg>
-        </u>
-        <u xml:id="i-KnXjsnuphgW9HDFWTRUdp6" who="i-84xpErSjuTzEi5hvTA1Jtt" prev="i-c11f8318edbda82f-7">
           <seg xml:id="i-9p9tCSGAYMr359apEaxAKS">
             ett försvar?
           </seg>
@@ -1891,14 +1887,12 @@
         <note xml:id="i-52zcxDtcMYy9iRWocpf65U" type="speaker">
           Anf. 35 INGVAR KARLSSON i Bengtsfors (c):
         </note>
-        <u xml:id="i-e8c2ed72ec2fb22e-12" who="i-4BCsEuyTWrX3aghWF8i72b" next="i-AsEWbMzHgxiQseDszrzcLJ">
+        <u xml:id="i-e8c2ed72ec2fb22e-12" who="i-4BCsEuyTWrX3aghWF8i72b" next="i-JnHt24MLf9bBMBz6Yv3Urk">
           <seg xml:id="i-C66g3dVqbtbV6QcKYapcYx">
             Herr talman! Jag tackar industriministern för svaret på min fråga.
             Det var ett i största allmänhet positivt men till intet förpliktande
             svar.
           </seg>
-        </u>
-        <u xml:id="i-AsEWbMzHgxiQseDszrzcLJ" who="i-4BCsEuyTWrX3aghWF8i72b" prev="i-e8c2ed72ec2fb22e-12" next="i-JnHt24MLf9bBMBz6Yv3Urk">
           <seg xml:id="i-9iML7uH9BzhH4661PWZk3o">
             Bakgrunden till att jag har ställt frågan är följande. Mellan
             1950 och 1970 minskade folkmängden i Dalsland med 7 366 personer.
@@ -1929,12 +1923,10 @@
         <note xml:id="i-NwrXVaQsp6pDz1KSnrn7gC">
           20
         </note>
-        <u xml:id="i-JnHt24MLf9bBMBz6Yv3Urk" who="i-4BCsEuyTWrX3aghWF8i72b" prev="i-AsEWbMzHgxiQseDszrzcLJ" next="i-42ugNUiT2QmekvYREQ16xL">
+        <u xml:id="i-JnHt24MLf9bBMBz6Yv3Urk" who="i-4BCsEuyTWrX3aghWF8i72b" prev="i-e8c2ed72ec2fb22e-12">
           <seg xml:id="i-KkrY4v36ML4GYpzUmUJoi1">
             industriminister som ökningen kom.
           </seg>
-        </u>
-        <u xml:id="i-42ugNUiT2QmekvYREQ16xL" who="i-4BCsEuyTWrX3aghWF8i72b" prev="i-JnHt24MLf9bBMBz6Yv3Urk">
           <seg xml:id="i-SC1EJbBrNtmfe3xDXdYrZc">
             På senare tid har minskningen börjat igen. Jag anger siffrorna
             bara för de två senaste åren. Under perioden 1984-1985 har folkmängden
@@ -2060,7 +2052,7 @@
         <note xml:id="i-2S9i7sjNqq6Y9GgJspY2wg" type="speaker">
           Anf. 39 LARZ JOHANSSON (c):
         </note>
-        <u xml:id="i-74556ebdb5f17181-0" who="i-DWeXh4zHCbqRVgtH4QLZC3" next="i-Aw4bV9qu15RsyNrZDu9EvY">
+        <u xml:id="i-74556ebdb5f17181-0" who="i-DWeXh4zHCbqRVgtH4QLZC3" next="i-74556ebdb5f17181-2">
           <seg xml:id="i-WU2AoQQzBy8yp6xNSaxYtV">
             Herr talman! Jag har ställt den här frågan därför att det gäller
             en sak som är ganska viktig för den fortsatta behandlingen av
@@ -2088,8 +2080,6 @@
             beslut tog ju staten ett övergripande ansvar för skolledarutbildningen.
             Gäller inte de tankegångarna fortfarande?
           </seg>
-        </u>
-        <u xml:id="i-Aw4bV9qu15RsyNrZDu9EvY" who="i-DWeXh4zHCbqRVgtH4QLZC3" prev="i-74556ebdb5f17181-0" next="i-74556ebdb5f17181-2">
           <seg xml:id="i-BpYQcJxUWCpBeDzJezjybm">
             Vidare vill jag fråga: Tänker skolministern nu överlåta även
             ansvaret för
@@ -2114,7 +2104,7 @@
         <note xml:id="i-4Gg5s2dvmNvRPWY9YZ8VwE">
           Om beredningen av frågor om styrning av skolväsendet
         </note>
-        <u xml:id="i-74556ebdb5f17181-2" who="i-DWeXh4zHCbqRVgtH4QLZC3" prev="i-Aw4bV9qu15RsyNrZDu9EvY">
+        <u xml:id="i-74556ebdb5f17181-2" who="i-DWeXh4zHCbqRVgtH4QLZC3" prev="i-74556ebdb5f17181-0">
           <seg xml:id="i-2hURzuDz5RkB5MJW2pDcAN">
             skolledarutbildningen på kommunerna? Hur går det då med garantin
             för likvärdigheten?
@@ -2549,7 +2539,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198586--88/prot_198586__88-028.jp2/_view"/>
-        <u xml:id="i-f7124a1e4ecc97dd-7" who="unknown" prev="i-f7124a1e4ecc97dd-6" next="i-GhJ1Xw1otRkfgGjg8CErq9">
+        <u xml:id="i-f7124a1e4ecc97dd-7" who="unknown" prev="i-f7124a1e4ecc97dd-6">
           <seg xml:id="i-AKhVyG8TjNvRHCz3wSqJ3p">
             åtgärder som kan stimulera sparande och produktiv användning
             av tillgängligt kapital.
@@ -2565,13 +2555,9 @@
             Indirekt kommer samhällsekonomin att påverkas positivt av såväl
             bättre tillgång på arbetande kapital som lägre räntor och inflation.
           </seg>
-        </u>
-        <u xml:id="i-GhJ1Xw1otRkfgGjg8CErq9" who="unknown" prev="i-f7124a1e4ecc97dd-7" next="i-H66MFPuk2ZejBYF9Rxpa7N">
           <seg xml:id="i-Kzg8Heg73AhXz2FQKMneMY">
             Med hänvisning till vad som ovan anförts vill jag fråga finansministern:
           </seg>
-        </u>
-        <u xml:id="i-H66MFPuk2ZejBYF9Rxpa7N" who="unknown" prev="i-GhJ1Xw1otRkfgGjg8CErq9">
           <seg xml:id="i-Ggz4bEr9d3w9GNapvq9rir">
             Vilka åtgärder avser regeringen att vidta för att ge den enskilde
             möjligheter att på samma sätt som storföretagen stärka sin ekonomi
@@ -2737,7 +2723,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198586--88/prot_198586__88-030.jp2/_view"/>
-        <u xml:id="i-e802ad926cc6dfbe-1" who="i-KawwYRbfNooyPngtdSHu1B" prev="i-9f46c55821e4383d-0" next="i-6jcpusR8LpLCSmwrtbMG6H">
+        <u xml:id="i-e802ad926cc6dfbe-1" who="i-KawwYRbfNooyPngtdSHu1B" prev="i-9f46c55821e4383d-0">
           <seg xml:id="i-7P2f1Q7RABT1Hsw1xUqVD4">
             En utvärdering av samhällets sammanlagda insatser och konsekvenserna
             av desamma borde göras innan beslut tas om indragning av postkontoren
@@ -2752,8 +2738,6 @@
             1. Ärstatsrådet beredd att lämna en redogörelse för det aktuella
             läget vad avser de mindre postkontorens bevarande i glesbygdslänen?
           </seg>
-        </u>
-        <u xml:id="i-6jcpusR8LpLCSmwrtbMG6H" who="i-KawwYRbfNooyPngtdSHu1B" prev="i-e802ad926cc6dfbe-1">
           <seg xml:id="i-ETBwah4M7VV6mNHxcbqZ7i">
             2. Ämnar statsrådet vidta några åtgärder för att bevara de nedläggningshotade
             mindre postkontoren i Västerbotten och då särskilt postkontoret

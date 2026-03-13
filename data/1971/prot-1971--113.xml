@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-8gbvR28LRCRH5qHRE6w3YP" type="speech">
             <linkGrp type="u">
               <ptr target="#i-7aLi9ebEug4qxoDqNBwKKR"/>
@@ -187,7 +187,13 @@
               <ptr target="#i-92b39f284ef1ef78-2"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -464,7 +470,7 @@
         <note xml:id="i-H65iQfHRL8mYJCHxHLBFH6">
           Till riksdagens kammare
         </note>
-        <u xml:id="i-5Kx9KtjrTupNkvEC79U8VN" who="unknown">
+        <u xml:id="i-5Kx9KtjrTupNkvEC79U8VN" who="unknown" next="i-CYmckLLwH4BxboAkYvbWE4">
           <seg xml:id="i-4mBj4PotYpvLQbvW9rjRxx">
             Härmed får jag anhålla om tjänstledighet från riksdagsarbetet
             under tiden 27—28 oktober för deltagande i nordiskt ministermöte
@@ -478,7 +484,7 @@
         <note xml:id="i-2ak83FLXtANXrS7JRsTod5">
           Till riksdagens kammare
         </note>
-        <u xml:id="i-CYmckLLwH4BxboAkYvbWE4" who="unknown">
+        <u xml:id="i-CYmckLLwH4BxboAkYvbWE4" who="unknown" prev="i-5Kx9KtjrTupNkvEC79U8VN">
           <seg xml:id="i-9ss2bfgLiQ9GpqDtqYad3D">
             Härmed anhåller jag om ledighet från riksdagsarbetet under tiden
             1/11—12/12 1971 för deltagande i Förenta nationernas generalförsamlings
@@ -504,14 +510,12 @@
           talmannen Nettelbrandts (fp) i kammarens protokoll för den 15
           oktober intagna fråga, nr 304, och anförde:
         </note>
-        <u xml:id="i-7aLi9ebEug4qxoDqNBwKKR" who="i-3urySgCAk2SuFz1BB8TX5x" next="i-AcEjUtcB5PWHu8F1ScepW4">
+        <u xml:id="i-7aLi9ebEug4qxoDqNBwKKR" who="i-3urySgCAk2SuFz1BB8TX5x">
           <seg xml:id="i-7xXhXM4D9bjFnuQ7ZzEY7Y">
             Herr talman! Fru Nettelbrandt och herr Larsson i Öskevik har
             frågat mig när jag avser att tillsätta den av riksdagen begärda
             utredningen angående kostnadsfördelningen mellan stat och kommun.
           </seg>
-        </u>
-        <u xml:id="i-AcEjUtcB5PWHu8F1ScepW4" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-7aLi9ebEug4qxoDqNBwKKR">
           <seg xml:id="i-4p37B8CVN9JANLsyaaw1fB">
             Direktiven till en utredning, som skall behandla frågor om kostnadsfördelningen
             mellan stat och kommun, håHer för närvarande på att utarbetas
@@ -539,7 +543,7 @@
         <note xml:id="i-FUjnQpRdqnmeD5h1oqmb3A" type="speaker">
           Herr LARSSON i Öskevik (c):
         </note>
-        <u xml:id="i-AFqVmPtfoSBBytNtUKF7Pb" who="i-GzDHSBHMoCWsqLigfuoeGJ" next="i-UUXzYgRKGDbaGAQn4GbmpP">
+        <u xml:id="i-AFqVmPtfoSBBytNtUKF7Pb" who="i-GzDHSBHMoCWsqLigfuoeGJ">
           <seg xml:id="i-LfXHwuHDY1RuB6P6qdqAf6">
             Herr talman! Jag tackar finansministern för det positiva svaret
             på min fråga. Jag förmodar att finansministern delar den oro många
@@ -549,15 +553,11 @@
             När jag ställde denna fråga tänkte jag emellertid på en, som jag
             ser det, oundviklig följd av nuvarande trend.
           </seg>
-        </u>
-        <u xml:id="i-UUXzYgRKGDbaGAQn4GbmpP" who="i-GzDHSBHMoCWsqLigfuoeGJ" prev="i-AFqVmPtfoSBBytNtUKF7Pb" next="i-JvCYQFUMdqF39emEM8Wm2N">
           <seg xml:id="i-Va3iAFsyFMhHSATVHGQv9m">
             Många viktiga samhällsaktiviteter är beroende av hur långt kommunerna
             orkar finansiera dem. Hälsooch sjukvårdskostnaderna är ju de kostnader
             som ökar snabbast inom sektorn social omvårdnad och trygghet.
           </seg>
-        </u>
-        <u xml:id="i-JvCYQFUMdqF39emEM8Wm2N" who="i-GzDHSBHMoCWsqLigfuoeGJ" prev="i-UUXzYgRKGDbaGAQn4GbmpP" next="i-Ff7oCTiDEB55ApebyXB7nx">
           <seg xml:id="i-3UiAmZoaDbw33CbLMhfpyq">
             Kostnadsutvecklingen inom sjukvården innebär helt enkelt att
             automatiska kostnadsstegringar på redan befintlig verksamhet inte
@@ -565,8 +565,6 @@
             vid oförändrad utdebitering. Återstår alltså skattehöjning om
             man vill bibehålla nuvarande nivå på sjukvårdssektorn.
           </seg>
-        </u>
-        <u xml:id="i-Ff7oCTiDEB55ApebyXB7nx" who="i-GzDHSBHMoCWsqLigfuoeGJ" prev="i-JvCYQFUMdqF39emEM8Wm2N">
           <seg xml:id="i-FQGrXCHvpbe6iwFQ4icJnx">
             Jag hoppas att de direktiv som finansministern kommer att ge
             den nu bebådade utredningen blir sådana att de innebär ett klarläggande
@@ -643,7 +641,7 @@
         <note xml:id="i-KjJRvWkGRhzW6dxGqv1mwE" type="speaker">
           Herr finansministern STRÄNG:
         </note>
-        <u xml:id="i-c805f929e5433247-0" who="i-3urySgCAk2SuFz1BB8TX5x" next="i-CwaoQNuYyPjhG4hPrqRDAJ">
+        <u xml:id="i-c805f929e5433247-0" who="i-3urySgCAk2SuFz1BB8TX5x" next="i-c805f929e5433247-3">
           <seg xml:id="i-G3JF3uTyz1SP5QxWTWHonK">
             Herr talman! Jag hade inte för avsikt att ta upp någon debatt
             här i dag. Vi har ju talat om dessa frågor många gånger tidigare.
@@ -714,7 +712,7 @@
         <note xml:id="i-SywH8qFNfX12uhvdfBUrNr">
           50
         </note>
-        <u xml:id="i-c805f929e5433247-3" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-CwaoQNuYyPjhG4hPrqRDAJ">
+        <u xml:id="i-c805f929e5433247-3" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-c805f929e5433247-0">
           <seg xml:id="i-GQjQAqLyKY9sJYh5dU55Ux">
             något annat sätt, om en omfördelning skall göras — i sista hand
             är det ändå samma personer som skall betala skatten — än genom
@@ -1324,7 +1322,7 @@
         <note xml:id="i-G67cscHGNYvyuJ31BUDwX8" type="speaker">
           Herr finansministern STRÄNG:
         </note>
-        <u xml:id="i-c805f929e5433247-16" who="i-3urySgCAk2SuFz1BB8TX5x" next="i-PQHygPm5ugzWhDFyrAuRmP">
+        <u xml:id="i-c805f929e5433247-16" who="i-3urySgCAk2SuFz1BB8TX5x">
           <seg xml:id="i-A42tvp4RzupwJo3MKScXWL">
             Herr talman! Jag trodde att herr Brundin skulle tro på ungefär
             vad jag sade. Men när herr Brundin envisas med att säga att här
@@ -1332,8 +1330,6 @@
             det bli som han önskar, så tvingas jag att i protokollet läsa
             in ett stycke som lyder så här:
           </seg>
-        </u>
-        <u xml:id="i-PQHygPm5ugzWhDFyrAuRmP" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-c805f929e5433247-16" next="i-c805f929e5433247-17">
           <seg xml:id="i-Rx7RAZFsf1UajXsXF3FaTc">
             ”Underlag för beräkning av slutlig skatt m. m. skall lämnas till
             länsstyrelsen senast den I oktober. Datamässigt tas sedan fram
@@ -1349,8 +1345,6 @@
             Därefter debiteras skatten datamässigt på debiteringslängd och
             samtidigt framställs debetsedlarna.
           </seg>
-        </u>
-        <u xml:id="i-c805f929e5433247-17" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-PQHygPm5ugzWhDFyrAuRmP">
           <seg xml:id="i-pgtsG5MtePTrgVxxZGNuf">
             Senast den 20 november skall debiteringslängden lämnas till den
             lokala skattemyndigheten för granskning och underskrift. Så snart

@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-j8mMv56P4VNAyMr6HTrov" type="speech">
             <linkGrp type="u">
               <ptr target="#i-KeVABbHSJcFdTREkbCcRcn"/>
@@ -448,7 +448,13 @@
               <ptr target="#i-HsKuWfCrAKLbyVJh2PaEQV"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -534,15 +540,13 @@
         <note xml:id="i-CmMNcHYJiCjYWde56i4nZa" type="speaker">
           Herr TALMANNEN yttrade:
         </note>
-        <u xml:id="i-KeVABbHSJcFdTREkbCcRcn" who="i-Kv4hUGrgspgE3ZEpZrgHtZ" next="i-UyaVLwE5YoUGCJjt6dm3oZ">
+        <u xml:id="i-KeVABbHSJcFdTREkbCcRcn" who="i-Kv4hUGrgspgE3ZEpZrgHtZ">
           <seg xml:id="i-2NqUjAFM7Zvi2zdErRgy5J">
             Enligt punkt 2 i övergångsbestämmelserna till den nya regeringsformen
             skall riksdagen, så snart regeringsformen har fått kraft av grundlag,
             välja ledamöter i valprövningsnämnden samt, enligt vad som föreskrives
             därom i den nya riksdagsordningen, ersättare för dem.
           </seg>
-        </u>
-        <u xml:id="i-UyaVLwE5YoUGCJjt6dm3oZ" who="i-Kv4hUGrgspgE3ZEpZrgHtZ" prev="i-KeVABbHSJcFdTREkbCcRcn">
           <seg xml:id="i-HDzU4aEUDy7wQyLjdg6jsz">
             Valprövningsnämnden skall bestå av ordförande och sex andra ledamöter.
             För ordföranden skall finnas en ersättare och för övriga ledamöter
@@ -599,13 +603,11 @@
         <note xml:id="i-CvTt2Yhw45kgD4bAu5hB6">
           Nr 38 Onsdagen den 13 mars 1974 Val av valprövningsnämnd
         </note>
-        <u xml:id="i-ECNhHfa6QcLPCSJZJoSUHz" who="i-6PeNM1B9NsCjyScL117vps" prev="i-20bdc1d67b38edf1-0" next="i-81bbc572f44545d7-2">
+        <u xml:id="i-ECNhHfa6QcLPCSJZJoSUHz" who="i-6PeNM1B9NsCjyScL117vps" prev="i-20bdc1d67b38edf1-0">
           <seg xml:id="i-KCMXNaVy71pMR7j8Hd1x3R">
             listor av det utseende som framgår av till kammarens ledamöter
             utdelad promemoria.
           </seg>
-        </u>
-        <u xml:id="i-81bbc572f44545d7-2" who="i-6PeNM1B9NsCjyScL117vps" prev="i-ECNhHfa6QcLPCSJZJoSUHz">
           <seg xml:id="i-DFsGnb9y9hA7gwVch7NXLT">
             I egenskap av ordförande i valberedningen ber jag att få överlämna
             dessa listor till herr talmannen.
@@ -938,7 +940,7 @@
           att hos regeringen hemställa om att tillämpningen av allmänna
           prisregleringslagen skulle utvidgas att gälla alla dagligvaror,
         </note>
-        <u xml:id="i-81bbc572f44545d7-11" who="unknown" prev="i-81bbc572f44545d7-10" next="i-Gy24aSbHH5VZYoTadSTH2G">
+        <u xml:id="i-81bbc572f44545d7-11" who="unknown" prev="i-81bbc572f44545d7-10" next="i-81bbc572f44545d7-12">
           <seg xml:id="i-EYufGJwTQf5w6HZpJVMzY1">
             att uttala sig för en politik med en låg och fast ränta,
           </seg>
@@ -946,8 +948,6 @@
             att uttala sig för att det omfattande stödet till storkapitalet
             via statsbudgeten borde avvecklas,
           </seg>
-        </u>
-        <u xml:id="i-Gy24aSbHH5VZYoTadSTH2G" who="unknown" prev="i-81bbc572f44545d7-11" next="i-81bbc572f44545d7-12">
           <seg xml:id="i-GeE585tEHu5vffg9GQEAt7">
             att från den 1 juli 1974 slopa mervärdeskatten på livsmedel och
             täcka inkomstbortfallet för statskassan genom skärpt beskattning
@@ -971,7 +971,7 @@
           särskilda bidrag för förbättring av den yttre boendemiljön inom
           en ram av sammanlagt 600 miljoner kronor samt
         </note>
-        <u xml:id="i-81bbc572f44545d7-12" who="unknown" prev="i-Gy24aSbHH5VZYoTadSTH2G" next="i-VxenXSASS5Ez8kp9cTFtif">
+        <u xml:id="i-81bbc572f44545d7-12" who="unknown" prev="i-81bbc572f44545d7-11" next="i-VxenXSASS5Ez8kp9cTFtif">
           <seg xml:id="i-DLZQkJ5MWoggXUnm8B5tgo">
             att i övrigt som sin mening uttala vad som i motionen anförts
             om den ekonomiska politiken.
@@ -1034,20 +1034,16 @@
           D. förslag till förordning om ändring i förordningen (1968:419)
           om allmän arbetsgivaravgift,
         </note>
-        <u xml:id="i-VxenXSASS5Ez8kp9cTFtif" who="unknown" prev="i-81bbc572f44545d7-12" next="i-PCUz5h1gQVq5u1nDrWvq72">
+        <u xml:id="i-VxenXSASS5Ez8kp9cTFtif" who="unknown" prev="i-81bbc572f44545d7-12" next="i-9LNieqsKX3LzemjVa9e1RZ">
           <seg xml:id="i-STWCfzmrg3b8FyfCSyEPiW">
             vilka förslag bl. a. innebar skärpt beskattning av stora förmögenheter,
             bolagsvinster m. m.,
           </seg>
-        </u>
-        <u xml:id="i-PCUz5h1gQVq5u1nDrWvq72" who="unknown" prev="i-VxenXSASS5Ez8kp9cTFtif" next="i-RD95xpkbPCf5pFyVqH16d4">
           <seg xml:id="i-MFEYRQefLGnibkff4r8JiL">
             3. att hos regeringen begära förslag om införande av en särskild
             omsättningsskatt på handeln med aktier att utgå med 20 procent
             på försäljningsvärdet att gälla från den 1 januari 1975,
           </seg>
-        </u>
-        <u xml:id="i-RD95xpkbPCf5pFyVqH16d4" who="unknown" prev="i-PCUz5h1gQVq5u1nDrWvq72" next="i-9LNieqsKX3LzemjVa9e1RZ">
           <seg xml:id="i-E7f7HaCsrh8Z1RWSxPb2o">
             4, att arvsoch gåvoskatten höjdes med i genomsnitt 50 procent,
           </seg>
@@ -1063,14 +1059,12 @@
           å gäld begränsades till att gälla skuldbelopp understigande 125
           000 kronor,
         </note>
-        <u xml:id="i-9LNieqsKX3LzemjVa9e1RZ" who="unknown" prev="i-RD95xpkbPCf5pFyVqH16d4" next="i-Fbz57Vsc1sJoCBDvGUqeEb">
+        <u xml:id="i-9LNieqsKX3LzemjVa9e1RZ" who="unknown" prev="i-VxenXSASS5Ez8kp9cTFtif" next="i-VEWfYQv9CxvRT3sn8aVBvz">
           <seg xml:id="i-HaEBKcgmbdD2kxcA9KEgwa">
             7. att kommunalskattelagen ändrades så att däri stadgades att
             utgifter för representation och liknande ändamål icke var att
             hänföra till omkostnader i förvärvskälla,
           </seg>
-        </u>
-        <u xml:id="i-Fbz57Vsc1sJoCBDvGUqeEb" who="unknown" prev="i-9LNieqsKX3LzemjVa9e1RZ" next="i-VEWfYQv9CxvRT3sn8aVBvz">
           <seg xml:id="i-E8Wz62CDigrG9cQSurAjbn">
             8. att den allmänna reklambeskattningen utformades såsom en omkostnadsavgift
             med 25 procent av beskattningsvärdet.
@@ -1342,7 +1336,7 @@
           motionen 1974:1192 moment 4 a och b beslutade om framställning
           till Kungl. Maj:t om skyndsamt förslag till riksdagen beträffande
         </note>
-        <u xml:id="i-VEWfYQv9CxvRT3sn8aVBvz" who="unknown" prev="i-Fbz57Vsc1sJoCBDvGUqeEb">
+        <u xml:id="i-VEWfYQv9CxvRT3sn8aVBvz" who="unknown" prev="i-9LNieqsKX3LzemjVa9e1RZ">
           <seg xml:id="i-FEbGkQiLHEKySqk2q34eeb">
             a. införande av ett tidsbegränsat investeringsstöd, i form av
             avdrag vid beskattningen och/eller bidrag, för investeringar inom
@@ -1629,13 +1623,11 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--38/prot_1974__38-015.jp2/_view"/>
-        <u xml:id="i-8jA3y1FikH6t32NBbSKd52" who="i-9DETYuf2xa4o1AQ7HpbNMT" prev="i-7a2cf6d2060dbbec-0" next="i-7a2cf6d2060dbbec-1">
+        <u xml:id="i-8jA3y1FikH6t32NBbSKd52" who="i-9DETYuf2xa4o1AQ7HpbNMT" prev="i-7a2cf6d2060dbbec-0" next="i-7a2cf6d2060dbbec-2">
           <seg xml:id="i-LyHxXHTG37ZeTkoXxWBPMn">
             föredrag i Ramnäs den 9 februari — alltså innan man gjorde den
             här överenskommelsen — bl. a. följande:
           </seg>
-        </u>
-        <u xml:id="i-7a2cf6d2060dbbec-1" who="i-9DETYuf2xa4o1AQ7HpbNMT" prev="i-8jA3y1FikH6t32NBbSKd52" next="i-7a2cf6d2060dbbec-2">
           <seg xml:id="i-7DowJ9q73YWT5h9cZoMXPn">
             ”Den politiskt mest intressanta frågan i vår blir vad oppositionen
             tänker göra med sitt löfte om momssänkning — ska de föra fram
@@ -1726,7 +1718,7 @@
         <note xml:id="i-R728W497KvwhpX5Ui4nKTL">
           16
         </note>
-        <u xml:id="i-7a2cf6d2060dbbec-2" who="i-9DETYuf2xa4o1AQ7HpbNMT" prev="i-7a2cf6d2060dbbec-1" next="i-7a2cf6d2060dbbec-3">
+        <u xml:id="i-7a2cf6d2060dbbec-2" who="i-9DETYuf2xa4o1AQ7HpbNMT" prev="i-8jA3y1FikH6t32NBbSKd52" next="i-7a2cf6d2060dbbec-3">
           <seg xml:id="i-R82QG4cCBW8hMmQwQ3fpx6">
             alla möjliga olika utgifter, och när den vänder uppåt ökar man
             skatterna extra mycket — hamnar man precis i det högskattesamhälle
@@ -2380,7 +2372,7 @@
         <note xml:id="i-8oju9KDYwZYAMY8KW2h1cU">
           24
         </note>
-        <u xml:id="i-7a2cf6d2060dbbec-12" who="i-5wPAQ1MDLRTsW1XngYcD46" prev="i-7a2cf6d2060dbbec-9" next="i-3iRy4rX56yqKbYrTmetjbZ">
+        <u xml:id="i-7a2cf6d2060dbbec-12" who="i-5wPAQ1MDLRTsW1XngYcD46" prev="i-7a2cf6d2060dbbec-9">
           <seg xml:id="i-5teaFMvXecU6FruiiznkoZ">
             Den 15 september skall momsen höjas igen. För två månader sedan
             var regeringen så osäker på ekonomins utveckling att den avstod
@@ -2439,8 +2431,6 @@
             med en borgerlig regering som för en borgerlig politik än med
             en socialdemokratisk som också för en borgerlig politik.
           </seg>
-        </u>
-        <u xml:id="i-3iRy4rX56yqKbYrTmetjbZ" who="i-5wPAQ1MDLRTsW1XngYcD46" prev="i-7a2cf6d2060dbbec-12">
           <seg xml:id="i-E5sruJY2KHGSXERVYvqaWP">
             Herr talman! Jag vill med detta yrka bifall till reservationerna
             2 och 4 av herr Hermansson.
@@ -3440,7 +3430,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--38/prot_1974__38-037.jp2/_view"/>
-        <u xml:id="i-ffa77ca221f05382-6" who="i-GUKPcJTTQcDu1zKDGhNWJP" prev="i-ffa77ca221f05382-5" next="i-Ro1VHYbcfy7krfw9UwNsA1">
+        <u xml:id="i-ffa77ca221f05382-6" who="i-GUKPcJTTQcDu1zKDGhNWJP" prev="i-ffa77ca221f05382-5">
           <seg xml:id="i-apDMdJja4KArDnhAvr7F7">
             och en halv månader. Vår principiella kritik mot att använda
             mervärdeskatten i ett sådant här sammanhang kvarstår. Genom att
@@ -3506,8 +3496,6 @@
             och då krävs ett visst mått av självkontroll hos alla politiker.
             Det ger sig om vi har den självkontrollen.
           </seg>
-        </u>
-        <u xml:id="i-Ro1VHYbcfy7krfw9UwNsA1" who="i-GUKPcJTTQcDu1zKDGhNWJP" prev="i-ffa77ca221f05382-6">
           <seg xml:id="i-XuwXcNMHBXkxB7QRZ2Q5iT">
             Herr talman! Jag yrkar bifall till finansutskottets hemställan
             i samtliga punkter.
@@ -7378,7 +7366,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--38/prot_1974__38-085.jp2/_view"/>
-        <u xml:id="i-7a2cf6d2060dbbec-25" who="i-LQKP5CDY62YpFZWUbs7QiW" prev="i-dd0c9dd90cc6fd3e-20" next="i-VpMyxrsuKQdarL9WtpBcqj">
+        <u xml:id="i-7a2cf6d2060dbbec-25" who="i-LQKP5CDY62YpFZWUbs7QiW" prev="i-dd0c9dd90cc6fd3e-20">
           <seg xml:id="i-Y1FVdEUD5FBMaaHYkyagSk">
             samlingen” är det inte riktigt. Man bryter sig inte ut, om man
             står kvar. Att tala om ”sura rönnbär” i detta sammanhang är också
@@ -7404,14 +7392,10 @@
             Knut Johansson. Jag har det senaste numret av hans tidning Byggnadsarbetaren
             framför mig. Han säger där:
           </seg>
-        </u>
-        <u xml:id="i-VpMyxrsuKQdarL9WtpBcqj" who="i-LQKP5CDY62YpFZWUbs7QiW" prev="i-7a2cf6d2060dbbec-25" next="i-7a2cf6d2060dbbec-26">
           <seg xml:id="i-97qJWQ9KhpGBy1PU9k7D6s">
             ”Momssänkningen får — — — högst mikroskopiska verkningar på köplusten
             — — —.
           </seg>
-        </u>
-        <u xml:id="i-7a2cf6d2060dbbec-26" who="i-LQKP5CDY62YpFZWUbs7QiW" prev="i-VpMyxrsuKQdarL9WtpBcqj">
           <seg xml:id="i-CDuweYzukaxQwKwyxQomeR">
             En närmare granskning av den sorglustiga striden om momsen kan
             kanske ge oss några nyttiga erfarenheter inför framtiden.”
@@ -8558,7 +8542,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--38/prot_1974__38-099.jp2/_view"/>
-        <u xml:id="i-c6572cf2e0e6c5e6-28" who="i-FoZGPWdjE7CaiMyuRthV17" prev="i-c6572cf2e0e6c5e6-27" next="i-CSEGzpRhi1ym4eqjudK7us">
+        <u xml:id="i-c6572cf2e0e6c5e6-28" who="i-FoZGPWdjE7CaiMyuRthV17" prev="i-c6572cf2e0e6c5e6-27" next="i-c6572cf2e0e6c5e6-29">
           <seg xml:id="i-P2LGTGCb467hVYu9XzEomu">
             givetvis prestera ett arbete som finansierar alla de avgifter,
             förmåner m. m. som arbetsgivaren måste betala för honom. När man
@@ -8620,8 +8604,6 @@
             givetvis, som herr Burenstam Linder redan tidigare sagt, att det
             är en åtgärd för att dölja de genom regleringar så höga bostadskostnaderna.
           </seg>
-        </u>
-        <u xml:id="i-CSEGzpRhi1ym4eqjudK7us" who="i-FoZGPWdjE7CaiMyuRthV17" prev="i-c6572cf2e0e6c5e6-28" next="i-c6572cf2e0e6c5e6-29">
           <seg xml:id="i-VMqz7kvifpznA8eAwgrhxW">
             Jag skulle vilja fråga socialdemokraterna i skatteutskottet om
             de
@@ -8652,7 +8634,7 @@
         <note xml:id="i-GDBwca4b8Akv6Py3hsNUkp">
           100
         </note>
-        <u xml:id="i-c6572cf2e0e6c5e6-29" who="i-FoZGPWdjE7CaiMyuRthV17" prev="i-CSEGzpRhi1ym4eqjudK7us">
+        <u xml:id="i-c6572cf2e0e6c5e6-29" who="i-FoZGPWdjE7CaiMyuRthV17" prev="i-c6572cf2e0e6c5e6-28">
           <seg xml:id="i-KsFMukxiyKa4me3NmoTxuq">
             menar att de är beredda att på dylika omvägar bryta sönder mervärdeskattesystemet.
             Det är visserligen sant att man formellt bibehåller mervärdeskatten
@@ -8682,7 +8664,7 @@
         <note xml:id="i-U3j3mqwfG4WYBmrAW6dxPT" type="speaker">
           Herr MUNDEBO (fp):
         </note>
-        <u xml:id="i-53d9db666d7ed364-0" who="i-3ChvFB2zr9iHy1ZRMn1Ban" next="i-HjknPP1QwAhqechPcySVn3">
+        <u xml:id="i-53d9db666d7ed364-0" who="i-3ChvFB2zr9iHy1ZRMn1Ban" next="i-53d9db666d7ed364-2">
           <seg xml:id="i-9JizjheFFavHPDt9cigprY">
             Fru talman! Det råder enighet mellan partierna på ett par centrala
             punkter inom den aktuella ekonomiska politiken. Alla är ense om
@@ -8700,8 +8682,6 @@
             näringslivets folk — de flesta inlägg var tämligen entydiga: det
             behövdes en snabb och omfattande stimulans.
           </seg>
-        </u>
-        <u xml:id="i-HjknPP1QwAhqechPcySVn3" who="i-3ChvFB2zr9iHy1ZRMn1Ban" prev="i-53d9db666d7ed364-0" next="i-53d9db666d7ed364-1">
           <seg xml:id="i-97gPy64GHGivB2M6wVK2nn">
             Oppositionspartierna var beredda att handla. Under motionstiden
             kom konkreta förslag: en gemensam motion från folkpartiet och
@@ -8709,8 +8689,6 @@
             att också redovisa sina förslag — förslag som allmänt betraktades
             som otillräckliga.
           </seg>
-        </u>
-        <u xml:id="i-53d9db666d7ed364-1" who="i-3ChvFB2zr9iHy1ZRMn1Ban" prev="i-HjknPP1QwAhqechPcySVn3" next="i-53d9db666d7ed364-2">
           <seg xml:id="i-Kmgnit3PwTd61JUvAWBmsz">
             I detta skede av debatten vill jag bara göra ett par tillägg
             och börjar då med tidpunkten för och omfattningen av stimulanserna.
@@ -8729,7 +8707,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-1974--38/prot_1974__38-101.jp2/_view"/>
-        <u xml:id="i-53d9db666d7ed364-2" who="i-3ChvFB2zr9iHy1ZRMn1Ban" prev="i-53d9db666d7ed364-1" next="i-53d9db666d7ed364-3">
+        <u xml:id="i-53d9db666d7ed364-2" who="i-3ChvFB2zr9iHy1ZRMn1Ban" prev="i-53d9db666d7ed364-0" next="i-53d9db666d7ed364-3">
           <seg xml:id="i-U2ohsfv4T1miibRn1ABQuV">
             tillfredsställande att det nu har uppnåtts bred enighet om en
             stimulans av i runt tal 4 miljarder, och det är min tro att dagens
@@ -9821,7 +9799,7 @@
         <note xml:id="i-3EuTqXJZfJAeRGUqSWW5jR">
           114
         </note>
-        <u xml:id="i-044a13cb67f43ef7-1" who="i-LQTx4BWNjAEb1St9L8qUio" prev="i-044a13cb67f43ef7-0" next="i-LwGc8vnm5giV432MNaKXio">
+        <u xml:id="i-044a13cb67f43ef7-1" who="i-LQTx4BWNjAEb1St9L8qUio" prev="i-044a13cb67f43ef7-0">
           <seg xml:id="i-7ndfriWkZN3NPDkQgk5ZZq">
             fortsätta i den takt som den nu har, borde man också kunna bli
             överens om åtgärder för att försöka hejda densamma. Jag vill minnas
@@ -9868,8 +9846,6 @@
             — är det enligt min bestämda uppfattning nödvändigt att det vidtas
             kraftåtgärder mot inflationen.
           </seg>
-        </u>
-        <u xml:id="i-LwGc8vnm5giV432MNaKXio" who="i-LQTx4BWNjAEb1St9L8qUio" prev="i-044a13cb67f43ef7-1">
           <seg xml:id="i-Jam9epCb4FZiB5vzJinrRk">
             Fru talman! Jag ber att få yrka bifall till finansutskottets
             hemställan i betänkandet nr 1.
@@ -10251,7 +10227,7 @@
         <note xml:id="i-WKnkUsebEVEHsrab3bivoy" type="speaker">
           Herr ANDERSSON i Örebro (fp), som yttrade:
         </note>
-        <u xml:id="i-b54b1f5fe0dbe2d0-7" who="i-4RXtdePQij5UMYC7P4zsCe" next="i-QiVtabMXL8RCDMupcoHieF">
+        <u xml:id="i-b54b1f5fe0dbe2d0-7" who="i-4RXtdePQij5UMYC7P4zsCe">
           <seg xml:id="i-8iGuK3xXo7D28x95gt5m1P">
             Fru talman! För att bl. a. möta de enskilda uppfinnarnas och
             de små innovationsföretagens svårigheter att finansiera sig på
@@ -10286,14 +10262,10 @@
             och mindre företag i detta avseende står knappast att få, även
             om vissa förberedande studier pågår.
           </seg>
-        </u>
-        <u xml:id="i-QiVtabMXL8RCDMupcoHieF" who="i-4RXtdePQij5UMYC7P4zsCe" prev="i-b54b1f5fe0dbe2d0-7" next="i-b54b1f5fe0dbe2d0-8">
           <seg xml:id="i-YcH2QkxjBUhgVHnXKuP86J">
             Med hänvisning till det anförda anhålles om kammarens tillstånd
             att till herr handelsministern få ställa följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-b54b1f5fe0dbe2d0-8" who="i-4RXtdePQij5UMYC7P4zsCe" prev="i-QiVtabMXL8RCDMupcoHieF">
           <seg xml:id="i-LuYm79RhxGNVqNxhDFxdTw">
             Är herr handelsministern beredd att vidta åtgärder för att underlätta
             för enskilda innovatörer och mindre företag vid licensförsäljning
@@ -10337,7 +10309,7 @@
         <note xml:id="i-MMKbpaE1AAStnM2wj86yss" type="speaker">
           Herr GUSTAVSSON i Alvesta (c), som yttrade:
         </note>
-        <u xml:id="i-b54b1f5fe0dbe2d0-9" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" next="i-3g4BMvtEqa9jZXLAmUTW6k">
+        <u xml:id="i-b54b1f5fe0dbe2d0-9" who="i-Y2s3vw3xfBnmDmMhCYX6QJ">
           <seg xml:id="i-44vZAzMYqfFKH7aJB4Tkk7">
             Fru talman! En viktig målsättning för socialpolitiken är att
             skapa en ekonomisk grundtrygghet för alla i livets skeden. Den
@@ -10361,8 +10333,6 @@
             Med hänvisning till det anförda hemställer jag om kammarens tillstånd
             att till herr socialministern få ställa följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-3g4BMvtEqa9jZXLAmUTW6k" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-b54b1f5fe0dbe2d0-9">
           <seg xml:id="i-9gqjV1xtwhhiwpQsCPpktp">
             Är statsrådet beredd att vidta åtgärder för att ge dem som begärt
             undantagande från försäkringen för tilläggspensionering motsvarande

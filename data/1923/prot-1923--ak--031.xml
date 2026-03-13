@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-AA7CCXdvQ8RwPDpi8sqRRk" type="speech">
             <linkGrp type="u">
               <ptr target="#i-23fa0c6185bbbf08-0"/>
@@ -544,7 +544,13 @@
               <ptr target="#i-E1dLaxoEiEGXEa8z7hSPK6"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -965,13 +971,11 @@
         <note xml:id="i-RqNWYg6SrJb6RZUSmoKWUz">
           arbetstidens begränsning. (Forts.)
         </note>
-        <u xml:id="i-a250bd8ad159c16f-1" who="i-VtEQ8SVLoatCxVAtXfHKdk" prev="i-BoqTHqBDa1EA4CQg4oTvx8" next="i-6DcPQcuLgpefycBuRGW97i">
+        <u xml:id="i-a250bd8ad159c16f-1" who="i-VtEQ8SVLoatCxVAtXfHKdk" prev="i-BoqTHqBDa1EA4CQg4oTvx8" next="i-XUKzAkC9D1Eaf7wVRab4ou">
           <seg xml:id="i-4bCTyVcdFywdSQLPkQUnjv">
             arbete för arbetsgivarens räkning i regel användas flera än fyra
             arbetare.
           </seg>
-        </u>
-        <u xml:id="i-6DcPQcuLgpefycBuRGW97i" who="i-VtEQ8SVLoatCxVAtXfHKdk" prev="i-a250bd8ad159c16f-1" next="i-XUKzAkC9D1Eaf7wVRab4ou">
           <seg xml:id="i-Nd6vA4yMYkuBD6XEhWArSD">
             Från lagens tillämpning undantagas dock
           </seg>
@@ -984,7 +988,7 @@
         <note xml:id="i-H2sWk9vAwoh7vL6sNaMTsF">
           b) arbete, som utföres av medlem av arbetsgivarens familj,
         </note>
-        <u xml:id="i-XUKzAkC9D1Eaf7wVRab4ou" who="i-VtEQ8SVLoatCxVAtXfHKdk" prev="i-6DcPQcuLgpefycBuRGW97i" next="i-4aE3zJ3xsU41xfZ5w7Hr5n">
+        <u xml:id="i-XUKzAkC9D1Eaf7wVRab4ou" who="i-VtEQ8SVLoatCxVAtXfHKdk" prev="i-a250bd8ad159c16f-1" next="i-4aE3zJ3xsU41xfZ5w7Hr5n">
           <seg xml:id="i-5H68XwXpbzHDNycavfUNY7">
             ec) arbete, som till sin natur är så oregelbundet, att det icke
             kan förläggas till bestämda tider,
@@ -1539,15 +1543,13 @@
         <note xml:id="i-HRzfHKdx9EY3nCNmrZ4aoD" type="date">
           Torsdagen den 3 maj, f. m. 13 Nr 31.
         </note>
-        <u xml:id="i-FLA3HBZ5vbXMZsFftG9W9W" who="i-EqkBXQnPvEvTMEsU4BvDGk" prev="i-2412394fa4cfa095-4" next="i-2412394fa4cfa095-5">
+        <u xml:id="i-FLA3HBZ5vbXMZsFftG9W9W" who="i-EqkBXQnPvEvTMEsU4BvDGk" prev="i-2412394fa4cfa095-4" next="i-2412394fa4cfa095-6">
           <seg xml:id="i-AFL2zU8QwFo4gWNtJ4s694">
             under 2 $, borde återföras till 1 $, där det tidigare hörde hemma.
             Ang. lag om Vi hemställa sålunda, att 1 $ bör bibehållas på det
             sättet, som den purbelslidena återfinnes i Kungl. Maj:ts proposition.
             tad
           </seg>
-        </u>
-        <u xml:id="i-2412394fa4cfa095-5" who="i-EqkBXQnPvEvTMEsU4BvDGk" prev="i-FLA3HBZ5vbXMZsFftG9W9W" next="i-2412394fa4cfa095-6">
           <seg xml:id="i-LTWxSfHyv47vmbCyPSQ2Uv">
             Vad övriga yrkanden om ändringar i lagen vidkommer har vis- (Forts.
             serligen icke utskottet föreslagit någon ändring i 5 $, men denna
@@ -1613,7 +1615,7 @@
         <note xml:id="i-FbeBU2hQQZtdxP2NdmDRjZ" type="date">
           14 Torsdagen den 3 maj, f. m.
         </note>
-        <u xml:id="i-2412394fa4cfa095-6" who="i-EqkBXQnPvEvTMEsU4BvDGk" prev="i-2412394fa4cfa095-5" next="i-RwPAvfrrpf3dLQPd5pNBNS">
+        <u xml:id="i-2412394fa4cfa095-6" who="i-EqkBXQnPvEvTMEsU4BvDGk" prev="i-FLA3HBZ5vbXMZsFftG9W9W">
           <seg xml:id="i-JCGZpb2u7yRtn8y4Lw4ejs">
             räcklig. Icke ett enda fall har sålunda kommit till arbetsrådets
             kännedom, och dit kommer man ju Gud bevars med mer än ett klagomål,
@@ -1662,8 +1664,6 @@
             oss övertygade om att detta är mer än tillräckligt för det behov,
             som vid ett eller annat tillfälle kan anses föreligga.
           </seg>
-        </u>
-        <u xml:id="i-RwPAvfrrpf3dLQPd5pNBNS" who="i-EqkBXQnPvEvTMEsU4BvDGk" prev="i-2412394fa4cfa095-6">
           <seg xml:id="i-D5MXzfdRz4h4CLCSVTokHS">
             Jag ber sålunda, herr talman, att vid 1 $ få yrka bifall till
             den av oss avgivna reservationen, som är i överensstämmelse med
@@ -1684,7 +1684,7 @@
         <note xml:id="i-Txzpdm1FdzSwiW3LrYfVEC" type="date">
           Torsdagen den 3 maj, f. m. 15 Nr 81.
         </note>
-        <u xml:id="i-5fe59f85234f2782-1" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-5fe59f85234f2782-0" next="i-WRpisEUNyc8uN4WrKwwoje">
+        <u xml:id="i-5fe59f85234f2782-1" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-5fe59f85234f2782-0" next="i-Lf2vt9v3mkbTSBCEh6Azyd">
           <seg xml:id="i-34PjEHDs1JQpitZHCo19Sp">
             skall jag icke följa honom in på det sistnämnda området. Jag
             har Ang. lag om i en motion yrkat, att lagen skall avslås, och
@@ -1703,41 +1703,27 @@
             vad man skulle tänkt sig skola bli fallet, när denna lag först
             disku-
           </seg>
-        </u>
-        <u xml:id="i-WRpisEUNyc8uN4WrKwwoje" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-5fe59f85234f2782-1" next="i-5fe59f85234f2782-2">
           <seg xml:id="i-74p4eyZ7D7mhFECZ2dd9dR">
             terades i riksdagen, nämligen år 1919 för 4 år sedan. Vad gjorde
           </seg>
-        </u>
-        <u xml:id="i-5fe59f85234f2782-2" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-WRpisEUNyc8uN4WrKwwoje" next="i-LzUAs4QUaFoxFQSBrwPdLw">
           <seg xml:id="i-NM1BbRdisLwZ1zezp6WUrG">
             vi då, herr talman? Vi införde denna lag, eller rättare sagt,
             den
           </seg>
-        </u>
-        <u xml:id="i-LzUAs4QUaFoxFQSBrwPdLw" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-5fe59f85234f2782-2" next="i-QgK1e31q4GBWpvZQJoZrvv">
           <seg xml:id="i-Ejb6vskzXN26qLJ6eoxW3v">
             blev antagen först på hösten vid urtiman. Vid lagtima riksdagen
           </seg>
-        </u>
-        <u xml:id="i-QgK1e31q4GBWpvZQJoZrvv" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-LzUAs4QUaFoxFQSBrwPdLw" next="i-5fe59f85234f2782-3">
           <seg xml:id="i-8dUGhyQvmRPnoxoFPBt15p">
             1919 föreslog man att införa denna lag i en hastig vändning,
             om man
           </seg>
-        </u>
-        <u xml:id="i-5fe59f85234f2782-3" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-QgK1e31q4GBWpvZQJoZrvv" next="i-HZQm9AXknoTkK4UBC55FHx">
           <seg xml:id="i-DBjmhJGjhHV6sNAGodTi7b">
             så får säga, mot de båda sakkunniga myndigheternas, socialstyrelsens
           </seg>
-        </u>
-        <u xml:id="i-HZQm9AXknoTkK4UBC55FHx" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-5fe59f85234f2782-3" next="i-NVcaaKVMhBXBe7xxZ9vmYR">
           <seg xml:id="i-64VpUXXKNomyKDFvyAfKrJ">
             och kommerskollegii avstyrkande av att omedelbart antaga den.
             Det
           </seg>
-        </u>
-        <u xml:id="i-NVcaaKVMhBXBe7xxZ9vmYR" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-HZQm9AXknoTkK4UBC55FHx" next="i-Lf2vt9v3mkbTSBCEh6Azyd">
           <seg xml:id="i-U8mvMwqKLQBP3x8ueDyJYA">
             skedde likväl och dåvarande civilministern uttalade, att det
             vore
@@ -1790,7 +1776,7 @@
         <note xml:id="i-NgeHqwMaf2oWocVj64MxVW">
           mot antalet arbetare och arbetstiden.
         </note>
-        <u xml:id="i-Lf2vt9v3mkbTSBCEh6Azyd" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-NVcaaKVMhBXBe7xxZ9vmYR" next="i-5fe59f85234f2782-4">
+        <u xml:id="i-Lf2vt9v3mkbTSBCEh6Azyd" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-5fe59f85234f2782-1" next="i-5fe59f85234f2782-4">
           <seg xml:id="i-7qJ8fPfUck5hxZTgahbCb7">
             Vad säga nu de sakkunniga myndigheter, som ha yttrat sig i denna
             del, återigen socialstyrelsen och kommerskollegium? De uttala
@@ -2303,7 +2289,7 @@
         <note xml:id="i-3idh5p6wAdR2FRnTtErrQv">
           arbetstidens begränsning. (Forts.)
         </note>
-        <u xml:id="i-adadcf32d121b2ab-1" who="i-4TfNT1YfjY3jHEsqEnC41Y" prev="i-adadcf32d121b2ab-0" next="i-T1F5pDgGTThbpULhsmesue">
+        <u xml:id="i-adadcf32d121b2ab-1" who="i-4TfNT1YfjY3jHEsqEnC41Y" prev="i-adadcf32d121b2ab-0">
           <seg xml:id="i-B2pKvxZnYQuUneaMRtDcGZ">
             åtskilliga timmar av den tid, som enligt lagen skall vara fritid,
             till arbete antingen hos en annan arbetsgivare eller uti mer eller
@@ -2344,8 +2330,6 @@
             emellertid endast behövas antingen nya bestämmelser härom i arbetsskyddslagstiftningen
             eller ock en särskild undantagslag.
           </seg>
-        </u>
-        <u xml:id="i-T1F5pDgGTThbpULhsmesue" who="i-4TfNT1YfjY3jHEsqEnC41Y" prev="i-adadcf32d121b2ab-1">
           <seg xml:id="i-DRn7yARLht9SG1Pej42744">
             Då den av herrar Tjällgren och Persson i Trången till utskottets
             utlåtande fogade reservationen i sitt yrkande överensstämmer med
@@ -2820,7 +2804,7 @@
         <note xml:id="i-FUh8wcy58f7VeeTtrbwxQG" type="date">
           Torsdagen den 3 maj, f. m. 29 Nr 31.
         </note>
-        <u xml:id="i-QrBa9CuCrA6vY8MKNGUvyx" who="i-4BcPNWjCvomd6SsbUNhuk6" prev="i-adadcf32d121b2ab-3" next="i-adadcf32d121b2ab-4">
+        <u xml:id="i-QrBa9CuCrA6vY8MKNGUvyx" who="i-4BcPNWjCvomd6SsbUNhuk6" prev="i-adadcf32d121b2ab-3" next="i-adadcf32d121b2ab-5">
           <seg xml:id="i-5uoNE1r71dWh7w5yKjgN8v">
             Gompers vänder sig vidare mot påståendet att åttatimmarsda- 4ng.
             lag om gen först under 1922 godkänts av förbundsregeringen. Redan
@@ -2832,8 +2816,6 @@
             och arbetare anställda i transporttjänst — åtnjuta även åtta timmars
             arbetsdag.
           </seg>
-        </u>
-        <u xml:id="i-adadcf32d121b2ab-4" who="i-4BcPNWjCvomd6SsbUNhuk6" prev="i-QrBa9CuCrA6vY8MKNGUvyx" next="i-adadcf32d121b2ab-5">
           <seg xml:id="i-WnLBtrGZvngvERfvEiSre8">
             Kan man under sådana förhållanden, som herr Lindman vill göra
             gällande, säga, att »Amerika skola vi inte tala om»? Det är uppenbart,
@@ -2890,28 +2872,22 @@
         <note xml:id="i-UYtygFRz7ELVtxRTf41Xne" type="date">
           30 Torsdagen den 3 maj, f. m.
         </note>
-        <u xml:id="i-adadcf32d121b2ab-5" who="i-4BcPNWjCvomd6SsbUNhuk6" prev="i-adadcf32d121b2ab-4" next="i-EDRDJEwR3aPtP4hwEzeuhr">
+        <u xml:id="i-adadcf32d121b2ab-5" who="i-4BcPNWjCvomd6SsbUNhuk6" prev="i-QrBa9CuCrA6vY8MKNGUvyx" next="i-adadcf32d121b2ab-7">
           <seg xml:id="i-GXhp9JPztwyG4bUPcGRdo4">
             Det var alltså en regeringsrepresentant, två arbetsgivarrepresentanter
             och två arbetarrepresentanter.
           </seg>
-        </u>
-        <u xml:id="i-EDRDJEwR3aPtP4hwEzeuhr" who="i-4BcPNWjCvomd6SsbUNhuk6" prev="i-adadcf32d121b2ab-5" next="i-RyPG1Lpp8sHPfgRg3H6vt4">
           <seg xml:id="i-Gefdbno5PbDeMVd3kTBqJb">
             Denna kommission besökte 127 arbetsplatser och 23 olika städer.
             När kommissionen slutfört sin undersökning avlämnade den sin rapport,
             varav framgår följande:
           </seg>
-        </u>
-        <u xml:id="i-RyPG1Lpp8sHPfgRg3H6vt4" who="i-4BcPNWjCvomd6SsbUNhuk6" prev="i-EDRDJEwR3aPtP4hwEzeuhr" next="i-adadcf32d121b2ab-6">
           <seg xml:id="i-Da9ciVYBLJ6phYFGG9bTNR">
             » Särskild uppmärksamhet ägnades metall-, trä-, textil-, tryckerioch
             bokbinderiindustrierna; upplysningar inhämtades även angående
             arbetstiden inom muroch taktegelbruken, glasbruken, kemisktekniska
             industrien, beklädnadsindustrien, sockerraffinaderierna och bagerierna.
           </seg>
-        </u>
-        <u xml:id="i-adadcf32d121b2ab-6" who="i-4BcPNWjCvomd6SsbUNhuk6" prev="i-RyPG1Lpp8sHPfgRg3H6vt4" next="i-adadcf32d121b2ab-7">
           <seg xml:id="i-XHvHb2pQvGjcQuPQrK1ZFP">
             Kommissionen anser att de upplysningar den inhämtat äro absolut
             tillförlitliga och tillräckliga för att därav bilda en allmän
@@ -2964,7 +2940,7 @@
         <note xml:id="i-7KdVS47mCxgsUMJR7Ea3vB" type="date">
           Torsdagen den 3 maj, f. m. 31
         </note>
-        <u xml:id="i-adadcf32d121b2ab-7" who="i-4BcPNWjCvomd6SsbUNhuk6" prev="i-adadcf32d121b2ab-6" next="i-adadcf32d121b2ab-9">
+        <u xml:id="i-adadcf32d121b2ab-7" who="i-4BcPNWjCvomd6SsbUNhuk6" prev="i-adadcf32d121b2ab-5" next="i-adadcf32d121b2ab-9">
           <seg xml:id="i-H1g4YsVrTiJCKdiibVUxUL">
             Nu säger herr Lindman, att det utan vidare måste vara klart,
             att man icke kan förkorta arbetstiden utan att man samtidigt fördyrar
@@ -3099,7 +3075,7 @@
         <note xml:id="i-KLZWcwoYjAMCFA39ZjCmob" type="date">
           Torsdagen den 3 maj, f. m. 33 Nr 31
         </note>
-        <u xml:id="i-46gvau4YpuXbCfkRKuaPFL" who="i-4BcPNWjCvomd6SsbUNhuk6" prev="i-adadcf32d121b2ab-9" next="i-RWbdsucyrtsSLnKQzFpWVk">
+        <u xml:id="i-46gvau4YpuXbCfkRKuaPFL" who="i-4BcPNWjCvomd6SsbUNhuk6" prev="i-adadcf32d121b2ab-9" next="i-adadcf32d121b2ab-12">
           <seg xml:id="i-8wA8GpH8oB8fw1HGn4omVG">
             gen av denna fråga, kan jag icke underlåta att erinra om. Utskottet
             4ng. lag om säger därom på sidan 11 bland annat: purbeatidens
@@ -3108,19 +3084,13 @@
             vid 1919 ” års lagtima riksdag, för att upprepas av motsvarande
             utskott vid
           </seg>
-        </u>
-        <u xml:id="i-RWbdsucyrtsSLnKQzFpWVk" who="i-4BcPNWjCvomd6SsbUNhuk6" prev="i-46gvau4YpuXbCfkRKuaPFL" next="i-CKU2dci2dni2214DTxnwca">
           <seg xml:id="i-TiCMMbQU6JWBkQcxQcoviV">
             samma års urtima riksdag och vilket uttalande alltjämt torde
             få anses
           </seg>
-        </u>
-        <u xml:id="i-CKU2dci2dni2214DTxnwca" who="i-4BcPNWjCvomd6SsbUNhuk6" prev="i-RWbdsucyrtsSLnKQzFpWVk" next="i-adadcf32d121b2ab-10">
           <seg xml:id="i-XbYTMyKtmWjQJ2n8a1gW2y">
             äga giltighet. Förstnämnda utskott yttrade som en sammanfattning
           </seg>
-        </u>
-        <u xml:id="i-adadcf32d121b2ab-10" who="i-4BcPNWjCvomd6SsbUNhuk6" prev="i-CKU2dci2dni2214DTxnwca" next="i-adadcf32d121b2ab-12">
           <seg xml:id="i-XmUL49SACwGGrQPEryiHpR">
             av vad det i frågan anfört, att kravet på lagstadgad begränsning
             av arbetstiden med hänsyn ej blott till arbetarnas hälsa, livskraft,
@@ -3197,7 +3167,7 @@
         <note xml:id="i-MeRLoXsiaf3ZtZwfTDnu3B">
           arbetstidens begränsning. (Forts.)
         </note>
-        <u xml:id="i-adadcf32d121b2ab-12" who="i-4BcPNWjCvomd6SsbUNhuk6" prev="i-adadcf32d121b2ab-10" next="i-adadcf32d121b2ab-13">
+        <u xml:id="i-adadcf32d121b2ab-12" who="i-4BcPNWjCvomd6SsbUNhuk6" prev="i-46gvau4YpuXbCfkRKuaPFL" next="i-adadcf32d121b2ab-13">
           <seg xml:id="i-EhVXWpm3NVnPk581nik5Wu">
             litet erfarenhet på området. Jag vill som exempel anföra, att
             då vi under våren innevarande år skulle upprätta kollektivavtal
@@ -3546,13 +3516,11 @@
         <note xml:id="i-EYMUup75e6socJzycLS5ng" type="date">
           Torsdagen den 3 maj, f. m. 39 Nr 31.
         </note>
-        <u xml:id="i-YDcVDRnWSsyiZQZjGkn9Bi" who="i-VtEQ8SVLoatCxVAtXfHKdk" prev="i-a250bd8ad159c16f-21" next="i-4EwxaSVTgiJWf4PUkhxJpV">
+        <u xml:id="i-YDcVDRnWSsyiZQZjGkn9Bi" who="i-VtEQ8SVLoatCxVAtXfHKdk" prev="i-a250bd8ad159c16f-21">
           <seg xml:id="i-WmaeiyP15tkVXkJTGDwxH1">
             ning till vad jag här haft äran anföra, skall jag, herr talman,
             be att 4ng. lag om
           </seg>
-        </u>
-        <u xml:id="i-4EwxaSVTgiJWf4PUkhxJpV" who="i-VtEQ8SVLoatCxVAtXfHKdk" prev="i-YDcVDRnWSsyiZQZjGkn9Bi">
           <seg xml:id="i-P5HH3aCQF497jaRVynWtcg">
             2 3 5 2 ; arbetstidens öga bifall till 1 $, sådan denna paragraf
             lyder enligt utskottets begränsning. Forts.
@@ -3625,12 +3593,10 @@
         <note xml:id="i-U68zX5ZUxgnQFbMx45axNf">
           arbetstidens begränsning. (Forts.)
         </note>
-        <u xml:id="i-FEPZW3MKCAPdVgexTd2mq9" who="i-UzfbqPhmjzqv5DLhWoLrTL" prev="i-2f5ee668285832d0-0" next="i-2f5ee668285832d0-1">
+        <u xml:id="i-FEPZW3MKCAPdVgexTd2mq9" who="i-UzfbqPhmjzqv5DLhWoLrTL" prev="i-2f5ee668285832d0-0" next="i-2f5ee668285832d0-3">
           <seg xml:id="i-Y3ECKY3vDf9bWVRXujG45T">
             icke drätselkammarens.
           </seg>
-        </u>
-        <u xml:id="i-2f5ee668285832d0-1" who="i-UzfbqPhmjzqv5DLhWoLrTL" prev="i-FEPZW3MKCAPdVgexTd2mq9" next="i-AUjrz4YuUEkmFiWnr79mp">
           <seg xml:id="i-UvvQh7WdQ2Ytj815amgf9z">
             Vidare kan jag såsom exempel anföra det utlåtande, som föreligger
             från Göteborgs spårvägsstyrelse, och där det tillgått på samma
@@ -3657,8 +3623,6 @@
             följa med uppmärksamhet, måtte läggas på ett sådant sätt, att
             bedömandet hädanefter kan ske mera objektivt.
           </seg>
-        </u>
-        <u xml:id="i-AUjrz4YuUEkmFiWnr79mp" who="i-UzfbqPhmjzqv5DLhWoLrTL" prev="i-2f5ee668285832d0-1" next="i-2f5ee668285832d0-2">
           <seg xml:id="i-XD38TEZDDUQbsZ5dgz9sUn">
             Jag har, herr talman, jämte tre andra av denna kammares ledamöter
             väckt en motion, vari det yrkas, att 8 1 i lagen skulle erhålla
@@ -3684,8 +3648,6 @@
             en ändring kom till stånd — hur den skulle verka och vilka grunder
             den kunde stödja sig på, syntes vid det tillfället betyda mindre.
           </seg>
-        </u>
-        <u xml:id="i-2f5ee668285832d0-2" who="i-UzfbqPhmjzqv5DLhWoLrTL" prev="i-AUjrz4YuUEkmFiWnr79mp" next="i-2f5ee668285832d0-3">
           <seg xml:id="i-LMFQS6MYKFLY1EQaWZorny">
             Jag har nu för min del, till stöd för den motion jag m. fl. väckt,
             företagit en undersökning, berörande fem av våra största städer
@@ -3697,7 +3659,7 @@
         <note xml:id="i-59QuD2QSJpfMw5EeZmmf4y" type="date">
           Torsdagen den 3 maj, f. m. 41
         </note>
-        <u xml:id="i-2f5ee668285832d0-3" who="i-UzfbqPhmjzqv5DLhWoLrTL" prev="i-2f5ee668285832d0-2">
+        <u xml:id="i-2f5ee668285832d0-3" who="i-UzfbqPhmjzqv5DLhWoLrTL" prev="i-FEPZW3MKCAPdVgexTd2mq9">
           <seg xml:id="i-BpzKMZcf1sZpfqB4VqgoDo">
             skall bara inskränka mig till att anföra exemplet från Stockholms
             stad. Inom de sex yrkesgrupper, undersökningen omfattar, nämligen
@@ -4699,7 +4661,7 @@
         <note xml:id="i-CiqhkTrRYF9UXTQqPKD3Nq" type="date">
           Torsdagen den 3 maj, f. m. 55
         </note>
-        <u xml:id="i-130be41ed8f4eaa6-11" who="i-EMnZ9doEs8MQVGY2nAGkkE" prev="i-130be41ed8f4eaa6-10" next="i-8Tswfqafn34RG7iBFS3BN7">
+        <u xml:id="i-130be41ed8f4eaa6-11" who="i-EMnZ9doEs8MQVGY2nAGkkE" prev="i-130be41ed8f4eaa6-10">
           <seg xml:id="i-FCRCXTxd5iGjRKSt9Gs2hf">
             komma in i något tillstånd, där den stora rörelsefriheten och
             det vida svängrummet skulle råda. Det ligger inte så, om vi se
@@ -4753,8 +4715,6 @@
             som i grunden inom skilda läger i båda kamrarna uppfattas såsom
             den riktigaste, den förnuftigaste och den för landet lyckligaste.
           </seg>
-        </u>
-        <u xml:id="i-8Tswfqafn34RG7iBFS3BN7" who="i-EMnZ9doEs8MQVGY2nAGkkE" prev="i-130be41ed8f4eaa6-11">
           <seg xml:id="i-XGgEYSQAN9w3SZJNxdx2H9">
             Jag yrkar bifall till utskottets förslag.
           </seg>
@@ -5271,13 +5231,11 @@
         <note xml:id="i-UCbEzEEUThegwNjhDepYCw">
           Nr 31.
         </note>
-        <u xml:id="i-REgTnFrrz6KG6ivnfUsUoA" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-5fe59f85234f2782-11" next="i-5fe59f85234f2782-12">
+        <u xml:id="i-REgTnFrrz6KG6ivnfUsUoA" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-5fe59f85234f2782-11" next="i-5fe59f85234f2782-13">
           <seg xml:id="i-MuPos4aJA4fhujALBNGx3N">
             dagen. Jag hörde vad hans excellens herr statsministern talade,
             och Ang. lag om
           </seg>
-        </u>
-        <u xml:id="i-5fe59f85234f2782-12" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-REgTnFrrz6KG6ivnfUsUoA" next="i-5fe59f85234f2782-13">
           <seg xml:id="i-LyDv8H6bFuZAvfF5sdzikb">
             det behöver jag icke upprepa, rörande 48 artikeln i Versailles-freden.
           </seg>
@@ -5356,7 +5314,7 @@
         <note xml:id="i-WiJzoDuupj36Sg6E2y8fXu">
           arbetstidens begränsning. (Forts.)
         </note>
-        <u xml:id="i-5fe59f85234f2782-13" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-5fe59f85234f2782-12">
+        <u xml:id="i-5fe59f85234f2782-13" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-REgTnFrrz6KG6ivnfUsUoA">
           <seg xml:id="i-MPEkPx8G3WB6mvPHJ9dQdE">
             rytare. Han bar det mera moderna namnet Engberg. Han ryter emellanåt
             i kammaren och emellanåt i sin tidning; och allt detta är naturligtvis
@@ -5562,13 +5520,11 @@
         <note xml:id="i-2g1ZAoA1H9jwR7dfmgBH9d">
           Nr 31.
         </note>
-        <u xml:id="i-6kRj5W2sXBseMqjPeyqDYM" who="i-EMnZ9doEs8MQVGY2nAGkkE" prev="i-9d151a22e115647c-3" next="i-9d151a22e115647c-4">
+        <u xml:id="i-6kRj5W2sXBseMqjPeyqDYM" who="i-EMnZ9doEs8MQVGY2nAGkkE" prev="i-9d151a22e115647c-3" next="i-9d151a22e115647c-5">
           <seg xml:id="i-QSCrw4z3epQp5VtBZFQdQS">
             regeringen skulle ställas — en uppläggning av frågan, som väl
             Ang. lag om
           </seg>
-        </u>
-        <u xml:id="i-9d151a22e115647c-4" who="i-EMnZ9doEs8MQVGY2nAGkkE" prev="i-6kRj5W2sXBseMqjPeyqDYM" next="i-9d151a22e115647c-5">
           <seg xml:id="i-JK1HHvV96VCehqzoopccdq">
             får erkännas vara formell i ovanlig grad. Det är icke jag utan
             herr statsministern, som åberopat och upprepat, att för den händelse
@@ -5639,7 +5595,7 @@
         <note xml:id="i-GDXAWWEBF6nfqLRkXNob9A">
           arbetstidens begränsning. (Forts.)
         </note>
-        <u xml:id="i-9d151a22e115647c-5" who="i-EMnZ9doEs8MQVGY2nAGkkE" prev="i-9d151a22e115647c-4">
+        <u xml:id="i-9d151a22e115647c-5" who="i-EMnZ9doEs8MQVGY2nAGkkE" prev="i-6kRj5W2sXBseMqjPeyqDYM">
           <seg xml:id="i-RkbMYES75HpS87sav9cgQe">
             Olympens gudar icke blott nedstego till människorna för att skrämma
             dem, såsom herr Lindman uttryckte sig — det är en mycket ofullständig
@@ -5706,13 +5662,11 @@
           tarna vid järnbruken skola acceptera denna orimliga arbetstidsindel-
           Ang. lag om ning. arbetstidens
         </note>
-        <u xml:id="i-T7erqkV6nftQ7sHV2DyxfL" who="i-UA8QjszavpQnNcqKo12DY2" prev="i-cac8cec405e57e60-0" next="i-QXr6Nwt6YxAzgf3M9XoJnM">
+        <u xml:id="i-T7erqkV6nftQ7sHV2DyxfL" who="i-UA8QjszavpQnNcqKo12DY2" prev="i-cac8cec405e57e60-0" next="i-cac8cec405e57e60-2">
           <seg xml:id="i-YSkbXVcFTbpTZmXg3VM18q">
             Jag skulle i detta sammanhang vilja fråga herrarna, som tala
             jr
           </seg>
-        </u>
-        <u xml:id="i-QXr6Nwt6YxAzgf3M9XoJnM" who="i-UA8QjszavpQnNcqKo12DY2" prev="i-T7erqkV6nftQ7sHV2DyxfL" next="i-cac8cec405e57e60-2">
           <seg xml:id="i-GxMrKh9gAioFHH6MNNRvVM">
             om nödvändigheten av produktionens förbilligande och om kravet
             på att därför få längre arbetstid: tro ni verkligen, att om man
@@ -5779,7 +5733,7 @@
         <note xml:id="i-HV5bpiFsyBBtYCEJPocwwB">
           arbetstidens begränsning. (Forts.)
         </note>
-        <u xml:id="i-cac8cec405e57e60-2" who="i-UA8QjszavpQnNcqKo12DY2" prev="i-QXr6Nwt6YxAzgf3M9XoJnM" next="i-cac8cec405e57e60-3">
+        <u xml:id="i-cac8cec405e57e60-2" who="i-UA8QjszavpQnNcqKo12DY2" prev="i-T7erqkV6nftQ7sHV2DyxfL" next="i-cac8cec405e57e60-3">
           <seg xml:id="i-G22qrVyKjTSyjJ9atwT3XH">
             slagit men som liberalerna i utskottet ändå icke ansett tillräckliga
             utan måst ytterligare utöka. Vad är kvar av 8-timmarsdagen? Vad
@@ -6253,7 +6207,7 @@
           sexton men ej aderton år, må användas till arbete, som avses i
           denna paragraf.
         </note>
-        <u xml:id="i-BidU2FjTAfV9nPn2zW87E8" who="i-9176GQUFtfs5bLdpQnVS9M" prev="i-J7Q31mMiMgxTV2RWDeJFtH" next="i-5cdPg7ucdfHzTjrfiRnrVA">
+        <u xml:id="i-BidU2FjTAfV9nPn2zW87E8" who="i-9176GQUFtfs5bLdpQnVS9M" prev="i-J7Q31mMiMgxTV2RWDeJFtH">
           <seg xml:id="i-S6N41ZU2BqDFv4JzDLJrMG">
             5 mom. TI fråga om arbetares skyldighet att utföra arbete, som
             avses i denna paragraf, gäller vad därom kan anses vara med arbetsgivaren
@@ -6261,8 +6215,6 @@
             arbetaren genom användande till dylikt arbete utsättes för överansträngning
             eller ohälsa.
           </seg>
-        </u>
-        <u xml:id="i-5cdPg7ucdfHzTjrfiRnrVA" who="i-9176GQUFtfs5bLdpQnVS9M" prev="i-BidU2FjTAfV9nPn2zW87E8">
           <seg xml:id="i-4QjmxQbbVFPopBgT7i845x">
             Utskottets förslag till paragrafens avfattning skilde sig från
             Kungl. Maj:ts endast däri, att den i 2 mom. förekommande tidsbestämningen
@@ -7325,7 +7277,7 @@
         <note xml:id="i-3bR6RaMoxWaFSTQBRDdygP" type="date">
           I0 Torsdagen den 3 maj, e. m.
         </note>
-        <u xml:id="i-8a8e0289ab76f5f3-2" who="i-95K5z35tn37uoiYoUqCBaa" prev="i-8a8e0289ab76f5f3-0" next="i-Qck7YKaW47efuY9jc8Pu31">
+        <u xml:id="i-8a8e0289ab76f5f3-2" who="i-95K5z35tn37uoiYoUqCBaa" prev="i-8a8e0289ab76f5f3-0">
           <seg xml:id="i-AjCQcoLrx2nZcBFaa6HE5a">
             ifråga om plantering av fruktträd; det känner jag icke till.
             Det kanske är en liten obetydlighet, men genom det statens organ,
@@ -7374,8 +7326,6 @@
             det ingen nytta i fortsättningen, visar det sig, att det är ändamålslöst,
             nåja, då få vi ge detta på båten sedan.
           </seg>
-        </u>
-        <u xml:id="i-Qck7YKaW47efuY9jc8Pu31" who="i-95K5z35tn37uoiYoUqCBaa" prev="i-8a8e0289ab76f5f3-2">
           <seg xml:id="i-QsJPx1J2vybffdx3Toeve5">
             Jag yrkar bifall till utskottets hemställan.
           </seg>
@@ -7763,7 +7713,7 @@
         <note xml:id="i-2PVX3Pp3hvp4JuXKP8qAj3" type="date">
           96 Torsdagen den 3 maj, e. m.
         </note>
-        <u xml:id="i-06704a7d71fb1810-2" who="i-UoT7tDJiDZGv2bnee2eeYm" prev="i-06704a7d71fb1810-0" next="i-AAwqz1VBu9Pexp3Q8pooGB">
+        <u xml:id="i-06704a7d71fb1810-2" who="i-UoT7tDJiDZGv2bnee2eeYm" prev="i-06704a7d71fb1810-0">
           <seg xml:id="i-QauXb3eKwVbMerKTUWRKHK">
             fruktodlingen är så angelägen sak och av sådan vikt för dessa
             10,000- tals småbrukare och rena arbetare, som icke ha något jordbruk
@@ -7771,8 +7721,6 @@
             om riksdagens andra kammare icke skulle vilja bistå dem en liten
             smula i detta avseende.
           </seg>
-        </u>
-        <u xml:id="i-AAwqz1VBu9Pexp3Q8pooGB" who="i-UoT7tDJiDZGv2bnee2eeYm" prev="i-06704a7d71fb1810-2">
           <seg xml:id="i-WYBXXSkU1WZyPwzHKrnP39">
             Jag ber, herr talman, att få yrka bifall till utskottets förslag.
           </seg>
@@ -7935,7 +7883,7 @@
         <note xml:id="i-Wu2RmsfA86qqaLbdNbfj5A" type="date">
           98 Torsdagen den 3 maj, e. m.
         </note>
-        <u xml:id="i-1302f3f3a935b7a4-11" who="i-YVqWZSiikwY2UYC3gt2RvM" prev="i-1302f3f3a935b7a4-9" next="i-FwX9Xm83y4PMVfVyHBreLC">
+        <u xml:id="i-1302f3f3a935b7a4-11" who="i-YVqWZSiikwY2UYC3gt2RvM" prev="i-1302f3f3a935b7a4-9">
           <seg xml:id="i-3sHZHw21HTaqAt8XnKU33N">
             son. Han har i flera år uraktlåtit att framlägga någon proposition
             i ämnet. Regeringen har prövat saken men kommit till det resultatet,
@@ -7977,8 +7925,6 @@
             beslut därom. Det hela är, som man brukar säga, en gest, men en
             gest av mycket liten betydelse.
           </seg>
-        </u>
-        <u xml:id="i-FwX9Xm83y4PMVfVyHBreLC" who="i-YVqWZSiikwY2UYC3gt2RvM" prev="i-1302f3f3a935b7a4-11">
           <seg xml:id="i-VWoGQGgzQ3j38kSRx9mKdL">
             Jag ber, herr talman, att få yrka avslag å utskottets hemställan.
           </seg>
@@ -8008,7 +7954,7 @@
         <note xml:id="i-JxFSMXox7HMajHSycjv6Wv" type="date">
           Torsdagen den 3 maj, e. m. 99 Nr 31.
         </note>
-        <u xml:id="i-002db25985b3946a-4" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-002db25985b3946a-3" next="i-8up8LkyHxzWxcL2irPMxaB">
+        <u xml:id="i-002db25985b3946a-4" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-002db25985b3946a-3" next="i-G2vZYA3rZVeE9127nCWzNg">
           <seg xml:id="i-XAvwX2qs4Pi6NRSkSmMxGp">
             som varit gällande under de år, som vi haft denna lyxbeskattning,
             &lt; 4ng. a
@@ -8021,20 +7967,14 @@
             trollsystem verkar. för Det är huvudsakligen på dessa skäl, som
             bevillningsutskottets vissa lyxvaror.
           </seg>
-        </u>
-        <u xml:id="i-8up8LkyHxzWxcL2irPMxaB" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-002db25985b3946a-4" next="i-002db25985b3946a-5">
           <seg xml:id="i-HKDZqQ5V8RN5MCdqPwwt6d">
             medlemmar med undantag av herr Lithander yrkat bifall till den
             (Forts.
           </seg>
-        </u>
-        <u xml:id="i-002db25985b3946a-5" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-8up8LkyHxzWxcL2irPMxaB" next="i-MUDH2DeUq9HbeZoWwr2bz5">
           <seg xml:id="i-KASjaYmVic5QBxr8PPbMpJ">
             kungl. propositionen, och på dessa skäl ber jag, herr talman,
             få yrka
           </seg>
-        </u>
-        <u xml:id="i-MUDH2DeUq9HbeZoWwr2bz5" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-002db25985b3946a-5" next="i-G2vZYA3rZVeE9127nCWzNg">
           <seg xml:id="i-BfKkE8drKmXNpfEmi7BZM2">
             bifall till utskottets hemställan.
           </seg>
@@ -8111,13 +8051,11 @@
         <note xml:id="i-B3F24p1YTrtf5KoFvFq8Lb" type="date">
           100 Torsdagen den 3 maj, e. m.
         </note>
-        <u xml:id="i-G2vZYA3rZVeE9127nCWzNg" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-MUDH2DeUq9HbeZoWwr2bz5" next="i-8PtusQZuk4YiZVUjL6Rw9U">
+        <u xml:id="i-G2vZYA3rZVeE9127nCWzNg" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-002db25985b3946a-4" next="i-VLNTHsEs6AEzhz81emcjBi">
           <seg xml:id="i-4XJpWsqeQiVqz9vYFWJ6hZ">
             senast kunnat fullgöras, eller skatteplikt inom den tid inträder
             till annan kommun.
           </seg>
-        </u>
-        <u xml:id="i-8PtusQZuk4YiZVUjL6Rw9U" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-G2vZYA3rZVeE9127nCWzNg" next="i-VLNTHsEs6AEzhz81emcjBi">
           <seg xml:id="i-VAm5N2rciqKw6osYqmdLgW">
             Skatt skall ej erläggas, därest förhållande, som eljest skolat
             föranleda skatteplikt, inträder efter september månads utgång.
@@ -8148,15 +8086,13 @@
         <note xml:id="i-9bTB6Qbr6Q2DDPP2Sa9pMD" type="title">
           5 §.
         </note>
-        <u xml:id="i-VLNTHsEs6AEzhz81emcjBi" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-8PtusQZuk4YiZVUjL6Rw9U" next="i-5EFbSc74GiakDsHvBmUeRG">
+        <u xml:id="i-VLNTHsEs6AEzhz81emcjBi" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-G2vZYA3rZVeE9127nCWzNg" next="i-V8dFtmkNNbUd5QJM57kuEN">
           <seg xml:id="i-5FaufJKwwTSPEMnuWoZwjf">
             Under januari månad varje år skall skattskyldig till vederbörande
             kommunala uppbördsmyndighet skriftligen anmäla de hundar, för
             vilka skatteplikt vid ingången av året förelegat, med angivande
             tillika av hundarnas ras, ålder, kön och färg.
           </seg>
-        </u>
-        <u xml:id="i-5EFbSc74GiakDsHvBmUeRG" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-VLNTHsEs6AEzhz81emcjBi" next="i-V8dFtmkNNbUd5QJM57kuEN">
           <seg xml:id="i-KQeModTjWn2tcYuA8K96fX">
             Inträder skatteplikt under löpande år, skall den skattskyldige
             inom trettio dagar därefter sådant på enahanda sätt anmäla.
@@ -8170,7 +8106,7 @@
           så framt icke annan ordning för skattens erläggande blivit av
           kommunen bestämd.
         </note>
-        <u xml:id="i-V8dFtmkNNbUd5QJM57kuEN" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-5EFbSc74GiakDsHvBmUeRG" next="i-F7Q3GNtsfa9mmm6oZ3hcsQ">
+        <u xml:id="i-V8dFtmkNNbUd5QJM57kuEN" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-VLNTHsEs6AEzhz81emcjBi" next="i-F7Q3GNtsfa9mmm6oZ3hcsQ">
           <seg xml:id="i-N6iSP2v3yx9McNuNA3mzFX">
             Förfaller skatteplikt, på sätt i 2 $ 3 mom. första stycket sägs.
             sn det skatt för hunden erlagts, skall skatten på anfordran åter-
@@ -8227,15 +8163,13 @@
           att fullgöra anmälningsskyldighet dömas, med mindre den skattskyldige
           av kommunen erhållit anmaning att fullgöra sådan skyldighet.
         </note>
-        <u xml:id="i-VreeJvbPmQnKuYJxzQcBZj" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-F7Q3GNtsfa9mmm6oZ3hcsQ" next="i-WQjnyE8ahNZXustSFB6LX9">
+        <u xml:id="i-VreeJvbPmQnKuYJxzQcBZj" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-F7Q3GNtsfa9mmm6oZ3hcsQ" next="i-002db25985b3946a-16">
           <seg xml:id="i-Y5NAyu8bnrd8oank5xrCT5">
             Söker någon genom oriktig uppgift undandraga sig skattskyldighet
             och är ej gärningen straffbar enligt allmän strafflag, vare straffet
             böter från och med tio till och med etthundra kronor, och skall
             dessutom gäldas dubbel hundskatt.
           </seg>
-        </u>
-        <u xml:id="i-WQjnyE8ahNZXustSFB6LX9" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-VreeJvbPmQnKuYJxzQcBZj" next="i-002db25985b3946a-16">
           <seg xml:id="i-3B21aWSfSoQhLQqZDupur5">
             Den, som ej ställer sig till efterrättelse föreskriften i 8 $,
             straffas med böter, högst tjugu kronor.
@@ -8244,7 +8178,7 @@
         <note xml:id="i-P5QdCNna8R2sHSvjfL8TYK">
           Böter, som enligt denna förordning ådömas, tillfalla kronan.
         </note>
-        <u xml:id="i-002db25985b3946a-16" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-WQjnyE8ahNZXustSFB6LX9" next="i-EyBT4FyYj1iVgijGsUbZ7N">
+        <u xml:id="i-002db25985b3946a-16" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-VreeJvbPmQnKuYJxzQcBZj" next="i-EyBT4FyYj1iVgijGsUbZ7N">
           <seg xml:id="i-N5t88tBYPDjM6k9qt5U5cH">
             Saknas tillgång till böternas fulla gäldande, skola de förvandlas
             enligt allmän strafflag.
@@ -8608,13 +8542,11 @@
         <note xml:id="i-KGWALcXd6V1d1uBg1u1vAb" type="date">
           106 Torsdagen den 3 maj, e. m.
         </note>
-        <u xml:id="i-ab8bf0894d539261-3" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-ab8bf0894d539261-2" next="i-LehUWRhhiXAGdATxvqK56y">
+        <u xml:id="i-ab8bf0894d539261-3" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-ab8bf0894d539261-2">
           <seg xml:id="i-NZjYfHyRmZQVysJ6575GNB">
             trots vi fått den gratis och sluppit betala några tusen kronor
             för studieresor till främmande länder.
           </seg>
-        </u>
-        <u xml:id="i-LehUWRhhiXAGdATxvqK56y" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-ab8bf0894d539261-3">
           <seg xml:id="i-C2PcV53NwVkdQN6YyaP974">
             Jag ber, herr talman, att få yrka avslag såväl å herr Osbergs
             förslag som herr Lithanders förslag om återremiss och att få yrka
@@ -8841,7 +8773,7 @@
         <note xml:id="i-NtRk42bK5K9Unsg7iDeBAp" type="date">
           Torsdagen den 3 maj e. m. 109
         </note>
-        <u xml:id="i-ab8bf0894d539261-5" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-ab8bf0894d539261-4" next="i-GUf9NopYUCm8mDTBmihCrC">
+        <u xml:id="i-ab8bf0894d539261-5" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-ab8bf0894d539261-4">
           <seg xml:id="i-T8L5ERPxkWr6eT92fKC5Ci">
             Han säger: Stockholms stad är ju ett större område än de andra
             distrikten skulle bli! Ja, tacka för det, att Stockholm kan vara
@@ -8872,8 +8804,6 @@
             jag till kammaren, om det finns någon anledning att på dessa grunder
             återremittera ärendet.
           </seg>
-        </u>
-        <u xml:id="i-GUf9NopYUCm8mDTBmihCrC" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-ab8bf0894d539261-5">
           <seg xml:id="i-Kr28G39M33mVhLuR3VeUFT">
             Jag yrkar alltså fortfarande bifall till utskottets hemställan.
           </seg>
@@ -9193,7 +9123,7 @@
           Ordet lämnades nu på begäran till Svar å interpellation. Chefen
           för handelsdepartementet, herr statsrådet Wohlin, som anförde:
         </note>
-        <u xml:id="i-23fa0c6185bbbf08-21" who="i-H1dwKmcmsWsYZ96ypzye6t" next="i-BaFUDZNipLd2t7dCsepJWR">
+        <u xml:id="i-23fa0c6185bbbf08-21" who="i-H1dwKmcmsWsYZ96ypzye6t" next="i-Ndz3frpHVxn7NrXsz2J9Je">
           <seg xml:id="i-GMA7H3YvL48xwp9pXyZjaA">
             Herr talman! Ledamoten av denna kammare, herr Lövgren, har med
             kammarens tillstånd till chefen för handelsdepartementet framställt
@@ -9207,8 +9137,6 @@
           <seg xml:id="i-SFCRfbP8yMeYUabr58gxQo">
             I anledning härav ber jag att få anföra följande:
           </seg>
-        </u>
-        <u xml:id="i-BaFUDZNipLd2t7dCsepJWR" who="i-H1dwKmcmsWsYZ96ypzye6t" prev="i-23fa0c6185bbbf08-21" next="i-V2mhhQEUT3ttBg8W83qmeB">
           <seg xml:id="i-3RuUpTDGbfFaGR16QBX9cH">
             Sedan 1914 års senare riksdag antagit lag om ändring i vissa
             delar av sjölagen och i samband därmed bemyndigat Kungl. Maj:t
@@ -9226,8 +9154,6 @@
             1 januari 1916, äro förordningens bostadsbestämmelser således
             gällande. |
           </seg>
-        </u>
-        <u xml:id="i-V2mhhQEUT3ttBg8W83qmeB" who="i-H1dwKmcmsWsYZ96ypzye6t" prev="i-BaFUDZNipLd2t7dCsepJWR" next="i-Ndz3frpHVxn7NrXsz2J9Je">
           <seg xml:id="i-54acB91qHtxQnrtX5nsYzm">
             Emellertid inkommo de så kallade skeppstjänstkommitterade. vilka
             jämlikt Kungl. Maj:ts bemyndigande den 20 november 1917 tillkallats
@@ -9247,7 +9173,7 @@
         <note xml:id="i-McPRECkc967iJvik3dVTri" type="date">
           114 Fredagen den 4 maj.
         </note>
-        <u xml:id="i-Ndz3frpHVxn7NrXsz2J9Je" who="i-H1dwKmcmsWsYZ96ypzye6t" prev="i-V2mhhQEUT3ttBg8W83qmeB" next="i-23fa0c6185bbbf08-22">
+        <u xml:id="i-Ndz3frpHVxn7NrXsz2J9Je" who="i-H1dwKmcmsWsYZ96ypzye6t" prev="i-23fa0c6185bbbf08-21" next="i-23fa0c6185bbbf08-23">
           <seg xml:id="i-CXtTUfEkcRrp9LW3QiNJD9">
             fartygsbesättnings arbetsoch levnadsförhållanden m. m., i juni
             1920 till Kungl. Maj:t med förslag till en särskild förordning
@@ -9270,8 +9196,6 @@
             har ännu icke av kollegium avgivits, men förväntas inom den närmaste
             tiden inkomma till Kungl. Maj:t.
           </seg>
-        </u>
-        <u xml:id="i-23fa0c6185bbbf08-22" who="i-H1dwKmcmsWsYZ96ypzye6t" prev="i-Ndz3frpHVxn7NrXsz2J9Je" next="i-23fa0c6185bbbf08-23">
           <seg xml:id="i-SsGCSdjsFNDUsNttQycoTu">
             Av det nu sagda framgår, att hela det ytterst vidlyftiga komplex
             av författningsbestämmelser, som innefattas i förordningen den
@@ -9309,7 +9233,7 @@
         <note xml:id="i-DcZNsREqEkLTUjADyHVuzb" type="date">
           Fredagen den 4 maj. 115
         </note>
-        <u xml:id="i-23fa0c6185bbbf08-23" who="i-H1dwKmcmsWsYZ96ypzye6t" prev="i-23fa0c6185bbbf08-22">
+        <u xml:id="i-23fa0c6185bbbf08-23" who="i-H1dwKmcmsWsYZ96ypzye6t" prev="i-Ndz3frpHVxn7NrXsz2J9Je">
           <seg xml:id="i-9SrwNhxsqNJjoyDFvqUvLD">
             Då, såsom jag redan nämnt, kommerskollegii revisionsförslag kan
             förväntas inom kort bliva framlagt, är det därför min förhoppning
@@ -9382,14 +9306,12 @@
         <note xml:id="i-Bc7HzqKMKZxR9dNsDXNxqY">
           Herr talman! Ledamoten interpellation.
         </note>
-        <u xml:id="i-6SSaFvo7c9ZiGWzd5pcvgQ" who="unknown" next="i-8VAcuv1qnJtwzmFRXQKnHH">
+        <u xml:id="i-6SSaFvo7c9ZiGWzd5pcvgQ" who="unknown" next="i-9d151a22e115647c-15">
           <seg xml:id="i-GyvohnnaQvEFbe35t9Nhrm">
             av denna kammare, herr Bengtsson i Kullen, har med kammarens
             tillstånd till chefen för handelsdepartementet framställt följande
             frågor:
           </seg>
-        </u>
-        <u xml:id="i-8VAcuv1qnJtwzmFRXQKnHH" who="unknown" prev="i-6SSaFvo7c9ZiGWzd5pcvgQ" next="i-9d151a22e115647c-15">
           <seg xml:id="i-V5mA2StbKTg48Z17LU3Vxx">
             1) Vad är anledningen till att Kungl. Maj:t ännu icke tillmötesgått
             riksdagens i skrivelser av år 1916 och 1920 uttalade önsk-
@@ -9408,7 +9330,7 @@
         <note xml:id="i-K9mEXUFH7VV1Fh1Sksz1dG">
           ningar om framläggandet för riksdagen av förslag till ett statslotteri?
         </note>
-        <u xml:id="i-9d151a22e115647c-15" who="unknown" prev="i-8VAcuv1qnJtwzmFRXQKnHH">
+        <u xml:id="i-9d151a22e115647c-15" who="unknown" prev="i-6SSaFvo7c9ZiGWzd5pcvgQ">
           <seg xml:id="i-9GKpubZBH3unJWjgCmJCid">
             2) När kan det förväntas, att sistnämnda riksdags skrivelse kan
             komma under Kungl. Maj:ts avgörande?
@@ -9630,13 +9552,11 @@
         <note xml:id="i-PmCSzet5vAoRiJpnJp55JV" type="date">
           Fredagen den 4 maj. 119 Nr 31.
         </note>
-        <u xml:id="i-VKP5dUnrVfWGoFagykypzq" who="i-U57LLQoLV5JcGhmPdVR5qx" prev="i-a4a2f46c119bc85b-2" next="i-TC9huLtGG4s97c53zi6xzx">
+        <u xml:id="i-VKP5dUnrVfWGoFagykypzq" who="i-U57LLQoLV5JcGhmPdVR5qx" prev="i-a4a2f46c119bc85b-2">
           <seg xml:id="i-QWuQzRh47RkhASeuZ1KedM">
             varföre beläggningssiffran för det nya hospitalet torde kunna
             sättas Interpellation. till omkring 150.» (Forts.)
           </seg>
-        </u>
-        <u xml:id="i-TC9huLtGG4s97c53zi6xzx" who="i-U57LLQoLV5JcGhmPdVR5qx" prev="i-VKP5dUnrVfWGoFagykypzq" next="i-EGFnh1nBCRprAFHtp4cr4N">
           <seg xml:id="i-7a3sMyRz2BV4GmJrP5bqgp">
             I kungl. brev av den 7 mars 1919 har Kungl. Maj:t uppdragit åt
             medicinalstyrelsen att med biträde av läkaren vid Visby hospital
@@ -9646,21 +9566,15 @@
             markägare träda 1 underhandling angående förvärv av för hospitalsanläggningen
             erforderligt jordområde.
           </seg>
-        </u>
-        <u xml:id="i-EGFnh1nBCRprAFHtp4cr4N" who="i-U57LLQoLV5JcGhmPdVR5qx" prev="i-TC9huLtGG4s97c53zi6xzx" next="i-NMYpBqjGLVJ4EUp95jrJo2">
           <seg xml:id="i-K7rykfYbE8scN8WJ5vDzi9">
             Tomt till det nya hospitalet har i enlighet med medicinalstyrelsens
             önskemål upplåtits av Visby stad och Gotlands läns landsting,
             varvid landstinget fäst följande villkor:
           </seg>
-        </u>
-        <u xml:id="i-NMYpBqjGLVJ4EUp95jrJo2" who="i-U57LLQoLV5JcGhmPdVR5qx" prev="i-EGFnh1nBCRprAFHtp4cr4N" next="i-a4a2f46c119bc85b-4">
           <seg xml:id="i-Pnd9SA98DLDMNpT3xqLuWM">
             »att beslutet om hospitalets utförande kommer till stånd och
             dess uppförande påbörjas före den 1 januari 1925».
           </seg>
-        </u>
-        <u xml:id="i-a4a2f46c119bc85b-4" who="i-U57LLQoLV5JcGhmPdVR5qx" prev="i-NMYpBqjGLVJ4EUp95jrJo2" next="i-3ya5taekqm5QAi1bPyRw54">
           <seg xml:id="i-5jrzUHs2KfgMsgYc5HZK4g">
             Den ändring av stadsplanen för Visby stad, som blir nödvändig,
             är redan utarbetad och väntar endast på Kungl. Maj:ts stadsfästelse.
@@ -9676,14 +9590,10 @@
             utrustas med väsentligt förbättrade vårdresurser, helst genom
             de väckta byggnadsplanernas realiserande.»
           </seg>
-        </u>
-        <u xml:id="i-3ya5taekqm5QAi1bPyRw54" who="i-U57LLQoLV5JcGhmPdVR5qx" prev="i-a4a2f46c119bc85b-4" next="i-E1dLaxoEiEGXEa8z7hSPK6">
           <seg xml:id="i-JhaYss52WBQcQCTe1a63NX">
             Överbeläggningen å hospitalet är kronisk (å mansavdelningen c:a
             70 Z, å kvinnoavdelningen inemot 20 4).
           </seg>
-        </u>
-        <u xml:id="i-E1dLaxoEiEGXEa8z7hSPK6" who="i-U57LLQoLV5JcGhmPdVR5qx" prev="i-3ya5taekqm5QAi1bPyRw54">
           <seg xml:id="i-WHYhpmT2VurgA6pNaGTbCX">
             Då Gotland praktiskt taget saknar andra vårdresurser för sinnessjuka,
             måste i verkligheten varje fall mottagas, om ej ett fullständigt

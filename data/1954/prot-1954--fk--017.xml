@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-7F2RyBUZAEEGFdUAV3Y4yN" type="speech">
             <linkGrp type="u">
               <ptr target="#i-2yoAb3iAW56WzYsb1xWZjN"/>
@@ -794,7 +794,13 @@
               <ptr target="#i-QRcTx1qKVdcc9sHZtDyJwv"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -1584,14 +1590,12 @@
         <note xml:id="i-Lo1iL9iaonPzT9akPJd48X" type="speaker">
           Herr OHLON (fp):
         </note>
-        <u xml:id="i-EsDPZ3YHKxB2WuEAJVuDXi" who="i-4trrwMgaaYgdfEZaeP8LTR" next="i-44faafcac833839e-1">
+        <u xml:id="i-EsDPZ3YHKxB2WuEAJVuDXi" who="i-4trrwMgaaYgdfEZaeP8LTR" next="i-44faafcac833839e-2">
           <seg xml:id="i-6AttkDfkeo3nPGXS3d1LZZ">
             Herr talman! Vid årets riksdag har väckts en motion av representanter
             från Södermanland angående ett anslag för att rädda Mälsåkers
             slott i Ytterselö socken från fullständig förstörelse.
           </seg>
-        </u>
-        <u xml:id="i-44faafcac833839e-1" who="i-4trrwMgaaYgdfEZaeP8LTR" prev="i-EsDPZ3YHKxB2WuEAJVuDXi" next="i-44faafcac833839e-2">
           <seg xml:id="i-JQw1nCNJvkVNSKA2BBpHbr">
             Om Mälsåkers slott är att omförmäla, att det delvis härstammar
             från medeltiden. Med sitt rektangulära mittparti byggdes det upp
@@ -1660,7 +1664,7 @@
         <note xml:id="i-7Hgo8hrCVrxmkXZXHZobKz">
           Ang. utförande av skyddsarbeten på Mälsåkers slott m. m.
         </note>
-        <u xml:id="i-44faafcac833839e-2" who="i-4trrwMgaaYgdfEZaeP8LTR" prev="i-44faafcac833839e-1">
+        <u xml:id="i-44faafcac833839e-2" who="i-4trrwMgaaYgdfEZaeP8LTR" prev="i-EsDPZ3YHKxB2WuEAJVuDXi">
           <seg xml:id="i-SWYWHixbNRkDMazPcKdSPY">
             listen. Under åren närmast efter branden skulle det som nämnts
             ha varit möjligt att restaurera slottet för rimliga kostnader,
@@ -2296,7 +2300,7 @@
         <note xml:id="i-FoF7guDgSiC9ug9iaMFTE8" type="speaker">
           Herr PERSSON, EINAR, (s):
         </note>
-        <u xml:id="i-86c5f30d484fef8e-3" who="i-Fosqa88LPhzc5pdJM2b9et" next="i-7ymCB1Bw6kKga4ov9Gb8pU">
+        <u xml:id="i-86c5f30d484fef8e-3" who="i-Fosqa88LPhzc5pdJM2b9et">
           <seg xml:id="i-Hmiu4oUVgRNZ7XJ7TqAAmd">
             Herr talman! Det är inte mycket mer att tillägga i denna fråga.
             Vi kan säga att utskottsmajoriteten och reservanterna är tämligen
@@ -2331,8 +2335,6 @@
             Kungl. Maj:t har fått pröva frågan om hur det skall bli med äganderätten
             i framtiden.
           </seg>
-        </u>
-        <u xml:id="i-7ymCB1Bw6kKga4ov9Gb8pU" who="i-Fosqa88LPhzc5pdJM2b9et" prev="i-86c5f30d484fef8e-3">
           <seg xml:id="i-7SgrgAYwf77jiMQD2gnb3U">
             Jag yrkar alltså bifall till utskottets förslag.
           </seg>
@@ -2734,7 +2736,7 @@
         <note xml:id="i-M16yYDdQbGmutzDsCnADJa" type="date">
           Onsdagen den 5 maj 1954 fm.
         </note>
-        <u xml:id="i-44faafcac833839e-6" who="i-4trrwMgaaYgdfEZaeP8LTR" prev="i-44faafcac833839e-5" next="i-MynxgVvuicvLNQdgwQLsCK">
+        <u xml:id="i-44faafcac833839e-6" who="i-4trrwMgaaYgdfEZaeP8LTR" prev="i-44faafcac833839e-5">
           <seg xml:id="i-MSKqBdvJxxTLjtV4LJSdNC">
             ligast att den nu berörda frågan tas upp i samband med läkarutbildningspropositionen.
           </seg>
@@ -2761,8 +2763,6 @@
             som inrättats. Och, som sagt, utskottet kan ju inte komma med
             några förslag bara på grund av ett allmänt knorr.
           </seg>
-        </u>
-        <u xml:id="i-MynxgVvuicvLNQdgwQLsCK" who="i-4trrwMgaaYgdfEZaeP8LTR" prev="i-44faafcac833839e-6">
           <seg xml:id="i-as8GwJiPinMzbwxnzJzRu">
             Jag ber, herr talman, att få yrka bifall till utskottets förslag.
           </seg>
@@ -2770,7 +2770,7 @@
         <note xml:id="i-9rQs78UrH6RmgDtfzEMnES" type="speaker">
           Herr LUNDGREN (h):
         </note>
-        <u xml:id="i-e39e68ef4bd4b123-7" who="i-xxDJ3V22cfahN9u2e4ZdP" next="i-E2bUamigumTAyNbL1VRg7R">
+        <u xml:id="i-e39e68ef4bd4b123-7" who="i-xxDJ3V22cfahN9u2e4ZdP" next="i-e39e68ef4bd4b123-8">
           <seg xml:id="i-RSr8yzaJMjbt4gbZUz2Vxk">
             Herr talman! Den psykiatriska barnavården befinner sig för närvarande
             under utbyggnad inom de olika länen. Denna utbyggnad hindras emellertid
@@ -2780,8 +2780,6 @@
             det varit omöjligt att få någon ersättare, varigenom den uppbyggda
             organisationen delvis spolierats.
           </seg>
-        </u>
-        <u xml:id="i-E2bUamigumTAyNbL1VRg7R" who="i-xxDJ3V22cfahN9u2e4ZdP" prev="i-e39e68ef4bd4b123-7" next="i-e39e68ef4bd4b123-8">
           <seg xml:id="i-6inKYVMsAA6QdZ8v3qRLPN">
             Orsaken till bristen på kompetenta lä-
           </seg>
@@ -2790,7 +2788,7 @@
         <note xml:id="i-J4rjVG5usGM9RQB6ddHCkf" type="date">
           Onsdagen den 5 maj 1954 fm.
         </note>
-        <u xml:id="i-e39e68ef4bd4b123-8" who="i-xxDJ3V22cfahN9u2e4ZdP" prev="i-E2bUamigumTAyNbL1VRg7R">
+        <u xml:id="i-e39e68ef4bd4b123-8" who="i-xxDJ3V22cfahN9u2e4ZdP" prev="i-e39e68ef4bd4b123-7">
           <seg xml:id="i-Gc42QT93Ei3MDuxqJYd9VA">
             kare är att det inte finns några utbildningsplatser. Det är därför
             beklagligt, att man inte har ansett sig kunna tillskapa dylika
@@ -3041,15 +3039,13 @@
         <note xml:id="i-4o6mZZ1FjWYKM9LAAu3zSa" type="speaker">
           Herr SUNNE (fp):
         </note>
-        <u xml:id="i-CMy5PWapAG46MjEZDmogUw" who="i-GkRjiqpt3WtaJqbS42DPxm" next="i-494ccf3181d2b0de-1">
+        <u xml:id="i-CMy5PWapAG46MjEZDmogUw" who="i-GkRjiqpt3WtaJqbS42DPxm">
           <seg xml:id="i-MqTUKz451uHMNzuoUYrn8h">
             Herr talman! Jag har vid denna punkt tillsammans med några ledamöter
             i andra kammaren fogat en reservation, i vilken yrkas bifall till
             en motion rörande inrättande av ett tvåårigt provisoriskt statligt
             seminarium för utbildning av lärarinnor i kvinnlig slöjd.
           </seg>
-        </u>
-        <u xml:id="i-494ccf3181d2b0de-1" who="i-GkRjiqpt3WtaJqbS42DPxm" prev="i-CMy5PWapAG46MjEZDmogUw">
           <seg xml:id="i-FoLJ5pbL7PhKnQo5LyfMNc">
             Skolöverstyrelsen hade för ändamålet begärt ett anslag av 115
             000 kronor. Anslaget har av departementschefen nedprutas till
@@ -3123,7 +3119,7 @@
         <note xml:id="i-ThZ8yvyawe1ienXkJR4bLV">
           Anslag till utbildningskurser i kvinnlig slöjd för lärare.
         </note>
-        <u xml:id="i-e39e68ef4bd4b123-12" who="i-Ry79up6brcPYr8wj2XgxHz" prev="i-e39e68ef4bd4b123-11" next="i-Bxq1GTfuH9ds3vgF19m5FK">
+        <u xml:id="i-e39e68ef4bd4b123-12" who="i-Ry79up6brcPYr8wj2XgxHz" prev="i-e39e68ef4bd4b123-11">
           <seg xml:id="i-BeoaiXmRzpEzhusb9K18j1">
             I överstyrelsens kursverksamhet har kurserna i det husliga arbetet
             och framför allt kurser i sömnad haft det största deltagarantalet,
@@ -3164,8 +3160,6 @@
             har beräknats till 64 000 kronor, och utskottet tillstyrker detta
             Kungl. Maj:ts förslag.
           </seg>
-        </u>
-        <u xml:id="i-Bxq1GTfuH9ds3vgF19m5FK" who="i-Ry79up6brcPYr8wj2XgxHz" prev="i-e39e68ef4bd4b123-12">
           <seg xml:id="i-P8F4Lf9AghecxA9tWiTost">
             Jag ber, herr talman, att få biträda herr Sunnes yrkande, som
             överensstämmer med förslaget i vår motion.
@@ -3338,12 +3332,10 @@
         <note xml:id="i-8ZgoJKe7zGDt8kimxf26X6">
           Anslag till Ericastiftelsen.
         </note>
-        <u xml:id="i-4fumFoThEiB5hEmrJ9ZSqG" who="i-Ry79up6brcPYr8wj2XgxHz" prev="i-e39e68ef4bd4b123-13" next="i-e39e68ef4bd4b123-15">
+        <u xml:id="i-4fumFoThEiB5hEmrJ9ZSqG" who="i-Ry79up6brcPYr8wj2XgxHz" prev="i-e39e68ef4bd4b123-13">
           <seg xml:id="i-RHS6y4SvgW6iHejVCvmfrU">
             i enhetsskolan är barnavård inlagd i ämnet hemkunskap.
           </seg>
-        </u>
-        <u xml:id="i-e39e68ef4bd4b123-15" who="i-Ry79up6brcPYr8wj2XgxHz" prev="i-4fumFoThEiB5hEmrJ9ZSqG">
           <seg xml:id="i-YFatdLF8e9PxBoLhEsTyYd">
             Jag skall inte räkna upp flera arbetsområden för dessa barnavårdslärarinnor,
             ty av det sagda framgår tydligt att efterfrågan på dem är stor
@@ -3452,7 +3444,7 @@
         <note xml:id="i-KEYab7HZD9iBUWiYpDwbNL" type="speaker">
           Herr HOLMQVIST (s):
         </note>
-        <u xml:id="i-73dabb20ee61fe4b-0" who="i-Ua1nqYCRbnUSNc5Tw1tXiK" next="i-Ge7yiE5cV6oy1Cxepdt9Ao">
+        <u xml:id="i-73dabb20ee61fe4b-0" who="i-Ua1nqYCRbnUSNc5Tw1tXiK">
           <seg xml:id="i-7bfqpQw6sbwCQwPpUbqLwu">
             Herr talman! Under denna punkt finns det en reservation, som
             gäller grunderna för bestämmandet av statens bidrag till Ericastiftelsen.
@@ -3472,8 +3464,6 @@
             jämförliga statliga tjänster är placerade i 33 lönegraden, och
             vi vill inte göra något undantag från den principen.
           </seg>
-        </u>
-        <u xml:id="i-Ge7yiE5cV6oy1Cxepdt9Ao" who="i-Ua1nqYCRbnUSNc5Tw1tXiK" prev="i-73dabb20ee61fe4b-0">
           <seg xml:id="i-EAxxkkcES7uf8cNT9FdzAz">
             Jag vill därför, herr talman, yrka bifall till den reservation,
             som är fogad vid punkten 215.
@@ -3750,7 +3740,7 @@
         <note xml:id="i-EngJFxE6vfuhoiWNv4nFuM">
           Ang. lärarpersonalens tillsyn vid skolmåltider.
         </note>
-        <u xml:id="i-86c5f30d484fef8e-13" who="i-N9AjjY11HAeYEZv7pS9mmC" prev="i-86c5f30d484fef8e-12" next="i-Jjx3xHDcLDd9DxNvQAoJad">
+        <u xml:id="i-86c5f30d484fef8e-13" who="i-N9AjjY11HAeYEZv7pS9mmC" prev="i-86c5f30d484fef8e-12" next="i-86c5f30d484fef8e-16">
           <seg xml:id="i-EBthFJZCqw2drXwgwykZZv">
             framhöll det okloka i att riksdagen godkände statsutskottets
             skrivning på denna punkt utan att en proposition i frågan eller
@@ -3783,15 +3773,11 @@
             sig rätten att träffa överenskommelse om gottgörelse för övervakningen
             med skäligt belopp.
           </seg>
-        </u>
-        <u xml:id="i-Jjx3xHDcLDd9DxNvQAoJad" who="i-N9AjjY11HAeYEZv7pS9mmC" prev="i-86c5f30d484fef8e-13" next="i-86c5f30d484fef8e-14">
           <seg xml:id="i-PS3i56DrYjV6KwTAUnU1dT">
             Går jag sedan över till vad som hände 1951 bestod det däri, att
             den då fungerande ecklesiastikministern den 22 juni utfärdade
             en kungörelse om ändring i 2 $ kungörelsen den 28 juni 1946 an-
           </seg>
-        </u>
-        <u xml:id="i-86c5f30d484fef8e-14" who="i-N9AjjY11HAeYEZv7pS9mmC" prev="i-Jjx3xHDcLDd9DxNvQAoJad" next="i-UxCAVWT8HPkrBpR93exkgK">
           <seg xml:id="i-X3FqEptdc29epLWovNTxL3">
             gående statsbidrag till anordnande av skolmåltider. Jag fäster
             uppmärksamheten på att riksdagen på hösten 1946 sade, att någon
@@ -3815,8 +3801,6 @@
           <seg xml:id="i-KxHs7Jt4ixhdjQRRSrErZJ">
             för att hålla systemet i funktion. Denna
           </seg>
-        </u>
-        <u xml:id="i-UxCAVWT8HPkrBpR93exkgK" who="i-N9AjjY11HAeYEZv7pS9mmC" prev="i-86c5f30d484fef8e-14" next="i-86c5f30d484fef8e-15">
           <seg xml:id="i-V31jnqFGSS8Dd681kD6HsH">
             kungörelse ansågs emellertid av statsrevisorerna utgöra en kränkning
             av ett riksdagsbeslut, och de anmärkte på den 1951 med lång motivering.
@@ -3826,8 +3810,6 @@
             och Nolin, vilka även anmärkte på, att statsrådet här handlat
             mot riksdagsbeslutet 1946.
           </seg>
-        </u>
-        <u xml:id="i-86c5f30d484fef8e-15" who="i-N9AjjY11HAeYEZv7pS9mmC" prev="i-UxCAVWT8HPkrBpR93exkgK" next="i-86c5f30d484fef8e-16">
           <seg xml:id="i-TUr6UCLTY2q3sfmkttHkSj">
             Vad som nu hävdas från lärarnas sida är ett stilla tvivel om
             att ett bestämt åläggande någonsin stipulerats med hänsyn till
@@ -3848,7 +3830,7 @@
         <note xml:id="i-821Rn7hAe3VtPDyfzChQha">
           Ang.
         </note>
-        <u xml:id="i-86c5f30d484fef8e-16" who="i-N9AjjY11HAeYEZv7pS9mmC" prev="i-86c5f30d484fef8e-15" next="i-Wweg7hXfygYtHCrbmZaBHR">
+        <u xml:id="i-86c5f30d484fef8e-16" who="i-N9AjjY11HAeYEZv7pS9mmC" prev="i-86c5f30d484fef8e-13" next="i-Wweg7hXfygYtHCrbmZaBHR">
           <seg xml:id="i-GDCktdZzpkAqWUH3MAxQBf">
             ordalag. Vi har dessutom att hålla oss till 1951 års kungörelse,
             som har samband med ersättningsbeloppens utgående.
@@ -3960,14 +3942,12 @@
         <note xml:id="i-FLaHCR63dhRbRzzQPV4UtW" type="speaker">
           Herr SUNNE (fp):
         </note>
-        <u xml:id="i-PsL8WiAZTVLeir6N66kD17" who="i-GkRjiqpt3WtaJqbS42DPxm" next="i-494ccf3181d2b0de-4">
+        <u xml:id="i-PsL8WiAZTVLeir6N66kD17" who="i-GkRjiqpt3WtaJqbS42DPxm" next="i-494ccf3181d2b0de-6">
           <seg xml:id="i-B1mePvJsqjNC31RCng6662">
             Herr talman! Herr Arrhén har givit en historisk återblick på
             hur ärendet legat till från vårriksdagen 1946 och fram till statsverkspropositionen
             1954.
           </seg>
-        </u>
-        <u xml:id="i-494ccf3181d2b0de-4" who="i-GkRjiqpt3WtaJqbS42DPxm" prev="i-PsL8WiAZTVLeir6N66kD17" next="i-vugRJp6pGsjbJDzuhrjSx">
           <seg xml:id="i-VqJ4Z8UdeggZKVWaSKrkwo">
             Från lärarorganisationernas sida har man den bestämda uppfattningen
             att det aldrig i någon författning fastslagits att skyldighet
@@ -3994,15 +3974,11 @@
             uttalandet om övervakning skulle syfta till en övervakningsoch
             tjänstgöringsskyldighet.
           </seg>
-        </u>
-        <u xml:id="i-vugRJp6pGsjbJDzuhrjSx" who="i-GkRjiqpt3WtaJqbS42DPxm" prev="i-494ccf3181d2b0de-4" next="i-494ccf3181d2b0de-5">
           <seg xml:id="i-X4rqiBUxmTUfp8W7Y8hTCb">
             År 1948 fick skolöverstyrelsen av Kungl. Maj:t i uppdrag att
             efter samråd med lärarkåren inkomma med yttrande och förslag med
             anledning av riksdagens
           </seg>
-        </u>
-        <u xml:id="i-494ccf3181d2b0de-5" who="i-GkRjiqpt3WtaJqbS42DPxm" prev="i-vugRJp6pGsjbJDzuhrjSx" next="i-494ccf3181d2b0de-6">
           <seg xml:id="i-C2QCDn67ZJqM5DksAv8jxm">
             uttalande. Det yttrandet förelåg 1949 i form av en PM med förslag
             och anvisningar och det heter däri: »Överstyrelsen vidhåller sin
@@ -4052,7 +4028,7 @@
         <note xml:id="i-JBuijeaa2sqyjh2iYATUfi">
           Ang. lärarpersonalens tillsyn vid skolmåltider.
         </note>
-        <u xml:id="i-494ccf3181d2b0de-6" who="i-GkRjiqpt3WtaJqbS42DPxm" prev="i-494ccf3181d2b0de-5" next="i-494ccf3181d2b0de-7">
+        <u xml:id="i-494ccf3181d2b0de-6" who="i-GkRjiqpt3WtaJqbS42DPxm" prev="i-PsL8WiAZTVLeir6N66kD17" next="i-494ccf3181d2b0de-7">
           <seg xml:id="i-2uZEqfTKYkdc88TvXJBfcJ">
             lärare som endast i ringa omfattning övervakar skolmåltider bör
             annan ersättping i regel inte utgå.
@@ -4544,13 +4520,11 @@
         <note xml:id="i-VhdvKYPvBSn2TjxVmaxxnJ">
           Ang. lärarpersonalens tillsyn vid skolmåltider.
         </note>
-        <u xml:id="i-D5sbLq6XqWz7Pgf8Vzjkq5" who="i-C3gWg8iCPVzkTtCPyTNWPt" prev="i-C4HQrdin2yJT3KZURTWnnX" next="i-d13f67cecabb4dc3-13">
+        <u xml:id="i-D5sbLq6XqWz7Pgf8Vzjkq5" who="i-C3gWg8iCPVzkTtCPyTNWPt" prev="i-C4HQrdin2yJT3KZURTWnnX" next="i-d13f67cecabb4dc3-14">
           <seg xml:id="i-3STT1xziScSu22DdYnEm3H">
             den kom i alla fall från suppleanternas sida i avdelningen och
             även från ledamöternas sida i utskottet.
           </seg>
-        </u>
-        <u xml:id="i-d13f67cecabb4dc3-13" who="i-C3gWg8iCPVzkTtCPyTNWPt" prev="i-D5sbLq6XqWz7Pgf8Vzjkq5" next="i-d13f67cecabb4dc3-14">
           <seg xml:id="i-3EZR9j4Y5Epf9QFR5BUB49">
             När man är inne på dessa problem, tror jag att man måste se på
             frågan i hela dess vidd. Vad är det som skett här? Jo, riksdagen
@@ -4646,7 +4620,7 @@
         <note xml:id="i-PTTF8M2qxohfz3zhUcCP3t">
           Ang. lärarpersonalens tillsyn vid skolmåltider.
         </note>
-        <u xml:id="i-d13f67cecabb4dc3-14" who="i-C3gWg8iCPVzkTtCPyTNWPt" prev="i-d13f67cecabb4dc3-13">
+        <u xml:id="i-d13f67cecabb4dc3-14" who="i-C3gWg8iCPVzkTtCPyTNWPt" prev="i-D5sbLq6XqWz7Pgf8Vzjkq5">
           <seg xml:id="i-Man8uwQkFUguk7x4h2hfzJ">
             Föräldrarna sätter stort värde på barnbespisningen, och man måste
             beklaga att ganska många skoldistrikt ännu inte ansett sig kunna
@@ -4848,7 +4822,7 @@
         <note xml:id="i-7Tr4sFuHEfmX3LJGqXYfWw" type="speaker">
           Fru LINDSTRÖM (s):
         </note>
-        <u xml:id="i-8f38d0a7bd782ad3-1" who="i-T2MQwweEV4czixyLDV86HQ" next="i-NuuJY6Nwt1A2TF75ATXPG5">
+        <u xml:id="i-8f38d0a7bd782ad3-1" who="i-T2MQwweEV4czixyLDV86HQ">
           <seg xml:id="i-PoyDNEYaAxMWWddNBXcHUX">
             Herr talman! Jag har ett behov av att ge reservanterna rätt i
             en hel del av vad de sagt här i dag, fastän jag kommer att rösta
@@ -4887,13 +4861,9 @@
             betungande vakthållning, som alla är ense om måste ske och varom
             förhandlingar med lärarkåren måste äga rum.
           </seg>
-        </u>
-        <u xml:id="i-NuuJY6Nwt1A2TF75ATXPG5" who="i-T2MQwweEV4czixyLDV86HQ" prev="i-8f38d0a7bd782ad3-1" next="i-8f38d0a7bd782ad3-2">
           <seg xml:id="i-4pZ8gK5XhAWnoqoJtkBLVE">
             Det beslut, som riksdagen fattade år
           </seg>
-        </u>
-        <u xml:id="i-8f38d0a7bd782ad3-2" who="i-T2MQwweEV4czixyLDV86HQ" prev="i-NuuJY6Nwt1A2TF75ATXPG5">
           <seg xml:id="i-9zEeAm5kx4jCn2XknryqU3">
             1946 och varigenom man till en förhandlingsuppgörelse i efterhand
             hakade på ett ytterligare villkor, skulle vara otänkbart i dag,
@@ -4910,7 +4880,7 @@
         <note xml:id="i-NZ8Gfvy2xxW5rBdRKeh5AZ" type="speaker">
           Herr LINDÉN (s):
         </note>
-        <u xml:id="i-8f38d0a7bd782ad3-3" who="i-f4u5Yi8ZSYc6qWukd6X6t" next="i-R54EQk14jBtzb6niYGZf8p">
+        <u xml:id="i-8f38d0a7bd782ad3-3" who="i-f4u5Yi8ZSYc6qWukd6X6t" next="i-8f38d0a7bd782ad3-4">
           <seg xml:id="i-9g9EUMQSqq7nWv1ySzKyMb">
             Herr talman! När det gäller den principiella uppfattningen om
             vad utskottet har skrivit och vad reservanterna har skrivit, kan
@@ -4932,8 +4902,6 @@
             förutsättning för att ordning, skick och gott uppförande iaktiagas
             av barnen även under skolmåltiden.»
           </seg>
-        </u>
-        <u xml:id="i-R54EQk14jBtzb6niYGZf8p" who="i-f4u5Yi8ZSYc6qWukd6X6t" prev="i-8f38d0a7bd782ad3-3" next="i-8f38d0a7bd782ad3-4">
           <seg xml:id="i-WAXmx1e9su8N2u4Pg7vFtG">
             Detta skrev således utredningen. Be-
           </seg>
@@ -4948,7 +4916,7 @@
         <note xml:id="i-M4ZxLWFbU8CspTgidVD8vY">
           Ang. lärarpersonalens tillsyn vid skolmåltider.
         </note>
-        <u xml:id="i-8f38d0a7bd782ad3-4" who="i-f4u5Yi8ZSYc6qWukd6X6t" prev="i-R54EQk14jBtzb6niYGZf8p" next="i-8f38d0a7bd782ad3-5">
+        <u xml:id="i-8f38d0a7bd782ad3-4" who="i-f4u5Yi8ZSYc6qWukd6X6t" prev="i-8f38d0a7bd782ad3-3" next="i-8f38d0a7bd782ad3-5">
           <seg xml:id="i-HKxM5Eqt7dhCmZrj1nerQY">
             tänkandet skickades, såsom sed är här i riket, ut på en vidlyftig
             remiss. Skolöverstyrelsen anförde beträffande vakttjänstgöringen,
@@ -5437,7 +5405,7 @@
         <note xml:id="i-P86kyLJK4QRTRCUQezfw5S" type="speaker">
           Herr NORMAN (s):
         </note>
-        <u xml:id="i-e39e68ef4bd4b123-16" who="i-RrjGQ4JkvbLp6aWhwnzu9q" next="i-34nXGvJJg8Ff7zgJtZAh8W">
+        <u xml:id="i-e39e68ef4bd4b123-16" who="i-RrjGQ4JkvbLp6aWhwnzu9q" next="i-e39e68ef4bd4b123-17">
           <seg xml:id="i-XYp7pg5ZNgMFoGPGzsyk6W">
             Herr talman! Herr Bergh har varit inne på den sak som gjorde
             att jag begärt ordet, nämligen herr Näsströms uttalande om vissa
@@ -5460,13 +5428,9 @@
             jag betraktar mig som inte så alldeles bestämt kårpolitiskt engagerad
             i denna fråga.
           </seg>
-        </u>
-        <u xml:id="i-34nXGvJJg8Ff7zgJtZAh8W" who="i-RrjGQ4JkvbLp6aWhwnzu9q" prev="i-e39e68ef4bd4b123-16" next="i-Kpq4xfdGH2WR8spR2RWUrD">
           <seg xml:id="i-GudHv19ttkV6nWqe3tpY98">
             Herr Näsström sade att man inom
           </seg>
-        </u>
-        <u xml:id="i-Kpq4xfdGH2WR8spR2RWUrD" who="i-RrjGQ4JkvbLp6aWhwnzu9q" prev="i-34nXGvJJg8Ff7zgJtZAh8W" next="i-e39e68ef4bd4b123-17">
           <seg xml:id="i-LL6cZee7yRu81ChR1x6eg9">
             statsutskottet mycket allvarligt och ingående diskuterat detta
             problem. Men vilket problem? Jo, han förklarade det också. Vad
@@ -5516,7 +5480,7 @@
         <note xml:id="i-WtWReNR2LzpdttRdc5ezKZ">
           Ang. lärarpersonalens tillsyn vid skolmåltider.
         </note>
-        <u xml:id="i-e39e68ef4bd4b123-17" who="i-RrjGQ4JkvbLp6aWhwnzu9q" prev="i-Kpq4xfdGH2WR8spR2RWUrD" next="i-e39e68ef4bd4b123-18">
+        <u xml:id="i-e39e68ef4bd4b123-17" who="i-RrjGQ4JkvbLp6aWhwnzu9q" prev="i-e39e68ef4bd4b123-16" next="i-e39e68ef4bd4b123-18">
           <seg xml:id="i-UQwUyDai6Ka27FEyvicdUp">
             måste göra för att fylla vår uppgift och vår gärning där vi är
             ställda i samhället».
@@ -6179,7 +6143,7 @@
         <note xml:id="i-DNJeSLGJ5r7hmBRpEpT5Dt" type="speaker">
           Herr PERSSON, OLA, (k):
         </note>
-        <u xml:id="i-Ew1V8Gn6RoshbEoN5ve4AP" who="i-SsTURovZCn2oxRREqzvGkT" next="i-86c5f30d484fef8e-22">
+        <u xml:id="i-Ew1V8Gn6RoshbEoN5ve4AP" who="i-SsTURovZCn2oxRREqzvGkT" next="i-86c5f30d484fef8e-23">
           <seg xml:id="i-6jKSoq61a2NPrdq4id1VPT">
             Herr talman! I motion nr 83 i andra kammaren av herr Johansson
             i Stockholm m., fl. har hemställts, att för budgetåret 1954/55
@@ -6187,8 +6151,6 @@
             anvisas det av skolöverstyrelsen begärda anslaget på 99 miljoner
             kronor.
           </seg>
-        </u>
-        <u xml:id="i-86c5f30d484fef8e-22" who="i-SsTURovZCn2oxRREqzvGkT" prev="i-Ew1V8Gn6RoshbEoN5ve4AP" next="i-86c5f30d484fef8e-23">
           <seg xml:id="i-HDiJmiZWdpcZfDh1PrVqEa">
             Skälet härför är den påminnelse, som skolöverstyrelsen gjort
             i fråga om lägets allvar, då det gäller byggandet av erforderliga
@@ -6220,7 +6182,7 @@
         <note xml:id="i-9b1zUvJMjNkDQXiFSukiDD" type="date">
           Onsdagen den 5 maj 1954 fm.
         </note>
-        <u xml:id="i-86c5f30d484fef8e-23" who="i-SsTURovZCn2oxRREqzvGkT" prev="i-86c5f30d484fef8e-22">
+        <u xml:id="i-86c5f30d484fef8e-23" who="i-SsTURovZCn2oxRREqzvGkT" prev="i-Ew1V8Gn6RoshbEoN5ve4AP">
           <seg xml:id="i-4EWqCGDoiofp52GeDjMYZV">
             get, som innebär att 59,3 miljoner kronor skulle anvisas, vilket
             torde betyda att kvottilldelningen blir inte ens hälften av vad
@@ -7308,7 +7270,7 @@
         <note xml:id="i-VBMX3ZNFtD6PGdR6AbJGiw">
           3 Första kammarens protokoll 1954. Nr 17.
         </note>
-        <u xml:id="i-8f38d0a7bd782ad3-11" who="i-T2MQwweEV4czixyLDV86HQ" prev="i-8f38d0a7bd782ad3-10" next="i-3A2hNCyz6rGBYrG4aJfztw">
+        <u xml:id="i-8f38d0a7bd782ad3-11" who="i-T2MQwweEV4czixyLDV86HQ" prev="i-8f38d0a7bd782ad3-10">
           <seg xml:id="i-D7mjK6v1GYqqqCn6ju8eJu">
             omkring en halv miljon kronor billigare än om man bygger en sjömansskola
             i land. Sakkunskapen förklarar enigt, att barken Viking kommer
@@ -7328,8 +7290,6 @@
             föreslår, att Kungl. Maj:t gör upp om resten av byggnadsbidraget
             genom förhandlingar med Göteborgs stad.
           </seg>
-        </u>
-        <u xml:id="i-3A2hNCyz6rGBYrG4aJfztw" who="i-T2MQwweEV4czixyLDV86HQ" prev="i-8f38d0a7bd782ad3-11">
           <seg xml:id="i-Go6E9xKfPp7BG5u4JJypVR">
             Jag ber, herr talman, att med dessa kommentarer få yrka bifall
             till utskottets förslag.
@@ -7948,7 +7908,7 @@
         <note xml:id="i-G1VFEzbwXh7c6ggc7N9Tbx">
           Ang. förläggningen av Göteborgs stads sjömansskola.
         </note>
-        <u xml:id="i-d13f67cecabb4dc3-23" who="i-C3gWg8iCPVzkTtCPyTNWPt" prev="i-d13f67cecabb4dc3-22" next="i-AKdRre95bUQLwiR7XS9dnV">
+        <u xml:id="i-d13f67cecabb4dc3-23" who="i-C3gWg8iCPVzkTtCPyTNWPt" prev="i-d13f67cecabb4dc3-22">
           <seg xml:id="i-2tsUGUNg6MtMhAfMFfvgsc">
             om att det bör vara en skola i Göteborg av det här slaget.
           </seg>
@@ -7963,8 +7923,6 @@
             det är lämpligt att förlägga skolan till en stillaliggande båt
             i Göteborgs hamn.
           </seg>
-        </u>
-        <u xml:id="i-AKdRre95bUQLwiR7XS9dnV" who="i-C3gWg8iCPVzkTtCPyTNWPt" prev="i-d13f67cecabb4dc3-23">
           <seg xml:id="i-WyeTGuSFejsYU5mGYKAskJ">
             Jag ber, herr talman, att få vidhålla mitt "yrkande om bifall
             till den av mig och herr Holmqvist vid denna punkt fogade reservationen.
@@ -8249,7 +8207,7 @@
         <note xml:id="i-KZVCrm9nCRtNctSH2AJ5kd">
           Ang. förläggningen av Göteborgs stads sjömansskola.
         </note>
-        <u xml:id="i-e39e68ef4bd4b123-33" who="i-N9AjjY11HAeYEZv7pS9mmC" prev="i-e39e68ef4bd4b123-32" next="i-BX1Wi7mjwuyANuZy62LTdn">
+        <u xml:id="i-e39e68ef4bd4b123-33" who="i-N9AjjY11HAeYEZv7pS9mmC" prev="i-e39e68ef4bd4b123-32">
           <seg xml:id="i-S1z3CmmNw2LeDqfWtfCoRG">
             1945 avlämnades av sakkunniga en utredning angående sjömansskolorna
             här i landet. Det är nu nio år sedan, och under denna långa tid
@@ -8295,8 +8253,6 @@
             som också bör stärka hennes aktier i den diskussion som vi här
             för.
           </seg>
-        </u>
-        <u xml:id="i-BX1Wi7mjwuyANuZy62LTdn" who="i-N9AjjY11HAeYEZv7pS9mmC" prev="i-e39e68ef4bd4b123-33">
           <seg xml:id="i-6LVaA44FX44ib3wjU7b6JE">
             Jag ber, herr talman, att få yrka bifall till utskottets hemställan.
           </seg>
@@ -8304,7 +8260,7 @@
         <note xml:id="i-P46ZXcZZf45yk1XMq1ngVM" type="speaker">
           Herr LARSSON, NILS THEODOR, (bf):
         </note>
-        <u xml:id="i-b42ccf74576f0b11-2" who="i-S9zAqkxFcyEpCQ17ZA2QJ8" next="i-F2HCSqmj9HFVpHJHMNHxdj">
+        <u xml:id="i-b42ccf74576f0b11-2" who="i-S9zAqkxFcyEpCQ17ZA2QJ8">
           <seg xml:id="i-V3qLBXZjqYatNa91dUoXt2">
             Herr talman! Herr Arrhén sade många saker som det varit nyttigt
             att höra. Han sade bland annat, att det inte är något unicum för
@@ -8325,8 +8281,6 @@
             latinska citatet: Quidquid id est, timeo Danaos, et dona ferentes
             — jag fruktar danaerna även när de kommer med gåvor.
           </seg>
-        </u>
-        <u xml:id="i-F2HCSqmj9HFVpHJHMNHxdj" who="i-S9zAqkxFcyEpCQ17ZA2QJ8" prev="i-b42ccf74576f0b11-2">
           <seg xml:id="i-N4f1fDBxowk1DMnRcBQbLt">
             Jag ber, herr talman, att få yrka bifall till utskottets förslag.
           </seg>
@@ -8574,7 +8528,7 @@
         <note xml:id="i-YQzqXTuY5tngavbs4A7n9q">
           Anslag till textilinstitutet i Borås.
         </note>
-        <u xml:id="i-86c5f30d484fef8e-39" who="unknown" prev="i-86c5f30d484fef8e-38" next="i-2VJvzRmeJiQxjvwjh1BPpY">
+        <u xml:id="i-86c5f30d484fef8e-39" who="unknown" prev="i-86c5f30d484fef8e-38">
           <seg xml:id="i-85F6njo2usLwZaTsHv68Hf">
             institutet och dess mycket vällovliga och för samhällslivet nyttiga
             verksamhet vill man ge ett extra anslag för året på 16 100 kronor.
@@ -8585,8 +8539,6 @@
             därmed ge till känna statens intresse också för denna nyttiga
             institution.
           </seg>
-        </u>
-        <u xml:id="i-2VJvzRmeJiQxjvwjh1BPpY" who="unknown" prev="i-86c5f30d484fef8e-39">
           <seg xml:id="i-Lih6ifCAUB4pqSSSJcA82R">
             Herr talman! Jag ber att med dessa ord att få yrka bifall till
             den reservation av herr Ohlon m. fl., nr 15, som finns fogad vid
@@ -9348,7 +9300,7 @@
         <note xml:id="i-Vf4NF3e9LtFFBJ3fRqPJS" type="speaker">
           Herr LUNDGREN (h):
         </note>
-        <u xml:id="i-e39e68ef4bd4b123-41" who="i-xxDJ3V22cfahN9u2e4ZdP" next="i-3mVxHQphDW2CQmHoUNUnom">
+        <u xml:id="i-e39e68ef4bd4b123-41" who="i-xxDJ3V22cfahN9u2e4ZdP">
           <seg xml:id="i-Sbm1TjBmchPXN6ddDaHBUp">
             Herr talman! Efter herr Ohlons klargörande anförande kan jag
             fatta mig kort.
@@ -9365,8 +9317,6 @@
             forskning med 225 000 kronor. Den sammanlagda ökningen blir alliså
             975 000 kronor.
           </seg>
-        </u>
-        <u xml:id="i-3mVxHQphDW2CQmHoUNUnom" who="i-xxDJ3V22cfahN9u2e4ZdP" prev="i-e39e68ef4bd4b123-41" next="i-e39e68ef4bd4b123-42">
           <seg xml:id="i-QhaSHN4GtrHU4P5XaJhhcf">
             Jag vill, herr talman, erinra om att det vid föregående års riksdag
             förelåg några motioner, vari yrkades en ökning av detta anslag.
@@ -9384,8 +9334,6 @@
             statsutskottet, att riksdagen i skrivelse till Kungl. Maj:t måtte
             giva till känna vad utskottet an-
           </seg>
-        </u>
-        <u xml:id="i-e39e68ef4bd4b123-42" who="i-xxDJ3V22cfahN9u2e4ZdP" prev="i-3mVxHQphDW2CQmHoUNUnom" next="i-LK6R4ryH3ue4vYR3q4ZJqj">
           <seg xml:id="i-6rDeygUBYdHqew2kqNsAn5">
             fört. Trots detta mycket positiva uttalande från riksdagens sida
             har departementschefen tyvärr icke ansett sig kunna öka anslaget
@@ -9408,8 +9356,6 @@
             kammaren att i varje fall biträda reservanternas utomordentligt
             blygsamma äskande.
           </seg>
-        </u>
-        <u xml:id="i-LK6R4ryH3ue4vYR3q4ZJqj" who="i-xxDJ3V22cfahN9u2e4ZdP" prev="i-e39e68ef4bd4b123-42">
           <seg xml:id="i-3rjMwd5AdczgbJ4vscsq1m">
             Jag ber alltså, herr talman, att i likhet med herr Ohlon få yrka
             bifall till den reservation, som vid denna punkt av utlåtandet
@@ -9741,7 +9687,7 @@
         <note xml:id="i-AFGLTHS3bx6mTyE9FFzm4r">
           Anslag till främjande av medicinsk forskning.
         </note>
-        <u xml:id="i-86c5f30d484fef8e-41" who="i-FooDdbstXg6Pqwp431p9Bu" prev="i-86c5f30d484fef8e-40" next="i-EbEwa7buyjyZCmGaY1Jhau">
+        <u xml:id="i-86c5f30d484fef8e-41" who="i-FooDdbstXg6Pqwp431p9Bu" prev="i-86c5f30d484fef8e-40">
           <seg xml:id="i-QEwn3MR6U9TuJ4Qr9g63fC">
             till det resultat som här föreligger. Att det skulle vara omöjligt
             att åtminstone i någon mån tillgodose den psykiatriska forskningen
@@ -9773,8 +9719,6 @@
             är klart dokumenterade. Någon ingående debatt i den frågan tycker
             jag som sagt inte är på sin plats i dag.
           </seg>
-        </u>
-        <u xml:id="i-EbEwa7buyjyZCmGaY1Jhau" who="i-FooDdbstXg6Pqwp431p9Bu" prev="i-86c5f30d484fef8e-41">
           <seg xml:id="i-EwBARawCiYtyw8YvA6NJ33">
             Jag hoppas att kammaren nu fattar beslut i enlighet med utskottets
             förslag.
@@ -10278,7 +10222,7 @@
         <note xml:id="i-Jiikd5VDwm5u6g1MS927ua" type="speaker">
           Fru GÄRDE WIDEMAR (fp):
         </note>
-        <u xml:id="i-8e6ad44213c7744d-0" who="i-HW3WbeQFWVwtJaT8RCt2JM" next="i-GRZAPU9s1yDk7KfQeDRTYu">
+        <u xml:id="i-8e6ad44213c7744d-0" who="i-HW3WbeQFWVwtJaT8RCt2JM" next="i-8e6ad44213c7744d-2">
           <seg xml:id="i-VfEotu3b8QfbESbAaTPXt3">
             Herr talman! Rättssäkerhet är ett ord med stark innebörd. De
             motioner, som i dag behandlas här, har tillkommit i syfte att
@@ -10307,15 +10251,11 @@
             väl tillgodosett, och för den, som inte åtnöjdes med myndigheternas
             avgörande, fanns klago-
           </seg>
-        </u>
-        <u xml:id="i-GRZAPU9s1yDk7KfQeDRTYu" who="i-HW3WbeQFWVwtJaT8RCt2JM" prev="i-8e6ad44213c7744d-0" next="i-8e6ad44213c7744d-1">
           <seg xml:id="i-NnuVuWakMHxWddT5QUyzep">
             rätt till Konungen. Konungens domsrätt överflyttades redan 1789
             på högsta domstolen, men samtliga administrativa besvärsmål avgjordes
             ända till år 1909 av Kungl. Maj:t i statsrådet.
           </seg>
-        </u>
-        <u xml:id="i-8e6ad44213c7744d-1" who="i-HW3WbeQFWVwtJaT8RCt2JM" prev="i-GRZAPU9s1yDk7KfQeDRTYu" next="i-8e6ad44213c7744d-2">
           <seg xml:id="i-6qiipveWdWBbwKvhz4vqHF">
             Kravet på en fullt fristående och av regeringsmakten oberoende
             högsta instans för rättsfrågor på förvaltningens område framträdde
@@ -10362,7 +10302,7 @@
         <note xml:id="i-By1ecfu4JT2iMknLab7JdP">
           Om vidgad domstolsprövning av administrativa frågor m. m.
         </note>
-        <u xml:id="i-8e6ad44213c7744d-2" who="i-HW3WbeQFWVwtJaT8RCt2JM" prev="i-8e6ad44213c7744d-1" next="i-A8VtodmJG6cxdVnw64LCXN">
+        <u xml:id="i-8e6ad44213c7744d-2" who="i-HW3WbeQFWVwtJaT8RCt2JM" prev="i-8e6ad44213c7744d-0" next="i-A8VtodmJG6cxdVnw64LCXN">
           <seg xml:id="i-LXnx3su725668P398Bc4dG">
             med de nya ärenden som regeringen anser lämpligt att överflytta
             på regeringsrätten, och tendensen har gått därhän att allt flera
@@ -10459,12 +10399,10 @@
         <note xml:id="i-TsV5Hu2U78xRxFGV4NXCSK">
           Om vidgad domstolsprövning av administrativa frågor m. m.
         </note>
-        <u xml:id="i-A8VtodmJG6cxdVnw64LCXN" who="i-HW3WbeQFWVwtJaT8RCt2JM" prev="i-8e6ad44213c7744d-2" next="i-8e6ad44213c7744d-3">
+        <u xml:id="i-A8VtodmJG6cxdVnw64LCXN" who="i-HW3WbeQFWVwtJaT8RCt2JM" prev="i-8e6ad44213c7744d-2" next="i-8e6ad44213c7744d-5">
           <seg xml:id="i-6u4Z51jm4z4DgymGmdfNDz">
             har antagits i åtskilliga andra länder, bl. a. i Belgien.
           </seg>
-        </u>
-        <u xml:id="i-8e6ad44213c7744d-3" who="i-HW3WbeQFWVwtJaT8RCt2JM" prev="i-A8VtodmJG6cxdVnw64LCXN" next="i-9Q3Hv95r5AqubV5fvhKZgM">
           <seg xml:id="i-V1sSnoF2A1vjzFd5q9fV3K">
             I Västtyskland, som har den kanske modernaste författningen i
             Europa — den tillkom 1949 — stadgas, att enskild, som känner sig
@@ -10489,14 +10427,10 @@
             också en möjlighet att tillsätta särskilda förvaltningsdomstolar,
             men detta har ännu inte skett i Danmark.
           </seg>
-        </u>
-        <u xml:id="i-9Q3Hv95r5AqubV5fvhKZgM" who="i-HW3WbeQFWVwtJaT8RCt2JM" prev="i-8e6ad44213c7744d-3" next="i-8e6ad44213c7744d-4">
           <seg xml:id="i-LXXgXBqz2cNPN6t8sy3hHa">
             I Norge tillsattes 1951 en utredning, som skall inkomma med förslag
             till kontroll av förvaltningssystemet.
           </seg>
-        </u>
-        <u xml:id="i-8e6ad44213c7744d-4" who="i-HW3WbeQFWVwtJaT8RCt2JM" prev="i-9Q3Hv95r5AqubV5fvhKZgM" next="i-8e6ad44213c7744d-5">
           <seg xml:id="i-TmN1F1uxuCNkYTYTYgg7d1">
             Som regel prövas i samtliga dessa länder beslutens lagenlighet
             men icke deras ändamålsenlighet.
@@ -10567,7 +10501,7 @@
         <note xml:id="i-BbVyxSu6Cm1cHsnXfk87Nj">
           Om vidgad domstolsprövning av administrativa frågor m. m.
         </note>
-        <u xml:id="i-8e6ad44213c7744d-5" who="i-HW3WbeQFWVwtJaT8RCt2JM" prev="i-8e6ad44213c7744d-4" next="i-8e6ad44213c7744d-6">
+        <u xml:id="i-8e6ad44213c7744d-5" who="i-HW3WbeQFWVwtJaT8RCt2JM" prev="i-A8VtodmJG6cxdVnw64LCXN" next="i-8e6ad44213c7744d-6">
           <seg xml:id="i-CmLDActtDkjrdNBXiQcbQv">
             troll. Att riksdagen också delar den uppfattningen framgår av
             att 1952 års riksdag begärde en förutsättningslös utredning av
@@ -10681,7 +10615,7 @@
         <note xml:id="i-8qUQxLwhLozZgbdSv5QswV" type="speaker">
           Herr HERLITZ (h):
         </note>
-        <u xml:id="i-e39e68ef4bd4b123-44" who="i-4VusjuC8NvwGAqJKWikvPG" next="i-Mtoz6iryPtviMFntVFZPLh">
+        <u xml:id="i-e39e68ef4bd4b123-44" who="i-4VusjuC8NvwGAqJKWikvPG" next="i-e39e68ef4bd4b123-46">
           <seg xml:id="i-BrShkUTm5bhJRQwmPoZwSc">
             Herr talman! När jag i förmiddags hade tillfälle att stundtals
             åhöra debatten om detta ämne i andra kammaren, var det inte utan
@@ -10715,13 +10649,9 @@
             kravet på en domstolsmässig kontroll över förvaltning och regering.
             I olika former har också detta krav blivit förverkligat på skilda
           </seg>
-        </u>
-        <u xml:id="i-Mtoz6iryPtviMFntVFZPLh" who="i-4VusjuC8NvwGAqJKWikvPG" prev="i-e39e68ef4bd4b123-44" next="i-e39e68ef4bd4b123-45">
           <seg xml:id="i-4y9vwU2U9Uv57tfWHdqc5c">
             håll, såsom fru Gärde Widemar mycket riktigt utvecklade.
           </seg>
-        </u>
-        <u xml:id="i-e39e68ef4bd4b123-45" who="i-4VusjuC8NvwGAqJKWikvPG" prev="i-Mtoz6iryPtviMFntVFZPLh" next="i-e39e68ef4bd4b123-46">
           <seg xml:id="i-66Xg6owai6hsrRtUHeKeHc">
             Det egendomliga är, att hela detta problemkomplex liksom varit
             borta ur den svenska politiska diskussionen; jag kan inte minnas
@@ -10773,7 +10703,7 @@
         <note xml:id="i-6uBvQuZP1PLP5tMkuiLGaM">
           Om vidgad domstolsprövning av administrativa frågor m. m.
         </note>
-        <u xml:id="i-e39e68ef4bd4b123-46" who="i-4VusjuC8NvwGAqJKWikvPG" prev="i-e39e68ef4bd4b123-45" next="i-e39e68ef4bd4b123-47">
+        <u xml:id="i-e39e68ef4bd4b123-46" who="i-4VusjuC8NvwGAqJKWikvPG" prev="i-e39e68ef4bd4b123-44" next="i-e39e68ef4bd4b123-47">
           <seg xml:id="i-TqQu78xxBENo4oguweMoXs">
             för 50 år sedan avgjordes besvärsmål och ömtåliga rättsfrågor
             över huvud regelmässigt av en krets, bestående — efter vad som
@@ -11418,7 +11348,7 @@
         <note xml:id="i-7JoWxgkit9jTPXBf3MFPot">
           Om vidgad domstolsprövning av administrativa frågor m. m.
         </note>
-        <u xml:id="i-e39e68ef4bd4b123-54" who="i-f4u5Yi8ZSYc6qWukd6X6t" prev="i-e39e68ef4bd4b123-53" next="i-AAvhHjvvc9wQ8HLK2qjvek">
+        <u xml:id="i-e39e68ef4bd4b123-54" who="i-f4u5Yi8ZSYc6qWukd6X6t" prev="i-e39e68ef4bd4b123-53" next="i-e39e68ef4bd4b123-56">
           <seg xml:id="i-3wnSp1pLr6NZ9vcSuoCJoj">
             tänkliggörande till? Vad tjänar det för vettigt ändamål att i
             tid och otid föra fram frågan under sådana former, att man väcker
@@ -11429,8 +11359,6 @@
             och trivsel i samhället och att demokratien utvecklas och hålles
             vid liv.
           </seg>
-        </u>
-        <u xml:id="i-AAvhHjvvc9wQ8HLK2qjvek" who="i-f4u5Yi8ZSYc6qWukd6X6t" prev="i-e39e68ef4bd4b123-54" next="i-e39e68ef4bd4b123-55">
           <seg xml:id="i-56KZHw1iZEsZ2iJn4pTaj2">
             Det var väl också ett uttryck för denna tankegång hos regeringen
             och riksdagsmajoriteten att herr Herlitz fick i uppdrag att verkställa
@@ -11446,8 +11374,6 @@
             i ärenden rörande enskild rätt och därmed sammanhängande frågor.
             Man hade således blicken öppen för dessa frågor.
           </seg>
-        </u>
-        <u xml:id="i-e39e68ef4bd4b123-55" who="i-f4u5Yi8ZSYc6qWukd6X6t" prev="i-AAvhHjvvc9wQ8HLK2qjvek" next="i-e39e68ef4bd4b123-56">
           <seg xml:id="i-XK7c1XLefbMMVd6kUnwc8R">
             Herr Herlitz redovisade år 1946 resultatet av utredningen i ett
             betänkande, som var betitlat »Förvaltningsförfarandet». Det var
@@ -11513,7 +11439,7 @@
         <note xml:id="i-MDFzh63cawr14Y3RzGnWLE">
           Om vidgad domstolsprövning av administrativa frågor m. m.
         </note>
-        <u xml:id="i-e39e68ef4bd4b123-56" who="i-f4u5Yi8ZSYc6qWukd6X6t" prev="i-e39e68ef4bd4b123-55" next="i-e39e68ef4bd4b123-57">
+        <u xml:id="i-e39e68ef4bd4b123-56" who="i-f4u5Yi8ZSYc6qWukd6X6t" prev="i-e39e68ef4bd4b123-54" next="i-e39e68ef4bd4b123-57">
           <seg xml:id="i-JKQb3MauhPF4AwgsFtEThD">
             stols prövning. Det är dock, har det sagts i utskottet, omstritt
             hur långt domstolarnas kompetens sträcker sig i det avseendet.
@@ -13019,7 +12945,7 @@
         <note xml:id="i-EVeHc2nFiemLq6e5gf8WrH" type="date">
           Onsdagen den 5 maj 1954 em.
         </note>
-        <u xml:id="i-DTWH5DgFi1wB9RknbNkDcy" who="i-f4u5Yi8ZSYc6qWukd6X6t" prev="i-e39e68ef4bd4b123-75" next="i-e39e68ef4bd4b123-76">
+        <u xml:id="i-DTWH5DgFi1wB9RknbNkDcy" who="i-f4u5Yi8ZSYc6qWukd6X6t" prev="i-e39e68ef4bd4b123-75" next="i-e39e68ef4bd4b123-77">
           <seg xml:id="i-58StN1g9K7kmHkRiaV1u1z">
             undan, spåras i den av herr Ohlin m. fl. väckta motionen — är
             nu spårlöst borta i reservationen. Reservanterna har t. o. m.
@@ -13027,8 +12953,6 @@
             i den allmänna debatten har fått en viss betydelse, nämligen regeringsrättens
             lokalfråga.
           </seg>
-        </u>
-        <u xml:id="i-e39e68ef4bd4b123-76" who="i-f4u5Yi8ZSYc6qWukd6X6t" prev="i-DTWH5DgFi1wB9RknbNkDcy" next="i-e39e68ef4bd4b123-77">
           <seg xml:id="i-5hJeoW1yyv9yPeu6vvy3io">
             På en punkt i fråga om regeringsrätten har utskottsmajoriteten
             dessutom glädjen att kunna spela ut herr Herlitz emot folkpartiet.
@@ -13069,7 +12993,7 @@
         <note xml:id="i-EE6kfhy5esyH41yyjovez7">
           Om översyn av regeringsrättslagen m. m.
         </note>
-        <u xml:id="i-e39e68ef4bd4b123-77" who="i-f4u5Yi8ZSYc6qWukd6X6t" prev="i-e39e68ef4bd4b123-76" next="i-4tF9t3afwN6N3pMDXBA6uK">
+        <u xml:id="i-e39e68ef4bd4b123-77" who="i-f4u5Yi8ZSYc6qWukd6X6t" prev="i-DTWH5DgFi1wB9RknbNkDcy">
           <seg xml:id="i-UfhWAYCbVkiKwerRinjFan">
             sankt. Det får man ju besked om när man vet att det inom justitiedepartementet
             har påbörjats en undersökning just av denna fråga.
@@ -13093,15 +13017,11 @@
             har en annan utomordentligt rättskunnig remissinstans, nämligen
             justitiekanslern.
           </seg>
-        </u>
-        <u xml:id="i-4tF9t3afwN6N3pMDXBA6uK" who="i-f4u5Yi8ZSYc6qWukd6X6t" prev="i-e39e68ef4bd4b123-77" next="i-e39e68ef4bd4b123-78">
           <seg xml:id="i-PjTy1qWsXBvej8wkk9Np9C">
             Att, som reservanterna vill förorda, i lag ålägga Kungl. Maj:t
             att i vissa fall utöver vad lagen nu föreskriver inhämta regeringrättens
             yttrande vore föga praktiskt enligt utskottets mening.
           </seg>
-        </u>
-        <u xml:id="i-e39e68ef4bd4b123-78" who="i-f4u5Yi8ZSYc6qWukd6X6t" prev="i-4tF9t3afwN6N3pMDXBA6uK">
           <seg xml:id="i-WJSLauCc3HCHBQeR4ytJ1D">
             Frågan om inrättandet av en särskild kår av regeringsrättsföredragande
             är en organisatorisk lämplighetsfråga och ingenting annat. Skäl
@@ -13336,7 +13256,7 @@
         <note xml:id="i-DWvoazGrNLt1yhaLzfPe8p">
           Om allmänna jävsregler för statsförvaltningen m. m.
         </note>
-        <u xml:id="i-e39e68ef4bd4b123-84" who="i-f4u5Yi8ZSYc6qWukd6X6t" prev="i-e39e68ef4bd4b123-83" next="i-7t5YezsAT8AjvgqX7b2fme">
+        <u xml:id="i-e39e68ef4bd4b123-84" who="i-f4u5Yi8ZSYc6qWukd6X6t" prev="i-e39e68ef4bd4b123-83">
           <seg xml:id="i-8JdM5PwSBTULpjcRDuQr5Y">
             ferera herr Herlitz egen syn på den angelägenhetsgrad som man
             bör tillerkänna detta ärende. Det är ju också känt, att besvärssakkunniga
@@ -13357,8 +13277,6 @@
             Är det verkligen ett angeläget ärende? Borde det inte ha kunnat
             anstå?
           </seg>
-        </u>
-        <u xml:id="i-7t5YezsAT8AjvgqX7b2fme" who="i-f4u5Yi8ZSYc6qWukd6X6t" prev="i-e39e68ef4bd4b123-84">
           <seg xml:id="i-CtUzevWdHg8GJ59jmyo2bC">
             Jag ber, herr talman, att få yrka bifall till utskottets utlåtande.
           </seg>
@@ -13366,7 +13284,7 @@
         <note xml:id="i-3gKhszBqG1Y9XjNbwBvULV" type="speaker">
           Herr HERLITZ (h):
         </note>
-        <u xml:id="i-e39e68ef4bd4b123-85" who="i-4VusjuC8NvwGAqJKWikvPG" next="i-QRcTx1qKVdcc9sHZtDyJwv">
+        <u xml:id="i-e39e68ef4bd4b123-85" who="i-4VusjuC8NvwGAqJKWikvPG">
           <seg xml:id="i-G8SspQSfkBT1FPGx5xGHGp">
             Herr talman! Det måtte föreligga något missförstånd med avseende
             på de grunder, på vilka man påyrkar lagstiftning angående jäv.
@@ -13391,8 +13309,6 @@
             om man hela tiden efterfrågar eller misstänker åberopandet av
             några särskilda ådagalagda missförhållanden.
           </seg>
-        </u>
-        <u xml:id="i-QRcTx1qKVdcc9sHZtDyJwv" who="i-4VusjuC8NvwGAqJKWikvPG" prev="i-e39e68ef4bd4b123-85">
           <seg xml:id="i-JTLBdHLdh1nwF7bt4SxMj1">
             Efter härmed slutad överläggning gjordes i enlighet med de yrkanden,
             som därunder framkommit, propositioner, först på bifall till vad

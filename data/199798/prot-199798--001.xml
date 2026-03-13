@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>digital-origin</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">digital-origin</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-FK5PVm48y17wcyDmh3gpH7" type="speech">
             <linkGrp type="u">
               <ptr target="#i-57e4475968e84f07-0"/>
@@ -42,7 +42,13 @@
               <ptr target="#i-VvJEm7adXUMKpPweBYCqPM"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -106,7 +112,7 @@
           Berättelse om granskning av bevis för riksdagsledamot och ersättare
           för riksdagsledamöter
         </note>
-        <u xml:id="i-WRSer4DciUwJZkkzXyeoWj" who="unknown">
+        <u xml:id="i-WRSer4DciUwJZkkzXyeoWj" who="unknown" next="i-CNGfVtKoi1XovwwFTxvhWS">
           <seg xml:id="i-SeJKMRLi6EtznFaAwgpdUr">
             Till Valprövningsnämnden har från Riksskatteverket inkommit bevis
             om att Ann-Kristin Fösker (fp),
@@ -121,13 +127,11 @@
         <note xml:id="i-RTHG1p59dpTBpbRd6NHmNo">
           avsagt sig sitt uppdrag som riksdagsledamot. Från
         </note>
-        <u xml:id="i-CNGfVtKoi1XovwwFTxvhWS" who="unknown">
+        <u xml:id="i-CNGfVtKoi1XovwwFTxvhWS" who="unknown" prev="i-WRSer4DciUwJZkkzXyeoWj">
           <seg xml:id="i-7Ndhk8KzDKY6WniXRrLMWi">
             Riksskatteverket har också inkommit ny bilaga till tidigare utfärdade
             bevis för ersättare i detta fall.
           </seg>
-        </u>
-        <u xml:id="i-AnAe5QUFqemoVAoBfYqsGA" who="unknown">
           <seg xml:id="i-BNmVBSs4Aj8M4EeynuLFdb">
             Valprövningsnämnden har denna dag granskat beviset för den nya
             ledamoten och den nya bilagan till bevis för ersättare och därvid

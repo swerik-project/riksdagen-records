@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-2hSA5CLh6s7Eqzw9BXWwgc" type="speech">
             <linkGrp type="u">
               <ptr target="#i-JvfpCbUuXkZ5F6bYRHVnTL"/>
@@ -199,7 +199,13 @@
               <ptr target="#i-HhFSJoXW38bWijpXshudvJ"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -435,7 +441,7 @@
         <note xml:id="i-MHvhXM2ipVAnnC9asV2ahv" type="speaker">
           Herr von Koch:
         </note>
-        <u xml:id="i-QZjEJPurPm24b9yw7bJtyo" who="i-Vmzwz2CeXhKe21YDqhMFjV" next="i-MqWRK2K5VkjC9AmJZdLt8M">
+        <u xml:id="i-QZjEJPurPm24b9yw7bJtyo" who="i-Vmzwz2CeXhKe21YDqhMFjV">
           <seg xml:id="i-GJqetSQb9Teb2SrR5tc9XQ">
             Det är med smärta jag nödgas motsätta mig hvad den siste talaren
             yttrat, och för hvilket han, efter min tanke, gifvit ganska goda
@@ -451,13 +457,9 @@
             ett sådant af enskild motionär framstäldt förslag. Ett anslag
             kan ju nemli-
           </seg>
-        </u>
-        <u xml:id="i-MqWRK2K5VkjC9AmJZdLt8M" who="i-Vmzwz2CeXhKe21YDqhMFjV" prev="i-QZjEJPurPm24b9yw7bJtyo" next="i-TiETjUZZd97sp3SBmYB541">
           <seg xml:id="i-5L9XFrBVJiyCNJYdvM98C9">
             "gen genom glömska eller förbiseende, ehuruväl detsamma är ytterst
           </seg>
-        </u>
-        <u xml:id="i-TiETjUZZd97sp3SBmYB541" who="i-Vmzwz2CeXhKe21YDqhMFjV" prev="i-MqWRK2K5VkjC9AmJZdLt8M">
           <seg xml:id="i-ApmsCyGsyRjqAXvrg9cXVd">
             nödvändigt, icke hafva blifvit af Kongl. Maj:t äskadt, likaså
             kan någon sedermera inträffad omständighet — såsom det kanske
@@ -623,7 +625,7 @@
           i följd hvaraf man har skäl att ENSE förmoda, att rörelsen och
           folkmängden i staden ytterligare komma (Forts.) att tillväxa.
         </note>
-        <u xml:id="i-V6VsU7BjpgtzWSiK2VrAS8" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-CbB6vYx467fpbYMTAooUnh" next="i-CBf97wtuc6jR9jn8kyKCYR">
+        <u xml:id="i-V6VsU7BjpgtzWSiK2VrAS8" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-CbB6vYx467fpbYMTAooUnh" next="i-4rzoiwRKz7EBTwDsW6yhmM">
           <seg xml:id="i-9xqqxxPSxa5xftP7YLP3gs">
             Vidare erinrar motionären derom, att Oskarshamn är beläget på
             ett afstånd af icke mindre än 9 mil från närmaste städer, der
@@ -639,8 +641,6 @@
             och sålunda komma att inträda i handel och näringar med alldeles
             otillräckliga skolkunskaper.
           </seg>
-        </u>
-        <u xml:id="i-CBf97wtuc6jR9jn8kyKCYR" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-V6VsU7BjpgtzWSiK2VrAS8" next="i-4sRUtZcd7NL4VCrLJpNgsA">
           <seg xml:id="i-UUgvo9Yk4wB9tF4pSCTDVF">
             Utskottet synes hafva behjertat dessa af motionären anförda skäl
             och ansett dem förtjena afseende. Ja, Utskottet har till och med
@@ -686,7 +686,7 @@
         <note xml:id="i-62VLYZDUmQM9gwwNAwA3Va" type="date">
           8 Måndagen den 3 April, e. m.
         </note>
-        <u xml:id="i-4rzoiwRKz7EBTwDsW6yhmM" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-4sRUtZcd7NL4VCrLJpNgsA" next="i-MX42rhYjvoQ4tR8CGrAMZ2">
+        <u xml:id="i-4rzoiwRKz7EBTwDsW6yhmM" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-V6VsU7BjpgtzWSiK2VrAS8">
           <seg xml:id="i-RsvPpnhE8vJ7dFjd4BKRke">
             rätta orsaken hvarföre nådig proposition i frågan icke erhållits
             varit den, att under trängseln af många anslagsfrågor, som bort
@@ -695,8 +695,6 @@
             tillbaka för andra, som ansetts vara vigtigare och vara af beskaffenhet
             att i främsta rummet böra tillgodoses.
           </seg>
-        </u>
-        <u xml:id="i-MX42rhYjvoQ4tR8CGrAMZ2" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-4rzoiwRKz7EBTwDsW6yhmM">
           <seg xml:id="i-54WXaG2G8bt5eVVgPgdBZU">
             Det medgifves gerna att, från synpunkten af det stora hela, denna
             fråga icke kan anses bland de' allra vigtigaste, som i detta utlåtande
@@ -719,7 +717,7 @@
         <note xml:id="i-AsXZiY4G842n3hf79sqSvn" type="speaker">
           Herr Dahm:
         </note>
-        <u xml:id="i-UNK4MB1Ev1oAosGchxVGD6" who="i-U1oHFkh9zjnxGszDAxGhfk" next="i-9JhgT9HkfSUd2eqm5aYyTo">
+        <u xml:id="i-UNK4MB1Ev1oAosGchxVGD6" who="i-U1oHFkh9zjnxGszDAxGhfk" next="i-Pkyvf95zifnJWvs9rHHCyG">
           <seg xml:id="i-RH4Rmfzxa3CngPFA4zmZM8">
             Ehuru jag nogsamt inser, att Utskottet, då det afstyrkt Herr
             Svenséns förevarande motion, följt en grundsats, som af Utskottets
@@ -745,8 +743,6 @@
             af alla dem, som skola såsom näringsidkare deltaga i det materiela
             lifvets utveckling.
           </seg>
-        </u>
-        <u xml:id="i-9JhgT9HkfSUd2eqm5aYyTo" who="i-U1oHFkh9zjnxGszDAxGhfk" prev="i-UNK4MB1Ev1oAosGchxVGD6" next="i-Pkyvf95zifnJWvs9rHHCyG">
           <seg xml:id="i-LpwDN2XRSCwiK37Hm9CN1H">
             En föregående talare har framstält de hufvudsakliga skäl, som
             kunna anföras till förmån för motionen, och jag kan icke annat
@@ -762,7 +758,7 @@
           Herr Widénu: Jag vill icke bestrida att åtskilliga, rätt be-
           Utvidgning uf
         </note>
-        <u xml:id="i-Pkyvf95zifnJWvs9rHHCyG" who="i-U1oHFkh9zjnxGszDAxGhfk" prev="i-9JhgT9HkfSUd2eqm5aYyTo" next="i-7XToAW8EN49cM1CB1KMB5V">
+        <u xml:id="i-Pkyvf95zifnJWvs9rHHCyG" who="i-U1oHFkh9zjnxGszDAxGhfk" prev="i-UNK4MB1Ev1oAosGchxVGD6" next="i-JhqeXkn8q5kCipwLY5aXFR">
           <seg xml:id="i-QQgQkSVwmsL5Ch8ykPgfQd">
             aktansvärda skäl kunna förefinnas för bifall till ifrågavarande
             elementarläromotion, såsom de näst föregående talarne yrkat. Men
@@ -779,8 +775,6 @@
             utredning, som Riksdagen måste äska, efter min mening, ej anses
             vara gjord. Men här hafva vi ju blott enskild mans motion. .
           </seg>
-        </u>
-        <u xml:id="i-7XToAW8EN49cM1CB1KMB5V" who="i-U1oHFkh9zjnxGszDAxGhfk" prev="i-Pkyvf95zifnJWvs9rHHCyG" next="i-JhqeXkn8q5kCipwLY5aXFR">
           <seg xml:id="i-E7UziP9aTBfQh9JMLfkBJ3">
             Särskildt tillåter jag mig att fästa uppmärksamheten på den omständigheten,
             att vi ju hafva att från Kongl. Maj:t förvänta en fullständig
@@ -810,7 +804,7 @@
         <note xml:id="i-QAo4Sv3BXXiygoypa7BrGv">
           13:de—18:de punkterna. Biföllos.
         </note>
-        <u xml:id="i-JhqeXkn8q5kCipwLY5aXFR" who="i-U1oHFkh9zjnxGszDAxGhfk" prev="i-7XToAW8EN49cM1CB1KMB5V">
+        <u xml:id="i-JhqeXkn8q5kCipwLY5aXFR" who="i-U1oHFkh9zjnxGszDAxGhfk" prev="i-Pkyvf95zifnJWvs9rHHCyG">
           <seg xml:id="i-Rn3reL1T4u8G7RtbLuNWSQ">
             19:de punkten.
           </seg>
@@ -909,7 +903,7 @@
           för on anslag till den rent konstnärliga delen af denna branch.
           Teknologiska
         </note>
-        <u xml:id="i-32E6Bd6aG5C3WNppz45p7S" who="unknown" prev="i-7Gv812QGYASmGRRtH4d4YA" next="i-McgoXqfLxpBBG5TMvfSFVJ">
+        <u xml:id="i-32E6Bd6aG5C3WNppz45p7S" who="unknown" prev="i-7Gv812QGYASmGRRtH4d4YA" next="i-3AEXMBaEoaDjBZyYGc6Vfu">
           <seg xml:id="i-Hz6qpBYuu5Lx3pC7wfUhDu">
             Men det anföres vidare, att desse komiterade hafva till stöd
             ”prs) för detta förslag anfört, att på samma gång som efter denna
@@ -942,8 +936,6 @@
             måste nöja sig med de mindre framstående; ett förhållande, som
             ej synes mig vara med god ordning förenligt.
           </seg>
-        </u>
-        <u xml:id="i-McgoXqfLxpBBG5TMvfSFVJ" who="unknown" prev="i-32E6Bd6aG5C3WNppz45p7S" next="i-JemHJZNRVDbzL4Evs4Trng">
           <seg xml:id="i-2XqBh89Jm98M2PoVQc2zzP">
             Man skall sannolikt mot mig anföra, att akademien för de fria
             konsterna sjelf tillstyrkt ifrågavarande förslag. Om jag rätt
@@ -960,8 +952,6 @@
             lämpligen kunna flyttas till teknologiska institutet, hvilket
             äfven förefaller mig vara det naturligaste.
           </seg>
-        </u>
-        <u xml:id="i-JemHJZNRVDbzL4Evs4Trng" who="unknown" prev="i-McgoXqfLxpBBG5TMvfSFVJ" next="i-3AEXMBaEoaDjBZyYGc6Vfu">
           <seg xml:id="i-QA4z9K1yjKayLJQ7E54kwM">
             Vidare skall kunna sägas, att sekreteraren vid fria konsternas
             akademi har varit med i komitén, då denna afgaf sitt yttrande
@@ -982,7 +972,7 @@
         <note xml:id="i-U75wMWo955gwtPA5kCHFh8">
           Teknologiska institutet. (Forts.)
         </note>
-        <u xml:id="i-3AEXMBaEoaDjBZyYGc6Vfu" who="unknown" prev="i-JemHJZNRVDbzL4Evs4Trng" next="i-GuHGNKGVtJ9omk1ABUgDZL">
+        <u xml:id="i-3AEXMBaEoaDjBZyYGc6Vfu" who="unknown" prev="i-32E6Bd6aG5C3WNppz45p7S">
           <seg xml:id="i-DxCPSxdMxXshS4Wpp8YCBK">
             fälla något bestämdt yttrande, men det kan möjligen förklaras
             deraf, att samme person, som är sekreterare i akademien, äfven
@@ -994,8 +984,6 @@
             det sannolikt blefve ytterst få arkitekter, som fullbordade sin
             bildning vid akademien.
           </seg>
-        </u>
-        <u xml:id="i-GuHGNKGVtJ9omk1ABUgDZL" who="unknown" prev="i-3AEXMBaEoaDjBZyYGc6Vfu">
           <seg xml:id="i-WrhuTXgA8PPyLd1QKpnHhb">
             Jag började med att nämna, att det behof, som i förevarande fråga
             blifvit framstäldt, icke syntes mig vara till fullo ådagalagdt.
@@ -1113,7 +1101,7 @@
         <note xml:id="i-ANBhxRZsaJ64W1fisfBkso" type="date">
           14 Måndagen den 3 April, e. m.
         </note>
-        <u xml:id="i-H7wksV26V7iovoBA7rZVaB" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-NfHwCtNjDbZtGEgEt18Fw2" next="i-PNTb5CamWHWYdPbPeC4BFQ">
+        <u xml:id="i-H7wksV26V7iovoBA7rZVaB" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-NfHwCtNjDbZtGEgEt18Fw2" next="i-KPqSscqeVy5PEHiyfkAvY3">
           <seg xml:id="i-PTxaEKNi4waDsGhfa55ReZ">
             Här 1 vårt land, mine herrar, hafva aldrig de konster, som bilda
             inom rummet, haft något fast fotfäste, och hvad särskildt arkitekturen
@@ -1144,8 +1132,6 @@
             — så är fara värdt att konsten sjelf snart skall se sig tvungen
             att sätta sitt högsta mål i det nyttiga.
           </seg>
-        </u>
-        <u xml:id="i-PNTb5CamWHWYdPbPeC4BFQ" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-H7wksV26V7iovoBA7rZVaB" next="i-FDskpnySZiWqSvt5a3uXPw">
           <seg xml:id="i-7eXLhfxAoRtyS81HnobzcH">
             Under Wasaregenternas tid hafva uppstått några monumentala byggnader
             af temligen god beskaffenhet, och så länge landet var rikt, fingo
@@ -1165,8 +1151,6 @@
             men jag vet också att ständigt har sträfvandet att se dessa fordringar
             till godo stått
           </seg>
-        </u>
-        <u xml:id="i-FDskpnySZiWqSvt5a3uXPw" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-PNTb5CamWHWYdPbPeC4BFQ" next="i-KPqSscqeVy5PEHiyfkAvY3">
           <seg xml:id="i-BT4PCpy8vnT6xPyW7GZ3S5">
             - bakom, och ofta har man haft glädjen att se dem realiserade.
           </seg>
@@ -1182,7 +1166,7 @@
           betvifla detta, skall jag icke underlåta mn anslag till att än
           en gång begära ordet för att visa att jag häruti har rätt. 7/eknologiska
         </note>
-        <u xml:id="i-KPqSscqeVy5PEHiyfkAvY3" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-FDskpnySZiWqSvt5a3uXPw" next="i-TpLoTSeAzsi9FHBWFHw5T3">
+        <u xml:id="i-KPqSscqeVy5PEHiyfkAvY3" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-H7wksV26V7iovoBA7rZVaB">
           <seg xml:id="i-FPqMRcF74Kn8vQB62VteGJ">
             Då det antages som säkert, att man icke, utan att förrycka —
             "poucsv fria konsternas akademi från dess högsta mål och verksamhet.
@@ -1199,8 +1183,6 @@
             draperi öfver en väl utfunderad mannequin, i stället för en mångskiftande
             mantel kring en skön organism.
           </seg>
-        </u>
-        <u xml:id="i-TpLoTSeAzsi9FHBWFHw5T3" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-KPqSscqeVy5PEHiyfkAvY3" next="i-KS9sCcUBDLkZTiK8nPC5ps">
           <seg xml:id="i-64XyYQNjAEuKUJ35PveGnd">
             Jag önskar, att vid teknologiska institutet måtte finnas en förberedande
             undervisning 1 ritning, i ornamentik, i beskrifvande geometri
@@ -1217,8 +1199,6 @@
             den af Kongl. Maj:t nu begärda staten med undantag af lönen för
             professuren i arkitektur.
           </seg>
-        </u>
-        <u xml:id="i-KS9sCcUBDLkZTiK8nPC5ps" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-TpLoTSeAzsi9FHBWFHw5T3" next="i-R5ZFb1UvWSPQTBVtaBRU22">
           <seg xml:id="i-4kKNnp6ceumVZufVLCp6aQ">
             Innan jag slutar vill jag nämna, att den Järare, som med så stor
             heder länge skött undervisningen i detta ämne vid fria konsternas
@@ -1229,13 +1209,9 @@
             likstälde professorn vid fria konsternas akademi finge fröjda
             sig åt, emedan den blefve fem gånger större än hans nuvarande.
           </seg>
-        </u>
-        <u xml:id="i-R5ZFb1UvWSPQTBVtaBRU22" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-KS9sCcUBDLkZTiK8nPC5ps" next="i-GNFrbCKRqWFrcJWVoj3d8B">
           <seg xml:id="i-NVY5BXbw4g9WfuR1C5xPC3">
             Jag vågar icke framställa något yrkande i strid mot såväl
           </seg>
-        </u>
-        <u xml:id="i-GNFrbCKRqWFrcJWVoj3d8B" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-R5ZFb1UvWSPQTBVtaBRU22">
           <seg xml:id="i-YBYqog1kXXCksh3n6wsGsw">
             Kongl. Majts proposition, som Stats-Utskottets hemställan, väl
             vetande, att ett sådant endast kan hafva någon utsigt till framgång,
@@ -1257,7 +1233,7 @@
         <note xml:id="i-6maBYB9vPxeWLo5SDSEq2N" type="speaker">
           Herr Hedlund:
         </note>
-        <u xml:id="i-FTmy8N3xjLxwPs6mwhHc6p" who="i-YFzzFKh2NjM54cFjad2qWQ" next="i-RW8uZpsEjvfbbzwaNWbiVD">
+        <u xml:id="i-FTmy8N3xjLxwPs6mwhHc6p" who="i-YFzzFKh2NjM54cFjad2qWQ" next="i-R56jZC1VEoCVfcsSLCnvbW">
           <seg xml:id="i-SbGRQZvUxvAGbSvUnYzKA1">
             Det lider icke tvifvel, att, genom den lönestat, som här blifvit
             föreslagen, vi närma oss den tidpunkt, som, må vara, är blott
@@ -1307,8 +1283,6 @@
             det om en skola för praktisk arkitektur, från hvilken de som det
             önskade, kunde öfvergå till den rent estetiska anstalten.
           </seg>
-        </u>
-        <u xml:id="i-RW8uZpsEjvfbbzwaNWbiVD" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-FTmy8N3xjLxwPs6mwhHc6p" next="i-R56jZC1VEoCVfcsSLCnvbW">
           <seg xml:id="i-4xxki2fD78KEh22ucmGbsv">
             Jag får säga för min del, att med all den förkärlek och den aktning,
             som jag egnar åt de tekniska studierna med hänsyn
@@ -1318,7 +1292,7 @@
         <note xml:id="i-R7FUMqqufz1gnUAQhSqH81" type="date">
           Måndagen den 3 April, e. m. 17 N:o 17.
         </note>
-        <u xml:id="i-R56jZC1VEoCVfcsSLCnvbW" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-RW8uZpsEjvfbbzwaNWbiVD" next="i-66YVZbJ2EpjNPGF8xt5mai">
+        <u xml:id="i-R56jZC1VEoCVfcsSLCnvbW" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-FTmy8N3xjLxwPs6mwhHc6p">
           <seg xml:id="i-CjyiUi7ZfUsjpSMiRuxA3B">
             till deras stora praktiska betydelse och deras värde för ett
             folk, om anslag till som det svenska, hvars håg och intellektuela
@@ -1345,8 +1319,6 @@
             institutet såsom praktiskt läroverk. Vi kunna ju säga, att vi
             göra icke med arkitekturen såsom skön konst.
           </seg>
-        </u>
-        <u xml:id="i-66YVZbJ2EpjNPGF8xt5mai" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-R56jZC1VEoCVfcsSLCnvbW">
           <seg xml:id="i-GXvpM5pJNW6vhc3q97d9Wf">
             För min del kan jag icke se annat än en källa till obehag i denna
             lönestat, en strid emellan det praktiska läroverket, som vi vilja
@@ -1365,7 +1337,7 @@
         <note xml:id="i-PuAWhhCBQLyTMsaLN7UKdx" type="speaker">
           Herr Statsrådet Carlson:
         </note>
-        <u xml:id="i-G5ffMzy6ffDhy5PLcaDXvc" who="i-4vNUD3c1Zrcuq5QuVbNmhB" next="i-TxP3zxD2SxTtVCxm5JTDeF">
+        <u xml:id="i-G5ffMzy6ffDhy5PLcaDXvc" who="i-4vNUD3c1Zrcuq5QuVbNmhB" next="i-J1SXwDA9SV1Hh6cGbR7H3Z">
           <seg xml:id="i-Ve6tGzVTKZ45nZbb7Meune">
             Derom hyser jag någon förhoppning, ehuru den visserligen icke
             kan vara så stor, att då den siste talaren förklarat sig vilja
@@ -1374,8 +1346,6 @@
             icke tilltro det någon så förstörande afsigt eller verkning, som
             han i sitt varma språk antydt.
           </seg>
-        </u>
-        <u xml:id="i-TxP3zxD2SxTtVCxm5JTDeF" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-G5ffMzy6ffDhy5PLcaDXvc" next="i-J1SXwDA9SV1Hh6cGbR7H3Z">
           <seg xml:id="i-4idSpM3bnGa4GwkKdxz317">
             Den förste talaren har, så vidt jag kunnat fatta det, egentligen
             stödt sig derpå, att då anslag begärdes för en fackskola i arkitektur
@@ -1403,7 +1373,7 @@
         <note xml:id="i-BnQnPk7GK9NbViYNTKnJZH">
           institutet. (Forts.)
         </note>
-        <u xml:id="i-J1SXwDA9SV1Hh6cGbR7H3Z" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-TxP3zxD2SxTtVCxm5JTDeF" next="i-3rtr4zyyMEBoZdVqVczZVi">
+        <u xml:id="i-J1SXwDA9SV1Hh6cGbR7H3Z" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-G5ffMzy6ffDhy5PLcaDXvc" next="i-Pf87LCttbne3FxJedcaYoz">
           <seg xml:id="i-S1kd5y1UuuciAdryzG1MFb">
             Den andre talaren i ordningen hörde jag med fägnad hafva funnit
             sig tillfredsstäld af yttrandet till statsrådsprotokollet, men
@@ -1412,14 +1382,10 @@
             det var en onödig och allt för plötsligt påkommen förstoring af
             Teknologiska institutet, och han frågade hvarifrån den kommer?
           </seg>
-        </u>
-        <u xml:id="i-3rtr4zyyMEBoZdVqVczZVi" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-J1SXwDA9SV1Hh6cGbR7H3Z" next="i-KkHtFYgUczQsSKKQrArE8X">
           <seg xml:id="i-QLEqTt1zNa5aH9RV4jHCRm">
             ja! mine herrar den frågan tror jag icke vara svår att kunna
             be-
           </seg>
-        </u>
-        <u xml:id="i-KkHtFYgUczQsSKKQrArE8X" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-3rtr4zyyMEBoZdVqVczZVi" next="i-2SEwDboBhSz1m8ChddN7Dd">
           <seg xml:id="i-2Latp6pCtQnkppquut72px">
             svara. Den kommer sig deraf, att dessa tekniska läroanstalter,
             nya såsom de äro, och ett af den nya tidens alster, också hafva
@@ -1429,8 +1395,6 @@
             och lika hastigt som vetenskapen utvecklar sig, lika hastigt utveckla
             sig dessa läroverk.
           </seg>
-        </u>
-        <u xml:id="i-2SEwDboBhSz1m8ChddN7Dd" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-KkHtFYgUczQsSKKQrArE8X" next="i-AugfHh4p1uuo3pXuttqzn1">
           <seg xml:id="i-MMg13ZqY9Ypu3GcKkK5c6E">
             Skulle nu vårt land i denna allmänna rörelse ensamt stå stilla?
             Skulle det utan fara att blifva efter i det industriela lifvets
@@ -1448,8 +1412,6 @@
             besteg sig till 25 millioner kronor; år 1869 stod det vid 80 millioner,
             och år 1873 uppgick det till icke mindre än 146 millioner kronor.
           </seg>
-        </u>
-        <u xml:id="i-AugfHh4p1uuo3pXuttqzn1" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-2SEwDboBhSz1m8ChddN7Dd" next="i-Q2gRFYd4U38hvcRkKhBqQk">
           <seg xml:id="i-LCW78PuPfTvL4CWEGmCSRW">
             En så hastig tillväxt kan icke annat än inom industrien bringa
             till klarhet behofvet af en grundlig förberedelse för dem, som
@@ -1462,16 +1424,12 @@
             antal tillvuxit, och det är en naturlig följd af industriens utveckling
             och behof i detta hänseende.
           </seg>
-        </u>
-        <u xml:id="i-Q2gRFYd4U38hvcRkKhBqQk" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-AugfHh4p1uuo3pXuttqzn1" next="i-JeKhpLPAtEg16ZZH2BXR2z">
           <seg xml:id="i-NzcxZCFvsvtxPKxNqAteLD">
             Men det är icke blott industrien, som går framåt, och fordrar
             detta utan äfven ingeniörsverksamheten, den verksamhet som tages
             i anspråk för anläggningen af jernvägar, kanaler, hamnar, ad och
             företag af alla slag, som förutsatt en grundlig ingeniörsbildning.
           </seg>
-        </u>
-        <u xml:id="i-JeKhpLPAtEg16ZZH2BXR2z" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-Q2gRFYd4U38hvcRkKhBqQk" next="i-Pf87LCttbne3FxJedcaYoz">
           <seg xml:id="i-DvgBRupQhjEfvfZ7dP6N3J">
             Frågan rör således icke blott staten utan äfven kommuner och
             till och med associationer och enskilde, hvilka hafva sådana företag
@@ -1482,7 +1440,7 @@
         <note xml:id="i-DEb1VHBV8PjrexpdrJmQ1w" type="date">
           Måndagen den 3 April, e. m. 19 N:o 17.
         </note>
-        <u xml:id="i-Pf87LCttbne3FxJedcaYoz" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-JeKhpLPAtEg16ZZH2BXR2z" next="i-Mu9E6g59XckjSHahp4A3uK">
+        <u xml:id="i-Pf87LCttbne3FxJedcaYoz" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-J1SXwDA9SV1Hh6cGbR7H3Z" next="i-MGvDvctbCAD4g2LJ2D8UYd">
           <seg xml:id="i-8S6T95hgw9wy5zvo6dmLKY">
             i statsrådsprotokollet, "att okunnigheten är för det allmänna
             i0m anslag till detta fall långt kostsammare än äfven de frikostigast
@@ -1492,8 +1450,6 @@
             Jag vill nu vända mig till den mera speciela delen af frågan,
             som här blifvit vidrörd.
           </seg>
-        </u>
-        <u xml:id="i-Mu9E6g59XckjSHahp4A3uK" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-Pf87LCttbne3FxJedcaYoz" next="i-Nt3HPifTkGV3MfAJ6HQmWJ">
           <seg xml:id="i-CB4iH83GDLdcZUCn8LR1E5">
             Jag förstår mycket väl, huru den värme, som gjort sig gäl- Jande
             hos den svenska konstens målsmän kan härleda sig från den fruktan,
@@ -1509,8 +1465,6 @@
             förut; det är derföre som det kräfves en sådan institution, som
             den föreslagna.
           </seg>
-        </u>
-        <u xml:id="i-Nt3HPifTkGV3MfAJ6HQmWJ" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-Mu9E6g59XckjSHahp4A3uK" next="i-MGvDvctbCAD4g2LJ2D8UYd">
           <seg xml:id="i-YMTYbmhNXNwbjiu2FzSBgE">
             Vidare skall jag anhålla att få utreda den frågan, hvad denne
             professor i arkitektur skulle hafva att göra? Jag will i förbigående
@@ -1552,7 +1506,7 @@
         <note xml:id="i-AVXKLMDWF7MtmYAhFX77PQ" type="date">
           20 Måndagen den 3 April, e. m.
         </note>
-        <u xml:id="i-MGvDvctbCAD4g2LJ2D8UYd" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-Nt3HPifTkGV3MfAJ6HQmWJ" next="i-MRegSPJo2UMDmguFLb2wj1">
+        <u xml:id="i-MGvDvctbCAD4g2LJ2D8UYd" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-Pf87LCttbne3FxJedcaYoz" next="i-MRegSPJo2UMDmguFLb2wj1">
           <seg xml:id="i-UFt46SHUDSDfAgZDZcFDr6">
             Om anslag til förändringar. Så har inträffat med åtskilliga hospitalsbyggnader,
           </seg>
@@ -1563,7 +1517,7 @@
         <note xml:id="i-GExbjnbM6pWS7wgw2PJkGB">
           fängelsebyggnader m. m., och hvarför? Utan tvifvel derför, att
         </note>
-        <u xml:id="i-MRegSPJo2UMDmguFLb2wj1" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-MGvDvctbCAD4g2LJ2D8UYd" next="i-2BToeRTT47hwRfxvTYJ6S8">
+        <u xml:id="i-MRegSPJo2UMDmguFLb2wj1" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-MGvDvctbCAD4g2LJ2D8UYd" next="i-Vc9i3eocFBBjXQmuAx3A7s">
           <seg xml:id="i-EDrCDmhKiHydwYJCcdgPwc">
             et råder en viss osäkerhet hos arkitekten, emedan han icke har
             tillräcklig kunskap om huru sådana byggnader böra anordnas. Hade
@@ -1578,8 +1532,6 @@
             således, att redan denna gren af den föreslagna professorns lärareverksamhet
             har ett mål, som är af framstående vigt och betydelse.
           </seg>
-        </u>
-        <u xml:id="i-2BToeRTT47hwRfxvTYJ6S8" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-MRegSPJo2UMDmguFLb2wj1" next="i-JNbTqtJtRtRLYgcYWsjRCm">
           <seg xml:id="i-QSPom2o4vDTkuEtEFieSdw">
             Det nästa föremålet för hans lärareverksamhet skulle vara byggnadskonstens
             historia. Detta är ett ämne, som öfverallt med stor utförlighet
@@ -1604,8 +1556,6 @@
             hvarandra; att de tillhöra skilda läroverk; låt dem komma i beröring
             med hvarandra och de skola snart både lära känna och värdera hvarandra.
           </seg>
-        </u>
-        <u xml:id="i-JNbTqtJtRtRLYgcYWsjRCm" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-2BToeRTT47hwRfxvTYJ6S8" next="i-Vc9i3eocFBBjXQmuAx3A7s">
           <seg xml:id="i-BXxfiRmobB3ySoJwbRuRWA">
             Jag kommer nu till den tredje grenen af denna lärares verksamhet,
             eller byggnadskonstens formlära. Hvad dermed förstås, förutsätter
@@ -1629,7 +1579,7 @@
           Om anslag till för öfrigt, äfven den, sin inverkan på ingeniörens
           utbildning. Teknologiska
         </note>
-        <u xml:id="i-Vc9i3eocFBBjXQmuAx3A7s" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-JNbTqtJtRtRLYgcYWsjRCm" next="i-CYA4EVmkxEo73wC4QVVSKv">
+        <u xml:id="i-Vc9i3eocFBBjXQmuAx3A7s" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-MRegSPJo2UMDmguFLb2wj1" next="i-No66VGYLeZ2XNH7iaZyPra">
           <seg xml:id="i-GbLCp7EA7Q7mTs3X2RwoKf">
             Dessa äro nu de tre i fråga varande läroämnena, och jag (Forts)
             vågar påstå att de äro ganska vigtiga för den läroanstalt, vid
@@ -1638,8 +1588,6 @@
             af ett större tekniskt läroverk, och att detta, dem förutan, skulle
             komma att i en väsentlig mån förfela sin bestämmelse.
           </seg>
-        </u>
-        <u xml:id="i-CYA4EVmkxEo73wC4QVVSKv" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-Vc9i3eocFBBjXQmuAx3A7s" next="i-5pBRA1naEyfh5mbsGVPoMu">
           <seg xml:id="i-LwB7n11XhLbgPtJbRccEUw">
             Det har här blifvit anmärkt, att vid Teknologiska institutet
             nu finnes en lektorsbeställning i byggnadslära, och att denna
@@ -1658,8 +1606,6 @@
             som är alldeles skildt från det, som jag nyss haft äran nämna
             såsom området för den ifrågasatta professorns verksamhet.
           </seg>
-        </u>
-        <u xml:id="i-5pBRA1naEyfh5mbsGVPoMu" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-CYA4EVmkxEo73wC4QVVSKv" next="i-No66VGYLeZ2XNH7iaZyPra">
           <seg xml:id="i-VJr4EAATc3qxcjseuvHqwz">
             Den slutsats, hvartill jag på grund af allt detta kommer, är
             den, att, huru förklarlig än farhågan må vara för att den sköna
@@ -1685,14 +1631,12 @@
           undervisningens plan, då denna, genom nödiga stadgar, är begränsad
           hufvudsakligen inom det estetiska omvådet.”
         </note>
-        <u xml:id="i-No66VGYLeZ2XNH7iaZyPra" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-5pBRA1naEyfh5mbsGVPoMu" next="i-Aq2r8iUm2XBRj7LAVUycBe">
+        <u xml:id="i-No66VGYLeZ2XNH7iaZyPra" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-Vc9i3eocFBBjXQmuAx3A7s" next="i-RQExr5mUzKTDjGyHLh1Zsx">
           <seg xml:id="i-ErKJVm3rxyAUuvsWSjiquz">
             Här befinnes således akademien sjelf säga, att den vidare utvecklingen
             af den tekniska arkitektoniska undervisningen är främmande för
             dess plan, emedan denna ligger inom det estetiska området.
           </seg>
-        </u>
-        <u xml:id="i-Aq2r8iUm2XBRj7LAVUycBe" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-No66VGYLeZ2XNH7iaZyPra" next="i-RQExr5mUzKTDjGyHLh1Zsx">
           <seg xml:id="i-WBVoeNVoyVy12ybpSsbE73">
             Vidare säger akademien: "att detta område i någon mån öf-
           </seg>
@@ -1704,7 +1648,7 @@
         <note xml:id="i-KcTdnNDNHKawhDp9KuZJLP" type="date">
           22 Måndagen den 3 April, e. m.
         </note>
-        <u xml:id="i-RQExr5mUzKTDjGyHLh1Zsx" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-Aq2r8iUm2XBRj7LAVUycBe" next="i-6WE16dLWxfnjf2eD7tr65Y">
+        <u xml:id="i-RQExr5mUzKTDjGyHLh1Zsx" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-No66VGYLeZ2XNH7iaZyPra" next="i-6WE16dLWxfnjf2eD7tr65Y">
           <seg xml:id="i-GsVzSXF9iCUJWw3g4oFBxj">
             Om anslag till verskridits, har varit nödvändigt, så länge den
             till byggnadskon-
@@ -1870,7 +1814,7 @@
         <note xml:id="i-GYyKyKfdvn7SHrC3koPJcg" type="speaker">
           Herr Wennerberg:
         </note>
-        <u xml:id="i-2iwxDxWia8MicFQmedwDPP" who="i-U1NfXLExmstEEYumsy2WHu" next="i-AGcii8tFgMMiKMaeFMXNzX">
+        <u xml:id="i-2iwxDxWia8MicFQmedwDPP" who="i-U1NfXLExmstEEYumsy2WHu" next="i-KzicAaiH8131Nyp29S67sK">
           <seg xml:id="i-HTdSVxvgFZLgLn7uGzQaHi">
             Det är mig en kär skyldighet att söka bemöta hvad den högt ärade
             Ecklesiastikministern nyss anfört. Ofver hufvud är jag af alldeles
@@ -1894,8 +1838,6 @@
             först i senare delen af sitt anförande, och det är just i den
             punkten som jag vågar hysa en från hans skiljaktig mening,
           </seg>
-        </u>
-        <u xml:id="i-AGcii8tFgMMiKMaeFMXNzX" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-2iwxDxWia8MicFQmedwDPP" next="i-KzicAaiH8131Nyp29S67sK">
           <seg xml:id="i-Kkv2hmupABUi3xbWLswynZ">
             Att han är en varm vän af den svenska konsten och vill på intet
             sätt inskränka densamma i dess fria verksamhet, det tror jag mig
@@ -1924,35 +1866,25 @@
           ett skick,som icke Yeknologiska varit tillfredsställande. "Hvad
           Ziirich och Minchen beträffar, som = ”morts)
         </note>
-        <u xml:id="i-KzicAaiH8131Nyp29S67sK" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-AGcii8tFgMMiKMaeFMXNzX" next="i-C9SdbnDfRmMgc3xRJcauvt">
+        <u xml:id="i-KzicAaiH8131Nyp29S67sK" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-2iwxDxWia8MicFQmedwDPP" next="i-KkxWuYMmQhgTU8Deu8HNXs">
           <seg xml:id="i-2VCq1gegXHktspci94XT44">
             i afseende på dessa skolor äro mest berömda, så torde de goda
             resultaten räcka så länge man der kan glädja sig åt att till huf-
           </seg>
-        </u>
-        <u xml:id="i-C9SdbnDfRmMgc3xRJcauvt" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-KzicAaiH8131Nyp29S67sK" next="i-PFG1GABvR1M1Ug4wtPTVSP">
           <seg xml:id="i-EbhphtS72qh29YsiNhdrXG">
             vudlärare hafva så framstående män som på ena stället Semper
           </seg>
-        </u>
-        <u xml:id="i-PFG1GABvR1M1Ug4wtPTVSP" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-C9SdbnDfRmMgc3xRJcauvt" next="i-HmbMnmX5PS7qgAhQyg6m8z">
           <seg xml:id="i-NuKKUANbrGyf8e8M61pRbx">
             och på det andra Neureuter, hvilka sjelfve äro arkitekter med
             mångåriga konstnärsstudier; men det kan vara tvifvel underka-
           </seg>
-        </u>
-        <u xml:id="i-HmbMnmX5PS7qgAhQyg6m8z" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-PFG1GABvR1M1Ug4wtPTVSP" next="i-8uztK2yauLoPqyn8ygL5Ak">
           <seg xml:id="i-N9j7C8KMQLQ9BaQzWs5eig">
             stadt om detta skall förblifva på samma sätt i framtiden och
             om
           </seg>
-        </u>
-        <u xml:id="i-8uztK2yauLoPqyn8ygL5Ak" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-HmbMnmX5PS7qgAhQyg6m8z" next="i-AcFycaRogx3e8fF1X2h2Aa">
           <seg xml:id="i-DXEUxqo5Mhow5Sd1sunK4i">
             man icke har anledning att frukta detsamma här som i Berlin.
           </seg>
-        </u>
-        <u xml:id="i-AcFycaRogx3e8fF1X2h2Aa" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-8uztK2yauLoPqyn8ygL5Ak" next="i-PNqZ9m8YeJiL3Gu4UFxDtd">
           <seg xml:id="i-LhRjxSUF5QWgTA2Fvm96ae">
             Det finnes två högt ansedda tidskrifter i arkitektur, som läsas
             af hvarje framstående person i detta ämne, nemligen den franska
@@ -1967,8 +1899,6 @@
             hopp en större betydelse än hvad ett enskildt sådant kan tillmäta
             sig.
           </seg>
-        </u>
-        <u xml:id="i-PNqZ9m8YeJiL3Gu4UFxDtd" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-AcFycaRogx3e8fF1X2h2Aa" next="i-V9qnS548Jb8DJ2VD3Y1wbc">
           <seg xml:id="i-UX3kgGRcxUP5VDVWZGhC9u">
             Det har blifvit anmärkt, att man under nuvarande omständigheter
             ganska ofta vore utsatt för obehaget att få se byggnadsritningar,
@@ -1990,8 +1920,6 @@
             åtminstone blifva klandrade, äfven om de icke äro förtjenta deraf,
             komma nog fortfarande att finnas.
           </seg>
-        </u>
-        <u xml:id="i-V9qnS548Jb8DJ2VD3Y1wbc" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-PNqZ9m8YeJiL3Gu4UFxDtd" next="i-KkxWuYMmQhgTU8Deu8HNXs">
           <seg xml:id="i-7WT9h43SY2qWf5yEGy8zuN">
             Vidare har blifvit nämndt, hurusom arkitekturen hade två olika
             sidor, en estetisk och en mera praktisk, och att det vore i sin
@@ -2011,7 +1939,7 @@
         <note xml:id="i-Mhoq4msJEp5Nf895iWNHv9" type="date">
           26 Måndagen den 3 April, e. m.
         </note>
-        <u xml:id="i-KkxWuYMmQhgTU8Deu8HNXs" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-V9qnS548Jb8DJ2VD3Y1wbc" next="i-DEJMEpnHbJWArPvwA8Ux3g">
+        <u xml:id="i-KkxWuYMmQhgTU8Deu8HNXs" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-KzicAaiH8131Nyp29S67sK" next="i-DEJMEpnHbJWArPvwA8Ux3g">
           <seg xml:id="i-VHodPaSMtGN8mUqvmNfPjv">
             Om anslag til hafva dessa två olika sidor, som man här särskildt
             påpekat i fråga
@@ -2020,7 +1948,7 @@
         <note xml:id="i-9iwYvvnDhPo53fEDDG8Jo8">
           Teknologiska institutet. (Forts.)
         </note>
-        <u xml:id="i-DEJMEpnHbJWArPvwA8Ux3g" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-KkxWuYMmQhgTU8Deu8HNXs" next="i-QbVULC9NP8UaXsWYrhjWGL">
+        <u xml:id="i-DEJMEpnHbJWArPvwA8Ux3g" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-KkxWuYMmQhgTU8Deu8HNXs" next="i-KBRZs6myjc6SvahSFfSJEJ">
           <seg xml:id="i-Fsij8mJmW68NxeAYvWbVQj">
             om arkitekturen. Det torde väl icke falla någon in att neka,
             att vi i snart sagdt hvilket gjordt föremål som helst i det dagliga
@@ -2047,8 +1975,6 @@
             fackskola för arkitektur hafva en professor i ett ämne, som tillhör
             det estetiska området.
           </seg>
-        </u>
-        <u xml:id="i-QbVULC9NP8UaXsWYrhjWGL" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-DEJMEpnHbJWArPvwA8Ux3g" next="i-KBRZs6myjc6SvahSFfSJEJ">
           <seg xml:id="i-TR633cV6x9QWJbknR3vjgs">
             Det redogjordes utförligt för hvad denne professor skulle hafva
             att göra. Han skulle först och främst undervisa i anordningen
@@ -2080,7 +2006,7 @@
         <note xml:id="i-W7pG47ZMpbkUEkpnveSU3x" type="date">
           Måndagen den 3 April, e. m. 27 N:o 17.
         </note>
-        <u xml:id="i-KBRZs6myjc6SvahSFfSJEJ" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-QbVULC9NP8UaXsWYrhjWGL" next="i-N4R2yo8vTk93XmpzLVuN4c">
+        <u xml:id="i-KBRZs6myjc6SvahSFfSJEJ" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-DEJMEpnHbJWArPvwA8Ux3g" next="i-N4R2yo8vTk93XmpzLVuN4c">
           <seg xml:id="i-Fi7mhJSMAYxv4NikRQEE8p">
             rens formlära, äfven en lektor "i beskrifvande geometri och rit-0m
             anslag till konst", som torde vara väl egnad att motsvara behofvet
@@ -2093,24 +2019,18 @@
           af sitt ämne höja sig till undervisning i formlära, och denna
           bör
         </note>
-        <u xml:id="i-N4R2yo8vTk93XmpzLVuN4c" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-KBRZs6myjc6SvahSFfSJEJ" next="i-T6aQQ7yLEMmPy6zsJKPXc6">
+        <u xml:id="i-N4R2yo8vTk93XmpzLVuN4c" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-KBRZs6myjc6SvahSFfSJEJ">
           <seg xml:id="i-HKvnYFJ7w7pYSYT5HWNed">
             då, om den icke skall öfvergå till undervisning i stil, nödvändigt
             sysselsätta sig med de vanliga arkitektoniska formerna, naturligt-
           </seg>
-        </u>
-        <u xml:id="i-T6aQQ7yLEMmPy6zsJKPXc6" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-N4R2yo8vTk93XmpzLVuN4c" next="i-BjKsiPuCKHtrNKgebCBBiG">
           <seg xml:id="i-X5HNV5M7t7XQ32ZHxbF8b7">
             vis i främsta rummet de antika och allmänt bekanta och sedan
             de
           </seg>
-        </u>
-        <u xml:id="i-BjKsiPuCKHtrNKgebCBBiG" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-T6aQQ7yLEMmPy6zsJKPXc6" next="i-5cdJoxsqdkxYRvbcr46h4h">
           <seg xml:id="i-V5Ch9BG65CneiyDp73Vy4R">
             öfriga.
           </seg>
-        </u>
-        <u xml:id="i-5cdJoxsqdkxYRvbcr46h4h" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-BjKsiPuCKHtrNKgebCBBiG">
           <seg xml:id="i-B3QWWCPQY5XqTgF3PtZRZo">
             Sedan jag nu tagit mig friheten att bemöta det gjorda anförandet,
             ber jag att få framställa en fråga, hvaruppå jag dock icke fordrar
@@ -2173,7 +2093,7 @@
           slag tillnågra ord med anledning af vissa uttalanden, som blifvit
           gjorda ;nologiska
         </note>
-        <u xml:id="i-8bpbq1b62dkuTsaMyofQMj" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-Rk38wg6qXKaijtek1QB4mG" next="i-FVD3Dc6VnLGEpnYrYStbts">
+        <u xml:id="i-8bpbq1b62dkuTsaMyofQMj" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-Rk38wg6qXKaijtek1QB4mG" next="i-XeEBDW95ipo4pCA8wacQbT">
           <seg xml:id="i-QRqUTcNBmBVX1Bk6FYBy2d">
             af de ledamöter i Kammaren, som motsatt sig Kongl. Maj:ts proosition,
             och i synnerhet af den ärade talaren på Smålandsbänen. Han yttrade
@@ -2208,8 +2128,6 @@
             är, må erhålla ett "stiligt" utseende och derigenom blifva en
             prydnad för landet.
           </seg>
-        </u>
-        <u xml:id="i-FVD3Dc6VnLGEpnYrYStbts" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-8bpbq1b62dkuTsaMyofQMj" next="i-J7tBXhRRAtc6xDuKX6X3x2">
           <seg xml:id="i-S4nCpipYgDjf5pN7Yc4fXc">
             Så långt hafva vi ännu icke kommit, och detta förhållande tillskrifver
             jag till stor del den omständigheten, att man vid de tekniska
@@ -2225,8 +2143,6 @@
             hvilken måste leda till smaksinnets utbildande, skulle vara af
             mycken nytta.
           </seg>
-        </u>
-        <u xml:id="i-J7tBXhRRAtc6xDuKX6X3x2" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-FVD3Dc6VnLGEpnYrYStbts" next="i-XeEBDW95ipo4pCA8wacQbT">
           <seg xml:id="i-5QqnF1wffcjy54DHptoZDB">
             Gå vi till utlandet och betrakta de stora internationela industri-expositionerna,
             så skall man finna huru den sköna smaken utvecklat sig och tryckt
@@ -2246,13 +2162,11 @@
           skolornas verksamhet och likaså den vid våra skolor införda un-
           Teknologiska
         </note>
-        <u xml:id="i-XeEBDW95ipo4pCA8wacQbT" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-J7tBXhRRAtc6xDuKX6X3x2" next="i-WrkhDotCNqu8NtiQgur7W1">
+        <u xml:id="i-XeEBDW95ipo4pCA8wacQbT" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-8bpbq1b62dkuTsaMyofQMj">
           <seg xml:id="i-6WvWJSSdkKje7S2M3m1qW3">
             dervisningen i ritning. Men ännu återstår här mycket att göra,
             (Forts)
           </seg>
-        </u>
-        <u xml:id="i-WrkhDotCNqu8NtiQgur7W1" who="i-PZo61ze3oe2bePYTHaDHM9" prev="i-XeEBDW95ipo4pCA8wacQbT">
           <seg xml:id="i-SfMCGwzN5dhGZBghtYbLJa">
             och jag tror, att vi äfven i detta hänseende kunna vänta oss
             goda resultat af den nu föreslagna anordningen. Jag skall icke
@@ -2263,7 +2177,7 @@
         <note xml:id="i-8nXWiFwgqpLh9Z8F3sPVRa" type="speaker">
           Herr Nordenfelt, Leonard Magnus:
         </note>
-        <u xml:id="i-8FJZUMATBBcGweVzAWT6Cq" who="i-FBVyR2c9ZXHBjh2ETNQb8U" next="i-K6fUVerfMCfEqfaUMNCdWQ">
+        <u xml:id="i-8FJZUMATBBcGweVzAWT6Cq" who="i-FBVyR2c9ZXHBjh2ETNQb8U" next="i-6mqU1w9ZpksUdaaJfRe1SK">
           <seg xml:id="i-7DWLxg5KDJGL1zRXZktNqW">
             Jag kan icke afhålla mig från att med värma understödja Kongl.
             Maj:ts proposition. Den undervisning i arkitektur, som meddelas
@@ -2275,8 +2189,6 @@
             hos arkitekterne brister i dessa ämnen. Detta utan all malis;
             men det är min öfvertygelse, att så är.
           </seg>
-        </u>
-        <u xml:id="i-K6fUVerfMCfEqfaUMNCdWQ" who="i-FBVyR2c9ZXHBjh2ETNQb8U" prev="i-8FJZUMATBBcGweVzAWT6Cq" next="i-Vg8shUG4wv2ugXSjFEdtiW">
           <seg xml:id="i-RFM4aHEVgoWBwfXWhS11Me">
             Det är för öfrigt andra elever vid Teknologiska institutet, än
             de som bilda sig till arkitekter, hvilka behöfva kunskap i arkitektur.
@@ -2285,8 +2197,6 @@
             skulle utgå från denna skola, kommer dock undervisningen i arkitekturen
             att verka högst helsosamt på de andra eleverne.
           </seg>
-        </u>
-        <u xml:id="i-Vg8shUG4wv2ugXSjFEdtiW" who="i-FBVyR2c9ZXHBjh2ETNQb8U" prev="i-K6fUVerfMCfEqfaUMNCdWQ" next="i-FCa3Hp87E3VVQ2x3zxf2BG">
           <seg xml:id="i-WMKoum5WgMnvrqZv24UUnu">
             Man har talat om samverkan melllan dessa båda läroverk, Teknologiska
             institutet och fria konsternas akademi. Vill man då, att eleverne
@@ -2295,8 +2205,6 @@
             igen? Det går icke i praktiken, utan studierna vid hvartdera läroverket
             måste skötas för sig.
           </seg>
-        </u>
-        <u xml:id="i-FCa3Hp87E3VVQ2x3zxf2BG" who="i-FBVyR2c9ZXHBjh2ETNQb8U" prev="i-Vg8shUG4wv2ugXSjFEdtiW" next="i-XaL6xRDG6X8aGn7U1BkddS">
           <seg xml:id="i-NzcosZy6MbPZaJ2nvntY36">
             Att vid alla andra polytekniska skolor en mycket större omsorg
             egnas denna lärogren, är ett faktum, som icke kan förnekas. Nu
@@ -2308,8 +2216,6 @@
             vara praktisk, men då det gäller att verkligen utföra något, så
             bör väl detta framför allt vara praktiskt.
           </seg>
-        </u>
-        <u xml:id="i-XaL6xRDG6X8aGn7U1BkddS" who="i-FBVyR2c9ZXHBjh2ETNQb8U" prev="i-FCa3Hp87E3VVQ2x3zxf2BG" next="i-4W1TxXcNaEja4f9icQ8aSL">
           <seg xml:id="i-KBP2KCjkTZ4T693HForKbd">
             Den lektor i byggnadskonst, som nu finnes vid institutet, har
             redan mer än tillräckligt att göra med att undervisa i allmän
@@ -2320,8 +2226,6 @@
             den beskrifvande geometrien är en grundläggande vetenskap, som
             icke har egentligt med arkitekturen att skaffa.
           </seg>
-        </u>
-        <u xml:id="i-4W1TxXcNaEja4f9icQ8aSL" who="i-FBVyR2c9ZXHBjh2ETNQb8U" prev="i-XaL6xRDG6X8aGn7U1BkddS" next="i-6mqU1w9ZpksUdaaJfRe1SK">
           <seg xml:id="i-TdWJy8HZ53ppkLLkNki5bs">
             Nu talar man om vår fattigdom på arkitektur, och så motsätter
             man sig hvad som just skulle vara egnadt att bilda oss en sådan.
@@ -2335,7 +2239,7 @@
         <note xml:id="i-jmhFZmxkBxmFQF36s2hhm" type="date">
           30 Måndagen den 3 April, e. m.
         </note>
-        <u xml:id="i-6mqU1w9ZpksUdaaJfRe1SK" who="i-FBVyR2c9ZXHBjh2ETNQb8U" prev="i-4W1TxXcNaEja4f9icQ8aSL" next="i-4BtKhFExxbS21LhxrBJDCt">
+        <u xml:id="i-6mqU1w9ZpksUdaaJfRe1SK" who="i-FBVyR2c9ZXHBjh2ETNQb8U" prev="i-8FJZUMATBBcGweVzAWT6Cq" next="i-4BtKhFExxbS21LhxrBJDCt">
           <seg xml:id="i-WBwEuuF31BVnpsp1szqBmX">
             Om anslag tilljag ber om ursäkt, att jag säger det. Vidare befarar
             man, att
@@ -2362,7 +2266,7 @@
         <note xml:id="i-TZsuShKfPUxYwTs5iLv6z6" type="speaker">
           Herr Statsrådet Carlson:
         </note>
-        <u xml:id="i-5tG6c2hYWmSwMAwPdMDkst" who="i-4vNUD3c1Zrcuq5QuVbNmhB" next="i-Bcf1ZfPgZMUSPbxrMeUQmP">
+        <u xml:id="i-5tG6c2hYWmSwMAwPdMDkst" who="i-4vNUD3c1Zrcuq5QuVbNmhB">
           <seg xml:id="i-QgBS4wf8DtQ7eBqeXennNi">
             Man tvekar, om man bör besvara en sådan fråga, som den, huru
             vida det är ärligt menadt med en organisationsplan, som blifvit
@@ -2383,8 +2287,6 @@
             komma att saknas derföre, att de före den konstnärliga undervisningen
             erhållit en säkrare underbyggnad.
           </seg>
-        </u>
-        <u xml:id="i-Bcf1ZfPgZMUSPbxrMeUQmP" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-5tG6c2hYWmSwMAwPdMDkst" next="i-U7my1FZBHuc76oJiTiMkb1">
           <seg xml:id="i-7DF8mweXQ9RsxYsTP3LzGZ">
             För öfrigt må det erinras, att det tillhör hvart och ett land
             att ordna hithörande förhållanden efter sina tillgångar. Frankrike
@@ -2398,8 +2300,6 @@
             icke kan misstänkas för någon slags afvoghet mot de sköna konsternas
             utveckling.
           </seg>
-        </u>
-        <u xml:id="i-U7my1FZBHuc76oJiTiMkb1" who="i-4vNUD3c1Zrcuq5QuVbNmhB" prev="i-Bcf1ZfPgZMUSPbxrMeUQmP">
           <seg xml:id="i-Ca1iRh3u9ESmPn3SpxSoe3">
             Jag tror således icke, att en sådan anordning kan verka menligt
             för konsten; men deremot är jag fullt öfvertygad, att den för
@@ -2520,7 +2420,7 @@
         <note xml:id="i-7KCFhEdNEKzmdUT89v2DnS" type="speaker">
           Herr Wennerberg:
         </note>
-        <u xml:id="i-P4wtvBjfhr4gGSF6XdAuj2" who="i-U1NfXLExmstEEYumsy2WHu" next="i-H1QDnj8eRQ7pqpJeTbaCjt">
+        <u xml:id="i-P4wtvBjfhr4gGSF6XdAuj2" who="i-U1NfXLExmstEEYumsy2WHu" next="i-8BUGURZuGo7uhaXWNEWabj">
           <seg xml:id="i-7QBBtfcUdRBxsVJNrChUZT">
             Jag känner djupt skyldigheten att nu fatta mig kort och skall
             ock söka att göra det. Derföre går jag också förbi de inkast mot
@@ -2533,8 +2433,6 @@
             just icke några synnerligen skarpa vapen, och derföre må han tillåta
             mig att utan stora försvarsanstalter värja mig mot dem. |
           </seg>
-        </u>
-        <u xml:id="i-H1QDnj8eRQ7pqpJeTbaCjt" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-P4wtvBjfhr4gGSF6XdAuj2" next="i-8BUGURZuGo7uhaXWNEWabj">
           <seg xml:id="i-8krRE5ytRpz6N1FNmXgMoa">
             Han sade först, att han sett ganska dåliga ritningar af elever
             vid fria konsternas akademi. Derpå har Jag endast att svara, att
@@ -2553,14 +2451,12 @@
         <note xml:id="i-BtwwCFwAjNQdJcW8KUPuG9" type="date">
           Måndagen den 3 April, e, m. 33
         </note>
-        <u xml:id="i-8BUGURZuGo7uhaXWNEWabj" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-H1QDnj8eRQ7pqpJeTbaCjt" next="i-U9GKsDPqyvjAtSdsAmEoAe">
+        <u xml:id="i-8BUGURZuGo7uhaXWNEWabj" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-P4wtvBjfhr4gGSF6XdAuj2" next="i-N6TRSGGo4qhwT1XexTdUQN">
           <seg xml:id="i-Axap4TzGAGy48kCnyGRq55">
             vi äro fattiga på arkitektur. Det har jag icke sagt; möjligen
             misstog han sig derpå, att jag sagt, det vi äro fattiga på arkitektoniska
             monumenter af något högre värde.
           </seg>
-        </u>
-        <u xml:id="i-U9GKsDPqyvjAtSdsAmEoAe" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-8BUGURZuGo7uhaXWNEWabj" next="i-NKrDp2KcqBiQLe9Lbx3Twy">
           <seg xml:id="i-MVkAL1bGyfQcjRX6g1Svib">
             Jag erkänner mer än gerna och är färdig att när som helst afbedja
             det, att jag stundom begagnar ord, som låta något för starka.
@@ -2575,8 +2471,6 @@
             spridd, äfven bland dem, som önska att se undervisningen i arkitektur
             helt och hållet öfverflyttad till teknologiska institutet.
           </seg>
-        </u>
-        <u xml:id="i-NKrDp2KcqBiQLe9Lbx3Twy" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-U9GKsDPqyvjAtSdsAmEoAe" next="i-N6TRSGGo4qhwT1XexTdUQN">
           <seg xml:id="i-KqA41ZNYxxr4qiyXj1r21r">
             Slutligen vill jag nämna, såsom något anmärkningsvärdt, att då
             den stora täflan egde rum i Berlin emellan ritningar till ett
@@ -2619,7 +2513,7 @@
         <note xml:id="i-UzY29GvUziWvQBnmPAi6Jb">
           Första Kammarens Prot. 1876. N:o 17.
         </note>
-        <u xml:id="i-N6TRSGGo4qhwT1XexTdUQN" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-NKrDp2KcqBiQLe9Lbx3Twy" next="i-HhFSJoXW38bWijpXshudvJ">
+        <u xml:id="i-N6TRSGGo4qhwT1XexTdUQN" who="i-U1NfXLExmstEEYumsy2WHu" prev="i-8BUGURZuGo7uhaXWNEWabj" next="i-HhFSJoXW38bWijpXshudvJ">
           <seg xml:id="i-5eWMH6DQx6UGiHh1hty63K">
             oc
           </seg>

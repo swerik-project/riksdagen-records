@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-MJ8ycDuVXVesqg6ssE3apy" type="speech">
             <linkGrp type="u">
               <ptr target="#i-KkVpqsS456iPoEug4y2soB"/>
@@ -418,7 +418,13 @@
               <ptr target="#i-SUKztwmpPbpvF9aKXwixu4"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -464,7 +470,7 @@
         <note xml:id="i-HBH6x86kgKgVC8kPxCTPSU" type="speaker">
           Herr Eriksson i Grängesberg, som yttrade:
         </note>
-        <u xml:id="i-KkVpqsS456iPoEug4y2soB" who="i-4UEzXgg6g6fiqb4dQ2EDU3" next="i-8KxDDVuapkZhYMbN24fA9G">
+        <u xml:id="i-KkVpqsS456iPoEug4y2soB" who="i-4UEzXgg6g6fiqb4dQ2EDU3" next="i-QjYFEh9hYg1aUBEfjizDKj">
           <seg xml:id="i-MxTdvCpVtr1gJRAxE1riYY">
             Herr talman! Jag tror, att vårt partis ordförande, herr Branting,
             här i eftermiddag riktigt tolkade den uppfattning, som finnes
@@ -473,8 +479,6 @@
             uppfattningen, som hos alla gjorde sig gällande, att herr Staaff
             yttrade vad som borde sägas här.
           </seg>
-        </u>
-        <u xml:id="i-8KxDDVuapkZhYMbN24fA9G" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-KkVpqsS456iPoEug4y2soB" next="i-YCfrjFJMiqHzWcWxK7GW7p">
           <seg xml:id="i-TTgG2ZFmpBeYF1BdQRwhBj">
             Men jag kan icke annat än uttala min synnerliga förvåning över
             herr statsrådets uttalande. Efter mitt förmenande, efter det intryck,
@@ -490,8 +494,6 @@
             åtgärder, även om dessa skulle vara väl så befogade. Åtminstone
             fick jag det intrycket, och det var ytterligt överraskande.
           </seg>
-        </u>
-        <u xml:id="i-YCfrjFJMiqHzWcWxK7GW7p" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-8KxDDVuapkZhYMbN24fA9G" next="i-QjYFEh9hYg1aUBEfjizDKj">
           <seg xml:id="i-VSgUWXz1a4MVtNQYZUZykT">
             Herr statsrådet uttalade en uppfattning, som förefaller mig vara
             ytterligt betänklig. Enligt hans förmenande skulle endast den
@@ -514,7 +516,7 @@
           Ang. vissa förkorligen följa, att civilkommissionen och den blivande
           militieom-
         </note>
-        <u xml:id="i-QjYFEh9hYg1aUBEfjizDKj" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-YCfrjFJMiqHzWcWxK7GW7p" next="i-QQwH1EmokdXHzt4N9rGfM8">
+        <u xml:id="i-QjYFEh9hYg1aUBEfjizDKj" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-KkVpqsS456iPoEug4y2soB" next="i-QQwH1EmokdXHzt4N9rGfM8">
           <seg xml:id="i-HP3zfJu3JuNsfVnAnioUNt">
             Paranaen vid hudsmannen egentligen bara äro luft eller komma
             att behandlas som alregementet. luft
@@ -523,7 +525,7 @@
         <note xml:id="i-YLaKniHTbE7obXCUdPVJ6e">
           (Forts.)
         </note>
-        <u xml:id="i-QQwH1EmokdXHzt4N9rGfM8" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-QjYFEh9hYg1aUBEfjizDKj" next="i-T9HKmDYwRckZbNkbNuJsQb">
+        <u xml:id="i-QQwH1EmokdXHzt4N9rGfM8" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-QjYFEh9hYg1aUBEfjizDKj" next="i-Do7BpmpHVEGUqu1M8fkhAL">
           <seg xml:id="i-PLAj9tK8abZW5t4a8LesMj">
             Tager jag fallet Björkman, så är det nog så, att han och en hel
             grupp av officerare, som uppträda ungefär lika som han, icke kunna
@@ -542,8 +544,6 @@
             ock icke blott. miliskulle få vara avgörande vid bedömandet av
             en officers lämpighet.
           </seg>
-        </u>
-        <u xml:id="i-T9HKmDYwRckZbNkbNuJsQb" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-QQwH1EmokdXHzt4N9rGfM8" next="i-6XcrxFyF5GqgAUdt9p22PU">
           <seg xml:id="i-C7n5p5Mf7uqbk12o6xZfPC">
             Sedan kom herr statsrådet in på förhållandena vid Dalregementet,
             och det var närmast i anledning därav, jag begärde ordet. Det.
@@ -557,8 +557,6 @@
             militära duglighet så pass betydande, att man egentligen icke
             kan klandra överste Björkman.
           </seg>
-        </u>
-        <u xml:id="i-6XcrxFyF5GqgAUdt9p22PU" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-T9HKmDYwRckZbNkbNuJsQb" next="i-3E6fERuxMkoW5x33SFbini">
           <seg xml:id="i-Qdw791N6Lap2BnUxvPi31i">
             Vi komma här åter in på de civila omdömena, och huru stor betydelse
             dessa skola tillmätas. Civilkommissionen har uttalat sig. Tre
@@ -568,8 +566,6 @@
             enstämmiga mening hos ortspressen därom att överstens behandling
             av truppen icke är lämplig.
           </seg>
-        </u>
-        <u xml:id="i-3E6fERuxMkoW5x33SFbini" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-6XcrxFyF5GqgAUdt9p22PU" next="i-Do7BpmpHVEGUqu1M8fkhAL">
           <seg xml:id="i-47H5Wc8vcsAPVhwnHdBfUa">
             Utöver vad jag därom anförde under remissdebatten skall jag nu
             be att få ytterligare citera ett par tidningsuttalanden. Jag vill
@@ -590,7 +586,7 @@
         <note xml:id="i-3oFT3DSfgyEXCzRYibYeXs" type="date">
           Lördagen den 27 februari, e. m. 3 Nr 98,
         </note>
-        <u xml:id="i-Do7BpmpHVEGUqu1M8fkhAL" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-3E6fERuxMkoW5x33SFbini" next="i-QTpNoUMF9Dx1rvbnWWm6C1">
+        <u xml:id="i-Do7BpmpHVEGUqu1M8fkhAL" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-QQwH1EmokdXHzt4N9rGfM8" next="i-CFSWRFFAyjUSonqGGgsHYN">
           <seg xml:id="i-Wav9uNaYjUqp8Fo1HycBa5">
             särskilt ha vi oss bekant, att kommissionens ordförande besökt
             icke Ang. vissa förblott Falun utan även andra orter inom länet
@@ -601,37 +597,25 @@
             även försvarsvänligt sinnade soldater återvända hem missnöjda.»
             Och
           </seg>
-        </u>
-        <u xml:id="i-QTpNoUMF9Dx1rvbnWWm6C1" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-Do7BpmpHVEGUqu1M8fkhAL" next="i-GAySobr6r3Ky3qBrCvHiYM">
           <seg xml:id="i-2wXLGFJk1wC7XbRgHuibWE">
             vidare säges i samma ledande artikel: »Genom allt som framkommit
           </seg>
-        </u>
-        <u xml:id="i-GAySobr6r3Ky3qBrCvHiYM" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-QTpNoUMF9Dx1rvbnWWm6C1" next="i-9EuGSAYtPvp2MP5135RDcP">
           <seg xml:id="i-8HwMUQsA4jTetdUL6hV6xd">
             1 denna sak framgår, att allt icke är väl beställt på regementet.
             Det
           </seg>
-        </u>
-        <u xml:id="i-9EuGSAYtPvp2MP5135RDcP" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-GAySobr6r3Ky3qBrCvHiYM" next="i-TtoihetYNrDpJs9NBURxR6">
           <seg xml:id="i-MmpuyWZ8fANH7eVhXonaL5">
             är nu att hoppas, att rättelse härutinnan skall vinnas, så att
             gott förhållande i alla avseenden blir rådande på regementet.»
             Detta
           </seg>
-        </u>
-        <u xml:id="i-TtoihetYNrDpJs9NBURxR6" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-9EuGSAYtPvp2MP5135RDcP" next="i-W7zivrfCQYwTpYdtfLKjxv">
           <seg xml:id="i-QcXWJYV4SMZv19jedS8Eow">
             förefaller mig vara ett klart uttalande från — jag vill hoppas
             ingen
           </seg>
-        </u>
-        <u xml:id="i-W7zivrfCQYwTpYdtfLKjxv" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-TtoihetYNrDpJs9NBURxR6" next="i-Q57PuqrwZcqMTHTHWaJTcH">
           <seg xml:id="i-PsRpaCPAPkTS1N4Fy6CEEy">
             bestrider det — vederhäftigt och samhällsbevarande håll.
           </seg>
-        </u>
-        <u xml:id="i-Q57PuqrwZcqMTHTHWaJTcH" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-W7zivrfCQYwTpYdtfLKjxv" next="i-MnFG4j5xV4jezXPfQrVqam">
           <seg xml:id="i-2fqcaFzBQ6eYV1nuqroFmr">
             Det har vidare varit en insändare i Svenska Dagbladet från en
             man, som är synnerligen försvarsvänligt sinnad och som efter vad
@@ -647,8 +631,6 @@
             Björkman, icke behandlade sitt folk på det småaktiga och skamliga
             sätt som praktiserats av kungl. Dalregementets chef.»
           </seg>
-        </u>
-        <u xml:id="i-MnFG4j5xV4jezXPfQrVqam" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-Q57PuqrwZcqMTHTHWaJTcH" next="i-Fdc2Qwg7q68Du9HeSNEXa6">
           <seg xml:id="i-8qZXKeE3UPNzSvU8uPnvWX">
             Han skriver detta emot en insändare, som förut i Svenska Dagbladet
             sökt bagatellisera förhållandena vid Dalregementet. Han uppmanar
@@ -665,8 +647,6 @@
             förhållandena vid Dalregementet icke äro goda, och att skulden
             därtill åtminstone i första hand och kanske endast ör ledningens.
           </seg>
-        </u>
-        <u xml:id="i-Fdc2Qwg7q68Du9HeSNEXa6" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-MnFG4j5xV4jezXPfQrVqam" next="i-CFSWRFFAyjUSonqGGgsHYN">
           <seg xml:id="i-C7ipL3ULR4zej2H7c8Dso">
             Nu var det enligt herr statsrådets och chefens för lantförsvarsdepartementet
             mening den militära dugligheten, som skulle sara åtminstone i
@@ -690,7 +670,7 @@
         <note xml:id="i-7pshJy5DULiBuyWtdCvQv7" type="date">
           4 Lördagen den 27 februari, e. m.
         </note>
-        <u xml:id="i-CFSWRFFAyjUSonqGGgsHYN" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-Fdc2Qwg7q68Du9HeSNEXa6" next="i-QVJr29nCbTXy3U3DtEUbYD">
+        <u xml:id="i-CFSWRFFAyjUSonqGGgsHYN" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-Do7BpmpHVEGUqu1M8fkhAL" next="i-FUs9szWL9nu3GBB9RKoJ3o">
           <seg xml:id="i-HSsvvdSQj6XXezpiRMxoZu">
             man finge sätta ett stort frågetecken för hans militära duglighet,
             åtminstone ter sig anvisningen så ur civil synpunkt. Dessa anvisningar,
@@ -701,8 +681,6 @@
             anvisningar hava lämnats regementets officerare före fältmanövern
             beträffande regementets uppträdande.
           </seg>
-        </u>
-        <u xml:id="i-QVJr29nCbTXy3U3DtEUbYD" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-CFSWRFFAyjUSonqGGgsHYN" next="i-CCVWtjJbuLDkNPZgNobd3Y">
           <seg xml:id="i-6rir15kCsfjgixwj1oHLWA">
             »Regementets uppträdande under manövern, som förestår» — heter
             det — »skall vara sådant, att det så att säga utgör en särskild
@@ -714,8 +692,6 @@
             än taktiska framgångar, som i regel äro beroende av omständigheter,
             vilkas verkan befälet eller manskapet i ledet ej kunna reglera.»
           </seg>
-        </u>
-        <u xml:id="i-CCVWtjJbuLDkNPZgNobd3Y" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-QVJr29nCbTXy3U3DtEUbYD" next="i-9ojEdJYR7GfsW8K74KMWCx">
           <seg xml:id="i-Kh2oxg49LVP1Cpa5ufvWLo">
             Nog förefaller det i alla fall en lekman, som om detta icke skulle
             vara lämpliga anvisningar före en fältmanöver. Icke hava vi väl
@@ -730,16 +706,12 @@
             att det skall vara utomordentlig stramhet och noggrannhet i exercis,
             marsch och sådant. men att det andra icke är av så stor betydelse.
           </seg>
-        </u>
-        <u xml:id="i-9ojEdJYR7GfsW8K74KMWCx" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-CCVWtjJbuLDkNPZgNobd3Y" next="i-RggSKkDzxN8P98eMmh75YX">
           <seg xml:id="i-HonFTBwykxfa1U9KaqGoXf">
             Det är klart, att detta icke utgör något fullgiltigt bevis för,
             huruvida vederbörande är en duglig militär eller icke, men jag
             har velat anföra detta, då det förefaller en civil åtminstone
             vara ett aktstycke. som är rätt så betänkligt.
           </seg>
-        </u>
-        <u xml:id="i-RggSKkDzxN8P98eMmh75YX" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-9ojEdJYR7GfsW8K74KMWCx" next="i-FUs9szWL9nu3GBB9RKoJ3o">
           <seg xml:id="i-WnW31EqjpjLTT7MStFA9qN">
             Det har sagts om överste Björkman i ortspressen uti en insändare
             och av herr krigsministern i dag, att han har en utomordentlig
@@ -764,7 +736,7 @@
         <note xml:id="i-KuCgyCbJSJ46HRr8QBw2Db" type="date">
           Lördagen den 27 februari, e. in. 5 Nr 28,
         </note>
-        <u xml:id="i-FUs9szWL9nu3GBB9RKoJ3o" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-RggSKkDzxN8P98eMmh75YX" next="i-R79BWdbptXJ5xi2EeaGGQw">
+        <u xml:id="i-FUs9szWL9nu3GBB9RKoJ3o" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-CFSWRFFAyjUSonqGGgsHYN" next="i-6cSZUfzL2CpkG9KCY3aek2">
           <seg xml:id="i-2esC5AkYQWquWbfKY8rExX">
             detta uttalande i sömmarne. Vad då först beträffar maten, så
             an- Ang. vissa förtager jag, att de värnpliktiga icke få mera
@@ -816,8 +788,6 @@
             hava så liten ersättning och ofta äro så fattiga, att de icke
             hava råd att betala alltför höga pris på marketenteriet.
           </seg>
-        </u>
-        <u xml:id="i-R79BWdbptXJ5xi2EeaGGQw" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-FUs9szWL9nu3GBB9RKoJ3o" next="i-6cSZUfzL2CpkG9KCY3aek2">
           <seg xml:id="i-QKgaRbGdYwbb7R93KoJpUG">
             Genom att sätta Dalregementet i blixtbelysning mot denna bakgrund,
             finner man, att det icke är så fasligt stort värde i herömmet
@@ -837,14 +807,12 @@
         <note xml:id="i-4M2LShMPGcYSwNytGX7yC6">
           hållanden vid Dalregementet. (Forts.)
         </note>
-        <u xml:id="i-6cSZUfzL2CpkG9KCY3aek2" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-R79BWdbptXJ5xi2EeaGGQw" next="i-W9ohZXSv7bkptP9qR4LnWy">
+        <u xml:id="i-6cSZUfzL2CpkG9KCY3aek2" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-FUs9szWL9nu3GBB9RKoJ3o" next="i-3ZmPxgVvKjowtdqnbHQzj7">
           <seg xml:id="i-8df4CsxnFQdpeZDVLyqDzp">
             anfört, att maten är bra, och det är naturligtvis utmärkt. Men
             det skulle vara alltför galet, om också maten skulle vara dålig,
             ty då vore ju allt på tok.
           </seg>
-        </u>
-        <u xml:id="i-W9ohZXSv7bkptP9qR4LnWy" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-6cSZUfzL2CpkG9KCY3aek2" next="i-FBiS7pjKxmtP2ECxJYkDb5">
           <seg xml:id="i-5sMzWdzQTqqBVKq5FHjcPm">
             Ja, det var om förhållandena på Dalregementet. Nu kan jag icke
             uraktlåta att till sist gå in på, vad herr Lindman här yttrade.
@@ -862,8 +830,6 @@
             i saken, och vad andra kammaren bestämt måste protestera mot är,
             att så icke får ske.
           </seg>
-        </u>
-        <u xml:id="i-FBiS7pjKxmtP2ECxJYkDb5" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-W9ohZXSv7bkptP9qR4LnWy" next="i-3ZmPxgVvKjowtdqnbHQzj7">
           <seg xml:id="i-5CWqu9FRs4juyoYtsfcU6t">
             Jag vill understryka, att jag med det anförda velat fastslå,
             att undersökningarna lämnat bevis för, att förhållandena vid Dalregementet
@@ -883,7 +849,7 @@
         <note xml:id="i-LQwmZbA2uwfMfP4ZiYh3gY">
           Härpå anförde:
         </note>
-        <u xml:id="i-3ZmPxgVvKjowtdqnbHQzj7" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-FBiS7pjKxmtP2ECxJYkDb5" next="i-QShq7L78VhTm13nBWXjJ5w">
+        <u xml:id="i-3ZmPxgVvKjowtdqnbHQzj7" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-6cSZUfzL2CpkG9KCY3aek2" next="i-94u3ZS3kH5ZU1t3FFy6EFM">
           <seg xml:id="i-D6StnxLb7Enc1tg5G33294">
             Herr Månsson: Herr talman! Förmiddagens voteringsdemonstration
             — man må hava vad mening, man vill, om den för övrigt — gjorde
@@ -897,8 +863,6 @@
             valmännen härnäst komma att skriva sitt ord, så kommer det att
             bli märken i väggen för lång tid efter fingrarna.
           </seg>
-        </u>
-        <u xml:id="i-QShq7L78VhTm13nBWXjJ5w" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-3ZmPxgVvKjowtdqnbHQzj7" next="i-94u3ZS3kH5ZU1t3FFy6EFM">
           <seg xml:id="i-NCRKcEhrt28uKNHZeaUxqt">
             Det saknades icke från arbetarhåll varningar, när man där tyckte,
             att vi i riksdagen alltför mycket tillmötesgingo de militära synpunkterna,
@@ -909,7 +873,7 @@
         <note xml:id="i-AuEi2RByVx42M3L8PyenFE" type="date">
           Lördagen den 27 februari, e. m. 7
         </note>
-        <u xml:id="i-94u3ZS3kH5ZU1t3FFy6EFM" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-QShq7L78VhTm13nBWXjJ5w" next="i-KV7ievqZ3DGcJEniBL1vX">
+        <u xml:id="i-94u3ZS3kH5ZU1t3FFy6EFM" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-3ZmPxgVvKjowtdqnbHQzj7" next="i-VMVUwzQc9ftcUp3kbFvYWK">
           <seg xml:id="i-D3VkdE48mEzXdKD2vE18J">
             för reaktionen, 2 min del avslog det såsom en fras, men av herr
             krigsministerng ord i dag har jag fått en tydlig förnimmelse,
@@ -923,8 +887,6 @@
             fastare grepp om handled och hals, och de, som framsträckt klorna,
             hava haft en enda trall: disciplin, disciplin, disciplin.
           </seg>
-        </u>
-        <u xml:id="i-KV7ievqZ3DGcJEniBL1vX" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-94u3ZS3kH5ZU1t3FFy6EFM" next="i-VMVUwzQc9ftcUp3kbFvYWK">
           <seg xml:id="i-HTVy1jSzBqV54oJ1bu5PAP">
             När högern vill genomföra någonting, så är det icke så, att den
             kommer med skäl och bevis och redogörelser. Högern är, som vi
@@ -966,7 +928,7 @@
         <note xml:id="i-4FrKyzW9cGC4oKp7BRgsuP">
           Nr 28,
         </note>
-        <u xml:id="i-VMVUwzQc9ftcUp3kbFvYWK" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-KV7ievqZ3DGcJEniBL1vX" next="i-MYqwDD7cc6n1GgBRFE3KgZ">
+        <u xml:id="i-VMVUwzQc9ftcUp3kbFvYWK" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-94u3ZS3kH5ZU1t3FFy6EFM" next="i-MYqwDD7cc6n1GgBRFE3KgZ">
           <seg xml:id="i-BwJgtAzB2MhWaasftZX7of">
             'reppet om folkets hals och handled. Jag för Ang. visso för-
           </seg>
@@ -989,12 +951,10 @@
           oss, och 1600-talets olyckor skola komma över oss och uppsluka
           oss, om vi inte sätta oss
         </note>
-        <u xml:id="i-MYqwDD7cc6n1GgBRFE3KgZ" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-VMVUwzQc9ftcUp3kbFvYWK" next="i-U3MHZ359EEmMyNpzvLMu3Q">
+        <u xml:id="i-MYqwDD7cc6n1GgBRFE3KgZ" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-VMVUwzQc9ftcUp3kbFvYWK" next="i-DvYdb1uHKqBui9DRDU8ZRq">
           <seg xml:id="i-Qqh3GspGSn5Lpm1ddgEKP5">
             till värn mot reaktionen, som reser sig mot oss i ny form.
           </seg>
-        </u>
-        <u xml:id="i-U3MHZ359EEmMyNpzvLMu3Q" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-MYqwDD7cc6n1GgBRFE3KgZ" next="i-BK3EYy8LNXMR7rCxhKxqnz">
           <seg xml:id="i-AvzaKdsSDsEoySUDp11gan">
             Då man talar om disciplin — och vi komma väl i fortsättningen
             åtminstone en gång att få resonera om den saken — är det bland
@@ -1017,8 +977,6 @@
             så nedtrampade underofficerskåren, se vi ju även av talrika cxempel
             råda vad angår menige man.
           </seg>
-        </u>
-        <u xml:id="i-BK3EYy8LNXMR7rCxhKxqnz" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-U3MHZ359EEmMyNpzvLMu3Q" next="i-5ZbfynE5F8hN28QDYnBnvm">
           <seg xml:id="i-P46AHJPkhVZb6nGqwQkg5e">
             Det är 2gendomligt, att ehuru, som jag sade, det är på de regementen,
             där ledarne på vederbörande central ort stå 1 hög gunst, som man
@@ -1029,8 +987,6 @@
             vara omtänksamma såväl om regementet i dess helhet som om manskapet.
             De äro vad man kallar hyggliga
           </seg>
-        </u>
-        <u xml:id="i-5ZbfynE5F8hN28QDYnBnvm" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-BK3EYy8LNXMR7rCxhKxqnz" next="i-DvYdb1uHKqBui9DRDU8ZRq">
           <seg xml:id="i-Snndi6drHj1Ei6upuZ6g7n">
             ersoner, till vilka man i det allra längsta tager all möjlig
             änsyn, innan missnöjet bryter ut. Det är inte personerna sålunda
@@ -1049,7 +1005,7 @@
         <note xml:id="i-FkRmP4xbJ9UF7NCRKm53U9" type="date">
           Lördagen den 27 februari. e. m. 9
         </note>
-        <u xml:id="i-DvYdb1uHKqBui9DRDU8ZRq" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-5ZbfynE5F8hN28QDYnBnvm" next="i-WRerRWTe4r9yVJXLEnCreB">
+        <u xml:id="i-DvYdb1uHKqBui9DRDU8ZRq" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-MYqwDD7cc6n1GgBRFE3KgZ" next="i-HXqUW8qSDndh3VJGzTLFGg">
           <seg xml:id="i-8Dne2DvyVKfbtFLuadUBM1">
             i riksdagen erfarenhet av utan att skada andra, men väl kan man
             tillfredsställa folket, ty folkets önskningar äro hederligare
@@ -1072,8 +1028,6 @@
             där som i vårt, officerskåren är rekryterad ur genuina överklasskretsar.
             Där ha vi sålunda att söka en del av roten till det onda.
           </seg>
-        </u>
-        <u xml:id="i-WRerRWTe4r9yVJXLEnCreB" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-DvYdb1uHKqBui9DRDU8ZRq" next="i-FuB683Mc1NB5b6y4UZiD1T">
           <seg xml:id="i-Ntg894LNipbbsZJdMCfAtz">
             Krigsministerns svar här i dag, jämställt med hans anförande
             i remissdebatten, ledde hos mig tanken på den klagovisa, som vi
@@ -1100,8 +1054,6 @@
             sagt för flera hundra år sedan, att dessa kretsar och intressen
             äro fullkomligt omättliga. ”
           </seg>
-        </u>
-        <u xml:id="i-FuB683Mc1NB5b6y4UZiD1T" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-WRerRWTe4r9yVJXLEnCreB" next="i-HXqUW8qSDndh3VJGzTLFGg">
           <seg xml:id="i-Xf6m6mFnV5uvfF5WZNtZpa">
             På tal om, hur anarkiserande och upplösande dessa krafter verka,
             så måste jag säga ett ord om det eviga politiserande, som
@@ -1126,7 +1078,7 @@
         <note xml:id="i-496v3QVNLBXqDU7tBB9SfX" type="date">
           10 Lördagen den 27 februari, e. m.
         </note>
-        <u xml:id="i-HXqUW8qSDndh3VJGzTLFGg" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-FuB683Mc1NB5b6y4UZiD1T" next="i-X4Y88f6Mfya5FsuLHJGwny">
+        <u xml:id="i-HXqUW8qSDndh3VJGzTLFGg" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-DvYdb1uHKqBui9DRDU8ZRq" next="i-2rDzjGYunRGTJd6cCEME3U">
           <seg xml:id="i-Vexz5BwtbVuYaiDQvemkqN">
             pågår 1 vissa ämbetskretsar och framför allt i officerskretsarna.
             Det har på mig gjort ett mycket pinsamt intryck att höra meddelanden
@@ -1159,8 +1111,6 @@
             något vidare lugnande inflytande vare sig på den inre eller yttre
             politiken.
           </seg>
-        </u>
-        <u xml:id="i-X4Y88f6Mfya5FsuLHJGwny" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-HXqUW8qSDndh3VJGzTLFGg" next="i-2rDzjGYunRGTJd6cCEME3U">
           <seg xml:id="i-61b25piLgGXa4HtgNnfiNy">
             På tal om civilkommissionen och det yttrande, som här i dag fälldes
             från statsrådsbänken, att denna icke vore kompetent att avgöra
@@ -1186,7 +1136,7 @@
         <note xml:id="i-ABn8mfLLoBRf5tePfF3Yaw" type="date">
           Lördagen den 27 februari, e. m. 11 Nr 28&amp;
         </note>
-        <u xml:id="i-2rDzjGYunRGTJd6cCEME3U" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-X4Y88f6Mfya5FsuLHJGwny" next="i-KHvY8PMyn4AwTndBHKN3Go">
+        <u xml:id="i-2rDzjGYunRGTJd6cCEME3U" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-HXqUW8qSDndh3VJGzTLFGg" next="i-2Yi9dy2ScFHggSZfRvaKM2">
           <seg xml:id="i-9cqsvvcbovZubGM6HHyvc3">
             utgifter, som därmed äro förbundna. Den saken har icke att -ng.
             vissa för vöra med frågan om regementets fältduglighet eller icke.
@@ -1195,95 +1145,61 @@
             och Serbien, där (Forts.) det icke sällan förekommer, att ett
             så gott förhållande råder mel-
           </seg>
-        </u>
-        <u xml:id="i-KHvY8PMyn4AwTndBHKN3Go" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-2rDzjGYunRGTJd6cCEME3U" next="i-63CgvjqPtnQFxtMbSEzueR">
           <seg xml:id="i-3pLufb8SyYvKaFRV63SFyx">
             lan officerare och menige man, att man ser en kapten eller
           </seg>
-        </u>
-        <u xml:id="i-63CgvjqPtnQFxtMbSEzueR" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-KHvY8PMyn4AwTndBHKN3Go" next="i-GkvxdWh2jerBN7wyz5XHYR">
           <seg xml:id="i-XFg8efy8fD7X9B53NH7ckg">
             major tända cigaretten ät en menig och hjälpa honom på med
           </seg>
-        </u>
-        <u xml:id="i-GkvxdWh2jerBN7wyz5XHYR" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-63CgvjqPtnQFxtMbSEzueR" next="i-KsDZ1S5uqLsvnJZvhigM4x">
           <seg xml:id="i-Ayy8yJ4w3Vq5JBuYqvh5vy">
             kappan — själv har jag under mina resor på Balkanhalvön varit
           </seg>
-        </u>
-        <u xml:id="i-KsDZ1S5uqLsvnJZvhigM4x" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-GkvxdWh2jerBN7wyz5XHYR" next="i-8rnfKbf8bGEDBQnW336zgv">
           <seg xml:id="i-XFewYfCCef2eR6CT3mw3Lx">
             i tillfälle att se sådana exempel såväl i Turkiet som i Bulgarien,
           </seg>
-        </u>
-        <u xml:id="i-8rnfKbf8bGEDBQnW336zgv" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-KsDZ1S5uqLsvnJZvhigM4x" next="i-TAZxSAAPjYELDgju9xP7kk">
           <seg xml:id="i-6H6KotdKe2Sd32tWFLMVoF">
             ehuru jag icke varit i tillfälle att iakttaga detta i Serbien.
           </seg>
-        </u>
-        <u xml:id="i-TAZxSAAPjYELDgju9xP7kk" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-8rnfKbf8bGEDBQnW336zgv" next="i-KEkbipryEcTXEudZ4xUrUy">
           <seg xml:id="i-AmGWhfVbAjpd64EmXHqSfD">
             Ingen vill väl säga, att den tappra serbiska armén och lika tappra
             bulgariska armén är mindre fältduglig och mindre uthållig,
           </seg>
-        </u>
-        <u xml:id="i-KEkbipryEcTXEudZ4xUrUy" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-TAZxSAAPjYELDgju9xP7kk" next="i-HFNFpC6UKPAzRXc78K2UPF">
           <seg xml:id="i-BfupiLqKyw2CNtfkyTXnpY">
             därför att menige man behandlas såsom människor under övnings-
           </seg>
-        </u>
-        <u xml:id="i-HFNFpC6UKPAzRXc78K2UPF" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-KEkbipryEcTXEudZ4xUrUy" next="i-BrGz92Aog9d1ZeZphvwWLR">
           <seg xml:id="i-NeNLxoQoSo7f6CrAuBGDW9">
             tiden och i fredstid. Likaså tror jag — jag känner icke tillräck-
           </seg>
-        </u>
-        <u xml:id="i-BrGz92Aog9d1ZeZphvwWLR" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-HFNFpC6UKPAzRXc78K2UPF" next="i-5SpyXiLCZ7t1LqA1FTdRQK">
           <seg xml:id="i-L2vsXejm4VNLK1jmDi9Jcz">
             ligt till de franska och engelska arméerna för att komma med
             ett
           </seg>
-        </u>
-        <u xml:id="i-5SpyXiLCZ7t1LqA1FTdRQK" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-BrGz92Aog9d1ZeZphvwWLR" next="i-CpiAACuEWPdRiLFX5G19HV">
           <seg xml:id="i-H4LgzRaAJD63pZoTarrSBp">
             bestämt påstående — att ett sådant uppträdande från regementschefs
             och officerares sida, som vi här varit vittne till, skulle
           </seg>
-        </u>
-        <u xml:id="i-CpiAACuEWPdRiLFX5G19HV" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-5SpyXiLCZ7t1LqA1FTdRQK" next="i-UFUfHiv8TPCRkDcDeeViK">
           <seg xml:id="i-MP7HVyEen93JBrrXp37nKQ">
             vara otänkbart i dessa länder. Denna frågå om vederbörandes uppträdande
             har icke alls något att göra med ett regementes fältduglighet,
             men det har att göra med frågan om kapitalismens herravälde, om
             strävandena till folkmaktens kuvande. Det har
           </seg>
-        </u>
-        <u xml:id="i-UFUfHiv8TPCRkDcDeeViK" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-CpiAACuEWPdRiLFX5G19HV" next="i-KF2uoznXHbdeRWbCkXamnv">
           <seg xml:id="i-3woad2vVt82aNAseSAFpCx">
             att göra med alla de strävanden överhuvud taget, — såsom nyss
           </seg>
-        </u>
-        <u xml:id="i-KF2uoznXHbdeRWbCkXamnv" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-UFUfHiv8TPCRkDcDeeViK" next="i-GFCCgUMUzp9mqHA1uZ9tX4">
           <seg xml:id="i-H3cXnHC4oEHoF82pCeLMc2">
             nämnts — som avse att skapa största möjliga ynkedom, materiell
           </seg>
-        </u>
-        <u xml:id="i-GFCCgUMUzp9mqHA1uZ9tX4" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-KF2uoznXHbdeRWbCkXamnv" next="i-DGtB9toMKz3yY75S1xood4">
           <seg xml:id="i-EWNJDyLs5QLfC1KuWf2XP8">
             och andlig för de små, på det att de få samhällsfienderna, oordningsmakarna
             och utsugarna utan motstånd från det kuvade fol-
           </seg>
-        </u>
-        <u xml:id="i-DGtB9toMKz3yY75S1xood4" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-GFCCgUMUzp9mqHA1uZ9tX4" next="i-DXa6wh1LQ9tWiGKetZ4Gef">
           <seg xml:id="i-L5nmF5sZB2spVUa4sLWA94">
             kets sida skola ytterligare få plundra och kuva. Med dcn saken
           </seg>
-        </u>
-        <u xml:id="i-DXa6wh1LQ9tWiGKetZ4Gef" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-DGtB9toMKz3yY75S1xood4" next="i-TEbYewuztHjorKq7WrjAwK">
           <seg xml:id="i-HgV6Vf9DzB2AA3vMANWZyt">
             har det att göra.
           </seg>
-        </u>
-        <u xml:id="i-TEbYewuztHjorKq7WrjAwK" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-DXa6wh1LQ9tWiGKetZ4Gef" next="i-2Yi9dy2ScFHggSZfRvaKM2">
           <seg xml:id="i-XCGmrZoSm8Msjk6Tn6y1w4">
             Jag nämnde när jag började — och det slutar jag med — att, när
             jag tog initiativet och var den förste, som höjde fanan för att
@@ -1318,7 +1234,7 @@
         <note xml:id="i-BSuyUmtPJjs4YykuXEipED" type="date">
           12 Lördagen den 27 februari, e. m.
         </note>
-        <u xml:id="i-2Yi9dy2ScFHggSZfRvaKM2" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-TEbYewuztHjorKq7WrjAwK">
+        <u xml:id="i-2Yi9dy2ScFHggSZfRvaKM2" who="i-4UEzXgg6g6fiqb4dQ2EDU3" prev="i-2rDzjGYunRGTJd6cCEME3U">
           <seg xml:id="i-Tft9Ytuh7Ayns5dxqMQLL7">
             det vill betala, och det har därigenom makten att bestämma, huru
             det, som betalar det, skall se ut. När vi en gång komma ur denna
@@ -1334,15 +1250,13 @@
         <note xml:id="i-RWTFEYmnu1KtaeGyHStLJ5" type="speaker">
           Herr E. A. Nilson i Örebro:
         </note>
-        <u xml:id="i-2BUgYdNLKCVVe5PkNFtmmE" who="i-4KJMAUW9zFRD1g1ShqsMqw" next="i-2AbDAsbrQx167HRuwQTfBq">
+        <u xml:id="i-2BUgYdNLKCVVe5PkNFtmmE" who="i-4KJMAUW9zFRD1g1ShqsMqw" next="i-EYjpvcPTpX98rUYqG3zwPw">
           <seg xml:id="i-AFqztUzhWRzhk4w4KiiSPq">
             Jag hade icke ämnat deltaga i denna debatt, men det yttrande,
             som här avgivits från statsrådsbänken, har nödgat mig att avge
             en deklaration från min och mina kamraters sida, som med mig deltagit
             i det beslut, som finnes i kommissionens protokoll antecknat.
           </seg>
-        </u>
-        <u xml:id="i-2AbDAsbrQx167HRuwQTfBq" who="i-4KJMAUW9zFRD1g1ShqsMqw" prev="i-2BUgYdNLKCVVe5PkNFtmmE" next="i-5iGgNxLohopVrTvDL3vfhz">
           <seg xml:id="i-KkMmBuEbssMzJgQuQrpvaU">
             Det framgår av herr statsrådets vttrande, att han fått impulsen
             till sin tolkning väsentligen ifrån den reservation, som avgivits
@@ -1360,8 +1274,6 @@
             uttalande instämde mina två kamrater, som Jämte mig dikterat kommissionens
             beslut.
           </seg>
-        </u>
-        <u xml:id="i-5iGgNxLohopVrTvDL3vfhz" who="i-4KJMAUW9zFRD1g1ShqsMqw" prev="i-2AbDAsbrQx167HRuwQTfBq" next="i-EYjpvcPTpX98rUYqG3zwPw">
           <seg xml:id="i-U83S28amBp3XVn8jhF1Wnf">
             Jag behöver nu icke beträffande denna sak avgiva ett vittnesmål,
             som tilläventyrs kan i någon mån vara influerat av de stämningar,
@@ -1389,7 +1301,7 @@
         <note xml:id="i-L7t3nkYm7wn59Qgf2YcqYk" type="date">
           Lördagen den 27 februari, ce. m. 13 — Nr 28,
         </note>
-        <u xml:id="i-EYjpvcPTpX98rUYqG3zwPw" who="i-4KJMAUW9zFRD1g1ShqsMqw" prev="i-5iGgNxLohopVrTvDL3vfhz" next="i-UeGgF4M8XwdTEerVfVgbTP">
+        <u xml:id="i-EYjpvcPTpX98rUYqG3zwPw" who="i-4KJMAUW9zFRD1g1ShqsMqw" prev="i-2BUgYdNLKCVVe5PkNFtmmE" next="i-iXWQ62Yum4xuFaCB5LEq1">
           <seg xml:id="i-TErM42xWhPeVGiTJCzeg33">
             ning, som jag hade uttalat, svarade herr Kronlund på följande
             sätt: Ang. vissa förkommissionens ordförande har ju under gårdagen
@@ -1397,14 +1309,10 @@
             Björkmans avsättning. Ja, sade herr (Forts.) | Kronlund, tacka
             för det, en sådan fordran skulle väl varit det orim-
           </seg>
-        </u>
-        <u xml:id="i-UeGgF4M8XwdTEerVfVgbTP" who="i-4KJMAUW9zFRD1g1ShqsMqw" prev="i-EYjpvcPTpX98rUYqG3zwPw" next="i-JkFQVrFWHH61aQaM8mQLmh">
           <seg xml:id="i-AKTh8kGWebmLYzc8SrMBKe">
             ligaste av allt. Så säger den man, som är en av reservanterna
             angå-
           </seg>
-        </u>
-        <u xml:id="i-JkFQVrFWHH61aQaM8mQLmh" who="i-4KJMAUW9zFRD1g1ShqsMqw" prev="i-UeGgF4M8XwdTEerVfVgbTP" next="i-iXWQ62Yum4xuFaCB5LEq1">
           <seg xml:id="i-C99xNnbjb1M1chG91yz8cw">
             ende detta spörsmål, och det kan ju vara nog att hänvisa till
             detta
@@ -1413,7 +1321,7 @@
         <note xml:id="i-LZ7Hojt3iVAaujgbiFVz43">
           yttrande från reservanten.
         </note>
-        <u xml:id="i-iXWQ62Yum4xuFaCB5LEq1" who="i-4KJMAUW9zFRD1g1ShqsMqw" prev="i-JkFQVrFWHH61aQaM8mQLmh" next="i-AwLnhuAKBrLVG5nLJxEP1Q">
+        <u xml:id="i-iXWQ62Yum4xuFaCB5LEq1" who="i-4KJMAUW9zFRD1g1ShqsMqw" prev="i-EYjpvcPTpX98rUYqG3zwPw" next="i-CNJSUwWC9mjQiS6MKkvNWe">
           <seg xml:id="i-6x5sigsLXgAokudtDxGFyf">
             Härmed kunde jag ju gärna sluta, men jag vill dock i korthet
             stanna vid ett par omständigheter. Herr krigsministern har givit
@@ -1442,8 +1350,6 @@
             en sådan indelning av de värnpliktiga i kompanier, vilken för
             dem medför ett obehag, kan ha något större värde ur militär synpunkt?
           </seg>
-        </u>
-        <u xml:id="i-AwLnhuAKBrLVG5nLJxEP1Q" who="i-4KJMAUW9zFRD1g1ShqsMqw" prev="i-iXWQ62Yum4xuFaCB5LEq1" next="i-CNJSUwWC9mjQiS6MKkvNWe">
           <seg xml:id="i-H8kNmNwYKJFD3EafxYd5En">
             Den förste ärade talaren har redan omnämnt, hurusom tjänstgöringsreglementet
             vid armén föreskriver, att befälet skall vara ett föredöme för
@@ -1479,7 +1385,7 @@
         <note xml:id="i-YNdkLYKGXKT2iHpiR9RVEu">
           Dalregemntet. (Forts.)
         </note>
-        <u xml:id="i-CNJSUwWC9mjQiS6MKkvNWe" who="i-4KJMAUW9zFRD1g1ShqsMqw" prev="i-AwLnhuAKBrLVG5nLJxEP1Q">
+        <u xml:id="i-CNJSUwWC9mjQiS6MKkvNWe" who="i-4KJMAUW9zFRD1g1ShqsMqw" prev="i-iXWQ62Yum4xuFaCB5LEq1">
           <seg xml:id="i-683FxXeUAwVAeXbJXdkuCG">
             kunna vara eniga därom, att svärjandet är ett uttryck av råhet,
             en råhet, som i mina ögon, i mitt sinne och i mitt tänkande blir
@@ -1525,7 +1431,7 @@
         <note xml:id="i-WoRZoYq5kTFa92u3XZKCbn" type="speaker">
           Chefen för lantförsvarsdepartementet herr statsrådet M örceke:
         </note>
-        <u xml:id="i-LGcz6Kq5yqXVbvZBNbMGao" who="i-7yJee9UBmnMb8LPL7Gr9Xa" next="i-ACB5ZGwkWfLDsNQmfec9k2">
+        <u xml:id="i-LGcz6Kq5yqXVbvZBNbMGao" who="i-7yJee9UBmnMb8LPL7Gr9Xa" next="i-J4hVrQfb3uajRUL4XaWaBo">
           <seg xml:id="i-UhMW5uai9q5Lmrivd28fZn">
             Herr talman, mina herrar! Jag ber att till en början få ge uttryck
             åt min glädje över, att den siste ärade talaren, civilkommissionens
@@ -1533,8 +1439,6 @@
             ifrågavarande framställning ingalunda varit att avlägsna den regementschef,
             det här gäller, från hans plats, utan vidtagandet av andra åtgärder.
           </seg>
-        </u>
-        <u xml:id="i-ACB5ZGwkWfLDsNQmfec9k2" who="i-7yJee9UBmnMb8LPL7Gr9Xa" prev="i-LGcz6Kq5yqXVbvZBNbMGao" next="i-J4hVrQfb3uajRUL4XaWaBo">
           <seg xml:id="i-5D7yvTvBAfymtiNGq7iFG9">
             Samme ärade talare ställde för övrigt ett par direkta frågor
           </seg>
@@ -1543,7 +1447,7 @@
         <note xml:id="i-N84BZnocecSwzh9gsR4wP4" type="date">
           Lördagen den 27 februari, e. m. 15
         </note>
-        <u xml:id="i-J4hVrQfb3uajRUL4XaWaBo" who="i-7yJee9UBmnMb8LPL7Gr9Xa" prev="i-ACB5ZGwkWfLDsNQmfec9k2" next="i-65ZzXZZ9rRTiNZ64vZpUS9">
+        <u xml:id="i-J4hVrQfb3uajRUL4XaWaBo" who="i-7yJee9UBmnMb8LPL7Gr9Xa" prev="i-LGcz6Kq5yqXVbvZBNbMGao">
           <seg xml:id="i-FG1TS2GQANfLc44kQE42E">
             till mig, som jag nu skall be att få besvara. Den ena frågan
             var, om jag hade mig bekant, att vid Dalregementet manskapet icke
@@ -1564,8 +1468,6 @@
             Detta är ett skäl för en sådan indelning, men jag har, som sagt,
             själv icke använt detta system.
           </seg>
-        </u>
-        <u xml:id="i-65ZzXZZ9rRTiNZ64vZpUS9" who="i-7yJee9UBmnMb8LPL7Gr9Xa" prev="i-J4hVrQfb3uajRUL4XaWaBo" next="i-8WxKkSMdeJTwsMjoJ65JrC">
           <seg xml:id="i-2yxebdnfY7n3ybo6mGGunL">
             Den andra frågan, som här framställdes direkt till mig, var,
             om jag gillar eller ogillar svärjandet vid regementena. Jag behöver
@@ -1581,8 +1483,6 @@
             han hade alldeles samma åsikt som jag, i det han nämligen på det
             allra högsta ogillade sådant.
           </seg>
-        </u>
-        <u xml:id="i-8WxKkSMdeJTwsMjoJ65JrC" who="i-7yJee9UBmnMb8LPL7Gr9Xa" prev="i-65ZzXZZ9rRTiNZ64vZpUS9">
           <seg xml:id="i-WTgPaWKvztYteHMcs1CkvZ">
             Jag anser mig med detta ha givit svar på de till mig framställda
             frågorna.
@@ -1689,7 +1589,7 @@
           upptaga grundtanken i dessa Gustav II Adolfs bestämmelser angäå-
           Ang. vissa förende svordomar. Dale DE
         </note>
-        <u xml:id="i-Az3MEmPbywHxPnx11ZjA8Q" who="i-TjuPSYKkx95qCszBSy7x54" prev="i-5mRhc2TpHZBorgA6JQDjcy" next="i-UWZ4C5LNKWAJkkeuQoWiFJ">
+        <u xml:id="i-Az3MEmPbywHxPnx11ZjA8Q" who="i-TjuPSYKkx95qCszBSy7x54" prev="i-5mRhc2TpHZBorgA6JQDjcy" next="i-NQ1TfjndDZ3QVcsH79f18W">
           <seg xml:id="i-6b4yK5EyWgh3MVpH7YF8AQ">
             Herr statsrådet erkände till min — och Jag förmodar till allas
             (Horla) | vår glädje — att han ogillar svordomar. Men det förvånar
@@ -1701,8 +1601,6 @@
             hade gjort, och såsom ett fullt gripbart exempel kunde just då
             ha framhållits svärjandet.
           </seg>
-        </u>
-        <u xml:id="i-UWZ4C5LNKWAJkkeuQoWiFJ" who="i-TjuPSYKkx95qCszBSy7x54" prev="i-Az3MEmPbywHxPnx11ZjA8Q" next="i-NQ1TfjndDZ3QVcsH79f18W">
           <seg xml:id="i-7Rc3ZQehXmpp1ZcdcWogFB">
             Man bör ju behandla alla militärer lika och man bör ju icke,
             såsom herr statsrådet har gjort, begagna en särskild behandlingsmetod
@@ -1760,14 +1658,12 @@
         <note xml:id="i-8N5S4jdcS4K2trAcuw2y3c" type="date">
           18 Lördagen den 27 februari, e. m.
         </note>
-        <u xml:id="i-NQ1TfjndDZ3QVcsH79f18W" who="i-TjuPSYKkx95qCszBSy7x54" prev="i-UWZ4C5LNKWAJkkeuQoWiFJ" next="i-dAmAveNm3hPpER3obFnKo">
+        <u xml:id="i-NQ1TfjndDZ3QVcsH79f18W" who="i-TjuPSYKkx95qCszBSy7x54" prev="i-Az3MEmPbywHxPnx11ZjA8Q">
           <seg xml:id="i-B6c3ahSgPtXHaFbLRF2oXM">
             det är den sanna militära anda, utan vilken vi icke kunna tillkämpa
             oss seger, om vi komma ut i fält, och det kan ske förr, än vi
             tro.
           </seg>
-        </u>
-        <u xml:id="i-dAmAveNm3hPpER3obFnKo" who="i-TjuPSYKkx95qCszBSy7x54" prev="i-NQ1TfjndDZ3QVcsH79f18W">
           <seg xml:id="i-MoR6aKu2q6iyDnQeCgE1DW">
             När kriget mellan Tyskland och Ryssland, som nu pågår, utbröt,
             fick jag samma dag krigsförklaringen ingick ett brev från en tysk
@@ -1789,7 +1685,7 @@
         <note xml:id="i-3tWRMZHLdbKLPaSjdL9tSg" type="speaker">
           Herr Hallendor ff:
         </note>
-        <u xml:id="i-6H3y2NCmsCVw5211LPY8uN" who="unknown" next="i-UU6oyNPvHyqkaPuJFg39bb">
+        <u xml:id="i-6H3y2NCmsCVw5211LPY8uN" who="unknown" next="i-5FYLsgn4mfCRPXa9KUzDeY">
           <seg xml:id="i-WtM13nTXBQLTJHJSFFwRJU">
             Herr talman, mina herrar! Jag erkänner att det är med åtskillig
             tvekan, som jag beslutat mig för att säga några ord i denna debatt.
@@ -1817,8 +1713,6 @@
             tillåter jag mig att göra åtminstone ett par anmärkningar, som
             fallit mig i sinnet under denna debatt.
           </seg>
-        </u>
-        <u xml:id="i-UU6oyNPvHyqkaPuJFg39bb" who="unknown" prev="i-6H3y2NCmsCVw5211LPY8uN" next="i-5FYLsgn4mfCRPXa9KUzDeY">
           <seg xml:id="i-NEnJJvVuXWXyxBqLVmmQBb">
             Jag vill först och främst gripa fast vid det, att från ingen
             av dem, som här uppträtt, har förekommit något annat än de livligaste
@@ -1832,7 +1726,7 @@
         <note xml:id="i-HttcP278HKFzZjW37ojWHT" type="date">
           Lördagen den 24 februari, e. m. 19
         </note>
-        <u xml:id="i-5FYLsgn4mfCRPXa9KUzDeY" who="unknown" prev="i-UU6oyNPvHyqkaPuJFg39bb" next="i-NoZoLWx8K67SKWnvsiBrAy">
+        <u xml:id="i-5FYLsgn4mfCRPXa9KUzDeY" who="unknown" prev="i-6H3y2NCmsCVw5211LPY8uN" next="i-M3tTDDuxpYqi2GEm42QiRr">
           <seg xml:id="i-Mb4bnmdTLCaM2D5oTXPzUV">
             kommas såsom resultat av det, som för resten diskuterats. I övrigt
             har disskussionen rört sig på alla möjliga områden, och det kunde
@@ -1842,8 +1736,6 @@
             att diskutera, men jag finner icke, att det är lämpligt att göra
             det nu; det må hellre ske privat.
           </seg>
-        </u>
-        <u xml:id="i-NoZoLWx8K67SKWnvsiBrAy" who="unknown" prev="i-5FYLsgn4mfCRPXa9KUzDeY" next="i-2XxZYDMnJzD2GL9u1FENYL">
           <seg xml:id="i-DcybEs84J7txeYUjX1EPqH">
             Vad beträffar det ärende, som nu speciellt är under debatt, nämligen
             frågan om civilkommissionens ingripande i det s. k. Dalregementsfallet,
@@ -1883,8 +1775,6 @@
             allt, som nu torde ha undersökts, kan subsummeras under ifrågavarande
             föreskrift i instruktionen.
           </seg>
-        </u>
-        <u xml:id="i-2XxZYDMnJzD2GL9u1FENYL" who="unknown" prev="i-NoZoLWx8K67SKWnvsiBrAy" next="i-M3tTDDuxpYqi2GEm42QiRr">
           <seg xml:id="i-XGoRQoBfRUrBfLxC15XbN5">
             För övrigt bör det bemärkas, att de sakkunniga i nämnda utlåtandet
             vidare uttala följande: Då det är omöjligt att i allo draga klara
@@ -1910,13 +1800,11 @@
         <note xml:id="i-74GTEBCQoUcfqagBw3jemb" type="date">
           20 Lördagen den 27 februari, e. m.
         </note>
-        <u xml:id="i-M3tTDDuxpYqi2GEm42QiRr" who="unknown" prev="i-2XxZYDMnJzD2GL9u1FENYL" next="i-7i97gPza71fUDWwXkC4mR2">
+        <u xml:id="i-M3tTDDuxpYqi2GEm42QiRr" who="unknown" prev="i-5FYLsgn4mfCRPXa9KUzDeY" next="i-X8bmNvnd1fxihvELrPTZw2">
           <seg xml:id="i-BkvQLafDWc1JmS2bukk2DR">
             mig icke bekant, att framställningen om sådana utvidgningar eller
             inskränkningar gjorts, speciellt icke i detta fall om utvidgning.
           </seg>
-        </u>
-        <u xml:id="i-7i97gPza71fUDWwXkC4mR2" who="unknown" prev="i-M3tTDDuxpYqi2GEm42QiRr" next="i-4x28Ktyz7HfzBMTLSB4jaH">
           <seg xml:id="i-4CpedE1UrP7xNUTK9vExsw">
             Under alla omständigheter måste väl dylika föreskrifter och förhållanden
             av berörda art, vilka icke med säkerhet falla under kommissionens
@@ -1933,8 +1821,6 @@
             mig, som om man rört sig på en mark, som icke egentligen tillhör
             kommissionens verksamhetssfär.
           </seg>
-        </u>
-        <u xml:id="i-4x28Ktyz7HfzBMTLSB4jaH" who="unknown" prev="i-7i97gPza71fUDWwXkC4mR2" next="i-GMUoASaFP1G1Qw9uqcsqCS">
           <seg xml:id="i-SioHu1DqXZBV3e5VMiHviG">
             Det kan naturligtvis icke komma ifråga, att härmed säga, att
             allt är bra som det är, som det heter. Det kan naturligtvis icke
@@ -1964,8 +1850,6 @@
             man har gått framåt efter gammal slentrian utan någon sådan känsla,
             och det är frånvaron av den, som dödat.
           </seg>
-        </u>
-        <u xml:id="i-GMUoASaFP1G1Qw9uqcsqCS" who="unknown" prev="i-4x28Ktyz7HfzBMTLSB4jaH" next="i-X8bmNvnd1fxihvELrPTZw2">
           <seg xml:id="i-DBCKLegU4chwqx731wupCv">
             Det kan vara skäl erinra om, hur det i allmänhet ställer sig
             på ett annat område, inom undervisningen, när en lärare nödgas
@@ -1980,7 +1864,7 @@
         <note xml:id="i-5YXyMRurVM2eZLExBD8NJ4" type="date">
           Lördagen den 27 februari, e. m. 21 Nr 28;
         </note>
-        <u xml:id="i-X8bmNvnd1fxihvELrPTZw2" who="unknown" prev="i-GMUoASaFP1G1Qw9uqcsqCS" next="i-K5ihjbizjJ4xmzasBobWbM">
+        <u xml:id="i-X8bmNvnd1fxihvELrPTZw2" who="unknown" prev="i-M3tTDDuxpYqi2GEm42QiRr">
           <seg xml:id="i-9aDZJUJcn4KrF4LgYTzzQm">
             förvåna, om inom den armé, som ända till år 1901 hade att arbeta
             ng. vissa förunder förhållanden, som voro de nyssnämnda mycket
@@ -1990,8 +1874,6 @@
             under de sista tio, tolv åren ännu icke kunnat på alla punkter
             skapa de resultat, man haft anledning önska.
           </seg>
-        </u>
-        <u xml:id="i-K5ihjbizjJ4xmzasBobWbM" who="unknown" prev="i-X8bmNvnd1fxihvELrPTZw2">
           <seg xml:id="i-9pk3wGXyvphiKUNR1S21m3">
             Med detta vill jag som sagt icke försvara allt som det är, men
             jag tror att vi få inrikta kritiken åt annat håll in som skett,
@@ -2023,7 +1905,7 @@
         <note xml:id="i-R477anGSNv2C28J8WkCMMp" type="speaker">
           Herr Sandler:
         </note>
-        <u xml:id="i-UAHCa7Dp332mPAhxtoT8kG" who="i-9iqLBgdAYEoR244dkazyYj" next="i-RUnHhuM5HZLty48GTmiSJo">
+        <u xml:id="i-UAHCa7Dp332mPAhxtoT8kG" who="i-9iqLBgdAYEoR244dkazyYj" next="i-5HpwdCngV4jeqgjKmxDgxB">
           <seg xml:id="i-Uvhj8o4vKX1K5Hwvxhi5YE">
             Herr talman! Genom regeringens handläggning av civilkommissionens
             skrivelse har detta ärende fått vida större dimensioner än det
@@ -2035,8 +1917,6 @@
             militära principerna. Jag har icke något att tillägga rörande
             detta ämne, utöver vad som förut under debatten anförts.
           </seg>
-        </u>
-        <u xml:id="i-RUnHhuM5HZLty48GTmiSJo" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-UAHCa7Dp332mPAhxtoT8kG" next="i-5HpwdCngV4jeqgjKmxDgxB">
           <seg xml:id="i-UgNqsHYGXBwmYKXhQ9shKd">
             Men då diskussionen nu har kommit in på vad som från början givit
             uppslag till det hela, nämligen förhållandena vid Dalregementet,
@@ -2057,7 +1937,7 @@
         <note xml:id="i-9zZasVwKXnxotZkpm1AsF5" type="date">
           22 Lördagen den 27 februari, e. m.
         </note>
-        <u xml:id="i-5HpwdCngV4jeqgjKmxDgxB" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-RUnHhuM5HZLty48GTmiSJo" next="i-4a77YkoXQHuTYjpnpq7oUX">
+        <u xml:id="i-5HpwdCngV4jeqgjKmxDgxB" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-UAHCa7Dp332mPAhxtoT8kG" next="i-D4aNTVUPwHdBeR1g8khSd2">
           <seg xml:id="i-JRMSwXAQAhqxaUWjTueiQN">
             rande förhållandena vid Dalregementet under några dagar, då jag
             var inkallad till tjänstgöring i januari detta år. Om jag förstod
@@ -2075,13 +1955,9 @@
             en person, som endast har två dagars erfarenhet att bygga på,
             icke
           </seg>
-        </u>
-        <u xml:id="i-4a77YkoXQHuTYjpnpq7oUX" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-5HpwdCngV4jeqgjKmxDgxB" next="i-GRus8bBCe8yqdK41WMfZx4">
           <seg xml:id="i-7Fau1Wp2se4U9kn5XK7TN9">
             . kan på den grundvalen basera ett slutgiltigt omdöme rörande
           </seg>
-        </u>
-        <u xml:id="i-GRus8bBCe8yqdK41WMfZx4" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-4a77YkoXQHuTYjpnpq7oUX" next="i-MRcHB9G4u1JLygP3fC5b8p">
           <seg xml:id="i-KuqgRBsgKSL6EV9ofkBWAh">
             hela det system, som finnes där uppe, och det vågar jag naturligtvis
             icke göra på grundvalen av den erfarenhet, som jag har. Men det
@@ -2107,8 +1983,6 @@
             icke kan begripa ha det bittersta att göra med det, som skulle
             vara ändamålet med manskapets vistelse där uppe vid lägerplatsen.
           </seg>
-        </u>
-        <u xml:id="i-MRcHB9G4u1JLygP3fC5b8p" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-GRus8bBCe8yqdK41WMfZx4" next="i-54AFGov8ZmosiAVNQ8bSuq">
           <seg xml:id="i-37Zm2uQP1bEbSzfW5VR6zn">
             Det har framhållits i allt, som sagts om Dalregementet, att paradsynpunkterna
             spela en oerhört framträdande roll där uppe. Jag måste för min
@@ -2117,8 +1991,6 @@
             påtagliga exempel, att man icke gärna kan betvivla, att här har
             man gått alldeles orimligt för långt i detta avseende.
           </seg>
-        </u>
-        <u xml:id="i-54AFGov8ZmosiAVNQ8bSuq" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-MRcHB9G4u1JLygP3fC5b8p" next="i-D4aNTVUPwHdBeR1g8khSd2">
           <seg xml:id="i-FC2qJJ58HjVHRkERDSKycZ">
             Detta framhölls av en talare i remissdebatten, illustrerat med
             ett exempel, att man använt snören för att få tåspetsarna
@@ -2128,7 +2000,7 @@
         <note xml:id="i-3nwTsfxsf1bxtiYwNpR7av" type="date">
           Lördagen den 27 februari, e. m. 23 — Nr 28.
         </note>
-        <u xml:id="i-D4aNTVUPwHdBeR1g8khSd2" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-54AFGov8ZmosiAVNQ8bSuq" next="i-BhJ8PLr37BhSmmJ3dz32uc">
+        <u xml:id="i-D4aNTVUPwHdBeR1g8khSd2" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-5HpwdCngV4jeqgjKmxDgxB" next="i-SorEoCv4MY7caPpfpMZxEp">
           <seg xml:id="i-GEUSnr9FLtu5N1RSy2cuki">
             på en och samma räta linje. Det är ett typiskt exempel. Jag har
             4ng. vissa förhaft tillfälle att taga del av ett aktstycke, i
@@ -2137,89 +2009,55 @@
             och jag har däri funnit ganska | karakteristiska uttryck för den
             uppfattningen, som tycks känne-
           </seg>
-        </u>
-        <u xml:id="i-BhJ8PLr37BhSmmJ3dz32uc" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-D4aNTVUPwHdBeR1g8khSd2" next="i-617H928QiRbGk3ut8PZWhz">
           <seg xml:id="i-Li9DdK1EMk7mR4iWLnS7tF">
             teckna ledningen vid regementet. Det klagas nämligen däri över
           </seg>
-        </u>
-        <u xml:id="i-617H928QiRbGk3ut8PZWhz" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-BhJ8PLr37BhSmmJ3dz32uc" next="i-V618HVb3Xs4T5CsjFYtW5K">
           <seg xml:id="i-RvpwMpJGFYjgFm9v4jqdL5">
             hur ytterst lätt under nuvarande otillräckliga övningstid den
           </seg>
-        </u>
-        <u xml:id="i-V618HVb3Xs4T5CsjFYtW5K" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-617H928QiRbGk3ut8PZWhz" next="i-8sxzi12Ui7sTSQZjcYGTMb">
           <seg xml:id="i-KbMVevVgXh6tsvUigLbDM7">
             yttre soldatfernissan faller bort, därest den ständiga kontrollen
           </seg>
-        </u>
-        <u xml:id="i-8sxzi12Ui7sTSQZjcYGTMb" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-V618HVb3Xs4T5CsjFYtW5K" next="i-PLohiFcTFAu1XT8PWmZoY8">
           <seg xml:id="i-Ynnm4Zm9Z28s4ardYo6w1">
             upphör eller slappnar. Vederbörande officerare få det rådet,
           </seg>
-        </u>
-        <u xml:id="i-PLohiFcTFAu1XT8PWmZoY8" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-8sxzi12Ui7sTSQZjcYGTMb" next="i-BeSqHXihpQiwipC7bEc1AN">
           <seg xml:id="i-Du4wT7tCMmcEh4Qvx3in4V">
             att, om de möta de värnpliktige i Falu stad, de utan att väcka
             uppseende och utan att åstadkomma obehag för de värnpliktiga
           </seg>
-        </u>
-        <u xml:id="i-BeSqHXihpQiwipC7bEc1AN" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-PLohiFcTFAu1XT8PWmZoY8" next="i-JkNmTaf9XT1MUtrfncBWj5">
           <seg xml:id="i-9HR4tgM69BhjeT1YnNwVu4">
             böra säga till dem med låg röst och i förbigående, att de böra
           </seg>
-        </u>
-        <u xml:id="i-JkNmTaf9XT1MUtrfncBWj5" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-BeSqHXihpQiwipC7bEc1AN" next="i-AjoU6JC9jkDnWNc9JEqy9v">
           <seg xml:id="i-JZQNuoQJm2RjLKTFunpFo">
             skicka sig militäriskt, det vill säga räta på sig. Det är natur-
           </seg>
-        </u>
-        <u xml:id="i-AjoU6JC9jkDnWNc9JEqy9v" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-JkNmTaf9XT1MUtrfncBWj5" next="i-CvYETyptSF9XRDNMjy9H7f">
           <seg xml:id="i-AWqo2sh4ZWpyoFjxwLdi14">
             ligtvis en bagatell. Jag anför den endast därför, att den är
           </seg>
-        </u>
-        <u xml:id="i-CvYETyptSF9XRDNMjy9H7f" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-AjoU6JC9jkDnWNc9JEqy9v" next="i-LBLT92TB3PhmTUmU5yo1G6">
           <seg xml:id="i-FV16AxuiJVFnRv4LaEAzg">
             så karakteristisk för den omätliga vikt, som man där uppe tycks
           </seg>
-        </u>
-        <u xml:id="i-LBLT92TB3PhmTUmU5yo1G6" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-CvYETyptSF9XRDNMjy9H7f" next="i-XZ3EsgkNyBVaMV3f65HGm9">
           <seg xml:id="i-7p86sAwHQMrmz4dENZR3GK">
             lägga vid sådana yttre åthävor, och jag vill säga herrar militärer,
           </seg>
-        </u>
-        <u xml:id="i-XZ3EsgkNyBVaMV3f65HGm9" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-LBLT92TB3PhmTUmU5yo1G6" next="i-29LNkssJHQ5GQMJtnDJpMC">
           <seg xml:id="i-DNgJytn2WhS29BfQq4c24x">
             dem som ha tillfälle att vara här närvarande, att de värnpliktiga
           </seg>
-        </u>
-        <u xml:id="i-29LNkssJHQ5GQMJtnDJpMC" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-XZ3EsgkNyBVaMV3f65HGm9" next="i-FJUoL1LMsqf3uHoBBsAahu">
           <seg xml:id="i-77mnPBDo5eQkS7oPPEyNd2">
             tänka nog en smula över sådant och göra sina reflexioner däröver.
           </seg>
-        </u>
-        <u xml:id="i-FJUoL1LMsqf3uHoBBsAahu" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-29LNkssJHQ5GQMJtnDJpMC" next="i-N6EY7dMuw9KRoyPQZinke1">
           <seg xml:id="i-4kYPGqpgBWPW7eLSiYiaG8">
             Det civila förståndet är så pass oresonligt, att det söker finna
           </seg>
-        </u>
-        <u xml:id="i-N6EY7dMuw9KRoyPQZinke1" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-FJUoL1LMsqf3uHoBBsAahu" next="i-8hdzjWh3oDBwnqRSgePqaM">
           <seg xml:id="i-BzwrKMDtrLQR7tMdA5Hntz">
             förnuft även i en sådan institution som militärväsendet. Man
           </seg>
-        </u>
-        <u xml:id="i-8hdzjWh3oDBwnqRSgePqaM" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-N6EY7dMuw9KRoyPQZinke1" next="i-9uP4rDWosyFJJ3PUMWgob2">
           <seg xml:id="i-BmeDMyMQVP4RGM4KD16gNG">
             frågar sig därför beträffande den ena eller andra åtgärden: vad
           </seg>
-        </u>
-        <u xml:id="i-9uP4rDWosyFJJ3PUMWgob2" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-8hdzjWh3oDBwnqRSgePqaM" next="i-RtJsqW95JURUgNTa5NcDjt">
           <seg xml:id="i-XFi8fpEMN2SJXirn1ps4Ap">
             är det för förnuftigt i detta?
           </seg>
-        </u>
-        <u xml:id="i-RtJsqW95JURUgNTa5NcDjt" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-9uP4rDWosyFJJ3PUMWgob2" next="i-SorEoCv4MY7caPpfpMZxEp">
           <seg xml:id="i-381rwR2g8EyLRgttuMbVvG">
             Jag erkänner, att om jag från den begränsade erfarenhet, jag
             har, skall taga exempel för att illustrera mina påståenden, det
@@ -2260,12 +2098,10 @@
           Ang. vissa föroch det finaste i denna kråksång är, att denna
           skarv skall be-
         </note>
-        <u xml:id="i-SorEoCv4MY7caPpfpMZxEp" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-RtJsqW95JURUgNTa5NcDjt" next="i-NCc4ZU4hv7sfjWnMNTwzaU">
+        <u xml:id="i-SorEoCv4MY7caPpfpMZxEp" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-D4aNTVUPwHdBeR1g8khSd2">
           <seg xml:id="i-3h8gr5o78xWE4A2vahQGRX">
             hållandrn vid Dalregementet. (Forts.)
           </seg>
-        </u>
-        <u xml:id="i-NCc4ZU4hv7sfjWnMNTwzaU" who="i-9iqLBgdAYEoR244dkazyYj" prev="i-SorEoCv4MY7caPpfpMZxEp">
           <seg xml:id="i-JQMwnBm324n3PxrFTzpijt">
             finna sig vid en viss bestämd slå i sängen, så att när vederbörande
             befälhavare kommer in i logementet, skall han endast behöva böja
@@ -2293,15 +2129,13 @@
         <note xml:id="i-MWXBjz94mz8JuQFAhvA5FT" type="speaker">
           Herr Thorsson:
         </note>
-        <u xml:id="i-EBecnTaqaYbT57n4qe39bf" who="i-LAeBbuwZ1Sak1HWNkZ6dVr" next="i-QL1UbVea9o3SknVdyinntJ">
+        <u xml:id="i-EBecnTaqaYbT57n4qe39bf" who="i-LAeBbuwZ1Sak1HWNkZ6dVr" next="i-QffpdpcJBSe6w4AQj8PDNw">
           <seg xml:id="i-6PggLMQMcq22RNds3nLBoX">
             Herr talman! Jag skall alls icke gå in och fördjupa mig i ett
             ämne, som varit föremål för kammarens överläggning. Men jag känner
             ett behov av att få säga några ord beträffande den ytterligare
             utökning av befälet, som ifrågasättes i denna punkt.
           </seg>
-        </u>
-        <u xml:id="i-QL1UbVea9o3SknVdyinntJ" who="i-LAeBbuwZ1Sak1HWNkZ6dVr" prev="i-EBecnTaqaYbT57n4qe39bf" next="i-QffpdpcJBSe6w4AQj8PDNw">
           <seg xml:id="i-S9iMyJTdrerSFX8AK5rCD5">
             Genom det beslut, som fattades, när denna härordning antogs,
             vidtogos åtskilliga åtgärder i syfte att förbereda möjligheterna
@@ -2331,13 +2165,11 @@
         <note xml:id="i-Y3m5KesvorHQND7LYFbYSY">
           Nr 28,
         </note>
-        <u xml:id="i-QffpdpcJBSe6w4AQj8PDNw" who="i-LAeBbuwZ1Sak1HWNkZ6dVr" prev="i-QL1UbVea9o3SknVdyinntJ" next="i-BiVg4NHWQf679iFCcGRnGJ">
+        <u xml:id="i-QffpdpcJBSe6w4AQj8PDNw" who="i-LAeBbuwZ1Sak1HWNkZ6dVr" prev="i-EBecnTaqaYbT57n4qe39bf" next="i-DPTBni5K7mmCnapFvMk3fj">
           <seg xml:id="i-4iyBVDg7K4dEYNSEHzerVs">
             examinera minst 350 nya officerare under dessa 5 år. Men jag
             tror ng. vissa för-
           </seg>
-        </u>
-        <u xml:id="i-BiVg4NHWQf679iFCcGRnGJ" who="i-LAeBbuwZ1Sak1HWNkZ6dVr" prev="i-QffpdpcJBSe6w4AQj8PDNw" next="i-3xxw7pRPLjB8TtWEfBfnST">
           <seg xml:id="i-A3wywb65jrFAU53v2SZ8By">
             icke, att detta räcker till, utan det kräves naturligtvis åtskilligt
             utöver dessa 350, ty jag förutsätter, att det beslut, som riksdagen
@@ -2353,8 +2185,6 @@
             bli 10 stycken eller kanske 12, så är det ju ett avsevärt antal
             officerare, som då skulle befordras till regementsofficersbefattningen.
           </seg>
-        </u>
-        <u xml:id="i-3xxw7pRPLjB8TtWEfBfnST" who="i-LAeBbuwZ1Sak1HWNkZ6dVr" prev="i-BiVg4NHWQf679iFCcGRnGJ" next="i-DPTBni5K7mmCnapFvMk3fj">
           <seg xml:id="i-3VoRnrqBYRSPczjKwomXhR">
             Herr statsrådet och chefen för lantförsvarsdepartementet yttrade
             uti sitt uttalande i remissdebatten, att det fanns icke möjlighet
@@ -2407,15 +2237,13 @@
         <note xml:id="i-6s6smKH9U9tiheGx4sRv1T" type="date">
           26 Lördagen den 27 februari, e. m.
         </note>
-        <u xml:id="i-DPTBni5K7mmCnapFvMk3fj" who="i-LAeBbuwZ1Sak1HWNkZ6dVr" prev="i-3xxw7pRPLjB8TtWEfBfnST" next="i-3xpLCYAtC4B1qdabHH5sfe">
+        <u xml:id="i-DPTBni5K7mmCnapFvMk3fj" who="i-LAeBbuwZ1Sak1HWNkZ6dVr" prev="i-QffpdpcJBSe6w4AQj8PDNw">
           <seg xml:id="i-2ngo1hWudrhaYqjfGqPLnz">
             resultat för armén. Ty det tycker iag mig ha funnit, att det
             missnöje, som är att finna ute bland arméns officerare över vissa
             befordringsprinciper, det missnöjet gagnar icke det egentliga
             utbildningsarbetet bland våra värnpliktiga.
           </seg>
-        </u>
-        <u xml:id="i-3xpLCYAtC4B1qdabHH5sfe" who="i-LAeBbuwZ1Sak1HWNkZ6dVr" prev="i-DPTBni5K7mmCnapFvMk3fj" next="i-5T5F1NjJStMjzykqzdqB5m">
           <seg xml:id="i-PgBLJNiNzVKKSDVBoLbWpz">
             Jag vill ännu en gång säga, att jag icke vill taga någon bestämd
             ställning till denna fråga, men när jag ifråga om befordringar
@@ -2428,8 +2256,6 @@
             vara riktigt att söka även ute bland truppförbanden efter kandidater
             till de nu förestående utnämningarna.
           </seg>
-        </u>
-        <u xml:id="i-5T5F1NjJStMjzykqzdqB5m" who="i-LAeBbuwZ1Sak1HWNkZ6dVr" prev="i-3xpLCYAtC4B1qdabHH5sfe">
           <seg xml:id="i-BHRe2vNvj83NKTFgjDHy43">
             Jag har velat begagna den rätt, som tillkommer mig, att säga
             dessa ord vid behandlingen av detta ärende och yrkar i övrigt
@@ -2439,7 +2265,7 @@
         <note xml:id="i-NTo7JqyiVuoDWnCLP8QtY3" type="speaker">
           Herr Hildebrand:
         </note>
-        <u xml:id="i-QocCxvTBggpdzchRUFc7RP" who="i-HgrbSDdJGPDB6AgPhLBSHW" next="i-FewARqENhuHmFsmVpKc3Un">
+        <u xml:id="i-QocCxvTBggpdzchRUFc7RP" who="i-HgrbSDdJGPDB6AgPhLBSHW" next="i-2bZKbGLfxFJsLwpft52ARr">
           <seg xml:id="i-SGYYxP4EG97KDWa4T8m9Qz">
             Herr talman, mina herrar! Jag får be kammaren om tillgift, att
             jag återkommer till en fråga, som redan så mycket debatterats,
@@ -2451,8 +2277,6 @@
             just den platsens förhållanden, ehuru Jag naturligtvis måste beröra
             dem.
           </seg>
-        </u>
-        <u xml:id="i-FewARqENhuHmFsmVpKc3Un" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-QocCxvTBggpdzchRUFc7RP" next="i-fU5tsrbcxvNDbzfNvDPCq">
           <seg xml:id="i-KEcsKKpEGqYJYq1h9g54h5">
             Jag har fått det intrycket, att för många av de kammarledamöter,
             som uppträtt här, se saken alltför enkelt. Det synes mig, och
@@ -2475,8 +2299,6 @@
             skall bli gott, behöves en förmåga och vilja att gå till mötes
             på ömse håll.
           </seg>
-        </u>
-        <u xml:id="i-fU5tsrbcxvNDbzfNvDPCq" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-FewARqENhuHmFsmVpKc3Un" next="i-2bZKbGLfxFJsLwpft52ARr">
           <seg xml:id="i-9iMQmfPPtapRQ68QWpz521">
             Nu anser man sig hava märkt missförhållanden på cen förläggningsplats.
             Genast blir kritiken mycket skarp mot office.
@@ -2486,7 +2308,7 @@
         <note xml:id="i-Kxm1d3mPHJ5B5cHiNV3z3B" type="date">
           Lördagen den 27 februari, e. m. 27 — Nr 28.
         </note>
-        <u xml:id="i-2bZKbGLfxFJsLwpft52ARr" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-fU5tsrbcxvNDbzfNvDPCq" next="i-KttwNaise4yD3NRSceSck">
+        <u xml:id="i-2bZKbGLfxFJsLwpft52ARr" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-QocCxvTBggpdzchRUFc7RP" next="i-XMb5gvuaLQZQqGxcFzEpy3">
           <seg xml:id="i-Jndt2rMHrwAyPgc2M6n4tw">
             rarne, särskilt mot översten. Ett par tidningar, främst en tid-
             Ang. vissa förning, samla oupphörligen ihop nya skvallerhistorier,
@@ -2515,8 +2337,6 @@
             ett sådant härnadståg mot allt vad de gjorde med möjligen samma
             resultat?
           </seg>
-        </u>
-        <u xml:id="i-KttwNaise4yD3NRSceSck" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-2bZKbGLfxFJsLwpft52ARr" next="i-XMb5gvuaLQZQqGxcFzEpy3">
           <seg xml:id="i-KmCeaABhW3XXyyXuEq66Jo">
             Jag tror, att det här gäller något mycket mera, och det har också
             någon sagt men ur annan synpunkt, mycket mera än att bara ordna
@@ -2552,7 +2372,7 @@
         <note xml:id="i-KAr65dRJJYHrEbDXcxviYj" type="date">
           28 Lördagen den 27 februari, e. m.
         </note>
-        <u xml:id="i-XMb5gvuaLQZQqGxcFzEpy3" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-KttwNaise4yD3NRSceSck" next="i-DTQjeEGvAXW1rgsq7AhpPz">
+        <u xml:id="i-XMb5gvuaLQZQqGxcFzEpy3" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-2bZKbGLfxFJsLwpft52ARr" next="i-5oNzNCngvPm13uCgTZexG3">
           <seg xml:id="i-2iFCEN6xDZmkdhEEV1ZTc6">
             fogad, därför att den gör skada, men officerarne äro icke mer
             än människor, och jag skulle vilja säga, att det väl knappast
@@ -2561,8 +2381,6 @@
             görä, att hithörande spörsmål också äro så ömtåliga, att det fordras
             stor försiktighet vid deras behandling.
           </seg>
-        </u>
-        <u xml:id="i-DTQjeEGvAXW1rgsq7AhpPz" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-XMb5gvuaLQZQqGxcFzEpy3" next="i-LsmPfyC6TomFHBPz1MsJzs">
           <seg xml:id="i-TwD65bD4MiMG2q9feCKD6d">
             Då kanske någon vill fråga mig, om jag icke är med om att utöva
             kontroll över officerskåren. Jo, naturligtvis, och en mycket skarp
@@ -2577,8 +2395,6 @@
             vi vid ett annat tillfälle komma att diskutera den försvarsfientliga
             propagandan inom armén.
           </seg>
-        </u>
-        <u xml:id="i-LsmPfyC6TomFHBPz1MsJzs" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-DTQjeEGvAXW1rgsq7AhpPz" next="i-5oPpxHYhLdV4WB1DSZvqiP">
           <seg xml:id="i-TQc9r8yoTTazvK4q4uyKWD">
             Så endast några ord avsiutningsvis om opinionen. Här har sagts,
             att man måste fästa stort avseende vid en opinion, och jag kan
@@ -2606,8 +2422,6 @@
             möttes av större förtroende från manskapets sida, och då skulle
             vi slippa sådana debatter, som vi hava hört här i dag.
           </seg>
-        </u>
-        <u xml:id="i-5oPpxHYhLdV4WB1DSZvqiP" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-LsmPfyC6TomFHBPz1MsJzs" next="i-5oNzNCngvPm13uCgTZexG3">
           <seg xml:id="i-HPWs6tiArhStzJzTU6mMiQ">
             I detta anförande instämde herrar Holmdahl, Lindvall, Jönsson
             i Boa, Nilsson i Bonarp, Hellberg i Ljungskile, Welin och Lithander.
@@ -2646,7 +2460,7 @@
           nyss utförde sina allmänna satser. Den är alltför allvarsam för
           att kunna dränkas i dessa allmänna satser.
         </note>
-        <u xml:id="i-5oNzNCngvPm13uCgTZexG3" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-5oPpxHYhLdV4WB1DSZvqiP" next="i-SMjCnPV7UJRqPeQG28XosG">
+        <u xml:id="i-5oNzNCngvPm13uCgTZexG3" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-XMb5gvuaLQZQqGxcFzEpy3" next="i-TMdUw7SpAyLwTqjNfyvobE">
           <seg xml:id="i-Nq9ivaUQ1j14BNzpMjjySm">
             Jag har emellertid icke begärt ordet för att bemöta herr Hildebrand.
             Jag skulle verkligen icke hava förlängt debatten, om det icke
@@ -2654,8 +2468,6 @@
             slutar, fästa uppmärksamheten på ett par omständigheter i själva
             saken skarpare än som hittills skett.
           </seg>
-        </u>
-        <u xml:id="i-SMjCnPV7UJRqPeQG28XosG" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-5oNzNCngvPm13uCgTZexG3" next="i-tbihQSe3E1NmwEXbGnaEC">
           <seg xml:id="i-2n4JJaqz7xPSQeKnadewtf">
             Det är först och främst icke så, att denna debatt i kammaren
             har kommit upp på något vis spontant eller därför att man önskat
@@ -2666,8 +2478,6 @@
             sätt, varpå man nu tycks tänka att lägga hela frågan om förhållandena
             vid Dalregementet till handlingarna.
           </seg>
-        </u>
-        <u xml:id="i-tbihQSe3E1NmwEXbGnaEC" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-SMjCnPV7UJRqPeQG28XosG" next="i-TMdUw7SpAyLwTqjNfyvobE">
           <seg xml:id="i-DA4K4oYb4q7mWH5Cd9fKxc">
             Herr statsrådet och chefen för lantförsvarsdepartementet uttryckte
             uti sitt senare anförande, en förvåning över att civilkommissionen
@@ -2691,14 +2501,12 @@
         <note xml:id="i-3a9wHz5dX6t2onaVP4bgG7" type="date">
           30 Lördagen den 27 februari, e. m.
         </note>
-        <u xml:id="i-TMdUw7SpAyLwTqjNfyvobE" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-tbihQSe3E1NmwEXbGnaEC" next="i-R9uCTkRAkQjwoVc8vxAYjk">
+        <u xml:id="i-TMdUw7SpAyLwTqjNfyvobE" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-5oNzNCngvPm13uCgTZexG3" next="i-MnmF1VeVv5ELPeswtc32AF">
           <seg xml:id="i-QNq8CQm68cGp8W323HWD1y">
             haft för avsikt att såra kommissionen, hade det bestämt varit
             lyckligt, att han tänkt något bättre över formen för sin diktamen,
             innan den nedskrevs.
           </seg>
-        </u>
-        <u xml:id="i-R9uCTkRAkQjwoVc8vxAYjk" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-TMdUw7SpAyLwTqjNfyvobE" next="i-9gCAhisxJnC57frrGoe5TB">
           <seg xml:id="i-2M74hmuiCyfYcu7TPfD2pv">
             Herr krigsministern har vidare uttryckt sin glädje över att han
             nu genom vad som här i debatten kommit fram har fått full klarhet
@@ -2727,8 +2535,6 @@
             ändå icke riktigt rimligt att behandla en så grannlaga sak på
             det viset.
           </seg>
-        </u>
-        <u xml:id="i-9gCAhisxJnC57frrGoe5TB" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-R9uCTkRAkQjwoVc8vxAYjk" next="i-3kH8X9fvz9BuQJjXHz8UUR">
           <seg xml:id="i-3dxFTkJK752khUR7D3NU6v">
             En mycket omstridd fråga har varit spörsmålet om kommissionens
             befogenhet. Jag skall icke tillåta mig att upptaga kammarens tid
@@ -2745,15 +2551,11 @@
             i en fråga, som så utomordentligt allvarsamt berör just »manskapets
             omvårdnad», som den fråga, vilken det här gäller.
           </seg>
-        </u>
-        <u xml:id="i-3kH8X9fvz9BuQJjXHz8UUR" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-9gCAhisxJnC57frrGoe5TB" next="i-VfSZfQmH9T8Q143eiN6Xor">
           <seg xml:id="i-JaMcuSAWHtq5AgpiKD3eWw">
             Det är emellertid, såsom saken nu ligger, icke egentligen detta,
             som nu behöver framhållas. Utan det är en annan sak, som det till
             sist är angeläget att söka få klart.
           </seg>
-        </u>
-        <u xml:id="i-VfSZfQmH9T8Q143eiN6Xor" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-3kH8X9fvz9BuQJjXHz8UUR" next="i-MnmF1VeVv5ELPeswtc32AF">
           <seg xml:id="i-KSaLz5bN7oVdcETiVcoS4X">
             I remissdebatten yttrade herr krigsministern. med anledning av
             ett par anföranden av herr Christiernson och herr Eriksson i Grängesberg,
@@ -2765,7 +2567,7 @@
         <note xml:id="i-Wvy3QxvkftyAzWnbebbtWL" type="date">
           Lördagen den 27 februari, e. m. 81 Nr 28
         </note>
-        <u xml:id="i-MnmF1VeVv5ELPeswtc32AF" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-VfSZfQmH9T8Q143eiN6Xor" next="i-PosPTwK2XnhQ7tfs2jGVSA">
+        <u xml:id="i-MnmF1VeVv5ELPeswtc32AF" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-TMdUw7SpAyLwTqjNfyvobE" next="i-PosPTwK2XnhQ7tfs2jGVSA">
           <seg xml:id="i-Agr3GWWE95kQtPx1Kk6tHm">
             ledning »är, att jag i går hade ett personligt samtal med armé-
             Ang. vissa förfördelningschefen, och att detta samtal resulterade
@@ -2829,13 +2631,11 @@
         <note xml:id="i-77539UKuLhVS7FWmeetWqn">
           32 Lördagen dev 27 februari, e. m.
         </note>
-        <u xml:id="i-PosPTwK2XnhQ7tfs2jGVSA" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-MnmF1VeVv5ELPeswtc32AF" next="i-CjUG6fxZpwoRAqfpTBKQEh">
+        <u xml:id="i-PosPTwK2XnhQ7tfs2jGVSA" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-MnmF1VeVv5ELPeswtc32AF">
           <seg xml:id="i-VDntXuoxkDxVFA7drFdHzz">
             citerat, och det ordet kan förtjäna citeras även nu: »gagnar
             det staten,
           </seg>
-        </u>
-        <u xml:id="i-CjUG6fxZpwoRAqfpTBKQEh" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-PosPTwK2XnhQ7tfs2jGVSA" next="i-Py5uigPV8Rs5yfiFT3yoS7">
           <seg xml:id="i-CfKkxXn66iGN5XCeG25r7A">
             så slå till». Den enskilde riksdagsmannen kan naturligtvis icke
             yttra sig om huru man bör slå till. Jag vill på intet sätt lägga
@@ -2843,8 +2643,6 @@
             Men framför allt — icke »svampen på» efter vad som nu kommit fram
             om Dalregementet!
           </seg>
-        </u>
-        <u xml:id="i-Py5uigPV8Rs5yfiFT3yoS7" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-CjUG6fxZpwoRAqfpTBKQEh">
           <seg xml:id="i-JDFyxzgW8Y6xGKGUQnjAw">
             Jag har icke kunnat underlåta att säga detta. Naturligtvis skullo
             jag önskat, att varje debatt av denna art hade varit överflödig
@@ -2874,7 +2672,7 @@
         <note xml:id="i-UFSGPoQjFX8Cu4qoaEQjeV">
           är: .
         </note>
-        <u xml:id="i-BLTmHo5coUfk8GiCtkHp7n" who="i-7yJee9UBmnMb8LPL7Gr9Xa" prev="i-Hd2k2c6rD7xHosx2ENCjUL" next="i-DWYKWJ32szAsjwE1rp2qjW">
+        <u xml:id="i-BLTmHo5coUfk8GiCtkHp7n" who="i-7yJee9UBmnMb8LPL7Gr9Xa" prev="i-Hd2k2c6rD7xHosx2ENCjUL" next="i-BXJrHuFXwZ7wDGy7M4RBSt">
           <seg xml:id="i-XbbEnn3yTYj8QaNTYtU7LS">
             »Sedan jag med anledning av en i Tidning för Falu län och stad,
             den 21 sistlidne januari införd, mot chefens för Kungl. Dalregementet
@@ -2886,8 +2684,6 @@
             förhållanden vid Kungl. Dalregementet äro under utredning, förklaringen
             icke kan föranleda någon åtgärd från min sida.
           </seg>
-        </u>
-        <u xml:id="i-DWYKWJ32szAsjwE1rp2qjW" who="i-7yJee9UBmnMb8LPL7Gr9Xa" prev="i-BLTmHo5coUfk8GiCtkHp7n" next="i-BXJrHuFXwZ7wDGy7M4RBSt">
           <seg xml:id="i-8oxeq7cfAbMsbobsxWyEkQ">
             I sammanhang härmed anser jag mig böra framhålla dels att — med
             undantag av Hages ovannämnda artikel och tvänne anmälningar mot
@@ -2908,7 +2704,7 @@
         <note xml:id="i-26tp6TB5z7yXjukzSiaNsh" type="date">
           Lördagen den 27 februari, ce. m. 33 Nr 28
         </note>
-        <u xml:id="i-BXJrHuFXwZ7wDGy7M4RBSt" who="i-7yJee9UBmnMb8LPL7Gr9Xa" prev="i-DWYKWJ32szAsjwE1rp2qjW">
+        <u xml:id="i-BXJrHuFXwZ7wDGy7M4RBSt" who="i-7yJee9UBmnMb8LPL7Gr9Xa" prev="i-BLTmHo5coUfk8GiCtkHp7n">
           <seg xml:id="i-Xc6ZHn8gSmmbxA5ZvfbfhJ">
             Med anledning av denna rapport anser jag, att jag för Ang. vissa
             förnärvarande icke kan vidtaga någon annan åtgärd än att med föclanden
@@ -2987,13 +2783,11 @@
         <note xml:id="i-SyWv36E3McbUo8vGZ2uwXH">
           Dulregementet (Forts.)
         </note>
-        <u xml:id="i-3ScFEL9tm8Y4Bj93ZFyFE2" who="i-A4jkDhz3Qhq16rRWcenUbw" prev="i-VRzjZBbverpLdJn4nscoxf" next="i-RwG1nB398tFmHe2NLgLP6o">
+        <u xml:id="i-3ScFEL9tm8Y4Bj93ZFyFE2" who="i-A4jkDhz3Qhq16rRWcenUbw" prev="i-VRzjZBbverpLdJn4nscoxf" next="i-9xo7MFfTJLoFWCLQ8yXXNS">
           <seg xml:id="i-BajiKCN715MorVXY9AAvoB">
             chef, som vore ytterst populär biand sitt folk och dock fullständigt
             olämplig för sin befattning och därför borde skiljas därifrån.
           </seg>
-        </u>
-        <u xml:id="i-RwG1nB398tFmHe2NLgLP6o" who="i-A4jkDhz3Qhq16rRWcenUbw" prev="i-3ScFEL9tm8Y4Bj93ZFyFE2" next="i-PqLJRtvapR8dmqWPJigUmi">
           <seg xml:id="i-6CC64RhM1bWGUNoUoyShAW">
             Det är, som sagt, icke för detta jag begärt ordet, utan för ett
             uttalande av mera allmän karaktär. Don första ärad&gt; talaren,
@@ -3004,8 +2798,6 @@
             förtroende. Dessa förklaringar tillmälas emellertid, efter vad
             det synes, icke någon vidare vikt.
           </seg>
-        </u>
-        <u xml:id="i-PqLJRtvapR8dmqWPJigUmi" who="i-A4jkDhz3Qhq16rRWcenUbw" prev="i-RwG1nB398tFmHe2NLgLP6o" next="i-DzCyvLZDnvnk91BAdvyosa">
           <seg xml:id="i-W8k6iRkcBcCPEcp7RV2Gn9">
             Det borde dock icke behöva misstänkas, att dn nu arande ministären,
             vilken ju bildats för försvarsfrågans lösning och sannerligen
@@ -3014,8 +2806,6 @@
             förfuskades och dess ändamål förfelades geaom felaktigt förfarande
             från befälets sida.
           </seg>
-        </u>
-        <u xml:id="i-DzCyvLZDnvnk91BAdvyosa" who="i-A4jkDhz3Qhq16rRWcenUbw" prev="i-PqLJRtvapR8dmqWPJigUmi" next="i-GwaBzxA7sovrTbiyuiaXP8">
           <seg xml:id="i-2xxY5XoDuL3kzjdiD6mZoL">
             En särskild anledning till att vänta mera förtroende i dotta
             avseende kunde jag ju också finna däri, att den förste ärade talaren
@@ -3029,8 +2819,6 @@
             därav, att haa hyse: ett visst förtroende för den nuvarande rogeringens
             vi.ja ocu Girmåga att reda ut de nuvarande svårigheterna och farorna.
           </seg>
-        </u>
-        <u xml:id="i-GwaBzxA7sovrTbiyuiaXP8" who="i-A4jkDhz3Qhq16rRWcenUbw" prev="i-DzCyvLZDnvnk91BAdvyosa" next="i-NV7s9U7yrKPjgBmWZyUBWW">
           <seg xml:id="i-EYWTYejpcutMYveVRc3u1">
             Jag vågar tillägga, att åtskilligt framkommit under donna debatt
             av beskaffenhet att i viss mån styrka tillvaron av et sådant förtroende,
@@ -3041,8 +2829,6 @@
             icke varit möjliga av fosterlandsälskande och ansvarskännande
             män.
           </seg>
-        </u>
-        <u xml:id="i-NV7s9U7yrKPjgBmWZyUBWW" who="i-A4jkDhz3Qhq16rRWcenUbw" prev="i-GwaBzxA7sovrTbiyuiaXP8" next="i-9xo7MFfTJLoFWCLQ8yXXNS">
           <seg xml:id="i-9HaNZ4TyNX8p1frvvE6vYm">
             Den ministär, vilken jag tillhör, har som sagts ick&gt; brus'it
             och kommer icke att brista i intresse för försvarets sanna vä',
@@ -3060,13 +2846,11 @@
         <note xml:id="i-1xXBKuQ1YzBrpCCGbWp7z" type="date">
           Lördagen den 27 februari, e. m. 35
         </note>
-        <u xml:id="i-9xo7MFfTJLoFWCLQ8yXXNS" who="i-A4jkDhz3Qhq16rRWcenUbw" prev="i-NV7s9U7yrKPjgBmWZyUBWW" next="i-XDR7NSWgFnsKVRJd46vqHo">
+        <u xml:id="i-9xo7MFfTJLoFWCLQ8yXXNS" who="i-A4jkDhz3Qhq16rRWcenUbw" prev="i-3ScFEL9tm8Y4Bj93ZFyFE2">
           <seg xml:id="i-3BbafTWSqjMZeEVa818Mbs">
             skulle handla annorlunda, än vår övertygelse om rikets bästa
             och rättvisans krav det fordrar.
           </seg>
-        </u>
-        <u xml:id="i-XDR7NSWgFnsKVRJd46vqHo" who="i-A4jkDhz3Qhq16rRWcenUbw" prev="i-9xo7MFfTJLoFWCLQ8yXXNS" next="i-TKWu9aPuiwsLy1X4X6Mgvg">
           <seg xml:id="i-9tAUW51yjvNhyHKApDKCXQ">
             Jag vill tillägga — i anledning av vad som sagts om det sårande
             mot civilkommissionen — att det verkligen icke varit med lätt
@@ -3075,8 +2859,6 @@
             samarbete med civilkommissionens ordförande lärt högt uppskatta
             hans intresse för och insikter i militära organisationsfrågor.
           </seg>
-        </u>
-        <u xml:id="i-TKWu9aPuiwsLy1X4X6Mgvg" who="i-A4jkDhz3Qhq16rRWcenUbw" prev="i-XDR7NSWgFnsKVRJd46vqHo">
           <seg xml:id="i-M3oGymDG1Nf6s2n9Di6Ne3">
             Detta har dock icke kunnat hindra, att, då vi ansett det nödvändigt
             i försvarets och landets sanna intresse allra h&gt;lst under nuvarande
@@ -3088,20 +2870,16 @@
         <note xml:id="i-VuyqPLH9gCjNcnVn1vju1H" type="speaker">
           Herr Staaff:
         </note>
-        <u xml:id="i-GVUq8uMZXJE94oadQR2Ui2" who="i-Hr1HTFqifdBa5H1eAGcaEu" next="i-25T72ZLgKrewszn59aJZK6">
+        <u xml:id="i-GVUq8uMZXJE94oadQR2Ui2" who="i-Hr1HTFqifdBa5H1eAGcaEu">
           <seg xml:id="i-9Rtu87WEJ6RYs7HHzgDPw4">
             Herr talman, mina herrar! Den vändning, som hans excellens herr
             statsministern nu givit debatten, nödgar mig att säga några ord.
           </seg>
-        </u>
-        <u xml:id="i-25T72ZLgKrewszn59aJZK6" who="i-Hr1HTFqifdBa5H1eAGcaEu" prev="i-GVUq8uMZXJE94oadQR2Ui2" next="i-AwFLXTfSoK8AAcmnd2trTA">
           <seg xml:id="i-XwoAZeLpn3QJJS2PCh8Pty">
             Det parti, som jag har äran tillhöra, skattar högt att den nuvarande
             regeringens verksamhet kiaftigt och orubb igt gått ut fe hävdandet
             av vår neutralitet. Det är oss icke obekant, att
           </seg>
-        </u>
-        <u xml:id="i-AwFLXTfSoK8AAcmnd2trTA" who="i-Hr1HTFqifdBa5H1eAGcaEu" prev="i-25T72ZLgKrewszn59aJZK6">
           <seg xml:id="i-Ae49nrTTuVE1BC3FVG2U3m">
             är funnits svårigheter och hinder att övervinna. Ministären har
             övervunnit dem och fört en kraftig och säker neutraiitetspolitik.
@@ -3209,7 +2987,7 @@
         <note xml:id="i-ELrnMuiLXXYxmLc9AhNN24" type="date">
           Lördagen den 27 februari, e. m. dv
         </note>
-        <u xml:id="i-7CAUm8HMCjeT4J9vwRdgGi" who="i-KH95N7MQWjJmhPFwfuwd9L" prev="i-G5QyW6wGA22tabESEv3vdg" next="i-Afcyphz88wVo3ZNmZhjxAa">
+        <u xml:id="i-7CAUm8HMCjeT4J9vwRdgGi" who="i-KH95N7MQWjJmhPFwfuwd9L" prev="i-G5QyW6wGA22tabESEv3vdg" next="i-7YdSdVi4MXdzvNV3mpsLV3">
           <seg xml:id="i-6r6qSw9dTz37RcyHTKqGdM">
             lande ut, de voro nämligen vita som marken av rimfrost och i
             cn del kupéer var temperaturen — 15” och i en av dessa fick en
@@ -3219,14 +2997,10 @@
             leta fram smutsiga kläder för att torka väggar och tak med, för
             att på detta sätt göra tillvaron något drägligare.
           </seg>
-        </u>
-        <u xml:id="i-Afcyphz88wVo3ZNmZhjxAa" who="i-KH95N7MQWjJmhPFwfuwd9L" prev="i-7CAUm8HMCjeT4J9vwRdgGi" next="i-TbZpJzmgUnfkBnvz6N5sB5">
           <seg xml:id="i-3YHDsd9pSq2epdkzr474Rq">
             Detta var verkligen den mest hemska resa jag varit med om och
             hoppas slippa att ytterligare vara med om något dylikt.»
           </seg>
-        </u>
-        <u xml:id="i-TbZpJzmgUnfkBnvz6N5sB5" who="i-KH95N7MQWjJmhPFwfuwd9L" prev="i-Afcyphz88wVo3ZNmZhjxAa" next="i-B7KPRL4xWyckXLgCFejkGB">
           <seg xml:id="i-N3fqikv7v1cTNUp65Vv34p">
             Jag har velat meddela detta såsom ett exempel på, hur man behandlar
             dessa värnpliktige. När man då vidare tänker på, hur synnerligen
@@ -3245,8 +3019,6 @@
             till, då det gäller i ett viktigt ögonblick. Det finnes åtskilliga
             — och
           </seg>
-        </u>
-        <u xml:id="i-B7KPRL4xWyckXLgCFejkGB" who="i-KH95N7MQWjJmhPFwfuwd9L" prev="i-TbZpJzmgUnfkBnvz6N5sB5" next="i-7YdSdVi4MXdzvNV3mpsLV3">
           <seg xml:id="i-Adsh9c3WYSNmVu74bhTugb">
             et är talat därom förut under debatten i dag — som tro, att den
             militära drillen och träningen under abnorma former och hård behandling
@@ -3264,7 +3036,7 @@
         <note xml:id="i-EDjyLSy9ZZk8jpiwvTnXmc">
           rig.
         </note>
-        <u xml:id="i-7YdSdVi4MXdzvNV3mpsLV3" who="i-KH95N7MQWjJmhPFwfuwd9L" prev="i-B7KPRL4xWyckXLgCFejkGB" next="i-9t6MCcK9vwNa38j6e5cnKo">
+        <u xml:id="i-7YdSdVi4MXdzvNV3mpsLV3" who="i-KH95N7MQWjJmhPFwfuwd9L" prev="i-7CAUm8HMCjeT4J9vwRdgGi" next="i-9t6MCcK9vwNa38j6e5cnKo">
           <seg xml:id="i-PkrGTwfpXBNE4pXksZgL2m">
             Jag har anfört interiörerna från Värmlänningarnas Bodenresa för
             att det åtminstone i framtiden må kunna bli någon rättelse, så
@@ -3329,14 +3101,12 @@
         <note xml:id="i-58ijZmKovo14b96nLfMm74" type="speaker">
           Herr I ng varson yttrade:
         </note>
-        <u xml:id="i-6Zo6igoFtwhZ1ir5xCCdzW" who="unknown" next="i-Y29EaptEfjkqKvYG9WFoEq">
+        <u xml:id="i-6Zo6igoFtwhZ1ir5xCCdzW" who="unknown" next="i-TrZzRLfgoLyAPCxC7RqLzB">
           <seg xml:id="i-VAemJYw1d6NPXVK3TgJp13">
             Herr talman! Inom utskottet har jag varit med om att yrka avslag
             på denna punkt och ber därför att i korthet nu få motivera "min
             ståndpunkt därvidlag.
           </seg>
-        </u>
-        <u xml:id="i-Y29EaptEfjkqKvYG9WFoEq" who="unknown" prev="i-6Zo6igoFtwhZ1ir5xCCdzW" next="i-GW5xFjhB1DSVqs67WviSPq">
           <seg xml:id="i-PLC9sraJi3NLFWJ6wV4dCL">
             Det lär väl ingen kunna påstå, att varken jag eller mina meningsfränder
             i allmänhet ställt oss likgiltiga eller oförstående för betydelsen
@@ -3352,8 +3122,6 @@
             är det högsta disponibla, därest nödiga hänsyn skola tagas till
             andra nödiga statsändamål.
           </seg>
-        </u>
-        <u xml:id="i-GW5xFjhB1DSVqs67WviSPq" who="unknown" prev="i-Y29EaptEfjkqKvYG9WFoEq" next="i-NnhvdNud3LytKsSdnnirNY">
           <seg xml:id="i-2iDQL7hQfGA1d4DXG9Jz7r">
             För min del har jag inte heller kunnat bli övertygad om att de
             under denna huvudtitel beviljade medlen i sin helhet bli använda
@@ -3366,8 +3134,6 @@
             är emellertid ett annat i fråga om det anslag, som här är på tal,
             nämligen anslaget till den frivilliga skytterörelsen.
           </seg>
-        </u>
-        <u xml:id="i-NnhvdNud3LytKsSdnnirNY" who="unknown" prev="i-GW5xFjhB1DSVqs67WviSPq" next="i-TrZzRLfgoLyAPCxC7RqLzB">
           <seg xml:id="i-C9Z5cdCdCDcQJEjcyxfdnF">
             Det har, som jag har mig bekant, icke på något sätt gjorts gällande,
             att denna skytterörelse kan anses som något organiskt led i vårt
@@ -3383,7 +3149,7 @@
         <note xml:id="i-5ZqHXk31MZCcitMq9qxDpn" type="date">
           Lördagen den 27 februari, e. m. 39
         </note>
-        <u xml:id="i-TrZzRLfgoLyAPCxC7RqLzB" who="unknown" prev="i-NnhvdNud3LytKsSdnnirNY" next="i-DJ9zqSMp6oDJyLshXUUuiY">
+        <u xml:id="i-TrZzRLfgoLyAPCxC7RqLzB" who="unknown" prev="i-6Zo6igoFtwhZ1ir5xCCdzW">
           <seg xml:id="i-VuUEujSx46LUiuGaMQVeCJ">
             men genom att inkallas till särskilda övningar skulle få tillfälle
             att på ett mycket effektivare sätt, än hittills varit fallet,
@@ -3394,8 +3160,6 @@
             uppfattning hyser jag för min del fortfarande, och jag tror, att
             =ien är riktig.
           </seg>
-        </u>
-        <u xml:id="i-DJ9zqSMp6oDJyLshXUUuiY" who="unknown" prev="i-TrZzRLfgoLyAPCxC7RqLzB" next="i-Ps3zzx4NzD4DofCcT56THj">
           <seg xml:id="i-RgCgyGMRE2AaCkYvYW5HEN">
             Men härtill kommer ytterligare en omständighet, som jag inte
             kan underlåta att fästa avseende vid. Det är, såvitt jag kan se,
@@ -3407,8 +3171,6 @@
             omständigheter kan skytterörelsen icke komma att ha någon nämnvärd
             praktisk betydelse för vårt lands försvar.
           </seg>
-        </u>
-        <u xml:id="i-Ps3zzx4NzD4DofCcT56THj" who="unknown" prev="i-DJ9zqSMp6oDJyLshXUUuiY" next="i-EL7jSDXqq3y9zLB1Bnsut">
           <seg xml:id="i-F66MoLbuMmLUDS7g1RAGJH">
             Nu gör man — det förstår jag — häremot den invändningen, att
             ju mera intresse speciellt statsmakterna visa för denna rörelse,
@@ -3428,8 +3190,6 @@
             och det förefaller mig, som om ett sådant förfaringssätt icke
             så värst väl överensstämde med den svenska riksdagens traditioner.
           </seg>
-        </u>
-        <u xml:id="i-EL7jSDXqq3y9zLB1Bnsut" who="unknown" prev="i-Ps3zzx4NzD4DofCcT56THj" next="i-TZZvX1QWApHWZQDUVANaBC">
           <seg xml:id="i-FTUEEkU64y4xudDYW9FLHu">
             Så kommer vtterligare härtill. att vid en tidpunkt som denna,
             då otaliga av vårt lands invånare lida nöd, då riksdagen här håller
@@ -3443,8 +3203,6 @@
             och då jag inte är övertygad om att det medför det praktiska resultat,
             som man avser med detsamma.
           </seg>
-        </u>
-        <u xml:id="i-TZZvX1QWApHWZQDUVANaBC" who="unknown" prev="i-EL7jSDXqq3y9zLB1Bnsut">
           <seg xml:id="i-Sta7vftp9aEHFTxmxmiVK5">
             Under sådana förhållanden, herr talman, och utan att i sakens
             nuvarande läge vilia så närmare in på denna fråga, ber jag att
@@ -3473,7 +3231,7 @@
         <note xml:id="i-Sw15rUSqHCeSGB7S51S2u3" type="speaker">
           Herr Ek m an:
         </note>
-        <u xml:id="i-Anwmuw6wpnFRFzqvgwSoAM" who="unknown" next="i-5w72L5DtNhBxLxrEegANKd">
+        <u xml:id="i-Anwmuw6wpnFRFzqvgwSoAM" who="unknown" next="i-7a3Wdt3uNKhNn5iR7LpR6R">
           <seg xml:id="i-7KAeNnWUEpoJGz8NQzeCNR">
             Herr talman, mina herrar! Den föregående talaren började sitt
             anförande med att papeka, hurusow man ansett, att de nuvarande
@@ -3487,8 +3245,6 @@
             på grund av de just nu rådande förhållandena skulle vara särskilt
             lämpligt.
           </seg>
-        </u>
-        <u xml:id="i-5w72L5DtNhBxLxrEegANKd" who="unknown" prev="i-Anwmuw6wpnFRFzqvgwSoAM" next="i-KDjWZvYrgKYpiexBaV43HW">
           <seg xml:id="i-X3WsNGH3EJRHBKZRysS9eL">
             Jag får säga, att jag ingalunda kan följa detta resonemang ifråga
             om anslaget till den frivilliga skytterörelsen. Jag kan främst
@@ -3500,8 +3256,6 @@
             skytterörelsen icke på förhand omhändertagits på sådant sätt,
             som man nu funnit skulle varit önskvärt.
           </seg>
-        </u>
-        <u xml:id="i-KDjWZvYrgKYpiexBaV43HW" who="unknown" prev="i-5w72L5DtNhBxLxrEegANKd" next="i-HuuQTVUgBbyBWYXMCX3xqK">
           <seg xml:id="i-EAXsTn2ijW35gUj8Sb98SH">
             Men även förhållandena inom landet göra, att jag har svårare
             än någonsin att förstå, att man nu vill föreslå indragning av
@@ -3518,8 +3272,6 @@
             man. när detta är fallet, är ögonblicket inne att indraga varje
             anslag till denna rörelse.
           </seg>
-        </u>
-        <u xml:id="i-HuuQTVUgBbyBWYXMCX3xqK" who="unknown" prev="i-KDjWZvYrgKYpiexBaV43HW" next="i-9pWuALRxsr3LsUrjCGqWo1">
           <seg xml:id="i-5t8MqMgt2gcqnLQ23wjpPf">
             Jag tillåter mig bestyrka vad jag uttalat med siffror, som ännu
             så länge äro approximativa, men vilka, såsom det försäkrats genom
@@ -3530,8 +3282,6 @@
             1913 med icke mindre än 42.125. Antalet aktiva medlemmar visar
             en inotsvarande höjning under året med icke mindre än 48.891.
           </seg>
-        </u>
-        <u xml:id="i-9pWuALRxsr3LsUrjCGqWo1" who="unknown" prev="i-HuuQTVUgBbyBWYXMCX3xqK" next="i-7a3Wdt3uNKhNn5iR7LpR6R">
           <seg xml:id="i-15HYiL9pfp8LZEyaBr5YkZ">
             Den ärade talaren uttalade, att han trodde, att ur försvarssynpunkt
             den frivilliga skytterörelsen hade liten betydelse, och han ansår,
@@ -3546,7 +3296,7 @@
         <note xml:id="i-BhKvmKuDji6SUbo2uRJfgt" type="date">
           Lördagen den 27 februari, e. m. 41
         </note>
-        <u xml:id="i-7a3Wdt3uNKhNn5iR7LpR6R" who="unknown" prev="i-9pWuALRxsr3LsUrjCGqWo1" next="i-Fpxt4Pm3y4hvLyH4Qbtp7">
+        <u xml:id="i-7a3Wdt3uNKhNn5iR7LpR6R" who="unknown" prev="i-Anwmuw6wpnFRFzqvgwSoAM">
           <seg xml:id="i-CLqsjHea6GfquRgt2PbC7Q">
             när en proposition om sålunda ökat anslag förelåge i riksdagen,
             den ärade talaren skulle vara lika villig att acceptera sådana
@@ -3566,8 +3316,6 @@
             jag ber få meddela, att ökningen bland dem, vilka såsom landstornsmän
             anslutit sig till den frivilliga skytterörelsen, uppgår till 28,589.
           </seg>
-        </u>
-        <u xml:id="i-Fpxt4Pm3y4hvLyH4Qbtp7" who="unknown" prev="i-7a3Wdt3uNKhNn5iR7LpR6R" next="i-YhXR2qmcXCCinzDmhmyiG">
           <seg xml:id="i-37z3REABs6m2p8q31Chbvm">
             Vid denna sena timme är det icke skäl att ingå på flera detalier
             beträffande den frivilliga skytterörelsen, utan jag ber endast
@@ -3578,8 +3326,6 @@
             ställa sig i denna försvarsgrens led, bör sannerligen svenska
             riksdagen icke ställa sig avvisande.
           </seg>
-        </u>
-        <u xml:id="i-YhXR2qmcXCCinzDmhmyiG" who="unknown" prev="i-Fpxt4Pm3y4hvLyH4Qbtp7">
           <seg xml:id="i-65JAwk7w2V4sYUfideiiuQ">
             Jag ber att få yrka bifall till statsutskottets hemställan.
           </seg>
@@ -3660,15 +3406,13 @@
         <note xml:id="i-8qBBsgTqyxSGBYCn5B7Zz8" type="speaker">
           Herr Kaijser:
         </note>
-        <u xml:id="i-kMUSpamNLkpb9jK1c3R42" who="i-3wt6e9H35eunbwvbgJcZYQ" next="i-QshRYcw7Ncv7AXyLLtELk7">
+        <u xml:id="i-kMUSpamNLkpb9jK1c3R42" who="i-3wt6e9H35eunbwvbgJcZYQ" next="i-Bu4k1oPVqB95GD9gVmgNKS">
           <seg xml:id="i-BEso1oa5Qtr5EtTiJ2hGPd">
             Herr talman, mina herrar! Jag har ingenting att invända emot
             utskottets förslag i denna punkt, men jag ville begagna tillfället
             att vid föredragningen av densamma säga några erd angående garnisonssjukhuset
             i Stockholm.
           </seg>
-        </u>
-        <u xml:id="i-QshRYcw7Ncv7AXyLLtELk7" who="i-3wt6e9H35eunbwvbgJcZYQ" prev="i-kMUSpamNLkpb9jK1c3R42" next="i-3AePwzLYK2zwbqRmJbKYcv">
           <seg xml:id="i-A17zFVWhPYp86kSD7HhCe3">
             Vid besök på detta sjukhus har jag funnit det vara nästan i förfall.
             Frågan om garnisonssjukhusets förflyttning har varit på tal sedan
@@ -3678,8 +3422,6 @@
             garnisonssjukhuset till Ladugårdsgärde, och när regenentena nu
             skola flyttas därifrån, äger detta förslag icke längre aktualitet.
           </seg>
-        </u>
-        <u xml:id="i-3AePwzLYK2zwbqRmJbKYcv" who="i-3wt6e9H35eunbwvbgJcZYQ" prev="i-QshRYcw7Ncv7AXyLLtELk7" next="i-X79xXAjwAL1m9PW3s2tJNM">
           <seg xml:id="i-E8DhXZYkNKCeqb5np623Yr">
             Det tyckes nu, som om vederbörande anse, att garnisonssjukhuset
             under tiden skall stå och alldeles förfalla. Jämför man detta
@@ -3698,8 +3440,6 @@
             övriga garnisonssjukhusen skall det i Boden vara något så när
             tillfredsställande, men med de andra är det si och så med.
           </seg>
-        </u>
-        <u xml:id="i-X79xXAjwAL1m9PW3s2tJNM" who="i-3wt6e9H35eunbwvbgJcZYQ" prev="i-3AePwzLYK2zwbqRmJbKYcv" next="i-Bu4k1oPVqB95GD9gVmgNKS">
           <seg xml:id="i-9Ec6fv9PB7YNdPMnVQ21m">
             Naturligtvis är det icke min mening att göra chefen för lantförsvarsdepartementet
             på något sätt ansvarig härvidlag, men iag skulle vilia hemställa
@@ -3712,13 +3452,11 @@
         <note xml:id="i-W9HQyd3vedxi6tQc91HtCh" type="date">
           Lördagen den 27 februari, &amp; m; 43 — Nr 28,
         </note>
-        <u xml:id="i-Bu4k1oPVqB95GD9gVmgNKS" who="i-3wt6e9H35eunbwvbgJcZYQ" prev="i-X79xXAjwAL1m9PW3s2tJNM" next="i-VpFi6semryDZwr7vEo3JuE">
+        <u xml:id="i-Bu4k1oPVqB95GD9gVmgNKS" who="i-3wt6e9H35eunbwvbgJcZYQ" prev="i-kMUSpamNLkpb9jK1c3R42">
           <seg xml:id="i-3fr8Ri9kT56fYXYar6FLNn">
             tioner: och eventuell tillbyggnad av garnisonssjukhuset, så att
             de 4ng. garni-
           </seg>
-        </u>
-        <u xml:id="i-VpFi6semryDZwr7vEo3JuE" who="i-3wt6e9H35eunbwvbgJcZYQ" prev="i-Bu4k1oPVqB95GD9gVmgNKS">
           <seg xml:id="i-MWK6psavFAWqBQcokhzSnF">
             patienter, som vårdas där, må erhålla en vård, som motsvarar
             nutidens fordringar.
@@ -3747,7 +3485,7 @@
         <note xml:id="i-7Z5endMdQa315hatXzuU8H" type="speaker">
           Herr Ingvarson:
         </note>
-        <u xml:id="i-ApPjpPcijBGzBckprAybBK" who="i-3ESxygPf8xSDBdUjnTaZ9K" next="i-7LEJogP2L5KhFbL6gV8ASX">
+        <u xml:id="i-ApPjpPcijBGzBckprAybBK" who="i-3ESxygPf8xSDBdUjnTaZ9K">
           <seg xml:id="i-PqiasjXywkQ1Smm4Lrzndj">
             Herr talman, mina herrar! Innan klubban faller över huvudtiteln
             i sin helhet, kan jag icke underlåta att uttala en förhoppning.
@@ -3766,8 +3504,6 @@
             som de förhållanden, under vilka ifrågavarande personer arbetade,
             voro sådana, att man inte gärna kunde kalla dem fullt tillfredsställande.
           </seg>
-        </u>
-        <u xml:id="i-7LEJogP2L5KhFbL6gV8ASX" who="i-3ESxygPf8xSDBdUjnTaZ9K" prev="i-ApPjpPcijBGzBckprAybBK">
           <seg xml:id="i-FmtdskfNBWJ2LaWm7cNkSb">
             Vid en liknande statsanstalt i Karlskrona inträffade för tio
             år sedan en liknande olycka, som visserligen icke medförde, att
@@ -3874,7 +3610,7 @@
         <note xml:id="i-32YczpDafnSPn6ABxojrbE" type="date">
           Lördagen den 27 februari, e. m. 45
         </note>
-        <u xml:id="i-DWtWsKknmz7mjPaQRNzQeZ" who="i-CpgswtAFXDTAyYjTrFkW5J" prev="i-Ur3CJtZcFQy1Gf5WaXpiVx" next="i-BrnNJoR4wN1Li8WCtmM2aZ">
+        <u xml:id="i-DWtWsKknmz7mjPaQRNzQeZ" who="i-CpgswtAFXDTAyYjTrFkW5J" prev="i-Ur3CJtZcFQy1Gf5WaXpiVx">
           <seg xml:id="i-VoyQ4GSoBBTN9DC7PJRHc9">
             mer man naturligtvis att gå igenom alla verken. Men skulle det
             i alla fall icke kunna hända, om man drar ut konsekvenserna av
@@ -3891,8 +3627,6 @@
             utan man skulle i varje fall stanna i vanlig tid i den lönegrad,
             som uppnåtts innan man gick i en ny.
           </seg>
-        </u>
-        <u xml:id="i-BrnNJoR4wN1Li8WCtmM2aZ" who="i-CpgswtAFXDTAyYjTrFkW5J" prev="i-DWtWsKknmz7mjPaQRNzQeZ" next="i-Az42AHTqdnpeUtdDVNnuUr">
           <seg xml:id="i-QtWrxL3hmYggTuyvTu8qMC">
             Jag har endast velat påpeka detta. Jag antar. att saken på något
             sätt kan ändras vid kommande riksdag, så att det blir bättre och
@@ -3901,8 +3635,6 @@
             ske — kan gå nästan direkt ifrån 1,400 till 1,800 kronors avlöning.
             Jag har således
           </seg>
-        </u>
-        <u xml:id="i-Az42AHTqdnpeUtdDVNnuUr" who="i-CpgswtAFXDTAyYjTrFkW5J" prev="i-BrnNJoR4wN1Li8WCtmM2aZ">
           <seg xml:id="i-XwZbHtqKcQua68iaUwc4J2">
             intet yrkande, herr talman, utan jag har endast velat påpeka
             denna sak.
@@ -3959,7 +3691,7 @@
         <note xml:id="i-HonHs4VwXqYjpr1VpXnDA7" type="speaker">
           Herr Thore:
         </note>
-        <u xml:id="i-L4h4GguLxZYZ4ABH8bYWx8" who="i-BKaeof17U4zVqCVaBSDwyd" next="i-NUcJwymF7MBeY5GDddjSfg">
+        <u xml:id="i-L4h4GguLxZYZ4ABH8bYWx8" who="i-BKaeof17U4zVqCVaBSDwyd" next="i-GpQfvF8DyPiDG6Z5UZXdXD">
           <seg xml:id="i-MGyeDMzDbPNA9zDHmepoCH">
             I förevarande punkt har Kungl. Maj:t begärt en ersättning av
             40,000 kronor åt sjömanshusen för dom å iggande göromål med värnpliktigas
@@ -3967,8 +3699,6 @@
             uppgifter. Det heter i den kungl. propositionen, att det skall
             lämnas »skälig ersättning».
           </seg>
-        </u>
-        <u xml:id="i-NUcJwymF7MBeY5GDddjSfg" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-L4h4GguLxZYZ4ABH8bYWx8" next="i-GpQfvF8DyPiDG6Z5UZXdXD">
           <seg xml:id="i-CDAWnHtXnAjnEyfEQp1VnV">
             . Om med »skälig ersättning» menas, att sjömanshuscen skola bohörigen
             gottgöras för de göromål, som de härvidlag ha att utföra, kan
@@ -3978,7 +3708,7 @@
         <note xml:id="i-WW1MUt2CnMjkSfquXtgLT8">
           ang.
         </note>
-        <u xml:id="i-GpQfvF8DyPiDG6Z5UZXdXD" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-NUcJwymF7MBeY5GDddjSfg" next="i-XuyFSWt9GLNvZqUuBSWDDa">
+        <u xml:id="i-GpQfvF8DyPiDG6Z5UZXdXD" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-L4h4GguLxZYZ4ABH8bYWx8" next="i-SCNrMNCjCTY1wtMTymZnhe">
           <seg xml:id="i-Mj4ucAL6kXVc3a6KeiezUb">
             Här nämnas ett par av de göromål, som sjömanshusoen ha att utföra
             för statsverkeis räkning, nämligen värnpliktizas inskrivning och
@@ -3991,8 +3721,6 @@
             Varför nu icke ersättning skall lämnas för alla dessa göromål
             utan endast för en del, kan jag icke riktigt förstå.
           </seg>
-        </u>
-        <u xml:id="i-XuyFSWt9GLNvZqUuBSWDDa" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-GpQfvF8DyPiDG6Z5UZXdXD" next="i-B58u63hPzSuTRGSXSsdV81">
           <seg xml:id="i-Cy3S8BmiuDZ2v8ZrbrQ2nH">
             För att man skall få se, hur mycket sjömanshusen ha att uträtta
             så skall jag be att få nämna några siffror angående deras omkostnader.
@@ -4009,8 +3737,6 @@
             till sjömännens understöd och hjälp, i så betydande grad skola
             gå till utgifter för statsändamål.
           </seg>
-        </u>
-        <u xml:id="i-B58u63hPzSuTRGSXSsdV81" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-XuyFSWt9GLNvZqUuBSWDDa" next="i-SCNrMNCjCTY1wtMTymZnhe">
           <seg xml:id="i-KJpj6Dji5QiQ4EoVq86Jer">
             Herr talman, jag har icke något yrkande.
           </seg>
@@ -4042,7 +3768,7 @@
           bolaget Svenska Amerika-Mexikolinjen; och anförde därvid ät ukticbolaget
           Vensika Ame-
         </note>
-        <u xml:id="i-SCNrMNCjCTY1wtMTymZnhe" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-B58u63hPzSuTRGSXSsdV81">
+        <u xml:id="i-SCNrMNCjCTY1wtMTymZnhe" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-GpQfvF8DyPiDG6Z5UZXdXD">
           <seg xml:id="i-4MuG1cZLiEEtaiuwqb3zzS">
             ne
           </seg>
@@ -4050,7 +3776,7 @@
         <note xml:id="i-XhmKPdQTNFhdrk7XrmikHu" type="speaker">
           Herr Anderson i Råstock:
         </note>
-        <u xml:id="i-7Pbd2Ci5GRbX9x3y8U9BrJ" who="i-TxRCzzgetP7718TE7usGwh" next="i-WgrehXRifZQKX7RCEYGv92">
+        <u xml:id="i-7Pbd2Ci5GRbX9x3y8U9BrJ" who="i-TxRCzzgetP7718TE7usGwh" next="i-9pPXcV8ucPAdpGgMqsRrLs">
           <seg xml:id="i-DqCjhuPshcraEdSryAzHV2">
             Herr talman! Jag skall be att ra från början få säga ifrån, att
             jag icke kommer att framställa något annat yrkande än om bifall
@@ -4065,8 +3791,6 @@
             följande händelserna. Jag skall emellertid nu inskränka mig till
             att göra några korta citat ur denna artikel.
           </seg>
-        </u>
-        <u xml:id="i-WgrehXRifZQKX7RCEYGv92" who="i-TxRCzzgetP7718TE7usGwh" prev="i-7Pbd2Ci5GRbX9x3y8U9BrJ" next="i-Wo1RLLW28X2ByiuKtCK2GY">
           <seg xml:id="i-UkEKHCCC48A3eRLSBAEXxG">
             Där skrives sålunda: »Sedan århundraden tillbaka har i alla sjöfartsidkande
             länder staten nödgats konstituera sjöfarten såsom ett från vanlig
@@ -4089,16 +3813,12 @@
             fyrinrättningarna. livräddningsanstalterna. sjömanshusen o. s.
             v.»
           </seg>
-        </u>
-        <u xml:id="i-Wo1RLLW28X2ByiuKtCK2GY" who="i-TxRCzzgetP7718TE7usGwh" prev="i-WgrehXRifZQKX7RCEYGv92" next="i-HGTUkpXcrhnuZCQKixNfeF">
           <seg xml:id="i-YTaMkPuC6WEBAAwGacBLBo">
             Sedan gör man vissa jämförelser och påvisar, under vilka omständigheter
             man har reglerat förhållandena inom ett annat kommunikationsområde.
             men därvid skall jag inte unnpehålla mig nu. Jag skall fortsätta
             med att citera ett stvcke längre fram i samma artikel:
           </seg>
-        </u>
-        <u xml:id="i-HGTUkpXcrhnuZCQKixNfeF" who="i-TxRCzzgetP7718TE7usGwh" prev="i-Wo1RLLW28X2ByiuKtCK2GY" next="i-9pPXcV8ucPAdpGgMqsRrLs">
           <seg xml:id="i-Eq62hpH3kTdyqRxyq1iTvU">
             »Den nrivilecierade ställning. som staten herett sjöfartens idkare,
             har dock icke varit tillfyllest för dess ntvecklande i bredd med
@@ -4117,7 +3837,7 @@
         <note xml:id="i-SYudCpXSYq2qYhYeuVWJnu" type="date">
           48 Lördagen den 27 februari, e. m.
         </note>
-        <u xml:id="i-9pPXcV8ucPAdpGgMqsRrLs" who="i-TxRCzzgetP7718TE7usGwh" prev="i-HGTUkpXcrhnuZCQKixNfeF" next="i-JULWr9FsKcXjhQXyT9MMps">
+        <u xml:id="i-9pPXcV8ucPAdpGgMqsRrLs" who="i-TxRCzzgetP7718TE7usGwh" prev="i-7Pbd2Ci5GRbX9x3y8U9BrJ" next="i-Q5HdwBNdeofpRfRmgDdsby">
           <seg xml:id="i-4iS4J42Lsc2sYyP1Cyq15S">
             åtgärder ekonomiskt och eljest taga denna verksamhet under armarna.
             I den internationella konkurrensen måste driften stödjas genom
@@ -4134,16 +3854,12 @@
             sig ekonomiskt ansvar till enorma belopp för att möjliggöra sjöfartens
             fortgång trots krigstillståndets risker.»
           </seg>
-        </u>
-        <u xml:id="i-JULWr9FsKcXjhQXyT9MMps" who="i-TxRCzzgetP7718TE7usGwh" prev="i-9pPXcV8ucPAdpGgMqsRrLs" next="i-ETzdCj5fkipfdiffD5GWJg">
           <seg xml:id="i-XjycM5y84SuFyNuUbh1UK1">
             I fortsättningen göres det vissa reflexioner över hur vederbörande
             uppfattat sin ställning i förhållande till det starka stöd, som
             statsmakterna givit denna näring. Men jag skall icke heller citera
             detta.
           </seg>
-        </u>
-        <u xml:id="i-ETzdCj5fkipfdiffD5GWJg" who="i-TxRCzzgetP7718TE7usGwh" prev="i-JULWr9FsKcXjhQXyT9MMps" next="i-2NLLjTXodsdMaYPWt2Ntxb">
           <seg xml:id="i-TJfjYzda16ttuehjfdvSU">
             Jag skall gå över till att citera en annan tidskrift, som lämnar
             åtskilliga upplysningar i denna fråga, som det kan vara av intresse
@@ -4162,8 +3878,6 @@
             i det senare 75/- å 80/-. D. v. s., medan vetet stigit med 60
             procent, ha frakterna sprungit upp med omkring 400 procent!»
           </seg>
-        </u>
-        <u xml:id="i-2NLLjTXodsdMaYPWt2Ntxb" who="i-TxRCzzgetP7718TE7usGwh" prev="i-ETzdCj5fkipfdiffD5GWJg" next="i-M88uGir2562wmon81uJCEn">
           <seg xml:id="i-VAAVdzYC5oi6PK5PsjLtkL">
             Man talar därpå om hur frakterna undan för undan stisit och kommer
             till den upplysningen, att en fyrdubbling av frakten från U. S.
@@ -4173,8 +3887,6 @@
             således med drygt en krona hela spannmålstnllens belopp och mer
             än motväger den prisminskning, som tullsuspensionen skulle medföra.»
           </seg>
-        </u>
-        <u xml:id="i-M88uGir2562wmon81uJCEn" who="i-TxRCzzgetP7718TE7usGwh" prev="i-2NLLjTXodsdMaYPWt2Ntxb" next="i-Q5HdwBNdeofpRfRmgDdsby">
           <seg xml:id="i-HKTPX2Wxxi5PZs9JzRuGHy">
             Därpå gör man åtskilliga reflexioner och polemiserar mot vad
             vad som skrivits i åtskilliga av huvudstadstidningarna — jag vill
@@ -4189,7 +3901,7 @@
         <note xml:id="i-GNqaLh8vy2fzU2MH9oh1Uw" type="date">
           Lördagen den 27 februari, e. m. 49 — Nr 28.
         </note>
-        <u xml:id="i-Q5HdwBNdeofpRfRmgDdsby" who="i-TxRCzzgetP7718TE7usGwh" prev="i-M88uGir2562wmon81uJCEn" next="i-55Udkx87vFG3rr64tGSm66">
+        <u xml:id="i-Q5HdwBNdeofpRfRmgDdsby" who="i-TxRCzzgetP7718TE7usGwh" prev="i-9pPXcV8ucPAdpGgMqsRrLs" next="i-55Udkx87vFG3rr64tGSm66">
           <seg xml:id="i-2GdVUz13thUHVknL7oeS9S">
             ket specificerad och detaljerad uppgift härom för en ångare på
             6,000 Ang. understöd ton, som är beräknad med utfärd till U. S.
@@ -4261,13 +3973,11 @@
         <note xml:id="i-3XpNU216687AhonDT3RTnR">
           åt aktiebolaget Svenska Ame-
         </note>
-        <u xml:id="i-D1dgUMSj47ziP3XPLBcQaj" who="i-TxRCzzgetP7718TE7usGwh" prev="i-55Udkx87vFG3rr64tGSm66" next="i-SKyNNUQQ9Z5ioUkdZ1U2hD">
+        <u xml:id="i-D1dgUMSj47ziP3XPLBcQaj" who="i-TxRCzzgetP7718TE7usGwh" prev="i-55Udkx87vFG3rr64tGSm66" next="i-JQe8gWWTQz1EJePpB332A8">
           <seg xml:id="i-UyxPnEXGKLXer4vRPPnLyd">
             för möjligheten att förtjäna glömmer allt annat.» Jag kan för
             min
           </seg>
-        </u>
-        <u xml:id="i-SKyNNUQQ9Z5ioUkdZ1U2hD" who="i-TxRCzzgetP7718TE7usGwh" prev="i-D1dgUMSj47ziP3XPLBcQaj" next="i-JQe8gWWTQz1EJePpB332A8">
           <seg xml:id="i-5vMc4qKVRiomah5XjhxrNe">
             rika-Mezikodel inte annat än på det kraftigaste instämma i detta
             yttrande, eme-
@@ -4276,12 +3986,10 @@
         <note xml:id="i-XreT3zfGnmnKodeZCdp9Gd">
           linjen. (Forts.)
         </note>
-        <u xml:id="i-JQe8gWWTQz1EJePpB332A8" who="i-TxRCzzgetP7718TE7usGwh" prev="i-SKyNNUQQ9Z5ioUkdZ1U2hD" next="i-BB8BAdZqQbonKuKyy794dM">
+        <u xml:id="i-JQe8gWWTQz1EJePpB332A8" who="i-TxRCzzgetP7718TE7usGwh" prev="i-D1dgUMSj47ziP3XPLBcQaj" next="i-SfAf69okBctFoqJaB5Bf7H">
           <seg xml:id="i-7p4TbPFy8jNufN2d8QueLW">
             dan det enligt min uppfattning är fullt berättigat.
           </seg>
-        </u>
-        <u xml:id="i-BB8BAdZqQbonKuKyy794dM" who="i-TxRCzzgetP7718TE7usGwh" prev="i-JQe8gWWTQz1EJePpB332A8" next="i-rHtXxw6LKNYpUMtDkaVJJ">
           <seg xml:id="i-QGVzm4nQrXBP9nYDTwDb9v">
             Man kan vidare, då man är anställd inom kommunikationsverken
             — ehuru visserligen i enskild tjänst — inte underlåta att åtminstone
@@ -4303,8 +4011,6 @@
             till så höga frakter som möjligt även med utnyttjande av en för
             landet i övrigt vrekär situation.
           </seg>
-        </u>
-        <u xml:id="i-rHtXxw6LKNYpUMtDkaVJJ" who="i-TxRCzzgetP7718TE7usGwh" prev="i-BB8BAdZqQbonKuKyy794dM" next="i-SfAf69okBctFoqJaB5Bf7H">
           <seg xml:id="i-BRSYoXhG3ZhUZkpc5k515o">
             Häremot gör man helt säkert den invändningen, att tonnaget är
             internationellt och att det därför möter åtskilliga svårigheter
@@ -4339,7 +4045,7 @@
         <note xml:id="i-Goo7rFZmJrbTSGhU3Rw33F" type="date">
           Lördagen den 27 februari, e. m. 51 Nr 28.
         </note>
-        <u xml:id="i-SfAf69okBctFoqJaB5Bf7H" who="i-TxRCzzgetP7718TE7usGwh" prev="i-rHtXxw6LKNYpUMtDkaVJJ" next="i-XUvQjHTRsZeLP5JSdwJZAN">
+        <u xml:id="i-SfAf69okBctFoqJaB5Bf7H" who="i-TxRCzzgetP7718TE7usGwh" prev="i-JQe8gWWTQz1EJePpB332A8">
           <seg xml:id="i-NEh9sqLL6Simsh2oZaY4dR">
             Jag skall tillåta mig göra den frågan: Saknar regeringen för-
             4ng. understöd bindelser med rederierna? Det är en sak, som jag
@@ -4367,8 +4073,6 @@
             tror jag, att det vore möjligt att åstadkomma något mera givande,
             än hittills visat sig vara fallet.
           </seg>
-        </u>
-        <u xml:id="i-XUvQjHTRsZeLP5JSdwJZAN" who="i-TxRCzzgetP7718TE7usGwh" prev="i-SfAf69okBctFoqJaB5Bf7H" next="i-QKpS643L6n9pnWwCV3uhh2">
           <seg xml:id="i-7CfTmenAiLhAxQ2MBR7ZsN">
             Men det kan ju hända, att det är så, att regeringen anser sig
             sakna nödiga maktmedel. Ja, i så fall tror jag, att riksdagen
@@ -4383,8 +4087,6 @@
             i nationens, i hela samhällets intresse för att nu pågående uppskörtning
             av såväl staten som allmänheten må bringas att upphöra.
           </seg>
-        </u>
-        <u xml:id="i-QKpS643L6n9pnWwCV3uhh2" who="i-TxRCzzgetP7718TE7usGwh" prev="i-XUvQjHTRsZeLP5JSdwJZAN">
           <seg xml:id="i-EyrPFyeCCAAnSsD512Envv">
             Herr talman! Jag har intet annat yrkande än om bifall till utskottets
             hemställan i förevarande punkt.
@@ -4422,7 +4124,7 @@
         <note xml:id="i-36PR9Zf74A818zmEykECCb">
           åt aktiebolaget Svenska Amerika-Mezxikolinjen. (Forts.)
         </note>
-        <u xml:id="i-Asok8n7f3up4YJyiRYef4R" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-Lc3YKTuV3REM4sbyU62EvE" next="i-Godvb3UvHSy6XFLRWaS4b2">
+        <u xml:id="i-Asok8n7f3up4YJyiRYef4R" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-Lc3YKTuV3REM4sbyU62EvE" next="i-SkG54yYNpFNo8j7AMZ3Ehh">
           <seg xml:id="i-Qigr3LsxkmJcBcxLGuBDW6">
             svar på en fråga, som av herr Christiernson framställdes, sade,
             att det skulle komma till stånd en överläggning mellan representanter
@@ -4432,8 +4134,6 @@
             man har rätt att till den närvarande regeringsrepresentanten få
             framställa en del spörsmål i denna fråga.
           </seg>
-        </u>
-        <u xml:id="i-Godvb3UvHSy6XFLRWaS4b2" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-Asok8n7f3up4YJyiRYef4R" next="i-FYe4JCQ2C8828LDFXzSGTw">
           <seg xml:id="i-2oabMNm37BwWmVoTTtwEyb">
             Efter utrikesministerns förklaring fick man den ganska bestämda
             uppfattningen, att ett säkert och kraftigt initiativ skulle tagas
@@ -4444,8 +4144,6 @@
             personvalet var av den beskaffenhet, att man redan från början
             kunde ana, vilket resultat denna redarkonferens skulle komma till.
           </seg>
-        </u>
-        <u xml:id="i-FYe4JCQ2C8828LDFXzSGTw" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-Godvb3UvHSy6XFLRWaS4b2" next="i-KYtLVH3ZjjUiiPB76fxbMi">
           <seg xml:id="i-LJPZmySxoM8wHrbvjM9j4f">
             Men ändå, fast man liksom i förväg kunde vara förvissad om detta,
             steg förvåningen alltmer, när man läste i dagens tidning om att
@@ -4465,8 +4163,6 @@
             men jag vill hoppas, att en diskussion i pressen kommer till stånd
             i anledning av icke minst denna reservation.
           </seg>
-        </u>
-        <u xml:id="i-KYtLVH3ZjjUiiPB76fxbMi" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-FYe4JCQ2C8828LDFXzSGTw" next="i-SkG54yYNpFNo8j7AMZ3Ehh">
           <seg xml:id="i-9JniFe1FfPNL1cKRc4ZGT7">
             Men, herr vice talman, när nu denna punkt om de statssubventionerade
             linjerna föredragits, vill iag också för min del göra det uttalandet,
@@ -4487,7 +4183,7 @@
           </seg>
         </u>
         <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1915/prot-1915--ak--028/prot-1915--ak--028_052"/>
-        <u xml:id="i-SkG54yYNpFNo8j7AMZ3Ehh" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-KYtLVH3ZjjUiiPB76fxbMi" next="i-Qp89wBr1QNPGxNTXS1ugHQ">
+        <u xml:id="i-SkG54yYNpFNo8j7AMZ3Ehh" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-Asok8n7f3up4YJyiRYef4R">
           <seg xml:id="i-UXnRkoc9bkC4MxftE4MhTU">
             Lördagen den 27 februari, e. m. 53 Nr 28. uppmuntran, som svenska
             staten och Sveriges riksdag givit rederi- 9 und erstön näringen.
@@ -4501,8 +4197,6 @@
             de subventionerande linjerna, vilka ångare då ombesörja befraktningen
             till det egna landet.
           </seg>
-        </u>
-        <u xml:id="i-Qp89wBr1QNPGxNTXS1ugHQ" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-SkG54yYNpFNo8j7AMZ3Ehh" next="i-7dokDZTzAKwNdD4VjaQwrx">
           <seg xml:id="i-FgHS4xUWWgMjm2GkQwydSA">
             Nu förhåller det sig så, det är sant, med våra egna statssubventionerade
             linjer, att det är endast ifråga om exportgods, som staten kan
@@ -4530,8 +4224,6 @@
             statssubventionerade linjer. Man kan ha rätt att fordra regeringens
             initiativ i detta hänseende.
           </seg>
-        </u>
-        <u xml:id="i-7dokDZTzAKwNdD4VjaQwrx" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-Qp89wBr1QNPGxNTXS1ugHQ" next="i-G3Pw8nHuA3QN533KrUnDEE">
           <seg xml:id="i-3rifv6g3Rr46VN5HE3Z38x">
             Men jag vill, herr talman, för att icke ytterligare förlänga
             debatten endast giva en allmän reflexion mot slutet. Här är det
@@ -4546,8 +4238,6 @@
             att på dessa linjer också en socialisering så småningom måste
             fortskrida.
           </seg>
-        </u>
-        <u xml:id="i-G3Pw8nHuA3QN533KrUnDEE" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-7dokDZTzAKwNdD4VjaQwrx">
           <seg xml:id="i-9DiGUoeoZuYQVktiH2XmoP">
             Ja, herr talman, vårt halvöfolk. som är beroende av sina förbindelser
             utåt. känner säkerligen mycket starkt, när dessa linjer äro lagda
@@ -4582,15 +4272,13 @@
         <note xml:id="i-9fm7jTMkmkPDMfH6CM8RmC" type="speaker">
           Chefen för finansdepartementet, herr statsrådet Vennersten:
         </note>
-        <u xml:id="i-W31UYhy9CW6H2nn1gPNHt9" who="i-UKN14qkeNNkW3DNEKGfGbE" next="i-TMdaV4NyQ77orTBr2QaxMY">
+        <u xml:id="i-W31UYhy9CW6H2nn1gPNHt9" who="i-UKN14qkeNNkW3DNEKGfGbE" next="i-9hPdwwWYifSEtL5nwcLmkS">
           <seg xml:id="i-PaRDrHRtDxBvgtKsnMdaED">
             Herr talman. Den fråga, som de båda sista ärade talarne berört,
             kunna vi ju gärna alla erkänna vara av utomordentlig betydelse.
             Men lika säkert är — och det är jag alldeles viss om att dessa
             talare skola giva mig rätt i — att frågan är synnerligen svårlöst.
           </seg>
-        </u>
-        <u xml:id="i-TMdaV4NyQ77orTBr2QaxMY" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-W31UYhy9CW6H2nn1gPNHt9" next="i-Nbpw6ZoKch3kqJeFv7UbfM">
           <seg xml:id="i-W23XGMG3cfT4hUiSHYJx4u">
             Nu har herr Palmstierna påpekat, att under remissdebatten ett
             löfte avgivits här från regeringsbänken om att något skulle från
@@ -4619,8 +4307,6 @@
             utomordentligt svårlöst spörsmål, och var och en kan väl inse,
             att det måste så vara.
           </seg>
-        </u>
-        <u xml:id="i-Nbpw6ZoKch3kqJeFv7UbfM" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-TMdaV4NyQ77orTBr2QaxMY" next="i-9hPdwwWYifSEtL5nwcLmkS">
           <seg xml:id="i-HbQpR5mPLpVsryU8BE1sF9">
             Beträffande våra statssubventionerade linjer har ju redan den
             senaste ärade talaren framhållit, hurusom i de kontrakt. som mellan
@@ -4631,7 +4317,7 @@
         <note xml:id="i-QeXLb6XZo4yrDg9KoLVxTc" type="date">
           Lördagen den 27 februari, e. m. 55 Nr 28.
         </note>
-        <u xml:id="i-9hPdwwWYifSEtL5nwcLmkS" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-Nbpw6ZoKch3kqJeFv7UbfM" next="i-Jgg191cBuRVGiqZMsuMwG5">
+        <u xml:id="i-9hPdwwWYifSEtL5nwcLmkS" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-W31UYhy9CW6H2nn1gPNHt9" next="i-VCwosMRsjRq9XbE8TborxX">
           <seg xml:id="i-VjJGrhDpQKwepQ4UajoxiF">
             vårt exportgods. Man hade vid dessa kontrakts uppgörande tydligen
             4ng. understöd icke kunnat tänka sig in i en sådan situation som
@@ -4647,8 +4333,6 @@
             tillgodo som en nedsättning av infrakterna till landet skulle
             göra.
           </seg>
-        </u>
-        <u xml:id="i-Jgg191cBuRVGiqZMsuMwG5" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-9hPdwwWYifSEtL5nwcLmkS" next="i-BgCSSJyg1yLYPgEUkAbiXt">
           <seg xml:id="i-EoaeBfauMEmAAdDtxmFp8N">
             Emellertid är det så, att de statssubventionerade linjerna —
             jag syftar här på dem, for vilka fortsatt subvention nu begäres
@@ -4666,8 +4350,6 @@
             kunna ha gent emot de statssubventionerade linjerna, vilka som
             nämnt äro bundna vid sina bestämda reguljära trader.
           </seg>
-        </u>
-        <u xml:id="i-BgCSSJyg1yLYPgEUkAbiXt" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-Jgg191cBuRVGiqZMsuMwG5" next="i-mPyCBTUEBVaZzahWAuqCi">
           <seg xml:id="i-wn19zhEcfdq7pmEWH3W9z">
             Emellertid skulle man kunna säga: ja, men dessa trampångare ägas
             ofta nog av firmor, som ha rederilån, och här kunde en liknande
@@ -4685,8 +4367,6 @@
             snabbare fram, beror just på den omständigheten, att man velat
             avvakta resultatet av ifrågavarande redarekonferens.
           </seg>
-        </u>
-        <u xml:id="i-mPyCBTUEBVaZzahWAuqCi" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-BgCSSJyg1yLYPgEUkAbiXt" next="i-VCwosMRsjRq9XbE8TborxX">
           <seg xml:id="i-EQs6Y9ykRmTE4UdBitCAjD">
             Emellertid. huru soroligt det än må vara med dessa höga frakter
             och deras inverkan på vår spanmnålsimport, kunna vi i viss mån
@@ -4703,7 +4383,7 @@
         <note xml:id="i-L7Xmv6VUVZM8uQVkT1Vb18" type="date">
           Nr 28. 56 Lördagen den 27 februari, e. m.
         </note>
-        <u xml:id="i-VCwosMRsjRq9XbE8TborxX" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-mPyCBTUEBVaZzahWAuqCi" next="i-Wj6zxHMuzjYvdZmZLpegP9">
+        <u xml:id="i-VCwosMRsjRq9XbE8TborxX" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-9hPdwwWYifSEtL5nwcLmkS">
           <seg xml:id="i-QEVHzLfvoZNXGfpDHxqtgw">
             agn derstöd ställelse i alla fall, att vi på detta vis lyckats
             tillförsäkra OSS jäm- "Svenska ade förelsevis moderata frakter
@@ -4717,16 +4397,12 @@
             som reducera de avsedda fördelarna och som icke i första ögonblicket
             kunna rätt överskådas.
           </seg>
-        </u>
-        <u xml:id="i-Wj6zxHMuzjYvdZmZLpegP9" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-VCwosMRsjRq9XbE8TborxX" next="i-Kn8bgXF9FC7Z22UmnNGQo4">
           <seg xml:id="i-9oTJyL2pBxTEBFcb14s4tN">
             Jag har härmed önskat säga, att saken haft regeringens uppmärksamhet,
             och jag försäkrar, att den fortfarande skall ha det. Jag vågar
             tillägga, med hänvisning till vad jag nu anfört, att resultatet
             av redarekonferensen blott skall vara en eggelse till att söka
           </seg>
-        </u>
-        <u xml:id="i-Kn8bgXF9FC7Z22UmnNGQo4" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-Wj6zxHMuzjYvdZmZLpegP9">
           <seg xml:id="i-TEAu51sBSLWaEfR66f1Z5g">
             tränga frågan närmare inpå livet.
           </seg>
@@ -4734,7 +4410,7 @@
         <note xml:id="i-c4pWgaPDEnztTyroPHuUo" type="speaker">
           Herr Thore:
         </note>
-        <u xml:id="i-9ALEaAjRH7yXEimyb79Aka" who="i-BKaeof17U4zVqCVaBSDwyd" next="i-5rK5V8sASEg5xnBsGmSsmX">
+        <u xml:id="i-9ALEaAjRH7yXEimyb79Aka" who="i-BKaeof17U4zVqCVaBSDwyd" next="i-8m4oKxSZLrPfDKZnvDP5GR">
           <seg xml:id="i-85o64pFvSe5Z1cofKBALgK">
             Det skulle vid detta tillfälle vara av ett visst intresse att
             ingå på huru subventionerna till vissa av våra svenska ångbåtslinjer
@@ -4760,8 +4436,6 @@
             vill icke gå in på det ytterligare. Jag vill endast med några
             ord bemöta ett par föregående talare.
           </seg>
-        </u>
-        <u xml:id="i-5rK5V8sASEg5xnBsGmSsmX" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-9ALEaAjRH7yXEimyb79Aka" next="i-8m4oKxSZLrPfDKZnvDP5GR">
           <seg xml:id="i-9uMV8xwPkX6heD5AAxThMZ">
             Herr Andersson i Råstock uppläste vissa delar av en artikel i
             Stockholmstidningen för den 14 december förra året, en artikel
@@ -4780,7 +4454,7 @@
         <note xml:id="i-spJ97dQpFMc3esdjqhx3Y" type="date">
           Lördagen den 27 februari, e. m. 57 Nr 28.
         </note>
-        <u xml:id="i-8m4oKxSZLrPfDKZnvDP5GR" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-5rK5V8sASEg5xnBsGmSsmX" next="i-RjthyPEUogWs7vSJCnPTQG">
+        <u xml:id="i-8m4oKxSZLrPfDKZnvDP5GR" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-9ALEaAjRH7yXEimyb79Aka" next="i-5oHfvJVdyAB7oR1Yej6fnj">
           <seg xml:id="i-8WDRFanrR9AvRUmkGKoHHF">
             den utrikes sjöfarten medan all inrikes sjöfart, fiskefarten
             och örlogs- 4ng. understöd marinen få fyrbelysning och utprickning
@@ -4791,8 +4465,6 @@
             visa, vilka stora belopp som staten får i årlig intäkt av sjöfartsnäringen,
             men det sagda må vara nog.
           </seg>
-        </u>
-        <u xml:id="i-RjthyPEUogWs7vSJCnPTQG" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-8m4oKxSZLrPfDKZnvDP5GR" next="i-EVC6akeAVN7rDb11Dq8S9k">
           <seg xml:id="i-BomnQ3cZAe951imG9bh5Fy">
             Man talar vidare om att sjöfarten åtnjutit rederilån. Ja, det
             har den fått till en ränta av 4 procent. Kommerskollegium yttrade
@@ -4803,8 +4475,6 @@
             ex. till de enskilda järnvägarne. I fråga om dessa gör staten
             i vissa fall både ränteoch kapitalförlust för varje år.
           </seg>
-        </u>
-        <u xml:id="i-EVC6akeAVN7rDb11Dq8S9k" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-RjthyPEUogWs7vSJCnPTQG" next="i-J1hsWs7C7bTeGUyXwL6vJi">
           <seg xml:id="i-WHck4tGfBwHHgmTKYSZcA9">
             Herr Andersson i Råstock och herr Palmstierna hava talai om de
             höga frakterna och de dåliga resultaten av den skandinaviska fraktkonferensen,
@@ -4818,16 +4488,12 @@
             rörande den svenska sjöfarten angående de svårigheter, denna varit
             underkastad.
           </seg>
-        </u>
-        <u xml:id="i-J1hsWs7C7bTeGUyXwL6vJi" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-EVC6akeAVN7rDb11Dq8S9k" next="i-LDJzWwg8meeS4vjq9m7DkN">
           <seg xml:id="i-W5ua2vDYp4sD6gvYSE7Fun">
             Man talar om, att frakterna äro så och så höga och att man förtjänar
             så och så mycket på varje resa, och så multiplicerar man med 3
             eller 4; men kanske icke ens den första resan är gjord, på vilken
             dessa höga frakter skulle intjänas.
           </seg>
-        </u>
-        <u xml:id="i-LDJzWwg8meeS4vjq9m7DkN" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-J1hsWs7C7bTeGUyXwL6vJi" next="i-7HjB53NdAogHqiyD46xTVC">
           <seg xml:id="i-UJDMSpizy1a7Z9Du3vzrNQ">
             Avbränningarna äro även betydliga. Så hart. ex. till krigsförsäkringskommissionen
             utgått omkring 4 miljoner kronor. Vidare har det blivit en betydlig
@@ -4837,8 +4503,6 @@
             någon situation till SJÖSS, som icke verkat ogynnsamt för sjöfarten
             och som alltså i sin mån åstadkommit stegring av frakterna.
           </seg>
-        </u>
-        <u xml:id="i-7HjB53NdAogHqiyD46xTVC" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-LDJzWwg8meeS4vjq9m7DkN" next="i-6RQAoDDgis8dBtbjZxCvCL">
           <seg xml:id="i-CMWYdsShZSdZF2v6AnFxgz">
             Det har av herr Palmstierna framhållits, att man i Italien kunnat
             utöva ett visst tryck på redarna. Man säges där ha stipulerat
@@ -4849,8 +4513,6 @@
             farlig för sjöfarten, medan Medelhavet är jämförelsevis fritt
             från de stora krigsriskerna.
           </seg>
-        </u>
-        <u xml:id="i-6RQAoDDgis8dBtbjZxCvCL" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-7HjB53NdAogHqiyD46xTVC" next="i-5oHfvJVdyAB7oR1Yej6fnj">
           <seg xml:id="i-Cov9kqoS48MbMvHhaw6NWo">
             Nu synes det mig egendomligt, att herr Palmstierna omnämnt en
             så relativt liten sjöfartsnation som Italien, då det gällt att
@@ -4869,13 +4531,11 @@
         <note xml:id="i-MLeqLU3nCa955tSYw5opdV">
           åt aktiebolaget Svenska Ame-
         </note>
-        <u xml:id="i-5oHfvJVdyAB7oR1Yej6fnj" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-6RQAoDDgis8dBtbjZxCvCL" next="i-Fo7y4i3B6bonK67Jz4igBu">
+        <u xml:id="i-5oHfvJVdyAB7oR1Yej6fnj" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-8m4oKxSZLrPfDKZnvDP5GR" next="i-S7chot2pVKkQ9xACmgvkmn">
           <seg xml:id="i-CC4qsEhmdAnmV26zTMpfjA">
             för fraktfarten, men för icke många dagar sedan omtalades det
             i tid-
           </seg>
-        </u>
-        <u xml:id="i-Fo7y4i3B6bonK67Jz4igBu" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-5oHfvJVdyAB7oR1Yej6fnj" next="i-S7chot2pVKkQ9xACmgvkmn">
           <seg xml:id="i-BZ6C2zQfweu4yfubUJexPJ">
             rika-Meziko- DiNgarna, att premiärministern i parlamentet måst
             medge, att det icke
@@ -4884,7 +4544,7 @@
         <note xml:id="i-WFQy7tVbaWydqzbD5dYnRZ">
           linjen. (Forts.)
         </note>
-        <u xml:id="i-S7chot2pVKkQ9xACmgvkmn" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-Fo7y4i3B6bonK67Jz4igBu" next="i-R1kYoHAHs1XEoaZTU3DhM8">
+        <u xml:id="i-S7chot2pVKkQ9xACmgvkmn" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-5oHfvJVdyAB7oR1Yej6fnj">
           <seg xml:id="i-5aCQZytV1i62DCCc871fwQ">
             fanns stor möjlighet att få en överenskommelse till stånd, och
             att ett tryck på redarna skulle försämra situationen i stället
@@ -4901,8 +4561,6 @@
             då vi, som icke äga mer än 3 å 4 procent av världstonnaget kunna
             stipulera maximitariffer. Det förefaller omöjligt.
           </seg>
-        </u>
-        <u xml:id="i-R1kYoHAHs1XEoaZTU3DhM8" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-S7chot2pVKkQ9xACmgvkmn" next="i-U6yQoEDu16ZhDwusu7AJWp">
           <seg xml:id="i-XRC5rjNj8DvdXnweu7n6qo">
             Vad vi behöva för att kunna hålla frakterna nere och för att
             hålla vår export och import i gång, är ökat tonnage. Det har visat
@@ -4915,8 +4573,6 @@
             icke gått till Göteborg för några särskilt favorabla frakter utan
             att de försökt utnyttja fraktmarknaden så mycket som möjligt.
           </seg>
-        </u>
-        <u xml:id="i-U6yQoEDu16ZhDwusu7AJWp" who="i-BKaeof17U4zVqCVaBSDwyd" prev="i-R1kYoHAHs1XEoaZTU3DhM8">
           <seg xml:id="i-6t5KKHAejg42kKKoCTrnky">
             Det har ifrågasatts, att staten själv skulle ingripa och driva
             rederinäring. För min del tror jag, att redarna icke skulle ha
@@ -4932,12 +4588,10 @@
         <note xml:id="i-S51WxbLayfTk39GEBvokKF" type="speaker">
           Herr Andersson i Råstock:
         </note>
-        <u xml:id="i-PK5i5ftRJ3Dc78W5fMKdDZ" who="i-TxRCzzgetP7718TE7usGwh" next="i-4kV9CMqwXPGqh8WWze2pTJ">
+        <u xml:id="i-PK5i5ftRJ3Dc78W5fMKdDZ" who="i-TxRCzzgetP7718TE7usGwh" next="i-KbUwaKToYoTZa8Ru2U1vRR">
           <seg xml:id="i-Jj3DQqeHBEHMAYyfzzRjMd">
             Blott ett par ord.
           </seg>
-        </u>
-        <u xml:id="i-4kV9CMqwXPGqh8WWze2pTJ" who="i-TxRCzzgetP7718TE7usGwh" prev="i-PK5i5ftRJ3Dc78W5fMKdDZ" next="i-F257a6Yk7Tmkp9x6vf9oMb">
           <seg xml:id="i-Ae3ZpHbFBKPgUpoewhAcNB">
             Jag skall be att få konstatera, att fraktkonferensen har försökt
             leta fram alla möjliga små detaljer, som kunde giva rätt att säga,
@@ -4948,8 +4602,6 @@
             försäkring mot krigsfaran. Ökning i utgifterna i dessa avseenden
             kan uppgå till 50 å 75 procent av kostnaden före kriget.»
           </seg>
-        </u>
-        <u xml:id="i-F257a6Yk7Tmkp9x6vf9oMb" who="i-TxRCzzgetP7718TE7usGwh" prev="i-4kV9CMqwXPGqh8WWze2pTJ" next="i-KbUwaKToYoTZa8Ru2U1vRR">
           <seg xml:id="i-FfxN2Fj8Wy2ooH6cZvLpBE">
             Man uttrycker sig försiktigt för att kunna taga så höga siffror
             som möjligt och imponera därmed. Sedan plockar man ihop sådana
@@ -4961,14 +4613,12 @@
         <note xml:id="i-RWdWzY4wDHxrQAtXU7uwob" type="date">
           Lördagen den 27 februari, e. m. 59
         </note>
-        <u xml:id="i-KbUwaKToYoTZa8Ru2U1vRR" who="i-TxRCzzgetP7718TE7usGwh" prev="i-F257a6Yk7Tmkp9x6vf9oMb" next="i-Y7atqNnjWYh4VDbiMsez3h">
+        <u xml:id="i-KbUwaKToYoTZa8Ru2U1vRR" who="i-TxRCzzgetP7718TE7usGwh" prev="i-PK5i5ftRJ3Dc78W5fMKdDZ">
           <seg xml:id="i-FZHPcbaBmPJ8VqrBYcia5W">
             nämnts förekommer givetsvis på flera andra områden betydliga
             ökningar av utgifterna, och i sådant avseende kan exempelvis nämnas
             ökningen av. lotsutgifter samt för kosthåll och övertidsarbete.»
           </seg>
-        </u>
-        <u xml:id="i-Y7atqNnjWYh4VDbiMsez3h" who="i-TxRCzzgetP7718TE7usGwh" prev="i-KbUwaKToYoTZa8Ru2U1vRR" next="i-Vhp3ywHKMEbRvp3b2XtXqt">
           <seg xml:id="i-8FeQMBNvcYRxL8TtBHxxZP">
             Man har sålunda varit synnerligen noga med att plocka fram allt
             som kunde vara till fördel för redarenäringen, då man skulle lägga
@@ -4983,8 +4633,6 @@
             Jag tycker, att man borde hava kunnat säga ifrån litet klarare,
             så att allmänheten fått någon ledning vid bedömandet av frågan.
           </seg>
-        </u>
-        <u xml:id="i-Vhp3ywHKMEbRvp3b2XtXqt" who="i-TxRCzzgetP7718TE7usGwh" prev="i-Y7atqNnjWYh4VDbiMsez3h" next="i-LdAiyHnLR9tpzfq7CXHo3q">
           <seg xml:id="i-KSg8Pp4oiYQS9Q2vH32wo4">
             Sedan skall jag be att få läsa upp slutet av det av herr statsrådet
             citerade referatet av konferensens betänkande, om jag så får kalla
@@ -4995,8 +4643,6 @@
             en vädjan till de tre ländernas redareföreningar att till närmare
             behandling bland sina medlemmar upptaga denna fråga.»
           </seg>
-        </u>
-        <u xml:id="i-LdAiyHnLR9tpzfq7CXHo3q" who="i-TxRCzzgetP7718TE7usGwh" prev="i-Vhp3ywHKMEbRvp3b2XtXqt" next="i-SokmVJGbDbqxxjnnGHJNhd">
           <seg xml:id="i-RCdVGiFqnkzVJN2pqvkWd8">
             Och så till sist själva slutorden. Då icke någon annan läst upp
             dem, anser jag mig hava en viss rätt att göra det. »En förutsättning
@@ -5005,8 +4651,6 @@
             och icke, vilket otvivelaktigt i viss utsträckning skett, uppdriva
             frakterna genom inbördes konkurrens om tonnaget.»
           </seg>
-        </u>
-        <u xml:id="i-SokmVJGbDbqxxjnnGHJNhd" who="i-TxRCzzgetP7718TE7usGwh" prev="i-LdAiyHnLR9tpzfq7CXHo3q" next="i-JafqmSR2CnrHZxVQJhZAEX">
           <seg xml:id="i-TMFBY4U3SQaQC5GWn3ZmLS">
             Vad är detta annat än ett försök att rent ut säga, att det egentligen
             är befraktarna som vållat, att man fått så pass bra betalt för
@@ -5015,16 +4659,12 @@
             hyggligare. Jag kan icke finna någon särskild beviskraft i ett
             sådant påstående.
           </seg>
-        </u>
-        <u xml:id="i-JafqmSR2CnrHZxVQJhZAEX" who="i-TxRCzzgetP7718TE7usGwh" prev="i-SokmVJGbDbqxxjnnGHJNhd" next="i-AzvmzcZ7RZ1jgheiXjBmx4">
           <seg xml:id="i-51BsJXtzY1BeLTE4qApS8v">
             Jag har blott tillåtit mig att citera detta för att belvsa, att
             det över allt i detta utlåtande är gott om påståenden och förmodanden,
             men det saknas tämligen fullständigt alla bevis för vad man vill
             komma till.
           </seg>
-        </u>
-        <u xml:id="i-AzvmzcZ7RZ1jgheiXjBmx4" who="i-TxRCzzgetP7718TE7usGwh" prev="i-JafqmSR2CnrHZxVQJhZAEX">
           <seg xml:id="i-JLag1upSHgLqx9Tk5YpBxw">
             Vad slutligen beträffar frågan om statssubvention eller icke,
             skall jag be att få säga. att det visat sis ganska fördelaktigt
@@ -5058,12 +4698,10 @@
         <note xml:id="i-2Tz7b8ZrpDnnqq9s2b97X9" type="speaker">
           Herr Le m k e:
         </note>
-        <u xml:id="i-SHh4VMP9EtPnvq4yMZjvy7" who="unknown" next="i-6chwFVcBrJFpgXx5JQ5zY9">
+        <u xml:id="i-SHh4VMP9EtPnvq4yMZjvy7" who="unknown">
           <seg xml:id="i-CbAbiKxYENipSwmPL3Ag9r">
             Herr talman! I denna punkt anhåller jag att få göra en hemställan.
           </seg>
-        </u>
-        <u xml:id="i-6chwFVcBrJFpgXx5JQ5zY9" who="unknown" prev="i-SHh4VMP9EtPnvq4yMZjvy7" next="i-VrxekQDxpnvxWUuB8thGsT">
           <seg xml:id="i-Hv5EZ7tLdoBmy6cNPrwgVN">
             På sätt framgår av statsverkspropositionen i föreliggande huvudtitel
             på sidan 110, har från packhusinspektionen i Malmö gjorts framställning
@@ -5074,8 +4712,6 @@
             framförts så vägande skäl, att generaltullstyrelsen ansett sig
             böra på det kraftigaste förorda densamma.
           </seg>
-        </u>
-        <u xml:id="i-VrxekQDxpnvxWUuB8thGsT" who="unknown" prev="i-6chwFVcBrJFpgXx5JQ5zY9" next="i-XYdp2B24rVmkxeZcPLj8aB">
           <seg xml:id="i-iUWPAUedSzQrXHeFHQczr">
             Emellertid har departementschefen med hänsyn till de rådande
             extraordinära förhållandena, såsom det heter, ansett sig icke
@@ -5086,8 +4722,6 @@
             slutsumma på nära 7 miljoner kronor så ofantligt ringa belopp
             som 2,000 kronor.
           </seg>
-        </u>
-        <u xml:id="i-XYdp2B24rVmkxeZcPLj8aB" who="unknown" prev="i-VrxekQDxpnvxWUuB8thGsT" next="i-WsbPXoqEqdwYccNqGPL1ho">
           <seg xml:id="i-V3DvTytaEcu3FesfSDAPRN">
             Emellertid bör särskilt observeras, att just av samma skäl, som
             departementschefen anför, den här ifrågavarande begäran är den
@@ -5103,8 +4737,6 @@
             avseende än nu, herr statsrådet måtte behjärta denna tullpackhusinspektionens
             i Malmö av generaltullstyrelsen tillstyrkta hemställan.
           </seg>
-        </u>
-        <u xml:id="i-WsbPXoqEqdwYccNqGPL1ho" who="unknown" prev="i-XYdp2B24rVmkxeZcPLj8aB">
           <seg xml:id="i-RtJN82eoXXaoACp5GGzB7e">
             Herr talman, jag har intet yrkande.
           </seg>

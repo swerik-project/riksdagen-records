@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-4jx4scr8TkQ35d6zFPRsrp" type="speech">
             <linkGrp type="u">
               <ptr target="#i-d4a76601141f8d56-0"/>
@@ -677,7 +677,13 @@
               <ptr target="#i-0f2f3f4f9f06d975-1"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -808,7 +814,7 @@
         <note xml:id="i-31TgviKbiXzxwDCT8cNYiv" type="speaker">
           Herr Lindqvist erhöll på begäran ordet och yttrade:
         </note>
-        <u xml:id="i-ae2088befebb8f53-0" who="i-6FrdvvZyK8ZA14RbLEpPvF" next="i-RSGFfGkzomzy64RfSgFrNi">
+        <u xml:id="i-ae2088befebb8f53-0" who="i-6FrdvvZyK8ZA14RbLEpPvF" next="i-ae2088befebb8f53-1">
           <seg xml:id="i-PSW4MdGHuv4pv2P7Ve5kaA">
             Herr talman! Enligt Kungl. Maj:ts förslag till innevarande års
             riksdag skola folkpensionerna ävensom de å nämnda pensioner för
@@ -823,8 +829,6 @@
             frågor rörande förbättringar i folkpensioneringen och att för
             riksdagen framlägga de resultat, som föranledas av utredningen.
           </seg>
-        </u>
-        <u xml:id="i-RSGFfGkzomzy64RfSgFrNi" who="i-6FrdvvZyK8ZA14RbLEpPvF" prev="i-ae2088befebb8f53-0" next="i-5XpsAn3hZzoLLEkYUnD47P">
           <seg xml:id="i-8Cbi1rYVtTpxfSCJXjqAEb">
             Vid andra lagutskottets behandling av förenämnda motioner anförde
             utskottet bland annat, att i motionerna berörda frågor voro föremål
@@ -839,8 +843,6 @@
             vikten av att utredningsarbetet bedreves med all skyndsamhet —
             att motionerna icke måtte föranleda någon riksdagens åtgärd.
           </seg>
-        </u>
-        <u xml:id="i-5XpsAn3hZzoLLEkYUnD47P" who="i-6FrdvvZyK8ZA14RbLEpPvF" prev="i-RSGFfGkzomzy64RfSgFrNi" next="i-ae2088befebb8f53-1">
           <seg xml:id="i-4ySuQVjwfYp3bax3HsYRZk">
             Vid ärendets behandling i andra kammaren anförde jag, att kammaren
             icke borde nöja sig med allenast det uttalande, som gjorts i andra
@@ -857,7 +859,7 @@
           Maj:t hemställa om framläggande snarast möjligt av förslag till
           allmän förbättring av nu utgående folkpensioner och invalidunderstöd.
         </note>
-        <u xml:id="i-ae2088befebb8f53-1" who="i-6FrdvvZyK8ZA14RbLEpPvF" prev="i-5XpsAn3hZzoLLEkYUnD47P">
+        <u xml:id="i-ae2088befebb8f53-1" who="i-6FrdvvZyK8ZA14RbLEpPvF" prev="i-ae2088befebb8f53-0">
           <seg xml:id="i-PTPshpiEABccmHVKntVxCr">
             Enligt vad jag inhämtat har Kungl. Maj:t genom beslut den 28
             april 1944 uppdragit åt socialvårdskommittén att skyndsammast
@@ -1599,7 +1601,7 @@
           Chefen för finansdepartementet, herr statsrådet Wigforss, som
           yttrade:
         </note>
-        <u xml:id="i-2905618a48fc1a12-0" who="i-MSbi6CmhoHjdUGidWdU69V" next="i-Vp1Sm7CBt6PKm8hDDuF5mz">
+        <u xml:id="i-2905618a48fc1a12-0" who="i-MSbi6CmhoHjdUGidWdU69V">
           <seg xml:id="i-BCt6NKcxkpKFrvg1ySgMpZ">
             Herr talman! Herr Senander har till statsrådet och chefen för
             kommunikationsdepartementet framställt följande fråga: Kan det
@@ -1614,15 +1616,11 @@
             RE jag att få lämna följande meddelande i anledning av den framställda
             rågan.
           </seg>
-        </u>
-        <u xml:id="i-Vp1Sm7CBt6PKm8hDDuF5mz" who="i-MSbi6CmhoHjdUGidWdU69V" prev="i-2905618a48fc1a12-0" next="i-MraZAHHqckTWfS9uPP3Lwc">
           <seg xml:id="i-XfUjrHdyCQLqeYEWHL7K8i">
             I riksdagens skrivelse har anhållits om övervägande av möjligheterna
             att undanröja av riksdagen antydda och därmed jämförliga ojämnheter
             vid löneklassplacering.
           </seg>
-        </u>
-        <u xml:id="i-MraZAHHqckTWfS9uPP3Lwc" who="i-MSbi6CmhoHjdUGidWdU69V" prev="i-Vp1Sm7CBt6PKm8hDDuF5mz">
           <seg xml:id="i-WTtkyejysJvNJdDtHLSGuV">
             Riksdagsskrivelsen har enligt Kungl. Maj:ts beslut den 15 innevarande
             juni remitterats till allmänna lönenämnden för avgivande av utlåtande.
@@ -1637,7 +1635,7 @@
         <note xml:id="i-3qmRZT7gHWNvdXCADS2pUB" type="speaker">
           Herr Senander:
         </note>
-        <u xml:id="i-3a64a7b4adb9d821-0" who="i-AD4PVxoWFJ5WK9APNtM5vP" next="i-C747aAtShfMANdGG6Drrmz">
+        <u xml:id="i-3a64a7b4adb9d821-0" who="i-AD4PVxoWFJ5WK9APNtM5vP">
           <seg xml:id="i-AGnaiqDUraf12fo74RTWhQ">
             Herr talman! Jag ber att till statsrådet och chefen för finansdepartementet
             få framföra mitt tack för det lämnade svaret. Avsikten med min
@@ -1655,8 +1653,6 @@
             i mycket låg löneställning snarast möjligt erhålla den ersättning
             som de enligt
           </seg>
-        </u>
-        <u xml:id="i-C747aAtShfMANdGG6Drrmz" who="i-AD4PVxoWFJ5WK9APNtM5vP" prev="i-3a64a7b4adb9d821-0">
           <seg xml:id="i-J8qaC777NJWcJMECNzr84Y">
             riksdagens beslut skola ha. Härmed var överläggningen slutad.
           </seg>
@@ -2689,7 +2685,7 @@
           tillstyrker alltså Kungl. Maj:ts förslag, och jag hoppas, att
           kamrarna också skola bifalla detsamma.
         </note>
-        <u xml:id="i-X6poKhdbQa3XwwGMf42AML" who="i-3XFieHvCxpEc9aqT4qbsAD" prev="i-8de52308624f5098-0" next="i-Y8VD5jkTKThV8b79Ukgjt7">
+        <u xml:id="i-X6poKhdbQa3XwwGMf42AML" who="i-3XFieHvCxpEc9aqT4qbsAD" prev="i-8de52308624f5098-0">
           <seg xml:id="i-4uwAPt9yCVVF56gGGWZpgR">
             Motionärernas framställning har ju, som icke är så alldeles ovanligt
             i sådana situationer som denna, rullat upp ensidiga problem i
@@ -2728,8 +2724,6 @@
             svenska intressen i alla de länder, där vi ha några intressen
             att bevaka.
           </seg>
-        </u>
-        <u xml:id="i-Y8VD5jkTKThV8b79Ukgjt7" who="i-3XFieHvCxpEc9aqT4qbsAD" prev="i-X6poKhdbQa3XwwGMf42AML">
           <seg xml:id="i-FbfaQXLe9hcQiEz74ks25x">
             Jag hemställer, herr talman, om bifall till utskottets förslag.
           </seg>
@@ -3669,7 +3663,7 @@
         <note xml:id="i-92L7wLAEanHRxxcQEJVcjS">
           Anslag till prisrabattering å vissa livsmedel m. m. (Forts.)
         </note>
-        <u xml:id="i-b4ab93a2f253de04-3" who="i-9Q45RD3uYLp3AUHrZrQV3T" prev="i-b4ab93a2f253de04-2" next="i-YKtguef9qoPigi7fwxD2vN">
+        <u xml:id="i-b4ab93a2f253de04-3" who="i-9Q45RD3uYLp3AUHrZrQV3T" prev="i-b4ab93a2f253de04-2">
           <seg xml:id="i-8i1EBRHaE9wTwNP5BK7MRL">
             I den mån vi minska på prisrabatterna och dra in på förmaltningsersättningarna,
             få vi ju räkna med att detta återverkar på allmänna prisindexet
@@ -3704,8 +3698,6 @@
             som väl också varit de väsentliga för utskottsmajoriteten vid
             dess ståndpunktstagande.
           </seg>
-        </u>
-        <u xml:id="i-YKtguef9qoPigi7fwxD2vN" who="i-9Q45RD3uYLp3AUHrZrQV3T" prev="i-b4ab93a2f253de04-3">
           <seg xml:id="i-FNfc6UmVnJwS6rHaK694V7">
             ber, herr förste vice talman, att få yrka bifall till utskottets
             hemställan.
@@ -5445,7 +5437,7 @@
           Löneoch anställningsförhållandena för statsanställda sjukskölereker
           m. nm
         </note>
-        <u xml:id="i-d4a76601141f8d56-13" who="i-BG3ppKEV9tJVCs6dQEWdSL" prev="i-d4a76601141f8d56-12" next="i-G1dYujS7NqQYeBiqMEnmYc">
+        <u xml:id="i-d4a76601141f8d56-13" who="i-BG3ppKEV9tJVCs6dQEWdSL" prev="i-d4a76601141f8d56-12">
           <seg xml:id="i-5FoVaMqFb1W7au4na8w2Tt">
             Forts. hus blir löst blott och bart genom löneförhöjning åt de
             anställda, men situationen är dock sådan, att löneförhållandena
@@ -5491,8 +5483,6 @@
             stånd. Jag finner det självklart, att i denna utredning också
             sjuksköterskor beredas representation.
           </seg>
-        </u>
-        <u xml:id="i-G1dYujS7NqQYeBiqMEnmYc" who="i-BG3ppKEV9tJVCs6dQEWdSL" prev="i-d4a76601141f8d56-13">
           <seg xml:id="i-BiPVDSX3HzM1aQvYRKjeFt">
             Jag ber, herr talman, att få yrka bifall till utskottets hemställan.
           </seg>
@@ -6356,7 +6346,7 @@
         <note xml:id="i-W1zhWH6kjXhyNg771Yf5YT" type="speaker">
           Herr Persson i Stockholm, som yttrade:
         </note>
-        <u xml:id="i-9618b1d9478eabe1-16" who="unknown" next="i-QRh9VQ1gqexd69wXZmYLRX">
+        <u xml:id="i-9618b1d9478eabe1-16" who="unknown" next="i-8Sau6mN9k23iKFxjxAkrZw">
           <seg xml:id="i-HiYdnfZq2RjDHv6YwAAKnM">
             Herr talman! I hälsovårdsstadgans 10 $ 2 mom. är föreskrivet
             bl. a. följande:
@@ -6366,8 +6356,6 @@
             eller bemängd med främmande ämne, ej heller, utan att sådant särskilt
             angives, vara berövad något av sina naturliga beståndsdelar.»
           </seg>
-        </u>
-        <u xml:id="i-QRh9VQ1gqexd69wXZmYLRX" who="unknown" prev="i-9618b1d9478eabe1-16" next="i-8Sau6mN9k23iKFxjxAkrZw">
           <seg xml:id="i-QE32VZZDs86fHqB2KiEY4i">
             Vid 1940 års urtima riksdag anhöll Kungl. Maj:t om riksdagens
             yttrande be-
@@ -6387,7 +6375,7 @@
           hälsovårdsstadgans bestämmelser. Denna framställning vann icke
           riksdagens bifall.
         </note>
-        <u xml:id="i-8Sau6mN9k23iKFxjxAkrZw" who="unknown" prev="i-QRh9VQ1gqexd69wXZmYLRX" next="i-5YkzzkbPGK1ETvY6w4in69">
+        <u xml:id="i-8Sau6mN9k23iKFxjxAkrZw" who="unknown" prev="i-9618b1d9478eabe1-16" next="i-9618b1d9478eabe1-19">
           <seg xml:id="i-MgJTJWZzakRcx31ZFJNgbP">
             År 1941 utfärdade ändock Kungl. Maj:t kungörelse med vissa bestämmelser
             angående handeln med mjölk, vilka innebära förbud att försälja
@@ -6412,15 +6400,11 @@
             tillgång till en större eller mindre kvantitet tjock grädde och
             fet ost men fortfarande vara hänvisade till standardiserad mjölk.
           </seg>
-        </u>
-        <u xml:id="i-5YkzzkbPGK1ETvY6w4in69" who="unknown" prev="i-8Sau6mN9k23iKFxjxAkrZw" next="i-9618b1d9478eabe1-18">
           <seg xml:id="i-MdW7NYnqzyVBQ7r634kvA">
             Med hänvisning till det anförda anhålles om andra kammarens tillstånd
             att till statsrådet och chefen för folkhushållningsdepartementet
             få framställa följande frågor:
           </seg>
-        </u>
-        <u xml:id="i-9618b1d9478eabe1-18" who="unknown" prev="i-5YkzzkbPGK1ETvY6w4in69" next="i-9618b1d9478eabe1-19">
           <seg xml:id="i-7AP1e3r8CUqTXcHGXLjB4Q">
             Anser icke statsrådet att lättnaderna på matfettförsörjningens
             område i första hand böra utnyttjas för att återställa giltigheten
@@ -6525,7 +6509,7 @@
           besvarade med vad utskottet i motiveringen anfört, icke måtte
           till någon riksdagens åtgärd föranleda.
         </note>
-        <u xml:id="i-9618b1d9478eabe1-19" who="unknown" prev="i-9618b1d9478eabe1-18" next="i-5sHz8nZ4u45DA5uE2Jg26X">
+        <u xml:id="i-9618b1d9478eabe1-19" who="unknown" prev="i-8Sau6mN9k23iKFxjxAkrZw" next="i-XVR2cL7mkGXNedC4sgdnnm">
           <seg xml:id="i-52PgS3RNoUeVkopZK4LugC">
             Utskottet indelade tjänstepensionerna i följande tre huvudgrupper,
             nämligen nyaste pensioner, motsvarande vissa tjänstepensioner,
@@ -6537,8 +6521,6 @@
             oreglerad lön och som utgå enligt äldre pensionsbestämmelser än
             de ovan nämnda.
           </seg>
-        </u>
-        <u xml:id="i-5sHz8nZ4u45DA5uE2Jg26X" who="unknown" prev="i-9618b1d9478eabe1-19" next="i-XVR2cL7mkGXNedC4sgdnnm">
           <seg xml:id="i-A2rWS21scx8pYjU8e3Pt93">
             Enligt utskottets förslag skulle en begränsad pensionsreglering
             genomföras på så sätt, att förbättringen skulle från och med den
@@ -6570,7 +6552,7 @@
           besvarade med vad reservanterna i sin motivering anfört, icke
           måtte till någon riksdagens åtgärd föranleda.
         </note>
-        <u xml:id="i-XVR2cL7mkGXNedC4sgdnnm" who="unknown" prev="i-5sHz8nZ4u45DA5uE2Jg26X" next="i-QYBt1FxD9aiZ8KD8q2YSY2">
+        <u xml:id="i-XVR2cL7mkGXNedC4sgdnnm" who="unknown" prev="i-9618b1d9478eabe1-19" next="i-QYBt1FxD9aiZ8KD8q2YSY2">
           <seg xml:id="i-ANVvmpoobCq5HW4uudLbmd">
             Enligt dessa reservanter skulle den av utskottet förordade pensionsregleringen
             omfatta samtliga de pensionärer, som avgått före den 1 juli 1939.
@@ -6584,7 +6566,7 @@
           en pensionsförbättring, medförande en kostnad av 2 miljoner kronor
           och utformad enligt följande grunder:
         </note>
-        <u xml:id="i-QYBt1FxD9aiZ8KD8q2YSY2" who="unknown" prev="i-XVR2cL7mkGXNedC4sgdnnm" next="i-7GHdExH3hAPxAnVRxQMbGZ">
+        <u xml:id="i-QYBt1FxD9aiZ8KD8q2YSY2" who="unknown" prev="i-XVR2cL7mkGXNedC4sgdnnm">
           <seg xml:id="i-LtMYBWS6bJK6gfXwMMcFVN">
             Nyare pensionerna i lönegraderna A 1—6, Mb 1 och 2 samt vad anginge
             arbetare i båda pensionsgrupperna skulle uppbringas så, att de
@@ -6593,16 +6575,12 @@
             att pensioner till f. d. manliga arbetare skulle liksom tidigare
             beräknas efter lönegraderna A 3 (grupp T) och A 5 (grupp ID).
           </seg>
-        </u>
-        <u xml:id="i-7GHdExH3hAPxAnVRxQMbGZ" who="unknown" prev="i-QYBt1FxD9aiZ8KD8q2YSY2" next="i-8BwaNuKnYu9Ga4FSwcRLz7">
           <seg xml:id="i-8BaCvj2bgArLXuDcoCj9MJ">
             Omregleringen innebure, att den nya förbättrade pensionen i lönegraden
             A 6 bleve 2 987 kronor. I lönegraderna A 7—9 skulle pensionerna
             höjas till samma belopp. I övriga lönegrader skulle ingen höjning
             ske.
           </seg>
-        </u>
-        <u xml:id="i-8BwaNuKnYu9Ga4FSwcRLz7" who="unknown" prev="i-7GHdExH3hAPxAnVRxQMbGZ">
           <seg xml:id="i-DWPaiHDxQv6BmYV9RWWcaQ">
             Pensionärer med äldre pensioner skulle erhålla samma förhöjning
             som tillkomme pensionärer med nyare pension i motsvarande löneställning.
@@ -8009,13 +7987,11 @@
         <note xml:id="i-WwdU7VSy778DjEBKKNWZqB">
           övertagandet kvarstå i densamma.
         </note>
-        <u xml:id="i-CZAub3pBj9FZuDguVhs4vn" who="i-DheXLtyjqikyrPUGjuZgqh" prev="i-L5F7tqvxCDehMzDUuvVqQc" next="i-523f4c40356e7e15-5">
+        <u xml:id="i-CZAub3pBj9FZuDguVhs4vn" who="i-DheXLtyjqikyrPUGjuZgqh" prev="i-L5F7tqvxCDehMzDUuvVqQc">
           <seg xml:id="i-A2NfUUnc1ANhoCKrCEvRCN">
             Den före nämnda tidpunkt gällande kungörelsen medgav rätt till
             dylik pension även för dem, som uppnått 60 levnadsår.
           </seg>
-        </u>
-        <u xml:id="i-523f4c40356e7e15-5" who="i-DheXLtyjqikyrPUGjuZgqh" prev="i-CZAub3pBj9FZuDguVhs4vn">
           <seg xml:id="i-9baFd6ZpDtPYrPyWTp2o5K">
             Nu har utskottet framhållit, att kungörelsens avfattning icke
             utgör något hinder för att tillerkänna ifrågavarande befattningshavare
@@ -8302,7 +8278,7 @@
         <note xml:id="i-2e4NaVkYp64SCfhoPWz73z" type="speaker">
           Herr Johnsson i Kastanjegården:
         </note>
-        <u xml:id="i-249f5d2366ab2e7e-0" who="i-XkAPddbHxSrxgEhj4f98qz" next="i-JSEv7d9EEhB1ZBLBVXxNvj">
+        <u xml:id="i-249f5d2366ab2e7e-0" who="i-XkAPddbHxSrxgEhj4f98qz" next="i-249f5d2366ab2e7e-2">
           <seg xml:id="i-71JerQhzTgNHBTmL1zmBVQ">
             Herr talman! Till detta utskottsutlåtande har avgivits en reservation
             av herr Wistrand m. fl. med hemställan om avslag på motionerna
@@ -8344,16 +8320,12 @@
             begära högre pris, kan detta icke gärna karakteriseras som obenägenhet
             från företagens sida till uppgörelse.
           </seg>
-        </u>
-        <u xml:id="i-JSEv7d9EEhB1ZBLBVXxNvj" who="i-XkAPddbHxSrxgEhj4f98qz" prev="i-249f5d2366ab2e7e-0" next="i-249f5d2366ab2e7e-1">
           <seg xml:id="i-YzgWp25793FbSGWh4N8yj">
             Jag förmodar också, att därest järnvägsstyrelsen ansett en sådan
             lag om tvångsinlösen av enskilda Järnvägar, som det här är fråga
             om, nödvändig, hade säkerligen järnvägsstyrelsen också hos Kungl.
             Maj:t begärt en sådan lags tillkomst.
           </seg>
-        </u>
-        <u xml:id="i-249f5d2366ab2e7e-1" who="i-XkAPddbHxSrxgEhj4f98qz" prev="i-JSEv7d9EEhB1ZBLBVXxNvj" next="i-249f5d2366ab2e7e-2">
           <seg xml:id="i-LXgXhJZb6v3vab3YkbshCp">
             Dessutom har Kungl. Maj:t redan vid beslutet om järnvägarnas
             förstatligande tillsatt en nämnd, som, därest tvistefrågor skulle
@@ -8370,7 +8342,7 @@
           Motioner angående lagstiftning rörande tvångsinlösen av enskild
           färg. Forts.
         </note>
-        <u xml:id="i-249f5d2366ab2e7e-2" who="i-XkAPddbHxSrxgEhj4f98qz" prev="i-249f5d2366ab2e7e-1" next="i-U9t535N3PQuQWfWouXVS1x">
+        <u xml:id="i-249f5d2366ab2e7e-2" who="i-XkAPddbHxSrxgEhj4f98qz" prev="i-249f5d2366ab2e7e-0">
           <seg xml:id="i-GcExq9A2aqpATH8rDaDmmL">
             dast behövt anlitas en enda gång och lyckades då på mycket kort
             tid slutföra det uppdrag, som då var nämnden förelagt. Det är
@@ -8382,8 +8354,6 @@
             uppgift att medla saknas det enligt min mening anledning till
             tvångsinlösen.
           </seg>
-        </u>
-        <u xml:id="i-U9t535N3PQuQWfWouXVS1x" who="i-XkAPddbHxSrxgEhj4f98qz" prev="i-249f5d2366ab2e7e-2">
           <seg xml:id="i-PcGZmb85i46X6dYNSzJAt6">
             Jag hemställer därför, herr talman, att kammaren med bifall till
             reservanternas förslag måtte avslå motionerna nr 142 i första
@@ -8957,7 +8927,7 @@
           FE y ajere lagstiftning rörande tvångsinlösen av enskild järnväg.
           Forts.
         </note>
-        <u xml:id="i-U1FSipc63ym6w72Y7Jwrmx" who="i-ErNemW6WNsbRaNz3Q9qVQH" prev="i-89d5199a7300bce8-2" next="i-NfZ6EeBEbFobd7oSNUYL7V">
+        <u xml:id="i-U1FSipc63ym6w72Y7Jwrmx" who="i-ErNemW6WNsbRaNz3Q9qVQH" prev="i-89d5199a7300bce8-2">
           <seg xml:id="i-JT7wYSTUR8REyQ5Pd8NUaa">
             herr von Seth. Jag vill påpeka, att 1936 års järnvägskommitté
             mycket noga har prövat denna fråga. Departementschefen tog ställning
@@ -8990,8 +8960,6 @@
             ett lagförslag av denna natur skulle framläggas för riksdagen
             hänsyn tages till det berättigade 1 den kritik, som sålunda framkommit.
           </seg>
-        </u>
-        <u xml:id="i-NfZ6EeBEbFobd7oSNUYL7V" who="i-ErNemW6WNsbRaNz3Q9qVQH" prev="i-U1FSipc63ym6w72Y7Jwrmx">
           <seg xml:id="i-9B47PeTo8xZvARJFxtpPmH">
             Mom talman! Jag vill med vad jag anfört yrka bifall till utskottets
             hemställan.
@@ -9000,7 +8968,7 @@
         <note xml:id="i-NW7ayuMJ26cPumAABAHSPg" type="speaker">
           Herr Wiberg:
         </note>
-        <u xml:id="i-cd010f2a412c37e9-3" who="i-KkU7ad1AF8u8aRYzMxFtQF" next="i-5CMCJ9XMnbQomJNowGUWhT">
+        <u xml:id="i-cd010f2a412c37e9-3" who="i-KkU7ad1AF8u8aRYzMxFtQF" next="i-cd010f2a412c37e9-5">
           <seg xml:id="i-3ZUFfpEqSfsLNK6mfQfdui">
             Herr talman! Beträffande den principiella sidan av detta spörsmål,
             rörande rättmätigheten och lämpligheten av en tvångslag på detta
@@ -9008,8 +8976,6 @@
             mig till att instämma i vad de föregående ärade talare anfört,
             som yttrat sig till förmån för reservationen.
           </seg>
-        </u>
-        <u xml:id="i-5CMCJ9XMnbQomJNowGUWhT" who="i-KkU7ad1AF8u8aRYzMxFtQF" prev="i-cd010f2a412c37e9-3" next="i-cd010f2a412c37e9-4">
           <seg xml:id="i-AYGtAnwAjNG5wXj1Q8WohF">
             Jag skall däremot något uppehålla mig vid den tekniska uppläggningen
             av den ifrågasatta nya lagstiftningen. 1936 års järnvägskommitté
@@ -9027,8 +8993,6 @@
             att en lagstiftning av den art 1936 års järnvägskommitté framlagt
             nu genomföres».
           </seg>
-        </u>
-        <u xml:id="i-cd010f2a412c37e9-4" who="i-KkU7ad1AF8u8aRYzMxFtQF" prev="i-5CMCJ9XMnbQomJNowGUWhT" next="i-cd010f2a412c37e9-5">
           <seg xml:id="i-V7iEZt1JamYpEEgP4vPDvQ">
             Herr von Seth har redan påvisat vissa bristfälligheter i detta
             lagutkast. Jag skall försöka att påvisa ytterligare en enligt
@@ -9049,7 +9013,7 @@
           Motioner angående lagstiftning rörande tvångsinlösen av enskild
           nd Forts.
         </note>
-        <u xml:id="i-cd010f2a412c37e9-5" who="i-KkU7ad1AF8u8aRYzMxFtQF" prev="i-cd010f2a412c37e9-4" next="i-7aNvomvTftLR6fPcwMTMEH">
+        <u xml:id="i-cd010f2a412c37e9-5" who="i-KkU7ad1AF8u8aRYzMxFtQF" prev="i-cd010f2a412c37e9-3" next="i-7aNvomvTftLR6fPcwMTMEH">
           <seg xml:id="i-HwSw376jNPFv6YicskRqbN">
             ligtvis vid övertagandet av en enskild järnväg låta staten köpa
             antingen aktierna eller de värden järnvägsaktiebolaget äger. I

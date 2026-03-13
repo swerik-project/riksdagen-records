@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-5xS4bvHJHzc6SbLE3iaT5M" type="speech">
             <linkGrp type="u">
               <ptr target="#i-UGm9V4VkYvrACERhsxZjj1"/>
@@ -593,7 +593,13 @@
               <ptr target="#i-VvU5tA21nRouWES1g22HHV"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -790,15 +796,13 @@
         <note xml:id="i-Mp4CMRPKaWcFSVtGcscoC5">
           296, och anförde:
         </note>
-        <u xml:id="i-UGm9V4VkYvrACERhsxZjj1" who="i-3urySgCAk2SuFz1BB8TX5x" next="i-B4PJuEgPewTTmTZTkVVUAX">
+        <u xml:id="i-UGm9V4VkYvrACERhsxZjj1" who="i-3urySgCAk2SuFz1BB8TX5x">
           <seg xml:id="i-XkhVJWEEgve5sPujeQyEMu">
             Fru talman! Herr Henmark har frågat mig om jag är villig att
             medverka till att Sveriges folkpensionärers riksförbund, Pensionärernas
             riksorganisation och Statspensionärernas riksförbund bereds möjlighet
             att bli representerade i indexnämnden.
           </seg>
-        </u>
-        <u xml:id="i-B4PJuEgPewTTmTZTkVVUAX" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-UGm9V4VkYvrACERhsxZjj1" next="i-Q9zSxBbvkDCa6mvwiTumJB">
           <seg xml:id="i-66fxjmqkYWktgtMQ2YDVJa">
             Indexnämnden är ett rådgivande organ åt statistiska centralbyrån
             i frågor rörande konsumentprisindex. Enligt gällande bestämmelser
@@ -808,8 +812,6 @@
             centralbyrån. Indexnämnden består av tolv ledamöter med lika många
             suppleanter.
           </seg>
-        </u>
-        <u xml:id="i-Q9zSxBbvkDCa6mvwiTumJB" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-B4PJuEgPewTTmTZTkVVUAX" next="i-JUyvGDaNgn9FfKrNnfdSUC">
           <seg xml:id="i-PpvAmE9wvP85kYEorNAS5F">
             Ledamöterna och suppleanterna i indexnämnden förordnas av statistiska
             centralbyrån. Antalet ledamöter bestäms dock av regeringen. Centralbyrån
@@ -820,8 +822,6 @@
             Tjänstemännens centralorganisation och — sedan år 1973 — statens
             prisoch kartellnämnd.
           </seg>
-        </u>
-        <u xml:id="i-JUyvGDaNgn9FfKrNnfdSUC" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-Q9zSxBbvkDCa6mvwiTumJB" next="i-JWT9gZZELYyr5AJSQ7RvPd">
           <seg xml:id="i-DZ8uSNx9W5sYSrQMydKiz7">
             Indexnämnden har att fullgöra uppgifter av rent teknisk natur.
             Med tanke härpå är sammansättningen av nämnden mycket bred och
@@ -829,8 +829,6 @@
             intresse i denna fråga är jag därför inte beredd att föreslå att
             antalet ledamöter i indexnämnden utökas.
           </seg>
-        </u>
-        <u xml:id="i-JWT9gZZELYyr5AJSQ7RvPd" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-JUyvGDaNgn9FfKrNnfdSUC">
           <seg xml:id="i-64rZ7jq7fKzN8xzhss81mL">
             Jag vill i anslutning härtill även framhålla att gjorda undersökningar
             visar att konsumentprisindex är representativt i samma utsträckning
@@ -1291,7 +1289,7 @@
         <note xml:id="i-SZWY1cweA59sTSXmpLLtFF">
           318 resp. 319, och anförde:
         </note>
-        <u xml:id="i-c24071e82aa8affa-12" who="i-3urySgCAk2SuFz1BB8TX5x" next="i-B9fnSUfYFTqwbFcEv4MSRT">
+        <u xml:id="i-c24071e82aa8affa-12" who="i-3urySgCAk2SuFz1BB8TX5x">
           <seg xml:id="i-XExD4fX9eQ9zWEa4Lv2gzS">
             Fru talman! Herr Torwald har frågat mig om jag anser det rimligt
             att en idrottsförening — som genom oavlönat frivilligt arbete
@@ -1309,16 +1307,12 @@
             När det gäller beskattning av bingospel måste man skilja mellan
             spelskatt och inkomstskatt.
           </seg>
-        </u>
-        <u xml:id="i-B9fnSUfYFTqwbFcEv4MSRT" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-c24071e82aa8affa-12" next="i-c24071e82aa8affa-13">
           <seg xml:id="i-W1t4MtEbV1oU781DaNvWZo">
             Sedan april 1973 utgår spelskatt på bingospel med 15 96 av spelinsatserna.
             I samband med att de nya reglerna antogs avvisade riksdagen motionsyrkande
             om undantag från skatteplikt för bingospel som anordnas av ideella
             föreningar helt i egen regi.
           </seg>
-        </u>
-        <u xml:id="i-c24071e82aa8affa-13" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-B9fnSUfYFTqwbFcEv4MSRT">
           <seg xml:id="i-UoJBRsHWQtBcpem8FEkbrp">
             I fråga om inkomstskatt gäller att den som i större omfattning
             anordnar bingospel beskattas för överskottet som för inkomst av
@@ -1432,7 +1426,7 @@
         <note xml:id="i-Vcjp2NdVE3JB4iegEb3GMr">
           Nr 113
         </note>
-        <u xml:id="i-NhP7PiGqS11axxCAhdyyM9" who="i-TihcZVivd1iNxtjFf2UaF4" next="i-Nph1LnFhGbueymTgLuWu3v">
+        <u xml:id="i-NhP7PiGqS11axxCAhdyyM9" who="i-TihcZVivd1iNxtjFf2UaF4">
           <seg xml:id="i-Gf967aezAqPK6hw5vQ27dK">
             Fru talman! Jag ber att få tacka finansministern för svaret på
             min fråga.
@@ -1449,8 +1443,6 @@
             dock inte — orsaken till detta är för mig obekant — utan 1970
             års riksdag fick upprepa kravet på utredning.
           </seg>
-        </u>
-        <u xml:id="i-Nph1LnFhGbueymTgLuWu3v" who="i-TihcZVivd1iNxtjFf2UaF4" prev="i-NhP7PiGqS11axxCAhdyyM9" next="i-824a084020d299f9-1">
           <seg xml:id="i-CAxf8zpt3gozYu6gXLYKAw">
             Sådant var alltså läget då jag den 4 november 1971 riktade frågan
             till finansministern, när utredningen skulle tillsättas. Finansministern
@@ -1458,8 +1450,6 @@
             Så tillsattes äntligen den begärda utredningen, och efter drygt
             fyra års utredande lade den i december 1975 fram sitt betänkande.
           </seg>
-        </u>
-        <u xml:id="i-824a084020d299f9-1" who="i-TihcZVivd1iNxtjFf2UaF4" prev="i-Nph1LnFhGbueymTgLuWu3v">
           <seg xml:id="i-5PojV5ncToxL3Qifabur9R">
             I förteckningen över propositioner som avses lämnas under vårsessionen
             finns en proposition upptagen som behandlar den här saken, men
@@ -1721,14 +1711,12 @@
         <note xml:id="i-WHrhJaHgaN13bDxknkAsMy">
           320, och anförde:
         </note>
-        <u xml:id="i-b0db0a990a092089-2" who="i-WAR7Xtq5vM5vhtMxcKDZv4" next="i-QkJuqMhoSX8nKN96HkJPA3">
+        <u xml:id="i-b0db0a990a092089-2" who="i-WAR7Xtq5vM5vhtMxcKDZv4" next="i-XSHvm25Y1kqQ6Gq3GBVbHQ">
           <seg xml:id="i-LwkksCXU6LgnyKx798ni61">
             Fru talman! Herr Fågelsbo har frågat mig om min uppfattning angående
             vem som skall besluta om upplåtande av kyrka för gudstjänst eller
             därmed jämförlig förrättning.
           </seg>
-        </u>
-        <u xml:id="i-QkJuqMhoSX8nKN96HkJPA3" who="i-WAR7Xtq5vM5vhtMxcKDZv4" prev="i-b0db0a990a092089-2" next="i-XSHvm25Y1kqQ6Gq3GBVbHQ">
           <seg xml:id="i-36mH3kb4xPHyrMy2wibj4N">
             Tidigare ansågs det ankomma på kyrkoherden att besluta om upplåtelse
             av kyrka, oavsett för vilket ändamål kyrkan skulle användas. Numera
@@ -1738,7 +1726,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197576--113/prot_197576__113-014.jp2/_view"/>
-        <u xml:id="i-XSHvm25Y1kqQ6Gq3GBVbHQ" who="i-WAR7Xtq5vM5vhtMxcKDZv4" prev="i-QkJuqMhoSX8nKN96HkJPA3">
+        <u xml:id="i-XSHvm25Y1kqQ6Gq3GBVbHQ" who="i-WAR7Xtq5vM5vhtMxcKDZv4" prev="i-b0db0a990a092089-2">
           <seg xml:id="i-PTiwNGZa73BnYPBQZPndep">
             än gudstjänst eller därmed jämförlig förrättning. Kyrkorådet
             kan dock uppdra åt kyrkoherden att besluta på rådets vägnar. I
@@ -1790,15 +1778,13 @@
         <note xml:id="i-4oqGMAuCCNLN8gNayk1ZCF" type="speaker">
           Herr kommunministern GUSTAFSSON:
         </note>
-        <u xml:id="i-3DpCLNQcVoP6dNCyUgpr8i" who="i-WAR7Xtq5vM5vhtMxcKDZv4" next="i-edaceeb0ae13b836-1">
+        <u xml:id="i-3DpCLNQcVoP6dNCyUgpr8i" who="i-WAR7Xtq5vM5vhtMxcKDZv4">
           <seg xml:id="i-D5VZM9v2kzteFStdS4qfP">
             Fru talman! Sakförhållandet är det att vid upplåtande av kyrkorum
             för andra än kyrkliga ändamål beslutar kyrkorådet enligt den lag
             som antogs 1963. Kyrkorådet har rätt att delegera beslutanderätten
             till kyrkoherden om det så vill, men det är kyrkorådet som beslutar.
           </seg>
-        </u>
-        <u xml:id="i-edaceeb0ae13b836-1" who="i-WAR7Xtq5vM5vhtMxcKDZv4" prev="i-3DpCLNQcVoP6dNCyUgpr8i">
           <seg xml:id="i-L5BsejChSjjBLGYuf4J8yJ">
             När kyrkan skall användas för gudstjänster och liknande verksamhet
             är det pastorn eller kyrkoherden som beslutar. Det anses, i varje
@@ -1913,7 +1899,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197576--113/prot_197576__113-016.jp2/_view"/>
-        <u xml:id="i-edaceeb0ae13b836-4" who="unknown" prev="i-WW7uoVi14SpURd98JvPG6w" next="i-XuJ2CExQHAZeGhYfc7zMiz">
+        <u xml:id="i-edaceeb0ae13b836-4" who="unknown" prev="i-WW7uoVi14SpURd98JvPG6w" next="i-D5YNnJYyzKKafFGf6qRjWU">
           <seg xml:id="i-Jw1f8yYpT2hpLzetRfP5Xj">
             Beträffande regeringsärendenas beredning har utskottet i likhet
             med tidigare år ägnat uppmärksamhet år utredningsväsendet, där
@@ -1935,8 +1921,6 @@
             av särskilda regler för regeringens handlande i extraordinära
             situationer.
           </seg>
-        </u>
-        <u xml:id="i-XuJ2CExQHAZeGhYfc7zMiz" who="unknown" prev="i-edaceeb0ae13b836-4" next="i-USqp1ybDaey3mSF84YsJJn">
           <seg xml:id="i-n7ZyRuxDJVHt2gjEdSpsi">
             Vissa frågor rörande utrikesnämnden har tagits upp under granskningen.
             Det gäller om viss skriftväxling mellan statsministern och utländsk
@@ -1944,8 +1928,6 @@
             om överläggningar med nämnden borde föregått regeringsbeslut om
             vissa restriktioner av skoimporten m. m.
           </seg>
-        </u>
-        <u xml:id="i-USqp1ybDaey3mSF84YsJJn" who="unknown" prev="i-XuJ2CExQHAZeGhYfc7zMiz" next="i-D5YNnJYyzKKafFGf6qRjWU">
           <seg xml:id="i-C1hs2QCby7p3fzt1YTzsAg">
             Bland särskilda ämnen som utöver vad som framgått behandlats
             av utskottet skall nämnas svenska biståndsinsatser till Angola,
@@ -2013,7 +1995,7 @@
         <note xml:id="i-X3xBy52WHgeCVQW2tZHL5y">
           18
         </note>
-        <u xml:id="i-D5YNnJYyzKKafFGf6qRjWU" who="unknown" prev="i-USqp1ybDaey3mSF84YsJJn">
+        <u xml:id="i-D5YNnJYyzKKafFGf6qRjWU" who="unknown" prev="i-edaceeb0ae13b836-4">
           <seg xml:id="i-8bRiHLXL56yFqjeejndRMV">
             skyddslagen i fråga om vägar och flygplatser skulle ha av reservanterna
             angiven lydelse,
@@ -2424,7 +2406,7 @@
           Justitieminister Geijer och statssekreterare Sven Andersson har
           även läm- 29 april 1976
         </note>
-        <u xml:id="i-8677d0f893988fc7-20" who="i-HAgEQXXoNesSBYagiEXMea" prev="i-8677d0f893988fc7-19" next="i-TZhjaXs6jZzoXFVD76EaDS">
+        <u xml:id="i-8677d0f893988fc7-20" who="i-HAgEQXXoNesSBYagiEXMea" prev="i-8677d0f893988fc7-19" next="i-7nvTUj4CYkHtfUP92zBteT">
           <seg xml:id="i-WWB7tRuhh2d5vpZVNkcS3u">
             nat redogörelse inför utskottet, och det har varit möjligt för
             utskottets
@@ -2437,26 +2419,18 @@
             bedömning av 'statsrådet Geijers roll. Den tolkning som de borgerliga
             — tjänsteutövning
           </seg>
-        </u>
-        <u xml:id="i-TZhjaXs6jZzoXFVD76EaDS" who="i-HAgEQXXoNesSBYagiEXMea" prev="i-8677d0f893988fc7-20" next="i-8677d0f893988fc7-21">
           <seg xml:id="i-WT7USmxc17DS983tfyuUza">
             reservanterna vill göra strider uppenbart mot ordalydelsen i
             12 kap. 18 = m. m.
           </seg>
-        </u>
-        <u xml:id="i-8677d0f893988fc7-21" who="i-HAgEQXXoNesSBYagiEXMea" prev="i-TZhjaXs6jZzoXFVD76EaDS" next="i-TL9zir6D4LM5ko7e83rshA">
           <seg xml:id="i-U9QXJGVCVVQy9eoosoA83y">
             regeringsformen. Utskottet har kunnat utföra den grundlagsenliga
           </seg>
-        </u>
-        <u xml:id="i-TL9zir6D4LM5ko7e83rshA" who="i-HAgEQXXoNesSBYagiEXMea" prev="i-8677d0f893988fc7-21" next="i-QKKabiJWVccXFD3CFyT3LY">
           <seg xml:id="i-FFTeVn2MfXGBH8abcMwGx6">
             granskning som regeringsformen förutsätter i ärenden av denna
             typ. Granskningsarbe- Liksom tidigare har konstitutionsutskottet
             granskat den praxis som = tets omfattning och
           </seg>
-        </u>
-        <u xml:id="i-QKKabiJWVccXFD3CFyT3LY" who="i-HAgEQXXoNesSBYagiEXMea" prev="i-TL9zir6D4LM5ko7e83rshA" next="i-7nvTUj4CYkHtfUP92zBteT">
           <seg xml:id="i-VGgnqeSWfLs1dezo7LoRtF">
             följes inom regeringsadministrationen. Den stora uppgiften har
             i år varit — inriktning, m. m.
@@ -2465,7 +2439,7 @@
         <note xml:id="i-Q9j4UxmXJb2HiLNKZEAXva">
           att granska regeringens handläggning av besvärsärenden. Besvärsinsti-
         </note>
-        <u xml:id="i-7nvTUj4CYkHtfUP92zBteT" who="i-HAgEQXXoNesSBYagiEXMea" prev="i-QKKabiJWVccXFD3CFyT3LY" next="i-8677d0f893988fc7-23">
+        <u xml:id="i-7nvTUj4CYkHtfUP92zBteT" who="i-HAgEQXXoNesSBYagiEXMea" prev="i-8677d0f893988fc7-20" next="i-8677d0f893988fc7-23">
           <seg xml:id="i-8pkWQjeipvJ2XibnjkTnRn">
             tutet spelar en viktig roll inom vårt rättssystem. Granskningen
             visar att
@@ -2516,7 +2490,7 @@
           sig vid granskningen av handläggningen av besvärsärendena under
           år
         </note>
-        <u xml:id="i-8677d0f893988fc7-23" who="i-HAgEQXXoNesSBYagiEXMea" prev="i-7nvTUj4CYkHtfUP92zBteT" next="i-6YJFWDaskQMvPLgPXnYeDb">
+        <u xml:id="i-8677d0f893988fc7-23" who="i-HAgEQXXoNesSBYagiEXMea" prev="i-7nvTUj4CYkHtfUP92zBteT" next="i-8677d0f893988fc7-27">
           <seg xml:id="i-SBE2tUvGqpmq9MM3RBjqzb">
             1975 att ett mycket stort antal ärenden, 141, gjorts till föremål
             för re-
@@ -2537,14 +2511,10 @@
             Det stora problemet är dock den kraftiga tillväxten av antalet
             besvärs-
           </seg>
-        </u>
-        <u xml:id="i-6YJFWDaskQMvPLgPXnYeDb" who="i-HAgEQXXoNesSBYagiEXMea" prev="i-8677d0f893988fc7-23" next="i-QsG5EEeCLuv94FenXrSEEk">
           <seg xml:id="i-EE4WqtPmezWZo5KiLudbos">
             ärenden. Mellan åren 1966 och 1975 ökade de med ca 5 000, från
             omkring
           </seg>
-        </u>
-        <u xml:id="i-QsG5EEeCLuv94FenXrSEEk" who="i-HAgEQXXoNesSBYagiEXMea" prev="i-6YJFWDaskQMvPLgPXnYeDb" next="i-E6SbipBNrQZPcahKqUK5qR">
           <seg xml:id="i-VGqCsSu4qqpFEFTnCC1tmD">
             2000 till drygt 7 000. Det innebär att vart fjärde ärende som
             företogs
@@ -2561,14 +2531,10 @@
             bland medborgarna att besvära sig. Till detta har bidragit att
             det i för-
           </seg>
-        </u>
-        <u xml:id="i-E6SbipBNrQZPcahKqUK5qR" who="i-HAgEQXXoNesSBYagiEXMea" prev="i-QsG5EEeCLuv94FenXrSEEk" next="i-8677d0f893988fc7-24">
           <seg xml:id="i-CTrJQBw22BHbvdkzL38TRV">
             valtningslagen finns bestämmelser om en i princip obligatorisk
             besvärs-
           </seg>
-        </u>
-        <u xml:id="i-8677d0f893988fc7-24" who="i-HAgEQXXoNesSBYagiEXMea" prev="i-E6SbipBNrQZPcahKqUK5qR" next="i-8677d0f893988fc7-27">
           <seg xml:id="i-CtbuoUxojnrmguf6GwMeBW">
             hänvisning. Ökningen får även ses mot bakgrunden av den omfattande
           </seg>
@@ -2616,7 +2582,7 @@
         <note xml:id="i-5oY8e55ikxSUx2HgpmL9RA">
           24
         </note>
-        <u xml:id="i-8677d0f893988fc7-27" who="i-HAgEQXXoNesSBYagiEXMea" prev="i-8677d0f893988fc7-24" next="i-8677d0f893988fc7-28">
+        <u xml:id="i-8677d0f893988fc7-27" who="i-HAgEQXXoNesSBYagiEXMea" prev="i-8677d0f893988fc7-23" next="i-8677d0f893988fc7-28">
           <seg xml:id="i-HeiHk5waNQAvPX2Wu1qv6A">
             slutsrätten i speciella grupper av besvärsärenden. Denna möjlighet
             bör övervägas. Det kan också finnas anledning att undersöka om
@@ -3233,7 +3199,7 @@
         <note xml:id="i-ELQvwjAcuNicwRi9cq6MFz">
           skottets betänkanden.
         </note>
-        <u xml:id="i-QBPmVWSE8aeFHXTosUbHBe" who="i-K5xv4oCErCZbkmjE6NDTKr" prev="i-7fe05dbf135a3b87-9" next="i-EVWsAwb37GhgCkvcCBtN4G">
+        <u xml:id="i-QBPmVWSE8aeFHXTosUbHBe" who="i-K5xv4oCErCZbkmjE6NDTKr" prev="i-7fe05dbf135a3b87-9">
           <seg xml:id="i-BBh3skpyC34t6rYEkPqhQY">
             Slutligen, fru talman, några ord om ett ärende av annan karaktär.
             Det behandlas på s. 18 i utskottsbetänkandet och i reservationen
@@ -3261,8 +3227,6 @@
             är inte anställda av A-pressen eller socialdemokratiska partiet
             för att ge dessa särskilda favörer.
           </seg>
-        </u>
-        <u xml:id="i-EVWsAwb37GhgCkvcCBtN4G" who="i-K5xv4oCErCZbkmjE6NDTKr" prev="i-QBPmVWSE8aeFHXTosUbHBe">
           <seg xml:id="i-87Dp3AwaCKyiCWXJFAjSMw">
             Jag ber, fru talman, att få yrka bifall till reservationen 1.
           </seg>
@@ -3401,7 +3365,7 @@
         <note xml:id="i-Ep7fYLgCdpuhpzaoYctiAA">
           Granskningsarbetets omfattning och inriktning, m. m.
         </note>
-        <u xml:id="i-7fe05dbf135a3b87-20" who="i-AUocZy5YDqXmCwrRq6eGaW" prev="i-7fe05dbf135a3b87-16" next="i-DQ2EkYT2qvB36DEg58jeXG">
+        <u xml:id="i-7fe05dbf135a3b87-20" who="i-AUocZy5YDqXmCwrRq6eGaW" prev="i-7fe05dbf135a3b87-16" next="i-7fe05dbf135a3b87-22">
           <seg xml:id="i-PxUwNCTvUJrAmf9aVKrNWw">
             remiss och att man först efter remissomgången beslutat att inte
             ta upp ärenden till avgörande därför att de inkommit för sent.
@@ -3464,14 +3428,12 @@
             efter denna tidpunkt och därför inte varit mottagarna till handa
             förrän efter ikraftträdandet. Detta är som sagt rent otillfredsställande.
           </seg>
-        </u>
-        <u xml:id="i-DQ2EkYT2qvB36DEg58jeXG" who="i-AUocZy5YDqXmCwrRq6eGaW" prev="i-7fe05dbf135a3b87-20" next="i-7fe05dbf135a3b87-22">
           <seg xml:id="i-5NM1uTgGV4edivyHPh7Uyk">
             Mot denna bakgrund erinrar utskottet om tidigare gjorda iakttagelser
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197576--113/prot_197576__113-034.jp2/_view"/>
-        <u xml:id="i-7fe05dbf135a3b87-22" who="i-AUocZy5YDqXmCwrRq6eGaW" prev="i-DQ2EkYT2qvB36DEg58jeXG" next="i-7fe05dbf135a3b87-24">
+        <u xml:id="i-7fe05dbf135a3b87-22" who="i-AUocZy5YDqXmCwrRq6eGaW" prev="i-7fe05dbf135a3b87-20" next="i-7fe05dbf135a3b87-24">
           <seg xml:id="i-RGTiDiswMmLsjXkgk4UoYv">
             och pekar på nytt på rättssäkerhetskraven som inte blir tillgodosedda
             — Nr 113
@@ -3733,7 +3695,7 @@
         <note xml:id="i-D2zyeeGpM7Nou5ExG3WDX5">
           38
         </note>
-        <u xml:id="i-7fe05dbf135a3b87-29" who="i-F1RwJxotHWwBitEw9rLdhZ" prev="i-7fe05dbf135a3b87-25" next="i-V2nQqqVTNwxuicJz7nE1gk">
+        <u xml:id="i-7fe05dbf135a3b87-29" who="i-F1RwJxotHWwBitEw9rLdhZ" prev="i-7fe05dbf135a3b87-25">
           <seg xml:id="i-4sf1LiHAKmdMxDjzMTdEma">
             för utskottsledamöterna, och det är fortfarande precis lika otillfredsställande
             att författningar blir färdiga från trycket först efter det att
@@ -3745,8 +3707,6 @@
             rörande informationssekreterare i departementen vill jag instämma
             i vad herr Fiskesjö och herr Werner i Malmö redan har sagt.
           </seg>
-        </u>
-        <u xml:id="i-V2nQqqVTNwxuicJz7nE1gk" who="i-F1RwJxotHWwBitEw9rLdhZ" prev="i-7fe05dbf135a3b87-29">
           <seg xml:id="i-F1xanxbzfg9TwGxD89rQna">
             Jag vill passa på att vid detta tillfälle yrka bifall till reservationerna
             1:3,.6;:8; 127 185-19:00H-21:
@@ -3978,7 +3938,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197576--113/prot_197576__113-040.jp2/_view"/>
-        <u xml:id="i-4274a26abd19496c-1" who="i-XdricRvZKp8jwbwrxEgcha" prev="i-4274a26abd19496c-0" next="i-48mnUR73kfQjhYHRTUfsam">
+        <u xml:id="i-4274a26abd19496c-1" who="i-XdricRvZKp8jwbwrxEgcha" prev="i-4274a26abd19496c-0">
           <seg xml:id="i-SZH9MxuBFwgJo9Q5Qt47F5">
             Men det är rätt självklara ting, regler som iakttages i den minsta
             firma — att man vet var de beslutsfattande personerna uppehåller
@@ -4003,14 +3963,10 @@
             största uppmärksamhet och i lämpliga former föranstaltar om översyn
             i angivet syfte.”
           </seg>
-        </u>
-        <u xml:id="i-48mnUR73kfQjhYHRTUfsam" who="i-XdricRvZKp8jwbwrxEgcha" prev="i-4274a26abd19496c-1" next="i-4274a26abd19496c-2">
           <seg xml:id="i-T5NT2M3ZPmmTEwhdhB8bGS">
             Där kom alltså för fjärde gången en riksdagens hemställan till
             regeringen att föranstalta om regler i detta avseende.
           </seg>
-        </u>
-        <u xml:id="i-4274a26abd19496c-2" who="i-XdricRvZKp8jwbwrxEgcha" prev="i-48mnUR73kfQjhYHRTUfsam">
           <seg xml:id="i-7PRRZ8rBC8TzaXAXSyFeKp">
             Man kan säga att denna upprepning av riksdagens synpunkter har
             fått ytterligare tyngd genom vad som förevar i samband med ambassaddramat.
@@ -4567,7 +4523,7 @@
         <note xml:id="i-9spaTZiejkXdxzyeyAk5nJ" type="speaker">
           Herr NORDIN (c):
         </note>
-        <u xml:id="i-eca83b3dc7e48bfb-0" who="i-8XUQMZkcTy5UrLLAFGh5Ah" next="i-A8A5hZEeNADokwcCovKYCc">
+        <u xml:id="i-eca83b3dc7e48bfb-0" who="i-8XUQMZkcTy5UrLLAFGh5Ah" next="i-eca83b3dc7e48bfb-2">
           <seg xml:id="i-U85oagGSvVYU4Bvc1aHsxj">
             Fru talman! Man brukar med viss stolthet notera att Sverige var
             den första nationalstaten i världen som stiftade en datalag. Det
@@ -4611,14 +4567,10 @@
             Utav dem man vet existerar anses ca 1500 ha stor bredd och stort
             djup. Så stort är alltså detta problem.
           </seg>
-        </u>
-        <u xml:id="i-A8A5hZEeNADokwcCovKYCc" who="i-8XUQMZkcTy5UrLLAFGh5Ah" prev="i-eca83b3dc7e48bfb-0" next="i-2crCmRqD5SmMBx7GmbA3ui">
           <seg xml:id="i-Dy9byM6mhJfzL2zkzumcYQ">
             Datainspektionen meddelar sina tillstånd enligt datalagens bestämmelser.
             Av särskilt intresse är 3 $ i denna lag, vilken lyder:
           </seg>
-        </u>
-        <u xml:id="i-2crCmRqD5SmMBx7GmbA3ui" who="i-8XUQMZkcTy5UrLLAFGh5Ah" prev="i-A8A5hZEeNADokwcCovKYCc" next="i-eca83b3dc7e48bfb-2">
           <seg xml:id="i-Djhr5HBWT1YAWZ4QMiNCQB">
             ”Datainspektionen skall meddela tillstånd till inrättande och
             förande av personregister, om det saknas anledning antaga att,
@@ -4627,7 +4579,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197576--113/prot_197576__113-048.jp2/_view"/>
-        <u xml:id="i-eca83b3dc7e48bfb-2" who="i-8XUQMZkcTy5UrLLAFGh5Ah" prev="i-2crCmRqD5SmMBx7GmbA3ui" next="i-eca83b3dc7e48bfb-7">
+        <u xml:id="i-eca83b3dc7e48bfb-2" who="i-8XUQMZkcTy5UrLLAFGh5Ah" prev="i-eca83b3dc7e48bfb-0" next="i-eca83b3dc7e48bfb-7">
           <seg xml:id="i-MVxRMMAvq2JKWsDECWqvjH">
             i registrerads personliga integritet skall uppkomma.
           </seg>
@@ -4730,7 +4682,7 @@
         <note xml:id="i-YJC6EJq7aFFQ1iUsAsVSuP">
           50
         </note>
-        <u xml:id="i-eca83b3dc7e48bfb-7" who="i-8XUQMZkcTy5UrLLAFGh5Ah" prev="i-eca83b3dc7e48bfb-2" next="i-M2kLprSwgM8Wd4TY1KmGew">
+        <u xml:id="i-eca83b3dc7e48bfb-7" who="i-8XUQMZkcTy5UrLLAFGh5Ah" prev="i-eca83b3dc7e48bfb-2">
           <seg xml:id="i-AqmPZn8CeSd9nXc8mxFdSu">
             en sekundär fråga, den enskildes rätt går före.
           </seg>
@@ -4747,8 +4699,6 @@
             Fru talman! Vad som hänt kan inte göras ogjort, men riksdagen
             kan enligt vår mening inte undgå att uttrycka sitt ogillande.
           </seg>
-        </u>
-        <u xml:id="i-M2kLprSwgM8Wd4TY1KmGew" who="i-8XUQMZkcTy5UrLLAFGh5Ah" prev="i-eca83b3dc7e48bfb-7">
           <seg xml:id="i-S4cqUiFzFszYuorP7swk3E">
             Jag yrkar bifall till reservationen 8.
           </seg>
@@ -5132,7 +5082,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197576--113/prot_197576__113-054.jp2/_view"/>
-        <u xml:id="i-d9a576c2fce2c2d5-20" who="i-NgcEAjjDpm3FVNBxiWvS8X" prev="i-d9a576c2fce2c2d5-19" next="i-138iRn1hX2wbpFZFkdEJ4K">
+        <u xml:id="i-d9a576c2fce2c2d5-20" who="i-NgcEAjjDpm3FVNBxiWvS8X" prev="i-d9a576c2fce2c2d5-19">
           <seg xml:id="i-M8tHQJMxg7pUujERzE3zRQ">
             en konsekvent tillämpning av en praxis som står i nära överensstämmelse
             med datainspektionens grundprincip. Justitieministern har också
@@ -5152,14 +5102,10 @@
             därifrån, och de behöver därför inte längre tillstånd att föra
             egna register annat än för medlemmar och kunder.
           </seg>
-        </u>
-        <u xml:id="i-138iRn1hX2wbpFZFkdEJ4K" who="i-NgcEAjjDpm3FVNBxiWvS8X" prev="i-d9a576c2fce2c2d5-20" next="i-d9a576c2fce2c2d5-21">
           <seg xml:id="i-N2qa78fmZt2ayzpLDNNSCr">
             Detta om de synpunkter som här tidigare anförts av fru Anér och
             herr Nordin.
           </seg>
-        </u>
-        <u xml:id="i-d9a576c2fce2c2d5-21" who="i-NgcEAjjDpm3FVNBxiWvS8X" prev="i-138iRn1hX2wbpFZFkdEJ4K">
           <seg xml:id="i-2VhcHE7PakZujK3d9hwDHo">
             Jag vill även säga något om vpk-reservationen. Det finns inget
             stöd i datalagen för att förbjuda register av den anledningen
@@ -6032,7 +5978,7 @@
         <note xml:id="i-Y82MatmvbQUdrTkYmzdPHj" type="title">
           Utrikesfrågor m.m.
         </note>
-        <u xml:id="i-4274a26abd19496c-10" who="i-XdricRvZKp8jwbwrxEgcha" prev="i-4274a26abd19496c-7" next="i-Fwfg4hZjBxcUf2NuGAzTEs">
+        <u xml:id="i-4274a26abd19496c-10" who="i-XdricRvZKp8jwbwrxEgcha" prev="i-4274a26abd19496c-7" next="i-4274a26abd19496c-12">
           <seg xml:id="i-PTdqZWhGmFoedLbc433ETv">
             vad de andra talarna har gjort.
           </seg>
@@ -6093,21 +6039,17 @@
             men även Danmark har framfört mycket kritiska synpunkter, vilka
             kommit till offentligheten.
           </seg>
-        </u>
-        <u xml:id="i-Fwfg4hZjBxcUf2NuGAzTEs" who="i-XdricRvZKp8jwbwrxEgcha" prev="i-4274a26abd19496c-10" next="i-4274a26abd19496c-11">
           <seg xml:id="i-WFcsYJb4i2oPKXkp2EE3qn">
             GATT har behandlat frågan vid ett rådsmöte den 31 oktober, och
             då framförde tolv länder och EG kritik mot de svenska åtgärderna.
           </seg>
-        </u>
-        <u xml:id="i-4274a26abd19496c-11" who="i-XdricRvZKp8jwbwrxEgcha" prev="i-Fwfg4hZjBxcUf2NuGAzTEs" next="i-4274a26abd19496c-12">
           <seg xml:id="i-8uQf9d4aXydKaU3bfZfXwv">
             Detta var några exempel på de konsekvenser även av ekonomisk
             natur
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197576--113/prot_197576__113-066.jp2/_view"/>
-        <u xml:id="i-4274a26abd19496c-12" who="i-XdricRvZKp8jwbwrxEgcha" prev="i-4274a26abd19496c-11">
+        <u xml:id="i-4274a26abd19496c-12" who="i-XdricRvZKp8jwbwrxEgcha" prev="i-4274a26abd19496c-10">
           <seg xml:id="i-KTx6HBJtgxErjShVw3C1bk">
             som uppstått förutom det moraliska fördömande som skett.
           </seg>
@@ -6291,7 +6233,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197576--113/prot_197576__113-068.jp2/_view"/>
-        <u xml:id="i-4274a26abd19496c-17" who="unknown" prev="i-4274a26abd19496c-16" next="i-KTeKaCifmDWiezCobErgg1">
+        <u xml:id="i-4274a26abd19496c-17" who="unknown" prev="i-4274a26abd19496c-16" next="i-4274a26abd19496c-21">
           <seg xml:id="i-8HBXj6ARkZwnqVyZK7umCt">
             brottslig persons adresslista utan att man för den skull själv
             är brottslig. Man behöver inte själv känna till antecknarens brottslighet,
@@ -6312,13 +6254,9 @@
             Herr talman! Så kan det enligt vpk:s mening inte få gå till i
             en rättsstat. Statsrådet Leijon förtjänar en reprimand.
           </seg>
-        </u>
-        <u xml:id="i-KTeKaCifmDWiezCobErgg1" who="unknown" prev="i-4274a26abd19496c-17" next="i-4274a26abd19496c-18">
           <seg xml:id="i-KqfETyCj8Du8GmjjiojaY6">
             Jag yrkar bifall till reservationen 14.
           </seg>
-        </u>
-        <u xml:id="i-4274a26abd19496c-18" who="unknown" prev="i-KTeKaCifmDWiezCobErgg1" next="i-4274a26abd19496c-21">
           <seg xml:id="i-9jcAwBKkeTssniLXJLcNot">
             Jag övergår till fallet Kitagawa. Detta fall är mer oklart. Vi
             yrkar därför inte på åtgärd mot statsrådet. Men fallet ger en
@@ -6402,7 +6340,7 @@
         <note xml:id="i-V5Xf8R9uk27bNdGzQJa8yf">
           70
         </note>
-        <u xml:id="i-4274a26abd19496c-21" who="unknown" prev="i-4274a26abd19496c-18">
+        <u xml:id="i-4274a26abd19496c-21" who="unknown" prev="i-4274a26abd19496c-17">
           <seg xml:id="i-KpXanhgT4j8pDmMof59jRS">
             terrorist. Något direktsamband mellan Kitagawa och rödarmisten
             Furuya har däremot inte påvisats, av den enkla anledningen att
@@ -6480,7 +6418,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197576--113/prot_197576__113-070.jp2/_view"/>
-        <u xml:id="i-5aab7876735323e9-12" who="i-QRDnfz9zaiXo7A1SpAi1dM" prev="i-5aab7876735323e9-11" next="i-NN1mUZDZ8CVAWhHkT7N1os">
+        <u xml:id="i-5aab7876735323e9-12" who="i-QRDnfz9zaiXo7A1SpAi1dM" prev="i-5aab7876735323e9-11">
           <seg xml:id="i-Nq6nL4R2uYuAoo9rMNb7RC">
             fästa sig vid. En sådan argumentering beror måhända på att regeringspartiet
             har bristfälliga informationer.
@@ -6516,8 +6454,6 @@
             enligt de bestämmelser som finns inte skall exportera krigsmateriel
             dit.
           </seg>
-        </u>
-        <u xml:id="i-NN1mUZDZ8CVAWhHkT7N1os" who="i-QRDnfz9zaiXo7A1SpAi1dM" prev="i-5aab7876735323e9-12">
           <seg xml:id="i-UGid51ZfG9ewvwC771JGPH">
             Jag yrkar bifall till reservation 15.
           </seg>
@@ -6588,7 +6524,7 @@
         <note xml:id="i-9hESep84fw4aT8L7rBu7bS">
           7N
         </note>
-        <u xml:id="i-8c16568602ca9b36-3" who="i-5RXF8FM8dgyoYaYsU1SfyY" prev="i-8c16568602ca9b36-0" next="i-RGqtRePtZGfpt3vdFFeJSc">
+        <u xml:id="i-8c16568602ca9b36-3" who="i-5RXF8FM8dgyoYaYsU1SfyY" prev="i-8c16568602ca9b36-0">
           <seg xml:id="i-3pkteCPYoJQ645qT2wyiLK">
             eftersom han sade ”att vi kunde befara en ny regering”.
           </seg>
@@ -6618,8 +6554,6 @@
             $ 4. Och från andra utgångspunkter — tydligen — kan jag åberopa
             samma proposition och paragraf för utskottets ställningstagande.
           </seg>
-        </u>
-        <u xml:id="i-RGqtRePtZGfpt3vdFFeJSc" who="i-5RXF8FM8dgyoYaYsU1SfyY" prev="i-8c16568602ca9b36-3">
           <seg xml:id="i-Nj9oVPCuZdSp5hT6EJFQVo">
             Jag yrkar bifall till utskottets hemställan.
           </seg>
@@ -7638,7 +7572,7 @@
         <note xml:id="i-JngpoML6m8aVaGTeGVCsBY">
           84
         </note>
-        <u xml:id="i-4274a26abd19496c-26" who="i-XdricRvZKp8jwbwrxEgcha" prev="i-4274a26abd19496c-22" next="i-Karzpdeo4XLP1wePAm2yx1">
+        <u xml:id="i-4274a26abd19496c-26" who="i-XdricRvZKp8jwbwrxEgcha" prev="i-4274a26abd19496c-22">
           <seg xml:id="i-66xa9JxhwYPAGzBkgNjPsf">
             geringen — observera: regeringen — hade uppdragit åt det ansvariga
             ämbetsverkets chef, chefen för rikspolisstyrelsen, att inkomma
@@ -7667,8 +7601,6 @@
             i akt att göra den utredning som i dag ännu inte har kommit till
             stånd och som kan komplettera det material som nu föreligger.
           </seg>
-        </u>
-        <u xml:id="i-Karzpdeo4XLP1wePAm2yx1" who="i-XdricRvZKp8jwbwrxEgcha" prev="i-4274a26abd19496c-26">
           <seg xml:id="i-Ex8ttuv4T8d5kcXpY797C5">
             Jag yrkar bifall till reservationen 12.
           </seg>
@@ -7854,7 +7786,7 @@
         <note xml:id="i-Ctzh6UPAASJWGHis3AkSeS" type="speaker">
           Herr BERNDTSON (vpk):
         </note>
-        <u xml:id="i-79dde60096d9e08e-0" who="i-CMGiiZNVocLdbkuKqXgWTG" next="i-XF9y1jNcYZtgE5QUKCDZgH">
+        <u xml:id="i-79dde60096d9e08e-0" who="i-CMGiiZNVocLdbkuKqXgWTG" next="i-79dde60096d9e08e-2">
           <seg xml:id="i-GtrptFuqhgf3MRaQ4dRCVL">
             Herr talman! Raden av skandaler där säkerhetstjänsten är inblandad
             börjar bli lång. IB-affären, värnpliktsriksdagen, telefonavlyssningen
@@ -7862,15 +7794,11 @@
             i Göteborg. Det är uppenbart att säpo och andra organ opererar
             på ett sätt som gör skärpt kontroll av verksamheten nödvändig.
           </seg>
-        </u>
-        <u xml:id="i-XF9y1jNcYZtgE5QUKCDZgH" who="i-CMGiiZNVocLdbkuKqXgWTG" prev="i-79dde60096d9e08e-0" next="i-79dde60096d9e08e-1">
           <seg xml:id="i-HgrfYQzDMkxExaZ6xg6Nsd">
             Säpoverksamheten vid sjukvårdsförvaltningen i Göteborg har av
             vpk anmälts som granskningsärende i konstitutionsutskottets granskning
             av statsrådens tjänsteutövning och regeringsärendenas handläggning.
           </seg>
-        </u>
-        <u xml:id="i-79dde60096d9e08e-1" who="i-CMGiiZNVocLdbkuKqXgWTG" prev="i-XF9y1jNcYZtgE5QUKCDZgH" next="i-79dde60096d9e08e-2">
           <seg xml:id="i-AjGiYYJ6p6PgKAxy3S5ULC">
             Är detta en konstitutionsutskottets angelägenhet och en fråga
             som rör statsrådens tjänsteutövning? Jag vill besvara den frågan
@@ -7886,7 +7814,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197576--113/prot_197576__113-086.jp2/_view"/>
-        <u xml:id="i-79dde60096d9e08e-2" who="i-CMGiiZNVocLdbkuKqXgWTG" prev="i-79dde60096d9e08e-1" next="i-79dde60096d9e08e-6">
+        <u xml:id="i-79dde60096d9e08e-2" who="i-CMGiiZNVocLdbkuKqXgWTG" prev="i-79dde60096d9e08e-0" next="i-79dde60096d9e08e-6">
           <seg xml:id="i-MCs9dBcn2JzXUNiiaMGWea">
             departementschef har särskild skyldighet att hålla sig informerad
             om vad som förekommer inom departementets verksamhetsområde. I
@@ -8274,7 +8202,7 @@
           332 av herr Romanus (fp) till herr socialministern om vidgad
           rätt till bidragsförskott för adoptivbarn:
         </note>
-        <u xml:id="i-25e20ff21828f652-1" who="i-6yryP5FsumcdXgD5cb8aDF" next="i-EzqfwruyG8GZaRyayqazzy">
+        <u xml:id="i-25e20ff21828f652-1" who="i-6yryP5FsumcdXgD5cb8aDF">
           <seg xml:id="i-EpXtZHgTdi7e3zbpXGzy5t">
             Barn som har endast en vårdnadshavare får normalt stöd i en av
             följande tre former: underhåll från den andre föräldern, barnpension
@@ -8290,8 +8218,6 @@
             Vad skulle det kosta att ge barn, som adopterats av en förälder,
             rätt till bidragsförskott?
           </seg>
-        </u>
-        <u xml:id="i-EzqfwruyG8GZaRyayqazzy" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-25e20ff21828f652-1">
           <seg xml:id="i-94fAAS7r7LHs4ZBpvReS6g">
             Vill socialministern verka för att den rätten införs?
           </seg>
@@ -8328,7 +8254,7 @@
           333 av herr Lindström (s) till herr jordbruksministern om ökat
           stöd åt yrkesfisket:
         </note>
-        <u xml:id="i-47a5c888dd42816f-1" who="i-2pEgGvjfozTyRxyzmLZFo2" next="i-AG7GEHTeqhEMfZetciQwYx">
+        <u xml:id="i-47a5c888dd42816f-1" who="i-2pEgGvjfozTyRxyzmLZFo2" next="i-47a5c888dd42816f-2">
           <seg xml:id="i-DixmGSknytJHEsMavDzTL9">
             Regeringen har bl. a. genom propositionen 1975/76:130 tagit initiativ
             till olika stödåtgärder på fiskets område. Det sammanlagda stöd
@@ -8341,8 +8267,6 @@
             där föreslås är sydkustfiskarna ändock djupt oroliga inför framtiden
             och för sin yrkesutövning.
           </seg>
-        </u>
-        <u xml:id="i-AG7GEHTeqhEMfZetciQwYx" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-47a5c888dd42816f-1" next="i-47a5c888dd42816f-2">
           <seg xml:id="i-Cj27nC2bnrXEqyrHRfjrs7">
             Min fråga till jordbruksministern är därför:
           </seg>
@@ -8356,7 +8280,7 @@
           kommunikationsministern om SJ:s bestämmelser om biljett för kombinerad
           tågoch bussfärd:
         </note>
-        <u xml:id="i-47a5c888dd42816f-2" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-AG7GEHTeqhEMfZetciQwYx" next="i-ECXAVkDYY8dT6igaxbWpx9">
+        <u xml:id="i-47a5c888dd42816f-2" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-47a5c888dd42816f-1">
           <seg xml:id="i-7fVWZtNYNQH6mmsHbRFaoN">
             I SJ:s järnvägstidtabell för sträckan Göteborg-Borås finns angivet
             att tåget vid vissa tidpunkter ersättes med landsvägsbuss. Åtgärder
@@ -8373,13 +8297,9 @@
             endast få i biljettluckan och under förutsättning att han också
             kan uppvisa en bussbiljett.
           </seg>
-        </u>
-        <u xml:id="i-ECXAVkDYY8dT6igaxbWpx9" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-47a5c888dd42816f-2" next="i-4mVEZq6BmBY4BWUnpjbuGX">
           <seg xml:id="i-JVuTRAavRy6mJB9zSpD7gq">
             Med anledning av detta frågar jag herr kommunikationsministern:
           </seg>
-        </u>
-        <u xml:id="i-4mVEZq6BmBY4BWUnpjbuGX" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-ECXAVkDYY8dT6igaxbWpx9">
           <seg xml:id="i-7uje9ACyjCvjFrmJaJwuJv">
             Anser statsrådet att SJ i den resande allmänhetens intresse bör
             ändra sina bestämmelser om resor Göteborg-Borås och på andra liknande
@@ -8420,15 +8340,13 @@
           1975/76:337 av herr Johansson i Simrishamn (s) till herr jordbruksministern
           om åtgärder för att lösa fiskerinäringens problem:
         </note>
-        <u xml:id="i-TUR4Eu7MG32cq3THVN41A7" who="unknown" prev="i-680b70645973c804-2" next="i-NA46fuuWdfKQzGP5Lk3VqY">
+        <u xml:id="i-TUR4Eu7MG32cq3THVN41A7" who="unknown" prev="i-680b70645973c804-2">
           <seg xml:id="i-ZA9bFcwqHiBLFbpDiVDsL">
             Med hänsyn till den allvarliga situationen som fiskerinäringen
             f.n. befinner sig i vad gäller prissättning, marknadsföring, fiskegränser
             samt exportoch importsituationen vill jag ställa följande fråga
             till jordbruksministern:
           </seg>
-        </u>
-        <u xml:id="i-NA46fuuWdfKQzGP5Lk3VqY" who="unknown" prev="i-TUR4Eu7MG32cq3THVN41A7">
           <seg xml:id="i-FhFniFKZuHTDqFY2HtreJz">
             Är statsrådet beredd redogöra för vilka åtgärder regeringen ämnar
             vidta för att lösa fiskerinäringens problem?
@@ -8441,7 +8359,7 @@
           338 av herr Jonasson (c) till herr socialministern om formerna
           för pensionsutbetalning:
         </note>
-        <u xml:id="i-523a5a7cb2116a47-1" who="i-6yryP5FsumcdXgD5cb8aDF" next="i-U5dcn6tKqZuRMkZNSWAebq">
+        <u xml:id="i-523a5a7cb2116a47-1" who="i-6yryP5FsumcdXgD5cb8aDF">
           <seg xml:id="i-KSYM4BfmnZX24WA1rw4wg6">
             Pensionsutbetalningar sker i dag genom postanvisning. Många pensionärer
             anser att pensionsbeloppets storlek är en privat angelägenhet
@@ -8450,14 +8368,10 @@
             kan ta del av uppgifterna på postanvisningen. Detta kunde undvikas
             om avin utsändes i slutet kuvert.
           </seg>
-        </u>
-        <u xml:id="i-U5dcn6tKqZuRMkZNSWAebq" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-523a5a7cb2116a47-1" next="i-VvU5tA21nRouWES1g22HHV">
           <seg xml:id="i-Km78fuqPgPbs3HUL2aLEeK">
             Med hänvisning till det anförda vill jag till socialministern
             ställa följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-VvU5tA21nRouWES1g22HHV" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-U5dcn6tKqZuRMkZNSWAebq">
           <seg xml:id="i-QnS5XzgVM9Ek4VubyxieFx">
             Är statsrådet beredd överväga möjligheten att i framtiden sända
             pensionsavierna i slutet kuvert?

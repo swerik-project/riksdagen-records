@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-Gm79BBASjzvdDGp5bsgDP7" type="speech">
             <linkGrp type="u">
               <ptr target="#i-aa5179040227d357-0"/>
@@ -336,7 +336,13 @@
               <ptr target="#i-aa5179040227d357-121"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -808,13 +814,11 @@
         <note xml:id="i-XYeeYQyPRxTr3zog6jqijg">
           Fredagen deu 21 maj. 7
         </note>
-        <u xml:id="i-ERGpZucyvNiKmVTdFfzkNy" who="i-5Pgd1MBaZKxCK4kGqXRHkQ" prev="i-aa5179040227d357-2" next="i-aa5179040227d357-3">
+        <u xml:id="i-ERGpZucyvNiKmVTdFfzkNy" who="i-5Pgd1MBaZKxCK4kGqXRHkQ" prev="i-aa5179040227d357-2">
           <seg xml:id="i-ShDz4mw1mLahBpoCUAP6Sk">
             alldeles utesluta militärerna från högsta domstolens förhandlingar
             eller betaga dem rätt att där hava säte och stämma.
           </seg>
-        </u>
-        <u xml:id="i-aa5179040227d357-3" who="i-5Pgd1MBaZKxCK4kGqXRHkQ" prev="i-ERGpZucyvNiKmVTdFfzkNy" next="i-Emr7xXgCoN1ch8Sqx1cpdn">
           <seg xml:id="i-R4kLWVJw7u7wxj2HmW5T2A">
             Nu gör sig, som vi veta, en strävan gällande at till motverkan
             av vad man kallar juristeriet lämna lekmannaelementet större utrymme
@@ -844,8 +848,6 @@
             är det säkerligen icke med att avlägsna militärerna ur högsta
             domstolen, än att man kan avvakta detta resultat.
           </seg>
-        </u>
-        <u xml:id="i-Emr7xXgCoN1ch8Sqx1cpdn" who="i-5Pgd1MBaZKxCK4kGqXRHkQ" prev="i-aa5179040227d357-3">
           <seg xml:id="i-NCXCRYQuiK6zLLuEbnZ7ZC">
             Jag tillåter mig, herr talman, att yrka avslag på utskottets
             hemställan i nu föredragna punkt.
@@ -895,7 +897,7 @@
         <note xml:id="i-J9shjfJqJb3u9wfzcWUeYY" type="date">
           8 Fredagen den 21 maj.
         </note>
-        <u xml:id="i-aa5179040227d357-5" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-aa5179040227d357-4" next="i-2vTESWdcgL4veb2BLEv38f">
+        <u xml:id="i-aa5179040227d357-5" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-aa5179040227d357-4">
           <seg xml:id="i-NYuXxvGJSjqo3dVFWtY8mo">
             litära ledamöter i högsta domstolen skola utgå ur grundlagen
             och utskottet anser för sin del, att hur det än kan gå med avseende
@@ -914,8 +916,6 @@
             mål, och min uppfattning är, att det icke heller är nödvändigt,
             då det gäller sådana mål, som här äro i fråga.
           </seg>
-        </u>
-        <u xml:id="i-2vTESWdcgL4veb2BLEv38f" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-aa5179040227d357-5">
           <seg xml:id="i-8PkoN7MaxNAPJYhje64MHc">
             Jag hemställer, herr talman, om bifall till utskottets hemställan
             1 förevarande punkt.
@@ -1049,7 +1049,7 @@
         <note xml:id="i-QSyzqW5eBrXUJUjkJQjzq3">
           1u Fredagen den Z1 maj.
         </note>
-        <u xml:id="i-aa5179040227d357-9" who="i-JSniSV7GLnNo4eioo6Paqg" prev="i-aa5179040227d357-8" next="i-2A6ffpvRsMQpy7jHEMFKvv">
+        <u xml:id="i-aa5179040227d357-9" who="i-JSniSV7GLnNo4eioo6Paqg" prev="i-aa5179040227d357-8" next="i-aa5179040227d357-11">
           <seg xml:id="i-VQ6AJonwsTFjjZWjHTg8Lj">
             Maj:ts proposition. Vad går nämligen denna motion och utskottets
             yrkande ut pä? Jo, de gå ut på att de militära ledamöterna i högsta
@@ -1067,8 +1067,6 @@
             nu, innan utredningen ens är igångsatt, gripit lagutskottet i
             ämbetet.
           </seg>
-        </u>
-        <u xml:id="i-2A6ffpvRsMQpy7jHEMFKvv" who="i-JSniSV7GLnNo4eioo6Paqg" prev="i-aa5179040227d357-9" next="i-CsEs6uXKq7zLjZ5FtwaJJc">
           <seg xml:id="i-NSKj3m2XH3fjmqRi7oMgd7">
             Riksdagens begäran om utredning om avskaffande av de särskilda
             krigsdomstolarna gjordes under den förutsättning, att — såsom
@@ -1080,8 +1078,6 @@
             i princip för dessa domstolars avskaffande. Men konstitutionsutskottet
             säger självt om betydelsen av detta beslut:
           </seg>
-        </u>
-        <u xml:id="i-CsEs6uXKq7zLjZ5FtwaJJc" who="i-JSniSV7GLnNo4eioo6Paqg" prev="i-2A6ffpvRsMQpy7jHEMFKvv" next="i-aa5179040227d357-10">
           <seg xml:id="i-Nc4nw4GDHvReRZuYN2KgQz">
             »Då riksdagen alltså principiellt uttalat sig för de skärskilda
             krigsdomstolarnas avskaffande och bestämmelsen om militärpersoners
@@ -1094,8 +1090,6 @@
             så säger utskottet, att »några dylika skäl torde emellertid, enligt
             utskottets uppfattning, icke kunna anföras».
           </seg>
-        </u>
-        <u xml:id="i-aa5179040227d357-10" who="i-JSniSV7GLnNo4eioo6Paqg" prev="i-CsEs6uXKq7zLjZ5FtwaJJc" next="i-aa5179040227d357-11">
           <seg xml:id="i-N2wek1phJ7oqw6frTeWLrC">
             Det anser sig alltså konstitutionsutskottet kunna förklara, innan
             denna utredning ens blivit igångsatt!
@@ -1122,7 +1116,7 @@
         <note xml:id="i-Ckw1db3njNE8ELbvGQSPP6" type="date">
           Fredagen den 21 maj. ji
         </note>
-        <u xml:id="i-aa5179040227d357-11" who="i-JSniSV7GLnNo4eioo6Paqg" prev="i-aa5179040227d357-10" next="i-PAgmCwp1VWW5Lkx5uc7ETM">
+        <u xml:id="i-aa5179040227d357-11" who="i-JSniSV7GLnNo4eioo6Paqg" prev="i-aa5179040227d357-9">
           <seg xml:id="i-FP5JG8Drq91of29DqYxwuo">
             kunskapen i dylika fall ingår som ett element i själva domstolen.
             Så är fallet beträffande handelsmål, och så är även fallet i vattenoch
@@ -1149,8 +1143,6 @@
             militära ledamöterna i högsta domstolen, så länge de ännu finnas,
             erhålla arvode för sin verksamhet.
           </seg>
-        </u>
-        <u xml:id="i-PAgmCwp1VWW5Lkx5uc7ETM" who="i-JSniSV7GLnNo4eioo6Paqg" prev="i-aa5179040227d357-11">
           <seg xml:id="i-6GLwFxNSivZLBKN6wHpBFk">
             På anförda skäl skall jag, herr talman, be att få yrka avslag
             på utskottets förevarande framställning och bifall till den kungl.
@@ -1213,14 +1205,12 @@
         <note xml:id="i-UXdPpkVzWEdmoUvoyjKpGP" type="date">
           12 Fredagen den 21 maj.
         </note>
-        <u xml:id="i-aa5179040227d357-13" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-aa5179040227d357-12" next="i-4GJtdE3pi9Pejz3ACeAooC">
+        <u xml:id="i-aa5179040227d357-13" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-aa5179040227d357-12">
           <seg xml:id="i-UgkHpr6uErXpo7CRzStKjs">
             säga, att vi också inom utskottet haft tillgång på juridisk sakkunskap,
             och den sakkunskap, som där var representerad, gick icke alls
             i stil med den, som här i dag gjort sig gällande.
           </seg>
-        </u>
-        <u xml:id="i-4GJtdE3pi9Pejz3ACeAooC" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-aa5179040227d357-13">
           <seg xml:id="i-F6jUbLUshetRn1PJb1eQoQ">
             Jag anhåller fortfarande, herr talman, om bifall till utskottets
             förslag.
@@ -1564,15 +1554,13 @@
         <note xml:id="i-3wt8R3Rc1FxK3mMucRStfM" type="speaker">
           Herr Löfgren i Stockholm:
         </note>
-        <u xml:id="i-aa5179040227d357-22" who="i-JSniSV7GLnNo4eioo6Paqg" next="i-DLQPuRrmH4X1UTUEy6JSuP">
+        <u xml:id="i-aa5179040227d357-22" who="i-JSniSV7GLnNo4eioo6Paqg">
           <seg xml:id="i-W6bDGiA2eXbhD4nWTfd3QX">
             Herr talman! Jag har ju redan i mitt tidigare anförande yrkat
             bifall till den kungliga propositionen, men med anledning av sättet
             för föredragningen av utskottets hemställan, som jag icke kände
             till, blir jag nödsakad att upprepa mitt förra yrkande.
           </seg>
-        </u>
-        <u xml:id="i-DLQPuRrmH4X1UTUEy6JSuP" who="i-JSniSV7GLnNo4eioo6Paqg" prev="i-aa5179040227d357-22">
           <seg xml:id="i-VX8K1zBRL5TESAxQEVxXJL">
             Jag hemställer således, herr talman, om bifall till den kungliga
             propositionen.
@@ -1581,7 +1569,7 @@
         <note xml:id="i-GkT6WBU9NSqf5vE6NMuDkm" type="speaker">
           Herr Larsson i Västerås:
         </note>
-        <u xml:id="i-aa5179040227d357-23" who="i-UbnnZ7kVjVhJrHrUCyEV9K" next="i-KJXsUSigRLmhGRW7jUhanV">
+        <u xml:id="i-aa5179040227d357-23" who="i-UbnnZ7kVjVhJrHrUCyEV9K">
           <seg xml:id="i-7EXXdnEjiW1epjAg4isLwv">
             Med anledning av det beslut, som kammaren nyss fattat i första
             punkten, vill jag för min del framhålla, att det väl icke torde
@@ -1601,8 +1589,6 @@
             något avdrag på sin avlöning för den tid, som de sitta i högsta
             domstolen.
           </seg>
-        </u>
-        <u xml:id="i-KJXsUSigRLmhGRW7jUhanV" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-aa5179040227d357-23">
           <seg xml:id="i-JknZABvFVEZ1wVDKjXSQq3">
             Herr talman! Jag yrkar bifall till utskottets hemställan, jämväl
             i denna punkt.
@@ -4009,7 +3995,7 @@
         <note xml:id="i-TaatpgsWReUDGVBeis95tj" type="date">
           Fredagen den 21 maj. 49
         </note>
-        <u xml:id="i-aa5179040227d357-71" who="i-PrnEx12Ds6eU2exFNwa6GJ" prev="i-aa5179040227d357-126" next="i-FaLYn8ss5TBMMsvZoJv3NA">
+        <u xml:id="i-aa5179040227d357-71" who="i-PrnEx12Ds6eU2exFNwa6GJ" prev="i-aa5179040227d357-126">
           <seg xml:id="i-JzMCRuWvo1nQqdJWWgwmq2">
             säges, att det inte alls varit denna vinstmöjlighet, som varit
             bestämmande för Norges lagstiftning i detta fall, utan den omständigheten,
@@ -4024,8 +4010,6 @@
             så särskilt styvt på de norska biografförhållandena i jämförelse
             med förhållandena här 1 Sverige.
           </seg>
-        </u>
-        <u xml:id="i-FaLYn8ss5TBMMsvZoJv3NA" who="i-PrnEx12Ds6eU2exFNwa6GJ" prev="i-aa5179040227d357-71">
           <seg xml:id="i-BrFsW6ekWG1JVjWo4KjttF">
             Jag ber, herr talman, att få yrka avslag å såväl utskottets hemställan
             som den i ämnet väckta motionen.
@@ -4978,7 +4962,7 @@
         <note xml:id="i-8yGQErQU3bQ6BAYgeZy1yL" type="speaker">
           Herr vice talmannen Hamilton:
         </note>
-        <u xml:id="i-aa5179040227d357-106" who="i-4kz1fC2gQwdiC7G6RzQ2SK" next="i-8Z3hhtoKJwjMP6Yb5LuB8N">
+        <u xml:id="i-aa5179040227d357-106" who="i-4kz1fC2gQwdiC7G6RzQ2SK" next="i-aa5179040227d357-109">
           <seg xml:id="i-7Hn7HPM9USMctpkrGPEj8w">
             Herr Läbeck tycktes förmena, att man icke skulle inom kammaren
             få utöva någon kritik mot järnvägsstyrelsen eller mot andra myndigheter
@@ -5013,7 +4997,7 @@
         <note xml:id="i-HTq66hA75VXvSjDme5EKsR" type="date">
           62 Fredagen den 21 maj.
         </note>
-        <u xml:id="i-aa5179040227d357-109" who="i-4kz1fC2gQwdiC7G6RzQ2SK" prev="i-8Z3hhtoKJwjMP6Yb5LuB8N">
+        <u xml:id="i-aa5179040227d357-109" who="i-4kz1fC2gQwdiC7G6RzQ2SK" prev="i-aa5179040227d357-106">
           <seg xml:id="i-EWaQoJmZwBHUHsbbbQrLAM">
             fästa uppmärksamheten på, att när kamrarna icke komma till samstämmiga
             beslut, kommer aldrig motiveringen fram till vederbörande, och

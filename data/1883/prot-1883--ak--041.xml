@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-Vgvxi2Ar8Mw8XEEgNgtq1F" type="speech">
             <linkGrp type="u">
               <ptr target="#i-4gWrvLzGWUoRVGKy6LnBaV"/>
@@ -302,7 +302,13 @@
               <ptr target="#i-TgwgBcv7gT5ZiUVKbc6KEu"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -544,7 +550,7 @@
         <note xml:id="i-9mcus7iVFGHadT59xZu13o">
           expediter. (Forts.)
         </note>
-        <u xml:id="i-4Vow151szyJzRYdXyet5VV" who="unknown" next="i-TwGUophJbXZa4PA7qKLNfG">
+        <u xml:id="i-4Vow151szyJzRYdXyet5VV" who="unknown">
           <seg xml:id="i-Pefqxd6EnjxUdH3X2zXYwA">
             De sålunda uppburna bevillningsmedlen åligger det uppbördsmännen
             att, under titel: + Bevillning af utländske eller andre här i
@@ -559,8 +565,6 @@
             aflemnas till Kammarrätten, för att tjena till ledning vid räkenskapernas
             granskning.
           </seg>
-        </u>
-        <u xml:id="i-TwGUophJbXZa4PA7qKLNfG" who="unknown" prev="i-4Vow151szyJzRYdXyet5VV">
           <seg xml:id="i-TJtVLkRoiAhLRmk7ZGwXHo">
             För de ifrån Statskontoret till Kongl. Maj:ts Befallningshafvande
             afsända qvittensblanketterna, hvilka, intill dess desamma till
@@ -590,7 +594,7 @@
         <note xml:id="i-683wqW5a4cs3VNUgx75V5B" type="speaker">
           Herr Söderström:
         </note>
-        <u xml:id="i-4gWrvLzGWUoRVGKy6LnBaV" who="i-PxBUnx5YsNh272jtXqTpma" next="i-54NDYnbnxN2DPNytNEe3mq">
+        <u xml:id="i-4gWrvLzGWUoRVGKy6LnBaV" who="i-PxBUnx5YsNh272jtXqTpma" next="i-VqYW3JMgQQAH5x9ZEx5D66">
           <seg xml:id="i-WqVCMdRdBxXPygEWbM53yY">
             Jag kan för min del icke gilla den åsigt, som legat till grund
             för Utskottets hemställan i denna paragraf. Det är emellertid
@@ -603,8 +607,6 @@
             sig gällande, kan jag, såsom varande bekant med förhållandena,
             icke underlåta att lemna några upplysningar.
           </seg>
-        </u>
-        <u xml:id="i-54NDYnbnxN2DPNytNEe3mq" who="i-PxBUnx5YsNh272jtXqTpma" prev="i-4gWrvLzGWUoRVGKy6LnBaV" next="i-VqYW3JMgQQAH5x9ZEx5D66">
           <seg xml:id="i-DY8rLpMH155fEn62koUskX">
             Jag ber då att få förutskicka den anmärkningen, att jag, som
             har till yrke att vara förmedlare af varuutbyte mellan vårt land
@@ -617,13 +619,11 @@
         <note xml:id="i-asdoR75Dn5VG2XeKUzUVJ" type="date">
           Lördagen den 12 Maj. 5
         </note>
-        <u xml:id="i-VqYW3JMgQQAH5x9ZEx5D66" who="i-PxBUnx5YsNh272jtXqTpma" prev="i-54NDYnbnxN2DPNytNEe3mq" next="i-DSTBYQZA5MhEX7KYnuoDeV">
+        <u xml:id="i-VqYW3JMgQQAH5x9ZEx5D66" who="i-PxBUnx5YsNh272jtXqTpma" prev="i-4gWrvLzGWUoRVGKy6LnBaV" next="i-Rx1ZfdkT4Z7QC6WVHgv6EE">
           <seg xml:id="i-4X3xudzVxWwoRr9pL2z6Xt">
             svåraste konkurrenter, och att jag snarare borde stå i fiendtligt
             förhållande till dem.
           </seg>
-        </u>
-        <u xml:id="i-DSTBYQZA5MhEX7KYnuoDeV" who="i-PxBUnx5YsNh272jtXqTpma" prev="i-VqYW3JMgQQAH5x9ZEx5D66" next="i-31UqcRtN96CA21K4VK5Gpi">
           <seg xml:id="i-4KAJ8nLM8oKz1QPX2sKVxH">
             Jag ber att få upplysa herrarne om, att denna gammalmodiga afgift
             numera förekommer så godt som ingenstädes i hela Europa med undantag
@@ -651,8 +651,6 @@
             stadgat en sådan endast för oss svenskar, och detta endast såsom
             repressalier.
           </seg>
-        </u>
-        <u xml:id="i-31UqcRtN96CA21K4VK5Gpi" who="i-PxBUnx5YsNh272jtXqTpma" prev="i-DSTBYQZA5MhEX7KYnuoDeV" next="i-Rx1ZfdkT4Z7QC6WVHgv6EE">
           <seg xml:id="i-LoMhh5mSiLicSuNEkpQwnL">
             Att afgiften är olämplig och otidsenlig torde redan bevisas af
             den omständigheten, att den är afskaffad i nästan hela det öfriga
@@ -698,15 +696,13 @@
         <note xml:id="i-4E8UWwzBBqC3qX3Rby7ecp" type="date">
           6 Lördagen den 12 Maj.
         </note>
-        <u xml:id="i-Rx1ZfdkT4Z7QC6WVHgv6EE" who="i-PxBUnx5YsNh272jtXqTpma" prev="i-31UqcRtN96CA21K4VK5Gpi" next="i-3Cpp12TTG19QZh7S378YrK">
+        <u xml:id="i-Rx1ZfdkT4Z7QC6WVHgv6EE" who="i-PxBUnx5YsNh272jtXqTpma" prev="i-VqYW3JMgQQAH5x9ZEx5D66" next="i-QVV2Ng9NxN76CGuz5Btwkd">
           <seg xml:id="i-Pttssgc13tHTzHBuKKUUhz">
             andra vägar än genom de större importörernas händer skulle komma
             allmänheten till handa äfvensom icke heller till lägre pris än
             de sjelfva kunde finna lämpligt bestämma. Detta tror jag vara
             den egentliga första anledningen till afgiften.
           </seg>
-        </u>
-        <u xml:id="i-3Cpp12TTG19QZh7S378YrK" who="i-PxBUnx5YsNh272jtXqTpma" prev="i-Rx1ZfdkT4Z7QC6WVHgv6EE" next="i-TnZLzCxuL9REHoUYj8jiin">
           <seg xml:id="i-Rjs5SFbtZHDaRjCW494gCg">
             Hvad dessa resandes antal beträffar, så växer det ofantligt för
             hvarje år. Man tror derför kanske också att flertalet gör affärer
@@ -753,8 +749,6 @@
             kunder och behöfva derför icke uppehålla sig länge här, hvarför
             de ock om möjligt försöka undgå afgiften.
           </seg>
-        </u>
-        <u xml:id="i-TnZLzCxuL9REHoUYj8jiin" who="i-PxBUnx5YsNh272jtXqTpma" prev="i-3Cpp12TTG19QZh7S378YrK" next="i-QVV2Ng9NxN76CGuz5Btwkd">
           <seg xml:id="i-XZFZhuwB6UpuR8Ad1o71h">
             Man tror kanske att större delen af handelsresande betalar denna
             afgift. Det tror jag deremot icke, om jag får döma efter den inkomst,
@@ -765,7 +759,7 @@
         <note xml:id="i-25HGr2EyUjQ9ebXSmb7yo6" type="date">
           Lördagen den 12 Mai. t
         </note>
-        <u xml:id="i-QVV2Ng9NxN76CGuz5Btwkd" who="i-PxBUnx5YsNh272jtXqTpma" prev="i-TnZLzCxuL9REHoUYj8jiin" next="i-SfkepDMRNoMBTyEP9Ujurr">
+        <u xml:id="i-QVV2Ng9NxN76CGuz5Btwkd" who="i-PxBUnx5YsNh272jtXqTpma" prev="i-Rx1ZfdkT4Z7QC6WVHgv6EE" next="i-SfkepDMRNoMBTyEP9Ujurr">
           <seg xml:id="i-33eN9sqjjae6YV3qFSSmBt">
             förutsätter att 900 afgifter erläggas och att således högst 900
             personer betala sådan afgift. Detta är en siffra, som för mig
@@ -860,12 +854,10 @@
           gick med saken. Jag kan emellertid för min del icke kalla ett
           sådant tillvägagående för annat
         </note>
-        <u xml:id="i-SfkepDMRNoMBTyEP9Ujurr" who="i-PxBUnx5YsNh272jtXqTpma" prev="i-QVV2Ng9NxN76CGuz5Btwkd" next="i-6wasB5KucWNs5m5k269EXt">
+        <u xml:id="i-SfkepDMRNoMBTyEP9Ujurr" who="i-PxBUnx5YsNh272jtXqTpma" prev="i-QVV2Ng9NxN76CGuz5Btwkd" next="i-7roz2xiBHCxqeqCmVyz3YL">
           <seg xml:id="i-LmwSyiwmd47of5QjE1CfoS">
             än ett prejeri, ovärdigt svenska staten.
           </seg>
-        </u>
-        <u xml:id="i-6wasB5KucWNs5m5k269EXt" who="i-PxBUnx5YsNh272jtXqTpma" prev="i-SfkepDMRNoMBTyEP9Ujurr" next="i-BULXYoANZH3RsCDjZKWzUf">
           <seg xml:id="i-DdveZaXoEtSqev8zzXcmf3">
             Man tror kanske, att det är utländingarne, som betala denna skatt,
             och resonerar som så, att då kommer det ej oss sjelfva vid. Ja,
@@ -886,8 +878,6 @@
             lägger den på varan, så att vi sjelfve kunna få få betala den,
             äfven om vi icke få uppbära den.
           </seg>
-        </u>
-        <u xml:id="i-BULXYoANZH3RsCDjZKWzUf" who="i-PxBUnx5YsNh272jtXqTpma" prev="i-6wasB5KucWNs5m5k269EXt" next="i-7roz2xiBHCxqeqCmVyz3YL">
           <seg xml:id="i-G7saMd53ALktKZn5Ed3b2Z">
             Jag vet väl, att mången säger: det är endast öfverflödsvaror,
             dessa utländingar föra till oss, och det är godt att det icke
@@ -903,7 +893,7 @@
         <note xml:id="i-GmoDC3UNpBeEqYVpKgd5zJ" type="date">
           Lördagen den 12 Maj. 9
         </note>
-        <u xml:id="i-7roz2xiBHCxqeqCmVyz3YL" who="i-PxBUnx5YsNh272jtXqTpma" prev="i-BULXYoANZH3RsCDjZKWzUf" next="i-W4Hxo4sFMRnzMkxXzbdQSM">
+        <u xml:id="i-7roz2xiBHCxqeqCmVyz3YL" who="i-PxBUnx5YsNh272jtXqTpma" prev="i-SfkepDMRNoMBTyEP9Ujurr">
           <seg xml:id="i-GLn73z3muqpmin2UHvDxGM">
             Hvad är det då, vi behöfva från utlandet? Jo, det är den stora
             mängd förnödenheter, vi dagligen slita och förtära, utan act vi
@@ -935,8 +925,6 @@
             till konsumenten med förbigående af de mellanhänder, som befinnas
             onödiga och endast fördyra förnödenheterna?
           </seg>
-        </u>
-        <u xml:id="i-W4Hxo4sFMRnzMkxXzbdQSM" who="i-PxBUnx5YsNh272jtXqTpma" prev="i-7roz2xiBHCxqeqCmVyz3YL" next="i-XdwVxeBvvaP6DEm7H1xksR">
           <seg xml:id="i-RQQAFgafJELJu7xfs4QP9Y">
             Man har beräknat, att nedsättningen af nu ifrågavarande afzgift
             skulle medföra en förlust i statsinkomsterna af 45,000 kronor.
@@ -947,8 +935,6 @@
             den, om den blir nedsatt, och jag tror icke att den inkomst, staten
             för närvarande bar häraf, derför behöfver gå ned till hälften.
           </seg>
-        </u>
-        <u xml:id="i-XdwVxeBvvaP6DEm7H1xksR" who="i-PxBUnx5YsNh272jtXqTpma" prev="i-W4Hxo4sFMRnzMkxXzbdQSM">
           <seg xml:id="i-XS9bPJMKmHyUgqQpA6hLAW">
             Af hvad jag nu haft äran anföra följer, att jag icke kan annat
             än anse denna afgift otidsenlig, orättvis, oproportionel, omöjlig
@@ -988,15 +974,13 @@
         <note xml:id="i-G89j9QEmrUaqWipr9bntoW" type="date">
           10 Lördagen den 12 Maj.
         </note>
-        <u xml:id="i-GrKfdmMavjR8npdxUZNpC5" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-RVjsz5CBspaJGbdE8y4i7i" next="i-ELPrMu1PrXMQcxzbRK9XqW">
+        <u xml:id="i-GrKfdmMavjR8npdxUZNpC5" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-RVjsz5CBspaJGbdE8y4i7i" next="i-NxwrATnw92pLTTJyayqrX4">
           <seg xml:id="i-Qi9DTKcrgy82tkktSgbgdd">
             skatteregleringskomitén i sitt betänkande föreslagit afgifternas
             förhöjande till 200 kronor för första månaden och 80 kronor för
             hvarje följande månad af vistandet inom riket. Nu uppgifves franska
             regeringen hafva under förlidet år bestämt, att motsvarande afgifter,
           </seg>
-        </u>
-        <u xml:id="i-ELPrMu1PrXMQcxzbRK9XqW" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-GrKfdmMavjR8npdxUZNpC5" next="i-NxwrATnw92pLTTJyayqrX4">
           <seg xml:id="i-SwszfT9nbjag2f8s2A3hDQ">
             och handelssom här utgå för utländske handelsresande, skola erläggas
             af svenske
@@ -1005,7 +989,7 @@
         <note xml:id="i-6UGz8PKKpYQz8hRagcNfce">
           expediter. (Forts.)
         </note>
-        <u xml:id="i-NxwrATnw92pLTTJyayqrX4" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-ELPrMu1PrXMQcxzbRK9XqW" next="i-Cm7kubwSkDcwMNTRRbUo7P">
+        <u xml:id="i-NxwrATnw92pLTTJyayqrX4" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-GrKfdmMavjR8npdxUZNpC5">
           <seg xml:id="i-9EMa4MXp3ECT7VVigPjBzW">
             handelsresande i Frankrike, och detta är orsaken till Kongl.
             Maj:ts proposition. Det är emellertid allmänt kändt och inför
@@ -1023,8 +1007,6 @@
             Riksdagen att bifalla hvad Kongl. Maj:t föreslagit och beröfva
             staten 45,000 kronor om året.
           </seg>
-        </u>
-        <u xml:id="i-Cm7kubwSkDcwMNTRRbUo7P" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-NxwrATnw92pLTTJyayqrX4">
           <seg xml:id="i-xpD2zd8u9tsxr4sb9n6Py">
             På de skäl och grunder Bevillnings-Utskottet i sitt betänkande
             anfört och till hvilka jag ber få hänvisa, såsom enligt min uppfattning
@@ -1043,7 +1025,7 @@
         <note xml:id="i-PrLGKNafMYKqQ7GeyfUKYP" type="speaker">
           Chefen för Kongl. Fivansdepartementet Herr Statsrådet Themptander:
         </note>
-        <u xml:id="i-9CHHD3gqj5MiXnizrXQRWL" who="unknown" next="i-Pgcb9MQu7qSR58DXCiLvV9">
+        <u xml:id="i-9CHHD3gqj5MiXnizrXQRWL" who="unknown" next="i-8NPK9iiBqYwDvX7WkAJtg">
           <seg xml:id="i-2seQiBAxZdbUGnmcjrMjzC">
             Det är mig nogsamt bekant att det förslag, som innehålles i Kongl.
             Maj:ts propositon i denna del, icke har att påräkna stora sympatier
@@ -1051,8 +1033,6 @@
             om denna frågas historik. Den sammanfaller icke alldeles med hvad
             den föregående talaren nyss antydde.
           </seg>
-        </u>
-        <u xml:id="i-Pgcb9MQu7qSR58DXCiLvV9" who="unknown" prev="i-9CHHD3gqj5MiXnizrXQRWL" next="i-8NPK9iiBqYwDvX7WkAJtg">
           <seg xml:id="i-CFJJFYQN27pPVagE9UTktg">
             Då förhandlingarne förlidet år pågingo mellan Sverige och Frankrike,
             påyrkades från fransk sida att denna nedsättning till hälften
@@ -1073,7 +1053,7 @@
         <note xml:id="i-YRwzJrWYqGiN3VS9ZJ1g7i" type="title">
           Lördagen den 12 Mai. 11
         </note>
-        <u xml:id="i-8NPK9iiBqYwDvX7WkAJtg" who="unknown" prev="i-Pgcb9MQu7qSR58DXCiLvV9" next="i-UanHpcGDo4Wkuk62hm6ivG">
+        <u xml:id="i-8NPK9iiBqYwDvX7WkAJtg" who="unknown" prev="i-9CHHD3gqj5MiXnizrXQRWL" next="i-FFzDcicrmFDzRoHVbFtaEi">
           <seg xml:id="i-FddsEAL2N8xQC62JQHDNo">
             förra riksdagen blef visserligen denna framställning af Bevillnings-
             Utskottet afstyrkt och af Riksdagen afslagen, men då åberopade
@@ -1110,8 +1090,6 @@
             handelsagenten kan af sin rörelse bereda sig, så måste deraf framgå,
             att ifrågavarande lagstiftning i och för sig är ganska oegentlig.
           </seg>
-        </u>
-        <u xml:id="i-UanHpcGDo4Wkuk62hm6ivG" who="unknown" prev="i-8NPK9iiBqYwDvX7WkAJtg" next="i-XLLTYBrnHW6Y6iawZDfDCz">
           <seg xml:id="i-HcFppfimAXy8jxnpMM4Qmy">
             Det har åtskilliga gånger blifvit sagdt, att lika skickliga som
             svenskarne i många rigtningar äro, då det gäller att producera,
@@ -1123,8 +1101,6 @@
             stora betydelse för handelns befrämjande, som just ligger i dessa
             handelsresandes verksamhet.
           </seg>
-        </u>
-        <u xml:id="i-XLLTYBrnHW6Y6iawZDfDCz" who="unknown" prev="i-UanHpcGDo4Wkuk62hm6ivG" next="i-FFzDcicrmFDzRoHVbFtaEi">
           <seg xml:id="i-4CEUUCEKU5J2QjySVkbVDB">
             Det är vidare af den förste talaren erinradt, att någon säker
             kontroll icke kan utöfvas deröfver, att ifrågavarande afgift verkligen
@@ -1152,7 +1128,7 @@
         <note xml:id="i-K9ka7QsZ7EiVgesnrdb2tR" type="date">
           12 Lördagen den 12 Maj.
         </note>
-        <u xml:id="i-FFzDcicrmFDzRoHVbFtaEi" who="unknown" prev="i-XLLTYBrnHW6Y6iawZDfDCz" next="i-xkuW12bL9BhFcgz9kH5RL">
+        <u xml:id="i-FFzDcicrmFDzRoHVbFtaEi" who="unknown" prev="i-8NPK9iiBqYwDvX7WkAJtg" next="i-MnKMCfq62Q1Ka4geU3Dmbj">
           <seg xml:id="i-21etRxYMqUEEcNSAzrr5N5">
             här hemfaller under beskattning, i annat fall än att han för
             med sig' ett 'synligt bevis derpå i varuprofven. Mot hvad den
@@ -1160,8 +1136,6 @@
             är något utmärkande för dessa handelsresande, att de medföra varuprof.
             Det är endast en
           </seg>
-        </u>
-        <u xml:id="i-xkuW12bL9BhFcgz9kH5RL" who="unknown" prev="i-FFzDcicrmFDzRoHVbFtaEi" next="i-MnKMCfq62Q1Ka4geU3Dmbj">
           <seg xml:id="i-PrCxceMpLmck9ZzenStHem">
             och hamdelsdel artiklar, som äro af den beskaffenhet att de kunna
             medföras så-
@@ -1170,7 +1144,7 @@
         <note xml:id="i-Lt2m2fU28a4MQuq9VLJs8r">
           expediter. (Forts.)
         </note>
-        <u xml:id="i-MnKMCfq62Q1Ka4geU3Dmbj" who="unknown" prev="i-xkuW12bL9BhFcgz9kH5RL" next="i-AUc41LBaGmpfMgqrzkkmtX">
+        <u xml:id="i-MnKMCfq62Q1Ka4geU3Dmbj" who="unknown" prev="i-FFzDcicrmFDzRoHVbFtaEi">
           <seg xml:id="i-ALHhkAsn6mHcRTt7D5EUj1">
             som prof. Han nämnde att våra handelsresande i Frankrike, som
             mestadels handla med jernoch trävaror, icke kunna medföra prof
@@ -1190,8 +1164,6 @@
             följa honom hvart han tager vägen, för att hålla reda på allt
             hans görande och låtande.
           </seg>
-        </u>
-        <u xml:id="i-AUc41LBaGmpfMgqrzkkmtX" who="unknown" prev="i-MnKMCfq62Q1Ka4geU3Dmbj" next="i-KRsTsqdqfthQsc7mGsP8WT">
           <seg xml:id="i-UW4tEbcy77bxxkdS3iPNDU">
             Det är också, såsom den förste talaren visade, förhållandet,
             att man i andra länder mer och mer uppmärksammat den stora betydelse,
@@ -1200,8 +1172,6 @@
             temligen allena stående om utkräfvande af en så beskaffad afgift
             som den här föreslagna.
           </seg>
-        </u>
-        <u xml:id="i-KRsTsqdqfthQsc7mGsP8WT" who="unknown" prev="i-AUc41LBaGmpfMgqrzkkmtX" next="i-X6QTen3eF2vtyxzoyrPiFx">
           <seg xml:id="i-CV5fMqBKBQa3dTJ4XP66jv">
             Den förste talaren har vidare fäst uppmärksamheten derpå, att
             i de fall, der desse handelsresande erkligen lyckas göra några
@@ -1215,8 +1185,6 @@
             utlandet, utan att behöfva tillgripa denna supplementära utväg
             i samma rigtning för fyllande at statskassans behof.
           </seg>
-        </u>
-        <u xml:id="i-X6QTen3eF2vtyxzoyrPiFx" who="unknown" prev="i-KRsTsqdqfthQsc7mGsP8WT">
           <seg xml:id="i-TnE1rAZKg5ohTvwsFPX5ou">
             Det har varit på dessa omständigheter, jag velat fästa Kammarens
             uppmärksamhet.
@@ -1240,7 +1208,7 @@
         <note xml:id="i-GV9kABdgxufUUQSytiE6W1" type="date">
           Lördagen den 12 Mai. 13
         </note>
-        <u xml:id="i-QgeFJc8FLkTCyUQ2SqzEbc" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-HLcsduzHgJLULSdrLG3Vdv" next="i-MUzwGSoizKAdjxJgNmeS8j">
+        <u xml:id="i-QgeFJc8FLkTCyUQ2SqzEbc" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-HLcsduzHgJLULSdrLG3Vdv" next="i-5F935DiftRZCvi5Xj3HKwM">
           <seg xml:id="i-TJsdeha1WzHyxVt5mBC6oi">
             att försälja dåliga varor och öfverflödsartiklar, samt att de
             derför gerna böra betala. Men man bör väl i denna Kammare, vid
@@ -1288,8 +1256,6 @@
             saker kunna icke sägas uppmuntra lyxen, utan äro egnade att i
             hög grad gagna våra egna fabrikanter.
           </seg>
-        </u>
-        <u xml:id="i-MUzwGSoizKAdjxJgNmeS8j" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-QgeFJc8FLkTCyUQ2SqzEbc" next="i-5F935DiftRZCvi5Xj3HKwM">
           <seg xml:id="i-UcXSEE38TAtiCFFSy3Wkc6">
             Man har vidare sagt, att denna ringa afgift af 100 kronor är
             en obetydlighet för dessa agenter. Må så vara, men det är dock
@@ -1310,7 +1276,7 @@
         <note xml:id="i-MkqCQSybsQ2negzL6Gpm5M" type="date">
           N:o 41. 14 Lördagen den 12 Mai.
         </note>
-        <u xml:id="i-5F935DiftRZCvi5Xj3HKwM" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-MUzwGSoizKAdjxJgNmeS8j" next="i-EeHFu8h366jp4hmAJ16qgd">
+        <u xml:id="i-5F935DiftRZCvi5Xj3HKwM" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-QgeFJc8FLkTCyUQ2SqzEbc" next="i-EeHFu8h366jp4hmAJ16qgd">
           <seg xml:id="i-PPBRBnepdAyiayEo733nZi">
             Angående utan afseende, då den tvärt om för många anspråkslösa
             utländska rr handelsagenter måste vara en stor uppoffring. Men
@@ -1337,7 +1303,7 @@
         <note xml:id="i-2KjfjkNyEtSLCpwXizPEfr">
           annan stats medborgare.
         </note>
-        <u xml:id="i-EeHFu8h366jp4hmAJ16qgd" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-5F935DiftRZCvi5Xj3HKwM" next="i-2KrVTAbqz2BPxzPEMY5AAq">
+        <u xml:id="i-EeHFu8h366jp4hmAJ16qgd" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-5F935DiftRZCvi5Xj3HKwM">
           <seg xml:id="i-KiWAci2971BpaXefED9MwZ">
             Detta är den ekonomiska sidan af saken. Men den andra, icke mindre
             vigtiga sidan, är det rent förhatliga deri att, då främlingen
@@ -1352,8 +1318,6 @@
             en annan tid, då dessa fördomar, likasom många andra, skingrats
             af verklighetens skäl.
           </seg>
-        </u>
-        <u xml:id="i-2KrVTAbqz2BPxzPEMY5AAq" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-EeHFu8h366jp4hmAJ16qgd">
           <seg xml:id="i-6K8965iGaTGEa9cf8q6xrW">
             Jag hemställer emellertid, eftersom yrkande derom ej redan gjorts,
             om bifall till Kongl. Maj:ts förslag.
@@ -1387,7 +1351,7 @@
         <note xml:id="i-QgeUXU8QXiG1RLvBS5STxM" type="date">
           Lördagen den 12 Maj. 15
         </note>
-        <u xml:id="i-D7wFgN3hLPTLvG2sPpYRaF" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-MkbQvFDU7ubcNwxGSt3uNS" next="i-DCr7B4TvB65g24BsoGmoEP">
+        <u xml:id="i-D7wFgN3hLPTLvG2sPpYRaF" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-MkbQvFDU7ubcNwxGSt3uNS" next="i-BDARgUVvGvQVGMU2mu2aGs">
           <seg xml:id="i-B4zN5cfj4ip48yYK2GrBBw">
             uppgift. Sedan han, i ifver att få bort denna afgift, först nämnt
             att den endast finnes i Sverige och Danmark, ådagalade han strax
@@ -1409,8 +1373,6 @@
             Och jag kan icke finna "rättvisan" bjuda oss att borttaga hvarje
             sådant band.
           </seg>
-        </u>
-        <u xml:id="i-DCr7B4TvB65g24BsoGmoEP" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-D7wFgN3hLPTLvG2sPpYRaF" next="i-7rYhM83TP7QHnd9t3dcLNV">
           <seg xml:id="i-F4c7Jgy6VYffsB54Ao7jZq">
             En annan anledning, hvarför vi efter Herr Finansministerns mening
             nu borde afskaffa denna skatt, är att det skulle vara synnerligen
@@ -1436,8 +1398,6 @@
             redbarhet i sina leveranser, att man på grund deraf har anledning
             att genom en särskild skattelindring gynna dem framför våra svenska.
           </seg>
-        </u>
-        <u xml:id="i-7rYhM83TP7QHnd9t3dcLNV" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-DCr7B4TvB65g24BsoGmoEP" next="i-LVq6R4LomLDsxD1aYafBkU">
           <seg xml:id="i-5Q1LPYwezgrd3Uz5S4vkDj">
             Från statsrådsbänken har yttrats, att våra svenska handlande
             nog hafva sina förtjenster, äro redbara m. m., men äro klena säljare;
@@ -1448,8 +1408,6 @@
             kassa utbetala någon särskild nationalbelöning till den specielt
             tyska förmågan.
           </seg>
-        </u>
-        <u xml:id="i-LVq6R4LomLDsxD1aYafBkU" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-7rYhM83TP7QHnd9t3dcLNV" next="i-BDARgUVvGvQVGMU2mu2aGs">
           <seg xml:id="i-8KahoPoYWzFCQGeE3Ai5kx">
             Den förste ärade talaren nämnde, att han hade haft en ganska
             stor fördel af att för sina inköp af stilar, färger och remmar
@@ -1474,7 +1432,7 @@
         <note xml:id="i-Pf37jhtsGcYJsja2DTEMmJ" type="date">
           16 Lördagen den 12 Maj.
         </note>
-        <u xml:id="i-BDARgUVvGvQVGMU2mu2aGs" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-LVq6R4LomLDsxD1aYafBkU" next="i-G6SPZhtd3vcgkitT1P7ZHc">
+        <u xml:id="i-BDARgUVvGvQVGMU2mu2aGs" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-D7wFgN3hLPTLvG2sPpYRaF">
           <seg xml:id="i-F75GQ9BVwztbdk86MkvuFZ">
             bud af handelsresande i dylika varor. Ja, jag är köpare just
             i samma slags artiklar som han, men jag erkänner att jag har den
@@ -1489,8 +1447,6 @@
             beskattning, så anser jag det heller alls icke vara skäl att genom
             särskild skattefrihet hit inbjuda dess representanter.
           </seg>
-        </u>
-        <u xml:id="i-G6SPZhtd3vcgkitT1P7ZHc" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-BDARgUVvGvQVGMU2mu2aGs">
           <seg xml:id="i-3mtWJeWtr76uEv9Vgrmg9x">
             Jag vill tillägga ännu ett ord. Den förste talaren nämnde, att
             dessa handelsresande i allmänhet förtjenade så litet på sina affärer,
@@ -1571,7 +1527,7 @@
           om att den nuvarande afgiften bestämdes år 1861 och har allt sedan
           oförändrad qvarstått.
         </note>
-        <u xml:id="i-Hs4KETgUTVrcEv7JZLYi92" who="i-Dupw3qwYSE3y5mdMHBzQvA" prev="i-9tw8st2Z1t68pmJYNa989d" next="i-WEnGFTGRnbbUxY55bqE5p">
+        <u xml:id="i-Hs4KETgUTVrcEv7JZLYi92" who="i-Dupw3qwYSE3y5mdMHBzQvA" prev="i-9tw8st2Z1t68pmJYNa989d">
           <seg xml:id="i-GzcyGB6aYWuZa655vwyjTp">
             Den förste ärade talaren yttrade, att "i sjelfva verket är det
             icke utländingen utan den svenska köparen, som drabbas af denna
@@ -1581,8 +1537,6 @@
             sig att betala denna skatt, säljer sina varor billigare än den,
             som betalt skatten?
           </seg>
-        </u>
-        <u xml:id="i-WEnGFTGRnbbUxY55bqE5p" who="i-Dupw3qwYSE3y5mdMHBzQvA" prev="i-Hs4KETgUTVrcEv7JZLYi92" next="i-3a8xsZmujHUn68nUhRpJL1">
           <seg xml:id="i-T48acqj76Vg6nKXKXU6Vr1">
             Slutligen vill jag fästa Kammarens uppmärksamhet på den omständigheten
             att, då Kongl. Maj:t, lika som skattekomitén, med anledning af
@@ -1592,8 +1546,6 @@
             skäl att samtidigt föreslå en lägre beskattning för den rörelse,
             som här bedrifves af utländingar?
           </seg>
-        </u>
-        <u xml:id="i-3a8xsZmujHUn68nUhRpJL1" who="i-Dupw3qwYSE3y5mdMHBzQvA" prev="i-WEnGFTGRnbbUxY55bqE5p">
           <seg xml:id="i-NWDzt6EegPRWhbsD7So3ng">
             Jag anhåller om bifall till Utskottets förslag.
           </seg>
@@ -1601,20 +1553,16 @@
         <note xml:id="i-PrRLr4v3Bv6X8TnFTBAKVR" type="speaker">
           Herr A. Göransson:
         </note>
-        <u xml:id="i-TubE4CfL7r66NPBAVQWCDb" who="i-3z5QgX8Q2XCayRRfyLgVy2" next="i-zcUV3htaG3kdivr2gvPC6">
+        <u xml:id="i-TubE4CfL7r66NPBAVQWCDb" who="i-3z5QgX8Q2XCayRRfyLgVy2" next="i-JfkkaVdGcV88GjJDZXAKTC">
           <seg xml:id="i-WzYNQBNTPJZfhJnd7DTGjU">
             Här har af åtskilliga talare yrkats nedsättning i den bevillningsafgift,
             som Utskottet nu föreslagit. Såsom ett bevis på att denna afgift
             icke är för hög må väl anföras den omständigheten, att dessa handelsresandes
             antal, långt ifrån att minskas, tvärt om årligen ökas.
           </seg>
-        </u>
-        <u xml:id="i-zcUV3htaG3kdivr2gvPC6" who="i-3z5QgX8Q2XCayRRfyLgVy2" prev="i-TubE4CfL7r66NPBAVQWCDb" next="i-Q66V7PSb5MrgzmL49wkFko">
           <seg xml:id="i-Y8Fo5ueGwJcN5bQBoehGTw">
             I den Kongl. propositionen heter det bland annat:
           </seg>
-        </u>
-        <u xml:id="i-Q66V7PSb5MrgzmL49wkFko" who="i-3z5QgX8Q2XCayRRfyLgVy2" prev="i-zcUV3htaG3kdivr2gvPC6" next="i-JfkkaVdGcV88GjJDZXAKTC">
           <seg xml:id="i-TwGtiqyWKa99rTrRGgpWLU">
             «Med anledning af den utgång frågan sålunda erhållit vid 18382
             års riksdag, har emellertid franska regeringen funnit sig föranlåten
@@ -1643,7 +1591,7 @@
         <note xml:id="i-DhNAWJD4CVwfodzukmkhMo" type="date">
           18 Lördagen den 12 Maj.
         </note>
-        <u xml:id="i-JfkkaVdGcV88GjJDZXAKTC" who="i-3z5QgX8Q2XCayRRfyLgVy2" prev="i-Q66V7PSb5MrgzmL49wkFko" next="i-HQLeqqB7J1UQvgqWUmkxZ8">
+        <u xml:id="i-JfkkaVdGcV88GjJDZXAKTC" who="i-3z5QgX8Q2XCayRRfyLgVy2" prev="i-TubE4CfL7r66NPBAVQWCDb" next="i-HoA83L4APyxtVotd8fp9XC">
           <seg xml:id="i-EdN5vgZty7Whs8uCiCCzAF">
             resande, hvilket åter gifvit Kongl. Maj:t anledning att redan
             nu förnya sitt omförmälda förslag. Kongl. Maj:t har nemligen befarat,
@@ -1651,8 +1599,6 @@
             sålunda blifvit försatte i förbållande till dylika resande af
             andra nationer, skall
           </seg>
-        </u>
-        <u xml:id="i-HQLeqqB7J1UQvgqWUmkxZ8" who="i-3z5QgX8Q2XCayRRfyLgVy2" prev="i-JfkkaVdGcV88GjJDZXAKTC" next="i-HoA83L4APyxtVotd8fp9XC">
           <seg xml:id="i-7verS1c8UEhiLZAer4xsJ8">
             och hamdelskomma att utöfva ett menligt inflytande på våra exportörers
             ställning
@@ -1661,19 +1607,15 @@
         <note xml:id="i-PtxaSGjWWYC94CDj9w6Y7w">
           expediter. (Forts.)
         </note>
-        <u xml:id="i-HoA83L4APyxtVotd8fp9XC" who="i-3z5QgX8Q2XCayRRfyLgVy2" prev="i-HQLeqqB7J1UQvgqWUmkxZ8" next="i-5GPfAv7kdYBARfY51zkjzG">
+        <u xml:id="i-HoA83L4APyxtVotd8fp9XC" who="i-3z5QgX8Q2XCayRRfyLgVy2" prev="i-JfkkaVdGcV88GjJDZXAKTC">
           <seg xml:id="i-X1m9k7CphgoQ3DZzxQdW3n">
             på den franska marknaden, så mycket mer ofördelaktigt, som Frankrike
             är en af de störste afnämarne af våra förnämsta exportartiklar,
             trä och jern.”
           </seg>
-        </u>
-        <u xml:id="i-5GPfAv7kdYBARfY51zkjzG" who="i-3z5QgX8Q2XCayRRfyLgVy2" prev="i-HoA83L4APyxtVotd8fp9XC" next="i-LfyfdHMGZrz2TsqWt7dbyX">
           <seg xml:id="i-L7hNJX7YKyP8qGPU7qH4SB">
             Utskottet säger deremot:
           </seg>
-        </u>
-        <u xml:id="i-LfyfdHMGZrz2TsqWt7dbyX" who="i-3z5QgX8Q2XCayRRfyLgVy2" prev="i-5GPfAv7kdYBARfY51zkjzG" next="i-2LbNVrLhSBC7P2X3Q3kSJy">
           <seg xml:id="i-CoHFnRDMwyfmtdNbkvfXgb">
             »Med fullt erkännande af den omtanke för den svenska utrikeshandeln,
             som legat till grund för Kongl. Maj:ts förelag, vågar dock Utskottet
@@ -1692,8 +1634,6 @@
             ej Sverige men väl Frankrike skulle skörda vinsten af den ifrågasatta
             nedsättningen.» Detta är äfven min mening.
           </seg>
-        </u>
-        <u xml:id="i-2LbNVrLhSBC7P2X3Q3kSJy" who="i-3z5QgX8Q2XCayRRfyLgVy2" prev="i-LfyfdHMGZrz2TsqWt7dbyX">
           <seg xml:id="i-Qhj9ZmpCKEfokxfen4BeFy">
             Det har af en talare yttrats, att dessa handelsresande skulle
             vara "nyttiga". Jag är deremot af en motsatt åsigt i detta fall.
@@ -1713,7 +1653,7 @@
         <note xml:id="i-5dAxsx7nuvw9GPRRLDFeov" type="speaker">
           Herr Hörnfeldt:
         </note>
-        <u xml:id="i-292tmDXLS9wLWCTFSuFr6w" who="i-KjSZfjZmVz9Wf1kWZWQERb" next="i-4xJpwnmhsftSXCNXjArVUp">
+        <u xml:id="i-292tmDXLS9wLWCTFSuFr6w" who="i-KjSZfjZmVz9Wf1kWZWQERb" next="i-5QakgfxuxnPL4kaZuybNMi">
           <seg xml:id="i-C92oydrcUoEFavmvszgcNK">
             Jag brukar i allmänhet vara temligen frisinnad, när det gäller
             lagstiftningsfrågor, men så frisinnad som min ärade vän på göteborgsbänken,
@@ -1721,8 +1661,6 @@
             bör bestämma lägre afgifter för de utländska handelsresandena,
             än som i allmänhet äro stadgade för våra egna inhemska agenter.
           </seg>
-        </u>
-        <u xml:id="i-4xJpwnmhsftSXCNXjArVUp" who="i-KjSZfjZmVz9Wf1kWZWQERb" prev="i-292tmDXLS9wLWCTFSuFr6w" next="i-5QakgfxuxnPL4kaZuybNMi">
           <seg xml:id="i-RD9mqrgX3Gssb9hxxvWwdd">
             Hvilken som helst af herrarne, som något närmare tänker på saken,
             torde icke kunna bestrida, att ingen svensk handelsagent, som
@@ -1736,7 +1674,7 @@
         <note xml:id="i-AAVwmoLjnDzRif4rzosBwm" type="date">
           Lördagen den 12 Maj. "19
         </note>
-        <u xml:id="i-5QakgfxuxnPL4kaZuybNMi" who="i-KjSZfjZmVz9Wf1kWZWQERb" prev="i-4xJpwnmhsftSXCNXjArVUp" next="i-WLPaZwn53NqXQC5VqZvE9n">
+        <u xml:id="i-5QakgfxuxnPL4kaZuybNMi" who="i-KjSZfjZmVz9Wf1kWZWQERb" prev="i-292tmDXLS9wLWCTFSuFr6w">
           <seg xml:id="i-Y1HQ2aCsxDVWqDRHZmR8GA">
             och således antaga den lägre bevillningsafgiften för utländska
             handelsresande, han ansåge att deras verksamhet skulle vara för
@@ -1754,8 +1692,6 @@
             varor, i hvilket fall, såsom ofta skett, vi köpa mer än behofvet
             kräfver.
           </seg>
-        </u>
-        <u xml:id="i-WLPaZwn53NqXQC5VqZvE9n" who="i-KjSZfjZmVz9Wf1kWZWQERb" prev="i-5QakgfxuxnPL4kaZuybNMi" next="i-ThoNUk9fcpmGxHDyYkD7j1">
           <seg xml:id="i-TVSP8jc3MttAP2vHCuEFU6">
             Man har sagt, att kontrollen öfver de utländska handelsagenternas
             verksamhet skulle blifva svårare, om man bifölle Utskottets förslag,
@@ -1765,8 +1701,6 @@
             utöfvar handelsrörelse. Denna anmärkning förtjenar, enligt min
             tanke, icke något afseende.
           </seg>
-        </u>
-        <u xml:id="i-ThoNUk9fcpmGxHDyYkD7j1" who="i-KjSZfjZmVz9Wf1kWZWQERb" prev="i-WLPaZwn53NqXQC5VqZvE9n">
           <seg xml:id="i-KnrLZqFtvp4jrfucoGpXU5">
             För öfrigt tror jag att, äfven om det skulle inträffa att man
             genom ett bifall till Utskottets förslag skulle, såsom Herr Hedlund
@@ -1824,32 +1758,24 @@
         <note xml:id="i-Nsac9Pm7HBGgcZkLRPgtVc" type="date">
           20 Lördagen den 12 Maj.
         </note>
-        <u xml:id="i-VQBNbtgKGUrUMAqkT9B5qX" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-4jkCENo5h5RMPJvhu4QPDE" next="i-JksWccrt8fDe2NzxNAMDu6">
+        <u xml:id="i-VQBNbtgKGUrUMAqkT9B5qX" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-4jkCENo5h5RMPJvhu4QPDE">
           <seg xml:id="i-TpcgRpRky7MU9YDKNSYNX1">
             i fråga om att öfverflytta deras affärsskicklighet på oss, icke
             annat än instämma i talarens på malmöbänken utrop, att måtte Gud
             derifrån oss bevara!
           </seg>
-        </u>
-        <u xml:id="i-JksWccrt8fDe2NzxNAMDu6" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-VQBNbtgKGUrUMAqkT9B5qX" next="i-F3wRj4FjFMZUrBisEfxppJ">
           <seg xml:id="i-TFqaorJb1BNzbHtBTfTETN">
             Hvad angår den ifrågastälda skatten &amp; dem, så kan jag icke
           </seg>
-        </u>
-        <u xml:id="i-F3wRj4FjFMZUrBisEfxppJ" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-JksWccrt8fDe2NzxNAMDu6" next="i-LmE1TpoHunwntcGpY98gUP">
           <seg xml:id="i-PWDshMXpR26aNpMURNC363">
             - finna den för hög, allra helst om man besinnar hvilken jemförelsevis
           </seg>
-        </u>
-        <u xml:id="i-LmE1TpoHunwntcGpY98gUP" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-F3wRj4FjFMZUrBisEfxppJ" next="i-Fr9iXzk8xCcCu65qNUbj6e">
           <seg xml:id="i-5Gh418RJAqHe3g2T8kPi3w">
             kort tid dessa ständigt på resande fot stadde herrar behöfva
             för att uträtta sina affärer, under det att den inhemske köpmannen
             oafbrutet och i regel från samma plats måste uppehålla sin verksamhet
             och ganska drygt betala derför både till stat och kommun.
           </seg>
-        </u>
-        <u xml:id="i-Fr9iXzk8xCcCu65qNUbj6e" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-LmE1TpoHunwntcGpY98gUP">
           <seg xml:id="i-F9xrGoSDqt3WdQ2ZC76q7p">
             Jag instämmer med dem som yrka bifall till hvad Utskottet i denna
             punkt föreslagit.
@@ -1978,7 +1904,7 @@
         <note xml:id="i-WVcWHpu5H4jwDKJvieAbWX" type="speaker">
           Sedan denna hemställan blifvit uppläst, yttrade Friherre Stackelberg:
         </note>
-        <u xml:id="i-5vRdCuLoageyEkd2muJk8h" who="i-2jDvJSMx2FdCk8pZegcj1o" next="i-T4QwitR3WaTUxxzPE23cjk">
+        <u xml:id="i-5vRdCuLoageyEkd2muJk8h" who="i-2jDvJSMx2FdCk8pZegcj1o" next="i-75Qa54ML4Kg5Qg5uw83ehZ">
           <seg xml:id="i-FwyLBhxycjfEQkT6dbAgkM">
             En tillfällighet har gjort, att det nu föredragna utskottsutlåtandet
             fått samma nummer som den motion, hvarom det handlar, nemligen
@@ -1991,8 +1917,6 @@
             rätt: jag har begått ett misstag; jag borde hafva skrifvit Förordningen
             af den 20 Januari 1882.
           </seg>
-        </u>
-        <u xml:id="i-T4QwitR3WaTUxxzPE23cjk" who="i-2jDvJSMx2FdCk8pZegcj1o" prev="i-5vRdCuLoageyEkd2muJk8h" next="i-75Qa54ML4Kg5Qg5uw83ehZ">
           <seg xml:id="i-2ZCXgGwnEwBTVYSAsntPyy">
             Nöjd med denna enda lilla seger, undviker segerherren derefter
             att anfalla någon särskild punkt i mitt förslag, utan insveper
@@ -2010,7 +1934,7 @@
         <note xml:id="i-NwwJprs4Vg9StxsRYJbgnH" type="date">
           22 Lördagen den 12 Maj.
         </note>
-        <u xml:id="i-75Qa54ML4Kg5Qg5uw83ehZ" who="i-2jDvJSMx2FdCk8pZegcj1o" prev="i-T4QwitR3WaTUxxzPE23cjk" next="i-Ko6VprQCU4EtArZfUDeeUt">
+        <u xml:id="i-75Qa54ML4Kg5Qg5uw83ehZ" who="i-2jDvJSMx2FdCk8pZegcj1o" prev="i-5vRdCuLoageyEkd2muJk8h" next="i-W1t9MhXXvuVRPTbJdVcLke">
           <seg xml:id="i-4ywumx7KmjCQyHUjcnwHeT">
             sina härmassor i ett moln af allmänna talesätt. Detta är en öfverlägsen
             taktik. Man kan väl ana en mängd svaga punkter, men det är svårt
@@ -2018,8 +1942,6 @@
             jag förmår, i den förhoppning att efter mig skola komma skickligare,
             som göra det bättre.
           </seg>
-        </u>
-        <u xml:id="i-Ko6VprQCU4EtArZfUDeeUt" who="i-2jDvJSMx2FdCk8pZegcj1o" prev="i-75Qa54ML4Kg5Qg5uw83ehZ" next="i-4VNt5wqPLoZqmiehkB2Sbk">
           <seg xml:id="i-3mbABZs2we4cVi3s26wE9q">
             Utskottet säger, att "motionen afser att på en gång upphäfva
             all egendomsgemenskap, äkta makar emellan. Förslaget är följaktligen
@@ -2030,8 +1952,6 @@
             ju redan nu genom äktenskapsförord åstadkomma detsamma som mitt
             förslag afser i fråga om egendomsgemenskapen.
           </seg>
-        </u>
-        <u xml:id="i-4VNt5wqPLoZqmiehkB2Sbk" who="i-2jDvJSMx2FdCk8pZegcj1o" prev="i-Ko6VprQCU4EtArZfUDeeUt" next="i-RGa5b4UytwNxJW7joBBPmG">
           <seg xml:id="i-6yhTnRvLA3Hx9sGzmKxnjp">
             Utskottet fortsätter: "Men det är på rättens område som på det
             allmänna statslifvets: omhvälfningar, som på en gång bryta ned
@@ -2053,8 +1973,6 @@
             förmenande, att helt enkelt undanrödja orättvisan. Tag bort det
             onda, så står det goda qvar.
           </seg>
-        </u>
-        <u xml:id="i-RGa5b4UytwNxJW7joBBPmG" who="i-2jDvJSMx2FdCk8pZegcj1o" prev="i-4VNt5wqPLoZqmiehkB2Sbk" next="i-ih5Bv7dvEYGXx7qeFq5yk">
           <seg xml:id="i-BjGXB2Rtnzmp5rUcT8jbbk">
             Utskottet fortsätter: "Varsam utveckling är derför den främsta
             lösen för ett sundt lagstifningsarbete." Jag tror icke, att det
@@ -2064,8 +1982,6 @@
             mig på den ståndpunkt, som i 8 kap. Giftermålsbalken angående
             äktenskapsförord redan är angifven.
           </seg>
-        </u>
-        <u xml:id="i-ih5Bv7dvEYGXx7qeFq5yk" who="i-2jDvJSMx2FdCk8pZegcj1o" prev="i-RGa5b4UytwNxJW7joBBPmG" next="i-W1t9MhXXvuVRPTbJdVcLke">
           <seg xml:id="i-A3eFFGDxANqYAmv212mDKR">
             Utskottet yttrar vidare: att, i fråga om familjerätten, lagstiftaren
             der mera än på något annat område "mötes af en mångfald etiska
@@ -2085,7 +2001,7 @@
         <note xml:id="i-XBiXjyC9bpPj49zocXfrc" type="date">
           Lördagen den 12 Mai. 23 N:o 41.
         </note>
-        <u xml:id="i-W1t9MhXXvuVRPTbJdVcLke" who="i-2jDvJSMx2FdCk8pZegcj1o" prev="i-ih5Bv7dvEYGXx7qeFq5yk" next="i-SfKqDPMnT9J3PGno2eQ8m6">
+        <u xml:id="i-W1t9MhXXvuVRPTbJdVcLke" who="i-2jDvJSMx2FdCk8pZegcj1o" prev="i-75Qa54ML4Kg5Qg5uw83ehZ" next="i-SfKqDPMnT9J3PGno2eQ8m6">
           <seg xml:id="i-MzxLWpcA1ZCBUP1tE8Js3R">
             sina vankanter och all den bark, som ännu sitter qvar, sedan
             den Om ändrad balken för århundraden tillbaka hemtades hit från
@@ -2150,13 +2066,11 @@
         <note xml:id="i-Hc6G7mMH1xXuXjhNebnsK4" type="date">
           24 Lördagen den 12 Maj.
         </note>
-        <u xml:id="i-SfKqDPMnT9J3PGno2eQ8m6" who="i-2jDvJSMx2FdCk8pZegcj1o" prev="i-W1t9MhXXvuVRPTbJdVcLke" next="i-CY4CQUjAmyacd4w1m84LkP">
+        <u xml:id="i-SfKqDPMnT9J3PGno2eQ8m6" who="i-2jDvJSMx2FdCk8pZegcj1o" prev="i-W1t9MhXXvuVRPTbJdVcLke">
           <seg xml:id="i-UGCTe5dN2uqq5fbfcgHorY">
             för en mor att vara så godt som omyndig i sitt eget hus, under
             det att hennes hemmavarande dotter är myndig.
           </seg>
-        </u>
-        <u xml:id="i-CY4CQUjAmyacd4w1m84LkP" who="i-2jDvJSMx2FdCk8pZegcj1o" prev="i-SfKqDPMnT9J3PGno2eQ8m6" next="i-6dtbtxuW4NCNysXUzRhAMT">
           <seg xml:id="i-DJLjnU8Sm4sTex8c2Qg35Y">
             Utskottet kommer slutligen till en punkt, der fredsunderhandlingarne
             mellan motionen och utskottsbetänkandet kunna börja. Utskottet
@@ -2188,8 +2102,6 @@
             Majoritet”; men jag vet, att det förslag, min motion innebär,
             har framtiden för sig — och det är bättre.
           </seg>
-        </u>
-        <u xml:id="i-6dtbtxuW4NCNysXUzRhAMT" who="i-2jDvJSMx2FdCk8pZegcj1o" prev="i-CY4CQUjAmyacd4w1m84LkP">
           <seg xml:id="i-4c16FJ1QRtjWBdsb3ek4MV">
             För att icke lemna något oförsökt skall jag sluta med att hos
             Herr Talmannen anhålla om proposition på följande förslag: att
@@ -2220,12 +2132,10 @@
         <note xml:id="i-VqJHrdv4kXqg4M3Eg2JW5V" type="speaker">
           Friherre Nordenskiöld:
         </note>
-        <u xml:id="i-P6M8eTC3ee1gmLT9hFcSqR" who="i-8YuxUyGc2HnpesE4HZAcZz" next="i-5pZtLnDfC3tTLCd6rR1Ge5">
+        <u xml:id="i-P6M8eTC3ee1gmLT9hFcSqR" who="i-8YuxUyGc2HnpesE4HZAcZz">
           <seg xml:id="i-FJtpDbw8qAFvTptF8qeevT">
             Det utlåtande, på hvilket Utskottet Om ändrad
           </seg>
-        </u>
-        <u xml:id="i-5pZtLnDfC3tTLCd6rR1Ge5" who="i-8YuxUyGc2HnpesE4HZAcZz" prev="i-P6M8eTC3ee1gmLT9hFcSqR" next="i-BZVtfuFNHhow36VWgseeo9">
           <seg xml:id="i-BwQauZkWCpXBNEhoVyuakv">
             grundat sin hemställan om afslag å föreliggande motion, är synneri
             ligen kort. Detta är nu i min tanke icke något fel, förutsatt
@@ -2241,13 +2151,9 @@
             greto blodiga tårar, ehuru det numera icke torde finnas någon,
             som skulle vilja hafva dessa reformer ogjorda.
           </seg>
-        </u>
-        <u xml:id="i-BZVtfuFNHhow36VWgseeo9" who="i-8YuxUyGc2HnpesE4HZAcZz" prev="i-5pZtLnDfC3tTLCd6rR1Ge5" next="i-2yDDmkSorm55qPD9VzXCEs">
           <seg xml:id="i-RBJYRANzXg3G2LHmVsGsBR">
             De begge styckena på 24 rader afslutas med följande fristående,
           </seg>
-        </u>
-        <u xml:id="i-2yDDmkSorm55qPD9VzXCEs" who="i-8YuxUyGc2HnpesE4HZAcZz" prev="i-BZVtfuFNHhow36VWgseeo9">
           <seg xml:id="i-BuHVuXrPWWhuUrtVLaQcuN">
             djupsinniga mening: "Likasom handelsrätten till sin natur är
             kosmopolitisk, så är familjerätten till sin natur nationel." Jag
@@ -2304,14 +2210,12 @@
         <note xml:id="i-2z4WADQ7C939LYWkVUj638" type="date">
           26 Lördagen den 12 Maj.
         </note>
-        <u xml:id="i-DSekibNxvnCVyT2hBgsxge" who="i-QiH1m576DcuGtby7dh9oxo" prev="i-SRwsC6CmsRY8229ojorcSv" next="i-8MJQ3N7PYrUvk9894sMJbw">
+        <u xml:id="i-DSekibNxvnCVyT2hBgsxge" who="i-QiH1m576DcuGtby7dh9oxo" prev="i-SRwsC6CmsRY8229ojorcSv" next="i-VpP6adoF6z1rmfwVNuztV9">
           <seg xml:id="i-GDWxzVDi8PfRehH8yFPnef">
             sonlighet, d. v. s. förrän hon tillerkänts likställighet med
             mannen i allt, och således äfven i fråga om rättighet att förvalta
             sin egendom.
           </seg>
-        </u>
-        <u xml:id="i-8MJQ3N7PYrUvk9894sMJbw" who="i-QiH1m576DcuGtby7dh9oxo" prev="i-DSekibNxvnCVyT2hBgsxge" next="i-6wqUmk4LW6AMGn2GPb1TDR">
           <seg xml:id="i-PZcxPpSdH4DK7xHX3NGWBF">
             Det är naturligt, att jag med en sådan uppfattning varit sympatiskt
             stämd för motionen, men eft skäl har för mig varit afgörande för
@@ -2328,8 +2232,6 @@
             den qvinna, som satt sig in i frågan och förstår att bedöma densamma
             i dess förhållande till samhällsutvecklingens nuvarande ståndpunkt.
           </seg>
-        </u>
-        <u xml:id="i-6wqUmk4LW6AMGn2GPb1TDR" who="i-QiH1m576DcuGtby7dh9oxo" prev="i-8MJQ3N7PYrUvk9894sMJbw" next="i-GxMbcZA7AXiL1fQYiVsKnh">
           <seg xml:id="i-FzhnjaYY36EStaCfgnkoCc">
             Men lika enhälligt som Utskottet varit i fråga om att afstyrka
             den föreliggande motionen, lika enhälligt ansåg Utskottet frågan
@@ -2341,8 +2243,6 @@
             i giftermålsrätten, i den mån sådana af den allmänna meningen
             påkallas och möjliggöras.
           </seg>
-        </u>
-        <u xml:id="i-GxMbcZA7AXiL1fQYiVsKnh" who="i-QiH1m576DcuGtby7dh9oxo" prev="i-6wqUmk4LW6AMGn2GPb1TDR" next="i-VpP6adoF6z1rmfwVNuztV9">
           <seg xml:id="i-8PJaXbQyRqybXuPncJHA3s">
             Den ärade motionären har förebrått Utskottet derför att Utskottet,
             som i sitt utlåtande erkänt behofvet af en förändrad lagstiftning
@@ -2386,7 +2286,7 @@
           åtminstone, som för närvarande torde kunna med framgång ifråga-
           (Forts.) sättas.
         </note>
-        <u xml:id="i-VpP6adoF6z1rmfwVNuztV9" who="i-QiH1m576DcuGtby7dh9oxo" prev="i-GxMbcZA7AXiL1fQYiVsKnh" next="i-KbwJTQGsLuTCiPSetLYa4L">
+        <u xml:id="i-VpP6adoF6z1rmfwVNuztV9" who="i-QiH1m576DcuGtby7dh9oxo" prev="i-DSekibNxvnCVyT2hBgsxge">
           <seg xml:id="i-HvM1Rb7TiM8W1JN2qGpCbU">
             I något bemötande af det klander, som här blifvit rigtadt mot
             Utskottets motivering, skall jag icke inlåta mig; jag tror, att
@@ -2394,8 +2294,6 @@
             håll, både offentligt och enskildt, kommit Utskottet till del
             just för denna motivering.
           </seg>
-        </u>
-        <u xml:id="i-KbwJTQGsLuTCiPSetLYa4L" who="i-QiH1m576DcuGtby7dh9oxo" prev="i-VpP6adoF6z1rmfwVNuztV9">
           <seg xml:id="i-PHe9AtipCVEjMUa6avXFPz">
             På grund af hvad jag nu anfört och med allt erkännande af det
             beaktansvärda i motionens syfte, vågar jag anhålla om afslag å
@@ -2419,7 +2317,7 @@
         <note xml:id="i-5wTdKvZkeYpQMn85gQsQ2V" type="speaker">
           Herr Ekenman:
         </note>
-        <u xml:id="i-PCq9ez6bLZfe1uGwH5opW1" who="i-XTQdTTGwiQ9iKGjbQTfGYs" next="i-QEJqCzwvKbeMCXBBiwB2pq">
+        <u xml:id="i-PCq9ez6bLZfe1uGwH5opW1" who="i-XTQdTTGwiQ9iKGjbQTfGYs" next="i-MtCDmpMctQxyccbLfnWii5">
           <seg xml:id="i-FGmAcvLoLqyCEyTsJcdaDD">
             Jag har inom Utskottet varit af en i viss mån afvikande mening
             i förevarande fråga och kan derför icke inskränka mig till att
@@ -2435,8 +2333,6 @@
             han kommit, så vidt densamma anses framgå af det lagförslag, som
             här föreligger.
           </seg>
-        </u>
-        <u xml:id="i-QEJqCzwvKbeMCXBBiwB2pq" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-PCq9ez6bLZfe1uGwH5opW1" next="i-Xvagg6ty7wPosYA9hzjuqN">
           <seg xml:id="i-NozPbd8KRig81WLuD1b4Ez">
             Jag hade icke ämnat uppträda med någon detaljerad granskning
             af detsamma, men eftersom motionären, att döma af hans yttrande,
@@ -2459,7 +2355,7 @@
         <note xml:id="i-ACsqd7caczMmAr4YtSJGKr" type="date">
           28 | Lördagen den 12 Maj.
         </note>
-        <u xml:id="i-MtCDmpMctQxyccbLfnWii5" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-Xvagg6ty7wPosYA9hzjuqN" next="i-Pp28Z5q2JQNzJAM3WYyzm3">
+        <u xml:id="i-MtCDmpMctQxyccbLfnWii5" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-PCq9ez6bLZfe1uGwH5opW1" next="i-5mRb81ft1MXf5FjHuxXM1r">
           <seg xml:id="i-CdWTniajqXA3sFZKRasxEH">
             deles gifvet, att den efterlefvande makans rätt, sådan den nu
             föreslagits, blir vida sämre än den var förut. Nu kan väl, om
@@ -2470,8 +2366,6 @@
             efterlefvande makans nit, flit och sparsamhet. Detta anser jag
             vara orättvist.
           </seg>
-        </u>
-        <u xml:id="i-Pp28Z5q2JQNzJAM3WYyzm3" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-MtCDmpMctQxyccbLfnWii5" next="i-76QKoe9YBtZjVKnErHZ1To">
           <seg xml:id="i-RUxRScy5avyw7ae9VETz4k">
             Men det är icke detta detaljfel, som fört mig till det slut,
             hvartill Utskottet kommit, utan just det skäl, som Utskottet framhållit,
@@ -2489,8 +2383,6 @@
             aldeles omöjligt att ännu på många år genomföra en så fullständig
             förändring.
           </seg>
-        </u>
-        <u xml:id="i-76QKoe9YBtZjVKnErHZ1To" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-Pp28Z5q2JQNzJAM3WYyzm3" next="i-5mRb81ft1MXf5FjHuxXM1r">
           <seg xml:id="i-KdLXUVf2kGPX1vQBG7HaJz">
             När jag emellertid är ense med motionären rörande förutsättningarne
             för hans förslag, så har jag ansett det vara min pligt att efter
@@ -2527,7 +2419,7 @@
         <note xml:id="i-XzxUjGgYp5x9G3jgDcTUte" type="date">
           Lördagen den 12 Maj. 29 N:o 41.
         </note>
-        <u xml:id="i-5mRb81ft1MXf5FjHuxXM1r" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-76QKoe9YBtZjVKnErHZ1To">
+        <u xml:id="i-5mRb81ft1MXf5FjHuxXM1r" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-MtCDmpMctQxyccbLfnWii5">
           <seg xml:id="i-kf3Mj1Vmk5yxCyL6nE45Q">
             och förestå.« Detta medförde ett praktiskt resultat, och man
             har icke Om ändrad haft skäl att beklaga sig deröfver att ogift
@@ -2575,15 +2467,13 @@
         <note xml:id="i-BHqZSxrkuRTBQt8SwhsDcF" type="speaker">
           Friherre Leijonhufvud:
         </note>
-        <u xml:id="i-2kMJyuwFtXFtwpfoNtg1px" who="i-SfiURaPHeMX8krVz378cGg" next="i-12oWtG2fsy9vKM7ugB2sBi">
+        <u xml:id="i-2kMJyuwFtXFtwpfoNtg1px" who="i-SfiURaPHeMX8krVz378cGg" next="i-RFJfgX2jze9U9iPABorCwk">
           <seg xml:id="i-BreyhutuiD6SNL5ExmEkur">
             Jag är icke mera jurist än motionären sjelf och borde derför
             hysa samma fruktan som han för att gifva mig in på en lagfråga.
             Men det är betydligt mindre farligt att uppträda såsom talare
             än som motionär.
           </seg>
-        </u>
-        <u xml:id="i-12oWtG2fsy9vKM7ugB2sBi" who="i-SfiURaPHeMX8krVz378cGg" prev="i-2kMJyuwFtXFtwpfoNtg1px" next="i-RFJfgX2jze9U9iPABorCwk">
           <seg xml:id="i-8YW2GgKRbwwsKCV7V7qb6E">
             Hvad min ställning till frågan i sin helhet beträffar, så kan
             jag upplysa, att jag varit med om att göra qvinnan lika arfsberättigad
@@ -2603,7 +2493,7 @@
         <note xml:id="i-XdcVR8h7v5egKrS7ns4YjZ" type="date">
           30 Lördagen den 12 Maj.
         </note>
-        <u xml:id="i-RFJfgX2jze9U9iPABorCwk" who="i-SfiURaPHeMX8krVz378cGg" prev="i-12oWtG2fsy9vKM7ugB2sBi" next="i-2hwv3uMKFKPLaXhZscuTU1">
+        <u xml:id="i-RFJfgX2jze9U9iPABorCwk" who="i-SfiURaPHeMX8krVz378cGg" prev="i-2kMJyuwFtXFtwpfoNtg1px" next="i-7vMzeT786JPbqAg8fa2XyG">
           <seg xml:id="i-Wx5ZG1gkQfi9vMKiACN7VG">
             qvinna. Jag har således ingalunda varit ogynsamt stämd mot dessa
             frågor; och jag skulle icke heller vara obenägen att ingå på ett
@@ -2614,15 +2504,11 @@
             för ett så stort steg. Hade motionären deremot nöjt sig med att
             nu taga ett mindre steg, så skulle jag icke haft något deremot.
           </seg>
-        </u>
-        <u xml:id="i-2hwv3uMKFKPLaXhZscuTU1" who="i-SfiURaPHeMX8krVz378cGg" prev="i-RFJfgX2jze9U9iPABorCwk" next="i-GGA1ieJXgmDp3ysYGUcQqo">
           <seg xml:id="i-WsBGAqjWxjRP5EMsG8sqxV">
             Med anledning af det formulerade förslag, som i motionen föreligger,
             vill jag göra några frågor. Jag vågar icke göra några anmärkningar,
             emedan jag icke är jurist.
           </seg>
-        </u>
-        <u xml:id="i-GGA1ieJXgmDp3ysYGUcQqo" who="i-SfiURaPHeMX8krVz378cGg" prev="i-2hwv3uMKFKPLaXhZscuTU1" next="i-SgTWZEE6d2J8ri8sCgFB36">
           <seg xml:id="i-KfvB2G9ec9h4n1yB4bM4eC">
             Motionären tror ej att hans förslag har så stor portée som det
             verkligen eger. Han säger att han endast åsyftar att göra det
@@ -2641,8 +2527,6 @@
             affärer föra bok, huru skall man då kunna utröna om allt gått
             ärligt till eller om här föreligger ett underslef.
           </seg>
-        </u>
-        <u xml:id="i-SgTWZEE6d2J8ri8sCgFB36" who="i-SfiURaPHeMX8krVz378cGg" prev="i-GGA1ieJXgmDp3ysYGUcQqo" next="i-XXbAJHBUaBhevRZe98MYC2">
           <seg xml:id="i-8xt8hDQtjPXHnzN6LnXdQk">
             Jag frågar vidare: är boet makarnes gemensamma egendom? Nej,
             säger motionären, allting skall vara skildt och det utan alla
@@ -2652,8 +2536,6 @@
             beräknas å makarnes sammanslagna egendom, eller få de åtnjuta
             sådant afdrag hvar för sin inkomst?
           </seg>
-        </u>
-        <u xml:id="i-XXbAJHBUaBhevRZe98MYC2" who="i-SfiURaPHeMX8krVz378cGg" prev="i-SgTWZEE6d2J8ri8sCgFB36" next="i-TBuAShDy9BJ1dGrNZ38JLA">
           <seg xml:id="i-PbkjKLyxFikhytHi5ayKQP">
             Allt detta är frågor, hvarpå jag i motionen förgäfves sökt ett
             svar. Kanske kunna de nöjaktigt besvaras, men för min del kan
@@ -2670,8 +2552,6 @@
             det lär väl då bli den, som har hand om pungen, som blir den bestämmande
             dervidlag.
           </seg>
-        </u>
-        <u xml:id="i-TBuAShDy9BJ1dGrNZ38JLA" who="i-SfiURaPHeMX8krVz378cGg" prev="i-XXbAJHBUaBhevRZe98MYC2" next="i-7vMzeT786JPbqAg8fa2XyG">
           <seg xml:id="i-WjaQ6KePLLYeScxivc46Y5">
             Här har en talare sagt, att motionärens syftemål i hufvudsak
             kulle kunna vinnas genom att införa obligatoriskt äktenskapsförord
@@ -2681,7 +2561,7 @@
         <note xml:id="i-U48m4y7djXaqN3HbB8XZJg" type="date">
           Lördagen den 12 Maj. 31 N:o 41.
         </note>
-        <u xml:id="i-7vMzeT786JPbqAg8fa2XyG" who="i-SfiURaPHeMX8krVz378cGg" prev="i-TBuAShDy9BJ1dGrNZ38JLA">
+        <u xml:id="i-7vMzeT786JPbqAg8fa2XyG" who="i-SfiURaPHeMX8krVz378cGg" prev="i-RFJfgX2jze9U9iPABorCwk">
           <seg xml:id="i-BaYYmvwaexerqqSZmFU4j4">
             eller äktenskapskontrakt. För min del tror jag icke att det är
             till- Om ändrad räckligt; dertill fordras äfven, att detta förord
@@ -2753,7 +2633,7 @@
         <note xml:id="i-XT8uLywnZfoW95Hgq7QSyW" type="date">
           32 Lördagen den 12 Maj.
         </note>
-        <u xml:id="i-2vhJcQoZoQpPytBeSChEdN" who="i-PtsTMJHPswghTmmMKTnTZb" prev="i-EteivmKtQS9cBiidjc4Qy5" next="i-2J4THpEi1C5kp2xaFMC5CP">
+        <u xml:id="i-2vhJcQoZoQpPytBeSChEdN" who="i-PtsTMJHPswghTmmMKTnTZb" prev="i-EteivmKtQS9cBiidjc4Qy5">
           <seg xml:id="i-7MosLiV29jQtiEXnBxiG3x">
             sin egen målsman, kastas hon dock tillbaka i omyndighetstillståndet,
             så snart hon blifver fästad vid en make. Mannen tager då hand
@@ -2799,8 +2679,6 @@
             och att Kongl. Maj:t skall veta iakttaga all den hänsyn, som vid
             en så vigtig frågas behandling är af nöden.
           </seg>
-        </u>
-        <u xml:id="i-2J4THpEi1C5kp2xaFMC5CP" who="i-PtsTMJHPswghTmmMKTnTZb" prev="i-2vhJcQoZoQpPytBeSChEdN">
           <seg xml:id="i-6QbAd6R9sH2fPT3U7KDgn7">
             Mine herrar! Jag ber att få instämma med Friherre Stackelberg
             i hans förslag om en skrifvelse till Kongl. Maj:t.
@@ -2826,7 +2704,7 @@
         <note xml:id="i-5MWzkMKVi9HDFsAgwN1iJy" type="date">
           Lördagen den 12 Maj.
         </note>
-        <u xml:id="i-QyWNjzqbn8WPV4PQwrqy3p" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-BXS3HQuWyhBiYpVYdZtvYN" next="i-5Mb2FSsXWcxp5aPu2yp81x">
+        <u xml:id="i-QyWNjzqbn8WPV4PQwrqy3p" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-BXS3HQuWyhBiYpVYdZtvYN" next="i-JWcxQuTFHMpwWuaF64tGVy">
           <seg xml:id="i-SetG6SRMTnyEeHRnKTdesi">
             qvinnans värde, hennes ställning i samhället och inom familjen
             äro Om ändrad glädjande tecken till en stigande civilisation.
@@ -2838,172 +2716,112 @@
             ett (Forts.) utvidgande af den gifta qvinnans sjelfständighet,
             om jag så får ut-
           </seg>
-        </u>
-        <u xml:id="i-5Mb2FSsXWcxp5aPu2yp81x" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-QyWNjzqbn8WPV4PQwrqy3p" next="i-JUpoMY2KEBpFLEEKSGLedS">
           <seg xml:id="i-MuYwxKwWcwPtmScmcnC4ig">
             trycka mig. Men, mine herrar, det är en sak, hvilka sympatier
             man
           </seg>
-        </u>
-        <u xml:id="i-JUpoMY2KEBpFLEEKSGLedS" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-5Mb2FSsXWcxp5aPu2yp81x" next="i-FGNQuEhnWBcM8eGf8uAM4K">
           <seg xml:id="i-AaRsT2zK6ajkngFPM1gHRW">
             kan hafva i detta hänseende, en annan hvad som i lagen kan före-
           </seg>
-        </u>
-        <u xml:id="i-FGNQuEhnWBcM8eGf8uAM4K" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-JUpoMY2KEBpFLEEKSGLedS" next="i-GATQoVoaGNewDJkxdBDCD9">
           <seg xml:id="i-SPtSmUV1ooscUUdYQavKMk">
             skrifvas. Vi, som här tala om denna sak, se den vanligen ur syn-
           </seg>
-        </u>
-        <u xml:id="i-GATQoVoaGNewDJkxdBDCD9" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-FGNQuEhnWBcM8eGf8uAM4K" next="i-56z2uUnRXTPJ9PmsBUaEQH">
           <seg xml:id="i-T3qs3H14foEEbZGtTL9ebt">
             punkten af de förmögnare klassernas intresse, och från denna
             synpunkt
           </seg>
-        </u>
-        <u xml:id="i-56z2uUnRXTPJ9PmsBUaEQH" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-GATQoVoaGNewDJkxdBDCD9" next="i-UAcJzzoo7jHpbnS2gwzCWs">
           <seg xml:id="i-M6qag9aqJx7Z8BSJxV2aYr">
             sedt har också motionären framhållit, att vår nuvarande lagstiftning
           </seg>
-        </u>
-        <u xml:id="i-UAcJzzoo7jHpbnS2gwzCWs" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-56z2uUnRXTPJ9PmsBUaEQH" next="i-3fTXrwWF2yEb43LSzgPHtG">
           <seg xml:id="i-5GyRsv9TAVx6YbFsM7MqHZ">
             ej vore lämplig, utan att åt qvinnan borde tillerkännas större
             frihet
           </seg>
-        </u>
-        <u xml:id="i-3fTXrwWF2yEb43LSzgPHtG" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-UAcJzzoo7jHpbnS2gwzCWs" next="i-3Zyy3YkdVBhZqXPKuycFuM">
           <seg xml:id="i-GhqoMv2Dg7A3J16MqcKHLd">
             att råda öfver den förmögenhet hon medfört i boet och som stundom
           </seg>
-        </u>
-        <u xml:id="i-3Zyy3YkdVBhZqXPKuycFuM" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-3fTXrwWF2yEb43LSzgPHtG" next="i-EUHueUBgZEAe1tjj1x6M1r">
           <seg xml:id="i-DeSf86JwHzLRRtayUh3okT">
             vore ganska betydlig samt att hon ej ovilkorligen borde ställas
             under
           </seg>
-        </u>
-        <u xml:id="i-EUHueUBgZEAe1tjj1x6M1r" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-3Zyy3YkdVBhZqXPKuycFuM" next="i-zJWk8QaTmw3wmtbRaL6Cm">
           <seg xml:id="i-447o3FLTcN4io7ELPch6kM">
             mannens målsmanskap. Men, mine herrar, lagen är skrifven för
             den
           </seg>
-        </u>
-        <u xml:id="i-zJWk8QaTmw3wmtbRaL6Cm" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-EUHueUBgZEAe1tjj1x6M1r" next="i-DKVuoCvXd45PPSchVUCsRs">
           <seg xml:id="i-9yviBt2zajaDTQG5Z2mutg">
             stora massan af folket. Det är också en egendomlighet med vår
           </seg>
-        </u>
-        <u xml:id="i-DKVuoCvXd45PPSchVUCsRs" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-zJWk8QaTmw3wmtbRaL6Cm" next="i-QXQ4TrD3mipKcjNAhG6psq">
           <seg xml:id="i-SYbHAcG6rQXrreJxHT32wy">
             svenska lag, att den icke, såsom i de flesta andra europeiska
             länder, tillkommit på grund af den romerska rätten, utan, utgången
             från folket
           </seg>
-        </u>
-        <u xml:id="i-QXQ4TrD3mipKcjNAhG6psq" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-DKVuoCvXd45PPSchVUCsRs" next="i-DLQwZ1dSCt7PVeEdAE8ZsV">
           <seg xml:id="i-JJQ95PLcMLYuzuaYNPnbE1">
             sjelft, har den bibehållit sig, sådan den från urminnes tider
             varit,
           </seg>
-        </u>
-        <u xml:id="i-DLQwZ1dSCt7PVeEdAE8ZsV" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-QXQ4TrD3mipKcjNAhG6psq" next="i-7jnZ1NEombS9B3p1Vky5Km">
           <seg xml:id="i-LEdoih1QT7vbB6wwq6CmVy">
             endast med de modifikationer, som förändrade tidsförhållanden
             medfört.
           </seg>
-        </u>
-        <u xml:id="i-7jnZ1NEombS9B3p1Vky5Km" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-DLQwZ1dSCt7PVeEdAE8ZsV" next="i-o8kkD9f7zzxnxjhMPSfQJ">
           <seg xml:id="i-YAHSCsqnAV4ZA1AXLEP1k1">
             Vid sådant förhållande vågar jag påstå, att för den stora mängden
           </seg>
-        </u>
-        <u xml:id="i-o8kkD9f7zzxnxjhMPSfQJ" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-7jnZ1NEombS9B3p1Vky5Km" next="i-JTraDrRSDfAwHR8n2bUjG1">
           <seg xml:id="i-CZhBasqZBx38F8jPpGRjvZ">
             af folket är den nuvarande giftermålslagen den naturliga. Mannen
           </seg>
-        </u>
-        <u xml:id="i-JTraDrRSDfAwHR8n2bUjG1" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-o8kkD9f7zzxnxjhMPSfQJ" next="i-WkwGDe65DiLtNkvfM1ANHG">
           <seg xml:id="i-Wcc8EeYwAEHCoitX8LyusC">
             arbetar i den yttre verlden och samlar tillgångar, hustrun sparar
             på
           </seg>
-        </u>
-        <u xml:id="i-WkwGDe65DiLtNkvfM1ANHG" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-JTraDrRSDfAwHR8n2bUjG1" next="i-SHNmxJW31tQky8mNPJue3p">
           <seg xml:id="i-Ci7dhAijNArt8D7wrmzP72">
             dessa tillgångar eller använder dem för husets behof. Att dervid
             göra
           </seg>
-        </u>
-        <u xml:id="i-SHNmxJW31tQky8mNPJue3p" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-WkwGDe65DiLtNkvfM1ANHG" next="i-851fdUfvN1G6TbXrNDGnRL">
           <seg xml:id="i-EYEhsWRQXx6cfDdMsyvhvJ">
             en fördelning af tillgångarne mellan mannen och hustrun, vet
             jag
           </seg>
-        </u>
-        <u xml:id="i-851fdUfvN1G6TbXrNDGnRL" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-SHNmxJW31tQky8mNPJue3p" next="i-2eoUWJrp45DWAexEXhD87Q">
           <seg xml:id="i-NWu8PfopmhGk47p4LzZyT7">
             verkligen icke huru det skulle gå till. Dessa tillgångar äro
             vanligen
           </seg>
-        </u>
-        <u xml:id="i-2eoUWJrp45DWAexEXhD87Q" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-851fdUfvN1G6TbXrNDGnRL" next="i-LXgkXXKjQg5p7LFKWgvQtb">
           <seg xml:id="i-2ut5zCqzpfZ9apucRTFgs5">
             också icke större, än att de motsvara utgifterna för det gemensamma
           </seg>
-        </u>
-        <u xml:id="i-LXgkXXKjQg5p7LFKWgvQtb" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-2eoUWJrp45DWAexEXhD87Q" next="i-LaqcvrrxpQzdLXNiTYcM3P">
           <seg xml:id="i-KZWMLXN7tS3rgU6Chv1dJt">
             boet, och då är det ju naturligt att mannen förskaffar dessa
             tillgångar,
           </seg>
-        </u>
-        <u xml:id="i-LaqcvrrxpQzdLXNiTYcM3P" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-LXgkXXKjQg5p7LFKWgvQtb" next="i-5EPSvQcSFVnVhqzBraqrpE">
           <seg xml:id="i-3jBp9s4jrFm8CDZpN64jn1">
             och att hustrun, vid barnens uppfostran o. s. v., använder dem
             på bästa
           </seg>
-        </u>
-        <u xml:id="i-5EPSvQcSFVnVhqzBraqrpE" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-LaqcvrrxpQzdLXNiTYcM3P" next="i-Q7s6XGZVjPTXzVUyqCEghb">
           <seg xml:id="i-RdMWwWAWfEsuxjhusika3g">
             sätt. När förmögenheten i vissa klasser växt och blifvit så stor,
             att
           </seg>
-        </u>
-        <u xml:id="i-Q7s6XGZVjPTXzVUyqCEghb" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-5EPSvQcSFVnVhqzBraqrpE" next="i-84NXZca2VfpkG6ckMJ4Zvb">
           <seg xml:id="i-DksPKwYf4h1BC77F7Cjx7j">
             denna lag, grundad på naturliga förhållanden, icke passar längre,
             då
           </seg>
-        </u>
-        <u xml:id="i-84NXZca2VfpkG6ckMJ4Zvb" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-Q7s6XGZVjPTXzVUyqCEghb" next="i-KW465YVoJT6ZbPPaBgRyX3">
           <seg xml:id="i-QDwcC5aDs8jo2TLWaPbwYY">
             kan det vara skäl att börja tänka på någon annan anordning. Men
           </seg>
-        </u>
-        <u xml:id="i-KW465YVoJT6ZbPPaBgRyX3" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-84NXZca2VfpkG6ckMJ4Zvb" next="i-8XUNPh9m6fEmWbzhWuZ7J5">
           <seg xml:id="i-G4qSQh9oWjL3zxANW41s13">
             för närvarande är ju detta i allmänhet icke fallet, ty de personer,
           </seg>
-        </u>
-        <u xml:id="i-8XUNPh9m6fEmWbzhWuZ7J5" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-KW465YVoJT6ZbPPaBgRyX3" next="i-DNzR2WSA9Kb353SUe6Vj9b">
           <seg xml:id="i-Cj5HWfttkUKFHzL3Jc7FhJ">
             som äro i den lyckliga ställningen, äro de färre; de äro undantagen.
           </seg>
-        </u>
-        <u xml:id="i-DNzR2WSA9Kb353SUe6Vj9b" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-8XUNPh9m6fEmWbzhWuZ7J5" next="i-75gHyzzetgXM77VqezpN16">
           <seg xml:id="i-BqSydEUwLRZrirW3Rtg538">
             Jag menar således att våra lagstiftare gjorde fullkomligt rätt,
             då de
           </seg>
-        </u>
-        <u xml:id="i-75gHyzzetgXM77VqezpN16" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-DNzR2WSA9Kb353SUe6Vj9b" next="i-HmQ8d6fLcJfTGrtwNCgpq1">
           <seg xml:id="i-WNPDAwdwbtVvfkh6ZdxTiy">
             1874 vidtogo den förändring i lagen, att äktenskapsförord, som
             dit-
           </seg>
-        </u>
-        <u xml:id="i-HmQ8d6fLcJfTGrtwNCgpq1" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-75gHyzzetgXM77VqezpN16" next="i-JWcxQuTFHMpwWuaF64tGVy">
           <seg xml:id="i-Vg2CqKckokeWn1yHpdJhHb">
             intills endast fick göras rörande giftorätt i bo, kunde göras
             jemväl
@@ -3013,59 +2831,41 @@
           angående qvinnans rätt att förvalta sin egendom, antingen den
           hon
         </note>
-        <u xml:id="i-JWcxQuTFHMpwWuaF64tGVy" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-HmQ8d6fLcJfTGrtwNCgpq1" next="i-FTd68Dh5wU2fRGGTY3qRDS">
+        <u xml:id="i-JWcxQuTFHMpwWuaF64tGVy" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-QyWNjzqbn8WPV4PQwrqy3p" next="i-JKMebudnoKGamtgEhPCXo7">
           <seg xml:id="i-L9bvmqRiw89uE2aAQD5ciT">
             sjelf förvärfvat eller den hennes fader eller någon annan gifvit
             henne,
           </seg>
-        </u>
-        <u xml:id="i-FTd68Dh5wU2fRGGTY3qRDS" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-JWcxQuTFHMpwWuaF64tGVy" next="i-RMPBv3N9yTYM6jTD29gZBr">
           <seg xml:id="i-8CikjLqKyHD8APhViTWeU2">
             med vilkor att den skulle förblifva hennes egen. Likaså anser
             jag
           </seg>
-        </u>
-        <u xml:id="i-RMPBv3N9yTYM6jTD29gZBr" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-FTd68Dh5wU2fRGGTY3qRDS" next="i-56j5Y5tDuJHkm3TFNY2XKn">
           <seg xml:id="i-AjVmEWPKdB65px1zPF33b9">
             att lagstiftningen handlade rätt, då den vidtog en sådan förändring,
           </seg>
-        </u>
-        <u xml:id="i-56j5Y5tDuJHkm3TFNY2XKn" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-RMPBv3N9yTYM6jTD29gZBr" next="i-KLumV24Dv9iwwZEqy8Vx6v">
           <seg xml:id="i-3VgE6pSvsadRNndVz7AP3M">
             att den gaf den gifta qvinnan i det fattiga boet, der en slösande
             och
           </seg>
-        </u>
-        <u xml:id="i-KLumV24Dv9iwwZEqy8Vx6v" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-56j5Y5tDuJHkm3TFNY2XKn" next="i-QfkfG9azajjZ8pTjwhsdwC">
           <seg xml:id="i-9WQoksC8HSX2sgAqs9KojM">
             supig man kunde förstöra hvad der funnes, rätt att förvalta och
           </seg>
-        </u>
-        <u xml:id="i-QfkfG9azajjZ8pTjwhsdwC" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-KLumV24Dv9iwwZEqy8Vx6v" next="i-5yxgiNsTp9rsqkV3VmiUGy">
           <seg xml:id="i-SCP3Yvf5nmucYmySE8ntze">
             disponera öfver det hon sjelf förvärfvat. Detta var den förändring
             i
           </seg>
-        </u>
-        <u xml:id="i-5yxgiNsTp9rsqkV3VmiUGy" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-QfkfG9azajjZ8pTjwhsdwC" next="i-MhkkUjMwdTtEvFjiYXLb5D">
           <seg xml:id="i-XiB493Sv8UhrXN47XD5GYq">
             lagen, som vidtogs 1874, således för icke mer än 9 år sedan.
             Men
           </seg>
-        </u>
-        <u xml:id="i-MhkkUjMwdTtEvFjiYXLb5D" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-5yxgiNsTp9rsqkV3VmiUGy" next="i-HwgdNHCyvFfNaSeoKNdn9M">
           <seg xml:id="i-Wki2qtUzTjP18RAJjyFMhx">
             det innerliga familjeförhållande, som lyckligtvis råder i Sverige,
             har
           </seg>
-        </u>
-        <u xml:id="i-HwgdNHCyvFfNaSeoKNdn9M" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-MhkkUjMwdTtEvFjiYXLb5D" next="i-A8Lk3K1qxYCKBgXQasTZKK">
           <seg xml:id="i-72jw1dgRN2UHJddEim3dYJ">
             gjort att denna lag ganska sällan kommit att tillämpas. Man vet
             icke
           </seg>
-        </u>
-        <u xml:id="i-A8Lk3K1qxYCKBgXQasTZKK" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-HwgdNHCyvFfNaSeoKNdn9M" next="i-JKMebudnoKGamtgEhPCXo7">
           <seg xml:id="i-5DiAtPELq9P7qnRXnnrGaC">
             af och vill egentligen icke veta af något annat än det naturliga,
             och
@@ -3085,7 +2885,7 @@
         <note xml:id="i-PHmSE3P3JqHoX3dLGUvr4i" type="date">
           34 Lördagen den 12 Maj.
         </note>
-        <u xml:id="i-JKMebudnoKGamtgEhPCXo7" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-A8Lk3K1qxYCKBgXQasTZKK" next="i-Dq3YJSBEzGeL1KxshrH7so">
+        <u xml:id="i-JKMebudnoKGamtgEhPCXo7" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-JWcxQuTFHMpwWuaF64tGVy" next="i-Xkyq8RcauDPJgZHzGBNxbq">
           <seg xml:id="i-7YfcbtJPKfyeCfNbxGMNUQ">
             Jag vill icke säga att detta är någon olycka. Jag befarar att
             ett annat reglerande af förmögenhetsförhållandena mellan man och
@@ -3110,8 +2910,6 @@
             om detta land, icke utgör dess familjelif någon typ för ett godt
             förhållande mellan man och hustru.
           </seg>
-        </u>
-        <u xml:id="i-Dq3YJSBEzGeL1KxshrH7so" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-JKMebudnoKGamtgEhPCXo7" next="i-Xkyq8RcauDPJgZHzGBNxbq">
           <seg xml:id="i-W8pf3K5vbHf83hY8Rt1KMe">
             Jag tror således, att den väg, som lagstiftningen i Sverige beträdde,
             då den 1874 medgaf gift qvinna rätt att sköta den egendom, hon
@@ -3148,7 +2946,7 @@
         <note xml:id="i-W3w9xwiLa1JHrHhCHviPWE" type="date">
           Lördagen den 12 Maj. 35 N:o 41.
         </note>
-        <u xml:id="i-Xkyq8RcauDPJgZHzGBNxbq" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-Dq3YJSBEzGeL1KxshrH7so">
+        <u xml:id="i-Xkyq8RcauDPJgZHzGBNxbq" who="i-VRHbq9433F1APDMq9jUvBB" prev="i-JKMebudnoKGamtgEhPCXo7">
           <seg xml:id="i-SxZmoZTKVqdnT4qTf8pqHQ">
             för att lagstiftningen skulle behöfva redan nu vidtaga någon
             ändring Om ändrad af lagen i ifrågavarande hänseende. lagstiftning
@@ -3221,7 +3019,7 @@
         <note xml:id="i-2Cm55Xgkac3yS7GnvD3f1e" type="date">
           36 Lördagen den 12 Maj.
         </note>
-        <u xml:id="i-3vW4ZX1xJYnJBrmuUW5faJ" who="i-Av5iFLEVV3RMNr1v9Tf4z8" prev="i-W78n8Kudd1rdKsHqGv1bvA" next="i-FmrbYsWtLBj4qWCd29BK5A">
+        <u xml:id="i-3vW4ZX1xJYnJBrmuUW5faJ" who="i-Av5iFLEVV3RMNr1v9Tf4z8" prev="i-W78n8Kudd1rdKsHqGv1bvA" next="i-CQmWRZzAvFDz71NsLVpDqN">
           <seg xml:id="i-UwdeqzSARBZRa5vBj3yuQo">
             som förut. Jag tror det icke. Jag medger gerna, att all lagstiftning
             på detta område är supplementär för de familjer, som i fråga om
@@ -3264,8 +3062,6 @@
             gemensamma. Jag kan således icke godkänna det generella syfte,
             motionären omfattar.
           </seg>
-        </u>
-        <u xml:id="i-FmrbYsWtLBj4qWCd29BK5A" who="i-Av5iFLEVV3RMNr1v9Tf4z8" prev="i-3vW4ZX1xJYnJBrmuUW5faJ" next="i-WwPDYqj1b7Dkev3Yoxi6G9">
           <seg xml:id="i-TM61QkkKHvHtV4StcmPSkt">
             Här är också under diskussionen påvisadt, huru många olägenheter
             detta förslag skulle medföra, och jag behöfver derför icke upprepa
@@ -3278,8 +3074,6 @@
             vara stor, och det torde således ur principiel synpunkt vara ett
             vågadt steg att nu följa motionären ända till slutet af hans förslag.
           </seg>
-        </u>
-        <u xml:id="i-WwPDYqj1b7Dkev3Yoxi6G9" who="i-Av5iFLEVV3RMNr1v9Tf4z8" prev="i-FmrbYsWtLBj4qWCd29BK5A" next="i-CQmWRZzAvFDz71NsLVpDqN">
           <seg xml:id="i-SzDotwpugnjGv2EidPZeRf">
             För min del har jag ansett den lyckligaste lösning af frågan
             vara den, att söka göra mannen och hustrun fullkomligt lika myndiga,
@@ -3290,7 +3084,7 @@
         <note xml:id="i-VHmXoJyT78eT2RfGdZkTb2" type="date">
           Lördagen den 12 Maj. ST
         </note>
-        <u xml:id="i-CQmWRZzAvFDz71NsLVpDqN" who="i-Av5iFLEVV3RMNr1v9Tf4z8" prev="i-WwPDYqj1b7Dkev3Yoxi6G9">
+        <u xml:id="i-CQmWRZzAvFDz71NsLVpDqN" who="i-Av5iFLEVV3RMNr1v9Tf4z8" prev="i-3vW4ZX1xJYnJBrmuUW5faJ">
           <seg xml:id="i-9YEYzPY9vSqrPsPYXmVc82">
             skaffa qvinnan lika rättsligt inflytande på boets förvaltning,
             som mannen nu eger. Blefve lagstiftningen sådan, skulle enligt
@@ -3311,7 +3105,7 @@
         <note xml:id="i-Agt1bJfBAbjejmmrRGzFQg" type="speaker">
           Herr Hedlund:
         </note>
-        <u xml:id="i-LnhXKLM2xaEmkgyQWr2agn" who="i-YFzzFKh2NjM54cFjad2qWQ" next="i-6ADs5LtnohexaAYfX2Yf5R">
+        <u xml:id="i-LnhXKLM2xaEmkgyQWr2agn" who="i-YFzzFKh2NjM54cFjad2qWQ" next="i-JkRFpoFULByZJNmgTtfb4E">
           <seg xml:id="i-SmVf7gHRg3JgSHkLXHpVb">
             Det har talats mycket både i Lag-Utskottets betänkande och under
             debatten i dag, att nu icke tala om yttranden utom denna församling,
@@ -3324,8 +3118,6 @@
             största förmögenhet, men icke har rätt att deröfver förfoga, kan
             jag visserligen sägas vara rik, men denna rikedom
           </seg>
-        </u>
-        <u xml:id="i-6ADs5LtnohexaAYfX2Yf5R" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-LnhXKLM2xaEmkgyQWr2agn" next="i-UoPSQ8WiGF6Aon6BTwaXYD">
           <seg xml:id="i-KneUfpdFk7ghxz5ZpeGQYT">
             är mig dock till föga gagn. Nu har, såsom vi veta, qvinnan ingen
             rätt att förfoga öfver den gemensamma egendomen, utan denna rätt
@@ -3349,8 +3141,6 @@
             hvilka frågat, huru den och den saken skulle gestalta sig under
             det och det förhållandet.
           </seg>
-        </u>
-        <u xml:id="i-UoPSQ8WiGF6Aon6BTwaXYD" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-6ADs5LtnohexaAYfX2Yf5R" next="i-JkRFpoFULByZJNmgTtfb4E">
           <seg xml:id="i-AHeNJ59mSGLFSjynYULWyU">
             Lag-Utskottet talar vackra ord om familjerätten och familjelagstiftningen
             och anser att med den lagstiftning, som motionären här föreslagit,
@@ -3406,12 +3196,10 @@
           söker man att stadfästa särskilda nationella lagar, och det icke
           blott i eko-
         </note>
-        <u xml:id="i-JkRFpoFULByZJNmgTtfb4E" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-UoPSQ8WiGF6Aon6BTwaXYD" next="i-3b1LDi3t3WieqpN6jg1fXH">
+        <u xml:id="i-JkRFpoFULByZJNmgTtfb4E" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-LnhXKLM2xaEmkgyQWr2agn">
           <seg xml:id="i-XSaAm79UkBkrtYTRaWPGiF">
             nomiskt, utan äfven i rättsligt afseende.
           </seg>
-        </u>
-        <u xml:id="i-3b1LDi3t3WieqpN6jg1fXH" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-JkRFpoFULByZJNmgTtfb4E">
           <seg xml:id="i-DqbmA8uUD68WG3k5u9X6K5">
             Jag vill väl icke precis säga, att motionärens förslag om en
             skrifvelse till Kongl. Maj:t i af honom angifvet syfte är för
@@ -3427,15 +3215,13 @@
         <note xml:id="i-7FA3CCtVdyW41do6auaFXk" type="speaker">
           Herr Schenström:
         </note>
-        <u xml:id="i-NQKAjE7rQ2HFc75FJQGBFC" who="i-F9oag7TTVyYhefCPVcBEwu" next="i-Ghi6TuTKar1EE66jtqsrBx">
+        <u xml:id="i-NQKAjE7rQ2HFc75FJQGBFC" who="i-F9oag7TTVyYhefCPVcBEwu" next="i-8XKUPUGfGboT4mRjxg4h89">
           <seg xml:id="i-AqHxQkCwGD7r1T7UtWn8AK">
             Sedan jag begärde ordet, hafva redan många andra af Kammarens
             ledamöter yttrat sig i denna fråga, och jag skulle kunna inskränka
             mig till att instämma med Herr Thomasson, men några ord vill jag
             dock tillägga.
           </seg>
-        </u>
-        <u xml:id="i-Ghi6TuTKar1EE66jtqsrBx" who="i-F9oag7TTVyYhefCPVcBEwu" prev="i-NQKAjE7rQ2HFc75FJQGBFC" next="i-8XKUPUGfGboT4mRjxg4h89">
           <seg xml:id="i-3D7vVDwXVzBuNVRrcw2CnF">
             Det måste väl i allmänhet vara tydligt för en hvar, att denna
             fråga är en af de mest svårlösta, som någonsin kunna bringas till
@@ -3449,7 +3235,7 @@
         <note xml:id="i-9ZozLxDyCp62NetLj4tmeE" type="date">
           Lördagen den 12 Maj. 39 N:o 41.
         </note>
-        <u xml:id="i-8XKUPUGfGboT4mRjxg4h89" who="i-F9oag7TTVyYhefCPVcBEwu" prev="i-Ghi6TuTKar1EE66jtqsrBx">
+        <u xml:id="i-8XKUPUGfGboT4mRjxg4h89" who="i-F9oag7TTVyYhefCPVcBEwu" prev="i-NQKAjE7rQ2HFc75FJQGBFC">
           <seg xml:id="i-XWH8Y6APK3SC1mCDSfCHDU">
             som nu finnas. När nöden kommer, när konkurs eller utmätning
             Om ändrad hotar, då biträder den ene maken ömsesidigt den andre,
@@ -3527,7 +3313,7 @@
         <note xml:id="i-8G7Ju7KuMBSYx6wHJ9jF1W" type="date">
           40 Lördagen den 12 Maj,
         </note>
-        <u xml:id="i-N1ZG471j7P74rroFJ9gBZ2" who="i-DE86LDEC7dgsNMqreAPcdK" prev="i-MbptKoEyoyMXo7dGpvawDQ" next="i-RM2qsNUdNPDDonfxgrqz8j">
+        <u xml:id="i-N1ZG471j7P74rroFJ9gBZ2" who="i-DE86LDEC7dgsNMqreAPcdK" prev="i-MbptKoEyoyMXo7dGpvawDQ" next="i-REsKa9XvYUF4eMjkenDmTu">
           <seg xml:id="i-2P5ub7ChAba4cyqG9SoDZn">
             ling, Den är för mig såsom en vårens lärka, en budbärarinna inom
             qvinlighetens verld. Jag föreställer mig dock att hon denna gång
@@ -3536,8 +3322,6 @@
             skall komma och åter komma, till dess det slutligen lyckas henne
             att få detta solljus, se grönskan och utvecklingen.
           </seg>
-        </u>
-        <u xml:id="i-RM2qsNUdNPDDonfxgrqz8j" who="i-DE86LDEC7dgsNMqreAPcdK" prev="i-N1ZG471j7P74rroFJ9gBZ2" next="i-DCAvdQ7JeQ28GVwS9VSM4J">
           <seg xml:id="i-RwR9bAB6nENjaovPuLfKjj">
             Det är anmärkningsvärdt hvad svårigheterna äro stora, när det
             gäller att bereda qvinnan en bättre rättslig ställning i samhället.
@@ -3552,8 +3336,6 @@
             lagen hos oss ännu i detta fall bjuder på skådebröd i stället
             för sund och närande spis.
           </seg>
-        </u>
-        <u xml:id="i-DCAvdQ7JeQ28GVwS9VSM4J" who="i-DE86LDEC7dgsNMqreAPcdK" prev="i-RM2qsNUdNPDDonfxgrqz8j" next="i-REsKa9XvYUF4eMjkenDmTu">
           <seg xml:id="i-SpKYVC8x2wSEFy2vSfgsR3">
             Det är 39 år sedan den lika arfsrätten proklamerades. Det var
             nemligen år 1844. Man tog för gifvet att, när qvinnan hade fått
@@ -3595,7 +3377,7 @@
         <note xml:id="i-JU4hr27HomZKNYEAC3EVpR" type="date">
           Lördagen den 12 Maj. 41
         </note>
-        <u xml:id="i-REsKa9XvYUF4eMjkenDmTu" who="i-DE86LDEC7dgsNMqreAPcdK" prev="i-DCAvdQ7JeQ28GVwS9VSM4J" next="i-Kr8ydvkfw378VxfasaUof3">
+        <u xml:id="i-REsKa9XvYUF4eMjkenDmTu" who="i-DE86LDEC7dgsNMqreAPcdK" prev="i-N1ZG471j7P74rroFJ9gBZ2" next="i-Kr8ydvkfw378VxfasaUof3">
           <seg xml:id="i-QBh5DdzLzPdW4EPdeM3AGC">
             Det är en känd sak, att på de områden, der man gifvit qvinnan
             en smula frihet, der har hon kunnat gå framåt och verkat på ett,
@@ -3609,14 +3391,12 @@
         <note xml:id="i-LdiYZ4bBoQQn2jjKuEm9X5">
           Om ändrad lagstiftning ang. äkta makarsinbör-
         </note>
-        <u xml:id="i-Kr8ydvkfw378VxfasaUof3" who="i-DE86LDEC7dgsNMqreAPcdK" prev="i-REsKa9XvYUF4eMjkenDmTu" next="i-RPEMK3Mr8Md5PkvmJCsHyZ">
+        <u xml:id="i-Kr8ydvkfw378VxfasaUof3" who="i-DE86LDEC7dgsNMqreAPcdK" prev="i-REsKa9XvYUF4eMjkenDmTu">
           <seg xml:id="i-VrP7EaqMqe2W8czphPQeTG">
             man ansett detta ensamt vara nog för att berättiga den gifta
             qvinnan desegendomsatt intaga den rättsställning, som henne tillkommer.
             Man har icke förhållanden,
           </seg>
-        </u>
-        <u xml:id="i-RPEMK3Mr8Md5PkvmJCsHyZ" who="i-DE86LDEC7dgsNMqreAPcdK" prev="i-Kr8ydvkfw378VxfasaUof3" next="i-RK7W6TacBhiwtHHFqYvVhU">
           <seg xml:id="i-LHK8oQVzetdu4d5Xbjq6G1">
             heller hört några klagomål öfver den ogifta qvinnans sätt att
             sköta sina åligganden inom de olika områden, der hennes verksamhet
@@ -3626,8 +3406,6 @@
             samma duglighet och samma intelligens hos den gifta som hos den
             ogifta qvinnan.
           </seg>
-        </u>
-        <u xml:id="i-RK7W6TacBhiwtHHFqYvVhU" who="i-DE86LDEC7dgsNMqreAPcdK" prev="i-RPEMK3Mr8Md5PkvmJCsHyZ" next="i-6GsQfK275T3HPk9f5EJryJ">
           <seg xml:id="i-PLKxBSb3MAhmEHtadHYB1g">
             Jag är, såsom jag förut yttrat, fullt öfvertygad om att denna
             angelägenhet är så utomordentligt vigtig för samhället och dess
@@ -3641,8 +3419,6 @@
             om denna grundsats blefve erkänd; allt annat skulle så småningom
             lämpa sig derefter.
           </seg>
-        </u>
-        <u xml:id="i-6GsQfK275T3HPk9f5EJryJ" who="i-DE86LDEC7dgsNMqreAPcdK" prev="i-RK7W6TacBhiwtHHFqYvVhU" next="i-RBPAWvsQsH7J8qVzGEnLTh">
           <seg xml:id="i-CkSwL5fU84yXAVcn2MBMJr">
             Då tiden är långt framskriden, vill jag emellertid icke fortsätta
             längre, blott tillägga att jag, beträffande frågans ytterligare
@@ -3658,8 +3434,6 @@
             eger man, att en sådan komité blefve visare än Riksdagen och dess
             Lag-Utskott?
           </seg>
-        </u>
-        <u xml:id="i-RBPAWvsQsH7J8qVzGEnLTh" who="i-DE86LDEC7dgsNMqreAPcdK" prev="i-6GsQfK275T3HPk9f5EJryJ">
           <seg xml:id="i-5qqgfRcKsjmuwhP2ThJLmx">
             Jag anhåller slutligen, att Kammaren, med ogillande af Lag- Utskottets
             motiv, måtte bifalla det slut, hvartill Utskottet kommit.
@@ -3668,13 +3442,11 @@
         <note xml:id="i-axVAp6Yz2S4EUHREcfEwJ" type="speaker">
           Herr Heggström:
         </note>
-        <u xml:id="i-W3BouiERRvY7fy4HfrGN3Q" who="i-5GqnTURvMSP3hjBB327kuL" next="i-Dca2NFqucvnp5Hx7HmpdBJ">
+        <u xml:id="i-W3BouiERRvY7fy4HfrGN3Q" who="i-5GqnTURvMSP3hjBB327kuL" next="i-AsqEzosiMk9WmdpiDJhwTY">
           <seg xml:id="i-26sEjmCKwqBfkyqkM5898J">
             Mine herrar! Jag skall ställa mig Eder önskan till efterrättelse;
             det skall inte blifva många ord jag skall spilla på saken.
           </seg>
-        </u>
-        <u xml:id="i-Dca2NFqucvnp5Hx7HmpdBJ" who="i-5GqnTURvMSP3hjBB327kuL" prev="i-W3BouiERRvY7fy4HfrGN3Q" next="i-AsqEzosiMk9WmdpiDJhwTY">
           <seg xml:id="i-HK93pXPsMKbyHeYDmQgRAq">
             Jag hade icke tänkt yttra mig i frågan, men det var något i Grefve
             Sparres bevisföring, som ovilkorligen uppkallade mig. Hans argumentation
@@ -3705,7 +3477,7 @@
         <note xml:id="i-3zQMHHTx8tUrx1V8JwD6hz" type="date">
           42 Lördagen den 12 Maj.
         </note>
-        <u xml:id="i-AsqEzosiMk9WmdpiDJhwTY" who="i-5GqnTURvMSP3hjBB327kuL" prev="i-Dca2NFqucvnp5Hx7HmpdBJ" next="i-7Sfw78fxF9SH2BMv2Dakez">
+        <u xml:id="i-AsqEzosiMk9WmdpiDJhwTY" who="i-5GqnTURvMSP3hjBB327kuL" prev="i-W3BouiERRvY7fy4HfrGN3Q">
           <seg xml:id="i-JLcZB65yqaR1grErH6MLrS">
             strafflagen tillkommit för undantagens skull. Flertalet menniskor
             hör väl till dem, som äro hederliga och lefva lagenligt. Lika
@@ -3723,14 +3495,10 @@
             och qgvinnan haft rätt att säga ja och lemna sitt medgifvande,
             innan borgen tecknades.
           </seg>
-        </u>
-        <u xml:id="i-7Sfw78fxF9SH2BMv2Dakez" who="i-5GqnTURvMSP3hjBB327kuL" prev="i-AsqEzosiMk9WmdpiDJhwTY" next="i-TgwgBcv7gT5ZiUVKbc6KEu">
           <seg xml:id="i-BjnBoSJKBHHJEUQJqM4deH">
             Säkert är att härigenom många ruiner och obehag skulle kunnat
             undvikas.
           </seg>
-        </u>
-        <u xml:id="i-TgwgBcv7gT5ZiUVKbc6KEu" who="i-5GqnTURvMSP3hjBB327kuL" prev="i-7Sfw78fxF9SH2BMv2Dakez">
           <seg xml:id="i-U6AwrDybVTy68c8AryJdDD">
             Jag har sagt att jag skall blifva kort, och ehuru mycket skulle
             kunna vara att tillägga, ber jag derför endast att få instämma

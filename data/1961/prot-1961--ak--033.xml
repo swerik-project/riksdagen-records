@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-8hMVY6hgmLfKmjQR1njtJY" type="speech">
             <linkGrp type="u">
               <ptr target="#i-ELErsSK41G8uQPmvKgSsnP"/>
@@ -547,7 +547,13 @@
               <ptr target="#i-XrfbVdghJUfvnCfcyXuXTx"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -814,7 +820,7 @@
           Chefen för civildepartementet, herr statsrådet LINDHOLM, som
           yttrade:
         </note>
-        <u xml:id="i-ELErsSK41G8uQPmvKgSsnP" who="i-9EKrgr3Ba4x3Qu2BozYUEA" next="i-Uvy9Hwky1thYF2XRAkTS8G">
+        <u xml:id="i-ELErsSK41G8uQPmvKgSsnP" who="i-9EKrgr3Ba4x3Qu2BozYUEA">
           <seg xml:id="i-3NqUVBr1s9QvqW4LbHqdLH">
             Herr talman! Fru Eriksson i Stockholm har på förekommen anledning
             frågat mig, om grundlagsstadgandet om tjänstetillsättning efter
@@ -822,8 +828,6 @@
             arbetsföra skall tillämpas även beträffande fullt arbetsföra sockersjuka
             vid anställning i statlig tjänst.
           </seg>
-        </u>
-        <u xml:id="i-Uvy9Hwky1thYF2XRAkTS8G" who="i-9EKrgr3Ba4x3Qu2BozYUEA" prev="i-ELErsSK41G8uQPmvKgSsnP">
           <seg xml:id="i-HfrHsGe6nwWn8snDFAdcUf">
             Mitt svar på frågan blir ja. Jag måste emellertid göra en allmän
             reservation, då jag inte känner till omständigheterna i det fall
@@ -838,21 +842,17 @@
         <note xml:id="i-CaHyZsryaERKA8zWYuA5rr" type="speaker">
           Fru ERIKSSON i Stockholm (s):
         </note>
-        <u xml:id="i-5kGXCaydUQKTLUegkAVZhN" who="i-EwWj1hhTj77GkxX2Z7SW8V" next="i-KpNyfUyuURkNYbmHHKJ8Dn">
+        <u xml:id="i-5kGXCaydUQKTLUegkAVZhN" who="i-EwWj1hhTj77GkxX2Z7SW8V" next="i-Vt9akbWiMqbjYkzDS5pvvz">
           <seg xml:id="i-5eTxT41F3P1FvaXyXYEyQg">
             Herr talman! Jag ber att till statsrådet och chefen för civildepartementet
             få framföra mitt tack för det positiva svar jag fått på min fråga.
             Det är oerhört glädjande att få bekräftat, att det
           </seg>
-        </u>
-        <u xml:id="i-KpNyfUyuURkNYbmHHKJ8Dn" who="i-EwWj1hhTj77GkxX2Z7SW8V" prev="i-5kGXCaydUQKTLUegkAVZhN" next="i-WHTeXnCDhEk51tHHnB7joY">
           <seg xml:id="i-CHgXNkJjcgGuYphi627wFP">
             cirkulär, enligt vilket partiellt arbetsföra skall anställas
             i statens tjänst efter samma grunder som andra och att förtjänst
             och skicklighet skall vara avgörande, även gäller de sockersjuka.
           </seg>
-        </u>
-        <u xml:id="i-WHTeXnCDhEk51tHHnB7joY" who="i-EwWj1hhTj77GkxX2Z7SW8V" prev="i-KpNyfUyuURkNYbmHHKJ8Dn" next="i-ENByK9QReMAgjXDzXqjdpg">
           <seg xml:id="i-SNWWyN8F5dpDbn7yWEJ4oG">
             De sockersjuka är visserligen kroniskt sjuka, men de är i de
             flesta fall inte partiellt arbetsföra. Insulinbehandling och modern
@@ -869,8 +869,6 @@
             För unga sockersjuka, som har genomgått skolor och skaffat sig
             utbildning, förefaller det särskilt hårt att vägras arbete.
           </seg>
-        </u>
-        <u xml:id="i-ENByK9QReMAgjXDzXqjdpg" who="i-EwWj1hhTj77GkxX2Z7SW8V" prev="i-WHTeXnCDhEk51tHHnB7joY" next="i-3fEKuXtZ1Ei3BYnWJFcANp">
           <seg xml:id="i-JgJB2GmJPPDGZWLJiFU9H6">
             Vid en kongress i somras sade man för övrigt, att de sockersjuka
             — vi räknar med att de utgör två procent av Sveriges befolkning
@@ -879,8 +877,6 @@
             det därvidlag är ställt i regeringen. Vi kan alltså inte mota
             bort dem ur samhället med ett anställningsförbud.
           </seg>
-        </u>
-        <u xml:id="i-3fEKuXtZ1Ei3BYnWJFcANp" who="i-EwWj1hhTj77GkxX2Z7SW8V" prev="i-ENByK9QReMAgjXDzXqjdpg" next="i-Vt9akbWiMqbjYkzDS5pvvz">
           <seg xml:id="i-248KGUecB7dWcdKu7ToKrC">
             Det är därför med största tillfredsställelse jag hör att sockersjukan
             icke principiellt är ett hinder. Självklart bör de sockersjuka
@@ -898,14 +894,12 @@
           Svar på fråga ang. viss prisgeografisk undersökning — Svar på
           interpellation ang. vissa reservtelegrafexpeditörers pensionsrätt
         </note>
-        <u xml:id="i-Vt9akbWiMqbjYkzDS5pvvz" who="i-EwWj1hhTj77GkxX2Z7SW8V" prev="i-3fEKuXtZ1Ei3BYnWJFcANp" next="i-F5wMoh5mEDoBrQmJbWrN34">
+        <u xml:id="i-Vt9akbWiMqbjYkzDS5pvvz" who="i-EwWj1hhTj77GkxX2Z7SW8V" prev="i-5kGXCaydUQKTLUegkAVZhN">
           <seg xml:id="i-TEdyaFkKRTCU8fuyU9GQ2N">
             under kontroll och vara arbetsföra. Det bör finnas intyg av läkare
             att de kan sköta arbetet. Det förutsätter jag, och det gör även
             de sockersjuka som erbjuder sina tjänster till staten.
           </seg>
-        </u>
-        <u xml:id="i-F5wMoh5mEDoBrQmJbWrN34" who="i-EwWj1hhTj77GkxX2Z7SW8V" prev="i-Vt9akbWiMqbjYkzDS5pvvz" next="i-MfqHhNDuaFz5Zb7FPQTUwp">
           <seg xml:id="i-4gwi72piYFvgUDpi5VurDA">
             Jag tror att statsrådets svar kommer att få mycket stor betydelse
             och vara vägledande för kommuner och privata arbetsgivare, av
@@ -916,8 +910,6 @@
             av de sockersjuka. Till den gruppen kan vem som helst av oss komma
             att höra när som helst.
           </seg>
-        </u>
-        <u xml:id="i-MfqHhNDuaFz5Zb7FPQTUwp" who="i-EwWj1hhTj77GkxX2Z7SW8V" prev="i-F5wMoh5mEDoBrQmJbWrN34">
           <seg xml:id="i-PEN6Rh9N78gE8sj2J8W4rV">
             Jag har fått ett rejält svar och hyser förhoppningen att den
             princip, som där kommer till uttryck, även skall tillämpas i fortsättningen.
@@ -936,7 +928,7 @@
           Chefen för civildepartementet, herr statsrådet LINDHOLM, som
           yttrade:
         </note>
-        <u xml:id="i-AN2QeuVACHQNQosAsSzXVd" who="i-9EKrgr3Ba4x3Qu2BozYUEA" next="i-J8ei9uYkmfXRzfNuDytEav">
+        <u xml:id="i-AN2QeuVACHQNQosAsSzXVd" who="i-9EKrgr3Ba4x3Qu2BozYUEA">
           <seg xml:id="i-SNDwjkRGMRZid3MnWZDXAU">
             Herr talman! Fröken Sandell har frågat mig, om jag är i tillfälle
             att upplysa om när 1959 års utredning angående grunderna för en
@@ -945,8 +937,6 @@
             avsedd att tjäna som grundval för ett ställningstagande till en
             revision av dyrortsgrupperingen, kan väntas bli tillsatt.
           </seg>
-        </u>
-        <u xml:id="i-J8ei9uYkmfXRzfNuDytEav" who="i-9EKrgr3Ba4x3Qu2BozYUEA" prev="i-AN2QeuVACHQNQosAsSzXVd">
           <seg xml:id="i-Rc9uq8EcdEekkiMkFPMfPN">
             Enligt vad jag inhämtat kommer ifrågavarande utredning att avlämna
             sitt betänkande i början av 1962. Om och när en Pprisgeografisk
@@ -1029,7 +1019,7 @@
           tjänstgjort som reservtelegrafexpeditörer under minst den tid,
           som nu skall berättiga till pension.
         </note>
-        <u xml:id="i-RSN7XmgUNmLdaocpccQoGk" who="i-9EKrgr3Ba4x3Qu2BozYUEA" prev="i-276ed6712173caea-1" next="i-7SQS4J7EW8ZsyMm3RXxQEv">
+        <u xml:id="i-RSN7XmgUNmLdaocpccQoGk" who="i-9EKrgr3Ba4x3Qu2BozYUEA" prev="i-276ed6712173caea-1">
           <seg xml:id="i-MMzPPbWnsDqUrGViBi865y">
             Jag vill till en början erinra fröken Elmén om att den av riksdagen
             år 1958 och 1959 — på grundval av överenskommelser mellan representanter
@@ -1038,8 +1028,6 @@
             gäller arvodesanställda i statens tjänst innebar, att pensionsrätt
             skulle tillerkännas dem från och med den 1 juli 1959.
           </seg>
-        </u>
-        <u xml:id="i-7SQS4J7EW8ZsyMm3RXxQEv" who="i-9EKrgr3Ba4x3Qu2BozYUEA" prev="i-RSN7XmgUNmLdaocpccQoGk" next="i-9GDmw8RWJqSidjvw2zfTFe">
           <seg xml:id="i-Bz8H2BgUzuaCKDiYAKpttM">
             Regleringen av frågan om pensionsrätt för dessa arvodesanställda
             skedde, såvitt gäller flertalet grupper, genom en ändring den
@@ -1051,8 +1039,6 @@
             som här avsedda beslut har tillkommit efter överläggningar med
             berörda huvudorganisationer.
           </seg>
-        </u>
-        <u xml:id="i-9GDmw8RWJqSidjvw2zfTFe" who="i-9EKrgr3Ba4x3Qu2BozYUEA" prev="i-7SQS4J7EW8ZsyMm3RXxQEv" next="i-5gYu1GLQP9SVcNKVybZMda">
           <seg xml:id="i-FigvVygkJuc8uMVPr7rwNa">
             Det förhåller sig ej så, att pensionsrätt tillkommer endast de
             reservtelegrafexpeditörer, som nu är i tjänst. För reservtelegrafexpeditörerna
@@ -1061,8 +1047,6 @@
             förutsattes vid riksdagsbehandlingen av pensionsfrågan, att pension
             kan tillerkännas den som avgått efter utgången av juni 1959.
           </seg>
-        </u>
-        <u xml:id="i-5gYu1GLQP9SVcNKVybZMda" who="i-9EKrgr3Ba4x3Qu2BozYUEA" prev="i-9GDmw8RWJqSidjvw2zfTFe">
           <seg xml:id="i-RSVsG5JzPZ5RuXz1JgMKC3">
             Herr talman, mot bakgrund av vad jag nu anfört måste mitt svar
             till fröken Elmén bliva nekande såvitt gäller personal, som lämnat
@@ -1540,14 +1524,12 @@
           Chefen för socialdepartementet, herr statsrådet NILSSON, som
           yttrade:
         </note>
-        <u xml:id="i-AQvyAscG72wBQuYpSLGGNk" who="i-BSEtbZG4ePv3rfebXQWRkd" next="i-f082d3fd8e783368-5">
+        <u xml:id="i-AQvyAscG72wBQuYpSLGGNk" who="i-BSEtbZG4ePv3rfebXQWRkd">
           <seg xml:id="i-94fnPMxAXZATTSyjhStT8">
             Herr talman! Herr Fälldin frågar vilka åtgärder som vidtagits
             i syfte att underlätta företagarnas redovisning av arbetsgivaravgift
             till den allmänna tillläggspensioneringen m. m.
           </seg>
-        </u>
-        <u xml:id="i-f082d3fd8e783368-5" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-AQvyAscG72wBQuYpSLGGNk">
           <seg xml:id="i-MfaUCcJ7qj56z8juvDBs15">
             Som svar vill jag meddela, att den blankett, på vilken arbetsgivarna
             i januari nästa år skall lämna sina uppgifter till ledning för
@@ -1611,7 +1593,7 @@
           Chefen för socialdepartementet, herr statsrådet NILSSON, som
           yttrade:
         </note>
-        <u xml:id="i-Vd8ds9WjJ3WP2ovR23zNgw" who="i-BSEtbZG4ePv3rfebXQWRkd" next="i-ffc1f009a64ffef0-1">
+        <u xml:id="i-Vd8ds9WjJ3WP2ovR23zNgw" who="i-BSEtbZG4ePv3rfebXQWRkd" next="i-ffc1f009a64ffef0-2">
           <seg xml:id="i-CKST329M7PwowSmw2dSHkA">
             Herr talman! Fru Gärde Widemar frågar, om jag vill medverka till
             att en den 27 juli 1961 dagtecknad kungörelse angående tillämpning
@@ -1619,8 +1601,6 @@
             trygghet tillämpas så, att folkpensionsavgift skall erläggas av
             här mantalsskrivna grekiska medborgare först för 1962 års inkomster.
           </seg>
-        </u>
-        <u xml:id="i-ffc1f009a64ffef0-1" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-Vd8ds9WjJ3WP2ovR23zNgw" next="i-ffc1f009a64ffef0-2">
           <seg xml:id="i-WrWiFUXjwt6EyYMaRBywsP">
             Kungörelsen är så avfattad att grekiska medborgare, som är mantalsskrivna
             här, skall erlägga folkpensionsavgift för 1962, d. v. s. även
@@ -1640,7 +1620,7 @@
           Svar på interpellation ang. folkpensionsavgiften för i Sverige
           bosatta grekiska medborgare
         </note>
-        <u xml:id="i-ffc1f009a64ffef0-2" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-ffc1f009a64ffef0-1" next="i-ACgowP7whoEHaLYh166FUK">
+        <u xml:id="i-ffc1f009a64ffef0-2" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-Vd8ds9WjJ3WP2ovR23zNgw">
           <seg xml:id="i-HDyAagvKTuVxh3tdrURsSy">
             medborgare kan i följd därav, under de i vederbörande överenskommelse
             angivna förutsättningarna, bli berättigade till svensk folkpension
@@ -1650,8 +1630,6 @@
             ansetts riktigt, att avgiftsskyldighet föreligger i vad avser
             nämnda års inkomster.
           </seg>
-        </u>
-        <u xml:id="i-ACgowP7whoEHaLYh166FUK" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-ffc1f009a64ffef0-2" next="i-ffc1f009a64ffef0-3">
           <seg xml:id="i-49a4JaZeBYkUpU7WgEFutF">
             I en av interpellanten omnämnd skrivelse av år 1958 gav riksdagen
             Kungl. Maj:t till känna vad andra lagutskottet anfört i anledning
@@ -1666,8 +1644,6 @@
             överenskommelsen i fråga trädde i kraft i förhållande till Frankrike
             först med ingången av år 1958.
           </seg>
-        </u>
-        <u xml:id="i-ffc1f009a64ffef0-3" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-ACgowP7whoEHaLYh166FUK">
           <seg xml:id="i-Hcg5iTeV5niuU9UoagSAnt">
             Riksdagens år 1958 uttalade önskemål borde vara tillgodosedda,
             när — som nu är praxis — avgiftsskyldighet endast ålägges i avseende
@@ -1771,7 +1747,7 @@
           Chefen för socialdepartementet, herr statsrådet NILSSON, som
           yttrade:
         </note>
-        <u xml:id="i-45uHjdRXwHEMAx5FsDbAg8" who="i-BSEtbZG4ePv3rfebXQWRkd" next="i-8821b26b794d26a9-2">
+        <u xml:id="i-45uHjdRXwHEMAx5FsDbAg8" who="i-BSEtbZG4ePv3rfebXQWRkd">
           <seg xml:id="i-Uyu7voeHfQw5aqz5EaB81d">
             Herr talman! Herr Elmwall har i en till mig ställd interpellation
             frågat, om jag är villig att i vissa avseenden, som närmare beröres
@@ -1779,8 +1755,6 @@
             på annat sätt medverka till underlättande av bostadsanskaffning
             för skogsarbetare m. m.
           </seg>
-        </u>
-        <u xml:id="i-8821b26b794d26a9-2" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-45uHjdRXwHEMAx5FsDbAg8" next="i-GmAVR6n6kJV7Huyi39Derq">
           <seg xml:id="i-NFBfdLtk5SSgxZrQxwp6Dd">
             Bostadsstyrelsen har i anslutning till sina äskanden om anslag
             för nästa budgetår lagt fram förslag till ändringar av gällande
@@ -1790,8 +1764,6 @@
             förslag, som för närvarande pågår inom socialdepartementet, torde
             även de spörsmål interpellanten berör komma att aktualiseras.
           </seg>
-        </u>
-        <u xml:id="i-GmAVR6n6kJV7Huyi39Derq" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-8821b26b794d26a9-2">
           <seg xml:id="i-L5G16i2vjU6BKGiXU3DQPN">
             Bostadsstyrelsens förslag och regeringens ståndpunkt i frågan
             torde, om den pågående beredningen av ärendet inom socialdepartementet
@@ -1893,15 +1865,13 @@
           Chefen för jordbruksdepartementet, herr statsrådet HOLMQVIST,
           som yttrade:
         </note>
-        <u xml:id="i-Xzt2uq9q97ocPhSRGePAzp" who="i-Ua1nqYCRbnUSNc5Tw1tXiK" next="i-90044de2b38196b1-5">
+        <u xml:id="i-Xzt2uq9q97ocPhSRGePAzp" who="i-Ua1nqYCRbnUSNc5Tw1tXiK" next="i-90044de2b38196b1-6">
           <seg xml:id="i-DKLDtsBSpiPJW82Nzho7Du">
             Herr talman! Med kammarens tillstånd har herr Antonsson frågat,
             om jordbruksministern är beredd överväga att förelägga 1962 års
             riksdag förslag om förlängning av nu gällande lagstiftning om
             inskränkning i rätten att förvärva jordbruksfastighet.
           </seg>
-        </u>
-        <u xml:id="i-90044de2b38196b1-5" who="i-Ua1nqYCRbnUSNc5Tw1tXiK" prev="i-Xzt2uq9q97ocPhSRGePAzp" next="i-90044de2b38196b1-6">
           <seg xml:id="i-ULBecPvizsYDi23mZ4iCgL">
             Till svar härpå får jag anföra följande.
           </seg>
@@ -1910,7 +1880,7 @@
           Jordförvärvslagen av år 1955 gäller till och med den 30 juni
           1962.
         </note>
-        <u xml:id="i-90044de2b38196b1-6" who="i-Ua1nqYCRbnUSNc5Tw1tXiK" prev="i-90044de2b38196b1-5">
+        <u xml:id="i-90044de2b38196b1-6" who="i-Ua1nqYCRbnUSNc5Tw1tXiK" prev="i-Xzt2uq9q97ocPhSRGePAzp">
           <seg xml:id="i-5nuz6ChfFCSAktwP5JK16y">
             Det av 1958 års jordlagsutredning avgivna betänkandet med förslag
             till ny jordförvärvslag remissbehandlas = för närvarande. Remisstiden
@@ -2189,14 +2159,12 @@
         <note xml:id="i-SJFNdZdJAB7as7xX27dxG5" type="speaker">
           Herr TALMANNEN yttrade:
         </note>
-        <u xml:id="i-XFAiWC4KtJ9STBehnTPVaq" who="i-WHaJ9obdPrHNEpxUmttRAB" next="i-UFhLddhhPTnFmWLoNwWg8h">
+        <u xml:id="i-XFAiWC4KtJ9STBehnTPVaq" who="i-WHaJ9obdPrHNEpxUmttRAB">
           <seg xml:id="i-5Kycy7ZQACHKqHiunFEipV">
             Efter samråd med första kammarens talman och talmanskonferensen
             får jag beträffande riksdagsarbetet under återstoden av innevarande
             session meddela följande.
           </seg>
-        </u>
-        <u xml:id="i-UFhLddhhPTnFmWLoNwWg8h" who="i-WHaJ9obdPrHNEpxUmttRAB" prev="i-XFAiWC4KtJ9STBehnTPVaq" next="i-XMyuYgHrTLDT1v57FGxJzs">
           <seg xml:id="i-RjQN4pKFLtQX1EBMEK8mzP">
             Vid kammarens plena fredagen den 8 och tisdagen den 12 december
             kommer ett stort antal interpellationer och enkla frågor att besvaras,
@@ -2204,8 +2172,6 @@
             kl. 12.00 respektive kl. 11.00, icke såsom i den preliminära planen
             angivits kl. 14.00 respektive kl. 16.00.
           </seg>
-        </u>
-        <u xml:id="i-XMyuYgHrTLDT1v57FGxJzs" who="i-WHaJ9obdPrHNEpxUmttRAB" prev="i-UFhLddhhPTnFmWLoNwWg8h">
           <seg xml:id="i-9moteTc4kBks6HqwiobQvP">
             Onsdagen den 13 december, då sammanträdet i enlighet med vad
             som tidigare meddelats börjar kl. 10.00, kommer att behandlas
@@ -2268,7 +2234,7 @@
           Svar på interpellation ang. ersättningsgrunderna vid expropriation
           av mark för tätbebyggelse
         </note>
-        <u xml:id="i-90044de2b38196b1-9" who="i-U22vAKBq8RA2Ji6KCU4j6Z" prev="i-90044de2b38196b1-8" next="i-Erb1SeGd9gV4u1ySKGxpra">
+        <u xml:id="i-90044de2b38196b1-9" who="i-U22vAKBq8RA2Ji6KCU4j6Z" prev="i-90044de2b38196b1-8">
           <seg xml:id="i-MbSKGtjeZ8qs1ypDEDYWSE">
             s. k. markvärdeutredningen. Det lagförslag, som denna utredning
             framlade i sitt år 1957 avgivna betänkande (SOU 1957:43), har
@@ -2278,8 +2244,6 @@
             Därvid har bl. a. uppmärksammats frågan om principerna för värdering
             vid expropriation.
           </seg>
-        </u>
-        <u xml:id="i-Erb1SeGd9gV4u1ySKGxpra" who="i-U22vAKBq8RA2Ji6KCU4j6Z" prev="i-90044de2b38196b1-9" next="i-41JeVYvJNMvCv1n1CPSRyW">
           <seg xml:id="i-Kjz1BZ3xo8PA4qfSTGT2HD">
             Enligt bemyndigande av Kungl. Maj:t tillkallade jag under år
             1960 en utredningsman för att genomgå och bearbeta de domar i
@@ -2296,8 +2260,6 @@
             betänkande innehåller, samt framlägga därav eventuellt föranledda
             förslag.
           </seg>
-        </u>
-        <u xml:id="i-41JeVYvJNMvCv1n1CPSRyW" who="i-U22vAKBq8RA2Ji6KCU4j6Z" prev="i-Erb1SeGd9gV4u1ySKGxpra">
           <seg xml:id="i-WUDr9Ke2kvbyryJEs9GkQd">
             Av det anförda torde framgå, att en översyn av expropriationslagen
             beträffande ersättningsgrunderna vid expropriation av mark för
@@ -2728,13 +2690,11 @@
         <note xml:id="i-NgKpT76Kusq6TrQ1szDu9n">
           Svar på interpellation ang. elkraftpriset
         </note>
-        <u xml:id="i-WGpzowJeSdxaHKRtTs2rBW" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-74ececf5c7ac9e53-3" next="i-AhEbaXMdNHeVrZEkdSzmhi">
+        <u xml:id="i-WGpzowJeSdxaHKRtTs2rBW" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-74ececf5c7ac9e53-3" next="i-74ececf5c7ac9e53-6">
           <seg xml:id="i-4g1BdkDQBK3q5WeYc7w7mU">
             rans av högspänd elektrisk kraft som under år 1960, d. v. s.
             12 procent i stället för 14 procent.
           </seg>
-        </u>
-        <u xml:id="i-AhEbaXMdNHeVrZEkdSzmhi" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-WGpzowJeSdxaHKRtTs2rBW" next="i-PrGxxr9bhiuyd5eVA561W9">
           <seg xml:id="i-LPB2LTvwh4zAAp4DdTiUnX">
             Med anledning av de båda frågorna får jag anföra följande.
           </seg>
@@ -2755,14 +2715,10 @@
             under senare tid som tyder på att verkets kunder har en annan
             uppfattning.
           </seg>
-        </u>
-        <u xml:id="i-PrGxxr9bhiuyd5eVA561W9" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-AhEbaXMdNHeVrZEkdSzmhi" next="i-74ececf5c7ac9e53-5">
           <seg xml:id="i-YBWJDt3pmtnB2PV5Muh5cj">
             De grundläggande principerna för vattenfallsverkets taxesättning
             redovisades i bilaga 28 till 1961 års statsverksproposition.
           </seg>
-        </u>
-        <u xml:id="i-74ececf5c7ac9e53-5" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-PrGxxr9bhiuyd5eVA561W9" next="i-74ececf5c7ac9e53-6">
           <seg xml:id="i-3uhYhfkBiDWTQKrZn7NDgY">
             Vattenfallsverkets prispolitik syftar till att uppnå en tillfredsställande
             förräntning av det investerade kapitalet. Primärt anpassas taxorna
@@ -2784,7 +2740,7 @@
         <note xml:id="i-FWeftmV4JADsC1N6By4euG">
           Svar på interpellation ang. elkraftpriset
         </note>
-        <u xml:id="i-74ececf5c7ac9e53-6" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-74ececf5c7ac9e53-5">
+        <u xml:id="i-74ececf5c7ac9e53-6" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-WGpzowJeSdxaHKRtTs2rBW">
           <seg xml:id="i-2nDW8NidMsgfYqYrnqTUju">
             index. Det kan givetvis diskuteras vilket kostnadsindex som ger
             den lämpligaste anpassningen till allmänna prisnivån. Konsumentprisindex
@@ -3138,7 +3094,7 @@
           Chefen för kommunikationsdepartementet, herr statsrådet SKOGLUND,
           som yttrade:
         </note>
-        <u xml:id="i-74ececf5c7ac9e53-17" who="i-hZRRc3xfX1LHebPrPsSqz" next="i-TPCR49NX6APU9JUwSXJaFD">
+        <u xml:id="i-74ececf5c7ac9e53-17" who="i-hZRRc3xfX1LHebPrPsSqz" next="i-74ececf5c7ac9e53-18">
           <seg xml:id="i-XceT3BqHHyN8mrLNQRtiAb">
             Herr talman! Herr Lassinantti har frågat mig om utbyggnaden av
             radiooch TV-sändare kan utsträckas så långt norrut att befolkningen
@@ -3151,8 +3107,6 @@
             sändare beräknas kunna tas i drift under innevarande månad. Pajalastationen
             får dock under de närmaste åren endast begränsad räckvidd.
           </seg>
-        </u>
-        <u xml:id="i-TPCR49NX6APU9JUwSXJaFD" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-74ececf5c7ac9e53-17" next="i-74ececf5c7ac9e53-18">
           <seg xml:id="i-WV2pXQKeWbmhkWLEnWccwT">
             Enligt telestyrelsens bedömning kommer Karesuando kommun, nordligaste
             delen av Pajala kommun samt en del av Kiruna stad i gränsområdet
@@ -3170,7 +3124,7 @@
           Svar på interpellation ang. utbyggnaden av radiooch TV-sändare
           inom Norrbottens län
         </note>
-        <u xml:id="i-74ececf5c7ac9e53-18" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-TPCR49NX6APU9JUwSXJaFD">
+        <u xml:id="i-74ececf5c7ac9e53-18" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-74ececf5c7ac9e53-17">
           <seg xml:id="i-WpipFCZSaxmnShCchvs24G">
             Karesuando kommun icke att bli tillgodosedda genom dessa stationer.
             Antalet invånare inom detta område har beräknats till omkring
@@ -3313,20 +3267,16 @@
           Chefen för ecklesiastikdepartementet, herr statsrådet EDENMAN,
           som yttrade:
         </note>
-        <u xml:id="i-c0bb6f66db32bdf3-2" who="i-8FeKtrT5DmgTKt1JtCcHmB" next="i-KqHdzeEfXuFjxwBWjjqdkp">
+        <u xml:id="i-c0bb6f66db32bdf3-2" who="i-8FeKtrT5DmgTKt1JtCcHmB" next="i-c0bb6f66db32bdf3-3">
           <seg xml:id="i-MhviBUgfYpaviAVT9yPPxA">
             Herr talman! Med andra kammarens tillstånd har herr Turesson
             frågat om jag är beredd att medverka till att en utredning kommer
             till stånd angående
           </seg>
-        </u>
-        <u xml:id="i-KqHdzeEfXuFjxwBWjjqdkp" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-c0bb6f66db32bdf3-2" next="i-HFAWcNdZtfkGLqLFRqQMzD">
           <seg xml:id="i-VBvbmpS9dFPfJSU3B7UhYt">
             målsättningen för yrkesskolutbildningens olika grenar, syftande
             till förslag till normer för lärlingsprov.
           </seg>
-        </u>
-        <u xml:id="i-HFAWcNdZtfkGLqLFRqQMzD" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-KqHdzeEfXuFjxwBWjjqdkp" next="i-c0bb6f66db32bdf3-3">
           <seg xml:id="i-Cf56SYSN89onVSRzKr2eGv">
             Det framgår inte klart av interpellationen, huruvida herr Turesson
             med »lärlingsprov» avser prov under utbildningstiden eller slutprov
@@ -3370,7 +3320,7 @@
         <note xml:id="i-71k3YRNCN5YyXpzsiVP5uj">
           Svar på interpellation ang. normer för lärlingsprov
         </note>
-        <u xml:id="i-c0bb6f66db32bdf3-3" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-HFAWcNdZtfkGLqLFRqQMzD">
+        <u xml:id="i-c0bb6f66db32bdf3-3" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-c0bb6f66db32bdf3-2">
           <seg xml:id="i-7pbWRB8kkmyHb3TmujmJuJ">
             målsättning samt på noggrant genomarbetade kursplaner. Denna
             metod anses, enligt vad jag erfarit, minst lika effektiv som ett
@@ -3561,7 +3511,7 @@
         <note xml:id="i-N1p2SZYuNsiGG5YpuJf6m5" type="speaker">
           Herr CARLSSON i Huskvarna (fp):
         </note>
-        <u xml:id="i-08d27411ee8126e0-3" who="i-79eFV37XzwSS8cAGk1AsFw" next="i-JuNZH3LRRn1JZyMfwUgKxs">
+        <u xml:id="i-08d27411ee8126e0-3" who="i-79eFV37XzwSS8cAGk1AsFw" next="i-08d27411ee8126e0-5">
           <seg xml:id="i-Mmb5CSmQbZaLxQhnJ9SxmC">
             Herr talman! Jag ber att få tacka herr statsrådet och chefen
             för inrikesdepartementet för svaret på min interpellation. Jag
@@ -3598,13 +3548,9 @@
             Efter att ha konstaterat att de stora årskullarna kommer framåt
             år 1962 anför 1957 års folktandvårdssakunniga
           </seg>
-        </u>
-        <u xml:id="i-JuNZH3LRRn1JZyMfwUgKxs" who="i-79eFV37XzwSS8cAGk1AsFw" prev="i-08d27411ee8126e0-3" next="i-08d27411ee8126e0-4">
           <seg xml:id="i-NL2A2o6TfNqHZ4RZMwqm9Z">
             bl. a. följande — statsrådet var inne på samma sak i sitt svar:
           </seg>
-        </u>
-        <u xml:id="i-08d27411ee8126e0-4" who="i-79eFV37XzwSS8cAGk1AsFw" prev="i-JuNZH3LRRn1JZyMfwUgKxs" next="i-08d27411ee8126e0-5">
           <seg xml:id="i-6HqR2WCjcs5MXw8Sz5yRX2">
             »De sakkunniga ha därför, ehuru under stor tvekan, ansett sig
             kunna förorda att den organiserade barntandvården utsträckes att
@@ -3652,7 +3598,7 @@
           och på fråga ang. begärd granskning i särskild ordning av utlänningskommissionens
           handläggning av vissa ärenden
         </note>
-        <u xml:id="i-08d27411ee8126e0-5" who="i-79eFV37XzwSS8cAGk1AsFw" prev="i-08d27411ee8126e0-4">
+        <u xml:id="i-08d27411ee8126e0-5" who="i-79eFV37XzwSS8cAGk1AsFw" prev="i-08d27411ee8126e0-3" next="i-WSTELmy6QPS1tEfM3iGPuJ">
           <seg xml:id="i-2X2tyWGHUnExmYXTJhRE8P">
             behöver. Barnens tandvård betraktar vi väl alla i denna kammare
             som en angelägen sak.
@@ -3688,13 +3634,11 @@
           prövning av utlänningslagstiftningen och dess administration.
           Till svar får jag anföra följande.
         </note>
-        <u xml:id="i-WSTELmy6QPS1tEfM3iGPuJ" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-08d27411ee8126e0-6" next="i-08d27411ee8126e0-7">
+        <u xml:id="i-WSTELmy6QPS1tEfM3iGPuJ" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-08d27411ee8126e0-5" next="i-08d27411ee8126e0-8">
           <seg xml:id="i-Fq4Sz9VT2byYL6jyeVxuQN">
             Vid utlänningslagens tillkomst 1954 fastslogs att en ovillkorlig
             rätt att vistas i riket och att här vinna sin ut-
           </seg>
-        </u>
-        <u xml:id="i-08d27411ee8126e0-7" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-WSTELmy6QPS1tEfM3iGPuJ" next="i-08d27411ee8126e0-8">
           <seg xml:id="i-QPBjWJyJwUSwXsKMnhVaDu">
             komst tillkommer endast svensk medborgare. En utlänning kan sålunda
             inte, vare sig enligt svensk lag eller internationellt erkända
@@ -3745,7 +3689,7 @@
           och på fråga ang. begärd granskning i särskild ordning av utlänningskommissionens
           handläggning av vissa ärenden
         </note>
-        <u xml:id="i-08d27411ee8126e0-8" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-08d27411ee8126e0-7" next="i-H8FynRzMQcbzRPjFAVJRP7">
+        <u xml:id="i-08d27411ee8126e0-8" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-WSTELmy6QPS1tEfM3iGPuJ" next="i-08d27411ee8126e0-10">
           <seg xml:id="i-XRAh5n29ahaD9PfFofj8ib">
             Beträffande särskilt politiska flyktingar föreskriver lagen att
             politisk flykting ej skall utan synnerliga skäl vägras fristad
@@ -3795,8 +3739,6 @@
             detta självfallet helt förändra det medborgarskapsbegrepp, som
             är internationellt vedertaget.
           </seg>
-        </u>
-        <u xml:id="i-H8FynRzMQcbzRPjFAVJRP7" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-08d27411ee8126e0-8" next="i-08d27411ee8126e0-9">
           <seg xml:id="i-KQCtYLwCgEMrPnsJQHkFMs">
             Förordnandena om tillståndstvång är intagna i utlänningskungörelsen,
             till vilken jag torde få hänvisa. Några direktiv för utlänningspolitiken
@@ -3808,8 +3750,6 @@
             Vid sina avgöranden handlar myndigheten under samma ansvar som
             eljest gäller för svenska förvaltningsmyndigheter.
           </seg>
-        </u>
-        <u xml:id="i-08d27411ee8126e0-9" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-H8FynRzMQcbzRPjFAVJRP7" next="i-08d27411ee8126e0-10">
           <seg xml:id="i-UVYK481osKAY6uoLwBNvy">
             Emellertid kan Sverige inte föra en utlänningspolitik som är
             helt oberoende av förhållandena i andra länder. När det gäller
@@ -3830,7 +3770,7 @@
           och på fråga ang. begärd granskning i särskild ordning av utlänningskommissionens
           handläggning av vissa ärenden
         </note>
-        <u xml:id="i-08d27411ee8126e0-10" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-08d27411ee8126e0-9" next="i-2nJJD61xKHjPaXEB1U5Chi">
+        <u xml:id="i-08d27411ee8126e0-10" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-08d27411ee8126e0-8" next="i-08d27411ee8126e0-11">
           <seg xml:id="i-L5VQaW5UtTLKFJ62WrCwy5">
             med rätt till 3 månaders uppehållstillståndsfri vistelse i det
             främmande landet. Den nordiska passkontrollöverenskommelsen, enligt
@@ -3895,8 +3835,6 @@
             På undersökningens resultat får bero huruvida särskilda direktiv
             av generell karaktär kan och bör utfärdas för den centrala utlänningstill-
           </seg>
-        </u>
-        <u xml:id="i-2nJJD61xKHjPaXEB1U5Chi" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-08d27411ee8126e0-10" next="i-08d27411ee8126e0-11">
           <seg xml:id="i-DNPCMn6uQyabMFSF5448rC">
             myndighetens handläggning av
           </seg>
@@ -3913,7 +3851,7 @@
           och på fråga ang. begärd granskning i särskild ordning av utlänningskommissionens
           handläggning av vissa ärenden
         </note>
-        <u xml:id="i-08d27411ee8126e0-11" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-2nJJD61xKHjPaXEB1U5Chi">
+        <u xml:id="i-08d27411ee8126e0-11" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-08d27411ee8126e0-10">
           <seg xml:id="i-K66pJEunjF1vqkLscMZ7SS">
             ståndsärenden som inte har anknytning till marknadsfrågorna.
             Det synes naturligt att vid denna undersökning av utlänningskommissionens
@@ -4178,7 +4116,7 @@
           och på fråga ang. begärd granskning i särskild ordning av utlänningskommissionens
           handläggning av vissa ärenden
         </note>
-        <u xml:id="i-db6fe213982e42fd-3" who="i-M4NwryA2HF7uey8djEDX9X" prev="i-db6fe213982e42fd-2" next="i-GDARFQQpEjxhMhdBFyaAuB">
+        <u xml:id="i-db6fe213982e42fd-3" who="i-M4NwryA2HF7uey8djEDX9X" prev="i-db6fe213982e42fd-2" next="i-HTKpHT9c29DAHfm4eRLLp">
           <seg xml:id="i-Y5TU2epN4QqQZtGBXjk1ED">
             ärendena att rättssäkerhetens krav tillgodoses och att vi får
             tillräcklig kontroll och tillräckliga möjligheter att beivra de
@@ -4189,16 +4127,12 @@
             undgick utvisning — är en av de färgade studenter vi tagit emot
             här i landet.
           </seg>
-        </u>
-        <u xml:id="i-GDARFQQpEjxhMhdBFyaAuB" who="i-M4NwryA2HF7uey8djEDX9X" prev="i-db6fe213982e42fd-3" next="i-db6fe213982e42fd-4">
           <seg xml:id="i-AAbTMVDByeJjS1CJkjiM9D">
             År 1946 var det klart för nästa utredning. Regeringen falkade
             då efter en lämplig person som enmansutredare av dessa mycket
             viktiga frågor som sammanhängde med utlänningspolitiken, och man
             utsåg då ordföranden i utlänningskommissionen Nils Hagelin.
           </seg>
-        </u>
-        <u xml:id="i-db6fe213982e42fd-4" who="i-M4NwryA2HF7uey8djEDX9X" prev="i-GDARFQQpEjxhMhdBFyaAuB" next="i-8a1ncuTfu8ijkC4eN55ygq">
           <seg xml:id="i-92qo4kZhUnPcDjprTkoBUp">
             Något senare gavs expeditionschefen i inrikesdepartementet E.
             Montell uppdraget att undersöka hur det förhöll sig med förhållandena
@@ -4211,8 +4145,6 @@
             så farligt ämne som höga chefers lämplighet för sina uppdrag.
             Så här löd den delen av herr Hedlunds svar:
           </seg>
-        </u>
-        <u xml:id="i-8a1ncuTfu8ijkC4eN55ygq" who="i-M4NwryA2HF7uey8djEDX9X" prev="i-db6fe213982e42fd-4" next="i-HTKpHT9c29DAHfm4eRLLp">
           <seg xml:id="i-LH3uRzFBaDX4fAKPWiAoXp">
             »När utredningsmännen för att fullgöra sitt uppdrag satte sig
             i förbindelse med bl. a. förste byråsekreteraren i utlänningskommissionen
@@ -4227,7 +4159,7 @@
         <note xml:id="i-EUXAFpK9puyaRjzJGvu4Xr">
           Så långt inrikesminister Hedlund. Av
         </note>
-        <u xml:id="i-HTKpHT9c29DAHfm4eRLLp" who="i-M4NwryA2HF7uey8djEDX9X" prev="i-8a1ncuTfu8ijkC4eN55ygq" next="i-db6fe213982e42fd-6">
+        <u xml:id="i-HTKpHT9c29DAHfm4eRLLp" who="i-M4NwryA2HF7uey8djEDX9X" prev="i-db6fe213982e42fd-3" next="i-db6fe213982e42fd-6">
           <seg xml:id="i-HcMwg14sJMva6VrbhRgo8D">
             svaret i övrigt framgår att det hade utarbetats två PM om resultatet
             av utredningen. Beträffande anmärkningarna mot Hagelin utfärdades
@@ -4453,7 +4385,7 @@
           och på fråga ang. begärd granskning i särskild ordning av utlänningskommissionens
           handläggning av vissa ärenden
         </note>
-        <u xml:id="i-a4296fcae2e0d393-2" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-a4296fcae2e0d393-1" next="i-2TGDmCxcMZCVcgiCNqzTB1">
+        <u xml:id="i-a4296fcae2e0d393-2" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-a4296fcae2e0d393-1" next="i-a4296fcae2e0d393-4">
           <seg xml:id="i-XXyweKTJir7cdvR9i27rry">
             sig till de talare som varit uppe här i dag, och gjort någon
             anmärkning i det avseende jag här har talat om.
@@ -4494,14 +4426,10 @@
             lika andra myndigheters: verksamheten kan bli föremål för granskning
             av JO eller JK i fall av anmärkning eller anmälan.
           </seg>
-        </u>
-        <u xml:id="i-2TGDmCxcMZCVcgiCNqzTB1" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-a4296fcae2e0d393-2" next="i-a4296fcae2e0d393-3">
           <seg xml:id="i-3C2eLsCaiqDLptjcQNz5br">
             Herr Heléns meningsfrände i första kammaren, herr Per-Olof Hanson,
             har ju också vänt sig till JO i särskilt ärende.
           </seg>
-        </u>
-        <u xml:id="i-a4296fcae2e0d393-3" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-2TGDmCxcMZCVcgiCNqzTB1" next="i-a4296fcae2e0d393-4">
           <seg xml:id="i-2jaco9YZuay9sgpMboW28X">
             I den mån ett ärende blir föremål för handläggning i regeringen,
             är konstitutionsutskottet granskande organ. Regeringens beslut
@@ -4548,7 +4476,7 @@
           och på fråga ang. begärd granskning i särskild ordning av utlänningskommissionens
           handläggning av vissa ärenden
         </note>
-        <u xml:id="i-a4296fcae2e0d393-4" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-a4296fcae2e0d393-3">
+        <u xml:id="i-a4296fcae2e0d393-4" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-a4296fcae2e0d393-2">
           <seg xml:id="i-LtSLHNTGoizpcR7gTJNWmU">
             lag för den utredning som nu kommer till, nämligen de särskilda
             problem vi har med passfriheten i Norden och de önskemål som har
@@ -5348,7 +5276,7 @@
           Byggande av en mellanriksväg från Sädvaluspe i Sverige till Graddis
           i Norge
         </note>
-        <u xml:id="i-c0bb6f66db32bdf3-5" who="i-T5XxKVtZLFo1dsDRTvxJiN" prev="i-c0bb6f66db32bdf3-4" next="i-CnssD1dYaqPd2FsshEdDZx">
+        <u xml:id="i-c0bb6f66db32bdf3-5" who="i-T5XxKVtZLFo1dsDRTvxJiN" prev="i-c0bb6f66db32bdf3-4">
           <seg xml:id="i-WaiYuMy5KgsBCpvDW8By3R">
             na i Norrbottens läns södra inland, i Arvidsjaurs och Arjeplogs
             kommuner, där det finns överskott på virke. En landsvägsförbindelse
@@ -5399,8 +5327,6 @@
             de berörda bygderna är gammalt men som nu inte minst genom Nordiska
             rådets verksamhet fått ökad tyngd och förnyad aktualitet.
           </seg>
-        </u>
-        <u xml:id="i-CnssD1dYaqPd2FsshEdDZx" who="i-T5XxKVtZLFo1dsDRTvxJiN" prev="i-c0bb6f66db32bdf3-5">
           <seg xml:id="i-EpVfLFvRTJqxj1jJv2bSup">
             Herr talman! Jag yrkar bifall till utskottets hemställan.
           </seg>
@@ -6590,7 +6516,7 @@
           Avdrag vid taxeringen för avsättning till pensionsstiftelse m.
           m.
         </note>
-        <u xml:id="i-06a82b888efb7e96-3" who="i-FoZGPWdjE7CaiMyuRthV17" prev="i-06a82b888efb7e96-2" next="i-N2eszxHKdKDKjEMvUTjVwm">
+        <u xml:id="i-06a82b888efb7e96-3" who="i-FoZGPWdjE7CaiMyuRthV17" prev="i-06a82b888efb7e96-2">
           <seg xml:id="i-Lmaujz2PB4GdZroSxkrSsc">
             temets förträfflighet, att arbeta bort en sådan här icke önsvärd
             verkan av systemet.
@@ -6645,8 +6571,6 @@
             förslag, så att vi vid nästa års riksdag kan fatta beslut i frågan.
             .
           </seg>
-        </u>
-        <u xml:id="i-N2eszxHKdKDKjEMvUTjVwm" who="i-FoZGPWdjE7CaiMyuRthV17" prev="i-06a82b888efb7e96-3">
           <seg xml:id="i-MAYH9icyc21ytAuuJJEiDA">
             Med denna motivering ber jag, herr talman, att få yrka bifall
             till den under punkten 2 avgivna reservationen II av herr Gösta
@@ -7178,7 +7102,7 @@
         <note xml:id="i-VXDYwNUHXiJB2NKNwp9Yh1" type="speaker">
           Herr CARLSSON i Stockholm (fp):
         </note>
-        <u xml:id="i-06a82b888efb7e96-15" who="i-TpbmXU1qADouQvh7zWwskC" next="i-Xo3ZVY3td2GgNdhfYMd9oq">
+        <u xml:id="i-06a82b888efb7e96-15" who="i-TpbmXU1qADouQvh7zWwskC" next="i-06a82b888efb7e96-16">
           <seg xml:id="i-RtmyxVJ91oCTcwzsqywG9a">
             Herr talman! Jag förstår att det är utsiktslöst att ställa något
             yrkande om bifall till motionen på de punkter, där utskottet föreslår
@@ -7204,8 +7128,6 @@
             remissvar som redovisats gäller således endast förslaget om upphävande
             av vänsterregeln beträffande trafik som kommer från enskild väg.
           </seg>
-        </u>
-        <u xml:id="i-Xo3ZVY3td2GgNdhfYMd9oq" who="i-TpbmXU1qADouQvh7zWwskC" prev="i-06a82b888efb7e96-15" next="i-06a82b888efb7e96-16">
           <seg xml:id="i-S3Ry5ou5ErsVCD84n9Uges">
             Frågan om genomfartslederna i städerna har vid flera tillfällen
             tidigare behandlats i riksdagen såsom också utskottet framhållit,
@@ -7215,7 +7137,7 @@
         <note xml:id="i-9LTuTDZTpj6XP1ULJQYJC9" type="date">
           Onsdagen den 6 december 1961
         </note>
-        <u xml:id="i-06a82b888efb7e96-16" who="i-TpbmXU1qADouQvh7zWwskC" prev="i-Xo3ZVY3td2GgNdhfYMd9oq" next="i-CHr7PB2nUP7q85nVSavnek">
+        <u xml:id="i-06a82b888efb7e96-16" who="i-TpbmXU1qADouQvh7zWwskC" prev="i-06a82b888efb7e96-15" next="i-CHr7PB2nUP7q85nVSavnek">
           <seg xml:id="i-VJXxJqnErL2x5jmSSJ1kCD">
             vägoch vattenbyggnadsstyrelsen en positiv inställning till en
             sådan uppmjukning av vänsterregeln. Vägoch vattenbyggnadsstyrelsen
@@ -7612,7 +7534,7 @@
         <note xml:id="i-NHjML6wFn2kDS5hbtkAqWH" type="speaker">
           Herr LUNDMARK (s):
         </note>
-        <u xml:id="i-efbbf74e11303492-0" who="i-M67EcVJtE4wpTpZn5BuTHJ" next="i-H6vFh8SeWEprQw9fHFtQDX">
+        <u xml:id="i-efbbf74e11303492-0" who="i-M67EcVJtE4wpTpZn5BuTHJ" next="i-GsFoNRUR3rK3zwtTWZGTkr">
           <seg xml:id="i-9dM73Jq7FCZ4AtEhjESEgZ">
             Herr talman! Jordbruksutskottet har i allt väsentligt varit enigt
             i sitt tillstyrkande av Kungl. Majt:s förslag i proposition nr
@@ -7645,8 +7567,6 @@
             eller aldrig blir i tillfälle att köpa färsk vara utan blir hänvisade
             till kyllagrade produkter från de södra delarna av landet.
           </seg>
-        </u>
-        <u xml:id="i-H6vFh8SeWEprQw9fHFtQDX" who="i-M67EcVJtE4wpTpZn5BuTHJ" prev="i-efbbf74e11303492-0" next="i-GsFoNRUR3rK3zwtTWZGTkr">
           <seg xml:id="i-KLvqzEi7R3KiQQXf4QXh93">
             När nu Norrlands andel i fläskpro-
           </seg>
@@ -7661,7 +7581,7 @@
         <note xml:id="i-P29yYRgrjphohLNyoD19PY">
           Prisreglerande åtgärder på jordbrukets område
         </note>
-        <u xml:id="i-GsFoNRUR3rK3zwtTWZGTkr" who="i-M67EcVJtE4wpTpZn5BuTHJ" prev="i-H6vFh8SeWEprQw9fHFtQDX">
+        <u xml:id="i-GsFoNRUR3rK3zwtTWZGTkr" who="i-M67EcVJtE4wpTpZn5BuTHJ" prev="i-efbbf74e11303492-0">
           <seg xml:id="i-AvHuKaMwwtxnqN2ZrqFsQH">
             duktionen är så obetydlig som 2 procent av landets totala och
             Norrland samtidigt är en betydande avnämare av sydsvensk produktion

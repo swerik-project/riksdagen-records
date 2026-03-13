@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-Uun8cnSDZfPiRmiPgRUXRo" type="speech">
             <linkGrp type="u">
               <ptr target="#i-G1HKeYAqcvHkidYabPfg8s"/>
@@ -732,7 +732,13 @@
               <ptr target="#i-3t7Ah5wt927NqGLvZDo5mn"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -926,7 +932,7 @@
           18 Justerades protokollet för den 25 maj. 28 Upplästes följande
           inkomna skrivelser:
         </note>
-        <u xml:id="i-PkLMqrkQa24RdLQ3HzGgFx" who="unknown">
+        <u xml:id="i-PkLMqrkQa24RdLQ3HzGgFx" who="unknown" next="i-Aon662ertjpUpEo1jWmfhJ">
           <seg xml:id="i-FVAM1RqXc96327tpYRkD64">
             Till riksdagen På grund av hälsoskäl anhåller jag härmed om entledigande
             från mitt uppdrag som riksdagsledamot fr. o. m. den 6 oktober
@@ -939,7 +945,7 @@
         <note xml:id="i-EGzAuZovUamFAw44wrDWUH">
           Till riksdagen
         </note>
-        <u xml:id="i-Aon662ertjpUpEo1jWmfhJ" who="unknown">
+        <u xml:id="i-Aon662ertjpUpEo1jWmfhJ" who="unknown" prev="i-PkLMqrkQa24RdLQ3HzGgFx">
           <seg xml:id="i-DJfHD8mxR1ahWwxnRz2FDd">
             Då jag av min partigrupp nominerats som vice ordförande i utbildningsutskottet
             avsäger jag mig uppdraget som ordinarie ledamot av finansutskottet.
@@ -1005,7 +1011,7 @@
         <note xml:id="i-Qho5cGRPiuCWsoYsG3KGAZ" type="speaker">
           Anf. 2 LARS GUSTAFSSON (s):
         </note>
-        <u xml:id="i-57003c69a32f7228-0" who="i-VyVer93FPiAGTCQxTfXpfW" next="i-Tv56ftfgn36wHCD4H8SfED">
+        <u xml:id="i-57003c69a32f7228-0" who="i-VyVer93FPiAGTCQxTfXpfW" next="i-57003c69a32f7228-2">
           <seg xml:id="i-D8qdPpZT2DkoHeDFduaAVD">
             Herr talman! Socialdemokraterna i utbildningsutskottet har lämnat
             två reservationer till utskottets betänkande 37 om skolforskning
@@ -1019,13 +1025,9 @@
             är, att när en professur i pedagogik blir ledig i Stockholm, bör
             denna inriktas mot det vuxenpedagogiska området.
           </seg>
-        </u>
-        <u xml:id="i-Tv56ftfgn36wHCD4H8SfED" who="i-VyVer93FPiAGTCQxTfXpfW" prev="i-57003c69a32f7228-0" next="i-57003c69a32f7228-1">
           <seg xml:id="i-WCGExVZXxovTjSRYW9kGMo">
             Reservation 2 gäller organisationen för personalutveckling.
           </seg>
-        </u>
-        <u xml:id="i-57003c69a32f7228-1" who="i-VyVer93FPiAGTCQxTfXpfW" prev="i-Tv56ftfgn36wHCD4H8SfED" next="i-57003c69a32f7228-2">
           <seg xml:id="i-6EWJKNRsewzjUmLXTPy88K">
             Vad först beträffar ansvaret för personalutvecklingen sägs i
             utskottsbetänkandet att personalutbildningen är splittrad med
@@ -1058,7 +1060,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198081--156/prot_198081__156-006.jp2/_view"/>
-        <u xml:id="i-57003c69a32f7228-2" who="i-VyVer93FPiAGTCQxTfXpfW" prev="i-57003c69a32f7228-1" next="i-LVCtpVy6yWFhc3VCEhHmn5">
+        <u xml:id="i-57003c69a32f7228-2" who="i-VyVer93FPiAGTCQxTfXpfW" prev="i-57003c69a32f7228-0" next="i-LVCtpVy6yWFhc3VCEhHmn5">
           <seg xml:id="i-CLBykbXYcAHahAiWwGcAuC">
             Vad sedan beträffar förtursfrågan, så anser vi att det kan uppstå
             svårigheter i bedömningen, när man samtidigt skall tillgodose
@@ -1096,13 +1098,11 @@
           1. Ett sammanhållet innehållsmässigt och ekonomiskt ansvar för
           personalutbildningen.
         </note>
-        <u xml:id="i-LVCtpVy6yWFhc3VCEhHmn5" who="i-VyVer93FPiAGTCQxTfXpfW" prev="i-57003c69a32f7228-2" next="i-9HN34o9Fj7cDhdJgQ93qrA">
+        <u xml:id="i-LVCtpVy6yWFhc3VCEhHmn5" who="i-VyVer93FPiAGTCQxTfXpfW" prev="i-57003c69a32f7228-2">
           <seg xml:id="i-XYP7vpBvnY6tgo5zaQqyCv">
             2. Högskolan utnyttjas för personalutbildning i den omfattning
             som denna utbildning bäst fullgörs där.
           </seg>
-        </u>
-        <u xml:id="i-9HN34o9Fj7cDhdJgQ93qrA" who="i-VyVer93FPiAGTCQxTfXpfW" prev="i-LVCtpVy6yWFhc3VCEhHmn5">
           <seg xml:id="i-15AiCqfkGeCDvuaecRWyzs">
             Med detta, herr talman, ber jag att få yrka bifall till reservationerna
             1 och 2 i utbildningsutskottets betänkande nr 37 och i övrigt
@@ -1307,7 +1307,7 @@
         <note xml:id="i-TtVLQnTYRXdM6EiX6DSx79">
           Skolforskning och skoladministration, m. m.
         </note>
-        <u xml:id="i-57003c69a32f7228-8" who="i-9ZfzFzDXHZKY5aBmYVFU3a" prev="i-57003c69a32f7228-6" next="i-12Tv5sDYftT31oVMK27GS4">
+        <u xml:id="i-57003c69a32f7228-8" who="i-9ZfzFzDXHZKY5aBmYVFU3a" prev="i-57003c69a32f7228-6">
           <seg xml:id="i-WbEpr8B7HmZaKGYLK28Srz">
             drag kunna göra sin utbildningsplanering och ha så pass god beredskap
             att man snabbt kan ge ut kurskatalogen.
@@ -1330,8 +1330,6 @@
             som bestrids från anslaget D 8 Utbildning för undervisningsyrken,
             det nya anslaget för utbildning för skolväsendet.
           </seg>
-        </u>
-        <u xml:id="i-12Tv5sDYftT31oVMK27GS4" who="i-9ZfzFzDXHZKY5aBmYVFU3a" prev="i-57003c69a32f7228-8">
           <seg xml:id="i-MpWr9iDsk2JgrYH9pjHSBC">
             Med det anförda, herr talman, yrkar jag bifall till utbildningsutskottets
             hemställan i alla delar av dess betänkande nr 37.
@@ -2362,7 +2360,7 @@
         <note xml:id="i-DEnxLatF7oKtQfBSGNQtk2">
           22
         </note>
-        <u xml:id="i-ec2cbd4e880ea1ac-2" who="i-aihY66rhb8LqCkSn8GhKt" prev="i-ec2cbd4e880ea1ac-0" next="i-8qJ79WxEPLyUE6GC75uSHr">
+        <u xml:id="i-ec2cbd4e880ea1ac-2" who="i-aihY66rhb8LqCkSn8GhKt" prev="i-ec2cbd4e880ea1ac-0">
           <seg xml:id="i-VV7pa2vLuRPwbW3tUCoXN6">
             betyg i ämnesteori ofta också har det i lärarskicklighet. Det
             argumentet kommer nog från LUT 74, men där påpekades också att
@@ -2412,8 +2410,6 @@
             2. Anser utskottets talesman att man nu har tagit hänsyn till
             den mycket starka opinionen mot graderade betyg?
           </seg>
-        </u>
-        <u xml:id="i-8qJ79WxEPLyUE6GC75uSHr" who="i-aihY66rhb8LqCkSn8GhKt" prev="i-ec2cbd4e880ea1ac-2">
           <seg xml:id="i-DmN1Gnzu1F61qC4zitG2Xc">
             Fru talman! Med detta yrkar jag bifall till s-reservationen 1
             vid utbildningsutskottets betänkande 38.
@@ -2707,7 +2703,7 @@
         <note xml:id="i-HM6rmGrdrWdfz4xVZyFpDv">
           26
         </note>
-        <u xml:id="i-0e921b603f72d89b-19" who="i-41UKhfCfhsFVWQiH8A1X8v" prev="i-0e921b603f72d89b-16" next="i-GnWd3ckLtuVXRbCFiD2ij">
+        <u xml:id="i-0e921b603f72d89b-19" who="i-41UKhfCfhsFVWQiH8A1X8v" prev="i-0e921b603f72d89b-16">
           <seg xml:id="i-CRhkAVP2dwfSrxZaYPdsDe">
             utsortering och utslagning av elever sker på grund av klasstillhörighet
             och social bakgrund. Men vi är alls inte överens, från skilda
@@ -2772,8 +2768,6 @@
             skulle framdeles även en särskild parlamentarisk grupp, fristående
             från skolöverstyrelsen, kunna fylla en viktig uppgift.
           </seg>
-        </u>
-        <u xml:id="i-GnWd3ckLtuVXRbCFiD2ij" who="i-41UKhfCfhsFVWQiH8A1X8v" prev="i-0e921b603f72d89b-19">
           <seg xml:id="i-NtyPxdfxsAVkjDzs49vbq4">
             Fru talman! Jag yrkar bifall till motionerna 2005 och 2010 av
             Lars Werner m. fl.
@@ -3264,7 +3258,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198081--156/prot_198081__156-032.jp2/_view"/>
-        <u xml:id="i-3a7811f12ac8145e-7" who="i-XdricRvZKp8jwbwrxEgcha" prev="i-3a7811f12ac8145e-6" next="i-5jPQ8Aoojwnu1SbAGEQkta">
+        <u xml:id="i-3a7811f12ac8145e-7" who="i-XdricRvZKp8jwbwrxEgcha" prev="i-3a7811f12ac8145e-6">
           <seg xml:id="i-Np78JrWwiZREXYFztDEzTB">
             hand tänkt sig Sverige, men också Finland har nämnts i sammanhanget.
             Det förslaget är byggt på att vi i Norden genom anslutning till
@@ -3301,8 +3295,6 @@
             och osäkra. Det skulle icke gagna vare sig vår säkerhetspolitik,
             vår neutralitetspolitik eller vår alliansfria politik.
           </seg>
-        </u>
-        <u xml:id="i-5jPQ8Aoojwnu1SbAGEQkta" who="i-XdricRvZKp8jwbwrxEgcha" prev="i-3a7811f12ac8145e-7">
           <seg xml:id="i-PYLYwh6V7KGJDGVCiuo6Ff">
             Herr talman! Jag yrkar bifall till utskottets förslag.
           </seg>
@@ -3363,7 +3355,7 @@
         <note xml:id="i-LdHZAmeQyavnXcKQUuUa5C">
           34
         </note>
-        <u xml:id="i-ba4eec361f6bddf7-2" who="i-Dqwk6WRPNzjzwmqmA18xc1" prev="i-ba4eec361f6bddf7-0" next="i-6b8kHv2mJByggugU5fqGV7">
+        <u xml:id="i-ba4eec361f6bddf7-2" who="i-Dqwk6WRPNzjzwmqmA18xc1" prev="i-ba4eec361f6bddf7-0" next="i-SkQRL5GTrnEiQUzMZ1trSK">
           <seg xml:id="i-FHP9PykC17u3QceZZtKP79">
             zon i Norden bör ses som ett lokalt komplement till denna vidare
             västeuropeiska debatt.
@@ -3422,8 +3414,6 @@
             som kunde finnas. Som tredje mål angavs hjälp till att stimulera
             en upplyst offentlig debatt i dessa frågor.
           </seg>
-        </u>
-        <u xml:id="i-6b8kHv2mJByggugU5fqGV7" who="i-Dqwk6WRPNzjzwmqmA18xc1" prev="i-ba4eec361f6bddf7-2" next="i-SkQRL5GTrnEiQUzMZ1trSK">
           <seg xml:id="i-RwWGmQH9td9tjgXyDKUhjS">
             Palmekommissionen har hittills hållit fyra möten och publicerat
             uttalanden om behovet av förhandlingar om SALT II och eurostrategiska
@@ -3432,12 +3422,10 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198081--156/prot_198081__156-034.jp2/_view"/>
-        <u xml:id="i-SkQRL5GTrnEiQUzMZ1trSK" who="i-Dqwk6WRPNzjzwmqmA18xc1" prev="i-6b8kHv2mJByggugU5fqGV7" next="i-ba4eec361f6bddf7-5">
+        <u xml:id="i-SkQRL5GTrnEiQUzMZ1trSK" who="i-Dqwk6WRPNzjzwmqmA18xc1" prev="i-ba4eec361f6bddf7-2" next="i-ba4eec361f6bddf7-8">
           <seg xml:id="i-HnFaFSWDZM1XA3KyNMEQhc">
             september. Slutrapporten skall föreligga senast mars-april 1982.
           </seg>
-        </u>
-        <u xml:id="i-ba4eec361f6bddf7-5" who="i-Dqwk6WRPNzjzwmqmA18xc1" prev="i-SkQRL5GTrnEiQUzMZ1trSK" next="i-ba4eec361f6bddf7-8">
           <seg xml:id="i-UYxV8g2P2f7hNsZ9iZN3if">
             Ett ytterligare skäl till att vi här i dag trots tidspressen
             får en tre timmar lång debatt i en fråga där betänkandet saknar
@@ -3526,7 +3514,7 @@
         <note xml:id="i-R8L3Bibtw8B9PUZbgDgsWs">
           36
         </note>
-        <u xml:id="i-ba4eec361f6bddf7-8" who="i-Dqwk6WRPNzjzwmqmA18xc1" prev="i-ba4eec361f6bddf7-5" next="i-ba4eec361f6bddf7-9">
+        <u xml:id="i-ba4eec361f6bddf7-8" who="i-Dqwk6WRPNzjzwmqmA18xc1" prev="i-SkQRL5GTrnEiQUzMZ1trSK" next="i-ba4eec361f6bddf7-9">
           <seg xml:id="i-BTHa5cWFXG6p3qqhNFiBNC">
             bolagsstämma den 13 maj att ge ut s. k. fria aktier, vilket inom
             en snar framtid kan leda till att 40 96 av aktierna i vårt viktigaste
@@ -3593,7 +3581,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198081--156/prot_198081__156-036.jp2/_view"/>
-        <u xml:id="i-ba4eec361f6bddf7-9" who="i-Dqwk6WRPNzjzwmqmA18xc1" prev="i-ba4eec361f6bddf7-8" next="i-LjxD2bXYMniTQSkmvfdZDp">
+        <u xml:id="i-ba4eec361f6bddf7-9" who="i-Dqwk6WRPNzjzwmqmA18xc1" prev="i-ba4eec361f6bddf7-8">
           <seg xml:id="i-3s7Low8F5KkUNHaCJGfrXL">
             kunna vinna politisk genklang. Det är svårt att politiskt motivera
             behovet av Nr 156 stora lager och andra förberedelser för kemisk
@@ -3601,8 +3589,6 @@
             förslag om ett Europa fritt från kemiska vapen skall föras fram
             i den internationella debatten.
           </seg>
-        </u>
-        <u xml:id="i-LjxD2bXYMniTQSkmvfdZDp" who="i-Dqwk6WRPNzjzwmqmA18xc1" prev="i-ba4eec361f6bddf7-9">
           <seg xml:id="i-CgNBBGusRDNjcop1oGX5sa">
             Jag yrkar bifall till utskottets hemställan.
           </seg>
@@ -4265,13 +4251,11 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198081--156/prot_198081__156-044.jp2/_view"/>
-        <u xml:id="i-5ec41ef805bb6d48-10" who="i-T2HHh5Dnznvs9cz9kr2oG4" prev="i-5ec41ef805bb6d48-9" next="i-VYqvMAF1HtRbSiB9BktXZC">
+        <u xml:id="i-5ec41ef805bb6d48-10" who="i-T2HHh5Dnznvs9cz9kr2oG4" prev="i-5ec41ef805bb6d48-9">
           <seg xml:id="i-XfqL8DeL4FEbvqQNTvAwTQ">
             långsiktiga ansträngningar med ett brett engagemang och en förankring
             i folkviljan.
           </seg>
-        </u>
-        <u xml:id="i-VYqvMAF1HtRbSiB9BktXZC" who="i-T2HHh5Dnznvs9cz9kr2oG4" prev="i-5ec41ef805bb6d48-10">
           <seg xml:id="i-RSfNYPskLANKmppQMNzKhK">
             Herr talman! Jag yrkar bifall till hemställan i utrikesutskottets
             betänkande i alla delar.
@@ -5278,12 +5262,10 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198081--156/prot_198081__156-056.jp2/_view"/>
-        <u xml:id="i-SfsneQq3W5gnNhfHQeT6rh" who="i-4uJEFdvmwfbMmozZhv5XDY" prev="i-460159fe54b50518-2" next="i-e70d37b4ba3ea1f7-16">
+        <u xml:id="i-SfsneQq3W5gnNhfHQeT6rh" who="i-4uJEFdvmwfbMmozZhv5XDY" prev="i-460159fe54b50518-2">
           <seg xml:id="i-Fcjrvpfi2yuCq94qqmitKB">
             på området upprätthålls, bl. a. genom fortsatt utredningsarbete.”
           </seg>
-        </u>
-        <u xml:id="i-e70d37b4ba3ea1f7-16" who="i-4uJEFdvmwfbMmozZhv5XDY" prev="i-SfsneQq3W5gnNhfHQeT6rh">
           <seg xml:id="i-GbVWb9DAQQ8tv3CPyxXwkK">
             Det är ungefär på det sättet vi måste arbeta i den här frågan
             liksom i andra. Upprättandet av en kärnvapenfri zon, som är ett
@@ -5878,7 +5860,7 @@
         <note xml:id="i-3XPwBdts8wLy7giWbuynbW" type="speaker">
           Anf. 49 INGRID SUNDBERG (m):
         </note>
-        <u xml:id="i-a64ac1147d588030-0" who="i-N7WL5aLLwEPfYa71gsUxQx" next="i-N8S49nCXvEDrWv8jtu2yTR">
+        <u xml:id="i-a64ac1147d588030-0" who="i-N7WL5aLLwEPfYa71gsUxQx" next="i-a64ac1147d588030-2">
           <seg xml:id="i-NgKQMYGpc8nYkrJhYsyjjZ">
             Fru talman! Debatten här i dag och riksdagsmotionerna om nedrustning
             speglar förändringen i den allmänna svenska nedrustningsdebatten.
@@ -5928,8 +5910,6 @@
             Vad vi däremot alla kan vara ense om är att rustningsspiralen
             fortsätter att stiga och att den utvecklingen måste bromsas.
           </seg>
-        </u>
-        <u xml:id="i-N8S49nCXvEDrWv8jtu2yTR" who="i-N7WL5aLLwEPfYa71gsUxQx" prev="i-a64ac1147d588030-0" next="i-a64ac1147d588030-2">
           <seg xml:id="i-6scLzWurV4RhrvRZhu6TEs">
             Riksdagen gjorde efter förslag av utrikesutskottet förra året,
             bl. a. efter krav från socialdemokraterna på en bättre planering
@@ -5937,7 +5917,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198081--156/prot_198081__156-064.jp2/_view"/>
-        <u xml:id="i-a64ac1147d588030-2" who="i-N7WL5aLLwEPfYa71gsUxQx" prev="i-N8S49nCXvEDrWv8jtu2yTR" next="i-a64ac1147d588030-4">
+        <u xml:id="i-a64ac1147d588030-2" who="i-N7WL5aLLwEPfYa71gsUxQx" prev="i-a64ac1147d588030-0" next="i-a64ac1147d588030-4">
           <seg xml:id="i-MEp5xN3tDxKrnnUDxFQJwf">
             nedrustningsarbetet, ett tillkännagivande om nödvändigheten av
             att regeringen vidmakthåller en handlingsoch utredningsberedskap
@@ -6516,7 +6496,7 @@
         <note xml:id="i-GZuZWfzEZy8coHCsp4Cn41">
           Nedrustning m. m. ”
         </note>
-        <u xml:id="i-85vZyaq2gkQ1DujsXKPsAw" who="i-RbKNMUyo9hNCG3nSXBGQAq" prev="i-a6e65df7a040b7aa-3" next="i-a6e65df7a040b7aa-5">
+        <u xml:id="i-85vZyaq2gkQ1DujsXKPsAw" who="i-RbKNMUyo9hNCG3nSXBGQAq" prev="i-a6e65df7a040b7aa-3" next="i-a6e65df7a040b7aa-6">
           <seg xml:id="i-TudPop7Dp4fJeTiHPgv6bj">
             uppgifter även här för att göra jämförelser mellan blocken. När
             det gäller strategiska kärnvapen — uppgifterna är från SIPRI:s
@@ -6524,8 +6504,6 @@
             9 200 och för Sovjets del 5 000, medan för år 1979 motsvarande
             siffror var för USA:s del 11 576 och för Sovjets del 7 078.
           </seg>
-        </u>
-        <u xml:id="i-a6e65df7a040b7aa-5" who="i-RbKNMUyo9hNCG3nSXBGQAq" prev="i-85vZyaq2gkQ1DujsXKPsAw" next="i-a6e65df7a040b7aa-6">
           <seg xml:id="i-WhUXDSZ4g9g8N1f2GdF4dp">
             Beträffande taktiska vapen, där man också inräknar de s. k. gråzonsvapnen
             eller de eurostrategiska vapnen, finns andra källor som vi kan
@@ -6587,7 +6565,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198081--156/prot_198081__156-072.jp2/_view"/>
-        <u xml:id="i-a6e65df7a040b7aa-6" who="i-RbKNMUyo9hNCG3nSXBGQAq" prev="i-a6e65df7a040b7aa-5" next="i-LBd3tbi2aKrmCJsypduijK">
+        <u xml:id="i-a6e65df7a040b7aa-6" who="i-RbKNMUyo9hNCG3nSXBGQAq" prev="i-85vZyaq2gkQ1DujsXKPsAw">
           <seg xml:id="i-TrhU6qLwB7qdJusY4EzG8g">
             som driver fram rustningarna, och det största ansvaret för upprustningen
             i Europa ligger på USA. Pasti är en av många europeiska militärer
@@ -6643,8 +6621,6 @@
             har gått med på, garanterar plutoniumspridning från svenska kärnkraftverk
             på världsmarknaden genom att Cogéma får köpa av detta plutonium.
           </seg>
-        </u>
-        <u xml:id="i-LBd3tbi2aKrmCJsypduijK" who="i-RbKNMUyo9hNCG3nSXBGQAq" prev="i-a6e65df7a040b7aa-6">
           <seg xml:id="i-NoW5gqvNC7CSLUuNrseCFP">
             Herr talman! Med detta yrkar jag bifall till vpk-motionerna 694
             och 1209.
@@ -7864,7 +7840,7 @@
         <note xml:id="i-F8J8mF5jsWFnHudyXBsdxZ">
           88
         </note>
-        <u xml:id="i-fbb76704c9ea4008-4" who="i-8hxDNLW9NgYYqBHg8RCZcj" prev="i-fbb76704c9ea4008-1" next="i-CvK2gijTCXiSbWX4AJ67Vi">
+        <u xml:id="i-fbb76704c9ea4008-4" who="i-8hxDNLW9NgYYqBHg8RCZcj" prev="i-fbb76704c9ea4008-1">
           <seg xml:id="i-PtJiYfWBGNWuvm8fjQ2qKo">
             ilandsorten är för spridda och för små för att kunna väcka partitaktikerna
             till strid för sin sak.
@@ -7887,8 +7863,6 @@
             plan. Det finns f. ö. i dag ett jetplan som skulle klara de hårda
             bullerdämpningskraven på Bromma, nämligen det brittiska Bae 146.
           </seg>
-        </u>
-        <u xml:id="i-CvK2gijTCXiSbWX4AJ67Vi" who="i-8hxDNLW9NgYYqBHg8RCZcj" prev="i-fbb76704c9ea4008-4">
           <seg xml:id="i-Dj7yWULyUePiEyThDDuFfa">
             Jag yrkar, herr talman, bifall till de båda reservationer som
             är fogade till trafikutskottets betänkande 1980/81:28.
@@ -7902,13 +7876,11 @@
         <note xml:id="i-W1W4C5r4UxRFeXtWuDTRYj" type="speaker">
           Anf. 64 BERTIL JONASSON (c):
         </note>
-        <u xml:id="i-15a33c73de7f8712-0" who="i-DuMmQVGSnykDcj8ZwohCuA" next="i-9wxzU9qQdtv2oaSLHofjLt">
+        <u xml:id="i-15a33c73de7f8712-0" who="i-DuMmQVGSnykDcj8ZwohCuA" next="i-Ck2EbwjC2URoRYVkopYBu9">
           <seg xml:id="i-EFDfD779s414faGgoJBXCQ">
             Herr talman! I motion 316 har jag tillsammans med ett antal centerpartister
             yrkat
           </seg>
-        </u>
-        <u xml:id="i-9wxzU9qQdtv2oaSLHofjLt" who="i-DuMmQVGSnykDcj8ZwohCuA" prev="i-15a33c73de7f8712-0" next="i-Ck2EbwjC2URoRYVkopYBu9">
           <seg xml:id="i-PMEE2DR4LZ1YRkPQZBQtB6">
             1. att riksdagen beslutar att uttala sin principiella anslutning
             till de riktlinjer som presenterades i proposition 1980/81:30
@@ -7919,13 +7891,11 @@
           2. att riksdagen beslutar att hos regeringen begära nytt förslag
           om fortsatt linjeflygsverksamhet på Bromma.
         </note>
-        <u xml:id="i-Ck2EbwjC2URoRYVkopYBu9" who="i-DuMmQVGSnykDcj8ZwohCuA" prev="i-9wxzU9qQdtv2oaSLHofjLt" next="i-15a33c73de7f8712-1">
+        <u xml:id="i-Ck2EbwjC2URoRYVkopYBu9" who="i-DuMmQVGSnykDcj8ZwohCuA" prev="i-15a33c73de7f8712-0" next="i-15a33c73de7f8712-2">
           <seg xml:id="i-A3egreLzXWnA5pGWCL1T4S">
             Dessa yrkanden sammanfaller i stort med yrkanden i andra motioner
             som behandlas i detta utskottsbetänkande.
           </seg>
-        </u>
-        <u xml:id="i-15a33c73de7f8712-1" who="i-DuMmQVGSnykDcj8ZwohCuA" prev="i-Ck2EbwjC2URoRYVkopYBu9" next="i-15a33c73de7f8712-2">
           <seg xml:id="i-BGad6fBnaX5Wr7qk7LaV6X">
             Som Rolf Clarkson nu varit inne på har trafikutskottets majoritet
             yrkat avslag på de här motionerna, och vi har reserverat oss för
@@ -7946,7 +7916,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198081--156/prot_198081__156-088.jp2/_view"/>
-        <u xml:id="i-15a33c73de7f8712-2" who="i-DuMmQVGSnykDcj8ZwohCuA" prev="i-15a33c73de7f8712-1">
+        <u xml:id="i-15a33c73de7f8712-2" who="i-DuMmQVGSnykDcj8ZwohCuA" prev="i-Ck2EbwjC2URoRYVkopYBu9">
           <seg xml:id="i-FGMRKfkVjwQ7XJgj3oQTNa">
             här. Det är en mycket väsentlig fråga för oss i skogslänen och
             Mellansverige.
@@ -8114,7 +8084,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198081--156/prot_198081__156-090.jp2/_view"/>
-        <u xml:id="i-cb77a76d22e62136-4" who="i-WWVHy5fVgZxU1tYXeRXqDH" prev="i-cb77a76d22e62136-3" next="i-PtR4qZDnzL21HjR5Kkxk7u">
+        <u xml:id="i-cb77a76d22e62136-4" who="i-WWVHy5fVgZxU1tYXeRXqDH" prev="i-cb77a76d22e62136-3" next="i-cb77a76d22e62136-9">
           <seg xml:id="i-WJh4ABA9xtDcEwDRmepGqP">
             inte skulle medge en rimlig avskrivningstid. Detta faktum och
             riksdagens klara beslut i Brommafrågan satte fart på tankeverksamheten
@@ -8123,8 +8093,6 @@
             men den innebär å andra sidan bara ett motvilligt verkställande
             av riksdagens beslut.
           </seg>
-        </u>
-        <u xml:id="i-PtR4qZDnzL21HjR5Kkxk7u" who="i-WWVHy5fVgZxU1tYXeRXqDH" prev="i-cb77a76d22e62136-4" next="i-cb77a76d22e62136-5">
           <seg xml:id="i-GYzYwkogwwwPb3zeuLWLPy">
             I den socialdemokratiska motionen av Bertil Zachrisson m. fl.
             skissas ett förslag till en mera långsiktig lösning av terminalfrågan
@@ -8134,8 +8102,6 @@
             1980/81:460, i motion 1980/81:1324 från moderat håll samt i motion
             1980/81:1740 av Rolf Sellgren, folkpartiet.
           </seg>
-        </u>
-        <u xml:id="i-cb77a76d22e62136-5" who="i-WWVHy5fVgZxU1tYXeRXqDH" prev="i-PtR4qZDnzL21HjR5Kkxk7u" next="i-cb77a76d22e62136-9">
           <seg xml:id="i-WGHkAUAGyQ6tk7GhydP61C">
             Luftfartsverket har under mellantiden arbetat med dispositionsplanen
             för Arlanda och studerat olika alternativ också för den framtida
@@ -8208,7 +8174,7 @@
         <note xml:id="i-2C4eJs9jGeXt87kXxnQYgJ">
           NR
         </note>
-        <u xml:id="i-cb77a76d22e62136-9" who="i-WWVHy5fVgZxU1tYXeRXqDH" prev="i-cb77a76d22e62136-5" next="i-74jKcUs3NMmF8xkPAnWqbn">
+        <u xml:id="i-cb77a76d22e62136-9" who="i-WWVHy5fVgZxU1tYXeRXqDH" prev="i-cb77a76d22e62136-4">
           <seg xml:id="i-XGJVYBoy9W96jNsJWRb9Lv">
             regeringen och en ny proposition i frågan. Därmed skulle flyttningen
             av F-28 fördröjas ända till slutet av 1984. Reservanterna är dock
@@ -8248,8 +8214,6 @@
             som en samlokalisering av utrikesoch inrikesflyget utgör har lagt
             grunden för en sådan utveckling.
           </seg>
-        </u>
-        <u xml:id="i-74jKcUs3NMmF8xkPAnWqbn" who="i-WWVHy5fVgZxU1tYXeRXqDH" prev="i-cb77a76d22e62136-9">
           <seg xml:id="i-B4bhz44r1nHGsTV9koYUeJ">
             Jag yrkar, fru talman, bifall till utskottets hemställan.
           </seg>
@@ -8446,7 +8410,7 @@
         <note xml:id="i-ERvXoUtCwArHn2pJqzPuvU" type="speaker">
           Anf. 69 NILS HJORTH (s) replik:
         </note>
-        <u xml:id="i-cb77a76d22e62136-14" who="i-WWVHy5fVgZxU1tYXeRXqDH" next="i-6n8Eq8kfB3CmozxvvMTKfs">
+        <u xml:id="i-cb77a76d22e62136-14" who="i-WWVHy5fVgZxU1tYXeRXqDH" next="i-cb77a76d22e62136-16">
           <seg xml:id="i-6WD8Nks5MLfQfkJwbzBvHC">
             Fru talman! Rolf Clarkson har talat många gånger om nya tystare
             plan som skall komma. Vi har från vår sida hävdat att det dröjer
@@ -8455,15 +8419,13 @@
             förslag borde de nya planen ha varit framme nu och LIN ha tecknat
             ett leveransavtal i höst.
           </seg>
-        </u>
-        <u xml:id="i-6n8Eq8kfB3CmozxvvMTKfs" who="i-WWVHy5fVgZxU1tYXeRXqDH" prev="i-cb77a76d22e62136-14" next="i-cb77a76d22e62136-16">
           <seg xml:id="i-9AvDeDzwhfpSJzH52SeaWp">
             Utskottsmajoriteten noterar i sin skrivning att ”LIN:s styrelse
             numera
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198081--156/prot_198081__156-094.jp2/_view"/>
-        <u xml:id="i-cb77a76d22e62136-16" who="i-WWVHy5fVgZxU1tYXeRXqDH" prev="i-6n8Eq8kfB3CmozxvvMTKfs">
+        <u xml:id="i-cb77a76d22e62136-16" who="i-WWVHy5fVgZxU1tYXeRXqDH" prev="i-cb77a76d22e62136-14">
           <seg xml:id="i-Fsq3onUFRy9uUoFXxo28Pf">
             beslutat att inte vidare utreda möjligheterna att ersätta Fokker-planen
             med tystare jetplan, som klarar miljökraven för fortsatt trafik
@@ -8628,7 +8590,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198081--156/prot_198081__156-096.jp2/_view"/>
-        <u xml:id="i-f7d78afc35e59e57-5" who="i-y57aqt6DptStUpkWh6h5L" prev="i-f7d78afc35e59e57-4" next="i-AC3X2Rpb8549nxktR6GqVQ">
+        <u xml:id="i-f7d78afc35e59e57-5" who="i-y57aqt6DptStUpkWh6h5L" prev="i-f7d78afc35e59e57-4">
           <seg xml:id="i-VHKMmESAFGjLqF5y6JV8eZ">
             järnvägslösning är orealistisk i dagsläget. Den lättvindiga kalkyl
             som presenterades av socialdemokraterna i höstas har efter SJ:s
@@ -8643,8 +8605,6 @@
             gör en kraftig markering, som vi hemställer att riksdagen ger
             regeringen till känna.
           </seg>
-        </u>
-        <u xml:id="i-AC3X2Rpb8549nxktR6GqVQ" who="i-y57aqt6DptStUpkWh6h5L" prev="i-f7d78afc35e59e57-5">
           <seg xml:id="i-CA8HJgaX8AnKRhVuPmafy6">
             Fru talman! Jag yrkar med det sagda bifall till utskottets förslag
             på alla punkter.
@@ -10452,7 +10412,7 @@
         <note xml:id="i-Sj1FGECCYeZJn1uMoSoqxZ">
           118
         </note>
-        <u xml:id="i-e1e5edb550e268e3-8" who="i-GCJVTREcJGRyYmFdeMbNaN" prev="i-e1e5edb550e268e3-6" next="i-5z7ZTtnTyNPM6LvXSDnXUX">
+        <u xml:id="i-e1e5edb550e268e3-8" who="i-GCJVTREcJGRyYmFdeMbNaN" prev="i-e1e5edb550e268e3-6">
           <seg xml:id="i-7zVzwP8ZM3opfZopGT32vk">
             bedömer en bidragsansökan. Jag vet därför inte varför vi skulle
             behöva ha den här motsättningen. Är det någon sorts allmänna decentraliseringsönskemål
@@ -10465,8 +10425,6 @@
             kommer i kläm genom regeringsförslaget och att vi därför får ett
             bifall till vår reservation.
           </seg>
-        </u>
-        <u xml:id="i-5z7ZTtnTyNPM6LvXSDnXUX" who="i-GCJVTREcJGRyYmFdeMbNaN" prev="i-e1e5edb550e268e3-8">
           <seg xml:id="i-8frK8Vu7gN6wgHaFqDPeRz">
             Fru talman! Jag yrkar bifall till de socialdemokratiska reservationerna
             i civilutskottets betänkanden 40 och 41.
@@ -10620,22 +10578,16 @@
         <note xml:id="i-ShK57c7guNJ4cT5dPtiVi3">
           120
         </note>
-        <u xml:id="i-6dac62b8fca232b5-4" who="i-Eoor7chig2KkpNDt6f9K2V" prev="i-6dac62b8fca232b5-2" next="i-GMtvbrCki4vj8uQZN1Bhn7">
+        <u xml:id="i-6dac62b8fca232b5-4" who="i-Eoor7chig2KkpNDt6f9K2V" prev="i-6dac62b8fca232b5-2" next="i-JiDTigDoNG85cxRRu5oshE">
           <seg xml:id="i-2wUj6Z3p3BRAgD35eUF6Sf">
             vi för de allmännyttiga bostadsföretagen angett följande:
           </seg>
-        </u>
-        <u xml:id="i-GMtvbrCki4vj8uQZN1Bhn7" who="i-Eoor7chig2KkpNDt6f9K2V" prev="i-6dac62b8fca232b5-4" next="i-XBjqsgshQZdcexHfU4iinY">
           <seg xml:id="i-RMod9aUKp2T2BPund6j9vC">
             1. Bostadslånen undantas från årlig upptrappning av räntenivån.
           </seg>
-        </u>
-        <u xml:id="i-XBjqsgshQZdcexHfU4iinY" who="i-Eoor7chig2KkpNDt6f9K2V" prev="i-GMtvbrCki4vj8uQZN1Bhn7" next="i-DPTCyqZWV8pRBeVh6mL6f5">
           <seg xml:id="i-QDakKFJ75EVrSCEJidzbgi">
             2. Underhållslån och hyresförlustlån behålles och återinföres.
           </seg>
-        </u>
-        <u xml:id="i-DPTCyqZWV8pRBeVh6mL6f5" who="i-Eoor7chig2KkpNDt6f9K2V" prev="i-XBjqsgshQZdcexHfU4iinY" next="i-JiDTigDoNG85cxRRu5oshE">
           <seg xml:id="i-DjrhfWkWqGhk37rFUsGyTH">
             3. Särskilt stöd i form av ränteoch amorteringsfria lån för att
             täcka ökade kostnader jämfört med år 1980 införes.
@@ -10645,7 +10597,7 @@
           4. Mervärdeskatten på bostadsbyggande och sanering/ombyggnad
           av befintliga bostäder slopas.
         </note>
-        <u xml:id="i-JiDTigDoNG85cxRRu5oshE" who="i-Eoor7chig2KkpNDt6f9K2V" prev="i-DPTCyqZWV8pRBeVh6mL6f5">
+        <u xml:id="i-JiDTigDoNG85cxRRu5oshE" who="i-Eoor7chig2KkpNDt6f9K2V" prev="i-6dac62b8fca232b5-4">
           <seg xml:id="i-Ecc49DRyMSiYksPZVa7LEZ">
             Fru talman! Gemensamt för de olika vpk-förslagen då det gäller
             bostadspolitiken är beträffande kortsiktiga, snabba åtgärder för
@@ -10866,7 +10818,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198081--156/prot_198081__156-122.jp2/_view"/>
-        <u xml:id="i-ac8cfc079cd0b9f3-5" who="i-4DFfTw3ZcYueR6PRxLsMr8" prev="i-ac8cfc079cd0b9f3-4" next="i-KB6LcZcAfvmH5kj79nuLEy">
+        <u xml:id="i-ac8cfc079cd0b9f3-5" who="i-4DFfTw3ZcYueR6PRxLsMr8" prev="i-ac8cfc079cd0b9f3-4">
           <seg xml:id="i-889EAjd1UB92FCJCR5ywhE">
             genom att kalla lånen för något annat än bostadslån. Jag vill
             särskilt betona att detta bara är ett exempel. Skulle det finnas
@@ -10876,8 +10828,6 @@
             klart för sig vilka förutsättningarna är även skattemässigt. Jag
             tror att det har stor betydelse i det här fallet.
           </seg>
-        </u>
-        <u xml:id="i-KB6LcZcAfvmH5kj79nuLEy" who="i-4DFfTw3ZcYueR6PRxLsMr8" prev="i-ac8cfc079cd0b9f3-5">
           <seg xml:id="i-Dxz3hrgxLfY8K8wyWJzZHy">
             Med detta, fru talman, yrkar jag bifall till civilutskottets
             förslag i betänkandena 40 och 41.
@@ -11309,7 +11259,7 @@
         <note xml:id="i-5aweiHVK8fy5iPKS7HtLjQ">
           128
         </note>
-        <u xml:id="i-e30ae41d2d0fad74-2" who="i-FhdnsbdSgKWks7yKVAW7kg" prev="i-e30ae41d2d0fad74-0" next="i-LyQUtCaeXNDXYxyRDHyfcg">
+        <u xml:id="i-e30ae41d2d0fad74-2" who="i-FhdnsbdSgKWks7yKVAW7kg" prev="i-e30ae41d2d0fad74-0">
           <seg xml:id="i-TfazdNXQFV2BZpkc8axVg8">
             konkurrensvillkor som den tidigare begränsningen av lånemöjligheterna
             innebar.
@@ -11321,8 +11271,6 @@
             en konkurrens i ordets egentliga mening och inte på politiska
             villkor.
           </seg>
-        </u>
-        <u xml:id="i-LyQUtCaeXNDXYxyRDHyfcg" who="i-FhdnsbdSgKWks7yKVAW7kg" prev="i-e30ae41d2d0fad74-2">
           <seg xml:id="i-81Mn8ToeB5q7fcts1yBszf">
             Fru talman! Jag yrkar bifall till utskottets hemställan.
           </seg>
@@ -11385,7 +11333,7 @@
         <note xml:id="i-H5K9dNPJnLHBhNEWbL2N8C" type="speaker">
           Anf. 105 HÅKAN WINBERG (m):
         </note>
-        <u xml:id="i-HW41LZLPVSymCjx9YR9GPK" who="i-Li9GYUci4aMEKpg1gPEqQi" next="i-d2f801d400ee3e46-1">
+        <u xml:id="i-HW41LZLPVSymCjx9YR9GPK" who="i-Li9GYUci4aMEKpg1gPEqQi" next="i-7gWgYgAQC6QzDwUfBE5v2T">
           <seg xml:id="i-ADmy3TCyGXnPttqXsgCR9r">
             Fru talman! Jag har begärt ordet för att inför kammaren föredra
             det skriftliga yrkande som tio ledamöter av moderata samlingspartiets
@@ -11393,8 +11341,6 @@
             i anledning av konstitutionsutskottets betänkande nr 28. Yrkandet
             har följande lydelse:
           </seg>
-        </u>
-        <u xml:id="i-d2f801d400ee3e46-1" who="i-Li9GYUci4aMEKpg1gPEqQi" prev="i-HW41LZLPVSymCjx9YR9GPK" next="i-SmD9xryEXJTqJMAZSU1Lmv">
           <seg xml:id="i-BcjyJiYHfqGEAoc3A4NoZD">
             ”I regeringsformens 2 kap. 12 $ stadgas särskilda skyddsregler
             för de frioch rättigheter som grundlagen skyddar. Begränsning
@@ -11445,8 +11391,6 @@
             gäller inskränkningar i grundlagens frioch rättigheter. Lagrådet
             framför också kritik på ett flertal punkter mot majoritetens förslag.
           </seg>
-        </u>
-        <u xml:id="i-SmD9xryEXJTqJMAZSU1Lmv" who="i-Li9GYUci4aMEKpg1gPEqQi" prev="i-d2f801d400ee3e46-1" next="i-7gWgYgAQC6QzDwUfBE5v2T">
           <seg xml:id="i-58m9sSnPCuGKx3mq9hGNAW">
             Bl. a. anför lagrådet: ”I enlighet med det anförda vill lagrådet
             lämna öppet om det i 1 $ i förslaget upptagna spridningsförbudet
@@ -11462,7 +11406,7 @@
         <note xml:id="i-xYQmmSk7768M1vXg6YuBZ" type="date">
           Onsdagen den 3 juni 1981
         </note>
-        <u xml:id="i-7gWgYgAQC6QzDwUfBE5v2T" who="i-Li9GYUci4aMEKpg1gPEqQi" prev="i-SmD9xryEXJTqJMAZSU1Lmv" next="i-WJhwPZQ1UQcuc3Cp7122NH">
+        <u xml:id="i-7gWgYgAQC6QzDwUfBE5v2T" who="i-Li9GYUci4aMEKpg1gPEqQi" prev="i-HW41LZLPVSymCjx9YR9GPK" next="i-WJhwPZQ1UQcuc3Cp7122NH">
           <seg xml:id="i-5HWGTj1efERCsScm9RQnAx">
             Yrkande att visst lagförslag skall vila i minst tolv
           </seg>
@@ -11488,7 +11432,7 @@
         <note xml:id="i-TYiGU1cN2qiDoXyhVNMF4L">
           130
         </note>
-        <u xml:id="i-d2f801d400ee3e46-5" who="i-Li9GYUci4aMEKpg1gPEqQi" prev="i-WJhwPZQ1UQcuc3Cp7122NH" next="i-VCoQFxzrJ9PnkHedzmR4JZ">
+        <u xml:id="i-d2f801d400ee3e46-5" who="i-Li9GYUci4aMEKpg1gPEqQi" prev="i-WJhwPZQ1UQcuc3Cp7122NH">
           <seg xml:id="i-ATFomUaoev61ZgcJvs8mGM">
             förslag) står i överensstämmelse med grundlagsföreskriften att
             en begränsning i yttrandefriheten aldrig får gå utöver vad som
@@ -11504,8 +11448,6 @@
             omständigheter för handen som gör att lagstiftning redan nu är
             motiverad.
           </seg>
-        </u>
-        <u xml:id="i-VCoQFxzrJ9PnkHedzmR4JZ" who="i-Li9GYUci4aMEKpg1gPEqQi" prev="i-d2f801d400ee3e46-5">
           <seg xml:id="i-RPFB1raYWi1q6Lq2aw4fD5">
             Mot denna bakgrund hemställer undertecknade att — om den av de
             moderata ledamöterna i konstitutionsutskottet till utskottets
@@ -11794,8 +11736,6 @@
             I anledning av inträffad händelse i polishuset i Stockholm vill
             jag till justitieministern ställa följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-3t7Ah5wt927NqGLvZDo5mn" who="unknown">
           <seg xml:id="i-NzsQiUhrrQ9B1KRmKJ1EPM">
             Vilka särskilda direktiv har utfärdats till polisen vid förhör
             med minderårig?

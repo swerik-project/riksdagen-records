@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-ACb4Z8BbjuKXgB1PWshzKe" type="speech">
             <linkGrp type="u">
               <ptr target="#i-8d370a05d0f0b790-0"/>
@@ -752,7 +752,13 @@
               <ptr target="#i-LgeRmtw5VLHCWnxWVbEjw2"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -799,7 +805,7 @@
           Berättelse om granskning av bevis för riksdagsledamöter och ersättare
           för riksdagsledamöter
         </note>
-        <u xml:id="i-823558994d0a18d8-0" who="unknown">
+        <u xml:id="i-823558994d0a18d8-0" who="unknown" next="i-X2uA1sy9jsU1N2WknH6voV">
           <seg xml:id="i-DUg9ZzSiaWKBebdWTd4usL">
             Till valprövningsnämnden har från riksskatteverket inkommit bevis
             om att
@@ -828,7 +834,7 @@
           Birgitta Westerberg, Ingarö, Lars Granath, Vårby, Giséle Asplund,
           Danderyd, och Lars Bergstig, Järfälla (alla fp).
         </note>
-        <u xml:id="i-X2uA1sy9jsU1N2WknH6voV" who="unknown">
+        <u xml:id="i-X2uA1sy9jsU1N2WknH6voV" who="unknown" prev="i-823558994d0a18d8-0">
           <seg xml:id="i-7isfsvnBEzbArfWS7zNShk">
             Valprövningsnämnden har denna dag granskat bevisen och därvid
             funnit att de blivit utfärdade i enlighet med 15 kap. 1$ vallagen.
@@ -1229,7 +1235,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-006.jp2/_view"/>
-        <u xml:id="i-8d370a05d0f0b790-5" who="i-4i5vpDVzDizjgGeYkeoK2E" prev="i-823558994d0a18d8-2" next="i-5eF9zSGfsecmLdNhQNbjXH">
+        <u xml:id="i-8d370a05d0f0b790-5" who="i-4i5vpDVzDizjgGeYkeoK2E" prev="i-823558994d0a18d8-2" next="i-823558994d0a18d8-4">
           <seg xml:id="i-XQjacWBFf8epi29juBDtS8">
             munerna dessa pengar. Det innebär att ett belopp på ca 15 miljarder
             kronor inte längre kommer att gå runt mellan två offentliga organ,
@@ -1260,8 +1266,6 @@
             måste ha bidrag för att kunna betala den. Rundgången ökar. Möjligheten
             till självbestämmande minskar för ytterligare tusentals familjer.
           </seg>
-        </u>
-        <u xml:id="i-5eF9zSGfsecmLdNhQNbjXH" who="i-4i5vpDVzDizjgGeYkeoK2E" prev="i-8d370a05d0f0b790-5" next="i-823558994d0a18d8-3">
           <seg xml:id="i-WWGfkVyUojSK9BzYJzB5r4">
             Under innevarande och nästa år leder finansieringen av skattereformen,
             genom främst höjd moms och höjda bostadsskatter, till prisstegringar.
@@ -1269,8 +1273,6 @@
             fattades i december i fjol till prisstegringar på nästan 3 76
             och under nästa år på ungefär 3,5 Jo, enligt propositionen.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-3" who="i-4i5vpDVzDizjgGeYkeoK2E" prev="i-5eF9zSGfsecmLdNhQNbjXH" next="i-823558994d0a18d8-4">
           <seg xml:id="i-9KABqFHUMmgN4E6vjmB8W2">
             Eftersom Sverige redan i utgångsläget har en inflation som överstiger
             vad som gäller i våra viktigaste konkurrentländer, får prisgenomslaget
@@ -1320,7 +1322,7 @@
         <note xml:id="i-9GsJhQM1Wp2XsAtN8Rev2C">
           Reformerad inkomstoch företagsbeskattning
         </note>
-        <u xml:id="i-823558994d0a18d8-4" who="i-4i5vpDVzDizjgGeYkeoK2E" prev="i-823558994d0a18d8-3" next="i-8d370a05d0f0b790-8">
+        <u xml:id="i-823558994d0a18d8-4" who="i-4i5vpDVzDizjgGeYkeoK2E" prev="i-8d370a05d0f0b790-5" next="i-8d370a05d0f0b790-8">
           <seg xml:id="i-Pd6tw4UuGzuRvkeN7hJc5G">
             ekonomiska balansen och för att motverka en fortsatt socialisering.
             För socialdemokraterna innebär nämligen ett lågt hushållssparande
@@ -1553,14 +1555,12 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-010.jp2/_view"/>
-        <u xml:id="i-BDRHrbP1vnKwsfxDzRbBkb" who="i-4i5vpDVzDizjgGeYkeoK2E" prev="i-8d370a05d0f0b790-11" next="i-823558994d0a18d8-6">
+        <u xml:id="i-BDRHrbP1vnKwsfxDzRbBkb" who="i-4i5vpDVzDizjgGeYkeoK2E" prev="i-8d370a05d0f0b790-11">
           <seg xml:id="i-DADdgcU9mjuDzubwEXKGbX">
             Beskattningen av boendet måste lindras. Fastighetsskatten bör
             successivt = Prot. 1989/90:140 avskaffas. Även andra skattesänkningar
             måste övervägas för att minska den = 13 juni 1990 omfattande boendebeskattningen.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-6" who="i-4i5vpDVzDizjgGeYkeoK2E" prev="i-BDRHrbP1vnKwsfxDzRbBkb">
           <seg xml:id="i-WL1j15GUdG6MJN5oKbZffG">
             Mervärdeskatten, som kommer att behandlas i nästa debatt, måste
             efter hand till både bas och skattesatser anpassas till vad som
@@ -1647,7 +1647,7 @@
         <note xml:id="i-9CYA4WCbLu1GidWss6kDCA">
           122
         </note>
-        <u xml:id="i-b83a951fc9e4a10c-2" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-b83a951fc9e4a10c-0" next="i-MZxCxhZupc4eWpxXEJwcjs">
+        <u xml:id="i-b83a951fc9e4a10c-2" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-b83a951fc9e4a10c-0" next="i-b83a951fc9e4a10c-3">
           <seg xml:id="i-EHRqig7XvsYwxv6t74QU4p">
             Vi i centerpartiet har grundat vår finansiering på ekonomiska
             kalkyler, baserade på humana värderingar, och vår analys har också
@@ -1657,8 +1657,6 @@
             — som däremot saknas i er analys, och därför kan jag med fog hävda
             att ofullständigheten finns i er analys.
           </seg>
-        </u>
-        <u xml:id="i-MZxCxhZupc4eWpxXEJwcjs" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-b83a951fc9e4a10c-2" next="i-823558994d0a18d8-7">
           <seg xml:id="i-Fy4WTCFo68GGhLfvUFHYvp">
             Beslutet i dag gäller ett andra stort steg i skattereformen.
             Två skattesänkningar har redan genomförts. Statsskatten för 1989
@@ -1666,8 +1664,6 @@
             85 000 kr. För lägre inkomster begränsades summan av skattesänkningarna
             till endast 2 I.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-7" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-MZxCxhZupc4eWpxXEJwcjs" next="i-WrmpTLmH2scrSYsNeA52WZ">
           <seg xml:id="i-ExRDRyRiBXmc6VwfL9cFcv">
             Dessa skattesänkningar finansierades genom en ny och höjd moms,
             ökade boendeskatter och bilskatter samt högre skatter på de kostnader
@@ -1715,8 +1711,6 @@
             utformning måste man också beakta den rådande ekonomiska konjunkturen.
             Det är ju ett utgångsläge och en förutsättning.
           </seg>
-        </u>
-        <u xml:id="i-WrmpTLmH2scrSYsNeA52WZ" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-823558994d0a18d8-7" next="i-b83a951fc9e4a10c-3">
           <seg xml:id="i-CzuH9oRULXf4vp1RgmnML9">
             Regeringens förslag till finansiering bidrar till att öka konsumentpriserna
             med över 3 90 för vart och ett av åren 1990 och 1991. Från centerns
@@ -1725,7 +1719,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-012.jp2/_view"/>
-        <u xml:id="i-b83a951fc9e4a10c-3" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-WrmpTLmH2scrSYsNeA52WZ" next="i-b83a951fc9e4a10c-5">
+        <u xml:id="i-b83a951fc9e4a10c-3" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-b83a951fc9e4a10c-2" next="i-b83a951fc9e4a10c-5">
           <seg xml:id="i-CnUEJto4NizPmM39CjqSU7">
             på normal konsumtion slår hårdast mot dem som har låga löner
             och därmed = Prot. 1989/90:140 litet konsumtionsutrymme. Det är
@@ -1980,7 +1974,7 @@
         <note xml:id="i-6MbFBXtiCFmm1t19Cm17CY">
           16
         </note>
-        <u xml:id="i-b83a951fc9e4a10c-7" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-b83a951fc9e4a10c-6" next="i-T38oLhXr7BLFo6ykJ2ewLL">
+        <u xml:id="i-b83a951fc9e4a10c-7" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-b83a951fc9e4a10c-6" next="i-b83a951fc9e4a10c-8">
           <seg xml:id="i-8gVcMHCEvJiW5xQhieJJXP">
             mokraterna har läst fel i motionen eller skrivit fel i sammanställningen
             i sin analys. Det gäller t.ex. avtrappning av extra avdrag mot
@@ -2022,15 +2016,11 @@
           <seg xml:id="i-SQJHHxtPYVYgLBf1MBx3Li">
             —- Personliga investeringskonton. Här begär centern förslag.
           </seg>
-        </u>
-        <u xml:id="i-T38oLhXr7BLFo6ykJ2ewLL" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-b83a951fc9e4a10c-7" next="i-823558994d0a18d8-10">
           <seg xml:id="i-9UoqXNxiGmpdu1rUDH4Jxr">
             — Grundavdrag för egenföretagares socialavgifter. Beträffande
             detta gamla centerförslag sägs uttryckligen i vår motion att det
             skall finansieras inom ramen för socialavgiftssystemet.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-10" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-T38oLhXr7BLFo6ykJ2ewLL" next="i-b83a951fc9e4a10c-8">
           <seg xml:id="i-WSqGVikzhZCA1nM1sda9NT">
             —- De dynamiska effekterna. Här anser vi med fog att de kan uppgå
             med 8 miljarder kronor. Om ni hävdar att det rör sig om 5 miljarder
@@ -2067,7 +2057,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-016.jp2/_view"/>
-        <u xml:id="i-b83a951fc9e4a10c-8" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-823558994d0a18d8-10" next="i-b83a951fc9e4a10c-10">
+        <u xml:id="i-b83a951fc9e4a10c-8" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-b83a951fc9e4a10c-7" next="i-b83a951fc9e4a10c-10">
           <seg xml:id="i-Doisv1CU6j8Ys3CjL29cE">
             att de som har kostnader på över 2 000 kr. skall tillgodoses
             genom förslaget. — Prot. 1989/90:140 Det berör ganska många människor.
@@ -2411,7 +2401,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-020.jp2/_view"/>
-        <u xml:id="i-f18f7a638d5278f1-4" who="i-KoshphacAWMdvHAZ62MAi2" prev="i-f18f7a638d5278f1-3" next="i-CkDa9ksyGsSc3AjzTxYJ8k">
+        <u xml:id="i-f18f7a638d5278f1-4" who="i-KoshphacAWMdvHAZ62MAi2" prev="i-f18f7a638d5278f1-3" next="i-f18f7a638d5278f1-6">
           <seg xml:id="i-JnE9bKQizP3LGCkFnZEdj3">
             Jag menar att det är utmärkt om behovet av transfereringar kan
             minska = Prot. 1989/90:140 genom en rättvis fördelningspolitik.
@@ -2481,14 +2471,10 @@
             slopas för inkomster över 180 000 kr. De som tjänar så mycket
             behöver inte detta grundavdrag.
           </seg>
-        </u>
-        <u xml:id="i-CkDa9ksyGsSc3AjzTxYJ8k" who="i-KoshphacAWMdvHAZ62MAi2" prev="i-f18f7a638d5278f1-4" next="i-823558994d0a18d8-11">
           <seg xml:id="i-7YX3zscfZ3AnAUfUPHpWf8">
             Denna sänkning av inkomstskatten finansieras genom en ökad skatt
             på kapital, företag och näringsverksamhet.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-11" who="i-KoshphacAWMdvHAZ62MAi2" prev="i-CkDa9ksyGsSc3AjzTxYJ8k" next="i-9LFwwBTuHkXoqSayvhY1h7">
           <seg xml:id="i-DcmdFDSJjhfTsXbVPY6Lai">
             När det gäller kapitalbeskattningen talar vänsterpartiet inte
             bara om enhetlig kapitalbeskattning på 30 96, vi föreslår det
@@ -2500,8 +2486,6 @@
             Vänsterpartiet kan godta en sänkning av företagsskatten från
             drygt 50 9o
           </seg>
-        </u>
-        <u xml:id="i-9LFwwBTuHkXoqSayvhY1h7" who="i-KoshphacAWMdvHAZ62MAi2" prev="i-823558994d0a18d8-11" next="i-f18f7a638d5278f1-6">
           <seg xml:id="i-W2APTnSKp24gJM8nwrYpoL">
             till 30 Zo under förutsättning att företagens möjligheter till
             skattefria reserve- 21
@@ -2517,7 +2501,7 @@
         <note xml:id="i-DArWACsE3tyuKxLMYM1EbQ">
           22
         </note>
-        <u xml:id="i-f18f7a638d5278f1-6" who="i-KoshphacAWMdvHAZ62MAi2" prev="i-9LFwwBTuHkXoqSayvhY1h7" next="i-f18f7a638d5278f1-7">
+        <u xml:id="i-f18f7a638d5278f1-6" who="i-KoshphacAWMdvHAZ62MAi2" prev="i-f18f7a638d5278f1-4" next="i-f18f7a638d5278f1-7">
           <seg xml:id="i-WMmTTMoN6ztshaF5zgb9Ta">
             ringar slopas. Vi yrkar därför avslag på förslaget om en särskild
             skatteutjämningsreserv.
@@ -3441,14 +3425,12 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-032.jp2/_view"/>
-        <u xml:id="i-B8he5K9athEm8AbsuvCu6S" who="i-EwQLj64QESe7nyTkQt6qeD" prev="i-8a5743ec44989e08-3" next="i-823558994d0a18d8-18">
+        <u xml:id="i-B8he5K9athEm8AbsuvCu6S" who="i-EwQLj64QESe7nyTkQt6qeD" prev="i-8a5743ec44989e08-3" next="i-823558994d0a18d8-19">
           <seg xml:id="i-Uwt1vYJkjMzp2zyWGn1YUV">
             skattefritt pensionssparande. Det kan röra sig om lågbeskattade
             bilförmåner Prot. 1989/90:140 och förvärv av värdepapper av arbetsgivaren
             på förmånliga villkor. 13 juni 1990
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-18" who="i-EwQLj64QESe7nyTkQt6qeD" prev="i-B8he5K9athEm8AbsuvCu6S" next="i-823558994d0a18d8-19">
           <seg xml:id="i-JEHe1usSvdShy9MoQpdrbk">
             Resultatet av detta blir att ungefär lika inkomst mycket väl
             kan beskattas olika hårt. Den horisontella rättvisan, som det
@@ -3535,7 +3517,7 @@
         <note xml:id="i-RGVcNZzLoFLBXfDq2BFTzH">
           Reformerad inkomstoch företagsbeskattning
         </note>
-        <u xml:id="i-823558994d0a18d8-19" who="i-EwQLj64QESe7nyTkQt6qeD" prev="i-823558994d0a18d8-18" next="i-QCnYr5J9YWBeHY9wS7rtG">
+        <u xml:id="i-823558994d0a18d8-19" who="i-EwQLj64QESe7nyTkQt6qeD" prev="i-B8he5K9athEm8AbsuvCu6S" next="i-8a5743ec44989e08-6">
           <seg xml:id="i-NQmdPrUcZPjBsLeYSzJWWX">
             skattning, RINK, och kommittén för indirekta skatter, KIS. Därmed
             var arbetet med en genomgripande skattereform i full gång.
@@ -3576,8 +3558,6 @@
             två betänkanden om skattereformen. Det är ju populärt att göra
             sådana undersökningar i dag.
           </seg>
-        </u>
-        <u xml:id="i-QCnYr5J9YWBeHY9wS7rtG" who="i-EwQLj64QESe7nyTkQt6qeD" prev="i-823558994d0a18d8-19" next="i-823558994d0a18d8-20">
           <seg xml:id="i-H2kSH43KwAzh3LdJzjzCzV">
             Av dessa 237 reservationer svarar moderaterna ensamma för 82
             stycken. Därutöver har moderaterna lämnat ytterligare ett antal
@@ -3585,16 +3565,12 @@
             endast 14 stycken tillsammans med centern. Tala om ökenvandring
             och tala om splittring!
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-20" who="i-EwQLj64QESe7nyTkQt6qeD" prev="i-QCnYr5J9YWBeHY9wS7rtG" next="i-TFZDfYxTh5GARA9Spxfjno">
           <seg xml:id="i-VDoYEs7wChM1TjHdgaTkby">
             Mot bakgrund av detta närmast totala kaos inom oppositionen känns
             det bra att kunna konstatera att det finns en bred och stabil
             majoritet av socialdemokrater och folkpartister som är beredda
             att ta ansvar för en nödvändig reformering av det svenska skattesystemet.
           </seg>
-        </u>
-        <u xml:id="i-TFZDfYxTh5GARA9Spxfjno" who="i-EwQLj64QESe7nyTkQt6qeD" prev="i-823558994d0a18d8-20" next="i-823558994d0a18d8-21">
           <seg xml:id="i-7Zfoe9Xka3CPP3M1buoW8N">
             En del av denna reformering har redan genomförts. Den 15 december
             i fjol fattade riksdagen beslut om en rejäl sänkning av inkomstbeskattningen.
@@ -3602,8 +3578,6 @@
             och ett ökat uttag av indirekta skatter. Då togs också ett första
             steg i reformeringen av företagsbeskattningen.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-21" who="i-EwQLj64QESe7nyTkQt6qeD" prev="i-TFZDfYxTh5GARA9Spxfjno" next="i-8a5743ec44989e08-6">
           <seg xml:id="i-H8v79cUsG74gMXCUNNfFFa">
             Nu fortsätter vi på den då inslagna vägen genom ett antal ännu
             mer långtgående åtgärder. Det handlar framför allt om att skapa
@@ -3621,7 +3595,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-034.jp2/_view"/>
-        <u xml:id="i-8a5743ec44989e08-6" who="i-EwQLj64QESe7nyTkQt6qeD" prev="i-823558994d0a18d8-21" next="i-8a5743ec44989e08-8">
+        <u xml:id="i-8a5743ec44989e08-6" who="i-EwQLj64QESe7nyTkQt6qeD" prev="i-823558994d0a18d8-19" next="i-8a5743ec44989e08-8">
           <seg xml:id="i-RCTCAb8GmDk9xYP4KWdMW">
             Mot den bakgrunden är det viktigt att parterna på arbetsmarknaden
             anpassar sina lönekrav till de kraftigt sänkta marginalskatterna
@@ -4114,7 +4088,7 @@
         <note xml:id="i-GuC6KYfdJ2X7c45DfNCCJw" type="speaker">
           Anf. 16 LARS HEDFORS (s) replik:
         </note>
-        <u xml:id="i-8a5743ec44989e08-10" who="i-EwQLj64QESe7nyTkQt6qeD" next="i-VtA6oJ88oHPs8KiktNwqPd">
+        <u xml:id="i-8a5743ec44989e08-10" who="i-EwQLj64QESe7nyTkQt6qeD" next="i-8a5743ec44989e08-11">
           <seg xml:id="i-522ieDCvm6LqrczaxYNrwj">
             Herr talman! Jag noterar att Bo Lundgren väldigt gärna ställer
             frågor men mycket sällan besvarar några. Han sade inte ett ord
@@ -4151,15 +4125,13 @@
             in i skatterna, vilket man inte gör i många andra länder, där
             de sociala avgifterna betalas på annat sätt.
           </seg>
-        </u>
-        <u xml:id="i-VtA6oJ88oHPs8KiktNwqPd" who="i-EwQLj64QESe7nyTkQt6qeD" prev="i-8a5743ec44989e08-10" next="i-8a5743ec44989e08-11">
           <seg xml:id="i-JbpUJrFQhDoHBQZmRNepTR">
             Görel Thurdin talar om utvärdering av de fördelningspolitiska
             effekterna
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-040.jp2/_view"/>
-        <u xml:id="i-8a5743ec44989e08-11" who="i-EwQLj64QESe7nyTkQt6qeD" prev="i-VtA6oJ88oHPs8KiktNwqPd">
+        <u xml:id="i-8a5743ec44989e08-11" who="i-EwQLj64QESe7nyTkQt6qeD" prev="i-8a5743ec44989e08-10">
           <seg xml:id="i-4ZkgJ9ksKDZP7AbN5hNaA1">
             av förslaget. Hon tycker att man borde kunna genomföra centerns
             förslag tidigare, och hon säger sig veta att dess fördelningspolitiska
@@ -4857,7 +4829,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-048.jp2/_view"/>
-        <u xml:id="i-90b96a7a47b5f1be-6" who="i-WpdDDVBL8xRiFwxBEnVikM" prev="i-823558994d0a18d8-35" next="i-UgZKdNJDfaCY47LsDWpuRu">
+        <u xml:id="i-90b96a7a47b5f1be-6" who="i-WpdDDVBL8xRiFwxBEnVikM" prev="i-823558994d0a18d8-35" next="i-90b96a7a47b5f1be-8">
           <seg xml:id="i-5Zn5nhQEZRXiNnKa2EVnUL">
             det sämsta fördelningspolitiska instrument som står att finna
             då det gäller att hjälpa barnfamiljer och pensionärer.
@@ -4930,8 +4902,6 @@
             reformen trätt i kraft. Det är särskilt viktigt i en värld med
             ökande internationell ekonomisk integration.
           </seg>
-        </u>
-        <u xml:id="i-UgZKdNJDfaCY47LsDWpuRu" who="i-WpdDDVBL8xRiFwxBEnVikM" prev="i-90b96a7a47b5f1be-6" next="i-90b96a7a47b5f1be-8">
           <seg xml:id="i-ETtguEZuH2tVTn9kiBT31m">
             Förmögenhetssamt arvsoch gåvobeskattningen har inte omfattats
             av ut-
@@ -4962,7 +4932,7 @@
         <note xml:id="i-RerdjsZZQ5HnQTkFAye6HS">
           50
         </note>
-        <u xml:id="i-90b96a7a47b5f1be-8" who="i-WpdDDVBL8xRiFwxBEnVikM" prev="i-UgZKdNJDfaCY47LsDWpuRu">
+        <u xml:id="i-90b96a7a47b5f1be-8" who="i-WpdDDVBL8xRiFwxBEnVikM" prev="i-90b96a7a47b5f1be-6">
           <seg xml:id="i-7CFG3EifnGXjQugVWCLfA6">
             redningsoch reformarbetet. Det är viktigt att även på dessa områden
             förslag om lägre skatter snabbt läggs fram av regeringen. Leif
@@ -5396,14 +5366,12 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-054.jp2/_view"/>
-        <u xml:id="i-RWtqWxo6yvdAMbj5cLijux" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-b83a951fc9e4a10c-19" next="i-823558994d0a18d8-42">
+        <u xml:id="i-RWtqWxo6yvdAMbj5cLijux" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-b83a951fc9e4a10c-19">
           <seg xml:id="i-S7VvRGVo9vHVnrCehdhJNG">
             Man ruskade på huvudet när Kjell Johansson ställde frågan om
             matmomsen. Prot. 1989/90:140 De flesta EG-länder har sänkt matmomsen.
             EG vill ha samma system som 13 juni 1990
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-42" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-RWtqWxo6yvdAMbj5cLijux">
           <seg xml:id="i-QCpSJxQdWWh7gihGhdvKYz">
             vi har, nämligen två momssatser — en lägre för nödvändig konsumtion
             och en högre för övrig konsumtion.
@@ -6726,15 +6694,13 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-070.jp2/_view"/>
-        <u xml:id="i-2QBWSKgioSYD8h9iaW8kYC" who="i-4i5vpDVzDizjgGeYkeoK2E" prev="i-8d370a05d0f0b790-27" next="i-823558994d0a18d8-52">
+        <u xml:id="i-2QBWSKgioSYD8h9iaW8kYC" who="i-4i5vpDVzDizjgGeYkeoK2E" prev="i-8d370a05d0f0b790-27">
           <seg xml:id="i-UXgDstnFFYxJ1pZYSf6sdb">
             Det var också dessa arbetskraftskostnadsökningar i början av
             1970-talet — = Prot. 1989/90:140 det kan man läsa om i långtidsbudget
             osv. — som skapade de ekonomiska = 13 juni 1990 problemen. Därefter
             sjönk det totala skattetrycket i Sverige. Eftersom det
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-52" who="i-4i5vpDVzDizjgGeYkeoK2E" prev="i-2QBWSKgioSYD8h9iaW8kYC">
           <seg xml:id="i-Qbx9Yb74PHToJCST2CdEUL">
             kommunala skattetrycket ökade minskade också det statliga skattetrycket.
             - Ormerad 0 Det är riktigt att mittenpartierna gjorde upp med
@@ -7171,7 +7137,7 @@
         <note xml:id="i-JM4PJnNiVkmBooXibKGsHP">
           76
         </note>
-        <u xml:id="i-d92f90a2b13aaa5c-2" who="i-Ahzryxd2b7naJSD37mfHNJ" prev="i-d92f90a2b13aaa5c-0" next="i-QBEdqpkTYt8ezxFNrn6FNu">
+        <u xml:id="i-d92f90a2b13aaa5c-2" who="i-Ahzryxd2b7naJSD37mfHNJ" prev="i-d92f90a2b13aaa5c-0" next="i-d92f90a2b13aaa5c-3">
           <seg xml:id="i-Au5tJCnH39VsAxPoufg7iu">
             att sänka skattetrycket, det visar inte minst problemen för nyföretagande
             i glesbygden. De som bor och verkar på landsbygden har jämförelsevis
@@ -7204,8 +7170,6 @@
             för egenföretagarens avsättning till L-SURV — en teknisk term
             som tidigare har uttytts här i kammaren.
           </seg>
-        </u>
-        <u xml:id="i-QBEdqpkTYt8ezxFNrn6FNu" who="i-Ahzryxd2b7naJSD37mfHNJ" prev="i-d92f90a2b13aaa5c-2" next="i-823558994d0a18d8-58">
           <seg xml:id="i-7NFnttjJFRUoSvJ3mMDa8o">
             Propositionen, som utskottsmajoriteten i nästan alla delar följer,
             innehåller ett förslag om att enskilda näringsidkare skall kunna
@@ -7215,8 +7179,6 @@
             med statslåneräntan redovisas som intäkt av näringsverksamhet
             och som avdrag i inkomstslaget kapital.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-58" who="i-Ahzryxd2b7naJSD37mfHNJ" prev="i-QBEdqpkTYt8ezxFNrn6FNu" next="i-d92f90a2b13aaa5c-3">
           <seg xml:id="i-JhidcspXvdBrW1M6QSisFk">
             Vi yrkar avslag på detta förslag. Det är också mycket komplicerat,
             och sannolikt medför det ökade svårigheter för både skattskyldiga
@@ -7248,7 +7210,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-076.jp2/_view"/>
-        <u xml:id="i-d92f90a2b13aaa5c-3" who="i-Ahzryxd2b7naJSD37mfHNJ" prev="i-823558994d0a18d8-58" next="i-d92f90a2b13aaa5c-6">
+        <u xml:id="i-d92f90a2b13aaa5c-3" who="i-Ahzryxd2b7naJSD37mfHNJ" prev="i-d92f90a2b13aaa5c-2" next="i-d92f90a2b13aaa5c-6">
           <seg xml:id="i-3bAq4t5RdKkmasmgg9jesU">
             Ett av socialdemokraternas motiv för skatteomläggningen har ju
             varit att eftersträva en förskjutning av skatteuttaget mot hårdare
@@ -7342,7 +7304,7 @@
         <note xml:id="i-JX5k3wtLPdDzPgEs7Edt1D">
           178
         </note>
-        <u xml:id="i-d92f90a2b13aaa5c-6" who="i-Ahzryxd2b7naJSD37mfHNJ" prev="i-d92f90a2b13aaa5c-3" next="i-TZXtTnf6cEV5B7rayf5bq9">
+        <u xml:id="i-d92f90a2b13aaa5c-6" who="i-Ahzryxd2b7naJSD37mfHNJ" prev="i-d92f90a2b13aaa5c-3" next="i-d92f90a2b13aaa5c-7">
           <seg xml:id="i-M5q6p6fM9tHRXFQXa1PgqH">
             förande, Lars Sandberg sade vid ett anförande i Stockholm den
             7 maj: ”Det är inte konstigt att tilltron till politiker naggas
@@ -7389,16 +7351,12 @@
             gäller för andra inkomsttagare. Därvidlag vill vi likställa pensionärer
             med övriga inkomsttagare.
           </seg>
-        </u>
-        <u xml:id="i-TZXtTnf6cEV5B7rayf5bq9" who="i-Ahzryxd2b7naJSD37mfHNJ" prev="i-d92f90a2b13aaa5c-6" next="i-823558994d0a18d8-62">
           <seg xml:id="i-JipQgSNnS4thcyk1oUW7rT">
             Den uteblivna kompensationen för prisökningar till följd av höjda
             indirekta skatter betyder att basbeloppet 1991 kommer att bli
             ca 3 96 lägre än vad det borde vara. 1992 och följande år blir
             basbeloppet hela 6,5 96 lägre än vad som följer av inflationen.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-62" who="i-Ahzryxd2b7naJSD37mfHNJ" prev="i-TZXtTnf6cEV5B7rayf5bq9" next="i-d92f90a2b13aaa5c-7">
           <seg xml:id="i-67fpdj76jGn369ouAxQeEh">
             För att kompensera de sämst ställda pensionärerna avser man att
             höja pensionstillskotten. Men alla vet att de föreslagna höjningarna
@@ -7426,7 +7384,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-078.jp2/_view"/>
-        <u xml:id="i-d92f90a2b13aaa5c-7" who="i-Ahzryxd2b7naJSD37mfHNJ" prev="i-823558994d0a18d8-62">
+        <u xml:id="i-d92f90a2b13aaa5c-7" who="i-Ahzryxd2b7naJSD37mfHNJ" prev="i-d92f90a2b13aaa5c-6">
           <seg xml:id="i-5nCL37VqhKZFxFGFHCmjjt">
             skatt skulle bli en engångsföreteelse. Nu blir det i stället
             en ”engångsskatt” Prot. 1989/90:140 som tas ut varje år! Så lätt
@@ -7858,13 +7816,11 @@
         <note xml:id="i-NuYogtqbTxR5idfoZxVVJs">
           Reformerad inkomstoch företagsbeskattning
         </note>
-        <u xml:id="i-V6QfQXWsZYrNUXzCr3gyq1" who="i-S5PCk5aLzcaX5qooYtMdGY" prev="i-aff7d786db564dfa-5" next="i-823558994d0a18d8-64">
+        <u xml:id="i-V6QfQXWsZYrNUXzCr3gyq1" who="i-S5PCk5aLzcaX5qooYtMdGY" prev="i-aff7d786db564dfa-5">
           <seg xml:id="i-WkL7zBZXiNnsvv2MtP72Jx">
             skadeförsäkringsföretagen och borttagandet av dispensrätten inom
             mervärdeskatteområdet för bl.a. federativt uppbyggda företag.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-64" who="i-S5PCk5aLzcaX5qooYtMdGY" prev="i-V6QfQXWsZYrNUXzCr3gyq1">
           <seg xml:id="i-F7Kj4CaFrB45X5xm3tMtRD">
             Eftersom det har visat sig omöjligt att uppnå majoritet i utskottsbehandlingen
             anser vi det helt nödvändigt att regeringen återkommer till riksdagen
@@ -8377,7 +8333,7 @@
         <note xml:id="i-6f4QRYrv9a1cx6udgrTgpA">
           Reformerad inkomstoch företagsbeskattning
         </note>
-        <u xml:id="i-823558994d0a18d8-68" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-2d4630d969dd32a7-1" next="i-PbuyN7ThBRo3EYxrKuyLR1">
+        <u xml:id="i-823558994d0a18d8-68" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-2d4630d969dd32a7-1" next="i-2d4630d969dd32a7-4">
           <seg xml:id="i-5HjxXAHs2z47AFycCeFsrr">
             visar hur fördelningspolitiken påverkas av skattereformens olika
             effekter. I centerns fall skulle drygt 2 miljarder flyttas från
@@ -8432,8 +8388,6 @@
             kvittningsrätt mot inkomst av tjänst behålls för underskott av
             litterär, konstnärlig och liknande näringsverksamhet.
           </seg>
-        </u>
-        <u xml:id="i-PbuyN7ThBRo3EYxrKuyLR1" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-823558994d0a18d8-68" next="i-823558994d0a18d8-69">
           <seg xml:id="i-MdHSagL3pVdcqRY3yWbJQH">
             Inkomst av hobbyverksamhet skall fr.o.m. 1991 redovisas som inkomst
             av tjänst. Å andra sidan medges rätt till avdrag för omkostnader
@@ -8441,8 +8395,6 @@
             Även underskott som uppkommit året före beskattningsåret får inräknas
             i omkostnadsbeloppet.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-69" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-PbuyN7ThBRo3EYxrKuyLR1" next="i-2d4630d969dd32a7-4">
           <seg xml:id="i-3io7DaA9XJKcEBYdzaTaBT">
             Det har bl.a. när det gäller hobbybetonad hästuppfödning uttryckts
             farhågor för att dessa regler kan leda till icke önskade effekter.
@@ -8459,7 +8411,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-090.jp2/_view"/>
-        <u xml:id="i-2d4630d969dd32a7-4" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-823558994d0a18d8-69" next="i-7ke5C2nJicNbb4JND9SXYp">
+        <u xml:id="i-2d4630d969dd32a7-4" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-823558994d0a18d8-68" next="i-7ke5C2nJicNbb4JND9SXYp">
           <seg xml:id="i-3CtPkx6ZhcNE2PtNVknKPi">
             derhållsbidragskommittén har lämnat förslag om hur stödet till
             barn som = Prot. 1989/90:140 inte lever samman med båda föräldrarna
@@ -8474,7 +8426,7 @@
         <note xml:id="i-6WFeZMsy8RixiuHB5ibYqx">
           hösten.
         </note>
-        <u xml:id="i-7ke5C2nJicNbb4JND9SXYp" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-2d4630d969dd32a7-4" next="i-NDnzezRQwvTZHwGYz7tCw7">
+        <u xml:id="i-7ke5C2nJicNbb4JND9SXYp" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-2d4630d969dd32a7-4" next="i-823558994d0a18d8-72">
           <seg xml:id="i-V6qdQxKtTsfaJdjJAm24cp">
             Även det tidigare extra avdraget vid sjukdom och vid existensminimum
             slopas. Reglerna om existensminimum kvarstår dock som ett förbehållsbelopp
@@ -8490,15 +8442,11 @@
             Utan den skulle utan tvivel en skattemässig olikformighet uppstå
             i behandlingen av arbetstagaroch arbetsgivarorganisationer.
           </seg>
-        </u>
-        <u xml:id="i-NDnzezRQwvTZHwGYz7tCw7" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-7ke5C2nJicNbb4JND9SXYp" next="i-823558994d0a18d8-71">
           <seg xml:id="i-GSWm6foXVnRiE4UfKvEuN4">
             Förslaget innebär att skattereduktion för fackföreningsavgifter
             medges med 20 26 av den del av avgiften som inte överstiger 2
             500 kr. om året, alltså max 500 kr. skattereduktion per år.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-71" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-NDnzezRQwvTZHwGYz7tCw7" next="i-823558994d0a18d8-72">
           <seg xml:id="i-96rxFcWZqYASZMbSNovsZJ">
             Herr talman! Vissa grupper av löntagare, ofta de med redan tidigare
             relativt hyggliga löner, har genom systemets olika former av särskilda
@@ -8558,7 +8506,7 @@
         <note xml:id="i-KfrsFDh32CdPt2FXdVsALQ">
           Reformerad inkomstoch företagsbeskattning
         </note>
-        <u xml:id="i-823558994d0a18d8-72" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-823558994d0a18d8-71" next="i-5NDMTNCeTSSLjCkTvQoKHe">
+        <u xml:id="i-823558994d0a18d8-72" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-7ke5C2nJicNbb4JND9SXYp" next="i-2d4630d969dd32a7-6">
           <seg xml:id="i-SXy8VcZ1Tt23e6d4mTkb8p">
             idrottsrörelsen, har debatten ändå innehållit en hel del våldsamma
             överdrifter. En del slutsatser har åtminstone varit förhastade.
@@ -8588,8 +8536,6 @@
             Herr talman! Reavinstbeskattningen skall i princip avse hela
             den nominella vinsten. Reaförluster blir avdragsgilla med 70 96.
           </seg>
-        </u>
-        <u xml:id="i-5NDMTNCeTSSLjCkTvQoKHe" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-823558994d0a18d8-72" next="i-823558994d0a18d8-73">
           <seg xml:id="i-5LGoziSiwoDXoGNE3wC5CF">
             Ränteutgifter får dras av mot motsvarande intäkter under ett
             och samma år. För ränteutgifter som överstiger ränteintäkter med
@@ -8599,8 +8545,6 @@
             en skattereduktion med 30 96 av underskottet. Skattereduktionen
             skall utnyttjas samma år och får inte förskjutas i tiden.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-73" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-5NDMTNCeTSSLjCkTvQoKHe" next="i-HaCMdZXboLNy5tXjVEdBwU">
           <seg xml:id="i-NNfeuhRdskYFcHsPV6h61P">
             I debatten har bl.a. förekommit kritik mot att små barn skulle
             drabbas orättvist av den föreslagna kapitalbeskattningen. Utskottet
@@ -8617,8 +8561,6 @@
             ränteinkomster inte lämna någon självdeklaration eller själv betala
             in någon skatt.
           </seg>
-        </u>
-        <u xml:id="i-HaCMdZXboLNy5tXjVEdBwU" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-823558994d0a18d8-73" next="i-7KP7ku21UepzqCUKajZ4XD">
           <seg xml:id="i-RXdS9p4Fjrvzmndj825Qho">
             Allemanssparandet får enligt förslaget behålla en förmånlig behandling
             vid beskattningen. Ränta i denna sparform och på ungdomsbosparande
@@ -8627,16 +8569,12 @@
             fördelaktigare regler än reavinster i allmänhet. Endast två tredjedelar
             av vinsten blir skattepliktig.
           </seg>
-        </u>
-        <u xml:id="i-7KP7ku21UepzqCUKajZ4XD" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-HaCMdZXboLNy5tXjVEdBwU" next="i-823558994d0a18d8-74">
           <seg xml:id="i-NGU3hLqAMof1QKY8x5QKaZ">
             Skatteuttaget begränsas genom en s.k. takregel vid bostadsbeskattningen.
             För permanentbostäder innebär detta att reavinstskatten högst
             blir 9 Io av försäljningsvärdet, 18 90 för fritidsbostäder och
             bostadsrätter som används som privatbostad och 27 96 för näringsfastigheter.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-74" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-7KP7ku21UepzqCUKajZ4XD" next="i-2d4630d969dd32a7-6">
           <seg xml:id="i-GyV6FgjkPvb7oTY8YGNCS9">
             Herr talman! Omläggningen av bostadsbeskattningen innebär bl.a.
             att fastigheter skall klassificeras som antingen privatbostadsfastighet
@@ -8646,7 +8584,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-092.jp2/_view"/>
-        <u xml:id="i-2d4630d969dd32a7-6" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-823558994d0a18d8-74" next="i-2EoR4YHzdVmFbJBTC9AzvD">
+        <u xml:id="i-2d4630d969dd32a7-6" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-823558994d0a18d8-72">
           <seg xml:id="i-F4DGPFtvMLmys4511sRsxQ">
             I debatten har det framkommit oro över hur reglerna om näringsfastighe-
             = Prot. 1989/90:140 ter resp. privatbostäder i praktiken skall
@@ -8658,15 +8596,11 @@
             skall leda till att villan vid en därpå följande försäljning betraktas
             som näringsfastighet.
           </seg>
-        </u>
-        <u xml:id="i-2EoR4YHzdVmFbJBTC9AzvD" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-2d4630d969dd32a7-6" next="i-823558994d0a18d8-75">
           <seg xml:id="i-3ZoX2YwSCQ81hcJ5YMXb3L">
             Fastighetsskatten för småhus föreslås bli 1,5 26 av taxeringsvärdet
             och för hyreshus 2,5 20. Särskilda övergångsbestämmelser innebär
             att småhus beskattas med 1,2 26 åren 1991 och 1992.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-75" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-2EoR4YHzdVmFbJBTC9AzvD" next="i-JPKDG7STSDyrZrgNjv1RJ9">
           <seg xml:id="i-8waTkHVKmSak9TqmG6ahJu">
             I debatten om fastighetsbeskattningen har särskilt konsekvenserna
             av den pågående fastighetstaxeringen samt effekterna för bl.a.
@@ -8709,8 +8643,6 @@
             ögonen ur vandra, men så är det ju faktiskt inte — särskilt inte
             mellan Hugo Hegeland och mig.
           </seg>
-        </u>
-        <u xml:id="i-JPKDG7STSDyrZrgNjv1RJ9" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-823558994d0a18d8-75">
           <seg xml:id="i-NbGAstvznrfPGYyettkXsd">
             Till slut yrkar jag bifall till skatteutskottets hemställan och
             avslag på reservationerna.
@@ -9348,7 +9280,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-100.jp2/_view"/>
-        <u xml:id="i-010f64bec4326812-4" who="i-8ihSXxrczC6r6e3uVHuU5A" prev="i-010f64bec4326812-3" next="i-BUQfCKtwgVWJJQcKCFqpiU">
+        <u xml:id="i-010f64bec4326812-4" who="i-8ihSXxrczC6r6e3uVHuU5A" prev="i-010f64bec4326812-3" next="i-010f64bec4326812-6">
           <seg xml:id="i-QvMQ4s8XV4iycjgieMULCE">
             en självklarhet att skattereformen behövdes — det är för övrigt
             ett gammalt folkpartikrav att en skattereform skall genomföras.
@@ -9419,14 +9351,10 @@
             Vi anser att socialavgifterna i ”andel-i-vinst-systemet” bör
             slopas.
           </seg>
-        </u>
-        <u xml:id="i-BUQfCKtwgVWJJQcKCFqpiU" who="i-8ihSXxrczC6r6e3uVHuU5A" prev="i-010f64bec4326812-4" next="i-823558994d0a18d8-81">
           <seg xml:id="i-AKdANezGiwTx892pCVCwfU">
             Grundbeloppet för förmögenhetsskatten bör enligt folkpartiet
             höjas och skatten vara proportionell, förslagsvis 1 90.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-81" who="i-8ihSXxrczC6r6e3uVHuU5A" prev="i-BUQfCKtwgVWJJQcKCFqpiU" next="i-010f64bec4326812-6">
           <seg xml:id="i-C6Hmx76mo4juaMwF6MNT3p">
             Begränsningsreglerna borde självfallet sänkas till en rimlig
             nivå på 50 76. Här begär vi ett tillkännagivande till regeringen.
@@ -9454,7 +9382,7 @@
         <note xml:id="i-TLDRJyATgza128V6rAhjJ2">
           102
         </note>
-        <u xml:id="i-010f64bec4326812-6" who="i-8ihSXxrczC6r6e3uVHuU5A" prev="i-823558994d0a18d8-81">
+        <u xml:id="i-010f64bec4326812-6" who="i-8ihSXxrczC6r6e3uVHuU5A" prev="i-010f64bec4326812-4">
           <seg xml:id="i-4z7VEUptruAmNFm2M7bTCY">
             Ett annat känt folkpartikrav är att sambeskattningen av förmögenhet
             bör slopas. På övriga områden råder ju i dag individuell beskattning.
@@ -9538,20 +9466,16 @@
         <note xml:id="i-8yXLh7y5ptvs1eQXaYirAc" type="speaker">
           Anf. 60 KRISTER SKÅNBERG (mp) replik:
         </note>
-        <u xml:id="i-Uo5K6QeFoStzeWFZbsGY28" who="i-5LpuiRnqbw3VE57wmf8VJc" next="i-9XNZDzWzLxYvMwLPaamRBn">
+        <u xml:id="i-Uo5K6QeFoStzeWFZbsGY28" who="i-5LpuiRnqbw3VE57wmf8VJc">
           <seg xml:id="i-23XSCrWefHjLb6zvKD6jd9">
             Prot. 1989/90:140 Herr talman! Jag skulle vilja ställa tre frågor
             till Leif Olsson med anled- = 13 juni 1990 ning av hans vittnesmål
             om vad som förekom i utfrågningarna i samband
           </seg>
-        </u>
-        <u xml:id="i-9XNZDzWzLxYvMwLPaamRBn" who="i-5LpuiRnqbw3VE57wmf8VJc" prev="i-Uo5K6QeFoStzeWFZbsGY28" next="i-823558994d0a18d8-84">
           <seg xml:id="i-DWeNnNC1BpBpz1F3QB7ttr">
             med skatteutskottets behandling. Reformerad 4 Vad tyckte revisorerna
             och småföretagarna om förslaget att ta bort det komstoch företagsbeskattning
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-84" who="i-5LpuiRnqbw3VE57wmf8VJc" prev="i-9XNZDzWzLxYvMwLPaamRBn">
           <seg xml:id="i-BNxQV8H3MUH76BSnHVuek">
             brutna räkenskapsåret? Vad finns det för starka motiv för att
             inte tillgodose de önskemål som framfördes om att få behålla det
@@ -9895,14 +9819,12 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-106.jp2/_view"/>
-        <u xml:id="i-HZ7RCKdwtteNsBjXXfkjgU" who="i-A16XHDHnpsSEskwvgsUhaw" prev="i-2113623facfce142-2" next="i-823558994d0a18d8-85">
+        <u xml:id="i-HZ7RCKdwtteNsBjXXfkjgU" who="i-A16XHDHnpsSEskwvgsUhaw" prev="i-2113623facfce142-2">
           <seg xml:id="i-ABp21XL2Vdekohp3QhHWmC">
             ekonomi och redovisningsbyråkrati i stället för att ägnas åt
             den egentliga id- — Prot. 1989/90:140 rottsverksamheten. Risken
             är uppenbar att ledare tröttnar och slutar. 13 juni 1990
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-85" who="i-A16XHDHnpsSEskwvgsUhaw" prev="i-HZ7RCKdwtteNsBjXXfkjgU">
           <seg xml:id="i-BjuPM4ZmvCMBh3r1TG8Sxh">
             Oroande är att skatteöverenskommelsens negativa konsekvenser
             kommer att göra idrotten mer beroende av bidrag och mer utlämnad
@@ -10071,14 +9993,12 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-108.jp2/_view"/>
-        <u xml:id="i-8dr1xv5HH1scmDkLj3wmoP" who="i-CVCXfw1YgSNtfc8szARmnb" prev="i-881d838468b52f08-3" next="i-823558994d0a18d8-86">
+        <u xml:id="i-8dr1xv5HH1scmDkLj3wmoP" who="i-CVCXfw1YgSNtfc8szARmnb" prev="i-881d838468b52f08-3">
           <seg xml:id="i-8UeNdsmkcou9A9PwaQamHj">
             man ju, som Rolf Kenneryd påpekade, känna till redan i dag, eftersom
             det — Prot. 1989/90:140 inte dröjer särskilt länge innan nästa
             budgetproposition skrivs. 13 juni 1990
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-86" who="i-CVCXfw1YgSNtfc8szARmnb" prev="i-8dr1xv5HH1scmDkLj3wmoP">
           <seg xml:id="i-SQMZ91Z9fkppGK8NYP8v1p">
             I en reservation tar vi upp frågan om de sociala avgifterna för
             ersättningar. Från centerns sida vidhåller vi att ett halvt basbelopp
@@ -10343,7 +10263,7 @@
         <note xml:id="i-VWGVtvYN2PDK9nv1y2f9Qw">
           112
         </note>
-        <u xml:id="i-6325a1ebb53e0370-3" who="i-QkoGcuWJuiryQZaTNFexi4" prev="i-6325a1ebb53e0370-0" next="i-4UAmMYucNv9bXxbcxBQwVc">
+        <u xml:id="i-6325a1ebb53e0370-3" who="i-QkoGcuWJuiryQZaTNFexi4" prev="i-6325a1ebb53e0370-0" next="i-6325a1ebb53e0370-4">
           <seg xml:id="i-XkbXDP4rnmpMHYeKeNJU7f">
             människorna i vårt land att få det sämre med hänsyn till att
             den ekonomiska tillväxten är och förblir katastrofalt låg och
@@ -10396,8 +10316,6 @@
             att även sänka det totala skattetrycket. Det innebär bl.a. att
             vi avvisar en höjning av momsen.
           </seg>
-        </u>
-        <u xml:id="i-4UAmMYucNv9bXxbcxBQwVc" who="i-QkoGcuWJuiryQZaTNFexi4" prev="i-6325a1ebb53e0370-3" next="i-823558994d0a18d8-88">
           <seg xml:id="i-Y3Do75JtQJGuN7XdLr2Hym">
             Herr talman! Ett medlemskap i EG såväl som ett närmande till
             EG kommer med all sannolikhet att innebära att vi måste bredda
@@ -10406,8 +10324,6 @@
             momsen. Moderata samlingspartiet vill därför avvakta med en basbreddning
             i vart fall till den tidpunkt då EG har tagit slutlig ställning.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-88" who="i-QkoGcuWJuiryQZaTNFexi4" prev="i-4UAmMYucNv9bXxbcxBQwVc" next="i-6325a1ebb53e0370-4">
           <seg xml:id="i-5UUEs6ouxyQLMHXTLqFp2o">
             Till skillnad från socialdemokraterna och folkpartiet vill vi
             moderater använda de ökade skatteintäkter som blir följden av
@@ -10423,7 +10339,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-112.jp2/_view"/>
-        <u xml:id="i-6325a1ebb53e0370-4" who="i-QkoGcuWJuiryQZaTNFexi4" prev="i-823558994d0a18d8-88" next="i-6325a1ebb53e0370-6">
+        <u xml:id="i-6325a1ebb53e0370-4" who="i-QkoGcuWJuiryQZaTNFexi4" prev="i-6325a1ebb53e0370-3" next="i-6325a1ebb53e0370-6">
           <seg xml:id="i-HfEKhoU7JMc9W8eyjrKzZ7">
             nödvändig i samband med ett svenskt deltagande i den gemensamma
             marknaden. Det får också till följd att momsen på mat sänks. Socialdemokraternas
@@ -11287,7 +11203,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-122.jp2/_view"/>
-        <u xml:id="i-00a0cd7b10d6c3c0-9" who="i-Cj9FYr3Q5sLFjM9zvEVNNE" prev="i-00a0cd7b10d6c3c0-8" next="i-EfJuKPyLTF9jYZ5yKk3kfD">
+        <u xml:id="i-00a0cd7b10d6c3c0-9" who="i-Cj9FYr3Q5sLFjM9zvEVNNE" prev="i-00a0cd7b10d6c3c0-8">
           <seg xml:id="i-VJg7XzCPwEkoSAbojVVuxE">
             teten uppmärksammar miljöproblemen. Växthuseffekten utgör ett
             allvarligt hot. Vi finner dock att det är något märkligt att ta
@@ -11319,15 +11235,11 @@
             som kommer. Vi hoppas där kunna få den helhetssyn som vi önskar
             oss.
           </seg>
-        </u>
-        <u xml:id="i-EfJuKPyLTF9jYZ5yKk3kfD" who="i-Cj9FYr3Q5sLFjM9zvEVNNE" prev="i-00a0cd7b10d6c3c0-9" next="i-00a0cd7b10d6c3c0-10">
           <seg xml:id="i-NQmtHcMg4bDkuVAUJxmVGS">
             Herr talman! Jag yrkar bifall till reservation nr 3 samt till
             vänsterpartireservationerna under de moment där andra partier
             har yrkat bifall.
           </seg>
-        </u>
-        <u xml:id="i-00a0cd7b10d6c3c0-10" who="i-Cj9FYr3Q5sLFjM9zvEVNNE" prev="i-EfJuKPyLTF9jYZ5yKk3kfD">
           <seg xml:id="i-QgwXLw5KSMJEYKUbCRaAZ">
             Till sist vill jag också till protokollet få med att vi anser
             att regeringens hantering av denna århundradets skattereform lämnar
@@ -11346,7 +11258,7 @@
         <note xml:id="i-UZAjx8h6L99JXQRUDVVvkN" type="speaker">
           Anf. 77 GÖSTA LYNGÅ (mp):
         </note>
-        <u xml:id="i-72d02f466ecd944e-24" who="i-KF6wD7NQzQww6cajAsNpt" next="i-DoXaEn9q9Uo5GYyC1VGdvf">
+        <u xml:id="i-72d02f466ecd944e-24" who="i-KF6wD7NQzQww6cajAsNpt" next="i-72d02f466ecd944e-26">
           <seg xml:id="i-5DTPJZ1k6o5vMfDu87VgGe">
             Herr talman! Som jag sade i mitt tidigare inlägg i dagens skattedebatt,
             anser jag att beskattningen är ett ytterst viktigt styrmedel inom
@@ -11369,8 +11281,6 @@
           <seg xml:id="i-9G4e2Dfbr12Zk4GGtHDefi">
             skogar förbyts i öknar och
           </seg>
-        </u>
-        <u xml:id="i-DoXaEn9q9Uo5GYyC1VGdvf" who="i-KF6wD7NQzQww6cajAsNpt" prev="i-72d02f466ecd944e-24" next="i-72d02f466ecd944e-26">
           <seg xml:id="i-37GcV83Tu1PgeysKEd8Rrw">
             —- djuroch växtarter dör ut.
           </seg>
@@ -11400,7 +11310,7 @@
         <note xml:id="i-6Pm2KmrBdxPNr7GpwFrYgs">
           124
         </note>
-        <u xml:id="i-72d02f466ecd944e-26" who="i-KF6wD7NQzQww6cajAsNpt" prev="i-DoXaEn9q9Uo5GYyC1VGdvf" next="i-72d02f466ecd944e-27">
+        <u xml:id="i-72d02f466ecd944e-26" who="i-KF6wD7NQzQww6cajAsNpt" prev="i-72d02f466ecd944e-24" next="i-72d02f466ecd944e-27">
           <seg xml:id="i-XPQsrTmGi1u3sRbkRXKQit">
             Kvantitativa uppgifter ger vid handen att om nuvarande tendenser
             fortsätter kommer år 2000, om tio år, en tredjedel av jordens
@@ -11750,7 +11660,7 @@
         <note xml:id="i-L16btpajZQ59MJrrbJYm56">
           128
         </note>
-        <u xml:id="i-5a9d893d2eb9a665-3" who="i-4iLEXqdotevN5mKmHAcQaC" prev="i-5a9d893d2eb9a665-1" next="i-TMWMvdkJJ8aw8Jkzj23yFn">
+        <u xml:id="i-5a9d893d2eb9a665-3" who="i-4iLEXqdotevN5mKmHAcQaC" prev="i-5a9d893d2eb9a665-1" next="i-5a9d893d2eb9a665-5">
           <seg xml:id="i-ASveXvFWRCJpQn5eNRj4fq">
             motionen märka att det finns en viss kluvenhet om bl.a. kapitalbeskattningen.
             Men när man kommer till reservationen så är denna kluvenhet helt
@@ -11785,14 +11695,10 @@
             samma domedagsprofetior som moderaterna brukar dela ut när en
             del nya förslag framläggs.
           </seg>
-        </u>
-        <u xml:id="i-TMWMvdkJJ8aw8Jkzj23yFn" who="i-4iLEXqdotevN5mKmHAcQaC" prev="i-5a9d893d2eb9a665-3" next="i-823558994d0a18d8-90">
           <seg xml:id="i-XCcHTDpNHHmLfztfEqsDBZ">
             Enligt propositionen bör undantag göras för biograf-, teater-,
             operaoch balettföreställningar.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-90" who="i-4iLEXqdotevN5mKmHAcQaC" prev="i-TMWMvdkJJ8aw8Jkzj23yFn" next="i-BpdB2k5qZGnpUvoQTY45p3">
           <seg xml:id="i-VHG4VSrh7oEg6g86LwvERE">
             Kulturutskottet har i sitt yttrande ansett att kulturpolitiska
             skäl talar för att också konserter undantas. Vidare har utskottet
@@ -11800,15 +11706,11 @@
             cirkuskonsten främjas och förklarat att även cirkusföreställningar
             bör undantas från mervärdeskatteplikten.
           </seg>
-        </u>
-        <u xml:id="i-BpdB2k5qZGnpUvoQTY45p3" who="i-4iLEXqdotevN5mKmHAcQaC" prev="i-823558994d0a18d8-90" next="i-823558994d0a18d8-91">
           <seg xml:id="i-334pphyV3gmhbiy9tV5CDx">
             Med hänsyn till vad kulturutskottet har anfört i frågan anser
             skatteutskottet att även konserter och cirkusföreställningar skall
             undantas från den generella mervärdeskatteplikten.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-91" who="i-4iLEXqdotevN5mKmHAcQaC" prev="i-BpdB2k5qZGnpUvoQTY45p3" next="i-WyGDUBKwUDfviSasMmgtQH">
           <seg xml:id="i-XCrFfkj2QZckBVEsgUoP1w">
             Också när det gäller idrott framställs yrkanden om undantag från
             mervärdeskatteplikten.
@@ -11823,8 +11725,6 @@
             och även för andra folkrörelser. Detta har Anita Johansson tidigare
             i debatten berört.
           </seg>
-        </u>
-        <u xml:id="i-WyGDUBKwUDfviSasMmgtQH" who="i-4iLEXqdotevN5mKmHAcQaC" prev="i-823558994d0a18d8-91" next="i-5a9d893d2eb9a665-4">
           <seg xml:id="i-XWfmoqmge8ga76m4N56hLy">
             Herr talman! Kritik har riktats mot det beslut som riksdagen
             fattade i december 1989 om avskaffande av restaurangmomsen. I
@@ -11832,8 +11732,6 @@
             för serveringsoch hotelltjänster gjorde utskottet följande uttalande
             om beslutets inverkan på turismen:
           </seg>
-        </u>
-        <u xml:id="i-5a9d893d2eb9a665-4" who="i-4iLEXqdotevN5mKmHAcQaC" prev="i-WyGDUBKwUDfviSasMmgtQH" next="i-5a9d893d2eb9a665-5">
           <seg xml:id="i-HvZpPAhz6LR17yUiNUsFE4">
             ”Enligt utskottets uppfattning bör hotelloch restaurangnäringen
             i skattehänseende behandlas som alla andra näringar här i landet.
@@ -11842,7 +11740,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-128.jp2/_view"/>
-        <u xml:id="i-5a9d893d2eb9a665-5" who="i-4iLEXqdotevN5mKmHAcQaC" prev="i-5a9d893d2eb9a665-4" next="i-UpDcYKhwnC3NJyqhZiMsXA">
+        <u xml:id="i-5a9d893d2eb9a665-5" who="i-4iLEXqdotevN5mKmHAcQaC" prev="i-5a9d893d2eb9a665-3" next="i-5a9d893d2eb9a665-8">
           <seg xml:id="i-U7ZoQ17BTHpboaftu2Hryr">
             högt kan få vissa svårigheter att hävda konkurrensen med motsvarande
             turistmål utomlands. Utskottet utgår från att regeringen uppmärksamt
@@ -11907,14 +11805,10 @@
             kläder från mervärdeskatt? Kläder borde rimligen vara lika nödvändiga
             som mat och bostad.
           </seg>
-        </u>
-        <u xml:id="i-UpDcYKhwnC3NJyqhZiMsXA" who="i-4iLEXqdotevN5mKmHAcQaC" prev="i-5a9d893d2eb9a665-5" next="i-5a9d893d2eb9a665-6">
           <seg xml:id="i-Cg7JjrD5eWNQtpaRsi8ofp">
             Riksdagen har beslutat att mervärdeskattbelägga energiområdet
             den 1 mars 1990.
           </seg>
-        </u>
-        <u xml:id="i-5a9d893d2eb9a665-6" who="i-4iLEXqdotevN5mKmHAcQaC" prev="i-UpDcYKhwnC3NJyqhZiMsXA" next="i-JPqMCdCKtjJ4YFNcVj6ozS">
           <seg xml:id="i-GfFuvcWFpmk9THX15HgMjm">
             I ett system med en generell och enhetlig mervärdebeskattning
             bör energikonsumtionen vara jämställd med annan privat konsumtion.
@@ -11923,8 +11817,6 @@
             av skattesystemet. Det innebär ett närmande till vad som gäller
             inom andra västeuropeiska länder.
           </seg>
-        </u>
-        <u xml:id="i-JPqMCdCKtjJ4YFNcVj6ozS" who="i-4iLEXqdotevN5mKmHAcQaC" prev="i-5a9d893d2eb9a665-6" next="i-5a9d893d2eb9a665-8">
           <seg xml:id="i-Q3kXEk8ZMZUrzYVHvQ11GP">
             Enligt riksdagens beslut i höstas beläggs fjärrvärme med mervärdeskatt
             först den 1 januari 1991. Anledningen är att hänsyn till fjärrvärmeverkens
@@ -11952,7 +11844,7 @@
         <note xml:id="i-9dQUFSXsXCy2EVbLfUDhBL">
           130
         </note>
-        <u xml:id="i-5a9d893d2eb9a665-8" who="i-4iLEXqdotevN5mKmHAcQaC" prev="i-JPqMCdCKtjJ4YFNcVj6ozS" next="i-H8YmW9PLsWKUGCrafm177N">
+        <u xml:id="i-5a9d893d2eb9a665-8" who="i-4iLEXqdotevN5mKmHAcQaC" prev="i-5a9d893d2eb9a665-5">
           <seg xml:id="i-43LUh1Wxt21hSvrMEBGSYd">
             konkurrenssituation har bedömts kräva att skattebeläggningen
             samordnas med den samlade reform som nu föreslås på energiområdet.
@@ -11969,8 +11861,6 @@
             införandet föreslås att den allmänna energiskatten halveras. Torv
             kommer dock att undantas från skatten.
           </seg>
-        </u>
-        <u xml:id="i-H8YmW9PLsWKUGCrafm177N" who="i-4iLEXqdotevN5mKmHAcQaC" prev="i-5a9d893d2eb9a665-8" next="i-823558994d0a18d8-93">
           <seg xml:id="i-ER2hvP9vUsKWivyMtABYKV">
             Vidare föreslås att koldioxidskatt tas ut på inrikes flygtrafik.
             Den särskilda skatten på vissa oljeprodukter och kol kommer att
@@ -11978,8 +11868,6 @@
             införande av en svavelskatt. Förslaget syftar till att bidra till
             en ökad användning av svavelfattiga bränslen och till bättre rening.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-93" who="i-4iLEXqdotevN5mKmHAcQaC" prev="i-H8YmW9PLsWKUGCrafm177N" next="i-Fvj23uMCK2Hsuzg1exCdp2">
           <seg xml:id="i-VF9FueQthhFeUmvBTBEuXU">
             För industriell tillverkning medges för närvarande normalt nedsättning
             av den sammanlagda energiskatten för elkraft och bränslen, så
@@ -11988,32 +11876,24 @@
             beslut får hela energiskatten på elkraft, kolbränslen, gasol och
             naturgas beaktas vid skattebelastningen.
           </seg>
-        </u>
-        <u xml:id="i-Fvj23uMCK2Hsuzg1exCdp2" who="i-4iLEXqdotevN5mKmHAcQaC" prev="i-823558994d0a18d8-93" next="i-HSCMq1At17EQuZgeTHEVqZ">
           <seg xml:id="i-PW2u8zWmCyhgZLzH1uBtSU">
             Förslaget i propositionen innebär att koldioxidskatten på andra
             bränslen än bensin skall ingå i underlaget för industrins nedsättning
             av skatt på energi. Vidare skall nedsättningen för yrkesmässig
             växthusodling till 15 96 av annars utgående skatt gälla även koldioxidskatten.
           </seg>
-        </u>
-        <u xml:id="i-HSCMq1At17EQuZgeTHEVqZ" who="i-4iLEXqdotevN5mKmHAcQaC" prev="i-Fvj23uMCK2Hsuzg1exCdp2" next="i-5a9d893d2eb9a665-9">
           <seg xml:id="i-HjDKB9dKDk5sEgBMqH5615">
             Enligt propositionen slopas den 1 januari 1993 den särskilda
             varuskatten på kemisk-tekniska preparat, choklad och konfektyrer,
             dryckesskatten på läskedrycker och bordsvatten, skatten på videobandspelare,
             skatten på kassettband och stämpelskatten på skepp.
           </seg>
-        </u>
-        <u xml:id="i-5a9d893d2eb9a665-9" who="i-4iLEXqdotevN5mKmHAcQaC" prev="i-HSCMq1At17EQuZgeTHEVqZ" next="i-823558994d0a18d8-94">
           <seg xml:id="i-VTvKCMhqjk1LzYkP8AgwGu">
             Strävandena att förenkla skattesystemet innebär bl.a. att vissa
             punktskatter slopas, bl.a. sådana som vållat svårigheter i tillämpningen
             och medför en del gränsdragningsproblem. Utskottet biträder förslaget
             i propositionen att avskaffa de nu angivna punktskatterna.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-94" who="i-4iLEXqdotevN5mKmHAcQaC" prev="i-5a9d893d2eb9a665-9">
           <seg xml:id="i-XcEDEjfiuyeE8HbCrTds7B">
             Fru talman! Med hänvisning till vad jag redogjort för yrkar jag
             bifall till utskottets hemställan och avslag på samtliga reservationer
@@ -12160,13 +12040,11 @@
         <note xml:id="i-Tm5xZsLB6voAfLjcemLbqR" type="speaker">
           Anf.82 GÖREL THURDIN (c) replik:
         </note>
-        <u xml:id="i-DgfqNZZNnmRZRjhZ5iv4aN" who="i-TX8UjKrUpUeZgE2dqKJCFc" next="i-823558994d0a18d8-95">
+        <u xml:id="i-DgfqNZZNnmRZRjhZ5iv4aN" who="i-TX8UjKrUpUeZgE2dqKJCFc" next="i-b83a951fc9e4a10c-30">
           <seg xml:id="i-7qBPM9snZ4a2BDjkVnDtCN">
             Fru talman! Först ber jag att få yrka bifall till centerpartiets
             reservation nr 2.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-95" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-DgfqNZZNnmRZRjhZ5iv4aN" next="i-b83a951fc9e4a10c-30">
           <seg xml:id="i-2pYfZRTaE1hZkTXwprWzTi">
             Det finns ändå, Kjell Nordström, en viss desperation i socialdemokraternas
             sätt att gå till attack i den här frågan — detta sagt med tanke
@@ -12214,7 +12092,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-132.jp2/_view"/>
-        <u xml:id="i-b83a951fc9e4a10c-30" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-823558994d0a18d8-95">
+        <u xml:id="i-b83a951fc9e4a10c-30" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-DgfqNZZNnmRZRjhZ5iv4aN">
           <seg xml:id="i-8Ng1wtTujAmLdXmHqhN8w1">
             med likformigheten i ett skattesystem att göra — även om man
             skulle kunna få den uppfattningen.
@@ -12399,22 +12277,18 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-134.jp2/_view"/>
-        <u xml:id="i-6325a1ebb53e0370-16" who="i-QkoGcuWJuiryQZaTNFexi4" prev="i-6325a1ebb53e0370-15" next="i-SFyRGHNqLtNfBAhztXEFh1">
+        <u xml:id="i-6325a1ebb53e0370-16" who="i-QkoGcuWJuiryQZaTNFexi4" prev="i-6325a1ebb53e0370-15">
           <seg xml:id="i-VkYYNYUnpwLKAUdqdsKG8d">
             så att ni nu har slopat tankegångarna på att belägga räntor och
             hemförsäk- Prot. 1989/90:140 ringar med moms? 13 juni 1990 Jag
             vill också ha en komplettering när det gäller att reducera de
             negativa
           </seg>
-        </u>
-        <u xml:id="i-SFyRGHNqLtNfBAhztXEFh1" who="i-QkoGcuWJuiryQZaTNFexi4" prev="i-6325a1ebb53e0370-16" next="i-823558994d0a18d8-96">
           <seg xml:id="i-GjYVQLhHckR99QSEdUZn8o">
             effekterna för idrotten. Det har byggts hallar för tennis, bowling
             och squash, 2 ormerad in på privat initiativ och i samråd med
             idrottsorganisationer, och det blir nu irekt beskattning m.m.
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-96" who="i-QkoGcuWJuiryQZaTNFexi4" prev="i-SFyRGHNqLtNfBAhztXEFh1">
           <seg xml:id="i-MRNF3k6TAGvJntxgpCZT68">
             momsplikt på spelhyrorna där. Kan man få konkurrensneutralitet
             även där, så att idrottsverksamheten slipper sådana effekter?
@@ -12924,14 +12798,12 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-140.jp2/_view"/>
-        <u xml:id="i-wqjkZoNCHuHymmfL9AHYs" who="i-9J1gmLVJSnGBRMzrAVvtvR" prev="i-b761d3138da20ca7-5" next="i-823558994d0a18d8-98">
+        <u xml:id="i-wqjkZoNCHuHymmfL9AHYs" who="i-9J1gmLVJSnGBRMzrAVvtvR" prev="i-b761d3138da20ca7-5" next="i-b761d3138da20ca7-7">
           <seg xml:id="i-Ay3SCYhTC157gcXoNrwFNy">
             Annars skulle nämligen det totala skatteoch avgiftsuttaget öka,
             vilket folk- Prot. 1989/90:140 partiet inte kan acceptera. 13
             juni 1990
           </seg>
-        </u>
-        <u xml:id="i-823558994d0a18d8-98" who="i-9J1gmLVJSnGBRMzrAVvtvR" prev="i-wqjkZoNCHuHymmfL9AHYs" next="i-b761d3138da20ca7-7">
           <seg xml:id="i-5YdjvJStF8Nxe3TD7uTg7H">
             Även om skattereformens finansiering, fru talman, med breddad
             moms och annat, har många goda skäl som talar för sig tror jag
@@ -13019,7 +12891,7 @@
         <note xml:id="i-DCKTedxYvtmtS921WmNj2q">
           142
         </note>
-        <u xml:id="i-b761d3138da20ca7-7" who="i-9J1gmLVJSnGBRMzrAVvtvR" prev="i-823558994d0a18d8-98">
+        <u xml:id="i-b761d3138da20ca7-7" who="i-9J1gmLVJSnGBRMzrAVvtvR" prev="i-wqjkZoNCHuHymmfL9AHYs">
           <seg xml:id="i-KozZbh6fiPiafnack5jhhb">
             stora likheter med folkpartiets skattepolitiska förslag, signerat
             Bengt Westerberg. Det är därför vi med glädje och stolthet medverkar
@@ -13604,7 +13476,7 @@
         <note xml:id="i-FKMrk6dM1g36RHoXsWk4pF" type="speaker">
           Anf. 100 GUNHILD BOLANDER (c):
         </note>
-        <u xml:id="i-ff5b532a571baeeb-0" who="i-Wiq5749k7owcARUynxZuX7" next="i-X2msKwShmMa5kX4Vb5k7aW">
+        <u xml:id="i-ff5b532a571baeeb-0" who="i-Wiq5749k7owcARUynxZuX7" next="i-ff5b532a571baeeb-1">
           <seg xml:id="i-RK5LG6eB6VQGGGKwwMB1Sq">
             Fru talman! I detta riksmötes sista skälvande minuter kan det
             tyckas förmätet att ta ledamöternas tid i anspråk för en regional
@@ -13641,8 +13513,6 @@
             På två år har taxesättningen tillåtits stiga med 25 26, medan
             konsumentprisindex under samma tid har ökat med knappt 9 9o.
           </seg>
-        </u>
-        <u xml:id="i-X2msKwShmMa5kX4Vb5k7aW" who="i-Wiq5749k7owcARUynxZuX7" prev="i-ff5b532a571baeeb-0" next="i-ff5b532a571baeeb-1">
           <seg xml:id="i-KjGs6H1qiYuXmtKyANhXRv">
             Med de taxor som gäller för innevarande sommar kan kostnaden
             för en turoch returresa för en familj med två vuxna och två barn,
@@ -13650,7 +13520,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198990--140/prot_198990__140-148.jp2/_view"/>
-        <u xml:id="i-ff5b532a571baeeb-1" who="i-Wiq5749k7owcARUynxZuX7" prev="i-X2msKwShmMa5kX4Vb5k7aW">
+        <u xml:id="i-ff5b532a571baeeb-1" who="i-Wiq5749k7owcARUynxZuX7" prev="i-ff5b532a571baeeb-0">
           <seg xml:id="i-VoGdhEop4a4Rsrn3nMwCYT">
             i en riktning uppgå till 1 900-2 000 kr. På detta höga pris är
             nu riksdagens majoritet beredd att lägga ca 500 kr. ytterligare

@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-LBT49u8Hd4Xi3otzLZureR" type="speech">
             <linkGrp type="u">
               <ptr target="#i-299b4b4e84b7c0a8-0"/>
@@ -636,7 +636,13 @@
               <ptr target="#i-Ce94YjSD4d64iKvy2Yad5a"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -4122,7 +4128,7 @@
         <note xml:id="i-Jc24vDs8js3TYnApkR3DBh" type="speaker">
           Chefen för finansdepartementet, herr statsrådet SKÖLD:
         </note>
-        <u xml:id="i-dfa1b3f59173a056-17" who="i-C35yyip4t5V4hBSBwnGD7Z" next="i-E557Kn1zpJRxJikveN53Ea">
+        <u xml:id="i-dfa1b3f59173a056-17" who="i-C35yyip4t5V4hBSBwnGD7Z" next="i-dfa1b3f59173a056-18">
           <seg xml:id="i-93KBbZ5LVsB42ubhzp4Rby">
             Herr talman! Till herr Hjalmarson vill jag bara säga, att det
             där talet om att det nu är tid att slå in på en ny politik ha
@@ -4135,8 +4141,6 @@
             regimerna ha gått i. Detta är den erfarenhet vi ha av det storslagna
             talet om en ny politik.
           </seg>
-        </u>
-        <u xml:id="i-E557Kn1zpJRxJikveN53Ea" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-dfa1b3f59173a056-17" next="i-dfa1b3f59173a056-18">
           <seg xml:id="i-CyUgaiZqDd5JQLKU3gfwVA">
             Nu kom herr Ohlin tillbaka och läste
           </seg>
@@ -4151,7 +4155,7 @@
         <note xml:id="i-qcQzPSCJRrJ7Av5mnoSM4">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-dfa1b3f59173a056-18" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-E557Kn1zpJRxJikveN53Ea">
+        <u xml:id="i-dfa1b3f59173a056-18" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-dfa1b3f59173a056-17">
           <seg xml:id="i-P5y9H7LhhrBC22ndBPu84H">
             upp vad jag hade sagt härom året. Det förändrar ju inte på något
             sätt saken. Och detta bestyrker herr Ohlin genom att peka på att
@@ -4506,7 +4510,7 @@
         <note xml:id="i-4r8tYNiGtAiqwGQJXxda3b">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-3cea90bc98bafd5d-5" who="i-KaEwnQ53dsfqZGV8fcpYbX" prev="i-3cea90bc98bafd5d-4" next="i-Ks1Rzr2qwDdSCNurhm5veY">
+        <u xml:id="i-3cea90bc98bafd5d-5" who="i-KaEwnQ53dsfqZGV8fcpYbX" prev="i-3cea90bc98bafd5d-4" next="i-3cea90bc98bafd5d-6">
           <seg xml:id="i-HZhwZfckYqVkofW3odMpov">
             med allmänna talesätt — är det ju rent omöjligt att fästa något
             egentligt avseende vid ett sådant uttalande.
@@ -4543,13 +4547,9 @@
             med ungefär 50 procent i genomsnitt av vad som föreslagits, vinner
             man ju, om man genomför &lt;skatteutredningens förslag
           </seg>
-        </u>
-        <u xml:id="i-Ks1Rzr2qwDdSCNurhm5veY" who="i-KaEwnQ53dsfqZGV8fcpYbX" prev="i-3cea90bc98bafd5d-5" next="i-QtNtxizjJ6jmdZ7FPWpeq6">
           <seg xml:id="i-XNYQ2n23X82rgxthb7J4QS">
             och i samband därmed ökar uttagningsprocenten till 110.
           </seg>
-        </u>
-        <u xml:id="i-QtNtxizjJ6jmdZ7FPWpeq6" who="i-KaEwnQ53dsfqZGV8fcpYbX" prev="i-Ks1Rzr2qwDdSCNurhm5veY" next="i-3cea90bc98bafd5d-6">
           <seg xml:id="i-KbUA7opTit3KAbdfymHWgT">
             Ja, men skatteutredningen föreslår ju en skattesänkning på 480
             miljoner kronor, har man här sagt. Denna utredning var ju sammansatt
@@ -4595,7 +4595,7 @@
         <note xml:id="i-PXwEAGYBdPTrfuByM2nNLY">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-3cea90bc98bafd5d-6" who="i-KaEwnQ53dsfqZGV8fcpYbX" prev="i-QtNtxizjJ6jmdZ7FPWpeq6">
+        <u xml:id="i-3cea90bc98bafd5d-6" who="i-KaEwnQ53dsfqZGV8fcpYbX" prev="i-3cea90bc98bafd5d-5">
           <seg xml:id="i-91XuRUpWmQkQP2Kowirb91">
             budgeten upprätthålles så länge inflationsfaran består.
           </seg>
@@ -5201,7 +5201,7 @@
         <note xml:id="i-XhpSibiNHnQbVFsWEM9R79">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-1796474b64528346-7" who="i-V2gYZ8XERX96ZTpdHjKDHk" prev="i-1796474b64528346-6" next="i-QbDQnGYQptX8Pi5QfBUgpR">
+        <u xml:id="i-1796474b64528346-7" who="i-V2gYZ8XERX96ZTpdHjKDHk" prev="i-1796474b64528346-6" next="i-1796474b64528346-9">
           <seg xml:id="i-QW6QVvNw2zdYzJyVVSTCQi">
             möjligt, man visar upp detta för priskontrollnämnden och får
             den förr eller senare godkänd. Hur vore det om jordbruket finge
@@ -5257,8 +5257,6 @@
             jordbrukarna och dessa grupper, liksom gentemot företagarna inom
             industri, handel och samfärdsel.
           </seg>
-        </u>
-        <u xml:id="i-QbDQnGYQptX8Pi5QfBUgpR" who="i-V2gYZ8XERX96ZTpdHjKDHk" prev="i-1796474b64528346-7" next="i-1796474b64528346-8">
           <seg xml:id="i-BWPtG46embm3sdFFVp1ksB">
             År 1950 utgjorde medelinkomsten för jordbrukarna 5090 kronor,
             men för företagarna inom industri och hantverk 7 384 kronor, inom
@@ -5270,8 +5268,6 @@
             7 315 kronor. Medelinkomsten blev 5698 kronor. Alltså ligger medelinkomsten
             mycket under.
           </seg>
-        </u>
-        <u xml:id="i-1796474b64528346-8" who="i-V2gYZ8XERX96ZTpdHjKDHk" prev="i-QbDQnGYQptX8Pi5QfBUgpR" next="i-1796474b64528346-9">
           <seg xml:id="i-Tkcch8QJ85HHDi9qJ59CEL">
             Inkomsten av jordbruksfastighet ökade från 1949 till 1950 med
             i genomsnitt 6 procent, men det må nämnas att ökningen av aktiebolagens
@@ -5291,7 +5287,7 @@
         <note xml:id="i-3rb1hYm1uGMYCr7VFt84Y6">
           -Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-1796474b64528346-9" who="i-V2gYZ8XERX96ZTpdHjKDHk" prev="i-1796474b64528346-8" next="i-1796474b64528346-10">
+        <u xml:id="i-1796474b64528346-9" who="i-V2gYZ8XERX96ZTpdHjKDHk" prev="i-1796474b64528346-7" next="i-1796474b64528346-10">
           <seg xml:id="i-YJMXNCzbReEkDn99REWtp2">
             riktig bild av bolagens vinster, så är det tydligt att jordbruket
             kommer långt efter i inkomstutvecklingen. När man talar om procentuell
@@ -6678,7 +6674,7 @@
         <note xml:id="i-Ck4F4REsS1zBe4epkkApHN">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-cd565dd354a510ab-5" who="i-LLnQ8RYVszR7dBi2EAHt1C" prev="i-cd565dd354a510ab-4" next="i-J5S1hRs3y3A2qW7vGMx6se">
+        <u xml:id="i-cd565dd354a510ab-5" who="i-LLnQ8RYVszR7dBi2EAHt1C" prev="i-cd565dd354a510ab-4">
           <seg xml:id="i-UUfpsJwiSqvjjFZuz1bDBM">
             som den senast träffade jordbruksuppgörelsen inneburit. Vinsten
             för konsumenterna kan nu uppskattas till 125 å 150 miljoner kronor
@@ -6700,8 +6696,6 @@
             taga den återhållsamhet, som är nödvändig om icke den sista villan
             skall bli värre än den första.
           </seg>
-        </u>
-        <u xml:id="i-J5S1hRs3y3A2qW7vGMx6se" who="i-LLnQ8RYVszR7dBi2EAHt1C" prev="i-cd565dd354a510ab-5">
           <seg xml:id="i-GPk2eHATnNiW3rwDn7Xyub">
             Som tiden nu var långt framskriden och flera talare anmält sig
             för yttrandes avgivande, beslöt kammaren på förslag av herr talmannen
@@ -8356,7 +8350,7 @@
         <note xml:id="i-TTErMRB9Utfk53qEWXz8hM">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-99017574574fda36-16" who="i-8fp2gLHtWqnYwFqeVLu5w8" prev="i-99017574574fda36-15" next="i-VEzQWgsqs1rBt9XKg5x9Lp">
+        <u xml:id="i-99017574574fda36-16" who="i-8fp2gLHtWqnYwFqeVLu5w8" prev="i-99017574574fda36-15" next="i-99017574574fda36-17">
           <seg xml:id="i-9w4mrWrsbSstBoiNwTW6Vb">
             svårigheterna, och låt inga vare sig riktiga eller hägrande oaser
             förleda oss till den viljeslapphet, som skulle leda till att vi
@@ -8430,8 +8424,6 @@
             efter stat diskuterar skattehöjningar. Det gör man inte för ro
             skull. Vi leva i en värld, där man inte diskuterar
           </seg>
-        </u>
-        <u xml:id="i-VEzQWgsqs1rBt9XKg5x9Lp" who="i-8fp2gLHtWqnYwFqeVLu5w8" prev="i-99017574574fda36-16" next="i-99017574574fda36-17">
           <seg xml:id="i-SkjkR7YLiqT6migga29vJX">
             storleken av standardhöjningarna för
           </seg>
@@ -8446,7 +8438,7 @@
         <note xml:id="i-3kqyNL28Naic9QZHZD5prr">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-99017574574fda36-17" who="i-8fp2gLHtWqnYwFqeVLu5w8" prev="i-VEzQWgsqs1rBt9XKg5x9Lp" next="i-99017574574fda36-18">
+        <u xml:id="i-99017574574fda36-17" who="i-8fp2gLHtWqnYwFqeVLu5w8" prev="i-99017574574fda36-16" next="i-99017574574fda36-18">
           <seg xml:id="i-EbSzkyJRUJLCSMvoBRdnSv">
             de anställda utan hur man skall undgå standardsänkningar. Då
             skola inte vi förhäva oss över att vi äro lyckligt lottade i denna
@@ -9748,7 +9740,7 @@
         <note xml:id="i-Q7WrXzTUJRJXNdMivvRgz7">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-cf1c800f395e54c9-1" who="i-6qNV5dntxbsrdQyVsjxWoW" prev="i-cf1c800f395e54c9-0" next="i-UFdvvtVx77dUr4jmrv39Va">
+        <u xml:id="i-cf1c800f395e54c9-1" who="i-6qNV5dntxbsrdQyVsjxWoW" prev="i-cf1c800f395e54c9-0" next="i-cf1c800f395e54c9-3">
           <seg xml:id="i-omTwgQQzXmrtQhkhqYsBW">
             att det är stora och breda felmarginaler.
           </seg>
@@ -9785,13 +9777,9 @@
             uträknad? Det påminer mig om en relativt ung människa, som är
             behäftad med cen allvarlig sjukdom. Han går till
           </seg>
-        </u>
-        <u xml:id="i-UFdvvtVx77dUr4jmrv39Va" who="i-6qNV5dntxbsrdQyVsjxWoW" prev="i-cf1c800f395e54c9-1" next="i-cf1c800f395e54c9-2">
           <seg xml:id="i-CRbCDLeeQHVWcDF7fikBZJ">
             ganska
           </seg>
-        </u>
-        <u xml:id="i-cf1c800f395e54c9-2" who="i-6qNV5dntxbsrdQyVsjxWoW" prev="i-UFdvvtVx77dUr4jmrv39Va" next="i-cf1c800f395e54c9-3">
           <seg xml:id="i-WJ1wa7WLUmRWeCg3DnZjmM">
             sin läkare, och läkaren säger: »Ni är allvarligt sjuk, men jag
             kan tala om för er att medellivslängden här i landet är 68 år.»
@@ -9841,7 +9829,7 @@
         <note xml:id="i-95R78fMLXJgzEwkdBueKbK">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-cf1c800f395e54c9-3" who="i-6qNV5dntxbsrdQyVsjxWoW" prev="i-cf1c800f395e54c9-2" next="i-cf1c800f395e54c9-4">
+        <u xml:id="i-cf1c800f395e54c9-3" who="i-6qNV5dntxbsrdQyVsjxWoW" prev="i-cf1c800f395e54c9-1" next="i-cf1c800f395e54c9-4">
           <seg xml:id="i-KTeSQLRCcsfcgeLR8Y3Coz">
             nu vid ett förhandlingsbord är inte så och så många procents
             stegring av lönen, utan det värdefullaste nu vore, om man kunde
@@ -11326,7 +11314,7 @@
         <note xml:id="i-SmJ6iKLjfByG62JJtSeFUp">
           1253 Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-b36b742a909b3256-2" who="i-riJfB4CgvG9jt4652TdCv" prev="i-b36b742a909b3256-1" next="i-DCtH9WQ198Ro2F5VaEVpG">
+        <u xml:id="i-b36b742a909b3256-2" who="i-riJfB4CgvG9jt4652TdCv" prev="i-b36b742a909b3256-1" next="i-b36b742a909b3256-3">
           <seg xml:id="i-3nLgyg95JSyW7sJg811fLY">
             tillgodose materialbehoven. Det kan starkt betvivlas att denna
             mening är riktig, även om det tar en viss tid att få materialleveransen
@@ -11401,8 +11389,6 @@
             Det är också en annan sak som jag vill ta upp, nämligen frågan
             om anslag för bränsleforskning.
           </seg>
-        </u>
-        <u xml:id="i-DCtH9WQ198Ro2F5VaEVpG" who="i-riJfB4CgvG9jt4652TdCv" prev="i-b36b742a909b3256-2" next="i-b36b742a909b3256-3">
           <seg xml:id="i-Gh7AcnFgGdEMHRZBVWQnh6">
             Vid utredningen av frågan om vår
           </seg>
@@ -11417,7 +11403,7 @@
         <note xml:id="i-W1ToawFbXPA6VTwMQTZMi4">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-b36b742a909b3256-3" who="i-riJfB4CgvG9jt4652TdCv" prev="i-DCtH9WQ198Ro2F5VaEVpG" next="i-RFMsNVxKvaJkx3oDgcG8hB">
+        <u xml:id="i-b36b742a909b3256-3" who="i-riJfB4CgvG9jt4652TdCv" prev="i-b36b742a909b3256-2" next="i-RFMsNVxKvaJkx3oDgcG8hB">
           <seg xml:id="i-Y3EYJgogRHJw2eb8ZLLUyM">
             bränsleförsörjning samarbetar bränsleutredningen 1951 med statens
             tekniska forskningsråd, AB Svensk torvförädling, statens bränslekommission
@@ -12692,7 +12678,7 @@
         <note xml:id="i-Kt9vB87Dc34V9yJvcdqYoz">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-d0127786461bfda0-1" who="i-oWcw76s14AfREuSzMW7Ni" prev="i-d0127786461bfda0-0" next="i-JTrjounkhqLAAi6AX8J4JK">
+        <u xml:id="i-d0127786461bfda0-1" who="i-oWcw76s14AfREuSzMW7Ni" prev="i-d0127786461bfda0-0" next="i-d0127786461bfda0-3">
           <seg xml:id="i-PgcVHGyb9qxLfjZrxPp6p1">
             hög grad med människan, men de äro dock i hög grad kallt ekonomiska.
             även punkt C i åttonde huvudtiteln som bär rubriken »Kyrkliga
@@ -12730,13 +12716,9 @@
             problem i svenskt samhällsliv som ligger i ungdomsbrottsligheten,
             ett problem, som för närvarande nöter hårt på huden
           </seg>
-        </u>
-        <u xml:id="i-JTrjounkhqLAAi6AX8J4JK" who="i-oWcw76s14AfREuSzMW7Ni" prev="i-d0127786461bfda0-1" next="i-d0127786461bfda0-2">
           <seg xml:id="i-Kic6PwpSuiAcCjpEvEmRiG">
             "inte den 19-årige Wilborgs
           </seg>
-        </u>
-        <u xml:id="i-d0127786461bfda0-2" who="i-oWcw76s14AfREuSzMW7Ni" prev="i-JTrjounkhqLAAi6AX8J4JK" next="i-d0127786461bfda0-3">
           <seg xml:id="i-JmazUCKH8ZFmE1QgxjBAAA">
             över en samhällets pulsåder. Den ungdom som kommit på sned och
             i konflikt med lagen och som dömts till ungdomsfängelse eller
@@ -12780,7 +12762,7 @@
         <note xml:id="i-BPTB6XPL6RwUs6WV5oV4kN">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-d0127786461bfda0-3" who="i-oWcw76s14AfREuSzMW7Ni" prev="i-d0127786461bfda0-2" next="i-d0127786461bfda0-4">
+        <u xml:id="i-d0127786461bfda0-3" who="i-oWcw76s14AfREuSzMW7Ni" prev="i-d0127786461bfda0-1" next="i-d0127786461bfda0-4">
           <seg xml:id="i-Gr73HCGvBTRW2YMZbENyu">
             till för ait efterlevas och inte ha — som många tycks mena —
             enbart museal karaktär eller på sin höjd litterärt kuriositetsvärde.
@@ -17294,7 +17276,7 @@
         <note xml:id="i-5ioPqjaeBhbHKhzAuLjXbX">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-9302f9b9a7d86a5e-2" who="i-Q5eDvEJRU74CUef88BpzKH" prev="i-9302f9b9a7d86a5e-1" next="i-TTqQpMNrpu9fidY8h6KMad">
+        <u xml:id="i-9302f9b9a7d86a5e-2" who="i-Q5eDvEJRU74CUef88BpzKH" prev="i-9302f9b9a7d86a5e-1" next="i-BjMSh1fiZoyDYcAYfoC6po">
           <seg xml:id="i-GFmyeUDvHQuaQrwmmmqw5t">
             Det finns en liten detalj här som förtjänar att uppmärksammas.
             Som ett tillägg till den egentliga utredningen kan betraktas uppgiften
@@ -17327,15 +17309,11 @@
             kan här räkna sig till förtjänst, att han alltså nu sökt korrigera
             en föreställning, som höll på att breda ut sig.
           </seg>
-        </u>
-        <u xml:id="i-TTqQpMNrpu9fidY8h6KMad" who="i-Q5eDvEJRU74CUef88BpzKH" prev="i-9302f9b9a7d86a5e-2" next="i-2CukKH2tyoAAjrs6YjePVR">
           <seg xml:id="i-Bd1ThLZofQQynG65rCVDcr">
             Den nuvarande splittringen av moderskapsstödet av modell 1937
             med uppdelning i mödrahjälp, moderskapspenning och moderskapshjälp
             behöver
           </seg>
-        </u>
-        <u xml:id="i-2CukKH2tyoAAjrs6YjePVR" who="i-Q5eDvEJRU74CUef88BpzKH" prev="i-TTqQpMNrpu9fidY8h6KMad" next="i-BjMSh1fiZoyDYcAYfoC6po">
           <seg xml:id="i-SNcPGupozoSG867jNeRgXe">
             faktiskt snarast avlösas av något mera vettigt ur organisationssynpunkt.
             Ett steg i denna riktning, men långt ifrån tillräckligt, antydes
@@ -17390,12 +17368,10 @@
         <note xml:id="i-5u12vy7afn31DkWdga1bKZ">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-BjMSh1fiZoyDYcAYfoC6po" who="i-Q5eDvEJRU74CUef88BpzKH" prev="i-2CukKH2tyoAAjrs6YjePVR" next="i-9302f9b9a7d86a5e-3">
+        <u xml:id="i-BjMSh1fiZoyDYcAYfoC6po" who="i-Q5eDvEJRU74CUef88BpzKH" prev="i-9302f9b9a7d86a5e-2" next="i-9302f9b9a7d86a5e-4">
           <seg xml:id="i-9wjJT38APTo7nqGMF4F9my">
             inom någon annan gren av samhällslivet.
           </seg>
-        </u>
-        <u xml:id="i-9302f9b9a7d86a5e-3" who="i-Q5eDvEJRU74CUef88BpzKH" prev="i-BjMSh1fiZoyDYcAYfoC6po" next="i-UrRaBnSNccSns4AZArvMWG">
           <seg xml:id="i-589iJfAhpLN4fpp7Syzx1K">
             Det finnes emellertid ett men här och ett allvarligt sådant,
             och det är att denna proposition satts in under den speciella
@@ -17431,14 +17407,10 @@
             medfört, att frågan om vård och framför allt omvårdnad av bräckliga,
             orkeslösa och sjuka åldringar blivit mer och mer angelägen.
           </seg>
-        </u>
-        <u xml:id="i-UrRaBnSNccSns4AZArvMWG" who="i-Q5eDvEJRU74CUef88BpzKH" prev="i-9302f9b9a7d86a5e-3" next="i-WopTSYka7sL6WrmCrN8seo">
           <seg xml:id="i-Cq5QZBz2opLG3xqRDYUYuM">
             Ålderdomshemmens förändring till verkliga hem för relativt friska
             åld-
           </seg>
-        </u>
-        <u xml:id="i-WopTSYka7sL6WrmCrN8seo" who="i-Q5eDvEJRU74CUef88BpzKH" prev="i-UrRaBnSNccSns4AZArvMWG" next="i-9302f9b9a7d86a5e-4">
           <seg xml:id="i-5YySUKcBSKoL7PZ3576Yna">
             ringar i enlighet med 1947 års riksdagsbeslut har åter förts
             fram i diskussionen och detta på ett ganska markant sätt. Detta
@@ -17484,7 +17456,7 @@
         <note xml:id="i-4R4WG3cd8PRZSwPH82vdcg">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-9302f9b9a7d86a5e-4" who="i-Q5eDvEJRU74CUef88BpzKH" prev="i-WopTSYka7sL6WrmCrN8seo">
+        <u xml:id="i-9302f9b9a7d86a5e-4" who="i-Q5eDvEJRU74CUef88BpzKH" prev="i-BjMSh1fiZoyDYcAYfoC6po">
           <seg xml:id="i-39GWK3jkmPuwT7o9FLdrAk">
             nären-statssekreteraren inte kommer att glömma påminna ämbetsmannenstatssekreteraren
             om sina utfästelser. Han kanske också kommer att hålla sin chef
@@ -18024,7 +17996,7 @@
         <note xml:id="i-KitFy5MW3AXR7ibnzKciCP">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-af2bc57fa05c7e54-5" who="i-AD4PVxoWFJ5WK9APNtM5vP" prev="i-af2bc57fa05c7e54-4" next="i-XTwSxoG93YbEvcZuWeWKLf">
+        <u xml:id="i-af2bc57fa05c7e54-5" who="i-AD4PVxoWFJ5WK9APNtM5vP" prev="i-af2bc57fa05c7e54-4">
           <seg xml:id="i-TzCT3D4YZ2bysCqzkfEq9y">
             nan partiet kom i regeringsställning sparade det inte på löften
             till folkpensionärerna. Det var inte utan att partiet började
@@ -18058,13 +18030,9 @@
             en tredjedel av sin merinkomst i direkt statsskatt, är frågan
             om en skattesänkning en central social och ekonomisk fråga.
           </seg>
-        </u>
-        <u xml:id="i-XTwSxoG93YbEvcZuWeWKLf" who="i-AD4PVxoWFJ5WK9APNtM5vP" prev="i-af2bc57fa05c7e54-5" next="i-DeCzutzemZZQHJ6oNiAUxy">
           <seg xml:id="i-XuvvLTsndHB3kRatBaVcCq">
             Den lokalt uppträdande arbetslöshe-
           </seg>
-        </u>
-        <u xml:id="i-DeCzutzemZZQHJ6oNiAUxy" who="i-AD4PVxoWFJ5WK9APNtM5vP" prev="i-XTwSxoG93YbEvcZuWeWKLf">
           <seg xml:id="i-StnuyyiCE1VQakNRBiJN8d">
             ten sökte statsministern bortförklara med uppgiften att arbetslösheten
             inte skall tolereras som ett led i regeringens politik. Mot detta
@@ -18387,7 +18355,7 @@
         <note xml:id="i-UjqETcyxbap6mveCKK6dUH">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-5936a1c7d57da0ba-5" who="i-XNR1rnnKBMVQeMxhbj1afA" prev="i-5936a1c7d57da0ba-4" next="i-QjSVRPcvfGaEkDHsCyjKui">
+        <u xml:id="i-5936a1c7d57da0ba-5" who="i-XNR1rnnKBMVQeMxhbj1afA" prev="i-5936a1c7d57da0ba-4" next="i-5936a1c7d57da0ba-7">
           <seg xml:id="i-QusF9RX1yw6ZRw5pqujnim">
             konstatera att ungdomsvårdskommitténs förslag, på några undantag
             när, lämnats obeaktade av regeringen.
@@ -18399,8 +18367,6 @@
             yrkesvägledning och yrkesutbildning för den debila ungdomen. Vad
             har regeringen gjort för att förverkliga dessa förslag?
           </seg>
-        </u>
-        <u xml:id="i-QjSVRPcvfGaEkDHsCyjKui" who="i-XNR1rnnKBMVQeMxhbj1afA" prev="i-5936a1c7d57da0ba-5" next="i-5936a1c7d57da0ba-6">
           <seg xml:id="i-VNtuax46HrxMoyKPRvzsPC">
             Ungdomsvårdskommittén föreslog förebyggande ungdomsvård, som
             skulle taga vid där hälsovården slutar och sträcka sig fram till
@@ -18411,8 +18377,6 @@
             av läkarbesiktningen, kombinerad med social rådgivning och yrkesvägledning.
             Kommittén ställde även konkreta förslag till en förbättrad yrkesutbildning.
           </seg>
-        </u>
-        <u xml:id="i-5936a1c7d57da0ba-6" who="i-XNR1rnnKBMVQeMxhbj1afA" prev="i-QjSVRPcvfGaEkDHsCyjKui" next="i-5936a1c7d57da0ba-7">
           <seg xml:id="i-J3TfTn1VjKdpgWmVtZe63T">
             Vad har regeringen gjort för att förverkliga detta förslag? Framför
             allt under det senaste årtiondet ha de opinionsbildande organen,
@@ -18478,7 +18442,7 @@
         <note xml:id="i-877KnFZh2iMVjTb2V5qs2B">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-5936a1c7d57da0ba-7" who="i-XNR1rnnKBMVQeMxhbj1afA" prev="i-5936a1c7d57da0ba-6">
+        <u xml:id="i-5936a1c7d57da0ba-7" who="i-XNR1rnnKBMVQeMxhbj1afA" prev="i-5936a1c7d57da0ba-5">
           <seg xml:id="i-HEX1TSBpPyijjRnSC6ugvH">
             tiotusenden av ungdomar förslösa sin värdefullaste och mest danande
             ungdomstid, när vi kunna ge dem en sund fritid med tilltalande
@@ -18565,12 +18529,10 @@
         <note xml:id="i-94W9XAZ8uMXLedr4GJpNHR">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-4E9kRCG4unuhJ5gwfiDR3V" who="i-MXZLbf93D8sNNjc8yebEXt" prev="i-61cd9235803786e4-0" next="i-61cd9235803786e4-1">
+        <u xml:id="i-4E9kRCG4unuhJ5gwfiDR3V" who="i-MXZLbf93D8sNNjc8yebEXt" prev="i-61cd9235803786e4-0" next="i-61cd9235803786e4-2">
           <seg xml:id="i-2DLw8e41YKMbKmSsCZ771E">
             hällsgrupper, då närmast övriga livsmedesproducenter.
           </seg>
-        </u>
-        <u xml:id="i-61cd9235803786e4-1" who="i-MXZLbf93D8sNNjc8yebEXt" prev="i-4E9kRCG4unuhJ5gwfiDR3V" next="i-61cd9235803786e4-2">
           <seg xml:id="i-HkL8KTujta1TyuGEMgLDb4">
             Denna olikartade utveckling av lönsamheten för fisket och jordbruket
             står helt i motsats till vad som tidigare i olika sammanhang framhållits,
@@ -18648,7 +18610,7 @@
         <note xml:id="i-7voDB8rTCBrghXGDaQ9vcU">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-61cd9235803786e4-2" who="i-MXZLbf93D8sNNjc8yebEXt" prev="i-61cd9235803786e4-1" next="i-61cd9235803786e4-3">
+        <u xml:id="i-61cd9235803786e4-2" who="i-MXZLbf93D8sNNjc8yebEXt" prev="i-4E9kRCG4unuhJ5gwfiDR3V" next="i-61cd9235803786e4-3">
           <seg xml:id="i-CkFhwXGKNmdyMeZJjTBqMP">
             Mot detta uttalande av departementschefen ha vi ingenting att
             erinra, utan vi äro till alla delar ense med honom.
@@ -18738,7 +18700,7 @@
         <note xml:id="i-AkQ4NNynxhuXf57rpz3vab">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-61cd9235803786e4-3" who="i-MXZLbf93D8sNNjc8yebEXt" prev="i-61cd9235803786e4-2" next="i-UPkQPNgSyExoEh6jF7qprz">
+        <u xml:id="i-61cd9235803786e4-3" who="i-MXZLbf93D8sNNjc8yebEXt" prev="i-61cd9235803786e4-2" next="i-61cd9235803786e4-5">
           <seg xml:id="i-QzAYVVFfYsH6MaijMMukvE">
             som vi till följd av omständigheterna måst ålägga oss, men det
             är härvid att märka, att såväl fiskeristyrelsen som fiskets prisregleringsverksamhet
@@ -18774,14 +18736,10 @@
             i Vättern. Då denna hamn icke kan betraktas som en fiskehamn,
             mena vi att beloppet bör utgå ur anslaget. Då återstår
           </seg>
-        </u>
-        <u xml:id="i-UPkQPNgSyExoEh6jF7qprz" who="i-MXZLbf93D8sNNjc8yebEXt" prev="i-61cd9235803786e4-3" next="i-61cd9235803786e4-4">
           <seg xml:id="i-H3WMLGWm3tf6wn15mNUBCj">
             1300 000 kronor. Lägger man härtill de kostnadsökningar, som
             av vägoch
           </seg>
-        </u>
-        <u xml:id="i-61cd9235803786e4-4" who="i-MXZLbf93D8sNNjc8yebEXt" prev="i-UPkQPNgSyExoEh6jF7qprz" next="i-T8GmjuKpPULuTp2KMR3adk">
           <seg xml:id="i-RLg38qaYyyKNEV3QKavWu6">
             valtenbyggnadsstyrelsen enbart för de hamnarbeten, som äro under
             utförande,
@@ -18822,8 +18780,6 @@
             lagen. Vi utgå ifrån att vår regering skall göra vad som är möjligt
             för att även i detta fall tillvarataga de svenska fiskarnas intressen.
           </seg>
-        </u>
-        <u xml:id="i-T8GmjuKpPULuTp2KMR3adk" who="i-MXZLbf93D8sNNjc8yebEXt" prev="i-61cd9235803786e4-4" next="i-61cd9235803786e4-5">
           <seg xml:id="i-KRmHt1Mv9SCD1h9VUMV5n2">
             Norrmännens beslut om utflyttning av sin gräns i nordöstra delen
             av Skagerack utanför Oslofjorden, är alltför
@@ -18842,7 +18798,7 @@
         <note xml:id="i-Pp21jvbwFdLQn5TvZufSUK">
           Vid remiss av statsverkspropositionen m. m.
         </note>
-        <u xml:id="i-61cd9235803786e4-5" who="i-MXZLbf93D8sNNjc8yebEXt" prev="i-T8GmjuKpPULuTp2KMR3adk" next="i-Ce94YjSD4d64iKvy2Yad5a">
+        <u xml:id="i-61cd9235803786e4-5" who="i-MXZLbf93D8sNNjc8yebEXt" prev="i-61cd9235803786e4-3" next="i-Ce94YjSD4d64iKvy2Yad5a">
           <seg xml:id="i-6UxMmeNEWhbfUmiSBji5ua">
             väl känt för att jag här skall behöva upprepa detsamma. Nu får
             man emellertid hoppas, att det utslag som fastställdes mellan

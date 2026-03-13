@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-UEaUkhXiKnC89tBrB6dunv" type="speech">
             <linkGrp type="u">
               <ptr target="#i-W1T42XS4zp6Y6dw7qohQ5H"/>
@@ -419,7 +419,13 @@
               <ptr target="#i-H5bGLryjpVwbvwwE3Hmckg"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -621,7 +627,7 @@
           viss verksamhet avseende utbildning av bilförare m. m., erhöll
           ordet och yttrade:
         </note>
-        <u xml:id="i-W1T42XS4zp6Y6dw7qohQ5H" who="i-8FeKtrT5DmgTKt1JtCcHmB" next="i-Xtf4kb8bcAv8yY773HUgwH">
+        <u xml:id="i-W1T42XS4zp6Y6dw7qohQ5H" who="i-8FeKtrT5DmgTKt1JtCcHmB">
           <seg xml:id="i-XDZW6Gst9wQkme6oKGkjEf">
             Herr talman! I en interpellation har herr Karlsson utifrån ett
             angivet fall frågat om det kan anses riktigt att statsbidrag utgår
@@ -629,16 +635,12 @@
             och om det förekommit att man på andra håll i landet bedrivit
             verksamhet liknande den som han åsyftat.
           </seg>
-        </u>
-        <u xml:id="i-Xtf4kb8bcAv8yY773HUgwH" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-W1T42XS4zp6Y6dw7qohQ5H" next="i-ErztaXqYo6JypxmKovHHx4">
           <seg xml:id="i-EvMxzbSsNizoHpG4o3Ky6W">
             Enligt vad jag inhämtat bedriver flera av de större studieförbunden
             sedan många år omfattande statsunderstödd studiecirkelverksamhet
             i frågor som rör trafiklagstiftning, allmän trafikupplysning och
             liknande ämnen. Dessa studiecirklar har inte ingått i körkortsutbild-
           </seg>
-        </u>
-        <u xml:id="i-ErztaXqYo6JypxmKovHHx4" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-Xtf4kb8bcAv8yY773HUgwH" next="i-Sjw1BkNaVpjmG2DbTEA2v">
           <seg xml:id="i-JVxjocoeu7EfmUDHYqBFkp">
             ningen och inte heller har de anordnats i samverkan med privata
             körskolor. Med hänsyn till den betydelse som bilismen har i det
@@ -649,8 +651,6 @@
             därför att det här inte är fråga om ett fritt och frivilligt folkbildningsarbete
             i den mening som utgör en grundläggande princip för svenskt bildningsarbete.
           </seg>
-        </u>
-        <u xml:id="i-Sjw1BkNaVpjmG2DbTEA2v" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-ErztaXqYo6JypxmKovHHx4">
           <seg xml:id="i-KiQ72xfhVnvWJTKjT7Jjsb">
             På herr Karlssons andra fråga kan jag svara att det såvitt jag
             vet inte inom folkbildningsarbetet förekommer någon verksamhet
@@ -787,15 +787,13 @@
           Om statsbidrag till viss verksamhet avseende utbildning av bilförare
           m. m.
         </note>
-        <u xml:id="i-97aR6ucb2SQR6pMU5VnNNe" who="i-7ugPcnmZ6J6FiS44UnXL54" prev="i-64b39edc05383976-1" next="i-64b39edc05383976-2">
+        <u xml:id="i-97aR6ucb2SQR6pMU5VnNNe" who="i-7ugPcnmZ6J6FiS44UnXL54" prev="i-64b39edc05383976-1">
           <seg xml:id="i-NJGMhqQb1tFVD3TAofdZ6D">
             ning och som är godkänd av Kungl. vägoch vattenbyggnadsstyrelsen
             samt i övrigt i enlighet med skolöverstyrelsens bestämmelser kan
             LIS i Karlskrona åtaga sig att förmedla statsbidrag till denna
             verksamhet.»
           </seg>
-        </u>
-        <u xml:id="i-64b39edc05383976-2" who="i-7ugPcnmZ6J6FiS44UnXL54" prev="i-97aR6ucb2SQR6pMU5VnNNe">
           <seg xml:id="i-UTutXuGVzGgtdXbiiZnNCP">
             Skrivelsen fortsätter: »Under LIS verksamhetsår 1964/65 organiserades
             den teoretiska utbildningen vid Jönköpings läns trafikinstitut
@@ -885,7 +883,7 @@
           herr Ferdinand Nilssons interpellation angående kostnader för
           och finansiering av övergången till högertrafik, och nu anförde:
         </note>
-        <u xml:id="i-64b39edc05383976-4" who="i-DKX1MP4aaNtFZSpMKXCwY" next="i-EDnYUk31ofxAjS3yNaHRWw">
+        <u xml:id="i-64b39edc05383976-4" who="i-DKX1MP4aaNtFZSpMKXCwY">
           <seg xml:id="i-84xDdsG5YPyefg5cEMUuoY">
             Herr talman! Herr Ferdinand Nilsson har frågat finansminstern
             dels om han vill lämna en redogörelse för tillkomsten av de i
@@ -908,14 +906,10 @@
             Vid remissbehandlingen lämnades utredningens beräkningar i allt
             väsentligt utan erinran.
           </seg>
-        </u>
-        <u xml:id="i-EDnYUk31ofxAjS3yNaHRWw" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-64b39edc05383976-4" next="i-64b39edc05383976-5">
           <seg xml:id="i-NvudeX4bKE2q22YjALBufF">
             Jag vill erinra om att utredningens beräkningar redovisades för
             1963 års riksdag i den förut nämnda propositionen nr 58.
           </seg>
-        </u>
-        <u xml:id="i-64b39edc05383976-5" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-EDnYUk31ofxAjS3yNaHRWw">
           <seg xml:id="i-Y2H8xECCVfNBnFkk9yuAQg">
             Med hänsyn till att reformen skulle genomföras först 1967 ansågs
             det i propositionen befogat att räkna med en kostnad av omkring
@@ -1841,7 +1835,7 @@
         <note xml:id="i-Tv9EbyUWQ86kHT21feYefT">
           Ang. förvärv av aktierna i Svenska Durox aktiebolag, m. m.
         </note>
-        <u xml:id="i-64b39edc05383976-22" who="i-PPWwBLdPREsswAdQfVRE7a" prev="i-64b39edc05383976-21" next="i-WmdBpD1a2EFLhfoKeZjhZo">
+        <u xml:id="i-64b39edc05383976-22" who="i-PPWwBLdPREsswAdQfVRE7a" prev="i-64b39edc05383976-21">
           <seg xml:id="i-Y5TZ5kmZayAV2egASCSLc">
             sig. även om det är riktigt att det går åt stora mängder byggnadsmaterial
             i vårt land för närvarande, har vi på detta område en mycket effektiv
@@ -1897,8 +1891,6 @@
             verkliga skälet till att staten har gått med på denna affär är
             för närvarande enligt min mening helt ouppklarat.
           </seg>
-        </u>
-        <u xml:id="i-WmdBpD1a2EFLhfoKeZjhZo" who="i-PPWwBLdPREsswAdQfVRE7a" prev="i-64b39edc05383976-22">
           <seg xml:id="i-XY7ZfMctXuWkYwvzExyf6h">
             Med detta, herr talman, vill jag yrka bifall till den vid utlåtandet
             fogade reservationen.
@@ -3986,7 +3978,7 @@
           Till vinnande av en rationellare arbetsordning hade utredningen
           i huvudsak förordat följande åtgärder:
         </note>
-        <u xml:id="i-64b39edc05383976-60" who="i-PPWwBLdPREsswAdQfVRE7a" prev="i-64b39edc05383976-56" next="i-58LV3YpjjryqHsPbZcLfLs">
+        <u xml:id="i-64b39edc05383976-60" who="i-PPWwBLdPREsswAdQfVRE7a" prev="i-64b39edc05383976-56">
           <seg xml:id="i-UVW5Dk1DBbeW1XajSyMqwL">
             1. Uppskov med ärendens behandling från vårtill höstsessionen
             skulle beslutas i avsevärt större utsträckning än hittills. I
@@ -4031,16 +4023,12 @@
             avlämnades för sent och även att interpellationer i viss utsträckning
             besvarades senare än vad som borde kunna ske.
           </seg>
-        </u>
-        <u xml:id="i-58LV3YpjjryqHsPbZcLfLs" who="i-PPWwBLdPREsswAdQfVRE7a" prev="i-64b39edc05383976-60" next="i-64b39edc05383976-61">
           <seg xml:id="i-VaWjLwAuvBiCenSThuM3JE">
             6. I riksdagens arbetsvecka förordades den ändringen, att frågestunderna
             flyttades från tisdagar till torsdagar för att bereda utskotten
             förbättrade arbetsmöjligheter. I övrigt framstode arbetsveckans
             disposition som ändamålsenlig.
           </seg>
-        </u>
-        <u xml:id="i-64b39edc05383976-61" who="i-PPWwBLdPREsswAdQfVRE7a" prev="i-58LV3YpjjryqHsPbZcLfLs">
           <seg xml:id="i-LKvbBepp93nxDjRZhhYr8m">
             7. Utskottsorganisationen borde utökas med ett fast särskilt
             utskott med funktion som ett fjärde lagutskott. Härigenom vunnes
@@ -4100,7 +4088,7 @@
         <note xml:id="i-Sh7vnyYQ7PJYg9LRATj2Gf" type="speaker">
           Herr ANDERSSON, BIRGER, (s):
         </note>
-        <u xml:id="i-64b39edc05383976-63" who="i-U6ifRiR8jKa4cStAnitbxA" next="i-9yENfWayFPJny3EEaG4msH">
+        <u xml:id="i-64b39edc05383976-63" who="i-U6ifRiR8jKa4cStAnitbxA" next="i-85rHXJYTs1jNw57ThMLCoR">
           <seg xml:id="i-YCJHXP6yBkd72NoQ8zEKvD">
             Herr talman! Arbetsplaneringen i riksdagen liksom effektiviteten
             inte minst i utskottens arbete har varit föremål för många överläggningar
@@ -4111,8 +4099,6 @@
             som skulle kunna bli något slags planeringsoch rationaliseringschef.
             Det stannade emellertid vid blotta tanken.
           </seg>
-        </u>
-        <u xml:id="i-9yENfWayFPJny3EEaG4msH" who="i-U6ifRiR8jKa4cStAnitbxA" prev="i-64b39edc05383976-63" next="i-64b39edc05383976-64">
           <seg xml:id="i-YWuCTSPEGmHGHwQVj1ZozC">
             Då och då har ändringar i riksdagens organisation förekommit.
             Under den tid jag haft äran tillhöra denna kammare har bl. a.
@@ -4121,8 +4107,6 @@
             beredningsutskottet, och statsutskottet har fått en femte avdelning,
             allt i syfte att effektivisera arbetet.
           </seg>
-        </u>
-        <u xml:id="i-64b39edc05383976-64" who="i-U6ifRiR8jKa4cStAnitbxA" prev="i-9yENfWayFPJny3EEaG4msH" next="i-85rHXJYTs1jNw57ThMLCoR">
           <seg xml:id="i-SmE4poPsWevbqNabayg21N">
             Arbetsmängden har emellertid ökat och därmed kanske i någon mån
             också vårt sätt att arbeta. De tidigare ofta mycket omfattande
@@ -4182,7 +4166,7 @@
         <note xml:id="i-4Dt58rQ3Gvr89j2vaQUnCC">
           Om inrättande av ett nytt utskott för lagfrågor
         </note>
-        <u xml:id="i-85rHXJYTs1jNw57ThMLCoR" who="i-U6ifRiR8jKa4cStAnitbxA" prev="i-64b39edc05383976-64" next="i-3RMA8fuDk4z6NoijUJf8yb">
+        <u xml:id="i-85rHXJYTs1jNw57ThMLCoR" who="i-U6ifRiR8jKa4cStAnitbxA" prev="i-64b39edc05383976-63">
           <seg xml:id="i-5v4Bz1e84tMHjMfoxcg8qk">
             grundlags karaktär. Det är av denna anledning utredningen önskar
             skapa ett slags permanent särskilt utskott, som avses få bli ett
@@ -4242,8 +4226,6 @@
             andra lagutskottets kansli, så att inga rubbningar uppstår i dess
             arbete.
           </seg>
-        </u>
-        <u xml:id="i-3RMA8fuDk4z6NoijUJf8yb" who="i-U6ifRiR8jKa4cStAnitbxA" prev="i-85rHXJYTs1jNw57ThMLCoR">
           <seg xml:id="i-SYBDMQzigMCTkJCNDwKLHu">
             Herr talman! Jag hemställer att riksdagen med avslag på konstitutionsutskottets
             hemställan i punkterna 1 och 3 måtte bifalla motionerna 1I:812
@@ -4549,7 +4531,7 @@
         <note xml:id="i-Y8BefejrZZCkVyEwY8Cire">
           Om inrättande av ett nytt utskott för lagfrågor
         </note>
-        <u xml:id="i-D1qFuu6PnPZoEa1TZKX6WU" who="i-DMs16qwN3uGgTraB34UW2Z" prev="i-64b39edc05383976-72" next="i-TssEHyvzTPKAto1deoxGYs">
+        <u xml:id="i-D1qFuu6PnPZoEa1TZKX6WU" who="i-DMs16qwN3uGgTraB34UW2Z" prev="i-64b39edc05383976-72">
           <seg xml:id="i-2p1yUFLPkzUiTQCYJKSfLi">
             tycker med framgång. Är det någon som märkt, att herr Sundin
             i denna kammare företräder åsikter i skattefrågor? På samma sätt,
@@ -4585,8 +4567,6 @@
             att öppna möjligheter för en omorganisation av utskottens kanslier,
             och därmed vinna större effektivitet.
           </seg>
-        </u>
-        <u xml:id="i-TssEHyvzTPKAto1deoxGYs" who="i-DMs16qwN3uGgTraB34UW2Z" prev="i-D1qFuu6PnPZoEa1TZKX6WU">
           <seg xml:id="i-9UWicTAMSTaJCmWVQtEqvq">
             Jag instämmer, herr talman, i herr Birger Anderssons yrkande.
           </seg>
@@ -4643,12 +4623,10 @@
         <note xml:id="i-SuAaPERy2pani8VgdhwRmj">
           Om inrättande av ett nytt utskott för lagfrågor
         </note>
-        <u xml:id="i-9Uzg7Ja5ERPGJf7EUfcLZ3" who="i-DZnFKHRVhVQYnGq7dU8UeP" prev="i-64b39edc05383976-74" next="i-64b39edc05383976-76">
+        <u xml:id="i-9Uzg7Ja5ERPGJf7EUfcLZ3" who="i-DZnFKHRVhVQYnGq7dU8UeP" prev="i-64b39edc05383976-74" next="i-7ry1suMmZCEqU8Gsbby94y">
           <seg xml:id="i-DMmWZrxwsx9Q3RrpohPcqK">
             som egentligen 'skulle behandlats av andra lagutskottet.
           </seg>
-        </u>
-        <u xml:id="i-64b39edc05383976-76" who="i-DZnFKHRVhVQYnGq7dU8UeP" prev="i-9Uzg7Ja5ERPGJf7EUfcLZ3" next="i-7ry1suMmZCEqU8Gsbby94y">
           <seg xml:id="i-PSgd7cw3iUrPQKK5UMSjnk">
             Om det nu skulle ske en omfördelning, måste det bli tal om de
             stora frågorna. De sociala frågorna skulle stanna hos andra lagutskottet.
@@ -4737,7 +4715,7 @@
         <note xml:id="i-9CcMeJUBFydeaCMwzTGWAG">
           Om inrättande av ett nytt utskott för lagfrågor
         </note>
-        <u xml:id="i-7ry1suMmZCEqU8Gsbby94y" who="i-DZnFKHRVhVQYnGq7dU8UeP" prev="i-64b39edc05383976-76">
+        <u xml:id="i-7ry1suMmZCEqU8Gsbby94y" who="i-DZnFKHRVhVQYnGq7dU8UeP" prev="i-9Uzg7Ja5ERPGJf7EUfcLZ3">
           <seg xml:id="i-N1WTCZafHqDE4Z1NM2om2t">
             lan till justitieministern att han skall vara återhållsam med
             sina propositioner, ty det är väl inte ett intresse för någon
@@ -4767,7 +4745,7 @@
         <note xml:id="i-RopRvcfJRgevJzmEyK1TmN" type="speaker">
           Herr CARLSSON, ERIC, (cp):
         </note>
-        <u xml:id="i-64b39edc05383976-79" who="i-Apri7FgXXxnC71KLoUptE9" next="i-9y958PKYqMpw4KBGt28UpC">
+        <u xml:id="i-64b39edc05383976-79" who="i-Apri7FgXXxnC71KLoUptE9" next="i-9mG22PA2G2uMENbqSKW9sv">
           <seg xml:id="i-Xs4AcyTGWDXszUtzpMEkQ9">
             Herr talman! Frågan om en uppdelning på ytterligare ett lagutskott
             sammanhänger ju i stor utsträckning med de arbetsmöjligheter och
@@ -4785,13 +4763,9 @@
             därmed ytterligare arbetsuppgifter, vilka, som det har sagts här,
             inte tenderar att minska till antal.
           </seg>
-        </u>
-        <u xml:id="i-9y958PKYqMpw4KBGt28UpC" who="i-Apri7FgXXxnC71KLoUptE9" prev="i-64b39edc05383976-79" next="i-QG3mY2Ed6g96igXiDKni9G">
           <seg xml:id="i-E2J2kF3ctqNQPCXuJnJ87N">
             Erfarenheterna från första och tredje
           </seg>
-        </u>
-        <u xml:id="i-QG3mY2Ed6g96igXiDKni9G" who="i-Apri7FgXXxnC71KLoUptE9" prev="i-9y958PKYqMpw4KBGt28UpC" next="i-9mG22PA2G2uMENbqSKW9sv">
           <seg xml:id="i-DNDE9oxqxTnAcVHbWxdWZD">
             lagutskotten som redovisas här tyder på att man med hänsyn till
             arbetssituationen där inte behöver förhasta sig och göra en uppdelning
@@ -4837,7 +4811,7 @@
         <note xml:id="i-22Adcn89fEzey7zvoBChF6">
           Om inrättande av ett nytt utskott för lagfrågor
         </note>
-        <u xml:id="i-9mG22PA2G2uMENbqSKW9sv" who="i-Apri7FgXXxnC71KLoUptE9" prev="i-QG3mY2Ed6g96igXiDKni9G">
+        <u xml:id="i-9mG22PA2G2uMENbqSKW9sv" who="i-Apri7FgXXxnC71KLoUptE9" prev="i-64b39edc05383976-79">
           <seg xml:id="i-MeL31sHAF4jMGuYtMePm9W">
             att andra lagutskottets sekretariat under det senaste året har
             arbetat praktiskt taget hela året.
@@ -5273,7 +5247,7 @@
           för kapitaltillskott till det bolag, som bildades enligt nämnda
           avtal.
         </note>
-        <u xml:id="i-4SZETaqM5AShP1jvSFsaUa" who="i-QW3U8q9gqCreU8hvXKjp44" prev="i-64b39edc05383976-91" next="i-4kdGPsJjiPboTB6PVEgoTh">
+        <u xml:id="i-4SZETaqM5AShP1jvSFsaUa" who="i-QW3U8q9gqCreU8hvXKjp44" prev="i-64b39edc05383976-91">
           <seg xml:id="i-MY5gXwZjFgkWjbsA1BDvhP">
             I det tillämnade bolaget — Grytforsbolaget — skulle hälften av
             aktierna tillhöra staten och hälften Bolidenbolaget. Vattenfallsstyrelsen
@@ -5282,8 +5256,6 @@
             verkställda utredningar till ett värde av tillhopa 6 miljoner
             kronor. Bolidenbolaget skulle betala sina aktier kontant.
           </seg>
-        </u>
-        <u xml:id="i-4kdGPsJjiPboTB6PVEgoTh" who="i-QW3U8q9gqCreU8hvXKjp44" prev="i-4SZETaqM5AShP1jvSFsaUa">
           <seg xml:id="i-N9zjhboaS9PowEttuZ1rGN">
             Utbyggnaden avsåges påbörjas omedelbart och bedrivas på ett sådant
             sätt, att stationen kunde tagas i drift hösten 1969. Den sammanlagda
@@ -5509,14 +5481,12 @@
         <note xml:id="i-Qh46CgefMZAd1MfVNGkLjo" type="speaker">
           Herr RÖNNBERG (s):
         </note>
-        <u xml:id="i-G7NhfYur7sTSfBgFrdU3L4" who="i-2TsHqq7PsF14bp7YkTxgw6" next="i-64b39edc05383976-98">
+        <u xml:id="i-G7NhfYur7sTSfBgFrdU3L4" who="i-2TsHqq7PsF14bp7YkTxgw6" next="i-64b39edc05383976-99">
           <seg xml:id="i-7Rg7MPmZuY27YzGrJMqLV4">
             Herr talman! Till föreliggande utlåtande nr 191 är bl. a. fogad
             en reservation 1, och med anledning av den ber jag att få framföra
             några synpunkter.
           </seg>
-        </u>
-        <u xml:id="i-64b39edc05383976-98" who="i-2TsHqq7PsF14bp7YkTxgw6" prev="i-G7NhfYur7sTSfBgFrdU3L4" next="i-64b39edc05383976-99">
           <seg xml:id="i-SWvPNbnhmGvxo1aHLJSvQ1">
             Som tidigare framhållits har Skellefteå stads engagemang i Skellefteälven
             ända sedan början av 1900-talet varit starkt utvecklat. Man har
@@ -5578,7 +5548,7 @@
         <note xml:id="i-CcyTt71HJwqV6m5zefnLJE">
           Ang. utbyggnad av Grytfors kraftstation m. m.
         </note>
-        <u xml:id="i-64b39edc05383976-99" who="i-2TsHqq7PsF14bp7YkTxgw6" prev="i-64b39edc05383976-98" next="i-77ZXXCubGkfyBnyFW1298u">
+        <u xml:id="i-64b39edc05383976-99" who="i-2TsHqq7PsF14bp7YkTxgw6" prev="i-G7NhfYur7sTSfBgFrdU3L4">
           <seg xml:id="i-9BLFSJxSADkMWBRc2jvCeL">
             lidenbolaget, så skulle det kanske uppstå svårigheter när det
             gäller uppgörelsen om övriga fallhöjder som ligger intill och
@@ -5618,8 +5588,6 @@
             man skall föra förhandlingar om fallhöjderna ovanför och att vattenfallsstyrelsen
             erbjudit sta-
           </seg>
-        </u>
-        <u xml:id="i-77ZXXCubGkfyBnyFW1298u" who="i-2TsHqq7PsF14bp7YkTxgw6" prev="i-64b39edc05383976-99" next="i-64b39edc05383976-100">
           <seg xml:id="i-3S4pD2bTcZcxvkHpSkPRpV">
             den att vara med där. Vidare meddelas: »Utskottet har, bl. a.
             i anledning av vad i motionerna I: 797 och II: 944 samt i motionen
@@ -5629,8 +5597,6 @@
             inte påverkat utskottets ståndpunktstagande i den nu föreliggande
             avtalsfrågan.»
           </seg>
-        </u>
-        <u xml:id="i-64b39edc05383976-100" who="i-2TsHqq7PsF14bp7YkTxgw6" prev="i-77ZXXCubGkfyBnyFW1298u">
           <seg xml:id="i-69UsLuojPthbMj4THZsh96">
             Det är rätt lustigt att höra att det tydligen, om man får tolka
             det uttalandet, har förekommit vissa saker, men det var tydligen
@@ -5791,7 +5757,7 @@
         <note xml:id="i-RBuSFwEkup6xxqoEtbpnM7" type="speaker">
           Herr BOMAN (fp):
         </note>
-        <u xml:id="i-CCviz4ViJAspanyDHbKyuz" who="i-CYQXMbTJsLyt2Dt3gwbE3g" next="i-64b39edc05383976-105">
+        <u xml:id="i-CCviz4ViJAspanyDHbKyuz" who="i-CYQXMbTJsLyt2Dt3gwbE3g" next="i-VSsi8JiY2pp6kdEB3bHVXg">
           <seg xml:id="i-FrQjbPxvSeGtXzHiTSExg4">
             Herr talman! När vi inom statsutskottets femte avdelning skulle
             ta ställning till proposition 165 angående godkännande av avtal
@@ -5801,8 +5767,6 @@
             att vi skulle få en föredragning av hela detta problemkomplex
             från vattenfallsstyrelsen.
           </seg>
-        </u>
-        <u xml:id="i-64b39edc05383976-105" who="i-CYQXMbTJsLyt2Dt3gwbE3g" prev="i-CCviz4ViJAspanyDHbKyuz" next="i-VSsi8JiY2pp6kdEB3bHVXg">
           <seg xml:id="i-FoHdEauAFBTUbw9kKxY9YL">
             Vi fick en sådan föredragning, där även propositionsskrivaren
             var närvarande. Vi blev ganska övertygade av denna föredragning,
@@ -5823,7 +5787,7 @@
         <note xml:id="i-JdFKd2CVwCxCYLnitH3CMX">
           lefteå Stads Kraftverk rörande utbyggnader i Skellefteälven.
         </note>
-        <u xml:id="i-VSsi8JiY2pp6kdEB3bHVXg" who="i-CYQXMbTJsLyt2Dt3gwbE3g" prev="i-64b39edc05383976-105" next="i-64b39edc05383976-107">
+        <u xml:id="i-VSsi8JiY2pp6kdEB3bHVXg" who="i-CYQXMbTJsLyt2Dt3gwbE3g" prev="i-CCviz4ViJAspanyDHbKyuz" next="i-64b39edc05383976-107">
           <seg xml:id="i-Tecvvvx4cHvmfsAkgWtXE1">
             I början av 1964 upptogs mellan Vattenfall och Skellefteå Stads
             Kraftverk frågan om en samverkan i fråga om utbyggnader i Skellefte
@@ -5964,7 +5928,7 @@
         <note xml:id="i-V5mkjh18GjjusU9acsa8ms">
           Ang. utbyggnad av Grytfors kraftstation m. m.
         </note>
-        <u xml:id="i-64b39edc05383976-109" who="i-2TsHqq7PsF14bp7YkTxgw6" prev="i-64b39edc05383976-108" next="i-8a8n9ZNWwKrr6eBXiym8hs">
+        <u xml:id="i-64b39edc05383976-109" who="i-2TsHqq7PsF14bp7YkTxgw6" prev="i-64b39edc05383976-108" next="i-64b39edc05383976-110">
           <seg xml:id="i-QRpsDfLo3qbjpuVapfgSUP">
             dare över detta och jag har frågat mig, om det inte kan finnas
             vägar, där en samverkan mellan Vattenfall och Ditt företag skulle
@@ -5982,8 +5946,6 @@
             Jag har för dagen inga konkreta propåer, men vi är på vår sida
             beredda ta upp en diskussion härom om Du är intresserad.
           </seg>
-        </u>
-        <u xml:id="i-8a8n9ZNWwKrr6eBXiym8hs" who="i-2TsHqq7PsF14bp7YkTxgw6" prev="i-64b39edc05383976-109" next="i-64b39edc05383976-110">
           <seg xml:id="i-BYHAVGUbGMK4WwhXkS7wrS">
             Din tillgivne
           </seg>
@@ -5995,7 +5957,7 @@
           Direktör Karl Bredberg svarade generaldirektör Erik Grafström
           på detta brev:
         </note>
-        <u xml:id="i-64b39edc05383976-110" who="i-2TsHqq7PsF14bp7YkTxgw6" prev="i-8a8n9ZNWwKrr6eBXiym8hs" next="i-64b39edc05383976-111">
+        <u xml:id="i-64b39edc05383976-110" who="i-2TsHqq7PsF14bp7YkTxgw6" prev="i-64b39edc05383976-109" next="i-64b39edc05383976-111">
           <seg xml:id="i-KySU24CQh9gUanj9ETgy9a">
             »Broder! För Dina rader angående Skellefteå stads elkraftsförsörjning
             på längre sikt tackar jag hjärtligt. Givetvis äro vi mycket intresserade
@@ -6149,7 +6111,7 @@
         <note xml:id="i-FzwdZLmtG1GZMcypyEiG9G" type="speaker">
           Herr SVEDBERG, LAGE, (s):
         </note>
-        <u xml:id="i-64b39edc05383976-115" who="i-28QtNdtNvYW5KVgFHRDL4R" next="i-MDgoVQNf8GEv9YHFFig9UL">
+        <u xml:id="i-64b39edc05383976-115" who="i-28QtNdtNvYW5KVgFHRDL4R" next="i-64b39edc05383976-116">
           <seg xml:id="i-SmWtKEFwvXKYqqt9XFpQ5X">
             Herr talman! Jag vill påminna herr statsrådet om hans eget uttalande,
             som återges dels i statsutskottets utlåtande och dels i statsverkspropositionen
@@ -6161,8 +6123,6 @@
             jämnare sysselsättning för vattenfallsverkets arbetskraft i Västerbottens
             län under de närmaste åren» — vilket är riktigt.
           </seg>
-        </u>
-        <u xml:id="i-MDgoVQNf8GEv9YHFFig9UL" who="i-28QtNdtNvYW5KVgFHRDL4R" prev="i-64b39edc05383976-115" next="i-64b39edc05383976-116">
           <seg xml:id="i-JNYb1XMzQzhNivfbsyzXkd">
             Vidare säges det: »Förutsättningar för
           </seg>
@@ -6177,7 +6137,7 @@
         <note xml:id="i-XLGjhqtZjoHEjaNFtGz1eV">
           Ang. utbyggnad av Grytfors kraftstation m. m.
         </note>
-        <u xml:id="i-64b39edc05383976-116" who="i-28QtNdtNvYW5KVgFHRDL4R" prev="i-MDgoVQNf8GEv9YHFFig9UL">
+        <u xml:id="i-64b39edc05383976-116" who="i-28QtNdtNvYW5KVgFHRDL4R" prev="i-64b39edc05383976-115">
           <seg xml:id="i-B2Dv1DoBG7FVEnEaBfYzJ1">
             träffande av avtal med Skellefteå stad har emellertid inte förelegat...»
             Herr Rönnberg har här gett en klar uppgift om att någon närmare
@@ -6761,7 +6721,7 @@
         <note xml:id="i-3wYJb3ZLe3L2ZkhWxZf7r2" type="speaker">
           Herr OTTOSSON (h):
         </note>
-        <u xml:id="i-71mBPWcWBDhFgJMNnfkH2Y" who="i-4ZEtYkDJVkQzAPzCqTvRYF" next="i-64b39edc05383976-129">
+        <u xml:id="i-71mBPWcWBDhFgJMNnfkH2Y" who="i-4ZEtYkDJVkQzAPzCqTvRYF">
           <seg xml:id="i-XnHijLiRmFnvk3RYvw8Png">
             Herr talman! Till bevillningsutskottets betänkande nr 58 har
             fogats en reservation av utskottets högerledamöter. Reservationen
@@ -6769,8 +6729,6 @@
             har nämligen enligt proposition nr 177 i artikel 25, $ 2, införts
             en föreskrift, vilken enligt gällande lagstiftning saknar aktualitet.
           </seg>
-        </u>
-        <u xml:id="i-64b39edc05383976-129" who="i-4ZEtYkDJVkQzAPzCqTvRYF" prev="i-71mBPWcWBDhFgJMNnfkH2Y" next="i-RiJaG6Rru4mmzcYEgwKbhX">
           <seg xml:id="i-4A3p4gkhaoKmsib8AECW89">
             Reservanterna har inte ansett det riktigt att i avtal på skatteområdet
             som ingås med främmande makt föreskrifter utformas med utgångspunkt
@@ -6783,8 +6741,6 @@
             borde den enligt reservanternas mening först ha blivit föremål
             för en principdiskussion i riksdagen.
           </seg>
-        </u>
-        <u xml:id="i-RiJaG6Rru4mmzcYEgwKbhX" who="i-4ZEtYkDJVkQzAPzCqTvRYF" prev="i-64b39edc05383976-129">
           <seg xml:id="i-2XqcFsphcDUX7jJ8ip4bTH">
             Av denna anledning vill jag, herr talman, yrka bifall till den
             vid bevillningsutskottets betänkande nr 58 fogade reservationen.
@@ -6809,7 +6765,7 @@
         <note xml:id="i-Sn5EQNwJCquEwAhaEGeY4k">
           Ang. avtal med Schweiz för undvikande av dubbelbeskattning
         </note>
-        <u xml:id="i-64b39edc05383976-131" who="i-DMs16qwN3uGgTraB34UW2Z" prev="i-64b39edc05383976-130" next="i-TPgrV4LHQy2KZznu2CXBrS">
+        <u xml:id="i-64b39edc05383976-131" who="i-DMs16qwN3uGgTraB34UW2Z" prev="i-64b39edc05383976-130">
           <seg xml:id="i-MkwyJfbUwxx2bD9mn7WZNP">
             om ett bifall till avtalet, men däremot råder det, som reservanterna
             framhåller, delade meningar om den beredskapsåtgärd som är vidtagen.
@@ -6828,8 +6784,6 @@
             för i Schweiz. Däri ligger skillnaden mellan de båda länderna
             i detta fall.
           </seg>
-        </u>
-        <u xml:id="i-TPgrV4LHQy2KZznu2CXBrS" who="i-DMs16qwN3uGgTraB34UW2Z" prev="i-64b39edc05383976-131">
           <seg xml:id="i-U8NdoWeMEcvnD8KdFRDAzr">
             Jag hemställer om bifall till utskottets förslag.
           </seg>
@@ -7235,7 +7189,7 @@
         <note xml:id="i-Lsot8ZPZJtDZMG6aoPtgRa" type="date">
           Onsdagen den 15 december 1965
         </note>
-        <u xml:id="i-64b39edc05383976-135" who="i-9jz5ycDdUNuEbuww4Ui1YW" prev="i-64b39edc05383976-134" next="i-PC1qSJDPwekdfJwyuW4tXo">
+        <u xml:id="i-64b39edc05383976-135" who="i-9jz5ycDdUNuEbuww4Ui1YW" prev="i-64b39edc05383976-134" next="i-64b39edc05383976-136">
           <seg xml:id="i-DkBnoBjJm82jBpHAzUAMBb">
             som antagits av kammaren innebär att kanslierna och delvis även
             riksdagens egna ledamöter kanske får sina arbetsuppgifter ökade
@@ -7272,8 +7226,6 @@
             tillgivenhet och tillönskar honom det otium cum dignitate som
             han mer än någon annan förtjänar.
           </seg>
-        </u>
-        <u xml:id="i-PC1qSJDPwekdfJwyuW4tXo" who="i-9jz5ycDdUNuEbuww4Ui1YW" prev="i-64b39edc05383976-135" next="i-64b39edc05383976-136">
           <seg xml:id="i-WL5kUtXBFqfSHFEsQ55vfs">
             I och med denna session lämnar ock-
           </seg>
@@ -7281,7 +7233,7 @@
         <note xml:id="i-Pgt4zVeQYuptX9XRNCsL67">
           Nr 42 71
         </note>
-        <u xml:id="i-64b39edc05383976-136" who="i-9jz5ycDdUNuEbuww4Ui1YW" prev="i-PC1qSJDPwekdfJwyuW4tXo" next="i-F2KrfXrSFba5d28GaNbsXq">
+        <u xml:id="i-64b39edc05383976-136" who="i-9jz5ycDdUNuEbuww4Ui1YW" prev="i-64b39edc05383976-135" next="i-64b39edc05383976-138">
           <seg xml:id="i-FZBq7PCURyZGooER9366ST">
             så ett flertal veteraner kammarens och vår krets: herrar Ahlkvist,
             Boman, Hjalmar Nilsson och Axel Svensson lämnar nu riksdagen,
@@ -7314,13 +7266,9 @@
           <seg xml:id="i-VNEBfo1ybNvo7Epre48VLH">
             God jul, gott nytt år och tack!
           </seg>
-        </u>
-        <u xml:id="i-F2KrfXrSFba5d28GaNbsXq" who="i-9jz5ycDdUNuEbuww4Ui1YW" prev="i-64b39edc05383976-136" next="i-64b39edc05383976-137">
           <seg xml:id="i-PxMCmUiqa8goDYHrhtd8RD">
             Detta tal besvarades av herr UNDÉN i följande ordalag:
           </seg>
-        </u>
-        <u xml:id="i-64b39edc05383976-137" who="i-9jz5ycDdUNuEbuww4Ui1YW" prev="i-F2KrfXrSFba5d28GaNbsXq" next="i-64b39edc05383976-138">
           <seg xml:id="i-P1RieaMLdxjN5Sag9PHeWy">
             Herr talman! När vi nu skils åt inför julferierna, må det tillåtas
             mig att med begagnande av ålderspresidentens privilegium ge uttryck
@@ -7337,7 +7285,7 @@
         <note xml:id="i-Jz7RpdXRWddiUEN52WYKWy">
           72 Nr 42
         </note>
-        <u xml:id="i-64b39edc05383976-138" who="i-9jz5ycDdUNuEbuww4Ui1YW" prev="i-64b39edc05383976-137" next="i-H5bGLryjpVwbvwwE3Hmckg">
+        <u xml:id="i-64b39edc05383976-138" who="i-9jz5ycDdUNuEbuww4Ui1YW" prev="i-64b39edc05383976-136" next="i-H5bGLryjpVwbvwwE3Hmckg">
           <seg xml:id="i-tbbp6VDr5YtbN2m5TSH3t">
             på militärt försvar skulle föga ändra ödets gång.
           </seg>

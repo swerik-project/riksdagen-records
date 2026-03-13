@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-WfYHzJhr4PhMoi93FRaAvJ" type="speech">
             <linkGrp type="u">
               <ptr target="#i-WfN3HWbVAF4S3njgRE1zdy"/>
@@ -274,7 +274,13 @@
               <ptr target="#i-8qwzYQELKbGXCvPiXVA47R"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -1053,7 +1059,7 @@
         <note xml:id="i-Y8kfzY5v2pDyMCc3eua2Do">
           (enligt jordbruksutskottets memorial nr 71).
         </note>
-        <u xml:id="i-NzXEpm3r5uWTnb42fZyMiU" who="unknown">
+        <u xml:id="i-NzXEpm3r5uWTnb42fZyMiU" who="unknown" next="i-2VNHhHCbEzZ4Lzah9LMsRu">
           <seg xml:id="i-MdgrzqGmqyw8ij8px4S7Fm">
             Den, som i likhet med första kammaren, vill, att riksdagen skall
           </seg>
@@ -1194,12 +1200,10 @@
           av skogsstatens personal. . &gt; 65,000 egentliga förvaltningskostnader,
           därav
         </note>
-        <u xml:id="i-2VNHhHCbEzZ4Lzah9LMsRu" who="unknown">
+        <u xml:id="i-2VNHhHCbEzZ4Lzah9LMsRu" who="unknown" prev="i-NzXEpm3r5uWTnb42fZyMiU" next="i-7CkoK14XMMav9ruDTyqiD4">
           <seg xml:id="i-XxWvA79wuvwebrWEL9TfGT">
             minst 150,000 kronor till avdikningar
           </seg>
-        </u>
-        <u xml:id="i-36XLebWaaMqCWDMpjNMPYg" who="unknown">
           <seg xml:id="i-77L56WJYjdowf4XZri7Gzc">
             å kronans skogar i de norrländska lä-
           </seg>
@@ -1298,24 +1302,18 @@
         <note xml:id="i-7bM6jdNJnDMkWRPNivUETp">
           |
         </note>
-        <u xml:id="i-7CkoK14XMMav9ruDTyqiD4" who="unknown">
+        <u xml:id="i-7CkoK14XMMav9ruDTyqiD4" who="unknown" prev="i-2VNHhHCbEzZ4Lzah9LMsRu" next="i-PHutRCfngJL6kLk6Dz3RFf">
           <seg xml:id="i-CR7bytoyp3jFvRURPmx2CP">
             Efter 5 år kan lönen höjas med 600 kronor.
           </seg>
-        </u>
-        <u xml:id="i-LpB6D5vaXiENLMGMKz38ps" who="unknown">
           <seg xml:id="i-TMriSK62tzMtmivu3UbiT9">
             Efter 5 år kan lönen höjas med 400 kronor, efter ytterligare
             5 år likaledes med 400 kronor samt efter än ytterligare 5 år ävenledes
             med 400 kronor.
           </seg>
-        </u>
-        <u xml:id="i-AsPUFNVVFqCcLmXjfjd6iA" who="unknown">
           <seg xml:id="i-VFvwir8P6kHmgaKorGg7pX">
             Efter 5 år kan lönen höjas med 300 kronor.
           </seg>
-        </u>
-        <u xml:id="i-Bm5bipJRrp6ChticCTeiK3" who="unknown">
           <seg xml:id="i-QN5QX4n1MRwJnQoSdK36Wh">
             Efter 5 år kan lönen höjas med 100 kronor, efter ytterligare
             5 år likaledes med 100 kronor samt efter än ytterligare 5 år ävenledes
@@ -1381,12 +1379,10 @@
           av skogsstatens personal . &gt; 65,000 egentliga förvaltningskostnader,
           därav
         </note>
-        <u xml:id="i-PHutRCfngJL6kLk6Dz3RFf" who="unknown">
+        <u xml:id="i-PHutRCfngJL6kLk6Dz3RFf" who="unknown" prev="i-7CkoK14XMMav9ruDTyqiD4">
           <seg xml:id="i-UhTFSAseVDGCRTnqNwvXCt">
             minst 150,000 kronor till avdikningar
           </seg>
-        </u>
-        <u xml:id="i-3qwMdAR6ijH19ffZ6SPCxt" who="unknown">
           <seg xml:id="i-g9aHCiKqw7E9qmVjXT2Lq">
             å kronans skogar i de norrländska lä-
           </seg>
@@ -1553,7 +1549,7 @@
         <note xml:id="i-DbMRnmLSFmajL5uW3b6eCd" type="speaker">
           Herr Hage yttrade:
         </note>
-        <u xml:id="i-WfN3HWbVAF4S3njgRE1zdy" who="i-3139LqaoEDPArxpLRyxXT8" next="i-9y66RiMj9CguxvqiCDr2ur">
+        <u xml:id="i-WfN3HWbVAF4S3njgRE1zdy" who="i-3139LqaoEDPArxpLRyxXT8">
           <seg xml:id="i-L54wN3BRndFi8n3WknNEXJ">
             Herr talman! Det är ju inte något vidare angenämt att behöva
             upptaga kammarens tid vid denna timme med att säga några ord,
@@ -1569,8 +1565,6 @@
             om att icke vilja vara med om denna kompromiss, eniga om att kammaren
             icke bör bifalla den framställning, som göres från utskottet.
           </seg>
-        </u>
-        <u xml:id="i-9y66RiMj9CguxvqiCDr2ur" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-WfN3HWbVAF4S3njgRE1zdy">
           <seg xml:id="i-8MDmDJVquhh841kqb3HA1D">
             " Vi ha för vår del, då vi ansett det som en praxis och såsom
             en skyldighet för ett utskott att i sådana fall försöka åstadkomma
@@ -1588,7 +1582,7 @@
         <note xml:id="i-EAKZqD9UR6PrsdyYChK7T5" type="speaker">
           Herr vice talmannen D. Persson:
         </note>
-        <u xml:id="i-4uMrzGwnjwWoMD9KGffHgs" who="i-KLVdWuEH3iyC7Ws5pZeVNK" next="i-BQy63zc63gASmPetWbkho2">
+        <u xml:id="i-4uMrzGwnjwWoMD9KGffHgs" who="i-KLVdWuEH3iyC7Ws5pZeVNK" next="i-JBJWfL6d4p9dxyFmyz6kvf">
           <seg xml:id="i-SaUCokmhBtJ4BcbcBskr6r">
             Herr talman, mina herrar! Det är riktigt såsom den förste ärade
             talaren anmärkte, att vi sökte sammanjämkning på en annan linje
@@ -1604,8 +1598,6 @@
             men man bör därvid icke heller släppa önskemålet att tillgodose
             såväl vattenfallsinnehavarens som ock statens bästa.
           </seg>
-        </u>
-        <u xml:id="i-BQy63zc63gASmPetWbkho2" who="i-KLVdWuEH3iyC7Ws5pZeVNK" prev="i-4uMrzGwnjwWoMD9KGffHgs" next="i-JBJWfL6d4p9dxyFmyz6kvf">
           <seg xml:id="i-3yZzuRGZ839fQ7EmAqa32W">
             Nu föreligger frågan i det skick, att det finns ingen möjlighet
             för denna kammare att kunna få sin åsikt igenom, och följ-
@@ -1618,7 +1610,7 @@
         <note xml:id="i-HNvF1dE43fCRLdFkVZryer" type="date">
           20 Lördagen den 22 maj.
         </note>
-        <u xml:id="i-JBJWfL6d4p9dxyFmyz6kvf" who="i-KLVdWuEH3iyC7Ws5pZeVNK" prev="i-BQy63zc63gASmPetWbkho2" next="i-ChcFx3fun4rMcn85USZUCL">
+        <u xml:id="i-JBJWfL6d4p9dxyFmyz6kvf" who="i-KLVdWuEH3iyC7Ws5pZeVNK" prev="i-4uMrzGwnjwWoMD9KGffHgs" next="i-ChcFx3fun4rMcn85USZUCL">
           <seg xml:id="i-55sW9TqNwWWddVQKYPwPQZ">
             Ang. grunder aktligen kan inte heller jag med det förslag, som
             föreligger, få
@@ -1627,12 +1619,10 @@
         <note xml:id="i-LdfD7jiDRjPRJMs1wpKAsX">
           för upplåtelse av kronan till-
         </note>
-        <u xml:id="i-ChcFx3fun4rMcn85USZUCL" who="i-KLVdWuEH3iyC7Ws5pZeVNK" prev="i-JBJWfL6d4p9dxyFmyz6kvf" next="i-NraUUtA2PgPRciy2ws7LPF">
+        <u xml:id="i-ChcFx3fun4rMcn85USZUCL" who="i-KLVdWuEH3iyC7Ws5pZeVNK" prev="i-JBJWfL6d4p9dxyFmyz6kvf" next="i-UvstJMgGzHEykX2v214Qbc">
           <seg xml:id="i-LsnCLzGfCQT534zwm3tou8">
             de bestämmelser igenom, som jag tror skulle vara lyckligast.
           </seg>
-        </u>
-        <u xml:id="i-NraUUtA2PgPRciy2ws7LPF" who="i-KLVdWuEH3iyC7Ws5pZeVNK" prev="i-ChcFx3fun4rMcn85USZUCL" next="i-UvstJMgGzHEykX2v214Qbc">
           <seg xml:id="i-8kUpJQoZtSwhZUjTQeg22B">
             höriga vatten- Men jag måste, mina herrar, säga, att då jag är
             så angelägen om
@@ -1641,7 +1631,7 @@
         <note xml:id="i-HmcQjUjtzr8fdmDbarn9MV">
           fall m. m. (Forts.)
         </note>
-        <u xml:id="i-UvstJMgGzHEykX2v214Qbc" who="i-KLVdWuEH3iyC7Ws5pZeVNK" prev="i-NraUUtA2PgPRciy2ws7LPF">
+        <u xml:id="i-UvstJMgGzHEykX2v214Qbc" who="i-KLVdWuEH3iyC7Ws5pZeVNK" prev="i-ChcFx3fun4rMcn85USZUCL">
           <seg xml:id="i-BCppWewZscffwhCcEPE4dS">
             att få dessa vattenfall utbyggda, så vågar jag inte taga på mitt
             ansvar att yrka avslag utan nödgas yrka bifall till sammanjämkningsförslaget
@@ -1687,7 +1677,7 @@
         <note xml:id="i-H2TNZ98BdVT5L9DcNKm2gT" type="speaker">
           Herr Palmstierna:
         </note>
-        <u xml:id="i-9kx4mPL1apkLyH3Jqhuf53" who="i-PoEnkqgRthqgybjNd47ZwU" next="i-Kk6YMMCWX7eCT28QwUmvXy">
+        <u xml:id="i-9kx4mPL1apkLyH3Jqhuf53" who="i-PoEnkqgRthqgybjNd47ZwU" next="i-BrQUTGyma39ZtSgY8NZtkY">
           <seg xml:id="i-JbTQtrDxhisfo5zy1T3VDd">
             Herr talman, mina herrar! Här går nu den ena dagen efter den
             andra och andra kammaren fattar det ena beslutet efter det andra
@@ -1697,8 +1687,6 @@
             tidpunkt, när alla äro stadda med kappsäckarna i handen för att
             giva sig iväg.
           </seg>
-        </u>
-        <u xml:id="i-Kk6YMMCWX7eCT28QwUmvXy" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-9kx4mPL1apkLyH3Jqhuf53" next="i-BrQUTGyma39ZtSgY8NZtkY">
           <seg xml:id="i-8vvj7o2f3tBiXxY46qK1sF">
             Jag vill för min del säga, att jag verkligen blev rätt överraskad
             att höra herr vice talmannens anförande nyss. Han står
@@ -1708,7 +1696,7 @@
         <note xml:id="i-JfPp6KYbSmVNUJbRB7Tvoz" type="date">
           Lördagen den 22 maj. 21 Nr 89.
         </note>
-        <u xml:id="i-BrQUTGyma39ZtSgY8NZtkY" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-Kk6YMMCWX7eCT28QwUmvXy">
+        <u xml:id="i-BrQUTGyma39ZtSgY8NZtkY" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-9kx4mPL1apkLyH3Jqhuf53">
           <seg xml:id="i-WJMRWajWotZvqZKomy7jyk">
             antecknad som reservant i går på avslag, och &amp; så höra vi
             detta 4ng. grunder nu i dag, att han yrkar bifall till sammanjämkningen.
@@ -1746,15 +1734,13 @@
         <note xml:id="i-KUURtUCjmvA8QxsNNayYh9" type="speaker">
           Herr Lind man:
         </note>
-        <u xml:id="i-HqvLVUpuxvTjfenWb9rMKU" who="unknown" next="i-TGn1skLrcRcCcgHPmqSjcJ">
+        <u xml:id="i-HqvLVUpuxvTjfenWb9rMKU" who="unknown" next="i-EAZ5yz6jYk2S7crsLhqabR">
           <seg xml:id="i-3RdAxFQ3VXaxnvg5D8gM69">
             Herr talman, mina herrar! I motsats till den siste ärade talaren
             ber jag få säga, att jag känner mig mycket övertygad därom, att
             det är mest förenligt med samhällets intressen att i det skick
             ärendet föreligger bifalla sammanjämkningsförslaget.
           </seg>
-        </u>
-        <u xml:id="i-TGn1skLrcRcCcgHPmqSjcJ" who="unknown" prev="i-HqvLVUpuxvTjfenWb9rMKU" next="i-QZLxaNwACaS2TUhTWPEXbL">
           <seg xml:id="i-7PGUpYv99vR2adorGtfNut">
             Jag vill erinra om att det även av motståndare till förslaget
             uttalats, att det är en matematisk sammanjämkning. Och så som
@@ -1762,8 +1748,6 @@
             skäl till att denna kammare borde antaga detta förslag till sammanjämkning,
             då utskottet nu har funnit en sådan.
           </seg>
-        </u>
-        <u xml:id="i-QZLxaNwACaS2TUhTWPEXbL" who="unknown" prev="i-TGn1skLrcRcCcgHPmqSjcJ" next="i-EAZ5yz6jYk2S7crsLhqabR">
           <seg xml:id="i-VBFDh5rUL2grxsdAi39JwA">
             I själva saken ber jag endast få säga det, att herrarna veta,
             att de vattenfall, det här är frågan om, icke blivit utarrenderade
@@ -1784,7 +1768,7 @@
         <note xml:id="i-VR5EoEy5KETMu7WSJra7B8" type="date">
           22 Lördagen den 22 maj.
         </note>
-        <u xml:id="i-EAZ5yz6jYk2S7crsLhqabR" who="unknown" prev="i-QZLxaNwACaS2TUhTWPEXbL">
+        <u xml:id="i-EAZ5yz6jYk2S7crsLhqabR" who="unknown" prev="i-HqvLVUpuxvTjfenWb9rMKU">
           <seg xml:id="i-9VTgrcANyG8y4eAiPko3DF">
             på nuvarande villkor. Nu är det fråga om att utsträcka upplåtelsetiden
             med en kortare tidsperiod, i syfte naturligtvis att därigenom
@@ -1820,7 +1804,7 @@
         <note xml:id="i-XAob9KjX2AUPxHBNkb9Gq1" type="speaker">
           Herr Läbeck:
         </note>
-        <u xml:id="i-S3kGSs2znhCkQq8DUAz3tB" who="i-JTwhXpmu1eVKQtUbjXVxkV" next="i-Y652bERT9x5Pv9BK19GTNw">
+        <u xml:id="i-S3kGSs2znhCkQq8DUAz3tB" who="i-JTwhXpmu1eVKQtUbjXVxkV" next="i-KVrWTj3Ne3Vs9Fr6TERc44">
           <seg xml:id="i-4uscX4baNb7PWTcH2jxVu9">
             Herr talman, mina herrar! Herr Palmstierna yttrade sig här, som
             om han verkligen levde i den föreställningen, att om nu detta
@@ -1835,8 +1819,6 @@
             övervinna den olust, som nu faktiskt måste behärska dem under
             de vanskliga förhållanden, som nu äro rådande.
           </seg>
-        </u>
-        <u xml:id="i-Y652bERT9x5Pv9BK19GTNw" who="i-JTwhXpmu1eVKQtUbjXVxkV" prev="i-S3kGSs2znhCkQq8DUAz3tB" next="i-TkSbHmZkgS2e2xNYMYX7vR">
           <seg xml:id="i-3EjKUNzLL7dsD2EpzV18Kj">
             Jag tror att det kanske icke är så många av de närvarande, som
             ha klart för sig, vad det egentligen gäller. Det gäller att träffa
@@ -1849,8 +1831,6 @@
             ga”neligt att hindra dem att före processtidens utgång taga vattenfallen
             i bruk?
           </seg>
-        </u>
-        <u xml:id="i-TkSbHmZkgS2e2xNYMYX7vR" who="i-JTwhXpmu1eVKQtUbjXVxkV" prev="i-Y652bERT9x5Pv9BK19GTNw" next="i-KVrWTj3Ne3Vs9Fr6TERc44">
           <seg xml:id="i-FTmkB9d2PYpzfbyQwLzbTS">
             Jag ber att få i likhet med herr vice talmannen förklara, att
           </seg>
@@ -1859,7 +1839,7 @@
         <note xml:id="i-8XLe2xAkxASkzYbEKHbcxT" type="date">
           Lördagen den 22 maj. 23 Nr 89.
         </note>
-        <u xml:id="i-KVrWTj3Ne3Vs9Fr6TERc44" who="i-JTwhXpmu1eVKQtUbjXVxkV" prev="i-TkSbHmZkgS2e2xNYMYX7vR">
+        <u xml:id="i-KVrWTj3Ne3Vs9Fr6TERc44" who="i-JTwhXpmu1eVKQtUbjXVxkV" prev="i-S3kGSs2znhCkQq8DUAz3tB">
           <seg xml:id="i-9nLM3uRbLbkiNSoYoi1pEy">
             det är inte med någon som helst entusiasm, som jag för min del
             Ang. grunder går att biträda sammanjämkningsförslaget. Men jag
@@ -1874,15 +1854,13 @@
         <note xml:id="i-TLqoy8zpCa34BzCpehfjrQ" type="speaker">
           Herr Branting:
         </note>
-        <u xml:id="i-4JjvQGq8aBHvV2kkkzww5H" who="i-VM3kn4h4mTkLoFpEyrhy5t" next="i-XsbVpsZ86g7sM5qyiVEpN8">
+        <u xml:id="i-4JjvQGq8aBHvV2kkkzww5H" who="i-VM3kn4h4mTkLoFpEyrhy5t" next="i-PeJDYbEKsCKt9U6itWBFAN">
           <seg xml:id="i-UXVo1XHyC26474DzuC8SaP">
             Herr Lindman framhöll, att denna sammanjämkning var så förträfflig,
             därför att den var det matematiska mediet med avseende på tiden
             mellan den av första kammaren och den av andra kammaren beslutade.
             Kan man komma till er bättre sammanjämkning? frågade herr Lindman.
           </seg>
-        </u>
-        <u xml:id="i-XsbVpsZ86g7sM5qyiVEpN8" who="i-VM3kn4h4mTkLoFpEyrhy5t" prev="i-4JjvQGq8aBHvV2kkkzww5H" next="i-LwgzMb7pcmxESpSmMkqfA4">
           <seg xml:id="i-NjW1xy7MdN7MRzp9uyNgHU">
             Detta är väl dock ett besynnerligt resonemang. Enligt det skulle
             andra kammaren alltid vara förpliktad att frängå sin ståndpunkt
@@ -1896,8 +1874,6 @@
             bör finna sig i. Då bör man verkligen fråga sig, om detta sätt
             att räkna med det matematiska mediet bör följas av andra kammaren.
           </seg>
-        </u>
-        <u xml:id="i-LwgzMb7pcmxESpSmMkqfA4" who="i-VM3kn4h4mTkLoFpEyrhy5t" prev="i-XsbVpsZ86g7sM5qyiVEpN8" next="i-13gYqZ65sfxPryteqo6dDa">
           <seg xml:id="i-5MbRni7GYbiJnXW9XX3G7S">
             Här framställer ju herr Libeck saken så, som att egentligen blir
             det i alla fall icke någon angelägen önskan hos någon att begagna
@@ -1921,8 +1897,6 @@
             det icke kan vara möjligt för andra kammarsynpunkterna att pressas
             fram så pass mycket, att verklig hänsyn kan tagas till dem.
           </seg>
-        </u>
-        <u xml:id="i-13gYqZ65sfxPryteqo6dDa" who="i-VM3kn4h4mTkLoFpEyrhy5t" prev="i-LwgzMb7pcmxESpSmMkqfA4" next="i-PeJDYbEKsCKt9U6itWBFAN">
           <seg xml:id="i-H6b72T9CMo9WNY6DUQ1aez">
             Jag skall icke vidare lägga mig i den efter min mening onödigt
             häftiga polemik, som herr vice talmannen förde, men nog må jag
@@ -1941,7 +1915,7 @@
         <note xml:id="i-LWsAygXNE5vtijTsehFJD9" type="date">
           24 Lördagen den 22 maj.
         </note>
-        <u xml:id="i-PeJDYbEKsCKt9U6itWBFAN" who="i-VM3kn4h4mTkLoFpEyrhy5t" prev="i-13gYqZ65sfxPryteqo6dDa" next="i-AgsRaWQdzXkBa8HDa4M7qP">
+        <u xml:id="i-PeJDYbEKsCKt9U6itWBFAN" who="i-VM3kn4h4mTkLoFpEyrhy5t" prev="i-4JjvQGq8aBHvV2kkkzww5H">
           <seg xml:id="i-UjZaSvRYQLw6UQsLxSbyY7">
             yrkande om bifall till den sammanjämkning, mot vilken reservationen
             just är avgiven. Här stå herrar Daniel Perssons och Hages reservationer
@@ -1953,8 +1927,6 @@
             långt gående sammanjämkning samt reserverat sig, så skulle de
             fortfarande båda stå kvar på samma linje.
           </seg>
-        </u>
-        <u xml:id="i-AgsRaWQdzXkBa8HDa4M7qP" who="i-VM3kn4h4mTkLoFpEyrhy5t" prev="i-PeJDYbEKsCKt9U6itWBFAN">
           <seg xml:id="i-6wHFBjWhJYcmCMwtHYPXUz">
             Som saken ligger vore det säkert klokt, om andra kammaren ;vidhölle
             sitt beslut och därigenom sade ifrån att, med all hänsyn som bör
@@ -1970,7 +1942,7 @@
         <note xml:id="i-2NjuaTWH5urGMLXANTxrqy" type="speaker">
           Herr Hage:
         </note>
-        <u xml:id="i-LfAryvodtjNTgCfWmhsp4p" who="i-3139LqaoEDPArxpLRyxXT8" next="i-GvVoGfnXY8EmgAFfQpta3B">
+        <u xml:id="i-LfAryvodtjNTgCfWmhsp4p" who="i-3139LqaoEDPArxpLRyxXT8" next="i-DU6oQPnqvxJfKJrdy5DRV2">
           <seg xml:id="i-N16iHuFRpysrXWgFrADFE6">
             Herr talman, mina herrar! För att något närmare belysa herr Daniel
             Perssons ståndpunkt anser jag det vara lämpligt att här upplysa
@@ -1979,8 +1951,6 @@
             dock en upplysning, som ställer herr Daniel Perssons uppträdande
             här i dag i en mycket egendomlig belysning.
           </seg>
-        </u>
-        <u xml:id="i-GvVoGfnXY8EmgAFfQpta3B" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-LfAryvodtjNTgCfWmhsp4p" next="i-Pv6YiaciHkGgADPZrtYwBq">
           <seg xml:id="i-9dn38x1fpn7KKaum8UbNC">
             Eftersom nu vid flere tillfällen antytts, att här finnes en så
             stor auktoritet som står på den linjen, att man skall gå längre
@@ -1994,8 +1964,6 @@
             förordas av en person, som är anställd i vattenkraftindustriens
             tjänst och där är avlönad tjänsteman, såvitt jag vet.
           </seg>
-        </u>
-        <u xml:id="i-Pv6YiaciHkGgADPZrtYwBq" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-GvVoGfnXY8EmgAFfQpta3B" next="i-DU6oQPnqvxJfKJrdy5DRV2">
           <seg xml:id="i-BqyYDxY6zxpn1U7vgbeANG">
             Man har ju gjort det påståendet, att orsaken till att inga utbyggnader
             skett, nästan uteslutande skulle vara dessa osäkra rättsägandeförhållanden
@@ -2013,13 +1981,11 @@
         <note xml:id="i-4EeGDpJAr5DhEM9gZySg24" type="date">
           Lördagen den 22 maj. 25 — Nr 89.
         </note>
-        <u xml:id="i-DU6oQPnqvxJfKJrdy5DRV2" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-Pv6YiaciHkGgADPZrtYwBq" next="i-HzXtE9HK45B5ss72XVaat">
+        <u xml:id="i-DU6oQPnqvxJfKJrdy5DRV2" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-LfAryvodtjNTgCfWmhsp4p" next="i-SuQkQmPoAEe2rp4WpDiF5c">
           <seg xml:id="i-W7n9Xwg9oQDiUzenekxoaW">
             det står omtalat först i tredje rummet. Och som även herr Läi-
             4ng. grunder
           </seg>
-        </u>
-        <u xml:id="i-HzXtE9HK45B5ss72XVaat" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-DU6oQPnqvxJfKJrdy5DRV2" next="i-SuQkQmPoAEe2rp4WpDiF5c">
           <seg xml:id="i-456x68LYpe5Lv29VA9Psqu">
             beck skrivit under detta uttalande, så tycker jag, att detta
             dock för, upplåtelse
@@ -2028,70 +1994,46 @@
         <note xml:id="i-MPXnuF1twjCb5RtfafpG2i">
           äs : 3 : o Vis av kronan till-
         </note>
-        <u xml:id="i-SuQkQmPoAEe2rp4WpDiF5c" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-HzXtE9HK45B5ss72XVaat" next="i-TebuRRG1BGmTjsCvrjeise">
+        <u xml:id="i-SuQkQmPoAEe2rp4WpDiF5c" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-DU6oQPnqvxJfKJrdy5DRV2">
           <seg xml:id="i-AN9Agvs17VDFVNZtxz92eb">
             är en upplysning, som bör giva kammaren åtskilligt att fundera
             riga vatten-
           </seg>
-        </u>
-        <u xml:id="i-TebuRRG1BGmTjsCvrjeise" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-SuQkQmPoAEe2rp4WpDiF5c" next="i-7PMdNMTWvMqEctdWFp5TFK">
           <seg xml:id="i-Kac8D14Yc2JJsfTxBBeUAQ">
             på 1 detta fall. fall m. m. Som jag ser saken, och tror att jag
             har anledning att se den, = (Forts.)
           </seg>
-        </u>
-        <u xml:id="i-7PMdNMTWvMqEctdWFp5TFK" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-TebuRRG1BGmTjsCvrjeise" next="i-L8xdHz2wvYgXS1QDcBvs6k">
           <seg xml:id="i-5qbZZriGdGQJLNjEfNv8wj">
             så finnes här bakom all denna agitation en beräknande politik
           </seg>
-        </u>
-        <u xml:id="i-L8xdHz2wvYgXS1QDcBvs6k" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-7PMdNMTWvMqEctdWFp5TFK" next="i-BgxrYbDSfv5rFV2bHnJuSf">
           <seg xml:id="i-HtD6M1WtFKfHXsH5dnD5fG">
             hos denna väl organiserade vattenkraftsorganisation, som begag-
           </seg>
-        </u>
-        <u xml:id="i-BgxrYbDSfv5rFV2bHnJuSf" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-L8xdHz2wvYgXS1QDcBvs6k" next="i-X4JXZLmxZcafkwBZVQSSK4">
           <seg xml:id="i-SB9g4Z7wjwDJ1cqZtin7tJ">
             nar sig av detta faktum, att år efter år det icke skett några
             ut-
           </seg>
-        </u>
-        <u xml:id="i-X4JXZLmxZcafkwBZVQSSK4" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-BgxrYbDSfv5rFV2bHnJuSf" next="i-Bv9rzGom16qh7AR9nY2PQp">
           <seg xml:id="i-PLhSJfX9AsQ173kg1vMbXg">
             byggnader, och angiver som skäl för detta sådana orsaker som
           </seg>
-        </u>
-        <u xml:id="i-Bv9rzGom16qh7AR9nY2PQp" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-X4JXZLmxZcafkwBZVQSSK4" next="i-EweB7HzcjnZ88iU3P9s9up">
           <seg xml:id="i-YWpBJKCQ5c7Vi7yj7Y82rH">
             kunna ha möjlighet att inverka på kammaren och förmå den
           </seg>
-        </u>
-        <u xml:id="i-EweB7HzcjnZ88iU3P9s9up" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-Bv9rzGom16qh7AR9nY2PQp" next="i-TWV6L3vMxV22Kpma5bqkm4">
           <seg xml:id="i-MPMmjMRNoC5Y4AwnuY6PTe">
             till eftergifter. Syftet med den politiken är, att denna vatten-
           </seg>
-        </u>
-        <u xml:id="i-TWV6L3vMxV22Kpma5bqkm4" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-EweB7HzcjnZ88iU3P9s9up" next="i-UdC7LgbntwRWxsjWakoVFC">
           <seg xml:id="i-Ud4YSzqumaRgtKjo36ip7X">
             kraftsorganisation på det sättet skall undan för undan kunna
           </seg>
-        </u>
-        <u xml:id="i-UdC7LgbntwRWxsjWakoVFC" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-TWV6L3vMxV22Kpma5bqkm4" next="i-RV1yDbf52PLZYZL4tE6UXs">
           <seg xml:id="i-NQXBMNP4Mqepe2CvAXGsy2">
             böja kammaren till det ena medgivandet efter det andra. Med
           </seg>
-        </u>
-        <u xml:id="i-RV1yDbf52PLZYZL4tE6UXs" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-UdC7LgbntwRWxsjWakoVFC" next="i-C82ECxr1fz69pPMwi3kwtK">
           <seg xml:id="i-2jYmeq6knehyaUSPCjSfbZ">
             hänsyn till sådana synpunkter och sådana åskådningar kan jag
           </seg>
-        </u>
-        <u xml:id="i-C82ECxr1fz69pPMwi3kwtK" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-RV1yDbf52PLZYZL4tE6UXs" next="i-CUsNbZFojXu4zR8rsxVhnJ">
           <seg xml:id="i-21wUoGJ72VzBVgq6H855ue">
             för min del icke stå på någon annan ståndpunkt än den, jag förut
           </seg>
-        </u>
-        <u xml:id="i-CUsNbZFojXu4zR8rsxVhnJ" who="i-3139LqaoEDPArxpLRyxXT8" prev="i-C82ECxr1fz69pPMwi3kwtK">
           <seg xml:id="i-NFghRuhMmcmXA2pYmsDte3">
             tillkännagivit. Jag yrkar fortfarande avslag på kompromissen.
           </seg>
@@ -2099,7 +2041,7 @@
         <note xml:id="i-2LqZ5V53rhXkxzRsPpHbL5" type="speaker">
           Herr Palmstierna:
         </note>
-        <u xml:id="i-7Q3w8uER1gL4WyB1A4NyKQ" who="i-PoEnkqgRthqgybjNd47ZwU" next="i-JfmFnKKQ3yZUunRSvE499H">
+        <u xml:id="i-7Q3w8uER1gL4WyB1A4NyKQ" who="i-PoEnkqgRthqgybjNd47ZwU">
           <seg xml:id="i-CKCP98rh3nYiKYPxGW8kyV">
             Ja, herr talman, det föreföll mig som om herr Liäbeck anslog
             en något mästrande ton emot dem, som hade en annan uppfattning
@@ -2112,8 +2054,6 @@
             avgörande. Jag kan med sådana förutsättningar icke betrakta honom
             som den avgörande auktoriteter i dessa frågor.
           </seg>
-        </u>
-        <u xml:id="i-JfmFnKKQ3yZUunRSvE499H" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-7Q3w8uER1gL4WyB1A4NyKQ">
           <seg xml:id="i-NoizdTp1AEhNcxT8EVzQkJ">
             Så skulle jag vilja säga, att herr vice talmannen skall icke
             missförstå mig. Det var verkligen en fullt uppriktig överraskning
@@ -2157,12 +2097,10 @@
         <note xml:id="i-4iGH2RSSMEoPP7w6vJ7qkf">
           Jör upplåtelse av kronan till-
         </note>
-        <u xml:id="i-FkbpkqFhrPBry3qse3Ukri" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-JJcuJRGPXVw3Pyc1KoVdPz" next="i-4XQ4gPegdKteEd3eySt7xu">
+        <u xml:id="i-FkbpkqFhrPBry3qse3Ukri" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-JJcuJRGPXVw3Pyc1KoVdPz" next="i-YNB6RZ3VU8etXaa9bxkpQV">
           <seg xml:id="i-NK11wkDTECLPL2J8PddxpR">
             något längre eller kortare tid? I det avseendet ha nu kam-
           </seg>
-        </u>
-        <u xml:id="i-4XQ4gPegdKteEd3eySt7xu" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-FkbpkqFhrPBry3qse3Ukri" next="i-YNB6RZ3VU8etXaa9bxkpQV">
           <seg xml:id="i-KjfhkQpZpcwKyo7BZX1UwF">
             höriga vatten- TarnDa fattat olika beslut, och vardera kammaren
             har i sammanfall m.m. jämkningsförslaget fått giva med sig precis
@@ -2172,15 +2110,13 @@
         <note xml:id="i-8Moogk7CRLxSHpfFvh97Ag">
           (Forts.)
         </note>
-        <u xml:id="i-YNB6RZ3VU8etXaa9bxkpQV" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-4XQ4gPegdKteEd3eySt7xu" next="i-D2LFbyWZypWzo4rDzxmKyv">
+        <u xml:id="i-YNB6RZ3VU8etXaa9bxkpQV" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-FkbpkqFhrPBry3qse3Ukri">
           <seg xml:id="i-2CBVAqkiSfNnTcYKRwx3b1">
             ligen gäller det endast: skola vi upplåta vattenfallen på 15
             respektive 10 år längre tid än den tid andra kammaren uttalat
             sig för i förrgår? Det kan ju sålunda icke vara tal om att välja
             en helt ny linje.
           </seg>
-        </u>
-        <u xml:id="i-D2LFbyWZypWzo4rDzxmKyv" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-YNB6RZ3VU8etXaa9bxkpQV">
           <seg xml:id="i-SCywjZTffs7mzAwNtTcJye">
             Man måste se saken rent praktiskt, som jag tidigare sagt. När
             man visat olust att utbygga vattenfall i Norrland, att över huvud
@@ -2203,7 +2139,7 @@
         <note xml:id="i-RQ6j3UBtUFHbGptvLeqaY4" type="speaker">
           Herr Hildebrand:
         </note>
-        <u xml:id="i-TRpVQjpR47SepV84i1BEft" who="i-HgrbSDdJGPDB6AgPhLBSHW" next="i-YUfBCKeNoH2XziEfDzCCGy">
+        <u xml:id="i-TRpVQjpR47SepV84i1BEft" who="i-HgrbSDdJGPDB6AgPhLBSHW" next="i-DYNhuMWKsjirz96ZSEUEso">
           <seg xml:id="i-4oxuX5zSugYCo3HiEmjdmG">
             Herr talman! Det har kommit in 1 diskussionen i dag ett par moment
             av övervägande personlig art, som knappast kunna främja ett sakligt
@@ -2215,8 +2151,6 @@
             nästa år skall jag sade han, lägga fram en motion som skall lösa
             frågan!
           </seg>
-        </u>
-        <u xml:id="i-YUfBCKeNoH2XziEfDzCCGy" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-TRpVQjpR47SepV84i1BEft" next="i-DYNhuMWKsjirz96ZSEUEso">
           <seg xml:id="i-Lnjc1kiTxUUMjZJEUu3zXo">
             Det synes mig vara litet egendomligt, att både herr Hage och
             herr Palmstierna så skarpt ha angripit herr Liäbeck. Han är ju
@@ -2238,13 +2172,11 @@
         <note xml:id="i-DSLyHog971cysmnxprJBGG" type="date">
           Lördagen den 22 maj. 27
         </note>
-        <u xml:id="i-DYNhuMWKsjirz96ZSEUEso" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-YUfBCKeNoH2XziEfDzCCGy" next="i-6k1JhQmRXWpk6QwERNsjhL">
+        <u xml:id="i-DYNhuMWKsjirz96ZSEUEso" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-TRpVQjpR47SepV84i1BEft">
           <seg xml:id="i-8MbiHv8dsBkxA5FyUFTS5z">
             mer längst på det sättet. Jag tror, att man här bör se till,
             att doktrinarismen icke får för stor övermakt. | |
           </seg>
-        </u>
-        <u xml:id="i-6k1JhQmRXWpk6QwERNsjhL" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-DYNhuMWKsjirz96ZSEUEso" next="i-DTwesNNFvRrxEdc2zaUuwo">
           <seg xml:id="i-5eyPHALicya6YfyhfK64Nx">
             Det är så, att kronan börjat processa om vattenfall, som äro
             i enskild ägo. De enskilda våga därför icke utbygga vattenfallen,
@@ -2272,14 +2204,10 @@
             kammaren, som gjorde gagn och icke blott medförde ett så negativt
             resultat, att det icke gjorde skada.
           </seg>
-        </u>
-        <u xml:id="i-DTwesNNFvRrxEdc2zaUuwo" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-6k1JhQmRXWpk6QwERNsjhL" next="i-Da6yt2HmjnjZL199U2suNJ">
           <seg xml:id="i-R1t3sMeq7q8CfpvRjM6omR">
             Ja, här måste man icke blott tänka på en del doktriner utan tänka
             på, huru man fortast skall få dessa vattenfall utbyggda.
           </seg>
-        </u>
-        <u xml:id="i-Da6yt2HmjnjZL199U2suNJ" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-DTwesNNFvRrxEdc2zaUuwo" next="i-8ufStJhiRXVqTJ2WfvQwf5">
           <seg xml:id="i-DdeUfApotGYzFwKJXhCrf8">
             Vi hava sett, hur svårt det varit att under kriget få in stenkol
             i landet. Man borde väl ändå känna, att nu måste här någonting
@@ -2294,8 +2222,6 @@
             utbyggas, eller icke. Jag tror, att det vore önskvärt, om doktrinarismen
             icke finge draga majoriteten med sig inom denna kammare.
           </seg>
-        </u>
-        <u xml:id="i-8ufStJhiRXVqTJ2WfvQwf5" who="i-HgrbSDdJGPDB6AgPhLBSHW" prev="i-Da6yt2HmjnjZL199U2suNJ">
           <seg xml:id="i-Au5NQQNFZJs993LE2RyxQC">
             Herr talman, jag ber att få tillstyrka bifall till utskottets
             förslag.
@@ -2329,12 +2255,10 @@
         <note xml:id="i-6WHyExwV6rZrRwWaiAJ9ez">
           28 Lördagen den 2? maj.
         </note>
-        <u xml:id="i-6qhrpNiygFWWeKAc9tbyvZ" who="i-JTwhXpmu1eVKQtUbjXVxkV" prev="i-8Lm4D4rFWjpuBBiVeT4v1i" next="i-55pm9399ZNXJeWU6cA9YHx">
+        <u xml:id="i-6qhrpNiygFWWeKAc9tbyvZ" who="i-JTwhXpmu1eVKQtUbjXVxkV" prev="i-8Lm4D4rFWjpuBBiVeT4v1i">
           <seg xml:id="i-XbaxEPCk1w1aW7WbrkT8W5">
             Det är mig motbjudande att ingå i något svaromål på de
           </seg>
-        </u>
-        <u xml:id="i-55pm9399ZNXJeWU6cA9YHx" who="i-JTwhXpmu1eVKQtUbjXVxkV" prev="i-6qhrpNiygFWWeKAc9tbyvZ" next="i-2q5uepTmEpccZe55zGRqYw">
           <seg xml:id="i-Wvtp6AsWQe3bv4Bf4MTsjj">
             personliga uttalanden, som herr Palmstierna låtit undfalla sig.
             ag har likväl ansett mig böra lämna upplysning därom, att. Svenska
@@ -2342,8 +2266,6 @@
             sammanslutning samt att jag personligen icke har någon som helst
             ekonomisk vinning av mitt arbete i Svenska vatienkraftföreningen.
           </seg>
-        </u>
-        <u xml:id="i-2q5uepTmEpccZe55zGRqYw" who="i-JTwhXpmu1eVKQtUbjXVxkV" prev="i-55pm9399ZNXJeWU6cA9YHx" next="i-Eav5BCSTkcgj3Udc7iF6ov">
           <seg xml:id="i-RtyNHjU8cYgMjNrxnh9FYF">
             För mig personligen är det således ekonomiskt sett fullkomligt
             likgiltigt, om de norrländska vattenfallen i tio år till ligga
@@ -2351,8 +2273,6 @@
             vara med statens intressen förenligt, skall jag be herr Palmstierna
             svara på. Jag vill icke göra det.
           </seg>
-        </u>
-        <u xml:id="i-Eav5BCSTkcgj3Udc7iF6ov" who="i-JTwhXpmu1eVKQtUbjXVxkV" prev="i-2q5uepTmEpccZe55zGRqYw" next="i-3qccpDg76ZAKithCed2qgs">
           <seg xml:id="i-5kD3eWEf1HnuCtmxa5K8rG">
             Jag vill upplysa om ett förhållande, som kanske kan vara av vikt
             för dem, som icke närmare satt sig in i denna fråga, och det är,
@@ -2367,14 +2287,10 @@
             med dessa enskilda vattenfall, som nu kunna utan dessa upplåtelsegrunder
             utbyggas med full äganderätt, men ändå icke tagas i anspråk.
           </seg>
-        </u>
-        <u xml:id="i-3qccpDg76ZAKithCed2qgs" who="i-JTwhXpmu1eVKQtUbjXVxkV" prev="i-Eav5BCSTkcgj3Udc7iF6ov" next="i-Ya4PCKmJwQ8gYvTo6B7iG8">
           <seg xml:id="i-GUyPEKmzRnCzPMDY2AaqMW">
             Herr Branting yttrade, att nu påginge kriget och att jag på den
             grund kanske finge rätt däri, att det icke blev så myc-
           </seg>
-        </u>
-        <u xml:id="i-Ya4PCKmJwQ8gYvTo6B7iG8" who="i-JTwhXpmu1eVKQtUbjXVxkV" prev="i-3qccpDg76ZAKithCed2qgs">
           <seg xml:id="i-45kWVvN2NKdyLCvtNs2DD6">
             et gjort. Jag ber då att få erinra herr Branting om, att vi efter
             kriget komma att hava stor penningknapphet, att denna förordning
@@ -2391,7 +2307,7 @@
         <note xml:id="i-DZ8Nzv52xMoBBsWwhYQ31v" type="speaker">
           Herr Palmstierna:
         </note>
-        <u xml:id="i-BiPpA6VEpVUh7mDS3WZWG6" who="i-PoEnkqgRthqgybjNd47ZwU" next="i-QqxFeka12XTCuTds1apJqK">
+        <u xml:id="i-BiPpA6VEpVUh7mDS3WZWG6" who="i-PoEnkqgRthqgybjNd47ZwU" next="i-Eq57xyVq5KcD5tkRt5i7nZ">
           <seg xml:id="i-ByHVp2LVamv9BEKhDqZRPL">
             Min erinran till herr Liäbeck framkallades därav, att han icke
             ansåg sig böra uteslutande med sakskäl möta mina erinringar utan
@@ -2404,8 +2320,6 @@
             bortresonera, och när så är förhållandet, får man värdesätta hans
             omdöme i denna fråga .
           </seg>
-        </u>
-        <u xml:id="i-QqxFeka12XTCuTds1apJqK" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-BiPpA6VEpVUh7mDS3WZWG6" next="i-Eq57xyVq5KcD5tkRt5i7nZ">
           <seg xml:id="i-UqdymJbeyoKQZpdeNXMzNz">
             ärefter.
           </seg>
@@ -2426,7 +2340,7 @@
           bestämda uppfattning att man därmed gjort allt, vad produktionen
           kan begära för att komma igång.
         </note>
-        <u xml:id="i-Eq57xyVq5KcD5tkRt5i7nZ" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-QqxFeka12XTCuTds1apJqK" next="i-DhU22G8GnYJU6TdBvc4C3o">
+        <u xml:id="i-Eq57xyVq5KcD5tkRt5i7nZ" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-BiPpA6VEpVUh7mDS3WZWG6">
           <seg xml:id="i-97n98Mg2FSm7aqEj45bs5x">
             Det är andra hänsyn, som, så vitt jag kan förstå, måste här inträda,
             nämligen att man alltid mycket gärna ser, att vattenfallen upplåtas
@@ -2436,8 +2350,6 @@
             det är icke min åsikt. Det måste finnas någon gräns, och här anser
             jag, att den lämpliga gränsen är uppdragen.
           </seg>
-        </u>
-        <u xml:id="i-DhU22G8GnYJU6TdBvc4C3o" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-Eq57xyVq5KcD5tkRt5i7nZ">
           <seg xml:id="i-PaNaZVrM4WxZoNjKNRDjEv">
             Jag tror att det skall vara ganska svårt att påvisa, att det
             finnes något land, där man går så långt, som vi sträckt oss till,
@@ -2447,15 +2359,13 @@
         <note xml:id="i-H82FvDUq4MJfJQEModocED" type="speaker">
           Herr Branting:
         </note>
-        <u xml:id="i-FkGJ65siMijT6HmAm7Wgzz" who="i-VM3kn4h4mTkLoFpEyrhy5t" next="i-WsnYTKpqzEXBUtM57TJDnj">
+        <u xml:id="i-FkGJ65siMijT6HmAm7Wgzz" who="i-VM3kn4h4mTkLoFpEyrhy5t" next="i-91yrMV1b1S8AGDN8iFRvQw">
           <seg xml:id="i-VZ4k2523uMmaKMbA5iHWWy">
             Herr civilministern framhöll, att det icke skulle vara någon
             principiell skillnad mellan åren och han gjorde allt för att bagatellisera
             den skillnad, som består mellar. vad andra kammaren uttalat sig
             för och det förslag till sammanjämkning, som nu föreligger.
           </seg>
-        </u>
-        <u xml:id="i-WsnYTKpqzEXBUtM57TJDnj" who="i-VM3kn4h4mTkLoFpEyrhy5t" prev="i-FkGJ65siMijT6HmAm7Wgzz" next="i-6BMrE1HgxM9Y8q1Dypxk5o">
           <seg xml:id="i-MAQWfkgNk7zzHDzaooDPwL">
             Det är sant, att det endast gäller ett visst antal år, men dessa
             10 å 15 år äro icke en så obetydlig del av den generations livstid,
@@ -2465,8 +2375,6 @@
             ifrån sig sin rätt, naturligtvis i bästa välmening, men i alla
             fall med ett ringa tillvaratagande av det allmännas intresse.
           </seg>
-        </u>
-        <u xml:id="i-6BMrE1HgxM9Y8q1Dypxk5o" who="i-VM3kn4h4mTkLoFpEyrhy5t" prev="i-WsnYTKpqzEXBUtM57TJDnj" next="i-5KwDA1z8XJgABf1DutbunG">
           <seg xml:id="i-KdxtxqAu4a2oJmZTpUpUub">
             Hela vår historia om hur statens naturtillgångar bortslarvals
             är så pass varnande, att det förefaller mig, att redan detta skulle
@@ -2474,8 +2382,6 @@
             icke med öppna ögon fortsätta på den vägen, även om man på sina
             håll lockar med att det icke blir så farligt.
           </seg>
-        </u>
-        <u xml:id="i-5KwDA1z8XJgABf1DutbunG" who="i-VM3kn4h4mTkLoFpEyrhy5t" prev="i-6BMrE1HgxM9Y8q1Dypxk5o" next="i-91yrMV1b1S8AGDN8iFRvQw">
           <seg xml:id="i-6jxWZoqgsB5x1zJrz6qBM3">
             Herr Hildebrand medgav själv riktigheten av vad jag tillät mig
             framhålla, att nämligen det icke finns någon sannolikhet för,
@@ -2497,7 +2403,7 @@
           Ang. grunder Jör upplåtelse av kronan tillhöriga vattenfall m.
           m. (Forts.)
         </note>
-        <u xml:id="i-91yrMV1b1S8AGDN8iFRvQw" who="i-VM3kn4h4mTkLoFpEyrhy5t" prev="i-5KwDA1z8XJgABf1DutbunG" next="i-9CNCoz2eeRP48SGBsuCqvu">
+        <u xml:id="i-91yrMV1b1S8AGDN8iFRvQw" who="i-VM3kn4h4mTkLoFpEyrhy5t" prev="i-FkGJ65siMijT6HmAm7Wgzz">
           <seg xml:id="i-DbJU4DBsNEx9h1qZ15A3kH">
             lyckats visa och fått herr Hildebrand med sig på att det icke
             rimligen kan praktiskt sett göra någon skada, att man uppskjuter
@@ -2509,8 +2415,6 @@
             står på sig och icke låter pressa sig så långt som helst i denna
             sammanjämkning.
           </seg>
-        </u>
-        <u xml:id="i-9CNCoz2eeRP48SGBsuCqvu" who="i-VM3kn4h4mTkLoFpEyrhy5t" prev="i-91yrMV1b1S8AGDN8iFRvQw">
           <seg xml:id="i-8M7Upr5UUgX4H6e96612cY">
             Slutligen skall jag be att om herr Libecks spekulationer i blivande
             regeringar få anmärka, att med sådant tager jag för min del ingen
@@ -2521,7 +2425,7 @@
         <note xml:id="i-8oA8e7Zmbqu2M5oKvZr2H" type="speaker">
           Herr Lindman:
         </note>
-        <u xml:id="i-A8vcvCyYGQTJXTqXKT8DNM" who="i-Fnu186BGHvvTJDuB7t6zMb" next="i-MNz4CQW5Z9EpGdT2ZRVEBj">
+        <u xml:id="i-A8vcvCyYGQTJXTqXKT8DNM" who="i-Fnu186BGHvvTJDuB7t6zMb">
           <seg xml:id="i-9rsvGTRW8vwME8ZDhvQbe1">
             Med det resonemang, som herr Palmstierna för, skulle icke några
             andra vara sakkunniga än yrkespolitici. En lantman skulle icke
@@ -2533,8 +2437,6 @@
             något. Det kunna vi bava såsom behållning av herr Palmstiernas
             yttrande i denna debatt.
           </seg>
-        </u>
-        <u xml:id="i-MNz4CQW5Z9EpGdT2ZRVEBj" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-A8vcvCyYGQTJXTqXKT8DNM">
           <seg xml:id="i-LFiWXkFNsuDBevrzsVxxGb">
             Nu ligge. saken så, att herr Palmstierna tydligen finner, att
             efter hans uppfattning sammanjämkningsförslaget har utsikt att
@@ -2577,7 +2479,7 @@
         <note xml:id="i-FZtwAviSkziN6yrFgoHVsS" type="date">
           Lördagen den 22 maj. 31 Nr 89.
         </note>
-        <u xml:id="i-4koHNSGLykN7Gf1uF3GWhz" who="i-5hYyedyScwSwawm74j5rdZ" prev="i-DCEZXEypYurnojDvQN9Uxq" next="i-FgEBw7Z7QeMvGYm1uhJ8kC">
+        <u xml:id="i-4koHNSGLykN7Gf1uF3GWhz" who="i-5hYyedyScwSwawm74j5rdZ" prev="i-DCEZXEypYurnojDvQN9Uxq">
           <seg xml:id="i-6ECi8SPPDLUaJAFB6XqEqa">
             gjort förut många gånger. Jag vill erkänna, att jag tycker, 4ng.
             grunder att det är att använda ett bra olämpligt uttryck. Om det
@@ -2594,8 +2496,6 @@
             och låta hela frågan falla, blott därför att det har uppstått
             tvist om det antal år, som borde bestämmas.
           </seg>
-        </u>
-        <u xml:id="i-FgEBw7Z7QeMvGYm1uhJ8kC" who="i-5hYyedyScwSwawm74j5rdZ" prev="i-4koHNSGLykN7Gf1uF3GWhz">
           <seg xml:id="i-NMfptyyYGa5M97Vzeh7Zyc">
             Jag ber att få yrka bifall till herr vice talmannens yrkande.
           </seg>
@@ -2618,7 +2518,7 @@
         <note xml:id="i-3MrpHMjV5VRLk31Gj2E5S3" type="speaker">
           Herr Zetterstrand:
         </note>
-        <u xml:id="i-C7z7hz1Ckb4myYchwXJH3U" who="i-7PPDYGig7k4bxzbKBQKEXq" next="i-XhXAhj2TzsRLSuGyar43u9">
+        <u xml:id="i-C7z7hz1Ckb4myYchwXJH3U" who="i-7PPDYGig7k4bxzbKBQKEXq">
           <seg xml:id="i-DpmabCjhweWVkp523CnA4K">
             Jag är visserligen icke sakkunnig på detta område, men jag tror
             också, att jag kan säga, att jag icke heller är någon yrkespolitiker.
@@ -2640,8 +2540,6 @@
             och det skulle även komma att bereda arbetstillfällen i ganska
             stor utsträckning.
           </seg>
-        </u>
-        <u xml:id="i-XhXAhj2TzsRLSuGyar43u9" who="i-7PPDYGig7k4bxzbKBQKEXq" prev="i-C7z7hz1Ckb4myYchwXJH3U">
           <seg xml:id="i-HQCL9bn1zGvV7eEx9c42fm">
             På dessa grunder och frånsett all politik ber jag, herr talman,
             att få yrka bifall till sammanjämkningsförslaget.
@@ -2654,36 +2552,26 @@
         <note xml:id="i-BZ5TNUVJ2cixqSqHKM233B" type="speaker">
           Ang. grunder Herr Palmstierna:
         </note>
-        <u xml:id="i-U4iLFzcLHSHhzpCDT6s9vt" who="i-PoEnkqgRthqgybjNd47ZwU" next="i-KszKoRf73Z9e84GXfdWrbj">
+        <u xml:id="i-U4iLFzcLHSHhzpCDT6s9vt" who="i-PoEnkqgRthqgybjNd47ZwU">
           <seg xml:id="i-MDxNujnxcuMMknB8YVTnPn">
             Jag vill till herr Lindman säga,
           </seg>
-        </u>
-        <u xml:id="i-KszKoRf73Z9e84GXfdWrbj" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-U4iLFzcLHSHhzpCDT6s9vt" next="i-82khvDyhwTnKjM1qnk6RKE">
           <seg xml:id="i-2ezw3rc2D3BNvKt4eLu85c">
             för, upplåtelse att han varken bör eller har rätt att lägga in
             i mina ord något,
           </seg>
-        </u>
-        <u xml:id="i-82khvDyhwTnKjM1qnk6RKE" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-KszKoRf73Z9e84GXfdWrbj" next="i-FvtNWxHRdUbPptgrDjcWZY">
           <seg xml:id="i-VBjSHhzoWGaMGurCyV3Y5q">
             höriga vatten- SOM jag icke avsett, och han kunde besparat sig
             själv sådana om-
           </seg>
-        </u>
-        <u xml:id="i-FvtNWxHRdUbPptgrDjcWZY" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-82khvDyhwTnKjM1qnk6RKE" next="i-Lg538FDncaiYyBVVZYf8RM">
           <seg xml:id="i-RnrwTMfLcKQSF6FxKdh2Ln">
             fall m. m. dömen och tarvligheter, som han uttalat här. Men jag
             tillåter mig
           </seg>
-        </u>
-        <u xml:id="i-Lg538FDncaiYyBVVZYf8RM" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-FvtNWxHRdUbPptgrDjcWZY" next="i-3H5fw1UA1K1ZVA2Y9ox6FY">
           <seg xml:id="i-8N1n3zc31FGbgsknse4u4P">
             (Forts.) säga till kammaren något, som jag tror, att tiden kräver,
             att det blir sagt.
           </seg>
-        </u>
-        <u xml:id="i-3H5fw1UA1K1ZVA2Y9ox6FY" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-Lg538FDncaiYyBVVZYf8RM">
           <seg xml:id="i-4HndAhGp6RuvB8cSg8fUZC">
             Det växer upp inom det svenska samhället intresseorganisation
             på iniresseorganisation, och, som herr Läbeck nyss anförde, hans
@@ -2704,7 +2592,7 @@
         <note xml:id="i-NQraDkppLafwqjWM8a6zxe" type="speaker">
           Herr Adelswärd:
         </note>
-        <u xml:id="i-J6yBsP5sr4zuko3p5XSVDp" who="i-KSYmHt2CfUPZ7TEuPagciq" next="i-C7P9QzJ36vCGgn6sd3DbsV">
+        <u xml:id="i-J6yBsP5sr4zuko3p5XSVDp" who="i-KSYmHt2CfUPZ7TEuPagciq" next="i-2Np7dW4mCW6nmGcd8hddeX">
           <seg xml:id="i-74teEK1HwBmFuEQPnpaZDJ">
             En ärad talare har nyss sagt, att han hört den åsikten uttalas,
             att man skulle kunna gå så långt, att man rent av skänkte bort
@@ -2721,8 +2609,6 @@
             man giver fördelaktigare villkor, så att utsikterna att få fallen
             snabbare utbyggda bliva större.
           </seg>
-        </u>
-        <u xml:id="i-C7P9QzJ36vCGgn6sd3DbsV" who="i-KSYmHt2CfUPZ7TEuPagciq" prev="i-J6yBsP5sr4zuko3p5XSVDp" next="i-22JT1RfPR4xbWJwvn8HAPj">
           <seg xml:id="i-FiUDshcWbtMUAh5XHBNh2c">
             Jag vill göra en jämförelse. Det har ofta förekommit, att riksdagen
             beviljat subvention till enskilda företag, t. ex. ångbåtslinjer.
@@ -2734,8 +2620,6 @@
             kan icke gå till på annat sätt, än att man bereder fördelaktigare
             villkor för att få vattenfallen utbyggda.
           </seg>
-        </u>
-        <u xml:id="i-22JT1RfPR4xbWJwvn8HAPj" who="i-KSYmHt2CfUPZ7TEuPagciq" prev="i-C7P9QzJ36vCGgn6sd3DbsV" next="i-2Np7dW4mCW6nmGcd8hddeX">
           <seg xml:id="i-QGjz6WyRmAv2Z7DhWCu8Ep">
             Jag fäste mig i likhet med en annan talare vid ett uttryck i
             debatten för en liten stund sedan. Det var, att det är synnerligen
@@ -2747,37 +2631,27 @@
         <note xml:id="i-PhqDRaHXbFEiKRDbxD7saY" type="date">
           Lördagen den 22 maj. 33 Nr 89.
         </note>
-        <u xml:id="i-2Np7dW4mCW6nmGcd8hddeX" who="i-KSYmHt2CfUPZ7TEuPagciq" prev="i-22JT1RfPR4xbWJwvn8HAPj" next="i-GjceE854wYr6wNQgtDXmGM">
+        <u xml:id="i-2Np7dW4mCW6nmGcd8hddeX" who="i-KSYmHt2CfUPZ7TEuPagciq" prev="i-J6yBsP5sr4zuko3p5XSVDp">
           <seg xml:id="i-TV9eQUcnNXHj2oxiXY6c85">
             har varit förhållandet, och detta är högst beklagligt. Men jag
             Ang. grunder
           </seg>
-        </u>
-        <u xml:id="i-GjceE854wYr6wNQgtDXmGM" who="i-KSYmHt2CfUPZ7TEuPagciq" prev="i-2Np7dW4mCW6nmGcd8hddeX" next="i-2KEXXwXEj6ETcu9R7UXz3e">
           <seg xml:id="i-JJCUEVcgoeRiCC4AerD45F">
             ser saken så, att man kan ifrågasätta, huruvida man icke ånyo
             för upplåtelse
           </seg>
-        </u>
-        <u xml:id="i-2KEXXwXEj6ETcu9R7UXz3e" who="i-KSYmHt2CfUPZ7TEuPagciq" prev="i-GjceE854wYr6wNQgtDXmGM" next="i-9oUXRG1WoucjUgrMQ9QEbF">
           <seg xml:id="i-F9hKkZ1wvMVkNnUD2jYCR7">
             bortslarvar en naturtillgång, därest man icke underlättar villhöriga
             vatten-
           </seg>
-        </u>
-        <u xml:id="i-9oUXRG1WoucjUgrMQ9QEbF" who="i-KSYmHt2CfUPZ7TEuPagciq" prev="i-2KEXXwXEj6ETcu9R7UXz3e" next="i-4PZwjVV51yBAcvV73HU2hg">
           <seg xml:id="i-Lak88cbGkf9f8qtTT2UmR8">
             koren för att få den stora naturtillgång, som ligger i vattenfall
             m. m.
           </seg>
-        </u>
-        <u xml:id="i-4PZwjVV51yBAcvV73HU2hg" who="i-KSYmHt2CfUPZ7TEuPagciq" prev="i-9oUXRG1WoucjUgrMQ9QEbF" next="i-3GaRk6FSCjggwKg84zdeQz">
           <seg xml:id="i-YS3YbRXz58AaCM36ApqiYg">
             fallen, utnyttjad. (Forts.) Av denna anledning, herr talman,
             ber jag att få förorda
           </seg>
-        </u>
-        <u xml:id="i-3GaRk6FSCjggwKg84zdeQz" who="i-KSYmHt2CfUPZ7TEuPagciq" prev="i-4PZwjVV51yBAcvV73HU2hg">
           <seg xml:id="i-3qrauwFeJpU3fhbRU7q9qw">
             bifall till det av utskottet framlagda sammanjämkningsförslaget.
           </seg>
@@ -2968,7 +2842,7 @@
         <note xml:id="i-Wb7QdPnNgd7te39jqzeqeU" type="speaker">
           Chefen för justitiedepartementet, herr statsrådet Hasselrot:
         </note>
-        <u xml:id="i-5CHQM4XPPopbhkii4noDAp" who="i-Bfy54QTrq7uXd38Kx2mLGE" next="i-KDGmjkATHX44Lg2bTeo6Ux">
+        <u xml:id="i-5CHQM4XPPopbhkii4noDAp" who="i-Bfy54QTrq7uXd38Kx2mLGE" next="i-Fq14XheEcn7iviLvwaQRLx">
           <seg xml:id="i-5c7UsSCbHE8bxBYk599JDh">
             Herr talman, mina herrar! Att det för vår industri och därmed
             också för hela vårt land skulle vara till synnerlig fördel, om
@@ -2976,8 +2850,6 @@
             uppklarade, är uppenbart. Genom detta förslag har regeringen trott
             sig främja detta syfte, och detta utan förfång för annans rätt.
           </seg>
-        </u>
-        <u xml:id="i-KDGmjkATHX44Lg2bTeo6Ux" who="i-Bfy54QTrq7uXd38Kx2mLGE" prev="i-5CHQM4XPPopbhkii4noDAp" next="i-Sbx9i3wSXCvMiKmmYqfuWU">
           <seg xml:id="i-LC9qsGw3umLJWX8gZn3EE7">
             I förslaget har rätt till provokatorisk talan eller fastställelseprocess
             medgivits emellan dels strandägarne och skiftesdelägare och dels
@@ -2995,8 +2867,6 @@
             avseende, varigenom utredningens planmässiga gång skulle kunna
             på ett synnerligen obekvämt sätt störas».
           </seg>
-        </u>
-        <u xml:id="i-Sbx9i3wSXCvMiKmmYqfuWU" who="i-Bfy54QTrq7uXd38Kx2mLGE" prev="i-KDGmjkATHX44Lg2bTeo6Ux" next="i-WJoGK9uEvQ139kbJn5ZkRY">
           <seg xml:id="i-5hMw2AySg4ocTwPkv46uz1">
             ärpå vill jag svara, att, så vitt jag förstår, de här uttalade
             farhågorna äro ogrundade med hänsyn dels till de utmärkt goda
@@ -3005,8 +2875,6 @@
             I sistnämnda avseende skall jag be, i hopp om att det intresserar
             kammaren, få lämna följande meddelande:
           </seg>
-        </u>
-        <u xml:id="i-WJoGK9uEvQ139kbJn5ZkRY" who="i-Bfy54QTrq7uXd38Kx2mLGE" prev="i-Sbx9i3wSXCvMiKmmYqfuWU" next="i-Fq14XheEcn7iviLvwaQRLx">
           <seg xml:id="i-9JRzGHj86Rc7pdP25eq47Y">
             »Enligt erhållna upplysningar har undersökningen om kro-
           </seg>
@@ -3022,7 +2890,7 @@
         <note xml:id="i-MmHyYyCZNzAfKS45EiuZ3D" type="date">
           36 Lördagen den 22 maj.
         </note>
-        <u xml:id="i-Fq14XheEcn7iviLvwaQRLx" who="i-Bfy54QTrq7uXd38Kx2mLGE" prev="i-WJoGK9uEvQ139kbJn5ZkRY" next="i-CwAnHRJXJSmZAgunVxAauw">
+        <u xml:id="i-Fq14XheEcn7iviLvwaQRLx" who="i-Bfy54QTrq7uXd38Kx2mLGE" prev="i-5CHQM4XPPopbhkii4noDAp">
           <seg xml:id="i-VHUQKPYmb5JQKVBTskR54r">
             nans rätt till vattenfall numera slutförts beträffande alla strömfall
             i Norrbottens län med undantag av de fall, som finnas i gränsfloderna
@@ -3041,8 +2909,6 @@
             avslutad. Vissa särskilda undersökningar hava därjämte verkställts
             beträffande fallen i Motala ström.
           </seg>
-        </u>
-        <u xml:id="i-CwAnHRJXJSmZAgunVxAauw" who="i-Bfy54QTrq7uXd38Kx2mLGE" prev="i-Fq14XheEcn7iviLvwaQRLx">
           <seg xml:id="i-4EcPpcPC498Fm2rLnpuWQc">
             Rättegång har å kronans vägnar anhängiggjorts beträffande ett
             trettiotal strömfall. Av dessa rättegångar har en avgjorts av
@@ -3099,7 +2965,7 @@
         <note xml:id="i-BaN2LFcUSQfxLbaiHeM8Wp" type="speaker">
           Herr Pettersson i Södertälje:
         </note>
-        <u xml:id="i-F5Hhv1sE6rqmWQEaoePmsC" who="i-SKeNWqaodDskJWp4b2SKPZ" next="i-UkxtkLz9zGxVutPZhpdK7E">
+        <u xml:id="i-F5Hhv1sE6rqmWQEaoePmsC" who="i-SKeNWqaodDskJWp4b2SKPZ" next="i-7AJmB7cWCEJ9A73bG3Vq74">
           <seg xml:id="i-Ey86vRaRHyjAS41pgWhF4z">
             Herr talman! Såsom kam- = (Forts) maren behagade finna av lagutskottets
             utlåtande, är det förslag, som föreligger till kammarens behandling,
@@ -3137,8 +3003,6 @@
             ena av dessa två motsatta meningar, vilka dock torde kunna försvaras
             båda två. Detta vad beträffar äganderätten enskildiau emellan.
           </seg>
-        </u>
-        <u xml:id="i-UkxtkLz9zGxVutPZhpdK7E" who="i-SKeNWqaodDskJWp4b2SKPZ" prev="i-F5Hhv1sE6rqmWQEaoePmsC" next="i-7AJmB7cWCEJ9A73bG3Vq74">
           <seg xml:id="i-Semw6nhhPpuay6CdSWGpw4">
             Vad beträffar frågan, huruvida äganderätten till vissa fall tillkommer
             kronan eller enskilda, är den saken icke heller på långt när klar.
@@ -3162,13 +3026,11 @@
         <note xml:id="i-21xJ69fpacmKcnTRrmbXsR">
           till lag om talan i viss ordning an-
         </note>
-        <u xml:id="i-7AJmB7cWCEJ9A73bG3Vq74" who="i-SKeNWqaodDskJWp4b2SKPZ" prev="i-UkxtkLz9zGxVutPZhpdK7E" next="i-KK9oCc2q749parvgxkeWxn">
+        <u xml:id="i-7AJmB7cWCEJ9A73bG3Vq74" who="i-SKeNWqaodDskJWp4b2SKPZ" prev="i-F5Hhv1sE6rqmWQEaoePmsC" next="i-HT57o7pASvGM7T7GR3oMTW">
           <seg xml:id="i-GYKMupKY2kMSPRKwgkmDQH">
             vederbörliegn utreda och styrka sin äganderätt. Nu lämnade visserligen
             herr justitieministern i det anföran-
           </seg>
-        </u>
-        <u xml:id="i-KK9oCc2q749parvgxkeWxn" who="i-SKeNWqaodDskJWp4b2SKPZ" prev="i-7AJmB7cWCEJ9A73bG3Vq74" next="i-HT57o7pASvGM7T7GR3oMTW">
           <seg xml:id="i-HhJqbbUXf14kKB3NxV34bt">
             gående rätt till de, han nyss höll, en ganska omfattande redogörelse
             för, huru det
@@ -3177,7 +3039,7 @@
         <note xml:id="i-6Nic8TQdJpr9ARBwbryD3w">
           ström fall. (Forts.)
         </note>
-        <u xml:id="i-HT57o7pASvGM7T7GR3oMTW" who="i-SKeNWqaodDskJWp4b2SKPZ" prev="i-KK9oCc2q749parvgxkeWxn" next="i-LEzhTcBmLPmyYN9kJT7skq">
+        <u xml:id="i-HT57o7pASvGM7T7GR3oMTW" who="i-SKeNWqaodDskJWp4b2SKPZ" prev="i-7AJmB7cWCEJ9A73bG3Vq74">
           <seg xml:id="i-MUiyJWZyFbnWYQpzHWCW6A">
             skulle stå till med frågan om kronans äganderätt till strömfall.
             I avseende å vad herr statsrådet sålunda anförde, får jag för
@@ -3189,8 +3051,6 @@
             Utskottet har sålunda icke varit i tillfälle att bedöma, vilken
             vikt man kan tillmäta densamma.
           </seg>
-        </u>
-        <u xml:id="i-LEzhTcBmLPmyYN9kJT7skq" who="i-SKeNWqaodDskJWp4b2SKPZ" prev="i-HT57o7pASvGM7T7GR3oMTW" next="i-LHKJSWMJtn19ARyhoQaiS5">
           <seg xml:id="i-CSv8eJJsAi2Q2XoYhKdBUZ">
             Slutligen må erinras, att det icke saknas möjlighet att redan
             nu få anställa sådan provokatorisk rättegång, som förslaget avser.
@@ -3200,8 +3060,6 @@
             skäl, som tala för att icke nu antaga en sådan lagstiftning, till
             vilken riksdagen nu inbjudes.
           </seg>
-        </u>
-        <u xml:id="i-LHKJSWMJtn19ARyhoQaiS5" who="i-SKeNWqaodDskJWp4b2SKPZ" prev="i-LEzhTcBmLPmyYN9kJT7skq">
           <seg xml:id="i-SJpsraZ1cxVu6owctt1BWw">
             Jag ber, herr talman, att få yrka bifall till utskottets förslag.
           </seg>
@@ -3243,7 +3101,7 @@
         <note xml:id="i-53LC1gHrTWNtTfqmUEong5" type="date">
           Lördagen den 22 maj. 39 Nr 89.
         </note>
-        <u xml:id="i-KoZvJfhiebQtFSYbZmuh8j" who="unknown" prev="i-Ki4oVdETofgzHF64PrvdtG" next="i-7QkpfN53wCq2LwQ1Ub5Yoc">
+        <u xml:id="i-KoZvJfhiebQtFSYbZmuh8j" who="unknown" prev="i-Ki4oVdETofgzHF64PrvdtG">
           <seg xml:id="i-4DDh6uQhihhYVMny3jrLdB">
             tet syftar på — en viss planmässighet åstadkommits, i det att
             Ang. förslag kronan processar om en del s. k. typfall och sedan
@@ -3254,89 +3112,57 @@
             därav, kommer man till följande resultat. Om en person, = (Forts.)
             som äger ett vattenfall, beroende på utgången av en typfallspro-
           </seg>
-        </u>
-        <u xml:id="i-7QkpfN53wCq2LwQ1Ub5Yoc" who="unknown" prev="i-KoZvJfhiebQtFSYbZmuh8j" next="i-6GiC7CL7qncFo2mgGDDbLJ">
           <seg xml:id="i-3EVqE3Ufgii4FRzkFi7esm">
             cess, vänder sig till vederbörande myndighet och anhåller, att
           </seg>
-        </u>
-        <u xml:id="i-6GiC7CL7qncFo2mgGDDbLJ" who="unknown" prev="i-7QkpfN53wCq2LwQ1Ub5Yoc" next="i-B6qr7kL6rfd2aVEVdXreER">
           <seg xml:id="i-XRbubRw9gAsf1Yw9pTpreh">
             kronan måtte processa med honom för att rättsfrågan skall bli
             klargjord, då har det inträffat, att vederbörande myndighet svarat
           </seg>
-        </u>
-        <u xml:id="i-B6qr7kL6rfd2aVEVdXreER" who="unknown" prev="i-6GiC7CL7qncFo2mgGDDbLJ" next="i-46jnHErb5cP5FU9DdWEwHU">
           <seg xml:id="i-XNVCMmtANVR33R71ydPiH9">
             ungefär så: »Nej, vi intressera oss icke för att processa om
             detta
           </seg>
-        </u>
-        <u xml:id="i-46jnHErb5cP5FU9DdWEwHU" who="unknown" prev="i-B6qr7kL6rfd2aVEVdXreER" next="i-AcLeoCNNWK7mJM1DqABZLM">
           <seg xml:id="i-S3ucSHf76oQ8A3x4uep4Px">
             nu. Det får ligga och vänta, tills typfallet är avgjort.» Och
             när vederbörande vattenfallsägare insisterar, för att få klargjort
           </seg>
-        </u>
-        <u xml:id="i-AcLeoCNNWK7mJM1DqABZLM" who="unknown" prev="i-46jnHErb5cP5FU9DdWEwHU" next="i-F7UQTGSGLMiCCLa37jSRdG">
           <seg xml:id="i-BPy8uSCeDYnLnwFbEcygJh">
             om han har någon rätt eller icke, då får han det svaret, att
             han i
           </seg>
-        </u>
-        <u xml:id="i-F7UQTGSGLMiCCLa37jSRdG" who="unknown" prev="i-AcLeoCNNWK7mJM1DqABZLM" next="i-VwHH7aCZruL6MJxQMThsxB">
           <seg xml:id="i-TJeqBzucbTn8mfv9iFNE1s">
             så fall måste på förhand förbinda sig att betala sina rättegångskostnader,
             även om kronan skulle förlora processen. I ett annat
           </seg>
-        </u>
-        <u xml:id="i-VwHH7aCZruL6MJxQMThsxB" who="unknown" prev="i-F7UQTGSGLMiCCLa37jSRdG" next="i-Le3DeyvXJvAWWBFakUJu9Z">
           <seg xml:id="i-XstJegBScHfBcNYPpWRwig">
             fall har det inträffat — det gällde Hissmoforsen i Jämtlands
           </seg>
-        </u>
-        <u xml:id="i-Le3DeyvXJvAWWBFakUJu9Z" who="unknown" prev="i-VwHH7aCZruL6MJxQMThsxB" next="i-BUHLP2ApaSF9DayEhTzSWh">
           <seg xml:id="i-LV2Ph1X2w1QqaE9HZJ3vsi">
             län —- att sedan kronan förlorat processen i häradsrätten, kro-
           </seg>
-        </u>
-        <u xml:id="i-BUHLP2ApaSF9DayEhTzSWh" who="unknown" prev="i-Le3DeyvXJvAWWBFakUJu9Z" next="i-6FQNSaxJqak4jjJQRdEQwq">
           <seg xml:id="i-VZkx5a5m4BN4EKRyaY6Np5">
             nan avstod från att överklaga processen hos hovrätten endast
           </seg>
-        </u>
-        <u xml:id="i-6FQNSaxJqak4jjJQRdEQwq" who="unknown" prev="i-BUHLP2ApaSF9DayEhTzSWh" next="i-CAJgCvLuJXkqsoEkaHKZFP">
           <seg xml:id="i-VTBFTDC38wUf3DwU3BQfN2">
             på det villkoret, att vattenfallsägaren förklarade sig villig
             att
           </seg>
-        </u>
-        <u xml:id="i-CAJgCvLuJXkqsoEkaHKZFP" who="unknown" prev="i-6FQNSaxJqak4jjJQRdEQwq" next="i-5PjfDUbvtw8Lfc9XMHstRp">
           <seg xml:id="i-QhTBSpNr7LE3rao4tE53ts">
             själv vidkännas sina kostnader 1 häradsrätten, vilka dock bli-
           </seg>
-        </u>
-        <u xml:id="i-5PjfDUbvtw8Lfc9XMHstRp" who="unknown" prev="i-CAJgCvLuJXkqsoEkaHKZFP" next="i-HcPGypomKBibWdaNTVgw9K">
           <seg xml:id="i-KFwtgq2JohbABPnY5JVXsj">
             vit honom tilldömda där. Jag skulle nästan tro, att man kan
           </seg>
-        </u>
-        <u xml:id="i-HcPGypomKBibWdaNTVgw9K" who="unknown" prev="i-5PjfDUbvtw8Lfc9XMHstRp" next="i-ULcR7dZEti5j1WSadzrAhA">
           <seg xml:id="i-HRwcTsN8ETeTWm9xjf9g29">
             säga, att kronan härvidlag i stort sett icke har framträtt såsom
           </seg>
-        </u>
-        <u xml:id="i-ULcR7dZEti5j1WSadzrAhA" who="unknown" prev="i-HcPGypomKBibWdaNTVgw9K" next="i-EMbw2P1HHfgLUBMe8TDXsJ">
           <seg xml:id="i-F2hTcBvVCAWphAbMNmyUAP">
             någon rättfärdighetens representant, och jag tror, att man skulle
           </seg>
-        </u>
-        <u xml:id="i-EMbw2P1HHfgLUBMe8TDXsJ" who="unknown" prev="i-ULcR7dZEti5j1WSadzrAhA" next="i-MNZXgD53TuLjeQLsmm2awF">
           <seg xml:id="i-CYjngE8qbHZjvHcF13q2cH">
             utan överdrift våga om detta förfaringssätt tillämpa vad lagut-
           </seg>
-        </u>
-        <u xml:id="i-MNZXgD53TuLjeQLsmm2awF" who="unknown" prev="i-EMbw2P1HHfgLUBMe8TDXsJ">
           <seg xml:id="i-CSpWatqDJ4kWtH2WCD9cfp">
             skottet här i en helt annan mening säger, nämligen att »ett dylikt
             förfarande får en rent odiös karaktär».
@@ -3345,7 +3171,7 @@
         <note xml:id="i-ErvFMKZAsZgxebwNfCQGvh" type="speaker">
           Herr Pettersson i Södertälje:
         </note>
-        <u xml:id="i-2xaS3B7GxQMo1zAegRLYdM" who="i-SKeNWqaodDskJWp4b2SKPZ" next="i-HdnRZoUtnG7FiV5d895pTj">
+        <u xml:id="i-2xaS3B7GxQMo1zAegRLYdM" who="i-SKeNWqaodDskJWp4b2SKPZ" next="i-GvDz3eCcKwnh4BWshUTqSL">
           <seg xml:id="i-QfvebyiKcLksf4xxUHFDGN">
             Herr talman! Jag skall icke inlåta mig på att söka försvara det
             förfarande, som från kronans sida iakttagits i en del processer,
@@ -3363,8 +3189,6 @@
             är givetvis i hög grad ägnat att främja denna saks rationella
             och även slutliga lösning.
           </seg>
-        </u>
-        <u xml:id="i-HdnRZoUtnG7FiV5d895pTj" who="i-SKeNWqaodDskJWp4b2SKPZ" prev="i-2xaS3B7GxQMo1zAegRLYdM" next="i-GvDz3eCcKwnh4BWshUTqSL">
           <seg xml:id="i-2D85r35B4Bzs8xHx3rfWKr">
             Om nu andra kammaren följer lagutskottet och avslår denna proposition,
             tror jag inte, att de, som intressera sig för denna fråga, böra
@@ -3387,12 +3211,10 @@
           kammaren. Och denna ståndpunkt tror jag skall i sin mån vara ägnad
           att påskynda frågans slutliga och
         </note>
-        <u xml:id="i-GvDz3eCcKwnh4BWshUTqSL" who="i-SKeNWqaodDskJWp4b2SKPZ" prev="i-HdnRZoUtnG7FiV5d895pTj" next="i-8qwzYQELKbGXCvPiXVA47R">
+        <u xml:id="i-GvDz3eCcKwnh4BWshUTqSL" who="i-SKeNWqaodDskJWp4b2SKPZ" prev="i-2xaS3B7GxQMo1zAegRLYdM">
           <seg xml:id="i-CDZggc98UK5mz3A1Encujr">
             lyckliga avgörande.
           </seg>
-        </u>
-        <u xml:id="i-8qwzYQELKbGXCvPiXVA47R" who="i-SKeNWqaodDskJWp4b2SKPZ" prev="i-GvDz3eCcKwnh4BWshUTqSL">
           <seg xml:id="i-CoNDaKC2ZE6ZmDANBj7PZB">
             Jag vidhåller mitt yrkande.
           </seg>

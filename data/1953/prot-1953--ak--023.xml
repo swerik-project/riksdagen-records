@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-FtsEvrrdpbXMjtknYWLBNZ" type="speech">
             <linkGrp type="u">
               <ptr target="#i-ASCttQBZho1W266p2iH3bi"/>
@@ -1326,7 +1326,13 @@
               <ptr target="#i-HnwesQG7wfA9mcUiC4fNdo"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -1614,7 +1620,7 @@
         <note xml:id="i-3vfZUKvS7hyfHuF75HBWx9" type="speaker">
           som anförde:
         </note>
-        <u xml:id="i-ASCttQBZho1W266p2iH3bi" who="unknown" next="i-QRnnqKWvRZ6mHnV3Ts4Wct">
+        <u xml:id="i-ASCttQBZho1W266p2iH3bi" who="unknown" next="i-0eb252b6f565f7f4-0">
           <seg xml:id="i-NQTxegGEWG2VKx5FFQtQv7">
             Herr talman! För vart och ett av de val som skall företagas vid
             detta plenum ber jag att få avlämna en gemensam lista, vilken
@@ -1714,20 +1720,16 @@
           för att — vid fall av intressekollision — erhålla den ur ekonomiska
           och andra synpunkter bästa intresseavvägningen,
         </note>
-        <u xml:id="i-0eb252b6f565f7f4-0" who="i-BSEtbZG4ePv3rfebXQWRkd" next="i-Ux6DZdoUFnKYexw4Eff22Z">
+        <u xml:id="i-0eb252b6f565f7f4-0" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-ASCttQBZho1W266p2iH3bi" next="i-0eb252b6f565f7f4-2">
           <seg xml:id="i-DiRkx91FDhRKfxrMtQRQWQ">
             dels ock — i det aktuella fallet — till att flygförvaltningen
             icke blott biträder med sakkunnig personal vid utredning av omläggningen
             av vägen utan även kommer att hålla vederbörande kom-
           </seg>
-        </u>
-        <u xml:id="i-Ux6DZdoUFnKYexw4Eff22Z" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-0eb252b6f565f7f4-0" next="i-0eb252b6f565f7f4-1">
           <seg xml:id="i-W8XSbr92kuSUS3TkCn8qHA">
             mun — Norrköpings stad — skadeslös för uppkommande kostnader
             vid denna omläggning.
           </seg>
-        </u>
-        <u xml:id="i-0eb252b6f565f7f4-1" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-Ux6DZdoUFnKYexw4Eff22Z" next="i-0eb252b6f565f7f4-2">
           <seg xml:id="i-RRyJZb7RxwJNkbJL2UtHyA">
             Vad först angår det här aktuella fallet har chefen för flygvapnet
             under hand meddelat i huvudsak följande. I samband med att en
@@ -1744,7 +1746,7 @@
         <note xml:id="i-KzhmtC4R9NKyrRgS8DFi87">
           26 maj 1953.
         </note>
-        <u xml:id="i-0eb252b6f565f7f4-2" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-0eb252b6f565f7f4-1" next="i-Kx1AAxx6HwX6sqfWq7Qu2X">
+        <u xml:id="i-0eb252b6f565f7f4-2" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-0eb252b6f565f7f4-0" next="i-0eb252b6f565f7f4-3">
           <seg xml:id="i-BLjfM9J449p8dgPYjK7LUN">
             av en andra startbana i öst—västlig riktning försköts denna i
             förhållande till tidigare planerat läge bland annat så, att dess
@@ -1765,8 +1767,6 @@
             vägsträckan. Innan startbanan togs i bruk lät flottiljchefen även
             uppsätta varningstavlor för lågtflygande plan.
           </seg>
-        </u>
-        <u xml:id="i-Kx1AAxx6HwX6sqfWq7Qu2X" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-0eb252b6f565f7f4-2" next="i-0eb252b6f565f7f4-3">
           <seg xml:id="i-Ees4mUyJx3TeoGGJcALkne">
             Efter framställning från länsstyrelsen i Östergötlands län rörande
             trafiksäkerheten på vägen hemställde flygförvaltningen, i enlighet
@@ -1794,7 +1794,7 @@
           mellan militära och civila myndigheter vid lösandet av föreliggande
           intressekonflikter m. m.
         </note>
-        <u xml:id="i-0eb252b6f565f7f4-3" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-Kx1AAxx6HwX6sqfWq7Qu2X">
+        <u xml:id="i-0eb252b6f565f7f4-3" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-0eb252b6f565f7f4-2">
           <seg xml:id="i-2JdfWzmUXPYMCAPTdbjYmC">
             till en utredning för en lösning, som syftade till andra åtgärder
             än omläggning av vägen. — För att bedöma flygplanens höjd över
@@ -2069,7 +2069,7 @@
         <note xml:id="i-6RKirjkLAX2nJjHoPcKgNd">
           Svar på interpellation ang. den psykiska barnaoch ungdomsvården.
         </note>
-        <u xml:id="i-0eb252b6f565f7f4-5" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-0eb252b6f565f7f4-4">
+        <u xml:id="i-0eb252b6f565f7f4-5" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-0eb252b6f565f7f4-4" next="i-9b2b8d1664e72688-0">
           <seg xml:id="i-DMZGtjoTgcsu9BUqaEA1Km">
             det planet att riksdagen kan ta ställning till densamma.
           </seg>
@@ -2082,20 +2082,16 @@
           Ordet lämnades på begäran till Chefen för inrikesdepartementet,
           herr statsrådet HEDLUND, som yttrade:
         </note>
-        <u xml:id="i-9b2b8d1664e72688-0" who="i-KaEwnQ53dsfqZGV8fcpYbX" next="i-22tqnJBGqqH7B9S4JUjQjF">
+        <u xml:id="i-9b2b8d1664e72688-0" who="i-KaEwnQ53dsfqZGV8fcpYbX" prev="i-0eb252b6f565f7f4-5" next="i-9b2b8d1664e72688-1">
           <seg xml:id="i-LFwwxpAwqzt2RHS3nwaxEe">
             Herr talman! Med kammarens tillstånd har fru Sjöstrand frågat
             mig, om jag har för avsikt att vidtaga sådana åtgärder, främst
             i fråga om läkarutbildningen, att den psykiska barnaoch ungdomsvården
             snarast möjligt blir bättre tillgodosedd för sin verksamhet.
           </seg>
-        </u>
-        <u xml:id="i-22tqnJBGqqH7B9S4JUjQjF" who="i-KaEwnQ53dsfqZGV8fcpYbX" prev="i-9b2b8d1664e72688-0" next="i-RZk6gqkFBXE1UZZsdLVEYQ">
           <seg xml:id="i-JMjJEBLCK3RNSoKVTF8BCd">
             I anledning härav vill jag anföra följande.
           </seg>
-        </u>
-        <u xml:id="i-RZk6gqkFBXE1UZZsdLVEYQ" who="i-KaEwnQ53dsfqZGV8fcpYbX" prev="i-22tqnJBGqqH7B9S4JUjQjF" next="i-CW3fTGbsN6WSgD7Fb1ABcq">
           <seg xml:id="i-GRbDrhRCDGhA1pHLpaHCQ4">
             Utbyggnaden av den psykiska barnaoch ungdomsvården har tyvärr
             icke kunnat ske i den takt, som avsågs, då riktlinjer 1945 drogs
@@ -2137,13 +2133,9 @@
             utbildning inom detta område kommer att göra dem skickade såsom
             läkare
           </seg>
-        </u>
-        <u xml:id="i-CW3fTGbsN6WSgD7Fb1ABcq" who="i-KaEwnQ53dsfqZGV8fcpYbX" prev="i-RZk6gqkFBXE1UZZsdLVEYQ" next="i-EHjaSKEutAQHoXSSPZ55Tt">
           <seg xml:id="i-TRdmJGvSdqb722P13Wxscs">
             bl. a. inom den psykiska barnaoch ungdomsvården. Som = interpellanten
           </seg>
-        </u>
-        <u xml:id="i-EHjaSKEutAQHoXSSPZ55Tt" who="i-KaEwnQ53dsfqZGV8fcpYbX" prev="i-CW3fTGbsN6WSgD7Fb1ABcq" next="i-9b2b8d1664e72688-1">
           <seg xml:id="i-XREMKiUc7oHveZ6YdVxQp5">
             framhållit torde läkarutbildningskommitténs förslag komma att
             för sitt genomförande kräva avsevärd tid. Frågan, hur man inom
@@ -2170,7 +2162,7 @@
         <note xml:id="i-4v2N6RMk344ZL1UThmHRDJ" type="title">
           Svar på interpellation ang. den psykiska barnaoch ungdomsvården.
         </note>
-        <u xml:id="i-9b2b8d1664e72688-1" who="i-KaEwnQ53dsfqZGV8fcpYbX" prev="i-EHjaSKEutAQHoXSSPZ55Tt">
+        <u xml:id="i-9b2b8d1664e72688-1" who="i-KaEwnQ53dsfqZGV8fcpYbX" prev="i-9b2b8d1664e72688-0">
           <seg xml:id="i-Qnbx1gL5wnmHZR2ezcH3H9">
             ledning härav någon mera betydande ökning av - utbildningsmöjligheterna
             f. n. svårligen låter sig genomföras. Det är visserligen möjligt
@@ -2986,7 +2978,7 @@
         <note xml:id="i-TXnyQiE6mfUTnP9sC3HSBK">
           Ändrade grunder för fastighetsbeskattningen.
         </note>
-        <u xml:id="i-9b2b8d1664e72688-11" who="i-KJ6KMYXZX5TzhKzjfTViXn" prev="i-9b2b8d1664e72688-10" next="i-LoTpv4N3N3oDeLDjahRPVV">
+        <u xml:id="i-9b2b8d1664e72688-11" who="i-KJ6KMYXZX5TzhKzjfTViXn" prev="i-9b2b8d1664e72688-10" next="i-9b2b8d1664e72688-13">
           <seg xml:id="i-41xT6UbKdbzTJdAceAZZWG">
             let skattekronor cirka 30 procent lägre än för de provtaxerade
             kommunerna. Tätorterna med s. k. annan fastighet, där ju den effektiva
@@ -3024,15 +3016,11 @@
             den goda jorden — exempelvis, om jag utgår ifrån Skåne, nere
             i trelleborgstrakten — slipper i regel effektiv fas-
           </seg>
-        </u>
-        <u xml:id="i-LoTpv4N3N3oDeLDjahRPVV" who="i-KJ6KMYXZX5TzhKzjfTViXn" prev="i-9b2b8d1664e72688-11" next="i-9b2b8d1664e72688-12">
           <seg xml:id="i-KzruGcxxWGVUnGewkNUeGP">
             tighetsskatt, medan de som äger och brukar gårdar i magrare och
             kargare jordbruksbygder — såsom uppe på åsarna, i Norra Rörum
             m. fl. platser
           </seg>
-        </u>
-        <u xml:id="i-9b2b8d1664e72688-12" who="i-KJ6KMYXZX5TzhKzjfTViXn" prev="i-LoTpv4N3N3oDeLDjahRPVV" next="i-9b2b8d1664e72688-13">
           <seg xml:id="i-XHMmSrNXKNmjBwrBPXSJmK">
             — i regel får en effektiv fastighetsskatt. även om där skulle
             finnas skog inom dessa områden tror jag inte att detta neutraliserar
@@ -3081,7 +3069,7 @@
         <note xml:id="i-L5dHQwRQinSW2RYR67t4w7">
           Ändrade grunder för fastighetsbeskattningen.
         </note>
-        <u xml:id="i-9b2b8d1664e72688-13" who="i-KJ6KMYXZX5TzhKzjfTViXn" prev="i-9b2b8d1664e72688-12" next="i-KeLoL7bBLjcpF7tDqHciSu">
+        <u xml:id="i-9b2b8d1664e72688-13" who="i-KJ6KMYXZX5TzhKzjfTViXn" prev="i-9b2b8d1664e72688-11" next="i-9b2b8d1664e72688-14">
           <seg xml:id="i-GiWXLdCK9fMYu4JcnGKreH">
             folkningen. Omsättningen i affärerna och antalet affärsinnehavare
             ökas, kommunikationerna kan förbättras, uthyrning av rum och dylikt
@@ -3120,14 +3108,10 @@
             i kommuner där skogsbolag finnes, skulle detta inte leda till
             någon större höjning
           </seg>
-        </u>
-        <u xml:id="i-KeLoL7bBLjcpF7tDqHciSu" who="i-KJ6KMYXZX5TzhKzjfTViXn" prev="i-9b2b8d1664e72688-13" next="i-6cGgRan79Qas3iUGnG3SqK">
           <seg xml:id="i-PhFoAvNnaxM5nvmxnBhim9">
             av utdebiteringen. I de undersökta kommunerna skulle höjningen
             år 1948 ha blivit 3 öre och år 1952 1 öre per skattekrona.
           </seg>
-        </u>
-        <u xml:id="i-6cGgRan79Qas3iUGnG3SqK" who="i-KJ6KMYXZX5TzhKzjfTViXn" prev="i-KeLoL7bBLjcpF7tDqHciSu" next="i-9b2b8d1664e72688-14">
           <seg xml:id="i-HJmcwLTxsGGUwwxFgCUPFJ">
             Då det gäller fastighetsskatten och skogskommunerna tror jag
             att RLF har rätt, när de i sitt remissyttrande över utredningen
@@ -3173,7 +3157,7 @@
         <note xml:id="i-4AG6Ef3vEYiQ3XWGGA752W">
           Ändrade grunder för fastighetsbeskattningen.
         </note>
-        <u xml:id="i-9b2b8d1664e72688-14" who="i-KJ6KMYXZX5TzhKzjfTViXn" prev="i-6cGgRan79Qas3iUGnG3SqK" next="i-UDyNSRJpcP823E37qcaRoa">
+        <u xml:id="i-9b2b8d1664e72688-14" who="i-KJ6KMYXZX5TzhKzjfTViXn" prev="i-9b2b8d1664e72688-13" next="i-UDyNSRJpcP823E37qcaRoa">
           <seg xml:id="i-QdfGYyN8B2fTnU4UKvr1mM">
             lunda att hålla en jämn inkomst på omkring 30000 kronor. Han
             behöver då inte betala någon kommunal inkomstskatt men inte heller
@@ -3257,7 +3241,7 @@
         <note xml:id="i-78vyEuFWTJtWgSRyGY4NrV">
           Ändrade grunder för fastighetsbeskattningen.
         </note>
-        <u xml:id="i-UDyNSRJpcP823E37qcaRoa" who="i-KJ6KMYXZX5TzhKzjfTViXn" prev="i-9b2b8d1664e72688-14" next="i-9b2b8d1664e72688-15">
+        <u xml:id="i-UDyNSRJpcP823E37qcaRoa" who="i-KJ6KMYXZX5TzhKzjfTViXn" prev="i-9b2b8d1664e72688-14" next="i-9b2b8d1664e72688-16">
           <seg xml:id="i-McfDv989xN9SYiSceNFW7m">
             När vi började behandla detta ärende anförde herr talmannen,
             att bevillningsutskottets betänkanden nr 49 och nr 50 skulle tagas
@@ -3265,8 +3249,6 @@
             som behandlas i bevillningsutskottets betänkande nr 50 avseende
             beskattningen av egnahemsvillor m. fl. fastigheter.
           </seg>
-        </u>
-        <u xml:id="i-9b2b8d1664e72688-15" who="i-KJ6KMYXZX5TzhKzjfTViXn" prev="i-UDyNSRJpcP823E37qcaRoa" next="i-9b2b8d1664e72688-16">
           <seg xml:id="i-RpXLB6p4gDv82F3VCvmTw3">
             Det däri behandlade förslaget om schablontaxering av intäkten
             från enoch tvåfamiljsfastigheter har närmast kommit till för att
@@ -3338,7 +3320,7 @@
         <note xml:id="i-QgZ2R3qTKwo4Nvoy3Msifc">
           Ändrade grunder för fastighetsbeskattningen.
         </note>
-        <u xml:id="i-9b2b8d1664e72688-16" who="i-KJ6KMYXZX5TzhKzjfTViXn" prev="i-9b2b8d1664e72688-15" next="i-4vdjMdPgE4hLAYUkrnaj5e">
+        <u xml:id="i-9b2b8d1664e72688-16" who="i-KJ6KMYXZX5TzhKzjfTViXn" prev="i-UDyNSRJpcP823E37qcaRoa">
           <seg xml:id="i-C8F7hs21UQz8dEbGhLTQWQ">
             som i den arbetarbostad, som tillhör jordbruksfastigheten, medan
             den arbetare, som har egen bostad, icke får verkställa dessa avdrag.
@@ -3383,8 +3365,6 @@
             av jordbruksfastigheter, om vi här skall behöva ändra taxeringsbestämmelserna
             för dessa i antydd riktning.
           </seg>
-        </u>
-        <u xml:id="i-4vdjMdPgE4hLAYUkrnaj5e" who="i-KJ6KMYXZX5TzhKzjfTViXn" prev="i-9b2b8d1664e72688-16">
           <seg xml:id="i-Xbvy18BF85F7eA3uTzGd5M">
             Jag ber, herr talman, att med det anförda få yrka bifall till
             reservation nr I av herr Velander och undertecknad som är fogad
@@ -3513,7 +3493,7 @@
         <note xml:id="i-51sB3tWUMqTGccGey2d9xY">
           Ändrade grunder för fastighetsbeskattningen.
         </note>
-        <u xml:id="i-23f5958c398e5194-2" who="i-riJfB4CgvG9jt4652TdCv" prev="i-23f5958c398e5194-1" next="i-Q8vYv4KyzgTegMRpdigREB">
+        <u xml:id="i-23f5958c398e5194-2" who="i-riJfB4CgvG9jt4652TdCv" prev="i-23f5958c398e5194-1" next="i-23f5958c398e5194-4">
           <seg xml:id="i-MrHWvnxM49zxxt8GPEfU4x">
             lunda den erforderliga höjningen av uttaxeringen stanna vid några
             ören, under det att t. ex. i Djurö kommun utdebiteringen skulle
@@ -3551,13 +3531,9 @@
             skulle komma cirka 7 miljoner kronor och på annan fastighet 108
             miljoner kronor, allt
           </seg>
-        </u>
-        <u xml:id="i-Q8vYv4KyzgTegMRpdigREB" who="i-riJfB4CgvG9jt4652TdCv" prev="i-23f5958c398e5194-2" next="i-23f5958c398e5194-3">
           <seg xml:id="i-X9Jh94bHEbVfZ3qde5V4Qr">
             enligt uppgifter, som departementschefen lämnat i propositionen.
           </seg>
-        </u>
-        <u xml:id="i-23f5958c398e5194-3" who="i-riJfB4CgvG9jt4652TdCv" prev="i-Q8vYv4KyzgTegMRpdigREB" next="i-23f5958c398e5194-4">
           <seg xml:id="i-HRmE2r9DuPscYDra5MaSSG">
             Jag delar utskottets uppfattning att det för närvarande vore
             olämpligt att sänka repartitionstalet till 3, då detta skulle
@@ -3601,7 +3577,7 @@
         <note xml:id="i-9bLoyMGF5fkXkPuM52K1gt">
           Ändrade grunder för fastighetsbeskattningen.
         </note>
-        <u xml:id="i-23f5958c398e5194-4" who="i-riJfB4CgvG9jt4652TdCv" prev="i-23f5958c398e5194-3" next="i-8e9inyYTxBwutQ5aAuaae6">
+        <u xml:id="i-23f5958c398e5194-4" who="i-riJfB4CgvG9jt4652TdCv" prev="i-23f5958c398e5194-2" next="i-23f5958c398e5194-5">
           <seg xml:id="i-MuQad4wQCRYRgm6FrfmQRo">
             talet fastigheter, så gäller den naturligtvis i än högre grad
             vid ett 20 000-kronorsavdrag, även om detta avser samtliga fastigheter.
@@ -3620,14 +3596,10 @@
             torde inte vara så orimligt som från visst håll göres gällande,
             när t. o. m. de
           </seg>
-        </u>
-        <u xml:id="i-8e9inyYTxBwutQ5aAuaae6" who="i-riJfB4CgvG9jt4652TdCv" prev="i-23f5958c398e5194-4" next="i-TBYwRVATu8ZehVCJtSpjqa">
           <seg xml:id="i-6mJn4gGgdDZs9iR1jM4HYv">
             verkliga skatteexperterna, 1950 års skattelagssakkunniga, allvarligt
             Ööver-
           </seg>
-        </u>
-        <u xml:id="i-TBYwRVATu8ZehVCJtSpjqa" who="i-riJfB4CgvG9jt4652TdCv" prev="i-8e9inyYTxBwutQ5aAuaae6" next="i-23f5958c398e5194-5">
           <seg xml:id="i-c9SFGKfqMr33FbPGfHHfw">
             vägt samma förslag. De skattelagssakkunnigas mening, att en dylik
             bestämmelse ej skulle inge några betänkligheter, vill jag särskilt
@@ -3697,7 +3669,7 @@
         <note xml:id="i-BkTrvUMUtuKC6JZeA3i2au">
           Ändrade grunder för fastighetsbeskattningen.
         </note>
-        <u xml:id="i-23f5958c398e5194-5" who="i-riJfB4CgvG9jt4652TdCv" prev="i-TBYwRVATu8ZehVCJtSpjqa" next="i-23f5958c398e5194-6">
+        <u xml:id="i-23f5958c398e5194-5" who="i-riJfB4CgvG9jt4652TdCv" prev="i-23f5958c398e5194-4" next="i-23f5958c398e5194-6">
           <seg xml:id="i-7a3rKvd7vYiHGjkTB4jrqG">
             hög. Skillnaden i beskattning enligt nuvarande metod och den
             nya metoden skulle sannolikt bli för stor till den skattskyldiges
@@ -3864,7 +3836,7 @@
         <note xml:id="i-V5eQNncQPNwqj9ngChjBu1">
           Ändrade grunder för fastighetsbeskattningen.
         </note>
-        <u xml:id="i-23f5958c398e5194-7" who="i-riJfB4CgvG9jt4652TdCv" prev="i-23f5958c398e5194-6" next="i-RxKYaqCSvzAkos5Sm9Xa8Y">
+        <u xml:id="i-23f5958c398e5194-7" who="i-riJfB4CgvG9jt4652TdCv" prev="i-23f5958c398e5194-6">
           <seg xml:id="i-RHNx9Rn1x4HJmJozmqyNu4">
             För Stockholms förorter har det för 1953 års taxering bestämts,
             att hyresvärdet för permanent bostad skall upptagas till 5,5 procent
@@ -3910,8 +3882,6 @@
             som endast användes delvis under året, avkastar mindre än om den
             användes under hela året.
           </seg>
-        </u>
-        <u xml:id="i-RxKYaqCSvzAkos5Sm9Xa8Y" who="i-riJfB4CgvG9jt4652TdCv" prev="i-23f5958c398e5194-7">
           <seg xml:id="i-JgfaWjRL2irb2YLriVHZh">
             Herr talman! Jag finner därför starka skäl tala för syftet med
             min motion och yrkar sålunda bifall till den av mig och herr Åqvist
@@ -3955,7 +3925,7 @@
         <note xml:id="i-WU7VFvK8jxup6sLnD53nB8">
           Ändrade grunder för fastighetsbeskattningen.
         </note>
-        <u xml:id="i-23f5958c398e5194-9" who="i-DeQimv88r3Lef1GaRx6Gwk" prev="i-2ffa94028eaa9fba-0" next="i-9yPPc5eHrZnMJh1Z9M3N6S">
+        <u xml:id="i-23f5958c398e5194-9" who="i-DeQimv88r3Lef1GaRx6Gwk" prev="i-2ffa94028eaa9fba-0">
           <seg xml:id="i-CXdmE5dvanaJR4aQTkb532">
             inte det situationen. Nog av, man kan utgå ifrån att det för
             många, kanske för de allra flesta, betydde stora uppoffringar
@@ -4005,8 +3975,6 @@
             det så, att det egendomslösa folket är att betrakta som kapitalister,
             om de lyckas slita ihop till en egen liten stuga?
           </seg>
-        </u>
-        <u xml:id="i-9yPPc5eHrZnMJh1Z9M3N6S" who="i-DeQimv88r3Lef1GaRx6Gwk" prev="i-23f5958c398e5194-9">
           <seg xml:id="i-Guf4sPpQ4CW6WjP2iA4zQ8">
             Herr talman! Med dessa ord vill jag motivera, att jag kommer
             att rösta för reservationen av herr Spetz m. fl., som är fogad
@@ -4128,7 +4096,7 @@
         <note xml:id="i-TR8jqE6UmnDYgL1BpFkqfK">
           Ändrade grunder för fastighetsbeskattningen.
         </note>
-        <u xml:id="i-00d6589623a8a872-2" who="i-Jrz19xArtV5uKEAUB97hMH" prev="i-00d6589623a8a872-1" next="i-S1MGiMNQnjEFDugmMhnFuC">
+        <u xml:id="i-00d6589623a8a872-2" who="i-Jrz19xArtV5uKEAUB97hMH" prev="i-00d6589623a8a872-1" next="i-00d6589623a8a872-4">
           <seg xml:id="i-iRYyDonCmtrq4qPgkG7xJ">
             munal fastighetsskatt och ingen inkomstskatt, medan däremot förhållandet
             väl nu är ganska allmänt, att jordbrukarna i skogskommunerna inte
@@ -4164,13 +4132,9 @@
             till 15 kronor per skattekrona — vilket vi har på vissa ställen,
             t. ex. i Norrland — ställa sig betänksam mot även en så pass liten
           </seg>
-        </u>
-        <u xml:id="i-S1MGiMNQnjEFDugmMhnFuC" who="i-Jrz19xArtV5uKEAUB97hMH" prev="i-00d6589623a8a872-2" next="i-00d6589623a8a872-3">
           <seg xml:id="i-5CxEi9hPXw2zBtLkjLPekz">
             utdebiteringshöjning som 50 å 60 öre eller 1 krona.
           </seg>
-        </u>
-        <u xml:id="i-00d6589623a8a872-3" who="i-Jrz19xArtV5uKEAUB97hMH" prev="i-S1MGiMNQnjEFDugmMhnFuC" next="i-00d6589623a8a872-4">
           <seg xml:id="i-8PKeZ8i5mYKoLQmP5vhCNg">
             I detta sammanhang har både herr Nilsson i Svalöv och herr Sjölin
             varit inne på att det på grund av de kommunala ortsavdragens höjning
@@ -4214,7 +4178,7 @@
         <note xml:id="i-KHaRqgR1uioWxZSqewX6Mq" type="title">
           Ändrade grunder för fastighetsbeskattningen.
         </note>
-        <u xml:id="i-00d6589623a8a872-4" who="i-Jrz19xArtV5uKEAUB97hMH" prev="i-00d6589623a8a872-3" next="i-00d6589623a8a872-5">
+        <u xml:id="i-00d6589623a8a872-4" who="i-Jrz19xArtV5uKEAUB97hMH" prev="i-00d6589623a8a872-2" next="i-00d6589623a8a872-5">
           <seg xml:id="i-CpPdp6HsRofrZmVTSaLe4c">
             tion gjord av de sakkunniga, då de talar om en höjning av utdebiteringen
             med 11 öre i Ådalsliden och i Ragunda, som är typiska kraftverkskommuner,
@@ -4381,7 +4345,7 @@
         <note xml:id="i-C2hahYgQm6QQWwSTjvo9nW">
           Ändrade grunder för fastighetsbeskattningen.
         </note>
-        <u xml:id="i-00d6589623a8a872-6" who="i-Jrz19xArtV5uKEAUB97hMH" prev="i-00d6589623a8a872-5" next="i-6aHKguo3ayjuRbrfFniQLD">
+        <u xml:id="i-00d6589623a8a872-6" who="i-Jrz19xArtV5uKEAUB97hMH" prev="i-00d6589623a8a872-5">
           <seg xml:id="i-BjRzQN7xUAWuKgtDZPwPXQ">
             Tillåt mig, herr talman, att innan jag slutar säga, att beträffande
             beskattningen av sommarvillor visar folkpartiet på ett alldeles
@@ -4412,8 +4376,6 @@
             procent för sommarvillor; i så fall tycker jag linjerna börjar
             bli sådana att jag känner igen dem.
           </seg>
-        </u>
-        <u xml:id="i-6aHKguo3ayjuRbrfFniQLD" who="i-Jrz19xArtV5uKEAUB97hMH" prev="i-00d6589623a8a872-6">
           <seg xml:id="i-6yuMWVFSxHLsZoiz5L6gVn">
             Med detta, herr talman, ber jag få yrka bifall till förslagen
             i bevillningsutskottets betänkanden nr 49 och 50.
@@ -4422,7 +4384,7 @@
         <note xml:id="i-Gxcab9UTF6h8tQAa5Lj7jw" type="speaker">
           Herr NILSSON i Svalöv (h) kort genmäle:
         </note>
-        <u xml:id="i-8b4a221b50835d4d-2" who="i-KJ6KMYXZX5TzhKzjfTViXn" next="i-2KSE4r2Khxc1SfDd6iTCAt">
+        <u xml:id="i-8b4a221b50835d4d-2" who="i-KJ6KMYXZX5TzhKzjfTViXn" next="i-7VsmwcnLiqSpYSG8evQRyC">
           <seg xml:id="i-3MzNMjLZDjBqvwpAbRije2">
             Herr talman! Det är endast två
           </seg>
@@ -4451,8 +4413,6 @@
             gälla som kommunalskatteutredningen på sin tid föreslog och där
             det heter:
           </seg>
-        </u>
-        <u xml:id="i-2KSE4r2Khxc1SfDd6iTCAt" who="i-KJ6KMYXZX5TzhKzjfTViXn" prev="i-8b4a221b50835d4d-2" next="i-PMSojPEYNmnwsaNMoZMd3k">
           <seg xml:id="i-FVWhDgeKwzR8YVj2p7BAd9">
             »Därjämte skall, då inkomst av rörelse efter ty i 57 $ är sagt
             skall tagas till beskattning i mera än en kommun, iakttagas följande.
@@ -4462,8 +4422,6 @@
             motsvarar fem procent av fastighetens för beskattningsåret gällande
             taxeringsvärde.»
           </seg>
-        </u>
-        <u xml:id="i-PMSojPEYNmnwsaNMoZMd3k" who="i-KJ6KMYXZX5TzhKzjfTViXn" prev="i-2KSE4r2Khxc1SfDd6iTCAt" next="i-7VsmwcnLiqSpYSG8evQRyC">
           <seg xml:id="i-SQojSp9gLXjQoQQM1WRo1d">
             Tar man hänsyn till detta får icke fastighetsskattens slopande
             de verk-
@@ -4479,7 +4437,7 @@
         <note xml:id="i-3u9v7CFWNawGTR1wEcrt5x">
           Ändrade grunder för fastighetsbeskattningen.
         </note>
-        <u xml:id="i-7VsmwcnLiqSpYSG8evQRyC" who="i-KJ6KMYXZX5TzhKzjfTViXn" prev="i-PMSojPEYNmnwsaNMoZMd3k">
+        <u xml:id="i-7VsmwcnLiqSpYSG8evQRyC" who="i-KJ6KMYXZX5TzhKzjfTViXn" prev="i-8b4a221b50835d4d-2">
           <seg xml:id="i-VHcNGTgqma3zvac4idatYR">
             ningar för kraftverkskommunerna som herr Kärrlander talade om.
           </seg>
@@ -4571,7 +4529,7 @@
         <note xml:id="i-QzSjethkhcs9MnJXiQAVHK">
           Ändrade grunder för fastighetsbeskattningen.
         </note>
-        <u xml:id="i-38713f59b96fba19-1" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-38713f59b96fba19-0" next="i-8U7PkrSPWs27W1GQtrkro8">
+        <u xml:id="i-38713f59b96fba19-1" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-38713f59b96fba19-0" next="i-38713f59b96fba19-2">
           <seg xml:id="i-KJ5SRepHvUJMnkZ5smL2C9">
             har denna beskattning — om man betraktar hela det kommunala fältet
             — blivit betydelselös. Det är klart att man då måste ställa den
@@ -4606,13 +4564,9 @@
             har det inte varit möjligt att ta en ståndpunkt grundad på ett
             verkligt kunskapsunderlag förrän i år.
           </seg>
-        </u>
-        <u xml:id="i-8U7PkrSPWs27W1GQtrkro8" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-38713f59b96fba19-1" next="i-D7wwdzPdhFww1HFFU33rz2">
           <seg xml:id="i-VLSRDJGoQWoUsERhXNj7T7">
             Grunden för den kommunala fastig-
           </seg>
-        </u>
-        <u xml:id="i-D7wwdzPdhFww1HFFU33rz2" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-8U7PkrSPWs27W1GQtrkro8" next="i-L3NAWr8b8vNVWKCKs7xQy1">
           <seg xml:id="i-JSm9q7RiPEfP8vK54NgVdm">
             hetsbeskattningen har, som sagt, blivit underminerad, och, som
             jag sade, vi får nu tänka på en avveckling av fastighetsbeskatiningen.
@@ -4634,13 +4588,9 @@
             till kommunen, och därtill skulle komma 29 öre till landstinget.
             Det skulle bli en stegring där med 1 krona 24 öre.
           </seg>
-        </u>
-        <u xml:id="i-L3NAWr8b8vNVWKCKs7xQy1" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-D7wwdzPdhFww1HFFU33rz2" next="i-MhQE59R1nPzVBVASLQTKXW">
           <seg xml:id="i-2hjrdHKasiwUhBoQWEfdFE">
             Nu säger visserligen herr Nilsson i
           </seg>
-        </u>
-        <u xml:id="i-MhQE59R1nPzVBVASLQTKXW" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-L3NAWr8b8vNVWKCKs7xQy1" next="i-38713f59b96fba19-2">
           <seg xml:id="i-C4BqHaKfKhX8gYiDctKwJM">
             Svalöv, att det ju är rätt åt dem som bor i tätorterna; de har
             ju så många fördelar att de mycket väl kan bära denna skattehöjning.
@@ -4665,7 +4615,7 @@
         <note xml:id="i-YP5psxVtFDkZ9wxxEqu1Tq">
           Ändrade grunder för fastighetsbeskattningen.
         </note>
-        <u xml:id="i-38713f59b96fba19-2" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-MhQE59R1nPzVBVASLQTKXW" next="i-38713f59b96fba19-3">
+        <u xml:id="i-38713f59b96fba19-2" who="i-C35yyip4t5V4hBSBwnGD7Z" prev="i-38713f59b96fba19-1" next="i-38713f59b96fba19-3">
           <seg xml:id="i-3tHR9SqBRsXEj8eGLuF65x">
             Nu kan ju herr Nilsson säga, att på somliga ställen är skatten
             inte så hög. Men, herr Nilsson, det blir lika kännbart där. Om
@@ -5479,7 +5429,7 @@
         <note xml:id="i-8TMDcE5S3BUyCBtZqEjaJ2" type="speaker">
           Herr BIRKE (h):
         </note>
-        <u xml:id="i-9dba3383263c267f-0" who="i-VXG8kMCZePBb7hdhGDDpqG" next="i-DRQFfuNjjnmBAiPaTvd7sH">
+        <u xml:id="i-9dba3383263c267f-0" who="i-VXG8kMCZePBb7hdhGDDpqG" next="i-9dba3383263c267f-2">
           <seg xml:id="i-TzJyx45895uWTEr4x2yswZ">
             Herr talman! Skälen för ett avskaffande av fastighetsskatten
             har redan utförligt behandlats av herr Nilsson i Svalöv, och jag
@@ -5503,8 +5453,6 @@
             med dessa ord betyga mitt instämmande i kravet på fastighetsskattens
             omedelbara slopande.
           </seg>
-        </u>
-        <u xml:id="i-DRQFfuNjjnmBAiPaTvd7sH" who="i-VXG8kMCZePBb7hdhGDDpqG" prev="i-9dba3383263c267f-0" next="i-9dba3383263c267f-1">
           <seg xml:id="i-5BEeHcQGL8wfRGENsHoqEg">
             Till bevillningsutskottets betänkande nr 49 finns emellertid
             fogad ytterligare en reservation av herrar Velander och Nilsson
@@ -5515,8 +5463,6 @@
             utan ytterligare argumentering såsom ett andrahandsyrkande hemställa
             om bifall till denna med II betecknade reservation.
           </seg>
-        </u>
-        <u xml:id="i-9dba3383263c267f-1" who="i-VXG8kMCZePBb7hdhGDDpqG" prev="i-DRQFfuNjjnmBAiPaTvd7sH" next="i-9dba3383263c267f-2">
           <seg xml:id="i-5FrV5Xnt1r81wVGeZPcMuP">
             I bevillningsutskottets betänkande nr 50 tillstyrker majoriteten
             finansministerns förslag i proposition nr 187 om att ägare till
@@ -5563,7 +5509,7 @@
         <note xml:id="i-9yqrpSuetoGC43ETBxmt3N">
           Ändrade grunder för fastighetsbeskattningen.
         </note>
-        <u xml:id="i-9dba3383263c267f-2" who="i-VXG8kMCZePBb7hdhGDDpqG" prev="i-9dba3383263c267f-1" next="i-YU3tFvYVeaatpQFs3RuR7o">
+        <u xml:id="i-9dba3383263c267f-2" who="i-VXG8kMCZePBb7hdhGDDpqG" prev="i-9dba3383263c267f-0" next="i-YU3tFvYVeaatpQFs3RuR7o">
           <seg xml:id="i-QBhazktLT3wjN55p7j8vy6">
             beräkning enligt nuvarande regler och metoder.» Ett liknande
             uttalande gjordes på sin tid av 1950 års skattelagssakkunniga,
@@ -6012,7 +5958,7 @@
         <note xml:id="i-7fKS8YrYAdsMJFNATwMA7T">
           Ändrade grunder för fastighetsbeskattningen.
         </note>
-        <u xml:id="i-449cf369dca1651f-5" who="i-Lyd4uNV4VNB2HmVp3LdFbd" prev="i-8AzifZtxgngNAR4am3vUyd" next="i-4ba1TG91yPihVCHnTLhPng">
+        <u xml:id="i-449cf369dca1651f-5" who="i-Lyd4uNV4VNB2HmVp3LdFbd" prev="i-8AzifZtxgngNAR4am3vUyd">
           <seg xml:id="i-RA74Z6oB5BjqeV3AmhuXMi">
             möter oss ett problem på beskattningens område, som man förmodligen
             inte kan lösa på sådant sätt, att vi inte än en gång måste ta
@@ -6062,8 +6008,6 @@
             — jag säger detta av många års erfarenhet — knappast nå fram till
             någon millimeterrättvisa.
           </seg>
-        </u>
-        <u xml:id="i-4ba1TG91yPihVCHnTLhPng" who="i-Lyd4uNV4VNB2HmVp3LdFbd" prev="i-449cf369dca1651f-5">
           <seg xml:id="i-XHRjAsxQJRxiQGEDBgyKUP">
             Med dessa ord, herr talman, ber jag få yrka bifall till förslagen
             i de föreliggande betänkandena nr 49 och 350.
@@ -7138,15 +7082,13 @@
         <note xml:id="i-JVDpsEDLa76KNYrPAgEM3K" type="speaker">
           Herr LINDBERG (s):
         </note>
-        <u xml:id="i-690499fb89f65389-0" who="i-J8eeiHu2biKfTRkspvMPs5" next="i-HhoSuonvrS8cEVeVdhrHFV">
+        <u xml:id="i-690499fb89f65389-0" who="i-J8eeiHu2biKfTRkspvMPs5" next="i-YXTtsNArkoq9YURm6zX8rd">
           <seg xml:id="i-D9mg8YdXHzbPWhPCUEnzq9">
             Herr talman! Till detta utlåtande har herr Ekström och jag fogat
             en reservation — reservation nr 2. Denna reservation går ut på
             bifall till Kungl. Maj:ts förslag i föreliggande ärende; utskottet
             har ju, efter vad som nyss upplästes, hemställt om avslag på propositionen.
           </seg>
-        </u>
-        <u xml:id="i-HhoSuonvrS8cEVeVdhrHFV" who="i-J8eeiHu2biKfTRkspvMPs5" prev="i-690499fb89f65389-0" next="i-YXTtsNArkoq9YURm6zX8rd">
           <seg xml:id="i-8ZZBbdXMFRKKyV1qj3oArL">
             Inom utskottet diskuterades denna
           </seg>
@@ -7158,7 +7100,7 @@
         <note xml:id="i-3qvpEw6RXRe3FmqQA6Hwp4" type="date">
           Tisdagen den 26 maj 1953.
         </note>
-        <u xml:id="i-YXTtsNArkoq9YURm6zX8rd" who="i-J8eeiHu2biKfTRkspvMPs5" prev="i-HhoSuonvrS8cEVeVdhrHFV" next="i-690499fb89f65389-1">
+        <u xml:id="i-YXTtsNArkoq9YURm6zX8rd" who="i-J8eeiHu2biKfTRkspvMPs5" prev="i-690499fb89f65389-0" next="i-690499fb89f65389-1">
           <seg xml:id="i-7hdrwwK2YDLpG2LFcF2ZW8">
             Medlemskapet i finska församlingen i Stockholm samt tyska församlingarna
             i Stock-
@@ -7253,7 +7195,7 @@
         <note xml:id="i-MjQ5EzNeorC6FJHNNnS8xU">
           holm och Göteborg m. m.
         </note>
-        <u xml:id="i-690499fb89f65389-2" who="i-J8eeiHu2biKfTRkspvMPs5" prev="i-2kyijF6QbwuMPvExWdnsR5" next="i-6SimYSnNicrQtVYRpTgeHS">
+        <u xml:id="i-690499fb89f65389-2" who="i-J8eeiHu2biKfTRkspvMPs5" prev="i-2kyijF6QbwuMPvExWdnsR5">
           <seg xml:id="i-S317RRatM5Svb19JJR2WcR">
             något ställe på landsbygden för att tillgodose detta krav.
           </seg>
@@ -7271,8 +7213,6 @@
             till en lugn och normal avveckling av dessa församlingar, finska
             och tyska församlingarna i Stockholm samt också den tyska i Göteborg.
           </seg>
-        </u>
-        <u xml:id="i-6SimYSnNicrQtVYRpTgeHS" who="i-J8eeiHu2biKfTRkspvMPs5" prev="i-690499fb89f65389-2">
           <seg xml:id="i-WaSa88dPmZ9wU3TgVAKpUB">
             Jag skall med detta, herr talman, be att få yrka bifall till
             reservationen nr 2.
@@ -7281,7 +7221,7 @@
         <note xml:id="i-9jUmYg2HusD4K56U2LFNir" type="speaker">
           Herr RYLANDER (fp):
         </note>
-        <u xml:id="i-8971d1b8dd671496-0" who="i-UMqPuWxBqEKey6yYZjGaJn" next="i-TVe4BuCWb6E4UvXu9hi4RU">
+        <u xml:id="i-8971d1b8dd671496-0" who="i-UMqPuWxBqEKey6yYZjGaJn" next="i-NzJ2cGmj98W29ZiNbdoYBV">
           <seg xml:id="i-EmBp7353YFzzR4A1aPPmen">
             Herr talman! Här har utskottet egentligen inte uttalat någon
             mening om huruvida dessa församlingar skall bli bestående för
@@ -7298,14 +7238,10 @@
             bl. a. upphävande av tvångsanslutningen för svenska medborgare.
             Över detta
           </seg>
-        </u>
-        <u xml:id="i-TVe4BuCWb6E4UvXu9hi4RU" who="i-UMqPuWxBqEKey6yYZjGaJn" prev="i-8971d1b8dd671496-0" next="i-8971d1b8dd671496-1">
           <seg xml:id="i-UanAthBsgs6bxHgDfrF8rp">
             förslag infordrades också yttranden från olika håll, bl. a. från
             dessa församlingar. Församlingarna hade där
           </seg>
-        </u>
-        <u xml:id="i-8971d1b8dd671496-1" who="i-UMqPuWxBqEKey6yYZjGaJn" prev="i-TVe4BuCWb6E4UvXu9hi4RU" next="i-NzJ2cGmj98W29ZiNbdoYBV">
           <seg xml:id="i-CbrgzDrf3TeeGSWeQvdEPo">
             ingen anledning tänka sig att de skulle upplösas; då hade de
             måhända yttrat sig på annat sätt och mera ingående om detta spörsmål.
@@ -7354,7 +7290,7 @@
         <note xml:id="i-NfKayw1qzvXbKnejyimjK" type="date">
           Tisdagen den 26 maj 1953.
         </note>
-        <u xml:id="i-NzJ2cGmj98W29ZiNbdoYBV" who="i-UMqPuWxBqEKey6yYZjGaJn" prev="i-8971d1b8dd671496-1" next="i-8971d1b8dd671496-2">
+        <u xml:id="i-NzJ2cGmj98W29ZiNbdoYBV" who="i-UMqPuWxBqEKey6yYZjGaJn" prev="i-8971d1b8dd671496-0" next="i-8971d1b8dd671496-2">
           <seg xml:id="i-8PsB4sAL4Vj58ZzytMrX64">
             Medlemskapet i finska församlingen i Stockholm samt tyska församlingarna
             i Stock-
@@ -7558,7 +7494,7 @@
         <note xml:id="i-QY1c9rnJzmA2nRQHhbrht4">
           holm och Göteborg m. m.
         </note>
-        <u xml:id="i-469e2adcedc55e76-1" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-AYv7Dz6MjEsWARHkP3yZrK" next="i-KNZRMojtkMp1Yk36ivqQmu">
+        <u xml:id="i-469e2adcedc55e76-1" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-AYv7Dz6MjEsWARHkP3yZrK" next="i-AhDpGzWa7Xw1GinszUjcEL">
           <seg xml:id="i-UEGXVx1ejSvDd5kMGmymsF">
             Redan i sitt yttrande över herr Sjödahls motion år 1945 framhöll
             kammarkollegiet, att frågan om upphävande av tvångsanslutningen
@@ -7587,16 +7523,12 @@
             mycket väl medvetna om att detta utredningsarbete och även det
             Schallingska betänkandet har rört deras vara eller icke vara.
           </seg>
-        </u>
-        <u xml:id="i-KNZRMojtkMp1Yk36ivqQmu" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-469e2adcedc55e76-1" next="i-469e2adcedc55e76-2">
           <seg xml:id="i-PPLXfUVrCaCZJYb4UakjUK">
             Av betänkandet, av remissyttrandena och av propositionen framgår
             också samtliga de synpunkter, som är av värde vid bedömande av
             denna fråga, och ytterligare utredning för att bedöma själva sakfrågan,
             om försam-
           </seg>
-        </u>
-        <u xml:id="i-469e2adcedc55e76-2" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-KNZRMojtkMp1Yk36ivqQmu" next="i-AhDpGzWa7Xw1GinszUjcEL">
           <seg xml:id="i-HRota7gFLMjFhf5rpW3n7U">
             lingarna bör upplösas eller icke, torde knappast vara erforderlig.
           </seg>
@@ -7644,7 +7576,7 @@
         <note xml:id="i-7V5Gx9FN2kUppuPC8RScRy">
           Nr 23. 69
         </note>
-        <u xml:id="i-AhDpGzWa7Xw1GinszUjcEL" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-469e2adcedc55e76-2" next="i-PSw6iacpodnsuUKuhRRPc1">
+        <u xml:id="i-AhDpGzWa7Xw1GinszUjcEL" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-469e2adcedc55e76-1" next="i-PSw6iacpodnsuUKuhRRPc1">
           <seg xml:id="i-Ah2sZAxbX4WBxfqf6ah5Wa">
             Medlemskapet i finska församlingen i Stockholm samt tyska församlingarna
             i Stock-
@@ -7653,7 +7585,7 @@
         <note xml:id="i-NFKwDPLqZTpUKHTLX3ao8m">
           holm och Göteborg m. m.
         </note>
-        <u xml:id="i-PSw6iacpodnsuUKuhRRPc1" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-AhDpGzWa7Xw1GinszUjcEL" next="i-469e2adcedc55e76-3">
+        <u xml:id="i-PSw6iacpodnsuUKuhRRPc1" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-AhDpGzWa7Xw1GinszUjcEL">
           <seg xml:id="i-WyYY7dH3yNxfjztqWwY6jx">
             ur den sista vetenskapliga utredning av dessa spörsmål, som förmodligen
             finns, nämligen förre kammarrådet Skoglunds utredning om Skeppsholms
@@ -7665,8 +7597,6 @@
             genom lag om ordning och villkor för ändring i kommunal och ecklesiastik
             indelning den 13 juni 1919.»
           </seg>
-        </u>
-        <u xml:id="i-469e2adcedc55e76-3" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-PSw6iacpodnsuUKuhRRPc1">
           <seg xml:id="i-YRvx7yqsWqdpyGLVCzUhH4">
             Detta gör att utskottets ställningstagande blir ändå egendomligare.
             Man yrkar alltså på en ytterligare utredning i en fråga, som aldrig
@@ -7758,7 +7688,7 @@
         <note xml:id="i-3KBB1ajba9TkuUGR7X8xXt">
           holm och Göteborg m. m.
         </note>
-        <u xml:id="i-XEZV1NmvKpUoKR7kqhSa6f" who="i-VD3ayfYPfGVgSzgaiMXnrs" prev="i-DPks2M1vuKoXwa7qJ62PJY" next="i-f37b50a2f82add26-1">
+        <u xml:id="i-XEZV1NmvKpUoKR7kqhSa6f" who="i-VD3ayfYPfGVgSzgaiMXnrs" prev="i-DPks2M1vuKoXwa7qJ62PJY">
           <seg xml:id="i-E7vrig6virSf5sNExUczcQ">
             Kungl. Maj:ts beslut den 7 mars 1785 —- tillkommande tonnageavgifter
             av till Göteborg ankommande tyska och holländska fartyg samt att
@@ -7767,8 +7697,6 @@
             En konsekvens härav skulle bli, att Kristine territoriella församling
             komme att utestängas från kyrkan.»
           </seg>
-        </u>
-        <u xml:id="i-f37b50a2f82add26-1" who="i-VD3ayfYPfGVgSzgaiMXnrs" prev="i-XEZV1NmvKpUoKR7kqhSa6f">
           <seg xml:id="i-FkNjoEgKhASAEYHotJYV42">
             Jag anser alltså att det fortfarande finns en hel del frågetecken,
             hur det förhåller sig med den kyrkliga egendomen här i Stockholm
@@ -8027,7 +7955,7 @@
         <note xml:id="i-EAh7iuiAuiLCgv5Xt88gdp">
           holm och Göteborg m. m.
         </note>
-        <u xml:id="i-60f4ecf650ca8d78-4" who="i-EwWj1hhTj77GkxX2Z7SW8V" prev="i-9vQsYPUpucwGSKRQLH98e2" next="i-EF7CUqanWQr55kxa2ntqoK">
+        <u xml:id="i-60f4ecf650ca8d78-4" who="i-EwWj1hhTj77GkxX2Z7SW8V" prev="i-9vQsYPUpucwGSKRQLH98e2">
           <seg xml:id="i-MwpTZxGMDackXmG3YeZHGS">
             revidering av församlingsindelningen är aktuell. Vi har här i
             Stockholm många frågor, som snart måste lösas. De sammanhänger
@@ -8035,8 +7963,6 @@
             har två präster på ett mycket stort antal medborgare. Vi försöker
             här endast befordra en lösning, som förr eller senare måste komma.
           </seg>
-        </u>
-        <u xml:id="i-EF7CUqanWQr55kxa2ntqoK" who="i-EwWj1hhTj77GkxX2Z7SW8V" prev="i-60f4ecf650ca8d78-4">
           <seg xml:id="i-WiBbByB2Xq8rCQsmT4Xr9Z">
             Herr talman! Med denna motivering ber jag att få yrka bifall
             till reservationen nr 2 av herrar Lindberg och Ekström.
@@ -8485,12 +8411,10 @@
         <note xml:id="i-BAGXhgXm9nteP7uksDQYvH" type="speaker">
           Herr EDENMAN (s) kort genmäle:
         </note>
-        <u xml:id="i-1d5caa42d6d5fb72-0" who="i-8FeKtrT5DmgTKt1JtCcHmB" next="i-4282ed1e8d3a14e0-2">
+        <u xml:id="i-1d5caa42d6d5fb72-0" who="i-8FeKtrT5DmgTKt1JtCcHmB">
           <seg xml:id="i-QKLZqNH2VUchF5ngjhRMvd">
             Herr talman! Herr Håstads uppfattning
           </seg>
-        </u>
-        <u xml:id="i-4282ed1e8d3a14e0-2" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-1d5caa42d6d5fb72-0">
           <seg xml:id="i-DX9ptLc1CUvJvBcBkKB5HF">
             om remissförfarandet kan inte få stå oemotsagt, anser jag. Det
             är ju ingalunda så att Schalling uteslutande — för att använda
@@ -8874,7 +8798,7 @@
         <note xml:id="i-RBRFLBS8C58M8tY2X3JeQN">
           holm och Göteborg m. m.
         </note>
-        <u xml:id="i-892c4e4257766837-1" who="i-ABFN9YRCJxWR5CQLV4KEKc" prev="i-8b8sJRy7u4bajxidGEv1hw" next="i-41U6FaBJVZ8qzECotHTkn5">
+        <u xml:id="i-892c4e4257766837-1" who="i-ABFN9YRCJxWR5CQLV4KEKc" prev="i-8b8sJRy7u4bajxidGEv1hw">
           <seg xml:id="i-FrUg9QqBEzB8fsVrJuEpXU">
             fas. Det som enligt mitt förmenande här är den springande punkten
             och som gör att församlingarna anser att de nu kämpar för sitt
@@ -8902,8 +8826,6 @@
             och jag vill inte engagera mig för någon ovänlig handling gentemot
             dessa församlingar.
           </seg>
-        </u>
-        <u xml:id="i-41U6FaBJVZ8qzECotHTkn5" who="i-ABFN9YRCJxWR5CQLV4KEKc" prev="i-892c4e4257766837-1">
           <seg xml:id="i-P6Z9M9CpScnETHc1H4zjLn">
             Jag ber, herr talman, att få yrka bifall till utskottets framställning.
           </seg>
@@ -9077,14 +8999,12 @@
         <note xml:id="i-721zHhYyiDUiWobWpN1Grm" type="speaker">
           Herr DAHLÉN (fp):
         </note>
-        <u xml:id="i-62236031a5c2db0c-0" who="i-DYgzAT37kBVShgAsK7YzHQ" next="i-BMGF5Fch1VDf3J8tqhBx7b">
+        <u xml:id="i-62236031a5c2db0c-0" who="i-DYgzAT37kBVShgAsK7YzHQ" next="i-Krpt59X2TMJGqUDxdH1Wre">
           <seg xml:id="i-QRVNK5Wd6M3dAyjoMRBsZH">
             Herr talman! Jag har emot vissa delar av utskottets motivering
             fogat en blank reservation, vilken jag endast med några korta
             ord skall motivera.
           </seg>
-        </u>
-        <u xml:id="i-BMGF5Fch1VDf3J8tqhBx7b" who="i-DYgzAT37kBVShgAsK7YzHQ" prev="i-62236031a5c2db0c-0" next="i-Krpt59X2TMJGqUDxdH1Wre">
           <seg xml:id="i-DaZw5tQzgEbxsdiWPtozAh">
             Utlåtandet berör en motion av herr Herlitz beträffande en utredning
             angående möjligheten och lämpligheten av att organ valda av riksdagen
@@ -9102,12 +9022,10 @@
           Motion om inrättande av särskilda organ för samverkan mellan
           riksdagen och
         </note>
-        <u xml:id="i-Krpt59X2TMJGqUDxdH1Wre" who="i-DYgzAT37kBVShgAsK7YzHQ" prev="i-BMGF5Fch1VDf3J8tqhBx7b" next="i-52396de937df46b3-6">
+        <u xml:id="i-Krpt59X2TMJGqUDxdH1Wre" who="i-DYgzAT37kBVShgAsK7YzHQ" prev="i-62236031a5c2db0c-0" next="i-52396de937df46b3-7">
           <seg xml:id="i-9A59yTYrN6Ln2hJwqUon1X">
             regeringen vid behandlingen av vissa
           </seg>
-        </u>
-        <u xml:id="i-52396de937df46b3-6" who="i-DYgzAT37kBVShgAsK7YzHQ" prev="i-Krpt59X2TMJGqUDxdH1Wre" next="i-EBzJoCjxYC8gVYJWqPnAfd">
           <seg xml:id="i-H5ptU1vk4DQuTynn9Vm2q1">
             för samverkan med regeringen vid behandlingen av vissa grupper
             av ärenden. Jag vill säga, att uppslaget är utomordentligt intressant.
@@ -9140,8 +9058,6 @@
             över sig. En öppen deklaration av vad man har kommit fram till
             är nödvändig.
           </seg>
-        </u>
-        <u xml:id="i-EBzJoCjxYC8gVYJWqPnAfd" who="i-DYgzAT37kBVShgAsK7YzHQ" prev="i-52396de937df46b3-6" next="i-52396de937df46b3-7">
           <seg xml:id="i-GUSpQzgdnRGBbazPUGqxSj">
             Herr Herlitz” motion var så pass obe-
           </seg>
@@ -9149,7 +9065,7 @@
         <note xml:id="i-HkzxNiAhqQMuAmzbiKkbHR">
           grupper av ärenden.
         </note>
-        <u xml:id="i-52396de937df46b3-7" who="i-DYgzAT37kBVShgAsK7YzHQ" prev="i-EBzJoCjxYC8gVYJWqPnAfd">
+        <u xml:id="i-52396de937df46b3-7" who="i-DYgzAT37kBVShgAsK7YzHQ" prev="i-Krpt59X2TMJGqUDxdH1Wre">
           <seg xml:id="i-B3nPWfvRbExa4gJC7PeZbo">
             stämd i sina formuleringar, att det inte fanns möjlighet för
             mig ehuru jag var positivt inställd till frågan — att yrka bifall
@@ -9211,12 +9127,10 @@
           Motion om inrättande av särskilda organ för samverkan mellan
           riksdagen och
         </note>
-        <u xml:id="i-XviN7XWSr64P9gutjVscFt" who="i-S9dMiL9yRpDaYPfVGjK1Gp" prev="i-4282ed1e8d3a14e0-4" next="i-4282ed1e8d3a14e0-5">
+        <u xml:id="i-XviN7XWSr64P9gutjVscFt" who="i-S9dMiL9yRpDaYPfVGjK1Gp" prev="i-4282ed1e8d3a14e0-4" next="i-4282ed1e8d3a14e0-6">
           <seg xml:id="i-QqyWkTjsMXbXjhdJDQT41t">
             regeringen vid behandlingen av vissa
           </seg>
-        </u>
-        <u xml:id="i-4282ed1e8d3a14e0-5" who="i-S9dMiL9yRpDaYPfVGjK1Gp" prev="i-XviN7XWSr64P9gutjVscFt" next="i-4282ed1e8d3a14e0-6">
           <seg xml:id="i-6u1FbrGNfag7Xrcn99FaeY">
             nämnden och tidigare det hemliga utskottet, erfarenheter som
             har varit alltigenom positiva, låt vara att detta kanske kan förklaras
@@ -9257,7 +9171,7 @@
         <note xml:id="i-TwNQp4JPeJexR2vSYmFsk6">
           grupper av ärenden.
         </note>
-        <u xml:id="i-4282ed1e8d3a14e0-6" who="i-S9dMiL9yRpDaYPfVGjK1Gp" prev="i-4282ed1e8d3a14e0-5" next="i-5hU6mp77Q2adpNEBuW7EjU">
+        <u xml:id="i-4282ed1e8d3a14e0-6" who="i-S9dMiL9yRpDaYPfVGjK1Gp" prev="i-XviN7XWSr64P9gutjVscFt" next="i-5hU6mp77Q2adpNEBuW7EjU">
           <seg xml:id="i-Go2iB5LQq1dDDB3c3aoLne">
             dagen grundlagsenligt är tillerkänd. Vi har t. ex. löneproblemet.
             Vi vet hur svårt det numera är för riksdagen att på detta område
@@ -9305,12 +9219,10 @@
           Motion om inrättande av särskilda organ för samverkan mellan
           riksdagen och
         </note>
-        <u xml:id="i-5hU6mp77Q2adpNEBuW7EjU" who="i-S9dMiL9yRpDaYPfVGjK1Gp" prev="i-4282ed1e8d3a14e0-6" next="i-4282ed1e8d3a14e0-7">
+        <u xml:id="i-5hU6mp77Q2adpNEBuW7EjU" who="i-S9dMiL9yRpDaYPfVGjK1Gp" prev="i-4282ed1e8d3a14e0-6">
           <seg xml:id="i-G3kc35AM3haxAVR2SzZmdx">
             regeringen vid behandlingen av vissa
           </seg>
-        </u>
-        <u xml:id="i-4282ed1e8d3a14e0-7" who="i-S9dMiL9yRpDaYPfVGjK1Gp" prev="i-5hU6mp77Q2adpNEBuW7EjU">
           <seg xml:id="i-6qsJsgRfZpPy44Qy3FdL61">
             måste bli att grundlagsreglera dessa frågor från område till
             område och inte generellt lägga en delegationsmakt i riksdagens
@@ -9753,7 +9665,7 @@
         <note xml:id="i-D1Gzk1UcAg4VVY6fxgqQSu">
           Ändrad lagstiftning om tomträtt.
         </note>
-        <u xml:id="i-X118s297zCHqTpqN5FyPDa" who="i-9jhvJdksrB87LGgUuY4HrE" prev="i-d0c5ffdaffcb0e78-0" next="i-c6300f736ed923bc-3">
+        <u xml:id="i-X118s297zCHqTpqN5FyPDa" who="i-9jhvJdksrB87LGgUuY4HrE" prev="i-d0c5ffdaffcb0e78-0" next="i-c6300f736ed923bc-4">
           <seg xml:id="i-2hEyQHb2gtPJMVFfLxvd4g">
             skulle vara förbjudna för markägaren att föreskriva, orden »nyttjanderätt,
             servitut eller annan särskild rätt». Detta har Kungl. Maj:t gått
@@ -9761,8 +9673,6 @@
             i rätten att upplåta nyttjanderätt i tomträtten må ske allenast
             med Konungens medgivande.»
           </seg>
-        </u>
-        <u xml:id="i-c6300f736ed923bc-3" who="i-9jhvJdksrB87LGgUuY4HrE" prev="i-X118s297zCHqTpqN5FyPDa" next="i-XhM2pBFGsHA1yJrqbu4exL">
           <seg xml:id="i-BBjfgzwfTnbjP5Z1ieGQdC">
             Utskottets majoritet har nu föreslagit något mitt emellan. Man
             föreslår, att som fortsättning efter ordet »panträtt» skulle upptagas
@@ -9773,14 +9683,10 @@
             väl avvägt. Man kan säga, att det innebär principiellt förbud
             för markägaren att införa inskränkning i nytt-
           </seg>
-        </u>
-        <u xml:id="i-XhM2pBFGsHA1yJrqbu4exL" who="i-9jhvJdksrB87LGgUuY4HrE" prev="i-c6300f736ed923bc-3" next="i-TiwRVmVWtow8ET71RcvdQP">
           <seg xml:id="i-HsrUbjY5yWupPjqaND6UfC">
             janderättsupplåtelser, men efter Konungens prövning skulle sådan
             in-
           </seg>
-        </u>
-        <u xml:id="i-TiwRVmVWtow8ET71RcvdQP" who="i-9jhvJdksrB87LGgUuY4HrE" prev="i-XhM2pBFGsHA1yJrqbu4exL" next="i-c6300f736ed923bc-4">
           <seg xml:id="i-YacgyLKq8b67GjzfS6qeXb">
             skränkning kunna ske. Enligt utskottsmajoritetens förslag skulle
             man i stället få ett totalförbud för kommunerna att ställa några
@@ -9811,7 +9717,7 @@
         <note xml:id="i-M9t7Rsur5vQyBrfsKnw1zJ">
           Ändrad lagstiftning om tomträtt.
         </note>
-        <u xml:id="i-c6300f736ed923bc-4" who="i-9jhvJdksrB87LGgUuY4HrE" prev="i-TiwRVmVWtow8ET71RcvdQP">
+        <u xml:id="i-c6300f736ed923bc-4" who="i-9jhvJdksrB87LGgUuY4HrE" prev="i-X118s297zCHqTpqN5FyPDa">
           <seg xml:id="i-2xjWRLH19xcgN9kJiZBL1g">
             Flera exempel kan anföras, men jag skall inte förlänga debatten
             med någon uppräkning, utan jag anhåller, herr talman, att med
@@ -9825,7 +9731,7 @@
         <note xml:id="i-6ks6R4abwD1Z1T232Toyzx" type="speaker">
           Herr ANDERSSON i Löbbo (s):
         </note>
-        <u xml:id="i-2ae0994fa927b64e-1" who="i-LToMcVXu3j48yboSLK1sPQ" next="i-2HW5kX2KQcc5qif3Hv7N62">
+        <u xml:id="i-2ae0994fa927b64e-1" who="i-LToMcVXu3j48yboSLK1sPQ" next="i-c6300f736ed923bc-7">
           <seg xml:id="i-NGSTkkjBMjwbRTJTteCq3K">
             Herr talman! I huvudsak har lagutskottet tillstyrkt de i propositionen
             framlagda förslagen om ändring i lagen om nyttjanderätt till fast
@@ -9850,14 +9756,10 @@
             så kan ske, ha ungefär samma starka ställning som en fastighetsägare.
             I denna strävan kan man dock inte gå hur långt som helst.
           </seg>
-        </u>
-        <u xml:id="i-2HW5kX2KQcc5qif3Hv7N62" who="i-LToMcVXu3j48yboSLK1sPQ" prev="i-2ae0994fa927b64e-1" next="i-c6300f736ed923bc-6">
           <seg xml:id="i-8udji9NnMBwyFtFvCsb7Hd">
             Vissa samhällsintressen — samhällsintressen som motiverar den
             särskilda upplåtelseformen tomträtt — skulle gi-
           </seg>
-        </u>
-        <u xml:id="i-c6300f736ed923bc-6" who="i-LToMcVXu3j48yboSLK1sPQ" prev="i-2HW5kX2KQcc5qif3Hv7N62" next="i-c6300f736ed923bc-7">
           <seg xml:id="i-6YaCL99Xk5m5GZG1BqVNFe">
             vetvis inte få uppoffras eller gå förlorade. Som sådana samhällsintressen
             har under reformarbetet beaktats dels möjligheten för tomträttsupplåtare,
@@ -9868,7 +9770,7 @@
         <note xml:id="i-LxwKA4vRZbgQjgySCQaBMm" type="date">
           Tisdagen den 26 maj 1953.
         </note>
-        <u xml:id="i-c6300f736ed923bc-7" who="i-LToMcVXu3j48yboSLK1sPQ" prev="i-c6300f736ed923bc-6" next="i-c6300f736ed923bc-8">
+        <u xml:id="i-c6300f736ed923bc-7" who="i-LToMcVXu3j48yboSLK1sPQ" prev="i-2ae0994fa927b64e-1" next="i-c6300f736ed923bc-8">
           <seg xml:id="i-Cddqj1uADeE1GEvLGzruKC">
             och dels tomträttsupplåtarens intresse av att vid behov under
             vissa förutsättningar kunna förfoga över tomträttsmarken för nytt,
@@ -10096,7 +9998,7 @@
         <note xml:id="i-V8n5LJCuyVkC1Yjr1nqhwn" type="date">
           Tisdagen den 26 maj 1953.
         </note>
-        <u xml:id="i-18c8e8f7dd1c4f64-1" who="i-YSrEXA7QyL1W5GnLzxdrvH" prev="i-18c8e8f7dd1c4f64-0" next="i-VxCFsDim1JfPdoqyZbbwx1">
+        <u xml:id="i-18c8e8f7dd1c4f64-1" who="i-YSrEXA7QyL1W5GnLzxdrvH" prev="i-18c8e8f7dd1c4f64-0" next="i-18c8e8f7dd1c4f64-2">
           <seg xml:id="i-3Tn7gZ1pfSaTmNYgw7o3Jt">
             endast efter Kungl. Maj:ts tillstånd. Utskottet har emeilertid
             ansett att Kungl. Maj:ts förslag gick tillräckligt långt, och
@@ -10128,8 +10030,6 @@
             kan genom en dylik överenskommelse tillförsäkra de tidigare innehavarna
             av
           </seg>
-        </u>
-        <u xml:id="i-VxCFsDim1JfPdoqyZbbwx1" who="i-YSrEXA7QyL1W5GnLzxdrvH" prev="i-18c8e8f7dd1c4f64-1" next="i-18c8e8f7dd1c4f64-2">
           <seg xml:id="i-RjV6jpCAmrdjdzwFLVo99B">
             inte
           </seg>
@@ -10140,7 +10040,7 @@
         <note xml:id="i-PiBJ4pCpi3SbkRzw4Va3M8">
           Ändrad lagstiftning om tomträtt.
         </note>
-        <u xml:id="i-18c8e8f7dd1c4f64-2" who="i-YSrEXA7QyL1W5GnLzxdrvH" prev="i-VxCFsDim1JfPdoqyZbbwx1" next="i-91qdaAUVwcvRWkKMSRP1bB">
+        <u xml:id="i-18c8e8f7dd1c4f64-2" who="i-YSrEXA7QyL1W5GnLzxdrvH" prev="i-18c8e8f7dd1c4f64-1" next="i-91qdaAUVwcvRWkKMSRP1bB">
           <seg xml:id="i-6S66cGGTktimiEvz5MLkCk">
             en rörelse eller affärsmännen rätten att flytta tillbaka till
             sina kvarter. Nu sade visserligen den senaste talaren, herr Andersson
@@ -10929,7 +10829,7 @@
         <note xml:id="i-8BdzcMtoXozTuyAKifxxAr">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-JWaXStnHRYRt9rS6Yr4YWk" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-5t1K7Pohokgz3i1QA1cV9X" next="i-8b1784c49ada8e1f-5">
+        <u xml:id="i-JWaXStnHRYRt9rS6Yr4YWk" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-5t1K7Pohokgz3i1QA1cV9X" next="i-DYk6RtEUhDt6ibjcNvE15g">
           <seg xml:id="i-LG87rCrTuqfkKcaqYVzWu2">
             delsefulla hänseenden annat innehåll än som tidigare bestämts.
             I förslaget hade vidare uppdragits riktlinjer för en ny obligatorisk
@@ -10961,8 +10861,6 @@
             allmänna sjukförsäkringen skulle för en tid av 90 dagar reglera
             även
           </seg>
-        </u>
-        <u xml:id="i-8b1784c49ada8e1f-5" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-JWaXStnHRYRt9rS6Yr4YWk" next="i-DYk6RtEUhDt6ibjcNvE15g">
           <seg xml:id="i-Nz6UFVgwnhDCxoAodXUzRF">
             sjukdomsfall, som föranletts av olycksfall i arbete eller eljest
             av yrkesskada. Under denna s. k. samordningstid skulle alltså
@@ -11156,7 +11054,7 @@
         <note xml:id="i-WSsybNNijgqvmTMLTBy1Pc">
           Vid utlåtandet hade fogats ett flertal reservationer.
         </note>
-        <u xml:id="i-DYk6RtEUhDt6ibjcNvE15g" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-8b1784c49ada8e1f-5" next="i-7j2CcdKnPNtxDfN2eWd957">
+        <u xml:id="i-DYk6RtEUhDt6ibjcNvE15g" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-JWaXStnHRYRt9rS6Yr4YWk" next="i-7j2CcdKnPNtxDfN2eWd957">
           <seg xml:id="i-6bjQD793umE7eaQUjebDT3">
             I det följande lämnas en närmare redogörelse i avseende å de
             delar av förslaget, vilka i kammaren voro föremål för särskilda,
@@ -11384,14 +11282,12 @@
         <note xml:id="i-GdPQy6wgg7NtS9uPVSHdvF">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-LVxc6qcy4CPA7DDAayJhKi" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-2GJfmjmUPotdYDjSLrsxmE" next="i-8b1784c49ada8e1f-12">
+        <u xml:id="i-LVxc6qcy4CPA7DDAayJhKi" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-2GJfmjmUPotdYDjSLrsxmE" next="i-69zF6tzmUeKSPTPStL6E4C">
           <seg xml:id="i-2inxXEqoy3eF9u3SS5CbRD">
             då vården beretts å hemortssjukhus, med belopp, som motsvarar
             den för sådan vård vid sjukhuset tillämpade avgiften å allmän
             sal,
           </seg>
-        </u>
-        <u xml:id="i-8b1784c49ada8e1f-12" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-LVxc6qcy4CPA7DDAayJhKi" next="i-AWv4nRzWARW3ewW6T9Mve8">
           <seg xml:id="i-Q4XE4FEWSQ5W9rPS7NvWu">
             då erforderlig vård ej kunnat beredas å hemortssjukhus eller
             behovet av sjukhusvården uppkommit utanför det landstingsområde
@@ -11400,8 +11296,6 @@
             sjukhus, med belopp, som motsvarar den lägsta avgift, mot vilken
             den sjuke kunnat erhålla vården å sjukhuset,
           </seg>
-        </u>
-        <u xml:id="i-AWv4nRzWARW3ewW6T9Mve8" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-8b1784c49ada8e1f-12" next="i-69zF6tzmUeKSPTPStL6E4C">
           <seg xml:id="i-YF57XL1wsebMd2tiJwNkKe">
             då vården annorstädes än å allmänt sjukhus beretts genom pensionsstyrelsens
             försorg, med belopp, som motsvarar den lägsta för sådan vård utgående
@@ -11416,7 +11310,7 @@
         <note xml:id="i-Kwrc4NUqB2d2R27rZ8kLZ2" type="title">
           16 § (första stycket).
         </note>
-        <u xml:id="i-69zF6tzmUeKSPTPStL6E4C" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-AWv4nRzWARW3ewW6T9Mve8" next="i-UhfZF3hBaHKxhZsrodshx1">
+        <u xml:id="i-69zF6tzmUeKSPTPStL6E4C" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-LVxc6qcy4CPA7DDAayJhKi" next="i-UhfZF3hBaHKxhZsrodshx1">
           <seg xml:id="i-RixCGFUbsxeveZSE6V2zZg">
             Är försäkrad enligt 14 $ berättigad till ersättning för utgifter
             för läkarvård, skall ersättning utgå jämväl för utgifterna för
@@ -11571,12 +11465,10 @@
         <note xml:id="i-WUaGycTwby7mp5Copmf5v5">
           Varje sjukpenningförsäkrad medlem
         </note>
-        <u xml:id="i-Phq2rhuJVaSKQzWPTsFZ2v" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-Eq8Puq51zGnvfKnmqBVZjx" next="i-6aJm6SpU1wAhmDjYq63Jei">
+        <u xml:id="i-Phq2rhuJVaSKQzWPTsFZ2v" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-Eq8Puq51zGnvfKnmqBVZjx" next="i-8b1784c49ada8e1f-23">
           <seg xml:id="i-D7xvaWV8gFM8SdaiGH2YSe">
             är försäkrad för grundsjukpen-
           </seg>
-        </u>
-        <u xml:id="i-6aJm6SpU1wAhmDjYq63Jei" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-Phq2rhuJVaSKQzWPTsFZ2v" next="i-8b1784c49ada8e1f-23">
           <seg xml:id="i-HGtqaKXbyqd6oCe7tJQF4L">
             ning. Hel grundsjukpenning utgör tre kronor.
           </seg>
@@ -11590,13 +11482,11 @@
           bestämmes av den sjukpenningklass medlemmen = tillhör. Tillhörighet
           till
         </note>
-        <u xml:id="i-8b1784c49ada8e1f-23" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-6aJm6SpU1wAhmDjYq63Jei" next="i-JucrjbwPvj6xXKqhmqGaQo">
+        <u xml:id="i-8b1784c49ada8e1f-23" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-Phq2rhuJVaSKQzWPTsFZ2v" next="i-TSpiNrkt18p3939xADN5Ls">
           <seg xml:id="i-FF1Gy67v8axkgxigVXVErb">
             högre sjukpenningklass än den första är beroende allenast av
             medlemmens årsinkomst av tjänst.
           </seg>
-        </u>
-        <u xml:id="i-JucrjbwPvj6xXKqhmqGaQo" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-8b1784c49ada8e1f-23" next="i-TSpiNrkt18p3939xADN5Ls">
           <seg xml:id="i-Tb172mQ2K9LW4uZWdZ8ECE">
             Sjukpenningklasserna och beloppet av hel sjukpenning inom varje
             klass framgå av följande tabell:!
@@ -11605,7 +11495,7 @@
         <note xml:id="i-8oxv9VbN1Ep6XfhoCQ1wyf">
           Halv sjukpenning utgör hälften av hel sjukpenning.
         </note>
-        <u xml:id="i-TSpiNrkt18p3939xADN5Ls" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-JucrjbwPvj6xXKqhmqGaQo" next="i-MMpkiihVLkwubhrTVSoWxs">
+        <u xml:id="i-TSpiNrkt18p3939xADN5Ls" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-8b1784c49ada8e1f-23" next="i-MMpkiihVLkwubhrTVSoWxs">
           <seg xml:id="i-7UVj4bG11tYazb1viYdQQP">
             Vid beräkning av den tid av nittio dagar, varefter tilläggssjukpenning
             utgår med lägre belopp i fjärde till och med trettonde sjukpenningklasserna,
@@ -11971,7 +11861,7 @@
         <note xml:id="i-GTDzioubMTLEiP2TiyHNfk">
           33 8.
         </note>
-        <u xml:id="i-8b1784c49ada8e1f-38" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-X6beTQjKGsWXpdwA7T1zBJ" next="i-UtizGx2SvM2h6JzFz6ZSKV">
+        <u xml:id="i-8b1784c49ada8e1f-38" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-X6beTQjKGsWXpdwA7T1zBJ" next="i-2XX7kGnrZLTHQ3WQaf4pGL">
           <seg xml:id="i-Tat5jm9oX4Twkqw41vjH9f">
             Medlem i allmän sjukkassa är pliktig att erlägga avgift för försäkringen
             (sjukförsäkringsavgift), som enligt vad nedan sägs innefattar
@@ -11980,8 +11870,6 @@
             medlem i såväl lokaloch centralsjukkassa skall erlägga försäkringsavgift
             i båda kassorna.
           </seg>
-        </u>
-        <u xml:id="i-UtizGx2SvM2h6JzFz6ZSKV" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-8b1784c49ada8e1f-38" next="i-2XX7kGnrZLTHQ3WQaf4pGL">
           <seg xml:id="i-AqiXFyEqayWop1wdGxv3zP">
             Avgift för försäkringen för grundsjukpenning skall erläggas av
             medlem, som vid utgången av det år avgiften avser är försäkrad
@@ -11998,7 +11886,7 @@
         <note xml:id="i-3UpP67XM1cndjQVSmSKR3b">
           Medlem, som — — — makens sjukförsäkringsavgift.
         </note>
-        <u xml:id="i-2XX7kGnrZLTHQ3WQaf4pGL" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-UtizGx2SvM2h6JzFz6ZSKV" next="i-8b1784c49ada8e1f-40">
+        <u xml:id="i-2XX7kGnrZLTHQ3WQaf4pGL" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-8b1784c49ada8e1f-38" next="i-8b1784c49ada8e1f-40">
           <seg xml:id="i-3JTuMnvn6R3aTepVT6QJkF">
             Utskottets förslag innefattade, såsom förut nämnts, tillstyrkande
             av Kungl. Maj:ts förslag.
@@ -12074,7 +11962,7 @@
         <note xml:id="i-CK8xKZ26fXcRMHN5DWA4fS">
           34 8.
         </note>
-        <u xml:id="i-8b1784c49ada8e1f-42" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-LgrTkLKGqPc8FDL7aTmYQ2" next="i-HqHavXuUD3wZKC23NNG9cb">
+        <u xml:id="i-8b1784c49ada8e1f-42" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-LgrTkLKGqPc8FDL7aTmYQ2" next="i-8b1784c49ada8e1f-43">
           <seg xml:id="i-61fRRgPsPNGcp4uRZe8K7T">
             Avgifterna för försäkringen = för grundsjukpenning skall vara
             så avvägda, att de i förening med andra för ifrågavarande del
@@ -12084,8 +11972,6 @@
             ävensom till erforderlig fondbildning. Kassans förvaltningskostnader
             skall härvid i sin helhet fördelas på avgifterna för för-
           </seg>
-        </u>
-        <u xml:id="i-HqHavXuUD3wZKC23NNG9cb" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-8b1784c49ada8e1f-42" next="i-8b1784c49ada8e1f-43">
           <seg xml:id="i-F8PkkYru69r7i56u35GNqg">
             säkringen för grundsjukpenning och på bidragen till försäkringen
             för tillläggssjukpenning.
@@ -12114,7 +12000,7 @@
         <note xml:id="i-51LazWaqboArNUHecqtymD">
           30 8.
         </note>
-        <u xml:id="i-8b1784c49ada8e1f-43" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-HqHavXuUD3wZKC23NNG9cb" next="i-8b1784c49ada8e1f-44">
+        <u xml:id="i-8b1784c49ada8e1f-43" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-8b1784c49ada8e1f-42" next="i-8b1784c49ada8e1f-44">
           <seg xml:id="i-Y3xHX245yBvedz1v7sscP5">
             Överstiger medlems sammanlagda avgift för sjukvårdsförsäkringen
             och försäkringen för grundsjukpenning två procent av hans vid
@@ -12176,7 +12062,7 @@
         <note xml:id="i-A3xEaXKeCv1TtpfSdHDDQ5">
           39 8. Beloppet av de i 38 $ avsedda bi-
         </note>
-        <u xml:id="i-LrfaJm7GgL6umULGi1DnMs" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-8b1784c49ada8e1f-45" next="i-R2RMJMbddd9uF21RFivGQV">
+        <u xml:id="i-LrfaJm7GgL6umULGi1DnMs" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-8b1784c49ada8e1f-45" next="i-LhNswiQxz6VPpNhWtkfoUj">
           <seg xml:id="i-3eJg5aWdpHnAJFcXLyDT22">
             drag, som belöpa å ett kalenderår, skall i den ordning Konungen
             bestämmer fördelas mellan centralsjukkassorna i förhållande till,
@@ -12188,8 +12074,6 @@
             en fond att förvaltas enligt grunder, som fastställas i enahanda
             ordning.
           </seg>
-        </u>
-        <u xml:id="i-R2RMJMbddd9uF21RFivGQV" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-LrfaJm7GgL6umULGi1DnMs" next="i-LhNswiQxz6VPpNhWtkfoUj">
           <seg xml:id="i-U4zovu9w9E9Ujmu1iJhgP">
             I avräkning å de bidrag, som komma att debiteras för visst kalenderår,
             äger centralssjukkassa av statsverket erhålla förskott enligt
@@ -12200,7 +12084,7 @@
           41 8. Sjukhjälpsbidrag utgår till centralsjukkassa med nedan
           angivna procentuella andel av de utgifter un-
         </note>
-        <u xml:id="i-LhNswiQxz6VPpNhWtkfoUj" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-R2RMJMbddd9uF21RFivGQV" next="i-ACgByZgGm6AnLE6VNcbcZg">
+        <u xml:id="i-LhNswiQxz6VPpNhWtkfoUj" who="i-BtszRKWKgFfiTcr2r2Ek6j" prev="i-LrfaJm7GgL6umULGi1DnMs" next="i-ACgByZgGm6AnLE6VNcbcZg">
           <seg xml:id="i-DsqDfX1Kc2UbHZbGbhrgcJ">
             der kalenderåret, som bestritts av centralsjukkassan och till
             denna anslutna lokalsjukkassor, nämligen för
@@ -12678,7 +12562,7 @@
         <note xml:id="i-PJrCUdGWCgRiXxK7Ppb7of">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-d8eee358dcc55043-2" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-d8eee358dcc55043-1" next="i-Xr5snTuy3FRKbpEgtcHv4W">
+        <u xml:id="i-d8eee358dcc55043-2" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-d8eee358dcc55043-1" next="i-d8eee358dcc55043-4">
           <seg xml:id="i-Wrpcq8c1WwR8ng4q7mZRZi">
             tas av ett positivt reformarbete. Vad som särskilt förundrar
             i detta sammanhang är att herr Hagård återfinns som reservant
@@ -12697,15 +12581,11 @@
             att de borgerliga ständigt varit desamma men man har förvillats
             av att de under vissa förhållanden gjort avsteg.
           </seg>
-        </u>
-        <u xml:id="i-Xr5snTuy3FRKbpEgtcHv4W" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-d8eee358dcc55043-2" next="i-d8eee358dcc55043-3">
           <seg xml:id="i-32Loyxm3ecEb2jDcTRLtUp">
             Jag ber därför, herr talman, att få yrka bifall till Kungl. Maj:ts
             förslag att sjukreformen skall träda i kraft från den 1 januari
             1955.
           </seg>
-        </u>
-        <u xml:id="i-d8eee358dcc55043-3" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-Xr5snTuy3FRKbpEgtcHv4W" next="i-d8eee358dcc55043-4">
           <seg xml:id="i-TZaXAG9TuhwgDCKKxCLgqA">
             Jag kan villigt erkänna att vissa frågor i samband med propositionen
             inte är tillräckligt klart utredda, och jag förutsätter att Kungl.
@@ -12768,7 +12648,7 @@
         <note xml:id="i-B8RBCxE3Vkh1ZBT38mk8GH">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-d8eee358dcc55043-4" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-d8eee358dcc55043-3" next="i-d8eee358dcc55043-5">
+        <u xml:id="i-d8eee358dcc55043-4" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-d8eee358dcc55043-2" next="i-d8eee358dcc55043-5">
           <seg xml:id="i-Rktgpmi92EL63qTJGGLXn3">
             sjukkassorna att vidga denna verksamhet. För de sjuka innebär
             detta en förkortning av både lidandet och sjukdomstiden. Jag har
@@ -13114,7 +12994,7 @@
         <note xml:id="i-Hn6SAdED7GwQuAjGsqsALs">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-d8eee358dcc55043-8" who="i-JakM4wBhrw5yCg8hj5n7GM" prev="i-d8eee358dcc55043-7" next="i-2ACq3HTpXq5GejmbBiVhon">
+        <u xml:id="i-d8eee358dcc55043-8" who="i-JakM4wBhrw5yCg8hj5n7GM" prev="i-d8eee358dcc55043-7">
           <seg xml:id="i-Wz1mbciZc3BzvLNyjxyuSP">
             jag velat peka på ett par punkter, där jag anser, att en ändring
             i förslaget bör ske.
@@ -13132,8 +13012,6 @@
             reformen till att omfatta de egentliga, d. v. s. de mera långvariga
             eller allvarliga sjukdomsfallen.
           </seg>
-        </u>
-        <u xml:id="i-2ACq3HTpXq5GejmbBiVhon" who="i-JakM4wBhrw5yCg8hj5n7GM" prev="i-d8eee358dcc55043-8">
           <seg xml:id="i-BwNA3ra5ErBVCMDmXosDqU">
             Jag ber därför, herr talman, att få yrka bifall till den reservation
             som jag i anslutning till 26 $ har fogat till utskottets betänkande
@@ -13465,7 +13343,7 @@
         <note xml:id="i-JigdV9tqUCtE9YSMVi8Wv1">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-86ecaedf6d1248fb-4" who="i-Q5eDvEJRU74CUef88BpzKH" prev="i-86ecaedf6d1248fb-3" next="i-XyiJQhgoxqYcRHRnfMgw25">
+        <u xml:id="i-86ecaedf6d1248fb-4" who="i-Q5eDvEJRU74CUef88BpzKH" prev="i-86ecaedf6d1248fb-3" next="i-86ecaedf6d1248fb-6">
           <seg xml:id="i-5WKBCWUiDfbpvi7rXzP23e">
             När man talar om läkarbristen som ett stort hinder, så måste
             det ju sägas att denna kan innebära olägenheter, när man ger sig
@@ -13527,8 +13405,6 @@
             borde genomföras så snart de ekonomiska förutsättningarna vore
             för handen.
           </seg>
-        </u>
-        <u xml:id="i-XyiJQhgoxqYcRHRnfMgw25" who="i-Q5eDvEJRU74CUef88BpzKH" prev="i-86ecaedf6d1248fb-4" next="i-86ecaedf6d1248fb-5">
           <seg xml:id="i-7nkQn5s3gWkx2vme9Rptfe">
             Ursprungligen bestämdes det att den vid 1946 års riksdag antagna
             lagen skulle träda i kraft den 1 juli 1950. Det blev ett första
@@ -13538,8 +13414,6 @@
             som lämnades av statsministern den 20 april 1950 på natten; detta
             hade han föregående dag lämnat i första kammaren.
           </seg>
-        </u>
-        <u xml:id="i-86ecaedf6d1248fb-5" who="i-Q5eDvEJRU74CUef88BpzKH" prev="i-XyiJQhgoxqYcRHRnfMgw25" next="i-86ecaedf6d1248fb-6">
           <seg xml:id="i-FTAAUR23BP6orfSxj8pSr2">
             Statsministern meddelade i sin deklaration att det visat sig
             nödvändigt att ytterligare uppskjuta ikraftträdandet, denna gång
@@ -13556,7 +13430,7 @@
         <note xml:id="i-PrK8wWhsid4Mcz1hsrGdca">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-86ecaedf6d1248fb-6" who="i-Q5eDvEJRU74CUef88BpzKH" prev="i-86ecaedf6d1248fb-5" next="i-86ecaedf6d1248fb-7">
+        <u xml:id="i-86ecaedf6d1248fb-6" who="i-Q5eDvEJRU74CUef88BpzKH" prev="i-86ecaedf6d1248fb-4" next="i-86ecaedf6d1248fb-7">
           <seg xml:id="i-HWR59wBxwrzzBRgLFgGrPq">
             tidpunkten för lagstiftningens genomförande måste emellertid
             hänsyn tagas även till andra faktorer, främst frågan om de ekonomiska
@@ -13919,33 +13793,25 @@
         <note xml:id="i-CJFs3z9Bf1nBSHtNzJu9kN">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-86ecaedf6d1248fb-10" who="i-NBpwJayKpXu4u1Uu87zKT1" prev="i-c1901f3e8f47f09c-0" next="i-XLoHEHAzraSq9K1WBJrnSA">
+        <u xml:id="i-86ecaedf6d1248fb-10" who="i-NBpwJayKpXu4u1Uu87zKT1" prev="i-c1901f3e8f47f09c-0" next="i-86ecaedf6d1248fb-12">
           <seg xml:id="i-PBDPtCpCb9wSoofpziXy81">
             uttalar därför önskvärdheten av att det i propositionen föreslagna
             uppbördssystemet beträffande försäkringsavgifterna blir föremål
             för ytterligare överväganden inom Kungl. Maj:ts kansli och att
             nästa års riksdag ånyo får ta ställning därtill.
           </seg>
-        </u>
-        <u xml:id="i-XLoHEHAzraSq9K1WBJrnSA" who="i-NBpwJayKpXu4u1Uu87zKT1" prev="i-86ecaedf6d1248fb-10" next="i-E177GKHrM1WacxoqPtcauG">
           <seg xml:id="i-7zYJnTEiFGt5yxcFqLBmmZ">
             Vad de olika paragraferna beträffar har reservanterna vid 8 11
             framhållit, att förefintliga möjligheter till rationa-
           </seg>
-        </u>
-        <u xml:id="i-E177GKHrM1WacxoqPtcauG" who="i-NBpwJayKpXu4u1Uu87zKT1" prev="i-XLoHEHAzraSq9K1WBJrnSA" next="i-Uj8RgbFqKDUE46LDspVEXh">
           <seg xml:id="i-NVxNuxgVX9WGhW95Jt9Arv">
             liseringar och förenklingar av sjukför-'
           </seg>
-        </u>
-        <u xml:id="i-Uj8RgbFqKDUE46LDspVEXh" who="i-NBpwJayKpXu4u1Uu87zKT1" prev="i-E177GKHrM1WacxoqPtcauG" next="i-86ecaedf6d1248fb-11">
           <seg xml:id="i-QTKBv9hKzh51g7VVgXGtNW">
             säkringens administration bör iakttagas, och hemställt att riksdagen
             måtte med godkännande av paragrafen bringa dessa synpunkter om
             förenkling till Kungl. Maj:ts kännedom.
           </seg>
-        </u>
-        <u xml:id="i-86ecaedf6d1248fb-11" who="i-NBpwJayKpXu4u1Uu87zKT1" prev="i-Uj8RgbFqKDUE46LDspVEXh" next="i-86ecaedf6d1248fb-12">
           <seg xml:id="i-NfThwbcjmiJ1jukENkqsCj">
             I anknytning till $$ 35, 38, 39 och 41 framhålles i reservationen,
             att en minskning av statens utgifter bör kunna genomföras — utan
@@ -14015,7 +13881,7 @@
         <note xml:id="i-Sqrr2ZuV8oNExZJrT3HJbj">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-86ecaedf6d1248fb-12" who="i-NBpwJayKpXu4u1Uu87zKT1" prev="i-86ecaedf6d1248fb-11" next="i-86ecaedf6d1248fb-13">
+        <u xml:id="i-86ecaedf6d1248fb-12" who="i-NBpwJayKpXu4u1Uu87zKT1" prev="i-86ecaedf6d1248fb-10" next="i-86ecaedf6d1248fb-13">
           <seg xml:id="i-WTdeLZkRNxSJkdrEk8rTes">
             föreslår, att statsbidraget till den frivilliga sjukpenningförsäkringen
             slopas, minskas utgifterna för statskassan med sammanlagt 42 miljoner
@@ -14286,7 +14152,7 @@
         <note xml:id="i-WS1ijMKaZupoSjAVtWxscf">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-394052675ae31359-6" who="i-8VktB9k3RQP3f855b5miQr" prev="i-394052675ae31359-16" next="i-2E74umJpvaYENmRNnXPVwe">
+        <u xml:id="i-394052675ae31359-6" who="i-8VktB9k3RQP3f855b5miQr" prev="i-394052675ae31359-16">
           <seg xml:id="i-LDKMmz3r8E7aEDAqMbPzL6">
             bifalles av riksdagen — vilket med all sannolikhet sker — så
             anser jag att de gifta hemarbetande kvinnornas intressen redan
@@ -14294,14 +14160,10 @@
             fram till den 1 januari 1955 kan utreda, hur man genom en omdisponering
             inom detta stora kostnadskomplex skall kun-
           </seg>
-        </u>
-        <u xml:id="i-2E74umJpvaYENmRNnXPVwe" who="i-8VktB9k3RQP3f855b5miQr" prev="i-394052675ae31359-6" next="i-394052675ae31359-7">
           <seg xml:id="i-BNP7aRhYtNy4GfRsL93f2e">
             na tillgodose dessa kvinnor — kanske på bekostnad av andra delar
             av programmet.
           </seg>
-        </u>
-        <u xml:id="i-394052675ae31359-7" who="i-8VktB9k3RQP3f855b5miQr" prev="i-2E74umJpvaYENmRNnXPVwe">
           <seg xml:id="i-WdhegHtQVsLz6tJLFCywE8">
             Herr Lundberg frågade mig, om jag kunde ge en anvisning på var
             pengarna skulle tas till utbyggnad av organisationen, om ett tillräckligt
@@ -14654,7 +14516,7 @@
         <note xml:id="i-Nn1MurbcH4w6Ni7afbxkWg" type="speaker">
           Herr CHRISTENSON i Malmö (fp):
         </note>
-        <u xml:id="i-fc05ae0b54dd774a-0" who="i-EkQKNQQonia5BuXejJsb5G" next="i-REcJPshXaCt39wPsMqYAbk">
+        <u xml:id="i-fc05ae0b54dd774a-0" who="i-EkQKNQQonia5BuXejJsb5G" next="i-394052675ae31359-13">
           <seg xml:id="i-WfACUG6zvsaRHnVkFZxYVN">
             Herr talman! En granskning av propositionen om = sjukförsäkringsreformen
             visar att den är behäftad med åtskilliga brister. Således ställes
@@ -14667,14 +14529,10 @@
             samordnade yrkesskadeförsäkringen. Detta civila arbetstagarbegrepp
             är snävare än det som hittills
           </seg>
-        </u>
-        <u xml:id="i-REcJPshXaCt39wPsMqYAbk" who="i-EkQKNQQonia5BuXejJsb5G" prev="i-fc05ae0b54dd774a-0" next="i-394052675ae31359-12">
           <seg xml:id="i-FnbkvRadQMZUp2zz9SkhA5">
             tillämpats inom =: yrkesskadeförsäkringen. Som bekant omfattar
             nu gällande
           </seg>
-        </u>
-        <u xml:id="i-394052675ae31359-12" who="i-EkQKNQQonia5BuXejJsb5G" prev="i-REcJPshXaCt39wPsMqYAbk" next="i-394052675ae31359-13">
           <seg xml:id="i-LJXpF2aQf7CdiN7NigodGq">
             olycksfallsförsäkring en hel del personer, vilka enligt den allmänna
             civilrättens regler inte är att betrakta såsom arbetstagare men
@@ -14750,7 +14608,7 @@
         <note xml:id="i-E12kzgxdVnZbqGQNBg4hVL">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-394052675ae31359-13" who="i-EkQKNQQonia5BuXejJsb5G" prev="i-394052675ae31359-12" next="i-EpXAKxTsdiYQfSdmhR2mpc">
+        <u xml:id="i-394052675ae31359-13" who="i-EkQKNQQonia5BuXejJsb5G" prev="i-fc05ae0b54dd774a-0" next="i-394052675ae31359-15">
           <seg xml:id="i-MMRwY8ZKpYJCmHAYSp33Jv">
             att understryka, att även en tillämpning av det civilrättsliga
             arbetstagarbegreppet medger ett hänsynstagande till omständigheter
@@ -14797,8 +14655,6 @@
             då departementschefen beredd att ompröva frågan om de beroende
             uppdragstagarnas hänförande under den blivande yrkesskadeförsäkringslagen?
           </seg>
-        </u>
-        <u xml:id="i-EpXAKxTsdiYQfSdmhR2mpc" who="i-EkQKNQQonia5BuXejJsb5G" prev="i-394052675ae31359-13" next="i-394052675ae31359-14">
           <seg xml:id="i-Fr5tAerrC5f7whapkrSfXG">
             Frågan om vilket arbetstagarbegrepp, som skall gälla inom yrkesskadeförsäkringen,
             är en delfråga å arbetsrättens område. I viss mån sammanhänger
@@ -14815,8 +14671,6 @@
             att ett enhetligt, klargörande arbetstagarbegrepp alltjämt saknas
             i svensk rätt.
           </seg>
-        </u>
-        <u xml:id="i-394052675ae31359-14" who="i-EkQKNQQonia5BuXejJsb5G" prev="i-EpXAKxTsdiYQfSdmhR2mpc" next="i-394052675ae31359-15">
           <seg xml:id="i-6riZjESqBshHvwzYEMMfom">
             Vid 1949 års riksdag motionerade jag om detta spörsmål. Motionen
             behandlades av andra lagutskottet, som lät inhämta yttranden från
@@ -14839,7 +14693,7 @@
         <note xml:id="i-UpTfhJLP74hYWm4rwcjyAx">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-394052675ae31359-15" who="i-EkQKNQQonia5BuXejJsb5G" prev="i-394052675ae31359-14">
+        <u xml:id="i-394052675ae31359-15" who="i-EkQKNQQonia5BuXejJsb5G" prev="i-394052675ae31359-13">
           <seg xml:id="i-5Be9dXbVcN1r8JDbhejtXC">
             möjligt att skjuta den åt sidan som hittills skett.
           </seg>
@@ -15726,7 +15580,7 @@
         <note xml:id="i-VtxQhaJs9VMS6ydrMzrrVv" type="speaker">
           Herr CHRISTENSON i Malmö (fp) kort genmäle:
         </note>
-        <u xml:id="i-fc05ae0b54dd774a-1" who="i-EkQKNQQonia5BuXejJsb5G" next="i-To8EDGjsrWPuqh6KD7tWjk">
+        <u xml:id="i-fc05ae0b54dd774a-1" who="i-EkQKNQQonia5BuXejJsb5G" next="i-Mw4wZEscGq5LkwbfuJXEKD">
           <seg xml:id="i-4Y6KbZMtPiV3R1RWYfrygL">
             Herr talman! Socialministern förutsätter att administrativa myndigheter
             skall rätta sig efter de direktiv beträffande skogskörarnas yrkesskadeförsäkring,
@@ -15737,8 +15591,6 @@
             specialdomstol. Det finns för övrigt många andra yrkesgrupper,
             som i anställningshänseende är jämställda med skogskörarna.
           </seg>
-        </u>
-        <u xml:id="i-To8EDGjsrWPuqh6KD7tWjk" who="i-EkQKNQQonia5BuXejJsb5G" prev="i-fc05ae0b54dd774a-1" next="i-Mw4wZEscGq5LkwbfuJXEKD">
           <seg xml:id="i-NRpdQSqKcoGczYFXzmPMRv">
             I anledning av att departementschefen och andra lagutskottet
             anknyter till det civilrättsliga arbetstagarbegreppet, sådant
@@ -15757,7 +15609,7 @@
         <note xml:id="i-B4ehNfvTDqaPHQ9wvbEDRN">
           av socialministerns ringskolleger.
         </note>
-        <u xml:id="i-Mw4wZEscGq5LkwbfuJXEKD" who="i-EkQKNQQonia5BuXejJsb5G" prev="i-To8EDGjsrWPuqh6KD7tWjk" next="i-354vrt45frYVRe5wACitk4">
+        <u xml:id="i-Mw4wZEscGq5LkwbfuJXEKD" who="i-EkQKNQQonia5BuXejJsb5G" prev="i-fc05ae0b54dd774a-1">
           <seg xml:id="i-KwhJqxD6GmGHArFm7mtdzg">
             Herr talman! Med anledning av att socialministern inte svarat
             på mina frågor hemställer jag, att kammaren måtte godkänna utskottets
@@ -15769,8 +15621,6 @@
             sätt i propositionen föreslagits och i stället förordar de beroende
             uppdragstagarnas inordnande under försäkringen i fråga.
           </seg>
-        </u>
-        <u xml:id="i-354vrt45frYVRe5wACitk4" who="i-EkQKNQQonia5BuXejJsb5G" prev="i-Mw4wZEscGq5LkwbfuJXEKD">
           <seg xml:id="i-ACPoXAcvpyPfdQm3Pne31W">
             nuvarande rege-
           </seg>
@@ -15792,7 +15642,7 @@
         <note xml:id="i-HQWSWSThjJoPgpGtB5mjCA" type="speaker">
           Herr LARSSON i Hedenäset (bf):
         </note>
-        <u xml:id="i-2ffa94028eaa9fba-1" who="i-McqtqKBwTgYornj9cNC5hS" next="i-E7CpuiE3gdNAe58nRh8Kq9">
+        <u xml:id="i-2ffa94028eaa9fba-1" who="i-McqtqKBwTgYornj9cNC5hS" next="i-e089abc41b6cbd6d-28">
           <seg xml:id="i-FjHPDgLcqpKyp2cfiHobvG">
             Herr talman! Det är givetvis litet otacksamt att få ordet strax
             efter herr statsrådets anförande. Jag skall emellertid, då jag
@@ -15801,8 +15651,6 @@
             be att få göra några reflexioner. Jag skall därvid begränsa mig
             till tre avsnitt av lagförslaget.
           </seg>
-        </u>
-        <u xml:id="i-E7CpuiE3gdNAe58nRh8Kq9" who="i-McqtqKBwTgYornj9cNC5hS" prev="i-2ffa94028eaa9fba-1" next="i-e089abc41b6cbd6d-28">
           <seg xml:id="i-UTieJaLdHEh3fr5sitzhSm">
             I folkpartiets motion liksom i den reservation, som har avgivits
             av herr Jacobsson i Igelsbo m. fl., har man yrkat avslag på förslaget
@@ -15820,7 +15668,7 @@
         <note xml:id="i-6yjdJNE8qpe9U9DWhvgo7w">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-e089abc41b6cbd6d-28" who="i-McqtqKBwTgYornj9cNC5hS" prev="i-E7CpuiE3gdNAe58nRh8Kq9" next="i-e089abc41b6cbd6d-29">
+        <u xml:id="i-e089abc41b6cbd6d-28" who="i-McqtqKBwTgYornj9cNC5hS" prev="i-2ffa94028eaa9fba-1" next="i-e089abc41b6cbd6d-29">
           <seg xml:id="i-64r4sXBVuaixt9A1DfJizF">
             ger min anslutning till de synpunkter som här av socialministern
             framförts rörande de små företagarna och deras intressen, skulle
@@ -15902,7 +15750,7 @@
         <note xml:id="i-XQyvT5b1KHWicpR5cET55X">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-e089abc41b6cbd6d-29" who="i-McqtqKBwTgYornj9cNC5hS" prev="i-e089abc41b6cbd6d-28" next="i-DqGHQcHUpYzKC2ULZerR6e">
+        <u xml:id="i-e089abc41b6cbd6d-29" who="i-McqtqKBwTgYornj9cNC5hS" prev="i-e089abc41b6cbd6d-28">
           <seg xml:id="i-TW7z7grSgNT792hVNU7LS3">
             att dessa försäkringar inte är helt analoga — det gällde då en
             annan bestämmelse i fråga om karenstid och även om antalet dagar
@@ -15915,8 +15763,6 @@
             att även samordna dessa detaljer i två olika socialförsäkringar,
             som bestäms vid samma riksdag.
           </seg>
-        </u>
-        <u xml:id="i-DqGHQcHUpYzKC2ULZerR6e" who="i-McqtqKBwTgYornj9cNC5hS" prev="i-e089abc41b6cbd6d-29">
           <seg xml:id="i-R7Luki9aAoRAsQuiYYhBHk">
             Jag skall, herr talman, nöja mig med vad jag här anfört. Jag
             ber till sist endast att — med undantag för 24 $ i det föreliggande
@@ -16082,7 +15928,7 @@
         <note xml:id="i-5fRoyXNrpnw1C9uEhWvngy">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-0eb252b6f565f7f4-8" who="i-XNR1rnnKBMVQeMxhbj1afA" prev="i-0eb252b6f565f7f4-7" next="i-8h2D325EiGcRYdXHM8v9bP">
+        <u xml:id="i-0eb252b6f565f7f4-8" who="i-XNR1rnnKBMVQeMxhbj1afA" prev="i-0eb252b6f565f7f4-7">
           <seg xml:id="i-UtYMwmhmgRNqeSZf2T5wBR">
             kunna avsevärt förbilligas och förenklas genom att man sammanför
             alla hjälpbehov under ett enda statligt organ med kommunala underorgan
@@ -16130,8 +15976,6 @@
             vi oss till förslaget om den allmänna sjukförsäkringsreformen
             med de ändringar, som har föreslagits i motion nr II: 593.
           </seg>
-        </u>
-        <u xml:id="i-8h2D325EiGcRYdXHM8v9bP" who="i-XNR1rnnKBMVQeMxhbj1afA" prev="i-0eb252b6f565f7f4-8">
           <seg xml:id="i-Aouxm8aDHcqctSXseNq2ks">
             Jag hemställer beträffande den allmänna motiveringen om bifall
             till utskottets motivering med de ändringar, som föranleds av
@@ -16432,7 +16276,7 @@
         <note xml:id="i-5RpA7spCJLzZCuMx3AmFxF">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-842a8e63780d0c6b-4" who="i-4N2H4JtSVXb7vKfkkSFwth" prev="i-842a8e63780d0c6b-3" next="i-UyTWpBtCysUV971evsvm2d">
+        <u xml:id="i-842a8e63780d0c6b-4" who="i-4N2H4JtSVXb7vKfkkSFwth" prev="i-842a8e63780d0c6b-3">
           <seg xml:id="i-7wT2f61QTFE9xWuDyjEkqP">
             ten finns ju otvivelaktigt. Men faktum är, att en myndighet naturligtvis
             i första hand måste lägga upp sin plan för inspektionsverksamheten
@@ -16472,8 +16316,6 @@
           <seg xml:id="i-8wyiMueoyRh4DHpt11ibJE">
             Herr talman! Jag yrkar bifall till de
           </seg>
-        </u>
-        <u xml:id="i-UyTWpBtCysUV971evsvm2d" who="i-4N2H4JtSVXb7vKfkkSFwth" prev="i-842a8e63780d0c6b-4">
           <seg xml:id="i-8ibMEDEpZGWxvraB5UasLf">
             reservationer som fogats till detta utskottsutlåtande av herr
             Sunne m. fl.
@@ -16797,7 +16639,7 @@
         <note xml:id="i-HtFk7AP9Q2z34VEJSsXxYz">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-ac21766e5a3b4bbd-2" who="i-9vMXbtY8tuv8GJ8te4me1T" prev="i-ac21766e5a3b4bbd-1" next="i-FtbmXohTvPgWY68KGzPw87">
+        <u xml:id="i-ac21766e5a3b4bbd-2" who="i-9vMXbtY8tuv8GJ8te4me1T" prev="i-ac21766e5a3b4bbd-1">
           <seg xml:id="i-85nYrM9ZSzS9cgxcmH224V">
             såsom vi har föreslagit i vår motion? Det skulle betyda att vi
             därmed komme ifrån en hel del variationer kommunerna emellan.
@@ -16809,8 +16651,6 @@
             ett viktigt remissvar från medicinalstyrelsen, som anser det mycket
             betydelsefullt att dessa merprestationer blir obligatoriska.
           </seg>
-        </u>
-        <u xml:id="i-FtbmXohTvPgWY68KGzPw87" who="i-9vMXbtY8tuv8GJ8te4me1T" prev="i-ac21766e5a3b4bbd-2" next="i-ac21766e5a3b4bbd-3">
           <seg xml:id="i-EumtutEEWeDrgQcrKQ4TCr">
             Slutligen har vi i vår motion föreslagit att den minskning av
             sjukpenningen, som inträder för icke yrkesskadade efter samordningstidens
@@ -16818,8 +16658,6 @@
             i klasserna 4 t. o. m. 9 skulle liksom i klasserna 1 t. o. m.
             3 utgå oförändrade även efter de första 90 dagarna.
           </seg>
-        </u>
-        <u xml:id="i-ac21766e5a3b4bbd-3" who="i-9vMXbtY8tuv8GJ8te4me1T" prev="i-FtbmXohTvPgWY68KGzPw87" next="i-WbAqNHu71zExKxeSBEwmHu">
           <seg xml:id="i-NyACSPcyLcU5uZLP2Bos38">
             Som exempel kan nämnas att en person i klass 5 med en inkomst
             på mellan 3 600 och 4 200 kronor under de första 90 dagarna skulle
@@ -16859,8 +16697,6 @@
             till samordning med yrkesskadeförsäkringen bli lättare, och försämringen
             i skadeförsäkringen skulle inte framstå i så bjärt dager som eljest.
           </seg>
-        </u>
-        <u xml:id="i-WbAqNHu71zExKxeSBEwmHu" who="i-9vMXbtY8tuv8GJ8te4me1T" prev="i-ac21766e5a3b4bbd-3">
           <seg xml:id="i-RCpZkdga1a1GBTFXBHCWVt">
             Jag ber därför, herr talman, att få yrka bifall till de av herr
             Lundberg under 13, 18, 22 och 26 $$ avgivna reservationerna.
@@ -17158,7 +16994,7 @@
         <note xml:id="i-PD3PeVCd7n4Kt1Gh91jvif">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-02f566e8a0a2c0b5-4" who="i-2gvrXtH5sAT9PgXsCVpQSW" prev="i-LQxNS5NPgeSfGM9WivQT5c" next="i-UN8yNrBuq96JKFthqP7T68">
+        <u xml:id="i-02f566e8a0a2c0b5-4" who="i-2gvrXtH5sAT9PgXsCVpQSW" prev="i-LQxNS5NPgeSfGM9WivQT5c">
           <seg xml:id="i-UBgF9UuCPrxJBb4pMcD2aY">
             möjligheter att i erforderlig grad satsa pengar på att bekämpa
             olycksfallen.
@@ -17204,8 +17040,6 @@
             känsla av ansvar då det gäller att ta ställning till en viktig
             samhällsangelägenhet.
           </seg>
-        </u>
-        <u xml:id="i-UN8yNrBuq96JKFthqP7T68" who="i-2gvrXtH5sAT9PgXsCVpQSW" prev="i-02f566e8a0a2c0b5-4">
           <seg xml:id="i-X1FBn2SxYTAmxzVHD4YWgP">
             Jag ber, herr talman, att med dessa ord få ansluta mig till det
             yrkande, som tidigare har ställts både av herr Hagård och av herr
@@ -17428,19 +17262,15 @@
         <note xml:id="i-NamdCn57vVcZqutZGz8Tnx">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-f493760e85571566-2" who="i-W7utyZVptwNBqUURdBKkmv" prev="i-f493760e85571566-1" next="i-JPjHSioMUUrMh2NBB4kBZh">
+        <u xml:id="i-f493760e85571566-2" who="i-W7utyZVptwNBqUURdBKkmv" prev="i-f493760e85571566-1" next="i-f493760e85571566-4">
           <seg xml:id="i-PUMHWsPxZS4pqu6u4ASqUR">
             utföra sitt arbete, vilket, mina damer och herrar, är en sak
             som är långt svårare än de flesta kanske vill föreställa sig.
             Här kan man många gånger vara frestad att göra jämförelse mellan
           </seg>
-        </u>
-        <u xml:id="i-JPjHSioMUUrMh2NBB4kBZh" who="i-W7utyZVptwNBqUURdBKkmv" prev="i-f493760e85571566-2" next="i-f493760e85571566-3">
           <seg xml:id="i-EWvXtx3zhWZQP86hG5kmxF">
             en människa som, oaktat hon är be-.
           </seg>
-        </u>
-        <u xml:id="i-f493760e85571566-3" who="i-W7utyZVptwNBqUURdBKkmv" prev="i-JPjHSioMUUrMh2NBB4kBZh" next="i-f493760e85571566-4">
           <seg xml:id="i-DLAC9GcYkc4DoCtj5nEkoN">
             häftad med en sjukdom eller en grad av invaliditet, kan fortsätta
             sitt arbete, och den som gör anspråk på att få bli sjukskriven
@@ -17529,7 +17359,7 @@
         <note xml:id="i-EBqr2VuX9ELHnK5MhS7tDq">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-f493760e85571566-4" who="i-W7utyZVptwNBqUURdBKkmv" prev="i-f493760e85571566-3">
+        <u xml:id="i-f493760e85571566-4" who="i-W7utyZVptwNBqUURdBKkmv" prev="i-f493760e85571566-2">
           <seg xml:id="i-ToP1uaTGdjoGX7xYGNn5Dr">
             mar, som i så hög grad belastar oss och som i själva verket blir
             dyrbara. Jag har redan nu klart för mig den invändning, som kommer
@@ -17707,7 +17537,7 @@
         <note xml:id="i-MAZVSnNgEe7ri72e1StYnh">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-9c22f67807e8857d-2" who="i-BqDGKscaLhUZHhaFFmx5pf" prev="i-9c22f67807e8857d-1" next="i-5yJ7XRW715R1bGqfXHJqTi">
+        <u xml:id="i-9c22f67807e8857d-2" who="i-BqDGKscaLhUZHhaFFmx5pf" prev="i-9c22f67807e8857d-1" next="i-9c22f67807e8857d-4">
           <seg xml:id="i-XGZ1swKksuM51TkFmDZmpK">
             drager, skapar ett statsfinansiellt finansieringsproblem. Man
             kan inte utan stora olägenheter av skattebetalarna kräva inbetalning
@@ -17739,14 +17569,10 @@
             fråga om personal och sjukhus är den andra uppgiften. I stort
             sett är det två skilda
           </seg>
-        </u>
-        <u xml:id="i-5yJ7XRW715R1bGqfXHJqTi" who="i-BqDGKscaLhUZHhaFFmx5pf" prev="i-9c22f67807e8857d-2" next="i-9c22f67807e8857d-3">
           <seg xml:id="i-8WuBR9BNd3NTTgn621cUu6">
             uppgifter, även om — som bl. a. framgick av det sista yttrandet
             — det na-
           </seg>
-        </u>
-        <u xml:id="i-9c22f67807e8857d-3" who="i-BqDGKscaLhUZHhaFFmx5pf" prev="i-5yJ7XRW715R1bGqfXHJqTi" next="i-9c22f67807e8857d-4">
           <seg xml:id="i-C4HzehDg9toPfPUFR5T82W">
             turligtvis finns förbindelser dem emellan. Det allmänna får göra
             en avvägning när man bestämmer hur resurserna för dessa båda uppgifters
@@ -17808,7 +17634,7 @@
         <note xml:id="i-BotxK37V4h3CJrg1sJAJdS">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-9c22f67807e8857d-4" who="i-BqDGKscaLhUZHhaFFmx5pf" prev="i-9c22f67807e8857d-3">
+        <u xml:id="i-9c22f67807e8857d-4" who="i-BqDGKscaLhUZHhaFFmx5pf" prev="i-9c22f67807e8857d-2">
           <seg xml:id="i-HT1xaTmKPzB36mU8xbrgcw">
             Enligt min mening talar överväldigande skäl för att denna belastning
             på det allmännas finanser skall accepteras, när man därmed kan
@@ -18302,7 +18128,7 @@
         <note xml:id="i-CJbFm2RG8H5oksk3t866LS" type="speaker">
           Fröken LILJEDAHL (fp):
         </note>
-        <u xml:id="i-6d70f2c6e6525f6e-0" who="i-HrFkdZvTMMR7zA25xt1Lgw" next="i-VLsBdqrNcdPHw7h7hQv4hb">
+        <u xml:id="i-6d70f2c6e6525f6e-0" who="i-HrFkdZvTMMR7zA25xt1Lgw" next="i-6d70f2c6e6525f6e-2">
           <seg xml:id="i-T4RjDYqebRiF9uURCyMC13">
             Herr talman! I en motion har jag yrkat att avstängning från arbete
             jämlikt epidemilagen skall medföra samma bidrag från sjukförsäkringen
@@ -18312,8 +18138,6 @@
             Denna fråga har vid flera tillfällen varit föremål för riksdagens
             prövning,
           </seg>
-        </u>
-        <u xml:id="i-VLsBdqrNcdPHw7h7hQv4hb" who="i-HrFkdZvTMMR7zA25xt1Lgw" prev="i-6d70f2c6e6525f6e-0" next="i-4TCATcciExkKErhX2HzTnP">
           <seg xml:id="i-PTGM78zBP3VUradpAENDD3">
             senast år 1952. Med anledning av i motioner framställda yrkanden
             erhöll medicinalstyrelsen år 1944 Kungl. Maj:ts uppdrag att verkställa
@@ -18329,8 +18153,6 @@
             att Kungl. Maj:t skulle komma att framlägga det förslag, vartill
             närmare Ööverväganden kunde ge anledning.
           </seg>
-        </u>
-        <u xml:id="i-4TCATcciExkKErhX2HzTnP" who="i-HrFkdZvTMMR7zA25xt1Lgw" prev="i-VLsBdqrNcdPHw7h7hQv4hb" next="i-6d70f2c6e6525f6e-1">
           <seg xml:id="i-7bv5msTPnG2m5qBi7TzFL1">
             Andra lagutskottet hänvisar till andra kammarens beredningsutskotts
             utlåtande i denna fråga föregående år och framhåller bland annat:
@@ -18338,8 +18160,6 @@
             icke inträffat, som föranleder ändring i den ståndpunkt riksdagen
             intog år 1952.»
           </seg>
-        </u>
-        <u xml:id="i-6d70f2c6e6525f6e-1" who="i-HrFkdZvTMMR7zA25xt1Lgw" prev="i-4TCATcciExkKErhX2HzTnP" next="i-6d70f2c6e6525f6e-2">
           <seg xml:id="i-2jzuuewtxFYTuSnyRyKfgW">
             Det är emellertid detta jag reagerar mot. Vad som inträffat är,
             att vi har fått en proposition med förslag om ändring i lagen
@@ -18364,7 +18184,7 @@
         <note xml:id="i-2uRoVpczFatZKpJHPFwpWS">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-6d70f2c6e6525f6e-2" who="i-HrFkdZvTMMR7zA25xt1Lgw" prev="i-6d70f2c6e6525f6e-1">
+        <u xml:id="i-6d70f2c6e6525f6e-2" who="i-HrFkdZvTMMR7zA25xt1Lgw" prev="i-6d70f2c6e6525f6e-0">
           <seg xml:id="i-7JaqcgJfrsSetVJjdvEmt3">
             nalstyrelsen och riksförsäkringsanstalten, innan någon ersättning
             kan utgå. Detta kan i många fall vara till stort men för den det
@@ -18543,7 +18363,7 @@
         <note xml:id="i-H7AgByrJcA7TUUeVQHtPJf">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-7ce7579a2f51ad27-2" who="i-CBtNTZGJtZPBBSm4FxdhSN" prev="i-7ce7579a2f51ad27-1" next="i-EC4AtZFWXiSb7FhWWDpc9g">
+        <u xml:id="i-7ce7579a2f51ad27-2" who="i-CBtNTZGJtZPBBSm4FxdhSN" prev="i-7ce7579a2f51ad27-1">
           <seg xml:id="i-C3GjRC475VyT5W1DdZ6PDD">
             Herr Nihlfors har redan tagit upp frågan om undantagen i $ 28
             och jag vill understryka vad han har sagt. Det är inte alls fråga
@@ -18573,8 +18393,6 @@
             är intresserade av att åstadkomma en för så många som möjligt
             tillfredsställande försäkring.
           </seg>
-        </u>
-        <u xml:id="i-EC4AtZFWXiSb7FhWWDpc9g" who="i-CBtNTZGJtZPBBSm4FxdhSN" prev="i-7ce7579a2f51ad27-2">
           <seg xml:id="i-MiggLeV153Zu1bsHnGeT9m">
             Herr talman! Jag yrkar bifall till den reservation, som i detta
             sammanhang är avgiven av herrar Sunne, Jacobsson i Igelsbo och
@@ -18823,7 +18641,7 @@
         <note xml:id="i-391sh2Etk9GM9jvT6dEVU2">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-a74248a3a18cea7a-1" who="i-KibauNu6CSDswgonTZCuVD" prev="i-a74248a3a18cea7a-0" next="i-5xEwPNth5Zg8K6LKHjYzfk">
+        <u xml:id="i-a74248a3a18cea7a-1" who="i-KibauNu6CSDswgonTZCuVD" prev="i-a74248a3a18cea7a-0">
           <seg xml:id="i-Cej1fXBNHpqZvjBwqVoCMD">
             tala om att ifall man drar åt sig spaken för mycket och tror
             att man kan stiga fortare än vad maskinen orkar med, stoppas farten
@@ -18843,8 +18661,6 @@
             talmannens förtroende att hålla på till en kvart i fem. Eftersom
             klockan nu är detta så avslutar jag nu detta yttrande.
           </seg>
-        </u>
-        <u xml:id="i-5xEwPNth5Zg8K6LKHjYzfk" who="i-KibauNu6CSDswgonTZCuVD" prev="i-a74248a3a18cea7a-1">
           <seg xml:id="i-DFVcagNYRu7e3Xg5bf8VKQ">
             Som tiden nu var långt framskriden och flera talare anmält sig
             för yttrandes avgivande, beslöt kammaren på förslag av herr talmannen
@@ -19067,7 +18883,7 @@
         <note xml:id="i-L7n2LrVUe7UGiYF1Dr6fXa">
           Ikraftträdande av den allmänna sjukförsäkringen.
         </note>
-        <u xml:id="i-a74248a3a18cea7a-4" who="i-FUSNFKTExLXiTZd91oF5JK" prev="i-e089abc41b6cbd6d-75" next="i-3g5CVevQGvqnK9g8kaN53R">
+        <u xml:id="i-a74248a3a18cea7a-4" who="i-FUSNFKTExLXiTZd91oF5JK" prev="i-e089abc41b6cbd6d-75">
           <seg xml:id="i-2i6JzqPeHLqZrdpNu3CG6P">
             saken, men jag tror jag vågar påstå, att hur än härmed förhåller
             sig, så hälsar dessa kvinnor denna reform med stor tillfredsställelse.
@@ -19112,8 +18928,6 @@
             som våra hemmakvinnor kommer att känna, om riksdagen beslutar
             i enlighet med utskottets förslag.
           </seg>
-        </u>
-        <u xml:id="i-3g5CVevQGvqnK9g8kaN53R" who="i-FUSNFKTExLXiTZd91oF5JK" prev="i-a74248a3a18cea7a-4">
           <seg xml:id="i-A5XZPp1h1AapTQTnVEC5Dk">
             Jag ber, herr talman, att få yrka bifall till utskottets hemställan.
           </seg>
@@ -21618,7 +21432,7 @@
         <note xml:id="i-5V3EjfKLW4t1v8mD5b2VPY">
           Prisreglerande åtgärder på jordbrukets område.
         </note>
-        <u xml:id="i-LrUSKQDq9msXKvAKYpAGiE" who="i-Mw31BTf7uoxHTWx5X3k5QD" prev="i-0ea2c68b8c568ff3-0" next="i-36TAun8Xv6iFA1XoCPwsEL">
+        <u xml:id="i-LrUSKQDq9msXKvAKYpAGiE" who="i-Mw31BTf7uoxHTWx5X3k5QD" prev="i-0ea2c68b8c568ff3-0" next="i-CqtxAFmbqDkT5xEPgHz4k1">
           <seg xml:id="i-HY2jV8aVuKZo2XiRpsHXDn">
             är ju den att under de sista två, tre åren har det förekommit
             mycket väsentliga prisförskjutningar på jordbrukets produkter.
@@ -21636,14 +21450,10 @@
             man hade för ett par år sedan, då de stora prisförändringarna
             satte in. Gör man en sådan återblick på prisutvecklingen
           </seg>
-        </u>
-        <u xml:id="i-36TAun8Xv6iFA1XoCPwsEL" who="i-Mw31BTf7uoxHTWx5X3k5QD" prev="i-LrUSKQDq9msXKvAKYpAGiE" next="i-d8eee358dcc55043-38">
           <seg xml:id="i-QYMonsJWwWNwUiXTHxVjzT">
             — och det har gjorts i motionen I1:613 — ter sig bilden något
             annor-
           </seg>
-        </u>
-        <u xml:id="i-d8eee358dcc55043-38" who="i-Mw31BTf7uoxHTWx5X3k5QD" prev="i-36TAun8Xv6iFA1XoCPwsEL" next="i-CqtxAFmbqDkT5xEPgHz4k1">
           <seg xml:id="i-TKBph9DGbA5Dgoj5SW7AyK">
             lunda. Det visar sig då att det efter regleringsåret 1950/51
             är de vegetabiliska produkterna som har stigit mest, medan ägg
@@ -21709,7 +21519,7 @@
         <note xml:id="i-BorVw7DXxaZDvsrkoDnnNH">
           Prisreglerande åtgärder på jordbrukets område.
         </note>
-        <u xml:id="i-CqtxAFmbqDkT5xEPgHz4k1" who="i-Mw31BTf7uoxHTWx5X3k5QD" prev="i-d8eee358dcc55043-38" next="i-AQgjtJykFu6heqeQizofLs">
+        <u xml:id="i-CqtxAFmbqDkT5xEPgHz4k1" who="i-Mw31BTf7uoxHTWx5X3k5QD" prev="i-LrUSKQDq9msXKvAKYpAGiE" next="i-QTmtz3uZPRjh6NJ75UMFkK">
           <seg xml:id="i-UCYTAZwHiK4fn4X1f2Cgzm">
             innehållet i denna protokollsanteckning. Jag tror att man har
             gått en smula lätt förbi prövningen huruvida någonting i det här
@@ -21778,8 +21588,6 @@
             från spannmålsodlingen till mjölkproducenterna och på det sättet
             få utrymme för en sänkning av smörpriset.
           </seg>
-        </u>
-        <u xml:id="i-AQgjtJykFu6heqeQizofLs" who="i-Mw31BTf7uoxHTWx5X3k5QD" prev="i-CqtxAFmbqDkT5xEPgHz4k1" next="i-QTmtz3uZPRjh6NJ75UMFkK">
           <seg xml:id="i-EB5WeicAQidp46Nf6zxsco">
             En spannmålsavgift på fem öre ger
           </seg>
@@ -21794,7 +21602,7 @@
         <note xml:id="i-AkwENiUq67NrwXeHX1YRBB">
           Prisreglerande åtgärder på jordbrukets område.
         </note>
-        <u xml:id="i-QTmtz3uZPRjh6NJ75UMFkK" who="i-Mw31BTf7uoxHTWx5X3k5QD" prev="i-AQgjtJykFu6heqeQizofLs" next="i-KBBsyVzmm1qm2Eb5iamqkh">
+        <u xml:id="i-QTmtz3uZPRjh6NJ75UMFkK" who="i-Mw31BTf7uoxHTWx5X3k5QD" prev="i-CqtxAFmbqDkT5xEPgHz4k1" next="i-KBBsyVzmm1qm2Eb5iamqkh">
           <seg xml:id="i-SpZkCWNydoDASvm782WFKw">
             omkring 40 miljoner, och det räcker till att sänka smörpriset
             med 50 öre, om man inom landet har en förbrukning av 80 000 ton,
@@ -21973,7 +21781,7 @@
         <note xml:id="i-M2SosF5JCW3z6sHgeHjYpo">
           handlingar med jordbrukets organisationer.
         </note>
-        <u xml:id="i-7HLCrGehbUDv84mXrRvz4u" who="i-Mw31BTf7uoxHTWx5X3k5QD" prev="i-KBBsyVzmm1qm2Eb5iamqkh" next="i-WmgCbqH93zqznTrWY1TCMC">
+        <u xml:id="i-7HLCrGehbUDv84mXrRvz4u" who="i-Mw31BTf7uoxHTWx5X3k5QD" prev="i-KBBsyVzmm1qm2Eb5iamqkh" next="i-H9vLy2PTXJ84ziPneGTEqu">
           <seg xml:id="i-7mVTw1S7NqLj1aF8LmRa12">
             Sedan är det ett par mindre frågor, som jag vill erinra om. Den
             ena gäller fullmakten för prissättning på hösten. Vi pekade från
@@ -22000,16 +21808,12 @@
             återstår för den inbördes prisavvägningen mellan olika produkter
             vid den allmänna prisuppgörelsen efterföljande vår.»
           </seg>
-        </u>
-        <u xml:id="i-WmgCbqH93zqznTrWY1TCMC" who="i-Mw31BTf7uoxHTWx5X3k5QD" prev="i-7HLCrGehbUDv84mXrRvz4u" next="i-d8eee358dcc55043-43">
           <seg xml:id="i-Ad631wviafRQxsF9ynm5X8">
             Jag tycker det vore rimligt att man, efter de erfarenheter vi
             haft, gjorde ett sådant uttalande, och jag ber, herr talman, att
             få yrka bifall till reservation nr 3 av herr Näslund m. fl. Den
             anknyter till punkten A 2) i utskottsmajoritetens förslag.
           </seg>
-        </u>
-        <u xml:id="i-d8eee358dcc55043-43" who="i-Mw31BTf7uoxHTWx5X3k5QD" prev="i-WmgCbqH93zqznTrWY1TCMC" next="i-H9vLy2PTXJ84ziPneGTEqu">
           <seg xml:id="i-Ga9AKUE2AXo5dg2pYKZutv">
             Sedan ett ord om producentbidraget. Vi har inte i år tagit upp
             de mera allmänt kritiska synpunkter som vi haft och som vi alltjämt
@@ -22062,7 +21866,7 @@
         <note xml:id="i-DbsqgndAmdaA7aowJMwnhg">
           Prisreglerande åtgärder på jordbrukets område.
         </note>
-        <u xml:id="i-H9vLy2PTXJ84ziPneGTEqu" who="i-Mw31BTf7uoxHTWx5X3k5QD" prev="i-d8eee358dcc55043-43">
+        <u xml:id="i-H9vLy2PTXJ84ziPneGTEqu" who="i-Mw31BTf7uoxHTWx5X3k5QD" prev="i-7HLCrGehbUDv84mXrRvz4u">
           <seg xml:id="i-HBv7ETTMMLnXAQe9d56tbH">
             söka på bästa möjliga sätt tillgodose dem som mister sitt arbete
             i Värmbol. I övrigt har jag inte varit med i utskottet vid behandlingen
@@ -22270,13 +22074,11 @@
         <note xml:id="i-LdnRG1ce9FCJ1tJRBCT5oo">
           tidigare.
         </note>
-        <u xml:id="i-Y4NPS77aurMv6Z7UjDE4ZT" who="i-QSnE9kNxNnuFsRa5tbzEdS" prev="i-UmZNmYsfMyVLPYmBf7mdNz" next="i-e089abc41b6cbd6d-41">
+        <u xml:id="i-Y4NPS77aurMv6Z7UjDE4ZT" who="i-QSnE9kNxNnuFsRa5tbzEdS" prev="i-UmZNmYsfMyVLPYmBf7mdNz" next="i-DuSrFSowShfTtAJ2Hsu55J">
           <seg xml:id="i-2TdDHjuUpVgxx8cfsAQPS4">
             Detta är, herr talman, vad som alltjämt kvarstår — jämte det
             som sagts tidigare — av vår begäran om
           </seg>
-        </u>
-        <u xml:id="i-e089abc41b6cbd6d-41" who="i-QSnE9kNxNnuFsRa5tbzEdS" prev="i-Y4NPS77aurMv6Z7UjDE4ZT" next="i-DuSrFSowShfTtAJ2Hsu55J">
           <seg xml:id="i-AFsUoSwuGpgpiB7wRCj3Tp">
             en utredning. Vi kan förstå att medlemmarna av regeringspartierna
             tycker, att regeringen kan sköta om detta, och litet blir ju ändå
@@ -22333,7 +22135,7 @@
         <note xml:id="i-DVSXcGCSHqmvd3bKiAovL2">
           Prisreglerande åtgärder på jordbrukets område.
         </note>
-        <u xml:id="i-DuSrFSowShfTtAJ2Hsu55J" who="i-QSnE9kNxNnuFsRa5tbzEdS" prev="i-e089abc41b6cbd6d-41" next="i-GMwzBtkgXQVFLYXit1QfWo">
+        <u xml:id="i-DuSrFSowShfTtAJ2Hsu55J" who="i-QSnE9kNxNnuFsRa5tbzEdS" prev="i-Y4NPS77aurMv6Z7UjDE4ZT" next="i-GMwzBtkgXQVFLYXit1QfWo">
           <seg xml:id="i-2V7GNJmqksXXokFrx5dFrm">
             flesta arbetargrupperna och ingen fäster sig vid dem ur avtalssynpunkt,
             tycker jag inte var lika välmotiverat som det varit innan uppgift
@@ -22667,7 +22469,7 @@
         <note xml:id="i-Hfw9snFD35Cp2znKiVzo74" type="speaker">
           Herr GUSTAFSON i Dädesjö (s):
         </note>
-        <u xml:id="i-efd0f73aeacf506f-0" who="i-3F1eUNkWXaMuYwB6Z4eGSH" next="i-JLG5nt6XeGyMohKa5UZDEs">
+        <u xml:id="i-efd0f73aeacf506f-0" who="i-3F1eUNkWXaMuYwB6Z4eGSH" next="i-SabNhGuJgyGqrCxFNfKC8X">
           <seg xml:id="i-zFx4C9NJZ3iBVooFn1doW">
             Herr talman! Politiken har ju sina problembarn, och ett av dessa
             är jordbruket. 1947 års riksdagsbeslut och vad som sedermera har
@@ -22682,8 +22484,6 @@
             föreslås utjämnat genom sänkning av en rad produktionspriser.
             Denna sänkning svarar ungefär mot en enhet i levnadskostnadsindex.
           </seg>
-        </u>
-        <u xml:id="i-JLG5nt6XeGyMohKa5UZDEs" who="i-3F1eUNkWXaMuYwB6Z4eGSH" prev="i-efd0f73aeacf506f-0" next="i-SabNhGuJgyGqrCxFNfKC8X">
           <seg xml:id="i-5quDn9vUcvvnkXh8w976bm">
             Stödet till jordbruket gick enligt 1947
           </seg>
@@ -22698,7 +22498,7 @@
         <note xml:id="i-To7Zy6m6DjNa6Rmxemupfj">
           Prisreglerande åtgärder på jordbrukets område.
         </note>
-        <u xml:id="i-SabNhGuJgyGqrCxFNfKC8X" who="i-3F1eUNkWXaMuYwB6Z4eGSH" prev="i-JLG5nt6XeGyMohKa5UZDEs" next="i-Qh4R22tfZL5UwBx3w67h4p">
+        <u xml:id="i-SabNhGuJgyGqrCxFNfKC8X" who="i-3F1eUNkWXaMuYwB6Z4eGSH" prev="i-efd0f73aeacf506f-0" next="i-7eHGVzwcwRTSY6TniszEPm">
           <seg xml:id="i-SJnt5J6Zkoa1Gzumgf9Wqu">
             års beslut ut på att bereda en rimlig lönsamhet för dem som var
             sysselsatta i jordbruket, och stödet skulle svara mot en produktion,
@@ -22734,13 +22534,9 @@
             av jordbrukets inkomster och kostnader måste färdigställas så
             tidigt, att riksdagen i god tid nästa år före prisför-
           </seg>
-        </u>
-        <u xml:id="i-Qh4R22tfZL5UwBx3w67h4p" who="i-3F1eUNkWXaMuYwB6Z4eGSH" prev="i-SabNhGuJgyGqrCxFNfKC8X" next="i-e089abc41b6cbd6d-47">
           <seg xml:id="i-EKJjiXtQt28g21LXwFNjKb">
             handlingarna 1954 kan ta ställning till desamma.
           </seg>
-        </u>
-        <u xml:id="i-e089abc41b6cbd6d-47" who="i-3F1eUNkWXaMuYwB6Z4eGSH" prev="i-Qh4R22tfZL5UwBx3w67h4p" next="i-7eHGVzwcwRTSY6TniszEPm">
           <seg xml:id="i-ENx1rkqEvoHeobLyJi8B5X">
             Utskottet har funnit att den av Kungl. Maj:t godkända, av jordbruksnämnden
             och förhandlingsdelegerade träffade överenskommelsen är en godtagbar
@@ -22786,7 +22582,7 @@
         <note xml:id="i-EhguKcoAW4PR1oATfQKwBQ">
           Prisreglerande åtgärder på jordbrukets område.
         </note>
-        <u xml:id="i-7eHGVzwcwRTSY6TniszEPm" who="i-3F1eUNkWXaMuYwB6Z4eGSH" prev="i-e089abc41b6cbd6d-47" next="i-8nCMQe7dp11bMGZ2Hi5Frv">
+        <u xml:id="i-7eHGVzwcwRTSY6TniszEPm" who="i-3F1eUNkWXaMuYwB6Z4eGSH" prev="i-SabNhGuJgyGqrCxFNfKC8X" next="i-8nCMQe7dp11bMGZ2Hi5Frv">
           <seg xml:id="i-3punNzRwnuS5RtvfT2pkr2">
             nor. Att det hade varit önskvärt att kunna sänka priset på matfett
             har ju både jordbrukets och konsumenternas representanter vid
@@ -24201,12 +23997,10 @@
         <note xml:id="i-TXnBtxwj3NqbK6pZxKC1u1">
           Prisreglerande åtgärder på jordbrukets område.
         </note>
-        <u xml:id="i-6VeTeAnDPnaNsUw9RRPb8A" who="i-184mh7uhT7D8tGsavsHbSJ" prev="i-6b046179481f5394-0" next="i-VYfk2MyYG8nxw9pfQdV3WC">
+        <u xml:id="i-6VeTeAnDPnaNsUw9RRPb8A" who="i-184mh7uhT7D8tGsavsHbSJ" prev="i-6b046179481f5394-0" next="i-J5qCabLncgTTM5J9JqRkUj">
           <seg xml:id="i-Aj4YwMxHvraxamkA92Ukgx">
             olika grupper av jordbrukare åstadkommes».
           </seg>
-        </u>
-        <u xml:id="i-VYfk2MyYG8nxw9pfQdV3WC" who="i-184mh7uhT7D8tGsavsHbSJ" prev="i-6VeTeAnDPnaNsUw9RRPb8A" next="i-J5qCabLncgTTM5J9JqRkUj">
           <seg xml:id="i-AaFDpb6Cx2wkeYX3frTnRp">
             Men, herr statsråd, hur skall man kunna realisera det önskemål
             som jordbruksutskottet här framfört, om vi kommer i det läget
@@ -24294,13 +24088,11 @@
         <note xml:id="i-NhqYHmxSNrcskWYcV6qgQC">
           Prisreglerande åtgärder på jordbrukets område.
         </note>
-        <u xml:id="i-J5qCabLncgTTM5J9JqRkUj" who="i-184mh7uhT7D8tGsavsHbSJ" prev="i-VYfk2MyYG8nxw9pfQdV3WC" next="i-EN1Nyykpv5Q6HvkvJd7uEp">
+        <u xml:id="i-J5qCabLncgTTM5J9JqRkUj" who="i-184mh7uhT7D8tGsavsHbSJ" prev="i-6VeTeAnDPnaNsUw9RRPb8A">
           <seg xml:id="i-3QVoD4ZJfRRupPqxaX6y2h">
             man får se saken så, att vi är alla konsumenter och vi är alla
             producenter och att det här är fråga om avvägningsproblem.
           </seg>
-        </u>
-        <u xml:id="i-EN1Nyykpv5Q6HvkvJd7uEp" who="i-184mh7uhT7D8tGsavsHbSJ" prev="i-J5qCabLncgTTM5J9JqRkUj">
           <seg xml:id="i-R9gQc53zuvYATWgNhMiMxG">
             Med dessa ord ber jag att få yrka bifall till den av herr Näslund
             m. fl. avgivna reservationen.
@@ -24567,7 +24359,7 @@
         <note xml:id="i-RErLYFo2MbVeLoC569FKfu">
           Prisreglerande åtgärder på jordbrukets område.
         </note>
-        <u xml:id="i-Hab8daSWFCA2ieGksuimJe" who="i-V2gYZ8XERX96ZTpdHjKDHk" prev="i-TY8BCVuttzUPxDq84D3GV6" next="i-6zL3mwSeZHeQxAuUJkyt6j">
+        <u xml:id="i-Hab8daSWFCA2ieGksuimJe" who="i-V2gYZ8XERX96ZTpdHjKDHk" prev="i-TY8BCVuttzUPxDq84D3GV6">
           <seg xml:id="i-HMwwQinn6oTPZKkKT72u4">
             till. Jag vill endast nämna att det finns kräftskyddsområden
             som är så märkvärdigt funtade att potatisodlarna inte har någon
@@ -24588,8 +24380,6 @@
             bör göras sådana, att potatisodlarna har möjlighet att förstå
             varför gränsen har dragits på det ena eller andra sättet.
           </seg>
-        </u>
-        <u xml:id="i-6zL3mwSeZHeQxAuUJkyt6j" who="i-V2gYZ8XERX96ZTpdHjKDHk" prev="i-Hab8daSWFCA2ieGksuimJe">
           <seg xml:id="i-Nq8AH7SCtaz5GbtZMR8Uju">
             Jag yrkar bifall till utskottets hemställan.
           </seg>
@@ -25021,7 +24811,7 @@
         <note xml:id="i-UrqarBBqLsGZUSXpScs9y7">
           Prisreglerande åtgärder på jordbrukets område.
         </note>
-        <u xml:id="i-D8gADq714vK7XmkDzDgRQd" who="i-AD4PVxoWFJ5WK9APNtM5vP" prev="i-RzuhhV9ep2jqyUVPvBTjg1" next="i-HPR7LBeZpBXsaf97LYTU6J">
+        <u xml:id="i-D8gADq714vK7XmkDzDgRQd" who="i-AD4PVxoWFJ5WK9APNtM5vP" prev="i-RzuhhV9ep2jqyUVPvBTjg1" next="i-HnwesQG7wfA9mcUiC4fNdo">
           <seg xml:id="i-VtGWophv3inwMDCg5cGfTD">
             I särskild motion har vi påyrkat sänkning av priset på margarin
             med 1 krona per kilogram. Mot en sänkning av margarinpriset invändes
@@ -25038,8 +24828,6 @@
             att betala, under den felaktiga motiveringen att man vill säkra
             konsumtionen av natursmöret.
           </seg>
-        </u>
-        <u xml:id="i-HPR7LBeZpBXsaf97LYTU6J" who="i-AD4PVxoWFJ5WK9APNtM5vP" prev="i-D8gADq714vK7XmkDzDgRQd" next="i-HnwesQG7wfA9mcUiC4fNdo">
           <seg xml:id="i-9a2hCgpWqnF7fZN8nJ2Ni4">
             Herr talman! Med hänvisning till vad jag här anfört ber jag att
             under punkten A.1) få yrka bifall till motionerna I: 334 och II:
@@ -25118,7 +24906,7 @@
         <note xml:id="i-SJJyqe7jMaKJE8847XHiQ">
           Ja; Den, det ej vill, röstar Nej; Vinner Nej, har kammaren godkänt
         </note>
-        <u xml:id="i-HnwesQG7wfA9mcUiC4fNdo" who="i-AD4PVxoWFJ5WK9APNtM5vP" prev="i-HPR7LBeZpBXsaf97LYTU6J">
+        <u xml:id="i-HnwesQG7wfA9mcUiC4fNdo" who="i-AD4PVxoWFJ5WK9APNtM5vP" prev="i-D8gADq714vK7XmkDzDgRQd">
           <seg xml:id="i-GwsdQgk2zzFkizQEnh4QZA">
             den motivering som föreslagits i berörda reservation.
           </seg>

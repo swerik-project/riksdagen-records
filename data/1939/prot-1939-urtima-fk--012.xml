@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-MPNF2Lc31U5mKYmYHxMPJW" type="speech">
             <linkGrp type="u">
               <ptr target="#i-Jf9g4H9aBpPMSTMh88tGY7"/>
@@ -97,7 +97,13 @@
               <ptr target="#i-35LAMdsEQYxi2ZCpRLE4xD"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -159,29 +165,23 @@
         <note xml:id="i-61tp8SWji2MWeFZw4PrPTU">
           råga:
         </note>
-        <u xml:id="i-Jf9g4H9aBpPMSTMh88tGY7" who="i-4Mr7D9BCozgkT5mSiFk6Gv" next="i-EcBzEtDJySePFkD5XhVmtY">
+        <u xml:id="i-Jf9g4H9aBpPMSTMh88tGY7" who="i-4Mr7D9BCozgkT5mSiFk6Gv">
           <seg xml:id="i-Uvhi181Ssq1jhHFdJ6Xsk">
             På vilken grund har Kungl. Maj:t ansetts befogad att utan riksdagens
             medverkan föreskriva inskränkningar i rätten att framföra motorfordon
             samt i för- Oy och användningen av bensin m. m. (S. F. S. nr 588,
             627, 699 och 700)?
           </seg>
-        </u>
-        <u xml:id="i-EcBzEtDJySePFkD5XhVmtY" who="i-4Mr7D9BCozgkT5mSiFk6Gv" prev="i-Jf9g4H9aBpPMSTMh88tGY7" next="i-d6bd0b1ee9a9b7f0-2">
           <seg xml:id="i-Wqk36aZX9GNCHFK2DTGJnD">
             Grunden för Kungl. Maj:ts beslut att utfärda ifrågavarande kungörelser
             har varit den administrativa och ekonomiska lagstiftningsrätt
             som jämlikt grundlagen tillkommer Konungen.
           </seg>
-        </u>
-        <u xml:id="i-d6bd0b1ee9a9b7f0-2" who="i-4Mr7D9BCozgkT5mSiFk6Gv" prev="i-EcBzEtDJySePFkD5XhVmtY" next="i-J87JhqWFA3kWcdXqAZXu3S">
           <seg xml:id="i-VEyG6voz38EdWUPro5kcnu">
             Gränserna för den ekonomiska lagstiftningsrätten äro visserligen
             icke klara. Med hänsyn härtill har ock i tveksamma fall riksdagens
             medverkan anlitats.
           </seg>
-        </u>
-        <u xml:id="i-J87JhqWFA3kWcdXqAZXu3S" who="i-4Mr7D9BCozgkT5mSiFk6Gv" prev="i-d6bd0b1ee9a9b7f0-2" next="i-UYxVEBsj3xjfoRgu2QEsS7">
           <seg xml:id="i-XNDRpZdz4dDnzrkXhNmDKn">
             Det är sannolikt, att om av någon anledning under normala förhållanden
             åtgärder hade behövt vidtagas av beskaffenhet liknande de ingrepp
@@ -199,8 +199,6 @@
             drivmedel framföra motorfordon m. m., framstodo i det rådande
             läget såsom nödvändiga och brådskande.
           </seg>
-        </u>
-        <u xml:id="i-UYxVEBsj3xjfoRgu2QEsS7" who="i-4Mr7D9BCozgkT5mSiFk6Gv" prev="i-J87JhqWFA3kWcdXqAZXu3S">
           <seg xml:id="i-Xganq7DsKHKphJxgZ583bi">
             Vad nu sagts gäller ock de den 6 oktober 1939 utfärdade nya kungörelserna
             i samma ämne (nr 699 och 700).
@@ -209,7 +207,7 @@
         <note xml:id="i-P5dzQ7JT7cTH19ziA4QAtP" type="speaker">
           Herr Herlitz:
         </note>
-        <u xml:id="i-933681387b80d4d4-0" who="i-4VusjuC8NvwGAqJKWikvPG" next="i-396TKyxmdqfaBej6wMvbfp">
+        <u xml:id="i-933681387b80d4d4-0" who="i-4VusjuC8NvwGAqJKWikvPG" next="i-9TsXpL4euRdqY65CAcwPTs">
           <seg xml:id="i-SibXT28iRo9hHs6js3KAvc">
             Herr talman! Jag tackar herr statsrådet för det svar, som jag
             har fått, men måste ju säga, att jag inte kan finna det tillfredsställande.
@@ -236,7 +234,7 @@
           sådan har herr statsrådet nu tydligen icke heller tillfälle att
           deltaga; mitt anförande skall därför inte bli utförligt.
         </note>
-        <u xml:id="i-9TsXpL4euRdqY65CAcwPTs" who="i-4VusjuC8NvwGAqJKWikvPG" prev="i-396TKyxmdqfaBej6wMvbfp">
+        <u xml:id="i-9TsXpL4euRdqY65CAcwPTs" who="i-4VusjuC8NvwGAqJKWikvPG" prev="i-933681387b80d4d4-0">
           <seg xml:id="i-NBhnn9ttKmveh7Y7Ukyh1U">
             Jag vill emellertid säga, att frågan om tolkningen av bestämmelsen
             om Konungens ekonomiska och administrativa lagstiftningsmakt ju
@@ -288,7 +286,7 @@
           Ordet lämnades på begäran till herr andre vice talmannen, som
           yttrade:
         </note>
-        <u xml:id="i-69BH7ixYnM6e8DJZYKyt9i" who="unknown" next="i-MMzyttEFRURRkCc6ni9LoE">
+        <u xml:id="i-69BH7ixYnM6e8DJZYKyt9i" who="unknown">
           <seg xml:id="i-UAUgQEbHBfZNN3SWcPeaas">
             Jag får hemställa, att kammaren för sin del måtte besluta, att
             andra särskilda utskottet skall behandla jämväl Kungl. Maj:ts
@@ -299,8 +297,6 @@
             göras 1 detta ämne eller andra i oskiljaktigt sammanhang därmed
             stående frågor.
           </seg>
-        </u>
-        <u xml:id="i-MMzyttEFRURRkCc6ni9LoE" who="unknown" prev="i-69BH7ixYnM6e8DJZYKyt9i">
           <seg xml:id="i-V7waLL6p1PX42nwGNj2RUM">
             Tillika hemställer jag, att andra kammaren måtte inbjudas att
             i detta beslut förena sig med första kammaren.
@@ -699,7 +695,7 @@
         <note xml:id="i-QNjXhrxeuPFsfunoSEiobH" type="speaker">
           Herr förste vice talmannen erhöll på begäran ordet och anförde:
         </note>
-        <u xml:id="i-JQrJDe7nQVPGecEG63k3wC" who="unknown" next="i-3d5pjttXYAnLu4VLecpb12">
+        <u xml:id="i-JQrJDe7nQVPGecEG63k3wC" who="unknown">
           <seg xml:id="i-AehSZHCZmJzzR6PL9VGGwK">
             Jag får hemställa, herr talman, att kammaren för sin del måtte
             besluta, att första särskilda utskottet skall behandla jämväl
@@ -711,8 +707,6 @@
             göras i dessa ämnen eller andra i oskiljaktigt sammanhang därmed
             stående frågor.
           </seg>
-        </u>
-        <u xml:id="i-3d5pjttXYAnLu4VLecpb12" who="unknown" prev="i-JQrJDe7nQVPGecEG63k3wC">
           <seg xml:id="i-EQErSx1gCoEdajfwveFfNi">
             Tillika hemställer jag, att andra kammaren måtte inbjudas att
             i detta beslut förena sig med första kammaren.

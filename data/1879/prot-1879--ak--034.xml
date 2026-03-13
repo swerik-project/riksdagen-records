@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-MVbXXNTcn7Nz1qY1kJj4Rg" type="speech">
             <linkGrp type="u">
               <ptr target="#i-9Ruq7WZdfB7djcBPby3K6Z"/>
@@ -402,7 +402,13 @@
               <ptr target="#i-9NDdRDTmBfgXKS9HcxCSAT"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -505,7 +511,7 @@
         <note xml:id="i-29U17wA6LDLPP6BeTPYkYG" type="speaker">
           Herr Lönegren:
         </note>
-        <u xml:id="i-GCcHbBd9nXsTessLPeyo85" who="i-YW6AVxRNnSF96fpnZ8xTbh" next="i-TN758kt2cGF8LzQ2kHTJ1s">
+        <u xml:id="i-GCcHbBd9nXsTessLPeyo85" who="i-YW6AVxRNnSF96fpnZ8xTbh">
           <seg xml:id="i-VSobu7VLZJYmfJWWar83r8">
             Då jag på förmiddagen uttalade den åsigt att tullen för införda
             varor borde göras beroende dels af deras värde, dels af deras
@@ -516,14 +522,10 @@
             1867—70 uppgick samma import endast till 16—--18,000 skålp. om
             året, hvaraf man ser att den inom några få år fyrdubblats.
           </seg>
-        </u>
-        <u xml:id="i-TN758kt2cGF8LzQ2kHTJ1s" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-GCcHbBd9nXsTessLPeyo85" next="i-WLF3jwUAJWY7n66r2tUTjL">
           <seg xml:id="i-QM3djbvjMYnk2ea8xTBpYx">
             Utskottet har vidare upplyst att den nuvarande tullsatsen på
             dessa varor utgör ungefär 10 procent af varans värde.
           </seg>
-        </u>
-        <u xml:id="i-WLF3jwUAJWY7n66r2tUTjL" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-TN758kt2cGF8LzQ2kHTJ1s">
           <seg xml:id="i-N6woa1CNRg4ujVfuaGYBQi">
             Utskottet grundar nemligen sina beräkningar på uppgifter, lemnade
             af Kommerskollegium, som upptagit värdet till 4 kronor pr skålpund,
@@ -542,7 +544,7 @@
         <note xml:id="i-Fc5tyL9eUFncKgsXi6cijh" type="speaker">
           Friherre Fock:
         </note>
-        <u xml:id="i-BtpjdLAowV1HW41pnSUwFR" who="i-NW9amfhpK6mEn3WxKi9YQ9" next="i-9SrZu6jfeWY2xCFZhXiBM7">
+        <u xml:id="i-BtpjdLAowV1HW41pnSUwFR" who="i-NW9amfhpK6mEn3WxKi9YQ9" next="i-94mx8YTSFs8HGesAgLn1em">
           <seg xml:id="i-T7Q81fnwsLviXj2ggUcKqa">
             Om någon fråga är egnad att ådagalägga, det förslaget om en revision
             af tulltaxan bör erhålla en annan behandling än den en enskild
@@ -560,8 +562,6 @@
             och slutligen äfven en tullförhöjning för uppmuntrande af en industrigren
             som visat sig icke vara i behof deraf.
           </seg>
-        </u>
-        <u xml:id="i-9SrZu6jfeWY2xCFZhXiBM7" who="i-NW9amfhpK6mEn3WxKi9YQ9" prev="i-BtpjdLAowV1HW41pnSUwFR" next="i-94mx8YTSFs8HGesAgLn1em">
           <seg xml:id="i-3QJkZZBTf25tuNpyVab1uR">
             Hvad beträffar den punkt, som nu är i fråga, eller tullen å bijouterivaror,
             tror jag för visso, att Utskottet i sin korta motivering gifvit
@@ -575,7 +575,7 @@
         <note xml:id="i-R3KWyDY6o76ookJ8oJpsq8" type="date">
           Onsdagen den 2 April, e&amp; rm. 3
         </note>
-        <u xml:id="i-94mx8YTSFs8HGesAgLn1em" who="i-NW9amfhpK6mEn3WxKi9YQ9" prev="i-9SrZu6jfeWY2xCFZhXiBM7" next="i-KsXXaDtUUFSL2ZEVDWB9k7">
+        <u xml:id="i-94mx8YTSFs8HGesAgLn1em" who="i-NW9amfhpK6mEn3WxKi9YQ9" prev="i-BtpjdLAowV1HW41pnSUwFR">
           <seg xml:id="i-UB8AfshjEbY5kQMhB7vzPe">
             Det är således klart att genom en ökad tullsats man kan hafva
             blott en ganska ringa förhoppning att öka statens inkomster, men
@@ -602,8 +602,6 @@
             om att försvåra för dessa personer en så ringa och oskyldig njutning,
             som det kan vara att bära en sådan prydnad.
           </seg>
-        </u>
-        <u xml:id="i-KsXXaDtUUFSL2ZEVDWB9k7" who="i-NW9amfhpK6mEn3WxKi9YQ9" prev="i-94mx8YTSFs8HGesAgLn1em">
           <seg xml:id="i-9GPY2xAxAuXSAqZepHSpRw">
             För min del har jag icke vidare att tillägga, utan inskränker
             mig till att yrka bifall till Utskottets förslag.
@@ -716,7 +714,7 @@
         <note xml:id="i-VwL5ihydF9gz9EZgiB8KuP" type="date">
           Onsdagen den 2 April, e. m. 5 N:o 34.
         </note>
-        <u xml:id="i-KKnE1ZxBzcjXxXFbUZzd3q" who="i-LUnWpAjcsRaRqb78mxeJ15" prev="i-UYNRjE7SVGbR9kKcQFeYvB" next="i-CUcjakijwagBWgPD3d6xSv">
+        <u xml:id="i-KKnE1ZxBzcjXxXFbUZzd3q" who="i-LUnWpAjcsRaRqb78mxeJ15" prev="i-UYNRjE7SVGbR9kKcQFeYvB">
           <seg xml:id="i-QAs26wKHGDCKp9opvzAXVh">
             föreslagit den högre än till 3 öre per skålpund. Under vissa
             tider förlidet Om tull å fläsk. år och äfven i början af detta
@@ -750,8 +748,6 @@
             och arbetsgifvarne skulle kunna gifva tillräcklig ersättning för
             arbetet.
           </seg>
-        </u>
-        <u xml:id="i-CUcjakijwagBWgPD3d6xSv" who="i-LUnWpAjcsRaRqb78mxeJ15" prev="i-KKnE1ZxBzcjXxXFbUZzd3q">
           <seg xml:id="i-BKDDm7gvxjd8M8gmtG3GSz">
             Sedan jag nu uttalat mina åsigter i denna fråga, anhåller jag
             att få tillkännagifva, det jag ämnar rösta för afslag å Utskottets
@@ -811,7 +807,7 @@
         <note xml:id="i-7cBkjxGAQU7rbj4F9WW1LX" type="speaker">
           Herr Lönegren:
         </note>
-        <u xml:id="i-VRVabKgoPhSaxBVsnJ73mz" who="i-YW6AVxRNnSF96fpnZ8xTbh" next="i-4NmxKY77aogikz6LGwLegJ">
+        <u xml:id="i-VRVabKgoPhSaxBVsnJ73mz" who="i-YW6AVxRNnSF96fpnZ8xTbh">
           <seg xml:id="i-CY4U2BJT1iYSVu6RefBKwV">
             Riksdagen har sedan många år omfattat och äfven tillämpat den
             grundsats, att lifsförnödenheter i allmänhet böra vara fria från
@@ -822,8 +818,6 @@
             genom nedsättning af tullen på såväl lifsförnödenheter som andra
             varor, 1 många fall varit mera inbillad än verklig.
           </seg>
-        </u>
-        <u xml:id="i-4NmxKY77aogikz6LGwLegJ" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-VRVabKgoPhSaxBVsnJ73mz">
           <seg xml:id="i-64srD2CfbHQKnWbdin27Y4">
             Jag anser emellertid icke lämpligt att för tullbeskattningen
             utplocka ur taxan en och annan artikel utan att på samma gång
@@ -868,7 +862,7 @@
         <note xml:id="i-AqjDtdk9xBQRa5bWu1C14i" type="date">
           Onsdagen den 2 April, e. m. 7 N:o 34.
         </note>
-        <u xml:id="i-UfYqtrmPhDYEpsrDfqdzHs" who="i-DDbQAJrNwu3e569rbqpH8y" prev="i-91m1N3ZPm6d5yVBHM2Uh5F" next="i-7kqpcEZZj1ChtPsu6KouWo">
+        <u xml:id="i-UfYqtrmPhDYEpsrDfqdzHs" who="i-DDbQAJrNwu3e569rbqpH8y" prev="i-91m1N3ZPm6d5yVBHM2Uh5F">
           <seg xml:id="i-XpmzvqsVgPLPBnrbHkCFAd">
             denna föda under en tid då det är brist på arbetsförtjenst och
             då Om tull å fläsk. arbetsgifvare nödgas nedtrycka arbetsprisen
@@ -876,30 +870,20 @@
             icke var rätt välbetänkt. Detta amerikanska fläsk är — kan man
             säga — en oundgänglig lifsförnödenhet
           </seg>
-        </u>
-        <u xml:id="i-7kqpcEZZj1ChtPsu6KouWo" who="i-DDbQAJrNwu3e569rbqpH8y" prev="i-UfYqtrmPhDYEpsrDfqdzHs" next="i-43DvR9gAwddCMJK5PzH9WZ">
           <seg xml:id="i-SpX8dDYncXrDPcAcYBe9E8">
             för den arbetande befolkningen och konsumeras icke heller af
             någon
           </seg>
-        </u>
-        <u xml:id="i-43DvR9gAwddCMJK5PzH9WZ" who="i-DDbQAJrNwu3e569rbqpH8y" prev="i-7kqpcEZZj1ChtPsu6KouWo" next="i-C2sZYFdBTrkebYhuXWDKQ3">
           <seg xml:id="i-7PeuvyH4tU81y5LkDSnqe2">
             annan. Hvar och en, som tagit kännedom derom, kan intyga att
           </seg>
-        </u>
-        <u xml:id="i-C2sZYFdBTrkebYhuXWDKQ3" who="i-DDbQAJrNwu3e569rbqpH8y" prev="i-43DvR9gAwddCMJK5PzH9WZ" next="i-HdnjUSm1JvTGwZp5ECDw6B">
           <seg xml:id="i-7P4Y3trtLNHLHMJXMXMM2t">
             det icke är synnerligen smakligt för läckergommar. Och jag före-
           </seg>
-        </u>
-        <u xml:id="i-HdnjUSm1JvTGwZp5ECDw6B" who="i-DDbQAJrNwu3e569rbqpH8y" prev="i-C2sZYFdBTrkebYhuXWDKQ3" next="i-LvDZZiRY2EQ9KSnKCSXfUK">
           <seg xml:id="i-UNdRvq9HTQb1skgH4UaiXG">
             ställer mig derföre att denna Kammare borde icke afundas den
             ar-
           </seg>
-        </u>
-        <u xml:id="i-LvDZZiRY2EQ9KSnKCSXfUK" who="i-DDbQAJrNwu3e569rbqpH8y" prev="i-HdnjUSm1JvTGwZp5ECDw6B">
           <seg xml:id="i-7q5Uy17fvVaY2BDgsRcnLL">
             betande befolkningen att fortfarande kunna erhålla denna förnödenhetsartikel
             till så billigt pris som möjligt. Jag yrkar bifall till ut-
@@ -990,7 +974,7 @@
           Herr P. Ericsson, som jemte Herrar OC. A. Jönsson och 8. Magnusson
           inom Utskottet reserverat sig vid förevarande punkt, yttrade:
         </note>
-        <u xml:id="i-GwAUE2RkNyNMKZMKn5U2wi" who="unknown" next="i-YXDozGKUjQCN8m5ZG5cJLr">
+        <u xml:id="i-GwAUE2RkNyNMKZMKn5U2wi" who="unknown">
           <seg xml:id="i-FCPs5vpKwrTyorP1Njx9kS">
             För min del kan jag icke finna rättvist att på sätt som skett
             under loppet af flera år från tullafgifter befria den ena artikeln
@@ -1001,8 +985,6 @@
             dessa belopp under de sista fem åren varit tillräckliga för att
             årligen aflöna en eller två statens tjenstemän.
           </seg>
-        </u>
-        <u xml:id="i-YXDozGKUjQCN8m5ZG5cJLr" who="unknown" prev="i-GwAUE2RkNyNMKZMKn5U2wi">
           <seg xml:id="i-B3Ms27mk7iypaT9u51jRAU">
             Jag yrkar afslag å Utskottets hemställan.
           </seg>
@@ -1010,7 +992,7 @@
         <note xml:id="i-S7ZmN3B4yH6Y2RpR8ZadGK" type="speaker">
           Friherre Fock:
         </note>
-        <u xml:id="i-5QjowtxG8HUhRZb3nJZwCd" who="i-NW9amfhpK6mEn3WxKi9YQ9" next="i-nHmGBT62FfE4nuW21CwKB">
+        <u xml:id="i-5QjowtxG8HUhRZb3nJZwCd" who="i-NW9amfhpK6mEn3WxKi9YQ9" next="i-Fx9okiX2puT3NuRruvhaMy">
           <seg xml:id="i-XgQKBysjJGJwR8z5NrgpAc">
             Hvad den frågan beträffar, huruvida fosfor användes vid tillverkningen
             af tändstickor, får jag meddela den upplysning, att så i allmänhet
@@ -1019,8 +1001,6 @@
             plån», och det är på detta som fosforn återfinnes under den särskilda
             form, som benämnes amorf fosfor och hvarunder han är mindre eldfarlig.
           </seg>
-        </u>
-        <u xml:id="i-nHmGBT62FfE4nuW21CwKB" who="i-NW9amfhpK6mEn3WxKi9YQ9" prev="i-5QjowtxG8HUhRZb3nJZwCd" next="i-Fx9okiX2puT3NuRruvhaMy">
           <seg xml:id="i-41RybE1KenUXETBd2KSL7X">
             Hvad nu sjelfva frågan angår, så har Utskottet sett densamma
             hvarken ur fribhandelns eller protektionismens utan helt enkelt
@@ -1037,7 +1017,7 @@
         <note xml:id="i-82gVcHjnGXjBDuiFnpwxUz" type="date">
           Onsdagen den 2 April, e. m. 9 N:o UH.
         </note>
-        <u xml:id="i-Fx9okiX2puT3NuRruvhaMy" who="i-NW9amfhpK6mEn3WxKi9YQ9" prev="i-nHmGBT62FfE4nuW21CwKB" next="i-v9UAiKngHYSq9fArZXaQ7">
+        <u xml:id="i-Fx9okiX2puT3NuRruvhaMy" who="i-NW9amfhpK6mEn3WxKi9YQ9" prev="i-5QjowtxG8HUhRZb3nJZwCd">
           <seg xml:id="i-UZ3vzMpeWvcCDs3BNzqxhe">
             fem sjettedelar af hela tillverkningen, och då fosfor ej 1 nämnvärd
             Om tullfrihet grad användes för något annat tekniskt ändamål,
@@ -1049,8 +1029,6 @@
             något egentligt tullskydd, men utvecklad och ledd af insigtsfulle
             och kunnige män.
           </seg>
-        </u>
-        <u xml:id="i-v9UAiKngHYSq9fArZXaQ7" who="i-NW9amfhpK6mEn3WxKi9YQ9" prev="i-Fx9okiX2puT3NuRruvhaMy">
           <seg xml:id="i-4eAnu4Ph4W9Aptk7dhVZK1">
             Af Kommerskollegii berättelser inhemtas att utförseln af tändstickor
             redan öfverstiger 20 millioner skålpund årligen, och svårligen
@@ -1078,7 +1056,7 @@
         <note xml:id="i-14Vn5Av92EjDoiYHPKj6qF" type="speaker">
           Herr C. Aron Jönsson:
         </note>
-        <u xml:id="i-Prwdzh6Mz4T3enBp4qXspY" who="i-Y1uNj2qNzJs7M2cae8FpC6" next="i-TF84pMjCBSVEwjJRnjo3av">
+        <u xml:id="i-Prwdzh6Mz4T3enBp4qXspY" who="i-Y1uNj2qNzJs7M2cae8FpC6">
           <seg xml:id="i-BSyn3vSKzB3AYLLySwY4Pr">
             Som herrarne finna, har jag reserverat mig mot Utskottets hemställan
             i föredragna punkten, och har jag ansett mig nu böra gifva till
@@ -1094,8 +1072,6 @@
             med inregistreringen af samma artiklar, och jag har derföre icke
             velat släppa dem alldeles fria.
           </seg>
-        </u>
-        <u xml:id="i-TF84pMjCBSVEwjJRnjo3av" who="i-Y1uNj2qNzJs7M2cae8FpC6" prev="i-Prwdzh6Mz4T3enBp4qXspY" next="i-QkxG8ydxTeLswT9DqFVUfc">
           <seg xml:id="i-99JGeo5zZLtjfq1tuJ9n8">
             Inom Utskottet väckte jag förslag om att införa en sådan inregistreringsafgift
             på de nu tullfria varorna, men förslaget vann ej bifall. Mig synes
@@ -1105,8 +1081,6 @@
             varor med så stor afgift, att arbetet för deras inregistrering
             kan blifva ersatt.
           </seg>
-        </u>
-        <u xml:id="i-QkxG8ydxTeLswT9DqFVUfc" who="i-Y1uNj2qNzJs7M2cae8FpC6" prev="i-TF84pMjCBSVEwjJRnjo3av">
           <seg xml:id="i-4L9i1e927uWMr6iYWJJMUm">
             Jag instämmer med Herr Casparsson deri, att den nu varande tullafgiftens
             bibehållande eller borttagande icke kan i någon afsevärd mån inverka
@@ -1210,12 +1184,10 @@
         <note xml:id="i-Me5jjRN8wLSiVo2gpHxLLM">
           Herr Dahl: Visserligen har jag aldrig vågat hysa någon förhopp-
         </note>
-        <u xml:id="i-N8f3tNjtGZvZ5XAduDQbPY" who="unknown" prev="i-QdHWRHKUhYxPjfLQgMJRWQ" next="i-4Rg3QdoUvyaFzX8JCcX1Gh">
+        <u xml:id="i-N8f3tNjtGZvZ5XAduDQbPY" who="unknown" prev="i-QdHWRHKUhYxPjfLQgMJRWQ" next="i-EAUV1HJ8jorXeFiBAC2C57">
           <seg xml:id="i-XSrdhT1Ws4GFb5c3TaqbL3">
             ing om att tillvinna min motion några sympatier inom Bevillnings-
           </seg>
-        </u>
-        <u xml:id="i-4Rg3QdoUvyaFzX8JCcX1Gh" who="unknown" prev="i-N8f3tNjtGZvZ5XAduDQbPY" next="i-5BBwMurNJPFZFfMqZTuWwc">
           <seg xml:id="i-X38En4fikvR67TrWcsB3gm">
             Utskottet; ty åsigterna hos de män, hvilka jag anser vara de
             ledande inom Utskottet, äro mig alltför väl bekanta från föregående
@@ -1232,8 +1204,6 @@
             min ställning till frågan och om anledningen till mitt ingripande.
             Jag är icke i ringaste mån berörd af den betryckta ställning,
           </seg>
-        </u>
-        <u xml:id="i-5BBwMurNJPFZFfMqZTuWwc" who="unknown" prev="i-4Rg3QdoUvyaFzX8JCcX1Gh" next="i-EAUV1HJ8jorXeFiBAC2C57">
           <seg xml:id="i-6MsZUHbVhJi82KsF1eCZV1">
             i hvilken läderindustrien på senare tider kommit, och jag hoppas,
             att såväl af mitt uppträdande nu som af min motion skall klarligen
@@ -1281,7 +1251,7 @@
         <note xml:id="i-KxmoujU9WHf5pv4YCFARtx" type="date">
           12 Onsdagen den 2 April, e. m.
         </note>
-        <u xml:id="i-EAUV1HJ8jorXeFiBAC2C57" who="unknown" prev="i-5BBwMurNJPFZFfMqZTuWwc" next="i-4PqKQT6oSaXBgZ61MqtFZo">
+        <u xml:id="i-EAUV1HJ8jorXeFiBAC2C57" who="unknown" prev="i-N8f3tNjtGZvZ5XAduDQbPY" next="i-4PqKQT6oSaXBgZ61MqtFZo">
           <seg xml:id="i-5GKcPRoGvLj8t5Vo6JqzvW">
             huden tages under beredning, till den tid då en deraf tillverkad
             god och hållbar vara kan bringas i handeln, åtgår i regel mer
@@ -1338,7 +1308,7 @@
         <note xml:id="i-QeGuznnZBsdoyD1dtZpr1k" type="date">
           Onsdagen den 2 April, e. m. 13
         </note>
-        <u xml:id="i-4PqKQT6oSaXBgZ61MqtFZo" who="unknown" prev="i-EAUV1HJ8jorXeFiBAC2C57" next="i-WfnwjuzNU9D1JP7rkFEJ5S">
+        <u xml:id="i-4PqKQT6oSaXBgZ61MqtFZo" who="unknown" prev="i-EAUV1HJ8jorXeFiBAC2C57" next="i-ERhTBKzqDy97W8mXqVuqEA">
           <seg xml:id="i-8U82u8KfD9wN76ctXvSNk5">
             pund, d. v. s. vida mer än dubbelt mot det föregående årets import.
             Deröfver kan man icke undra. Det är klart att en låg tullsats
@@ -1355,8 +1325,6 @@
             till 1,161,000 skålpund och i Stockholm till 1,325,000 skålpund,
             således höjt sig.
           </seg>
-        </u>
-        <u xml:id="i-WfnwjuzNU9D1JP7rkFEJ5S" who="unknown" prev="i-4PqKQT6oSaXBgZ61MqtFZo" next="i-ERhTBKzqDy97W8mXqVuqEA">
           <seg xml:id="i-6sgy1Bh3N8MhAJ7W3eEZqc">
             Men det var dock ingalunda i vår verldsdel, spekulationen sökte
             och fann de nödiga förutsättningarne för dessa lönande importoperationer,
@@ -1410,7 +1378,7 @@
         <note xml:id="i-yGQXQUj2k6k7p2PiLDe8k" type="date">
           14 Onsdagen den 2 April, e. m.
         </note>
-        <u xml:id="i-ERhTBKzqDy97W8mXqVuqEA" who="unknown" prev="i-WfnwjuzNU9D1JP7rkFEJ5S" next="i-TvGW2DqCtAom3nfuGg2HKV">
+        <u xml:id="i-ERhTBKzqDy97W8mXqVuqEA" who="unknown" prev="i-4PqKQT6oSaXBgZ61MqtFZo" next="i-C7Dcq1BMFMTgxoGXjTSNpz">
           <seg xml:id="i-HapGZfjs1raCX798N19hjA">
             men höjde sig 1878 till 4,877,000 dollars värde. Då till Hull
             utfördes 1877 för 189,000 dollars, utfördes 1878 för 388,000 dollars,
@@ -1450,8 +1418,6 @@
             att anföra några exempel, som torde visa, hurudan tillverkningens
             ställning i vårt land är.
           </seg>
-        </u>
-        <u xml:id="i-TvGW2DqCtAom3nfuGg2HKV" who="unknown" prev="i-ERhTBKzqDy97W8mXqVuqEA" next="i-C7Dcq1BMFMTgxoGXjTSNpz">
           <seg xml:id="i-CDCdaseVrgjp5HTmwq3UE9">
             Jag har från alla delar af landet för sådant ändamål förskaffat
             mig såväl offentliga som enskilda meddelanden, och af dessa meddelanden
@@ -1469,7 +1435,7 @@
         <note xml:id="i-DDvXHLFMfgJrXeDGygxrM6" type="date">
           Onsdagen den 2 April, e. m. 15
         </note>
-        <u xml:id="i-C7Dcq1BMFMTgxoGXjTSNpz" who="unknown" prev="i-TvGW2DqCtAom3nfuGg2HKV" next="i-WibSHQCoirp9GMauwTXi9T">
+        <u xml:id="i-C7Dcq1BMFMTgxoGXjTSNpz" who="unknown" prev="i-ERhTBKzqDy97W8mXqVuqEA" next="i-WibSHQCoirp9GMauwTXi9T">
           <seg xml:id="i-9hJqzUjsFuaq48Wn4uMBfw">
             att röra sig med, ännu för 3 eller 4 år sedan importerat våtsaltade
             hudar till ett värde af 254,000 kronor, men deremot sistlidna
@@ -1537,7 +1503,7 @@
         <note xml:id="i-JHbr4qNZa2GnpAUrFFXY8v" type="date">
           16 Onsdagen den 2 April, e. m.
         </note>
-        <u xml:id="i-WibSHQCoirp9GMauwTXi9T" who="unknown" prev="i-C7Dcq1BMFMTgxoGXjTSNpz" next="i-8WCWDuKjYPzy4skoenSBsd">
+        <u xml:id="i-WibSHQCoirp9GMauwTXi9T" who="unknown" prev="i-C7Dcq1BMFMTgxoGXjTSNpz" next="i-599W8KdNCHamTjeXvJXhmF">
           <seg xml:id="i-UvFwzMaomjkvQwPWQRXYFf">
             anande allmänheten emot en svekfull handelsprodukt. Ty jag vågar
             säga, och det kan bevisas, att denna amerikanska produkt gerna
@@ -1559,8 +1525,6 @@
             organismen skada och ohjelplig förstörelse i stället för att framkalla
             nya krafter och stadgad helsa.
           </seg>
-        </u>
-        <u xml:id="i-8WCWDuKjYPzy4skoenSBsd" who="unknown" prev="i-WibSHQCoirp9GMauwTXi9T" next="i-4Bv6QpQBRtpCoEd3sXDV7t">
           <seg xml:id="i-CsVsTESLjWNh1F6SsNHPZf">
             Jag vill icke så skarpt klandra vare sig det Utskott, som år
             1875 hade sig anförtrodd den förberedande behandlingen af denna
@@ -1578,8 +1542,6 @@
             förekommande frågor måste, i saknad af de nyttiga, utredande meningsbrytningarne,
             löpa fara att allt för ensidigt behandlas.
           </seg>
-        </u>
-        <u xml:id="i-4Bv6QpQBRtpCoEd3sXDV7t" who="unknown" prev="i-8WCWDuKjYPzy4skoenSBsd" next="i-599W8KdNCHamTjeXvJXhmF">
           <seg xml:id="i-Jxg9Fe1PpYc4jNFWJffZBk">
             Man skall möjligen tillvita mig att jag icke kan opartiskt så
             yttra mig när jag talar om min egen motion, men jag vågar påstå,
@@ -1600,7 +1562,7 @@
         <note xml:id="i-GmnNc8WwH1KzTDisKK58RT" type="date">
           Onsdagen den 2 April, e. m. 17
         </note>
-        <u xml:id="i-599W8KdNCHamTjeXvJXhmF" who="unknown" prev="i-4Bv6QpQBRtpCoEd3sXDV7t" next="i-SaQnHrjVf2aCTjLEQo89fX">
+        <u xml:id="i-599W8KdNCHamTjeXvJXhmF" who="unknown" prev="i-WibSHQCoirp9GMauwTXi9T" next="i-MTpFXgehnQicsMkJtwHMnm">
           <seg xml:id="i-Mmw8cHV2Qof1tfTwn5efn">
             densamma med hänsyn till sin stora betydelse för landet kan anses
             förtjena, och att tullsatserna endast småningom minskats, så vågar
@@ -1621,8 +1583,6 @@
             denna katastrof jag velat förebygga genom den motion jag till
             Riksdagen ingifvit.
           </seg>
-        </u>
-        <u xml:id="i-SaQnHrjVf2aCTjLEQo89fX" who="unknown" prev="i-599W8KdNCHamTjeXvJXhmF" next="i-RH18YdfQ2vwToTWXqw3Pb2">
           <seg xml:id="i-3WkCaFMmwf68dp2QbTHVvu">
             Då jag är rädd att jag redan allt för länge tagit herrarnes tid
             1 anspråk, skall jag endast taga mig friheten att komplettera
@@ -1630,8 +1590,6 @@
             kunnat stå Utskottet till buds, likaväl som mig, för så vidt Utskottet
             velat söka dem.
           </seg>
-        </u>
-        <u xml:id="i-RH18YdfQ2vwToTWXqw3Pb2" who="unknown" prev="i-SaQnHrjVf2aCTjLEQo89fX" next="i-MTpFXgehnQicsMkJtwHMnm">
           <seg xml:id="i-JkEEPCbv3kgSZLhVRS9FQx">
             Då Utskottet till exempel talar om den införsel af läder, som
             från Storbritannien egt rum, har Utskottet stannat vid uppgifterna
@@ -1680,7 +1638,7 @@
         <note xml:id="i-KKpJ2UsmQUFC1evJJsuvEb" type="date">
           18 Onsdagen den 2 April, e. m.
         </note>
-        <u xml:id="i-MTpFXgehnQicsMkJtwHMnm" who="unknown" prev="i-RH18YdfQ2vwToTWXqw3Pb2" next="i-NTsno4Nikvgh5kMTfCRVU8">
+        <u xml:id="i-MTpFXgehnQicsMkJtwHMnm" who="unknown" prev="i-599W8KdNCHamTjeXvJXhmF">
           <seg xml:id="i-XbknmVcSxKVmDGC7CYvsqw">
             gift. Jag är i besittning både i original och i svensk öfversättning
             af ett andragande, som från norska läderfabrikanter ingått till
@@ -1694,8 +1652,6 @@
             4,000,000 skålpund, men sedan 1876, efter tullnedsättningen, hafva
             sjunkit ned till 2,160,000 skålpund.
           </seg>
-        </u>
-        <u xml:id="i-NTsno4Nikvgh5kMTfCRVU8" who="unknown" prev="i-MTpFXgehnQicsMkJtwHMnm" next="i-QdWiU6mpvcd68QtFTVEqDK">
           <seg xml:id="i-JFdywXJwvsSbuBQMGXFxtT">
             Der nämnes också slutligen att Flakkefjords-garfverierna, hvilka
             förr drifvit en så omfattande fabrikation, att dit importerats
@@ -1711,8 +1667,6 @@
             han sade sig sälja här i Sverige under sina resor, både i städer
             och på landsbygden. Priset derpå var 80 å 96 öre pr skålpund.
           </seg>
-        </u>
-        <u xml:id="i-QdWiU6mpvcd68QtFTVEqDK" who="unknown" prev="i-NTsno4Nikvgh5kMTfCRVU8" next="i-PwbGChUMJ7BRnvm4qMwTtX">
           <seg xml:id="i-LTWQ6pTSAiTZSigEweRvZc">
             Jag har, såsom jag nyss meddelade, sökt samla alla de upplysningar,
             som varit möjliga att åstadkomma för sakens utredning. Man må
@@ -1724,8 +1678,6 @@
             andra systemet, hvars företräde sins emellan jag för ögonblicket
             ej vill tillåta mig att bedöma.
           </seg>
-        </u>
-        <u xml:id="i-PwbGChUMJ7BRnvm4qMwTtX" who="unknown" prev="i-QdWiU6mpvcd68QtFTVEqDK">
           <seg xml:id="i-FCCqjQB896AJ8pLkLwbeUM">
             Detta är ett alldeles exceptionelt fall. Vi kunna nu säga att
             den tullnedsättning å läder, som egde rum 1876, var ett statsekonomiskt
@@ -1759,7 +1711,7 @@
         <note xml:id="i-8NpUrFvaiCNprT1JJxYfhV" type="date">
           Onsdagen den 2 April, e. m. 19
         </note>
-        <u xml:id="i-K7eUPw3guxg8pyYJeNc458" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-L4MAeS2iEAsoA8VwCGtJSq" next="i-GurQD2zD9fm4865iTbsJxw">
+        <u xml:id="i-K7eUPw3guxg8pyYJeNc458" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-L4MAeS2iEAsoA8VwCGtJSq" next="i-7FFGQC653sdAGRXcqen6NX">
           <seg xml:id="i-2EMkWtXtJc44MVjV4Go1AY">
             som sådant gjort, handlat ganska illa. Man gäckas icke gerna
             med bekymren. Om de som lida bekymmer komma till statsmakterna
@@ -1785,8 +1737,6 @@
             att slå ihjäl de små. Jag föreställer mig att detsamma gäller
             om många andra näringsgrenar.
           </seg>
-        </u>
-        <u xml:id="i-GurQD2zD9fm4865iTbsJxw" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-K7eUPw3guxg8pyYJeNc458" next="i-7FFGQC653sdAGRXcqen6NX">
           <seg xml:id="i-QPbmqo7DamV3D9JosXwyF3">
             Då Bevillnings-Utskottet, af hvilket jag är ledamot, fått mottaga
             förebråelser för bristande korrekthet i utredningen af detta ämne,
@@ -1832,7 +1782,7 @@
         <note xml:id="i-FK94mBFJHz6rUx8hE8t1kS" type="date">
           20 Onsdagen den 2 April, e. m.
         </note>
-        <u xml:id="i-7FFGQC653sdAGRXcqen6NX" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-GurQD2zD9fm4865iTbsJxw" next="i-NYypiLXeHhdc7bP9TczNG9">
+        <u xml:id="i-7FFGQC653sdAGRXcqen6NX" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-K7eUPw3guxg8pyYJeNc458" next="i-BaHAFPCMJCfGAB4uugSJgj">
           <seg xml:id="i-B98pjF3AGe2eqLkCM5H3to">
             och återvägen, samt att de svenska garfverierna icke skulle uthärda
             en dylik täflan, ansåg man inom Utskottet vara allt för mycket
@@ -1858,8 +1808,6 @@
             under, har ju sådant likväl icke gått i fullbordan, och man bör
             sålunda emottaga dessa mörka förutsägelser med någon försigtighet.
           </seg>
-        </u>
-        <u xml:id="i-NYypiLXeHhdc7bP9TczNG9" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-7FFGQC653sdAGRXcqen6NX" next="i-BaHAFPCMJCfGAB4uugSJgj">
           <seg xml:id="i-XqTiR5EYx55ZbJQ5GnFpmk">
             Enahanda dystra förutsägelser förekomma uti den skrift till svenska
             folkets representanter, hvilken vi alla fått emottaga och som
@@ -1892,7 +1840,7 @@
         <note xml:id="i-PZRhZ9ueLsQEkxjsYUzhUm" type="date">
           Onsdagen den 2 April, e. m. 21
         </note>
-        <u xml:id="i-BaHAFPCMJCfGAB4uugSJgj" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-NYypiLXeHhdc7bP9TczNG9" next="i-FTyanyLdYM4ARLi1ydqdAr">
+        <u xml:id="i-BaHAFPCMJCfGAB4uugSJgj" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-7FFGQC653sdAGRXcqen6NX" next="i-FTyanyLdYM4ARLi1ydqdAr">
           <seg xml:id="i-32Dz3achPaeMdrnUvHP2iJ">
             gagna ett poetiskt talesätt, som kallas pleonasm. En person,
             som har stor kännedom om förhållandena härutinnan, har upplyst
@@ -1960,7 +1908,7 @@
         <note xml:id="i-TMX7wxbzVUB19GG5Sn3PVD" type="date">
           22 Onsdagen den 2 April, e. m.
         </note>
-        <u xml:id="i-FTyanyLdYM4ARLi1ydqdAr" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-BaHAFPCMJCfGAB4uugSJgj" next="i-WiZ6dGHmxeSGe83J2D3KT4">
+        <u xml:id="i-FTyanyLdYM4ARLi1ydqdAr" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-BaHAFPCMJCfGAB4uugSJgj" next="i-LBrCgtqfvyujFGnnrKqcjo">
           <seg xml:id="i-ETezUz8T9Rdr4D5DFsPBgY">
             i betryck stadd fabrikation — boktryckerierna, hvilka jag vill
             rekommendera, icke undantagna — skall gå bättre tider till mötes,
@@ -1968,8 +1916,6 @@
             böra gå något steg i orätt rigtning. Jag studsar icke för beloppet,
             men väl för ett steg 1 orätt rigtning.
           </seg>
-        </u>
-        <u xml:id="i-WiZ6dGHmxeSGe83J2D3KT4" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-FTyanyLdYM4ARLi1ydqdAr" next="i-7RzbfLzFiV4vCBAhPXLGtd">
           <seg xml:id="i-WgE4mMLbhJkknupsmChyL9">
             Jag ber emellertid att få ifrån lädret, äfven dervid följande
             den siste talarens exempel, öfvergå till sjelfva frågan i sin
@@ -1991,8 +1937,6 @@
             icke en sådan motsägelse; men faktiskt är emellertid, att Amerika
             under det förra systemet uppnått en god ekonomisk blomstring.
           </seg>
-        </u>
-        <u xml:id="i-7RzbfLzFiV4vCBAhPXLGtd" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-WiZ6dGHmxeSGe83J2D3KT4" next="i-EAAi1sKyPru6ohCUhZmMD8">
           <seg xml:id="i-7SHocBMa2DeJQqWZoGM5RS">
             I slutet af förra året ingick en förening i Newyork med en framställning
             till regeringen, eller åtminstone förbereddes en sådan, jag vet
@@ -2011,8 +1955,6 @@
             Det är just detta tillfälliga trångmål och hämmande af industrien,
             framkalladt af prohibitivsystemet, som vållat Amerikas stora svårigheter.
           </seg>
-        </u>
-        <u xml:id="i-EAAi1sKyPru6ohCUhZmMD8" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-7RzbfLzFiV4vCBAhPXLGtd" next="i-LBrCgtqfvyujFGnnrKqcjo">
           <seg xml:id="i-Liq94gFA2y4ZxJmFd2xc5C">
             Samme talare anförde, då han kastade sin blick öfver hela verlden,
             hurusom Ryssland vunnit så goda fördelar af sitt prohibitivsystem,
@@ -2026,7 +1968,7 @@
         <note xml:id="i-96L3TxjrMuDoxVQyEgZAYf" type="date">
           Onsdagen den 2 April, e. m. 23
         </note>
-        <u xml:id="i-LBrCgtqfvyujFGnnrKqcjo" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-EAAi1sKyPru6ohCUhZmMD8" next="i-WeYmMfkQVNQnJYdA3tp3uU">
+        <u xml:id="i-LBrCgtqfvyujFGnnrKqcjo" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-FTyanyLdYM4ARLi1ydqdAr" next="i-WbeyV8Vu1DrCHQ9LrMbeii">
           <seg xml:id="i-GZ7ptaLE3gB1HhuPCb6QR2">
             Emellertid är det sant, att det finnes länder med prohibitiva
             tullsatser och att man står inför frågan om reciprocitet. Hvad
@@ -2072,8 +2014,6 @@
             det enda sättet att förebygga vädorna af den reciprocitet, hvarom
             talats, ligger i handelstraktater.
           </seg>
-        </u>
-        <u xml:id="i-WeYmMfkQVNQnJYdA3tp3uU" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-LBrCgtqfvyujFGnnrKqcjo" next="i-WbeyV8Vu1DrCHQ9LrMbeii">
           <seg xml:id="i-LEVZsao586yCibUSvWoZXr">
             Atervändande till lädertullen och bedjande om ursäkt för det
             jag vågat gå utanför den, vill jag blott gent emot den siste ärade
@@ -2099,15 +2039,13 @@
         <note xml:id="i-FZJpjpqiJ9Ld5vXvbjeUuf" type="date">
           24 Onsdagen den 2 April, e. m.
         </note>
-        <u xml:id="i-WbeyV8Vu1DrCHQ9LrMbeii" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-WeYmMfkQVNQnJYdA3tp3uU" next="i-21MJrhSTKPknzGfzSGvG3i">
+        <u xml:id="i-WbeyV8Vu1DrCHQ9LrMbeii" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-LBrCgtqfvyujFGnnrKqcjo">
           <seg xml:id="i-QHDpaNKXuPs2x717zqdfck">
             telse. Då denna emellertid endast visar en nedgång i tillverkningsvärdet
             af 800,000 kronor, torde det icke så betydligt inverka på saken,
             att de slutsatser, som talaren deraf ville draga, kunna ega någon
             betydelse.
           </seg>
-        </u>
-        <u xml:id="i-21MJrhSTKPknzGfzSGvG3i" who="i-YFzzFKh2NjM54cFjad2qWQ" prev="i-WbeyV8Vu1DrCHQ9LrMbeii">
           <seg xml:id="i-SxWmTn7NrVC1fyvqq8bfKk">
             Jag yrkar bifall till Utskottets förslag.
           </seg>
@@ -2164,7 +2102,7 @@
         <note xml:id="i-26uBgoTJR2VpbqxRCYonkm" type="date">
           Onsdagen den 2 April, e. m. 25
         </note>
-        <u xml:id="i-5bEVKg9g7TshFTkAaimmcg" who="i-BrefwLmQyv9KychpNsEvVG" prev="i-74pVuZ3Kjbetijyu8sREDy" next="i-T2DefsiMvwJm3yYGtWL2rP">
+        <u xml:id="i-5bEVKg9g7TshFTkAaimmcg" who="i-BrefwLmQyv9KychpNsEvVG" prev="i-74pVuZ3Kjbetijyu8sREDy">
           <seg xml:id="i-MpCuvKFoFTriFymVLnb9Rf">
             ska. Om så verkligen är förhållandet, ligger den slutsatsen nära
             till hands att den stora exporten af läder till Sverige från Norge
@@ -2175,13 +2113,9 @@
             till och med än det, hvartill våra egna importörer kunna sälja
             det.
           </seg>
-        </u>
-        <u xml:id="i-T2DefsiMvwJm3yYGtWL2rP" who="i-BrefwLmQyv9KychpNsEvVG" prev="i-5bEVKg9g7TshFTkAaimmcg" next="i-58jR6BD3hzHpqDVWb36xtM">
           <seg xml:id="i-Tynb22yJVfrJquf1uLmVJX">
             Bevillnings-Utskottet säger vidare att det erhållit »trovärdiga
           </seg>
-        </u>
-        <u xml:id="i-58jR6BD3hzHpqDVWb36xtM" who="i-BrefwLmQyv9KychpNsEvVG" prev="i-T2DefsiMvwJm3yYGtWL2rP" next="i-UWUQbcrmw4SbJJwp7Kb7yA">
           <seg xml:id="i-LsGDkGSixsYJqjXkrGm9Hf">
             uppgifter derom att det amerikanska hemlockslädret icke blott
             i visst hänseende eger bestämdt företräde framför det svenska
@@ -2199,8 +2133,6 @@
             produktionsvilkoren icke ställas så ofördelaktiga för läderfabrikanterne,
             att all konkurrens med utlandet derigenom omöjliggöres.
           </seg>
-        </u>
-        <u xml:id="i-UWUQbcrmw4SbJJwp7Kb7yA" who="i-BrefwLmQyv9KychpNsEvVG" prev="i-58jR6BD3hzHpqDVWb36xtM">
           <seg xml:id="i-NhJFqGtSETiXVarsPjbtyr">
             Då jag nu anhåller att få instämma i motionärens sakrika anförande,
             skulle jag helst hafva önskat framgång åt det yrkande han 1 sin
@@ -2249,7 +2181,7 @@
         <note xml:id="i-LYZskSiQNva5hfTZKsnGEX" type="date">
           26 Onsdagen den 2 April, e. m,
         </note>
-        <u xml:id="i-SSZXhKd7vYvYoMYGf82s6J" who="i-SypgN7C1SdELHJYN5APLye" prev="i-JVfrB1FTHApPxBZckTueax" next="i-6uLkbB7uNdRbSAuRw8fsVp">
+        <u xml:id="i-SSZXhKd7vYvYoMYGf82s6J" who="i-SypgN7C1SdELHJYN5APLye" prev="i-JVfrB1FTHApPxBZckTueax">
           <seg xml:id="i-DfaoidZUfkUCNkiMBXLNif">
             ifrån Utskottets bevis icke synas mig göra undantag. Motionären
             Herr Dahl har emellertid redan företagit en dylik granskning,
@@ -2275,15 +2207,11 @@
             det lägre beloppet, skall jag icke påyrka något annat, i hopp
             att framdeles någon vidare förhöjning ifrågakommer.
           </seg>
-        </u>
-        <u xml:id="i-6uLkbB7uNdRbSAuRw8fsVp" who="i-SypgN7C1SdELHJYN5APLye" prev="i-SSZXhKd7vYvYoMYGf82s6J" next="i-P7z839UYQY5e67eLSq16ib">
           <seg xml:id="i-UjkfqsEJGefTzfgMZDhm2T">
             Med hvad jag här yttrat vill jag ingalunda hafva uttalat något
             omdöme om, huruvida det ena tullsystemet kan hafva företräde framför
             det andra; jag vill blott för min del hafva bidragit till att
           </seg>
-        </u>
-        <u xml:id="i-P7z839UYQY5e67eLSq16ib" who="i-SypgN7C1SdELHJYN5APLye" prev="i-6uLkbB7uNdRbSAuRw8fsVp">
           <seg xml:id="i-DNekJfyf5Go27SztyyuhZ1">
             oc rätt och billighet, så vidt jag det förstår, må varda gällande.
           </seg>
@@ -2318,7 +2246,7 @@
         <note xml:id="i-FMBRbKSuynQyfXcYQVB3YK" type="date">
           Onsdagen den 2 April, e. m. 27
         </note>
-        <u xml:id="i-SrJk7zSKjaC5jsuKqz7Wz4" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-Asex6H7k2ZuNtSFyj1rSrR" next="i-NbE8tdrsFLQZc5cJa7zprS">
+        <u xml:id="i-SrJk7zSKjaC5jsuKqz7Wz4" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-Asex6H7k2ZuNtSFyj1rSrR" next="i-GFAv4uJLiVuLCg9Hu7MviZ">
           <seg xml:id="i-8PVn6ybhDeCZLYLsGNprjY">
             önskan tog tankens form, började jag fundera på huru detta borde
             ske. Hvad är det då dessa amerikanare vilja? Jo, säger man, de
@@ -2356,8 +2284,6 @@
             mina skyldigheter mot mina kommittenter med andra ögon, än de
             tre tillverkarne af läder.
           </seg>
-        </u>
-        <u xml:id="i-NbE8tdrsFLQZc5cJa7zprS" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-SrJk7zSKjaC5jsuKqz7Wz4" next="i-GFAv4uJLiVuLCg9Hu7MviZ">
           <seg xml:id="i-ThgcvMcSPaNjzJfA1rDdmq">
             Man har sagt, att dessa näringsidkare för närvarande befinna
             sig i en ställning, som kan sägas vara mycket tryckt. Jag ber
@@ -2390,7 +2316,7 @@
         <note xml:id="i-TbfAMYa5nwHzCbV3NPuB5c" type="date">
           28 Onsdagen den 2 April, e m.
         </note>
-        <u xml:id="i-GFAv4uJLiVuLCg9Hu7MviZ" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-NbE8tdrsFLQZc5cJa7zprS" next="i-931ujLQvjSgigdrckqheru">
+        <u xml:id="i-GFAv4uJLiVuLCg9Hu7MviZ" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-SrJk7zSKjaC5jsuKqz7Wz4" next="i-931ujLQvjSgigdrckqheru">
           <seg xml:id="i-McJLLG4bnDJZ8h8cFU9L1w">
             6,183,000 kronor. Sålunda se vi, att till och med år 1877, som
             var ett jemförelsevis dåligt år, och då ju närimgen påstods lida
@@ -2446,7 +2372,7 @@
         <note xml:id="i-SMNkmU1LcSTmRHvjQ9Jay5" type="date">
           Onsdagen den 2 April, e. m. 29
         </note>
-        <u xml:id="i-931ujLQvjSgigdrckqheru" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-GFAv4uJLiVuLCg9Hu7MviZ" next="i-6FjHsosyLCEWzApD931gsH">
+        <u xml:id="i-931ujLQvjSgigdrckqheru" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-GFAv4uJLiVuLCg9Hu7MviZ" next="i-9GeVe4KEsiEiig6j2PYmv4">
           <seg xml:id="i-93Z9dsRwUGEq3pJ8W9e4dS">
             ning, som den nyssnämnda, närhelst den göres, måste försätta
             dem, som begagna sig af den gamla tillverkningsmetoden, i en ytterst
@@ -2481,8 +2407,6 @@
             inom industriens område, industriidkarne på alla håll söka göra
             sig till godo dessa upptäckter och sålunda följa med sin tid?
           </seg>
-        </u>
-        <u xml:id="i-6FjHsosyLCEWzApD931gsH" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-931ujLQvjSgigdrckqheru" next="i-9GeVe4KEsiEiig6j2PYmv4">
           <seg xml:id="i-JMHiG74P8V8t4JtwEaHwAb">
             Härmed hafva vi nu öfvergått från betraktandet af garfvarnes
             ställning till betraktande af icke garfvarnes ställning. I vårt
@@ -2517,7 +2441,7 @@
         <note xml:id="i-E9jDeeSUr5xrCJyB8HiSxu" type="date">
           30 Onsdagen den 2 April, e. m.
         </note>
-        <u xml:id="i-9GeVe4KEsiEiig6j2PYmv4" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-6FjHsosyLCEWzApD931gsH" next="i-LQnJ171RJbdXj1keocMWn3">
+        <u xml:id="i-9GeVe4KEsiEiig6j2PYmv4" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-931ujLQvjSgigdrckqheru" next="i-BxysJ2Z8UQaSaQkGkddLnM">
           <seg xml:id="i-NXnxPzuuZMQr2opi1qTSRU">
             hyser jag dock ingen farhåga att hvarken garfveriarbetarne eller
             gärfveriindustrien skola gå under. Dessutom bör det icke förglömmas
@@ -2527,8 +2451,6 @@
             draga sig fram, lägga en ytterligare börda, för att göra ställningen
             för garfveriarbetarne angenämare?
           </seg>
-        </u>
-        <u xml:id="i-LQnJ171RJbdXj1keocMWn3" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-9GeVe4KEsiEiig6j2PYmv4" next="i-GNWmLDbYGcArG8C47HkPvS">
           <seg xml:id="i-CtPsziiE3oorUF9XckrdHM">
             Men, säger man — och motionären herr Dahl framhåller detta såsom
             ett hufvudskäl för tullförhöjningen — det amerikanska lädret är
@@ -2558,8 +2480,6 @@
             kostsamma, men alltid misslyckade försök staten i forna tider
             i detta hänseende anställt.
           </seg>
-        </u>
-        <u xml:id="i-GNWmLDbYGcArG8C47HkPvS" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-LQnJ171RJbdXj1keocMWn3" next="i-BxysJ2Z8UQaSaQkGkddLnM">
           <seg xml:id="i-JhropDVVX1PPoCZ6TTrGsv">
             Men det finnes ett annat argument mot den ifrågavarande tullförhöjningen,
             hvilket redan af en annan talare blifvit framhållet, hvilket jag
@@ -2582,7 +2502,7 @@
         <note xml:id="i-Lfg7pCisKbrgWJ4VK6vkpH" type="date">
           Onsdagen den 2 April, e. m. 31
         </note>
-        <u xml:id="i-BxysJ2Z8UQaSaQkGkddLnM" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-GNWmLDbYGcArG8C47HkPvS" next="i-A3t9j86XgFn1NQyZ8MGT7t">
+        <u xml:id="i-BxysJ2Z8UQaSaQkGkddLnM" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-9GeVe4KEsiEiig6j2PYmv4" next="i-YKe7idjz3GFwo3rrhEhgR5">
           <seg xml:id="i-V1CWKJ71E6CcE3m4wPobzH">
             hemlockslädret, hädanefter som hittills, här försäljes, men försäljes
             till dyrare pris än hittills. Om nu denna prisskilnad åtminstone
@@ -2606,8 +2526,6 @@
             garfverier få följaktligen ej något skydd af förhöjningen och
             svenska staten ej heller någon tillökning i tullinkomster.
           </seg>
-        </u>
-        <u xml:id="i-A3t9j86XgFn1NQyZ8MGT7t" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-BxysJ2Z8UQaSaQkGkddLnM" next="i-FT2qoqwTebPAwLdbf1aZuD">
           <seg xml:id="i-ZdZ7D52xVr8mgnuZKsHBy">
             Jag vill dessutom erinra Kammaren om det beslut vi i dag på förmiddagen
             fattat angående första punkten. Aran af detta beslut tillkommer
@@ -2635,8 +2553,6 @@
             så när sammanhängande och icke den ena helt och hållet oberoende
             af den andra.
           </seg>
-        </u>
-        <u xml:id="i-FT2qoqwTebPAwLdbf1aZuD" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-A3t9j86XgFn1NQyZ8MGT7t" next="i-YKe7idjz3GFwo3rrhEhgR5">
           <seg xml:id="i-NNZoYgg9RLZhiBMJwk7fEP">
             Jag har nu kanske alltför länge tagit Kammarens uppmärk-
           </seg>
@@ -2657,7 +2573,7 @@
         <note xml:id="i-9QyRFECCBiKoUKtCx1TSce" type="date">
           32 Onsdagen den 2 April, e. m.
         </note>
-        <u xml:id="i-YKe7idjz3GFwo3rrhEhgR5" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-FT2qoqwTebPAwLdbf1aZuD">
+        <u xml:id="i-YKe7idjz3GFwo3rrhEhgR5" who="i-Vzob1iVwoThSSCEU9iFJLb" prev="i-BxysJ2Z8UQaSaQkGkddLnM">
           <seg xml:id="i-Tw7PYkoPegv1hwdSzbuPRp">
             samhet i anspråk. Jag vill derföre blott tillägga, att jag anser
             denna fråga verkligen vara af stor principiel vigt; det gäller
@@ -2687,13 +2603,11 @@
         <note xml:id="i-LXHsH9rcYzQWqv9rtSbK8w" type="speaker">
           Herr Abr. Rundbäck:
         </note>
-        <u xml:id="i-X5tDME6pDgbLZH5okhFoby" who="i-Ufknq4rc7s6czPFqkd6RXu" next="i-4AruBouZ1aJzneYgqKT8nZ">
+        <u xml:id="i-X5tDME6pDgbLZH5okhFoby" who="i-Ufknq4rc7s6czPFqkd6RXu" next="i-RfCLWpEEnHJYykWeBf4XFG">
           <seg xml:id="i-Y7P6DuT78wwUBpqhdPz2Ns">
             Jag vill icke länge upptaga Herrarnes tid, och lofvar derföre
             att fatta mig kort.
           </seg>
-        </u>
-        <u xml:id="i-4AruBouZ1aJzneYgqKT8nZ" who="i-Ufknq4rc7s6czPFqkd6RXu" prev="i-X5tDME6pDgbLZH5okhFoby" next="i-LbiMHZAoxjV43L349RBnvt">
           <seg xml:id="i-9QoBVr9bqmcNg2wYZYSX2m">
             Tvärtemot hvad den näst föregående talaren förklarat, anser jag
             denna fråga alldeles icke vara af så stor vigt, att man med anledning:
@@ -2709,8 +2623,6 @@
             sådana förhållanden, som ovilkorligen påkalla en modifikation
             i grundsatser, hvilka man för öfrigt erkänner vara rigtiga.
           </seg>
-        </u>
-        <u xml:id="i-LbiMHZAoxjV43L349RBnvt" who="i-Ufknq4rc7s6czPFqkd6RXu" prev="i-4AruBouZ1aJzneYgqKT8nZ" next="i-RfCLWpEEnHJYykWeBf4XFG">
           <seg xml:id="i-6tGHj2KUraUEWoEbsTvV7d">
             Hvad nu föreliggande fråga beträffar, är jag benägen antaga,
             att just här är ett sådant undantagsfall, då det kan vara skäl
@@ -2727,7 +2639,7 @@
         <note xml:id="i-J5BLa2rmoVTC9Ngwq7ejSx" type="date">
           Onsdagen den 2 April, e. m. 33
         </note>
-        <u xml:id="i-RfCLWpEEnHJYykWeBf4XFG" who="i-Ufknq4rc7s6czPFqkd6RXu" prev="i-LbiMHZAoxjV43L349RBnvt" next="i-5Z8ZWekXkPmQ5tKayRc3Mt">
+        <u xml:id="i-RfCLWpEEnHJYykWeBf4XFG" who="i-Ufknq4rc7s6czPFqkd6RXu" prev="i-X5tDME6pDgbLZH5okhFoby">
           <seg xml:id="i-XwHuXk4314NxHHE6RLZj3q">
             ring som af åtskilliga yrkesidkares yttranden och klagomål har
             dock framgått så mycket, att man kan vara frestad tro, att verklig
@@ -2740,8 +2652,6 @@
             ifrågavarande industrigren, såsom äfven Utskottet medgifver, hör
             till de äldsta och naturligaste i vårt land.
           </seg>
-        </u>
-        <u xml:id="i-5Z8ZWekXkPmQ5tKayRc3Mt" who="i-Ufknq4rc7s6czPFqkd6RXu" prev="i-RfCLWpEEnHJYykWeBf4XFG" next="i-RhTTRQtB9ErD1u6kcQsnW">
           <seg xml:id="i-QJY8ERmiAo5Me98gJVvLbz">
             Jag skulle dock, liksom den näst föregående talaren, haft mina
             betänkligheter mot tullförhöjningen, om det hade varit fråga om
@@ -2766,8 +2676,6 @@
             och medhåll, hvilket vid det tillfället väl kan vara godt att
             ega.
           </seg>
-        </u>
-        <u xml:id="i-RhTTRQtB9ErD1u6kcQsnW" who="i-Ufknq4rc7s6czPFqkd6RXu" prev="i-5Z8ZWekXkPmQ5tKayRc3Mt">
           <seg xml:id="i-JmmoXNwwRvhTBuBDz2KcCo">
             Jag förenar mig med motionären, Herr Dahl, och anhåller om bifall
             till hans förslag.
@@ -2810,14 +2718,12 @@
         <note xml:id="i-XuCERdMqttwArp4gf3YNng" type="date">
           34 Onsdagen den 2 April, e. m.
         </note>
-        <u xml:id="i-HjsKxEZHNPuhRd46DwmRbA" who="unknown" prev="i-WWFKyiE3xYVWebKXtmHUAZ" next="i-UFgdMbyNtHk2Srpe58DV9v">
+        <u xml:id="i-HjsKxEZHNPuhRd46DwmRbA" who="unknown" prev="i-WWFKyiE3xYVWebKXtmHUAZ">
           <seg xml:id="i-N11Eie3PK856Xv2dkYUHzt">
             För öfrigt anser jag frågan hafva blifvit så väl utredd af den
             ene af motionärerne, Herr Dahl, att hvar och en af oss bör ha
             fått temligen klart för sig, huru den står.
           </seg>
-        </u>
-        <u xml:id="i-UFgdMbyNtHk2Srpe58DV9v" who="unknown" prev="i-HjsKxEZHNPuhRd46DwmRbA">
           <seg xml:id="i-R2DDXAJjKERQDewCr4fqaC">
             Jag biträder således för min del Herr Dahls motion och anhåller
             hos Herr Talmannen om proposition på bifall till densamma.
@@ -2826,12 +2732,10 @@
         <note xml:id="i-KX5DNSmuTXvbhK8FMbGeWR" type="speaker">
           Herr Lönegren:
         </note>
-        <u xml:id="i-KGysCviVNScaCf1Yec8HcW" who="i-YW6AVxRNnSF96fpnZ8xTbh" next="i-VUTzoeV9HLvM2Ft8qTJ7dT">
+        <u xml:id="i-KGysCviVNScaCf1Yec8HcW" who="i-YW6AVxRNnSF96fpnZ8xTbh">
           <seg xml:id="i-58SjakRLPmbPugFqbeQShU">
             Jag skall icke vara mångordig; jag vill blott lemna en upplysning.
           </seg>
-        </u>
-        <u xml:id="i-VUTzoeV9HLvM2Ft8qTJ7dT" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-KGysCviVNScaCf1Yec8HcW" next="i-DGLs7Z59AXGVf34sRcERzP">
           <seg xml:id="i-PH5xTP9uwpQRDqtrqRbT3k">
             Två föregående talare, den ene från Göteborg, den andre från
             Malmö, hafva såsom skäl emot den föreslagna förhöjningen af tullen
@@ -2846,8 +2750,6 @@
             öfver Norge, då deraf skulle följa, att tull måste erläggas först
             i Norge och sedan i Sverige.
           </seg>
-        </u>
-        <u xml:id="i-DGLs7Z59AXGVf34sRcERzP" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-VUTzoeV9HLvM2Ft8qTJ7dT" next="i-F8KvaHYDWW4Qi61kAf64jr">
           <seg xml:id="i-HSuAvFdYbKVn3KAoLVJjXh">
             Hvad sjelfva frågan angår, så har jag redan fattat mitt beslut.
             Jag kommer nemligen för min del att understödja Herr Dahls motion
@@ -2864,8 +2766,6 @@
             artikel uppstå en ganska konsiderabel statsinkomst, på samma gång
             som man genom denna åtgärd kan hjelpa en tynande industri.
           </seg>
-        </u>
-        <u xml:id="i-F8KvaHYDWW4Qi61kAf64jr" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-DGLs7Z59AXGVf34sRcERzP">
           <seg xml:id="i-5qmJhqvgcR3h7VYm2LML57">
             Det synes mig således vara skäl ingå på Herr Dahls förslag.
           </seg>
@@ -2896,13 +2796,11 @@
         <note xml:id="i-72CAi1wd4Y9hifKHSnofx8" type="speaker">
           Herr Ekenman:
         </note>
-        <u xml:id="i-TCoSPvzs9ZkaWKFYxxRWRo" who="i-XTQdTTGwiQ9iKGjbQTfGYs" next="i-VB9oefb2FSEkQ384bFYgmS">
+        <u xml:id="i-TCoSPvzs9ZkaWKFYxxRWRo" who="i-XTQdTTGwiQ9iKGjbQTfGYs" next="i-TtLRLGCyJHjz77YV3NFuL5">
           <seg xml:id="i-FNTnxpDjbhf7kB2KEoZ5eY">
             Det är ett par yttranden af talaren på göte- : borgsbänken, vid
             hvilka jag fäst min uppmärksamhet och som jag vill söka att bemöta.
           </seg>
-        </u>
-        <u xml:id="i-VB9oefb2FSEkQ384bFYgmS" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-TCoSPvzs9ZkaWKFYxxRWRo" next="i-5scjX9qnzS4aaX5Xryc2MP">
           <seg xml:id="i-3R9eHCLMJx3DXBEyk2sjMh">
             Den ärade talaren yttrade att genom denna tullförhöjning skulle
             tillskyndas hvarje garfveri i landet en vinst af 200 kronor. Jag
@@ -2917,8 +2815,6 @@
             och gagnelig, icke för garfvarne, såsom den ärade talaren lät
             påskina.
           </seg>
-        </u>
-        <u xml:id="i-5scjX9qnzS4aaX5Xryc2MP" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-VB9oefb2FSEkQ384bFYgmS" next="i-RpJTHHV6LCUsv5FRuap54f">
           <seg xml:id="i-A6nnoL6B8NFrm6SaJqTde2">
             Representanten från Göteborg yttrade äfven, att prisbilligheten
             måste vara en afgörande faktor, och att staten icke borde lägga
@@ -2934,8 +2830,6 @@
             i stället för den bättre fastän något dyrare inhemska, tror jag
             att man gått något för långt.
           </seg>
-        </u>
-        <u xml:id="i-RpJTHHV6LCUsv5FRuap54f" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-5scjX9qnzS4aaX5Xryc2MP" next="i-AofP4jL4izTpxHHHeCs9wC">
           <seg xml:id="i-WEjx5eFrcX43sFcS9AVrU7">
             I öfrigt hvad beträffar denna fråga och dessutom alla frågor,
             som röra tull-lagstiftningen, så ligger det i sakens natur, att
@@ -2949,8 +2843,6 @@
             i tullsatsen å sulläder dragit öfver densamma, så att den är på
             väg att gå under.
           </seg>
-        </u>
-        <u xml:id="i-AofP4jL4izTpxHHHeCs9wC" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-RpJTHHV6LCUsv5FRuap54f" next="i-TtLRLGCyJHjz77YV3NFuL5">
           <seg xml:id="i-9fz7QgzsXwkpfvhmL5Z9rt">
             Med denna min uppfattning af saken, tillåter jag mig att, instämmande
             med motionären, yrka bifall till reservanten L. P. Anderssons
@@ -2977,15 +2869,13 @@
         <note xml:id="i-FLd6SS61tjsmGA7JyFmUNn" type="date">
           36 Onsdagen den 2 April, e. m.
         </note>
-        <u xml:id="i-TtLRLGCyJHjz77YV3NFuL5" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-AofP4jL4izTpxHHHeCs9wC" next="i-G6ZyVA7qrLbrmVV29i7iji">
+        <u xml:id="i-TtLRLGCyJHjz77YV3NFuL5" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-TCoSPvzs9ZkaWKFYxxRWRo">
           <seg xml:id="i-CaFcwHrChKFisXXfNfpepo">
             nast individens eller den enskilde medborgarens intressen, utan
             man bör ock se den från det ordnade samhällets. Jag för min del
             anser, att statens kraf på den enskilde har ganska mycket att
             betyda äfven i tullreformen.
           </seg>
-        </u>
-        <u xml:id="i-G6ZyVA7qrLbrmVV29i7iji" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-TtLRLGCyJHjz77YV3NFuL5" next="i-L9KJBHZccH92bMxLrMMMTZ">
           <seg xml:id="i-EFNZzr9oRHQXsujrcVWEj2">
             Efter den tullnedsättning å sulläder till 6 öre pr skålpund,
             som vidtogs af 1875 års Riksdag, nödgades större delen af landets
@@ -3007,8 +2897,6 @@
             summa hade man kunnat gifva många af dem, som nu gå sysslolösa,
             arbete och betryggad utkomst.
           </seg>
-        </u>
-        <u xml:id="i-L9KJBHZccH92bMxLrMMMTZ" who="i-XTQdTTGwiQ9iKGjbQTfGYs" prev="i-G6ZyVA7qrLbrmVV29i7iji">
           <seg xml:id="i-HX3FfnD3x8Nv949LUuoGRn">
             Jag yrkar, att tullen å sulläder måtte höjas till tio öre pr
             skålpund.
@@ -3017,7 +2905,7 @@
         <note xml:id="i-6A4Njqm96jQSVBZSDdxEKC" type="speaker">
           Herr Sjöberg:
         </note>
-        <u xml:id="i-QxQeiBkLa8WhjGejiZ44uq" who="i-Lq454nVDYrDHNLUERQsYDn" next="i-CLar2NAQA5FAfcVD7U2364">
+        <u xml:id="i-QxQeiBkLa8WhjGejiZ44uq" who="i-Lq454nVDYrDHNLUERQsYDn" next="i-6cYZMd7Jdmt5faJTiogAtf">
           <seg xml:id="i-BfmSZXTparqtwvT5NKHzBE">
             Äfven om jag för tillfället hade lynne och röst att uppehålla
             herrarne med något längre tal, så inser jag dock allt för väl
@@ -3038,8 +2926,6 @@
             behof eller, än mindre, på någon utredning, äfven af Riksdagen
             förkastades.
           </seg>
-        </u>
-        <u xml:id="i-CLar2NAQA5FAfcVD7U2364" who="i-Lq454nVDYrDHNLUERQsYDn" prev="i-QxQeiBkLa8WhjGejiZ44uq" next="i-6cYZMd7Jdmt5faJTiogAtf">
           <seg xml:id="i-JMKyYRyQyxaBDze63GMPeY">
             Vid sådant förhållande finner jag icke några betänkligheter att
             förorda den af Herr Meijenqvist föreslagna tullförhöjningen med
@@ -3052,7 +2938,7 @@
         <note xml:id="i-Nw7ZEDxUnQfahgBB3tUxBW" type="date">
           Onsdagen den 2 April, e m. 37
         </note>
-        <u xml:id="i-6cYZMd7Jdmt5faJTiogAtf" who="i-Lq454nVDYrDHNLUERQsYDn" prev="i-CLar2NAQA5FAfcVD7U2364">
+        <u xml:id="i-6cYZMd7Jdmt5faJTiogAtf" who="i-Lq454nVDYrDHNLUERQsYDn" prev="i-QxQeiBkLa8WhjGejiZ44uq">
           <seg xml:id="i-QFjuaSNjYepCKqLhf159Dt">
             att jag yrkar bifall till Herr Mejenqvists förslag om en förhöjning
             till 10 öre per skålpund i tullen å de lädersorter, han i sin
@@ -3065,15 +2951,13 @@
         <note xml:id="i-KAURoinufQNbq9aBT7AkFC" type="speaker">
           Herr Linder:
         </note>
-        <u xml:id="i-JmmMgoZYnYCC9Vm23c3M8x" who="i-Gp9nQSiXNrc7A3997smM82" next="i-Ux5RsWeFLjHRsWAPrGF5oS">
+        <u xml:id="i-JmmMgoZYnYCC9Vm23c3M8x" who="i-Gp9nQSiXNrc7A3997smM82">
           <seg xml:id="i-SH9JVa9ws8NEBvM8W322YV">
             Jag anhåller att med åberopande af de skäl, Herr Dahl anfört,
             få instämma i det yrkande, som framstäldes af den reservant, Herr
             Andersson, hvilken under diskussionen öfver denna punkt först
             hade ordet.
           </seg>
-        </u>
-        <u xml:id="i-Ux5RsWeFLjHRsWAPrGF5oS" who="i-Gp9nQSiXNrc7A3997smM82" prev="i-JmmMgoZYnYCC9Vm23c3M8x" next="i-4MgacXK7uamjeTGpK2q8GU">
           <seg xml:id="i-X5KmKptgUYFSVZnqsnbT66">
             Dessutom ber jag att få beröra blott en enda omständighet, som
             förekommit under diskussionen, och hvilken dervid ännu icke erhållit
@@ -3089,8 +2973,6 @@
             hvarje fråga om fara från det hållet, så vidt denna tullförhöjning,
             hvad man har anledning att höppas, af Stortinget varder beslutad.
           </seg>
-        </u>
-        <u xml:id="i-4MgacXK7uamjeTGpK2q8GU" who="i-Gp9nQSiXNrc7A3997smM82" prev="i-Ux5RsWeFLjHRsWAPrGF5oS">
           <seg xml:id="i-85ru2Sw2CQvFf4tQmc2iw4">
             Jag instämmer med reservanten.
           </seg>
@@ -3098,7 +2980,7 @@
         <note xml:id="i-7Gpf5LmMJ5AGYxTJ11wHLY" type="speaker">
           Herr Wigardt:
         </note>
-        <u xml:id="i-Fqb8p9Rp5fmh3PPXMbQPEN" who="i-LuFYHhoNXD6PSHzC7CsSDs" next="i-WUuF5AvFXd37iECZxNrMTq">
+        <u xml:id="i-Fqb8p9Rp5fmh3PPXMbQPEN" who="i-LuFYHhoNXD6PSHzC7CsSDs">
           <seg xml:id="i-US3fP2kZng9peVEqxKKQmR">
             På samma gång jag ger till känna, att jag, om frågan kommer under
             omröstning, ämnar votera för nu ifrågavarande tulls förhöjning
@@ -3113,8 +2995,6 @@
             förlust — orsaken må nu vara hvilken som helst — samt att garfverierna
             äro i behof af större skydd för sina tillverkningar än de nu hafva.
           </seg>
-        </u>
-        <u xml:id="i-WUuF5AvFXd37iECZxNrMTq" who="i-LuFYHhoNXD6PSHzC7CsSDs" prev="i-Fqb8p9Rp5fmh3PPXMbQPEN">
           <seg xml:id="i-AszXovXzJzvGjYY1jsjhvm">
             Jag yrkar bifall till förslaget om höjande af ifrågavarande tullsats
             till 10 öre per skålpund.
@@ -3146,13 +3026,11 @@
         <note xml:id="i-YbpYLNvur1XrN81w1q8opV" type="date">
           38 Onsdagen den 2 April, e. m.
         </note>
-        <u xml:id="i-9xuMqoG6dTH3gm1myGjnTY" who="i-GU6iXbz8cHt8kfQYRQ19vZ" prev="i-K3nCXxVu6sYoWWAQALwCeX" next="i-YEbFm6HYbpAMx81A5hxLXg">
+        <u xml:id="i-9xuMqoG6dTH3gm1myGjnTY" who="i-GU6iXbz8cHt8kfQYRQ19vZ" prev="i-K3nCXxVu6sYoWWAQALwCeX">
           <seg xml:id="i-U1qKtaYEXoykXci2tXL7zS">
             våga detta försök. Jag satte mig derföre också emot förslaget;
             men min åsigt rönte icke erkännande af Kamrarne.
           </seg>
-        </u>
-        <u xml:id="i-YEbFm6HYbpAMx81A5hxLXg" who="i-GU6iXbz8cHt8kfQYRQ19vZ" prev="i-9xuMqoG6dTH3gm1myGjnTY">
           <seg xml:id="i-49kGSTx51RZUuxxChDLuKj">
             Nu finner man af hvad här i afton förekommit, att denna näring
             är så tryckt, att, om icke något skydd kommer emellan, den icke
@@ -3239,7 +3117,7 @@
           Herr Sven Magnusson, som inom Utskottet reserverat sig vid förevarande
           punkt, anförde:
         </note>
-        <u xml:id="i-TZLws5H8WCi959cg7rtrqY" who="i-M7fdd5LkDobtPBqGTJagqd" next="i-JsHJXrchUoeDJ5baJp9ms1">
+        <u xml:id="i-TZLws5H8WCi959cg7rtrqY" who="i-M7fdd5LkDobtPBqGTJagqd">
           <seg xml:id="i-MDM855ThazhbR8w9hgy73n">
             Hvad jag förut anfört i fråga om tull å sulläder gäller i ännu
             högre grad jernindustrien, som nu befinner sig i ett afmattningstillstånd,
@@ -3255,8 +3133,6 @@
             om bifall till Herr Mejenqvists motion, att jernvägsmateriel m.
             m. åsättes en införseltull motsvarande en procent af värdet.
           </seg>
-        </u>
-        <u xml:id="i-JsHJXrchUoeDJ5baJp9ms1" who="i-M7fdd5LkDobtPBqGTJagqd" prev="i-TZLws5H8WCi959cg7rtrqY">
           <seg xml:id="i-SE2SzFCKNppobtZ7HDquY1">
             Herr Hedlund: Jag anhåller om bifall till Utskottets hemställan.
           </seg>
@@ -3337,12 +3213,10 @@
         <note xml:id="i-Jkm2xRPFP7BLin9nL5kQKi" type="speaker">
           Friherre Fock, som yttrade:
         </note>
-        <u xml:id="i-LBAWe4eGmr9tXmjuFbzfaa" who="i-NW9amfhpK6mEn3WxKi9YQ9" next="i-xrfoc72So56z286xdCLfE">
+        <u xml:id="i-LBAWe4eGmr9tXmjuFbzfaa" who="i-NW9amfhpK6mEn3WxKi9YQ9">
           <seg xml:id="i-AFLpRuVisj3nBAq9KjhQAf">
             På grund af de i den vid denna
           </seg>
-        </u>
-        <u xml:id="i-xrfoc72So56z286xdCLfE" who="i-NW9amfhpK6mEn3WxKi9YQ9" prev="i-LBAWe4eGmr9tXmjuFbzfaa">
           <seg xml:id="i-55CqESwxA1tmz3QrJWgdeq">
             punkt fogade reservation åberopade skäl, anhåller jag om afslag
             å Utskottets förslag.
@@ -3374,52 +3248,36 @@
           förslag i en föregående punkt angående tull å bijouterier, att
           lyx-
         </note>
-        <u xml:id="i-C3EwtKxZBEMdAmDHen6no7" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-35mT1bsRFbLMpwFehhMTQ4" next="i-3rL9CaudUaDsBDG9bAMHW1">
+        <u xml:id="i-C3EwtKxZBEMdAmDHen6no7" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-35mT1bsRFbLMpwFehhMTQ4">
           <seg xml:id="i-TYjiQvJWsryEtKYww6jHLq">
             artiklar icke böra lägre beskattas än en mängd förnödenhetsvaror,
           </seg>
-        </u>
-        <u xml:id="i-3rL9CaudUaDsBDG9bAMHW1" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-C3EwtKxZBEMdAmDHen6no7" next="i-WMRNMQZdKuPdUHZqCojHNb">
           <seg xml:id="i-39BmucWXdJpkqSmQAFFpWx">
             yrkar jag bifall till Utskottets hemställan i denna punkt. Hvad
           </seg>
-        </u>
-        <u xml:id="i-WMRNMQZdKuPdUHZqCojHNb" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-3rL9CaudUaDsBDG9bAMHW1" next="i-6d2hFESUuAXfVzRzoj9uQf">
           <seg xml:id="i-8cDLXQ5NJiYzsoUvj7b9rz">
             angår de af reservanterne anförda skäl att genom en förhöjning
             af
           </seg>
-        </u>
-        <u xml:id="i-6d2hFESUuAXfVzRzoj9uQf" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-WMRNMQZdKuPdUHZqCojHNb" next="i-8CtcW2Va2hZWEjGCQiSQ1g">
           <seg xml:id="i-FUe6DowiBLGgwgp1LsFVA9">
             denna tullsats svårigheter skulle uppstå vid tulltaxans tillämpning,
           </seg>
-        </u>
-        <u xml:id="i-8CtcW2Va2hZWEjGCQiSQ1g" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-6d2hFESUuAXfVzRzoj9uQf" next="i-QhXF7hyDEZdKcAL2BhsXqf">
           <seg xml:id="i-MVcaW9iC8Ng6mzb9gLafPZ">
             så är det väl icke svårare att vid tullbehandlingen skilja mellan
           </seg>
-        </u>
-        <u xml:id="i-QhXF7hyDEZdKcAL2BhsXqf" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-8CtcW2Va2hZWEjGCQiSQ1g" next="i-XKCPJEfBhMpt3YvRcZHErK">
           <seg xml:id="i-MXwcrsJ6KWFfH2oQSj5H3b">
             - svarfvade leksaker och svarfvade nyttighetspersedlar än mellan
             an-
           </seg>
-        </u>
-        <u xml:id="i-XKCPJEfBhMpt3YvRcZHErK" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-QhXF7hyDEZdKcAL2BhsXqf" next="i-9hB16BXfahSZMweJrUFMi">
           <seg xml:id="i-D15NYhmh2Yr1SUWKDkAazK">
             dra leksaker af trä och snickarearbeten — något som gått för
             sig
           </seg>
-        </u>
-        <u xml:id="i-9hB16BXfahSZMweJrUFMi" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-XKCPJEfBhMpt3YvRcZHErK" next="i-NoSPe78NmF39KrraWXnnbf">
           <seg xml:id="i-82kV2wa6jfqEGmsz7zJ9ym">
             förr och väl äfven kan gå för sig hädanefter. Den af reservanterne
             åberopade olägenheten vid tullbehandlingen torde således icke
             vara
           </seg>
-        </u>
-        <u xml:id="i-NoSPe78NmF39KrraWXnnbf" who="i-YW6AVxRNnSF96fpnZ8xTbh" prev="i-9hB16BXfahSZMweJrUFMi">
           <seg xml:id="i-VugQ2DhCoa5TGyKtHAiB1t">
             något skäl för afslag å Utskottets hemställan.
           </seg>
@@ -3457,14 +3315,12 @@
         <note xml:id="i-YGeBv4XMyzcHRsdsgEBxhF" type="speaker">
           Herr Bäckström:
         </note>
-        <u xml:id="i-BafgnV6gDYywmaLRJf2Kc6" who="i-PpXkS4cgF1EgE9P8Av12WY" next="i-BaRRXdU8eb55BxB7ufijYt">
+        <u xml:id="i-BafgnV6gDYywmaLRJf2Kc6" who="i-PpXkS4cgF1EgE9P8Av12WY" next="i-A29bBtH8HPjTAUZRQ3rhWH">
           <seg xml:id="i-Kyw5yLUwWNgyeT2X9GXa2z">
             Jag har begärt ordet, icke derför att jag dermed hoppas vinna
             Kammarens bifall till min motion och afslag a Utskottets hemställan,
             utan för att yttra några ord om Utskottets motivering.
           </seg>
-        </u>
-        <u xml:id="i-BaRRXdU8eb55BxB7ufijYt" who="i-PpXkS4cgF1EgE9P8Av12WY" prev="i-BafgnV6gDYywmaLRJf2Kc6" next="i-A29bBtH8HPjTAUZRQ3rhWH">
           <seg xml:id="i-Q2FG1J4cdKgERneumJjAKP">
             Såsom skäl för fortfarande tullfri införsel af ost har Utskottet
             anfört att den svenska ostproduktionen icke syntes vara i behof
@@ -3483,7 +3339,7 @@
         <note xml:id="i-A6VrrXo9g6YmD757tJEVHA" type="date">
           42 Onsdagen den 2 April, e. m.
         </note>
-        <u xml:id="i-A29bBtH8HPjTAUZRQ3rhWH" who="i-PpXkS4cgF1EgE9P8Av12WY" prev="i-BaRRXdU8eb55BxB7ufijYt" next="i-8ny5i5Yv7bmAKy6vcR5Zjz">
+        <u xml:id="i-A29bBtH8HPjTAUZRQ3rhWH" who="i-PpXkS4cgF1EgE9P8Av12WY" prev="i-BafgnV6gDYywmaLRJf2Kc6">
           <seg xml:id="i-2gAMQKDDLvEXEfA59FtWMf">
             Men försigtigtvis har Utskottet icke omtalat huru mycket ost
             Sverige importerat under samma tid, sannolikt derför, att exporten
@@ -3492,8 +3348,6 @@
             jag i i sistberörda hänseende haft att tillgå, nemligen Kommerskollegii
             berättelser.
           </seg>
-        </u>
-        <u xml:id="i-8ny5i5Yv7bmAKy6vcR5Zjz" who="i-PpXkS4cgF1EgE9P8Av12WY" prev="i-A29bBtH8HPjTAUZRQ3rhWH" next="i-EjGb4JCNQ9h593cDg3aEVo">
           <seg xml:id="i-8EWStRskBG84n7XcLmeqhT">
             Deraf visar sig att importen af ost för de sju åren 1868—1874
             uppgått till 63,657 centner, och exporten till 26,533 centner;
@@ -3505,8 +3359,6 @@
             ansett sig kunna åsätta denna vara för år 1877, utvisar en handelsbalans
             af 2,929,430 kronor under en tid af fyra år.
           </seg>
-        </u>
-        <u xml:id="i-EjGb4JCNQ9h593cDg3aEVo" who="i-PpXkS4cgF1EgE9P8Av12WY" prev="i-8ny5i5Yv7bmAKy6vcR5Zjz" next="i-29KEo7Nvq9gaYFFNGA2Xs1">
           <seg xml:id="i-PvfKv3rkqgiDPA4nNZiMHN">
             Anser man nu denna sammanställning utvisa att svenska ostproduktionen
             på ett tillfredsställande sätt kunnat täfla med den utländska
@@ -3518,8 +3370,6 @@
             Riksdagen må besluta, att för all från utlandet hit införd ost
             skall till statsverket erläggas en tullafgift af 5 öre per skålpund.
           </seg>
-        </u>
-        <u xml:id="i-29KEo7Nvq9gaYFFNGA2Xs1" who="i-PpXkS4cgF1EgE9P8Av12WY" prev="i-EjGb4JCNQ9h593cDg3aEVo">
           <seg xml:id="i-HA8BoQXmuKrv5cR7p83we2">
             I Danmark är å denna vara satt en tullafgift af nära 9 öre per
             skålpund, i Norge af nära 3. Det visar sig häraf att Sverige i
@@ -3531,7 +3381,7 @@
         <note xml:id="i-HzKzK7uXuBC5cfyKGhT1KX" type="speaker">
           Herr Sven Magnusson:
         </note>
-        <u xml:id="i-RLvys7oyFFRzCcby4eDbpb" who="i-M7fdd5LkDobtPBqGTJagqd" next="i-EfrMwByc6PZjg8p4K45jn3">
+        <u xml:id="i-RLvys7oyFFRzCcby4eDbpb" who="i-M7fdd5LkDobtPBqGTJagqd">
           <seg xml:id="i-4Zw4x1CXsPJy9sxnimtaFd">
             Utskottet synes icke vilja ut med, att under det vårt lands mejerier
             legat och ännu ligga fullproppade af ost utan att kunna sälja
@@ -3539,8 +3389,6 @@
             icke mindre än 24,500 centner, och under samma år utfört endast
             1,800 centner.
           </seg>
-        </u>
-        <u xml:id="i-EfrMwByc6PZjg8p4K45jn3" who="i-M7fdd5LkDobtPBqGTJagqd" prev="i-RLvys7oyFFRzCcby4eDbpb">
           <seg xml:id="i-9NCqrDPmaJPTqW4WK3ygcn">
             Det torde häraf vara tillräckligt ådagalagdt, att Utskottets
             motivering för sitt afstyrkande af herr Bäckströms motion om åsättande
@@ -3610,12 +3458,10 @@
         <note xml:id="i-HKzYnY8Hda6zWxpd1QMecG" type="speaker">
           Herr E. G. Boström, som yttrade:
         </note>
-        <u xml:id="i-4T5uZ2TfQ3XG5tgCiNSgEj" who="i-Dupw3qwYSE3y5mdMHBzQvA" next="i-KL4Z82QBCaeR2qPYantuV3">
+        <u xml:id="i-4T5uZ2TfQ3XG5tgCiNSgEj" who="i-Dupw3qwYSE3y5mdMHBzQvA" next="i-9w5BJG7eYXGofhscCjR6xf">
           <seg xml:id="i-6UktQPhpMHb1xESufMk43V">
             Jag vill fästa Kammarens .
           </seg>
-        </u>
-        <u xml:id="i-KL4Z82QBCaeR2qPYantuV3" who="i-Dupw3qwYSE3y5mdMHBzQvA" prev="i-4T5uZ2TfQ3XG5tgCiNSgEj" next="i-9w5BJG7eYXGofhscCjR6xf">
           <seg xml:id="i-8Rqk79khKBycAH2y6Ebb6M">
             uppmärksamhet på det ovanliga förhållandet, att Utskottet i denna
             punkt föreslagit Riksdagen att borttaga en tullsats, utan att
@@ -3645,7 +3491,7 @@
           åtminstone 500,000 skålpund (Forts.) — med ett varuvärde af omkring
           150,000 kronor. Sjelfva tullen,
         </note>
-        <u xml:id="i-9w5BJG7eYXGofhscCjR6xf" who="i-Dupw3qwYSE3y5mdMHBzQvA" prev="i-KL4Z82QBCaeR2qPYantuV3">
+        <u xml:id="i-9w5BJG7eYXGofhscCjR6xf" who="i-Dupw3qwYSE3y5mdMHBzQvA" prev="i-4T5uZ2TfQ3XG5tgCiNSgEj">
           <seg xml:id="i-DQ7EYjJEDdGHXJXTaG3odn">
             som är bestämd till fem procent af värdet, gör således omkring
             7,500 kronor. Detta är, som jag sade, ungefärliga siffror. Då
@@ -3715,14 +3561,12 @@
         <note xml:id="i-4niGLUVpjpKuB2gYNFroim">
           N:o 34.
         </note>
-        <u xml:id="i-4uMLgWuL5dn6bquRb2VoGa" who="unknown" prev="i-6W6ZGDEJXHDHkaHa2RuH4g" next="i-GQ98oxz5CkodPvEMPjLDD2">
+        <u xml:id="i-4uMLgWuL5dn6bquRb2VoGa" who="unknown" prev="i-6W6ZGDEJXHDHkaHa2RuH4g">
           <seg xml:id="i-XHUcL8ZmFY2HAQZfWerwru">
             till min i detta ämne afgifna motion, har icke det ringaste förundrat
             Om förhöjd mig, då ju Utskottet äfven afstyrkt alla andra motioner,
             som det tll é silke och
           </seg>
-        </u>
-        <u xml:id="i-GQ98oxz5CkodPvEMPjLDD2" who="unknown" prev="i-4uMLgWuL5dn6bquRb2VoGa" next="i-KEZu8e3iGmYUTC6xg2gtKn">
           <seg xml:id="i-ViNgHFTgceLpgU6mhEFbQG">
             haft till behandling. Det är endast motiveringen, som jag finner
             vara något besynnerlig. Utskottet medgifver, att »vissa silkesvaror
@@ -3739,8 +3583,6 @@
             föreslå en tullsats på råsilke och en derefter lämpad höjning
             af tullen på färgadt silke, allt efter förhållandena.
           </seg>
-        </u>
-        <u xml:id="i-KEZu8e3iGmYUTC6xg2gtKn" who="unknown" prev="i-GQ98oxz5CkodPvEMPjLDD2" next="i-FKLGYyqUS81bRX7KPzH9H7">
           <seg xml:id="i-WPQM9Yq4jMca2pnzHATvg5">
             Men det synes likväl af Utskottets föreliggande betänkande, att
             Utskottet haft ett alldeles specielt skäl för afstyrkande af min
@@ -3752,8 +3594,6 @@
             kunna höja tullen på råvaran så pass, att producenterne icke blifva
             för mycket tillgodosedda eller konsumenterne för hårdt beskattade.
           </seg>
-        </u>
-        <u xml:id="i-FKLGYyqUS81bRX7KPzH9H7" who="unknown" prev="i-KEZu8e3iGmYUTC6xg2gtKn" next="i-5C3rxpWXczFAccg1pSw7mx">
           <seg xml:id="i-SRjChUbbReAUFFntM7iphN">
             Om vi efter mitt förslag höjde tullen å dessa varor med 30 procent,
             så blefve tullsatserna derå ändock lägre hos oss, än hvad förhållandet
@@ -3766,8 +3606,6 @@
             skäligt, kan den ju höja tullen på rått och färgadt siden i proportion
             derefter.
           </seg>
-        </u>
-        <u xml:id="i-5C3rxpWXczFAccg1pSw7mx" who="unknown" prev="i-FKLGYyqUS81bRX7KPzH9H7">
           <seg xml:id="i-EpXnP6j6bzKuat4LddeYnw">
             Jag yrkar bifall till min motion.
           </seg>
@@ -3842,7 +3680,7 @@
           - såssäbottäronenr OGÖT DV I » andra slag .. möseseeeesesnononennn
           L2T OD OP »
         </note>
-        <u xml:id="i-SDGsCPrbwbgGDUSpR3fMht" who="i-PpXkS4cgF1EgE9P8Av12WY" prev="i-U91ZBJZoVSkgfZKnHGnDXB" next="i-Rmrv43dyLWRcRWbyMfhnsJ">
+        <u xml:id="i-SDGsCPrbwbgGDUSpR3fMht" who="i-PpXkS4cgF1EgE9P8Av12WY" prev="i-U91ZBJZoVSkgfZKnHGnDXB" next="i-9AgPcHJ786F6Myn8iDH8u1">
           <seg xml:id="i-7f1KMA4SFfXRceJcYxKmrT">
             Äfven i sjelfva Frankrike är en viss sorts silkesväfnader med
             inväfdt guld och silfver åsatt en tull af 3 kronor 67 öre skålpundet,
@@ -3852,8 +3690,6 @@
             sistnämnda sidenväfnader lära hos oss före franska traktatens
             uppkomst hafva dragit en införseltull af 6 kronor per skålpund.
           </seg>
-        </u>
-        <u xml:id="i-Rmrv43dyLWRcRWbyMfhnsJ" who="i-PpXkS4cgF1EgE9P8Av12WY" prev="i-SDGsCPrbwbgGDUSpR3fMht" next="i-9AgPcHJ786F6Myn8iDH8u1">
           <seg xml:id="i-A54r9hvAd9HfRcg5ZowFv1">
             Med anledning af hvad jag nu anfört tager jag mig friheten yrka,
             att Kammaren måtte till Utskottet återförvisa denna punkt. Och
@@ -3868,7 +3704,7 @@
           Skålpund 50 öre färgadt eeenn a eomeesaen een ann VD » 1 krona
           spetsar och blonder:
         </note>
-        <u xml:id="i-9AgPcHJ786F6Myn8iDH8u1" who="i-PpXkS4cgF1EgE9P8Av12WY" prev="i-Rmrv43dyLWRcRWbyMfhnsJ">
+        <u xml:id="i-9AgPcHJ786F6Myn8iDH8u1" who="i-PpXkS4cgF1EgE9P8Av12WY" prev="i-SDGsCPrbwbgGDUSpR3fMht">
           <seg xml:id="i-YFzN8LyAiKZKymCYtHKJAM">
             silkesoch linnemed eller utan blandning af
           </seg>
@@ -3896,7 +3732,7 @@
         <note xml:id="i-DRhvzrggRtoqonWniBChcQ" type="speaker">
           Herr Casparson:
         </note>
-        <u xml:id="i-9sJ56x2KpyBHqD4URsS9dc" who="i-EFGMikwqApUMCA86eB1wGu" next="i-PJjK6xjFVaBSm1DZ8AR4V1">
+        <u xml:id="i-9sJ56x2KpyBHqD4URsS9dc" who="i-EFGMikwqApUMCA86eB1wGu" next="i-GaiaiJdfU95ub5EfN6d5xP">
           <seg xml:id="i-DDkqgvL32wZkEGGspJFSfK">
             Jag inser mycket väl, att Utskottet under Om förhöjd nuvarande
             förhållanden icke kunnat komma till annat slut än det full å silke
@@ -3906,8 +3742,6 @@
             en liten stund vågar taga Kammarens uppmärksamhet i anspråk, huru
             långt tiden än är framskriden.
           </seg>
-        </u>
-        <u xml:id="i-PJjK6xjFVaBSm1DZ8AR4V1" who="i-EFGMikwqApUMCA86eB1wGu" prev="i-9sJ56x2KpyBHqD4URsS9dc" next="i-GaiaiJdfU95ub5EfN6d5xP">
           <seg xml:id="i-WK1GeUrZQ2zoxjS46CnkyV">
             Utskottet säger i sitt betänkande, såsom af föregående talare
             redan upprepats, att vissa silkesvaror i förhållande till sitt
@@ -3986,7 +3820,7 @@
           med skyddstullar; och sedan färgtillsättningen upptäcktes, upphörde
           ock inkomsten af denna nobla industri.
         </note>
-        <u xml:id="i-GaiaiJdfU95ub5EfN6d5xP" who="i-EFGMikwqApUMCA86eB1wGu" prev="i-PJjK6xjFVaBSm1DZ8AR4V1" next="i-Ppv9ktTVYcrAdJacWUKEF6">
+        <u xml:id="i-GaiaiJdfU95ub5EfN6d5xP" who="i-EFGMikwqApUMCA86eB1wGu" prev="i-9sJ56x2KpyBHqD4URsS9dc" next="i-WDiVu9f6TSqFuhJGoXWr1L">
           <seg xml:id="i-MoWQLADqw2f2atuyh4NGi4">
             Jag har sökt göra mig underrättad om såväl de svenska som de
             utländska sidenfabrikatens nuvarande tillstånd. Det har svarats
@@ -3995,8 +3829,6 @@
             den inhemska fabrikationen lider, förorsakas af den tyska och
             schweiziska industrien, som undersäljer alla andra. ;
           </seg>
-        </u>
-        <u xml:id="i-Ppv9ktTVYcrAdJacWUKEF6" who="i-EFGMikwqApUMCA86eB1wGu" prev="i-GaiaiJdfU95ub5EfN6d5xP" next="i-WDiVu9f6TSqFuhJGoXWr1L">
           <seg xml:id="i-Dk2YShHR18P7rZWimkNyZk">
             Konsten att tillsätta silke och siden med färgämnen utöfvas nemligen
             nu i en ofantligt stor utsträckning. I Tyskland användes 100,
@@ -4017,7 +3849,7 @@
         <note xml:id="i-Poe6jMbFpKQBmRugNuayE9" type="date">
           Onsdagen den 2 April, e. m. 49 N:o 34.
         </note>
-        <u xml:id="i-WDiVu9f6TSqFuhJGoXWr1L" who="i-EFGMikwqApUMCA86eB1wGu" prev="i-Ppv9ktTVYcrAdJacWUKEF6" next="i-DthxToRKCiYsFN13EHmUb3">
+        <u xml:id="i-WDiVu9f6TSqFuhJGoXWr1L" who="i-EFGMikwqApUMCA86eB1wGu" prev="i-GaiaiJdfU95ub5EfN6d5xP" next="i-DthxToRKCiYsFN13EHmUb3">
           <seg xml:id="i-PeHQ5HsRjSjgK8wriKxXTr">
             den tyska industrien, som tvingat oss att vidtaga dylika åtgärder.
             Om förhöjd Men det är icke den franske fabrikanten, utan den franska
@@ -4030,30 +3862,22 @@
           är CForte.) icke i industriens intresse. Hvarje ärlig industri
           har sin rättmätiga
         </note>
-        <u xml:id="i-DthxToRKCiYsFN13EHmUb3" who="i-EFGMikwqApUMCA86eB1wGu" prev="i-WDiVu9f6TSqFuhJGoXWr1L" next="i-72NVvLpJBwFgyFLMcEBCbp">
+        <u xml:id="i-DthxToRKCiYsFN13EHmUb3" who="i-EFGMikwqApUMCA86eB1wGu" prev="i-WDiVu9f6TSqFuhJGoXWr1L" next="i-8b56YLCPWNJuRACEyQy9bc">
           <seg xml:id="i-BCr5V663dL4UXjRD6A4mGk">
             stolthet, och dertill hörer naturligtvis att kunna lemna en så
             god
           </seg>
-        </u>
-        <u xml:id="i-72NVvLpJBwFgyFLMcEBCbp" who="i-EFGMikwqApUMCA86eB1wGu" prev="i-DthxToRKCiYsFN13EHmUb3" next="i-7tNPQY79fDRD6rSPrnZFyM">
           <seg xml:id="i-AnxiwP2URXDwYjyHmbHQHt">
             vara som möjligt. Jag tror, att den franska industrien har 1
             detta
           </seg>
-        </u>
-        <u xml:id="i-7tNPQY79fDRD6rSPrnZFyM" who="i-EFGMikwqApUMCA86eB1wGu" prev="i-72NVvLpJBwFgyFLMcEBCbp" next="i-1b1ALNK36AB22ht1hnr2R">
           <seg xml:id="i-AFwbSd8hYL2iXKx6uWQr56">
             fall stora anor att häfda; och den svenska sidenindustrien, om
             än
           </seg>
-        </u>
-        <u xml:id="i-1b1ALNK36AB22ht1hnr2R" who="i-EFGMikwqApUMCA86eB1wGu" prev="i-7tNPQY79fDRD6rSPrnZFyM" next="i-DzjyUdfmDRj9qY8MGztdYv">
           <seg xml:id="i-9NaDVGxE9VTGMqmxvwm6Zo">
             icke så betydlig, har dock äfven rätt vackra anor att åberopa.
           </seg>
-        </u>
-        <u xml:id="i-DzjyUdfmDRj9qY8MGztdYv" who="i-EFGMikwqApUMCA86eB1wGu" prev="i-1b1ALNK36AB22ht1hnr2R" next="i-JNq4JLEfAzzPdhbQAMCazZ">
           <seg xml:id="i-Gor6jXrzZ1vAfsdhB4w7RB">
             Utskottet säger, att den franska handelstraktaten lägger hinder
             i vägen för att göra någon förändring i tullsatserna, och deri
@@ -4073,8 +3897,6 @@
             i detta fall, har sagt mig, att den bestämdt icke uppgår till
             en fjerdedel af hela sidenimporten till Sverige.
           </seg>
-        </u>
-        <u xml:id="i-JNq4JLEfAzzPdhbQAMCazZ" who="i-EFGMikwqApUMCA86eB1wGu" prev="i-DzjyUdfmDRj9qY8MGztdYv" next="i-KZn6CwGBEazeoS1N3t7fXh">
           <seg xml:id="i-P2U8bgFfAd7XGpwtmq4SVD">
             Med detta har jag endast velat visa till hvilka konseqvenser
             den fria täflan, när den obetingadt uppställes och utsträckes,
@@ -4084,8 +3906,6 @@
             vi få siden till bättre pris, men bestämdt sämre vara; och vinsten
             på det stora hela blir derföre mindre än noll.
           </seg>
-        </u>
-        <u xml:id="i-KZn6CwGBEazeoS1N3t7fXh" who="i-EFGMikwqApUMCA86eB1wGu" prev="i-JNq4JLEfAzzPdhbQAMCazZ" next="i-8b56YLCPWNJuRACEyQy9bc">
           <seg xml:id="i-21ouUTr2KjoCT4uS9Wqgtm">
             Beträffande den svenska sidenindustrien före 1857 års tullnedsättning,
             så funnos då 12 fabriker med ett tillverkningsvärde i rundt tal
@@ -4117,7 +3937,7 @@
         <note xml:id="i-UtKUK61gHG1r5ai1koFMAn" type="date">
           30 Onsdagen den 2 April, e. m.
         </note>
-        <u xml:id="i-8b56YLCPWNJuRACEyQy9bc" who="i-EFGMikwqApUMCA86eB1wGu" prev="i-KZn6CwGBEazeoS1N3t7fXh">
+        <u xml:id="i-8b56YLCPWNJuRACEyQy9bc" who="i-EFGMikwqApUMCA86eB1wGu" prev="i-DthxToRKCiYsFN13EHmUb3">
           <seg xml:id="i-2E1PqgvwfZbbVQ4MaSvX5G">
             ten af den då varande tullen, men de franska underhandlarne fordrade
             positivt en nedsättning till 1 krona 50 öre, och de fingo naturligtvis
@@ -4138,7 +3958,7 @@
         <note xml:id="i-C3aZ2ZXFgd9WqZujbMunfm" type="speaker">
           Herr Biesert:
         </note>
-        <u xml:id="i-7WDK7aVb4gUh4dsjavwmSb" who="i-JGAExSRFwF5JRxQVVYs7Gn" next="i-AJqYajjzFCCtxMYsSKYGfE">
+        <u xml:id="i-7WDK7aVb4gUh4dsjavwmSb" who="i-JGAExSRFwF5JRxQVVYs7Gn">
           <seg xml:id="i-NdXmch3R8MJgJkvBdwnRwb">
             Med aånledning af ett par föregående talares anmärkningar mot
             den franska handelstraktaten, den jag icke vill medgifva vara
@@ -4157,23 +3977,17 @@
             som före traktatens ingående erlades och som var rätt dryg och
             betungande.
           </seg>
-        </u>
-        <u xml:id="i-AJqYajjzFCCtxMYsSKYGfE" who="i-JGAExSRFwF5JRxQVVYs7Gn" prev="i-7WDK7aVb4gUh4dsjavwmSb" next="i-B8wEbLC4UTtTkU1QXBMXUS">
           <seg xml:id="i-Gz2p1fkvz7vmtEkA4iYC5M">
             Om de värde talarne skulle vilja taga litet närmare reda på alla
             de nya och gynsamma förhållanden, som den franska handelstraktaten
             medfört för Sverige, skulle de säkerligen icke hålla så starkt
             på att den icke bör förnyas.
           </seg>
-        </u>
-        <u xml:id="i-B8wEbLC4UTtTkU1QXBMXUS" who="i-JGAExSRFwF5JRxQVVYs7Gn" prev="i-AJqYajjzFCCtxMYsSKYGfE" next="i-9NDdRDTmBfgXKS9HcxCSAT">
           <seg xml:id="i-Np2qoxgkBihVLXkaRnBaCG">
             Jag tror dessutom att Utskottet bjudit tillräckligt goda skäl
             för sitt afslag å motionen och yrkar derför bifall till Utskottets
             hemställan.
           </seg>
-        </u>
-        <u xml:id="i-9NDdRDTmBfgXKS9HcxCSAT" who="i-JGAExSRFwF5JRxQVVYs7Gn" prev="i-B8wEbLC4UTtTkU1QXBMXUS">
           <seg xml:id="i-HKtC1PCKWxsBbf822gWHX7">
             Som tiden redan långt framskridit, och ytterligare åtskilliga
             ledamöter anmält sig vilja afgifva yttranden angående förevarande

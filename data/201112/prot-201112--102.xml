@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>digital-origin</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">digital-origin</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-MKVFNz8XbfmkFPjmTzxthN" type="speech">
             <linkGrp type="u">
               <ptr target="#i-f8341cf8b1d8ab2e-4"/>
@@ -119,7 +119,13 @@
               <ptr target="#i-f8341cf8b1d8ab2e-61"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -217,7 +223,7 @@
         <note xml:id="i-HgFibUqaENXmqW8ECLjwiq">
           Interpellationen kommer att besvaras fredagen den 11 maj 2012.
         </note>
-        <u xml:id="i-f8341cf8b1d8ab2e-1" who="unknown">
+        <u xml:id="i-f8341cf8b1d8ab2e-1" who="unknown" next="i-f8341cf8b1d8ab2e-3">
           <seg xml:id="i-FJ33b3Z416WxRQqH87hfTQ">
             Skälet till dröjsmålet är tidigare inbokade arrangemang och resor.
           </seg>
@@ -251,7 +257,7 @@
         <note xml:id="i-DxNAz6KPfVUmeF2BxdyfBS">
           Interpellationen kommer att besvaras den 8 maj 2012.
         </note>
-        <u xml:id="i-f8341cf8b1d8ab2e-3" who="unknown">
+        <u xml:id="i-f8341cf8b1d8ab2e-3" who="unknown" prev="i-f8341cf8b1d8ab2e-1">
           <seg xml:id="i-RtymptCFRpra51wcAS9J3">
             Skälet till dröjsmålet är redan inbokade engagemang.
           </seg>
@@ -276,7 +282,7 @@
         <note xml:id="i-KEvEPzpHgJm7cgK8BSAcrN" type="speaker">
           Anf. 1 Statsrådet TOBIAS BILLSTRÖM (M):
         </note>
-        <u xml:id="i-f8341cf8b1d8ab2e-4" who="i-KPGvtK4s6Zp3E6XH6vj18n" next="i-f8341cf8b1d8ab2e-5">
+        <u xml:id="i-f8341cf8b1d8ab2e-4" who="i-KPGvtK4s6Zp3E6XH6vj18n" next="i-f8341cf8b1d8ab2e-8">
           <seg xml:id="i-J5aTSfSKva4YgoLKdhqLwq">
             Fru talman! Christina Höj Larsen har frågat mig om jag är av
             uppfattningen att en dom från Migrationsöverdomstolen från januari
@@ -290,22 +296,16 @@
             förslag till lagändring, med ikraftträdande den 1 juni 2012, som
             eliminerar risken för godtycklighet och rättsosäkerhet i familjeåterföreningsprocessen.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-5" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-4" next="i-f8341cf8b1d8ab2e-6">
           <seg xml:id="i-6eSdxgAaDiPGv3F8PJGwwk">
             Jag vill börja med att framhålla att jag inte delar Christina
             Höj Larsens uppfattning att familjeåterföreningsprocessen präglas
             av godtycklighet och rättsosäkerhet och påminner om att den nuvarande
             instans- och processordningen antogs av en enig riksdag 2005.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-6" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-5" next="i-f8341cf8b1d8ab2e-7">
           <seg xml:id="i-5bJovsQnHASzCxpjsxEDxT">
             Jag vill nu säga något om bakgrunden till de frågor som Christina
             Höj Larsen har ställt.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-7" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-6" next="i-f8341cf8b1d8ab2e-8">
           <seg xml:id="i-P8X2iMMj4LQS9r9cNTRSUN">
             Det är en grundprincip i folkrätten och EU-rätten att hålla samman
             familjen och att ha möjlighet att utöva familjeliv. Vidare ska
@@ -314,7 +314,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/BC051C63-006F-4CCD-A813-BB18E64EBF86#page=4"/>
-        <u xml:id="i-f8341cf8b1d8ab2e-8" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-7" next="i-f8341cf8b1d8ab2e-9">
+        <u xml:id="i-f8341cf8b1d8ab2e-8" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-4">
           <seg xml:id="i-5qziLz6ui7Ugcf8a9bmUoK">
             Av tidigare avgöranden från Migrationsöverdomstolen framgår att
             den som ansöker om uppehållstillstånd måste klarlägga sin identitet.
@@ -323,24 +323,18 @@
             från länder där det är förenat med stora svårigheter att få fram
             godtagbara identitetshandlingar, exempelvis Somalia.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-9" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-8" next="i-f8341cf8b1d8ab2e-10">
           <seg xml:id="i-26zgTSWVqZUeKXy7UKtnCQ">
             Regeringen och Miljöpartiet har i ramöverenskommelsen om migrationspolitik
             från mars förra året uttalat att en lösning ska hittas på problematiken
             i familjeåterföreningsfall och att detta ska ske med utgångspunkt
             i principen om barnets bästa och rätten till familjeåterförening.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-10" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-9" next="i-f8341cf8b1d8ab2e-11">
           <seg xml:id="i-MVz2xCANkkTZK61F8K85UX">
             I svensk rätt gäller principerna om fri bevisprövning och fri
             bevisvärdering. En sökande kan alltså åberopa alla former av bevis
             för att klarlägga sin identitet, och det finns inte några regler
             om hur bevisningen ska värderas.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-11" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-10" next="i-f8341cf8b1d8ab2e-12">
           <seg xml:id="i-3ogJzzrGFAFGH7ZxUv7j8N">
             I januari i år kom en ny dom från Migrationsöverdomstolen, MIG
             2012:1. Domstolen angav att i det enskilda fallet bör man väga
@@ -352,8 +346,6 @@
             till intresset av familjeåterförening bör det vara tillräckligt
             att den uppgivna identiteten framstår som sannolik.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-12" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-11" next="i-f8341cf8b1d8ab2e-13">
           <seg xml:id="i-5iFpyDbjZnSvYWqGwxAFen">
             Efter att domen meddelats har Migrationsverket utfärdat ett så
             kallat rättsligt ställningstagande, som bland annat behandlar
@@ -361,8 +353,6 @@
             för hur beviskravet i nu aktuella fall ska tillämpas av Migrationsverket.
             Det behandlar också tillgången till dna-utredning.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-13" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-12" next="i-f8341cf8b1d8ab2e-14">
           <seg xml:id="i-458CnknSR2xFqyyfz5Lcau">
             Många av de problem som sökande som inte kan klarlägga sin identitet
             har mött får en lösning genom den senaste rättsutvecklingen. Hur
@@ -371,8 +361,6 @@
             av omständigheterna i hemlandet inte kan klarlägga sin identitet
             bör i första hand klargöras genom den fortsatta rättsutvecklingen.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-14" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-13">
           <seg xml:id="i-NG35zxsx2PCAv6KTFvh4mD">
             Jag kommer att noga följa rättsutvecklingen och har därför inte
             för avsikt att nu lämna något förslag till lagändringar.
@@ -381,12 +369,10 @@
         <note xml:id="i-M6XmaDKpvQQQ8FNN9U6CYr" type="speaker">
           Anf. 2 CHRISTINA HÖJ LARSEN (V):
         </note>
-        <u xml:id="i-f8341cf8b1d8ab2e-15" who="i-WjgeYy5RFWngMB9NwFvFEY" next="i-f8341cf8b1d8ab2e-16">
+        <u xml:id="i-f8341cf8b1d8ab2e-15" who="i-WjgeYy5RFWngMB9NwFvFEY" next="i-f8341cf8b1d8ab2e-17">
           <seg xml:id="i-FUMShvZ25NvWJEiwJChoSa">
             Fru talman! Tack, statsrådet, för svaret!
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-16" who="i-WjgeYy5RFWngMB9NwFvFEY" prev="i-f8341cf8b1d8ab2e-15" next="i-f8341cf8b1d8ab2e-17">
           <seg xml:id="i-AQAZfTxgsAmahy4bFGQRXt">
             Det saknas inte underlag från domstol och myndigheter i den här
             debatten. Framför allt är det Migrationsöverdomstolens nya dom
@@ -401,7 +387,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/BC051C63-006F-4CCD-A813-BB18E64EBF86#page=5"/>
-        <u xml:id="i-f8341cf8b1d8ab2e-17" who="i-WjgeYy5RFWngMB9NwFvFEY" prev="i-f8341cf8b1d8ab2e-16" next="i-f8341cf8b1d8ab2e-18">
+        <u xml:id="i-f8341cf8b1d8ab2e-17" who="i-WjgeYy5RFWngMB9NwFvFEY" prev="i-f8341cf8b1d8ab2e-15">
           <seg xml:id="i-2GRQseSvxsEXPjB7mzsn1P">
             Fru talman! I den migrationspolitiska överenskommelsen mellan
             regeringen och Miljöpartiet som presenterades för drygt ett år
@@ -413,8 +399,6 @@
             familjer finns nu inget datum att se fram emot, inget hopp att
             sträva efter.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-18" who="i-WjgeYy5RFWngMB9NwFvFEY" prev="i-f8341cf8b1d8ab2e-17" next="i-f8341cf8b1d8ab2e-19">
           <seg xml:id="i-5XG6HsgsT6LwW4aBvpnkTn">
             Därför läste jag mycket noggrant och intresserat statsrådets
             skriftliga svar på min interpellation, och jag hoppades finna
@@ -425,16 +409,12 @@
             lagförslaget kring familjeåterförening måste ha resulterat i konkreta
             förberedelser för hur familjeåterföreningar ska gå till.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-19" who="i-WjgeYy5RFWngMB9NwFvFEY" prev="i-f8341cf8b1d8ab2e-18" next="i-f8341cf8b1d8ab2e-20">
           <seg xml:id="i-6H25LTkuDdGsLdrsgkMFNs">
             Svaret från statsrådet visar tyvärr att regeringen inte tänker
             göra någonting alls för att lösa dessa problem. I stället väljer
             statsrådet att svara att han noga kommer att följa rättsutvecklingen.
             Det är en passivitet som endast kan betecknas som ett svek.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-20" who="i-WjgeYy5RFWngMB9NwFvFEY" prev="i-f8341cf8b1d8ab2e-19" next="i-f8341cf8b1d8ab2e-21">
           <seg xml:id="i-AXCM26mG89s4w93xJ8xcqt">
             Fru talman! Domen från Migrationsöverdomstolen från januari i
             år öppnar endast upp för ett användande av dna-bevisning vid fastställande
@@ -449,15 +429,11 @@
             från den 21 februari i år hittar vi svar på hur återföreningsprocessen
             rent praktiskt ska gå till.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-21" who="i-WjgeYy5RFWngMB9NwFvFEY" prev="i-f8341cf8b1d8ab2e-20" next="i-f8341cf8b1d8ab2e-22">
           <seg xml:id="i-7RUkk91cFuj6cBwd6WmXBC">
             Dna-analysen ska enligt det rättsliga ställningstagandet göras
             av Rättsmedicinalverket. Men hur ska verket erbjuda dna-analyser
             i Somalia?
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-22" who="i-WjgeYy5RFWngMB9NwFvFEY" prev="i-f8341cf8b1d8ab2e-21">
           <seg xml:id="i-NVQK8K7ttJ9m6TFw6HR1ic">
             Alla dessa frågor kan sammanfattas i två huvudfrågor som jag
             återigen vill ställa till migrationsministern: Vad tänker statsrådet
@@ -470,7 +446,7 @@
         <note xml:id="i-PZ7vsgnYdhNXj2D2aRFNFD" type="speaker">
           Anf. 3 ULF NILSSON (FP):
         </note>
-        <u xml:id="i-f8341cf8b1d8ab2e-23" who="i-nX9ipUS8FhkbQHkWWytwf" next="i-f8341cf8b1d8ab2e-24">
+        <u xml:id="i-f8341cf8b1d8ab2e-23" who="i-nX9ipUS8FhkbQHkWWytwf" next="i-f8341cf8b1d8ab2e-25">
           <seg xml:id="i-Fj9T4piCZ6wqMexwv6rZTD">
             Fru talman! Familjesplittring, som ofta blir följden när människor
             flyr från förtryck och förföljelse, är på många sätt tragisk.
@@ -478,8 +454,6 @@
             man kommer till om man till exempel lever åtskilt från sina barn
             och inte vet hur de har det.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-24" who="i-nX9ipUS8FhkbQHkWWytwf" prev="i-f8341cf8b1d8ab2e-23" next="i-f8341cf8b1d8ab2e-25">
           <seg xml:id="i-RxTjYdWoyGtTyytWaHMLDs">
             För ett år sedan fick man, som migrationsministern sade, en ramöverenskommelse
             mellan Miljöpartiet och Alliansen som bland annat slog vakt om
@@ -495,7 +469,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/BC051C63-006F-4CCD-A813-BB18E64EBF86#page=6"/>
-        <u xml:id="i-f8341cf8b1d8ab2e-25" who="i-nX9ipUS8FhkbQHkWWytwf" prev="i-f8341cf8b1d8ab2e-24" next="i-f8341cf8b1d8ab2e-26">
+        <u xml:id="i-f8341cf8b1d8ab2e-25" who="i-nX9ipUS8FhkbQHkWWytwf" prev="i-f8341cf8b1d8ab2e-23">
           <seg xml:id="i-HeCMJckuusHxzPztT2jXQi">
             Samtidigt är juridik komplicerat. Som vi hörde i svaret här kom
             Migrationsöverdomstolen med ett nytt avgörande där man klargör
@@ -505,8 +479,6 @@
             en återförening mellan föräldrar och barn. Det är ett välkommet
             beslut.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-26" who="i-nX9ipUS8FhkbQHkWWytwf" prev="i-f8341cf8b1d8ab2e-25" next="i-f8341cf8b1d8ab2e-27">
           <seg xml:id="i-JubGsBM2dD5eNb9KkCC57f">
             Jag delar inte Christina Höj Larsens uppfattning att migrationspolitiken
             vilar på godtycklighet och rättsosäkerhet. Tvärtom vi har strikta
@@ -514,8 +486,6 @@
             principer och på internationella överenskommelser. Därför är det
             också viktigt att hela tiden följa denna utveckling.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-27" who="i-nX9ipUS8FhkbQHkWWytwf" prev="i-f8341cf8b1d8ab2e-26" next="i-f8341cf8b1d8ab2e-28">
           <seg xml:id="i-PjeFcnR9VYpDHkLWvzmCBQ">
             När domslutet kom var det för mig välkommet. Som Migrationsverket
             också har tolkat domslutet öppnade det för en lättare återförening
@@ -523,8 +493,6 @@
             rätt uppgifter om sin identitet även om det inte finns formella
             papper.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-28" who="i-nX9ipUS8FhkbQHkWWytwf" prev="i-f8341cf8b1d8ab2e-27" next="i-f8341cf8b1d8ab2e-29">
           <seg xml:id="i-DfMPnxDECMgjiY6w7tah8R">
             Den andra fråga som Christina Höj Larsen tar upp, om barn som
             är adopterade, var inte så aktuell när arbetet sattes i gång.
@@ -539,8 +507,6 @@
             Han är inte i dag beredd att vidta några åtgärder, men han kommer
             alltså att följa utvecklingen.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-29" who="i-nX9ipUS8FhkbQHkWWytwf" prev="i-f8341cf8b1d8ab2e-28" next="i-f8341cf8b1d8ab2e-30">
           <seg xml:id="i-Sn26N5wSyuN7jjBnGy7pZ1">
             Jag vill bara understryka från Folkpartiets sida att jag hoppas
             och tror att redan detta domslut gör det möjligt att något lätta
@@ -550,8 +516,6 @@
             barn av till exempel fem i en barnaskara ska skickas ifrån sina
             fungerande föräldrar.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-30" who="i-nX9ipUS8FhkbQHkWWytwf" prev="i-f8341cf8b1d8ab2e-29">
           <seg xml:id="i-CvcXHXWkLQx4GG1ZqBKi3T">
             Mitt budskap blir att vi följer utvecklingen och att vi inte
             ska tveka att agera om det visar sig nödvändigt.
@@ -560,7 +524,7 @@
         <note xml:id="i-3aRinbihfD2dS8WRzK4Tv3" type="speaker">
           Anf. 4 Statsrådet TOBIAS BILLSTRÖM (M):
         </note>
-        <u xml:id="i-f8341cf8b1d8ab2e-31" who="i-KPGvtK4s6Zp3E6XH6vj18n" next="i-f8341cf8b1d8ab2e-32">
+        <u xml:id="i-f8341cf8b1d8ab2e-31" who="i-KPGvtK4s6Zp3E6XH6vj18n" next="i-f8341cf8b1d8ab2e-33">
           <seg xml:id="i-Rxw4FN4eyLV7mdyjD3rmZA">
             Fru talman! Jag tycker att det är viktigt att rekapitulera vad
             det är som har hänt i frågan. Migrationsöverdomstolen har i en
@@ -572,8 +536,6 @@
             hot mot vår och andra Schengenstaters inre säkerhet och allmänna
             ordning.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-32" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-31" next="i-f8341cf8b1d8ab2e-33">
           <seg xml:id="i-WJd5gL4nPCvBsKy12tgiEs">
             Identitetskravet har skapat svårigheter för dem som har problem
             att klarlägga sin identitet. Det gäller framför allt somaliska
@@ -587,7 +549,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/BC051C63-006F-4CCD-A813-BB18E64EBF86#page=7"/>
-        <u xml:id="i-f8341cf8b1d8ab2e-33" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-32" next="i-f8341cf8b1d8ab2e-34">
+        <u xml:id="i-f8341cf8b1d8ab2e-33" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-31">
           <seg xml:id="i-MRfTnzzrmz5KvZnoQcHVy4">
             I januari i år kom en ny dom från Migrationsöverdomstolen. I
             den hänvisade domstolen uttryckligen till såväl hänsynen till
@@ -596,8 +558,6 @@
             sänka beviskravet för identiteten. Det ska räcka med att den framstår
             som sannolik.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-34" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-33" next="i-f8341cf8b1d8ab2e-35">
           <seg xml:id="i-XDMmkaj2CTVCPYQWKicKsz">
             En komponent i domstolens resonemang var att släktskapet mellan
             familjemedlemmarna hade påvisats genom dna-utredning. Efter den
@@ -607,8 +567,6 @@
             grund av anknytning. Jag tänker följa den fortsatta rättsutvecklingen
             framöver.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-35" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-34" next="i-f8341cf8b1d8ab2e-36">
           <seg xml:id="i-2e7xAkgz9p2J6bRKTTfMei">
             Vi är inne i en utveckling som vi inte har sett slutet på. Många
             av frågorna har troligtvis ändå hittat sin lösning, men jag tycker
@@ -617,8 +575,6 @@
             Det är möjligt att lagstiftningen kan behöva kompletteras eller
             justeras beroende på utvecklingen i praxis framöver.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-36" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-35" next="i-f8341cf8b1d8ab2e-37">
           <seg xml:id="i-AxrzjhFeUfMzqVYCQP6VBQ">
             Jag tycker också att det är viktigt att peka på att vissa specifika
             problem har fått sin lösning vad gäller uppehållstillstånd från
@@ -630,8 +586,6 @@
             barn åberopar anknytning till någon av eller båda sina föräldrar
             i Sverige kan det lägre beviskravet vara motiverat.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-37" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-36" next="i-f8341cf8b1d8ab2e-38">
           <seg xml:id="i-TPJGwPsg9Pw4uKHM8q1QYx">
             Arbetet med ett lagförslag har varit högt prioriterat på Justitiedepartementet.
             Avsikten var att ett förslag om anhöriginvandring och dna skulle
@@ -643,8 +597,6 @@
             beviskravet, att sökanden ska göra sin identitet sannolik, vara
             motiverat.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-38" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-37">
           <seg xml:id="i-5cfFiXiqHbG8iqbAqvzRyc">
             Som jag har konstaterat har många av de problem som den sökande
             möter fått sin lösning. Migrationsverket och domstolarna ansvarar
@@ -669,7 +621,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/BC051C63-006F-4CCD-A813-BB18E64EBF86#page=8"/>
-        <u xml:id="i-f8341cf8b1d8ab2e-40" who="i-WjgeYy5RFWngMB9NwFvFEY" prev="i-f8341cf8b1d8ab2e-39" next="i-f8341cf8b1d8ab2e-41">
+        <u xml:id="i-f8341cf8b1d8ab2e-40" who="i-WjgeYy5RFWngMB9NwFvFEY" prev="i-f8341cf8b1d8ab2e-39">
           <seg xml:id="i-A8i5KxLA82hkpHFKHGWUWs">
             Under förberedelserna till debatten har jag varit i kontakt med
             många som berörs av frågan om utebliven familjeåterförening. Jag
@@ -677,8 +629,6 @@
             för dna-provtagning rent praktiskt ska gå till i Somalia och föräldrar
             som ser sina chanser att återförenas med adoptivbarn försvinna.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-41" who="i-WjgeYy5RFWngMB9NwFvFEY" prev="i-f8341cf8b1d8ab2e-40" next="i-f8341cf8b1d8ab2e-42">
           <seg xml:id="i-PAUzHhTcWLGDHepwHnnSjK">
             Jag har talat med människor som arbetar med nyanländas etablering
             och som varje dag får uppleva hur den splittrade familjen står
@@ -690,31 +640,23 @@
             armar sträcker sig in vårt klassrum och förvandlar bokstäver till
             meningslösa krumelurer, skriver sfi-läraren.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-42" who="i-WjgeYy5RFWngMB9NwFvFEY" prev="i-f8341cf8b1d8ab2e-41" next="i-f8341cf8b1d8ab2e-43">
           <seg xml:id="i-YF4siXscdXakKFpjMMWFLm">
             Jag har också talat med ombud som inte vet hur de ska hjälpa
             klienterna på den snåriga vägen till återförening när det endast
             finns en dom från Migrationsöverdomstolen men ingen plan för hur
             återföreningen ska gå till i praktiken.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-43" who="i-WjgeYy5RFWngMB9NwFvFEY" prev="i-f8341cf8b1d8ab2e-42" next="i-f8341cf8b1d8ab2e-44">
           <seg xml:id="i-NsV9gStP5oUSqrLv9S6fjM">
             Det alla efterfrågar är ett tydligt och täckande lagförslag som
             reglerar familjeåterförening för familjer med och utan blodsband
             och, inte minst, en infrastruktur från myndighetens sida för att
             kunna hantera frågan rättssäkert och likartat.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-44" who="i-WjgeYy5RFWngMB9NwFvFEY" prev="i-f8341cf8b1d8ab2e-43" next="i-f8341cf8b1d8ab2e-45">
           <seg xml:id="i-SDPmoyxYdSUzNVj8VfRv8">
             Det är svårt för mig att förstå varför regeringen väljer att
             svika löftet om ett lagförslag, som skulle kunna klarlägga alla
             dessa saker, och varför man väljer att inte svara på dessa frågor.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-45" who="i-WjgeYy5RFWngMB9NwFvFEY" prev="i-f8341cf8b1d8ab2e-44" next="i-f8341cf8b1d8ab2e-46">
           <seg xml:id="i-9RJo7uJynUFfwSiZuoXR6W">
             Regeringen har haft god tid på sig att lägga fram ett förslag.
             Jag förstår att det är komplicerat, men överenskommelsen presenterades
@@ -723,8 +665,6 @@
             denna tid? Varför har man inte åtminstone lyckats skapa tydliga
             planer för hur återföreningen ska gå till i praktiken?
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-46" who="i-WjgeYy5RFWngMB9NwFvFEY" prev="i-f8341cf8b1d8ab2e-45" next="i-f8341cf8b1d8ab2e-47">
           <seg xml:id="i-A24EiLoBac1AoZNjdq6xbx">
             Det är möjligt att migrationsministern och Migrationsverket har
             svar på dessa frågor, men om så är fallet har man inte lyckats
@@ -732,8 +672,6 @@
             sorg och rädsla, och man kan inte låta människor leva under sådana
             förutsättningar.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-47" who="i-WjgeYy5RFWngMB9NwFvFEY" prev="i-f8341cf8b1d8ab2e-46">
           <seg xml:id="i-JbFmFJCE1v377ZwKLEmjoM">
             Framför allt undrar jag: Hur tar man till vara barnets bästa
             medan statsrådet följer rättsutvecklingen? Vad är två tre fyra
@@ -759,7 +697,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/BC051C63-006F-4CCD-A813-BB18E64EBF86#page=9"/>
-        <u xml:id="i-f8341cf8b1d8ab2e-49" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-48" next="i-f8341cf8b1d8ab2e-50">
+        <u xml:id="i-f8341cf8b1d8ab2e-49" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-48">
           <seg xml:id="i-8Fg8ybQAwoHVNd3aZcd4VM">
             Migrationsöverdomstolens dom från januari i år, som interpellanten
             upprepade gånger kommer tillbaka till, och det rättsliga ställningstagandet
@@ -769,29 +707,21 @@
             vill säga börja lagreglera beviskrav som är enda möjligheten att
             uppnå det interpellanten är ute efter skulle vi mista denna flexibilitet.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-50" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-49" next="i-f8341cf8b1d8ab2e-51">
           <seg xml:id="i-DUXNGs9pyNMGkpDpAo4y57">
             Att införa bevisregler i lag innebär till exempel en risk för
             att man inte kan ta hänsyn till exempelvis bevissvårigheter som
             skulle kunna medföra bevislättnader i det enskilda fallet.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-51" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-50" next="i-f8341cf8b1d8ab2e-52">
           <seg xml:id="i-4shCxhHHvBSKbGudM2XLEW">
             Att införa beviskrav och bevisregler i lag kan också påverka
             tillämpning och tolkning av bestämmelser inom såväl utlänningsrätten
             som andra rättsområden.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-52" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-51" next="i-f8341cf8b1d8ab2e-53">
           <seg xml:id="i-WHQUwqwugGyGq95JfLyevn">
             Författningsreglerar man bevislättnader kan också medföra svårigheter
             vid bedömningen av en tredjelandsmedborgares identitet och om
             den utgör en säkerhetsrisk.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-53" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-52">
           <seg xml:id="i-SJAZBT1MSJ2zQdvSa14AJy">
             Regeringen tog i den överenskommelse som träffades med Miljöpartiet
             höjd. Vi tog ut en inriktning som var tydlig, nämligen att man
@@ -807,7 +737,7 @@
         <note xml:id="i-Emxhtwfbz6yWzNdBMsXjoQ" type="speaker">
           Anf. 7 CHRISTINA HÖJ LARSEN (V):
         </note>
-        <u xml:id="i-f8341cf8b1d8ab2e-54" who="i-WjgeYy5RFWngMB9NwFvFEY" next="i-f8341cf8b1d8ab2e-55">
+        <u xml:id="i-f8341cf8b1d8ab2e-54" who="i-WjgeYy5RFWngMB9NwFvFEY">
           <seg xml:id="i-12BLN3LuvqbrX5iRt2qvDq">
             Fru talman! Vänsterpartiet stöttade den ändrade instans- och
             processordning som antogs 2005, och det gör vi fortfarande. Det
@@ -816,16 +746,12 @@
             ändra lagstiftningen om den inte fungerar som vi har avsett eller
             om vi ser att människors rättigheter kränks.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-55" who="i-WjgeYy5RFWngMB9NwFvFEY" prev="i-f8341cf8b1d8ab2e-54" next="i-f8341cf8b1d8ab2e-56">
           <seg xml:id="i-81CpvcyvC7JhghkC3ZuBrK">
             För mig är problemet att migrationsministern gömmer sig bakom
             den nya instans- och processordningen för att slippa ta det som
             är hans politiska ansvar. Det är det jag kritiserar, inte instans-
             och processordningen. Detta är ett återkommande tema i våra debatter.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-56" who="i-WjgeYy5RFWngMB9NwFvFEY" prev="i-f8341cf8b1d8ab2e-55" next="i-f8341cf8b1d8ab2e-57">
           <seg xml:id="i-QQUfzNWARGSb1qFkvjDXre">
             Genom att nöja sig med domens praxisändring och en ambition att
             följa rättsutvecklingen i framtiden kryper regeringen lite fegt
@@ -838,8 +764,6 @@
             familjeåterförening. Det innebär också att barn som hunnit fylla
             18 år fortsatt riskerar att nekas återförening.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-57" who="i-WjgeYy5RFWngMB9NwFvFEY" prev="i-f8341cf8b1d8ab2e-56">
           <seg xml:id="i-PE8LX6uxSLFKmsmfZBwzXZ">
             Vänsterpartiet kräver att löftet till splittrade somaliesvenska
             familjer inte sviks. Varje ny dag i väntan är en dag för mycket.
@@ -852,7 +776,7 @@
         <note xml:id="i-fAixyMNGgefCTKMJNsRVN" type="speaker">
           Anf. 8 Statsrådet TOBIAS BILLSTRÖM (M):
         </note>
-        <u xml:id="i-f8341cf8b1d8ab2e-58" who="i-KPGvtK4s6Zp3E6XH6vj18n" next="i-f8341cf8b1d8ab2e-59">
+        <u xml:id="i-f8341cf8b1d8ab2e-58" who="i-KPGvtK4s6Zp3E6XH6vj18n">
           <seg xml:id="i-9gfGEC6zqJZX6wiiGLKLoF">
             Fru talman! Flera gånger under debatten har vi kunnat konstatera
             att de specifika problem som uppstod när Migrationsöverdomstolen
@@ -860,15 +784,11 @@
             med den rättsutveckling som har ägt rum genom Migrationsöverdomstolens
             dom från januari i år och genom Migrationsverkets rättsliga ställningstagande.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-59" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-58" next="i-f8341cf8b1d8ab2e-60">
           <seg xml:id="i-UpMquYbUTQwB7qkqWCe8FS">
             Om interpellanten och hennes parti stöttar den nya instans- och
             processordningen, varför talar man sig då varm för lagändringar
             hela tiden?
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-60" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-59" next="i-f8341cf8b1d8ab2e-61">
           <seg xml:id="i-7hhtQzbSNrBpG4Brm5JDki">
             Mina svar är en konsekvens av den ordning som riksdagen i politisk
             enighet har ställt upp. Om lagändringar påkallas innan praxis
@@ -876,8 +796,6 @@
             upp och alltså inte accepterar de principer som låg till grund
             för 2005 års förändrade instans- och processordning.
           </seg>
-        </u>
-        <u xml:id="i-f8341cf8b1d8ab2e-61" who="i-KPGvtK4s6Zp3E6XH6vj18n" prev="i-f8341cf8b1d8ab2e-60">
           <seg xml:id="i-VZ6P4Rf6VujJcLBRnvwMJ9">
             När vi tittar på vilket regelverk som tar form svarar det väl
             mot de åsikter som vi har framfört inom ramöverenskommelsen. Jag

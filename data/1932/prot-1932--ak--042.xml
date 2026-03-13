@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-RNJbD1qK5k6ME8GmJdbxRP" type="speech">
             <linkGrp type="u">
               <ptr target="#i-1b3dfc5dba8e941d-0"/>
@@ -468,7 +468,13 @@
               <ptr target="#i-21bf4e41e9b0ad7b-2"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -672,7 +678,7 @@
         <note xml:id="i-9tz7QADLz7DQ1jpdDyyLK6" type="speaker">
           Herr Larsson i Stockholm:
         </note>
-        <u xml:id="i-b274716a731f855f-0" who="i-UbnnZ7kVjVhJrHrUCyEV9K" next="i-9RiVZMkbkEfr21jyq7LC1A">
+        <u xml:id="i-b274716a731f855f-0" who="i-UbnnZ7kVjVhJrHrUCyEV9K" next="i-b274716a731f855f-1">
           <seg xml:id="i-6AvkkS5AoT5qf8cMeF3gLE">
             Herr talman! Med anledning av den föredragna punkten i bankoutskottets
             utlåtande angående verkställd granskning av riksbankens styrelse
@@ -717,8 +723,6 @@
             än som varit tillfinnandes hos ledande finansmän vare sig inom
             eller utom landet.
           </seg>
-        </u>
-        <u xml:id="i-9RiVZMkbkEfr21jyq7LC1A" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-b274716a731f855f-0" next="i-b274716a731f855f-1">
           <seg xml:id="i-Q3sBxeDp3QBcWhz8vGpYJx">
             Vad beträffar riktlinjerna för den svenska penningpolitiken,
             som behandlas i den nu föredragna punkten, få fullmäktige erinra,
@@ -746,15 +750,13 @@
         <note xml:id="i-GU3PeM7ALpbmyfvvF3AsKC" type="date">
           4 Lördagen den 7 maj f. m
         </note>
-        <u xml:id="i-b274716a731f855f-1" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-9RiVZMkbkEfr21jyq7LC1A" next="i-V6Ykp5M63b6brvgs5MVYb4">
+        <u xml:id="i-b274716a731f855f-1" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-b274716a731f855f-0" next="i-b274716a731f855f-3">
           <seg xml:id="i-AQG9AxxbKTzUgt9GvstnRi">
             Fullmäktige konstatera med tillfredsställelse, att utskottets
             majoritet i stort sett' ej haft någon erinran att göra mot fullmäktiges
             valutavårdande verksamhet under denna, särskilt ur valutapolitiska
             synpunkter, svåra tid.
           </seg>
-        </u>
-        <u xml:id="i-V6Ykp5M63b6brvgs5MVYb4" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-b274716a731f855f-1" next="i-6NxSRWBcCByHQFGrPzQxR8">
           <seg xml:id="i-DEW3myKxk9URHSTLezho1C">
             Vad utskottet anfört rörande riktlinjerna för penningpolitiken
             under den närmaste framtiden synes i huvudsak, såsom utskottet
@@ -763,14 +765,10 @@
             mening varit önskvärt, att de av utskottet angivna riktlinjerna
             kunnat mera klart preciseras.
           </seg>
-        </u>
-        <u xml:id="i-6NxSRWBcCByHQFGrPzQxR8" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-V6Ykp5M63b6brvgs5MVYb4" next="i-b274716a731f855f-2">
           <seg xml:id="i-WSrna5tMc6jX7SB1F74emk">
             Beträffande den av herr Gustafsson i Stensholm m. fl. avgivna
             reservationen få fullmäktige göra följande erinringar.
           </seg>
-        </u>
-        <u xml:id="i-b274716a731f855f-2" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-6NxSRWBcCByHQFGrPzQxR8" next="i-BVecxryzsCAffMSPtedxtn">
           <seg xml:id="i-ApjSEZvSVMgxwnXJ6q7ps3">
             Reservanterna göra gällande, att fullmäktige redan på våren eller
             försommaren 1931 — i varje fall efter den 5 maj — bort vidtaga
@@ -808,8 +806,6 @@
             omständigheter torde det i nuvaranade situation kunna ifrågasättas,
             om upptagandet av en dylik kredit länt landet till verklig fördel.
           </seg>
-        </u>
-        <u xml:id="i-BVecxryzsCAffMSPtedxtn" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-b274716a731f855f-2" next="i-b274716a731f855f-3">
           <seg xml:id="i-7y5QyFHQzQ1GyXLBg9buzX">
             Nyssnämnda reservanter framhålla vidare, att riksbanken den 21
             september 1931 borde hava höjt diskontot från 4 till 6 eller 6/2
@@ -834,7 +830,7 @@
         <note xml:id="i-851GXwuUAsuWTV7ktTgQZ8" type="date">
           Lördagen den 7 maj f. m. 5
         </note>
-        <u xml:id="i-b274716a731f855f-3" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-BVecxryzsCAffMSPtedxtn">
+        <u xml:id="i-b274716a731f855f-3" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-b274716a731f855f-1">
           <seg xml:id="i-LsfVBd2qFGRbnbR4W9TiLa">
             ställning i den nya situationen kunde ej med någon säkerhet förutses.
             Det må erinras, att krisårens inflation ännu lever i de flestas
@@ -858,7 +854,7 @@
         <note xml:id="i-Xo6ay8XLdug2NTrGGobSNL" type="speaker">
           Hans excellens herr statsministern Ekman:
         </note>
-        <u xml:id="i-XKPT9qTmixdgLRAkv1GAbH" who="i-Xk2ZY1AVkT44C7mHKMPyhE" next="i-CfnYXUcxgwY6uraRN4Pn1N">
+        <u xml:id="i-XKPT9qTmixdgLRAkv1GAbH" who="i-Xk2ZY1AVkT44C7mHKMPyhE" next="i-b274716a731f855f-5">
           <seg xml:id="i-CmEWQPQmHkrCPEys6us5Ff">
             Jag anhåller herr talman, om ordet redan 1 detta skede av överläggningen
             i syfte att få lämna en redogörelse för den andel, regeringen
@@ -872,8 +868,6 @@
             angeläget att före diskussionens fortsättning klarhet härom råder
             över hela linjen.
           </seg>
-        </u>
-        <u xml:id="i-CfnYXUcxgwY6uraRN4Pn1N" who="i-Xk2ZY1AVkT44C7mHKMPyhE" prev="i-XKPT9qTmixdgLRAkv1GAbH" next="i-3mbQBRqDVamUchbNAeRjt7">
           <seg xml:id="i-HgYCmB6yENgVReCNZS6hoj">
             Först då några ord om det inbördes konstitutionella förhållandet
             mellan regering och riksbanken. Gränserna och formerna för deras
@@ -883,8 +877,6 @@
             riksbank, dels genom av riksdagen eller dess bankoutskott lämnade
             föreskrifter.
           </seg>
-        </u>
-        <u xml:id="i-3mbQBRqDVamUchbNAeRjt7" who="i-Xk2ZY1AVkT44C7mHKMPyhE" prev="i-CfnYXUcxgwY6uraRN4Pn1N" next="i-b274716a731f855f-4">
           <seg xml:id="i-EVnsB2UTdr1k9Cf9QjTP5W">
             I fråga om sammansättningen av riksbanksledningen äger Konungen
             att förordna en fullmäktig och en suppleant för denne. Om den
@@ -894,8 +886,6 @@
             d. v. s. till riksbankschef, utses någon bland de av riksdagen
             valda fullmäktige.
           </seg>
-        </u>
-        <u xml:id="i-b274716a731f855f-4" who="i-Xk2ZY1AVkT44C7mHKMPyhE" prev="i-3mbQBRqDVamUchbNAeRjt7" next="i-b274716a731f855f-5">
           <seg xml:id="i-WaxpbJRMJjBKcsr9rNCFoL">
             Kärnan i samtliga övriga bestämmelser återfinnes i grundlagsstadgandet
             R. F. $ 111, att »fullmäktige i riksbanken kunna ej i och för
@@ -941,7 +931,7 @@
         <note xml:id="i-KsgkiwRbKyAhEPxkGu6gDh" type="date">
           6 Lördagen den 7 maj f. m.
         </note>
-        <u xml:id="i-b274716a731f855f-5" who="i-Xk2ZY1AVkT44C7mHKMPyhE" prev="i-b274716a731f855f-4" next="i-b274716a731f855f-6">
+        <u xml:id="i-b274716a731f855f-5" who="i-Xk2ZY1AVkT44C7mHKMPyhE" prev="i-XKPT9qTmixdgLRAkv1GAbH" next="i-b274716a731f855f-6">
           <seg xml:id="i-DtjnmYMfFthjR5xBv42FdS">
             hemliga sådana, varigenom såväl omständigheterna vid beslutets
             tillkomst son de avgörande motiven därför kunna hållas okända
@@ -4371,7 +4361,7 @@
         <note xml:id="i-CEWo8QYuYBxXBRcJzLevZx" type="date">
           46 Lördagen den 7 maj f. m.
         </note>
-        <u xml:id="i-0a2bed00e3a738a4-3" who="i-EEgp39w6M66SH9dRdqEEBo" prev="i-0a2bed00e3a738a4-2" next="i-NqapXfFFD4y2Hy4naBdfYs">
+        <u xml:id="i-0a2bed00e3a738a4-3" who="i-EEgp39w6M66SH9dRdqEEBo" prev="i-0a2bed00e3a738a4-2">
           <seg xml:id="i-9kLKBhu479NjbCBZ75F9Vc">
             många gånger, när jag nu för en enda gång resonerar med kommunisterna.
             Detta i anledning av den mycket tvärsäkra och övermodiga, ibland
@@ -4388,8 +4378,6 @@
             helt annat ställe än här i riksdagen — om de över huvud befunno
             sig alls.
           </seg>
-        </u>
-        <u xml:id="i-NqapXfFFD4y2Hy4naBdfYs" who="i-EEgp39w6M66SH9dRdqEEBo" prev="i-0a2bed00e3a738a4-3">
           <seg xml:id="i-YbgPMekJvmfhcJd8rhtECq">
             Jag yrkar för min del, herr talman, bifall till den nu föredragna
             punkten i utskottets utlåtande.
@@ -5301,7 +5289,7 @@
         <note xml:id="i-7NHqyD97dvj9CKiYKS8YSv" type="date">
           Lördagen den 7 maj f. m. 57
         </note>
-        <u xml:id="i-4de59103c370bef9-9" who="i-MSbi6CmhoHjdUGidWdU69V" prev="i-4de59103c370bef9-8" next="i-YTbJffruCjHuoFZs8ZH5sa">
+        <u xml:id="i-4de59103c370bef9-9" who="i-MSbi6CmhoHjdUGidWdU69V" prev="i-4de59103c370bef9-8">
           <seg xml:id="i-eYiY9uJbesSjt1XXkCC6t">
             sätta i gång företag, utan att detta medför vad man kallar inflation,
             så förstår jag icke, varför icke samhället skulle kunna låna pengar
@@ -5347,13 +5335,9 @@
             velat påstå, att reservanterna så, men det är den enda förnuftiga
             mening, som kan ligga bakom deras
           </seg>
-        </u>
-        <u xml:id="i-YTbJffruCjHuoFZs8ZH5sa" who="i-MSbi6CmhoHjdUGidWdU69V" prev="i-4de59103c370bef9-9" next="i-4de59103c370bef9-10">
           <seg xml:id="i-9FR4P85XWWNtFGLXuaYtsN">
             riti
           </seg>
-        </u>
-        <u xml:id="i-4de59103c370bef9-10" who="i-MSbi6CmhoHjdUGidWdU69V" prev="i-YTbJffruCjHuoFZs8ZH5sa">
           <seg xml:id="i-3nSEU46Fj8hneU16xbWqf9">
             Om jag anslog en frän ton i min kritik, så var det med full avsikt.
             Det var endast svar på tal. Ty när vi komma till nästa punkt i
@@ -6060,7 +6044,7 @@
         <note xml:id="i-Xy271LpxztahdML31wzdAi" type="date">
           66 Lördagen den 7 maj e. m.
         </note>
-        <u xml:id="i-b274716a731f855f-11" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-b274716a731f855f-10" next="i-4o5ECRKXZWc47Kt7UJMYo4">
+        <u xml:id="i-b274716a731f855f-11" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-b274716a731f855f-10" next="i-b274716a731f855f-13">
           <seg xml:id="i-74dnC5bbn2XyecjSG4U29Q">
             Utskottet framhåller det otillfredsställande.i att en redogörelse
             för Kreugerkoncernens ställning ej infordrades, innan riksbanken
@@ -6095,8 +6079,6 @@
             komplettering av de upplysningar, som erhållits av ovannämnda
             storbankschefer och av koncernens styrelseberättelser och balansräkningar.
           </seg>
-        </u>
-        <u xml:id="i-4o5ECRKXZWc47Kt7UJMYo4" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-b274716a731f855f-11" next="i-b274716a731f855f-12">
           <seg xml:id="i-RD3gcc3KaM8aaLtoqyU4W8">
             Utskottet framhåller, att fullmäktige redan i maj 1931 bort vidtaga
             åtgärder för en ingående undersökning av koncernens ställning.
@@ -6129,8 +6111,6 @@
             Match Corporation, som förföll ungefär vid sistnämnda tidpunkt.
             Omedelbart därefter igångsattes en ingående undersökning av ställningen.
           </seg>
-        </u>
-        <u xml:id="i-b274716a731f855f-12" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-4o5ECRKXZWc47Kt7UJMYo4" next="i-b274716a731f855f-13">
           <seg xml:id="i-FM7fEf465hN8NK3TRttY6s">
             Vad beträffar anmärkningen om ifrågavarande säkerheters ringa
             likviditets-
@@ -6140,7 +6120,7 @@
         <note xml:id="i-ND6HZHcNKa1AYuh5Ysgeq4" type="date">
           Lördagen den 7 maj e. m. 67
         </note>
-        <u xml:id="i-b274716a731f855f-13" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-b274716a731f855f-12" next="i-58vzPgbME1oFtZDNSjzhVb">
+        <u xml:id="i-b274716a731f855f-13" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-b274716a731f855f-11" next="i-b274716a731f855f-15">
           <seg xml:id="i-KuGytzhjV1BfhL6T6YX5JB">
             grad, må erinras, att fullmäktige avslogo en framställning om
             kredit till koncernen mot säkerhet av de tyska obligationerna.
@@ -6159,8 +6139,6 @@
             Därvid erhöllos de tyska obligationerna, vilka Skandinaviska kreditaktiebolaget
             för sin del godtagit som säkerhet för krediten.
           </seg>
-        </u>
-        <u xml:id="i-58vzPgbME1oFtZDNSjzhVb" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-b274716a731f855f-13" next="i-b274716a731f855f-14">
           <seg xml:id="i-Lwq98npoYhaigZU2J4CZGM">
             Utskottet framhåller, att riksbanken i början av maj 1931 borde
             hava hänvänt sig till statsmakterna för en stödaktion till Kreugerkoncernen.
@@ -6171,8 +6149,6 @@
             åt Kreugerkoncernens enligt vad allmänt då ansågs rent tillfälliga
             likviditetssvårigheter.
           </seg>
-        </u>
-        <u xml:id="i-b274716a731f855f-14" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-58vzPgbME1oFtZDNSjzhVb" next="i-b274716a731f855f-15">
           <seg xml:id="i-BwveqqR5ywkjKyXHVuBbqi">
             Vad beträffar de krediter till Kreugerkoncernen, som beviljades
             i oktober 1931 och februari 1932, hava fullmäktige följt den traditionen,
@@ -6235,7 +6211,7 @@
         <note xml:id="i-SF235kW5CW4ZD8aSCPSewF" type="date">
           68 Lördagen den 7 maj e. m.
         </note>
-        <u xml:id="i-b274716a731f855f-15" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-b274716a731f855f-14" next="i-b274716a731f855f-16">
+        <u xml:id="i-b274716a731f855f-15" who="i-UbnnZ7kVjVhJrHrUCyEV9K" prev="i-b274716a731f855f-13" next="i-b274716a731f855f-16">
           <seg xml:id="i-A6m41usVjBHRPZG9r6Vrkn">
             Ja, nu önskar tydligen finansministern, att jag skall föredraga
             detta protokoll, som jag nyss av honom fått i min hand, och jag
@@ -7239,7 +7215,7 @@
         <note xml:id="i-9sT8ouwJf6G2kujGGHyhVm" type="date">
           80 Lördagen den 7 maj e. m.
         </note>
-        <u xml:id="i-c2829096c7381101-13" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-c2829096c7381101-12" next="i-DDKNzQjTazHin9zKMjH5hT">
+        <u xml:id="i-c2829096c7381101-13" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-c2829096c7381101-12" next="i-c2829096c7381101-14">
           <seg xml:id="i-98kWr8YusaxL2r51wkCdyj">
             mera vuxit upp till, jag tror 340 miljoner kronor eller någonting
             sådant — det köm visserligen senare — det visar, vilka oerhörda
@@ -7303,8 +7279,6 @@
             att man måste ha denna kredit, borde väl hos en bankman hava givit
             anledning att fråga: Är det behövligt, och varför behövs detta?
           </seg>
-        </u>
-        <u xml:id="i-DDKNzQjTazHin9zKMjH5hT" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-c2829096c7381101-13" next="i-c2829096c7381101-14">
           <seg xml:id="i-QuHrG4JjgUaSBhkBn5dqx4">
             Vid den tidpunkt, då fullmäktige behandlade denna fråga, i slutet
             av april och början av maj, förelåg emellertid aktiebolaget Kreuger
@@ -7317,7 +7291,7 @@
         <note xml:id="i-MSBGSdamb6tg3igz1CV3Nm" type="date">
           Lördagen den 7 maj e. m. 81
         </note>
-        <u xml:id="i-c2829096c7381101-14" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-DDKNzQjTazHin9zKMjH5hT" next="i-c2829096c7381101-15">
+        <u xml:id="i-c2829096c7381101-14" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-c2829096c7381101-13" next="i-c2829096c7381101-15">
           <seg xml:id="i-NQTt9kVyU2cC6B14nGnDib">
             detta ärende. Och vad innehåller denna styrelseberättelse? Ja,
             den innehåller siffror om bolagets likviditet, vilka jag sett
@@ -7483,7 +7457,7 @@
         <note xml:id="i-5ueRgPd7b1whukGVuVVDwg" type="date">
           Lördagen den 7 maj e. m. 83
         </note>
-        <u xml:id="i-c2829096c7381101-16" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-c2829096c7381101-15" next="i-V87rh1DBuX7DpCf7QjAbVW">
+        <u xml:id="i-c2829096c7381101-16" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-c2829096c7381101-15">
           <seg xml:id="i-6zEJoL9E4Ap6NqQWEj3odQ">
             tolkningen, som är den riktiga, protokollets innehåll eller statsministerns
             yttrande på förmiddagen. Men jag skall icke befatta mig med detta.
@@ -7502,8 +7476,6 @@
             Jag har sökt utveckla detta så gott jag kunnat, och Jag har intet
             vidare att tillägga.
           </seg>
-        </u>
-        <u xml:id="i-V87rh1DBuX7DpCf7QjAbVW" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-c2829096c7381101-16">
           <seg xml:id="i-FQ6zPiq8XRuMtHSEYiGUGN">
             I detta yttrande, under vilket herr talmannen återtagit ledningen
             av förhandlingarna, instämde herrar Petersson i Storgården, Jönsson

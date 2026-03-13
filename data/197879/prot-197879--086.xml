@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-RvST9X43zzrD8s1NSVEV9m" type="speech">
             <linkGrp type="u">
               <ptr target="#i-CSNGDVDyFBAF4SUWpNrzFv"/>
@@ -239,7 +239,13 @@
               <ptr target="#i-29f8c3f0fa4b80f1-3"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -905,7 +911,7 @@
         <note xml:id="i-U9MbDmnYrDh34AccqcfDDR">
           Beträffande propositionens huvudsakliga innehåll anfördes följande:
         </note>
-        <u xml:id="i-53DMrDjNqBYfKPw9nuiTKs" who="unknown" next="i-U9atW9YkzBZT7vah1tQPr">
+        <u xml:id="i-53DMrDjNqBYfKPw9nuiTKs" who="unknown" next="i-7TNJgWwPGEg4eth97HV3fh">
           <seg xml:id="i-GoWK2NhGwcSKnTyHUcPasz">
             ”I propositionen föreslås att den för arbetstagare lagstadgade
             försäkringen fördelpension mellan 60 och 65 års ålder fr. o. m.
@@ -918,8 +924,6 @@
             vissa förbättringar och justeringar i gällande delpensionsregler
             för anställda.
           </seg>
-        </u>
-        <u xml:id="i-U9atW9YkzBZT7vah1tQPr" who="unknown" prev="i-53DMrDjNqBYfKPw9nuiTKs" next="i-7TNJgWwPGEg4eth97HV3fh">
           <seg xml:id="i-A1fwFTMyvRtViMMyKMDzmb">
             För att trygga den nuvarande delpensionsförsäkringens finansiering
             föreslås en höjning av avgiftsuttaget hos arbetsgivarna från 0,25
@@ -962,7 +966,7 @@
           av delpension jämte
         </note>
         <pb facs="https://betalab.kb.se/prot-197879--86/prot_197879__86-008.jp2/_view"/>
-        <u xml:id="i-7TNJgWwPGEg4eth97HV3fh" who="unknown" prev="i-U9atW9YkzBZT7vah1tQPr" next="i-DMij1g3wrXsgcGuj77cxDm">
+        <u xml:id="i-7TNJgWwPGEg4eth97HV3fh" who="unknown" prev="i-53DMrDjNqBYfKPw9nuiTKs" next="i-DMij1g3wrXsgcGuj77cxDm">
           <seg xml:id="i-4x12r1gFxDrk7hkcceD6Zi">
             administrativa kostnader skulle ske, e) besluta att som sin mening
             ge regeringen till känna vad i motionen anförts om uppföljning
@@ -982,19 +986,15 @@
           2. hos regeringen begära en skyndsam översyn av delpensioneringen
           i enlighet med vad i motionen anförts,
         </note>
-        <u xml:id="i-DMij1g3wrXsgcGuj77cxDm" who="unknown" prev="i-7TNJgWwPGEg4eth97HV3fh" next="i-SiFsL4x1SX9Q1ZsPUw6Y9B">
+        <u xml:id="i-DMij1g3wrXsgcGuj77cxDm" who="unknown" prev="i-7TNJgWwPGEg4eth97HV3fh">
           <seg xml:id="i-4ZDAKQzYBda2JdjaB3g7X2">
             3. avgiftsuttaget tills vidare skulle förbli oförändrat vid 0,25
             924 av avgiftsunderlaget,
           </seg>
-        </u>
-        <u xml:id="i-SiFsL4x1SX9Q1ZsPUw6Y9B" who="unknown" prev="i-DMij1g3wrXsgcGuj77cxDm" next="i-HRV7mmRzn8kfmGUQC4ZxyS">
           <seg xml:id="i-ERFDqvzAuyXmagFCXq9cqw">
             4. egenavgiften för företagarnas delpensionering tills vidare
             skulle utgöra 0,25 HK,
           </seg>
-        </u>
-        <u xml:id="i-HRV7mmRzn8kfmGUQC4ZxyS" who="unknown" prev="i-SiFsL4x1SX9Q1ZsPUw6Y9B">
           <seg xml:id="i-GDZ6cKRM2J6ouoJQy1jKh7">
             5. underskottet i delpensionsfonden tills vidare, som nu, skulle
             finansieras med skattemedel,
@@ -1179,7 +1179,7 @@
         <note xml:id="i-iuiRWAY3nu9yQkQHkgHux" type="speaker">
           SVEN ASPLING (s):
         </note>
-        <u xml:id="i-3ea90843ccaeb361-0" who="i-6yryP5FsumcdXgD5cb8aDF" next="i-PuhcgMUrd3Ye7KGGCkvtRy">
+        <u xml:id="i-3ea90843ccaeb361-0" who="i-6yryP5FsumcdXgD5cb8aDF" next="i-3ea90843ccaeb361-4">
           <seg xml:id="i-6EBGa5Wotw3A4B63FWVA5u">
             Herr talman! Den proposition vi nu behandlar om delpension för
             egenföretagare bygger till stor del på det förslag riksförsäkringsverket
@@ -1193,16 +1193,12 @@
             i samband med det uppdrag som verket fick av den socialdemokratiska
             regeringen att följa upp delpensionsreformen.
           </seg>
-        </u>
-        <u xml:id="i-PuhcgMUrd3Ye7KGGCkvtRy" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-3ea90843ccaeb361-0" next="i-3ea90843ccaeb361-1">
           <seg xml:id="i-6KCRr6NaWmLwMSaSGepbjQ">
             Så har också skett, och i propositionen föreslås att den för
             arbetstagare lagstadgade försäkringen för delpension mellan 60
             och 65 år fr. o. m. den I januari 1980 skall omfatta även egenföretagare.
             Vi tillstyrker därför syftet i propositionen.
           </seg>
-        </u>
-        <u xml:id="i-3ea90843ccaeb361-1" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-PuhcgMUrd3Ye7KGGCkvtRy" next="i-3ea90843ccaeb361-4">
           <seg xml:id="i-YU3LtRkQssY2od7LCzkzaw">
             Jag vill i det här sammanhanget erinra om att i den proposition
             som låg till grund för delpensionsreformen och som behandlades
@@ -1266,7 +1262,7 @@
         <note xml:id="i-NBxWNurgYeZ1h5qZF2TLzF">
           94
         </note>
-        <u xml:id="i-3ea90843ccaeb361-4" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-3ea90843ccaeb361-1" next="i-3ea90843ccaeb361-5">
+        <u xml:id="i-3ea90843ccaeb361-4" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-3ea90843ccaeb361-0" next="i-3ea90843ccaeb361-5">
           <seg xml:id="i-8mfJBTpnAtCfFHBFaXKt4w">
             betydelse för reformens utformning. Det förtjänar påpekas att
             delpensioneringen är en aktiv social reform även på så sätt, att
@@ -1753,7 +1749,7 @@
         <note xml:id="i-9RybpP26Ft8St3ZPhUmb7W">
           Delpension för egenföretagare m.m.
         </note>
-        <u xml:id="i-c4ada07bba4f84a5-4" who="i-91SAXsUbmLaUj8YfQKHZ1n" prev="i-c4ada07bba4f84a5-1" next="i-KHzriXK62jYtMMDJa1DVRq">
+        <u xml:id="i-c4ada07bba4f84a5-4" who="i-91SAXsUbmLaUj8YfQKHZ1n" prev="i-c4ada07bba4f84a5-1">
           <seg xml:id="i-Vtpu8b5THukk2Yp4g9eBhm">
             Olika utredningar sysslar med frågorna om pensionärernas rätt
             att arbeta ytterligare några år efter 65-årsstrecket, men det
@@ -1797,8 +1793,6 @@
           <seg xml:id="i-6ejJARX69DsN9Tdkq9vsoY">
             Det är faktiskt en ganska märklig inställning Sven Aspling företräder.
           </seg>
-        </u>
-        <u xml:id="i-KHzriXK62jYtMMDJa1DVRq" who="i-91SAXsUbmLaUj8YfQKHZ1n" prev="i-c4ada07bba4f84a5-4">
           <seg xml:id="i-G94ucyhK2CNAv7SHjH3A9U">
             Med detta, herr talman, ber jag att få yrka bifall till reservationerna
             6 och 7 samt i övrigt till utskottets hemställan.
@@ -1990,15 +1984,13 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197879--86/prot_197879__86-020.jp2/_view"/>
-        <u xml:id="i-96df7ff5479babd8-1" who="i-Xzs7rTBPiVT3KgfuoVSczD" prev="i-96df7ff5479babd8-0" next="i-Q7kSvJDjrnGSzjH67wkRPC">
+        <u xml:id="i-96df7ff5479babd8-1" who="i-Xzs7rTBPiVT3KgfuoVSczD" prev="i-96df7ff5479babd8-0">
           <seg xml:id="i-Sk58r8B5EcAYQ3AjtwMR2X">
             ATP att göra. Reformen finansieras genom egna avgifter och de
             sätts på särskilt konto, men ändå menar herr Aspling att höjden
             av rättvisa och frihet i samhället är tvång, tvång, tvång att
             tillhöra ATP.
           </seg>
-        </u>
-        <u xml:id="i-Q7kSvJDjrnGSzjH67wkRPC" who="i-Xzs7rTBPiVT3KgfuoVSczD" prev="i-96df7ff5479babd8-1">
           <seg xml:id="i-NKZzvh1GErqzKor7Pm2svD">
             Med detta, herr talman, vill jag bara yrka bifall till socialförsäkringsutskottets
             hemställan i dess helhet i betänkandet nr 14 och avslag på de
@@ -2181,7 +2173,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197879--86/prot_197879__86-022.jp2/_view"/>
-        <u xml:id="i-f175f1f0ddec3e9f-1" who="i-NnnjpbjTFUH5mHJLVXoKZ1" prev="i-f175f1f0ddec3e9f-0" next="i-43PckjaTSnkHfhniqnCjMi">
+        <u xml:id="i-f175f1f0ddec3e9f-1" who="i-NnnjpbjTFUH5mHJLVXoKZ1" prev="i-f175f1f0ddec3e9f-0" next="i-f175f1f0ddec3e9f-7">
           <seg xml:id="i-KuA2RvGsy6aqoTryU5YFXm">
             regering som genomförde reformen, men utan tvekan har folkpartiet
             spelat en viktig roll i sammanhanget. Folkpartiet har varit föregångare
@@ -2206,8 +2198,6 @@
             som den vanliga pensionsåldern. Arbetsgruppen föreslog att det
             framtida pensioneringssystemets funktion och utseende skulle utredas.
           </seg>
-        </u>
-        <u xml:id="i-43PckjaTSnkHfhniqnCjMi" who="i-NnnjpbjTFUH5mHJLVXoKZ1" prev="i-f175f1f0ddec3e9f-1" next="i-f175f1f0ddec3e9f-2">
           <seg xml:id="i-WCyAdbbzG2f9FCYWSSm3nw">
             Detta var alltså 1969. Följande år följdes arbetsgruppens förslag
             upp med motioner i riksdagen, vari folkpartiet begärde en utredning
@@ -2215,8 +2205,6 @@
             rätt för den enskilde att inom vissa gränser själv välja tidpunkt
             för sin pensionering.
           </seg>
-        </u>
-        <u xml:id="i-f175f1f0ddec3e9f-2" who="i-NnnjpbjTFUH5mHJLVXoKZ1" prev="i-43PckjaTSnkHfhniqnCjMi" next="i-f175f1f0ddec3e9f-7">
           <seg xml:id="i-LVvR6EPt3128a9iAFRpbZi">
             Sedan har folkpartiet under årens lopp återkommit med motioner
             i frågan, där båda dessa delar har varit med, nämligen sänkt pensionsålder
@@ -2290,7 +2278,7 @@
         <note xml:id="i-BamftMGqi7xsN6KTNkvxzX">
           Delpension för egenföretagare m.m.
         </note>
-        <u xml:id="i-f175f1f0ddec3e9f-7" who="i-NnnjpbjTFUH5mHJLVXoKZ1" prev="i-f175f1f0ddec3e9f-2" next="i-f175f1f0ddec3e9f-8">
+        <u xml:id="i-f175f1f0ddec3e9f-7" who="i-NnnjpbjTFUH5mHJLVXoKZ1" prev="i-f175f1f0ddec3e9f-1" next="i-f175f1f0ddec3e9f-8">
           <seg xml:id="i-Xyi7aQ7zfF2bKwNrFwwmZK">
             finns fogade till betänkandet, och jag börjar då med att yrka
             bifall till utskottets skrivning i alla delar. Det innebär alltså
@@ -3248,7 +3236,7 @@
         <note xml:id="i-3vHwXLiHjiRWhSAHLqotqv" type="speaker">
           LARS-INGVAR SÖRENSON (s):
         </note>
-        <u xml:id="i-8dca8f729f2afe82-0" who="i-YbgaAY79FADF32ty9BkkW" next="i-VxKb3fh7XXeaLJ7ncRLP6n">
+        <u xml:id="i-8dca8f729f2afe82-0" who="i-YbgaAY79FADF32ty9BkkW">
           <seg xml:id="i-XQWfBexyxU3P8Q4ZjuM1Eb">
             Herr talman! Det förhåller sig inte riktigt så som Eva Hjelmström
             föreställer sig, att samtliga partier som är företrädda i utskottet
@@ -3287,8 +3275,6 @@
             och att vi är beredda att återkomma med förslag om en rejäl höjning
             av deras anslag.
           </seg>
-        </u>
-        <u xml:id="i-VxKb3fh7XXeaLJ7ncRLP6n" who="i-YbgaAY79FADF32ty9BkkW" prev="i-8dca8f729f2afe82-0">
           <seg xml:id="i-PkK78zcM4sgRwsLYWa1oXV">
             Jag yrkar bifall till utskottets hemställan.
           </seg>
@@ -3583,7 +3569,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197879--86/prot_197879__86-038.jp2/_view"/>
-        <u xml:id="i-c47956dbc41effd1-6" who="i-UxDubx71tDFGJBQqvNiux2" prev="i-c47956dbc41effd1-5" next="i-XX3Eu4XRori65d2bZiPqF6">
+        <u xml:id="i-c47956dbc41effd1-6" who="i-UxDubx71tDFGJBQqvNiux2" prev="i-c47956dbc41effd1-5">
           <seg xml:id="i-FmPvkJ2C38uhdHsL5LewHx">
             trafikservice. Det finns enligt vår mening större möjligheter
             till det, om samhället äger och driver trafiken. Då försvinner
@@ -3597,8 +3583,6 @@
             till godo och kunna minska arbetslösheten som är mycket omfattande,
             speciellt bland ungdom.
           </seg>
-        </u>
-        <u xml:id="i-XX3Eu4XRori65d2bZiPqF6" who="i-UxDubx71tDFGJBQqvNiux2" prev="i-c47956dbc41effd1-6">
           <seg xml:id="i-4ooP3FsKD7ZWNKzSpnseZf">
             Herr talman! Jag yrkar därför bifall till motionen 1406 som innebär
             att riksdagen avslår regeringens förslag om investeringsbidrag
@@ -3614,7 +3598,7 @@
         <note xml:id="i-2evih8hQc95nVWfFgYf3hs" type="speaker">
           ROLF SELLGREN (fp):
         </note>
-        <u xml:id="i-46eca7406bd828c1-0" who="i-y57aqt6DptStUpkWh6h5L" next="i-LarNCusywzmqzMEBvVzNmV">
+        <u xml:id="i-46eca7406bd828c1-0" who="i-y57aqt6DptStUpkWh6h5L">
           <seg xml:id="i-ExgpWCwohaFASTjx1nBgWq">
             Herr talman! Som Karl Hallgren sade, är det inte första gången
             frågan om förstatligande av Gotlandsbolaget tagits upp här i riksdagen.
@@ -3656,8 +3640,6 @@
             som hela den här verksamheten nu fått har vi åstadkommit en tillfredsställande
             lösning av trafiken till Gotland.
           </seg>
-        </u>
-        <u xml:id="i-LarNCusywzmqzMEBvVzNmV" who="i-y57aqt6DptStUpkWh6h5L" prev="i-46eca7406bd828c1-0">
           <seg xml:id="i-9BMY8XLH6khyUxXKW9ZNPG">
             Herr talman! Med avslag på herr Hallgrens yrkande om bifall till
             vpkmotionen yrkar jag bifall till trafikutskottets hemställan.
@@ -4060,8 +4042,6 @@
             med stor tillfredsställelse inom pensionärsrörelsen liksom bland
             löntagarorganisationernas medlemmar.
           </seg>
-        </u>
-        <u xml:id="i-fcb6b6c20c71fbe9-6" who="unknown">
           <seg xml:id="i-GnKvYRG1gzYi5Re2octzY4">
             När pensionskommittén i augusti 1977 avlämnade sitt betänkande
             med ett kategoriskt avvisande av standardsäkringskravet möttes
@@ -4090,14 +4070,10 @@
             kan lösas. Om en särskild beredning anses lämplig bör pensionärsrörelsen
             ges säte och stämma i en sådan.
           </seg>
-        </u>
-        <u xml:id="i-HPvjuXSQW4U6ut8kZmqQNw" who="unknown">
           <seg xml:id="i-PrX74pUgfGpknpVRqKSsHC">
             Med hänvisning till det anförda vill jag ställa följande frågor
             till socialministern:
           </seg>
-        </u>
-        <u xml:id="i-61qXBhANtpddMw1VootZ9i" who="unknown">
           <seg xml:id="i-P5tXyDp5JDjPrhMAFgPvY6">
             1. Hur ser socialministern för sin del på angelägenheten av att
             frågan om standardsäkrade pensionsförmåner får en snar och positiv
@@ -4139,7 +4115,7 @@
           347 av Sune Johansson (s) till arbetsmarknadsministern om åtgärder
           för att främja sysselsättningen i Värmland:
         </note>
-        <u xml:id="i-7865941a5f573f36-1" who="i-SQty3xFzeq6gqZzUtKRbW9" next="i-QXsAZbcuTomUDMdaEKhtwX">
+        <u xml:id="i-7865941a5f573f36-1" who="i-SQty3xFzeq6gqZzUtKRbW9">
           <seg xml:id="i-Qeeab9sojrMbMZBTHQusVm">
             Under 1977 startades i Värmland en särskild delegation, kallad
             Värmlandsdelegationen, vars uppgift skulle vara att samordna initiativ
@@ -4166,13 +4142,9 @@
             med snabba åtgärder, kunna påverka länets arbetsmarknad i positiv
             riktning.
           </seg>
-        </u>
-        <u xml:id="i-QXsAZbcuTomUDMdaEKhtwX" who="i-SQty3xFzeq6gqZzUtKRbW9" prev="i-7865941a5f573f36-1" next="i-Tei6o3gkm9bEgWZu4UzkzN">
           <seg xml:id="i-LmVzLLF6qD1oKVRGruyQZh">
             Med det anförda vill jag ställa följande fråga till arbetsmarknadsministern:
           </seg>
-        </u>
-        <u xml:id="i-Tei6o3gkm9bEgWZu4UzkzN" who="i-SQty3xFzeq6gqZzUtKRbW9" prev="i-QXsAZbcuTomUDMdaEKhtwX">
           <seg xml:id="i-JZX2Dd6tgAMe4iC3ZsPACK">
             Vilka åtgärder har regeringen vidtagit eller ämnar man vidtaga
             i anledning av Värmlandsdelegationens här nämnda framställning?

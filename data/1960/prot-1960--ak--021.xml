@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-NTiEUabEsjZe1ZzSRLbKey" type="speech">
             <linkGrp type="u">
               <ptr target="#i-S95UYR1QZWt9MaCmb5gAp8"/>
@@ -437,7 +437,13 @@
               <ptr target="#i-0de17d326827cbe6-18"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -556,7 +562,7 @@
           Hans excellens herr ministern för utrikes ärendena UNDÉN, som
           yttrade:
         </note>
-        <u xml:id="i-S95UYR1QZWt9MaCmb5gAp8" who="i-6dbbwLmze8R4p7yWmcezLY" next="i-UyjjpGYjAJcA4gNPP1HoZ1">
+        <u xml:id="i-S95UYR1QZWt9MaCmb5gAp8" who="i-6dbbwLmze8R4p7yWmcezLY">
           <seg xml:id="i-QZ5Ys1kZTvZVYEVMeFYxnF">
             Herr talman! Ledamoten av andra kammaren herr Staxäng har frågat
             mig, om jag ämnar försöka åstadkomma en överenskommelse med norska
@@ -564,14 +570,10 @@
             där svenska fiskebåtar brukar uppehålla sig utan att meddelande
             härom på ett betryggande sätt tillkännagivits.
           </seg>
-        </u>
-        <u xml:id="i-UyjjpGYjAJcA4gNPP1HoZ1" who="i-6dbbwLmze8R4p7yWmcezLY" prev="i-S95UYR1QZWt9MaCmb5gAp8" next="i-MVoLSCQyVskWxgYvDDozFH">
           <seg xml:id="i-B6LfcgRY8JDH8QHmGHFtQu">
             Mitt svar på frågan blir ja. I själva verket ingicks redan i
             februari 1957 mellan svenska och norska myndigheter en dylik överenskommelse.
           </seg>
-        </u>
-        <u xml:id="i-MVoLSCQyVskWxgYvDDozFH" who="i-6dbbwLmze8R4p7yWmcezLY" prev="i-UyjjpGYjAJcA4gNPP1HoZ1">
           <seg xml:id="i-CMQCg3TS9tvFj1cwc6DFjR">
             Genom ett beklagligt förbiseende på norsk sida kom några varningar
             icke att lämnas i de två aktuella fallen. I anledning av det inträffade
@@ -648,7 +650,7 @@
           Svar på fråga ang. cancerforskningen vid statens bakteriologiska
           laboratorium
         </note>
-        <u xml:id="i-0de17d326827cbe6-2" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-0de17d326827cbe6-1" next="i-HzWq2KqXyTZsv4UBzhEKFt">
+        <u xml:id="i-0de17d326827cbe6-2" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-0de17d326827cbe6-1">
           <seg xml:id="i-NxHTmqK4qMuVrPCCFboRzF">
             har frågat, om jag vill redovisa hur skattemyndigheterna tillämpar
             rätten till avdrag för kostnader vid anläggande och underhåll
@@ -670,8 +672,6 @@
             en redogörelse för de problem på området som uppkommit och hur
             de blivit lösta av praxis.
           </seg>
-        </u>
-        <u xml:id="i-HzWq2KqXyTZsv4UBzhEKFt" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-0de17d326827cbe6-2">
           <seg xml:id="i-7wa2rMMZ9FdowXA3DUNRSx">
             Frågan om rätt till avdrag för kostnader för skogsbilvägar har
             tidigare behandlats vid denna riksdagssession. Jag vill hänvisa
@@ -1102,7 +1102,7 @@
           Chefen för socialdepartementet, herr statsrådet NILSSON, erhöll
           på begäran ordet och yttrade:
         </note>
-        <u xml:id="i-17154cabd3e02207-1" who="i-BSEtbZG4ePv3rfebXQWRkd" next="i-BvoD2bq2947LiDazn7MD5K">
+        <u xml:id="i-17154cabd3e02207-1" who="i-BSEtbZG4ePv3rfebXQWRkd" next="i-17154cabd3e02207-2">
           <seg xml:id="i-3ggcSHrnMhcm1Vyi6v3rJS">
             Herr talman! Herr Hedlund har frå-
           </seg>
@@ -1140,8 +1140,6 @@
             få återge delar av ett par cirkulärskrivelser från bostadsstyrelsen
             och arbetsmarknadsstyrelsen till länsbostadsnämnderna resp. länsarbetsnämnderna.
           </seg>
-        </u>
-        <u xml:id="i-BvoD2bq2947LiDazn7MD5K" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-17154cabd3e02207-1" next="i-17154cabd3e02207-2">
           <seg xml:id="i-BvJGhoBB4HBcS74DHTHKcR">
             Bostadsstyrelsen har i en skrivelse den 12 mars i år till länsbostadsnämnderna
             erinrat om att arbetsmarknadsstyrelsen i en skrivelse till regeringen
@@ -1161,7 +1159,7 @@
         <note xml:id="i-Ez4dmigJgHnH16Vcib9WYK">
           Svar på interpellation ang. bostadsbyggandets lokalisering
         </note>
-        <u xml:id="i-17154cabd3e02207-2" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-BvoD2bq2947LiDazn7MD5K" next="i-17154cabd3e02207-3">
+        <u xml:id="i-17154cabd3e02207-2" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-17154cabd3e02207-1" next="i-17154cabd3e02207-3">
           <seg xml:id="i-UdTCrP5a3oHHMsDn47tnDk">
             band härmed måste försälja sina fastigheter. I arbetsmarknadsstyrelsens
             skrivelse framhölls, att vid fördelningen av de statliga egnahemslånen
@@ -2573,7 +2571,7 @@
         <note xml:id="i-PzjCB7pJ4ZKDftpCE1ioGo" type="speaker">
           Herr OHLIN (fp) kort genmäle:
         </note>
-        <u xml:id="i-acf296adacb35641-13" who="i-BqDGKscaLhUZHhaFFmx5pf" next="i-PCFiGbNYiNzaY3By8SVUyW">
+        <u xml:id="i-acf296adacb35641-13" who="i-BqDGKscaLhUZHhaFFmx5pf" next="i-2ec473791b0c2f76-15">
           <seg xml:id="i-Hn8BwSJBHjnm3Am36PpPv4">
             Herr talman! Herr Kellgren talade om den service, som egnahemsägarna
             får, och om de framtida sysselsättningsmöjligheterna. I herr Kellgrens
@@ -2595,8 +2593,6 @@
             samtidigt som jag är glad åt herr Kellgrens upplysningar om arbetsmarknadsstyrelsens
             utredningar.
           </seg>
-        </u>
-        <u xml:id="i-PCFiGbNYiNzaY3By8SVUyW" who="i-BqDGKscaLhUZHhaFFmx5pf" prev="i-acf296adacb35641-13" next="i-2ec473791b0c2f76-15">
           <seg xml:id="i-QkkpSyVATbNFrzg7Tfm76U">
             Vad byggnadsverksamheten angår
           </seg>
@@ -2611,7 +2607,7 @@
         <note xml:id="i-BmKJGdAKt1t8qRE8sUHfo1">
           Svar på interpellation ang. bostadsbyggandets lokalisering
         </note>
-        <u xml:id="i-2ec473791b0c2f76-15" who="i-BqDGKscaLhUZHhaFFmx5pf" prev="i-PCFiGbNYiNzaY3By8SVUyW">
+        <u xml:id="i-2ec473791b0c2f76-15" who="i-BqDGKscaLhUZHhaFFmx5pf" prev="i-acf296adacb35641-13">
           <seg xml:id="i-RSoATvFR37mSVBujQFF2s2">
             nämner jag bara, att vi hela tiden har sökt pressa på regeringen
             att inte hålla nere bostadsbyggandet så mycket som skedde för
@@ -3254,7 +3250,7 @@
           Chefen för försvarsdepartementet, herr statsrådet ANDERSSON,
           som yttrade:
         </note>
-        <u xml:id="i-AVDgTXPuNBKqrqJeeXH9sD" who="i-ErNemW6WNsbRaNz3Q9qVQH" next="i-DCu4s9iRkAkBX1FPuyPRqm">
+        <u xml:id="i-AVDgTXPuNBKqrqJeeXH9sD" who="i-ErNemW6WNsbRaNz3Q9qVQH" next="i-F4S7754jr9qvEZ7qH7jkGr">
           <seg xml:id="i-FtCWG7H2nAEUeS3nFPAU5a">
             Herr talman! Med kammarens tillstånd har herr Ståhl frågat mig
             om jag är villig att snarast föranstalta om en sådan omprövning
@@ -3266,8 +3262,6 @@
           <seg xml:id="i-T6YAgzJJWS5NTcgnMYBu4Q">
             Med anledning härav får jag anföra följande.
           </seg>
-        </u>
-        <u xml:id="i-DCu4s9iRkAkBX1FPuyPRqm" who="i-ErNemW6WNsbRaNz3Q9qVQH" prev="i-AVDgTXPuNBKqrqJeeXH9sD" next="i-UcFYP8avWzRHPkcojf144w">
           <seg xml:id="i-15t9f7Q826akM2oGMmsvsL">
             De förbandsomflyttningar, som nu är i fråga, är indragningen
             av Göta artilleriregemente (A 2) i Göteborg och Karlsborgs luftvärnsregemente
@@ -3276,8 +3270,6 @@
             vid Kviberg samt signalkompaniet i Skövde flytta till Lv 1 ledigblivna
             kaserner och samtidigt ombildas till en signalkår ($S 2).
           </seg>
-        </u>
-        <u xml:id="i-UcFYP8avWzRHPkcojf144w" who="i-ErNemW6WNsbRaNz3Q9qVQH" prev="i-DCu4s9iRkAkBX1FPuyPRqm" next="i-F4S7754jr9qvEZ7qH7jkGr">
           <seg xml:id="i-3QgFcy9sUWrX5CVGNR7pS5">
             Jag vill till en början erinra om att i enlighet med förslag
             som av mig framförts i proposition nr 108 (punkt 6) denna riksdag
@@ -3299,7 +3291,7 @@
           Svar på interpellation ang. den beslutade förbandsomflyttningen
           mellan Göteborg, Skövde och Karlsborg
         </note>
-        <u xml:id="i-F4S7754jr9qvEZ7qH7jkGr" who="i-ErNemW6WNsbRaNz3Q9qVQH" prev="i-UcFYP8avWzRHPkcojf144w" next="i-PxgCcR9JG564KzGLco9TKY">
+        <u xml:id="i-F4S7754jr9qvEZ7qH7jkGr" who="i-ErNemW6WNsbRaNz3Q9qVQH" prev="i-AVDgTXPuNBKqrqJeeXH9sD" next="i-PxgCcR9JG564KzGLco9TKY">
           <seg xml:id="i-Xr5tGNYDxhZZ6RjFEYRNHE">
             bildningsverksamhet. Det bör observeras att enligt överenskommelsen
             med staden vissa markområden vid Kviberg skall hembjudas till
@@ -3958,7 +3950,7 @@
           Svar på interpellation äng. vissa vetenskapliga undersökningar
           i samband med abortoperationer
         </note>
-        <u xml:id="i-e3626a4c688a2afa-10" who="i-U22vAKBq8RA2Ji6KCU4j6Z" prev="i-XyNS77UnrtLYVqvNK1AHBm" next="i-TBvM3MoWmzhm9KbpX2PdAH">
+        <u xml:id="i-e3626a4c688a2afa-10" who="i-U22vAKBq8RA2Ji6KCU4j6Z" prev="i-XyNS77UnrtLYVqvNK1AHBm">
           <seg xml:id="i-Rh1iKChznjpZS3bDgdPfJR">
             lighet under denna behandling, hur intensivt den än må bedrivas.
             Förfaringssättet anses därför vara fullt jämförbart med det som
@@ -3972,14 +3964,10 @@
             som efter födelsen har andäts eller har visat annat livsteckenh
             och som enligt 16 8 folkbokförings-
           </seg>
-        </u>
-        <u xml:id="i-TBvM3MoWmzhm9KbpX2PdAH" who="i-U22vAKBq8RA2Ji6KCU4j6Z" prev="i-e3626a4c688a2afa-10" next="i-e3626a4c688a2afa-11">
           <seg xml:id="i-7PHLcyjyJgMfPN7iyT5kGP">
             förordningen — i lydelse sedan den 1 januari 1960 — skall anmälas
             såsom barn.
           </seg>
-        </u>
-        <u xml:id="i-e3626a4c688a2afa-11" who="i-U22vAKBq8RA2Ji6KCU4j6Z" prev="i-TBvM3MoWmzhm9KbpX2PdAH">
           <seg xml:id="i-FtNkFRSdcpwkhMeEdQSDmS">
             Så långt promemorian. För egen del anser jag mig kunna av de
             lämnade upplysningarna draga den slutsatsen, att de av interpellanten
@@ -3995,7 +3983,7 @@
         <note xml:id="i-Q5yDnP9zdTxdUDb3uZvwMm" type="speaker">
           Herr GUSTAFSSON i Borås (fp):
         </note>
-        <u xml:id="i-e3626a4c688a2afa-12" who="i-oWcw76s14AfREuSzMW7Ni" next="i-6G7odoL61rLa9odexKLgxv">
+        <u xml:id="i-e3626a4c688a2afa-12" who="i-oWcw76s14AfREuSzMW7Ni" next="i-e3626a4c688a2afa-13">
           <seg xml:id="i-97SuK9SJn6qnST77jHiH5P">
             Herr taltnan! Jag ber att enligt övlig sed få till statsrådet
             och chefen för justitiedepartementet uttala mitt tack för svaret
@@ -4045,8 +4033,6 @@
             skall ran förstå ordet liv, eller vad inkluderas i begreppet levande
             fött barn?
           </seg>
-        </u>
-        <u xml:id="i-6G7odoL61rLa9odexKLgxv" who="i-oWcw76s14AfREuSzMW7Ni" prev="i-e3626a4c688a2afa-12" next="i-e3626a4c688a2afa-13">
           <seg xml:id="i-QiCRSijxNx4mighHTDC3zP">
             Före den 22 maj 1959 gällde följande definition på levande fött
             barn: Nyfödd som andåats efter födelsen. Efter den 22 maj 1959
@@ -4066,7 +4052,7 @@
           Svar på interpellation ang. vissa vetenskapliga undersökningar
           i samband med abortoperationer
         </note>
-        <u xml:id="i-e3626a4c688a2afa-13" who="i-oWcw76s14AfREuSzMW7Ni" prev="i-6G7odoL61rLa9odexKLgxv" next="i-GrYFUeWwXY8B5VAFvGT1cH">
+        <u xml:id="i-e3626a4c688a2afa-13" who="i-oWcw76s14AfREuSzMW7Ni" prev="i-e3626a4c688a2afa-12" next="i-e3626a4c688a2afa-15">
           <seg xml:id="i-LRyhFacv94G7hWvWPsyxA9">
             barn. Medicinalstyrelsen har tolkat förordningen så, att »nyfödda
             skola anmälas som barn och klassificeras som levande födda, om
@@ -4100,14 +4086,10 @@
             om liv med alla möjligheter till ett alltfort stegrat och kvalificerat
             liv i den rätta miljön, d. v. s. moderlivet.
           </seg>
-        </u>
-        <u xml:id="i-GrYFUeWwXY8B5VAFvGT1cH" who="i-oWcw76s14AfREuSzMW7Ni" prev="i-e3626a4c688a2afa-13" next="i-e3626a4c688a2afa-14">
           <seg xml:id="i-HcjZQVBCEXC7gfkALsZQtM">
             Företer då foster, som framtagits genom abort, några av de fenomen
             som anges i 8 16 av folkbokföringsförord-
           </seg>
-        </u>
-        <u xml:id="i-e3626a4c688a2afa-14" who="i-oWcw76s14AfREuSzMW7Ni" prev="i-GrYFUeWwXY8B5VAFvGT1cH" next="i-e3626a4c688a2afa-15">
           <seg xml:id="i-S4iRjZZHHpExC6PTdvCpUc">
             ningen och som förpliktigar till anmälan, då abort verkställts
             i närheten av tjugonde havandeskapsveckan eller de närmaste veckorna
@@ -4158,7 +4140,7 @@
           Svar på interpellation ang. vissa vetenskapliga undersökningar
           i samband med abortoperationer
         </note>
-        <u xml:id="i-e3626a4c688a2afa-15" who="i-oWcw76s14AfREuSzMW7Ni" prev="i-e3626a4c688a2afa-14" next="i-e3626a4c688a2afa-16">
+        <u xml:id="i-e3626a4c688a2afa-15" who="i-oWcw76s14AfREuSzMW7Ni" prev="i-e3626a4c688a2afa-13" next="i-e3626a4c688a2afa-16">
           <seg xml:id="i-EkwftunFHLwqGrdBbKoo14">
             vidrigt för dem, som skola utföra det etiskt alltid motbjudande
             ingreppet.»
@@ -4249,7 +4231,7 @@
         <note xml:id="i-7yg9VAv2eDNUZXUvNyGU3d">
           Svar på interpellation ang. åtgärder på det trafikpolitiska området
         </note>
-        <u xml:id="i-e3626a4c688a2afa-16" who="i-oWcw76s14AfREuSzMW7Ni" prev="i-e3626a4c688a2afa-15" next="i-GJLkzpCfkVKwHuU8ck4gzb">
+        <u xml:id="i-e3626a4c688a2afa-16" who="i-oWcw76s14AfREuSzMW7Ni" prev="i-e3626a4c688a2afa-15">
           <seg xml:id="i-YDyP6NmxuRhdLwnjvguB6p">
             men som för lekmannen tränger in i bilden är: Har kvinnan vid
             en abortoperation nhågot att säga till om hur skall förfaras med
@@ -4276,8 +4258,6 @@
             Med detta, herr talman, har jag anfört vad jag har att säga i
             denna allvarliga fråga.
           </seg>
-        </u>
-        <u xml:id="i-GJLkzpCfkVKwHuU8ck4gzb" who="i-oWcw76s14AfREuSzMW7Ni" prev="i-e3626a4c688a2afa-16">
           <seg xml:id="i-M2h84Bm2wrkrH74Npp5Lj8">
             Med detta anförande, under vilket herr talmannen återtagit förhandlingarnas
             ledning, vär överläggningen slutad.
@@ -4331,14 +4311,12 @@
           6. organisationsspörsmål, som berör träfikväsendet i dess helhet
           eller visså delar därav.
         </note>
-        <u xml:id="i-e3626a4c688a2afa-20" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-e3626a4c688a2afa-17" next="i-C1tWwX632zKoi3NwShc7zZ">
+        <u xml:id="i-e3626a4c688a2afa-20" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-e3626a4c688a2afa-17" next="i-e3626a4c688a2afa-22">
           <seg xml:id="i-T9aaofEZtSS7PaGndYUMVR">
             Huvudriktpunkten för utredhingens arbete är att åstadkomma en
             samhällsekonomiskt riktig transportförsörjning. Konkurrensproblemen
             på transportmärkhaden träder därvid i förgrunden.
           </seg>
-        </u>
-        <u xml:id="i-C1tWwX632zKoi3NwShc7zZ" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-e3626a4c688a2afa-20" next="i-e3626a4c688a2afa-21">
           <seg xml:id="i-6yBjDUtCNuw9Fj6QpiruFg">
             Bland speciella frågor, som hänskjutits till trafikutredningens
             prövning, kan jag nämna förbättring av samfärdselförbindelserna
@@ -4350,8 +4328,6 @@
             för personbefordran (Rskr. 1957:220) och militär nedsättningsbiljetts
             giltighet på stateris järnvägar (Rskr. 1959:131).
           </seg>
-        </u>
-        <u xml:id="i-e3626a4c688a2afa-21" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-C1tWwX632zKoi3NwShc7zZ" next="i-e3626a4c688a2afa-22">
           <seg xml:id="i-EPNsppTQry4UNTnudSgQW3">
             Såsom interpellanten själv framhållit är direktiven för utredningen
             synnerligen omfattande och innefattar en mängd större och mindre
@@ -4371,7 +4347,7 @@
         <note xml:id="i-9BCnoxFhaU8MFxFKDibyXW">
           Svar på interpellation ang. åtgärder på det trafikpolitiska området
         </note>
-        <u xml:id="i-e3626a4c688a2afa-22" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-e3626a4c688a2afa-21" next="i-MGBircXXM8FaJSC7RNdJij">
+        <u xml:id="i-e3626a4c688a2afa-22" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-e3626a4c688a2afa-20">
           <seg xml:id="i-XgkFBdxT8tkvXPVSkKhv35">
             gor har det emellertid ansetts nödvändigt hänskjuta alltsammans
             till trafikutredningen. Man kan säga, att få utredningar tillsatta
@@ -4386,8 +4362,6 @@
             genomförandet av specialundersökningar av olika slag, som utredningen
             funnit erforderliga.
           </seg>
-        </u>
-        <u xml:id="i-MGBircXXM8FaJSC7RNdJij" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-e3626a4c688a2afa-22" next="i-e3626a4c688a2afa-23">
           <seg xml:id="i-UpkfXcfdKE59yotp5uGyyH">
             Herr Lothigius har i sin interpellation bl. a. pekat på att de
             konventionella transportmedlen ofta på landsbygden drives med
@@ -4408,8 +4382,6 @@
             anledning av nedläggningar m. m. Slutligen avgav trafikutredningen
             i februari detta år ett be-
           </seg>
-        </u>
-        <u xml:id="i-e3626a4c688a2afa-23" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-MGBircXXM8FaJSC7RNdJij">
           <seg xml:id="i-LZsQGA2yeAmbdpRbXoh17J">
             tänkande, vari utredningen redovisade detaljerade undersökningar
             om busstrafikens driftekonomiska förhållanden och framlade vissa
@@ -4550,7 +4522,7 @@
         <note xml:id="i-MpXmLu2fq4ramRhpQdCXs3">
           Svar på interpellation ang. åtgärder på det trafikpolitiska området
         </note>
-        <u xml:id="i-f1e66bf180f0b000-2" who="i-CkprnrTz3hpNREdKrcoiAi" prev="i-f1e66bf180f0b000-1" next="i-YNfqYY5zPt8AxTmwKUmrm5">
+        <u xml:id="i-f1e66bf180f0b000-2" who="i-CkprnrTz3hpNREdKrcoiAi" prev="i-f1e66bf180f0b000-1" next="i-f1e66bf180f0b000-4">
           <seg xml:id="i-K3R31qq7fFAUf9ekmgpKXL">
             som man skyfflar kol i en gammal ångare, där nya kol ständigt
             kommer in men ångaren inte får avleverera sin last, förrän kolen
@@ -4581,8 +4553,6 @@
             1960 hunnit bli färdig med. Men det är väl knappast någon snabbutredning,
             när man i fyra år arbetat med dessa frågor.
           </seg>
-        </u>
-        <u xml:id="i-YNfqYY5zPt8AxTmwKUmrm5" who="i-CkprnrTz3hpNREdKrcoiAi" prev="i-f1e66bf180f0b000-2" next="i-f1e66bf180f0b000-3">
           <seg xml:id="i-YQN6QHDWN6oBTRVfscpyQj">
             År 1957 begärdes på nytt att frågan om den yrkesmässiga beställningstrafiken
             skulle utbrytas för särbehandling. såsom utskottet sade, och att
@@ -4590,8 +4560,6 @@
             att frågan om registreringsavgifternas inverkan Åå bilskatten
             skulle bli föremål för en undersökning.
           </seg>
-        </u>
-        <u xml:id="i-f1e66bf180f0b000-3" who="i-CkprnrTz3hpNREdKrcoiAi" prev="i-YNfqYY5zPt8AxTmwKUmrm5" next="i-f1e66bf180f0b000-4">
           <seg xml:id="i-9EHBWPJBWgTHFXGvv85Wq9">
             I hur många år har vi inte väntat besked på frågan om beskattningen
             av den tunga trafiken, som ur näringspolitiska synpunkter är så
@@ -4645,7 +4613,7 @@
         <note xml:id="i-Qka1yp4JiNxE5WJ1MwWVaz">
           Svar på interpellation ang. åtgärder på det trafikpolitiska området
         </note>
-        <u xml:id="i-f1e66bf180f0b000-4" who="i-CkprnrTz3hpNREdKrcoiAi" prev="i-f1e66bf180f0b000-3">
+        <u xml:id="i-f1e66bf180f0b000-4" who="i-CkprnrTz3hpNREdKrcoiAi" prev="i-f1e66bf180f0b000-2">
           <seg xml:id="i-VgR7ocAKAwwaxro9rhGXqj">
             under loppet av ett årtionde inte skall kunna komma till rätta
             med en så enkel fråga som att en bonde skall ha lov att på vettiga
@@ -4952,21 +4920,17 @@
         <note xml:id="i-T3D1CEzTVd52wVVpXkWP8E" type="speaker">
           Chefen för kommunikationsdepartementet, herr statsrådet SKOGLUND:
         </note>
-        <u xml:id="i-f1e66bf180f0b000-10" who="i-hZRRc3xfX1LHebPrPsSqz" next="i-SSRNbPueDLkCYhbrgsn8JZ">
+        <u xml:id="i-f1e66bf180f0b000-10" who="i-hZRRc3xfX1LHebPrPsSqz">
           <seg xml:id="i-XyrgiNvHjj58Yc6a19EcpY">
             Herr talman! Jag vill bara göra den lilla kommentaren till vad
             herr Lothi-
           </seg>
-        </u>
-        <u xml:id="i-SSRNbPueDLkCYhbrgsn8JZ" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-f1e66bf180f0b000-10" next="i-f1e66bf180f0b000-11">
           <seg xml:id="i-WB3NPKveFJWJp7rSzxKGfT">
             gius sist hade att säga, att de åtgärder, som skulle ske i samband
             med nedläggningen av de trafiksvaga järnvägarna, publicerades
             i statsverkspropositionen, vilken. avlämnades i början av januari
             månad i år, och bussbetänkandet kom i februari månad detta år.
           </seg>
-        </u>
-        <u xml:id="i-f1e66bf180f0b000-11" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-SSRNbPueDLkCYhbrgsn8JZ">
           <seg xml:id="i-DBjuzDfajk6ZB7Gi7QtRVn">
             Vidare skulle jag vilja säga, att herr Lothigius säkerligen skulle
             ha kunnat få veta en hel del om detta av mig, om han hade gjort
@@ -4982,7 +4946,7 @@
         <note xml:id="i-7XqJVUSFxnsfYmCofvMXCL" type="speaker">
           Herr LOTHIGIUS (h):
         </note>
-        <u xml:id="i-f1e66bf180f0b000-12" who="i-CkprnrTz3hpNREdKrcoiAi">
+        <u xml:id="i-f1e66bf180f0b000-12" who="i-CkprnrTz3hpNREdKrcoiAi" next="i-8r8duB95z4jxS6jzbq4S77">
           <seg xml:id="i-EbGSVvLGSprQpecuSEcrVh">
             Herr talman! Det är inte för min egen skull som jag har framställt
             denna interpellation. Jag sade redan från början, att det var
@@ -5016,14 +4980,12 @@
         <note xml:id="i-7Msmc4Qh2FHAwcHC7EPE4f">
           Svar på fråga ang. sovvagnstyp på järnvägssträckan Stockholm-—Narvik
         </note>
-        <u xml:id="i-8r8duB95z4jxS6jzbq4S77" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-f1e66bf180f0b000-13" next="i-f1e66bf180f0b000-14">
+        <u xml:id="i-8r8duB95z4jxS6jzbq4S77" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-f1e66bf180f0b000-12">
           <seg xml:id="i-SMKyK9MUTEkF7ahSPJkd9S">
             fattade beslutet om försämring fr. o. m. den 1 juli 1960 av gällande
             rabattförmåner för universitetsoch högskolestuderande vid resa
             med statens järnvägar. Som svar vill jag anföra följande.
           </seg>
-        </u>
-        <u xml:id="i-f1e66bf180f0b000-14" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-8r8duB95z4jxS6jzbq4S77" next="i-BLUPecJCrMAfQF1jVAkfdD">
           <seg xml:id="i-2Ck7k1fAtJkgcbYyFvHTSV">
             På grundval av ett betänkande från 1948 års järnvägstaxekommitté
             framlades i en proposition till 1958 års riksdag huvuddragen i
@@ -5034,8 +4996,6 @@
             att själv bestämma taxor och rabatter. Riksdagen uttalade ej någon
             erinran mot taxereformen.
           </seg>
-        </u>
-        <u xml:id="i-BLUPecJCrMAfQF1jVAkfdD" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-f1e66bf180f0b000-14" next="i-f1e66bf180f0b000-15">
           <seg xml:id="i-T2mmKd2yRd2m2fuvCca7qp">
             I enlighet härmed har Kungl. Maj:t, med verkan från och med juli
             1960, upphävt en mängd tidigare utfärdade bestämmelser om olika
@@ -5043,8 +5003,6 @@
             beslut var också ett, som reglerade nedsättningsförmånerna för
             universitetsoch högskolestudenter.
           </seg>
-        </u>
-        <u xml:id="i-f1e66bf180f0b000-15" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-BLUPecJCrMAfQF1jVAkfdD">
           <seg xml:id="i-GTzwE6di8BzsCfDCR3nFEQ">
             Det är alltså jänvägsstyrelsen, som har att utifrån kommersiella
             överväganden fastställa rabattförmåner för ifrågavarande resor
@@ -5153,7 +5111,7 @@
         <note xml:id="i-UEA6xHnmWfia5Q8b8iYaBm" type="speaker">
           Fru JÄDERBERG (s):
         </note>
-        <u xml:id="i-2a7a37d4d8e2e3b5-0" who="i-KTfbcBQy9aF7Tt7TXaUH3v">
+        <u xml:id="i-2a7a37d4d8e2e3b5-0" who="i-KTfbcBQy9aF7Tt7TXaUH3v" next="i-2M1cq9Gdt4MquieKKoZGCM">
           <seg xml:id="i-JKNzkbs8phRojZBoKucZUT">
             Herr talman! Jag ber att få tacka kommunikationsministern för
             svaret på min enkla fråga.
@@ -5223,7 +5181,7 @@
         <note xml:id="i-8xSVS4kU9ZqvnEMMFdurba">
           Det allmänna vägoch gatunätet tor-
         </note>
-        <u xml:id="i-2M1cq9Gdt4MquieKKoZGCM" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-2a7a37d4d8e2e3b5-1">
+        <u xml:id="i-2M1cq9Gdt4MquieKKoZGCM" who="i-hZRRc3xfX1LHebPrPsSqz" prev="i-2a7a37d4d8e2e3b5-0">
           <seg xml:id="i-62ZQz8zBGx5XNo76D3YMkL">
             de inte vara något problem i detta sammanhang, eftersom vägförvaltningarna
             och stadsmyndigheterna i regel känner väl till, på vilka ställen
@@ -5288,19 +5246,15 @@
           av skogsmark från bondeskogsbruk utan avstående av motsvarande
           areal minskar bondeskogsbrukets möjligheter till erforderlig skogskomplettering?
         </note>
-        <u xml:id="i-8VeG58h1By2F55rXBnWDmh" who="i-NU6x9tMTEWYvgbt2N6RDK" prev="i-0de17d326827cbe6-15" next="i-7YBZfBZQEbauZQgzMYqhfM">
+        <u xml:id="i-8VeG58h1By2F55rXBnWDmh" who="i-NU6x9tMTEWYvgbt2N6RDK" prev="i-0de17d326827cbe6-15" next="i-0de17d326827cbe6-16">
           <seg xml:id="i-6A74FrrHEZ2oTcySTqBuVo">
             2) om jag i så fall har för avsikt att vidtaga åtgärder i syfte
             att förhindra att bondeskogsbruk på sätt som här nämnts överföres
             i bolags ägo?
           </seg>
-        </u>
-        <u xml:id="i-7YBZfBZQEbauZQgzMYqhfM" who="i-NU6x9tMTEWYvgbt2N6RDK" prev="i-8VeG58h1By2F55rXBnWDmh" next="i-14fuMFwekX45Y94Z9LsfWD">
           <seg xml:id="i-TL7USSsndbswGQVK5RyBtA">
             Med anledning härav vill jag anföra följande.
           </seg>
-        </u>
-        <u xml:id="i-14fuMFwekX45Y94Z9LsfWD" who="i-NU6x9tMTEWYvgbt2N6RDK" prev="i-7YBZfBZQEbauZQgzMYqhfM" next="i-0de17d326827cbe6-16">
           <seg xml:id="i-Ubk5NojgMU7yE1CuwEL1R3">
             Interpellantens frågor avser tillämpningen av 1925 års bolagsförbudslag.
             Därvid gäller alltjämt principen att bolagsförvärv av skog ej
@@ -5334,7 +5288,7 @@
         <note xml:id="i-QXCWfPqfGqnF9erRftC9Sp">
           Svar på interpellation ang. bolagsförvärv av skogsmark från bondeskogsbruk
         </note>
-        <u xml:id="i-0de17d326827cbe6-16" who="i-NU6x9tMTEWYvgbt2N6RDK" prev="i-14fuMFwekX45Y94Z9LsfWD">
+        <u xml:id="i-0de17d326827cbe6-16" who="i-NU6x9tMTEWYvgbt2N6RDK" prev="i-8VeG58h1By2F55rXBnWDmh">
           <seg xml:id="i-BT5F1D7AtSWBkDvJ8t494Q">
             Vid närmare granskning av nämnda 4 800 hektar visar det sig,
             att 1500 hektar hänför sig till fastighetsförvärv som skett mellan
@@ -5493,7 +5447,7 @@
         <note xml:id="i-W7qDG4ZPcS51KZJzK2qVqB" type="speaker">
           Chefen för jordbruksdepartementet, herr statsrådet NETZÉN:
         </note>
-        <u xml:id="i-cd79935b296209f8-2" who="i-NU6x9tMTEWYvgbt2N6RDK" next="i-4gYKSQYzAP4UZ3DY7swRw4">
+        <u xml:id="i-cd79935b296209f8-2" who="i-NU6x9tMTEWYvgbt2N6RDK" next="i-cd79935b296209f8-3">
           <seg xml:id="i-A5RMGPLhsnnW2b9FA5upiZ">
             Herr talman! Till det som herr Fälldin här anfört vill jag bara
             säga, att det givetvis är herr Fälldins ensak om han anser mitt
@@ -5512,8 +5466,6 @@
             som skett mellan bolag. Herr Fälldin räknar där som om bondeskogsbruket
             därigenom skulle ha berövats en lika stor areal.
           </seg>
-        </u>
-        <u xml:id="i-4gYKSQYzAP4UZ3DY7swRw4" who="i-NU6x9tMTEWYvgbt2N6RDK" prev="i-cd79935b296209f8-2" next="i-cd79935b296209f8-3">
           <seg xml:id="i-SPqbwt4iZZt9frFgTJChFh">
             Vidare utgöres 1 600 hektar av sådana brukskomplex, som omvandlats
             i bolags-
@@ -5530,7 +5482,7 @@
           Svar på interpellation ang. försäljningen av kronan tillhöriga
           jordbruksfastigheter
         </note>
-        <u xml:id="i-cd79935b296209f8-3" who="i-NU6x9tMTEWYvgbt2N6RDK" prev="i-4gYKSQYzAP4UZ3DY7swRw4">
+        <u xml:id="i-cd79935b296209f8-3" who="i-NU6x9tMTEWYvgbt2N6RDK" prev="i-cd79935b296209f8-2">
           <seg xml:id="i-PNaJkWZZ6ZCng4jKB86sBb">
             form och som realiter inte heller har den innebörd herr Fälldin
             sökt göra gällande.
@@ -5585,7 +5537,7 @@
           Chefen för jordbruksdepartementet, herr statsrådet NETZÉN, som
           yttrade:
         </note>
-        <u xml:id="i-PoserDtzWX1uWW25A8sup9" who="i-NU6x9tMTEWYvgbt2N6RDK" next="i-VwxWhuXzmz7G3m2xcp1FR2">
+        <u xml:id="i-PoserDtzWX1uWW25A8sup9" who="i-NU6x9tMTEWYvgbt2N6RDK" next="i-cd79935b296209f8-6">
           <seg xml:id="i-6kVsLCvFrACKkpJkQt5xQ6">
             Herr talman! Med andra kammarens tillstånd har herr Jacobsson
             i Tobo frågat mig, dels om jag anser, att stadgandet i 5 8 förordningen
@@ -5594,8 +5546,6 @@
             inom jordbrukspolitiken, dels om jag i annat fall avser att i
             vederbörlig ordning framlägga förslag om ändring av stadgandet.
           </seg>
-        </u>
-        <u xml:id="i-VwxWhuXzmz7G3m2xcp1FR2" who="i-NU6x9tMTEWYvgbt2N6RDK" prev="i-PoserDtzWX1uWW25A8sup9" next="i-cd79935b296209f8-5">
           <seg xml:id="i-6mdpq6yjfnMy6McUhPFv5i">
             Den åsyftade förordningen avser kronan tillhörig fast egendom
             under domänstyrelsens förvaltning. Enligt 5 $ bör försäljning
@@ -5609,8 +5559,6 @@
             skall tillses, att fastigheten erhåller lämplig storlek och ägosammansättning
             samt bildar ett bärkraftigt jordbruk.
           </seg>
-        </u>
-        <u xml:id="i-cd79935b296209f8-5" who="i-NU6x9tMTEWYvgbt2N6RDK" prev="i-VwxWhuXzmz7G3m2xcp1FR2" next="i-cd79935b296209f8-6">
           <seg xml:id="i-C4jEgk2Nt38QLXpLrmbxWF">
             Det är givet att utformningen av dessa bestämmelser bär spår
             av den jordpolitiska målsättning, som rådde vid tiden för deras
@@ -5636,7 +5584,7 @@
           Svar på interpellation ang. försäljningen av kronan tillhöriga
           jordbruksfastigheter
         </note>
-        <u xml:id="i-cd79935b296209f8-6" who="i-NU6x9tMTEWYvgbt2N6RDK" prev="i-cd79935b296209f8-5">
+        <u xml:id="i-cd79935b296209f8-6" who="i-NU6x9tMTEWYvgbt2N6RDK" prev="i-PoserDtzWX1uWW25A8sup9">
           <seg xml:id="i-6UUV8mjKY9E3Qs2cV62h9p">
             bör dock enligt min mening övervägas i lämpligt sammanhang .
           </seg>
@@ -5651,7 +5599,7 @@
         <note xml:id="i-JPG92g62z2sw8kTPRVfdnP" type="speaker">
           Herr JACOBSSON i Tobo (fp):
         </note>
-        <u xml:id="i-XKPGsBJC3PzE7FEUxcNZ1T" who="i-NBpwJayKpXu4u1Uu87zKT1" next="i-cd79935b296209f8-7">
+        <u xml:id="i-XKPGsBJC3PzE7FEUxcNZ1T" who="i-NBpwJayKpXu4u1Uu87zKT1" next="i-cd79935b296209f8-8">
           <seg xml:id="i-BuikUMmDpiUmZSVvxauHFp">
             Herr talman! Jag ber att till herr statsrådet och chefen för
             jordbruksdepartementet få framföra mitt tack för svaret på min
@@ -5664,8 +5612,6 @@
             huruvida jordbruksministern då avsåge att i vederbörlig ordning
             framlägga förslag om ändring av stadgandet.
           </seg>
-        </u>
-        <u xml:id="i-cd79935b296209f8-7" who="i-NBpwJayKpXu4u1Uu87zKT1" prev="i-XKPGsBJC3PzE7FEUxcNZ1T" next="i-cd79935b296209f8-8">
           <seg xml:id="i-Af32SXFEdHYYgVoemND7g6">
             I anledning av den första frågan framhålles i interpellationssvaret,
             att utformningen av bestämmelserna i den åberopade kungl. förordningen
@@ -5731,7 +5677,7 @@
           Svar på interpellation ang. ombudsrättigheten beträffande förtidsvadhållning
           vid V5-spel
         </note>
-        <u xml:id="i-cd79935b296209f8-8" who="i-NBpwJayKpXu4u1Uu87zKT1" prev="i-cd79935b296209f8-7">
+        <u xml:id="i-cd79935b296209f8-8" who="i-NBpwJayKpXu4u1Uu87zKT1" prev="i-XKPGsBJC3PzE7FEUxcNZ1T">
           <seg xml:id="i-HwmbKzFfXxNgRM5JCF2qNX">
             delas har lantbruksnämnden i Uppsala län avstyrkt framställningen
             om skogsplantering på den övriga åkerarealen. Enligt allmän uppfattning
@@ -5958,14 +5904,12 @@
         <note xml:id="i-5tgoEbHQEt87K1R6Axc7Js">
           Nr 21 59
         </note>
-        <u xml:id="i-BDPyWnP3qxZW6nvPyjQJ11" who="unknown" prev="i-0de17d326827cbe6-17" next="i-0de17d326827cbe6-18">
+        <u xml:id="i-BDPyWnP3qxZW6nvPyjQJ11" who="unknown" prev="i-0de17d326827cbe6-17">
           <seg xml:id="i-JmtFdwRNoDvqMunqT6hk2x">
             höstsession kommer att taga sin början måndagen den 17 oktober,
             då kammaren sammanträder klockan 14.00. Kallelse kommer på sedvanligt
             sätt att ske genom annonsering och tillkännagivande i radio.
           </seg>
-        </u>
-        <u xml:id="i-0de17d326827cbe6-18" who="unknown" prev="i-BDPyWnP3qxZW6nvPyjQJ11">
           <seg xml:id="i-PNbKDKAovvL2DacPfDnRg3">
             Vårsessionens arbete skulle härmed vara slutfört. Jag tillönskar
             kammarens ledamöter och dess tjänstemän en angenäm och vilsam

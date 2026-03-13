@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-dYgZR5voxB2keaffS42uX" type="speech">
             <linkGrp type="u">
               <ptr target="#i-PbdZCzLR1yueF8GF7wovzL"/>
@@ -496,7 +496,13 @@
               <ptr target="#i-KoeimonAiTt4cf4uKNLzw6"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -671,7 +677,7 @@
         <note xml:id="i-2PR2JvdBoC8fHvynRp1syB" type="speaker">
           Herr Beckman:
         </note>
-        <u xml:id="i-NB8MXY9eM9pagAeUBj5fzc" who="i-SmANBDpEMp49AgxGMgLJX" next="i-YYXB4xeoV5thFSyZMnMNBv">
+        <u xml:id="i-NB8MXY9eM9pagAeUBj5fzc" who="i-SmANBDpEMp49AgxGMgLJX">
           <seg xml:id="i-F6qgF9dS7ks2tffM3BPi97">
             Herr talman! Jag har låtit anteckna mig såsom reservant i denna
             punkt, och med mig hafva instämt fyra af utskottets ledamöter.
@@ -700,8 +706,6 @@
             personliga arbetskraften skall beskattas lindrigare i förhållande
             till det rörliga kapitalet.
           </seg>
-        </u>
-        <u xml:id="i-YYXB4xeoV5thFSyZMnMNBv" who="i-SmANBDpEMp49AgxGMgLJX" prev="i-NB8MXY9eM9pagAeUBj5fzc">
           <seg xml:id="i-5XPHGNeF1rNioziPtDGL7U">
             Jag skall icke vidare upptaga kammarens tid, utan blott yrka
             bifall till min reservation.
@@ -741,12 +745,10 @@
         <note xml:id="i-3a74tb9fHvfTyCgqGgULzg" type="date">
           4 Lördagen den 22 April, e. m.
         </note>
-        <u xml:id="i-TGq2ZTwhD2ahhypjez7pJC" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-9TG8FnhEvGBwhDzxe1nq7s" next="i-KLABJkVs5Fkj7jCBhaCkrk">
+        <u xml:id="i-TGq2ZTwhD2ahhypjez7pJC" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-9TG8FnhEvGBwhDzxe1nq7s" next="i-XKwimvMjWHyPCFHN93FWBF">
           <seg xml:id="i-RuXJY6J5wraLjZxgCvisdc">
             Dessutom kan jag vid detta tillfälle, då jag sannolikt icke kommer
           </seg>
-        </u>
-        <u xml:id="i-KLABJkVs5Fkj7jCBhaCkrk" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-TGq2ZTwhD2ahhypjez7pJC" next="i-XKwimvMjWHyPCFHN93FWBF">
           <seg xml:id="i-2mifdG3TpbmBcftc6HDUfK">
             af bevillnings-att vidare begära ordet i denna fråga, icke underlåta
             att för min del
@@ -755,7 +757,7 @@
         <note xml:id="i-D2tXMDwVKJEbvxgBLSto2s">
           förordningen. (Forts.)
         </note>
-        <u xml:id="i-XKwimvMjWHyPCFHN93FWBF" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-KLABJkVs5Fkj7jCBhaCkrk" next="i-Hp4XM5ERbpjMa8UcSXsfi">
+        <u xml:id="i-XKwimvMjWHyPCFHN93FWBF" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-TGq2ZTwhD2ahhypjez7pJC">
           <seg xml:id="i-WHhj24X43KQz123so16Wen">
             framhålla, att det synes mig att bevillningsutskottet vid behandlingen
             af en sådan fråga som denna äfven bort taga hänsyn till beskattningsorten
@@ -777,8 +779,6 @@
             nära nog intet blir qvar till kommunen af den inkomst, som dock
             obestridligen uppstår af rörelsen.
           </seg>
-        </u>
-        <u xml:id="i-Hp4XM5ERbpjMa8UcSXsfi" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-XKwimvMjWHyPCFHN93FWBF">
           <seg xml:id="i-t5LiEjbMLQ3qjbxbwSJQB">
             Jag har velat anmärka dessa förhållanden nu, emedan jag tror,
             att denna angelägenhet är lika mycket värd att beaktas vid en
@@ -792,7 +792,7 @@
         <note xml:id="i-36Gca9FEXJ6cFv7SsxJoHx" type="speaker">
           Herr Ola Bosson Olsson:
         </note>
-        <u xml:id="i-2Rjian7qQEzZvRQW89MhLw" who="i-Q9NZspFD2eAfFJcRFPWqM" next="i-VxZw3fLSEaTSxCWh6FE5rF">
+        <u xml:id="i-2Rjian7qQEzZvRQW89MhLw" who="i-Q9NZspFD2eAfFJcRFPWqM" next="i-K6bY8AMGgLvhm68QrjB2vn">
           <seg xml:id="i-Sat7JsHojoUj33ovrJrxuB">
             Då jag varit en af reservanterna i denna punkt, har det skett
             på den grund, som redan nämnts, och hvilken enligt min tanke har
@@ -800,8 +800,6 @@
             i tillfälle att bära en proportionsvis mycket högre skatt än det
             arbete, som ålägges bevillning.
           </seg>
-        </u>
-        <u xml:id="i-VxZw3fLSEaTSxCWh6FE5rF" who="i-Q9NZspFD2eAfFJcRFPWqM" prev="i-2Rjian7qQEzZvRQW89MhLw" next="i-5nhs21HxJEgGn8Hzt3x5wE">
           <seg xml:id="i-SzwH87sDcZJPp18niEPBBD">
             Det kan ju icke bestridas, att en arbetare kan vid ett tillfälle
             hafva arbetsförtjenst, men vid ett annat sakna sådan. Deremot
@@ -809,8 +807,6 @@
             icke någon väsentlig skilnad i inkomsterna, utan dessa kunna alltid
             temligen säkert beräknas.
           </seg>
-        </u>
-        <u xml:id="i-5nhs21HxJEgGn8Hzt3x5wE" who="i-Q9NZspFD2eAfFJcRFPWqM" prev="i-VxZw3fLSEaTSxCWh6FE5rF" next="i-7naZ6RS3WorFZGA6sj7bij">
           <seg xml:id="i-4Av3xZNxQSgd7hmeGGpY6V">
             Den siste talaren uttalade den önskan, att bevillningsutskottet
             skulle göra en skilnad mellan personer, som arbeta några få timmar,
@@ -819,8 +815,6 @@
             med ett dylikt förslag, enär, äfven om ett sådant stadgande infördes
             i bevillningsförordningen, det ändock icke vore realiserbart.
           </seg>
-        </u>
-        <u xml:id="i-7naZ6RS3WorFZGA6sj7bij" who="i-Q9NZspFD2eAfFJcRFPWqM" prev="i-5nhs21HxJEgGn8Hzt3x5wE" next="i-K6bY8AMGgLvhm68QrjB2vn">
           <seg xml:id="i-9AHMF9ib7wqJy1aNZYDKYG">
             Det sista yttrande, samme talare hade, afsåg den motion, han
             väckte förlidet år, och hvilken enligt mitt förmenande hade stora
@@ -835,7 +829,7 @@
         <note xml:id="i-GYBsesSHRB6xFAimK5akBT" type="date">
           Lördagen den 22 April, e. m. 5 N:o 35.
         </note>
-        <u xml:id="i-K6bY8AMGgLvhm68QrjB2vn" who="i-Q9NZspFD2eAfFJcRFPWqM" prev="i-7naZ6RS3WorFZGA6sj7bij" next="i-8ioxrwHvivDiRuZNstnYDr">
+        <u xml:id="i-K6bY8AMGgLvhm68QrjB2vn" who="i-Q9NZspFD2eAfFJcRFPWqM" prev="i-2Rjian7qQEzZvRQW89MhLw">
           <seg xml:id="i-Kt6VVaasMHbWaYsvoCVxNe">
             laget, och äfven om detta icke gör till fyllest, så är det ändock
             en för- Ang. revision bättring i de förhållanden, som den siste
@@ -847,8 +841,6 @@
             kommunen icke hafva, i afseende på kommunala utgifter, något bidrag
             af detta, hvilket det rättvisligen bör hafva.
           </seg>
-        </u>
-        <u xml:id="i-8ioxrwHvivDiRuZNstnYDr" who="i-Q9NZspFD2eAfFJcRFPWqM" prev="i-K6bY8AMGgLvhm68QrjB2vn">
           <seg xml:id="i-94b5iSMmQKqUkdgkT5okVX">
             Jag skall be att få yrka bifall till reservanternas förslag i
             denna punkt.
@@ -857,7 +849,7 @@
         <note xml:id="i-Mn9x2jGWjHaMtnPMk7faZv" type="speaker">
           Herr Bokström:
         </note>
-        <u xml:id="i-VpXmAqTWeMyfaeuvJxSUCC" who="i-8g3J5JC2XCnPcVSbLrtfED" next="i-MAVpvSkwbAxnyxEG38nRKj">
+        <u xml:id="i-VpXmAqTWeMyfaeuvJxSUCC" who="i-8g3J5JC2XCnPcVSbLrtfED">
           <seg xml:id="i-3WGDkiZfFeBFc5E4kVQQmZ">
             Jag skall anhålla att få fästa kammarens uppmärksamhet derpå,
             att utskottet har i princip erkänt rigtigheten af olika beskattning
@@ -872,8 +864,6 @@
             återstående delen af svenska folket, som har att utgöra sin bevillning
             efter årlig upptaxering af nettoinkomstens verkliga belopp.
           </seg>
-        </u>
-        <u xml:id="i-MAVpvSkwbAxnyxEG38nRKj" who="i-8g3J5JC2XCnPcVSbLrtfED" prev="i-VpXmAqTWeMyfaeuvJxSUCC">
           <seg xml:id="i-DPr7Mm5FqXmUHsaYg5PRmd">
             Jag yrkar bifall till utskottets förslag.
           </seg>
@@ -947,15 +937,13 @@
         <note xml:id="i-7cwt6XmNBGdajd52vrjXJN" type="speaker">
           Herr vice talmannen Danielson:
         </note>
-        <u xml:id="i-Y6HGEFaacUF2nVJqbcwJMh" who="i-XEaguj6e5odu6YoYQ7mu5L" next="i-D9SgtNESP5hnYHWQU1NCRf">
+        <u xml:id="i-Y6HGEFaacUF2nVJqbcwJMh" who="i-XEaguj6e5odu6YoYQ7mu5L">
           <seg xml:id="i-SSTj1uK8iUmDDH7dNp6KvS">
             Herr talman, mine herrar! Med anledning af det beslut, som kammaren
             fattat under litt. a) i punkten 1:0), hemställer jag, att den
             föredragna ingressen måtte undergå den nödiga förändring, som
             af detta beslut blifver en följd.
           </seg>
-        </u>
-        <u xml:id="i-D9SgtNESP5hnYHWQU1NCRf" who="i-XEaguj6e5odu6YoYQ7mu5L" prev="i-Y6HGEFaacUF2nVJqbcwJMh" next="i-MvWidqfQebyo6FeAdGzanz">
           <seg xml:id="i-U8jSiy8kjeHpZpUmFcdh2J">
             Jag föreslår derför, att kammaren måtte besluta, att nu ifrågavarande
             ingress erhåller följande lydelse: »att Riksdagen måtte besluta
@@ -963,8 +951,6 @@
             »med uttalande af de åsigter, utskottet här ofvan i de delar,
             skrifvelsen afser, gjort gällande» måtte utgå.
           </seg>
-        </u>
-        <u xml:id="i-MvWidqfQebyo6FeAdGzanz" who="i-XEaguj6e5odu6YoYQ7mu5L" prev="i-D9SgtNESP5hnYHWQU1NCRf">
           <seg xml:id="i-T7VxuSDeiS2bQWkP9vPMr4">
             Jag anhåller hos herr talmannen om proposition på denna förändring
             af ingressen.
@@ -1017,7 +1003,7 @@
         <note xml:id="i-VcbQ5hGePQvido3q8HTQyK" type="speaker">
           Herr Jönsson i Gammalstorp:
         </note>
-        <u xml:id="i-GfY4XewKtN8qaNYUqjSUFm" who="i-EpGkoMNMbkRJY15jN8HtRn" next="i-XLr5tCfD9Y1tKSfqM7De3W">
+        <u xml:id="i-GfY4XewKtN8qaNYUqjSUFm" who="i-EpGkoMNMbkRJY15jN8HtRn" next="i-94U852f9McnPVkxkZG4ejB">
           <seg xml:id="i-F8xznnhYwfPsDA2DzYEATz">
             Den framställning, jag i min motion gjort, utgör enligt mitt
             förmenande ett af de mest rättvisa och billiga anspråk, som under
@@ -1037,8 +1023,6 @@
             års Riksdags bevillningsutskott anförde för afslag å den motion,
             jag då väckte i samma syfte. Utskottet säger:
           </seg>
-        </u>
-        <u xml:id="i-XLr5tCfD9Y1tKSfqM7De3W" who="i-EpGkoMNMbkRJY15jN8HtRn" prev="i-GfY4XewKtN8qaNYUqjSUFm" next="i-K9BxzDuuyimfDMdoo2ZGvV">
           <seg xml:id="i-Ca3dEz3bhmmy7NcEwSMUou">
             »Vid 1891 års riksdag väcktes, likaledes af herr Jönsson, förslag
             i syfte att husbyggnader, i värde understigande 500 kronor, skulle
@@ -1054,13 +1038,9 @@
             att berörda motion icke måtte till någon Riksdagens åtgärd föranleda,
             hvilken hemställan äfven blef af båda kamrarne bifallen.»&gt;
           </seg>
-        </u>
-        <u xml:id="i-K9BxzDuuyimfDMdoo2ZGvV" who="i-EpGkoMNMbkRJY15jN8HtRn" prev="i-XLr5tCfD9Y1tKSfqM7De3W" next="i-CAuqt4Fdnm5g52d3rYdLpP">
           <seg xml:id="i-AqByP9b6NaCSeHeADG2B11">
             Och derefter säger utskottet vidare:
           </seg>
-        </u>
-        <u xml:id="i-CAuqt4Fdnm5g52d3rYdLpP" who="i-EpGkoMNMbkRJY15jN8HtRn" prev="i-K9BxzDuuyimfDMdoo2ZGvV" next="i-BG2hGojaPBch7Z4g7cGW9w">
           <seg xml:id="i-AD6DsWb8VxQcCi7PR7u9gD">
             »De skäl, som sålunda anförts mot afslag å berörda vid 1891 års
             riksdag väckta motion, synas utskottet ega giltighet jemväl å
@@ -1069,8 +1049,6 @@
             från bevillning eller med afseende å dessa medgifva bevillningsfritt
             afdrag, hvadan utskottet hemställer,» etc.
           </seg>
-        </u>
-        <u xml:id="i-BG2hGojaPBch7Z4g7cGW9w" who="i-EpGkoMNMbkRJY15jN8HtRn" prev="i-CAuqt4Fdnm5g52d3rYdLpP" next="i-94U852f9McnPVkxkZG4ejB">
           <seg xml:id="i-7VaDnTwyYcDHMP6862jEFV">
             Jag vill då först erinra om, att min motion vid 1891 års riksdag
             afsåg att från bevillning befria alla husbyggnader, hvilkas värde
@@ -1089,7 +1067,7 @@
         <note xml:id="i-WaWDsXvfsfwhwyv2p9zFW7">
           i vissa fall från bevillning för annan
         </note>
-        <u xml:id="i-94U852f9McnPVkxkZG4ejB" who="i-EpGkoMNMbkRJY15jN8HtRn" prev="i-BG2hGojaPBch7Z4g7cGW9w" next="i-E489oVe4SJozTXEkeQJK25">
+        <u xml:id="i-94U852f9McnPVkxkZG4ejB" who="i-EpGkoMNMbkRJY15jN8HtRn" prev="i-GfY4XewKtN8qaNYUqjSUFm" next="i-E489oVe4SJozTXEkeQJK25">
           <seg xml:id="i-G742VB7XwdqaFskwzAae8A">
             mindre husbyggnad, äfven han blifvit fri från erläggande af bevillning
             för denna husbyggnad. Min motion vid denna riksdag deremot afser
@@ -1164,7 +1142,7 @@
         <note xml:id="i-3zCYZf9vMHvX7XX3ifPbnB" type="date">
           Lördagen den 22 April, e. m. 9 N:o 35.
         </note>
-        <u xml:id="i-avWDUdSfKMvRJ5nk24Pyy" who="i-DPSKdaCf6QjiTxUvV2sFQN" prev="i-QkVc6cJyWwv7445XAkFqDi" next="i-2ncRjCCXCoGqtBNbWpLWtj">
+        <u xml:id="i-avWDUdSfKMvRJ5nk24Pyy" who="i-DPSKdaCf6QjiTxUvV2sFQN" prev="i-QkVc6cJyWwv7445XAkFqDi">
           <seg xml:id="i-WSHVvVx1nNr3CJ1yqBPwGw">
             vara synnerligen önskvärdt att bereda en skattelindring. Men
             vi få4ng. befrielse väl taga konseqvenserna af våra egna beslut.
@@ -1180,8 +1158,6 @@
             icke komma i fråga, att kammaren skall afvika från sin så nyligen
             fastslagna princip.
           </seg>
-        </u>
-        <u xml:id="i-2ncRjCCXCoGqtBNbWpLWtj" who="i-DPSKdaCf6QjiTxUvV2sFQN" prev="i-avWDUdSfKMvRJ5nk24Pyy">
           <seg xml:id="i-ExxnAHk49mMdyJWAugayLZ">
             Jag ber att få yrka bifall till utskottets hemställan.
           </seg>
@@ -1189,7 +1165,7 @@
         <note xml:id="i-Fq9WjGWFnQAHYfyCKGLF8V" type="speaker">
           Herr Forsell:
         </note>
-        <u xml:id="i-SezeshC2HFKdEXnRhfbBQ5" who="i-E8TiwWqfaYd3F9AxYvGujx" next="i-W4gpvT6ubYTdixXaStnQvQ">
+        <u xml:id="i-SezeshC2HFKdEXnRhfbBQ5" who="i-E8TiwWqfaYd3F9AxYvGujx">
           <seg xml:id="i-LDuR7q4Nh7yWt8726q5gY5">
             Jag kan icke neka till, att jag i denna fråga har motsatt åsigt
             mot grefve Hamilton. Jag häller med motionären deri, att det finnes
@@ -1223,8 +1199,6 @@
             koja ser ut, som är värd 100 kronor! Icke bör man taga skatt af
             den stackare, som sitter der inne.
           </seg>
-        </u>
-        <u xml:id="i-W4gpvT6ubYTdixXaStnQvQ" who="i-E8TiwWqfaYd3F9AxYvGujx" prev="i-SezeshC2HFKdEXnRhfbBQ5">
           <seg xml:id="i-Ybh87UVGbRhmPAiSwMtpSr">
             Jag ber att få instämma med motionären och yrka bifall till hans
             motion och afslag på utskottets hemställan.
@@ -1250,7 +1224,7 @@
           af kammarens ledai.vissa fall möter från landsbygden icke torde
           vara obekant, nemligen att det
         </note>
-        <u xml:id="i-MCzscLeihXnirhaRvJyrkS" who="i-Q9NZspFD2eAfFJcRFPWqM" prev="i-VGBRWSdr32MSw79JvQKWdL" next="i-5tbMSuTrVRVTUwkTpi8cSY">
+        <u xml:id="i-MCzscLeihXnirhaRvJyrkS" who="i-Q9NZspFD2eAfFJcRFPWqM" prev="i-VGBRWSdr32MSw79JvQKWdL">
           <seg xml:id="i-W7jSq6TRifQLyTKM8Kmgzu">
             från bevillningkan finnas en massa egare af små jordbruksfastighet
             k för annan 5 en massa egare a Jjordbruksfastigheter, som kunna
@@ -1266,8 +1240,6 @@
             endast erinra om, att de små egendomsegarne hafva icke endast
             skatter att betala till staten, utan äfven
           </seg>
-        </u>
-        <u xml:id="i-5tbMSuTrVRVTUwkTpi8cSY" who="i-Q9NZspFD2eAfFJcRFPWqM" prev="i-MCzscLeihXnirhaRvJyrkS">
           <seg xml:id="i-McmNmULbF4tFJ7GjHb7ExC">
             andra onera, som utgå af deras egendom. För min del yrkar jag
             bifall till utskottets förslag.
@@ -1276,7 +1248,7 @@
         <note xml:id="i-EZsH972NEcTdv1inhTVfij" type="speaker">
           Herr Jönsson i Gammalstorp:
         </note>
-        <u xml:id="i-FGtKd3cm3S18sj2TcxRAVM" who="i-EpGkoMNMbkRJY15jN8HtRn" next="i-VpTBFuuhfeJ9waEYdg22xg">
+        <u xml:id="i-FGtKd3cm3S18sj2TcxRAVM" who="i-EpGkoMNMbkRJY15jN8HtRn">
           <seg xml:id="i-JBLpWXnQVJ1S7D4njasXhx">
             Det är visserligen sant, som grefve Hamilton sade, att dessa
             hus i skatteväg betraktas såsom fast egendom ; men det är just
@@ -1284,8 +1256,6 @@
             som i öfrigt enligt gällande lag behandlas såsom lösegendom, icke
             äfven i beskattningshänseende kan såsom sådan betraktas.
           </seg>
-        </u>
-        <u xml:id="i-VpTBFuuhfeJ9waEYdg22xg" who="i-EpGkoMNMbkRJY15jN8HtRn" prev="i-FGtKd3cm3S18sj2TcxRAVM" next="i-E8mYe6dTYwaZ9NPqLcWLLQ">
           <seg xml:id="i-KtGgDC8QsVzoPt5HvVbERL">
             Gent emot den siste talaren, då han ville påstå, att det är bland
             våra hemmansegare en väsentlig del, som icke hafva det bättre
@@ -1299,8 +1269,6 @@
             husegare, som få lefva på betydligt mindre. Det finnes ingen jemförelse
             mellan dessa.
           </seg>
-        </u>
-        <u xml:id="i-E8mYe6dTYwaZ9NPqLcWLLQ" who="i-EpGkoMNMbkRJY15jN8HtRn" prev="i-VpTBFuuhfeJ9waEYdg22xg" next="i-WvaE5kEbvJqsKvLeR8HzxD">
           <seg xml:id="i-SEBtFQJ687MxvNe2f81yGp">
             Dessutom vill jag erinra dep siste talaren om, att hemmansegarne
             i allmänhet hafva hus uppförda på sina egendomar; och för dessa
@@ -1309,8 +1277,6 @@
             derför icke orättvist, utan rättvist och billigt att äfven befria
             nu ifrågavarande hus.
           </seg>
-        </u>
-        <u xml:id="i-WvaE5kEbvJqsKvLeR8HzxD" who="i-EpGkoMNMbkRJY15jN8HtRn" prev="i-E8mYe6dTYwaZ9NPqLcWLLQ">
           <seg xml:id="i-KpAykbZPqe1LnUhbcxuAY2">
             Jag yrkar fortfarande bifall till min motion.
           </seg>
@@ -1352,7 +1318,7 @@
         <note xml:id="i-FyAwPaQmoWEugNCVpk3g38" type="speaker">
           Herr Jansson i Krakerud:
         </note>
-        <u xml:id="i-D9U5rs5C9WK9K5nHauGC3e" who="i-HiKfkPFGETvWecEKyujzt7" next="i-UsHYaCqEXBVMuHKoyrrRe9">
+        <u xml:id="i-D9U5rs5C9WK9K5nHauGC3e" who="i-HiKfkPFGETvWecEKyujzt7">
           <seg xml:id="i-EFawj7ZoQvw3qm3GefkdYn">
             Herr talman, mine herrar! Jag får erkänna, att jag icke kommer
             i håg, om jag ens var närvarande, när denna motion behandlades
@@ -1360,8 +1326,6 @@
             som om man skulle vilja befria från skatt sådana små fastighetsegare,
             som hafva ett hus, värderadt till ungefär 300 kronor.
           </seg>
-        </u>
-        <u xml:id="i-UsHYaCqEXBVMuHKoyrrRe9" who="i-HiKfkPFGETvWecEKyujzt7" prev="i-D9U5rs5C9WK9K5nHauGC3e" next="i-WUBc2TXggorEDQknSGfwSM">
           <seg xml:id="i-5dbA9YDgh6RwyqsUWrQbGg">
             Det skulle alltså blifva 15 öre, som striden gäller. Det är roligt
             att se, att det finnes intresse för att de mindre bemedlade skola
@@ -1370,8 +1334,6 @@
             har någon som helst ekonomisk betydelse. Jag tycker icke ens,
             att saken är värd någon diskussion i Riksdagens Andra Kammare.
           </seg>
-        </u>
-        <u xml:id="i-WUBc2TXggorEDQknSGfwSM" who="i-HiKfkPFGETvWecEKyujzt7" prev="i-UsHYaCqEXBVMuHKoyrrRe9">
           <seg xml:id="i-NiFG5grHLhpLsC9UTpvnCo">
             E Jag tager mig derför friheteten att yrka bifall till utskottets
             örslag.
@@ -1380,7 +1342,7 @@
         <note xml:id="i-8bzkVHDjLCGdXPWibhoBTR" type="speaker">
           Herr Jönsson i Gammalstorp:
         </note>
-        <u xml:id="i-RMeMppBcNQKgmzuNNfTVv8" who="i-EpGkoMNMbkRJY15jN8HtRn" next="i-YSz9c8F3zMqpAAsJWtMFKo">
+        <u xml:id="i-RMeMppBcNQKgmzuNNfTVv8" who="i-EpGkoMNMbkRJY15jN8HtRn">
           <seg xml:id="i-Vo2PhpKp92azNX1pa5kajs">
             Herr talman, mine herrar! Det är mycket möjligt, som den ärade
             talaren på hallandsbänken sade, att i den trakt, ban tillhör,
@@ -1392,8 +1354,6 @@
             skulle komma i åtnjutande af skattelindring: och så tror jag det
             är på många andra ställen.
           </seg>
-        </u>
-        <u xml:id="i-YSz9c8F3zMqpAAsJWtMFKo" who="i-EpGkoMNMbkRJY15jN8HtRn" prev="i-RMeMppBcNQKgmzuNNfTVv8">
           <seg xml:id="i-GZ2V2Te8SMUAvbKmqZcJEH">
             Den siste talaren nämnde, att bevillningen skulle utgöra endast
             15 å 25 öre. Ja, det är icke mycket; men jag får erinra honom
@@ -1410,15 +1370,13 @@
         <note xml:id="i-KuVJt1Vr4n9rNSLjYCQSyu" type="speaker">
           Her Wallbom:
         </note>
-        <u xml:id="i-8Dn5hSkr5Tm3CLQPi51Y67" who="i-4DZoxTAPxfGRbaWRrkud9H" next="i-UGtQ2Jb9qtQ5qJg9YAkcZt">
+        <u xml:id="i-8Dn5hSkr5Tm3CLQPi51Y67" who="i-4DZoxTAPxfGRbaWRrkud9H" next="i-FPEhHDpL5uGb8hwSboAzAZ">
           <seg xml:id="i-7QHVwSf8FRytRW49gpc7Qe">
             Herr talman, mine herrar! Om jag skulle komma att yttra detsamma,
             som förut blifvit sagdt vid föredragningen af denna punkt, så
             anhåller jag på förhand om öfverseende, ty det har varit omöjligt
             att höra hvad som yttrats.
           </seg>
-        </u>
-        <u xml:id="i-UGtQ2Jb9qtQ5qJg9YAkcZt" who="i-4DZoxTAPxfGRbaWRrkud9H" prev="i-8Dn5hSkr5Tm3CLQPi51Y67" next="i-FPEhHDpL5uGb8hwSboAzAZ">
           <seg xml:id="i-9Z4HxUkW6ie5XAvsP8MVv7">
             En talare på hallandsbänken talade om att han under flera år
             suttit såsom ordförande i bevillningsberedningen och att man i
@@ -1433,31 +1391,23 @@
           Ang. befrielsehemort icke haft för vana att uppskatta sådana
           mindre lägenhetsinne-
         </note>
-        <u xml:id="i-FPEhHDpL5uGb8hwSboAzAZ" who="i-4DZoxTAPxfGRbaWRrkud9H" prev="i-UGtQ2Jb9qtQ5qJg9YAkcZt" next="i-EUpKLpBXYcuq2VyYnpZ7bQ">
+        <u xml:id="i-FPEhHDpL5uGb8hwSboAzAZ" who="i-4DZoxTAPxfGRbaWRrkud9H" prev="i-8Dn5hSkr5Tm3CLQPi51Y67">
           <seg xml:id="i-2Mzm3mhXujR1yWH2Jj4tSe">
             frän leriga hafvare, som hade en egendom, värd 2 å 300 kronor.
             Ja, då vi nu
           </seg>
-        </u>
-        <u xml:id="i-EUpKLpBXYcuq2VyYnpZ7bQ" who="i-4DZoxTAPxfGRbaWRrkud9H" prev="i-FPEhHDpL5uGb8hwSboAzAZ" next="i-14JnZyhoVC8tMSPkvbFiVG">
           <seg xml:id="i-6wBYnHENaWjAFjTjDaHKhy">
             "för annan Stå i beredskap att stifta en lag, kunna vi ju icke
             fästa afseende vid
           </seg>
-        </u>
-        <u xml:id="i-14JnZyhoVC8tMSPkvbFiVG" who="i-4DZoxTAPxfGRbaWRrkud9H" prev="i-EUpKLpBXYcuq2VyYnpZ7bQ" next="i-Kk6tvKAiUgwupfKnqrCinZ">
           <seg xml:id="i-3doLLaMGzQfc4L28R6mHiU">
             fastighet. att det finnes lagar, men att de icke efterlefvas.
             Det är väl ingen
           </seg>
-        </u>
-        <u xml:id="i-Kk6tvKAiUgwupfKnqrCinZ" who="i-4DZoxTAPxfGRbaWRrkud9H" prev="i-14JnZyhoVC8tMSPkvbFiVG" next="i-XqXQbT41317vyyC8f5AWt7">
           <seg xml:id="i-P8YWzM8PFX5Zn5NZgRT52a">
             (Forts.) orsak för oss att tänka, att vi icke behöfva göra det,
             derför att vi icke behöfva de lagar, som finnas.
           </seg>
-        </u>
-        <u xml:id="i-XqXQbT41317vyyC8f5AWt7" who="i-4DZoxTAPxfGRbaWRrkud9H" prev="i-Kk6tvKAiUgwupfKnqrCinZ" next="i-BLgnEsUM9qpcy1bqsNVdQz">
           <seg xml:id="i-V6qexw9NkkULMsXf4HEJDz">
             I det taxeringsdistrikt, inom hvilket jag under många år bott,
             har man följt lagen så noga, som man kunnat, och taxerat dem,
@@ -1468,8 +1418,6 @@
             och många gånger får man hjelpa dem och låta dem taga tillbaka
             densamma i form af fattigunderstöd. ”
           </seg>
-        </u>
-        <u xml:id="i-BLgnEsUM9qpcy1bqsNVdQz" who="i-4DZoxTAPxfGRbaWRrkud9H" prev="i-XqXQbT41317vyyC8f5AWt7" next="i-TGAaFw76Te2J4RVNXgKcN4">
           <seg xml:id="i-G7ccfjUUtdtivQPp7JHx1d">
             Utskottet har nu åberopat samma skäl för afslag å förevarande
             motion, som anfördes vid 1891 års riksdag, och påpekat, att det
@@ -1477,24 +1425,18 @@
             jag antager, att det finnes ganska få egendomar, som äro taxerade
             till 5300 kronor.
           </seg>
-        </u>
-        <u xml:id="i-TGAaFw76Te2J4RVNXgKcN4" who="i-4DZoxTAPxfGRbaWRrkud9H" prev="i-BLgnEsUM9qpcy1bqsNVdQz" next="i-LzcqcBgoSkaFU4D1TX2VM9">
           <seg xml:id="i-YW5EFVD2gufYkuem85XJr4">
             Då motionären gått så billigt till väga att han föreslår, att
             endast de husbyggnader, som äro värda under 500 kronor, skulle
             vara skattefria, så antager jag, att inkomsten till statskassan
             och till kommunen icke spelar någon stor roll.
           </seg>
-        </u>
-        <u xml:id="i-LzcqcBgoSkaFU4D1TX2VM9" who="i-4DZoxTAPxfGRbaWRrkud9H" prev="i-TGAaFw76Te2J4RVNXgKcN4" next="i-4UnGDGe2D2TEsxpw5ZfS87">
           <seg xml:id="i-EfdKRZ3kduqRV5scDVpuPF">
             Man har talat om att det skulle finnas handtverkare, som skulle
             hafva räd att betala denna skatt. Ja, mine herrar, hafva de någon
             ekonomisk ställning, så att de äro något bergade, så nog kommer
             deras lägenhet upp till ett värde af öfver 500 kronor.
           </seg>
-        </u>
-        <u xml:id="i-4UnGDGe2D2TEsxpw5ZfS87" who="i-4DZoxTAPxfGRbaWRrkud9H" prev="i-LzcqcBgoSkaFU4D1TX2VM9">
           <seg xml:id="i-DL3jctTuMZw5pw4QyVFG2J">
             Jag tager mig friheten att yrka bifall till motionärens förslag,
             ty jag anser detsamma rättvist och billigt.
@@ -1559,7 +1501,7 @@
         <note xml:id="i-VWwFhHXRxqFRL9am5HgNQo" type="speaker">
           Herr Persson i Vadensjö:
         </note>
-        <u xml:id="i-5rR4H33ZmH4RoEEnHd1YxG" who="i-CPfUdQUFStbLWNfMwcYqBw" next="i-RSJtPKUNVXeBcpReZqu8ht">
+        <u xml:id="i-5rR4H33ZmH4RoEEnHd1YxG" who="i-CPfUdQUFStbLWNfMwcYqBw">
           <seg xml:id="i-8Pc6AftNC1DBMKac82SDht">
             Herr talman, mine herrar! Jag kan icke godkänna det slut, hvartill
             detta ungkarlsutskott kommit. En hvar måste lemna ostridigt, om
@@ -1569,8 +1511,6 @@
             en skattejemkning, anser jag, att jag i min motion icke begärt
             för mycket.
           </seg>
-        </u>
-        <u xml:id="i-RSJtPKUNVXeBcpReZqu8ht" who="i-CPfUdQUFStbLWNfMwcYqBw" prev="i-5rR4H33ZmH4RoEEnHd1YxG" next="i-CDZ2h6e2gCdPFAuPcFDfAw">
           <seg xml:id="i-RMVsjGTwqhcuNwZe2ja7py">
             Om man antager, att man med denna inkomstbevillning inom olika
             delar af landet upprättade barnhem, då skulle man kunna der uppfostra
@@ -1578,8 +1518,6 @@
             hafva att gå en tidig död till mötes och af hvilka nu en stor
             del endast får en underhaltig uppfostran.
           </seg>
-        </u>
-        <u xml:id="i-CDZ2h6e2gCdPFAuPcFDfAw" who="i-CPfUdQUFStbLWNfMwcYqBw" prev="i-RSJtPKUNVXeBcpReZqu8ht" next="i-JPbvfLtmCZZ1L5t96Wxi6U">
           <seg xml:id="i-UccMHWwMJrGbCtYS1iHPd1">
             Man har sagt, att dessa ungherrar icke hafva råd att betala en
             högre beskattning. Ja, derom kan man ju tvista, men med dem, som
@@ -1588,8 +1526,6 @@
             de kunna uppoffra så mycket som helst för att tillfredsställa
             sina nöjen och lefva efter som de behaga.
           </seg>
-        </u>
-        <u xml:id="i-JPbvfLtmCZZ1L5t96Wxi6U" who="i-CPfUdQUFStbLWNfMwcYqBw" prev="i-CDZ2h6e2gCdPFAuPcFDfAw">
           <seg xml:id="i-CPUBqmQyDctMEQoVVfmHPX">
             Jag skall emellertid icke uppehålla kammaren längre, utan endast
             anhålla att få yrka bifall till min motion.
@@ -1628,7 +1564,7 @@
         <note xml:id="i-Lu52iiaDejetaPKUwCAoZu">
           för vissa män att erlägga dubbel bevillning. (Forts.)
         </note>
-        <u xml:id="i-Y335qcQ9JTKBWHWMKodTsu" who="i-3FSs4wVDP5BUGhdcBZEhUo" prev="i-763cAQzMJiv6CNgpHpBJpN" next="i-QaGSAPfMgqz5oSv8bPAPXG">
+        <u xml:id="i-Y335qcQ9JTKBWHWMKodTsu" who="i-3FSs4wVDP5BUGhdcBZEhUo" prev="i-763cAQzMJiv6CNgpHpBJpN">
           <seg xml:id="i-GomzW5Hiz3ioQgNumqBx9G">
             erlägga denna extra bevillning. Jag tror dock icke, att motionären
             afsett något sådant med denna sin motion, utan att det är med
@@ -1652,8 +1588,6 @@
             nemligen att den, som har att försörja ett flertal, borde åtnjuta
             en lindring.
           </seg>
-        </u>
-        <u xml:id="i-QaGSAPfMgqz5oSv8bPAPXG" who="i-3FSs4wVDP5BUGhdcBZEhUo" prev="i-Y335qcQ9JTKBWHWMKodTsu">
           <seg xml:id="i-42c7bvybHb1WAnKuKrVDMr">
             Om motionen varit affattad i sådant syfte, tror jag, att den
             skulle rönt understöd, men så som den nu är framstäld, innebär
@@ -1664,7 +1598,7 @@
         <note xml:id="i-T4321u4ksrNevT8Z8UJLpS" type="speaker">
           Herr Bexell:
         </note>
-        <u xml:id="i-MJpVhUKpkF9SSRqUg9exwj" who="i-4dQCqqFXRPDSoMuxf5jk5D" next="i-GP7VEs8Z4hjwYWg3fG3Pwb">
+        <u xml:id="i-MJpVhUKpkF9SSRqUg9exwj" who="i-4dQCqqFXRPDSoMuxf5jk5D">
           <seg xml:id="i-HND5jFqp7bJVcsAmk1sgH7">
             Jag vill också gifva motionären rätt uti, att hans motion har
             mycket för sig, men jag tror och anser, att det borde vara en
@@ -1675,8 +1609,6 @@
             formulera den så, att ifrågavarande skatt komme att utgå i hufvudsaklig
             öfverensstämmelse med t. ex. — hundskatten.
           </seg>
-        </u>
-        <u xml:id="i-GP7VEs8Z4hjwYWg3fG3Pwb" who="i-4dQCqqFXRPDSoMuxf5jk5D" prev="i-MJpVhUKpkF9SSRqUg9exwj">
           <seg xml:id="i-XS2fjz5kxnEJR4ZYgAfwE5">
             För närvarande yrkar jag afslag.
           </seg>
@@ -1684,15 +1616,13 @@
         <note xml:id="i-WQ5U1wguAqE2m4nzKpUAfc" type="speaker">
           Herr Persson i Vadensjö:
         </note>
-        <u xml:id="i-WRBhjcGgJGvEVYgKgsQTJv" who="i-CPfUdQUFStbLWNfMwcYqBw" next="i-DA8i2c12sY6Q3KzPSc2siJ">
+        <u xml:id="i-WRBhjcGgJGvEVYgKgsQTJv" who="i-CPfUdQUFStbLWNfMwcYqBw">
           <seg xml:id="i-U4SBCHuy8tUWjTJhFt4HCN">
             Det skäl, som den ärade ledamoten af ungkarlsutskottet herr Collander
             anförde som det starkaste skälet emot min motion, var det, att
             det finnes en del ungherrar, som försörja sina närmaste, såsom
             föräldrar och syskon.
           </seg>
-        </u>
-        <u xml:id="i-DA8i2c12sY6Q3KzPSc2siJ" who="i-CPfUdQUFStbLWNfMwcYqBw" prev="i-WRBhjcGgJGvEVYgKgsQTJv" next="i-WvRgsH8p8jTJnZ8YR9G5wN">
           <seg xml:id="i-4fToWpVviYvCScSvgtGmWy">
             Ja, deri tror jag, att den ärade talaren har fullkomligt rätt,
             men vi hafva ju ingen statistik på detta område. För min del tror
@@ -1700,8 +1630,6 @@
             många, ja, ännu flere gifta personer med familj, hvilka försörja
             sina föräldrar, än det fins ungherrar, som göra det.
           </seg>
-        </u>
-        <u xml:id="i-WvRgsH8p8jTJnZ8YR9G5wN" who="i-CPfUdQUFStbLWNfMwcYqBw" prev="i-DA8i2c12sY6Q3KzPSc2siJ">
           <seg xml:id="i-R8FJrVstMEVzkY85iUDNt4">
             Jag känner mig derför, herr talman, alls icke öfvertygad af detta
             skäl, det enda, som från utskottets sida anförts för afslag å
@@ -1796,13 +1724,11 @@
         <note xml:id="i-DkZnC1zpSZ1etw8ks48MRY">
           bd och med mina beräkningar.
         </note>
-        <u xml:id="i-GBLQLeDD8JqfschQKqYtZS" who="i-Rks7W3Jy3cfVEjHzH1F5cE" prev="i-VTFRVoNnv3Fi9PsVUBZZRQ" next="i-EPXcN9FzpPHrGiQS5FD3cF">
+        <u xml:id="i-GBLQLeDD8JqfschQKqYtZS" who="i-Rks7W3Jy3cfVEjHzH1F5cE" prev="i-VTFRVoNnv3Fi9PsVUBZZRQ">
           <seg xml:id="i-S17M98GW93HksxtX55pumm">
             förordningen. . Jag har nemligen antagit, att de tjenstemän vid
             statens jern-
           </seg>
-        </u>
-        <u xml:id="i-EPXcN9FzpPHrGiQS5FD3cF" who="i-Rks7W3Jy3cfVEjHzH1F5cE" prev="i-GBLQLeDD8JqfschQKqYtZS" next="i-VhoaViFidffEGGPTDvcc1f">
           <seg xml:id="i-6P5FgPJMd3rC9vLCfVDDFJ">
             (Forts, Vägar, hvilka jag i min motion åsyftat, i medeltal hafva
             1,200 a 1,300 kronor i aflöning per år. 20 procent häraf utgör
@@ -1815,8 +1741,6 @@
             man kan taga till, när man vill göra nedsättning för inkomster
             af den art, hvarom här är fråga.
           </seg>
-        </u>
-        <u xml:id="i-VhoaViFidffEGGPTDvcc1f" who="i-Rks7W3Jy3cfVEjHzH1F5cE" prev="i-EPXcN9FzpPHrGiQS5FD3cF" next="i-D2DZtZzkic22jCmExtinXL">
           <seg xml:id="i-3LVXQz3Ea3FzVgp5xu82tB">
             Då utskottet i afseende å åtskilliga andra frågor tillstyrkt
             skrifvelse till Kongl. Maj:t med anhållan, att Kongl. Maj:t ville
@@ -1829,16 +1753,12 @@
             beräkningar, jag lemnat, icke tilltrott sig att på egen hand vidtaga
             eller föreslå en ändring i bevillningsförordningen.
           </seg>
-        </u>
-        <u xml:id="i-D2DZtZzkic22jCmExtinXL" who="i-Rks7W3Jy3cfVEjHzH1F5cE" prev="i-VhoaViFidffEGGPTDvcc1f" next="i-4Z15PcC46XeurjpbsspB3Z">
           <seg xml:id="i-FwRerCCFPniG8WhP495Lyg">
             Jag har så mycket hellre haft grundadt skäl för detta antagande,
             som utskottet sjelft vitsordat rigtigheten af mina uppgifter,
             att en förändring af bevillningsförordningen i den af mig i motionen
             angifna rigtning är af behofvet påkallad.
           </seg>
-        </u>
-        <u xml:id="i-4Z15PcC46XeurjpbsspB3Z" who="i-Rks7W3Jy3cfVEjHzH1F5cE" prev="i-D2DZtZzkic22jCmExtinXL" next="i-LMnJwaZ7Hit26rhNkdgFfU">
           <seg xml:id="i-6D79MHko1YxFgkVDfDDwr6">
             Jag skall icke tillåta mig framställa något särskildt förslag
             i denna fråga. Jag tror också, att kammaren har ganska svårt att
@@ -1849,15 +1769,11 @@
             ärendet till utskottet, på det att utskottet, som vitsordat nödvändigheten
             af en förändring, måtte blifva i tillfälle att formulera ett ändringsförslag.
           </seg>
-        </u>
-        <u xml:id="i-LMnJwaZ7Hit26rhNkdgFfU" who="i-Rks7W3Jy3cfVEjHzH1F5cE" prev="i-4Z15PcC46XeurjpbsspB3Z" next="i-RZj35rHW4DYMWoP5WQkcJb">
           <seg xml:id="i-T3ZgRPtD4joXUT5heTUqQh">
             Då kammaren nu varit i färd med att afslå åtskilliga motioner,
             så hemställer jag, om icke kammaren för omvexlings skull ville
             bereda denna motion ett blidare öde.
           </seg>
-        </u>
-        <u xml:id="i-RZj35rHW4DYMWoP5WQkcJb" who="i-Rks7W3Jy3cfVEjHzH1F5cE" prev="i-LMnJwaZ7Hit26rhNkdgFfU">
           <seg xml:id="i-LqEiuNnHHPs183B5oGxK7E">
             Jag yrkar återremiss.
           </seg>
@@ -1868,14 +1784,12 @@
         <note xml:id="i-E4NPX3zMWxC9gj59pKct6T" type="speaker">
           Herr J. H. G. Fredholm:
         </note>
-        <u xml:id="i-CG1kaoeQyeNLXFvUHPxFvm" who="i-BN7hrp3MWW7LxGbB8eqBPh" next="i-2aLeyK65xYsC3U9WQwzFYf">
+        <u xml:id="i-CG1kaoeQyeNLXFvUHPxFvm" who="i-BN7hrp3MWW7LxGbB8eqBPh" next="i-CSfbce9ReugBbMs7hnewMb">
           <seg xml:id="i-D3baS7LmKVytYq2GLHTmQy">
             Det är enligt mitt förmenande ej något tvifvel om, att ej missförhållanden
             ega rum med afseende på beskattningen af de olika slag af tjenstemän,
             som motionären i sin motion omnämnt.
           </seg>
-        </u>
-        <u xml:id="i-2aLeyK65xYsC3U9WQwzFYf" who="i-BN7hrp3MWW7LxGbB8eqBPh" prev="i-CG1kaoeQyeNLXFvUHPxFvm" next="i-CSfbce9ReugBbMs7hnewMb">
           <seg xml:id="i-AboSf5k3ro16KAR5w8mFiG">
             Men då han vill undandrödja detta missförhållande genom att bereda
             de tjenstemannaklasser, han åsyftat, samma undantagsställning,
@@ -1888,7 +1802,7 @@
         <note xml:id="i-DUekuJHjWbQoCq5DtSZ9RU" type="date">
           Lördagen den 22 April, e. m. 17 N:o 35.
         </note>
-        <u xml:id="i-CSfbce9ReugBbMs7hnewMb" who="i-BN7hrp3MWW7LxGbB8eqBPh" prev="i-2aLeyK65xYsC3U9WQwzFYf">
+        <u xml:id="i-CSfbce9ReugBbMs7hnewMb" who="i-BN7hrp3MWW7LxGbB8eqBPh" prev="i-CG1kaoeQyeNLXFvUHPxFvm">
           <seg xml:id="i-Db9AvSbxJqSasMTVAZfgTi">
             äfven ett annat sätt att råda bot derför, nemligen att borttaga
             de/Ang. ändring i undantagsbestämmelser, som gälla till förmån
@@ -1914,7 +1828,7 @@
         <note xml:id="i-NDqBLanHagkzPCF83T7fxP" type="speaker">
           Herr Johnsson i Bollnäs:
         </note>
-        <u xml:id="i-5M3XqNHCC1JfdDCRqcgjCE" who="i-Rks7W3Jy3cfVEjHzH1F5cE" next="i-4gsr6sft7w18q5Ev3dJhLn">
+        <u xml:id="i-5M3XqNHCC1JfdDCRqcgjCE" who="i-Rks7W3Jy3cfVEjHzH1F5cE">
           <seg xml:id="i-Qws7Cmh1f1KqqFJb92s7Hf">
             Den senaste talarens yttrande föranleder mig att vidhålla hvad
             jag förut sagt. Den ärade ledamoten af bevillningsutskottet sade,
@@ -1929,8 +1843,6 @@
             något emot att utskottet kommer med ett förslag, om ock afvikande
             från mitt, blott syftet vinnes.
           </seg>
-        </u>
-        <u xml:id="i-4gsr6sft7w18q5Ev3dJhLn" who="i-Rks7W3Jy3cfVEjHzH1F5cE" prev="i-5M3XqNHCC1JfdDCRqcgjCE">
           <seg xml:id="i-RpoHuaHAJUhZF4wYbBrjHq">
             Jag anser mig, herr talman, på grund af dessa skäl böra vidhålla
             mitt första yrkande på återremiss till utskottet.
@@ -2024,7 +1936,7 @@
         <note xml:id="i-7Ph655W8Sw3AFW5zQ9sbGn" type="speaker">
           Herr Rodhe:
         </note>
-        <u xml:id="i-C6hvkm5ZMgJqaLSgEbSxSE" who="i-FDE8vHVwQL5JtnfhZTNxMP" next="i-HTFmKQWAnNirhjw6yZ1mKd">
+        <u xml:id="i-C6hvkm5ZMgJqaLSgEbSxSE" who="i-FDE8vHVwQL5JtnfhZTNxMP" next="i-H1mzwtHUKsv2KvFb97n5pi">
           <seg xml:id="i-KtCunpGxaepc1UXngqgnAZ">
             Herr talman, mine herrar! Såsom ledamot af Göteborgs domkapitel
             har jag redan varit i tillfälle att uttala mig om den föreliggande
@@ -2035,8 +1947,6 @@
             skyldighet att angifva några af de skäl, på hvilka jag stödt denna
             min uppfattning.
           </seg>
-        </u>
-        <u xml:id="i-HTFmKQWAnNirhjw6yZ1mKd" who="i-FDE8vHVwQL5JtnfhZTNxMP" prev="i-C6hvkm5ZMgJqaLSgEbSxSE" next="i-H1mzwtHUKsv2KvFb97n5pi">
           <seg xml:id="i-QQG3Hx4E4tuotuMjN8NQLe">
             Skulle jag bedöma frågan uteslutande ur synpunkten af hvad Lundby
             församlings eller pastorats intresse kräfver, så skulle jag ej
@@ -2053,7 +1963,7 @@
         <note xml:id="i-Hc6vYfEUqdrtZDtogn6Z3n" type="date">
           Lördagen den 22 April, e. m. 19 N:o 35.
         </note>
-        <u xml:id="i-H1mzwtHUKsv2KvFb97n5pi" who="i-FDE8vHVwQL5JtnfhZTNxMP" prev="i-HTFmKQWAnNirhjw6yZ1mKd" next="i-QKhf1pfimEaHUEDrjReMt3">
+        <u xml:id="i-H1mzwtHUKsv2KvFb97n5pi" who="i-FDE8vHVwQL5JtnfhZTNxMP" prev="i-C6hvkm5ZMgJqaLSgEbSxSE" next="i-MP891ZLQ8ythPyXvKSFkoL">
           <seg xml:id="i-6kuk2QwKbxwfTwsLWgcqr9">
             Jag har ansett mig skyldig att äfven pröfva, hvad som för läro-
             Ang. upphöverket, stiftet och kyrkan i sin helhet kunde vara mest
@@ -2065,8 +1975,6 @@
             m.m. alla lärare, men som dock framför allt bör åligga kristendomsläraren.
             = (Forts.)
           </seg>
-        </u>
-        <u xml:id="i-QKhf1pfimEaHUEDrjReMt3" who="i-FDE8vHVwQL5JtnfhZTNxMP" prev="i-H1mzwtHUKsv2KvFb97n5pi" next="i-8ZJq5oCHQrmeDTF3r3aqbX">
           <seg xml:id="i-2nkXSUkfkL9sEzLJUuk3zM">
             Vigten af att så qvalificerade personer sättas till innehafvare
             af denna befattning måste framträda för mig så mycket klarare,
@@ -2083,8 +1991,6 @@
             garantier bjudas för att man till denna plats må erhålla personer
             sådana som nyss nämndes.
           </seg>
-        </u>
-        <u xml:id="i-8ZJq5oCHQrmeDTF3r3aqbX" who="i-FDE8vHVwQL5JtnfhZTNxMP" prev="i-QKhf1pfimEaHUEDrjReMt3" next="i-J9nfYPky65tsw53WStDZqq">
           <seg xml:id="i-zQuN2Gx2bsMWTU1Tm2ice">
             Det är ju möjligt, och jag vill hoppas, att fullt lämpliga personer,
             äfven om pastoratet skiljes ifrån lektoratet, skola bli innehafvare
@@ -2103,8 +2009,6 @@
             ansett det vara min skyldighet, på grund af den ställning jag
             intager till läroverket och stiftet, att framhålla mina betänkligheter.
           </seg>
-        </u>
-        <u xml:id="i-J9nfYPky65tsw53WStDZqq" who="i-FDE8vHVwQL5JtnfhZTNxMP" prev="i-8ZJq5oCHQrmeDTF3r3aqbX" next="i-MP891ZLQ8ythPyXvKSFkoL">
           <seg xml:id="i-CnokqSeTo5BUvEw2eLJsRT">
             Om jag sålunda icke yrkar något med afseende å mom. a), så anser
             jag mig deremot nödsakad att göra ett yrkande i afseende ä mom.
@@ -2134,13 +2038,11 @@
         <note xml:id="i-4JhQPYmq8Dh3bHB8FxaSr5" type="date">
           20 Lördagen den 22 April, e. m.
         </note>
-        <u xml:id="i-MP891ZLQ8ythPyXvKSFkoL" who="i-FDE8vHVwQL5JtnfhZTNxMP" prev="i-J9nfYPky65tsw53WStDZqq" next="i-UY2BKEQ4s9rVposLF9L4ZF">
+        <u xml:id="i-MP891ZLQ8ythPyXvKSFkoL" who="i-FDE8vHVwQL5JtnfhZTNxMP" prev="i-H1mzwtHUKsv2KvFb97n5pi">
           <seg xml:id="i-DjBvJdmsGN969GreX8Pc27">
             reglering, derest i någon församling en lön på grund af vissa
             ogynsamma omständigheter sjunkit under det reglerade beloppet.
           </seg>
-        </u>
-        <u xml:id="i-UY2BKEQ4s9rVposLF9L4ZF" who="i-FDE8vHVwQL5JtnfhZTNxMP" prev="i-MP891ZLQ8ythPyXvKSFkoL">
           <seg xml:id="i-CToy9GCHsCD9yhsjAzRNJW">
             Jag tillåter mig derför att yrka, att detta mom. ce) må återremitteras
             till utskottet, för att genom utskottet ett annat förslag må framläggas
@@ -2150,7 +2052,7 @@
         <note xml:id="i-HosM7Ndj57W9QP7cEFde93" type="speaker">
           Herr Sjöholm:
         </note>
-        <u xml:id="i-XSwrQSgAfxK1SAqCTUQyW4" who="i-5Vy3ntssPxeEJSQighaEWM" next="i-6SsYtP2kZ5bod1S9BLDB49">
+        <u xml:id="i-XSwrQSgAfxK1SAqCTUQyW4" who="i-5Vy3ntssPxeEJSQighaEWM">
           <seg xml:id="i-12ZU2fPB9PZMRoz6mc6Dmw">
             Herr talman, mine herrar! Det är så ofantligt förändrade förhållanden
             inom den ifrågavarande kommunen nu emot för relativt kort tid
@@ -2178,8 +2080,6 @@
             kyrkoherde och till och med ett biträde åt honom, för att förhållandena
             skola kunna ordnas såsom sig bör.
           </seg>
-        </u>
-        <u xml:id="i-6SsYtP2kZ5bod1S9BLDB49" who="i-5Vy3ntssPxeEJSQighaEWM" prev="i-XSwrQSgAfxK1SAqCTUQyW4">
           <seg xml:id="i-WPvT5kah6UD6vpNBqP9bwP">
             Alla myndigheter, till hvilka vi vändt oss, hafva gillat våra
             klagomål, utom Göteborgs domkapitel, och jag är ledsen öfver att
@@ -2230,7 +2130,7 @@
         <note xml:id="i-DgffxbWeSNSNqLS1e5DLN6" type="speaker">
           Herr von Friesen:
         </note>
-        <u xml:id="i-TbRcehSikhYKkJL4ucsDmi" who="i-PfWLQcWc1zHmdsEJAzj7vd" next="i-DGjN4D5kB3FaXA1xtaDPrS">
+        <u xml:id="i-TbRcehSikhYKkJL4ucsDmi" who="i-PfWLQcWc1zHmdsEJAzj7vd">
           <seg xml:id="i-HmBRv8dpa3Hz4mQgAv2E46">
             Herr talman! Efter upplysning, som lemnats, har Första Kammaren
             redan bifallit utskottets förslag, d. v. s. Kongl. Maj:ts proposition.
@@ -2240,8 +2140,6 @@
             kammaren måtte fatta sitt beslut, och jag vill tillägga, i öfverensstämmelse
             med utskottets förslag.
           </seg>
-        </u>
-        <u xml:id="i-DGjN4D5kB3FaXA1xtaDPrS" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-TbRcehSikhYKkJL4ucsDmi" next="i-RBckoe4xPsY9FQW6oZ7KvL">
           <seg xml:id="i-TNdcyD1gi4qZ9nhjZaaxb">
             Den förste ärade talaren sade, att, om man såge saken uteslutande
             från Lundby pastorats synpunkt, man icke kunde annat än gilla,
@@ -2267,15 +2165,11 @@
             kommer derför mindre i beröring med ungdomen och kan derför icke
             heller utöfva så stort inflytande på den som de öfrige lärarne.
           </seg>
-        </u>
-        <u xml:id="i-RBckoe4xPsY9FQW6oZ7KvL" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-DGjN4D5kB3FaXA1xtaDPrS" next="i-338gnR14C822Ucc8DqeR4c">
           <seg xml:id="i-B2u5hDwRK9EjrJEYWUZmBf">
             Huru man än ser saken, synes man böra vara ense derom, att detta
             förslag, att Lundby pastorat skall upphöra att vara prebendepastorat,
             är ett godt förslag.
           </seg>
-        </u>
-        <u xml:id="i-338gnR14C822Ucc8DqeR4c" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-RBckoe4xPsY9FQW6oZ7KvL" next="i-Un98c8CDVhP9P5WXZkGKmw">
           <seg xml:id="i-DNdd6Yq1NnYLgf8N9bYXpE">
             Hvad beträffar frågan om verkställande af ny lönereglering, så
             förefaller det mig alldeles sjelfklart, att en sådan bör ske.
@@ -2284,8 +2178,6 @@
             snart sagdt nödvändigt att i sammanhang med upphäfvande af prebendeegenskapen
             verkställa en ny lönereglering.
           </seg>
-        </u>
-        <u xml:id="i-Un98c8CDVhP9P5WXZkGKmw" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-338gnR14C822Ucc8DqeR4c">
           <seg xml:id="i-Krn9kzERDU1aUksHFAekEE">
             Af dessa skäl och de skäl, som uttalats af ett par andra talare,
             anser jag mig böra yrka bifall äfven till mom. c).
@@ -2413,7 +2305,7 @@
         <note xml:id="i-B2SEXgavw3Yph3kpm4zQxw" type="speaker">
           Herr Zotterman, som nu anförde:
         </note>
-        <u xml:id="i-Lw5ZaryQkrkQvtraaYH3hc" who="i-2vjWAoBmHUpzL6KdsLKNbq" next="i-3KkHEHDuwymktnS3EHGbgv">
+        <u xml:id="i-Lw5ZaryQkrkQvtraaYH3hc" who="i-2vjWAoBmHUpzL6KdsLKNbq" next="i-VNTFaTXT7fbTgD8EWE25Eb">
           <seg xml:id="i-3u3VFWygQtSFXw15TmQBX7">
             I kongl. kungörelsen den 20 januari 1882 stadgas i $ 1 bland
             annat, att åt ordinarie lärare eller lärarinna vid folkskola äfven
@@ -2423,8 +2315,6 @@
             liter spanmil, hälften råg och hilften af det eller de andra sädesslag,
             1 hvilka kronotionden inom orten utgår, i ersättning lemnas.
           </seg>
-        </u>
-        <u xml:id="i-3KkHEHDuwymktnS3EHGbgv" who="i-2vjWAoBmHUpzL6KdsLKNbq" prev="i-Lw5ZaryQkrkQvtraaYH3hc" next="i-VNTFaTXT7fbTgD8EWE25Eb">
           <seg xml:id="i-UcU2qq1K36g7VHmw5iWnXx">
             Med anledning häraf tog jag, på uppmaning af ett stort skoldistrikts
             lärareförening, mig friheten att vid 1891 års riksdag väcka en
@@ -2461,7 +2351,7 @@
         <note xml:id="i-4sEMkdCigRzVR4D3y5m1wV" type="date">
           24 Lördagen den 22 April, e, m.
         </note>
-        <u xml:id="i-VNTFaTXT7fbTgD8EWE25Eb" who="i-2vjWAoBmHUpzL6KdsLKNbq" prev="i-3KkHEHDuwymktnS3EHGbgv" next="i-8W9NCcoKCfpwN96cethH4m">
+        <u xml:id="i-VNTFaTXT7fbTgD8EWE25Eb" who="i-2vjWAoBmHUpzL6KdsLKNbq" prev="i-Lw5ZaryQkrkQvtraaYH3hc" next="i-S2JiWiSNJDFM2uKCzpcExA">
           <seg xml:id="i-3SVyK32rsA15MVJRM2AZuy">
             utskott; i stället för att 1891 års utskott tillstyrkt bifall
             till förslaget, har nu utskottet afstyrkt detsamma. Då jag i år
@@ -2512,8 +2402,6 @@
             af det beslut, som urtima Riksdagen fattade i fjor: först genom
             tilläggsbevillningen, och så förlusten af kofodersersättningen.
           </seg>
-        </u>
-        <u xml:id="i-8W9NCcoKCfpwN96cethH4m" who="i-2vjWAoBmHUpzL6KdsLKNbq" prev="i-VNTFaTXT7fbTgD8EWE25Eb" next="i-S2JiWiSNJDFM2uKCzpcExA">
           <seg xml:id="i-Ts8Rtn3tbz9rpKdxs1jjVb">
             Då afsigten med min motion endast varit att få omhandlade kofoder
             och sommarbete ersatt med visst penningbelopp, och då jag tror,
@@ -2526,7 +2414,7 @@
         <note xml:id="i-879wWT1Gc2taEgvP9zf4RX" type="date">
           Lördagen den 22 April, e. m. 25 N:o 35.
         </note>
-        <u xml:id="i-S2JiWiSNJDFM2uKCzpcExA" who="i-2vjWAoBmHUpzL6KdsLKNbq" prev="i-8W9NCcoKCfpwN96cethH4m">
+        <u xml:id="i-S2JiWiSNJDFM2uKCzpcExA" who="i-2vjWAoBmHUpzL6KdsLKNbq" prev="i-VNTFaTXT7fbTgD8EWE25Eb">
           <seg xml:id="i-3is6W9CvSfbZaWX63qg4qy">
             herr talman, tillåta mig yrka afslag på utskottets hemställan
             i mom. b) 4ng. ändring
@@ -2539,7 +2427,7 @@
         <note xml:id="i-3wnM38Exs8h9MLS8j15hrv" type="speaker">
           Herr Nilsson i Skärhus:
         </note>
-        <u xml:id="i-UhSVHPvWBUSmLQN6binn2u" who="i-6GAocgVxQ6jiDDMLZHLu3d" next="i-9nJG2hy8iCsytBCADGLdC3">
+        <u xml:id="i-UhSVHPvWBUSmLQN6binn2u" who="i-6GAocgVxQ6jiDDMLZHLu3d">
           <seg xml:id="i-8ZzpZMUxqzpMzBgGvRYetD">
             Då jag nu erhållit kännedom om att utskottets hemställan å såväl
             mom. a) som å mom. b) godkänts af Första Kammaren, vill jag nu
@@ -2585,8 +2473,6 @@
             skulle kommunerna också komma att få lättare att bära de bördor,
             som äro med skolväsendet förenade.
           </seg>
-        </u>
-        <u xml:id="i-9nJG2hy8iCsytBCADGLdC3" who="i-6GAocgVxQ6jiDDMLZHLu3d" prev="i-UhSVHPvWBUSmLQN6binn2u">
           <seg xml:id="i-VC3yRcrZZwH3gwjY41kJmR">
             På grund häraf skall jag anhålla om proposition på bifall till
             motionen samt afslag på utskottets hemställan.
@@ -2599,30 +2485,22 @@
         <note xml:id="i-3pbTZk3SHEwnsDiA29Bmic" type="speaker">
           Ang. ändring Herr Hammarlund:
         </note>
-        <u xml:id="i-FbErFy6iUSYubVbvAwdjvp" who="i-AkkdfpGktUNP8mcA1ApJ7P" next="i-DHxn4oGQHpZYy7FQbKWKst">
+        <u xml:id="i-FbErFy6iUSYubVbvAwdjvp" who="i-AkkdfpGktUNP8mcA1ApJ7P" next="i-Wx2vtU9eBkANcptx91h6Up">
           <seg xml:id="i-A918T9D6qddinGjJJuc47A">
             Ja, vi stå nu å nyo inför den så mycket
           </seg>
-        </u>
-        <u xml:id="i-DHxn4oGQHpZYy7FQbKWKst" who="i-AkkdfpGktUNP8mcA1ApJ7P" prev="i-FbErFy6iUSYubVbvAwdjvp" next="i-49spf6E8zUxvPYMFDaRJQH">
           <seg xml:id="i-9kkiGGL541uCetrDyLKdaj">
             gär fy kskoleomtuggade kofodersfrågan. De gånger, denna fråga
             senast förevarit i
           </seg>
-        </u>
-        <u xml:id="i-49spf6E8zUxvPYMFDaRJQH" who="i-AkkdfpGktUNP8mcA1ApJ7P" prev="i-DHxn4oGQHpZYy7FQbKWKst" next="i-3V2rQ3mz42kxoD4Ftya8Z6">
           <seg xml:id="i-B79EeVbKFwDX6MNSTrA6rf">
             lans afönings- RIKSdagen, har jag icke yttrat mig i densamma;
             men då nu från ut-
           </seg>
-        </u>
-        <u xml:id="i-3V2rQ3mz42kxoD4Ftya8Z6" who="i-AkkdfpGktUNP8mcA1ApJ7P" prev="i-49spf6E8zUxvPYMFDaRJQH" next="i-5HzKfffUCqgbLB8EosEaPC">
           <seg xml:id="i-E46h2N6RUEC8PRZMbSMiDD">
             förhållanden. Skottet kommit en afstyrkande hemställan, må det
             tillåtas äfven mig (Forte.) att säga några ord 1 saken.
           </seg>
-        </u>
-        <u xml:id="i-5HzKfffUCqgbLB8EosEaPC" who="i-AkkdfpGktUNP8mcA1ApJ7P" prev="i-3V2rQ3mz42kxoD4Ftya8Z6" next="i-4HZ2xuYT5RsjZt6zkZdBLB">
           <seg xml:id="i-V9yCHnPF8xzRWFjBT1fJg3">
             Här föreligga två olika förslag. I fall man endast tager hänsyn
             till hvad som kan vara förmånligt för skollärarne, bör man gifva
@@ -2637,8 +2515,6 @@
             af dessa två motionärer, herrar Nilsson i Skärhus och Svensson
             1 Olseröd.
           </seg>
-        </u>
-        <u xml:id="i-4HZ2xuYT5RsjZt6zkZdBLB" who="i-AkkdfpGktUNP8mcA1ApJ7P" prev="i-5HzKfffUCqgbLB8EosEaPC" next="i-EuHzN8Bc28CjKzBnyMngUY">
           <seg xml:id="i-SMfZ8FTQm24Zus28LDB8mG">
             Utskottet har emellertid i år hvarken velat vara med om det ena
             eller det andra, utan har sagt rent nej. Åtskilliga af de skäl,
@@ -2651,8 +2527,6 @@
             vara att förvänta, att en säkrare uppfattning af stadgandets innebörd
             skall kunna i praxis utbilda sig».
           </seg>
-        </u>
-        <u xml:id="i-EuHzN8Bc28CjKzBnyMngUY" who="i-AkkdfpGktUNP8mcA1ApJ7P" prev="i-4HZ2xuYT5RsjZt6zkZdBLB" next="i-XV85ofGePZoF3n2nMWxLvz">
           <seg xml:id="i-2rr3rfyN6GHcQ9KuM2N7go">
             Jag betviflar, att denna »säkrare uppfattning» skall vinnas,
             så länge det nuvarande otydliga stadgandet står qvar i författningen.
@@ -2662,8 +2536,6 @@
             icke vara förskräckta, jag skall visst icke läsa upp alla dessa
             handlingar. Jag skall blott i största korthet omnämna dem.
           </seg>
-        </u>
-        <u xml:id="i-XV85ofGePZoF3n2nMWxLvz" who="i-AkkdfpGktUNP8mcA1ApJ7P" prev="i-EuHzN8Bc28CjKzBnyMngUY" next="i-H6Tkm6AzkPf1W6oJZRK7LN">
           <seg xml:id="i-QV6CC62T9WRdEnYfjXSq74">
             I det ena af dessa mål — det gälde en lärarinna 1 Gefleborgs
             län — förklarade länsstyrelsen lärarinnan berättigad till både
@@ -2672,24 +2544,18 @@
             för en lärarinna. Men Kongl. Maj:t förklarade henne berättigad
             till både sommarbete och vinterfoder för ko samt fähus och foderlada.
           </seg>
-        </u>
-        <u xml:id="i-H6Tkm6AzkPf1W6oJZRK7LN" who="i-AkkdfpGktUNP8mcA1ApJ7P" prev="i-XV85ofGePZoF3n2nMWxLvz" next="i-6wzNB1kASgdrCZaCknnHpB">
           <seg xml:id="i-YYvZhRLBkSUvazKb6Xf6XQ">
             Det andra målet gälde en folkskolelärare i samma län. Der kommo
             både länsstyrelsen, kammarkollegium och Kongl. Maj:t till alldeles
             samma åsigt, nemligen att läraren var berättigad till kofoder
             in natura, fähus och foderlada.
           </seg>
-        </u>
-        <u xml:id="i-6wzNB1kASgdrCZaCknnHpB" who="i-AkkdfpGktUNP8mcA1ApJ7P" prev="i-H6Tkm6AzkPf1W6oJZRK7LN" next="i-DrTw8zBNnA9PaNaNx1jv7S">
           <seg xml:id="i-8mVyA6phTV6iXgQifZZ7ax">
             Det tredje målet gälde en folkskolelärare i Vermlands län. Der
             rörde sig tvisten endast om fiäbus. Läraren vann i alla de olika
             instanserna, och församlingen blef ålagd att uppföra nytt fähus
             i stället för det gamla, som befunnits vara i odugligt skick.
           </seg>
-        </u>
-        <u xml:id="i-DrTw8zBNnA9PaNaNx1jv7S" who="i-AkkdfpGktUNP8mcA1ApJ7P" prev="i-6wzNB1kASgdrCZaCknnHpB" next="i-Wx2vtU9eBkANcptx91h6Up">
           <seg xml:id="i-BsoM3goBKP5RGvTzhWffjL">
             Det fjerde fallet gälde en lärare i Kronobergs län. Der förlorade
             läraren i alla instanserna och blef icke tillerkänd vare sig kofoder
@@ -2702,7 +2568,7 @@
         <note xml:id="i-Uh8NPbvzoQiRGN1SA9cVD1" type="date">
           Lördagen den 22 April, e. m. 27 N:o 35.
         </note>
-        <u xml:id="i-Wx2vtU9eBkANcptx91h6Up" who="i-AkkdfpGktUNP8mcA1ApJ7P" prev="i-DrTw8zBNnA9PaNaNx1jv7S" next="i-SyK6W884L7irKZnVUCq6ay">
+        <u xml:id="i-Wx2vtU9eBkANcptx91h6Up" who="i-AkkdfpGktUNP8mcA1ApJ7P" prev="i-FbErFy6iUSYubVbvAwdjvp" next="i-XWT3AvxAi5Xy5QwKvcwocz">
           <seg xml:id="i-4ckxn35L11dGPjXL7GTdxd">
             natura. Läraren företedde visserligen intyg af motsatt innehåll
             eller Ang. ändring att från församlingen årligen såldes åtskilliga
@@ -2714,8 +2580,6 @@
             länsstyrelsen och kammarkollegium som ock Kongl. Maj:t afslogo
             lärarens klagomål.
           </seg>
-        </u>
-        <u xml:id="i-SyK6W884L7irKZnVUCq6ay" who="i-AkkdfpGktUNP8mcA1ApJ7P" prev="i-Wx2vtU9eBkANcptx91h6Up" next="i-2wJKFxVBfZTWjuYevRLBom">
           <seg xml:id="i-UrLCEtWPTwQbAYjhPhcxah">
             Icke kan man just med utskottet säga, att dessa utslag bidragit
             till »en säkrare uppfattning af stadgandets innebörd». Af dessa
@@ -2734,8 +2598,6 @@
             hvad är »svårighet», och hvad är de »lokala» eller de »andra förhållanden&gt;,
             om hvilka här talas?
           </seg>
-        </u>
-        <u xml:id="i-2wJKFxVBfZTWjuYevRLBom" who="i-AkkdfpGktUNP8mcA1ApJ7P" prev="i-SyK6W884L7irKZnVUCq6ay" next="i-N82Q5EpN8QqqHbwGA4XWxE">
           <seg xml:id="i-X6zE11k2cGqQvY9r9HeP9C">
             Ett godt förhållande emellan lärare och församling är för skolarbetets
             framgång 1 högsta måtto önskvärdt. Men oklara och sväfvande bestämmelser
@@ -2751,8 +2613,6 @@
             till ett kroniskt ondt för skolan; det är verkligen hög tid att
             söka råda bot härför.
           </seg>
-        </u>
-        <u xml:id="i-N82Q5EpN8QqqHbwGA4XWxE" who="i-AkkdfpGktUNP8mcA1ApJ7P" prev="i-2wJKFxVBfZTWjuYevRLBom" next="i-Snn7ToXSYLz8u2vtREqNVx">
           <seg xml:id="i-D55HGMxLW1jDRQCrwvLLVJ">
             Det kan visserligen invändas, att frågan härigenom icke fått
             sin slutliga lösning. Men resultatet af ett bifall till denna
@@ -2766,8 +2626,6 @@
             hafva emellertid lärarne nöjt sig med hvad de fått, hellre än
             att börja en alltid obehaglig rättstvist.
           </seg>
-        </u>
-        <u xml:id="i-Snn7ToXSYLz8u2vtREqNVx" who="i-AkkdfpGktUNP8mcA1ApJ7P" prev="i-N82Q5EpN8QqqHbwGA4XWxE" next="i-XWT3AvxAi5Xy5QwKvcwocz">
           <seg xml:id="i-6LB8iYQb3fFAFhzoWnrhtT">
             Herrar Nilssons och Svenssons motion afser ingen ändring i sjelfva
             stadgandet om lärarnes aflöning, utan rör endast statsbidraget.
@@ -2788,7 +2646,7 @@
         <note xml:id="i-QQj3kiVEsYwM3fYigs1MsH" type="date">
           28 Lördagen den 22 April, e. m.
         </note>
-        <u xml:id="i-XWT3AvxAi5Xy5QwKvcwocz" who="i-AkkdfpGktUNP8mcA1ApJ7P" prev="i-Snn7ToXSYLz8u2vtREqNVx">
+        <u xml:id="i-XWT3AvxAi5Xy5QwKvcwocz" who="i-AkkdfpGktUNP8mcA1ApJ7P" prev="i-Wx2vtU9eBkANcptx91h6Up">
           <seg xml:id="i-WNebXyC1PmnzJJj2BMMRZ9">
             Som sagdt, jag ber att få yrka, att kammaren med afslag å utskottets
             hemställan bifaller det i herrar Nilssons och Svenssons motion
@@ -2801,7 +2659,7 @@
         <note xml:id="i-FDLWTMtLMJaQG6vdwzfpQu" type="speaker">
           Herr Göransson:
         </note>
-        <u xml:id="i-6Det3v2qy34geDrhE2Z7GB" who="i-3z5QgX8Q2XCayRRfyLgVy2" next="i-SkuFexwWiZJDuVtkpQkuao">
+        <u xml:id="i-6Det3v2qy34geDrhE2Z7GB" who="i-3z5QgX8Q2XCayRRfyLgVy2" next="i-FqJt4JRZkMXacfqD75nAeA">
           <seg xml:id="i-UjRuHQUCZhcG6UAsAd7GTS">
             Herr talman, mine herrar! Utskottet har erkänt, att det nuvarande
             stadgandet om folkskolelärares rätt till kofoder eller ersättning
@@ -2848,8 +2706,6 @@
             utan på det högsta skadligt såväl för skolan som för både lärare
             och församling.
           </seg>
-        </u>
-        <u xml:id="i-SkuFexwWiZJDuVtkpQkuao" who="i-3z5QgX8Q2XCayRRfyLgVy2" prev="i-6Det3v2qy34geDrhE2Z7GB" next="i-FqJt4JRZkMXacfqD75nAeA">
           <seg xml:id="i-Mq4mbAQzL3MVLUvHxKrMs3">
             Jag yttrade mig förra året i denna fråga och antydde då, att
             jag fäste mig icke så mycket vid huruvida man skulle få statsbidrag
@@ -2861,7 +2717,7 @@
         <note xml:id="i-9iiJ5fpq2FUiyhKejcrBEy" type="date">
           Lördagen den 22 April, e. m. 29 N:o 35.
         </note>
-        <u xml:id="i-FqJt4JRZkMXacfqD75nAeA" who="i-3z5QgX8Q2XCayRRfyLgVy2" prev="i-SkuFexwWiZJDuVtkpQkuao">
+        <u xml:id="i-FqJt4JRZkMXacfqD75nAeA" who="i-3z5QgX8Q2XCayRRfyLgVy2" prev="i-6Det3v2qy34geDrhE2Z7GB">
           <seg xml:id="i-EQ9BjBXqtEp7XNqZwhUuWr">
             få ett belopp bestämdt i kontant såsom ersättning för kofoder,
             och 4ng. ändring denna åsigt vidhåller jag ännu. Men om det är
@@ -2893,7 +2749,7 @@
         <note xml:id="i-Aq2mJZCRp3a2imKW6mBjQJ" type="speaker">
           Herr Östberg anförde:
         </note>
-        <u xml:id="i-UP7hEnR6Y9kHWj9eiS6aJe" who="i-QfeDyZ27DQmH17bsjAZDYK" next="i-8p5qcEwdQ9cUCKrVU3T4Bq">
+        <u xml:id="i-UP7hEnR6Y9kHWj9eiS6aJe" who="i-QfeDyZ27DQmH17bsjAZDYK">
           <seg xml:id="i-65JgMXrcV7KjYsjRTsP5hY">
             Herr talman! Det kan icke förnekas, att olägenheter förefinnas
             i åtskilliga fall till följd utaf nu gällande bestämmelser rörande
@@ -2908,8 +2764,6 @@
             med hänvisande till statsverkets ställning för närvarande, afstyrka
             bifall till det framstälda förslaget.
           </seg>
-        </u>
-        <u xml:id="i-8p5qcEwdQ9cUCKrVU3T4Bq" who="i-QfeDyZ27DQmH17bsjAZDYK" prev="i-UP7hEnR6Y9kHWj9eiS6aJe" next="i-RSRpUJAZ1TikRT8WqZWjqD">
           <seg xml:id="i-YCUTM65kA7PgYSumD5NELY">
             Herr Zottermau yttrade, att han ansåg det vara orätt, att folkskolelärarne
             särskildt skulle komma att drabbas utaf de beslut, som fattades
@@ -2921,8 +2775,6 @@
             förändring, och det har framför allt icke varit meningen att åstadkomma
             någon förändring i deras förmåner.
           </seg>
-        </u>
-        <u xml:id="i-RSRpUJAZ1TikRT8WqZWjqD" who="i-QfeDyZ27DQmH17bsjAZDYK" prev="i-8p5qcEwdQ9cUCKrVU3T4Bq">
           <seg xml:id="i-U7cKxqBp6cVrTtvK7kNiE7">
             Det ställer sig så, att frågan egentligen gäller öfverflyttandet
             från kommunerna till staten af ett årligt skattebelopp. Jag kan
@@ -2971,7 +2823,7 @@
         <note xml:id="i-RnxUj2a1iYEDCdb5UhvqeM" type="speaker">
           Herr Petersson i Runtorp:
         </note>
-        <u xml:id="i-5kp3zbNALq6ZX3upzXu7M9" who="i-EVAXcoxBqZMW8GMthp2eHa" next="i-W9qymNTsJGZ8Je5kGVXLR7">
+        <u xml:id="i-5kp3zbNALq6ZX3upzXu7M9" who="i-EVAXcoxBqZMW8GMthp2eHa" next="i-GJQTA7qb6a7AbsPh4N1Bgo">
           <seg xml:id="i-SmW1HAjHgDHA933aK2UxWh">
             Herr talman, mine herrar! Dåjag inom utskottet varit med om det
             förslag, som utskottet här framstält, skall jag be att få säga
@@ -2992,8 +2844,6 @@
             man slagtar den aldrig så ofta, kommer den ändå igen, tills den
             går igenom.
           </seg>
-        </u>
-        <u xml:id="i-W9qymNTsJGZ8Je5kGVXLR7" who="i-EVAXcoxBqZMW8GMthp2eHa" prev="i-5kp3zbNALq6ZX3upzXu7M9" next="i-EMrg5aketVy7mYzQddPkfh">
           <seg xml:id="i-SnKdRMcgTMWPTM9ex1bD7D">
             Jag anser det icke vara lämpligt att bifalla herr Zottermans
             motion och ålägga kommunerna att ensamma utbetala denna kofodersersättning,
@@ -3001,8 +2851,6 @@
             man tvingades att betala mycket mer i ersättning för kofoder,
             än hvad detta verkligen vore värdt.
           </seg>
-        </u>
-        <u xml:id="i-EMrg5aketVy7mYzQddPkfh" who="i-EVAXcoxBqZMW8GMthp2eHa" prev="i-W9qymNTsJGZ8Je5kGVXLR7" next="i-GJQTA7qb6a7AbsPh4N1Bgo">
           <seg xml:id="i-HNqytJ2YPqY3Zo35587QSZ">
             Här har talats om sämja och enighet mellan lärarne och kommunerna,
             men icke skulle ett sådant beslut bidraga till detta goda förhållande,
@@ -3020,7 +2868,7 @@
         <note xml:id="i-3EyM88XS11hNwhwV5wLjFN" type="date">
           Lördagen den 22 April, e. m. 31 N:o 35.
         </note>
-        <u xml:id="i-GJQTA7qb6a7AbsPh4N1Bgo" who="i-EVAXcoxBqZMW8GMthp2eHa" prev="i-EMrg5aketVy7mYzQddPkfh" next="i-BJtGPUq5VK3JbKvwnpnFbF">
+        <u xml:id="i-GJQTA7qb6a7AbsPh4N1Bgo" who="i-EVAXcoxBqZMW8GMthp2eHa" prev="i-5kp3zbNALq6ZX3upzXu7M9">
           <seg xml:id="i-PVany4NqUWtYG97jNBWJyc">
             förhöjning för folkskolelärarne, hvilka emellertid icke hafva
             det sämre Ang. ändring än hvad folk i allmänhet har; det tror
@@ -3031,49 +2879,33 @@
             när tiden — (Forts.) vore inne och staten hade råd dertill. Så
             tycker jag att man bör upp-
           </seg>
-        </u>
-        <u xml:id="i-BJtGPUq5VK3JbKvwnpnFbF" who="i-EVAXcoxBqZMW8GMthp2eHa" prev="i-GJQTA7qb6a7AbsPh4N1Bgo" next="i-Uv4aBNjBfaM9VLawW3k1w8">
           <seg xml:id="i-GZZPicEPnXoPBmnVSzyZ9T">
             fatta frågan för närvarande, och jag tror derför, att utskottet
             har
           </seg>
-        </u>
-        <u xml:id="i-Uv4aBNjBfaM9VLawW3k1w8" who="i-EVAXcoxBqZMW8GMthp2eHa" prev="i-BJtGPUq5VK3JbKvwnpnFbF" next="i-PDa2FYW7EYRVoL5XEVyq7M">
           <seg xml:id="i-7WuUMLZDSDhamMu72SDG4Y">
             handlat klokt, då det för närvarande hemstält om afslag å såväl
             det
           </seg>
-        </u>
-        <u xml:id="i-PDa2FYW7EYRVoL5XEVyq7M" who="i-EVAXcoxBqZMW8GMthp2eHa" prev="i-Uv4aBNjBfaM9VLawW3k1w8" next="i-9UD9trhESbWZfD5ZkbaGRL">
           <seg xml:id="i-HtH5wBwNyfXqCNTo11yoUL">
             ena som det andra förslaget. Men det försäkrar jag herrarne,
             att jag
           </seg>
-        </u>
-        <u xml:id="i-9UD9trhESbWZfD5ZkbaGRL" who="i-EVAXcoxBqZMW8GMthp2eHa" prev="i-PDa2FYW7EYRVoL5XEVyq7M" next="i-FvSHE5oGDN1HAqAZNpAipL">
           <seg xml:id="i-MosbQF7GkMWiRpFbyDw9me">
             har ingenting mot sjelfva saken; jag skulle till och med ha varit
             med
           </seg>
-        </u>
-        <u xml:id="i-FvSHE5oGDN1HAqAZNpAipL" who="i-EVAXcoxBqZMW8GMthp2eHa" prev="i-9UD9trhESbWZfD5ZkbaGRL" next="i-SS9gxhG6WC3V1qT1AzjZzr">
           <seg xml:id="i-U2CPgFFHHVa52Fqz6DexjA">
             om förslaget nu, om jag icke hade trott, att det icke kan gå
             igenom
           </seg>
-        </u>
-        <u xml:id="i-SS9gxhG6WC3V1qT1AzjZzr" who="i-EVAXcoxBqZMW8GMthp2eHa" prev="i-FvSHE5oGDN1HAqAZNpAipL" next="i-4ZfaK1viv3ytJ7f3sJ2isr">
           <seg xml:id="i-8YsSDEx1h4LciW51JoEi3u">
             vid denna riksdag. Äfven om man kunde drifva det till gemensam
           </seg>
-        </u>
-        <u xml:id="i-4ZfaK1viv3ytJ7f3sJ2isr" who="i-EVAXcoxBqZMW8GMthp2eHa" prev="i-SS9gxhG6WC3V1qT1AzjZzr" next="i-6e5EUxpBdDiDKN1DrnEchd">
           <seg xml:id="i-N3Pmivf6jyRbe4KABBqtW2">
             votering, tror jag, att man ändå icke för närvarande skulle kunna
             få
           </seg>
-        </u>
-        <u xml:id="i-6e5EUxpBdDiDKN1DrnEchd" who="i-EVAXcoxBqZMW8GMthp2eHa" prev="i-4ZfaK1viv3ytJ7f3sJ2isr">
           <seg xml:id="i-Lu6hTHbwNrS1ywcRj9KBNd">
             förslaget igenom. Jag yrkar bifall till utskottets förslag.
           </seg>
@@ -3081,7 +2913,7 @@
         <note xml:id="i-14U37771wjgm45pAykuW9u" type="speaker">
           Herr Zotterman:
         </note>
-        <u xml:id="i-hT1oC7VuHsPLcHeQgNxKW" who="i-2vjWAoBmHUpzL6KdsLKNbq" next="i-Fw9cHTxjYM7AJqVyEb2TrP">
+        <u xml:id="i-hT1oC7VuHsPLcHeQgNxKW" who="i-2vjWAoBmHUpzL6KdsLKNbq" next="i-9zzk6eQweQfsApzoLxhdS3">
           <seg xml:id="i-418GQDHEHPs1NnHnTgikQH">
             Herr talman! Det var med anledning af ett uttalande från stockholmslänsbänken
             som jag blef uppfordrad att yttra några ord. Den ärade talaren
@@ -3094,8 +2926,6 @@
             Jo, det är just det, det är; det är här verkligen fråga om en
             förändring af lärarnes löneförmåner.
           </seg>
-        </u>
-        <u xml:id="i-Fw9cHTxjYM7AJqVyEb2TrP" who="i-2vjWAoBmHUpzL6KdsLKNbq" prev="i-hT1oC7VuHsPLcHeQgNxKW" next="i-9zzk6eQweQfsApzoLxhdS3">
           <seg xml:id="i-GFF7gtiVqiYdFCPPMh9ZSb">
             Jag skall be att få för kammaren citera två uttalanden af utskottet
             — de äro mycket korta. På ett ställe heter det: »Nekas kan emellertid
@@ -3129,7 +2959,7 @@
         <note xml:id="i-LEsBv1ZKANFSkXZ4ZmJnFB" type="date">
           N:o 35. 32 Lördagen den 22 April, e. m.
         </note>
-        <u xml:id="i-9zzk6eQweQfsApzoLxhdS3" who="i-2vjWAoBmHUpzL6KdsLKNbq" prev="i-Fw9cHTxjYM7AJqVyEb2TrP">
+        <u xml:id="i-9zzk6eQweQfsApzoLxhdS3" who="i-2vjWAoBmHUpzL6KdsLKNbq" prev="i-hT1oC7VuHsPLcHeQgNxKW">
           <seg xml:id="i-RtqQ7egCaGNKm3xuKvS7Ax">
             Ang. ändring detta, jag har velat protestera, och jag hoppas
             och tror, att Andra jå folkekole-" Kammaren derutinnan skall vara
@@ -3231,7 +3061,7 @@
         <note xml:id="i-JNPEN7WfSnVXWLo8eqLXGW" type="speaker">
           Herr vice talmannen Danielson:
         </note>
-        <u xml:id="i-XGuJRjniyFo7ERJVCF6RYN" who="i-XEaguj6e5odu6YoYQ7mu5L" next="i-KAj1Pk3dvawtQ3WK9e6taq">
+        <u xml:id="i-XGuJRjniyFo7ERJVCF6RYN" who="i-XEaguj6e5odu6YoYQ7mu5L">
           <seg xml:id="i-DMAU7BtfaNkBbYsPuhsW2d">
             Jag kan icke underlåta att säga, att det förefaller mig något
             märkvärdigt, att man här söker drifva fram denna fråga, då vi
@@ -3251,15 +3081,11 @@
             Det kan med rätta sättas i fråga en helt annan synpunkt, synes
             det mig. Denna fråga är ej så angelägen.
           </seg>
-        </u>
-        <u xml:id="i-KAj1Pk3dvawtQ3WK9e6taq" who="i-XEaguj6e5odu6YoYQ7mu5L" prev="i-XGuJRjniyFo7ERJVCF6RYN" next="i-QLQ8dD3fxg7mAeDrxY2Phj">
           <seg xml:id="i-k4TdmmVyQhNr1mkdSq2zj">
             Herrarne tala om tvister mellan skollärare och församlingar.
             Några sådana har jag ej hört förekomma på den ort jag tillhör.
             Jag känner ej något exempel derpå.
           </seg>
-        </u>
-        <u xml:id="i-QLQ8dD3fxg7mAeDrxY2Phj" who="i-XEaguj6e5odu6YoYQ7mu5L" prev="i-KAj1Pk3dvawtQ3WK9e6taq" next="i-TyjKBgY3T34Eu941xD6SG">
           <seg xml:id="i-Scjybvu3AW1N94buDJr4Ud">
             Det har sagts, att här icke afses en löneförhöjning för lärarne.
             Då så är, synes frågan ej af den beskaffenhet, att den behöfver
@@ -3269,8 +3095,6 @@
             en half million kronor. Vi borde ej reflektera härpå, så länge
             vi hafva tilläggsbevillning. .
           </seg>
-        </u>
-        <u xml:id="i-TyjKBgY3T34Eu941xD6SG" who="i-XEaguj6e5odu6YoYQ7mu5L" prev="i-QLQ8dD3fxg7mAeDrxY2Phj">
           <seg xml:id="i-Cg39cEd9Xjr33jcufikzCS">
             Då jag anser utskottets resonnement vara rigtigt, yrkar jag bifall
             till dess hemställan.
@@ -3319,13 +3143,11 @@
         <note xml:id="i-FTZNPqQtF5XVUEe9bR5rQM" type="speaker">
           Herr von Friesen:
         </note>
-        <u xml:id="i-CCVr3iUr8yaVznxS2gc84h" who="i-PfWLQcWc1zHmdsEJAzj7vd" next="i-3KAaxCb5WayBKzTjHMczaa">
+        <u xml:id="i-CCVr3iUr8yaVznxS2gc84h" who="i-PfWLQcWc1zHmdsEJAzj7vd">
           <seg xml:id="i-QvhSwiVG1Gim3BHzG8LQ8h">
             Herr talman! Jag begärde ordet med anledning af herr vice talmannens
             anförande.
           </seg>
-        </u>
-        <u xml:id="i-3KAaxCb5WayBKzTjHMczaa" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-CCVr3iUr8yaVznxS2gc84h" next="i-FcLm9d2pNq4SydAbv6Eiec">
           <seg xml:id="i-8rbZFYznbG5vb3sGUSrMj7">
             Det är ej af egoistiska skäl man nu skulle bifalla förevarande
             motion. Det är icke, åtminstone ej uteslutande, för att bereda
@@ -3333,8 +3155,6 @@
             är hufvudsakligen för att rätta ett missförhållande i folkskolelärarnes
             aflöningsförhållanden som denna motion blifvit väckt. .
           </seg>
-        </u>
-        <u xml:id="i-FcLm9d2pNq4SydAbv6Eiec" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-3KAaxCb5WayBKzTjHMczaa" next="i-L2bBxXxLcxmcpKyAweUtRe">
           <seg xml:id="i-BjcvmqnhA6nxYaNRdzFeX6">
             Herr vice talmannen nämnde visserligen, att han ej hört talas
             om tvister mellan folkskolelärare och församling i fråga om kofodret.
@@ -3348,8 +3168,6 @@
             i samma proportion som staten bidrager till den öfriga kontanta
             aflöningen åt folkskolelärarne. Den saken förefaller klar.
           </seg>
-        </u>
-        <u xml:id="i-L2bBxXxLcxmcpKyAweUtRe" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-FcLm9d2pNq4SydAbv6Eiec" next="i-V34ocDE1YSCgNzN8h9EJZm">
           <seg xml:id="i-E43W1nw1sCeBhXY9gAsMuf">
             Nu invänder man, att den finansiella ställningen för närvarande
             icke är så särdeles lysande. Jag har ej något intresse af att
@@ -3362,8 +3180,6 @@
             att tilläggsbevillning finnes, böra utgöra hinder för bifall till
             motionen.
           </seg>
-        </u>
-        <u xml:id="i-V34ocDE1YSCgNzN8h9EJZm" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-L2bBxXxLcxmcpKyAweUtRe">
           <seg xml:id="i-BuRejxKgr2NN1DquwCd37n">
             Jag ber att få vidhålla den åsigt, jag uttalat i reservationen,
             och yrkar bifall till herrar Nilssons och Svenssons motion.
@@ -3394,7 +3210,7 @@
         <note xml:id="i-FHJcBZvy96oEUJGYJAWWE1" type="date">
           Lördagen den 22 April, e. m. 35 N:o 35.
         </note>
-        <u xml:id="i-DaMp7yQpDw2giEnYbEM5fs" who="i-XEaguj6e5odu6YoYQ7mu5L" prev="i-HLvs2XXthGAhqWbMCXyG5q" next="i-SYcZvfNnYFjTAYWaySg8Ch">
+        <u xml:id="i-DaMp7yQpDw2giEnYbEM5fs" who="i-XEaguj6e5odu6YoYQ7mu5L" prev="i-HLvs2XXthGAhqWbMCXyG5q">
           <seg xml:id="i-KsWhvcfi66z5GMJLSgiz11">
             Skolläraren skall hafva 8 hektoliter. Sju gånger 8 är 56. Således
             4ng. ändring högst omkring 60 kronor. Följaktligen skulle man
@@ -3407,8 +3223,6 @@
             Kan det verkligen vara skäl att utan egentlig anledning öka utgifterna
             för staten utan någon afsevärd lindring för kommunen?
           </seg>
-        </u>
-        <u xml:id="i-SYcZvfNnYFjTAYWaySg8Ch" who="i-XEaguj6e5odu6YoYQ7mu5L" prev="i-DaMp7yQpDw2giEnYbEM5fs" next="i-Sx2mWyjVpHQDj1oQ1XkGRF">
           <seg xml:id="i-83ii9otWLWPVmanXPcSLER">
             Hvad den omtalade tvistigheten med afseende på ersättningen af
             detta belopp beträffar, så reducerar den sig i verkligheten, såsom
@@ -3419,8 +3233,6 @@
             så att utan vilkor kofodret ersättes med 8 hektoliter 25 liter
             spanmål.
           </seg>
-        </u>
-        <u xml:id="i-Sx2mWyjVpHQDj1oQ1XkGRF" who="i-XEaguj6e5odu6YoYQ7mu5L" prev="i-SYcZvfNnYFjTAYWaySg8Ch">
           <seg xml:id="i-7fov3jTUyctv778zHfytkh">
             Jag yrkar bifall till utskottets hemställan.
           </seg>
@@ -3525,7 +3337,7 @@
         <note xml:id="i-EueamZkY5eN1Xuu42Fm4QW" type="speaker">
           Herr Brodin:
         </note>
-        <u xml:id="i-Q4AyevXXBGvrj6pHmJC1gk" who="i-MnpRCQi1c4oPRb8RrpTepV" next="i-JWjD9SUihz7caB8xHTVFFx">
+        <u xml:id="i-Q4AyevXXBGvrj6pHmJC1gk" who="i-MnpRCQi1c4oPRb8RrpTepV">
           <seg xml:id="i-H6rDxNrdQiTRQSTNvZ6Upx">
             Jag tager mig friheten att påpeka, att det finnes åtskilliga
             andra paragrafer i den nya sjölagen, som äro i behof af förändring
@@ -3538,8 +3350,6 @@
             i det syfte, att sjölagen blefve öfverensstämmande dessa länder
             emellan.
           </seg>
-        </u>
-        <u xml:id="i-JWjD9SUihz7caB8xHTVFFx" who="i-MnpRCQi1c4oPRb8RrpTepV" prev="i-Q4AyevXXBGvrj6pHmJC1gk">
           <seg xml:id="i-4BSHo8stMBuc8qSvM2e9yN">
             Jag vill icke göra något yrkande, utan har endast velat påpeka
             detta förhållande.
@@ -3548,12 +3358,10 @@
         <note xml:id="i-EzFE2CAKHvWnMAirgHndUE" type="speaker">
           Herr Svensson från Karlskrona:
         </note>
-        <u xml:id="i-BUiDWhC5rcRdo6iejGF4vG" who="unknown" next="i-BRxtfoUfuVqwxAgfFbKsLG">
+        <u xml:id="i-BUiDWhC5rcRdo6iejGF4vG" who="unknown" next="i-ArVJXE26tvjfzpc1goZVTF">
           <seg xml:id="i-SpxLbe3kcmpyE4PkTMRT8v">
             Jag skall deremot be att få yrka bifall till utskottets hemställan.
           </seg>
-        </u>
-        <u xml:id="i-BRxtfoUfuVqwxAgfFbKsLG" who="unknown" prev="i-BUiDWhC5rcRdo6iejGF4vG" next="i-ArVJXE26tvjfzpc1goZVTF">
           <seg xml:id="i-GR3hacm656jBvCdNTT88TT">
             Här har påpekats, att det borde vara enighet mellan de skandinaviska
             ländernas lagstiftning i förevarande hänseende. Detta var äfven
@@ -3569,7 +3377,7 @@
         <note xml:id="i-2f3KMSmF3yH8XDgLjHqimj" type="date">
           Lördagen den 22 April, e. m. 37 N:o 35.
         </note>
-        <u xml:id="i-ArVJXE26tvjfzpc1goZVTF" who="unknown" prev="i-BRxtfoUfuVqwxAgfFbKsLG" next="i-3f1Ai2W3v7kP39azWMerZB">
+        <u xml:id="i-ArVJXE26tvjfzpc1goZVTF" who="unknown" prev="i-BUiDWhC5rcRdo6iejGF4vG">
           <seg xml:id="i-RWoqHhryFggkv7j4ppguUw">
             men det är nu här icke fråga om att antaga en redaktionsförändringAng.
             ändring i af den sjölag, som här redan trädt i kraft, utan endast
@@ -3577,16 +3385,12 @@
             med förslag till sådana bestäm- (Forts) melser, som kunna blifva
             en följd af den ändring, som nu anses erforderlig.
           </seg>
-        </u>
-        <u xml:id="i-3f1Ai2W3v7kP39azWMerZB" who="unknown" prev="i-ArVJXE26tvjfzpc1goZVTF" next="i-TmGJes5xhdVgCvfREwtoFk">
           <seg xml:id="i-5aqGXKCQtnyRaTgKUALhbK">
             Det påpekades nyss, att det fans äfven andra paragrafer, som
             behöfde ändras. Det faller af sig sjelft, att, när ärendet öfverlemnas
             till Kongl. Maj:t och andra ändringar behöfvas, Kongl. Maj:t då
             icke lärer underlåta att äfven göra förslag till sådana ändringar.
           </seg>
-        </u>
-        <u xml:id="i-TmGJes5xhdVgCvfREwtoFk" who="unknown" prev="i-3f1Ai2W3v7kP39azWMerZB">
           <seg xml:id="i-UqKZ4A1B16jHwBUrRmT8BH">
             Herr talman! Jag skall förnya det yrkande, jag nyss gjorde om
             bifall till utskottets föreliggande förslag.
@@ -3643,7 +3447,7 @@
         <note xml:id="i-CDrtXcYRXnir1LhtVfS5cJ" type="speaker">
           Herr Jansson i Saxhyttan, som yttrade:
         </note>
-        <u xml:id="i-G5XMvkjwmco2o9etMxWFeE" who="i-SbQ2rNfR1kBpANehdZizMF" next="i-QqoXgtuQNZJJZr6YWEGduv">
+        <u xml:id="i-G5XMvkjwmco2o9etMxWFeE" who="i-SbQ2rNfR1kBpANehdZizMF">
           <seg xml:id="i-VS1kVK6kiCjPzv3eKGGqFc">
             Utskottet angifver såsom skäl för sitt afslag :å motionen, att,
             »så vidt utskottet har sig bekant, gällande bestämmelser i det
@@ -3652,8 +3456,6 @@
             innefatta giltig anledning till en rubbning af bestående förhållanden
             ».
           </seg>
-        </u>
-        <u xml:id="i-QqoXgtuQNZJJZr6YWEGduv" who="i-SbQ2rNfR1kBpANehdZizMF" prev="i-G5XMvkjwmco2o9etMxWFeE">
           <seg xml:id="i-GjzN8NKhnLFX63rgNdp79r">
             Jag vill omnämna, att då jag påpekat, hurusom vid ett prestval
             i den församling, jag tillhör, 5 personer blefvo med stor majoritet
@@ -3765,7 +3567,7 @@
           framställning inskränka fastighetsegarnes röstetal i så hög grad
           som föreslagits, hvadan utskottet afstyrkt förslaget.
         </note>
-        <u xml:id="i-55Qv4KChzh8an3KkqLG2GX" who="i-SEkwyQpsXcKbAe8gK5hnv" prev="i-GZhoziTLxvT6eGtcmsoFr7" next="i-UYsnngfBUzsyPG2qkdfDGG">
+        <u xml:id="i-55Qv4KChzh8an3KkqLG2GX" who="i-SEkwyQpsXcKbAe8gK5hnv" prev="i-GZhoziTLxvT6eGtcmsoFr7" next="i-Pecu4kVDAtCsGa1XLo6iqH">
           <seg xml:id="i-Wf8sK1pwn7zmCueczHKLLS">
             Om man nu också skulle tilltro sig att på så lösa skäl, som motionären
             anfört, och utan någon som helst utredning om hvarthän en sådan
@@ -3788,8 +3590,6 @@
             andra skatteföremål till följd deraf möjligen kunna öfverrösta
             fastigheterna.
           </seg>
-        </u>
-        <u xml:id="i-UYsnngfBUzsyPG2qkdfDGG" who="i-SEkwyQpsXcKbAe8gK5hnv" prev="i-55Qv4KChzh8an3KkqLG2GX" next="i-Pecu4kVDAtCsGa1XLo6iqH">
           <seg xml:id="i-Rkbhg4k4CuNwRuU7PqSye">
             Mig tyckes verkligen, att det är allt för obetänksamt att på
             så lösa skäl och utan någon som helst insigt om verkningarna deraf
@@ -3810,7 +3610,7 @@
         <note xml:id="i-RkUbGBnBkqREgymeNHM3Uv">
           stämmelser rörande rösträt
         </note>
-        <u xml:id="i-Pecu4kVDAtCsGa1XLo6iqH" who="i-SEkwyQpsXcKbAe8gK5hnv" prev="i-UYsnngfBUzsyPG2qkdfDGG" next="i-TuwsadHxDiQBoQqKtcYcMd">
+        <u xml:id="i-Pecu4kVDAtCsGa1XLo6iqH" who="i-SEkwyQpsXcKbAe8gK5hnv" prev="i-55Qv4KChzh8an3KkqLG2GX" next="i-TuwsadHxDiQBoQqKtcYcMd">
           <seg xml:id="i-4WLPLGfgxx6rXrRxTwSpdP">
             och tror, att ett bifall till motionen skulle stå väl tillsammans
             med
@@ -3823,12 +3623,10 @@
         <note xml:id="i-Pew682Qp5n2VF1MikVwdND">
           (Forts.)
         </note>
-        <u xml:id="i-TuwsadHxDiQBoQqKtcYcMd" who="i-SEkwyQpsXcKbAe8gK5hnv" prev="i-Pecu4kVDAtCsGa1XLo6iqH" next="i-FGQpx6DaWzYNcG9tALK2oJ">
+        <u xml:id="i-TuwsadHxDiQBoQqKtcYcMd" who="i-SEkwyQpsXcKbAe8gK5hnv" prev="i-Pecu4kVDAtCsGa1XLo6iqH">
           <seg xml:id="i-AoEAZtKiwHPrQZw7jig97J">
             mare så många gånger uttalat sig.
           </seg>
-        </u>
-        <u xml:id="i-FGQpx6DaWzYNcG9tALK2oJ" who="i-SEkwyQpsXcKbAe8gK5hnv" prev="i-TuwsadHxDiQBoQqKtcYcMd" next="i-AGSZ8tDRMWD3odJK58MGLU">
           <seg xml:id="i-8hw3LdJVY3E5kQVFaVWqDE">
             Den näst föregående talaren framhöll de olika bestämmelser, som
             gälla i afseende på rösträtt för fastighet och rösträtt för andra
@@ -3842,8 +3640,6 @@
             till jemkning härutinnan. Att derför skulle behöfvas en vidlyftig
             statistisk utredning, kan jag icke fatta.
           </seg>
-        </u>
-        <u xml:id="i-AGSZ8tDRMWD3odJK58MGLU" who="i-SEkwyQpsXcKbAe8gK5hnv" prev="i-FGQpx6DaWzYNcG9tALK2oJ">
           <seg xml:id="i-AgVsNc1dto2Gxhvc3dJ4Li">
             Jag tror, att man mycket väl skulle kunna bifalla motionärens
             förslag, hvartill jag derför yrkar bifall.
@@ -3855,7 +3651,7 @@
         <note xml:id="i-8Lc8EmpuECnUBUhBwuaAUn" type="speaker">
           Herr Petersson i Brystorp:
         </note>
-        <u xml:id="i-Ga7YZSf52i2PY6VJGpKznT" who="i-KWE8Jd2fQ6jihQBAR75RW6" next="i-SEDfVdTGfAKJTVdjaLhZ2z">
+        <u xml:id="i-Ga7YZSf52i2PY6VJGpKznT" who="i-KWE8Jd2fQ6jihQBAR75RW6" next="i-GBTZRPEzm4CYpGCnZhzFMx">
           <seg xml:id="i-LVWqyhQDstpdT6Npm7ufiv">
             Herr talman, mine herrar! Häradshöfding Wester talade om att
             det vore betänkligt, att man icke visste, huru jordbruksfastighetsegarnes
@@ -3875,8 +3671,6 @@
             hvad ligger det då för fara uti att jordbruksfastighet ej skulle
             få rösta för mer än !/,,?
           </seg>
-        </u>
-        <u xml:id="i-SEDfVdTGfAKJTVdjaLhZ2z" who="i-KWE8Jd2fQ6jihQBAR75RW6" prev="i-Ga7YZSf52i2PY6VJGpKznT" next="i-GBTZRPEzm4CYpGCnZhzFMx">
           <seg xml:id="i-EjjKskaibxyEk5ENBHWF57">
             Jag hyser, som sagdt, inga betänkligheter här vid lag och anser,
             att motionären har så rätt i sina påståenden, att jag ber att
@@ -3886,7 +3680,7 @@
         <note xml:id="i-9YeK9sbuYgUBVnwsheatvo">
           o
         </note>
-        <u xml:id="i-GBTZRPEzm4CYpGCnZhzFMx" who="i-KWE8Jd2fQ6jihQBAR75RW6" prev="i-SEDfVdTGfAKJTVdjaLhZ2z">
+        <u xml:id="i-GBTZRPEzm4CYpGCnZhzFMx" who="i-KWE8Jd2fQ6jihQBAR75RW6" prev="i-Ga7YZSf52i2PY6VJGpKznT">
           <seg xml:id="i-37oiJFWQrqddxAX5d7uEk6">
             å utskottets förslag och bifall till reservationen. Häruti instämde
             herrar Aulin och Bromée.
@@ -3909,95 +3703,65 @@
         <note xml:id="i-9XK9JR5TE7B6r7gPP3svTT" type="date">
           Lördagen den 22 April, e. m. 41 N:o 35.
         </note>
-        <u xml:id="i-AtZanCBTrwg9Q3ECr8MbcC" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-U9CjY9BGpKrJWGjQjU2dnQ" next="i-G7fH1jioP1yXRuKUxKGN6e">
+        <u xml:id="i-AtZanCBTrwg9Q3ECr8MbcC" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-U9CjY9BGpKrJWGjQjU2dnQ" next="i-CN5qCoYdNtmWq539Qoz2Gk">
           <seg xml:id="i-QkBFf8gLocMYWAL38GwJqq">
             än ett enda exempel. Det må väl vara, att motionären icke kunnatOm
             ändring i
           </seg>
-        </u>
-        <u xml:id="i-G7fH1jioP1yXRuKUxKGN6e" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-AtZanCBTrwg9Q3ECr8MbcC" next="i-9r4w3rCmA8Qa2B4RxWumE">
           <seg xml:id="i-Enza2wC6sMHjqCumve64RM">
             lemna flera uppgifter för att bestyrka den orättvisa, som gör
             sig rågällande be- . &gt; 09 oe Le ps ? oeistämmelser rö-
           </seg>
-        </u>
-        <u xml:id="i-9r4w3rCmA8Qa2B4RxWumE" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-G7fH1jioP1yXRuKUxKGN6e" next="i-RmpFmKTFnrCiYGdpSAz4ec">
           <seg xml:id="i-KEvKtqGfh1pr2fR5CWAXvW">
             dande vid prestval i fråga om rösträttens utöfning, men man må
             vVälninde rösträtt
           </seg>
-        </u>
-        <u xml:id="i-RmpFmKTFnrCiYGdpSAz4ec" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-9r4w3rCmA8Qa2B4RxWumE" next="i-6X8gn26uwdHsSGnxtgusgn">
           <seg xml:id="i-UmErzCv5xBxubbBavH7xTw">
             icke förtänka motionären, att han icke kunnat skaffa uppgifter
             från vid prestval.
           </seg>
-        </u>
-        <u xml:id="i-6X8gn26uwdHsSGnxtgusgn" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-RmpFmKTFnrCiYGdpSAz4ec" next="i-74Ye85DsENwVipG6KdoAAz">
           <seg xml:id="i-XL39rTLStuyfaM3hSo1PJk">
             en större del af vårt land. Jag är öfvertygad om, att, äfven
             om icke = (Forts.)
           </seg>
-        </u>
-        <u xml:id="i-74Ye85DsENwVipG6KdoAAz" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-6X8gn26uwdHsSGnxtgusgn" next="i-2k8KG8aXKZtZa8U4Wa26S1">
           <seg xml:id="i-LmXrxqS8rDWmUx2qXNXd91">
             fullt så skriande orättvisor begås som den af motionären omnämnda,
             man
           </seg>
-        </u>
-        <u xml:id="i-2k8KG8aXKZtZa8U4Wa26S1" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-74Ye85DsENwVipG6KdoAAz" next="i-654E9xkW1DH9GJnhzKXkVY">
           <seg xml:id="i-2vQra76tPFjAyLnUj7zYVi">
             dock skulle kunna från andra orter åtminstone tillnärmelsevis
             anföra mot-
           </seg>
-        </u>
-        <u xml:id="i-654E9xkW1DH9GJnhzKXkVY" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-2k8KG8aXKZtZa8U4Wa26S1" next="i-F8FLw1KD9o2BNzcCWoP7HJ">
           <seg xml:id="i-Togy2KKafx9fLNqQeBqWDo">
             svarande exempel. Jag ber att få fästa uppmärksamheten derpå,
             att
           </seg>
-        </u>
-        <u xml:id="i-F8FLw1KD9o2BNzcCWoP7HJ" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-654E9xkW1DH9GJnhzKXkVY" next="i-PvqVF2WwSP22dDGN6bedd8">
           <seg xml:id="i-ANJMMkvUdYkhs88fZfEEDV">
             då den nuvarande rösträttslagen vid prestval antogs, var man
             allt an-
           </seg>
-        </u>
-        <u xml:id="i-PvqVF2WwSP22dDGN6bedd8" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-F8FLw1KD9o2BNzcCWoP7HJ" next="i-A1ziWTfNozg1x2kGXhZbBb">
           <seg xml:id="i-U2k9Qrr7aA5tq1Pj65Rbhy">
             nat än ense om, att den då beslutade röstgrunden var rigtig,
             tvärtom
           </seg>
-        </u>
-        <u xml:id="i-A1ziWTfNozg1x2kGXhZbBb" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-PvqVF2WwSP22dDGN6bedd8" next="i-JDKdbRjKcwLMWYK5So2byc">
           <seg xml:id="i-6gmAXNzVpv1EQWXq1pDRCS">
             var man öfvertygad derom, att det åtminstone på många ställen
             skulle
           </seg>
-        </u>
-        <u xml:id="i-JDKdbRjKcwLMWYK5So2byc" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-A1ziWTfNozg1x2kGXhZbBb" next="i-8KC8JxEA8HB1wS4CwkmNr1">
           <seg xml:id="i-UAUdtcq6vtF6Jq9rVW1itG">
             blifva i högsta grad orättvist, att jordbruksfastighet, af hvad
             slag som
           </seg>
-        </u>
-        <u xml:id="i-8KC8JxEA8HB1wS4CwkmNr1" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-JDKdbRjKcwLMWYK5So2byc" next="i-KBQXjJ33WPHNihXh1MPvZf">
           <seg xml:id="i-UVnhWXUmucEngFoS4sheYe">
             helst, skulle hafva det öfvervägande inflytande, som den här
             har fått.
           </seg>
-        </u>
-        <u xml:id="i-KBQXjJ33WPHNihXh1MPvZf" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-8KC8JxEA8HB1wS4CwkmNr1" next="i-M1P821eHtvaeJbPKWr5sGF">
           <seg xml:id="i-SSGX8yg5dmcFBwBn1gXAJg">
             Jag tänker vid detta tillfälle först och främst på de södra provinserna,
           </seg>
-        </u>
-        <u xml:id="i-M1P821eHtvaeJbPKWr5sGF" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-KBQXjJ33WPHNihXh1MPvZf" next="i-We8V2CxpZWP1yk1VNj2ahv">
           <seg xml:id="i-Y96Lr38FkPavJUdkx4qvN6">
             der +t. ex. säterierna, som i regeln icke betala mer än omkring
           </seg>
-        </u>
-        <u xml:id="i-We8V2CxpZWP1yk1VNj2ahv" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-M1P821eHtvaeJbPKWr5sGF" next="i-CN5qCoYdNtmWq539Qoz2Gk">
           <seg xml:id="i-SuiAHtq2ConcBhs9SJdXaY">
             !/.,-del mot hvad de andra hemmanen betala till prestens aflöning,
             och
@@ -4006,13 +3770,11 @@
         <note xml:id="i-M6BXsLzyQLgMYWntw9Vnk">
           dock rösta dessas innehafvare med hela sitt fyrktal för jordbruks-
         </note>
-        <u xml:id="i-CN5qCoYdNtmWq539Qoz2Gk" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-We8V2CxpZWP1yk1VNj2ahv" next="i-PiLvQcdCmuKC5FDWur1fZZ">
+        <u xml:id="i-CN5qCoYdNtmWq539Qoz2Gk" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-AtZanCBTrwg9Q3ECr8MbcC" next="i-7faJyJGAn59vPGeNk6rbJz">
           <seg xml:id="i-MsWcrpHkLBYeqheRLP67CY">
             fastigheten. Detta är en orimlighet, som qvarstår och är af så
             orimlig
           </seg>
-        </u>
-        <u xml:id="i-PiLvQcdCmuKC5FDWur1fZZ" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-CN5qCoYdNtmWq539Qoz2Gk" next="i-7faJyJGAn59vPGeNk6rbJz">
           <seg xml:id="i-4KGsJC9cnvut84VQE8N5or">
             beskaffenhet, att den icke eger motsvarighet i någon annan rösträtts-
           </seg>
@@ -4021,31 +3783,23 @@
           grund. I andra kommunala angelägenheter röstar man efter det
           be-
         </note>
-        <u xml:id="i-7faJyJGAn59vPGeNk6rbJz" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-PiLvQcdCmuKC5FDWur1fZZ" next="i-FXcc3FCSgjCvBevjHiep3X">
+        <u xml:id="i-7faJyJGAn59vPGeNk6rbJz" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-CN5qCoYdNtmWq539Qoz2Gk" next="i-NsnefikJMPTwb8KdLZLGH8">
           <seg xml:id="i-HZXdjYgLuX3jjr2y2TerjR">
             lopp, som betalas, men här röstas efter helt andra grunder. Jag
             har
           </seg>
-        </u>
-        <u xml:id="i-FXcc3FCSgjCvBevjHiep3X" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-7faJyJGAn59vPGeNk6rbJz" next="i-XtcixL4eSYrRikSwJ9eXxA">
           <seg xml:id="i-VJiEBXu4JgmxuarW7iN7nQ">
             icke mycket hopp, att Första Kammaren bifaller det nu väckta
             för-
           </seg>
-        </u>
-        <u xml:id="i-XtcixL4eSYrRikSwJ9eXxA" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-FXcc3FCSgjCvBevjHiep3X" next="i-D2FtPR7uifcU2DosposGoy">
           <seg xml:id="i-MJaS21NmQn9g3aSQiwWps1">
             slaget, men jag anser, såsom jag förut nämnt, att denna kammare
             bör
           </seg>
-        </u>
-        <u xml:id="i-D2FtPR7uifcU2DosposGoy" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-XtcixL4eSYrRikSwJ9eXxA" next="i-PhMW5rX4VH7RQQqZHfUnWj">
           <seg xml:id="i-DJ8tg2bjenFnH4CKoxSNwi">
             uttala sig i den rigtning, motionären hemstält, om icke för annat,
             så
           </seg>
-        </u>
-        <u xml:id="i-PhMW5rX4VH7RQQqZHfUnWj" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-D2FtPR7uifcU2DosposGoy" next="i-NsnefikJMPTwb8KdLZLGH8">
           <seg xml:id="i-YFUFRbo4ugR8E3CkygaNjN">
             dock för att derigenom uttala en opinionsyttring i denna vigtiga
           </seg>
@@ -4053,7 +3807,7 @@
         <note xml:id="i-VMF11xzUmi3zqwDiivSMe6">
           råga.
         </note>
-        <u xml:id="i-NsnefikJMPTwb8KdLZLGH8" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-PhMW5rX4VH7RQQqZHfUnWj">
+        <u xml:id="i-NsnefikJMPTwb8KdLZLGH8" who="i-M8iT3fNaEahQCDyU7KD4Xo" prev="i-7faJyJGAn59vPGeNk6rbJz">
           <seg xml:id="i-BKmkKfnG6sd4JErzBeZRYd">
             I detta yttrande instämde herrar Olsson i Ornakärr, Brugelius,
             Svensson i Olseröd, Gyllensvärd och Petersson i Boestad.
@@ -4062,7 +3816,7 @@
         <note xml:id="i-vDUjQgT9imroHxdLBjWcB" type="speaker">
           Herr Wester:
         </note>
-        <u xml:id="i-XjEMHGZP9G4YwcVkEkE2q8" who="i-SEkwyQpsXcKbAe8gK5hnv" next="i-SknQn8qrjnQLUa6Z9w3Urw">
+        <u xml:id="i-XjEMHGZP9G4YwcVkEkE2q8" who="i-SEkwyQpsXcKbAe8gK5hnv" next="i-UH11DFGcWeKBJdiQX99JPq">
           <seg xml:id="i-DUyCFUsNicwKg6FGhx8U7t">
             Med anledning af den siste talarens yttrande skall jag gifva
             honom rätt deri, att 1 Skåne hafva verkligen säterierna i följd
@@ -4074,8 +3828,6 @@
             öfva inflytande för mer än hvad han sjelf brukar, och det är vanligen
             blott en ringa del.
           </seg>
-        </u>
-        <u xml:id="i-SknQn8qrjnQLUa6Z9w3Urw" who="i-SEkwyQpsXcKbAe8gK5hnv" prev="i-XjEMHGZP9G4YwcVkEkE2q8" next="i-UH11DFGcWeKBJdiQX99JPq">
           <seg xml:id="i-T5vazYfLP86JfGxHWPccvz">
             Ett par talare hafva såsom enda skäl för bifall till motionen
             anfört, att motionären funnit nedsättning från 1/5; till !/&gt;,
@@ -4110,7 +3862,7 @@
           orättvisa eller olägenhet genomföras; men det vet man i detta
           nu icke, och det
         </note>
-        <u xml:id="i-UH11DFGcWeKBJdiQX99JPq" who="i-SEkwyQpsXcKbAe8gK5hnv" prev="i-SknQn8qrjnQLUa6Z9w3Urw">
+        <u xml:id="i-UH11DFGcWeKBJdiQX99JPq" who="i-SEkwyQpsXcKbAe8gK5hnv" prev="i-XjEMHGZP9G4YwcVkEkE2q8">
           <seg xml:id="i-5F9prXhB4MdJxw3tzMo3XV">
             beror på en utredning, som icke förefinnes.
           </seg>
@@ -4161,7 +3913,7 @@
         <note xml:id="i-VDeBeMieTwDTbn2bXa3yM3" type="speaker">
           Herr Olsson i Sörnäs:
         </note>
-        <u xml:id="i-PppXmNHhECbLLNQ9Dg8Yhx" who="i-7DD9UiYqJkTfq9tkRcCA2k" next="i-EV1YrVH9ZNLNfPMFbmCkkq">
+        <u xml:id="i-PppXmNHhECbLLNQ9Dg8Yhx" who="i-7DD9UiYqJkTfq9tkRcCA2k">
           <seg xml:id="i-H8UGcvzddJyx5tfH2PbmQd">
             Jag skall också vid detta tillfälle icke upptaga kammarens tid
             mycket, utan endast be att få tillkännagifva, att jag kommer att
@@ -4171,8 +3923,6 @@
             till hvilka orättvisor nu gällande bestämmelser kunna leda, att
             vi icke böra förbigå detsamma.
           </seg>
-        </u>
-        <u xml:id="i-EV1YrVH9ZNLNfPMFbmCkkq" who="i-7DD9UiYqJkTfq9tkRcCA2k" prev="i-PppXmNHhECbLLNQ9Dg8Yhx">
           <seg xml:id="i-4jxJSCKBuFjmM8XEXN6uw6">
             Jag yrkar bifall till motionärens förslag.
           </seg>

@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-PyHfW2sKCVW3i8x7btqTsA" type="speech">
             <linkGrp type="u">
               <ptr target="#i-SzsMJJmsuspkqMjout319W"/>
@@ -838,7 +838,13 @@
               <ptr target="#i-d4f44d05e9d4a8cb-18"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -1074,15 +1080,13 @@
         <note xml:id="i-6HSxroPSARev1HsXCp99ho" type="speaker">
           Chefen för handelsdepartementet, herr statsrådet LANGE, som yttrade:
         </note>
-        <u xml:id="i-SzsMJJmsuspkqMjout319W" who="i-NAbeZfqManywc6YbAfsfki" next="i-3wHteizMoThWvC6PofchH9">
+        <u xml:id="i-SzsMJJmsuspkqMjout319W" who="i-NAbeZfqManywc6YbAfsfki">
           <seg xml:id="i-5KRzeTLY8iErtSduejpqd5">
             Herr talman! Herr Börjesson i Falköping har frågat om det är
             lämpligt att svenskt statligt företag bedriver export av vapen.
             Tillstånd till sådan export ges av handelsdepartementet varför
             det ankommer på mig att svara.
           </seg>
-        </u>
-        <u xml:id="i-3wHteizMoThWvC6PofchH9" who="i-NAbeZfqManywc6YbAfsfki" prev="i-SzsMJJmsuspkqMjout319W">
           <seg xml:id="i-3WNx4yqFNN7e6DWfdwaRjV">
             Såsom framhållits i tidigare interpellationssvar, bl. a. av statsministern,
             anses en inhemsk krigsmaterielproduktion vara nödvändig ur beredskapssynpunkt.
@@ -1122,15 +1126,13 @@
           Svar på fråga ang. en gemensam bostadsförmedling för Malmö stad
           och de närmaste randkommunerna
         </note>
-        <u xml:id="i-8P6RXZnagduHBq1QDcoCYt" who="i-Af27F1xYCu7PKfDmUgU7Xb" prev="i-FTAvbvVbAWMngePNpz3ZR7" next="i-8B7g2qoUxBJHQYhWikTvH7">
+        <u xml:id="i-8P6RXZnagduHBq1QDcoCYt" who="i-Af27F1xYCu7PKfDmUgU7Xb" prev="i-FTAvbvVbAWMngePNpz3ZR7">
           <seg xml:id="i-U8AtZ5Sh717VRAJdPdTF9Z">
             av helt naturliga skäl inte närmare beröra de ytterligare synpunkter
             som anfördes beträffande de fördelar som är förknippade med en
             ökad krigsmaterieltillverkning, möjliggjord genom bearbetning
             av utlandsmarknaden.
           </seg>
-        </u>
-        <u xml:id="i-8B7g2qoUxBJHQYhWikTvH7" who="i-Af27F1xYCu7PKfDmUgU7Xb" prev="i-8P6RXZnagduHBq1QDcoCYt" next="i-HYwSgquXf1N2pg3qJCGQyi">
           <seg xml:id="i-QmKzPAMYCrcyxDjQM5PMNh">
             Jag vill, herr talman, inte på något sätt ifrågasätta att en
             ökad statlig krigsmalterieltillverkning kan innebära ekonomiska
@@ -1146,8 +1148,6 @@
             riksdagens insyn och bestämmande. Därmed får ju också riksdagen
             tillfälle att pröva hur angelägen en sådan export är.
           </seg>
-        </u>
-        <u xml:id="i-HYwSgquXf1N2pg3qJCGQyi" who="i-Af27F1xYCu7PKfDmUgU7Xb" prev="i-8B7g2qoUxBJHQYhWikTvH7">
           <seg xml:id="i-8RUrzQMLFRYzG1at8i9NMb">
             En omfattande export av krigsmateriel är i alla avseenden ett
             mycket känsligt problem, och det kan inte bortresoneras att det
@@ -1158,7 +1158,7 @@
         <note xml:id="i-56664FNsSZrHEGath4LTrp" type="speaker">
           Chefen för handelsdepartementet, herr statsrådet LANGE:
         </note>
-        <u xml:id="i-6gsWEsRZ2k1KqTGAj3r4X2" who="i-NAbeZfqManywc6YbAfsfki" next="i-TL5WQ52Ebse74bKoAjT2tR">
+        <u xml:id="i-6gsWEsRZ2k1KqTGAj3r4X2" who="i-NAbeZfqManywc6YbAfsfki">
           <seg xml:id="i-HDiGwm4oyEafH8dLcyatfu">
             Herr talman! Får jag bara upplysa herr Börjesson om att det för
             det första under senare år inte förekommit någon ökning av totalexporten
@@ -1168,8 +1168,6 @@
             under behandling i krigsmaterielinspektionen under handelsdepartementet
             och att sålunda riksdagen redan har den
           </seg>
-        </u>
-        <u xml:id="i-TL5WQ52Ebse74bKoAjT2tR" who="i-NAbeZfqManywc6YbAfsfki" prev="i-6gsWEsRZ2k1KqTGAj3r4X2">
           <seg xml:id="i-GVisChw5ZXjDhybE5Pa3h">
             kontroll som herr Börjesson efterlyser. För det tredje, herr
             talman, vill jag upprepa, att om vi skall ha en i statlig regi
@@ -1201,14 +1199,12 @@
           Chefen för inrikesdepartementet, herr statsrådet JOHANSSON, som
           yttrade:
         </note>
-        <u xml:id="i-VALHiUHMpB2zQowuUQ2j5s" who="i-2E2N5MpZ8PjBpuMWc4jqhz" next="i-F4nJkgrSgU2kd25tGKk4pW">
+        <u xml:id="i-VALHiUHMpB2zQowuUQ2j5s" who="i-2E2N5MpZ8PjBpuMWc4jqhz" next="i-5D81t57nukAQCYrkRrWumc">
           <seg xml:id="i-8rd7Fj4HFEjFiK6iUkszaw">
             Herr talman! Herr Svenning har frågat, om jag vill medverka till
             bildandet av en gemensam bostadsförmedling för Malmö stad och
             de närmaste randkommunerna.
           </seg>
-        </u>
-        <u xml:id="i-F4nJkgrSgU2kd25tGKk4pW" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-VALHiUHMpB2zQowuUQ2j5s" next="i-5D81t57nukAQCYrkRrWumc">
           <seg xml:id="i-8qjFshSFZzMdb8dTFVExZ4">
             1962 års bostadsförmedlingsutredning har till uppgift att utreda
             frågor rörande bostadsförmedlingens organisation och principer.
@@ -1234,7 +1230,7 @@
           Svar på fråga ang. en gemensam bostadsförmedling för Malmö stad
           och de närmaste randkommunerna
         </note>
-        <u xml:id="i-5D81t57nukAQCYrkRrWumc" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-F4nJkgrSgU2kd25tGKk4pW">
+        <u xml:id="i-5D81t57nukAQCYrkRrWumc" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-VALHiUHMpB2zQowuUQ2j5s">
           <seg xml:id="i-XA8TsHSg59KpSgL2QHXKbL">
             intensifiering av samarbetet över kommungränserna i fråga om
             bostadsförmedlingen. Vilken form och omfattning åtgärder i sådant
@@ -1390,7 +1386,7 @@
         <note xml:id="i-HBzMFgkDH4viHEuLDk7adK" type="speaker">
           Herr HOLMBERG (k), som yttrade:
         </note>
-        <u xml:id="i-21af365b320b74ad-1" who="i-M4NwryA2HF7uey8djEDX9X" next="i-8CuikBucGeUEbA8h4mzW5c">
+        <u xml:id="i-21af365b320b74ad-1" who="i-M4NwryA2HF7uey8djEDX9X">
           <seg xml:id="i-7foxAbyyV6PtXU2Kq1GDEW">
             Herr talman! På grund av rationaliseringen av SJ:s verksamhet
             förberedes förflyttning till annan ort av många anställda inom
@@ -1421,15 +1417,11 @@
             kunna utnyttjas för den statliga bilinspektionen, enär denna uppenbarligen
             får ett betydande personalbehov inom den närmaste tiden.
           </seg>
-        </u>
-        <u xml:id="i-8CuikBucGeUEbA8h4mzW5c" who="i-M4NwryA2HF7uey8djEDX9X" prev="i-21af365b320b74ad-1" next="i-Md8rewSjezkWaB1vvn9Kzs">
           <seg xml:id="i-BkWCmEfsGJYBhQps2Unaw7">
             Under hänvisning till vad sålunda anförts hemställer jag om kammarens
             tillstånd att till statsrådet och chefen för kommunikationsdepartementet
             få ställa följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-Md8rewSjezkWaB1vvn9Kzs" who="i-M4NwryA2HF7uey8djEDX9X" prev="i-8CuikBucGeUEbA8h4mzW5c">
           <seg xml:id="i-6xz2eEoR6JKBrEYmoThJjy">
             Vill statsrådet vidtaga åtgärder för att möjliggöra att övertalig
             maskinpersonal vid SJ beredes anställning i den statliga bilbesiktningen
@@ -1663,7 +1655,7 @@
         <note xml:id="i-GzUkompjbCjusLqFzBDNro">
           ts skrivelse nr 143 avsedda meddelandet, så lydande:
         </note>
-        <u xml:id="i-e88aa04decbea2a2-1" who="i-BSEtbZG4ePv3rfebXQWRkd" next="i-TJGeJBFHZZkWkYB8oEkQKA">
+        <u xml:id="i-e88aa04decbea2a2-1" who="i-BSEtbZG4ePv3rfebXQWRkd" next="i-e88aa04decbea2a2-2">
           <seg xml:id="i-Wa8cc3X5BoC72AwNN9XRRT">
             Herr talman! Vid riksdagens årliga utrikesdebatt har det blivit
             tradition att regeringen ger en översikt över det utrikespolitiska
@@ -1687,8 +1679,6 @@
             hållfastheten i Sveriges politik. Ingen plats finns för några
             spekulationer i omläggning av vår utrikespolitik.
           </seg>
-        </u>
-        <u xml:id="i-TJGeJBFHZZkWkYB8oEkQKA" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-e88aa04decbea2a2-1" next="i-e88aa04decbea2a2-2">
           <seg xml:id="i-WT62N1mdCPfGW9iz6sWi3L">
             Neutralitetspolitik, herr talman, är
           </seg>
@@ -1697,7 +1687,7 @@
         <note xml:id="i-4Lv6n4yyPGp3SscFS7tb6k" type="date">
           Onsdagen den 8 april 1964 fm.
         </note>
-        <u xml:id="i-e88aa04decbea2a2-2" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-TJGeJBFHZZkWkYB8oEkQKA" next="i-6SsRdKj2MKXDd9MAxoAHA4">
+        <u xml:id="i-e88aa04decbea2a2-2" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-e88aa04decbea2a2-1" next="i-6SsRdKj2MKXDd9MAxoAHA4">
           <seg xml:id="i-83graFTe4fAWC9B2R3FGsB">
             inte liktydigt med brist på politik eller benägenhet för isolering.
             Särskilt de scnaste åren har krav ställts på vårt land i olika
@@ -1742,7 +1732,7 @@
         <note xml:id="i-Cifb1561EVZBFNNqTNyRsW">
           Utrikesoch handelspolitisk debatt
         </note>
-        <u xml:id="i-6SsRdKj2MKXDd9MAxoAHA4" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-e88aa04decbea2a2-2" next="i-4xYbQ4nPYdJrzaYnkMKt9D">
+        <u xml:id="i-6SsRdKj2MKXDd9MAxoAHA4" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-e88aa04decbea2a2-2" next="i-CvW2VbUJowgv9N4pH3FHJf">
           <seg xml:id="i-BzvxUnLm7Ck7P91CaN1vYF">
             tiv säkerhet. Förenta Nationerna är avsedd att vara en sådan
             organisation. Vi vet endast alltför väl, att FN i detta hänseende
@@ -1776,8 +1766,6 @@
             aktioner, genom vårt deltagande i nedrustningsarbetet och genom
             u-hjälpverksamhet i skilda former.
           </seg>
-        </u>
-        <u xml:id="i-4xYbQ4nPYdJrzaYnkMKt9D" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-6SsRdKj2MKXDd9MAxoAHA4" next="i-CvW2VbUJowgv9N4pH3FHJf">
           <seg xml:id="i-UUQo42t2DP71JMBon1W58a">
             Svensk militär deltar i Förenta Na-
           </seg>
@@ -1792,7 +1780,7 @@
         <note xml:id="i-83uz4zLpekCYmQ9ink3EhS">
           Utrikesoch handelspolitisk debatt
         </note>
-        <u xml:id="i-CvW2VbUJowgv9N4pH3FHJf" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-4xYbQ4nPYdJrzaYnkMKt9D" next="i-e88aa04decbea2a2-5">
+        <u xml:id="i-CvW2VbUJowgv9N4pH3FHJf" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-6SsRdKj2MKXDd9MAxoAHA4" next="i-e88aa04decbea2a2-5">
           <seg xml:id="i-91aDhdjqM3yhtT35XgGgq5">
             tionernas fredsstyrkor i Gaza och Kongo. Enligt föreliggande
             planer, som ser ut att kunna genomföras programenligt, skall Kongo-styrkan
@@ -4680,7 +4668,7 @@
         <note xml:id="i-Jr36VvEUkSLsxHLngupSHo" type="date">
           Onsdagen den 8 april 1964 fm.
         </note>
-        <u xml:id="i-491c76f10f5cb817-14" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-CXe6MXJY83JC2RVqbJMNWo" next="i-VJWW6x3BDw2TJjUxBnym1d">
+        <u xml:id="i-491c76f10f5cb817-14" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-CXe6MXJY83JC2RVqbJMNWo" next="i-491c76f10f5cb817-15">
           <seg xml:id="i-KW1mRdihe8DSM4K6Cn136o">
             från att en ungefärlig styrkebalans i dagens läge existerar mellan
             öst och väst. Man hör också motsatta påståenden, framför allt
@@ -4722,8 +4710,6 @@
             att åstadkomma verklig avrustning utan förtroendeingivande kontroll.
             även kvarvarande rustningar måste kontrolleras.
           </seg>
-        </u>
-        <u xml:id="i-VJWW6x3BDw2TJjUxBnym1d" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-491c76f10f5cb817-14" next="i-491c76f10f5cb817-15">
           <seg xml:id="i-63bebcTq1tpseUMWWoJTPP">
             Motsättningarna mellan de två stormakterna beträffande de partiella
             ned-
@@ -4733,7 +4719,7 @@
         <note xml:id="i-DTCLYzSFoF7CtS8bU85QAz" type="date">
           Onsdagen den 8 april 1964 fm.
         </note>
-        <u xml:id="i-491c76f10f5cb817-15" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-VJWW6x3BDw2TJjUxBnym1d" next="i-Qnk9c19QYAyjKSKKS2jMku">
+        <u xml:id="i-491c76f10f5cb817-15" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-491c76f10f5cb817-14" next="i-Qnk9c19QYAyjKSKKS2jMku">
           <seg xml:id="i-SoLq2LvBa4gkSWUQAWurat">
             rustningsåtgärderna har efter hand koncentrerats kring några
             huvudfrågor. Sovjetunionen har upprepade gånger under januari—mars
@@ -6520,7 +6506,7 @@
         <note xml:id="i-4KUigTeaf8XcjpaeuM1edn" type="date">
           Onsdagen den 8 april 1964 fm.
         </note>
-        <u xml:id="i-e88aa04decbea2a2-51" who="i-NAbeZfqManywc6YbAfsfki" prev="i-X6zkW8vCMgcX5nX377Bnqg" next="i-4GPyfZktPejUKkz8tHvRYz">
+        <u xml:id="i-e88aa04decbea2a2-51" who="i-NAbeZfqManywc6YbAfsfki" prev="i-X6zkW8vCMgcX5nX377Bnqg" next="i-e88aa04decbea2a2-52">
           <seg xml:id="i-SGT5dxDCXE99xo2pXAsrpK">
             som är positivt inställda till att vi med verkliga kraftansträngningar
             skall åstadkomma ett så snabbt resultat som möjligt i den pågående
@@ -6557,13 +6543,9 @@
             tullnivån — låt vara att resultatet kanske ibland tett sig blygsammare
             än vi önskat.
           </seg>
-        </u>
-        <u xml:id="i-4GPyfZktPejUKkz8tHvRYz" who="i-NAbeZfqManywc6YbAfsfki" prev="i-e88aa04decbea2a2-51" next="i-V6gqFQ9Grw4NLfXRBJiTM2">
           <seg xml:id="i-SLxoLjGwVoJF7wHdfMmQh7">
             Tillkomsten av ett omfattande pre-
           </seg>
-        </u>
-        <u xml:id="i-V6gqFQ9Grw4NLfXRBJiTM2" who="i-NAbeZfqManywc6YbAfsfki" prev="i-4GPyfZktPejUKkz8tHvRYz" next="i-e88aa04decbea2a2-52">
           <seg xml:id="i-RGZi5WFFYEJ3N15kYrFugo">
             ferenssystem för u-länderna skulle minska pressen på industriländerna,
           </seg>
@@ -6572,7 +6554,7 @@
         <note xml:id="i-HvkLzqbZcNTroGDGSjKaj9" type="date">
           Onsdagen den 8 april 1964 fm.
         </note>
-        <u xml:id="i-e88aa04decbea2a2-52" who="i-NAbeZfqManywc6YbAfsfki" prev="i-V6gqFQ9Grw4NLfXRBJiTM2" next="i-MTQ1c1KcEVWdmHwkLNuHKW">
+        <u xml:id="i-e88aa04decbea2a2-52" who="i-NAbeZfqManywc6YbAfsfki" prev="i-e88aa04decbea2a2-51" next="i-MTQ1c1KcEVWdmHwkLNuHKW">
           <seg xml:id="i-4pJpTjGspVwAwPT8AdUdBL">
             herr Hermansson, att införa allmänna och långtgående tullsänkningar
             som också på längre sikt främst skulle vara till största nytta
@@ -8021,7 +8003,7 @@
         <note xml:id="i-WFRL9yTxws8ED41yMXDYfv" type="date">
           Onsdagen den 8 april 1964 fm.
         </note>
-        <u xml:id="i-6eb03e9d503bca6c-7" who="unknown" prev="i-Rsa79VMqAZmSHHMsaYsp3H" next="i-NYtk6AewkNVSiAmBFKFdzw">
+        <u xml:id="i-6eb03e9d503bca6c-7" who="unknown" prev="i-Rsa79VMqAZmSHHMsaYsp3H" next="i-6eb03e9d503bca6c-8">
           <seg xml:id="i-SDwX9Hv2ZW3hoKBTNztT67">
             Det är naturligtvis bra att regeringsdeklarationen upprepar att
             Sverige står kvar på Undénplanens linje, men det är inte bra att
@@ -8056,8 +8038,6 @@
             dess grannars trygghet i alla väderstreck i synnerhet. Detta är
             bl. a. en följd av kärnvapenteknikens utveckling.
           </seg>
-        </u>
-        <u xml:id="i-NYtk6AewkNVSiAmBFKFdzw" who="unknown" prev="i-6eb03e9d503bca6c-7" next="i-6eb03e9d503bca6c-8">
           <seg xml:id="i-HQWEisXRWeKi7Uc2c3Di3B">
             Många av dem som reserverar sig
           </seg>
@@ -8066,7 +8046,7 @@
         <note xml:id="i-6hHqY6FwHJtg5uFU25WJ1T" type="date">
           Onsdagen den 8 april 1964 fm.
         </note>
-        <u xml:id="i-6eb03e9d503bca6c-8" who="unknown" prev="i-NYtk6AewkNVSiAmBFKFdzw" next="i-E9RjvuA2sYvBwyjtrrc6g5">
+        <u xml:id="i-6eb03e9d503bca6c-8" who="unknown" prev="i-6eb03e9d503bca6c-7" next="i-E9RjvuA2sYvBwyjtrrc6g5">
           <seg xml:id="i-8hXQANDbHz27TUGoqqJ1dy">
             mot en fredlig samlevnadsprincip tycks föreställa sig att ett
             kärnvapenkrig mot exempelvis Tyska demokratiska republiken eller
@@ -8247,7 +8227,7 @@
         <note xml:id="i-XeXVN4J3rSTcZj5j9Asp2f" type="date">
           Onsdagen den 8 april 1964 fm.
         </note>
-        <u xml:id="i-a62c8b380e8e6302-2" who="i-LQKP5CDY62YpFZWUbs7QiW" prev="i-a62c8b380e8e6302-1" next="i-LznVzQezrQmdg29x32Gscf">
+        <u xml:id="i-a62c8b380e8e6302-2" who="i-LQKP5CDY62YpFZWUbs7QiW" prev="i-a62c8b380e8e6302-1" next="i-MEkwUnL71gT38FfZD73Xtp">
           <seg xml:id="i-MRE1TKMiijaLiwoNVnBBA2">
             konstatera — och det gör också regeringsdeklarationen — att EFTA
             hittills mer än väl motsvarat förväntningarna och faktiskt lett
@@ -8280,8 +8260,6 @@
             är inne i kan åtskilligt inträffa som ändrar förutsättningarna
             för EFTA på ett sätt som man kanske inte tidigare tänkt sig.
           </seg>
-        </u>
-        <u xml:id="i-LznVzQezrQmdg29x32Gscf" who="i-LQKP5CDY62YpFZWUbs7QiW" prev="i-a62c8b380e8e6302-2" next="i-MEkwUnL71gT38FfZD73Xtp">
           <seg xml:id="i-6vNafQjxJBZKajcMjDrzX5">
             Att integrationen i vidsträckt bemär-
           </seg>
@@ -8292,7 +8270,7 @@
         <note xml:id="i-PT5uDr2TbWYVCqh27tEPmq">
           Utrikesoch handelspolitisk debatt
         </note>
-        <u xml:id="i-MEkwUnL71gT38FfZD73Xtp" who="i-LQKP5CDY62YpFZWUbs7QiW" prev="i-LznVzQezrQmdg29x32Gscf" next="i-9wFkjVdTHk8TVkD6ahPTSK">
+        <u xml:id="i-MEkwUnL71gT38FfZD73Xtp" who="i-LQKP5CDY62YpFZWUbs7QiW" prev="i-a62c8b380e8e6302-2" next="i-9wFkjVdTHk8TVkD6ahPTSK">
           <seg xml:id="i-TcSjtSedaYzGyzjt6wqASs">
             kelse ute i Europa kommer att fortsätta råder det väl ingen tvekan
             om. Jag tycker att regeringsdeklarationens uttalande på den punkten
@@ -8552,15 +8530,13 @@
         <note xml:id="i-3AxEbwatn7cWvn8ok23tEH" type="speaker">
           Herr BOHMAN (h) kort genmäle:
         </note>
-        <u xml:id="i-a62c8b380e8e6302-13" who="i-LQKP5CDY62YpFZWUbs7QiW" next="i-XMyKQ88PV8mijiedEHbocn">
+        <u xml:id="i-a62c8b380e8e6302-13" who="i-LQKP5CDY62YpFZWUbs7QiW">
           <seg xml:id="i-qUj8bTu5TGu4z3J3pReMg">
             Herr talman! Jag bara konstaterar att
           </seg>
           <seg xml:id="i-L67cqVYBw6jwHPRwFyAaBh">
             herr Hagberg bemött uttalanden som jag inte har gjort.
           </seg>
-        </u>
-        <u xml:id="i-XMyKQ88PV8mijiedEHbocn" who="i-LQKP5CDY62YpFZWUbs7QiW" prev="i-a62c8b380e8e6302-13">
           <seg xml:id="i-Ur8gzpgGLhZDw5UCAFXvQ8">
             Som tiden nu var långt framskriden och många talare anmält sig
             för yttrandes avgivande, beslöt kammaren på förslag av herr talmannen
@@ -8575,15 +8551,13 @@
         <note xml:id="i-B7ws7FUtUbEVrdP3BjVQQj" type="speaker">
           Herr TALMANNEN yttrade:
         </note>
-        <u xml:id="i-CT7AccTFH5L7B5erjrWp3f" who="i-WHaJ9obdPrHNEpxUmttRAB" next="i-C588hXU3GNFALBFf3iwxRF">
+        <u xml:id="i-CT7AccTFH5L7B5erjrWp3f" who="i-WHaJ9obdPrHNEpxUmttRAB">
           <seg xml:id="i-QAGdhdBoDmnNiVQDAndz9C">
             Vid sammanträdet på onsdag, den 15 april, kommer bl. a. statsutskottets
             utlåtanden angående bostadsförsörjningen och angående utgifterna
             inom försvarsdepartementets verksamhetsområde att företagas till
             avgörande.
           </seg>
-        </u>
-        <u xml:id="i-C588hXU3GNFALBFf3iwxRF" who="i-WHaJ9obdPrHNEpxUmttRAB" prev="i-CT7AccTFH5L7B5erjrWp3f">
           <seg xml:id="i-2ee9P9X8WmNTZ4uxsQakCQ">
             Med ledning av inhämtade uppgifter om de ärenden som kommer att
             föreligga till behandling fredagen den 17 april beräknas kammarens
@@ -8965,7 +8939,7 @@
         <note xml:id="i-2Qxmj2SDdeW4jWr1yBbsvX" type="date">
           Onsdagen den 8 april 1964 em.
         </note>
-        <u xml:id="i-bb5d573873b29044-2" who="i-KibauNu6CSDswgonTZCuVD" prev="i-bb5d573873b29044-1" next="i-Jsj6VAtmT3aXAdmMV5rhXw">
+        <u xml:id="i-bb5d573873b29044-2" who="i-KibauNu6CSDswgonTZCuVD" prev="i-bb5d573873b29044-1" next="i-Q2YwLJRAtkXGqcTtdM5366">
           <seg xml:id="i-J6LtLgz321T3QZfetc3GWa">
             träffade dessa tyskar. Flera av dem sade nämligen: Sedan vi sett
             den filmen vill vi inte ha med Sverige att göra.
@@ -9002,8 +8976,6 @@
             rubriceras som utslag av sann demokrati, herr Hermansson? Det
             vore intressant att få svar på den frågan.
           </seg>
-        </u>
-        <u xml:id="i-Jsj6VAtmT3aXAdmMV5rhXw" who="i-KibauNu6CSDswgonTZCuVD" prev="i-bb5d573873b29044-2" next="i-Q2YwLJRAtkXGqcTtdM5366">
           <seg xml:id="i-PXeKEeBs6tJ1SYAzCq6774">
             Sedan sade herr Hagberg att femton
           </seg>
@@ -9014,7 +8986,7 @@
         <note xml:id="i-QX6cBZvWhYDNb75Ji9J8hK">
           Utrikesoch handelspolitisk debatt
         </note>
-        <u xml:id="i-Q2YwLJRAtkXGqcTtdM5366" who="i-KibauNu6CSDswgonTZCuVD" prev="i-Jsj6VAtmT3aXAdmMV5rhXw">
+        <u xml:id="i-Q2YwLJRAtkXGqcTtdM5366" who="i-KibauNu6CSDswgonTZCuVD" prev="i-bb5d573873b29044-2">
           <seg xml:id="i-45rUrk6sRXnTgTUSfFekCw">
             familjer här i landet har kontroll över det svenska näringslivet
             och att den övervägande delen av svenska folket inte äger någonting
@@ -9152,7 +9124,7 @@
         <note xml:id="i-WTzE4BH68y6J6JspuitWYo" type="date">
           Onsdagen den 8 april 1964 em.
         </note>
-        <u xml:id="i-aaabb7d689583995-1" who="i-SDXESbdSdg4dUdTT6Tzmnx" prev="i-aaabb7d689583995-0" next="i-A8wt6BPvMrHNYeFyy3yA9h">
+        <u xml:id="i-aaabb7d689583995-1" who="i-SDXESbdSdg4dUdTT6Tzmnx" prev="i-aaabb7d689583995-0" next="i-TQZX8k1LUFk4gXdu5A1gWS">
           <seg xml:id="i-F2iD2GHoQRSXFNDfZNTouz">
             på den engelska handelspolitiken, finner man att exporten till
             Sydafrika aldrig varit större än nu. Jag förmodar att man finner
@@ -9185,8 +9157,6 @@
             Nationerna att se till att strävandena att avskaffa allt som strider
             mot rasernas likhet inte bara blir en platonisk förklaring.
           </seg>
-        </u>
-        <u xml:id="i-A8wt6BPvMrHNYeFyy3yA9h" who="i-SDXESbdSdg4dUdTT6Tzmnx" prev="i-aaabb7d689583995-1" next="i-TQZX8k1LUFk4gXdu5A1gWS">
           <seg xml:id="i-Egff59syJK6h5R1i9crYQr">
             Vi som har upplevat 20-, 30- och 40- talens misslyckanden och
             katastrofer,
@@ -9198,7 +9168,7 @@
         <note xml:id="i-5NMrRscGU7K8ZYtitPotQB">
           Utrikesoch handelspolitisk debatt
         </note>
-        <u xml:id="i-TQZX8k1LUFk4gXdu5A1gWS" who="i-SDXESbdSdg4dUdTT6Tzmnx" prev="i-A8wt6BPvMrHNYeFyy3yA9h" next="i-TvanmDzqboqWHYE9i62BBU">
+        <u xml:id="i-TQZX8k1LUFk4gXdu5A1gWS" who="i-SDXESbdSdg4dUdTT6Tzmnx" prev="i-aaabb7d689583995-1" next="i-TvanmDzqboqWHYE9i62BBU">
           <seg xml:id="i-Jb1FXYsWifEbyPhF3WwG8t">
             vilka skapat bittra kvarstående intryck hos oss, vet att det
             ofta var de stora orden som vilseledde människorna. Jag minns
@@ -9863,7 +9833,7 @@
         <note xml:id="i-Q72VXVZ3cKQrvdbj2iNTSd">
           Tullen på vissa varor från u-länderna, m. m.
         </note>
-        <u xml:id="i-e88aa04decbea2a2-82" who="i-FiisfXYQcUpGymcboYQpoF" prev="i-e88aa04decbea2a2-81" next="i-P8kQHW1Cox7SBFyJaGDJW">
+        <u xml:id="i-e88aa04decbea2a2-82" who="i-FiisfXYQcUpGymcboYQpoF" prev="i-e88aa04decbea2a2-81">
           <seg xml:id="i-RSob4dKeE5VE4jdZJbzfjA">
             som ställts om en utredning rörande hur man skall avskaffa de
             tullar som försvårar för de fattiga länderna att sälja sina produkter
@@ -9921,8 +9891,6 @@
             och andra tropiska produkter. — Det vore rätt märkligt om riksdagen
             efter denna deklaration säger nej till och med till en utredning.
           </seg>
-        </u>
-        <u xml:id="i-P8kQHW1Cox7SBFyJaGDJW" who="i-FiisfXYQcUpGymcboYQpoF" prev="i-e88aa04decbea2a2-82">
           <seg xml:id="i-LxjMqJXQm4nwDL74kbTqrr">
             Herr talman! Med det anförda yrkar jag bifall dels till motion
             nr 426 i denna kammare och dels till reservationen av herr Erik
@@ -9955,7 +9923,7 @@
         <note xml:id="i-B6aWqWAT4Gm1NzHSb9EnZD">
           Tullen på vissa varor från u-länderna, m. m.
         </note>
-        <u xml:id="i-e88aa04decbea2a2-84" who="i-FoZGPWdjE7CaiMyuRthV17" prev="i-e88aa04decbea2a2-83" next="i-xUqNMhfexM2LhPoxVHTiV">
+        <u xml:id="i-e88aa04decbea2a2-84" who="i-FoZGPWdjE7CaiMyuRthV17" prev="i-e88aa04decbea2a2-83">
           <seg xml:id="i-RHxLqeefnnxUPjyY7sUhUz">
             Vi har tidigare i dag lyssnat till en mycket lång debatt som
             i stor utsträckning berört de problem som här är aktuella. Bevillningsutskottet
@@ -9989,14 +9957,10 @@
             majoritet anser att man har större förutsättningar att göra detta
             om det sker mera samlat.
           </seg>
-        </u>
-        <u xml:id="i-xUqNMhfexM2LhPoxVHTiV" who="i-FoZGPWdjE7CaiMyuRthV17" prev="i-e88aa04decbea2a2-84" next="i-XWWuBgokXSULSnovD1o887">
           <seg xml:id="i-FAYM1kFxdm3oT3VcR7NoS7">
             Beträffande det andra yrkandet, nämligen sänkning av tullen på
             juteväv, vill
           </seg>
-        </u>
-        <u xml:id="i-XWWuBgokXSULSnovD1o887" who="i-FoZGPWdjE7CaiMyuRthV17" prev="i-xUqNMhfexM2LhPoxVHTiV">
           <seg xml:id="i-XcBTRqkq64ZdEU7Zd2VR1e">
             jag bara påpeka att någon tull på råvaran jute i dag inte utgår.
             Då man nu i motioner föreslår att vi skall sänka tullarna gentemot
@@ -10576,12 +10540,10 @@
         <note xml:id="i-CBDz7zkY84zohRHdmi56ib">
           Åtgärder vid beskattningen i syfte att främja sparandet
         </note>
-        <u xml:id="i-RmxcPwNAjQs2dqnQA9Lh2R" who="i-5kU1NDcAEm4A68amDSrbNF" prev="i-e88aa04decbea2a2-97" next="i-VDtg69AM67WNA6rQ1BwiT1">
+        <u xml:id="i-RmxcPwNAjQs2dqnQA9Lh2R" who="i-5kU1NDcAEm4A68amDSrbNF" prev="i-e88aa04decbea2a2-97">
           <seg xml:id="i-Rb3afCRaUQAz56f5h67heZ">
             förande av de förslag som framläggs i motion II: 671.
           </seg>
-        </u>
-        <u xml:id="i-VDtg69AM67WNA6rQ1BwiT1" who="i-5kU1NDcAEm4A68amDSrbNF" prev="i-RmxcPwNAjQs2dqnQA9Lh2R">
           <seg xml:id="i-9eimjGc72tJaggDVrL2zoD">
             Jag ber, herr talman, att få yrka bifall till reservationerna
             II och III.
@@ -10593,7 +10555,7 @@
         <note xml:id="i-HdXhnExngobj8MepusGjwP" type="speaker">
           Herr BRANDT (s):
         </note>
-        <u xml:id="i-d4f44d05e9d4a8cb-0" who="i-Hh9SCAcwQ6HHbjMsB1cuTy" next="i-XA6K7boHiJKCnTViyzRYeR">
+        <u xml:id="i-d4f44d05e9d4a8cb-0" who="i-Hh9SCAcwQ6HHbjMsB1cuTy" next="i-GXCV898RDHaSMHZvUfQUQT">
           <seg xml:id="i-CCBfJ4zfx5jyCBFcqgoyNq">
             Herr talman! Alla de föregående talarna har vitsordat sparandets
             nödvändighet, och beträffande den är vi alltså alla överens. Jag
@@ -10623,14 +10585,10 @@
             Även privata initiativ till sparstimulerande åtgärder har medverkat
             härtill.
           </seg>
-        </u>
-        <u xml:id="i-XA6K7boHiJKCnTViyzRYeR" who="i-Hh9SCAcwQ6HHbjMsB1cuTy" prev="i-d4f44d05e9d4a8cb-0" next="i-d4f44d05e9d4a8cb-1">
           <seg xml:id="i-QJ2AaaFev13bwAMDBPEF6q">
             Till utskottets betänkande i år har fogats en rad tabeller, som
             ledamöterna
           </seg>
-        </u>
-        <u xml:id="i-d4f44d05e9d4a8cb-1" who="i-Hh9SCAcwQ6HHbjMsB1cuTy" prev="i-XA6K7boHiJKCnTViyzRYeR" next="i-GXCV898RDHaSMHZvUfQUQT">
           <seg xml:id="i-CvcvBDYXcthVrCfCAQqPsi">
             ser. Av dem framgår att bankoch försäkringssparandet under tioårsperioden
             1953—1962 ökat från 31 miljarder till 45 miljarder eller med inte
@@ -10681,7 +10639,7 @@
         <note xml:id="i-8uzUWsK2E6XhKxumG7zbeh">
           Åtgärder vid beskattningen i syfte att främja sparandet
         </note>
-        <u xml:id="i-GXCV898RDHaSMHZvUfQUQT" who="i-Hh9SCAcwQ6HHbjMsB1cuTy" prev="i-d4f44d05e9d4a8cb-1" next="i-G72udVd97whWefTttaFjB5">
+        <u xml:id="i-GXCV898RDHaSMHZvUfQUQT" who="i-Hh9SCAcwQ6HHbjMsB1cuTy" prev="i-d4f44d05e9d4a8cb-0" next="i-G72udVd97whWefTttaFjB5">
           <seg xml:id="i-9qPxaEycExkhkWhCLowhua">
             är några tusental flera än vad tabellen visar. Dessa hade den
             sista december förra året i runt tal 214 miljoner kronor innestående.
@@ -11273,7 +11231,7 @@
         <note xml:id="i-J1YS5ECETZcHyi5vA6ezFo">
           Utbetalning av folkpension utan ansökan
         </note>
-        <u xml:id="i-CLJnsPefxbz5dLrWsgtzuR" who="i-FRxB8oznSTCKcmDJnb8HAC" prev="i-e88aa04decbea2a2-99" next="i-N3MAYGZcNjE9fKzABHaw3t">
+        <u xml:id="i-CLJnsPefxbz5dLrWsgtzuR" who="i-FRxB8oznSTCKcmDJnb8HAC" prev="i-e88aa04decbea2a2-99" next="i-CM4VKSVajmHEXz1fBzFX8D">
           <seg xml:id="i-6XtWaonQELTNixUgbuGJi4">
             inte om denna behandling av motionerna är ett uttryck för en
             viss konservatism, en viss tröghet som gör sig gällande i Sveriges
@@ -11284,8 +11242,6 @@
             för en ingående behandling och att det föreliggande utlåtandet
             är mycket rejält uppställt.
           </seg>
-        </u>
-        <u xml:id="i-N3MAYGZcNjE9fKzABHaw3t" who="i-FRxB8oznSTCKcmDJnb8HAC" prev="i-CLJnsPefxbz5dLrWsgtzuR" next="i-e88aa04decbea2a2-101">
           <seg xml:id="i-RHMeansFvdbNSMBHNYxfFx">
             Jag har försökt få fram upplysningar rörande det antal personer
             som är berättigade till ålderspension och vissa andra förmåner.
@@ -11303,8 +11259,6 @@
             redan vid fyllda 63 år — begärt och erhållit reducerad ålderspension
             efter fyllda 66 år samt vissa utomlands bosatta svenska medborgare.
           </seg>
-        </u>
-        <u xml:id="i-e88aa04decbea2a2-101" who="i-FRxB8oznSTCKcmDJnb8HAC" prev="i-N3MAYGZcNjE9fKzABHaw3t" next="i-CM4VKSVajmHEXz1fBzFX8D">
           <seg xml:id="i-NkVZMvJYRnKEvNrZfvs4im">
             Grovt räknat torde man dock för närvarande kunna räkna med cirka
             800 000 ålderspensionärer. Då med verkan från den 1 juli 1963
@@ -11317,7 +11271,7 @@
         <note xml:id="i-8DwhUKHxxqZGwu19iumBiz" type="date">
           Onsdagen den 8 april 1964 em.
         </note>
-        <u xml:id="i-CM4VKSVajmHEXz1fBzFX8D" who="i-FRxB8oznSTCKcmDJnb8HAC" prev="i-e88aa04decbea2a2-101" next="i-e88aa04decbea2a2-102">
+        <u xml:id="i-CM4VKSVajmHEXz1fBzFX8D" who="i-FRxB8oznSTCKcmDJnb8HAC" prev="i-CLJnsPefxbz5dLrWsgtzuR" next="i-e88aa04decbea2a2-103">
           <seg xml:id="i-75iDRRNPc8uqCYRUgRwUfr">
             understiga 400 000 och hustrutilläggen till ålderspensionärs
             hustru icke 31 000. Ungefär 45 procent av pensionärerna skulle
@@ -11334,8 +11288,6 @@
             67 års ålder.» Därvid översändes i normalfallet jämte ansökningsblankett,
             upplysningsbroschyr och &lt;svarskuvert ett »Meddelande om ålderspension».
           </seg>
-        </u>
-        <u xml:id="i-e88aa04decbea2a2-102" who="i-FRxB8oznSTCKcmDJnb8HAC" prev="i-CM4VKSVajmHEXz1fBzFX8D" next="i-e88aa04decbea2a2-103">
           <seg xml:id="i-3y9rTVpGwvuEMXcmgB9mjU">
             Utskottet framhåller att en hel del uppgifter måste infordras
             för att pensionen skall komma rätt person till handa och för att
@@ -11363,7 +11315,7 @@
         <note xml:id="i-J7MH5brYGbFaHvse5phv8A" type="date">
           Onsdagen den 8 april 1964 em.
         </note>
-        <u xml:id="i-e88aa04decbea2a2-103" who="i-FRxB8oznSTCKcmDJnb8HAC" prev="i-e88aa04decbea2a2-102">
+        <u xml:id="i-e88aa04decbea2a2-103" who="i-FRxB8oznSTCKcmDJnb8HAC" prev="i-CM4VKSVajmHEXz1fBzFX8D">
           <seg xml:id="i-2unQBNu758jerFkHtJUkDD">
             sättet som tydligen är den egentliga tvistepunkten mellan oss
             motionärer och utskottet. Det gäller om en person som har en rätt
@@ -11601,7 +11553,7 @@
         <note xml:id="i-FxME6QGUopJHhQdLNw4VQk">
           Ersättning från allmän försäkringskassa för avvänjning från tobaksbruk
         </note>
-        <u xml:id="i-AXh2YqmfvKiBpthvUYedp1" who="i-QoeFZWNQgLDU6t6B6RuPtd" prev="i-03606e16e9975e2c-3" next="i-FLWiYXa5K1FnHa5MLCJ9Vy">
+        <u xml:id="i-AXh2YqmfvKiBpthvUYedp1" who="i-QoeFZWNQgLDU6t6B6RuPtd" prev="i-03606e16e9975e2c-3">
           <seg xml:id="i-5gkoTSz3EaH3d5frt7HU5Y">
             led i behandlingen av en sjukdom av ett eller annat slag, t.
             ex. bronkit, sammanhängande med eller beroende på rökning, men
@@ -11651,8 +11603,6 @@
             i frågan skulle givetvis sedan bli beroende på hur utredningens
             överväganden utfaller.
           </seg>
-        </u>
-        <u xml:id="i-FLWiYXa5K1FnHa5MLCJ9Vy" who="i-QoeFZWNQgLDU6t6B6RuPtd" prev="i-AXh2YqmfvKiBpthvUYedp1">
           <seg xml:id="i-T5DyMUcHBKaXcREXjHuBW5">
             Jag ber, herr talman, att med hänvisning till vad jag nu anfört
             få yrka bifall till den vid utlåtandet fogade reservationen.
@@ -12117,7 +12067,7 @@
         <note xml:id="i-DVbP8YDMFBKHAVf2NC6aSd">
           Lagstiftning rörande avgiftsbelagda trafikanläggningar
         </note>
-        <u xml:id="i-546f6b035ff63558-1" who="i-XXihiNpmHWiiceHXeDfC69" prev="i-546f6b035ff63558-0" next="i-cPJ6KM1nVkS3AvTTAcPGZ">
+        <u xml:id="i-546f6b035ff63558-1" who="i-XXihiNpmHWiiceHXeDfC69" prev="i-546f6b035ff63558-0">
           <seg xml:id="i-TqRXB27eDc2bhkao4bdoXN">
             tit mig till den av min ståndaktigare förstakammarkollega avgivna
             reservationen är att om han blivit ensam därom detta kunde ha
@@ -12156,8 +12106,6 @@
             initiativ. Det är annars risk för att bron inte kommer till stånd
             förrän ön är tömd på folk.
           </seg>
-        </u>
-        <u xml:id="i-cPJ6KM1nVkS3AvTTAcPGZ" who="i-XXihiNpmHWiiceHXeDfC69" prev="i-546f6b035ff63558-1">
           <seg xml:id="i-LSpQ7UrQdLsDsjkcWw7mFW">
             Av den anledningen yrkar jag bifall till reservationen.
           </seg>
@@ -12414,13 +12362,11 @@
         <note xml:id="i-NQtnQNsNSao11bEwqZu44X">
           Lagstiftning rörande avgiftsbelagda trafikanläggningar
         </note>
-        <u xml:id="i-d3ea84ca66bac9b4-1" who="i-AuM8Jq8UoCNghqcoEjsqU9" prev="i-d3ea84ca66bac9b4-0" next="i-CySBnhzzNsK9Xk1X8cxsto">
+        <u xml:id="i-d3ea84ca66bac9b4-1" who="i-AuM8Jq8UoCNghqcoEjsqU9" prev="i-d3ea84ca66bac9b4-0">
           <seg xml:id="i-MruoQ6fA68eDThVk8Z3Mcc">
             kassan. Vi på ostkusten väntar oss ändå att vi snarast får denna
             broförbindelse.
           </seg>
-        </u>
-        <u xml:id="i-CySBnhzzNsK9Xk1X8cxsto" who="i-AuM8Jq8UoCNghqcoEjsqU9" prev="i-d3ea84ca66bac9b4-1">
           <seg xml:id="i-JfV1SVb7Ef7W2PbWkVC8h7">
             Jag ber, herr talman, att få yrka bifall till utskottets förslag.
           </seg>
@@ -13326,13 +13272,11 @@
         <note xml:id="i-Mmvg7S8U5bBL1FuXTEepEG">
           Utvidgade reserabatter för folkpensionärer m. fl.
         </note>
-        <u xml:id="i-GEDtyrADnJksByp1Qz1eMA" who="i-79eFV37XzwSS8cAGk1AsFw" prev="i-71707d93a6862c50-9" next="i-PCAGM65j27X89s8y2q9aRa">
+        <u xml:id="i-GEDtyrADnJksByp1Qz1eMA" who="i-79eFV37XzwSS8cAGk1AsFw" prev="i-71707d93a6862c50-9">
           <seg xml:id="i-WnLsSjW6Cbv77TaTBrMRZ3">
             och biljetten gäller vidare för båda när make eller maka till
             invalid reser tillsammans med denna.
           </seg>
-        </u>
-        <u xml:id="i-PCAGM65j27X89s8y2q9aRa" who="i-79eFV37XzwSS8cAGk1AsFw" prev="i-GEDtyrADnJksByp1Qz1eMA">
           <seg xml:id="i-Lfzn42BwDrkANZQmqru4ue">
             Jag tycker detta är generöst. Förmånen är utsträckt till en grupp
             av människor som behöver komma ut och resa. Den gäller också så
@@ -13445,7 +13389,7 @@
         <note xml:id="i-BiC3x4KGzoyrzDd8z9ZaeR" type="speaker">
           Herr HOLMBERG (k):
         </note>
-        <u xml:id="i-2e8a68f4bb43a265-0" who="i-M4NwryA2HF7uey8djEDX9X" next="i-XYz2xTGk5NNtApmY2VMMbV">
+        <u xml:id="i-2e8a68f4bb43a265-0" who="i-M4NwryA2HF7uey8djEDX9X">
           <seg xml:id="i-TFdk2C2GkRPzHBc4BWsUkr">
             Herr talman! Herr Carlsson i Huskvarna har redan nämnt att denna
             fråga behandlats många gånger, och det är riktigt. Det går visserligen
@@ -13505,8 +13449,6 @@
             som skulle omöjliggöra att tillgodose motionärernas önskemål,
             är konstruerade eller i varje fall starkt överdrivna.
           </seg>
-        </u>
-        <u xml:id="i-XYz2xTGk5NNtApmY2VMMbV" who="i-M4NwryA2HF7uey8djEDX9X" prev="i-2e8a68f4bb43a265-0">
           <seg xml:id="i-Q8u21Ws7yfUUhJbGSGsPZ7">
             Jag hemställer om bifall till reservationen.
           </seg>
@@ -13538,7 +13480,7 @@
         <note xml:id="i-7jCmQX1wcPhexzwQPVm9Qo">
           Utvidgade reserabatter för folkpensionärer m. fl.
         </note>
-        <u xml:id="i-2e8a68f4bb43a265-2" who="i-AJCahuHrtMzn7qwctgkSw7" prev="i-2e8a68f4bb43a265-1" next="i-R1fv7oGvtAD2XDseeLBep9">
+        <u xml:id="i-2e8a68f4bb43a265-2" who="i-AJCahuHrtMzn7qwctgkSw7" prev="i-2e8a68f4bb43a265-1">
           <seg xml:id="i-gZcc9XMgawmWuGTrB46FC">
             vit att det inte skall ske någon försämring av trafikmöjligheterna.
             Man skall bara lägga om trafiken till landsvägstrafik, men det
@@ -13564,8 +13506,6 @@
             avgörandet i detta fall till trafikföretaget tror jag inte ger
             något resultat.
           </seg>
-        </u>
-        <u xml:id="i-R1fv7oGvtAD2XDseeLBep9" who="i-AJCahuHrtMzn7qwctgkSw7" prev="i-2e8a68f4bb43a265-2">
           <seg xml:id="i-NQasg4SHzZd7aJLcxRfGZe">
             Herr talman! Jag ber att få yrka bifall till reservationen av
             herr Svanström m. fl.
@@ -13577,22 +13517,18 @@
         <note xml:id="i-FvkpC1L8JnRMHdWoRKREEA" type="speaker">
           Fru ERIKSSON i Stockholm (s):
         </note>
-        <u xml:id="i-5248c2bc2939920d-1" who="i-EwWj1hhTj77GkxX2Z7SW8V" next="i-BN99Wy6oTPEUVRvXk3mWej">
+        <u xml:id="i-5248c2bc2939920d-1" who="i-EwWj1hhTj77GkxX2Z7SW8V" next="i-2e8a68f4bb43a265-5">
           <seg xml:id="i-4G7V4DZfw8sg5GnxEqDSPk">
             Herr talman! Det här är ju herr Carlssons i Huskvarna speciella
             fråga, men i år har en mängd andra motionärer slagit följe med
             honom — det är inte mindre än sex motioner som varierar temat.
           </seg>
-        </u>
-        <u xml:id="i-BN99Wy6oTPEUVRvXk3mWej" who="i-EwWj1hhTj77GkxX2Z7SW8V" prev="i-5248c2bc2939920d-1" next="i-2e8a68f4bb43a265-4">
           <seg xml:id="i-P4xmg4KSZ941WkEdnogQNX">
             Två av motionerna innehåller nyheter. Detta gäller herr Löfroths
             motion, i vilken det begärs en utredning om rabattresor även i
             första klass, och det gäller även en centerpartimotion, vari yrkas
             rabatt för militärer vid flygresor.
           </seg>
-        </u>
-        <u xml:id="i-2e8a68f4bb43a265-4" who="i-EwWj1hhTj77GkxX2Z7SW8V" prev="i-BN99Wy6oTPEUVRvXk3mWej" next="i-MfvzSCsbTTGVL4aqWYvRok">
           <seg xml:id="i-H9PXsDfmdYbjDr3NT5wVAi">
             Yrkandet om rabattresor i första klass tycker jag att det ligger
             mycket i, eftersom man och hustru inte kan resa tillsammans i
@@ -13628,8 +13564,6 @@
             enkelpriset).» — De möjligheter till rabattresor som begärs i
             motionen existerar alltså redan.
           </seg>
-        </u>
-        <u xml:id="i-MfvzSCsbTTGVL4aqWYvRok" who="i-EwWj1hhTj77GkxX2Z7SW8V" prev="i-2e8a68f4bb43a265-4" next="i-2e8a68f4bb43a265-5">
           <seg xml:id="i-7vm2EyNGY8DwdPaAt9Shzt">
             I övrigt måste svaret till herr Carlsson i Huskvarna liksom till
             de andra
@@ -13645,7 +13579,7 @@
         <note xml:id="i-9yBvYGwbjKBdqwPaSmMV8E">
           Utvidgade reserabatter för folkpensionärer m. fl.
         </note>
-        <u xml:id="i-2e8a68f4bb43a265-5" who="i-EwWj1hhTj77GkxX2Z7SW8V" prev="i-MfvzSCsbTTGVL4aqWYvRok" next="i-FkW6sowu5BDri9cLNTzjz1">
+        <u xml:id="i-2e8a68f4bb43a265-5" who="i-EwWj1hhTj77GkxX2Z7SW8V" prev="i-5248c2bc2939920d-1" next="i-FkW6sowu5BDri9cLNTzjz1">
           <seg xml:id="i-M6eZRPxbVFQ1FEkY3GvMb3">
             motionärerna bli detsamma som vi ständigt har kommit med — det
             är väl nu den tionde eller tolfte gången som dessa frågor varit
@@ -13893,7 +13827,7 @@
         <note xml:id="i-8b5S5bLorqdhSg9EYdASvC">
           Anpassningsproblemen i arbetslivet
         </note>
-        <u xml:id="i-WAZMpE7USXCnZpgaEAmbp2" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-e88aa04decbea2a2-117" next="i-Q7UeNsRggNQeSxe9V8GPKa">
+        <u xml:id="i-WAZMpE7USXCnZpgaEAmbp2" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-e88aa04decbea2a2-117" next="i-64mtNqhTRKFxwP3eziqic9">
           <seg xml:id="i-K8rSDsHYUSsfoYdaQToz4p">
             har denna viktiga fråga inte blivit tillräckligt uppmärksammad.
             Våra kunskaper på området är alltför bristfälliga. Särskilt de
@@ -13935,8 +13869,6 @@
             Utredningsbetänkandet kan enligt min mening inte utgöra något
             hinder för en beställning av det slag, som motionärerna föreslår.
           </seg>
-        </u>
-        <u xml:id="i-Q7UeNsRggNQeSxe9V8GPKa" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-WAZMpE7USXCnZpgaEAmbp2" next="i-64mtNqhTRKFxwP3eziqic9">
           <seg xml:id="i-Bo7V7CbYsETtiwPihmCwiK">
             Den andra åtgärden som utskottet
           </seg>
@@ -13948,7 +13880,7 @@
         <note xml:id="i-5S1QTGWjA3xLZ16AYFgq2i">
           Åtgärder till förmån för rörelsehindrade
         </note>
-        <u xml:id="i-64mtNqhTRKFxwP3eziqic9" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-Q7UeNsRggNQeSxe9V8GPKa" next="i-KeyXWqcXcS1D9CbKEKUkU6">
+        <u xml:id="i-64mtNqhTRKFxwP3eziqic9" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-WAZMpE7USXCnZpgaEAmbp2">
           <seg xml:id="i-KYYbvgW9rUD7CYEhWEz3XN">
             åberopar är att den kommitté, som har hand om avkastningen från
             riksbankens jubileumsfond, torde komma att föreslå, att fondmedlen
@@ -13973,8 +13905,6 @@
             angeläget att så snart som möjligt skapa möjligheter för en effektiv
             forskning på detta viktiga område.
           </seg>
-        </u>
-        <u xml:id="i-KeyXWqcXcS1D9CbKEKUkU6" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-64mtNqhTRKFxwP3eziqic9">
           <seg xml:id="i-wjLyNzJoQ96at6mxw5RVt">
             Ett bifall till motionen skulle påskynda en sådan utveckling.
             Jag finner mig därför oförhindrad att yrka bifall till motion
@@ -14730,7 +14660,7 @@
         <note xml:id="i-3Qtg4z5WaBdvn1qZbXCvMJ">
           Avdrag för nedsatt skatteförmåga, m. m.
         </note>
-        <u xml:id="i-70328ff0302de303-4" who="i-FoZGPWdjE7CaiMyuRthV17" prev="i-70328ff0302de303-3" next="i-9doduXkE5RhJvA3JAKxXNu">
+        <u xml:id="i-70328ff0302de303-4" who="i-FoZGPWdjE7CaiMyuRthV17" prev="i-70328ff0302de303-3">
           <seg xml:id="i-FS4WMam3VUsFC9a5ASeQCU">
             Detta förslag innebär att barnavdrag medges vid beskattningen
             för dem som kan åberopa existensminimum. Vi har redan tidigare
@@ -14752,8 +14682,6 @@
             man är något frikostigare i fråga om att bevilja extra skatteavdrag
             för sådana personer.
           </seg>
-        </u>
-        <u xml:id="i-9doduXkE5RhJvA3JAKxXNu" who="i-FoZGPWdjE7CaiMyuRthV17" prev="i-70328ff0302de303-4">
           <seg xml:id="i-LqdHLgThaXYSP2s2W5z9Ny">
             Jag ber, herr talman, att få yrka bifall till reservation II
             och i övrigt till utskottets förslag.
@@ -14871,7 +14799,7 @@
         <note xml:id="i-GxUNmM9RTR1y5xVm7WAPBF" type="date">
           Onsdagen den 8 april 1964 em.
         </note>
-        <u xml:id="i-e88aa04decbea2a2-135" who="i-99apTmys3yg4ezCGCxtPbq" prev="i-e88aa04decbea2a2-134" next="i-NYHkYsAHnk3RzZGe4NQh4X">
+        <u xml:id="i-e88aa04decbea2a2-135" who="i-99apTmys3yg4ezCGCxtPbq" prev="i-e88aa04decbea2a2-134">
           <seg xml:id="i-TEtzBeKWBqai98fNaoxAJT">
             fråga om någon omöjlighet. Men utskottet vill inte ens påpeka
             behovet av en utredning. Jag tror inte att riksdagen är likgiltig
@@ -14882,8 +14810,6 @@
             anvisningar. Jag är för min del som sagt tacksam för att reservanterna
             tagit upp problemet.
           </seg>
-        </u>
-        <u xml:id="i-NYHkYsAHnk3RzZGe4NQh4X" who="i-99apTmys3yg4ezCGCxtPbq" prev="i-e88aa04decbea2a2-135">
           <seg xml:id="i-FNQVo9qhi6BiRnpdsvG2UX">
             Jag ber, herr talman, att få yrka bifall till reservation II.
           </seg>
@@ -15018,13 +14944,11 @@
         <note xml:id="i-6YbSQDB6bm5JdtDdQqBB7s" type="date">
           Onsdagen den 8 april 1964 em.
         </note>
-        <u xml:id="i-LB3iz57KJE5ZBszJgTdqAy" who="i-Hh9SCAcwQ6HHbjMsB1cuTy" prev="i-d4f44d05e9d4a8cb-17" next="i-d4f44d05e9d4a8cb-18">
+        <u xml:id="i-LB3iz57KJE5ZBszJgTdqAy" who="i-Hh9SCAcwQ6HHbjMsB1cuTy" prev="i-d4f44d05e9d4a8cb-17">
           <seg xml:id="i-TgGPT9FVgjzasVQGmUgPjH">
             att skatteberedningens förslag framlägges i vår, och riksdagen
             kan sedan fatta ett beslut som träder i kraft vid årsskiftet 1965—1966.
           </seg>
-        </u>
-        <u xml:id="i-d4f44d05e9d4a8cb-18" who="i-Hh9SCAcwQ6HHbjMsB1cuTy" prev="i-LB3iz57KJE5ZBszJgTdqAy">
           <seg xml:id="i-VJZB3XHQY6z94mmq3fbrnN">
             Med hänsyn härtill borde riksdagen nu kunna nöja sig med den
             50-procentiga förhöjning av avdraget som föreslås. Det kan inte

@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-SpguadnTKUQYesxtQz2ANf" type="speech">
             <linkGrp type="u">
               <ptr target="#i-Ks2rGg47E3onR7He95Gbn9"/>
@@ -513,7 +513,13 @@
               <ptr target="#i-JFZ7ZrawoVxzQyDu5hjda8"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -540,21 +546,17 @@
         <note xml:id="i-PtcgHZ8d7Wxn6fcLuEGLqg" type="speaker">
           Herr vice Talmannen:
         </note>
-        <u xml:id="i-Ks2rGg47E3onR7He95Gbn9" who="unknown" next="i-TF8oLPji9SG41tppsWUtin">
+        <u xml:id="i-Ks2rGg47E3onR7He95Gbn9" who="unknown">
           <seg xml:id="i-6rCcfusEANtWdxR5Xfcze2">
             Med afseende å den redan beslutade föredragningsordningen för
             de särskilda delarne af statsregleringen får jag hemställa, att
             Kammaren ville besluta, att Stats-Utskottets nu bordlagda Utlåtanden
             angående Sjette och Sjunde Hufvudtit-
           </seg>
-        </u>
-        <u xml:id="i-TF8oLPji9SG41tppsWUtin" who="unknown" prev="i-Ks2rGg47E3onR7He95Gbn9" next="i-MwDFJLEV6skpZcDty2xbtt">
           <seg xml:id="i-3AgcgYVBa3xKZRGJDZfkfo">
             larne måtte sättas främst på föredragningslistan till nästa plenum,
             för
           </seg>
-        </u>
-        <u xml:id="i-MwDFJLEV6skpZcDty2xbtt" who="unknown" prev="i-TF8oLPji9SG41tppsWUtin">
           <seg xml:id="i-2qXTn29GRiCqi2SkUzSw1E">
             att, efter förnyad bordläggning, kunna behandlas omedelbart efter
             Femte Hufvudtiteln.
@@ -655,7 +657,7 @@
         <note xml:id="i-JoWD5Zrxzw7sM33qJiucE" type="date">
           Den 15 Mars, f. m. dl
         </note>
-        <u xml:id="i-K9ofNtzSL3VaE4PHUXcT3m" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-NqBrsPhjkYykGMvLNX43M8" next="i-RT3KYVRPKGc8XNdosyecCu">
+        <u xml:id="i-K9ofNtzSL3VaE4PHUXcT3m" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-NqBrsPhjkYykGMvLNX43M8">
           <seg xml:id="i-UbtPj6se9zzGHc6iFsU9PK">
             Stats-Utskottets ledamöter obekant, att förfrågan blifvit gjord
             hos Regeringen, huruvida den kunde afstå något af denna fond för
@@ -664,8 +666,6 @@
             afitvet, framkomma med ett förslag sådant som Stats-Utskottets,
             stri-
           </seg>
-        </u>
-        <u xml:id="i-RT3KYVRPKGc8XNdosyecCu" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-K9ofNtzSL3VaE4PHUXcT3m">
           <seg xml:id="i-428wuPVCFBpxhvdvvS3NLK">
             er, efter min förmening, mot gällande lag och bevisar brist på
             grannlagenhet. Jag vill icke och behöfver icke heller ingå 1 något
@@ -726,7 +726,7 @@
         <note xml:id="i-Fzg8ft6Uk9fzgCxVGQjwae" type="date">
           52 Den 15 Mars, f. m.
         </note>
-        <u xml:id="i-AS5cLS2zVUWRP657HJzbhC" who="i-FBqnnZt6zvmwFVLD1bjimL" prev="i-RhuVPkGgnb1CJcnTZfCRrr" next="i-8CWbLyQ4RHWejcHv2uWK8Q">
+        <u xml:id="i-AS5cLS2zVUWRP657HJzbhC" who="i-FBqnnZt6zvmwFVLD1bjimL" prev="i-RhuVPkGgnb1CJcnTZfCRrr" next="i-B6NZqE7ZMKJC5xNis42Aze">
           <seg xml:id="i-wzRsj67NmzqcPKn3FqDHy">
             af den föregående talaren blifvit uttalad öfver Stats-Utskottet,
             torde det synas djerft af mig att uppträda till försvar för detsamma,
@@ -756,8 +756,6 @@
             riksdag" — — — och slutar med: &lt;af den motsvarande bristen
             på allmänna anslaget."
           </seg>
-        </u>
-        <u xml:id="i-8CWbLyQ4RHWejcHv2uWK8Q" who="i-FBqnnZt6zvmwFVLD1bjimL" prev="i-AS5cLS2zVUWRP657HJzbhC" next="i-Lm3NvzcRQBN7AT99jivS2X">
           <seg xml:id="i-JCcqyK76fgjitLGbPEd55u">
             Jag tror, att icke ens i Stats-Utskottets samtliga, så ofta klandrade
             motiveringar förekommer en mening så oredig, så otydlig som denna.
@@ -770,8 +768,6 @@
             är så noga om denna siffra precist motsvarar hvad med densamma
             afses.
           </seg>
-        </u>
-        <u xml:id="i-Lm3NvzcRQBN7AT99jivS2X" who="i-FBqnnZt6zvmwFVLD1bjimL" prev="i-8CWbLyQ4RHWejcHv2uWK8Q" next="i-B6NZqE7ZMKJC5xNis42Aze">
           <seg xml:id="i-2oiKgGDmQRfiXeW8f4QiF7">
             Jag vill nu öfvergå till hufvudsaken. Det kan icke nekas att,
             då Kongl. Maj:ts nådiga Proposition afgafs, det i allmänhet väckte
@@ -794,7 +790,7 @@
         <note xml:id="i-WMxjKRvxhb9QXtBWR2N3fs" type="date">
           Den 15 Mars, f. m. 53
         </note>
-        <u xml:id="i-B6NZqE7ZMKJC5xNis42Aze" who="i-FBqnnZt6zvmwFVLD1bjimL" prev="i-Lm3NvzcRQBN7AT99jivS2X" next="i-NT4ayZLQBeofidyfxHN82G">
+        <u xml:id="i-B6NZqE7ZMKJC5xNis42Aze" who="i-FBqnnZt6zvmwFVLD1bjimL" prev="i-AS5cLS2zVUWRP657HJzbhC" next="i-Eeg2zaec4731dXmUt3GyEP">
           <seg xml:id="i-3TYk8akGuY42rWPbwHTrvt">
             i detta afseende kommit till ett resultat, som är ganska tillfredsställande,
             tror jag mig kunna påstå. Herr Finansministerns förslag afser,
@@ -817,15 +813,11 @@
             en förhöjning i bränvinsskatten af 350,000 R:dr och komma således
             till en slutsumma af 1,894,728 R:dr 30 öre.
           </seg>
-        </u>
-        <u xml:id="i-NT4ayZLQBeofidyfxHN82G" who="i-FBqnnZt6zvmwFVLD1bjimL" prev="i-B6NZqE7ZMKJC5xNis42Aze" next="i-Mne7k4KXtefBHKHYi5HXzS">
           <seg xml:id="i-9FfVgZt7mkrFwW49cX5XH4">
             Jag har med dessa siffror velat visa, att Stats-Utskottet icke
             gått blindt till väga, då det velat fylla statsbristen genom besparingar
             i stället för genom ökade skatter.
           </seg>
-        </u>
-        <u xml:id="i-Mne7k4KXtefBHKHYi5HXzS" who="i-FBqnnZt6zvmwFVLD1bjimL" prev="i-NT4ayZLQBeofidyfxHN82G" next="i-Eeg2zaec4731dXmUt3GyEP">
           <seg xml:id="i-NwfSxf415NNT1x3BMRRdQv">
             Då fråga blef, hvar dessa besparingar skulle göras, var det naturligt,
             att man af många skäl skulle komma att tänka på Fjerde och Femte
@@ -858,7 +850,7 @@
         <note xml:id="i-BFXHCJBuVYzeEai7ZypqMC" type="date">
           54 Den 15 Mars, f. m.
         </note>
-        <u xml:id="i-Eeg2zaec4731dXmUt3GyEP" who="i-FBqnnZt6zvmwFVLD1bjimL" prev="i-Mne7k4KXtefBHKHYi5HXzS" next="i-DKCRQSXE2iMtzSor991MdQ">
+        <u xml:id="i-Eeg2zaec4731dXmUt3GyEP" who="i-FBqnnZt6zvmwFVLD1bjimL" prev="i-B6NZqE7ZMKJC5xNis42Aze" next="i-V6oTJezgews4XHm7VZDRQv">
           <seg xml:id="i-Mat3JffHUNbgLRwwJR116M">
             tills, och jag har äfven häraf tagit mig anledning att inom Utskottet
             föreslå nedsättningar just på dessa hufvudtitlar. Man har här
@@ -911,8 +903,6 @@
             större frihet för Kongl. Maj:t att använda beväringsfonden som
             honom bäst synes.
           </seg>
-        </u>
-        <u xml:id="i-DKCRQSXE2iMtzSor991MdQ" who="i-FBqnnZt6zvmwFVLD1bjimL" prev="i-Eeg2zaec4731dXmUt3GyEP" next="i-V6oTJezgews4XHm7VZDRQv">
           <seg xml:id="i-VryS24itvQM54FGcK8HAo7">
             Innan jag lemnar denna fråga vill jag nämna, att skälet, hvar-
           </seg>
@@ -921,7 +911,7 @@
         <note xml:id="i-L6qLPaaPJV44yG8y3YnLKX" type="date">
           Den 15 Mars, f. m, 55
         </note>
-        <u xml:id="i-V6oTJezgews4XHm7VZDRQv" who="i-FBqnnZt6zvmwFVLD1bjimL" prev="i-DKCRQSXE2iMtzSor991MdQ" next="i-7HXLedqNBVG29FTRydaNTK">
+        <u xml:id="i-V6oTJezgews4XHm7VZDRQv" who="i-FBqnnZt6zvmwFVLD1bjimL" prev="i-Eeg2zaec4731dXmUt3GyEP">
           <seg xml:id="i-HA378iVNZb19A2RasciuLv">
             före jag ingick på en sådan medelväg, var, att jag ej anser lyckligt,
             då konflikter uppstå mellan Regeringen och Representationen eller
@@ -943,8 +933,6 @@
             olämpligt bringa frågan till en våldsam lösning och kan icke heller
             förstå att sådant nu är af nöden.
           </seg>
-        </u>
-        <u xml:id="i-7HXLedqNBVG29FTRydaNTK" who="i-FBqnnZt6zvmwFVLD1bjimL" prev="i-V6oTJezgews4XHm7VZDRQv">
           <seg xml:id="i-2oRwvfbXPTV6eUvW2rgHnR">
             Man må i öfrigt bedöma Stats-Utskottets åtgärder aldrig så strängt,
             anser jag dock att Utskottets hufvudsakligaste motiv väl kan försvaras,
@@ -959,7 +947,7 @@
         <note xml:id="i-U73Y23Qy4ngXzuf69BHbK7" type="speaker">
           Herr Wallenberg:
         </note>
-        <u xml:id="i-8TakysTbkMFeUki6vbumBr" who="i-E7aB8B6ZVrFekyhd9pNoQt" next="i-VjsrTFLbZ3Ngi3EsMa3F6h">
+        <u xml:id="i-8TakysTbkMFeUki6vbumBr" who="i-E7aB8B6ZVrFekyhd9pNoQt" next="i-L1FCnya64uk6Snf5txrYaE">
           <seg xml:id="i-UsdxtyBbvXT5tq1vyu3eF3">
             Jag kan ej i likhet med den siste värde talaren tala latin, men
             hoppas deremot för min åsigt kunna anföra skäl, som tala latin.
@@ -969,8 +957,6 @@
             då var benägen att göra, utan ansluter mig nu till den Kongl.
             Propositionen.
           </seg>
-        </u>
-        <u xml:id="i-VjsrTFLbZ3Ngi3EsMa3F6h" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-8TakysTbkMFeUki6vbumBr" next="i-L1FCnya64uk6Snf5txrYaE">
           <seg xml:id="i-FQBc1QMVFTauSWeHZaLwc3">
             Liksom här, tvistade man inom Utskottet om rätta tydningen af
             lagen om allmänna beväringen. Ja, der stodo jemväl tvänne jurister
@@ -995,7 +981,7 @@
         <note xml:id="i-CR3MjZwibuABvvSezFFbn9" type="date">
           56 Den 15 Mars, f. m.
         </note>
-        <u xml:id="i-L1FCnya64uk6Snf5txrYaE" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-VjsrTFLbZ3Ngi3EsMa3F6h" next="i-L5HpSqHP3qMe1Pm43cvQSH">
+        <u xml:id="i-L1FCnya64uk6Snf5txrYaE" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-8TakysTbkMFeUki6vbumBr" next="i-VbNwgp91kcs6RizBpUDjf3">
           <seg xml:id="i-PNWocrZjfCr6EQSzUUQ1Kn">
             han förgätit hufvudändamålet, det allmänt gagneliga, och fördjupat
             sig 1 småbestyren. Långt ifrån att klandra sparsamhetsandan ös
@@ -1022,8 +1008,6 @@
             och så omhulda dem, att de kunna motsvara de anspråk, fosterlandet
             på dem i farans stund kommer att ställa.
           </seg>
-        </u>
-        <u xml:id="i-L5HpSqHP3qMe1Pm43cvQSH" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-L1FCnya64uk6Snf5txrYaE" next="i-VbNwgp91kcs6RizBpUDjf3">
           <seg xml:id="i-EeRPyH7KVPDdEQewQQbBZm">
             Efter många stridigheter kom man ändtligen derhän, att nationen
             genom Riksdagen åtog sig en utsträckt värnepligt. Jag erinrar
@@ -1061,7 +1045,7 @@
         <note xml:id="i-DQLCnV5howFjneBvtb9E5h" type="date">
           Den 15 Mars, f. m. 57
         </note>
-        <u xml:id="i-VbNwgp91kcs6RizBpUDjf3" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-L5HpSqHP3qMe1Pm43cvQSH">
+        <u xml:id="i-VbNwgp91kcs6RizBpUDjf3" who="i-E7aB8B6ZVrFekyhd9pNoQt" prev="i-L1FCnya64uk6Snf5txrYaE">
           <seg xml:id="i-PAEaWB81yduxfqR8iv2USu">
             konflikter med Medkammaren.”" Jag deremot fruktar, att dessa
             försök att visa undfallenhet kunna gå för långt och jag är innerligt
@@ -1127,22 +1111,18 @@
         <note xml:id="i-PFzMoyzAWRkQc4JA5REtqt" type="date">
           58 Den 15 Mars, f. m.
         </note>
-        <u xml:id="i-XBMxiCFH1R9dYwKnidXGKi" who="i-F25NVHcBHh8Wvt6w7kLUBA" prev="i-LTkqzNjmm1zEckSWPK5ULT" next="i-L5TkdqdrKSFtQkfxySUhME">
+        <u xml:id="i-XBMxiCFH1R9dYwKnidXGKi" who="i-F25NVHcBHh8Wvt6w7kLUBA" prev="i-LTkqzNjmm1zEckSWPK5ULT">
           <seg xml:id="i-DyBPGYRtps83AYG7Ht2XFP">
             ningarne. Dertill kommer, att Stats-Utskottets framställning
             icke inskränker sig blott tili ett förslag i sådant syfte. Den
             har visserligen erhållit formen af en anhållan, men då beväringsfondens
             användande
           </seg>
-        </u>
-        <u xml:id="i-L5TkdqdrKSFtQkfxySUhME" who="i-F25NVHcBHh8Wvt6w7kLUBA" prev="i-XBMxiCFH1R9dYwKnidXGKi" next="i-M8skevGF9KpFQ5NKPwUGzx">
           <seg xml:id="i-DqmW22W5Af83J9LUeHuZnG">
             jorts till vilkor för beväringens öfningar, antager framställningen
             i sjelfva verket egenskapen af ett beslut angående dispositionen
             af denna fond, hvartill, såsom mig synes, Riksdagen saknar befogenhet.
           </seg>
-        </u>
-        <u xml:id="i-M8skevGF9KpFQ5NKPwUGzx" who="i-F25NVHcBHh8Wvt6w7kLUBA" prev="i-L5TkdqdrKSFtQkfxySUhME">
           <seg xml:id="i-2hwZhPWLyB2MbV9hBLPxqW">
             Det är endast i afseende å denna, den konstitutionella delen
             af frågan, som jag önskat uttala min åsigt, men jag tror att,
@@ -1202,7 +1182,7 @@
         <note xml:id="i-EWHxsPXQFHHbW13cgYfDoq" type="date">
           Den 15 Mars, f. m. 59
         </note>
-        <u xml:id="i-7P65m3cgqEkzgTGWzkypdP" who="i-SFcDzAQUiJhV8iyT7ZES7X" prev="i-VQKRemPrjnqyTs7pQbBeLY" next="i-N2GcimwavYJqx2a352WuPf">
+        <u xml:id="i-7P65m3cgqEkzgTGWzkypdP" who="i-SFcDzAQUiJhV8iyT7ZES7X" prev="i-VQKRemPrjnqyTs7pQbBeLY">
           <seg xml:id="i-TGaGiDPNwudAfyN8SEXMgn">
             råd till mera. Sättet, huru dessa öfningar skola bedrifvas för
             att man af dem skall kunna draga möjligast största nytta, har
@@ -1225,8 +1205,6 @@
             emellan de båda Statsmakterna. Det finnes nemligen vissa konstitutionela
             gränser, som man bör akta sig att skrida öfver.
           </seg>
-        </u>
-        <u xml:id="i-N2GcimwavYJqx2a352WuPf" who="i-SFcDzAQUiJhV8iyT7ZES7X" prev="i-7P65m3cgqEkzgTGWzkypdP" next="i-AjByUZQVoZPo6fSuqHC2j3">
           <seg xml:id="i-2fBRpLE2eR4htNjk99Du16">
             Hvad som menas med beväringsfonden och huru den tillkommit, har
             blifvit så fullständigt utredt, att jag icke behöfver derom vidare
@@ -1243,16 +1221,12 @@
             tillmötesgående. HRiksdagen behöfde blott det ena året knacka
             på dörren, och genast uppläts den det andra.
           </seg>
-        </u>
-        <u xml:id="i-AjByUZQVoZPo6fSuqHC2j3" who="i-SFcDzAQUiJhV8iyT7ZES7X" prev="i-N2GcimwavYJqx2a352WuPf" next="i-Nfq6MCUPLGXLffetxJftdy">
           <seg xml:id="i-JD9ZR5Vid1GzsUaygCz4QU">
             Af dessa skäl anser jag, att Stats-Utskottet genom sitt sätt
             att försöka skaffa medel till de af Utskottet erkända nyttiga
             beväringsöfningarne, inslagit en väg som är orätt och leder till
             konflikter emellan statsmakterna. i
           </seg>
-        </u>
-        <u xml:id="i-Nfq6MCUPLGXLffetxJftdy" who="i-SFcDzAQUiJhV8iyT7ZES7X" prev="i-AjByUZQVoZPo6fSuqHC2j3">
           <seg xml:id="i-Ww6k9ZrdfbwvxbVanNjvMV">
             Hvad sjelfva frågan i sin helhet beträffar, önskar jag bifall
             till Kongl. Maj:ts Proposition, som afser att 600,000 R:dr skola
@@ -1397,12 +1371,10 @@
         <note xml:id="i-BLwGVwUDvXsjq7ywNaabzU" type="date">
           62 Den 15 Mars, f. m.
         </note>
-        <u xml:id="i-TBF5aS8c4p9W41rBA9m6wQ" who="i-3G3HSvSLDH6Z2Spw8nAwav" prev="i-BkpXSS7MaN32u7Dbgpikx9" next="i-SzXbKQiFKDV9u7PCUrBTy1">
+        <u xml:id="i-TBF5aS8c4p9W41rBA9m6wQ" who="i-3G3HSvSLDH6Z2Spw8nAwav" prev="i-BkpXSS7MaN32u7Dbgpikx9">
           <seg xml:id="i-TLC6iVgAWQU1N4i8U9aDU3">
             hjelpes det med att höja någon inkomsttitel med ett motsvarandebelopp.
           </seg>
-        </u>
-        <u xml:id="i-SzXbKQiFKDV9u7PCUrBTy1" who="i-3G3HSvSLDH6Z2Spw8nAwav" prev="i-TBF5aS8c4p9W41rBA9m6wQ">
           <seg xml:id="i-6cci1tSxbYY3FVcpzzbQZV">
             På alla dessa skäl yrkar jag afslag på Stats-Utskottets hem--
             ställan och bifall till Kongl. Maj:ts Proposition.
@@ -1411,15 +1383,13 @@
         <note xml:id="i-VxVBwHMrF1HZTrgeLZ3SRw" type="speaker">
           Herr Statsrådet, Friherre Leijonhufvud:
         </note>
-        <u xml:id="i-DxfTebKiJjojpubQHXarGT" who="unknown" next="i-VP6eVCkxTTAyoYEuo3k9Lw">
+        <u xml:id="i-DxfTebKiJjojpubQHXarGT" who="unknown">
           <seg xml:id="i-A6ZUtu2FwZtj5jPsn1gK1a">
             Efter den utredning frågan erhållit, skall jag ej länge upptaga
             Kammarens tid, men då Chefen för Landtförsvars-departementet ej
             är närvarande, har jag ansett mig böra uppträda för att förorda
             bifall till Kongl. Maj:ts Proposition.
           </seg>
-        </u>
-        <u xml:id="i-VP6eVCkxTTAyoYEuo3k9Lw" who="unknown" prev="i-DxfTebKiJjojpubQHXarGT">
           <seg xml:id="i-FhRSMDfoaBaLMW2JcCR15z">
             Alla, som i denna fråga yttrat sig, synas vara ense om att erkänna
             vigten af andra klassens beväringsöfningar, och till och med reservanterne
@@ -1474,7 +1444,7 @@
         <note xml:id="i-VXHT9YaDgRRsZ51jaECKUh" type="date">
           Den 15 Mars, f. m. 63
         </note>
-        <u xml:id="i-RDHRtBam8BAknM289kD1At" who="i-UMAUxXB5h12rzDJduJ9eMT" prev="i-UK53ehnWtyqiYufcuQny7L" next="i-7WWoc19z9hMJfornHQpvfL">
+        <u xml:id="i-RDHRtBam8BAknM289kD1At" who="i-UMAUxXB5h12rzDJduJ9eMT" prev="i-UK53ehnWtyqiYufcuQny7L">
           <seg xml:id="i-6KVDC59xd2ggKJ6bj3KRn9">
             slaget ur denna fond, men om det ej täckes Kongl. Maj:t, hvilket
             väl kan förutsättas, så betyder det detsamma som att Kongl. Maj:t
@@ -1502,8 +1472,6 @@
             med Khedivens truppers, stå långt framom vår tarfligt tillmätta
             öfningstid?
           </seg>
-        </u>
-        <u xml:id="i-7WWoc19z9hMJfornHQpvfL" who="i-UMAUxXB5h12rzDJduJ9eMT" prev="i-RDHRtBam8BAknM289kD1At">
           <seg xml:id="i-98ouv5rE2ysZ7GtbZArayj">
             Det skäl hvarpå Utskottet grundat sin framställning är, att det,
             «med hänsyn till allmänna ställningen ilandet, ansett sig böra
@@ -1545,7 +1513,7 @@
         <note xml:id="i-SsqZ3Ct5gf38A6YEvswhW7" type="speaker">
           Herr Nordström:
         </note>
-        <u xml:id="i-VoTskxRnFKP471irvQb3dW" who="i-NtZkf2mFJXvC9PJ1aMWzTd" next="i-JUYXqnFgxV2R7LbtPE47HX">
+        <u xml:id="i-VoTskxRnFKP471irvQb3dW" who="i-NtZkf2mFJXvC9PJ1aMWzTd" next="i-F6s1fr8dVEbraDwVS4NL3G">
           <seg xml:id="i-Y77DrsDhzSpf9xRiLHtxm3">
             Hvad är ändamålet med vår sammanvaro här 1 egenskap af Svenska
             folkets ombud, om ej att efter bästa förmåga och inom gränsen
@@ -1566,8 +1534,6 @@
             verkningarne, såsom alltid der rättsordningen rubbas i sin bestämda
             gång.
           </seg>
-        </u>
-        <u xml:id="i-JUYXqnFgxV2R7LbtPE47HX" who="i-NtZkf2mFJXvC9PJ1aMWzTd" prev="i-VoTskxRnFKP471irvQb3dW" next="i-ShnpLwVDLsuNLyjiBHyWMK">
           <seg xml:id="i-LGMLXrj2k8PhJqhckiY1ak">
             Det förslag, Konungen, efter att hafva hört sina rådgifvare,
             uti ifrågavarande ärende till Riksdagens pröfning framlagt, förutsätter,
@@ -1579,8 +1545,6 @@
             för beslutet, kunna leda till följder, som för Staten blefve högst
             vådliga.
           </seg>
-        </u>
-        <u xml:id="i-ShnpLwVDLsuNLyjiBHyWMK" who="i-NtZkf2mFJXvC9PJ1aMWzTd" prev="i-JUYXqnFgxV2R7LbtPE47HX" next="i-F6s1fr8dVEbraDwVS4NL3G">
           <seg xml:id="i-4h3hZPTJnZQDnZ8YuGSf6p">
             Konungen har begärt en förhöjning af 100,000 R:dr i det nu till
             500,000 R:dr uppgående anslaget för beväringsmanskapets vapenöfningar
@@ -1611,7 +1575,7 @@
         <note xml:id="i-M78YUFhXjEkkRjm8oKZ6JD" type="date">
           Den 15 Mars, f. m. 65
         </note>
-        <u xml:id="i-F6s1fr8dVEbraDwVS4NL3G" who="i-NtZkf2mFJXvC9PJ1aMWzTd" prev="i-ShnpLwVDLsuNLyjiBHyWMK" next="i-AQMincQPgLq725m92vK34D">
+        <u xml:id="i-F6s1fr8dVEbraDwVS4NL3G" who="i-NtZkf2mFJXvC9PJ1aMWzTd" prev="i-VoTskxRnFKP471irvQb3dW" next="i-Pwz6SxsiYgqrpm7o6PsqsH">
           <seg xml:id="i-UCPysVDAKRNfv6aJb8FEi6">
             anslag, som beviljats till upprätthållande af sådana allmänna
             inrättningar af alla slag, hvilka, sedan Riksdagen godkänt deras
@@ -1622,8 +1586,6 @@
             som göra de dertill tillförene beviljade anslagen till större
             eller mindre del, eller helt och hållet umbärliga, eller öfverflödiga.
           </seg>
-        </u>
-        <u xml:id="i-AQMincQPgLq725m92vK34D" who="i-NtZkf2mFJXvC9PJ1aMWzTd" prev="i-F6s1fr8dVEbraDwVS4NL3G" next="i-E5AYvMDrmvN6uREG68QXbA">
           <seg xml:id="i-suJHzAJC6ajZTFHaWQ5cv">
             Uti ifrågavarande fall kommer nu särskildt härtill, att allmänna
             beväringsfonden blifvit, såsom nyss sades, genom en speciel, af
@@ -1656,8 +1618,6 @@
             mycket mer angeläget att nägon inskränkning af öfningarne under
             år 1871 ej må ega rum.
           </seg>
-        </u>
-        <u xml:id="i-E5AYvMDrmvN6uREG68QXbA" who="i-NtZkf2mFJXvC9PJ1aMWzTd" prev="i-AQMincQPgLq725m92vK34D" next="i-Pwz6SxsiYgqrpm7o6PsqsH">
           <seg xml:id="i-SN3sgMZNSC4ZRakhA71adK">
             Söker man efter de skäl, på hvilka Utskottet grundat sitt i så
             många afseenden anmärkningsvärda förslag, finner man dem reducera
@@ -1681,7 +1641,7 @@
         <note xml:id="i-5XdJAQoBPrU9jkJM1L9t49" type="date">
           66 Den 15 Mars, f. m.
         </note>
-        <u xml:id="i-Pwz6SxsiYgqrpm7o6PsqsH" who="i-NtZkf2mFJXvC9PJ1aMWzTd" prev="i-E5AYvMDrmvN6uREG68QXbA" next="i-57rsrU7ptfwaqyA1ktjV8f">
+        <u xml:id="i-Pwz6SxsiYgqrpm7o6PsqsH" who="i-NtZkf2mFJXvC9PJ1aMWzTd" prev="i-F6s1fr8dVEbraDwVS4NL3G" next="i-8FmFB4xjgdeP4cE9Xtnt3Y">
           <seg xml:id="i-2HdyhknSdYXiCnyARcrTmm">
             till från Konungens sida äfven vore behöfligt. Hvad Konungen
             kunde finna skäligt, att i detta hänseende medgifva under föregående
@@ -1692,8 +1652,6 @@
             af Konungens samtycke till dess förslag, för att det skulle kunna
             leda till åsyftadt resultat.
           </seg>
-        </u>
-        <u xml:id="i-57rsrU7ptfwaqyA1ktjV8f" who="i-NtZkf2mFJXvC9PJ1aMWzTd" prev="i-Pwz6SxsiYgqrpm7o6PsqsH" next="i-Rf9XYhWgRcDB7pmYJN7fiW">
           <seg xml:id="i-RfQiUfWK5ZCBKT6yTAAgYr">
             Det andra af Utskottets skäl är, att det ansett anvisande af
             den för vapenöfningarne erforderliga, betydliga summa oförenligt
@@ -1730,8 +1688,6 @@
             af denna pligt får hon ej sky tillbaka för uppoffringar, ofta
             dessutom närmast föranledda af hennes egna tillgöranden. .
           </seg>
-        </u>
-        <u xml:id="i-Rf9XYhWgRcDB7pmYJN7fiW" who="i-NtZkf2mFJXvC9PJ1aMWzTd" prev="i-57rsrU7ptfwaqyA1ktjV8f" next="i-8FmFB4xjgdeP4cE9Xtnt3Y">
           <seg xml:id="i-EjgwfEAFuoGMm9cbD3JEi4">
             Att för vården af ett stort samhällsändamål, — och sådant är
             utan tvifvel Statens sjelfbestånd och förmåga af sjelfförsvar
@@ -1745,7 +1701,7 @@
           </seg>
         </u>
         <pb facs="https://swerik-project.github.io/riksdagen-records-pdf/1870/prot-1870--fk--0315/prot-1870--fk--0315_018"/>
-        <u xml:id="i-8FmFB4xjgdeP4cE9Xtnt3Y" who="i-NtZkf2mFJXvC9PJ1aMWzTd" prev="i-Rf9XYhWgRcDB7pmYJN7fiW">
+        <u xml:id="i-8FmFB4xjgdeP4cE9Xtnt3Y" who="i-NtZkf2mFJXvC9PJ1aMWzTd" prev="i-Pwz6SxsiYgqrpm7o6PsqsH">
           <seg xml:id="i-6iBSU7YTKPwUPYLPB2UL2M">
             Den 15 Mars, f. m. 6 traktande af allt detta, förenar jag mig
             med dem, som yrka bifall
@@ -1758,7 +1714,7 @@
         <note xml:id="i-DVxSv8EgMdNTQaQ1MshWLQ" type="speaker">
           Herr Tornerhjelm:
         </note>
-        <u xml:id="i-6qS2GJWynwgTmS5iMgQ4C9" who="i-S7xhXttWmFR27Um1dWDJzh" next="i-2nCWw953oEaED75vu7BMNP">
+        <u xml:id="i-6qS2GJWynwgTmS5iMgQ4C9" who="i-S7xhXttWmFR27Um1dWDJzh" next="i-N9EqAh6kvJYi1a8ucrTfZJ">
           <seg xml:id="i-8izC94HsZYk8HnP3JWbxDe">
             Då jag första gången såg detta Betänkande, trodde jag, såsom
             jag ännu gör, att enda afsigten med detsamma var att åvägabringa
@@ -1771,16 +1727,12 @@
             1 ögonen, men också många mera lugna och sansade, hvilka ansågo
             det ej vara så farligt.
           </seg>
-        </u>
-        <u xml:id="i-2nCWw953oEaED75vu7BMNP" who="i-S7xhXttWmFR27Um1dWDJzh" prev="i-6qS2GJWynwgTmS5iMgQ4C9" next="i-8uufmdwAtkhngHBrm5y2cf">
           <seg xml:id="i-oZJzpuiscutUA4srwoyPK">
             Emellertid började jag att blifva tveksam och tänka: hvad hafva
             de då gjort i detta rysansvärda Betänkande? och ju mera jag granskade
             detsamma, kunde jag ej deri finna något farligt i hvarken ett
             eller annat hänseende.
           </seg>
-        </u>
-        <u xml:id="i-8uufmdwAtkhngHBrm5y2cf" who="i-S7xhXttWmFR27Um1dWDJzh" prev="i-2nCWw953oEaED75vu7BMNP" next="i-CPsDppgDFpSNiUKYHVeG39">
           <seg xml:id="i-UHabnF5nJahF16Qm4kbCXd">
             Gå vi nu till förevarande moment, så inhemtas deraf, att Regeringen
             för beväringens öfningar under år 1871 begärt ett anslag af 600,000
@@ -1798,8 +1750,6 @@
             säga: ställningen är svår och finanserna äro dåliga, tag derföre
             af de tillgångar som finnas.
           </seg>
-        </u>
-        <u xml:id="i-CPsDppgDFpSNiUKYHVeG39" who="i-S7xhXttWmFR27Um1dWDJzh" prev="i-8uufmdwAtkhngHBrm5y2cf" next="i-N9EqAh6kvJYi1a8ucrTfZJ">
           <seg xml:id="i-U6tW597YEeage6mzc3BYcG">
             I 'min första enfald trodde jag, att Utskottet härigenom gått
             Regeringens önskningar fullständigt till mötes; och i ett verkligen
@@ -1825,13 +1775,11 @@
         <note xml:id="i-AENs7YdSTHQ3Qzg6oonpyD" type="date">
           68 Den 15 Mars, f. m.
         </note>
-        <u xml:id="i-N9EqAh6kvJYi1a8ucrTfZJ" who="i-S7xhXttWmFR27Um1dWDJzh" prev="i-CPsDppgDFpSNiUKYHVeG39" next="i-6CrA5bcF4pFokzuSAGYqay">
+        <u xml:id="i-N9EqAh6kvJYi1a8ucrTfZJ" who="i-S7xhXttWmFR27Um1dWDJzh" prev="i-6qS2GJWynwgTmS5iMgQ4C9" next="i-Rwt8eFu2tLTy93uXaFsdga">
           <seg xml:id="i-3nb5QXSdakWn4DVnXpAX3j">
             makterna måtte komma öfverens att använda densamma till ett ändamål,
             som ligger så nära det afsedda, eller till beväringens öfningar.
           </seg>
-        </u>
-        <u xml:id="i-6CrA5bcF4pFokzuSAGYqay" who="i-S7xhXttWmFR27Um1dWDJzh" prev="i-N9EqAh6kvJYi1a8ucrTfZJ" next="i-LCWFxuc39XfiyL2hsQabbf">
           <seg xml:id="i-EmGScg1DSav3c9au3hugwK">
             Nu komma vi till en annan sida af saken. Man sade, att den så
             kallade beväringslagen vore af civillags natur och att den således
@@ -1846,8 +1794,6 @@
             i $ 10 omförmälda förhållande icke inträffar, till vapenöfning
             endast uppbådas manskap, hörande till första och andra beväringsklasserna."'
           </seg>
-        </u>
-        <u xml:id="i-LCWFxuc39XfiyL2hsQabbf" who="i-S7xhXttWmFR27Um1dWDJzh" prev="i-6CrA5bcF4pFokzuSAGYqay" next="i-KNrNmxpScwefQzfj9EZpZ5">
           <seg xml:id="i-Mg9ZBaBp3MBjydkwS316Tx">
             Den medgifver Konungen således en rätt som ingen kan fråntaga
             honom, nemligen att inkalla båda klassernas beväring till öfning,
@@ -1868,8 +1814,6 @@
             öfningarne ett annat år. Icke kan detta vara inkonstitutionelt
             eller innefatta ett misstroendevotum?
           </seg>
-        </u>
-        <u xml:id="i-KNrNmxpScwefQzfj9EZpZ5" who="i-S7xhXttWmFR27Um1dWDJzh" prev="i-LCWFxuc39XfiyL2hsQabbf" next="i-R9kniAVtD6Z3LeiyThtfUm">
           <seg xml:id="i-YbBhWCTVMMdrb3RHLvDRH7">
             En talare har sagt att nekande af anslag till beväringens öfningar
             skulle vara detsamma som en skattevägran, men jag förmodar att
@@ -1877,8 +1821,6 @@
             med revolution, och en sådan hoppas jag den ärade talaren ej befarar
             skall uppkomma.
           </seg>
-        </u>
-        <u xml:id="i-R9kniAVtD6Z3LeiyThtfUm" who="i-S7xhXttWmFR27Um1dWDJzh" prev="i-KNrNmxpScwefQzfj9EZpZ5" next="i-Rwt8eFu2tLTy93uXaFsdga">
           <seg xml:id="i-XswsePAirV8Zga1Fj6RwNp">
             Jag kommer nu till det skäl, som enligt min tanke, hufvudsakligen
             bestämt Stats-Utskottet att afgifva detta Utlåtande, nemligen
@@ -1900,7 +1842,7 @@
         <note xml:id="i-UUQ5g23Z3exGai9J4jgLcA" type="date">
           Den 15 Mars, f. m. 69
         </note>
-        <u xml:id="i-Rwt8eFu2tLTy93uXaFsdga" who="i-S7xhXttWmFR27Um1dWDJzh" prev="i-R9kniAVtD6Z3LeiyThtfUm" next="i-ApAfbHXxBMCCBnz3ZX3f9a">
+        <u xml:id="i-Rwt8eFu2tLTy93uXaFsdga" who="i-S7xhXttWmFR27Um1dWDJzh" prev="i-N9EqAh6kvJYi1a8ucrTfZJ">
           <seg xml:id="i-D96dCvWNFrbfmR69FuriNY">
             onera?"; och om man skulle vädja till folket genom den nu för
             tiden så mycket omordade allmänna omröstningen och låta det välja
@@ -1908,8 +1850,6 @@
             Herrar, att det stora flertalet af röster skulle utfalla för undvikandet
             af ny beskattning.
           </seg>
-        </u>
-        <u xml:id="i-ApAfbHXxBMCCBnz3ZX3f9a" who="i-S7xhXttWmFR27Um1dWDJzh" prev="i-Rwt8eFu2tLTy93uXaFsdga" next="i-3LPBNf8zC2FM4Dr1wLHjwW">
           <seg xml:id="i-2sCGxcM4Bzgn5fUFH4erZ5">
             Stats-Utskottet har nu funnit en gömd skatt af 850,000 R:dr,
             som stiger och stiger, och Utskottet har helt beskedligt sagt,
@@ -1925,8 +1865,6 @@
             om Kongl. Maj:t vill för EreomateR använda denna fond, så må Kongl.
             Maj:t vara dertill berättigad.
           </seg>
-        </u>
-        <u xml:id="i-3LPBNf8zC2FM4Dr1wLHjwW" who="i-S7xhXttWmFR27Um1dWDJzh" prev="i-ApAfbHXxBMCCBnz3ZX3f9a" next="i-BTMQSiuu2YUgksLKRRCu1b">
           <seg xml:id="i-Vx1GGV9xGKps75RPy6H1db">
             Det är ingalunda för dessa lumpna 250,000 R:dr, som jag uppträdt
             i denna fråga, utan mera såsom en försvarare af den förtryckta
@@ -1937,8 +1875,6 @@
             underkasta mig. När denna. despotiska makt tillämpas på andra,
             vill jag också gerna hjelpa till att försvara dessa.
           </seg>
-        </u>
-        <u xml:id="i-BTMQSiuu2YUgksLKRRCu1b" who="i-S7xhXttWmFR27Um1dWDJzh" prev="i-3LPBNf8zC2FM4Dr1wLHjwW">
           <seg xml:id="i-9LgdtabaHzZqJf2f2fX2T6">
             För närvarande vill jag nu icke upptaga Kammarens tid, derest
             icke repliker skulle göras, hvilka jag anser mig böra besvara,
@@ -1951,14 +1887,12 @@
         <note xml:id="i-URnDNrb7gYgNRCpr451D3E" type="speaker">
           Friherre von Essen:
         </note>
-        <u xml:id="i-DAcgHGAgdmhL9Pf8Ex8GbW" who="i-RQ7DisaShnLmZ3DuVbxYXg" next="i-RJuZhPEYGtnhLX7rPYraBM">
+        <u xml:id="i-DAcgHGAgdmhL9Pf8Ex8GbW" who="i-RQ7DisaShnLmZ3DuVbxYXg" next="i-UDcmnujdSGpDQbBiH4iH8u">
           <seg xml:id="i-3hc6umN87eEmRv7zhCcrd2">
             Till en början får jag uttrycka min tacksamhet mot den siste
             talaren för det han tagit Stats-Utskottets förevarande Utlåtande
             i försvar.
           </seg>
-        </u>
-        <u xml:id="i-RJuZhPEYGtnhLX7rPYraBM" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-DAcgHGAgdmhL9Pf8Ex8GbW" next="i-4Y6FsW4int2Y1T6AELMaPL">
           <seg xml:id="i-UC37VsHWng2r1mY5kPYJBt">
             Jag ber att få säga, att, ehuru jag förutsätter att min uppfattning
             af denna fråga icke delas af många inom denna Kammare, och oaktadt
@@ -1973,8 +1907,6 @@
             underginge öfning 1871, Kongl. Maj:t täcktes från allmänna beväringsfonden
             anslå de för ändamålet erforderliga medel.
           </seg>
-        </u>
-        <u xml:id="i-4Y6FsW4int2Y1T6AELMaPL" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-RJuZhPEYGtnhLX7rPYraBM" next="i-UDcmnujdSGpDQbBiH4iH8u">
           <seg xml:id="i-VszZDLx9zsVgYvfBNbKmnk">
             Hvad beträffar den första frågan, så skulle det ej falla mig
             in att vägra detta anslag, om sådant efter min åsigt vore inkonstitutio-
@@ -1984,7 +1916,7 @@
         <note xml:id="i-2jQLZajFj9LtTdbbJacjiB" type="date">
           70 Den 15 Mars, f. m.
         </note>
-        <u xml:id="i-UDcmnujdSGpDQbBiH4iH8u" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-4Y6FsW4int2Y1T6AELMaPL" next="i-PFaa7z4oetSVQ2tNgxPBLN">
+        <u xml:id="i-UDcmnujdSGpDQbBiH4iH8u" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-DAcgHGAgdmhL9Pf8Ex8GbW" next="i-G8ttMSLY3h3GKMbRKiHNy6">
           <seg xml:id="i-HoHpPa8TUXZvgYDo4gd3ka">
             nelt. Jag har visserligen hört åberopas 89 $ Regeringsformen,
             som icke tillåter ändringar i gällande civillag med mindre Konungen
@@ -2005,8 +1937,6 @@
             vägradt anslag till desamma skulle vara inkonstitutionelt å Riksdagens
             sida.
           </seg>
-        </u>
-        <u xml:id="i-PFaa7z4oetSVQ2tNgxPBLN" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-UDcmnujdSGpDQbBiH4iH8u" next="i-rP4if1EY4BrSfck9eFsfm">
           <seg xml:id="i-AzgSRN7KvJ8NGEoKmPECwL">
             Den andra frågan om Riksdagens rätt att ifrågasätta bidrag ur
             beväringsfonden till beväringens öfvande förekommer då. — Ingen
@@ -2016,15 +1946,11 @@
             anser att dessa utgifter tåla något uppskof. Emellertid hafva
             tvänne Konun-
           </seg>
-        </u>
-        <u xml:id="i-rP4if1EY4BrSfck9eFsfm" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-PFaa7z4oetSVQ2tNgxPBLN" next="i-VYpXvgxRYs1rcCxETnneM7">
           <seg xml:id="i-MqX5VkJa9FW9awgAzRABHT">
             gens rådgifvare förklarat att beväringsfondens tillgångar vore
             — för närvarande — afsedda för diverse uppgifna ändamål. Ett annat
             för-
           </seg>
-        </u>
-        <u xml:id="i-VYpXvgxRYs1rcCxETnneM7" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-rP4if1EY4BrSfck9eFsfm" next="i-Sc2SZimk6JfXtDuMw1CQyh">
           <seg xml:id="i-QimK9GZJDF5r6K9uNZg3te">
             hållande synes mig inträda, i fall Riksdagen framställer till
             Kongl. Maj:t en förfrågan huruvida den afsigt, som Kongl. Maj:t
@@ -2042,8 +1968,6 @@
             uppgöra statsregleringen utan ökade skatter och således villiga
             att af tillgängliga medel fylla behofven.
           </seg>
-        </u>
-        <u xml:id="i-Sc2SZimk6JfXtDuMw1CQyh" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-VYpXvgxRYs1rcCxETnneM7" next="i-QVVPbVqgfVJjox7dQgMw9j">
           <seg xml:id="i-4WhCBNrdvmb6VabXYSysov">
             En talare har sagt, att Stats-Utskottets framställning skulle
             innefatta ett ingripande på andras tillgångar. Beväringsfonden
@@ -2053,8 +1977,6 @@
             nära det med fonden afsedda, att några betänkligheter dervid ej
             behöfde hysas.
           </seg>
-        </u>
-        <u xml:id="i-QVVPbVqgfVJjox7dQgMw9j" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-Sc2SZimk6JfXtDuMw1CQyh" next="i-G8ttMSLY3h3GKMbRKiHNy6">
           <seg xml:id="i-Mr5JR744VmfiUa16sZ2kcF">
             En annan talare har föreslagit att hellre bevilja det för beväringens
             öfningar äskade anslag och på samma gång hos Kongl. Maj:t anhålla,
@@ -2066,7 +1988,7 @@
         <note xml:id="i-EwPq7JJspTMVzxXD5PEmjD" type="date">
           Den 15 Mars, f. m. om
         </note>
-        <u xml:id="i-G8ttMSLY3h3GKMbRKiHNy6" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-QVVPbVqgfVJjox7dQgMw9j" next="i-JSzTnHtTKo5fTP3JdM57ru">
+        <u xml:id="i-G8ttMSLY3h3GKMbRKiHNy6" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-UDcmnujdSGpDQbBiH4iH8u" next="i-4cC5QSQFND7SnK6WXtBR8W">
           <seg xml:id="i-Jfx6cCnHboiTPFg39Bxo8X">
             men då så ej är, förstår jag icke huru det skulle komma att se
             ut i räkenskaperna. Om anslaget skulle deri upptagas eller icke,
@@ -2075,16 +1997,12 @@
             jag villigt att dervid kan vara åtskilligt att anmärka, och måhända
             gick Utskottet vid granskningen af densamma nog hastigt tillväga.
           </seg>
-        </u>
-        <u xml:id="i-JSzTnHtTKo5fTP3JdM57ru" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-G8ttMSLY3h3GKMbRKiHNy6" next="i-VsUa6FB1PgkPKA94J5Fc7X">
           <seg xml:id="i-DmytUTV4eeX7Nhoy6WTVV1">
             Afvenså hade det varit rättare, om Utskottet upptagit förslagsanslaget
             för första klassens beväring högre och i närmare öfverensstämmelse
             med verkliga kostnaden än som nu skett, och hvilket jag ingalunda
             skall motsätta mig om någon derpå yrkar.
           </seg>
-        </u>
-        <u xml:id="i-VsUa6FB1PgkPKA94J5Fc7X" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-JSzTnHtTKo5fTP3JdM57ru" next="i-4cC5QSQFND7SnK6WXtBR8W">
           <seg xml:id="i-Aox3bUPyyNaifmo92m6Uf4">
             I öfrigt tillåter jag mig anhålla om bifall till Utskottets förslag.
           </seg>
@@ -2135,15 +2053,13 @@
         <note xml:id="i-F9UjoKnbGBdizJExsqodMe" type="date">
           72 Den 15 Mars, f. m.
         </note>
-        <u xml:id="i-4cC5QSQFND7SnK6WXtBR8W" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-VsUa6FB1PgkPKA94J5Fc7X" next="i-NCCcnJ6siGSbgRuZNzS3Vs">
+        <u xml:id="i-4cC5QSQFND7SnK6WXtBR8W" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-G8ttMSLY3h3GKMbRKiHNy6">
           <seg xml:id="i-35eJ465kuDC6wiNQrYKHQg">
             på samma sida som nu. Det finnes emellertid intet skäl att förebrå
             denna Kammare att hafva varit för litet på regeringens sida; vi
             minnas ju alla, huru t. ex. den i fjor gick längre än regeringen
             sjelf.
           </seg>
-        </u>
-        <u xml:id="i-NCCcnJ6siGSbgRuZNzS3Vs" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-4cC5QSQFND7SnK6WXtBR8W" next="i-GWULHwsKwjzRjPXUNVd4nZ">
           <seg xml:id="i-HQ6wHQStWrxSTYL8ZR6Lut">
             En af Konungens rådgifvare yttrade, att man skulle träda Konungens
             rätt för nära genom bifall till Stats-Utskottets förslag, och
@@ -2155,8 +2071,6 @@
             det land, der den konstitutionela utvecklingen hunnit längst,
             i England, har denna princip alltid varit erkänd.
           </seg>
-        </u>
-        <u xml:id="i-GWULHwsKwjzRjPXUNVd4nZ" who="i-RQ7DisaShnLmZ3DuVbxYXg" prev="i-NCCcnJ6siGSbgRuZNzS3Vs">
           <seg xml:id="i-NWLrDVDD5iyMscncBTrM7E">
             AT en ledamot på Skånebänken uttalades en åsigt, som jag anser
             temligen egendomlig och derför anhåller få taga närmare reda på.
@@ -2209,7 +2123,7 @@
         <note xml:id="i-EWoWYvJE5b8Pzxxd3yFcT" type="date">
           Den 15 Mars, f. m. 73
         </note>
-        <u xml:id="i-VQqSVqbqjwUHg71ni121Qf" who="i-PffH64xVpJgNXHH6FhyRrj" prev="i-YCwXVhbbbMcJeKLBtXNFyp" next="i-KX1PZsVCqwZhrfDFSKSEe">
+        <u xml:id="i-VQqSVqbqjwUHg71ni121Qf" who="i-PffH64xVpJgNXHH6FhyRrj" prev="i-YCwXVhbbbMcJeKLBtXNFyp">
           <seg xml:id="i-EiArjN9hdAyAYjRedxmw5n">
             att andra klassens beväringsmöten för nästkommande år äro nödvändiga,
             och att de så mycket mindre kunna uppskjutas, som öfningarne under
@@ -2223,8 +2137,6 @@
             hvarken Stats-Utskottet eller Riksdagen värdigt att framkomma
             med en sådan anhållan.
           </seg>
-        </u>
-        <u xml:id="i-KX1PZsVCqwZhrfDFSKSEe" who="i-PffH64xVpJgNXHH6FhyRrj" prev="i-VQqSVqbqjwUHg71ni121Qf">
           <seg xml:id="i-PDDhacggBTU2hWuYMnw9QW">
             Jag är representant för en fattig ort och både min pligt och
             min vilja bjuda mig att iakttaga sparsamhet, men det finnes vissa
@@ -2237,7 +2149,7 @@
         <note xml:id="i-SHaRNNTGHyT6sHAdDYPsM6" type="speaker">
           Herr Wern:
         </note>
-        <u xml:id="i-9QNMgFDNVz1a4GgnYzzt3A" who="i-YLE2WFqhUG9LaVo3997T4z" next="i-9qujzpA2Kz8XRrDF2GX5cf">
+        <u xml:id="i-9QNMgFDNVz1a4GgnYzzt3A" who="i-YLE2WFqhUG9LaVo3997T4z" next="i-KCuAV9Z8BxiSjM4MGKvz9e">
           <seg xml:id="i-Cj9AN6iLKfoivE3qKYukRs">
             Det är tvänne omständigheter vid denna fråga, vid hvilka jag
             några ögonblick önskar fästa mig. Den ena är den af Stats-Utskottet
@@ -2271,8 +2183,6 @@
             ändamål afsedda besparingar, så att man, när det en gång gälde,
             blefve tvungen att högst betydligt öka skatterna.
           </seg>
-        </u>
-        <u xml:id="i-9qujzpA2Kz8XRrDF2GX5cf" who="i-YLE2WFqhUG9LaVo3997T4z" prev="i-9QNMgFDNVz1a4GgnYzzt3A" next="i-KCuAV9Z8BxiSjM4MGKvz9e">
           <seg xml:id="i-V1yUktZ2VvQ641AYFAu2Qv">
             Den andra omständighet jag 1 detta fall vill fästa mig vid, är
           </seg>
@@ -2281,7 +2191,7 @@
         <note xml:id="i-JXrNcdTL3SaSqTSGwukLvp" type="date">
           74 Den 15 Mars, f. m.
         </note>
-        <u xml:id="i-KCuAV9Z8BxiSjM4MGKvz9e" who="i-YLE2WFqhUG9LaVo3997T4z" prev="i-9qujzpA2Kz8XRrDF2GX5cf" next="i-QCuwRFztvK5e8HaKpQst9s">
+        <u xml:id="i-KCuAV9Z8BxiSjM4MGKvz9e" who="i-YLE2WFqhUG9LaVo3997T4z" prev="i-9QNMgFDNVz1a4GgnYzzt3A">
           <seg xml:id="i-73tn46sFxDWNgB2ehriFNg">
             frågans konstitutionella sida. Man har sagt, att den föreliggande
             frågan skulle vara frukten af vårt beslut vid sista riksdagen
@@ -2291,8 +2201,6 @@
             maktmissbruk, kunna säga ne. En värd talare yttrade, att han icke
             kunde finna något grundlagsvidrigt i Utskottets förslag.
           </seg>
-        </u>
-        <u xml:id="i-QCuwRFztvK5e8HaKpQst9s" who="i-YLE2WFqhUG9LaVo3997T4z" prev="i-KCuAV9Z8BxiSjM4MGKvz9e">
           <seg xml:id="i-SZQxnLkEjSDPftw6y8nmJh">
             Det är sant, och den Konungens rådgifvare, mot hvilken han vände
             sig, nyttjade icke heller detta ord; han sade att det var inkonstitutionelt,
@@ -2312,15 +2220,13 @@
         <note xml:id="i-YUNXJynBWv1omWi3WAkcsD" type="speaker">
           Herr Brusewitz:
         </note>
-        <u xml:id="i-WLAzAqPuAuuLnS1i9G1CFB" who="i-BH3Wicu86qyFpe88FLoM4s" next="i-43JbYAG8x4KJCDVSkCSGEz">
+        <u xml:id="i-WLAzAqPuAuuLnS1i9G1CFB" who="i-BH3Wicu86qyFpe88FLoM4s">
           <seg xml:id="i-BDu7sMgWEVWr8WPdMnKuKd">
             Sedan flera af mina ärade kamrater inom Utskottet, hvilka jemte
             mig instämt i General Klints reservation, fullständigt och förtjenstfullt
             försvarat densamma, inskränker jag mig till att med dem instämma,
             anhållande endast att i hufvudsaken få tillägga några ord.
           </seg>
-        </u>
-        <u xml:id="i-43JbYAG8x4KJCDVSkCSGEz" who="i-BH3Wicu86qyFpe88FLoM4s" prev="i-WLAzAqPuAuuLnS1i9G1CFB">
           <seg xml:id="i-6qPFkZy8JeNazFPF9aseD6">
             Jag har lärt mig att respektera aftal, de må vara af större eller
             mindre omfattning; här är nu fråga om icke mer eller mindre än
@@ -2358,7 +2264,7 @@
         <note xml:id="i-C7dXDsiHf7YGkynPUo58tG" type="date">
           Den 15 Mars, f. m. AB
         </note>
-        <u xml:id="i-49EMAYHHbWgPfBjCg6n8jt" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-BWe5Ac4xP6MGc4SK6mNsRG" next="i-8peGDbKQcL9nzQgaonXLjJ">
+        <u xml:id="i-49EMAYHHbWgPfBjCg6n8jt" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-BWe5Ac4xP6MGc4SK6mNsRG" next="i-hyGybAYfg3pUNJMQvZaL8">
           <seg xml:id="i-WLxhhy2J6aVof21NXfAQD">
             Jöns Pehrsons motion" — det vill säga afslag å yrkandet om inställandet
             af all bevärimgsöfning -- "Riksdagen, jemte anvisande för år 1871
@@ -2389,22 +2295,16 @@
             förslag leder, och att vi, om förslaget finge tydas efter ordalydelsen,
             endast skilja oss i afseende å en siffra.
           </seg>
-        </u>
-        <u xml:id="i-8peGDbKQcL9nzQgaonXLjJ" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-49EMAYHHbWgPfBjCg6n8jt" next="i-ALDJ7qtQagRoD3CAqn3WaC">
           <seg xml:id="i-ALcAXF9uGHaoK1oZA5NSQS">
             En aktad ledamot på skånska bänken har yttrat sig vidt och bredt.
             Mycket vore visserligen att säga derom, men jag skall dock underlåta
             det, med afseende på hvad han i slutet af sitt anförande yttrade,
             eller att han ej vidare skulle besvära Kammaren, så vida
           </seg>
-        </u>
-        <u xml:id="i-ALDJ7qtQagRoD3CAqn3WaC" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-8peGDbKQcL9nzQgaonXLjJ" next="i-6Gn6syUX6f5uc1cwu4sboV">
           <seg xml:id="i-XJHb7K3a8FpwE44FfL77Fm">
             an ej blefve tvungen att replikera, och jag vill ej framkalla
             några repliker.
           </seg>
-        </u>
-        <u xml:id="i-6Gn6syUX6f5uc1cwu4sboV" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-ALDJ7qtQagRoD3CAqn3WaC" next="i-hyGybAYfg3pUNJMQvZaL8">
           <seg xml:id="i-B6s5EdMocJ3wruKeGhb7ik">
             För att icke splittra rösterna mellan alltför många yrkenden,
             anhåller jag nu att, med frångående af mitt förra förslag, få
@@ -2415,14 +2315,12 @@
         <note xml:id="i-StzdCPQ25H8ZFkzxdhRCkQ">
           Grefve Mörner, Oscar: Det är temligen vanligt under striden
         </note>
-        <u xml:id="i-hyGybAYfg3pUNJMQvZaL8" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-6Gn6syUX6f5uc1cwu4sboV" next="i-3hSL15Qi5P5Lo1C3uGxz85">
+        <u xml:id="i-hyGybAYfg3pUNJMQvZaL8" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-49EMAYHHbWgPfBjCg6n8jt" next="i-TmL6hcJhSL52gnRSijREg4">
           <seg xml:id="i-NboSL9QZUMCrGSvoi7eQ9B">
             mellan olika politiska partier — ock att sådana för närvarande
             finnas inom vårt land, lär man icke kunna bestrida — att dessa
             bemäk-
           </seg>
-        </u>
-        <u xml:id="i-3hSL15Qi5P5Lo1C3uGxz85" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-hyGybAYfg3pUNJMQvZaL8" next="i-TmL6hcJhSL52gnRSijREg4">
           <seg xml:id="i-T7W5d23MdW9DxQ3Guk8L3h">
             tiga sig en fana, som de hänga ut såsom skylt och förevisa för
             att värfva anhängare. Mig synes som om en sådan fana i år blifvit
@@ -2440,7 +2338,7 @@
         <note xml:id="i-LC8zPTFx3WkNz7meKNaJ3H" type="date">
           76 Den 15 Mars, f. m.
         </note>
-        <u xml:id="i-TmL6hcJhSL52gnRSijREg4" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-3hSL15Qi5P5Lo1C3uGxz85" next="i-FBVCbbdxz9wgj3qYrtUT75">
+        <u xml:id="i-TmL6hcJhSL52gnRSijREg4" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-hyGybAYfg3pUNJMQvZaL8" next="i-5cU86mfCXGM1e2pztAaYmn">
           <seg xml:id="i-GUXNq5pcZs9r45ZAUsv47x">
             följa den, utan att noga granska om det mål dermed vill uppnås
             endast är godt. För vinnande af detta ändamål, säger Stats-Utekottet,
@@ -2472,14 +2370,10 @@
             har sannerligen ingen nytta, utan stor skada derigenom blifvit
             landet beredd. T
           </seg>
-        </u>
-        <u xml:id="i-FBVCbbdxz9wgj3qYrtUT75" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-TmL6hcJhSL52gnRSijREg4" next="i-TYSqJyDVs4Cjvuhc6cTYY6">
           <seg xml:id="i-S9wXr2nHA2AJ1YsGXn5Yhm">
             för ökade jernvägsbyggnader fordras ovilkorligen ökade utgifter
             oc
           </seg>
-        </u>
-        <u xml:id="i-TYSqJyDVs4Cjvuhc6cTYY6" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-FBVCbbdxz9wgj3qYrtUT75" next="i-5cU86mfCXGM1e2pztAaYmn">
           <seg xml:id="i-Qdz6fU9yZCBnKNxnM5FFoV">
             då det då icke kan gå ihop att få medel, som knappast förslå
             för stundens behof, att blifva tillräcklige äfven för växande
@@ -2509,7 +2403,7 @@
         <note xml:id="i-HZpvKFGyXjNFm7azyHhJKf" type="date">
           Den 15 Mars, f. m. "
         </note>
-        <u xml:id="i-5cU86mfCXGM1e2pztAaYmn" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-TYSqJyDVs4Cjvuhc6cTYY6" next="i-HCJZiTKggetGdREf5hFx99">
+        <u xml:id="i-5cU86mfCXGM1e2pztAaYmn" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-TmL6hcJhSL52gnRSijREg4">
           <seg xml:id="i-LJj2U5Yofg5QtbmDnXMQY9">
             framtid dessa behof, för hvilkas tillfredsställande de tillgripna
             medlen varit ämnade. Jag är således icke rädd för en ökad beskattning
@@ -2517,8 +2411,6 @@
             behöfva dölja mitt ansigte, om jag blutt kan säga, att jag ärligt
             kämpat för landets bästa.
           </seg>
-        </u>
-        <u xml:id="i-HCJZiTKggetGdREf5hFx99" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-5cU86mfCXGM1e2pztAaYmn">
           <seg xml:id="i-Lz4yXCRh6mAQbysxnKPAFA">
             Hvad nu särskildt beträffar förevarande förslag, så har derom
             blifvit mycket sagdt, ehuru i lena ordalag, men jag ber om förlåtelse,
@@ -2776,7 +2668,7 @@
         <note xml:id="i-Fux1uT3URMvb7YsBN9apjq" type="date">
           Den 15 Mars, f. m. sf
         </note>
-        <u xml:id="i-CjCbXCxP8a5uH893tkbFBW" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-Wyina4uEJTeruhbwBjPv67" next="i-MNpCuKtsEUJqWQPACjK9wv">
+        <u xml:id="i-CjCbXCxP8a5uH893tkbFBW" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-Wyina4uEJTeruhbwBjPv67" next="i-QpZxPSPnwjfhYm23oT7rtT">
           <seg xml:id="i-NY4kBESDAv9zuS2CkbRdEp">
             jag uttryckte dermed, att Riksdagen icke borde öka anslaget till
             beväringsinrättningen, så att Kongl. Maj:t skulle finna sig föranlåten
@@ -2793,8 +2685,6 @@
             man skulle hafva lättare att få ett sådant belopp antaget vid
             en gemensam votering af Riksdagens båda Kamrar.
           </seg>
-        </u>
-        <u xml:id="i-MNpCuKtsEUJqWQPACjK9wv" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-CjCbXCxP8a5uH893tkbFBW" next="i-9gY9SQzaKSSiTFk7Y6ApSu">
           <seg xml:id="i-WyKUMwUmUvSYPzPvmrNKPA">
             Hvad nu Stats-Utskottets förslag beträffar, behöfver jag knappt
             säga, att jag icke gillar det, men det har gått med mig som det
@@ -2806,8 +2696,6 @@
             sådant försök icke uppskakar mina känslor till den grad som förhållandet
             tyckes vara med flera andra representanter.
           </seg>
-        </u>
-        <u xml:id="i-9gY9SQzaKSSiTFk7Y6ApSu" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-MNpCuKtsEUJqWQPACjK9wv" next="i-K2GTiCzX3uooYDCkQezpB5">
           <seg xml:id="i-CRSitD8rQzy8rvvatvFKAW">
             Hvad jag bestämdt ogillar hos Stats-Utskottet är, att det låtsar
             okunnighet i en sak, som det känner. Det förutsätter först (sid.
@@ -2818,8 +2706,6 @@
             utmärkande en ovisshet, huruvida Kongl. Maj:t må anse en sådan
             öfning nödig.
           </seg>
-        </u>
-        <u xml:id="i-K2GTiCzX3uooYDCkQezpB5" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-9gY9SQzaKSSiTFk7Y6ApSu" next="i-QpZxPSPnwjfhYm23oT7rtT">
           <seg xml:id="i-HU27EmFUT9SkY7vRgYfoDb">
             Nu har en ledamot här yttrat, och icke utan skäl, att ett af
             Regeringen framstäldt förslag kan af Regeringen sjelf modifieras,
@@ -2848,13 +2734,11 @@
         <note xml:id="i-4LCJMmqxR4dfPyVRdust62" type="date">
           82 Den 15 Mars, f. m.
         </note>
-        <u xml:id="i-QpZxPSPnwjfhYm23oT7rtT" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-K2GTiCzX3uooYDCkQezpB5" next="i-SKRqeGz1KFrF918d3YiRKA">
+        <u xml:id="i-QpZxPSPnwjfhYm23oT7rtT" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-CjCbXCxP8a5uH893tkbFBW">
           <seg xml:id="i-2uryBFtoxyx2Ed6josSX9K">
             Det är ur sådan synpunkt, som jag anser Utskottets framställning
             omotiverad och anser den icke böra vinna Kammarens bifall.
           </seg>
-        </u>
-        <u xml:id="i-SKRqeGz1KFrF918d3YiRKA" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-QpZxPSPnwjfhYm23oT7rtT">
           <seg xml:id="i-NsBCc5pZXztb7E9i5BniBp">
             Då Herr af Klint, som först yrkat bifall till sin reservation,
             sedermera afstått derifrån, får jag upptaga det slut, hvartill
@@ -2868,7 +2752,7 @@
         <note xml:id="i-WLzoAnZNSQrA6MUUK6dSs2" type="speaker">
           Herr Bergstedt:
         </note>
-        <u xml:id="i-62QRBrNnkritVGBQmDA15H" who="i-AFafkqp43qaf9gEGTZMMhQ" next="i-Kq4MpaUSokBZMocXnUvgxw">
+        <u xml:id="i-62QRBrNnkritVGBQmDA15H" who="i-AFafkqp43qaf9gEGTZMMhQ" next="i-6AMv23oU1uGRBsYSDs6mF1">
           <seg xml:id="i-J5DTZZfWTrU6WynsUPT38y">
             Öfverläggningen om denna punkt, som nu fortgått mer än 3; timme,
             började med allt det högtidliga allvar som en så stor fråga kräfde.
@@ -2878,8 +2762,6 @@
             om infallen hade utgått från en talare uti mindre i ögonen fallande
             samhällsställning.
           </seg>
-        </u>
-        <u xml:id="i-Kq4MpaUSokBZMocXnUvgxw" who="i-AFafkqp43qaf9gEGTZMMhQ" prev="i-62QRBrNnkritVGBQmDA15H" next="i-K4u5BgxiRAf4sx5NCYhhry">
           <seg xml:id="i-wzBKpuZvNk3qLniX3iSDf">
             Denne talare kunde omöjligen förstå hvarföre man tagit så illa
             vid sig öfver Stats-Utskottets förslag. Utlåtandeti denna ifrågavarande
@@ -2905,15 +2787,11 @@
             beklagligt om Riksdagen af sitt ansvarsfullaste Utskott skulle
             låta lägga sig mindre värdiga ord i munnen.
           </seg>
-        </u>
-        <u xml:id="i-K4u5BgxiRAf4sx5NCYhhry" who="i-AFafkqp43qaf9gEGTZMMhQ" prev="i-Kq4MpaUSokBZMocXnUvgxw" next="i-9beVre85G4Kghfgmt78ZWY">
           <seg xml:id="i-6SSsSNyE2SUy2D9iZzwaeG">
             Vare detta nog sagdt om Stats-Utskottet och dess motivering;
             jag ber nu att få återkomma till det yttrande, som föranledde
             mig att begära ordet.
           </seg>
-        </u>
-        <u xml:id="i-9beVre85G4Kghfgmt78ZWY" who="i-AFafkqp43qaf9gEGTZMMhQ" prev="i-K4u5BgxiRAf4sx5NCYhhry" next="i-6AMv23oU1uGRBsYSDs6mF1">
           <seg xml:id="i-KPZvEfkdQwU9Ss9dC1cfSD">
             Den ärade talaren gaf majoriteten i denna Kammare det hedrande
             vitsordet att den "har aktning för grundlagen”. Jag gör mig en
@@ -2929,7 +2807,7 @@
         <note xml:id="i-ETnYFkHnstD5gfssenUnhj" type="date">
           Den 15 Mars, f. m. 83
         </note>
-        <u xml:id="i-6AMv23oU1uGRBsYSDs6mF1" who="i-AFafkqp43qaf9gEGTZMMhQ" prev="i-9beVre85G4Kghfgmt78ZWY" next="i-LL3mAWL1Gnfvhs6GNMJsUm">
+        <u xml:id="i-6AMv23oU1uGRBsYSDs6mF1" who="i-AFafkqp43qaf9gEGTZMMhQ" prev="i-62QRBrNnkritVGBQmDA15H">
           <seg xml:id="i-6KM4BLss9cWRZf8oCtmUUF">
             lag på ett annat sätt än majoriteten. Den ärade ledamoten talade
             om menniskor, som vid behandlingen af denna punkt "hafva gråten
@@ -2942,8 +2820,6 @@
             så att den blefve ännu mindre än den nu är, och slutligen alldeles
             försvinnande.
           </seg>
-        </u>
-        <u xml:id="i-LL3mAWL1Gnfvhs6GNMJsUm" who="i-AFafkqp43qaf9gEGTZMMhQ" prev="i-6AMv23oU1uGRBsYSDs6mF1" next="i-TQr6bRPfPvT8H7z3UQabE1">
           <seg xml:id="i-L2vYnqsVJKYhqReA9oWa2P">
             Här har i dag talats ovanligt mycket om grannlagenhet, och i
             mycket olika tonarter. En talare har deraf funnit alldeles för
@@ -2969,8 +2845,6 @@
             den fina känslan för det politiskt tillbörliga, långt ifrån att
             aftrubbas, må allt framgent ytterligare skärpas och förfinas.
           </seg>
-        </u>
-        <u xml:id="i-TQr6bRPfPvT8H7z3UQabE1" who="i-AFafkqp43qaf9gEGTZMMhQ" prev="i-LL3mAWL1Gnfvhs6GNMJsUm" next="i-DP8tgq3FZRBrSKb2bUHiC3">
           <seg xml:id="i-39wRQRd2UCh4T5tAxXtiQf">
             Den ärade ledamoten för Skåne yttrade någon osäkerhet om folkets
             beredvillighet att underkasta sig ökade uppoffringar för sitt
@@ -2986,8 +2860,6 @@
             när man visste sig endast behöfva klappa på dörren till skattkammaren,
             för att nästa
           </seg>
-        </u>
-        <u xml:id="i-DP8tgq3FZRBrSKb2bUHiC3" who="i-AFafkqp43qaf9gEGTZMMhQ" prev="i-TQr6bRPfPvT8H7z3UQabE1">
           <seg xml:id="i-QVXJLKEKk1nZdatWryRwKk">
             ång kunna taga hvad man denna gång af grannlagenhet lemnat qvar.
             Men derpå är jag viss, att om de bästa och mest tänkande af vårt
@@ -3005,7 +2877,7 @@
         <note xml:id="i-Tv8VXAJGXo6qc9aWMpKyuy" type="speaker">
           Herr Tornerhjelm:
         </note>
-        <u xml:id="i-34r8H6xFHLtkJKo7Rxxadc" who="i-S7xhXttWmFR27Um1dWDJzh" next="i-WThkRcMP7NnCqXu8pyniGr">
+        <u xml:id="i-34r8H6xFHLtkJKo7Rxxadc" who="i-S7xhXttWmFR27Um1dWDJzh">
           <seg xml:id="i-QyFcxmd8q2jmB9DePN2X4A">
             Det är med särdeles glädje, som jag hört den siste talarens yttrande.
             Jag fick mig visserligen deri en släng, för att jag vågade skämta
@@ -3020,8 +2892,6 @@
             om hvad i ett eller annat hänseende kan vara grundlagens mening
             äro något delade.
           </seg>
-        </u>
-        <u xml:id="i-WThkRcMP7NnCqXu8pyniGr" who="i-S7xhXttWmFR27Um1dWDJzh" prev="i-34r8H6xFHLtkJKo7Rxxadc" next="i-XM8awM9f8HCUf5Tr52nXWg">
           <seg xml:id="i-FQcSwQTzAMPFSiUhDvxnPC">
             Den ärade talaren har missförstått mig i ett annat yttrande,
             då han talade om allmän omröstning. Jag har ej begärt eller ifrågasatt
@@ -3033,8 +2903,6 @@
             Gud att man aldrig behöfver vädja till folket för att ar göra
             frågor mellan Regeringen och Representationen.
           </seg>
-        </u>
-        <u xml:id="i-XM8awM9f8HCUf5Tr52nXWg" who="i-S7xhXttWmFR27Um1dWDJzh" prev="i-WThkRcMP7NnCqXu8pyniGr" next="i-UGtgRHgoceqX64cwh2HjCY">
           <seg xml:id="i-AZhyzCE9WorDJnEpazQ6yP">
             En talare på första Östgöta-bänken yttrade, att det vore orätt
             att dölja vår ställning, och att det vore bättre att taga dagen
@@ -3049,8 +2917,6 @@
             åsigt jag förfäktar finnes hvarken något rättsvidrigt eller något
             hån.
           </seg>
-        </u>
-        <u xml:id="i-UGtgRHgoceqX64cwh2HjCY" who="i-S7xhXttWmFR27Um1dWDJzh" prev="i-XM8awM9f8HCUf5Tr52nXWg">
           <seg xml:id="i-8rmKih8EDfudgqG8gRvkv">
             Här har blifvit mig förebrådt det jag skulle yttrat, att om man
             tager vackert en gång, så får man taga en gång till. Men, mine
@@ -3078,15 +2944,13 @@
         <note xml:id="i-FgwiMXPfeeFQ62esZnNfW" type="speaker">
           Herr Montgomery-Cederhielm:
         </note>
-        <u xml:id="i-2Ed7nXVy4PBT7DksjiTgQv" who="i-FBqnnZt6zvmwFVLD1bjimL" next="i-U5RJpE7Dhfp9vknaDLDZad">
+        <u xml:id="i-2Ed7nXVy4PBT7DksjiTgQv" who="i-FBqnnZt6zvmwFVLD1bjimL">
           <seg xml:id="i-KMQ94iZJbDtvdMZoSyS9uu">
             Många anmärkningar hafva här blifvit gjorda i anledning af Stats-Utskottets
             Utlåtande angående ifrågavarande punkt; och jag skall ej uppehålla
             Kammarens tid med att upptaga många af dem till besvarande; men
             några af dessa ber jag att här i korthet få bemöta.
           </seg>
-        </u>
-        <u xml:id="i-U5RJpE7Dhfp9vknaDLDZad" who="i-FBqnnZt6zvmwFVLD1bjimL" prev="i-2Ed7nXVy4PBT7DksjiTgQv" next="i-RCMfcp1hNghR8xmX8MVpj9">
           <seg xml:id="i-Wkf9kDYRzA2bbjwoc7VMaD">
             Herr af Klint har sagt, att jag skulle yttrat att antagandet
             af mitt förslag i denna punkt skulle innefatta ett "mindre ingripande"
@@ -3096,8 +2960,6 @@
             antagande af mitt förslag sker ej något ingrepp i Kongl. Maj:ts
             dispositionsrätt.
           </seg>
-        </u>
-        <u xml:id="i-RCMfcp1hNghR8xmX8MVpj9" who="i-FBqnnZt6zvmwFVLD1bjimL" prev="i-U5RJpE7Dhfp9vknaDLDZad" next="i-TB5eyg9LxK78nKPNn1XE6m">
           <seg xml:id="i-UnsBpCcf5ThVL3q559ijNC">
             I afseende på Grefve Hamiltons yttrande, att Stats-Utskottet
             ej låtsat förstå en del saker, som det bort förstå, så tror jag,
@@ -3105,13 +2967,9 @@
             att andra klassens beväring öfvas under år 1871, så har Utskottet
             anvisat hvar medel dertill skulle erhållas, nemligen på beväringsfonden.
           </seg>
-        </u>
-        <u xml:id="i-TB5eyg9LxK78nKPNn1XE6m" who="i-FBqnnZt6zvmwFVLD1bjimL" prev="i-RCMfcp1hNghR8xmX8MVpj9" next="i-5uEQkhNtWU4wYXki5cU4cY">
           <seg xml:id="i-XRu5KBmgZvCM2T8XgKU2tX">
             Enligt min tanke finnes icke hinder uti beväringsfondens ända-
           </seg>
-        </u>
-        <u xml:id="i-5uEQkhNtWU4wYXki5cU4cY" who="i-FBqnnZt6zvmwFVLD1bjimL" prev="i-TB5eyg9LxK78nKPNn1XE6m">
           <seg xml:id="i-KQqBzJKd9ihHbv5Bc16EgF">
             mål att använda den på det sätt, Utskottet föreslagit, och anledning
             för Utskottet att framkomma med sitt förslag finnes deri att chefen
@@ -3312,7 +3170,7 @@
         <note xml:id="i-3qcv2TnHP331yoFDfeh2ag" type="date">
           Den 15 Mars, e. m. 89
         </note>
-        <u xml:id="i-3Sm6EM7U8XB79Pjg33SZ3Z" who="unknown" prev="i-FEi9s3oN8eqenBYJU2PPsQ" next="i-VUpU9pUBrMoGsGp4odXfN">
+        <u xml:id="i-3Sm6EM7U8XB79Pjg33SZ3Z" who="unknown" prev="i-FEi9s3oN8eqenBYJU2PPsQ" next="i-7pS2Qqz6ErS6Vx33f5EULQ">
           <seg xml:id="i-2j5V9FaAKvmYH3891qnBpp">
             chefen för Fortifikationen, under antagande att anledningen till
             nämnda förhållande förnämligast vore att söka i Riksdagens önskan
@@ -3357,8 +3215,6 @@
             på förhand erhölle kännedom om hvad det hade att befara och hvaruti
             orsaken härtill vore att söka.”
           </seg>
-        </u>
-        <u xml:id="i-VUpU9pUBrMoGsGp4odXfN" who="unknown" prev="i-3Sm6EM7U8XB79Pjg33SZ3Z" next="i-7pS2Qqz6ErS6Vx33f5EULQ">
           <seg xml:id="i-83FWJEL7GQbqMwWsHPy7wZ">
             Dessa ord, mine Herrar, äro behjertansvärda, ehuru de ej äro
             uttömmande. Chefen för Fortifikationen betraktar i sitt utlåtande
@@ -3375,7 +3231,7 @@
         <note xml:id="i-UAKLsfimouzUhdVLkCXGqd" type="date">
           90 Den 15 Mars, e. m.
         </note>
-        <u xml:id="i-7pS2Qqz6ErS6Vx33f5EULQ" who="unknown" prev="i-VUpU9pUBrMoGsGp4odXfN" next="i-QNUmtX2cFv1z3dsGXw7Gtv">
+        <u xml:id="i-7pS2Qqz6ErS6Vx33f5EULQ" who="unknown" prev="i-3Sm6EM7U8XB79Pjg33SZ3Z" next="i-DcRfRpjMAFCFXdKAJf95Ba">
           <seg xml:id="i-JVSjjUbNmiHCwj3dPCmGwy">
             tiden skulle ega. Men detta oafsedt är Carlskrona af så stor
             vigt för vårt försvar, att dess befästande, efter mitt iörmenande,
@@ -3417,8 +3273,6 @@
             besittning Carlskrona betryggar, på några få år 1 skatter och
             bevillningar till Statsverket lemna.
           </seg>
-        </u>
-        <u xml:id="i-QNUmtX2cFv1z3dsGXw7Gtv" who="unknown" prev="i-7pS2Qqz6ErS6Vx33f5EULQ" next="i-DcRfRpjMAFCFXdKAJf95Ba">
           <seg xml:id="i-VHYnXAVYv8r9VVhbHPupk8">
             Anledningen till detta mitt uppträdande har emellertid ej varit
             att ingå i någon kritik af chefens för Fortifikationen utlåtande,
@@ -3439,7 +3293,7 @@
         <note xml:id="i-3DWbLugHvPN1ooNLNe6nyr" type="date">
           Den 15 Mars, e. m. 9
         </note>
-        <u xml:id="i-DcRfRpjMAFCFXdKAJf95Ba" who="unknown" prev="i-QNUmtX2cFv1z3dsGXw7Gtv" next="i-6x5wwqVBiGCGLr9oUqP7zZ">
+        <u xml:id="i-DcRfRpjMAFCFXdKAJf95Ba" who="unknown" prev="i-7pS2Qqz6ErS6Vx33f5EULQ">
           <seg xml:id="i-SwMUWRPY6VbrNBTn59q6DD">
             del hyser jag likväl icke en sådan tanke; jag är tvärtom öfvertygad
             att Herr Statsrådet och Chefen, på sätt han yttrat vid föregående
@@ -3457,8 +3311,6 @@
             någon röst inom Representationen skulle höjas för att häfda denna
             frågas fosterländska betydelse.
           </seg>
-        </u>
-        <u xml:id="i-6x5wwqVBiGCGLr9oUqP7zZ" who="unknown" prev="i-DcRfRpjMAFCFXdKAJf95Ba">
           <seg xml:id="i-NhToVL159dBmWCqa95U5fe">
             Hvad förevarande punkt uti Stats-Utskottets Utlåtande beträffar,
             får jag anhålla om bifall till Utskottets Utlåtande.
@@ -3467,7 +3319,7 @@
         <note xml:id="i-JjpdMi2AcftNrmXikArGqh" type="speaker">
           Herr Statsrådet, Friherre Leijonhufvud:
         </note>
-        <u xml:id="i-D15sujNR8C9i5vEjJcpFEm" who="unknown" next="i-8T3dFsoWpEHhgGE8SeEULi">
+        <u xml:id="i-D15sujNR8C9i5vEjJcpFEm" who="unknown" next="i-ULX9Hmd82T4PDLnvmk82rz">
           <seg xml:id="i-GU2yQroHAgrWiZfxSrBVNC">
             Då Chefen för Landtförsvars-departementet icke är närvararande,
             så tager jag mig friheten uppträda, för att besvara det spörjsmål,
@@ -3481,8 +3333,6 @@
             är skälet, att han ej i år ansett sig böra göra någon begäran
             om anslag till befästningarne i Carlskrona skärgård.
           </seg>
-        </u>
-        <u xml:id="i-8T3dFsoWpEHhgGE8SeEULi" who="unknown" prev="i-D15sujNR8C9i5vEjJcpFEm" next="i-ULX9Hmd82T4PDLnvmk82rz">
           <seg xml:id="i-GzdHeZmanfAnYw58nfYq65">
             Hvad denna fråga i öfrigt beträffar, så är jag tacksam mot den
             föregående talaren, att han här framhållit densamma; men anser
@@ -3511,7 +3361,7 @@
         <note xml:id="i-Ce69EN1sD1tsgn6GjCSoHg" type="date">
           92 Den 15 Mars, e. m.
         </note>
-        <u xml:id="i-ULX9Hmd82T4PDLnvmk82rz" who="unknown" prev="i-8T3dFsoWpEHhgGE8SeEULi" next="i-JW6xWotvYsSkyL5NXH3VFU">
+        <u xml:id="i-ULX9Hmd82T4PDLnvmk82rz" who="unknown" prev="i-D15sujNR8C9i5vEjJcpFEm" next="i-TMPcxT4KwZPiwHT1a7M8Cc">
           <seg xml:id="i-n4sjzoXQEmsi5MrckkkA1">
             väntar att i min tid se dem upplifvade. Om jag nu skulle närmare
             redogöra för skälen till denna min förändrade uppfattning af hvad
@@ -3530,8 +3380,6 @@
             ett ständigt föremål för oro och bekymmer, till dess den blir
             antingen satt i försvarbart skick eller ock — utrymd".
           </seg>
-        </u>
-        <u xml:id="i-JW6xWotvYsSkyL5NXH3VFU" who="unknown" prev="i-ULX9Hmd82T4PDLnvmk82rz" next="i-HiZsmXjdoaXa3pJ7zUwMBh">
           <seg xml:id="i-WwYVis4Ks2xeLeiFoXLQNb">
             Jag instämmer med den föregående talaren, att Carlskrona är en
             farlig punkt, en punkt, derifrån fienden kan göra oss stor skada,
@@ -3539,8 +3387,6 @@
             än att antingen der försvara oss, för att falla med heder, eller
             ock spara våra stridskrafter till andra ställen.
           </seg>
-        </u>
-        <u xml:id="i-HiZsmXjdoaXa3pJ7zUwMBh" who="unknown" prev="i-JW6xWotvYsSkyL5NXH3VFU" next="i-2ZgXAqfVMKbA4X82YSz6g7">
           <seg xml:id="i-3UrFD8YMFcZYyTFpTvFmfi">
             I afseende på platsens strategiska vigt, så vill jag yttra några
             ord, derför att jag ej är af alldeles samma åsigt som den siste
@@ -3550,8 +3396,6 @@
             komma att begagna si deraf, eller att en fiende, som bemäktigat
             sig platsen, gör den til sin flottas depot och tillhåll.
           </seg>
-        </u>
-        <u xml:id="i-2ZgXAqfVMKbA4X82YSz6g7" who="unknown" prev="i-HiZsmXjdoaXa3pJ7zUwMBh" next="i-DjKjuMjBnK7VXhD8CnzDdr">
           <seg xml:id="i-D7KAxP8ny3uqrya8iQDLRW">
             Men i afseende på landförsvaret, kan jag ej tillmäta Carlskrona
             någon öfvervägande betydenhet. Jag tror ej att en fiende landstiger
@@ -3561,8 +3405,6 @@
             den andra strandvägen åt Carlshamn och Skåne, den tredje in åt
             Smålands skogiga och glest befolkade trakter.
           </seg>
-        </u>
-        <u xml:id="i-DjKjuMjBnK7VXhD8CnzDdr" who="unknown" prev="i-2ZgXAqfVMKbA4X82YSz6g7" next="i-kA3vd3BWari5Hn1MZWiM4">
           <seg xml:id="i-YG9z9nZ9DMPniNShTUMuv">
             I de båda första fallen är det fördelaktigare för fienden att
             föra sina trupper och förnödenheter på fartyg till en för det
@@ -3578,8 +3420,6 @@
             glest befolkadt landskap med få resurser för en armés underhåll
             och fortskaffande.
           </seg>
-        </u>
-        <u xml:id="i-kA3vd3BWari5Hn1MZWiM4" who="unknown" prev="i-DjKjuMjBnK7VXhD8CnzDdr" next="i-TMPcxT4KwZPiwHT1a7M8Cc">
           <seg xml:id="i-H7GXQajMptTsnwxdDxKzgx">
             Då derföre den siste talaren anmärkt, att ett af de skäl, som
             i sednare tider motverkat Carlskronas befästande, vore att söka
@@ -3592,15 +3432,13 @@
         <note xml:id="i-KxU8DmsJBupa3cfDnka89b" type="date">
           Den 15 Mars, e. ii. 98
         </note>
-        <u xml:id="i-TMPcxT4KwZPiwHT1a7M8Cc" who="unknown" prev="i-kA3vd3BWari5Hn1MZWiM4" next="i-R6Sup8tga885vwHGXTxg14">
+        <u xml:id="i-TMPcxT4KwZPiwHT1a7M8Cc" who="unknown" prev="i-ULX9Hmd82T4PDLnvmk82rz">
           <seg xml:id="i-cd6F6hSYxPe2QPpAf12v2">
             egentligen måste sökas i afseende på vårt sjöförsvar. Den är
             då ock i väsendtlig mån beroende på hvad form detta sjöförsvar
             kommer att antaga. Men häröfver beder jag att få uppskjuta mitt
             uttalande till dess flottans angelägenheter komma under diskussion.
           </seg>
-        </u>
-        <u xml:id="i-R6Sup8tga885vwHGXTxg14" who="unknown" prev="i-TMPcxT4KwZPiwHT1a7M8Cc">
           <seg xml:id="i-82ckS9ENkQLa1iakpidhrq">
             Det slutresultat, hvartill jag åtminstone kommit, ehuru visserligen
             alldeles emot min egen lifliga önskan, är den jag uttalat i ofvannämnda
@@ -3612,7 +3450,7 @@
         <note xml:id="i-3eP5hXNrpd1q79z7XTPvhQ" type="speaker">
           Grefve af Ugglas:
         </note>
-        <u xml:id="i-Ed7vLkZ9APMz5HW9KCcS6e" who="i-QnPwUMeUomdPsJFRydT9Gb" next="i-UvGBN3bZpy5noLSawsiQDq">
+        <u xml:id="i-Ed7vLkZ9APMz5HW9KCcS6e" who="i-QnPwUMeUomdPsJFRydT9Gb">
           <seg xml:id="i-PQnfVNtFm8pus6PD5tGmn6">
             Det är med dubbel ledsnad, som jag nu uppträder efter det anförande,
             som nyss hållits; ty att Carlskrona här förklarats för en förlorad
@@ -3630,8 +3468,6 @@
             jernvägen, hvarifrån han, om hans stridskrafter äro någorlunda
             betydliga, ovilkorligen beherrskar det södra Sverige.
           </seg>
-        </u>
-        <u xml:id="i-UvGBN3bZpy5noLSawsiQDq" who="i-QnPwUMeUomdPsJFRydT9Gb" prev="i-Ed7vLkZ9APMz5HW9KCcS6e">
           <seg xml:id="i-APZ5uTGE7KoPejPCtoqyuW">
             Jag lemnar dock detta och vill nu endast förklara att det mindre
             höfves att misströsta i Konungens konselj, än som ingeniörofficer,
@@ -3674,7 +3510,7 @@
         <note xml:id="i-FxZioRugijPJ2DR9KUAqqk">
           Bao se
         </note>
-        <u xml:id="i-Sqzba9UzkXnDsJkwPyx9F9" who="i-Nx64JS4emGspRCgWhqbLGE" prev="i-TorrhdyojiZWFp3GBtnL7s" next="i-QQcw3DtF7dJGXrfvvDqnjr">
+        <u xml:id="i-Sqzba9UzkXnDsJkwPyx9F9" who="i-Nx64JS4emGspRCgWhqbLGE" prev="i-TorrhdyojiZWFp3GBtnL7s">
           <seg xml:id="i-Cnxe6Ay64DrzJ1vZuEYyXD">
             det ändamål, som genom förändringen åsyftas, så har Kongl. Maj:t
             å Fjerde Hufvudtiteln ej ringa anslag för extra utgifter, eller
@@ -3683,8 +3519,6 @@
             anslag fana för dess ursprungliga ändamål att bereda krigsdugligt
             befäl.
           </seg>
-        </u>
-        <u xml:id="i-QQcw3DtF7dJGXrfvvDqnjr" who="i-Nx64JS4emGspRCgWhqbLGE" prev="i-Sqzba9UzkXnDsJkwPyx9F9">
           <seg xml:id="i-HjiT2fYVXLCQtRVLaaXcWQ">
             an det ej härför användas, så må det stå obegagnadt såsom ett
             vackert tecken på den fredsanda, som inom Europa är rådande; men
@@ -3817,13 +3651,11 @@
         <note xml:id="i-Syik5GLR6H2BXQdVyFrwqo" type="date">
           96 Den 15 Mårs, e. m.
         </note>
-        <u xml:id="i-E3Bz2vFarsHbdgYe1HH8E4" who="i-MUyEorK3Jrs76puMnBfwJQ" prev="i-EciTc6F48EDLnVjC4EUkcB" next="i-XGBD2SscjNuMSmHx115e2u">
+        <u xml:id="i-E3Bz2vFarsHbdgYe1HH8E4" who="i-MUyEorK3Jrs76puMnBfwJQ" prev="i-EciTc6F48EDLnVjC4EUkcB">
           <seg xml:id="i-KUxT9viwDL44YURr17Xiiz">
             må komma 1 tillfälle att pröfva de i ifrågavarande motioner föreslagna
             lindringar i båtsmanshållet.
           </seg>
-        </u>
-        <u xml:id="i-XGBD2SscjNuMSmHx115e2u" who="i-MUyEorK3Jrs76puMnBfwJQ" prev="i-E3Bz2vFarsHbdgYe1HH8E4">
           <seg xml:id="i-XbCGBegqo33BsNws6AtJ1t">
             Efter härmed slutad öfverläggning gjordes först proposition på
             bifall till punkten, hvarvid svarades nej, och sedermera proposition
@@ -3836,7 +3668,7 @@
         <note xml:id="i-DVbtDM1Cpi8YgGMUtqjsBj" type="speaker">
           Grefve af Ugglas:
         </note>
-        <u xml:id="i-K6QmCWbZ5C7bJXNqhyK4nE" who="i-QnPwUMeUomdPsJFRydT9Gb" next="i-3mCXs5UjGGuram9eR3nPQm">
+        <u xml:id="i-K6QmCWbZ5C7bJXNqhyK4nE" who="i-QnPwUMeUomdPsJFRydT9Gb" next="i-3tzWUBuM3VPQ3GrVWKDmTN">
           <seg xml:id="i-KQQvsoTzBk6MRMkebQ972i">
             Då Kammarens ledamöter säkert förut tagit kännedom om de beräkningar
             Utskottet uppgjort och möjligen äfven af min reservation och den
@@ -3845,8 +3677,6 @@
             att i några större drag genomgå den beräkning Utskottet uppgjort
             och visa de fel, som deri förefinnas.
           </seg>
-        </u>
-        <u xml:id="i-3mCXs5UjGGuram9eR3nPQm" who="i-QnPwUMeUomdPsJFRydT9Gb" prev="i-K6QmCWbZ5C7bJXNqhyK4nE" next="i-WRjxqbDSMqFFV5Zhf5r5YV">
           <seg xml:id="i-5qX1QjsrHQeHy6nFkh7SyS">
             Utskottets beräkning utgår derifrån, att en bestämd kontant behållning
             den 1 Januari förefanns. Denna är upptagen, dels efter Riksgälds-kontorets
@@ -3867,8 +3697,6 @@
             hvarefter, enligt Utskottets beräkning, skulle återstå en disponibel
             tillgång af 686,000 R:dr.
           </seg>
-        </u>
-        <u xml:id="i-WRjxqbDSMqFFV5Zhf5r5YV" who="i-QnPwUMeUomdPsJFRydT9Gb" prev="i-3mCXs5UjGGuram9eR3nPQm" next="i-548zBJHRHBtpAAK9g4RiLK">
           <seg xml:id="i-BRkxGsPmjn26HM4hw1KiYp">
             Jag vill här förbigå de oriktigheter, som redan i dessa siffror
             förefinnas, och endast anmärka att, då här afdrag skett för krigsfartygsbyggnads-fonden,
@@ -3886,14 +3714,10 @@
             R:dr och för Balder cirka 1,074,000 R:dr, hvarefter resten återstår
             att betala, och hvilket blifver en betydligt lägre siffra.
           </seg>
-        </u>
-        <u xml:id="i-548zBJHRHBtpAAK9g4RiLK" who="i-QnPwUMeUomdPsJFRydT9Gb" prev="i-WRjxqbDSMqFFV5Zhf5r5YV" next="i-SdSkFGRAPDTE2E9rg6uPqo">
           <seg xml:id="i-Qox3UG8CnJ6AmV3q7wLFke">
             Hvad jag deremot måste anmärka och hvad som stämplar denna beräkning
             är, att den helt och hållet förbigått alla de reservationer,
           </seg>
-        </u>
-        <u xml:id="i-SdSkFGRAPDTE2E9rg6uPqo" who="i-QnPwUMeUomdPsJFRydT9Gb" prev="i-548zBJHRHBtpAAK9g4RiLK" next="i-3tzWUBuM3VPQ3GrVWKDmTN">
           <seg xml:id="i-Mwg4UEEkXjcWm19XoRVHAd">
             som
           </seg>
@@ -3902,7 +3726,7 @@
         <note xml:id="i-GU68JSVpPA29dAF36PGcha" type="date">
           Den 15 Mars, e. m. 97
         </note>
-        <u xml:id="i-3tzWUBuM3VPQ3GrVWKDmTN" who="i-QnPwUMeUomdPsJFRydT9Gb" prev="i-SdSkFGRAPDTE2E9rg6uPqo" next="i-SBvKbyw79QWQmwApcCDRLP">
+        <u xml:id="i-3tzWUBuM3VPQ3GrVWKDmTN" who="i-QnPwUMeUomdPsJFRydT9Gb" prev="i-K6QmCWbZ5C7bJXNqhyK4nE" next="i-Ady8eD8jEfCg2ngmnng5cA">
           <seg xml:id="i-4FDpz5BAifXkpuk5M5jHbm">
             som på de ordinarie anslagen förefinnas och hvilka öfverstiga
             800,006 R:dr, samt att afseende icke ens fästats på hvad härutaf
@@ -3910,8 +3734,6 @@
             liqvider måste utbetalas, och detta då likväl frågan gäller att
             utröna hvilka kontanta medel i och för andra behof kunna återstå.
           </seg>
-        </u>
-        <u xml:id="i-SBvKbyw79QWQmwApcCDRLP" who="i-QnPwUMeUomdPsJFRydT9Gb" prev="i-3tzWUBuM3VPQ3GrVWKDmTN" next="i-BihNz8RizYUrrLRZu1d28P">
           <seg xml:id="i-G1sKxBvXG8gWtHx9numoXv">
             I afseende härå har dels Kongl. Maj:t uti sin Proposition angående
             Statsverkets tillstånd och behof, dels ock en af Konungens rådgifvare
@@ -3926,8 +3748,6 @@
             förskotter, som ännu ej blifvit redovisade, åtminstone så vidt
             jag har mig bekant.
           </seg>
-        </u>
-        <u xml:id="i-BihNz8RizYUrrLRZu1d28P" who="i-QnPwUMeUomdPsJFRydT9Gb" prev="i-SBvKbyw79QWQmwApcCDRLP" next="i-TFRh4oHwt3CA184PUnbadc">
           <seg xml:id="i-4Cr8HXhBMCYcYccuvX7zDL">
             Då jag inom Utskottet fästade uppmärksamheten på de fel, som
             i beräkningen förekommo, så svarades mig, att, då större delen
@@ -3936,8 +3756,6 @@
             penningar, så ansåg man det vara vigast att taga sådana, der de
             funnos.
           </seg>
-        </u>
-        <u xml:id="i-TFRh4oHwt3CA184PUnbadc" who="i-QnPwUMeUomdPsJFRydT9Gb" prev="i-BihNz8RizYUrrLRZu1d28P" next="i-5qKtKGccJxHpDBNAY1dDg7">
           <seg xml:id="i-HJFhHWtfutedZeAPELDVqp">
             Härvid lag skulle man enligt mitt förmenande kunna anmärka, att
             Kongl. Maj:ts förklaring i afseende på dessa behof bör tille kännas
@@ -3955,8 +3773,6 @@
             förrän i November eller December 1869. Likaså måste ovilkorligen
             en mängd hiqvider för 1869 verkställas 1870.
           </seg>
-        </u>
-        <u xml:id="i-5qKtKGccJxHpDBNAY1dDg7" who="i-QnPwUMeUomdPsJFRydT9Gb" prev="i-TFRh4oHwt3CA184PUnbadc" next="i-6KTmGXUv8Lt86Kd2iXan7j">
           <seg xml:id="i-RsPKqhj75fVzKCHwEWpVYT">
             Vi komma vidare till en tredje faktor, nemligen att i och för
             tjenstens behof under loppet af år 1870 en mängd dispositioner
@@ -3968,8 +3784,6 @@
             och som ej är afsedd blott till ett tidsfördrif, utan på hvilket
             man vill grunda en utgiftsstat, blifver en lättfärdig handling.
           </seg>
-        </u>
-        <u xml:id="i-6KTmGXUv8Lt86Kd2iXan7j" who="i-QnPwUMeUomdPsJFRydT9Gb" prev="i-5qKtKGccJxHpDBNAY1dDg7" next="i-Ady8eD8jEfCg2ngmnng5cA">
           <seg xml:id="i-PwhwrKan9hP95uimegsscL">
             På grund af hvad jag sålunda anfört och utan att behöfva ingå
             i någon närmare granskning af Utskottets beräkning, enär jag tror
@@ -3985,7 +3799,7 @@
         <note xml:id="i-XDEpo6ifz79UopT8t7FmTy" type="date">
           98 Den 15 Mars, e. m.
         </note>
-        <u xml:id="i-Ady8eD8jEfCg2ngmnng5cA" who="i-QnPwUMeUomdPsJFRydT9Gb" prev="i-6KTmGXUv8Lt86Kd2iXan7j">
+        <u xml:id="i-Ady8eD8jEfCg2ngmnng5cA" who="i-QnPwUMeUomdPsJFRydT9Gb" prev="i-3tzWUBuM3VPQ3GrVWKDmTN">
           <seg xml:id="i-go5CYgQhtjUaueYozhjeW">
             önskat att få denna punkt med ogillande lagd till handlingarne;
             men då det emellertid är möjligt att större delen af Kammarens
@@ -4000,7 +3814,7 @@
         <note xml:id="i-AsjkCUMQBUdwLHZhAYuhCo" type="speaker">
           Herr Statsrådet Friherre Leijonhufvud:
         </note>
-        <u xml:id="i-9kV1CHKWruzNgNphc678Je" who="i-SfiURaPHeMX8krVz378cGg" next="i-MP8LGNdW2HcFnT2zLBpCwx">
+        <u xml:id="i-9kV1CHKWruzNgNphc678Je" who="i-SfiURaPHeMX8krVz378cGg" next="i-SgBQK6VzwESKM3ygdVmXHT">
           <seg xml:id="i-WqXbPZMFfLws5yPFGzXug7">
             Af gammal erfarenhet vet jag, huru svårt det är att i Stats-Utskottet
             åstadkomma en fullständig utredning, helst när ämnet är inveckladt,
@@ -4017,8 +3831,6 @@
             två deruti förekommande sväfvande rubriker, benämnda, den ena
             "förskotter", och den andra "afsättningar”.
           </seg>
-        </u>
-        <u xml:id="i-MP8LGNdW2HcFnT2zLBpCwx" who="i-SfiURaPHeMX8krVz378cGg" prev="i-9kV1CHKWruzNgNphc678Je" next="i-NURruNwAPZMkFtDs7jfvw5">
           <seg xml:id="i-CJN5QY4mXmty9USeLxFRbY">
             Vid förskotter går det så till att då anslag blifvit beviljadtt.
             ex. till en nybyggnad, så utbetalas till det faktori, som får
@@ -4031,8 +3843,6 @@
             taga ut hvarandra och hvilket naturligtvis vållar en stor oreda
             1 räkenskaperna.
           </seg>
-        </u>
-        <u xml:id="i-NURruNwAPZMkFtDs7jfvw5" who="i-SfiURaPHeMX8krVz378cGg" prev="i-MP8LGNdW2HcFnT2zLBpCwx" next="i-89Gns8uvgbNdon5U9UsnwC">
           <seg xml:id="i-SrJVhsLbNSwDaYka39qPKf">
             Vidare förekomma de så kallade ”afsättningarne”. Då någonting
             skall utföras, beräknas kostnaden till ett visst belopp, som då
@@ -4049,8 +3859,6 @@
             visar sig, huru svårt det är att bygga några beräkningar på så
             osäkra siffror.
           </seg>
-        </u>
-        <u xml:id="i-89Gns8uvgbNdon5U9UsnwC" who="i-SfiURaPHeMX8krVz378cGg" prev="i-NURruNwAPZMkFtDs7jfvw5" next="i-SgBQK6VzwESKM3ygdVmXHT">
           <seg xml:id="i-6bPsF31EJBxq5dci9gN3bb">
             Af den tablå, som jag låtit uppgöra, och som jag, om tiden medgifvit,
             ämnat låta trycka, alltid med den reservation att siffrornas riktighet
@@ -4063,7 +3871,7 @@
         <note xml:id="i-D6yPnZodYZFEa8d9eMmRDi" type="date">
           Den 15 Mars, e. m. . 99
         </note>
-        <u xml:id="i-SgBQK6VzwESKM3ygdVmXHT" who="i-SfiURaPHeMX8krVz378cGg" prev="i-89Gns8uvgbNdon5U9UsnwC" next="i-3fkorEFtzW5K4s2K1P9ex5">
+        <u xml:id="i-SgBQK6VzwESKM3ygdVmXHT" who="i-SfiURaPHeMX8krVz378cGg" prev="i-9kV1CHKWruzNgNphc678Je">
           <seg xml:id="i-Vo4yHciMEmEiu3p6fnrUAX">
             af Kongl. Maj:t ännu ej med direkta ordres disponerade belopp,
             af hvilket dock en stor del blifvit afsedd till bestämda ändamål,
@@ -4076,15 +3884,11 @@
             förråder, så ersättes hvad som uttagits af sjöexpeditionsmedlen,
             på det att dessa lager”ständigt må hållas kompletta.
           </seg>
-        </u>
-        <u xml:id="i-3fkorEFtzW5K4s2K1P9ex5" who="i-SfiURaPHeMX8krVz378cGg" prev="i-SgBQK6VzwESKM3ygdVmXHT" next="i-MpxPLqYDtsFXG8Km2siaA8">
           <seg xml:id="i-Pg5h2vCYLrotUrjvnxf4Ed">
             Nästa kolumn upptager en bristsiffra af 508,642 R:dr 66 öre.
             Deri ingå två stora poster, nemligen på anslagen till beklädnad
             åt båtsmännen och åt mariner samt några mindre poster.
           </seg>
-        </u>
-        <u xml:id="i-MpxPLqYDtsFXG8Km2siaA8" who="i-SfiURaPHeMX8krVz378cGg" prev="i-3fkorEFtzW5K4s2K1P9ex5" next="i-JXX9jLUEL3wkSLrucvqMgU">
           <seg xml:id="i-DaeNY1v91ffmu716KpVge7">
             Utgår jag nu ifrån nyssnämnda belopp af odisponerade medel 1,547,271
             R:dr 12 öre, för att se huru ställningen gestaltar sig för nästa"
@@ -4093,8 +3897,6 @@
             slopningsmedel, beräknade för hvartdera afnämnda år till 60,000
             R:dr, och sålunda får jag en tillgång af 1,991,271 R:dr 32 öre.
           </seg>
-        </u>
-        <u xml:id="i-JXX9jLUEL3wkSLrucvqMgU" who="i-SfiURaPHeMX8krVz378cGg" prev="i-MpxPLqYDtsFXG8Km2siaA8" next="i-VENYoLDBD7FMrfeB9JzeL5">
           <seg xml:id="i-Q65ZWyxAEHX5V6pWtZs72V">
             Undersöker jag åter hvilka behofven äro, så får jag först den
             stora bristen på 508,642 R:dr 66 öre; vidare de af Kongl. Maj:t
@@ -4113,8 +3915,6 @@
             i fall Hufvudtiteln skulle göra upp sin stat, det visår sig en
             obetäckt brist af 205,371 R:dr 34 öre.
           </seg>
-        </u>
-        <u xml:id="i-VENYoLDBD7FMrfeB9JzeL5" who="i-SfiURaPHeMX8krVz378cGg" prev="i-JXX9jLUEL3wkSLrucvqMgU" next="i-YUe4vwtcCdUZe3AB6zoLud">
           <seg xml:id="i-D9VVjFQwCNQzAYaa9JXVyo">
             Dessutom återstår en sak, som i denna punkt torde böra beaktas,
             nemligen behofvet af en större frihet för Kongl. Maj:t i afseende
@@ -4122,8 +3922,6 @@
             Hufvudtiteln användas äfven för andra ändamål än de hvartill de
             egentligen äro afsedda, ty eljest blir svårt att betäcka bristerna.
           </seg>
-        </u>
-        <u xml:id="i-YUe4vwtcCdUZe3AB6zoLud" who="i-SfiURaPHeMX8krVz378cGg" prev="i-VENYoLDBD7FMrfeB9JzeL5">
           <seg xml:id="i-8x9atwtXx1g4V4GukvUmuB">
             Sådan är nu ställningen och det är ganska påkostande att se,
             huru tillgångar, som tycktes så rika, och hvilka af en eller annan
@@ -4264,7 +4062,7 @@
         <note xml:id="i-FnXjSXZdwkVijY8ohbtrxm" type="speaker">
           Grefve Mörner, Carl Göran:
         </note>
-        <u xml:id="i-BLnqooQrNYNspd52qui9Xt" who="i-Nx64JS4emGspRCgWhqbLGE" next="i-MVvyinxvMff1gFXwiWR4WJ">
+        <u xml:id="i-BLnqooQrNYNspd52qui9Xt" who="i-Nx64JS4emGspRCgWhqbLGE">
           <seg xml:id="i-AH1dwGSWQEgpZCw8VHtAZ4">
             Vi hafva redan för länge sedan upphört med manövern att först
             skicka penningar till Riksgäldskontoret och sedan genast taga
@@ -4275,8 +4073,6 @@
             väl kan räkna dessa penningar såsom tillgång för statsverket,
             utan att alls behöfva lemna dem från Sjöförvaltningen.
           </seg>
-        </u>
-        <u xml:id="i-MVvyinxvMff1gFXwiWR4WJ" who="i-Nx64JS4emGspRCgWhqbLGE" prev="i-BLnqooQrNYNspd52qui9Xt">
           <seg xml:id="i-MU9j5X5o61GUwgKrUkwFSE">
             Jag yrkar bifall till Herr af Klints förslag med den förändring
             att ordet Riksgälds-kontoret utbytes emot orden Statsverket för
@@ -4461,7 +4257,7 @@
         <note xml:id="i-PSRAfVyaJdqAT4gjV4aNDw" type="speaker">
           Herr Wern:
         </note>
-        <u xml:id="i-G8tDbwqfY2L4XDj5R5DWoU" who="i-YLE2WFqhUG9LaVo3997T4z" next="i-PkJ6A9fNHJZebA674iXKxK">
+        <u xml:id="i-G8tDbwqfY2L4XDj5R5DWoU" who="i-YLE2WFqhUG9LaVo3997T4z">
           <seg xml:id="i-SzVK1daXjUGBLAqBrQwkFZ">
             Det sätt, på hvilket en af reservanterne mot Stats- Utskottets
             ifrågavarande Utlåtande ansett att de besparade 468,000 Riksdalerna
@@ -4476,8 +4272,6 @@
             kan få någon plats på den vanliga statsregleringen, en särskildt
             stat uppgöres för detta verk, hvilket Riksdagen likväl icke brukar.
           </seg>
-        </u>
-        <u xml:id="i-PkJ6A9fNHJZebA674iXKxK" who="i-YLE2WFqhUG9LaVo3997T4z" prev="i-G8tDbwqfY2L4XDj5R5DWoU">
           <seg xml:id="i-TrAWDiUcqUMLXwQXyHjN16">
             Hvad ordet statsverket beträffar, så menas dermed helt enkelt
             statens drätsel, och medlen komma Svenska Staten lika väl till
@@ -4544,7 +4338,7 @@
         <note xml:id="i-UxtbfDobTX9eaoCsJJiJjX" type="speaker">
           Statsrådet Friherre Leijonhufvud:
         </note>
-        <u xml:id="i-U55Nt4dKFDUCYwL8Kma7q6" who="i-SfiURaPHeMX8krVz378cGg" next="i-97YK7Chs3EvXVhxztHvz85">
+        <u xml:id="i-U55Nt4dKFDUCYwL8Kma7q6" who="i-SfiURaPHeMX8krVz378cGg">
           <seg xml:id="i-2kThbAsstSzz4ZAEJMvnpy">
             Jag vill blott tillägga ett par ord. Det har här blifvit yttradt,
             att det skulle vara fråga om att bygga nya slag af pansarkanonbåtar.
@@ -4558,8 +4352,6 @@
             af ett annat, bygdt efter samma metod, men endast i något större
             skala.
           </seg>
-        </u>
-        <u xml:id="i-97YK7Chs3EvXVhxztHvz85" who="i-SfiURaPHeMX8krVz378cGg" prev="i-U55Nt4dKFDUCYwL8Kma7q6" next="i-Vm2xPBkEJ53RpSYGsrSQSg">
           <seg xml:id="i-BtTQ8kokttJ9QLtRArCW4Q">
             Nu har det blifvit föreslaget att under år 1270 skulle byggas
             tvenne pansarkanonbåtar. Man har redan inlemnat anbud på byggandet
@@ -4572,8 +4364,6 @@
             om beställningen sker på samma verkstad blifver alltid priset
             billigare, då en större beställning göres.
           </seg>
-        </u>
-        <u xml:id="i-Vm2xPBkEJ53RpSYGsrSQSg" who="i-SfiURaPHeMX8krVz378cGg" prev="i-97YK7Chs3EvXVhxztHvz85">
           <seg xml:id="i-J6oQhpEcgig88aK8P5ka5Z">
             Det enda skäl jag böjer mig för är emellertid, såsom jag redan
             nämnt, om Kammaren anser, att de för kanonbåtars byggande begärda
@@ -4608,7 +4398,7 @@
         <note xml:id="i-3fbxQ9U2SfiRJqHdYhQsVp" type="speaker">
           Grefve Hamilton, Henning:
         </note>
-        <u xml:id="i-V4wK519SdTa9G4McHB2fLv" who="i-6tymTvb9PiygbXCXFfdMi6" next="i-uhyuX2YBCxfxdcuh5m4be">
+        <u xml:id="i-V4wK519SdTa9G4McHB2fLv" who="i-6tymTvb9PiygbXCXFfdMi6">
           <seg xml:id="i-F8vt2qNHKjtbBPvAddAAkd">
             Jag ämnar icke yttra mig, hvarken om de penningar, som kunna
             besparas, eller de fartyg, som skola byggas. Den förra frågan
@@ -4625,8 +4415,6 @@
             eller Statskontoret. För min del instämmer jag med dem, som anse
             att de böra öfverlemnas till Riksgäldskontoret.
           </seg>
-        </u>
-        <u xml:id="i-uhyuX2YBCxfxdcuh5m4be" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-V4wK519SdTa9G4McHB2fLv" next="i-FzA54e4k6cS87CFeMK45v5">
           <seg xml:id="i-CLxKYqixwnprFQYj7YW69d">
             En talare «har anfört, att Riksdagen beslutat att extra statsregleringen
             skall utgå från Statskontoret, hvarföre de ifrågavarande medlen
@@ -4641,8 +4429,6 @@
             endast bör hafva att af Riksgälds-kontoret uppbära hvad som utöfver
             de ordinarie inkomsterna fordras till utgifternas bestridande.
           </seg>
-        </u>
-        <u xml:id="i-FzA54e4k6cS87CFeMK45v5" who="i-6tymTvb9PiygbXCXFfdMi6" prev="i-uhyuX2YBCxfxdcuh5m4be">
           <seg xml:id="i-DF2KXpCEuW6ccTQJwY1pfX">
             Det är visserligen sannt, att Kammaren nyss fattat beslut att
             anvisa 200,000 R:dr till statsverket, men då chefen för Sjöförsvarsdepartementet
@@ -4738,7 +4524,7 @@
         <note xml:id="i-GQqAU9H4pykrBr5BpwpP7o" type="speaker">
           Statsrådet Friherre Leijonhufvud:
         </note>
-        <u xml:id="i-Y8r1FD4En4L3fjUQzq5mst" who="i-SfiURaPHeMX8krVz378cGg" next="i-CxzhzuShY4r17kBxweLiNz">
+        <u xml:id="i-Y8r1FD4En4L3fjUQzq5mst" who="i-SfiURaPHeMX8krVz378cGg">
           <seg xml:id="i-ByYeKL9Vkfuvy1tpYJjzaT">
             Om jag nyss uttalade min mindre tillfredsställelse med Stats-Utskottets
             sätt att kalkylera tillgångarne å Femte Hufvudtiteln, så kan jag
@@ -4746,8 +4532,6 @@
             punkt, der Utskottet helt enkelt tagit bort ett helt ordinarie
             statsanslag.
           </seg>
-        </u>
-        <u xml:id="i-CxzhzuShY4r17kBxweLiNz" who="i-SfiURaPHeMX8krVz378cGg" prev="i-Y8r1FD4En4L3fjUQzq5mst">
           <seg xml:id="i-DR7kTwJPDjvx2Dpu8WWh87">
             Det är en omöjlighet att ställa statshushållningen så, att det
             ena året kan vara fullkomligt oberoende af det andra, och i synnerhet
@@ -4770,7 +4554,7 @@
         <note xml:id="i-CysJj8bnVAvp8ct52iZpm7" type="speaker">
           Herr Montgomery-Cederhjelm:
         </note>
-        <u xml:id="i-BxstaB2gwPp6yy99S45X8L" who="i-FBqnnZt6zvmwFVLD1bjimL" next="i-69ZtYwoyMBSTD6hZQYkSyX">
+        <u xml:id="i-BxstaB2gwPp6yy99S45X8L" who="i-FBqnnZt6zvmwFVLD1bjimL">
           <seg xml:id="i-LuhXGWeFq4JPP1LGwfrkrM">
             Det förhåller sig verkligen som Herr af Klint sagt, att. etter
             Kammarens beslut rör sjette-punkten, föga hopp lärer förefinnas,
@@ -4780,8 +4564,6 @@
             ett instämmande med Herr af Klint var enda sättet att rädda nämnda
             468,000 R:dr.
           </seg>
-        </u>
-        <u xml:id="i-69ZtYwoyMBSTD6hZQYkSyX" who="i-FBqnnZt6zvmwFVLD1bjimL" prev="i-BxstaB2gwPp6yy99S45X8L">
           <seg xml:id="i-Rg4cyCkVfx1m6vcqXvNST2">
             Då emellertid nu ett sådant beslut blifvit fattadt. nödgas jag
             gå in på Herr af Klints förslag, under beklagande, att Kammaren
@@ -4816,7 +4598,7 @@
         <note xml:id="i-QPFiXMF1LfVhDc2a1VfWRf" type="date">
           Den 15 Mars, e. m. 109
         </note>
-        <u xml:id="i-AchVcXygcyrCvuR9T81Dxe" who="i-PmGSQBHHuxkhxCeK1qzBV1" prev="i-FRQFbXr6y7jukDQbgoJLAN" next="i-MEAkSHB5EMifdsmpCovstZ">
+        <u xml:id="i-AchVcXygcyrCvuR9T81Dxe" who="i-PmGSQBHHuxkhxCeK1qzBV1" prev="i-FRQFbXr6y7jukDQbgoJLAN" next="i-SRs9ohCBAUVzJWBHy1uW6V">
           <seg xml:id="i-DFcXXf2kWxAcPuqs9UqS4S">
             finnas för rikets styrelse af oundgängligt behof påkallade för
             samma ändamål, som med hvarje Hufvudtitels anslag afses, och hvilka
@@ -4834,8 +4616,6 @@
             Maj:ts maktområde. Men äfven det ändamålsenliga i ett sådant förfarande,
             förutsatt att det vore berättigadt, kan ifrågasättas.
           </seg>
-        </u>
-        <u xml:id="i-MEAkSHB5EMifdsmpCovstZ" who="i-PmGSQBHHuxkhxCeK1qzBV1" prev="i-AchVcXygcyrCvuR9T81Dxe" next="i-2s6kEcwywkxRQR2L2d1gdB">
           <seg xml:id="i-MvmjFLzhhQKksgXDbsqovb">
             För att Riksdagen skall kunna fatta ett beslut angående besparingarne,
             erfordras att den prötvar, huruvida de kunna vara behöfliga för
@@ -4851,8 +4631,6 @@
             ur den konstitutionela rättens eller statsklokhetens synpunkt
             försvaras.
           </seg>
-        </u>
-        <u xml:id="i-2s6kEcwywkxRQR2L2d1gdB" who="i-PmGSQBHHuxkhxCeK1qzBV1" prev="i-MEAkSHB5EMifdsmpCovstZ" next="i-SRs9ohCBAUVzJWBHy1uW6V">
           <seg xml:id="i-P8Uwkti4bCSahtwBSHeU8j">
             Jag vill blott tillägga några ord i afseende på det af Stats-
             Utskottet anförda motivet för ett sådant förfarande, nemligen
@@ -4883,7 +4661,7 @@
         <note xml:id="i-9Jkqzys84L7N2Xgs6ahLDN" type="date">
           110 Den 15 Mars, e. m.
         </note>
-        <u xml:id="i-SRs9ohCBAUVzJWBHy1uW6V" who="i-PmGSQBHHuxkhxCeK1qzBV1" prev="i-2s6kEcwywkxRQR2L2d1gdB">
+        <u xml:id="i-SRs9ohCBAUVzJWBHy1uW6V" who="i-PmGSQBHHuxkhxCeK1qzBV1" prev="i-AchVcXygcyrCvuR9T81Dxe">
           <seg xml:id="i-1DANZUC2kE3XaEKBtTZQn">
             endast velat nämna detta för att framställa denna frågas betydelse
             från dess konstitutionela sida.
@@ -4958,7 +4736,7 @@
         <note xml:id="i-HUbFg1hLxTVXdGL2DhNXqP" type="date">
           Den 15 Mars, e. m. 111
         </note>
-        <u xml:id="i-E8mkCqEe5hou24HkBzDMdx" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-K14DVzLpDHzd7hsZ1hvjsZ" next="i-VrJwovi2v6UTgwxWQqv8Mu">
+        <u xml:id="i-E8mkCqEe5hou24HkBzDMdx" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-K14DVzLpDHzd7hsZ1hvjsZ">
           <seg xml:id="i-P3NzzNUnGjwZtdEzYQ7q4p">
             att, med ändring af Kongl. Maj:ts Proposition, upptaga anslaget
             "till gemenskapens vid sjöförsvaret natura underhåll” under form
@@ -4974,8 +4752,6 @@
             natura. underhåll” vid 1570 års slut befintliga behållning skall
             till Riksgälds-kontoret afemnas.”
           </seg>
-        </u>
-        <u xml:id="i-VrJwovi2v6UTgwxWQqv8Mu" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-E8mkCqEe5hou24HkBzDMdx">
           <seg xml:id="i-Sh3mLZTH3vht411DHHaea2">
             Jag har icke velat utsätta någon bestämd siffra, emedan den i
             Kongl. Maj:ts Proposition angifna kan under årets lopp förminskas
@@ -5019,7 +4795,7 @@
         <note xml:id="i-7sdVmu8juzGsTpiptChWfR" type="speaker">
           Herr af Klint:
         </note>
-        <u xml:id="i-TDMuF1cxzqwbQj4TUXrYjd" who="i-Akp6TAGeiXLBcodZf8itDp" next="i-JYdmNf4NC3D4yV1p1aK3Zj">
+        <u xml:id="i-TDMuF1cxzqwbQj4TUXrYjd" who="i-Akp6TAGeiXLBcodZf8itDp" next="i-HTP3pmFUZMKsCFmZwbYChF">
           <seg xml:id="i-A6N6FkvKDpFugXsDasRoRH">
             Jag kan försäkra Grefve Mörner, att det icke var mitt fel att
             icke äfven det ifrågavarande anslaget på Fjerde Hufvudtiteln uppfördes
@@ -5029,8 +4805,6 @@
             och en, som har med dessa saker att göra, att någon tvekan ej
             borde förefinnas.
           </seg>
-        </u>
-        <u xml:id="i-JYdmNf4NC3D4yV1p1aK3Zj" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-TDMuF1cxzqwbQj4TUXrYjd" next="i-HTP3pmFUZMKsCFmZwbYChF">
           <seg xml:id="i-GWxXcSUGhaCyMrM6QweV79">
             Hvad angår den stora behållning, som enligt Herr Grefvens förmenande
             skulle uppstå, tillåter jag mig upplysa, att enligt uppgifter,
@@ -5042,7 +4816,7 @@
         <note xml:id="i-Xsga9JrFwsLRWgNNHjjTpC" type="date">
           112 Den 15 Mars, e. m,
         </note>
-        <u xml:id="i-HTP3pmFUZMKsCFmZwbYChF" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-JYdmNf4NC3D4yV1p1aK3Zj">
+        <u xml:id="i-HTP3pmFUZMKsCFmZwbYChF" who="i-Akp6TAGeiXLBcodZf8itDp" prev="i-TDMuF1cxzqwbQj4TUXrYjd">
           <seg xml:id="i-QfeFf2bcpoeSGHG14kBbwx">
             pets underhåll år 1564 254270 R:dr, 1865 213,492 R:dr, 1863 225,270
             R:dr, 1867 217,423 R:dr och 1868 omkring 278,600 R:dr. Tager man
@@ -5143,7 +4917,7 @@
         <note xml:id="i-E4cMHyXdR8q77xn64AmEbx" type="speaker">
           Grefve Lagerberg:
         </note>
-        <u xml:id="i-3BPTA5nk9t3dei1KipX8fo" who="i-SFcDzAQUiJhV8iyT7ZES7X" next="i-AhdT4g9o1aeYJYbHC9YnUt">
+        <u xml:id="i-3BPTA5nk9t3dei1KipX8fo" who="i-SFcDzAQUiJhV8iyT7ZES7X">
           <seg xml:id="i-5EPf4K3EKamkvT5Q2sMv1T">
             Då den punkt på Fjerde Hufvudtiteln, som rörde mathållningen
             vid de värfvade regementena, här föredrogs, var det min mening
@@ -5162,8 +4936,6 @@
             lika vid de andra värfvade regementena, uppkommer således på året
             en ökad ut-
           </seg>
-        </u>
-        <u xml:id="i-AhdT4g9o1aeYJYbHC9YnUt" who="i-SFcDzAQUiJhV8iyT7ZES7X" prev="i-3BPTA5nk9t3dei1KipX8fo">
           <seg xml:id="i-2D4j1decT1CeN8FfMRaNbi">
             ift af 50—60,000 R:dr, som man hvarken kan minska eller öka.
             Det är bäst att låta hvar sak gälla hvad den gäller, kosta hvad

@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>digital-origin</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">digital-origin</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-J8HNa2jeJbR7o4X2gzDUyh" type="speech">
             <linkGrp type="u">
               <ptr target="#i-0f9dd79905724c52-5"/>
@@ -159,7 +159,13 @@
               <ptr target="#i-5uEH6YKnn5A7gHf8JQLrtM"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -240,7 +246,7 @@
           Interpellationen kommer att besvaras fredagen den 25 april 2008.
         </note>
         <pb facs="http://data.riksdagen.se/fil/ED12E43D-0F8D-4693-AA08-58B5E39AD078#page=2"/>
-        <u xml:id="i-0f9dd79905724c52-2" who="unknown">
+        <u xml:id="i-0f9dd79905724c52-2" who="unknown" next="i-0f9dd79905724c52-3">
           <seg xml:id="i-EyPLC6DPS6o7kVgogcpPMb">
             Miljöministern har inte möjlighet att besvara interpellationen
             inom anvisad tid på grund av redan inbokade engagemang.
@@ -258,7 +264,7 @@
         <note xml:id="i-TBqaeLvmbbhxmvQvhfmgiU">
           Interpellationen kommer att besvaras tisdagen den 8 april 2008.
         </note>
-        <u xml:id="i-0f9dd79905724c52-3" who="unknown">
+        <u xml:id="i-0f9dd79905724c52-3" who="unknown" prev="i-0f9dd79905724c52-2">
           <seg xml:id="i-F2L3D1GZjWrWfJA7u9QJ6f">
             Skälet till dröjsmålet är redan inbokade engagemang.
           </seg>
@@ -290,15 +296,13 @@
         <note xml:id="i-M3tEydswmUJpkJC6qNYbT6" type="speaker">
           Anf. 1 Statsrådet LARS LEIJONBORG (fp):
         </note>
-        <u xml:id="i-0f9dd79905724c52-5" who="i-NZES3NTTAs3ZaBTU3RVkYE" next="i-0f9dd79905724c52-6">
+        <u xml:id="i-0f9dd79905724c52-5" who="i-NZES3NTTAs3ZaBTU3RVkYE" next="i-0f9dd79905724c52-7">
           <seg xml:id="i-U2XZKbTqV6UrKhBKCV76FX">
             Herr talman! Monica Green har frågat mig hur jag avser att tolka
             och behandla Resursutredningens förslag gällande examinationsrätten
             på forskarnivå samt Högskoleverkets roll i förhållande till den
             föreslagna så kallade Intermediären.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-6" who="i-NZES3NTTAs3ZaBTU3RVkYE" prev="i-0f9dd79905724c52-5" next="i-0f9dd79905724c52-7">
           <seg xml:id="i-3U3MzNV8ruVsts3ezvhDRt">
             Vår forskning och våra universitet och högskolor står inför stora
             och viktiga utmaningar och behöver bli bättre rustade att möta
@@ -307,7 +311,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/ED12E43D-0F8D-4693-AA08-58B5E39AD078#page=3"/>
-        <u xml:id="i-0f9dd79905724c52-7" who="i-NZES3NTTAs3ZaBTU3RVkYE" prev="i-0f9dd79905724c52-6" next="i-0f9dd79905724c52-8">
+        <u xml:id="i-0f9dd79905724c52-7" who="i-NZES3NTTAs3ZaBTU3RVkYE" prev="i-0f9dd79905724c52-5">
           <seg xml:id="i-CYP8WCgJZ6tCbmdMEAdjx1">
             Jag avser därför att ta initiativ till att genomföra ett antal
             insatser under mandatperioden för att ytterligare stärka den svenska
@@ -316,8 +320,6 @@
             vetenskapliga kvaliteten på den forskning som utförs vid våra
             lärosäten.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-8" who="i-NZES3NTTAs3ZaBTU3RVkYE" prev="i-0f9dd79905724c52-7" next="i-0f9dd79905724c52-9">
           <seg xml:id="i-WbQm6Etmnrz2JM51uxnzDs">
             En viktig del av underlaget för ett sådant förändringsarbete
             utgörs av de förslag som lagts fram av Resursutredningen. Detta
@@ -325,8 +327,6 @@
             universitet och högskolor och andra berörda myndigheter. Remissvaren
             blir en viktig grund för den fortsatta beredningen.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-9" who="i-NZES3NTTAs3ZaBTU3RVkYE" prev="i-0f9dd79905724c52-8" next="i-0f9dd79905724c52-10">
           <seg xml:id="i-BRJxpRfLhKhuQHVUxRCqSE">
             Jag kan inte föregå de förslag som regeringen kommer att lägga
             fram i kommande propositioner. Jag vill dock poängtera att jag
@@ -334,8 +334,6 @@
             minst utredningens övergripande mål att i ökad utsträckning kvalitetssäkra
             forskningen vid våra universitet och högskolor.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-10" who="i-NZES3NTTAs3ZaBTU3RVkYE" prev="i-0f9dd79905724c52-9">
           <seg xml:id="i-TiY1sMaiRYqZLiyFxM3g4V">
             Men det gäller även utredningens förslag att ge examinationsrätt
             för utbildning på forskarnivå till mindre och mer tydligt avgränsade
@@ -348,7 +346,7 @@
         <note xml:id="i-UpDhchFgKZm6avnjhWh65U" type="speaker">
           Anf. 2 MONICA GREEN (s):
         </note>
-        <u xml:id="i-0f9dd79905724c52-11" who="i-17NC28Tx5CZ5mzwYAUHKqv" next="i-0f9dd79905724c52-12">
+        <u xml:id="i-0f9dd79905724c52-11" who="i-17NC28Tx5CZ5mzwYAUHKqv" next="i-0f9dd79905724c52-16">
           <seg xml:id="i-JiZ9asTJv88HD7JJeA3aBY">
             Herr talman! Först och främst tack för att Lars Leijonborg har
             tagit sig god tid att förbereda sig inför den här debatten, så
@@ -358,8 +356,6 @@
             har varit i Skövde och sett den fantastiska högskola som finns
             där och vilka fördelar som den har.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-12" who="i-17NC28Tx5CZ5mzwYAUHKqv" prev="i-0f9dd79905724c52-11" next="i-0f9dd79905724c52-13">
           <seg xml:id="i-WKEA5sPu684tMZgwYyYK5q">
             Jag har ställt några frågor angående utredningen som nu också
             har varit ute på remiss, eftersom jag ser en oro i att det fortfarande
@@ -371,15 +367,11 @@
             modernisera sig. Det går med automatik bara för att de har sina
             gamla namn och sitt ärorika historiska arv.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-13" who="i-17NC28Tx5CZ5mzwYAUHKqv" prev="i-0f9dd79905724c52-12" next="i-0f9dd79905724c52-14">
           <seg xml:id="i-LGWoDQFQH1FpH1AomgRsoq">
             Många av högskolorna har funnits i 30 år. Skövde högskola är
             en av dem som har funnits i 30 år nu. Fortfarande betraktas de
             som nya och små uppstickare.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-14" who="i-17NC28Tx5CZ5mzwYAUHKqv" prev="i-0f9dd79905724c52-13" next="i-0f9dd79905724c52-15">
           <seg xml:id="i-V7oeMHB4H71ukcWySKoXsn">
             Högskolan i Skövde är oerhört duktig på många områden, på datavetenskap,
             produktion, processteknik, teknisk mekanism, spår- och talteknologi,
@@ -389,8 +381,6 @@
             och vad som ska komma i propositionen till hösten om hur forskningsanslagen
             och anslagen över huvud taget ska fördelas.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-15" who="i-17NC28Tx5CZ5mzwYAUHKqv" prev="i-0f9dd79905724c52-14" next="i-0f9dd79905724c52-16">
           <seg xml:id="i-9ZwySH9kehkESrBumAqAA4">
             Jag tycker att det är märkligt med den nya organisationen som
             har ett så konstigt namn så man bara hisnar av tanken att den
@@ -399,15 +389,13 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/ED12E43D-0F8D-4693-AA08-58B5E39AD078#page=4"/>
-        <u xml:id="i-0f9dd79905724c52-16" who="i-17NC28Tx5CZ5mzwYAUHKqv" prev="i-0f9dd79905724c52-15" next="i-0f9dd79905724c52-17">
+        <u xml:id="i-0f9dd79905724c52-16" who="i-17NC28Tx5CZ5mzwYAUHKqv" prev="i-0f9dd79905724c52-11">
           <seg xml:id="i-Tt3j92MbsmCTHwdZV1Tt8J">
             Jag tycker nog att man skulle kunna se till att man har en rättvis
             fördelning och att man ger alla samma chans, att man faktiskt
             inte ska ge några fri lejd och säga: Ni har ju så gamla historiska
             minnen. Det är klart att ni ska ha de största anslagen.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-17" who="i-17NC28Tx5CZ5mzwYAUHKqv" prev="i-0f9dd79905724c52-16">
           <seg xml:id="i-6kzczxEfKeQQgbaxhdof1a">
             Nu ska de ha mycket stora anslag. De är duktiga. Jag menar inte
             att vi ska se till så att de inte får sina möjligheter, självfallet
@@ -419,7 +407,7 @@
         <note xml:id="i-8c1gRpfsxJiCnpYDBBaETQ" type="speaker">
           Anf. 3 Statsrådet LARS LEIJONBORG (fp):
         </note>
-        <u xml:id="i-0f9dd79905724c52-18" who="i-NZES3NTTAs3ZaBTU3RVkYE" next="i-0f9dd79905724c52-19">
+        <u xml:id="i-0f9dd79905724c52-18" who="i-NZES3NTTAs3ZaBTU3RVkYE" next="i-0f9dd79905724c52-24">
           <seg xml:id="i-4Q8fRHGTGcfnaDMZ8utf7o">
             Herr talman! Det var i Monica Greens och min förra interpellationsdebatt
             som det här med ett besök för min del i Skövde kom upp. Jag vill
@@ -428,8 +416,6 @@
             i Skövde kunde säkras, och jag svarade med att prisa Högskolan
             i Skövde på många sätt för deras tydliga profilering.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-19" who="i-NZES3NTTAs3ZaBTU3RVkYE" prev="i-0f9dd79905724c52-18" next="i-0f9dd79905724c52-20">
           <seg xml:id="i-J3K9iJMEy4ata2RYciy7t7">
             Jag hade ett väldigt trevligt besök där i förrgår. Det var en
             hel del frågor också där om det som nu händer ute i högskolevärlden,
@@ -438,8 +424,6 @@
             har inga planer på att lägga ned några högskolor, utan i den mån
             det ska ske sådana strukturförändringar ska det komma underifrån.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-20" who="i-NZES3NTTAs3ZaBTU3RVkYE" prev="i-0f9dd79905724c52-19" next="i-0f9dd79905724c52-21">
           <seg xml:id="i-QUN18a8rr736T3igTECffU">
             Det är också en bra sak med Skövde att man har byggt allianser
             med andra lärosäten, även om man inte har några fusionsplaner.
@@ -447,8 +431,6 @@
             Om man skaffar sig spets på några områden skaffar man sig bredden
             genom allianser.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-21" who="i-NZES3NTTAs3ZaBTU3RVkYE" prev="i-0f9dd79905724c52-20" next="i-0f9dd79905724c52-22">
           <seg xml:id="i-KQP66YqH3Ruu3NLEv2fDPV">
             Vi kan sätta in det här i ett brett historiskt perspektiv. När
             en gång i tiden terminologin universitet respektive högskolor
@@ -461,8 +443,6 @@
             på högskoleutbildning är att den är forskningsanknuten är det
             inte onaturligt att forskning även bedrivs på högskolorna.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-22" who="i-NZES3NTTAs3ZaBTU3RVkYE" prev="i-0f9dd79905724c52-21" next="i-0f9dd79905724c52-23">
           <seg xml:id="i-9w3hBkmEPPNcEYHpdCyUNe">
             Man kan säga att det förslag som Dan Brännström har lagt fram
             bygger just på den princip som Monica Green talar om här, nämligen
@@ -475,8 +455,6 @@
             sig och satsar på en sak uppnår excellens som man brukar säga
             i sådana här sammanhang det vill säga hög kvalitet.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-23" who="i-NZES3NTTAs3ZaBTU3RVkYE" prev="i-0f9dd79905724c52-22" next="i-0f9dd79905724c52-24">
           <seg xml:id="i-TeQPo3T58cfFyWUb8HVqg">
             Dan Brännströms förslag bygger på att de högskolor som når en
             sådan kvalitet också ska få examinationsrätt. De ska få ta det
@@ -484,7 +462,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/ED12E43D-0F8D-4693-AA08-58B5E39AD078#page=5"/>
-        <u xml:id="i-0f9dd79905724c52-24" who="i-NZES3NTTAs3ZaBTU3RVkYE" prev="i-0f9dd79905724c52-23" next="i-0f9dd79905724c52-25">
+        <u xml:id="i-0f9dd79905724c52-24" who="i-NZES3NTTAs3ZaBTU3RVkYE" prev="i-0f9dd79905724c52-18">
           <seg xml:id="i-UAhPWEgsn28v5pKDnsPeLF">
             Som jag antyder i svaret tycker jag personligen att det finns
             en rimlighet i det synsättet. Det har också fått rätt stort stöd
@@ -492,8 +470,6 @@
             det jag sade i svaret: Jag tycker att det är en intressant argumentation
             och ett intressant förslag.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-25" who="i-NZES3NTTAs3ZaBTU3RVkYE" prev="i-0f9dd79905724c52-24">
           <seg xml:id="i-XXaQhbj77SBDXje8y4dwCW">
             På den andra punkten kan jag bara mycket kort säga till Monica
             Green att om denna nya myndighet skulle inrättas kommer den i
@@ -503,14 +479,12 @@
         <note xml:id="i-6PWRzq9Xacqu7ocxwiaQ1E" type="speaker">
           Anf. 4 MONICA GREEN (s):
         </note>
-        <u xml:id="i-0f9dd79905724c52-26" who="i-17NC28Tx5CZ5mzwYAUHKqv" next="i-0f9dd79905724c52-27">
+        <u xml:id="i-0f9dd79905724c52-26" who="i-17NC28Tx5CZ5mzwYAUHKqv">
           <seg xml:id="i-9vALChJz46J31cWaCvjHHg">
             Herr talman! Det var ett bra besked! Jag blev nästan rädd när
             jag hörde ordet, för det var så krångligt. Jag kan alltså pusta
             ut när det gäller det.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-27" who="i-17NC28Tx5CZ5mzwYAUHKqv" prev="i-0f9dd79905724c52-26" next="i-0f9dd79905724c52-28">
           <seg xml:id="i-8EiRAZE5SLvbfD2nKt4YYW">
             Jag förstår att Lars Leijonborg säger det han säger, att vi självfallet
             inte ska lägga ned några högskolor i landet, utan det ska i så
@@ -520,8 +494,6 @@
             talet som Moderaterna körde med om bygdehögskolor, dålig kvalitet
             och så vidare.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-28" who="i-17NC28Tx5CZ5mzwYAUHKqv" prev="i-0f9dd79905724c52-27" next="i-0f9dd79905724c52-29">
           <seg xml:id="i-YAiR2SgQMLeMUxzi1bp2aw">
             Men det finns ändå en risk. Även om man från politiskt håll säger
             att man inte ska lägga ned högskolor kan man ju se till att de
@@ -536,8 +508,6 @@
             som Lars Leijonborg säger, duktiga på att samarbeta med varandra.
             Det finns alltså en smidighet i de mindre och medelstora högskolorna.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-29" who="i-17NC28Tx5CZ5mzwYAUHKqv" prev="i-0f9dd79905724c52-28" next="i-GWDR1p2aRwdWsYEV818yEM">
           <seg xml:id="i-JXvDzApwpN9fCdjBKGJXaW">
             Jag har en fråga till. När det gäller det här med att basera
             anslagen på forskning skulle det kunna missgynna lärosäten med
@@ -550,8 +520,6 @@
             också få credit för det och tilldelas de resurser som behövs i
             fortsättningen.
           </seg>
-        </u>
-        <u xml:id="i-GWDR1p2aRwdWsYEV818yEM" who="i-17NC28Tx5CZ5mzwYAUHKqv" prev="i-0f9dd79905724c52-29">
           <seg xml:id="i-6hSNi2JHMsUuXKopGrPgtJ">
             Jag undrar hur ministern ser på detta.
           </seg>
@@ -574,7 +542,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/ED12E43D-0F8D-4693-AA08-58B5E39AD078#page=6"/>
-        <u xml:id="i-0f9dd79905724c52-32" who="i-NZES3NTTAs3ZaBTU3RVkYE" prev="i-0f9dd79905724c52-31" next="i-0f9dd79905724c52-33">
+        <u xml:id="i-0f9dd79905724c52-32" who="i-NZES3NTTAs3ZaBTU3RVkYE" prev="i-0f9dd79905724c52-31">
           <seg xml:id="i-8gLjPfRjAzkCmYQpsAuCs3">
             Men om jag nu är så tillmötesgående och instämmande i det Monica
             Green säger kan vi kanske också vara överens om den andra sidan
@@ -586,8 +554,6 @@
             men också av kraftsamling, att bygga forskningsmiljöer som kan
             tävla med de allra yppersta i världen.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-33" who="i-NZES3NTTAs3ZaBTU3RVkYE" prev="i-0f9dd79905724c52-32">
           <seg xml:id="i-Jb46nTeb5dKbfSQ1KsjG6t">
             Det är en matematisk omöjlighet att skapa breda forskningsmiljöer
             på alla högskoleorter. Det kommer alltså även i framtiden att
@@ -603,7 +569,7 @@
         <note xml:id="i-QW2XBGUJyYp84YQ2Zc93kA" type="speaker">
           Anf. 6 MONICA GREEN (s):
         </note>
-        <u xml:id="i-0f9dd79905724c52-34" who="i-17NC28Tx5CZ5mzwYAUHKqv" next="i-0f9dd79905724c52-35">
+        <u xml:id="i-0f9dd79905724c52-34" who="i-17NC28Tx5CZ5mzwYAUHKqv">
           <seg xml:id="i-54temap23qYUh677NYqDY9">
             Herr talman! Det tog sig på slutet av inlägget, tycker jag! Jag
             kan inte hålla med om inledningen: att vi ska konstatera att Högskolan
@@ -615,8 +581,6 @@
             om att Högskolan i Skövde kan bli det. Även Lars Leijonborg nämnde
             detta i sitt inlägg, och det uppskattar jag.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-35" who="i-17NC28Tx5CZ5mzwYAUHKqv" prev="i-0f9dd79905724c52-34" next="i-0f9dd79905724c52-36">
           <seg xml:id="i-GSUJ8KKSgVg7tdCMJazjTg">
             Jag vill återkomma till det här med att det måste vara möjligt
             för högskolorna att konkurrera med universiteten på lika villkor
@@ -630,8 +594,6 @@
             Högskolan i Skövde väl har blivit citerad i artiklar och så vidare
             kommer också de att kunna få mer anslag.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-36" who="i-17NC28Tx5CZ5mzwYAUHKqv" prev="i-0f9dd79905724c52-35">
           <seg xml:id="i-PPjPujK4t73bHSHydFhPF6">
             Men jag menar att det inte ska behöva gå till så. Jag menar att
             vi ska kunna ha ett sådant tydligt och så rättvist system som
@@ -643,7 +605,7 @@
         <note xml:id="i-EgdyNrjR6wMdMXf2hXRWVQ" type="speaker">
           Anf. 7 Statsrådet LARS LEIJONBORG (fp):
         </note>
-        <u xml:id="i-0f9dd79905724c52-37" who="i-NZES3NTTAs3ZaBTU3RVkYE" next="i-0f9dd79905724c52-38">
+        <u xml:id="i-0f9dd79905724c52-37" who="i-NZES3NTTAs3ZaBTU3RVkYE" next="i-0f9dd79905724c52-39">
           <seg xml:id="i-F8m5rLHp4EJxuovscFaMns">
             Herr talman! Lika villkor men det innebär ju inte att man automatiskt
             får samma belopp, utan det handlar just om det Monica Green sade
@@ -654,8 +616,6 @@
             medel i början därför att de är nya. Men så småningom måste alla
             tävla just på lika villkor.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-38" who="i-NZES3NTTAs3ZaBTU3RVkYE" prev="i-0f9dd79905724c52-37" next="i-0f9dd79905724c52-39">
           <seg xml:id="i-9AFreCXxWuVPGsu5fMjZwA">
             Det är så över hela världen att citeringar anses vara ett väldigt
             bra kvalitetsmått. Om man lägger fram någonting som man själv
@@ -664,15 +624,13 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/ED12E43D-0F8D-4693-AA08-58B5E39AD078#page=7"/>
-        <u xml:id="i-0f9dd79905724c52-39" who="i-NZES3NTTAs3ZaBTU3RVkYE" prev="i-0f9dd79905724c52-38" next="i-0f9dd79905724c52-40">
+        <u xml:id="i-0f9dd79905724c52-39" who="i-NZES3NTTAs3ZaBTU3RVkYE" prev="i-0f9dd79905724c52-37">
           <seg xml:id="i-GwHsJAQ6yYNJ7918dcneQj">
             Det finns problem med citeringsmåttet också. Men att citeringar
             allmänt betraktas som det mest praktiska och tillgängliga kvalitetsmåttet
             är ett faktum. I det system vi lägger fram förslag om skulle jag
             tro att citeringar kommer att vara ett viktigt element.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-40" who="i-NZES3NTTAs3ZaBTU3RVkYE" prev="i-0f9dd79905724c52-39">
           <seg xml:id="i-KxGft9p2MuideB68qsBc3d">
             Den reaktion detta har väckt på högskolorna är ofta att det kommer
             att gynna de stora universiteten. Men det jag sade i Skövde i
@@ -711,13 +669,11 @@
           Anf. 8 Integrations- och jämställdhetsminister NYAMKO SABUNI
           (fp):
         </note>
-        <u xml:id="i-0f9dd79905724c52-42" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" next="i-0f9dd79905724c52-43">
+        <u xml:id="i-0f9dd79905724c52-42" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" next="i-0f9dd79905724c52-45">
           <seg xml:id="i-EvG9rkLxDujpwZZYVhSLKy">
             Herr talman! Ursäkta kommunikationsmissen om ommöbleringen på
             dagordningen i dag!
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-43" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" prev="i-0f9dd79905724c52-42" next="i-0f9dd79905724c52-44">
           <seg xml:id="i-88iGuRDmW8REbPkBT2us4i">
             Veronica Palm har frågat mig vilka initiativ jag avser att ta
             för att se till att Exit får stöd för att kunna fortsätta sin
@@ -726,8 +682,6 @@
             Palm regeringens nya förordning för stöd till bland annat sådana
             verksamheter.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-44" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" prev="i-0f9dd79905724c52-43" next="i-0f9dd79905724c52-45">
           <seg xml:id="i-MGUwde3VU182cLFM3Xzxyn">
             Jag delar Veronica Palms uppfattning att det är viktigt att aktivt
             stödja arbetet mot rasism och andra uttryck för intolerans. Det
@@ -743,7 +697,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/ED12E43D-0F8D-4693-AA08-58B5E39AD078#page=8"/>
-        <u xml:id="i-0f9dd79905724c52-45" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" prev="i-0f9dd79905724c52-44" next="i-0f9dd79905724c52-46">
+        <u xml:id="i-0f9dd79905724c52-45" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" prev="i-0f9dd79905724c52-42">
           <seg xml:id="i-FVFqkM7i27bxMWPWt1FU9o">
             Bakgrunden till sammanförandet av de olika bidragsformerna är
             att det tidigare har saknats en helhetssyn beträffande sådana
@@ -760,8 +714,6 @@
             varit tillfredsställande. De ändamål som stöden avser är dock
             angelägna och bör ha möjligheter till offentligt stöd även fortsättningsvis.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-46" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" prev="i-0f9dd79905724c52-45" next="i-0f9dd79905724c52-47">
           <seg xml:id="i-DG9bZmRyS5fiS5P2EKKAcL">
             Ungdomsstyrelsen har fått uppdraget att fördela medel enligt
             den nya förordningen. Bedömningen av vilka verksamheter som ska
@@ -773,8 +725,6 @@
             kommer även fortsättningsvis att kunna söka stöd för sin verksamhet
             enligt den nya förordningen.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-47" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" prev="i-0f9dd79905724c52-46">
           <seg xml:id="i-Mmh3qp2c6vjhHX6hwP5WfZ">
             Det är min bestämda uppfattning att regeringen genom denna nyordning
             har stärkt förutsättningarna för ett vitalt arbete mot rasism
@@ -785,23 +735,19 @@
         <note xml:id="i-3nZJQ9kBjsY9L7NBnJPaTG" type="speaker">
           Anf. 9 VERONICA PALM (s):
         </note>
-        <u xml:id="i-0f9dd79905724c52-48" who="i-DXYijt8wprzTgm7zCTJYc3" next="i-0f9dd79905724c52-49">
+        <u xml:id="i-0f9dd79905724c52-48" who="i-DXYijt8wprzTgm7zCTJYc3" next="i-0f9dd79905724c52-52">
           <seg xml:id="i-QZcwpkSCfkHNchcPW1nhCw">
             Herr talman! Jag är glad att statsrådet och regeringen gör denna
             samlade insats. Jag vill börja med att säga detta. Det är viktigt.
             Jag är orolig för den intolerans och extremism som vi ser växer
             framför allt i våra förorter och ute i landet.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-49" who="i-DXYijt8wprzTgm7zCTJYc3" prev="i-0f9dd79905724c52-48" next="i-0f9dd79905724c52-50">
           <seg xml:id="i-SEmkmCE8rweKj9LyEfwWH9">
             Vi har en regering som driver en politik som ökar klyftorna och
             utsattheten. Då söker sig människor till gemenskaper som inte
             är positiva. Det handlar om både vitmaktkulturer och radikala
             islamistiska nätverk. Där måste vi vuxna ta ett stort ansvar.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-50" who="i-DXYijt8wprzTgm7zCTJYc3" prev="i-0f9dd79905724c52-49" next="i-0f9dd79905724c52-51">
           <seg xml:id="i-CxHZnoDJ259qAR48fFvjGg">
             År 2002 tog den socialdemokratiska regeringen det initiativ som
             har gjort att Exits verksamhet har kunnat finansieras. De människor
@@ -813,8 +759,6 @@
             arbete vid sidan av det vanliga mycket viktiga arbetet mot rasism
             och främlingsfientlighet. Exit på Fryshuset är viktigt och etablerat.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-51" who="i-DXYijt8wprzTgm7zCTJYc3" prev="i-0f9dd79905724c52-50" next="i-0f9dd79905724c52-52">
           <seg xml:id="i-BME1GG2rMfqgfv7Y34LQn1">
             Jag kan inte låta bli att fortsätta tycka att det är ett problem
             att regeringen tar bort de öronmärkta pengarna. Det kan låta käckt
@@ -825,13 +769,11 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/ED12E43D-0F8D-4693-AA08-58B5E39AD078#page=9"/>
-        <u xml:id="i-0f9dd79905724c52-52" who="i-DXYijt8wprzTgm7zCTJYc3" prev="i-0f9dd79905724c52-51" next="i-PS98fYMSpaTQtzbzLa9aFg">
+        <u xml:id="i-0f9dd79905724c52-52" who="i-DXYijt8wprzTgm7zCTJYc3" prev="i-0f9dd79905724c52-48">
           <seg xml:id="i-UJTGYwhg21KqaDknqLevVz">
             Jag är orolig för att de öronmärkta pengarna tas bort, att verksamheter
             slås samman och resurser samtidigt minskas.
           </seg>
-        </u>
-        <u xml:id="i-PS98fYMSpaTQtzbzLa9aFg" who="i-DXYijt8wprzTgm7zCTJYc3" prev="i-0f9dd79905724c52-52">
           <seg xml:id="i-MP2CvQdZNu6jq4m8HqudyF">
             Min fråga till statsrådet kvarstår: Kan statsrådet garantera
             att Exits verksamhet fortgår?
@@ -841,22 +783,18 @@
           Anf. 10 Integrations- och jämställdhetsminister NYAMKO SABUNI
           (fp):
         </note>
-        <u xml:id="i-0f9dd79905724c52-54" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" next="i-0f9dd79905724c52-55">
+        <u xml:id="i-0f9dd79905724c52-54" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN">
           <seg xml:id="i-XAy6wvFDhDKAkgXNuxP8Rb">
             Herr talman! Veronica Palms fråga om jag kan garantera att Exits
             verksamhet ska fortgå är precis kärnan i det som skiljer våra
             värderingar åt.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-55" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" prev="i-0f9dd79905724c52-54" next="i-0f9dd79905724c52-56">
           <seg xml:id="i-48a4m8BGBvhALLFW8snMaM">
             Jag har på mitt departement tagit det fasta greppet att vägra
             vara det statsråd som ska sitta och bedöma vilka organisationer
             som har verksamhet som duger och vilka som inte har det, det vill
             säga att öronmärka pengar.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-56" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" prev="i-0f9dd79905724c52-55" next="i-0f9dd79905724c52-57">
           <seg xml:id="i-GAgVPDpsnyT5d8wKjAeBtG">
             Exit har en bra verksamhet. Jag är inte alls orolig för om de
             ska kunna konkurrera med andra organisationer om de medel som
@@ -872,8 +810,6 @@
             Exit utövat en bra verksamhet som jag är övertygad om att Exit
             kommer att fortsätta att få bidrag för.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-57" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" prev="i-0f9dd79905724c52-56" next="i-0f9dd79905724c52-58">
           <seg xml:id="i-9m4fB4MCzANYi1dtFcbpmX">
             Jag håller med Veronica Palm om att utanförskap samt sociala
             och ekonomiska skillnader skapar dessa olika krafter som vi ser
@@ -891,8 +827,6 @@
             åtgärder som är nödvändiga för att komma till rätta med det utanförskap
             som nu finns.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-58" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" prev="i-0f9dd79905724c52-57">
           <seg xml:id="i-HiAbfJGYD71TXMRf2Wpo2h">
             Jag återkommer till Exits viktiga verksamhet. Pengarna finns
             på Ungdomsstyrelsen. Jag är övertygad om att Exit har möjlighet
@@ -914,7 +848,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/ED12E43D-0F8D-4693-AA08-58B5E39AD078#page=10"/>
-        <u xml:id="i-0f9dd79905724c52-60" who="i-DXYijt8wprzTgm7zCTJYc3" prev="i-0f9dd79905724c52-59" next="i-0f9dd79905724c52-61">
+        <u xml:id="i-0f9dd79905724c52-60" who="i-DXYijt8wprzTgm7zCTJYc3" prev="i-0f9dd79905724c52-59">
           <seg xml:id="i-QNQbMBbDyTUZxfDzXS5ZrE">
             Vi talar nu om Exits unika verksamhet med erfarenhet och sedan
             starten 500 ärenden. Det har handlat om avhoppare, familjer, barnfamiljer
@@ -925,8 +859,6 @@
             och andra aktörer. Dessa ungdomar hamnar i dag i miljöer där vi
             inte vill att de ska vara, men vi vill ge dem en andra chans.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-61" who="i-DXYijt8wprzTgm7zCTJYc3" prev="i-0f9dd79905724c52-60" next="i-0f9dd79905724c52-62">
           <seg xml:id="i-Pqms4S93M8WqPphnUBaNgU">
             Jag ser två problem med det som regeringen väljer att göra. Det
             första är att man minskar mängden pengar. Förut var det ungefär
@@ -936,8 +868,6 @@
             inom Röda Korsets arbete. Det var tre organisationer som arbetade
             mer tydligt med arbetet med avhoppare.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-62" who="i-DXYijt8wprzTgm7zCTJYc3" prev="i-0f9dd79905724c52-61" next="i-0f9dd79905724c52-63">
           <seg xml:id="i-928UFrntqAFT3W8qJuqtVa">
             Nu finns totalt 9 miljoner för dessa organisationer att söka.
             Det är för lite. Det är för lite pengar att söka när man samtidigt
@@ -945,8 +875,6 @@
             slår man ihop pengapåsar och säger att man satsar på en ny struktur.
             Men i realiteten minskar man.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-63" who="i-DXYijt8wprzTgm7zCTJYc3" prev="i-0f9dd79905724c52-62" next="i-0f9dd79905724c52-64">
           <seg xml:id="i-HdrDNxyfUD7xQFSEEPXkwg">
             Det andra problemet är att det är en stramare förordning. Jag
             kan förstå att statsrådet inte vill vara den som sitter och bedömer
@@ -960,8 +888,6 @@
             kommer på en vår när man sitter på en konferens med Fryshusets
             personal. Det är en långsiktig strategisk verksamhet.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-64" who="i-DXYijt8wprzTgm7zCTJYc3" prev="i-0f9dd79905724c52-63" next="i-QL3oQoeMFLeWWvndLFdero">
           <seg xml:id="i-U73VuG8NmDwAzZVZ66E2jj">
             De 9 miljoner kronorna för projektmedel ska användas till att
             utveckla och förnya arbetet mot rasism och främlingsfientlighet.
@@ -971,8 +897,6 @@
             arbetet för att få ungdomarna att komma ur radikala vitmaktkulturer
             är inte dessa pengar nog.
           </seg>
-        </u>
-        <u xml:id="i-QL3oQoeMFLeWWvndLFdero" who="i-DXYijt8wprzTgm7zCTJYc3" prev="i-0f9dd79905724c52-64">
           <seg xml:id="i-Q7GjkTotvcuASoWsvEJPuu">
             Kan statsrådet förklara hur hon ser på att Exit ska fortsätta
             att få ett statligt stöd?
@@ -982,22 +906,18 @@
           Anf. 12 Integrations- och jämställdhetsminister NYAMKO SABUNI
           (fp):
         </note>
-        <u xml:id="i-0f9dd79905724c52-66" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" next="i-0f9dd79905724c52-67">
+        <u xml:id="i-0f9dd79905724c52-66" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" next="i-0f9dd79905724c52-69">
           <seg xml:id="i-LRzrWAkugsx6wvo5n5Fkw8">
             Herr talman! På samma sätt som Veronica Palm just har beskrivit,
             genom att söka stödet hos den myndighet som nu har ansvar att
             fördela stöd till denna typ av organisationer, det vill säga Ungdomsstyrelsen.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-67" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" prev="i-0f9dd79905724c52-66" next="i-0f9dd79905724c52-68">
           <seg xml:id="i-KLZGsx7XApZwfAsL9RCWXj">
             Anslaget har inte minskat, men jag förstår att Veronica Palm
             säger att om Exit ska konkurrera med andra blir det fråga om mindre
             pengar. Det är klart att det blir mindre pengar, men i dag finns
             det knappt någon konkurrens.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-68" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" prev="i-0f9dd79905724c52-67" next="i-0f9dd79905724c52-69">
           <seg xml:id="i-JYRraU8FKPJ1Bm9a5WbJMu">
             Vad vi nu vill bygga upp är den konkurrens som jag efterfrågar.
             Jag är övertygad om att fler kan bedriva denna typ av verksamheter,
@@ -1006,7 +926,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/ED12E43D-0F8D-4693-AA08-58B5E39AD078#page=11"/>
-        <u xml:id="i-0f9dd79905724c52-69" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" prev="i-0f9dd79905724c52-68" next="i-0f9dd79905724c52-70">
+        <u xml:id="i-0f9dd79905724c52-69" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" prev="i-0f9dd79905724c52-66">
           <seg xml:id="i-HNKmW9hRscfVFD1VUX2GMx">
             Jag tänker följa förordningen. Jag tänker följa verksamheterna.
             Fortfarande hoppas jag att det bildas ytterligare organisationer
@@ -1016,8 +936,6 @@
             man alltid göra nya bedömningar när man går igenom budgeten på
             de här områdena.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-70" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" prev="i-0f9dd79905724c52-69">
           <seg xml:id="i-QjW99D2QBMTcyrTK2xMsjW">
             Återigen vill jag säga att pengarna finns. Exit kan söka precis
             som alla andra. Det är som du säger en ordinarie verksamhet inom
@@ -1033,7 +951,7 @@
         <note xml:id="i-7KDxWDNqbzS5t4BqpJmP9p" type="speaker">
           Anf. 13 VERONICA PALM (s):
         </note>
-        <u xml:id="i-0f9dd79905724c52-71" who="i-DXYijt8wprzTgm7zCTJYc3" next="i-0f9dd79905724c52-72">
+        <u xml:id="i-0f9dd79905724c52-71" who="i-DXYijt8wprzTgm7zCTJYc3">
           <seg xml:id="i-NS368z3Q95TeCYx64UCmiy">
             Herr talman! Jag kan hålla med om att det är viktigt att fler
             aktörer kommer in på den här marknaden och att fler vuxna engagerar
@@ -1041,8 +959,6 @@
             är viktigt att det finns mer resurser än 0,1 miljon till arbetet
             mot främlingsfientlighet och rasism.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-72" who="i-DXYijt8wprzTgm7zCTJYc3" prev="i-0f9dd79905724c52-71" next="i-0f9dd79905724c52-73">
           <seg xml:id="i-YRgpQDXPQmYX96zGpCVArf">
             Den ordinarie basverksamhet som Exit bedriver den ordinarie grundverksamheten,
             det strategiska arbetet med sex anställda som bedriver ett slags
@@ -1054,8 +970,6 @@
             gäller utveckling, roliga projekt eller om att åka på läger med
             ungdomarna. Exits basverksamhet är viktig.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-73" who="i-DXYijt8wprzTgm7zCTJYc3" prev="i-0f9dd79905724c52-72">
           <seg xml:id="i-HuASzAuYnRjQeyvmaJ1beH">
             Jag är ledsen att kunna konstatera att statsrådet inte verkar
             tycka att den är så viktig att hon är beredd att garantera den
@@ -1066,7 +980,7 @@
           Anf. 14 Integrations- och jämställdhetsminister NYAMKO SABUNI
           (fp):
         </note>
-        <u xml:id="i-0f9dd79905724c52-74" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" next="i-0f9dd79905724c52-75">
+        <u xml:id="i-0f9dd79905724c52-74" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" next="i-0f9dd79905724c52-77">
           <seg xml:id="i-AMYhJiHbSDQ1ubBLZf9jhL">
             Herr talman! Det finns många viktiga verksamheter. Några av dem
             skulle jag till och med vilja öronmärka pengar till. Men jag tycker
@@ -1074,16 +988,12 @@
             nog att göra bedömningar av vilka verksamheter som håller god
             kvalitet och inte. Pengarna ska alltid sökas i konkurrens.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-75" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" prev="i-0f9dd79905724c52-74" next="i-0f9dd79905724c52-76">
           <seg xml:id="i-HMDQ4y2DER5FA96f73uM8">
             Jag vägrar utesluta andra organisationer bara för att jag råkar
             tycka att Exits verksamhet är bra, för jag är övertygad om att
             också andra organisationer kan bygga upp kunskap och bidra i kampen
             för att hjälpa dem som hoppar av rasistiska verksamheter.
           </seg>
-        </u>
-        <u xml:id="i-0f9dd79905724c52-76" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" prev="i-0f9dd79905724c52-75" next="i-0f9dd79905724c52-77">
           <seg xml:id="i-96vqmp9EsE9zgmMvs8cn4Z">
             Vi ser ett väldigt starkt utanförskap i vårt land i dag. Det
             har skapat dessa krafter. Vad är det som säger att det räcker
@@ -1094,7 +1004,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/ED12E43D-0F8D-4693-AA08-58B5E39AD078#page=12"/>
-        <u xml:id="i-0f9dd79905724c52-77" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" prev="i-0f9dd79905724c52-76">
+        <u xml:id="i-0f9dd79905724c52-77" who="i-Rtt4vV6Vr1WnfJAi2Dn9hN" prev="i-0f9dd79905724c52-74">
           <seg xml:id="i-3QZ34kmgqJS6tnm2UXiwRr">
             Jag tycker att Fryshuset och Exit bedriver en bra verksamhet,
             och jag hoppas att den ska fortsätta. Men det är Ungdomsstyrelsen

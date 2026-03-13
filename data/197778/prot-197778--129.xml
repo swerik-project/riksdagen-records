@@ -28,11 +28,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-6en9Jnxo4KAhUjExEofDSK" type="speech">
             <linkGrp type="u">
               <ptr target="#i-P6hkVuGpMizA2CRgcyUxid"/>
@@ -492,7 +492,13 @@
               <ptr target="#i-37yyBzFdY31QQwMAF9YfGj"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -547,22 +553,18 @@
         <note xml:id="i-WacUpHcCvkBia2rFVDA1nu">
           391, till industriministern, och anförde:
         </note>
-        <u xml:id="i-Dt87vrJJo2yYRzyB9iwySz" who="i-FrizKF8qiYUeCD64QhzzFt" next="i-X252YHdnUbckcL7uf6oxtc">
+        <u xml:id="i-Dt87vrJJo2yYRzyB9iwySz" who="i-FrizKF8qiYUeCD64QhzzFt" next="i-4Uc3TAeYRB9ebGnuZCpjFU">
           <seg xml:id="i-3uNJQtrpQ4QCZXo2XudE24">
             Herr talman! Torkel Lindahl har - mot bakgrund av den hotande
             nedläggningen av Stiftelsen Svensk skeppsforskning — frågat mig
             om jag anser det rimligt att den kollektiva skeppstekniska forskningen
             och utvecklingen avbryts.
           </seg>
-        </u>
-        <u xml:id="i-X252YHdnUbckcL7uf6oxtc" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-Dt87vrJJo2yYRzyB9iwySz" next="i-E2r8r6oiXKvTuAqipLWYxi">
           <seg xml:id="i-6twa3oZHFA9UMEtPuHeRor">
             Stiftelsen Svensk skeppsforskning ägs och finansieras av industrin
             via Sveriges redareförening och Sveriges varvsindustriförening.
             Staten har inget direkt inflytande på verksamheten.
           </seg>
-        </u>
-        <u xml:id="i-E2r8r6oiXKvTuAqipLWYxi" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-X252YHdnUbckcL7uf6oxtc" next="i-66phUbDtBP61BpZz6dftrn">
           <seg xml:id="i-UFEQqtNppw7yrpjyqy3KEr">
             Staten stöder emellertid skeppsteknisk forskning och utveckling
             bl. a. via styrelsen för teknisk utveckling (STU). STU medfinansierar
@@ -573,8 +575,6 @@
             bl. a. att inrymma sådana projekt vid stiftelsen som f. n. erhåller
             stöd från STU.
           </seg>
-        </u>
-        <u xml:id="i-66phUbDtBP61BpZz6dftrn" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-E2r8r6oiXKvTuAqipLWYxi" next="i-22gy1BchkrFcdrjiuC9Cjm">
           <seg xml:id="i-PUfz9j4UgXJptFZWJfsvUt">
             Projekt av den typ som nu genomförs vid stiftelsen kommer således
             att bedrivas även i fortsättningen men kommer att utföras vid
@@ -584,8 +584,6 @@
             för ett sådant program eller om det utgår direkt till enskilda
             projekt som medfinansieras av industrin.
           </seg>
-        </u>
-        <u xml:id="i-22gy1BchkrFcdrjiuC9Cjm" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-66phUbDtBP61BpZz6dftrn" next="i-4Uc3TAeYRB9ebGnuZCpjFU">
           <seg xml:id="i-7NbMHpMmvyhPTFhBTthqaP">
             Den aviserade nedläggningen av Stiftelsen Svensk skeppsforskning
             kommer varken att avbryta någon kollektiv forskning inom området
@@ -611,7 +609,7 @@
         <note xml:id="i-AWE9gpraRSNLLygdmhxnPX">
           Om skeppsforskningen
         </note>
-        <u xml:id="i-4Uc3TAeYRB9ebGnuZCpjFU" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-22gy1BchkrFcdrjiuC9Cjm">
+        <u xml:id="i-4Uc3TAeYRB9ebGnuZCpjFU" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-Dt87vrJJo2yYRzyB9iwySz">
           <seg xml:id="i-VSrk51A3vojt8G65dVntsU">
             utveckling. Enligt vad jag har erfarit förutsätter stiftelsen
             själv att verksamhet liknande den stiftelsen bedrivit kommer att
@@ -622,12 +620,10 @@
         <note xml:id="i-W9gVMJyFAHMYSTHyMotDsX" type="speaker">
           TORKEL LINDAHL (fp):
         </note>
-        <u xml:id="i-6sh191Ubx2hFy6E1y6XyNn" who="i-F1RwJxotHWwBitEw9rLdhZ" next="i-U9UXBzFSjeWAdHv9XFWzU6">
+        <u xml:id="i-6sh191Ubx2hFy6E1y6XyNn" who="i-F1RwJxotHWwBitEw9rLdhZ">
           <seg xml:id="i-PGva31dWgD6YnQuBr5g3fs">
             Herr talman! Jag vill tacka statsrådet för svaret på min fråga.
           </seg>
-        </u>
-        <u xml:id="i-U9UXBzFSjeWAdHv9XFWzU6" who="i-F1RwJxotHWwBitEw9rLdhZ" prev="i-6sh191Ubx2hFy6E1y6XyNn" next="i-WjcKeV25LyMZxbBKeCfVSc">
           <seg xml:id="i-3RuMGuRi4qkCsaAEEnFfgL">
             Jag kan emellertid inte hålla med statsrådet när han i slutet
             av sitt Svar säger att det inte kommer att innebära några egentliga
@@ -635,8 +631,6 @@
             menar han, att fortsätta som förut. Det enda som sker är alltså
             en liten omorganisation.
           </seg>
-        </u>
-        <u xml:id="i-WjcKeV25LyMZxbBKeCfVSc" who="i-F1RwJxotHWwBitEw9rLdhZ" prev="i-U9UXBzFSjeWAdHv9XFWzU6" next="i-6k8ybmJcJbpeprc46FHQ8T">
           <seg xml:id="i-6gLoqF1VbxsgLM9Q4R1hRo">
             Tyvärr förhåller det sig inte så. Det gäller här en forskningsinstitution—
             den enda i landet som bedriver kollektiv forskning på området.
@@ -646,8 +640,6 @@
             branschen, hade man kanske inte haft fullt så stora svårigheter
             som dem man har i dag.
           </seg>
-        </u>
-        <u xml:id="i-6k8ybmJcJbpeprc46FHQ8T" who="i-F1RwJxotHWwBitEw9rLdhZ" prev="i-WjcKeV25LyMZxbBKeCfVSc" next="i-HDYFAjcVRkSSpFJR1HfXT">
           <seg xml:id="i-X2VjtGeqFMA4E572V5YFF4">
             För de stora varven kommer nedläggningen av Stiftelsen Svensk
             skeppsforskning säkert inte att betyda så särskilt mycket. För
@@ -655,16 +647,12 @@
             resurser att utföra forskning och utveckling på egen hand. Därför
             är denna institution viktig.
           </seg>
-        </u>
-        <u xml:id="i-HDYFAjcVRkSSpFJR1HfXT" who="i-F1RwJxotHWwBitEw9rLdhZ" prev="i-6k8ybmJcJbpeprc46FHQ8T" next="i-CD16Etitj48Nc9vzHGEczq">
           <seg xml:id="i-UQMxAJVczGdfEnX76KCmsw">
             Stiftelsen Svensk skeppsforskning är vidare den organisation
             i Sverige som har de internationella kontakterna på detta område.
             Det är den här stiftelsen som samlar in vetandet i utlandet och
             sedan distribuerar ut det till intressenterna i Sverige.
           </seg>
-        </u>
-        <u xml:id="i-CD16Etitj48Nc9vzHGEczq" who="i-F1RwJxotHWwBitEw9rLdhZ" prev="i-HDYFAjcVRkSSpFJR1HfXT" next="i-KRdr5D7WCdQUpdn3GC33gf">
           <seg xml:id="i-3N738SsM6ESZpi886iMZzC">
             I Danmark lade man för några år sedan ned Stiftelsen Svensk skeppsforsknings
             systerorganisation, om man nu kan kalla den så, och resultatet
@@ -672,8 +660,6 @@
             Det har sannerligen inte varit till förmån för vare sig dansk
             shipping eller dansk varvsindustri.
           </seg>
-        </u>
-        <u xml:id="i-KRdr5D7WCdQUpdn3GC33gf" who="i-F1RwJxotHWwBitEw9rLdhZ" prev="i-CD16Etitj48Nc9vzHGEczq" next="i-HdmCmCGZXfyXPYu7RNQU6t">
           <seg xml:id="i-4GeaDVowtcZEzDm7q7ZPjN">
             Vidare har stiftelsen bl. a. det mest fullödiga biblioteket i
             landet inom detta område och står intressenterna till tjänst med
@@ -684,8 +670,6 @@
             har den genom sin konstruktion en kunskapsförmedlande funktion
             i förhållande till de intressenter som finns.
           </seg>
-        </u>
-        <u xml:id="i-HdmCmCGZXfyXPYu7RNQU6t" who="i-F1RwJxotHWwBitEw9rLdhZ" prev="i-KRdr5D7WCdQUpdn3GC33gf">
           <seg xml:id="i-QuDTCLhXrPVFFLaWmUR8E6">
             Man kan fråga sig varför det — efter vad jag hört — färdiga avtal
             som föreligger mellan staten och stiftelsen om ett branschforskningsinstitut
@@ -706,13 +690,11 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197778--129/prot_197778__129-002.jp2/_view"/>
-        <u xml:id="i-6mMSichayrmH6SPSjoTNAY" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-9p6MiGJPgEcJE1KC1girLn" next="i-6Q7VDFp5MeFMf3zooA93uV">
+        <u xml:id="i-6mMSichayrmH6SPSjoTNAY" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-9p6MiGJPgEcJE1KC1girLn">
           <seg xml:id="i-6TLep99xXpwk5erTKVKdUb">
             vi erfarit, nämligen att man också inom industrin har för avsikt
             att sköta forskningen framöver i andra former.
           </seg>
-        </u>
-        <u xml:id="i-6Q7VDFp5MeFMf3zooA93uV" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-6mMSichayrmH6SPSjoTNAY" next="i-QbVM9zf15EcXTD9sbUpR1B">
           <seg xml:id="i-EZ1kTWf2zs1BvQw4vibXwP">
             Jag kan erinra om vilka instrument som staten är utrustad med
             på detta område. Styrelsen för teknisk utveckling satsar alltså
@@ -725,8 +707,6 @@
             med hjälp av en sammanlagd statlig investering av ca 35 milj.
             kr.
           </seg>
-        </u>
-        <u xml:id="i-QbVM9zf15EcXTD9sbUpR1B" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-6Q7VDFp5MeFMf3zooA93uV">
           <seg xml:id="i-6EfUM5R3ZdeM4ypsLnDsrR">
             Detta är alltså några av de statliga insatserna på det berörda
             området. Jag tycker att man skall nämna dem i detta sammanhang,
@@ -740,7 +720,7 @@
         <note xml:id="i-Kt3Tq7iqs6KdZBr7vNJZi8" type="speaker">
           TORKEL LINDAHL (fp):
         </note>
-        <u xml:id="i-MzmyFSKhCbwEGBKK29LY51" who="i-F1RwJxotHWwBitEw9rLdhZ" next="i-XsTe6DH24EEZw85hPCByAj">
+        <u xml:id="i-MzmyFSKhCbwEGBKK29LY51" who="i-F1RwJxotHWwBitEw9rLdhZ">
           <seg xml:id="i-3Hyi35VcXJntFamcSQmAdJ">
             Herr talman! Man kan undra varför en väl fungerande organisation
             egentligen skall splittras. Jag tänker inte på något sätt förneka
@@ -749,8 +729,6 @@
             mycket specialiserad eller väl avgränsad inom ett litet område
             medan stiftelsen har ett vidare verksamhetsfält.
           </seg>
-        </u>
-        <u xml:id="i-XsTe6DH24EEZw85hPCByAj" who="i-F1RwJxotHWwBitEw9rLdhZ" prev="i-MzmyFSKhCbwEGBKK29LY51" next="i-YaWyNSSjStFFLbRNy83pCX">
           <seg xml:id="i-QjJcbP7h4RvnxW8rc1YjWN">
             Det är helt riktigt att statens stöd till denna verksamhet inte
             kommer att minska i pengar räknat, men om ett stort varv får i
@@ -758,8 +736,6 @@
             andra i branschen,t. ex. för småvarven, att få del av resultatet.
             Det är sådana aspekter vi måste studera.
           </seg>
-        </u>
-        <u xml:id="i-YaWyNSSjStFFLbRNy83pCX" who="i-F1RwJxotHWwBitEw9rLdhZ" prev="i-XsTe6DH24EEZw85hPCByAj">
           <seg xml:id="i-FEu3hLMED5CXEsrCnZUgLs">
             Vidare är det enligt min mening helt självklart att man, med
             tanke på de stora pengar som riksdag och regering är beredda att
@@ -812,12 +788,10 @@
         <note xml:id="i-3h287J4ckSfh4YAaAFDGdt">
           46
         </note>
-        <u xml:id="i-Hd5itHmMQsF415wmJxEWMc" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-UbzYNsDa9vpDUfvTvo28H4" next="i-7CTk1xQxcSp2XvJqjySAaM">
+        <u xml:id="i-Hd5itHmMQsF415wmJxEWMc" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-UbzYNsDa9vpDUfvTvo28H4">
           <seg xml:id="i-PjxzABngYqshkSXayYRoWY">
             ytterligare 250 miljoner att satsa just på alternativ produktion.
           </seg>
-        </u>
-        <u xml:id="i-7CTk1xQxcSp2XvJqjySAaM" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-Hd5itHmMQsF415wmJxEWMc">
           <seg xml:id="i-WPW3HvWubkyMYkeuSRdYPd">
             Sedan håller jag med om att blir konsekvensen av nedläggningen
             av Stiftelsen Svensk skeppsforskning att småvarven utestängs från
@@ -828,13 +802,11 @@
         <note xml:id="i-4Y9shehXa6dw1RsKviKDeU" type="speaker">
           TORKEL LINDAHL (fp):
         </note>
-        <u xml:id="i-7nyE1xWi4kPvNYZyy8iha9" who="i-F1RwJxotHWwBitEw9rLdhZ" next="i-JvuM3nu7ZdZSxMrSh1ijeZ">
+        <u xml:id="i-7nyE1xWi4kPvNYZyy8iha9" who="i-F1RwJxotHWwBitEw9rLdhZ">
           <seg xml:id="i-Sm3oBBJosKsFVDa9jdRV38">
             Herr talman! Jag vill tacka Olof Johansson för det sista han
             sade. Det tyder på en öppen inställning till frågan.
           </seg>
-        </u>
-        <u xml:id="i-JvuM3nu7ZdZSxMrSh1ijeZ" who="i-F1RwJxotHWwBitEw9rLdhZ" prev="i-7nyE1xWi4kPvNYZyy8iha9">
           <seg xml:id="i-KvHrhLTU8y3MWgYjzDjq2f">
             Vidare vill jag påpeka att det är en annan part, som vi knappast
             har berört här och som också egentligen är en intressent, och
@@ -858,14 +830,12 @@
         <note xml:id="i-Resseew1ohBoA1mWeZwfJx">
           408, och anförde:
         </note>
-        <u xml:id="i-G9igGzVzPYCY15CL8TsFBn" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" next="i-PZywSS3DMxjZ3ueBmsESuF">
+        <u xml:id="i-G9igGzVzPYCY15CL8TsFBn" who="i-Y2s3vw3xfBnmDmMhCYX6QJ">
           <seg xml:id="i-Qkw4op76AwWxf7zKqETdqv">
             Herr talman! Inga Lantz har frågat om jag ämnar vidta åtgärder
             för att även sammanboende som inte är biologisk förälder till
             sammanlevande barn får rätt till föräldrapenning.
           </seg>
-        </u>
-        <u xml:id="i-PZywSS3DMxjZ3ueBmsESuF" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-G9igGzVzPYCY15CL8TsFBn" next="i-3SCLQ1Q8dwvrjLNgsukJ1r">
           <seg xml:id="i-KykqRveRtH4SiJaXUXUXYH">
             Den fråga Inga Lantz här tar upp har tidigare behandlats av riksdagen
             i anledning av motion 1976/77:1570. Socialförsäkringsutskottet
@@ -875,8 +845,6 @@
             Utskottet ansåg därför att motionen borde överlämnas till denna
             utredning för beaktande. Detta blev också riksdagens beslut.
           </seg>
-        </u>
-        <u xml:id="i-3SCLQ1Q8dwvrjLNgsukJ1r" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-PZywSS3DMxjZ3ueBmsESuF">
           <seg xml:id="i-S9KhY5WynzFjJFGXJpiJtC">
             Familjestödsutredningen kommer inom kort att redovisa sitt betänkande
             om föräldraförsäkringen. Enligt vad jag har inhämtat kommer frågan
@@ -889,12 +857,10 @@
         <note xml:id="i-ViacnhJCiXfw1Nr8kAq3f2" type="speaker">
           INGA LANTZ (vpk).
         </note>
-        <u xml:id="i-9eG6dQDXd2otYy5soBtkRV" who="i-VtWQs1mfimPMyjw5HVXR4i" next="i-26LJ8YfV6gLmLYEeZVAdYQ">
+        <u xml:id="i-9eG6dQDXd2otYy5soBtkRV" who="i-VtWQs1mfimPMyjw5HVXR4i" next="i-3EwBiDEnmLavusnupRowz1">
           <seg xml:id="i-4yxgkLBoh1xa1T1E5x6UEP">
             Herr talman! Först ber jag att få tacka socialministern för svaret.
           </seg>
-        </u>
-        <u xml:id="i-26LJ8YfV6gLmLYEeZVAdYQ" who="i-VtWQs1mfimPMyjw5HVXR4i" prev="i-9eG6dQDXd2otYy5soBtkRV" next="i-3EwBiDEnmLavusnupRowz1">
           <seg xml:id="i-SZit8avMZcR5u7vX1qEMn9">
             Föräldrapenning utgår för tillfällig vård av barn när en förälder
             måste stanna hemma från arbetet, exempelvis i samband med att
@@ -906,14 +872,12 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197778--129/prot_197778__129-004.jp2/_view"/>
-        <u xml:id="i-3EwBiDEnmLavusnupRowz1" who="i-VtWQs1mfimPMyjw5HVXR4i" prev="i-26LJ8YfV6gLmLYEeZVAdYQ" next="i-9hYacrS5xXLxmQXSWxzuzM">
+        <u xml:id="i-3EwBiDEnmLavusnupRowz1" who="i-VtWQs1mfimPMyjw5HVXR4i" prev="i-9eG6dQDXd2otYy5soBtkRV">
           <seg xml:id="i-R3WzsgTmZr9QyLR2BXdrGX">
             barn, har bara den biologiska föräldern rätt till föräldrapenning,
             liksom den biologiska fadern eller modern som barnet inte sammanlever
             med. Den andra sammanboende har alltså inte rätt till föräldrapenning.
           </seg>
-        </u>
-        <u xml:id="i-9hYacrS5xXLxmQXSWxzuzM" who="i-VtWQs1mfimPMyjw5HVXR4i" prev="i-3EwBiDEnmLavusnupRowz1" next="i-VCB1H2WrHAEELYSiezQAxd">
           <seg xml:id="i-17CzoMAVTvcxSxdLNX219b">
             Jag menar att lagen inte tar hänsyn till en faktisk familjesituation.
             En lag måste ju fungera. Denna lag är till för barnens skull,
@@ -921,8 +885,6 @@
             en faktisk familjesituation. Annars är det barnen som kommer i
             kläm. Och det gör de i många fall.
           </seg>
-        </u>
-        <u xml:id="i-VCB1H2WrHAEELYSiezQAxd" who="i-VtWQs1mfimPMyjw5HVXR4i" prev="i-9hYacrS5xXLxmQXSWxzuzM" next="i-6o7hdQRCpjpGUxEQNd63cQ">
           <seg xml:id="i-PS1Y8EAJaxEHvrSdotvuzn">
             Det är ganska vanligt nu för tiden att människor sammanbor och
             att man har ett eller flera icke gemensamma barn i ett sådant
@@ -930,8 +892,6 @@
             familj, där bägge föräldrarna då för barnens skull givetvis borde
             ha samma möjligheter att använda föräldraförsäkringen.
           </seg>
-        </u>
-        <u xml:id="i-6o7hdQRCpjpGUxEQNd63cQ" who="i-VtWQs1mfimPMyjw5HVXR4i" prev="i-VCB1H2WrHAEELYSiezQAxd" next="i-9fC9RxdLQRTVXZgADMAJH">
           <seg xml:id="i-JZVee3Se29YDxd1CmV43es">
             Jag har ett exempel där man hade bott tillsammans i tre år. Den
             biologiska föräldern var lärare och den icke-biologiska föräldern
@@ -943,8 +903,6 @@
             fungerade inte tillfredsställande. Han fick alltså ingen ersättning
             för förlorad arbetsförtjänst. Detta är ett uppenbart missförhållande.
           </seg>
-        </u>
-        <u xml:id="i-9fC9RxdLQRTVXZgADMAJH" who="i-VtWQs1mfimPMyjw5HVXR4i" prev="i-6o7hdQRCpjpGUxEQNd63cQ" next="i-qEEt3FLaBrrBzikbYoB5q">
           <seg xml:id="i-JCLF5D9Va6x5fUmPLz7VGc">
             Jag var själv tidigare ovetande om hur lagen fungerade i detta
             avseende. Jag trodde att hänsyn skulle kunna tas till en faktisk
@@ -953,8 +911,6 @@
             kopplas till barnets behov av hjälp, oavsett förhållandena i övrigt.
             Detta problem borde det gå att lösa juridiskt.
           </seg>
-        </u>
-        <u xml:id="i-qEEt3FLaBrrBzikbYoB5q" who="i-VtWQs1mfimPMyjw5HVXR4i" prev="i-9fC9RxdLQRTVXZgADMAJH">
           <seg xml:id="i-3HwGPZDLh5iqv2HQHqZR2d">
             I det svar jag har fått säger socialministern att han inte vill
             medverka till en positiv lösning av frågan. Han vill alltså inte
@@ -969,7 +925,7 @@
         <note xml:id="i-X8UFXFat7w6Ss9JWwiLXJG" type="speaker">
           Socialministern RUNE GUSTAVSSON:
         </note>
-        <u xml:id="i-Uxs1fyp1cheSbzMaRtQsjL" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" next="i-7rpY3nvBYkHqoSomoLEjQ4">
+        <u xml:id="i-Uxs1fyp1cheSbzMaRtQsjL" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" next="i-Hm4mxeFvoFFRZ5yk7hRybo">
           <seg xml:id="i-4bAkJNgJEqFw7tRTttM231">
             Herr talman! Först ber jag att Inga Lantz än en gång läser mitt
             svar — jag har nämligen inte sagt att jag inte vill medverka till
@@ -978,8 +934,6 @@
             riksdagens beslut är under utredning och vi väntar på det förslaget.
             Jag följer därvid den praxis som tillämpas i regerings- och riksdagsarbetet.
           </seg>
-        </u>
-        <u xml:id="i-7rpY3nvBYkHqoSomoLEjQ4" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-Uxs1fyp1cheSbzMaRtQsjL" next="i-Hm4mxeFvoFFRZ5yk7hRybo">
           <seg xml:id="i-4YHT28a8eEvN3Aaewynvn7">
             Den fråga som Inga Lantz här tar upp är nog inte så enkel som
             Inga Lantz tycks tro, eftersom den inrymmer flera kopplingar till
@@ -1015,13 +969,11 @@
         <note xml:id="i-W62gxNkxvkCj5NVNQMBd8o">
           48
         </note>
-        <u xml:id="i-Hm4mxeFvoFFRZ5yk7hRybo" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-7rpY3nvBYkHqoSomoLEjQ4" next="i-Nx6ymfnfg6kNpFEKNz56tg">
+        <u xml:id="i-Hm4mxeFvoFFRZ5yk7hRybo" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-Uxs1fyp1cheSbzMaRtQsjL">
           <seg xml:id="i-Keb4czvr381FxKCW3rbWum">
             föräldrabegreppet inom ett specialområde men inte i övrigt skulle
             kunna ge för den enskilde förvirrande resultat.
           </seg>
-        </u>
-        <u xml:id="i-Nx6ymfnfg6kNpFEKNz56tg" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-Hm4mxeFvoFFRZ5yk7hRybo" next="i-5wBRwPjuhgV21L7o9eU8tV">
           <seg xml:id="i-HBH394JiS2NoCFJDWEYQMt">
             En annan svår fråga är hur man skall avgränsa utvidgningen. Finns
             det i så fall skäl att låta även andra personer som bor tillsammans
@@ -1029,8 +981,6 @@
             när barnet är sjukt? Det finns således flera frågor att diskutera
             innan vi kommer fram till ett resultat.
           </seg>
-        </u>
-        <u xml:id="i-5wBRwPjuhgV21L7o9eU8tV" who="i-Y2s3vw3xfBnmDmMhCYX6QJ" prev="i-Nx6ymfnfg6kNpFEKNz56tg">
           <seg xml:id="i-Xo2h4dyAPwbN58a775gxNn">
             Nu vill tydligen Inga Lantz att jag skall ta ställning till dessa
             frågor utan att ha ett ordentligt beslutsunderlag. Det tycker
@@ -1046,13 +996,11 @@
         <note xml:id="i-GM1X9GZp22FTZDdq1zP8KA" type="speaker">
           INGA LANTZ (vpk):
         </note>
-        <u xml:id="i-VRyopmU2dfT6Pey36rGMCR" who="i-VtWQs1mfimPMyjw5HVXR4i" next="i-SmwphLAvmAfHfFbo61FMfQ">
+        <u xml:id="i-VRyopmU2dfT6Pey36rGMCR" who="i-VtWQs1mfimPMyjw5HVXR4i">
           <seg xml:id="i-Qj7NVnLwDDxBHQrY1eb1Ae">
             Herr talman! Det står allra sist i svaret: ”-—— är jag inte beredd
             att vidta några åtgärder i denna fråga.”
           </seg>
-        </u>
-        <u xml:id="i-SmwphLAvmAfHfFbo61FMfQ" who="i-VtWQs1mfimPMyjw5HVXR4i" prev="i-VRyopmU2dfT6Pey36rGMCR" next="i-Tbx5oPH4a8g8MV8iKkuGmY">
           <seg xml:id="i-RWLHhaGqpP6aK1Wot1SbAM">
             Det är riktigt att föräldraförsäkringen fungerar för barnens
             skull. Om Rune Gustavsson nu är överens med mig om att det nuvarande
@@ -1060,8 +1008,6 @@
             av att han inser felet i lagen genom att aktivt medverka till
             en ändring med det snaraste.
           </seg>
-        </u>
-        <u xml:id="i-Tbx5oPH4a8g8MV8iKkuGmY" who="i-VtWQs1mfimPMyjw5HVXR4i" prev="i-SmwphLAvmAfHfFbo61FMfQ" next="i-Vc2DYkwpjpHu1d7H7kSLZQ">
           <seg xml:id="i-WNRjL8vtgTCidS7UbZomWZ">
             Sedan är det riktigt att det också finns andra brister i lagen,
             som man behöver se över, och det är bra att detta görs. Det är
@@ -1073,8 +1019,6 @@
             när han är sjuk. Åldersgränsen bör höjas till 14 år, som vpk har
             föreslagit.
           </seg>
-        </u>
-        <u xml:id="i-Vc2DYkwpjpHu1d7H7kSLZQ" who="i-VtWQs1mfimPMyjw5HVXR4i" prev="i-Tbx5oPH4a8g8MV8iKkuGmY" next="i-UncrNjgnfPiUnrFabZ94bo">
           <seg xml:id="i-97KB4Svh6hkmCMai7dz9en">
             Inom vpk menar vi att inte ekonomiska skäl skall vara avgörande
             för förälder när det gäller att ge barnen den omvårdnad de behöver.
@@ -1083,8 +1027,6 @@
             sak att förhindra detta, bl. a. genom att utforma föräldraförsäkringen
             så att den fungerar för barnen.
           </seg>
-        </u>
-        <u xml:id="i-UncrNjgnfPiUnrFabZ94bo" who="i-VtWQs1mfimPMyjw5HVXR4i" prev="i-Vc2DYkwpjpHu1d7H7kSLZQ">
           <seg xml:id="i-2t2H2yGycqUqeAuiRtHDvX">
             Jag konstaterar att Rune Gustavsson inte är mottaglig för de
             här mycket klara och enkla argumenten för att lagen inte fungerar
@@ -1151,21 +1093,17 @@
         <note xml:id="i-T5sXC3yG1TQLUMie6KkFpy">
           404, och anförde:
         </note>
-        <u xml:id="i-BLkMTwdWE9y39G45JDNMUq" who="i-HdmXapeTq3DFBQub8j1ccm" next="i-Cb6jZPDc2ze5q7uTz4R4VU">
+        <u xml:id="i-BLkMTwdWE9y39G45JDNMUq" who="i-HdmXapeTq3DFBQub8j1ccm">
           <seg xml:id="i-S8Gv8Qdiq5esJcN78BfApr">
             Herr talman! Marianne Stålberg har frågat mig om orsakerna till
             fördröjningen i genomförandet av 1976 års beslut om lokalisering
             till Östersund av arméns tekniska skola och försvarets förvaltningsskola.
           </seg>
-        </u>
-        <u xml:id="i-Cb6jZPDc2ze5q7uTz4R4VU" who="i-HdmXapeTq3DFBQub8j1ccm" prev="i-BLkMTwdWE9y39G45JDNMUq" next="i-Cru3ZnGiLsKKfAc4vNX1jn">
           <seg xml:id="i-CXvPzVzpxnAH644AEbe9Pd">
             Jag vill först erinra om att skolorna enligt riksdagsbeslutet
             bedömdes kunna flytta till Östersund år 1981 och vara helt inrättade
             år 1982.
           </seg>
-        </u>
-        <u xml:id="i-Cru3ZnGiLsKKfAc4vNX1jn" who="i-HdmXapeTq3DFBQub8j1ccm" prev="i-Cb6jZPDc2ze5q7uTz4R4VU">
           <seg xml:id="i-4rHNTU6SJwNKaWV1QC6BxE">
             Detaljutformningen av den nya befälsordningen som riksdagen nyligen
             har fattat beslut om kommer att påverka utbildningsbehoven m.
@@ -1182,13 +1120,11 @@
         <note xml:id="i-5LXEgF5T8k9qfWmcb9k7fD" type="speaker">
           MARIANNE STÅLBERG (s):
         </note>
-        <u xml:id="i-Xwhix2Xdo6cJ8G3DrEGBnu" who="i-Xt8b1sdN9ngjPgtxjLqvKu" next="i-EybXm3cEZE3gHzwxUGQffQ">
+        <u xml:id="i-Xwhix2Xdo6cJ8G3DrEGBnu" who="i-Xt8b1sdN9ngjPgtxjLqvKu" next="i-C3yWD111p8bkWWeJTLYrzB">
           <seg xml:id="i-Uok5HjLuNu68rZY65ofG8U">
             Herr talman! Jag vill först tacka försvarsministern för svaret
             på min fråga.
           </seg>
-        </u>
-        <u xml:id="i-EybXm3cEZE3gHzwxUGQffQ" who="i-Xt8b1sdN9ngjPgtxjLqvKu" prev="i-Xwhix2Xdo6cJ8G3DrEGBnu" next="i-C3yWD111p8bkWWeJTLYrzB">
           <seg xml:id="i-SccXQ34bqY4S9EWcYKsY2F">
             För precis ett år sedan ställde jag också en fråga till försvarsministern
             i ungefär samma angelägenhet. Då gick rykten om att ATS skulle
@@ -1228,7 +1164,7 @@
         <note xml:id="i-xCHGqxtYaGBZwPaj7M7kF">
           50
         </note>
-        <u xml:id="i-C3yWD111p8bkWWeJTLYrzB" who="i-Xt8b1sdN9ngjPgtxjLqvKu" prev="i-EybXm3cEZE3gHzwxUGQffQ" next="i-JoWGJeJu7QGbHSVQUkFYZF">
+        <u xml:id="i-C3yWD111p8bkWWeJTLYrzB" who="i-Xt8b1sdN9ngjPgtxjLqvKu" prev="i-Xwhix2Xdo6cJ8G3DrEGBnu">
           <seg xml:id="i-9hsQnFPP9NhidJ8rbZNkRS">
             var aktuellt med någon ändring av tidigare fattat beslut, förutom
             att radaroch luftmekanikerskolan, som riksdagen senare också fattat
@@ -1236,8 +1172,6 @@
             gjort att tidigare fattat lokaliseringsbeslut uttunnats för Östersunds
             del.
           </seg>
-        </u>
-        <u xml:id="i-JoWGJeJu7QGbHSVQUkFYZF" who="i-Xt8b1sdN9ngjPgtxjLqvKu" prev="i-C3yWD111p8bkWWeJTLYrzB" next="i-8fX4gHGi4dtvCupN9Qg29h">
           <seg xml:id="i-Sef4yGNWQjA13stEbgWin4">
             Som jag i fjol konstaterade vid frågedebatten beslöt riksdagen
             redan 1971: samband med omlokaliseringen av statlig verksamhet
@@ -1246,8 +1180,6 @@
             Den 25 maj 1976 beslöts att dessa skolor skulle inrättas och förläggas
             till Östersund.
           </seg>
-        </u>
-        <u xml:id="i-8fX4gHGi4dtvCupN9Qg29h" who="i-Xt8b1sdN9ngjPgtxjLqvKu" prev="i-JoWGJeJu7QGbHSVQUkFYZF" next="i-K3usze7Fv5KQTceinvTZ5f">
           <seg xml:id="i-PXfecgvxUfmJoQTosnwBZf">
             Det är väl känt att Östersund har en mycket besvärlig bostadssituation,
             inte minst beroende på att regeringen fattat beslut om att Östersund
@@ -1257,8 +1189,6 @@
             att få ett klart besked om när skolorna skall stå klara. Kommunen
             måste få veta vad den har att rätta sig efter.
           </seg>
-        </u>
-        <u xml:id="i-K3usze7Fv5KQTceinvTZ5f" who="i-Xt8b1sdN9ngjPgtxjLqvKu" prev="i-8fX4gHGi4dtvCupN9Qg29h" next="i-LcaGjQH6VgmPBR6gvspa3s">
           <seg xml:id="i-TbZXiHm5n4xt5k5eBCiUdM">
             Kommunen har planerat för ett elevhotell på ett centralt beläget
             område med gångavstånd till de tänkta skolorna men kan i rådande
@@ -1267,16 +1197,12 @@
             säga mycket stora, att det blir en kraftig ökning av arbetslösheten
             inom byggnadsarbetarkåren i Östersund och Jämtland.
           </seg>
-        </u>
-        <u xml:id="i-LcaGjQH6VgmPBR6gvspa3s" who="i-Xt8b1sdN9ngjPgtxjLqvKu" prev="i-K3usze7Fv5KQTceinvTZ5f" next="i-9EGNGm1Ln7Z8y939TdXP4h">
           <seg xml:id="i-12xzsfPGbxZTrTCmBq68eb">
             Vi kan inte acceptera denna osedvanligt långa tid för genomförandet
             av ett enhälligt riksdagsbeslut. Vi kräver att regeringen bekräftar
             sin avsikt att stå fast vid tidigare fattat beslut. Kommunen och
             Jämtlands län måste få besked.
           </seg>
-        </u>
-        <u xml:id="i-9EGNGm1Ln7Z8y939TdXP4h" who="i-Xt8b1sdN9ngjPgtxjLqvKu" prev="i-LcaGjQH6VgmPBR6gvspa3s">
           <seg xml:id="i-AaVGbxjJvQgdqRPd5EPoBZ">
             Betyder svaret att det blir en minskning av antalet elever jämfört
             med vad som var planerat enligt tidigare fattat beslut?
@@ -1285,7 +1211,7 @@
         <note xml:id="i-ARCXqsvCk1oLFVX3dqjgqo" type="speaker">
           Försvarsministern ERIC KRÖNMARK:
         </note>
-        <u xml:id="i-HTpJ9qMrv6okFxC5qdiajv" who="i-HdmXapeTq3DFBQub8j1ccm" next="i-NEm6W8HSzAffvjEqZ4UPDR">
+        <u xml:id="i-HTpJ9qMrv6okFxC5qdiajv" who="i-HdmXapeTq3DFBQub8j1ccm" next="i-REVGFmG7xY78GMgLeSQojU">
           <seg xml:id="i-4RPirKf3ZniutMN9CtBGcY">
             Herr talman! Jag förstår i och för sig att Marianne Stålberg
             som representant för Östersund finner det mindre bra att genomförandet
@@ -1300,8 +1226,6 @@
             om att ATS skall förläggas till Östersund givetvis står fast.
             Riksdagen har redan beslutat det, och beslutet kommer att genomföras.
           </seg>
-        </u>
-        <u xml:id="i-NEm6W8HSzAffvjEqZ4UPDR" who="i-HdmXapeTq3DFBQub8j1ccm" prev="i-HTpJ9qMrv6okFxC5qdiajv" next="i-REVGFmG7xY78GMgLeSQojU">
           <seg xml:id="i-8jw9kcWbXZCdWSEA3SsL8f">
             På frågan om det blir färre arbetstillfällen som en följd av
             de utredningar som nu pågår kan jag inte svara något bestämt.
@@ -1313,7 +1237,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197778--129/prot_197778__129-008.jp2/_view"/>
-        <u xml:id="i-REVGFmG7xY78GMgLeSQojU" who="i-HdmXapeTq3DFBQub8j1ccm" prev="i-NEm6W8HSzAffvjEqZ4UPDR">
+        <u xml:id="i-REVGFmG7xY78GMgLeSQojU" who="i-HdmXapeTq3DFBQub8j1ccm" prev="i-HTpJ9qMrv6okFxC5qdiajv">
           <seg xml:id="i-Xv6JVoMfvKSxUnZChxEbVC">
             betraktar emellertid inte det här som att det skulle innebära
             någon krympning alls av den faktiska verksamheten i Östersund.
@@ -1336,14 +1260,12 @@
         <note xml:id="i-kXtRg9u6vtjyHg5yE5Cmk">
           405, och anförde:
         </note>
-        <u xml:id="i-SRxTwo37y38ACjwewhzF6s" who="i-HdmXapeTq3DFBQub8j1ccm" next="i-WtQn9VHGMfu9mEUNeyRPdd">
+        <u xml:id="i-SRxTwo37y38ACjwewhzF6s" who="i-HdmXapeTq3DFBQub8j1ccm" next="i-J35cuPAksPsaGfAPLSLZav">
           <seg xml:id="i-VrgafCDTWdaAjRhmAiK38Z">
             Herr talman! Gudrun Sundström har bett mig lämna besked om hur
             långt arbetet med att belysa de olika aspekterna på civilmotstånd
             har hunnit.
           </seg>
-        </u>
-        <u xml:id="i-WtQn9VHGMfu9mEUNeyRPdd" who="i-HdmXapeTq3DFBQub8j1ccm" prev="i-SRxTwo37y38ACjwewhzF6s" next="i-NFHSGWDE9Vp8AV7w8GELPh">
           <seg xml:id="i-SLC3j7kkUU9EnfvDoZpnFt">
             Frågan om s. k. civilmotstånd har uppmärksammats av såväl 1970
             års som 1974 års försvarsutredning. Den senare angav som en klar
@@ -1356,16 +1278,12 @@
             utredningar bör göras, men att det torde vara nödvändigt att först
             klarlägga folkrättsliga m. fl. problem för icke-militära motståndsformer.
           </seg>
-        </u>
-        <u xml:id="i-NFHSGWDE9Vp8AV7w8GELPh" who="i-HdmXapeTq3DFBQub8j1ccm" prev="i-WtQn9VHGMfu9mEUNeyRPdd" next="i-2pUgh6XCH9EoGi63PzsRFe">
           <seg xml:id="i-FYVpC3wowZWbqJoBVRGiS2">
             I propositionen 1976/77:74 om inriktningen av säkerhetspolitiken
             och totalförsvarets fortsatta utveckling underströk jag i likhet
             med utredningen att en klar slutsats är att civilmotstånd inte
             kan utgöra något alternativ till militärt försvar.
           </seg>
-        </u>
-        <u xml:id="i-2pUgh6XCH9EoGi63PzsRFe" who="i-HdmXapeTq3DFBQub8j1ccm" prev="i-NFHSGWDE9Vp8AV7w8GELPh" next="i-9jXjA3vai3NMcZ8ULkk455">
           <seg xml:id="i-GKyi5BSudYpfkLFXNK77gJ">
             Vid behandlingen av den nämnda propositionen tog försvarsutskottet
             bl. a. med anledning av en motion även upp frågan om civilmotstånd.
@@ -1377,8 +1295,6 @@
             att resultaten av ett utlagt uppdrag till den engelske forskaren
             Adam Roberts borde avvaktas.
           </seg>
-        </u>
-        <u xml:id="i-9jXjA3vai3NMcZ8ULkk455" who="i-HdmXapeTq3DFBQub8j1ccm" prev="i-2pUgh6XCH9EoGi63PzsRFe" next="i-9UZfmMiH62oNyaTB7XDLnb">
           <seg xml:id="i-QDU8mymDFYktpfFdvXCcf3">
             Adam Roberts har på svenskt uppdrag utarbetat skrifterna Totalförsvar
             och civilmotstånd samt Civilmotståndets teknik. Dessa har publicerats
@@ -1388,8 +1304,6 @@
             med gällande folkrätt. Jag räknar med att Roberts skall redovisa
             sitt arbete i år.
           </seg>
-        </u>
-        <u xml:id="i-9UZfmMiH62oNyaTB7XDLnb" who="i-HdmXapeTq3DFBQub8j1ccm" prev="i-9jXjA3vai3NMcZ8ULkk455" next="i-J35cuPAksPsaGfAPLSLZav">
           <seg xml:id="i-ncqeXKxvVRDuuquvUdGaF">
             Jag vill också något beröra den senaste tidens utveckling beträffande
             folkrättens regler i krig och ockupation. Våren 1977 avslutades
@@ -1407,12 +1321,10 @@
         <note xml:id="i-Kq9TSxtavcRjFyAzWTtatT">
           Om arbetet med
         </note>
-        <u xml:id="i-J35cuPAksPsaGfAPLSLZav" who="i-HdmXapeTq3DFBQub8j1ccm" prev="i-9UZfmMiH62oNyaTB7XDLnb" next="i-C1HoBW4tJ7AYrcEtqjw38d">
+        <u xml:id="i-J35cuPAksPsaGfAPLSLZav" who="i-HdmXapeTq3DFBQub8j1ccm" prev="i-SRxTwo37y38ACjwewhzF6s" next="i-MCTikE2dhScU3xxkghhdqu">
           <seg xml:id="i-2yg7kM4zGwHdwjmvBZCcdc">
             att belysa olika
           </seg>
-        </u>
-        <u xml:id="i-C1HoBW4tJ7AYrcEtqjw38d" who="i-HdmXapeTq3DFBQub8j1ccm" prev="i-J35cuPAksPsaGfAPLSLZav" next="i-MCTikE2dhScU3xxkghhdqu">
           <seg xml:id="i-U2fbteS38zMgr846VUJZ54">
             aspekter på civilmotstånd
           </seg>
@@ -1436,7 +1348,7 @@
         <note xml:id="i-3oumSFbvx6yCYqEiuDnWGy">
           offer.
         </note>
-        <u xml:id="i-MCTikE2dhScU3xxkghhdqu" who="i-HdmXapeTq3DFBQub8j1ccm" prev="i-C1HoBW4tJ7AYrcEtqjw38d" next="i-Wtdr2wALAst3AFgckSKZmt">
+        <u xml:id="i-MCTikE2dhScU3xxkghhdqu" who="i-HdmXapeTq3DFBQub8j1ccm" prev="i-J35cuPAksPsaGfAPLSLZav">
           <seg xml:id="i-LcAuAKXq8PTncenKXdr4r6">
             Under förhandlingarna har bl. a. förhållandena i samband med
             ockupation varit föremål för ingående debatt. Främsta intresset
@@ -1451,8 +1363,6 @@
             för något intresse, och några nya regler med anknytning till civilmotstånd
             har därför inte tillkommit. |
           </seg>
-        </u>
-        <u xml:id="i-Wtdr2wALAst3AFgckSKZmt" who="i-HdmXapeTq3DFBQub8j1ccm" prev="i-MCTikE2dhScU3xxkghhdqu">
           <seg xml:id="i-RrD5uzp8SYadGPRo364gco">
             Enligt min mening finns inte förutsättningar för ett utredningsarbete
             om inriktning av och förberedelser för ett svenskt civilmotstånd.
@@ -1461,15 +1371,13 @@
         <note xml:id="i-DNNx9t1fQC7Ni1AxVcgz7U" type="speaker">
           GUDRUN SUNDSTRÖM (s):
         </note>
-        <u xml:id="i-Bam9ujt498vFcuu6dCzNH8" who="i-V1TeofrvsayeB1A8AwjNWW" next="i-SxCsfMK8d2j6cXY28WsNkk">
+        <u xml:id="i-Bam9ujt498vFcuu6dCzNH8" who="i-V1TeofrvsayeB1A8AwjNWW" next="i-EDFVupFdXKwkPLVvyf5C6u">
           <seg xml:id="i-ERf47EEEE8n6RvfFkuckGd">
             Herr talman! Det är inte så ofta jag ger beröm till den borgerliga
             regeringens ledamöter, men jag vill gärna ge försvarsministern
             en eloge för att han kostat på sig så många ord för att besvara
             min fråga, även om det var en negativ slutsats han drog i svaret.
           </seg>
-        </u>
-        <u xml:id="i-SxCsfMK8d2j6cXY28WsNkk" who="i-V1TeofrvsayeB1A8AwjNWW" prev="i-Bam9ujt498vFcuu6dCzNH8" next="i-NXGU7SxWzCTGoAugQDJ3co">
           <seg xml:id="i-MFqXhDB8fmKqBxGerB3pk4">
             När jag tog del av de direktiv som den nya försvarskommittén
             fick läste jag dem med mycket stort intresse. Jag fick också en
@@ -1477,8 +1385,6 @@
             arbetet. I det utdrag ur direktiven som finns i försvarsutskottets
             betänkande nr 19, som vi skall behandla i morgon, anförs:
           </seg>
-        </u>
-        <u xml:id="i-NXGU7SxWzCTGoAugQDJ3co" who="i-V1TeofrvsayeB1A8AwjNWW" prev="i-SxCsfMK8d2j6cXY28WsNkk" next="i-QHT9nRdTiCQAXj1QFQMPHg">
           <seg xml:id="i-FU5NJiy32EHpXUPYUfvgMp">
             "I samband med 1977 års försvarsbeslut underströks att totalförsvaret
             bör vara så uppbyggt att det är en hela folkets angelägenhet.
@@ -1486,8 +1392,6 @@
             till landets försvar. Denna grund för totalförsvarets uppbyggnad
             bör gälla som utgångspunkt för kommitténs överväganden.”
           </seg>
-        </u>
-        <u xml:id="i-QHT9nRdTiCQAXj1QFQMPHg" who="i-V1TeofrvsayeB1A8AwjNWW" prev="i-NXGU7SxWzCTGoAugQDJ3co" next="i-FuFsAQ3DbgajeasxT7q1Wy">
           <seg xml:id="i-Ho3Zh4RvGtpFSuZUozX7QR">
             För oss som är intresserade av att få till stånd en fördjupad
             och mer allsidig diskussion om vårt försvar kan ordalydelsen i
@@ -1503,8 +1407,6 @@
             andra länder som väckt detta intresse att medverka till att stärka
             försvarsviljan på fredlig väg.
           </seg>
-        </u>
-        <u xml:id="i-FuFsAQ3DbgajeasxT7q1Wy" who="i-V1TeofrvsayeB1A8AwjNWW" prev="i-QHT9nRdTiCQAXj1QFQMPHg" next="i-EDFVupFdXKwkPLVvyf5C6u">
           <seg xml:id="i-B3eK4iAnuKbnrYYMogLKd8">
             Civilmotstånd kan inte ersätta det militära försvaret — det förstår
             vi. Men det är viktigt att få fram ett komplement till det militära
@@ -1514,7 +1416,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197778--129/prot_197778__129-010.jp2/_view"/>
-        <u xml:id="i-EDFVupFdXKwkPLVvyf5C6u" who="i-V1TeofrvsayeB1A8AwjNWW" prev="i-FuFsAQ3DbgajeasxT7q1Wy">
+        <u xml:id="i-EDFVupFdXKwkPLVvyf5C6u" who="i-V1TeofrvsayeB1A8AwjNWW" prev="i-Bam9ujt498vFcuu6dCzNH8">
           <seg xml:id="i-SH5rqfGjHUpiteSRBnY4NX">
             bedriva civilmotstånd eller när det gäller att hitta nya fredliga
             vägar att försvara det här landet.
@@ -1523,7 +1425,7 @@
         <note xml:id="i-2iyGzD6L1vnrAF2WpjTcaj" type="speaker">
           Försvarsministern ERIC KRÖNMARK:
         </note>
-        <u xml:id="i-885a3pX7XmPJLTMQbSETAG" who="i-HdmXapeTq3DFBQub8j1ccm" next="i-9QEa5WsvcPMaD9KULZ1qJp">
+        <u xml:id="i-885a3pX7XmPJLTMQbSETAG" who="i-HdmXapeTq3DFBQub8j1ccm">
           <seg xml:id="i-JaNv2xm5PoxzHDJ2mrEYr9">
             Herr talman! Jag vill bara säga att jag aldrig uteslutit civilmotståndet
             som försvarsform. Fru Sundström och jag tycks vara helt överens
@@ -1531,8 +1433,6 @@
             men det kan, likhet med vad tidigare utredare sagt, vara ett utomordentligt
             värdefullt komplement.
           </seg>
-        </u>
-        <u xml:id="i-9QEa5WsvcPMaD9KULZ1qJp" who="i-HdmXapeTq3DFBQub8j1ccm" prev="i-885a3pX7XmPJLTMQbSETAG" next="i-KgD7yR7jUxu91FED1F6HB2">
           <seg xml:id="i-WK8Lu4biE8kKMUxTUPotn3">
             I avvaktan på Roberts utredning har vi f. n. inte utrett frågan
             ytterligare. Den nyligen tillsatta totalförsvarskommittén har
@@ -1542,8 +1442,6 @@
             sedan, också har tagit upp dessa problem. Den har gjort en mycket
             värdefull analys av problematiken kring civilmotstånd.
           </seg>
-        </u>
-        <u xml:id="i-KgD7yR7jUxu91FED1F6HB2" who="i-HdmXapeTq3DFBQub8j1ccm" prev="i-9QEa5WsvcPMaD9KULZ1qJp">
           <seg xml:id="i-W1HZJeeSMpdzKg6AuEFsde">
             Jag vill betona att de folkrättsliga aspekterna är mycket viktiga
             och mycket komplicerade. Därför är detta en fråga som verkligen
@@ -1602,12 +1500,10 @@
         <note xml:id="i-725C9xyiSxdU3aX3KSFgGi">
           Om arbetet med
         </note>
-        <u xml:id="i-CzJuSfMLUuKK2UPq7J8fF6" who="i-V1TeofrvsayeB1A8AwjNWW" prev="i-2SN3JCPuV3gBjaVYYAbzxz" next="i-HFTwYCzN8cGVrzkYyGXCXV">
+        <u xml:id="i-CzJuSfMLUuKK2UPq7J8fF6" who="i-V1TeofrvsayeB1A8AwjNWW" prev="i-2SN3JCPuV3gBjaVYYAbzxz">
           <seg xml:id="i-2oSUgEewmDZFE7wDEQxXTT">
             att belysa olika
           </seg>
-        </u>
-        <u xml:id="i-HFTwYCzN8cGVrzkYyGXCXV" who="i-V1TeofrvsayeB1A8AwjNWW" prev="i-CzJuSfMLUuKK2UPq7J8fF6">
           <seg xml:id="i-NUpVxYDCKCbyqvsAxq8UAR">
             aspekter på civilmotstånd
           </seg>
@@ -1640,7 +1536,7 @@
         <note xml:id="i-Lh36HxNo8K3kNPtED2QNVT">
           394, och anförde:
         </note>
-        <u xml:id="i-D18XtfULfm1hBrUBTXWCPe" who="i-BkQoi6KA1EKK9EEJhT16Cz" next="i-C6h3MLjCwsMDNKtgw5Gd99">
+        <u xml:id="i-D18XtfULfm1hBrUBTXWCPe" who="i-BkQoi6KA1EKK9EEJhT16Cz">
           <seg xml:id="i-6JmpEgSUa6uq2ZTS2ZXg3p">
             Herr talman! Ulla Tillander har frågat om jag anser att det står
             i överensstämmelse med intentionerna med riksdagens beslut om
@@ -1648,8 +1544,6 @@
             sjukvården rutinmässigt tillfrågas om de ämnar fullfölja graviditeten
             eller önskar abort.
           </seg>
-        </u>
-        <u xml:id="i-C6h3MLjCwsMDNKtgw5Gd99" who="i-BkQoi6KA1EKK9EEJhT16Cz" prev="i-D18XtfULfm1hBrUBTXWCPe">
           <seg xml:id="i-9CMZ42Y5g8fQtQVkJhvXG9">
             Vid gynekologiska mottagningar och inom den förebyggande mödrahälsovården
             skall givetvis alla gravida kvinnor, oavsett om de vill föda sitt
@@ -1669,14 +1563,12 @@
         <note xml:id="i-SoaUNH9rivakuwg1evEDnR" type="speaker">
           ULLA TILLANDER (c):
         </note>
-        <u xml:id="i-2qzMNvZ7Jfq9aRK2WsR7fJ" who="i-SD9pkoqRT5Wh44pQmYMCqD" next="i-WZKtGktngFKUSqnQUK96pZ">
+        <u xml:id="i-2qzMNvZ7Jfq9aRK2WsR7fJ" who="i-SD9pkoqRT5Wh44pQmYMCqD">
           <seg xml:id="i-CuyAQDNHnuNRhtneUgpXvU">
             Herr talman! Det finns särskilt stor anledning att tacka statsrådet
             Troedsson för det här svaret, som förhoppningsvis kommer att påverka
             den praxis som föranlett min fråga.
           </seg>
-        </u>
-        <u xml:id="i-WZKtGktngFKUSqnQUK96pZ" who="i-SD9pkoqRT5Wh44pQmYMCqD" prev="i-2qzMNvZ7Jfq9aRK2WsR7fJ" next="i-SYj1mnWVwcPTEwQQF8VSx6">
           <seg xml:id="i-2J2ewVQZ87Ky3qJkqcK2yZ">
             Den väsentliga distinktion som abortlagen omnämner är inte någon
             subtil finess för finsmakare utan en kärnpunkt, som jag uppfattar
@@ -1687,15 +1579,11 @@
             nyttobetonat synsätt utan övertoner har en i längden utsuddande
             effekt på den viktiga skillnaden mellan abort och preventivmedel.
           </seg>
-        </u>
-        <u xml:id="i-SYj1mnWVwcPTEwQQF8VSx6" who="i-SD9pkoqRT5Wh44pQmYMCqD" prev="i-WZKtGktngFKUSqnQUK96pZ" next="i-UcsV8tcmXiQRm5faRYwiWL">
           <seg xml:id="i-GHptBf9DcM6ABeuA6ARDqr">
             Det måste vara statens uppgift att slå vakt om den värdering
             som ligger förborgad i känslan för att ett havandeskap är en genomgripande
             upplevelse. Det ger en antydan om vad en abort egentligen är.
           </seg>
-        </u>
-        <u xml:id="i-UcsV8tcmXiQRm5faRYwiWL" who="i-SD9pkoqRT5Wh44pQmYMCqD" prev="i-SYj1mnWVwcPTEwQQF8VSx6" next="i-5WVUvEq4HjXbzvMKkwKWHd">
           <seg xml:id="i-U2Xbu1khb9C2Q9VXJAYK99">
             Jag vill betona att min mening inte är att skuldbelägga aborten.
             Den kan i vissa fall vara en utväg som måste tillgripas. Vad jag
@@ -1704,8 +1592,6 @@
             som har sin motsvarighet i verklig: heten: skillnaden mellan en
             operation vilken som helst och en abortoperation.
           </seg>
-        </u>
-        <u xml:id="i-5WVUvEq4HjXbzvMKkwKWHd" who="i-SD9pkoqRT5Wh44pQmYMCqD" prev="i-UcsV8tcmXiQRm5faRYwiWL">
           <seg xml:id="i-GriCZBq6sXtYTLdUyeJEsH">
             Till sist vill jag uttrycka förhoppningen att statsrådets positiva
             svar och själva motiveringen för det kommer sjukvården till del.
@@ -1736,7 +1622,7 @@
           läke- = han dahållande av medel som inte är under klinisk prövning.
           oregistrerade läke-
         </note>
-        <u xml:id="i-SPiLYU2zC47fp4CYrfbjVs" who="unknown" next="i-VB8frefcgfmfCw5tNfpsQa">
+        <u xml:id="i-SPiLYU2zC47fp4CYrfbjVs" who="unknown" next="i-9s6Z4oHjkuWBNr5YLYwBdL">
           <seg xml:id="i-RnropUKjmcHpXuCbKW6CG2">
             Enligt 3 $ 3) allmänna läkarinstruktionen åligger det läkare
             som kliniskt prövar ett oregistrerat läkemedel att iaktta vad
@@ -1755,8 +1641,6 @@
             ansvarige läkaren är skyldig att föra journal över patienter som
             omfattas av prövningen.
           </seg>
-        </u>
-        <u xml:id="i-VB8frefcgfmfCw5tNfpsQa" who="unknown" prev="i-SPiLYU2zC47fp4CYrfbjVs" next="i-Sfr4N9WiXnTgvmbFgtw1YX">
           <seg xml:id="i-QL5cTwkCBmudRUberTPUtR">
             Det kan ibland vara motiverat att patienter får tillgång till
             oregistrerade läkemedel under tiden efter det att läkemedlet prövats
@@ -1769,8 +1653,6 @@
             vidare rätt att medge s. k. licensförsäljning i bl. a. sådana
             fall.
           </seg>
-        </u>
-        <u xml:id="i-Sfr4N9WiXnTgvmbFgtw1YX" who="unknown" prev="i-VB8frefcgfmfCw5tNfpsQa" next="i-RiSsfHRtgxkNyN429fe3eb">
           <seg xml:id="i-5mdAmz8XTphfdrAShTdBgR">
             Jag vill i detta sammanhang också erinra om socialstyrelsens
             kungörelse (MF 1969:20) om läkemedelsprover. I denna kungörelse
@@ -1780,8 +1662,6 @@
             läkemedel än sådana som får säljas utan att vara registrerade
             får sålunda inte utlämnas kostnadsfritt som läkemedelsprov.
           </seg>
-        </u>
-        <u xml:id="i-RiSsfHRtgxkNyN429fe3eb" who="unknown" prev="i-Sfr4N9WiXnTgvmbFgtw1YX" next="i-3hozfBEK7kFPkTapKBFCMi">
           <seg xml:id="i-KLM7469vjG61fjvkqzraBc">
             Trots de bestämmelser som jag här har redogjort för kan det givetvis
             inträffa att misstag begås. För att bl.a. skapa ytterligare garantier
@@ -1795,8 +1675,6 @@
             att allmänheten tillhandahålls endast säkra och effektiva läkemedel.
             Utred- 55
           </seg>
-        </u>
-        <u xml:id="i-3hozfBEK7kFPkTapKBFCMi" who="unknown" prev="i-RiSsfHRtgxkNyN429fe3eb" next="i-9s6Z4oHjkuWBNr5YLYwBdL">
           <seg xml:id="i-NW5gg3mKcQgmymYtX5iR5q">
             medel
           </seg>
@@ -1815,13 +1693,11 @@
         <note xml:id="i-UmYJN2826Ep2cACZ1z8Pii">
           56
         </note>
-        <u xml:id="i-9s6Z4oHjkuWBNr5YLYwBdL" who="unknown" prev="i-3hozfBEK7kFPkTapKBFCMi" next="i-16tkBJZiAXdnynqXexX2dj">
+        <u xml:id="i-9s6Z4oHjkuWBNr5YLYwBdL" who="unknown" prev="i-SPiLYU2zC47fp4CYrfbjVs">
           <seg xml:id="i-2NineNBuixDpXaErmwtGvr">
             ningen skall därvid även behandla frågan om kliniska prövningar,
             bl. a. med avseende på etiska krav.
           </seg>
-        </u>
-        <u xml:id="i-16tkBJZiAXdnynqXexX2dj" who="unknown" prev="i-9s6Z4oHjkuWBNr5YLYwBdL">
           <seg xml:id="i-Ai21bntEbv6rBHwhySWMKG">
             Jag kan försäkra Hans Nyhage att regeringen kommer att vidta
             erforderliga åtgärder när resultaten av dessa utredningar föreligger.
@@ -1830,13 +1706,11 @@
         <note xml:id="i-NZ1CyJmYhN3GR6sTdxVEZC" type="speaker">
           HANS NYHAGE (m):
         </note>
-        <u xml:id="i-5K35hvj2o37c8K4QgLKBfx" who="i-DYxXbC2LXzL11J2rHdExZh" next="i-Kpt4FXrBKzrVAqcTGHA9hA">
+        <u xml:id="i-5K35hvj2o37c8K4QgLKBfx" who="i-DYxXbC2LXzL11J2rHdExZh">
           <seg xml:id="i-8UQQL2PdNgeXNMV4ZXUXRD">
             Herr talman! Jag ber att få tacka statsrådet Troedsson för svaret
             och för den redovisning och de värdefulla besked som där ges.
           </seg>
-        </u>
-        <u xml:id="i-Kpt4FXrBKzrVAqcTGHA9hA" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-5K35hvj2o37c8K4QgLKBfx" next="i-9bRiRwv7Co2KgsqnvC7u79">
           <seg xml:id="i-FNfM65uh3kdvAEjFDG1UyB">
             Min fråga är ställd uteslutande med hänsyn till patienternas
             rättssäkerhet i sjukvården. Det är alltså i och för sig inte min
@@ -1846,8 +1720,6 @@
             en jurist i överordnad ämbetsbefattning uttryckt sin förvåning,
             just därför att det fallet kunde inträffa utan att innebära regelbrott.
           </seg>
-        </u>
-        <u xml:id="i-9bRiRwv7Co2KgsqnvC7u79" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-Kpt4FXrBKzrVAqcTGHA9hA" next="i-F9byoxGuuNuJvfi5YdFyto">
           <seg xml:id="i-VGNvEsuWQpBWhGwm49k48A">
             Det inträffade är ett mycket långvarigt tillhandahållande av
             ett ej registrerat läkemedel, något som jag finner vara mycket
@@ -1861,8 +1733,6 @@
             föreligger en brist i gällande lagstiftning, som bl. a. måste
             rättas till.
           </seg>
-        </u>
-        <u xml:id="i-F9byoxGuuNuJvfi5YdFyto" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-9bRiRwv7Co2KgsqnvC7u79" next="i-VSwJ4dCbZvyNBD5abxrfqZ">
           <seg xml:id="i-A8P4wruKEAfrGWjd1Wp22s">
             Det finns all anledning för mig att påpeka att statsrådet Troedsson
             och jag inte har delade meningar i ärendet, något som svaret med
@@ -1872,8 +1742,6 @@
             för klinisk forskning och därmed bidra till ytterligare garantier
             mot att misstag begås vid prövningen.
           </seg>
-        </u>
-        <u xml:id="i-VSwJ4dCbZvyNBD5abxrfqZ" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-F9byoxGuuNuJvfi5YdFyto">
           <seg xml:id="i-7fpeBuqdQu1TNffqBbK1BN">
             Än en gång vill jag tacka för svaret, som jag finner utomordentligt
             positivt.
@@ -1912,13 +1780,11 @@
         <note xml:id="i-UCFX88USXQbB5RiNjDi7Dd">
           412, och anförde:
         </note>
-        <u xml:id="i-CCkAjLj1NgJh9zY9RQQjyv" who="i-P7oVLGoBfbz4RGE5XkQtLN" next="i-JM5TUtGaTeMeUhWFy7iJwp">
+        <u xml:id="i-CCkAjLj1NgJh9zY9RQQjyv" who="i-P7oVLGoBfbz4RGE5XkQtLN">
           <seg xml:id="i-7bZUVVAzGotcbx7tgLXgtm">
             Herr talman! Georg Andersson har frågat mig när regeringen kommer
             att besluta att Solviks folkhögskola ges en självständig ställning.
           </seg>
-        </u>
-        <u xml:id="i-JM5TUtGaTeMeUhWFy7iJwp" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-CCkAjLj1NgJh9zY9RQQjyv" next="i-Cod5auJgvXxzmb1ztr1QbT">
           <seg xml:id="i-JCvkVxXqCJ7fbyreCWQvF4">
             I regeringens proposition 1976/77:55 (UbU 1976/77:30, rskr 1976/77:318)
             biträddes folk högskoleutredningens förslag att nu existerande
@@ -1926,8 +1792,6 @@
             eHer få ställning som externa kurser. Riksdagen hade inget att
             erinra mot detta.
           </seg>
-        </u>
-        <u xml:id="i-Cod5auJgvXxzmb1ztr1QbT" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-JM5TUtGaTeMeUhWFy7iJwp" next="i-42wJouxbYHXMTJr4GY6N7F">
           <seg xml:id="i-XEuv1fcQ17wfJjUsyjZR2s">
             I proposition 1977/78:100 bil. 12 (s. 584) förordade jag, att
             de nuvarande filialfolkhögskolorna Bosön och Västanvik skulle
@@ -1938,8 +1802,6 @@
             skolor från nämnda datum. Riksdagen beslutade i enlighet med mitt
             förslag.
           </seg>
-        </u>
-        <u xml:id="i-42wJouxbYHXMTJr4GY6N7F" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-Cod5auJgvXxzmb1ztr1QbT">
           <seg xml:id="i-3DoE4urpTUx2kNatiQrqmN">
             Ett tiotal folkhögskolors filialer har hos skolöverstyrelsen
             ansökt om ställning som självständig folkhögskola. Solviks folkhögskola
@@ -1954,12 +1816,10 @@
         <note xml:id="i-E1AjC1jiQh4GJt3KwbBJdF" type="speaker">
           GEORG ANDERSSON (s):
         </note>
-        <u xml:id="i-TWbk73Gemg89435z5CjXjR" who="i-Xrj5P46hsif4EVQjEQc8eH" next="i-Dqfdn2cLsqwkPWKRdgm4rc">
+        <u xml:id="i-TWbk73Gemg89435z5CjXjR" who="i-Xrj5P46hsif4EVQjEQc8eH" next="i-FCyR3JELhEEuJRJzp9gxFQ">
           <seg xml:id="i-QryuLFopuVvPHAAmAnN3VP">
             Herr talman! Jag tackar utbildningsministern för svaret.
           </seg>
-        </u>
-        <u xml:id="i-Dqfdn2cLsqwkPWKRdgm4rc" who="i-Xrj5P46hsif4EVQjEQc8eH" prev="i-TWbk73Gemg89435z5CjXjR" next="i-9CfFkLo9R9KTiHK3Wuhu4G">
           <seg xml:id="i-N3AJKKvh7mqVVoNKPqhJH1">
             Som också framgår av svaret är Solviks folkhögskola inte någon
             ny skola. Verksamheten där har bedrivits sedan 1920. Det är högst
@@ -1971,8 +1831,6 @@
             tillsammans går miste om ca 400 000 kr. i statsbidrag på grund
             av den nuvarande konstruktionen.
           </seg>
-        </u>
-        <u xml:id="i-9CfFkLo9R9KTiHK3Wuhu4G" who="i-Xrj5P46hsif4EVQjEQc8eH" prev="i-Dqfdn2cLsqwkPWKRdgm4rc" next="i-4PBBtg5hvkKDtn8hVEK3kE">
           <seg xml:id="i-FXhWxz6LV6fsmTCtWyTDr9">
             Jag motionerade i fjol tillsammans med några kolleger på Västerbottensbänken
             i denna fråga. Utskottet ville då inte tillstyrka vårt förslag
@@ -1982,8 +1840,6 @@
             vilket också har angivits i dagens svar. Takten för denna utveckling
             angavs inte av utskottet, och den anges inte heller i dagens svar.
           </seg>
-        </u>
-        <u xml:id="i-4PBBtg5hvkKDtn8hVEK3kE" who="i-Xrj5P46hsif4EVQjEQc8eH" prev="i-9CfFkLo9R9KTiHK3Wuhu4G" next="i-FCyR3JELhEEuJRJzp9gxFQ">
           <seg xml:id="i-WriiJ4nGSaBWZnPXnLP1pc">
             För en tid sedan noterade jag med glädje att Jan-Erik Wikström
             vid ett möte i Lycksele offentligt sade att han personligen anser
@@ -2017,12 +1873,10 @@
         <note xml:id="i-4e6GNH9ULjKGGBULtMehJC">
           58
         </note>
-        <u xml:id="i-FCyR3JELhEEuJRJzp9gxFQ" who="i-Xrj5P46hsif4EVQjEQc8eH" prev="i-4PBBtg5hvkKDtn8hVEK3kE" next="i-GdPVzddUJTxva4ySmsJw4j">
+        <u xml:id="i-FCyR3JELhEEuJRJzp9gxFQ" who="i-Xrj5P46hsif4EVQjEQc8eH" prev="i-TWbk73Gemg89435z5CjXjR">
           <seg xml:id="i-GQ9ZvTYx5HWtuSWV2b638u">
             skulle ge ett mera konkret besked.
           </seg>
-        </u>
-        <u xml:id="i-GdPVzddUJTxva4ySmsJw4j" who="i-Xrj5P46hsif4EVQjEQc8eH" prev="i-FCyR3JELhEEuJRJzp9gxFQ">
           <seg xml:id="i-64nhbyipF6ru4AfW6WTe2y">
             Solvik är som bekant en folkrörelseskola. Det medför att ett
             ökat ekonomiskt stöd är ytterst angeläget. Jag vore därför mycket
@@ -2098,18 +1952,14 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197778--129/prot_197778__129-016.jp2/_view"/>
-        <u xml:id="i-S41UPhh9BwMddvwz1ozSkc" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-GBQd6mFDAYTqwXyLbhf7AV" next="i-Ch3wsoPekhYqJZC4DPZuyF">
+        <u xml:id="i-S41UPhh9BwMddvwz1ozSkc" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-GBQd6mFDAYTqwXyLbhf7AV" next="i-CuM5MihxP5Ysh1MtCLkouV">
           <seg xml:id="i-MhqwqkiiSB9sxTXqwWD6P">
             avser att vidta några modifieringar av reglerna för tillträde
             till högskolestu- Nr 129 dier. Tisdagen den
           </seg>
-        </u>
-        <u xml:id="i-Ch3wsoPekhYqJZC4DPZuyF" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-S41UPhh9BwMddvwz1ozSkc" next="i-QBxAwF5BaQvVFbp1tPiTZG">
           <seg xml:id="i-NkEcyN1oi9j8WDgzahn37t">
             Jag besvarar frågorna i ett sammanhang. 25 april 1978
           </seg>
-        </u>
-        <u xml:id="i-QBxAwF5BaQvVFbp1tPiTZG" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-Ch3wsoPekhYqJZC4DPZuyF" next="i-M4y9voXaJJdG2WjYNt7jX">
           <seg xml:id="i-4UVXVr4txtU9RD5KLBSSpN">
             Jag har vid tidigare frågestunder i kammaren framhållit att det
             uppföljningsarbete kring högskolereformen som pågår inom universitets-
@@ -2118,8 +1968,6 @@
             av det nya antagningssystemet. Jag nämnde bl. a. frågan om den
             höjda medelåldern bland de antagna till längre spärrade utbildningar.
           </seg>
-        </u>
-        <u xml:id="i-M4y9voXaJJdG2WjYNt7jX" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-QBxAwF5BaQvVFbp1tPiTZG" next="i-WDdnY7J9MVPFsvLzFtcVTc">
           <seg xml:id="i-CPVriQ8RyRetQzzfb3Dv8L">
             En första rapport från UHÄ föreligger nu. Den behandlar urvalsreglernas
             effekter på rekryteringen till spärrade allmänna utbildningstlinjer
@@ -2132,8 +1980,6 @@
             denna antagning unik i flera avseenden. Några bestämda slutsatser
             av de resultat som kommit fram bör man därför inte dra.
           </seg>
-        </u>
-        <u xml:id="i-WDdnY7J9MVPFsvLzFtcVTc" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-M4y9voXaJJdG2WjYNt7jX" next="i-4WSxCUXgwi4gPxqeefBHuC">
           <seg xml:id="i-WwRzHaMbPCpw3nJy5itr1w">
             Vad beträffar den sociala snedrekryteringen till högskoleutbildning
             synes denna inte ha påverkats i någon bestämd riktning vid detta
@@ -2146,8 +1992,6 @@
             av kvinnliga. Fler män kan åberopa den typ av relativt kvalificerade
             föreningsuppdrag som enligt reglerna meritvärderas.
           </seg>
-        </u>
-        <u xml:id="i-4WSxCUXgwi4gPxqeefBHuC" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-WDdnY7J9MVPFsvLzFtcVTc" next="i-Wvn3uUgCY2GUjbJwjwMuJi">
           <seg xml:id="i-Tos65DpsQCnUiSPCXTnyMQ">
             Syftet med de nya reglerna för antagning till högskoleutbildning
             är bl. a. att underlätta för nya grupper att vinna tillträde.
@@ -2158,8 +2002,6 @@
             kan vara av värde för högskolestudier får detta, enligt min mening,
             inte ges sådan tyngd att effekten blir den jag nyss har antytt.
           </seg>
-        </u>
-        <u xml:id="i-Wvn3uUgCY2GUjbJwjwMuJi" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-4WSxCUXgwi4gPxqeefBHuC" next="i-R1NsWyB4rxynUMgqBM5ek5">
           <seg xml:id="i-Jxo7enVds7JLjpBVm6sCQ5">
             Om också erfarenheterna från antagningen våren 1978 visar att
             tillgodoräknande av föreningsmeriter missgynnar kvinnliga sökande
@@ -2169,8 +2011,6 @@
             förslag kommer i så fall att lämnas i sådan tid att förändringen
             kan träda i kraft den 1 juli 1979.
           </seg>
-        </u>
-        <u xml:id="i-R1NsWyB4rxynUMgqBM5ek5" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-Wvn3uUgCY2GUjbJwjwMuJi" next="i-CyA9XsC1dFD1vqFXS93um2">
           <seg xml:id="i-466hzLJ7tZhydarYudhoQh">
             UHÄ:s rapport uppmärksammar också en annan punkt där det är angeläget
             att noga följa konsekvenserna av de nya antagningsreglerna. Rapporten
@@ -2178,8 +2018,6 @@
             genom den s. k. 25:4-regeln i viss mån gynnades vid antagningen
             1977 genom att han eller hon prövades i två kvotgrupper.
           </seg>
-        </u>
-        <u xml:id="i-CyA9XsC1dFD1vqFXS93um2" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-R1NsWyB4rxynUMgqBM5ek5" next="i-CuM5MihxP5Ysh1MtCLkouV">
           <seg xml:id="i-5ZszwU2xf6VNT5UM8Lrnw2">
             Uppföljningsresultatet kan också på denna punkt vara i viss mening
             unikt, 59
@@ -2201,7 +2039,7 @@
         <note xml:id="i-74WQMnucVA6BkRYET1YDqV">
           60
         </note>
-        <u xml:id="i-CuM5MihxP5Ysh1MtCLkouV" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-CyA9XsC1dFD1vqFXS93um2" next="i-UyRZKX1SXPu6rXPHZBBiji">
+        <u xml:id="i-CuM5MihxP5Ysh1MtCLkouV" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-S41UPhh9BwMddvwz1ozSkc">
           <seg xml:id="i-PgaUA7ERMWykycGKTJY1gc">
             eftersom man även här kan räkna med ett visst uppdämt behov av
             utbildning. Man måste dock förutsätta att personer med kortare
@@ -2210,8 +2048,6 @@
             ”andra” högskoleutbildning. Att förhindra detta genom administrativa
             åtgärder ligger knappast i linje med vår allmänna utbildningspolitik.
           </seg>
-        </u>
-        <u xml:id="i-UyRZKX1SXPu6rXPHZBBiji" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-CuM5MihxP5Ysh1MtCLkouV" next="i-BQW8Aag5N47kRQcLYjbWHB">
           <seg xml:id="i-Y7qCnpgAef7KdV61tTRVBQ">
             Förhållandet måste dock uppmärksammas. Om man finner att de dubbelbehöriga
             även i fortsättningen gynnas på ett otillbörligt sätt på bekostnad
@@ -2220,8 +2056,6 @@
             en i någon mening rättvisare fördelning av utbildningsplatser
             mellan olika grupper av sökande.
           </seg>
-        </u>
-        <u xml:id="i-BQW8Aag5N47kRQcLYjbWHB" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-UyRZKX1SXPu6rXPHZBBiji">
           <seg xml:id="i-JAoU8bCWCUrfcf56BdfDZX">
             Jag förutsätter att UHÄ kommer att följa och studera utvecklingen
             i dessa avseenden. Jag vill också framhålla att frågan har en
@@ -2235,12 +2069,10 @@
         <note xml:id="i-BPSFqe43WUdGSWxB7q6k2j" type="speaker">
           EVA HJELMSTRÖM (vpk):
         </note>
-        <u xml:id="i-L2U2KzmtwdXznJwF2n9XGE" who="i-RPvXiWoVbPvNZBh8bxVvbB" next="i-KREQmLctUZb945EU6vmiT7">
+        <u xml:id="i-L2U2KzmtwdXznJwF2n9XGE" who="i-RPvXiWoVbPvNZBh8bxVvbB" next="i-RpwwfVeZ1RBZWU9taR6kgy">
           <seg xml:id="i-MuzSyN1dCXdaQdWqJ6TAK4">
             Herr talman! Jag tackar utbildningsministern för svaret.
           </seg>
-        </u>
-        <u xml:id="i-KREQmLctUZb945EU6vmiT7" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-L2U2KzmtwdXznJwF2n9XGE" next="i-J2Fv2R1vgMGiikKmhN88Uw">
           <seg xml:id="i-D4ha8reEM4nyKPTJnWRqF7">
             När riksdagen för nästan exakt ett år sedan mot vpk:s röster
             fattade beslut om den nya högskolan, framhöll Jan-Erik Wikström
@@ -2252,24 +2084,18 @@
             mycken tid — jag skall nöja mig med att peka på några av de konstateranden
             som görs.
           </seg>
-        </u>
-        <u xml:id="i-J2Fv2R1vgMGiikKmhN88Uw" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-KREQmLctUZb945EU6vmiT7" next="i-XuyX3aQ44SZWmxNRJ27zpD">
           <seg xml:id="i-viGdNnkaGwgaX35jbr98J">
             För det första, säger utredarna, missgynnas kvinnorna av de nya
             reglerna, främst vid tillträdet till längre utbildningar som läkarutbildning,
             och de tekniska linjerna. Detta strider helt mot strävan till
             ökad jämställdhet.
           </seg>
-        </u>
-        <u xml:id="i-XuyX3aQ44SZWmxNRJ27zpD" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-J2Fv2R1vgMGiikKmhN88Uw" next="i-2NHrHbiUjX78YwoJk5ugFq">
           <seg xml:id="i-HGLQz7Mzxqd8Wf4KpWwNhp">
             För det andra, säger man, har systemet gynnat redan välutbildade
             personer, vilket rimmar illa med strävandena efter en jämnare
             social rekrytering. Den sociala snedrekryteringen till högre utbildning
             har totalt sett snarast skärpts.
           </seg>
-        </u>
-        <u xml:id="i-2NHrHbiUjX78YwoJk5ugFq" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-XuyX3aQ44SZWmxNRJ27zpD" next="i-WbA2SggbcnsywZLpuFd5U5">
           <seg xml:id="i-KLmadFAvbYNJJAEsrXNket">
             Redan dessa två konstateranden är i sig tillräckliga för att
             man skall kunna påstå, att de vackra mål som utbildningsministern
@@ -2277,15 +2103,11 @@
             i rapporten, exempelvis att folkhögskolestuderande har fått svårare
             att göra sig gällande.
           </seg>
-        </u>
-        <u xml:id="i-WbA2SggbcnsywZLpuFd5U5" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-2NHrHbiUjX78YwoJk5ugFq" next="i-K2pfTdE7sWt5Xu2a7mnSnr">
           <seg xml:id="i-LGQMyMZ1zWdCSdUM9MtF77">
             Hela systemet är konstruerat så, att dubbelbehöriga sökande får
             företräde, vilket innebär att det är studerande med skolmeriter
             som kommer i främsta rummet. De rena 25:4-orna missgynnas däremot,
           </seg>
-        </u>
-        <u xml:id="i-K2pfTdE7sWt5Xu2a7mnSnr" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-WbA2SggbcnsywZLpuFd5U5" next="i-RpwwfVeZ1RBZWU9taR6kgy">
           <seg xml:id="i-ErzfxVZEmvc8cGbBMQjjeL">
             Utredarna konstaterar i slutet av sin rapport att det nya tillträdessystemet
             är ett lappverk och att varje enskild åtgärd inte har granskats
@@ -2296,7 +2118,7 @@
         <note xml:id="i-KrakVnajQ8P7wdxSjJMeGn">
           effekter på systemet som helhet. Nr 129
         </note>
-        <u xml:id="i-RpwwfVeZ1RBZWU9taR6kgy" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-K2pfTdE7sWt5Xu2a7mnSnr" next="i-PmjFuReFJgwDto11m2hivB">
+        <u xml:id="i-RpwwfVeZ1RBZWU9taR6kgy" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-L2U2KzmtwdXznJwF2n9XGE">
           <seg xml:id="i-NbFz76FZX5eqX52dBRQCeb">
             Vi krävde i samband med beslutet om högskolereformen ett i grunden
             Tisdagen den förändrat antagningssystem, ett system där huvudsyftet
@@ -2304,30 +2126,22 @@
             Utbildningsministern är inte beredd att gå med på detta. Om reglerna
             för
           </seg>
-        </u>
-        <u xml:id="i-PmjFuReFJgwDto11m2hivB" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-RpwwfVeZ1RBZWU9taR6kgy" next="i-7pKv7qiiCbKaHRrbN41dQ4">
           <seg xml:id="i-Kd8FkAXPwBA4SwfrFxdymo">
             För det första, konstaterar utbildningsministern i sitt svar,
             är det bara en tillträde till högskoliten del av högskolan som
             berörs av de här förhållandena. Det är inte riktigt. Större delen
             av högskolan är spärrad.
           </seg>
-        </u>
-        <u xml:id="i-7pKv7qiiCbKaHRrbN41dQ4" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-PmjFuReFJgwDto11m2hivB" next="i-TbU6Bmju8mwKpaPRdXVMhn">
           <seg xml:id="i-3dx98G6xWqKdmM6qFdkrhv">
             För det andra skyller han på informationen och påstår att den
             är dålig. Det är att springa ifrån frågan — eller tror verkligen
             Jan-Erik Wikström att kvinnor har svårare att tillgodogöra sig
             information?
           </seg>
-        </u>
-        <u xml:id="i-TbU6Bmju8mwKpaPRdXVMhn" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-7pKv7qiiCbKaHRrbN41dQ4" next="i-DQaaHzbT3rAZBrsxcardAA">
           <seg xml:id="i-Q67VVhEVK8tu9qG2RKA9Xk">
             För det tredje säger han att den sociala rekryteringen inte har
             påverkats. Nej, förvisso inte. Snedrekryteringen kvarstår ju.
           </seg>
-        </u>
-        <u xml:id="i-DQaaHzbT3rAZBrsxcardAA" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-TbU6Bmju8mwKpaPRdXVMhn" next="i-NGohZjsNrLez4ZHo9VVoYc">
           <seg xml:id="i-FqySTBueGk3Sbmwr3fh3y">
             Det enda konkreta förslaget är att avskaffa föreningsmeriterna.
             Jag tror för min del att det krävs helt andra åtgärder. Visst
@@ -2336,8 +2150,6 @@
             för bara träd. Föreningsmeriter kan ju också ha ett mycket positivt
             värde.
           </seg>
-        </u>
-        <u xml:id="i-NGohZjsNrLez4ZHo9VVoYc" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-DQaaHzbT3rAZBrsxcardAA">
           <seg xml:id="i-5Gn1sA79UQC4mV1kQrdBGC">
             Slutligen säger Jan-Erik Wikström att inga bestämda slutsatser
             kan dras av rapporten. Jag tycker att det är ett mycket märkligt
@@ -2352,15 +2164,13 @@
         <note xml:id="i-Q9Czy4jwjBji4rgjAeZnZz" type="speaker">
           INGRID SUNDBERG (m):
         </note>
-        <u xml:id="i-VPtzvJUJrvzUAVuj2VCPuN" who="i-N7WL5aLLwEPfYa71gsUxQx" next="i-LjGEKmMpBHJX1SchgsK9Xe">
+        <u xml:id="i-VPtzvJUJrvzUAVuj2VCPuN" who="i-N7WL5aLLwEPfYa71gsUxQx" next="i-AEMG8BTxeEp3YgdXhTeGt8">
           <seg xml:id="i-Mh3enKPMUH1BPq3mJFYn8c">
             Herr talman! Jag skall be att få tacka utbildningsministern för
             svaret, som jag fann vara mycket positivt. Det visade en flexibilitet
             i utbildningsministerns inställning till de här frågorna som jag
             tycker är lovvärd.
           </seg>
-        </u>
-        <u xml:id="i-LjGEKmMpBHJX1SchgsK9Xe" who="i-N7WL5aLLwEPfYa71gsUxQx" prev="i-VPtzvJUJrvzUAVuj2VCPuN" next="i-4LYiAt51fSPJXWeTAnoxdZ">
           <seg xml:id="i-BNRkWkh5doFeFYVFQb5Na2">
             Jag hade formulerat min fråga så att jag undrade om utbildningsministern
             tänkte göra några modifieringar, och att så är fallet tycker jag
@@ -2371,8 +2181,6 @@
             att jag ställde frågan. Jag kan inte ta upp alla olika synpunkter
             men vill beröra ett par.
           </seg>
-        </u>
-        <u xml:id="i-4LYiAt51fSPJXWeTAnoxdZ" who="i-N7WL5aLLwEPfYa71gsUxQx" prev="i-LjGEKmMpBHJX1SchgsK9Xe" next="i-NWeC7TZrG8VEKqYDZYX7P3">
           <seg xml:id="i-QRzW8UKhb4B1c6retp511v">
             I fråga om den minskade antagningen av kvinnor har jag åtskilliga
             gånger här i kammaren, när antagningsbestämmelserna diskuterats,
@@ -2388,8 +2196,6 @@
             till de längre utbildningarna, och det är ur jämställdhetssynpunkt
             oacceptabelt.
           </seg>
-        </u>
-        <u xml:id="i-NWeC7TZrG8VEKqYDZYX7P3" who="i-N7WL5aLLwEPfYa71gsUxQx" prev="i-4LYiAt51fSPJXWeTAnoxdZ" next="i-AEMG8BTxeEp3YgdXhTeGt8">
           <seg xml:id="i-MjhZ837T9qFHNZDFe3R5ZP">
             Men det gäller också en annan sak, nämligen den högre medelåldern.
             Det 61
@@ -2411,7 +2217,7 @@
         <note xml:id="i-9DQqRivjftSZjtipqth5EJ">
           62
         </note>
-        <u xml:id="i-AEMG8BTxeEp3YgdXhTeGt8" who="i-N7WL5aLLwEPfYa71gsUxQx" prev="i-NWeC7TZrG8VEKqYDZYX7P3" next="i-Q4RpWGANUPWAcfhF5xnrVU">
+        <u xml:id="i-AEMG8BTxeEp3YgdXhTeGt8" who="i-N7WL5aLLwEPfYa71gsUxQx" prev="i-VPtzvJUJrvzUAVuj2VCPuN">
           <seg xml:id="i-Bg6dgLLrde8vWUyYrX2U6w">
             är riktigt, som utbildningsministern säger i svaret, att orsaken
             kan vara att det första antagningstillfället efter införandet
@@ -2422,8 +2228,6 @@
             skall göra några bedömningar av hur rekryteringen till forskarutbildningen
             kan påverkas i framtiden.
           </seg>
-        </u>
-        <u xml:id="i-Q4RpWGANUPWAcfhF5xnrVU" who="i-N7WL5aLLwEPfYa71gsUxQx" prev="i-AEMG8BTxeEp3YgdXhTeGt8" next="i-A3ZQpvucNi9QmQDWocfA36">
           <seg xml:id="i-H2pF6HWDQ7DCfQ3YHtFGoB">
             En viktig kritik mot det nya antagningssystemet har gällt den
             centrala intagningen för i verkligheten icke spärrad utbildning.
@@ -2431,14 +2235,10 @@
             reducerats till en behörighetsbedömning, samtidigt som den kostat
             orimligt mycket pengar och försvårat hanteringen.
           </seg>
-        </u>
-        <u xml:id="i-A3ZQpvucNi9QmQDWocfA36" who="i-N7WL5aLLwEPfYa71gsUxQx" prev="i-Q4RpWGANUPWAcfhF5xnrVU" next="i-UHR54wDe35bnvQrrFqzEeY">
           <seg xml:id="i-JVS4ZNyVfagKgWeZFJ1kZt">
             Jag vill också fråga utbildningsministern: Vore det inte skäl
             att överväga att decentralisera ett större antal av antagningsrutinerna?
           </seg>
-        </u>
-        <u xml:id="i-UHR54wDe35bnvQrrFqzEeY" who="i-N7WL5aLLwEPfYa71gsUxQx" prev="i-A3ZQpvucNi9QmQDWocfA36">
           <seg xml:id="i-MHSGqhTh4ouaSVdnLhMJXW">
             Herr talman! Man kan inte vänta sig att allt genast skall fungera
             utmärkt. Min fråga gällde emellertid några fall där det framgått
@@ -2450,7 +2250,7 @@
         <note xml:id="i-PaeA1Exr1eMkkwvDua3uTX" type="speaker">
           Utbildningsministern JAN-ERIK WIKSTRÖM:
         </note>
-        <u xml:id="i-AGQW1kkTvQYM1rVWB6j8pT" who="i-P7oVLGoBfbz4RGE5XkQtLN" next="i-QiJBXQMjzjxugAotArMUwi">
+        <u xml:id="i-AGQW1kkTvQYM1rVWB6j8pT" who="i-P7oVLGoBfbz4RGE5XkQtLN">
           <seg xml:id="i-2xoeb34K5nfSkEBiiE3zyF">
             Herr talman! Eva Hjelmström sade att de mål som vi varit överens
             om har kommit på skam. Det är väl snarare så att det är vissa
@@ -2458,8 +2258,6 @@
             mål som vi varit överens om. Det är därför det är så angeläget
             att pröva metoderna.
           </seg>
-        </u>
-        <u xml:id="i-QiJBXQMjzjxugAotArMUwi" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-AGQW1kkTvQYM1rVWB6j8pT" next="i-Hsj9Ge9yEGSqj9DkysBtuc">
           <seg xml:id="i-MUnHUyrNeoDHovHPXmeTTJ">
             Vad jag säger mycket kort i mitt svar är att det kanske räcker
             med erfarenheterna från en termin. Men visar även den andra terminens
@@ -2469,8 +2267,6 @@
             människor som har kvalificerad dubbelutbildning söker sig till
             den nya högskolan.
           </seg>
-        </u>
-        <u xml:id="i-Hsj9Ge9yEGSqj9DkysBtuc" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-QiJBXQMjzjxugAotArMUwi" next="i-3xPmWt9AzrofSMMozwUWEz">
           <seg xml:id="i-EE3BZMKdiFTqwyNu166wR2">
             Ingrid Sundberg frågar hur rekryteringen till forskarutbildningen
             påverkas av den högre medelåldern. Svaret är att det vet ingen
@@ -2478,8 +2274,6 @@
             För min det tror jag att det minskade intresset för forskarutbildning
             väsentligen har andra orsaker än de som återspeglas i de här siffrorna.
           </seg>
-        </u>
-        <u xml:id="i-3xPmWt9AzrofSMMozwUWEz" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-Hsj9Ge9yEGSqj9DkysBtuc">
           <seg xml:id="i-AhbHYxTDrwbisBoC4Mbz7U">
             Jag är helt för decentralisering. Om det går att genomföra en
             sådan när det gäller antagningsrutinerna är dock tveksamt, eftersom
@@ -2501,20 +2295,16 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197778--129/prot_197778__129-020.jp2/_view"/>
-        <u xml:id="i-G9SzfP1a6ka7dbo7cTqMbV" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-EBb2LeufA3TBGQc3iikA4Z" next="i-BWGoRpsksHSF1uQ68bxZBv">
+        <u xml:id="i-G9SzfP1a6ka7dbo7cTqMbV" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-EBb2LeufA3TBGQc3iikA4Z">
           <seg xml:id="i-K6Mrka82zcSPoPUhvSKHzH">
             breddning av rekryteringen, en minskning av den sociala snedrekryteringen
             och en större jämställdhet.
           </seg>
-        </u>
-        <u xml:id="i-BWGoRpsksHSF1uQ68bxZBv" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-G9SzfP1a6ka7dbo7cTqMbV" next="i-Qe5oQvRxVDPst2bqg5C9Tn">
           <seg xml:id="i-QKYQRpnexzm1Q855uygBkN">
             Jag kan hålla med Jan-Erik Wikström om att de metoder som antagningssystemet
             förutsätter är helt felaktiga när det gäller att uppnå det här
             målet, och det framhöll vi redan förra året.
           </seg>
-        </u>
-        <u xml:id="i-Qe5oQvRxVDPst2bqg5C9Tn" who="i-RPvXiWoVbPvNZBh8bxVvbB" prev="i-BWGoRpsksHSF1uQ68bxZBv">
           <seg xml:id="i-4W4QhBbQ6PrgwuPkHCgs3M">
             Jag kan bara på nytt konstatera att det enda som Jan-Erik Wikström
             skjuter in sig på är föreningsmeriterna. Man kan kanske säga att
@@ -2547,15 +2337,13 @@
         <note xml:id="i-FQUuERHDSK7Ge8D52778CH">
           410, och anförde:
         </note>
-        <u xml:id="i-F4CLyRUpYgZegAdSFHitHz" who="i-BtQ4ubBXfEg4xPiwpPM4Vt" next="i-VLzfyZWT5PBNqTQnue3Txn">
+        <u xml:id="i-F4CLyRUpYgZegAdSFHitHz" who="i-BtQ4ubBXfEg4xPiwpPM4Vt">
           <seg xml:id="i-3bs3eRgDgWej8NTkqpTw4y">
             Herr talman! Birgitta Johansson har frågat mig om jag anser att
             det ligger i linje med statsmakternas satsningar för att klara
             av ungdomsarbetslösheten alt kommunerna inrättar kommittéer med
             speciell uppgift att bekämpa ungdomsarbetslösheten.
           </seg>
-        </u>
-        <u xml:id="i-VLzfyZWT5PBNqTQnue3Txn" who="i-BtQ4ubBXfEg4xPiwpPM4Vt" prev="i-F4CLyRUpYgZegAdSFHitHz" next="i-WwaBLGGUFhzXptHc1YGP5y">
           <seg xml:id="i-J5682jmpBhcDuKS55hGbzA">
             I den proposition om åtgärder mot ungdomsarbetslöshet som regeringen
             nyligen lagt fram för riksdagen har kommunernas ansvar för ungdomarnas
@@ -2563,16 +2351,12 @@
             sägs bl. a. att kommunerna måste aktivt arbeta för att skapa arbete
             och utbildning för de unga. | :
           </seg>
-        </u>
-        <u xml:id="i-WwaBLGGUFhzXptHc1YGP5y" who="i-BtQ4ubBXfEg4xPiwpPM4Vt" prev="i-VLzfyZWT5PBNqTQnue3Txn" next="i-4AiJarRpmBFP1SzAHMDSok">
           <seg xml:id="i-HqFfbCCHXr3yaQa7a1XH32">
             Det är mot denna bakgrund de kommunala planeringsrådens och distriktsarbetsnämndernas
             betydelse har betonats i propositionen. Dessa organ har viktiga
             uppgifter att fylla, om vi skall uppnå målet att garantera alla
             ungdomar arbete, utbildning eller praktik.
           </seg>
-        </u>
-        <u xml:id="i-4AiJarRpmBFP1SzAHMDSok" who="i-BtQ4ubBXfEg4xPiwpPM4Vt" prev="i-WwaBLGGUFhzXptHc1YGP5y">
           <seg xml:id="i-NWtGwGQdtD8X69cCzVANUw">
             Om man i kommunerna bedömer att det utöver dessa organ och det
             organ i kommunen som är arbetslöshetsnämnd finns behov av att
@@ -2607,28 +2391,22 @@
         <note xml:id="i-mobahJnB8v3tvP1g6MwaU" type="speaker">
           BIRGITTA JOHANSSON (s):
         </note>
-        <u xml:id="i-KwZjrUrDrw3EJAuiSBYmg3" who="i-8kBfhXyjrBgUH1YAVjW1DD" next="i-9jejsoo6YibgJfqZtTJv16">
+        <u xml:id="i-KwZjrUrDrw3EJAuiSBYmg3" who="i-8kBfhXyjrBgUH1YAVjW1DD">
           <seg xml:id="i-7foyLoWX2yETATGBWuCMBi">
             Herr talman! Jag ber att få tacka statsrådet för svaret på min
             fråga.
           </seg>
-        </u>
-        <u xml:id="i-9jejsoo6YibgJfqZtTJv16" who="i-8kBfhXyjrBgUH1YAVjW1DD" prev="i-KwZjrUrDrw3EJAuiSBYmg3" next="i-9Vpo7bXvp263qawPwmY6f2">
           <seg xml:id="i-RB11rQGt1i8GoywaXeUEXs">
             Den proposition som statsrådet hänvisar till vill jag inte debattera
             nu. Här har ju vi socialdemokrater lagt fram en partimotion och
             får därför anledning att återkomma i samband med utskottsbehandlingen.
           </seg>
-        </u>
-        <u xml:id="i-9Vpo7bXvp263qawPwmY6f2" who="i-8kBfhXyjrBgUH1YAVjW1DD" prev="i-9jejsoo6YibgJfqZtTJv16" next="i-GDgjGR6vGoxifgCMt8zB2o">
           <seg xml:id="i-5myh5ZsZbyYKqFDPGdMY5p">
             Anledningen till att jag ställde den här frågan är att riksdagen
             i december 1977 fattade ett beslut om att man på centralt håll
             kunde inrätta en särskild kommission för att främja ungdomars
             sysselsättning.
           </seg>
-        </u>
-        <u xml:id="i-GDgjGR6vGoxifgCMt8zB2o" who="i-8kBfhXyjrBgUH1YAVjW1DD" prev="i-9Vpo7bXvp263qawPwmY6f2" next="i-UBtsPu8HGr2zTGXpBFdpzs">
           <seg xml:id="i-YRUKuALSuMwBpL3X4bSANY">
             I mitt eget hemlän, Skaraborgs län, har många socialdemokratiska
             fullmäktigeledamöter fört fram samma krav på att kommunerna bör
@@ -2636,8 +2414,6 @@
             partierna, det lokala facket, näringslivet och den lokala arbetsförmedlingen
             — allt i syfte att bekämpa ungdomsarbetslösheten.
           </seg>
-        </u>
-        <u xml:id="i-UBtsPu8HGr2zTGXpBFdpzs" who="i-8kBfhXyjrBgUH1YAVjW1DD" prev="i-GDgjGR6vGoxifgCMt8zB2o" next="i-X3q71ug6kT74y3kQKHwhRp">
           <seg xml:id="i-TJgSGFEXdSwUVYW7SYbcBF">
             De borgerliga ledamöterna i fullmäktigeförsamlingarna i länet
             är inte lika angelägna som vi socialdemokrater. Arbetsmarknadsministern
@@ -2646,8 +2422,6 @@
             av de olika företagsbesöken får man intrycket att det inte finns
             några bekymmer i Skaraborgs län.
           </seg>
-        </u>
-        <u xml:id="i-X3q71ug6kT74y3kQKHwhRp" who="i-8kBfhXyjrBgUH1YAVjW1DD" prev="i-UBtsPu8HGr2zTGXpBFdpzs" next="i-7Rpt2qgXz2byCxU7gBeYLt">
           <seg xml:id="i-5Kw145yxvFHCtGdfc5eUgf">
             Men så är ju inte fallet. I fråga om arbetslöshetssiffror och
             ungdomsarbetslöshet är vi kanske inte inne i så djupa kriser som
@@ -2655,8 +2429,6 @@
             för statsrådet att vi socialdemokrater ser mycket allvarligt på
             utvecklingen i länet.
           </seg>
-        </u>
-        <u xml:id="i-7Rpt2qgXz2byCxU7gBeYLt" who="i-8kBfhXyjrBgUH1YAVjW1DD" prev="i-X3q71ug6kT74y3kQKHwhRp" next="i-T4uT2b6becA6k2oasp9StV">
           <seg xml:id="i-Q5v5784EE896WRKPrntaqS">
             Vad som också har oroat oss i detta sammanhang är att distriktsarbetsnämnder
             och länsarbetsnämnder däremot inte sett så allvarligt på denna
@@ -2666,14 +2438,10 @@
             och distriktsarbetsnämnd. Jag hoppas att detta uttalande från
             statsrådets sida får de borgerliga politikerna i
           </seg>
-        </u>
-        <u xml:id="i-T4uT2b6becA6k2oasp9StV" who="i-8kBfhXyjrBgUH1YAVjW1DD" prev="i-7Rpt2qgXz2byCxU7gBeYLt" next="i-KT9XpbHyQAUzVFqgEyx7YH">
           <seg xml:id="i-Xhaxho2GzbwUEaWQywUWLn">
             "länet att vakna och att inrättandet av en ungdomskommission
             kan komma
           </seg>
-        </u>
-        <u xml:id="i-KT9XpbHyQAUzVFqgEyx7YH" who="i-8kBfhXyjrBgUH1YAVjW1DD" prev="i-T4uT2b6becA6k2oasp9StV">
           <seg xml:id="i-8B8MyVPrJfCmmt1MfYjNzb">
             till stånd innan riksdagen har behandlat propositionen om ungdomsarbetslösheten.
           </seg>
@@ -2681,7 +2449,7 @@
         <note xml:id="i-3gYc42Dby8HnzvZDnmUzXS" type="speaker">
           Arbetsmarknadsministern ROLF WIRTÉN:
         </note>
-        <u xml:id="i-TobvjLstkPVcQTejs7E45j" who="i-BtQ4ubBXfEg4xPiwpPM4Vt" next="i-PUc14rj2Tv6emE2TF8UEq5">
+        <u xml:id="i-TobvjLstkPVcQTejs7E45j" who="i-BtQ4ubBXfEg4xPiwpPM4Vt">
           <seg xml:id="i-58oc6mrjPJ1yxW8NRfBLKX">
             Herr talman! Jag vill först säga att det av mitt svar framgår
             att det är en fråga både för kommun och för län att diskutera
@@ -2691,8 +2459,6 @@
             lämpligaste organisationen, utan det överlämnar jag med förtroende
             till de lokala huvudmännen.
           </seg>
-        </u>
-        <u xml:id="i-PUc14rj2Tv6emE2TF8UEq5" who="i-BtQ4ubBXfEg4xPiwpPM4Vt" prev="i-TobvjLstkPVcQTejs7E45j">
           <seg xml:id="i-MYMHc688PbLv4czzXQG4kA">
             Vad gäller mitt besök i Skaraborgs län tror jag att Birgitta
             Johansson har uppfattat referaten litet snett. Jag vill göra den
@@ -2750,22 +2516,18 @@
         <note xml:id="i-EVfTks8h4nckaQorN3LUQB">
           383, och anförde:
         </note>
-        <u xml:id="i-NiPUic84y78RWaxL6b36o8" who="i-QhnsQ4XHA6EXWk4gj8dW77" next="i-RtwcEqKTR5fwHPV6FS7ds2">
+        <u xml:id="i-NiPUic84y78RWaxL6b36o8" who="i-QhnsQ4XHA6EXWk4gj8dW77">
           <seg xml:id="i-J18RmisqA2xMfoDx2YAwrx">
             Herr talman! Thure Jadestig har frågat mig när jag beräknar att
             kunna lämna ett besked om regeringens beslut vad avser Fagersta
             AB:s ansökan om statsbidrag för malmprospektering i Riddarhyttan.
           </seg>
-        </u>
-        <u xml:id="i-RtwcEqKTR5fwHPV6FS7ds2" who="i-QhnsQ4XHA6EXWk4gj8dW77" prev="i-NiPUic84y78RWaxL6b36o8" next="i-Q161AuEQrgqDKmSnXePP5Z">
           <seg xml:id="i-Bdms3JMYNd8eY5ZXPvBTCH">
             Som framgår av frågan har Fagersta AB ansökt om statsbidrag för
             malmprospektering i Riddarhyttan. Några medel för sådant ändamål
             finns inte anslagna och ansökningar av detta slag har tidigare
             alltid lämnats utan åtgärd.
           </seg>
-        </u>
-        <u xml:id="i-Q161AuEQrgqDKmSnXePP5Z" who="i-QhnsQ4XHA6EXWk4gj8dW77" prev="i-RtwcEqKTR5fwHPV6FS7ds2" next="i-TwcuxtC9oJVxEbhnEUCfuL">
           <seg xml:id="i-6JVS9f1YigS1FEbN8zngS8">
             I det aktuella ärendet har emelleriud industridepartementet tagit
             kontakt bl. a. med nämnden för statens gruvegendom och statens
@@ -2778,8 +2540,6 @@
             vidare har länsarbetsnämnden förklarat sig beredd att bidraga
             med det s. k. 75-procentiga sysselsättningsbidraget.
           </seg>
-        </u>
-        <u xml:id="i-TwcuxtC9oJVxEbhnEUCfuL" who="i-QhnsQ4XHA6EXWk4gj8dW77" prev="i-Q161AuEQrgqDKmSnXePP5Z">
           <seg xml:id="i-VWJt2ovxUv8EfiA1jLEmjr">
             Jag beräknar att de nämnda undersökningarna och kontakterna,
             som jag noga följer, skall resultera i ett förslag till regeringen
@@ -2821,22 +2581,18 @@
         <note xml:id="i-43fiY8dWm4jVL4SV225tyg">
           66
         </note>
-        <u xml:id="i-JCW1ToRaUXHosNXR3ttxSC" who="i-P769SjFVauFy2g8JW9w9Ft" prev="i-HFmUN6qx9W5XDYAyb4q2MF" next="i-9ZM8yDrfMt8ThGhSTiaBQ2">
+        <u xml:id="i-JCW1ToRaUXHosNXR3ttxSC" who="i-P769SjFVauFy2g8JW9w9Ft" prev="i-HFmUN6qx9W5XDYAyb4q2MF">
           <seg xml:id="i-3a19SpmafzFt6APDhuM6FV">
             att få svar på min fråga om en liten bruksorts framtid. Men i
             stället har jag förväntat mig ett positivt svar, och jag tycker
             mig också i svaret kunna notera vissa positiva tendenser.
           </seg>
-        </u>
-        <u xml:id="i-9ZM8yDrfMt8ThGhSTiaBQ2" who="i-P769SjFVauFy2g8JW9w9Ft" prev="i-JCW1ToRaUXHosNXR3ttxSC" next="i-Nq8xdPrRs3yhTHiAWVrCJR">
           <seg xml:id="i-MRffTEAwqrqLnmgLWEi824">
             I mitten av januari var jag med om en uppvaktning från företaget,
             de anställda och kommunala representanter hos tjänstemän i departementet.
             Samtidigt inlämnades en skrivelse till statsrådet — det är den
             som har legat till grund för framställningen.
           </seg>
-        </u>
-        <u xml:id="i-Nq8xdPrRs3yhTHiAWVrCJR" who="i-P769SjFVauFy2g8JW9w9Ft" prev="i-9ZM8yDrfMt8ThGhSTiaBQ2" next="i-9FtMzhzZQCY3Xb16BjoxzM">
           <seg xml:id="i-Q7uCrsUufbo2GbQ69cyghU">
             Jag skulle kunna hänvisa till en agitationsform, som statsrådet
             väl känner, nämligen de stora vägskyltarna med: ”Kan du tänka
@@ -2848,8 +2604,6 @@
             ge det ansvariga företaget ett bidrag till malmprospektering och
             därmed rädda den nedläggningshotade gruvan.
           </seg>
-        </u>
-        <u xml:id="i-9FtMzhzZQCY3Xb16BjoxzM" who="i-P769SjFVauFy2g8JW9w9Ft" prev="i-Nq8xdPrRs3yhTHiAWVrCJR" next="i-9JcRZ9E2yCsytvUbHJhJ7i">
           <seg xml:id="i-MRrJtHSUYbLSJsPt6iX41F">
             Statsrådet har i en avlämnad gruvproposition, som riksdagen så
             småningom i år får ta ställning till; några välformulerade meningar.
@@ -2859,8 +2613,6 @@
             — men den inledande delen av statsrådets föredragning har något
             som jag tycker är värt att notera:
           </seg>
-        </u>
-        <u xml:id="i-9JcRZ9E2yCsytvUbHJhJ7i" who="i-P769SjFVauFy2g8JW9w9Ft" prev="i-9FtMzhzZQCY3Xb16BjoxzM" next="i-2GV89o4eThtAuPJEQwF1aU">
           <seg xml:id="i-PfYbcTD6aBuin6fTuNfJiY">
             "Målet för regionalpolitiken är att människor i olika landsdelar
             skall tillförsäkras sysselsättning och service samt en god miljö.
@@ -2868,13 +2620,9 @@
             och den ekonomiska tillväxten sker på ett sådant sätt att de enskilda
             människornas trygghet värnas.”
           </seg>
-        </u>
-        <u xml:id="i-2GV89o4eThtAuPJEQwF1aU" who="i-P769SjFVauFy2g8JW9w9Ft" prev="i-9JcRZ9E2yCsytvUbHJhJ7i" next="i-SvWjF2YcZj5HXZ2H84fR1F">
           <seg xml:id="i-Js8LhuZW1w2iPtNjVFYtcb">
             Det tycker jag är en bra formulering av grunden för en god regionalpolitik.
           </seg>
-        </u>
-        <u xml:id="i-SvWjF2YcZj5HXZ2H84fR1F" who="i-P769SjFVauFy2g8JW9w9Ft" prev="i-2GV89o4eThtAuPJEQwF1aU" next="i-HjSJCMMMqbVd8mNXrexau5">
           <seg xml:id="i-A2gH4LWzaSw1VTMcmUo7PU">
             När det gäller Riddarhyttan finns det sakmaterial som styrker
             det nödvändiga i att det angelägna projektet kan genomföras. Jag
@@ -2882,8 +2630,6 @@
             Råjärnsbrottens underlagsmaterial talar sitt tydliga språk. Länsstyrelsen
             har i sina utvärderingar dessutom tagit upp de här frågorna.
           </seg>
-        </u>
-        <u xml:id="i-HjSJCMMMqbVd8mNXrexau5" who="i-P769SjFVauFy2g8JW9w9Ft" prev="i-SvWjF2YcZj5HXZ2H84fR1F">
           <seg xml:id="i-sykdFgrydjXsQCNbyjrwH">
             , Statsrådet hänvisar till att det pågår förhandlingar mellan
             Fagersta bruk och andra gruvföretag, och därför skulle jag vilja
@@ -2944,14 +2690,12 @@
         <note xml:id="i-N2qNKt3DiW9m97xMnR6N6A">
           399, och anförde:
         </note>
-        <u xml:id="i-6eKgwABCSWvM3Xb782fthM" who="i-QhnsQ4XHA6EXWk4gj8dW77" next="i-GiruJTGUfEGQ9zTfT6n9q8">
+        <u xml:id="i-6eKgwABCSWvM3Xb782fthM" who="i-QhnsQ4XHA6EXWk4gj8dW77">
           <seg xml:id="i-6sxkYSHWxjJo9PhMKth86u">
             Herr talman! Bo Lundgren har frågat mig vilka åtgärder som kan
             vidtagas för att åstadkomma en förbättring av sysselsättningsläget
             i Östra Göinge kommun.
           </seg>
-        </u>
-        <u xml:id="i-GiruJTGUfEGQ9zTfT6n9q8" who="i-QhnsQ4XHA6EXWk4gj8dW77" prev="i-6eKgwABCSWvM3Xb782fthM">
           <seg xml:id="i-NnCsFmYpq6MgK8zqQ8UoQW">
             I Östra Göinge kommun har under de senaste åren liksom i andra
             kommuner i landet förekommit problem på arbetsmarknaden. Den försämrade
@@ -2966,7 +2710,7 @@
         <note xml:id="i-ACmFhQzLNeramYEpwTMVze" type="speaker">
           BO LUNDGREN (m):
         </note>
-        <u xml:id="i-FiGT1xuhkdynbwbwMAgGTZ" who="i-4i5vpDVzDizjgGeYkeoK2E" next="i-WWPG5nNTmgzFabmc4iDbCD">
+        <u xml:id="i-FiGT1xuhkdynbwbwMAgGTZ" who="i-4i5vpDVzDizjgGeYkeoK2E" next="i-9xGpm4YWf6byeZV7Xu1QqB">
           <seg xml:id="i-ibTWpNb6NMpa6PPNm7Muw">
             Herr talman! Jag ber att få tacka industriministern för svaret
             och noterar med tillfredsställelse att industriministern säger
@@ -2974,8 +2718,6 @@
             komma att behövas för att förbättra sysselsättningsläget i Östra
             Göinge kommun.
           </seg>
-        </u>
-        <u xml:id="i-WWPG5nNTmgzFabmc4iDbCD" who="i-4i5vpDVzDizjgGeYkeoK2E" prev="i-FiGT1xuhkdynbwbwMAgGTZ" next="i-E3u5hNbzPDMzCE1rjsgNPG">
           <seg xml:id="i-FYQp3YMxiB5XFUwPqrkC9n">
             Kommunen har, som jag anfört i min fråga, under de senaste åren
             drabbats av ett flertal företagsnedläggelser med en starkt ökad
@@ -2991,8 +2733,6 @@
             i de angränsande kommunerna, vilka i flera fall har egna sysselsättningsproblem
             att brottas med.
           </seg>
-        </u>
-        <u xml:id="i-E3u5hNbzPDMzCE1rjsgNPG" who="i-4i5vpDVzDizjgGeYkeoK2E" prev="i-WWPG5nNTmgzFabmc4iDbCD" next="i-9xGpm4YWf6byeZV7Xu1QqB">
           <seg xml:id="i-Bt5SfspNfdWZ1PjCdZqfj4">
             Jag är självfallet medveten om att sysselsättningsläget i andra
             regioner och på andra orter i landet kan vara minst lika — eller
@@ -3014,7 +2754,7 @@
         <note xml:id="i-82Dh4uPaaSAE9ctutDA5Z2">
           68
         </note>
-        <u xml:id="i-9xGpm4YWf6byeZV7Xu1QqB" who="i-4i5vpDVzDizjgGeYkeoK2E" prev="i-E3u5hNbzPDMzCE1rjsgNPG" next="i-SqANPyVirPUykL7YGGheaA">
+        <u xml:id="i-9xGpm4YWf6byeZV7Xu1QqB" who="i-4i5vpDVzDizjgGeYkeoK2E" prev="i-FiGT1xuhkdynbwbwMAgGTZ">
           <seg xml:id="i-Gc2LMdpDS7cD75Gw1fSGis">
             större sammanhållna regioner. Det är därför väsentligt att uppmärksamma
             att det även i regioner med relativt sett gott sysselsättningsläge
@@ -3026,8 +2766,6 @@
             eller orter jag tidigare berört och därmed även Östra Göinge kommun.
             Detta har intygats av industriministern.
           </seg>
-        </u>
-        <u xml:id="i-SqANPyVirPUykL7YGGheaA" who="i-4i5vpDVzDizjgGeYkeoK2E" prev="i-9xGpm4YWf6byeZV7Xu1QqB">
           <seg xml:id="i-VKYnSdb7dekXHgqWEmPCmf">
             Min fråga är också föranledd av de ytterligare problem som kan
             komma att uppstå i Östra Göinge kommun. Jag tänker här närmast
@@ -3044,7 +2782,7 @@
         <note xml:id="i-JGtrs4s8uG4eHmZgjtXHTm" type="speaker">
           Industriministern NILS ÅSLING:
         </note>
-        <u xml:id="i-3K8SkvHtx8cQdH67SZyNtn" who="i-QhnsQ4XHA6EXWk4gj8dW77" next="i-687yPtYw855HcU5ugntESn">
+        <u xml:id="i-3K8SkvHtx8cQdH67SZyNtn" who="i-QhnsQ4XHA6EXWk4gj8dW77">
           <seg xml:id="i-N1Zgt4ecY4mdWJgzd3ku1q">
             Herr talman! Får jag först till Bo Lundgren säga att jag är väl
             medveten om att vi också i Syd- och Mellansverige har sådana ”öar”,
@@ -3058,8 +2796,6 @@
             mindre regioner än som f. n. sker när det gäller de regionalpolitiska
             åtgärderna.
           </seg>
-        </u>
-        <u xml:id="i-687yPtYw855HcU5ugntESn" who="i-QhnsQ4XHA6EXWk4gj8dW77" prev="i-3K8SkvHtx8cQdH67SZyNtn">
           <seg xml:id="i-MYGJR12t2ZYCyVCjPxRj6n">
             Beträffande Bo Lundgrens fråga huruvida den kommitté som har
             tillsatts för att studera vissa förhållanden inom skogsindustrin
@@ -3070,7 +2806,7 @@
         <note xml:id="i-VbCkaVqhu8tQCufgVGZVfs" type="speaker">
           BO LUNDGREN (m):
         </note>
-        <u xml:id="i-8paccJV5fxiNzQn8r5ErDi" who="i-4i5vpDVzDizjgGeYkeoK2E" next="i-GbHBQMzRu8VuGtbSExt6d">
+        <u xml:id="i-8paccJV5fxiNzQn8r5ErDi" who="i-4i5vpDVzDizjgGeYkeoK2E">
           <seg xml:id="i-G7Z9ZR1Srwt6uqCdvBhETs">
             Herr talman! Jag är tacksam också för beskedet att kommittén
             kommer att vara oförhindrad att ta upp frågor som gäller även
@@ -3078,8 +2814,6 @@
             Jag är självfallet också medveten om att regeringen sedan måste
             göra de avvägningar som behövs i sammanhanget.
           </seg>
-        </u>
-        <u xml:id="i-GbHBQMzRu8VuGtbSExt6d" who="i-4i5vpDVzDizjgGeYkeoK2E" prev="i-8paccJV5fxiNzQn8r5ErDi">
           <seg xml:id="i-N5eRMLopMJb3ju8KNH7Vmz">
             Låt mig bara erinra om att Broby Industrier har en situation
             som gör att man kan motivera dess fortbestånd inte bara ur rent
@@ -3114,30 +2848,22 @@
         <note xml:id="i-L6ZLjbooYFzaKbjR83tzRr">
           Om åtgärder mot resp. 409, och anförde:
         </note>
-        <u xml:id="i-4jorfznatUrXSSFW6ehuJe" who="i-QhnsQ4XHA6EXWk4gj8dW77" next="i-TiJaPMmNu7rxspaP9DZzPF">
+        <u xml:id="i-4jorfznatUrXSSFW6ehuJe" who="i-QhnsQ4XHA6EXWk4gj8dW77" next="i-6xk4ivyybiRgAw1y6ARmAM">
           <seg xml:id="i-AsiCNrQijzHceZTiR9s6T2">
             | | arbetsnedläggelser Herr talman! Hans Nyhage har frågat mig
             om jag är villig medverka till inom konfektionsatt industrin
           </seg>
-        </u>
-        <u xml:id="i-TiJaPMmNu7rxspaP9DZzPF" who="i-QhnsQ4XHA6EXWk4gj8dW77" prev="i-4jorfznatUrXSSFW6ehuJe" next="i-8ZV95ia8w3F2kmte4oQ3E1">
           <seg xml:id="i-JnPYdKzsHCYaSskZp3Bsn2">
             dels snabba åtgärder sätts in för att förhindra nu aviserade
             arbetsnedläggelser vid Erlabolaget i Borås,
           </seg>
-        </u>
-        <u xml:id="i-8ZV95ia8w3F2kmte4oQ3E1" who="i-QhnsQ4XHA6EXWk4gj8dW77" prev="i-TiJaPMmNu7rxspaP9DZzPF" next="i-8wyW2uRnsiS2sCfZ5cXwLi">
           <seg xml:id="i-GeenDF4atbGJjqwCfN699p">
             dels konfektionsindustrin snarast får beställning att sy upp
             vindrockar till landets hemvärnsmän.
           </seg>
-        </u>
-        <u xml:id="i-8wyW2uRnsiS2sCfZ5cXwLi" who="i-QhnsQ4XHA6EXWk4gj8dW77" prev="i-8ZV95ia8w3F2kmte4oQ3E1" next="i-D2QfVAwcqBQuDoBtBi72MY">
           <seg xml:id="i-J2MVbtzXnM97qRQAGDCGHH">
             Jag besvarar frågorna i ett sammanhang.
           </seg>
-        </u>
-        <u xml:id="i-D2QfVAwcqBQuDoBtBi72MY" who="i-QhnsQ4XHA6EXWk4gj8dW77" prev="i-8wyW2uRnsiS2sCfZ5cXwLi" next="i-UVNcFPPojNXf9cBkQdR6Yc">
           <seg xml:id="i-52n2gbwJoeTgsQuWJbpmm5">
             Erlabolaget tillverkar till stor del kostymer och kavajer, dvs.
             det som kallas tung herrkonfektion. Krisen inom tekoindustrin
@@ -3146,8 +2872,6 @@
             på hemmamarknaden har svag konsumtionsutveckling och skärpt importkonkurrens
             under den senaste tiden medfört allt sämre avsättningsmöjligheter.
           </seg>
-        </u>
-        <u xml:id="i-UVNcFPPojNXf9cBkQdR6Yc" who="i-QhnsQ4XHA6EXWk4gj8dW77" prev="i-D2QfVAwcqBQuDoBtBi72MY" next="i-9hYiYXT52dcfxkpLYYCqwv">
           <seg xml:id="i-S3Wt6WDf7QUKQMEFAjdDLB">
             Denna utveckling har tvingat fram nedläggningar inom såväl den
             statliga tekokoncernen — Rang i Nässjö — som den privata industrin
@@ -3155,8 +2879,6 @@
             det gäller Erlabolaget är det fråga om verksamhet karakteriserad
             av yrkesskicklighet och kvalitetskänsla.
           </seg>
-        </u>
-        <u xml:id="i-9hYiYXT52dcfxkpLYYCqwv" who="i-QhnsQ4XHA6EXWk4gj8dW77" prev="i-UVNcFPPojNXf9cBkQdR6Yc" next="i-VTeQq6fqpqzYbKwNipRMCv">
           <seg xml:id="i-puRhcVJM7BbJ4HSDqM3E6">
             Det är självfallet inom Erlabolaget som bedömningen av förutsättningarna
             för fortsatt verksamhet i första hand skall ske. De åtgärder som
@@ -3170,8 +2892,6 @@
             en förlängning av äldrestödet för tekoindustrin under andra halvåret
             1978.
           </seg>
-        </u>
-        <u xml:id="i-VTeQq6fqpqzYbKwNipRMCv" who="i-QhnsQ4XHA6EXWk4gj8dW77" prev="i-9hYiYXT52dcfxkpLYYCqwv" next="i-Cjh8aYyTp28NTbmTYkR8HS">
           <seg xml:id="i-V4QbvHT4tG6bF4TD7cLjfb">
             Beträffande Hans Nyhages fråga om upphandling av vindrockar vill
             jag erinra om att regeringen redan under innevarande budgetår
@@ -3179,8 +2899,6 @@
             När det gäller rådrumsbeställningar inom tekosektorn har vidare
             arbetsmarknadsstyrelsen fortfarande kvar vissa outnyttjade medel.
           </seg>
-        </u>
-        <u xml:id="i-Cjh8aYyTp28NTbmTYkR8HS" who="i-QhnsQ4XHA6EXWk4gj8dW77" prev="i-VTeQq6fqpqzYbKwNipRMCv" next="i-WUXmtaNHLXaxyX3U1R8Wmh">
           <seg xml:id="i-F9W6kxbRiCLRGKKGPwnYbM">
             Jag har av försvarsministern inhämtat att chefen för armén har
             beslutat tilldela hemvärnet fältuniform m/59 och fältskjorta med
@@ -3189,8 +2907,6 @@
             överskott av fältuniform m/59 och fältskjortor samt inplanerad
             anskaffning under den aktuella perioden.
           </seg>
-        </u>
-        <u xml:id="i-WUXmtaNHLXaxyX3U1R8Wmh" who="i-QhnsQ4XHA6EXWk4gj8dW77" prev="i-Cjh8aYyTp28NTbmTYkR8HS" next="i-6xk4ivyybiRgAw1y6ARmAM">
           <seg xml:id="i-2ZZjjR9KnumRD5dR3VJ1XT">
             Vad avser vindrock med foder täcker tillgången inte behovet ens
             för armén i övrigt. F. n. utnyttjas kappa m/39 som ersättning.
@@ -3210,12 +2926,10 @@
         <note xml:id="i-Hxbv2JJMc3KbnXQGFTfBxW">
           70
         </note>
-        <u xml:id="i-6xk4ivyybiRgAw1y6ARmAM" who="i-QhnsQ4XHA6EXWk4gj8dW77" prev="i-WUXmtaNHLXaxyX3U1R8Wmh" next="i-G2ywXmkE3a7F6zf2APZfbP">
+        <u xml:id="i-6xk4ivyybiRgAw1y6ARmAM" who="i-QhnsQ4XHA6EXWk4gj8dW77" prev="i-4jorfznatUrXSSFW6ehuJe">
           <seg xml:id="i-LsfcyajWtcZcQin17Yxy1f">
             rioden 1978-1983 är endast en mycket begränsad ånskaffning inplanerad.
           </seg>
-        </u>
-        <u xml:id="i-G2ywXmkE3a7F6zf2APZfbP" who="i-QhnsQ4XHA6EXWk4gj8dW77" prev="i-6xk4ivyybiRgAw1y6ARmAM">
           <seg xml:id="i-9SZ7ycoHXvNVmzSQjzVFXM">
             Från regeringens sida ser vi f. n. över behovet av insatser för
             tekoindustrin. Frågan om ytterligare beställningar kommer att
@@ -3225,7 +2939,7 @@
         <note xml:id="i-ThDeMP9Q2sFMGsQPMbFDtm" type="speaker">
           HANS NYHAGE (m):
         </note>
-        <u xml:id="i-3e1Wo8nE5MQdyMvewoXjid" who="i-DYxXbC2LXzL11J2rHdExZh" next="i-EjpaChdSeb3xhrk5wkM5eS">
+        <u xml:id="i-3e1Wo8nE5MQdyMvewoXjid" who="i-DYxXbC2LXzL11J2rHdExZh" next="i-PHpt1AbosKwYzmFrJDKEUF">
           <seg xml:id="i-WM9K9uD3hYL5qev3j7FjEp">
             Herr talman! Jag ber att få tacka statsrådet Åsling för svaren
             på mina båda frågor. Jag delar statsrådets uppfattning att de
@@ -3235,8 +2949,6 @@
             och de som kommer att vidtas, skall spela en positiv roll i sammanhanget.
             Men jag är inte alldeles säker på att så kommer att bli fallet.
           </seg>
-        </u>
-        <u xml:id="i-EjpaChdSeb3xhrk5wkM5eS" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-3e1Wo8nE5MQdyMvewoXjid" next="i-8uz8enCVnW5o73mDMvTHAn">
           <seg xml:id="i-QWyotFmCCULELacSgxeMP7">
             Båda frågorna är ställda mot bakgrund av den mycket bekymmersamma
             situation som gäller för tekoindustrin och därmed också för sysselsättningen
@@ -3244,8 +2956,6 @@
             betingad av att det sedan länge finns ett starkt uttalat behov
             av att hemvärnsmännen förses med dylika rockar.
           </seg>
-        </u>
-        <u xml:id="i-8uz8enCVnW5o73mDMvTHAn" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-EjpaChdSeb3xhrk5wkM5eS" next="i-23r52UCjDnmdhujPB5tZ1D">
           <seg xml:id="i-LH15QK8GWTtqZiPsdeHYdL">
             Statsrådet är väl införstådd med de stora problem vi har att
             brottas med i Boråsområdet, bl. a. genom besök på ort och ställe.
@@ -3257,8 +2967,6 @@
             000 anställda enligt uppgift aviserat att en nedläggning så småningom
             kan vara ofrånkomlig.
           </seg>
-        </u>
-        <u xml:id="i-23r52UCjDnmdhujPB5tZ1D" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-8uz8enCVnW5o73mDMvTHAn" next="i-9HtmqDcjHGu7Bfbwz3CqS4">
           <seg xml:id="i-BhCjKJYUC9dvQE5CK2dMHP">
             Efter överenskommelse mellan företagsledning och anställda skall
             Erlabolagets situation f. n. bli föremål för en särskild konsultutredning.
@@ -3269,8 +2977,6 @@
             statsägda konfektionsföretagen snedvridna inhemska konkurrensen
             sätter sina spår.
           </seg>
-        </u>
-        <u xml:id="i-9HtmqDcjHGu7Bfbwz3CqS4" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-23r52UCjDnmdhujPB5tZ1D" next="i-URPBPUuzKjmPy35u9u9tTZ">
           <seg xml:id="i-4bXE2uBRjDnMGRxMcuJGgK">
             I den här situationen är det angeläget att finna åtgärder som
             kan trygga fortsatt verksamhet och därmed sysselsättning vid företaget.
@@ -3281,8 +2987,6 @@
             På detta sätt skulle också ytterligare tid vinnas, vilket inte
             är minst väsentligt när det gäller att komma till rätta med problemen.
           </seg>
-        </u>
-        <u xml:id="i-URPBPUuzKjmPy35u9u9tTZ" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-9HtmqDcjHGu7Bfbwz3CqS4" next="i-PHpt1AbosKwYzmFrJDKEUF">
           <seg xml:id="i-PNdidXhtiy7HMsXkdQhGQQ">
             Beträffande hemvärnets vindrockar vill jag meddela att till dessa
             behövs dels yttertyg i form av varpsatin, dels foder i form av
@@ -3293,59 +2997,43 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-197778--129/prot_197778__129-028.jp2/_view"/>
-        <u xml:id="i-PHpt1AbosKwYzmFrJDKEUF" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-URPBPUuzKjmPy35u9u9tTZ" next="i-GKLPLKU5ejFw7PqD2PQfeV">
+        <u xml:id="i-PHpt1AbosKwYzmFrJDKEUF" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-3e1Wo8nE5MQdyMvewoXjid">
           <seg xml:id="i-Xjm98hNwKGzZx94JrHCKg4">
             längdmeter av de ca 100 000 som behövs, och av pälsfodret slutligen
             finns - Nr 129
           </seg>
-        </u>
-        <u xml:id="i-GKLPLKU5ejFw7PqD2PQfeV" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-PHpt1AbosKwYzmFrJDKEUF" next="i-6jCy1BVNevbhWmMuLLZysp">
           <seg xml:id="i-BA51TR1KNVEnqipL1LcnzD">
             f.n. ca 150 000 m? av erforderliga 210 000. Tisdagen den Med
             dessa sifferuppgifter har jag velat ange att erfordeligt tyg för
             de 25 april 1978
           </seg>
-        </u>
-        <u xml:id="i-6jCy1BVNevbhWmMuLLZysp" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-GKLPLKU5ejFw7PqD2PQfeV" next="i-8GcyLJZvMnXBATMzw2LDCc">
           <seg xml:id="i-5jFLNuJvumDJmjfzHaeSCc">
             aktuella vindrockarna finns tillgängligt i mycket stor omfattning.
             Vad det nu
           </seg>
-        </u>
-        <u xml:id="i-8GcyLJZvMnXBATMzw2LDCc" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-6jCy1BVNevbhWmMuLLZysp" next="i-NrVze1QrNXNLAeVUruPaJG">
           <seg xml:id="i-9Kf9Z5Pk6CdYWfA4ieiJsH">
             gäller är främst att få rockarna uppsydda.
           </seg>
-        </u>
-        <u xml:id="i-NrVze1QrNXNLAeVUruPaJG" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-8GcyLJZvMnXBATMzw2LDCc" next="i-VNyDGCDM2VcpUHjqmoSYN8">
           <seg xml:id="i-HYmc1ujxBC85zAeJm2XS2G">
             . Om åtgärder mot Till detta bör också läggas att det även för
             civilförsvarets räkning är
           </seg>
-        </u>
-        <u xml:id="i-VNyDGCDM2VcpUHjqmoSYN8" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-NrVze1QrNXNLAeVUruPaJG" next="i-MxyGipmK2rUsfGuTovsf52">
           <seg xml:id="i-L7ZZjPt4f3mz8o6PE8e3L7">
             a . | i arbetsnedläggelser angeläget med likartade rockar. Det
             innebär att det sammantaget finns ett inom konfektionsstarkt behov
             av att ca 200 000 rockar sys upp. Det är inget tvivel om att det
             här industrin
           </seg>
-        </u>
-        <u xml:id="i-MxyGipmK2rUsfGuTovsf52" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-VNyDGCDM2VcpUHjqmoSYN8" next="i-MPbiKJTHryppPQWD5xP9Zr">
           <seg xml:id="i-RNvmYaEYumwgF3UMyLfQnR">
             finns en möjlighet att på ett påtagligt sätt stödja konfektionsindustrin,
             samtidigt som angelägna behov inom hemvärnet och civilförsvaret
             tillgodo- Ses. |
           </seg>
-        </u>
-        <u xml:id="i-MPbiKJTHryppPQWD5xP9Zr" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-MxyGipmK2rUsfGuTovsf52" next="i-DPXFySLuTbwWpBMa3BK3NT">
           <seg xml:id="i-UFimfT5BhmBE8Gju8y8hRY">
             Det är uppenbart att beställningar av här angiven karaktär medför
             betydande kostnader. För t. ex. hemvärnets del torde det röra
             sig om ca 300 kr. per rock, dvs. totalt ca 30 milj. kr.
           </seg>
-        </u>
-        <u xml:id="i-DPXFySLuTbwWpBMa3BK3NT" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-MPbiKJTHryppPQWD5xP9Zr" next="i-QZZYUGVprFxmqFTmbNHCtd">
           <seg xml:id="i-tSVBPVWb2kUXjEUxTotnn">
             Dessa kostnader måste dock rimligen vägas mot de stora kostnader
             som ligger i de åtgärder som måste vidtagas från samhällets sida
@@ -3353,8 +3041,6 @@
             skall också läggas de många bekymmer av skilda slag som drabbar
             dessa människor och som ju inte går att värdera i pengar.
           </seg>
-        </u>
-        <u xml:id="i-QZZYUGVprFxmqFTmbNHCtd" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-DPXFySLuTbwWpBMa3BK3NT">
           <seg xml:id="i-696gPQHfKjUDn5CDNQfFQK">
             Statsrådet avslutar sitt svar med att uttala att behovet av insatser
             inom tekoindustrin f. n. ses över inom regeringen och att frågan
@@ -3367,15 +3053,13 @@
         <note xml:id="i-SUbqHVvFhbMWwWR2aeTsDB" type="speaker">
           Industriministern NILS ÅSLING:
         </note>
-        <u xml:id="i-Ka43pFnQkUotWZ4GAm95sp" who="i-QhnsQ4XHA6EXWk4gj8dW77" next="i-6At3wXb8wewaU1FsU42CaX">
+        <u xml:id="i-Ka43pFnQkUotWZ4GAm95sp" who="i-QhnsQ4XHA6EXWk4gj8dW77">
           <seg xml:id="i-AwTJbvbGDb1Chimve1XzQ8">
             Herr talman! Får jag inledningsvis säga att jag delar Hans Nyhages
             oro för utvecklingen. Jag känner väl situationen i Boråstrakten,
             och som jag redovisat tidigare i flera svar här i kammaren är
             vi också beredda till extraordinära insatser där.
           </seg>
-        </u>
-        <u xml:id="i-6At3wXb8wewaU1FsU42CaX" who="i-QhnsQ4XHA6EXWk4gj8dW77" prev="i-Ka43pFnQkUotWZ4GAm95sp" next="i-Kb47GQuyUaiY13TASkPiGy">
           <seg xml:id="i-2HvUHHxo8uds6uYM5ehpRC">
             När det gäller tekobranschen i stort får man väl säga att även
             om det finns några ljusglimtar inom vissa sektorer är situationen
@@ -3385,8 +3069,6 @@
             Arbetsmarknadsministern planerar att framlägga förslag om en förlängning
             av äldrestödet för resten av år 1978, vilket framgår av mitt svar.
           </seg>
-        </u>
-        <u xml:id="i-Kb47GQuyUaiY13TASkPiGy" who="i-QhnsQ4XHA6EXWk4gj8dW77" prev="i-6At3wXb8wewaU1FsU42CaX">
           <seg xml:id="i-QkpX8Mu4q3cu4kcSqRbGvW">
             Sedan är jag angelägen om att understryka vad jag också framhåller
             i mitt svar, att vi i regeringskansliet överväger situationen
@@ -3418,7 +3100,7 @@
         <note xml:id="i-TdHFVcn34q5yqdCA2GtpUG" type="speaker">
           HANS NYHAGE (m):
         </note>
-        <u xml:id="i-TghcgfEL97GqaBY8hZu5fL" who="i-DYxXbC2LXzL11J2rHdExZh" next="i-9D2dQ7pW32yVm1iG9HNJDx">
+        <u xml:id="i-TghcgfEL97GqaBY8hZu5fL" who="i-DYxXbC2LXzL11J2rHdExZh">
           <seg xml:id="i-EnAJikmo1LY9Wnwgoe5Nie">
             Herr talman! Jag är klart medveten om att det från regeringens
             sida har vidtagits en lång rad åtgärder för att man skall komma
@@ -3426,14 +3108,10 @@
             vill gärna understryka att inte minst äldrestödet spelar en mycket
             väsentlig roll. Det har emellertid visat sig
           </seg>
-        </u>
-        <u xml:id="i-9D2dQ7pW32yVm1iG9HNJDx" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-TghcgfEL97GqaBY8hZu5fL" next="i-9cG2WLUmBtYCFKgV32gAw6">
           <seg xml:id="i-VdmNkVuXyPmV5PXmexqqaJ">
             att de åtgärderna inte har varit tillräckliga för att lösa problemen
             på
           </seg>
-        </u>
-        <u xml:id="i-9cG2WLUmBtYCFKgV32gAw6" who="i-DYxXbC2LXzL11J2rHdExZh" prev="i-9D2dQ7pW32yVm1iG9HNJDx">
           <seg xml:id="i-Gim4uKN6DzzYLHPvzb5wW5">
             Erlabolaget. Men jag vill återigen understryka att jag ser slutorden
             i svaret, vilka statsrådet nu upprepade, som klart positiva, och
@@ -3576,7 +3254,7 @@
           av Eva Hjelmström (vpk) till kommunikationsministern om lämpligheten
           av viss planerad garagebyggnad i Stockholms city:
         </note>
-        <u xml:id="i-BywPVzf4DxCEhcf6bvvhuL" who="unknown">
+        <u xml:id="i-BywPVzf4DxCEhcf6bvvhuL" who="unknown" next="i-FnHaapvxLkmn6cT6tBw63f">
           <seg xml:id="i-5GQF9dovhxvDX351d9arAH">
             En växande opinion motsätter sig den alltmer ohämmade privatbilismens
             utbredning i storstäderna med åtföljande avgasproblem och blyförgiftningar.
@@ -3609,25 +3287,19 @@
         <note xml:id="i-Kd5Nz59NUpmT5ajnsT1qDz">
           74
         </note>
-        <u xml:id="i-FnHaapvxLkmn6cT6tBw63f" who="unknown">
+        <u xml:id="i-FnHaapvxLkmn6cT6tBw63f" who="unknown" prev="i-BywPVzf4DxCEhcf6bvvhuL">
           <seg xml:id="i-3Wazs3Kwcf4N5Bdrd3ceNp">
             förvärra situationen genom att anlägga ett jättegarage i Stockholms
             city, ett garagebygge som därtill föregåtts av en omfattande skövling
             av den natur
           </seg>
-        </u>
-        <u xml:id="i-7XWTGk6NRus6yw2zQMfDfe" who="unknown">
           <seg xml:id="i-RceXs7dhKYiz9jHopwLApQ">
             . som fanns kvar i en mycket känslig miljö i Stockholms stadsbild.
           </seg>
-        </u>
-        <u xml:id="i-9mctE11Ab4MbngoA2tcqHK" who="unknown">
           <seg xml:id="i-K1SvXqH43MK845Ydzg5rXe">
             Med hänvisning till det anförda hemställer jag att till kommunikationsministern
             få ställa följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-37yyBzFdY31QQwMAF9YfGj" who="unknown">
           <seg xml:id="i-UoUDXKTsQXvYfxJAKw19CM">
             Anser kommunikationsministern att garagebygget i Stockholms city
             är förenligt med den minskning av privatbilismen i Stockholms

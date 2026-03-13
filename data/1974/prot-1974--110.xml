@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-Qth1QVM6xWiQsYx8hydPYM" type="speech">
             <linkGrp type="u">
               <ptr target="#i-b3cd4701415385d7-0"/>
@@ -196,7 +196,13 @@
               <ptr target="#i-a6e83e2b051b3005-14"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -287,7 +293,7 @@
         <note xml:id="i-CBjuTcSedtcTBMuofaMNMd" type="title">
           Onsdagen den 30 oktober kl. 10.00
         </note>
-        <u xml:id="i-T2iRQounFAewoFcPcUho9x" who="unknown">
+        <u xml:id="i-T2iRQounFAewoFcPcUho9x" who="unknown" next="i-7pdDDY5456SNfJYvg6M1f6">
           <seg xml:id="i-Nbu44LG2W6poQrmVFc5dhu">
             NEAR IE INOKOUE. &gt; ses s av övik Hörken RA SR bea Res RAN
             REK KAR Meddelande ang. arbetet under höstsessionen ..........«=+
@@ -456,7 +462,7 @@
         <note xml:id="i-3eChgB8qWYgJqsZ3hsHWcS">
           7
         </note>
-        <u xml:id="i-7pdDDY5456SNfJYvg6M1f6" who="unknown">
+        <u xml:id="i-7pdDDY5456SNfJYvg6M1f6" who="unknown" prev="i-T2iRQounFAewoFcPcUho9x">
           <seg xml:id="i-AabTsKDJh4a7xSJP6PRqfF">
             n
           </seg>
@@ -577,7 +583,7 @@
         <note xml:id="i-PmFmYrW2f2nEZyBCRJ1SjK" type="speaker">
           Herr SJÖHOLM (fp):
         </note>
-        <u xml:id="i-b3cd4701415385d7-0" who="i-MJi2EpNpLStR2Rke7Db78j" next="i-8HU6aXdWTuF9uqMHuHVDHV">
+        <u xml:id="i-b3cd4701415385d7-0" who="i-MJi2EpNpLStR2Rke7Db78j" next="i-b3cd4701415385d7-4">
           <seg xml:id="i-C5bgBizPGdMXgzw5YY8gXZ">
             Herr talman! Nu är det så dags igen, det är ju inte första gången
             vi diskuterar boxning i riksdagen. Det borde ha varit slut för
@@ -616,8 +622,6 @@
             Har man iakttagit regeln att ingen får boxas före 17 års ålder?
             Den står i de villkor som antogs av riksdagen 1969.
           </seg>
-        </u>
-        <u xml:id="i-8HU6aXdWTuF9uqMHuHVDHV" who="i-MJi2EpNpLStR2Rke7Db78j" prev="i-b3cd4701415385d7-0" next="i-b3cd4701415385d7-4">
           <seg xml:id="i-XsEjnHofDCEjiaJB6qbsFQ">
             Det anordnas numera ”knatteboxningar” för 12-13-åringar, vilket
             strider
@@ -642,7 +646,7 @@
         <note xml:id="i-ToXLoY62WkMyER1tnYMcb7">
           30 oktober 1974
         </note>
-        <u xml:id="i-b3cd4701415385d7-4" who="i-MJi2EpNpLStR2Rke7Db78j" prev="i-8HU6aXdWTuF9uqMHuHVDHV" next="i-b3cd4701415385d7-5">
+        <u xml:id="i-b3cd4701415385d7-4" who="i-MJi2EpNpLStR2Rke7Db78j" prev="i-b3cd4701415385d7-0" next="i-b3cd4701415385d7-5">
           <seg xml:id="i-WZdyo9EbtW8b1fuhgKjAcV">
             mot bestämmelserna och rent ut sagt är cyniskt.
           </seg>
@@ -1055,7 +1059,7 @@
         <note xml:id="i-4FSmvDwVQmwEJ4cSJabFix" type="speaker">
           Herr BERGMAN i Nyköping (s):
         </note>
-        <u xml:id="i-e0aabe03eccaae19-0" who="i-2qMAGUo6yhpbSovQ2eHBVE" next="i-9kGHcZAs948GWeSkgTkAyz">
+        <u xml:id="i-e0aabe03eccaae19-0" who="i-2qMAGUo6yhpbSovQ2eHBVE">
           <seg xml:id="i-J3uY9ST1SETk8B5z9VBAh5">
             Herr talman! Jag vet inte om jag kan berika den här debatten
             med några nya synpunkter men som f. d. aktiv boxare har jag ett
@@ -1088,8 +1092,6 @@
             detta en ovidkommande sak. Jag tycker därför att fakulteten har
             lagt mera en moralisk än en medicinsk uppfattning i det här avsnittet.
           </seg>
-        </u>
-        <u xml:id="i-9kGHcZAs948GWeSkgTkAyz" who="i-2qMAGUo6yhpbSovQ2eHBVE" prev="i-e0aabe03eccaae19-0">
           <seg xml:id="i-QPHZEGFR9pYZoSL4ySfEdw">
             I övrigt instämmer jag helt i Sveriges riksidrottsförbunds utlåtande
             och yrkar bifall till kulturkutskottets hemställan i betänkande

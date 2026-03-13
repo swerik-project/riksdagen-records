@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-JMR9Q8r1pcwhA61zRiLbGJ" type="speech">
             <linkGrp type="u">
               <ptr target="#i-Knevc3qwBTN6hth1KsQA3P"/>
@@ -525,7 +525,13 @@
               <ptr target="#i-2981197c08ad4fd4-16"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -749,7 +755,7 @@
         <note xml:id="i-UUmzFzUwf36bpW4HRoH3Sn" type="speaker">
           Anf. I Kommunikationsminister CURT BOSTRÖM:
         </note>
-        <u xml:id="i-Knevc3qwBTN6hth1KsQA3P" who="i-HGfALYBg5SLYb8z1er3XK1" next="i-7xAB1R99wwmvk4ZspfbJPy">
+        <u xml:id="i-Knevc3qwBTN6hth1KsQA3P" who="i-HGfALYBg5SLYb8z1er3XK1">
           <seg xml:id="i-21fn8jBSentRR7oZy5tL9W">
             Herr talman! Pär Granstedt har med hänvisning till SJ:s framtidsplaner
             för tågtrafiken söder om Stockholm frågat mig om regeringen är
@@ -757,8 +763,6 @@
             Flemingsberg- Järna leder till försämringar i Södertäljes försörjning
             med fjärrtågstrafik.
           </seg>
-        </u>
-        <u xml:id="i-7xAB1R99wwmvk4ZspfbJPy" who="i-HGfALYBg5SLYb8z1er3XK1" prev="i-Knevc3qwBTN6hth1KsQA3P" next="i-XpU5B7MfKYRDo2ugMXvKWt">
           <seg xml:id="i-PXZMc4fMbjUzScTEiUzY7m">
             Det har länge stått klart att spårkapaciteten i Stockholmsområdet
             behöver byggas ut för att klara både lokaloch fjärrtågstrafiken.
@@ -766,8 +770,6 @@
             därför att ta initiativ till den omfattande spårutbyggnad som
             nu pågår i området.
           </seg>
-        </u>
-        <u xml:id="i-XpU5B7MfKYRDo2ugMXvKWt" who="i-HGfALYBg5SLYb8z1er3XK1" prev="i-7xAB1R99wwmvk4ZspfbJPy">
           <seg xml:id="i-J3Qjx1JX8qUHSVU2sxNBYt">
             Enligt riksdagens fastlagda ramar för järnvägen är det SJ självt
             som bestämmer fjärrtågstrafikens utformning. Självfallet strävar
@@ -1498,7 +1500,7 @@
         <note xml:id="i-F2BQUV9QVLGYqnT1J12wMR">
           70
         </note>
-        <u xml:id="i-7ec64bfdc6deb9dc-5" who="i-SfSPRTjDUBfa6bxqEn6fDP" prev="i-7ec64bfdc6deb9dc-1" next="i-QH5SoXLzXAkwXWsVoCdrin">
+        <u xml:id="i-7ec64bfdc6deb9dc-5" who="i-SfSPRTjDUBfa6bxqEn6fDP" prev="i-7ec64bfdc6deb9dc-1" next="i-7ec64bfdc6deb9dc-7">
           <seg xml:id="i-2P6ELyajopbz4tWy4rZCUx">
             ”Vi har med bestörtning tagit del av regionchefens förslag till
             genomförandeplan för regionprojektet Göteborg.
@@ -1514,14 +1516,10 @@
             lagt ned har varit helt meningslösa. Motivation och arbetsglädje
             har försvunnit.”
           </seg>
-        </u>
-        <u xml:id="i-QH5SoXLzXAkwXWsVoCdrin" who="i-SfSPRTjDUBfa6bxqEn6fDP" prev="i-7ec64bfdc6deb9dc-5" next="i-7ec64bfdc6deb9dc-6">
           <seg xml:id="i-NTgefB3skCzRjZ5F8bvuwm">
             Med anledning av detta uttalande skrev regionchefen bl. a. följande
             till generaldirektören:
           </seg>
-        </u>
-        <u xml:id="i-7ec64bfdc6deb9dc-6" who="i-SfSPRTjDUBfa6bxqEn6fDP" prev="i-QH5SoXLzXAkwXWsVoCdrin" next="i-7ec64bfdc6deb9dc-7">
           <seg xml:id="i-AZdYkvYrJ1zo4Lfmn1Ft7W">
             ”Jag har den 2 april haft en informationsträff med administratörerna
             i regionen, där jag redogjorde för hur genomförandet är tänkt
@@ -1579,7 +1577,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198485--131/prot_198485__131-014.jp2/_view"/>
-        <u xml:id="i-7ec64bfdc6deb9dc-7" who="i-SfSPRTjDUBfa6bxqEn6fDP" prev="i-7ec64bfdc6deb9dc-6">
+        <u xml:id="i-7ec64bfdc6deb9dc-7" who="i-SfSPRTjDUBfa6bxqEn6fDP" prev="i-7ec64bfdc6deb9dc-5">
           <seg xml:id="i-RrsnzH5MDGd1wPw7ErjAav">
             ”Gd har godkänt planen och är vidare beredd att träffa de chefer
             och den administrativa personal som uttryckt önskemål om detta
@@ -2094,13 +2092,11 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198485--131/prot_198485__131-020.jp2/_view"/>
-        <u xml:id="i-J82pRYZuMoKHAAjWG6S2af" who="i-HGfALYBg5SLYb8z1er3XK1" prev="i-2c8e63d2193ef2ae-10" next="i-2c8e63d2193ef2ae-12">
+        <u xml:id="i-J82pRYZuMoKHAAjWG6S2af" who="i-HGfALYBg5SLYb8z1er3XK1" prev="i-2c8e63d2193ef2ae-10">
           <seg xml:id="i-8aNofGpr4y5RYHPMH6KSA1">
             omfattning — med undantag för parkering och städning — och försöker
             heller inte utestänga andra näringsidkare, Görel Bohlin.
           </seg>
-        </u>
-        <u xml:id="i-2c8e63d2193ef2ae-12" who="i-HGfALYBg5SLYb8z1er3XK1" prev="i-J82pRYZuMoKHAAjWG6S2af">
           <seg xml:id="i-GPUgs5Qr2xcU4GQqYY5WrS">
             Som exempel kan jag nämna att det på flygplatsen finns 125 etablerade
             företag. Totalt finns ca 7 000 anställda på och kring flygplatsen.
@@ -2589,7 +2585,7 @@
         <note xml:id="i-QvySqxpLS2VEhzg8qpo7T7" type="speaker">
           Anf. 24 Statsrådet MATS HELLSTRÖM:
         </note>
-        <u xml:id="i-09db095171354710-1" who="i-BZDMLaDZjTMLecbbyhYS3t" next="i-35LnAVK42qSyygTA1wceuB">
+        <u xml:id="i-09db095171354710-1" who="i-BZDMLaDZjTMLecbbyhYS3t" next="i-PQEpZjLqSjv8vJ92yckZro">
           <seg xml:id="i-UGKugQ1QGWCTjt2iNsx4mr">
             Herr talman! Carl-Henrik Hermansson har frågat statsministern
             följande:
@@ -2605,15 +2601,11 @@
           <seg xml:id="i-9uxTBw5RtMwPq9aFSJuYKi">
             3. Hur bedömer regeringen motiven bakom den amerikanska embargopolitiken?
           </seg>
-        </u>
-        <u xml:id="i-35LnAVK42qSyygTA1wceuB" who="i-BZDMLaDZjTMLecbbyhYS3t" prev="i-09db095171354710-1" next="i-SR1t71Ee8gmp61poFfq2MX">
           <seg xml:id="i-WKqv2wHfQunoeJDhZMWD1Q">
             4. Anser regeringen att den kontroll av USA-myndigheter som utövas
             i Sverige står i överensstämmelse med principerna om folkens självbestämmanderätt
             och suveränitet?
           </seg>
-        </u>
-        <u xml:id="i-SR1t71Ee8gmp61poFfq2MX" who="i-BZDMLaDZjTMLecbbyhYS3t" prev="i-35LnAVK42qSyygTA1wceuB" next="i-PQEpZjLqSjv8vJ92yckZro">
           <seg xml:id="i-15Dk1FdkezxtAKL2XpXoRr">
             5. Vad avser regeringen att göra för att värna svenska företag
             mot kontroll utövad av utländska myndigheter?
@@ -2623,7 +2615,7 @@
         <note xml:id="i-E6uNhbh9RBRjcr9gdPkGwc">
           Interpellationen har överlämnats till mig.
         </note>
-        <u xml:id="i-PQEpZjLqSjv8vJ92yckZro" who="i-BZDMLaDZjTMLecbbyhYS3t" prev="i-SR1t71Ee8gmp61poFfq2MX" next="i-NtRcaZXtXnCPHDnHoVyeRd">
+        <u xml:id="i-PQEpZjLqSjv8vJ92yckZro" who="i-BZDMLaDZjTMLecbbyhYS3t" prev="i-09db095171354710-1" next="i-NtRcaZXtXnCPHDnHoVyeRd">
           <seg xml:id="i-XDjssitc57u8nV3GE7jF7i">
             Förenta Staterna har under senare år successivt skärpt sin exportkontrollagstiftning.
             I dag inriktar sig USA på att förhindra att Sovjetunionen och
@@ -3972,7 +3964,7 @@
         <note xml:id="i-C6xGotUB6gzCXxQenTVq82" type="speaker">
           Anf. 44 Finansminister KJELL-OLOF FELDT:
         </note>
-        <u xml:id="i-d28dcc8cd67c8acc-12" who="i-QSBS4dqtsRDzm8fcNNRFaC" next="i-79x32Smv9pqkvg5mapSCb9">
+        <u xml:id="i-d28dcc8cd67c8acc-12" who="i-QSBS4dqtsRDzm8fcNNRFaC" next="i-d28dcc8cd67c8acc-16">
           <seg xml:id="i-JoMtMwjK323f12Q3aqckbC">
             Fru talman! Lars Tobisson har med anledning av likviditetsindragningarna
             från näringslivet ställt tre frågor till mig.
@@ -3981,14 +3973,10 @@
             1. Anser finansministern att likviditetsindragningar främjar
             företagens möjligheter och vilja att investera för framtiden?
           </seg>
-        </u>
-        <u xml:id="i-79x32Smv9pqkvg5mapSCb9" who="i-QSBS4dqtsRDzm8fcNNRFaC" prev="i-d28dcc8cd67c8acc-12" next="i-d28dcc8cd67c8acc-13">
           <seg xml:id="i-SHGy4K5Y4sAt24aQUtVxkJ">
             2. Avser finansministern att förelägga riksdagen förslag om ytterligare
             tvångsinlåning från företag till staten?
           </seg>
-        </u>
-        <u xml:id="i-d28dcc8cd67c8acc-13" who="i-QSBS4dqtsRDzm8fcNNRFaC" prev="i-79x32Smv9pqkvg5mapSCb9" next="i-d28dcc8cd67c8acc-16">
           <seg xml:id="i-CuQ8F4CRY7nyrzHigZNStn">
             3. Ser regeringen de växande likviditetsindragningarna som ett
             bestående inslag i finansieringen av budgetunderskottet?
@@ -4034,7 +4022,7 @@
         <note xml:id="i-2FQ9qroK8cQYLi2ichXVcD">
           100
         </note>
-        <u xml:id="i-d28dcc8cd67c8acc-16" who="i-QSBS4dqtsRDzm8fcNNRFaC" prev="i-d28dcc8cd67c8acc-13">
+        <u xml:id="i-d28dcc8cd67c8acc-16" who="i-QSBS4dqtsRDzm8fcNNRFaC" prev="i-d28dcc8cd67c8acc-12">
           <seg xml:id="i-RSAwAcSuPtxe9vAPknhGRP">
             påverkas positivt i den mån räntenivån kan hållas lägre än annars
             och i den utsträckning prisoch löneökningarna kan hållas tillbaka.
@@ -4615,7 +4603,7 @@
         <note xml:id="i-6KXh297aqoZiFsfVFsje37">
           upprättande av riktlinjer, kontrollprogram m. m. Om kvicksilverhal-
         </note>
-        <u xml:id="i-40d4e1b2ea40912c-19" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-40d4e1b2ea40912c-18" next="i-JV8FckNvtWb1ubeZ4dwAaa">
+        <u xml:id="i-40d4e1b2ea40912c-19" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-40d4e1b2ea40912c-18">
           <seg xml:id="i-E2uHacL8kj3x5ccpeKGK63">
             Kvicksilverhalten i fisk har ett visst samband med försurningen,
             och — ton i Gävleb orgs regeringen har därför i sin proposition
@@ -4628,14 +4616,10 @@
             inriktade på kvicksilverproblemet kommer att genomföras under
             nästa budgetår.
           </seg>
-        </u>
-        <u xml:id="i-JV8FckNvtWb1ubeZ4dwAaa" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-40d4e1b2ea40912c-19" next="i-40d4e1b2ea40912c-20">
           <seg xml:id="i-LbBmqxRHjtN9ZsoC4HCDoz">
             Jag vill också erinra om de regler som gäller för konsumtion
             av fisk och om saluförbud för fisk m. m. från vissa vattenområden.
           </seg>
-        </u>
-        <u xml:id="i-40d4e1b2ea40912c-20" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-JV8FckNvtWb1ubeZ4dwAaa">
           <seg xml:id="i-TuYjoym7axkoyEMZXWKcjD">
             Jag kommer att uppmärksamt följa utvecklingen och effekterna
             av de åtgärder jag här redovisat. Jag är också beredd att positivt
@@ -4848,7 +4832,7 @@
         <note xml:id="i-S6bmHcciXdwhqW2viidrn6" type="speaker">
           Anf. 57 Jordbruksminister SVANTE LUNDKVIST:
         </note>
-        <u xml:id="i-11220833db63f356-1" who="i-2pEgGvjfozTyRxyzmLZFo2" next="i-euaDR5SbAjdbm81DegP8m">
+        <u xml:id="i-11220833db63f356-1" who="i-2pEgGvjfozTyRxyzmLZFo2" next="i-11220833db63f356-4">
           <seg xml:id="i-TJD7Kw2QinD3RJvQDVoPPx">
             Fru talman! Oswald Söderqvist har frågat mig, mot bakgrund av
             ett möte inom OECD i vilket en svensk strålskyddsexpert deltagit,
@@ -4886,7 +4870,7 @@
         <note xml:id="i-H1G8kqS5ZgCmFqL4H3ZKvP">
           110
         </note>
-        <u xml:id="i-11220833db63f356-4" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-euaDR5SbAjdbm81DegP8m">
+        <u xml:id="i-11220833db63f356-4" who="i-2pEgGvjfozTyRxyzmLZFo2" prev="i-11220833db63f356-1">
           <seg xml:id="i-G8w1pZaYxXRrxBahQDtgNg">
             för avfallsbehandling, varken när det gäller radioaktivt avfall
             eller andra typer av avfall. Den svenska lagstiftningen förbjuder
@@ -5016,7 +5000,7 @@
         <note xml:id="i-SogTNFnGa9gWDnJjvPrpzn" type="speaker">
           Anf. 62 OSWALD SÖDERQVIST (vpk):
         </note>
-        <u xml:id="i-acd8d3b27188eaff-5" who="i-RbKNMUyo9hNCG3nSXBGQAq" next="i-5EygLNkxEmscVADShNeGXz">
+        <u xml:id="i-acd8d3b27188eaff-5" who="i-RbKNMUyo9hNCG3nSXBGQAq" next="i-acd8d3b27188eaff-8">
           <seg xml:id="i-A1xG4AxLEMjqrQ9feK7rBf">
             Fru talman! Den enda slutsats jag kan dra av detta, som jag tycker,
             ganska klara besked från jordbruksministern är att ställningstagandet
@@ -5054,7 +5038,7 @@
         <note xml:id="i-YJ3LPYgjZATWZgjmC4fsSj">
           112
         </note>
-        <u xml:id="i-acd8d3b27188eaff-8" who="i-RbKNMUyo9hNCG3nSXBGQAq" prev="i-5EygLNkxEmscVADShNeGXz">
+        <u xml:id="i-acd8d3b27188eaff-8" who="i-RbKNMUyo9hNCG3nSXBGQAq" prev="i-acd8d3b27188eaff-5">
           <seg xml:id="i-3tmhGXsuKemzv57q3F7bww">
             forskare eller någonting sådant, utan han är ju anställd av statens
             strålskyddsinstitut, vår högsta bevakande myndighet. Detta tycker
@@ -6193,7 +6177,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198485--131/prot_198485__131-068.jp2/_view"/>
-        <u xml:id="i-e7b900319b75ac47-2" who="i-D74cdq6EQpWG5dWigfnSSw" prev="i-QUcMpfVdUJF45pY6mcmakp" next="i-4fbAVQ5Jyv5Ax9QU7paTRL">
+        <u xml:id="i-e7b900319b75ac47-2" who="i-D74cdq6EQpWG5dWigfnSSw" prev="i-QUcMpfVdUJF45pY6mcmakp" next="i-6kiHpTCv697XwE2S4np4cd">
           <seg xml:id="i-16B8nYgJ6jw15QB6eey27Q">
             Zenit Shipping AB har nyligen fått nya pengar. Senast efter valet
             i höst kommer såväl Svenska Varv AB som Zenit Shipping AB att
@@ -6201,8 +6185,6 @@
             att sortera ut den misslyckade varvsoch fartygspolitik som bedrivits
             under de gångna åren.
           </seg>
-        </u>
-        <u xml:id="i-4fbAVQ5Jyv5Ax9QU7paTRL" who="i-D74cdq6EQpWG5dWigfnSSw" prev="i-e7b900319b75ac47-2" next="i-6kiHpTCv697XwE2S4np4cd">
           <seg xml:id="i-SwhNBdZ1ygTUqJwWH2M6M5">
             Med ledning av ovanstående önskar jag ställa följande frågor
             till statsrådet Roine Carlsson:
@@ -6212,7 +6194,7 @@
           1. Avser statsrådet att tillse att Svenska Varv AB upprättar
           kontrollbalansräkning när halva aktiekapitalet har förbrukats?
         </note>
-        <u xml:id="i-6kiHpTCv697XwE2S4np4cd" who="i-D74cdq6EQpWG5dWigfnSSw" prev="i-4fbAVQ5Jyv5Ax9QU7paTRL">
+        <u xml:id="i-6kiHpTCv697XwE2S4np4cd" who="i-D74cdq6EQpWG5dWigfnSSw" prev="i-e7b900319b75ac47-2">
           <seg xml:id="i-MCbmSnB3nAtA5YcVwKegDW">
             2. Vidhåller statsrådet kravet på att bibehålla nuvarande varvskapacitet
             efter nedläggningen av Uddevallavarvet?
@@ -6241,7 +6223,7 @@
           147 av Anna Lindh (s) till försvarsministern om utbildning för
           värnpliktiga i svensk säkerhetspolitik:
         </note>
-        <u xml:id="i-c04f741a2b060c77-4" who="i-S7LcGmD5NuSMrFDW8LBeJ1" next="i-TpN1Q3eS9aAqgkMpDUzWSu">
+        <u xml:id="i-c04f741a2b060c77-4" who="i-S7LcGmD5NuSMrFDW8LBeJ1">
           <seg xml:id="i-DLM6VqB9vzdm4xdR2WPqnx">
             Den allmänna värnplikten är grunden för försvarets folkliga och
             demokratiska förankring och är därför mycket betydelsefull. Däremot
@@ -6256,8 +6238,6 @@
             och värderingar som stämmer överens med Sveriges säkerhetspolitik
             och grundläggande demokratiska värderingar.
           </seg>
-        </u>
-        <u xml:id="i-TpN1Q3eS9aAqgkMpDUzWSu" who="i-S7LcGmD5NuSMrFDW8LBeJ1" prev="i-c04f741a2b060c77-4">
           <seg xml:id="i-CnuKvVTCbgsPwqqg6PLWSn">
             Vad avser försvarsministern göra för att förbättra de värnpliktigas
             utbildning i dessa frågor?

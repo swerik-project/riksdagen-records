@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-2S9euTvPBrUMWUXVUTG1g9" type="speech">
             <linkGrp type="u">
               <ptr target="#i-a81666ddd4b0ca15-0"/>
@@ -280,7 +280,13 @@
               <ptr target="#i-800c207a4eb9fe7c-0"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -516,13 +522,11 @@
         <note xml:id="i-BR8bZnQQasLE6jKa2asa6q" type="title">
           § 10.
         </note>
-        <u xml:id="i-MyirAvN45WduFTvJHArePN" who="unknown" next="i-CXv2b9eZfd9VZmKy6uK9Hb">
+        <u xml:id="i-MyirAvN45WduFTvJHArePN" who="unknown">
           <seg xml:id="i-4Qo5k9qDgqiqizVnkHifsn">
             De från Konungen hänskjutna mål böra företrädesvis till behandling
             förekomma.
           </seg>
-        </u>
-        <u xml:id="i-CXv2b9eZfd9VZmKy6uK9Hb" who="unknown" prev="i-MyirAvN45WduFTvJHArePN">
           <seg xml:id="i-NQjWo2HBTmiNv7CYpGx2TH">
             Är fråga om antagande av ny bibelöversättning, psalmbok, evangeliibok,
             kyrkohandbok eller katekes, bör, där de av mötets medlemmar, som
@@ -1038,7 +1042,7 @@
         <note xml:id="i-E9beS5CJP99e9wjLBPjkAW" type="speaker">
           Herr Anderson i Råstock:
         </note>
-        <u xml:id="i-db488eb61945c05b-0" who="i-TxRCzzgetP7718TE7usGwh" next="i-CGhNi8Vchv1qUkQciEDgoU">
+        <u xml:id="i-db488eb61945c05b-0" who="i-TxRCzzgetP7718TE7usGwh" next="i-K3HMSJ3ZMHbksgmonU169K">
           <seg xml:id="i-2gAr5yvXgRACbkMLQkmJ8f">
             Herr talman! Jag skall be att få meddela herr Osberg, vilket
             han för övrigt skulle kunna finna av utskottets utlåtande, att
@@ -1060,8 +1064,6 @@
             och som varit påkallad i tjugo år, i dag skall vinna kammarens
             bifall.
           </seg>
-        </u>
-        <u xml:id="i-CGhNi8Vchv1qUkQciEDgoU" who="i-TxRCzzgetP7718TE7usGwh" prev="i-db488eb61945c05b-0" next="i-K3HMSJ3ZMHbksgmonU169K">
           <seg xml:id="i-VM8i8gRb9JnKt94o1Y389h">
             Jag yrkar bifall till utskottets hemställan.
           </seg>
@@ -1131,7 +1133,7 @@
           på jordbruksområdet, veterinärhögskolan, statens veterinärbakteriologiska
           anstalt, skogshögskolan och statens skogsförsöksanstalt.
         </note>
-        <u xml:id="i-K3HMSJ3ZMHbksgmonU169K" who="i-TxRCzzgetP7718TE7usGwh" prev="i-CGhNi8Vchv1qUkQciEDgoU" next="i-YG5KZL6tLHdzcPQG659jAs">
+        <u xml:id="i-K3HMSJ3ZMHbksgmonU169K" who="i-TxRCzzgetP7718TE7usGwh" prev="i-db488eb61945c05b-0" next="i-YG5KZL6tLHdzcPQG659jAs">
           <seg xml:id="i-SdonbueVNqYxoHLJ6PQFd">
             Nämnda förslag innebar bland annat, att vissa befattningshavare,
             vilka före 1925 års lönereglering för universiteten och karolinska
@@ -1738,7 +1740,7 @@
         <note xml:id="i-6DR3B7Xoa2YULjFmEybgS4" type="speaker">
           Herr Nylander:
         </note>
-        <u xml:id="i-d7756c81f7d014a0-0" who="i-8e97Z8CH9cGtDJXCnfJMMg" next="i-Y7dDRuwRyV2JKgo8f4fj3S">
+        <u xml:id="i-d7756c81f7d014a0-0" who="i-8e97Z8CH9cGtDJXCnfJMMg" next="i-d7756c81f7d014a0-2">
           <seg xml:id="i-Uh76JrpT9VwfLLA3cUjfzz">
             Herr talman! Såsom den föregående talaren framhållit tycks det
             vara riksdagsbeslutet av i fjol, som skrämt utskottsmajoriteten
@@ -1772,8 +1774,6 @@
             mellan professorerna vid nämnda institutioner, och av dem bland
             de främsta tekniska högskolan, med professorerna vid universiteten».
           </seg>
-        </u>
-        <u xml:id="i-Y7dDRuwRyV2JKgo8f4fj3S" who="i-8e97Z8CH9cGtDJXCnfJMMg" prev="i-d7756c81f7d014a0-0" next="i-d7756c81f7d014a0-1">
           <seg xml:id="i-CYiDhWyB3LVoZXjZZGqKQt">
             Kategoriskt för tekniska högskolans professorers likställighet
             med universiteten i vad avser professorernas löneförmåner uttalar
@@ -1789,8 +1789,6 @@
             hittillsvarande likställigheten i avlöningshänseende mellan universitetens
             och högskolans professorer vara fullt berättigat.»
           </seg>
-        </u>
-        <u xml:id="i-d7756c81f7d014a0-1" who="i-8e97Z8CH9cGtDJXCnfJMMg" prev="i-Y7dDRuwRyV2JKgo8f4fj3S" next="i-d7756c81f7d014a0-2">
           <seg xml:id="i-Ub6UGLrnGJoadekrPzbqYD">
             Universitetens representant i nämnda löneregleringskommitté,
             som yrkade på högre avlöning för universitetsprofessorerna, yrkade
@@ -1825,7 +1823,7 @@
         <note xml:id="i-EkyRj9oihsx3m3WjR1Kxed" type="date">
           18 Onsdagen den 10 februari.
         </note>
-        <u xml:id="i-d7756c81f7d014a0-2" who="i-8e97Z8CH9cGtDJXCnfJMMg" prev="i-d7756c81f7d014a0-1" next="i-d7756c81f7d014a0-3">
+        <u xml:id="i-d7756c81f7d014a0-2" who="i-8e97Z8CH9cGtDJXCnfJMMg" prev="i-d7756c81f7d014a0-0" next="i-d7756c81f7d014a0-3">
           <seg xml:id="i-GyxZri3m1zi3Adc9CRhE6J">
             nu skall be att få övergå, professorerna vid tekniska högskolan
             ha en ställning, som sammanfaller med universitetsprofessorernas.
@@ -2999,7 +2997,7 @@
         <note xml:id="i-9psHrhx3Mc5JqHNAWMwGJp" type="date">
           32 Onsdagen den 10 februari.
         </note>
-        <u xml:id="i-08448b5904ce25f1-8" who="i-NKRTEKkMqyNZNU9RaYZLPC" prev="i-08448b5904ce25f1-7" next="i-SH8YgoYWfNTba7dpaPuq8p">
+        <u xml:id="i-08448b5904ce25f1-8" who="i-NKRTEKkMqyNZNU9RaYZLPC" prev="i-08448b5904ce25f1-7">
           <seg xml:id="i-RMLPkmdyNj1mCJkmLBvX5W">
             Men jag går vidare. Vi ha en annan institution, för vilken det
             föreligger ett förslag om lönereglering, nämligen farmaceutiska
@@ -3045,8 +3043,6 @@
             få stå ett litet pinnhål högre på grund av den särställning, som
             de intaga i vårt vetenskapliga och kulturella liv.
           </seg>
-        </u>
-        <u xml:id="i-SH8YgoYWfNTba7dpaPuq8p" who="i-NKRTEKkMqyNZNU9RaYZLPC" prev="i-08448b5904ce25f1-8">
           <seg xml:id="i-PkvUJobGTVVubnQuWCyn7n">
             Jag yrkar därför, herr talman, bifall till utskottets hemställan.
           </seg>
@@ -3054,7 +3050,7 @@
         <note xml:id="i-CpbmCp71irEVESEJvUwAeV" type="speaker">
           Herr Lindman:
         </note>
-        <u xml:id="i-4ae31606907312bb-0" who="i-Fnu186BGHvvTJDuB7t6zMb" next="i-EaqL8ovw76QopwjSKb5uwe">
+        <u xml:id="i-4ae31606907312bb-0" who="i-Fnu186BGHvvTJDuB7t6zMb" next="i-4ae31606907312bb-1">
           <seg xml:id="i-P5ALtCcEWk3Ehs8bjsjPDk">
             Herr talman! Jag måste ställa mig på den utgångspunkten, att
             det tidigare rått likställighet mellan universitetsprofessorerna
@@ -3074,8 +3070,6 @@
             yttrade sig om universitetsprofessorerna, den icke lämnat ifrån
             sig rättigheten att låta andra stå kvar i samma löneställ-
           </seg>
-        </u>
-        <u xml:id="i-EaqL8ovw76QopwjSKb5uwe" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-4ae31606907312bb-0" next="i-4ae31606907312bb-1">
           <seg xml:id="i-9sppLrj9iZ6LjgnP5gCRZi">
             ning som dessa.
           </seg>
@@ -3084,7 +3078,7 @@
         <note xml:id="i-8cqfWZwhgz98htU4XJrPfv" type="date">
           Onsdagen den 10 februari. 3
         </note>
-        <u xml:id="i-4ae31606907312bb-1" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-EaqL8ovw76QopwjSKb5uwe" next="i-4ae31606907312bb-2">
+        <u xml:id="i-4ae31606907312bb-1" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-4ae31606907312bb-0" next="i-4ae31606907312bb-2">
           <seg xml:id="i-Cz6FUrMhaJy4hkWh26q3ia">
             Nu gör man emellertid en fullkomlig omkastning, och jag skulle
             under sådana förhållanden gärna vilja granska de skäl som föranlett,
@@ -3423,7 +3417,7 @@
         <note xml:id="i-SZXkJKYuwFsCyNuEMKUvpW" type="date">
           Onsdagen den 10 februari. 37
         </note>
-        <u xml:id="i-4ae31606907312bb-5" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-4ae31606907312bb-4" next="i-HkcnDbYDmg2uEsETsuSfGR">
+        <u xml:id="i-4ae31606907312bb-5" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-4ae31606907312bb-4">
           <seg xml:id="i-RodrVg6iyd3yeuSNacxjDs">
             görande, när jag intagit min ståndpunkt, utan det är den omständigheten,
             att ett bifall till utskottets förslag skulle innebära ett misstroendevotum
@@ -3440,8 +3434,6 @@
             utan även att skapa möjlighet för vetenskapen att träda i den
             materiella odlingens tjänst.
           </seg>
-        </u>
-        <u xml:id="i-HkcnDbYDmg2uEsETsuSfGR" who="i-Fnu186BGHvvTJDuB7t6zMb" prev="i-4ae31606907312bb-5">
           <seg xml:id="i-DNr8vx83vsymRs11sdS5wD">
             I detta yttrande, under vilket herr förste vice talmannen övertagit
             ledningen av kammarens förhandlingar, instämde herr Lithander.
@@ -3950,7 +3942,7 @@
         <note xml:id="i-T9phKcFu1p5V7JPA7oJwDi" type="date">
           Onsdagen den 10 februari. 43
         </note>
-        <u xml:id="i-d1afa75959b48fd3-1" who="i-Vofu3seWF5yQe8KpMLXV3T" prev="i-4608f550b64ffe06-0" next="i-LSBfeoAS7RRFz5BZX1viEm">
+        <u xml:id="i-d1afa75959b48fd3-1" who="i-Vofu3seWF5yQe8KpMLXV3T" prev="i-4608f550b64ffe06-0">
           <seg xml:id="i-E1WRWX9V9mNAaSGMYnVuUf">
             räkna med den möjligheten, att utskottets yrkande kommer alt
             vinna denna kammares bifall, och detta redan av det skälet, att
@@ -3969,8 +3961,6 @@
             hålla frågan öppen för sig, och jag tror att detta kan ske genom
             tillägg till det yrkande som innehålles i utskottets utlåtande.
           </seg>
-        </u>
-        <u xml:id="i-LSBfeoAS7RRFz5BZX1viEm" who="i-Vofu3seWF5yQe8KpMLXV3T" prev="i-d1afa75959b48fd3-1">
           <seg xml:id="i-VnbtijVvvzgUt6QooeQUsf">
             Ehuru jag alltså för egen del i första hand måste rösta för det
             yrkande som framställts av herr Lindskog, skulle jag dock — som
@@ -5137,7 +5127,7 @@
         <note xml:id="i-AJBxsUCNGCWcx5LLBBUuX4" type="date">
           56 Onsdagen den 10 februari.
         </note>
-        <u xml:id="i-Cvo8TdQQkpJFhaPqixqFMJ" who="i-SeXGmX6uE9MxGV5f2tKz1B" prev="i-ca885af363fdfac2-8" next="i-ca885af363fdfac2-9">
+        <u xml:id="i-Cvo8TdQQkpJFhaPqixqFMJ" who="i-SeXGmX6uE9MxGV5f2tKz1B" prev="i-ca885af363fdfac2-8" next="i-ca885af363fdfac2-10">
           <seg xml:id="i-WNzWYXyNMp2hsBeXZMdv9R">
             I den motion i ämnet, som hänvisats till första lagutskottet,
             hemställes om en skrivelse till Kungl. Maj:t med anhållan om utredning,
@@ -5151,8 +5141,6 @@
             ärendet måtte bli föremål för utredning. Vi åsyfta en begränsning
             av domboksrenovationen eller möjligen upphävande av densamma.
           </seg>
-        </u>
-        <u xml:id="i-ca885af363fdfac2-9" who="i-SeXGmX6uE9MxGV5f2tKz1B" prev="i-Cvo8TdQQkpJFhaPqixqFMJ" next="i-ca885af363fdfac2-10">
           <seg xml:id="i-MhWt7WbaoqLX62WFhZr2NK">
             Vi ha närmast föranletts att våga oss in på detta genom nya lagberedningens
             betänkande till 1884 års riksdag. Vi hava nämligen utgått ifrån,
@@ -5215,7 +5203,7 @@
         <note xml:id="i-7sFWMQPyaufUcT6mK2a2Eb" type="date">
           Onsdagen den 10 februari. DT
         </note>
-        <u xml:id="i-ca885af363fdfac2-10" who="i-SeXGmX6uE9MxGV5f2tKz1B" prev="i-ca885af363fdfac2-9">
+        <u xml:id="i-ca885af363fdfac2-10" who="i-SeXGmX6uE9MxGV5f2tKz1B" prev="i-Cvo8TdQQkpJFhaPqixqFMJ">
           <seg xml:id="i-CDHeW52x6V7MWvhAnpTq6V">
             tagna på sält, som utskottet angivit. TI de allra flesta fall
             är det huvudskrifter det gäller. Det är 1 regeln på det sättet,

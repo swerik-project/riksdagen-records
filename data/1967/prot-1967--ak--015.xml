@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-XcqoqPFqoVm4cHTGZDvaxE" type="speech">
             <linkGrp type="u">
               <ptr target="#i-SqVP27vdu1cRatk8FTDmbg"/>
@@ -769,7 +769,13 @@
               <ptr target="#i-CNwjQLLcT8oVjDJ7eajeYV"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -959,7 +965,7 @@
         <note xml:id="i-PdRRp7x41E7nwewNXApWoA" type="speaker">
           Chefen för finansdepartementet, herr statsrådet STRÄNG, som yttrade:
         </note>
-        <u xml:id="i-SqVP27vdu1cRatk8FTDmbg" who="i-3urySgCAk2SuFz1BB8TX5x" next="i-6PQrqGJsDDdu8MigpNczQR">
+        <u xml:id="i-SqVP27vdu1cRatk8FTDmbg" who="i-3urySgCAk2SuFz1BB8TX5x">
           <seg xml:id="i-YYHF8zxGBEr2knU8PJFCNw">
             Herr talman! Herr Nordstrandh har frågat mig om jag anser, att
             Nya Systemaktiebolaget vid fastighetsförvärv och inrättande av
@@ -967,8 +973,6 @@
             och arkitektoniskt värde bevaras för framtiden, t. ex. vad beträffar
             Avenyn 18 i Göteborg. Jag vill svara följande.
           </seg>
-        </u>
-        <u xml:id="i-6PQrqGJsDDdu8MigpNczQR" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-SqVP27vdu1cRatk8FTDmbg">
           <seg xml:id="i-F154pSN4ayFVAuwCLNFfvs">
             Systembolaget har att driva sin verksamhet med så låga kostnader
             som möjligt. Härav följer bl. a. att bolagets förvärv av fastigheter
@@ -1063,7 +1067,7 @@
           Chefen för = försvarsdepartementet, herr statsrådet ANDERSSON,
           som yttrade:
         </note>
-        <u xml:id="i-BWYaRxKJvptjz2CGpDrTbZ" who="i-ErNemW6WNsbRaNz3Q9qVQH" next="i-4sSuUdcb1fEHr4c9BXA1Ed">
+        <u xml:id="i-BWYaRxKJvptjz2CGpDrTbZ" who="i-ErNemW6WNsbRaNz3Q9qVQH">
           <seg xml:id="i-6A3CJhLv9kxTrSCkMndmt7">
             Herr talman! Herr Gomér har frågat mig, om jag vill vidta sådana
             åtgärder, att jordbrukare som på grund av landsbygdens avfolkning
@@ -1079,15 +1083,11 @@
             driver sitt jordbruk och som inte kan få någon hjälp av hustru,
             grannar eller på annat sätt.
           </seg>
-        </u>
-        <u xml:id="i-4sSuUdcb1fEHr4c9BXA1Ed" who="i-ErNemW6WNsbRaNz3Q9qVQH" prev="i-BWYaRxKJvptjz2CGpDrTbZ" next="i-d06c8150689d9e53-3">
           <seg xml:id="i-JDCkL9LBdbdqPv9BMahktv">
             Ärenden rörande anstånd avgörs av truppregistreringsmyndigheterna
             eller centrala värnpliktsbyrån. Dessa instansers beslut kan överklagas
             i värnpliktsnämnden.
           </seg>
-        </u>
-        <u xml:id="i-d06c8150689d9e53-3" who="i-ErNemW6WNsbRaNz3Q9qVQH" prev="i-4sSuUdcb1fEHr4c9BXA1Ed">
           <seg xml:id="i-J7cH2z9NrzXvbqLqk4D7Bd">
             Vårt värnpliktssystem med repetitionsutbildning i krigsförband
             förutsätter att alltför många anstånd inte beviljas. Att för en
@@ -1201,7 +1201,7 @@
           Chefen för justitiedepartementet, herr statsrådet KLING, som
           yttrade:
         </note>
-        <u xml:id="i-ce443f638af48351-1" who="i-U22vAKBq8RA2Ji6KCU4j6Z" next="i-GoqZNYzhmxDQH4cpPWpnmQ">
+        <u xml:id="i-ce443f638af48351-1" who="i-U22vAKBq8RA2Ji6KCU4j6Z">
           <seg xml:id="i-RDK6jvNM1rE1XbhNWia3Wo">
             Herr talman! Herr Nordstrandh har frågat mig hur lång tid som
             normalt bör åtgå för att inom justitiedepartementet slutbehandla
@@ -1230,8 +1230,6 @@
             från utlänningsutredningen om utlänningsmyndighetens framtida
             verksamhet.
           </seg>
-        </u>
-        <u xml:id="i-GoqZNYzhmxDQH4cpPWpnmQ" who="i-U22vAKBq8RA2Ji6KCU4j6Z" prev="i-ce443f638af48351-1">
           <seg xml:id="i-Ebfsq6ZKfANJXQ8ST1V2iZ">
             Resultatet av personalförstärkningen har varit gynnsamt. År 1964
             var sålunda antalet inkomna ärenden 7305 och antalet avgjorda.
@@ -1331,7 +1329,7 @@
         <note xml:id="i-Gyyc9pR7HFifXWPYthcSvJ" type="speaker">
           Herr LINDAHL (s):
         </note>
-        <u xml:id="i-1b7aee2668470b17-0" who="i-9C6mLQs4QzU7geZ2uSMUpe" next="i-8KYkZJmu4vxWd1APy4oKib">
+        <u xml:id="i-1b7aee2668470b17-0" who="i-9C6mLQs4QzU7geZ2uSMUpe" next="i-J7BUdTFdf18dvLP6Vg7uKu">
           <seg xml:id="i-MQLiJibUWMTPPNfjvsG4kL">
             Herr talman! Av statsrådets svar, för vilket jag tackar, framgår
             att något avsteg från avtalet mellan Kungl. Maj:t och Sveriges
@@ -1381,7 +1379,7 @@
           Svar på fråga ang. avtal med Storbritannien om s. k. au pair-ungdomars
           arbetsoch anställningsförhållanden
         </note>
-        <u xml:id="i-J7BUdTFdf18dvLP6Vg7uKu" who="i-9C6mLQs4QzU7geZ2uSMUpe" prev="i-8KYkZJmu4vxWd1APy4oKib">
+        <u xml:id="i-J7BUdTFdf18dvLP6Vg7uKu" who="i-9C6mLQs4QzU7geZ2uSMUpe" prev="i-1b7aee2668470b17-0">
           <seg xml:id="i-CuRXwjumkdLe9oCN7uSciF">
             tar, utan jag skall nöja mig med att citera Västmanlands läns
             tidning. »Det står naturligtvis den stora kvällstidningen fritt
@@ -1451,7 +1449,7 @@
           Chefen för inrikesdepartementet, herr statsrådet JOHANSSON, som
           yttrade:
         </note>
-        <u xml:id="i-1b7aee2668470b17-4" who="i-2E2N5MpZ8PjBpuMWc4jqhz" next="i-7p65QHSMFJiDYT5N1s4pnf">
+        <u xml:id="i-1b7aee2668470b17-4" who="i-2E2N5MpZ8PjBpuMWc4jqhz" next="i-P9s2bGQyEtY8YrtR1dKasp">
           <seg xml:id="i-4xvGod1vE1zcqyh7CK6mDY">
             Herr talman! Fru Ekroth har frågat, om ett avtal är att vänta
             mellan Sverige och Storbritannien angående svenska s. k. au pair-ungdomars
@@ -1468,8 +1466,6 @@
             inte träffats med myndigheterna utan med en sammanslutning av
             privata brittiska arbetsförmedlingar.
           </seg>
-        </u>
-        <u xml:id="i-7p65QHSMFJiDYT5N1s4pnf" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-1b7aee2668470b17-4" next="i-6puHqMV6baC4cW9zFXvL2c">
           <seg xml:id="i-NhCrxx13dzn5ca3hgfC3og">
             1 september 1966 har Europarådets rådgivande församling avgivit
             en rekommendation till rådets ministerkommitté angående gemensamma
@@ -1487,7 +1483,7 @@
           Svar på fråga ang. avtal med Storbritannien om s. k. au pair-ungdomars
           arbetsoch anställningsförhållanden
         </note>
-        <u xml:id="i-P9s2bGQyEtY8YrtR1dKasp" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-6puHqMV6baC4cW9zFXvL2c">
+        <u xml:id="i-P9s2bGQyEtY8YrtR1dKasp" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-1b7aee2668470b17-4">
           <seg xml:id="i-BxieNqP7eTsrqGBZUSZywX">
             peiska bestämmelser rörande parternas rättigheter och skyldigheter
             m.m. vid »au pair-anställning». Det är min förhoppning att detta
@@ -1588,7 +1584,7 @@
         <note xml:id="i-BK3MdEqV3Gjf7aBMXuFuZA" type="speaker">
           Chefen för inrikesdepartementet, herr statsrådet JOHANSSON:
         </note>
-        <u xml:id="i-d0de80e5e39b0938-3" who="i-2E2N5MpZ8PjBpuMWc4jqhz">
+        <u xml:id="i-d0de80e5e39b0938-3" who="i-2E2N5MpZ8PjBpuMWc4jqhz" next="i-d0de80e5e39b0938-5">
           <seg xml:id="i-9kgX6D3DJnKVihiUjwMuBa">
             Herr talman! Jag har ingen annan uppfattning än fru Ekroth rörande
             värdet av det arbete det här gäller och inte heller om behovet
@@ -1611,7 +1607,7 @@
           om jag är beredd vidta några åtgärder för att kompensera företagareföreningarna
           för det inkomstbortfall som diskontosänkningarna medför.
         </note>
-        <u xml:id="i-d0de80e5e39b0938-5" who="i-2E2N5MpZ8PjBpuMWc4jqhz">
+        <u xml:id="i-d0de80e5e39b0938-5" who="i-2E2N5MpZ8PjBpuMWc4jqhz" prev="i-d0de80e5e39b0938-3">
           <seg xml:id="i-59S9vUgbgY4w35PyHbcsZU">
             Företagareföreningarna är tillförsäkrade en räntegaranti. Oberoende
             av förändringar i förhållandet mellan inoch utlåningsränta skall
@@ -1921,15 +1917,13 @@
           Chefen för socialdepartementet, herr statsrådet ASPLING, som
           yttrade:
         </note>
-        <u xml:id="i-a3e7c0a6741ae547-6" who="i-6yryP5FsumcdXgD5cb8aDF" next="i-4M2N7NTFXPJKGyKVSZQAwX">
+        <u xml:id="i-a3e7c0a6741ae547-6" who="i-6yryP5FsumcdXgD5cb8aDF">
           <seg xml:id="i-NExZ1zLVqgsHta1eZegHcD">
             Herr talman! Herr Westberg har frågat, om jag anser att försäkringskassornas
             behandling och förvaring av handlingar rörande sjukskrivna innebär
             risk för att de sjukas sekretesskydd äventyras och vilka åtgärder
             jag i så fall ämnar vidta för att förbättra sekretessskyddet.
           </seg>
-        </u>
-        <u xml:id="i-4M2N7NTFXPJKGyKVSZQAwX" who="i-6yryP5FsumcdXgD5cb8aDF" prev="i-a3e7c0a6741ae547-6">
           <seg xml:id="i-Qyrpc6uKVwmtTAVXURcYbU">
             I 18 kap. 28 $ lagen om allmän försäkring föreskrivs tystnadsplikt
             för försäkringskassornas personal m. fl. i fråga om enskildas
@@ -2062,7 +2056,7 @@
         <note xml:id="i-WMB1MaABJJy7tzKeNFiWuV" type="speaker">
           Herr WESTBERG (fp):
         </note>
-        <u xml:id="i-9f7050ab121998be-2" who="i-ATcwa3wSYttW59H6uu1PFg" next="i-UYqbEihkNCnfSFUpq612os">
+        <u xml:id="i-9f7050ab121998be-2" who="i-ATcwa3wSYttW59H6uu1PFg">
           <seg xml:id="i-Taq2SLgrURviPi5wDDxXZw">
             Herr talman! Jag noterar med tillfredsställelse att tystnadsplikten
             noga inskärpes hos de anställda genom informationstryck och i
@@ -2076,8 +2070,6 @@
             förvaras på ett sådant sätt att obehöriga inte kan nå dem, har
             jag velat fästa uppmärksamheten därpå.
           </seg>
-        </u>
-        <u xml:id="i-UYqbEihkNCnfSFUpq612os" who="i-ATcwa3wSYttW59H6uu1PFg" prev="i-9f7050ab121998be-2">
           <seg xml:id="i-NNrEMTGpkkZ7DBy84wTwcs">
             Jag vill nu fråga socialministern: Företar = riksförsäkringsverket
             några stickprovskontroller beträffande hur handlingarna förvaras
@@ -2415,7 +2407,7 @@
         <note xml:id="i-V6uxsLAfB5onZy2pET2fsw">
           Svar på interpellation ang. narkotikabruket bland skolungdom
         </note>
-        <u xml:id="i-2a1480c972f84652-2" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-2a1480c972f84652-1" next="i-JUghEsHxkpDTd4cNcqHC2E">
+        <u xml:id="i-2a1480c972f84652-2" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-2a1480c972f84652-1" next="i-2a1480c972f84652-4">
           <seg xml:id="i-5s8FLJiacE5MfZ4M3aG9Jk">
             aktuella läget framhåller skolöverstyrelsen bl.a. följande.
           </seg>
@@ -2458,14 +2450,10 @@
             aktionsgrupper med representanter för skolans ledning och personal,
             elever och föräldrar, lokala ungdoms-
           </seg>
-        </u>
-        <u xml:id="i-JUghEsHxkpDTd4cNcqHC2E" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-2a1480c972f84652-2" next="i-2a1480c972f84652-3">
           <seg xml:id="i-EpbsDrLhTMN7ButTA1CfwR">
             organisationer, läkare, barnavårdsnämnd och polis. 5) Föräldrarnas
             aktiva medverkan
           </seg>
-        </u>
-        <u xml:id="i-2a1480c972f84652-3" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-JUghEsHxkpDTd4cNcqHC2E" next="i-2a1480c972f84652-4">
           <seg xml:id="i-QFCGeLeNAD83oP44gB7Zx7">
             understryks som lika självklar som nödvändig med hänsyn till
             det personliga ansvar föräldrarna har när det gäller att ta vård
@@ -2513,7 +2501,7 @@
         <note xml:id="i-TKDHA3yauBKWihsVnXyF8C">
           Svar på interpellation ang. narkotikabruket bland skolungdom
         </note>
-        <u xml:id="i-2a1480c972f84652-4" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-2a1480c972f84652-3">
+        <u xml:id="i-2a1480c972f84652-4" who="i-8FeKtrT5DmgTKt1JtCcHmB" prev="i-2a1480c972f84652-2">
           <seg xml:id="i-8m6KrkuZQwFeWVd1uDMJM6">
             samhällets resurser inom hälsooch sjukvården, barnaoch ungdomsvården
             samt polisverksamheten. Jag har här uppehållit mig vid skolans
@@ -3298,7 +3286,7 @@
         <note xml:id="i-Xw3pZvkQRe1mrftwcPSCpV" type="speaker">
           Fru HOLMBERG (s):
         </note>
-        <u xml:id="i-bc6a9cfa82c00faa-0" who="i-3dSCLMKUwKr5vhehzJtxSR" next="i-HxqmADtUUhZ69E7LnWf25B">
+        <u xml:id="i-bc6a9cfa82c00faa-0" who="i-3dSCLMKUwKr5vhehzJtxSR" next="i-bc6a9cfa82c00faa-1">
           <seg xml:id="i-17mQRHFM7YUeaDyRp37D7L">
             Herr talman! Jag ber att få tacka statsrådet och chefen för kommunikationsdepartementet
             för det svar jag har fått. Jag vill gärna utläsa av svaret att
@@ -3315,8 +3303,6 @@
             för en del människor skall jag inte uppehålla mig vid, eftersom
             det är alltför väl känt.
           </seg>
-        </u>
-        <u xml:id="i-HxqmADtUUhZ69E7LnWf25B" who="i-3dSCLMKUwKr5vhehzJtxSR" prev="i-bc6a9cfa82c00faa-0" next="i-bc6a9cfa82c00faa-1">
           <seg xml:id="i-RN3hnBAR42EEzFG17LVBnh">
             Enligt de riktlinjer för trafikpolitiken som antagits av riksdagen
             och skall gälla för den arbetsgrupp, som tillsatts
@@ -3325,7 +3311,7 @@
         <note xml:id="i-U5Phey5yU8FrV36yAtgTHe" type="date">
           Torsdagen den 16 mars 1967
         </note>
-        <u xml:id="i-bc6a9cfa82c00faa-1" who="i-3dSCLMKUwKr5vhehzJtxSR" prev="i-HxqmADtUUhZ69E7LnWf25B" next="i-bc6a9cfa82c00faa-3">
+        <u xml:id="i-bc6a9cfa82c00faa-1" who="i-3dSCLMKUwKr5vhehzJtxSR" prev="i-bc6a9cfa82c00faa-0" next="i-bc6a9cfa82c00faa-3">
           <seg xml:id="i-BzCrvsBNDNWZ9TM91dK7pg">
             inom inrikesdepartementet — jag nämner den i min interpellation
             — och har att utreda frågan om servicen, bl. a. beträffande kommunikationerna
@@ -3502,7 +3488,7 @@
         <note xml:id="i-FoTkPbrpf4dKhGf3Lw99c1" type="speaker">
           Fru LINDBERG (s), som yttrade:
         </note>
-        <u xml:id="i-bc6a9cfa82c00faa-5" who="i-KqGQVMEanbLD27992WZkPH" next="i-8eZUkENXxosnGNr2y8qT5P">
+        <u xml:id="i-bc6a9cfa82c00faa-5" who="i-KqGQVMEanbLD27992WZkPH" next="i-TeYfLkCTLSaUYD5jv9D9D3">
           <seg xml:id="i-SxpUND144exCPEWUY4sm6g">
             Herr talman! Familjebostadsbidrag kan enligt kungl. kungörelse
             utgå till familj med ett eller flera minderåriga barn, vilka helt
@@ -3534,8 +3520,6 @@
           <seg xml:id="i-FawRtYtwcG4hmWJRg2V32D">
             fen för socialdepartementet få ställa följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-8eZUkENXxosnGNr2y8qT5P" who="i-KqGQVMEanbLD27992WZkPH" prev="i-bc6a9cfa82c00faa-5" next="i-TeYfLkCTLSaUYD5jv9D9D3">
           <seg xml:id="i-AgWTZhP9mrSLWYXVmJjoPW">
             Avser statsrådet att vidta åtgärder för att ändra bestämmelserna
             beträffande familjebostadsbidrag så att även särskilt förordnad
@@ -3663,7 +3647,7 @@
         <note xml:id="i-Gwu1pxgvX2urcwJpbeob2q">
           Till Riksdagens andra kammare
         </note>
-        <u xml:id="i-TeYfLkCTLSaUYD5jv9D9D3" who="i-KqGQVMEanbLD27992WZkPH" prev="i-8eZUkENXxosnGNr2y8qT5P">
+        <u xml:id="i-TeYfLkCTLSaUYD5jv9D9D3" who="i-KqGQVMEanbLD27992WZkPH" prev="i-bc6a9cfa82c00faa-5">
           <seg xml:id="i-QE2aQuMYmoL2n8y3CjDo8d">
             Undertecknad som skall deltaga i Interparlamentariska Unionens
             rådsmöte i Spanien 28 mars t. o. m. 3 april d. å. anhåller om
@@ -5135,7 +5119,7 @@
         <note xml:id="i-YMzkWRSyBigdv1qPekEpoD">
           Villabeskattningen m. m.
         </note>
-        <u xml:id="i-2fb0bf37b42af512-2" who="i-5iDHhEyrDtZjVWxHXocqWy" prev="i-2fb0bf37b42af512-1" next="i-QvNg56uYYqJy2NChbpp9JE">
+        <u xml:id="i-2fb0bf37b42af512-2" who="i-5iDHhEyrDtZjVWxHXocqWy" prev="i-2fb0bf37b42af512-1" next="i-2fb0bf37b42af512-3">
           <seg xml:id="i-LD8i4CGsoz9YiVw3rE4K64">
             byggelsen medför. Jag nämner endast kostnaderna för olika kommunala
             organ och funktioner såsom byggnadsnämnd med byggnadsinspektörer,
@@ -5162,13 +5146,9 @@
             mindre än 11 300 fritidshus. Antar man att i varje stuga bor i
             genomsnitt
           </seg>
-        </u>
-        <u xml:id="i-QvNg56uYYqJy2NChbpp9JE" who="i-5iDHhEyrDtZjVWxHXocqWy" prev="i-2fb0bf37b42af512-2" next="i-Eieh2i87Tao2HHQ4r6hnnK">
           <seg xml:id="i-6yaYvn13eqteLoCB2nML5v">
             fyra familjemedlemmar, kommer den:
           </seg>
-        </u>
-        <u xml:id="i-Eieh2i87Tao2HHQ4r6hnnK" who="i-5iDHhEyrDtZjVWxHXocqWy" prev="i-QvNg56uYYqJy2NChbpp9JE" next="i-2fb0bf37b42af512-3">
           <seg xml:id="i-2tCb4UFy4sYvk2Z9vfgCQR">
             sommarboende befolkningen att uppgå till 45 000 personer, gäster
             till sommarstugeägarna inte medräknade.
@@ -5185,7 +5165,7 @@
         <note xml:id="i-TgaqUrBLyWoLDBVrENhe6s" type="date">
           Fredagen den 17 mars 1967
         </note>
-        <u xml:id="i-2fb0bf37b42af512-3" who="i-5iDHhEyrDtZjVWxHXocqWy" prev="i-Eieh2i87Tao2HHQ4r6hnnK">
+        <u xml:id="i-2fb0bf37b42af512-3" who="i-5iDHhEyrDtZjVWxHXocqWy" prev="i-2fb0bf37b42af512-2">
           <seg xml:id="i-W6z5wcFgsbJhmYnbhkzLFP">
             den tidpunkten med all säkerhet inte uppgår ens till de 8 000
             invånare som kommunerna har i dag.
@@ -5234,7 +5214,7 @@
         <note xml:id="i-KNe1ZXGSDaP3pPBFfLEg3Y" type="date">
           Fredagen den 17 mars 1967
         </note>
-        <u xml:id="i-2fb0bf37b42af512-4" who="i-KfgM2FZ3uNJVb6p46dZGxo" prev="i-c956b76b55225c21-0" next="i-4q7L3qKq2fAzEC7MDHsefa">
+        <u xml:id="i-2fb0bf37b42af512-4" who="i-KfgM2FZ3uNJVb6p46dZGxo" prev="i-c956b76b55225c21-0">
           <seg xml:id="i-UsmT3RcCahrsVoxjX13s2C">
             det varit möjligt utan att i egentlig mening tillstyrka motionsyrkandet.
             Utskottet förutsätter ju att »Kungl. Maj:t ägnar frågan särskild
@@ -5255,8 +5235,6 @@
             som gör att jag inte anser mig kunna yrka bifall till motionen,
             utan nöjer mig med den skrivning som utskottet här presenterar.
           </seg>
-        </u>
-        <u xml:id="i-4q7L3qKq2fAzEC7MDHsefa" who="i-KfgM2FZ3uNJVb6p46dZGxo" prev="i-2fb0bf37b42af512-4">
           <seg xml:id="i-15oCggz39gw5ysrJQP3yg2">
             Herr talman! Jag yrkar bifall till utskottets hemställan.
           </seg>
@@ -5694,15 +5672,13 @@
         <note xml:id="i-98MxJQqciuaCo2tTtWwH9s" type="speaker">
           Herr TALMANNEN yttrade:
         </note>
-        <u xml:id="i-YVDfp86mK63Wy4Qo7s1aNv" who="i-WHaJ9obdPrHNEpxUmttRAB" next="i-ce443f638af48351-7">
+        <u xml:id="i-YVDfp86mK63Wy4Qo7s1aNv" who="i-WHaJ9obdPrHNEpxUmttRAB">
           <seg xml:id="i-J1nro2K6vyUB6tEmY9jJ2b">
             Till kammarens ledamöter kommer att utsändas en stencilerad sammanställning,
             vari angives data för de sammanträden, då motioner sist må väckas
             i anledning av de till och med i dag, fredagen den 17 mars, avlämnade
             propositionerna.
           </seg>
-        </u>
-        <u xml:id="i-ce443f638af48351-7" who="i-WHaJ9obdPrHNEpxUmttRAB" prev="i-YVDfp86mK63Wy4Qo7s1aNv">
           <seg xml:id="i-AF1fCXpztuHMQAri9KJm7G">
             Jag får vidare meddela, att de Kungl. Maj:ts propositioner som
             under tiden den 20—23 innevarande mars överlämnas till kammaren
@@ -5838,7 +5814,7 @@
         <note xml:id="i-BxeZ5o1yUhj8MPHoTvQwJd">
           17 mars 1967
         </note>
-        <u xml:id="i-0871b4cb65ef3885-1" who="i-S3eg8HSy1B2AEamregH9dM" prev="i-0871b4cb65ef3885-0" next="i-2fLrdZt1NQWd6mNgHxJEtr">
+        <u xml:id="i-0871b4cb65ef3885-1" who="i-S3eg8HSy1B2AEamregH9dM" prev="i-0871b4cb65ef3885-0">
           <seg xml:id="i-WguWkmYmh9vkG63hdE3P3p">
             den del som skall gå till hingsthållning. Samtidigt har många
             stoägare fått väsentligt högre fraktkostnader för vilka det borde
@@ -5854,8 +5830,6 @@
             med tanke på anslagets syfte, om dessa organ får rätt till en
             friare disposition av medlen.
           </seg>
-        </u>
-        <u xml:id="i-2fLrdZt1NQWd6mNgHxJEtr" who="i-S3eg8HSy1B2AEamregH9dM" prev="i-0871b4cb65ef3885-1">
           <seg xml:id="i-Xc89UPVqqGZ3w6QmC5UJ5n">
             Herr talman! Jag vill härmed yrka bifall till reservation 1 vid
             punkten 8 i jordbruksutskottets utlåtande nr 1.
@@ -6085,14 +6059,12 @@
         <note xml:id="i-D4WkcWizoCyKPXZfajD553">
           Herr JÖNSSON i (fp):
         </note>
-        <u xml:id="i-1E1kgV7hyQjdJrnzJzQSD" who="unknown" next="i-483e7650943b7cb3-3">
+        <u xml:id="i-1E1kgV7hyQjdJrnzJzQSD" who="unknown" next="i-483e7650943b7cb3-4">
           <seg xml:id="i-2gSd7TR5kCFKSbPEnLwmoP">
             Herr talman! Med anledning av motion II: 823 som behandlas under
             punkt 90 i jordbruksutskottets utlåtande nr 1 vill jag framföra
             en del synpunkter.
           </seg>
-        </u>
-        <u xml:id="i-483e7650943b7cb3-3" who="unknown" prev="i-1E1kgV7hyQjdJrnzJzQSD" next="i-483e7650943b7cb3-4">
           <seg xml:id="i-WhocLjXEnQVxCGdnrhzDX1">
             Av motionens argumentering framgår att motionärerna anser att
             den aktuella forskningen utgör en angelägenhet för kraftintressenterna
@@ -6116,7 +6088,7 @@
         <note xml:id="i-ESB9uYkWMVn9YQv7Etkwjk" type="date">
           Fredagen den 17 mars 1967
         </note>
-        <u xml:id="i-483e7650943b7cb3-4" who="unknown" prev="i-483e7650943b7cb3-3" next="i-U9WQJzM4431ToiwLxGTXNG">
+        <u xml:id="i-483e7650943b7cb3-4" who="unknown" prev="i-1E1kgV7hyQjdJrnzJzQSD" next="i-U9WQJzM4431ToiwLxGTXNG">
           <seg xml:id="i-CMYWsmrH7Pftqe7Eop7ALN">
             att ej längre till statsverket inbetala de medel det rör sig
             om.
@@ -6327,7 +6299,7 @@
         <note xml:id="i-WiT8KKMKSnvrDKphewsB7u">
           Befrämjande i allmänhet av fiskerinäringen
         </note>
-        <u xml:id="i-TNhACMxeFjmnSL7yVgrYVH" who="i-VWPdkB4dCgnBm489RG7Nc4" prev="i-de3e171e9ce23a86-1" next="i-7bjTtfD5xSFGbP2nJ9qwXc">
+        <u xml:id="i-TNhACMxeFjmnSL7yVgrYVH" who="i-VWPdkB4dCgnBm489RG7Nc4" prev="i-de3e171e9ce23a86-1">
           <seg xml:id="i-QQRpuLGZbSCf96hiccWksC">
             sig för bifall till ett motionsyrkande om 150 000 kronor. Utskottet
             har gjort sitt ställningstagande med «utgångspunkt från vad motionärerna
@@ -6351,8 +6323,6 @@
             att fiskeristyrelsen i sin framställning om anslag inte ansett
             erforderligt att öka posten för annat än studieresor.
           </seg>
-        </u>
-        <u xml:id="i-7bjTtfD5xSFGbP2nJ9qwXc" who="i-VWPdkB4dCgnBm489RG7Nc4" prev="i-TNhACMxeFjmnSL7yVgrYVH">
           <seg xml:id="i-FbmMrAoD2S4LBTYiRabJR9">
             Med hänsyn till det anförda yrkar jag, herr talman, bifall till
             den vid punkten 95 fogade reservationen av herr Mossberger m.
@@ -6574,7 +6544,7 @@
         <note xml:id="i-NBZFP7LiTDJBdsETdZYhHj" type="speaker">
           Herr JONASSON (cp):
         </note>
-        <u xml:id="i-2DkiJeVEVoSdxevMghroma" who="i-DuMmQVGSnykDcj8ZwohCuA" next="i-88a67e4d61e29b90-3">
+        <u xml:id="i-2DkiJeVEVoSdxevMghroma" who="i-DuMmQVGSnykDcj8ZwohCuA">
           <seg xml:id="i-RAH4sKdRrUn4HqG6xqktTP">
             Herr talman! Under denna punkt behandlas ett par motioner, nr
             182 i första kammaren och nr 224 i denna kammare. I dessa motioner
@@ -6585,8 +6555,6 @@
             naturoch fritidsområden samt för ordnande av friluftsanläggningar».
             Motionerna har följts upp i reservationen 4 a.
           </seg>
-        </u>
-        <u xml:id="i-88a67e4d61e29b90-3" who="i-DuMmQVGSnykDcj8ZwohCuA" prev="i-2DkiJeVEVoSdxevMghroma">
           <seg xml:id="i-VH9wGXsCupwKtByQXmp49Y">
             Denna fråga har diskuterats tidigare här i riksdagen, och därför
             skall jag fatta mig kort. Jag vill ändå konstatera att behovet
@@ -7138,7 +7106,7 @@
         <note xml:id="i-R5fUYYr9qpXubYRK3qmC9n">
           17 mars 1967
         </note>
-        <u xml:id="i-165bfc10b9973743-4" who="i-8UiGNe8qttqCLGPToTS7Qb" prev="i-165bfc10b9973743-3" next="i-4c1Ysf62SUJ7Kx7KyXECXn">
+        <u xml:id="i-165bfc10b9973743-4" who="i-8UiGNe8qttqCLGPToTS7Qb" prev="i-165bfc10b9973743-3">
           <seg xml:id="i-R5FWG15Kph1UywRVEAJfrp">
             måste därför ställa frågan: Varför skall det just vara 15000
             kronor? Motionärerna har inte gjort någon utredning av behovet
@@ -7160,8 +7128,6 @@
             att låta fiskeristyrelsen se på denna fråga, och sedan kan ju
             regeringen lägga fram förslag till ändrade lånebestämmelser.
           </seg>
-        </u>
-        <u xml:id="i-4c1Ysf62SUJ7Kx7KyXECXn" who="i-8UiGNe8qttqCLGPToTS7Qb" prev="i-165bfc10b9973743-4">
           <seg xml:id="i-DW6qAecvSp9thdshfWSqqi">
             Jag yrkar därför bifall till utskottets förslag.
           </seg>
@@ -7420,21 +7386,17 @@
         <note xml:id="i-4yjJdfDdvWecujsjoUWeYb">
           Statsanslag till Jägarnas riksförbund, m. m.
         </note>
-        <u xml:id="i-a321e12bb6918c95-1" who="i-YZ7PrTPoP4SC7wVftmkUya" prev="i-a321e12bb6918c95-0" next="i-DMz4q8vMZ2jSuXq7A96fhV">
+        <u xml:id="i-a321e12bb6918c95-1" who="i-YZ7PrTPoP4SC7wVftmkUya" prev="i-a321e12bb6918c95-0" next="i-a321e12bb6918c95-3">
           <seg xml:id="i-5GJ3JpkcwpmdB9QQTALWYW">
             tigande och är önskvärda ur jägarnas synpunkt. Vi har en fri
             föreningsrätt i vårt land, och jag tycker att vi skall vara rädda
             om den.
           </seg>
-        </u>
-        <u xml:id="i-DMz4q8vMZ2jSuXq7A96fhV" who="i-YZ7PrTPoP4SC7wVftmkUya" prev="i-a321e12bb6918c95-1" next="i-a321e12bb6918c95-2">
           <seg xml:id="i-KdZhBwMPytrD9UDteLs6dR">
             Så sent som i går fick riksdagens ledamöter en skrivelse från
             Svenska jägareförbundet. I sista att-satsen i denna skrivelse
             heter det:
           </seg>
-        </u>
-        <u xml:id="i-a321e12bb6918c95-2" who="i-YZ7PrTPoP4SC7wVftmkUya" prev="i-DMz4q8vMZ2jSuXq7A96fhV" next="i-a321e12bb6918c95-3">
           <seg xml:id="i-DwRwHjpuYZxPvnfyfpwp3">
             »att Svenska jägareförbundet står öppet för envar, d.v.s. även
             för medlem av Jägarnas riksförbund, som godtager jägareförbundets
@@ -7518,7 +7480,7 @@
         <note xml:id="i-2f1rYkyybDNBuRJgxQ56SD">
           Statsanslag till Jägarnas riksförbund, m. m.
         </note>
-        <u xml:id="i-a321e12bb6918c95-3" who="i-YZ7PrTPoP4SC7wVftmkUya" prev="i-a321e12bb6918c95-2">
+        <u xml:id="i-a321e12bb6918c95-3" who="i-YZ7PrTPoP4SC7wVftmkUya" prev="i-a321e12bb6918c95-1">
           <seg xml:id="i-RbPD3a3rkhiN2JyZzfF6av">
             Vi bedriver en omfattande jaktoch viltvård, och vi bedriver samtidigt
             studieverksamhet på olika områden. Dessutom bygger även vi jaktskyttebanor,
@@ -7554,7 +7516,7 @@
         <note xml:id="i-NC9qDS8WiF2H7AWAV9ie73" type="speaker">
           Herr HANSSON i Skegrie (cp):
         </note>
-        <u xml:id="i-a321e12bb6918c95-4" who="i-T6dd3fn3avyoiNYJk3XNTR" next="i-Uzt9HoT2VCeqsf19iwpD6E">
+        <u xml:id="i-a321e12bb6918c95-4" who="i-T6dd3fn3avyoiNYJk3XNTR" next="i-a321e12bb6918c95-6">
           <seg xml:id="i-H5owcSdb6whErayzj3Uwdz">
             Herr talman! Jag kan försäkra herr Wikner att utskottet inte
             på något sätt vill nedvärdera den verksamhet som bedrivs inom
@@ -7571,14 +7533,10 @@
             rivaliserande organisationer. Ett sådant samarbete borde heller
             inte vara uteslutet, såvitt jag kan bedöma.
           </seg>
-        </u>
-        <u xml:id="i-Uzt9HoT2VCeqsf19iwpD6E" who="i-T6dd3fn3avyoiNYJk3XNTR" prev="i-a321e12bb6918c95-4" next="i-a321e12bb6918c95-5">
           <seg xml:id="i-MRNjXeH183Zy6SJJTsapkk">
             År 1964 avgav Svenska jägareförbundet ett remissvar till domänstyrelsen,
             i vilket förbundet bl.a. skrev följande om inviten till samarbete:
           </seg>
-        </u>
-        <u xml:id="i-a321e12bb6918c95-5" who="i-T6dd3fn3avyoiNYJk3XNTR" prev="i-Uzt9HoT2VCeqsf19iwpD6E" next="i-a321e12bb6918c95-6">
           <seg xml:id="i-MSBzgdXRhPDJCyzGbA5U9k">
             »Något formellt hinder möter sålunda ej att bevilja Jägarnas
             riksförbunds lokalavdelningar inträde i Svenska jägareförbundet.
@@ -7620,7 +7578,7 @@
         <note xml:id="i-KwASiRiugSJ46fcgcUsE3K">
           Statsanslag till Jägarnas riksförbund, m. m.
         </note>
-        <u xml:id="i-a321e12bb6918c95-6" who="i-T6dd3fn3avyoiNYJk3XNTR" prev="i-a321e12bb6918c95-5">
+        <u xml:id="i-a321e12bb6918c95-6" who="i-T6dd3fn3avyoiNYJk3XNTR" prev="i-a321e12bb6918c95-4">
           <seg xml:id="i-7wHU9Eg2nmCKssf4YZWDaz">
             statsmakternas uppdrag att vara det officiella organ i vårt land
             som skall utöva ledningen av jaktvårdsarbetet. Anslaget för detta
@@ -7931,7 +7889,7 @@
         <note xml:id="i-UKHY5hLNwu1ihcvn31WJVR" type="speaker">
           Herr LUNDBERG (s):
         </note>
-        <u xml:id="i-db705490fb24f9bf-0" who="i-AC8RFPqgo4aFfG6KooA2u5" next="i-Jtuj5ne7wrJjMadr11FwZh">
+        <u xml:id="i-db705490fb24f9bf-0" who="i-AC8RFPqgo4aFfG6KooA2u5">
           <seg xml:id="i-3LeQE3RXXunjFiN4yfkdJv">
             Herr talman! Det hör till god tradition att vi varje år skall
             ha en jaktstund i riksdagen. De gamla argumenten återkommer också.
@@ -7997,8 +7955,6 @@
             att man betraktar djuren såsom undermåliga, är det inte värdigt
             att ensamt ha statens förtroende att sköta jakten.
           </seg>
-        </u>
-        <u xml:id="i-Jtuj5ne7wrJjMadr11FwZh" who="i-AC8RFPqgo4aFfG6KooA2u5" prev="i-db705490fb24f9bf-0">
           <seg xml:id="i-3CWawyfxPdKqjHvdqNjr2K">
             Jag yrkar bifall till reservationen.
           </seg>
@@ -8341,7 +8297,7 @@
         <note xml:id="i-U7TcBh25sEWzG4HKZN2FSr" type="speaker">
           Herr NORDGREN (h), som yttrade:
         </note>
-        <u xml:id="i-ce443f638af48351-12" who="i-BTQHo9TKPt4psovBo1HK4X" next="i-CJFktEAz11gJWqqSqMRrHR">
+        <u xml:id="i-ce443f638af48351-12" who="i-BTQHo9TKPt4psovBo1HK4X">
           <seg xml:id="i-WGQbQTCY1bbcZg2ufE1c4L">
             Herr talman! En metod att förpacka maträtter har sedan några
             år prövats här i landet. Maten tillagas enligt konventionellt
@@ -8381,8 +8337,6 @@
             förpackad mat, s.k. påsmat, som av många betraktas som underhaltig,
             skall serveras patienter och personal vid sjukhus?
           </seg>
-        </u>
-        <u xml:id="i-CJFktEAz11gJWqqSqMRrHR" who="i-BTQHo9TKPt4psovBo1HK4X" prev="i-ce443f638af48351-12">
           <seg xml:id="i-4hWGAgc6aojDQe4e84NiqU">
             2. Vilka åtgärder anser herr statsrådet bör vidtagas för att
             kontrollera att endast fullvärdig och smaklig kost serveras patienter
@@ -8483,7 +8437,7 @@
         <note xml:id="i-JKadkiAP8mZYaNkdkzHkRv" type="speaker">
           Fru NETTELBRANDT (fp), som yttrade:
         </note>
-        <u xml:id="i-QErrjocc4kMrCfUoF8gagW" who="i-QXiGidLhFr3yVPmDxRSa4h" next="i-ce443f638af48351-15">
+        <u xml:id="i-QErrjocc4kMrCfUoF8gagW" who="i-QXiGidLhFr3yVPmDxRSa4h" next="i-ce443f638af48351-16">
           <seg xml:id="i-XgABpEfsQNxXGu5YFKf1TX">
             Herr talman! Sedan urminnes tid har det funnits regler om läkares
             tystnadsplikt. Läkarsekretessen anses vara lika gammal som läkekonsten
@@ -8501,8 +8455,6 @@
             något om patients sjukdom eller patients förhållanden i övrigt,
             om vilka han i sin nämnda egenskap erhållit kunskap.
           </seg>
-        </u>
-        <u xml:id="i-ce443f638af48351-15" who="i-QXiGidLhFr3yVPmDxRSa4h" prev="i-QErrjocc4kMrCfUoF8gagW" next="i-ce443f638af48351-16">
           <seg xml:id="i-CrygT5DHPwuZhGy2N3hgtM">
             Läkarsekretessen — som i och för sig torde vara oomstridd — kan
             motiveras med flera skäl. Ett sådant är att man vill förhindra
@@ -8522,7 +8474,7 @@
         <note xml:id="i-SfTYXwJcP8hsZ4aWbFdEx4">
           78 Nr 15
         </note>
-        <u xml:id="i-ce443f638af48351-16" who="i-QXiGidLhFr3yVPmDxRSa4h" prev="i-ce443f638af48351-15" next="i-6LBk5XJqMXyLS31mJkSaV5">
+        <u xml:id="i-ce443f638af48351-16" who="i-QXiGidLhFr3yVPmDxRSa4h" prev="i-QErrjocc4kMrCfUoF8gagW">
           <seg xml:id="i-RJtdGd2QHswoGX7BA4ZB3A">
             kan inte anses vara något samhällsintresse att för en person
             skadliga, nedsättande eller strängt personliga omständigheter
@@ -8553,8 +8505,6 @@
             tillstånd att till statsrådet och chefen för socialdepartementet
             få ställa följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-6LBk5XJqMXyLS31mJkSaV5" who="i-QXiGidLhFr3yVPmDxRSa4h" prev="i-ce443f638af48351-16">
           <seg xml:id="i-R2rkNs2n5z2mgXmpRp113q">
             Tänker statsrådet vidta några åtgärder för att tillse att patienter
             som uppsöker allmänna sjukvårdspolikliniker får samma sekretesskydd

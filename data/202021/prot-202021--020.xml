@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>digital-origin</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">digital-origin</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-6qM4c4WJGBccWfycRsqtME" type="speech">
             <linkGrp type="u">
               <ptr target="#i-930e02eac663f054-10"/>
@@ -576,7 +576,13 @@
               <ptr target="#i-930e02eac663f054-343"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -719,7 +725,7 @@
           Interpellationen kommer att besvaras fredagen den 16 oktober
           2020.
         </note>
-        <u xml:id="i-930e02eac663f054-2" who="unknown">
+        <u xml:id="i-930e02eac663f054-2" who="unknown" next="i-930e02eac663f054-4">
           <seg xml:id="i-LvWZYRXMQucFqq5tfhadAp">
             Skälet till dröjsmålet är finansministerns planering.
           </seg>
@@ -755,7 +761,7 @@
         <note xml:id="i-N8nShE5jTmrKGJtj2bBxev">
           av Jens Holm (V)
         </note>
-        <u xml:id="i-930e02eac663f054-4" who="unknown">
+        <u xml:id="i-930e02eac663f054-4" who="unknown" prev="i-930e02eac663f054-2" next="i-930e02eac663f054-6">
           <seg xml:id="i-PZEqQnVw3dufVJViJ3zxTn">
             Frågan kommer att besvaras fredagen den 27 november 2020. Statsrådet
             har inte möjlighet att besvara interpellationen inom anvisad tid
@@ -792,7 +798,7 @@
         <note xml:id="i-27aRDW3JtGb9AjupQrowap">
           av Mikael Oscarsson (KD)
         </note>
-        <u xml:id="i-930e02eac663f054-6" who="unknown">
+        <u xml:id="i-930e02eac663f054-6" who="unknown" prev="i-930e02eac663f054-4" next="i-930e02eac663f054-8">
           <seg xml:id="i-WmDzkptHQASXMpy8QVTPAp">
             Frågan kommer att besvaras fredagen den 27 november 2020. Statsrådet
             har inte möjlighet att besvara interpellationen inom anvisad tid
@@ -833,7 +839,7 @@
           Interpellationen kommer att besvaras fredagen den 6 november
           2020.
         </note>
-        <u xml:id="i-930e02eac663f054-8" who="unknown">
+        <u xml:id="i-930e02eac663f054-8" who="unknown" prev="i-930e02eac663f054-6">
           <seg xml:id="i-63xT72F3Bz1HEx9Qc5SCeR">
             Skälet till dröjsmålet är sedan tidigare inbokade engagemang.
           </seg>
@@ -906,15 +912,13 @@
         <note xml:id="i-AaNwX4eXzCtz7G3eoeBoAE" type="speaker">
           Anf. 1 Statsrådet MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-930e02eac663f054-10" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-930e02eac663f054-11">
+        <u xml:id="i-930e02eac663f054-10" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-TCR3MVFngrAX2juSQU4SaN">
             Fru talman! Thomas Morell har frågat mig om jag avser att agera
             för en konsoliderad tryckt utgåva på svenska av föreskrifterna
             gällande IMDG-koden och därmed skapa förutsättningar för rättslig
             prövning vid konstaterade brister i hanteringen av farligt gods.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-11" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-10" next="i-930e02eac663f054-12">
           <seg xml:id="i-3b7d1E2xCJq4BbTwJ4E5vv">
             Jag besvarade den 9 september i år en fråga rörande samma sak
             från Thomas Morell. Jag betonade då och vill återigen framhålla
@@ -925,16 +929,12 @@
             är det viktigt med ansvar, utbildning och kompetens hos aktörerna
             i transportkedjan.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-12" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-11" next="i-930e02eac663f054-13">
           <seg xml:id="i-DRLWCHuBbYnmu3uWpfvH3X">
             Det är fartygets befälhavare som är skyldig att se till att fartyget
             är sjöklart innan resan påbörjas, vilket innebär att det är befälhavaren
             som har det yttersta ansvaret för att till exempel lastning av
             gods är korrekt utförd enligt kraven i de bestämmelser som finns.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-13" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-12">
           <seg xml:id="i-Sqn9yAqay28gyXThh5Las1">
             Vad gäller frågan om att översätta IMDG-koden till svenska är
             det i första hand en fråga för berörda myndigheter att hantera.
@@ -954,12 +954,10 @@
         <note xml:id="i-GC68S5ua9gVenNMKVj9x4k" type="speaker">
           Anf. 2 THOMAS MORELL (SD):
         </note>
-        <u xml:id="i-6kxVNf1fqzdtdfcRHtqcQC" who="i-G9Ze2ayHon2kkwVgXWott8" next="i-930e02eac663f054-14">
+        <u xml:id="i-6kxVNf1fqzdtdfcRHtqcQC" who="i-G9Ze2ayHon2kkwVgXWott8">
           <seg xml:id="i-YNQmazcvtXpA3ZukevJ1G9">
             Fru talman! Tack för svaret, statsrådet Mikael Damberg!
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-14" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-6kxVNf1fqzdtdfcRHtqcQC" next="i-930e02eac663f054-15">
           <seg xml:id="i-MbPkm2dbqnL7XhqVKc18ws">
             Farligt gods är precis som det låter ett ämne eller något annat
             som är farligt. Det kan vara explosivt, självantändande, giftigt,
@@ -968,8 +966,6 @@
             på sjön. När det brister i hanteringen av det farliga godset måste
             det också få konsekvenser för de aktörer som inte sköter sig.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-15" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-14" next="i-930e02eac663f054-16">
           <seg xml:id="i-Lif9UWQT5tPWD8iMiVe2op">
             I och med den situation som råder för Kustbevakningen kan man
             alltså inte lagföra den som begår brott i samband med att fordon
@@ -985,8 +981,6 @@
             allvarliga konsekvenser för miljön. Därför måste det också få
             konsekvenser för den som medvetet bryter mot regelverket.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-16" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-15" next="i-930e02eac663f054-17">
           <seg xml:id="i-54GdHCX7FxDNZV4cqRiCwm">
             Statsrådet sa i sitt svar: ” Jag betonade då och vill återigen
             framhålla att regeringen anser att säkerheten i hamnar och på
@@ -1000,8 +994,6 @@
             den här interpellationen har satt ljuset på någonting som regeringen
             måste ta tag i.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-17" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-16" next="i-930e02eac663f054-18">
           <seg xml:id="i-Q3edEu4PHL8g7UmH8aheCP">
             Bara för att illustrera hur jag upplever hur detta hanteras ska
             jag berätta om en händelse som skedde på väg för många år sedan.
@@ -1015,8 +1007,6 @@
             upplever jag att regeringen hanterar frågan: Man upplever inte
             faran förrän man ställs inför det som är farligt.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-18" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-17">
           <seg xml:id="i-Kv3CDXs6UnefceZYh6ZTG1">
             Av de fordon som kontrolleras är det 40 procent som har brister,
             men man upplever inte den faran förrän någonting faktiskt inträffar.
@@ -1031,15 +1021,13 @@
         <note xml:id="i-A3dQKw2uv82QujeFRDEuz4" type="speaker">
           Anf. 3 Statsrådet MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-930e02eac663f054-19" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-930e02eac663f054-20">
+        <u xml:id="i-930e02eac663f054-19" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-Htj2K4Z6AfR6xVTQoD2bHo">
             Fru talman! Jag tackar interpellanten för en viktig interpellation.
             Det heter nämligen ”farligt gods” av en anledning, och att inte
             hantera godset på rätt sätt kan innebära en fara för såväl miljön
             som säkerheten för förare eller allmänhet.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-20" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-19" next="i-930e02eac663f054-21">
           <seg xml:id="i-2NtmU9tDrnPQxWQ73AurQE">
             Det är klart att det är viktiga frågor vi talar om, och regeringen
             tar detta på stort allvar. Det är därför vi tidigare har haft
@@ -1051,8 +1039,6 @@
             jämfört med samma period förra året , ökade kontroller av kör-
             och vilotider, farligt gods, flygande inspektioner och cabotage.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-21" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-20" next="i-930e02eac663f054-22">
           <seg xml:id="i-7KsgzuCWR2WvNSgEFyWo1e">
             Jag tror att det är viktigt att myndigheterna nu också får analysera
             vad det nya beslutet egentligen innebär och hur man ska jobba
@@ -1062,8 +1048,6 @@
             återkommer till oss i regeringen och säger att de anser att vi
             behöver fatta ett beslut i någon fråga för att åtgärda ett problem.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-22" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-21" next="i-930e02eac663f054-23">
           <seg xml:id="i-ByDSBovWXfYjfRzKWBU8WJ">
             Trots att vi har en del problem på detta område vill jag göra
             gällande att det inte är så att Kustbevakningen inte gör några
@@ -1071,8 +1055,6 @@
             tillsynsarbetena. De görs ofta i hamn, som interpellanten vet,
             och i anslutning till hamnområdet.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-23" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-22" next="i-930e02eac663f054-24">
           <seg xml:id="i-CsqT9fvHHqZ4sBCzUxcexX">
             Då sker tillsynen enligt ADR-reglerna för transport av farligt
             gods på väg i stället. Det är klart att det också är viktigt,
@@ -1082,8 +1064,6 @@
             eller båten. Det är också ett viktigt instrument som man ska använda
             om farligt gods inte hanteras korrekt.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-24" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-23">
           <seg xml:id="i-Rkh2umCMeeCV58XS8itcj9">
             Detta är alltså inte ett oreglerat område, men om man har problem
             på detta område förväntar vi oss att myndigheter antingen agerar
@@ -1096,7 +1076,7 @@
         <note xml:id="i-WkfkvxW2V2XEXMGTa8zWvr" type="speaker">
           Anf. 4 THOMAS MORELL (SD):
         </note>
-        <u xml:id="i-930e02eac663f054-25" who="i-G9Ze2ayHon2kkwVgXWott8" next="i-930e02eac663f054-26">
+        <u xml:id="i-930e02eac663f054-25" who="i-G9Ze2ayHon2kkwVgXWott8" next="i-930e02eac663f054-27">
           <seg xml:id="i-BAHnWMWtYKn5AU5kGXuapQ">
             Fru talman! Tack, statsrådet, för s varet! Kruxet är kanske inte
             i första hand att myndigheten inte gör kontroller, för det gör
@@ -1105,8 +1085,6 @@
             inte har verktyg för att lagföra den som begår ett allvarligt
             brott.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-26" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-25" next="i-930e02eac663f054-27">
           <seg xml:id="i-3TTK7TBrzxFnPSJFTcZSnW">
             Riksåklagaren sa att den här lagstiftningen inte kan användas
             eftersom den inte finns i en tryckt, konsoliderad version på svenska.
@@ -1117,7 +1095,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=7"/>
-        <u xml:id="i-930e02eac663f054-27" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-26" next="i-930e02eac663f054-28">
+        <u xml:id="i-930e02eac663f054-27" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-25">
           <seg xml:id="i-MGUWU7cMtHZmszjWfbAvZu">
             Nu ser vi att det är 40 procent av de kontrollerade fordonen
             som har brister. Då är det många som flyger under radarn. Man
@@ -1128,16 +1106,12 @@
             I det läget är det ännu svårare för exempelvis räddningstjänsten
             att komma med rätt utrustning vid en olycka.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-28" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-27" next="i-930e02eac663f054-29">
           <seg xml:id="i-C9HCWCQ68RwkL1AoCcYMvo">
             Många av de ämnen vi talar om reagerar med syre. Kommer de i
             kontakt med syre kan det uppstå en kraftig brand eller rent av
             en explosion. En del ämnen klarar inte av vatten, och sjöfart
             bygger ju på vatten.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-29" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-28" next="i-930e02eac663f054-30">
           <seg xml:id="i-Lp27dvVvQGbYfNsFG8rMLK">
             Om man kan krypa under radarn, vilket man bevisligen gör, och
             det inte får konsekvenser skapar man en marknad för dem som vill
@@ -1147,15 +1121,11 @@
             läge där man inte kan konkurrera, för den som inte följer regelverket
             kan ju erbjuda en billigare transport.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-30" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-29" next="i-930e02eac663f054-31">
           <seg xml:id="i-6fARYWCSDBZcQJshfmsuB4">
             I slutändan är det några som blir förlorare på detta, nämligen
             vi vanliga medborgare, som kan utsättas för att ämnen kommer på
             drift i vattendrag eller frigörs i luften.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-31" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-30" next="i-930e02eac663f054-32">
           <seg xml:id="i-Lq8AznTCFwKwNgnyJiHzdX">
             Det var en olycka på E6 utanför Ängelholm den 12 oktober. Då
             var det ammoniak i lasten. Nu säger jag inte att olyckan berodde
@@ -1163,8 +1133,6 @@
             att man fick utrymma fastigheter för att ha ett säkerhetsavstånd
             till det olycksdrabbade fordonet.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-32" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-31">
           <seg xml:id="i-2L6eTPrPL3UZXuJqBcTWvA">
             Ska man transportera farligt gods måste det gå enligt regelverket
             för att så långt som möjligt minimera risken för skador på människor
@@ -1177,15 +1145,13 @@
         <note xml:id="i-9qxDmJGpKF1hhqGr1Lowk6" type="speaker">
           Anf. 5 Statsrådet MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-930e02eac663f054-33" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-930e02eac663f054-34">
+        <u xml:id="i-930e02eac663f054-33" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-930e02eac663f054-36">
           <seg xml:id="i-EUnkywosyoYiKm8Mvftkkq">
             Fru talman! Jag vill upprepa att det är viktigt att Transportstyrelsen
             samarbetar med MSB, Kustbevakningen och andra myndigheter som
             berörs för att på bästa sätt kunna tillse att reglerna efterlevs,
             så att man kan upprätthålla en hög säkerhet till sjöss.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-34" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-33" next="i-930e02eac663f054-35">
           <seg xml:id="i-ExwLwiaxWiTXYg2aPUJ6ij">
             Frågan om att översätta IMDG-koden till svenska är i första hand
             en fråga för berörda myndigheter att bedöma och hantera. Utslaget
@@ -1194,8 +1160,6 @@
             eget agerande eller genom att återkomma till regeringen om hur
             de anser att situationen ska hanteras.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-35" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-34" next="i-930e02eac663f054-36">
           <seg xml:id="i-5WUbM6WPcz6kwHah4uRPRR">
             Men vi ska inte sprida en bild av att Kustbevakningen inte kan
             kontrollera detta. Ska fordonet komma ombord på färjan måste det
@@ -1210,7 +1174,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=8"/>
-        <u xml:id="i-930e02eac663f054-36" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-35" next="i-930e02eac663f054-37">
+        <u xml:id="i-930e02eac663f054-36" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-33">
           <seg xml:id="i-KndY7zou1fokSeRR1yYpi7">
             Detta säger jag inte för att tona ned den andra frågan, men det
             finns alltså regelverk att agera efter som vi förväntar oss att
@@ -1219,8 +1183,6 @@
             godset och det som finns på båten håller säkerhet. Det är befälhavarens
             absoluta skyldighet att tillse detta.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-37" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-36">
           <seg xml:id="i-Wyag4fv4cqB3rxJAseiZ5A">
             Myndigheterna kan och måste agera, men de har också ett ansvar
             att analysera en ny situation och dra slutsatser utifrån den.
@@ -1231,15 +1193,13 @@
         <note xml:id="i-H3AhrKvuN3bCZSFSFPD3kq" type="speaker">
           Anf. 6 THOMAS MORELL (SD):
         </note>
-        <u xml:id="i-930e02eac663f054-38" who="i-G9Ze2ayHon2kkwVgXWott8" next="i-930e02eac663f054-39">
+        <u xml:id="i-930e02eac663f054-38" who="i-G9Ze2ayHon2kkwVgXWott8">
           <seg xml:id="i-36jXBhBDiDsE6Yo5NW9CgX">
             Fru talman! Tack, statsrådet, för s varet! Jag får väl använda
             samma formulering som statsrådet själv och säga att jag noggrant
             kommer att följa myndigheternas arbete i denna fråga. Jag kan
             försäkra att jag kommer att göra det.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-39" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-38" next="i-930e02eac663f054-40">
           <seg xml:id="i-PQqm2QigPxDDviASCbPBkf">
             Låt mig bara belysa hur viktigt det är att detta med farligt
             gods sköts rätt. Hemma i Skaraborg hade vi för några år sedan
@@ -1250,8 +1210,6 @@
             Det räckte med att ämnet kom i kontakt med syre för att man skulle
             få en sådan effekt.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-40" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-39" next="i-930e02eac663f054-41">
           <seg xml:id="i-MNJkcBS9hL38x6ZDpCPzs1">
             Tänk nu tanken att detta fordon hade varit på en båt i stället
             och att ingen hade vetat vad som finns i fordonet. Där finns alltså
@@ -1261,8 +1219,6 @@
             Därför är det oerhört viktigt att man kommer åt dem som inte följer
             regelverket, för att skydda både människor och miljö.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-41" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-40">
           <seg xml:id="i-W7YNdwHtNc6bosKVdwY8Hq">
             Som sagt var: Jag kommer noggrant att följa fortsättningen i
             denna fråga.
@@ -1271,7 +1227,7 @@
         <note xml:id="i-TNiugidhxDtvjgUQyA3oD2" type="speaker">
           Anf. 7 Statsrådet MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-930e02eac663f054-42" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-930e02eac663f054-43">
+        <u xml:id="i-930e02eac663f054-42" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-QDJmUYWUEYtypcfiWReZoh">
             Fru talman! Jag vill understryka att jag och regeringen också
             kommer att följa den här frågan med stort intresse. Ordning och
@@ -1282,8 +1238,6 @@
             att få upp kontrollerna av farligt gods och annan yrkestrafik
             i Sverige. Vi utreder en ny tillsynsorganisation.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-43" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-42">
           <seg xml:id="i-GNCQocSMNdb1Vx8eMrpuCk">
             Vi tar alltså ett brett grepp om detta. Jag vill garantera Thomas
             Morell att vi ser noga på den här frågan och följer myndigheternas
@@ -1305,21 +1259,17 @@
         <note xml:id="i-MmH7bChQLJcHevh5aBMNzf" type="speaker">
           Anf. 8 Statsrådet MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-930e02eac663f054-44" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-930e02eac663f054-45">
+        <u xml:id="i-930e02eac663f054-44" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-B6dCnMcQFo7oYwCtqzqhrV">
             Fru talman! Louise Meijer har frågat mig om jag a vser att införa
             möjlighete r till visitationszoner och till att avlyssna gängkriminella
             personer utan konkret brottsmisstanke .
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-45" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-44" next="i-930e02eac663f054-46">
           <seg xml:id="i-RN5hnWTtWBfLBS4iPa5xZd">
             Det våld som kriminella nätverk står för måste bemötas med samhällets
             fulla kraft. De kriminella nätverken ska knäckas, brottsligheten
             ska tryckas tillbaka och tryggheten ska öka.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-46" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-45" next="i-930e02eac663f054-47">
           <seg xml:id="i-Ju3zYjjJcxDWTNwws2UDSk">
             Med 34-punktsprogrammet genomför vi det största paketet mot gängkriminaliteten
             någonsin i Sverige. Programmet omfattar åtgärder på både kort
@@ -1327,8 +1277,6 @@
             straffen, men vi genomför också långsiktiga insatser för att strypa
             gängens nyrekrytering.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-47" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-46" next="i-930e02eac663f054-48">
           <seg xml:id="i-Ly6puzzJ6ArLUfVEoH2xLA">
             Visitationszoner ingår inte i 34-punktsprogrammet. Som Louise
             Meijer angett har jag förklarat detta med att det är oklart om
@@ -1336,8 +1284,6 @@
             annan gängkriminalitet , samtidigt som det finns risker förknippade
             med förslaget .
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-48" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-47" next="i-930e02eac663f054-49">
           <seg xml:id="i-9eqPKAqsFX3icX1Vh6jmoR">
             Det har däremot uppmärksammats att Polismyndigheten behöver bättre
             möjligheter till husrannsakan i kända kriminella miljöer när det
@@ -1348,8 +1294,6 @@
             föremål, till exempel explosiva varor. Utredaren ska redovisa
             uppdraget i slutet av den här månaden.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-49" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-48" next="i-930e02eac663f054-50">
           <seg xml:id="i-6zvDZbPUcu5LodGv61ws8B">
             M öjligheter att använda hemliga tvångsmedel har stor betydelse
             i kampen mot den grova brottsligheten. Steg för steg genomför
@@ -1357,15 +1301,11 @@
             myndigheterna effektiva möjligheter att hämta in uppgifter från
             elektronisk kommunikation .
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-50" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-49" next="i-930e02eac663f054-51">
           <seg xml:id="i-2SwQyB33y7gF67fvhtL6US">
             Regeringen har infört nya regler om datalagring och ett förfarande
             som gör det enklare att besluta om hemlig avlyssning av elektronisk
             kommunikation .
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-51" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-50" next="i-930e02eac663f054-52">
           <seg xml:id="i-BMkW98cA1WwWgR6jsmodaB">
             I våras såg vi till att ett nytt tvångsmedel , hemlig dataavläsning
             , kunde införas. Med hemlig dataavläsning kan de brottsbekämpande
@@ -1374,8 +1314,6 @@
             under en förundersökning som i fall där det inte finns misstankar
             om ett konkret brott.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-52" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-51" next="i-930e02eac663f054-53">
           <seg xml:id="i-QeeTBXvDtVAmnP7WRVErak">
             Inom kort kommer regeringen att tillsätta en utredning i syfte
             att ge de brottsbekämpande myndigheterna utökade möjligheter att
@@ -1384,8 +1322,6 @@
             hemliga tvångsmedel i fråga om brott som i dag inte omfattas av
             regleringen.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-53" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-52">
           <seg xml:id="i-ChtQWZhRB1Jw9AzvxGnNhV">
             Nya tvångsmedel eller utökade möjligheter att använda befintliga
             tvångsmedel får dock inte införas på ett lättvindigt sätt , och
@@ -1399,12 +1335,10 @@
         <note xml:id="i-Pz6Cy5Lg4gmSFjgTGV9Gjx" type="speaker">
           Anf. 9 LOUISE MEIJER (M):
         </note>
-        <u xml:id="i-930e02eac663f054-54" who="i-7bVDjZpV72vdnYhJ8phHuW" next="i-930e02eac663f054-55">
+        <u xml:id="i-930e02eac663f054-54" who="i-7bVDjZpV72vdnYhJ8phHuW">
           <seg xml:id="i-6pwAur3ApRghEfrTC34iax">
             Fru talman! Tack, inrikesministern, för svaret!
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-55" who="i-7bVDjZpV72vdnYhJ8phHuW" prev="i-930e02eac663f054-54" next="i-930e02eac663f054-56">
           <seg xml:id="i-RZMogyNJdLusbsxizZxsxw">
             Häromdagen kom den nationella trygghetsundersökningen, och den
             var intressant för alla oss som jobbar med dessa frågor att ta
@@ -1414,8 +1348,6 @@
             av brottsligheten i samhället har vi nu uppnått och uppmätt den
             högsta nivån sedan mätningarna började.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-56" who="i-7bVDjZpV72vdnYhJ8phHuW" prev="i-930e02eac663f054-55" next="i-930e02eac663f054-57">
           <seg xml:id="i-XYaACuLAZQtqiK9YKoaiMh">
             Något som sticker ut, vilket kanske inte är förvånande, och som
             jag ska återkomma till är något som inrikesministern själv har
@@ -1423,8 +1355,6 @@
             orolig för att bli rånad. Var femte ung kille är orolig för att
             råka ut för ett personrån.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-57" who="i-7bVDjZpV72vdnYhJ8phHuW" prev="i-930e02eac663f054-56" next="i-930e02eac663f054-58">
           <seg xml:id="i-WYjsqw5dvm2WPU5WEn2beL">
             Det är kanske inte så konstigt att vi ser en ökad oro i just
             den här gruppen eftersom vi också ser en ökad utsatthet för personrån
@@ -1433,8 +1363,6 @@
             utsatta för personrån av andra barn. Vi vet att antalet anmälda
             brott av den här typen ökade med 31 procent under 2019.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-58" who="i-7bVDjZpV72vdnYhJ8phHuW" prev="i-930e02eac663f054-57" next="i-930e02eac663f054-59">
           <seg xml:id="i-7RtmRwSruBoSTD7cQ1j2L3">
             Under Mikael Dambergs tid som inrikesminister eller i vart fall
             under tiden som hans regering har suttit vid makten har otryggheten
@@ -1442,8 +1370,6 @@
             nästan varje liten och medelstor svensk stad nu upplever att kriminalitet
             och otrygghet är en del av stadsbilden.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-59" who="i-7bVDjZpV72vdnYhJ8phHuW" prev="i-930e02eac663f054-58" next="i-930e02eac663f054-60">
           <seg xml:id="i-Jd9ESwtz7TsonogdmuRqbe">
             Mikael Damberg är inte förvånad över den ökade otryggheten, sa
             han i en intervju. Det förvånar mig att inrikesministern inte
@@ -1451,8 +1377,6 @@
             sedan 2014. Om man då inte är förvånad, har man verkligen gjort
             tillräckligt?
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-60" who="i-7bVDjZpV72vdnYhJ8phHuW" prev="i-930e02eac663f054-59" next="i-930e02eac663f054-61">
           <seg xml:id="i-D8HcpzQaMnF99CN6311JNS">
             Låt mig citera ur intervjun: ” Jag tror att den faktiska utvecklingen
             påverkar människors känsla av otrygghet, men statistiken visar
@@ -1460,8 +1384,6 @@
             för brott generellt, utan det är känslan av otrygghet som framför
             allt växer. ”
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-61" who="i-7bVDjZpV72vdnYhJ8phHuW" prev="i-930e02eac663f054-60" next="i-930e02eac663f054-62">
           <seg xml:id="i-CJwjbRMdLUbmqon1BBktkF">
             Låt mig ta ett exempel. I dag åkte jag upp till Stockholm med
             ett SJ-tåg. En ung kille i märkeskläder som knappt kan svenska
@@ -1474,8 +1396,6 @@
             längre vågar avvisa dem från tåg. Då undrar jag: Är det här inrikesministerns
             Sverige? Det är inte mitt Sverige.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-62" who="i-7bVDjZpV72vdnYhJ8phHuW" prev="i-930e02eac663f054-61">
           <seg xml:id="i-Abk5CUR9xWiPfPTv8x2zNH">
             Jag undrar också över de åtgärder som inrikesministern beskrev
             i sitt svar på interpellationen. Upplever inrikesministern att
@@ -1487,7 +1407,7 @@
           Anf. 10 Statsrådet MIKAEL DAMBERG (S):
         </note>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=11"/>
-        <u xml:id="i-930e02eac663f054-63" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-930e02eac663f054-64">
+        <u xml:id="i-930e02eac663f054-63" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-RxUthbTnebpS7eMnMErrxm">
             Fru talman! Det är viktigt att säga att jag kommenterade den
             här undersökningen från utgångspunkten att jag inte är förvånad
@@ -1496,8 +1416,6 @@
             i offentliga miljöer i Sverige. Det är klart att man blir orolig
             över det. Allt annat vore väldigt märkligt.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-64" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-63" next="i-930e02eac663f054-65">
           <seg xml:id="i-4sod736BpnL5w3t97Uwj23">
             Men det leder också till tanken att vi är väldigt beslutna att
             det här inte ska bli en ny normalbild i Sverige. Det är inget
@@ -1505,8 +1423,6 @@
             parti i den här riksdagen kommer att tillåta att bli en förlängning
             av utvecklingen i vårt land.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-65" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-64" next="i-930e02eac663f054-66">
           <seg xml:id="i-DmErrRs9UUJ44X3cLJ6hnA">
             Det är därför vi genomför ett stort program för att öka tryggheten.
             I mitt svar tog jag bara upp delar av det. Det absolut viktigaste
@@ -1516,8 +1432,6 @@
             sig att polisen ska finnas för att öka tryggheten och därmed snabbare
             kunna beivra brott.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-66" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-65" next="i-930e02eac663f054-67">
           <seg xml:id="i-27uB52jhAN6zXHc8JgXfAW">
             Här genomför vi den största utbyggnaden av någon statlig myndighet
             just nu. Vi bygger ut polisen med en tredjedel fram till 2024.
@@ -1529,8 +1443,6 @@
             runt om i Sverige. Den här regeringen har också öppnat två nya
             polishögskolor för att kunna utbilda fler poliser.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-67" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-66" next="i-930e02eac663f054-68">
           <seg xml:id="i-FTNPSsGpMUYLbSypUcF6D1">
             Det här är ett arbete som måste bedrivas med kraft men också
             med långsiktighet. Det är där jag tror att man måste se att det
@@ -1540,8 +1452,6 @@
             runt om i Sverige. Det har vi bestämt oss för att göra, och det
             kommer vi att fullfölja.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-68" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-67" next="i-930e02eac663f054-69">
           <seg xml:id="i-CUn3ojsUMXQZwJi8V7EXhf">
             Jag tänkte inte i första hand välja att gå tillbaka i historien.
             Man kan göra det om man vill och fundera på hur långsiktiga de
@@ -1550,8 +1460,6 @@
             på polisen och ger den nya verktyg. Vi skärper lagstiftningen
             så att straffen blir längre.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-69" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-68" next="i-930e02eac663f054-70">
           <seg xml:id="i-NDrYJbZpn3BFahqNaCuVHG">
             Vi jobbar också hårt med det förebyggande arbetet, för när vi
             talar om 17-åringar som begår grova brott kan ingen säga till
@@ -1561,8 +1469,6 @@
             arbete för att bekämpa otrygghet, annars kommer vi inte att lyckas
             med det viktiga uppdraget att öka tryggheten i Sverige.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-70" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-69">
           <seg xml:id="i-VPUdmvJcoLC1Wvpjz41C1P">
             I vissa delar av Sverige har man jobbat konsekvent under en längre
             tid. Ta till exempel Malmö, som har haft stora problem med gängkriminalitet.
@@ -1577,15 +1483,13 @@
         <note xml:id="i-HZCm3QajB9j1ViEpMRMbf9" type="speaker">
           Anf. 11 LOUISE MEIJER (M):
         </note>
-        <u xml:id="i-930e02eac663f054-71" who="i-7bVDjZpV72vdnYhJ8phHuW" next="i-930e02eac663f054-72">
+        <u xml:id="i-930e02eac663f054-71" who="i-7bVDjZpV72vdnYhJ8phHuW" next="i-930e02eac663f054-73">
           <seg xml:id="i-6bk6qMCgRaHppxf7ExRibG">
             Fru talman! Inrikesministern säger att inget parti accepterar
             att situ ati onen i dagsläget ska vara den nya normalbilden av
             Sverige. Men det här är det nya Sverige. Det är så här det ser
             ut.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-72" who="i-7bVDjZpV72vdnYhJ8phHuW" prev="i-930e02eac663f054-71" next="i-930e02eac663f054-73">
           <seg xml:id="i-BK8tjzZrqTESMN3ZgtPQQQ">
             Jag bor själv i Skåne och tycker att det är intressant att inrikesministern
             tar upp Malmö. Malmö är inte en trygg stad i dag. Det är inte
@@ -1595,14 +1499,12 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=12"/>
-        <u xml:id="i-930e02eac663f054-73" who="i-7bVDjZpV72vdnYhJ8phHuW" prev="i-930e02eac663f054-72" next="i-930e02eac663f054-74">
+        <u xml:id="i-930e02eac663f054-73" who="i-7bVDjZpV72vdnYhJ8phHuW" prev="i-930e02eac663f054-71">
           <seg xml:id="i-8GauAgsbEszZP9X3yz54x8">
             Jag tar gärna debatten om förebyggande åtgärder varje dag, men
             jag vet att vi har olika syn på vad det egentligen är som är förebyggande
             när det gäller att stävja kriminaliteten.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-74" who="i-7bVDjZpV72vdnYhJ8phHuW" prev="i-930e02eac663f054-73" next="i-930e02eac663f054-75">
           <seg xml:id="i-DL2avsXfrnnfkEvsL629JH">
             Det handlar om krav och kunskap, inte i huvudsak om fler fritidsgårdar
             och fältassistenter. Det handlar om språkkrav, om att ställa krav
@@ -1611,8 +1513,6 @@
             att det alltid lönar sig att arbeta i stället för att gå på bidrag.
             Jag tar alltid gärna en debatt om de förebyggande åtgärderna.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-75" who="i-7bVDjZpV72vdnYhJ8phHuW" prev="i-930e02eac663f054-74" next="i-930e02eac663f054-76">
           <seg xml:id="i-RVNv3nAU523aGyNVkiZcd3">
             Men låt oss återgå till sprängningar och skjutningar. Vi vet
             att både sprängningarna och skjutningarna ökar. Vi vet att det
@@ -1620,16 +1520,12 @@
             Sverige än i Tyskland. Sedan 1996 har unga mäns risk att utsättas
             för skjutvapenvåld i Sverige femfaldigats.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-76" who="i-7bVDjZpV72vdnYhJ8phHuW" prev="i-930e02eac663f054-75" next="i-930e02eac663f054-77">
           <seg xml:id="i-CWWDQNXiUzwbV4qzHgCDRs">
             Jag kan inte se att den här regeringen gör det som krävs för
             att stävja denna utveckling. Det är givetvis, som Damberg på ett
             snyggt sätt insinuerade, fler än den här regeringen som har ansvar
             för hur situationen ser ut i dag. Det får man nog erkänna.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-77" who="i-7bVDjZpV72vdnYhJ8phHuW" prev="i-930e02eac663f054-76" next="i-930e02eac663f054-78">
           <seg xml:id="i-G1Z5aZXv9yEBGJfuu79xMb">
             Men under Socialdemokraternas tid vid makten sedan 2014 har utvecklingen
             eskalerat. Den har rusat till ett läge som aldrig någonsin skådats
@@ -1638,8 +1534,6 @@
             sitter med Versacebälten men påstår sig inte ha råd att köpa en
             biljett. Detta är inte rimligt.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-78" who="i-7bVDjZpV72vdnYhJ8phHuW" prev="i-930e02eac663f054-77">
           <seg xml:id="i-9sZidV9XDXK6BWknSYVMmp">
             Polisen uttrycker uppenbarligen offentligt, i till exempel Ekots
             lördagsintervju , att de vill försöka med visitationszoner, vilket
@@ -1655,7 +1549,7 @@
         <note xml:id="i-82GKmcbSLNo4Z7PLXM5ZKH" type="speaker">
           Anf. 12 Statsrådet MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-930e02eac663f054-79" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-930e02eac663f054-80">
+        <u xml:id="i-930e02eac663f054-79" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-930e02eac663f054-81">
           <seg xml:id="i-DUp22s4L6tcHZJArXbBbMP">
             Fru talman! Bara för att avsluta diskussionen om Malmö – jag
             har inte påstått att Malmö inte har problem. Malmö är en av de
@@ -1669,8 +1563,6 @@
             det stora ansvaret för svensk flyktingpolitik, som vi också har
             stramat åt de senaste åren.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-80" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-79" next="i-930e02eac663f054-81">
           <seg xml:id="i-PjFrNhBjec5KdQZERCtY8u">
             Malmö har trots alla dessa utmaningar haft åtta år i rad med
             höjda skolresultat. Det innebär en otrolig ansträngning av en
@@ -1679,7 +1571,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=13"/>
-        <u xml:id="i-930e02eac663f054-81" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-80" next="i-930e02eac663f054-82">
+        <u xml:id="i-930e02eac663f054-81" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-79">
           <seg xml:id="i-7FhHwyoTnnzGoGbGUAErbS">
             Vi måste kunna diskutera städer som har haft och har stora problem
             men skapar någon form av positiv utveckling som visar att det
@@ -1687,8 +1579,6 @@
             i Stockholm nu. Vad ska Stockholm göra för att få ned skjutvapenvåldet
             och sprängningarna?
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-82" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-81" next="i-930e02eac663f054-83">
           <seg xml:id="i-HUeMWFLjmaZhi6FFLZeZ8z">
             Jag tror att man kan lära en del av det som har hänt i Malmö
             – hur man med underrättelsearbete har lyckats ringa in de kriminella
@@ -1698,8 +1588,6 @@
             resultat. Låt oss fortsätta det arbetet och lära av dem som trots
             väldigt stora utmaningar har lyckats åstadkomma resultat.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-83" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-82" next="i-930e02eac663f054-84">
           <seg xml:id="i-ELbRFrTbDW5dq5idRDjvNk">
             Vi behöver inte gå in på det, men det är klart att om vi hade
             haft fler poliser i dag hade vi varit ett tryggare samhälle. Vi
@@ -1710,8 +1598,6 @@
             att det inte får konsekvenser. Man måste vara långsiktig i arbetet
             med att bygga ökad trygghet, också på den polisiära sidan.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-84" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-83" next="i-930e02eac663f054-85">
           <seg xml:id="i-2QnWwxdGYnNS4XMr9k655d">
             Vi har en väldigt bra dialog med Polismyndigheten, Åklagarmyndigheten
             och övriga brottsbekämpande myndigheter. Hela 34-punktsprogrammet
@@ -1720,8 +1606,6 @@
             men vi lyssnade också på de politiska partierna kopplat till de
             inspel som gjordes.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-85" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-84" next="i-930e02eac663f054-86">
           <seg xml:id="i-7q45zZHhZzZpXdgTYSy5F7">
             När det gäller hemliga tvångsmedel har vi gjort flera saker.
             Jag tror att det för att komma åt gängkriminella är helt avgörande
@@ -1733,8 +1617,6 @@
             måste alltid göra detta med väldigt stor varsamhet. Det är viktigt
             att man inte gör det på fel sätt så att man undergräver rättssäkerheten.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-86" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-85" next="i-930e02eac663f054-87">
           <seg xml:id="i-Ub4QUuavtGYVDR5cKgQJKX">
             När det gäller visitationszoner vet jag att Moderaterna har en
             förkärlek för det förslaget och tycker att det är väldigt viktigt.
@@ -1744,8 +1626,6 @@
             i de områdena som säger att man har problem att visitera för vapen
             och narkotika. Så jag undrar vilka problem det är vi löser.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-87" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-86" next="i-930e02eac663f054-88">
           <seg xml:id="i-NuXurddC9HjmhxU5247aQ3">
             När vi talar med Polismyndigheten ser de störst problem med husrannsakan.
             Där är regelverket inte riktigt tydligt. Jag ser fram emot att
@@ -1753,8 +1633,6 @@
             kunna lyssna på myndigheten, ha en konstruktiv dialog och se till
             att rätta till de problem som finns.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-88" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-87">
           <seg xml:id="i-5ht6S3msMkk3arstTbcvJu">
             Min bild är dock att polisen kan leta efter både vapen och narkotika
             om de behöver göra det, och då har de rätt att visitera – oavsett
@@ -1765,15 +1643,13 @@
         <note xml:id="i-CqxGBkUffd5WQhxKHMibt" type="speaker">
           Anf. 13 LOUISE MEIJER (M):
         </note>
-        <u xml:id="i-930e02eac663f054-89" who="i-7bVDjZpV72vdnYhJ8phHuW" next="i-930e02eac663f054-90">
+        <u xml:id="i-930e02eac663f054-89" who="i-7bVDjZpV72vdnYhJ8phHuW" next="i-930e02eac663f054-91">
           <seg xml:id="i-ChttVQ7oaV2LAMnHVDHwjz">
             Fru talman! Regeringen kanske gör mer än tidigare regeringar
             gjorde då , men den socialdemokratiskt ledda regeringen gör inte
             mer än en moderatledd regering hade gjort nu . Det tror och hoppas
             jag i vart fall att väljarna ser.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-90" who="i-7bVDjZpV72vdnYhJ8phHuW" prev="i-930e02eac663f054-89" next="i-930e02eac663f054-91">
           <seg xml:id="i-JPUwzgCQYpccNRGgLw11T9">
             Apropå att strama åt, både regler som gör det lättare att hindra
             gängkriminella och invandringen, som inrikesministern tog upp,
@@ -1783,7 +1659,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=14"/>
-        <u xml:id="i-930e02eac663f054-91" who="i-7bVDjZpV72vdnYhJ8phHuW" prev="i-930e02eac663f054-90" next="i-930e02eac663f054-92">
+        <u xml:id="i-930e02eac663f054-91" who="i-7bVDjZpV72vdnYhJ8phHuW" prev="i-930e02eac663f054-89">
           <seg xml:id="i-Bg7PpFTXAUM4UYfCsEgt7J">
             Apropå kompromisser har också det 34-punktsprogram som har utmejslats
             kompromissats fram med små partier som egentligen inte delar uppfattningen
@@ -1792,8 +1668,6 @@
             är, och otryggheten är för dessa partier inte den mest prioriterade
             frågan.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-92" who="i-7bVDjZpV72vdnYhJ8phHuW" prev="i-930e02eac663f054-91" next="i-930e02eac663f054-93">
           <seg xml:id="i-XZ8TYPmA54wSXfa2ct841r">
             I Stockholmsområdet finns det fler gängkriminella än i hela vårt
             grannland Danmark. Jag tror att detta talar för sig självt. Det
@@ -1801,8 +1675,6 @@
             fler skjuter på varandra här än i Tyskland och vi har fler gängkriminella
             i en viss region än man har totalt sett i våra grannländer.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-93" who="i-7bVDjZpV72vdnYhJ8phHuW" prev="i-930e02eac663f054-92">
           <seg xml:id="i-9E57DTVimFGG3cFPG99Pub">
             Varför prövar man då inte det som görs i våra grannländer? Varför
             är man konsekvent emot visitationszoner, som polisen själva ber
@@ -1815,7 +1687,7 @@
         <note xml:id="i-FxTsAKzhMF42SA6EPVMh7B" type="speaker">
           Anf. 14 Statsrådet MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-930e02eac663f054-94" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-930e02eac663f054-95">
+        <u xml:id="i-930e02eac663f054-94" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-5gCio5fUhrrXb3GyMg1m3x">
             Fru talman! Jag tror att det är viktigt att se att vi är överens
             om mycket i den här interpellationsdebatten. Vi ska inte vänja
@@ -1828,8 +1700,6 @@
             på polisutbildningen inte får effekt för polisens förmåga att
             bekämpa brott.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-95" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-94" next="i-930e02eac663f054-96">
           <seg xml:id="i-824NDjhSpxnNNwyVPtb5zf">
             När vi dessutom jobbar med att få till stånd en ny migrationspolitik
             i Sverige, där vi går från ett system med permanenta uppehållstillstånd
@@ -1843,8 +1713,6 @@
             agerar vid stora händelser som påverkar vårt land. Då brukar vi
             bli överens.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-96" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-95">
           <seg xml:id="i-SmJENGMCK3npPWXAftibcZ">
             Jag hade hoppats och trott att Moderaterna skulle orka mer i
             opposition, så att man faktiskt hade varit mer långsiktig i sin
@@ -1871,22 +1739,18 @@
         <note xml:id="i-JLdWHcmHgcyrMThpESiu6c" type="speaker">
           Anf. 15 Statsrådet MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-930e02eac663f054-97" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-930e02eac663f054-98">
+        <u xml:id="i-930e02eac663f054-97" who="i-Spsbo7A5zikEeUY3JEYcNV">
           <seg xml:id="i-W6NpRvLysTENQF5awT3p6z">
             Fru talman! Thomas Morell har frågat mig v ilka åtgärder jag
             avser att vidta för att stärka polisens närvaro i de mindre kommunerna
             och inte minst på landsbygden .
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-98" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-97" next="i-930e02eac663f054-99">
           <seg xml:id="i-AYTadUuNaS4Ty5vriFVdfG">
             Sverige ska vara ett tryggt land att leva i. Det förutsätter
             ett starkt rättsväsen och en tillgänglig polis. Att det polisiära
             arbetet stärks och att fler poliser kan bekämpa brottsligheten
             och öka tryggheten i hela landet är prioriterade frågor för regeringen.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-99" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-98" next="i-930e02eac663f054-100">
           <seg xml:id="i-SCFXGSjwLoePpfzGozR8ZX">
             Polismyndigheten har ett svårt uppdrag som många gånger kräver
             tuffa prioriteringar mellan olika arbetsuppgifter och geografiska
@@ -1894,8 +1758,6 @@
             internt inom organisationen och vilka åtgärder som behöver vidtas
             för att f ullgöra de mål som myndigheten har.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-100" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-99" next="i-930e02eac663f054-101">
           <seg xml:id="i-7sN53573uwt8uLsBvmbJ1M">
             Att antalet polisanställda ökar är en förutsättning för bättre
             tillgänglighet i hela landet. Från regeringens sida kommer vi
@@ -1903,16 +1765,12 @@
             för polisen att utföra sitt uppdrag. Här utgör utbyggnaden av
             Polismyndigheten en central del .
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-101" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-100" next="i-930e02eac663f054-102">
           <seg xml:id="i-Q6VhJdHEngkp2hpwL57qTy">
             Vid utgången av juni var vi halvvägs till målet, och ytterligare
             nära 3 000 polisstudenter är på väg ut i verksamheten de närmaste
             åren. Det är också glädjande att färre poliser slutar inom myndigheten
             .
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-102" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-101" next="i-930e02eac663f054-103">
           <seg xml:id="i-YHAtyAZLo7txd8kGGt5HhV">
             Polisutbildning bedrivs numera vid ytterligare två orter, och
             antagningen till utbildningen har mer än fördubblats sedan regeringen
@@ -1922,8 +1780,6 @@
             under 2021, men det är under 2022–2023 som vi kommer att få se
             den största effekten.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-103" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-102">
           <seg xml:id="i-BTgeBf8975LubjrVVNW9ad">
             Från regeringens sida har vi en förväntan : N är Polismyndigheten
             växer måste också närvaron av poliser ute i samhället öka. Detta
@@ -1933,7 +1789,7 @@
         <note xml:id="i-LvDWPvffjmLB7wzfFHhNSg" type="speaker">
           Anf. 16 THOMAS MORELL (SD):
         </note>
-        <u xml:id="i-930e02eac663f054-104" who="i-G9Ze2ayHon2kkwVgXWott8" next="i-930e02eac663f054-105">
+        <u xml:id="i-930e02eac663f054-104" who="i-G9Ze2ayHon2kkwVgXWott8" next="i-930e02eac663f054-107">
           <seg xml:id="i-3fkhprzDCHXKAFQ5zCJvWU">
             Fru talman! Tack för svaret, statsrådet! Det var med intresse
             jag följde den tidigare interpellationsdebatten. Det kretsade
@@ -1944,8 +1800,6 @@
             gör det i dag. Det tar lång tid för polisen att komma på plats,
             om den över huvud taget kommer.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-105" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-104" next="i-930e02eac663f054-106">
           <seg xml:id="i-MrLDsQVSSiZwRYeDmYfMTM">
             Uppe i Klimpfjäll hade en handlare inbrott. Handlaren fick vänta
             i tio timmar på att polisen skulle komma. Tio timmar – det skapar
@@ -1955,8 +1809,6 @@
             ett betydligt allvarligare brott, kanske rent av med skjutningar
             eller någonting annat?
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-106" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-105" next="i-930e02eac663f054-107">
           <seg xml:id="i-ScBCVpyB3u3rsxAZ29gbaG">
             Tryggheten ska inte bara förunnas storstadsbor eller dem som
             bor i tätorter, utan tryggheten måste också vara given för den
@@ -1967,7 +1819,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=16"/>
-        <u xml:id="i-930e02eac663f054-107" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-106" next="i-930e02eac663f054-108">
+        <u xml:id="i-930e02eac663f054-107" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-104">
           <seg xml:id="i-J2JCYxAhtFwJ6fhXKyekGR">
             Jag satt i går kväll och pratade med en bussförare. Vi satt i
             gott och väl två timmar och diskuterade den situation som bussförarna
@@ -1982,15 +1834,11 @@
             du ha stryk, eller? Han sa: Jag är så pass gammal nu att jag inte
             ber om stryk. Då får han hellre sätta sig i bussen och åka med.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-108" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-107" next="i-930e02eac663f054-109">
           <seg xml:id="i-2K3FNqEZfy3wFHNrwGZhPH">
             Han vågar inte ta den konflikten med en som inte vill betala.
             Vad han också berättade var att han ser helt öppen narkotikahantering
             på bussarna ute på landsbygden.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-109" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-108">
           <seg xml:id="i-XPTPR7uRvP2fcWS6SGSBKD">
             Vi har fått en situation i samhället där de kriminella tar allt
             större plats. Det spelar ingen roll om vi pratar om storstäder
@@ -2009,15 +1857,13 @@
         <note xml:id="i-HcTWQ1t9Gk4kRw16SQ4NvD" type="speaker">
           Anf. 17 Statsrådet MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-930e02eac663f054-110" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-930e02eac663f054-111">
+        <u xml:id="i-930e02eac663f054-110" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-930e02eac663f054-114">
           <seg xml:id="i-MNn15XA22sfhFKoxJ3fj82">
             Fru talman! Om det sista är vi totalt överens. Sverige ska vara
             ett tryggt land, och det ska man ha rätt att känna oavsett om
             man bor i en storstad, i en mindre stad eller på landsbygden i
             Sverige.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-111" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-110" next="i-930e02eac663f054-112">
           <seg xml:id="i-MbJrJdKcMzgGXH1voKmtVu">
             Lyckligtvis är landsbygden mer förskonad från grov organiserad
             brottslighet än de större städerna. Det är bra. Det speglas också
@@ -2025,8 +1871,6 @@
             än människor i städer, men vi ser en ökad otrygghet över hela
             landet.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-112" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-111" next="i-930e02eac663f054-113">
           <seg xml:id="i-9Y77yYrdZC5owqcHCD8vBV">
             Min slutsats av det är att vi måste ha en starkare statlig närvaro
             i hela Sverige i form av polis som kan ingripa. Vi har haft en
@@ -2037,8 +1881,6 @@
             När polisen inte finns på plats är det inte säkert att man anmäler
             brott. Det är en väldigt farlig utveckling.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-113" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-112" next="i-930e02eac663f054-114">
           <seg xml:id="i-U8PAG6pRYoPQuwf6bBcvcq">
             Jag ska ändå berätta en lite glädjande historia. Jag kom med
             nattåget i natt från Kiruna. I går var jag uppe i Kiruna. Där
@@ -2050,7 +1892,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=17"/>
-        <u xml:id="i-930e02eac663f054-114" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-113" next="i-930e02eac663f054-115">
+        <u xml:id="i-930e02eac663f054-114" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-110">
           <seg xml:id="i-HYSXagQScz3BxLCDsJtuy5">
             Det nya polishus som byggs får moderna lokaler, men det blir
             också större än i dag. Man räknar med att uppemot 200 personer
@@ -2061,8 +1903,6 @@
             i Kiruna ta höjd för fler anställda för att man ska kunna hantera
             en växande polisorganisation.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-115" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-114" next="i-930e02eac663f054-116">
           <seg xml:id="i-JGJsdaQSffhmd1QE4VCVCg">
             Det är den vägen som är den långsiktigt riktiga. Vad kan vi då
             göra på kort sikt? En väldigt viktig förändring som faktiskt trädde
@@ -2074,8 +1914,6 @@
             eller annat kan polisen använda filmerna för att kunna komma åt
             brottslighet.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-116" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-115">
           <seg xml:id="i-NFXa1pYZ79wQaom2CQUMXW">
             I det konkreta fallet med busschauffören tror jag att kameror
             ökar tryggheten. De gör det också möjligt att efteråt bevisa vad
@@ -2089,7 +1927,7 @@
         <note xml:id="i-YQqxf5HRJVURCtdBuSsPzx" type="speaker">
           Anf. 18 THOMAS MORELL (SD):
         </note>
-        <u xml:id="i-930e02eac663f054-117" who="i-G9Ze2ayHon2kkwVgXWott8" next="i-930e02eac663f054-118">
+        <u xml:id="i-930e02eac663f054-117" who="i-G9Ze2ayHon2kkwVgXWott8" next="i-930e02eac663f054-122">
           <seg xml:id="i-Rw2Ct9YijkbvKiVJKxJzUM">
             Fru talman! Tack för svaret, statsrådet! Nu vet jag inte om man
             ska kalla Borlänge för glesbygd, men det är i alla fall inte en
@@ -2098,8 +1936,6 @@
             så man har ställt in turerna där. Taxi kör inte in där. Det har
             blivit ett område som folk ryggar för att befinna sig i.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-118" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-117" next="i-930e02eac663f054-119">
           <seg xml:id="i-N9onNTbs9A9rKY1ePcsUni">
             Borlänge är inte ensamt om den här situationen; det är många
             andra orter i Sverige som har liknande problem, där kriminalitet
@@ -2108,16 +1944,12 @@
             i Göteborg, då en liten flicka dessutom blev skadad av splitter,
             vill inte människor bo kvar i området.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-119" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-118" next="i-930e02eac663f054-120">
           <seg xml:id="i-PGVJzy1LKBvhJfMfC8eCCu">
             Vi skapar en situation som gör att folk desperat försöker att
             hitta andra platser att bo på. Men inte ens på landsbygden, där
             det normalt bara springer omkring älgar och renar, kan man känna
             sig trygg. Även där gör sig kriminaliteten påmind.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-120" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-119" next="i-930e02eac663f054-121">
           <seg xml:id="i-NuYiZmQ8ztoaDBRaE6h4y4">
             Jag har i tidigare debatter med statsrådet sagt att jag tycker
             att satsningarna på polisen är bra, men jag tycker att det är
@@ -2129,8 +1961,6 @@
             inne i en lägenhet där en handgranat kastades in. I somras var
             det en tolvårig flicka.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-121" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-120" next="i-930e02eac663f054-122">
           <seg xml:id="i-3y2DdGVbQpnMHTRWxaG7eY">
             Det som sker är oerhört alarmerande, och det räcker inte med
             de insatser som är gjorda. Man måste göra betydligt mer. Framför
@@ -2140,7 +1970,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=18"/>
-        <u xml:id="i-930e02eac663f054-122" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-121" next="i-930e02eac663f054-123">
+        <u xml:id="i-930e02eac663f054-122" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-117">
           <seg xml:id="i-ATkVKRvQp5ewuiaWzfMpk7">
             Det som var grunden för min interpellation var kvinnan som har
             haft en affär i Värmland i 31 år. Hon har haft 43 inbrott. Inte
@@ -2150,16 +1980,12 @@
             av dessa inbrott var dessutom i år. Hon har fått köpa psykologhjälp
             till de anställda, för de känner sig inte trygga på jobbet.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-123" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-122" next="i-930e02eac663f054-124">
           <seg xml:id="i-C3d7V3S19poF17VBqe73AK">
             Det här är en tapper kvinna som har kämpat emot i många år och
             som försöker att bedriva sin verksamhet i den här byn i Värmland.
             Vad händer den dag hon och många med henne inte orkar längre?
             Hur ska vi då klara livet ute på landsbygden?
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-124" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-123" next="i-930e02eac663f054-125">
           <seg xml:id="i-SqqsFuKDUodJeXxkk6ci9Y">
             Vi brukade raljera lite grann när vi åkte ut från polishuset
             i Skövde och skulle upp till Töreboda och Hova. Vapnen får osäkras
@@ -2168,16 +1994,12 @@
             finns där ute, de är beväpnade och de drar sig inte för att använda
             dessa vapen.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-125" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-124" next="i-930e02eac663f054-126">
           <seg xml:id="i-QWzyBxo86Tpm6uyR1wgKzM">
             Man springer omkring med automatvapen på stan och skjuter. Alla
             som har hållit ett automatvapen i hand vet vad konsekvensen blir
             när man väl trycker på avtryckaren: Risken att oskyldiga människor
             dör är överhängande.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-126" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-125">
           <seg xml:id="i-CWN5sZQAiPdkq71WbCCnpW">
             Nu måste vi tag i det här problemet – nu, direkt.
           </seg>
@@ -2185,7 +2007,7 @@
         <note xml:id="i-XncFnANhbirTjoASiupuu" type="speaker">
           Anf. 19 Statsrådet MIKAEL DAMBERG (S):
         </note>
-        <u xml:id="i-930e02eac663f054-127" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-930e02eac663f054-128">
+        <u xml:id="i-930e02eac663f054-127" who="i-Spsbo7A5zikEeUY3JEYcNV" next="i-930e02eac663f054-133">
           <seg xml:id="i-3DDAxPrYjdFnkEKWAh5HVM">
             Fru talman! Nu har Thomas Morell haft två inlägg. Jag delar hans
             problembeskrivning, men han har inte kommit med ett enda förslag
@@ -2193,8 +2015,6 @@
             något förslag på vad man ska göra. Att göra ”mer” kanske inte
             räcker som åtgärdsprogram.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-128" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-127" next="i-930e02eac663f054-129">
           <seg xml:id="i-J46TLiDRzzYRrDjp6H3ACy">
             Jag tar de här frågorna på väldigt stort allvar. Jag har varit
             i Tjärna Ängar. Jag har besökt området och tittat på hur man jobbar
@@ -2203,8 +2023,6 @@
             ha fler kameror för att öka tryggheten, men man vill också jobba
             mer långsiktigt.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-129" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-128" next="i-930e02eac663f054-130">
           <seg xml:id="i-GmrJbug6LFMMAQ39JgdCXh">
             Mitt största problem med Sverigedemokraternas ekonomiska politik
             är det här: Ni drar konsekvent bort alla pengar som leder till
@@ -2215,15 +2033,11 @@
             de här områdena, så att barnen får en bättre förutsättning att
             lyckas och inte hamnar i negativa spiraler och kriminalitet.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-130" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-129" next="i-930e02eac663f054-131">
           <seg xml:id="i-NTvAbj6YtKWimwN5cjWU2G">
             Det är det här som är baksidan av Sverigedemokraternas ekonomiska
             politik, nämligen att pengarna alltid ska tas från det förebyggande
             arbete som kan leda till att vi inte får värre problem i framtiden.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-131" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-130" next="i-930e02eac663f054-132">
           <seg xml:id="i-6D8qoeQN5r8cNobFcfJtJu">
             När vi talar om otryggheten på landsbygden får vi vara försiktiga
             med beskrivningar av människor med automatvapen som springer omkring
@@ -2232,8 +2046,6 @@
             drabbas. Men det gäller inte i första hand på landsbygden i Sverige.
             Det måste vi ändå vara tydliga med.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-132" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-131" next="i-930e02eac663f054-133">
           <seg xml:id="i-DBLPtavzfGszup3a6MQBvk">
             De absolut främsta gängkonflikterna har sin rot i och koppling
             till de särskilt utsatta områdena runt om i Sverige – det är därför
@@ -2243,7 +2055,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=19"/>
-        <u xml:id="i-930e02eac663f054-133" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-132" next="i-930e02eac663f054-134">
+        <u xml:id="i-930e02eac663f054-133" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-127">
           <seg xml:id="i-KdyJ57sQvPBRkx8FFeATkG">
             Regeringen har inte bara lovat att bygga ut med fler poliser,
             utan vi har också lovat att underlätta kameraövervakningen, vilket
@@ -2253,8 +2065,6 @@
             för butiker, att man kan ge sig på dem som håller på med systematiska
             stölder – läs: stöldligor – och att det blir hårdare straff.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-134" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-133" next="i-930e02eac663f054-135">
           <seg xml:id="i-U2ufgJyYkYbu5b5T4mdXRZ">
             Steg efter steg pressar vi alltså fram hela systemet för att
             öka tryggheten, och vi har bestämt oss för att göra det långsiktigt
@@ -2262,8 +2072,6 @@
             som har fått växa till sig under ganska lång tid, och det krävs
             hela samhällets kraft för att bekämpa kriminaliteten och öka tryggheten.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-135" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-134">
           <seg xml:id="i-ULXUSp7jtmKpduaG6Xvjcq">
             När vi ser att polisen har tagit bort vissa områden från listan
             över särskilt utsatta områden i kommuner som har haft störst problem
@@ -2279,20 +2087,16 @@
         <note xml:id="i-EavukL6YwR7DmrvhbbndNa" type="speaker">
           Anf. 20 THOMAS MORELL (SD):
         </note>
-        <u xml:id="i-930e02eac663f054-136" who="i-G9Ze2ayHon2kkwVgXWott8" next="i-930e02eac663f054-137">
+        <u xml:id="i-930e02eac663f054-136" who="i-G9Ze2ayHon2kkwVgXWott8">
           <seg xml:id="i-WVciUu6cMgZkN5xstJQfXW">
             Fru talman! Tack för svaret, statsrådet Damberg!
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-137" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-136" next="i-930e02eac663f054-138">
           <seg xml:id="i-958ppeEkgxpt2gR7MmZLaV">
             Förslag har vi gott om. Jag skulle hemskt gärna lämna över vår
             motion på 60 sidor som har med vägtrafiken att göra, för där finns
             det en oerhört viktig del som handlar om att minska näringstillförseln
             till de kriminella.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-138" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-137" next="i-930e02eac663f054-139">
           <seg xml:id="i-AxKUcgrGoVQTjFPEUxYL96">
             Kruxet för dem som bor ute på landsbygden är att när alla resurser
             läggs i de stora områdena, där vi har våldsamma brott i form av
@@ -2302,8 +2106,6 @@
             till Malmö för att genomföra dessa åtgärder där. Då hade man inte
             de resurser som behövdes på hemmaplan, så det blir en dominoeffekt.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-139" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-138" next="i-930e02eac663f054-140">
           <seg xml:id="i-Qp2PZSBbwRsnY2t79PWZ8N">
             Man måste det första man gör strypa näringstillförseln till de
             kriminella nätverken, för om de fortfarande har sin näring blir
@@ -2315,8 +2117,6 @@
             man stoppa näringstillförseln till den kriminella verksamheten
             blir den lättare att bekämpa. Man ska röka ut dem, helt enkelt.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-140" who="i-G9Ze2ayHon2kkwVgXWott8" prev="i-930e02eac663f054-139">
           <seg xml:id="i-7Tvm75sxVHTbiJRGFB7qvH">
             Jag får väl avsluta den här interpellationsdebatten på samma
             sätt som den förra: Jag kommer noggrant att följa utvecklingen
@@ -2339,7 +2139,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=20"/>
-        <u xml:id="i-930e02eac663f054-142" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-141" next="i-930e02eac663f054-143">
+        <u xml:id="i-930e02eac663f054-142" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-141">
           <seg xml:id="i-Fve5xM7VF7ffNT76gCAaaA">
             För att nyansera bilden lite av Polisregion Nord, som kanske
             är den region som har drabbats minst av de eskalerande gängkonflikterna
@@ -2347,8 +2147,6 @@
             Nord. Det märks alltså över hela landet när vi nu börjar växla
             upp polisen.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-143" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-142" next="i-930e02eac663f054-144">
           <seg xml:id="i-6wBRyHV63mf2coq1GKTfUE">
             Mitt svar på detta är därför fler poliser och fler kameror där
             otryggheten är störst. Det är hårdare straff så att de gängkriminella
@@ -2357,8 +2155,6 @@
             fällande dom. Men det är också ett väldigt viktigt förebyggande
             arbete.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-144" who="i-Spsbo7A5zikEeUY3JEYcNV" prev="i-930e02eac663f054-143">
           <seg xml:id="i-2ehkpdVH8Ebq1ukmSs6YPP">
             Tittar vi på var gängkriminaliteten plågar samhället som mest
             är det i våra fattigaste bostadsområden runt om i Sverige. Och
@@ -2384,15 +2180,13 @@
         <note xml:id="i-G44gLZJRCy9FG1PR4rntXr" type="speaker">
           Anf. 22 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-930e02eac663f054-145" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-930e02eac663f054-146">
+        <u xml:id="i-930e02eac663f054-145" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-930e02eac663f054-147">
           <seg xml:id="i-AWnPdpA4X5LwuwUFrssWCw">
             Fru talman! Mattias Bäckström Johansson har frågat mig vad jag
             och regeringen avser att göra för att komma till rätta med det
             uppdämda behovet av underhåll på Stångådalsbanan, Tjustbanan och
             övriga regionala järnvägar på både kort och lång sikt.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-146" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-145" next="i-BAkDC5hvLPt1GqtQ4Dj8i4">
           <seg xml:id="i-UHn1XTxmLcLvx1NuUtP2pv">
             Regeringen har höga ambitioner när det gäller den svenska järnvägen.
             Efter år av underinvesteringar i svensk infrastruktur beslutade
@@ -2405,8 +2199,6 @@
             planen. En viktig del i framtagandet av en nationell plan var
             regionernas prioriteringar av vilka objekt som var mest angelägna.
           </seg>
-        </u>
-        <u xml:id="i-BAkDC5hvLPt1GqtQ4Dj8i4" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-146" next="i-930e02eac663f054-147">
           <seg xml:id="i-TsmhZau8MevvK8VR4wcYFv">
             Regeringen har fortsatt att satsa på järnvägen. I enlighet med
             regeringens förslag i budgetpropositionen för 2020 genomför s
@@ -2420,7 +2212,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=21"/>
-        <u xml:id="i-930e02eac663f054-147" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-BAkDC5hvLPt1GqtQ4Dj8i4">
+        <u xml:id="i-930e02eac663f054-147" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-145">
           <seg xml:id="i-4LEcp3QFd5WYNSr2dkHfnn">
             Nu har arbetet inletts med att ta fram en ny nationell plan,
             och under processens gång kommer det att ges flera möjligheter
@@ -2431,7 +2223,7 @@
         <note xml:id="i-XRPQ5Pmfcc4domz2ACjdbf" type="speaker">
           Anf. 23 MATTIAS BÄCKSTRÖM JOHANSSON (SD):
         </note>
-        <u xml:id="i-930e02eac663f054-148" who="i-5JKbBodBpCZ1A4ajEWCxPv" next="i-930e02eac663f054-149">
+        <u xml:id="i-930e02eac663f054-148" who="i-5JKbBodBpCZ1A4ajEWCxPv">
           <seg xml:id="i-TDoeDMSvF6cPVTUjHFtV9T">
             Herr ålderspresident! Jag tackar statsrådet för svaret på min
             interpellation. Det är givetvis bra att det finns en positiv ansats
@@ -2440,16 +2232,12 @@
             beskrivning som statsrådet försöker ge sken av i sitt svar, särskilt
             om man kommer från de sydöstra delarna av Sverige.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-149" who="i-5JKbBodBpCZ1A4ajEWCxPv" prev="i-930e02eac663f054-148" next="i-930e02eac663f054-150">
           <seg xml:id="i-LjJGgfzbUkeqrLi3apAPqr">
             Som en inledning på denna interpellationsdebatt skulle jag vilja
             ta med statsrådet på en resa och beskriva hur det kan se ut på
             de regionala järnvägarna, och då specifikt de järnvägar som åsyftas
             i interpellationen.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-150" who="i-5JKbBodBpCZ1A4ajEWCxPv" prev="i-930e02eac663f054-149" next="i-930e02eac663f054-151">
           <seg xml:id="i-VpPnyLhp2RRnvs1gKMjqaz">
             På Stångådalsbanan, som går mellan Kalmar och Linköping, har
             ungefär var åttonde resa blivit inställd under den senaste tioårsperioden.
@@ -2460,8 +2248,6 @@
             under den senaste tioårsperioden. Enskilda år har nästan hälften
             av alla avgångar blivit inställda.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-151" who="i-5JKbBodBpCZ1A4ajEWCxPv" prev="i-930e02eac663f054-150" next="i-930e02eac663f054-152">
           <seg xml:id="i-VwPCr2AjPTkdgQSEEfvuK4">
             När man väl har kommit med på en avgång får man åka på någon
             av de två banor som saknar elektrifiering. Här trafikeras banorna
@@ -2469,8 +2255,6 @@
             är i linje med de ambitioner som finns och som regeringen säger
             sig vilja ha för att kunna nå fossilfrihet.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-152" who="i-5JKbBodBpCZ1A4ajEWCxPv" prev="i-930e02eac663f054-151" next="i-930e02eac663f054-153">
           <seg xml:id="i-yBDbtxcbUZ2uuAJHnFUSt">
             Om man har kommit i väg på en tågresa är restiden mellan Kalmar
             och Linköping på Stångådalsbanan lite drygt tre timmar. Det ger
@@ -2482,8 +2266,6 @@
             Stockholm, Göteborg och Malmö, och som avsevärt överstiger den
             genomsnittliga hastigheten för bilar.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-153" who="i-5JKbBodBpCZ1A4ajEWCxPv" prev="i-930e02eac663f054-152" next="i-930e02eac663f054-154">
           <seg xml:id="i-PvwX3pD868vq92uhV6vHae">
             Problemen på dessa banor förväntas också öka med fler solkurvor,
             rälsproblem, spårlägesfel och ytterligare nedsatt hastighet. Även
@@ -2495,8 +2277,6 @@
             åtminstone för mig, som besynnerligt om man nu vill att fler människor
             ska kunna resa kollektivt.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-154" who="i-5JKbBodBpCZ1A4ajEWCxPv" prev="i-930e02eac663f054-153">
           <seg xml:id="i-22hNNUi4yszxp46SbEusZ8">
             Herr ålderspresident! Därför undrar jag vad regeringen och statsrådet
             avser att göra för att säkerställa att infrastrukturinvesteringar
@@ -2507,7 +2287,7 @@
           Anf. 24 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=22"/>
-        <u xml:id="i-930e02eac663f054-155" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-930e02eac663f054-156">
+        <u xml:id="i-930e02eac663f054-155" who="i-G8564CqEnhC5PBjZSwUxsE">
           <seg xml:id="i-XaUsicYTs126HmNEwqHd2b">
             Herr ålderspresident! Jag tackar Mattias Bäckström Johansson
             för detta. Jag är också smålänning och känner väl till de aktuella
@@ -2523,8 +2303,6 @@
             med en finansminister som gjorde en poäng av att man inte skulle
             investera i järnvägen.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-156" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-155" next="i-930e02eac663f054-157">
           <seg xml:id="i-WUMBe1moQP1PGtHDKEWwH">
             Jag noterar att när Sverigedemokraterna nu själva får möjlighet
             att formulera sin trafikpolitik lyfter de på sin pressträff fram
@@ -2533,8 +2311,6 @@
             mycket järnväg som Sverigedemokraterna själva väljer att lyfta
             fram som viktiga satsningar.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-157" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-156" next="i-930e02eac663f054-158">
           <seg xml:id="i-M3P1bXCuqqP4kSXp4LNDNh">
             Inför kommande nationell plan vill jag att vi för en ordentlig
             diskussion i alla regioner om vad som är de viktigaste prioriteringarna.
@@ -2545,8 +2321,6 @@
             ska kunna förstora arbetsmarknadsregionerna och se till att det
             kan göras med klimatsmart resande.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-158" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-157" next="i-930e02eac663f054-159">
           <seg xml:id="i-XFnGT7uiKhEfw9bDNFPNNE">
             Grundfrågan tillbaka till Mattias Bäckström Johansson blir: Kommer
             Sverigedemokraterna att prioritera järnvägen? Kommer järnvägssatsningar
@@ -2561,8 +2335,6 @@
             det är kanske aktuellt att göra satsningar på ännu större delar
             av det svenska järnvägssystemet.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-159" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-158">
           <seg xml:id="i-Kv7SCZkTkXvwtofSZFqj22">
             Regeringens utgångspunkt – den är viktig – är att vi både inför
             den förra nationella planen och inför det arbete som nu är på
@@ -2597,7 +2369,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=23"/>
-        <u xml:id="i-930e02eac663f054-161" who="i-5JKbBodBpCZ1A4ajEWCxPv" prev="i-930e02eac663f054-160" next="i-930e02eac663f054-162">
+        <u xml:id="i-930e02eac663f054-161" who="i-5JKbBodBpCZ1A4ajEWCxPv" prev="i-930e02eac663f054-160">
           <seg xml:id="i-Hucap2pPqfcASG1CaqYLNV">
             Det som jag vill lyfta fram i den här debatten är kopplingen
             till fossilfrihet. Här finns tåg som fortfarande går på diesel.
@@ -2609,8 +2381,6 @@
             de initiativ som finns från regionen med en snabbstart för sydöstra
             Sverige.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-162" who="i-5JKbBodBpCZ1A4ajEWCxPv" prev="i-930e02eac663f054-161" next="i-930e02eac663f054-163">
           <seg xml:id="i-X6j9gQ4ttQm41bvzdCUa2r">
             Staten har ett övergripande ansvar för att järnvägstrafik och
             infrastruktur ska fungera i hela landet. Men med tanke på de prioriteringar
@@ -2618,8 +2388,6 @@
             att tro att man tycker att det är viktigt, eller så nöjer man
             sig med att hålla sig till läpparnas bekännelse.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-163" who="i-5JKbBodBpCZ1A4ajEWCxPv" prev="i-930e02eac663f054-162" next="i-930e02eac663f054-164">
           <seg xml:id="i-SfpZDQqp1ujeDcjnwvZgrJ">
             Trots att både hushåll och näringsliv rankar infrastrukturen
             i Kalmar län som sämst har det inte föranlett några specifika
@@ -2632,8 +2400,6 @@
             av Ölandsbron, vilket inte är direkt offensivt spenderade pengar
             över huvud taget.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-164" who="i-5JKbBodBpCZ1A4ajEWCxPv" prev="i-930e02eac663f054-163">
           <seg xml:id="i-3YhZLF8LYx5d9YJJme6Kco">
             I den underhållsplan som statsrådet hänvisar till i sitt svar
             finns inte heller pengar för spår, rälsbyten, signalåtgärder eller
@@ -2647,7 +2413,7 @@
         <note xml:id="i-BQg33x2FGLirYSYQzJUHAX" type="speaker">
           Anf. 26 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-930e02eac663f054-165" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-930e02eac663f054-166">
+        <u xml:id="i-930e02eac663f054-165" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-930e02eac663f054-167">
           <seg xml:id="i-9APT3prxcYsd2PnCoiZJTb">
             Herr ålderspresident! Det är onekligen så, Mattias Bäckström
             Johansson, att den nationella plan som finns innefattar infrastrukturinvesteringar
@@ -2658,8 +2424,6 @@
             Här finns satsningar i hela landet, och de är en förutsättning
             för att landet ska fungera.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-166" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-165" next="i-930e02eac663f054-167">
           <seg xml:id="i-AVnHVr6scXZaKuhCHVpFjW">
             Efter år av underinvesteringar där fokus ibland enbart hamnade
             på storstädernas satsningar fick vi 100 miljarder kronor mer 2018,
@@ -2668,7 +2432,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=24"/>
-        <u xml:id="i-930e02eac663f054-167" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-166" next="i-930e02eac663f054-168">
+        <u xml:id="i-930e02eac663f054-167" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-165">
           <seg xml:id="i-9N9bu6AFuLSwEXfTtfRogS">
             Jag är kanske felunderrättad, men jag vill ändå än en gång ställa
             ett par frågor till Mattias Bäckström Johansson. I det förslag
@@ -2688,8 +2452,6 @@
             om att vi når kapacitetstaket. Det är trångt på spåren! Vi behöver
             bygga mer järnväg.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-168" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-167" next="i-930e02eac663f054-169">
           <seg xml:id="i-HfLTNS5e1235bR8cF5pUGt">
             Jag noterar att Sverigedemokraterna inte prioriterar mer järnväg.
             Tvärtom har ni varit uttalade motståndare till satsningar på att
@@ -2698,8 +2460,6 @@
             vikten av att satsa på den svenska järnvägen. Men hittills har
             jag inte sett den prioriteringen.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-169" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-168">
           <seg xml:id="i-T5ZAqm84k4RxKCBzEWPUx2">
             Var så god, Mattias Bäckström Johansson, berätta nu hur ni ska
             satsa på järnvägen.
@@ -2708,7 +2468,7 @@
         <note xml:id="i-Ewmk1sp7d8ZtTqqeraTqqf" type="speaker">
           Anf. 27 MATTIAS BÄCKSTRÖM JOHANSSON (SD):
         </note>
-        <u xml:id="i-930e02eac663f054-170" who="i-5JKbBodBpCZ1A4ajEWCxPv" next="i-930e02eac663f054-171">
+        <u xml:id="i-930e02eac663f054-170" who="i-5JKbBodBpCZ1A4ajEWCxPv">
           <seg xml:id="i-XuD6Mrv6bRqbNhYmFt4sqt">
             Herr ålderspresident! I Kalmar län råder den i särklass lägsta
             nivån per medborgare i landet, som understiger den proportionerliga
@@ -2719,8 +2479,6 @@
             framöver, oavsett färg, för att upprätthålla en god infrastruktur
             i landets alla delar.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-171" who="i-5JKbBodBpCZ1A4ajEWCxPv" prev="i-930e02eac663f054-170" next="i-930e02eac663f054-172">
           <seg xml:id="i-LDK4DbzbWN7qTfk5NbTeCm">
             Jag kan svara statsrådet att vi inte ägnar oss åt planekonomi
             på det sättet att vi pekar ut exakt vad som ska göras. Det verkar
@@ -2728,16 +2486,12 @@
             på vilka projekt som ska genomföras. Detta ska någonstans styras
             av principer.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-172" who="i-5JKbBodBpCZ1A4ajEWCxPv" prev="i-930e02eac663f054-171" next="i-930e02eac663f054-173">
           <seg xml:id="i-2PfcPma2ktQrij21hBNRdj">
             Jag kan förstå att det finns en vilja till en budgetdebatt, men
             då välkomnar jag statsrådet att närvara när det utgiftsområdet
             kommer att debatteras i riksdagens kammare, vilket ju inte är
             ämnet för just den här debatten.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-173" who="i-5JKbBodBpCZ1A4ajEWCxPv" prev="i-930e02eac663f054-172" next="i-930e02eac663f054-174">
           <seg xml:id="i-QmGkLBz483jWHJVXrqmndT">
             Jag vill avslutningsvis framhålla att de regionala järnvägarna
             är viktiga och inte får glömmas bort. De relativa avstånden inom
@@ -2745,8 +2499,6 @@
             bort och gör det allt svårare att hålla ihop landet, framför allt
             om man vill leva upp till devisen att hela landet ska leva.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-174" who="i-5JKbBodBpCZ1A4ajEWCxPv" prev="i-930e02eac663f054-173" next="i-930e02eac663f054-175">
           <seg xml:id="i-WGHoSw1Gd4Sy4NuUMu4j8r">
             För dem som bor på landsbygden är det svårt att förstå det ensidiga
             fokus som regeringen uppvisar för snabbtågen. Det är inte så att
@@ -2755,8 +2507,6 @@
             infrastruktur och av tåg som i många fall inte går alls, i låg
             hastighet eller på fossil dieselolja.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-175" who="i-5JKbBodBpCZ1A4ajEWCxPv" prev="i-930e02eac663f054-174">
           <seg xml:id="i-QNbp7NqvuG24QQ8Mndm4YP">
             Min förhoppning är att man tar möjligheten att investera i den
             infrastruktur som är viktig för landet och olika arbetsmarknadsregioner,
@@ -2777,7 +2527,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=25"/>
-        <u xml:id="i-930e02eac663f054-177" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-176" next="i-930e02eac663f054-178">
+        <u xml:id="i-930e02eac663f054-177" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-176">
           <seg xml:id="i-B6VEZKs4Euq5uJeDoNF5PR">
             Jag antar att det kan bli ett visst bekymmer för Mattias Bäckström
             Johansson eller för Sverigedemokraterna att å ena sidan tala sig
@@ -2785,16 +2535,12 @@
             sidan att satsningen inte finns med när man själv ska precisera
             budgeten. Då är det bara vägsatsningar, inte järnvägssatsningar.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-178" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-177" next="i-930e02eac663f054-179">
           <seg xml:id="i-AwNRewWf41EZbNLU5jqyR">
             Politik handlar också om att kunna fullfölja det man säger, det
             vill säga att i realiteten föreslå åtgärder, redovisa dem och
             se till att det är trovärdigt att det går att finansiera dem.
             Här har Sverigedemokraterna uppenbarligen en läxa att göra.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-179" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-178" next="i-930e02eac663f054-180">
           <seg xml:id="i-SsKxzWXP24HehhYEULSM9p">
             Jag kommer att lyssna på alla regioner inför den nya nationella
             planen. Det är viktigt eftersom det är så Sverige fungerar. Vi
@@ -2805,8 +2551,6 @@
             län och andra delar av landet för att lyssna in synpunkter och
             prioriteringar.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-180" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-179">
           <seg xml:id="i-Xq2zUHEhshe785Cw8Kj87T">
             Min prioritering och regeringens prioritering är tydlig: Vi ska
             klara klimatkraven. Vi ska hålla ihop landet. Vi ska se till att
@@ -2827,14 +2571,12 @@
         <note xml:id="i-Q1z7xS6iLAKWH8ErMcKk2r" type="speaker">
           Anf. 29 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-930e02eac663f054-181" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-930e02eac663f054-182">
+        <u xml:id="i-930e02eac663f054-181" who="i-G8564CqEnhC5PBjZSwUxsE">
           <seg xml:id="i-BPyv3QRtMNkbmjxjQfS633">
             Herr ålderspresident! Jens Holm har frågat mig om vilka slutsatser
             jag drar av Swedavia AB:s Brommaanalys och om jag avser att agera
             mot de höga biljettpriserna på Arlanda Express.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-182" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-181" next="i-930e02eac663f054-183">
           <seg xml:id="i-4aGcPJyQ3vVKpqY3haGkXA">
             Spridningen av det nya coronaviruset och sjukdomen covid-19 har
             påverkat flygresandet dramatiskt, och flygtrafiken har minskat
@@ -2842,8 +2584,6 @@
             osäkra, och både minskat flygande och covid-19 påverkar flygmarknaden
             på både kort och lång sikt.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-183" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-182" next="i-930e02eac663f054-184">
           <seg xml:id="i-7cXLkjK49hpVg4mtweWtVC">
             Under rådande marknadsförutsättningar har Swedavia utifrån bolagets
             uppdrag och affärsmässiga perspektiv gjort en konsekvensanalys
@@ -2853,8 +2593,6 @@
             motiverat att driva Bromma vidare. Konsekvenserna av Swedavias
             bedömning måste nu analyseras.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-184" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-183">
           <seg xml:id="i-8MtZdsroGmntzMuW9ArKHZ">
             Att fler tar kollektiva färdmedel, som tåg, till och från Arlanda
             är eftersträvansvärt. Biljettpriserna påverkas av stationsavgiften,
@@ -2869,21 +2607,17 @@
         <note xml:id="i-SJhXE1Mt9RGVaTybkehtwE" type="speaker">
           Anf. 30 JENS HOLM (V):
         </note>
-        <u xml:id="i-930e02eac663f054-185" who="i-HNw1w34Sd2tGfFnWtdrzZb" next="i-930e02eac663f054-186">
+        <u xml:id="i-930e02eac663f054-185" who="i-HNw1w34Sd2tGfFnWtdrzZb">
           <seg xml:id="i-Er5R4q8KaG1HKjEX72oECT">
             Herr ålderspresident! Jag vill tacka ministern för svaret på
             min interpellation.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-186" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-930e02eac663f054-185" next="i-930e02eac663f054-187">
           <seg xml:id="i-T6a4KxV7osBpme3DzuAT48">
             Under rådande pandemi har flygandet i Sverige gått ned med över
             80 procent, och en av de absolut värst drabbade flygplatserna
             är just Bromma flygplats här i Stockholm. Utifrån ett flygplatsperspektiv
             är detta förstås inte positivt.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-187" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-930e02eac663f054-186" next="i-930e02eac663f054-188">
           <seg xml:id="i-81eDbCL74yAaNbJVpibB8L">
             Vi ska dock komma ihåg att varje kris också bär en möjlighet
             inom sig. Här ser vi att flygandet har gått ned väldigt mycket,
@@ -2893,8 +2627,6 @@
             ser att flygbolagen, inte minst flygbolaget BRA, inte verkar beredda
             att öppna alla flyglinjer som de tidigare hade.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-188" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-930e02eac663f054-187" next="i-930e02eac663f054-189">
           <seg xml:id="i-TnKUZHmiYeLoMRfs5BksVZ">
             Jag tycker att det är jättebra, herr ålderspresident, att Tomas
             Eneroth och regeringen gav Swedavia uppdraget att göra en konsekvensanalys
@@ -2906,8 +2638,6 @@
             om en förtida nedläggning är hanterbara och sammantaget medför
             fördelar för Swedavia.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-189" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-930e02eac663f054-188" next="i-930e02eac663f054-190">
           <seg xml:id="i-W6GqYcia8vX7WkPmG3qwNg">
             Swedavia vill alltså ha ett uppdrag från regeringen om att få
             avveckla Bromma flygplats fortast möjligt. Det var också slutsatsen
@@ -2920,8 +2650,6 @@
             med minskade utsläpp av växthusgaser, vilket Swedavia var noggranna
             med att berätta för oss.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-190" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-930e02eac663f054-189" next="i-7GYqtpgNwVacnx2p6bN9oB">
           <seg xml:id="i-6D8EfeTCvN4WeiKLqZcLEK">
             De var också tydliga med att berätta att de inte tror att Bromma
             kommer att återgå till fornstora flygnivåer på drygt 2 miljoner
@@ -2932,16 +2660,12 @@
             inte behövs några nya stora investeringar i Arlanda flygplats
             för att härbärgera de nya resenärerna.
           </seg>
-        </u>
-        <u xml:id="i-7GYqtpgNwVacnx2p6bN9oB" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-930e02eac663f054-190" next="i-930e02eac663f054-192">
           <seg xml:id="i-TT7KJQopZynfNBkrXfBKd5">
             Med anledning av detta skulle jag vilja fråga infrastrukturministern
             hur länge infrastrukturministern och regeringen tänker analysera
             den konsekvensanalys som har kommit från Swedavia. Har man en
             tidsplan för Bromma flygplats nedläggning?
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-192" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-7GYqtpgNwVacnx2p6bN9oB">
           <seg xml:id="i-5xq8c2bNkiZQ9BvJM2apqa">
             Kollektivtrafiken är någonting som lyfts upp i denna rapport.
             När det gäller andra jämförbara flygplatser, som Gardermoen i
@@ -2957,7 +2681,7 @@
         <note xml:id="i-2zxGYdHx5efvybdzVZGgeh" type="speaker">
           Anf. 31 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-930e02eac663f054-193" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-930e02eac663f054-194">
+        <u xml:id="i-930e02eac663f054-193" who="i-G8564CqEnhC5PBjZSwUxsE">
           <seg xml:id="i-Rfne4kpAsRd2QHqxX7rgjp">
             Herr ålderspresident! Låt mig först ta det sistnämnda gällande
             Arlandabanan. Detta projekt beslutades den 8 juni 1994. Det var
@@ -2968,8 +2692,6 @@
             då stödde Socialdemokraternas reservation i frågan. Nu har vi
             att förhålla oss till den drift och det avtal som finns.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-194" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-193" next="i-930e02eac663f054-195">
           <seg xml:id="i-P5HwMggzMCGFKCNzRGavwe">
             Det ska ändå tilläggas att Arlandabanan, trots diskussionen om
             priserna, faktiskt sköter uppdraget på ett väl fungerande sätt.
@@ -2981,8 +2703,6 @@
             om att hitta än mer klimatsmarta resor framöver, inte minst till
             Arlanda.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-195" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-194" next="i-930e02eac663f054-196">
           <seg xml:id="i-PW6EqxcPV9LrgpmRmP2TRS">
             När det gäller Swedavias rapport var det nog, mycket riktigt,
             klokt av regeringen att ge detta uppdrag. Swedavia redovisade
@@ -2992,8 +2712,6 @@
             gjort i regeringen. Det är dock mindre än en månad sedan, och
             förutsättningarna måste naturligtvis analyseras.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-196" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-195" next="i-930e02eac663f054-197">
           <seg xml:id="i-4Th2tiYLzVy2V3v2TQxVxU">
             Jag kan ha all respekt för att Jens Holm är ivrig i detta läge,
             men vi har gått från ett läge där vi för något år sedan hade en
@@ -3004,8 +2722,6 @@
             bör man också analysera de långsiktiga förutsättningarna för flyginfrastrukturen,
             och det är detta vi från regeringens sida nu gör ordentligt.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-197" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-196" next="i-930e02eac663f054-198">
           <seg xml:id="i-XB77Mz1oDWR5hpUAGsQ8Rs">
             Men en sak ska ingen tvivla på: Flyget behövs i Sverige, men
             flyget behöver ställa om. Flyget behöver ställa om – inte bara
@@ -3017,8 +2733,6 @@
             för den delen med elektrifiering, klarar att ställa om. Det vill
             svenskt flyg.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-198" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-197" next="i-930e02eac663f054-199">
           <seg xml:id="i-GnHcFSbWywSVaiiW24K53T">
             Här finns en möjlighet – eller ett fönster, om vi nu ska använda
             det uttrycket – att också se till att den återstart som kanske
@@ -3029,8 +2743,6 @@
             när det gäller flygplatskapaciteten och förutsättningarna för
             flyget att klara omställningen.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-199" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-198">
           <seg xml:id="i-7uzvDkqDqPqW2z6geat5E2">
             Man ska ha respekt för att det finns flygaktörer som nu är ekonomiskt
             svaga. Detta är ett av skälen till att riksdagen har ställt sig
@@ -3045,23 +2757,19 @@
         <note xml:id="i-WpmavJkg5VaFLXXSvsb3at" type="speaker">
           Anf. 32 JENS HOLM (V):
         </note>
-        <u xml:id="i-930e02eac663f054-200" who="i-HNw1w34Sd2tGfFnWtdrzZb" next="i-930e02eac663f054-201">
+        <u xml:id="i-930e02eac663f054-200" who="i-HNw1w34Sd2tGfFnWtdrzZb">
           <seg xml:id="i-UNuirEAAGLqVamTAWAhhPT">
             Herr ålderspresident! Låt oss först avklara det privata monopolet
             Arlanda Express, som i dag ägs av australiska pensionsfonder och
             av den kinesiska staten. Precis som ministern sa var det en tidigare
             borgerlig regering som drev fram detta.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-201" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-930e02eac663f054-200" next="i-930e02eac663f054-202">
           <seg xml:id="i-LKoRQQ2hY113mMxxr8AA4q">
             Men det är också så att staten enligt det avtal som finns mellan
             Arlanda Express och helstatliga Arlandabanan Infrastructure AB,
             som bolaget heter, kan ta tillbaka driften av banan. Man får förstås
             köpa ut bolaget, men man kan göra det.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-202" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-930e02eac663f054-201" next="i-930e02eac663f054-203">
           <seg xml:id="i-R52EGeBMpqHXcofXq68Npv">
             Än mer förvånad blev jag när regeringen lät förlänga avtalet
             med Arlanda Express förra sommaren, så att man får ha det här
@@ -3071,8 +2779,6 @@
             att förlänga det privata monopolet med tio år. Varför gjorde ni
             på det viset?
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-203" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-930e02eac663f054-202" next="i-930e02eac663f054-204">
           <seg xml:id="i-TtoVWckdjwTmYDByxxZxYR">
             Jag skulle återigen vilja fråga ifall det finns en tidsplan hos
             regeringen för avvecklandet av Bromma flygplats. Jag förstår att
@@ -3086,16 +2792,12 @@
             partiet väckte i fjol. Den handlar just om att avveckla Bromma
             flygplats och i stället bygga bostäder och Bromma parkstad där.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-204" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-930e02eac663f054-203" next="i-930e02eac663f054-205">
           <seg xml:id="i-A8j1TZHZqqPFz5aDh9GFqZ">
             Regeringen kan inte bara säga att man analyserar och analyserar,
             utan man får nog ta och berätta vad man har för strategi för Bromma
             flygplats. Vad är nästa steg? Är det nya rapporter, eller hur
             tänker man gå vidare?
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-205" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-930e02eac663f054-204" next="i-930e02eac663f054-206">
           <seg xml:id="i-AsrKbfPxqWgLQxfN2Srmmu">
             Vi ska också komma ihåg att Swedavia anser, som jag tolkade det
             i alla fall när vi lyssnade på dem, att det är nu det här fönstret
@@ -3105,14 +2807,10 @@
             med tåg. Ifall man väntar 5, 10, 15 år blir det sannolikt mycket
             svårare att göra detta.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-206" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-930e02eac663f054-205" next="i-930e02eac663f054-207">
           <seg xml:id="i-RXUdroXQBx9mM4AZKyHfP8">
             Ska ingenting förändras efter corona? Jo, jag hoppas det. Jag
             hoppas att mycket ska förändras efter coronapandemin.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-207" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-930e02eac663f054-206">
           <seg xml:id="i-zkPmNVpRkLyu9B8ReRcpG">
             Den rapport som vi har fått är en sammanfattning på tre sidor
             som Swedavia har lagt ut på sin hemsida och som vi i trafikutskottet
@@ -3134,7 +2832,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=29"/>
-        <u xml:id="i-930e02eac663f054-209" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-208" next="i-930e02eac663f054-210">
+        <u xml:id="i-930e02eac663f054-209" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-208">
           <seg xml:id="i-7FcxzZ3Q8PLjGSUmfd3xys">
             När det gäller Bromma flygplats noterar jag, precis som Jens
             Holm, att det lokalt i Stockholmsregionen under senare år inte
@@ -3143,8 +2841,6 @@
             utveckling. Jag tror till och med att Stockholms handelskammare
             senast hade någon uppfattning om detta.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-210" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-209" next="i-930e02eac663f054-211">
           <seg xml:id="i-VF947FPX3u32ujUPs6fDQv">
             I trafikutskottet, där Jens Holm är ordförande, finns ett tillkännagivande
             som talar om att regeringen bör verka för en fortsatt utveckling
@@ -3152,8 +2848,6 @@
             i riksdagen att ta hänsyn till när vi väljer att agera, vare sig
             det gäller Bromma, Arlanda eller andra delar av svensk infrastruktur.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-211" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-210" next="i-930e02eac663f054-212">
           <seg xml:id="i-FxkrDuCpNtpodXYEsDWUUF">
             Det kan vara så att en pandemi och den utveckling som det innebär
             för flyget förändrar förutsättningarna. Och jag tror att ett faktum
@@ -3165,8 +2859,6 @@
             har talat om de marknadsmässiga förutsättningarna. Låt oss också
             ordentligt analysera andra förutsättningar för Brommas framtid.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-212" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-211" next="i-930e02eac663f054-213">
           <seg xml:id="i-Kz4PKaA9yjUrajCysU6eXr">
             Avslutningsvis: Ingen ska tvivla på målet. Och jag vill understryka
             för dem som eventuellt följer den här debatten digitalt att vi
@@ -3193,8 +2885,6 @@
             fler fossilfria alternativ, och både biobränsle och inte minst
             elflyg ger den möjligheten.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-213" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-212">
           <seg xml:id="i-4Qs9ngcKHnfRQKHv1zQ3n4">
             Regeringens prioritering är naturligtvis att titta på de infrastrukturella
             förutsättningarna för det här skiftet, och den är viktig i hela
@@ -3223,15 +2913,13 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=30"/>
-        <u xml:id="i-930e02eac663f054-215" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-930e02eac663f054-214" next="i-930e02eac663f054-216">
+        <u xml:id="i-930e02eac663f054-215" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-930e02eac663f054-214">
           <seg xml:id="i-HwBNzTm6FUEPSReg45G9T6">
             Nu har flygandet rasat, men precis som ministern säger gick det
             faktiskt ned även före coronapandemin. Då vore det väl inte så
             märkligt om vi sa: Okej, vi börjar med att koncentrera flygandet
             till en flygplats i Stockholmsregionen. Vi ska inte ha två.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-216" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-930e02eac663f054-215" next="i-930e02eac663f054-217">
           <seg xml:id="i-RvUWLGSdsAXQsm2ABV7e4m">
             Att flytta över det som i framtiden kanske blir 1 miljon resenärer
             till Arlanda med totalt drygt 26 miljoner resenärer går att göra
@@ -3240,16 +2928,12 @@
             Vad blir nästa steg nu för regeringen gällande Brommas eventuella
             avveckling?
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-217" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-930e02eac663f054-216" next="i-930e02eac663f054-218">
           <seg xml:id="i-GhhwG9RSgQwh7ruDjDZ8yB">
             Jag tycker att det är olyckligt att vi riksdagsledamöter inte
             får ta del av hela rapporten. Ministern har väl rimligen tagit
             del av hela rapporten. Nog skulle han kunna offentliggöra rapporten
             och se till att alla kan få ta del av den.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-218" who="i-HNw1w34Sd2tGfFnWtdrzZb" prev="i-930e02eac663f054-217">
           <seg xml:id="i-FS1SuxJq4pNo6KBpkFvTiV">
             Herr ålderspresident! Jag tycker också att det blir lite märkligt
             när ministern gömmer sig bakom trafikutskottet. Med all respekt
@@ -3266,7 +2950,7 @@
         <note xml:id="i-Hz2Ve5i35Vx6h2adaM8kiM" type="speaker">
           Anf. 35 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-930e02eac663f054-219" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-930e02eac663f054-220">
+        <u xml:id="i-930e02eac663f054-219" who="i-G8564CqEnhC5PBjZSwUxsE">
           <seg xml:id="i-LUgCPQQReTmBTBaB1Pjn34">
             Herr ålderspresident! Jag tror inte att någon kan ta miste på
             vare sig engagemanget eller viljan att snabbt kunna lägga ned
@@ -3277,14 +2961,10 @@
             men också se den situation som vi befinner oss i just nu med en
             pandemi med dramatiska effekter på resandet.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-220" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-219" next="i-930e02eac663f054-221">
           <seg xml:id="i-4pnh4g625phhyR2DRVCBfg">
             Vi ska naturligtvis ordentligt analysera den rapport som kom
             för mindre än en månad sedan och naturligtvis också återkomma.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-221" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-220" next="i-930e02eac663f054-222">
           <seg xml:id="i-To8X8hm6hNFpQ4rqDnjoFv">
             Jens Holm säger att biobränsle och elflyg ligger långt in i framtiden.
             Det gör ju inte det; det är här nu. Det är nu vi har möjlighet
@@ -3293,16 +2973,12 @@
             Låt den förhoppningsvis vara svensk eller nordisk också, så att
             vi än mer minskar klimatavtrycken.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-222" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-221" next="i-930e02eac663f054-223">
           <seg xml:id="i-T9SNVajXNxiySG1QX7Mny2">
             Det är nu elflygsutvecklingen pågår. Jag var i Göteborg för bara
             några veckor sedan och besökte invigningen av en elflygsmotor
             till ett 19-personersplan, som Heart Aerospace presenterade. De
             tror att detta plan kommer att vara uppe redan 2025.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-223" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-222">
           <seg xml:id="i-QQFhY2WiDEa4qHpoZnLDRN">
             När man bara för något år sedan fick rapporter om elflygsutvecklingen
             låg detta 10–15 år framåt i tiden, så det går fort nu. Och det
@@ -3327,21 +3003,17 @@
         <note xml:id="i-XqA9VurHxucd4N8Jb1GQiK" type="speaker">
           Anf. 36 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-930e02eac663f054-224" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-930e02eac663f054-225">
+        <u xml:id="i-930e02eac663f054-224" who="i-G8564CqEnhC5PBjZSwUxsE">
           <seg xml:id="i-CyvtHBYpNQdTbpTkmbtQH3">
             Herr ålderspresident! Patrik Jönsson har ställt två frågor till
             mig om införandet av ERTMS i Sverige.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-225" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-224" next="i-930e02eac663f054-226">
           <seg xml:id="i-7raQev9AZcJ64Lbkby9pGr">
             ERTMS är ett EU-gemensamt signalsystem för järnvägen. Det syftar
             till att möjliggöra effektiv gränsöverskridande tågtrafik. Sverige
             och övriga medlemsstater är enligt EU-lagstiftningen skyldiga
             att införa ERTMS på stomnätet senast 2030.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-226" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-225" next="i-930e02eac663f054-227">
           <seg xml:id="i-JoP217QTndVvU5o1MKta9v">
             För Sveriges del är ERTMS-projektet förutom ett projekt för att
             främja gränsöverskridande tågtrafik dessutom att betrakta som
@@ -3350,8 +3022,6 @@
             trafikledning . ERTMS är ett modernare system med bättre tillförlitlighet
             och lägre underhållskostnader jämfört med nuvarande system.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-227" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-226" next="i-930e02eac663f054-228">
           <seg xml:id="i-FwdjfeTJnXHyfuoqURmtpK">
             Det har i omgångar varit möjligt att söka EU-stöd för investering
             i ombordutrustning för ERTMS. Flera svenska järnvägsföretag har
@@ -3360,24 +3030,18 @@
             kronor i form av en miljökompensation för godstransporter på järnväg
             .
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-228" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-227" next="i-930e02eac663f054-229">
           <seg xml:id="i-K1NHTX2JUhcBHwNJkYwTwi">
             I budgetpropositionen för 2021 föreslår regeringen att miljökompensationen
             förlängs och vidareutvecklas . Det innebär att 400 miljoner kronor
             per år avsätts mellan åren 2021 och 2025 . R egeringen gör således
             stora satsningar på såväl järnvägsinfrastrukturen som tågoperatörer.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-229" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-228" next="i-930e02eac663f054-230">
           <seg xml:id="i-9H3yuWrPzeXLjc4e13j8RR">
             Trafikverket har helhetsansvaret för planering en och införandet
             av ERTMS i infrastrukturen för det svenska järnvägssystemet. Planeringen
             av införandet ska göras i nära samarbete med företrädare för utrustningsindustri,
             järnvägsföretag och andra trafikorganisatörer.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-230" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-229">
           <seg xml:id="i-YBEt9vvK4HmEhfCTeS7g6t">
             Trafikverket har varit tydlig t med att drift s sättning bara
             görs om systemet motsvara r de kvalitetskrav som ställs. Jag förutsätter
@@ -3388,20 +3052,16 @@
         <note xml:id="i-XsxdLMAaau5UdjfaavNzhV" type="speaker">
           Anf. 37 PATRIK JÖNSSON (SD):
         </note>
-        <u xml:id="i-930e02eac663f054-231" who="i-5QsM75VvzYYRCpVjV6ax78" next="i-930e02eac663f054-232">
+        <u xml:id="i-930e02eac663f054-231" who="i-5QsM75VvzYYRCpVjV6ax78" next="i-930e02eac663f054-234">
           <seg xml:id="i-NHnt9RVQY8V8XKrtXhdmFv">
             Herr ålderspresident! Jag tackar Tomas Eneroth för svaret.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-232" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-231" next="i-930e02eac663f054-233">
           <seg xml:id="i-Dp4XbRoaRkLPh853CYv2Eh">
             Jag vill för debattens skull vara tydlig med att Sverigedemokraterna
             är väl medvetna om hur ålderstigna många av Sveriges ställverk
             är. Ungefär en tredjedel är väl på gränsen till att behöva utrangeras
             akut.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-233" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-232" next="i-930e02eac663f054-234">
           <seg xml:id="i-9GHChpJQueT9eQ2i4sCaod">
             Kostnaderna för detta projekt i sin helhet är beräknat till 30
             miljarder, så det är ingen liten summa. Vi ser dock vinsterna
@@ -3409,7 +3069,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=32"/>
-        <u xml:id="i-930e02eac663f054-234" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-233" next="i-930e02eac663f054-235">
+        <u xml:id="i-930e02eac663f054-234" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-231">
           <seg xml:id="i-XezSxBm6NjvkjCqqKAZakP">
             Jag minns väl när detta projekt rullades ut på Botniabanan 2010.
             Jag var då anställd på Trafikverket som el- och bandriftledare,
@@ -3419,30 +3079,22 @@
             med mängder av inställda och försenade tåg. Det tog runt tre år
             innan trafiken började flyta. Detta var en stor snackis inom verket.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-235" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-234" next="i-930e02eac663f054-236">
           <seg xml:id="i-E8D4FRDQQZRanLhiZN4CLS">
             Ett av de större problemen var att tågen nödstoppades ute på
             linjen utan anledning. Nattågen fick ledas om till Norra stambanan
             på grund av detta. ERTMS försenade även Ådalsbanans upprustning.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-236" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-235" next="i-930e02eac663f054-237">
           <seg xml:id="i-LMy1SVg55VS9r6kLrwKeh2">
             Men trägen vinner, och till sist fick man bukt med problemen.
             Botniabanan har i dag hög punktlighet, och antalet fel kopplade
             till signalsystemet är lägre än på motsvarande banor med ATC.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-237" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-236" next="i-930e02eac663f054-238">
           <seg xml:id="i-4BFvPzaNs5HXEc2wbeTb9j">
             Nu till mina frågor, och jag börjar med den första: Hur avser
             ministern att agera för att utbyggnaden av ERTMS-systemet inte
             görs så tidigt att det innebär att allvarliga driftsstörningar
             uppstår i järnvägssystemet?
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-238" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-237" next="i-930e02eac663f054-239">
           <seg xml:id="i-CpqMGyPDkJg96FUpsQvHm5">
             Kollektivtrafikföretagens branschföreningar besökte trafikutskottet
             den 10 september för att informera om läget för kollektivtrafiken
@@ -3453,8 +3105,6 @@
             sådana omständigheter förväntas göra stora investeringar för att
             anpassa sina lok till EU:s nya signalsystem ERTMS.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-239" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-238" next="i-930e02eac663f054-240">
           <seg xml:id="i-BRSKodgUzXWZUR21ZoDRpc">
             Men problemen stannar inte här. För fyra månader sedan gick Trafikverket
             ut med ett meddelande om att man ännu inte är färdig med att testa
@@ -3466,16 +3116,12 @@
             2021. Detta känns inte tryggt. I varje fall blinkar det varningslampor
             för mig.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-240" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-239" next="i-930e02eac663f054-241">
           <seg xml:id="i-VQrrBkEwDDnX7YfT3NTRyo">
             Flera av riksdagens partier, däribland Sverigedemokraterna, har
             krävt att man skjuter fram införandet av ERTMS till dess att Trafikverket
             kan påvisa att en implementering kan ske utan risk för stora driftsstörningar.
             Men något sådant har i alla fall inte jag sett i trafikutskottet.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-241" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-240" next="i-930e02eac663f054-242">
           <seg xml:id="i-ChBaJF4bEDzcUz394Ci6hd">
             Av det kortfattade svar jag erhållit av statsrådet konstateras
             det att vi enligt EU:s lagstiftning ska vara klara med implementeringen
@@ -3485,8 +3131,6 @@
             då det inte finns en fungerande anläggning att köra på och inte
             tillräckligt med ERTMS-utrustade fordon.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-242" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-241">
           <seg xml:id="i-HVShYU4eg9jqD9Sb26t9za">
             Jag välkomnar därför ett fylligare svar från statsrådet Eneroth
             om huruvida planen ligger kvar till varje pris eller om statsrådet
@@ -3511,7 +3155,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=33"/>
-        <u xml:id="i-930e02eac663f054-244" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-243" next="i-930e02eac663f054-245">
+        <u xml:id="i-930e02eac663f054-244" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-243">
           <seg xml:id="i-VaMR2iFNK9Gqvo3D3MoXvX">
             Även om jag i nästan alla sammanhang argumenterar för att bygga
             mer järnväg och bygga ut järnvägssystemet, för det behöver göras,
@@ -3520,8 +3164,6 @@
             att få brottas med kapacitetsproblem framöver. Då är moderna signal-
             och ledningssystem helt avgörande.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-245" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-244" next="i-930e02eac663f054-246">
           <seg xml:id="i-Q1DB9AnQDadsbfTw1xgesR">
             Det är ingen tvekan om att det är dyra investeringar. Men för
             den som inte följt debatten men nu gör det på nätet är det viktigt
@@ -3532,8 +3174,6 @@
             är inte tillförlitligt och skulle då behöva renoveras, vilket
             Patrik Jönsson också tar upp.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-246" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-245" next="i-930e02eac663f054-247">
           <seg xml:id="i-6dN4cyA1rie28oHFkrdSMh">
             Jag följer detta noga, för det handlar om stora resurser. Det
             är också därför vi har varit noga med att peka på förutsättningarna,
@@ -3541,24 +3181,18 @@
             EU-stöd som finns. Staten tar dock den stora kostnaden i genomförandet
             av ERTMS.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-247" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-246" next="i-930e02eac663f054-248">
           <seg xml:id="i-812tgTgZ7VWpwrVMr2Cxtc">
             Det ska vara tillförlitligt och noggrant, och i den mån det sker
             förseningar i implementeringen i detta läge är det i huvudsak
             för att Trafikverket vill och ska vara säkert på att de bästa
             förutsättningarna för att kunna sätta systemet i drift finns.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-248" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-247" next="i-930e02eac663f054-249">
           <seg xml:id="i-4JEU12JR5NVSZQutfBmMbv">
             Jag antar och förutsätter att Trafikverket gör sitt allra bästa
             men att det under rådande pandemi kan finnas den typen av skäl
             som gör att det kan bli förseningar. Jag kan försäkra Patrik Jönsson
             att jag kommer att följa implementeringen noga.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-249" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-248" next="i-930e02eac663f054-250">
           <seg xml:id="i-TXP7Xcu9vXT6dKW5bFu1hU">
             Jag vet att frågan har varit uppe i trafikutskottet många gånger,
             men hittills har utskottet ställt sig bakom implementeringen av
@@ -3567,8 +3201,6 @@
             i den meningen upprusta ett föråldrat ATC-system med en utrustning
             som, mycket riktigt, skulle behöva bytas ut ännu snabbare.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-250" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-249" next="i-930e02eac663f054-251">
           <seg xml:id="i-ExAwXL4upVu4CCcVPQtCXM">
             Snarare handlar det om att säkerställa kostnadsutvecklingen,
             teknikimplementeringen och tågoperatörernas förutsättningar. När
@@ -3583,8 +3215,6 @@
             gett goda och bra ekonomiska förutsättningar att klara av den
             anspänning som det hela innebär.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-251" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-250">
           <seg xml:id="i-WyoH9zTEDCH8qXLXAd9iP8">
             Jag försäkrar Patrik Jönsson att vi kommer att följa utvecklingen
             av ERTMS noggrant. Jag tror att det är viktigt att inse att det
@@ -3596,7 +3226,7 @@
         <note xml:id="i-AZdcqPec4AC7yf3a3uqFts" type="speaker">
           Anf. 39 PATRIK JÖNSSON (SD):
         </note>
-        <u xml:id="i-930e02eac663f054-252" who="i-5QsM75VvzYYRCpVjV6ax78" next="i-930e02eac663f054-253">
+        <u xml:id="i-930e02eac663f054-252" who="i-5QsM75VvzYYRCpVjV6ax78" next="i-930e02eac663f054-259">
           <seg xml:id="i-VBViYgpoBsg6bEh7g1RzvZ">
             Herr ålderspresident! Infrastrukturministern slår sig för bröstet
             för regeringens satsning på kollektivtrafiken på grund av corona.
@@ -3607,8 +3237,6 @@
             att kompensera för de stora brister i intäkter som vi ser och
             som förmodligen är i klass med intäktsbortfallet 2020 även 2021.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-253" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-252" next="i-930e02eac663f054-254">
           <seg xml:id="i-8GFCdNA4y8KuB3svmDWKcJ">
             Men om vi håller oss till ämnet ERTMS kan jag konstatera att
             flera EU-länder precis som vi har valt att bromsa utrullningen
@@ -3616,8 +3244,6 @@
             med all sannolikhet att behöva revideras. Det tror jag att infrastrukturministern
             ser en stor möjlighet eller sannolikhet i.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-254" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-253" next="i-930e02eac663f054-255">
           <seg xml:id="i-P24mGYyPaxPZw5FmnSaUep">
             När det gäller frågan om stöd till tågoperatörerna är ERTMS ett
             kostsamt projekt för branschens operatörer. För varje fordon som
@@ -3628,8 +3254,6 @@
             kommande lok. Det är en kostnad som operatörerna tvingas ta på
             sig men som de inte ser någon egen vinning av.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-255" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-254" next="i-930e02eac663f054-256">
           <seg xml:id="i-BsMcwebwQmGYTTVPSoXN2X">
             Det kan tyckas att en kostnad på mellan 3 och 10 miljoner per
             lok är en liten kostnad, men då måste man beakta att för bara
@@ -3642,8 +3266,6 @@
             äldre lok saknar dessutom dokumentation, vilket försvårar och
             fördröjer installationsarbetet.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-256" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-255" next="i-930e02eac663f054-257">
           <seg xml:id="i-KhQgLozVYgfPWEotHf1tB1">
             Branschen, som redan i dag har brist på resurser och personal,
             har dessa stora problem. Enligt Gustaf Engstrand på Tågföretagen
@@ -3653,8 +3275,6 @@
             är det oroande att man väljer just Södra stambanan, som har så
             mycket trafik.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-257" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-256" next="i-930e02eac663f054-258">
           <seg xml:id="i-UKQp7iZRdPJ79R962nZZ1T">
             Infrastrukturministern är säkert medveten om att ett för tidigt
             införande av ERTMS-systemet riskerar att få till följd att det
@@ -3664,8 +3284,6 @@
             ERTMS på stambanorna i ett tidigt skede är förenat med en uppenbar
             risk för såväl stora driftsstörningar som fordonsbrist.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-258" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-257" next="i-930e02eac663f054-259">
           <seg xml:id="i-G2Js9RyNrgGGNBkSirsRCh">
             När det gäller svaret på min fråga om ministern är villig att
             ompröva sitt ställningstagande att inte ge stöd till tågoperatörerna
@@ -3680,7 +3298,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=35"/>
-        <u xml:id="i-930e02eac663f054-259" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-258" next="i-S5vQrxbZ4cjPyDj4i3cc5y">
+        <u xml:id="i-930e02eac663f054-259" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-252">
           <seg xml:id="i-5c31JFV3cR547UGMJzaNXT">
             Green Cargo blöder, och SJ blöder. Varifrån ska de få pengar?
             Visst kan vi ge dem ägartillskott, men då blir det en snedvridning
@@ -3690,8 +3308,6 @@
             resenärer från väg till järnväg. Jag beklagar regeringens inställning
             i denna fråga.
           </seg>
-        </u>
-        <u xml:id="i-S5vQrxbZ4cjPyDj4i3cc5y" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-259">
           <seg xml:id="i-A5e6sNYVtHLw18XuaeodFm">
             Min fråga till infrastrukturministern är: Har ni någon tanke
             på att ändra inställning?
@@ -3700,12 +3316,10 @@
         <note xml:id="i-Wm8UQFWRoGn6kmWbfojBxF" type="speaker">
           Anf. 40 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-HQPcZRcrxeUXCv84z9nhS3" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-930e02eac663f054-261">
+        <u xml:id="i-HQPcZRcrxeUXCv84z9nhS3" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-930e02eac663f054-267">
           <seg xml:id="i-SEmHV6eo4R7Zh3QuGNPVy9">
             Herr ålderspresident! Tack, Patrik Jönsson, för engagemanget!
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-261" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-HQPcZRcrxeUXCv84z9nhS3" next="i-930e02eac663f054-262">
           <seg xml:id="i-VKnGYoeFsa138VDfcvp2wD">
             Som jag sa tidigare tror jag att det är viktigt att både riksdagens
             trafikutskott och regeringen noggrant följer implementeringen
@@ -3713,8 +3327,6 @@
             ordentlig uppgradering av det europeiska järnvägssystemet, och
             detta är nödvändigt och önskvärt.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-262" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-261" next="i-930e02eac663f054-263">
           <seg xml:id="i-Xs9JSJVz6H9sojB2x4erB1">
             År 2021 har utnämnts till järnvägens år i EU, och det hade varit
             ytterst olyckligt om det skulle bli ett år då man skjuter upp
@@ -3725,8 +3337,6 @@
             mer gods och för den delen persontrafik på det som är långsiktigt
             hållbart.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-263" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-262" next="i-930e02eac663f054-264">
           <seg xml:id="i-PVGoGYfHB1C1UFmA8WiPr2">
             Frågan om ekonomiskt stöd till de olika tågoperatörerna har prövats
             av riksdagen vid flera tillfällen, senast inför budgeten under
@@ -3734,8 +3344,6 @@
             Sverigedemokraterna vid det tillfället stödde det förslag som
             fanns i riksdagen om att ge ekonomiskt stöd till tågoperatörerna.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-264" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-263" next="i-930e02eac663f054-265">
           <seg xml:id="i-5xFcXcE2buozxTMkia9EbQ">
             I huvudsak står staten för en stor del av investeringarna, och
             sedan pekar vi på möjligheter för tågoperatörerna att ansöka om
@@ -3750,8 +3358,6 @@
             ekonomiska förutsättningar i en tid då de, precis som många andra,
             prövas hårt. Det är så det måste fungera under en pandemi.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-265" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-264" next="i-930e02eac663f054-266">
           <seg xml:id="i-XLFUDQSfWfgjsCrPHazeBx">
             När både persontransporter och godstransporter drabbas hårt får
             vi använda våra gemensamma resurser för att säkerställa att aktörerna
@@ -3759,8 +3365,6 @@
             importen och exporten fungerar. Detta har fungerat förhållandevis
             väl, och det har jag redovisat för utskottet vid ett flertal tillfällen.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-266" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-265" next="i-930e02eac663f054-267">
           <seg xml:id="i-GXzz5iEoEfybzHSTVsjrj6">
             Vi måste också se till att persontrafiken, som drabbas hårt,
             får bra förutsättningar. Där har vi nu gett totalt 5 miljarder
@@ -3774,7 +3378,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=36"/>
-        <u xml:id="i-930e02eac663f054-267" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-266">
+        <u xml:id="i-930e02eac663f054-267" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-HQPcZRcrxeUXCv84z9nhS3">
           <seg xml:id="i-FX9nRM7wtmy4nJ2zicd3FA">
             Naturligtvis ska det ske på ett driftssäkert sätt. Naturligtvis
             ska det ske med noggrann kostnadskontroll, och det ska säkerställas
@@ -3789,14 +3393,12 @@
         <note xml:id="i-D2NKkGp2anXqq3LrZD3fof" type="speaker">
           Anf. 41 PATRIK JÖNSSON (SD):
         </note>
-        <u xml:id="i-930e02eac663f054-268" who="i-5QsM75VvzYYRCpVjV6ax78" next="i-930e02eac663f054-269">
+        <u xml:id="i-930e02eac663f054-268" who="i-5QsM75VvzYYRCpVjV6ax78">
           <seg xml:id="i-TETeL8kiPYmVDNT8LpndYi">
             Herr ålderspresident! I slutet kommer Tomas Eneroth in lite grann
             på pudelns kärna. Jag känner Tomas Eneroth så pass mycket att
             jag vet att han är en klok herre.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-269" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-268" next="i-930e02eac663f054-270">
           <seg xml:id="i-KbDCjvenewt2hYpd23dPh8">
             Om det skulle visa sig att det går riktigt illa när vi rullar
             ut implementeringen av ERTMS på Malmbanan – det kan dock omöjligt
@@ -3806,8 +3408,6 @@
             kan säkerställa att detta kan utföras på ett för järnvägssystemet
             säkert sätt såtillvida att det inte orsakar störningar.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-270" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-269" next="i-930e02eac663f054-271">
           <seg xml:id="i-2WHZkvrcM5ikwEcVjdmNQH">
             Jag skulle jättegärna vilja få någon form av svar på detta, och
             jag hoppas att man då i stället för att rulla ut ERTMS på framför
@@ -3817,8 +3417,6 @@
             störningar. Jag skulle jättegärna vilja höra någon form av återkoppling
             på detta.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-271" who="i-5QsM75VvzYYRCpVjV6ax78" prev="i-930e02eac663f054-270">
           <seg xml:id="i-DzQe95DottnkbUEFY1AMaQ">
             Slutligen vill jag bara säga detta: Okej, ni har gjort ert val
             att inte stödja tågoperatörerna i utrullningen av ERTMS. Det kan
@@ -3834,7 +3432,7 @@
         <note xml:id="i-33usZ8PYjrWQZHMAN5qh1m" type="speaker">
           Anf. 42 Infrastrukturminister TOMAS ENEROTH (S):
         </note>
-        <u xml:id="i-930e02eac663f054-272" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-930e02eac663f054-273">
+        <u xml:id="i-930e02eac663f054-272" who="i-G8564CqEnhC5PBjZSwUxsE" next="i-930e02eac663f054-275">
           <seg xml:id="i-N74z5tjMNCSskxfzk1xGBi">
             Herr ålderspresident! Tack, Patrik Jönsson, för en bra diskussion
             och debatt om ERTMS! Det är säkert inte den sista, för detta kommer
@@ -3842,16 +3440,12 @@
             att vi är många som kommer att följa den. Det är naturligtvis
             en tuff uppgift för Trafikverket med implementering.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-273" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-272" next="i-930e02eac663f054-274">
           <seg xml:id="i-XpTKYudSR2cYFxrvm2FBky">
             För att lugna Patrik Jönsson kan jag säga att detta var ett av
             skälen till att jag i svaret säger att driftssättning bara görs
             om systemet motsvarar de kvalitetskrav som ställs. Jag förutsätter
             att Trafikverket lever upp till detta.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-274" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-273" next="i-930e02eac663f054-275">
           <seg xml:id="i-777qFun2ymxNLatjKq73iS">
             Vi har inte råd med stora störningar i svenskt järnvägssystem,
             men vi har inte heller råd med att långsiktigt låta bli att göra
@@ -3864,7 +3458,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=37"/>
-        <u xml:id="i-930e02eac663f054-275" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-274" next="i-930e02eac663f054-276">
+        <u xml:id="i-930e02eac663f054-275" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-272">
           <seg xml:id="i-EKPq2DMn6yip8XVCBkdYq5">
             Jag tror att många resenärer har märkt att sträckor har varit
             avstängda. Getingmidjan var avstängd nu senast i somras, och tre
@@ -3874,8 +3468,6 @@
             Det går ett tåg i minuten på sträckan, och då kommer punktligheten
             att förbättras.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-276" who="i-G8564CqEnhC5PBjZSwUxsE" prev="i-930e02eac663f054-275">
           <seg xml:id="i-5qJqngJ4urMbsbKor11kTJ">
             Det är den grundrenovering som vi har arbetat med i den här regeringen
             och den förra socialdemokratiskt ledda regeringen för att vi väljer
@@ -3895,7 +3487,7 @@
         <note xml:id="i-RQsrotTu9obux5bMi2iZm2" type="speaker">
           Anf. 43 Utbildningsminister ANNA EKSTRÖM (S):
         </note>
-        <u xml:id="i-930e02eac663f054-277" who="i-9AVauGWoNZ6utf3kmZanbm" next="i-930e02eac663f054-278">
+        <u xml:id="i-930e02eac663f054-277" who="i-9AVauGWoNZ6utf3kmZanbm" next="i-930e02eac663f054-282">
           <seg xml:id="i-P2CSjWnig1rEHjME6mwPr9">
             Herr ålderspresident! Alexandra Anstrell har frågat mig vilka
             åtgärder jag avser att vidta för att motverka att antalet platser
@@ -3905,8 +3497,6 @@
             åtgärder jag avser att vidta för att främja svensk folkhälsa genom
             idrottsutbildningar.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-278" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-277" next="i-P8WA3fkiSo2uRUBoENbwA1">
           <seg xml:id="i-9Kfu1dJwUe364nyBXHXiQc">
             Regeringen anser att det är viktigt att det finns idrottsutbildningar
             med specialidrott i gymnasie- och gymnasiesärskolan för att ungdomar
@@ -3914,8 +3504,6 @@
             att få med sig en gymnasial utbildning så att de står rustade
             inför framtiden, både under och efter en elitidrottssatsning.
           </seg>
-        </u>
-        <u xml:id="i-P8WA3fkiSo2uRUBoENbwA1" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-278" next="i-930e02eac663f054-279">
           <seg xml:id="i-2Kygwzcy8VJ2oy4ZdtkpvK">
             Därför remitterade Utbildningsdepartementet den 17 juli promemorian
             Idrottsutbildningar i gymnasie- och gymnasiesärskolan (U2020/04134).
@@ -3925,8 +3513,6 @@
             den översyn som gjorts inom Utbildningsdepartementet har dessutom
             diskussioner förts med skolhuvudmän och specialidrottsförbund.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-279" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-P8WA3fkiSo2uRUBoENbwA1" next="i-930e02eac663f054-280">
           <seg xml:id="i-9gXHUTRmyYWqyWvrZBssDR">
             Problem som lyfts och som knyter an till interpellantens frågeställningar
             handlar bland annat om att de nationellt godkända idrottsutbildningarna,
@@ -3935,8 +3521,6 @@
             utbildningar, trots att dessa enligt gymnasieförordningen ska
             ha elitidrottskaraktär. Ett annat problem som berörts är lärarbristen.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-280" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-279" next="i-930e02eac663f054-281">
           <seg xml:id="i-SLJnoJdLukqMZ8GE4CRZYx">
             Avsikten med idrottsutbildningar med specialidrott i gymnasie-
             och gymnasiesärskolan är att de elever som går dessa ska få en
@@ -3945,8 +3529,6 @@
             dela de utmaningar som en elitidrottssatsning som kombineras med
             en gymnasial utbildning för med sig.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-281" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-280" next="i-930e02eac663f054-282">
           <seg xml:id="i-K66bAa46MFsHvZy2Z7o2sE">
             Ungdomar som inte är elitidrottare inom sin ålderskategori men
             som ändå vill satsa på en idrott ska dock enligt det remitterade
@@ -3956,7 +3538,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=38"/>
-        <u xml:id="i-930e02eac663f054-282" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-281" next="i-930e02eac663f054-283">
+        <u xml:id="i-930e02eac663f054-282" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-277">
           <seg xml:id="i-B2QyqZ82PGTf7kFpoyTeK2">
             Därför föreslår Utbildningsdepartementet i promemorian att de
             kursplaner inom ämnet idrott och hälsa som möjliggör satsningar
@@ -3968,8 +3550,6 @@
             elever kommer därmed att kunna tas om hand på ett bättre sätt
             än i dag.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-283" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-282" next="i-930e02eac663f054-284">
           <seg xml:id="i-HxfhoszfxDDPBQzUKJpr39">
             Den svenska folkhälsan främjas på olika sätt inom skolväsendet,
             inte enbart inom ämnet idrott och hälsa utan också i andra ämnen
@@ -3980,8 +3560,6 @@
             situation, till exempel vad gäller näringslära och förebyggande
             av skador.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-284" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-283" next="i-930e02eac663f054-285">
           <seg xml:id="i-B6MGH8j9zMJQMZ4iswCh5">
             Lärarbristen är ett stort problem inte bara inom idrottsutbildningarna,
             utan inom hela skolväsendet. Det är lämpligt att överväga åtgärder
@@ -3994,8 +3572,6 @@
             metoder för hur yrkesverksamma lärare i ämnet kan nå legitimation
             och behörighet – vilket vore ett steg i rätt riktning.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-285" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-284" next="i-930e02eac663f054-286">
           <seg xml:id="i-8pqs74WKvbi1MDrkHg46BM">
             Validering är viktigt i detta sammanhang och i förekommande fall
             även vissa ämnesspecifika kompletteringar, bland annat med tanke
@@ -4004,8 +3580,6 @@
             jämte legitimerade och behöriga lärare i ämnet specialidrott kompletterar
             med tränare som är experter inom en viss idrott.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-286" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-285">
           <seg xml:id="i-DjujEYs3o5geEAWAgLLCFY">
             Jag följer således frågan nära och kommer att ta del av remissynpunkterna
             på promemorian och därefter noga överväga vilka eventuella förändringar
@@ -4015,15 +3589,13 @@
         <note xml:id="i-LarSqq8yXMxkJFVpx356YJ" type="speaker">
           Anf. 44 ALEXANDRA ANSTRELL (M):
         </note>
-        <u xml:id="i-930e02eac663f054-287" who="i-Ch6N1ddXaHhYxZN72JKZAS" next="i-930e02eac663f054-288">
+        <u xml:id="i-930e02eac663f054-287" who="i-Ch6N1ddXaHhYxZN72JKZAS" next="i-930e02eac663f054-290">
           <seg xml:id="i-G7sTpDyNYMjXX1WMicjUGH">
             Herr ålderspresident! Tack, utbildningsministern, för svaren!
             Jag är glad och tacksam över att det finns förslag med i promemorian
             om att man ska kunna lösa den finansiering av visst material som
             elev eller vårdnadshavare har stått för.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-288" who="i-Ch6N1ddXaHhYxZN72JKZAS" prev="i-930e02eac663f054-287" next="i-930e02eac663f054-289">
           <seg xml:id="i-PFnXL6MRVCvmiEZjDDUoUp">
             I propositionen finns dock några andra frågor som jag undrar
             över. Det är just detta jag har ställt frågor till ministern om.
@@ -4034,8 +3606,6 @@
             ministern avser att vidta för att främja svensk folkhälsa genom
             idrottsutbildningar.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-289" who="i-Ch6N1ddXaHhYxZN72JKZAS" prev="i-930e02eac663f054-288" next="i-930e02eac663f054-290">
           <seg xml:id="i-8iWCYk4rbzXYPpN9U4xprQ">
             Herr ålderspresident! Jag uppfattade att svaret på min första
             fråga var att det i dag är för många NIU- och LIU-utbildningar
@@ -4047,7 +3617,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=39"/>
-        <u xml:id="i-930e02eac663f054-290" who="i-Ch6N1ddXaHhYxZN72JKZAS" prev="i-930e02eac663f054-289" next="i-930e02eac663f054-291">
+        <u xml:id="i-930e02eac663f054-290" who="i-Ch6N1ddXaHhYxZN72JKZAS" prev="i-930e02eac663f054-287">
           <seg xml:id="i-Edk9iChxsryb55HXAGNL9H">
             Att lägga ned NIU och LIU, så som beskrivs i promemorian, skulle
             innebära ungefär en halvering av dagens över 9 000 platser. NIU
@@ -4055,8 +3625,6 @@
             att bara byta ut dem mot att ge fler skolor möjlighet att ge ämnet
             specialidrott.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-291" who="i-Ch6N1ddXaHhYxZN72JKZAS" prev="i-930e02eac663f054-290" next="i-930e02eac663f054-292">
           <seg xml:id="i-JdsGTYiRMHFEmjnyhy2w6n">
             Det sägs att fyra av fem personer som nått våra landslag har
             gått via ett idrottsgymnasium, inte bara RIG. Elever som går dessa
@@ -4067,15 +3635,11 @@
             nu väljer att föreslå att antalet platser ska halveras tror jag
             att det blir än fler som hoppar av.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-292" who="i-Ch6N1ddXaHhYxZN72JKZAS" prev="i-930e02eac663f054-291" next="i-930e02eac663f054-293">
           <seg xml:id="i-VB9bQbxcEpkPrGwZRJUJy7">
             Jag förstår att detta är en jobbig fråga att lösa. Men bara för
             att en fråga är jobbig att lösa tycker jag inte att man kan lösa
             den med att bara lägga ned verksamheterna.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-293" who="i-Ch6N1ddXaHhYxZN72JKZAS" prev="i-930e02eac663f054-292" next="i-930e02eac663f054-294">
           <seg xml:id="i-J6zqLVkA89Yiunwp2jTbAP">
             Herr ålderspresident! Vad gäller min andra fråga om hanteringen
             av lärarbristen har jag fått bra svar av ministern. Svaret som
@@ -4086,8 +3650,6 @@
             steg i rätt riktning. Jag tror att det är bra med valideringen,
             och jag håller verkligen med utbildningsministern om det.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-294" who="i-Ch6N1ddXaHhYxZN72JKZAS" prev="i-930e02eac663f054-293">
           <seg xml:id="i-M1FcYeBMHK8zDaii5DZJ1R">
             Dock är det inte så enkelt som att om vi bara utbildar dem kommer
             detta att lösa sig. Vi behöver fler som vill och kan. Till det
@@ -4109,13 +3671,11 @@
         <note xml:id="i-QQR2cEy17wEdUyM2AA7Fc9" type="speaker">
           Anf. 45 ROGER HADDAD (L):
         </note>
-        <u xml:id="i-930e02eac663f054-295" who="i-Kn2C4HPwWcqbEgtUtWTc5F" next="i-930e02eac663f054-296">
+        <u xml:id="i-930e02eac663f054-295" who="i-Kn2C4HPwWcqbEgtUtWTc5F" next="i-930e02eac663f054-298">
           <seg xml:id="i-BtNoTbM2A9vwsUrDgb3wvR">
             Herr ålderspresident! Jag tackar statsrådet Anna Ekström för
             svaret på interpellationen från Moderaterna om idrottsgymnasier.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-296" who="i-Kn2C4HPwWcqbEgtUtWTc5F" prev="i-930e02eac663f054-295" next="i-930e02eac663f054-297">
           <seg xml:id="i-Pdy6fpVmH7JFVPNZXW986X">
             Det förslag som departementet har skickat ut baseras ju bara
             delvis på det tillkännagivande som riksdagen gjorde på initiativ
@@ -4127,8 +3687,6 @@
             dyr utrustning, göra undantag i skollagen så att man slipper kritik
             från Statens skolinspektion.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-297" who="i-Kn2C4HPwWcqbEgtUtWTc5F" prev="i-930e02eac663f054-296" next="i-930e02eac663f054-298">
           <seg xml:id="i-YZic3WmWkeKdr6XEpqs3tT">
             Jag har tittat på promemorian – regeringen har ändå godkänt att
             den ska skickas ut, och det är klart att regeringen kan påverka
@@ -4139,7 +3697,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=40"/>
-        <u xml:id="i-930e02eac663f054-298" who="i-Kn2C4HPwWcqbEgtUtWTc5F" prev="i-930e02eac663f054-297" next="i-930e02eac663f054-299">
+        <u xml:id="i-930e02eac663f054-298" who="i-Kn2C4HPwWcqbEgtUtWTc5F" prev="i-930e02eac663f054-295">
           <seg xml:id="i-GV5TUdTMn6JKD9cbpuZNpQ">
             Alla politiker och kollegor runt om i landet som har hört av
             sig, kommenterat och gett inspel säger: Vi vill ha både elitsatsning
@@ -4147,8 +3705,6 @@
             när det gäller idrottsutbildning säger att vi måste parera och
             värna de här tillsammans.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-299" who="i-Kn2C4HPwWcqbEgtUtWTc5F" prev="i-930e02eac663f054-298" next="i-930e02eac663f054-300">
           <seg xml:id="i-LnFxCMnKZbgSK68q79EXvh">
             Om det är så, herr ålderspresident, att det brister i uppföljning,
             i kvalitet, i ekonomiska hantering, i den interkommunala ersättningen
@@ -4162,8 +3718,6 @@
             uppenbarligen brustit. Det är också en kritik mot regeringens
             egna myndigheter.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-300" who="i-Kn2C4HPwWcqbEgtUtWTc5F" prev="i-930e02eac663f054-299" next="i-930e02eac663f054-301">
           <seg xml:id="i-Sx84D4VLiZHm64BanXC2vo">
             Jag nöjer mig inte, herr ålderspresident, när regeringen hänvisar
             till att man ska se över kursplanerna. Vi har ju precis sett över
@@ -4171,8 +3725,6 @@
             regeringen de nya kursplanerna. Det är inget arbete som man bara
             kan dra igång hipp som happ.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-301" who="i-Kn2C4HPwWcqbEgtUtWTc5F" prev="i-930e02eac663f054-300">
           <seg xml:id="i-82cScoixD9tMwzBM4hYVFo">
             Vi liberaler säger: Skärp upp regelverket! Ta bort de oseriösa!
             Säkra att pengarna används på korrekt sätt! Om det finns befogad
@@ -4189,7 +3741,7 @@
         <note xml:id="i-7JURhEcHTHHpJGeTitjMfZ" type="speaker">
           Anf. 46 MALIN HÖGLUND (M):
         </note>
-        <u xml:id="i-930e02eac663f054-302" who="i-7vhvYfdv3H73d44FMgW7sh" next="i-930e02eac663f054-303">
+        <u xml:id="i-930e02eac663f054-302" who="i-7vhvYfdv3H73d44FMgW7sh" next="i-930e02eac663f054-305">
           <seg xml:id="i-FXxXRjdpt1X8KjRc42KCkp">
             Herr ålderspresident! Specialidrottsprogrammen spelar en stor
             roll för många elever på våra skolor som har både RIG, NIU och
@@ -4198,24 +3750,18 @@
             idrottsgymnasium. De som inte kommer in slutar oftast med idrotten,
             tyvärr. Det finns inga andra vägar utanför gymnasiet.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-303" who="i-7vhvYfdv3H73d44FMgW7sh" prev="i-930e02eac663f054-302" next="i-930e02eac663f054-304">
           <seg xml:id="i-KhjnvvJw8ya6B5umX8Fahw">
             Enligt regeringen ska antalet idrottselever halveras. Det här
             kommer att påverka hela barn- och ungdomsidrotten. Det kan leda
             till att ungdomar måste specialisera sig tidigare än i dag, samtidigt
             som vi också vet att bre d didrotten är otroligt viktig.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-304" who="i-7vhvYfdv3H73d44FMgW7sh" prev="i-930e02eac663f054-303" next="i-BiqYx1cosK6AjRpnnGctJq">
           <seg xml:id="i-LBFAqnK7pkfnYyTJJ9ESrz">
             Mora gymnasium har en lång tid haft längdskidåkning, skidorientering,
             hockey, innebandy och fotboll. Totalt på Mora gymnasium går 40
             procent av eleverna – eller 330 elever – på ett idrottsprogram.
             Av dessa är det 40 på RIG, 112 på NIU och 178 på LIU.
           </seg>
-        </u>
-        <u xml:id="i-BiqYx1cosK6AjRpnnGctJq" who="i-7vhvYfdv3H73d44FMgW7sh" prev="i-930e02eac663f054-304" next="i-930e02eac663f054-305">
           <seg xml:id="i-W3LSWmRffRx2CTx8E2Aayv">
             SCB:s undersökning av levnadsförhållanden, Barn-ULF, visar att
             ca 60 procent av ungdomarna i 12–18-årsåldern idrottade i förening
@@ -4225,7 +3771,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=41"/>
-        <u xml:id="i-930e02eac663f054-305" who="i-7vhvYfdv3H73d44FMgW7sh" prev="i-BiqYx1cosK6AjRpnnGctJq">
+        <u xml:id="i-930e02eac663f054-305" who="i-7vhvYfdv3H73d44FMgW7sh" prev="i-930e02eac663f054-302">
           <seg xml:id="i-NkKN1zswAUThNXxqBWRwU9">
             Idrotten engagerar och spelar en roll i det svenska samhället.
             Jag känner mig mycket orolig att idrottandet nu kommer att minska
@@ -4237,14 +3783,12 @@
         <note xml:id="i-LUKzoMLn9EVtNnEscGY7Hp" type="speaker">
           Anf. 47 Utbildningsminister ANNA EKSTRÖM (S):
         </note>
-        <u xml:id="i-930e02eac663f054-306" who="i-9AVauGWoNZ6utf3kmZanbm" next="i-930e02eac663f054-307">
+        <u xml:id="i-930e02eac663f054-306" who="i-9AVauGWoNZ6utf3kmZanbm" next="i-930e02eac663f054-313">
           <seg xml:id="i-phoGCpj7ZaZREwAZRKL9T">
             Herr ålderspresident! Jag vill tacka för den här fantastiska
             uppvisningen av kärlek och omtanke om vår ungdomsidrott. Det värmer
             en utbildningsministers hjärta!
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-307" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-306" next="i-930e02eac663f054-308">
           <seg xml:id="i-W6bUSVcnLJa96tLk3FMNMp">
             Jag har några korta påpekanden. Först och främst: Som regelverket
             i dag ser ut är syftet med den här typen av idrottsgymnasier som
@@ -4255,8 +3799,6 @@
             att det ska finnas både praktiska och tilltalande möjligheter
             för ungdomar att satsa helhjärtat på sin elitidrott.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-308" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-307" next="i-930e02eac663f054-309">
           <seg xml:id="i-X3BEjYvYNgwq5wHvT1ABxw">
             Men regelverket är skrivet så att det ska handla om en elitsatsning,
             och bakgrunden till att den här promemorian har tagits fram är
@@ -4266,8 +3808,6 @@
             på ett tillfredsställande sätt. Det här är inte nya signaler,
             utan det här är signaler som har kommit under ett antal år.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-309" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-308" next="i-930e02eac663f054-310">
           <seg xml:id="i-CUBANWuhM1Hn5tHEMgSd9D">
             En annan sak som jag verkligen vill påpeka och påminna om är
             att den svenska skolan har ett uppdrag i sina kursplaner och läroplaner
@@ -4276,8 +3816,6 @@
             intet sätt någonting som ska vara förbehållet enbart de elever
             som går på riksidrottsgymnasium eller dagens NIU eller LIU.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-310" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-309" next="i-930e02eac663f054-311">
           <seg xml:id="i-X9hk9sVQPZzYiYC4QKJBa9">
             Jag vill också påminna om att det på intet sätt finns någon motsättning
             mellan att man vill ha en breddsatsning på idrott och att man
@@ -4286,8 +3824,6 @@
             idrott är ju själva förutsättningen för att det ska finnas en
             elit.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-311" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-310" next="i-930e02eac663f054-312">
           <seg xml:id="i-AnmXMg7KVcE8iXoSgnfp7T">
             Får jag påminna om ytterligare en sak som kanske borde vara självklar.
             Det är att det vi nu diskuterar inte är en proposition, som jag
@@ -4297,8 +3833,6 @@
             ett enda skäl, och det är att vi vill ha synpunkter. Vi är intresserade
             av synpunkter på det här förslaget.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-312" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-311" next="i-930e02eac663f054-313">
           <seg xml:id="i-UyymybdjToAS5yAbUba7nZ">
             Att promemorian har tagits fram i nära samarbete med både Sveriges
             Kommuner och Regioner och Riksidrottsförbundet borde borga för
@@ -4309,7 +3843,7 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=42"/>
-        <u xml:id="i-930e02eac663f054-313" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-312">
+        <u xml:id="i-930e02eac663f054-313" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-306">
           <seg xml:id="i-Sq2Z483jrnA1b4ZFUycLMr">
             En sista sak vill jag påpeka innan jag tackar för ordet den här
             gången, och det är att Roger Haddad gjorde en poäng av att det
@@ -4323,19 +3857,15 @@
         <note xml:id="i-HXP2e6mxud4GVrFJLnNTPM" type="speaker">
           Anf. 48 ALEXANDRA ANSTRELL (M):
         </note>
-        <u xml:id="i-930e02eac663f054-314" who="i-Ch6N1ddXaHhYxZN72JKZAS" next="i-930e02eac663f054-315">
+        <u xml:id="i-930e02eac663f054-314" who="i-Ch6N1ddXaHhYxZN72JKZAS">
           <seg xml:id="i-7auf9T6EbBLAF7WVUVycyD">
             Fru talman! Tack, ministern, för svaret!
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-315" who="i-Ch6N1ddXaHhYxZN72JKZAS" prev="i-930e02eac663f054-314" next="i-930e02eac663f054-316">
           <seg xml:id="i-9DNjxFPWjnqfeCDkPCfxJ3">
             Jag tänker att det här med att vaska fram talanger inte är alldeles
             enkelt, speciellt inte i unga åldrar. Då är det bra att det finns
             många att leta bland.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-316" who="i-Ch6N1ddXaHhYxZN72JKZAS" prev="i-930e02eac663f054-315" next="i-930e02eac663f054-317">
           <seg xml:id="i-WVMehgQdQH5n6D9asB2puy">
             År 2019 rapporterades det att 12 procent av de svenska fyraåringarna
             lider av övervikt eller fetma. Skillnaderna är stora mellan barn
@@ -4347,8 +3877,6 @@
             kallade soffpotatisar. Man kan undra varför det ser ut så och
             vad som görs för att vända den trenden.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-317" who="i-Ch6N1ddXaHhYxZN72JKZAS" prev="i-930e02eac663f054-316" next="i-930e02eac663f054-318">
           <seg xml:id="i-Ft23JxUcpgKGezpyGfkcuG">
             Fru talman! Regeringens nationella samordnare för att främja
             ökad fysisk aktivitet skrev på DN Debatt häromdagen om att vårt
@@ -4358,8 +3886,6 @@
             flera gånger i veckan, medan en allt större grupp är helt inaktiv.
             Den utvecklingen måste vi vända.”
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-318" who="i-Ch6N1ddXaHhYxZN72JKZAS" prev="i-930e02eac663f054-317" next="i-930e02eac663f054-319">
           <seg xml:id="i-NJZd3wjCEjU43pssr9Ewjj">
             Vidare skriver han: ” För bara några decennier sedan rörde sig
             de flesta människor tillräckligt varje dag. Man promenerade och
@@ -4368,16 +3894,12 @@
             man på gym och springer i skogen. Eller också sitter man helt
             still. Den stillasittande gruppen blir allt större.”
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-319" who="i-Ch6N1ddXaHhYxZN72JKZAS" prev="i-930e02eac663f054-318" next="i-930e02eac663f054-320">
           <seg xml:id="i-7fqMp9pE7ftgCsTJEv8xim">
             Fru talman! Jag undrar om inte ministern håller med om att förslaget
             i regeringens promemoria om att dra ned på antalet platser på
             våra idrottsgymnasier rimmar ganska illa med uppdraget att främja
             ökad fysisk aktivitet.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-320" who="i-Ch6N1ddXaHhYxZN72JKZAS" prev="i-930e02eac663f054-319" next="i-930e02eac663f054-321">
           <seg xml:id="i-4fuRoVQZ8Y23sTVsnnRxrH">
             Sedan är det också så att själva idrotterna tillför mycket av
             struktur för många ungdomar. Alla idrotter har regler under tävlingarna,
@@ -4386,8 +3908,6 @@
             till tävlingar, deltar i träningsläger och mycket mer för att
             kunna lyckas med sin sport. Det krävs lite mer.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-321" who="i-Ch6N1ddXaHhYxZN72JKZAS" prev="i-930e02eac663f054-320" next="i-930e02eac663f054-322">
           <seg xml:id="i-Ht3Dek3FNB1HHPkkgmnh38">
             Idrott förser ungdomar med fysisk aktivitet, absolut, men de
             får också mycket annat. Många som har svårt att koncentrera sig
@@ -4398,8 +3918,6 @@
             inte många av de hormoner som till exempel gör att vi kan sova
             på nätterna.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-322" who="i-Ch6N1ddXaHhYxZN72JKZAS" prev="i-930e02eac663f054-321">
           <seg xml:id="i-T3kQ1xnMmvXqh7Ka3mu4qD">
             Ministern var själv inne på att många elitidrottare är goda förebilder
             för ungdomar. Då tänker jag att det finns en större bredd även
@@ -4417,7 +3935,7 @@
         <note xml:id="i-XPYhE5kU1GE83ZGERJRXEw" type="speaker">
           Anf. 49 ROGER HADDAD (L):
         </note>
-        <u xml:id="i-930e02eac663f054-323" who="i-Kn2C4HPwWcqbEgtUtWTc5F" next="i-930e02eac663f054-324">
+        <u xml:id="i-930e02eac663f054-323" who="i-Kn2C4HPwWcqbEgtUtWTc5F">
           <seg xml:id="i-MdFK6KhGhsgJQaGF4LnC5c">
             Fru talman! Vi levererade grundskolans kursplaner och ett antal
             ämnesplaner. Man såg också över ett antal programstrukturer när
@@ -4427,8 +3945,6 @@
             hade man i så fall kunnat passa på när Skolverket ändå höll på.
             Det var det som var min poäng.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-324" who="i-Kn2C4HPwWcqbEgtUtWTc5F" prev="i-930e02eac663f054-323" next="i-930e02eac663f054-325">
           <seg xml:id="i-SZAqEsi3gxkyBZRDRKjrvi">
             Kärnan i vår kritik och oro, fru talman, är att den här promemorian
             som regeringen har skickat ut kommer att få konsekvensen att bredden
@@ -4443,8 +3959,6 @@
             har den inriktning som statens skolverk eller Skolinspektionen
             har godkänt. Det tycker jag att vi ska ta till oss och bevara.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-325" who="i-Kn2C4HPwWcqbEgtUtWTc5F" prev="i-930e02eac663f054-324" next="i-930e02eac663f054-326">
           <seg xml:id="i-PoXn7KJgoCMkr3Fid8YLJb">
             Det står ännu inte tydligt, fru talman, hur de skolorna ska kunna
             fungera fortsättningsvis. Det är det jag önskar att statsrådet
@@ -4452,8 +3966,6 @@
             det här kommer att lösas och bli ännu bättre än i dag och att
             man ger ett uppdrag till Skolverket att se över kursplanen.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-326" who="i-Kn2C4HPwWcqbEgtUtWTc5F" prev="i-930e02eac663f054-325">
           <seg xml:id="i-H4fpMyQJhxYMU4R85YimDC">
             Avnämarna, alltså kommunerna och ett antal fristående skolor
             – jag har bara haft kontakt med kommunala skolor – är oroliga
@@ -4463,13 +3975,11 @@
         <note xml:id="i-6spq6g2ToP9Y2rZFdymLj7" type="speaker">
           Anf. 50 Utbildningsminister ANNA EKSTRÖM (S):
         </note>
-        <u xml:id="i-930e02eac663f054-327" who="i-9AVauGWoNZ6utf3kmZanbm" next="i-930e02eac663f054-328">
+        <u xml:id="i-930e02eac663f054-327" who="i-9AVauGWoNZ6utf3kmZanbm" next="i-930e02eac663f054-331">
           <seg xml:id="i-YBX57ibjrdECokVGUgm4h9">
             Fru talman! Än en gång måste jag säga tack för det engagemang
             som visas för våra idrottande ungdomar.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-328" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-327" next="i-930e02eac663f054-329">
           <seg xml:id="i-Cvj7JMgxHxuYVBuhoa55ki">
             Jag ska bara helt kort påminna om några viktiga utgångspunkter.
             Den första utgångspunkten i den promemoria som är utskickad är
@@ -4479,8 +3989,6 @@
             Det har kommit bort lite i de här frågorna. Men det är en viktig
             utgångspunkt. I promemorian föreslås många fler platser på riksidrottsgymnasierna.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-329" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-328" next="i-930e02eac663f054-330">
           <seg xml:id="i-F9zpwWAVvvaLkoJzB29Lo7">
             En annan sak jag vill påminna om i den här debatten, som sjuder
             av glädje över att ungdomar idrottar, är att det är viktigt att
@@ -4488,8 +3996,6 @@
             och lokala idrottsutbildningar inte når hela årskurser. De når
             en mindre del av ungdomarna.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-330" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-329" next="i-930e02eac663f054-331">
           <seg xml:id="i-VvJJa6T6Z21EMxczs1PbRs">
             I det utskickade förslaget står det klart och tydligt att också
             de ungdomar som inte elitsatsar, de ungdomar som enbart – om det
@@ -4503,15 +4009,13 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=44"/>
-        <u xml:id="i-930e02eac663f054-331" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-330" next="i-930e02eac663f054-332">
+        <u xml:id="i-930e02eac663f054-331" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-327">
           <seg xml:id="i-Jx5HhX2zkaeVkvoFNHiJ1o">
             Fru talman! Sist men inte minst har jag nu här i riksdagens talarstol
             förklarat lite om skälen till att promemorian är utformad på det
             sätt den är. Jag vill säga som det är: Skälet till att man skickar
             ut saker på remiss är att man vill få in synpunkter.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-332" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-331">
           <seg xml:id="i-GGWvWrBWoxRYqzABcmz8rN">
             Jag har fått höra ett antal synpunkter här i talarstolen. En
             del har handlat om elevers möjligheter att utvecklas och röra
@@ -4525,12 +4029,10 @@
         <note xml:id="i-SGcpfVh5h3M2L7NsAfgWC5" type="speaker">
           Anf. 51 ALEXANDRA ANSTRELL (M):
         </note>
-        <u xml:id="i-930e02eac663f054-333" who="i-Ch6N1ddXaHhYxZN72JKZAS" next="i-930e02eac663f054-334">
+        <u xml:id="i-930e02eac663f054-333" who="i-Ch6N1ddXaHhYxZN72JKZAS">
           <seg xml:id="i-81muDrkG51xNE2puAruR4V">
             Fru talman! Tack, ministern, för alla påminnelser och för svaret!
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-334" who="i-Ch6N1ddXaHhYxZN72JKZAS" prev="i-930e02eac663f054-333" next="i-930e02eac663f054-335">
           <seg xml:id="i-4h3vppGD7LD6VqkttGEJf4">
             Jag undrar vad man har tänkt säga till eleverna om det förslag
             som nu har gått ut på remiss. Det är bra att det är ute på remiss.
@@ -4541,8 +4043,6 @@
             Är den så dålig att den måste läggas ned? Vilka signaler ger det
             till ungdomar och egentligen till hela samhället?
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-335" who="i-Ch6N1ddXaHhYxZN72JKZAS" prev="i-930e02eac663f054-334" next="i-930e02eac663f054-336">
           <seg xml:id="i-HvDhFn2sm4aAdx2RZSRLH2">
             Ministern sa att man hade tänkt få fram fler RIG-platser, men
             inte lika många platser som det är i dag, eller hur? Jag tänker
@@ -4553,8 +4053,6 @@
             det här med att leta fram talanger måste få ta lite tid. Grundtanken
             har varit att försöka skjuta det högre upp i åldrarna än tidigare.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-336" who="i-Ch6N1ddXaHhYxZN72JKZAS" prev="i-930e02eac663f054-335" next="i-930e02eac663f054-337">
           <seg xml:id="i-J4f1LR7vYJRa8tyYZijhUb">
             En nedläggning av hälften av alla möjligheter att på riktigt
             kunna satsa på sin sport samtidigt som man klarar av sin skola
@@ -4563,8 +4061,6 @@
             man sig bra i livet. Vi vet också hur bra det är med idrottssatsningar
             för elevers ledarskap och struktur, för hela välmåendet.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-337" who="i-Ch6N1ddXaHhYxZN72JKZAS" prev="i-930e02eac663f054-336">
           <seg xml:id="i-V5EwaKJ1qRe1MRsqggPYwd">
             Fru talman! Visst vore det väl bättre om fler kunde kombinera
             sin el itidrott med sin skolgång på riktigt och få chansen till
@@ -4575,7 +4071,7 @@
         <note xml:id="i-THK9VgBUzZAn1DdRwDDivW" type="speaker">
           Anf. 52 Utbildningsminister ANNA EKSTRÖM (S):
         </note>
-        <u xml:id="i-930e02eac663f054-338" who="i-9AVauGWoNZ6utf3kmZanbm" next="i-930e02eac663f054-339">
+        <u xml:id="i-930e02eac663f054-338" who="i-9AVauGWoNZ6utf3kmZanbm" next="i-930e02eac663f054-340">
           <seg xml:id="i-PGm77VujztogToLUnLpJ9A">
             Fru talman! Alexandra Anstrell frågar mig vilka signaler regeringen
             vill skicka genom att lämna ut promemorian. En viktig signal är
@@ -4583,8 +4079,6 @@
             möjlighet för den stora och breda folkrörelse som idrotten bland
             annat är att lämna synpunkter och svar på remissen.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-339" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-338" next="i-930e02eac663f054-340">
           <seg xml:id="i-AboJ31oKrhhX64MrE92ZUA">
             En annan viktig signal är att vi vill att det ska vara möjligt
             att förena elitidrottande med att gå en gymnasieutbildning av
@@ -4593,22 +4087,18 @@
           </seg>
         </u>
         <pb facs="http://data.riksdagen.se/fil/83942CA3-07C6-4B44-9800-852BB2825D93#page=45"/>
-        <u xml:id="i-930e02eac663f054-340" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-339" next="i-930e02eac663f054-341">
+        <u xml:id="i-930e02eac663f054-340" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-338">
           <seg xml:id="i-XYUT6GWtzh7QtSsD3jtRXj">
             Ytterligare en signal är att vi gärna ser att specialidrott som
             ämne utvecklas, också på ett sådant sätt att det kan bidra till
             att ungdomar utvecklas inom sin idrott och att fler ska få chansen
             att göra det.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-341" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-340" next="i-930e02eac663f054-342">
           <seg xml:id="i-5X55u6RFNvqFessK5WX79t">
             Ännu en signal skulle kunna vara att fysisk aktivitet är något
             som vi vill ha mer, inte mindre, av i den svenska skolan i allmänhet
             och i den svenska gymnasieskolan.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-342" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-341" next="i-930e02eac663f054-343">
           <seg xml:id="i-HSZRycJwjZsoW8iEWfT1CM">
             Fru talman! Jag tackar så mycket för den här debatten. Det är
             alltid trevligt att debattera om skolan. Det är extra roligt att
@@ -4617,8 +4107,6 @@
             för hur viktig vi tycker att gymnasieskolan är men också hur viktigt
             det är att kunna förena gymnasieskolan med ett aktivt idrottsintresse.
           </seg>
-        </u>
-        <u xml:id="i-930e02eac663f054-343" who="i-9AVauGWoNZ6utf3kmZanbm" prev="i-930e02eac663f054-342">
           <seg xml:id="i-LzxYA8JHLie8TFCmFDJp67">
             Jag och regeringen kommer att ta del av de synpunkter som kommer
             in på remisspromemorian. Jag ser fram emot att sedan fortsätta

@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-PgGK3Lztx9kA69D8qrFYRY" type="speech">
             <linkGrp type="u">
               <ptr target="#i-SXvfYFmcTqiUpEnaoGgLcB"/>
@@ -222,7 +222,13 @@
               <ptr target="#i-Cn61K8Ud7XKgB1TD6yNB9k"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -479,7 +485,7 @@
         <note xml:id="i-Ujs7c9eFQN9K7CaqKD4tJe" type="speaker">
           Anf. 1 Bostadsminister HANS GUSTAFSSON:
         </note>
-        <u xml:id="i-SXvfYFmcTqiUpEnaoGgLcB" who="i-WAR7Xtq5vM5vhtMxcKDZv4" next="i-MguqffZCT1auFCLVjYnfGd">
+        <u xml:id="i-SXvfYFmcTqiUpEnaoGgLcB" who="i-WAR7Xtq5vM5vhtMxcKDZv4">
           <seg xml:id="i-9fuqQBzxYpanECoeymskw5">
             Herr talman! Bo Lundgren har frågat mig vilka bostadspolitiska
             åtgärder jag avser att vidta för att en ytterligare begränsning
@@ -489,8 +495,6 @@
             för en fortsatt sänkning av underskottsavdragens skattemässiga
             värde.
           </seg>
-        </u>
-        <u xml:id="i-MguqffZCT1auFCLVjYnfGd" who="i-WAR7Xtq5vM5vhtMxcKDZv4" prev="i-SXvfYFmcTqiUpEnaoGgLcB" next="i-3xEVyHfF8mmYiAt6utr2oX">
           <seg xml:id="i-J1hEXwaKrJfwgrVcnvXAhC">
             Som chefen för finansdepartementet nämnde den 16 oktober i år,
             som svar på en fråga av Kjell Johansson, kommer arbetet med att
@@ -499,8 +503,6 @@
             Han uttalade också att han inte var beredd att nu precisera vilka
             ändringar som kan komma att bli resultatet av detta arbete.
           </seg>
-        </u>
-        <u xml:id="i-3xEVyHfF8mmYiAt6utr2oX" who="i-WAR7Xtq5vM5vhtMxcKDZv4" prev="i-MguqffZCT1auFCLVjYnfGd">
           <seg xml:id="i-43wPXTwNomsNkWfQrgcxC5">
             Jag har ingen annan uppfattning i skattefrågan. Enligt min mening
             är därför frågan om vilka bostadspolitiska åtgärder som kan bli
@@ -1490,7 +1492,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198687--35/prot_198687__35-017.jp2/_view"/>
-        <u xml:id="i-8a2dbe53cab4209b-1" who="i-SD9pkoqRT5Wh44pQmYMCqD" prev="i-b1a6e81383139978-0" next="i-CL6nuosPwySCfRpA5TsexE">
+        <u xml:id="i-8a2dbe53cab4209b-1" who="i-SD9pkoqRT5Wh44pQmYMCqD" prev="i-b1a6e81383139978-0" next="i-8a2dbe53cab4209b-2">
           <seg xml:id="i-TbLPCX9DbXnH4S3FCpH5Cz">
             Alla yrkesverksamma har en rätt till arbetsförhållanden som gör
             det möjligt för dem att uppfylla högt ställda yrkesambitioner.
@@ -1503,13 +1505,9 @@
             man tvärtemot denna syn ser skolan som ett sparobjekt kommer den
             alarmerande situation som finns i många skolor att förstärkas.
           </seg>
-        </u>
-        <u xml:id="i-CL6nuosPwySCfRpA5TsexE" who="i-SD9pkoqRT5Wh44pQmYMCqD" prev="i-8a2dbe53cab4209b-1" next="i-L9CP5snZxE6xysnhpzrqHw">
           <seg xml:id="i-UV7LQp41yqAtmeA6xhgBLX">
             Jag skulle därför vilja fråga utbildningsministern:
           </seg>
-        </u>
-        <u xml:id="i-L9CP5snZxE6xysnhpzrqHw" who="i-SD9pkoqRT5Wh44pQmYMCqD" prev="i-CL6nuosPwySCfRpA5TsexE" next="i-8a2dbe53cab4209b-2">
           <seg xml:id="i-S4yVWDDo1SsP2MiTZtQ71g">
             Har utbildningsministern observerat den alarmerande höga sjukskrivningen
             bland lärare och avser utbildningsministern att i så fall vidta
@@ -1523,7 +1521,7 @@
           1986/87:111 av Sten Andersson i Malmö (m) till statsrådet Bengt
           K. Å. Johansson om marknadsföringen av kollektiva hemförsäkringar:
         </note>
-        <u xml:id="i-8a2dbe53cab4209b-2" who="i-SD9pkoqRT5Wh44pQmYMCqD" prev="i-L9CP5snZxE6xysnhpzrqHw" next="i-AGE9gA8ay8qgdFUWoXaVrM">
+        <u xml:id="i-8a2dbe53cab4209b-2" who="i-SD9pkoqRT5Wh44pQmYMCqD" prev="i-8a2dbe53cab4209b-1" next="i-AGE9gA8ay8qgdFUWoXaVrM">
           <seg xml:id="i-5ohPYv4fiMvwo9j3m6voGU">
             Hundratusentals LO-medlemmar har och kommer att bli påförda en
             kollektiv hemförsäkring i strid mot marknadsföringslagstiftningen
@@ -1584,7 +1582,7 @@
           1986/87:112 av Sten Svensson (m) till industriministern om statsbidraget
           till statens institut för företagsutveckling (SIFU):
         </note>
-        <u xml:id="i-AGE9gA8ay8qgdFUWoXaVrM" who="i-SD9pkoqRT5Wh44pQmYMCqD" prev="i-8a2dbe53cab4209b-2" next="i-JAuRNd49etwonB54RCnGU2">
+        <u xml:id="i-AGE9gA8ay8qgdFUWoXaVrM" who="i-SD9pkoqRT5Wh44pQmYMCqD" prev="i-8a2dbe53cab4209b-2" next="i-L8udgiWRysCgxvJ5VsHsSN">
           <seg xml:id="i-MG8CbhEdyDQP4Mfy5yzgen">
             Ett bra utbud för fortbildning förutsätter, liksom på andra områden,
             att det finns flera producenter som konkurrerar på lika villkor.
@@ -1646,8 +1644,6 @@
             och ekonomi över det statliga konkurrentstödet. När staten ger
             sig in på fortbildningsmarknaden skapas osunda konkurrensförhållanden.
           </seg>
-        </u>
-        <u xml:id="i-JAuRNd49etwonB54RCnGU2" who="i-SD9pkoqRT5Wh44pQmYMCqD" prev="i-AGE9gA8ay8qgdFUWoXaVrM" next="i-L8udgiWRysCgxvJ5VsHsSN">
           <seg xml:id="i-5Ai5Kvy6HPSKPAW2PD7Rd8">
             Jag vill därför fråga industriministern:
           </seg>
@@ -1661,7 +1657,7 @@
           | utbildningsgivarna med kursutbud, särskilt för små och medelstora
           25 november 1986 företag, har? TäReE RE EE SE
         </note>
-        <u xml:id="i-L8udgiWRysCgxvJ5VsHsSN" who="i-SD9pkoqRT5Wh44pQmYMCqD" prev="i-JAuRNd49etwonB54RCnGU2" next="i-8a2dbe53cab4209b-7">
+        <u xml:id="i-L8udgiWRysCgxvJ5VsHsSN" who="i-SD9pkoqRT5Wh44pQmYMCqD" prev="i-AGE9gA8ay8qgdFUWoXaVrM" next="i-8a2dbe53cab4209b-7">
           <seg xml:id="i-SfKNiRESRFXe8ogmXvE8q">
             b) Vill statsrådet medverka till att dessa fortbildningsinstitut
             får konkurrera med SIFU på lika villkor?
@@ -1780,7 +1776,7 @@
           191 av Larz Johansson (c) till statsrådet Bengt Göransson om
           åtgärder mot våld i skolan:
         </note>
-        <u xml:id="i-4a79d6f75827e848-0" who="i-DWeXh4zHCbqRVgtH4QLZC3" next="i-Kts7qG1hR7gj6FqoLNYKz7">
+        <u xml:id="i-4a79d6f75827e848-0" who="i-DWeXh4zHCbqRVgtH4QLZC3">
           <seg xml:id="i-6sJfuG6cVNVHR78sEELeAH">
             Under den senaste tiden har vi uppmärksammats på de alltmer tilltagande
             våldstendenserna i skolan. Som exempel kan nämnas att skolöverstyrelsen
@@ -1790,13 +1786,9 @@
             av läraren i fråga. Det finns skäl att anta att ytterligare ett
             stort antal incidenter förekommit därutöver.
           </seg>
-        </u>
-        <u xml:id="i-Kts7qG1hR7gj6FqoLNYKz7" who="i-DWeXh4zHCbqRVgtH4QLZC3" prev="i-4a79d6f75827e848-0" next="i-X7PBriyRniaFyVQaqVsnZE">
           <seg xml:id="i-ULabewiicYLdB3cgHVbgTG">
             Med anledning härav vill jag ställa följande fråga till statsrådet:
           </seg>
-        </u>
-        <u xml:id="i-X7PBriyRniaFyVQaqVsnZE" who="i-DWeXh4zHCbqRVgtH4QLZC3" prev="i-Kts7qG1hR7gj6FqoLNYKz7">
           <seg xml:id="i-5DrqyTtBVgSfZApHMFmBLK">
             Vilka åtgärder är regeringen beredd att vidta för att komma till
             rätta med dessa missförhållanden?
@@ -1809,7 +1801,7 @@
           192 av Anita Johansson (s) till justitieministern om arbetssituationen
           i Huddinge polisdistrikt:
         </note>
-        <u xml:id="i-90ef6a7f0fcc21d4-1" who="i-4zgkigyuo3a2meU92gcyAk" next="i-2aAAdDp7FXTAWjnfEwMFLq">
+        <u xml:id="i-90ef6a7f0fcc21d4-1" who="i-4zgkigyuo3a2meU92gcyAk" next="i-WmyijkXrj4UYBbus754wY4">
           <seg xml:id="i-Fna3cWK6RaBKazTYjYXs8W">
             Polisen är hårt ansträngd i Stockholms län, särskilt i den södra
             delen. Mest allvarlig är arbetssituationen i Huddinge polisdistrikt,
@@ -1820,14 +1812,10 @@
             Detta leder till alltför stort antal nedlagda utredningar, minskad
             rättssäkerhet och lägre anmälningsbenägenhet.
           </seg>
-        </u>
-        <u xml:id="i-2aAAdDp7FXTAWjnfEwMFLq" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-90ef6a7f0fcc21d4-1" next="i-R7uGZ7kUWGeiHugT3GZgaQ">
           <seg xml:id="i-AX8avwpcckCzh5Gqbc8Dk2">
             I anledning av det anförda får jag ställa följande fråga till
             justitieministern:
           </seg>
-        </u>
-        <u xml:id="i-R7uGZ7kUWGeiHugT3GZgaQ" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-2aAAdDp7FXTAWjnfEwMFLq" next="i-WmyijkXrj4UYBbus754wY4">
           <seg xml:id="i-KpMWDCphnzTb8yEeoyVp4C">
             Vilka åtgärder är justitieministern beredd att vidta för att
             förbättra situationen då det gäller brottsbekämpningen i de nämnda
@@ -1843,7 +1831,7 @@
         <note xml:id="i-MeWwtHWxbbKw2iCWgBYES4">
           | skatten på uppfinnarverksamhet:
         </note>
-        <u xml:id="i-WmyijkXrj4UYBbus754wY4" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-R7uGZ7kUWGeiHugT3GZgaQ" next="i-SU3A9JPMXkQJ6sBt6yzcDf">
+        <u xml:id="i-WmyijkXrj4UYBbus754wY4" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-90ef6a7f0fcc21d4-1" next="i-90ef6a7f0fcc21d4-3">
           <seg xml:id="i-5N4ZAexA92sp8TsfDhXAZc">
             Genom en ändring i mervärdeskattelagen den 1 juli 1986 infördes
             | mervärdeskatt på uppfinnarverksamhet och närbesläktad verksamhet.
@@ -1869,8 +1857,6 @@
             | utländska kunder kan räknas som export och således ej skall
             vara mervärdeskattepliktiga.
           </seg>
-        </u>
-        <u xml:id="i-SU3A9JPMXkQJ6sBt6yzcDf" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-WmyijkXrj4UYBbus754wY4" next="i-90ef6a7f0fcc21d4-3">
           <seg xml:id="i-V4DcqA8XGwjcxgZ3b9MyjT">
             Mot bakgrund av det anförda vill jag ställa följande fråga till
             finansminis-
@@ -1879,7 +1865,7 @@
         <note xml:id="i-Nt2htzrqoZ7EJTEZzesmeH">
           tern:
         </note>
-        <u xml:id="i-90ef6a7f0fcc21d4-3" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-SU3A9JPMXkQJ6sBt6yzcDf">
+        <u xml:id="i-90ef6a7f0fcc21d4-3" who="i-4zgkigyuo3a2meU92gcyAk" prev="i-WmyijkXrj4UYBbus754wY4">
           <seg xml:id="i-3R5gbSUoBntUXcqdmP9g8A">
             Avser finansministern att föreslå ändring i mervärdeskattelagen
             så, att de | påtalade problemen för svenska patentbyråer undanröjs?
@@ -1892,7 +1878,7 @@
           194 av Marianne Andersson (c) till utbildningsministern om den
           tekniska utbildningen för flickor:
         </note>
-        <u xml:id="i-ca2016e6ce882c02-0" who="i-4HwVdTBbapZ5KwNJtKs6Ux" next="i-J8agWkYo4AVL677bsLmNkM">
+        <u xml:id="i-ca2016e6ce882c02-0" who="i-4HwVdTBbapZ5KwNJtKs6Ux" next="i-eae8c860f55547e2-1">
           <seg xml:id="i-Pb3kTGWtgc6TvtkpCZggp5">
             | Bristen på tekniker i Sverige är ett problem för hela samhället.
             Överallt ropas det efter tekniskt utbildad personal. Det gäller
@@ -1906,8 +1892,6 @@
             och större förutsättningar att genomföra utbildningen med bra
             resultat.
           </seg>
-        </u>
-        <u xml:id="i-J8agWkYo4AVL677bsLmNkM" who="i-4HwVdTBbapZ5KwNJtKs6Ux" prev="i-ca2016e6ce882c02-0" next="i-eae8c860f55547e2-1">
           <seg xml:id="i-XCV4z3GQRdePeDcrAwA3Ug">
             Jag vill därför fråga om utbildningsministern är beredd att medverka
             till en | försöksverksamhet med enbart flickor i någon klass i
@@ -1918,7 +1902,7 @@
           1986/87:195 av Ingrid Ronne-Björkqvist (fp) till justitieministern
           om föreslagen nedläggning av häktet i Värnamo:
         </note>
-        <u xml:id="i-eae8c860f55547e2-1" who="i-4HwVdTBbapZ5KwNJtKs6Ux" prev="i-J8agWkYo4AVL677bsLmNkM" next="i-ToTZYrn7CzjzxFuKFzG9rz">
+        <u xml:id="i-eae8c860f55547e2-1" who="i-4HwVdTBbapZ5KwNJtKs6Ux" prev="i-ca2016e6ce882c02-0" next="i-ToTZYrn7CzjzxFuKFzG9rz">
           <seg xml:id="i-S6hcuqvYutWKP4ZoVzCvv5">
             | Kriminalvårdsstyrelsen har föreslagit att häktet i Värnamo
             skall läggas ned. Den besparing som skulle ligga till grund för
@@ -1939,14 +1923,12 @@
         <note xml:id="i-Pubd6GA86Bdm2YuAGjsf6Q">
           Meddelande om frågor
         </note>
-        <u xml:id="i-ToTZYrn7CzjzxFuKFzG9rz" who="i-4HwVdTBbapZ5KwNJtKs6Ux" prev="i-eae8c860f55547e2-1" next="i-HH6ggcriTNr4sksQafpLMG">
+        <u xml:id="i-ToTZYrn7CzjzxFuKFzG9rz" who="i-4HwVdTBbapZ5KwNJtKs6Ux" prev="i-eae8c860f55547e2-1" next="i-3vWjfEm3mKvhbwD7nAAfLP">
           <seg xml:id="i-Uc2G6bVB5dsDTGXVR5HwFD">
             utredningsmännens längre restider, reseoch traktamentsersättningar,
             tidsspillan m. m. Med anledning av ovanstående vill jag fråga
             justitieministern:
           </seg>
-        </u>
-        <u xml:id="i-HH6ggcriTNr4sksQafpLMG" who="i-4HwVdTBbapZ5KwNJtKs6Ux" prev="i-ToTZYrn7CzjzxFuKFzG9rz" next="i-3vWjfEm3mKvhbwD7nAAfLP">
           <seg xml:id="i-C6oxZ93fJ18Eo37mTsxdsd">
             Avser regeringen att presentera förslag som innebär att häktet
             i Värnamo kommer att läggas ned?
@@ -1956,20 +1938,16 @@
           1986/87:196 av Hugo Hegeland (m) till finansministern om dens.
           k. engångsskattens omfattning:
         </note>
-        <u xml:id="i-3vWjfEm3mKvhbwD7nAAfLP" who="i-4HwVdTBbapZ5KwNJtKs6Ux" prev="i-HH6ggcriTNr4sksQafpLMG" next="i-L3LuELCY3TFD6mLPUauPKK">
+        <u xml:id="i-3vWjfEm3mKvhbwD7nAAfLP" who="i-4HwVdTBbapZ5KwNJtKs6Ux" prev="i-ToTZYrn7CzjzxFuKFzG9rz">
           <seg xml:id="i-8aRUZDbB6m2y63WSUv4FAE">
             Efter finansministerns besked i riksdagen den 20 november har
             LO låtit ändra sin helsidesannons om den s. k. pensionsskatten.
             Nu står det: ”Genom engångsskatten förbättras statens finanser
             med 45 miljarder till 30 miljarder nästa år.”
           </seg>
-        </u>
-        <u xml:id="i-L3LuELCY3TFD6mLPUauPKK" who="i-4HwVdTBbapZ5KwNJtKs6Ux" prev="i-3vWjfEm3mKvhbwD7nAAfLP" next="i-53Yo95nbasGTQrwePfWS6Q">
           <seg xml:id="i-S7yCRHiSSsNmcQcvp2ZjTV">
             Med anledning av denna nya information vill jag fråga finansministern:
           </seg>
-        </u>
-        <u xml:id="i-53Yo95nbasGTQrwePfWS6Q" who="i-4HwVdTBbapZ5KwNJtKs6Ux" prev="i-L3LuELCY3TFD6mLPUauPKK">
           <seg xml:id="i-UzRShfcJUSHAgB5rpE7mp">
             Har LO erhållit nya upplysningar från finansdepartementet om
             den s.k. engångsskattens omfattning, innebärande att den i själva
@@ -2005,25 +1983,19 @@
           1986/87:198 av Birthe Sörestedt (s) till statsrådet Bengt K.
           Å. Johansson om försäljningen av cigaretter:
         </note>
-        <u xml:id="i-Dsi3dpLWRtmGNaoLahTDvd" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-7c137a8693e54ecc-2" next="i-7c137a8693e54ecc-3">
+        <u xml:id="i-Dsi3dpLWRtmGNaoLahTDvd" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-7c137a8693e54ecc-2">
           <seg xml:id="i-CEkAXeF1mhGJtB7hfpCcx4">
             År 1982 fattade regeringen beslut om att upphäva bestämmelsen
             att ”försäljning av tobaksvaror inom riket endast får ske i originalförpackning
             försedd med särskild kontrollstämpel”, enligt 2 $ förordningen
             (1961:395) med tillämpningsföreskrifter till tobaksskattelagen.
           </seg>
-        </u>
-        <u xml:id="i-7c137a8693e54ecc-3" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-Dsi3dpLWRtmGNaoLahTDvd" next="i-Tn8JN6yMVtpZNxG6mtZE6W">
           <seg xml:id="i-FB6X5GkMSiqswva9aLZnsc">
             Genom detta beslut har uppstått oklarheter om försäljningsförfarandet.
           </seg>
-        </u>
-        <u xml:id="i-Tn8JN6yMVtpZNxG6mtZE6W" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-7c137a8693e54ecc-3" next="i-8ezWw7nXCQkY65WYvb7ocm">
           <seg xml:id="i-WfoAJGCDS12JmByr5s79qF">
             Jag vill fråga:
           </seg>
-        </u>
-        <u xml:id="i-8ezWw7nXCQkY65WYvb7ocm" who="i-TX8UjKrUpUeZgE2dqKJCFc" prev="i-Tn8JN6yMVtpZNxG6mtZE6W">
           <seg xml:id="i-3PJvRPwg65qrNx8LAo2h5C">
             Är det enligt statsrådets uppfattning tillåtet att sälja cigaretter
             styckevis? Om svaret är ja, är statsrådet i så fall beredd att
@@ -2062,12 +2034,10 @@
         <note xml:id="i-NkNaGua99fjfRvYvW4Sh4W" type="title">
           skrifter.
         </note>
-        <u xml:id="i-GxPC28hQnrPQa79gEuMUDJ" who="i-CP1NFcCA4knd73wq3oaYZW" prev="i-FinrZW25Q9nG3jbx1uc9mA" next="i-5r9BUb4ienzZdcuLhHqD1H">
+        <u xml:id="i-GxPC28hQnrPQa79gEuMUDJ" who="i-CP1NFcCA4knd73wq3oaYZW" prev="i-FinrZW25Q9nG3jbx1uc9mA">
           <seg xml:id="i-TiGV57SeqHUGGMDVwkofpd">
             Mot bakgrund av ovanstående vill jag fråga kommunikationsministern:
           </seg>
-        </u>
-        <u xml:id="i-5r9BUb4ienzZdcuLhHqD1H" who="i-CP1NFcCA4knd73wq3oaYZW" prev="i-GxPC28hQnrPQa79gEuMUDJ">
           <seg xml:id="i-2qK2qwC52Z2qn9HLRmtTaD">
             Vilka åtgärder är kommunikationsministern beredd att vidta för
             att möta den oro utgivare av bl. a. organisationstidskrifter redovisar
@@ -2081,7 +2051,7 @@
           200 av Margitta Edgren (fp) till kommunikationsministern om postutdelningen
           i servicehus för pensionärer:
         </note>
-        <u xml:id="i-fd7da32869066b47-0" who="i-H6rrzni8wdNEWHUXz4FTEZ" next="i-SHw45uaeE4vvMqQ6585Crr">
+        <u xml:id="i-fd7da32869066b47-0" who="i-H6rrzni8wdNEWHUXz4FTEZ">
           <seg xml:id="i-HDc8KvUMHWCMFFec2CFjEB">
             Ten tidning stod den 24 november 1986 att läsa att postverket
             vägrar dela ut post i servicehus för pensionärer, där varje boende
@@ -2092,8 +2062,6 @@
             Jag har hittills trott att postens uppgift är att dela ut post
             och inte att värdera de boendes bostadsförhållanden.
           </seg>
-        </u>
-        <u xml:id="i-SHw45uaeE4vvMqQ6585Crr" who="i-H6rrzni8wdNEWHUXz4FTEZ" prev="i-fd7da32869066b47-0">
           <seg xml:id="i-FwFdGm8rgX5jWy7Qgcn5GU">
             Mot bakgrund av ovanstående vill jag fråga kommunikationsministern:
           </seg>
@@ -2109,7 +2077,7 @@
           201 av Oswald Söderqvist (vpk) till utrikesministern om biståndet
           till PLO:
         </note>
-        <u xml:id="i-c17ba936b375eeea-0" who="i-RbKNMUyo9hNCG3nSXBGQAq" next="i-GuPRdCyJCuDKVPZKbwLwBf">
+        <u xml:id="i-c17ba936b375eeea-0" who="i-RbKNMUyo9hNCG3nSXBGQAq">
           <seg xml:id="i-FqQRv372uE6Qd3Uf8Lef9b">
             Situationen i Mellanöstern har blivit alltmer spänd. De palestinska
             flyktinglägren står inför nya hot om militära övergrepp och massmord.
@@ -2125,13 +2093,9 @@
             det palestinska folkets legitima krav på nationella, demokratiska
             och mänskliga rättigheter.
           </seg>
-        </u>
-        <u xml:id="i-GuPRdCyJCuDKVPZKbwLwBf" who="i-RbKNMUyo9hNCG3nSXBGQAq" prev="i-c17ba936b375eeea-0" next="i-LjqYdB7pKtAtijfbcgbpt">
           <seg xml:id="i-HxbNrd9P3eTWHW3btt4tEF">
             Jag vill därför fråga utrikesministern:
           </seg>
-        </u>
-        <u xml:id="i-LjqYdB7pKtAtijfbcgbpt" who="i-RbKNMUyo9hNCG3nSXBGQAq" prev="i-GuPRdCyJCuDKVPZKbwLwBf">
           <seg xml:id="i-E9v81x7FMhE5f9EQvDcNfV">
             Stödjer regeringen PLO och det palestinska folket eller är en
             nyorientering på gång? Kommer regeringen att även i nästa budgetproposition
@@ -2182,22 +2146,18 @@
           203 av Viola Claesson (vpk) till statsrådet Birgitta Dahl om
           åtgärder mot dioxinförorening:
         </note>
-        <u xml:id="i-d89a3b55b44b598f-5" who="i-P8q9oyKjWzPdBEfQeD8Vwa" next="i-EyR2BVZfUruSF3LopYdqKy">
+        <u xml:id="i-d89a3b55b44b598f-5" who="i-P8q9oyKjWzPdBEfQeD8Vwa">
           <seg xml:id="i-K4vRmT3X1NRAbff9bABezp">
             Höga dioxinhalter har uppmätts bl. a. i krabbor i havet utanför
             Värö Bruk i Halland. Även andra områden på västkusten är förorenade
             med dioxin. Misstankar har framförts om att Västerhavet kan vara
             storskaligt förorenat med dioxin.
           </seg>
-        </u>
-        <u xml:id="i-EyR2BVZfUruSF3LopYdqKy" who="i-P8q9oyKjWzPdBEfQeD8Vwa" prev="i-d89a3b55b44b598f-5" next="i-71z5uz9vdStwnQFYLgDHTC">
           <seg xml:id="i-NrypMAYPgwwjAM5YSQiCaT">
             Med anledning av de senaste mätningarna utanför västkusten och
             med tanke på att vissa dioxiner tillhör de farligaste ämnen som
             människan över huvud taget känner till vill jag fråga statsrådet:
           </seg>
-        </u>
-        <u xml:id="i-71z5uz9vdStwnQFYLgDHTC" who="i-P8q9oyKjWzPdBEfQeD8Vwa" prev="i-EyR2BVZfUruSF3LopYdqKy">
           <seg xml:id="i-VD8X5vaBDrBLvhxSnmhggV">
             Vad ämnar regeringen och ansvariga myndigheter vidta för åtgärder
             med anledning av de nya dioxinlarmen?
@@ -2210,14 +2170,12 @@
           204 av Bertil Måbrink (vpk) till kommunikationsministern om centraliseringen
           av lotsverksamheten:
         </note>
-        <u xml:id="i-nUpXApdxkvKSfx739sCgt" who="i-QRDnfz9zaiXo7A1SpAi1dM" next="i-AwKP9cQZShjjAZjMiHtr89">
+        <u xml:id="i-nUpXApdxkvKSfx739sCgt" who="i-QRDnfz9zaiXo7A1SpAi1dM" next="i-b5705d69bb230cad-2">
           <seg xml:id="i-U3HK1MuWy3jcUHkgU2kkib">
             Sjöfartsverket har beslutat att fr.o.m. den 1 januari 1987 förflytta
             personal från Hölicks till Ljusnes lotsplats. Kvar i Hölick blir
             en lotsbåt.
           </seg>
-        </u>
-        <u xml:id="i-AwKP9cQZShjjAZjMiHtr89" who="i-QRDnfz9zaiXo7A1SpAi1dM" prev="i-nUpXApdxkvKSfx739sCgt" next="i-WXYsWfvFonZ1U7cScPdArE">
           <seg xml:id="i-KngbGY1MoJrj6Cccb8rznW">
             Denna försämring och centralisering innebär en försvagning ur
             regional-, sjöfartsoch försvarspolitisk synpunkt.
@@ -2226,13 +2184,9 @@
             Sjöfartsverket har dessutom handlagt denna fråga på ett — mot
             berörda parter — nonchalant sätt.
           </seg>
-        </u>
-        <u xml:id="i-WXYsWfvFonZ1U7cScPdArE" who="i-QRDnfz9zaiXo7A1SpAi1dM" prev="i-AwKP9cQZShjjAZjMiHtr89" next="i-4ub9d8YqMfekfyjNooULCQ">
           <seg xml:id="i-CWH6H5XWQneP6ZcvJTE373">
             Jag vill fråga:
           </seg>
-        </u>
-        <u xml:id="i-4ub9d8YqMfekfyjNooULCQ" who="i-QRDnfz9zaiXo7A1SpAi1dM" prev="i-WXYsWfvFonZ1U7cScPdArE" next="i-b5705d69bb230cad-2">
           <seg xml:id="i-DTeTyGCV4Ezrdi7Yccd8fw">
             Avser regeringen att vidta åtgärder för att motverka de negativa
             följder som ur regionalpolitisk, försvarspolitisk och sjöfartspolitisk
@@ -2243,7 +2197,7 @@
           1986/87:205 av Kersti Gylling (fp) till statsrådet Bengt K. Å.
           Johansson om ökat konsumentskydd vid bilköp m. m.:
         </note>
-        <u xml:id="i-b5705d69bb230cad-2" who="i-QRDnfz9zaiXo7A1SpAi1dM" prev="i-4ub9d8YqMfekfyjNooULCQ" next="i-VB7GQdum8AuKBGhRjRz4uw">
+        <u xml:id="i-b5705d69bb230cad-2" who="i-QRDnfz9zaiXo7A1SpAi1dM" prev="i-nUpXApdxkvKSfx739sCgt" next="i-b5705d69bb230cad-4">
           <seg xml:id="i-FiZVdUKUWqHAaPqD4m4RS">
             År 1979 konstaterade den då sittande regeringen att konsumentens
             ställning, då det gällde köp och reparationer av personbilar,
@@ -2256,13 +2210,9 @@
             förbättra kontrollen av bilverkstädernas serviceoch reparationsarbeten
             på personbilar.
           </seg>
-        </u>
-        <u xml:id="i-VB7GQdum8AuKBGhRjRz4uw" who="i-QRDnfz9zaiXo7A1SpAi1dM" prev="i-b5705d69bb230cad-2" next="i-7J2JThbTUahTTLJQhy9Qvb">
           <seg xml:id="i-ALqciX646hW1P9bBkNRtTu">
             Med anledning av ovanstående vill jag fråga statsrådet:
           </seg>
-        </u>
-        <u xml:id="i-7J2JThbTUahTTLJQhy9Qvb" who="i-QRDnfz9zaiXo7A1SpAi1dM" prev="i-VB7GQdum8AuKBGhRjRz4uw" next="i-b5705d69bb230cad-4">
           <seg xml:id="i-THjMJ5iqhngjgiYrXrfgFW">
             Vilka åtgärder avser regeringen att vidta för att fullfölja arbetet
             att stärka konsumentens ställning vad gäller köp, service och
@@ -2275,14 +2225,12 @@
           asbestisole- — Prot. 1986/87:35 ringen i marina fartyg: 25 november
           1986
         </note>
-        <u xml:id="i-b5705d69bb230cad-4" who="i-QRDnfz9zaiXo7A1SpAi1dM" prev="i-7J2JThbTUahTTLJQhy9Qvb" next="i-Cn61K8Ud7XKgB1TD6yNB9k">
+        <u xml:id="i-b5705d69bb230cad-4" who="i-QRDnfz9zaiXo7A1SpAi1dM" prev="i-b5705d69bb230cad-2">
           <seg xml:id="i-JNg3QyHwd3mBQ7AG9ydEXj">
             För tre år sedan fann man i försvaret att vissa av marinens fartyg
             hade Meddelande om frågor asbestisolering, bl. a. i sovutrymmen
             för värnpliktiga. Min fråga till försvarsministern är:
           </seg>
-        </u>
-        <u xml:id="i-Cn61K8Ud7XKgB1TD6yNB9k" who="i-QRDnfz9zaiXo7A1SpAi1dM" prev="i-b5705d69bb230cad-4">
           <seg xml:id="i-CyDgSMHnzxitL9wJndqWau">
             Vilken kartläggning har skett av de fartyg som haft asbestisolering,
             och vilka åtgärder har vidtagits för att sanera dessa?

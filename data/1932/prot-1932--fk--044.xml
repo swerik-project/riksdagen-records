@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-YcTMZk6aveyPKvLFCtMhSY" type="speech">
             <linkGrp type="u">
               <ptr target="#i-a41426cff1172d1c-0"/>
@@ -499,7 +499,13 @@
               <ptr target="#i-C3QrQ6ReshNP1yGer2F1qM"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -945,7 +951,7 @@
         <note xml:id="i-8YnRbrgxhwshut8EK3XNv4" type="date">
           6 Lördagen den 4 juni f. m.
         </note>
-        <u xml:id="i-a41426cff1172d1c-3" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-a41426cff1172d1c-2" next="i-3nRrheF2TXgfRUw4fgc4LZ">
+        <u xml:id="i-a41426cff1172d1c-3" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-a41426cff1172d1c-2">
           <seg xml:id="i-XzRGFuHqu3QbYDXnExmhzY">
             nerell avstängning av vissa grupper, hur frikostig man än sedan
             är med dispenserna.
@@ -969,15 +975,11 @@
             skall känna sig delaktig i det svenska samhället på samma sätt
             som andra medborgare.
           </seg>
-        </u>
-        <u xml:id="i-3nRrheF2TXgfRUw4fgc4LZ" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-a41426cff1172d1c-3" next="i-a41426cff1172d1c-4">
           <seg xml:id="i-G5RcN4T2gJytBD8x55bdd4">
             På grund av vad jag sålunda anfört, herr talman, ber jag att
             få yrka bifall till den av mig m. fl. vid utskottsutlåtandet fogade
             reservationen.
           </seg>
-        </u>
-        <u xml:id="i-a41426cff1172d1c-4" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-3nRrheF2TXgfRUw4fgc4LZ">
           <seg xml:id="i-U6HZD7s6DHwsGGdsQbEu8A">
             Jag vill fästa uppmärksamheten på att det inte råder någon meningsskiljaktighet
             beträffande anslagsbeloppet, 25 miljoner kronor. I detta avseende
@@ -1355,7 +1357,7 @@
         <note xml:id="i-Avg8gJftbNXMD5bJxbRKRc" type="speaker">
           Herr statsrådet Larsson:
         </note>
-        <u xml:id="i-33683a5cd284d5ef-0" who="i-2kXWA54DYtEaQ9G6hutqL8" next="i-YDBjihhjLVr1ZNdf5bAEkz">
+        <u xml:id="i-33683a5cd284d5ef-0" who="i-2kXWA54DYtEaQ9G6hutqL8" next="i-33683a5cd284d5ef-2">
           <seg xml:id="i-BzL21PXKdVUutGii7ztp4J">
             Herr talman! Jag skall be att få lämna kammaren några uppgifter
             rörande det nuvarande läget i vad det gäller arbetslösheten, alltså
@@ -1377,14 +1379,10 @@
             rapporter ända sedan i april 1922, sålunda under hela den senaste
             tioårsperioden.
           </seg>
-        </u>
-        <u xml:id="i-YDBjihhjLVr1ZNdf5bAEkz" who="i-2kXWA54DYtEaQ9G6hutqL8" prev="i-33683a5cd284d5ef-0" next="i-33683a5cd284d5ef-1">
           <seg xml:id="i-Gf8HYuUbMXu8NmiKNFNqAS">
             Av de nu senast redovisade arbetslösa voro 55,995 försörjningspliktiga
             och ungefär samma antal, 55,338, icke försörjningspliktiga.
           </seg>
-        </u>
-        <u xml:id="i-33683a5cd284d5ef-1" who="i-2kXWA54DYtEaQ9G6hutqL8" prev="i-YDBjihhjLVr1ZNdf5bAEkz" next="i-33683a5cd284d5ef-2">
           <seg xml:id="i-3dJMmn7Pja3EevkKnE6GWq">
             Med hänsyn till den geografiska utbredningen må det vara tillräckligt
             att allenast erinra därom, att ett mycket betydande antal av de
@@ -1419,7 +1417,7 @@
         <note xml:id="i-GvcEmJXxQ2wQNDJfmBuPa6" type="date">
           Lördagen den 4 juni f. m. 11
         </note>
-        <u xml:id="i-33683a5cd284d5ef-2" who="i-2kXWA54DYtEaQ9G6hutqL8" prev="i-33683a5cd284d5ef-1" next="i-3RcSUJdN6ZDv5vaANsvZYA">
+        <u xml:id="i-33683a5cd284d5ef-2" who="i-2kXWA54DYtEaQ9G6hutqL8" prev="i-33683a5cd284d5ef-0" next="i-33683a5cd284d5ef-7">
           <seg xml:id="i-Q4LRmz65g3QzQ4x93mhsf">
             de anställdas numerär kraftigt ökats, har tilldelningen av platser
             till kommunerna måst beskäras på grund av för knapp tillgång på
@@ -1428,16 +1426,12 @@
             reservarbeten, dels också till kontant understödsverksamhet, varom
             jag skall säga några ord längre fram.
           </seg>
-        </u>
-        <u xml:id="i-3RcSUJdN6ZDv5vaANsvZYA" who="i-2kXWA54DYtEaQ9G6hutqL8" prev="i-33683a5cd284d5ef-2" next="i-33683a5cd284d5ef-3">
           <seg xml:id="i-XQMVDN51M6LkPuEUZL81oK">
             Den 30 april i år bedrevos statskommunala reservarbeten inom
             113 kommuner, medan motsvarande siffra vid samma tidpunkt förra
             året var allenast 30. Hela antalet i dylika arbeten anställda
             den 30 april i år uppgick till 4,863 mot endast 1,361 ett år tidigare.
           </seg>
-        </u>
-        <u xml:id="i-33683a5cd284d5ef-3" who="i-2kXWA54DYtEaQ9G6hutqL8" prev="i-3RcSUJdN6ZDv5vaANsvZYA" next="i-8wJTrCDnfakgxc1xHD4fxV">
           <seg xml:id="i-CEkqzNeB8ne9xcGBTqF7LU">
             Även denna hjälpform har sålunda fått en betydligt större användning
             under det senaste året än vad fallet varit förut. Tidigare bedrevos
@@ -1464,16 +1458,12 @@
             90 procent, 9 kommuner till 80 procent, 19 till 75 procent, 4
             till 70 procent, 3 till 65 procent och 6 till 60 procent.
           </seg>
-        </u>
-        <u xml:id="i-8wJTrCDnfakgxc1xHD4fxV" who="i-2kXWA54DYtEaQ9G6hutqL8" prev="i-33683a5cd284d5ef-3" next="i-33683a5cd284d5ef-4">
           <seg xml:id="i-5Jd73MaBNDV5pwbSZfEaj6">
             Hela antalet av staten hjälpta arbetslösa uppgick den 30 april
             1932 till 45,194, eller 40.6 procent av hela antalet hjälpsökande.
             Motsvarande siffra i april förra året var 12,221, eller 31 procent
             av det dåvarande antalet anmälda arbetslösa.
           </seg>
-        </u>
-        <u xml:id="i-33683a5cd284d5ef-4" who="i-2kXWA54DYtEaQ9G6hutqL8" prev="i-8wJTrCDnfakgxc1xHD4fxV" next="i-6qkF3jv1pWWTmsbmcRydSc">
           <seg xml:id="i-XWDmwhXpwSTSLWUSwQGhG9">
             Antalet i kommunala reservarbeten anställda uppgick den 30 april
             i år till 10,384 mot endast 5,060 samma tid förra året. Att kommunerna
@@ -1485,15 +1475,11 @@
             understödsverksamheten omfattade den 30 april i år 5,163 personer.
             Motsvarande siffra i fjol var 2,924 personer.
           </seg>
-        </u>
-        <u xml:id="i-6qkF3jv1pWWTmsbmcRydSc" who="i-2kXWA54DYtEaQ9G6hutqL8" prev="i-33683a5cd284d5ef-4" next="i-RGvbjfsh3xy2U3Cb5KoZTh">
           <seg xml:id="i-YRiEnHK2W1QV3LjpoqPVDs">
             Totalantalet enbart kommunalt hjälpta arbetslösa utgjorde den
             30 april i år 15,547, eller 14 procent av hela antalet, mot 7,984
             eller 20.3 procent i fjol.
           </seg>
-        </u>
-        <u xml:id="i-RGvbjfsh3xy2U3Cb5KoZTh" who="i-2kXWA54DYtEaQ9G6hutqL8" prev="i-6qkF3jv1pWWTmsbmcRydSc" next="i-33683a5cd284d5ef-7">
           <seg xml:id="i-7n5642mM1cHJEf5A3QoCuT">
             Sammanställas nu de siffror, som ange den totala omfattningen
             av det svenska samhällets arbetslöshetslindrande åtgärder, visar
@@ -1530,7 +1516,7 @@
         <note xml:id="i-Uu7uCPZeYwDCZe4T94WJnc" type="date">
           12 Lördagen den 4 juni f. m.
         </note>
-        <u xml:id="i-33683a5cd284d5ef-7" who="i-2kXWA54DYtEaQ9G6hutqL8" prev="i-RGvbjfsh3xy2U3Cb5KoZTh" next="i-33683a5cd284d5ef-8">
+        <u xml:id="i-33683a5cd284d5ef-7" who="i-2kXWA54DYtEaQ9G6hutqL8" prev="i-33683a5cd284d5ef-2" next="i-33683a5cd284d5ef-8">
           <seg xml:id="i-PZbqmRKB7jtegp3g9X5wxf">
             dande antal kurser varit anordnade, och kursdeltagarna ha också
             praktiskt taget samtliga varit berättigade att uppbära understöd.
@@ -1956,7 +1942,7 @@
         <note xml:id="i-Ljv4k446B2m5vEBKG6C3mv">
           Nr 414.
         </note>
-        <u xml:id="i-c6e5af855d98d8e9-3" who="i-7yzcmgHgwvdw4zkJiWVkhj" prev="i-c6e5af855d98d8e9-2" next="i-nwXp5aMCBw6q7GdHmNAJc">
+        <u xml:id="i-c6e5af855d98d8e9-3" who="i-7yzcmgHgwvdw4zkJiWVkhj" prev="i-c6e5af855d98d8e9-2">
           <seg xml:id="i-Y3Fkn3hdHuZoxk7NDkvFNx">
             eller en princip, att all praktisk erfarenhet liksom ingenting
             betyder och att Anslag till be-
@@ -1984,8 +1970,6 @@
             Då kanske åtminstone något litet i fråga om förbättring skulle
             vara möjligt att ernå.
           </seg>
-        </u>
-        <u xml:id="i-nwXp5aMCBw6q7GdHmNAJc" who="i-7yzcmgHgwvdw4zkJiWVkhj" prev="i-c6e5af855d98d8e9-3">
           <seg xml:id="i-KwchPA8tSNRbg4wRGZEJuy">
             Herr talman! Jag ber att få yrka bifall till den av herr Oscar
             Olsson m. fl. vid betänkandet fogade reservationen.
@@ -2767,7 +2751,7 @@
         <note xml:id="i-GgbDSvSuBAHUsP2fXcCVin" type="date">
           26 Lördagen den 4 juni f. m.
         </note>
-        <u xml:id="i-93ba6801d847575f-1" who="i-FneeHdWC4kJvq3GyuxpvWq" prev="i-93ba6801d847575f-0" next="i-AfurBZ498MGnK9pPXUKLA7">
+        <u xml:id="i-93ba6801d847575f-1" who="i-FneeHdWC4kJvq3GyuxpvWq" prev="i-93ba6801d847575f-0">
           <seg xml:id="i-8x1nJu1xmcxiyHqPbePrn6">
             hjälp till de arbetslösa, i varje fall en åtgärd, som minskar
             arbetslösheten. Jag kan därför inte förstå, varför man riktar
@@ -2833,8 +2817,6 @@
             i arbetslöshetskommissionen. Detta har emellertid utskottet avböjt,
             men i en reservation till utlåtandet ha dessa synpunkter upptagits.
           </seg>
-        </u>
-        <u xml:id="i-AfurBZ498MGnK9pPXUKLA7" who="i-FneeHdWC4kJvq3GyuxpvWq" prev="i-93ba6801d847575f-1">
           <seg xml:id="i-42N1SRWqh2SFvBiMSPSp3n">
             Jag ber, herr talman, att få yrka bifall till den reservation,
             som är avgiven av herr Bergqvist m. fl.
@@ -4278,7 +4260,7 @@
         <note xml:id="i-Do4NNt6tegHqASmfmNgmjv" type="speaker">
           Herr Olsson Oscar:
         </note>
-        <u xml:id="i-a41426cff1172d1c-8" who="i-QBPRL2CNKrTtn2M3Ea51HX" next="i-A17sLUkZHKS5KtaPzeJ8eh">
+        <u xml:id="i-a41426cff1172d1c-8" who="i-QBPRL2CNKrTtn2M3Ea51HX">
           <seg xml:id="i-Go1hDpxpHKvh24NcdvGuw3">
             Herr talman! Jag ber att få meddela, att de reservanter som anslutit
             sig till den socialdemokratiska reservationen inte ha något emot
@@ -4286,8 +4268,6 @@
             det tvärtom vara synnerligen fördelaktigt, att saken därigenom
             kommer klarare och riktigare till uttryck än i reservationen.
           </seg>
-        </u>
-        <u xml:id="i-A17sLUkZHKS5KtaPzeJ8eh" who="i-QBPRL2CNKrTtn2M3Ea51HX" prev="i-a41426cff1172d1c-8">
           <seg xml:id="i-EQhjkTSxgwiav8b9gJhhpt">
             Jag ber alltså, att med frånträdande av mitt tidigare framställda
             yrkande i stället få yrka bifall till den av mig m. fl. avgivna
@@ -5026,7 +5006,7 @@
         <note xml:id="i-VNaTKWDp9f2vSjiFtgcTkE" type="date">
           Lördagen den 4 juni e. m. 51
         </note>
-        <u xml:id="i-68f26f83e4f2dc9a-3" who="i-Bb3a5Tp3o3xtsMykxsBq3X" prev="i-68f26f83e4f2dc9a-2" next="i-7zRJEAsXL71V2pMz7WREQe">
+        <u xml:id="i-68f26f83e4f2dc9a-3" who="i-Bb3a5Tp3o3xtsMykxsBq3X" prev="i-68f26f83e4f2dc9a-2">
           <seg xml:id="i-JusDqHvoZwByCoYYoTeDiQ">
             »Enligt utskottets mening måste alltjämt tvekan hysas om lämpligheten
             av att vid sidan av de i arbetslöshetskommissionens regi bedrivna
@@ -5071,8 +5051,6 @@
             bevilja anslag i år. Det är en mycket svag motivering, jämförd
             med den stora tvekan, som också uttalas i utskottets motivering.
           </seg>
-        </u>
-        <u xml:id="i-7zRJEAsXL71V2pMz7WREQe" who="i-Bb3a5Tp3o3xtsMykxsBq3X" prev="i-68f26f83e4f2dc9a-3">
           <seg xml:id="i-WDKqemCEDNGhQG9uLrG6R5">
             Jag ber med dessa ord, herr talman, få yrka avslag på utskottets
             hemställan och bifall till den av herr Bergqvist m. fl. vid utlåtandet
@@ -5294,7 +5272,7 @@
         <note xml:id="i-PCKhNke6BgzaaHAVeViDia" type="date">
           54 Lördagen den 4 juni e. m.
         </note>
-        <u xml:id="i-79058b69bbee2f22-4" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-79058b69bbee2f22-2" next="i-2pqCjgkvE9sqETM3bFPmR9">
+        <u xml:id="i-79058b69bbee2f22-4" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-79058b69bbee2f22-2">
           <seg xml:id="i-2Jm2UrYdHBRMHAB1nWxFkZ">
             met att avskaffa arbetslöshetskommissionen och ha avtalsenliga
             löner över hela linjen. Det var ju även den röda tråden i herr
@@ -5313,8 +5291,6 @@
             detta, som här egentligen sättes i fråga i detta avseende, utan
             någonting helt annat, betydligt längre gående.
           </seg>
-        </u>
-        <u xml:id="i-2pqCjgkvE9sqETM3bFPmR9" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-79058b69bbee2f22-4">
           <seg xml:id="i-4mb9XgXRNAjibcSvwCkiaq">
             Herr talman! Jag yrkar bifall till Kungl. Maj:ts förslag.
           </seg>
@@ -5382,7 +5358,7 @@
         <note xml:id="i-Tvuzv5tZNKKb5CnncpDSgo" type="date">
           Lördagen den 4 juni e. m. 55
         </note>
-        <u xml:id="i-660587bc5b4b316e-1" who="i-TBny2AJAhwymSdpQJk8Tvz" prev="i-660587bc5b4b316e-0" next="i-Ninu1ocp3MhwbzoUHKmQ4T">
+        <u xml:id="i-660587bc5b4b316e-1" who="i-TBny2AJAhwymSdpQJk8Tvz" prev="i-660587bc5b4b316e-0">
           <seg xml:id="i-82rQ4fw3rfw9EoVCpR8SGn">
             titeln under utgifter för kapitalökning beviljat stora extra
             anslag. Jag pekar särskilt på den fortsatta elektrifieringen av
@@ -5428,8 +5404,6 @@
             riksdagen att på annat sätt finansiera denna järnvägsbyggnad i
             fortsättningen.
           </seg>
-        </u>
-        <u xml:id="i-Ninu1ocp3MhwbzoUHKmQ4T" who="i-TBny2AJAhwymSdpQJk8Tvz" prev="i-660587bc5b4b316e-1">
           <seg xml:id="i-YFafjCtKSVYkgvWndGVLpv">
             I övrigt skulle jag vilja påpeka, att den kritik, som herr Kvarnzelius
             här riktat både mot den kungl. propositionen och ännu mera mot
@@ -5602,7 +5576,7 @@
         <note xml:id="i-P7E6Y3RQv3DCS3Z4vQfHRU" type="speaker">
           Herr Johansson, Johan Bernhard:
         </note>
-        <u xml:id="i-68f26f83e4f2dc9a-4" who="i-Bb3a5Tp3o3xtsMykxsBq3X" next="i-PvKbBMfTPxwRHnceqUJTkD">
+        <u xml:id="i-68f26f83e4f2dc9a-4" who="i-Bb3a5Tp3o3xtsMykxsBq3X" next="i-68f26f83e4f2dc9a-7">
           <seg xml:id="i-TZTrjMHfn2i8b4iu8gLBcS">
             Herr talman! Jag skall icke förlänga debatten med många ord,
             då jag har märkt, att det är en allmän önskan att komma från detta
@@ -5627,8 +5601,6 @@
             icke vara samma avlöning som under normala tider, utan arbetet
             måste få en annan karaktär även 1 fråga om löneställningen.
           </seg>
-        </u>
-        <u xml:id="i-PvKbBMfTPxwRHnceqUJTkD" who="i-Bb3a5Tp3o3xtsMykxsBq3X" prev="i-68f26f83e4f2dc9a-4" next="i-68f26f83e4f2dc9a-7">
           <seg xml:id="i-QkNpoKeGCC1Z54714vZFmW">
             Herr ståtsrådet framhöll, att ifrågavarande belopp, 3 miljoner
             kronor, ju
@@ -5650,7 +5622,7 @@
         <note xml:id="i-LViGqZX4FtSoYUQ88UgTwi" type="date">
           58 Lördagen den 4 juni e. m,
         </note>
-        <u xml:id="i-68f26f83e4f2dc9a-7" who="i-Bb3a5Tp3o3xtsMykxsBq3X" prev="i-PvKbBMfTPxwRHnceqUJTkD">
+        <u xml:id="i-68f26f83e4f2dc9a-7" who="i-Bb3a5Tp3o3xtsMykxsBq3X" prev="i-68f26f83e4f2dc9a-4">
           <seg xml:id="i-5wMAGNLjG8E2wfL82WAz6R">
             var så ringa, att det inte skulle kunna nämnvärt påverka lönemarknaden.
             Det är dock en ganska respektabel summa, och när statsmakterna
@@ -6089,7 +6061,7 @@
         <note xml:id="i-7gvoRvsYawi1AeP2mkthEY" type="date">
           Lördagen den 4 juni e. m. 63
         </note>
-        <u xml:id="i-c18a559702bfd886-3" who="i-CU4eSFiFKKx8yk9jS92iFV" prev="i-c18a559702bfd886-2" next="i-X6YyFvsbgpdbkfBHbUyYsn">
+        <u xml:id="i-c18a559702bfd886-3" who="i-CU4eSFiFKKx8yk9jS92iFV" prev="i-c18a559702bfd886-2">
           <seg xml:id="i-73v3NCoqezn7GzT4VmdQL3">
             sionen. Det förefaller så mycket mer förståndigt som statsutskottets
             högt ärade ordförande här ju vittnat om, att det icke varit så
@@ -6099,8 +6071,6 @@
             är ägnat att bringa en viss oordning och oreda i administrationen
             av arbetslöshetshjälpen.
           </seg>
-        </u>
-        <u xml:id="i-X6YyFvsbgpdbkfBHbUyYsn" who="i-CU4eSFiFKKx8yk9jS92iFV" prev="i-c18a559702bfd886-3">
           <seg xml:id="i-9u1hAoG6w4H7ZLsD3DVr9X">
             På dessa grunder ber jag, herr talman, att få yrka bifall till
             den av herr Bergqvist m. fl. avgivna reservationen.
@@ -6195,7 +6165,7 @@
         <note xml:id="i-MZtpJPKA8ojMYMB4XiiNwk" type="speaker">
           Herr Trygger:
         </note>
-        <u xml:id="i-05ad3c6737d10e1b-1" who="i-YBeHR1zEBPMM35nMEreTz" next="i-SonchPtqzpDogEG1LN27uE">
+        <u xml:id="i-05ad3c6737d10e1b-1" who="i-YBeHR1zEBPMM35nMEreTz">
           <seg xml:id="i-SxcvodqgKCgoTtFSHU9BdE">
             I fråga om utskottets förslag skall jag be att få instämma i
             vad herr Bagge här anfört. Min kollega här på Stockholmsbänken,
@@ -6241,8 +6211,6 @@
             från den synpunkten sett, som vi inte kunna vara med om vad man
             ifrån socialdemokratiskt håll har föreslagit.
           </seg>
-        </u>
-        <u xml:id="i-SonchPtqzpDogEG1LN27uE" who="i-YBeHR1zEBPMM35nMEreTz" prev="i-05ad3c6737d10e1b-1">
           <seg xml:id="i-A38rKzbWHTBX2Lmc2Py73M">
             Jag ber att få yrka bifall till den av herr Bergqvist m. fl.
             avgivna reservationen.
@@ -6371,7 +6339,7 @@
         <note xml:id="i-QYGCfg8d1nPCciTpgvEjjU" type="date">
           66 Lördagen den 4 juni e. m.
         </note>
-        <u xml:id="i-79058b69bbee2f22-8" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-79058b69bbee2f22-6" next="i-XNAKVZdVtpfVNcATvGJiQf">
+        <u xml:id="i-79058b69bbee2f22-8" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-79058b69bbee2f22-6" next="i-G1AFKFFvxypmjUNVcnXw8S">
           <seg xml:id="i-9doycMRT2hRiBH7XnfCtc4">
             än finansministern föreställt sig. Jag tror därför inte, att
             ett positivt beslut behöver stranda på finansieringssvårigheterna.
@@ -6406,8 +6374,6 @@
             man känna bättre till vad det är, som förorsakat dessa jämförelsevis
             stora kostnader, än vad vi här i riksdagen göra åtminstone.
           </seg>
-        </u>
-        <u xml:id="i-XNAKVZdVtpfVNcATvGJiQf" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-79058b69bbee2f22-8" next="i-G1AFKFFvxypmjUNVcnXw8S">
           <seg xml:id="i-XgDvwDE5F8myzLmLhP8p2U">
             Jag ber, herr talman, att få vidhålla mitt yrkande om bifall
             till herr Oscar
@@ -6515,7 +6481,7 @@
           följande organisation av statens folkoch småskoleseminarier att
           träda i successiv tillämpning med början av läsåret 1933/1934:
         </note>
-        <u xml:id="i-G1AFKFFvxypmjUNVcnXw8S" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-XNAKVZdVtpfVNcATvGJiQf" next="i-79058b69bbee2f22-11">
+        <u xml:id="i-G1AFKFFvxypmjUNVcnXw8S" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-79058b69bbee2f22-8" next="i-79058b69bbee2f22-11">
           <seg xml:id="i-TpLmjjjgxiYD9gnTzsdUVB">
             Folkskoleseminarierna skola vara till antalet 11, därav 6 dubbelseminarier
             och 5 enkelseminarier. Varje dubbelseminarium skall innefatta
@@ -6548,13 +6514,11 @@
         <note xml:id="i-LpyuWJbL33MScG8GTV15qj" type="date">
           68 Lördagen den 4 juni e. m.
         </note>
-        <u xml:id="i-79058b69bbee2f22-11" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-G1AFKFFvxypmjUNVcnXw8S" next="i-NcygUYNFhq2Vjq4KkF81Xj">
+        <u xml:id="i-79058b69bbee2f22-11" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-G1AFKFFvxypmjUNVcnXw8S">
           <seg xml:id="i-M2dwBt61BUYpR3BDMu8zdR">
             det undantag, som nyss angivits. Seminarierna i Stockholm, Växjö,
             Falun och Umeå skola vara avsedda för kvinnliga elever.
           </seg>
-        </u>
-        <u xml:id="i-NcygUYNFhq2Vjq4KkF81Xj" who="i-3FXDiNFhMaD2xtLwqRVLbs" prev="i-79058b69bbee2f22-11">
           <seg xml:id="i-8VjfN2i3Sq3RUYZxmRw8Pv">
             Småskoleseminarierna skola vara till antalet 7, därav 4 dubbelseminarier
             och 3 enkelseminarier. Dubbelseminarierna skola förläggas till
@@ -6810,21 +6774,17 @@
         <note xml:id="i-PvHFzzKFi1UywUdmn2PRoG" type="date">
           Lördagen den 4 juni e. m. 71
         </note>
-        <u xml:id="i-93ba6801d847575f-6" who="i-RBuj9TuVUvxEBh62vFNpmy" prev="i-93ba6801d847575f-5" next="i-F8WpFNYvkJhiUFM59bFmz7">
+        <u xml:id="i-93ba6801d847575f-6" who="i-RBuj9TuVUvxEBh62vFNpmy" prev="i-93ba6801d847575f-5" next="i-93ba6801d847575f-10">
           <seg xml:id="i-XiuWeadYiPBpcCMo4HmoPp">
             lägga denna examen, framstå såsom ett hinder. Säkerligen skulle
             också avsaknaden av realexamensvitsord för vederbörande försvåra
             tillträdet till se-
           </seg>
-        </u>
-        <u xml:id="i-F8WpFNYvkJhiUFM59bFmz7" who="i-RBuj9TuVUvxEBh62vFNpmy" prev="i-93ba6801d847575f-6" next="i-93ba6801d847575f-7">
           <seg xml:id="i-S2hKgXXVx4W9ht2uEYUJPq">
             minariet. Därest å andra sidan — såsom med en viss grad av sannolikhet
             kan antagas — en bestämmelse av det innehåll, Kungl. Maj:t föreslagit,
             komme att
           </seg>
-        </u>
-        <u xml:id="i-93ba6801d847575f-7" who="i-RBuj9TuVUvxEBh62vFNpmy" prev="i-F8WpFNYvkJhiUFM59bFmz7" next="i-MrWZdE1pdxQaqdiBexmQNe">
           <seg xml:id="i-9Hx91rbBh9qmYwVGKfYxRn">
             föranleda en ökad tillströmning till de teoretiska skolorna,
             måste en sådan verkan enligt utskottets mening betecknas såsom
@@ -6840,16 +6800,12 @@
             kunnat stödja sig på nämnda meriter, dock alltjämt utgör det övervägande
             flertalet.
           </seg>
-        </u>
-        <u xml:id="i-MrWZdE1pdxQaqdiBexmQNe" who="i-RBuj9TuVUvxEBh62vFNpmy" prev="i-93ba6801d847575f-7" next="i-93ba6801d847575f-8">
           <seg xml:id="i-9PUa5xVWmntdpaaikLocRY">
             Av nu anförda skäl måste utskottet ställa sig avvisande mot Kungl.
             Maj:ts ifrågavarande förslag och de motioner, I: 340 och II: 494
             samt I: 328, I: 333 gon fu 483, som åsyfta dels bifall till, dels
             ock en komplettering av nämnda örslag.
           </seg>
-        </u>
-        <u xml:id="i-93ba6801d847575f-8" who="i-RBuj9TuVUvxEBh62vFNpmy" prev="i-MrWZdE1pdxQaqdiBexmQNe" next="i-93ba6801d847575f-10">
           <seg xml:id="i-6QWSPAP3nR5kVrL5XeWD3k">
             Vad beträffar de motionsvis framkomna yrkandena på förnyad utredning
             i fråga om inträdesfordringarna, torde av det förut anförda vara
@@ -6932,7 +6888,7 @@
           I den av herr Kvarnzelius m. fl. reservationsvis föreslagna motiveringen
           hade bland annat anförts:
         </note>
-        <u xml:id="i-93ba6801d847575f-10" who="i-RBuj9TuVUvxEBh62vFNpmy" prev="i-93ba6801d847575f-8" next="i-S4paTgq9x8TmydfspU3ppE">
+        <u xml:id="i-93ba6801d847575f-10" who="i-RBuj9TuVUvxEBh62vFNpmy" prev="i-93ba6801d847575f-6" next="i-93ba6801d847575f-12">
           <seg xml:id="i-V8zfw9em6A4BbHA9vL4XfK">
             »Enligt utskottets mening föreligger ingen anledning att avskaffa
             fordran på särskild inträdesprövning, något som väl näppeligen
@@ -6961,14 +6917,10 @@
             lämpligen böra helt allmänt angivas såsom avseende ändring av
             inträdesfordringarna vid det fyraåriga folkskoleseminariet.»
           </seg>
-        </u>
-        <u xml:id="i-S4paTgq9x8TmydfspU3ppE" who="i-RBuj9TuVUvxEBh62vFNpmy" prev="i-93ba6801d847575f-10" next="i-93ba6801d847575f-11">
           <seg xml:id="i-LmzTE8nyDXMhNFMY2WDWrX">
             Den i herr Björcks reservation föreslagna motiveringen innehöll
             bland annat följande uttalanden:
           </seg>
-        </u>
-        <u xml:id="i-93ba6801d847575f-11" who="i-RBuj9TuVUvxEBh62vFNpmy" prev="i-S4paTgq9x8TmydfspU3ppE" next="i-93ba6801d847575f-12">
           <seg xml:id="i-N9HdFYWpiZqwwPPoxonYWh">
             »Enligt utskottets mening föreligger ingen anledning att avskaffa
             fordran på särskild inträdesprövning, något som väl näppeligen
@@ -6995,7 +6947,7 @@
         <note xml:id="i-rMUfgpTG4aTbDoz59RfUd" type="date">
           Lördagen den 4 juni e. m. 13
         </note>
-        <u xml:id="i-93ba6801d847575f-12" who="i-RBuj9TuVUvxEBh62vFNpmy" prev="i-93ba6801d847575f-11">
+        <u xml:id="i-93ba6801d847575f-12" who="i-RBuj9TuVUvxEBh62vFNpmy" prev="i-93ba6801d847575f-10">
           <seg xml:id="i-Rv36dKmsy9ajP3W9z5zhRM">
             Såsom ett vägande skäl för den föreslagna höjningen av inträdesfordringarna
             har åberopats det förhållandet, att den del av de inträdessökande,
@@ -7091,7 +7043,7 @@
         <note xml:id="i-VwJude8V1AGYrQPtj56yS1" type="date">
           14 Lördagen den 4 juni e. m.
         </note>
-        <u xml:id="i-9c0edb19f2c3070f-1" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-9c0edb19f2c3070f-0" next="i-6KgEUpCcxF1PsVWBdWc1jS">
+        <u xml:id="i-9c0edb19f2c3070f-1" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-9c0edb19f2c3070f-0">
           <seg xml:id="i-7C8Z5nC2wV69UEYfzsszcW">
             slagit, att realskolexamen skulle vara kunskapsnorm för inträde
             i folkskoleseminarium, och det har visserligen funnits sympatier
@@ -7153,8 +7105,6 @@
             Detta synes oss reservanter böra vara en tillräcklig anledning,
             att man låter denna sak förutsättningslöst utredas.
           </seg>
-        </u>
-        <u xml:id="i-6KgEUpCcxF1PsVWBdWc1jS" who="i-Pra5AmyY3ass9UYtDcqwJR" prev="i-9c0edb19f2c3070f-1">
           <seg xml:id="i-BZ5PZZ4hwvuj8cN6ovU4MJ">
             Jag ber därför, herr talman, att få på denna punkt yrka bifall
             till utskottets förslag med den ändring, som innebäres i herr
@@ -7607,7 +7557,7 @@
         <note xml:id="i-2QZ4runnQnanUBboBAqZQf" type="date">
           80 Lördagen den 4 juni e. m.
         </note>
-        <u xml:id="i-abbc375651ab37fa-5" who="i-2y76R6jyD6SNKpRXZGGxYL" prev="i-abbc375651ab37fa-3" next="i-6ocYqESRi9nB7WWVepi3Kn">
+        <u xml:id="i-abbc375651ab37fa-5" who="i-2y76R6jyD6SNKpRXZGGxYL" prev="i-abbc375651ab37fa-3">
           <seg xml:id="i-NuoriA7AwMonwGVJ8eHsFK">
             Jag tror alltså, herr talman, att det inte behöver vara någon
             större svårighet för kammarens ledamöter att träffa sitt val mellan
@@ -7621,8 +7571,6 @@
             kommer att medfa det bästa resultatet? Valet mellan dessa två
             alternativ borde vara ganska ätt.
           </seg>
-        </u>
-        <u xml:id="i-6ocYqESRi9nB7WWVepi3Kn" who="i-2y76R6jyD6SNKpRXZGGxYL" prev="i-abbc375651ab37fa-5">
           <seg xml:id="i-BirCypY5vcGUNkvjX3ZgEx">
             Jag ber, herr talman, att få yrka bifall till den av herr Kvarnzelius
             m. fl. avgivna reservationen.
@@ -8680,7 +8628,7 @@
         <note xml:id="i-XSPvbmJoLHUih6HqSLTXfH" type="date">
           92 Lördagen den 4 juni e. m.
         </note>
-        <u xml:id="i-b0c01d52e46cc5ce-4" who="i-7h8oALVXjuheXj6Zv4VA5g" prev="i-b0c01d52e46cc5ce-1" next="i-PhZVGu4hitaYWrqtWqvR9p">
+        <u xml:id="i-b0c01d52e46cc5ce-4" who="i-7h8oALVXjuheXj6Zv4VA5g" prev="i-b0c01d52e46cc5ce-1">
           <seg xml:id="i-YP5oECkBBeZ11fcwyq37pZ">
             andra kammaren av en lantman som tillhörde de s. k. seminariesakkunniga
             och som därför borde vara speciellt sakkunnig på detta område.
@@ -8688,8 +8636,6 @@
             relativt enkla uppgift» som folkskollärarna ha och som enligt
             hans mening icke kräver någon särskild hög utbildning.
           </seg>
-        </u>
-        <u xml:id="i-PhZVGu4hitaYWrqtWqvR9p" who="i-7h8oALVXjuheXj6Zv4VA5g" prev="i-b0c01d52e46cc5ce-4">
           <seg xml:id="i-3Sq6UY3ExBbYdJm3PBzher">
             Herr talman, jag tillåter mig att yrka bifall till den av herr
             Kvarnzelius m. fl. avgivna, vid utskottets betänkande fogade reservationen.
@@ -9205,14 +9151,12 @@
         <note xml:id="i-EiDVFYCw7XqthmyVhwaY2T" type="date">
           98 Lördagen den 4 juni e. m.
         </note>
-        <u xml:id="i-LDs3Uaj58E1UbYdZP2ovk7" who="i-7h8oALVXjuheXj6Zv4VA5g" prev="i-XcDAMx6oTQq6XqFx245LVi" next="i-7QfoV6L76E2UFKQBE9WGia">
+        <u xml:id="i-LDs3Uaj58E1UbYdZP2ovk7" who="i-7h8oALVXjuheXj6Zv4VA5g" prev="i-XcDAMx6oTQq6XqFx245LVi">
           <seg xml:id="i-JdM5MdYPPUSg9MrSWVb21e">
             Småskoleseminarierna skola vara till antalet åtta, därav fyra
             dubbelseminarier, förlagda till de nuvarande folkskoleseminarierna
             i Härnösand, Sträng-
           </seg>
-        </u>
-        <u xml:id="i-7QfoV6L76E2UFKQBE9WGia" who="i-7h8oALVXjuheXj6Zv4VA5g" prev="i-LDs3Uaj58E1UbYdZP2ovk7">
           <seg xml:id="i-D4T9HxifB4znRqcZLbd6ND">
             S, Skara och Landskrona, samt fyra enkelseminarier, förlagda
             till Haparanda och Lycksele samt till de nuvarande landstingsseminarierna

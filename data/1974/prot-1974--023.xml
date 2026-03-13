@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-AHyJ7zPB1SPKByCBAaY1Co" type="speech">
             <linkGrp type="u">
               <ptr target="#i-6CLWsjBZp6KGjAaJvZWhdH"/>
@@ -215,7 +215,13 @@
               <ptr target="#i-bbb5881683c9e034-7"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -363,7 +369,7 @@
         <note xml:id="i-3UVrfUXuq29FFbpZpUoBjY">
           nr 79 av fru Karlsson (c) ang. etableringen av stormarknader
         </note>
-        <u xml:id="i-FAY2fTr381maqo115WiR4M" who="unknown">
+        <u xml:id="i-FAY2fTr381maqo115WiR4M" who="unknown" next="i-JYtMTeoKcChryhPgYXC2ou">
           <seg xml:id="i-AQwukVFaNW1MfSQbeGfiX">
             OCK ANdrå: stöNe Värulus = a .fö, åa ste Mean NM Ce k
           </seg>
@@ -371,7 +377,7 @@
         <note xml:id="i-6kVBSq92M6BxT7oAPeDPX4">
           nr 80 av herr Romanus (fp) om införande av offentlighets-
         </note>
-        <u xml:id="i-JYtMTeoKcChryhPgYXC2ou" who="unknown">
+        <u xml:id="i-JYtMTeoKcChryhPgYXC2ou" who="unknown" prev="i-FAY2fTr381maqo115WiR4M" next="i-EdKPw5pmnPMEagbbr5P3L2">
           <seg xml:id="i-TrsytcXbgjSp5chAzvaUp7">
             principen för Kommunförbundet och Landstingsförbundet
           </seg>
@@ -435,7 +441,7 @@
         <note xml:id="i-3LS7WEjawmyqgyVmPArAm1">
           71
         </note>
-        <u xml:id="i-EdKPw5pmnPMEagbbr5P3L2" who="unknown">
+        <u xml:id="i-EdKPw5pmnPMEagbbr5P3L2" who="unknown" prev="i-JYtMTeoKcChryhPgYXC2ou">
           <seg xml:id="i-4fkTP9eTDdW4SiWWu3n5Xc">
             väl
           </seg>
@@ -531,14 +537,12 @@
           Bladhs (s) i kammarens protokoll för den 17 januari intagna fråga,
           nr 21, och anförde:
         </note>
-        <u xml:id="i-6CLWsjBZp6KGjAaJvZWhdH" who="i-QSBS4dqtsRDzm8fcNNRFaC" next="i-Sx5KfYVrgKmzXQSPV9NGfq">
+        <u xml:id="i-6CLWsjBZp6KGjAaJvZWhdH" who="i-QSBS4dqtsRDzm8fcNNRFaC">
           <seg xml:id="i-MqKHx4mXNj1rMzvE65WFPc">
             Herr talman! Herr Bladh har frågat mig om jag är i tillfälle
             att redovisa vilka orter som är under övervägande som etableringsorter
             i statens planerade försöksverksamhet med torveldade värmeverk.
           </seg>
-        </u>
-        <u xml:id="i-Sx5KfYVrgKmzXQSPV9NGfq" who="i-QSBS4dqtsRDzm8fcNNRFaC" prev="i-6CLWsjBZp6KGjAaJvZWhdH" next="i-N1tpemcwW2hLSF7B8CrM6D">
           <seg xml:id="i-PQCRuZmaVjQABvkAuVbMu2">
             Överstyrelsen för ekonomiskt försvar har i dagarna begärt medel
             för att utreda förutsättningarna för och möjligheterna till att
@@ -549,8 +553,6 @@
             för torvproduktion och torveldning i tre värmeanläggningar i Boden,
             Sandviken och Växjö.
           </seg>
-        </u>
-        <u xml:id="i-N1tpemcwW2hLSF7B8CrM6D" who="i-QSBS4dqtsRDzm8fcNNRFaC" prev="i-Sx5KfYVrgKmzXQSPV9NGfq">
           <seg xml:id="i-TtXZcNvnynm5kDzFUD4cKC">
             När dessa utredningar föreligger får vi möjlighet att ta ställning
             till frågan om projektering och uppförande av lämpliga försöksanläggningar.
@@ -626,7 +628,7 @@
           Anderssons i Ljung (m) i kammarens protokoll för den 17 januari
           intagna fråga, nr 22, och anförde:
         </note>
-        <u xml:id="i-d7ce9aa273402a53-3" who="i-QSBS4dqtsRDzm8fcNNRFaC" next="i-2zDff7toAyda6unZcKZa5t">
+        <u xml:id="i-d7ce9aa273402a53-3" who="i-QSBS4dqtsRDzm8fcNNRFaC">
           <seg xml:id="i-5DRgGZp2KmZCG97zYaYRo9">
             Herr talman! Herr Andersson i Ljung har frågat mig om jag anser
             det välmotiverat med tillstånd, s. k. förbrukningslicens, för
@@ -637,8 +639,6 @@
             Jag utgår från att frågan gäller om jag anser kravet på tillstånd
             berättigat.
           </seg>
-        </u>
-        <u xml:id="i-2zDff7toAyda6unZcKZa5t" who="i-QSBS4dqtsRDzm8fcNNRFaC" prev="i-d7ce9aa273402a53-3" next="i-d7ce9aa273402a53-4">
           <seg xml:id="i-DMgWzxCFXPBQPd63dXBhxC">
             Kungörelsen om ransonering av flytande bränsle m. m. föreskriver
             med stöd av allmänna ransoneringslagen bl.a. att den som använder
@@ -650,8 +650,6 @@
             tillämpningsföreskrifter att pröva ansökan om förbrukningslicens
             för jordbruk och trädgårdsnäring.
           </seg>
-        </u>
-        <u xml:id="i-d7ce9aa273402a53-4" who="i-QSBS4dqtsRDzm8fcNNRFaC" prev="i-2zDff7toAyda6unZcKZa5t">
           <seg xml:id="i-Nrmv9kVG7iewYeUUZ8W9S1">
             Motivet till dessa bestämmelser är att det vid en reglering är
             nödvändigt att få alla större lager hos handeln och förbrukarna
@@ -1780,7 +1778,7 @@
         <note xml:id="i-7YVeQqKPQktHUpsLabwxcX" type="speaker">
           Herr OSKARSON (m), som yttrade:
         </note>
-        <u xml:id="i-bbb5881683c9e034-5" who="i-TPFPkNeAnPLVG6gbmTwyFe" next="i-4wt2LLFK19LUobj1y1wX2m">
+        <u xml:id="i-bbb5881683c9e034-5" who="i-TPFPkNeAnPLVG6gbmTwyFe" next="i-bbb5881683c9e034-6">
           <seg xml:id="i-PUDqA8AyJLv1mGJaK3YTva">
             Herr talman! En bred och aktiv frivilligrörelse har stor betydelse
             för vårt totalförsvar. Den frivilliga försvarsverksamheten har
@@ -1822,8 +1820,6 @@
             Med stöd av det anförda hemställer jag om kammarens tillstånd
             att till herr försvarsministern ställa följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-4wt2LLFK19LUobj1y1wX2m" who="i-TPFPkNeAnPLVG6gbmTwyFe" prev="i-bbb5881683c9e034-5" next="i-bbb5881683c9e034-6">
           <seg xml:id="i-7FKzyFq2RtRxqipfurpCir">
             När kommer herr statsrådet att vidta åtgärder för uppräkning
             av de ersättningsbelopp till funktionärer och övningsdeltagare
@@ -1849,7 +1845,7 @@
         <note xml:id="i-DoB5NhTVKDyiVRwAMhQKhu">
           20
         </note>
-        <u xml:id="i-bbb5881683c9e034-6" who="i-TPFPkNeAnPLVG6gbmTwyFe" prev="i-4wt2LLFK19LUobj1y1wX2m" next="i-bbb5881683c9e034-7">
+        <u xml:id="i-bbb5881683c9e034-6" who="i-TPFPkNeAnPLVG6gbmTwyFe" prev="i-bbb5881683c9e034-5" next="i-bbb5881683c9e034-7">
           <seg xml:id="i-JqVz6cp73CKR6WtHgBeGJT">
             och övriga frivilligorganisationer, som berörts i interpellationen,
             till en nivå som överensstämmer med dagens kostnadsläge?

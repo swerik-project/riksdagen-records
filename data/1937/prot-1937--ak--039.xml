@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-7oxfcA8fUfuTQDrDseh4wX" type="speech">
             <linkGrp type="u">
               <ptr target="#i-94eba70a6b6c2077-0"/>
@@ -742,7 +742,13 @@
               <ptr target="#i-QhvyPw8wZq48VQhY8HQfhT"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -918,7 +924,7 @@
         <note xml:id="i-FkpGPYdYavoVk4oPSFkoz3" type="date">
           Onsdagen den 2 juni 1937 f. m. Nr 39. 3
         </note>
-        <u xml:id="i-94eba70a6b6c2077-2" who="i-57VtU3DUgS6ebh11mtUQes" prev="i-94eba70a6b6c2077-1" next="i-4iuUyFPma87TrQ6s2M21bF">
+        <u xml:id="i-94eba70a6b6c2077-2" who="i-57VtU3DUgS6ebh11mtUQes" prev="i-94eba70a6b6c2077-1">
           <seg xml:id="i-VgTgFuLqVNaFJV4D4EqMT2">
             Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
             tivt fria händer. Men här på denna speciella punkt inbjudes nu
@@ -952,8 +958,6 @@
             han kommer att handla ungefär som utskottsutlåtandet angav, även
             om kamrarna skulle genom skilda beslut låta motiveringen falla.
           </seg>
-        </u>
-        <u xml:id="i-4iuUyFPma87TrQ6s2M21bF" who="i-57VtU3DUgS6ebh11mtUQes" prev="i-94eba70a6b6c2077-2">
           <seg xml:id="i-DWtT231B1rDeTnyFDyGb3M">
             Jag vill alltså, herr talman, framställa det yrkandet, att det
             stycke i utskottets motivering på sidan 34, som börjar med orden
@@ -1699,7 +1703,7 @@
         <note xml:id="i-Jk6QAihgi9g8qCMvLauNTA" type="date">
           Onsdagen den 2 juni 1937 f. m. Nr 39. 13
         </note>
-        <u xml:id="i-3fad3fea041404fb-7" who="i-Akw6TaNXU6i1CPtvUchuu3" prev="i-3fad3fea041404fb-6" next="i-RaBBW9jKMd2wUPLLkfNDD7">
+        <u xml:id="i-3fad3fea041404fb-7" who="i-Akw6TaNXU6i1CPtvUchuu3" prev="i-3fad3fea041404fb-6">
           <seg xml:id="i-PreFp9rg6pps1QxxtQXoYG">
             Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
             denna fråga stannade på 19.8 miljoner kronor i årliga kostnader,
@@ -1714,14 +1718,10 @@
             har förelegat anledning att något utförligare syssla med arten
             av den politik, man från vissa håll här i kammaren söker föra.
           </seg>
-        </u>
-        <u xml:id="i-RaBBW9jKMd2wUPLLkfNDD7" who="i-Akw6TaNXU6i1CPtvUchuu3" prev="i-3fad3fea041404fb-7" next="i-32A4EuNe4eizi5YMXQtSFx">
           <seg xml:id="i-UrvvUzUxQvqigqbpvyYQsh">
             Jag tillåter mig, herr talman, att yrka bifall till utskottets
             hemställan.
           </seg>
-        </u>
-        <u xml:id="i-32A4EuNe4eizi5YMXQtSFx" who="i-Akw6TaNXU6i1CPtvUchuu3" prev="i-RaBBW9jKMd2wUPLLkfNDD7">
           <seg xml:id="i-GNcrUmUewVGSntg6VGx7QU">
             I detta anförande instämde herrarAndersson i Södergård, Johansson
             i Mysinge, Närlinge, Pettersson i Dahl, Andersson i Dunker, Wallén,
@@ -3043,7 +3043,7 @@
         <note xml:id="i-3dmBAwxQqvyu3Sw84TGf5L" type="speaker">
           Herr Pettersson i Norregård:
         </note>
-        <u xml:id="i-6137fcd2e31a6b46-0" who="i-WUoguH96ZxNkEGnQ377GY1" next="i-BzA2FsyhMNVnrKRvjd6Sm1">
+        <u xml:id="i-6137fcd2e31a6b46-0" who="i-WUoguH96ZxNkEGnQ377GY1">
           <seg xml:id="i-Duqq6mzJKwk1QE9d1ks6GZ">
             Herr talman! Jag begärde ordet i går, när herr Carlström talade
             för bifall till reservationen. Han behandlade då bondeförbundet
@@ -3086,8 +3086,6 @@
             Därmed kunna vi vara tämligen nöjda med det beslut utskottet kommit
             till.
           </seg>
-        </u>
-        <u xml:id="i-BzA2FsyhMNVnrKRvjd6Sm1" who="i-WUoguH96ZxNkEGnQ377GY1" prev="i-6137fcd2e31a6b46-0">
           <seg xml:id="i-Q8DNuSiRFfSgPnjh7UE29">
             Jag ber, herr talman, att få yrka bifall till utskottets förslag.
           </seg>
@@ -3593,7 +3591,7 @@
         <note xml:id="i-3DkHbzzhF1iuigaHdG5ktu">
           Any. prisreglerande åtgärder på jordbrukets område. (Forts.)
         </note>
-        <u xml:id="i-EMYsAUwHbkk6Ra4X7oyFu7" who="i-XqKbySrEocjq4LS7n5V8UD" prev="i-Bo12jwXNped4MCkF7TAwZ6" next="i-GFcSXeEiGnoYGg9wBrCM4Q">
+        <u xml:id="i-EMYsAUwHbkk6Ra4X7oyFu7" who="i-XqKbySrEocjq4LS7n5V8UD" prev="i-Bo12jwXNped4MCkF7TAwZ6">
           <seg xml:id="i-Pwm8FqbPD78PEedegpqJTE">
             Jag skall icke uppehålla mig mera vid dessa saker. Jag vill bara
             sammanfatta vad jag sagt sålunda, att varken i jordbrukspropositionen
@@ -3622,8 +3620,6 @@
             de i det stora hela äro nöjda med det, som föreslagits, och det,
             man kan vänta skall kunna åstadkommas genom det föreslagna.
           </seg>
-        </u>
-        <u xml:id="i-GFcSXeEiGnoYGg9wBrCM4Q" who="i-XqKbySrEocjq4LS7n5V8UD" prev="i-EMYsAUwHbkk6Ra4X7oyFu7">
           <seg xml:id="i-KukgMjzX6s8vrC7aYtnJ7U">
             Herr talman! TI brist på bättre har jag icke något annat yrkande
             än om bifall ll den reservation, som har avgivits av herr Anderson
@@ -5788,15 +5784,13 @@
         <note xml:id="i-NtBWgE7NTMSKtKct81VYty" type="speaker">
           Herr Molander:
         </note>
-        <u xml:id="i-49ec09fa27d7dc9c-0" who="i-2tbdBcby74PFaeUyCBPwWD" next="i-FbtpJb6gaqMGSn7aBn1ndT">
+        <u xml:id="i-49ec09fa27d7dc9c-0" who="i-2tbdBcby74PFaeUyCBPwWD" next="i-FRWQ8qH6p2zsJUapzNCwbX">
           <seg xml:id="i-Co5xmzg1eHUSPHVWDMC1vy">
             Herr talman! Efter herr Petterssons i Hällbacken och statsrådets
             anföranden är det kanske onödigt att vidare orda i denna fråga,
             men då jag varit ledamot av sociala jordutredningen, kanske jag
             ändå får säga några ord.
           </seg>
-        </u>
-        <u xml:id="i-FbtpJb6gaqMGSn7aBn1ndT" who="i-2tbdBcby74PFaeUyCBPwWD" prev="i-49ec09fa27d7dc9c-0" next="i-49ec09fa27d7dc9c-1">
           <seg xml:id="i-97JRCa2AUe3JdzkEUCpS81">
             Jag vill då först erinra om att riksdagen 1933 skrev till Kungl.
             Maj:t och hemställde om en utredning, »huruvida och på vad sätt
@@ -5807,8 +5801,6 @@
             möjliggöra att vid lagens tillämpning mera hänsyn toges till de
             omständigheter, som förelåge i det särskilda fallet».
           </seg>
-        </u>
-        <u xml:id="i-49ec09fa27d7dc9c-1" who="i-2tbdBcby74PFaeUyCBPwWD" prev="i-FbtpJb6gaqMGSn7aBn1ndT" next="i-FRWQ8qH6p2zsJUapzNCwbX">
           <seg xml:id="i-7a4E2hvbPMGcF2xoLENfSJ">
             Sociala jordutredningen införskaffade till en början alla akter
             från vederbörande departement, som handlade om de dispensansökningar,
@@ -5862,7 +5854,7 @@
           jag undrar, huruvida bolag hädanefter skola få köpa någon skog
           alls.
         </note>
-        <u xml:id="i-FRWQ8qH6p2zsJUapzNCwbX" who="i-2tbdBcby74PFaeUyCBPwWD" prev="i-49ec09fa27d7dc9c-1" next="i-3ukQNtTLE2rnGhTMiURsuC">
+        <u xml:id="i-FRWQ8qH6p2zsJUapzNCwbX" who="i-2tbdBcby74PFaeUyCBPwWD" prev="i-49ec09fa27d7dc9c-0" next="i-3ukQNtTLE2rnGhTMiURsuC">
           <seg xml:id="i-6DV19CF9k925zKwArmcyrG">
             Vad man här tvistar om är ju de bestämmelser, som införts i 6:e
             stycket av 4 $ och som innebära, att om det visar sig, att bolag
@@ -7087,14 +7079,12 @@
           Ang. lönereglering för personalen vid serafimerlasarettet och
           karolinska sjuk-
         </note>
-        <u xml:id="i-5f49KvqRD3UXAbq56V57iy" who="i-87NBz6nb2K17KjS3Duhy7Q" prev="i-8mEzHgpF9KZ5RZp8cACyR4" next="i-a0dec12a2d717933-3">
+        <u xml:id="i-5f49KvqRD3UXAbq56V57iy" who="i-87NBz6nb2K17KjS3Duhy7Q" prev="i-8mEzHgpF9KZ5RZp8cACyR4">
           <seg xml:id="i-VRnviTsXumMMewHRXUSUhP">
             huset m. m. (Forts.) motion föreslagit vissa förändringar, som
             åtminstone i viss mån skulle ha gjort rättvisa åt den nuvarande
             personalen vid serafimerlasarettet.
           </seg>
-        </u>
-        <u xml:id="i-a0dec12a2d717933-3" who="i-87NBz6nb2K17KjS3Duhy7Q" prev="i-5f49KvqRD3UXAbq56V57iy">
           <seg xml:id="i-Nzw21RQairvR4fyLSUrPjW">
             Herr talman! På grund av formuleringen av vår motion har jag
             ingen möjlighet att framställa något särskilt yrkande. Vi ha ju
@@ -7206,7 +7196,7 @@
         <note xml:id="i-36kSvXFCG91B9kG7HrK7Pp" type="speaker">
           Herr Andersson i Rasjön:
         </note>
-        <u xml:id="i-94eba70a6b6c2077-11" who="i-57VtU3DUgS6ebh11mtUQes" next="i-QkKe5uWdv5Pw44dh8cbFj5">
+        <u xml:id="i-94eba70a6b6c2077-11" who="i-57VtU3DUgS6ebh11mtUQes">
           <seg xml:id="i-TQDLwAGxQ8E9BVdBNy728A">
             Herr talman! Jag har inte för avsikt att framställa något annat
             yrkande än om bifall till utskottets hemställan, detta så mycket
@@ -7230,8 +7220,6 @@
             att riksdagsbeslut, som rör ett ärende, som på nytt kommer under
             kamrarnas prövning, redovisas i utlåtandets historik över frågan.
           </seg>
-        </u>
-        <u xml:id="i-QkKe5uWdv5Pw44dh8cbFj5" who="i-57VtU3DUgS6ebh11mtUQes" prev="i-94eba70a6b6c2077-11" next="i-94eba70a6b6c2077-12">
           <seg xml:id="i-UtvqP5gUQcx9Xi2rxy75bm">
             I fjol yrkades det i de väckta motionerna, att särskild uppmärksamhet
             måtte ägnas åt spörsmålet, huruvida inte begynnelsetiderna och
@@ -7247,8 +7235,6 @@
             skede berörda ärende ligger, huruvida i anledning av riksdagens
             initiativ i fjol någonting har åtgjorts eller är att förvänta.
           </seg>
-        </u>
-        <u xml:id="i-94eba70a6b6c2077-12" who="i-57VtU3DUgS6ebh11mtUQes" prev="i-QkKe5uWdv5Pw44dh8cbFj5">
           <seg xml:id="i-4vGVm64y6dyn3XZacx2c1r">
             Därtill skulle jag vilja uttala den önskan, att därest riksdagen,
             som jag förmodar, nu bifaller det här föredragna utskottsutlåtandet,
@@ -8048,7 +8034,7 @@
         <note xml:id="i-V4smRKU6qpMkuBcXYyLbGo" type="date">
           88 Nr 39. | Onsdagen den 2 juni 1937 e. m.
         </note>
-        <u xml:id="i-Fg7vutyFNT55WBR4PvqmMq" who="i-SfDZtdC5fgukcXJsiu8J9U" prev="i-4b237808edb4f292-2" next="i-4b237808edb4f292-3">
+        <u xml:id="i-Fg7vutyFNT55WBR4PvqmMq" who="i-SfDZtdC5fgukcXJsiu8J9U" prev="i-4b237808edb4f292-2" next="i-4b237808edb4f292-4">
           <seg xml:id="i-Fb5Uc654j3cgRdGNHoFX8b">
             Ang. viss ändring i gällande tulltaxa. (Forts.) skottsmajoriteten
             i frågans nuvarande läge har avfärdat denna tullfråga. Utskottet
@@ -8062,8 +8048,6 @@
             fe belopp, varmed enligt propositionens förslag tilläggstullarna
             skulle förhöjas».
           </seg>
-        </u>
-        <u xml:id="i-4b237808edb4f292-3" who="i-SfDZtdC5fgukcXJsiu8J9U" prev="i-Fg7vutyFNT55WBR4PvqmMq" next="i-4b237808edb4f292-4">
           <seg xml:id="i-G9EpsHZazUgh71c13M27gm">
             Således, man konstaterar, att för närvarande föreligga icke skäl
             att bifalla propositionen och bevilja den begärda tullförhöjningen,
@@ -8132,7 +8116,7 @@
           fråga på nytt och vidtaga de åtgärder, som situationen då kan
           kräva.
         </note>
-        <u xml:id="i-4b237808edb4f292-4" who="i-SfDZtdC5fgukcXJsiu8J9U" prev="i-4b237808edb4f292-3">
+        <u xml:id="i-4b237808edb4f292-4" who="i-SfDZtdC5fgukcXJsiu8J9U" prev="i-Fg7vutyFNT55WBR4PvqmMq">
           <seg xml:id="i-LspLe9nJCv6Axt3FNDUWWP">
             Detta resonemang bör och måste vara den logiska slutsatsen, av
             den behandling, som denna fråga fått i bevillningsutskottet. När
@@ -8628,7 +8612,7 @@
         <note xml:id="i-WsSbCNoGRgC1zAryBcRqfP" type="speaker">
           Herr Olsson i Gävle:
         </note>
-        <u xml:id="i-7946bb724aa58333-4" who="i-XagQaE6Y2Zc9wu7WvmLcTC" next="i-AXrCxsTrjMnYfaCR98nG5b">
+        <u xml:id="i-7946bb724aa58333-4" who="i-XagQaE6Y2Zc9wu7WvmLcTC">
           <seg xml:id="i-YSZrAuQbLcmYBrbj2r2PxU">
             Herr talman! När man hörde herr De Geer, fick man liksom en förnimmelse
             av att vi voro på väg att återvända till tiden före år 1933 men
@@ -8682,8 +8666,6 @@
             användas, så skall inom 30 dagar efter det nästa års riksdag samlats,
             frågan föreläggas riksdagen för omprövning.
           </seg>
-        </u>
-        <u xml:id="i-AXrCxsTrjMnYfaCR98nG5b" who="i-XagQaE6Y2Zc9wu7WvmLcTC" prev="i-7946bb724aa58333-4">
           <seg xml:id="i-JeSVLr3uaZAibcZm3NNvZ1">
             Jag ber, herr talman, att med anförande av dessa synpunkter få
             hemställa om bifall till utskottets förslag.
@@ -11484,7 +11466,7 @@
         <note xml:id="i-3uAcq2hFT3uvTVkaNMCrxU">
           6 8.
         </note>
-        <u xml:id="i-G5XMq6qsa1jLzNFaCJGfFs" who="i-QSvXYSPnCaog2kVQuZMYmX" prev="i-Jywp5v7cQ2rdZ7T6jVkt3y" next="i-QDrcRagvk5mZENeUZ1ciib">
+        <u xml:id="i-G5XMq6qsa1jLzNFaCJGfFs" who="i-QSvXYSPnCaog2kVQuZMYmX" prev="i-Jywp5v7cQ2rdZ7T6jVkt3y" next="i-T3dM22TU2iCtsb95QA76FE">
           <seg xml:id="i-HjckpQc4SqZApuSrjXF4dK">
             Innan, enligt 1, 2 eller 4 $, till förvaring eller internering
             dömes, skall domstolen inhämta yttrande från nämnden huruvida
@@ -11494,8 +11476,6 @@
             Prövar nämnden den ifrågasatta åtgärden icke böra äga rum, vare
             frågan därom förfallen.
           </seg>
-        </u>
-        <u xml:id="i-QDrcRagvk5mZENeUZ1ciib" who="i-QSvXYSPnCaog2kVQuZMYmX" prev="i-G5XMq6qsa1jLzNFaCJGfFs" next="i-T3dM22TU2iCtsb95QA76FE">
           <seg xml:id="i-5Jy9MKm3RG91jrgeoM5gXX">
             Finner fångvårdsstyrelsen anledning förekomma att enligt vad
             i 3 $ sägs någon som undergår straff underkastas förvaring, skall
@@ -11514,7 +11494,7 @@
           Ang. lag om förvaring och internering i säkerhetsanstalt m. m.
           (Forts.)
         </note>
-        <u xml:id="i-T3dM22TU2iCtsb95QA76FE" who="i-QSvXYSPnCaog2kVQuZMYmX" prev="i-QDrcRagvk5mZENeUZ1ciib" next="i-2AbjMShF4KpdwkMxLnVLyb">
+        <u xml:id="i-T3dM22TU2iCtsb95QA76FE" who="i-QSvXYSPnCaog2kVQuZMYmX" prev="i-G5XMq6qsa1jLzNFaCJGfFs" next="i-2AbjMShF4KpdwkMxLnVLyb">
           <seg xml:id="i-YaoswTKpKGnd3A5LsiuCtw">
             Talan enligt andra stycket föres vid den domstol som först avgjort
             det mål vari dömts till straff eller tvångsuppfostran. Vid domstolen
@@ -11550,7 +11530,7 @@
         <note xml:id="i-Ee6DzNgRAnJvYbBXr8TaFj">
           6 §.
         </note>
-        <u xml:id="i-2AbjMShF4KpdwkMxLnVLyb" who="i-QSvXYSPnCaog2kVQuZMYmX" prev="i-T3dM22TU2iCtsb95QA76FE" next="i-JuyggUwhaeJaGU763rSidy">
+        <u xml:id="i-2AbjMShF4KpdwkMxLnVLyb" who="i-QSvXYSPnCaog2kVQuZMYmX" prev="i-T3dM22TU2iCtsb95QA76FE">
           <seg xml:id="i-V3b9TjqzDeXv7XgxWjc4uN">
             Innan, enligt 1, 2 eller 4 $, till förvaring eller internering
             dömes, skall domstolen inhämta yttrande från nämnden huruvida
@@ -11560,8 +11540,6 @@
             Prövar nämnden den ifrågasatta åtgärden icke böra äga rum, vare
             frågan därom förfallen.
           </seg>
-        </u>
-        <u xml:id="i-JuyggUwhaeJaGU763rSidy" who="i-QSvXYSPnCaog2kVQuZMYmX" prev="i-2AbjMShF4KpdwkMxLnVLyb" next="i-8m4MmojaxTTBsaQJZYiTVT">
           <seg xml:id="i-URWqurYyaEeb3v2UiBhpR2">
             Finner fångvårdsstyrelsen anledning förekomma att enligt vad
             i 3 $ sägs någon som undergår straff underkastas förvaring, skall
@@ -11571,8 +11549,6 @@
             Beträffande den som undergår tvångsuppfostran skall vad här i
             fråga om fångvårdsstyrelsen stadgats gälla styrelsen för uppfostringsanstalten.
           </seg>
-        </u>
-        <u xml:id="i-8m4MmojaxTTBsaQJZYiTVT" who="i-QSvXYSPnCaog2kVQuZMYmX" prev="i-JuyggUwhaeJaGU763rSidy">
           <seg xml:id="i-Du4cGjpwuztcqjLbDY1u46">
             Talan enligt andra stycket föres vid domstolen i den ort där
             straffet eller tvångsuppfostran verkställes. Vid domstolen skall
@@ -11669,7 +11645,7 @@
         <note xml:id="i-UXvpR3mLFK9y7sr949jsNW" type="speaker">
           Herr Lindqvist:
         </note>
-        <u xml:id="i-c5fc6fbfc8f52608-0" who="i-6FrdvvZyK8ZA14RbLEpPvF" next="i-5U7JqFt3fDpRkdKG9sZ8ZM">
+        <u xml:id="i-c5fc6fbfc8f52608-0" who="i-6FrdvvZyK8ZA14RbLEpPvF" next="i-K3an8kZvgUFNRgZ4fGXiMq">
           <seg xml:id="i-VSUHxUEuKiEFQgQCDFMyGs">
             Herr talman! Trots den sena — eller tidiga — timmen tilllåter
             jag mig besvära kammarens ledamöter med en detalj i föreliggande
@@ -11687,8 +11663,6 @@
             har det varit redan på ett förberedande stadium. Ty Kungl. Maj:ts
             förslag avvisade det förslag, som de sakkunniga avgåvo.
           </seg>
-        </u>
-        <u xml:id="i-5U7JqFt3fDpRkdKG9sZ8ZM" who="i-6FrdvvZyK8ZA14RbLEpPvF" prev="i-c5fc6fbfc8f52608-0" next="i-K3an8kZvgUFNRgZ4fGXiMq">
           <seg xml:id="i-4UtbxYGiPWAjKq7LTkfB6p">
             De sakkunniga — bland vilka befunno sig första lagutskottets
             både ordförande och vice ordförande — hade i fråga om den forumbestämmelse,
@@ -11715,7 +11689,7 @@
           för den dömdes inställande än vad som skulle bli fallet, om den
           person det gäller skulle ställas inför underrätt.
         </note>
-        <u xml:id="i-K3an8kZvgUFNRgZ4fGXiMq" who="i-6FrdvvZyK8ZA14RbLEpPvF" prev="i-5U7JqFt3fDpRkdKG9sZ8ZM">
+        <u xml:id="i-K3an8kZvgUFNRgZ4fGXiMq" who="i-6FrdvvZyK8ZA14RbLEpPvF" prev="i-c5fc6fbfc8f52608-0">
           <seg xml:id="i-3qwq5vZgFkAH79DH79Bg6u">
             De sakkunniga ansågo sålunda, att det skulle vara icke bara obehövligt
             utan även medföra vissa svårigheter av olika slag, om den dömde,
@@ -12369,7 +12343,7 @@
         <note xml:id="i-EHgUW4XBnuvcpGh81fTnno" type="speaker">
           Herr Gustafson i Kasenberg:
         </note>
-        <u xml:id="i-3fad3fea041404fb-12" who="i-YLYgwWkay3eTxx2S1Y9nQY" next="i-BpD71Vxj7F7dxDhJ5gy99f">
+        <u xml:id="i-3fad3fea041404fb-12" who="i-YLYgwWkay3eTxx2S1Y9nQY" next="i-3fad3fea041404fb-14">
           <seg xml:id="i-QJy5kxnXeRapvs8AYGHZK8">
             Herr talman! Statsutskottets förevarande utlåtande gäller tvenne
             motioner, en i första kammaren, nr 32, av herr Gabrielsson, samt
@@ -12380,8 +12354,6 @@
             riksstatens tionde huvudtitel anvisa ett anslag av kronor 30,206:
             75».
           </seg>
-        </u>
-        <u xml:id="i-BpD71Vxj7F7dxDhJ5gy99f" who="i-YLYgwWkay3eTxx2S1Y9nQY" prev="i-3fad3fea041404fb-12" next="i-6BRdEwtSqFErtwjb9AsouH">
           <seg xml:id="i-Xw438HFBsKpfjpihkarMsq">
             Till stöd härför ha vi anfört: »Mot hypotek av två inteckningar
             å resp. 15,000 kronor och 10,000 kronor, fastställda den 14 mars
@@ -12391,8 +12363,6 @@
             februari 1927 ett amorteringslån å 25,000 kronor, löpande med
             en ränta av 49/4 procent. -
           </seg>
-        </u>
-        <u xml:id="i-6BRdEwtSqFErtwjb9AsouH" who="i-YLYgwWkay3eTxx2S1Y9nQY" prev="i-BpD71Vxj7F7dxDhJ5gy99f" next="i-3fad3fea041404fb-13">
           <seg xml:id="i-5ZPYLW638ywYVLMeoWb43N">
             Ifrågavarande inteckningar förnyades av Östersysslets domsaga
             första gången den 19 juli 1919, $$ 186 och 187. Därefter uppvisades
@@ -12401,8 +12371,6 @@
             företetts hos ovannämnda häradsrätt, förnyades desamma av häradsrätten
             den 4 juli 1928, $$ 162 och 163.»
           </seg>
-        </u>
-        <u xml:id="i-3fad3fea041404fb-13" who="i-YLYgwWkay3eTxx2S1Y9nQY" prev="i-6BRdEwtSqFErtwjb9AsouH" next="i-Npq4rS12AqeZbwRFWhED6i">
           <seg xml:id="i-DiZSK6VcabaR7UGgL8r8C8">
             På grund av utebliven betalning lagsöktes emellertid ägaren av
             här ifrågavarande fastighet, men det visade sig då, att inteckningarna
@@ -12421,8 +12389,6 @@
             det varit en enskild person, så hade han blivit helt ruinerad,
             om ett sådant fall hade inträffat.
           </seg>
-        </u>
-        <u xml:id="i-Npq4rS12AqeZbwRFWhED6i" who="i-YLYgwWkay3eTxx2S1Y9nQY" prev="i-3fad3fea041404fb-13" next="i-3fad3fea041404fb-14">
           <seg xml:id="i-7EFfzMqFP18HxwPRobyNja">
             Utskottet avstyrkte motionerna och till utlåtandet äro fogade
             två reservationer, den första av herr Anderson i Råstock m. fl.
@@ -12444,7 +12410,7 @@
           Ang. anslag till allmänna brandförsäkringsverket för byggnader
           å landet för täckande av viss förlust. (Forts.)
         </note>
-        <u xml:id="i-3fad3fea041404fb-14" who="i-YLYgwWkay3eTxx2S1Y9nQY" prev="i-Npq4rS12AqeZbwRFWhED6i" next="i-L5KvEmKsa9Co4aQrz8YYPP">
+        <u xml:id="i-3fad3fea041404fb-14" who="i-YLYgwWkay3eTxx2S1Y9nQY" prev="i-3fad3fea041404fb-12">
           <seg xml:id="i-MC87ZfXRAHZ3RM381GCVhR">
             denna kammare, nr 42, i vilka motioner begäres »att riksdagen
             måtte besluta att i skrivelse till Kungl. Maj:t hemställa, att
@@ -12455,8 +12421,6 @@
             bifallna, och jag menar, att det är väl då tydligt, att man anser,
             att ersättning i sådana fall som detta bör kunna ske.
           </seg>
-        </u>
-        <u xml:id="i-L5KvEmKsa9Co4aQrz8YYPP" who="i-YLYgwWkay3eTxx2S1Y9nQY" prev="i-3fad3fea041404fb-14" next="i-J8sqF7fnEiB63S2PLFrasF">
           <seg xml:id="i-EcPKhVWkCmpmz1UQDpm1gX">
             Nu ha ju i statsutskottet herrar Svensson i Kompersmåla, Nilsson
             i Landeryd, Holmström, Persson i Falla och von Seth i sin reservation
@@ -12470,8 +12434,6 @@
             åsamkats nämnda bolag genom förelupet oriktigt förfarande i ett
             inteckningsärende.»
           </seg>
-        </u>
-        <u xml:id="i-J8sqF7fnEiB63S2PLFrasF" who="i-YLYgwWkay3eTxx2S1Y9nQY" prev="i-L5KvEmKsa9Co4aQrz8YYPP">
           <seg xml:id="i-LriX6yNLNrtb29c7QcR9Qm">
             Detta försäkringsbolag har ju som delägare jordbrukare i hela
             landet, och därför anser jag det vara rätt, att denna reservation
@@ -12481,7 +12443,7 @@
         <note xml:id="i-6y9pAyEtMA5WJmerRSZP5K" type="speaker">
           Herr Eriksson i Stockholm:
         </note>
-        <u xml:id="i-5b33fa99e76f5174-0" who="i-5ocMrCNXM69xuk4ciQWBnF" next="i-QhvyPw8wZq48VQhY8HQfhT">
+        <u xml:id="i-5b33fa99e76f5174-0" who="i-5ocMrCNXM69xuk4ciQWBnF">
           <seg xml:id="i-4Q5a4JJCayoqAUzx2LDwKE">
             Herr talman! Vid denna timme tänker jag inte upptaga någon debatt
             med den ärade motionären. Jag vill bara fästa uppmärksamheten
@@ -12495,8 +12457,6 @@
             Jag nöjer mig sålunda, herr talman, med att yrka bifall till
             utskottets hemställan.
           </seg>
-        </u>
-        <u xml:id="i-QhvyPw8wZq48VQhY8HQfhT" who="i-5ocMrCNXM69xuk4ciQWBnF" prev="i-5b33fa99e76f5174-0">
           <seg xml:id="i-T9btyqgao9o9NvVqrtiBgo">
             Överläggningen var härmed slutad. Herr förste vice talmannen
             gav propositioner dels på bifall till utskottets hemställan, dels

@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-HEMVmj1dNXoahY1V1ddCn5" type="speech">
             <linkGrp type="u">
               <ptr target="#i-10df520f644cc15d-0"/>
@@ -332,7 +332,13 @@
               <ptr target="#i-497d98f8f3a87365-21"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -2122,12 +2128,10 @@
         <note xml:id="i-Y6X1fCLkWWxpn1enxXAXUM">
           198
         </note>
-        <u xml:id="i-QWMYq3mvdBdNMxyyex3CUR" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-0ed5c0b1164b76c4-0" next="i-3Hhe9DVH886VCGDmWPwPhW">
+        <u xml:id="i-QWMYq3mvdBdNMxyyex3CUR" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-0ed5c0b1164b76c4-0" next="i-0ed5c0b1164b76c4-6">
           <seg xml:id="i-8R6DSAbcsw6x5z9MambXwA">
             Var på arbetsmarknaden behövs jag?
           </seg>
-        </u>
-        <u xml:id="i-3Hhe9DVH886VCGDmWPwPhW" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-QWMYq3mvdBdNMxyyex3CUR" next="i-0ed5c0b1164b76c4-6">
           <seg xml:id="i-BrqrDLR1NwZnHKh7rw88q">
             De som är starka och är etablerade på arbetsmarknaden bevakar
             sina positioner. Det blir allt svårare för dem som står utanför
@@ -2209,7 +2213,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198283--72/prot_198283__72-024.jp2/_view"/>
-        <u xml:id="i-0ed5c0b1164b76c4-6" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-3Hhe9DVH886VCGDmWPwPhW" next="i-YbEfFyuUW1jnWpubn3n7FS">
+        <u xml:id="i-0ed5c0b1164b76c4-6" who="i-Gcjbk3nJyjWXPaa2dm3MFR" prev="i-QWMYq3mvdBdNMxyyex3CUR" next="i-YbEfFyuUW1jnWpubn3n7FS">
           <seg xml:id="i-AaaEDRhgV9c1Brh3VbgKBg">
             ett arbetshandikapp har mycket svårt att få jobb på den öppna
             marknaden.
@@ -2483,7 +2487,7 @@
         <note xml:id="i-MXUwRHk6h1ensoUU4duY7C">
           202
         </note>
-        <u xml:id="i-aee282a671f24c49-5" who="i-DdtTLWnx7UACZsKE2ev6s" prev="i-aee282a671f24c49-0" next="i-JRCaYc18v8As2Csnvc6sVw">
+        <u xml:id="i-aee282a671f24c49-5" who="i-DdtTLWnx7UACZsKE2ev6s" prev="i-aee282a671f24c49-0" next="i-aee282a671f24c49-7">
           <seg xml:id="i-3EEAEczygxxfN1Dxkyx1wh">
             Både kvinnor och män skulle vinna på ett mera jämställt samhälle.
             Jämställdhetsfrågor är inte enbart kvinnofrågor. Att de i hög
@@ -2545,8 +2549,6 @@
             på andelen kvinnor/män i statliga kommittéer förra budgetåret,
             finner man följande:
           </seg>
-        </u>
-        <u xml:id="i-JRCaYc18v8As2Csnvc6sVw" who="i-DdtTLWnx7UACZsKE2ev6s" prev="i-aee282a671f24c49-5" next="i-aee282a671f24c49-7">
           <seg xml:id="i-XbbzMZztuCbWFbdFSSCgre">
             Av ordförandena är 10 90 kvinnor, och av ledamöterna är 21 96
             kvinnor. I de statliga företagen — 112 stycken — var år 1981 endast
@@ -2554,7 +2556,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198283--72/prot_198283__72-028.jp2/_view"/>
-        <u xml:id="i-aee282a671f24c49-7" who="i-DdtTLWnx7UACZsKE2ev6s" prev="i-JRCaYc18v8As2Csnvc6sVw" next="i-8PqqcV9gBmPx7VLcee6SF3">
+        <u xml:id="i-aee282a671f24c49-7" who="i-DdtTLWnx7UACZsKE2ev6s" prev="i-aee282a671f24c49-5" next="i-aee282a671f24c49-14">
           <seg xml:id="i-YT3eFaBBcXU34DeXwz7XFL">
             Herr talman! Jag skulle kunna fortsätta länge med den här uppräkningen.
             Den visar bara hur nödvändigt det är med en jämnare fördelning
@@ -2577,45 +2579,31 @@
             en olycklig uppdelning av arbetsmarknaden i en kvinnlig och en
             manlig del.
           </seg>
-        </u>
-        <u xml:id="i-8PqqcV9gBmPx7VLcee6SF3" who="i-DdtTLWnx7UACZsKE2ev6s" prev="i-aee282a671f24c49-7" next="i-aee282a671f24c49-8">
           <seg xml:id="i-EWpedynXY41Qh7UjhNmH6r">
             Sålunda utföll valet till gymnasieskolans tvååriga linjer 1980
             enligt följande: 8 26 av pojkarna och 92 96 av flickorna valde
             vårdlinjen. Tvärtom förhöll det sig när det gäller teknik. 96
             90 av pojkarna och 4 90 av flickorna valde denna linje.
           </seg>
-        </u>
-        <u xml:id="i-aee282a671f24c49-8" who="i-DdtTLWnx7UACZsKE2ev6s" prev="i-8PqqcV9gBmPx7VLcee6SF3" next="i-5LzGvpyC5dq9wKWXHYWFDv">
           <seg xml:id="i-YVEadRivpaa6eDvZSnP7Y6">
             Beträffande skolpersonalen, dvs. de vuxna kvinnor och män som
             möter eleverna i skolan och som är elevernas förebilder, förhåller
             det sig på följande sätt:
           </seg>
-        </u>
-        <u xml:id="i-5LzGvpyC5dq9wKWXHYWFDv" who="i-DdtTLWnx7UACZsKE2ev6s" prev="i-aee282a671f24c49-8" next="i-5BrdqEKA2o6DVqsQdLjTmh">
           <seg xml:id="i-bMoNkLk9AtD5urAis7u8v">
             99 Jo av lågstadielärarna, hemkunskapslärarna och skolmåltidspersonalen
             är kvinnor. 1 96 är män.
           </seg>
-        </u>
-        <u xml:id="i-5BrdqEKA2o6DVqsQdLjTmh" who="i-DdtTLWnx7UACZsKE2ev6s" prev="i-5LzGvpyC5dq9wKWXHYWFDv" next="i-8EE4HRw86qnkJBU4bkMwEC">
           <seg xml:id="i-9xn75KoqrMvVMDy8nBZBiU">
             6 20 av rektorerna är kvinnor och 94 96 är män.
           </seg>
-        </u>
-        <u xml:id="i-8EE4HRw86qnkJBU4bkMwEC" who="i-DdtTLWnx7UACZsKE2ev6s" prev="i-5BrdqEKA2o6DVqsQdLjTmh" next="i-S3jNA18F7F5CvgzZx4EpwS">
           <seg xml:id="i-KMsVvAziFmM45UaGa7PZdq">
             1 26 av lärarna i träoch metallslöjd är kvinnor och 99 96 är
             män.
           </seg>
-        </u>
-        <u xml:id="i-S3jNA18F7F5CvgzZx4EpwS" who="i-DdtTLWnx7UACZsKE2ev6s" prev="i-8EE4HRw86qnkJBU4bkMwEC" next="i-aee282a671f24c49-9">
           <seg xml:id="i-C9E56YpEmRbHhgZjVeg9an">
             Av vaktmästarna är 17 20 kvinnor och 83 96 är män.
           </seg>
-        </u>
-        <u xml:id="i-aee282a671f24c49-9" who="i-DdtTLWnx7UACZsKE2ev6s" prev="i-S3jNA18F7F5CvgzZx4EpwS" next="i-aee282a671f24c49-14">
           <seg xml:id="i-2k8aYsVvd9AY43wd2kzXot">
             Dessa siffror talar för sig själva.
           </seg>
@@ -2671,7 +2659,7 @@
         <note xml:id="i-VMsxxdbderFV5scgpcSap">
           204
         </note>
-        <u xml:id="i-aee282a671f24c49-14" who="i-DdtTLWnx7UACZsKE2ev6s" prev="i-aee282a671f24c49-9">
+        <u xml:id="i-aee282a671f24c49-14" who="i-DdtTLWnx7UACZsKE2ev6s" prev="i-aee282a671f24c49-7">
           <seg xml:id="i-R4r2P3E9atx6eX6twwFCUk">
             ringen ger när det gäller att minska arbetstiden för att man
             på det sättet skall kunna dela ansvaret för barnen.
@@ -3012,13 +3000,11 @@
         <note xml:id="i-8G5qHQZgSRMZ5Vnhwej5VB">
           208
         </note>
-        <u xml:id="i-AiXKrWQkfaZzFdL7CsCYCD" who="i-5HohE4fjz8QUm5AhfAoLLH" prev="i-0e22c9c08fbb5ac0-0" next="i-0e22c9c08fbb5ac0-5">
+        <u xml:id="i-AiXKrWQkfaZzFdL7CsCYCD" who="i-5HohE4fjz8QUm5AhfAoLLH" prev="i-0e22c9c08fbb5ac0-0" next="i-0e22c9c08fbb5ac0-6">
           <seg xml:id="i-VmZUY7iUYGYiNynmQAtAdU">
             Horndal, Forsbacka, Hallstahammar, Österbybruk, Spännarhyttan,
             Lesjöfors, Guldsmedshyttan, Boxholm och Bångbro.
           </seg>
-        </u>
-        <u xml:id="i-0e22c9c08fbb5ac0-5" who="i-5HohE4fjz8QUm5AhfAoLLH" prev="i-AiXKrWQkfaZzFdL7CsCYCD" next="i-0e22c9c08fbb5ac0-6">
           <seg xml:id="i-kafL1LcE1B9ErJWTTRSe2">
             De senaste veckorna har vi hört om de stora företagens bruk:
             Fagersta, Sandviken, Avesta och Nyby-Uddeholms Nyby och Degerfors,
@@ -3093,7 +3079,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198283--72/prot_198283__72-034.jp2/_view"/>
-        <u xml:id="i-0e22c9c08fbb5ac0-6" who="i-5HohE4fjz8QUm5AhfAoLLH" prev="i-0e22c9c08fbb5ac0-5" next="i-QTK9XJn8XjpJeM8rywHuyp">
+        <u xml:id="i-0e22c9c08fbb5ac0-6" who="i-5HohE4fjz8QUm5AhfAoLLH" prev="i-AiXKrWQkfaZzFdL7CsCYCD" next="i-QTK9XJn8XjpJeM8rywHuyp">
           <seg xml:id="i-BSPEN1wVogmNVjikV2h6yY">
             domineras varje ort av ett företagsintresse. Dessutom kan noteras
             att företag som tillhör samma koncern ligger ganska nära varandra.
@@ -3193,7 +3179,7 @@
         <note xml:id="i-5hiNstcgqkLueHrJ8yFURd">
           kraftproduktionen.
         </note>
-        <u xml:id="i-QTK9XJn8XjpJeM8rywHuyp" who="i-5HohE4fjz8QUm5AhfAoLLH" prev="i-0e22c9c08fbb5ac0-6" next="i-NUfNPQhFGuMsMvLZD74RJe">
+        <u xml:id="i-QTK9XJn8XjpJeM8rywHuyp" who="i-5HohE4fjz8QUm5AhfAoLLH" prev="i-0e22c9c08fbb5ac0-6" next="i-MZzmxn8ybVLoXcvQgzhMY1">
           <seg xml:id="i-PobuCdhffGFW12S1YqVqWM">
             Det som finns kvar av gruvhanteringen får inte heller glömmas.
             F. n. är det sulfidmalmsgruvorna som synes mest utvecklingsbara,
@@ -3232,8 +3218,6 @@
             Jag vill nämna några konkreta punkter som borde bli föremål för
             studier härvidlag:
           </seg>
-        </u>
-        <u xml:id="i-NUfNPQhFGuMsMvLZD74RJe" who="i-5HohE4fjz8QUm5AhfAoLLH" prev="i-QTK9XJn8XjpJeM8rywHuyp" next="i-MZzmxn8ybVLoXcvQgzhMY1">
           <seg xml:id="i-Cdeq5sbWSrNmiLREP1UXT">
             —- samverkan mellan små och stora företag,
           </seg>
@@ -3255,7 +3239,7 @@
         <note xml:id="i-2BS2uP69hdfY5UWxY3Mgcs">
           — exportfinansiering av koncernens produkter,
         </note>
-        <u xml:id="i-MZzmxn8ybVLoXcvQgzhMY1" who="i-5HohE4fjz8QUm5AhfAoLLH" prev="i-NUfNPQhFGuMsMvLZD74RJe" next="i-KVnjbs17mifQ25itPahe9h">
+        <u xml:id="i-MZzmxn8ybVLoXcvQgzhMY1" who="i-5HohE4fjz8QUm5AhfAoLLH" prev="i-QTK9XJn8XjpJeM8rywHuyp" next="i-KVnjbs17mifQ25itPahe9h">
           <seg xml:id="i-6w4tM64iAUk8CiHXyLWuyB">
             — deltagande i regionala utvecklingsbolag och
           </seg>
@@ -3466,7 +3450,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198283--72/prot_198283__72-038.jp2/_view"/>
-        <u xml:id="i-382f31389cdc2afa-1" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-382f31389cdc2afa-0" next="i-NMCAREBVyzspe7rGywQbfn">
+        <u xml:id="i-382f31389cdc2afa-1" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-382f31389cdc2afa-0" next="i-382f31389cdc2afa-5">
           <seg xml:id="i-G6Q1rCTVrWgFdJdopV7bf6">
             bl. a. att i nära samarbete med olika ungdomsorganisationer fördjupa
             och vidareutveckla utbildningen. Men detta har visat sig vara
@@ -3522,8 +3506,6 @@
             beslut om detta nu under vårriksdagen. Av detta följer också att
             gymnasisternas specialarbete återinförs.
           </seg>
-        </u>
-        <u xml:id="i-NMCAREBVyzspe7rGywQbfn" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-382f31389cdc2afa-1" next="i-YahnLsjxtED6Lof5KR2hb2">
           <seg xml:id="i-MN1nbtocaVErZL2gJ8HRa5">
             När högskolereformen genomfördes utformades också förändrade
             behörighetsregler för antagning till högskolan. Den allmänna behörigheten
@@ -3531,8 +3513,6 @@
             fullständiga studiekurser samt förkunskaper i svenska och engelska
             som svarade mot lägst två årskurser på social linje.
           </seg>
-        </u>
-        <u xml:id="i-YahnLsjxtED6Lof5KR2hb2" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-NMCAREBVyzspe7rGywQbfn" next="i-382f31389cdc2afa-5">
           <seg xml:id="i-YMZKYUzKoXRvhmqVS716zZ">
             Behörighetsreglernas utformning har lett till taktiska val. Allt
             fler gymnasister väljer en kort och mindre krävande linje för
@@ -3568,7 +3548,7 @@
         <note xml:id="i-XPSkG9K3q8MDaiRBJkoZ1o">
           214
         </note>
-        <u xml:id="i-382f31389cdc2afa-5" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-YahnLsjxtED6Lof5KR2hb2" next="i-YQDUzSR1iyTjR1qPNmttgM">
+        <u xml:id="i-382f31389cdc2afa-5" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-382f31389cdc2afa-1">
           <seg xml:id="i-EJsZGAj1vj5BEHJt2U1r6m">
             Enligt vår mening bör taktiska val motverkas och ett system med
             viktade betyg införas. Vid antagning till exempelvis tekniska
@@ -3614,13 +3594,9 @@
             Antagningsreglerna till högskolan bör ändras så att andelen ungdomar
             som går direkt från gymnasiet till högskolan ökar.
           </seg>
-        </u>
-        <u xml:id="i-YQDUzSR1iyTjR1qPNmttgM" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-382f31389cdc2afa-5" next="i-382f31389cdc2afa-6">
           <seg xml:id="i-PB9AQkW6sb1eNzrc6W1Neu">
             Studiemedlen bör höjas från 142 till 145 96 av basbeloppet.
           </seg>
-        </u>
-        <u xml:id="i-382f31389cdc2afa-6" who="i-P7oVLGoBfbz4RGE5XkQtLN" prev="i-YQDUzSR1iyTjR1qPNmttgM">
           <seg xml:id="i-TRBTMyrbB3L72ZBGwwEpkn">
             Resurserna för den humanistiska och samhällsvetenskapliga forskningen
             bör höjas med 5 milj. kr. utöver vad regeringen föreslagit.
@@ -4286,12 +4262,10 @@
         <note xml:id="i-GEjWEMZLYN9x5Fu59Munhz">
           222
         </note>
-        <u xml:id="i-Wk5M4n6tmVU1NF3qU6zWRQ" who="i-BbWhKN8LYooYPeK77uLHBD" prev="i-b72a7d82b4ac975e-7" next="i-34J6YGGBEousrEoreSD3YG">
+        <u xml:id="i-Wk5M4n6tmVU1NF3qU6zWRQ" who="i-BbWhKN8LYooYPeK77uLHBD" prev="i-b72a7d82b4ac975e-7">
           <seg xml:id="i-ADuX6PqvvXmpae3hjRnxLi">
             möjligt.
           </seg>
-        </u>
-        <u xml:id="i-34J6YGGBEousrEoreSD3YG" who="i-BbWhKN8LYooYPeK77uLHBD" prev="i-Wk5M4n6tmVU1NF3qU6zWRQ">
           <seg xml:id="i-E3bmKe3d3TpyQ6tDjQwTpY">
             Hur kan någon tro att sådant vetenskapligt och ekonomiskt sett
             återger Sverige en tätplats i världen?
@@ -5500,7 +5474,7 @@
         <note xml:id="i-KgsPKdXtNYdBeYz7ZCxfHN">
           236
         </note>
-        <u xml:id="i-497d98f8f3a87365-5" who="i-7Uv5b4af4nUb3NuFk7J8yJ" prev="i-497d98f8f3a87365-0" next="i-LeR1xsFdTPyQ4NGu3fo1sU">
+        <u xml:id="i-497d98f8f3a87365-5" who="i-7Uv5b4af4nUb3NuFk7J8yJ" prev="i-497d98f8f3a87365-0" next="i-497d98f8f3a87365-7">
           <seg xml:id="i-EprF9TFdAwEwDCXTwPaV5F">
             de. Bostadsort, skolgång och uppväxtvillkor är utslagsgivande.
           </seg>
@@ -5517,8 +5491,6 @@
             knappa. Det är ju faktiskt så, att relativt små summor sedda ur
             statligt miljardbudgetperspektiv kan göra stor nytta.
           </seg>
-        </u>
-        <u xml:id="i-LeR1xsFdTPyQ4NGu3fo1sU" who="i-7Uv5b4af4nUb3NuFk7J8yJ" prev="i-497d98f8f3a87365-5" next="i-497d98f8f3a87365-6">
           <seg xml:id="i-GT2TpQfnR6C5x31dZpXwUG">
             Kommuner med socialdemokratisk majoritet anslog 1981 i genomsnitt
             317 kr. per invånare till kulturändamål. Kommuner med moderata
@@ -5526,8 +5498,6 @@
             297 kr. Kommuner med centerpartiet i dominerande ställning satsade
             minst, 236 kr.
           </seg>
-        </u>
-        <u xml:id="i-497d98f8f3a87365-6" who="i-7Uv5b4af4nUb3NuFk7J8yJ" prev="i-LeR1xsFdTPyQ4NGu3fo1sU" next="i-497d98f8f3a87365-7">
           <seg xml:id="i-41jSTKAYCmMJUxHtV8hyyk">
             En yrkeskår — kulturarbetarna — blir än mer trängda mot väggen
             när tiderna är dåliga. Deras ekonomiska betingelser, som aldrig
@@ -5583,7 +5553,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198283--72/prot_198283__72-062.jp2/_view"/>
-        <u xml:id="i-497d98f8f3a87365-7" who="i-7Uv5b4af4nUb3NuFk7J8yJ" prev="i-497d98f8f3a87365-6">
+        <u xml:id="i-497d98f8f3a87365-7" who="i-7Uv5b4af4nUb3NuFk7J8yJ" prev="i-497d98f8f3a87365-5">
           <seg xml:id="i-RbaaDiUAtELWXByZki7rC6">
             Början av 1970-talet utmärktes av en enorm utvecklingsoptimism.
             Centrumbildningar och fria grupper växte upp som svampar ur jorden.
@@ -5850,12 +5820,10 @@
         <note xml:id="i-BTZBinFY1VqEsWPMgZYWHr">
           240
         </note>
-        <u xml:id="i-TqVVD7U4JKnanYKS53v98M" who="i-EKAdp351JQgZiMQXg875jB" prev="i-497d98f8f3a87365-12" next="i-86fzjz7n5fgQxb9PJinzMF">
+        <u xml:id="i-TqVVD7U4JKnanYKS53v98M" who="i-EKAdp351JQgZiMQXg875jB" prev="i-497d98f8f3a87365-12" next="i-497d98f8f3a87365-17">
           <seg xml:id="i-LnnybUQWbtDxjzqttNyeHF">
             mätas.
           </seg>
-        </u>
-        <u xml:id="i-86fzjz7n5fgQxb9PJinzMF" who="i-EKAdp351JQgZiMQXg875jB" prev="i-TqVVD7U4JKnanYKS53v98M" next="i-UbagCy7z4NbWYjz6F2ppqA">
           <seg xml:id="i-NVUz7HJGLdyh9ko3P2kZPJ">
             Socialdepartementet kommer i år att genomföra en ny utvärdering
             av lördagsstängningen. Är det stabila tendenser till minskat fylleri
@@ -5922,15 +5890,13 @@
             av broschyrer utan tar till vara det stora engagemang som finns
             — är mycket värdefull.
           </seg>
-        </u>
-        <u xml:id="i-UbagCy7z4NbWYjz6F2ppqA" who="i-EKAdp351JQgZiMQXg875jB" prev="i-86fzjz7n5fgQxb9PJinzMF" next="i-497d98f8f3a87365-17">
           <seg xml:id="i-7w9rFkFsbVdEaCU9jk2mGw">
             ”Aktion mot droger” har nu övertagits av socialstyrelsens nya
             sektion för
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198283--72/prot_198283__72-066.jp2/_view"/>
-        <u xml:id="i-497d98f8f3a87365-17" who="i-EKAdp351JQgZiMQXg875jB" prev="i-UbagCy7z4NbWYjz6F2ppqA" next="i-4o3idYEmbT5Q256T25WWXh">
+        <u xml:id="i-497d98f8f3a87365-17" who="i-EKAdp351JQgZiMQXg875jB" prev="i-TqVVD7U4JKnanYKS53v98M" next="i-497d98f8f3a87365-21">
           <seg xml:id="i-gXpkKERGBRUeATj5BVqLz">
             droginformation. Där planeras en ambitiös fortsättning med insatser
             som Nr 72
@@ -5939,14 +5905,10 @@
             bl.a. går ut på att den allmänna förståelsen för vår alkoholpolitik
             Onsdagen den
           </seg>
-        </u>
-        <u xml:id="i-4o3idYEmbT5Q256T25WWXh" who="i-EKAdp351JQgZiMQXg875jB" prev="i-497d98f8f3a87365-17" next="i-497d98f8f3a87365-18">
           <seg xml:id="i-X4rEBvA1hK48V5iUNga5RM">
             förstärks; 2 februari 1983 Regeringen har i budgetpropositionen
             bl. a. öronmärkt 3,2 milj. kr. för
           </seg>
-        </u>
-        <u xml:id="i-497d98f8f3a87365-18" who="i-EKAdp351JQgZiMQXg875jB" prev="i-4o3idYEmbT5Q256T25WWXh" next="i-497d98f8f3a87365-21">
           <seg xml:id="i-JoDnQXSRBRJpdc6o9NzbLo">
             kamratstödjande insatser i arbetslivet. Det är ett svar på önskemål
             från LO Allmänpolitisk och TCO om ökad stadga och kontinuitet
@@ -6033,7 +5995,7 @@
         <note xml:id="i-TwY7CMrpD2ECN7br97vrPf">
           242
         </note>
-        <u xml:id="i-497d98f8f3a87365-21" who="i-EKAdp351JQgZiMQXg875jB" prev="i-497d98f8f3a87365-18">
+        <u xml:id="i-497d98f8f3a87365-21" who="i-EKAdp351JQgZiMQXg875jB" prev="i-497d98f8f3a87365-17">
           <seg xml:id="i-J6CSrr2J5TU236QXfy6W9B">
             blir gravid. Styrkan är hennes egen — men utan solidaritet från
             medmänniskor hade hon förmodligen ändå inte klarat det mot så

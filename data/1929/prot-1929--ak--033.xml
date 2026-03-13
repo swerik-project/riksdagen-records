@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-BWqXgETwizKkJkXsPCnhCo" type="speech">
             <linkGrp type="u">
               <ptr target="#i-de69b1258206b37b-0"/>
@@ -397,7 +397,13 @@
               <ptr target="#i-SMpPD5wDAPpYFrP2CgW37M"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -680,7 +686,7 @@
         <note xml:id="i-429595MAPniGmZmsrvq4dc" type="date">
           4 Lördagen den 4 maj.
         </note>
-        <u xml:id="i-9702c7ee110481d8-1" who="i-Xk2ZY1AVkT44C7mHKMPyhE" prev="i-9702c7ee110481d8-0" next="i-3dPpEmjGoPLgUb2QMUFshV">
+        <u xml:id="i-9702c7ee110481d8-1" who="i-Xk2ZY1AVkT44C7mHKMPyhE" prev="i-9702c7ee110481d8-0" next="i-9702c7ee110481d8-3">
           <seg xml:id="i-LRHqTTSiuKb8TURpRMiz7y">
             människor, som läste den tidningen, då tyckte, att det i alla
             fall var skönt, att man ägde ett så vakande öga, som konstitutionsutskottet
@@ -690,13 +696,9 @@
             sas. tillser, att övergrepp, väld och eventuella misstag bli
             på det sättet, som med
           </seg>
-        </u>
-        <u xml:id="i-3dPpEmjGoPLgUb2QMUFshV" who="i-Xk2ZY1AVkT44C7mHKMPyhE" prev="i-9702c7ee110481d8-1" next="i-9702c7ee110481d8-2">
           <seg xml:id="i-DS22RfgwxRctspXJDeFygd">
             den ifrågavarande rubriken angavs, beivrade.
           </seg>
-        </u>
-        <u xml:id="i-9702c7ee110481d8-2" who="i-Xk2ZY1AVkT44C7mHKMPyhE" prev="i-3dPpEmjGoPLgUb2QMUFshV" next="i-9702c7ee110481d8-3">
           <seg xml:id="i-RaewNHqyMjE3yZbGkJSMLY">
             Om det emellertid då också fanns läsare av den tidningen — och
             det fanns det säkerligen — som voro förtrogna med innehållet och
@@ -767,7 +769,7 @@
         <note xml:id="i-RrHfptQBba7bq1peqKWJjm" type="title">
           Lördagen den 4 maj. 5
         </note>
-        <u xml:id="i-9702c7ee110481d8-3" who="i-Xk2ZY1AVkT44C7mHKMPyhE" prev="i-9702c7ee110481d8-2" next="i-9702c7ee110481d8-4">
+        <u xml:id="i-9702c7ee110481d8-3" who="i-Xk2ZY1AVkT44C7mHKMPyhE" prev="i-9702c7ee110481d8-1" next="i-9702c7ee110481d8-4">
           <seg xml:id="i-GAhS5hUsu2EksndvnDtrTM">
             Man kan därför icke med skäl påstå att ett beslut i överensstämmelse
             med den förstnämnda uppfattningen är av sådan art, att det borde
@@ -1158,15 +1160,13 @@
         <note xml:id="i-RZqzzJpwEpnnuLYMsNVWuG" type="speaker">
           Chefen för ecklesiastikdepartementet herr statsrådet Lindskog:
         </note>
-        <u xml:id="i-ab9a75b75f246754-0" who="i-LQQRATwQoanxUUgKXNZmAM" next="i-Ba89NzUWTQEyVN6dLGY1Wc">
+        <u xml:id="i-ab9a75b75f246754-0" who="i-LQQRATwQoanxUUgKXNZmAM" next="i-ab9a75b75f246754-2">
           <seg xml:id="i-2cLW7Y9GyXvyRZ7wDMRajd">
             Herr talman! Konstitutionsutskottets föreliggande anmärkning
             berör ett ärende om försäljning av kyrklig jord; och torde jag
             först få bringa i kammarens erinran huvudinnehållet i de härutinnan
             gällande bestämmelserna.
           </seg>
-        </u>
-        <u xml:id="i-Ba89NzUWTQEyVN6dLGY1Wc" who="i-LQQRATwQoanxUUgKXNZmAM" prev="i-ab9a75b75f246754-0" next="i-ab9a75b75f246754-1">
           <seg xml:id="i-QJCJV1M2MV73fy4TZNor2q">
             Enligt lagen den 4 januari 1927 i detta ämne kan medgivande till
             försäljning av kyrklig jord lämnas bland annat under i huvudsak
@@ -1183,8 +1183,6 @@
             hör vederbörande lokala myndigheter. Klagan över kammarkollegii
             beslut föres hos Kungl. Maj:t i statsrådet.
           </seg>
-        </u>
-        <u xml:id="i-ab9a75b75f246754-1" who="i-LQQRATwQoanxUUgKXNZmAM" prev="i-Ba89NzUWTQEyVN6dLGY1Wc" next="i-ab9a75b75f246754-2">
           <seg xml:id="i-VZnkWzkLMizVCKKAg195cL">
             Den kyrkliga jord, varom här är fråga, är i allmänhet utarrenderad
             på längre perioder eller innehaves av boställshavare såsom löneförmån.
@@ -1211,7 +1209,7 @@
         <note xml:id="i-NpAfq7QuWh6oFQYKCXAZmg" type="date">
           10 Lördagen den 4 maj.
         </note>
-        <u xml:id="i-ab9a75b75f246754-2" who="i-LQQRATwQoanxUUgKXNZmAM" prev="i-ab9a75b75f246754-1" next="i-ab9a75b75f246754-3">
+        <u xml:id="i-ab9a75b75f246754-2" who="i-LQQRATwQoanxUUgKXNZmAM" prev="i-ab9a75b75f246754-0" next="i-ab9a75b75f246754-3">
           <seg xml:id="i-TBE46Tzp5g8EZePtjVQ4ZB">
             komplicera frågan om de villkor, som böra stadgas för ett medgivande
             till friköpningen.
@@ -2422,7 +2420,7 @@
         <note xml:id="i-YSUxh2FEt1igMSpRAgVvT4" type="date">
           24 Lördagen den 4 maj.
         </note>
-        <u xml:id="i-c8bcf1f21fb08393-3" who="i-4kz1fC2gQwdiC7G6RzQ2SK" prev="i-c8bcf1f21fb08393-2" next="i-LTsWpEoQ8AZmQ9KTtd4cPF">
+        <u xml:id="i-c8bcf1f21fb08393-3" who="i-4kz1fC2gQwdiC7G6RzQ2SK" prev="i-c8bcf1f21fb08393-2">
           <seg xml:id="i-TYo4Jon57T4GQhksjkBXcn">
             stånd, läggas till grund vid en blivande värdering enligt ensittarlagen,
             då kunde man verkligen säga, att ensittarlagen icke här skulle
@@ -2453,8 +2451,6 @@
             Jag ber därför att få ändra mitt yrkande därhän, att anmärkningen
             må med ogillande läggas till handlingarna.
           </seg>
-        </u>
-        <u xml:id="i-LTsWpEoQ8AZmQ9KTtd4cPF" who="i-4kz1fC2gQwdiC7G6RzQ2SK" prev="i-c8bcf1f21fb08393-3">
           <seg xml:id="i-LRNWnsGWegZgd7zrLeakLr">
             I detta anförande instämde herrar Pettersson i Hällbacken, Johansson
             i Sollefteå, Hage, Selberg och Norling.
@@ -3076,7 +3072,7 @@
         <note xml:id="i-GUGFigLX5xFeaF3Lu2LGUz" type="date">
           Lördagen den 4 maj. 31
         </note>
-        <u xml:id="i-ee197c46a500bd03-1" who="i-9176GQUFtfs5bLdpQnVS9M" prev="i-ee197c46a500bd03-0" next="i-JSeDdbUXeokM9sd8Dtp8Xs">
+        <u xml:id="i-ee197c46a500bd03-1" who="i-9176GQUFtfs5bLdpQnVS9M" prev="i-ee197c46a500bd03-0">
           <seg xml:id="i-MG7q8wucBdtZ9RTLC3SQj8">
             i anledning av en sålunda framlagd utredning, därest de icke
             utan vidare lägga utredningen till handlingarna, är att avlåta
@@ -3096,8 +3092,6 @@
             min tanke i strid med grundlagens anda, och medkammaren har icke
             heller denna praxis, utan följer i detta fall grundlagens tankegång.
           </seg>
-        </u>
-        <u xml:id="i-JSeDdbUXeokM9sd8Dtp8Xs" who="i-9176GQUFtfs5bLdpQnVS9M" prev="i-ee197c46a500bd03-1">
           <seg xml:id="i-Nzbp8oTz4H3YsY1GeaaGk9">
             Jag har, herr talman, såsom medlem av konstitutionsutskottet
             ansett mig vara skyldig att erinra om grundlagens andemening,
@@ -4241,7 +4235,7 @@
         <note xml:id="i-CEEL3xcBRU4sgx2y7K6j31" type="date">
           44 Lördagen den 4 maj.
         </note>
-        <u xml:id="i-5mdNP7ZCftm9Eb3MkkqNmK" who="i-YLYgwWkay3eTxx2S1Y9nQY" prev="i-39ee87d47af1a60a-5" next="i-39ee87d47af1a60a-7">
+        <u xml:id="i-5mdNP7ZCftm9Eb3MkkqNmK" who="i-YLYgwWkay3eTxx2S1Y9nQY" prev="i-39ee87d47af1a60a-5" next="i-39ee87d47af1a60a-8">
           <seg xml:id="i-U1UE57RcPLBxVwo5L477Uq">
             relsens försorg, ett skydd, som skulle åstadkommas genom förbud
             mot betning av hemdjur å samfälld skogsmark, föreslog skogsvårdsstyrelsen,
@@ -4249,8 +4243,6 @@
             ske från och med den 1 juli för nötkreaturens vidkommande. Härom
             utfärdades också kungörelse, och denna trädde i kraft år 1928.
           </seg>
-        </u>
-        <u xml:id="i-39ee87d47af1a60a-7" who="i-YLYgwWkay3eTxx2S1Y9nQY" prev="i-5mdNP7ZCftm9Eb3MkkqNmK" next="i-39ee87d47af1a60a-8">
           <seg xml:id="i-VzkppTVhfzrtxVWZqwYKet">
             Det har emellertid visat sig, att allmänheten i vissa delar av
             länet blivit mycket missbelåten med dessa bestämmelser, och det
@@ -4326,7 +4318,7 @@
         <note xml:id="i-4woKJ8TFkfsGr9UZGsPLR7" type="date">
           Lördagen den 4 maj. 45
         </note>
-        <u xml:id="i-39ee87d47af1a60a-8" who="i-YLYgwWkay3eTxx2S1Y9nQY" prev="i-39ee87d47af1a60a-7">
+        <u xml:id="i-39ee87d47af1a60a-8" who="i-YLYgwWkay3eTxx2S1Y9nQY" prev="i-5mdNP7ZCftm9Eb3MkkqNmK">
           <seg xml:id="i-3ATaH13nbkKbavjoQUhVmi">
             beskaffenhet, att lagen medför ekonomiska olägenheter för dessa
             mindre jordbrukare. Under sådana förhållanden bör man ju, såsom
@@ -4446,7 +4438,7 @@
         <note xml:id="i-Gmij1huynqKXSvsk3P7UAK" type="speaker">
           Herr Olsson 1 Mellerud:
         </note>
-        <u xml:id="i-d8c40122b61c4d8a-0" who="unknown" next="i-45uxLshwnFy8Xg9UkDfmRK">
+        <u xml:id="i-d8c40122b61c4d8a-0" who="unknown">
           <seg xml:id="i-RQ2cRmy8yFwxSyGnDwobS2">
             Herr talman! Jag kunde kanske ha nöjt mig med att i stort sett
             instämma i vad herr Ryberg för en stund sedan yttrade i denna
@@ -4477,8 +4469,6 @@
             framställts av herr Andersson i Rasjön om bifall till utskottets
             hemställan men med strykande av dess motivering.
           </seg>
-        </u>
-        <u xml:id="i-45uxLshwnFy8Xg9UkDfmRK" who="unknown" prev="i-d8c40122b61c4d8a-0">
           <seg xml:id="i-UEgynnLgJqKavEHBRsWQj9">
             Efter härmed slutad överläggning framställde herr talmannen propositioner
             dels på bifall till utskottets hemställan med godkännande av dess
@@ -4709,7 +4699,7 @@
         <note xml:id="i-QSMTvrg8hP1TmMsvxDQKNQ" type="date">
           Lördagen den 4 maj. 49
         </note>
-        <u xml:id="i-225c8b30cfd10826-1" who="i-3XFieHvCxpEc9aqT4qbsAD" prev="i-225c8b30cfd10826-0" next="i-4mEXyY9DQbLC33T8rCDuYD">
+        <u xml:id="i-225c8b30cfd10826-1" who="i-3XFieHvCxpEc9aqT4qbsAD" prev="i-225c8b30cfd10826-0">
           <seg xml:id="i-XLZ12q4MrhEM9Q7GHJ1w7S">
             Småland, som hade kommit fyra dagar för sent till vederbörande
             myndigheter och nu begärde ersättning i anledning av en förskingringshistoria.
@@ -4785,8 +4775,6 @@
             vägen är att kammaren följer det förslag, som här föreligger från
             utskottet.
           </seg>
-        </u>
-        <u xml:id="i-4mEXyY9DQbLC33T8rCDuYD" who="i-3XFieHvCxpEc9aqT4qbsAD" prev="i-225c8b30cfd10826-1">
           <seg xml:id="i-85Hv33JXvEFF8SjMShbHoQ">
             Jag yrkar därför, herr talman, bifall till utskottets hemställan.
           </seg>
@@ -5418,7 +5406,7 @@
         <note xml:id="i-EzuBfKAio1j96aEs5H2Eh4" type="date">
           56 Lördagen den 4 maj.
         </note>
-        <u xml:id="i-748b22c5c611ca29-1" who="i-TxRCzzgetP7718TE7usGwh" prev="i-748b22c5c611ca29-0" next="i-SMpPD5wDAPpYFrP2CgW37M">
+        <u xml:id="i-748b22c5c611ca29-1" who="i-TxRCzzgetP7718TE7usGwh" prev="i-748b22c5c611ca29-0">
           <seg xml:id="i-AtVfmwNuvHV3X6LWfffNgm">
             avseenden. Jag sätter ju inte så förskräckligt stort pris på
             bragder av varje slag, men det jag här kommer in på, är av det
@@ -5436,8 +5424,6 @@
             riksdagens andra kammare, och det är på samtliga av mig anförda
             skäl jag ber att få yrka bifall till utskottets förslag.
           </seg>
-        </u>
-        <u xml:id="i-SMpPD5wDAPpYFrP2CgW37M" who="i-TxRCzzgetP7718TE7usGwh" prev="i-748b22c5c611ca29-1">
           <seg xml:id="i-5F4tNEeNkswqHd6KQz2vZp">
             Efter härmed slutad överläggning gav herr talmannen propositioner
             dels på bifall till utskottets hemställan i förevarande punkt,

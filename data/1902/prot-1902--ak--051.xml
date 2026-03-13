@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-FAYfkd5gQKgbQomv8KQoj" type="speech">
             <linkGrp type="u">
               <ptr target="#i-UpLw6UUYx4kLa2xbcqonBF"/>
@@ -411,7 +411,13 @@
               <ptr target="#i-NHepuorpc6jS5RHnwa26pL"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -506,7 +512,7 @@
         <note xml:id="i-EjwEWdxDo4J9WYCdUEuLJj" type="speaker">
           Herr Zetterstrand:
         </note>
-        <u xml:id="i-UpLw6UUYx4kLa2xbcqonBF" who="i-7PPDYGig7k4bxzbKBQKEXq" next="i-Fjuoppi3mSzqkZtrJqm5Td">
+        <u xml:id="i-UpLw6UUYx4kLa2xbcqonBF" who="i-7PPDYGig7k4bxzbKBQKEXq">
           <seg xml:id="i-9e79jPUwXjPZnqCDTVicK1">
             Det förefaller mig, som om det skulle egt rum något förbiseende
             i afseende på denna punkt. I punkten talas nemligen först om Kongl.
@@ -516,8 +522,6 @@
             till statsregleringen, men här finnes icke något svar på Kongl.
             Maj:ts framställning om afsättande af ett belopp till kasernbyggnadsfonden.
           </seg>
-        </u>
-        <u xml:id="i-Fjuoppi3mSzqkZtrJqm5Td" who="i-7PPDYGig7k4bxzbKBQKEXq" prev="i-UpLw6UUYx4kLa2xbcqonBF" next="i-74HyfueQ5L4MhTyv4Nw5UL">
           <seg xml:id="i-SAfjxNsf68Hzb5pRdbhr3k">
             I anledning häraf tillåter jag mig hemställa, att åt beslutet
             må gifvas den lydelse, att Riksdagen, med afslag å Kongi. Maj:ts
@@ -525,8 +529,6 @@
             må i riksstaten för år 1903 uppföra ett belopp af 6,500,000 kronor
             att afsättas till förstärkning af 1904 års statsreglering.
           </seg>
-        </u>
-        <u xml:id="i-74HyfueQ5L4MhTyv4Nw5UL" who="i-7PPDYGig7k4bxzbKBQKEXq" prev="i-Fjuoppi3mSzqkZtrJqm5Td">
           <seg xml:id="i-T4BcwkPqpuoqyxaUqRkZXt">
             Jag gör detta yrkande derför, att det förefaller mig, som om
             eljest icke något svar skulle föreligga å Kongl. Maj:ts framställning
@@ -630,13 +632,11 @@
         <note xml:id="i-6713REXtSUPLJb2GcFbdwK">
           Regeringsformen. 8 57.
         </note>
-        <u xml:id="i-JhCWsG3ryMQthwXL9WLEaK" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-Xeuw9RYcU7h5otu77F4boi" next="i-FkssXFXqXcuseMCrpaSgMA">
+        <u xml:id="i-JhCWsG3ryMQthwXL9WLEaK" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-Xeuw9RYcU7h5otu77F4boi" next="i-DJR7ar9tVZCjTWugNQrZCC">
           <seg xml:id="i-K4Y6qgRjHMzrQRxZbE5QQs">
             Svenska folkets urgamla rätt att sig beskatta,utöfvas af Riksdagen
             allena.
           </seg>
-        </u>
-        <u xml:id="i-FkssXFXqXcuseMCrpaSgMA" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-JhCWsG3ryMQthwXL9WLEaK" next="i-DJR7ar9tVZCjTWugNQrZCC">
           <seg xml:id="i-4JaTBFPcasz8cWuBRt8urr">
             Huruledes särskilda menigheter må för egna behof sig beskatta,
             bestämmes genom kommunallagarne. Dessa stiftas af Konungen och
@@ -652,7 +652,7 @@
         <note xml:id="i-5vYP1zhJ3BF7noA8DuBKkB" type="date">
           4 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-DJR7ar9tVZCjTWugNQrZCC" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-FkssXFXqXcuseMCrpaSgMA" next="i-HUiuJRzuKvNg4mbH4UaQUe">
+        <u xml:id="i-DJR7ar9tVZCjTWugNQrZCC" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-JhCWsG3ryMQthwXL9WLEaK" next="i-HUiuJRzuKvNg4mbH4UaQUe">
           <seg xml:id="i-2R3FCUdaiLKEe9vCXQUnXi">
             Riksdagen gemensamt och må, hvad angår rösträtt och röstberäkning,
             ej ändras, utan genom Konungens och två lagtima Riksdagars beslut,
@@ -1083,7 +1083,7 @@
           väljas för en tid af tre år, räknade från och med januari månads
           början året näst efter det, under hvilket valet skett.
         </note>
-        <u xml:id="i-VEsyXxopAZuejUx4GrjTQy" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-U4sTnU8xnTBUx3bovjUGXG" next="i-CZVZ9PjHRgAeuzgpCPH6hv">
+        <u xml:id="i-VEsyXxopAZuejUx4GrjTQy" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-U4sTnU8xnTBUx3bovjUGXG" next="i-6Mjtzak4Vm4cUiic9ieChL">
           <seg xml:id="i-YHn1R9Fg54B8m6MGDhHVe8">
             2. Rikets städer jemte sådana köpingar och i kommunallag omförmälta
             municipalsamhällen, der folkmängden uppgår till minst ett tusen,
@@ -1093,8 +1093,6 @@
             bestämmes efter förhållande mellan folkmängden i stadsvalkretsarne
             och landtvalkretsarne.
           </seg>
-        </u>
-        <u xml:id="i-CZVZ9PjHRgAeuzgpCPH6hv" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-VEsyXxopAZuejUx4GrjTQy" next="i-6Mjtzak4Vm4cUiic9ieChL">
           <seg xml:id="i-SPoYqzT1YZyRxv42kWEXJP">
             3. Hvarje domsaga med undantag af dertill hörande köpingar och
             municipalsamhällen af beskaffenhet, som i mom. 2 sägs, utgör en
@@ -1135,7 +1133,7 @@
         <note xml:id="i-EqQcWrUzByLJpAAMKuPcrL" type="date">
           10 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-6Mjtzak4Vm4cUiic9ieChL" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-CZVZ9PjHRgAeuzgpCPH6hv" next="i-GnzbkPSBEDVaEToconSb7c">
+        <u xml:id="i-6Mjtzak4Vm4cUiic9ieChL" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-VEsyXxopAZuejUx4GrjTQy" next="i-GnzbkPSBEDVaEToconSb7c">
           <seg xml:id="i-6mqZnwZFS7ZxCXj9EpxqXS">
             ligen ske kan, länsvis, i så många valkretsar, som, med iakttagande
             af att hvardera utser en riksdagsman, erfordras för uppnående
@@ -1148,7 +1146,7 @@
         <note xml:id="i-X67C9NR8YK5vBCzz3NaEwz">
           (Forts.)
         </note>
-        <u xml:id="i-GnzbkPSBEDVaEToconSb7c" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-6Mjtzak4Vm4cUiic9ieChL" next="i-QG9hyYdvd8pMzsPzro7wSB">
+        <u xml:id="i-GnzbkPSBEDVaEToconSb7c" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-6Mjtzak4Vm4cUiic9ieChL" next="i-KL27rfj49M3ioo9DcG183i">
           <seg xml:id="i-EvUjgTx3nKa7TSCobd3A7N">
             5. Det antal riksdagsmän, som enligt mom. 2 bör utses för stadsvalkretsarne
             och för landtvalkretsarne, liksom riksdagsmännens antal för hvar
@@ -1160,8 +1158,6 @@
             tillämpning förr än vid de val, hvilka näst derefter enligt 8
             15 mom. 1 skola ega rum.
           </seg>
-        </u>
-        <u xml:id="i-QG9hyYdvd8pMzsPzro7wSB" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-GnzbkPSBEDVaEToconSb7c" next="i-KL27rfj49M3ioo9DcG183i">
           <seg xml:id="i-NDZTYzDx7MWFuCpugWLish">
             Köping eller annat samhälle, som på grund af stadsprivilegier
             eller eljest skall ingå i stadsvalkrets, räknas i fråga om riksdagsmannaval
@@ -1182,7 +1178,7 @@
           ett hundra riksdaler eller ock i bevillning för årlig inkomst
           erlägger till staten minst femtio öre.
         </note>
-        <u xml:id="i-KL27rfj49M3ioo9DcG183i" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-QG9hyYdvd8pMzsPzro7wSB" next="i-8WFv7JdUiF2KgGZaj1GWbr">
+        <u xml:id="i-KL27rfj49M3ioo9DcG183i" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-GnzbkPSBEDVaEToconSb7c" next="i-8WFv7JdUiF2KgGZaj1GWbr">
           <seg xml:id="i-3r5VANW7uFSMAN1zMQKN4o">
             Värdet af fastighet, som ej skall till bevillning för sig taxeras,
             bestämmes i den ordning och efter de grunder, som för dylik taxering
@@ -1200,13 +1196,11 @@
           köping eller municipalsamhälle, och derutöfver, efter folkmängden,
           en för hvarje fullt tal af femhundra. Dessa elektorer — — —
         </note>
-        <u xml:id="i-8WFv7JdUiF2KgGZaj1GWbr" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-KL27rfj49M3ioo9DcG183i" next="i-Rj5iZ3NN8dHph5df4yr2WX">
+        <u xml:id="i-8WFv7JdUiF2KgGZaj1GWbr" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-KL27rfj49M3ioo9DcG183i" next="i-7VjKMtCeKFgcAkBwHUubc4">
           <seg xml:id="i-FZuRFX2pC1NBHxgrNKG6jn">
             SO -- — eger. 3. Kommuner, så ock i mom. 2 omförmälta municipalsamhällen,
             hvilka hafva att gemensamt — — — — — — — — — beslutas.
           </seg>
-        </u>
-        <u xml:id="i-Rj5iZ3NN8dHph5df4yr2WX" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-8WFv7JdUiF2KgGZaj1GWbr" next="i-7VjKMtCeKFgcAkBwHUubc4">
           <seg xml:id="i-SvQXoZ6FHqMaFfpR9c2xMB">
             Då förslag härom af de röstberättigade i en kommun eller sådant
             municipalsamhälle väckes medelst beslut, fattadt inför magistrat,
@@ -1225,7 +1219,7 @@
         <note xml:id="i-3frvgKzaJwunAqJocbyRsy" type="date">
           Torsdagen den 15 Maj. 11 N:o 51.
         </note>
-        <u xml:id="i-7VjKMtCeKFgcAkBwHUubc4" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-Rj5iZ3NN8dHph5df4yr2WX" next="i-MDSKGuMfDQk5khnVe9M9K3">
+        <u xml:id="i-7VjKMtCeKFgcAkBwHUubc4" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-8WFv7JdUiF2KgGZaj1GWbr" next="i-MDSKGuMfDQk5khnVe9M9K3">
           <seg xml:id="i-B8hdKinKd8oHXFfvf6nDSV">
             nas sammanräknande och fullmakts utfärdande åt den, som de flesta
             Angående rösterna erhållit, valprotokollen insändas för kommunerna
@@ -1370,13 +1364,11 @@
         <note xml:id="i-95ackBvpV8fu4A64mnPyRm">
           Regeringsformen, 8 57.
         </note>
-        <u xml:id="i-5pBAtFJ9vgVcNYSqhy9QsV" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-MAePF195Ub4svuA8PKGcCK" next="i-CsqwY1LoNDrXSXtkyZbM9Z">
+        <u xml:id="i-5pBAtFJ9vgVcNYSqhy9QsV" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-MAePF195Ub4svuA8PKGcCK" next="i-F6Fq4FVxqni8fp8H56SSzF">
           <seg xml:id="i-9dp2mgoRiAXR3PgWFYGqzS">
             Svenska folkets urgamla rätt att sig beskatta utöfvas af Riksdagen
             allena.
           </seg>
-        </u>
-        <u xml:id="i-CsqwY1LoNDrXSXtkyZbM9Z" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-5pBAtFJ9vgVcNYSqhy9QsV" next="i-F6Fq4FVxqni8fp8H56SSzF">
           <seg xml:id="i-2eUHfBR6nVdtjALiq2hJyQ">
             Huruledes särskild menighet må för eget behof sig beskatta, så
             ock hvad angår vilkoren för att i dess allmänna angelägenheter
@@ -1424,7 +1416,7 @@
           tilllägg rörande de icke i kommunens allmänna angelägenheter röstberättigade,
           hvilka må enligt samma $, mom. 2, ega valrätt.
         </note>
-        <u xml:id="i-F6Fq4FVxqni8fp8H56SSzF" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-CsqwY1LoNDrXSXtkyZbM9Z" next="i-Sp71SzefUvef6ukCTZ71iV">
+        <u xml:id="i-F6Fq4FVxqni8fp8H56SSzF" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-5pBAtFJ9vgVcNYSqhy9QsV" next="i-Sp71SzefUvef6ukCTZ71iV">
           <seg xml:id="i-ApBt1N4YNaeQJnq8w1hgFo">
             Då val förestår, låte å landet kommunalstämmans ordförande och
             i stad magistraten hålla röstlängden, försedd med nämnda anteckning
@@ -1499,7 +1491,7 @@
           för en tid af tre år, räknade från och med januari månads början
           året näst efter det, under hvilket valet skett.
         </note>
-        <u xml:id="i-3smUHVArm3Ur7YcjPjop91" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-Sp71SzefUvef6ukCTZ71iV" next="i-GhwhAtpXnXbiU2oQQFZGW3">
+        <u xml:id="i-3smUHVArm3Ur7YcjPjop91" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-Sp71SzefUvef6ukCTZ71iV" next="i-MT3RypwzUmdYedgn3UFtMc">
           <seg xml:id="i-SzYdZ4fsrBFHqvwQ1717ju">
             2. landet utses för hvarje domsaga en riksdagsman. Understiger
             domsagornas antal etthundrafemtio, skola, för ernående af det
@@ -1510,8 +1502,6 @@
             hvarandra och hafva minsta sammanlagda folkmängden, förenas, två
             och två, till en valkrets.
           </seg>
-        </u>
-        <u xml:id="i-GhwhAtpXnXbiU2oQQFZGW3" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-3smUHVArm3Ur7YcjPjop91" next="i-MT3RypwzUmdYedgn3UFtMc">
           <seg xml:id="i-NzmPD6Ukr9pkP5eHaqA5te">
             3. I stad, hvars folkmängd uppgår till eller öfverstiger en åttiondedel
             af folkmängden i rikets alla städer, väljes efter stadens folkmängd
@@ -1531,7 +1521,7 @@
         <note xml:id="i-GnVCnkAQmAxkeiC2yHVuhA" type="date">
           Torsdagen den 15 Maj. 15 N:o 51.
         </note>
-        <u xml:id="i-MT3RypwzUmdYedgn3UFtMc" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-GhwhAtpXnXbiU2oQQFZGW3" next="i-LP8vFj9oEdFrRy7Kjp6kDy">
+        <u xml:id="i-MT3RypwzUmdYedgn3UFtMc" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-3smUHVArm3Ur7YcjPjop91" next="i-T6Rj1Mqm7s2Wa3rsq5aBkN">
           <seg xml:id="i-2X4vsu288mGFuHsyAkGxfG">
             sig berättigar dem att utan förening med annan stad välja riksdags-
             Angående man, bestämmes, efter ofvan angifna grunder, hvart nionde
@@ -1540,8 +1530,6 @@
             derefter, enligt &amp; 15 mom. 1, — (Forts.) skola ega rum. 5.
             Uppgår städernas folkmängd till mer än åttio tvåhundra-
           </seg>
-        </u>
-        <u xml:id="i-LP8vFj9oEdFrRy7Kjp6kDy" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-MT3RypwzUmdYedgn3UFtMc" next="i-T6Rj1Mqm7s2Wa3rsq5aBkN">
           <seg xml:id="i-9uyxMcWNVt1vtFfjzfkzUH">
             trettiondedelar af folkmängden i hela riket, skall det här ofvan
             föreskrifna antalet riksdagsmän tvåhundratrettio utses för landet
@@ -1611,13 +1599,11 @@
         <note xml:id="i-7UMea2uXXebDoQ4AaXRWZ3" type="date">
           16 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-T6Rj1Mqm7s2Wa3rsq5aBkN" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-LP8vFj9oEdFrRy7Kjp6kDy" next="i-DZsJDXr5SuUZCeGvsuf3wu">
+        <u xml:id="i-T6Rj1Mqm7s2Wa3rsq5aBkN" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-MT3RypwzUmdYedgn3UFtMc" next="i-732ePMBVwA6SEiA4d4QDwA">
           <seg xml:id="i-KLX6tt4UPBkr1DjVEU6xM">
             äro förenade till en valkrets, inför domhafvanden i den af dessa
             domsagor, hvilken den största folkmängden eger.
           </seg>
-        </u>
-        <u xml:id="i-DZsJDXr5SuUZCeGvsuf3wu" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-T6Rj1Mqm7s2Wa3rsq5aBkN" next="i-Nzbsct1HdKyB12VUrhySCX">
           <seg xml:id="i-2HC5u4QKrqf6Af85zsCTgt">
             2. I de valkretsar, som bestå af två eller flera städer, utses
             inför magistraten en elektor för hvarje stad och derutöfver, efter
@@ -1625,8 +1611,6 @@
             sammanträda till riksdagsmannaval inför magistraten i den stad
             inom valkretsen, som största folkmängden eger.
           </seg>
-        </u>
-        <u xml:id="i-Nzbsct1HdKyB12VUrhySCX" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-DZsJDXr5SuUZCeGvsuf3wu" next="i-4s6pQ4EmnZUNJbhVo6aEZE">
           <seg xml:id="i-Q5xeJaJGbgcwgvEH1eQFNE">
             3. Kommuner, som hafva att gemensamt välja riksdagsman, ega dock
             begagna det omedelbara valsättet, derest af de röstberättigade
@@ -1643,8 +1627,6 @@
             beslut om dess upphörande kan på lika sätt som om dess införande
             fattas.
           </seg>
-        </u>
-        <u xml:id="i-4s6pQ4EmnZUNJbhVo6aEZE" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-Nzbsct1HdKyB12VUrhySCX" next="i-732ePMBVwA6SEiA4d4QDwA">
           <seg xml:id="i-GGwacxt7yfoToUUUd8T9rW">
             Vid de omedelbara valen afgifvas rösterna, särskildt för hvarje
             kommun, inför kommunalstämmas ordförande eller magistrat; och
@@ -1679,7 +1661,7 @@
           en röst. Den, som dervid erhållit de flestas röster, vare lagligen
           vald, och skilje lotten emellan dem, som erhållit lika röstetal.
         </note>
-        <u xml:id="i-732ePMBVwA6SEiA4d4QDwA" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-4s6pQ4EmnZUNJbhVo6aEZE" next="i-7LrdU5a3Qz6GVJD5bBQPiC">
+        <u xml:id="i-732ePMBVwA6SEiA4d4QDwA" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-T6Rj1Mqm7s2Wa3rsq5aBkN" next="i-7LrdU5a3Qz6GVJD5bBQPiC">
           <seg xml:id="i-XzWNqKz2MDTN6yP2R6Y3Sa">
             2. Vid dessa val skall för hvarje kommun till efterrättelse tjena
             den för kommunen gällande röstlängd, som bör innehålla anteckning
@@ -1968,15 +1950,13 @@
         <note xml:id="i-3hZWosv2rqvgSbsHcgHWTw" type="date">
           20 | Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-D8QuUsEx1dxSptXsU4kKpH" who="i-TG4E2mMyEjAwsk5JKoM6iy" prev="i-42iCVxonKZ9ZJCF3wSgfqY" next="i-4M76rhzz5B1WcC3CMsAHsp">
+        <u xml:id="i-D8QuUsEx1dxSptXsU4kKpH" who="i-TG4E2mMyEjAwsk5JKoM6iy" prev="i-42iCVxonKZ9ZJCF3wSgfqY" next="i-5EFVPwsoEQM7iYRjPd1vto">
           <seg xml:id="i-ByHwoYwgp15waNdznxKa7w">
             fullbordas intill innevarande års riksdag. Regeringen stod likväl
             förra året inför det spörsmål, huruvida icke ett rösträttsförslag
             borde till denna riksdag framläggas; och regeringen besvarade
             detta spörsmål jakande.
           </seg>
-        </u>
-        <u xml:id="i-4M76rhzz5B1WcC3CMsAHsp" who="i-TG4E2mMyEjAwsk5JKoM6iy" prev="i-D8QuUsEx1dxSptXsU4kKpH" next="i-Gz3s8PssihvuUTpSwnM9VT">
           <seg xml:id="i-FZ5L2A6J2MAzuBA3rN58Zc">
             Hon gjorde detta af två skäl, det ena, att denna riksdag är den
             sista utaf valperioden. Det andra skälet var det beslut, hvartill
@@ -1992,8 +1972,6 @@
             tydligen att utgöra en synnerligen god ledning för det förslag,
             som kunde komma att derefter framläggas.
           </seg>
-        </u>
-        <u xml:id="i-Gz3s8PssihvuUTpSwnM9VT" who="i-TG4E2mMyEjAwsk5JKoM6iy" prev="i-4M76rhzz5B1WcC3CMsAHsp" next="i-5ZCJMi8LWyzSLHQwADWVfB">
           <seg xml:id="i-Ashd5zJRQi7ihDAP5Hvm6n">
             Beträffande den grund, hvarpå regeringen byggde sitt förslag,
             ansåg hon, att den kommunala rösträtten borde vara en synnerligen
@@ -2005,8 +1983,6 @@
             Man antog derför, att denna grund skulle kunna inom Riksdagen
             temligen allmänt accepteras.
           </seg>
-        </u>
-        <u xml:id="i-5ZCJMi8LWyzSLHQwADWVfB" who="i-TG4E2mMyEjAwsk5JKoM6iy" prev="i-Gz3s8PssihvuUTpSwnM9VT" next="i-R7C52FxQXiUzpSwHjQ4eN">
           <seg xml:id="i-46Crj6o6R3GCvWLjjN7mN7">
             Och hvilken annan grund, mina herrar, skulle väl regeringen kunnat
             välja? Den allmänna rösträttens grund? Men tillräcklig utredning
@@ -2021,8 +1997,6 @@
             att man ville förneka denna åt qvinnan, som hade samma ålder och
             icke vore disqvalificerad.
           </seg>
-        </u>
-        <u xml:id="i-R7C52FxQXiUzpSwHjQ4eN" who="i-TG4E2mMyEjAwsk5JKoM6iy" prev="i-5ZCJMi8LWyzSLHQwADWVfB" next="i-5EFVPwsoEQM7iYRjPd1vto">
           <seg xml:id="i-LFTQu3XNBGvPGSjF5HWppi">
             Af de vilkor och bestämmelser uti Kongl. Maj:ts förslag, som
             regeringen ansett böra uppställas vid sidan eller ofvan denna
@@ -2045,7 +2019,7 @@
         <note xml:id="i-4QJZnvQouE6cVVm5YEooDG" type="date">
           Torsdagen den 15 Maj. 21 N:o 51.
         </note>
-        <u xml:id="i-5EFVPwsoEQM7iYRjPd1vto" who="i-TG4E2mMyEjAwsk5JKoM6iy" prev="i-R7C52FxQXiUzpSwHjQ4eN">
+        <u xml:id="i-5EFVPwsoEQM7iYRjPd1vto" who="i-TG4E2mMyEjAwsk5JKoM6iy" prev="i-D8QuUsEx1dxSptXsU4kKpH">
           <seg xml:id="i-HMoyojptjX1MC9SeuZfX8J">
             leda fram till det mål, hvarefter vi sträfva, till en effektiv
             utvidgning Angående
@@ -2057,7 +2031,7 @@
         <note xml:id="i-SebcRLn9qwRRiJa2yiTGYt" type="speaker">
           Herr von Friesen:
         </note>
-        <u xml:id="i-EgKftKdKM4d23BGG2a1JAk" who="i-PfWLQcWc1zHmdsEJAzj7vd" next="i-SBP1aojapSkAqJRgBr7FPG">
+        <u xml:id="i-EgKftKdKM4d23BGG2a1JAk" who="i-PfWLQcWc1zHmdsEJAzj7vd" next="i-UtRc9mmLfTc6phLCynSbpv">
           <seg xml:id="i-QSMGpB7Jux7UJ8uC35M8Nr">
             Herr talman! Jag kan, då jag nu är den Et bland ledamöterna uti
             denna kammare, som börjar debatten från ” bänkarna, icke underlåta
@@ -2067,8 +2041,6 @@
             känner det ansvar, som hvilar på honom vid denna frågas afgörande,
             tyngre kanske än vid någon annan frågas afgörande.
           </seg>
-        </u>
-        <u xml:id="i-SBP1aojapSkAqJRgBr7FPG" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-EgKftKdKM4d23BGG2a1JAk" next="i-Y86gthGv4iAnsE8f3NG6HM">
           <seg xml:id="i-7gVxqoP8Xzk6VTNVRaCwG4">
             Det är afsigten att på ett effektivt sätt förändra representationsordningen.
             Det är meningen att skaffa in uti Andra Kammaren nya ögon att
@@ -2087,8 +2059,6 @@
             Det behöfves inom kammaren nya idéer, andra idéer än dem, som
             omedelbart representeras af de nuvarande representanterna.
           </seg>
-        </u>
-        <u xml:id="i-Y86gthGv4iAnsE8f3NG6HM" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-SBP1aojapSkAqJRgBr7FPG" next="i-WoKB1WvJc4tmJNvUiSprve">
           <seg xml:id="i-Giosjg9uUuA3a6Ar163cUg">
             Det kan icke heller förnekas, att de kraf, som från de rösträttslösas
             sida framställas, ju längre tiden går, blifva allt mer rättmätiga,
@@ -2113,8 +2083,6 @@
             genast något bör göras för tillmötesgående af dessa rättmätighetens
             och nödvändighetens kraf.
           </seg>
-        </u>
-        <u xml:id="i-WoKB1WvJc4tmJNvUiSprve" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-Y86gthGv4iAnsE8f3NG6HM" next="i-UtRc9mmLfTc6phLCynSbpv">
           <seg xml:id="i-i5F3Yzd754feYd9iYSMwE">
             Men hvad skall man då kunna tänka sig, att nu genast skall kunna
             ske? Vi hafva först Kongl. Maj:ts förslag, som här föreligger.
@@ -2130,7 +2098,7 @@
         <note xml:id="i-YSKrHdiPNfUyha1Budst7k" type="date">
           22 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-UtRc9mmLfTc6phLCynSbpv" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-WoKB1WvJc4tmJNvUiSprve" next="i-RF92ekneDN6M9MADBqRGeC">
+        <u xml:id="i-UtRc9mmLfTc6phLCynSbpv" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-EgKftKdKM4d23BGG2a1JAk" next="i-9cQeEWURR4LD7p9DYjpGVe">
           <seg xml:id="i-Ma7A475yguG5dQhDkgRG3Z">
             Efter hans excellens herr statsministerns yttrande vill jag icke
             längre uppehålla mig vid detta. Det förefaller, som om icke ens
@@ -2138,8 +2106,6 @@
             ej heller hafva någon utsigt att gå i någondera kammaren. Jag
             vill sålunda icke nu upptaga tiden med att yttra mig om detta.
           </seg>
-        </u>
-        <u xml:id="i-RF92ekneDN6M9MADBqRGeC" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-UtRc9mmLfTc6phLCynSbpv" next="i-9f5V74SAmtTMWVXaVtrKx7">
           <seg xml:id="i-YAgJu5yjnewrbCgWMyqPSy">
             Vidare har framkommit förslag om allmän rösträtt. Att detta är
             det mål, till hvilket vi sträfva, det torde väl, med tanke på
@@ -2159,8 +2125,6 @@
             ett definitivt beslut, grundadt på införandet af den allmänna
             rösträtten.
           </seg>
-        </u>
-        <u xml:id="i-9f5V74SAmtTMWVXaVtrKx7" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-RF92ekneDN6M9MADBqRGeC" next="i-TzbhRBgMyF4Ak1JCnDsGDq">
           <seg xml:id="i-EcebKphxbEypypAewgQZ1D">
             Vi hafva sedermera konstitutionsutskottets förslag. Detta synes
             mig ur många synpunkter vara mycket litet tilltalande, ja, omöjligt.
@@ -2190,8 +2154,6 @@
             i mycket högre grad träffa konstitutionsutskottets förslag. Redan
             derför synes mig detta förslag icke vara möjligt.
           </seg>
-        </u>
-        <u xml:id="i-TzbhRBgMyF4Ak1JCnDsGDq" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-9f5V74SAmtTMWVXaVtrKx7" next="i-9cQeEWURR4LD7p9DYjpGVe">
           <seg xml:id="i-Gwf65BfDDBX8CwP7uHyXvY">
             Vidare förekommer äfven i konstitutionsutskottets förslag det
             från Kongl. Maj:ts förslag upptagna tredubbla utskyldsstrecket.
@@ -2203,7 +2165,7 @@
         <note xml:id="i-F1foH2FW6vZpHz6eGBvSX" type="date">
           Torsdagen den 15 Maj. 23 N:o 51.
         </note>
-        <u xml:id="i-9cQeEWURR4LD7p9DYjpGVe" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-TzbhRBgMyF4Ak1JCnDsGDq" next="i-4qrmHK24o8XxejuSQ8wS69">
+        <u xml:id="i-9cQeEWURR4LD7p9DYjpGVe" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-UtRc9mmLfTc6phLCynSbpv" next="i-LrC4qYRqaJbDUHzfz18qBN">
           <seg xml:id="i-NXEPFLYfGG4quEQzazL9B3">
             långt i framtiden, att det skall utesluta från valrätt eljest
             dertill Angående berättigade och fullt oförvitliga menniskor,
@@ -2212,13 +2174,9 @@
             medföra något straff, så fort betalningen er- — (Forts. lagts.
             Jag tror, att äfven på grund af detta s. k. skärpta utskylds-
           </seg>
-        </u>
-        <u xml:id="i-4qrmHK24o8XxejuSQ8wS69" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-9cQeEWURR4LD7p9DYjpGVe" next="i-KbRgkjCcrfn8BfA3yPJPXu">
           <seg xml:id="i-JQVN3qadgBFoyQyc1eYihi">
             streck konstitutionsutskottets förslag är alldeles omöjligt.
           </seg>
-        </u>
-        <u xml:id="i-KbRgkjCcrfn8BfA3yPJPXu" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-4qrmHK24o8XxejuSQ8wS69" next="i-JYdnwJMmxE6eBbpjJAmnew">
           <seg xml:id="i-AwvpQSn3861sktS7nYpWwE">
             Derjemte förekommer i konstitutionsutskottets förslag en bestämmelse,
             hvilken måste förefalla mig orättvis och kränkande för åtskilliga
@@ -2238,8 +2196,6 @@
             mig, att det för hvem som helst bör synas synnerligen motbjudande
             att gå till väga på sådant sätt.
           </seg>
-        </u>
-        <u xml:id="i-JYdnwJMmxE6eBbpjJAmnew" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-KbRgkjCcrfn8BfA3yPJPXu" next="i-LrC4qYRqaJbDUHzfz18qBN">
           <seg xml:id="i-52YeyXLVadr2CEep92Nwi9">
             Går jag sedan till friherre von Knorrings förslag, så måste jag,
             på grund af hvad jag nyss nämnde rörande municipalsamhällen, ogilla
@@ -2284,13 +2240,11 @@
         <note xml:id="i-UTKMzF4yuuQEpLnXj7EgZg" type="date">
           24 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-LrC4qYRqaJbDUHzfz18qBN" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-JYdnwJMmxE6eBbpjJAmnew" next="i-VF8wELhZw1qTnQ5AvTcozZ">
+        <u xml:id="i-LrC4qYRqaJbDUHzfz18qBN" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-9cQeEWURR4LD7p9DYjpGVe" next="i-BN8ccZKJhGzcazNDDZbp4e">
           <seg xml:id="i-5JY6QxzZp5MQwREXDkGggw">
             sammankopplade städer klaga öfver de stora olägenheter, som medfölja
             en sådan sammankoppling, och klart är, att i många fall skall
           </seg>
-        </u>
-        <u xml:id="i-VF8wELhZw1qTnQ5AvTcozZ" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-LrC4qYRqaJbDUHzfz18qBN" next="i-BN8ccZKJhGzcazNDDZbp4e">
           <seg xml:id="i-MRQCSoyEXssQuHtd2hZydx">
             Kammaren. denna representationsrätt, som städerna sålunda hafva,
             blifva nära
@@ -2299,7 +2253,7 @@
         <note xml:id="i-N1WaSHzf4qxff2NM9fieiC">
           (Forts.)
         </note>
-        <u xml:id="i-BN8ccZKJhGzcazNDDZbp4e" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-VF8wELhZw1qTnQ5AvTcozZ" next="i-NkVfgaKcMFfbDnWCS5dqvc">
+        <u xml:id="i-BN8ccZKJhGzcazNDDZbp4e" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-LrC4qYRqaJbDUHzfz18qBN" next="i-gpanrXi7kBeV3Sh2Mg9fW">
           <seg xml:id="i-Y7u8xSnA9pdAmeQuPRG8zD">
             nog illusorisk för många af dessa städer. Men såsom sagdt, det
             har hittills varit en nödvändighet. Utjemnar man representationsrätten
@@ -2311,16 +2265,12 @@
             sak, att hvarje valkrets då skall vara ett slutet helt; det är
             efter territoriella grunder, som valkretsarne då skola bildas.
           </seg>
-        </u>
-        <u xml:id="i-NkVfgaKcMFfbDnWCS5dqvc" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-BN8ccZKJhGzcazNDDZbp4e" next="i-CVZEqeTCtHqcLXHgATUHNc">
           <seg xml:id="i-UQzjMpt4iQHpEYJvyHdmoy">
             Af dessa skäl är det mig omöjligt att anse friherre von Knorrings
             motion i denna del annat än såsom innebärande en stor orättvisa.
             Jag kan således icke skänka min röst åt något af de öfriga framlagda
             förslagen.
           </seg>
-        </u>
-        <u xml:id="i-CVZEqeTCtHqcLXHgATUHNc" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-NkVfgaKcMFfbDnWCS5dqvc" next="i-Bi8Z2V78PYPntqwRrCyV8X">
           <seg xml:id="i-YYRMhAgDSRgQBhD7QPX1B5">
             Det i vår motion framburna förslaget har för det första den stora
             förtjensten, att det borde utan svårighet genast kunna antagas.
@@ -2335,8 +2285,6 @@
             neutralisera hvad man egentligen vill vinna, nemligen en effektiv
             förändring af kammarens sammansättning.
           </seg>
-        </u>
-        <u xml:id="i-Bi8Z2V78PYPntqwRrCyV8X" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-CVZEqeTCtHqcLXHgATUHNc" next="i-Lyd4MfTnBbjpRKyDvQ5KPw">
           <seg xml:id="i-W3f5rhJumpfc8CbKqtBsLB">
             Man må ju äfven lägga märke dertill, att den tanken, som i denna
             motion tagit sig uttryck, har varit den, som framstegsmännen,
@@ -2348,8 +2296,6 @@
             för den, som verkligen önskar en effektiv utsträckning af rösträtten,
             vara angeläget att taga just detta förslag.
           </seg>
-        </u>
-        <u xml:id="i-Lyd4MfTnBbjpRKyDvQ5KPw" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-Bi8Z2V78PYPntqwRrCyV8X" next="i-DGsmY6PgbGv1Gn3LiGds6K">
           <seg xml:id="i-D7wpzqw7ocT2EAUCr96zhq">
             Jag är således på dessa skäl lifligt öfvertygad om, att det skulle
             lända till stor fördel för landets lugna och kraftiga utveckling,
@@ -2363,8 +2309,6 @@
             strider till stor skada för landets framtid och till verklig fara
             för landets utveckling.
           </seg>
-        </u>
-        <u xml:id="i-DGsmY6PgbGv1Gn3LiGds6K" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-Lyd4MfTnBbjpRKyDvQ5KPw" next="i-gpanrXi7kBeV3Sh2Mg9fW">
           <seg xml:id="i-P9dwmmpEZhtqoeDQjqXeYt">
             Jag får derför, herr talman, på det kraftigaste yrka afslag å
             konstitutionsutskottets framställning i denna punkt.
@@ -2378,7 +2322,7 @@
           Med herr von Friesen förenade sig herar Berg i Stockholm, Fred-
           Angående
         </note>
-        <u xml:id="i-gpanrXi7kBeV3Sh2Mg9fW" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-DGsmY6PgbGv1Gn3LiGds6K">
+        <u xml:id="i-gpanrXi7kBeV3Sh2Mg9fW" who="i-PfWLQcWc1zHmdsEJAzj7vd" prev="i-BN8ccZKJhGzcazNDDZbp4e">
           <seg xml:id="i-EGF2LeYcoxeCwHFPer1zHT">
             holm, Smith, Wallis, Persson i Arboga, Hammarström, Hammarlund,
             valrälten till Antonsson, Anderson i Hasselbol, Johansson i Oija,
@@ -2402,7 +2346,7 @@
         <note xml:id="i-F3SsZgoYkTgiHix8QFUMK4" type="speaker">
           Friherre Barnekow:
         </note>
-        <u xml:id="i-QQPgEj4JXrsuhJCJhqP9ck" who="i-WMeuxAewsQyBD46eUtkLFr" next="i-4kuXa7a653n5ydS1wbqHUQ">
+        <u xml:id="i-QQPgEj4JXrsuhJCJhqP9ck" who="i-WMeuxAewsQyBD46eUtkLFr" next="i-992XQrsjNsohimuzh1MSRy">
           <seg xml:id="i-r3YyLJZW8SzT9vEzgr8r3">
             Herr talman, mine herrar! Jag skall anhålla att få instämma med
             den förste talaren deruti, att jag anser, att en utvidgning af
@@ -2411,8 +2355,6 @@
             Riksdag varder antaget. Denna min ståndpunkt är icke ny, ty den
             har jag intagit under hela min verksamhet vid Riksdagen.
           </seg>
-        </u>
-        <u xml:id="i-4kuXa7a653n5ydS1wbqHUQ" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-QQPgEj4JXrsuhJCJhqP9ck" next="i-SG6iKDcdeE1wAiJs9Eyf4o">
           <seg xml:id="i-Rqek1y1TPp6HxDY18LVkjZ">
             Då jag nu biträdt konstitutionsutskottets föreliggande förslag,
             så skall jag anhålla att i någon mån få söka försvara detsamma
@@ -2421,8 +2363,6 @@
             måste jag ovilkorligen redogöra för hvad som inom utskottet försiggått
             för att få fram detta förslag.
           </seg>
-        </u>
-        <u xml:id="i-SG6iKDcdeE1wAiJs9Eyf4o" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-4kuXa7a653n5ydS1wbqHUQ" next="i-992XQrsjNsohimuzh1MSRy">
           <seg xml:id="i-GG2uHH9qXKhQRnroLy7gGw">
             Härvid vill jag tillkännagifva, att utskottet mottog dessa förslag
             om utvidgad rösträtt först i början af april månad, d. v. s. sedan
@@ -2453,12 +2393,10 @@
         <note xml:id="i-V4UuqgpXh8LsvMocGwiFN6" type="date">
           26 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-992XQrsjNsohimuzh1MSRy" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-SG6iKDcdeE1wAiJs9Eyf4o" next="i-HFS6unBjhfoYjjny2FYTT8">
+        <u xml:id="i-992XQrsjNsohimuzh1MSRy" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-QQPgEj4JXrsuhJCJhqP9ck" next="i-NYuNsosqYELzM3rG3QMnvA">
           <seg xml:id="i-G1FMKfP2XtcyEYrsu2rAZs">
             Sedan återstod ett i herr Lundgrens motion framstäldt förslag
           </seg>
-        </u>
-        <u xml:id="i-HFS6unBjhfoYjjny2FYTT8" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-992XQrsjNsohimuzh1MSRy" next="i-NYuNsosqYELzM3rG3QMnvA">
           <seg xml:id="i-9Mq7Qo71wM4mFYCtkCDEby">
             valrätten tillom graderad skala, och äfven detta förslag tog
             utskottet under om-
@@ -2474,15 +2412,13 @@
         <note xml:id="i-QG1KLPNLYwEz6wgv6c3HKu">
           (Forts.)
         </note>
-        <u xml:id="i-NYuNsosqYELzM3rG3QMnvA" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-HFS6unBjhfoYjjny2FYTT8" next="i-EC45CbvesbHQfFD7oDPtV1">
+        <u xml:id="i-NYuNsosqYELzM3rG3QMnvA" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-992XQrsjNsohimuzh1MSRy" next="i-FgtaEn4w1iUg68ipCTckRR">
           <seg xml:id="i-YAmNarEogdAwVmQGTyLKwk">
             i år få ett sådant förslag antaget, då deri iugick bestämmelse
             om en graderad skala, och det visat sig vid Kongl. Maj:ts förslag
             angående giftermålsstrecket, att det icke är någon inom utskottet
             och knappast i Riksdagen, som vill gå in på den graderade skalan.
           </seg>
-        </u>
-        <u xml:id="i-EC45CbvesbHQfFD7oDPtV1" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-NYuNsosqYELzM3rG3QMnvA" next="i-RMWBvzHs5eRPEVDa4swL7Y">
           <seg xml:id="i-WQmEvLnB4YnRCMx5XowqWS">
             Sedan denna utgallring var gjord, återstodo Kongl. Maj:ts, friherre
             von Knorrings och herr Sixten von Friesens förslag. Till följd
@@ -2490,8 +2426,6 @@
             detsamma icke till vidare diskussion, och således återstodo endast
             herr von Friesens och friherre von Knorrings förslag.
           </seg>
-        </u>
-        <u xml:id="i-RMWBvzHs5eRPEVDa4swL7Y" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-EC45CbvesbHQfFD7oDPtV1" next="i-Qbc3NkkdzonzfRSiExPvSu">
           <seg xml:id="i-GCaPVypDLe6EPMYFvq9rs1">
             Det gälde nu att söka inom utskottet skaffa någon sorts majoritet
             för dessa förslag, men det visade sig omöjligt att få mera än
@@ -2505,8 +2439,6 @@
             men när komitén framkom med sitt förslag, visade det sig, att
             icke heller detta kunde erhålla majoritet inom utskottet.
           </seg>
-        </u>
-        <u xml:id="i-Qbc3NkkdzonzfRSiExPvSu" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-RMWBvzHs5eRPEVDa4swL7Y" next="i-HzGZdLCjMxTWkS66vKGryy">
           <seg xml:id="i-15ivi3gJsco9u1DxHCeftY">
             Vid sådant förhållande blef det fråga om att kunna få fram ett
             förslag, hvari det gjordes eftergifter på ett eller annat håll.
@@ -2520,14 +2452,10 @@
             hvarje riksdagsman bör vara van dervid. Det är såsom sådant, som
             jag nu anhåller att få försvara detta förslag.
           </seg>
-        </u>
-        <u xml:id="i-HzGZdLCjMxTWkS66vKGryy" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-Qbc3NkkdzonzfRSiExPvSu" next="i-V9kxHHRmH3UmYoQtAHCHNJ">
           <seg xml:id="i-P8H1AbrbM6WgVtaK1r576r">
             Att jag dervid måste ingå i några detaljer, derom ber jag herrarne
             om ursäkt.
           </seg>
-        </u>
-        <u xml:id="i-V9kxHHRmH3UmYoQtAHCHNJ" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-HzGZdLCjMxTWkS66vKGryy" next="i-8fXgg1V7dmV4ktJBX2iEzP">
           <seg xml:id="i-7paG3pMLz4UJvPdnyKpxF8">
             I 14 $ har utskottet till en början accepterat Kongl. Maj:ts
             förslag angående de 25 åren. Det var mycket fråga om, huruvida
@@ -2543,8 +2471,6 @@
             skulle ju besluta sig för något, och så beslöt utskottet att tillstyrka
             Kongl. Maj:ts förslag.
           </seg>
-        </u>
-        <u xml:id="i-8fXgg1V7dmV4ktJBX2iEzP" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-V9kxHHRmH3UmYoQtAHCHNJ" next="i-FgtaEn4w1iUg68ipCTckRR">
           <seg xml:id="i-FeGQAFsV3KQSq5BdYXqT9t">
             Sedan kom den andra frågan, huruvida utskottet skulle i enlighet
             med herr von Friesens förslag upptaga census för valbarhet i
@@ -2554,7 +2480,7 @@
         <note xml:id="i-UQsddXQf68Dxw5vnjjUVs5" type="date">
           Torsdagen den 15 Maj. 27 N:o 51.
         </note>
-        <u xml:id="i-FgtaEn4w1iUg68ipCTckRR" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-8fXgg1V7dmV4ktJBX2iEzP" next="i-JxmGRxLbZ54mJAohU7qVkk">
+        <u xml:id="i-FgtaEn4w1iUg68ipCTckRR" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-NYuNsosqYELzM3rG3QMnvA" next="i-4JmktgzBNbpr5P9TkkKweG">
           <seg xml:id="i-XVz5DbjjHXhEniV7mBzPPw">
             kommunallagarna eller, såsom nu är förhållandet, i grundlagarna.
             I Angående detta afseende fattade utskottet det beslut att ställa
@@ -2562,8 +2488,6 @@
             såsom det hittills varit, upptaga den i Kammaren. grundlagarna.
             (Forts.)
           </seg>
-        </u>
-        <u xml:id="i-JxmGRxLbZ54mJAohU7qVkk" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-FgtaEn4w1iUg68ipCTckRR" next="i-4t2EsgrCeyPyjMcnd7dNAk">
           <seg xml:id="i-36eQuZcYM7STpL1KQq4wA7">
             Då blef fråga om hvilka värden man skulle fastställa, i främsta
             rummet beträffande den, som innehar i mantal satt fastighet. Såsom
@@ -2585,8 +2509,6 @@
             den knappast kan bli lägre eller ens så låg som 300 kronor. Detta
             har således icke i praktiken någon betydelse.
           </seg>
-        </u>
-        <u xml:id="i-4t2EsgrCeyPyjMcnd7dNAk" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-JxmGRxLbZ54mJAohU7qVkk" next="i-NWmQqFkaatkPaHgrJUPUnY">
           <seg xml:id="i-SxcMPPjYEkfJ63V2WC9Dy3">
             Sedan var det frågan om sådana personer, som hafva byggnader
             på annan persons grund. Som herrarne veta, var det förut så, att
@@ -2599,16 +2521,12 @@
             strecket gå ännu lägre än det kommunala. På denna grund antogs
             600 kronor, som är det kommunala strecket.
           </seg>
-        </u>
-        <u xml:id="i-NWmQqFkaatkPaHgrJUPUnY" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-4t2EsgrCeyPyjMcnd7dNAk" next="i-QVz4AHixuBJGkdyfMXPqec">
           <seg xml:id="i-2D7ysVUKh81DVp5aJ9Crbz">
             Vidare kom man till arrendatorer af egendomar, som hafva ett
             taxeringsvärde af 600 kronor. Man ansåg, att desse skulle likställas
             med dem, som hafva byggnader på annans grund. Derför är detta
             streck satt så som skett.
           </seg>
-        </u>
-        <u xml:id="i-QVz4AHixuBJGkdyfMXPqec" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-NWmQqFkaatkPaHgrJUPUnY" next="i-4JmktgzBNbpr5P9TkkKweG">
           <seg xml:id="i-MYkSYSDDFi4ve8691i7Lg7">
             Slutligen hvad inkomsttagarne beträffar, för hvilka strecket
             nu är 800 kronor, har utskottet föreslagit en nedsättning till
@@ -2639,7 +2557,7 @@
         <note xml:id="i-QgfWaG76cLv4aPpvnukaek" type="date">
           28 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-4JmktgzBNbpr5P9TkkKweG" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-QVz4AHixuBJGkdyfMXPqec" next="i-DHuYFjMHgQzee2ZrEsAdbQ">
+        <u xml:id="i-4JmktgzBNbpr5P9TkkKweG" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-FgtaEn4w1iUg68ipCTckRR" next="i-DHuYFjMHgQzee2ZrEsAdbQ">
           <seg xml:id="i-7HjHTERnNVxhQDn9XR4vKk">
             En annan fråga är, om icke existensminimum kan nedsättas. Jo,
             det kan det; men huru det än göres, skall dock alltid bevillning
@@ -2651,7 +2569,7 @@
         <note xml:id="i-G4zCRozDuM2mx4iYdhZ9G7">
           (Forts.)
         </note>
-        <u xml:id="i-DHuYFjMHgQzee2ZrEsAdbQ" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-4JmktgzBNbpr5P9TkkKweG" next="i-MqqRwibtGsuJwG3ex6kyGE">
+        <u xml:id="i-DHuYFjMHgQzee2ZrEsAdbQ" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-4JmktgzBNbpr5P9TkkKweG" next="i-X1fD3nd1J1PZjwLnEedxnN">
           <seg xml:id="i-B4hZ4YwSyF92q2tqobhvbz">
             Så gjorde herr von Friesen också anmärkning mot det mycket omtalade
             utskyldsstrecket. Ja, icke är jag så särdeles svag för det, men
@@ -2672,8 +2590,6 @@
             för honom. Detta omöjliggör utskottets förslag. Ty skall det kunna
             Fd ästa han vara så omtänksam, att han börjar redan 2 år i förtid.
           </seg>
-        </u>
-        <u xml:id="i-MqqRwibtGsuJwG3ex6kyGE" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-DHuYFjMHgQzee2ZrEsAdbQ" next="i-7NftRLdfC9iN2tTPBrVbzz">
           <seg xml:id="i-HuFqytEmBsmqbHnSrRGyWr">
             Man säger, att det vore hårdt, om någon försummade sig och glömde
             bort rätta betalningstiden. Men på landet går det till så, att
@@ -2689,14 +2605,10 @@
             betala 21 kronor det år, då valet skall ske. Jag tror således
             icke, att detta utskyldsstreck är så förfärligt.
           </seg>
-        </u>
-        <u xml:id="i-7NftRLdfC9iN2tTPBrVbzz" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-MqqRwibtGsuJwG3ex6kyGE" next="i-KwFKXxaFh44XCoidR4yd8N">
           <seg xml:id="i-VhwRovg6Kauj4fSNJdydFt">
             Hvad det andra momentet beträffar, tror jag icke, att någon har
             någon anmärkning mot det.
           </seg>
-        </u>
-        <u xml:id="i-KwFKXxaFh44XCoidR4yd8N" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-7NftRLdfC9iN2tTPBrVbzz" next="i-X1fD3nd1J1PZjwLnEedxnN">
           <seg xml:id="i-TsyfkrGA6kErLUud8wce4s">
             Men sedan kommer 138. Den är det, som den största striden gäller;
             och största striden har inom utskottet också förts om denna paragraf.
@@ -2718,7 +2630,7 @@
         <note xml:id="i-46njtBDDeVxgj7AGM1ifBr" type="date">
           Torsdagen den 15 Maj. 29 N:o 51.
         </note>
-        <u xml:id="i-X1fD3nd1J1PZjwLnEedxnN" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-KwFKXxaFh44XCoidR4yd8N" next="i-F1fL9q7cKMeFXzpGaLMc2d">
+        <u xml:id="i-X1fD3nd1J1PZjwLnEedxnN" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-DHuYFjMHgQzee2ZrEsAdbQ" next="i-9np4UFL39HaxL8oALLxDPV">
           <seg xml:id="i-2d4hUnGN7tD3pp65eykUEL">
             icke var skäl att framlägga det förslaget, utan efter som det
             blef Angående ett kompromissförslag, måste jag gå in på att lägga
@@ -2727,25 +2639,17 @@
             till väga mot städerna och icke ville behandla stä- = (Forts.)
             derna så hårdt; och derför var jag med om det. Men hvad fick jag
           </seg>
-        </u>
-        <u xml:id="i-F1fL9q7cKMeFXzpGaLMc2d" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-X1fD3nd1J1PZjwLnEedxnN" next="i-TreHjrZCknUBXvY69bVVF2">
           <seg xml:id="i-XUvgNicpSSfDfjwXcYah2Y">
             för tack för det? Jo, att reservanterna, herrar Darin och Liljeholm,
           </seg>
-        </u>
-        <u xml:id="i-TreHjrZCknUBXvY69bVVF2" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-F1fL9q7cKMeFXzpGaLMc2d" next="i-7aAYnfUWTRDUYsEs8prrkS">
           <seg xml:id="i-CttQtzHw5eFfWojyVkxPjt">
             säga:» Vi kunna nemligen ingalunda finna, att den af utskottet
             tillstyrkta, ganska måttliga utvidgningen af valrätten, hvilken
             skulle
           </seg>
-        </u>
-        <u xml:id="i-7aAYnfUWTRDUYsEs8prrkS" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-TreHjrZCknUBXvY69bVVF2" next="i-UraaZqgdEftkcckHNEMUAs">
           <seg xml:id="i-WV8M4AMjaWQCFTf6yb5h5k">
             komma landtbefolkningen till godo i vida högre grad än statsbefolk-
           </seg>
-        </u>
-        <u xml:id="i-UraaZqgdEftkcckHNEMUAs" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-7aAYnfUWTRDUYsEs8prrkS" next="i-9np4UFL39HaxL8oALLxDPV">
           <seg xml:id="i-2CvF96vEqDDubezxbogsYs">
             ningen, bör föranleda till en så våldsam förändring af nu gällande
           </seg>
@@ -2753,7 +2657,7 @@
         <note xml:id="i-5eZNSt5Nn6wWyoHLMHWWTL">
           grunder för valkretsindelningen, som utskottet föreslagit.»
         </note>
-        <u xml:id="i-9np4UFL39HaxL8oALLxDPV" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-UraaZqgdEftkcckHNEMUAs" next="i-RrDcFXsHw7yAboC3snYP58">
+        <u xml:id="i-9np4UFL39HaxL8oALLxDPV" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-X1fD3nd1J1PZjwLnEedxnN" next="i-6LTRejj7V6q95UjTth2T7H">
           <seg xml:id="i-QkNfVtDP8C67wZ8v8FJPHQ">
             Det var således en alltför våldsam åtgärd. Och jag i min enfald
             gick in på det, derför att det skulle vara en mindre våldsam åtgärd
@@ -2772,8 +2676,6 @@
             för städerna med 33 procent. Det är icke så litet att på en gång
             öka upp antalet med 75 procent.
           </seg>
-        </u>
-        <u xml:id="i-RrDcFXsHw7yAboC3snYP58" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-9np4UFL39HaxL8oALLxDPV" next="i-EKrPA8JSaCnqS846eWZVGK">
           <seg xml:id="i-LykC7VFa2jKtdmUf2Sk5vW">
             Nu säga reservanterna, att det är egentligen landtbefolkningen,
             som kommer att vinna härpå, nemligen 70 procent. Det är sant;
@@ -2789,8 +2691,6 @@
             170,000 af precis samma färg, som skulle komma till. Jag hemställer,
             om det är landsbygden egentligen, som vinner.
           </seg>
-        </u>
-        <u xml:id="i-EKrPA8JSaCnqS846eWZVGK" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-RrDcFXsHw7yAboC3snYP58" next="i-2qfSJ5Vu4wds4Lqgbt526K">
           <seg xml:id="i-Fe1HtUoG3b7ckrW1wEGSfR">
             Nej, mina herrar, här är fråga om att utvidga rösträtten till
             deras fördel, som nu icke hafva rösträtt; och det säger jag, det
@@ -2801,8 +2701,6 @@
             säger: »Utvidgningen må gerna ega rum; men hvem skall då komma
             till korta? Det skola landtborna göra.»
           </seg>
-        </u>
-        <u xml:id="i-2qfSJ5Vu4wds4Lqgbt526K" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-EKrPA8JSaCnqS846eWZVGK" next="i-6LTRejj7V6q95UjTth2T7H">
           <seg xml:id="i-MUggRfgLrbijfLiADDEx9b">
             Nej, vi skola stå orubbade, men det skall i alla fall ske en
             rösträttsutvidgning. Makten, mina herrar, det är den I striden
@@ -2819,13 +2717,11 @@
         <note xml:id="i-MJXgBympMpkxbJPZ9gAbJb" type="date">
           30 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-6LTRejj7V6q95UjTth2T7H" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-2qfSJ5Vu4wds4Lqgbt526K" next="i-LPtaNgRkkgTSsCC1Fo4HSh">
+        <u xml:id="i-6LTRejj7V6q95UjTth2T7H" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-9np4UFL39HaxL8oALLxDPV" next="i-9uDodGepch2oaMXzcu3YM8">
           <seg xml:id="i-Qxms6PUS4in4qSZKEGT5AP">
             huru I än striden om den, blir det dock slutligen en tredje part,
             som kommer och tager makten ifrån Eder.
           </seg>
-        </u>
-        <u xml:id="i-LPtaNgRkkgTSsCC1Fo4HSh" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-6LTRejj7V6q95UjTth2T7H" next="i-LDv31KtUWvtHGEstKegRtG">
           <seg xml:id="i-WuP5ELmEpJHMXEBHB2FXQV">
             Eftersom jag nu har ordet, ber jag att något litet få beröra
             frågan om den allmänna rösträtten. Ja, mina herrar, den allmänna
@@ -2864,14 +2760,10 @@
             Men vilja herrarne taga bort arfvodet för Andra Kammarens ledamöter?
             Ja, i sådant fall kan man
           </seg>
-        </u>
-        <u xml:id="i-LDv31KtUWvtHGEstKegRtG" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-LPtaNgRkkgTSsCC1Fo4HSh" next="i-1G4zE7rPQGadZDVpdTBrD">
           <seg xml:id="i-MKHLYAjdxWRTg2froYQRf2">
             ju tänka på att äfven här införa allmän rösträtt. Om vi gå till
             Eng-
           </seg>
-        </u>
-        <u xml:id="i-1G4zE7rPQGadZDVpdTBrD" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-LDv31KtUWvtHGEstKegRtG" next="i-FJG9cNjemMZZCWzNR3RCw6">
           <seg xml:id="i-H9b9PTsvM23MCoaY48SHXt">
             land, så tillämpas ju der, som vi veta, den allmänna rösträtten,
             men kunna derför representanterna i engelska parlamentet i folkligt
@@ -2881,8 +2773,6 @@
             är det der blott lorder och andra höga herrar. Folkrepresentanterna
             får folket sjelft ersätta för deras utgifter som parlamentsledamöter.
           </seg>
-        </u>
-        <u xml:id="i-FJG9cNjemMZZCWzNR3RCw6" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-1G4zE7rPQGadZDVpdTBrD" next="i-9uDodGepch2oaMXzcu3YM8">
           <seg xml:id="i-HUgZHxzvVhZ2tSx1bKRMR6">
             Nu vill man, att vi här skola införa allmän rösträtt. Ja, mina
             herrar, när allt kommer omkring, är jag nog kanske icke den siste
@@ -2896,7 +2786,7 @@
         <note xml:id="i-Xadn3ZxAgLNEn2XDBCWotE" type="date">
           Torsdagen den 15 Maj. 31 N:o 51.
         </note>
-        <u xml:id="i-9uDodGepch2oaMXzcu3YM8" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-FJG9cNjemMZZCWzNR3RCw6" next="i-NjK9LA8eyA2C1m74EekAgx">
+        <u xml:id="i-9uDodGepch2oaMXzcu3YM8" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-6LTRejj7V6q95UjTth2T7H" next="i-AmxgbnFsBhMHpDyd5u1UXY">
           <seg xml:id="i-JVvDPbnUfqXNNKAcfbe2gP">
             rösträtt, och hur man derför skrattade åt mig och sade: Hvad
             är det Angående för en tosing, som vill ha allmän rösträtt! Men
@@ -2905,8 +2795,6 @@
             är det, som står på nu, eftersom man = (Forts.) så der ändrat
             åsigter?
           </seg>
-        </u>
-        <u xml:id="i-NjK9LA8eyA2C1m74EekAgx" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-9uDodGepch2oaMXzcu3YM8" next="i-AmxgbnFsBhMHpDyd5u1UXY">
           <seg xml:id="i-6HEvYRV3JWfipZHrDVAf7X">
             Hvad vi nu skulle skrifva om, är att begära allmän rösträtt,
             men med proportionella val och alla möjliga garantier. Enligt
@@ -2967,7 +2855,7 @@
         <note xml:id="i-WqRcjUuZEwtTsS66LCny49" type="date">
           32 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-AmxgbnFsBhMHpDyd5u1UXY" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-NjK9LA8eyA2C1m74EekAgx" next="i-WP4Lw1AeS3yYY1FC25rmbn">
+        <u xml:id="i-AmxgbnFsBhMHpDyd5u1UXY" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-9uDodGepch2oaMXzcu3YM8" next="i-9nTjGuc3kCWXKCXoW9ScQV">
           <seg xml:id="i-QvyYHcVJDHpCRSYYH3Fmcw">
             landet. Jag intager alltså i detta fall den ståndpunkten, att
             man skall betala bevillning; då inträder denna olika fördelning
@@ -3000,8 +2888,6 @@
             att på annat sätt få rätt. Vi måste, som sagdt, vara tillmötesgående
             mot hvarandra.
           </seg>
-        </u>
-        <u xml:id="i-WP4Lw1AeS3yYY1FC25rmbn" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-AmxgbnFsBhMHpDyd5u1UXY" next="i-Uzqxjhn1ctc2rE5bAhDz5K">
           <seg xml:id="i-RSw6ueCLA1e5AQUg7SPPNA">
             Hvad beträffar yrkande, så kommer jag, eftersom jag inom utskottet
             röstat för dess förslag, nu att yrka bifall till detsamma. Hvad
@@ -3014,8 +2900,6 @@
             om vi taga en skrifvelse. Skulle vi bilägga oron inom Stockholm,
             måste vi alla vara ense om att taga herr Brantings förslag.
           </seg>
-        </u>
-        <u xml:id="i-Uzqxjhn1ctc2rE5bAhDz5K" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-WP4Lw1AeS3yYY1FC25rmbn" next="i-9nTjGuc3kCWXKCXoW9ScQV">
           <seg xml:id="i-EEksv7VeTZfGG13iK8EsaP">
             Eftersom jag har ordet, skall jag be att något litet få beröra
             herr Lindhagens motion, hvari fråga är om rösträtt för qvinnan.
@@ -3038,7 +2922,7 @@
         <note xml:id="i-953RHjA6sdWbLQYx2GnYuo">
           N:o 51.
         </note>
-        <u xml:id="i-9nTjGuc3kCWXKCXoW9ScQV" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-Uzqxjhn1ctc2rE5bAhDz5K" next="i-WvMDVU3AKZP8T5mAQ9sqi6">
+        <u xml:id="i-9nTjGuc3kCWXKCXoW9ScQV" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-AmxgbnFsBhMHpDyd5u1UXY" next="i-WvMDVU3AKZP8T5mAQ9sqi6">
           <seg xml:id="i-GEhJEo2GD69nwKTdubrMyd">
             ta sig fram och förtjena mera än förut; men, mine herrar, i fråga
             Angående om att ge henne politisk rösträtt är jag tveksam. Jag
@@ -3048,13 +2932,11 @@
         <note xml:id="i-8NA2EUv9Vr78oPrv7QLhfW">
           Andra
         </note>
-        <u xml:id="i-WvMDVU3AKZP8T5mAQ9sqi6" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-9nTjGuc3kCWXKCXoW9ScQV" next="i-PhsmV3so4FFca2ZoRDF7L4">
+        <u xml:id="i-WvMDVU3AKZP8T5mAQ9sqi6" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-9nTjGuc3kCWXKCXoW9ScQV">
           <seg xml:id="i-EEMERWZLqiQEJ1wrbcX7at">
             år sett de eländiga intriger, den oro, det hat och split, som
             före- Kammaren.
           </seg>
-        </u>
-        <u xml:id="i-PhsmV3so4FFca2ZoRDF7L4" who="i-WMeuxAewsQyBD46eUtkLFr" prev="i-WvMDVU3AKZP8T5mAQ9sqi6">
           <seg xml:id="i-U9A9cxhRwRbs7LCwR5YVkz">
             komma i våra politiska församlingar; och jag håller sannerligen
             för mycket af qvinnan, för att jag skulle inblanda henne i de
@@ -3083,12 +2965,10 @@
         <note xml:id="i-HPzyWCFDSZvUW8eAoKZJ9M" type="speaker">
           Herr Lundgren:
         </note>
-        <u xml:id="i-ShQrSb5YNfjuSuZmcVvrrh" who="i-M3KsriBtBmH4v2DUpjuGUU" next="i-4QS9oqPunqzP6Xa4w7Vx6S">
+        <u xml:id="i-ShQrSb5YNfjuSuZmcVvrrh" who="i-M3KsriBtBmH4v2DUpjuGUU" next="i-53h7XGVNTLdkRnBcxodwy4">
           <seg xml:id="i-5rYxstfPrkL7xvweEFP8dd">
             Herr grefve och talman, mina herrar!
           </seg>
-        </u>
-        <u xml:id="i-4QS9oqPunqzP6Xa4w7Vx6S" who="i-M3KsriBtBmH4v2DUpjuGUU" prev="i-ShQrSb5YNfjuSuZmcVvrrh" next="i-XTHdPk3gSrFt62a71XPvSG">
           <seg xml:id="i-WUMz6m7ppiS8qx8kqoh4aS">
             Att jag icke kan vara med om det sätt, hvarpå konstitutionsutskottet
             har fält domen öfver min motion, må icke förtänkas mig; men derför
@@ -3102,8 +2982,6 @@
             många bevis på den ofördragsamhet och missaktning mot olika tänkande,
             som i dessa dagar förefinnas.
           </seg>
-        </u>
-        <u xml:id="i-XTHdPk3gSrFt62a71XPvSG" who="i-M3KsriBtBmH4v2DUpjuGUU" prev="i-4QS9oqPunqzP6Xa4w7Vx6S" next="i-53h7XGVNTLdkRnBcxodwy4">
           <seg xml:id="i-A3NshbNf7Fk1QiHqzyziJX">
             Jag har utgått ifrån att en ändring borde ske, och min motion
             visar också, att jag erkänt behofvet af en utsträckning af den
@@ -3137,7 +3015,7 @@
         <note xml:id="i-ArX7iftEisary4CrhHbCcz" type="date">
           34 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-53h7XGVNTLdkRnBcxodwy4" who="i-M3KsriBtBmH4v2DUpjuGUU" prev="i-XTHdPk3gSrFt62a71XPvSG" next="i-7EtTv3G5E3QpguurivdbTt">
+        <u xml:id="i-53h7XGVNTLdkRnBcxodwy4" who="i-M3KsriBtBmH4v2DUpjuGUU" prev="i-ShQrSb5YNfjuSuZmcVvrrh">
           <seg xml:id="i-JSnRsr2UQ45nEczjX3qDQA">
             Det har här framhållits, att det svenska folket, äfven utan erläggande
             af direkt skatt, betalar nog i form af indirekta skatter, i första
@@ -3150,16 +3028,12 @@
             om det icke funnes några utskylder, som skulle betalas. Således
             höra dessa båda vilkor tillsammans.
           </seg>
-        </u>
-        <u xml:id="i-7EtTv3G5E3QpguurivdbTt" who="i-M3KsriBtBmH4v2DUpjuGUU" prev="i-53h7XGVNTLdkRnBcxodwy4" next="i-9V6DyB8pXUYWqPnEg6MUeN">
           <seg xml:id="i-JvgJ9MWmDJNKLT6YSbaDKC">
             Jag har vidare ansett, att utskyldsstrecket kan ställas billigare,
             än hvad man från andra håll påyrkat, i det jag hållit före, att
             man kunde nöja sig med ett år, det sista löpande året, förutsatt
             att mitt förslag om röstlängd och justering af sådan vunne afseende.
           </seg>
-        </u>
-        <u xml:id="i-9V6DyB8pXUYWqPnEg6MUeN" who="i-M3KsriBtBmH4v2DUpjuGUU" prev="i-7EtTv3G5E3QpguurivdbTt" next="i-P3yF4LFUXJTpNCJ9mitk5C">
           <seg xml:id="i-EuSAJZ7X14FD2asUx2ve1Z">
             Likaså har jag hemstält om en rösträttsafgift, icke för afgiftens
             skull, utan af en helt annan anledning. Vi ha i dessa dagar fätt
@@ -3171,8 +3045,6 @@
             man på en enda rad kunna se, huru många de röstegande i landet
             vore, i stället för att man måste söka upplysning härom i volymer.
           </seg>
-        </u>
-        <u xml:id="i-P3yF4LFUXJTpNCJ9mitk5C" who="i-M3KsriBtBmH4v2DUpjuGUU" prev="i-9V6DyB8pXUYWqPnEg6MUeN" next="i-2rKANHiXwghoUfvvkE7t2K">
           <seg xml:id="i-8rZMZy1aa17tDEEgcc1wAQ">
             Det har också sagts, att värnpligtens utsträckning skulle utgöra
             grunden för en utsträckning af rösträtten. Detär en åsigt, som
@@ -3187,8 +3059,6 @@
             som uttalat sig för rösträtt åt qvinnan, icke åberopas något sådant
             samband som emellan värnpligt och politisk rösträtt.
           </seg>
-        </u>
-        <u xml:id="i-2rKANHiXwghoUfvvkE7t2K" who="i-M3KsriBtBmH4v2DUpjuGUU" prev="i-P3yF4LFUXJTpNCJ9mitk5C" next="i-VCRdVUtiFmjEBvXTnW72WK">
           <seg xml:id="i-KCdvMbMi5Rf6T31ywb5gV1">
             Jag skulle ha mycken lust att vara med om bifall till samlingspartiets
             motion. Men såsom jag i min motion påpekat, har jag icke kunnat
@@ -3199,8 +3069,6 @@
             och framför allt en rörelse, beträffande hvilken icke är ådagalagdt,
             att den skulle på ett lyckligt sätt bidraga till landets utveckling.
           </seg>
-        </u>
-        <u xml:id="i-VCRdVUtiFmjEBvXTnW72WK" who="i-M3KsriBtBmH4v2DUpjuGUU" prev="i-2rKANHiXwghoUfvvkE7t2K">
           <seg xml:id="i-VUF6cvecxNVx4o8N9g9ob4">
             Jag skall för resten icke upptaga kammarens tid längre, utan
             jag inskränker mig till att påpeka, att jag för närvarande icke
@@ -3219,7 +3087,7 @@
         <note xml:id="i-TuX1KBGWJGSoNWfebaGedd" type="speaker">
           Herr Ernst Carlson:
         </note>
-        <u xml:id="i-M5ymxkiVZdrT8o5yPktu1k" who="i-5YeVw64y97GEawvX93x6P5" next="i-Tg9N2Ut7AemXKEtQgUFJNk">
+        <u xml:id="i-M5ymxkiVZdrT8o5yPktu1k" who="i-5YeVw64y97GEawvX93x6P5" next="i-SjoSLDHWPiAFu4Mf4ZoY68">
           <seg xml:id="i-Y1YPx796Mpwd6jWoJUBoEW">
             Herr talman! Frågan om en utsträckning Angående af valrätten
             till Andra Kammaren har, såsom redan antydt, uppenbarvalrätten
@@ -3235,8 +3103,6 @@
             kunde med visst skäl anses såsom ett undanhållande af medborgerlig
             rätt från dem, som af dess erhållande visa sig förtjenta&gt;.
           </seg>
-        </u>
-        <u xml:id="i-Tg9N2Ut7AemXKEtQgUFJNk" who="i-5YeVw64y97GEawvX93x6P5" prev="i-M5ymxkiVZdrT8o5yPktu1k" next="i-A31Pp2Vnv3ftd8kzCBn2FL">
           <seg xml:id="i-UuAQDGG54uAWnBJ6B4A7bg">
             Frågan är alltså icke längre den, huruvida en rösträttsutvidgning
             bör ega rum, utan endast på hvad sätt den skall ske och huru långt
@@ -3252,8 +3118,6 @@
             för hela vår kultur, enär samhällspyramiden tydligtvis står säkrare,
             ju bredare grundval den har att hvila uppå.
           </seg>
-        </u>
-        <u xml:id="i-A31Pp2Vnv3ftd8kzCBn2FL" who="i-5YeVw64y97GEawvX93x6P5" prev="i-Tg9N2Ut7AemXKEtQgUFJNk" next="i-VCkur6ia8kjWMoV2VdFyt6">
           <seg xml:id="i-X4eND3KhSmS4zfRv37gPuR">
             Under sådana förhållanden, då rösträttsfrågan genom härordningsbeslutet
             kan sägas ha blifvit akut, måste den, som redan nu önskar åstadkomma
@@ -3262,8 +3126,6 @@
             skall kunna ansluta sig till ett förslag, som kan segra eller
             åtminstone ha utsigt att föra frågan framåt.
           </seg>
-        </u>
-        <u xml:id="i-VCkur6ia8kjWMoV2VdFyt6" who="i-5YeVw64y97GEawvX93x6P5" prev="i-A31Pp2Vnv3ftd8kzCBn2FL" next="i-SjoSLDHWPiAFu4Mf4ZoY68">
           <seg xml:id="i-3aYQAH3cWNxYo2iCPTtBDT">
             För egen del tvekar jag icke att uttala, att jag är öfvertygad
             derom, att den allmänna rösträtten — eller, för att tala med utskottets
@@ -3304,12 +3166,10 @@
         <note xml:id="i-AKZKohvCfJaGjUuQJ7TDLw">
           Andra Kammaren. (Forts.)
         </note>
-        <u xml:id="i-SjoSLDHWPiAFu4Mf4ZoY68" who="i-5YeVw64y97GEawvX93x6P5" prev="i-VCkur6ia8kjWMoV2VdFyt6" next="i-J9hpcbmaXZ3x8uE9jSMP57">
+        <u xml:id="i-SjoSLDHWPiAFu4Mf4ZoY68" who="i-5YeVw64y97GEawvX93x6P5" prev="i-M5ymxkiVZdrT8o5yPktu1k" next="i-XkGK6jFaEhCfVdUsjDTU1V">
           <seg xml:id="i-NipJS9P1QFZHnJsuDJDj1R">
             blifva det svenska folkets egendom.
           </seg>
-        </u>
-        <u xml:id="i-J9hpcbmaXZ3x8uE9jSMP57" who="i-5YeVw64y97GEawvX93x6P5" prev="i-SjoSLDHWPiAFu4Mf4ZoY68" next="i-DpxSLZPR2vZdGc6cQpR7uv">
           <seg xml:id="i-HopFgoevfmzi71kf4vzhqJ">
             Man måste först och främst göra klart för sig, hvad som menas
             med allmän rösträtt, ett ord, som skorrar hårdt i mångas öron.
@@ -3322,8 +3182,6 @@
             till staten; deremot uppställes icke någon som helst förmögenhetscensus
             såsom vilkor för rösträtt.
           </seg>
-        </u>
-        <u xml:id="i-DpxSLZPR2vZdGc6cQpR7uv" who="i-5YeVw64y97GEawvX93x6P5" prev="i-J9hpcbmaXZ3x8uE9jSMP57" next="i-JtXkGT5KQ6bFfszGuHu94v">
           <seg xml:id="i-T797NSwhTckeQ9HamcDncA">
             Hvad de till skydd för minoritetens intressen önskvärda proportionella
             valen beträffar, finnas deraf många system, och jag skall här
@@ -3333,8 +3191,6 @@
             Man kan till exempel i början undantaga en så glest befolkad landsdel
             som Norrland samt der vidtaga särskilda åtgärder.
           </seg>
-        </u>
-        <u xml:id="i-JtXkGT5KQ6bFfszGuHu94v" who="i-5YeVw64y97GEawvX93x6P5" prev="i-DpxSLZPR2vZdGc6cQpR7uv" next="i-SQDMPpeJMmumWEXfccMSm6">
           <seg xml:id="i-ULAdLFM6f1zc6naNrufdm4">
             Framför allt måste vi emellertid göra klart för oss, att då här
             kräfves lika valrätt för land och stad, så måste dermed förstås
@@ -3347,8 +3203,6 @@
             med Oxie och Skytts domsaga än tillsammans med småstäder i helt
             andra delar af provinsen, som äro dem ganska främmande.
           </seg>
-        </u>
-        <u xml:id="i-SQDMPpeJMmumWEXfccMSm6" who="i-5YeVw64y97GEawvX93x6P5" prev="i-JtXkGT5KQ6bFfszGuHu94v" next="i-EypsE7QqQFGm9mhKyxryHW">
           <seg xml:id="i-YXEkuAaeB8xAz5baDHtR3W">
             Sådana tankar behöfva emellertid tid för att tränga igenom. Och
             jag håller före, att det i afvaktan derpå kan vara klokt att taga
@@ -3356,15 +3210,11 @@
             att bringa rösträttsfrågan ut ur det dödvatten, hvari den så länge
             befunnit sig.
           </seg>
-        </u>
-        <u xml:id="i-EypsE7QqQFGm9mhKyxryHW" who="i-5YeVw64y97GEawvX93x6P5" prev="i-SQDMPpeJMmumWEXfccMSm6" next="i-VjTBEaTd4X523WVabAA4dy">
           <seg xml:id="i-Cjzr6nYdDHFu5vEeZvYPog">
             Granskar jag från denna synpunkt de många föreliggande förslagen,
             så finner jag, att det är ganska få at dem, som kunna sägas ega
             omedelbart aktuelt intresse.
           </seg>
-        </u>
-        <u xml:id="i-VjTBEaTd4X523WVabAA4dy" who="i-5YeVw64y97GEawvX93x6P5" prev="i-EypsE7QqQFGm9mhKyxryHW" next="i-3q5EQVLKiDc3hJu6eLRW9D">
           <seg xml:id="i-53mu3QZfUCR4ULP1bxG1XZ">
             Detta kan till en början icke sägas vara fallet med den kongl.
             propositionen, ty med sin formelt juridiska uppfattning af 1900
@@ -3377,8 +3227,6 @@
             att regeringen sjelf icke tyckes hälla på sitt förslag, och då
             lärer icke finnas något skäl, hvarför vi skulle göra det.
           </seg>
-        </u>
-        <u xml:id="i-3q5EQVLKiDc3hJu6eLRW9D" who="i-5YeVw64y97GEawvX93x6P5" prev="i-VjTBEaTd4X523WVabAA4dy" next="i-XkGK6jFaEhCfVdUsjDTU1V">
           <seg xml:id="i-H9mAETraFu7m66hZjdTNXf">
             Jag skall icke för tillfället gå närmare in på herrar Brantings
             och Lindhagens motioner, hvilka väl mest äro att likna vid stormsvalor,
@@ -3392,15 +3240,13 @@
         <note xml:id="i-RZ5Ti12dHwx3biPR4Rdwox" type="date">
           Torsdagen den 15 Maj. 37 N:o 51.
         </note>
-        <u xml:id="i-XkGK6jFaEhCfVdUsjDTU1V" who="i-5YeVw64y97GEawvX93x6P5" prev="i-3q5EQVLKiDc3hJu6eLRW9D" next="i-eEfYc3qooKGj8wtRrQPAx">
+        <u xml:id="i-XkGK6jFaEhCfVdUsjDTU1V" who="i-5YeVw64y97GEawvX93x6P5" prev="i-SjoSLDHWPiAFu4Mf4ZoY68" next="i-M34bxvWz5VBw9ZXAzH2xF8">
           <seg xml:id="i-JuvgRG2Qonxr7zSNYcvaDo">
             rösträtt. I hvarje fall torde denna sak vara af allvarligare
             innebörd, än att Angående den helt enkelt kan skämtas bort, såsom
             en ärad talare nyss sökt göra. valrätten till . DE sve 12 - 0
             ps ra
           </seg>
-        </u>
-        <u xml:id="i-eEfYc3qooKGj8wtRrQPAx" who="i-5YeVw64y97GEawvX93x6P5" prev="i-XkGK6jFaEhCfVdUsjDTU1V" next="i-QLq6S5ZqRVUT4yHoniZPfE">
           <seg xml:id="i-V4bhVhUTW9mdxAc8NRUX8W">
             Icke heller skall jag för tillfället inlåta mig på friherre von
             Knor- Kammaren. rings motion, hvilken oförbehållsamt frambär vissa
@@ -3413,8 +3259,6 @@
             allmän rösträtt och indelning i territoriella kretsar, der städer
             och landsbygd rösta tillsammans.
           </seg>
-        </u>
-        <u xml:id="i-QLq6S5ZqRVUT4yHoniZPfE" who="i-5YeVw64y97GEawvX93x6P5" prev="i-eEfYc3qooKGj8wtRrQPAx" next="i-FV4HXUNGm2Zv8184kbvTWH">
           <seg xml:id="i-9K7Wibf5QHsasuqqJGmx6f">
             Nej, vill man redan nu taga ett positivt steg, så tror jag, att
             man är inskränkt till ett af tvenne förslag, nemligen antingen
@@ -3425,8 +3269,6 @@
             så många andra intagit en klar ställning i frågan och äfven hållit
             fast vid densamma.
           </seg>
-        </u>
-        <u xml:id="i-FV4HXUNGm2Zv8184kbvTWH" who="i-5YeVw64y97GEawvX93x6P5" prev="i-QLq6S5ZqRVUT4yHoniZPfE" next="i-NFCdmVU2vrpdh4ckgZuQSz">
           <seg xml:id="i-9iRwrbq3ApAKqUqqbznoA6">
             Jemför jag dessa båda förslag, så finner jag, att de i vissa
             afseenden icke stå hvarandra så fjerran. Tvärtom kan man med fog
@@ -3458,8 +3300,6 @@
             votering, som fortfarande och vida lättare än hittills skulle
             kunna påverka de af utskottet ifrågasatta censnsbestäimmelserna.
           </seg>
-        </u>
-        <u xml:id="i-NFCdmVU2vrpdh4ckgZuQSz" who="i-5YeVw64y97GEawvX93x6P5" prev="i-FV4HXUNGm2Zv8184kbvTWH" next="i-M34bxvWz5VBw9ZXAzH2xF8">
           <seg xml:id="i-XpYoLVGaXkMTZ986ZMkVuX">
             Vid de mindre höjningar af taxeringsvärdet å egd fastighet och
             med nyttjanderätt innehafd sådan, som utskottet i förhållande
@@ -3481,7 +3321,7 @@
         <note xml:id="i-WU9jfXj9ymg4pYVSmvf4AH" type="date">
           38 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-M34bxvWz5VBw9ZXAzH2xF8" who="i-5YeVw64y97GEawvX93x6P5" prev="i-NFCdmVU2vrpdh4ckgZuQSz" next="i-3RV2rVX26QXqxmyhcQ3ajj">
+        <u xml:id="i-M34bxvWz5VBw9ZXAzH2xF8" who="i-5YeVw64y97GEawvX93x6P5" prev="i-XkGK6jFaEhCfVdUsjDTU1V" next="i-3RV2rVX26QXqxmyhcQ3ajj">
           <seg xml:id="i-TTtenEq2roBPZeCXuYXqr8">
             vill endast framhålla, att vilkoret för rösträtt på grund af
             inkomst, nemligen 500 kronors bevillning, blott skenbart är lika
@@ -3495,7 +3335,7 @@
         <note xml:id="i-eNZ1vLVWv2ncZp6XLEHGM">
           (Forts.)
         </note>
-        <u xml:id="i-3RV2rVX26QXqxmyhcQ3ajj" who="i-5YeVw64y97GEawvX93x6P5" prev="i-M34bxvWz5VBw9ZXAzH2xF8" next="i-6CnxWZWHHkbR2dQVtymrug">
+        <u xml:id="i-3RV2rVX26QXqxmyhcQ3ajj" who="i-5YeVw64y97GEawvX93x6P5" prev="i-M34bxvWz5VBw9ZXAzH2xF8" next="i-41FgNSTVBpQ7BPZtCeo37Y">
           <seg xml:id="i-DpJBhbuSPpYbsQaYLsGeak">
             bestämmelserna angående existensminimum, som ju äro olika för
             olika orter, ja, som till och med kunna vara olika på en och samma
@@ -3506,8 +3346,6 @@
             kronor och sålunda i större samhällen medföra en mera omfattande
             valrätt än enligt utskottets förslag.
           </seg>
-        </u>
-        <u xml:id="i-6CnxWZWHHkbR2dQVtymrug" who="i-5YeVw64y97GEawvX93x6P5" prev="i-3RV2rVX26QXqxmyhcQ3ajj" next="i-QzJmTgptxJdrvKsEQxS2fA">
           <seg xml:id="i-SgDUCyaN9WA2M8XMEboxhi">
             Men utom det, att samlingspartiets förslag är mera konseqvent
             och af fastare struktur än utskottets, så lider det icke af vissa
@@ -3525,8 +3363,6 @@
             i stället för att minska densamma; ty detta har redan af den talare,
             som öppnade debatten, tillräckligt starkt framhållits.
           </seg>
-        </u>
-        <u xml:id="i-QzJmTgptxJdrvKsEQxS2fA" who="i-5YeVw64y97GEawvX93x6P5" prev="i-6CnxWZWHHkbR2dQVtymrug" next="i-5hAPWyRKdKFkPds5FY3TEk">
           <seg xml:id="i-7x1X2U2KXCPYGGwkXiaHAz">
             Slutligen innebär också samlingspartiets förslag en fördel derutinnan,
             att åldersgränsen för åtnjutande af valrätt icke är satt högre,
@@ -3535,8 +3371,6 @@
             blifver alltså faktiskt ett år lägre enligt detta förslag än enligt
             regeringens och utskottets.
           </seg>
-        </u>
-        <u xml:id="i-5hAPWyRKdKFkPds5FY3TEk" who="i-5YeVw64y97GEawvX93x6P5" prev="i-QzJmTgptxJdrvKsEQxS2fA" next="i-7fS2gmyty4Ep7cmkfGwYna">
           <seg xml:id="i-5VqUKjEdJtwKvKcdiChWTQ">
             Jag finner sålunda, att samlingspartiets förslag är mera helgjutet
             och i åtskilliga vigtiga afseenden öfverlägset utskottets, som
@@ -3549,8 +3383,6 @@
             förslag för en tid kunde bringa ro i sinnena och bidraga till
             att föra frågan fram mot en slutlig lyckosam lösning.
           </seg>
-        </u>
-        <u xml:id="i-7fS2gmyty4Ep7cmkfGwYna" who="i-5YeVw64y97GEawvX93x6P5" prev="i-5hAPWyRKdKFkPds5FY3TEk" next="i-41FgNSTVBpQ7BPZtCeo37Y">
           <seg xml:id="i-NZVod4HrqbAdiU45cvZ6ke">
             Hvad vi, herr talman, här i landet först och främst behöfva,
             det är nationel samling, ett anlitande af alla goda krafter, så
@@ -3567,7 +3399,7 @@
         <note xml:id="i-PbdpCe8WNLFKHDvfZ1F2Sx" type="date">
           Torsdagen den 15 Maj. 39 N:o 51.
         </note>
-        <u xml:id="i-41FgNSTVBpQ7BPZtCeo37Y" who="i-5YeVw64y97GEawvX93x6P5" prev="i-7fS2gmyty4Ep7cmkfGwYna">
+        <u xml:id="i-41FgNSTVBpQ7BPZtCeo37Y" who="i-5YeVw64y97GEawvX93x6P5" prev="i-3RV2rVX26QXqxmyhcQ3ajj">
           <seg xml:id="i-Ug27bxdqKQb86Ndv8VxWjw">
             endast yrka afslag å utskottets förslag, i hviket jag ej kan
             se annat Angående än en ofullgången kompromiss, egnad att verka
@@ -3578,13 +3410,11 @@
         <note xml:id="i-F5z4LX2xA76Jnh7E8wmVfw" type="speaker">
           Friberre Ericson:
         </note>
-        <u xml:id="i-L3hcdTcSQkdXurmEu91tLw" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" next="i-EmpBgsSpuR82jd83txC8GT">
+        <u xml:id="i-L3hcdTcSQkdXurmEu91tLw" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" next="i-Y5no2wFzsGyBjbMg3btiHx">
           <seg xml:id="i-8fmSeuR82CLqNHPu9zeYfW">
             Äfven jag skall anhålla att få uttala mina ( z tankar och åsigter
             i denna stora och vigtiga fråga.
           </seg>
-        </u>
-        <u xml:id="i-EmpBgsSpuR82jd83txC8GT" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-L3hcdTcSQkdXurmEu91tLw" next="i-PhmaLeYG8PQzgJC3nBFBdV">
           <seg xml:id="i-LUfZPtdmK5nFPE15k3Wnx8">
             Den allmänna uppfattningen torde väl i närvarande stund vara,
             att vi sannolikt icke vid denna riksdag komma till något positivt
@@ -3606,8 +3436,6 @@
             jag i det afseendet den ringaste förhoppning, skulle jag icke
             tveka att yrka återremiss.
           </seg>
-        </u>
-        <u xml:id="i-PhmaLeYG8PQzgJC3nBFBdV" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-EmpBgsSpuR82jd83txC8GT" next="i-DZTgrDxfSZFoC8xmbeN3dD">
           <seg xml:id="i-S6KpP1TtHyGGAkAdACQGFG">
             Hvem bär nu ansvaret för, att frågan befinner sig i ett sådant
             läge? Skola vi lägga ansvaret någonstädes, så tror jag, att vi
@@ -3622,8 +3450,6 @@
             kraf. Möjligen skulle vi då i detta ögonblick stått på en fastare
             grund.
           </seg>
-        </u>
-        <u xml:id="i-DZTgrDxfSZFoC8xmbeN3dD" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-PhmaLeYG8PQzgJC3nBFBdV" next="i-Y5no2wFzsGyBjbMg3btiHx">
           <seg xml:id="i-8CrRzUCBksihFgqEJ6yCGP">
             Det mål, till hvilket dessa män syfta, är ju den allmänna rösträtten.
             För min del tror jag, att det vore klokast, att, när vi taga bort
@@ -3656,13 +3482,11 @@
         <note xml:id="i-EgsYZEQRqWj6yTzcsBKZVL" type="date">
           40 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-Y5no2wFzsGyBjbMg3btiHx" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-DZTgrDxfSZFoC8xmbeN3dD" next="i-8j9QqK1A5UgVykfCPawuzZ">
+        <u xml:id="i-Y5no2wFzsGyBjbMg3btiHx" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-L3hcdTcSQkdXurmEu91tLw" next="i-UnBz2xvi8zkCJBizPEaEth">
           <seg xml:id="i-FWy8jv1Vaj3VDxsCgn3hpd">
             af samhörighet, enighet och kraft. Med ett ord, svenska folket
             kan under sådana förhållanden blifva ett folk.
           </seg>
-        </u>
-        <u xml:id="i-8j9QqK1A5UgVykfCPawuzZ" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-Y5no2wFzsGyBjbMg3btiHx" next="i-Sjr4JriK1URNxE2AXkTHwu">
           <seg xml:id="i-TPKChAZiBhxGPcQCA4Ykj1">
             Man har redan förut här framhållit, och jag är af samma Ååsigt,
             att man icke kan tänka sig att redan i år få igenom ett förslag
@@ -3682,8 +3506,6 @@
             betrakta den allmänna rösträtten såsom mål, göra klokast i att
             vara med om ett skrifvelseförslag i den vägen.
           </seg>
-        </u>
-        <u xml:id="i-Sjr4JriK1URNxE2AXkTHwu" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-8j9QqK1A5UgVykfCPawuzZ" next="i-KYFTkuzx8xh6k62pCY3ycc">
           <seg xml:id="i-WWTQUEYMvuA1QwMhuj3eVd">
             Nu har reservationsvis framkommit åtskilliga förslag till skrifvelser.
             Friherre Alströmer t. ex. begär i det bänseendet ytterligare utredning,
@@ -3703,8 +3525,6 @@
             att de ställa sig olika för olika samhällsklasser. En sådan anordning
             skulle endast gifva anledning till ständigt kif och osämja.
           </seg>
-        </u>
-        <u xml:id="i-KYFTkuzx8xh6k62pCY3ycc" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-Sjr4JriK1URNxE2AXkTHwu" next="i-UnBz2xvi8zkCJBizPEaEth">
           <seg xml:id="i-6DLY5JjhCH16ejtQR58M25">
             Jag kommer sedan till de två förslag, som äro framstälda af herrar
             Berg och Boötbhius. De ha visserligen olika motivering, men de
@@ -3727,7 +3547,7 @@
         <note xml:id="i-9fZkgFVd3xGMLEUstDG34M" type="date">
           Torsdagen den 15 Maj. 41 N:o 51.
         </note>
-        <u xml:id="i-UnBz2xvi8zkCJBizPEaEth" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-KYFTkuzx8xh6k62pCY3ycc" next="i-RoH7mcfRRZAaVLNZPDWzWv">
+        <u xml:id="i-UnBz2xvi8zkCJBizPEaEth" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-Y5no2wFzsGyBjbMg3btiHx" next="i-EAnKdPi4vcRV8r7KSqvZGx">
           <seg xml:id="i-FkQrU175vJWYR5VQDU9zWB">
             vederbörliga fullgörande innebär. Det är med ett ord ingenting
             mera, Angående än man kan begära af hvarje arbetare, som vill
@@ -3737,64 +3557,42 @@
             deribland äfven Kongl. Maj:ts, gå något långt. I det skrifvelseförslag,
             jag nyss särskildt omförmält, bestämmes deremot
           </seg>
-        </u>
-        <u xml:id="i-RoH7mcfRRZAaVLNZPDWzWv" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-UnBz2xvi8zkCJBizPEaEth" next="i-YWCYLUZREzjLMxf9g3W6Rd">
           <seg xml:id="i-9QmFR5KdkB2Qfesh4rVeBM">
             icke, huru skattepligten skall göras gällande, utan blott att
             den bör
           </seg>
-        </u>
-        <u xml:id="i-YWCYLUZREzjLMxf9g3W6Rd" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-RoH7mcfRRZAaVLNZPDWzWv" next="i-8VXGWq1xwTxmJoiQzukbjP">
           <seg xml:id="i-XDpdkDdZV7ekTonoZKuV5x">
             göras gällande. Det är förvånande, att man skall ha sådan obenä-
           </seg>
-        </u>
-        <u xml:id="i-8VXGWq1xwTxmJoiQzukbjP" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-YWCYLUZREzjLMxf9g3W6Rd" next="i-XXjuCChziQRmH5cxqwVPyd">
           <seg xml:id="i-N2Ykuj6v8iDmoB4dnJjS7T">
             genhet för krafven på litet ordning, noggrannhet och pligtuppfyllelse,
           </seg>
-        </u>
-        <u xml:id="i-XXjuCChziQRmH5cxqwVPyd" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-8VXGWq1xwTxmJoiQzukbjP" next="i-2VWH7J97iwjczTXRTMyuMD">
           <seg xml:id="i-K9kj89cioeYkoqrA5HETRW">
             när det gäller att få utöfva en rättighet, rösträtten exempelvis.
             Om
           </seg>
-        </u>
-        <u xml:id="i-2VWH7J97iwjczTXRTMyuMD" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-XXjuCChziQRmH5cxqwVPyd" next="i-CgqM6otSNCgpDXz3Gqsrzo">
           <seg xml:id="i-9VM5YDK8P5ubcX6nuUgYNz">
             man helt och hållet tar bort bestämmelsen om skattepligten, synes
           </seg>
-        </u>
-        <u xml:id="i-CgqM6otSNCgpDXz3Gqsrzo" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-2VWH7J97iwjczTXRTMyuMD" next="i-FG4onRNfRzEfjy1tQM3noG">
           <seg xml:id="i-S4znVtAT3XztEKtQVGAxe">
             man bra mycket närma sig till sjeltsvåld — ja, det blir helt
             enkelt
           </seg>
-        </u>
-        <u xml:id="i-FG4onRNfRzEfjy1tQM3noG" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-CgqM6otSNCgpDXz3Gqsrzo" next="i-UYr1NJw4fDq6bw3keRs8od">
           <seg xml:id="i-3NCvLa6G3DRFaQ29BHkDgA">
             sjelfsvåld och ingenting annat. Det är ett förhållande, som man
           </seg>
-        </u>
-        <u xml:id="i-UYr1NJw4fDq6bw3keRs8od" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-FG4onRNfRzEfjy1tQM3noG" next="i-KtZmBBxVLGWegnmKvmooUF">
           <seg xml:id="i-SgD1jqiSTRj7MLUr4ZTRtW">
             ganska ofta ser här i lifvet, att så många menniskor förvexla
             eller sammanblanda begreppen frihet och sjelfsvåld. Det är ett
             gränslöst
           </seg>
-        </u>
-        <u xml:id="i-KtZmBBxVLGWegnmKvmooUF" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-UYr1NJw4fDq6bw3keRs8od" next="i-A3QndwShUG5rKqGrrfVoPK">
           <seg xml:id="i-9wehKiNALhCc2hcgRkMx2o">
             groft fel och det är framför allt en stor synd ur frihetens synpunkt.
           </seg>
-        </u>
-        <u xml:id="i-A3QndwShUG5rKqGrrfVoPK" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-KtZmBBxVLGWegnmKvmooUF" next="i-2X5Ugpy1Hcaja3SQkJJa4S">
           <seg xml:id="i-PjxAWAkVZzFX1WYYoWWCRL">
             Det ådagalägger, att man verkligen icke tar hänsyn till hvad
             erfaren-
           </seg>
-        </u>
-        <u xml:id="i-2X5Ugpy1Hcaja3SQkJJa4S" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-A3QndwShUG5rKqGrrfVoPK" next="i-EAnKdPi4vcRV8r7KSqvZGx">
           <seg xml:id="i-SNVkfgVQpd1QaTARym85B9">
             heten från alla tider bestyrkt, nemligen att sjelfsvåldet är
             frihetens
@@ -3803,7 +3601,7 @@
         <note xml:id="i-UekyeTs8yCPWb4Do7K2n5f">
           farligaste fiende.
         </note>
-        <u xml:id="i-EAnKdPi4vcRV8r7KSqvZGx" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-2X5Ugpy1Hcaja3SQkJJa4S" next="i-BDGStZRnbLPJyaWjHRFEEw">
+        <u xml:id="i-EAnKdPi4vcRV8r7KSqvZGx" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-UnBz2xvi8zkCJBizPEaEth" next="i-75Eg7A8PQRPY4TcMKL9BZG">
           <seg xml:id="i-LgyjU31Cex86ZjnKK4pNoP">
             Vidare ifrågasätter man här, att det skall uppställas samma qvalifikationer
             för rösträttens utöfvande, som det erfordras för valbarhet. Nå,
@@ -3813,15 +3611,11 @@
             att vara i statens tjenst o. s. v. — det är ju, som sagdt, icke
             mera, än som helt naturligt kan ifrågasättas.
           </seg>
-        </u>
-        <u xml:id="i-BDGStZRnbLPJyaWjHRFEEw" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-EAnKdPi4vcRV8r7KSqvZGx" next="i-UMkM72dn2C6xpKDU4LSbAa">
           <seg xml:id="i-R1FpyAje5ai6n34mRnwvkQ">
             Alla äro vi väl äfven öfverens derom, tänker jag, att den dag
             man kommer till allmän rösträtt, skall representationen utjemnas,
             så att den blir lika för stad och land.
           </seg>
-        </u>
-        <u xml:id="i-UMkM72dn2C6xpKDU4LSbAa" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-BDGStZRnbLPJyaWjHRFEEw" next="i-4HRKWZLE5sW7rv9XiEMDrQ">
           <seg xml:id="i-MJAU9SDzbL7X2FpqQdFhYE">
             Derefter komma vi till de proportionella valen. Jag tror, liksom
             den föregående talaren, att svårigheterna med de proportionella
@@ -3832,8 +3626,6 @@
             taga hand om saken, hvilka fordra, att allt skall vara matematiskt
             absolut juste i alla afseenden.
           </seg>
-        </u>
-        <u xml:id="i-4HRKWZLE5sW7rv9XiEMDrQ" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-UMkM72dn2C6xpKDU4LSbAa" next="i-75Eg7A8PQRPY4TcMKL9BZG">
           <seg xml:id="i-XMzx23VMXytjSDPXdVfjo6">
             Så komma vi då slutligen till frågan om åldersgränsen. De olika
             förslag, som här framstälts, ha i allmänhet hållit sig till en
@@ -3864,7 +3656,7 @@
         <note xml:id="i-6MVtAkWY9jsrQyj2W8c5X3" type="date">
           42 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-75Eg7A8PQRPY4TcMKL9BZG" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-4HRKWZLE5sW7rv9XiEMDrQ" next="i-ETUpg47DdEv69bWAJ62EiS">
+        <u xml:id="i-75Eg7A8PQRPY4TcMKL9BZG" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-EAnKdPi4vcRV8r7KSqvZGx" next="i-6yWX54taF5rSJuLtYoY658">
           <seg xml:id="i-Ro6LgAa9wyk1wKMS5cDEHV">
             Om man skulle kunna tänka sig en högre åldersgräns för valrätt
             än 25 år, skulle naturligtvis äfven valbarheten följa med; det
@@ -3878,8 +3670,6 @@
             om den uppfattningen, att det i hvarje fall icke skulle ha skadat,
             om han fått mogna något.
           </seg>
-        </u>
-        <u xml:id="i-ETUpg47DdEv69bWAJ62EiS" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-75Eg7A8PQRPY4TcMKL9BZG" next="i-7iRs1A6amZY8QmNVFCGFGq">
           <seg xml:id="i-Y63kQbaKAaR9MvzQtYqE2o">
             Hvad åter rösträtten vidkommer, få vi väl erkänna, mina berrar,
             att det hör till undantagen, att vi träffa på män, som verkligen
@@ -3907,8 +3697,6 @@
             Men, såsom redan sagdt, något yrkande om högre ålder kan icke
             nu framställas.
           </seg>
-        </u>
-        <u xml:id="i-7iRs1A6amZY8QmNVFCGFGq" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-ETUpg47DdEv69bWAJ62EiS" next="i-6yWX54taF5rSJuLtYoY658">
           <seg xml:id="i-TnaP7WAuhBeV5b43zjBC5Y">
             Emellertid, innan jag slutar, vill jag blott säga, att jag är
             ganska rädd för samlingspartiets förslag. Anledningen, hvarför
@@ -3932,47 +3720,33 @@
         <note xml:id="i-L4nRvNxJT69R9HsxV2JbHR" type="date">
           Torsdagen den 15 Maj. 43 N:o 51.
         </note>
-        <u xml:id="i-6yWX54taF5rSJuLtYoY658" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-7iRs1A6amZY8QmNVFCGFGq" next="i-PLZndUt6ZJUYTP3DWXFnnq">
+        <u xml:id="i-6yWX54taF5rSJuLtYoY658" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-75Eg7A8PQRPY4TcMKL9BZG">
           <seg xml:id="i-UMEESpivxFSzGYeU5AZdKi">
             utan garantier, kunna vi vara säkra, att vi äfven inom icke lång
             tid Angående
           </seg>
-        </u>
-        <u xml:id="i-PLZndUt6ZJUYTP3DWXFnnq" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-6yWX54taF5rSJuLtYoY658" next="i-NC8Er7sDAMtwNC2nYYoQGj">
           <seg xml:id="i-ErKR2SmNFxNGaSnFZdvVZP">
             äro framme vid allmän rösträtt utan garantier. Det är för mig
             icke valrätten till
           </seg>
-        </u>
-        <u xml:id="i-NC8Er7sDAMtwNC2nYYoQGj" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-PLZndUt6ZJUYTP3DWXFnnq" next="i-D4gnnLNx8cjNSWX7cTKw9V">
           <seg xml:id="i-XRd6VdLCEsZUxaivzQSGG4">
             tilltalande. Jag vill icke ha allmän rösträtt — så varm vän jag
             än Kammaren.
           </seg>
-        </u>
-        <u xml:id="i-D4gnnLNx8cjNSWX7cTKw9V" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-NC8Er7sDAMtwNC2nYYoQGj" next="i-ApdMm8e4pP466d8Q14j8BS">
           <seg xml:id="i-MpMisQH4Mr1JyN64vuPVGV">
             är af densamma — utan garantier. (Forts.) Herr talman, jag har
             nu uttalat mina åsigter om några åtgärder,
           </seg>
-        </u>
-        <u xml:id="i-ApdMm8e4pP466d8Q14j8BS" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-D4gnnLNx8cjNSWX7cTKw9V" next="i-Hb5kdhGFbra3ha31kVDBBX">
           <seg xml:id="i-E1h63xgVj7GDmZU8zzSKGH">
             som enligt min tanke borde vidtagas. Jag har icke något yrkande
           </seg>
-        </u>
-        <u xml:id="i-Hb5kdhGFbra3ha31kVDBBX" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-ApdMm8e4pP466d8Q14j8BS" next="i-RdTc5p2Y1CmYUjgLoKeq5Q">
           <seg xml:id="i-LPv6Liw9EECnh1GMd5ca5u">
             att göra, åtminstone icke för ögonblicket, men af det sagda framgår,
           </seg>
-        </u>
-        <u xml:id="i-RdTc5p2Y1CmYUjgLoKeq5Q" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-Hb5kdhGFbra3ha31kVDBBX" next="i-VPvZuhrCNNcEMiSMVKLTmH">
           <seg xml:id="i-VCRSmparhvyU7Ag1txsGcL">
             att jag tror, att det lämpligaste vore, att vi förenade oss om
             det
           </seg>
-        </u>
-        <u xml:id="i-VPvZuhrCNNcEMiSMVKLTmH" who="i-Xy5QKgZNAAxwtYM5hJ2E5U" prev="i-RdTc5p2Y1CmYUjgLoKeq5Q">
           <seg xml:id="i-13woKSyEweJz3ygNjvTVj4">
             skrifvelseförslag, som herrar Berg och och Boöthius framstält.
           </seg>
@@ -3984,7 +3758,7 @@
         <note xml:id="i-Njq4kb2Uc2o71xTiSWCQd3" type="speaker">
           Herr Centerwall:
         </note>
-        <u xml:id="i-TKAPnWqHdGifnoAYfXBYQS" who="i-YEQC2cS7Zaae9YLGWdiy6e" next="i-835Dt3uahFDgG7KVMqXxYJ">
+        <u xml:id="i-TKAPnWqHdGifnoAYfXBYQS" who="i-YEQC2cS7Zaae9YLGWdiy6e" next="i-6b79eLVmeCmBKrhTMR4KG7">
           <seg xml:id="i-HQchbymgn6cpY1FTwbx9Wn">
             Af alldeles samma skäl, som friherre Ericson var rädd för samlingspartiets
             förslag, är jag böjd för att förorda detsamma. I olikhet med den
@@ -3997,8 +3771,6 @@
             fullgöra sin värnpligt antingen de vilja eller icke — och vid
             valtillfället betalda utskylder.
           </seg>
-        </u>
-        <u xml:id="i-835Dt3uahFDgG7KVMqXxYJ" who="i-YEQC2cS7Zaae9YLGWdiy6e" prev="i-TKAPnWqHdGifnoAYfXBYQS" next="i-6b79eLVmeCmBKrhTMR4KG7">
           <seg xml:id="i-NXzzEuUfMBsFKaDVJRZL4r">
             Jag föranledes till detta yttrande, icke af den skrifvelse, som
             jag nyss mottagit hemifrån, der en stor mängd af mina valmän uppmanar
@@ -4044,7 +3816,7 @@
         <note xml:id="i-Bg5You5ATBDWVoPn3TSAap" type="date">
           44 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-6b79eLVmeCmBKrhTMR4KG7" who="i-YEQC2cS7Zaae9YLGWdiy6e" prev="i-835Dt3uahFDgG7KVMqXxYJ" next="i-4CHvLeftnrGtznoe66dh7k">
+        <u xml:id="i-6b79eLVmeCmBKrhTMR4KG7" who="i-YEQC2cS7Zaae9YLGWdiy6e" prev="i-TKAPnWqHdGifnoAYfXBYQS">
           <seg xml:id="i-7cz1ikhCtUFUkPzBT32FvP">
             fullt öfvertygad om, att det var ärligt menadt, ehuru jag tror,
             att välmeningen var större än framgången. Sedan har man försökt
@@ -4055,8 +3827,6 @@
             har den åsigten, som jag har, att man förra året ådrog sig en
             skuld till folket, så är tiden nu kommen att betala den skulden.
           </seg>
-        </u>
-        <u xml:id="i-4CHvLeftnrGtznoe66dh7k" who="i-YEQC2cS7Zaae9YLGWdiy6e" prev="i-6b79eLVmeCmBKrhTMR4KG7" next="i-5eatTmR6A5ZNjmWsc9mRUU">
           <seg xml:id="i-FdgDcZVfvyGqRDTahhF5Ee">
             Ty nu presenteras skuldsedeln, och vi kunna ej dröja alltför
             länge att vidtaga någon verklig åtgärd för att inlösa densamma.
@@ -4083,8 +3853,6 @@
             har affattats med all möjlig förtänksamhet och tagit hänsyn till
             alla möjliga omständigheter.
           </seg>
-        </u>
-        <u xml:id="i-5eatTmR6A5ZNjmWsc9mRUU" who="i-YEQC2cS7Zaae9YLGWdiy6e" prev="i-4CHvLeftnrGtznoe66dh7k" next="i-WfVcXS7MAeFkjmtwD1Aeeu">
           <seg xml:id="i-RtS8FUeiJzwGNGQPFvaCNW">
             Som tiden emellertid är kort, talarne många och otåligheten ganska
             stor, vill jag ej längre taga kammarens uppmärksamhet i anspråk,
@@ -4094,8 +3862,6 @@
             som innebär de största garantierna för genomförande i en snar
             framtid af hvad man kallar allmän rösträtt.
           </seg>
-        </u>
-        <u xml:id="i-WfVcXS7MAeFkjmtwD1Aeeu" who="i-YEQC2cS7Zaae9YLGWdiy6e" prev="i-5eatTmR6A5ZNjmWsc9mRUU">
           <seg xml:id="i-VS9drqmAAw63m8AWJCRomC">
             Jag har nu ej något annat yrkande att framställa än om afslag
             på konstitutionsutskottets förslag.
@@ -4121,7 +3887,7 @@
         <note xml:id="i-J1P6orx7FERG1kTzSZRdTa" type="date">
           Torsdagen den 15 Maj. 45
         </note>
-        <u xml:id="i-BPTzDbHbuUxTVD63Xci9Dj" who="i-SDUvjXkijTCpDJkN2vE16w" prev="i-VYJysZxAsgCrvVoXJYE22M" next="i-PhFZiFtUMjibh22sT4dMR6">
+        <u xml:id="i-BPTzDbHbuUxTVD63Xci9Dj" who="i-SDUvjXkijTCpDJkN2vE16w" prev="i-VYJysZxAsgCrvVoXJYE22M">
           <seg xml:id="i-R2FiwVQz6JqhKap6uHeQdi">
             vånare, under det att motsvarande siffra för stad utgör endast
             omkring 13,500. Således hafva städerna en dubbelt så stor representationsrätt
@@ -4142,8 +3908,6 @@
             äro vida starkare än de grunder, som i motsatt rigtning kunna
             anföras.
           </seg>
-        </u>
-        <u xml:id="i-PhFZiFtUMjibh22sT4dMR6" who="i-SDUvjXkijTCpDJkN2vE16w" prev="i-BPTzDbHbuUxTVD63Xci9Dj">
           <seg xml:id="i-QhX9DiqncobQJjBQSduyy6">
             Om jag nu går till de föreliggande motionerna, så framhåller
             friherre von Knorring med styrka, att inga skäl tala för bibehållandet
@@ -4202,15 +3966,13 @@
         <note xml:id="i-3jAqaU3asBUavkxopZzgPo" type="date">
           46 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-USpBXRiaLxqFSyFwxFKKEU" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-NDsbfxhRSh48MCvLX3mk9N" next="i-QxW7ghA6amjM8Qxb2TXZaB">
+        <u xml:id="i-USpBXRiaLxqFSyFwxFKKEU" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-NDsbfxhRSh48MCvLX3mk9N" next="i-YD4g2MHR5yF5xL9DfmfcoX">
           <seg xml:id="i-58ZHpk9sRSFDmpguVYLYpM">
             förhoppning derom, att i en snar framtid en effektiv rösträttsreform
             skulle komma till stånd. Man torde således kunna få fastslå såsom
             en sanning, att de rösträttslöse verkligen vilja komma till en
             fullständig politisk medborgerlighet.
           </seg>
-        </u>
-        <u xml:id="i-QxW7ghA6amjM8Qxb2TXZaB" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-USpBXRiaLxqFSyFwxFKKEU" next="i-X7gNxsN7F9zgLJeq46abcu">
           <seg xml:id="i-PNPtEXEn9WWS1d4fuBnQvM">
             Objektivt giltiga skäl för en ändring af valrätten kunde ock
             härledas såväl ifrån förhållandena inom vårt eget land som ifrån
@@ -4228,8 +3990,6 @@
             tillväxt. Den materiella utvecklingen i landet har således fortskridit
             med en hastighet, som är väsentligt olika för de särskilda näringarna.
           </seg>
-        </u>
-        <u xml:id="i-X7gNxsN7F9zgLJeq46abcu" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-QxW7ghA6amjM8Qxb2TXZaB" next="i-3K1iKPcfoBZiGcg8X48vt2">
           <seg xml:id="i-FeYTnVKWPWQRLLmi19nPhi">
             En jemförelse med andra stater visar, att valmännens antal i
             förhållande till folkmängden är i Sverige mycket ringa. Se vi
@@ -4246,8 +4006,6 @@
             till en effektiv rösträttsreform och att i fullt förtroende till
             det svenska folket ställa sig i spetsen för reformvännerna.
           </seg>
-        </u>
-        <u xml:id="i-3K1iKPcfoBZiGcg8X48vt2" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-X7gNxsN7F9zgLJeq46abcu" next="i-YD4g2MHR5yF5xL9DfmfcoX">
           <seg xml:id="i-QXMTuNkgMRqymWP6WWQJec">
             Inom vissa kretsar höjas i våra dagar rop på en organisation,
             en klassifikation af valmännen, men efter hvilka grunder skulle
@@ -4272,7 +4030,7 @@
         <note xml:id="i-Rk5mRmyAM2umriDQsLQhof" type="date">
           Torsdagen den 15 Maj. 47 N:o 51.
         </note>
-        <u xml:id="i-YD4g2MHR5yF5xL9DfmfcoX" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-3K1iKPcfoBZiGcg8X48vt2" next="i-YAgGNWUGZaszbzspx1tfod">
+        <u xml:id="i-YD4g2MHR5yF5xL9DfmfcoX" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-USpBXRiaLxqFSyFwxFKKEU" next="i-YAgGNWUGZaszbzspx1tfod">
           <seg xml:id="i-LoQ3K3F9SwsShBa3ts8H2t">
             göras så stora, att flera representanter väljas inom samma krets.
             Angående Men, mina herrar, vill man införa en proportionel valmetod,
@@ -4290,7 +4048,7 @@
         <note xml:id="i-73wihQj7x5cdeunGtRaJgV">
           tetsval.
         </note>
-        <u xml:id="i-YAgGNWUGZaszbzspx1tfod" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-YD4g2MHR5yF5xL9DfmfcoX" next="i-6FDMLyfFgWknJLmQBC3sb2">
+        <u xml:id="i-YAgGNWUGZaszbzspx1tfod" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-YD4g2MHR5yF5xL9DfmfcoX" next="i-PXj7JCDgYgd6Zo6NtG7McC">
           <seg xml:id="i-AoGAB8oRi92tgvT4S7qm3X">
             Uti den af friherre von Knorring m. fl. väckta motionen förekommer
             ett förslag derom, att köpingar och municipalsamhällen af en viss
@@ -4307,16 +4065,12 @@
             Men i bondeståndet kunde han icke inkomma på grund af sin börd,
             äfven om han uteslutande sysselsatte sig med jordbruk.
           </seg>
-        </u>
-        <u xml:id="i-6FDMLyfFgWknJLmQBC3sb2" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-YAgGNWUGZaszbzspx1tfod" next="i-721Qp1SZcDPiwrKa4L37Aw">
           <seg xml:id="i-XXK66hi31TuGVg4611XPCm">
             En liknande exklusivitet innebär utskottets förslag att i valtekniskt
             hänseende afsöndra köpingar och municipalsamhällen från socken-
             — och häradsbonden. Nej, mina herrar, låten köpingarna ligga på
             landet!
           </seg>
-        </u>
-        <u xml:id="i-721Qp1SZcDPiwrKa4L37Aw" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-6FDMLyfFgWknJLmQBC3sb2" next="i-2CbRva1mXHDqzdkqciB6rh">
           <seg xml:id="i-ECFrdGf58pNV6wZZxqHwja">
             Konstitutionsutskottet har icke ansett sig kunna till antagande
             förorda det af herr Sixten von Friesen m. fl. väckta förslaget.
@@ -4326,8 +4080,6 @@
             att välja en ny handlingspolitik. Ty, mina herrar, krafvet på
             en ändring af valrätten kan icke öfvergifvas.
           </seg>
-        </u>
-        <u xml:id="i-2CbRva1mXHDqzdkqciB6rh" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-721Qp1SZcDPiwrKa4L37Aw" next="i-Xi41GuzY6Yr1Bq9KAvX44R">
           <seg xml:id="i-HfDEcLvQw7GGYeTenspjmd">
             I slutet af motiveringen till den af herr von Friesen m. fl.
             väckta motionen erinra motionärerna derom, att deras förslag är
@@ -4338,8 +4090,6 @@
             öfvervägande, huruvida icke för vårt lands framtida konstitutionella
             utveckling nya grundvalar må uppsökas.»
           </seg>
-        </u>
-        <u xml:id="i-Xi41GuzY6Yr1Bq9KAvX44R" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-2CbRva1mXHDqzdkqciB6rh" next="i-PXj7JCDgYgd6Zo6NtG7McC">
           <seg xml:id="i-YFJgLcZFCN4Q2fKz7BKtiV">
             Rösträtten är grundvalen för den moderna samhällsbyggnaden. Ju
             bredare denna grundval lägges, dess bättre kan samhällsbyggnaden
@@ -4362,12 +4112,10 @@
         <note xml:id="i-3xNCQ9hiS1uxkaETx9n2Pt" type="date">
           48 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-PXj7JCDgYgd6Zo6NtG7McC" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-Xi41GuzY6Yr1Bq9KAvX44R" next="i-FKDC82VKbP288JsfwpY9T8">
+        <u xml:id="i-PXj7JCDgYgd6Zo6NtG7McC" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-YAgGNWUGZaszbzspx1tfod" next="i-GyVkEtUmc92LU7d2irrJMy">
           <seg xml:id="i-TgVNGZbDfRVbJ8sV2rHDFk">
             Herr Branting föreslår införande af allmän rösträtt. Derigenom
           </seg>
-        </u>
-        <u xml:id="i-FKDC82VKbP288JsfwpY9T8" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-PXj7JCDgYgd6Zo6NtG7McC" next="i-GyVkEtUmc92LU7d2irrJMy">
           <seg xml:id="i-QCwQo9AMafr6DvfRQmHW9R">
             valrätten. till har han angifvit den nu pågående rösträttsrörelsens
             slutmål. Till
@@ -4376,7 +4124,7 @@
         <note xml:id="i-Huik7JPRUNSVYiYMQWQq6U">
           Andra
         </note>
-        <u xml:id="i-GyVkEtUmc92LU7d2irrJMy" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-FKDC82VKbP288JsfwpY9T8" next="i-QsNV3YkMoe6kPKW5N8GWms">
+        <u xml:id="i-GyVkEtUmc92LU7d2irrJMy" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-PXj7JCDgYgd6Zo6NtG7McC" next="i-QsNV3YkMoe6kPKW5N8GWms">
           <seg xml:id="i-UoBM6LcDMnzxvbiLXC3eWM">
             Kammaren. Sitt ursprung kan principen om den allmänna rösträtten
             i Sverige
@@ -4385,7 +4133,7 @@
         <note xml:id="i-KvQiUQ16t8zfxxE8JRw5ET">
           (Forts.)
         </note>
-        <u xml:id="i-QsNV3YkMoe6kPKW5N8GWms" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-GyVkEtUmc92LU7d2irrJMy" next="i-DF14AVMhgz4daDmFzBDamn">
+        <u xml:id="i-QsNV3YkMoe6kPKW5N8GWms" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-GyVkEtUmc92LU7d2irrJMy">
           <seg xml:id="i-7NHVF5aHpjvKdhVUxtyY4D">
             sägas stödja sig på ett så berömdt namn som Erik Gustaf Geijers.
             Då Geijer utkastade en plan att på ett ändamålsenligt sätt ombilda
@@ -4393,8 +4141,6 @@
             för hvarje till myndiga år kommen, oförvitlig medborgare. För
             min del gillar jag denna Geijers tanke.
           </seg>
-        </u>
-        <u xml:id="i-DF14AVMhgz4daDmFzBDamn" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-QsNV3YkMoe6kPKW5N8GWms" next="i-Cy5mfqssQetjuhF1NWBGu3">
           <seg xml:id="i-FFhfNkVeaynU9vufgVTmD7">
             Vid en votering här i denna kammare för några år sedan blef yrkandet
             om allmän rösträtt antaget såsom kontraproposition. Detta väckte
@@ -4405,8 +4151,6 @@
             för den allmänna rösträtten? Om en sådan möjlighet förefinnes,
             må den då öfvergå till verklighet!
           </seg>
-        </u>
-        <u xml:id="i-Cy5mfqssQetjuhF1NWBGu3" who="i-9wYeeuP3RWB6bA1svcTBE" prev="i-DF14AVMhgz4daDmFzBDamn">
           <seg xml:id="i-TXqdBXkWCUeXKhoTUPQJ4T">
             Svenska folket intager en hög ståndpunkt i afseende på måtta
             och sans. För mig ter sig för den skull saken så, att det skall
@@ -4417,7 +4161,7 @@
         <note xml:id="i-KrUGNsfREonwRUPTyCDQJ7" type="speaker">
           Herr Pehrson i Törneryd:
         </note>
-        <u xml:id="i-FETQQSHGA9Fg1w2kBkYswM" who="i-ESAm1DKfv3KraeQ1CSiwmq" next="i-2j9TcX41EmVj9ZBdwwFg3a">
+        <u xml:id="i-FETQQSHGA9Fg1w2kBkYswM" who="i-ESAm1DKfv3KraeQ1CSiwmq" next="i-UvR4LSJjftMLRiUPw4UiiD">
           <seg xml:id="i-3D8KSonsaE5jCAoxzWE4vo">
             Herr grefve och talman! Jag vill börja med att säga, att jag
             aldrig ett ögonblick betviflat, att icke tiden är inne att göra
@@ -4432,8 +4176,6 @@
             mig sjelf derom, att en utsträckning af den politiska rösträtten
             bör ske, och detta fortast möjligt.
           </seg>
-        </u>
-        <u xml:id="i-2j9TcX41EmVj9ZBdwwFg3a" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-FETQQSHGA9Fg1w2kBkYswM" next="i-Ph5ggxZ4YQD6iqgqiebyy3">
           <seg xml:id="i-AjqYDAmpj7bgzZiiQE6A7j">
             Nu kan emellertid meningarna vara delade om, hvilken väg man
             skall gå och huru långt man skall gå. Jag kan icke för min del
@@ -4452,8 +4194,6 @@
             Friesens förslag, friherre von Knorrings förslag och konstitutionsutskottets
             förslag.
           </seg>
-        </u>
-        <u xml:id="i-Ph5ggxZ4YQD6iqgqiebyy3" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-2j9TcX41EmVj9ZBdwwFg3a" next="i-UvR4LSJjftMLRiUPw4UiiD">
           <seg xml:id="i-St2nawkkqroFqqb3Gyk8eg">
             Jag skall be att få något litet uppehålla mig vid hvartdera af
             dessa förslag.
@@ -4463,7 +4203,7 @@
         <note xml:id="i-K1dj7Z1i2fcFA9TBSyZi2b" type="date">
           Torsdagen den 15 Maj. 49 N:o 51.
         </note>
-        <u xml:id="i-UvR4LSJjftMLRiUPw4UiiD" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-Ph5ggxZ4YQD6iqgqiebyy3" next="i-TMWNwaXMxV2Lc4Z4xPPREH">
+        <u xml:id="i-UvR4LSJjftMLRiUPw4UiiD" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-FETQQSHGA9Fg1w2kBkYswM" next="i-LmbgFGutH3pArCDXn7R76X">
           <seg xml:id="i-8jCG3PHeBEXMCNWBauXx5f">
             Hvad först beträffar Kongl. Maj:ts förslag, så förefaller det
             mig Angående icke så underligt, att Kongl. Maj:t tagit ett så
@@ -4483,8 +4223,6 @@
             förslag, med mindre än att man på samma gång skrider till en reform
             af representationsrätten mellan stad och land.
           </seg>
-        </u>
-        <u xml:id="i-TMWNwaXMxV2Lc4Z4xPPREH" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-UvR4LSJjftMLRiUPw4UiiD" next="i-9SQtdksgtPMdwpC4nzmikx">
           <seg xml:id="i-Tbh8bBL8mR5acQUmPpyaHZ">
             Nu har herr von Friesen påpekat, — han uppehöll sig icke mycket
             dervid, så att jag vet icke, om jag fattade honom rätt — att det
@@ -4492,8 +4230,6 @@
             reform i afseende på rösträtten, då kunde det blifva tal om den
             lika representationen mellan stad och land, men icke nu.
           </seg>
-        </u>
-        <u xml:id="i-9SQtdksgtPMdwpC4nzmikx" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-TMWNwaXMxV2Lc4Z4xPPREH" next="i-Rr3mGBwnSywc2GpScTtHm7">
           <seg xml:id="i-8p9CyHVWCW2GdJSv4q4Vfp">
             Jag ber att få erinra den högt ärade talaren derom, att den utsträckning
             af den politiska rösträtten, som här föreslagits vare sig af Kongl.
@@ -4516,8 +4252,6 @@
             som den proportionella valmetoden för närvarande är så pass oklar,
             att man icke vågar fästa allt för stor betydelse vid densamma.
           </seg>
-        </u>
-        <u xml:id="i-Rr3mGBwnSywc2GpScTtHm7" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-9SQtdksgtPMdwpC4nzmikx" next="i-LmbgFGutH3pArCDXn7R76X">
           <seg xml:id="i-9f9z3iYYRZKux6Eb28eYxY">
             Friherre von Knorrings förslag, hvilket, som vi alla veta, beträffande
             valrätten afser ungefärligen detsamma som de af mig nyss omnämnda
@@ -4543,7 +4277,7 @@
         <note xml:id="i-T6k1vdvX4FvZXom7cDPDVi" type="date">
           50 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-LmbgFGutH3pArCDXn7R76X" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-Rr3mGBwnSywc2GpScTtHm7" next="i-K4VMvBranY7dYTQfZ1fECq">
+        <u xml:id="i-LmbgFGutH3pArCDXn7R76X" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-UvR4LSJjftMLRiUPw4UiiD" next="i-8obKQNQh7askE4QB8QBL1p">
           <seg xml:id="i-MrJf3o8cbhzhTpV3ni5vjF">
             köpingar och municipalsamhällen till städerna. Man kan nemligen
             icke förneka, att köpingar och municipalsamhällen icke hafva så
@@ -4557,8 +4291,6 @@
             äfven sanitära intressen, som äro olika i städerna och i municipalsamhällena
             samt köpingarna.
           </seg>
-        </u>
-        <u xml:id="i-K4VMvBranY7dYTQfZ1fECq" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-LmbgFGutH3pArCDXn7R76X" next="i-8obKQNQh7askE4QB8QBL1p">
           <seg xml:id="i-Rn3BgH7Utwy8UjjLoXNxb5">
             Jag ber att något få fästa mig vid ett förslag, som jag redan
             vidrört, nemligen det under senaste dagarne så mycket omtalade
@@ -4605,21 +4337,17 @@
         <note xml:id="i-Jad6hFofUPQFa9Lqcoc5af" type="date">
           Torsdagen den 15 Maj. 51 N:o 51.
         </note>
-        <u xml:id="i-8obKQNQh7askE4QB8QBL1p" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-K4VMvBranY7dYTQfZ1fECq" next="i-3M6KYcpuRsdNWoj23VjNvj">
+        <u xml:id="i-8obKQNQh7askE4QB8QBL1p" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-LmbgFGutH3pArCDXn7R76X" next="i-8L4S7Angj4tnPDeCZARqYX">
           <seg xml:id="i-YcSuntzFyEJfkbLQ6FbJUt">
             krets — de der befintliga öfriga trenne städerna skulle sammanslås
             Angående med landsbygden och gemensamt med den utse riksdagsmän.
             valrätten till
           </seg>
-        </u>
-        <u xml:id="i-3M6KYcpuRsdNWoj23VjNvj" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-8obKQNQh7askE4QB8QBL1p" next="i-AzWujCmLTb6paR1EYmjcnD">
           <seg xml:id="i-TaXeyUWYPkQPUwwAqHt1J8">
             Med hänsyn alltså till dels de stora valkretsar, som en sådan
             Rare valmetod skulle medföra, dels de efter mitt förmenande stora
             oegent- (Forts.)
           </seg>
-        </u>
-        <u xml:id="i-AzWujCmLTb6paR1EYmjcnD" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-3M6KYcpuRsdNWoj23VjNvj" next="i-3AVik7xB4x2HwKvoYRc436">
           <seg xml:id="i-RFX27RoowGPVmitzViHibq">
             ligheter, som skulle följa deraf, att man sammansloge städer
             och landsbygd till samma valkretsar, finner jag ingenting tilltalande
@@ -4631,8 +4359,6 @@
             Gefle, Upsala, Karlskrona, Jönköping och Örebro. Alla de öfriga
             städerna skulle sannolikt komma att sammanslås med landsbygden.
           </seg>
-        </u>
-        <u xml:id="i-3AVik7xB4x2HwKvoYRc436" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-AzWujCmLTb6paR1EYmjcnD" next="i-8L4S7Angj4tnPDeCZARqYX">
           <seg xml:id="i-G1zc67Z9SPMTRhySH8E39N">
             Jag kommer nu slutligen åter till konstitutionsutskottets förslag.
             Icke heller detta förslag tilltalar mig helt och hållet, och anledningen
@@ -4666,7 +4392,7 @@
           ordning, som i mom. 4 sägs, efter förhållandet emellan folkmängden
           å landet och i städerna.
         </note>
-        <u xml:id="i-8L4S7Angj4tnPDeCZARqYX" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-3AVik7xB4x2HwKvoYRc436" next="i-8a8BFwKUZ8PU4HSDz2R7B1">
+        <u xml:id="i-8L4S7Angj4tnPDeCZARqYX" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-8obKQNQh7askE4QB8QBL1p" next="i-8a8BFwKUZ8PU4HSDz2R7B1">
           <seg xml:id="i-GG2Y1GmzxWiMwZrdBuQgDX">
             2. Å landet, hvartill i fråga om riksdagsmannaval äfven räknas
             köpingar, utses för hvarje domsaga en riksdagsman. Understiger
@@ -4694,15 +4420,13 @@
           (Forts) dedel af rikets folkmängd. Städer, med mindre folkmängd
           än nu är
         </note>
-        <u xml:id="i-8a8BFwKUZ8PU4HSDz2R7B1" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-8L4S7Angj4tnPDeCZARqYX" next="i-7R2bgiNucv9ke9U6wQpdp6">
+        <u xml:id="i-8a8BFwKUZ8PU4HSDz2R7B1" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-8L4S7Angj4tnPDeCZARqYX" next="i-CX76jv27HpCTGPw8pShAz5">
           <seg xml:id="i-LMf9uZecTMDfnBepfb5vx2">
             sagdt, ordnas, så vidt lämpligen ske kan länsvis, i så många
             valkretsar, som, med iakttagande af att hvardera utser en riksdagsman,
             erfordras för uppnående af det antal riksdagsmän, som jemlikt
             mom. 1 skall för städerna utses.
           </seg>
-        </u>
-        <u xml:id="i-7R2bgiNucv9ke9U6wQpdp6" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-8a8BFwKUZ8PU4HSDz2R7B1" next="i-CX76jv27HpCTGPw8pShAz5">
           <seg xml:id="i-6QwSYQjAxiRmLwCPt1CtSC">
             4. Det antal riksdagsmän, som enligt mom. 1 skall utses för landet
             och för städerna, så ock riksdagsmännens antal för hvar och en
@@ -4746,7 +4470,7 @@
           förslag. 19 8. = Konstitutionsutskottets förslag. 20 8. För den
           — — — — (= 20 8 i nu gällande riksdagsordning).
         </note>
-        <u xml:id="i-CX76jv27HpCTGPw8pShAz5" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-7R2bgiNucv9ke9U6wQpdp6">
+        <u xml:id="i-CX76jv27HpCTGPw8pShAz5" who="i-ESAm1DKfv3KraeQ1CSiwmq" prev="i-8a8BFwKUZ8PU4HSDz2R7B1">
           <seg xml:id="i-FJaC76vLbe3ejBAqc7WrCu">
             Jag har, herr talman, för tillfället intet vidare att tillägga,
             än att jag ber att få yrka bifall till konstitutionsutskottets
@@ -4775,7 +4499,7 @@
         <note xml:id="i-97pQFxkwRVMG5WU4hiuyCZ" type="speaker">
           Herr Höjer:
         </note>
-        <u xml:id="i-3bPCSG2vr4r5uDjAxrvcP5" who="i-E92rgqKkvM4kNk9eGmN4Vz" next="i-Y5aeeuvrQwG25FvdTFKEir">
+        <u xml:id="i-3bPCSG2vr4r5uDjAxrvcP5" who="i-E92rgqKkvM4kNk9eGmN4Vz" next="i-CmHgZZtCppDFqTvyjvqsU2">
           <seg xml:id="i-2cc62Kf94V55PW8P2GyytU">
             Herr talman, mina herrar! Under den stora rösträttsdebatten i
             Andra Kammaren vid 1899 års riksdag yttrades följande ord af en
@@ -4792,8 +4516,6 @@
             stor plats — åt de ännu utestängde till väckande och stärkande
             af solidaritetsoch ansvarskänslan hos alla svenske män.
           </seg>
-        </u>
-        <u xml:id="i-Y5aeeuvrQwG25FvdTFKEir" who="i-E92rgqKkvM4kNk9eGmN4Vz" prev="i-3bPCSG2vr4r5uDjAxrvcP5" next="i-GNMVxptEEuArU579fY7PyM">
           <seg xml:id="i-Hy5qFKpMRhZHDeYYNXwzFW">
             Se, mina herrar, när det blir tal om en effektiv rösträttsreform
             — och om något annat borde icke kunna vara tal i närvarande stund
@@ -4813,8 +4535,6 @@
             herr Rohde, och sade ifrån öppet och ärligt: »det är bra som det
             är; och makten får ligga der den ligger».
           </seg>
-        </u>
-        <u xml:id="i-GNMVxptEEuArU579fY7PyM" who="i-E92rgqKkvM4kNk9eGmN4Vz" prev="i-Y5aeeuvrQwG25FvdTFKEir" next="i-CmHgZZtCppDFqTvyjvqsU2">
           <seg xml:id="i-E5Q5i1pnobn7qx8xMeCXtA">
             Kongl. Maj:t först och främst och konstitutionsutskottet sedan
             hafva icke i följd af händelsernas tvång kunnat undgå att erkänna
@@ -4843,7 +4563,7 @@
         <note xml:id="i-AFt8SvCBxfiMZSG5DwshZW" type="date">
           54 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-CmHgZZtCppDFqTvyjvqsU2" who="i-E92rgqKkvM4kNk9eGmN4Vz" prev="i-GNMVxptEEuArU579fY7PyM" next="i-QSXHyj5iufN5JhaoiVXc7">
+        <u xml:id="i-CmHgZZtCppDFqTvyjvqsU2" who="i-E92rgqKkvM4kNk9eGmN4Vz" prev="i-3bPCSG2vr4r5uDjAxrvcP5" next="i-9izsHBUvN5TsGURqiPVUKY">
           <seg xml:id="i-VjZiUhxhut3jJCmg3TMeQr">
             seradt på detta studium, framlades för Riksdagen, så tillfredsstälde
             det ingen, och i denna stund är det säkert ingen, vare sig i Första
@@ -4853,8 +4573,6 @@
             Och detta öde skulle visserligen hafva haft anspråk på min medkänsla,
             om det icke vore helt och hållet sjelfförvålladt.
           </seg>
-        </u>
-        <u xml:id="i-QSXHyj5iufN5JhaoiVXc7" who="i-E92rgqKkvM4kNk9eGmN4Vz" prev="i-CmHgZZtCppDFqTvyjvqsU2" next="i-27yPpPthRSaujXVvVaFJam">
           <seg xml:id="i-2ERecj7QxxtbdsTVTCfT5p">
             Hvad beträffar konstitutionsutskottet, så synes mig detta hafva
             varit om möjligt ännu räddare än Kongl. Maj:t. Konstitutionsutskottets
@@ -4871,8 +4589,6 @@
             synas mig hafva kunnat komma att utgöra en ganska värderik konserverande
             beståndsdel af den nya valmanskåren.
           </seg>
-        </u>
-        <u xml:id="i-27yPpPthRSaujXVvVaFJam" who="i-E92rgqKkvM4kNk9eGmN4Vz" prev="i-QSXHyj5iufN5JhaoiVXc7" next="i-DDv7DHGqAhZeZ3vjUfaUX2">
           <seg xml:id="i-PFgkcqAVzmE91qmCG84iYy">
             Slutligen och framför allt har konstitutionsutskottet kommit
             på den luminösa idén, som för öfrigt — det medgifver jag — ligger
@@ -4895,8 +4611,6 @@
             hvarigenom dessa klassmotsatser ovilkorligen skola komma att på
             ett ödesdigert sätt skärpas.
           </seg>
-        </u>
-        <u xml:id="i-DDv7DHGqAhZeZ3vjUfaUX2" who="i-E92rgqKkvM4kNk9eGmN4Vz" prev="i-27yPpPthRSaujXVvVaFJam" next="i-9izsHBUvN5TsGURqiPVUKY">
           <seg xml:id="i-TrNLXZLZZeonrH9yTUKiEN">
             Dessutom skall jag be att i parentes få anmärka, att på den af
             konstitutionsutskottet föreslagna reformen skulle följa ett i
@@ -4914,7 +4628,7 @@
         <note xml:id="i-CpjYYzkDrCaZApbkbX966y" type="date">
           Torsdagen den 15 Maj. 55
         </note>
-        <u xml:id="i-9izsHBUvN5TsGURqiPVUKY" who="i-E92rgqKkvM4kNk9eGmN4Vz" prev="i-DDv7DHGqAhZeZ3vjUfaUX2" next="i-LGssJirthbjYvEHmXjFTzP">
+        <u xml:id="i-9izsHBUvN5TsGURqiPVUKY" who="i-E92rgqKkvM4kNk9eGmN4Vz" prev="i-CmHgZZtCppDFqTvyjvqsU2" next="i-PfMCFuU82NSNj1i9YHg81r">
           <seg xml:id="i-6HfWDbZbFH7t2Fk8ERc96v">
             Jag bör icke alldeles gå förbi en tanke, som konstitutionsutskottet
             uttalat och som synes mig hafva fått ett fullödigt uttryck i den
@@ -4935,8 +4649,6 @@
             vidt meningen är, att alla städer skulle bilda egna och sjelfständiga
             valkretsar såsom nu.
           </seg>
-        </u>
-        <u xml:id="i-LGssJirthbjYvEHmXjFTzP" who="i-E92rgqKkvM4kNk9eGmN4Vz" prev="i-9izsHBUvN5TsGURqiPVUKY" next="i-GzvmwBStu7g4HbtyC6vusm">
           <seg xml:id="i-S8WtgqibDHNvwvTvAU1SKA">
             För att vara upprigtig mot mina ärade kamrater inom kammaren,
             skall jag anföra ännu ett skäl, hvarför vi städernas representanter
@@ -4957,8 +4669,6 @@
             Men detta var ju det, som skulle undvikas genom införande af allmän
             rösträtt och proportionella val.
           </seg>
-        </u>
-        <u xml:id="i-GzvmwBStu7g4HbtyC6vusm" who="i-E92rgqKkvM4kNk9eGmN4Vz" prev="i-LGssJirthbjYvEHmXjFTzP" next="i-PfMCFuU82NSNj1i9YHg81r">
           <seg xml:id="i-Mz2uSVRDW7yjc91k2xTiAX">
             Innan jag slutar, skall jag be att få i samband med konstitutionsutskottets
             föreliggande betänkande sysselsätta mig något med en af konstitutionsutskottets
@@ -4996,7 +4706,7 @@
         <note xml:id="i-7qo4r1LU5rjCwncYgiHZyN" type="date">
           56 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-PfMCFuU82NSNj1i9YHg81r" who="i-E92rgqKkvM4kNk9eGmN4Vz" prev="i-GzvmwBStu7g4HbtyC6vusm" next="i-PbXHFvUGuHFfUBuvgo5C7d">
+        <u xml:id="i-PfMCFuU82NSNj1i9YHg81r" who="i-E92rgqKkvM4kNk9eGmN4Vz" prev="i-9izsHBUvN5TsGURqiPVUKY" next="i-PbXHFvUGuHFfUBuvgo5C7d">
           <seg xml:id="i-Boau5rwpTymCtZ8ddexR1S">
             den faran åter, att Riksdagen kan genom att i gemensam votering,
             kanske under föregifvande af omsorgen om de mindre bemedlade,
@@ -5009,7 +4719,7 @@
         <note xml:id="i-Lvm3CSrMQoPsp1ZX5LA47c">
           (Forts.)
         </note>
-        <u xml:id="i-PbXHFvUGuHFfUBuvgo5C7d" who="i-E92rgqKkvM4kNk9eGmN4Vz" prev="i-PfMCFuU82NSNj1i9YHg81r" next="i-hSdVHoBa1d8VjZJGVQYqe">
+        <u xml:id="i-PbXHFvUGuHFfUBuvgo5C7d" who="i-E92rgqKkvM4kNk9eGmN4Vz" prev="i-PfMCFuU82NSNj1i9YHg81r">
           <seg xml:id="i-53hmLjQ5DdS8GsZyM3wewS">
             den politiska rösträtt, som de under en följd af år haft.&gt;
             Och litet längre fram i sitt yttrande säger han: »Det synes mig
@@ -5017,8 +4727,6 @@
             kan komma att bero på en gemensam votering inom Riksdagen, desto
             större blir faran och frestelsen att ändra det.»
           </seg>
-        </u>
-        <u xml:id="i-hSdVHoBa1d8VjZJGVQYqe" who="i-E92rgqKkvM4kNk9eGmN4Vz" prev="i-PbXHFvUGuHFfUBuvgo5C7d" next="i-PGPM4CA8JDgs7w2cHTLrJi">
           <seg xml:id="i-GVuR1SQcPdFUWDLpSVyvXj">
             Samme man, som yttrade dessa så förnuftiga ord, har nu vid denna
             riksdag varit med om ett konstitutionsutskottsbetänkande, som
@@ -5042,8 +4750,6 @@
             »följa en ung mans väg till ena pigo&gt;, så är det sannerligen
             icke lättare att följa herr Waldenström på hans politiska irrfärder.
           </seg>
-        </u>
-        <u xml:id="i-PGPM4CA8JDgs7w2cHTLrJi" who="i-E92rgqKkvM4kNk9eGmN4Vz" prev="i-hSdVHoBa1d8VjZJGVQYqe">
           <seg xml:id="i-31pg1S66SYkzCmLD1Uvby5">
             Jag skall dermed sluta. Hvad beträffar min ståndpunkt i dagens
             vigtiga fråga, är denna, såsom herrarne kunna veta deraf, att
@@ -5059,14 +4765,12 @@
         <note xml:id="i-WH2Dvp7qbW5NpdoY2iMDnj" type="speaker">
           Herr Redelius:
         </note>
-        <u xml:id="i-NX9NP64kjvgXYFFBZAmNos" who="i-RsWf3KiYWHHJuK6ijo9Gta" next="i-J1Hmzpzm4sCHwu6CHqF2CW">
+        <u xml:id="i-NX9NP64kjvgXYFFBZAmNos" who="i-RsWf3KiYWHHJuK6ijo9Gta" next="i-EYt4PoKvGHCjSEjgkiJdnr">
           <seg xml:id="i-Ho74bVb3a1VioGTjABchm4">
             Herr talman! Jag ber att få börja med det, hvarmed den närmast
             föregående talaren slutade, eller att yrka afslag å den nu föredragna
             punkten, men jag vill något annorlunda än han motivera detta afslagsyrkande.
           </seg>
-        </u>
-        <u xml:id="i-J1Hmzpzm4sCHwu6CHqF2CW" who="i-RsWf3KiYWHHJuK6ijo9Gta" prev="i-NX9NP64kjvgXYFFBZAmNos" next="i-EYt4PoKvGHCjSEjgkiJdnr">
           <seg xml:id="i-9PydBHPMJUmxbGjTa4hbUS">
             Hans yttrande ger mig anledning att i korthet erinra kammaren
             om ett uttalande, hvarmed en ännu lefvande och här närvarande
@@ -5083,13 +4787,11 @@
         <note xml:id="i-EfbCkcZrJs1vSebMmEgKXb" type="date">
           Torsdagen den 15 Maj. d7
         </note>
-        <u xml:id="i-EYt4PoKvGHCjSEjgkiJdnr" who="i-RsWf3KiYWHHJuK6ijo9Gta" prev="i-J1Hmzpzm4sCHwu6CHqF2CW" next="i-VPZ2zvQ5C4aDJxj7pQoNFv">
+        <u xml:id="i-EYt4PoKvGHCjSEjgkiJdnr" who="i-RsWf3KiYWHHJuK6ijo9Gta" prev="i-NX9NP64kjvgXYFFBZAmNos" next="i-Ua3AGJotadJ2BpRM1J64LW">
           <seg xml:id="i-LUrdqGJ4YYz7x7gWsVr5oR">
             talande. Jag föreställer mig nu, att den siste talaren och flere
             med
           </seg>
-        </u>
-        <u xml:id="i-VPZ2zvQ5C4aDJxj7pQoNFv" who="i-RsWf3KiYWHHJuK6ijo9Gta" prev="i-EYt4PoKvGHCjSEjgkiJdnr" next="i-Ua3AGJotadJ2BpRM1J64LW">
           <seg xml:id="i-5s32Qxphkk7CuRFndXqX8g">
             honom kunna ena sig med mig derom, att vi ej heller i dag i denna
             "el
@@ -5101,7 +4803,7 @@
         <note xml:id="i-5QcC2s9EFoaRDYfB1AFY5a">
           Angående rätten till Andra
         </note>
-        <u xml:id="i-Ua3AGJotadJ2BpRM1J64LW" who="i-RsWf3KiYWHHJuK6ijo9Gta" prev="i-VPZ2zvQ5C4aDJxj7pQoNFv" next="i-2J4TGE3v3L6n3Ukc8FZ3Xd">
+        <u xml:id="i-Ua3AGJotadJ2BpRM1J64LW" who="i-RsWf3KiYWHHJuK6ijo9Gta" prev="i-EYt4PoKvGHCjSEjgkiJdnr" next="i-2J4TGE3v3L6n3Ukc8FZ3Xd">
           <seg xml:id="i-EtwxjjRBFX7LxacQouHEZM">
             för landet så vigtiga fråga ämna votera på kommando samt utan
             allt Kimmaren.
@@ -5110,7 +4812,7 @@
         <note xml:id="i-4JqajhgdsEFej8JyPQww2C">
           påtryck från något håll.
         </note>
-        <u xml:id="i-2J4TGE3v3L6n3Ukc8FZ3Xd" who="i-RsWf3KiYWHHJuK6ijo9Gta" prev="i-Ua3AGJotadJ2BpRM1J64LW" next="i-Mygiff4mjxVq8Avb8BWUbY">
+        <u xml:id="i-2J4TGE3v3L6n3Ukc8FZ3Xd" who="i-RsWf3KiYWHHJuK6ijo9Gta" prev="i-Ua3AGJotadJ2BpRM1J64LW" next="i-LiLLmNpud2852ak8wB93UP">
           <seg xml:id="i-5EPVfR5vf4gSoKUieZfQwx">
             Jag började mitt anförande med att säga, att jag ville instämma
             med den näst föregående talaren i hans afslagsyrkande, men detta
@@ -5151,13 +4853,9 @@
             gerna, att med den af honom antagna basis förändringen verkligen
             skulle blifva effektiv.
           </seg>
-        </u>
-        <u xml:id="i-Mygiff4mjxVq8Avb8BWUbY" who="i-RsWf3KiYWHHJuK6ijo9Gta" prev="i-2J4TGE3v3L6n3Ukc8FZ3Xd" next="i-25TN7ZRyT5V5mncwqc3YXG">
           <seg xml:id="i-HPRXo9UqAyYY4wYAZbBAVv">
             Redan nu har landtmannaintresset ingalunda någon pluralitet i
           </seg>
-        </u>
-        <u xml:id="i-25TN7ZRyT5V5mncwqc3YXG" who="i-RsWf3KiYWHHJuK6ijo9Gta" prev="i-Mygiff4mjxVq8Avb8BWUbY" next="i-UnqkbUsn8pRDU4u7M6BN92">
           <seg xml:id="i-B9rD3hisS6hfg1uVn1aWqd">
             Riksdagen. Jag ber att få erinra den siste talaren särskildt
             — och den förste med, för öfrigt — att landstingen, hvilka ju
@@ -5167,8 +4865,6 @@
             detta afseende gjorda uttalandena — att dessa landsting, om de
             nu få anses i första rummet
           </seg>
-        </u>
-        <u xml:id="i-UnqkbUsn8pRDU4u7M6BN92" who="i-RsWf3KiYWHHJuK6ijo9Gta" prev="i-25TN7ZRyT5V5mncwqc3YXG" next="i-LiLLmNpud2852ak8wB93UP">
           <seg xml:id="i-X7qCceyRPn57xoXB3eYnQP">
             representera landtbrukarne, likväl hafva på det sätt brukat sin
             makt, att Första Kammarens ledamöter utgöras af flere stadsän
@@ -5188,7 +4884,7 @@
         <note xml:id="i-J5YzhMXmAtjTFa74C1vSne" type="date">
           58 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-LiLLmNpud2852ak8wB93UP" who="i-RsWf3KiYWHHJuK6ijo9Gta" prev="i-UnqkbUsn8pRDU4u7M6BN92" next="i-TKAe7Au1KbucKJYVdvEtFt">
+        <u xml:id="i-LiLLmNpud2852ak8wB93UP" who="i-RsWf3KiYWHHJuK6ijo9Gta" prev="i-2J4TGE3v3L6n3Ukc8FZ3Xd" next="i-HpCgecSmHjNuPSmHKPAupH">
           <seg xml:id="i-Do96NmvYqLeHZRScotYZ7f">
             Jag tror, att detta är ett bevis för att landtmännen — för så
             vidt de nu verkligen få anses innebafva makten uti landstingen
@@ -5198,8 +4894,6 @@
             eller deromkring, af Andra Kammarens ledamöter kunna anses representera
             de verkliga jordbrukareintressena.
           </seg>
-        </u>
-        <u xml:id="i-TKAe7Au1KbucKJYVdvEtFt" who="i-RsWf3KiYWHHJuK6ijo9Gta" prev="i-LiLLmNpud2852ak8wB93UP" next="i-HRbAatzJUu3kMdyQUNLo44">
           <seg xml:id="i-3619FDx6DMqVJudcTzebpz">
             Hvad är det då, kan frågas, för ett skäl att önska en olika sammansättning
             af denna kammare, ja, en väsentligt olika sammansättning af densamma?
@@ -5222,16 +4916,12 @@
             Pehr Pehrsons förslag i alla fall tilltalade mig ganska mycket,
             det skall jag dock gerna bekänna.
           </seg>
-        </u>
-        <u xml:id="i-HRbAatzJUu3kMdyQUNLo44" who="i-RsWf3KiYWHHJuK6ijo9Gta" prev="i-TKAe7Au1KbucKJYVdvEtFt" next="i-TxZsCA1eqE8BWwHeYrEBA2">
           <seg xml:id="i-TrY375dyNW5s9FhPb7oDow">
             För min del vill jag, med tanke på huru förhållandena skulle
             kunna komma att gestalta sig i framtiden, uttala såsom min åsigt,
             att några vilkor måste uppställas, för så vidt som vi skola kunna
             gå in på någon betydligare utvidgning af rösträtten.
           </seg>
-        </u>
-        <u xml:id="i-TxZsCA1eqE8BWwHeYrEBA2" who="i-RsWf3KiYWHHJuK6ijo9Gta" prev="i-HRbAatzJUu3kMdyQUNLo44" next="i-MEGZQkZsE7GUKKtjazBTZi">
           <seg xml:id="i-7prxhvfFUuCrXrpKqzfCSY">
             Ett oeftergifligt vilkor anser jag då böra först uppställas,
             nemligen att den nu existerande olikheten mellan landsbygdens
@@ -5241,8 +4931,6 @@
             med min röst bidraga till framgång åt något förslag, som härutinnan
             ställer sig på en annan basis.
           </seg>
-        </u>
-        <u xml:id="i-MEGZQkZsE7GUKKtjazBTZi" who="i-RsWf3KiYWHHJuK6ijo9Gta" prev="i-TxZsCA1eqE8BWwHeYrEBA2" next="i-HpCgecSmHjNuPSmHKPAupH">
           <seg xml:id="i-GASaxywiKCG6ZjW2suMg9U">
             Vidare har jag ännu ett vilkor att uppställa, och det är, att
             hvar och en, som vill afgifva sin röst vid riksdagsmannaval, skall
@@ -5264,7 +4952,7 @@
         <note xml:id="i-2GzMjMT2FzBkQwv5iLvaoL" type="date">
           Torsdagen den 15 Maj. 59 N:o äl.
         </note>
-        <u xml:id="i-HpCgecSmHjNuPSmHKPAupH" who="i-RsWf3KiYWHHJuK6ijo9Gta" prev="i-MEGZQkZsE7GUKKtjazBTZi" next="i-MvshAt3NGwwo7ocnyFrL3V">
+        <u xml:id="i-HpCgecSmHjNuPSmHKPAupH" who="i-RsWf3KiYWHHJuK6ijo9Gta" prev="i-LiLLmNpud2852ak8wB93UP">
           <seg xml:id="i-FBWReKyCZws2cugxL1nwqA">
             Vilja de båda grupperna, stadsbor och landtbor, enas om att tillsam-
             Angående mans afstå något af våra nu innehafvande rättigheter
@@ -5279,8 +4967,6 @@
             platser förjordbrukets intressen. En sådan beskyllning vill jag
             på det kraftigaste tillbakavisa.
           </seg>
-        </u>
-        <u xml:id="i-MvshAt3NGwwo7ocnyFrL3V" who="i-RsWf3KiYWHHJuK6ijo9Gta" prev="i-HpCgecSmHjNuPSmHKPAupH">
           <seg xml:id="i-KTuMXmw1gQvq6y2wzYLWdU">
             Då jag nu icke kan komma fram med något förslag, som kunde hafva
             utsigt att vinna kamrarnes bifall, så kommer jag att nu rösta
@@ -5297,7 +4983,7 @@
         <note xml:id="i-PV7AZyY2wK4WD5BbLjg3LY" type="speaker">
           Herr Olsson i Viken:
         </note>
-        <u xml:id="i-Q7nvqZMWZvbfGXLxaJX9dM" who="i-TpUWybAvp4PkceWHHU1puq" next="i-DsQ6mieMnWtp4SYHfExhnt">
+        <u xml:id="i-Q7nvqZMWZvbfGXLxaJX9dM" who="i-TpUWybAvp4PkceWHHU1puq" next="i-8ppfJNiFHpHfY68En7LN2v">
           <seg xml:id="i-DaRs6DrEEPigpFF1RYr4y5">
             Jag har instämt med herr von Friesen i hans anförande; men det
             fins en passus deri, som jag vill ytterligare understryka, och
@@ -5305,8 +4991,6 @@
             förslag, som herr von Friesen icke synes mig tillräckligt, om
             ens något, hafva vidrört.
           </seg>
-        </u>
-        <u xml:id="i-DsQ6mieMnWtp4SYHfExhnt" who="i-TpUWybAvp4PkceWHHU1puq" prev="i-Q7nvqZMWZvbfGXLxaJX9dM" next="i-MMFg8BAnmzn1bqZm46rA3h">
           <seg xml:id="i-Hq4n7ZMP4nqy7Bsf1xbKbh">
             Utskottets utlåtande gör intryck af ett slags kaleidoskop. Men
             lika underlig som den bild, utskottets utlåtande företer, lika
@@ -5329,8 +5013,6 @@
             dunsta bort, då de väl fått härordningsförslaget igenom. Måtte
             blott mina farhågor visa sig ogrundade!
           </seg>
-        </u>
-        <u xml:id="i-MMFg8BAnmzn1bqZm46rA3h" who="i-TpUWybAvp4PkceWHHU1puq" prev="i-DsQ6mieMnWtp4SYHfExhnt" next="i-8ppfJNiFHpHfY68En7LN2v">
           <seg xml:id="i-Xt8EeZ7uuAiBoR3uLRbuyh">
             Det är särskildt en punkt i utskottets förslag, som går stick
             i stäf mot önskningarna inom de bredare lagren af vårt folk och
@@ -5349,13 +5031,11 @@
         <note xml:id="i-8Ec1hXkAz6zEHB2rhtLukE" type="date">
           60 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-8ppfJNiFHpHfY68En7LN2v" who="i-TpUWybAvp4PkceWHHU1puq" prev="i-MMFg8BAnmzn1bqZm46rA3h" next="i-LLkRZDgTEzS3dTyj7cqgwM">
+        <u xml:id="i-8ppfJNiFHpHfY68En7LN2v" who="i-TpUWybAvp4PkceWHHU1puq" prev="i-Q7nvqZMWZvbfGXLxaJX9dM" next="i-MY2ykxcBY5vj6mi3s78Ffx">
           <seg xml:id="i-3fUF9ferkR5fEBzkPoCH7h">
             man tillsammans med städerna. Här proklamerar utskottet helt
             oförbehållsamt den satsen: »landsbygden åt landtbrukarne uteslutande».
           </seg>
-        </u>
-        <u xml:id="i-LLkRZDgTEzS3dTyj7cqgwM" who="i-TpUWybAvp4PkceWHHU1puq" prev="i-8ppfJNiFHpHfY68En7LN2v" next="i-MY2ykxcBY5vj6mi3s78Ffx">
           <seg xml:id="i-Pi6UfSzh2D5mb4932Ls3Ui">
             Kammaren, De vaser af frisinne, som dylika landsamhällen utgöra
             på den agra-
@@ -5364,7 +5044,7 @@
         <note xml:id="i-QuVBbKxdd2yD3zMhJgSzqR">
           (Forts.)
         </note>
-        <u xml:id="i-MY2ykxcBY5vj6mi3s78Ffx" who="i-TpUWybAvp4PkceWHHU1puq" prev="i-LLkRZDgTEzS3dTyj7cqgwM" next="i-GAp7N9BaQ1H5JAopqBGrVs">
+        <u xml:id="i-MY2ykxcBY5vj6mi3s78Ffx" who="i-TpUWybAvp4PkceWHHU1puq" prev="i-8ppfJNiFHpHfY68En7LN2v">
           <seg xml:id="i-YYvWscZChaARcs4AVGFC39">
             riska landsbygden, vill man sopa bort. Deras politiska inflytande
             vill man neutralisera genom att öfverföra dem till städerna. Detta
@@ -5381,8 +5061,6 @@
             samarbete genom att öppna en klyfta mellan representanterna för
             land och stad till skada för den politiska utvecklingen.
           </seg>
-        </u>
-        <u xml:id="i-GAp7N9BaQ1H5JAopqBGrVs" who="i-TpUWybAvp4PkceWHHU1puq" prev="i-MY2ykxcBY5vj6mi3s78Ffx" next="i-VwZzXgCNLX4XgQGp8hA8Xg">
           <seg xml:id="i-VJ5hASU9e5Spqs4DuEtVSj">
             Afven ur en annan synpunkt kan jag icke förlika mig med denna
             anordning, ur den nemligen, att samhällen, som hafva med hvarandra
@@ -5398,8 +5076,6 @@
             af från hvarandra aflägsna småstäders sammanknytande till en valkrets,
             äro icke egnade att uppmuntra ett fortgående på den vägen.
           </seg>
-        </u>
-        <u xml:id="i-VwZzXgCNLX4XgQGp8hA8Xg" who="i-TpUWybAvp4PkceWHHU1puq" prev="i-GAp7N9BaQ1H5JAopqBGrVs" next="i-NgQyRVBYhsCcXCcfckQBbj">
           <seg xml:id="i-QZX29p8iYgRSirHTwQ3Edn">
             Afven en annan punkt i utskottets utlåtande stöter min rättskänsla,
             nemligen den, som utesluter sådana små kommunalt röstberättigade
@@ -5420,8 +5096,6 @@
             landet, som på det sättet vägas på den politiska myndighetens
             vågskål, men befinnas för lätta.
           </seg>
-        </u>
-        <u xml:id="i-NgQyRVBYhsCcXCcfckQBbj" who="i-TpUWybAvp4PkceWHHU1puq" prev="i-VwZzXgCNLX4XgQGp8hA8Xg">
           <seg xml:id="i-XEBF5DoMJsjpKmzr4sPw1v">
             Jag skall för närvarande inskränka mig till att yrka afslag på
             koustitutionsutskottets betänkande.
@@ -5434,7 +5108,7 @@
         <note xml:id="i-XvYNTstGuLxd7kXwHTqNCK" type="speaker">
           Herr Olofsson i Åvik:
         </note>
-        <u xml:id="i-Ffyh1N53Q2g9kgyHvujnWM" who="i-HEp8a6QirbXWudq8pjbqYn" next="i-VrbSrMEpcHB7cBXtEeR4xd">
+        <u xml:id="i-Ffyh1N53Q2g9kgyHvujnWM" who="i-HEp8a6QirbXWudq8pjbqYn" next="i-1222hBDvNo4a37DJkWMWFA">
           <seg xml:id="i-PqUBMSLtKrbSfnnyaAPPHQ">
             Då de föreliggande förslagen, som i Angående hufvudsak grunda
             sig på den kommunala rösträtten, enligt mitt för- Nr NG menande
@@ -5442,8 +5116,6 @@
             och de s. k. jordtorparne i synnerhet, har jag begärt ordet för
             att (Forts.) påpeka dessa missförhållanden.
           </seg>
-        </u>
-        <u xml:id="i-VrbSrMEpcHB7cBXtEeR4xd" who="i-HEp8a6QirbXWudq8pjbqYn" prev="i-Ffyh1N53Q2g9kgyHvujnWM" next="i-9m5yXYXj9GeC342RrigvXg">
           <seg xml:id="i-WsywKLS3K7nYMmPtMNAuLc">
             Af den utredning, som Kongl. Maj:t låtit verkställa i och för
             denna frågas lösande, har man funnit, att de sg. k. jordtorparne
@@ -5462,8 +5134,6 @@
             utskottets förslag äro således dessa 9,016 äfven att hänföra till
             de s. k. jordtorparne.
           </seg>
-        </u>
-        <u xml:id="i-9m5yXYXj9GeC342RrigvXg" who="i-HEp8a6QirbXWudq8pjbqYn" prev="i-VrbSrMEpcHB7cBXtEeR4xd" next="i-F6wuRfNkh5NLetiZZ6rGn7">
           <seg xml:id="i-Pe7SBRwwbJjZbZ2f7VefM3">
             Vidare säges: »Dessutom upptager statistiken 169,951 jordtorpare
             eller innehafvare af jordlägenhet»&gt;. Ja, det är väl troligt,
@@ -5476,16 +5146,12 @@
             den församling, jag sjelf tillhör, skall jag be att få uppläsa
             ett vederbörligen bestyrkt intyg af följande innehåll:
           </seg>
-        </u>
-        <u xml:id="i-F6wuRfNkh5NLetiZZ6rGn7" who="i-HEp8a6QirbXWudq8pjbqYn" prev="i-9m5yXYXj9GeC342RrigvXg" next="i-CtU4jGmnRYZBUM5rSb77KU">
           <seg xml:id="i-7zvBQTP8WudADozMQhzygc">
             »Folkmängden i Askersunds landsförsamling utgjorde den 31 december
             1901 2,890 personer. Politiskt röstberättigade äro 92 personer.
             Kommunalt, men ej politiskt röstberättigade äro 140 personer.
             I församlingen finnas 178 jordtorpare.»
           </seg>
-        </u>
-        <u xml:id="i-CtU4jGmnRYZBUM5rSb77KU" who="i-HEp8a6QirbXWudq8pjbqYn" prev="i-F6wuRfNkh5NLetiZZ6rGn7" next="i-PixAL8DWzzcnYS15sPv3QE">
           <seg xml:id="i-W1aEjGaS2FMwf2sE2pdoCF">
             Röstberättigade äro således endast 92 personer, i sanning en
             förfärligt obetydlig siffra. De utgöra, så vidt jag kan se, ungefär
@@ -5499,8 +5165,6 @@
             på sådant sätt, att endast en försvinnande del skall få något
             med af denna rösträttsutsträckning.
           </seg>
-        </u>
-        <u xml:id="i-PixAL8DWzzcnYS15sPv3QE" who="i-HEp8a6QirbXWudq8pjbqYn" prev="i-CtU4jGmnRYZBUM5rSb77KU" next="i-1222hBDvNo4a37DJkWMWFA">
           <seg xml:id="i-5bM9pvSMZ9T24gsb5rX9qy">
             Jag erinrar mig från förra året — det var under den tid, då man
             i försvarsagitationen började öfvergå från de s. k. sågfilarehistorierna
@@ -5519,12 +5183,10 @@
         <note xml:id="i-2hNgHeLF7wb4t4wbBnPsb8" type="date">
           62 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-1222hBDvNo4a37DJkWMWFA" who="i-HEp8a6QirbXWudq8pjbqYn" prev="i-PixAL8DWzzcnYS15sPv3QE" next="i-BpWi8TVf4qyVp6CgkWnSr8">
+        <u xml:id="i-1222hBDvNo4a37DJkWMWFA" who="i-HEp8a6QirbXWudq8pjbqYn" prev="i-Ffyh1N53Q2g9kgyHvujnWM" next="i-JM1maJ1DS6ai1epgHaHhpR">
           <seg xml:id="i-2X4pMG4q8ViJTiMDtAxWb7">
             kammarens ledamöter och väl äfven af regeringens för öfrigt voro
           </seg>
-        </u>
-        <u xml:id="i-BpWi8TVf4qyVp6CgkWnSr8" who="i-HEp8a6QirbXWudq8pjbqYn" prev="i-1222hBDvNo4a37DJkWMWFA" next="i-JM1maJ1DS6ai1epgHaHhpR">
           <seg xml:id="i-5HriFT5AxDQ8XpwPMcACG5">
             valrätten till der närvarande. Denne jemförelsevis unge löjtnants
             väl framsagda
@@ -5540,7 +5202,7 @@
         <note xml:id="i-24y33ASXJVDEV2z6Vy4aGV">
           Forts.)
         </note>
-        <u xml:id="i-JM1maJ1DS6ai1epgHaHhpR" who="i-HEp8a6QirbXWudq8pjbqYn" prev="i-BpWi8TVf4qyVp6CgkWnSr8" next="i-4RDKDwh7Xh9UowzEq3gxLd">
+        <u xml:id="i-JM1maJ1DS6ai1epgHaHhpR" who="i-HEp8a6QirbXWudq8pjbqYn" prev="i-1222hBDvNo4a37DJkWMWFA" next="i-AisL8tPgnY2vSMfdo5REmU">
           <seg xml:id="i-75BmxcSiMRLNLEBaXagto6">
             nade med uppmärksamhet. Men bäst kunde jag följa honom, då han
             i slutet af sitt föredrag framhöll, att såsom vilkor för den allmänna
@@ -5549,8 +5211,6 @@
             skulle bli olyckligt löst, i fall icke den allmänna rösträtten
             skulle komma efter som ett bref på posten.
           </seg>
-        </u>
-        <u xml:id="i-4RDKDwh7Xh9UowzEq3gxLd" who="i-HEp8a6QirbXWudq8pjbqYn" prev="i-JM1maJ1DS6ai1epgHaHhpR" next="i-WrYpDZPFL8PKYacygVvehN">
           <seg xml:id="i-F8KtG4UZgjPhap5nB9SC76">
             Det förvånar mig, att de, som talade så grant för fosterlandet
             och försvaret då, icke hafva något ord för denna tanke nu! För
@@ -5559,8 +5219,6 @@
             ordspråket »enighet ger styrka» talar sanning, och är det så,
             är det äfven sanning, att oenighet medför svaghet.
           </seg>
-        </u>
-        <u xml:id="i-WrYpDZPFL8PKYacygVvehN" who="i-HEp8a6QirbXWudq8pjbqYn" prev="i-4RDKDwh7Xh9UowzEq3gxLd" next="i-P1VtsGKALjuwZjUYaMRTdN">
           <seg xml:id="i-JJAo9WqRTGSp17UBNDnHsg">
             Jag tror, att vi för närvarande stå i ett svaghetsförhållande
             inom vårt land. Huru olyckligt och äfventyrligt detta i längden
@@ -5570,8 +5228,6 @@
             svårt att bestrida, att icke efter förra årets beslut det är i
             sin fulla rätt, då det fordrar detta.
           </seg>
-        </u>
-        <u xml:id="i-P1VtsGKALjuwZjUYaMRTdN" who="i-HEp8a6QirbXWudq8pjbqYn" prev="i-WrYpDZPFL8PKYacygVvehN" next="i-KiKwaA4smBPXm6QELK3zUi">
           <seg xml:id="i-76ZZB7VdY1FvydLXC3JPTn">
             Rörande den s. k. värnpligtssaken skall jag endast be att få
             uppläsa några ord, som nedskrifvits af aktuarien Flodström i en
@@ -5601,8 +5257,6 @@
             men framdrager man endast exempel på huru förhållandena äro ordnade
             i Belgien o. s. v., då har det föga att betyda i denna fråga.
           </seg>
-        </u>
-        <u xml:id="i-KiKwaA4smBPXm6QELK3zUi" who="i-HEp8a6QirbXWudq8pjbqYn" prev="i-P1VtsGKALjuwZjUYaMRTdN" next="i-AisL8tPgnY2vSMfdo5REmU">
           <seg xml:id="i-4PxtSZDp3TwkCqze2f5foG">
             Jag för min del ser saken ifrån den synpunkten, att jag nog skulle
             kunna instämma i herr Brantings motion, men jag ber dock att få
@@ -5613,7 +5267,7 @@
         <note xml:id="i-5VrPfNL9UcxWnMGWW37YKx" type="date">
           Torsdagen den 15 Maj. 63 N:o 51.
         </note>
-        <u xml:id="i-AisL8tPgnY2vSMfdo5REmU" who="i-HEp8a6QirbXWudq8pjbqYn" prev="i-KiKwaA4smBPXm6QELK3zUi">
+        <u xml:id="i-AisL8tPgnY2vSMfdo5REmU" who="i-HEp8a6QirbXWudq8pjbqYn" prev="i-JM1maJ1DS6ai1epgHaHhpR">
           <seg xml:id="i-3PU6HniUEbJ4izTLNAPMB7">
             har ett streck för mycket. Han har ett streck för valrätten,
             som jag Angående skulle vilja flytta upp till den, som skall väljas
@@ -5639,7 +5293,7 @@
         <note xml:id="i-MCi5eS3gNe1o8ZwE7nnX6j" type="speaker">
           Herr von Schéele:
         </note>
-        <u xml:id="i-4X4Kvh5AYhkTtv8PbZ6Dze" who="i-8JJL5nBWvuqFEZprH3q31h" next="i-WhkUg7rqNuxMteAVmRWfhH">
+        <u xml:id="i-4X4Kvh5AYhkTtv8PbZ6Dze" who="i-8JJL5nBWvuqFEZprH3q31h" next="i-HEnSvwdoCR1NEYJiKA2VuZ">
           <seg xml:id="i-HDmRBo22fhxET96oQHBptV">
             Herr talman, mina herrar! Jag har förestält mig, att grundtanken
             i det nuvarande representationskskicket är den, att ifrån landets
@@ -5652,8 +5306,6 @@
             från den synpunkt, som på grund af skaplynne och fostran är mig
             mest förtrogen, söka efter förmåga belysa denna riksvigtiga angelägenhet.
           </seg>
-        </u>
-        <u xml:id="i-WhkUg7rqNuxMteAVmRWfhH" who="i-8JJL5nBWvuqFEZprH3q31h" prev="i-4X4Kvh5AYhkTtv8PbZ6Dze" next="i-HEnSvwdoCR1NEYJiKA2VuZ">
           <seg xml:id="i-2PQUNrUq4w5WQ8q9ovPL5d">
             Här har under debatten yttrats, att det vore en »smaksak&gt;,
             hvad som ytterst skall komma att bestämma oss. Det skulle alltså
@@ -5687,7 +5339,7 @@
         <note xml:id="i-WaKme5wamQyzy7teKmDrWt" type="date">
           64 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-HEnSvwdoCR1NEYJiKA2VuZ" who="i-8JJL5nBWvuqFEZprH3q31h" prev="i-WhkUg7rqNuxMteAVmRWfhH" next="i-6wbU21UH8P1yuhMgMSq1z9">
+        <u xml:id="i-HEnSvwdoCR1NEYJiKA2VuZ" who="i-8JJL5nBWvuqFEZprH3q31h" prev="i-4X4Kvh5AYhkTtv8PbZ6Dze" next="i-DC8Y2jPTvFb9xRCZEcRExj">
           <seg xml:id="i-6SFYApUaEZZjmpfnDnYzLL">
             Aldrig har en sådan lycklig afpassning skett af personlighetsprincipen
             i förbållande till samfundsprincipen som just i och genom kristendomen.
@@ -5703,8 +5355,6 @@
             den högre naturens art. Och snart darrade sjelfva Rom för verkningarna
             af detta utsäde.
           </seg>
-        </u>
-        <u xml:id="i-6wbU21UH8P1yuhMgMSq1z9" who="i-8JJL5nBWvuqFEZprH3q31h" prev="i-HEnSvwdoCR1NEYJiKA2VuZ" next="i-WeJp6eR7HPj8REpJCYQEj6">
           <seg xml:id="i-38ZjmvxRcUZfXVVLwfzxeD">
             Det är icke långt efter sedan den nya religionen blifvit grundlagd,
             som en ståthållare i Mindre Asien skrifver till den romerske kejsaren
@@ -5727,8 +5377,6 @@
             former. Vi se, hurusom kristendomen allt mer och mer tränger sig
             igenom och särskildt bland germanerna banar väg för en ny tid.
           </seg>
-        </u>
-        <u xml:id="i-WeJp6eR7HPj8REpJCYQEj6" who="i-8JJL5nBWvuqFEZprH3q31h" prev="i-6wbU21UH8P1yuhMgMSq1z9" next="i-9YXXyHBoeJc5eNKsa5QCFB">
           <seg xml:id="i-3yfwegLMYR892kjMxuuMQ3">
             Det är härvid blott tre historiska fakta, jag vill framhålla.
             Närmast är det feodalismen, som tager arf ifrån den föregående
@@ -5745,8 +5393,6 @@
             bådas, feodalismens och de fria riksstädernas, inflytande kom
             folkupplysningen, närmast helt visst en frukt af reformationen.
           </seg>
-        </u>
-        <u xml:id="i-9YXXyHBoeJc5eNKsa5QCFB" who="i-8JJL5nBWvuqFEZprH3q31h" prev="i-WeJp6eR7HPj8REpJCYQEj6" next="i-DC8Y2jPTvFb9xRCZEcRExj">
           <seg xml:id="i-C2WH48qEs9bcAfGxiAPRXg">
             Så blef äfven vårt land allt ifrån Gustaf Wasas dagar stäldt
             på den frihetsståndpunkt, som det sedan väsentligen innehaft.
@@ -5758,7 +5404,7 @@
         <note xml:id="i-8PiyvLp1RS8qLg5zhsRtAJ" type="date">
           Torsdagen den 15 Maj. 65 N:o äl.
         </note>
-        <u xml:id="i-DC8Y2jPTvFb9xRCZEcRExj" who="i-8JJL5nBWvuqFEZprH3q31h" prev="i-9YXXyHBoeJc5eNKsa5QCFB" next="i-QrFpX6a7Tp885uVdfRFwF1">
+        <u xml:id="i-DC8Y2jPTvFb9xRCZEcRExj" who="i-8JJL5nBWvuqFEZprH3q31h" prev="i-HEnSvwdoCR1NEYJiKA2VuZ" next="i-175LpuKZEVcmYw3W6kexFN">
           <seg xml:id="i-Ez7uiEqpTz5QQuuVxZhd7p">
             i den bemärkelse, som vi nu göra det, att med kärlekens skarpblick
             Angående iakttaga yttringarna — jag menar icke de framkonstlade,
@@ -5767,8 +5413,6 @@
             utvecklas i mån af lifvets egen fort- (Forts.) skridande utveckling.
             |
           </seg>
-        </u>
-        <u xml:id="i-QrFpX6a7Tp885uVdfRFwF1" who="i-8JJL5nBWvuqFEZprH3q31h" prev="i-DC8Y2jPTvFb9xRCZEcRExj" next="i-5UCMsY1jZCbRF7yZFiokdy">
           <seg xml:id="i-R7pD6t16iZeWqAfkpzQiKj">
             Sverige har, lika väl som England, varit lyckligt och starkt,
             just derigenom att det vetat att följa denna den inre utvecklingens
@@ -5794,8 +5438,6 @@
             behof icke blott och bart af att hållas i styr, utan ock af att
             omfattas med förtroende.
           </seg>
-        </u>
-        <u xml:id="i-5UCMsY1jZCbRF7yZFiokdy" who="i-8JJL5nBWvuqFEZprH3q31h" prev="i-QrFpX6a7Tp885uVdfRFwF1" next="i-WhBc8FugJevpSoBzDeTkAH">
           <seg xml:id="i-3D6Aci1D1xeAVZrSeq9pdJ">
             Förtroende! Ja, man har med rätta framhållit, hurusom vi måste
             hafva tro på vårt folk. Det är min lifliga öfvertygelse, att den
@@ -5808,8 +5450,6 @@
             att efter hand bryta sig igenom trots åtskilliga förirringar och
             nederlag.
           </seg>
-        </u>
-        <u xml:id="i-WhBc8FugJevpSoBzDeTkAH" who="i-8JJL5nBWvuqFEZprH3q31h" prev="i-5UCMsY1jZCbRF7yZFiokdy" next="i-VfdsTQDP5xdwd8fuNZqfFj">
           <seg xml:id="i-AYTkixXCteH9ptw6cr2t69">
             Man har erinrat oss om hurusom blott på de två år, som ligga
             emellan riksdagsskrifvelsen 1900 och nu, tiden har ridit fort,
@@ -5824,8 +5464,6 @@
             att förskaffa vårt land den ro, som det för sin lugna, jemna utveckling
             behöfver inåt lika väl som utåt.
           </seg>
-        </u>
-        <u xml:id="i-VfdsTQDP5xdwd8fuNZqfFj" who="i-8JJL5nBWvuqFEZprH3q31h" prev="i-WhBc8FugJevpSoBzDeTkAH" next="i-175LpuKZEVcmYw3W6kexFN">
           <seg xml:id="i-4CCSxGJaE8JD9DbxFWVTMd">
             Det, som här sagts utaf ett par värderade studiekamrater till
             mig, den ene på göteborgsbänken och den andre på Gefleborgs läns
@@ -5849,7 +5487,7 @@
         <note xml:id="i-LzxHTQSMRYbtVV2haV4MUJ" type="date">
           66 Torsdagen den 15 Maj.
         </note>
-        <u xml:id="i-175LpuKZEVcmYw3W6kexFN" who="i-8JJL5nBWvuqFEZprH3q31h" prev="i-VfdsTQDP5xdwd8fuNZqfFj" next="i-XcRXa8ZmpQNJSGVb1rRCzS">
+        <u xml:id="i-175LpuKZEVcmYw3W6kexFN" who="i-8JJL5nBWvuqFEZprH3q31h" prev="i-DC8Y2jPTvFb9xRCZEcRExj" next="i-NHepuorpc6jS5RHnwa26pL">
           <seg xml:id="i-9X6wHYpmpCuDeqNRGVeqoA">
             partiet blifvit framlagdt, för att derigenom vinna denna välbehöfliga
             ro, fruktar jag är ett felaktigt resonnement. Om man verkligen
@@ -5864,8 +5502,6 @@
             ort i vårt land. Derför sluter jag mig snarare till det skrifvelseförslag,
             som blifvit af herrar Berg och Boöthius reservationsvis framlagdt.
           </seg>
-        </u>
-        <u xml:id="i-XcRXa8ZmpQNJSGVb1rRCzS" who="i-8JJL5nBWvuqFEZprH3q31h" prev="i-175LpuKZEVcmYw3W6kexFN" next="i-XzDZNY3wdFyCNBhT95Ddon">
           <seg xml:id="i-XhpUA4DByEnD6ivsPJU1LT">
             Nyss yttrades, och med rätta, af den sist nämnde af de begge
             af mig anförde talarne — föga följdrigtigt från hans ståndpunkt
@@ -5877,8 +5513,6 @@
             rösträttsberättigades led. Då fruktar jag för att vi finge vänta
             bra länge, ja allt för länge.
           </seg>
-        </u>
-        <u xml:id="i-XzDZNY3wdFyCNBhT95Ddon" who="i-8JJL5nBWvuqFEZprH3q31h" prev="i-XcRXa8ZmpQNJSGVb1rRCzS" next="i-N6V3UwvmkpJwDMTw7E49Nw">
           <seg xml:id="i-YWBW3Pzagkd2cDAfahE73K">
             Till sist tillåten mig, mina herrar, ett kort hjerteord i detta
             betydelsefulla ögonblick af svenska folkets lif. Friheter är,
@@ -5890,14 +5524,10 @@
             tiden nu vara inne i ett sambällsvigtigt afseende för Sveriges
             folk.
           </seg>
-        </u>
-        <u xml:id="i-N6V3UwvmkpJwDMTw7E49Nw" who="i-8JJL5nBWvuqFEZprH3q31h" prev="i-XzDZNY3wdFyCNBhT95Ddon" next="i-JRQMXRk4W2yNVBQNENbsXQ">
           <seg xml:id="i-HeerAufgvroyJpC3yXEB9">
             För närvarande har jag, herr talman, blott att yrka afslag på
             det föredragna momentet.
           </seg>
-        </u>
-        <u xml:id="i-JRQMXRk4W2yNVBQNENbsXQ" who="i-8JJL5nBWvuqFEZprH3q31h" prev="i-N6V3UwvmkpJwDMTw7E49Nw" next="i-NHepuorpc6jS5RHnwa26pL">
           <seg xml:id="i-SCN98jyEuqU8tjdyhL9EjW">
             Som flere talare anmält sig för yttrandes afgifvande, men tiden
             nu var långt framskriden, uppsköts den vidare öfverläggningen
@@ -5917,7 +5547,7 @@
         <note xml:id="i-JiRvVn6jhseynwGJKH5wmX">
           I Andra Kammarens protokoll för den 7 Maj 1902 N:o 45
         </note>
-        <u xml:id="i-NHepuorpc6jS5RHnwa26pL" who="i-8JJL5nBWvuqFEZprH3q31h" prev="i-JRQMXRk4W2yNVBQNENbsXQ">
+        <u xml:id="i-NHepuorpc6jS5RHnwa26pL" who="i-8JJL5nBWvuqFEZprH3q31h" prev="i-175LpuKZEVcmYw3W6kexFN">
           <seg xml:id="i-L139HRfv4dCoLS6u4e2Sod">
             sid. 14 rad 19 uppifrån står 62 läs 26 &gt; 2» &gt; 20 &gt; &gt;
             49 &gt; 19

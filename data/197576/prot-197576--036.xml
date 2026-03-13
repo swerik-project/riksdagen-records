@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-FnJLwyZweEgmL3gkCrsVcy" type="speech">
             <linkGrp type="u">
               <ptr target="#i-7zi3AYZv16vyPpxpJVAikg"/>
@@ -115,7 +115,13 @@
               <ptr target="#i-3Ko9jFiwtpNkbCY1TuEx6Z"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -198,7 +204,7 @@
           100: VÄTTERN TRIE = 00 Tr SR GR LR See /krenaä i Rak SSR dn 90
           1975/76:124 av herr Johansson i Skärstad (c) om kraftlednings-
         </note>
-        <u xml:id="i-MWm7UE9LiQKuVuvraad5Mj" who="unknown">
+        <u xml:id="i-MWm7UE9LiQKuVuvraad5Mj" who="unknown" next="i-3tkpPJMmrMwz2kydapLZr6">
           <seg xml:id="i-VCmVysrDhyESjkba7ygmti">
             gators inverkan på naturmiljön. ............sscssesscsre 92 1975/76:106
             av herr Björck i Nässjö (m) om förslag till riksdagen
@@ -501,7 +507,7 @@
         <note xml:id="i-XcMu22Pt4kLRc4jjCDMWnL">
           Till riksdagens kammare
         </note>
-        <u xml:id="i-3tkpPJMmrMwz2kydapLZr6" who="unknown">
+        <u xml:id="i-3tkpPJMmrMwz2kydapLZr6" who="unknown" prev="i-MWm7UE9LiQKuVuvraad5Mj">
           <seg xml:id="i-Md42PKA2FsCUYmV7EPqFrt">
             Jag önskar av personliga skäl bli befriad från riksdagsmannauppdraget
             fr. o. m. den 10 januari 1976 och samtidigt från ledamotskap i
@@ -526,13 +532,11 @@
         <note xml:id="i-KPiUUiSPxx4CDkWc2AC1TF">
           136, och anförde:
         </note>
-        <u xml:id="i-7zi3AYZv16vyPpxpJVAikg" who="i-YL4aQfT264wNd4jTiiKUox" next="i-Rr995BUkv5tMCKTvXwhEty">
+        <u xml:id="i-7zi3AYZv16vyPpxpJVAikg" who="i-YL4aQfT264wNd4jTiiKUox">
           <seg xml:id="i-6Ayo8CBY8iToe2DSuZWftG">
             Herr talman! Herr Wennerfors har frågat mig, varför inga kvinnor
             har utsetts till ledamöter i Sveriges turistråd.
           </seg>
-        </u>
-        <u xml:id="i-Rr995BUkv5tMCKTvXwhEty" who="i-YL4aQfT264wNd4jTiiKUox" prev="i-7zi3AYZv16vyPpxpJVAikg" next="i-MZX9tayFbXZ5VJQN8xZyXC">
           <seg xml:id="i-HAwzhZBKtrbtzQeCroYy9U">
             Jag vill svara herr Wennerfors, att jag beklagar att inga kvinnor
             finns på ordinarie ledamotsplatser i Sveriges turistråds styrelse.
@@ -547,8 +551,6 @@
             Svenska turisttrafikförbundet placerades därför som ledamöter
             i Sveriges turistråd.
           </seg>
-        </u>
-        <u xml:id="i-MZX9tayFbXZ5VJQN8xZyXC" who="i-YL4aQfT264wNd4jTiiKUox" prev="i-Rr995BUkv5tMCKTvXwhEty">
           <seg xml:id="i-H9Lbfk6KYtqu7nQZeGDybT">
             För fullständighetens skull vill jag upplysa att bland ersättarna
             för styrelseledamöter finns tre kvinnor. Båda de statliga suppleantplatserna
@@ -1595,7 +1597,7 @@
           73 av herr Raneskog (c) till herr försvarsministern om inventering
           av fornlämningar vid Remmene skjutfält:
         </note>
-        <u xml:id="i-BymGBe8rQ6JM12NitnG3se" who="i-Ua1nqYCRbnUSNc5Tw1tXiK" next="i-3ACxoGmbkSW4T2mrVadJvJ">
+        <u xml:id="i-BymGBe8rQ6JM12NitnG3se" who="i-Ua1nqYCRbnUSNc5Tw1tXiK" next="i-NVQJYjEwWxCKt2YjBucv9Z">
           <seg xml:id="i-71bY1ftCoMw45pWher5NNU">
             I vår motion nr 1184 år 1975 gjorde vi bl. a. en framställning
             om ”en så långt möjligt fullständig utredning om fornlämningarna
@@ -1603,16 +1605,12 @@
             också de fornlämningar som bortförts eller skadats under skjutfältets
             tid”.
           </seg>
-        </u>
-        <u xml:id="i-3ACxoGmbkSW4T2mrVadJvJ" who="i-Ua1nqYCRbnUSNc5Tw1tXiK" prev="i-BymGBe8rQ6JM12NitnG3se" next="i-d32b19f2dae3cd33-1">
           <seg xml:id="i-G5dMfiGaVpHPa5RmrPGimb">
             Efter utskottsbehandlingen av sakärendet tillkom följande skrivning
             och beslut i riksdagen (FöU 1975:13): ”Utskottet förutsätter att
             de fornlämningar som finns inom området konserveras och vårdas
             enligt riksantikvarieämbetets anvisningar.”
           </seg>
-        </u>
-        <u xml:id="i-d32b19f2dae3cd33-1" who="i-Ua1nqYCRbnUSNc5Tw1tXiK" prev="i-3ACxoGmbkSW4T2mrVadJvJ" next="i-NVQJYjEwWxCKt2YjBucv9Z">
           <seg xml:id="i-6mocjtJu4NWzSrnaNkZLHu">
             Nu har ingalunda de militära myndigheterna beaktat eller respekterat
             detta riksdagens beslut.
@@ -1646,19 +1644,15 @@
         <note xml:id="i-57HcNuKMZ3Pa67Ao8PjW2h">
           184
         </note>
-        <u xml:id="i-NVQJYjEwWxCKt2YjBucv9Z" who="i-Ua1nqYCRbnUSNc5Tw1tXiK" prev="i-d32b19f2dae3cd33-1" next="i-EuKLkcJJEkLqNpjwUsRgHu">
+        <u xml:id="i-NVQJYjEwWxCKt2YjBucv9Z" who="i-Ua1nqYCRbnUSNc5Tw1tXiK" prev="i-BymGBe8rQ6JM12NitnG3se">
           <seg xml:id="i-BswumZpsXmZXVx3c95Ywmw">
             1. Fornminnesinventeringen från riksantikvarieämbetet har icke
             blivit fullföljd.
           </seg>
-        </u>
-        <u xml:id="i-EuKLkcJJEkLqNpjwUsRgHu" who="i-Ua1nqYCRbnUSNc5Tw1tXiK" prev="i-NVQJYjEwWxCKt2YjBucv9Z" next="i-d32b19f2dae3cd33-4">
           <seg xml:id="i-MKamN6H7T9t9Q14p6oK9qu">
             2. En mängd nya fornfynd har framkommit och anmälts till både
             landsantikvarien i Älvsborgs län och riksantikvarieämbetet.
           </seg>
-        </u>
-        <u xml:id="i-d32b19f2dae3cd33-4" who="i-Ua1nqYCRbnUSNc5Tw1tXiK" prev="i-EuKLkcJJEkLqNpjwUsRgHu" next="i-3Ko9jFiwtpNkbCY1TuEx6Z">
           <seg xml:id="i-4st9pV1HPp8LZNSZ6h6hbw">
             3. Militären har vid sitt tillträde av skjutfältet uraktlåtit
             att efterkomma riksdagsbeslutet, och riksantikvarieämbetet har
@@ -1668,8 +1662,6 @@
             Med hänvisning till det anförda hemställer jag om kammarens tillstånd
             att till herr försvarsministern få framställa följande fråga:
           </seg>
-        </u>
-        <u xml:id="i-3Ko9jFiwtpNkbCY1TuEx6Z" who="i-Ua1nqYCRbnUSNc5Tw1tXiK" prev="i-d32b19f2dae3cd33-4">
           <seg xml:id="i-DEymhbbmH5yBP6kNjSujg7">
             Vilka åtgärder tänker försvarsministern vidtaga för att riksdagens
             beslut skall kunna fullföljas av såväl riksantikvarieämbetet som

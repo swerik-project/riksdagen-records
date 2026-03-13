@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-Ji6LXMFmAVUi8JnMUWyHQv" type="speech">
             <linkGrp type="u">
               <ptr target="#i-ee770d4683acf9a7-1"/>
@@ -500,7 +500,13 @@
               <ptr target="#i-2yN6UrvPgbHjsWYCcc2n81"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -673,7 +679,7 @@
         <note xml:id="i-2jgam8MqJ9kuFHPhAFgikZ" type="speaker">
           Anf. 2 Statsminister INGVAR CARLSSON:
         </note>
-        <u xml:id="i-ee770d4683acf9a7-1" who="i-WYkrZExE7jfwHjmfH1DPwg" next="i-Vpnw5nmVYbtcPUNLAxWgEc">
+        <u xml:id="i-ee770d4683acf9a7-1" who="i-WYkrZExE7jfwHjmfH1DPwg" next="i-ee770d4683acf9a7-4">
           <seg xml:id="i-L6d4DEyZHWki5ADKQTPede">
             Herr talman! Hadar Cars har frågat mig om jag vid de samtal jag
             hade under mitt besök i Moskva tog upp händelsen utanför Öland
@@ -715,7 +721,7 @@
         <note xml:id="i-G4WU22DpbuQV3ANKtcPxWs">
           Om Sovjets iakttagande av avtalet om mänskliga rättigheter
         </note>
-        <u xml:id="i-ee770d4683acf9a7-4" who="i-WYkrZExE7jfwHjmfH1DPwg" prev="i-Vpnw5nmVYbtcPUNLAxWgEc">
+        <u xml:id="i-ee770d4683acf9a7-4" who="i-WYkrZExE7jfwHjmfH1DPwg" prev="i-ee770d4683acf9a7-1">
           <seg xml:id="i-8jax854YBDX2BfHqwEz6qP">
             förmån för den besättningsman som återfördes till fartyget. Jag
             delar denna uppfattning.
@@ -955,7 +961,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198586--137/prot_198586__137-007.jp2/_view"/>
-        <u xml:id="i-f322364d6fdda0de-7" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-f322364d6fdda0de-6" next="i-3nVoBuvVZEV3VR4XVskTdC">
+        <u xml:id="i-f322364d6fdda0de-7" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-f322364d6fdda0de-6" next="i-f322364d6fdda0de-12">
           <seg xml:id="i-TDyw77vYqtTrja8mKyiFYn">
             Strålningen från marken mäts av strålskyddsinstitutet vid 25
             fasta mätstationer, av FOA vid 7 mätstationer, av markpatruller
@@ -980,8 +986,6 @@
             När det gäller vilka åtgärder som regeringen och myndigheterna
             har vidtagit kan jag redovisa följande.
           </seg>
-        </u>
-        <u xml:id="i-3nVoBuvVZEV3VR4XVskTdC" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-f322364d6fdda0de-7" next="i-f322364d6fdda0de-8">
           <seg xml:id="i-VfzeuotUKnkHC5gaZQDti2">
             På förmiddagen måndagen den 28 april larmades kärnkraftinspektionen
             och strålskyddsinstitutets analysgrupp av Forsmarksverket, där
@@ -990,8 +994,6 @@
             omedelbart en närmare undersökning vid Forsmark. Regeringskansliet
             informerades.
           </seg>
-        </u>
-        <u xml:id="i-f322364d6fdda0de-8" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-3nVoBuvVZEV3VR4XVskTdC" next="i-f322364d6fdda0de-12">
           <seg xml:id="i-7K8WXtfELtM7NoGZD6Fv2X">
             Strax efter kl. 12 på måndagen, efter täta kontakter mellan Forsmarksverket,
             kärnkraftinspektionen, strålskyddsinstitutet, försvarets forskningsanstalt
@@ -1045,7 +1047,7 @@
           Debatt med anledning av kärnkraftsolyckan i Tjernobyl samt svar
           på interpellationer om kärnkraftspolitiken
         </note>
-        <u xml:id="i-f322364d6fdda0de-12" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-f322364d6fdda0de-8" next="i-f322364d6fdda0de-13">
+        <u xml:id="i-f322364d6fdda0de-12" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-f322364d6fdda0de-7" next="i-f322364d6fdda0de-13">
           <seg xml:id="i-YUk7iYUb8eYNdUDowHvdK7">
             En fullständig och öppen information är en nödvändig förutsättning
             för vårt säkerhetsarbete och för den utvärdering som energirådet
@@ -2400,14 +2402,12 @@
           Debatt med anledning 1. En konkret avvecklingsplan för all kärnkraft
           i Sverige måste upprättas av kärnkraftsolyckan i omedelbart.
         </note>
-        <u xml:id="i-CZXTjMMmCMi9dRmAWp3PnA" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-c5ce1c95ba86ff6d-4" next="i-UxJL7S4QzD9AXqK5Eovv17">
+        <u xml:id="i-CZXTjMMmCMi9dRmAWp3PnA" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-c5ce1c95ba86ff6d-4" next="i-c5ce1c95ba86ff6d-7">
           <seg xml:id="i-3dMFNsbT3Mat1srZHXQCr3">
             Tjernobylsamtsvar på 2. Barsebäcksverket skall inleda en sådan
             avvecklingsplan. interpellationer om 3. Ringhals 2-beslutet omprövas
             och reaktorn tas ur drift omedelbart.
           </seg>
-        </u>
-        <u xml:id="i-UxJL7S4QzD9AXqK5Eovv17" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-CZXTjMMmCMi9dRmAWp3PnA" next="i-c5ce1c95ba86ff6d-7">
           <seg xml:id="i-HfmdcnZAh15fyvdvJoyNqW">
             kärnkraftspolitiken SR En kort kommentar till Ringhals 2-beslutet:
           </seg>
@@ -2477,7 +2477,7 @@
           USARONEEE SR REA |
         </note>
         <pb facs="https://betalab.kb.se/prot-198586--137/prot_198586__137-025.jp2/_view"/>
-        <u xml:id="i-c5ce1c95ba86ff6d-7" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-UxJL7S4QzD9AXqK5Eovv17">
+        <u xml:id="i-c5ce1c95ba86ff6d-7" who="i-FrizKF8qiYUeCD64QhzzFt" prev="i-CZXTjMMmCMi9dRmAWp3PnA">
           <seg xml:id="i-PDh7kCLuUaNFx95tSh7cgx">
             ar som radioaktiva utsläpp utgör. Det borde vara en viktig del
             i den diskussion som skall ske i Nordiska rådets regi, t. ex.
@@ -3660,7 +3660,7 @@
         <note xml:id="i-JaiyRfPxh3yMhYmn2w2Y5r" type="speaker">
           Anf. 16 Statsrådet BIRGITTA DAHL:
         </note>
-        <u xml:id="i-594b12d3c3d567ba-16" who="i-YUKjmPPD3LmjeCPdQWkuEh" next="i-9b5L8SY5cGqdFWzo2D3MDz">
+        <u xml:id="i-594b12d3c3d567ba-16" who="i-YUKjmPPD3LmjeCPdQWkuEh">
           <seg xml:id="i-2YJEFo8gJaYp8A5CTBng7d">
             Herr talman! Låt mig först konstatera att de inlägg som har gjorts
             här i dag ger stort hopp om att vi på ett konstruktivt och moget
@@ -3706,8 +3706,6 @@
             vi är och måste vara beredda att föra diskussionen. Men det går
             för oss inte ihop att säga att kärnkraften är oacceptabel...
           </seg>
-        </u>
-        <u xml:id="i-9b5L8SY5cGqdFWzo2D3MDz" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-594b12d3c3d567ba-16">
           <seg xml:id="i-H16aLYvTGHbyBsX7gnLYGy">
             Med anledning av att åhörare demonstrerade genom att ropa slagord
             och uppvisa en banderoll yttrade
@@ -3716,12 +3714,10 @@
         <note xml:id="i-CsKNQFqz2qH6n33rxrnh4W" type="speaker">
           Anf. 17 ANDRE VICE TALMANNEN:
         </note>
-        <u xml:id="i-ee770d4683acf9a7-5" who="unknown" next="i-WQeNxQ1NLYos2Zawwu4Rht">
+        <u xml:id="i-ee770d4683acf9a7-5" who="unknown">
           <seg xml:id="i-UQvNZs9pQA2Yxhi32DD14s">
             Meningsyttringar från läktaren är förbjudna.
           </seg>
-        </u>
-        <u xml:id="i-WQeNxQ1NLYos2Zawwu4Rht" who="unknown" prev="i-ee770d4683acf9a7-5">
           <seg xml:id="i-B5QEqwsou2tk8UecGh5fq3">
             Då demonstrationerna emellertid fortsatte beslöt kammaren kl.
             13.44 på förslag av andre vice talmannen att ajournera sina förhandlingar.
@@ -6008,21 +6004,17 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198586--137/prot_198586__137-067.jp2/_view"/>
-        <u xml:id="i-7cebddb4e8c4be6b-1" who="i-Wiq5749k7owcARUynxZuX7" prev="i-7cebddb4e8c4be6b-0" next="i-D1PY5Pq3krMgwVwbz6QYF8">
+        <u xml:id="i-7cebddb4e8c4be6b-1" who="i-Wiq5749k7owcARUynxZuX7" prev="i-7cebddb4e8c4be6b-0">
           <seg xml:id="i-UiMmb6xcXYGGo8ysACnJVt">
             Gotland går transporter med radioaktivt gods. Det finns alltså
             ett antal skäl till att den bristfälliga beredskapen måste höjas
             avsevärt när det gäller att kunna mäta radioaktiv strålning.
           </seg>
-        </u>
-        <u xml:id="i-D1PY5Pq3krMgwVwbz6QYF8" who="i-Wiq5749k7owcARUynxZuX7" prev="i-7cebddb4e8c4be6b-1" next="i-Bf2h781DcT6tLEnZdF4FFT">
           <seg xml:id="i-wu5jSvfen79LZBmroqoPL">
             Jag vill därför fråga Birgitta Dahl om regeringen är beredd att
             medverka till att en fast mätstation och övrig nödvändig utrustning
             snarast stationeras på Gotland.
           </seg>
-        </u>
-        <u xml:id="i-Bf2h781DcT6tLEnZdF4FFT" who="i-Wiq5749k7owcARUynxZuX7" prev="i-D1PY5Pq3krMgwVwbz6QYF8">
           <seg xml:id="i-XZHMXSyjJAXXzVtLrVrjzP">
             När det gäller frågan om krav på information om vilken säkerhetsutrustning
             som finns vid de sovjetiska kärnkraftverken, så är det positivt
@@ -6098,7 +6090,7 @@
         <note xml:id="i-DcgBWCzAfgKKaqECqbAm7b" type="speaker">
           Anf. 38 PER-OLA ERIKSSON (c):
         </note>
-        <u xml:id="i-1bda675e2bc13ecd-0" who="i-GyYMjkDFkNwtQ7GJKMBnVE" next="i-XLPNx2jjpEMpGw7YahwE9v">
+        <u xml:id="i-1bda675e2bc13ecd-0" who="i-GyYMjkDFkNwtQ7GJKMBnVE" next="i-1bda675e2bc13ecd-1">
           <seg xml:id="i-Q13hmHgnBq53JZZmVvJQTz">
             Herr talman! Jag ber att få tacka energioch miljöministern för
             svaret på min interpellation. Dess värre upplever jag att statsrådets
@@ -6158,14 +6150,10 @@
             Är det inte rimligt att regionala myndigheter är underrättade
             om var olika mätstationer är belägna?
           </seg>
-        </u>
-        <u xml:id="i-XLPNx2jjpEMpGw7YahwE9v" who="i-GyYMjkDFkNwtQ7GJKMBnVE" prev="i-1bda675e2bc13ecd-0" next="i-TAufaoceMQKbEsC9MGNcaD">
           <seg xml:id="i-MTxoCEqT8nJ3Tuo2ZumiLZ">
             Vilka åtgärder avser statsrådet att vidta för att förbättra informationen
             mellan centrala och regionala myndigheter i dessa sammanhang?
           </seg>
-        </u>
-        <u xml:id="i-TAufaoceMQKbEsC9MGNcaD" who="i-GyYMjkDFkNwtQ7GJKMBnVE" prev="i-XLPNx2jjpEMpGw7YahwE9v" next="i-1bda675e2bc13ecd-1">
           <seg xml:id="i-4zxdZogZcvA2MFWNZEo54U">
             Beträffande behovet av information från Sovjetunionen om säkerheten
             vid de kärnkraftverk som finns i Sveriges närhet — i det här fallet
@@ -6181,7 +6169,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198586--137/prot_198586__137-069.jp2/_view"/>
-        <u xml:id="i-1bda675e2bc13ecd-1" who="i-GyYMjkDFkNwtQ7GJKMBnVE" prev="i-TAufaoceMQKbEsC9MGNcaD" next="i-MxujsLkhYtboKKx3NssoDQ">
+        <u xml:id="i-1bda675e2bc13ecd-1" who="i-GyYMjkDFkNwtQ7GJKMBnVE" prev="i-1bda675e2bc13ecd-0">
           <seg xml:id="i-Cu481qhNYkrkicDzyDc9QN">
             beredskapen vara mer omfattande. Det gäller inte bara att bygga
             upp varningssystem, utan det måste också handla om hur vi tar
@@ -6193,20 +6181,14 @@
           <seg xml:id="i-P3agyfViGPs4kS1vh6Y8Gz">
             De frågor som vi måste ha svar på är bl. a.:
           </seg>
-        </u>
-        <u xml:id="i-MxujsLkhYtboKKx3NssoDQ" who="i-GyYMjkDFkNwtQ7GJKMBnVE" prev="i-1bda675e2bc13ecd-1" next="i-WQxFgWkyRJnjVZ9ok34nsK">
           <seg xml:id="i-LnTSm2b6xoR367boyCKVt2">
             Vilken beredskap finns det t. ex. vid våra lasarett och vårdcentraler?
           </seg>
-        </u>
-        <u xml:id="i-WQxFgWkyRJnjVZ9ok34nsK" who="i-GyYMjkDFkNwtQ7GJKMBnVE" prev="i-MxujsLkhYtboKKx3NssoDQ" next="i-5c2pwoErjid9okfwZLzL5Q">
           <seg xml:id="i-UBLbNv1vqyqp9mpwLBjmue">
             Vilken utbildning har sjukvårdspersonalen när det gäller att
             ta hand om strålskadade människor och vilka mätinstrument finns
             det vid landstingens vårdinrättningar?
           </seg>
-        </u>
-        <u xml:id="i-5c2pwoErjid9okfwZLzL5Q" who="i-GyYMjkDFkNwtQ7GJKMBnVE" prev="i-WQxFgWkyRJnjVZ9ok34nsK">
           <seg xml:id="i-3kc5MdfwGTNbCbR7aruBSy">
             Vilken beredskap finns det när det gäller att evakuera människor
             från ett utpräglat glesbygdsområde — i det här fallet Norrbotten
@@ -8151,7 +8133,7 @@
         <note xml:id="i-H2jwL8q9LH3GtuzQ5ox5Qf">
           92
         </note>
-        <u xml:id="i-02139c0cfe9137b4-40" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-02139c0cfe9137b4-36" next="i-rfW4r4oM67G36jPWHgXGE">
+        <u xml:id="i-02139c0cfe9137b4-40" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-02139c0cfe9137b4-36" next="i-9GThYfu3zySJDYpoU4Zn8u">
           <seg xml:id="i-Uz6LPyxEnu8mMVWmUGo4sQ">
             industrin får tillgång till den el som den behöver utan att vi
             behöver riskera ökade kostnader.
@@ -8173,8 +8155,6 @@
             fingrarna i byrålådan och dom oomkullrunkeliga huvudskallerunkarna
             dom säger att det är omöjligt
           </seg>
-        </u>
-        <u xml:id="i-rfW4r4oM67G36jPWHgXGE" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-02139c0cfe9137b4-40" next="i-9GThYfu3zySJDYpoU4Zn8u">
           <seg xml:id="i-CduDApez37jTnbHn9BqxzE">
             jag säger okej
           </seg>
@@ -8182,7 +8162,7 @@
         <note xml:id="i-615pTZtEqabiMuo2V1fiXJ">
           vänner kamrater kom LÅT OSS GÖRA DET OMÖJLIGA MÖJLIGT
         </note>
-        <u xml:id="i-9GThYfu3zySJDYpoU4Zn8u" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-rfW4r4oM67G36jPWHgXGE">
+        <u xml:id="i-9GThYfu3zySJDYpoU4Zn8u" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-02139c0cfe9137b4-40">
           <seg xml:id="i-6DCfvbhp9FaLftfVJjVevQ">
             Och detta, herr talman, är ett mycket trevligt sätt att uttrycka
             den målsättning vi har för att bygga ett bra energisystem i framtiden.
@@ -8660,7 +8640,7 @@
         <note xml:id="i-CMHhZcFk7sx9WWMDUpbJuW">
           stopp för export av kärnkraftsutrustning från Sverige.
         </note>
-        <u xml:id="i-bATG1pEEBaZBQwMJG3QUa" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-b92f704ace6d6bdc-2" next="i-WyYQLC8vrGwxdL3ygyH7Hk">
+        <u xml:id="i-bATG1pEEBaZBQwMJG3QUa" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-b92f704ace6d6bdc-2">
           <seg xml:id="i-6VeRNJ2mKXScG6h9qTVc5H">
             Jag vill erinra om att export av kärnteknisk utrustning regleras
             genom lagen (1984:3) om kärnteknisk verksamhet (kärntekniklagen),
@@ -8669,16 +8649,12 @@
             material som har särskilt konstruerats för bearbetning, användning
             eller framställning av kärnämne.
           </seg>
-        </u>
-        <u xml:id="i-WyYQLC8vrGwxdL3ygyH7Hk" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-bATG1pEEBaZBQwMJG3QUa" next="i-5ba0ca21dc989f21-22">
           <seg xml:id="i-BWbAFB5744BCAUiGEcx2Np">
             De riktlinjer som tillämpas av regeringen för export av kärnteknisk
             utrustning har redovisats i proposition 1983/84:60 om ny lagstiftning
             på kärnenergiområdet samt i proposition 1984/85:120 om riktlinjer
             för energipolitiken.
           </seg>
-        </u>
-        <u xml:id="i-5ba0ca21dc989f21-22" who="i-YUKjmPPD3LmjeCPdQWkuEh" prev="i-WyYQLC8vrGwxdL3ygyH7Hk">
           <seg xml:id="i-5Thg6rBJEGhoU17AdeBbJT">
             Som en allmän princip för den svenska politiken gäller att utförseltillstånd
             till icke-kärnvapenstater endast lämnas om dessa har ratificerat
@@ -9074,7 +9050,7 @@
           542 av Maria Leissner (fp) till arbetsmarknadsministern om den
           partiella arbetslösheten för kvinnor:
         </note>
-        <u xml:id="i-12b07994a47a18de-1" who="i-NTXLkayNLx1xKQsGQibNYd" next="i-F4SbDLptALDXF6f4zMjmrG">
+        <u xml:id="i-12b07994a47a18de-1" who="i-NTXLkayNLx1xKQsGQibNYd" next="i-12b07994a47a18de-3">
           <seg xml:id="i-H99cA9Lw6uufBbwxnmuDbs">
             Den partiella arbetslösheten för kvinnor mellan 16 och 24 år
             har varit kontinuerligt stigande under hela 1980-talet och uppgår
@@ -9087,8 +9063,6 @@
             att denna siffra är stabil och att det av detta skäl räcker med
             en mätning om året.
           </seg>
-        </u>
-        <u xml:id="i-F4SbDLptALDXF6f4zMjmrG" who="i-NTXLkayNLx1xKQsGQibNYd" prev="i-12b07994a47a18de-1" next="i-12b07994a47a18de-3">
           <seg xml:id="i-V6FAS1416o9BzodhcoYKBE">
             Mot bakgrund av den alarmerande faktiska utvecklingen av flickors
             partiella arbetslöshet vill jag fråga om statsrådet vill medverka
@@ -9100,7 +9074,7 @@
           1985/86:543 av Sten Andersson i Malmö (m) till statsrådet Bengt
           K. Å. Johansson om konkurrensen inom försäkringsbranschen:
         </note>
-        <u xml:id="i-12b07994a47a18de-3" who="i-NTXLkayNLx1xKQsGQibNYd" prev="i-F4SbDLptALDXF6f4zMjmrG" next="i-2yN6UrvPgbHjsWYCcc2n81">
+        <u xml:id="i-12b07994a47a18de-3" who="i-NTXLkayNLx1xKQsGQibNYd" prev="i-12b07994a47a18de-1">
           <seg xml:id="i-EHYQeXssuTgFBmEtHUtGkF">
             Enligt uppgift har regeringen beslutat att ge möjlighet för fackliga
             organisationer att teckna kollektiva hemförsäkringar, förutsatt
@@ -9109,8 +9083,6 @@
             är risken stor att konkurrensen på sikt sätts ur spel med resultat
             att hemförsäkringar blir dyrare för alla medborgare.
           </seg>
-        </u>
-        <u xml:id="i-2yN6UrvPgbHjsWYCcc2n81" who="i-NTXLkayNLx1xKQsGQibNYd" prev="i-12b07994a47a18de-3">
           <seg xml:id="i-CgszgSzvkH7Y4479u4XkVY">
             Ärstatsrådet beredd att vidta åtgärder så att konkurrensen i
             praktiken kan bevaras inom försäkringsbranschen?

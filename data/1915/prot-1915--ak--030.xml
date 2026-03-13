@@ -24,11 +24,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-T6brSVfiRTr9ii7sW2ieZY" type="speech">
             <linkGrp type="u">
               <ptr target="#i-Q7YedNH55NfYvBj2Xu6sNS"/>
@@ -214,7 +214,13 @@
               <ptr target="#i-5yc77WeDxuMCy6pLaaUGq5"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -270,26 +276,20 @@
           Chefen för finansdepartementet, herr statsrådet Vennersten, som
           anförde:
         </note>
-        <u xml:id="i-Q7YedNH55NfYvBj2Xu6sNS" who="i-UKN14qkeNNkW3DNEKGfGbE" next="i-Gmo5Xyvh6hcrZQNkQkmANU">
+        <u xml:id="i-Q7YedNH55NfYvBj2Xu6sNS" who="i-UKN14qkeNNkW3DNEKGfGbE" next="i-M3ZFqKsY6ytRcAxpP6e6z2">
           <seg xml:id="i-VgegJZw9Toxx4vRND3mS9s">
             Herr talman! Med kammarens tillstånd har herr Palmstierna till
             mig framställt följande spörsmål:
           </seg>
-        </u>
-        <u xml:id="i-Gmo5Xyvh6hcrZQNkQkmANU" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-Q7YedNH55NfYvBj2Xu6sNS" next="i-8ChhnYsgMpjyT7eUyH8UPS">
           <seg xml:id="i-5DS4VwKL2Xsh3tA7aWagAT">
             »Vilken åtgärd har vidtagits i anledning av riksdagens skrivelse
             den 28 maj 1912 angående upprättande av kreditupplag för industri,
             som förädlar tullpliktig vara för export, samt när kan riksdagen
             av Kungl. Maj:t förvänta framställning i detta ärende ?»
           </seg>
-        </u>
-        <u xml:id="i-8ChhnYsgMpjyT7eUyH8UPS" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-Gmo5Xyvh6hcrZQNkQkmANU" next="i-FMmsb22Bowe7ES15twxesn">
           <seg xml:id="i-7z7JgWpdZMqL84b3xbf5oa">
             Till svar på dessa frågor ber jag få meddela följande:
           </seg>
-        </u>
-        <u xml:id="i-FMmsb22Bowe7ES15twxesn" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-8ChhnYsgMpjyT7eUyH8UPS" next="i-LUv7W5c21Nn7KNwnAp5PVG">
           <seg xml:id="i-SanCvJbkQSZ98Czkba5Scu">
             Såsom i interpellationens motivering erinras, hemställde riksdagen
             i den nyssnämnda skrivelsen att Kungl. Maj:t måtte låta verkställa
@@ -298,8 +298,6 @@
             tullpliktig vara även för export, ävensom för riksdagen framlägga
             det förslag, vartill en sådan utredning må föranleda.
           </seg>
-        </u>
-        <u xml:id="i-LUv7W5c21Nn7KNwnAp5PVG" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-FMmsb22Bowe7ES15twxesn" next="i-M3ZFqKsY6ytRcAxpP6e6z2">
           <seg xml:id="i-MF75VZ4FsaWVU8WVH5MTUJ">
             Genom nådigt brev den 6 juni 1912 erhöllo kommerskollegium och
             generaltullstyrelsen i uppdrag att gemensamt verkställa den sålunda
@@ -323,7 +321,7 @@
         <note xml:id="i-X7wMya84XibBYjatptq1JM" type="date">
           2 Onsdagen den 3 mars.
         </note>
-        <u xml:id="i-M3ZFqKsY6ytRcAxpP6e6z2" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-LUv7W5c21Nn7KNwnAp5PVG" next="i-VW9yW338D3oF9zbq9wYFQS">
+        <u xml:id="i-M3ZFqKsY6ytRcAxpP6e6z2" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-Q7YedNH55NfYvBj2Xu6sNS">
           <seg xml:id="i-FHiqiwZkcKXM6iK61xeu2k">
             I detta utlåtande framhålla ämbetsverken, att de nuvarande bestämmelserna
             lämna möjlighet till den kredit å tullavgifter, som genom det
@@ -333,8 +331,6 @@
             icke böra förorda, att lagstiftningen om tullfri Föradlingssörolsa
             omlägges i sin helhet till kreditsystemets grund.
           </seg>
-        </u>
-        <u xml:id="i-VW9yW338D3oF9zbq9wYFQS" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-M3ZFqKsY6ytRcAxpP6e6z2" next="i-4vqSFQvsUVBuoTtGDpdTVz">
           <seg xml:id="i-9FSLTGsqW3PdrDFUUzW4tU">
             Samtidigt har emellertid kommerskollegium, som funnit av motiven
             till riksdagens framställning angående kreditupplag för förädlingsindustrien
@@ -352,8 +348,6 @@
             och villkoren för beviljande av tullrestitution åt den även för
             export arbetande förädlingsindustrien.
           </seg>
-        </u>
-        <u xml:id="i-4vqSFQvsUVBuoTtGDpdTVz" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-VW9yW338D3oF9zbq9wYFQS">
           <seg xml:id="i-XxMP37hMEfxtMbr2ErEHWo">
             Nu nämnda av kommerskollegium avgivna förslag har remitterats
             till generaltullstyrelsen, som anmodats däröver avgiva skyndsamt
@@ -367,7 +361,7 @@
         <note xml:id="i-6JokJhvXqsnC9RGmXKNsfj" type="speaker">
           Herr Palmstierna:
         </note>
-        <u xml:id="i-Wt9dB2FhV7Wfam5eDi85ez" who="i-PoEnkqgRthqgybjNd47ZwU" next="i-SFZmX2EJFhLsWLhYzjMwAV">
+        <u xml:id="i-Wt9dB2FhV7Wfam5eDi85ez" who="i-PoEnkqgRthqgybjNd47ZwU" next="i-Niqssqcr4UHuumy4X5Ltt3">
           <seg xml:id="i-JSFLJi8e2bCLrSzb4sT411">
             Herr talman! Jag ber att till herr statsrådet få uttala min tacksamhet
             för svaret, men jag må nu säga, att något intresse för den stora
@@ -379,8 +373,6 @@
             bereda oss till att få dem använda på bästa sätt och man hade
             väntat mer från herr finansministern.
           </seg>
-        </u>
-        <u xml:id="i-SFZmX2EJFhLsWLhYzjMwAV" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-Wt9dB2FhV7Wfam5eDi85ez" next="i-Niqssqcr4UHuumy4X5Ltt3">
           <seg xml:id="i-D9ngox8gdzvNVzCyqfQjxJ">
             Nu är emellertid det, som berörts av mig i dag, en gammal historia
             skulle jag kunna säga. Herr statsrådet och undertecknad ha tidigare
@@ -395,7 +387,7 @@
         <note xml:id="i-dCPhV7BQjXSrGXY4TPkjE" type="date">
           Onsdagen den 3 mars. 3 Nr 80.
         </note>
-        <u xml:id="i-Niqssqcr4UHuumy4X5Ltt3" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-SFZmX2EJFhLsWLhYzjMwAV" next="i-GWgifVBYb4aW9PEZEjpNYX">
+        <u xml:id="i-Niqssqcr4UHuumy4X5Ltt3" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-Wt9dB2FhV7Wfam5eDi85ez" next="i-WS6JvA7AgagaGaQEYYn66y">
           <seg xml:id="i-EkUbf8cMhpDKAd7kpnbP7x">
             bedriva en så exklusiv industripolitik i detta land, att vi för-
             Svar å intersumma den stora handeln därför att vi vilja skydda
@@ -403,28 +395,18 @@
             det vore en (Forts) vidare blick man lade på saken, om man iakttoge
             det allmänt
           </seg>
-        </u>
-        <u xml:id="i-GWgifVBYb4aW9PEZEjpNYX" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-Niqssqcr4UHuumy4X5Ltt3" next="i-3Vp6N63eQoSBsd3u1SBzaV">
           <seg xml:id="i-wBzhuGbcr4cB4axjvuvEL">
             erkända förhållandet, att handeln och industrien befrukta var-
           </seg>
-        </u>
-        <u xml:id="i-3Vp6N63eQoSBsd3u1SBzaV" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-GWgifVBYb4aW9PEZEjpNYX" next="i-GPkgo3B5YujEzNUKGrB5pB">
           <seg xml:id="i-38MT4LuCke56fLZQZxLm6f">
             andra och att handeln också banar väg för industrien. Genom
           </seg>
-        </u>
-        <u xml:id="i-GPkgo3B5YujEzNUKGrB5pB" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-3Vp6N63eQoSBsd3u1SBzaV" next="i-UVDgvaKWeBesaZQ4WzzPhP">
           <seg xml:id="i-Ro6T9zsXD9quibFwvaP1tt">
             de stängselåtgärder för handeln, som gång på gång vidtagas,
           </seg>
-        </u>
-        <u xml:id="i-UVDgvaKWeBesaZQ4WzzPhP" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-GPkgo3B5YujEzNUKGrB5pB" next="i-8e9jVTMuuDKqdcdSATFLe5">
           <seg xml:id="i-UnbaFgnbR3VW9TWpPHC4zD">
             försvåra vi i själva verket de industriella exportmöjligheterna.
           </seg>
-        </u>
-        <u xml:id="i-8e9jVTMuuDKqdcdSATFLe5" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-UVDgvaKWeBesaZQ4WzzPhP" next="i-5WEDMxx8AW9h1mka8uVToE">
           <seg xml:id="i-4M2HwFH3SPCmFLR1h4heXi">
             Här var det ju så, att när undertecknad med anledning av 1912
             års olika förslag framkom med spörsmålet om kreditupplag, upptogs
@@ -435,8 +417,6 @@
             intresset börjat göra sig gällande för någon kringskärning av
             den tullmur, som är uppförd.
           </seg>
-        </u>
-        <u xml:id="i-5WEDMxx8AW9h1mka8uVToE" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-8e9jVTMuuDKqdcdSATFLe5" next="i-3aJccmGXcAoHoyRXnMZm2g">
           <seg xml:id="i-WKHwoD3LSSGbtq6bHZqtuL">
             Jag ber att för kammaren få framhålla, hur fullständigt resultatlöst
             vårt lagstiftningsarbete varit på grund av motstridiga intressen.
@@ -460,8 +440,6 @@
             då ansågo relativt storslagna projekt förverkligats eller kommit
             till åsyftad nytta.
           </seg>
-        </u>
-        <u xml:id="i-3aJccmGXcAoHoyRXnMZm2g" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-5WEDMxx8AW9h1mka8uVToE" next="i-WS6JvA7AgagaGaQEYYn66y">
           <seg xml:id="i-QkmBBihXARdKuJdx1VpDva">
             Hur kommer det sig då att denna förordning om tullrestitution
             icke kommit till användning? Jo, på grund av starka påtryckningar
@@ -490,12 +468,10 @@
         <note xml:id="i-VVr9YbHya1r9dTnZU1gfy8">
           pellation. (Forts.)
         </note>
-        <u xml:id="i-WS6JvA7AgagaGaQEYYn66y" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-3aJccmGXcAoHoyRXnMZm2g" next="i-XBVFLKN71hYZF4DtdkjVNi">
+        <u xml:id="i-WS6JvA7AgagaGaQEYYn66y" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-Niqssqcr4UHuumy4X5Ltt3" next="i-TdeK3q6oANqXDyYK2ixGBa">
           <seg xml:id="i-2GrsKFYY3MP2NH78UYhjbN">
             från Stockholms handelskammare, som den frågan upptagits.
           </seg>
-        </u>
-        <u xml:id="i-XBVFLKN71hYZF4DtdkjVNi" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-WS6JvA7AgagaGaQEYYn66y" next="i-4dUGEsJfcob1tpEwgfkNWq">
           <seg xml:id="i-TskD7cJVcXpg6M4X3na5hX">
             Men jag vågar likväl tro, att vi komma här i Sverige att få erfara
             detsamma som i Danmark och Norge. Frihamnsinstitutionen kom till
@@ -506,8 +482,6 @@
             måste först starkt utvecklas och gynnas. Detta borde vi göra klart
             för oss.
           </seg>
-        </u>
-        <u xml:id="i-4dUGEsJfcob1tpEwgfkNWq" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-XBVFLKN71hYZF4DtdkjVNi" next="i-WQjykT1xUz8L1uCo7y8T5z">
           <seg xml:id="i-WhEUGskAwZwu2XPWbmxVW8">
             Man kan emellertid ställa den frågan till sig: Om vi gått på
             den bog, som föreslagits, av finansministern, om vi vidga tullrestitutionsförfarandet
@@ -527,8 +501,6 @@
             så att vi liksom i Danmark och Tyskland kunde slå in på motsvarande
             åtgärder.
           </seg>
-        </u>
-        <u xml:id="i-WQjykT1xUz8L1uCo7y8T5z" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-4dUGEsJfcob1tpEwgfkNWq" next="i-XmYGgm9KynAnCNFMHpqKCu">
           <seg xml:id="i-8gcRJHJotdNyJCqwh3xNhJ">
             Nu vill jag säga, att när man är så orolig för industrien bör
             man betänka att denna är angelägen att kunna begagna sig av restitutionsförfarandet.
@@ -538,8 +510,6 @@
             37,000 kr., elektriska motorer och gasaccumulatorer 25,000 kr.,
             samt diverse övriga såsom velocipedoch automobildelar 49,000 kr.
           </seg>
-        </u>
-        <u xml:id="i-XmYGgm9KynAnCNFMHpqKCu" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-WQjykT1xUz8L1uCo7y8T5z" next="i-TdeK3q6oANqXDyYK2ixGBa">
           <seg xml:id="i-RJP8oz4GLFdywzaqUg5viz">
             Nå, gå vi till respektive industrier, så finna vi, att åtskilliga
             av storindustrierna äro engagerade häri. Där ha vi Aktiebolaget
@@ -559,7 +529,7 @@
         <note xml:id="i-69JjDkqwpQ7d72rWbevYwo" type="date">
           Onsdagen den 3 mars. 5 Nr 30.
         </note>
-        <u xml:id="i-TdeK3q6oANqXDyYK2ixGBa" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-XmYGgm9KynAnCNFMHpqKCu">
+        <u xml:id="i-TdeK3q6oANqXDyYK2ixGBa" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-WS6JvA7AgagaGaQEYYn66y">
           <seg xml:id="i-9ymWxM1GJQ5ZsqmDc4AmP4">
             kontrollättnader. Det skulle bli helt ringa resultat av riksdagens
             Svar å interskrivelse av 1912. pellation. Jag vet, att dåvarande
@@ -591,7 +561,7 @@
         <note xml:id="i-6dsuKghNt6K3VPFv5jTRtv" type="speaker">
           Chefen för finansdepartementet herr statsrådet Vennersten:
         </note>
-        <u xml:id="i-7hy65hTWXtEjnoqVmuWiyq" who="i-UKN14qkeNNkW3DNEKGfGbE" next="i-5Ztd5uEsk5UEaQwqFJ83yZ">
+        <u xml:id="i-7hy65hTWXtEjnoqVmuWiyq" who="i-UKN14qkeNNkW3DNEKGfGbE" next="i-QgmLVvASeBTk34awMkfwVw">
           <seg xml:id="i-WRzfhdXeLT139NH6DVJUAK">
             Herr talman! FEhuruväl den ärade interpellantens anförande innehöll
             ett icke så obetydligt klander mot det sätt, varpå jag enligt
@@ -605,8 +575,6 @@
             ståndpunkter, och vidare konstaterade han i mitt svar samma kylighet,
             som han tidigare trolt sig förnimma från min sida.
           </seg>
-        </u>
-        <u xml:id="i-5Ztd5uEsk5UEaQwqFJ83yZ" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-7hy65hTWXtEjnoqVmuWiyq" next="i-QgmLVvASeBTk34awMkfwVw">
           <seg xml:id="i-SuhiuNEzCG8qhYbE958ZV4">
             Nu är det emellertid, mina herrar, så, om vi hålla oss till den
             sak, som föreligger och som givit anledning till interpellationen,
@@ -631,15 +599,13 @@
         <note xml:id="i-AwnmjibRrYbrMcU2u7jNKE">
           pellation. (Forts.)
         </note>
-        <u xml:id="i-QgmLVvASeBTk34awMkfwVw" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-5Ztd5uEsk5UEaQwqFJ83yZ" next="i-FLDdb8GeHA5Jmi63CLsqNa">
+        <u xml:id="i-QgmLVvASeBTk34awMkfwVw" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-7hy65hTWXtEjnoqVmuWiyq" next="i-AkkskmzDn4aoS8AJZeHVGA">
           <seg xml:id="i-ZUKf4S1jHrU1WxsXVi7Hr">
             gick med härpå, ådagalade han därmed sitt stora intresse för
             den fråga, som nu är före. Riksdagen gick också, som ju konstaterats,
             med på saken. Jag ber att få understryka, att det icke rådde någon
             meningsskiljaktighet om denna fråga men väl om den nämnda motionen.
           </seg>
-        </u>
-        <u xml:id="i-FLDdb8GeHA5Jmi63CLsqNa" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-QgmLVvASeBTk34awMkfwVw" next="i-WdAWFT6r6FdRmZW7pUmP4m">
           <seg xml:id="i-QmofnrS61Pd58DSHRjwzt4">
             Emellertid vill jag be att i den fråga, det här gäller — frågan
             om kreditupplag för den även för export arbetande förädlingsindustrien
@@ -651,14 +617,10 @@
             möjligheter fullt utnyttjats, och jag skall i första rummet be
             att få påpeka möjligheterna till erhållande av kredit.
           </seg>
-        </u>
-        <u xml:id="i-WdAWFT6r6FdRmZW7pUmP4m" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-FLDdb8GeHA5Jmi63CLsqNa" next="i-CoPiv5JzpRc6LS1QkPT9uD">
           <seg xml:id="i-RNApNVdkt4iaomUyRYFYpu">
             Enligt den tulltaxeförordning, som nu gäller, heter det i 8 13,
             mom. 5, tredje stycket:
           </seg>
-        </u>
-        <u xml:id="i-CoPiv5JzpRc6LS1QkPT9uD" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-WdAWFT6r6FdRmZW7pUmP4m" next="i-GWvqJ4rtAzTZoayvGmTjBe">
           <seg xml:id="i-U3cRwTuZyhWxowzH4u6mXt">
             »Önskar näringsidkare, åt vilken medgivits sådan rätt som nu
             är sagd, anstånd med erläggande av tullavgiften för vara, som
@@ -669,8 +631,6 @@
             avlämnar säkerhet, som styrelsen finner betryggande, för vad honom
             kan åligga att till tullkassan inbetala.»
           </seg>
-        </u>
-        <u xml:id="i-GWvqJ4rtAzTZoayvGmTjBe" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-CoPiv5JzpRc6LS1QkPT9uD" next="i-2K4uVDPFVKAsxryGrqxaQ8">
           <seg xml:id="i-DLVVxBYb6HytdRQYeqViyE">
             Alltså finna herrarne, att här är redan möjlighet given till
             kredit under hela den tid, för vilken varan kan för förädling
@@ -690,8 +650,6 @@
             skall komma atv begagna den kredit, som riksdagen medgivit den
             industri, som förädlar tullpliktiga varor för export.
           </seg>
-        </u>
-        <u xml:id="i-2K4uVDPFVKAsxryGrqxaQ8" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-GWvqJ4rtAzTZoayvGmTjBe" next="i-AkkskmzDn4aoS8AJZeHVGA">
           <seg xml:id="i-7KwhSEk5inZ7qCXKTJYBkA">
             Vidare ber jag få påpeka en annan sak, och jag kan göra det av
             egen personlig erfarenhet. Det är nämligen icke så lätt att draga
@@ -703,7 +661,7 @@
         <note xml:id="i-QmzJrQTuCb89a6eG57Sz2M" type="date">
           Onsdagen den 3 mars. 7 Nr 380.
         </note>
-        <u xml:id="i-AkkskmzDn4aoS8AJZeHVGA" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-2K4uVDPFVKAsxryGrqxaQ8" next="i-YH2FagVaMNC1YknbkPYaoA">
+        <u xml:id="i-AkkskmzDn4aoS8AJZeHVGA" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-QgmLVvASeBTk34awMkfwVw" next="i-NWBEcFn5q3Rdvkpa5HZ8cn">
           <seg xml:id="i-3MpTpj2xEaZXf22pD7CWsv">
             lande. I den förstnämnda stod det, att, i fråga om de varor,
             Svar å intervarom vi tala, nämligen halvfabrikat och tullpliktig
@@ -736,8 +694,6 @@
             av gynnsamma konjunkturer för inköp av råvara, och tiden räknades
             från varans införsel.
           </seg>
-        </u>
-        <u xml:id="i-YH2FagVaMNC1YknbkPYaoA" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-AkkskmzDn4aoS8AJZeHVGA" next="i-Xo93HnpKHaJj9iKfS6iEKx">
           <seg xml:id="i-4Gh11HBRmF5id8SqQssqiE">
             Här ha vi sålunda två olika utvägar, varpå industriidkare kunna
             förskaffa sig den kredit, som den ärade interpellanten ansåg vara
@@ -751,8 +707,6 @@
             så att de som hava intresse av dessa angelägenheter skulle kunna
             bättre se, vad det gäller, och veta att bättre begagna sig därutav.
           </seg>
-        </u>
-        <u xml:id="i-Xo93HnpKHaJj9iKfS6iEKx" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-YH2FagVaMNC1YknbkPYaoA" next="i-NWBEcFn5q3Rdvkpa5HZ8cn">
           <seg xml:id="i-UAw1cvgiKv3pY7fjr7inxq">
             Men om nu kunnat påvisas att beträffande krediten allt icke är
             så illa ställt, som den ärade interpellanten tycks föreställa
@@ -776,7 +730,7 @@
         <note xml:id="i-7v7mtk4yjbSmPYBadeCvVx">
           pellation. (Forts.)
         </note>
-        <u xml:id="i-NWBEcFn5q3Rdvkpa5HZ8cn" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-Xo93HnpKHaJj9iKfS6iEKx" next="i-SkoJuoxTi4SCAtW2VfStCx">
+        <u xml:id="i-NWBEcFn5q3Rdvkpa5HZ8cn" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-AkkskmzDn4aoS8AJZeHVGA">
           <seg xml:id="i-JQQPBQjVgCzJyhQ15StSC">
             farenhet står i direkt strid med den, man har inom industrilivet,
             alltså inom de kretsar som hava ett verkligt behov i detta hänseende.
@@ -798,8 +752,6 @@
             och framhäva endast kreditfrågan då båda utvägarna så väl tåla
             vid att beaktas och använas”
           </seg>
-        </u>
-        <u xml:id="i-SkoJuoxTi4SCAtW2VfStCx" who="i-UKN14qkeNNkW3DNEKGfGbE" prev="i-NWBEcFn5q3Rdvkpa5HZ8cn">
           <seg xml:id="i-FeRBnLPwuP4sLrBHas5Psh">
             För att icke lämna rum för något missförstånd efter mitt yttrande,
             så att någon till äventyrs skulle tro, att jag på något sätt skulle
@@ -843,35 +795,27 @@
         <note xml:id="i-KWURXm9UVVnHRSj3sixCPX">
           Nr 30.
         </note>
-        <u xml:id="i-JMYdXFn2KFs9Htaegic4wG" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-MXzoa4UwNwTUcPZyXpGCd3" next="i-GwJ23ZAhkUuzUQjgLgx1aB">
+        <u xml:id="i-JMYdXFn2KFs9Htaegic4wG" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-MXzoa4UwNwTUcPZyXpGCd3">
           <seg xml:id="i-T4QfWGWrxht7Bs3rUg4bSR">
             grundat på den erfarenheten nämligen att den ärade herr finans-
             Svar &amp; iater-
           </seg>
-        </u>
-        <u xml:id="i-GwJ23ZAhkUuzUQjgLgx1aB" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-JMYdXFn2KFs9Htaegic4wG" next="i-EQsZvDR1ntSWio7wZ4WZwv">
           <seg xml:id="i-8jJtxZm79XmmeYzrjJrJyZ">
             ministern företräder, så vitt jag kan förstå, en ganska ensidig
             industriidkareståndpunkt i denna fråga. Omedvetet färgas hela
             hans uppfattning om åtgärder och motåtgärder av denna ståndpunkt;
             och i detta ögonblick, när uppmärksamheten så att säga
           </seg>
-        </u>
-        <u xml:id="i-EQsZvDR1ntSWio7wZ4WZwv" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-GwJ23ZAhkUuzUQjgLgx1aB" next="i-C5L1wSPVmuLJot5WC1Hszj">
           <seg xml:id="i-3qofckwt5Gon6u56rY4yms">
             koncentrerat sig på att man borde få i gång en stark export,
             på -
           </seg>
-        </u>
-        <u xml:id="i-C5L1wSPVmuLJot5WC1Hszj" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-EQsZvDR1ntSWio7wZ4WZwv" next="i-S6a5c5xsT66g1rBuz4TQtf">
           <seg xml:id="i-4Wt6jNHYSdBJxdWb7AdKSu">
             att man borde få hela vårt näringsliv inriktat härpå, vågar Jag
             säga, att det arbete, som varit under de tidigare åren, och de
             motåtgärder, som då vidtagits, hava förlamat vår kraft i nuvarande
             ögonblick.
           </seg>
-        </u>
-        <u xml:id="i-S6a5c5xsT66g1rBuz4TQtf" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-C5L1wSPVmuLJot5WC1Hszj" next="i-3betmaqaAYcoaZgQ9Dgnz4">
           <seg xml:id="i-Ej5e1Wdsh8bMjpwwKDEMEG">
             Det är detta jag velat framhålla; och då jag också i dag finner,
             att den ärade herr finansministern tar upp dessa småbestämmelser
@@ -889,8 +833,6 @@
             är en lättnad, att kontrollföreskrifterna, som nu äro i hög grad
             byråkratiska och inkrånglade, i någon mån komma att hävas. &gt;
           </seg>
-        </u>
-        <u xml:id="i-3betmaqaAYcoaZgQ9Dgnz4" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-S6a5c5xsT66g1rBuz4TQtf" next="i-Qa2nhm5FZbREkhJ2D1DUtj">
           <seg xml:id="i-3XbdymkgLsF83cMfqM1NCu">
             Men vad jag vill bestämt framhålla, och vad jag bestämt vågar
             påstå, det är, att då vi om några år än en gång skola taga upp
@@ -903,8 +845,6 @@
             flaggar med, icke alls komma att få den betydelse för ett förstärkt
             näringsliv, som mera genomgripande åtgärder kunde åstadkomma.
           </seg>
-        </u>
-        <u xml:id="i-Qa2nhm5FZbREkhJ2D1DUtj" who="i-PoEnkqgRthqgybjNd47ZwU" prev="i-3betmaqaAYcoaZgQ9Dgnz4">
           <seg xml:id="i-9c3x6VWWxoCXw8fke15N2N">
             Att jag så starkt talar om kreditfrågan, sker med en viss rätg.
             Ty för varje år som går, finna vi, hur dyrbart kapitalet blir,
@@ -944,12 +884,10 @@
         <note xml:id="i-SWpJ9pHVsr6RMBzTLnu2nm">
           (Forts.)
         </note>
-        <u xml:id="i-JgfdkXvqeNaaQgAkYBDEc5" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-H4HFHh8TaQKWuS5wpAzDbD" next="i-HenMfZdcTqsBDRcZ5hNrKs">
+        <u xml:id="i-JgfdkXvqeNaaQgAkYBDEc5" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-H4HFHh8TaQKWuS5wpAzDbD">
           <seg xml:id="i-X5rkvp3A6cfyQyUviQxwuf">
             lat i en motion, som jag framlade vid 1914 års förra riksdag.
           </seg>
-        </u>
-        <u xml:id="i-HenMfZdcTqsBDRcZ5hNrKs" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-JgfdkXvqeNaaQgAkYBDEc5" next="i-HfvzsDAeVRcSkbqjVBqjmP">
           <seg xml:id="i-7eq1o9YaVuE3bLBrMSVv45">
             Jag begärde ordet uteslutande därför, herr talman, att jag visserligen
             med samma glädje som herr finansministern har märkt det varma
@@ -962,8 +900,6 @@
             herrar, att de praktiskt taget omöjliggöra reexport av en hel
             del här i landet tillverkade varor.
           </seg>
-        </u>
-        <u xml:id="i-HfvzsDAeVRcSkbqjVBqjmP" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-HenMfZdcTqsBDRcZ5hNrKs" next="i-DFTDA3f3YUxxhK9Gcd3yv">
           <seg xml:id="i-L62FTCZ9W45JpuYNBQuZeb">
             Jag har i min motion framdragit exempel därpå; och jag kan nämna
             ännu ett sådant fall, som visar, hurudana kontrollbestämmelserna
@@ -973,15 +909,11 @@
             se efter, att den består bara av sådana ångpanneplåtar, som äro
             försedda med den föreskrivna stämpeln.
           </seg>
-        </u>
-        <u xml:id="i-DFTDA3f3YUxxhK9Gcd3yv" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-HfvzsDAeVRcSkbqjVBqjmP" next="i-5KjGVv2o3bmPkJuvfzhETW">
           <seg xml:id="i-HBNAFESNPDgGQpUParyNHe">
             et är som regel omöjligt, att krypa in i ångpannan och verkligen
             undersöka att plåtarna äro stämplade och av sådan beskaffenhet,
             att man kan få restitution av tullen vid eventuell export av varan.
           </seg>
-        </u>
-        <u xml:id="i-5KjGVv2o3bmPkJuvfzhETW" who="i-9cYsFuLsrAUioQXvcyUNgJ" prev="i-DFTDA3f3YUxxhK9Gcd3yv">
           <seg xml:id="i-8kBpx24FQZUY8oGHpMXW1J">
             Det är blott detta som jag velat framhålla, nämligen att det
             ävenledes är av yttersta vikt att dessa kontrollbestämmelser bli
@@ -1001,7 +933,7 @@
         <note xml:id="i-Jd13aHM54JxCZT25vt8TcK" type="speaker">
           Herr Bengtsson i Göteborg:
         </note>
-        <u xml:id="i-D1uovhCyhsUQvpiybcf3ta" who="i-3RnD8T9ms8CZMMrYjFAoRU" next="i-6Q1pC7J9C5nvhkQv51zdNz">
+        <u xml:id="i-D1uovhCyhsUQvpiybcf3ta" who="i-3RnD8T9ms8CZMMrYjFAoRU" next="i-FnJUy6dtsbsiivWhZxnDWL">
           <seg xml:id="i-VLFsZT5LqVAXRXbZUtcykG">
             Herr talman! Jag skall endast yttra några få ord i anledning
             av de stränga kontrollbestämmelser, som för närvarande finnas
@@ -1010,8 +942,6 @@
             dessa komma att förorsaka onödiga kostnader. Jag skall anföra
             ett enda exempel bland de många.
           </seg>
-        </u>
-        <u xml:id="i-6Q1pC7J9C5nvhkQv51zdNz" who="i-3RnD8T9ms8CZMMrYjFAoRU" prev="i-D1uovhCyhsUQvpiybcf3ta" next="i-FnJUy6dtsbsiivWhZxnDWL">
           <seg xml:id="i-7JuvK7mjgB8SNLq1vTpf14">
             En köpman i Sundsvall hade importerat juteväv. Juteväven skulle
             användas som emballage vid export av trimassa. Trämassan inlastades
@@ -1023,7 +953,7 @@
         <note xml:id="i-6V2wjRDovm6WpjXpLDJ5Mj" type="date">
           Onsdagen den 3 mars. 11 Nr 30.
         </note>
-        <u xml:id="i-FnJUy6dtsbsiivWhZxnDWL" who="i-3RnD8T9ms8CZMMrYjFAoRU" prev="i-6Q1pC7J9C5nvhkQv51zdNz" next="i-Vof27qVxif2iRE841oxBDR">
+        <u xml:id="i-FnJUy6dtsbsiivWhZxnDWL" who="i-3RnD8T9ms8CZMMrYjFAoRU" prev="i-D1uovhCyhsUQvpiybcf3ta">
           <seg xml:id="i-CvUyVy3vBNnqHsaMQf6ZKA">
             maren i Sundsvall, att man icke kunde skicka partiet från Sundsvall
             Svar å intertill Göteborg med mindre än att postera tullbevakning
@@ -1037,8 +967,6 @@
             fråga om ett litet parti, som skall exporteras, som nu en 1,000
             balar, och restitutionsbeloppet inte kan bli någon hög summa.
           </seg>
-        </u>
-        <u xml:id="i-Vof27qVxif2iRE841oxBDR" who="i-3RnD8T9ms8CZMMrYjFAoRU" prev="i-FnJUy6dtsbsiivWhZxnDWL">
           <seg xml:id="i-W1PeEeFN3igyy9Brrwg45y">
             Det synes mig därför nödvändigt, att man vidtog andra åtgärder
             för kontroll. Jag tror, att det vore synnerligen lämpligt, att
@@ -1127,15 +1055,13 @@
         <note xml:id="i-21woiYcqwKfRhuz74uyZtd" type="speaker">
           Herr Nilsson i Tånga som yttrade:
         </note>
-        <u xml:id="i-Ve78dmQjgfsneZb21LsUQd" who="i-REC84EGSoQoYhpdGE1JHN9" next="i-Y73Axa3UAvrBHrZicPAFuq">
+        <u xml:id="i-Ve78dmQjgfsneZb21LsUQd" who="i-REC84EGSoQoYhpdGE1JHN9" next="i-MLftj1Q4qsyZPaFinKWR4N">
           <seg xml:id="i-Q7CS5MEjUqLAoVkD8nGk5T">
             Herr talman! Det utskottsutlåtande, som nu föreligger till behandling,
             har ju som bekant föranletts av en framställning från justitieombudsmannen
             om åtgärder för åstadkommande av en mera tillförlitlig värdering
             av död mans bo.
           </seg>
-        </u>
-        <u xml:id="i-Y73Axa3UAvrBHrZicPAFuq" who="i-REC84EGSoQoYhpdGE1JHN9" prev="i-Ve78dmQjgfsneZb21LsUQd" next="i-Mj53cjs8GLHw9n3qLbu5u1">
           <seg xml:id="i-EhE2vp4yMSDWbvD59hPiMb">
             Jag skall redan från början erkänna, att jag blev cn smula förvånad,
             då jag läste detta utskottsutlåtande, och icke minst förvånad
@@ -1146,8 +1072,6 @@
             presterat för att förringa betydelsen av en reform på det område
             det här är fråga om.
           </seg>
-        </u>
-        <u xml:id="i-Mj53cjs8GLHw9n3qLbu5u1" who="i-REC84EGSoQoYhpdGE1JHN9" prev="i-Y73Axa3UAvrBHrZicPAFuq" next="i-MYPdLujcvoY8fTsjSoXwJv">
           <seg xml:id="i-T5zvCpjdjKysPKYNqkhQxV">
             Som kammaren finner, går justitieombudsmannens framställning
             ut därpå, att det allmännas intresse med hänsyn till arvskatten
@@ -1161,8 +1085,6 @@
             sig uttryck däri, att man till värderingsmän inkallar sådana personer,
             som man vet stå på arvingarnas sida.
           </seg>
-        </u>
-        <u xml:id="i-MYPdLujcvoY8fTsjSoXwJv" who="i-REC84EGSoQoYhpdGE1JHN9" prev="i-Mj53cjs8GLHw9n3qLbu5u1" next="i-FaS3Kv7aexdgD4wLexAtbV">
           <seg xml:id="i-EwzZE21K3mfkNXFotbpMeN">
             Nu har jag naturligtvis icke härmed velat kasta någon skugga
             på någon eller insinuera, att det bedrives ett systematiskt bedrägeri
@@ -1173,8 +1095,6 @@
             att det är någonting orätt uti att dessa värderingar göras så
             låga som möjligt.
           </seg>
-        </u>
-        <u xml:id="i-FaS3Kv7aexdgD4wLexAtbV" who="i-REC84EGSoQoYhpdGE1JHN9" prev="i-MYPdLujcvoY8fTsjSoXwJv" next="i-MLftj1Q4qsyZPaFinKWR4N">
           <seg xml:id="i-NmcXH1MbgAHFQLhsdXaeYk">
             Nu säger lagutskottet. att de personer, som för närvarande syssla
             med boutredningar och därmed sammanhängande göromål, i allmänhet
@@ -1186,7 +1106,7 @@
         <note xml:id="i-QeUitSsfZkuBZJS9Wzd4iq" type="title">
           Onsdagen den 3 mars. 13
         </note>
-        <u xml:id="i-MLftj1Q4qsyZPaFinKWR4N" who="i-REC84EGSoQoYhpdGE1JHN9" prev="i-FaS3Kv7aexdgD4wLexAtbV" next="i-SEQfdUod8Pa2XBKuSEKvJS">
+        <u xml:id="i-MLftj1Q4qsyZPaFinKWR4N" who="i-REC84EGSoQoYhpdGE1JHN9" prev="i-Ve78dmQjgfsneZb21LsUQd" next="i-VuBvHgJ9LqSugAASLJur8X">
           <seg xml:id="i-Wr8zfPNSoQrieoEMu4kjWR">
             riktigt. I allmänhet är det så, att de som förrätta bouppteckningar
             äro i orten kända personer, pålitliga män, som även sköta andra
@@ -1199,8 +1119,6 @@
             är i alla avseenden rent illusorisk, det måste av helt naturliga
             skäl inskränka sig till att bli en rent formell granskning.
           </seg>
-        </u>
-        <u xml:id="i-SEQfdUod8Pa2XBKuSEKvJS" who="i-REC84EGSoQoYhpdGE1JHN9" prev="i-MLftj1Q4qsyZPaFinKWR4N" next="i-7g7sdeiqpZNLSQsv6WebJV">
           <seg xml:id="i-GsDDELUGfzAQ9T4CFX8ocg">
             Nu invändes av lagutskottet, vilket också har av justitieombudsmannen
             påpekats, att det allmännas intresse är till någon del säkerställt
@@ -1225,8 +1143,6 @@
             bevaka, betvivlar ingen men det är icke hans intresse, det här
             gäller, utan det är statsverkets intresse.
           </seg>
-        </u>
-        <u xml:id="i-7g7sdeiqpZNLSQsv6WebJV" who="i-REC84EGSoQoYhpdGE1JHN9" prev="i-SEQfdUod8Pa2XBKuSEKvJS" next="i-VuBvHgJ9LqSugAASLJur8X">
           <seg xml:id="i-Fk4bx7M116BWPDaSUs6Hpc">
             Nu förhåller det sig icke så, som lagutskottet vill göra gällande,
             att det är endast i fråga om lösegendom i boet man icke har säkerhet
@@ -1262,15 +1178,13 @@
         <note xml:id="i-J4eKXAVa9sG3KqQe3Fz3ik" type="date">
           14 Onsdagen den 3 mars.
         </note>
-        <u xml:id="i-VuBvHgJ9LqSugAASLJur8X" who="i-REC84EGSoQoYhpdGE1JHN9" prev="i-7g7sdeiqpZNLSQsv6WebJV" next="i-KsaTDsrc7PCVnXFUmghEzC">
+        <u xml:id="i-VuBvHgJ9LqSugAASLJur8X" who="i-REC84EGSoQoYhpdGE1JHN9" prev="i-MLftj1Q4qsyZPaFinKWR4N">
           <seg xml:id="i-HQVM1rY87G2D2DNfrYAm8i">
             bouppteckningen upptagas högre än nämnda taxeringsvärde. Men
             antagligt är nog, att bouppteckningsmännen i regeln utan närmare
             undersökning även i dylika fall upptaga värdet till Just föregående
             årets taxeringsvärde.
           </seg>
-        </u>
-        <u xml:id="i-KsaTDsrc7PCVnXFUmghEzC" who="i-REC84EGSoQoYhpdGE1JHN9" prev="i-VuBvHgJ9LqSugAASLJur8X" next="i-Aa8hkTozYHWrPY5eGgrpT4">
           <seg xml:id="i-DT8c2nFNtmAVA3SKB7fA4C">
             Härtill kommer dessutom en annan omständighet: En var vet ju,
             att taxeringsvärdena ofta, ja man skulle kunna säga, i de allra
@@ -1289,8 +1203,6 @@
             taxeringsvärdet, ett allbekant sakär dock, att taxeringarna på
             många håll äro otillbörligt åga.
           </seg>
-        </u>
-        <u xml:id="i-Aa8hkTozYHWrPY5eGgrpT4" who="i-REC84EGSoQoYhpdGE1JHN9" prev="i-KsaTDsrc7PCVnXFUmghEzC" next="i-SNfkZtDg62snbCGrU9Eqqj">
           <seg xml:id="i-7C7xaVfGkJNSL5vjtG5Cd8">
             Jag är, som sagt förvånad över det sätt, varpå lagutskottet behandlat
             denna justitieombudsmannens framställning, att den behandlat den
@@ -1303,8 +1215,6 @@
             i minst sagt lika hög grad som arvingarnas, vid förrättningen
             handla under känsla av ansvar.
           </seg>
-        </u>
-        <u xml:id="i-SNfkZtDg62snbCGrU9Eqqj" who="i-REC84EGSoQoYhpdGE1JHN9" prev="i-Aa8hkTozYHWrPY5eGgrpT4">
           <seg xml:id="i-T7zaFe7AEbhiLC2upHtawU">
             Som saken nu ligger, har jag naturligtvis intet yrkande att göra,
             men jag uttalar den förhoppningen, att den framställning, som
@@ -1318,14 +1228,12 @@
         <note xml:id="i-A2SA4Rrih8NG4GMPLCJTpJ" type="speaker">
           Herr Petersson i Lidingö villastad:
         </note>
-        <u xml:id="i-RY46XsX7LS7awQG9nc9cPU" who="i-Nvqe2jaQsApDXYR71gisyr" next="i-PdFzETX8b2B2E3nL3hHYgP">
+        <u xml:id="i-RY46XsX7LS7awQG9nc9cPU" who="i-Nvqe2jaQsApDXYR71gisyr" next="i-GRRN6v9GKtbxXaRz7UM5FR">
           <seg xml:id="i-EvdRUyRWYPGpnAFP7vMrPE">
             Herr talman, mina herrar! Det är min skyldighet att svara några
             ord på den föregående talarens yttrande, och jag skall göra det
             så kort som det över huvud taget är mig möjligt.
           </seg>
-        </u>
-        <u xml:id="i-PdFzETX8b2B2E3nL3hHYgP" who="i-Nvqe2jaQsApDXYR71gisyr" prev="i-RY46XsX7LS7awQG9nc9cPU" next="i-GRRN6v9GKtbxXaRz7UM5FR">
           <seg xml:id="i-D9TNueJyaJbD2Fs4q1gEpA">
             Vad det här gäller, mina herrar, är väsentligen att upphäva den
             rätt, som gällt sedan gammalt och alltid ansetts som ett privilegium
@@ -1341,7 +1249,7 @@
         <note xml:id="i-CQ3yF6SemzXa7cNihaVK76" type="date">
           Onsdagen den 3 mars. 15
         </note>
-        <u xml:id="i-GRRN6v9GKtbxXaRz7UM5FR" who="i-Nvqe2jaQsApDXYR71gisyr" prev="i-PdFzETX8b2B2E3nL3hHYgP" next="i-LP21vSpukbhFzZ2TpRqhb8">
+        <u xml:id="i-GRRN6v9GKtbxXaRz7UM5FR" who="i-Nvqe2jaQsApDXYR71gisyr" prev="i-RY46XsX7LS7awQG9nc9cPU">
           <seg xml:id="i-7drXdwZXnae1i1jiLpEoS4">
             Vi ha inom utskottet övervägt, huruvida tillräckliga skäl föreligga
             för att göra ändring härutinnan, och vi ha kommit till det resultat,
@@ -1358,8 +1266,6 @@
             särskilt då inventarier, vilka ju på landet understundom kunna
             vara av betydenhet.
           </seg>
-        </u>
-        <u xml:id="i-LP21vSpukbhFzZ2TpRqhb8" who="i-Nvqe2jaQsApDXYR71gisyr" prev="i-GRRN6v9GKtbxXaRz7UM5FR" next="i-6S4Tv48vUcPhHCJcvrRubx">
           <seg xml:id="i-Po1tCFKfwsYXArfrBQ1mS4">
             Utskottet har då ifråga om denna egendom sagt, att utskottet
             visserligen är medvetet om att sådan egendom ibland värderas jämförelsevis
@@ -1378,8 +1284,6 @@
             icke heller detta anser jag vara något gällande bevis för att
             värdena oskäligt nedpressats.
           </seg>
-        </u>
-        <u xml:id="i-6S4Tv48vUcPhHCJcvrRubx" who="i-Nvqe2jaQsApDXYR71gisyr" prev="i-LP21vSpukbhFzZ2TpRqhb8" next="i-Ut1msUi29gXLZqHNtwoTSi">
           <seg xml:id="i-Svb79ZHK4moVwp7QRAzrtY">
             Man har såsom ett exempel anfört, att förbättring av en fastighet
             bör beaktas vid värderingen, d. v. s. sådan förbättring som inträtt
@@ -1389,8 +1293,6 @@
             höja egendomens taxeringsvärde även under den löpande femårsperiod,
             för vilken taxeringen annars gäller.
           </seg>
-        </u>
-        <u xml:id="i-Ut1msUi29gXLZqHNtwoTSi" who="i-Nvqe2jaQsApDXYR71gisyr" prev="i-6S4Tv48vUcPhHCJcvrRubx">
           <seg xml:id="i-QMbLixtE7faRGwnMx4hXYN">
             Jag tror, att utskottet i sitt avstyrkande utlåtande träffat
             det rätta, och ett vittnesbörd härom torde även ligga däri, att
@@ -1447,7 +1349,7 @@
         <note xml:id="i-91sBwft9BUSryms1GuyenP" type="speaker">
           Herr Söderberg i Hobborn:
         </note>
-        <u xml:id="i-X4Ua8X9YfjBEZYbv2YmN4S" who="i-dppNpPyX1pBND8b8JcCpo" next="i-NcmpYbzt3ZTLfHh32K4ULp">
+        <u xml:id="i-X4Ua8X9YfjBEZYbv2YmN4S" who="i-dppNpPyX1pBND8b8JcCpo" next="i-WLmDBBPwk3jTFcQN2NQZ1w">
           <seg xml:id="i-WgipjgeoymX4JMAfQKEFZD">
             Ja, herr talman! jag tror verkligen att vi få betrakta detta
             justitieombudsmannens försök att tränga in på detta område såsom
@@ -1460,8 +1362,6 @@
             hyser med avseende på statens rätt att få ut sin andel, ärc i
             stort sett obefogade.
           </seg>
-        </u>
-        <u xml:id="i-NcmpYbzt3ZTLfHh32K4ULp" who="i-dppNpPyX1pBND8b8JcCpo" prev="i-X4Ua8X9YfjBEZYbv2YmN4S" next="i-5bqZfefo5x9mkmLBGAGXTg">
           <seg xml:id="i-6AYu7VJLdHBb7KwHiEoTT1">
             Såsom herr Petersson i Lidingö villastad nyss har anfört, är
             det ju så, att ett bo oftast består av flere stärbhusdelägare,
@@ -1472,8 +1372,6 @@
             emellan, huru de äro misstänksamma och frukta, att den ene gynnas
             framför den andre.
           </seg>
-        </u>
-        <u xml:id="i-5bqZfefo5x9mkmLBGAGXTg" who="i-dppNpPyX1pBND8b8JcCpo" prev="i-NcmpYbzt3ZTLfHh32K4ULp" next="i-WSCWbH5d1hBRZJ1SX4ZoGB">
           <seg xml:id="i-BLYzmpFZiY2CkpWBKE9Koe">
             Vidare har ju också här blivit påpekat, huru vi så sent som förra
             året lagstiftat i denna sak och bestämt grunderna för värdering
@@ -1484,8 +1382,6 @@
             varit så nogräknade, att de specificerat till och med en massa
             söndrigt porslin, träskedar och husgeråd av mycket ringa värde.
           </seg>
-        </u>
-        <u xml:id="i-WSCWbH5d1hBRZJ1SX4ZoGB" who="i-dppNpPyX1pBND8b8JcCpo" prev="i-5bqZfefo5x9mkmLBGAGXTg" next="i-WLmDBBPwk3jTFcQN2NQZ1w">
           <seg xml:id="i-BXNsiaEgVbMDAEG4xAgieN">
             Jag tror, att när man kommit så långt att för fastigheterna taxeringsvärdet
             skall under alla omständigheter läggas till grund och för obligationer
@@ -1501,7 +1397,7 @@
         <note xml:id="i-BM8XY6Xw86rpJbiUxxLnGu" type="date">
           Onsdagen den 3 mars. 17
         </note>
-        <u xml:id="i-WLmDBBPwk3jTFcQN2NQZ1w" who="i-dppNpPyX1pBND8b8JcCpo" prev="i-WSCWbH5d1hBRZJ1SX4ZoGB" next="i-P317XiSaBJM4fsWrwttiKd">
+        <u xml:id="i-WLmDBBPwk3jTFcQN2NQZ1w" who="i-dppNpPyX1pBND8b8JcCpo" prev="i-X4Ua8X9YfjBEZYbv2YmN4S">
           <seg xml:id="i-FUqnEctnY6jumFy34MnAgo">
             och tillgodose dessa bättre statens intressen än de bouppteckningsmän
             som kallas av stärbhusdelägarna? Den erfarenhet jag vunnit har
@@ -1509,8 +1405,6 @@
             en vaktmästare för att företaga en bouppteckning i en familj,
             en uppteckning, som sedan lägges till grund för instrumentet.
           </seg>
-        </u>
-        <u xml:id="i-P317XiSaBJM4fsWrwttiKd" who="i-dppNpPyX1pBND8b8JcCpo" prev="i-WLmDBBPwk3jTFcQN2NQZ1w" next="i-P5t1aSCpZgiBcrdPESu6z5">
           <seg xml:id="i-VmUZtabZm2CwNdtndnK32f">
             Jag kan för min del icke finna, att det egentligen föreligger
             några skäl, som tala för en ändring i dessa förhållanden, utan
@@ -1524,8 +1418,6 @@
             tillämpas, då delägarna kalla dem de hysa förtroende för och med
             dem överenskomma om en skälig ersättning.
           </seg>
-        </u>
-        <u xml:id="i-P5t1aSCpZgiBcrdPESu6z5" who="i-dppNpPyX1pBND8b8JcCpo" prev="i-P317XiSaBJM4fsWrwttiKd">
           <seg xml:id="i-VYnDwSUFzgmf2he3ogEV53">
             Det är, herr talman, på dessa grunder jag ansett, att utskottet
             haft alla skäl att avstyrka denna framställning.
@@ -1558,23 +1450,19 @@
         <note xml:id="i-iLzi5p6ne7pzFnAQ2vrLA" type="speaker">
           Herr Persson i Norrköping, som yttrade:
         </note>
-        <u xml:id="i-AKgUkHzY4HnrDq9r1UQ9ZU" who="i-6FbvPMYrB8iFKaTH49pTDw" next="i-8qArJtn8UpRsUgFA7oTK2z">
+        <u xml:id="i-AKgUkHzY4HnrDq9r1UQ9ZU" who="i-6FbvPMYrB8iFKaTH49pTDw" next="i-RzMUvzHjtpLakkUySxF76">
           <seg xml:id="i-A26bkPzamRW2Ckrg1fUskx">
             Herr talman, mina herrar! Jag och herr Svensson i Eskilstuna
             ha beträffande statens affärsdrivande verk väckt en motion, vari
             vi på vissa grunder föreslagit, att anslagen skulle ökas med i
             runt tal 4,345,000 kronor.
           </seg>
-        </u>
-        <u xml:id="i-8qArJtn8UpRsUgFA7oTK2z" who="i-6FbvPMYrB8iFKaTH49pTDw" prev="i-AKgUkHzY4HnrDq9r1UQ9ZU" next="i-J2zzdetiHQJ8CQU3xzA1Ee">
           <seg xml:id="i-Vr4fyRoYJHsc1FhNGnnrwz">
             Vi ha vid denna motions framställande stött oss på en av riksdagen
             förut intagen principiell ståndvunkt beträffande de offentliga
             arbetenas bedrivande med hänsyn till rådande konjunkturer på den
             privata arbetsmarknaden.
           </seg>
-        </u>
-        <u xml:id="i-J2zzdetiHQJ8CQU3xzA1Ee" who="i-6FbvPMYrB8iFKaTH49pTDw" prev="i-8qArJtn8UpRsUgFA7oTK2z" next="i-RzMUvzHjtpLakkUySxF76">
           <seg xml:id="i-HSHem29KgxCfJSiDPzQJe6">
             Riksdagens beslöt nämligen 1912 att i en skrivelse till Kungl.
             Maj:t göra framställning om att de allmänna arbetena måtte i görligaste
@@ -1606,15 +1494,13 @@
         <note xml:id="i-VmVVQb6uP1AYig92SCcXXj">
           rader för postverket. (Forts.)
         </note>
-        <u xml:id="i-RzMUvzHjtpLakkUySxF76" who="i-6FbvPMYrB8iFKaTH49pTDw" prev="i-J2zzdetiHQJ8CQU3xzA1Ee" next="i-QN64LJHpis8rFpWAbuXUb5">
+        <u xml:id="i-RzMUvzHjtpLakkUySxF76" who="i-6FbvPMYrB8iFKaTH49pTDw" prev="i-AKgUkHzY4HnrDq9r1UQ9ZU" next="i-8pBwywk4owoWa3nnhg3LyY">
           <seg xml:id="i-7nc3eWBfuBc7JgiaGHyXW4">
             uppstode till följd av dåliga konjunkturer eller genom att den
             privata företagsamheten låge nere. Riksdagen påpekade i samma
             skrivelse, på vilka områden det fanns möjlighet att igångsätta
             arbeten under nedgångskonjunktur.
           </seg>
-        </u>
-        <u xml:id="i-QN64LJHpis8rFpWAbuXUb5" who="i-6FbvPMYrB8iFKaTH49pTDw" prev="i-RzMUvzHjtpLakkUySxF76" next="i-A8m6Drkf4aMgqzC1uKhY67">
           <seg xml:id="i-26dse942BQBrtPqZCrPQHX">
             Nu befinna vi oss faktiskt i en nedgångskonjunktur med avseende
             på arbetstillfällena. Ty det är ju ett känt och erkänt faktum,
@@ -1638,8 +1524,6 @@
             begäran, att de av Kungl. Maj:t äskade anslagen måtte ökas med
             något över 4,000,000 kronor.
           </seg>
-        </u>
-        <u xml:id="i-A8m6Drkf4aMgqzC1uKhY67" who="i-6FbvPMYrB8iFKaTH49pTDw" prev="i-QN64LJHpis8rFpWAbuXUb5" next="i-PpQJLQYex6BAfWqDyMUaWb">
           <seg xml:id="i-Evvma1QhiQ6mxcdZTHrvP">
             Nu har ju statsutskottet behandlat denna framställning välvilligt
             i ordalagen, men vad förslagen angår, har utskottet stannat vid
@@ -1659,8 +1543,6 @@
             att, därest det statsfinansiella läget skulle något ljusna dessa
             framställningar kunde bifallas.
           </seg>
-        </u>
-        <u xml:id="i-PpQJLQYex6BAfWqDyMUaWb" who="i-6FbvPMYrB8iFKaTH49pTDw" prev="i-A8m6Drkf4aMgqzC1uKhY67" next="i-U1NoaZ3aiazFjVnRMK9hRz">
           <seg xml:id="i-E6dkVurkrRuqA4M2N7KpuG">
             Jag skulle naturligtvis varit väsentligt mera tillfredsställd,
             om statsutskottet yrkat bifall till samtliga våra framställningar,
@@ -1668,8 +1550,6 @@
             skaror av arbetslösa arbetare, vilka så väl behövt beredas sysselsättning
             och arbetsförtjänst i stället för att erhålla arbetslöshetsunderstöd.
           </seg>
-        </u>
-        <u xml:id="i-U1NoaZ3aiazFjVnRMK9hRz" who="i-6FbvPMYrB8iFKaTH49pTDw" prev="i-PpQJLQYex6BAfWqDyMUaWb" next="i-8pBwywk4owoWa3nnhg3LyY">
           <seg xml:id="i-C5kXqzhgMKPydybrqZGdFf">
             Jag har emellertid, herr talman, icke något yrkande att göra
             ty jag anser det lönlöst. Jag har dock icke velat låta detta statsutskottets
@@ -1680,20 +1560,16 @@
         <note xml:id="i-Uy91uFHCwhH3hn5Legcaao" type="date">
           Onsdagen den 3 mars. 19 Nr 380.
         </note>
-        <u xml:id="i-8pBwywk4owoWa3nnhg3LyY" who="i-6FbvPMYrB8iFKaTH49pTDw" prev="i-U1NoaZ3aiazFjVnRMK9hRz" next="i-Tp9yjv3XAEpGKrjXY8Laqe">
+        <u xml:id="i-8pBwywk4owoWa3nnhg3LyY" who="i-6FbvPMYrB8iFKaTH49pTDw" prev="i-RzMUvzHjtpLakkUySxF76">
           <seg xml:id="i-AM42WsbqWT8Jjdn4Tws1ES">
             att det är nödvändigt i fortsättningen, att man så långt görligt
             är, 4”9- nybygg-
           </seg>
-        </u>
-        <u xml:id="i-Tp9yjv3XAEpGKrjXY8Laqe" who="i-6FbvPMYrB8iFKaTH49pTDw" prev="i-8pBwywk4owoWa3nnhg3LyY" next="i-5uaoqMVpyqfLqWS5bTpXMB">
           <seg xml:id="i-FXZrW5G4jy7ZFTuRjxYjje">
             söker från statsmakternas sida beakta just de synpunkter, som
             fram- Sesiaäa ställdes av riksdagen i dess skrivelse år 1912 angående
             de allmänna (Forts.)
           </seg>
-        </u>
-        <u xml:id="i-5uaoqMVpyqfLqWS5bTpXMB" who="i-6FbvPMYrB8iFKaTH49pTDw" prev="i-Tp9yjv3XAEpGKrjXY8Laqe">
           <seg xml:id="i-CTvfFYTrJ3FMc7ajzQk15m">
             arbetenas ordnande med hänsyn till konjunkturerna på arbetsmark-
           </seg>
@@ -1723,12 +1599,10 @@
         <note xml:id="i-s3dE45p5UcwLMnHsMRbcG" type="speaker">
           . . . Volgsjön. Herr Olofsson i Digernäs:
         </note>
-        <u xml:id="i-U7ZD58rRavzC1Tf2RbyU9a" who="unknown" next="i-PHiASCwbUuTVonMrHUVfCB">
+        <u xml:id="i-U7ZD58rRavzC1Tf2RbyU9a" who="unknown" next="i-7ThY3ARivtHMsz7Y5MArQd">
           <seg xml:id="i-Ng7WhCysZC6Ea5sKfm4Abq">
             Herr talman, mina herrar!
           </seg>
-        </u>
-        <u xml:id="i-PHiASCwbUuTVonMrHUVfCB" who="unknown" prev="i-U7ZD58rRavzC1Tf2RbyU9a" next="i-YXVySZ4mkpZDtFpGrsHsKP">
           <seg xml:id="i-M4ApcGf1xopbaywKNnP6TY">
             Jag vill på förhand meddela, att jag icke kommer att göra något
             yrkande i denna punkt och icke heller i den följande, men då den
@@ -1736,8 +1610,6 @@
             följande punkten, nämligen om järnvägen Sveg—Brunflo, hoppas jag
             att få yttra mig i sammanhang om båda dessa punkter.
           </seg>
-        </u>
-        <u xml:id="i-YXVySZ4mkpZDtFpGrsHsKP" who="unknown" prev="i-PHiASCwbUuTVonMrHUVfCB" next="i-7ThY3ARivtHMsz7Y5MArQd">
           <seg xml:id="i-7U4N8i6bVsQHVDjrVUc1Cz">
             Jag kan icke riktigt förstå, varför man skall forcera byggandet
             av Volgsjöbanan och däremot hålla tillbaka Sveg—Brunflo-banan.
@@ -1780,7 +1652,7 @@
         <note xml:id="i-JQZ5fDSqzZaGTAQ9Njirkr">
           stånd banan Sveg—Brunflo.
         </note>
-        <u xml:id="i-7ThY3ARivtHMsz7Y5MArQd" who="unknown" prev="i-YXVySZ4mkpZDtFpGrsHsKP" next="i-Pik4vjC7hEYmHaq1JEKbDm">
+        <u xml:id="i-7ThY3ARivtHMsz7Y5MArQd" who="unknown" prev="i-U7ZD58rRavzC1Tf2RbyU9a">
           <seg xml:id="i-7pD8YaatfEkQvKjqysY27T">
             Nu säger järnvägsstyrelsen, att det icke är så brådskande med
             banan till Brunflo, emedan man har Storsjötrafiken. Ja. det är
@@ -1790,8 +1662,6 @@
             Det är den delen av Inlandsbanan jag tycker, att man icke borde
             fördröja, utan söka påskynda så mycket som möjligt.
           </seg>
-        </u>
-        <u xml:id="i-Pik4vjC7hEYmHaq1JEKbDm" who="unknown" prev="i-7ThY3ARivtHMsz7Y5MArQd">
           <seg xml:id="i-14qrAv5Ja74aJGWtS3FD13">
             Jag har, som sagt, intet yrkande, men det skulle intressera mig
             att höra, vad herr civilministern själv menar med denna åtgärd.
@@ -1804,7 +1674,7 @@
         <note xml:id="i-9KCeN55qMACaPwj3ydLzPv" type="speaker">
           Chefen för civildepartementet herr statsrådet von Sydow:
         </note>
-        <u xml:id="i-N5vikhZrmujg3kWXxWV1fe" who="i-KgcqhjAQ4C31XVhk57y6bF" next="i-AUd49rd2he6NnYXckQtnxS">
+        <u xml:id="i-N5vikhZrmujg3kWXxWV1fe" who="i-KgcqhjAQ4C31XVhk57y6bF" next="i-WcbQB7f66i1Qp8hvroCBw">
           <seg xml:id="i-7g5VtNbLenRw7gSG6z1yGk">
             Herr talman, mina herrar! Vad den siste ärade talaren närmast
             berörde, var det i denna punkt eventuellt ifrågasatta lånet från
@@ -1821,8 +1691,6 @@
             av järnvägsstyrelsen ifrågasatta utvägen att låna 500,000 kronor
             av anslaget till Sveg—Brunflobanan.
           </seg>
-        </u>
-        <u xml:id="i-AUd49rd2he6NnYXckQtnxS" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-N5vikhZrmujg3kWXxWV1fe" next="i-BJh6HUiJo2wnWeyC1uDi57">
           <seg xml:id="i-FXUt9JneKVHVT5yvf8Gkv9">
             Den ärade talaren önskade vidare få en auktoritativ tolkning
             av ordet »torde» i nästa punkt. Jag vill då säga, att detta är
@@ -1831,8 +1699,6 @@
             denna forms användande vill gardera sig mot alldeles oförutsedda
             möjligheter.
           </seg>
-        </u>
-        <u xml:id="i-BJh6HUiJo2wnWeyC1uDi57" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-AUd49rd2he6NnYXckQtnxS" next="i-WcbQB7f66i1Qp8hvroCBw">
           <seg xml:id="i-A4ECMn7LxDgo9xAuTpvSQf">
             Jag vill sålunda som min mening uttala att de bästa förhopp-
           </seg>
@@ -1841,13 +1707,11 @@
         <note xml:id="i-QnGTyvP96QbAVReEUKyfqp" type="date">
           Onsdagen den 3 mars. 21 Nr 30.
         </note>
-        <u xml:id="i-WcbQB7f66i1Qp8hvroCBw" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-BJh6HUiJo2wnWeyC1uDi57" next="i-Ji6PQ5By7GF4CZjuqtJu51">
+        <u xml:id="i-WcbQB7f66i1Qp8hvroCBw" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-N5vikhZrmujg3kWXxWV1fe">
           <seg xml:id="i-3E6yEfUieytLybJL5veKBG">
             ningar förefinnas att även statsbanan Sveg—Brunflo skall kunna
             , Ang. stats-
           </seg>
-        </u>
-        <u xml:id="i-Ji6PQ5By7GF4CZjuqtJu51" who="i-KgcqhjAQ4C31XVhk57y6bF" prev="i-WcbQB7f66i1Qp8hvroCBw">
           <seg xml:id="i-RcRiVuq8tnTNhgx2JnC3f6">
             fullbordas och bli i sin helhet färdig år 1919. Vleikdkere. Folgsjönr.
             Vidare yttrades ej. Utskottets hemställan bifölls. -
@@ -1964,13 +1828,11 @@
         <note xml:id="i-4x4wkVKbpyNBa6JpAkZTGu" type="speaker">
           Herr Nilsson i Linnås:
         </note>
-        <u xml:id="i-3GJVEoA3u26iRbnsBqadwB" who="i-XLVGDGtQ7NCyXWncMFEL2t" next="i-DeiiazC8J6CDygwkCyKf3D">
+        <u xml:id="i-3GJVEoA3u26iRbnsBqadwB" who="i-XLVGDGtQ7NCyXWncMFEL2t" next="i-2t9i8XhgoAQhdR1cYhHbGv">
           <seg xml:id="i-AphFyvf87BiiANM4i39B8F">
             Herr talman! Jag har intet annat yrkande än om bifall till utskottets
             förslag.
           </seg>
-        </u>
-        <u xml:id="i-DeiiazC8J6CDygwkCyKf3D" who="i-XLVGDGtQ7NCyXWncMFEL2t" prev="i-3GJVEoA3u26iRbnsBqadwB" next="i-Azg3BSbMMu88GkxcYXFuxW">
           <seg xml:id="i-LvWaMrCgzmyquwAwzED4or">
             I utskottets motivering står emellertid på sidan 4, första stycket,
             talat om en torvströfabrik, som staten måst övertaga. Åsyftade
@@ -1979,16 +1841,12 @@
             Å det till detta företags understödjande utlämnade lån å 60,000
             kronor återstår oguldet ett belopp av omkring 45,000 kronor.»
           </seg>
-        </u>
-        <u xml:id="i-Azg3BSbMMu88GkxcYXFuxW" who="i-XLVGDGtQ7NCyXWncMFEL2t" prev="i-DeiiazC8J6CDygwkCyKf3D" next="i-26gHf1acnfUFkmcK4VNxBp">
           <seg xml:id="i-HfG5E2Dva4ZsrGn454SLA">
             Den här omnämnda torvströfabriken är belägen ungefär 3 km. från
             den plats där jag bor, och därför äger jag ganska god kännedom
             om förhållandet. Jag har därför ansett mig böra göra en erinran
             i denna sak.
           </seg>
-        </u>
-        <u xml:id="i-26gHf1acnfUFkmcK4VNxBp" who="i-XLVGDGtQ7NCyXWncMFEL2t" prev="i-Azg3BSbMMu88GkxcYXFuxW" next="i-V3jwqVC9VaFCAnu1NuE9Zf">
           <seg xml:id="i-S8JmBhcjEHekhsvo4GMD8K">
             Fabriken övertogs av statskontoret för ungefär 4 år sedan på
             exekutiv auktion, och sedan den tiden har fabriken legat helt
@@ -1997,14 +1855,10 @@
             att driften skulle återupptagas i en nära framtid eller att man
             gått i författning om fabri-
           </seg>
-        </u>
-        <u xml:id="i-V3jwqVC9VaFCAnu1NuE9Zf" who="i-XLVGDGtQ7NCyXWncMFEL2t" prev="i-26gHf1acnfUFkmcK4VNxBp" next="i-C7xpkxyuuEhvmCU4RNnBqr">
           <seg xml:id="i-BusySvq1iuz3y2vDCSqCMq">
             "kens försäljning. Den är belägen vid västra centralbanan 62
             km. från
           </seg>
-        </u>
-        <u xml:id="i-C7xpkxyuuEhvmCU4RNnBqr" who="i-XLVGDGtQ7NCyXWncMFEL2t" prev="i-V3jwqVC9VaFCAnu1NuE9Zf" next="i-T8r5tCzCweEdKBURsY9m5b">
           <seg xml:id="i-5zs4jrBqcj4Xhczr7VCsAX">
             Halmstad och har således lätta exportmöjligheter till Halland,
             Skåne och eventuellt även till Danmark. Till fabriken hör, utom
@@ -2013,8 +1867,6 @@
             Den har ett djup på sina ställen av 10—15 meter med delvis torvströ
             och delvis bränntorv och med bästa avloppsmöjligheter.
           </seg>
-        </u>
-        <u xml:id="i-T8r5tCzCweEdKBURsY9m5b" who="i-XLVGDGtQ7NCyXWncMFEL2t" prev="i-C7xpkxyuuEhvmCU4RNnBqr" next="i-2t9i8XhgoAQhdR1cYhHbGv">
           <seg xml:id="i-FwKS7cGAxeCmhnjyXZnpgP">
             När nu fabriken och mossen icke utnyttjas, så förfalla emellertid
             dikena år för år, spårvägsnätet ut till mossen förstöres, maskiner
@@ -2026,45 +1878,33 @@
         <note xml:id="i-Wjig2dRWTpc1NzbJN5Qz6U" type="date">
           Onsdagen den 3 mars. 23 — Nr 30.
         </note>
-        <u xml:id="i-2t9i8XhgoAQhdR1cYhHbGv" who="i-XLVGDGtQ7NCyXWncMFEL2t" prev="i-T8r5tCzCweEdKBURsY9m5b" next="i-94RCWQr2pgXuDqoMMLyhtR">
+        <u xml:id="i-2t9i8XhgoAQhdR1cYhHbGv" who="i-XLVGDGtQ7NCyXWncMFEL2t" prev="i-3GJVEoA3u26iRbnsBqadwB">
           <seg xml:id="i-QihGDoLhAyDKKHmBosM53e">
             att betrakta såsom något märkvärdigt, att icke staten gör det
             minsta Om ändring i för att antingen försälja eller utarrendera
             torvströfabriken, så att [estämmels är - ks &gt; 0 oo serna för
             lån
           </seg>
-        </u>
-        <u xml:id="i-94RCWQr2pgXuDqoMMLyhtR" who="i-XLVGDGtQ7NCyXWncMFEL2t" prev="i-2t9i8XhgoAQhdR1cYhHbGv" next="i-Hixpz4KkC4F3GD3dC8dkt5">
           <seg xml:id="i-2Pmg8ssnqSD1Ud6CAx1sBp">
             den kommer till nytta och användning. För varje år som nu går
             ur torvlåne-
           </seg>
-        </u>
-        <u xml:id="i-Hixpz4KkC4F3GD3dC8dkt5" who="i-XLVGDGtQ7NCyXWncMFEL2t" prev="i-94RCWQr2pgXuDqoMMLyhtR" next="i-CCyhdB5hpk8zSzUyE4Zpgm">
           <seg xml:id="i-6g7pRir6uUzbrPoRpMuMSa">
             förfares egendomen mer och mer. fonden. Jag har för min del ansett
             mig böra vid detta tillfälle göra en = (Forts)
           </seg>
-        </u>
-        <u xml:id="i-CCyhdB5hpk8zSzUyE4Zpgm" who="i-XLVGDGtQ7NCyXWncMFEL2t" prev="i-Hixpz4KkC4F3GD3dC8dkt5" next="i-3mUwTLoT7uHxSGFW8p5PiD">
           <seg xml:id="i-8pprTFY4Dtd9iKZfaSEEpF">
             erinran, på det att regeringen eller eventuellt statsrevisorerna
             på nå-
           </seg>
-        </u>
-        <u xml:id="i-3mUwTLoT7uHxSGFW8p5PiD" who="i-XLVGDGtQ7NCyXWncMFEL2t" prev="i-CCyhdB5hpk8zSzUyE4Zpgm" next="i-9wKTjKc7CshKv8XkTe65HM">
           <seg xml:id="i-Bmf92fEPDwTCCAyhUctzMc">
             got sätt måtte gå i författning om att statskontoret vidtager
             åtgär-
           </seg>
-        </u>
-        <u xml:id="i-9wKTjKc7CshKv8XkTe65HM" who="i-XLVGDGtQ7NCyXWncMFEL2t" prev="i-3mUwTLoT7uHxSGFW8p5PiD" next="i-71fmG8vqNZRP2k3PcWRBvp">
           <seg xml:id="i-SVoX6Qjs5UajZ1TSZBBqYo">
             der till mossens utnyttjande. Det är som sagt endast detta jag
             velat
           </seg>
-        </u>
-        <u xml:id="i-71fmG8vqNZRP2k3PcWRBvp" who="i-XLVGDGtQ7NCyXWncMFEL2t" prev="i-9wKTjKc7CshKv8XkTe65HM">
           <seg xml:id="i-TKXdJLyQ6V2wJo5CjpVTUB">
             påpeka, och jag har för övrigt endast att yrka bifall till utskottets
           </seg>
@@ -2075,7 +1915,7 @@
         <note xml:id="i-ohbuQ7ZZgfkmWu6XoWdmB" type="speaker">
           Herr Jönsson i Slätåker:
         </note>
-        <u xml:id="i-PF4a1Fdmno4QiXx4eN1fSy" who="i-4zTtnRJ4FLHAEThRLUNnLp" next="i-5yc77WeDxuMCy6pLaaUGq5">
+        <u xml:id="i-PF4a1Fdmno4QiXx4eN1fSy" who="i-4zTtnRJ4FLHAEThRLUNnLp">
           <seg xml:id="i-4VmzAi43d51BDD3dXaRHnM">
             Herr talman! J ag kommer icke att framställa något yrkande gent
             emot ett enhälligt utskott. Men med den kännedom jag har särskilt
@@ -2097,8 +1937,6 @@
             J ag tror dock icke, att det skall vara omöjligt att överenskomma
             även om denna sak.
           </seg>
-        </u>
-        <u xml:id="i-5yc77WeDxuMCy6pLaaUGq5" who="i-4zTtnRJ4FLHAEThRLUNnLp" prev="i-PF4a1Fdmno4QiXx4eN1fSy">
           <seg xml:id="i-NZhRM3JNf7kqJ4HSPqMuRn">
             Jag har som sagt icke något yrkande, utan vill endast uttala
             den förhoppningen, att då motionen kommer fram en annan gång,

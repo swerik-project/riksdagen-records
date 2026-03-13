@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-XtZaQfVUDH3ugT6jhotTep" type="speech">
             <linkGrp type="u">
               <ptr target="#i-MKnNGRmTQF2MFxnrpzZaiF"/>
@@ -77,7 +77,13 @@
               <ptr target="#i-9JKjvgba9h8kEAbjQjPCW2"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -900,14 +906,12 @@
         <note xml:id="i-SLS7abRNRDZstHfwQMtTEp" type="speaker">
           Anf. I TALMANNEN:
         </note>
-        <u xml:id="i-MKnNGRmTQF2MFxnrpzZaiF" who="i-PiA69Zron44x5fF1pHdUBo" next="i-eede325fd12a048a-1">
+        <u xml:id="i-MKnNGRmTQF2MFxnrpzZaiF" who="i-PiA69Zron44x5fF1pHdUBo" next="i-eede325fd12a048a-4">
           <seg xml:id="i-7cGFpDSHo7BrQuQxbPsMYf">
             Eders Majestäter, Eders Kungliga Högheter, ärade kammarledamöter,
             ärade gäster! Jag hälsar er alla hjärtligt välkomna till invigningen
             av riksdagens nya hem och till öppnandet av riksmötet 1983/84.
           </seg>
-        </u>
-        <u xml:id="i-eede325fd12a048a-1" who="i-PiA69Zron44x5fF1pHdUBo" prev="i-MKnNGRmTQF2MFxnrpzZaiF" next="i-eede325fd12a048a-4">
           <seg xml:id="i-VAAugErLWP1yJ8zuCMyN63">
             Låt mig redan nu uttrycka kammarens tacksamhet över att Ers Majestät
             har lovat att inviga folkrepresentationens nya lokaler i samband
@@ -961,7 +965,7 @@
         <note xml:id="i-9vNiJgrs6U78aPShKWwsto">
           38
         </note>
-        <u xml:id="i-eede325fd12a048a-4" who="i-PiA69Zron44x5fF1pHdUBo" prev="i-eede325fd12a048a-1" next="i-eede325fd12a048a-5">
+        <u xml:id="i-eede325fd12a048a-4" who="i-PiA69Zron44x5fF1pHdUBo" prev="i-MKnNGRmTQF2MFxnrpzZaiF" next="i-eede325fd12a048a-5">
           <seg xml:id="i-XgMY4KiGnpr2VBL8rHNXax">
             Vid tre tillfällen försökte riksdagsmän motionsvägen riva upp
             beslutet. Tre statsministrar, hela den yngre skolan av arkitekter
@@ -1087,13 +1091,11 @@
         <note xml:id="i-HPsAs5zfEKttc6G8tvjaL8" type="speaker">
           Anf. 2 Professor ALF ÅBERG:
         </note>
-        <u xml:id="i-4SdgzgrMrUTUowNKRE8K1U" who="unknown" next="i-Xn3VQeMRsg5Ei8fc1LbEBm">
+        <u xml:id="i-4SdgzgrMrUTUowNKRE8K1U" who="unknown" next="i-eede325fd12a048a-8">
           <seg xml:id="i-MgVur8KGhPPeTfss5LH61t">
             Eders Majestäter, Eders Kungliga Högheter, herr talman, mina
             damer och herrar!
           </seg>
-        </u>
-        <u xml:id="i-Xn3VQeMRsg5Ei8fc1LbEBm" who="unknown" prev="i-4SdgzgrMrUTUowNKRE8K1U" next="i-eede325fd12a048a-8">
           <seg xml:id="i-JpHJPtt5mngxiGHrCjh4xE">
             Sveriges riksdag — den gamla ståndsriksdagen — föddes någon gång
             under Engelbrekts frihetskamp för nu 550 år sedan. Ända sedan
@@ -1125,7 +1127,7 @@
         <note xml:id="i-7d1MSL2a9SkdxmJ2CfwY84">
           Historik över Helgeandsholmen
         </note>
-        <u xml:id="i-eede325fd12a048a-8" who="unknown" prev="i-Xn3VQeMRsg5Ei8fc1LbEBm" next="i-AG8aHKGWZWUsNbJyCF9qz4">
+        <u xml:id="i-eede325fd12a048a-8" who="unknown" prev="i-4SdgzgrMrUTUowNKRE8K1U" next="i-eede325fd12a048a-10">
           <seg xml:id="i-Ej3RLqBMxQdy7ftxKYK8Fi">
             fyra stånden behövde var sitt hus att överlägga i.
           </seg>
@@ -1149,8 +1151,6 @@
             var slut, måste de leva på svältkost eller resa hem. Långa riksdagar
             var därför ett elände.
           </seg>
-        </u>
-        <u xml:id="i-AG8aHKGWZWUsNbJyCF9qz4" who="unknown" prev="i-eede325fd12a048a-8" next="i-eede325fd12a048a-9">
           <seg xml:id="i-7VZX2ssML7yudessXYewVG">
             De ofrälse stånden tyckte i längden att det var ovärdigt folkets
             representanter att före varje riksdag förhandla om lokaler. ”Vi
@@ -1160,8 +1160,6 @@
             stånden riksgäldskontorets hus vid Birger Jarls torg på Riddarholmen.
             Här sammanträdde de i fortsättningen.
           </seg>
-        </u>
-        <u xml:id="i-eede325fd12a048a-9" who="unknown" prev="i-AG8aHKGWZWUsNbJyCF9qz4" next="i-eede325fd12a048a-10">
           <seg xml:id="i-AnZSawf5iaMEuxATbwP9sa">
             Huset, som vilade på resterna av det stora gråbrödersklostret,
             kallades i fortsättningen ”riksens ständers hus å Riddarholmen”.
@@ -1200,7 +1198,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--2/prot_198384__2-012.jp2/_view"/>
-        <u xml:id="i-eede325fd12a048a-10" who="unknown" prev="i-eede325fd12a048a-9" next="i-eede325fd12a048a-13">
+        <u xml:id="i-eede325fd12a048a-10" who="unknown" prev="i-eede325fd12a048a-8" next="i-eede325fd12a048a-13">
           <seg xml:id="i-6Gg8RF2LzeiK7TWfTEpoQp">
             mer att inte se till personen utan till saken. Diskussionen i
             andra kammaren är i allmänhet underhållande. I vår krets har vi
@@ -1293,7 +1291,7 @@
         <note xml:id="i-QeogtMtCcSLdfWp8UgP6Gw">
           42
         </note>
-        <u xml:id="i-eede325fd12a048a-13" who="unknown" prev="i-eede325fd12a048a-10" next="i-SkzNCYA7tzZpjYkuxuGAgv">
+        <u xml:id="i-eede325fd12a048a-13" who="unknown" prev="i-eede325fd12a048a-10" next="i-eede325fd12a048a-15">
           <seg xml:id="i-8MKg4yRb3uDw2MFtan78vF">
             lämnas fri, med planteringar, fontäner och statyer. Ett riksdagshus
             här skulle helt tryckas ner av slottets höga läge och förvandlas
@@ -1337,16 +1335,12 @@
             som husen står i dag är de också ett monument över de tusentals
             människor som byggde det med sina händer och sina ryggar.
           </seg>
-        </u>
-        <u xml:id="i-SkzNCYA7tzZpjYkuxuGAgv" who="unknown" prev="i-eede325fd12a048a-13" next="i-eede325fd12a048a-14">
           <seg xml:id="i-RLe1tu54VAL23cqz5y9tvn">
             Den 13 maj 1895 murade Oscar II in grundstenen till det nya riksdagshuset.
             År 1901 stod det färdigt till det yttre. 1905 års riksdag kunde
             äntligen flytta in i det nya huset för att omedelbart ta itu med
             de problem som hängde samman med upplösningen av unionen med Norge.
           </seg>
-        </u>
-        <u xml:id="i-eede325fd12a048a-14" who="unknown" prev="i-SkzNCYA7tzZpjYkuxuGAgv" next="i-eede325fd12a048a-15">
           <seg xml:id="i-Quq5BR42mcvvvoVngBmqaT">
             Kanske blev riksdagshuset det mest utskällda huset i staden.
             Arkitekter, konstnärer och litterära skönandar klagade över den
@@ -1367,7 +1361,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--2/prot_198384__2-014.jp2/_view"/>
-        <u xml:id="i-eede325fd12a048a-15" who="unknown" prev="i-eede325fd12a048a-14">
+        <u xml:id="i-eede325fd12a048a-15" who="unknown" prev="i-eede325fd12a048a-13">
           <seg xml:id="i-W4tufQ7W8vjiFRU1XRziRE">
             Under de 65 år som riksdagsmännen höll till här lärde de sig
             uppskatta den goda arbetsmiljön, som stimulerade till mänskliga
@@ -1477,13 +1471,11 @@
         <note xml:id="i-2AVgtWRCJYRXeMD35UHuvX" type="speaker">
           Anf. 5 Statsminister OLOF PALME:
         </note>
-        <u xml:id="i-CXPiCaNY6srMHHi8ZgJLQu" who="i-DKX1MP4aaNtFZSpMKXCwY" next="i-eede325fd12a048a-23">
+        <u xml:id="i-CXPiCaNY6srMHHi8ZgJLQu" who="i-DKX1MP4aaNtFZSpMKXCwY" next="i-eede325fd12a048a-25">
           <seg xml:id="i-FUfQuDXqatAcVeayjat7rA">
             Eders Majestäter, Eders Kungliga Högheter, herr talman, ledamöter
             av Sveriges Riksdag!
           </seg>
-        </u>
-        <u xml:id="i-eede325fd12a048a-23" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-CXPiCaNY6srMHHi8ZgJLQu" next="i-FQFmh7zwRZ1E8Pv6zisnkr">
           <seg xml:id="i-8GZ9YPi3U5SyDTn8UrfK3H">
             Den svenska regeringen skall med fasthet och med beslutsamhet
             fullfölja vår neutralitetspolitik. Stödd på ett efter våra förhållanden
@@ -1497,15 +1489,11 @@
             att kränkningar av Sveriges territorium kommer att bemötas med
             all kraft.
           </seg>
-        </u>
-        <u xml:id="i-FQFmh7zwRZ1E8Pv6zisnkr" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-eede325fd12a048a-23" next="i-eede325fd12a048a-24">
           <seg xml:id="i-V4CSeyAzd6gvvKWP8PJCzS">
             Försvarets fortsatta planering grundas på 1982 års försvarsbeslut,
             med den inriktning som angavs i årets budgetförslag. Ubåtsskyddet
             förstärks.
           </seg>
-        </u>
-        <u xml:id="i-eede325fd12a048a-24" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-FQFmh7zwRZ1E8Pv6zisnkr" next="i-eede325fd12a048a-25">
           <seg xml:id="i-5U6VMpU4GC1usPnP3NtW4M">
             Sverige skall efter måttet av sin förmåga arbeta för fred, för
             samarbete mellan världens folk och för att värna mänskliga rättigheter.
@@ -1563,7 +1551,7 @@
           </seg>
         </u>
         <pb facs="https://betalab.kb.se/prot-198384--2/prot_198384__2-016.jp2/_view"/>
-        <u xml:id="i-eede325fd12a048a-25" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-eede325fd12a048a-24" next="i-eede325fd12a048a-29">
+        <u xml:id="i-eede325fd12a048a-25" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-CXPiCaNY6srMHHi8ZgJLQu" next="i-eede325fd12a048a-29">
           <seg xml:id="i-21yxTDYhDqQTSrChi1atoj">
             och inte högre nivåer.
           </seg>
@@ -1847,13 +1835,11 @@
         <note xml:id="i-RrPT2hrWkE5VvF5c2oxYVg">
           48
         </note>
-        <u xml:id="i-4ePGBesktvLfAwKjpNGqXJ" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-eede325fd12a048a-30" next="i-9JKjvgba9h8kEAbjQjPCW2">
+        <u xml:id="i-4ePGBesktvLfAwKjpNGqXJ" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-eede325fd12a048a-30">
           <seg xml:id="i-EExxCLhcJHPyA5FG8Y39bB">
             Pensionerna höjs. Värdesäkringen återinförs med avräkning för
             devalveringens priseffekter.
           </seg>
-        </u>
-        <u xml:id="i-9JKjvgba9h8kEAbjQjPCW2" who="i-DKX1MP4aaNtFZSpMKXCwY" prev="i-4ePGBesktvLfAwKjpNGqXJ">
           <seg xml:id="i-UrctXrL1SNyQXp9t2NQgA">
             Missbruket av alkohol och narkotika är ett allvarligt problem
             såväl för enskilda individer som för hela samhället. Regeringen

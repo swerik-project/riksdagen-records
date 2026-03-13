@@ -27,11 +27,11 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <classCode>OCR</classCode>
+        <classCode scheme="urn:riksdagen:text-origin">OCR</classCode>
       </textClass>
       <textDesc>
         <channel mode="s"/>
-        <composition>
+        <constitution>
           <note xml:id="i-eJ2sGtT8o8osSHEiFx5x5" type="speech">
             <linkGrp type="u">
               <ptr target="#i-38edcfb78cbc7b35-0"/>
@@ -200,7 +200,13 @@
               <ptr target="#i-48aabbb32bd31024-2"/>
             </linkGrp>
           </note>
-        </composition>
+        </constitution>
+        <derivation type="original"/>
+        <domain type="govt"/>
+        <factuality type="mixed"/>
+        <interaction type="partial" active="plural" passive="world"/>
+        <preparedness type="formulaic"/>
+        <purpose type="persuade" degree="high"/>
       </textDesc>
     </profileDesc>
   </teiHeader>
@@ -356,7 +362,7 @@
         <note xml:id="i-AtVAzXEbayKyZH7sNhqANt">
           Upplästes följande till kammaren inkomna läkarintyg:
         </note>
-        <u xml:id="i-PcS63aucKAtuChuBGBSyXd" who="unknown">
+        <u xml:id="i-PcS63aucKAtuChuBGBSyXd" who="unknown" next="i-e263ff3919b5d851-1">
           <seg xml:id="i-XmzAnkR5tguSMidSgADzVE">
             Att riksdagsledamoten fru Olivia Nordgren vårdats härstädes från
             den 24 januari 1950 för tumor vesic. urin. och utskrevs den 2
@@ -602,7 +608,7 @@
           hjälpsökande hade 543 hänvisats till sysselsättning i statliga
           eller statskommunala beredskapsarbeten.
         </note>
-        <u xml:id="i-e263ff3919b5d851-1" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-PUJF982vxe67GfN46YqK7t" next="i-e263ff3919b5d851-2">
+        <u xml:id="i-e263ff3919b5d851-1" who="i-BSEtbZG4ePv3rfebXQWRkd" prev="i-PcS63aucKAtuChuBGBSyXd" next="i-e263ff3919b5d851-2">
           <seg xml:id="i-MMUVf4URAKqrk5tM6493Ff">
             Efterfrågan på skogsarbetare inom länet är nu betydande och uppgår
             för närvarande till omkring 1 000 man.
@@ -1108,15 +1114,13 @@
         <note xml:id="i-JeieNSHJc3jgQbnf28Lw6F">
           Det i kammaren utdelade svaret hade följande lydelse:
         </note>
-        <u xml:id="i-J29AHmAdd1bUWxuDEM9zyg" who="i-3urySgCAk2SuFz1BB8TX5x" next="i-37dd01361b9dad65-2">
+        <u xml:id="i-J29AHmAdd1bUWxuDEM9zyg" who="i-3urySgCAk2SuFz1BB8TX5x" next="i-37dd01361b9dad65-3">
           <seg xml:id="i-EizGR33UJSWPkzazXaZD2W">
             Herr talman! Med andra kammarens tillstånd ha två av dess ledamöter,
             herrar Svensson i Ljungskile och Sundström, till mig framställt
             vissa frågor angående nedläggandet och försäljningen av Svenska
             sockerfabriks aktiebolagets fabrik i Lidköping.
           </seg>
-        </u>
-        <u xml:id="i-37dd01361b9dad65-2" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-J29AHmAdd1bUWxuDEM9zyg" next="i-37dd01361b9dad65-3">
           <seg xml:id="i-N2Sa3Nr2ptyGcGAYnz1Tjp">
             Herr Svensson frågar, dels om jag är villig att inför riksdagen
             redogöra för vad som förekommit i saken, dels om det finns någon
@@ -1137,7 +1141,7 @@
           Svar på interpellationer angående nedläggandet och försäljningen
           av Svenska sockerfabriksaktiebolagets fabrik i Lidköping.
         </note>
-        <u xml:id="i-37dd01361b9dad65-3" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-37dd01361b9dad65-2" next="i-37dd01361b9dad65-4">
+        <u xml:id="i-37dd01361b9dad65-3" who="i-3urySgCAk2SuFz1BB8TX5x" prev="i-J29AHmAdd1bUWxuDEM9zyg" next="i-37dd01361b9dad65-4">
           <seg xml:id="i-7KzHantk5B4fv1NKG73xPq">
             Herr Sundström i sin tur frågar, dels om jag anser att tillräckliga
             skäl förelegat att nedlägga sockerbruket i Lidköping med de konsekvenser
@@ -4261,7 +4265,7 @@
           Interpellation angående ökad licensgivning för import från Schweiz
           av fickur m. m.
         </note>
-        <u xml:id="i-af025f0180cdb14b-3" who="i-LLnQ8RYVszR7dBi2EAHt1C" prev="i-nXwygDoGhyjdp9vcnAMrK" next="i-Ss2tryKQFvNeehDHMbU8WN">
+        <u xml:id="i-af025f0180cdb14b-3" who="i-LLnQ8RYVszR7dBi2EAHt1C" prev="i-nXwygDoGhyjdp9vcnAMrK" next="i-48aabbb32bd31024-1">
           <seg xml:id="i-W4h5a6S886xiPf8ZJVM6sL">
             vändningar måste resas mot den föreslagna inskränkningen av remonteringen.
             Styrelsen, som enligt sin instruktion hade att svara för att lantförsvarets
@@ -4298,20 +4302,14 @@
             tillstånd att till statsrådet och chefen för försvarsdepartementet
             få framställa följande spörsmål:
           </seg>
-        </u>
-        <u xml:id="i-Ss2tryKQFvNeehDHMbU8WN" who="i-LLnQ8RYVszR7dBi2EAHt1C" prev="i-af025f0180cdb14b-3" next="i-D8rD1J6kPn4kCF99yiG1da">
           <seg xml:id="i-N1zxwrsDiNHG4NWeFoqjKu">
             1) Är herr statsrådet i tillfälle att re-
           </seg>
-        </u>
-        <u xml:id="i-D8rD1J6kPn4kCF99yiG1da" who="i-LLnQ8RYVszR7dBi2EAHt1C" prev="i-Ss2tryKQFvNeehDHMbU8WN" next="i-LLXZre4AXQrL4VieiewLAU">
           <seg xml:id="i-CuHiCP7e4uMKQuNrP4s7yG">
             dan under innevarande månad meddela i vilken omfattning inköp
             av varmblodiga hästar för statens räkning enligt regeringens mening
             bör ske från och med år 1954?
           </seg>
-        </u>
-        <u xml:id="i-LLXZre4AXQrL4VieiewLAU" who="i-LLnQ8RYVszR7dBi2EAHt1C" prev="i-D8rD1J6kPn4kCF99yiG1da">
           <seg xml:id="i-DqfK9HbM9QZC7T5xVRhQog">
             2) Har herr statsrådet för avsikt att, därest ovan angivna avsättningsmöjligheter
             minskas, vidtaga andra åtgärder för bibehållande av halvblodsaveln
@@ -4353,7 +4351,7 @@
           Interpellation angående ökad licensgivning för import från Schweiz
           av fickur m. m.
         </note>
-        <u xml:id="i-48aabbb32bd31024-1" who="i-EkQKNQQonia5BuXejJsb5G" prev="i-48aabbb32bd31024-0" next="i-PT1hWk8rSvdcxXzJ1FWMpj">
+        <u xml:id="i-48aabbb32bd31024-1" who="i-EkQKNQQonia5BuXejJsb5G" prev="i-af025f0180cdb14b-3">
           <seg xml:id="i-9kYYUL7xoTXEgZt9CJEwqy">
             ringar av specialutbildade arbetstagare inom branschen, om inte
             importrestriktionerna lättas.
@@ -4379,15 +4377,11 @@
             sättet att komma denna smuggling till livs är en ökning av licensgivningen
             för import från Schweiz.
           </seg>
-        </u>
-        <u xml:id="i-PT1hWk8rSvdcxXzJ1FWMpj" who="i-EkQKNQQonia5BuXejJsb5G" prev="i-48aabbb32bd31024-1" next="i-48aabbb32bd31024-2">
           <seg xml:id="i-BWBMewvbY2BmfNnLMSFqRo">
             Jag anhåller härmed om andra kammarens tillstånd att till herr
             statsrådet och chefen för handelsdepartementet få framställa följande
             fråga:
           </seg>
-        </u>
-        <u xml:id="i-48aabbb32bd31024-2" who="i-EkQKNQQonia5BuXejJsb5G" prev="i-PT1hWk8rSvdcxXzJ1FWMpj">
           <seg xml:id="i-6hwn3VmKz8mVWM4kzCe4Tn">
             Kan herr statsrådet ställa i utsikt att inom den närmaste tiden
             ökad licensgivning för import från Schweiz av fickur, armbandsur
