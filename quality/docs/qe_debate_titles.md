@@ -15,7 +15,7 @@ A reliable estimate of these issues is needed before we invest in systematic imp
 
 ## Definition
 
-A **debate header title** is the short textual label that identifies *what item the following speeches belong to*. It is usually a visible heading or margin note, and it should be interpretable without additional context.
+A **debate header title** is the short textual label in the body text that identifies *what item the following speeches belong to*. It is usually a visible heading, and it should be interpretable without additional context.
 
 A header candidate is a text element that satisfies all of these:
 
@@ -34,6 +34,10 @@ Note that only headers that are visually separated and have a structural role ar
 5. The title should divide the body text into separate sections. I.e. there is often body text both before and after the header.
 
 7. Titles in Figures, Tables, and similar are not headers.
+
+Document-level headings are not debate headers. For example, first-page headings such as "RIKSDAGENS PROTOKOLL. 1882. Andra Kammaren. N:o 52" identify the protocol as a whole, not the item handled in the following debate. These should not be annotated as debate headers.
+
+Margin notes, page headers, and page footers are not debate headers. They may describe the topic of the page or help navigation, but they are not part of the body text that divides the protocol into handled items.
 
 We evaluate debate titles on the core property:
 **Presence (coverage):** Is there a debate title where there should be one?
