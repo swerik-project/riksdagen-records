@@ -41,6 +41,8 @@ Margin notes, page headers, and page footers are not debate headers. They may de
 
 When a matter is introduced by a protocol paragraph, such as "§ 25", annotate that paragraph heading if it starts the handled item. Do not annotate legal paragraphs or sections that are only quoted, amended, or discussed within that matter, such as references to "§ 14" or "§ 17" under "§ 25".
 
+If a paragraph marker appears out of sequence or as part of a list of points handled within an already introduced matter, it is not a new debate header. Annotate it only if it clearly starts a new handled item and labels the following body text.
+
 We evaluate debate titles on the core property:
 **Presence (coverage):** Is there a debate title where there should be one?
 
