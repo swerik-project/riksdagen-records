@@ -39,6 +39,8 @@ Document-level headings are not debate headers. For example, first-page headings
 
 Margin notes, page headers, and page footers are not debate headers. They may describe the topic of the page or help navigation, but they are not part of the body text that divides the protocol into handled items.
 
+When a matter is introduced by a protocol paragraph, such as "§ 25", annotate that paragraph heading if it starts the handled item. Do not annotate legal paragraphs or sections that are only quoted, amended, or discussed within that matter, such as references to "§ 14" or "§ 17" under "§ 25".
+
 We evaluate debate titles on the core property:
 **Presence (coverage):** Is there a debate title where there should be one?
 
