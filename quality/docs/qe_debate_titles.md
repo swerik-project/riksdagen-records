@@ -31,9 +31,13 @@ It’s not a speaker cue like “Anf.” / “Herr/Fru X:” / “TALMANNEN:” 
 4. Is followed by a block of speeches.
 Note that only headers that are visually separated and have a structural role are counted. For example, if there is a line of text that is not visually distinct but happens to be the first line of a debate item, it would not count as a header. Similarly, if there is a visually distinct line that does not label the next block of speeches, it would not count as a debate header.
 
-5. The title should divide the body text into separate sections. I.e. there is often body text both before and after the header.
+5. The title should divide the body text into separate sections, i.e. there is often body text both before and after the header.
 
-7. Titles in Figures, Tables, and similar are not headers.
+6. Bold text alone is not enough for a text element to count as a debate header. It must also label the handled item that follows.
+
+7. Titles in figures, tables, and similar are not headers.
+
+### Annotation clarifications
 
 Document-level headings are not debate headers. For example, first-page headings such as "RIKSDAGENS PROTOKOLL. 1882. Andra Kammaren. N:o 52" identify the protocol as a whole, not the item handled in the following debate. These should not be annotated as debate headers.
 
@@ -48,6 +52,8 @@ If the same paragraph heading or title is repeated because a matter continues ac
 When a protocol paragraph marker is followed by a visually separated descriptive title, for example a paragraph number followed by a bold line, annotate the paragraph marker and the descriptive title together as one debate header.
 
 If only part of a heading line is typographically distinct, for example only the paragraph marker is bold, annotate the full heading line if the whole line labels the handled item.
+
+Annotate bold text only if it is visually separated from the body text and labels the handled item that follows. Do not annotate bold text that is only emphasis, quoted text, or part of an already introduced matter.
 
 Table of contents headings, such as "Innehållsförteckning", are not debate headers. They help navigate the document, but they do not introduce a handled item followed by speeches.
 
@@ -66,7 +72,7 @@ This is a simple random sample in which a page is the sampling unit, and the ann
 
 ### Sampling plan
 
-- Draw a random sample of 3 pages per year from the Enkammarriksdag.
+- Draw a random sample of 3 pages per year from the unicameral period.
 
 ## Annotation guidelines
 
@@ -80,6 +86,6 @@ You receive a CSV with one row per sampled debate, containing at a minimum:
 For each row:
 
 1) Open the scan/PDF (do **not** inspect the XML).  
-2) Identify if the is a heading and write it down in the CSV file. If multiple headers, separate them by semicolon (;). Here the XML can be used to copy (and correct) the text. If there is no title, just mark "[no header]".
+2) Identify if there is a heading and write it down in the CSV file. If multiple headers, separate them by semicolon (;). Here the XML can be used to copy (and correct) the text. If there is no title, just mark "[no header]".
 
 ## Other comments
