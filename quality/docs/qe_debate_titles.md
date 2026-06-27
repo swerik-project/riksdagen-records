@@ -43,6 +43,14 @@ When a matter is introduced by a protocol paragraph, such as "§ 25", annotate t
 
 If a paragraph marker appears out of sequence or as part of a list of points handled within an already introduced matter, it is not a new debate header. Annotate it only if it clearly starts a new handled item and labels the following body text.
 
+If the same paragraph heading or title is repeated because a matter continues across pages or because of page layout, do not count the repetition as a new debate header. Annotate repeated wording only when it clearly starts a distinct new handled item.
+
+When a protocol paragraph marker is followed by a visually separated descriptive title, for example a paragraph number followed by a bold line, annotate the paragraph marker and the descriptive title together as one debate header.
+
+If only part of a heading line is typographically distinct, for example only the paragraph marker is bold, annotate the full heading line if the whole line labels the handled item.
+
+Table of contents headings, such as "Innehållsförteckning", are not debate headers. They help navigate the document, but they do not introduce a handled item followed by speeches.
+
 We evaluate debate titles on the core property:
 **Presence (coverage):** Is there a debate title where there should be one?
 
