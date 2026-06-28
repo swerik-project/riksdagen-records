@@ -10,7 +10,7 @@ import unittest
 
 
 DATA_DIR = Path("data")
-DEFAULT_START_YEAR = 2000
+DEFAULT_RECENT_YEARS = 2
 START_YEAR_ENV = "SNABBPROTOKOLL_START_YEAR"
 NS = {"tei": "http://www.tei-c.org/ns/1.0"}
 SUSPECT_PATTERNS = [
@@ -29,12 +29,28 @@ DOCUMENT_LEVEL_FIELDS = {
 
 class Test(unittest.TestCase):
 
+    def _available_years(self):
+        years = []
+        for year_dir in DATA_DIR.iterdir():
+            if not year_dir.is_dir():
+                continue
+            try:
+                years.append(int(year_dir.name[:4]))
+            except ValueError:
+                continue
+        return sorted(set(years))
+
     def _start_year(self):
-        raw = os.environ.get(START_YEAR_ENV, str(DEFAULT_START_YEAR))
-        try:
-            return int(raw)
-        except ValueError:
-            self.fail(f"{START_YEAR_ENV} must be an integer, got {raw!r}")
+        raw = os.environ.get(START_YEAR_ENV)
+        if raw is not None:
+            try:
+                return int(raw)
+            except ValueError:
+                self.fail(f"{START_YEAR_ENV} must be an integer, got {raw!r}")
+
+        years = self._available_years()
+        self.assertGreater(len(years), 0, "data/ should contain parliament-year directories")
+        return max(years) - (DEFAULT_RECENT_YEARS - 1)
 
     def _protocols_since(self, start_year):
         for year_dir in sorted(path for path in DATA_DIR.iterdir() if path.is_dir()):
@@ -61,8 +77,8 @@ class Test(unittest.TestCase):
         """
         Checks that later records are not obvious snabbprotokoll/preliminary records.
 
-        The default start year is 2000. Override it with SNABBPROTOKOLL_START_YEAR
-        when older or newer ranges need to be checked.
+        By default, the latest two available parliament years are checked. Override
+        the cutoff with SNABBPROTOKOLL_START_YEAR when a broader range is needed.
         """
         suspicious = []
         for protocol in self._protocols_since(self._start_year()):
