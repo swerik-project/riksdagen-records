@@ -88,6 +88,25 @@ jobs:
         export METADATA_PATH="riksdagen-persons/data"
         python -m unittest test.mp
 
+  speaker-introduction-regressions:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyriksdagen
+    - name: Test known speaker introduction regressions
+      run: |
+        python -m unittest test.speaker_introductions
+
   next-prev:
     runs-on: ubuntu-latest
     strategy:
@@ -155,4 +174,3 @@ jobs:
     - name: check that Doc IDs appear in TEI elem, doc ID == filename, doc ID used in facs
       run: |
         python -m unittest test.test_doc-id
-
