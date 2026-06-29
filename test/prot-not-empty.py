@@ -14,18 +14,6 @@ import unittest
 logger = get_logger(name="prot-not-empty")
 
 
-
-class EmptyProtocol(Warning):
-
-    def __init__(self, m):
-        self.message = m
-
-    def __str__(self):
-        return self.message
-
-
-
-
 class Test(unittest.TestCase):
 
     def test_not_empty(self):

@@ -17,17 +17,6 @@ import os, unittest
 logger = get_logger(name="records-in-sequence")
 
 
-
-
-class OutOfSequence(Warning):
-
-    def __init__(self, m):
-        self.message = m
-
-    def __str__(self):
-        return f"\n{self.message}"
-
-
 class Test(unittest.TestCase):
 
     def _add_ek_2_D(self, D, spl):

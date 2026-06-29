@@ -19,18 +19,6 @@ logger = get_logger(name="empty-speech")
 
 
 
-
-class EmptyElement(Warning):
-
-    def __init__(self, m):
-        self.message = m
-
-    def __str__(self):
-        return self.message
-
-
-
-
 class Test(unittest.TestCase):
 
     def test_no_empty_speech(self):

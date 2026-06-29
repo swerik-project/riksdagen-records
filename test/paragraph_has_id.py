@@ -17,17 +17,6 @@ logger = get_logger(name="paragraph-has-id")
 
 
 
-
-class UndocumentedParagraphWarning(Warning):
-    def __init__(self, warnstr):
-        self.message = f"There are paragraphs without a valid ID attribute. N={warnstr}"
-
-    def __str__(self):
-        return self.message
-
-
-
-
 class Test(unittest.TestCase):
 
 
