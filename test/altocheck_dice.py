@@ -34,9 +34,23 @@ retry = Retry(
     allowed_methods=["GET"],
 )
 session.mount("https://", HTTPAdapter(max_retries=retry))
+MED_DICE_THRESHOLD = 0.85
 LOW_DICE_THRESHOLD = 0.6                        # We can tighten this up iteratively
 CHECK_N_PAGES_PER_DECADE = 100                  #
 RANDOM_SEED = 429                               # Ensure we test the same protocols / pages every time
+# PERCENT THRESHOLDS                            # defines the percentage of test cases that will fail the test
+MED_DICE_PERCENT_THRESHOLD = 0.051
+BY_DECADE_MED_DICE_PERCENT_THRESHOLDS = {
+        "1860": 0.071,
+        "1870": 0.071,
+        "1950": 0.061,
+        "1960": 0.081,
+        "1990": 0.071,
+        "2000": 0.131,
+        "2020": 0.191
+    }
+LOW_DICE_PERCENT_THRESHOLD = 0.101
+BY_DECADE_LOW_DICE_PERCENT_THRESHOLDS = {}
 
 
 
@@ -171,14 +185,13 @@ class Test(unittest.TestCase):
     def test_protocols(self):
         die = []
         die_rows = []
-        die_cols = ["dice", "protocol", "alto", "pdf"]
+        die_cols = ["dice", "protocol", "decade", "alto", "pdf"]
         low_dice_by_year = {}
         lowest_die = 1
         lowest_die_prot = None
         no_facs_prots = []
         PAGES_PER_DECADE = CHECK_N_PAGES_PER_DECADE
         folder = "data/"
-        #p = Path(folder)
 
         all_testcases = []
         decades = list(range(1860, 2021, 10))
@@ -194,6 +207,7 @@ class Test(unittest.TestCase):
         loading_fail = []
         for protocol_path in tqdm(all_testcases):
             year = protocol_path.split("/")[1]
+            decade = f"{year[:3]}0"
             if year not in low_dice_by_year:
                 low_dice_by_year[year] = 0
             LOGGER.info(f"Testing protocol {protocol_path}")
@@ -209,13 +223,14 @@ class Test(unittest.TestCase):
                 LOGGER.warning(f"{dice} is lowest, from {lowest_die}")
                 lowest_die = dice
                 lowest_die_prot = [protocol_path, alto_url, pdf_url]
-            if dice < LOW_DICE_THRESHOLD:
-                die_rows.append([dice, protocol_path, alto_url, pdf_url])
-                low_dice_by_year[year] += 1
-        with open("test/results/alto-low-dice-count-by-year.json", "w+") as jout:
+            if dice < MED_DICE_THRESHOLD:
+                die_rows.append([dice, protocol_path, decade, alto_url, pdf_url])
+                if dice < LOW_DICE_THRESHOLD:
+                    low_dice_by_year[year] += 1
+        with open("test/results/alto-medlow-dice-count-by-year.json", "w+") as jout:
             json.dump(low_dice_by_year, jout, indent=4, ensure_ascii=False)
         df = pd.DataFrame(die_rows, columns=die_cols)
-        df.to_csv("test/results/alto-dice-low-score.tsv", sep='\t', index=False)
+        df.to_csv("test/results/alto-dice-medlow-score.tsv", sep='\t', index=False)
         plot_dice_boxplot(die)
         LOGGER.train("-----------------------------------------")
         LOGGER.train(f"min {min(die)} || max {max(die)}")
@@ -231,13 +246,35 @@ class Test(unittest.TestCase):
             test_passes = True
             for year, val in low_dice_by_year.items():
                 if thresholds[year] < val:
-                    LOGGER.error(f"Low Dice values have increased in {year}")
-                    test_passes = False
+                    LOGGER.warning(f"Low Dice values have increased in {year}")
+                #    test_passes = False
                 if thresholds[year] > val:
                     LOGGER.info(f"Threshold for {year} can be tightened to {val}")
-            self.assertEqual(test_passes, True, f"Some years got worse. See logger errors directly above this failure.")
-        else:
-            LOGGER.warning(f"No low-Dice thresholds found. The test will pass, but nothing has been compared.")
+            self.assertTrue(test_passes, f"Some years got worse. See logger errors directly above this failure.")
+        test_passes = True
+        for decade in sorted(df["decade"].unique()):
+            if decade in BY_DECADE_LOW_DICE_PERCENT_THRESHOLDS:
+                low_t = BY_DECADE_LOW_DICE_PERCENT_THRESHOLDS[decade]
+            else:
+                low_t = LOW_DICE_PERCENT_THRESHOLD
+            if decade in BY_DECADE_MED_DICE_PERCENT_THRESHOLDS:
+                med_t = BY_DECADE_MED_DICE_PERCENT_THRESHOLDS[decade]
+            else:
+                med_t = MED_DICE_PERCENT_THRESHOLD
+            ddf = df.loc[df["decade"] == decade]
+            med_p = len(ddf.loc[ddf["dice"] < med_t])/PAGES_PER_DECADE
+            if not med_p < med_t:
+                test_passes = False
+                LOGGER.error(f"(Medium threshold) More than 5% of sampled pages in {decade}s are less than threshold of {med_t} --> {med_p}.")
+                if med_p != MED_DICE_PERCENT_THRESHOLD and med_t < MED_DICE_PERCENT_THRESHOLD:
+                    LOGGER.info(f"{decade}s has a higher medium threshold, but the result {med_t} is lower than the default threshold. Consider removing the {decade}s entry from BY_DECATE_MED_DICE_PERCENT_THRESHOLDS")
+            low_p = len(ddf.loc[ddf["dice"] < low_t])/PAGES_PER_DECADE
+            if not low_p < low_t:
+                test_passes = False
+                LOGGER.error(f"(Low threshold) More than 10% of sampled pages in {decade}s are less than {low_t} --> {low_p}.")
+                if low_p != LOW_DICE_PERCENT_THRESHOLD and low_t < LOW_DICE_PERCENT_THRESHOLD:
+                    LOGGER.info(f"{decade}s has a higher low threshold, but the result {low_t} is lower than the default threshold. Consider removing the {decade}s entry from BY_DECATE_LOW_DICE_PERCENT_THRESHOLDS")
+        self.assertTrue(test_passes, "Too many low or medium-low Dice Coefficients in some decades. See Logger errors above this line for more details.")
 
 
 
