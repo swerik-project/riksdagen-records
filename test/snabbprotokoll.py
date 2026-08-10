@@ -24,6 +24,7 @@ DOCUMENT_LEVEL_FIELDS = {
     "front-head": ".//tei:text/tei:front//tei:head",
     "front-note": ".//tei:text/tei:front//tei:note",
     "front-paragraph": ".//tei:text/tei:front//tei:p",
+    "opening-body-title": ".//tei:text/tei:body/tei:div[1]//tei:note[@type=\"title\"]",
 }
 
 
