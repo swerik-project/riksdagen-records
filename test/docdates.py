@@ -10,9 +10,12 @@ from pyriksdagen.utils import (
     protocol_iterators,
 )
 from tqdm import tqdm
+from trainerlog import get_logger
 import pandas as pd
 import unittest
-import warnings
+
+
+logger = get_logger(name="docdates")
 
 
 class Test(unittest.TestCase):
@@ -58,23 +61,26 @@ class Test(unittest.TestCase):
 
 
         if len(longer_than_a_week) > 0:
-            warnings.warn(f"FAIL:: {len(longer_than_a_week)} > 0...should be 0")
+            logger.error(f"{len(longer_than_a_week)} protocol(s) span more than one week")
+            logger.debug(f"Long protocols: {longer_than_a_week}")
             with open("test/results/long-protocols.txt", "w+") as outf:
                 [outf.write(f"{_}\n") for _ in longer_than_a_week]
 
         if len(protocols_overlap) > 0:
-            warnings.warn(f"FAIL::: {len(protocols_overlap)} > 0...should be 0")
+            logger.error(f"{len(protocols_overlap)} protocol date range(s) overlap")
             df = pd.DataFrame(protocols_overlap, columns=protocols_overlap_cols)
+            logger.debug(df.to_string())
             df.to_csv("test/results/protocols-overlap.csv", sep=';', index=False)
 
         if len(filename_date_mismatch) > 0:
-            warnings.warn(f"FAIL::::: {len(filename_date_mismatch)} > 0...should be 0")
+            logger.error(f"{len(filename_date_mismatch)} protocol filename date(s) mismatch docDate values")
             df = pd.DataFrame(filename_date_mismatch, columns=fdm_cols)
+            logger.debug(df.to_string())
             df.to_csv("test/results/filename-date-mismatch.csv", sep=';', index=False)
 
-        assert len(longer_than_a_week) == 0
-        assert len(protocols_overlap) == 0
-        assert len(filename_date_mismatch) == 0
+        self.assertEqual(len(longer_than_a_week), 0, f"{len(longer_than_a_week)} protocol(s) span more than one week")
+        self.assertEqual(len(protocols_overlap), 0, f"{len(protocols_overlap)} protocol date range(s) overlap")
+        self.assertEqual(len(filename_date_mismatch), 0, f"{len(filename_date_mismatch)} protocol filename date(s) mismatch docDate values")
 
 if __name__ == '__main__':
     # begin the unittest.main()
