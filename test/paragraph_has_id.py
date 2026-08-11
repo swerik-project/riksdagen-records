@@ -8,20 +8,12 @@ Check that all elements with text have IDs.
 from lxml import etree
 from pyriksdagen.utils import elem_iter, protocol_iterators
 from tqdm import tqdm
+from trainerlog import get_logger
 import pandas as pd
 import unittest
-import warnings
 
 
-
-
-class UndocumentedParagraphWarning(Warning):
-    def __init__(self, warnstr):
-        self.message = f"There are paragraphs without a valid ID attribute. N={warnstr}"
-
-    def __str__(self):
-        return self.message
-
+logger = get_logger(name="paragraph-has-id")
 
 
 
@@ -39,7 +31,7 @@ class Test(unittest.TestCase):
                 counter += 1
                 fails.append([protocol, "no TEI ID attr", 0])
         else:
-            warnings.warn(f"root {protocol} ")
+            logger.error(f"Unexpected root element in {protocol}: {root.tag}")
         for body in root.findall(".//" + tei_ns + "body"):
             for div in body.findall(tei_ns + "div"):
                 for elem in div.iter():
@@ -63,8 +55,10 @@ class Test(unittest.TestCase):
             counter, fails = self.count_missing_ids(p, counter, fails)
 
         if counter > 0:
-            warnings.warn(str(counter) +'\n'+ pd.DataFrame(fails, columns=f_cols).to_string(), UndocumentedParagraphWarning)
-        self.assertEqual(counter, 0)
+            fail_df = pd.DataFrame(fails, columns=f_cols)
+            logger.error(f"{counter} text-bearing element(s) are missing xml:id attributes")
+            logger.debug(fail_df.to_string())
+        self.assertEqual(counter, 0, f"{counter} text-bearing element(s) are missing xml:id attributes")
 
 
 
