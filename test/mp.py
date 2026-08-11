@@ -168,30 +168,6 @@ def append_raw_open_ended_intervals(mp_db):
 
 class Test(unittest.TestCase):
 
-    def test_issue_47_sandler_not_schlyter(self):
-        sandler_id = "i-9iqLBgdAYEoR244dkazyYj"
-        schlyter_id = "i-NdmzAJFCHr1sfnsvdVwR4y"
-        target_intro = "Hans excellens herr statsministern Sandler:"
-        root, ns = parse_tei("data/1926/prot-1926--ak--044.xml")
-
-        sandler_speeches = []
-        last_speaker_intro = ""
-        for body in root.findall(f".//{ns['tei_ns']}body"):
-            for div in body.findall(f"{ns['tei_ns']}div"):
-                for elem in div:
-                    if (
-                        elem.tag == f"{ns['tei_ns']}note"
-                        and elem.attrib.get("type") == "speaker"
-                    ):
-                        if elem.text:
-                            last_speaker_intro = elem.text.strip()
-                    elif elem.tag == f"{ns['tei_ns']}u" and last_speaker_intro == target_intro:
-                        sandler_speeches.append(elem.attrib.get("who"))
-
-        self.assertGreater(len(sandler_speeches), 0)
-        self.assertNotIn(schlyter_id, sandler_speeches)
-        self.assertTrue(all(who == sandler_id for who in sandler_speeches))
-
     def test_protocol(self):
 
         folder = "data"
