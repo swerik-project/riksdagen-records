@@ -9,7 +9,7 @@ import unittest
 
 
 
-logger = get_logger(name="Trainer Log")
+logger = get_logger(name="test-speech-elems-exist")
 
 
 
@@ -38,30 +38,35 @@ class Test(unittest.TestCase):
 
 
     def test_not_phantom_speech_elems(self):
+        no_records = len(self.records)
+        records_w_no_speeches = 0
         for record in tqdm(self.records):
             speech_elems = []
             root, ns = parse_tei(record)
-
-            speeches = root.findall(f".//{ns['tei_ns']}composition/{ns['tei_ns']}note[@type=\"speech\"]")
+            speeches = root.findall(f".//{ns['tei_ns']}constitution/{ns['tei_ns']}note[@type=\"speech\"]")
             if len(speeches) == 0:
-                continue
-            for speech in speeches:
-                u_elems = speech.findall(f"{ns['tei_ns']}linkGrp[@type=\"u\"]/{ns['tei_ns']}ptr")
-                try:
-                    assert len(u_elems) > 0
-                except:
-                    raise ValueError("A speech can't have no u elements")
-                for u_elem in u_elems:
-                    speech_elems.append(f"{u_elem.attrib['target'][1:]}")
-            for se in speech_elems:
-                if not root.xpath(
-                        f"boolean(.//tei:u[@xml:id=\"{se}\"])",
-                        namespaces={"tei": ns["tei_ns"][1:-1], "xml": ns["xml_ns"][1:-1]}):
-                    if record not in self.phantom_speech_elements:
-                        self.phantom_speech_elements[record] = []
-                    self.phantom_speech_elements[record].append(se)
-                    logger.warn(f"{record} : {se} not found")
-                    logger.warn(ns)
+                logger.warning(f"No speeches found in {record}")
+                records_w_no_speeches += 1
+            else:
+                for speech in speeches:
+                    u_elems = speech.findall(f"{ns['tei_ns']}linkGrp[@type=\"u\"]/{ns['tei_ns']}ptr")
+                    try:
+                        assert len(u_elems) > 0
+                    except:
+                        raise ValueError("A speech can't have no u elements")
+                    for u_elem in u_elems:
+                        speech_elems.append(f"{u_elem.attrib['target'][1:]}")
+                for se in speech_elems:
+                    if not root.xpath(
+                            f"boolean(.//tei:u[@xml:id=\"{se}\"])",
+                            namespaces={"tei": ns["tei_ns"][1:-1], "xml": ns["xml_ns"][1:-1]}):
+                        if record not in self.phantom_speech_elements:
+                            self.phantom_speech_elements[record] = []
+                        self.phantom_speech_elements[record].append(se)
+                        logger.error(f"{record} : {se} not found")
+                        #logger.warn(ns)
+
+            self.assertGreaterEqual(no_records * 0.2, records_w_no_speeches, f"Less than 20% of records should have no speeches ({records_w_no_speeches} found)")
 
 
 
