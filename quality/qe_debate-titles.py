@@ -19,6 +19,7 @@ from scipy.stats import beta
 os.environ.setdefault("MPLBACKEND", "Agg")
 os.environ.setdefault("MPLCONFIGDIR", "/tmp/riksdagen-records-mpl")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import matplotlib.pyplot as plt
 from pyriksdagen.io import parse_tei
 from pyriksdagen.utils import infer_metadata, pathize_protocol_id
 from qe import QualityEstimator, version_number_is_valid
@@ -217,6 +218,49 @@ def write_decade_estimates(estimate_path, version):
     update_decade_difference(decade_df, estimate_path, version)
 
 
+def plot_decade_versions(estimate_path, show=False, n_versions=6):
+    diff_path = os.path.join(estimate_path, "decade_difference.csv")
+    if not os.path.exists(diff_path):
+        print(f"Decade difference file {diff_path} not found. Cannot plot.")
+        return
+
+    df = pd.read_csv(diff_path)
+    df["version"] = df["version"].astype(str).str.strip()
+    valid_versions = [v for v in df["version"].unique() if "rc" not in v.lower()]
+    version_sorted = sorted(
+        valid_versions,
+        key=QualityEstimator.version_key,
+        reverse=True,
+    )[:n_versions]
+
+    fig, ax = plt.subplots(figsize=(12, 6))
+    colors = list("bgrcmyk")
+    for i, version in enumerate(version_sorted):
+        dfv = df[df["version"] == version].sort_values("decade")
+        if dfv.empty:
+            continue
+        gap = dfv["decade"].diff().fillna(10) > 10
+        for segment_number, (_, segment) in enumerate(dfv.groupby(gap.cumsum())):
+            ax.plot(
+                segment["decade"],
+                segment["accuracy"],
+                linewidth=1.75,
+                label=version if segment_number == 0 else None,
+                color=colors[i % len(colors)],
+            )
+
+    ax.set_title("debate-title-presence by decade")
+    ax.set_xlabel("Beginning of decade")
+    ax.set_ylabel("Accuracy")
+    ax.legend(loc="upper left")
+    fig.tight_layout()
+    fig.savefig(os.path.join(estimate_path, "debate-title-presence-decade.png"))
+
+    if show:
+        fig.show()
+    plt.close(fig)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -264,6 +308,7 @@ def main():
         bounds=True,
     )
     write_decade_estimates(args.estimate_path, version)
+    plot_decade_versions(args.estimate_path, show=args.show)
 
 
 if __name__ == "__main__":
