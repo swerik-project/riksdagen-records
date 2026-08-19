@@ -1,16 +1,19 @@
 #!/usr/bin/env python3
 """
-Estimate debate-title coverage on expert-annotated sampled pages.
+Estimate debate-title correctness on expert-annotated sampled pages.
 
 The sampling unit is a protocol page. Expert rows with a blank `titles` value
 are treated as missing annotation and excluded from the coverage denominator.
-For annotated rows, this script compares expert header presence with
-`<note type="title">` elements found on the same XML page.
+For annotated rows, this script compares expert headers with
+`<note type="title">` elements found on the same XML page. A row is correct
+when the number of expert and XML titles is the same and every normalized
+expert title has a close normalized XML match.
 """
 import argparse
 import os
 import re
 import sys
+import unicodedata
 from collections import defaultdict
 
 import pandas as pd
@@ -35,8 +38,53 @@ def normalize_space(text):
 
 
 def normalize_title(text):
-    text = normalize_space(text).casefold()
+    text = unicodedata.normalize("NFKC", normalize_space(text)).casefold()
     return re.sub(r"[\s.;:,-]+$", "", text)
+
+
+def levenshtein_distance(left, right):
+    if left == right:
+        return 0
+    if len(left) < len(right):
+        left, right = right, left
+
+    previous_row = list(range(len(right) + 1))
+    for i, left_char in enumerate(left, start=1):
+        current_row = [i]
+        for j, right_char in enumerate(right, start=1):
+            insertions = previous_row[j] + 1
+            deletions = current_row[j - 1] + 1
+            substitutions = previous_row[j - 1] + (left_char != right_char)
+            current_row.append(min(insertions, deletions, substitutions))
+        previous_row = current_row
+    return previous_row[-1]
+
+
+def titles_match(expert_title, xml_title):
+    expert_norm = normalize_title(expert_title)
+    xml_norm = normalize_title(xml_title)
+    if not expert_norm or not xml_norm:
+        return False
+    distance = levenshtein_distance(expert_norm, xml_norm)
+    allowed_edits = max(1, round(max(len(expert_norm), len(xml_norm)) * 0.05))
+    return distance <= allowed_edits
+
+
+def title_lists_match(expert_titles, xml_titles):
+    expert_list = split_titles(expert_titles)
+    xml_list = [item["title"] for item in xml_titles]
+    if len(expert_list) != len(xml_list):
+        return False
+
+    unmatched_xml = list(xml_list)
+    for expert_title in expert_list:
+        for index, xml_title in enumerate(unmatched_xml):
+            if titles_match(expert_title, xml_title):
+                unmatched_xml.pop(index)
+                break
+        else:
+            return False
+    return True
 
 
 def split_titles(text):
@@ -142,16 +190,14 @@ def classify_row(expert_titles, xml_titles):
     if expert_has_header and not xml_has_title:
         return "false_negative", False
 
-    expert_norm = {normalize_title(title) for title in split_titles(expert_value)}
-    xml_norm = {normalize_title(item["title"]) for item in xml_titles}
-    if expert_norm and expert_norm.issubset(xml_norm):
+    if title_lists_match(expert_value, xml_titles):
         return "true_positive_text_match", True
-    return "true_positive_text_mismatch", True
+    return "true_positive_text_mismatch", False
 
 
 def accuracy(protocol_path, gold_standard):
     """
-    Count page-level debate-title presence matches for one protocol.
+    Count page-level debate-title correctness matches for one protocol.
 
     Blank expert annotations are missing data and are excluded from both
     correct and incorrect counts.
@@ -167,8 +213,8 @@ def accuracy(protocol_path, gold_standard):
         if not expert_titles:
             continue
         xml_titles = page_titles(normalize_space(row.link), *indexes)
-        _, presence_correct = classify_row(expert_titles, xml_titles)
-        if presence_correct:
+        _, title_correct = classify_row(expert_titles, xml_titles)
+        if title_correct:
             correct += 1
         else:
             incorrect += 1
@@ -249,12 +295,12 @@ def plot_decade_versions(estimate_path, show=False, n_versions=6):
                 color=colors[i % len(colors)],
             )
 
-    ax.set_title("debate-title-presence by decade")
+    ax.set_title("debate-title-correctness by decade")
     ax.set_xlabel("Beginning of decade")
     ax.set_ylabel("Accuracy")
     ax.legend(loc="upper left")
     fig.tight_layout()
-    fig.savefig(os.path.join(estimate_path, "debate-title-presence-decade.png"))
+    fig.savefig(os.path.join(estimate_path, "debate-title-correctness-decade.png"))
 
     if show:
         fig.show()
@@ -303,7 +349,7 @@ def main():
     qe_estimator.gold_standard = gold_standard
     qe_estimator.run(
         estimate_func=accuracy,
-        title="debate-title-presence",
+        title="debate-title-correctness",
         column_list=["correct", "incorrect"],
         bounds=True,
     )
