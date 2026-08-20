@@ -43,17 +43,17 @@ def normalize_title(text):
     return re.sub(r"[\s.;:,-]+$", "", text)
 
 
-def titles_match(expert_title, xml_title):
+def titles_match(expert_title, xml_title, max_edit_share=0.05):
     expert_norm = normalize_title(expert_title)
     xml_norm = normalize_title(xml_title)
     if not expert_norm or not xml_norm:
         return False
     distance = editdistance.eval(expert_norm, xml_norm)
-    allowed_edits = max(1, round(max(len(expert_norm), len(xml_norm)) * 0.05))
+    allowed_edits = max(1, round(max(len(expert_norm), len(xml_norm)) * max_edit_share))
     return distance <= allowed_edits
 
 
-def title_lists_match(expert_titles, xml_titles):
+def title_lists_match(expert_titles, xml_titles, max_edit_share=0.05):
     expert_list = split_titles(expert_titles)
     xml_list = [item["title"] for item in xml_titles]
     if len(expert_list) != len(xml_list):
@@ -62,7 +62,7 @@ def title_lists_match(expert_titles, xml_titles):
     unmatched_xml = list(xml_list)
     for expert_title in expert_list:
         for index, xml_title in enumerate(unmatched_xml):
-            if titles_match(expert_title, xml_title):
+            if titles_match(expert_title, xml_title, max_edit_share=max_edit_share):
                 unmatched_xml.pop(index)
                 break
         else:
