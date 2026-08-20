@@ -125,27 +125,24 @@ def title_page_index(protocol_path):
                 current_logical_page_number,
                 current_page_number,
             )
-            continue
-        if tag != "note" or elem.attrib.get("type") != "title":
-            continue
-
-        parent = elem.getparent()
-        title = normalize_space(" ".join(elem.itertext()))
-        record = {
-            "xml_id": elem.attrib.get(XML_ID, ""),
-            "title": title,
-            "page_facs": current_facs or "",
-            "page_number": current_page_number,
-            "logical_page_number": current_logical_page_number,
-            "section_type": parent.attrib.get("type", "") if parent is not None else "",
-            "section_id": parent.attrib.get(XML_ID, "") if parent is not None else "",
-        }
-        if current_facs:
-            by_exact[current_facs].append(record)
-        if current_page_number is not None:
-            by_page_number[current_page_number].append(record)
-        if current_logical_page_number is not None:
-            by_logical_page_number[current_logical_page_number].append(record)
+        elif tag == "note" and elem.attrib.get("type") == "title":
+            parent = elem.getparent()
+            title = normalize_space(" ".join(elem.itertext()))
+            record = {
+                "xml_id": elem.attrib.get(XML_ID, ""),
+                "title": title,
+                "page_facs": current_facs or "",
+                "page_number": current_page_number,
+                "logical_page_number": current_logical_page_number,
+                "section_type": parent.attrib.get("type", "") if parent is not None else "",
+                "section_id": parent.attrib.get(XML_ID, "") if parent is not None else "",
+            }
+            if current_facs:
+                by_exact[current_facs].append(record)
+            if current_page_number is not None:
+                by_page_number[current_page_number].append(record)
+            if current_logical_page_number is not None:
+                by_logical_page_number[current_logical_page_number].append(record)
 
     return by_exact, by_page_number, by_logical_page_number
 
