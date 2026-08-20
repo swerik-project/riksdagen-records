@@ -16,6 +16,7 @@ import sys
 import unicodedata
 from collections import defaultdict
 
+import editdistance
 import pandas as pd
 from scipy.stats import beta
 
@@ -42,30 +43,12 @@ def normalize_title(text):
     return re.sub(r"[\s.;:,-]+$", "", text)
 
 
-def levenshtein_distance(left, right):
-    if left == right:
-        return 0
-    if len(left) < len(right):
-        left, right = right, left
-
-    previous_row = list(range(len(right) + 1))
-    for i, left_char in enumerate(left, start=1):
-        current_row = [i]
-        for j, right_char in enumerate(right, start=1):
-            insertions = previous_row[j] + 1
-            deletions = current_row[j - 1] + 1
-            substitutions = previous_row[j - 1] + (left_char != right_char)
-            current_row.append(min(insertions, deletions, substitutions))
-        previous_row = current_row
-    return previous_row[-1]
-
-
 def titles_match(expert_title, xml_title):
     expert_norm = normalize_title(expert_title)
     xml_norm = normalize_title(xml_title)
     if not expert_norm or not xml_norm:
         return False
-    distance = levenshtein_distance(expert_norm, xml_norm)
+    distance = editdistance.eval(expert_norm, xml_norm)
     allowed_edits = max(1, round(max(len(expert_norm), len(xml_norm)) * 0.05))
     return distance <= allowed_edits
 
