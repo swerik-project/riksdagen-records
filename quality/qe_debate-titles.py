@@ -18,6 +18,7 @@ from collections import defaultdict
 
 import editdistance
 import pandas as pd
+import polars as pl
 from scipy.stats import beta
 
 os.environ.setdefault("MPLBACKEND", "Agg")
@@ -208,42 +209,51 @@ def accuracy(protocol_path, gold_standard):
 def update_decade_difference(decade_df, estimate_path, version):
     diff_path = os.path.join(estimate_path, "decade_difference.csv")
     if os.path.exists(diff_path):
-        existing = pd.read_csv(diff_path)
+        existing = pl.read_csv(diff_path)
         if version == "v99.99.99":
-            existing = existing[existing["version"] != "v99.99.99"]
-            combined = pd.concat([existing, decade_df], ignore_index=True)
-        elif version in existing["version"].unique():
+            existing = existing.filter(pl.col("version") != "v99.99.99")
+            combined = pl.concat([existing, decade_df], how="vertical")
+        elif version in existing.get_column("version").unique().to_list():
             print(f"Version {version} already exists in {diff_path}, skipping append.")
             combined = existing
         else:
-            combined = pd.concat([existing, decade_df], ignore_index=True)
+            combined = pl.concat([existing, decade_df], how="vertical")
     else:
         combined = decade_df
 
-    combined.to_csv(diff_path, index=False)
+    combined.write_csv(diff_path)
 
 
 def write_decade_estimates(estimate_path, version):
-    by_year = pd.read_csv(os.path.join(estimate_path, "upper_bound.csv"))
-    by_year = by_year[(by_year["correct"] + by_year["incorrect"]) > 0].copy()
-    by_year["decade"] = (by_year["year"] // 10) * 10
+    by_year = pl.read_csv(os.path.join(estimate_path, "upper_bound.csv"))
     decade_df = (
         by_year
-        .groupby("decade", as_index=False)[["correct", "incorrect"]]
-        .sum()
+        .filter((pl.col("correct") + pl.col("incorrect")) > 0)
+        .with_columns(decade=((pl.col("year") // 10) * 10))
+        .group_by("decade")
+        .agg(
+            pl.col("correct").sum(),
+            pl.col("incorrect").sum(),
+        )
+        .sort("decade")
+        .with_columns(
+            version=pl.lit(version),
+            accuracy=pl.col("correct") / (pl.col("correct") + pl.col("incorrect")),
+        )
+        .select("version", "decade", "correct", "incorrect", "accuracy")
     )
-    decade_df.insert(0, "version", version)
-    total = decade_df["correct"] + decade_df["incorrect"]
-    decade_df["accuracy"] = decade_df["correct"] / total
-    decade_df["lower"] = decade_df.apply(
-        lambda r: beta.ppf(0.05, r["correct"] + 1, r["incorrect"] + 1),
-        axis=1,
+
+    correct = decade_df.get_column("correct").to_list()
+    incorrect = decade_df.get_column("incorrect").to_list()
+    decade_df = decade_df.with_columns(
+        lower=pl.Series(
+            [beta.ppf(0.05, c + 1, i + 1) for c, i in zip(correct, incorrect)]
+        ),
+        upper=pl.Series(
+            [beta.ppf(0.95, c + 1, i + 1) for c, i in zip(correct, incorrect)]
+        ),
     )
-    decade_df["upper"] = decade_df.apply(
-        lambda r: beta.ppf(0.95, r["correct"] + 1, r["incorrect"] + 1),
-        axis=1,
-    )
-    decade_df.to_csv(os.path.join(estimate_path, "decade_bound.csv"), index=False)
+    decade_df.write_csv(os.path.join(estimate_path, "decade_bound.csv"))
     update_decade_difference(decade_df, estimate_path, version)
 
 
