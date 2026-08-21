@@ -5,7 +5,7 @@ on:
     paths:
       - data/**
       - test/**
-      - !test/results/
+      - '!test/results/**'
       - test/.run
       - .github/workflows/push.yml
   pull_request:
