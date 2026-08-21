@@ -10,6 +10,9 @@ on:
     branches:
       - 'main'
       - 'dev'
+    paths-ignore:
+      - 'test/results/**'
+      - 'quality/estimates/**'
   workflow_dispatch:
 
 jobs:
@@ -106,6 +109,23 @@ jobs:
       run: |
         export METADATA_PATH="riksdagen-persons/data"
         python -m unittest test.mp
+
+  speaker-introduction-regressions:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
+      with:
+        python-version: ${{ matrix.python-version }}
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Test known speaker introduction regressions
+      run: |
+        python -m unittest test.speaker_introductions
 
   next-prev:
     runs-on: ubuntu-latest

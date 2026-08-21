@@ -21,10 +21,15 @@ class Test(unittest.TestCase):
         cls.records = sorted(glob("data/*/*.xml"))
 
     def test_not_phantom_speech_elems(self):
+        """
+        Check that all speech elements listed under the constitution
+        element actually exist in the record.
+        """
         phantom_speech_elements = {}
 
         no_records = len(self.records)
         records_w_no_speeches = 0
+        
         for record in tqdm(self.records):
             speech_elems = []
             root, ns = parse_tei(record)
