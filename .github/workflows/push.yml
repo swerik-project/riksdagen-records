@@ -28,7 +28,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Check public API folder structure
       run: |
-        python -m unittest test/api-contract.py
+        python -m unittest test.api-contract
 
   schemas:
     runs-on: ubuntu-latest
