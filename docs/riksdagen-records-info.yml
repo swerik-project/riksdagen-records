@@ -25,6 +25,8 @@ dataset:
       - riksdagsprotokoll
       - Sveriges riksdag
       - Parla-CLARIN
+  themes:
+    - http://publications.europa.eu/resource/authority/data-theme/GOVE
   type: dataset
   landing_page_url: https://github.com/swerik-project/the-swedish-parliament-corpus
   license: ""
@@ -50,3 +52,12 @@ documentation:
 citation:
   cff_url: https://github.com/swerik-project/riksdagen-records/blob/main/CITATION.cff
 
+relations:
+  related_repositories:
+    - https://github.com/swerik-project/riksdagen-persons
+
+distributions:
+  - name: records.zip
+    download_url: https://github.com/swerik-project/riksdagen-records/releases/latest/download/records.zip
+    media_type: application/zip
+    format: ZIP

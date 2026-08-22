@@ -50,6 +50,7 @@ REQUIRED_PATHS = (
     ("dataset", "languages"),
     ("dataset", "keywords", "en"),
     ("dataset", "keywords", "sv"),
+    ("dataset", "themes"),
     ("dataset", "type"),
     ("publisher", "name", "en"),
     ("publisher", "name", "sv"),
@@ -65,6 +66,8 @@ LIST_PATHS = (
     ("dataset", "languages"),
     ("dataset", "keywords", "en"),
     ("dataset", "keywords", "sv"),
+    ("dataset", "themes"),
+    ("distributions",),
     ("relations", "related_repositories"),
 )
 
@@ -195,6 +198,19 @@ class RepositoryInfoTest(unittest.TestCase):
             for key in ("name", "download_url", "media_type", "format"):
                 self.assertIn(key, distribution, f"Distribution is missing required key: {key}")
 
+    def test_records_zip_distribution_uses_latest_release_url(self):
+        """Check that records.zip is available through a version-independent URL."""
+        distributions = get_path(self.data, ("distributions",))
+        records = [d for d in distributions if d.get("name") == "records.zip"]
+        self.assertEqual(len(records), 1, "Expected exactly one records.zip distribution")
+        self.assertEqual(
+            records[0]["download_url"],
+            "https://github.com/swerik-project/riksdagen-records/releases/latest/download/records.zip",
+            "records.zip must use the GitHub latest-release URL rather than a versioned tag URL",
+        )
+        self.assertEqual(records[0]["media_type"], "application/zip")
+        self.assertEqual(records[0]["format"], "ZIP")
+
     def test_present_public_urls_are_absolute(self):
         """Check that public URL fields are absolute when they are filled in."""
         for path, value in iter_url_values(self.data):
@@ -216,6 +232,14 @@ class RepositoryInfoTest(unittest.TestCase):
         )
         datasets = root.findall("{http://www.w3.org/ns/dcat#}Dataset")
         self.assertEqual(len(datasets), 1, "Generated RDF/XML must contain one dcat:Dataset")
+        catalogs = root.findall("{http://www.w3.org/ns/dcat#}Catalog")
+        self.assertEqual(len(catalogs), 1, "Generated RDF/XML must contain one dcat:Catalog")
+        catalog_dataset_links = catalogs[0].findall("{http://www.w3.org/ns/dcat#}dataset")
+        self.assertEqual(len(catalog_dataset_links), 1, "Generated dcat:Catalog must link to one dataset")
+        themes = datasets[0].findall("{http://www.w3.org/ns/dcat#}theme")
+        self.assertEqual(len(themes), 1, "Generated dcat:Dataset must include one dcat:theme")
+        distributions = root.findall("{http://www.w3.org/ns/dcat#}Distribution")
+        self.assertEqual(len(distributions), 1, "Generated RDF/XML must contain one dcat:Distribution")
         node_id = "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}nodeID"
         for element in root.iter():
             self.assertNotIn(

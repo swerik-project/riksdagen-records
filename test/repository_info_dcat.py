@@ -22,6 +22,7 @@ DCT_NS = "http://purl.org/dc/terms/"
 FOAF_NS = "http://xmlns.com/foaf/0.1/"
 VCARD_NS = "http://www.w3.org/2006/vcard/ns#"
 XML_NS = "http://www.w3.org/XML/1998/namespace"
+DATA_THEME_VOCABULARY = "http://publications.europa.eu/resource/authority/data-theme"
 
 NS = {
     "rdf": RDF_NS,
@@ -80,6 +81,23 @@ def repository_info_to_dcat_rdf(info):
 
     root = ET.Element(qname(RDF_NS, "RDF"))
 
+    catalog_uri = f"{repository['url']}#catalog"
+    catalog_element = ET.SubElement(root, qname(DCAT_NS, "Catalog"))
+    catalog_element.set(qname(RDF_NS, "about"), catalog_uri)
+    catalog_titles = {
+        language: f"{title} metadata catalog"
+        for language, title in dataset.get("title", {}).items()
+    }
+    catalog_descriptions = {
+        language: f"DCAT-AP-SE metadata catalog for {title}."
+        for language, title in dataset.get("title", {}).items()
+    }
+    lang_text(catalog_element, DCT_NS, "title", catalog_titles)
+    lang_text(catalog_element, DCT_NS, "description", catalog_descriptions)
+    resource_element(catalog_element, DCT_NS, "publisher", publisher.get("url", ""))
+    resource_element(catalog_element, DCAT_NS, "dataset", repository["url"])
+    resource_element(catalog_element, DCAT_NS, "themeTaxonomy", DATA_THEME_VOCABULARY)
+
     dataset_element = ET.SubElement(root, qname(DCAT_NS, "Dataset"))
     dataset_element.set(qname(RDF_NS, "about"), repository["url"])
     lang_text(dataset_element, DCT_NS, "title", dataset.get("title", {}))
@@ -98,6 +116,9 @@ def repository_info_to_dcat_rdf(info):
             keyword_element = text_element(dataset_element, DCAT_NS, "keyword", keyword)
             if keyword_element is not None:
                 keyword_element.set(qname(XML_NS, "lang"), language)
+
+    for theme in dataset.get("themes", []):
+        resource_element(dataset_element, DCAT_NS, "theme", theme)
 
     resource_element(dataset_element, DCT_NS, "publisher", publisher.get("url", ""))
     resource_element(dataset_element, DCAT_NS, "contactPoint", contact.get("url", ""))
