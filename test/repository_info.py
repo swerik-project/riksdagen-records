@@ -14,11 +14,16 @@ YAML file in docs/. Fuller documentation is in test/docs/repository_info.md.
 """
 
 from pathlib import Path
+import importlib
 from urllib.parse import urlparse
 import sys
+import tempfile
 import unittest
+from xml.etree import ElementTree as ET
 
 import yaml
+
+from test.repository_info_dcat import write_dcat_rdf
 
 
 REQUIRED_TOP_LEVEL_KEYS = {
@@ -62,6 +67,9 @@ LIST_PATHS = (
     ("dataset", "keywords", "sv"),
     ("relations", "related_repositories"),
 )
+
+UPSTREAM_DCAT_MODULE = "pyriksdagen.repository_info"
+UPSTREAM_DCAT_FUNCTION = "write_dcat_rdf"
 
 
 def repository_root():
@@ -194,6 +202,42 @@ class RepositoryInfoTest(unittest.TestCase):
                 continue
             dotted = ".".join(path)
             self.assertTrue(is_absolute_url(value), f"{dotted} must be an absolute HTTP(S) URL")
+
+    def test_local_dcat_generator_writes_rdf_xml(self):
+        """Check that the temporary local DCAT generator writes parseable RDF/XML."""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            output_path = Path(tmpdir) / "riksdagen-records.rdf"
+            write_dcat_rdf(self.path, output_path)
+            root = ET.parse(output_path).getroot()
+        self.assertEqual(
+            root.tag,
+            "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF",
+            "Generated DCAT file must be RDF/XML with rdf:RDF as the root element",
+        )
+        datasets = root.findall("{http://www.w3.org/ns/dcat#}Dataset")
+        self.assertEqual(len(datasets), 1, "Generated RDF/XML must contain one dcat:Dataset")
+        node_id = "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}nodeID"
+        for element in root.iter():
+            self.assertNotIn(
+                node_id,
+                element.attrib,
+                "Generated RDF/XML must avoid RDF blank node identifiers for core resources",
+            )
+
+    def test_pyriksdagen_dcat_generator_is_not_available_yet(self):
+        """Fail once pyriksdagen ships the shared DCAT generator."""
+        try:
+            upstream_module = importlib.import_module(UPSTREAM_DCAT_MODULE)
+        except ImportError:
+            return
+        self.assertFalse(
+            hasattr(upstream_module, UPSTREAM_DCAT_FUNCTION),
+            (
+                f"{UPSTREAM_DCAT_MODULE}.{UPSTREAM_DCAT_FUNCTION} now exists. "
+                "Remove test/repository_info_dcat.py and import the pyriksdagen "
+                "function in this test/workflow instead."
+            ),
+        )
 
 
 if __name__ == "__main__":
