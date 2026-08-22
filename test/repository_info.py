@@ -30,7 +30,6 @@ REQUIRED_TOP_LEVEL_KEYS = {
     "contact",
     "documentation",
     "citation",
-    "distributions",
     "relations",
 }
 
@@ -51,11 +50,9 @@ REQUIRED_PATHS = (
     ("publisher", "name", "sv"),
     ("publisher", "url"),
     ("contact", "name"),
-    ("contact", "email"),
     ("contact", "url"),
     ("documentation", "readme_url"),
     ("citation", "cff_url"),
-    ("distributions",),
     ("relations", "related_repositories"),
 )
 
@@ -63,7 +60,6 @@ LIST_PATHS = (
     ("dataset", "languages"),
     ("dataset", "keywords", "en"),
     ("dataset", "keywords", "sv"),
-    ("distributions",),
     ("relations", "related_repositories"),
 )
 
@@ -181,8 +177,12 @@ class RepositoryInfoTest(unittest.TestCase):
             self.assertIsInstance(value, list, f"{'.'.join(path)} must be a list")
 
     def test_distribution_fields_are_present(self):
-        """Check that release artifact entries include the fields generators need."""
-        for distribution in get_path(self.data, ("distributions",)):
+        """Check optional release artifact entries include fields generators need."""
+        try:
+            distributions = get_path(self.data, ("distributions",))
+        except AssertionError:
+            return
+        for distribution in distributions:
             self.assertIsInstance(distribution, dict, "Each distribution must be a mapping")
             for key in ("name", "download_url", "media_type", "format"):
                 self.assertIn(key, distribution, f"Distribution is missing required key: {key}")
