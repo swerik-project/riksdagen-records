@@ -51,6 +51,7 @@ REQUIRED_PATHS = (
     ("dataset", "keywords", "en"),
     ("dataset", "keywords", "sv"),
     ("dataset", "themes"),
+    ("dataset", "temporal_coverage", "start"),
     ("dataset", "type"),
     ("publisher", "name", "en"),
     ("publisher", "name", "sv"),
@@ -195,7 +196,7 @@ class RepositoryInfoTest(unittest.TestCase):
             return
         for distribution in distributions:
             self.assertIsInstance(distribution, dict, "Each distribution must be a mapping")
-            for key in ("name", "download_url", "media_type", "format"):
+            for key in ("name", "access_url", "download_url", "media_type", "format"):
                 self.assertIn(key, distribution, f"Distribution is missing required key: {key}")
 
     def test_records_zip_distribution_uses_latest_release_url(self):
@@ -204,12 +205,31 @@ class RepositoryInfoTest(unittest.TestCase):
         records = [d for d in distributions if d.get("name") == "records.zip"]
         self.assertEqual(len(records), 1, "Expected exactly one records.zip distribution")
         self.assertEqual(
+            records[0]["access_url"],
+            "https://github.com/swerik-project/riksdagen-records/releases/latest/download/records.zip",
+            "records.zip must use the GitHub latest-release URL as access URL",
+        )
+        self.assertEqual(
             records[0]["download_url"],
             "https://github.com/swerik-project/riksdagen-records/releases/latest/download/records.zip",
             "records.zip must use the GitHub latest-release URL rather than a versioned tag URL",
         )
         self.assertEqual(records[0]["media_type"], "application/zip")
         self.assertEqual(records[0]["format"], "ZIP")
+
+    def test_temporal_coverage_has_start_year(self):
+        """Check that temporal coverage can become a DCAT PeriodOfTime."""
+        temporal_coverage = get_path(self.data, ("dataset", "temporal_coverage"))
+        self.assertIsInstance(
+            temporal_coverage,
+            dict,
+            "dataset.temporal_coverage must be a mapping with start/end fields",
+        )
+        self.assertEqual(
+            temporal_coverage["start"],
+            "1867",
+            "dataset.temporal_coverage.start must describe the first covered year",
+        )
 
     def test_present_public_urls_are_absolute(self):
         """Check that public URL fields are absolute when they are filled in."""
@@ -240,6 +260,18 @@ class RepositoryInfoTest(unittest.TestCase):
         self.assertEqual(len(themes), 1, "Generated dcat:Dataset must include one dcat:theme")
         distributions = root.findall("{http://www.w3.org/ns/dcat#}Distribution")
         self.assertEqual(len(distributions), 1, "Generated RDF/XML must contain one dcat:Distribution")
+        access_urls = distributions[0].findall("{http://www.w3.org/ns/dcat#}accessURL")
+        self.assertEqual(len(access_urls), 1, "Generated dcat:Distribution must include dcat:accessURL")
+        periods = root.findall("{http://purl.org/dc/terms/}PeriodOfTime")
+        self.assertEqual(len(periods), 1, "Generated RDF/XML must contain one dct:PeriodOfTime")
+        start_dates = periods[0].findall("{http://www.w3.org/ns/dcat#}startDate")
+        self.assertEqual(len(start_dates), 1, "Generated dct:PeriodOfTime must include dcat:startDate")
+        self.assertEqual(start_dates[0].text, "1867")
+        self.assertEqual(
+            start_dates[0].attrib.get("{http://www.w3.org/1999/02/22-rdf-syntax-ns#}datatype"),
+            "http://www.w3.org/2001/XMLSchema#gYear",
+            "Generated dcat:startDate must use xsd:gYear for year-only coverage",
+        )
         node_id = "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}nodeID"
         for element in root.iter():
             self.assertNotIn(

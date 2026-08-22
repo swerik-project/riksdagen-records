@@ -30,7 +30,8 @@ dataset:
   type: dataset
   landing_page_url: https://github.com/swerik-project/the-swedish-parliament-corpus
   license: ""
-  temporal_coverage: "1867-"
+  temporal_coverage:
+    start: "1867"
 
 publisher:
   name:
@@ -58,6 +59,7 @@ relations:
 
 distributions:
   - name: records.zip
+    access_url: https://github.com/swerik-project/riksdagen-records/releases/latest/download/records.zip
     download_url: https://github.com/swerik-project/riksdagen-records/releases/latest/download/records.zip
     media_type: application/zip
     format: ZIP
