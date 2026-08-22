@@ -38,6 +38,10 @@ class Test(unittest.TestCase):
 
 
     def test_not_phantom_speech_elems(self):
+        """
+        Check that all speech elements listed under the constitution
+        element actually exist in the record.
+        """
         for record in tqdm(self.records):
             speech_elems = []
             root, ns = parse_tei(record)
