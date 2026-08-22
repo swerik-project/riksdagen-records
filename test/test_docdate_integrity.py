@@ -3,8 +3,8 @@ Data integrity tests for protocol docDate guarantees.
 
 These tests check release-blocking date guarantees for the records corpus:
 protocols must expose parseable TEI ``docDate`` values, protocol date spans
-should be short, adjacent protocol date ranges must not overlap, and pre-1875
-filename dates must be represented exactly in ``docDate``.
+should be short, same-chamber protocol date ranges must not move backwards in
+time, and pre-1875 filename dates must be represented exactly in ``docDate``.
 
 The tests use the XML corpus in ``data/`` as input and write structured
 diagnostics to ``test/results/`` when a guarantee fails. Fuller documentation
@@ -29,7 +29,7 @@ DATE_FORMAT = "%Y-%m-%d"
 # release-blocking for regressions while allowing later curation PRs to ratchet
 # the ceilings down as date quality improves.
 MAX_LONG_SPANS = 1206
-MAX_RANGE_OVERLAPS = 5003
+MAX_RANGE_OVERLAPS = 2753
 MAX_FILENAME_MISMATCHES = 460
 
 
@@ -87,9 +87,12 @@ class DocDateIntegrityTest(unittest.TestCase):
         LOGGER.info("Checking docDate integrity for %s protocols", len(protocols))
 
         previous_path = None
+        previous_chamber = None
         previous_last_date = None
 
         for path in protocols:
+            metadata = infer_metadata(path)
+            chamber = metadata.get("chamber")
             root, _ = parse_tei(path)
             _, docdates = get_doc_dates(root)
             parsed_dates = []
@@ -130,24 +133,21 @@ class DocDateIntegrityTest(unittest.TestCase):
                         "span_days": str(delta.days),
                     })
 
-            if previous_last_date is not None:
-                if previous_last_date == first_date:
-                    issue = "share a day"
-                elif previous_last_date > first_date:
-                    issue = "multiday overlap"
-                else:
-                    issue = None
+            if (
+                previous_last_date is not None
+                and previous_chamber == chamber
+                and previous_last_date > first_date
+            ):
+                cls.range_overlaps.append({
+                    "previous_file": previous_path,
+                    "file": path,
+                    "previous_chamber": previous_chamber,
+                    "chamber": chamber,
+                    "previous_last_docdate": previous_last_date.strftime(DATE_FORMAT),
+                    "first_docdate": first_date.strftime(DATE_FORMAT),
+                    "issue": "same-chamber date range overlap",
+                })
 
-                if issue is not None:
-                    cls.range_overlaps.append({
-                        "previous_file": previous_path,
-                        "file": path,
-                        "previous_last_docdate": previous_last_date.strftime(DATE_FORMAT),
-                        "first_docdate": first_date.strftime(DATE_FORMAT),
-                        "issue": issue,
-                    })
-
-            metadata = infer_metadata(path)
             year = metadata.get("year")
             expected = expected_pre_1875_filename_date(path, year) if year and year < 1875 else None
             if expected is not None:
@@ -168,6 +168,7 @@ class DocDateIntegrityTest(unittest.TestCase):
                     })
 
             previous_path = path
+            previous_chamber = chamber
             previous_last_date = last_date
 
         cls.metadata_errors_path = write_diagnostics(
@@ -183,7 +184,15 @@ class DocDateIntegrityTest(unittest.TestCase):
         cls.range_overlaps_path = write_diagnostics(
             "docdate-range-overlaps.csv",
             cls.range_overlaps,
-            ["previous_file", "file", "previous_last_docdate", "first_docdate", "issue"],
+            [
+                "previous_file",
+                "file",
+                "previous_chamber",
+                "chamber",
+                "previous_last_docdate",
+                "first_docdate",
+                "issue",
+            ],
         ) if len(cls.range_overlaps) > MAX_RANGE_OVERLAPS else None
         cls.filename_mismatches_path = write_diagnostics(
             "docdate-filename-mismatches.csv",
@@ -215,7 +224,7 @@ class DocDateIntegrityTest(unittest.TestCase):
         )
 
     def test_protocol_date_ranges_do_not_overlap_in_sequence(self):
-        """Adjacent protocols in corpus order should not have overlapping date ranges."""
+        """Adjacent same-chamber protocols should not move backwards in time."""
         self.assertLessEqual(
             len(self.range_overlaps),
             MAX_RANGE_OVERLAPS,
