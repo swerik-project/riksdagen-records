@@ -85,6 +85,11 @@ def info_path(repo_root=None):
     return repo_root / "docs" / f"{repo_root.name}-info.yml"
 
 
+def dcat_path(repo_root=None):
+    repo_root = repo_root or repository_root()
+    return repo_root / "docs" / "dcat" / f"{repo_root.name}.rdf"
+
+
 def load_repository_info(path=None):
     path = path or info_path()
     with path.open(encoding="utf-8") as handle:
@@ -132,6 +137,7 @@ class RepositoryInfoTest(unittest.TestCase):
     def setUpClass(cls):
         cls.repo_root = repository_root()
         cls.path = info_path(cls.repo_root)
+        cls.dcat_path = dcat_path(cls.repo_root)
         cls.data = load_repository_info(cls.path)
 
     def test_expected_file_exists(self):
@@ -280,8 +286,24 @@ class RepositoryInfoTest(unittest.TestCase):
                 "Generated RDF/XML must avoid RDF blank node identifiers for core resources",
             )
 
-    def test_pyriksdagen_dcat_generator_is_not_available_yet(self):
-        """Fail once pyriksdagen ships the shared DCAT generator."""
+    def test_checked_in_dcat_file_matches_repository_info(self):
+        """Check that the checked-in DCAT file is current with the YAML source."""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            output_path = Path(tmpdir) / self.dcat_path.name
+            write_dcat_rdf(self.path, output_path)
+            generated = output_path.read_text(encoding="utf-8")
+        checked_in = self.dcat_path.read_text(encoding="utf-8")
+        self.assertEqual(
+            checked_in,
+            generated,
+            (
+                f"{self.dcat_path} is stale. Regenerate it from {self.path} "
+                "with test.repository_info_dcat.write_dcat_rdf."
+            ),
+        )
+
+    def test_installed_pyriksdagen_dcat_generator_is_not_available_yet(self):
+        """Fail once the installed pyriksdagen package ships the DCAT generator."""
         try:
             upstream_module = importlib.import_module(UPSTREAM_DCAT_MODULE)
         except ImportError:

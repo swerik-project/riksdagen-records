@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - data/**
+      - docs/*-info.yml
+      - docs/dcat/**
       - requirements.txt
       - test/**
       - .github/workflows/push.yml
