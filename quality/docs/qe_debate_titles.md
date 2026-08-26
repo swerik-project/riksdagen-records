@@ -58,7 +58,9 @@ Annotate bold text only if it is visually separated from the body text and label
 Table of contents headings, such as "Innehållsförteckning", are not debate headers. They help navigate the document, but they do not introduce a handled item followed by speeches.
 
 We evaluate debate titles on the core property:
-**Presence (coverage):** Is there a debate title where there should be one?
+**Correctness:** Does the XML contain the same number of debate titles on the sampled page as the expert annotation, and do the title texts match?
+
+For this estimate, title text is normalized before comparison. Normalization means that Unicode is standardized, whitespace runs are collapsed to a single space, case is ignored, and trailing punctuation such as `.`, `;`, `:`, `,`, and `-` is ignored. A small number of character-level differences is allowed after normalization to avoid counting minor OCR artefacts as errors: the edit distance may be at most one character, or about 5 percent of the longer normalized title, whichever is larger.
 
 ## Scope
 
