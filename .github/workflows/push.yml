@@ -101,6 +101,9 @@ jobs:
     - name: Test there are no empty u or seg elements
       run: |
         python -m unittest test.empty-speech
+    - name: Test that the references in the speech elems exist in the data
+      run: |
+        python -m unittest test.speech-elems-exist
 
   mp:
     runs-on: ubuntu-latest
