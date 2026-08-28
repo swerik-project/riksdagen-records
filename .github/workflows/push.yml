@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - data/**
+      - test/**
+      - '!test/results/**'
       - test/.run
       - .github/workflows/push.yml
   pull_request:
@@ -16,6 +18,21 @@ on:
   workflow_dispatch:
 
 jobs:
+  api-contract:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Check public API folder structure
+      run: |
+        python -m unittest test.api-contract
+
   schemas:
     runs-on: ubuntu-latest
     strategy:
@@ -101,6 +118,9 @@ jobs:
     - name: Test there are no empty u or seg elements
       run: |
         python -m unittest test.empty-speech
+    - name: Test that the references in the speech elems exist in the data
+      run: |
+        python -m unittest test.speech-elems-exist
 
   mp:
     runs-on: ubuntu-latest
