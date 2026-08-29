@@ -37,12 +37,10 @@ MAX_SPAN_DAYS = 7
 MAX_LONG_SPANS = 1206
 MAX_RANGE_OVERLAPS = 2753
 MAX_FILENAME_MISMATCHES = 460
-MAX_OUTSIDE_RIKSDAG_YEAR_RANGE = 624
+MAX_OUTSIDE_RIKSDAG_YEAR_RANGE = 626
+MAX_MISSING_RIKSDAG_YEAR_RANGE = 0
 
-RIKSDAG_YEAR_PATHS = [
-    Path("../riksdagen-persons/data/riksdag-year.csv"),
-    Path("test/data/riksdag-year.csv"),
-]
+RIKSDAG_YEAR_PATH = Path("test/data/riksdag-year.csv")
 CHAMBER_CODES = {
     "Första kammaren": "fk",
     "Andra kammaren": "ak",
@@ -127,34 +125,21 @@ def expected_pre_1875_filename_date(path, year):
     return f"{year}-{mmdd[:2]}-{mmdd[2:]}"
 
 
-def fallback_riksdag_year_ranges(folder):
-    """Infer broad expected date ranges from the data folder name."""
-    year = int(folder[:4])
-    if len(folder) == 6 and folder.isdigit():
-        end_year = (year // 100) * 100 + int(folder[4:])
-        if end_year < year:
-            end_year += 100
-        return [(datetime(year, 9, 1), datetime(end_year, 8, 31))]
-    return [(datetime(year, 1, 1), datetime(year, 12, 31))]
-
-
 def load_riksdag_year_ranges():
-    """Load expected Riksdag-year ranges from riksdagen-persons when available."""
+    """Load expected Riksdag-year ranges from the vendored test fixture."""
     global _RIKSDAG_YEAR_RANGES
     if _RIKSDAG_YEAR_RANGES is not None:
         return _RIKSDAG_YEAR_RANGES
 
-    ranges = {}
-    source = next((path for path in RIKSDAG_YEAR_PATHS if path.exists()), None)
-    if source is None:
-        LOGGER.warning(
-            "No riksdag-year.csv found; falling back to folder-name date ranges"
+    if not RIKSDAG_YEAR_PATH.exists():
+        raise FileNotFoundError(
+            f"Missing {RIKSDAG_YEAR_PATH}; refresh it from "
+            "../riksdagen-persons/data/riksdag-year.csv"
         )
-        _RIKSDAG_YEAR_RANGES = ranges
-        return _RIKSDAG_YEAR_RANGES
 
-    LOGGER.info("Loading Riksdag year ranges from %s", source)
-    with source.open(newline="") as infile:
+    ranges = {}
+    LOGGER.info("Loading Riksdag year ranges from %s", RIKSDAG_YEAR_PATH)
+    with RIKSDAG_YEAR_PATH.open(newline="") as infile:
         for row in csv.DictReader(infile):
             start = parse_iso_date(row.get("start"))
             end = parse_iso_date(row.get("end"))
@@ -176,8 +161,6 @@ def expected_riksdag_year_ranges(path, chamber):
     if chamber_code is not None:
         expected.extend(ranges.get((folder, chamber_code), []))
     expected.extend(ranges.get((folder, ""), []))
-    if not expected:
-        expected = fallback_riksdag_year_ranges(folder)
     return sorted(expected)
 
 
@@ -269,27 +252,37 @@ def collect_docdate_errors():
                     )
 
                 expected_ranges = expected_riksdag_year_ranges(path, chamber)
-                outside_docdates = dates_outside_ranges(
-                    [(format_date(date), date) for date in parsed_dates],
-                    expected_ranges,
-                )
-                if outside_docdates:
-                    if len(outside_docdates) == len(parsed_dates):
-                        issue = "all docDates outside expected Riksdag year range"
-                    else:
-                        issue = "some docDates outside expected Riksdag year range"
+                if not expected_ranges:
                     errors.append(
                         docdate_error(
-                            "outside_riksdag_year_range",
+                            "missing_riksdag_year_range",
                             path,
-                            issue,
-                            docdates=join_dates(docdates),
-                            expected_start=format_date(expected_ranges[0][0]),
-                            expected_end=format_date(expected_ranges[-1][1]),
-                            expected_ranges=join_ranges(expected_ranges),
-                            outside_docdates=join_dates(outside_docdates),
+                            "missing expected Riksdag-year range for folder/chamber",
+                            chamber=str(chamber),
                         )
                     )
+                else:
+                    outside_docdates = dates_outside_ranges(
+                        [(format_date(date), date) for date in parsed_dates],
+                        expected_ranges,
+                    )
+                    if outside_docdates:
+                        if len(outside_docdates) == len(parsed_dates):
+                            issue = "all docDates outside expected Riksdag year range"
+                        else:
+                            issue = "some docDates outside expected Riksdag year range"
+                        errors.append(
+                            docdate_error(
+                                "outside_riksdag_year_range",
+                                path,
+                                issue,
+                                docdates=join_dates(docdates),
+                                expected_start=format_date(expected_ranges[0][0]),
+                                expected_end=format_date(expected_ranges[-1][1]),
+                                expected_ranges=join_ranges(expected_ranges),
+                                outside_docdates=join_dates(outside_docdates),
+                            )
+                        )
 
                 year = metadata.get("year")
                 expected = (
@@ -393,6 +386,15 @@ def test_docdates_stay_inside_expected_riksdag_year_range():
     )
 
 
+def test_protocols_have_expected_riksdag_year_ranges():
+    """Every protocol folder/chamber should have an expected Riksdag-year range."""
+    df_missing = errors_of_type("missing_riksdag_year_range")
+    assert len(df_missing) <= MAX_MISSING_RIKSDAG_YEAR_RANGE, (
+        f"{len(df_missing)} protocol(s) lack expected Riksdag-year ranges, "
+        f"exceeding baseline {MAX_MISSING_RIKSDAG_YEAR_RANGE}; see {RESULTS_PATH}"
+    )
+
+
 def test_known_199192_out_of_range_docdates_are_reported():
     """Known issue-234 examples should be visible in range diagnostics until fixed."""
     df_outside = errors_of_type("outside_riksdag_year_range")
@@ -427,6 +429,9 @@ def load_tests(loader, tests, pattern):
     suite.addTest(unittest.FunctionTestCase(test_pre_1875_filename_dates_match_docdates))
     suite.addTest(
         unittest.FunctionTestCase(test_docdates_stay_inside_expected_riksdag_year_range)
+    )
+    suite.addTest(
+        unittest.FunctionTestCase(test_protocols_have_expected_riksdag_year_ranges)
     )
     suite.addTest(
         unittest.FunctionTestCase(test_known_199192_out_of_range_docdates_are_reported)
