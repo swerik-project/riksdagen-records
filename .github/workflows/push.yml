@@ -302,6 +302,7 @@ jobs:
     steps:
       - name: Install fish shell
         uses: fish-shop/install-fish-shell@v2
-      - name: check that Doc IDs appear in TEI elem, doc ID == filename, doc ID used in facs
+      - name: Ensure all tests are in CI
         run: |
-          fish test/ensure_ci.fish
+          ls
+          fish ./test/ensure_ci.fish
