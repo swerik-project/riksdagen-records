@@ -51,8 +51,10 @@
             <h2>Submodules</h2>
             <ul>
                     <li><a href="test/altocheck.html">altocheck</a></li>
-                    <li><a href="test/docdates.html">docdates</a></li>
+                    <li><a href="test/altocheck_dice.html">altocheck_dice</a></li>
+                    <li><a href="test/api-contract.html">api-contract</a></li>
                     <li><a href="test/empty-speech.html">empty-speech</a></li>
+                    <li><a href="test/facscheck.html">facscheck</a></li>
                     <li><a href="test/mp.html">mp</a></li>
                     <li><a href="test/next_prev.html">next_prev</a></li>
                     <li><a href="test/paragraph_has_id.html">paragraph_has_id</a></li>
@@ -60,15 +62,22 @@
                     <li><a href="test/prot-not-empty.html">prot-not-empty</a></li>
                     <li><a href="test/records-in-sequence.html">records-in-sequence</a></li>
                     <li><a href="test/schemas.html">schemas</a></li>
+                    <li><a href="test/snabbprotokoll.html">snabbprotokoll</a></li>
+                    <li><a href="test/speaker-mapping-coverage-threshold.html">speaker-mapping-coverage-threshold</a></li>
+                    <li><a href="test/speaker_introductions.html">speaker_introductions</a></li>
                     <li><a href="test/speech-elems-exist.html">speech-elems-exist</a></li>
                     <li><a href="test/test-speaker-mapping-integrity.html">test-speaker-mapping-integrity</a></li>
                     <li><a href="test/test_doc-id.html">test_doc-id</a></li>
+                    <li><a href="test/test_docdate_filename_dates.html">test_docdate_filename_dates</a></li>
+                    <li><a href="test/test_docdate_integrity.html">test_docdate_integrity</a></li>
+                    <li><a href="test/test_protocol_body_integrity.html">test_protocol_body_integrity</a></li>
+                    <li><a href="test/test_speaker_mapping_regressions.html">test_speaker_mapping_regressions</a></li>
                     <li><a href="test/unchanged.html">unchanged</a></li>
                     <li><a href="test/validate_parlaclarin.html">validate_parlaclarin</a></li>
             </ul>
 
 
-            <footer>v1.6.0</footer>
+            <footer>v1.6.1</footer>
 
         <a class="attribution" title="pdoc: Python API documentation generator" href="https://pdoc.dev" target="_blank">
             built with <span class="visually-hidden">pdoc</span><img
@@ -139,6 +148,8 @@
 <p>Check there are no empty speeches.</p>
 
 <h2 id="-6"> </h2>
+
+<h3 id="test_docdate_integritypy">test_docdate_integrity.py</h3>
 
 <h3 id="mppy">mp.py</h3>
 
@@ -227,41 +238,48 @@
 </span><span id="L-45"><a href="#L-45"><span class="linenos">45</span></a><span class="sd">            :start-after: Summary</span>
 </span><span id="L-46"><a href="#L-46"><span class="linenos">46</span></a><span class="sd">            :end-before: Test Cases</span>
 </span><span id="L-47"><a href="#L-47"><span class="linenos">47</span></a>
-</span><span id="L-48"><a href="#L-48"><span class="linenos">48</span></a><span class="sd">### mp.py</span>
-</span><span id="L-49"><a href="#L-49"><span class="linenos">49</span></a>
-</span><span id="L-50"><a href="#L-50"><span class="linenos">50</span></a><span class="sd">.. include:: docs/mp.md</span>
-</span><span id="L-51"><a href="#L-51"><span class="linenos">51</span></a><span class="sd">            :start-after: Summary</span>
-</span><span id="L-52"><a href="#L-52"><span class="linenos">52</span></a><span class="sd">            :end-before: Test Cases</span>
-</span><span id="L-53"><a href="#L-53"><span class="linenos">53</span></a>
+</span><span id="L-48"><a href="#L-48"><span class="linenos">48</span></a>
+</span><span id="L-49"><a href="#L-49"><span class="linenos">49</span></a><span class="sd">### test_docdate_integrity.py</span>
+</span><span id="L-50"><a href="#L-50"><span class="linenos">50</span></a>
+</span><span id="L-51"><a href="#L-51"><span class="linenos">51</span></a><span class="sd">.. include:: docs/docdate_integrity.md</span>
+</span><span id="L-52"><a href="#L-52"><span class="linenos">52</span></a><span class="sd">            :start-after: Summary</span>
+</span><span id="L-53"><a href="#L-53"><span class="linenos">53</span></a><span class="sd">            :end-before: Test Cases</span>
 </span><span id="L-54"><a href="#L-54"><span class="linenos">54</span></a>
-</span><span id="L-55"><a href="#L-55"><span class="linenos">55</span></a><span class="sd">### paragraph_has_id.py</span>
+</span><span id="L-55"><a href="#L-55"><span class="linenos">55</span></a><span class="sd">### mp.py</span>
 </span><span id="L-56"><a href="#L-56"><span class="linenos">56</span></a>
-</span><span id="L-57"><a href="#L-57"><span class="linenos">57</span></a><span class="sd">.. include:: docs/paragraph_has_id.md</span>
+</span><span id="L-57"><a href="#L-57"><span class="linenos">57</span></a><span class="sd">.. include:: docs/mp.md</span>
 </span><span id="L-58"><a href="#L-58"><span class="linenos">58</span></a><span class="sd">            :start-after: Summary</span>
 </span><span id="L-59"><a href="#L-59"><span class="linenos">59</span></a><span class="sd">            :end-before: Test Cases</span>
 </span><span id="L-60"><a href="#L-60"><span class="linenos">60</span></a>
 </span><span id="L-61"><a href="#L-61"><span class="linenos">61</span></a>
-</span><span id="L-62"><a href="#L-62"><span class="linenos">62</span></a><span class="sd">### records-in-sequence.py</span>
+</span><span id="L-62"><a href="#L-62"><span class="linenos">62</span></a><span class="sd">### paragraph_has_id.py</span>
 </span><span id="L-63"><a href="#L-63"><span class="linenos">63</span></a>
-</span><span id="L-64"><a href="#L-64"><span class="linenos">64</span></a><span class="sd">.. include:: docs/records-in-sequence.md</span>
+</span><span id="L-64"><a href="#L-64"><span class="linenos">64</span></a><span class="sd">.. include:: docs/paragraph_has_id.md</span>
 </span><span id="L-65"><a href="#L-65"><span class="linenos">65</span></a><span class="sd">            :start-after: Summary</span>
 </span><span id="L-66"><a href="#L-66"><span class="linenos">66</span></a><span class="sd">            :end-before: Test Cases</span>
 </span><span id="L-67"><a href="#L-67"><span class="linenos">67</span></a>
 </span><span id="L-68"><a href="#L-68"><span class="linenos">68</span></a>
-</span><span id="L-69"><a href="#L-69"><span class="linenos">69</span></a><span class="sd">### unchanged.py</span>
+</span><span id="L-69"><a href="#L-69"><span class="linenos">69</span></a><span class="sd">### records-in-sequence.py</span>
 </span><span id="L-70"><a href="#L-70"><span class="linenos">70</span></a>
-</span><span id="L-71"><a href="#L-71"><span class="linenos">71</span></a><span class="sd">.. include:: docs/unchanged.md</span>
+</span><span id="L-71"><a href="#L-71"><span class="linenos">71</span></a><span class="sd">.. include:: docs/records-in-sequence.md</span>
 </span><span id="L-72"><a href="#L-72"><span class="linenos">72</span></a><span class="sd">            :start-after: Summary</span>
 </span><span id="L-73"><a href="#L-73"><span class="linenos">73</span></a><span class="sd">            :end-before: Test Cases</span>
 </span><span id="L-74"><a href="#L-74"><span class="linenos">74</span></a>
 </span><span id="L-75"><a href="#L-75"><span class="linenos">75</span></a>
-</span><span id="L-76"><a href="#L-76"><span class="linenos">76</span></a><span class="sd">### test_doc-id.py</span>
+</span><span id="L-76"><a href="#L-76"><span class="linenos">76</span></a><span class="sd">### unchanged.py</span>
 </span><span id="L-77"><a href="#L-77"><span class="linenos">77</span></a>
-</span><span id="L-78"><a href="#L-78"><span class="linenos">78</span></a><span class="sd">.. include:: docs/doc-ids.md</span>
+</span><span id="L-78"><a href="#L-78"><span class="linenos">78</span></a><span class="sd">.. include:: docs/unchanged.md</span>
 </span><span id="L-79"><a href="#L-79"><span class="linenos">79</span></a><span class="sd">            :start-after: Summary</span>
 </span><span id="L-80"><a href="#L-80"><span class="linenos">80</span></a><span class="sd">            :end-before: Test Cases</span>
 </span><span id="L-81"><a href="#L-81"><span class="linenos">81</span></a>
-</span><span id="L-82"><a href="#L-82"><span class="linenos">82</span></a><span class="sd">&quot;&quot;&quot;</span>
+</span><span id="L-82"><a href="#L-82"><span class="linenos">82</span></a>
+</span><span id="L-83"><a href="#L-83"><span class="linenos">83</span></a><span class="sd">### test_doc-id.py</span>
+</span><span id="L-84"><a href="#L-84"><span class="linenos">84</span></a>
+</span><span id="L-85"><a href="#L-85"><span class="linenos">85</span></a><span class="sd">.. include:: docs/doc-ids.md</span>
+</span><span id="L-86"><a href="#L-86"><span class="linenos">86</span></a><span class="sd">            :start-after: Summary</span>
+</span><span id="L-87"><a href="#L-87"><span class="linenos">87</span></a><span class="sd">            :end-before: Test Cases</span>
+</span><span id="L-88"><a href="#L-88"><span class="linenos">88</span></a>
+</span><span id="L-89"><a href="#L-89"><span class="linenos">89</span></a><span class="sd">&quot;&quot;&quot;</span>
 </span></pre></div>
 
 

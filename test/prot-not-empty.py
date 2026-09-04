@@ -7,20 +7,11 @@ from pyriksdagen.utils import (
     protocol_iterators,
 )
 from tqdm import tqdm
+from trainerlog import get_logger
 import unittest
-import warnings
 
 
-
-class EmptyProtocol(Warning):
-
-    def __init__(self, m):
-        self.message = m
-
-    def __str__(self):
-        return self.message
-
-
+logger = get_logger(name="prot-not-empty")
 
 
 class Test(unittest.TestCase):
@@ -28,6 +19,7 @@ class Test(unittest.TestCase):
     def test_not_empty(self):
         protocols = sorted(list(protocol_iterators('data')))
         empty = 0
+        empty_protocols = []
         for p in tqdm(protocols):
             root, ns = parse_protocol(p, get_ns=True)
             divs = root.findall(f".//{ns['tei_ns']}div")
@@ -39,11 +31,15 @@ class Test(unittest.TestCase):
                         continue
                 if notempty == False:
                     empty += 1
-                    warnings.warn(f"FAIL: {p}", EmptyProtocol)
+                    empty_protocols.append(p)
+                    logger.error(f"Empty protocol: {p}")
             else:
                 empty += 1
-                warnings.warn(f"FAIL: {p}", EmptyProtocol)
-        self.assertEqual(empty, 0)
+                empty_protocols.append(p)
+                logger.error(f"Protocol has no content divs: {p}")
+        if empty_protocols:
+            logger.debug(f"Empty protocols: {empty_protocols}")
+        self.assertEqual(empty, 0, f"{empty} protocol(s) are empty or have no content divs")
 
 
 

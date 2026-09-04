@@ -4,14 +4,35 @@ on:
   push:
     paths:
       - data/**
+      - test/**
+      - '!test/results/**'
       - test/.run
+      - .github/workflows/push.yml
   pull_request:
     branches:
       - 'main'
       - 'dev'
+    paths-ignore:
+      - 'test/results/**'
+      - 'quality/estimates/**'
   workflow_dispatch:
 
 jobs:
+  api-contract:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Check public API folder structure
+      run: |
+        python -m unittest test.api-contract
+
   schemas:
     runs-on: ubuntu-latest
     strategy:
@@ -28,6 +49,55 @@ jobs:
     - name: Validate XML files against ParlaClarin schema
       run: |
         python -m unittest test.schemas
+
+  targeted-regressions:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Run targeted XML data regression tests
+      run: |
+        python -m unittest test.test_docdate_filename_dates test.test_speaker_mapping_regressions
+
+  docdate-integrity:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
+      with:
+        python-version: ${{ matrix.python-version }}
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Check protocol docDate integrity
+      run: |
+        python -m unittest test.test_docdate_integrity
+
+  protocol-body-integrity:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
+      with:
+        python-version: ${{ matrix.python-version }}
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Check protocol body integrity
+      run: |
+        python -m unittest test.test_protocol_body_integrity
 
   alto-comparison:
     runs-on: ubuntu-latest
@@ -65,6 +135,9 @@ jobs:
     - name: Test there are no empty u or seg elements
       run: |
         python -m unittest test.empty-speech
+    - name: Test that the references in the speech elems exist in the data
+      run: |
+        python -m unittest test.speech-elems-exist
 
   mp:
     runs-on: ubuntu-latest
@@ -87,6 +160,23 @@ jobs:
       run: |
         export METADATA_PATH="riksdagen-persons/data"
         python -m unittest test.mp
+
+  speaker-introduction-regressions:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
+      with:
+        python-version: ${{ matrix.python-version }}
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Test known speaker introduction regressions
+      run: |
+        python -m unittest test.speaker_introductions
 
   next-prev:
     runs-on: ubuntu-latest
@@ -139,6 +229,23 @@ jobs:
       run: |
         python -m unittest test.records-in-sequence
 
+  snabbprotokoll:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
+      with:
+        python-version: ${{ matrix.python-version }}
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Check that later records are not obvious snabbprotokoll
+      run: |
+        python -m unittest test.snabbprotokoll
+
   doc-id-page-nr-filename:
     runs-on: ubuntu-latest
     strategy:
@@ -156,3 +263,36 @@ jobs:
       run: |
         python -m unittest test.test_doc-id
 
+  alto-dice-test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
+      with:
+        python-version: ${{ matrix.python-version }}
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: check that Doc IDs appear in TEI elem, doc ID == filename, doc ID used in facs
+      run: |
+        python -m unittest test.altocheck_dice
+
+  facscheck-test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
+      with:
+        python-version: ${{ matrix.python-version }}
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: check that Doc IDs appear in TEI elem, doc ID == filename, doc ID used in facs
+      run: |
+        python -m unittest test.facscheck
