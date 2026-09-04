@@ -300,6 +300,7 @@ jobs:
   ensure-tests-in-ci:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - name: Install fish shell
         uses: fish-shop/install-fish-shell@v2
       - name: Ensure all tests are in CI
