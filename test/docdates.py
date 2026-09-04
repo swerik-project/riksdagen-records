@@ -59,6 +59,7 @@ def _read_protocol_docdates():
 
 
 def _log_examples(summary, examples, log_error=False):
+    """Log a failure summary plus a bounded sample of example records."""
     log = LOGGER.error if log_error else LOGGER.warning
     log(summary)
     for example in examples[:LOG_EXAMPLE_LIMIT]:
