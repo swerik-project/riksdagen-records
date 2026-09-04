@@ -58,7 +58,7 @@ def _read_protocol_docdates():
     return rows
 
 
-def _log_examples(summary, examples, log_error=False):
+def _log_failure_examples(summary, examples, log_error=False):
     """Log a failure summary plus a bounded sample of example records."""
     log = LOGGER.error if log_error else LOGGER.warning
     log(summary)
@@ -90,7 +90,7 @@ class DocDateIntegrityTest(unittest.TestCase):
         ]
 
         if failures:
-            _log_examples(
+            _log_failure_examples(
                 f"{len(failures)} protocol(s) have no parseable docDate values",
                 failures,
                 log_error=True,
@@ -128,7 +128,7 @@ class DocDateIntegrityTest(unittest.TestCase):
                 failures.append(f"{row['path']}: {first_docdate} to {last_docdate}")
 
         if failures:
-            _log_examples(
+            _log_failure_examples(
                 f"{len(failures)} protocol(s) span more than one week; "
                 f"accepted baseline is {MAX_PROTOCOLS_SPANNING_MORE_THAN_ONE_WEEK}",
                 failures,
@@ -181,7 +181,7 @@ class DocDateIntegrityTest(unittest.TestCase):
                 previous = row
 
         if failures:
-            _log_examples(
+            _log_failure_examples(
                 f"{len(failures)} same-chamber protocol date range(s) move "
                 "backward; accepted baseline is "
                 f"{MAX_SAME_CHAMBER_BACKWARDS_RANGES}",
@@ -230,7 +230,7 @@ class DocDateIntegrityTest(unittest.TestCase):
                 )
 
         if failures:
-            _log_examples(
+            _log_failure_examples(
                 f"{len(failures)} pre-1875 protocol filename date(s) mismatch "
                 "docDate values; accepted baseline is "
                 f"{MAX_PRE_1875_FILENAME_DOCDATE_MISMATCHES}",
