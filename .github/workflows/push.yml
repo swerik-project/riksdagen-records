@@ -296,3 +296,12 @@ jobs:
     - name: check that Doc IDs appear in TEI elem, doc ID == filename, doc ID used in facs
       run: |
         python -m unittest test.facscheck
+
+  ensure-tests-in-ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install fish shell
+        uses: fish-shop/install-fish-shell@v2
+      - name: check that Doc IDs appear in TEI elem, doc ID == filename, doc ID used in facs
+        run: |
+          fish test/ensure_ci.fish
