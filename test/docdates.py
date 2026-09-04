@@ -11,7 +11,6 @@ older ``test/docs/docdate_integrity.md`` file is legacy documentation.
 """
 
 from collections import defaultdict
-from dataclasses import dataclass
 import unittest
 
 from pyriksdagen.io import parse_tei
@@ -26,20 +25,6 @@ MAX_PRE_1875_FILENAME_DOCDATE_MISMATCHES = 460
 LOG_EXAMPLE_LIMIT = 20
 
 LOGGER = get_logger(name="docdates")
-
-
-@dataclass(frozen=True)
-class ProtocolDocDates:
-    path: str
-    chamber: str
-    year: int
-    date_code: str
-    docdates: tuple
-    parsed_docdates: tuple
-    first_date: object
-    first_docdate: str
-    last_date: object
-    last_docdate: str
 
 
 def _read_protocol_docdates():
@@ -71,18 +56,18 @@ def _read_protocol_docdates():
             last_docdate = None
 
         rows.append(
-            ProtocolDocDates(
-                path=path,
-                chamber=metadata.get("chamber"),
-                year=metadata.get("year"),
-                date_code=date_code,
-                docdates=tuple(docdates),
-                parsed_docdates=parsed_docdates,
-                first_date=first_date,
-                first_docdate=first_docdate,
-                last_date=last_date,
-                last_docdate=last_docdate,
-            )
+            {
+                "path": path,
+                "chamber": metadata.get("chamber"),
+                "year": metadata.get("year"),
+                "date_code": date_code,
+                "docdates": tuple(docdates),
+                "parsed_docdates": parsed_docdates,
+                "first_date": first_date,
+                "first_docdate": first_docdate,
+                "last_date": last_date,
+                "last_docdate": last_docdate,
+            }
         )
     return rows
 
@@ -112,9 +97,9 @@ class DocDateIntegrityTest(unittest.TestCase):
         values with ``pyriksdagen.utils.get_doc_dates``.
         """
         failures = [
-            f"{row.path}: docDate values={row.docdates!r}"
+            f"{row['path']}: docDate values={row['docdates']!r}"
             for row in self.protocol_docdates
-            if not row.parsed_docdates
+            if not row["parsed_docdates"]
         ]
 
         if failures:
@@ -147,9 +132,10 @@ class DocDateIntegrityTest(unittest.TestCase):
         than seven days apart.
         """
         failures = [
-            f"{row.path}: {row.first_docdate} to {row.last_docdate}"
+            f"{row['path']}: {row['first_docdate']} to {row['last_docdate']}"
             for row in self.protocol_docdates
-            if row.parsed_docdates and (row.last_date - row.first_date).days > 7
+            if row["parsed_docdates"]
+            and (row["last_date"] - row["first_date"]).days > 7
         ]
 
         if failures:
@@ -186,17 +172,17 @@ class DocDateIntegrityTest(unittest.TestCase):
         """
         rows_by_chamber = defaultdict(list)
         for row in self.protocol_docdates:
-            if row.parsed_docdates:
-                rows_by_chamber[row.chamber].append(row)
+            if row["parsed_docdates"]:
+                rows_by_chamber[row["chamber"]].append(row)
 
         failures = []
         for chamber, rows in rows_by_chamber.items():
             previous = None
             for row in rows:
-                if previous and previous.last_date > row.first_date:
+                if previous and previous["last_date"] > row["first_date"]:
                     failures.append(
-                        f"{chamber}: {previous.path} ({previous.last_docdate}) "
-                        f"before {row.path} ({row.first_docdate})"
+                        f"{chamber}: {previous['path']} ({previous['last_docdate']}) "
+                        f"before {row['path']} ({row['first_docdate']})"
                     )
                 previous = row
 
@@ -234,17 +220,20 @@ class DocDateIntegrityTest(unittest.TestCase):
         """
         failures = []
         for row in self.protocol_docdates:
-            if row.year is None or row.year >= 1875:
+            if row["year"] is None or row["year"] >= 1875:
                 continue
-            if len(row.date_code) != 4 or not row.date_code.isdigit():
-                failures.append(f"{row.path}: filename date code is {row.date_code!r}")
+            if len(row["date_code"]) != 4 or not row["date_code"].isdigit():
+                failures.append(
+                    f"{row['path']}: filename date code is {row['date_code']!r}"
+                )
                 continue
 
-            expected = f"{row.year}-{row.date_code[:2]}-{row.date_code[2:]}"
-            observed = {docdate for _, docdate in row.parsed_docdates}
+            expected = f"{row['year']}-{row['date_code'][:2]}-{row['date_code'][2:]}"
+            observed = {docdate for _, docdate in row["parsed_docdates"]}
             if observed != {expected}:
                 failures.append(
-                    f"{row.path}: expected only {expected}, observed {sorted(observed)}"
+                    f"{row['path']}: expected only {expected}, observed "
+                    f"{sorted(observed)}"
                 )
 
         if failures:
