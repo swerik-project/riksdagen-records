@@ -1,12 +1,12 @@
 """Data integrity tests for protocol ``docDate`` metadata.
 
 These tests check corpus-wide date guarantees for protocol XML files under
-``data/``.  They use ``pyriksdagen`` for corpus iteration, TEI parsing, date
-extraction, and protocol metadata inference.  Current data still contains known
+``data/``. They use ``pyriksdagen`` for corpus iteration, TEI parsing, date
+extraction, and protocol metadata inference. Current data still contains known
 legacy date issues, so the affected regression guards use explicit baselines;
 curation pull requests should ratchet those baselines down as issues are fixed.
 
-The authoritative documentation for these guarantees lives in this file.  The
+The authoritative documentation for these guarantees lives in this file. The
 older ``test/docs/docdate_integrity.md`` file is legacy documentation.
 """
 
@@ -19,12 +19,12 @@ from tqdm import tqdm
 from trainerlog import get_logger
 
 
-MAX_PROTOCOLS_SPANNING_MORE_THAN_ONE_WEEK = 1206
+MAX_LONG_SPAN_PROTOCOLS = 1206
 MAX_SAME_CHAMBER_BACKWARDS_RANGES = 2753
 MAX_PRE_1875_FILENAME_DOCDATE_MISMATCHES = 460
 LOG_EXAMPLE_LIMIT = 20
 
-LOGGER = get_logger(name="docdates")
+LOGGER = get_logger(name="docdate-integrity")
 
 
 def _read_protocol_docdates():
@@ -114,7 +114,7 @@ class DocDateIntegrityTest(unittest.TestCase):
         usually a sign that OCR, segmentation, or date extraction has pulled in
         dates from surrounding source material.
 
-        Data: scans protocol XML under ``data/``.  The counted unit is a
+        Data: scans protocol XML under ``data/``. The counted unit is a
         protocol whose first and last parseable ``docDate`` values are more
         than seven days apart.
         """
@@ -130,31 +130,31 @@ class DocDateIntegrityTest(unittest.TestCase):
         if failures:
             _log_failure_examples(
                 f"{len(failures)} protocol(s) span more than one week; "
-                f"accepted baseline is {MAX_PROTOCOLS_SPANNING_MORE_THAN_ONE_WEEK}",
+                f"accepted baseline is {MAX_LONG_SPAN_PROTOCOLS}",
                 failures,
-                log_error=len(failures) > MAX_PROTOCOLS_SPANNING_MORE_THAN_ONE_WEEK,
+                log_error=len(failures) > MAX_LONG_SPAN_PROTOCOLS,
             )
         LOGGER.info(
             f"Protocols spanning more than one week: {len(failures)}; "
-            f"accepted baseline: {MAX_PROTOCOLS_SPANNING_MORE_THAN_ONE_WEEK}"
+            f"accepted baseline: {MAX_LONG_SPAN_PROTOCOLS}"
         )
 
         self.assertLessEqual(
             len(failures),
-            MAX_PROTOCOLS_SPANNING_MORE_THAN_ONE_WEEK,
+            MAX_LONG_SPAN_PROTOCOLS,
             f"{len(failures)} protocol(s) span more than one week, exceeding "
-            f"the accepted baseline of {MAX_PROTOCOLS_SPANNING_MORE_THAN_ONE_WEEK}; "
-            "details were logged with trainerlog.",
+            f"the accepted baseline of {MAX_LONG_SPAN_PROTOCOLS}; details were "
+            "logged with trainerlog.",
         )
 
     def test_same_chamber_docdate_order_does_not_exceed_current_baseline(self):
         """Guarantee: same-chamber protocol date ranges should not move backward.
 
         Why this matters: chronological regressions within a chamber can break
-        analyses that treat the corpus order as a meeting sequence.  Separate
+        analyses that treat the corpus order as a meeting sequence. Separate
         chambers are parallel streams, and same-day adjacency is allowed.
 
-        Data: scans protocol XML under ``data/``.  The counted unit is an
+        Data: scans protocol XML under ``data/``. The counted unit is an
         adjacent same-chamber protocol pair where the previous protocol's last
         parseable ``docDate`` is later than the next protocol's first parseable
         ``docDate``.
@@ -197,8 +197,9 @@ class DocDateIntegrityTest(unittest.TestCase):
             len(failures),
             MAX_SAME_CHAMBER_BACKWARDS_RANGES,
             f"{len(failures)} same-chamber protocol date range(s) move backward, "
-            f"exceeding the accepted baseline of {MAX_SAME_CHAMBER_BACKWARDS_RANGES}; "
-            "details were logged with trainerlog.",
+            f"exceeding the accepted baseline of "
+            f"{MAX_SAME_CHAMBER_BACKWARDS_RANGES}; details were logged with "
+            "trainerlog.",
         )
 
     def test_pre_1875_filename_date_matches_sole_docdate_baseline(self):
@@ -208,7 +209,7 @@ class DocDateIntegrityTest(unittest.TestCase):
         extra or conflicting ``docDate`` values make those records ambiguous for
         chronological indexing and downstream date filters.
 
-        Data: scans protocol XML under ``data/`` before 1875.  The counted unit
+        Data: scans protocol XML under ``data/`` before 1875. The counted unit
         is a protocol where the filename date is not exactly the set of
         parseable ``docDate`` values.
         """
@@ -235,7 +236,8 @@ class DocDateIntegrityTest(unittest.TestCase):
                 "docDate values; accepted baseline is "
                 f"{MAX_PRE_1875_FILENAME_DOCDATE_MISMATCHES}",
                 failures,
-                log_error=len(failures) > MAX_PRE_1875_FILENAME_DOCDATE_MISMATCHES,
+                log_error=len(failures)
+                > MAX_PRE_1875_FILENAME_DOCDATE_MISMATCHES,
             )
         LOGGER.info(
             f"Pre-1875 filename/docDate mismatches: {len(failures)}; "
