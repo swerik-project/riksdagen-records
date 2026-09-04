@@ -28,6 +28,7 @@ LOGGER = get_logger(name="docdates")
 
 
 def _read_protocol_docdates():
+    """Parse protocol TEI once and cache the docDates used by the tests."""
     protocols = sorted(corpus_iterator("records", corpus_root="data"))
     LOGGER.info(f"Reading docDate metadata from {len(protocols)} protocol files")
 
@@ -44,29 +45,14 @@ def _read_protocol_docdates():
                 parsed_docdates.append((parsed, docdate))
         parsed_docdates = tuple(sorted(parsed_docdates))
         metadata = infer_metadata(path)
-        date_code = path.rsplit(".", 1)[0].rsplit("-", 1)[-1]
-
-        if parsed_docdates:
-            first_date, first_docdate = parsed_docdates[0]
-            last_date, last_docdate = parsed_docdates[-1]
-        else:
-            first_date = None
-            first_docdate = None
-            last_date = None
-            last_docdate = None
 
         rows.append(
             {
                 "path": path,
                 "chamber": metadata.get("chamber"),
                 "year": metadata.get("year"),
-                "date_code": date_code,
                 "docdates": tuple(docdates),
                 "parsed_docdates": parsed_docdates,
-                "first_date": first_date,
-                "first_docdate": first_docdate,
-                "last_date": last_date,
-                "last_docdate": last_docdate,
             }
         )
     return rows
@@ -131,12 +117,14 @@ class DocDateIntegrityTest(unittest.TestCase):
         protocol whose first and last parseable ``docDate`` values are more
         than seven days apart.
         """
-        failures = [
-            f"{row['path']}: {row['first_docdate']} to {row['last_docdate']}"
-            for row in self.protocol_docdates
-            if row["parsed_docdates"]
-            and (row["last_date"] - row["first_date"]).days > 7
-        ]
+        failures = []
+        for row in self.protocol_docdates:
+            if not row["parsed_docdates"]:
+                continue
+            first_date, first_docdate = row["parsed_docdates"][0]
+            last_date, last_docdate = row["parsed_docdates"][-1]
+            if (last_date - first_date).days > 7:
+                failures.append(f"{row['path']}: {first_docdate} to {last_docdate}")
 
         if failures:
             _log_examples(
@@ -179,11 +167,16 @@ class DocDateIntegrityTest(unittest.TestCase):
         for chamber, rows in rows_by_chamber.items():
             previous = None
             for row in rows:
-                if previous and previous["last_date"] > row["first_date"]:
-                    failures.append(
-                        f"{chamber}: {previous['path']} ({previous['last_docdate']}) "
-                        f"before {row['path']} ({row['first_docdate']})"
-                    )
+                first_date, first_docdate = row["parsed_docdates"][0]
+                if previous:
+                    previous_last_date, previous_last_docdate = previous[
+                        "parsed_docdates"
+                    ][-1]
+                    if previous_last_date > first_date:
+                        failures.append(
+                            f"{chamber}: {previous['path']} ({previous_last_docdate}) "
+                            f"before {row['path']} ({first_docdate})"
+                        )
                 previous = row
 
         if failures:
@@ -222,13 +215,12 @@ class DocDateIntegrityTest(unittest.TestCase):
         for row in self.protocol_docdates:
             if row["year"] is None or row["year"] >= 1875:
                 continue
-            if len(row["date_code"]) != 4 or not row["date_code"].isdigit():
-                failures.append(
-                    f"{row['path']}: filename date code is {row['date_code']!r}"
-                )
+            date_code = row["path"].rsplit(".", 1)[0].rsplit("-", 1)[-1]
+            if len(date_code) != 4 or not date_code.isdigit():
+                failures.append(f"{row['path']}: filename date code is {date_code!r}")
                 continue
 
-            expected = f"{row['year']}-{row['date_code'][:2]}-{row['date_code'][2:]}"
+            expected = f"{row['year']}-{date_code[:2]}-{date_code[2:]}"
             observed = {docdate for _, docdate in row["parsed_docdates"]}
             if observed != {expected}:
                 failures.append(
