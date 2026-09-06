@@ -33,10 +33,10 @@ MAX_SPAN_DAYS = 7
 # Current-data baselines for legacy date issues. These keep the test
 # release-blocking for regressions while allowing later curation PRs to ratchet
 # the ceilings down as date quality improves.
-MAX_LONG_SPANS = 563
-MAX_RANGE_OVERLAPS = 896
-MAX_FILENAME_MISMATCHES = 437
-MAX_OUTSIDE_RIKSDAG_YEAR_RANGE = 423
+MAX_LONG_SPANS = 515
+MAX_RANGE_OVERLAPS = 733
+MAX_FILENAME_MISMATCHES = 0
+MAX_OUTSIDE_RIKSDAG_YEAR_RANGE = 411
 MAX_MISSING_RIKSDAG_YEAR_RANGE = 0
 
 RIKSDAG_YEAR_PATH = Path("test/data/riksdag-year.csv")
