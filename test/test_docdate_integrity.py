@@ -73,6 +73,40 @@ class DocDateIntegrityTest(unittest.TestCase):
     def setUpClass(cls):
         cls.protocol_docdates = _read_protocol_docdates()
 
+    def test_protocols_have_at_least_one_docdate(self):
+        """Guarantee: every protocol has at least one TEI ``docDate``.
+
+        Why this matters: removal-only date curation must never leave a record
+        undated. Later parseability, span, and sequence checks depend on each
+        protocol having at least one date.
+
+        Data: scans protocol XML files under ``data/`` and extracts ``docDate``
+        values with ``pyriksdagen.utils.get_doc_dates``.
+        """
+        failures = [
+            f"{row['path']}: docDate values={row['docdates']!r}"
+            for row in self.protocol_docdates
+            if not any(row["docdates"])
+        ]
+
+        if failures:
+            _log_failure_examples(
+                f"{len(failures)} protocol(s) have no docDate values",
+                failures,
+                log_error=True,
+            )
+        LOGGER.info(
+            f"Protocols without docDate values: {len(failures)} "
+            f"of {len(self.protocol_docdates)}"
+        )
+
+        self.assertEqual(
+            len(failures),
+            0,
+            f"{len(failures)} protocol(s) have no docDate values; "
+            "details were logged with trainerlog.",
+        )
+
     def test_protocols_have_parseable_docdates(self):
         """Guarantee: every protocol has at least one parseable ``docDate``.
 
