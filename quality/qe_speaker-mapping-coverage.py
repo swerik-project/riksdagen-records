@@ -11,15 +11,11 @@ from pyriksdagen.args import (
     fetch_parser,
     impute_args
 )
-from pyriksdagen.io import parse_tei
-from pyriksdagen.utils import (
-    infer_metadata,
-    #version_number_is_valid - next release cycle
-) 
 from qe import (
     QualityEstimator, 
     version_number_is_valid
 )
+from speaker_mapping_coverage import protocol_speaker_mapping_counts
 
 def accuracy(protocol_path: str, gold_standard = None):
     """
@@ -28,20 +24,7 @@ def accuracy(protocol_path: str, gold_standard = None):
     Returns:
         year_code (int), known (int), unknown (int)
     """
-    root, ns = parse_tei(protocol_path, get_ns=True)
-    metadata = infer_metadata(protocol_path)
-    year_code = int(str(metadata.get("year"))[:4])
-
-    known, unknown = 0, 0
-    for div in root.findall(f".//{ns['tei_ns']}div"):
-        for elem in div:
-            who = elem.attrib.get("who")
-            if who is not None:
-                if who == "unknown":
-                    unknown += 1
-                else:
-                    known += 1
-    return year_code, known, unknown
+    return protocol_speaker_mapping_counts(protocol_path)
 
 def main(args):
         
