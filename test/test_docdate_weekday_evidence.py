@@ -14,6 +14,7 @@ metadata-supporting and text-only impossible evidence without applying any
 correction.
 """
 from datetime import date
+import os
 from pathlib import Path
 import re
 import unittest
@@ -25,14 +26,10 @@ from pyriksdagen.io import parse_tei
 from pyriksdagen.utils import corpus_iterator, get_doc_dates, infer_metadata
 from trainerlog import get_logger
 
-try:
-    from docdate_protocol_order import ordered_protocol_paths
-except ImportError:
-    from test.docdate_protocol_order import ordered_protocol_paths
-
 
 LOGGER = get_logger(name="docdate-weekday-evidence")
-RESULTS_PATH = Path("test/results/docdate-weekday-evidence.csv")
+RESULTS_DIR = "test/results"
+RESULTS_PATH = Path(RESULTS_DIR) / "docdate-weekday-evidence.csv"
 
 # Current-data baseline for impossible weekday/date evidence occurrences.
 # Later OCR and docDate curation PRs should ratchet this down.
@@ -50,15 +47,7 @@ SWEDISH_WEEKDAYS = {
     "lördagen": 5,
     "söndagen": 6,
 }
-CALENDAR_WEEKDAYS = {
-    0: "måndagen",
-    1: "tisdagen",
-    2: "onsdagen",
-    3: "torsdagen",
-    4: "fredagen",
-    5: "lördagen",
-    6: "söndagen",
-}
+
 SWEDISH_MONTHS = {
     "januari": 1,
     "februari": 2,
@@ -82,21 +71,6 @@ WEEKDAY_DATE_PATTERN = re.compile(
     r"(?P<month>januari|februari|mars|april|maj|juni|juli|augusti|september|oktober|november|december)"
     r"\b(?:\s+(?P<year>\d{4}))?"
 )
-
-ERROR_SCHEMA = {
-    "file": pl.Utf8,
-    "error_type": pl.Utf8,
-    "issue": pl.Utf8,
-    "source_line": pl.Int64,
-    "note_id": pl.Utf8,
-    "matched_text": pl.Utf8,
-    "context": pl.Utf8,
-    "observed_date": pl.Date,
-    "claimed_weekday": pl.Utf8,
-    "actual_weekday": pl.Utf8,
-    "year_source": pl.Utf8,
-    "docdate_support": pl.Boolean,
-}
 
 _WEEKDAY_DATE_EVIDENCE_ERRORS = None
 
@@ -123,7 +97,7 @@ def inferred_header_year(path, metadata, month, explicit_year):
 def collect_weekday_date_evidence_errors():
     errors = []
     evidence_count = 0
-    protocols = ordered_protocol_paths(corpus_iterator("records", corpus_root="data"))
+    protocols = sorted(corpus_iterator("records", corpus_root="data"))
     LOGGER.info("Checking weekday/date evidence for %s protocols", len(protocols))
 
     for path in tqdm.tqdm(protocols):
@@ -150,12 +124,17 @@ def collect_weekday_date_evidence_errors():
                     continue
 
                 evidence_count += 1
-                actual_weekday = CALENDAR_WEEKDAYS[observed_date.weekday()]
-                if actual_weekday == weekday:
+                actual_weekday_index = observed_date.weekday()
+                if actual_weekday_index == SWEDISH_WEEKDAYS[weekday]:
                     continue
 
                 observed_iso = observed_date.isoformat()
                 docdate_support = observed_iso in docdate_set
+                actual_weekday = next(
+                    name
+                    for name, index in SWEDISH_WEEKDAYS.items()
+                    if index == actual_weekday_index
+                )
                 error_type = (
                     "invalid_weekday_supports_docdate"
                     if docdate_support
@@ -184,12 +163,12 @@ def collect_weekday_date_evidence_errors():
         len(errors),
     )
     if not errors:
-        return pl.DataFrame(schema=ERROR_SCHEMA)
+        return pl.DataFrame()
 
-    df = pl.DataFrame(errors, schema=ERROR_SCHEMA)
+    df = pl.DataFrame(errors)
     df = df.sort(["file", "source_line", "observed_date", "matched_text"])
-    RESULTS_PATH.parent.mkdir(parents=True, exist_ok=True)
-    df.write_csv(RESULTS_PATH)
+    os.makedirs(RESULTS_DIR, exist_ok=True)
+    df.write_csv(str(RESULTS_PATH))
     return df
 
 
