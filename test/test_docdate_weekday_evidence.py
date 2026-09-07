@@ -172,9 +172,7 @@ def collect_weekday_date_evidence_errors():
                 docdate_support = observed_iso in docdate_set
                 errors.append(
                     {
-                        "file": str(path),
-                        "error_type": "invalid_weekday_date_evidence",
-                        "issue": "weekday/date evidence does not match calendar",
+                        "file": path,
                         "source_line": note.sourceline,
                         "note_id": note.get(xml_id),
                         "matched_text": match.group(0),
