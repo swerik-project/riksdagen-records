@@ -56,17 +56,6 @@ def _read_protocol_docdates():
         )
     return rows
 
-
-def _log_failure_examples(summary, examples, log_error=False):
-    """Log a failure summary plus a bounded sample of example records."""
-    log = LOGGER.error if log_error else LOGGER.warning
-    log(summary)
-    for example in examples[:LOG_EXAMPLE_LIMIT]:
-        log(example)
-    if len(examples) > LOG_EXAMPLE_LIMIT:
-        log(f"... {len(examples) - LOG_EXAMPLE_LIMIT} additional example(s) omitted")
-
-
 class DocDateIntegrityTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -223,41 +212,42 @@ class DocDateIntegrityTest(unittest.TestCase):
         is a protocol where the filename date is not exactly the set of
         parseable ``docDate`` values.
         """
-        failures = []
+        failures = 0
         for row in self.protocol_docdates:
             if row["year"] is None or row["year"] >= 1875:
                 continue
             date_code = row["path"].rsplit(".", 1)[0].rsplit("-", 1)[-1]
             if len(date_code) != 4 or not date_code.isdigit():
-                failures.append(f"{row['path']}: filename date code is {date_code!r}")
+                failures += 1
+                if failures <= LOG_EXAMPLE_LIMIT:
+                    LOGGER.warning(
+                        f"{row['path']}: filename date code is {date_code!r}"
+                    )
                 continue
 
             expected = f"{row['year']}-{date_code[:2]}-{date_code[2:]}"
             observed = {docdate for _, docdate in row["parsed_docdates"]}
             if observed != {expected}:
-                failures.append(
-                    f"{row['path']}: expected only {expected}, observed "
-                    f"{sorted(observed)}"
-                )
+                failures += 1
+                if failures <= LOG_EXAMPLE_LIMIT:
+                    LOGGER.warning(
+                        f"{row['path']}: expected only {expected}, observed "
+                        f"{sorted(observed)}"
+                    )
 
-        if failures:
-            _log_failure_examples(
-                f"{len(failures)} pre-1875 protocol filename date(s) mismatch "
-                "docDate values; accepted baseline is "
-                f"{MAX_PRE_1875_FILENAME_DOCDATE_MISMATCHES}",
-                failures,
-                log_error=len(failures)
-                > MAX_PRE_1875_FILENAME_DOCDATE_MISMATCHES,
+        if failures > LOG_EXAMPLE_LIMIT:
+            LOGGER.warning(
+                f"... {failures - LOG_EXAMPLE_LIMIT} additional example(s) omitted"
             )
         LOGGER.info(
-            f"Pre-1875 filename/docDate mismatches: {len(failures)}; "
+            f"Pre-1875 filename/docDate mismatches: {failures}; "
             f"accepted baseline: {MAX_PRE_1875_FILENAME_DOCDATE_MISMATCHES}"
         )
 
         self.assertLessEqual(
-            len(failures),
+            failures,
             MAX_PRE_1875_FILENAME_DOCDATE_MISMATCHES,
-            f"{len(failures)} pre-1875 protocol filename date(s) mismatch "
+            f"{failures} pre-1875 protocol filename date(s) mismatch "
             "docDate values, exceeding the accepted baseline of "
             f"{MAX_PRE_1875_FILENAME_DOCDATE_MISMATCHES}; details were logged "
             "with trainerlog.",
