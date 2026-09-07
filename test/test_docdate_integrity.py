@@ -81,27 +81,20 @@ class DocDateIntegrityTest(unittest.TestCase):
         Data: scans protocol XML files under ``data/`` and extracts ``docDate``
         values with ``pyriksdagen.utils.get_doc_dates``.
         """
-        failures = [
-            f"{row['path']}: docDate values={row['docdates']!r}"
-            for row in self.protocol_docdates
-            if not any(row["docdates"])
-        ]
-
-        if failures:
-            _log_failure_examples(
-                f"{len(failures)} protocol(s) have no docDate values",
-                failures,
-                log_error=True,
-            )
+        failures = 0
+        for row in self.protocol_docdates:
+            if not any(row["docdates"]):
+                LOGGER.error(f"{row['path']}: docDate values={row['docdates']!r}")
+                failures += 1
         LOGGER.info(
-            f"Protocols without docDate values: {len(failures)} "
+            f"Protocols without docDate values: {failures} "
             f"of {len(self.protocol_docdates)}"
         )
 
         self.assertEqual(
-            len(failures),
+            failures,
             0,
-            f"{len(failures)} protocol(s) have no docDate values; "
+            f"{failures} protocol(s) have no docDate values; "
             "details were logged with trainerlog.",
         )
 
@@ -115,27 +108,20 @@ class DocDateIntegrityTest(unittest.TestCase):
         Data: scans protocol XML files under ``data/`` and extracts ``docDate``
         values with ``pyriksdagen.utils.get_doc_dates``.
         """
-        failures = [
-            f"{row['path']}: docDate values={row['docdates']!r}"
-            for row in self.protocol_docdates
-            if not row["parsed_docdates"]
-        ]
-
-        if failures:
-            _log_failure_examples(
-                f"{len(failures)} protocol(s) have no parseable docDate values",
-                failures,
-                log_error=True,
-            )
+        failures = 0
+        for row in self.protocol_docdates:
+            if not row["parsed_docdates"]:
+                LOGGER.error(f"{row['path']}: docDate values={row['docdates']!r}")
+                failures += 1
         LOGGER.info(
-            f"Protocols without parseable docDate values: {len(failures)} "
+            f"Protocols without parseable docDate values: {failures} "
             f"of {len(self.protocol_docdates)}"
         )
 
         self.assertEqual(
-            len(failures),
+            failures,
             0,
-            f"{len(failures)} protocol(s) have no parseable docDate values; "
+            f"{failures} protocol(s) have no parseable docDate values; "
             "details were logged with trainerlog.",
         )
 
