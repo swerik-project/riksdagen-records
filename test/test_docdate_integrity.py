@@ -53,6 +53,7 @@ def _read_protocol_docdates():
         )
     return rows
 
+
 class DocDateIntegrityTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -103,7 +104,7 @@ class DocDateIntegrityTest(unittest.TestCase):
             )
 
     def test_protocol_docdate_spans_do_not_exceed_current_baseline(self):
-        """Guarantee: protocols with ``docDate`` spans over seven days must not 
+        """Guarantee: protocols with ``docDate`` spans over seven days must not
         exceed the current baseline.
 
         Why this matters: a single protocol that spans more than seven days is
@@ -133,9 +134,8 @@ class DocDateIntegrityTest(unittest.TestCase):
         self.assertLessEqual(
             failures,
             MAX_LONG_SPAN_PROTOCOLS,
-            f"{failures} protocol(s) span more than one week, exceeding "
-            f"the accepted baseline of {MAX_LONG_SPAN_PROTOCOLS}; details were "
-            "logged with trainerlog.",
+            "too many protocol(s) span more than one week; details were logged "
+            "with trainerlog.",
         )
 
     def test_same_chamber_docdate_order_does_not_exceed_current_baseline(self):
@@ -184,10 +184,8 @@ class DocDateIntegrityTest(unittest.TestCase):
         self.assertLessEqual(
             failures,
             MAX_SAME_CHAMBER_BACKWARDS_RANGES,
-            f"{failures} same-chamber protocol date range(s) move backward, "
-            f"exceeding the accepted baseline of "
-            f"{MAX_SAME_CHAMBER_BACKWARDS_RANGES}; details were logged with "
-            "trainerlog.",
+            "too many same-chamber protocol date range(s) move backward; "
+            "details were logged with trainerlog.",
         )
 
     def test_pre_1875_filename_date_matches_sole_docdate_baseline(self):
@@ -232,10 +230,8 @@ class DocDateIntegrityTest(unittest.TestCase):
         self.assertLessEqual(
             failures,
             MAX_PRE_1875_FILENAME_DOCDATE_MISMATCHES,
-            f"{failures} pre-1875 protocol filename date(s) mismatch "
-            "docDate values, exceeding the accepted baseline of "
-            f"{MAX_PRE_1875_FILENAME_DOCDATE_MISMATCHES}; details were logged "
-            "with trainerlog.",
+            "too many pre-1875 protocol filename date(s) mismatch docDate "
+            "values; details were logged with trainerlog.",
         )
 
 
