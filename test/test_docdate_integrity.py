@@ -117,7 +117,8 @@ class DocDateIntegrityTest(unittest.TestCase):
             )
 
     def test_protocol_docdate_spans_do_not_exceed_current_baseline(self):
-        """Guarantee: protocol ``docDate`` spans should not regress.
+        """Guarantee: protocols with ``docDate`` spans over seven days must not 
+        exceed the current baseline.
 
         Why this matters: a single protocol that spans more than seven days is
         usually a sign that OCR, segmentation, or date extraction has pulled in
