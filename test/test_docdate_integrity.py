@@ -176,7 +176,7 @@ class DocDateIntegrityTest(unittest.TestCase):
             if row["parsed_docdates"]:
                 rows_by_chamber[row["chamber"]].append(row)
 
-        failures = []
+        failures = 0
         for chamber, rows in rows_by_chamber.items():
             previous = None
             for row in sorted(rows, key=lambda row: row["path"]):
@@ -186,29 +186,27 @@ class DocDateIntegrityTest(unittest.TestCase):
                         "parsed_docdates"
                     ][-1]
                     if previous_last_date > first_date:
-                        failures.append(
-                            f"{chamber}: {previous['path']} ({previous_last_docdate}) "
-                            f"before {row['path']} ({first_docdate})"
-                        )
+                        failures += 1
+                        if failures <= LOG_EXAMPLE_LIMIT:
+                            LOGGER.warning(
+                                f"{chamber}: {previous['path']} ({previous_last_docdate}) "
+                                f"before {row['path']} ({first_docdate})"
+                            )
                 previous = row
 
-        if failures:
-            _log_failure_examples(
-                f"{len(failures)} same-chamber protocol date range(s) move "
-                "backward; accepted baseline is "
-                f"{MAX_SAME_CHAMBER_BACKWARDS_RANGES}",
-                failures,
-                log_error=len(failures) > MAX_SAME_CHAMBER_BACKWARDS_RANGES,
+        if failures > LOG_EXAMPLE_LIMIT:
+            LOGGER.warning(
+                f"... {failures - LOG_EXAMPLE_LIMIT} additional example(s) omitted"
             )
         LOGGER.info(
-            f"Same-chamber backward date ranges: {len(failures)}; "
+            f"Same-chamber backward date ranges: {failures}; "
             f"accepted baseline: {MAX_SAME_CHAMBER_BACKWARDS_RANGES}"
         )
 
         self.assertLessEqual(
-            len(failures),
+            failures,
             MAX_SAME_CHAMBER_BACKWARDS_RANGES,
-            f"{len(failures)} same-chamber protocol date range(s) move backward, "
+            f"{failures} same-chamber protocol date range(s) move backward, "
             f"exceeding the accepted baseline of "
             f"{MAX_SAME_CHAMBER_BACKWARDS_RANGES}; details were logged with "
             "trainerlog.",
@@ -217,9 +215,9 @@ class DocDateIntegrityTest(unittest.TestCase):
     def test_pre_1875_filename_date_matches_sole_docdate_baseline(self):
         """Guarantee: pre-1875 filename dates should match the sole ``docDate``.
 
-        Why this matters: early protocol filenames encode the meeting date, and
-        extra or conflicting ``docDate`` values make those records ambiguous for
-        chronological indexing and downstream date filters.
+        Why this matters: early protocol filenames include the meeting date, and
+        we know that information can be trusted. Having conflicting ``docDate``
+        values thus increases data errors.
 
         Data: scans protocol XML under ``data/`` before 1875. The counted unit
         is a protocol where the filename date is not exactly the set of
