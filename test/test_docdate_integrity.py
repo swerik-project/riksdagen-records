@@ -1,8 +1,7 @@
 """Data integrity tests for protocol ``docDate`` metadata.
 
 These tests check corpus-wide date guarantees for protocol XML files under
-``data/``. They use ``pyriksdagen`` for corpus iteration, TEI parsing, date
-extraction, and protocol metadata inference. Current data still contains known
+``data/``. Current data still contains known
 legacy date issues, so the affected regression guards use explicit baselines;
 curation pull requests should ratchet those baselines down as issues are fixed.
 
