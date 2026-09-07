@@ -19,6 +19,7 @@ from pathlib import Path
 import re
 import unittest
 
+import dateparser
 import polars as pl
 import tqdm
 
@@ -33,7 +34,7 @@ RESULTS_PATH = Path(RESULTS_DIR) / "docdate-weekday-evidence.csv"
 
 # Current-data baseline for impossible weekday/date evidence occurrences.
 # Later OCR and docDate curation PRs should ratchet this down.
-MAX_INVALID_WEEKDAY_DATE_EVIDENCE = 4534
+MAX_INVALID_WEEKDAY_DATE_EVIDENCE = 3616
 
 TEI_NS = {"tei": "http://www.tei-c.org/ns/1.0"}
 XML_ID = "{http://www.w3.org/XML/1998/namespace}id"
@@ -48,28 +49,18 @@ SWEDISH_WEEKDAYS = (
     "söndag",
 )
 
-SWEDISH_MONTHS = {
-    "januari": 1,
-    "februari": 2,
-    "mars": 3,
-    "april": 4,
-    "maj": 5,
-    "juni": 6,
-    "juli": 7,
-    "augusti": 8,
-    "september": 9,
-    "oktober": 10,
-    "november": 11,
-    "december": 12,
-}
-
 WEEKDAY_DATE_PATTERN = re.compile(
-    r"(?i)\b"
-    r"(?P<weekday>måndagen|tisdagen|onsdagen|torsdagen|fredagen|lördagen|söndagen)"
+    r"\b"
+    r"(?P<weekday>[^\W\d_]*dag(?:en)?)"
     r"\s+den\s+"
+    r"(?P<date_text>"
     r"(?P<day>\d{1,2})\.?\s+"
-    r"(?P<month>januari|februari|mars|april|maj|juni|juli|augusti|september|oktober|november|december)"
-    r"\b(?:\s+(?P<year>\d{4}))?"
+    r"[^\W\d_]{3,}"
+    r"(?:\s+(?P<year>\d{4})(?!\d))?"
+    r")"
+    r"\b"
+    r"(?(year)|(?!\s+\d))",
+    re.IGNORECASE,
 )
 
 _WEEKDAY_DATE_EVIDENCE_ERRORS = None
@@ -86,6 +77,27 @@ def normalized_weekday(weekday):
     if weekday.endswith("en"):
         return weekday[:-2]
     return weekday
+
+def parse_swedish_date(text, expected_year, expected_day):
+    """Parse one Swedish day-month-year expression as a date."""
+    parsed = dateparser.parse(
+        text,
+        languages=["sv"],
+        date_formats=("%d %B %Y", "%d. %B %Y"),
+        settings={
+            "STRICT_PARSING": True,
+            "RETURN_AS_TIMEZONE_AWARE": False,
+        },
+    )
+    if parsed is None:
+        return None
+    parsed_date = parsed.date()
+    if parsed_date.year != expected_year:
+        return None
+    if parsed_date.day != expected_day:
+        return None
+    return parsed_date
+
 
 def inferred_header_year(path, metadata, month, explicit_year):
     """Infer a year for yearless headings from the protocol folder."""
@@ -117,17 +129,38 @@ def collect_weekday_date_evidence_errors():
             text = normalized_text(note)
             for match in WEEKDAY_DATE_PATTERN.finditer(text):
                 weekday = normalized_weekday(match.group("weekday"))
-                month = SWEDISH_MONTHS[match.group("month").lower()]
-                year, year_source = inferred_header_year(
-                    path,
-                    metadata,
-                    month,
-                    match.group("year"),
-                )
+                if weekday not in SWEDISH_WEEKDAYS:
+                    continue
 
-                try:
-                    observed_date = date(year, month, int(match.group("day")))
-                except ValueError:
+                date_text = match.group("date_text")
+                explicit_year = match.group("year")
+                day = int(match.group("day"))
+                if explicit_year is None:
+                    # Use a dummy year only to let dateparser identify the month;
+                    # the actual year is inferred from the protocol folder below.
+                    probe_date = parse_swedish_date(f"{date_text} 2000", 2000, day)
+                    if probe_date is None:
+                        continue
+                    year, year_source = inferred_header_year(
+                        path,
+                        metadata,
+                        probe_date.month,
+                        explicit_year,
+                    )
+                    observed_date = parse_swedish_date(
+                        f"{date_text} {year}",
+                        year,
+                        day,
+                    )
+                else:
+                    year_source = "explicit_year"
+                    observed_date = parse_swedish_date(
+                        date_text,
+                        int(explicit_year),
+                        day,
+                    )
+
+                if observed_date is None:
                     continue
 
                 evidence_count += 1
