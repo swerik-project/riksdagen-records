@@ -36,9 +36,6 @@ RESULTS_PATH = Path(RESULTS_DIR) / "docdate-weekday-evidence.csv"
 # Later OCR and docDate curation PRs should ratchet this down.
 MAX_INVALID_WEEKDAY_DATE_EVIDENCE = 3611
 
-TEI_NS = {"tei": "http://www.tei-c.org/ns/1.0"}
-XML_ID = "{http://www.w3.org/XML/1998/namespace}id"
-
 SWEDISH_WEEKDAYS = (
     "måndag",
     "tisdag",
@@ -120,11 +117,15 @@ def collect_weekday_date_evidence_errors():
 
     for path in tqdm.tqdm(protocols):
         metadata = infer_metadata(path)
-        root, _ = parse_tei(path)
+        root, namespaces = parse_tei(path)
         _, docdates = get_doc_dates(root)
         docdate_set = set(docdates)
+        xml_id = f"{namespaces['xml_ns']}id"
 
-        for note in root.xpath(".//tei:body//tei:note", namespaces=TEI_NS):
+        for note in root.xpath(
+            ".//tei:body//tei:note",
+            namespaces={"tei": namespaces["tei_ns"].strip("{}")},
+        ):
             text = normalized_text(note)
             for match in WEEKDAY_DATE_PATTERN.finditer(text):
                 weekday = normalized_weekday(match.group("weekday"))
@@ -175,7 +176,7 @@ def collect_weekday_date_evidence_errors():
                         "error_type": "invalid_weekday_date_evidence",
                         "issue": "weekday/date evidence does not match calendar",
                         "source_line": note.sourceline,
-                        "note_id": note.get(XML_ID),
+                        "note_id": note.get(xml_id),
                         "matched_text": match.group(0),
                         "context": text[:240],
                         "observed_date": observed_date,
