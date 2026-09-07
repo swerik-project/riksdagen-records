@@ -128,31 +128,30 @@ class DocDateIntegrityTest(unittest.TestCase):
         protocol whose first and last parseable ``docDate`` values are more
         than seven days apart.
         """
-        failures = []
+        failures = 0
         for row in self.protocol_docdates:
             if not row["parsed_docdates"]:
                 continue
             first_date, first_docdate = row["parsed_docdates"][0]
             last_date, last_docdate = row["parsed_docdates"][-1]
             if (last_date - first_date).days > 7:
-                failures.append(f"{row['path']}: {first_docdate} to {last_docdate}")
+                failures += 1
+                if failures <= LOG_EXAMPLE_LIMIT:
+                    LOGGER.warning(f"{row['path']}: {first_docdate} to {last_docdate}")
 
-        if failures:
-            _log_failure_examples(
-                f"{len(failures)} protocol(s) span more than one week; "
-                f"accepted baseline is {MAX_LONG_SPAN_PROTOCOLS}",
-                failures,
-                log_error=len(failures) > MAX_LONG_SPAN_PROTOCOLS,
+        if failures > LOG_EXAMPLE_LIMIT:
+            LOGGER.warning(
+                f"... {failures - LOG_EXAMPLE_LIMIT} additional example(s) omitted"
             )
         LOGGER.info(
-            f"Protocols spanning more than one week: {len(failures)}; "
+            f"Protocols spanning more than one week: {failures}; "
             f"accepted baseline: {MAX_LONG_SPAN_PROTOCOLS}"
         )
 
         self.assertLessEqual(
-            len(failures),
+            failures,
             MAX_LONG_SPAN_PROTOCOLS,
-            f"{len(failures)} protocol(s) span more than one week, exceeding "
+            f"{failures} protocol(s) span more than one week, exceeding "
             f"the accepted baseline of {MAX_LONG_SPAN_PROTOCOLS}; details were "
             "logged with trainerlog.",
         )
