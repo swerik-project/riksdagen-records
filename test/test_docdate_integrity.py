@@ -75,8 +75,7 @@ class DocDateIntegrityTest(unittest.TestCase):
     def test_protocols_have_at_least_one_docdate(self):
         """Guarantee: every protocol has at least one TEI ``docDate``.
 
-        Why this matters: removal-only date curation must never leave a record
-        undated. Later parseability, span, and sequence checks depend on each
+        Why this matters: Later parseability, span, and sequence checks depend on each
         protocol having at least one date.
 
         Data: scans protocol XML files under ``data/`` and extracts ``docDate``
