@@ -4,9 +4,6 @@ These tests check corpus-wide date guarantees for protocol XML files under
 ``data/``. Current data still contains known
 legacy date issues, so the affected regression guards use explicit baselines;
 curation pull requests should ratchet those baselines down as issues are fixed.
-
-The authoritative documentation for these guarantees lives in this file. The
-older ``test/docs/docdate_integrity.md`` file is legacy documentation.
 """
 
 from collections import defaultdict
@@ -128,10 +125,6 @@ class DocDateIntegrityTest(unittest.TestCase):
                 if failures <= LOG_EXAMPLE_LIMIT:
                     LOGGER.warning(f"{row['path']}: {first_docdate} to {last_docdate}")
 
-        if failures > LOG_EXAMPLE_LIMIT:
-            LOGGER.warning(
-                f"... {failures - LOG_EXAMPLE_LIMIT} additional example(s) omitted"
-            )
         LOGGER.info(
             f"Protocols spanning more than one week: {failures}; "
             f"accepted baseline: {MAX_LONG_SPAN_PROTOCOLS}"
@@ -183,10 +176,6 @@ class DocDateIntegrityTest(unittest.TestCase):
                             )
                 previous = row
 
-        if failures > LOG_EXAMPLE_LIMIT:
-            LOGGER.warning(
-                f"... {failures - LOG_EXAMPLE_LIMIT} additional example(s) omitted"
-            )
         LOGGER.info(
             f"Same-chamber backward date ranges: {failures}; "
             f"accepted baseline: {MAX_SAME_CHAMBER_BACKWARDS_RANGES}"
@@ -235,10 +224,6 @@ class DocDateIntegrityTest(unittest.TestCase):
                         f"{sorted(observed)}"
                     )
 
-        if failures > LOG_EXAMPLE_LIMIT:
-            LOGGER.warning(
-                f"... {failures - LOG_EXAMPLE_LIMIT} additional example(s) omitted"
-            )
         LOGGER.info(
             f"Pre-1875 filename/docDate mismatches: {failures}; "
             f"accepted baseline: {MAX_PRE_1875_FILENAME_DOCDATE_MISMATCHES}"
