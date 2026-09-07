@@ -34,7 +34,7 @@ RESULTS_PATH = Path(RESULTS_DIR) / "docdate-weekday-evidence.csv"
 
 # Current-data baseline for impossible weekday/date evidence occurrences.
 # Later OCR and docDate curation PRs should ratchet this down.
-MAX_INVALID_WEEKDAY_DATE_EVIDENCE = 3616
+MAX_INVALID_WEEKDAY_DATE_EVIDENCE = 3611
 
 TEI_NS = {"tei": "http://www.tei-c.org/ns/1.0"}
 XML_ID = "{http://www.w3.org/XML/1998/namespace}id"
@@ -78,6 +78,7 @@ def normalized_weekday(weekday):
         return weekday[:-2]
     return weekday
 
+
 def parse_swedish_date(text, expected_year, expected_day):
     """Parse one Swedish day-month-year expression as a date."""
     parsed = dateparser.parse(
@@ -99,16 +100,14 @@ def parse_swedish_date(text, expected_year, expected_day):
     return parsed_date
 
 
-def inferred_header_year(path, metadata, month, explicit_year):
-    """Infer a year for yearless headings from the protocol folder."""
+def inferred_header_year(metadata, month, explicit_year):
+    """Infer a year for yearless headings from protocol metadata."""
     if explicit_year is not None:
         return int(explicit_year), "explicit_year"
 
-    folder = Path(path).parts[1]
-    if len(folder) == 6 and folder.isdigit():
-        if month >= 7:
-            return metadata["year"], "folder_start_year"
-        return metadata["secondary_year"], "folder_end_year"
+    secondary_year = metadata.get("secondary_year")
+    if secondary_year is not None and month <= 6:
+        return secondary_year, "secondary_year"
 
     return metadata["year"], "metadata_year"
 
@@ -137,12 +136,11 @@ def collect_weekday_date_evidence_errors():
                 day = int(match.group("day"))
                 if explicit_year is None:
                     # Use a dummy year only to let dateparser identify the month;
-                    # the actual year is inferred from the protocol folder below.
+                    # the actual year is inferred from protocol metadata below.
                     probe_date = parse_swedish_date(f"{date_text} 2000", 2000, day)
                     if probe_date is None:
                         continue
                     year, year_source = inferred_header_year(
-                        path,
                         metadata,
                         probe_date.month,
                         explicit_year,
