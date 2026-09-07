@@ -72,34 +72,8 @@ class DocDateIntegrityTest(unittest.TestCase):
     def setUpClass(cls):
         cls.protocol_docdates = _read_protocol_docdates()
 
-    def test_protocols_have_at_least_one_docdate(self):
-        """Guarantee: every protocol has at least one TEI ``docDate``.
-
-        Why this matters: Later parseability, span, and sequence checks depend on each
-        protocol having at least one date.
-
-        Data: scans protocol XML files under ``data/`` and extracts ``docDate``
-        values with ``pyriksdagen.utils.get_doc_dates``.
-        """
-        failures = 0
-        for row in self.protocol_docdates:
-            if not any(row["docdates"]):
-                LOGGER.error(f"{row['path']}: docDate values={row['docdates']!r}")
-                failures += 1
-        LOGGER.info(
-            f"Protocols without docDate values: {failures} "
-            f"of {len(self.protocol_docdates)}"
-        )
-
-        self.assertEqual(
-            failures,
-            0,
-            f"{failures} protocol(s) have no docDate values; "
-            "details were logged with trainerlog.",
-        )
-
-    def test_protocols_have_parseable_docdates(self):
-        """Guarantee: every protocol has at least one parseable ``docDate``.
+    def test_protocols_have_usable_docdates(self):
+        """Guarantee: every protocol has at least one parseable TEI ``docDate``.
 
         Why this matters: protocols without parseable meeting dates cannot be
         placed reliably in chronological order or linked to time-bounded person
@@ -108,22 +82,39 @@ class DocDateIntegrityTest(unittest.TestCase):
         Data: scans protocol XML files under ``data/`` and extracts ``docDate``
         values with ``pyriksdagen.utils.get_doc_dates``.
         """
-        failures = 0
+        missing_docdates = 0
+        unparseable_docdates = 0
         for row in self.protocol_docdates:
+            if not any(row["docdates"]):
+                LOGGER.error(f"{row['path']}: docDate values={row['docdates']!r}")
+                missing_docdates += 1
             if not row["parsed_docdates"]:
                 LOGGER.error(f"{row['path']}: docDate values={row['docdates']!r}")
-                failures += 1
+                unparseable_docdates += 1
+
         LOGGER.info(
-            f"Protocols without parseable docDate values: {failures} "
+            f"Protocols without docDate values: {missing_docdates} "
+            f"of {len(self.protocol_docdates)}"
+        )
+        LOGGER.info(
+            f"Protocols without parseable docDate values: {unparseable_docdates} "
             f"of {len(self.protocol_docdates)}"
         )
 
-        self.assertEqual(
-            failures,
-            0,
-            f"{failures} protocol(s) have no parseable docDate values; "
-            "details were logged with trainerlog.",
-        )
+        with self.subTest("at least one docDate"):
+            self.assertEqual(
+                missing_docdates,
+                0,
+                f"{missing_docdates} protocol(s) have no docDate values; "
+                "details were logged with trainerlog.",
+            )
+        with self.subTest("at least one parseable docDate"):
+            self.assertEqual(
+                unparseable_docdates,
+                0,
+                f"{unparseable_docdates} protocol(s) have no parseable docDate values; "
+                "details were logged with trainerlog.",
+            )
 
     def test_protocol_docdate_spans_do_not_exceed_current_baseline(self):
         """Guarantee: protocol ``docDate`` spans should not regress.
