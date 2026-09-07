@@ -157,16 +157,19 @@ class DocDateIntegrityTest(unittest.TestCase):
         )
 
     def test_same_chamber_docdate_order_does_not_exceed_current_baseline(self):
-        """Guarantee: same-chamber protocol date ranges should not move backward.
+        """Regression guard: same-chamber date ranges must not move backward.
 
-        Why this matters: chronological regressions within a chamber can break
-        analyses that treat the corpus order as a meeting sequence. Separate
-        chambers are parallel streams, and same-day adjacency is allowed.
+        The test sorts records by path within each chamber and compares
+        adjacent protocols. It counts a failure when the previous protocol's
+        last parseable ``docDate`` is later than the next protocol's first
+        parseable ``docDate``; same-day boundaries are allowed. The failure
+        count must not exceed the current baseline.
 
-        Data: scans protocol XML under ``data/``. The counted unit is an
-        adjacent same-chamber protocol pair where the previous protocol's last
-        parseable ``docDate`` is later than the next protocol's first parseable
-        ``docDate``.
+        Data: parsed protocol ``docDate`` metadata from XML under ``data/``.
+
+        Counted unit: adjacent same-chamber protocol pairs, in sorted path
+        order, where the previous protocol's last parseable ``docDate`` is
+        later than the next protocol's first parseable ``docDate``.
         """
         rows_by_chamber = defaultdict(list)
         for row in self.protocol_docdates:
@@ -176,7 +179,7 @@ class DocDateIntegrityTest(unittest.TestCase):
         failures = []
         for chamber, rows in rows_by_chamber.items():
             previous = None
-            for row in rows:
+            for row in sorted(rows, key=lambda row: row["path"]):
                 first_date, first_docdate = row["parsed_docdates"][0]
                 if previous:
                     previous_last_date, previous_last_docdate = previous[
