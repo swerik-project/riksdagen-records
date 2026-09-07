@@ -38,15 +38,15 @@ MAX_INVALID_WEEKDAY_DATE_EVIDENCE = 4534
 TEI_NS = {"tei": "http://www.tei-c.org/ns/1.0"}
 XML_ID = "{http://www.w3.org/XML/1998/namespace}id"
 
-SWEDISH_WEEKDAYS = {
-    "måndagen": 0,
-    "tisdagen": 1,
-    "onsdagen": 2,
-    "torsdagen": 3,
-    "fredagen": 4,
-    "lördagen": 5,
-    "söndagen": 6,
-}
+SWEDISH_WEEKDAYS = (
+    "måndag",
+    "tisdag",
+    "onsdag",
+    "torsdag",
+    "fredag",
+    "lördag",
+    "söndag",
+)
 
 SWEDISH_MONTHS = {
     "januari": 1,
@@ -80,6 +80,13 @@ def normalized_text(element):
     return " ".join(" ".join(element.itertext()).split())
 
 
+def normalized_weekday(weekday):
+    """Return the Swedish weekday base form used by date.weekday()."""
+    weekday = weekday.lower()
+    if weekday.endswith("en"):
+        return weekday[:-2]
+    return weekday
+
 def inferred_header_year(path, metadata, month, explicit_year):
     """Infer a year for yearless headings from the protocol folder."""
     if explicit_year is not None:
@@ -109,7 +116,7 @@ def collect_weekday_date_evidence_errors():
         for note in root.xpath(".//tei:body//tei:note", namespaces=TEI_NS):
             text = normalized_text(note)
             for match in WEEKDAY_DATE_PATTERN.finditer(text):
-                weekday = match.group("weekday").lower()
+                weekday = normalized_weekday(match.group("weekday"))
                 month = SWEDISH_MONTHS[match.group("month").lower()]
                 year, year_source = inferred_header_year(
                     path,
@@ -125,16 +132,12 @@ def collect_weekday_date_evidence_errors():
 
                 evidence_count += 1
                 actual_weekday_index = observed_date.weekday()
-                if actual_weekday_index == SWEDISH_WEEKDAYS[weekday]:
+                actual_weekday = SWEDISH_WEEKDAYS[actual_weekday_index]
+                if actual_weekday == weekday:
                     continue
 
                 observed_iso = observed_date.isoformat()
                 docdate_support = observed_iso in docdate_set
-                actual_weekday = next(
-                    name
-                    for name, index in SWEDISH_WEEKDAYS.items()
-                    if index == actual_weekday_index
-                )
                 error_type = (
                     "invalid_weekday_supports_docdate"
                     if docdate_support
