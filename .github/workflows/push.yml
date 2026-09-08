@@ -177,6 +177,9 @@ jobs:
     - name: Test known speaker introduction regressions
       run: |
         python -m unittest test.speaker_introductions
+    - name: Require yearly speaker-mapping coverage to stay above a threshold.
+      run: |
+        python -m unittest test.speaker-mapping-coverage-threshold
 
   next-prev:
     runs-on: ubuntu-latest
