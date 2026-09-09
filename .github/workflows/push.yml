@@ -95,7 +95,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - uses: ./.github/actions/free-up-space
     - uses: ./.github/actions/install-dependencies
-    - name: Check protocol body integrity
+    - name: Check protocol has a body and other required elements
       run: |
         python -m unittest test.test_protocol_body_integrity
 
@@ -118,6 +118,9 @@ jobs:
         KBLAB_PASSWORD: ${{ secrets.KBLAB_PASSWORD }}
       run: |
         python -m unittest test.altocheck
+    - name: Check a sample of pages against corresponding alto files using the Dice coefficient
+      run: |
+        python -m unittest test.altocheck_dice
 
   empty-speech:
     runs-on: ubuntu-latest
@@ -164,7 +167,7 @@ jobs:
         export METADATA_PATH="riksdagen-persons/data"
         python -m unittest test.mp
 
-  speaker-introduction-regressions:
+  speaker-introduction-mapping:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -183,23 +186,6 @@ jobs:
     - name: Require yearly speaker-mapping coverage to stay above a threshold.
       run: |
         python -m unittest test.speaker-mapping-coverage-threshold
-
-  next-prev:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: [3.8]
-    steps:
-    - uses: actions/checkout@v4
-    - uses: ./.github/actions/checkout
-    - uses: ./.github/actions/setup-python
-      with:
-        python-version: ${{ matrix.python-version }}
-    - uses: ./.github/actions/free-up-space
-    - uses: ./.github/actions/install-dependencies
-    - name: Check that next/prev tagging is coherent
-      run: |
-        python -m unittest test.next_prev
 
   paragraph-ids:
     runs-on: ubuntu-latest
@@ -234,6 +220,9 @@ jobs:
     - name: Check that there are no duplicate or missing protocol numbers between first and last
       run: |
         python -m unittest test.records-in-sequence
+    - name: Check that next/prev tagging is coherent
+      run: |
+        python -m unittest test.next_prev
 
   snabbprotokoll:
     runs-on: ubuntu-latest
@@ -269,23 +258,6 @@ jobs:
       run: |
         python -m unittest test.test_doc-id
 
-  alto-dice-test:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: [3.8]
-    steps:
-    - uses: actions/checkout@v4
-    - uses: ./.github/actions/checkout
-    - uses: ./.github/actions/setup-python
-      with:
-        python-version: ${{ matrix.python-version }}
-    - uses: ./.github/actions/free-up-space
-    - uses: ./.github/actions/install-dependencies
-    - name: check that Doc IDs appear in TEI elem, doc ID == filename, doc ID used in facs
-      run: |
-        python -m unittest test.altocheck_dice
-
   facscheck-test:
     runs-on: ubuntu-latest
     strategy:
@@ -299,7 +271,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - uses: ./.github/actions/free-up-space
     - uses: ./.github/actions/install-dependencies
-    - name: check that Doc IDs appear in TEI elem, doc ID == filename, doc ID used in facs
+    - name: Ensure records with unexpected URLs and records with no FACS don't increase
       run: |
         python -m unittest test.facscheck
 
