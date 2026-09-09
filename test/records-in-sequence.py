@@ -9,19 +9,12 @@ from pyriksdagen.utils import (
 )
 from pytest_cfg_fetcher.fetch import fetch_config
 from tqdm import tqdm
+from trainerlog import get_logger
 import pandas as pd
-import os, unittest, warnings
+import os, unittest
 
 
-
-
-class OutOfSequence(Warning):
-
-    def __init__(self, m):
-        self.message = m
-
-    def __str__(self):
-        return f"\n{self.message}"
+logger = get_logger(name="records-in-sequence")
 
 
 class Test(unittest.TestCase):
@@ -39,7 +32,7 @@ class Test(unittest.TestCase):
         try:
             D[year][sl1].append(int(N))
         except:
-            print(spl)
+            logger.error(f"Could not parse unicameral protocol number from filename parts: {spl}")
         return D
 
     def _add_tk_2_D(self, D, spl):
@@ -84,7 +77,7 @@ class Test(unittest.TestCase):
         start, end = l[0], l[-1]
         #print(start, end, l)
         if start != 1:
-            print("WARNING! range starts at:", start)
+            logger.warning(f"Protocol range starts at {start}, not 1")
             if start == 5446:
                 print("... that's my number")
         missing = sorted(set(range(start, end + 1)).difference(l))
@@ -140,7 +133,7 @@ class Test(unittest.TestCase):
         ]
         for _ in Dpaths:
             pc = '-'.join(_[0])
-            print("--->", pc)
+            logger.info(f"Checking protocol sequence for {pc}")
             duplicates = self._ck_duplicates(_[1])
             start, end, missing = self._ck_missing(_[1])
             if duplicates:
@@ -149,17 +142,14 @@ class Test(unittest.TestCase):
                     if (_[0][0], d_d) not in acceptable_exceptions:
                         dups = True
                         N_dup += 1
-                        warnings.warn(
-                            f" DUPLICATE warning {pc}, {N_dup} duplicates -- {d_d}",
-                            OutOfSequence)
+                        logger.error(f"Duplicate protocol number in {pc}: {d_d}")
             else:
                 N_dup = 0
             if missing:
                 N_mis = len(missing)
                 miss = True
-                warnings.warn(
-                    f" MISSING warning {pc}, {N_mis} missing from ranges -- {start}-{end} -- {missing}",
-                    OutOfSequence)
+                logger.error(f"{N_mis} protocol number(s) missing in {pc} range {start}-{end}")
+                logger.debug(f"Missing protocol numbers for {pc}: {missing}")
             else:
                 N_mis = 0
             rows.append([pc, len(_[1]), start, end, N_dup, N_mis, duplicates, missing])
@@ -172,8 +162,8 @@ class Test(unittest.TestCase):
                 df.to_csv(
                     f"{config['test_out_dir']}/out-of-sequence_{now}.csv",
                     sep=";", index=False)
-        self.assertFalse(dups)
-        self.assertFalse(miss)
+        self.assertFalse(dups, "Duplicate protocol numbers found outside accepted exceptions")
+        self.assertFalse(miss, "Missing protocol numbers found in one or more protocol sequences")
 
 
 

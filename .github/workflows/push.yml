@@ -4,14 +4,35 @@ on:
   push:
     paths:
       - data/**
+      - test/**
+      - '!test/results/**'
       - test/.run
+      - .github/workflows/push.yml
   pull_request:
     branches:
       - 'main'
       - 'dev'
+    paths-ignore:
+      - 'test/results/**'
+      - 'quality/estimates/**'
   workflow_dispatch:
 
 jobs:
+  api-contract:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Check public API folder structure
+      run: |
+        python -m unittest test.api-contract
+
   schemas:
     runs-on: ubuntu-latest
     strategy:
@@ -28,6 +49,55 @@ jobs:
     - name: Validate XML files against ParlaClarin schema
       run: |
         python -m unittest test.schemas
+
+  targeted-regressions:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Run targeted XML data regression tests
+      run: |
+        python -m unittest test.test_docdate_filename_dates test.test_speaker_mapping_regressions
+
+  docdate-integrity:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
+      with:
+        python-version: ${{ matrix.python-version }}
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Check protocol docDate integrity
+      run: |
+        python -m unittest test.test_docdate_integrity
+
+  protocol-body-integrity:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
+      with:
+        python-version: ${{ matrix.python-version }}
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Check protocol has a body and other required elements
+      run: |
+        python -m unittest test.test_protocol_body_integrity
 
   alto-comparison:
     runs-on: ubuntu-latest
@@ -48,6 +118,9 @@ jobs:
         KBLAB_PASSWORD: ${{ secrets.KBLAB_PASSWORD }}
       run: |
         python -m unittest test.altocheck
+    - name: Check a sample of pages against corresponding alto files using the Dice coefficient
+      run: |
+        python -m unittest test.altocheck_dice
 
   empty-speech:
     runs-on: ubuntu-latest
@@ -65,6 +138,12 @@ jobs:
     - name: Test there are no empty u or seg elements
       run: |
         python -m unittest test.empty-speech
+    - name: Test that the references in the speech elems exist in the data
+      run: |
+        python -m unittest test.speech-elems-exist
+    - name: Test that no records are completely empty
+      run: |
+        python -m unittest test.prot-not-empty
 
   mp:
     runs-on: ubuntu-latest
@@ -88,7 +167,7 @@ jobs:
         export METADATA_PATH="riksdagen-persons/data"
         python -m unittest test.mp
 
-  next-prev:
+  speaker-introduction-mapping:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -101,9 +180,12 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - uses: ./.github/actions/free-up-space
     - uses: ./.github/actions/install-dependencies
-    - name: Check that next/prev tagging is coherent
+    - name: Test known speaker introduction regressions
       run: |
-        python -m unittest test.next_prev
+        python -m unittest test.speaker_introductions
+    - name: Require yearly speaker-mapping coverage to stay above a threshold.
+      run: |
+        python -m unittest test.speaker-mapping-coverage-threshold
 
   paragraph-ids:
     runs-on: ubuntu-latest
@@ -138,6 +220,26 @@ jobs:
     - name: Check that there are no duplicate or missing protocol numbers between first and last
       run: |
         python -m unittest test.records-in-sequence
+    - name: Check that next/prev tagging is coherent
+      run: |
+        python -m unittest test.next_prev
+
+  snabbprotokoll:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
+      with:
+        python-version: ${{ matrix.python-version }}
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Check that later records are not obvious snabbprotokoll
+      run: |
+        python -m unittest test.snabbprotokoll
 
   doc-id-page-nr-filename:
     runs-on: ubuntu-latest
@@ -156,3 +258,30 @@ jobs:
       run: |
         python -m unittest test.test_doc-id
 
+  facscheck-test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
+      with:
+        python-version: ${{ matrix.python-version }}
+    - uses: ./.github/actions/free-up-space
+    - uses: ./.github/actions/install-dependencies
+    - name: Ensure records with unexpected URLs and records with no FACS don't increase
+      run: |
+        python -m unittest test.facscheck
+
+  ensure-tests-in-ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install fish shell
+        uses: fish-shop/install-fish-shell@v2
+      - name: Ensure all tests are in CI
+        run: |
+          ls
+          fish ./test/ensure_ci.fish

@@ -45,6 +45,13 @@
             :start-after: Summary
             :end-before: Test Cases
 
+
+### test_docdate_integrity.py
+
+.. include:: docs/docdate_integrity.md
+            :start-after: Summary
+            :end-before: Test Cases
+
 ### mp.py
 
 .. include:: docs/mp.md
