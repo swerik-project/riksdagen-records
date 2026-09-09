@@ -138,6 +138,9 @@ jobs:
     - name: Test that the references in the speech elems exist in the data
       run: |
         python -m unittest test.speech-elems-exist
+    - name: Test that no records are completely empty
+      run: |
+        python -m unittest test.prot-not-empty
 
   mp:
     runs-on: ubuntu-latest
