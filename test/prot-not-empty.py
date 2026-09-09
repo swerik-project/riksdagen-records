@@ -14,10 +14,10 @@ import unittest
 
 logger = get_logger(name="prot-not-empty")
 
+CURRENT_NO_EMPTY_RECORDS = 2
 
 class Test(unittest.TestCase):
 
-    CURRENT_NO_EMPTY_RECORDS = 2
     def test_not_empty(self):
         """
         Test that zero records are empty, i.e. have no content divs or text content.
