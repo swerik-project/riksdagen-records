@@ -3,18 +3,10 @@ name: "Riksdagen Records: data integrity tests"
 on:
   push:
     paths:
-      - data/**
-      - test/**
+      - "**"
       - '!test/results/**'
-      - test/.run
-      - .github/workflows/push.yml
-  pull_request:
-    branches:
-      - 'main'
-      - 'dev'
-    paths-ignore:
-      - 'test/results/**'
-      - 'quality/estimates/**'
+      - '!quality/estimates/**'
+
   workflow_dispatch:
 
 jobs:
