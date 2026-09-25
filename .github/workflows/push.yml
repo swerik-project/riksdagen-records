@@ -2,11 +2,9 @@ name: "Riksdagen Records: data integrity tests"
 
 on:
   push:
-    paths:
-      - "**"
-      - '!test/results/**'
-      - '!quality/estimates/**'
-
+    paths-ignore:
+      - 'test/results/**'
+      - 'quality/estimates/**'
   workflow_dispatch:
 
 jobs:
