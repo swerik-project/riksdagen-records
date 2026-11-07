@@ -42,17 +42,11 @@ SWEDISH_WEEKDAYS = (
     "söndag",
 )
 
+# If digits follow the month after whitespace, require a four-digit year.
 WEEKDAY_DATE_PATTERN = re.compile(
-    r"\b"
-    r"(?P<weekday>[^\W\d_]*dag(?:en)?)"
-    r"\s+den\s+"
-    r"(?P<date_text>"
-    r"(?P<day>\d{1,2})\.?\s+"
-    r"[^\W\d_]{3,}"
-    r"(?:\s+(?P<year>\d{4})(?!\d))?"
-    r")"
-    r"\b"
-    r"(?(year)|(?!\s+\d))",
+    r"\b(?P<weekday>[^\W\d_]*dag(?:en)?)\s+den\s+"
+    r"(?P<date_text>(?P<day>\d{1,2})\.?\s+[^\W\d_]{3,}"
+    r"(?:\s+(?P<year>\d{4})|(?!\s+\d)))\b",
     re.IGNORECASE,
 )
 
