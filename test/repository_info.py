@@ -1,7 +1,4 @@
 """Publication checks for the records repository's canonical YAML and DCAT RDF.
-
-These checks enforce Decision 0023 for records. Shared tooling should handle
-general validation of the repository info YAML schema.
 """
 
 from pathlib import Path
