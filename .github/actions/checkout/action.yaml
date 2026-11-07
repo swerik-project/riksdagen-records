@@ -8,4 +8,4 @@ runs:
     with:
       persist-credentials: false   # use GITHUB_TOKEN
       fetch-depth: 1               # fetch depth is nr of commits
-      ref: ${{ github.head_ref }}
+      ref: ${{ github.head_ref || github.ref_name }}
