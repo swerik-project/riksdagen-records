@@ -77,16 +77,25 @@ class TestDocDateWeekdayEvidence(unittest.TestCase):
             return None
         return parsed_date
 
-    def inferred_header_year(self, metadata, month, explicit_year):
-        """Infer a year for yearless headings from protocol metadata."""
-        if explicit_year is not None:
-            return int(explicit_year), "explicit_year"
+    def parse_yearless_heading(self, date_text, metadata):
+        """Parse with a leap-year placeholder, then apply the protocol year."""
+        probe_date = self.parse_swedish_date(f"{date_text} 2000", 2000)
+        if probe_date is None:
+            return None, None
 
         secondary_year = metadata.get("secondary_year")
-        if secondary_year is not None and month <= 6:
-            return secondary_year, "secondary_year"
+        if secondary_year is not None and probe_date.month <= 6:
+            year, year_source = secondary_year, "secondary_year"
+        else:
+            year, year_source = metadata["year"], "metadata_year"
 
-        return metadata["year"], "metadata_year"
+        if year is None:
+            return None, year_source
+        try:
+            return probe_date.replace(year=year), year_source
+        except ValueError:
+            # A 29 February heading can fall in a non-leap year.
+            return None, year_source
 
     def collect_weekday_date_evidence_errors(self):
         errors = []
@@ -107,24 +116,16 @@ class TestDocDateWeekdayEvidence(unittest.TestCase):
             ):
                 text = self.normalized_text(note)
                 for match in WEEKDAY_DATE_PATTERN.finditer(text):
-                    weekday = match.group("weekday").lower()
-                    if weekday not in SWEDISH_WEEKDAYS:
+                    claimed_weekday = match.group("weekday").lower()
+                    if claimed_weekday not in SWEDISH_WEEKDAYS:
                         continue
 
                     date_text = match.group("date_text")
                     explicit_year = match.group("year")
                     if explicit_year is None:
-                        # Use a dummy year only to let dateparser identify the month;
-                        # the actual year is inferred from protocol metadata below.
-                        probe_date = self.parse_swedish_date(f"{date_text} 2000", 2000)
-                        if probe_date is None:
-                            continue
-                        year, year_source = self.inferred_header_year(
-                            metadata,
-                            probe_date.month,
-                            explicit_year,
+                        observed_date, year_source = self.parse_yearless_heading(
+                            date_text, metadata
                         )
-                        observed_date = self.parse_swedish_date(f"{date_text} {year}", year)
                     else:
                         year_source = "explicit_year"
                         observed_date = self.parse_swedish_date(date_text, int(explicit_year))
@@ -133,28 +134,25 @@ class TestDocDateWeekdayEvidence(unittest.TestCase):
                         continue
 
                     evidence_count += 1
-                    actual_weekday_index = observed_date.weekday()
-                    actual_weekday = SWEDISH_WEEKDAYS[actual_weekday_index]
-                    if actual_weekday == weekday:
-                        continue
-
-                    observed_iso = observed_date.isoformat()
-                    docdate_support = observed_iso in docdate_set
-                    errors.append(
-                        {
-                            "file": path,
-                            "source_line": note.sourceline,
-                            "note_id": note.get(xml_id),
-                            "matched_text": match.group(0),
-                            "context": text[:240],
-                            "observed_date": observed_date,
-                            "claimed_weekday": weekday,
-                            "actual_weekday": actual_weekday,
-                            "year_source": year_source,
-                            "docdate_support": docdate_support,
-                            "note_type": note.get("type"),
-                        }
-                    )
+                    actual_weekday = SWEDISH_WEEKDAYS[observed_date.weekday()]
+                    if actual_weekday != claimed_weekday:
+                        observed_iso = observed_date.isoformat()
+                        docdate_support = observed_iso in docdate_set
+                        errors.append(
+                            {
+                                "file": path,
+                                "source_line": note.sourceline,
+                                "note_id": note.get(xml_id),
+                                "matched_text": match.group(0),
+                                "context": text[:240],
+                                "observed_date": observed_date,
+                                "claimed_weekday": claimed_weekday,
+                                "actual_weekday": actual_weekday,
+                                "year_source": year_source,
+                                "docdate_support": docdate_support,
+                                "note_type": note.get("type"),
+                            }
+                        )
 
         LOGGER.info(
             "Validated %s weekday/date evidence occurrence(s); found %s impossible occurrence(s)",
