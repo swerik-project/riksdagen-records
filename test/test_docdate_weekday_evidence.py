@@ -65,7 +65,7 @@ class TestDocDateWeekdayEvidence(unittest.TestCase):
         matches = search_dates(
             phrase,
             languages=["sv"],
-            settings={"STRICT_PARSING": True},
+            settings={"REQUIRE_PARTS": ["day", "month"]},
         )
         if not matches or len(matches) != 1:
             return None
