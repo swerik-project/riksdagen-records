@@ -1,10 +1,8 @@
 """Release checks for meeting dates in protocol TEI and the session fixture."""
 
-from collections import defaultdict
-from datetime import date, datetime
+from datetime import datetime
 from pathlib import Path
 import re
-from typing import NamedTuple, Optional
 import unittest
 
 import polars as pl
@@ -30,12 +28,31 @@ CHAMBER_CODES = {
 }
 
 
-class ProtocolDates(NamedTuple):
-    path: str
-    chamber: Optional[str]
-    year: Optional[int]
-    raw: tuple[Optional[str], ...]
-    parsed: tuple[date, ...]
+def load_session_ranges():
+    """Load session start and end dates from the CSV and group them by parliamentary year and chamber."""
+    ranges = {}
+    sessions = pl.read_csv(RIKSDAG_YEAR_PATH, try_parse_dates=True)
+    for year, chamber, start, end in sessions.select(
+        "parliament_year", "chamber", "start", "end"
+    ).iter_rows():
+        if start is not None and end is not None:
+            ranges.setdefault((str(year), chamber), []).append((start, end))
+    return ranges
+
+
+def expected_ranges(protocol, session_ranges):
+    """Return intervals for the protocol's folder and chamber, including chamber-neutral rows."""
+    folder = Path(protocol["path"]).parts[1]
+    chamber = CHAMBER_CODES.get(protocol["chamber"])
+    neutral_ranges = session_ranges.get((folder, None), ())
+    if chamber is None:
+        return neutral_ranges
+    return (*session_ranges.get((folder, chamber), ()), *neutral_ranges)
+
+
+def outside_session_dates(dates, ranges):
+    """Return dates outside every session range, treating both endpoints as inclusive."""
+    return [value for value in dates if not any(start <= value <= end for start, end in ranges)]
 
 
 class DocDateIntegrityTest(unittest.TestCase):
@@ -55,21 +72,22 @@ class DocDateIntegrityTest(unittest.TestCase):
                 except (TypeError, ValueError):
                     LOGGER.error("%s: unparseable docDate %r", path, value)
             metadata = infer_metadata(path)
-            cls.protocol_dates.append(
-                ProtocolDates(
-                    path, metadata.get("chamber"), metadata.get("year"),
-                    tuple(raw_dates), tuple(sorted(parsed)),
-                )
-            )
+            cls.protocol_dates.append({
+                "path": path,
+                "chamber": metadata.get("chamber"),
+                "year": metadata.get("year"),
+                "raw": tuple(raw_dates),
+                "parsed": tuple(sorted(parsed)),
+            })
 
     def test_protocols_have_parseable_docdates(self):
         """Guarantee: every protocol has docDates and each value is a calendar date."""
         failures = 0
         for protocol in self.protocol_dates:
-            if not protocol.raw:
-                LOGGER.error("%s: missing docDate", protocol.path)
+            if not protocol["raw"]:
+                LOGGER.error("%s: missing docDate", protocol["path"])
                 failures += 1
-            elif len(protocol.raw) != len(protocol.parsed):
+            elif len(protocol["raw"]) != len(protocol["parsed"]):
                 failures += 1
         self.assertEqual(
             failures, 0, f"{failures} protocol(s) have missing or invalid docDates; see log."
@@ -79,10 +97,11 @@ class DocDateIntegrityTest(unittest.TestCase):
         """Guarantee: the number of protocols spanning more than a week cannot increase past the limit."""
         failures = 0
         for protocol in self.protocol_dates:
-            if protocol.parsed:
-                first, last = protocol.parsed[0], protocol.parsed[-1]
+            dates = protocol["parsed"]
+            if dates:
+                first, last = dates[0], dates[-1]
                 if (last - first).days > MAX_SPAN_DAYS:
-                    LOGGER.warning("%s: docDate span %s to %s", protocol.path, first, last)
+                    LOGGER.warning("%s: docDate span %s to %s", protocol["path"], first, last)
                     failures += 1
         self.assertLessEqual(
             failures, MAX_LONG_SPANS,
@@ -94,16 +113,16 @@ class DocDateIntegrityTest(unittest.TestCase):
         failures = 0
         previous = None
         for protocol in self.protocol_dates:
-            if not protocol.parsed:
+            if not protocol["parsed"]:
                 continue
             if (
                 previous is not None
-                and previous.chamber == protocol.chamber
-                and previous.parsed[-1] > protocol.parsed[0]
+                and previous["chamber"] == protocol["chamber"]
+                and previous["parsed"][-1] > protocol["parsed"][0]
             ):
                 LOGGER.warning(
                     "%s ends %s, after %s starts %s",
-                    previous.path, previous.parsed[-1], protocol.path, protocol.parsed[0],
+                    previous["path"], previous["parsed"][-1], protocol["path"], protocol["parsed"][0],
                 )
                 failures += 1
             previous = protocol
@@ -116,59 +135,29 @@ class DocDateIntegrityTest(unittest.TestCase):
         """Guarantee: an encoded pre-1875 filename date is the only distinct docDate."""
         failures = 0
         for protocol in self.protocol_dates:
-            if not protocol.parsed or not protocol.year or protocol.year >= 1875:
+            year = protocol["year"]
+            if not protocol["parsed"] or not year or year >= 1875:
                 continue
-            date_code = re.search(r"--(\d{4})$", Path(protocol.path).stem)
+            date_code = re.search(r"--(\d{4})$", Path(protocol["path"]).stem)
             if date_code is None:
                 continue
             mmdd = date_code.group(1)
-            expected = f"{protocol.year}-{mmdd[:2]}-{mmdd[2:]}"
-            if set(protocol.raw) != {expected}:
-                LOGGER.error("%s: expected %s, found %r", protocol.path, expected, protocol.raw)
+            expected = f"{year}-{mmdd[:2]}-{mmdd[2:]}"
+            if set(protocol["raw"]) != {expected}:
+                LOGGER.error("%s: expected %s, found %r", protocol["path"], expected, protocol["raw"])
                 failures += 1
         self.assertEqual(
             failures, 0,
             f"{failures} pre-1875 protocols disagree with their filename date; see log.",
         )
 
-    @staticmethod
-    def _load_session_ranges():
-        """Read reference intervals keyed by parliamentary year and chamber."""
-        ranges = defaultdict(list)
-        sessions = pl.read_csv(RIKSDAG_YEAR_PATH, try_parse_dates=True)
-        for year, chamber, start, end in sessions.select(
-            "parliament_year", "chamber", "start", "end"
-        ).iter_rows():
-            if start is not None and end is not None:
-                ranges[str(year), chamber].append((start, end))
-        return ranges
-
-    @staticmethod
-    def _expected_ranges(protocol, session_ranges):
-        """Return session intervals for this folder and chamber, including chamber-neutral rows."""
-        folder = Path(protocol.path).parts[1]
-        chamber = CHAMBER_CODES.get(protocol.chamber)
-        if chamber is None:
-            return session_ranges.get((folder, None), ())
-        return (
-            *session_ranges.get((folder, chamber), ()),
-            *session_ranges.get((folder, None), ()),
-        )
-
-    @staticmethod
-    def _outside_session_dates(protocol, ranges):
-        return [
-            value for value in protocol.parsed
-            if not any(start <= value <= end for start, end in ranges)
-        ]
-
     def test_protocols_have_expected_riksdag_year_ranges(self):
         """Guarantee: each dated protocol has a reference session range for its folder and chamber."""
-        session_ranges = self._load_session_ranges()
+        session_ranges = load_session_ranges()
         failures = 0
         for protocol in self.protocol_dates:
-            if protocol.parsed and not self._expected_ranges(protocol, session_ranges):
-                LOGGER.error("%s: no session range for %s", protocol.path, protocol.chamber)
+            if protocol["parsed"] and not expected_ranges(protocol, session_ranges):
+                LOGGER.error("%s: no session range for %s", protocol["path"], protocol["chamber"])
                 failures += 1
         self.assertEqual(
             failures, 0,
@@ -177,16 +166,16 @@ class DocDateIntegrityTest(unittest.TestCase):
 
     def test_docdates_stay_inside_expected_riksdag_year_range(self):
         """Guarantee: protocols outside their reference session ranges stay within the release limit."""
-        session_ranges = self._load_session_ranges()
+        session_ranges = load_session_ranges()
         failures = 0
         for protocol in self.protocol_dates:
-            if not protocol.parsed:
+            if not protocol["parsed"]:
                 continue
-            ranges = self._expected_ranges(protocol, session_ranges)
+            ranges = expected_ranges(protocol, session_ranges)
             if ranges:
-                outside = self._outside_session_dates(protocol, ranges)
+                outside = outside_session_dates(protocol["parsed"], ranges)
                 if outside:
-                    LOGGER.warning("%s: dates %s outside session ranges %s", protocol.path, outside, ranges)
+                    LOGGER.warning("%s: dates %s outside session ranges %s", protocol["path"], outside, ranges)
                     failures += 1
         self.assertLessEqual(
             failures, MAX_OUTSIDE_RIKSDAG_YEAR_RANGE,
@@ -195,18 +184,19 @@ class DocDateIntegrityTest(unittest.TestCase):
 
     def test_known_199192_out_of_range_docdates_are_detected(self):
         """Guarantee: the session check still detects unresolved out-of-range cases from issue #234."""
-        session_ranges = self._load_session_ranges()
+        session_ranges = load_session_ranges()
         known_dates = {
             "data/199192/prot-199192--003.xml": "1992-10-07",
             "data/199192/prot-199192--004.xml": "1992-10-08",
             "data/199192/prot-199192--131.xml": "1991-01-01",
         }
         for protocol in self.protocol_dates:
-            if protocol.path in known_dates and known_dates[protocol.path] in protocol.raw:
-                ranges = self._expected_ranges(protocol, session_ranges)
+            path = protocol["path"]
+            if path in known_dates and known_dates[path] in protocol["raw"]:
+                ranges = expected_ranges(protocol, session_ranges)
                 self.assertTrue(
-                    ranges and self._outside_session_dates(protocol, ranges),
-                    f"{protocol.path}: known out-of-range docDate was not detected",
+                    ranges and outside_session_dates(protocol["parsed"], ranges),
+                    f"{path}: known out-of-range docDate was not detected",
                 )
 
 
