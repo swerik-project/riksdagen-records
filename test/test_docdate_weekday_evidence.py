@@ -45,7 +45,7 @@ SWEDISH_WEEKDAYS = (
 # If digits follow the month after whitespace, require a four-digit year.
 WEEKDAY_DATE_PATTERN = re.compile(
     r"\b(?P<weekday>[^\W\d_]*dag)(?:en)?\s+den\s+"
-    r"(?P<date_text>(?P<day>\d{1,2})\.?\s+[^\W\d_]{3,}"
+    r"(?P<date_text>\d{1,2}\.?\s+[^\W\d_]{3,}"
     r"(?:\s+(?P<year>\d{4})|(?!\s+\d)))\b",
     re.IGNORECASE,
 )
@@ -57,7 +57,7 @@ class TestDocDateWeekdayEvidence(unittest.TestCase):
 
     @staticmethod
     @lru_cache(maxsize=8192)
-    def parse_swedish_date(text, expected_year, expected_day):
+    def parse_swedish_date(text, expected_year):
         """Parse one Swedish day-month-year expression as a date."""
         # Printed running headers repeat dates; avoid parsing each occurrence again.
         # The extracted phrase may have a dot after the day, which search_dates skips.
@@ -74,8 +74,6 @@ class TestDocDateWeekdayEvidence(unittest.TestCase):
             return None
         parsed_date = parsed.date()
         if parsed_date.year != expected_year:
-            return None
-        if parsed_date.day != expected_day:
             return None
         return parsed_date
 
@@ -115,15 +113,10 @@ class TestDocDateWeekdayEvidence(unittest.TestCase):
 
                     date_text = match.group("date_text")
                     explicit_year = match.group("year")
-                    day = int(match.group("day"))
                     if explicit_year is None:
                         # Use a dummy year only to let dateparser identify the month;
                         # the actual year is inferred from protocol metadata below.
-                        probe_date = self.parse_swedish_date(
-                            f"{date_text} 2000",
-                            2000,
-                            day,
-                        )
+                        probe_date = self.parse_swedish_date(f"{date_text} 2000", 2000)
                         if probe_date is None:
                             continue
                         year, year_source = self.inferred_header_year(
@@ -131,18 +124,10 @@ class TestDocDateWeekdayEvidence(unittest.TestCase):
                             probe_date.month,
                             explicit_year,
                         )
-                        observed_date = self.parse_swedish_date(
-                            f"{date_text} {year}",
-                            year,
-                            day,
-                        )
+                        observed_date = self.parse_swedish_date(f"{date_text} {year}", year)
                     else:
                         year_source = "explicit_year"
-                        observed_date = self.parse_swedish_date(
-                            date_text,
-                            int(explicit_year),
-                            day,
-                        )
+                        observed_date = self.parse_swedish_date(date_text, int(explicit_year))
 
                     if observed_date is None:
                         continue
