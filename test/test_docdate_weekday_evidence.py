@@ -16,7 +16,7 @@ from pathlib import Path
 import re
 import unittest
 
-import dateparser
+from dateparser.search import search_dates
 import polars as pl
 import tqdm
 
@@ -60,16 +60,20 @@ class TestDocDateWeekdayEvidence(unittest.TestCase):
     def parse_swedish_date(text, expected_year, expected_day):
         """Parse one Swedish day-month-year expression as a date."""
         # Printed running headers repeat dates; avoid parsing each occurrence again.
-        parsed = dateparser.parse(
-            text,
+        # The extracted phrase may have a dot after the day, which search_dates skips.
+        phrase = text.replace(".", "", 1)
+        matches = search_dates(
+            phrase,
             languages=["sv"],
-            date_formats=("%d %B %Y", "%d. %B %Y"),
             settings={
                 "STRICT_PARSING": True,
                 "RETURN_AS_TIMEZONE_AWARE": False,
             },
         )
-        if parsed is None:
+        if not matches or len(matches) != 1:
+            return None
+        matched_text, parsed = matches[0]
+        if matched_text != phrase:
             return None
         parsed_date = parsed.date()
         if parsed_date.year != expected_year:
