@@ -21,9 +21,7 @@ MAX_SPAN_DAYS = 7
 # Keep the release limits from dev. Later curation can ratchet them down.
 MAX_LONG_SPANS = 515
 MAX_RANGE_OVERLAPS = 733
-MAX_FILENAME_MISMATCHES = 0
 MAX_OUTSIDE_RIKSDAG_YEAR_RANGE = 411
-MAX_MISSING_RIKSDAG_YEAR_RANGE = 0
 
 CHAMBER_CODES = {
     "Första kammaren": "fk",
@@ -64,14 +62,6 @@ class DocDateIntegrityTest(unittest.TestCase):
                 )
             )
 
-        cls.session_ranges = defaultdict(list)
-        sessions = pl.read_csv(RIKSDAG_YEAR_PATH, try_parse_dates=True)
-        for year, chamber, start, end in sessions.select(
-            "parliament_year", "chamber", "start", "end"
-        ).iter_rows():
-            if start is not None and end is not None:
-                cls.session_ranges[str(year), chamber].append((start, end))
-
     def test_protocols_have_parseable_docdates(self):
         """Guarantee: every protocol has docDates and each value is a calendar date."""
         failures = 0
@@ -79,8 +69,11 @@ class DocDateIntegrityTest(unittest.TestCase):
             if not protocol.raw:
                 LOGGER.error("%s: missing docDate", protocol.path)
                 failures += 1
-            failures += len(protocol.raw) - len(protocol.parsed)
-        self.assertEqual(failures, 0, f"{failures} missing or invalid docDate values; see log.")
+            elif len(protocol.raw) != len(protocol.parsed):
+                failures += 1
+        self.assertEqual(
+            failures, 0, f"{failures} protocol(s) have missing or invalid docDates; see log."
+        )
 
     def test_protocol_date_spans_are_not_longer_than_one_week(self):
         """Guarantee: the number of protocols spanning more than a week cannot increase past the limit."""
@@ -133,20 +126,33 @@ class DocDateIntegrityTest(unittest.TestCase):
             if set(protocol.raw) != {expected}:
                 LOGGER.error("%s: expected %s, found %r", protocol.path, expected, protocol.raw)
                 failures += 1
-        self.assertLessEqual(
-            failures, MAX_FILENAME_MISMATCHES,
+        self.assertEqual(
+            failures, 0,
             f"{failures} pre-1875 protocols disagree with their filename date; see log.",
         )
 
-    def _expected_ranges(self, protocol):
+    @staticmethod
+    def _load_session_ranges():
+        """Read reference intervals keyed by parliamentary year and chamber."""
+        ranges = defaultdict(list)
+        sessions = pl.read_csv(RIKSDAG_YEAR_PATH, try_parse_dates=True)
+        for year, chamber, start, end in sessions.select(
+            "parliament_year", "chamber", "start", "end"
+        ).iter_rows():
+            if start is not None and end is not None:
+                ranges[str(year), chamber].append((start, end))
+        return ranges
+
+    @staticmethod
+    def _expected_ranges(protocol, session_ranges):
         """Return session intervals for this folder and chamber, including chamber-neutral rows."""
         folder = Path(protocol.path).parts[1]
         chamber = CHAMBER_CODES.get(protocol.chamber)
         if chamber is None:
-            return self.session_ranges.get((folder, None), ())
+            return session_ranges.get((folder, None), ())
         return (
-            *self.session_ranges.get((folder, chamber), ()),
-            *self.session_ranges.get((folder, None), ()),
+            *session_ranges.get((folder, chamber), ()),
+            *session_ranges.get((folder, None), ()),
         )
 
     @staticmethod
@@ -158,23 +164,25 @@ class DocDateIntegrityTest(unittest.TestCase):
 
     def test_protocols_have_expected_riksdag_year_ranges(self):
         """Guarantee: each dated protocol has a reference session range for its folder and chamber."""
+        session_ranges = self._load_session_ranges()
         failures = 0
         for protocol in self.protocol_dates:
-            if protocol.parsed and not self._expected_ranges(protocol):
+            if protocol.parsed and not self._expected_ranges(protocol, session_ranges):
                 LOGGER.error("%s: no session range for %s", protocol.path, protocol.chamber)
                 failures += 1
-        self.assertLessEqual(
-            failures, MAX_MISSING_RIKSDAG_YEAR_RANGE,
+        self.assertEqual(
+            failures, 0,
             f"{failures} protocols lack a reference session range; see log.",
         )
 
     def test_docdates_stay_inside_expected_riksdag_year_range(self):
         """Guarantee: protocols outside their reference session ranges stay within the release limit."""
+        session_ranges = self._load_session_ranges()
         failures = 0
         for protocol in self.protocol_dates:
             if not protocol.parsed:
                 continue
-            ranges = self._expected_ranges(protocol)
+            ranges = self._expected_ranges(protocol, session_ranges)
             if ranges:
                 outside = self._outside_session_dates(protocol, ranges)
                 if outside:
@@ -187,6 +195,7 @@ class DocDateIntegrityTest(unittest.TestCase):
 
     def test_known_199192_out_of_range_docdates_are_detected(self):
         """Guarantee: the session check still detects unresolved out-of-range cases from issue #234."""
+        session_ranges = self._load_session_ranges()
         known_dates = {
             "data/199192/prot-199192--003.xml": "1992-10-07",
             "data/199192/prot-199192--004.xml": "1992-10-08",
@@ -194,7 +203,7 @@ class DocDateIntegrityTest(unittest.TestCase):
         }
         for protocol in self.protocol_dates:
             if protocol.path in known_dates and known_dates[protocol.path] in protocol.raw:
-                ranges = self._expected_ranges(protocol)
+                ranges = self._expected_ranges(protocol, session_ranges)
                 self.assertTrue(
                     ranges and self._outside_session_dates(protocol, ranges),
                     f"{protocol.path}: known out-of-range docDate was not detected",
