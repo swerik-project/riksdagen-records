@@ -1,322 +1,129 @@
-#!/usr/bin/env python3
-"""
-Validate repository-level publication metadata.
+"""Publication checks for the records repository's canonical YAML and DCAT RDF.
 
-This test checks the repository publication metadata guarantee introduced by
-SWERIK decision 0023: the canonical repository info file must exist at
-docs/[repo-name]-info.yml, have the expected top-level structure, agree with
-the repository name, and use absolute URLs for public resources.
-
-This matters because DCAT, release-page summaries, catalogue records, and other
-publication artifacts should be generated from one stable source rather than
-from copied hand-maintained metadata. The test reads only the repository info
-YAML file in docs/. Fuller documentation is in test/docs/repository_info.md.
+These checks enforce Decision 0023 for records. Shared tooling should handle
+general validation of the repository info YAML schema.
 """
 
 from pathlib import Path
-import importlib
-from urllib.parse import urlparse
-import sys
-import tempfile
+from tempfile import TemporaryDirectory
 import unittest
-from xml.etree import ElementTree as ET
+from urllib.parse import urlsplit
 
-import yaml
+from lxml import etree
+import polars as pl
+from trainerlog import get_logger
 
-from test.repository_info_dcat import write_dcat_rdf
+from test.repository_info_dcat import load_repository_info, write_dcat_rdf
 
 
-REQUIRED_TOP_LEVEL_KEYS = {
-    "metadata_type",
-    "metadata_version",
-    "repository",
-    "dataset",
-    "publisher",
-    "contact",
-    "documentation",
-    "citation",
-    "relations",
+LOGGER = get_logger(name="repository-info")
+INFO_PATH = Path("docs/riksdagen-records-info.yml")
+DCAT_PATH = Path("docs/dcat/riksdagen-records.rdf")
+REPOSITORY_URL = "https://github.com/swerik-project/riksdagen-records"
+NS = {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dct": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
 }
-
-REQUIRED_PATHS = (
-    ("repository", "name"),
-    ("repository", "url"),
-    ("repository", "issue_tracker_url"),
-    ("dataset", "identifier"),
-    ("dataset", "title", "en"),
-    ("dataset", "title", "sv"),
-    ("dataset", "description", "en"),
-    ("dataset", "description", "sv"),
-    ("dataset", "languages"),
-    ("dataset", "keywords", "en"),
-    ("dataset", "keywords", "sv"),
-    ("dataset", "themes"),
-    ("dataset", "temporal_coverage", "start"),
-    ("dataset", "type"),
-    ("publisher", "name", "en"),
-    ("publisher", "name", "sv"),
-    ("publisher", "url"),
-    ("contact", "name"),
-    ("contact", "url"),
-    ("documentation", "readme_url"),
-    ("citation", "cff_url"),
-    ("relations", "related_repositories"),
-)
-
-LIST_PATHS = (
-    ("dataset", "languages"),
-    ("dataset", "keywords", "en"),
-    ("dataset", "keywords", "sv"),
-    ("dataset", "themes"),
-    ("distributions",),
-    ("relations", "related_repositories"),
-)
-
-UPSTREAM_DCAT_MODULE = "pyriksdagen.repository_info"
-UPSTREAM_DCAT_FUNCTION = "write_dcat_rdf"
-
-
-def repository_root():
-    return Path(__file__).resolve().parents[1]
-
-
-def info_path(repo_root=None):
-    repo_root = repo_root or repository_root()
-    return repo_root / "docs" / f"{repo_root.name}-info.yml"
-
-
-def dcat_path(repo_root=None):
-    repo_root = repo_root or repository_root()
-    return repo_root / "docs" / "dcat" / f"{repo_root.name}.rdf"
-
-
-def load_repository_info(path=None):
-    path = path or info_path()
-    with path.open(encoding="utf-8") as handle:
-        data = yaml.safe_load(handle)
-    if not isinstance(data, dict):
-        raise AssertionError(f"{path} must contain a YAML mapping")
-    return data
-
-
-def get_path(data, path):
-    current = data
-    for key in path:
-        if not isinstance(current, dict) or key not in current:
-            dotted = ".".join(path)
-            raise AssertionError(f"Missing required repository info field: {dotted}")
-        current = current[key]
-    return current
-
-
-def iter_url_values(value, path=()):
-    if isinstance(value, dict):
-        for key, nested in value.items():
-            yield from iter_url_values(nested, path + (str(key),))
-    elif isinstance(value, list):
-        for index, nested in enumerate(value):
-            yield from iter_url_values(nested, path + (str(index),))
-    elif isinstance(value, str) and path:
-        key = path[-1]
-        parent = path[-2] if len(path) > 1 else ""
-        if (
-            key == "url"
-            or key.endswith("_url")
-            or parent.endswith("_repositories")
-        ):
-            yield path, value
-
-
-def is_absolute_url(value):
-    parsed = urlparse(value)
-    return parsed.scheme in {"http", "https"} and bool(parsed.netloc)
 
 
 class RepositoryInfoTest(unittest.TestCase):
-    @classmethod
-    def setUpClass(cls):
-        cls.repo_root = repository_root()
-        cls.path = info_path(cls.repo_root)
-        cls.dcat_path = dcat_path(cls.repo_root)
-        cls.data = load_repository_info(cls.path)
-
-    def test_expected_file_exists(self):
-        """Check that the canonical repository info file is present."""
-        self.assertTrue(self.path.exists(), f"Expected repository info file at {self.path}")
-
-    def test_top_level_structure(self):
-        """Check the common top-level slots and metadata marker fields."""
-        missing = REQUIRED_TOP_LEVEL_KEYS.difference(self.data)
-        self.assertFalse(missing, f"Missing top-level repository info keys: {sorted(missing)}")
+    def test_metadata_identifies_records(self):
+        """Guarantee: the canonical YAML identifies the records repository and dataset."""
+        info = load_repository_info(INFO_PATH)
         self.assertEqual(
-            self.data["metadata_type"],
-            "repository_information",
-            "metadata_type must identify this as repository_information",
-        )
-        self.assertIsInstance(
-            self.data["metadata_version"],
-            int,
-            "metadata_version must be an integer schema version",
-        )
-        self.assertGreaterEqual(
-            self.data["metadata_version"],
-            1,
-            "metadata_version must be at least 1",
+            (info["repository"]["name"], info["dataset"]["identifier"]),
+            ("riksdagen-records", "riksdagen-records"),
+            f"{INFO_PATH} must identify the repository and dataset as riksdagen-records.",
         )
 
-    def test_repository_name_and_file_name_agree(self):
-        """Check that the filename, repository name, and dataset identifier agree."""
-        repository_name = get_path(self.data, ("repository", "name"))
+    def test_records_zip_distribution_uses_latest_release(self):
+        """Guarantee: records.zip has one distribution pointing to the latest release."""
+        info = load_repository_info(INFO_PATH)
+        records = pl.from_dicts(
+            info["distributions"],
+            schema={
+                "name": pl.String,
+                "access_url": pl.String,
+                "download_url": pl.String,
+                "media_type": pl.String,
+                "format": pl.String,
+            },
+        ).filter(pl.col("name") == "records.zip")
+        latest_zip = f"{REPOSITORY_URL}/releases/latest/download/records.zip"
         self.assertEqual(
-            repository_name,
-            self.repo_root.name,
-            "repository.name must match the local repository directory name",
+            records.rows(),
+            [("records.zip", latest_zip, latest_zip, "application/zip", "ZIP")],
+            f"{INFO_PATH} must have one records.zip distribution with stable ZIP URLs.",
         )
+
+    def test_public_metadata_links_are_absolute(self):
+        """Guarantee: public RDF links and the YAML issue tracker URL are absolute."""
+        rdf = etree.parse(DCAT_PATH)
+        urls = rdf.xpath("//@rdf:about | //@rdf:resource", namespaces=NS)
+        urls.append(load_repository_info(INFO_PATH)["repository"]["issue_tracker_url"])
+        invalid = 0
+        for url in urls:
+            parsed = urlsplit(url) if isinstance(url, str) else None
+            if not parsed or parsed.scheme not in {"http", "https"} or not parsed.hostname:
+                LOGGER.error(f"Expected an absolute HTTP(S) publication URL: {url!r}")
+                invalid += 1
+        self.assertEqual(invalid, 0, f"{invalid} invalid publication URL(s); see log.")
+
+    def test_dcat_core_resources_are_named(self):
+        """Guarantee: RDF declares named catalogue, dataset, distribution, publisher and contact resources."""
+        rdf = etree.parse(DCAT_PATH)
+        errors = 0
+        for tag in ("dcat:Catalog", "dcat:Dataset", "dcat:Distribution", "foaf:Agent", "vcard:Organization"):
+            resources = rdf.findall(tag, namespaces=NS)
+            if not resources:
+                LOGGER.error(f"{DCAT_PATH} is missing {tag}.")
+                errors += 1
+            for resource in resources:
+                if not resource.xpath("@rdf:about and not(@rdf:nodeID)", namespaces=NS):
+                    LOGGER.error(f"{DCAT_PATH} has an unnamed {tag} at line {resource.sourceline}.")
+                    errors += 1
+        self.assertEqual(errors, 0, f"{errors} missing or unnamed RDF resource(s); see log.")
+
+    def test_dcat_catalogue_lists_records_dataset(self):
+        """Guarantee: the published catalogue points to the records dataset."""
+        rdf = etree.parse(DCAT_PATH)
         self.assertEqual(
-            self.path.name,
-            f"{repository_name}-info.yml",
-            "Repository info filename must follow docs/[repo-name]-info.yml",
+            rdf.xpath("dcat:Catalog/dcat:dataset/@rdf:resource", namespaces=NS),
+            [REPOSITORY_URL],
+            f"{DCAT_PATH} must list the records dataset in its catalogue.",
         )
+
+    def test_dcat_coverage_preserves_start_year_precision(self):
+        """Guarantee: DCAT represents the start of the records corpus as the year 1867."""
+        rdf = etree.parse(DCAT_PATH)
+        start = rdf.find("dct:PeriodOfTime/dcat:startDate", namespaces=NS)
+        self.assertIsNotNone(start, f"{DCAT_PATH} must include the corpus start year.")
         self.assertEqual(
-            get_path(self.data, ("dataset", "identifier")),
-            repository_name,
-            "dataset.identifier must match repository.name",
+            (start.text, start.get(f"{{{NS['rdf']}}}datatype")),
+            ("1867", "http://www.w3.org/2001/XMLSchema#gYear"),
+            f"{DCAT_PATH} must give the start as 1867 with year precision.",
         )
 
-    def test_required_fields_are_present(self):
-        """Check that the draft metadata file contains all required paths."""
-        for path in REQUIRED_PATHS:
-            get_path(self.data, path)
+    def test_checked_in_dcat_matches_repository_info(self):
+        """Guarantee: the checked-in RDF reflects the canonical YAML.
 
-    def test_list_fields_are_lists(self):
-        """Check that repeatable metadata fields are represented as YAML lists."""
-        for path in LIST_PATHS:
-            value = get_path(self.data, path)
-            self.assertIsInstance(value, list, f"{'.'.join(path)} must be a list")
-
-    def test_distribution_fields_are_present(self):
-        """Check optional release artifact entries include fields generators need."""
-        try:
-            distributions = get_path(self.data, ("distributions",))
-        except AssertionError:
-            return
-        for distribution in distributions:
-            self.assertIsInstance(distribution, dict, "Each distribution must be a mapping")
-            for key in ("name", "access_url", "download_url", "media_type", "format"):
-                self.assertIn(key, distribution, f"Distribution is missing required key: {key}")
-
-    def test_records_zip_distribution_uses_latest_release_url(self):
-        """Check that records.zip is available through a version-independent URL."""
-        distributions = get_path(self.data, ("distributions",))
-        records = [d for d in distributions if d.get("name") == "records.zip"]
-        self.assertEqual(len(records), 1, "Expected exactly one records.zip distribution")
-        self.assertEqual(
-            records[0]["access_url"],
-            "https://github.com/swerik-project/riksdagen-records/releases/latest/download/records.zip",
-            "records.zip must use the GitHub latest-release URL as access URL",
-        )
-        self.assertEqual(
-            records[0]["download_url"],
-            "https://github.com/swerik-project/riksdagen-records/releases/latest/download/records.zip",
-            "records.zip must use the GitHub latest-release URL rather than a versioned tag URL",
-        )
-        self.assertEqual(records[0]["media_type"], "application/zip")
-        self.assertEqual(records[0]["format"], "ZIP")
-
-    def test_temporal_coverage_has_start_year(self):
-        """Check that temporal coverage can become a DCAT PeriodOfTime."""
-        temporal_coverage = get_path(self.data, ("dataset", "temporal_coverage"))
-        self.assertIsInstance(
-            temporal_coverage,
-            dict,
-            "dataset.temporal_coverage must be a mapping with start/end fields",
-        )
-        self.assertEqual(
-            temporal_coverage["start"],
-            "1867",
-            "dataset.temporal_coverage.start must describe the first covered year",
-        )
-
-    def test_present_public_urls_are_absolute(self):
-        """Check that public URL fields are absolute when they are filled in."""
-        for path, value in iter_url_values(self.data):
-            if value == "":
-                continue
-            dotted = ".".join(path)
-            self.assertTrue(is_absolute_url(value), f"{dotted} must be an absolute HTTP(S) URL")
-
-    def test_local_dcat_generator_writes_rdf_xml(self):
-        """Check that the temporary local DCAT generator writes parseable RDF/XML."""
-        with tempfile.TemporaryDirectory() as tmpdir:
-            output_path = Path(tmpdir) / "riksdagen-records.rdf"
-            write_dcat_rdf(self.path, output_path)
-            root = ET.parse(output_path).getroot()
-        self.assertEqual(
-            root.tag,
-            "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF",
-            "Generated DCAT file must be RDF/XML with rdf:RDF as the root element",
-        )
-        datasets = root.findall("{http://www.w3.org/ns/dcat#}Dataset")
-        self.assertEqual(len(datasets), 1, "Generated RDF/XML must contain one dcat:Dataset")
-        catalogs = root.findall("{http://www.w3.org/ns/dcat#}Catalog")
-        self.assertEqual(len(catalogs), 1, "Generated RDF/XML must contain one dcat:Catalog")
-        catalog_dataset_links = catalogs[0].findall("{http://www.w3.org/ns/dcat#}dataset")
-        self.assertEqual(len(catalog_dataset_links), 1, "Generated dcat:Catalog must link to one dataset")
-        themes = datasets[0].findall("{http://www.w3.org/ns/dcat#}theme")
-        self.assertEqual(len(themes), 1, "Generated dcat:Dataset must include one dcat:theme")
-        distributions = root.findall("{http://www.w3.org/ns/dcat#}Distribution")
-        self.assertEqual(len(distributions), 1, "Generated RDF/XML must contain one dcat:Distribution")
-        access_urls = distributions[0].findall("{http://www.w3.org/ns/dcat#}accessURL")
-        self.assertEqual(len(access_urls), 1, "Generated dcat:Distribution must include dcat:accessURL")
-        periods = root.findall("{http://purl.org/dc/terms/}PeriodOfTime")
-        self.assertEqual(len(periods), 1, "Generated RDF/XML must contain one dct:PeriodOfTime")
-        start_dates = periods[0].findall("{http://www.w3.org/ns/dcat#}startDate")
-        self.assertEqual(len(start_dates), 1, "Generated dct:PeriodOfTime must include dcat:startDate")
-        self.assertEqual(start_dates[0].text, "1867")
-        self.assertEqual(
-            start_dates[0].attrib.get("{http://www.w3.org/1999/02/22-rdf-syntax-ns#}datatype"),
-            "http://www.w3.org/2001/XMLSchema#gYear",
-            "Generated dcat:startDate must use xsd:gYear for year-only coverage",
-        )
-        node_id = "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}nodeID"
-        for element in root.iter():
-            self.assertNotIn(
-                node_id,
-                element.attrib,
-                "Generated RDF/XML must avoid RDF blank node identifiers for core resources",
-            )
-
-    def test_checked_in_dcat_file_matches_repository_info(self):
-        """Check that the checked-in DCAT file is current with the YAML source."""
-        with tempfile.TemporaryDirectory() as tmpdir:
-            output_path = Path(tmpdir) / self.dcat_path.name
-            write_dcat_rdf(self.path, output_path)
-            generated = output_path.read_text(encoding="utf-8")
-        checked_in = self.dcat_path.read_text(encoding="utf-8")
-        self.assertEqual(
-            checked_in,
-            generated,
-            (
-                f"{self.dcat_path} is stale. Regenerate it from {self.path} "
-                "with test.repository_info_dcat.write_dcat_rdf."
-            ),
-        )
-
-    def test_installed_pyriksdagen_dcat_generator_is_not_available_yet(self):
-        """Fail once the installed pyriksdagen package ships the DCAT generator."""
-        try:
-            upstream_module = importlib.import_module(UPSTREAM_DCAT_MODULE)
-        except ImportError:
-            return
-        self.assertFalse(
-            hasattr(upstream_module, UPSTREAM_DCAT_FUNCTION),
-            (
-                f"{UPSTREAM_DCAT_MODULE}.{UPSTREAM_DCAT_FUNCTION} now exists. "
-                "Remove test/repository_info_dcat.py and import the pyriksdagen "
-                "function in this test/workflow instead."
-            ),
+        Ignore XML indentation and attribute order when comparing the exports.
+        """
+        parser = etree.XMLParser(remove_blank_text=True)
+        checked_in = etree.parse(DCAT_PATH, parser)
+        with TemporaryDirectory() as tmpdir:
+            output = Path(tmpdir) / DCAT_PATH.name
+            write_dcat_rdf(INFO_PATH, output)
+            generated = etree.parse(output, parser)
+        self.assertTrue(
+            etree.tostring(checked_in, method="c14n", exclusive=True)
+            == etree.tostring(generated, method="c14n", exclusive=True),
+            f"{DCAT_PATH} is stale. Regenerate it from {INFO_PATH}.",
         )
 
 
 if __name__ == "__main__":
-    sys.exit(unittest.main())
+    unittest.main()

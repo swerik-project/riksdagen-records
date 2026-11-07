@@ -2,11 +2,9 @@
 """
 Temporary local DCAT generator for repository info YAML.
 
-This file is intentionally written as a small, self-contained module so it can
-be copied into pyriksdagen. When pyriksdagen provides
-`pyriksdagen.repository_info.write_dcat_rdf`, delete this file and import that
-shared function instead. The guard test in test.repository_info will fail when
-the pyriksdagen function exists.
+Keep this local writer until the CI dependency provides
+`pyriksdagen.repository_info.write_dcat_rdf` (pyriksdagen PR #51). Then switch
+the records tests to the shared writer and remove this module.
 """
 
 from pathlib import Path
