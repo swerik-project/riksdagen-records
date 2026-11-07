@@ -44,7 +44,7 @@ SWEDISH_WEEKDAYS = (
 
 # If digits follow the month after whitespace, require a four-digit year.
 WEEKDAY_DATE_PATTERN = re.compile(
-    r"\b(?P<weekday>[^\W\d_]*dag(?:en)?)\s+den\s+"
+    r"\b(?P<weekday>[^\W\d_]*dag)(?:en)?\s+den\s+"
     r"(?P<date_text>(?P<day>\d{1,2})\.?\s+[^\W\d_]{3,}"
     r"(?:\s+(?P<year>\d{4})|(?!\s+\d)))\b",
     re.IGNORECASE,
@@ -54,13 +54,6 @@ class TestDocDateWeekdayEvidence(unittest.TestCase):
     def normalized_text(self, element):
         """Return whitespace-normalized text content for one parsed TEI element."""
         return " ".join(" ".join(element.itertext()).split())
-
-    def normalized_weekday(self, weekday):
-        """Return the Swedish weekday base form used by date.weekday()."""
-        weekday = weekday.lower()
-        if weekday.endswith("en"):
-            return weekday[:-2]
-        return weekday
 
     @staticmethod
     @lru_cache(maxsize=8192)
@@ -115,7 +108,7 @@ class TestDocDateWeekdayEvidence(unittest.TestCase):
             ):
                 text = self.normalized_text(note)
                 for match in WEEKDAY_DATE_PATTERN.finditer(text):
-                    weekday = self.normalized_weekday(match.group("weekday"))
+                    weekday = match.group("weekday").lower()
                     if weekday not in SWEDISH_WEEKDAYS:
                         continue
 
