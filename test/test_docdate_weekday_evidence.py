@@ -136,8 +136,7 @@ class TestDocDateWeekdayEvidence(unittest.TestCase):
                     evidence_count += 1
                     actual_weekday = SWEDISH_WEEKDAYS[observed_date.weekday()]
                     if actual_weekday != claimed_weekday:
-                        observed_iso = observed_date.isoformat()
-                        docdate_support = observed_iso in docdate_set
+                        docdate_support = observed_date.isoformat() in docdate_set
                         errors.append(
                             {
                                 "file": path,
