@@ -1,238 +1,204 @@
-"""Data integrity tests for protocol ``docDate`` metadata.
-
-These tests check corpus-wide date guarantees for protocol XML files under
-``data/``. Current data still contains known
-legacy date issues, so the affected regression guards use explicit baselines;
-curation pull requests should ratchet those baselines down as issues are fixed.
-"""
+"""Release checks for meeting dates in protocol TEI and the session fixture."""
 
 from collections import defaultdict
+from datetime import date, datetime
+from pathlib import Path
+import re
+from typing import NamedTuple, Optional
 import unittest
 
+import polars as pl
 from pyriksdagen.io import parse_tei
-from pyriksdagen.utils import corpus_iterator, get_doc_dates, infer_metadata, parse_date
+from pyriksdagen.utils import corpus_iterator, get_doc_dates, infer_metadata
 from tqdm import tqdm
 from trainerlog import get_logger
 
 
-MAX_LONG_SPAN_PROTOCOLS = 1206
-MAX_SAME_CHAMBER_BACKWARDS_RANGES = 2753
-MAX_PRE_1875_FILENAME_DOCDATE_MISMATCHES = 460
-LOG_EXAMPLE_LIMIT = 20
-
 LOGGER = get_logger(name="docdate-integrity")
+RIKSDAG_YEAR_PATH = Path("test/data/riksdag-year.csv")
+MAX_SPAN_DAYS = 7
+
+# Keep the release limits from dev. Later curation can ratchet them down.
+MAX_LONG_SPANS = 515
+MAX_RANGE_OVERLAPS = 733
+MAX_FILENAME_MISMATCHES = 0
+MAX_OUTSIDE_RIKSDAG_YEAR_RANGE = 411
+MAX_MISSING_RIKSDAG_YEAR_RANGE = 0
+
+CHAMBER_CODES = {
+    "Första kammaren": "fk",
+    "Andra kammaren": "ak",
+    "Enkammarriksdagen": "ek",
+}
 
 
-def _read_protocol_docdates():
-    """Parse protocol TEI once and cache the docDates used by the tests."""
-    protocols = sorted(corpus_iterator("records", corpus_root="data"))
-    LOGGER.info(f"Reading docDate metadata from {len(protocols)} protocol files")
-
-    rows = []
-    for path in tqdm(protocols, desc="Reading protocol docDates"):
-        root, _ = parse_tei(path)
-        _, docdates = get_doc_dates(root)
-        parsed_docdates = []
-        for docdate in docdates:
-            if not docdate:
-                continue
-            parsed = parse_date(docdate)
-            if parsed is not None:
-                parsed_docdates.append((parsed, docdate))
-        parsed_docdates = tuple(sorted(parsed_docdates))
-        metadata = infer_metadata(path)
-
-        rows.append(
-            {
-                "path": path,
-                "chamber": metadata.get("chamber"),
-                "year": metadata.get("year"),
-                "docdates": tuple(docdates),
-                "parsed_docdates": parsed_docdates,
-            }
-        )
-    return rows
+class ProtocolDates(NamedTuple):
+    path: str
+    chamber: Optional[str]
+    year: Optional[int]
+    raw: tuple[Optional[str], ...]
+    parsed: tuple[date, ...]
 
 
 class DocDateIntegrityTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.protocol_docdates = _read_protocol_docdates()
-
-    def test_protocols_have_usable_docdates(self):
-        """Guarantee: every protocol has at least one parseable TEI ``docDate``.
-
-        Why this matters: protocols without parseable meeting dates cannot be
-        placed reliably in chronological order or linked to time-bounded person
-        metadata.
-
-        Data: scans protocol XML files under ``data/`` and extracts ``docDate``
-        values with ``pyriksdagen.utils.get_doc_dates``.
-        """
-        missing_docdates = 0
-        unparseable_docdates = 0
-        for row in self.protocol_docdates:
-            if not any(row["docdates"]):
-                LOGGER.error(f"{row['path']}: docDate values={row['docdates']!r}")
-                missing_docdates += 1
-            if not row["parsed_docdates"]:
-                LOGGER.error(f"{row['path']}: docDate values={row['docdates']!r}")
-                unparseable_docdates += 1
-
-        LOGGER.info(
-            f"Protocols without docDate values: {missing_docdates} "
-            f"of {len(self.protocol_docdates)}"
-        )
-        LOGGER.info(
-            f"Protocols without parseable docDate values: {unparseable_docdates} "
-            f"of {len(self.protocol_docdates)}"
-        )
-
-        with self.subTest("at least one docDate"):
-            self.assertEqual(
-                missing_docdates,
-                0,
-                f"{missing_docdates} protocol(s) have no docDate values; "
-                "details were logged with trainerlog.",
-            )
-        with self.subTest("at least one parseable docDate"):
-            self.assertEqual(
-                unparseable_docdates,
-                0,
-                f"{unparseable_docdates} protocol(s) have no parseable docDate values; "
-                "details were logged with trainerlog.",
+        # Share the parsed inputs so the suite reads each corpus XML file once.
+        cls.protocol_dates = []
+        paths = sorted(corpus_iterator("records", corpus_root="data"))
+        LOGGER.info("Reading docDates from %s protocols", len(paths))
+        for path in tqdm(paths, desc="Reading protocol docDates"):
+            root, _ = parse_tei(path)
+            _, raw_dates = get_doc_dates(root)
+            parsed = []
+            for value in raw_dates:
+                try:
+                    parsed.append(datetime.strptime(value, "%Y-%m-%d").date())
+                except (TypeError, ValueError):
+                    LOGGER.error("%s: unparseable docDate %r", path, value)
+            metadata = infer_metadata(path)
+            cls.protocol_dates.append(
+                ProtocolDates(
+                    path, metadata.get("chamber"), metadata.get("year"),
+                    tuple(raw_dates), tuple(sorted(parsed)),
+                )
             )
 
-    def test_protocol_docdate_spans_do_not_exceed_current_baseline(self):
-        """Guarantee: protocols with ``docDate`` spans over seven days must not
-        exceed the current baseline.
+        cls.session_ranges = defaultdict(list)
+        sessions = pl.read_csv(RIKSDAG_YEAR_PATH, try_parse_dates=True)
+        for year, chamber, start, end in sessions.select(
+            "parliament_year", "chamber", "start", "end"
+        ).iter_rows():
+            if start is not None and end is not None:
+                cls.session_ranges[str(year), chamber].append((start, end))
 
-        Why this matters: a single protocol that spans more than seven days is
-        usually a sign that OCR, segmentation, or date extraction has pulled in
-        dates from surrounding source material.
-
-        Data: scans protocol XML under ``data/``. The counted unit is a
-        protocol whose first and last parseable ``docDate`` values are more
-        than seven days apart.
-        """
+    def test_protocols_have_parseable_docdates(self):
+        """Guarantee: every protocol has docDates and each value is a calendar date."""
         failures = 0
-        for row in self.protocol_docdates:
-            if not row["parsed_docdates"]:
-                continue
-            first_date, first_docdate = row["parsed_docdates"][0]
-            last_date, last_docdate = row["parsed_docdates"][-1]
-            if (last_date - first_date).days > 7:
+        for protocol in self.protocol_dates:
+            if not protocol.raw:
+                LOGGER.error("%s: missing docDate", protocol.path)
                 failures += 1
-                if failures <= LOG_EXAMPLE_LIMIT:
-                    LOGGER.warning(f"{row['path']}: {first_docdate} to {last_docdate}")
+            failures += len(protocol.raw) - len(protocol.parsed)
+        self.assertEqual(failures, 0, f"{failures} missing or invalid docDate values; see log.")
 
-        LOGGER.info(
-            f"Protocols spanning more than one week: {failures}; "
-            f"accepted baseline: {MAX_LONG_SPAN_PROTOCOLS}"
-        )
-
-        self.assertLessEqual(
-            failures,
-            MAX_LONG_SPAN_PROTOCOLS,
-            "too many protocol(s) span more than one week; details were logged "
-            "with trainerlog.",
-        )
-
-    def test_same_chamber_docdate_order_does_not_exceed_current_baseline(self):
-        """Regression guard: same-chamber date ranges must not move backward.
-
-        The test sorts records by path within each chamber and compares
-        adjacent protocols. It counts a failure when the previous protocol's
-        last parseable ``docDate`` is later than the next protocol's first
-        parseable ``docDate``; same-day boundaries are allowed. The failure
-        count must not exceed the current baseline.
-
-        Data: parsed protocol ``docDate`` metadata from XML under ``data/``.
-
-        Counted unit: adjacent same-chamber protocol pairs, in sorted path
-        order, where the previous protocol's last parseable ``docDate`` is
-        later than the next protocol's first parseable ``docDate``.
-        """
-        rows_by_chamber = defaultdict(list)
-        for row in self.protocol_docdates:
-            if row["parsed_docdates"]:
-                rows_by_chamber[row["chamber"]].append(row)
-
+    def test_protocol_date_spans_are_not_longer_than_one_week(self):
+        """Guarantee: the number of protocols spanning more than a week cannot increase past the limit."""
         failures = 0
-        for chamber, rows in rows_by_chamber.items():
-            previous = None
-            for row in sorted(rows, key=lambda row: row["path"]):
-                first_date, first_docdate = row["parsed_docdates"][0]
-                if previous:
-                    previous_last_date, previous_last_docdate = previous[
-                        "parsed_docdates"
-                    ][-1]
-                    if previous_last_date > first_date:
-                        failures += 1
-                        if failures <= LOG_EXAMPLE_LIMIT:
-                            LOGGER.warning(
-                                f"{chamber}: {previous['path']} ({previous_last_docdate}) "
-                                f"before {row['path']} ({first_docdate})"
-                            )
-                previous = row
-
-        LOGGER.info(
-            f"Same-chamber backward date ranges: {failures}; "
-            f"accepted baseline: {MAX_SAME_CHAMBER_BACKWARDS_RANGES}"
-        )
-
+        for protocol in self.protocol_dates:
+            if protocol.parsed:
+                first, last = protocol.parsed[0], protocol.parsed[-1]
+                if (last - first).days > MAX_SPAN_DAYS:
+                    LOGGER.warning("%s: docDate span %s to %s", protocol.path, first, last)
+                    failures += 1
         self.assertLessEqual(
-            failures,
-            MAX_SAME_CHAMBER_BACKWARDS_RANGES,
-            "too many same-chamber protocol date range(s) move backward; "
-            "details were logged with trainerlog.",
+            failures, MAX_LONG_SPANS,
+            f"{failures} protocols span more than a week (limit {MAX_LONG_SPANS}); see log.",
         )
 
-    def test_pre_1875_filename_date_matches_sole_docdate_baseline(self):
-        """Guarantee: pre-1875 filename dates should match the sole ``docDate``.
-
-        Why this matters: early protocol filenames include the meeting date, and
-        we know that information can be trusted. Having conflicting ``docDate``
-        values thus increases data errors.
-
-        Data: scans protocol XML under ``data/`` before 1875. The counted unit
-        is a protocol where the filename date is not exactly the set of
-        parseable ``docDate`` values.
-        """
+    def test_protocol_date_ranges_do_not_overlap_in_sequence(self):
+        """Guarantee: adjacent dated protocols in the same chamber stay in order within the limit."""
         failures = 0
-        for row in self.protocol_docdates:
-            if row["year"] is None or row["year"] >= 1875:
+        previous = None
+        for protocol in self.protocol_dates:
+            if not protocol.parsed:
                 continue
-            date_code = row["path"].rsplit(".", 1)[0].rsplit("-", 1)[-1]
-            if len(date_code) != 4 or not date_code.isdigit():
+            if (
+                previous is not None
+                and previous.chamber == protocol.chamber
+                and previous.parsed[-1] > protocol.parsed[0]
+            ):
+                LOGGER.warning(
+                    "%s ends %s, after %s starts %s",
+                    previous.path, previous.parsed[-1], protocol.path, protocol.parsed[0],
+                )
                 failures += 1
-                if failures <= LOG_EXAMPLE_LIMIT:
-                    LOGGER.warning(
-                        f"{row['path']}: filename date code is {date_code!r}"
-                    )
-                continue
-
-            expected = f"{row['year']}-{date_code[:2]}-{date_code[2:]}"
-            observed = {docdate for _, docdate in row["parsed_docdates"]}
-            if observed != {expected}:
-                failures += 1
-                if failures <= LOG_EXAMPLE_LIMIT:
-                    LOGGER.warning(
-                        f"{row['path']}: expected only {expected}, observed "
-                        f"{sorted(observed)}"
-                    )
-
-        LOGGER.info(
-            f"Pre-1875 filename/docDate mismatches: {failures}; "
-            f"accepted baseline: {MAX_PRE_1875_FILENAME_DOCDATE_MISMATCHES}"
-        )
-
+            previous = protocol
         self.assertLessEqual(
-            failures,
-            MAX_PRE_1875_FILENAME_DOCDATE_MISMATCHES,
-            "too many pre-1875 protocol filename date(s) mismatch docDate "
-            "values; details were logged with trainerlog.",
+            failures, MAX_RANGE_OVERLAPS,
+            f"{failures} adjacent date ranges move backward (limit {MAX_RANGE_OVERLAPS}); see log.",
         )
+
+    def test_pre_1875_filename_dates_match_docdates(self):
+        """Guarantee: an encoded pre-1875 filename date is the only distinct docDate."""
+        failures = 0
+        for protocol in self.protocol_dates:
+            if not protocol.parsed or not protocol.year or protocol.year >= 1875:
+                continue
+            date_code = re.search(r"--(\d{4})$", Path(protocol.path).stem)
+            if date_code is None:
+                continue
+            mmdd = date_code.group(1)
+            expected = f"{protocol.year}-{mmdd[:2]}-{mmdd[2:]}"
+            if set(protocol.raw) != {expected}:
+                LOGGER.error("%s: expected %s, found %r", protocol.path, expected, protocol.raw)
+                failures += 1
+        self.assertLessEqual(
+            failures, MAX_FILENAME_MISMATCHES,
+            f"{failures} pre-1875 protocols disagree with their filename date; see log.",
+        )
+
+    def _expected_ranges(self, protocol):
+        """Return session intervals for this folder and chamber, including chamber-neutral rows."""
+        folder = Path(protocol.path).parts[1]
+        chamber = CHAMBER_CODES.get(protocol.chamber)
+        if chamber is None:
+            return self.session_ranges.get((folder, None), ())
+        return (
+            *self.session_ranges.get((folder, chamber), ()),
+            *self.session_ranges.get((folder, None), ()),
+        )
+
+    @staticmethod
+    def _outside_session_dates(protocol, ranges):
+        return [
+            value for value in protocol.parsed
+            if not any(start <= value <= end for start, end in ranges)
+        ]
+
+    def test_protocols_have_expected_riksdag_year_ranges(self):
+        """Guarantee: each dated protocol has a reference session range for its folder and chamber."""
+        failures = 0
+        for protocol in self.protocol_dates:
+            if protocol.parsed and not self._expected_ranges(protocol):
+                LOGGER.error("%s: no session range for %s", protocol.path, protocol.chamber)
+                failures += 1
+        self.assertLessEqual(
+            failures, MAX_MISSING_RIKSDAG_YEAR_RANGE,
+            f"{failures} protocols lack a reference session range; see log.",
+        )
+
+    def test_docdates_stay_inside_expected_riksdag_year_range(self):
+        """Guarantee: protocols outside their reference session ranges stay within the release limit."""
+        failures = 0
+        for protocol in self.protocol_dates:
+            if not protocol.parsed:
+                continue
+            ranges = self._expected_ranges(protocol)
+            if ranges:
+                outside = self._outside_session_dates(protocol, ranges)
+                if outside:
+                    LOGGER.warning("%s: dates %s outside session ranges %s", protocol.path, outside, ranges)
+                    failures += 1
+        self.assertLessEqual(
+            failures, MAX_OUTSIDE_RIKSDAG_YEAR_RANGE,
+            f"{failures} protocols outside session ranges (limit {MAX_OUTSIDE_RIKSDAG_YEAR_RANGE}); see log.",
+        )
+
+    def test_known_199192_out_of_range_docdates_are_detected(self):
+        """Guarantee: the session check still detects unresolved out-of-range cases from issue #234."""
+        known_dates = {
+            "data/199192/prot-199192--003.xml": "1992-10-07",
+            "data/199192/prot-199192--004.xml": "1992-10-08",
+            "data/199192/prot-199192--131.xml": "1991-01-01",
+        }
+        for protocol in self.protocol_dates:
+            if protocol.path in known_dates and known_dates[protocol.path] in protocol.raw:
+                ranges = self._expected_ranges(protocol)
+                self.assertTrue(
+                    ranges and self._outside_session_dates(protocol, ranges),
+                    f"{protocol.path}: known out-of-range docDate was not detected",
+                )
 
 
 if __name__ == "__main__":

@@ -7,13 +7,11 @@ Swedish weekday/date evidence of the form ``Tisdagen den 7 oktober`` or
 ``Tisdagen den 7 oktober 1986`` from parsed note text and checks that the named
 weekday matches the calendar date.
 
-The test is diagnostic-first.  An impossible weekday/date pair can mean that a
-false header date was copied into ``docDate``, but it can also mean that the
-body text itself contains an OCR error.  The test therefore reports both
-metadata-supporting and text-only impossible evidence without applying any
-correction.
+Only mismatches in notes annotated as ``type="date"`` count towards the
+release limit, because those notes can be used for metadata extraction.
+Mismatches in other notes are included in the diagnostics for OCR review.
 """
-import os
+from functools import lru_cache
 from pathlib import Path
 import re
 import unittest
@@ -28,12 +26,11 @@ from trainerlog import get_logger
 
 
 LOGGER = get_logger(name="docdate-weekday-evidence")
-RESULTS_DIR = "test/results"
-RESULTS_PATH = Path(RESULTS_DIR) / "docdate-weekday-evidence.csv"
+RESULTS_PATH = Path("test/results/docdate-weekday-evidence.csv")
 
-# Current-data baseline for impossible weekday/date evidence occurrences.
-# Later OCR and docDate curation PRs should ratchet this down.
-MAX_INVALID_WEEKDAY_DATE_EVIDENCE = 3611
+# On records dev 8300769e13 with dateparser 1.2.2, 2,942 mismatches
+# were in annotated date notes. Later curation should lower this limit.
+MAX_INVALID_DATE_NOTE_EVIDENCE = 2942
 
 SWEDISH_WEEKDAYS = (
     "måndag",
@@ -71,8 +68,11 @@ class TestDocDateWeekdayEvidence(unittest.TestCase):
             return weekday[:-2]
         return weekday
 
-    def parse_swedish_date(self, text, expected_year, expected_day):
+    @staticmethod
+    @lru_cache(maxsize=8192)
+    def parse_swedish_date(text, expected_year, expected_day):
         """Parse one Swedish day-month-year expression as a date."""
+        # Printed running headers repeat dates; avoid parsing each occurrence again.
         parsed = dateparser.parse(
             text,
             languages=["sv"],
@@ -179,6 +179,7 @@ class TestDocDateWeekdayEvidence(unittest.TestCase):
                             "actual_weekday": actual_weekday,
                             "year_source": year_source,
                             "docdate_support": docdate_support,
+                            "note_type": note.get("type"),
                         }
                     )
 
@@ -190,32 +191,34 @@ class TestDocDateWeekdayEvidence(unittest.TestCase):
         if not errors:
             return pl.DataFrame()
 
-        df = pl.DataFrame(errors)
+        df = pl.DataFrame(errors, schema_overrides={"note_id": pl.String, "note_type": pl.String})
         df = df.sort(["file", "source_line", "observed_date", "matched_text"])
-        os.makedirs(RESULTS_DIR, exist_ok=True)
-        df.write_csv(str(RESULTS_PATH))
+        RESULTS_PATH.parent.mkdir(parents=True, exist_ok=True)
+        df.write_csv(RESULTS_PATH)
         return df
 
-    def test_weekday_date_evidence_matches_calendar(self):
-        """Guarantee: Swedish weekday/date evidence should match the calendar.
+    def test_annotated_date_notes_match_calendar(self):
+        """Guarantee: weekday/date mismatches in annotated date notes stay within the limit.
 
-        Why this matters: impossible weekday/date pairs identify either false
-        date evidence that may have polluted ``docDate`` metadata, or OCR errors
-        in printed sitting headings and running headers that should be curated
-        separately.
-
-        Data: parsed TEI body ``note`` text from every protocol in ``data/``.
-        Only clear Swedish weekday/date expressions are checked; OCR-distorted
-        month names and non-header date mentions without weekdays are outside
-        this minimal guarantee.
+        Counted unit: one parsed weekday/date expression in a TEI body
+        ``note`` with ``type="date"``. Other note mismatches are diagnostic only.
         """
         df_invalid = self.collect_weekday_date_evidence_errors()
+        failures = (
+            0 if df_invalid.is_empty()
+            else df_invalid.filter(pl.col("note_type") == "date").height
+        )
+        LOGGER.info(
+            "%s mismatches in annotated date notes; %s diagnostic-only mismatches",
+            failures,
+            df_invalid.height - failures,
+        )
         self.assertLessEqual(
-            len(df_invalid),
-            MAX_INVALID_WEEKDAY_DATE_EVIDENCE,
+            failures,
+            MAX_INVALID_DATE_NOTE_EVIDENCE,
             (
-                f"{len(df_invalid)} impossible weekday/date evidence occurrence(s), "
-                f"exceeding baseline {MAX_INVALID_WEEKDAY_DATE_EVIDENCE}; see {RESULTS_PATH}"
+                f"{failures} weekday/date mismatches in annotated date notes, "
+                f"exceeding baseline {MAX_INVALID_DATE_NOTE_EVIDENCE}; see {RESULTS_PATH}"
             ),
         )
 
