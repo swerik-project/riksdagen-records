@@ -1,4 +1,7 @@
-"""Release checks for meeting dates in protocol TEI and the session fixture."""
+"""Data integrity tests for dates in Riksdag protocols.
+
+The session checks use `test/data/riksdag-year.csv`.
+"""
 
 from datetime import datetime
 from pathlib import Path
