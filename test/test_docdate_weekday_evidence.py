@@ -1,16 +1,5 @@
-"""
-Data integrity test for weekday/date evidence in protocol body notes.
+"""Data integrity test for weekday and date consistency in protocol body notes."""
 
-The records corpus often stores printed sitting headings and running headers as
-short TEI ``note`` elements in the protocol body.  This test extracts clear
-Swedish weekday/date evidence of the form ``Tisdagen den 7 oktober`` or
-``Tisdagen den 7 oktober 1986`` from parsed note text and checks that the named
-weekday matches the calendar date.
-
-Only mismatches in notes annotated as ``type="date"`` count towards the
-release limit, because those notes can be used for metadata extraction.
-Mismatches in other notes are included in the diagnostics for OCR review.
-"""
 from functools import lru_cache
 from pathlib import Path
 import re
@@ -168,10 +157,9 @@ class TestDocDateWeekdayEvidence(unittest.TestCase):
         return df
 
     def test_annotated_date_notes_match_calendar(self):
-        """Guarantee: weekday/date mismatches in annotated date notes stay within the limit.
-
-        Counted unit: one parsed weekday/date expression in a TEI body
-        ``note`` with ``type="date"``. Other note mismatches are diagnostic only.
+        """Guarantee: in body notes with type="date", the number of parsed
+        expressions whose written weekday differs from the weekday calculated
+        from the date in the same expression is within the pre-defined limit.
         """
         df_invalid = self.collect_weekday_date_evidence_errors()
         failures = (
