@@ -177,7 +177,9 @@ class DocDateIntegrityTest(unittest.TestCase):
         )
 
     def test_docdates_stay_inside_expected_riksdag_year_range(self):
-        """Guarantee: protocols outside their reference session ranges stay within the release limit."""
+        """Guarantee: among protocols with session ranges, the number with a
+        docDate outside all applicable ranges is within the limit.
+        """
         session_ranges = load_session_ranges()
         failures = 0
         for protocol in self.protocol_dates:
