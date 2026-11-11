@@ -19,7 +19,6 @@ LOGGER = get_logger(name="docdate-integrity")
 RIKSDAG_YEAR_PATH = Path("test/data/riksdag-year.csv")
 MAX_SPAN_DAYS = 7
 
-# Keep the release limits from dev. Later curation can ratchet them down.
 MAX_LONG_SPANS = 357
 MAX_RANGE_OVERLAPS = 254
 MAX_OUTSIDE_RIKSDAG_YEAR_RANGE = 285
