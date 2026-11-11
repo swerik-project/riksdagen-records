@@ -99,7 +99,9 @@ class DocDateIntegrityTest(unittest.TestCase):
         )
 
     def test_protocol_date_spans_are_not_longer_than_one_week(self):
-        """Guarantee: the number of protocols spanning more than a week cannot increase past the limit."""
+        """Guarantee: the number of protocols whose earliest and latest docDates
+        are more than seven days apart is within the limit.
+        """
         failures = 0
         for protocol in self.protocol_dates:
             dates = protocol["parsed"]
