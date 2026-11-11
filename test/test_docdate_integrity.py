@@ -116,7 +116,10 @@ class DocDateIntegrityTest(unittest.TestCase):
         )
 
     def test_protocol_date_ranges_do_not_overlap_in_sequence(self):
-        """Guarantee: adjacent dated protocols in the same chamber stay in order within the limit."""
+        """Guarantee: among adjacent dated protocols in path order, the number
+        of pairs from the same chamber where the first protocol ends after the
+        second begins is within the limit.
+        """
         failures = 0
         previous = None
         for protocol in self.protocol_dates:
@@ -139,7 +142,9 @@ class DocDateIntegrityTest(unittest.TestCase):
         )
 
     def test_pre_1875_filename_dates_match_docdates(self):
-        """Guarantee: an encoded pre-1875 filename date is the only distinct docDate."""
+        """Guarantee: if a protocol from before 1875 has a date in its filename,
+        all its docDates match that date.
+        """
         failures = 0
         for protocol in self.protocol_dates:
             year = protocol["year"]
