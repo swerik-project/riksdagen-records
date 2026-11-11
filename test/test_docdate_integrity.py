@@ -43,7 +43,10 @@ def load_session_ranges():
 
 
 def expected_ranges(protocol, session_ranges):
-    """Return intervals for the protocol's folder and chamber, including chamber-neutral rows."""
+    """Return session ranges for the protocol's year folder.
+
+    Include rows for its chamber and rows without a chamber.
+    """
     folder = Path(protocol["path"]).parts[1]
     chamber = CHAMBER_CODES.get(protocol["chamber"])
     neutral_ranges = session_ranges.get((folder, None), ())
