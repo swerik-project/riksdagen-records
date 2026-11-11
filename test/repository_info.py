@@ -7,7 +7,6 @@ import unittest
 from urllib.parse import urlsplit
 
 from lxml import etree
-import polars as pl
 from trainerlog import get_logger
 
 from test.repository_info_dcat import load_repository_info, write_dcat_rdf
@@ -39,21 +38,24 @@ class RepositoryInfoTest(unittest.TestCase):
     def test_records_zip_distribution_uses_latest_release(self):
         """Guarantee: records.zip has one distribution pointing to the latest release."""
         info = load_repository_info(INFO_PATH)
-        records = pl.from_dicts(
-            info["distributions"],
-            schema={
-                "name": pl.String,
-                "access_url": pl.String,
-                "download_url": pl.String,
-                "media_type": pl.String,
-                "format": pl.String,
-            },
-        ).filter(pl.col("name") == "records.zip")
+        records = [
+            distribution
+            for distribution in info["distributions"]
+            if distribution.get("name") == "records.zip"
+        ]
+        self.assertEqual(len(records), 1, f"{INFO_PATH} must have one records.zip distribution.")
+
         latest_zip = f"{REPOSITORY_URL}/releases/latest/download/records.zip"
+        expected = {
+            "access_url": latest_zip,
+            "download_url": latest_zip,
+            "media_type": "application/zip",
+            "format": "ZIP",
+        }
         self.assertEqual(
-            records.rows(),
-            [("records.zip", latest_zip, latest_zip, "application/zip", "ZIP")],
-            f"{INFO_PATH} must have one records.zip distribution with stable ZIP URLs.",
+            {key: records[0].get(key) for key in expected},
+            expected,
+            f"{INFO_PATH} must give records.zip stable ZIP URLs and ZIP metadata.",
         )
 
     def test_public_metadata_links_are_absolute(self):
