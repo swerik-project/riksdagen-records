@@ -1,5 +1,4 @@
 """Data integrity tests for dates in Riksdag protocols.
-
 The session checks use `test/data/riksdag-year.csv`.
 """
 
@@ -43,8 +42,7 @@ def load_session_ranges():
 
 
 def expected_ranges(protocol, session_ranges):
-    """Return session ranges for the protocol's year folder.
-
+    """Return session ranges for the protocol's year folder. 
     Include rows for its chamber and rows without a chamber.
     """
     folder = Path(protocol["path"]).parts[1]
@@ -100,7 +98,7 @@ class DocDateIntegrityTest(unittest.TestCase):
 
     def test_protocol_date_spans_are_not_longer_than_one_week(self):
         """Guarantee: the number of protocols whose earliest and latest docDates
-        are more than seven days apart is within the limit.
+        are more than seven days apart is within the pre-defined limit.
         """
         failures = 0
         for protocol in self.protocol_dates:
@@ -142,8 +140,7 @@ class DocDateIntegrityTest(unittest.TestCase):
         )
 
     def test_pre_1875_filename_dates_match_docdates(self):
-        """Guarantee: if a protocol from before 1875 has a date in its filename,
-        all its docDates match that date.
+        """Guarantee: Before 1875, the date encoded in the filename is the only docDate.
         """
         failures = 0
         for protocol in self.protocol_dates:
