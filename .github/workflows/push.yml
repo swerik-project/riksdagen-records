@@ -55,6 +55,22 @@ jobs:
       run: |
         python -m unittest test.test_docdate_filename_dates test.test_speaker_mapping_regressions
 
+  repository-info:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.13]
+    steps:
+    - uses: actions/checkout@v4
+    - uses: ./.github/actions/checkout
+    - uses: ./.github/actions/setup-python
+      with:
+        python-version: ${{ matrix.python-version }}
+    - uses: ./.github/actions/install-dependencies
+    - name: Validate repository publication metadata
+      run: |
+        python -m unittest test.repository_info
+
   docdate-integrity:
     runs-on: ubuntu-latest
     strategy:
