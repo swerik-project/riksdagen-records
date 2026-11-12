@@ -71,6 +71,9 @@ jobs:
     - name: Check protocol docDate integrity
       run: |
         python -m unittest test.test_docdate_integrity
+    - name: Check weekdays in annotated date notes
+      run: |
+        python -m unittest test.test_docdate_weekday_evidence
 
   protocol-body-integrity:
     runs-on: ubuntu-latest
