@@ -271,7 +271,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Install fish shell
-        uses: fish-shop/install-fish-shell@v2
+        run: |
+          sudo apt install -y fish
       - name: Ensure all tests are in CI
         run: |
           ls
