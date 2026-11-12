@@ -127,7 +127,6 @@ class SingleSpeakerSpeech(unittest.TestCase):
                     whos.add(who)
             return whos
 
-        fail = False
         for record in tqdm(self.records[:]):
             py = record.split("/")[1]
             if py not in self.speeches_per_year:
@@ -142,7 +141,8 @@ class SingleSpeakerSpeech(unittest.TestCase):
                     self.error_rows.append([record, py, speech, len(whos)])
                     fail = True
 
-        self.assertFalse(fail, "There are speeches with multiple assigned speakers.")
+        self.assertEqual(0, len(self.error_rows),
+                         f"There are {len(self.error_rows)} speeches with multiple assigned speakers.")
 
 
 
