@@ -80,7 +80,7 @@ class SingleSpeakerSpeech(unittest.TestCase):
 
     def test_speeches_have_one_speaker(self):
         """
-        ensure speaker exclusivity in speeches extracted via the teiHeader / speech ID
+        Guarantee: ensure speaker exclusivity in speeches extracted via the teiHeader / speech ID
         """
         def _get_speeches(root, ns):
             d = {}
@@ -101,7 +101,6 @@ class SingleSpeakerSpeech(unittest.TestCase):
                 who = u_elem.attrib[f"who"]
                 if who != "unknown":
                     whos.add(who)
-
             return whos
 
         fail = False
