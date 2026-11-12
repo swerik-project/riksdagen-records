@@ -6,7 +6,7 @@ from trainerlog import get_logger
 from pyriksdagen.io import parse_tei
 import matplotlib.pyplot as plt
 import os
-import pandas as pd
+import polars as pl
 import unittest
 
 
@@ -30,36 +30,58 @@ class SingleSpeakerSpeech(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
-
         def _plot_errors_by_year(df, totals):
-            def start_year(value):
-                return int(str(value)[:4])
-
-            totals = pd.Series(totals)
-            totals.index = totals.index.map(start_year)
-            totals = totals.groupby(level=0).sum().sort_index()
-
-            errors = (
-                df["parliament_year"]
-                .map(start_year)
-                .value_counts()
-                .reindex(totals.index, fill_value=0)
+            # Handles both 1867 and sitting identifiers such as 198081.
+            year_expr = (
+                pl.col("parliament_year")
+                .cast(pl.String)
+                .str.slice(0, 4)
+                .cast(pl.Int64)
             )
-            proportions = errors / totals.replace(0, float("nan"))
+
+            totals_df = (
+                pl.DataFrame({
+                    "parliament_year": [str(year) for year in totals],
+                    "total": list(totals.values()),
+                })
+                .with_columns(year_expr)
+                .group_by("parliament_year")
+                .agg(pl.col("total").sum())
+            )
+
+            errors_df = (
+                df.with_columns(year_expr)
+                .group_by("parliament_year")
+                .agg(pl.len().alias("errors"))
+            )
+
+            plot_df = (
+                totals_df
+                .join(errors_df, on="parliament_year", how="left")
+                .with_columns(pl.col("errors").fill_null(0))
+                .with_columns(
+                    pl.when(pl.col("total") != 0)
+                    .then(pl.col("errors") / pl.col("total"))
+                    .otherwise(float("nan"))
+                    .alias("proportion")
+                )
+                .sort("parliament_year")
+            )
+
+            years = plot_df["parliament_year"].to_numpy()
 
             fig, axes = plt.subplots(2, 1, sharex=True, figsize=(12, 7))
 
-            axes[0].plot(errors.index, errors.values)
+            axes[0].plot(years, plot_df["errors"].to_numpy())
             axes[0].set_ylabel("Number of errors")
 
-            axes[1].plot(proportions.index, proportions.values)
+            axes[1].plot(years, plot_df["proportion"].to_numpy())
             axes[1].set_ylabel("Proportion of errors")
             axes[1].yaxis.set_major_formatter(PercentFormatter(xmax=1))
             axes[1].set_xlabel("Year (start of parliamentary sitting)")
 
-            years = totals.index
             axes[1].set_xticks(
-                range(((years.min() + 4) // 5) * 5, years.max() + 1, 5)
+                range(((int(years.min()) + 4) // 5) * 5, int(years.max()) + 1, 5)
             )
             axes[1].tick_params(axis="x", labelrotation=90)
 
@@ -72,11 +94,13 @@ class SingleSpeakerSpeech(unittest.TestCase):
         if bool(os.environ.get("WRITE_UNITTEST_DIAGNOSTICS")):
             logger.info("Writing test diagnostics")
             cols = ["record", "parliament_year", "speech", "N_speakers"]
-            df = pd.DataFrame(cls.error_rows, columns=cols)
-            df.to_csv("test/results/multispeaker-speeches.tsv", index=False, sep="\t")
-            f, a = _plot_errors_by_year(df, cls.speeches_per_year)
-            plt.savefig(f"test/results/multispeaker-speeches.png")
-        logger.info("Test is Finnish 🇫🇮")
+
+            df = pl.DataFrame(cls.error_rows, schema=cols, orient="row")
+            df.write_csv(
+                "test/results/multispeaker-speeches.tsv",
+                separator="\t",
+            )
+            logger.info("Test is Finnish 🇫🇮")
 
     def test_speeches_have_one_speaker(self):
         """
