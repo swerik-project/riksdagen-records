@@ -154,6 +154,7 @@ jobs:
         cd riksdagen-persons && git checkout main && cd ../
     - name: Test speaker data integrity
       run: |
+        pip install pyarrow
         export METADATA_PATH="riksdagen-persons/data"
         python -m unittest test.mp
 
