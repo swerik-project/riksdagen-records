@@ -96,10 +96,10 @@ class SingleSpeakerSpeech(unittest.TestCase):
             cols = ["record", "parliament_year", "speech", "N_speakers"]
 
             df = pl.DataFrame(cls.error_rows, schema=cols, orient="row")
-            df.write_csv(
-                "test/results/multispeaker-speeches.tsv",
-                separator="\t",
-            )
+            df.write_csv("test/results/multispeaker-speeches.tsv",
+                        separator="\t")
+            fig, ax = _plot_errors_by_year(df, cls.speeches_per_year)
+            plt.savefig("test/results/multispeaker-speeches.png")
             logger.info("Test is Finnish 🇫🇮")
 
     def test_speeches_have_one_speaker(self):
