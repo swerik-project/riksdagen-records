@@ -58,7 +58,7 @@
     </ul>
 
 
-            <footer>v1.6.1</footer>
+            <footer>v1.7.0</footer>
 
         <a class="attribution" title="pdoc: Python API documentation generator" href="https://pdoc.dev" target="_blank">
             built with <span class="visually-hidden">pdoc</span><img
@@ -91,9 +91,9 @@ those checks belong to separate tests.</p>
 </span><span id="L-6"><a href="#L-6"><span class="linenos"> 6</span></a><span class="sd">Corpus paper. They intentionally do not validate XML schemas or CSV metadata;</span>
 </span><span id="L-7"><a href="#L-7"><span class="linenos"> 7</span></a><span class="sd">those checks belong to separate tests.</span>
 </span><span id="L-8"><a href="#L-8"><span class="linenos"> 8</span></a><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="L-9"><a href="#L-9"><span class="linenos"> 9</span></a><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
-</span><span id="L-10"><a href="#L-10"><span class="linenos">10</span></a><span class="kn">import</span> <span class="nn">re</span>
-</span><span id="L-11"><a href="#L-11"><span class="linenos">11</span></a><span class="kn">import</span> <span class="nn">unittest</span>
+</span><span id="L-9"><a href="#L-9"><span class="linenos"> 9</span></a><span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+</span><span id="L-10"><a href="#L-10"><span class="linenos">10</span></a><span class="kn">import</span><span class="w"> </span><span class="nn">re</span>
+</span><span id="L-11"><a href="#L-11"><span class="linenos">11</span></a><span class="kn">import</span><span class="w"> </span><span class="nn">unittest</span>
 </span><span id="L-12"><a href="#L-12"><span class="linenos">12</span></a>
 </span><span id="L-13"><a href="#L-13"><span class="linenos">13</span></a>
 </span><span id="L-14"><a href="#L-14"><span class="linenos">14</span></a><span class="n">DATA_DIR</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="s2">&quot;data&quot;</span><span class="p">)</span>
@@ -101,9 +101,9 @@ those checks belong to separate tests.</p>
 </span><span id="L-16"><a href="#L-16"><span class="linenos">16</span></a><span class="n">TOP_LEVEL_XML</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;prot-ak.xml&quot;</span><span class="p">,</span> <span class="s2">&quot;prot-ek.xml&quot;</span><span class="p">,</span> <span class="s2">&quot;prot-fk.xml&quot;</span><span class="p">}</span>
 </span><span id="L-17"><a href="#L-17"><span class="linenos">17</span></a>
 </span><span id="L-18"><a href="#L-18"><span class="linenos">18</span></a>
-</span><span id="L-19"><a href="#L-19"><span class="linenos">19</span></a><span class="k">class</span> <span class="nc">APIContractTest</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
+</span><span id="L-19"><a href="#L-19"><span class="linenos">19</span></a><span class="k">class</span><span class="w"> </span><span class="nc">APIContractTest</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
 </span><span id="L-20"><a href="#L-20"><span class="linenos">20</span></a>
-</span><span id="L-21"><a href="#L-21"><span class="linenos">21</span></a>    <span class="k">def</span> <span class="nf">test_public_directories_exist</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span id="L-21"><a href="#L-21"><span class="linenos">21</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_public_directories_exist</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="L-22"><a href="#L-22"><span class="linenos">22</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="L-23"><a href="#L-23"><span class="linenos">23</span></a><span class="sd">        The repository exposes data, documentation, tests and quality estimates.</span>
 </span><span id="L-24"><a href="#L-24"><span class="linenos">24</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -111,7 +111,7 @@ those checks belong to separate tests.</p>
 </span><span id="L-26"><a href="#L-26"><span class="linenos">26</span></a>            <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">subTest</span><span class="p">(</span><span class="n">dirname</span><span class="o">=</span><span class="n">dirname</span><span class="p">):</span>
 </span><span id="L-27"><a href="#L-27"><span class="linenos">27</span></a>                <span class="bp">self</span><span class="o">.</span><span class="n">assertTrue</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="n">dirname</span><span class="p">)</span><span class="o">.</span><span class="n">is_dir</span><span class="p">(),</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">dirname</span><span class="si">}</span><span class="s2">/ is part of the public repository structure&quot;</span><span class="p">)</span>
 </span><span id="L-28"><a href="#L-28"><span class="linenos">28</span></a>
-</span><span id="L-29"><a href="#L-29"><span class="linenos">29</span></a>    <span class="k">def</span> <span class="nf">test_records_are_grouped_by_parliament_year</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span id="L-29"><a href="#L-29"><span class="linenos">29</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_records_are_grouped_by_parliament_year</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="L-30"><a href="#L-30"><span class="linenos">30</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="L-31"><a href="#L-31"><span class="linenos">31</span></a><span class="sd">        Protocol XML files are exposed in data/&lt;parliament_year&gt;/ folders.</span>
 </span><span id="L-32"><a href="#L-32"><span class="linenos">32</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -123,7 +123,7 @@ those checks belong to separate tests.</p>
 </span><span id="L-38"><a href="#L-38"><span class="linenos">38</span></a>                <span class="bp">self</span><span class="o">.</span><span class="n">assertRegex</span><span class="p">(</span><span class="n">path</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">PARLIAMENT_YEAR</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">path</span><span class="si">}</span><span class="s2"> should be named as a parliament year&quot;</span><span class="p">)</span>
 </span><span id="L-39"><a href="#L-39"><span class="linenos">39</span></a>                <span class="bp">self</span><span class="o">.</span><span class="n">assertGreater</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">path</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;*.xml&quot;</span><span class="p">))),</span> <span class="mi">0</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">path</span><span class="si">}</span><span class="s2"> should contain protocol XML files&quot;</span><span class="p">)</span>
 </span><span id="L-40"><a href="#L-40"><span class="linenos">40</span></a>
-</span><span id="L-41"><a href="#L-41"><span class="linenos">41</span></a>    <span class="k">def</span> <span class="nf">test_top_level_data_files_are_chamber_indexes</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span id="L-41"><a href="#L-41"><span class="linenos">41</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_top_level_data_files_are_chamber_indexes</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="L-42"><a href="#L-42"><span class="linenos">42</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="L-43"><a href="#L-43"><span class="linenos">43</span></a><span class="sd">        The only public top-level XML files in data/ are chamber index files.</span>
 </span><span id="L-44"><a href="#L-44"><span class="linenos">44</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -171,7 +171,7 @@ those checks belong to separate tests.</p>
                 <section id="TOP_LEVEL_XML">
                     <div class="attr variable">
             <span class="name">TOP_LEVEL_XML</span>        =
-<span class="default_value">{&#39;prot-ak.xml&#39;, &#39;prot-fk.xml&#39;, &#39;prot-ek.xml&#39;}</span>
+<span class="default_value">{&#39;prot-ek.xml&#39;, &#39;prot-ak.xml&#39;, &#39;prot-fk.xml&#39;}</span>
 
         
     </div>
@@ -191,9 +191,9 @@ those checks belong to separate tests.</p>
 
     </div>
     <a class="headerlink" href="#APIContractTest"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="APIContractTest-20"><a href="#APIContractTest-20"><span class="linenos">20</span></a><span class="k">class</span> <span class="nc">APIContractTest</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="APIContractTest-20"><a href="#APIContractTest-20"><span class="linenos">20</span></a><span class="k">class</span><span class="w"> </span><span class="nc">APIContractTest</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
 </span><span id="APIContractTest-21"><a href="#APIContractTest-21"><span class="linenos">21</span></a>
-</span><span id="APIContractTest-22"><a href="#APIContractTest-22"><span class="linenos">22</span></a>    <span class="k">def</span> <span class="nf">test_public_directories_exist</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span id="APIContractTest-22"><a href="#APIContractTest-22"><span class="linenos">22</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_public_directories_exist</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="APIContractTest-23"><a href="#APIContractTest-23"><span class="linenos">23</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="APIContractTest-24"><a href="#APIContractTest-24"><span class="linenos">24</span></a><span class="sd">        The repository exposes data, documentation, tests and quality estimates.</span>
 </span><span id="APIContractTest-25"><a href="#APIContractTest-25"><span class="linenos">25</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -201,7 +201,7 @@ those checks belong to separate tests.</p>
 </span><span id="APIContractTest-27"><a href="#APIContractTest-27"><span class="linenos">27</span></a>            <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">subTest</span><span class="p">(</span><span class="n">dirname</span><span class="o">=</span><span class="n">dirname</span><span class="p">):</span>
 </span><span id="APIContractTest-28"><a href="#APIContractTest-28"><span class="linenos">28</span></a>                <span class="bp">self</span><span class="o">.</span><span class="n">assertTrue</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="n">dirname</span><span class="p">)</span><span class="o">.</span><span class="n">is_dir</span><span class="p">(),</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">dirname</span><span class="si">}</span><span class="s2">/ is part of the public repository structure&quot;</span><span class="p">)</span>
 </span><span id="APIContractTest-29"><a href="#APIContractTest-29"><span class="linenos">29</span></a>
-</span><span id="APIContractTest-30"><a href="#APIContractTest-30"><span class="linenos">30</span></a>    <span class="k">def</span> <span class="nf">test_records_are_grouped_by_parliament_year</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span id="APIContractTest-30"><a href="#APIContractTest-30"><span class="linenos">30</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_records_are_grouped_by_parliament_year</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="APIContractTest-31"><a href="#APIContractTest-31"><span class="linenos">31</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="APIContractTest-32"><a href="#APIContractTest-32"><span class="linenos">32</span></a><span class="sd">        Protocol XML files are exposed in data/&lt;parliament_year&gt;/ folders.</span>
 </span><span id="APIContractTest-33"><a href="#APIContractTest-33"><span class="linenos">33</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -213,7 +213,7 @@ those checks belong to separate tests.</p>
 </span><span id="APIContractTest-39"><a href="#APIContractTest-39"><span class="linenos">39</span></a>                <span class="bp">self</span><span class="o">.</span><span class="n">assertRegex</span><span class="p">(</span><span class="n">path</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">PARLIAMENT_YEAR</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">path</span><span class="si">}</span><span class="s2"> should be named as a parliament year&quot;</span><span class="p">)</span>
 </span><span id="APIContractTest-40"><a href="#APIContractTest-40"><span class="linenos">40</span></a>                <span class="bp">self</span><span class="o">.</span><span class="n">assertGreater</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">path</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;*.xml&quot;</span><span class="p">))),</span> <span class="mi">0</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">path</span><span class="si">}</span><span class="s2"> should contain protocol XML files&quot;</span><span class="p">)</span>
 </span><span id="APIContractTest-41"><a href="#APIContractTest-41"><span class="linenos">41</span></a>
-</span><span id="APIContractTest-42"><a href="#APIContractTest-42"><span class="linenos">42</span></a>    <span class="k">def</span> <span class="nf">test_top_level_data_files_are_chamber_indexes</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span id="APIContractTest-42"><a href="#APIContractTest-42"><span class="linenos">42</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_top_level_data_files_are_chamber_indexes</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="APIContractTest-43"><a href="#APIContractTest-43"><span class="linenos">43</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="APIContractTest-44"><a href="#APIContractTest-44"><span class="linenos">44</span></a><span class="sd">        The only public top-level XML files in data/ are chamber index files.</span>
 </span><span id="APIContractTest-45"><a href="#APIContractTest-45"><span class="linenos">45</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -276,7 +276,7 @@ attribute so can be configured by individual tests if required.</li>
 
     </div>
     <a class="headerlink" href="#APIContractTest.test_public_directories_exist"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="APIContractTest.test_public_directories_exist-22"><a href="#APIContractTest.test_public_directories_exist-22"><span class="linenos">22</span></a>    <span class="k">def</span> <span class="nf">test_public_directories_exist</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="APIContractTest.test_public_directories_exist-22"><a href="#APIContractTest.test_public_directories_exist-22"><span class="linenos">22</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_public_directories_exist</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="APIContractTest.test_public_directories_exist-23"><a href="#APIContractTest.test_public_directories_exist-23"><span class="linenos">23</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="APIContractTest.test_public_directories_exist-24"><a href="#APIContractTest.test_public_directories_exist-24"><span class="linenos">24</span></a><span class="sd">        The repository exposes data, documentation, tests and quality estimates.</span>
 </span><span id="APIContractTest.test_public_directories_exist-25"><a href="#APIContractTest.test_public_directories_exist-25"><span class="linenos">25</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -302,7 +302,7 @@ attribute so can be configured by individual tests if required.</li>
 
     </div>
     <a class="headerlink" href="#APIContractTest.test_records_are_grouped_by_parliament_year"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="APIContractTest.test_records_are_grouped_by_parliament_year-30"><a href="#APIContractTest.test_records_are_grouped_by_parliament_year-30"><span class="linenos">30</span></a>    <span class="k">def</span> <span class="nf">test_records_are_grouped_by_parliament_year</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="APIContractTest.test_records_are_grouped_by_parliament_year-30"><a href="#APIContractTest.test_records_are_grouped_by_parliament_year-30"><span class="linenos">30</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_records_are_grouped_by_parliament_year</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="APIContractTest.test_records_are_grouped_by_parliament_year-31"><a href="#APIContractTest.test_records_are_grouped_by_parliament_year-31"><span class="linenos">31</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="APIContractTest.test_records_are_grouped_by_parliament_year-32"><a href="#APIContractTest.test_records_are_grouped_by_parliament_year-32"><span class="linenos">32</span></a><span class="sd">        Protocol XML files are exposed in data/&lt;parliament_year&gt;/ folders.</span>
 </span><span id="APIContractTest.test_records_are_grouped_by_parliament_year-33"><a href="#APIContractTest.test_records_are_grouped_by_parliament_year-33"><span class="linenos">33</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -332,7 +332,7 @@ attribute so can be configured by individual tests if required.</li>
 
     </div>
     <a class="headerlink" href="#APIContractTest.test_top_level_data_files_are_chamber_indexes"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="APIContractTest.test_top_level_data_files_are_chamber_indexes-42"><a href="#APIContractTest.test_top_level_data_files_are_chamber_indexes-42"><span class="linenos">42</span></a>    <span class="k">def</span> <span class="nf">test_top_level_data_files_are_chamber_indexes</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="APIContractTest.test_top_level_data_files_are_chamber_indexes-42"><a href="#APIContractTest.test_top_level_data_files_are_chamber_indexes-42"><span class="linenos">42</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_top_level_data_files_are_chamber_indexes</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="APIContractTest.test_top_level_data_files_are_chamber_indexes-43"><a href="#APIContractTest.test_top_level_data_files_are_chamber_indexes-43"><span class="linenos">43</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="APIContractTest.test_top_level_data_files_are_chamber_indexes-44"><a href="#APIContractTest.test_top_level_data_files_are_chamber_indexes-44"><span class="linenos">44</span></a><span class="sd">        The only public top-level XML files in data/ are chamber index files.</span>
 </span><span id="APIContractTest.test_top_level_data_files_are_chamber_indexes-45"><a href="#APIContractTest.test_top_level_data_files_are_chamber_indexes-45"><span class="linenos">45</span></a><span class="sd">        &quot;&quot;&quot;</span>

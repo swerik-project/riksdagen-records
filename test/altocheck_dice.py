@@ -148,6 +148,11 @@ def dice_score(alto_words, tei_words):
     alto = Counter(alto_words)
     tei = Counter(tei_words)
     overlap = sum((alto & tei).values())
+
+    # avoid division by zero if ground truth is an empty set
+    if len(alto) == 0:
+        # 1.0 if both empty set, 0.0 if tei contains something
+        return float(alto == tei)
     return 2 * overlap / (len(alto_words) + len(tei_words))
 
 

@@ -100,7 +100,7 @@
     </ul>
 
 
-            <footer>v1.6.1</footer>
+            <footer>v1.7.0</footer>
 
         <a class="attribution" title="pdoc: Python API documentation generator" href="https://pdoc.dev" target="_blank">
             built with <span class="visually-hidden">pdoc</span><img
@@ -144,13 +144,13 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 </span><span id="L-11"><a href="#L-11"><span class="linenos"> 11</span></a><span class="sd">found. Tiny files are reported as a separate regression guard because they are</span>
 </span><span id="L-12"><a href="#L-12"><span class="linenos"> 12</span></a><span class="sd">often incomplete, but size alone is not treated as proof that a body is absent.</span>
 </span><span id="L-13"><a href="#L-13"><span class="linenos"> 13</span></a><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="L-14"><a href="#L-14"><span class="linenos"> 14</span></a><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
-</span><span id="L-15"><a href="#L-15"><span class="linenos"> 15</span></a><span class="kn">import</span> <span class="nn">unittest</span>
+</span><span id="L-14"><a href="#L-14"><span class="linenos"> 14</span></a><span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+</span><span id="L-15"><a href="#L-15"><span class="linenos"> 15</span></a><span class="kn">import</span><span class="w"> </span><span class="nn">unittest</span>
 </span><span id="L-16"><a href="#L-16"><span class="linenos"> 16</span></a>
-</span><span id="L-17"><a href="#L-17"><span class="linenos"> 17</span></a><span class="kn">import</span> <span class="nn">polars</span> <span class="k">as</span> <span class="nn">pl</span>
-</span><span id="L-18"><a href="#L-18"><span class="linenos"> 18</span></a><span class="kn">from</span> <span class="nn">pyriksdagen.io</span> <span class="kn">import</span> <span class="n">TEI_NS</span><span class="p">,</span> <span class="n">parse_tei</span>
-</span><span id="L-19"><a href="#L-19"><span class="linenos"> 19</span></a><span class="kn">from</span> <span class="nn">pyriksdagen.utils</span> <span class="kn">import</span> <span class="n">corpus_iterator</span>
-</span><span id="L-20"><a href="#L-20"><span class="linenos"> 20</span></a><span class="kn">from</span> <span class="nn">trainerlog</span> <span class="kn">import</span> <span class="n">get_logger</span>
+</span><span id="L-17"><a href="#L-17"><span class="linenos"> 17</span></a><span class="kn">import</span><span class="w"> </span><span class="nn">polars</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pl</span>
+</span><span id="L-18"><a href="#L-18"><span class="linenos"> 18</span></a><span class="kn">from</span><span class="w"> </span><span class="nn">pyriksdagen.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">TEI_NS</span><span class="p">,</span> <span class="n">parse_tei</span>
+</span><span id="L-19"><a href="#L-19"><span class="linenos"> 19</span></a><span class="kn">from</span><span class="w"> </span><span class="nn">pyriksdagen.utils</span><span class="w"> </span><span class="kn">import</span> <span class="n">corpus_iterator</span>
+</span><span id="L-20"><a href="#L-20"><span class="linenos"> 20</span></a><span class="kn">from</span><span class="w"> </span><span class="nn">trainerlog</span><span class="w"> </span><span class="kn">import</span> <span class="n">get_logger</span>
 </span><span id="L-21"><a href="#L-21"><span class="linenos"> 21</span></a>
 </span><span id="L-22"><a href="#L-22"><span class="linenos"> 22</span></a>
 </span><span id="L-23"><a href="#L-23"><span class="linenos"> 23</span></a><span class="n">LOGGER</span> <span class="o">=</span> <span class="n">get_logger</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;protocol-body-integrity&quot;</span><span class="p">)</span>
@@ -182,11 +182,11 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 </span><span id="L-49"><a href="#L-49"><span class="linenos"> 49</span></a><span class="n">_BODY_ERRORS</span> <span class="o">=</span> <span class="kc">None</span>
 </span><span id="L-50"><a href="#L-50"><span class="linenos"> 50</span></a>
 </span><span id="L-51"><a href="#L-51"><span class="linenos"> 51</span></a>
-</span><span id="L-52"><a href="#L-52"><span class="linenos"> 52</span></a><span class="k">def</span> <span class="nf">empty_error_row</span><span class="p">():</span>
+</span><span id="L-52"><a href="#L-52"><span class="linenos"> 52</span></a><span class="k">def</span><span class="w"> </span><span class="nf">empty_error_row</span><span class="p">():</span>
 </span><span id="L-53"><a href="#L-53"><span class="linenos"> 53</span></a>    <span class="k">return</span> <span class="p">{</span><span class="n">column</span><span class="p">:</span> <span class="s2">&quot;&quot;</span> <span class="k">for</span> <span class="n">column</span> <span class="ow">in</span> <span class="n">DIAGNOSTIC_COLUMNS</span><span class="p">}</span>
 </span><span id="L-54"><a href="#L-54"><span class="linenos"> 54</span></a>
 </span><span id="L-55"><a href="#L-55"><span class="linenos"> 55</span></a>
-</span><span id="L-56"><a href="#L-56"><span class="linenos"> 56</span></a><span class="k">def</span> <span class="nf">body_error</span><span class="p">(</span><span class="n">error_type</span><span class="p">,</span> <span class="n">file</span><span class="p">,</span> <span class="n">issue</span><span class="p">,</span> <span class="o">**</span><span class="n">fields</span><span class="p">):</span>
+</span><span id="L-56"><a href="#L-56"><span class="linenos"> 56</span></a><span class="k">def</span><span class="w"> </span><span class="nf">body_error</span><span class="p">(</span><span class="n">error_type</span><span class="p">,</span> <span class="n">file</span><span class="p">,</span> <span class="n">issue</span><span class="p">,</span> <span class="o">**</span><span class="n">fields</span><span class="p">):</span>
 </span><span id="L-57"><a href="#L-57"><span class="linenos"> 57</span></a>    <span class="n">row</span> <span class="o">=</span> <span class="n">empty_error_row</span><span class="p">()</span>
 </span><span id="L-58"><a href="#L-58"><span class="linenos"> 58</span></a>    <span class="n">row</span><span class="o">.</span><span class="n">update</span><span class="p">(</span>
 </span><span id="L-59"><a href="#L-59"><span class="linenos"> 59</span></a>        <span class="p">{</span>
@@ -199,19 +199,19 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 </span><span id="L-66"><a href="#L-66"><span class="linenos"> 66</span></a>    <span class="k">return</span> <span class="n">row</span>
 </span><span id="L-67"><a href="#L-67"><span class="linenos"> 67</span></a>
 </span><span id="L-68"><a href="#L-68"><span class="linenos"> 68</span></a>
-</span><span id="L-69"><a href="#L-69"><span class="linenos"> 69</span></a><span class="k">def</span> <span class="nf">body_text_length</span><span class="p">(</span><span class="n">body</span><span class="p">):</span>
+</span><span id="L-69"><a href="#L-69"><span class="linenos"> 69</span></a><span class="k">def</span><span class="w"> </span><span class="nf">body_text_length</span><span class="p">(</span><span class="n">body</span><span class="p">):</span>
 </span><span id="L-70"><a href="#L-70"><span class="linenos"> 70</span></a>    <span class="k">if</span> <span class="n">body</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
 </span><span id="L-71"><a href="#L-71"><span class="linenos"> 71</span></a>        <span class="k">return</span> <span class="mi">0</span>
 </span><span id="L-72"><a href="#L-72"><span class="linenos"> 72</span></a>    <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">body</span><span class="o">.</span><span class="n">itertext</span><span class="p">())</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
 </span><span id="L-73"><a href="#L-73"><span class="linenos"> 73</span></a>
 </span><span id="L-74"><a href="#L-74"><span class="linenos"> 74</span></a>
-</span><span id="L-75"><a href="#L-75"><span class="linenos"> 75</span></a><span class="k">def</span> <span class="nf">body_child_count</span><span class="p">(</span><span class="n">body</span><span class="p">):</span>
+</span><span id="L-75"><a href="#L-75"><span class="linenos"> 75</span></a><span class="k">def</span><span class="w"> </span><span class="nf">body_child_count</span><span class="p">(</span><span class="n">body</span><span class="p">):</span>
 </span><span id="L-76"><a href="#L-76"><span class="linenos"> 76</span></a>    <span class="k">if</span> <span class="n">body</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
 </span><span id="L-77"><a href="#L-77"><span class="linenos"> 77</span></a>        <span class="k">return</span> <span class="mi">0</span>
 </span><span id="L-78"><a href="#L-78"><span class="linenos"> 78</span></a>    <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="n">body</span><span class="p">)</span>
 </span><span id="L-79"><a href="#L-79"><span class="linenos"> 79</span></a>
 </span><span id="L-80"><a href="#L-80"><span class="linenos"> 80</span></a>
-</span><span id="L-81"><a href="#L-81"><span class="linenos"> 81</span></a><span class="k">def</span> <span class="nf">collect_body_errors</span><span class="p">():</span>
+</span><span id="L-81"><a href="#L-81"><span class="linenos"> 81</span></a><span class="k">def</span><span class="w"> </span><span class="nf">collect_body_errors</span><span class="p">():</span>
 </span><span id="L-82"><a href="#L-82"><span class="linenos"> 82</span></a>    <span class="n">errors</span> <span class="o">=</span> <span class="p">[]</span>
 </span><span id="L-83"><a href="#L-83"><span class="linenos"> 83</span></a>    <span class="n">protocols</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">corpus_iterator</span><span class="p">(</span><span class="s2">&quot;records&quot;</span><span class="p">,</span> <span class="n">corpus_root</span><span class="o">=</span><span class="s2">&quot;data&quot;</span><span class="p">))</span>
 </span><span id="L-84"><a href="#L-84"><span class="linenos"> 84</span></a>    <span class="n">LOGGER</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Checking protocol body integrity for </span><span class="si">%s</span><span class="s2"> protocols&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">protocols</span><span class="p">))</span>
@@ -273,7 +273,7 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 </span><span id="L-140"><a href="#L-140"><span class="linenos">140</span></a>    <span class="k">return</span> <span class="n">errors</span>
 </span><span id="L-141"><a href="#L-141"><span class="linenos">141</span></a>
 </span><span id="L-142"><a href="#L-142"><span class="linenos">142</span></a>
-</span><span id="L-143"><a href="#L-143"><span class="linenos">143</span></a><span class="k">def</span> <span class="nf">body_errors</span><span class="p">():</span>
+</span><span id="L-143"><a href="#L-143"><span class="linenos">143</span></a><span class="k">def</span><span class="w"> </span><span class="nf">body_errors</span><span class="p">():</span>
 </span><span id="L-144"><a href="#L-144"><span class="linenos">144</span></a>    <span class="k">global</span> <span class="n">_BODY_ERRORS</span>
 </span><span id="L-145"><a href="#L-145"><span class="linenos">145</span></a>
 </span><span id="L-146"><a href="#L-146"><span class="linenos">146</span></a>    <span class="k">if</span> <span class="n">_BODY_ERRORS</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
@@ -287,11 +287,11 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 </span><span id="L-154"><a href="#L-154"><span class="linenos">154</span></a>    <span class="k">return</span> <span class="n">_BODY_ERRORS</span>
 </span><span id="L-155"><a href="#L-155"><span class="linenos">155</span></a>
 </span><span id="L-156"><a href="#L-156"><span class="linenos">156</span></a>
-</span><span id="L-157"><a href="#L-157"><span class="linenos">157</span></a><span class="k">def</span> <span class="nf">errors_of_type</span><span class="p">(</span><span class="n">error_type</span><span class="p">):</span>
+</span><span id="L-157"><a href="#L-157"><span class="linenos">157</span></a><span class="k">def</span><span class="w"> </span><span class="nf">errors_of_type</span><span class="p">(</span><span class="n">error_type</span><span class="p">):</span>
 </span><span id="L-158"><a href="#L-158"><span class="linenos">158</span></a>    <span class="k">return</span> <span class="n">body_errors</span><span class="p">()</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">pl</span><span class="o">.</span><span class="n">col</span><span class="p">(</span><span class="s2">&quot;error_type&quot;</span><span class="p">)</span> <span class="o">==</span> <span class="n">error_type</span><span class="p">)</span>
 </span><span id="L-159"><a href="#L-159"><span class="linenos">159</span></a>
 </span><span id="L-160"><a href="#L-160"><span class="linenos">160</span></a>
-</span><span id="L-161"><a href="#L-161"><span class="linenos">161</span></a><span class="k">def</span> <span class="nf">test_protocols_have_text_elements</span><span class="p">():</span>
+</span><span id="L-161"><a href="#L-161"><span class="linenos">161</span></a><span class="k">def</span><span class="w"> </span><span class="nf">test_protocols_have_text_elements</span><span class="p">():</span>
 </span><span id="L-162"><a href="#L-162"><span class="linenos">162</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Every yearly protocol should have a TEI text element.&quot;&quot;&quot;</span>
 </span><span id="L-163"><a href="#L-163"><span class="linenos">163</span></a>    <span class="n">df_missing_text</span> <span class="o">=</span> <span class="n">errors_of_type</span><span class="p">(</span><span class="s2">&quot;missing_text&quot;</span><span class="p">)</span>
 </span><span id="L-164"><a href="#L-164"><span class="linenos">164</span></a>    <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">df_missing_text</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="n">MAX_MISSING_TEXT</span><span class="p">,</span> <span class="p">(</span>
@@ -300,7 +300,7 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 </span><span id="L-167"><a href="#L-167"><span class="linenos">167</span></a>    <span class="p">)</span>
 </span><span id="L-168"><a href="#L-168"><span class="linenos">168</span></a>
 </span><span id="L-169"><a href="#L-169"><span class="linenos">169</span></a>
-</span><span id="L-170"><a href="#L-170"><span class="linenos">170</span></a><span class="k">def</span> <span class="nf">test_protocols_have_body_elements</span><span class="p">():</span>
+</span><span id="L-170"><a href="#L-170"><span class="linenos">170</span></a><span class="k">def</span><span class="w"> </span><span class="nf">test_protocols_have_body_elements</span><span class="p">():</span>
 </span><span id="L-171"><a href="#L-171"><span class="linenos">171</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Every yearly protocol should have a TEI body element.&quot;&quot;&quot;</span>
 </span><span id="L-172"><a href="#L-172"><span class="linenos">172</span></a>    <span class="n">df_missing_body</span> <span class="o">=</span> <span class="n">errors_of_type</span><span class="p">(</span><span class="s2">&quot;missing_body&quot;</span><span class="p">)</span>
 </span><span id="L-173"><a href="#L-173"><span class="linenos">173</span></a>    <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">df_missing_body</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="n">MAX_MISSING_BODY</span><span class="p">,</span> <span class="p">(</span>
@@ -309,7 +309,7 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 </span><span id="L-176"><a href="#L-176"><span class="linenos">176</span></a>    <span class="p">)</span>
 </span><span id="L-177"><a href="#L-177"><span class="linenos">177</span></a>
 </span><span id="L-178"><a href="#L-178"><span class="linenos">178</span></a>
-</span><span id="L-179"><a href="#L-179"><span class="linenos">179</span></a><span class="k">def</span> <span class="nf">test_protocol_bodies_are_not_empty</span><span class="p">():</span>
+</span><span id="L-179"><a href="#L-179"><span class="linenos">179</span></a><span class="k">def</span><span class="w"> </span><span class="nf">test_protocol_bodies_are_not_empty</span><span class="p">():</span>
 </span><span id="L-180"><a href="#L-180"><span class="linenos">180</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Protocol body elements should contain child elements or text.&quot;&quot;&quot;</span>
 </span><span id="L-181"><a href="#L-181"><span class="linenos">181</span></a>    <span class="n">df_empty_body</span> <span class="o">=</span> <span class="n">errors_of_type</span><span class="p">(</span><span class="s2">&quot;empty_body&quot;</span><span class="p">)</span>
 </span><span id="L-182"><a href="#L-182"><span class="linenos">182</span></a>    <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">df_empty_body</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="n">MAX_EMPTY_BODY</span><span class="p">,</span> <span class="p">(</span>
@@ -318,7 +318,7 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 </span><span id="L-185"><a href="#L-185"><span class="linenos">185</span></a>    <span class="p">)</span>
 </span><span id="L-186"><a href="#L-186"><span class="linenos">186</span></a>
 </span><span id="L-187"><a href="#L-187"><span class="linenos">187</span></a>
-</span><span id="L-188"><a href="#L-188"><span class="linenos">188</span></a><span class="k">def</span> <span class="nf">test_protocol_files_are_not_suspiciously_small</span><span class="p">():</span>
+</span><span id="L-188"><a href="#L-188"><span class="linenos">188</span></a><span class="k">def</span><span class="w"> </span><span class="nf">test_protocol_files_are_not_suspiciously_small</span><span class="p">():</span>
 </span><span id="L-189"><a href="#L-189"><span class="linenos">189</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Tiny protocol files should not increase without review.&quot;&quot;&quot;</span>
 </span><span id="L-190"><a href="#L-190"><span class="linenos">190</span></a>    <span class="n">df_small</span> <span class="o">=</span> <span class="n">errors_of_type</span><span class="p">(</span><span class="s2">&quot;small_file&quot;</span><span class="p">)</span>
 </span><span id="L-191"><a href="#L-191"><span class="linenos">191</span></a>    <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">df_small</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="n">MAX_SMALL_FILES</span><span class="p">,</span> <span class="p">(</span>
@@ -328,7 +328,7 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 </span><span id="L-195"><a href="#L-195"><span class="linenos">195</span></a>    <span class="p">)</span>
 </span><span id="L-196"><a href="#L-196"><span class="linenos">196</span></a>
 </span><span id="L-197"><a href="#L-197"><span class="linenos">197</span></a>
-</span><span id="L-198"><a href="#L-198"><span class="linenos">198</span></a><span class="k">def</span> <span class="nf">test_known_199192_body_stubs_are_reported</span><span class="p">():</span>
+</span><span id="L-198"><a href="#L-198"><span class="linenos">198</span></a><span class="k">def</span><span class="w"> </span><span class="nf">test_known_199192_body_stubs_are_reported</span><span class="p">():</span>
 </span><span id="L-199"><a href="#L-199"><span class="linenos">199</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Known issue-234 body stubs should be visible in diagnostics until fixed.&quot;&quot;&quot;</span>
 </span><span id="L-200"><a href="#L-200"><span class="linenos">200</span></a>    <span class="n">reported</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">errors_of_type</span><span class="p">(</span><span class="s2">&quot;missing_body&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">get_column</span><span class="p">(</span><span class="s2">&quot;file&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">to_list</span><span class="p">())</span>
 </span><span id="L-201"><a href="#L-201"><span class="linenos">201</span></a>    <span class="n">missing</span> <span class="o">=</span> <span class="p">[]</span>
@@ -345,7 +345,7 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 </span><span id="L-212"><a href="#L-212"><span class="linenos">212</span></a>    <span class="p">)</span>
 </span><span id="L-213"><a href="#L-213"><span class="linenos">213</span></a>
 </span><span id="L-214"><a href="#L-214"><span class="linenos">214</span></a>
-</span><span id="L-215"><a href="#L-215"><span class="linenos">215</span></a><span class="k">def</span> <span class="nf">load_tests</span><span class="p">(</span><span class="n">loader</span><span class="p">,</span> <span class="n">tests</span><span class="p">,</span> <span class="n">pattern</span><span class="p">):</span>
+</span><span id="L-215"><a href="#L-215"><span class="linenos">215</span></a><span class="k">def</span><span class="w"> </span><span class="nf">load_tests</span><span class="p">(</span><span class="n">loader</span><span class="p">,</span> <span class="n">tests</span><span class="p">,</span> <span class="n">pattern</span><span class="p">):</span>
 </span><span id="L-216"><a href="#L-216"><span class="linenos">216</span></a>    <span class="n">suite</span> <span class="o">=</span> <span class="n">unittest</span><span class="o">.</span><span class="n">TestSuite</span><span class="p">()</span>
 </span><span id="L-217"><a href="#L-217"><span class="linenos">217</span></a>    <span class="n">suite</span><span class="o">.</span><span class="n">addTest</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">FunctionTestCase</span><span class="p">(</span><span class="n">test_protocols_have_text_elements</span><span class="p">))</span>
 </span><span id="L-218"><a href="#L-218"><span class="linenos">218</span></a>    <span class="n">suite</span><span class="o">.</span><span class="n">addTest</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">FunctionTestCase</span><span class="p">(</span><span class="n">test_protocols_have_body_elements</span><span class="p">))</span>
@@ -482,7 +482,7 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 
     </div>
     <a class="headerlink" href="#empty_error_row"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="empty_error_row-53"><a href="#empty_error_row-53"><span class="linenos">53</span></a><span class="k">def</span> <span class="nf">empty_error_row</span><span class="p">():</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="empty_error_row-53"><a href="#empty_error_row-53"><span class="linenos">53</span></a><span class="k">def</span><span class="w"> </span><span class="nf">empty_error_row</span><span class="p">():</span>
 </span><span id="empty_error_row-54"><a href="#empty_error_row-54"><span class="linenos">54</span></a>    <span class="k">return</span> <span class="p">{</span><span class="n">column</span><span class="p">:</span> <span class="s2">&quot;&quot;</span> <span class="k">for</span> <span class="n">column</span> <span class="ow">in</span> <span class="n">DIAGNOSTIC_COLUMNS</span><span class="p">}</span>
 </span></pre></div>
 
@@ -501,7 +501,7 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 
     </div>
     <a class="headerlink" href="#body_error"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="body_error-57"><a href="#body_error-57"><span class="linenos">57</span></a><span class="k">def</span> <span class="nf">body_error</span><span class="p">(</span><span class="n">error_type</span><span class="p">,</span> <span class="n">file</span><span class="p">,</span> <span class="n">issue</span><span class="p">,</span> <span class="o">**</span><span class="n">fields</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="body_error-57"><a href="#body_error-57"><span class="linenos">57</span></a><span class="k">def</span><span class="w"> </span><span class="nf">body_error</span><span class="p">(</span><span class="n">error_type</span><span class="p">,</span> <span class="n">file</span><span class="p">,</span> <span class="n">issue</span><span class="p">,</span> <span class="o">**</span><span class="n">fields</span><span class="p">):</span>
 </span><span id="body_error-58"><a href="#body_error-58"><span class="linenos">58</span></a>    <span class="n">row</span> <span class="o">=</span> <span class="n">empty_error_row</span><span class="p">()</span>
 </span><span id="body_error-59"><a href="#body_error-59"><span class="linenos">59</span></a>    <span class="n">row</span><span class="o">.</span><span class="n">update</span><span class="p">(</span>
 </span><span id="body_error-60"><a href="#body_error-60"><span class="linenos">60</span></a>        <span class="p">{</span>
@@ -529,7 +529,7 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 
     </div>
     <a class="headerlink" href="#body_text_length"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="body_text_length-70"><a href="#body_text_length-70"><span class="linenos">70</span></a><span class="k">def</span> <span class="nf">body_text_length</span><span class="p">(</span><span class="n">body</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="body_text_length-70"><a href="#body_text_length-70"><span class="linenos">70</span></a><span class="k">def</span><span class="w"> </span><span class="nf">body_text_length</span><span class="p">(</span><span class="n">body</span><span class="p">):</span>
 </span><span id="body_text_length-71"><a href="#body_text_length-71"><span class="linenos">71</span></a>    <span class="k">if</span> <span class="n">body</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
 </span><span id="body_text_length-72"><a href="#body_text_length-72"><span class="linenos">72</span></a>        <span class="k">return</span> <span class="mi">0</span>
 </span><span id="body_text_length-73"><a href="#body_text_length-73"><span class="linenos">73</span></a>    <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">body</span><span class="o">.</span><span class="n">itertext</span><span class="p">())</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
@@ -550,7 +550,7 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 
     </div>
     <a class="headerlink" href="#body_child_count"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="body_child_count-76"><a href="#body_child_count-76"><span class="linenos">76</span></a><span class="k">def</span> <span class="nf">body_child_count</span><span class="p">(</span><span class="n">body</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="body_child_count-76"><a href="#body_child_count-76"><span class="linenos">76</span></a><span class="k">def</span><span class="w"> </span><span class="nf">body_child_count</span><span class="p">(</span><span class="n">body</span><span class="p">):</span>
 </span><span id="body_child_count-77"><a href="#body_child_count-77"><span class="linenos">77</span></a>    <span class="k">if</span> <span class="n">body</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
 </span><span id="body_child_count-78"><a href="#body_child_count-78"><span class="linenos">78</span></a>        <span class="k">return</span> <span class="mi">0</span>
 </span><span id="body_child_count-79"><a href="#body_child_count-79"><span class="linenos">79</span></a>    <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="n">body</span><span class="p">)</span>
@@ -571,7 +571,7 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 
     </div>
     <a class="headerlink" href="#collect_body_errors"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="collect_body_errors-82"><a href="#collect_body_errors-82"><span class="linenos"> 82</span></a><span class="k">def</span> <span class="nf">collect_body_errors</span><span class="p">():</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="collect_body_errors-82"><a href="#collect_body_errors-82"><span class="linenos"> 82</span></a><span class="k">def</span><span class="w"> </span><span class="nf">collect_body_errors</span><span class="p">():</span>
 </span><span id="collect_body_errors-83"><a href="#collect_body_errors-83"><span class="linenos"> 83</span></a>    <span class="n">errors</span> <span class="o">=</span> <span class="p">[]</span>
 </span><span id="collect_body_errors-84"><a href="#collect_body_errors-84"><span class="linenos"> 84</span></a>    <span class="n">protocols</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">corpus_iterator</span><span class="p">(</span><span class="s2">&quot;records&quot;</span><span class="p">,</span> <span class="n">corpus_root</span><span class="o">=</span><span class="s2">&quot;data&quot;</span><span class="p">))</span>
 </span><span id="collect_body_errors-85"><a href="#collect_body_errors-85"><span class="linenos"> 85</span></a>    <span class="n">LOGGER</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Checking protocol body integrity for </span><span class="si">%s</span><span class="s2"> protocols&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">protocols</span><span class="p">))</span>
@@ -648,7 +648,7 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 
     </div>
     <a class="headerlink" href="#body_errors"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="body_errors-144"><a href="#body_errors-144"><span class="linenos">144</span></a><span class="k">def</span> <span class="nf">body_errors</span><span class="p">():</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="body_errors-144"><a href="#body_errors-144"><span class="linenos">144</span></a><span class="k">def</span><span class="w"> </span><span class="nf">body_errors</span><span class="p">():</span>
 </span><span id="body_errors-145"><a href="#body_errors-145"><span class="linenos">145</span></a>    <span class="k">global</span> <span class="n">_BODY_ERRORS</span>
 </span><span id="body_errors-146"><a href="#body_errors-146"><span class="linenos">146</span></a>
 </span><span id="body_errors-147"><a href="#body_errors-147"><span class="linenos">147</span></a>    <span class="k">if</span> <span class="n">_BODY_ERRORS</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
@@ -677,7 +677,7 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 
     </div>
     <a class="headerlink" href="#errors_of_type"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="errors_of_type-158"><a href="#errors_of_type-158"><span class="linenos">158</span></a><span class="k">def</span> <span class="nf">errors_of_type</span><span class="p">(</span><span class="n">error_type</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="errors_of_type-158"><a href="#errors_of_type-158"><span class="linenos">158</span></a><span class="k">def</span><span class="w"> </span><span class="nf">errors_of_type</span><span class="p">(</span><span class="n">error_type</span><span class="p">):</span>
 </span><span id="errors_of_type-159"><a href="#errors_of_type-159"><span class="linenos">159</span></a>    <span class="k">return</span> <span class="n">body_errors</span><span class="p">()</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">pl</span><span class="o">.</span><span class="n">col</span><span class="p">(</span><span class="s2">&quot;error_type&quot;</span><span class="p">)</span> <span class="o">==</span> <span class="n">error_type</span><span class="p">)</span>
 </span></pre></div>
 
@@ -696,7 +696,7 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 
     </div>
     <a class="headerlink" href="#test_protocols_have_text_elements"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="test_protocols_have_text_elements-162"><a href="#test_protocols_have_text_elements-162"><span class="linenos">162</span></a><span class="k">def</span> <span class="nf">test_protocols_have_text_elements</span><span class="p">():</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="test_protocols_have_text_elements-162"><a href="#test_protocols_have_text_elements-162"><span class="linenos">162</span></a><span class="k">def</span><span class="w"> </span><span class="nf">test_protocols_have_text_elements</span><span class="p">():</span>
 </span><span id="test_protocols_have_text_elements-163"><a href="#test_protocols_have_text_elements-163"><span class="linenos">163</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Every yearly protocol should have a TEI text element.&quot;&quot;&quot;</span>
 </span><span id="test_protocols_have_text_elements-164"><a href="#test_protocols_have_text_elements-164"><span class="linenos">164</span></a>    <span class="n">df_missing_text</span> <span class="o">=</span> <span class="n">errors_of_type</span><span class="p">(</span><span class="s2">&quot;missing_text&quot;</span><span class="p">)</span>
 </span><span id="test_protocols_have_text_elements-165"><a href="#test_protocols_have_text_elements-165"><span class="linenos">165</span></a>    <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">df_missing_text</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="n">MAX_MISSING_TEXT</span><span class="p">,</span> <span class="p">(</span>
@@ -722,7 +722,7 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 
     </div>
     <a class="headerlink" href="#test_protocols_have_body_elements"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="test_protocols_have_body_elements-171"><a href="#test_protocols_have_body_elements-171"><span class="linenos">171</span></a><span class="k">def</span> <span class="nf">test_protocols_have_body_elements</span><span class="p">():</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="test_protocols_have_body_elements-171"><a href="#test_protocols_have_body_elements-171"><span class="linenos">171</span></a><span class="k">def</span><span class="w"> </span><span class="nf">test_protocols_have_body_elements</span><span class="p">():</span>
 </span><span id="test_protocols_have_body_elements-172"><a href="#test_protocols_have_body_elements-172"><span class="linenos">172</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Every yearly protocol should have a TEI body element.&quot;&quot;&quot;</span>
 </span><span id="test_protocols_have_body_elements-173"><a href="#test_protocols_have_body_elements-173"><span class="linenos">173</span></a>    <span class="n">df_missing_body</span> <span class="o">=</span> <span class="n">errors_of_type</span><span class="p">(</span><span class="s2">&quot;missing_body&quot;</span><span class="p">)</span>
 </span><span id="test_protocols_have_body_elements-174"><a href="#test_protocols_have_body_elements-174"><span class="linenos">174</span></a>    <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">df_missing_body</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="n">MAX_MISSING_BODY</span><span class="p">,</span> <span class="p">(</span>
@@ -748,7 +748,7 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 
     </div>
     <a class="headerlink" href="#test_protocol_bodies_are_not_empty"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="test_protocol_bodies_are_not_empty-180"><a href="#test_protocol_bodies_are_not_empty-180"><span class="linenos">180</span></a><span class="k">def</span> <span class="nf">test_protocol_bodies_are_not_empty</span><span class="p">():</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="test_protocol_bodies_are_not_empty-180"><a href="#test_protocol_bodies_are_not_empty-180"><span class="linenos">180</span></a><span class="k">def</span><span class="w"> </span><span class="nf">test_protocol_bodies_are_not_empty</span><span class="p">():</span>
 </span><span id="test_protocol_bodies_are_not_empty-181"><a href="#test_protocol_bodies_are_not_empty-181"><span class="linenos">181</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Protocol body elements should contain child elements or text.&quot;&quot;&quot;</span>
 </span><span id="test_protocol_bodies_are_not_empty-182"><a href="#test_protocol_bodies_are_not_empty-182"><span class="linenos">182</span></a>    <span class="n">df_empty_body</span> <span class="o">=</span> <span class="n">errors_of_type</span><span class="p">(</span><span class="s2">&quot;empty_body&quot;</span><span class="p">)</span>
 </span><span id="test_protocol_bodies_are_not_empty-183"><a href="#test_protocol_bodies_are_not_empty-183"><span class="linenos">183</span></a>    <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">df_empty_body</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="n">MAX_EMPTY_BODY</span><span class="p">,</span> <span class="p">(</span>
@@ -774,7 +774,7 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 
     </div>
     <a class="headerlink" href="#test_protocol_files_are_not_suspiciously_small"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="test_protocol_files_are_not_suspiciously_small-189"><a href="#test_protocol_files_are_not_suspiciously_small-189"><span class="linenos">189</span></a><span class="k">def</span> <span class="nf">test_protocol_files_are_not_suspiciously_small</span><span class="p">():</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="test_protocol_files_are_not_suspiciously_small-189"><a href="#test_protocol_files_are_not_suspiciously_small-189"><span class="linenos">189</span></a><span class="k">def</span><span class="w"> </span><span class="nf">test_protocol_files_are_not_suspiciously_small</span><span class="p">():</span>
 </span><span id="test_protocol_files_are_not_suspiciously_small-190"><a href="#test_protocol_files_are_not_suspiciously_small-190"><span class="linenos">190</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Tiny protocol files should not increase without review.&quot;&quot;&quot;</span>
 </span><span id="test_protocol_files_are_not_suspiciously_small-191"><a href="#test_protocol_files_are_not_suspiciously_small-191"><span class="linenos">191</span></a>    <span class="n">df_small</span> <span class="o">=</span> <span class="n">errors_of_type</span><span class="p">(</span><span class="s2">&quot;small_file&quot;</span><span class="p">)</span>
 </span><span id="test_protocol_files_are_not_suspiciously_small-192"><a href="#test_protocol_files_are_not_suspiciously_small-192"><span class="linenos">192</span></a>    <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">df_small</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="n">MAX_SMALL_FILES</span><span class="p">,</span> <span class="p">(</span>
@@ -801,7 +801,7 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 
     </div>
     <a class="headerlink" href="#test_known_199192_body_stubs_are_reported"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="test_known_199192_body_stubs_are_reported-199"><a href="#test_known_199192_body_stubs_are_reported-199"><span class="linenos">199</span></a><span class="k">def</span> <span class="nf">test_known_199192_body_stubs_are_reported</span><span class="p">():</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="test_known_199192_body_stubs_are_reported-199"><a href="#test_known_199192_body_stubs_are_reported-199"><span class="linenos">199</span></a><span class="k">def</span><span class="w"> </span><span class="nf">test_known_199192_body_stubs_are_reported</span><span class="p">():</span>
 </span><span id="test_known_199192_body_stubs_are_reported-200"><a href="#test_known_199192_body_stubs_are_reported-200"><span class="linenos">200</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Known issue-234 body stubs should be visible in diagnostics until fixed.&quot;&quot;&quot;</span>
 </span><span id="test_known_199192_body_stubs_are_reported-201"><a href="#test_known_199192_body_stubs_are_reported-201"><span class="linenos">201</span></a>    <span class="n">reported</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">errors_of_type</span><span class="p">(</span><span class="s2">&quot;missing_body&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">get_column</span><span class="p">(</span><span class="s2">&quot;file&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">to_list</span><span class="p">())</span>
 </span><span id="test_known_199192_body_stubs_are_reported-202"><a href="#test_known_199192_body_stubs_are_reported-202"><span class="linenos">202</span></a>    <span class="n">missing</span> <span class="o">=</span> <span class="p">[]</span>
@@ -835,7 +835,7 @@ often incomplete, but size alone is not treated as proof that a body is absent.<
 
     </div>
     <a class="headerlink" href="#load_tests"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="load_tests-216"><a href="#load_tests-216"><span class="linenos">216</span></a><span class="k">def</span> <span class="nf">load_tests</span><span class="p">(</span><span class="n">loader</span><span class="p">,</span> <span class="n">tests</span><span class="p">,</span> <span class="n">pattern</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="load_tests-216"><a href="#load_tests-216"><span class="linenos">216</span></a><span class="k">def</span><span class="w"> </span><span class="nf">load_tests</span><span class="p">(</span><span class="n">loader</span><span class="p">,</span> <span class="n">tests</span><span class="p">,</span> <span class="n">pattern</span><span class="p">):</span>
 </span><span id="load_tests-217"><a href="#load_tests-217"><span class="linenos">217</span></a>    <span class="n">suite</span> <span class="o">=</span> <span class="n">unittest</span><span class="o">.</span><span class="n">TestSuite</span><span class="p">()</span>
 </span><span id="load_tests-218"><a href="#load_tests-218"><span class="linenos">218</span></a>    <span class="n">suite</span><span class="o">.</span><span class="n">addTest</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">FunctionTestCase</span><span class="p">(</span><span class="n">test_protocols_have_text_elements</span><span class="p">))</span>
 </span><span id="load_tests-219"><a href="#load_tests-219"><span class="linenos">219</span></a>    <span class="n">suite</span><span class="o">.</span><span class="n">addTest</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">FunctionTestCase</span><span class="p">(</span><span class="n">test_protocols_have_body_elements</span><span class="p">))</span>

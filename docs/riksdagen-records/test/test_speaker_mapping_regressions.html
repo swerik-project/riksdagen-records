@@ -49,7 +49,7 @@
     </ul>
 
 
-            <footer>v1.6.1</footer>
+            <footer>v1.7.0</footer>
 
         <a class="attribution" title="pdoc: Python API documentation generator" href="https://pdoc.dev" target="_blank">
             built with <span class="visually-hidden">pdoc</span><img
@@ -68,19 +68,19 @@
 
                         <label class="view-source-button" for="mod-test_speaker_mapping_regressions-view-source"><span>View Source</span></label>
 
-                        <div class="pdoc-code codehilite"><pre><span></span><span id="L-1"><a href="#L-1"><span class="linenos"> 1</span></a><span class="kn">import</span> <span class="nn">unittest</span>
-</span><span id="L-2"><a href="#L-2"><span class="linenos"> 2</span></a><span class="kn">import</span> <span class="nn">xml.etree.ElementTree</span> <span class="k">as</span> <span class="nn">ET</span>
+                        <div class="pdoc-code codehilite"><pre><span></span><span id="L-1"><a href="#L-1"><span class="linenos"> 1</span></a><span class="kn">import</span><span class="w"> </span><span class="nn">unittest</span>
+</span><span id="L-2"><a href="#L-2"><span class="linenos"> 2</span></a><span class="kn">import</span><span class="w"> </span><span class="nn">xml.etree.ElementTree</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">ET</span>
 </span><span id="L-3"><a href="#L-3"><span class="linenos"> 3</span></a>
 </span><span id="L-4"><a href="#L-4"><span class="linenos"> 4</span></a>
 </span><span id="L-5"><a href="#L-5"><span class="linenos"> 5</span></a><span class="n">TEI_NS</span> <span class="o">=</span> <span class="s2">&quot;http://www.tei-c.org/ns/1.0&quot;</span>
 </span><span id="L-6"><a href="#L-6"><span class="linenos"> 6</span></a>
 </span><span id="L-7"><a href="#L-7"><span class="linenos"> 7</span></a>
-</span><span id="L-8"><a href="#L-8"><span class="linenos"> 8</span></a><span class="k">def</span> <span class="nf">tei_tag</span><span class="p">(</span><span class="n">local_name</span><span class="p">):</span>
+</span><span id="L-8"><a href="#L-8"><span class="linenos"> 8</span></a><span class="k">def</span><span class="w"> </span><span class="nf">tei_tag</span><span class="p">(</span><span class="n">local_name</span><span class="p">):</span>
 </span><span id="L-9"><a href="#L-9"><span class="linenos"> 9</span></a>    <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="se">{{</span><span class="si">{</span><span class="n">TEI_NS</span><span class="si">}</span><span class="se">}}</span><span class="si">{</span><span class="n">local_name</span><span class="si">}</span><span class="s2">&quot;</span>
 </span><span id="L-10"><a href="#L-10"><span class="linenos">10</span></a>
 </span><span id="L-11"><a href="#L-11"><span class="linenos">11</span></a>
-</span><span id="L-12"><a href="#L-12"><span class="linenos">12</span></a><span class="k">class</span> <span class="nc">SpeakerMappingRegressionTest</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
-</span><span id="L-13"><a href="#L-13"><span class="linenos">13</span></a>    <span class="k">def</span> <span class="nf">test_prime_minister_sandler_speeches_use_sandler_person_id</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span id="L-12"><a href="#L-12"><span class="linenos">12</span></a><span class="k">class</span><span class="w"> </span><span class="nc">SpeakerMappingRegressionTest</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
+</span><span id="L-13"><a href="#L-13"><span class="linenos">13</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_prime_minister_sandler_speeches_use_sandler_person_id</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="L-14"><a href="#L-14"><span class="linenos">14</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;Verify that Sandler&#39;s 1926 prime minister speeches map to Sandler.&quot;&quot;&quot;</span>
 </span><span id="L-15"><a href="#L-15"><span class="linenos">15</span></a>        <span class="n">sandler_id</span> <span class="o">=</span> <span class="s2">&quot;i-9iqLBgdAYEoR244dkazyYj&quot;</span>
 </span><span id="L-16"><a href="#L-16"><span class="linenos">16</span></a>        <span class="n">schlyter_id</span> <span class="o">=</span> <span class="s2">&quot;i-NdmzAJFCHr1sfnsvdVwR4y&quot;</span>
@@ -146,7 +146,7 @@
 
     </div>
     <a class="headerlink" href="#tei_tag"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="tei_tag-9"><a href="#tei_tag-9"><span class="linenos"> 9</span></a><span class="k">def</span> <span class="nf">tei_tag</span><span class="p">(</span><span class="n">local_name</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="tei_tag-9"><a href="#tei_tag-9"><span class="linenos"> 9</span></a><span class="k">def</span><span class="w"> </span><span class="nf">tei_tag</span><span class="p">(</span><span class="n">local_name</span><span class="p">):</span>
 </span><span id="tei_tag-10"><a href="#tei_tag-10"><span class="linenos">10</span></a>    <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="se">{{</span><span class="si">{</span><span class="n">TEI_NS</span><span class="si">}</span><span class="se">}}</span><span class="si">{</span><span class="n">local_name</span><span class="si">}</span><span class="s2">&quot;</span>
 </span></pre></div>
 
@@ -165,8 +165,8 @@
 
     </div>
     <a class="headerlink" href="#SpeakerMappingRegressionTest"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="SpeakerMappingRegressionTest-13"><a href="#SpeakerMappingRegressionTest-13"><span class="linenos">13</span></a><span class="k">class</span> <span class="nc">SpeakerMappingRegressionTest</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
-</span><span id="SpeakerMappingRegressionTest-14"><a href="#SpeakerMappingRegressionTest-14"><span class="linenos">14</span></a>    <span class="k">def</span> <span class="nf">test_prime_minister_sandler_speeches_use_sandler_person_id</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="SpeakerMappingRegressionTest-13"><a href="#SpeakerMappingRegressionTest-13"><span class="linenos">13</span></a><span class="k">class</span><span class="w"> </span><span class="nc">SpeakerMappingRegressionTest</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
+</span><span id="SpeakerMappingRegressionTest-14"><a href="#SpeakerMappingRegressionTest-14"><span class="linenos">14</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_prime_minister_sandler_speeches_use_sandler_person_id</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="SpeakerMappingRegressionTest-15"><a href="#SpeakerMappingRegressionTest-15"><span class="linenos">15</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;Verify that Sandler&#39;s 1926 prime minister speeches map to Sandler.&quot;&quot;&quot;</span>
 </span><span id="SpeakerMappingRegressionTest-16"><a href="#SpeakerMappingRegressionTest-16"><span class="linenos">16</span></a>        <span class="n">sandler_id</span> <span class="o">=</span> <span class="s2">&quot;i-9iqLBgdAYEoR244dkazyYj&quot;</span>
 </span><span id="SpeakerMappingRegressionTest-17"><a href="#SpeakerMappingRegressionTest-17"><span class="linenos">17</span></a>        <span class="n">schlyter_id</span> <span class="o">=</span> <span class="s2">&quot;i-NdmzAJFCHr1sfnsvdVwR4y&quot;</span>
@@ -251,7 +251,7 @@ attribute so can be configured by individual tests if required.</li>
 
     </div>
     <a class="headerlink" href="#SpeakerMappingRegressionTest.test_prime_minister_sandler_speeches_use_sandler_person_id"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="SpeakerMappingRegressionTest.test_prime_minister_sandler_speeches_use_sandler_person_id-14"><a href="#SpeakerMappingRegressionTest.test_prime_minister_sandler_speeches_use_sandler_person_id-14"><span class="linenos">14</span></a>    <span class="k">def</span> <span class="nf">test_prime_minister_sandler_speeches_use_sandler_person_id</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="SpeakerMappingRegressionTest.test_prime_minister_sandler_speeches_use_sandler_person_id-14"><a href="#SpeakerMappingRegressionTest.test_prime_minister_sandler_speeches_use_sandler_person_id-14"><span class="linenos">14</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_prime_minister_sandler_speeches_use_sandler_person_id</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="SpeakerMappingRegressionTest.test_prime_minister_sandler_speeches_use_sandler_person_id-15"><a href="#SpeakerMappingRegressionTest.test_prime_minister_sandler_speeches_use_sandler_person_id-15"><span class="linenos">15</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;Verify that Sandler&#39;s 1926 prime minister speeches map to Sandler.&quot;&quot;&quot;</span>
 </span><span id="SpeakerMappingRegressionTest.test_prime_minister_sandler_speeches_use_sandler_person_id-16"><a href="#SpeakerMappingRegressionTest.test_prime_minister_sandler_speeches_use_sandler_person_id-16"><span class="linenos">16</span></a>        <span class="n">sandler_id</span> <span class="o">=</span> <span class="s2">&quot;i-9iqLBgdAYEoR244dkazyYj&quot;</span>
 </span><span id="SpeakerMappingRegressionTest.test_prime_minister_sandler_speeches_use_sandler_person_id-17"><a href="#SpeakerMappingRegressionTest.test_prime_minister_sandler_speeches_use_sandler_person_id-17"><span class="linenos">17</span></a>        <span class="n">schlyter_id</span> <span class="o">=</span> <span class="s2">&quot;i-NdmzAJFCHr1sfnsvdVwR4y&quot;</span>

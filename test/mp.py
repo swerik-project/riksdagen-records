@@ -172,7 +172,8 @@ class Test(unittest.TestCase):
 
         folder = "data"
         *_, mp_db, minister_db, speaker_db = load_metadata()
-
+        mp_db, minister_db, speaker_db = mp_db.to_pandas(), minister_db.to_pandas(), speaker_db.to_pandas()
+        
         mp_db = pd.concat([mp_db, minister_db, speaker_db])
         mp_db = append_raw_open_ended_intervals(mp_db)
         mp_db["start"] = mp_db["start"].map(parse_date_start)
