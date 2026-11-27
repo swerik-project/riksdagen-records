@@ -88,7 +88,7 @@
     </ul>
 
 
-            <footer>v1.6.1</footer>
+            <footer>v1.7.0</footer>
 
         <a class="attribution" title="pdoc: Python API documentation generator" href="https://pdoc.dev" target="_blank">
             built with <span class="visually-hidden">pdoc</span><img
@@ -127,25 +127,25 @@ expert title has a close normalized XML match.</p>
 </span><span id="L-9"><a href="#L-9"><span class="linenos">  9</span></a><span class="sd">when the number of expert and XML titles is the same and every normalized</span>
 </span><span id="L-10"><a href="#L-10"><span class="linenos"> 10</span></a><span class="sd">expert title has a close normalized XML match.</span>
 </span><span id="L-11"><a href="#L-11"><span class="linenos"> 11</span></a><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="L-12"><a href="#L-12"><span class="linenos"> 12</span></a><span class="kn">import</span> <span class="nn">argparse</span>
-</span><span id="L-13"><a href="#L-13"><span class="linenos"> 13</span></a><span class="kn">import</span> <span class="nn">os</span>
-</span><span id="L-14"><a href="#L-14"><span class="linenos"> 14</span></a><span class="kn">import</span> <span class="nn">re</span>
-</span><span id="L-15"><a href="#L-15"><span class="linenos"> 15</span></a><span class="kn">import</span> <span class="nn">sys</span>
-</span><span id="L-16"><a href="#L-16"><span class="linenos"> 16</span></a><span class="kn">import</span> <span class="nn">unicodedata</span>
-</span><span id="L-17"><a href="#L-17"><span class="linenos"> 17</span></a><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span>
+</span><span id="L-12"><a href="#L-12"><span class="linenos"> 12</span></a><span class="kn">import</span><span class="w"> </span><span class="nn">argparse</span>
+</span><span id="L-13"><a href="#L-13"><span class="linenos"> 13</span></a><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+</span><span id="L-14"><a href="#L-14"><span class="linenos"> 14</span></a><span class="kn">import</span><span class="w"> </span><span class="nn">re</span>
+</span><span id="L-15"><a href="#L-15"><span class="linenos"> 15</span></a><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+</span><span id="L-16"><a href="#L-16"><span class="linenos"> 16</span></a><span class="kn">import</span><span class="w"> </span><span class="nn">unicodedata</span>
+</span><span id="L-17"><a href="#L-17"><span class="linenos"> 17</span></a><span class="kn">from</span><span class="w"> </span><span class="nn">collections</span><span class="w"> </span><span class="kn">import</span> <span class="n">defaultdict</span>
 </span><span id="L-18"><a href="#L-18"><span class="linenos"> 18</span></a>
-</span><span id="L-19"><a href="#L-19"><span class="linenos"> 19</span></a><span class="kn">import</span> <span class="nn">editdistance</span>
-</span><span id="L-20"><a href="#L-20"><span class="linenos"> 20</span></a><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-</span><span id="L-21"><a href="#L-21"><span class="linenos"> 21</span></a><span class="kn">import</span> <span class="nn">polars</span> <span class="k">as</span> <span class="nn">pl</span>
-</span><span id="L-22"><a href="#L-22"><span class="linenos"> 22</span></a><span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">beta</span>
+</span><span id="L-19"><a href="#L-19"><span class="linenos"> 19</span></a><span class="kn">import</span><span class="w"> </span><span class="nn">editdistance</span>
+</span><span id="L-20"><a href="#L-20"><span class="linenos"> 20</span></a><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+</span><span id="L-21"><a href="#L-21"><span class="linenos"> 21</span></a><span class="kn">import</span><span class="w"> </span><span class="nn">polars</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pl</span>
+</span><span id="L-22"><a href="#L-22"><span class="linenos"> 22</span></a><span class="kn">from</span><span class="w"> </span><span class="nn">scipy.stats</span><span class="w"> </span><span class="kn">import</span> <span class="n">beta</span>
 </span><span id="L-23"><a href="#L-23"><span class="linenos"> 23</span></a>
 </span><span id="L-24"><a href="#L-24"><span class="linenos"> 24</span></a><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s2">&quot;MPLBACKEND&quot;</span><span class="p">,</span> <span class="s2">&quot;Agg&quot;</span><span class="p">)</span>
 </span><span id="L-25"><a href="#L-25"><span class="linenos"> 25</span></a><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s2">&quot;MPLCONFIGDIR&quot;</span><span class="p">,</span> <span class="s2">&quot;/tmp/riksdagen-records-mpl&quot;</span><span class="p">)</span>
 </span><span id="L-26"><a href="#L-26"><span class="linenos"> 26</span></a><span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)))</span>
-</span><span id="L-27"><a href="#L-27"><span class="linenos"> 27</span></a><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-</span><span id="L-28"><a href="#L-28"><span class="linenos"> 28</span></a><span class="kn">from</span> <span class="nn">pyriksdagen.io</span> <span class="kn">import</span> <span class="n">parse_tei</span>
-</span><span id="L-29"><a href="#L-29"><span class="linenos"> 29</span></a><span class="kn">from</span> <span class="nn">pyriksdagen.utils</span> <span class="kn">import</span> <span class="n">infer_metadata</span><span class="p">,</span> <span class="n">pathize_protocol_id</span>
-</span><span id="L-30"><a href="#L-30"><span class="linenos"> 30</span></a><span class="kn">from</span> <span class="nn">qe</span> <span class="kn">import</span> <span class="n">QualityEstimator</span><span class="p">,</span> <span class="n">version_number_is_valid</span>
+</span><span id="L-27"><a href="#L-27"><span class="linenos"> 27</span></a><span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
+</span><span id="L-28"><a href="#L-28"><span class="linenos"> 28</span></a><span class="kn">from</span><span class="w"> </span><span class="nn">pyriksdagen.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">parse_tei</span>
+</span><span id="L-29"><a href="#L-29"><span class="linenos"> 29</span></a><span class="kn">from</span><span class="w"> </span><span class="nn">pyriksdagen.utils</span><span class="w"> </span><span class="kn">import</span> <span class="n">infer_metadata</span><span class="p">,</span> <span class="n">pathize_protocol_id</span>
+</span><span id="L-30"><a href="#L-30"><span class="linenos"> 30</span></a><span class="kn">from</span><span class="w"> </span><span class="nn">qe</span><span class="w"> </span><span class="kn">import</span> <span class="n">QualityEstimator</span><span class="p">,</span> <span class="n">version_number_is_valid</span>
 </span><span id="L-31"><a href="#L-31"><span class="linenos"> 31</span></a>
 </span><span id="L-32"><a href="#L-32"><span class="linenos"> 32</span></a>
 </span><span id="L-33"><a href="#L-33"><span class="linenos"> 33</span></a><span class="n">XML_ID</span> <span class="o">=</span> <span class="s2">&quot;{http://www.w3.org/XML/1998/namespace}id&quot;</span>
@@ -153,16 +153,16 @@ expert title has a close normalized XML match.</p>
 </span><span id="L-35"><a href="#L-35"><span class="linenos"> 35</span></a><span class="n">NO_HEADER_VALUES</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;no header&quot;</span><span class="p">,</span> <span class="s2">&quot;[no header]&quot;</span><span class="p">,</span> <span class="s2">&quot;no headers&quot;</span><span class="p">}</span>
 </span><span id="L-36"><a href="#L-36"><span class="linenos"> 36</span></a>
 </span><span id="L-37"><a href="#L-37"><span class="linenos"> 37</span></a>
-</span><span id="L-38"><a href="#L-38"><span class="linenos"> 38</span></a><span class="k">def</span> <span class="nf">normalize_space</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+</span><span id="L-38"><a href="#L-38"><span class="linenos"> 38</span></a><span class="k">def</span><span class="w"> </span><span class="nf">normalize_space</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
 </span><span id="L-39"><a href="#L-39"><span class="linenos"> 39</span></a>    <span class="k">return</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">text</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
 </span><span id="L-40"><a href="#L-40"><span class="linenos"> 40</span></a>
 </span><span id="L-41"><a href="#L-41"><span class="linenos"> 41</span></a>
-</span><span id="L-42"><a href="#L-42"><span class="linenos"> 42</span></a><span class="k">def</span> <span class="nf">normalize_title</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+</span><span id="L-42"><a href="#L-42"><span class="linenos"> 42</span></a><span class="k">def</span><span class="w"> </span><span class="nf">normalize_title</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
 </span><span id="L-43"><a href="#L-43"><span class="linenos"> 43</span></a>    <span class="n">text</span> <span class="o">=</span> <span class="n">unicodedata</span><span class="o">.</span><span class="n">normalize</span><span class="p">(</span><span class="s2">&quot;NFKC&quot;</span><span class="p">,</span> <span class="n">normalize_space</span><span class="p">(</span><span class="n">text</span><span class="p">))</span><span class="o">.</span><span class="n">casefold</span><span class="p">()</span>
 </span><span id="L-44"><a href="#L-44"><span class="linenos"> 44</span></a>    <span class="k">return</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;[\s.;:,-]+$&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
 </span><span id="L-45"><a href="#L-45"><span class="linenos"> 45</span></a>
 </span><span id="L-46"><a href="#L-46"><span class="linenos"> 46</span></a>
-</span><span id="L-47"><a href="#L-47"><span class="linenos"> 47</span></a><span class="k">def</span> <span class="nf">titles_match</span><span class="p">(</span><span class="n">expert_title</span><span class="p">,</span> <span class="n">xml_title</span><span class="p">,</span> <span class="n">max_edit_share</span><span class="o">=</span><span class="mf">0.05</span><span class="p">):</span>
+</span><span id="L-47"><a href="#L-47"><span class="linenos"> 47</span></a><span class="k">def</span><span class="w"> </span><span class="nf">titles_match</span><span class="p">(</span><span class="n">expert_title</span><span class="p">,</span> <span class="n">xml_title</span><span class="p">,</span> <span class="n">max_edit_share</span><span class="o">=</span><span class="mf">0.05</span><span class="p">):</span>
 </span><span id="L-48"><a href="#L-48"><span class="linenos"> 48</span></a>    <span class="n">expert_norm</span> <span class="o">=</span> <span class="n">normalize_title</span><span class="p">(</span><span class="n">expert_title</span><span class="p">)</span>
 </span><span id="L-49"><a href="#L-49"><span class="linenos"> 49</span></a>    <span class="n">xml_norm</span> <span class="o">=</span> <span class="n">normalize_title</span><span class="p">(</span><span class="n">xml_title</span><span class="p">)</span>
 </span><span id="L-50"><a href="#L-50"><span class="linenos"> 50</span></a>    <span class="k">if</span> <span class="ow">not</span> <span class="n">expert_norm</span> <span class="ow">or</span> <span class="ow">not</span> <span class="n">xml_norm</span><span class="p">:</span>
@@ -172,7 +172,7 @@ expert title has a close normalized XML match.</p>
 </span><span id="L-54"><a href="#L-54"><span class="linenos"> 54</span></a>    <span class="k">return</span> <span class="n">distance</span> <span class="o">&lt;=</span> <span class="n">allowed_edits</span>
 </span><span id="L-55"><a href="#L-55"><span class="linenos"> 55</span></a>
 </span><span id="L-56"><a href="#L-56"><span class="linenos"> 56</span></a>
-</span><span id="L-57"><a href="#L-57"><span class="linenos"> 57</span></a><span class="k">def</span> <span class="nf">title_lists_match</span><span class="p">(</span><span class="n">expert_titles</span><span class="p">,</span> <span class="n">xml_titles</span><span class="p">,</span> <span class="n">max_edit_share</span><span class="o">=</span><span class="mf">0.05</span><span class="p">):</span>
+</span><span id="L-57"><a href="#L-57"><span class="linenos"> 57</span></a><span class="k">def</span><span class="w"> </span><span class="nf">title_lists_match</span><span class="p">(</span><span class="n">expert_titles</span><span class="p">,</span> <span class="n">xml_titles</span><span class="p">,</span> <span class="n">max_edit_share</span><span class="o">=</span><span class="mf">0.05</span><span class="p">):</span>
 </span><span id="L-58"><a href="#L-58"><span class="linenos"> 58</span></a>    <span class="n">expert_list</span> <span class="o">=</span> <span class="n">split_titles</span><span class="p">(</span><span class="n">expert_titles</span><span class="p">)</span>
 </span><span id="L-59"><a href="#L-59"><span class="linenos"> 59</span></a>    <span class="n">xml_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">item</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">xml_titles</span><span class="p">]</span>
 </span><span id="L-60"><a href="#L-60"><span class="linenos"> 60</span></a>    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">expert_list</span><span class="p">)</span> <span class="o">!=</span> <span class="nb">len</span><span class="p">(</span><span class="n">xml_list</span><span class="p">):</span>
@@ -189,7 +189,7 @@ expert title has a close normalized XML match.</p>
 </span><span id="L-71"><a href="#L-71"><span class="linenos"> 71</span></a>    <span class="k">return</span> <span class="kc">True</span>
 </span><span id="L-72"><a href="#L-72"><span class="linenos"> 72</span></a>
 </span><span id="L-73"><a href="#L-73"><span class="linenos"> 73</span></a>
-</span><span id="L-74"><a href="#L-74"><span class="linenos"> 74</span></a><span class="k">def</span> <span class="nf">split_titles</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+</span><span id="L-74"><a href="#L-74"><span class="linenos"> 74</span></a><span class="k">def</span><span class="w"> </span><span class="nf">split_titles</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
 </span><span id="L-75"><a href="#L-75"><span class="linenos"> 75</span></a>    <span class="k">return</span> <span class="p">[</span>
 </span><span id="L-76"><a href="#L-76"><span class="linenos"> 76</span></a>        <span class="n">normalize_space</span><span class="p">(</span><span class="n">part</span><span class="p">)</span>
 </span><span id="L-77"><a href="#L-77"><span class="linenos"> 77</span></a>        <span class="k">for</span> <span class="n">part</span> <span class="ow">in</span> <span class="nb">str</span><span class="p">(</span><span class="n">text</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;;&quot;</span><span class="p">)</span>
@@ -197,7 +197,7 @@ expert title has a close normalized XML match.</p>
 </span><span id="L-79"><a href="#L-79"><span class="linenos"> 79</span></a>    <span class="p">]</span>
 </span><span id="L-80"><a href="#L-80"><span class="linenos"> 80</span></a>
 </span><span id="L-81"><a href="#L-81"><span class="linenos"> 81</span></a>
-</span><span id="L-82"><a href="#L-82"><span class="linenos"> 82</span></a><span class="k">def</span> <span class="nf">page_number_from_link</span><span class="p">(</span><span class="n">link</span><span class="p">):</span>
+</span><span id="L-82"><a href="#L-82"><span class="linenos"> 82</span></a><span class="k">def</span><span class="w"> </span><span class="nf">page_number_from_link</span><span class="p">(</span><span class="n">link</span><span class="p">):</span>
 </span><span id="L-83"><a href="#L-83"><span class="linenos"> 83</span></a>    <span class="n">patterns</span> <span class="o">=</span> <span class="p">[</span>
 </span><span id="L-84"><a href="#L-84"><span class="linenos"> 84</span></a>        <span class="sa">r</span><span class="s2">&quot;[#?&amp;]page=(\d+)&quot;</span><span class="p">,</span>
 </span><span id="L-85"><a href="#L-85"><span class="linenos"> 85</span></a>        <span class="sa">r</span><span class="s2">&quot;_(\d+)(?:\D*)$&quot;</span><span class="p">,</span>
@@ -210,7 +210,7 @@ expert title has a close normalized XML match.</p>
 </span><span id="L-92"><a href="#L-92"><span class="linenos"> 92</span></a>    <span class="k">return</span> <span class="kc">None</span>
 </span><span id="L-93"><a href="#L-93"><span class="linenos"> 93</span></a>
 </span><span id="L-94"><a href="#L-94"><span class="linenos"> 94</span></a>
-</span><span id="L-95"><a href="#L-95"><span class="linenos"> 95</span></a><span class="k">def</span> <span class="nf">next_logical_page</span><span class="p">(</span><span class="n">current_page_number</span><span class="p">,</span> <span class="n">observed_page_number</span><span class="p">):</span>
+</span><span id="L-95"><a href="#L-95"><span class="linenos"> 95</span></a><span class="k">def</span><span class="w"> </span><span class="nf">next_logical_page</span><span class="p">(</span><span class="n">current_page_number</span><span class="p">,</span> <span class="n">observed_page_number</span><span class="p">):</span>
 </span><span id="L-96"><a href="#L-96"><span class="linenos"> 96</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Track page order while ignoring implausible repeated OCR page links.&quot;&quot;&quot;</span>
 </span><span id="L-97"><a href="#L-97"><span class="linenos"> 97</span></a>    <span class="k">if</span> <span class="n">observed_page_number</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
 </span><span id="L-98"><a href="#L-98"><span class="linenos"> 98</span></a>        <span class="k">return</span> <span class="n">current_page_number</span>
@@ -221,7 +221,7 @@ expert title has a close normalized XML match.</p>
 </span><span id="L-103"><a href="#L-103"><span class="linenos">103</span></a>    <span class="k">return</span> <span class="n">current_page_number</span>
 </span><span id="L-104"><a href="#L-104"><span class="linenos">104</span></a>
 </span><span id="L-105"><a href="#L-105"><span class="linenos">105</span></a>
-</span><span id="L-106"><a href="#L-106"><span class="linenos">106</span></a><span class="k">def</span> <span class="nf">title_page_index</span><span class="p">(</span><span class="n">protocol_path</span><span class="p">):</span>
+</span><span id="L-106"><a href="#L-106"><span class="linenos">106</span></a><span class="k">def</span><span class="w"> </span><span class="nf">title_page_index</span><span class="p">(</span><span class="n">protocol_path</span><span class="p">):</span>
 </span><span id="L-107"><a href="#L-107"><span class="linenos">107</span></a>    <span class="n">root</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">parse_tei</span><span class="p">(</span><span class="n">protocol_path</span><span class="p">)</span>
 </span><span id="L-108"><a href="#L-108"><span class="linenos">108</span></a>    <span class="n">body</span> <span class="o">=</span> <span class="n">root</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;.//</span><span class="si">{</span><span class="n">TEI_NS</span><span class="si">}</span><span class="s2">body&quot;</span><span class="p">)</span>
 </span><span id="L-109"><a href="#L-109"><span class="linenos">109</span></a>    <span class="n">by_exact</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
@@ -265,7 +265,7 @@ expert title has a close normalized XML match.</p>
 </span><span id="L-147"><a href="#L-147"><span class="linenos">147</span></a>    <span class="k">return</span> <span class="n">by_exact</span><span class="p">,</span> <span class="n">by_page_number</span><span class="p">,</span> <span class="n">by_logical_page_number</span>
 </span><span id="L-148"><a href="#L-148"><span class="linenos">148</span></a>
 </span><span id="L-149"><a href="#L-149"><span class="linenos">149</span></a>
-</span><span id="L-150"><a href="#L-150"><span class="linenos">150</span></a><span class="k">def</span> <span class="nf">page_titles</span><span class="p">(</span><span class="n">sample_link</span><span class="p">,</span> <span class="n">by_exact</span><span class="p">,</span> <span class="n">by_page_number</span><span class="p">,</span> <span class="n">by_logical_page_number</span><span class="p">):</span>
+</span><span id="L-150"><a href="#L-150"><span class="linenos">150</span></a><span class="k">def</span><span class="w"> </span><span class="nf">page_titles</span><span class="p">(</span><span class="n">sample_link</span><span class="p">,</span> <span class="n">by_exact</span><span class="p">,</span> <span class="n">by_page_number</span><span class="p">,</span> <span class="n">by_logical_page_number</span><span class="p">):</span>
 </span><span id="L-151"><a href="#L-151"><span class="linenos">151</span></a>    <span class="k">if</span> <span class="n">sample_link</span> <span class="ow">in</span> <span class="n">by_exact</span><span class="p">:</span>
 </span><span id="L-152"><a href="#L-152"><span class="linenos">152</span></a>        <span class="k">return</span> <span class="n">by_exact</span><span class="p">[</span><span class="n">sample_link</span><span class="p">]</span>
 </span><span id="L-153"><a href="#L-153"><span class="linenos">153</span></a>    <span class="n">page_number</span> <span class="o">=</span> <span class="n">page_number_from_link</span><span class="p">(</span><span class="n">sample_link</span><span class="p">)</span>
@@ -274,7 +274,7 @@ expert title has a close normalized XML match.</p>
 </span><span id="L-156"><a href="#L-156"><span class="linenos">156</span></a>    <span class="k">return</span> <span class="n">by_page_number</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">page_number</span><span class="p">,</span> <span class="p">[])</span> <span class="ow">or</span> <span class="n">by_logical_page_number</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">page_number</span><span class="p">,</span> <span class="p">[])</span>
 </span><span id="L-157"><a href="#L-157"><span class="linenos">157</span></a>
 </span><span id="L-158"><a href="#L-158"><span class="linenos">158</span></a>
-</span><span id="L-159"><a href="#L-159"><span class="linenos">159</span></a><span class="k">def</span> <span class="nf">classify_row</span><span class="p">(</span><span class="n">expert_titles</span><span class="p">,</span> <span class="n">xml_titles</span><span class="p">):</span>
+</span><span id="L-159"><a href="#L-159"><span class="linenos">159</span></a><span class="k">def</span><span class="w"> </span><span class="nf">classify_row</span><span class="p">(</span><span class="n">expert_titles</span><span class="p">,</span> <span class="n">xml_titles</span><span class="p">):</span>
 </span><span id="L-160"><a href="#L-160"><span class="linenos">160</span></a>    <span class="n">expert_value</span> <span class="o">=</span> <span class="n">normalize_space</span><span class="p">(</span><span class="n">expert_titles</span><span class="p">)</span>
 </span><span id="L-161"><a href="#L-161"><span class="linenos">161</span></a>    <span class="k">if</span> <span class="ow">not</span> <span class="n">expert_value</span><span class="p">:</span>
 </span><span id="L-162"><a href="#L-162"><span class="linenos">162</span></a>        <span class="k">return</span> <span class="s2">&quot;missing_annotation&quot;</span><span class="p">,</span> <span class="kc">None</span>
@@ -294,7 +294,7 @@ expert title has a close normalized XML match.</p>
 </span><span id="L-176"><a href="#L-176"><span class="linenos">176</span></a>    <span class="k">return</span> <span class="s2">&quot;true_positive_text_mismatch&quot;</span><span class="p">,</span> <span class="kc">False</span>
 </span><span id="L-177"><a href="#L-177"><span class="linenos">177</span></a>
 </span><span id="L-178"><a href="#L-178"><span class="linenos">178</span></a>
-</span><span id="L-179"><a href="#L-179"><span class="linenos">179</span></a><span class="k">def</span> <span class="nf">accuracy</span><span class="p">(</span><span class="n">protocol_path</span><span class="p">,</span> <span class="n">gold_standard</span><span class="p">):</span>
+</span><span id="L-179"><a href="#L-179"><span class="linenos">179</span></a><span class="k">def</span><span class="w"> </span><span class="nf">accuracy</span><span class="p">(</span><span class="n">protocol_path</span><span class="p">,</span> <span class="n">gold_standard</span><span class="p">):</span>
 </span><span id="L-180"><a href="#L-180"><span class="linenos">180</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="L-181"><a href="#L-181"><span class="linenos">181</span></a><span class="sd">    Count page-level debate-title correctness matches for one protocol.</span>
 </span><span id="L-182"><a href="#L-182"><span class="linenos">182</span></a>
@@ -321,7 +321,7 @@ expert title has a close normalized XML match.</p>
 </span><span id="L-203"><a href="#L-203"><span class="linenos">203</span></a>    <span class="k">return</span> <span class="n">year_code</span><span class="p">,</span> <span class="n">correct</span><span class="p">,</span> <span class="n">incorrect</span>
 </span><span id="L-204"><a href="#L-204"><span class="linenos">204</span></a>
 </span><span id="L-205"><a href="#L-205"><span class="linenos">205</span></a>
-</span><span id="L-206"><a href="#L-206"><span class="linenos">206</span></a><span class="k">def</span> <span class="nf">update_decade_difference</span><span class="p">(</span><span class="n">decade_df</span><span class="p">,</span> <span class="n">estimate_path</span><span class="p">,</span> <span class="n">version</span><span class="p">):</span>
+</span><span id="L-206"><a href="#L-206"><span class="linenos">206</span></a><span class="k">def</span><span class="w"> </span><span class="nf">update_decade_difference</span><span class="p">(</span><span class="n">decade_df</span><span class="p">,</span> <span class="n">estimate_path</span><span class="p">,</span> <span class="n">version</span><span class="p">):</span>
 </span><span id="L-207"><a href="#L-207"><span class="linenos">207</span></a>    <span class="n">diff_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">estimate_path</span><span class="p">,</span> <span class="s2">&quot;decade_difference.csv&quot;</span><span class="p">)</span>
 </span><span id="L-208"><a href="#L-208"><span class="linenos">208</span></a>    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">diff_path</span><span class="p">):</span>
 </span><span id="L-209"><a href="#L-209"><span class="linenos">209</span></a>        <span class="n">existing</span> <span class="o">=</span> <span class="n">pl</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">diff_path</span><span class="p">)</span>
@@ -339,7 +339,7 @@ expert title has a close normalized XML match.</p>
 </span><span id="L-221"><a href="#L-221"><span class="linenos">221</span></a>    <span class="n">combined</span><span class="o">.</span><span class="n">write_csv</span><span class="p">(</span><span class="n">diff_path</span><span class="p">)</span>
 </span><span id="L-222"><a href="#L-222"><span class="linenos">222</span></a>
 </span><span id="L-223"><a href="#L-223"><span class="linenos">223</span></a>
-</span><span id="L-224"><a href="#L-224"><span class="linenos">224</span></a><span class="k">def</span> <span class="nf">write_decade_estimates</span><span class="p">(</span><span class="n">estimate_path</span><span class="p">,</span> <span class="n">version</span><span class="p">):</span>
+</span><span id="L-224"><a href="#L-224"><span class="linenos">224</span></a><span class="k">def</span><span class="w"> </span><span class="nf">write_decade_estimates</span><span class="p">(</span><span class="n">estimate_path</span><span class="p">,</span> <span class="n">version</span><span class="p">):</span>
 </span><span id="L-225"><a href="#L-225"><span class="linenos">225</span></a>    <span class="n">by_year</span> <span class="o">=</span> <span class="n">pl</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">estimate_path</span><span class="p">,</span> <span class="s2">&quot;upper_bound.csv&quot;</span><span class="p">))</span>
 </span><span id="L-226"><a href="#L-226"><span class="linenos">226</span></a>    <span class="n">decade_df</span> <span class="o">=</span> <span class="p">(</span>
 </span><span id="L-227"><a href="#L-227"><span class="linenos">227</span></a>        <span class="n">by_year</span>
@@ -372,7 +372,7 @@ expert title has a close normalized XML match.</p>
 </span><span id="L-254"><a href="#L-254"><span class="linenos">254</span></a>    <span class="n">update_decade_difference</span><span class="p">(</span><span class="n">decade_df</span><span class="p">,</span> <span class="n">estimate_path</span><span class="p">,</span> <span class="n">version</span><span class="p">)</span>
 </span><span id="L-255"><a href="#L-255"><span class="linenos">255</span></a>
 </span><span id="L-256"><a href="#L-256"><span class="linenos">256</span></a>
-</span><span id="L-257"><a href="#L-257"><span class="linenos">257</span></a><span class="k">def</span> <span class="nf">plot_decade_versions</span><span class="p">(</span><span class="n">estimate_path</span><span class="p">,</span> <span class="n">show</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">n_versions</span><span class="o">=</span><span class="mi">6</span><span class="p">):</span>
+</span><span id="L-257"><a href="#L-257"><span class="linenos">257</span></a><span class="k">def</span><span class="w"> </span><span class="nf">plot_decade_versions</span><span class="p">(</span><span class="n">estimate_path</span><span class="p">,</span> <span class="n">show</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">n_versions</span><span class="o">=</span><span class="mi">6</span><span class="p">):</span>
 </span><span id="L-258"><a href="#L-258"><span class="linenos">258</span></a>    <span class="n">diff_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">estimate_path</span><span class="p">,</span> <span class="s2">&quot;decade_difference.csv&quot;</span><span class="p">)</span>
 </span><span id="L-259"><a href="#L-259"><span class="linenos">259</span></a>    <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">diff_path</span><span class="p">):</span>
 </span><span id="L-260"><a href="#L-260"><span class="linenos">260</span></a>        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Decade difference file </span><span class="si">{</span><span class="n">diff_path</span><span class="si">}</span><span class="s2"> not found. Cannot plot.&quot;</span><span class="p">)</span>
@@ -415,7 +415,7 @@ expert title has a close normalized XML match.</p>
 </span><span id="L-297"><a href="#L-297"><span class="linenos">297</span></a>    <span class="n">plt</span><span class="o">.</span><span class="n">close</span><span class="p">(</span><span class="n">fig</span><span class="p">)</span>
 </span><span id="L-298"><a href="#L-298"><span class="linenos">298</span></a>
 </span><span id="L-299"><a href="#L-299"><span class="linenos">299</span></a>
-</span><span id="L-300"><a href="#L-300"><span class="linenos">300</span></a><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+</span><span id="L-300"><a href="#L-300"><span class="linenos">300</span></a><span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">():</span>
 </span><span id="L-301"><a href="#L-301"><span class="linenos">301</span></a>    <span class="n">parser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="vm">__doc__</span><span class="p">)</span>
 </span><span id="L-302"><a href="#L-302"><span class="linenos">302</span></a>    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span>
 </span><span id="L-303"><a href="#L-303"><span class="linenos">303</span></a>        <span class="s2">&quot;-d&quot;</span><span class="p">,</span> <span class="s2">&quot;--annotated-data&quot;</span><span class="p">,</span>
@@ -498,7 +498,7 @@ expert title has a close normalized XML match.</p>
                 <section id="NO_HEADER_VALUES">
                     <div class="attr variable">
             <span class="name">NO_HEADER_VALUES</span>        =
-<span class="default_value">{&#39;no headers&#39;, &#39;no header&#39;, &#39;[no header]&#39;}</span>
+<span class="default_value">{&#39;[no header]&#39;, &#39;no header&#39;, &#39;no headers&#39;}</span>
 
         
     </div>
@@ -518,7 +518,7 @@ expert title has a close normalized XML match.</p>
 
     </div>
     <a class="headerlink" href="#normalize_space"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="normalize_space-39"><a href="#normalize_space-39"><span class="linenos">39</span></a><span class="k">def</span> <span class="nf">normalize_space</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="normalize_space-39"><a href="#normalize_space-39"><span class="linenos">39</span></a><span class="k">def</span><span class="w"> </span><span class="nf">normalize_space</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
 </span><span id="normalize_space-40"><a href="#normalize_space-40"><span class="linenos">40</span></a>    <span class="k">return</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">text</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
 </span></pre></div>
 
@@ -537,7 +537,7 @@ expert title has a close normalized XML match.</p>
 
     </div>
     <a class="headerlink" href="#normalize_title"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="normalize_title-43"><a href="#normalize_title-43"><span class="linenos">43</span></a><span class="k">def</span> <span class="nf">normalize_title</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="normalize_title-43"><a href="#normalize_title-43"><span class="linenos">43</span></a><span class="k">def</span><span class="w"> </span><span class="nf">normalize_title</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
 </span><span id="normalize_title-44"><a href="#normalize_title-44"><span class="linenos">44</span></a>    <span class="n">text</span> <span class="o">=</span> <span class="n">unicodedata</span><span class="o">.</span><span class="n">normalize</span><span class="p">(</span><span class="s2">&quot;NFKC&quot;</span><span class="p">,</span> <span class="n">normalize_space</span><span class="p">(</span><span class="n">text</span><span class="p">))</span><span class="o">.</span><span class="n">casefold</span><span class="p">()</span>
 </span><span id="normalize_title-45"><a href="#normalize_title-45"><span class="linenos">45</span></a>    <span class="k">return</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;[\s.;:,-]+$&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
 </span></pre></div>
@@ -557,7 +557,7 @@ expert title has a close normalized XML match.</p>
 
     </div>
     <a class="headerlink" href="#titles_match"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="titles_match-48"><a href="#titles_match-48"><span class="linenos">48</span></a><span class="k">def</span> <span class="nf">titles_match</span><span class="p">(</span><span class="n">expert_title</span><span class="p">,</span> <span class="n">xml_title</span><span class="p">,</span> <span class="n">max_edit_share</span><span class="o">=</span><span class="mf">0.05</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="titles_match-48"><a href="#titles_match-48"><span class="linenos">48</span></a><span class="k">def</span><span class="w"> </span><span class="nf">titles_match</span><span class="p">(</span><span class="n">expert_title</span><span class="p">,</span> <span class="n">xml_title</span><span class="p">,</span> <span class="n">max_edit_share</span><span class="o">=</span><span class="mf">0.05</span><span class="p">):</span>
 </span><span id="titles_match-49"><a href="#titles_match-49"><span class="linenos">49</span></a>    <span class="n">expert_norm</span> <span class="o">=</span> <span class="n">normalize_title</span><span class="p">(</span><span class="n">expert_title</span><span class="p">)</span>
 </span><span id="titles_match-50"><a href="#titles_match-50"><span class="linenos">50</span></a>    <span class="n">xml_norm</span> <span class="o">=</span> <span class="n">normalize_title</span><span class="p">(</span><span class="n">xml_title</span><span class="p">)</span>
 </span><span id="titles_match-51"><a href="#titles_match-51"><span class="linenos">51</span></a>    <span class="k">if</span> <span class="ow">not</span> <span class="n">expert_norm</span> <span class="ow">or</span> <span class="ow">not</span> <span class="n">xml_norm</span><span class="p">:</span>
@@ -582,7 +582,7 @@ expert title has a close normalized XML match.</p>
 
     </div>
     <a class="headerlink" href="#title_lists_match"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="title_lists_match-58"><a href="#title_lists_match-58"><span class="linenos">58</span></a><span class="k">def</span> <span class="nf">title_lists_match</span><span class="p">(</span><span class="n">expert_titles</span><span class="p">,</span> <span class="n">xml_titles</span><span class="p">,</span> <span class="n">max_edit_share</span><span class="o">=</span><span class="mf">0.05</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="title_lists_match-58"><a href="#title_lists_match-58"><span class="linenos">58</span></a><span class="k">def</span><span class="w"> </span><span class="nf">title_lists_match</span><span class="p">(</span><span class="n">expert_titles</span><span class="p">,</span> <span class="n">xml_titles</span><span class="p">,</span> <span class="n">max_edit_share</span><span class="o">=</span><span class="mf">0.05</span><span class="p">):</span>
 </span><span id="title_lists_match-59"><a href="#title_lists_match-59"><span class="linenos">59</span></a>    <span class="n">expert_list</span> <span class="o">=</span> <span class="n">split_titles</span><span class="p">(</span><span class="n">expert_titles</span><span class="p">)</span>
 </span><span id="title_lists_match-60"><a href="#title_lists_match-60"><span class="linenos">60</span></a>    <span class="n">xml_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">item</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">xml_titles</span><span class="p">]</span>
 </span><span id="title_lists_match-61"><a href="#title_lists_match-61"><span class="linenos">61</span></a>    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">expert_list</span><span class="p">)</span> <span class="o">!=</span> <span class="nb">len</span><span class="p">(</span><span class="n">xml_list</span><span class="p">):</span>
@@ -614,7 +614,7 @@ expert title has a close normalized XML match.</p>
 
     </div>
     <a class="headerlink" href="#split_titles"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="split_titles-75"><a href="#split_titles-75"><span class="linenos">75</span></a><span class="k">def</span> <span class="nf">split_titles</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="split_titles-75"><a href="#split_titles-75"><span class="linenos">75</span></a><span class="k">def</span><span class="w"> </span><span class="nf">split_titles</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
 </span><span id="split_titles-76"><a href="#split_titles-76"><span class="linenos">76</span></a>    <span class="k">return</span> <span class="p">[</span>
 </span><span id="split_titles-77"><a href="#split_titles-77"><span class="linenos">77</span></a>        <span class="n">normalize_space</span><span class="p">(</span><span class="n">part</span><span class="p">)</span>
 </span><span id="split_titles-78"><a href="#split_titles-78"><span class="linenos">78</span></a>        <span class="k">for</span> <span class="n">part</span> <span class="ow">in</span> <span class="nb">str</span><span class="p">(</span><span class="n">text</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;;&quot;</span><span class="p">)</span>
@@ -637,7 +637,7 @@ expert title has a close normalized XML match.</p>
 
     </div>
     <a class="headerlink" href="#page_number_from_link"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="page_number_from_link-83"><a href="#page_number_from_link-83"><span class="linenos">83</span></a><span class="k">def</span> <span class="nf">page_number_from_link</span><span class="p">(</span><span class="n">link</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="page_number_from_link-83"><a href="#page_number_from_link-83"><span class="linenos">83</span></a><span class="k">def</span><span class="w"> </span><span class="nf">page_number_from_link</span><span class="p">(</span><span class="n">link</span><span class="p">):</span>
 </span><span id="page_number_from_link-84"><a href="#page_number_from_link-84"><span class="linenos">84</span></a>    <span class="n">patterns</span> <span class="o">=</span> <span class="p">[</span>
 </span><span id="page_number_from_link-85"><a href="#page_number_from_link-85"><span class="linenos">85</span></a>        <span class="sa">r</span><span class="s2">&quot;[#?&amp;]page=(\d+)&quot;</span><span class="p">,</span>
 </span><span id="page_number_from_link-86"><a href="#page_number_from_link-86"><span class="linenos">86</span></a>        <span class="sa">r</span><span class="s2">&quot;_(\d+)(?:\D*)$&quot;</span><span class="p">,</span>
@@ -665,7 +665,7 @@ expert title has a close normalized XML match.</p>
 
     </div>
     <a class="headerlink" href="#next_logical_page"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="next_logical_page-96"><a href="#next_logical_page-96"><span class="linenos"> 96</span></a><span class="k">def</span> <span class="nf">next_logical_page</span><span class="p">(</span><span class="n">current_page_number</span><span class="p">,</span> <span class="n">observed_page_number</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="next_logical_page-96"><a href="#next_logical_page-96"><span class="linenos"> 96</span></a><span class="k">def</span><span class="w"> </span><span class="nf">next_logical_page</span><span class="p">(</span><span class="n">current_page_number</span><span class="p">,</span> <span class="n">observed_page_number</span><span class="p">):</span>
 </span><span id="next_logical_page-97"><a href="#next_logical_page-97"><span class="linenos"> 97</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Track page order while ignoring implausible repeated OCR page links.&quot;&quot;&quot;</span>
 </span><span id="next_logical_page-98"><a href="#next_logical_page-98"><span class="linenos"> 98</span></a>    <span class="k">if</span> <span class="n">observed_page_number</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
 </span><span id="next_logical_page-99"><a href="#next_logical_page-99"><span class="linenos"> 99</span></a>        <span class="k">return</span> <span class="n">current_page_number</span>
@@ -693,7 +693,7 @@ expert title has a close normalized XML match.</p>
 
     </div>
     <a class="headerlink" href="#title_page_index"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="title_page_index-107"><a href="#title_page_index-107"><span class="linenos">107</span></a><span class="k">def</span> <span class="nf">title_page_index</span><span class="p">(</span><span class="n">protocol_path</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="title_page_index-107"><a href="#title_page_index-107"><span class="linenos">107</span></a><span class="k">def</span><span class="w"> </span><span class="nf">title_page_index</span><span class="p">(</span><span class="n">protocol_path</span><span class="p">):</span>
 </span><span id="title_page_index-108"><a href="#title_page_index-108"><span class="linenos">108</span></a>    <span class="n">root</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">parse_tei</span><span class="p">(</span><span class="n">protocol_path</span><span class="p">)</span>
 </span><span id="title_page_index-109"><a href="#title_page_index-109"><span class="linenos">109</span></a>    <span class="n">body</span> <span class="o">=</span> <span class="n">root</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;.//</span><span class="si">{</span><span class="n">TEI_NS</span><span class="si">}</span><span class="s2">body&quot;</span><span class="p">)</span>
 </span><span id="title_page_index-110"><a href="#title_page_index-110"><span class="linenos">110</span></a>    <span class="n">by_exact</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
@@ -752,7 +752,7 @@ expert title has a close normalized XML match.</p>
 
     </div>
     <a class="headerlink" href="#page_titles"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="page_titles-151"><a href="#page_titles-151"><span class="linenos">151</span></a><span class="k">def</span> <span class="nf">page_titles</span><span class="p">(</span><span class="n">sample_link</span><span class="p">,</span> <span class="n">by_exact</span><span class="p">,</span> <span class="n">by_page_number</span><span class="p">,</span> <span class="n">by_logical_page_number</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="page_titles-151"><a href="#page_titles-151"><span class="linenos">151</span></a><span class="k">def</span><span class="w"> </span><span class="nf">page_titles</span><span class="p">(</span><span class="n">sample_link</span><span class="p">,</span> <span class="n">by_exact</span><span class="p">,</span> <span class="n">by_page_number</span><span class="p">,</span> <span class="n">by_logical_page_number</span><span class="p">):</span>
 </span><span id="page_titles-152"><a href="#page_titles-152"><span class="linenos">152</span></a>    <span class="k">if</span> <span class="n">sample_link</span> <span class="ow">in</span> <span class="n">by_exact</span><span class="p">:</span>
 </span><span id="page_titles-153"><a href="#page_titles-153"><span class="linenos">153</span></a>        <span class="k">return</span> <span class="n">by_exact</span><span class="p">[</span><span class="n">sample_link</span><span class="p">]</span>
 </span><span id="page_titles-154"><a href="#page_titles-154"><span class="linenos">154</span></a>    <span class="n">page_number</span> <span class="o">=</span> <span class="n">page_number_from_link</span><span class="p">(</span><span class="n">sample_link</span><span class="p">)</span>
@@ -776,7 +776,7 @@ expert title has a close normalized XML match.</p>
 
     </div>
     <a class="headerlink" href="#classify_row"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="classify_row-160"><a href="#classify_row-160"><span class="linenos">160</span></a><span class="k">def</span> <span class="nf">classify_row</span><span class="p">(</span><span class="n">expert_titles</span><span class="p">,</span> <span class="n">xml_titles</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="classify_row-160"><a href="#classify_row-160"><span class="linenos">160</span></a><span class="k">def</span><span class="w"> </span><span class="nf">classify_row</span><span class="p">(</span><span class="n">expert_titles</span><span class="p">,</span> <span class="n">xml_titles</span><span class="p">):</span>
 </span><span id="classify_row-161"><a href="#classify_row-161"><span class="linenos">161</span></a>    <span class="n">expert_value</span> <span class="o">=</span> <span class="n">normalize_space</span><span class="p">(</span><span class="n">expert_titles</span><span class="p">)</span>
 </span><span id="classify_row-162"><a href="#classify_row-162"><span class="linenos">162</span></a>    <span class="k">if</span> <span class="ow">not</span> <span class="n">expert_value</span><span class="p">:</span>
 </span><span id="classify_row-163"><a href="#classify_row-163"><span class="linenos">163</span></a>        <span class="k">return</span> <span class="s2">&quot;missing_annotation&quot;</span><span class="p">,</span> <span class="kc">None</span>
@@ -811,7 +811,7 @@ expert title has a close normalized XML match.</p>
 
     </div>
     <a class="headerlink" href="#accuracy"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="accuracy-180"><a href="#accuracy-180"><span class="linenos">180</span></a><span class="k">def</span> <span class="nf">accuracy</span><span class="p">(</span><span class="n">protocol_path</span><span class="p">,</span> <span class="n">gold_standard</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="accuracy-180"><a href="#accuracy-180"><span class="linenos">180</span></a><span class="k">def</span><span class="w"> </span><span class="nf">accuracy</span><span class="p">(</span><span class="n">protocol_path</span><span class="p">,</span> <span class="n">gold_standard</span><span class="p">):</span>
 </span><span id="accuracy-181"><a href="#accuracy-181"><span class="linenos">181</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="accuracy-182"><a href="#accuracy-182"><span class="linenos">182</span></a><span class="sd">    Count page-level debate-title correctness matches for one protocol.</span>
 </span><span id="accuracy-183"><a href="#accuracy-183"><span class="linenos">183</span></a>
@@ -858,7 +858,7 @@ correct and incorrect counts.</p>
 
     </div>
     <a class="headerlink" href="#update_decade_difference"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="update_decade_difference-207"><a href="#update_decade_difference-207"><span class="linenos">207</span></a><span class="k">def</span> <span class="nf">update_decade_difference</span><span class="p">(</span><span class="n">decade_df</span><span class="p">,</span> <span class="n">estimate_path</span><span class="p">,</span> <span class="n">version</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="update_decade_difference-207"><a href="#update_decade_difference-207"><span class="linenos">207</span></a><span class="k">def</span><span class="w"> </span><span class="nf">update_decade_difference</span><span class="p">(</span><span class="n">decade_df</span><span class="p">,</span> <span class="n">estimate_path</span><span class="p">,</span> <span class="n">version</span><span class="p">):</span>
 </span><span id="update_decade_difference-208"><a href="#update_decade_difference-208"><span class="linenos">208</span></a>    <span class="n">diff_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">estimate_path</span><span class="p">,</span> <span class="s2">&quot;decade_difference.csv&quot;</span><span class="p">)</span>
 </span><span id="update_decade_difference-209"><a href="#update_decade_difference-209"><span class="linenos">209</span></a>    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">diff_path</span><span class="p">):</span>
 </span><span id="update_decade_difference-210"><a href="#update_decade_difference-210"><span class="linenos">210</span></a>        <span class="n">existing</span> <span class="o">=</span> <span class="n">pl</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">diff_path</span><span class="p">)</span>
@@ -891,7 +891,7 @@ correct and incorrect counts.</p>
 
     </div>
     <a class="headerlink" href="#write_decade_estimates"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="write_decade_estimates-225"><a href="#write_decade_estimates-225"><span class="linenos">225</span></a><span class="k">def</span> <span class="nf">write_decade_estimates</span><span class="p">(</span><span class="n">estimate_path</span><span class="p">,</span> <span class="n">version</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="write_decade_estimates-225"><a href="#write_decade_estimates-225"><span class="linenos">225</span></a><span class="k">def</span><span class="w"> </span><span class="nf">write_decade_estimates</span><span class="p">(</span><span class="n">estimate_path</span><span class="p">,</span> <span class="n">version</span><span class="p">):</span>
 </span><span id="write_decade_estimates-226"><a href="#write_decade_estimates-226"><span class="linenos">226</span></a>    <span class="n">by_year</span> <span class="o">=</span> <span class="n">pl</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">estimate_path</span><span class="p">,</span> <span class="s2">&quot;upper_bound.csv&quot;</span><span class="p">))</span>
 </span><span id="write_decade_estimates-227"><a href="#write_decade_estimates-227"><span class="linenos">227</span></a>    <span class="n">decade_df</span> <span class="o">=</span> <span class="p">(</span>
 </span><span id="write_decade_estimates-228"><a href="#write_decade_estimates-228"><span class="linenos">228</span></a>        <span class="n">by_year</span>
@@ -939,7 +939,7 @@ correct and incorrect counts.</p>
 
     </div>
     <a class="headerlink" href="#plot_decade_versions"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="plot_decade_versions-258"><a href="#plot_decade_versions-258"><span class="linenos">258</span></a><span class="k">def</span> <span class="nf">plot_decade_versions</span><span class="p">(</span><span class="n">estimate_path</span><span class="p">,</span> <span class="n">show</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">n_versions</span><span class="o">=</span><span class="mi">6</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="plot_decade_versions-258"><a href="#plot_decade_versions-258"><span class="linenos">258</span></a><span class="k">def</span><span class="w"> </span><span class="nf">plot_decade_versions</span><span class="p">(</span><span class="n">estimate_path</span><span class="p">,</span> <span class="n">show</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">n_versions</span><span class="o">=</span><span class="mi">6</span><span class="p">):</span>
 </span><span id="plot_decade_versions-259"><a href="#plot_decade_versions-259"><span class="linenos">259</span></a>    <span class="n">diff_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">estimate_path</span><span class="p">,</span> <span class="s2">&quot;decade_difference.csv&quot;</span><span class="p">)</span>
 </span><span id="plot_decade_versions-260"><a href="#plot_decade_versions-260"><span class="linenos">260</span></a>    <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">diff_path</span><span class="p">):</span>
 </span><span id="plot_decade_versions-261"><a href="#plot_decade_versions-261"><span class="linenos">261</span></a>        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Decade difference file </span><span class="si">{</span><span class="n">diff_path</span><span class="si">}</span><span class="s2"> not found. Cannot plot.&quot;</span><span class="p">)</span>
@@ -997,7 +997,7 @@ correct and incorrect counts.</p>
 
     </div>
     <a class="headerlink" href="#main"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="main-301"><a href="#main-301"><span class="linenos">301</span></a><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="main-301"><a href="#main-301"><span class="linenos">301</span></a><span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">():</span>
 </span><span id="main-302"><a href="#main-302"><span class="linenos">302</span></a>    <span class="n">parser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="vm">__doc__</span><span class="p">)</span>
 </span><span id="main-303"><a href="#main-303"><span class="linenos">303</span></a>    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span>
 </span><span id="main-304"><a href="#main-304"><span class="linenos">304</span></a>        <span class="s2">&quot;-d&quot;</span><span class="p">,</span> <span class="s2">&quot;--annotated-data&quot;</span><span class="p">,</span>
